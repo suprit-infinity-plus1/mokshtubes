@@ -1,8 +1,9 @@
-@extends('layouts.master')
+    @extends('layouts.master')
 @section('title', 'Moksh Tubes || Contact Us')
 
 @section('content')
 
+<section class="bg-light sec-padd-bottom">
     <div class="container py-5">
         <!-- Title in center -->
         <h1 class="text-center mb-5 fw-semibold my-4 title-color">Gulalwadi Mumbai </h1>
@@ -55,4 +56,105 @@
 
         </div>
     </div>
+    </section>
+
+
+
+
+    <!--Start contact form area-->
+    <section class="contact-form-area sec-padd-top">
+        <div class="container">
+            <div class="section-title">
+                <h2>get in <span class="thm-color">touch</span></h2>
+                <p>Let’s forge a connection — contact our team today. </p>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-8">
+
+                    <div class="contact-form">
+                        <form id="contact-form" name="contact_form" class="default-form" action="inc/sendmail.php"
+                            method="post">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" name="form_name" value="" placeholder="Your Name*" required="">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" name="form_email" value="" placeholder="Your Mail*" required="">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" name="form_phone" value="" placeholder="Phone">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" name="form_subject" value="" placeholder="Subject">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <textarea name="form_message" placeholder="Your Message.." required=""></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden"
+                                        value="">
+                                    <button class="thm-btn bg-clr1" type="submit" data-loading-text="Please wait...">send
+                                        message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="footer-contact-info">
+                        <div class="title">
+                            <h4>Quick Contact</h4>
+                            <p>If you are passionate about helping people: through education, or preventing then
+                                you </p>
+                        </div>
+                        <ul class="clearfix">
+                            <li>
+                                <div class="iocn-holder">
+                                    {{-- <span class="fa fa-home"></span> --}}
+                                    <span class="flaticon-web-page-home"></span>
+                                </div>
+                                <div class="text-holder">
+
+                                    <h6>Hinglaj Bhavan, Gulalwadi</h6>
+                                    <p>Mumbai, Maharashtra. 400004</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="iocn-holder">
+                                    <span class="icon-technology-1"></span>
+                                </div>
+                                <div class="text-holder">
+                                    <h6>Call Us On</h6>
+                                    <p>+91 97695 84950</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="iocn-holder">
+                                    <span class="icon-letter-1"></span>
+                                </div>
+                                <div class="text-holder">
+                                    <h6>Mail Us @</h6>
+                                    <a href="#">
+                                        <p>info@mokstubes.com</p>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--End contact form area-->
 @endsection
