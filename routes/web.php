@@ -9,6 +9,8 @@ Route::get('/', function () {
 });
 Route::get('/home', [MainController::class, 'home'])->name('home');
 Route::get('/contact-us', [MainController::class, 'contactUs'])->name('contact-us');
+Route::get('/contact-us/gulalwadi', [MainController::class, 'contactUsGulalwadi'])->name('contact-us-gulalwadi');
+Route::get('/contact-us/khetwadi', [MainController::class, 'contactUsKhetwadi'])->name('contact-us-khetwadi');
 Route::get('/about-us', [MainController::class, 'aboutUs'])->name('about-us');
 
 Route::get('/dashboard', function () {
@@ -21,4 +23,4 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';

@@ -9,10 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- For IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- master stylesheet -->
-    <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
-    <!-- Responsive stylesheet -->
-    <link rel="stylesheet" href="{{asset('assets/css/responsive.css')}}">
+
 
 
     {{--
@@ -21,8 +18,10 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" /> --}}
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="{{asset('assets/images/favicon/logo-moksh-32x32.png')}}" sizes="32x32">
-    <link rel="icon" type="image/png" href="{{asset('assets/images/favicon/logo-moksh-16x16.png')}}" sizes="16x16">
+    <link rel="icon" type="image/png" href="{{ asset('assets/images/favicon/logo-moksh-32x32.png') }}"
+        sizes="32x32">
+    <link rel="icon" type="image/png" href="{{ asset('assets/images/favicon/logo-moksh-16x16.png') }}"
+        sizes="16x16">
 
     <!-- Fixing Internet Explorer-->
     <!--[if lt IE 9]>
@@ -34,8 +33,19 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css
 ">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
 
 
+    @yield('extracss')
+
+    <!-- Font Awesome 6 CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+    <!-- master stylesheet -->
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+
+    <!-- Responsive stylesheet -->
+    <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
 
 
 </head>
@@ -49,13 +59,23 @@
         <!--Start Top bar area -->
         <section class="top-bar-area">
             <div class="container">
-                <div class="clearfix">
+                <div class="clearfix d-none d-sm-block">
                     <div class="float-start">
                         <p>Welcome to Moksh Tubes & Fittings LLP</p>
                     </div>
                     <div class="float-end">
                         <p><i class="fa fa-clock-o"></i>Monday - friday : 8:00 AM to 7:00 Pm</p>
                     </div>
+                </div>
+                <div class="d-block d-sm-none d-flex justify-content-between align-items-center text-white">
+                    <p>
+                        <i class="fa-solid fa-phone-volume"></i>
+                        <a href="tel:9769584950" class="text-white">+91 97695 84950</a>
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:info@mokshtubes.com" class="text-white">info@mokshtubes.com</a>
+                    </p>
                 </div>
 
             </div>
@@ -65,12 +85,12 @@
         <!--Start header area-->
         <header class="header-area">
             <div class="logo">
-                <a href="{{route('home')}}">
+                <a href="{{ route('home') }}">
                     <!-- <img src="images/logo/logo moksh1-1.png" alt="Awesome Logo"> -->
-                    <img src="{{asset('assets/images/logo/Board-1.png')}}" alt="Moksh Tubes Logo">
+                    <img src="{{ asset('assets/images/logo/Board-1.png') }}" alt="Moksh Tubes Logo">
                 </a>
             </div>
-            <div class="header-contact-info">
+            <div class="header-contact-info d-none d-md-block">
                 <ul>
                     <li>
                         <div class="iocn-holder">
@@ -96,6 +116,22 @@
                     </li>
                 </ul>
             </div>
+            <div class="d-none d-sm-block d-md-none small-header-contact-info">
+                <p>
+                    <i class="fa-solid fa-phone-volume"></i>
+                    <a href="tel:9769584950">+91 97695 84950</a>
+                </p>
+                <p>
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="mailto:info@mokshtubes.com">info@mokshtubes.com</a>
+                </p>
+            </div>
+            {{-- <a href="tel:9769584950">
+                <p>+91 97695 84950</p>
+            </a>
+            <a href="mailto:info@mokshtubes.com">
+                <p>info@mokshtubes.com</p>
+            </a> --}}
             <!-- <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="logo">
@@ -184,16 +220,19 @@
         <!--End header area-->
 
         <!--Start mainmenu area-->
-        <section class="mainmenu-area stricky">
-            <div class="container">
+        <section class="mainmenu-area stricky mainmenu-area-headers">
+            <div class="container-xl">
                 <div class="mainmenu-bg">
                     <div class="row">
-                        <div class="col-md-9 col-sm-12 col-xs-12">
+                        <div class="col-sm-12 col-xs-12">
+
+
                             <!--Start mainmenu-->
                             <nav class="main-menu navbar navbar-expand-lg">
                                 <div class="navbar-header">
-                                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
-                                        data-bs-target=".navbar-collapse">
+                                    <button type="button"
+                                        class="navbar-toggler ms-3 rounded-0 border-2 border-primary"
+                                        data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
                                         <span class="navbar-toggler-icon"></span>
                                     </button>
                                 </div>
@@ -203,17 +242,22 @@
                                                 href="http://127.0.0.1:8000/home">Home</a></li>
                                         <li class="nav-item"><a class="nav-link"
                                                 href="http://127.0.0.1:8000/about-us">About Us</a></li>
-                                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#"
+                                        <li class="nav-item dropdown"><a class="nav-link" href="#"
                                                 data-bs-toggle="dropdown">Products</a>
                                             <ul class="dropdown-menu"
-                                                style="display: none; height: 326px; padding-top: 12px; margin-top: 0px; padding-bottom: 12px; margin-bottom: 0px;">
-                                                <li><a class="dropdown-item" href="#">PIPES &amp; TUBES</a></li>
-                                                <li><a class="dropdown-item" href="#">SHEETS, PLATES &amp; COILS</a>
+                                                style="display: none; overflow-y: auto;  padding-top: 12px; margin-top: 0px; padding-bottom: 12px; margin-bottom: 0px;">
+                                                <li><a class="dropdown-item text-wrap" href="#">PIPES &amp;
+                                                        TUBES</a></li>
+                                                <li><a class="dropdown-item text-wrap" href="#">SHEETS, PLATES
+                                                        &amp; COILS</a>
                                                 </li>
-                                                <li><a class="dropdown-item" href="#">BARS &amp; RODS</a></li>
-                                                <li><a class="dropdown-item" href="#">PIPE FITTINGS, FLANGES &amp;
+                                                <li><a class="dropdown-item text-wrap" href="#">BARS &amp;
+                                                        RODS</a></li>
+                                                <li><a class="dropdown-item text-wrap" href="#">PIPE FITTINGS,
+                                                        FLANGES &amp;
                                                         FASTENERS</a></li>
-                                                <li><a class="dropdown-item" href="#">SPECIAL FABRICATED PRODUCTS</a>
+                                                <li><a class="dropdown-item text-wrap" href="#">SPECIAL
+                                                        FABRICATED PRODUCTS</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -225,7 +269,7 @@
                                     <ul class="mobile-menu clearfix">
                                         <li><a href="http://127.0.0.1:8000/home">Home</a></li>
                                         <li><a href="http://127.0.0.1:8000/about-us">About Us</a></li>
-                                        <li class="dropdown"><a href="#">Products</a>
+                                        {{-- <li class="dropdown flex-nowrap"><a href="#">Products</a>
                                             <ul>
                                                 <li><a href="#">PIPES &amp; TUBES</a></li>
                                                 <li><a href="#">SHEETS, PLATES &amp; COILS</a></li>
@@ -233,7 +277,16 @@
                                                 <li><a href="#">PIPE FITTINGS, FLANGES &amp; FASTENERS</a></li>
                                                 <li><a href="#">SPECIAL FABRICATED PRODUCTS</a></li>
                                             </ul>
-                                            <div class="dropdown-btn"></div>
+                                            <div class="dropdown-btn" data-bs-toggle="dropdown"></div>
+                                        </li> --}}
+                                        <li class="dropdown"><a href="#">Products</a>
+                                            <ul>
+                                                <li><a href="#">PIPES & TUBES</a></li>
+                                                <li><a href="#">SHEETS, PLATES & COILS</a></li>
+                                                <li><a href="#">BARS & RODS</a></li>
+                                                <li><a href="#">PIPE FITTINGS, FLANGES & FASTENERS</a></li>
+                                                <li><a href="#">SPECIAL FABRICATED PRODUCTS</a></li>
+                                            </ul>
                                         </li>
                                         <li><a href="#">MATERIALS</a></li>
                                         <li><a href="#">QUALITY</a></li>
@@ -282,22 +335,39 @@
                                 <div class="logo-part">
                                     <a href="#" class="footer-logo text-uppercase">
                                         <!-- <img src="./images/logo/logo moksh1-1.png" alt="logo"> -->
-                                        <img src="{{asset('assets/images/logo/Board-1.png')}}" alt="Awesome Logo">
+                                        <img src="{{ asset('assets/images/logo/Board-1.png') }}" alt="Awesome Logo">
                                     </a>
                                 </div>
-                                <p class="footer-words">Over 24 years experience and of the international user standards
+                                <p class="footer-words">Over 24 years experience and of the international user
+                                    standards
                                     and technological works changes and industrial systems, we dedicated to provide the
                                     best and economical. </p>
-                                <ul class="list-inline footer-social">
-                                    <li><a href="https://www.facebook.com/mokshtubes/"><i
-                                                class="fa fa-facebook"></i></a></li>
-                                    <li><a
-                                            href="https://www.instagram.com/mokshtubesandfittingsllp?igsh=YjN6d3B4MzlnNDc1&utm_source=qr"><i
-                                                class="fa fa-instagram"></i></a></li>
-                                    <li><a href="https://www.linkedin.com/company/moksh-tubes/?viewAsMember=true"><i
-                                                class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="https://x.com/Moksh_Tubes"><i class="fa fa-twitter"></i></a></li>
+                                <ul class="list-inline footer-social mb-0">
+                                    <li class="list-inline-item">
+                                        <a href="https://www.facebook.com/mokshtubes/" target="_blank"
+                                            rel="noopener">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="https://www.instagram.com/mokshtubesandfittingsllp?igsh=YjN6d3B4MzlnNDc1&utm_source=qr"
+                                            target="_blank" rel="noopener">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="https://www.linkedin.com/company/moksh-tubes/?viewAsMember=true"
+                                            target="_blank" rel="noopener">
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="https://x.com/Moksh_Tubes" target="_blank" rel="noopener">
+                                            <i class="fab fa-x-twitter"></i>
+                                        </a>
+                                    </li>
                                 </ul>
+
 
                             </div>
                         </div>
@@ -336,7 +406,7 @@
                                 <h3 class="footer-title">Useful Links</h3>
                                 <ul class="footer-list">
                                     <li><a href="#">Home</a></li>
-                                    <li><a href="{{route('about-us')}}">About Us</a></li>
+                                    <li><a href="{{ route('about-us') }}">About Us</a></li>
                                     <li><a href="#">Our Products</a></li>
                                     <li><a href="#">Blogs</a></li>
                                     <li><a href="#">Contact Us</a></li>
@@ -346,12 +416,12 @@
                         </div>
 
                     </div>
-                    <div class="footer-col">
+                    {{-- <div class="footer-col">
                         <h3 class="footer-title ">Materials</h3>
                         <div class="row">
                             <!-- Column 1: Nickel Alloys -->
                             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                                <h4 class="text-warning">Nickel Alloys</h4>
+                                <h5 class="text-warning">Nickel Alloys</h5>
                                 <ul class="footer-list footer-col">
                                     <li><a href="#">Hastelloy C276 – UNS N10276</a></li>
                                     <li><a href="#">Inconel 625 – UNS N06625</a></li>
@@ -370,7 +440,7 @@
 
                             <!-- Column 2: Nickel Alloys Continued  + Duplex/Super Duplex-->
                             <div class="col-lg-3 col-md-6 col-sm-12 mb-4 footer-col">
-                                <h4 class="text-warning">Nickel Alloys (contd.)</h4>
+                                <h5 class="text-warning">Nickel Alloys (contd.)</h5>
                                 <ul class="footer-list footer-col">
                                     <li><a href="#">Hastelloy X – UNS N06002</a></li>
                                     <li><a href="#">Incoloy 925 – UNS N09925</a></li>
@@ -384,7 +454,7 @@
                                     <li><a href="#">A286 GR. 660 – UNS S66286</a></li>
                                 </ul>
 
-                                <h4 class="text-warning mt-4">Duplex & Super Duplex Alloys</h4>
+                                <h5 class="text-warning mt-4">Duplex & Super Duplex Alloys</h5>
                                 <ul class="footer-list footer-col">
                                     <li><a href="#">Super Duplex 2507 – UNS S32750</a></li>
                                     <li><a href="#">Duplex 2205 – UNS S32205</a></li>
@@ -395,7 +465,7 @@
 
                             <!-- Column 3: Titanium -->
                             <div class="col-lg-3 col-md-6 col-sm-12">
-                                <h4 class="text-warning">Titanium Alloys</h4>
+                                <h5 class="text-warning">Titanium Alloys</h5>
                                 <ul class="footer-list footer-col">
                                     <li><a href="#">Titanium Grade 1 – UNS R50250</a></li>
                                     <li><a href="#">Titanium Grade 7 – UNS R52400</a></li>
@@ -408,7 +478,7 @@
 
                             <!-- Column 4: Stainless Steel + Rare Alloys -->
                             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                                <h4 class="text-warning">Stainless Steel</h4>
+                                <h5 class="text-warning">Stainless Steel</h5>
                                 <ul class="footer-list footer-col">
                                     <li><a href="#">Stainless Steel 304 – UNS S30400</a></li>
                                     <li><a href="#">Stainless Steel 321 – UNS S32100</a></li>
@@ -420,7 +490,7 @@
                                     <li><a href="#">Stainless Steel 316Ti – UNS S31635</a></li>
                                 </ul>
 
-                                <h4 class="text-warning mt-4">Rare To Find Alloys</h4>
+                                <h5 class="text-warning mt-4">Rare To Find Alloys</h5>
                                 <ul class="footer-list footer-col">
                                     <li><a href="#">Zirconium Grade 702 – UNS R70250</a></li>
                                     <li><a href="#">Tantalum Grade R05200 – UNS R05200</a></li>
@@ -431,29 +501,31 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
             <div class="footer-bottom">
                 <div class="container">
-                    <div class="row">
+                    <div class="row align-items-center">
                         <div class="col-md-3">
                             <p class="copyright">© 2025 all rights reserved</p>
                         </div>
                         <div class="col-md-9">
-                            <nav class="footer-menu float-end">
-                                <ul class="list-inline">
-                                    <li><a href="#">home</a></li>
-                                    <li><a href="#">Products</a></li>
-                                    <li><a href="#">term &amp; condition</a></li>
-                                    <li><a href="#">privacy policy</a></li>
-                                    <li><a href="#">contact us</a></li>
+                            <nav class="footer-menu d-flex justify-content-end">
+                                <ul class="nav">
+                                    <li class="nav-item"><a class="nav-link" href="#">home</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">term &amp; condition</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="#">privacy policy</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">contact us</a></li>
                                 </ul>
                             </nav>
                         </div>
                     </div>
                 </div>
             </div>
+
         </footer>
 
 
@@ -461,58 +533,58 @@
         <div class="scroll-to-top scroll-to-target" data-bs-target="html"><span class="fa fa-angle-up"></span></div>
         <div class="prealoader"></div>
         <!-- main jQuery -->
-        <script src="{{asset('assets/js/jquery.js')}}"></script>
+        <script src="{{ asset('assets/js/jquery.js') }}"></script>
         <!-- bootstrap -->
-        <script src="{{asset('assets/js/bootstrap.min.js')}}"></script>
+        <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
 
 
         <!-- Bootstrap 5.3 Bundle JS (includes Popper) -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- bx slider -->
-        <script src="{{asset('assets/js/jquery.bxslider.min.js')}}"></script>
+        <script src="{{ asset('assets/js/jquery.bxslider.min.js') }}"></script>
         <!-- count to -->
-        <script src="{{asset('assets/js/jquery.countTo.js')}}"></script>
+        <script src="{{ asset('assets/js/jquery.countTo.js') }}"></script>
         <!-- owl carousel -->
-        <script src="{{asset('assets/js/owl.carousel.min.js')}}"></script>
+        <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
         <!-- validate -->
-        <script src="{{asset('assets/js/validation.js')}}"></script>
+        <script src="{{ asset('assets/js/validation.js') }}"></script>
         <!-- mixit up -->
-        <script src="{{asset('assets/js/jquery.mixitup.min.js')}}"></script>
+        <script src="{{ asset('assets/js/jquery.mixitup.min.js') }}"></script>
         <!-- easing -->
-        <script src="{{asset('assets/js/jquery.easing.min.js')}}"></script>
+        <script src="{{ asset('assets/js/jquery.easing.min.js') }}"></script>
         <!-- gmap helper -->
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A"></script>
         <!--gmap script-->
-        <script src="{{asset('assets/js/gmaps.js')}}"></script>
-        <script src="{{asset('assets/js/map-helper.js')}}"></script>
+        <script src="{{ asset('assets/js/gmaps.js') }}"></script>
+        <script src="{{ asset('assets/js/map-helper.js') }}"></script>
         <!-- fancy box -->
-        <script src="{{asset('assets/js/jquery.fancybox.pack.js')}}"></script>
-        <script src="{{asset('assets/js/jquery.appear.js')}}"></script>
+        <script src="{{ asset('assets/js/jquery.fancybox.pack.js') }}"></script>
+        <script src="{{ asset('assets/js/jquery.appear.js') }}"></script>
         <!-- isotope script-->
-        <script src="{{asset('assets/js/isotope.js')}}"></script>
-        <script src="{{asset('assets/js/jquery.prettyPhoto.js')}}"></script>
-        <script src="{{asset('assets/js/jquery.bootstrap-touchspin.js')}}"></script>
+        <script src="{{ asset('assets/js/isotope.js') }}"></script>
+        <script src="{{ asset('assets/js/jquery.prettyPhoto.js') }}"></script>
+        <script src="{{ asset('assets/js/jquery.bootstrap-touchspin.js') }}"></script>
 
         <!-- jQuery ui js -->
-        <script src="{{asset('assets/js/jquery-ui.js')}}"></script>
-        <script src="{{asset('assets/js/SmoothScroll.js')}}"></script>
-        <script src="{{asset('assets/js/validation.js')}}"></script>
-        <script src="{{asset('assets/js/wow.min.js')}}"></script>
+        <script src="{{ asset('assets/js/jquery-ui.js') }}"></script>
+        {{-- <script src="{{ asset('assets/js/SmoothScroll.js') }}"></script> --}}
+        <script src="{{ asset('assets/js/validation.js') }}"></script>
+        <script src="{{ asset('assets/js/wow.min.js') }}"></script>
 
 
 
         <!-- revolution slider js -->
-        <script src="{{asset('assets/js/jquery.themepunch.tools.min.js')}}"></script>
-        <script src="{{asset('assets/js/jquery.themepunch.revolution.min.js')}}"></script>
-        <script src="{{asset('assets/js/revolution.extension.actions.min.js')}}"></script>
-        <script src="{{asset('assets/js/revolution.extension.carousel.min.js')}}"></script>
-        <script src="{{asset('assets/js/revolution.extension.kenburn.min.js')}}"></script>
-        <script src="{{asset('assets/js/revolution.extension.layeranimation.min.js')}}"></script>
-        <script src="{{asset('assets/js/revolution.extension.migration.min.js')}}"></script>
-        <script src="{{asset('assets/js/revolution.extension.navigation.min.js')}}"></script>
-        <script src="{{asset('assets/js/revolution.extension.parallax.min.js')}}"></script>
-        <script src="{{asset('assets/js/revolution.extension.slideanims.min.js')}}"></script>
-        <script src="{{asset('assets/js/revolution.extension.video.min.js')}}"></script>
+        <script src="{{ asset('assets/js/jquery.themepunch.tools.min.js') }}"></script>
+        <script src="{{ asset('assets/js/jquery.themepunch.revolution.min.js') }}"></script>
+        <script src="{{ asset('assets/js/revolution.extension.actions.min.js') }}"></script>
+        <script src="{{ asset('assets/js/revolution.extension.carousel.min.js') }}"></script>
+        <script src="{{ asset('assets/js/revolution.extension.kenburn.min.js') }}"></script>
+        <script src="{{ asset('assets/js/revolution.extension.layeranimation.min.js') }}"></script>
+        <script src="{{ asset('assets/js/revolution.extension.migration.min.js') }}"></script>
+        <script src="{{ asset('assets/js/revolution.extension.navigation.min.js') }}"></script>
+        <script src="{{ asset('assets/js/revolution.extension.parallax.min.js') }}"></script>
+        <script src="{{ asset('assets/js/revolution.extension.slideanims.min.js') }}"></script>
+        <script src="{{ asset('assets/js/revolution.extension.video.min.js') }}"></script>
 
 
         {{--
@@ -520,18 +592,18 @@
             integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg=="
             crossorigin="anonymous" referrerpolicy="no-referrer"></script> --}}
         <!-- thm custom script -->
-        <script src="{{asset('assets/js/custom.js')}}"></script>
+        <script src="{{ asset('assets/js/custom.js') }}"></script>
         <script>
             // Enable dropdown on hover for desktop
-            document.querySelectorAll('.dropdown').forEach(function (dropdown) {
-                dropdown.addEventListener('mouseover', function () {
+            document.querySelectorAll('.dropdown').forEach(function(dropdown) {
+                dropdown.addEventListener('mouseover', function() {
                     let toggle = this.querySelector('[data-bs-toggle="dropdown"]');
                     if (toggle && window.innerWidth > 992) {
                         let dropdownInstance = bootstrap.Dropdown.getOrCreateInstance(toggle);
                         dropdownInstance.show();
                     }
                 });
-                dropdown.addEventListener('mouseleave', function () {
+                dropdown.addEventListener('mouseleave', function() {
                     let toggle = this.querySelector('[data-bs-toggle="dropdown"]');
                     if (toggle && window.innerWidth > 992) {
                         let dropdownInstance = bootstrap.Dropdown.getOrCreateInstance(toggle);

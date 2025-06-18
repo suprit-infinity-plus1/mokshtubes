@@ -19,4 +19,12 @@ class MainController extends Controller
     {
         return view('frontend.contact');
     }
+    public function contactUsGulalwadi()
+    {
+        return view('frontend.gulalwadi');
+    }
+    public function contactUsKhetwadi()
+    {
+        return view('frontend.khetwadi');
+    }
 }
