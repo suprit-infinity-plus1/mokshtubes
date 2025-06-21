@@ -226,8 +226,6 @@
                     <div class="row">
                         <div class="col-sm-12 col-xs-12">
 
-
-                            <!--Start mainmenu-->
                             <nav class="main-menu navbar navbar-expand-lg">
                                 <div class="navbar-header">
                                     <button type="button"
@@ -242,43 +240,82 @@
                                                 href="http://127.0.0.1:8000/home">Home</a></li>
                                         <li class="nav-item"><a class="nav-link"
                                                 href="http://127.0.0.1:8000/about-us">About Us</a></li>
-                                        <li class="nav-item dropdown"><a class="nav-link" href="#"
-                                                data-bs-toggle="dropdown">Products</a>
+                                        <li class="nav-item dropdown"><a class="nav-link"
+                                                href="{{ url('/products') }}" data-bs-toggle="dropdown">Products</a>
                                             <ul class="dropdown-menu"
-                                                style="display: none; overflow-y: auto;  padding-top: 12px; margin-top: 0px; padding-bottom: 12px; margin-bottom: 0px;">
-                                                <li><a class="dropdown-item text-wrap" href="#">PIPES &amp;
-                                                        TUBES</a></li>
-                                                <li><a class="dropdown-item text-wrap" href="#">SHEETS, PLATES
+                                                style="display: none; overflow-x: auto;  padding-top: 12px; margin-top: 0px; padding-bottom: 12px; margin-bottom: 0px;">
+                                                <li>
+                                                    <a class="dropdown-item text-wrap"
+                                                        href="{{ url('products/pipes-tubes') }}">PIPES &amp; TUBES</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-wrap" href="#">SHEETS, PLATES
                                                         &amp; COILS</a>
                                                 </li>
-                                                <li><a class="dropdown-item text-wrap" href="#">BARS &amp;
-                                                        RODS</a></li>
-                                                <li><a class="dropdown-item text-wrap" href="#">PIPE FITTINGS,
-                                                        FLANGES &amp;
-                                                        FASTENERS</a></li>
-                                                <li><a class="dropdown-item text-wrap" href="#">SPECIAL
+                                                <li>
+                                                    <a class="dropdown-item text-wrap" href="#">BARS &amp;
+                                                        RODS</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-wrap" href="#">PIPE FITTINGS,
+                                                        FLANGES &amp; FASTENERS</a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-wrap" href="#">SPECIAL
                                                         FABRICATED PRODUCTS</a>
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li class="nav-item"><a class="nav-link" href="#">MATERIALS</a></li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link" href="{{ route('materials') }}">Materials</a>
+                                            <ul class="dropdown-menu"
+                                                style="display: none; overflow-x: auto; padding-top: 12px; margin-top: 0px; padding-bottom: 12px; margin-bottom: 0px;">
+
+                                                <li>
+                                                    <a class="dropdown-item text-wrap"
+                                                        href="{{ url('/materials/nickel-alloys') }}">
+                                                        Nickel Alloys
+                                                    </a>
+                                                </li>
+
+                                                <li><a class="dropdown-item text-wrap" href="#">Titanium
+                                                        Alloys</a></li>
+                                                <li><a class="dropdown-item text-wrap" href="#">Duplex / Super
+                                                        Duplex</a></li>
+                                                <li><a class="dropdown-item text-wrap" href="#">Austenitic
+                                                        Stainless Steel</a></li>
+                                                <li><a class="dropdown-item text-wrap" href="#">High Strength
+                                                        Stainless Steel</a></li>
+                                                <li><a class="dropdown-item text-wrap" href="#">Super Austenitic
+                                                        Stainless Steel</a></li>
+                                                <li><a class="dropdown-item text-wrap" href="#">Carbon Steel</a>
+                                                </li>
+                                                <li><a class="dropdown-item text-wrap" href="#">Engineering
+                                                        Steels</a></li>
+                                                <li><a class="dropdown-item text-wrap" href="#">Aluminium
+                                                        Alloys</a></li>
+                                                <li><a class="dropdown-item text-wrap" href="#">Copper
+                                                        Alloys</a></li>
+                                                <li><a class="dropdown-item text-wrap" href="#">Zirconium</a>
+                                                </li>
+                                                <li><a class="dropdown-item text-wrap" href="#">Tantalum</a>
+                                                </li>
+                                                <li><a class="dropdown-item text-wrap" href="#">Special
+                                                        Alloys</a></li>
+                                                <li><a class="dropdown-item text-wrap" href="#">Haynes
+                                                        Superalloys</a></li>
+
+                                            </ul>
+                                        </li>
+
                                         <li class="nav-item"><a class="nav-link" href="#">QUALITY</a></li>
                                         <li class="nav-item"><a class="nav-link" href="#">Blogs</a></li>
-                                        <!-- <li><a href="#">Contact Us</a></li> -->
+
                                     </ul>
                                     <ul class="mobile-menu clearfix">
                                         <li><a href="http://127.0.0.1:8000/home">Home</a></li>
                                         <li><a href="http://127.0.0.1:8000/about-us">About Us</a></li>
-                                        {{-- <li class="dropdown flex-nowrap"><a href="#">Products</a>
-                                            <ul>
-                                                <li><a href="#">PIPES &amp; TUBES</a></li>
-                                                <li><a href="#">SHEETS, PLATES &amp; COILS</a></li>
-                                                <li><a href="#">BARS &amp; RODS</a></li>
-                                                <li><a href="#">PIPE FITTINGS, FLANGES &amp; FASTENERS</a></li>
-                                                <li><a href="#">SPECIAL FABRICATED PRODUCTS</a></li>
-                                            </ul>
-                                            <div class="dropdown-btn" data-bs-toggle="dropdown"></div>
-                                        </li> --}}
+
                                         <li class="dropdown"><a href="#">Products</a>
                                             <ul>
                                                 <li><a href="#">PIPES & TUBES</a></li>
@@ -291,26 +328,16 @@
                                         <li><a href="#">MATERIALS</a></li>
                                         <li><a href="#">QUALITY</a></li>
                                         <li><a href="#">Blogs</a></li>
-                                        <!-- <li><a href="#">Contact Us</a></li> -->
+
                                     </ul>
                                 </div>
                             </nav>
-                            <!--End mainmenu-->
+
                         </div>
                     </div>
                     <div class="right-column">
                         <div class="right-area">
-                            <!-- <div class="nav_side_content">
-                        <div class="search_option">
-                            <button class="search tran3s dropdown-toggle color1_bg" id="searchDropdown"
-                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
-                                    class="fa fa-search" aria-hidden="true"></i></button>
-                            <form action="#" class="dropdown-menu" aria-labelledby="searchDropdown">
-                                <input type="text" placeholder="Search...">
-                                <button><i class="fa fa-search" aria-hidden="true"></i></button>
-                            </form>
-                        </div>
-                    </div> -->
+
                             <div class="link_btn float_right">
                                 <a href="http://127.0.0.1:8000/contact-us" class="thm-btn bg-clr1">Contact Us</a>
                             </div>
