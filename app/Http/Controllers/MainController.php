@@ -27,14 +27,71 @@ class MainController extends Controller
     {
         return view('frontend.khetwadi');
     }
+    // public function materials()
+    // {
+    //     return view('frontend.materials');
+    // }
     public function materials()
     {
-        return view('frontend.materials');
+        $materials = [
+            'Hastelloy',
+            'Monel',
+            'Inconel',
+            'Incoloy',
+            'Nickel Based Superalloys',
+            'Titanium',
+            'Duplex & Super Duplex',
+            'Austenitic Stainless Steel',
+            'High Strength Stainless Steel',
+            'Super Austenitic Stainless Steel',
+            'Zirconium',
+            'Engineering Steels',
+            'Aluminium Alloys',
+            'Copper Alloys',
+            'Hard To Find & Special Alloys',
+            'Haynes Superalloys',
+        ];
+
+        return view(
+            'frontend.materials',
+            compact('materials')
+        );
     }
-    public function nickelAlloys()
+
+    public function hastelloy()
     {
-        return view('frontend.materials.nickel-alloys.index');
+        $grades = [
+            ['name' => 'C276', 'slug' => 'c276'],
+            ['name' => 'C22', 'slug' => 'c22'],
+            ['name' => 'C4', 'slug' => 'c4'],
+            ['name' => 'B2', 'slug' => 'b2'],
+            ['name' => 'B3', 'slug' => 'b3'],
+            ['name' => 'C2000', 'slug' => 'c2000'],
+            ['name' => 'G3', 'slug' => 'g3'],
+            ['name' => 'G30', 'slug' => 'g30'],
+            ['name' => 'Hastelloy X', 'slug' => 'hastelloy-x'],
+        ];
+
+        return view('frontend.materials.hastelloy.index', compact('grades'));
     }
+
+        public function showMaterialGrade($family, $grade)
+        {
+            $viewPath = "frontend.materials.$family.$grade";
+
+            if (view()->exists($viewPath)) {
+                return view($viewPath);
+            }
+
+            abort(404, 'Material grade page not found.');
+        }
+
+
+
+    // public function nickelAlloys()
+    // {
+    //     return view('frontend.materials.nickel-alloys.index');
+    // }
     public function hastelloyC276()
     {
         return view('frontend.materials.hastelloy-c276');
@@ -56,19 +113,19 @@ class MainController extends Controller
     public function pipesTubes()
     {
         $types = [
-    ['name' => 'Welded Pipes', 'slug' => 'welded-pipes'],
-    ['name' => 'Seamless Pipes', 'slug' => 'seamless-pipes'],
-    ['name' => 'Capillaries', 'slug' => 'capillaries'],
-    ['name' => 'Hollow Section Pipe', 'slug' => 'hollow-section-pipe'],
-    ['name' => 'U-Bent Tubes', 'slug' => 'u-bent-tubes'],
-    ['name' => 'Boiler & Heat Exchanger Tubes', 'slug' => 'boiler-heat-exchanger-tubes'],
-];
+            ['name' => 'Welded Pipes', 'slug' => 'welded-pipes'],
+            ['name' => 'Seamless Pipes', 'slug' => 'seamless-pipes'],
+            ['name' => 'Capillaries', 'slug' => 'capillaries'],
+            ['name' => 'Hollow Section Pipe', 'slug' => 'hollow-section-pipe'],
+            ['name' => 'U-Bent Tubes', 'slug' => 'u-bent-tubes'],
+            ['name' => 'Boiler & Heat Exchanger Tubes', 'slug' => 'boiler-heat-exchanger-tubes'],
+        ];
 
         return view('frontend.products.pipes-tubes.index', compact('types'));
     }
 
     public function weldedPipes()
     {
-         return view('frontend.products.pipes-tubes.welded');
+        return view('frontend.products.pipes-tubes.welded');
     }
 }

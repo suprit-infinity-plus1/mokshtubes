@@ -13,7 +13,9 @@ Route::get('/contact-us/gulalwadi', [MainController::class, 'contactUsGulalwadi'
 Route::get('/contact-us/khetwadi', [MainController::class, 'contactUsKhetwadi'])->name('contact-us-khetwadi');
 Route::get('/about-us', [MainController::class, 'aboutUs'])->name('about-us');
 Route::get('/materials', [MainController::class, 'materials'])->name('materials');
-Route::get('/materials/nickel-alloys', [MainController::class, 'nickelAlloys'])->name('materials.nickel-alloys');
+Route::get('/materials/hastelloy', [MainController::class, 'hastelloy'])->name('materials.hastelloy');
+Route::get('/materials/{family}/{grade}', [MainController::class, 'showMaterialGrade'])->name('material.grade');
+// Route::get('/materials/nickel-alloys', [MainController::class, 'nickelAlloys'])->name('materials.nickel-alloys');
 Route::get('/materials/{category}/{slug}', [MainController::class, 'showMaterial'])->name('materials.grade');
 Route::get('/products', [MainController::class, 'products'])->name('products');
 Route::get('/products/pipes-tubes', [MainController::class, 'pipesTubes'])->name('products.pipes-tubes');

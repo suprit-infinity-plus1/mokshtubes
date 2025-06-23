@@ -135,64 +135,98 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Mechanical Properties</h2>
-            </div>
+   <section class="sec-padd-top sec-padd-bottom bg-light">
+    <div class="container">
+        <div class="section-title center mb-5">
+            <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+        </div>
 
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped text-center align-middle">
-                            <thead class="table-dark">
-                                <tr>
-                                    <th>Property</th>
-                                    <th>Metric</th>
-                                    <th>Imperial</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        Tensile Strength (@thickness 4.80–25.4 mm, 538°C / @thickness 0.189–1.00 in, 1000°F)
-                                    </td>
-                                    <td>601.2 MPa</td>
-                                    <td>87200 psi</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        Yield Strength (0.2% offset, @thickness 2.40 mm, 427°C / @thickness 0.0945 in,
-                                        801°F)
-                                    </td>
-                                    <td>204.8 MPa</td>
-                                    <td>29700 psi</td>
-                                </tr>
-                                <tr>
-                                    <td>Elastic Modulus (RT)</td>
-                                    <td>205 GPa</td>
-                                    <td>29700 ksi</td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        Elongation at Break (in 50.8 mm, @thickness 1.60–4.70 mm, 204°C / 0.0630–0.185 in,
-                                        399°F)
-                                    </td>
-                                    <td>56%</td>
-                                    <td>56%</td>
-                                </tr>
-                                <tr>
-                                    <td>Hardness, Rockwell B (plate)</td>
-                                    <td>87</td>
-                                    <td>87</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+        <!-- Physical Properties Table -->
+        <div class="row justify-content-center mb-5">
+            <div class="col-lg-8">
+                <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped align-middle">
+                        <thead class="table-dark text-center">
+                            <tr>
+                                <th>Property</th>
+                                <th>Value</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">
+                            <tr>
+                                <td>Density</td>
+                                <td>8.89 g/cm³</td>
+                            </tr>
+                            <tr>
+                                <td>Melting Point</td>
+                                <td>1370°C (2500°F)</td>
+                            </tr>
+                            <tr>
+                                <td>Tensile Strength</td>
+                                <td>115,000 psi / 790 MPa</td>
+                            </tr>
+                            <tr>
+                                <td>Yield Strength (0.2% Offset)</td>
+                                <td>52,000 psi / 355 MPa</td>
+                            </tr>
+                            <tr>
+                                <td>Elongation</td>
+                                <td>40%</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
-    </section>
+
+        <!-- Mechanical Properties Table -->
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped align-middle">
+                        <thead class="table-dark text-center">
+                            <tr>
+                                <th>Property</th>
+                                <th>Metric</th>
+                                <th>Imperial</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">
+                            <tr>
+                                <td>Tensile Strength (@ 538°C / 1000°F)</td>
+                                <td>601.2 MPa</td>
+                                <td>87,200 psi</td>
+                            </tr>
+                            <tr>
+                                <td>Yield Strength (0.2% offset @ 427°C / 801°F)</td>
+                                <td>204.8 MPa</td>
+                                <td>29,700 psi</td>
+                            </tr>
+                            <tr>
+                                <td>Elastic Modulus (RT)</td>
+                                <td>205 GPa</td>
+                                <td>29,700 ksi</td>
+                            </tr>
+                            <tr>
+                                <td>Elongation at Break (@ 204°C / 399°F)</td>
+                                <td>56%</td>
+                                <td>56%</td>
+                            </tr>
+                            <tr>
+                                <td>Hardness, Rockwell B (plate)</td>
+                                <td>87</td>
+                                <td>87</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
     @php
         $products = [

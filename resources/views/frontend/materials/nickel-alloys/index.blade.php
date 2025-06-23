@@ -103,7 +103,7 @@
 
         {{-- NICKEL --}}
         <div class="mb-4">
-            <h2 class="category-heading">Nickel</h2>
+            <h2 class="category-heading">Nickel Based Superalloys</h2>
             <div class="row g-4">
                 @foreach (['200', '201', 'A286 660'] as $grade)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
