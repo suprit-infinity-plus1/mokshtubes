@@ -4,16 +4,7 @@
 
 @section('content')
 
-    <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-auto text-center">
-                    <h1>Materials</h1>
-                </div>
-            </div>
-        </div>
-    </section>
+   
 
     <!--End breadcrumb area-->
 
