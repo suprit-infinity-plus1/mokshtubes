@@ -237,13 +237,11 @@
                                 <div class="collapse navbar-collapse clearfix">
                                     <ul class="navigation navbar-nav me-auto mb-2 mb-lg-0 clearfix">
                                         <li class="nav-item"><a class="nav-link"
-                                                href="http://127.0.0.1:8000/home">Home</a></li>
+                                                href="{{ route('home') }}">Home</a></li>
                                         <li class="nav-item"><a class="nav-link"
-                                                href="http://127.0.0.1:8000/about-us">About Us</a></li>
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link" href="{{ url('/products') }}">
-                                                Products
-                                            </a>
+                                                href="{{ route('about-us') }}">About Us</a></li>
+                                        <li class="nav-item dropdown"><a class="nav-link"
+                                                href="{{ url('/products') }}" data-bs-toggle="dropdown">Products</a>
                                             <ul class="dropdown-menu"
                                                 style="display: none; overflow-x: auto; padding-top: 12px; margin-top: 0px; padding-bottom: 12px; margin-bottom: 0px;">
 
@@ -318,8 +316,8 @@
                                         <li class="nav-item"><a class="nav-link" href="#">Blogs</a></li>
                                     </ul>
                                     <ul class="mobile-menu clearfix">
-                                        <li><a href="http://127.0.0.1:8000/home">Home</a></li>
-                                        <li><a href="http://127.0.0.1:8000/about-us">About Us</a></li>
+                                        <li><a href="{{ route('home') }}">Home</a></li>
+                                        <li><a href="{{ route('about-us') }}">About Us</a></li>
 
                                         <li class="dropdown"><a href="#">Products</a>
                                             <ul>
