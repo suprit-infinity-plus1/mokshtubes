@@ -4,16 +4,6 @@
 
 @section('content')
 
-   
-
-    <!--End breadcrumb area-->
-
-    @extends('layouts.master')
-
-@section('title', 'Materials | Moksh Tubes')
-
-@section('content')
-
 <!--Start breadcrumb area-->
 <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
     <div class="container">
@@ -57,7 +47,7 @@
             @foreach ($materials as $material)
                 @php
                     $slug = Str::slug($material);
-                    $link = url('/materials/' . $slug); // example: /materials/hastelloy
+                    $link = url('/materials/' . $slug);
                 @endphp
 
                 <div class="col-12 col-md-4 col-lg-3">
@@ -78,9 +68,5 @@
         </div>
     </div>
 </section>
-
-
-
-
 
 @endsection

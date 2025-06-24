@@ -19,7 +19,7 @@
         <div class="container">
             <div class="section-title center mb-5">
                 <h2 class="fw-bold" style="color: #174268;">Hastelloy Grades</h2>
-                <p class="text-muted fs-5">Explore all available grades in the Hastelloy family.</p>
+                <p class="text-muted fs-5 pb-3">Explore all available grades in the Hastelloy family.</p>
             </div>
 
             @php

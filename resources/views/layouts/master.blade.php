@@ -240,77 +240,82 @@
                                                 href="http://127.0.0.1:8000/home">Home</a></li>
                                         <li class="nav-item"><a class="nav-link"
                                                 href="http://127.0.0.1:8000/about-us">About Us</a></li>
-                                        <li class="nav-item dropdown"><a class="nav-link"
-                                                href="{{ url('/products') }}" data-bs-toggle="dropdown">Products</a>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link" href="{{ url('/products') }}">
+                                                Products
+                                            </a>
                                             <ul class="dropdown-menu"
-                                                style="display: none; overflow-x: auto;  padding-top: 12px; margin-top: 0px; padding-bottom: 12px; margin-bottom: 0px;">
-                                                <li>
-                                                    <a class="dropdown-item text-wrap"
-                                                        href="{{ url('products/pipes-tubes') }}">PIPES &amp; TUBES</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item text-wrap" href="#">SHEETS, PLATES
-                                                        &amp; COILS</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item text-wrap" href="#">BARS &amp;
-                                                        RODS</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item text-wrap" href="#">PIPE FITTINGS,
-                                                        FLANGES &amp; FASTENERS</a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item text-wrap" href="#">SPECIAL
-                                                        FABRICATED PRODUCTS</a>
-                                                </li>
+                                                style="display: none; overflow-x: auto; padding-top: 12px; margin-top: 0px; padding-bottom: 12px; margin-bottom: 0px;">
+
+                                                @php
+                                                    $productCategories = [
+                                                        'Pipes & Tubes',
+                                                        'Sheets, Plates & Coils',
+                                                        'Bars & Rods',
+                                                        'Pipe Fittings, Flanges & Fasteners',
+                                                        'Special Fabricated Products',
+                                                    ];
+                                                @endphp
+
+                                                @foreach ($productCategories as $category)
+                                                    @php
+                                                        $slug = Str::slug($category); // Pipes & Tubes → pipes-tubes
+                                                    @endphp
+                                                    <li>
+                                                        <a class="dropdown-item text-wrap"
+                                                            href="{{ url('/products/' . $slug) }}">
+                                                            {{ $category }}
+                                                        </a>
+                                                    </li>
+                                                @endforeach
                                             </ul>
                                         </li>
+
+
                                         <li class="nav-item dropdown">
                                             <a class="nav-link" href="{{ route('materials') }}">Materials</a>
                                             <ul class="dropdown-menu"
                                                 style="display: none; overflow-x: auto; padding-top: 12px; margin-top: 0px; padding-bottom: 12px; margin-bottom: 0px;">
 
-                                                <li>
-                                                    <a class="dropdown-item text-wrap"
-                                                        href="{{ url('/materials/nickel-alloys') }}">
-                                                        Nickel Alloys
-                                                    </a>
-                                                </li>
+                                                @php
+                                                    $materials = [
+                                                        'Hastelloy',
+                                                        'Monel',
+                                                        'Inconel',
+                                                        'Incoloy',
+                                                        'Nickel Based Superalloys',
+                                                        'Titanium',
+                                                        'Duplex & Super Duplex',
+                                                        'Austenitic Stainless Steel',
+                                                        'High Strength Stainless Steel',
+                                                        'Super Austenitic Stainless Steel',
+                                                        'Zirconium',
+                                                        'Engineering Steels',
+                                                        'Aluminium Alloys',
+                                                        'Copper Alloys',
+                                                        'Hard To Find & Special Alloys',
+                                                        'Haynes Superalloys',
+                                                    ];
+                                                @endphp
 
-                                                <li><a class="dropdown-item text-wrap" href="#">Titanium
-                                                        Alloys</a></li>
-                                                <li><a class="dropdown-item text-wrap" href="#">Duplex / Super
-                                                        Duplex</a></li>
-                                                <li><a class="dropdown-item text-wrap" href="#">Austenitic
-                                                        Stainless Steel</a></li>
-                                                <li><a class="dropdown-item text-wrap" href="#">High Strength
-                                                        Stainless Steel</a></li>
-                                                <li><a class="dropdown-item text-wrap" href="#">Super Austenitic
-                                                        Stainless Steel</a></li>
-                                                <li><a class="dropdown-item text-wrap" href="#">Carbon Steel</a>
-                                                </li>
-                                                <li><a class="dropdown-item text-wrap" href="#">Engineering
-                                                        Steels</a></li>
-                                                <li><a class="dropdown-item text-wrap" href="#">Aluminium
-                                                        Alloys</a></li>
-                                                <li><a class="dropdown-item text-wrap" href="#">Copper
-                                                        Alloys</a></li>
-                                                <li><a class="dropdown-item text-wrap" href="#">Zirconium</a>
-                                                </li>
-                                                <li><a class="dropdown-item text-wrap" href="#">Tantalum</a>
-                                                </li>
-                                                <li><a class="dropdown-item text-wrap" href="#">Special
-                                                        Alloys</a></li>
-                                                <li><a class="dropdown-item text-wrap" href="#">Haynes
-                                                        Superalloys</a></li>
+                                                @foreach ($materials as $material)
+                                                    @php
+                                                        $slug = Str::slug($material);
+                                                    @endphp
+                                                    <li>
+                                                        <a class="dropdown-item text-wrap"
+                                                            href="{{ url('/materials/' . $slug) }}">
+                                                            {{ $material }}
+                                                        </a>
+                                                    </li>
+                                                @endforeach
 
                                             </ul>
                                         </li>
 
+
                                         <li class="nav-item"><a class="nav-link" href="#">QUALITY</a></li>
                                         <li class="nav-item"><a class="nav-link" href="#">Blogs</a></li>
-
                                     </ul>
                                     <ul class="mobile-menu clearfix">
                                         <li><a href="http://127.0.0.1:8000/home">Home</a></li>

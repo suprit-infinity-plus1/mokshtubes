@@ -18,16 +18,16 @@
     </section>
 
 
-  <section class="sec-padd-top sec-padd-bottom bg-white">
+ <section class="sec-padd-top sec-padd-bottom bg-white">
     <div class="container">
         <div class="section-title center mb-5">
-            <h2 class="fw-bold" style="color: #174268;">Pipe &amp; Tube Types</h2>
+            <h2 class="fw-bold" style="color: #174268;">Pipe & Tube Types</h2>
         </div>
 
         <div class="row g-4">
             @php
                 $types = [
-                    ['name' => 'Welded Pipes', 'slug' => 'welded-pipes'],
+                    ['name' => 'Welded Pipes & Tubes (ERW & EFW)', 'slug' => 'welded-pipes-and-tubes'],
                     ['name' => 'Seamless Pipes', 'slug' => 'seamless-pipes'],
                     ['name' => 'Capillaries', 'slug' => 'capillaries'],
                     ['name' => 'Hollow Section Pipe', 'slug' => 'hollow-section-pipe'],
@@ -40,8 +40,8 @@
                 <div class="col-12 col-sm-6 col-lg-4">
                     <a href="{{ url('/products/pipes-tubes/' . $type['slug']) }}" class="text-decoration-none">
                         <div class="custom-product-card rounded overflow-hidden shadow h-100 position-relative">
-                            <img src="https://placehold.co/600x350/" class="img-fluid w-100" alt="{{ $type['name'] }}">
-                            <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center">
+                            <img src="https://placehold.co/600x350/db7227/fff?" class="img-fluid w-100" alt="{{ $type['name'] }}">
+                            <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center" style="background: rgba(23, 66, 104, 0.65); transition: 0.3s;">
                                 <h5 class="text-white text-center fw-bold text-uppercase">{{ $type['name'] }}</h5>
                             </div>
                         </div>
