@@ -25,14 +25,14 @@
             @php
                 $grades = [
                     ['name' => 'Hastelloy C276', 'slug' => 'hastelloy-c276'],
-                    ['name' => 'Hastelloy C22', 'slug' => '#'],
-                    ['name' => 'Hastelloy C4', 'slug' => '#'],
-                    ['name' => 'Hastelloy B2', 'slug' => '#'],
-                    ['name' => 'Hastelloy B3', 'slug' => '#'],
-                    ['name' => 'Hastelloy C2000', 'slug' => '#'],
-                    ['name' => 'Hastelloy G3', 'slug' => '#'],
-                    ['name' => 'Hastelloy G30', 'slug' => '#'],
-                    ['name' => 'Hastelloy X', 'slug' => '#'],
+                    ['name' => 'Hastelloy C22', 'slug' => 'hastelloy-c22'],
+                    ['name' => 'Hastelloy C4', 'slug' => 'hastelloy-c4'],
+                    ['name' => 'Hastelloy B2', 'slug' => 'hastelloy-b2'],
+                    ['name' => 'Hastelloy B3', 'slug' => 'hastelloy-b3'],
+                    ['name' => 'Hastelloy C2000', 'slug' => 'hastelloy-c2000'],
+                    ['name' => 'Hastelloy G3', 'slug' => 'hastelloy-g3'],
+                    ['name' => 'Hastelloy G30', 'slug' => 'hastelloy-g30'],
+                    ['name' => 'Hastelloy X', 'slug' => 'hastelloy-x'],
                 ];
             @endphp
 

@@ -96,14 +96,14 @@ class MainController extends Controller
     {
         return view('frontend.materials.hastelloy-c276');
     }
-    public function showMaterial($category, $slug)
+        public function showMaterial($category, $slug)
     {
         $viewPath = "frontend.materials.$category.$slug";
 
         if (view()->exists($viewPath)) {
             return view($viewPath);
         }
-        abort(404);
+        abort(code: 404);
     }
     public function products()
     {
