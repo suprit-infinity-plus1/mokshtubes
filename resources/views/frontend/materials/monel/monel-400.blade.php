@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Hastelloy B2 - Moksh Tubes & Fittings LLP')
+@section('title', 'Monel 400 - Moksh Tubes & Fittings LLP')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -8,7 +8,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Hastelloy b2</h1>
+                    <h1>Monel 400</h1>
                 </div>
             </div>
         </div>
@@ -22,33 +22,33 @@
             </div>
 
             <h2 class="fw-semibold text-center mb-5" style="color: #db7227;">
-                Introduction To Hastelloy B‑2 / Alloy B‑2 / UNS N10665
-            </h2>
+                Introduction To Monel 400 / Alloy 400 / UNS N04400 </h2>
 
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?" alt="Hastelloy C276" class="img-fluid rounded shadow-sm">
+                    <img src="https://placehold.co/550x400?" alt="Monel K500" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a renowned manufacturer,
-                            supplier, exporter, importer, and stockist of <strong class="text-black">HASTELLOY B2</strong>
-                            Products. Including pipes & tubes, fittings, flanges, sheets, plates, bars, wires, welding rods,
-                            wire mesh, and custom-engineered components. Leveraging our deep expertise in nickel-molybdenum
-                            alloys and a robust sourcing network, we deliver high-performance B‑2 solutions tailored to your
-                            industrial needs.
+                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a manufacturer, supplier,
+                            exporter, importer and stockist of a variety of MONEL® 400 (UNS N04400) products such as Pipes &
+                            Tubes, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires, Round Bars, Flat Bars,
+                            Angles, Channels, Welding rods, Wire Mesh, and other Custom and Hard to Find MONEL 400 Products.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">HASTELLOY B2</strong class="text-black"> is a nickel alloy
-                            specifically formulated for superior resistance to reducing acids—including hydrochloric,
-                            sulfuric, acetic, and phosphoric—especially valuable where oxidizing alloys fail under welded
-                            conditions. Its low chromium, carbon, and silicon content ensures minimal carbide formation
-                            during welding, maintaining alloy integrity in corrosive and high-temperature environments.
+                            <strong class="text-black">MONEL 400</strong class="text-black"> is a solid-solution alloy of
+                            nickel and copper, known for its excellent corrosion resistance, particularly in marine and
+                            chemical environments. This alloy exhibits outstanding performance in brackish and saltwater,
+                            hydrofluoric acid, sulfuric acid, and alkali media. It offers high strength, toughness, and good
+                            weldability, making it ideal for handling corrosive and high-pressure conditions. <strong
+                                class="text-black"> MONEL 400</strong>
+                            retains its mechanical properties across a wide temperature range and performs reliably in both
+                            oxidizing and reducing conditions.
                         </p>
                     </div>
                 </div>
@@ -75,43 +75,39 @@
                             <tbody class="text-center">
                                 <tr>
                                     <td>Nickel</td>
-                                    <td> 65 (Balance)</td>
-                                </tr>
-                                <tr>
-                                    <td>Chromium</td>
-                                    <td>1.0</td>
-                                </tr>
-                                <tr>
-                                    <td>Molybdenum</td>
-                                    <td>26 – 30</td>
-                                </tr>
-                                <tr>
-                                    <td>Iron</td>
-                                    <td>2.0</td>
-                                </tr>
-                                <tr>
-                                    <td>Cobalt</td>
-                                    <td>1.0</td>
-                                </tr>
-                                <tr>
-                                    <td>Manganese</td>
-                                    <td>1.0</td>
-                                </tr>
-                                <tr>
-                                    <td>Silicon</td>
-                                    <td>0.10</td>
+                                    <td>63.0 min</td>
                                 </tr>
                                 <tr>
                                     <td>Carbon</td>
-                                    <td>0.02</td>
+                                    <td>0.25 max</td>
                                 </tr>
                                 <tr>
-                                    <td>Phosphorus</td>
-                                    <td>0.04</td>
+                                    <td>Manganese</td>
+                                    <td>1.5 max</td>
+                                </tr>
+                                <tr>
+                                    <td>Iron</td>
+                                    <td>2.0 max</td>
                                 </tr>
                                 <tr>
                                     <td>Sulfur</td>
-                                    <td>0.03</td>
+                                    <td>0.01 max</td>
+                                </tr>
+                                <tr>
+                                    <td>Silicon</td>
+                                    <td>0.5 max</td>
+                                </tr>
+                                <tr>
+                                    <td>Copper</td>
+                                    <td>27.0 – 33.0</td>
+                                </tr>
+                                <tr>
+                                    <td>Aluminum</td>
+                                    <td>2.30 – 3.15</td>
+                                </tr>
+                                <tr>
+                                    <td>Titanium</td>
+                                    <td>0.35 – 0.85</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -137,29 +133,45 @@
                             <thead class="table-dark text-center">
                                 <tr>
                                     <th>Property</th>
-                                    <th>Value</th>
+                                    <th>Imperial</th>
+                                    <th>Metric</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr>
                                     <td>Density</td>
-                                    <td>9.24 g/cm³</td>
+                                    <td>0.318 lb/in³</td>
+                                    <td>8.80 g/cm³</td>
                                 </tr>
                                 <tr>
-                                    <td>Melting Point</td>
-                                    <td>1370°C (2500°F)</td>
+                                    <td>Melting Range</td>
+                                    <td>2370 – 2460 °F</td>
+                                    <td>1300 – 1350 °C</td>
                                 </tr>
                                 <tr>
-                                    <td>Tensile Strength</td>
-                                    <td>110,000 psi / 760 MPa</td>
+                                    <td>Elasticity (Tension)</td>
+                                    <td>1300 – 1350 °C</td>
+                                    <td>179 GPa</td>
                                 </tr>
                                 <tr>
-                                    <td>Yield Strength (0.2% Offset)</td>
-                                    <td>52,000 psi / 355 MPa</td>
+                                    <td>Elasticity (Torsion)</td>
+                                    <td>9.5 × 10³ ksi</td>
+                                    <td>66 GPa</td>
                                 </tr>
                                 <tr>
-                                    <td>Elongation</td>
-                                    <td>40%</td>
+                                    <td>Elasticity (Compression)</td>
+                                    <td>26.0 × 10³ ksi</td>
+                                    <td>179 GPa</td>
+                                </tr>
+                                <tr>
+                                    <td>Poisson’s Ratio</td>
+                                    <td>0.32</td>
+                                    <td>—</td>
+                                </tr>
+                                <tr>
+                                    <td>Curie Temperature</td>
+                                    <td>70–120 °F</td>
+                                    <td>21–49 °C</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -176,38 +188,53 @@
                             <thead class="table-dark text-center">
                                 <tr>
                                     <th>Property</th>
-                                    <th>Metric</th>
-                                    <th>Imperial</th>
+                                    <th>Annealed</th>
+                                    <th>Hot-Finished</th>
+                                    <th>Cold-Drawn</th>
+                                    <th>Hot-Rolled</th>
+                                    <th>Sheet</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr>
-                                    <td>Tensile Strength (@thickness 4.80–25.4 mm, 538°C/@thickness 0.189–1.00 in, 1000°F)
-                                    </td>
-                                    <td>760 MPa</td>
-                                    <td>110,000 psi</td>
+                                    <td>Elongation (%)</td>
+                                    <td>75–90 / 517–620</td>
+                                    <td>80–110 / 552–758</td>
+                                    <td>84–120 / 579–827</td>
+                                    <td>75–95 / 517–655</td>
+                                    <td>70–85 / 482–586</td>
                                 </tr>
                                 <tr>
-                                    <td>Yield Strength (0.2% offset, @thickness 2.40 mm, 427°C/@thickness 0.0945 in, 801°F)
-                                    </td>
-                                    <td>355 MPa</td>
-                                    <td>52,000 psi</td>
+                                    <td>Yield Strength (0.2% Offset)</td>
+                                    <td>25–50 / 172–345</td>
+                                    <td>40–100 / 276–690</td>
+                                    <td>55–100 / 379–690</td>
+                                    <td>40–75 / 276–517</td>
+                                    <td>30–45 / 207–310</td>
                                 </tr>
                                 <tr>
-                                    <td>Elastic Modulus (RT)</td>
-                                    <td>210 GPa</td>
-                                    <td>30,000 ksi</td>
+                                    <td>Elongation (%)</td>
+                                    <td>60–35</td>
+                                    <td>60–30</td>
+                                    <td>40–22</td>
+                                    <td>45–30</td>
+                                    <td>45–35</td>
                                 </tr>
                                 <tr>
-                                    <td>Elongation at Break (in 50.8 mm, @thickness 1.60–4.70 mm, 204°C/@thickness
-                                        0.0630–0.185 in, 399°F)</td>
-                                    <td>40%</td>
-                                    <td>40%</td>
+                                    <td>Brinell Hardness (3000 kg)</td>
+                                    <td>110–149</td>
+                                    <td>140–241</td>
+                                    <td>160–225</td>
+                                    <td>125–215</td>
+                                    <td>–</td>
                                 </tr>
                                 <tr>
-                                    <td>Hardness, Rockwell B (plate)</td>
-                                    <td>88</td>
-                                    <td>88</td>
+                                    <td>Rockwell B</td>
+                                    <td>60–80</td>
+                                    <td>75–100</td>
+                                    <td>85–20C</td>
+                                    <td>70–96</td>
+                                    <td>65–80</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -236,16 +263,15 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Products in Hastelloy B2</h2>
+                <h2>Products in Monel 400</h2>
             </div>
 
             <!-- Highlighted Paragraph -->
             <div class="row justify-content-center mb-4" style="text-align: justify;">
                 <div class="col-lg-10">
                     <p class="fs-6">
-                        <strong class="text-dark">MOKSH TUBES & FITTINGS LLP</strong> offers Hastelloy B‑2 in a
-                        comprehensive
-                        range of forms and product types:
+                        <strong class="text-dark">MONEL Alloy 400 </strong>, (UNS N04400) in a wide variety of formats,
+                        conveniently available from stock. We also source specialty sizes through trusted converters:
                     </p>
                 </div>
             </div>
@@ -270,7 +296,7 @@
             <div class="row justify-content-center mb-3">
                 <div class="col-lg-10">
                     <p class="fw-bold fs-5 text-center my-4" style="color: #174268;">
-                        We offer Hastelloy B2 in a wide range of product forms, including:
+                        This alloy meets several recognized industry standards, including:
                     </p>
                 </div>
             </div>
@@ -280,9 +306,10 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none">
                                 <div class="product-card h-100">
-                                    <img src="https://placehold.co/300x200?" alt="{{ $product }}"class="img-fluid  w-100">
+                                    <img src="https://placehold.co/300x200?" alt="{{ $product }}"
+                                        class="img-fluid  w-100">
                                     <h6 class="product-card-title text-center mt-2 px-2">{{ $product }}</h6>
                                 </div>
                             </a>
@@ -304,35 +331,35 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>Maintains integrity and strength at moderate to elevated temperatures</h5>
+                        <h5>Excellent resistance to seawater, acids, and alkalis</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h5>Exceptional resistance to reducing acids (HCl, H₂SO₄)</h5>
+                        <h5>High strength and toughness over a wide temperature range</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h5>Ideal for welded fabrication—minimizes sensitization and corrosion</h5>
+                        <h5>Exceptional corrosion resistance in marine and chemical processing environments</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h5>Excellent ductility and weldability</h5>
+                        <h5>Good weldability and formability</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
-                        <h5>Reliable in acid handling equipment, corrosion-resistant tanks, piping, and heat exchangers</h5>
+                        <h5>Non-magnetic and suitable for high-conductivity applications</h5>
                     </div>
                 </div>
             </div>
@@ -343,11 +370,11 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Applications of Hastelloy B2</h2>
-                <p class="text-center pb-3"><strong class="text-dark">HASTELLOY B-2</strong> is a nickel-molybdenum alloy
-                    known for its excellent resistance to strong reducing environments, particularly hydrochloric acid in a
-                    wide range of concentrations and temperatures. It also resists stress corrosion cracking, pitting, and
-                    crevice attack, making it a dependable material for tough chemical processing conditions.
+                <h2>Applications of Monel R405</h2>
+                <p class="text-center pb-3"><strong class="text-dark">Monel 400</strong> is a versatile nickel-copper
+                    alloy widely used in applications where excellent corrosion resistance, mechanical strength, and
+                    durability are required. It performs exceptionally well in marine, chemical, and high-temperature
+                    environments. Typical applications include:
                 </p>
             </div>
 
@@ -355,58 +382,59 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
-                        <h5>Chemical Processing Industry</h5>
-                        <p>Commonly used in reactors, heat exchangers, distillation columns, and piping systems handling
-                            hydrochloric, sulfuric, acetic, and phosphoric acids under reducing conditions.</p>
+                        <h5>Marine Engineering & Shipbuilding</h5>
+                        <p>Used in seawater-cooled heat exchangers, condenser tubes, propeller shafts, fasteners, seawater valves, and pump components due to outstanding resistance to saltwater and marine atmospheres.</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
-                        <h5>Pickling and Acid Regeneration Equipment</h5>
-                        <p>Ideal for use in pickling lines, acid tanks, and regeneration units where strong acids are used
-                            to clean and treat metal surfaces.</p>
+                        <h5>Chemical & Petrochemical Processing</h5>
+                        <p>Ideal for processing and handling equipment such as storage tanks, process vessels, piping systems, heat exchangers, and pumps exposed to hydrofluoric acid, sulfuric acid, and caustic solutions.</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
-                        <h5>Agrochemical & Fertilizer Production</h5>
-                        <p> Deployed in acid handling systems, reactors, and piping where highly corrosive environments and
-                            reducing chemicals are present.</p>
+                        <h5>Oil & Gas Industry</h5>
+                        <p>Preferred for downhole tools, pump shafts, safety valves, and heat exchangers operating in sour gas environments and offshore platforms.</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-droplet"></i></div>
-                        <h5>Pharmaceutical & Fine Chemicals</h5>
-                        <p>Used in vessels and systems that demand high purity and corrosion resistance to strong reducing
-                            agents during production and cleaning processes.</p>
+                        <h5>Power Generation</h5>
+                        <p>Applied in boiler feedwater systems, condensers, superheaters, and brine heaters in power plants due to its resistance to saline and chemical media.</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
-                        <h5>Electronics and Semiconductor Manufacturing</h5>
-                        <p>Suitable for acid handling components in wet etching and cleaning systems where metal purity and
-                            corrosion resistance are essential.</p>
+                        <h5>Aerospace & Defense</h5>
+                        <p>Used in fuel tanks, jet engine components, and hydraulic systems that require resistance to high stress, pressure, and corrosive fuels.
+                        </p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
-                        <h5>Waste Treatment & Pollution Control</h5>
-                        <p>Applied in systems treating acidic waste streams and corrosive off-gases where reducing acids and
-                            aggressive cleaning agents are used.</p>
+                        <h5>Desalination and Water Treatment</h5>
+                        <p>Employed in brine heaters, evaporators, and saltwater treatment components for long service life and minimal maintenance.</p>
                     </div>
                 </div>
 
-
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-capsule"></i></div>
+                        <h5>Electronic and Instrumentation</h5>
+                        <p>Selected for non-sparking, non-magnetic parts such as connectors, terminals, and housing components in sensitive electrical systems.</p>
+                    </div>
+                </div>
 
                 {{-- <div class="col-md-6 col-lg-4">
                 <div class="application-card">
@@ -416,11 +444,6 @@
                 </div>
             </div> --}}
             </div>
-            <p class="text-center pb-3 my-4"><strong class="text-dark">HASTELLOY B-2's</strong> Thanks to its resistance
-                to a wide range of non-oxidizing acids and its proven performance in demanding environments, HASTELLOY B-2
-                remains a trusted choice for critical chemical service where long-term corrosion resistance is key
-
-            </p>
         </div>
     </section>
 
@@ -435,28 +458,35 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Extensive experience with nickel-molybdenum alloys</h5>
+                        <h5>Specialists in manufacturing high-quality products</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
-                        <h5>End-to-end supply chain from raw materials to finished parts</h5>
+                        <h5>Strong supplier network for premium raw materials</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
-                        <h5>ISO-quality systems and global export compliances</h5>
+                        <h5>Expertise in nickel alloys and high-performance materials</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Tailored fabrication and responsive technical support</h5>
+                        <h5>Global presence with customized solutions for diverse needs</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-6">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
+                        <h5>Dedicated to quality, dependability, and customer satisfaction</h5>
                     </div>
                 </div>
             </div>
@@ -468,8 +498,7 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    For assistance, technical specifications, or pricing inquiries, connect with <strong>Moksh Tubes & Fittings LLP</strong> – your
-                    go-to partner for  <strong>HASTELLOY B-2</strong> expertise.
+                    <strong>Moksh Tubes & Fittings LLP</strong> your trusted partner for MONEL 400 products.
                 </p>
                 <!-- Call button -->
                 <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>

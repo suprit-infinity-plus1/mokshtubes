@@ -75,16 +75,54 @@ class MainController extends Controller
         return view('frontend.materials.hastelloy.index', compact('grades'));
     }
 
-        public function showMaterialGrade($family, $grade)
-        {
-            $viewPath = "frontend.materials.$family.$grade";
+    public function monel()
+    {
+        $grades = [
+            ['name' => 'K500', 'slug' => 'k500'],
+            ['name' => 'R405', 'slug' => 'r405'],
+            ['name' => '400', 'slug' => '400'],
+        ];
 
-            if (view()->exists($viewPath)) {
-                return view($viewPath);
-            }
+        return view('frontend.materials.monel.index', compact('grades'));
+    }
 
-            abort(404, 'Material grade page not found.');
+    public function incoloy()
+    {
+        $grades = [
+            ['name' => '825', 'slug' => '825'],
+            ['name' => '800', 'slug' => '800'],
+            ['name' => '925', 'slug' => '925'],
+            ['name' => '800H_800HT', 'slug' => '800H_800HT'],
+            ['name' => '020', 'slug' => '020'],
+        ];
+
+        return view('frontend.materials.incoloy.index', compact('grades'));
+    }
+
+
+    public function nickelBasedSuperalloys()
+    {
+        $grades = [
+            ['name' => 'A286 AIS 660', 'slug' => 'nickel-based-superalloys-a286 ais 660'],
+            ['name' => '200', 'slug' => 'nickel-based-superalloys-200'],
+            ['name' => '201', 'slug' => 'nickel-based-superalloys-201'],
+        ];
+
+        return view('frontend.materials.nickel-based-superalloys.index', compact('grades'));
+    }
+
+
+
+    public function showMaterialGrade($family, $grade)
+    {
+        $viewPath = "frontend.materials.$family.$grade";
+
+        if (view()->exists($viewPath)) {
+            return view($viewPath);
         }
+
+        abort(404, 'Material grade page not found.');
+    }
 
 
 
@@ -96,7 +134,7 @@ class MainController extends Controller
     {
         return view('frontend.materials.hastelloy-c276');
     }
-        public function showMaterial($category, $slug)
+    public function showMaterial($category, $slug)
     {
         $viewPath = "frontend.materials.$category.$slug";
 

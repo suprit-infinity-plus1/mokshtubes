@@ -7932,7 +7932,7 @@ ul.gallery-filter li span {
 
     .material-card img {
         width: 100%;
-        height: 190px;
+        /* height: 190px; */
         object-fit: cover;
         border-top-left-radius: 12px;
         border-top-right-radius: 12px;
@@ -8024,7 +8024,7 @@ ul.gallery-filter li span {
         border-top-right-radius: 8px;
         object-fit: cover;
         width: 100%;
-        height: 200px;
+        /* height: 200px; */
     }
 
     .product-card-title {
@@ -8069,7 +8069,12 @@ ul.gallery-filter li span {
     .advantage-card:hover .advantage-icon {
         color: #db7227;
     }
-
+.advantage-card h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #174268;
+    margin-top: 12px;
+}
     .advantage-card h5 {
         font-size: 1rem;
         font-weight: 600;
@@ -8300,3 +8305,10 @@ ul.gallery-filter li span {
     transform: translateY(-5px);
     border-color: #174268;
 }
+.action-is-the-foundational-key {
+    background-image: url(../images/background/2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
