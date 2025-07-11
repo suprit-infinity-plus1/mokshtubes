@@ -103,7 +103,7 @@ class MainController extends Controller
     public function nickelBasedSuperalloys()
     {
         $grades = [
-            ['name' => 'A286 AIS 660', 'slug' => 'nickel-based-superalloys-a286 ais 660'],
+            ['name' => 'A286_AIS660', 'slug' => 'nickel-based-superalloys-a286-ais660'],
             ['name' => '200', 'slug' => 'nickel-based-superalloys-200'],
             ['name' => '201', 'slug' => 'nickel-based-superalloys-201'],
         ];

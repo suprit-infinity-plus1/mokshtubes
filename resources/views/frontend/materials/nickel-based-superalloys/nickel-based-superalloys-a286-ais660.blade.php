@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Monel R405 - Moksh Tubes & Fittings LLP')
+@section('title', 'Nickel A286 AIS600 - Moksh Tubes & Fittings LLP')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -8,7 +8,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Monel R405</h1>
+                    <h1>Nickel A286 AIS600</h1>
                 </div>
             </div>
         </div>
@@ -22,31 +22,33 @@
             </div>
 
             <h2 class="fw-semibold text-center mb-5" style="color: #db7227;">
-                Introduction To Monel R405 / Alloy R405 / UNS N04405 </h2>
+                Introduction To Nickel A286 / Alloy A286 / AISI 660 / UNS S66286 </h2>
 
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?" alt="Monel K500" class="img-fluid rounded shadow-sm">
+                    <img src="https://placehold.co/550x400?" alt="Nickel A286 AIS600" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a leading manufacturer,
-                            supplier, exporter, importer, and stockist of MONEL R405 (UNS N04405) products, including Pipes
-                            & Tubes, Sheets & Plates, Coils, Round Bars, Forgings, Pipe Fittings, Flanges, Fasteners,
-                            Welding Rods, and Custom-Machined Components.
+                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> proudly manufactures, supplies,
+                            exports, and stocks a wide range of<strong class="text-black"> Nickel A286 products</strong>,
+                            including Pipes, Tubes, Sheets,
+                            Plates, Coils, Bars, Forgings, Fasteners, Pipe Fittings, Flanges, Wire Mesh, Welding Rods, and
+                            Custom Components designed for high-performance applications.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">MONEL R405</strong class="text-black"> is a nickel-copper alloy
-                            similar to Monel 400, but it is specially modified with controlled sulfur content to improve its
-                            machinability. This grade is known for excellent resistance to seawater, hydrofluoric acid,
-                            sulfuric acid, alkalis, and high-temperature steam. R405 retains high strength and toughness
-                            across a wide temperature range and is particularly suitable for automatic screw machines and
-                            precision-machined components in marine and chemical environments.
+                            <strong class="text-black">Alloy A286</strong>, also known as <strong class="text-black">AISI
+                                660 </strong>or UNS S66286, is a
+                            high-strength, iron-nickel-chromium alloy with additions of molybdenum and titanium. It is
+                            designed for applications requiring excellent strength and corrosion resistance at temperatures
+                            up to 704 °C (1300 °F). It exhibits outstanding mechanical properties and oxidation resistance,
+                            making it a widely used material in aerospace, automotive, marine, and industrial gas turbine
+                            components.
                         </p>
                     </div>
                 </div>
@@ -73,31 +75,55 @@
                             <tbody class="text-center">
                                 <tr>
                                     <td>Nickel</td>
-                                    <td>63.0 min</td>
+                                    <td>24.0 – 27.0</td>
                                 </tr>
                                 <tr>
-                                    <td>Copper</td>
-                                    <td>28.0 – 34.0</td>
-                                </tr>
-                                <tr>
-                                    <td>Carbon</td>
-                                    <td>0.3 max</td>
-                                </tr>
-                                <tr>
-                                    <td>Manganese</td>
-                                    <td>2.0 max</td>
+                                    <td>Chromium</td>
+                                    <td>13.5 – 16.0</td>
                                 </tr>
                                 <tr>
                                     <td>Iron</td>
-                                    <td>2.5 max</td>
+                                    <td>Balance</td>
                                 </tr>
                                 <tr>
-                                    <td>Sulfur</td>
-                                    <td>0.025 – 0.060</td>
+                                    <td>Titanium</td>
+                                    <td>1.90 – 2.35</td>
+                                </tr>
+                                <tr>
+                                    <td>Molybdenum</td>
+                                    <td>1.00 – 1.50</td>
+                                </tr>
+                                <tr>
+                                    <td>Manganese</td>
+                                    <td>2.00</td>
                                 </tr>
                                 <tr>
                                     <td>Silicon</td>
-                                    <td>0.5 max</td>
+                                    <td>1.00</td>
+                                </tr>
+                                <tr>
+                                    <td>Carbon</td>
+                                    <td>0.08</td>
+                                </tr>
+                                <tr>
+                                    <td>Vanadium</td>
+                                    <td>0.10 – 0.50</td>
+                                </tr>
+                                <tr>
+                                    <td>Sulfur</td>
+                                    <td>0.030</td>
+                                </tr>
+                                <tr>
+                                    <td>Phosphorus</td>
+                                    <td>0.030</td>
+                                </tr>
+                                <tr>
+                                    <td>Aluminum</td>
+                                    <td>0.35 max</td>
+                                </tr>
+                                <tr>
+                                    <td>Boron</td>
+                                    <td>0.003 – 0.010</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -130,38 +156,43 @@
                             <tbody class="text-center">
                                 <tr>
                                     <td>Density</td>
-                                    <td>0.318 lb/in³</td>
-                                    <td>8.80 g/cm³</td>
+                                    <td>0.286 lb/in³</td>
+                                    <td>7.92 g/cm³</td>
                                 </tr>
                                 <tr>
                                     <td>Melting Range</td>
-                                    <td>2370–2460 °F</td>
-                                    <td>1300–1350 °C</td>
+                                    <td>2550 °F</td>
+                                    <td>1399 °C</td>
                                 </tr>
                                 <tr>
-                                    <td>Elasticity (Tension)</td>
-                                    <td>26.0 × 10³ ksi</td>
-                                    <td>179 GPa</td>
+                                    <td>Specific Heat</td>
+                                    <td>0.10 Btu/lb·°F</td>
+                                    <td>420 J/kg·°C</td>
                                 </tr>
                                 <tr>
-                                    <td>Elasticity (Torsion)</td>
-                                    <td>9.5 × 10³ ksi</td>
-                                    <td>65.5 GPa</td>
-                                </tr>
-                                <tr>
-                                    <td>Elasticity (Compression)</td>
-                                    <td>26.0 × 10³ ksi</td>
-                                    <td>179 GPa</td>
-                                </tr>
-                                <tr>
-                                    <td>Poisson’s Ratio</td>
-                                    <td>0.32</td>
+                                    <td>Thermal Conductivity</td>
                                     <td>—</td>
+                                    <td>12–13 W/m·°C</td>
                                 </tr>
                                 <tr>
-                                    <td>Curie Temperature</td>
-                                    <td>70–120 °F</td>
-                                    <td>21–49 °C</td>
+                                    <td>Electrical Resistivity</td>
+                                    <td>—</td>
+                                    <td>0.91 Ω·mm²/m</td>
+                                </tr>
+                                <tr>
+                                    <td>Magnetic Permeability</td>
+                                    <td>1.007–1.010</td>
+                                    <td>(unitless)</td>
+                                </tr>
+                                <tr>
+                                    <td>Modulus of Elasticity (E)</td>
+                                    <td>—</td>
+                                    <td>200 GPa</td>
+                                </tr>
+                                <tr>
+                                    <td>Coefficient of Thermal Expansion (70–1200 °F)</td>
+                                    <td>9.2–9.9 ×10⁻⁶ /°F</td>
+                                    <td>16.5–17.8 ×10⁻⁶ /°C</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -178,41 +209,53 @@
                             <thead class="table-dark text-center">
                                 <tr>
                                     <th>Property</th>
-                                    <th>Annealed</th>
-                                    <th>Hot-Finished</th>
-                                    <th>Cold-Drawn</th>
+                                    <th>Solution Annealed & Aged (Bar ≤160 mm)</th>
+                                    <th>Aged/Forged Bar 300 mm</th>
+                                    <th>Typical Bar</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr>
-                                    <td>Elongation (%)</td>
-                                    <td>70 – 85</td>
-                                    <td>70 – 85</td>
-                                    <td>85 – 115</td>
-                                </tr>
-                                <tr>
-                                    <td>Yield Strength (0.2% Offset)</td>
-                                    <td>25 – 40</td>
-                                    <td>35 – 60</td>
-                                    <td>50 – 105</td>
-                                </tr>
-                                <tr>
                                     <td>Tensile Strength (ksi)</td>
-                                    <td>50 – 35</td>
-                                    <td>45 – 30</td>
-                                    <td>35 – 15</td>
+                                    <td>130–160</td>
+                                    <td>130–175</td>
+                                    <td>130</td>
                                 </tr>
                                 <tr>
-                                    <td>Brinell Hardness (3000 kg)</td>
-                                    <td>110 – 140</td>
-                                    <td>130 – 170</td>
-                                    <td>160 – 245</td>
+                                    <td>Tensile Strength (MPa)</td>
+                                    <td>895–1103</td>
+                                    <td>895–1200</td>
+                                    <td>895</td>
                                 </tr>
                                 <tr>
-                                    <td>Rockwell B</td>
-                                    <td>60 – 76</td>
-                                    <td>72 – 86</td>
-                                    <td>85 – 23C</td>
+                                    <td>Yield Strength (0.2 % off) (ksi)</td>
+                                    <td>≥ 90</td>
+                                    <td>90</td>
+                                    <td>90</td>
+                                </tr>
+                                <tr>
+                                    <td>Yield Strength (MPa)</td>
+                                    <td>620</td>
+                                    <td>620</td>
+                                    <td>585</td>
+                                </tr>
+                                <tr>
+                                    <td>Elongation (% in 2 in / 50 mm)</td>
+                                    <td>15</td>
+                                    <td>16</td>
+                                    <td>15</td>
+                                </tr>
+                                <tr>
+                                    <td>Reduction of Area (%)</td>
+                                    <td>18</td>
+                                    <td>18</td>
+                                    <td>18</td>
+                                </tr>
+                                <tr>
+                                    <td>Hardness (Brinell / Rockwell B/C)</td>
+                                    <td>248–341 HB (approx. 24–35 HRC)</td>
+                                    <td>Comparable</td>
+                                    <td>248–341 HB</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -241,17 +284,16 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Products in Monel R405</h2>
+                <h2>Products in Nickel A286 / AISI 660</h2>
             </div>
 
             <!-- Highlighted Paragraph -->
             <div class="row justify-content-center mb-4" style="text-align: justify;">
                 <div class="col-lg-10">
                     <p class="fs-6">
-                        <strong class="text-dark">MONEL Alloy R-405 </strong>, (UNS N04405) is a nickel-copper alloy known
-                        for its excellent machinability and corrosion resistance. It is typically supplied in rod and bar
-                        form, with standard sizes readily available from stock. For specific applications, wire and
-                        specialty shapes can also be sourced through custom converters.
+                        <strong class="text-dark">Nickel A286 / AISI 660</strong> is engineered for high-temperature,
+                        high-stress environments where other alloys fail. It maintains excellent corrosion resistance, good
+                        formability, and superior long-term stability in oxidizing conditions.
                     </p>
                 </div>
             </div>
@@ -297,13 +339,6 @@
                     </div>
                 @endforeach
             </div>
-            <div class="row  mb-4 mt-4" style="text-align: justify;">
-                <div class="">
-                    <p class="fs-6">
-                        MONEL R-405 is a reliable choice for applications requiring both strength and corrosion resistance,
-                        particularly where precision machining is essential.</p>
-                </div>
-            </div>
         </div>
     </section>
 
@@ -318,35 +353,41 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>Improved machinability due to controlled sulfur content</h5>
+                        <h5>High tensile and creep rupture strength at elevated temperatures</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h5>Excellent corrosion resistance in marine and chemical environments</h5>
+                        <h5>Excellent oxidation and corrosion resistance in high-heat environments</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h5>High strength and toughness at both cryogenic and elevated temperatures</h5>
+                        <h5>Superior fabricability and weldability</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h5>Good resistance to hydrofluoric acid and alkaline environments</h5>
+                        <h5>Maintains strength over long service periods</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
-                        <h5>Cost-effective for precision machining on automated equipment</h5>
+                        <h5>Non-magnetic after heat treatment</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
+                        <h5>Readily available in both annealed and age-hardened forms</h5>
                     </div>
                 </div>
             </div>
@@ -357,12 +398,9 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Applications of Monel R405</h2>
-                <p class="text-center pb-3"><strong class="text-dark">Monel R405</strong> is a specialty nickel-copper
-                    alloy developed for exceptional machinability while preserving the core corrosion-resistant properties
-                    of Monel 400. Its sulfur-enhanced chemistry allows for high-speed machining, making it an ideal choice
-                    for components that require tight tolerances, dimensional stability, and long service life. Below are
-                    the key applications where Monel R405 excels:
+                <h2>Applications of Nickel Alloy A286</h2>
+                <p class="text-center pb-3"><strong class="text-dark">Nickel Alloy A286</strong> is widely used in
+                    environments where thermal stability and mechanical strength are critical. Key applications include:
                 </p>
             </div>
 
@@ -370,48 +408,40 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
-                        <h5>Automatic Screw Machine Components</h5>
-                        <p>Monel R405 is the preferred material for high-volume production of precision parts on automatic
-                            and CNC screw machines. Typical components include threaded fittings, shafts, bolts, valve
-                            stems, nuts, connectors, pump impellers, and inserts.</p>
+                        <h5>Aerospace Industry</h5>
+                        <p>Jet engine components, afterburners, turbines, fasteners, and exhaust systems.</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
-                        <h5>Chemical & Petrochemical Processing</h5>
-                        <p>Widely used for equipment handling hydrofluoric acid, sulfuric acid, alkalis, and other corrosive
-                            media. Common applications include process pumps, mixers, heat exchangers, and valve trim
-                            components.</p>
+                        <h5>Power Generation</h5>
+                        <p>Turbine blades, boilers, high-temperature steam systems.</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
-                        <h5>Oil & Gas Industry</h5>
-                        <p>Monel R405 is ideal for parts used in sour gas (H₂S) environments and high-pressure systems.
-                            Applications include drill collars, pump shafts, control valves, downhole tools, and
-                            non-magnetic components for directional drilling.</p>
+                        <h5>Automotive</h5>
+                        <p>Turbochargers, high-performance exhausts, engine components.</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-droplet"></i></div>
-                        <h5>Marine and Offshore Engineering</h5>
-                        <p>Used in harsh saltwater and subsea environments. R405 is trusted for shaft sleeves, seawater
-                            valves, marine hardware, fasteners, and corrosion-prone mechanical assemblies.</p>
+                        <h5>Chemical Processing</h5>
+                        <p>Equipment exposed to elevated temperatures and corrosive substances.</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
-                        <h5>Nuclear and Power Generation</h5>
-                        <p>Selected for its corrosion resistance and mechanical reliability in turbine systems, steam
-                            systems, and auxiliary nuclear components where radiation and chemical exposure are a concern.
+                        <h5>Oil & Gas</h5>
+                        <p>Offshore and subsea systems, flange connections, and downhole tools.
                         </p>
                     </div>
                 </div>
@@ -419,37 +449,16 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
-                        <h5>Electrical, Instrumentation & Sensor Housings</h5>
-                        <p>Thanks to its excellent conductivity and machinability, R405 is used in terminals, switchgear
-                            parts, pressure sensor housings, and grounding elements in corrosive industrial setups.</p>
+                        <h5>Marine</h5>
+                        <p>Heat exchangers, high-temperature fasteners, and structural parts.</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-capsule"></i></div>
-                        <h5>Defense & Aerospace Applications</h5>
-                        <p>Employed for precision-machined fittings, lock nuts, spring components, and fasteners used in
-                            naval equipment, submarines, and aircraft exposed to corrosive and extreme mechanical
-                            conditions.</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-capsule"></i></div>
-                        <h5>Pump & Valve Manufacturing</h5>
-                        <p>Preferred for shafts, impellers, seats, bushings, bearings, and guides due to its strength,
-                            anti-galling characteristics, and long-term corrosion resistance in service.</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-capsule"></i></div>
-                        <h5>Food & Pharmaceutical Equipment</h5>
-                        <p>Where non-reactive, corrosion-resistant, and hygienic materials are required for valves,
-                            connectors, and transfer components exposed to mild acids or clean-in-place systems.</p>
+                        <h5>Industrial Fasteners</h5>
+                        <p>Used in high-pressure/high-temperature bolting (ASTM A453 Grade 660).</p>
                     </div>
                 </div>
 
@@ -461,11 +470,6 @@
                 </div>
             </div> --}}
             </div>
-            <p class="text-center pb-3 my-4"><strong class="text-dark">Monel R405</strong> combines machinability and
-                corrosion resistance like few other materials, making it the optimal choice for mission-critical components
-                in high-performance industries.
-
-            </p>
         </div>
     </section>
 
@@ -480,35 +484,35 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Specialized stockist and supplier of Monel R405 bars and components</h5>
+                        <h5>Decades of experience in high-performance nickel-based alloys</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
-                        <h5>Precision machining support for screw machine-grade products</h5>
+                        <h5>Certified materials with test reports & compliance to international codes</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
-                        <h5>Quick delivery and global logistics support</h5>
+                        <h5>In-house machining and custom fabrication</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>ISO 9001:2015 certified with traceability and mill test reports</h5>
+                        <h5>Fast delivery from ready stock and global export capabilities</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
-                        <h5>Customized solutions for engineering, marine, and petrochemical sectors</h5>
+                        <h5>Dedicated technical support and customer-focused approach</h5>
                     </div>
                 </div>
             </div>
@@ -520,7 +524,7 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    <strong>Moksh Tubes & Fittings LLP</strong> Your source for high-performance Monel materials.
+                     Connect with <strong>Moksh Tubes & Fittings LLP</strong> for precision products built for performance.
                 </p>
                 <!-- Call button -->
                 <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>

@@ -1205,6 +1205,10 @@ textarea {
     text-transform: none;
 }
 
+.tp-dottedoverlay {
+        background-color: #00000082;
+}
+
 .rev_slider_wrapper .slide-content-box p {
     font-size: 20px;
     color: #fff;

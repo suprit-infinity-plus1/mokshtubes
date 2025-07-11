@@ -24,7 +24,7 @@
 
             @php
                 $grades = [
-                     ['name' => 'A286 AIS 660', 'slug' => 'nickel-based-superalloys-a286 ais 660'],
+                     ['name' => 'A286_AIS660', 'slug' => 'nickel-based-superalloys-a286-ais660'],
                      ['name' => '200', 'slug' => 'nickel-based-superalloys-200'],
                      ['name' => '201', 'slug' => 'nickel-based-superalloys-201'],
                 ];
@@ -33,7 +33,7 @@
             <div class="row g-4">
                 @foreach ($grades as $grade)
                     @php
-                        $href = $grade['slug'] !== '#' ? url('/materials/nickel-based-superal   loys/' . $grade['slug']) : '#';
+                        $href = $grade['slug'] !== '#' ? url('/materials/nickel-based-superalloys/' . $grade['slug']) : '#';
                     @endphp
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                         <a href="{{ $href }}" class="text-decoration-none d-block h-100">
