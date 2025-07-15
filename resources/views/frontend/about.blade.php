@@ -23,7 +23,7 @@
     <section class="about-us sec-padd-top">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-sm-12">
+                <div class="col-lg-6 col-sm-12">
 
                     <figure class="about-img h-100 m-0">
                         <!-- <img src="images/resource/1.png" alt="about titan builders photo"> -->
@@ -32,16 +32,16 @@
                         <!-- <img src="https://placehold.co/300x300" class="mt-1" alt="about titan builders photo"> -->
                     </figure>
                 </div>
-                <div class="col-md-6 col-sm-12">
+                <div class="col-lg-6 col-sm-12">
                     <div class="about-text">
                         <h2>
                             about <span class="thm-color">Moksh Tubes & Fittings LLP</span>
                         </h2>
                         <div class="text">
                             <!-- <p>Thank you for being a friend. Travelled down the road and back again. Your heart is
-                                                                    true you're a pal and a confidant. It's time to put on makeup. It's time to dress up
-                                                                    right.They're all together ooky the Addams Family doin' it our way. There's nothing
-                                                                    we wont try. Never heard the word impossible. This time there's no stopping us.</p> -->
+                                                                        true you're a pal and a confidant. It's time to put on makeup. It's time to dress up
+                                                                        right.They're all together ooky the Addams Family doin' it our way. There's nothing
+                                                                        we wont try. Never heard the word impossible. This time there's no stopping us.</p> -->
                             <p>
                                 <strong class="text-black">
                                     MOKSH TUBES & FITTINGS LLP
@@ -78,35 +78,36 @@
 
                             </p>
                         </div>
-                        <div class="fact-counter">
-                            <ul class="d-flex flex-wrap justify-content-center gap-5">
-                                <li class="single-fact-counter">
-                                    <div class="icon-holder"><span class="flaticon-social"></span></div>
-                                    <span class="timer" data-from="1" data-to="2456" data-speed="5000"
-                                        data-refresh-interval="50">2456</span>
-                                    <i class="fa fa-plus" aria-hidden="true"></i>
-                                    <h3>Engineers & Workers</h3>
-                                </li>
-                                <li class="single-fact-counter">
-                                    <div class="icon-holder"><span class="flaticon-landscape"></span></div>
-                                    <span class="timer" data-from="1" data-to="640" data-speed="5000"
-                                        data-refresh-interval="50">640</span>
-                                    <i class="fa fa-plus" aria-hidden="true"></i>
-                                    <h3>Factory in Worldwide</h3>
-                                </li>
-                                <li class="single-fact-counter">
-                                    <div class="icon-holder"><span class="flaticon-innovation"></span></div>
-                                    <span class="timer" data-from="1" data-to="3250" data-speed="5000"
-                                        data-refresh-interval="50">3250</span>
-                                    <i class="fa fa-plus" aria-hidden="true"></i>
-                                    <h3>Projects Completed</h3>
-                                </li>
-                            </ul>
-                        </div>
+
 
                     </div>
 
 
+                </div>
+                <div class="fact-counter">
+                    <ul class="d-flex flex-wrap justify-content-center gap-5">
+                        <li class="single-fact-counter">
+                            <div class="icon-holder"><span class="flaticon-social"></span></div>
+                            <span class="timer" data-from="1" data-to="2456" data-speed="5000"
+                                data-refresh-interval="50">2456</span>
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                            <h3>Engineers & Workers</h3>
+                        </li>
+                        <li class="single-fact-counter">
+                            <div class="icon-holder"><span class="flaticon-landscape"></span></div>
+                            <span class="timer" data-from="1" data-to="640" data-speed="5000"
+                                data-refresh-interval="50">640</span>
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                            <h3>Factory in Worldwide</h3>
+                        </li>
+                        <li class="single-fact-counter">
+                            <div class="icon-holder"><span class="flaticon-innovation"></span></div>
+                            <span class="timer" data-from="1" data-to="3250" data-speed="5000"
+                                data-refresh-interval="50">3250</span>
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                            <h3>Projects Completed</h3>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -117,8 +118,8 @@
             <div class="content">
                 <h2>action is the foundational key to all success</h2>
                 <!-- <p>Where the kisses are hers and hers and his. Three's company too. Goodbye gray sky hello blue.
-                                                        There's nothing can hold me <br>when I hold you. Feels so right it cant be wrong. Rockin' and
-                                                        rollin' all week long.</p> -->
+                                                            There's nothing can hold me <br>when I hold you. Feels so right it cant be wrong. Rockin' and
+                                                            rollin' all week long.</p> -->
                 <p>Quality materials. Reliable supply. Trusted by professionals across industries, we’re here to
                     support your success with products built to perform.</p>
 
@@ -154,8 +155,7 @@
                 </div>
                 <div class="col-md-6 text-center">
                     <!-- Desktop Image -->
-                    <img src="/assets/images/history/our-mission.webp" alt="Large"
-                        class="img-fluid d-none d-lg-block">
+                    <img src="/assets/images/history/our-mission.webp" alt="Large" class="img-fluid d-none d-lg-block">
                     <!-- Tablet Image 400x250-->
                     <img src="/assets/images/history/our-mission.webp" alt="Tablet"
                         class="img-fluid d-none d-md-block d-lg-none">
@@ -182,14 +182,12 @@
                 </div>
                 <div class="col-md-6 text-center">
                     <!-- Desktop Image 600x300 -->
-                    <img src="/assets/images/history/our-goal.jpg" alt="Large"
-                        class="img-fluid d-none d-lg-block">
+                    <img src="/assets/images/history/our-goal.jpg" alt="Large" class="img-fluid d-none d-lg-block">
                     <!-- Tablet Image 400x250 -->
                     <img src="/assets/images/history/our-goal.jpg" alt="Tablet"
                         class="img-fluid d-none d-md-block d-lg-none">
                     <!-- Mobile Image 300x200 -->
-                    <img src="/assets/images/history/our-goal.jpg" alt="Mobile"
-                        class="img-fluid d-block d-md-none mx-auto">
+                    <img src="/assets/images/history/our-goal.jpg" alt="Mobile" class="img-fluid d-block d-md-none mx-auto">
                 </div>
             </div>
         </div>
@@ -210,7 +208,7 @@
                     <div class="inner-box wow fadeIn animated" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div class="icon_box">
                             <span class="fas fa-warehouse
-    "></span>
+        "></span>
                         </div>
                         <h4>Extensive Inventory</h4>
                         <div class="text">
@@ -237,7 +235,7 @@
                     <div class="inner-box wow fadeIn animated" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <div class="icon_box">
                             <span class="fas fa-layer-group
-    "></span>
+        "></span>
                         </div>
                         <h4>Wide Range of Materials</h4>
                         <div class="text">
@@ -251,7 +249,7 @@
                     <div class="inner-box wow fadeIn animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                         <div class="icon_box">
                             <span class="fas fa-certificate
-    "></span>
+        "></span>
                         </div>
                         <h4>Certified Quality</h4>
                         <div class="text">
@@ -265,7 +263,7 @@
                     <div class="inner-box wow fadeIn animated" data-wow-delay="400ms" data-wow-duration="1500ms">
                         <div class="icon_box">
                             <span class="fas fa-tags
-    "></span>
+        "></span>
                         </div>
                         <h4>Competitive Pricing</h4>
                         <div class="text">
@@ -279,7 +277,7 @@
                     <div class="inner-box wow fadeIn animated" data-wow-delay="500ms" data-wow-duration="1500ms">
                         <div class="icon_box">
                             <span class="fas fa-truck
-    "></span>
+        "></span>
                         </div>
                         <h4>Reliable Logistics</h4>
                         <div class="text">
@@ -294,7 +292,7 @@
                         <div class="icon_box">
                             <span class="fas fa-headset
 
-    "></span>
+        "></span>
                         </div>
                         <h4>Dedicated Support</h4>
                         <div class="text">
@@ -308,194 +306,194 @@
             <!-- <div class="row">
 
 
-                                                    <div class="item col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                                                        <div class="inner-box wow fadeIn animated animated" data-wow-delay="0ms"
-                                                            data-wow-duration="1500ms"
-                                                            style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
+                                                        <div class="item col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                                                            <div class="inner-box wow fadeIn animated animated" data-wow-delay="0ms"
+                                                                data-wow-duration="1500ms"
+                                                                style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
 
-                                                            <div class="icon_box">
-                                                                <span class="flaticon-people-1"></span>
-                                                            </div>
+                                                                <div class="icon_box">
+                                                                    <span class="flaticon-people-1"></span>
+                                                                </div>
 
-                                                            <h4>EXPERIENCED</h4>
-                                                            <div class="text">
-                                                                <p>Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track
-                                                                    now. </p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="item col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                                                        <div class="inner-box wow fadeIn animated animated" data-wow-delay="0ms"
-                                                            data-wow-duration="1500ms"
-                                                            style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
-
-                                                            <div class="icon_box">
-                                                                <span class="flaticon-sun"></span>
-                                                            </div>
-
-                                                            <h4>PROFESSIONAL SERVICE</h4>
-                                                            <div class="text">
-                                                                <p>Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track
-                                                                    now.</p>
+                                                                <h4>EXPERIENCED</h4>
+                                                                <div class="text">
+                                                                    <p>Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track
+                                                                        now. </p>
+                                                                </div>
                                                             </div>
                                                         </div>
-                                                    </div>
-                                                    <div class="item col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                                                        <div class="inner-box wow fadeIn animated animated" data-wow-delay="0ms"
-                                                            data-wow-duration="1500ms"
-                                                            style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
+                                                        <div class="item col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                                                            <div class="inner-box wow fadeIn animated animated" data-wow-delay="0ms"
+                                                                data-wow-duration="1500ms"
+                                                                style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
 
-                                                            <div class="icon_box">
-                                                                <span class="flaticon-people-2"></span>
-                                                            </div>
+                                                                <div class="icon_box">
+                                                                    <span class="flaticon-sun"></span>
+                                                                </div>
 
-                                                            <h4>PUBLIC PROJECTS</h4>
-                                                            <div class="text">
-                                                                <p>Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track
-                                                                    now.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="item col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                                                        <div class="inner-box wow fadeIn animated animated" data-wow-delay="0ms"
-                                                            data-wow-duration="1500ms"
-                                                            style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
-
-                                                            <div class="icon_box">
-                                                                <span class="flaticon-factory"></span>
-                                                            </div>
-
-                                                            <h4>SUPERIOR QUALITY</h4>
-                                                            <div class="text">
-                                                                <p>Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track
-                                                                    now. </p>
+                                                                <h4>PROFESSIONAL SERVICE</h4>
+                                                                <div class="text">
+                                                                    <p>Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track
+                                                                        now.</p>
+                                                                </div>
                                                             </div>
                                                         </div>
-                                                    </div>
-                                                    <div class="item col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                                                        <div class="inner-box wow fadeIn animated animated" data-wow-delay="0ms"
-                                                            data-wow-duration="1500ms"
-                                                            style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
+                                                        <div class="item col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                                                            <div class="inner-box wow fadeIn animated animated" data-wow-delay="0ms"
+                                                                data-wow-duration="1500ms"
+                                                                style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
 
-                                                            <div class="icon_box">
-                                                                <span class="flaticon-arrows"></span>
-                                                            </div>
+                                                                <div class="icon_box">
+                                                                    <span class="flaticon-people-2"></span>
+                                                                </div>
 
-                                                            <h4>COMPETITIVE PRICE</h4>
-                                                            <div class="text">
-                                                                <p>Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track
-                                                                    now. </p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="item col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                                                        <div class="inner-box wow fadeIn animated animated" data-wow-delay="0ms"
-                                                            data-wow-duration="1500ms"
-                                                            style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
-
-                                                            <div class="icon_box">
-                                                                <span class="flaticon-technology-1"></span>
-                                                            </div>
-
-                                                            <h4>TIME DELIVERY</h4>
-                                                            <div class="text">
-                                                                <p>Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track
-                                                                    now. </p>
+                                                                <h4>PUBLIC PROJECTS</h4>
+                                                                <div class="text">
+                                                                    <p>Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track
+                                                                        now.</p>
+                                                                </div>
                                                             </div>
                                                         </div>
-                                                    </div>
+                                                        <div class="item col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                                                            <div class="inner-box wow fadeIn animated animated" data-wow-delay="0ms"
+                                                                data-wow-duration="1500ms"
+                                                                style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
 
-                                                </div> -->
+                                                                <div class="icon_box">
+                                                                    <span class="flaticon-factory"></span>
+                                                                </div>
+
+                                                                <h4>SUPERIOR QUALITY</h4>
+                                                                <div class="text">
+                                                                    <p>Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track
+                                                                        now. </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                                                            <div class="inner-box wow fadeIn animated animated" data-wow-delay="0ms"
+                                                                data-wow-duration="1500ms"
+                                                                style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
+
+                                                                <div class="icon_box">
+                                                                    <span class="flaticon-arrows"></span>
+                                                                </div>
+
+                                                                <h4>COMPETITIVE PRICE</h4>
+                                                                <div class="text">
+                                                                    <p>Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track
+                                                                        now. </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                                                            <div class="inner-box wow fadeIn animated animated" data-wow-delay="0ms"
+                                                                data-wow-duration="1500ms"
+                                                                style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
+
+                                                                <div class="icon_box">
+                                                                    <span class="flaticon-technology-1"></span>
+                                                                </div>
+
+                                                                <h4>TIME DELIVERY</h4>
+                                                                <div class="text">
+                                                                    <p>Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track
+                                                                        now. </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div> -->
         </div>
     </section>
 
     <!-- <section class="testimonial padd3">
-                                            <div class="container">
-                                                <div class="section-title center">
-                                                    <h2>Client Feedback</h2>
+                                                <div class="container">
+                                                    <div class="section-title center">
+                                                        <h2>Client Feedback</h2>
+                                                    </div>
+                                                    <div class="testimonial-carousel">
+                                                        <div class="testimonial-item">
+                                                            <div class="content">
+                                                                <span class="fa fa-quote-left"></span>
+                                                                <p>Lorem ipsum dolor sit amet ment tionim sea. Ei explicari evertitur uptatum vi core
+                                                                    zupitor inciderint reforin alienum</p>
+
+                                                                <ul class="rating">
+                                                                    <li class="fa fa-star"></li>
+                                                                    <li class="fa fa-star"></li>
+                                                                    <li class="fa fa-star"></li>
+                                                                    <li class="fa fa-star"></li>
+                                                                    <li class="fa fa-star"></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="author">
+                                                                <ul class="list-inline">
+                                                                    <li>
+                                                                        <img src="images/team/1.png" alt="">
+                                                                    </li>
+                                                                    <li>
+                                                                        <h5>Allen Duckeat</h5>
+                                                                        <p>Newyork</p>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="testimonial-item">
+                                                            <div class="content">
+                                                                <span class="fa fa-quote-left"></span>
+                                                                <p>Lorem ipsum dolor sit amet ment tionim sea. Ei explicari evertitur uptatum vi core
+                                                                    zupitor inciderint reforin alienum</p>
+
+                                                                <ul class="rating">
+                                                                    <li class="fa fa-star"></li>
+                                                                    <li class="fa fa-star"></li>
+                                                                    <li class="fa fa-star"></li>
+                                                                    <li class="fa fa-star"></li>
+                                                                    <li class="fa fa-star"></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="author">
+                                                                <ul class="list-inline">
+                                                                    <li>
+                                                                        <img src="images/team/2.png" alt="">
+                                                                    </li>
+                                                                    <li>
+                                                                        <h5>mack raider</h5>
+                                                                        <p>California</p>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="testimonial-item">
+                                                            <div class="content">
+                                                                <span class="fa fa-quote-left"></span>
+                                                                <p>Lorem ipsum dolor sit amet ment tionim sea. Ei explicari evertitur uptatum vi core
+                                                                    zupitor inciderint reforin alienum</p>
+
+                                                                <ul class="rating">
+                                                                    <li class="fa fa-star"></li>
+                                                                    <li class="fa fa-star"></li>
+                                                                    <li class="fa fa-star"></li>
+                                                                    <li class="fa fa-star"></li>
+                                                                    <li class="fa fa-star"></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="author">
+                                                                <ul class="list-inline">
+                                                                    <li>
+                                                                        <img src="images/team/3.png" alt="">
+                                                                    </li>
+                                                                    <li>
+                                                                        <h5>Don Flethcer</h5>
+                                                                        <p>Los Angeles</p>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                                <div class="testimonial-carousel">
-                                                    <div class="testimonial-item">
-                                                        <div class="content">
-                                                            <span class="fa fa-quote-left"></span>
-                                                            <p>Lorem ipsum dolor sit amet ment tionim sea. Ei explicari evertitur uptatum vi core
-                                                                zupitor inciderint reforin alienum</p>
-
-                                                            <ul class="rating">
-                                                                <li class="fa fa-star"></li>
-                                                                <li class="fa fa-star"></li>
-                                                                <li class="fa fa-star"></li>
-                                                                <li class="fa fa-star"></li>
-                                                                <li class="fa fa-star"></li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="author">
-                                                            <ul class="list-inline">
-                                                                <li>
-                                                                    <img src="images/team/1.png" alt="">
-                                                                </li>
-                                                                <li>
-                                                                    <h5>Allen Duckeat</h5>
-                                                                    <p>Newyork</p>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                    <div class="testimonial-item">
-                                                        <div class="content">
-                                                            <span class="fa fa-quote-left"></span>
-                                                            <p>Lorem ipsum dolor sit amet ment tionim sea. Ei explicari evertitur uptatum vi core
-                                                                zupitor inciderint reforin alienum</p>
-
-                                                            <ul class="rating">
-                                                                <li class="fa fa-star"></li>
-                                                                <li class="fa fa-star"></li>
-                                                                <li class="fa fa-star"></li>
-                                                                <li class="fa fa-star"></li>
-                                                                <li class="fa fa-star"></li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="author">
-                                                            <ul class="list-inline">
-                                                                <li>
-                                                                    <img src="images/team/2.png" alt="">
-                                                                </li>
-                                                                <li>
-                                                                    <h5>mack raider</h5>
-                                                                    <p>California</p>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                    <div class="testimonial-item">
-                                                        <div class="content">
-                                                            <span class="fa fa-quote-left"></span>
-                                                            <p>Lorem ipsum dolor sit amet ment tionim sea. Ei explicari evertitur uptatum vi core
-                                                                zupitor inciderint reforin alienum</p>
-
-                                                            <ul class="rating">
-                                                                <li class="fa fa-star"></li>
-                                                                <li class="fa fa-star"></li>
-                                                                <li class="fa fa-star"></li>
-                                                                <li class="fa fa-star"></li>
-                                                                <li class="fa fa-star"></li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="author">
-                                                            <ul class="list-inline">
-                                                                <li>
-                                                                    <img src="images/team/3.png" alt="">
-                                                                </li>
-                                                                <li>
-                                                                    <h5>Don Flethcer</h5>
-                                                                    <p>Los Angeles</p>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </section> -->
+                                            </section> -->
 
     <section class="subscribe center sec-padd">
         <div class="container">
@@ -526,8 +524,7 @@
                     <div class="item tran5">
                         <div class="team-member">
                             <figure class="img-box">
-                                <a href="#"><img src="{{ asset('assets/images/team/4.jpg') }}"
-                                        alt="team member photo"></a>
+                                <a href="#"><img src="{{ asset('assets/images/team/4.jpg') }}" alt="team member photo"></a>
                                 <div class="overlay">
                                     <ul class="social">
                                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -550,8 +547,7 @@
                     <div class="item tran5">
                         <div class="team-member">
                             <figure class="img-box">
-                                <a href="#"><img src="{{ asset('assets/images/team/3.jpg') }}"
-                                        alt="team member photo"></a>
+                                <a href="#"><img src="{{ asset('assets/images/team/3.jpg') }}" alt="team member photo"></a>
                                 <div class="overlay">
                                     <ul class="social">
                                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -574,8 +570,7 @@
                     <div class="item tran5">
                         <div class="team-member">
                             <figure class="img-box">
-                                <a href="#"><img src="{{ asset('assets/images/team/2.jpg') }}"
-                                        alt="team member photo"></a>
+                                <a href="#"><img src="{{ asset('assets/images/team/2.jpg') }}" alt="team member photo"></a>
                                 <div class="overlay">
                                     <ul class="social">
                                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -598,8 +593,7 @@
                     <div class="item tran5">
                         <div class="team-member">
                             <figure class="img-box">
-                                <a href="#"><img src="{{ asset('assets/images/team/1.jpg') }}"
-                                        alt="team member photo"></a>
+                                <a href="#"><img src="{{ asset('assets/images/team/1.jpg') }}" alt="team member photo"></a>
                                 <div class="overlay">
                                     <ul class="social">
                                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -625,17 +619,17 @@
 
 
     <!-- <div class="call-out2">
-                                            <div class="container">
-                                                <div class="clearfix">
-                                                    <div class="float_left">
-                                                        <h4>Have any question or need any business consultation?</h4>
+                                                <div class="container">
+                                                    <div class="clearfix">
+                                                        <div class="float_left">
+                                                            <h4>Have any question or need any business consultation?</h4>
+                                                        </div>
+                                                        <div class="float_right">
+                                                            <a href="contact.html" class="thm-btn bg-clr2">Request Quote</a>
+                                                        </div>
                                                     </div>
-                                                    <div class="float_right">
-                                                        <a href="contact.html" class="thm-btn bg-clr2">Request Quote</a>
-                                                    </div>
-                                                </div>
 
-                                            </div>
-                                        </div> -->
+                                                </div>
+                                            </div> -->
 
 @endsection

@@ -229,7 +229,7 @@
                             <nav class="main-menu navbar navbar-expand-lg">
                                 <div class="navbar-header">
                                     <button type="button"
-                                        class="navbar-toggler ms-3 rounded-0 border-2 border-primary"
+                                        class="navbar-toggler ms-3 rounded-0 border-0"
                                         data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
                                         <span class="navbar-toggler-icon"></span>
                                     </button>
@@ -313,6 +313,7 @@
 
 
                                         <li class="nav-item"><a class="nav-link" href="#">QUALITY</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">CALCULATOR</a></li>
                                         <li class="nav-item"><a class="nav-link" href="#">Blogs</a></li>
                                     </ul>
                                     <ul class="mobile-menu clearfix">
@@ -330,6 +331,7 @@
                                         </li>
                                         <li><a href="#">MATERIALS</a></li>
                                         <li><a href="#">QUALITY</a></li>
+                                        <li><a href="#">CALCULATOR</a></li>
                                         <li><a href="#">Blogs</a></li>
 
                                     </ul>

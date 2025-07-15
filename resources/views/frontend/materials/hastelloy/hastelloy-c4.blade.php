@@ -298,7 +298,7 @@
             </div>
 
             <div class="row g-4 mt-4">
-                <div class="col-sm-6 col-lg-4">
+                <div class="col-sm-6 col-lg-4 justify-content-center">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
                         <h5>Superior resistance to strong oxidizers (especially nitric acid mixtures)</h5>
@@ -349,7 +349,7 @@
                 </p>
             </div>
 
-            <div class="row g-4">
+            <div class="row g-4 justify-content-center">
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
