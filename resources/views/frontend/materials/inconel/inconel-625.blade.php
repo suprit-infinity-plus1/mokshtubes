@@ -1,0 +1,554 @@
+@extends('layouts.master')
+
+@section('title', 'Inconel 625 - Moksh Tubes & Fittings LLP')
+
+@section('content')
+    <!--Start breadcrumb area-->
+    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-auto text-center">
+                    <h1>Inconel 625</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--End breadcrumb area-->
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Product Overview</h2>
+            </div>
+
+            <h2 class="fw-semibold text-center mb-5" style="color: #db7227;">
+                Introduction To Inconel 625 / Alloy 625 / UNS N06625 </h2>
+
+            <div class="row align-items-center">
+                <!-- Image Left -->
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <img src="https://placehold.co/550x400?" alt="Inconel 625" class="img-fluid rounded shadow-sm">
+                </div>
+
+                <!-- Content Right -->
+                <div class="col-md-6">
+                    <div class="pe-md-3">
+                        <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
+                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a manufacturer, supplier,
+                            exporter, importer and stockist of a wide range of<strong class="text-black"> INCONEL
+                                625</strong> (UNS N06625) products including
+                            Pipes & Tubes, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires, Round Bars,
+                            Flat Bars, Angles, Channels, Welding Rods, Wire Mesh, and other Custom and Hard-to-Find INCONEL
+                            625 Products.
+                        </p>
+
+                        <p class="fs-6" style="text-align: justify;">
+                            <strong class="text-black">INCONEL 625</strong> is a nickel-chromium-molybdenum-niobium alloy
+                            known for its outstanding corrosion resistance, high strength, and excellent fatigue and
+                            thermal-fatigue properties. The alloy exhibits exceptional resistance to a wide range of
+                            corrosive environments, including oxidizing and reducing acids, chlorides, seawater, and harsh
+                            chemical media. Its high nickel content provides superior resistance to chloride-induced stress
+                            corrosion cracking, while the addition of molybdenum and niobium enhances its mechanical
+                            strength and resistance to pitting and crevice corrosion.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr>
+                                    <th>Element</th>
+                                    <th>Composition (%)</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr>
+                                    <td>Nickel</td>
+                                    <td>58 (min, balance)</td>
+                                </tr>
+                                <tr>
+                                    <td>Chromium</td>
+                                    <td>20–23</td>
+                                </tr>
+                                <tr>
+                                    <td>Molybdenum</td>
+                                    <td>8–10</td>
+                                </tr>
+                                <tr>
+                                    <td>Niobium + Tantalum</td>
+                                    <td>3.15–4.15</td>
+                                </tr>
+                                <tr>
+                                    <td>Iron</td>
+                                    <td>5 (max)</td>
+                                </tr>
+                                <tr>
+                                    <td>Cobalt</td>
+                                    <td>1.0 (max)</td>
+                                </tr>
+                                <tr>
+                                    <td>Manganese</td>
+                                    <td>0.50 (max)</td>
+                                </tr>
+                                <tr>
+                                    <td>Silicon</td>
+                                    <td>0.50 (max)</td>
+                                </tr>
+                                <tr>
+                                    <td>Aluminum</td>
+                                    <td>0.40 (max)</td>
+                                </tr>
+                                <tr>
+                                    <td>Titanium</td>
+                                    <td>0.40 (max)</td>
+                                </tr>
+                                <tr>
+                                    <td>Carbon</td>
+                                    <td>0.10 (max)</td>
+                                </tr>
+                                <tr>
+                                    <td>Phosphorus</td>
+                                    <td>0.015 (max)</td>
+                                </tr>
+                                <tr>
+                                    <td>Sulfur</td>
+                                    <td>0.015 (max)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+            </div>
+
+            <!-- Physical Properties Table -->
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr>
+                                    <th>Property</th>
+                                    <th>Imperial</th>
+                                    <th>Metric</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr>
+                                    <td>Density</td>
+                                    <td>0.305 lb/in³</td>
+                                    <td>8.44 g/cm³</td>
+                                </tr>
+                                <tr>
+                                    <td>Melting Range</td>
+                                    <td>2350 – 2460 °F</td>
+                                    <td>1290 – 1350 °C</td>
+                                </tr>
+                                <tr>
+                                    <td>Permeability at 200 Oersted (15.9 kA/m)</td>
+                                    <td>1.0006</td>
+                                    <td>1.0006</td>
+                                </tr>
+                                <tr>
+                                    <td>Curie Temperature</td>
+                                    <td>-320 °F</td>
+                                    <td>-196 °C</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mechanical Properties Table -->
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr>
+                                    <th>Property</th>
+                                    <th>Rod, Bar, Plate As-Rolled</th>
+                                    <th>Rod, Bar, Plate Annealed</th>
+                                    <th>Rod, Bar, Plate Solution-Treated</th>
+                                    <th>Sheet and Strip Annealed</th>
+                                    <th>Tube and Pipe Cold-Drawn Annealed</th>
+                                    <th>Tube and Pipe Cold-Drawn Solution-Treated</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr>
+                                    <td>Tensile Strength (ksi)</td>
+                                    <td>120 – 160</td>
+                                    <td>120 – 150</td>
+                                    <td>105 – 130</td>
+                                    <td>120 – 150</td>
+                                    <td>120 – 140</td>
+                                    <td>100 – 120</td>
+                                </tr>
+                                <tr>
+                                    <td>Tensile Strength (MPa)</td>
+                                    <td>827 – 1103</td>
+                                    <td>827 – 1034</td>
+                                    <td>724 – 896</td>
+                                    <td>827 – 1034</td>
+                                    <td>827 – 965</td>
+                                    <td>689 – 827</td>
+                                </tr>
+                                <tr>
+                                    <td>Yield Strength (ksi)</td>
+                                    <td>60 – 110</td>
+                                    <td>60 – 95</td>
+                                    <td>42 – 60</td>
+                                    <td>60 – 90</td>
+                                    <td>60 – 75</td>
+                                    <td>40 – 60</td>
+                                </tr>
+                                <tr>
+                                    <td>Yield Strength (MPa)</td>
+                                    <td>414 – 758</td>
+                                    <td>414 – 655</td>
+                                    <td>290 – 414</td>
+                                    <td>414 – 621</td>
+                                    <td>414 – 517</td>
+                                    <td>276 – 414</td>
+                                </tr>
+                                <tr>
+                                    <td>Elongation (%)</td>
+                                    <td>60 – 30</td>
+                                    <td>60 – 30</td>
+                                    <td>65 – 40</td>
+                                    <td>55 – 30</td>
+                                    <td>55 – 30</td>
+                                    <td>60 – 40</td>
+                                </tr>
+                                <tr>
+                                    <td>Reduction of Area (%)</td>
+                                    <td>60 – 40</td>
+                                    <td>60 – 40</td>
+                                    <td>90 – 60</td>
+                                    <td>–</td>
+                                    <td>–</td>
+                                    <td>–</td>
+                                </tr>
+                                <tr>
+                                    <td>Hardness (Brinell)</td>
+                                    <td>175 – 240</td>
+                                    <td>145 – 220</td>
+                                    <td>116 – 194</td>
+                                    <td>145 – 240</td>
+                                    <td>–</td>
+                                    <td>–</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    @php
+        $products = [
+            'seamless-pipes' => 'Seamless Pipes',
+            'welded-pipes' => 'Welded Pipes (ERW & EFW)',
+            'tubes' => 'Tubes (Capillary, U-Bend, Boiler & Heat Exchanger Tubes)',
+            'sheets-plates' => 'Sheets & Plates',
+            'coils-strips' => 'Coils & Strips',
+            'bars' => 'Round Bars, Flat Bars, Hex Bars, Square Bars',
+            'pipe-fittings' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
+            'flanges' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
+            'fasteners' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
+            'custom-components' => 'Custom Fabricated Components',
+        ];
+    @endphp
+
+    <section class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Products in Inconel 625</h2>
+            </div>
+
+            <!-- Highlighted Paragraph -->
+            <div class="row justify-content-center mb-4" style="text-align: justify;">
+                <div class="col-lg-10">
+                    <p class="fs-6">
+                        <strong class="text-dark">INCONEL 625 </strong>is a versatile and highly reliable material widely
+                        used across many industries. It complies with important industry standards like NACE MR-01-75 and is
+                        available in a broad range of shapes and sizes to fit your needs.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Horizontal Styled Product List -->
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-10">
+                    <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color: #db7227;">
+                        <div class="row">
+                            @foreach ($products as $slug => $product)
+                                <div class="col-12 col-sm-6 mb-2 d-flex justify-content-start align-items-start">
+                                    <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span>
+                                    <span>{{ $product }}</span>
+                                </div>
+                            @endforeach
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Emphasized Line -->
+            <div class="row justify-content-center mb-3">
+                <div class="col-lg-10">
+                    <p class="fw-bold fs-5 text-center my-4" style="color: #174268;">
+                        This alloy meets several recognized industry standards, including:
+                    </p>
+                </div>
+            </div>
+
+            <!-- Product Image Cards (Now centered and responsive) -->
+            <div class="row g-4">
+                @foreach ($products as $slug => $product)
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
+                        <div class="mx-auto" style="width: 100%; max-width: 300px;">
+                            <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none">
+                                <div class="product-card h-100">
+                                    <img src="https://placehold.co/300x200?" alt="{{ $product }}"
+                                        class="img-fluid  w-100">
+                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product }}</h6>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                @endforeach
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Uses and Advantages</h2>
+            </div>
+
+            <div class="row g-4 mt-4">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h5>Resists a broad spectrum of corrosive environments</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
+                        <h5>Maintains strength and integrity at elevated temperatures</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
+                        <h5>Exceptional fatigue resistance and thermal stability</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
+                        <h5>Easy to fabricate and weld</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
+                        <h5>Superior defense against pitting, crevice corrosion, and stress corrosion cracking</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Applications of Inconel 625</h2>
+                <p class="text-center pb-3"><strong class="text-dark">Inconel 625</strong> is a highly versatile
+                    nickel-chromium-molybdenum-niobium alloy known for its exceptional corrosion resistance, high strength,
+                    and durability in extreme environments. Its ability to withstand aggressive chemicals, high pressures,
+                    and wide temperature ranges makes it a preferred material across a variety of critical industries.
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
+                        <h5>Aerospace Industry</h5>
+                        <p>Widely used in jet engine components, exhaust systems, ducting, and turbine shroud rings. INCONEL
+                            625 offers excellent fatigue strength and thermal stability under high mechanical and thermal
+                            stress.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
+                        <h5>Marine and Offshore Applications</h5>
+                        <p>Highly resistant to seawater, pitting, crevice corrosion, and chloride-induced stress corrosion
+                            cracking. Common applications include seawater piping, underwater components, marine fasteners,
+                            and offshore platform structures.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
+                        <h5>Chemical Processing</h5>
+                        <p>Performs reliably in environments involving strong acids such as nitric, phosphoric, and sulfuric
+                            acids. Ideal for heat exchangers, reactors, scrubbers, and transfer piping handling corrosive
+                            fluids at elevated temperatures.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-droplet"></i></div>
+                        <h5>Power Generation and Nuclear Reactors</h5>
+                        <p>Used in superheaters, steam lines, containment vessels, and heat exchanger tubing. INCONEL 625
+                            resists oxidation and maintains mechanical properties under high heat and pressure, including
+                            radiation environments.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
+                        <h5>Oil & Gas Sector</h5>
+                        <p>Ideal for sour gas service, wellhead components, flexible joints, manifolds, and downhole
+                            equipment. Its resistance to hydrogen sulfide and chlorides ensures long-lasting performance in
+                            offshore and deep well operations.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
+                        <h5>Environmental and Pollution Control Systems</h5>
+                        <p>Suitable for flue gas scrubbers, incinerator linings, and waste processing systems that involve
+                            acidic or high-temperature gas streams.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-capsule"></i></div>
+                        <h5>Pharmaceutical and Food Processing</h5>
+                        <p>Used in high-purity process piping, steam sterilizers, and acid-resistant components where
+                            hygiene and corrosion resistance are essential.</p>
+                    </div>
+                </div>
+
+                {{-- <div class="col-md-6 col-lg-4">
+                <div class="application-card">
+                     <div class="application-icon"><i class="bi bi-strategies"></i></div>
+                    <h5>Why It Works</h5>
+                    <p><strong>HASTELLOY C276’s</strong> combination of corrosion resistance, weldability, and mechanical durability makes it ideal for mission-critical applications where long-term performance is non-negotiable.</p>
+                </div>
+            </div> --}}
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container text-center">
+            <div class="section-title center">
+                <h2>WHY CHOOSE US?</h2>
+            </div>
+
+            <div class="row g-4 mt-4">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
+                        <h5>Expertise in crafting premium INCONEL 625 products</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
+                        <h5>Reliable global network for top-grade raw materials</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
+                        <h5>Deep knowledge of nickel alloys and specialty metals</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-6">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
+                        <h5>Customized solutions tailored to your needs</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-6">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
+                        <h5>Total commitment to quality, dependability, and customer satisfaction</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="contact-cta-box">
+                <h2>Contact Us</h2>
+                <p>
+                    <strong>Moksh Tubes & Fittings LLP</strong> for inquiries or quotes – your trusted partner for
+                    world-class INCONEL 625 products.
+                </p>
+                <!-- Call button -->
+                <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+@endsection

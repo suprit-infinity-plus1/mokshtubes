@@ -46,7 +46,8 @@
                             <strong class="text-black">INCONEL 600</strong class="text-black"> is a nickel-chromium-iron
                             alloy designed for service temperatures from cryogenic to elevated levels in the range of 2000°F
                             (1093°C). Known for its high strength and excellent oxidation and corrosion resistance,
-                            particularly in high-temperature applications,<strong class="text-black"> INCONEL 600</strong> also exhibits great mechanical
+                            particularly in high-temperature applications,<strong class="text-black"> INCONEL 600</strong>
+                            also exhibits great mechanical
                             properties and is readily weldable and formable. It is immune to chloride-ion stress-corrosion
                             cracking, non-magnetic, and maintains stability under both oxidizing and reducing conditions.
                             These properties make it ideal for a variety of industries including chemical processing,
@@ -206,16 +207,16 @@
                                     <td>80–100</td>
                                     <td>85–120</td>
                                     <td>80–105</td>
-                                     <td>85–110</td>
-                                     <td>80–100</td>
-                                     <td>120–150</td>
-                                     <td>80–100</td>
-                                     <td>145–170</td>
-                                     <td>75–100</td>
-                                     <td>80–100</td>
-                                     <td>80–120</td>
-                                     <td>105–135</td>
-                                     <td>170–220</td>
+                                    <td>85–110</td>
+                                    <td>80–100</td>
+                                    <td>120–150</td>
+                                    <td>80–100</td>
+                                    <td>145–170</td>
+                                    <td>75–100</td>
+                                    <td>80–100</td>
+                                    <td>80–120</td>
+                                    <td>105–135</td>
+                                    <td>170–220</td>
                                 </tr>
                                 <tr>
                                     <td>Tensile Strength (MPa)</td>
@@ -224,16 +225,16 @@
                                     <td>550–690</td>
                                     <td>585–830</td>
                                     <td>550–725</td>
-                                     <td>580–760</td>
-                                     <td>550–690</td>
-                                     <td>830–1035</td>
-                                     <td>550–690</td>
-                                     <td>1000–1170</td>
-                                     <td>520–690</td>
-                                     <td>550–690</td>
-                                     <td>550–830</td>
-                                     <td>725–930</td>
-                                     <td>1170–1520</td>
+                                    <td>580–760</td>
+                                    <td>550–690</td>
+                                    <td>830–1035</td>
+                                    <td>550–690</td>
+                                    <td>1000–1170</td>
+                                    <td>520–690</td>
+                                    <td>550–690</td>
+                                    <td>550–830</td>
+                                    <td>725–930</td>
+                                    <td>1170–1520</td>
                                 </tr>
                                 <tr>
                                     <td>Yield Strength (ksi)</td>
@@ -242,16 +243,16 @@
                                     <td>30–50</td>
                                     <td>35–90</td>
                                     <td>30–50</td>
-                                     <td>35–65</td>
-                                     <td>30–45</td>
-                                     <td>90–125</td>
-                                     <td>30–45</td>
-                                     <td>120–160</td>
-                                     <td>25–50</td>
-                                     <td>25–50</td>
-                                     <td>35–75</td>
-                                     <td>70–105</td>
-                                     <td>150–210</td>
+                                    <td>35–65</td>
+                                    <td>30–45</td>
+                                    <td>90–125</td>
+                                    <td>30–45</td>
+                                    <td>120–160</td>
+                                    <td>25–50</td>
+                                    <td>25–50</td>
+                                    <td>35–75</td>
+                                    <td>70–105</td>
+                                    <td>150–210</td>
                                 </tr>
                                 <tr>
                                     <td>Yield Strength (MPa)</td>
@@ -260,16 +261,16 @@
                                     <td>205–345</td>
                                     <td>240–620</td>
                                     <td>205–345</td>
-                                     <td>240–450</td>
-                                     <td>205–310</td>
-                                     <td>620–860</td>
-                                     <td>205–310</td>
-                                     <td>830–1100</td>
-                                     <td>170–345</td>
-                                     <td>170–345</td>
-                                     <td>240–520</td>
-                                     <td>480–725</td>
-                                     <td>1035–1450</td>
+                                    <td>240–450</td>
+                                    <td>205–310</td>
+                                    <td>620–860</td>
+                                    <td>205–310</td>
+                                    <td>830–1100</td>
+                                    <td>170–345</td>
+                                    <td>170–345</td>
+                                    <td>240–520</td>
+                                    <td>480–725</td>
+                                    <td>1035–1450</td>
                                 </tr>
                                 <tr>
                                     <td>Elongation (%)</td>
@@ -278,16 +279,16 @@
                                     <td>55–35</td>
                                     <td>50–30</td>
                                     <td>55–35</td>
-                                     <td>50–30</td>
-                                     <td>55–35</td>
-                                     <td>15–2</td>
-                                     <td>55–35</td>
-                                     <td>10–2</td>
-                                     <td>55–35</td>
-                                     <td>55–35</td>
-                                     <td>45–20</td>
-                                     <td>35–15</td>
-                                     <td>5–2</td>
+                                    <td>50–30</td>
+                                    <td>55–35</td>
+                                    <td>15–2</td>
+                                    <td>55–35</td>
+                                    <td>10–2</td>
+                                    <td>55–35</td>
+                                    <td>55–35</td>
+                                    <td>45–20</td>
+                                    <td>35–15</td>
+                                    <td>5–2</td>
                                 </tr>
                                 <tr>
                                     <td>Hardness (Rockwell)</td>
@@ -296,16 +297,16 @@
                                     <td>65–85B</td>
                                     <td>75–95B</td>
                                     <td>65–85B</td>
-                                     <td>80–95B</td>
-                                     <td>88B max</td>
-                                     <td>24C min</td>
-                                     <td>84B max</td>
-                                     <td>30C min</td>
-                                     <td>–</td>
-                                     <td>88B max</td>
-                                     <td>–</td>
-                                     <td>–</td>
-                                     <td>–</td>
+                                    <td>80–95B</td>
+                                    <td>88B max</td>
+                                    <td>24C min</td>
+                                    <td>84B max</td>
+                                    <td>30C min</td>
+                                    <td>–</td>
+                                    <td>88B max</td>
+                                    <td>–</td>
+                                    <td>–</td>
+                                    <td>–</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -341,8 +342,10 @@
             <div class="row justify-content-center mb-4" style="text-align: justify;">
                 <div class="col-lg-10">
                     <p class="fs-6">
-                        <strong class="text-dark">INCONEL 600 </strong>, (UNS N04400) in a wide variety of formats,
-                        conveniently available from stock. We also source specialty sizes through trusted converters:
+                        <strong class="text-dark">INCONEL 600 </strong>designated as UNS N06600 and Werkstoff Nr. 2.4816, is
+                        a versatile nickel-chromium alloy known for its excellent resistance to oxidation and corrosion at
+                        high temperatures. Widely used in heat and corrosion-resistant applications, this alloy is
+                        officially approved under multiple sections of the ASME Boiler and Pressure Vessel Code, including:
                     </p>
                 </div>
             </div>
@@ -402,35 +405,35 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>Excellent resistance to seawater, acids, and alkalis</h5>
+                        <h5>High resistance to oxidation and corrosion at elevated temperatures</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h5>High strength and toughness over a wide temperature range</h5>
+                        <h5>High resistance to oxidation and corrosion at elevated temperatures</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h5>Exceptional corrosion resistance in marine and chemical processing environments</h5>
+                        <h5>Resistance to chloride-ion stress-corrosion cracking</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h5>Good weldability and formability</h5>
+                        <h5>Good weldability and machinability</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
-                        <h5>Non-magnetic and suitable for high-conductivity applications</h5>
+                        <h5>Outstanding performance in both oxidizing and reducing environments</h5>
                     </div>
                 </div>
             </div>
@@ -441,11 +444,11 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Applications of Monel R405</h2>
-                <p class="text-center pb-3"><strong class="text-dark">Monel 400</strong> is a versatile nickel-copper
-                    alloy widely used in applications where excellent corrosion resistance, mechanical strength, and
-                    durability are required. It performs exceptionally well in marine, chemical, and high-temperature
-                    environments. Typical applications include:
+                <h2>Applications of Inconel 600</h2>
+                <p class="text-center pb-3"><strong class="text-dark">Inconel 600</strong>is a solid solution
+                    nickel-chromium-iron alloy known for its excellent resistance to heat and corrosion across a wide range
+                    of temperatures and environments. Its ability to retain strength and structural integrity under both
+                    oxidizing and reducing conditions makes it a highly versatile choice for multiple critical industries.
                 </p>
             </div>
 
@@ -453,9 +456,10 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
-                        <h5>Marine Engineering & Shipbuilding</h5>
-                        <p>Used in seawater-cooled heat exchangers, condenser tubes, propeller shafts, fasteners, seawater
-                            valves, and pump components due to outstanding resistance to saltwater and marine atmospheres.
+                        <h5>Heat Treatment and Industrial Furnaces</h5>
+                        <p>Commonly used for retorts, furnace fixtures, trays, muffles, and radiant tubes exposed to high
+                            temperatures. INCONEL 600 maintains mechanical strength and resists scaling in extreme thermal
+                            cycles.
                         </p>
                     </div>
                 </div>
@@ -463,37 +467,39 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
-                        <h5>Chemical & Petrochemical Processing</h5>
-                        <p>Ideal for processing and handling equipment such as storage tanks, process vessels, piping
-                            systems, heat exchangers, and pumps exposed to hydrofluoric acid, sulfuric acid, and caustic
-                            solutions.</p>
+                        <h5>Chemical Processing</h5>
+                        <p>Ideal for vessels, piping, and heat exchangers handling acidic, caustic, and chlorinated media.
+                            The alloy's resistance to chlorine, hydrogen chloride, and oxidizing salts ensures long-term
+                            stability and performance</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
-                        <h5>Oil & Gas Industry</h5>
-                        <p>Preferred for downhole tools, pump shafts, safety valves, and heat exchangers operating in sour
-                            gas environments and offshore platforms.</p>
+                        <h5>Nuclear and Power Generation</h5>
+                        <p>Used in reactor core components, steam generator tubing, and fuel element spacers. INCONEL 600
+                            offers good resistance to corrosion under high-purity water and steam conditions in nuclear
+                            power plants.</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-droplet"></i></div>
-                        <h5>Power Generation</h5>
-                        <p>Applied in boiler feedwater systems, condensers, superheaters, and brine heaters in power plants
-                            due to its resistance to saline and chemical media.</p>
+                        <h5>Food Processing and Pharmaceutical Equipment</h5>
+                        <p>Well-suited for systems exposed to organic and inorganic acids. Its non-magnetic properties and
+                            resistance to high-purity water make it reliable for hygienic applications.</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
-                        <h5>Aerospace & Defense</h5>
-                        <p>Used in fuel tanks, jet engine components, and hydraulic systems that require resistance to high
-                            stress, pressure, and corrosive fuels.
+                        <h5>Aerospace and Jet Engines</h5>
+                        <p>Used in components exposed to thermal and corrosive environments, such as engine parts,
+                            afterburner assemblies, and exhaust liners. INCONEL 600 offers excellent oxidation and creep
+                            resistance.
                         </p>
                     </div>
                 </div>
@@ -501,18 +507,18 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
-                        <h5>Desalination and Water Treatment</h5>
-                        <p>Employed in brine heaters, evaporators, and saltwater treatment components for long service life
-                            and minimal maintenance.</p>
+                        <h5>Marine and Offshore Systems</h5>
+                        <p>Provides excellent resistance to chloride-induced corrosion in saltwater environments. Often used
+                            in marine heat exchangers, pumps, and risers.</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-capsule"></i></div>
-                        <h5>Electronic and Instrumentation</h5>
-                        <p>Selected for non-sparking, non-magnetic parts such as connectors, terminals, and housing
-                            components in sensitive electrical systems.</p>
+                        <h5>Cryogenic Applications</h5>
+                        <p>INCONEL 600 retains toughness and ductility at sub-zero temperatures, making it suitable for use
+                            in cryogenic storage and transfer systems.</p>
                     </div>
                 </div>
 
@@ -538,35 +544,35 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Specialists in manufacturing high-quality products</h5>
+                        <h5>Specialists in high-performance nickel alloys</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
-                        <h5>Strong supplier network for premium raw materials</h5>
+                        <h5>Strong sourcing network for premium materials</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
-                        <h5>Expertise in nickel alloys and high-performance materials</h5>
+                        <h5>Advanced manufacturing and machining capabilities</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Global presence with customized solutions for diverse needs</h5>
+                        <h5>Export-ready with global logistics support</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
-                        <h5>Dedicated to quality, dependability, and customer satisfaction</h5>
+                        <h5>Committed to quality assurance and customer satisfaction</h5>
                     </div>
                 </div>
             </div>
@@ -578,7 +584,8 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    <strong>Moksh Tubes & Fittings LLP</strong> your trusted partner for MONEL 400 products.
+                    For inquiries or to request a quote, reach out to <strong>Moksh Tubes & Fittings LLP</strong> your
+                    reliable source for INCONEL 600 products engineered for performance, precision, and reliability.
                 </p>
                 <!-- Call button -->
                 <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
