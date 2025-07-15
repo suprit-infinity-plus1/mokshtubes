@@ -7652,7 +7652,7 @@ ul.gallery-filter li span {
 /*subscribe*/
 
 .subscribe {
-    background-image: url(../images/background/5.jpg);
+    background-image: url(/assets/images/background/newsletter.jpg);
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
@@ -7663,12 +7663,15 @@ ul.gallery-filter li span {
 .subscribe h2 {
     /* color: #fff; */
     font-size: 32px;
+    color: white;
+    font-weight: 600;
 }
 
 .subscribe p {
     /* color: #fff; */
     font-size: 18px;
     margin: 22px 0 36px;
+    color: white;
 }
 
 .subscribe-form input {
@@ -7677,7 +7680,7 @@ ul.gallery-filter li span {
     display: inline-block;
     margin-right: 6px;
     padding: 10px 15px 8px;
-    padding-left: 40px;
+    padding-left: 50px;
     border: 1px solid var(--primary);
 }
 

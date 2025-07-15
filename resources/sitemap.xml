@@ -1,0 +1,52 @@
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-95HT8CTVJC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-95HT8CTVJC');
+</script>
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
+<url>
+<loc>https://mokshtubes.com/</loc>
+<lastmod>2025-06-27T11:05:57+00:00</lastmod>
+<priority>1.00</priority>
+</url>
+<url>
+<loc>https://mokshtubes.com/about-us</loc>
+<lastmod>2025-06-27T11:05:57+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://mokshtubes.com/products</loc>
+<lastmod>2025-06-27T11:05:57+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://mokshtubes.com/products/pipes-tubes</loc>
+<lastmod>2025-06-27T11:05:57+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://mokshtubes.com/materials</loc>
+<lastmod>2025-06-27T11:05:57+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://mokshtubes.com/materials/hastelloy</loc>
+<lastmod>2025-06-27T11:05:57+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://mokshtubes.com/products/pipes-tubes/welded-pipes-and-tubes</loc>
+<lastmod>2025-06-27T11:05:57+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://mokshtubes.com/materials/hastelloy/hastelloy-c276</loc>
+<lastmod>2025-06-27T11:05:57+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+</urlset>

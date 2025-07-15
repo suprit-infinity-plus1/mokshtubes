@@ -15,8 +15,9 @@ Route::get('/about-us', [MainController::class, 'aboutUs'])->name('about-us');
 Route::get('/materials', [MainController::class, 'materials'])->name('materials');
 Route::get('/materials/hastelloy', [MainController::class, 'hastelloy'])->name('materials.hastelloy');
 Route::get('/materials/monel', [MainController::class, 'monel'])->name('materials.monel');
-Route::get('/materials/incoloy', [MainController::class, 'incoloy'])->name('materials.inconel');
+Route::get('/materials/incoloy', [MainController::class, 'incoloy'])->name('materials.incoloy');
 Route::get('/materials/nickel-based-superalloys', [MainController::class, 'nickelBasedSuperalloys'])->name('materials.nickel-Based-Superalloys');
+Route::get('/materials/inconel', [MainController::class, 'inconel'])->name('materials.inconel');
 
 Route::get('/materials/{family}/{grade}', [MainController::class, 'showMaterialGrade'])->name('material.grade');
 Route::get('/materials/{category}/{slug}', [MainController::class, 'showMaterial'])->name('materials.grade');

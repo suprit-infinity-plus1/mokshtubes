@@ -111,6 +111,20 @@ class MainController extends Controller
         return view('frontend.materials.nickel-based-superalloys.index', compact('grades'));
     }
 
+    public function inconel()
+    {
+        $grades = [
+            ['name' => '600', 'slug' => '600'],
+            ['name' => '617', 'slug' => '617'],
+            ['name' => '625', 'slug' => '625'],
+            ['name' => '690', 'slug' => '690'],
+            ['name' => '718', 'slug' => '718'],
+            ['name' => 'x 750', 'slug' => 'x 750'],
+        ];
+
+        return view('frontend.materials.inconel.index', compact('grades'));
+    }
+
 
 
     public function showMaterialGrade($family, $grade)

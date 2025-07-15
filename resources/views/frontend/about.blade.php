@@ -27,7 +27,7 @@
 
                     <figure class="about-img h-100 m-0">
                         <!-- <img src="images/resource/1.png" alt="about titan builders photo"> -->
-                        <img src="https://placehold.co/500x700" alt="about titan builders photo"
+                        <img src="/assets/images/about/about-materials_11zon.webp" alt="about titan builders photo"
                             class="img-fluid w-100 h-100 object-fit-cover custom-img">
                         <!-- <img src="https://placehold.co/300x300" class="mt-1" alt="about titan builders photo"> -->
                     </figure>
@@ -154,13 +154,13 @@
                 </div>
                 <div class="col-md-6 text-center">
                     <!-- Desktop Image -->
-                    <img src="https://placehold.co/600x300?text=Large+Image" alt="Large"
+                    <img src="/assets/images/history/our-mission.webp" alt="Large"
                         class="img-fluid d-none d-lg-block">
-                    <!-- Tablet Image -->
-                    <img src="https://placehold.co/400x250?text=Tablet+Image" alt="Tablet"
+                    <!-- Tablet Image 400x250-->
+                    <img src="/assets/images/history/our-mission.webp" alt="Tablet"
                         class="img-fluid d-none d-md-block d-lg-none">
-                    <!-- Mobile Image -->
-                    <img src="https://placehold.co/300x200?text=Mobile+Image" alt="Mobile"
+                    <!-- Mobile Image 300x200 -->
+                    <img src="/assets/images/history/our-mission.webp" alt="Mobile"
                         class="img-fluid d-block d-md-none mx-auto">
                 </div>
             </div>
@@ -181,14 +181,14 @@
                     </p>
                 </div>
                 <div class="col-md-6 text-center">
-                    <!-- Desktop Image -->
-                    <img src="https://placehold.co/600x300?text=Large+Image" alt="Large"
+                    <!-- Desktop Image 600x300 -->
+                    <img src="/assets/images/history/our-goal.jpg" alt="Large"
                         class="img-fluid d-none d-lg-block">
-                    <!-- Tablet Image -->
-                    <img src="https://placehold.co/400x250?text=Tablet+Image" alt="Tablet"
+                    <!-- Tablet Image 400x250 -->
+                    <img src="/assets/images/history/our-goal.jpg" alt="Tablet"
                         class="img-fluid d-none d-md-block d-lg-none">
-                    <!-- Mobile Image -->
-                    <img src="https://placehold.co/300x200?text=Mobile+Image" alt="Mobile"
+                    <!-- Mobile Image 300x200 -->
+                    <img src="/assets/images/history/our-goal.jpg" alt="Mobile"
                         class="img-fluid d-block d-md-none mx-auto">
                 </div>
             </div>
