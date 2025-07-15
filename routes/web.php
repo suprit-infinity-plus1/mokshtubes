@@ -4,9 +4,10 @@ use App\Http\Controllers\MainController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+Route::get('/', [MainController::class, 'home']);
 Route::get('/home', [MainController::class, 'home'])->name('home');
 Route::get('/contact-us', [MainController::class, 'contactUs'])->name('contact-us');
 Route::get('/contact-us/gulalwadi', [MainController::class, 'contactUsGulalwadi'])->name('contact-us-gulalwadi');
