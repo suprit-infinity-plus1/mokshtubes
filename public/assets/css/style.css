@@ -1167,7 +1167,7 @@ textarea {
 
 .mainmenu-area .link_btn .thm-btn {
     background: var(--brown);
-    line-height: 67px;
+    line-height: 55px;
     padding: 0 50px;
 
 }
@@ -7870,7 +7870,7 @@ ul.gallery-filter li span {
 }
 
 .mainmenu-area .navbar {
-    height: 67px;
+    height: 55px;
 }
 
 .mainmenu-area .row {

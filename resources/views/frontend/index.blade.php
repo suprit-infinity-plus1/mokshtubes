@@ -134,14 +134,14 @@
     <section class="about-us sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-sm-12">
+                <div class="col-lg-6 col-sm-12">
 
                     <figure class="about-img">
                         <!-- <img src="images/resource/1.png" alt="about titan builders photo"> -->
                         <img src="/assets/images/about/about-moksh-tubes.jpg" alt="about titan builders photo">
                     </figure>
                 </div>
-                <div class="col-md-6 col-sm-12">
+                <div class="col-lg-6 col-sm-12">
                     <div class="about-text">
                         <h2>
                             about <span class="thm-color">Moksh Tubes & Fittings LLP</span>
@@ -152,7 +152,7 @@
                                 right.They're all together ooky the Addams Family doin' it our way. There's nothing
                                 we wont try. Never heard the word impossible. This time there's no stopping us.</p>
                         </div>
-                        <div class="fact-counter">
+                        <div class="fact-counter d-xl-block d-none">
                             <ul class="d-flex flex-wrap justify-content-center gap-5">
                                 <li class="single-fact-counter">
                                     <div class="icon-holder"><span class="flaticon-social"></span></div>
@@ -180,8 +180,35 @@
 
                     </div>
 
+                    
+
 
                 </div>
+                <div class="fact-counter d-xl-none d-block">
+                            <ul class="d-flex flex-wrap justify-content-center gap-5">
+                                <li class="single-fact-counter">
+                                    <div class="icon-holder"><span class="flaticon-social"></span></div>
+                                    <span class="timer" data-from="1" data-to="2456" data-speed="5000"
+                                        data-refresh-interval="50">2456</span>
+                                    <i class="fa fa-plus" aria-hidden="true"></i>
+                                    <h3>Engineers & Workers</h3>
+                                </li>
+                                <li class="single-fact-counter">
+                                    <div class="icon-holder"><span class="flaticon-landscape"></span></div>
+                                    <span class="timer" data-from="1" data-to="640" data-speed="5000"
+                                        data-refresh-interval="50">640</span>
+                                    <i class="fa fa-plus" aria-hidden="true"></i>
+                                    <h3>Factory in Worldwide</h3>
+                                </li>
+                                <li class="single-fact-counter">
+                                    <div class="icon-holder"><span class="flaticon-innovation"></span></div>
+                                    <span class="timer" data-from="1" data-to="3250" data-speed="5000"
+                                        data-refresh-interval="50">3250</span>
+                                    <i class="fa fa-plus" aria-hidden="true"></i>
+                                    <h3>Projects Completed</h3>
+                                </li>
+                            </ul>
+                        </div>
             </div>
         </div>
     </section>

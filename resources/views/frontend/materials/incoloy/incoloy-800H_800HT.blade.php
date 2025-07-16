@@ -342,7 +342,7 @@
                 <h2>Uses and Advantages</h2>
             </div>
 
-            <div class="row g-4 mt-4">
+            <div class="row g-4 mt-4 justify-content-center">
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
@@ -393,7 +393,7 @@
                     gases.
             </div>
 
-            <div class="row g-4">
+            <div class="row g-4 justify-content-center">
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
