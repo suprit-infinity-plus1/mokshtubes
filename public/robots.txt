@@ -1,2 +1,19 @@
 User-agent: *
+
 Disallow:
+# Block sensitive directories
+Disallow: /admin/
+Disallow: /login/
+Disallow: /register/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /user/
+Disallow: /vendor/
+Disallow: /storage/
+Disallow: /private/
+
+# Allow everything else
+Allow: /
+
+# Sitemap
+Sitemap: https://mokshtubes.com/sitemap.xml
