@@ -129,6 +129,25 @@ class MainController extends Controller
         return view('frontend.materials.inconel.index', compact('grades'));
     }
 
+     public function titanium()
+    {
+        $grades = [
+            ['name' => 'grade 1', 'slug' => 'grade 1'],
+            ['name' => 'grade 2', 'slug' => 'grade 2'],
+            ['name' => 'grade 4 eli', 'slug' => 'grade 4 eli'],
+            ['name' => 'grade 4', 'slug' => 'grade 4'],
+            ['name' => 'grade 5 eli', 'slug' => 'grade 5 eli'],
+            ['name' => 'grade 5', 'slug' => 'grade 5'],
+            ['name' => 'grade 7 nb', 'slug' => 'grade 7 nb'],
+            ['name' => 'grade 9', 'slug' => 'grade 9'],
+            ['name' => 'grade 12', 'slug' => 'grade 12'],
+            ['name' => 'grade 7', 'slug' => 'grade 7'],
+            ['name' => 'grade 23', 'slug' => 'grade 23'],
+        ];
+
+        return view('frontend.materials.titanium.index', compact('grades'));
+    }
+
 
 
     public function showMaterialGrade($family, $grade)
