@@ -15,6 +15,10 @@ class MainController extends Controller
     {
         return view('frontend.about');
     }
+    public function calculator()
+    {
+        return view('frontend.calculator');
+    }
     public function contactUs()
     {
         return view('frontend.contact');

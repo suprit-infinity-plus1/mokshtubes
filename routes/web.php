@@ -13,6 +13,7 @@ Route::get('/contact-us', [MainController::class, 'contactUs'])->name('contact-u
 Route::get('/contact-us/gulalwadi', [MainController::class, 'contactUsGulalwadi'])->name('contact-us-gulalwadi');
 Route::get('/contact-us/khetwadi', [MainController::class, 'contactUsKhetwadi'])->name('contact-us-khetwadi');
 Route::get('/about-us', [MainController::class, 'aboutUs'])->name('about-us');
+Route::get('/calculator', [MainController::class, 'calculator'])->name('calculator');
 Route::get('/materials', [MainController::class, 'materials'])->name('materials');
 Route::get('/materials/hastelloy', [MainController::class, 'hastelloy'])->name('materials.hastelloy');
 Route::get('/materials/monel', [MainController::class, 'monel'])->name('materials.monel');
