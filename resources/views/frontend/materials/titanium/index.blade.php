@@ -24,17 +24,17 @@
 
             @php
                 $grades = [
-                    ['name' => 'Titanium grade 1', 'slug' => 'titanium-grade 1'],
-                    ['name' => 'Titanium grade 2', 'slug' => 'titanium-grade 2'],
-                    ['name' => 'Titanium grade 4 eli', 'slug' => 'titanium-grade 4 eli'],
-                    ['name' => 'Titanium grade 4', 'slug' => 'titanium-grade 4'],
-                    ['name' => 'Titanium grade 5 eli', 'slug' => 'titanium-grade 5 eli'],
-                    ['name' => 'Titanium grade 5', 'slug' => 'titanium-grade 5'],
-                    ['name' => 'Titanium grade 7 nb', 'slug' => 'titanium-grade 7 nb'],
-                    ['name' => 'Titanium grade 9', 'slug' => 'titanium-grade 9'],
-                    ['name' => 'Titanium grade 12', 'slug' => 'titanium-grade 12'],
-                    ['name' => 'Titanium grade 7', 'slug' => 'titanium-grade 7'],
-                    ['name' => 'Titanium grade 23', 'slug' => 'titanium-grade 23'],
+                    ['name' => 'Titanium grade 1', 'slug' => 'titanium-grade-1'],
+                    ['name' => 'Titanium grade 2', 'slug' => 'titanium-grade-2'],
+                    ['name' => 'Titanium grade 4 eli', 'slug' => 'titanium-grade-4-eli'],
+                    ['name' => 'Titanium grade 4', 'slug' => 'titanium-grade-4'],
+                    ['name' => 'Titanium grade 5 eli', 'slug' => 'titanium-grade-5-eli'],
+                    ['name' => 'Titanium grade 5', 'slug' => 'titanium-grade-5'],
+                    ['name' => 'Titanium grade 7 nb', 'slug' => 'titanium-grade-7-nb'],
+                    ['name' => 'Titanium grade 9', 'slug' => 'titanium-grade-9'],
+                    ['name' => 'Titanium grade 12', 'slug' => 'titanium-grade-12'],
+                    ['name' => 'Titanium grade 7', 'slug' => 'titanium-grade-7'],
+                    ['name' => 'Titanium grade 23', 'slug' => 'titanium-grade-23'],
                 ];
             @endphp
 

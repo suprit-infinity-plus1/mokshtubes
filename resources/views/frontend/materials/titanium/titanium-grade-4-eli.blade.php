@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Titanium Grade 1 - Moksh Tubes & Fittings LLP')
+@section('title', 'Titanium Grade 4 ELI - Moksh Tubes & Fittings LLP')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -8,7 +8,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Titanium Grade 1</h1>
+                    <h1>Titanium Grade 4 ELI</h1>
                 </div>
             </div>
         </div>
@@ -22,35 +22,37 @@
             </div>
 
             <h2 class="fw-semibold text-center mb-5" style="color: #db7227;">
-                Introduction To Titanium Grade 1 / UNS R50250
+                Introduction To Titanium Grade 4 ELI / UNS R50705
             </h2>
 
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?" alt="Titanium Grade 1" class="img-fluid rounded shadow-sm">
+                    <img src="https://placehold.co/550x400?" alt="Titanium Grade 4 ELI" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> proudly manufactures, supplies,
-                            exports, imports, and stocks a wide variety of<strong class="text-black"> Titanium Grade
-                                1</strong> products, including Pipes &
-                            Tubes, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires, Round Bars, Flat Bars,
-                            Angles, Welding Rods, and other custom or hard-to-source components tailored to meet demanding
-                            industry requirements.
+                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a prominent manufacturer,
+                            supplier, exporter, importer, and stockist of premium-quality<strong class="text-black">
+                                Titanium Grade 4 ELI</strong> products,
+                            including Pipes & Tubes, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires, Round
+                            Bars, Flat Bars, Welding Rods, Wire Mesh, and Custom-Engineered Components that meet the most
+                            demanding applications.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">Titanium Grade 1</strong class="text-black"> is the most ductile and
-                            softest among all commercially pure titanium grades. It offers exceptional corrosion resistance,
-                            outstanding formability, and superior weldability. As a result, it is widely used in industries
-                            requiring lightweight, high-strength materials capable of withstanding extreme environments—such
-                            as chemical processing, marine applications, aerospace, and medical sectors. Its superior
-                            resistance to oxygenated and chlorinated media makes it particularly valuable in aggressive
-                            service conditions.
+                            <strong class="text-black">Titanium Grade 4 ELI (Extra Low Interstitial)</strong> is an
+                            unalloyed
+                            (commercially pure) titanium that offers a remarkable balance of strength, ductility, and
+                            excellent corrosion resistance. It is slightly stronger than Grade 1 but still maintains
+                            outstanding formability and weldability. These attributes make it highly suitable for industries
+                            requiring strong yet lightweight corrosion-resistant materials—especially in chemical
+                            processing, marine environments, medical systems, and aerospace structures. Its ability to
+                            perform reliably in oxidizing and mildly reducing environments sets it apart as a versatile and
+                            cost-effective solution.
                         </p>
                     </div>
                 </div>
@@ -81,11 +83,7 @@
                                 </tr>
                                 <tr>
                                     <td>Oxygen</td>
-                                    <td>≤ 0.18</td>
-                                </tr>
-                                <tr>
-                                    <td>Iron</td>
-                                    <td>≤ 0.20</td>
+                                    <td>≤ 0.25</td>
                                 </tr>
                                 <tr>
                                     <td>Carbon</td>
@@ -97,7 +95,19 @@
                                 </tr>
                                 <tr>
                                     <td>Hydrogen</td>
-                                    <td>≤ 0.015</td>
+                                    <td>≤ 0.013</td>
+                                </tr>
+                                <tr>
+                                    <td>Iron</td>
+                                    <td>≤ 0.50</td>
+                                </tr>
+                                <tr>
+                                    <td>Other Elements (Each)</td>
+                                    <td>≤ 0.10</td>
+                                </tr>
+                                <tr>
+                                    <td>Other Elements (Total)</td>
+                                    <td>≤ 0.40</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -139,7 +149,7 @@
                                     <td>1660 °C</td>
                                 </tr>
                                 <tr>
-                                    <td>Modulus of Elasticity</td>
+                                    <td>Elastic Modulus</td>
                                     <td>15 x 10⁶ psi</td>
                                     <td>103 GPa</td>
                                 </tr>
@@ -178,43 +188,43 @@
                             <tbody class="text-center">
                                 <tr>
                                     <td>Tensile Strength (ksi)</td>
-                                    <td>35</td>
-                                    <td>50</td>
-                                    <td>35</td>
-                                    <td>35</td>
-                                    <td>35</td>
+                                    <td>95</td>
+                                    <td>125</td>
+                                    <td>88</td>
+                                    <td>85</td>
+                                    <td>90</td>
                                 </tr>
                                 <tr>
                                     <td>Tensile Strength (MPa)</td>
-                                    <td>240</td>
-                                    <td>345</td>
-                                    <td>240</td>
-                                    <td>240</td>
-                                    <td>240</td>
+                                    <td>655</td>
+                                    <td>862</td>
+                                    <td>607</td>
+                                    <td>586</td>
+                                    <td>621</td>
                                 </tr>
                                 <tr>
                                     <td>Yield Strength (0.2%) (ksi)</td>
-                                    <td>25</td>
-                                    <td>40</td>
-                                    <td>25</td>
-                                    <td>25</td>
-                                    <td>25</td>
+                                    <td>65</td>
+                                    <td>115</td>
+                                    <td>72</td>
+                                    <td>70</td>
+                                    <td>71</td>
                                 </tr>
                                 <tr>
                                     <td>Yield Strength (MPa)</td>
-                                    <td>170</td>
-                                    <td>275</td>
-                                    <td>170</td>
-                                    <td>170</td>
-                                    <td>170</td>
+                                    <td>448</td>
+                                    <td>793</td>
+                                    <td>496</td>
+                                    <td>483</td>
+                                    <td>490</td>
                                 </tr>
                                 <tr>
                                     <td>Elongation (%)</td>
                                     <td>24</td>
-                                    <td>18</td>
-                                    <td>24</td>
-                                    <td>24</td>
-                                    <td>24</td>
+                                    <td>14</td>
+                                    <td>25</td>
+                                    <td>20</td>
+                                    <td>22</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -243,17 +253,16 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Products in Titanium Grade 1</h2>
+                <h2>Products in Titanium Grade 4 ELI</h2>
             </div>
-
             <!-- Highlighted Paragraph -->
             <div class="row justify-content-center mb-4" style="text-align: justify;">
                 <div class="col-lg-10">
                     <p class="fs-6">
-                        <strong class="text-dark">Titanium Grade 1 (UNS R50250 / W.Nr. 3.7025) </strong>is a widely accepted
-                        solution in the world of corrosion-resistant metals. It excels in applications that demand strength
-                        without adding excessive weight, particularly in industries that handle high-purity chemicals or
-                        require exceptional biocompatibility.
+                        <strong class="text-dark">Titanium Grade 4 ELI (UNS R50705 / W.Nr. 3.7065 ELI) </strong>is
+                        engineered for superior toughness, purity, and strength. Its “extra low interstitials” make it
+                        especially suitable for applications involving human contact or exposure to aggressive corrosive
+                        media.
                     </p>
                 </div>
             </div>
@@ -278,7 +287,7 @@
             <div class="row justify-content-center mb-3">
                 <div class="col-lg-10">
                     <p class="fw-bold fs-5 text-center my-4" style="color: #174268;">
-                        We offer Hastelloy X in a wide range of product forms, including:
+                        Titanium Grade 4 ELI complies with rigorous global quality norms and standards:
                     </p>
                 </div>
             </div>
@@ -313,35 +322,41 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>Exceptional strength and creep resistance at elevated temperatures</h5>
+                        <h5>Highest strength among commercially pure titanium grades</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h5>Outstanding oxidation resistance up to 1100°C (2000°F)</h5>
+                        <h5>Excellent resistance to corrosion in saline, acidic, and marine environments</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h5>Good corrosion resistance in mild oxidizing and reducing atmospheres</h5>
+                        <h5>Outstanding biocompatibility—ideal for surgical implants and medical use</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h5>Excellent weldability and machinability</h5>
+                        <h5>Superior fracture toughness due to low interstitial impurities</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
-                        <h5>Suitable for critical aerospace, turbine, and power generation components</h5>
+                        <h5>Easy to weld and fabricate, suitable for intricate designs</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h5>Suitable for cryogenic and high-temperature service</h5>
                     </div>
                 </div>
             </div>
@@ -352,11 +367,10 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Applications of Hastelloy X</h2>
-                <p class="text-center pb-3"><strong class="text-dark">HASTELLOY X</strong> is a high-performance alloy
-                    designed to thrive in extreme heat and demanding environments. Known for its outstanding strength,
-                    excellent oxidation resistance, and good fabricability, it's a go-to choice in industries where both
-                    performance and reliability are critical. Its versatility makes it ideal for the following applications:
+                <h2>Applications of Titanium Grade 4 ELI</h2>
+                <p class="text-center pb-3"><strong class="text-dark">Titanium Grade 4 ELI</strong> is tailored for
+                    critical industries where strength, reliability, and purity are non-negotiable. Common applications
+                    include:
                 </p>
             </div>
 
@@ -364,55 +378,54 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
-                        <h5>Aerospace Industry</h5>
-                        <p>Widely used in gas turbine engines — including combustors, tailpipes, afterburners, and
-                            transition ducts — thanks to its ability to maintain strength and resist oxidation at
-                            temperatures beyond 1000°C.</p>
+                        <h5>Chemical Processing Industry</h5>
+                        <p>Used in reactors, heat exchangers, piping systems, and pressure vessels for acidic or
+                            chloride-laden media.</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
-                        <h5>Industrial Furnaces & Heat-Treating Equipment</h5>
-                        <p>Perfect for components like burner nozzles, muffles, flame holders, and retorts that face
-                            constant high heat and thermal cycling.</p>
+                        <h5>Medical & Surgical Devices</h5>
+                        <p>Extensively used for orthopedic and dental implants, surgical tools, and trauma plates due to its
+                            bio-inert nature.
+                        </p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
-                        <h5>Power Generation & Nuclear Applications</h5>
-                        <p>Trusted for parts exposed to extreme heat and radiation — such as structural supports, steam
-                            generators, and pressure vessels — in both conventional and nuclear power plants.</p>
+                        <h5>Aerospace & Defense</h5>
+                        <p>Employed in airframes, structural supports, and fluid systems exposed to high stress and
+                            corrosive environments.</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-droplet"></i></div>
-                        <h5>Chemical & Petrochemical Processing</h5>
-                        <p>Used in reactors, reformers, and heat exchangers that demand both high-temperature strength and
-                            moderate corrosion resistance.</p>
+                        <h5>Marine & Offshore Applications</h5>
+                        <p>Utilized in piping systems, tanks, and heat exchangers that handle chlorides, acids, and
+                            alkalis..</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
-                        <h5>Welding Applications</h5>
-                        <p>Often used as a filler metal for welding high-temperature alloys or dissimilar metals, ensuring
-                            durable and heat-resistant joints.</p>
+                        <h5>Chemical Processing Industry</h5>
+                        <p>Used in structural frames, tubing, and fuel systems where strength-to-weight ratio is crucial.
+                        </p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
-                        <h5>Automotive & Motorsport</h5>
-                        <p>Chosen for turbocharger parts, exhaust manifolds, and heat shields where performance under heat
-                            and stress is essential.</p>
+                        <h5>Cryogenics & Power Generation</h5>
+                        <p>Ideal for environments with extreme temperature fluctuations and high pressure.</p>
                     </div>
                 </div>
 
@@ -424,11 +437,6 @@
                 </div>
             </div> --}}
             </div>
-            <p class="text-center pb-3 my-4"><strong class="text-dark">HASTELLOY X's</strong> with its unique combination
-                of heat resistance, mechanical strength, and workability is a trusted material in high-performance
-                environments where failure simply isn’t an option.
-
-            </p>
         </div>
     </section>
 
@@ -443,35 +451,35 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Expertise in advanced nickel-based superalloys</h5>
+                        <h5>Trusted specialists in titanium and critical performance alloys</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
-                        <h5>High-quality manufacturing meeting aerospace standards</h5>
+                        <h5>In-house quality control and international-grade manufacturing</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
-                        <h5>Wide global distribution network</h5>
+                        <h5>Deep inventory of hard-to-find and custom-sized components</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Strong focus on timely delivery and customer satisfaction</h5>
+                        <h5>Commitment to high-purity, implant-grade metals</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
-                        <h5>Support for custom specifications and fabrication</h5>
+                        <h5>Global service, local expertise, and dependable customer support</h5>
                     </div>
                 </div>
             </div>
@@ -483,8 +491,7 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    <strong>Moksh Tubes & Fittings LLP</strong> your trusted partner for Hastelloy X
-                </p>
+                    <strong>Moksh Tubes & Fittings LLP</strong> your dependable partner for Titanium Grade 4 ELI solutions.
                 <!-- Call button -->
                 <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
             </div>
