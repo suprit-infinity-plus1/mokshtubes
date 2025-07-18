@@ -313,7 +313,7 @@
 
 
                                         <li class="nav-item"><a class="nav-link" href="#">QUALITY</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="#">CALCULATOR</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="{{ route('calculator') }}">CALCULATOR</a></li>
                                         <li class="nav-item"><a class="nav-link" href="#">Blogs</a></li>
                                     </ul>
                                     <ul class="mobile-menu clearfix">
@@ -331,7 +331,7 @@
                                         </li>
                                         <li><a href="#">MATERIALS</a></li>
                                         <li><a href="#">QUALITY</a></li>
-                                        <li><a href="#">CALCULATOR</a></li>
+                                        <li><a href="{{ route('calculator') }}">CALCULATOR</a></li>
                                         <li><a href="#">Blogs</a></li>
 
                                     </ul>
