@@ -148,6 +148,24 @@ class MainController extends Controller
         return view('frontend.materials.titanium.index', compact('grades'));
     }
 
+     public function aluminiumAlloys()
+    {
+        $grades = [
+            ['name' => '6061 T6', 'slug' => 'aluminium-alloys-6061-T6'],
+            ['name' => '1100', 'slug' => 'aluminium-alloys-1100'],
+            ['name' => '1200', 'slug' => 'aluminium-alloys-1200'],
+            ['name' => '2014 T6', 'slug' => 'aluminium-alloys-2014-T6'],
+            ['name' => '5083', 'slug' => 'aluminium-alloys-5083'],
+            ['name' => '6012', 'slug' => 'aluminium-alloys-6012'],
+            ['name' => '6063', 'slug' => 'aluminium-alloys-6063'],
+            ['name' => '6082 T6', 'slug' => 'aluminium-alloys-6082-T6'],
+            ['name' => '7075', 'slug' => '-aluminium-alloys7075'],
+            ['name' => 'HE30', 'slug' => 'aluminium-alloys-HE30'],
+        ];
+
+        return view('frontend.materials.aluminium-alloys.index', compact('grades'));
+    }
+
 
 
     public function showMaterialGrade($family, $grade)

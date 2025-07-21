@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Titanium Grade 23 - Moksh Tubes & Fittings LLP')
+@section('title', 'Aluminium 5083 - Moksh Tubes & Fittings LLP')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -8,7 +8,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Titanium Grade 23</h1>
+                    <h1>Aluminium 5083</h1>
                 </div>
             </div>
         </div>
@@ -22,38 +22,31 @@
             </div>
 
             <h2 class="fw-semibold text-center mb-5" style="color: #db7227;">
-                Introduction To Titanium Grade 23 / Ti-6Al-4V ELI / UNS R56401
+                Introduction To Aluminium 5083
             </h2>
 
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?" alt="Titanium Grade 23" class="img-fluid rounded shadow-sm">
+                    <img src="https://placehold.co/550x400?" alt="Aluminium 5083" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> we specialize in the
-                            manufacturing, stocking, exporting, importing, and supplying of premium<strong
-                                class="text-black"> Titanium Grade 23
-                                (Ti-6Al-4V ELI) products.</strong> Our offerings include Pipes & Tubes, Pipe Fittings,
-                            Flanges,
-                            Fasteners, Sheets & Plates, Coils, Wires, Round Bars, Flat Bars, Angles, Channels, Welding Rods,
-                            Wire Mesh, and other custom-engineered components that meet the strictest performance demands.
-
-                        </p>
-
+                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a leading manufacturer,
+                            supplier, exporter, importer, and stockist of<strong class="text-black"> Aluminium Alloy 5083
+                                products</strong> including sheets,
+                            plates, bars, rods, tubes, and custom fabricated components.
                         <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">Titanium Grade 23 </strong> also known as Ti-6Al-4V ELI (Extra Low
-                            Interstitial), is a high-purity version of the popular Grade 5 alloy. With enhanced
-                            biocompatibility, fracture toughness, and superior ductility, it’s particularly well-suited for
-                            critical medical, aerospace, and high-performance industrial applications. The alloy features a
-                            composition of 6% Aluminum, 4% Vanadium, and reduced levels of oxygen and other impurities,
-                            offering exceptional strength-to-weight ratio, excellent fatigue resistance, and outstanding
-                            corrosion resistance, especially in chloride-rich environments.
-                        </p>
+                            <strong class="text-black">Aluminium 5083</strong> is a non-heat-treatable alloy known for
+                            exceptional corrosion resistance, especially in marine and highly corrosive environments. It
+                            offers excellent performance in extreme conditions such as seawater exposure, making it a
+                            popular choice for marine, automotive, and industrial applications. The alloy is strengthened
+                            primarily by magnesium and manganese and exhibits high strength combined with good weldability
+                            and formability. 5083 is widely used where strength, corrosion resistance, and weldability are
+                            critical.
                     </div>
                 </div>
             </div>
@@ -78,44 +71,36 @@
                             </thead>
                             <tbody class="text-center">
                                 <tr>
-                                    <td>Titanium</td>
+                                    <td>Aluminum</td>
                                     <td>Balance</td>
                                 </tr>
                                 <tr>
-                                    <td>Aluminum</td>
-                                    <td>5.5 – 6.5</td>
-                                </tr>
-                                <tr>
-                                    <td>Vanadium</td>
-                                    <td>3.5 – 4.5</td>
+                                    <td>Copper</td>
+                                    <td>0.1 max</td>
                                 </tr>
                                 <tr>
                                     <td>Iron</td>
+                                    <td>0.4 max</td>
+                                </tr>
+                                <tr>
+                                    <td>Manganese</td>
+                                    <td>0.4 – 1.0</td>
+                                </tr>
+                                <tr>
+                                    <td>Silicon</td>
+                                    <td>0.4 max</td>
+                                </tr>
+                                <tr>
+                                    <td>Zinc</td>
                                     <td>0.25 max</td>
                                 </tr>
                                 <tr>
-                                    <td>Oxygen</td>
-                                    <td>0.13 max</td>
+                                    <td>Titanium</td>
+                                    <td>0.15 max</td>
                                 </tr>
                                 <tr>
-                                    <td>Carbon</td>
-                                    <td>0.08 max</td>
-                                </tr>
-                                <tr>
-                                    <td>Nitrogen</td>
-                                    <td>0.05 max</td>
-                                </tr>
-                                <tr>
-                                    <td>Hydrogen</td>
-                                    <td>0.0125 max</td>
-                                </tr>
-                                <tr>
-                                    <td>Yttrium</td>
-                                    <td>0.005 max</td>
-                                </tr>
-                                <tr>
-                                    <td>Other elements, total</td>
-                                    <td>0.40 max</td>
+                                    <td>Magnesium</td>
+                                    <td>4.0 – 4.9</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -148,28 +133,28 @@
                             <tbody class="text-center">
                                 <tr>
                                     <td>Density</td>
-                                    <td>0.160 lb/in³</td>
-                                    <td>4.43 g/cm³</td>
+                                    <td>0.099 lb/in³</td>
+                                    <td>2.66 g/cm³</td>
                                 </tr>
                                 <tr>
                                     <td>Melting Point</td>
-                                    <td>2887 °F</td>
-                                    <td>1586 °C</td>
+                                    <td>1175 – 1225 °F</td>
+                                    <td>635 – 665 °C</td>
                                 </tr>
                                 <tr>
                                     <td>Elastic Modulus</td>
-                                    <td>16.5 x 10⁶ psi</td>
-                                    <td>114 GPa</td>
+                                    <td>10.0 × 10³ ksi</td>
+                                    <td>69 GPa</td>
                                 </tr>
                                 <tr>
                                     <td>Thermal Conductivity</td>
-                                    <td>4.5 BTU/hr·ft·°F</td>
-                                    <td>6.5 W/m·K</td>
+                                    <td>120 W/m-K</td>
+                                    <td>—</td>
                                 </tr>
                                 <tr>
                                     <td>Electrical Resistivity</td>
-                                    <td>6.13 x 10⁻⁶ Ω·in</td>
-                                    <td>15.6 µΩ·cm</td>
+                                    <td>29% IACS</td>
+                                    <td>—</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -186,53 +171,53 @@
                             <thead class="table-dark text-center">
                                 <tr>
                                     <th>Property</th>
-                                    <th>Tubing (Annealed)</th>
-                                    <th>Tubing (Cold Drawn)</th>
-                                    <th>Bar (Annealed)</th>
-                                    <th>Plate (Annealed)</th>
-                                    <th>Sheet (Annealed)</th>
+                                    <th>Annealed</th>
+                                    <th>Hot-Finished</th>
+                                    <th>Cold-Drawn</th>
+                                    <th>Hot-Rolled</th>
+                                    <th>Sheet (H321)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr>
-                                    <td>Tensile Strength (ksi)</td>
-                                    <td>125</td>
-                                    <td>140</td>
-                                    <td>130</td>
-                                    <td>128</td>
-                                    <td>132</td>
+                                    <td>Tensile Strength (ksi / MPa)</td>
+                                    <td>40–48 / 275–330</td>
+                                    <td>45–55 / 310–380</td>
+                                    <td>50–60 / 345–415</td>
+                                    <td>45–55 / 310–380</td>
+                                    <td>45–58 / 310–400</td>
                                 </tr>
                                 <tr>
-                                    <td>Tensile Strength (MPa)</td>
-                                    <td>862</td>
-                                    <td>965</td>
-                                    <td>896</td>
-                                    <td>883</td>
-                                    <td>910</td>
-                                </tr>
-                                <tr>
-                                    <td>Yield Strength (0.2%) (ksi)</td>
-                                    <td>115</td>
-                                    <td>125</td>
-                                    <td>120</td>
-                                    <td>118</td>
-                                    <td>121</td>
-                                </tr>
-                                <tr>
-                                    <td>Yield Strength (MPa)</td>
-                                    <td>793</td>
-                                    <td>862</td>
-                                    <td>827</td>
-                                    <td>814</td>
-                                    <td>834</td>
+                                    <td>Yield Strength (0.2%) (ksi / MPa)</td>
+                                    <td>18–25 / 125–170</td>
+                                    <td>25–35 / 170–240</td>
+                                    <td>30–40 / 210–275</td>
+                                    <td>28–35 / 195–240</td>
+                                    <td>30–38 / 210–260</td>
                                 </tr>
                                 <tr>
                                     <td>Elongation (%)</td>
-                                    <td>15</td>
-                                    <td>10</td>
-                                    <td>14</td>
-                                    <td>4</td>
-                                    <td>12</td>
+                                    <td>16–23</td>
+                                    <td>12–18</td>
+                                    <td>10–16</td>
+                                    <td>12–18</td>
+                                    <td>10–16</td>
+                                </tr>
+                                <tr>
+                                    <td>Brinell Hardness (3000 kg)</td>
+                                    <td>75–85</td>
+                                    <td>80–90</td>
+                                    <td>85–95</td>
+                                    <td>80–90</td>
+                                    <td>80–90</td>
+                                </tr>
+                                <tr>
+                                    <td>Rockwell Hardness (B / C)</td>
+                                    <td>40–55 B</td>
+                                    <td>55–65 B</td>
+                                    <td>60–70 B</td>
+                                    <td>55–65 B</td>
+                                    <td>60–70 B</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -261,16 +246,13 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Products in Titanium Grade 23</h2>
+                <h2>Products in Aluminium Alloys</h2>
             </div>
             <!-- Highlighted Paragraph -->
             <div class="row justify-content-center mb-4" style="text-align: justify;">
                 <div class="col-lg-10">
                     <p class="fs-6">
-                        <strong class="text-dark">Titanium Grade 23 (UNS R56401) </strong>is one of the most trusted
-                        high-performance titanium alloys, renowned for its light weight, strength, corrosion resistance, and
-                        biocompatibility. It is extensively used in medical implants, aerospace systems, motorsports, and
-                        marine engineering.
+                        <strong class="text-dark">Aluminium 5083</strong> is available in various mill forms such as:
                     </p>
                 </div>
             </div>
@@ -295,7 +277,7 @@
             <div class="row justify-content-center mb-3">
                 <div class="col-lg-10">
                     <p class="fw-bold fs-5 text-center my-4" style="color: #174268;">
-                        We supply Titanium Grade 23 materials in accordance with the most stringent industry standards: </p>
+                        We supply Aluminium 5083 materials in accordance with the most stringent industry standards: </p>
                 </div>
             </div>
 
@@ -329,38 +311,35 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>Excellent Biocompatibility – Ideal for surgical implants and prosthetics</h5>
+                        <h5>Exceptional corrosion resistance, especially to seawater and industrial chemicals</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h5>High Strength-to-Weight Ratio – Perfect for aerospace, motorsport, and performance gear</h5>
+                        <h5>High strength-to-weight ratio</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h5>Superior Corrosion Resistance – Performs reliably in seawater, body fluids, and oxidizing
-                            environments</h5>
+                        <h5>Excellent weldability and formability</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h5>Excellent Weldability and Formability – Easy to machine and fabricate without compromising
-                            structure</h5>
+                        <h5>Good fatigue resistance and toughness</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
-                        <h5>Exceptional Fracture Toughness – Withstands cyclic stress and fatigue in mission-critical
-                            applications</h5>
+                        <h5>Non-magnetic and resistant to stress corrosion cracking</h5>
                     </div>
                 </div>
             </div>
@@ -371,19 +350,17 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Applications of Titanium Grade 7</h2>
-                <p class="text-center pb-3"><strong class="text-dark">Titanium Grade 23</strong> is engineered for
-                    environments where purity, strength, and corrosion resistance are non-negotiable. It’s a preferred alloy
-                    across multiple sectors:
-                </p>
+                <h2>Applications of Aluminium 5083</h2>
+                <p class="text-center pb-3"><strong class="text-dark">Aluminium 5083</strong> is extensively used where
+                    corrosion resistance, strength, and weldability are paramount:
             </div>
 
             <div class="row g-4 justify-content-center">
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
-                        <h5>Medical Industry</h5>
-                        <p>Orthopedic implants, dental screws, joint replacements, and surgical tools.
+                        <h5>Marine Industry</h5>
+                        <p>hipbuilding, boat hulls, offshore platforms, and marine structures exposed to seawater.
                         </p>
                     </div>
                 </div>
@@ -391,41 +368,34 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
-                        <h5>Aerospace and Aviation</h5>
-                        <p>Airframe components, fasteners, hydraulic tubing, and engine elements.</p>
+                        <h5>Transportation</h5>
+                        <p>Truck bodies, trailers, and railway cars requiring lightweight and durable materials.</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
-                        <h5>Motorsport and Automotive</h5>
-                        <p>High-performance components requiring strength and lightweight properties.</p>
+                        <h5>Pressure Vessels</h5>
+                        <p>Used in LPG tanks, cryogenic tanks, and other pressure vessels requiring corrosion resistance.</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-droplet"></i></div>
-                        <h5>Marine Engineering</h5>
-                        <p>Used in components exposed to saltwater, including underwater fasteners and fittings.</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
-                        <h5>Industrial Equipment</h5>
-                        <p>High-purity processing tools for food, pharma, and biotech sectors.
+                        <h5>Automotive</h5>
+                        <p>Body panels, frames, and components in vehicles for enhanced performance and corrosion protection.
                         </p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
-                        <h5>Additive Manufacturing</h5>
-                        <p>Suitable for 3D printing of lightweight, biocompatible metal parts.</p>
+                        <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
+                        <h5>Industrial Applications</h5>
+                        <p>Chemical tanks, piping systems, and structures exposed to corrosive environments.
+                        </p>
                     </div>
                 </div>
 
@@ -451,7 +421,7 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Trusted Manufacturer of Precision Titanium Alloys
+                        <h5>Trusted supplier of premium Aluminium 5083 products
                         </h5>
                     </div>
                 </div>
@@ -459,28 +429,28 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
-                        <h5>Wide Inventory of Raw Material & Finished Goods</h5>
+                        <h5>Adherence to international quality standards and certifications</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
-                        <h5>Custom Fabrication Services to Your Drawings</h5>
+                        <h5>Comprehensive stock availability and fast delivery</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Global Shipping & Export Compliance Expertise</h5>
+                        <h5>Technical support and customized solutions for your specific requirements</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
-                        <h5>Uncompromising Quality, Traceability & Technical Support</h5>
+                        <h5>Commitment to customer satisfaction and product excellence</h5>
                     </div>
                 </div>
             </div>
@@ -492,8 +462,8 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    Get in touch with <strong>Moksh Tubes & Fittings LLP</strong> your dedicated partner in high-performance
-                    titanium alloys.</p>
+                    For inquiries, quotations, or custom Aluminium Alloy 5083 solutions, <strong>Moksh Tubes & Fittings
+                        LLP</strong> your reliable partner for high-quality aluminum alloy products.</p>
                 <!-- Call button -->
                 <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
             </div>
