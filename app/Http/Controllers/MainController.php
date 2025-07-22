@@ -166,6 +166,31 @@ class MainController extends Controller
         return view('frontend.materials.aluminium-alloys.index', compact('grades'));
     }
 
+     public function engineeringSteels()
+    {
+        $grades = [
+                    ['name' => 'Engineering Steel 1045', 'slug' => 'engineering-steels-1045'],
+                    ['name' => 'Engineering Steel 1055', 'slug' => 'engineering-steels-1055'],
+                    ['name' => 'Engineering Steel 4130', 'slug' => 'engineering-steels-4130'],
+                    ['name' => 'Engineering Steel 4140', 'slug' => 'engineering-steels-4140'],
+                    ['name' => 'Engineering Steel 4340', 'slug' => 'engineering-steels-4340'],
+                    ['name' => 'Engineering Steel EN8', 'slug' => 'engineering-steels-en8'],
+                    ['name' => 'Engineering Steel EN9', 'slug' => 'engineering-steels-en9'],
+                    ['name' => 'Engineering Steel EN19', 'slug' => 'engineering-steels-en19'],
+                    ['name' => 'Engineering Steel EN24', 'slug' => 'engineering-steels-en24'],
+                    ['name' => 'Engineering Steel EN31', 'slug' => 'engineering-steels-en31'],
+                    ['name' => 'Engineering Steel EN36', 'slug' => 'engineering-steels-en36'],
+                    ['name' => 'Engineering Steel EN47', 'slug' => 'engineering-steels-en47'],
+                    ['name' => 'Engineering Steel D2', 'slug' => 'engineering-steels-d2'],
+                    ['name' => 'Engineering Steel P1', 'slug' => 'engineering-steels-p1'],
+                    ['name' => 'Engineering Steel P11', 'slug' => 'engineering-steels-p11'],
+                    ['name' => 'Engineering Steel P12', 'slug' => 'engineering-steels-p12'],
+                    ['name' => 'Engineering Steel P22', 'slug' => 'engineering-steels-p22'],
+                ];
+
+        return view('frontend.materials.engineering-steels.index', compact('grades'));
+    }
+
 
 
     public function showMaterialGrade($family, $grade)
