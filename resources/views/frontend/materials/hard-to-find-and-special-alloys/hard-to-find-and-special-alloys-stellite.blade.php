@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Aluminium HE30 - Moksh Tubes & Fittings LLP')
+@section('title', 'Stellite -Moksh Tubes & Fittings LLP')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -8,7 +8,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Aluminium HE30</h1>
+                    <h1>Stellite</h1>
                 </div>
             </div>
         </div>
@@ -22,29 +22,32 @@
             </div>
 
             <h2 class="fw-semibold text-center mb-5" style="color: #db7227;">
-                Introduction To Aluminium HE30
+                Introduction To Stellite Alloys
             </h2>
 
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?" alt="Aluminium HE30" class="img-fluid rounded shadow-sm">
+                    <img src="https://placehold.co/550x400?" alt="Stellite" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a manufacturer, supplier,
-                            exporter, importer, and stockist of<strong class="text-black"> Aluminium Alloy HE30
-                                products</strong> including sheets, plates,
-                            bars, rods, and extrusions.
-                        <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">Aluminium HE30</strong> is a high-strength aerospace-grade alloy,
-                            part of the 7000 series, primarily alloyed with zinc and magnesium. It offers excellent
-                            mechanical properties, including high tensile strength, good fatigue resistance, and moderate
-                            corrosion resistance. HE30 is commonly used in aerospace, defense, and other high-performance
-                            engineering applications where lightweight and strength are critical.
+                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted manufacturer,
+                            supplier, exporter, importer, and stockist of<strong class="text-black"> Stellite
+                                Alloys</strong> in a variety of forms including
+                            Rods, Bars, Tubes, Welding Wires, Electrodes, Sheets, Plates, and custom components made to
+                            order. We specialize in Stellite 6, Stellite 12, Stellite 21, and other grades used for
+                            wear-resistant and high-temperature
+                        </p>
+                        <p> <strong class="text-black">Stellite</strong> is a family of cobalt-chromium-based superalloys
+                            engineered to resist wear, corrosion, and high-temperature degradation. Originally developed for
+                            cutting tools, Stellite alloys have become indispensable in industries requiring reliable
+                            performance under extreme mechanical and thermal stress. These alloys are known for their
+                            exceptional hardness, non-magnetic properties, high-temperature oxidation resistance, and
+                            ability to retain cutting edges and structural integrity in harsh environments.</p>
                     </div>
                 </div>
             </div>
@@ -69,36 +72,32 @@
                             </thead>
                             <tbody class="text-center">
                                 <tr>
-                                    <td>Aluminum</td>
+                                    <td>Cobalt</td>
                                     <td>Balance</td>
                                 </tr>
                                 <tr>
-                                    <td>Copper</td>
-                                    <td>1.2 – 2.0</td>
+                                    <td>Chromium</td>
+                                    <td>27 – 32</td>
+                                </tr>
+                                <tr>
+                                    <td>Tungsten</td>
+                                    <td>4.0 – 6.0</td>
+                                </tr>
+                                <tr>
+                                    <td>Carbon</td>
+                                    <td>0.9 – 1.4</td>
+                                </tr>
+                                <tr>
+                                    <td>Nickel</td>
+                                    <td>≤ 3.0</td>
                                 </tr>
                                 <tr>
                                     <td>Iron</td>
-                                    <td>0.4 max</td>
-                                </tr>
-                                <tr>
-                                    <td>Manganese</td>
-                                    <td>0.3 max</td>
+                                    <td>≤ 3.0</td>
                                 </tr>
                                 <tr>
                                     <td>Silicon</td>
-                                    <td>0.4 max</td>
-                                </tr>
-                                <tr>
-                                    <td>Zinc</td>
-                                    <td>5.5 – 6.5</td>
-                                </tr>
-                                <tr>
-                                    <td>Titanium</td>
-                                    <td>0.2 max</td>
-                                </tr>
-                                <tr>
-                                    <td>Magnesium</td>
-                                    <td>2.0 – 3.0</td>
+                                    <td>≤ 1.0</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -131,27 +130,27 @@
                             <tbody class="text-center">
                                 <tr>
                                     <td>Density</td>
-                                    <td>0.102 lb/in³</td>
-                                    <td>2.83 g/cm³</td>
+                                    <td>0.335 lb/in³</td>
+                                    <td>9.3 g/cm³</td>
                                 </tr>
                                 <tr>
-                                    <td>Melting Point</td>
-                                    <td>875 – 975 °F</td>
-                                    <td>468 – 524 °C</td>
+                                    <td>Melting Range</td>
+                                    <td>2375 – 2600 °F</td>
+                                    <td>1300 – 1425 °C</td>
                                 </tr>
                                 <tr>
-                                    <td>Elastic Modulus</td>
-                                    <td>10.2 × 10³ ksi</td>
-                                    <td>70.3 GPa</td>
-                                </tr>
-                                <tr>
-                                    <td>Thermal Conductivity</td>
-                                    <td>130 W/m-K</td>
+                                    <td>Hardness (as-cast)</td>
+                                    <td>43–48 HRC</td>
                                     <td>—</td>
                                 </tr>
                                 <tr>
-                                    <td>Electrical Resistivity</td>
-                                    <td>33% IACS</td>
+                                    <td>Magnetic Permeability</td>
+                                    <td>Non-magnetic</td>
+                                    <td>—</td>
+                                </tr>
+                                <tr>
+                                    <td>Thermal Conductivity</td>
+                                    <td>11 W/m·K</td>
                                     <td>—</td>
                                 </tr>
                             </tbody>
@@ -171,51 +170,51 @@
                                     <th>Property</th>
                                     <th>Annealed</th>
                                     <th>Hot-Finished</th>
-                                    <th>Cold-Drawn</th>
+                                    <th>Cold Worked</th>
                                     <th>Hot-Rolled</th>
-                                    <th>Sheet (T6)</th>
+                                    <th>Sheet</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr>
                                     <td>Tensile Strength (ksi / MPa)</td>
-                                    <td>17–24 / 115–165</td>
-                                    <td>34–45 / 235–310</td>
-                                    <td>38–47 / 260–325</td>
-                                    <td>30–44 / 205–303</td>
-                                    <td>30–42 / 200–290</td>
+                                    <td>90–120 / 620–830</td>
+                                    <td>120–150 / 827–1034</td>
+                                    <td>—</td>
+                                    <td>—</td>
+                                    <td>—</td>
                                 </tr>
                                 <tr>
                                     <td>Yield Strength (0.2%) (ksi / MPa)</td>
-                                    <td>10–15 / 70–100</td>
-                                    <td>28–40 / 190–275</td>
-                                    <td>34–42 / 235–290</td>
-                                    <td>24–38 / 165–260</td>
-                                    <td>22–35 / 150–240</td>
+                                    <td>60–90 / 414–620</td>
+                                    <td>100–130 / 690–896</td>
+                                    <td>—</td>
+                                    <td>—</td>
+                                    <td>—</td>
                                 </tr>
                                 <tr>
                                     <td>Elongation (%)</td>
-                                    <td>12–20</td>
-                                    <td>6–12</td>
-                                    <td>5–10</td>
-                                    <td>8–12</td>
-                                    <td>10–14</td>
+                                    <td>15–25</td>
+                                    <td>10–15</td>
+                                    <td>—</td>
+                                    <td>—</td>
+                                    <td>—</td>
                                 </tr>
                                 <tr>
                                     <td>Brinell Hardness (3000 kg)</td>
-                                    <td>45–60</td>
-                                    <td>80–95</td>
-                                    <td>85–100</td>
-                                    <td>70–90</td>
-                                    <td>65–85</td>
+                                    <td>350–500</td>
+                                    <td>500–700</td>
+                                    <td>—</td>
+                                    <td>—</td>
+                                    <td>—</td>
                                 </tr>
                                 <tr>
                                     <td>Rockwell Hardness (B / C)</td>
-                                    <td>25–35 B</td>
-                                    <td>40–55 B</td>
-                                    <td>45–60 B</td>
-                                    <td>35–50 B</td>
-                                    <td>35–50 B</td>
+                                    <td>40–60 C</td>
+                                    <td>55–70 C</td>
+                                    <td>—</td>
+                                    <td>—</td>
+                                    <td>—</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -244,13 +243,13 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Products in Aluminium Alloys</h2>
+                <h2>Products in Stellite</h2>
             </div>
             <!-- Highlighted Paragraph -->
             <div class="row justify-content-center mb-4" style="text-align: justify;">
                 <div class="col-lg-10">
                     <p class="fs-6">
-                        <strong class="text-dark">Aluminium HE30</strong> is supplied in various forms such as:
+                        <strong class="text-dark">Stellite</strong> is commonly supplied as:
                     </p>
                 </div>
             </div>
@@ -275,7 +274,7 @@
             <div class="row justify-content-center mb-3">
                 <div class="col-lg-10">
                     <p class="fw-bold fs-5 text-center my-4" style="color: #174268;">
-                        We supply Aluminium HE30 materials in accordance with the most stringent industry standards: </p>
+                        We supply Stellite materials in accordance with the most stringent industry standards: </p>
                 </div>
             </div>
 
@@ -309,35 +308,35 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>High strength combined with good fatigue resistance</h5>
+                        <h5>Outstanding wear and galling resistance</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h5>Lightweight, reducing overall structural weight</h5>
+                        <h5>Retains hardness at elevated temperatures</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h5>Good machinability and surface finish</h5>
+                        <h5>Excellent resistance to corrosion and oxidation</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h5>Can be anodized for enhanced corrosion resistance</h5>
+                        <h5>Non-magnetic and stable in extreme conditions</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
-                        <h5>Meets stringent aerospace and defense quality standards</h5>
+                        <h5>Available in both cast and wrought forms</h5>
                     </div>
                 </div>
             </div>
@@ -348,55 +347,65 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Applications of Aluminium HE30</h2>
-                <p class="text-center pb-3"><strong class="text-dark">Aluminium HE30</strong> is preferred in applications
-                    requiring high strength-to-weight ratios, particularly in aerospace and defense
+                <h2>Applications of Stellite</h2>
+                <p><strong class="text-black">Stellite</strong> is widely used in applications that demand resistance to
+                    wear, corrosion, and extreme temperatures. These include:</p>
+            </div>
 
-                <div class="row g-4 justify-content-center">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="application-card">
-                            <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
-                            <h5>Aerospace Components</h5>
-                            <p>Aircraft structural parts, fuselage panels, and wing skins.
-                            </p>
-                        </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
+                        <h5>Aerospace</h5>
+                        <p>Used in turbine blades, vanes, and nozzle guide vanes due to superior thermal stability and
+                            resistance to oxidation.</p>
                     </div>
-
-                    <div class="col-md-6 col-lg-4">
-                        <div class="application-card">
-                            <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
-                            <h5>Defense Industry</h5>
-                            <p>Missile components, armor plating, and military vehicles.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-4">
-                        <div class="application-card">
-                            <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
-                            <h5>Sports Equipment</h5>
-                            <p>High-performance bicycle frames and sporting goods.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="application-card">
-                            <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
-                            <h5>Automotive & Racing</h5>
-                            <p>Lightweight chassis parts and performance accessories.
-                            </p>
-                        </div>
-                    </div>
-
-                    {{-- <div class="col-md-6 col-lg-4">
-                <div class="application-card">
-                     <div class="application-icon"><i class="bi bi-strategies"></i></div>
-                    <h5>Why It Works</h5>
-                    <p><strong>HASTELLOY C276’s</strong> combination of corrosion resistance, weldability, and mechanical durability makes it ideal for mission-critical applications where long-term performance is non-negotiable.</p>
                 </div>
-            </div> --}}
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
+                        <h5>Valve and Pump Components</h5>
+                        <p>Applied in valve seats, stems, and pump impellers in the oil & gas and chemical industries for
+                            erosion and cavitation resistance.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
+                        <h5>Oil & Gas and Petrochemicals</h5>
+                        <p>Downhole tools, gate valves, and safety valves benefit from Stellite's wear and corrosion
+                            resistance in sour environments.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-droplet"></i></div>
+                        <h5>Power Generation</h5>
+                        <p>Used in boiler components, turbine seals, and wear rings in fossil and nuclear power plants.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
+                        <h5>Medical and Dental</h5>
+                        <p>Stellite 21 is biocompatible and used for surgical tools and dental prosthetics due to its
+                            corrosion resistance and hardness.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-strategies"></i></div>
+                        <h5>Cutting Tools and Dies</h5>
+                        <p>Ideal for hard-facing cutting blades, dies, and machining tools thanks to superior edge
+                            retention.</p>
+                    </div>
                 </div>
             </div>
+        </div>
     </section>
 
 
@@ -410,35 +419,35 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Leading supplier of aerospace-grade Aluminium HE30</h5>
+                        <h5>Specialized in hard-to-find and wear-resistant alloys</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
-                        <h5>Large stock and custom size availability</h5>
+                        <h5>Top-quality cobalt-based alloy stock</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
-                        <h5>Quality assurance with international certifications</h5>
+                        <h5>Custom fabrication, welding, and forming services</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Technical expertise in high-performance aluminium alloys</h5>
+                        <h5>In-house quality control and metallurgical testing</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
-                        <h5>Competitive pricing with global delivery network</h5>
+                        <h5>Global export capabilities and fast delivery</h5>
                     </div>
                 </div>
             </div>
@@ -450,8 +459,9 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    For quotes or inquiries on Aluminium Alloy HE30 products, <strong>Moksh Tubes & Fittings
-                        LLP</strong> your trusted partner for aerospace-grade aluminium solutions.</p>
+                    Contact <strong>Moksh Tubes & Fittings LLP</strong> —your expert partner for high-performance cobalt
+                    alloys.
+                </p>
                 <!-- Call button -->
                 <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
             </div>

@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Aluminium HE30 - Moksh Tubes & Fittings LLP')
+@section('title', 'Nimonic Alloys - Moksh Tubes & Fittings LLP')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -8,7 +8,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Aluminium HE30</h1>
+                    <h1>Nimonic Alloys</h1>
                 </div>
             </div>
         </div>
@@ -22,29 +22,30 @@
             </div>
 
             <h2 class="fw-semibold text-center mb-5" style="color: #db7227;">
-                Introduction To Aluminium HE30
+                Introduction To Nimonic Alloys
             </h2>
 
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?" alt="Aluminium HE30" class="img-fluid rounded shadow-sm">
+                    <img src="https://placehold.co/550x400?" alt="Nimonic Alloys" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a manufacturer, supplier,
-                            exporter, importer, and stockist of<strong class="text-black"> Aluminium Alloy HE30
-                                products</strong> including sheets, plates,
-                            bars, rods, and extrusions.
-                        <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">Aluminium HE30</strong> is a high-strength aerospace-grade alloy,
-                            part of the 7000 series, primarily alloyed with zinc and magnesium. It offers excellent
-                            mechanical properties, including high tensile strength, good fatigue resistance, and moderate
-                            corrosion resistance. HE30 is commonly used in aerospace, defense, and other high-performance
-                            engineering applications where lightweight and strength are critical.
+                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a leading supplier, stockist,
+                            and exporter of high-performance<strong class="text-black"> Nimonic Alloys,</strong> known for
+                            their exceptional resistance to heat,
+                            oxidation, and corrosion. These nickel-chromium-based superalloys are engineered for extreme
+                            temperature applications where mechanical strength and structural stability are vital—especially
+                            in aerospace, gas turbines, nuclear reactors, and high-stress environments.
+                        </p>
+                        <p> <strong class="text-black">Nimonic Alloys</strong> are primarily composed of Nickel (Ni) and
+                            Chromium (Cr), often combined with Titanium (Ti) and Aluminum (Al) for precipitation hardening.
+                            Popular grades include Nimonic 75, 80A, 90, 105, 263, and others—each suited to specific
+                            mechanical and thermal requirements.</p>
                     </div>
                 </div>
             </div>
@@ -64,41 +65,69 @@
                             <thead class="table-dark text-center">
                                 <tr>
                                     <th>Element</th>
-                                    <th>Composition (%)</th>
+                                    <th>Anti-NIMONIC 75</th>
+                                    <th>Anti-NIMONIC 80A</th>
+                                    <th>Anti-NIMONIC 90</th>
+                                    <th>Anti-NIMONIC 105</th>
+                                    <th>Anti-NIMONIC 263</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr>
-                                    <td>Aluminum</td>
-                                    <td>Balance</td>
+                                    <td>Nickel</td>
+                                    <td>≤ 20%</td>
+                                    <td>≤ 30%</td>
+                                    <td>≤ 30%</td>
+                                    <td>≤ 30%</td>
+                                    <td>≤ 20%</td>
                                 </tr>
                                 <tr>
-                                    <td>Copper</td>
-                                    <td>1.2 – 2.0</td>
+                                    <td>Chromium</td>
+                                    <td>≤ 3%</td>
+                                    <td>≤ 3%</td>
+                                    <td>≤ 3%</td>
+                                    <td>≤ 5%</td>
+                                    <td>≤ 3%</td>
                                 </tr>
                                 <tr>
-                                    <td>Iron</td>
-                                    <td>0.4 max</td>
-                                </tr>
-                                <tr>
-                                    <td>Manganese</td>
-                                    <td>0.3 max</td>
-                                </tr>
-                                <tr>
-                                    <td>Silicon</td>
-                                    <td>0.4 max</td>
-                                </tr>
-                                <tr>
-                                    <td>Zinc</td>
-                                    <td>5.5 – 6.5</td>
+                                    <td>Cobalt</td>
+                                    <td>Present</td>
+                                    <td>≥ 2.5%</td>
+                                    <td>≤ 5%</td>
+                                    <td>≤ 5%</td>
+                                    <td>≤ 5%</td>
                                 </tr>
                                 <tr>
                                     <td>Titanium</td>
-                                    <td>0.2 max</td>
+                                    <td>≥ 0.6%</td>
+                                    <td>≥ 0.5%</td>
+                                    <td>≥ 0.5%</td>
+                                    <td>≥ 0.5%</td>
+                                    <td>≥ 0.5%</td>
                                 </tr>
                                 <tr>
-                                    <td>Magnesium</td>
-                                    <td>2.0 – 3.0</td>
+                                    <td>Aluminum</td>
+                                    <td>≥ 0.6%</td>
+                                    <td>≥ 0.5%</td>
+                                    <td>≥ 0.5%</td>
+                                    <td>≥ 0.5%</td>
+                                    <td>≥ 0.1.0%</td>
+                                </tr>
+                                <tr>
+                                    <td>Molybdenum</td>
+                                    <td>Present</td>
+                                    <td>Present</td>
+                                    <td>Present</td>
+                                    <td>≤ 1.0%</td>
+                                    <td>≤ 1.0%</td>
+                                </tr>
+                                <tr>
+                                    <td>Iron</td>
+                                    <td>≥ 10%</td>
+                                    <td>≥ 5.0%</td>
+                                    <td>≥ 5.0%</td>
+                                    <td>≥ 5.0%</td>
+                                    <td>≥ 2.0%</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -131,28 +160,38 @@
                             <tbody class="text-center">
                                 <tr>
                                     <td>Density</td>
-                                    <td>0.102 lb/in³</td>
-                                    <td>2.83 g/cm³</td>
+                                    <td>0.30 lb/in³</td>
+                                    <td>8.2 g/cm³</td>
                                 </tr>
                                 <tr>
-                                    <td>Melting Point</td>
-                                    <td>875 – 975 °F</td>
-                                    <td>468 – 524 °C</td>
+                                    <td>Melting Range</td>
+                                    <td>2500 – 2650 °F</td>
+                                    <td>1370 – 1460 °C</td>
                                 </tr>
                                 <tr>
-                                    <td>Elastic Modulus</td>
-                                    <td>10.2 × 10³ ksi</td>
-                                    <td>70.3 GPa</td>
+                                    <td>Modulus of Elasticity – Tension</td>
+                                    <td>28.0 × 10³ ksi</td>
+                                    <td>193 GPa</td>
                                 </tr>
                                 <tr>
-                                    <td>Thermal Conductivity</td>
-                                    <td>130 W/m-K</td>
+                                    <td>Modulus of Elasticity – Compression</td>
+                                    <td>28.0 × 10³ ksii</td>
+                                    <td>193 GPa</td>
+                                </tr>
+                                <tr>
+                                    <td>Modulus of Elasticity – Torsion</td>
+                                    <td>10.0 × 10³ ksi</td>
+                                    <td>193 GPa</td>
+                                </tr>
+                                <tr>
+                                    <td>Poisson’s Ratio</td>
+                                    <td>0.30</td>
                                     <td>—</td>
                                 </tr>
                                 <tr>
-                                    <td>Electrical Resistivity</td>
-                                    <td>33% IACS</td>
-                                    <td>—</td>
+                                    <td>Curie Temperature</td>
+                                    <td>1040 °F</td>
+                                    <td>560 °C</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -171,51 +210,51 @@
                                     <th>Property</th>
                                     <th>Annealed</th>
                                     <th>Hot-Finished</th>
-                                    <th>Cold-Drawn</th>
+                                    <th>Cold Worked</th>
                                     <th>Hot-Rolled</th>
-                                    <th>Sheet (T6)</th>
+                                    <th>Sheet</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr>
                                     <td>Tensile Strength (ksi / MPa)</td>
-                                    <td>17–24 / 115–165</td>
-                                    <td>34–45 / 235–310</td>
-                                    <td>38–47 / 260–325</td>
-                                    <td>30–44 / 205–303</td>
-                                    <td>30–42 / 200–290</td>
+                                    <td>90–120 / 620–830</td>
+                                    <td>130–170 / 896–1172</td>
+                                    <td>150–200 / 1034–1379</td>
+                                    <td>100–140 / 690–965</td>
+                                    <td>90–130 / 620–896</td>
                                 </tr>
                                 <tr>
                                     <td>Yield Strength (0.2%) (ksi / MPa)</td>
-                                    <td>10–15 / 70–100</td>
-                                    <td>28–40 / 190–275</td>
-                                    <td>34–42 / 235–290</td>
-                                    <td>24–38 / 165–260</td>
-                                    <td>22–35 / 150–240</td>
+                                    <td>60–90 / 414–620</td>
+                                    <td>110–150 / 758–1034</td>
+                                    <td>140–180 / 965–1240</td>
+                                    <td>70–110 / 483–758</td>
+                                    <td>60–90 / 414–620</td>
                                 </tr>
                                 <tr>
                                     <td>Elongation (%)</td>
-                                    <td>12–20</td>
-                                    <td>6–12</td>
+                                    <td>15–30</td>
+                                    <td>8–15</td>
                                     <td>5–10</td>
-                                    <td>8–12</td>
-                                    <td>10–14</td>
-                                </tr>
-                                <tr>
-                                    <td>Brinell Hardness (3000 kg)</td>
-                                    <td>45–60</td>
-                                    <td>80–95</td>
-                                    <td>85–100</td>
-                                    <td>70–90</td>
-                                    <td>65–85</td>
+                                    <td>15–25</td>
+                                    <td>20–30</td>
                                 </tr>
                                 <tr>
                                     <td>Rockwell Hardness (B / C)</td>
-                                    <td>25–35 B</td>
-                                    <td>40–55 B</td>
-                                    <td>45–60 B</td>
-                                    <td>35–50 B</td>
-                                    <td>35–50 B</td>
+                                    <td>60–70 B</td>
+                                    <td>80–90 B</td>
+                                    <td>90–95 B</td>
+                                    <td>70–80 B</td>
+                                    <td>65–75 B</td>
+                                </tr>
+                                <tr>
+                                    <td>Brinell Hardness (HB)</td>
+                                    <td>180–220</td>
+                                    <td>250–300</td>
+                                    <td>300–350</td>
+                                    <td>200–250</td>
+                                    <td>180–220</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -244,13 +283,13 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Products in Aluminium Alloys</h2>
+                <h2>Products in Nimonic Alloys</h2>
             </div>
             <!-- Highlighted Paragraph -->
             <div class="row justify-content-center mb-4" style="text-align: justify;">
                 <div class="col-lg-10">
                     <p class="fs-6">
-                        <strong class="text-dark">Aluminium HE30</strong> is supplied in various forms such as:
+                        <strong class="text-dark">Nimonic Alloys</strong> is commonly supplied as:
                     </p>
                 </div>
             </div>
@@ -275,7 +314,7 @@
             <div class="row justify-content-center mb-3">
                 <div class="col-lg-10">
                     <p class="fw-bold fs-5 text-center my-4" style="color: #174268;">
-                        We supply Aluminium HE30 materials in accordance with the most stringent industry standards: </p>
+                        We supply Nimonic Alloys materials in accordance with the most stringent industry standards: </p>
                 </div>
             </div>
 
@@ -309,35 +348,35 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>High strength combined with good fatigue resistance</h5>
+                        <h5>Superior resistance to heat creep and fatigue</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h5>Lightweight, reducing overall structural weight</h5>
+                        <h5>Excellent oxidation and corrosion resistance at high temperatures</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h5>Good machinability and surface finish</h5>
+                        <h5>High strength-to-weight ratio</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h5>Can be anodized for enhanced corrosion resistance</h5>
+                        <h5>Good weldability and workability (especially Nimonic 263)</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
-                        <h5>Meets stringent aerospace and defense quality standards</h5>
+                        <h5>Long-term dimensional and structural stability</h5>
                     </div>
                 </div>
             </div>
@@ -348,55 +387,58 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Applications of Aluminium HE30</h2>
-                <p class="text-center pb-3"><strong class="text-dark">Aluminium HE30</strong> is preferred in applications
-                    requiring high strength-to-weight ratios, particularly in aerospace and defense
+                <h2>Applications of Nimonic Alloys</h2>
+            </div>
 
-                <div class="row g-4 justify-content-center">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="application-card">
-                            <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
-                            <h5>Aerospace Components</h5>
-                            <p>Aircraft structural parts, fuselage panels, and wing skins.
-                            </p>
-                        </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
+                        <h5>Aerospace & Jet Engines</h5>
+                        <p>Used in turbine blades, combustion chambers, and exhaust systems due to excellent heat resistance.</p>
                     </div>
+                </div>
 
-                    <div class="col-md-6 col-lg-4">
-                        <div class="application-card">
-                            <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
-                            <h5>Defense Industry</h5>
-                            <p>Missile components, armor plating, and military vehicles.
-                            </p>
-                        </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
+                        <h5>Gas Turbines & Power Generation</h5>
+                        <p>Nimonic components withstand long-term exposure to high temperatures and stress.</p>
                     </div>
+                </div>
 
-                    <div class="col-md-6 col-lg-4">
-                        <div class="application-card">
-                            <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
-                            <h5>Sports Equipment</h5>
-                            <p>High-performance bicycle frames and sporting goods.
-                            </p>
-                        </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
+                        <h5>Nuclear Reactors</h5>
+                        <p>Ideal for components exposed to neutron irradiation and extreme heat.</p>
                     </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="application-card">
-                            <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
-                            <h5>Automotive & Racing</h5>
-                            <p>Lightweight chassis parts and performance accessories.
-                            </p>
-                        </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-droplet"></i></div>
+                        <h5>Automotive & Motorsport</h5>
+                        <p>Applied in valves, manifolds, and turbocharger parts.</p>
                     </div>
+                </div>
 
-                    {{-- <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
+                        <h5>Industrial Heating</h5>
+                        <p>Used in furnace parts, heat shields, and high-temp tooling.</p>
+                    </div>
+                </div>
+
+                {{-- <div class="col-md-6 col-lg-4">
                 <div class="application-card">
                      <div class="application-icon"><i class="bi bi-strategies"></i></div>
                     <h5>Why It Works</h5>
                     <p><strong>HASTELLOY C276’s</strong> combination of corrosion resistance, weldability, and mechanical durability makes it ideal for mission-critical applications where long-term performance is non-negotiable.</p>
                 </div>
             </div> --}}
-                </div>
             </div>
+        </div>
     </section>
 
 
@@ -410,35 +452,35 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Leading supplier of aerospace-grade Aluminium HE30</h5>
+                        <h5>Wide inventory of Nimonic bars, tubes, wires, and forgings</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
-                        <h5>Large stock and custom size availability</h5>
+                        <h5>Custom fabrication and CNC machining available</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
-                        <h5>Quality assurance with international certifications</h5>
+                        <h5>Global shipping with export compliance</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Technical expertise in high-performance aluminium alloys</h5>
+                        <h5>ISO 9001:2015 certified quality assurance</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
-                        <h5>Competitive pricing with global delivery network</h5>
+                        <h5>Fast turnaround and competitive pricing</h5>
                     </div>
                 </div>
             </div>
@@ -450,8 +492,8 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    For quotes or inquiries on Aluminium Alloy HE30 products, <strong>Moksh Tubes & Fittings
-                        LLP</strong> your trusted partner for aerospace-grade aluminium solutions.</p>
+                    Contact <strong>Moksh Tubes & Fittings LLP</strong> — for expert support, MTC-certified materials, and custom solutions.
+                </p>
                 <!-- Call button -->
                 <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
             </div>

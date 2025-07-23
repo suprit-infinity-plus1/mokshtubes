@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Aluminium HE30 - Moksh Tubes & Fittings LLP')
+@section('title', 'AL 6XN - Moksh Tubes & Fittings LLP')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -8,7 +8,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Aluminium HE30</h1>
+                    <h1>AL 6XN</h1>
                 </div>
             </div>
         </div>
@@ -22,29 +22,32 @@
             </div>
 
             <h2 class="fw-semibold text-center mb-5" style="color: #db7227;">
-                Introduction To Aluminium HE30
+                Introduction To AL 6XN / UNS N08367 / W.Nr. 1.4529
             </h2>
 
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?" alt="Aluminium HE30" class="img-fluid rounded shadow-sm">
+                    <img src="https://placehold.co/550x400?" alt="AL 6XN" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a manufacturer, supplier,
-                            exporter, importer, and stockist of<strong class="text-black"> Aluminium Alloy HE30
-                                products</strong> including sheets, plates,
-                            bars, rods, and extrusions.
+                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted manufacturer,
+                            supplier, exporter, importer, and stockist of<strong class="text-black"> AL 6XN Alloy (UNS
+                                N08367) products</strong> including
+                            Pipes & Tubes, Pipe Fittings, Flanges, Sheets & Plates, Coils, Wires, Round Bars, Forged
+                            Components, Fasteners, Welding Electrodes, and custom-engineered parts.
                         <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">Aluminium HE30</strong> is a high-strength aerospace-grade alloy,
-                            part of the 7000 series, primarily alloyed with zinc and magnesium. It offers excellent
-                            mechanical properties, including high tensile strength, good fatigue resistance, and moderate
-                            corrosion resistance. HE30 is commonly used in aerospace, defense, and other high-performance
-                            engineering applications where lightweight and strength are critical.
+                            <strong class="text-black">AL 6XN</strong> is a superaustenitic stainless steel designed for
+                            superior corrosion resistance in aggressive chloride environments, especially where standard
+                            stainless steels (like 316L) are inadequate. It is known for its high nickel (24%), molybdenum
+                            (6.3%), and nitrogen content, providing excellent resistance to pitting, crevice corrosion, and
+                            stress corrosion cracking (SCC). Its strength, formability, and weldability make it ideal for
+                            critical applications in chemical processing, marine environments, pulp & paper, food, and
+                            pharmaceutical industries.
                     </div>
                 </div>
             </div>
@@ -69,36 +72,44 @@
                             </thead>
                             <tbody class="text-center">
                                 <tr>
-                                    <td>Aluminum</td>
-                                    <td>Balance</td>
+                                    <td>Nickel</td>
+                                    <td>23.5 – 25.5</td>
                                 </tr>
                                 <tr>
-                                    <td>Copper</td>
-                                    <td>1.2 – 2.0</td>
+                                    <td>Chromium</td>
+                                    <td>20.0 – 22.0</td>
+                                </tr>
+                                <tr>
+                                    <td>Molybdenum</td>
+                                    <td>6.0 – 7.0</td>
                                 </tr>
                                 <tr>
                                     <td>Iron</td>
-                                    <td>0.4 max</td>
+                                    <td>Balance</td>
+                                </tr>
+                                <tr>
+                                    <td>Nitrogen</td>
+                                    <td>0.18 – 0.25</td>
                                 </tr>
                                 <tr>
                                     <td>Manganese</td>
-                                    <td>0.3 max</td>
+                                    <td>2.0 max</td>
                                 </tr>
                                 <tr>
                                     <td>Silicon</td>
-                                    <td>0.4 max</td>
+                                    <td>1.0 max</td>
                                 </tr>
                                 <tr>
-                                    <td>Zinc</td>
-                                    <td>5.5 – 6.5</td>
+                                    <td>Carbon</td>
+                                    <td>0.03 max</td>
                                 </tr>
                                 <tr>
-                                    <td>Titanium</td>
-                                    <td>0.2 max</td>
+                                    <td>Phosphorus</td>
+                                    <td>0.04 max</td>
                                 </tr>
                                 <tr>
-                                    <td>Magnesium</td>
-                                    <td>2.0 – 3.0</td>
+                                    <td>Sulfur</td>
+                                    <td>0.03 max</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -131,27 +142,32 @@
                             <tbody class="text-center">
                                 <tr>
                                     <td>Density</td>
-                                    <td>0.102 lb/in³</td>
-                                    <td>2.83 g/cm³</td>
+                                    <td>0.292 lb/in³</td>
+                                    <td>8.08 g/cm³</td>
                                 </tr>
                                 <tr>
                                     <td>Melting Point</td>
-                                    <td>875 – 975 °F</td>
-                                    <td>468 – 524 °C</td>
+                                    <td>2415–2535 °F</td>
+                                    <td>1324–1390 °C</td>
                                 </tr>
                                 <tr>
-                                    <td>Elastic Modulus</td>
-                                    <td>10.2 × 10³ ksi</td>
-                                    <td>70.3 GPa</td>
-                                </tr>
-                                <tr>
-                                    <td>Thermal Conductivity</td>
-                                    <td>130 W/m-K</td>
-                                    <td>—</td>
+                                    <td>Specific Heat</td>
+                                    <td>0.11 BTU/lb·°F</td>
+                                    <td>460 J/kg·K</td>
                                 </tr>
                                 <tr>
                                     <td>Electrical Resistivity</td>
-                                    <td>33% IACS</td>
+                                    <td>53.9 µΩ·cm</td>
+                                    <td>—</td>
+                                </tr>
+                                <tr>
+                                    <td>Thermal Conductivity</td>
+                                    <td>8.7 W/m·K</td>
+                                    <td>—</td>
+                                </tr>
+                                <tr>
+                                    <td>Magnetic Permeability</td>
+                                    <td>Non-magnetic</td>
                                     <td>—</td>
                                 </tr>
                             </tbody>
@@ -170,52 +186,40 @@
                                 <tr>
                                     <th>Property</th>
                                     <th>Annealed</th>
-                                    <th>Hot-Finished</th>
-                                    <th>Cold-Drawn</th>
-                                    <th>Hot-Rolled</th>
-                                    <th>Sheet (T6)</th>
+                                    <th>Cold Worked</th>
+                                    <th>Solution Treated / Aged</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr>
                                     <td>Tensile Strength (ksi / MPa)</td>
-                                    <td>17–24 / 115–165</td>
-                                    <td>34–45 / 235–310</td>
-                                    <td>38–47 / 260–325</td>
-                                    <td>30–44 / 205–303</td>
-                                    <td>30–42 / 200–290</td>
+                                    <td>75–95 ksi / 520–655 MPa</td>
+                                    <td>90–110 ksi / 620–760 MPa</td>
+                                    <td>90–115 ksi / 620–790 MPa</td>
                                 </tr>
                                 <tr>
                                     <td>Yield Strength (0.2%) (ksi / MPa)</td>
-                                    <td>10–15 / 70–100</td>
-                                    <td>28–40 / 190–275</td>
-                                    <td>34–42 / 235–290</td>
-                                    <td>24–38 / 165–260</td>
-                                    <td>22–35 / 150–240</td>
+                                    <td>30–50 ksi / 205–345 MPa</td>
+                                    <td>60–90 ksi / 415–620 MPa</td>
+                                    <td>65–90 ksi / 450–620 MPa</td>
                                 </tr>
                                 <tr>
                                     <td>Elongation (%)</td>
-                                    <td>12–20</td>
-                                    <td>6–12</td>
-                                    <td>5–10</td>
-                                    <td>8–12</td>
-                                    <td>10–14</td>
+                                    <td>30–50%</td>
+                                    <td>15–30%</td>
+                                    <td>15–30%</td>
                                 </tr>
                                 <tr>
-                                    <td>Brinell Hardness (3000 kg)</td>
-                                    <td>45–60</td>
-                                    <td>80–95</td>
-                                    <td>85–100</td>
-                                    <td>70–90</td>
-                                    <td>65–85</td>
+                                    <td>Hardness (Rockwell B / C)</td>
+                                    <td>70–90 B</td>
+                                    <td>80–95 B</td>
+                                    <td>80–95 B</td>
                                 </tr>
                                 <tr>
-                                    <td>Rockwell Hardness (B / C)</td>
-                                    <td>25–35 B</td>
-                                    <td>40–55 B</td>
-                                    <td>45–60 B</td>
-                                    <td>35–50 B</td>
-                                    <td>35–50 B</td>
+                                    <td>Brinell Hardness (HB)</td>
+                                    <td>150–200 HB</td>
+                                    <td>180–230 HB</td>
+                                    <td>180–230 HB</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -244,13 +248,13 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Products in Aluminium Alloys</h2>
+                <h2>Products in AL 6XN</h2>
             </div>
             <!-- Highlighted Paragraph -->
             <div class="row justify-content-center mb-4" style="text-align: justify;">
                 <div class="col-lg-10">
                     <p class="fs-6">
-                        <strong class="text-dark">Aluminium HE30</strong> is supplied in various forms such as:
+                        <strong class="text-dark">AL 6XN</strong> is commonly supplied as:
                     </p>
                 </div>
             </div>
@@ -275,7 +279,7 @@
             <div class="row justify-content-center mb-3">
                 <div class="col-lg-10">
                     <p class="fw-bold fs-5 text-center my-4" style="color: #174268;">
-                        We supply Aluminium HE30 materials in accordance with the most stringent industry standards: </p>
+                        We supply AL 6XN materials in accordance with the most stringent industry standards: </p>
                 </div>
             </div>
 
@@ -309,35 +313,35 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>High strength combined with good fatigue resistance</h5>
+                        <h5>Outstanding Resistance to pitting, crevice corrosion, and SCC</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h5>Lightweight, reducing overall structural weight</h5>
+                        <h5>Performs in high-temperature, high-chloride environments</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h5>Good machinability and surface finish</h5>
+                        <h5>Excellent weldability without post-weld heat treatment</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h5>Can be anodized for enhanced corrosion resistance</h5>
+                        <h5>Non-magnetic and seawater resistant</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
-                        <h5>Meets stringent aerospace and defense quality standards</h5>
+                        <h5>Suitable for sanitary and ultra-clean applications</h5>
                     </div>
                 </div>
             </div>
@@ -348,55 +352,71 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Applications of Aluminium HE30</h2>
-                <p class="text-center pb-3"><strong class="text-dark">Aluminium HE30</strong> is preferred in applications
-                    requiring high strength-to-weight ratios, particularly in aerospace and defense
+                <h2>Applications of AL 6XN</h2>
+                <p class="text-center pb-3"><strong class="text-dark">AL 6XN</strong> is widely chosen for critical
+                    applications where corrosion resistance is vital. Key industries and uses include:
+            </div>
 
-                <div class="row g-4 justify-content-center">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="application-card">
-                            <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
-                            <h5>Aerospace Components</h5>
-                            <p>Aircraft structural parts, fuselage panels, and wing skins.
-                            </p>
-                        </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
+                        <h5>Marine Applications</h5>
+                        <p>Desalination plants, seawater cooling systems, marine heat exchangers, pump housings.
+                        </p>
                     </div>
+                </div>
 
-                    <div class="col-md-6 col-lg-4">
-                        <div class="application-card">
-                            <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
-                            <h5>Defense Industry</h5>
-                            <p>Missile components, armor plating, and military vehicles.
-                            </p>
-                        </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
+                        <h5>Chemical Processing</h5>
+                        <p>Heat exchangers, process vessels, piping in acidic and chloride-rich environments.
+                        </p>
                     </div>
+                </div>
 
-                    <div class="col-md-6 col-lg-4">
-                        <div class="application-card">
-                            <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
-                            <h5>Sports Equipment</h5>
-                            <p>High-performance bicycle frames and sporting goods.
-                            </p>
-                        </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
+                        <h5>Food & Beverage Industry</h5>
+                        <p>Equipment in brine systems, salt evaporators, and pickling lines.
+                        </p>
                     </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="application-card">
-                            <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
-                            <h5>Automotive & Racing</h5>
-                            <p>Lightweight chassis parts and performance accessories.
-                            </p>
-                        </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-droplet"></i></div>
+                        <h5>Pharmaceutical & Biotech</h5>
+                        <p>High-purity process piping, tanks, and clean-in-place (CIP) systems.</p>
                     </div>
+                </div>
 
-                    {{-- <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
+                        <h5>Pulp & Paper</h5>
+                        <p>Bleaching equipment, digesters, and chlorination systems.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
+                        <h5>Power Generation</h5>
+                        <p>Condensers, flue gas desulfurization (FGD) systems.</p>
+                    </div>
+                </div>
+
+                {{-- <div class="col-md-6 col-lg-4">
                 <div class="application-card">
                      <div class="application-icon"><i class="bi bi-strategies"></i></div>
                     <h5>Why It Works</h5>
                     <p><strong>HASTELLOY C276’s</strong> combination of corrosion resistance, weldability, and mechanical durability makes it ideal for mission-critical applications where long-term performance is non-negotiable.</p>
                 </div>
             </div> --}}
-                </div>
             </div>
+        </div>
     </section>
 
 
@@ -410,35 +430,35 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Leading supplier of aerospace-grade Aluminium HE30</h5>
+                        <h5>Reliable supplier of high-grade Aluminium 6082-T6 products </h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
-                        <h5>Large stock and custom size availability</h5>
+                        <h5>Specialists in high-performance alloys and custom fabrications</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
-                        <h5>Quality assurance with international certifications</h5>
+                        <h5>Strict quality checks and mill test certifications (MTC)</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Technical expertise in high-performance aluminium alloys</h5>
+                        <h5>Wide inventory with fast global shipping</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
-                        <h5>Competitive pricing with global delivery network</h5>
+                        <h5>ISO-certified facility ensuring consistent product quality</h5>
                     </div>
                 </div>
             </div>
@@ -450,8 +470,8 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    For quotes or inquiries on Aluminium Alloy HE30 products, <strong>Moksh Tubes & Fittings
-                        LLP</strong> your trusted partner for aerospace-grade aluminium solutions.</p>
+                    <strong>Moksh Tubes & Fittings LLP</strong> Your reliable source for premium AL 6XN alloy products.
+                </p>
                 <!-- Call button -->
                 <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
             </div>

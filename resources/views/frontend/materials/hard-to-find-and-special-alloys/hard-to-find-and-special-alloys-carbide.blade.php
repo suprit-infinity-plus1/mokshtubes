@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Aluminium HE30 - Moksh Tubes & Fittings LLP')
+@section('title', 'Carbide Alloys - Moksh Tubes & Fittings LLP')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -8,7 +8,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Aluminium HE30</h1>
+                    <h1>Carbide Alloys</h1>
                 </div>
             </div>
         </div>
@@ -22,29 +22,32 @@
             </div>
 
             <h2 class="fw-semibold text-center mb-5" style="color: #db7227;">
-                Introduction To Aluminium HE30
+                Introduction To Carbide Alloys (TUNGSTEN CARBIDE / TITANIUM CARBIDE / TANTALUM CARBIDE)
             </h2>
 
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?" alt="Aluminium HE30" class="img-fluid rounded shadow-sm">
+                    <img src="https://placehold.co/550x400?" alt="Carbide alloys" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a manufacturer, supplier,
-                            exporter, importer, and stockist of<strong class="text-black"> Aluminium Alloy HE30
-                                products</strong> including sheets, plates,
-                            bars, rods, and extrusions.
-                        <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">Aluminium HE30</strong> is a high-strength aerospace-grade alloy,
-                            part of the 7000 series, primarily alloyed with zinc and magnesium. It offers excellent
-                            mechanical properties, including high tensile strength, good fatigue resistance, and moderate
-                            corrosion resistance. HE30 is commonly used in aerospace, defense, and other high-performance
-                            engineering applications where lightweight and strength are critical.
+                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted manufacturer,
+                            exporter, and supplier of Carbide Alloys, offering a wide range of products including Tungsten
+                            Carbide (WC), Titanium Carbide (TiC), Tantalum Carbide (TaC), and specialty carbide-based tools
+                            and components. Our range includes rods, strips, dies, nozzles, inserts, buttons, rings, wear
+                            parts, and custom-engineered carbide components designed to withstand extreme wear, abrasion,
+                            and thermal stress.
+
+                        <p> <strong class="text-black">Carbide Alloys</strong> are hard, wear-resistant materials made by
+                            combining carbide particles with metallic binders like cobalt or nickel. These alloys offer
+                            exceptional hardness, high-temperature resistance, and excellent dimensional stability, making
+                            them ideal for demanding industrial applications including metal cutting, mining, oil & gas,
+                            aerospace, and wear protection systems.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -69,36 +72,32 @@
                             </thead>
                             <tbody class="text-center">
                                 <tr>
-                                    <td>Aluminum</td>
-                                    <td>Balance</td>
+                                    <td>Tungsten</td>
+                                    <td>80.0 – 97.0</td>
                                 </tr>
                                 <tr>
-                                    <td>Copper</td>
-                                    <td>1.2 – 2.0</td>
+                                    <td>Carbon</td>
+                                    <td>4.0 – 6.5</td>
                                 </tr>
                                 <tr>
-                                    <td>Iron</td>
-                                    <td>0.4 max</td>
-                                </tr>
-                                <tr>
-                                    <td>Manganese</td>
-                                    <td>0.3 max</td>
-                                </tr>
-                                <tr>
-                                    <td>Silicon</td>
-                                    <td>0.4 max</td>
-                                </tr>
-                                <tr>
-                                    <td>Zinc</td>
-                                    <td>5.5 – 6.5</td>
+                                    <td>Cobalt</td>
+                                    <td>3.0 – 20.0 (binder phase)</td>
                                 </tr>
                                 <tr>
                                     <td>Titanium</td>
-                                    <td>0.2 max</td>
+                                    <td>Optional (in TiC grades)</td>
                                 </tr>
                                 <tr>
-                                    <td>Magnesium</td>
-                                    <td>2.0 – 3.0</td>
+                                    <td>Tantalum</td>
+                                    <td>Optional (in TaC grades)</td>
+                                </tr>
+                                <tr>
+                                    <td>Niobium</td>
+                                    <td>Optional</td>
+                                </tr>
+                                <tr>
+                                    <td>Nickel</td>
+                                    <td>Optional binder (for corrosion-resistant grades)</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -131,28 +130,38 @@
                             <tbody class="text-center">
                                 <tr>
                                     <td>Density</td>
-                                    <td>0.102 lb/in³</td>
-                                    <td>2.83 g/cm³</td>
+                                    <td>15.6 lb/in³</td>
+                                    <td>15.6 g/cm³</td>
                                 </tr>
                                 <tr>
                                     <td>Melting Point</td>
-                                    <td>875 – 975 °F</td>
-                                    <td>468 – 524 °C</td>
+                                    <td>5742 °F (sublimation)</td>
+                                    <td>3170 °C (sublimation)</td>
                                 </tr>
                                 <tr>
-                                    <td>Elastic Modulus</td>
-                                    <td>10.2 × 10³ ksi</td>
-                                    <td>70.3 GPa</td>
+                                    <td>Modulus of Elasticity – Tension</td>
+                                    <td>59 × 10³ ksi</td>
+                                    <td>407 GPa</td>
                                 </tr>
                                 <tr>
-                                    <td>Thermal Conductivity</td>
-                                    <td>130 W/m-K</td>
+                                    <td>Modulus of Elasticity – Compression</td>
+                                    <td>59 × 10³ ksi</td>
+                                    <td>407 GPa</td>
+                                </tr>
+                                <tr>
+                                    <td>Modulus of Elasticity – Torsion</td>
+                                    <td>20 × 10³ ksi</td>
+                                    <td>138 GPa</td>
+                                </tr>
+                                <tr>
+                                    <td>Poisson’s Ratio</td>
+                                    <td>0.22</td>
                                     <td>—</td>
                                 </tr>
                                 <tr>
-                                    <td>Electrical Resistivity</td>
-                                    <td>33% IACS</td>
-                                    <td>—</td>
+                                    <td>Curie Temperature</td>
+                                    <td>Not applicable</td>
+                                    <td>Not applicable</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -171,51 +180,51 @@
                                     <th>Property</th>
                                     <th>Annealed</th>
                                     <th>Hot-Finished</th>
-                                    <th>Cold-Drawn</th>
+                                    <th>Cold Worked</th>
                                     <th>Hot-Rolled</th>
-                                    <th>Sheet (T6)</th>
+                                    <th>Sheet</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr>
                                     <td>Tensile Strength (ksi / MPa)</td>
-                                    <td>17–24 / 115–165</td>
-                                    <td>34–45 / 235–310</td>
-                                    <td>38–47 / 260–325</td>
-                                    <td>30–44 / 205–303</td>
-                                    <td>30–42 / 200–290</td>
+                                    <td>300–400 / 2070–2760</td>
+                                    <td>—</td>
+                                    <td>—</td>
+                                    <td>—</td>
+                                    <td>—</td>
                                 </tr>
                                 <tr>
                                     <td>Yield Strength (0.2%) (ksi / MPa)</td>
-                                    <td>10–15 / 70–100</td>
-                                    <td>28–40 / 190–275</td>
-                                    <td>34–42 / 235–290</td>
-                                    <td>24–38 / 165–260</td>
-                                    <td>22–35 / 150–240</td>
+                                    <td>250–350 / 1720–2410</td>
+                                    <td>—</td>
+                                    <td>—</td>
+                                    <td>—</td>
+                                    <td>—</td>
                                 </tr>
                                 <tr>
                                     <td>Elongation (%)</td>
-                                    <td>12–20</td>
-                                    <td>6–12</td>
-                                    <td>5–10</td>
-                                    <td>8–12</td>
-                                    <td>10–14</td>
-                                </tr>
-                                <tr>
-                                    <td>Brinell Hardness (3000 kg)</td>
-                                    <td>45–60</td>
-                                    <td>80–95</td>
-                                    <td>85–100</td>
-                                    <td>70–90</td>
-                                    <td>65–85</td>
+                                    <td>0.1–1</td>
+                                    <td>—</td>
+                                    <td>—</td>
+                                    <td>—</td>
+                                    <td>—</td>
                                 </tr>
                                 <tr>
                                     <td>Rockwell Hardness (B / C)</td>
-                                    <td>25–35 B</td>
-                                    <td>40–55 B</td>
-                                    <td>45–60 B</td>
-                                    <td>35–50 B</td>
-                                    <td>35–50 B</td>
+                                    <td>—</td>
+                                    <td>—</td>
+                                    <td>—</td>
+                                    <td>—</td>
+                                    <td>80–90 HRC</td>
+                                </tr>
+                                <tr>
+                                    <td>Brinell Hardness (HB)</td>
+                                    <td>1500–2200</td>
+                                    <td>—</td>
+                                    <td>—</td>
+                                    <td>—</td>
+                                    <td>—</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -244,13 +253,13 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Products in Aluminium Alloys</h2>
+                <h2>Products in Carbide Alloys</h2>
             </div>
             <!-- Highlighted Paragraph -->
             <div class="row justify-content-center mb-4" style="text-align: justify;">
                 <div class="col-lg-10">
                     <p class="fs-6">
-                        <strong class="text-dark">Aluminium HE30</strong> is supplied in various forms such as:
+                        <strong class="text-dark">Carbide Alloys</strong> is commonly supplied as:
                     </p>
                 </div>
             </div>
@@ -275,7 +284,7 @@
             <div class="row justify-content-center mb-3">
                 <div class="col-lg-10">
                     <p class="fw-bold fs-5 text-center my-4" style="color: #174268;">
-                        We supply Aluminium HE30 materials in accordance with the most stringent industry standards: </p>
+                        We supply Carbide Alloys materials in accordance with the most stringent industry standards: </p>
                 </div>
             </div>
 
@@ -309,35 +318,35 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>High strength combined with good fatigue resistance</h5>
+                        <h5>Extremely high hardness and wear resistance</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h5>Lightweight, reducing overall structural weight</h5>
+                        <h5>Excellent heat resistance and thermal stability</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h5>Good machinability and surface finish</h5>
+                        <h5>High compressive strength and rigidity</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h5>Can be anodized for enhanced corrosion resistance</h5>
+                        <h5>Resistance to corrosion (in WC-Ni grades)</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
-                        <h5>Meets stringent aerospace and defense quality standards</h5>
+                        <h5>Long service life under extreme conditions</h5>
                     </div>
                 </div>
             </div>
@@ -348,55 +357,66 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Applications of Aluminium HE30</h2>
-                <p class="text-center pb-3"><strong class="text-dark">Aluminium HE30</strong> is preferred in applications
-                    requiring high strength-to-weight ratios, particularly in aerospace and defense
+                <h2>Applications of Carbide Alloys</h2>
+            </div>
 
-                <div class="row g-4 justify-content-center">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="application-card">
-                            <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
-                            <h5>Aerospace Components</h5>
-                            <p>Aircraft structural parts, fuselage panels, and wing skins.
-                            </p>
-                        </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
+                        <h5>Tooling & Machining</h5>
+                        <p>Cutting tools (turning, milling, drilling).</p>
+                        <p>Reamers, end mills, and wear blades.</p>
+                        <p>Stamping and punching dies.</p>
                     </div>
+                </div>
 
-                    <div class="col-md-6 col-lg-4">
-                        <div class="application-card">
-                            <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
-                            <h5>Defense Industry</h5>
-                            <p>Missile components, armor plating, and military vehicles.
-                            </p>
-                        </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
+                        <h5>Mining & Construction</h5>
+                        <p>Button bits, drill rods, chisel tools.</p>
+                        <p>Road planning picks, tunneling bits.</p>
+                        <p>Oil well drilling heads and downhole tools.</p>
                     </div>
+                </div>
 
-                    <div class="col-md-6 col-lg-4">
-                        <div class="application-card">
-                            <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
-                            <h5>Sports Equipment</h5>
-                            <p>High-performance bicycle frames and sporting goods.
-                            </p>
-                        </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
+                        <h5>Industrial Wear Parts</h5>
+                        <p>Pump sleeves, seal rings, guide bushings.</p>
+                        <p>Abrasive-resistant liners, wear blocks.</p>
+                        <p>Valves, plungers, and mechanical seals.</p>
                     </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="application-card">
-                            <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
-                            <h5>Automotive & Racing</h5>
-                            <p>Lightweight chassis parts and performance accessories.
-                            </p>
-                        </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-droplet"></i></div>
+                        <h5>Chemical & Energy Industry</h5>
+                        <p>Components exposed to corrosive slurries.</p>
+                        <p>Carbide wear plates in reactors and furnaces.</p>
                     </div>
+                </div>
 
-                    {{-- <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
+                        <h5>Aerospace & Defense</h5>
+                        <p>Jet engine components, rocket nozzles.</p>
+                        <p>Armor-piercing cores and protective inserts.</p>
+                    </div>
+                </div>
+
+                {{-- <div class="col-md-6 col-lg-4">
                 <div class="application-card">
                      <div class="application-icon"><i class="bi bi-strategies"></i></div>
                     <h5>Why It Works</h5>
                     <p><strong>HASTELLOY C276’s</strong> combination of corrosion resistance, weldability, and mechanical durability makes it ideal for mission-critical applications where long-term performance is non-negotiable.</p>
                 </div>
             </div> --}}
-                </div>
             </div>
+        </div>
     </section>
 
 
@@ -410,35 +430,35 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Leading supplier of aerospace-grade Aluminium HE30</h5>
+                        <h5>In-house capability for precision carbide machining</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
-                        <h5>Large stock and custom size availability</h5>
+                        <h5>ISO-compliant manufacturing and custom grade development</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
-                        <h5>Quality assurance with international certifications</h5>
+                        <h5>End-to-end supply from powder to finished components</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Technical expertise in high-performance aluminium alloys</h5>
+                        <h5>Strong network of global clients and OEMs</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
-                        <h5>Competitive pricing with global delivery network</h5>
+                        <h5>Technical assistance and quick turnaround for custom parts</h5>
                     </div>
                 </div>
             </div>
@@ -450,8 +470,8 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    For quotes or inquiries on Aluminium Alloy HE30 products, <strong>Moksh Tubes & Fittings
-                        LLP</strong> your trusted partner for aerospace-grade aluminium solutions.</p>
+                   Contact <strong>Moksh Tubes & Fittings LLP</strong> — your trusted partner in wear-resistant and high-strength carbide solutions.
+                </p>
                 <!-- Call button -->
                 <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
             </div>

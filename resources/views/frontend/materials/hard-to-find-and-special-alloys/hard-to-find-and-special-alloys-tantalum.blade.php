@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Aluminium HE30 - Moksh Tubes & Fittings LLP')
+@section('title', 'Tantalum -Moksh Tubes & Fittings LLP')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -8,7 +8,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Aluminium HE30</h1>
+                    <h1>Tantalum</h1>
                 </div>
             </div>
         </div>
@@ -22,29 +22,30 @@
             </div>
 
             <h2 class="fw-semibold text-center mb-5" style="color: #db7227;">
-                Introduction To Aluminium HE30
+                Introduction To Tantalum
             </h2>
 
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?" alt="Aluminium HE30" class="img-fluid rounded shadow-sm">
+                    <img src="https://placehold.co/550x400?" alt="Tantalum" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a manufacturer, supplier,
-                            exporter, importer, and stockist of<strong class="text-black"> Aluminium Alloy HE30
-                                products</strong> including sheets, plates,
-                            bars, rods, and extrusions.
-                        <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">Aluminium HE30</strong> is a high-strength aerospace-grade alloy,
-                            part of the 7000 series, primarily alloyed with zinc and magnesium. It offers excellent
-                            mechanical properties, including high tensile strength, good fatigue resistance, and moderate
-                            corrosion resistance. HE30 is commonly used in aerospace, defense, and other high-performance
-                            engineering applications where lightweight and strength are critical.
+                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a reliable manufacturer,
+                            supplier, exporter, importer, and stockist of premium-grade<strong class="text-black"> Tantalum
+                                products</strong> including Tantalum
+                            Pipes & Tubes, Sheets & Plates, Rods & Bars, Wire, Foil, Crucibles, Fasteners, and Custom
+                            Fabricated Products for critical applications.
+                        </p>
+                        <p> <strong class="text-black">Tantalum</strong> is a rare, ductile, and highly corrosion-resistant
+                            metal with excellent biocompatibility and high melting point. It is highly resistant to most
+                            acids (including aqua regia), making it a prime material for demanding chemical processing and
+                            high-temperature applications. Tantalum maintains its mechanical strength at elevated
+                            temperatures and offers excellent workability in various forms.</p>
                     </div>
                 </div>
             </div>
@@ -69,36 +70,44 @@
                             </thead>
                             <tbody class="text-center">
                                 <tr>
-                                    <td>Aluminum</td>
-                                    <td>Balance</td>
+                                    <td>Tantalum</td>
+                                    <td>99.95 min</td>
                                 </tr>
                                 <tr>
-                                    <td>Copper</td>
-                                    <td>1.2 – 2.0</td>
+                                    <td>Niobium</td>
+                                    <td>0.01 – 0.1 max</td>
                                 </tr>
                                 <tr>
                                     <td>Iron</td>
-                                    <td>0.4 max</td>
-                                </tr>
-                                <tr>
-                                    <td>Manganese</td>
-                                    <td>0.3 max</td>
-                                </tr>
-                                <tr>
-                                    <td>Silicon</td>
-                                    <td>0.4 max</td>
-                                </tr>
-                                <tr>
-                                    <td>Zinc</td>
-                                    <td>5.5 – 6.5</td>
+                                    <td>0.01 max</td>
                                 </tr>
                                 <tr>
                                     <td>Titanium</td>
-                                    <td>0.2 max</td>
+                                    <td>0.01 max</td>
                                 </tr>
                                 <tr>
-                                    <td>Magnesium</td>
-                                    <td>2.0 – 3.0</td>
+                                    <td>Tungsten</td>
+                                    <td>0.05 max</td>
+                                </tr>
+                                <tr>
+                                    <td>Silicon</td>
+                                    <td>0.005 max</td>
+                                </tr>
+                                <tr>
+                                    <td>Oxygen</td>
+                                    <td>0.015 max</td>
+                                </tr>
+                                <tr>
+                                    <td>Nitrogen</td>
+                                    <td>0.01 max</td>
+                                </tr>
+                                <tr>
+                                    <td>Carbon</td>
+                                    <td>0.01 max</td>
+                                </tr>
+                                <tr>
+                                    <td>Hydrogen</td>
+                                    <td>0.001 max</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -131,28 +140,38 @@
                             <tbody class="text-center">
                                 <tr>
                                     <td>Density</td>
-                                    <td>0.102 lb/in³</td>
-                                    <td>2.83 g/cm³</td>
+                                    <td>0.311 lb/in³</td>
+                                    <td>16.69 g/cm³</td>
                                 </tr>
                                 <tr>
-                                    <td>Melting Point</td>
-                                    <td>875 – 975 °F</td>
-                                    <td>468 – 524 °C</td>
+                                    <td>Melting Range</td>
+                                    <td>5425 °F</td>
+                                    <td>2996 °C</td>
                                 </tr>
                                 <tr>
-                                    <td>Elastic Modulus</td>
-                                    <td>10.2 × 10³ ksi</td>
-                                    <td>70.3 GPa</td>
+                                    <td>Modulus of Elasticity – Tension</td>
+                                    <td>15.0 × 10³ ksi</td>
+                                    <td>103 GPa</td>
                                 </tr>
                                 <tr>
-                                    <td>Thermal Conductivity</td>
-                                    <td>130 W/m-K</td>
+                                    <td>Modulus of Elasticity – Compression</td>
+                                    <td>15.0 × 10³ ksi</td>
+                                    <td>103 GPa</td>
+                                </tr>
+                                <tr>
+                                    <td>Modulus of Elasticity – Torsion</td>
+                                    <td>6.0 × 10³ ksi</td>
+                                    <td>41 GPa</td>
+                                </tr>
+                                <tr>
+                                    <td>Poisson’s Ratio</td>
+                                    <td>0.34</td>
                                     <td>—</td>
                                 </tr>
                                 <tr>
-                                    <td>Electrical Resistivity</td>
-                                    <td>33% IACS</td>
-                                    <td>—</td>
+                                    <td>Curie Temperature</td>
+                                    <td>Not applicable</td>
+                                    <td>Not applicable</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -171,51 +190,51 @@
                                     <th>Property</th>
                                     <th>Annealed</th>
                                     <th>Hot-Finished</th>
-                                    <th>Cold-Drawn</th>
+                                    <th>Cold Worked</th>
                                     <th>Hot-Rolled</th>
-                                    <th>Sheet (T6)</th>
+                                    <th>Sheet</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr>
                                     <td>Tensile Strength (ksi / MPa)</td>
-                                    <td>17–24 / 115–165</td>
-                                    <td>34–45 / 235–310</td>
-                                    <td>38–47 / 260–325</td>
-                                    <td>30–44 / 205–303</td>
-                                    <td>30–42 / 200–290</td>
+                                    <td>40–60 / 276–414</td>
+                                    <td>55–75 / 379–517</td>
+                                    <td>75–100 / 517–690</td>
+                                    <td>45–65 / 310–448</td>
+                                    <td>40–60 / 276–414</td>
                                 </tr>
                                 <tr>
                                     <td>Yield Strength (0.2%) (ksi / MPa)</td>
-                                    <td>10–15 / 70–100</td>
-                                    <td>28–40 / 190–275</td>
-                                    <td>34–42 / 235–290</td>
-                                    <td>24–38 / 165–260</td>
-                                    <td>22–35 / 150–240</td>
+                                    <td>20–40 / 138–276</td>
+                                    <td>35–55 / 241–379</td>
+                                    <td>50–80 / 345–552</td>
+                                    <td>30–50 / 207–345</td>
+                                    <td>25–45 / 172–310</td>
                                 </tr>
                                 <tr>
                                     <td>Elongation (%)</td>
-                                    <td>12–20</td>
-                                    <td>6–12</td>
-                                    <td>5–10</td>
-                                    <td>8–12</td>
-                                    <td>10–14</td>
+                                    <td>30–50</td>
+                                    <td>15–30</td>
+                                    <td>10–25</td>
+                                    <td>25–40</td>
+                                    <td>30–50</td>
                                 </tr>
                                 <tr>
                                     <td>Brinell Hardness (3000 kg)</td>
-                                    <td>45–60</td>
-                                    <td>80–95</td>
-                                    <td>85–100</td>
-                                    <td>70–90</td>
-                                    <td>65–85</td>
+                                    <td>90–120</td>
+                                    <td>110–140</td>
+                                    <td>140–180</td>
+                                    <td>100–130</td>
+                                    <td>90–120</td>
                                 </tr>
                                 <tr>
                                     <td>Rockwell Hardness (B / C)</td>
-                                    <td>25–35 B</td>
-                                    <td>40–55 B</td>
-                                    <td>45–60 B</td>
-                                    <td>35–50 B</td>
-                                    <td>35–50 B</td>
+                                    <td>40–50 B</td>
+                                    <td>50–60 B</td>
+                                    <td>60–70 B</td>
+                                    <td>45–55 B</td>
+                                    <td>40–50 B</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -244,13 +263,13 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Products in Aluminium Alloys</h2>
+                <h2>Products in Tantalum</h2>
             </div>
             <!-- Highlighted Paragraph -->
             <div class="row justify-content-center mb-4" style="text-align: justify;">
                 <div class="col-lg-10">
                     <p class="fs-6">
-                        <strong class="text-dark">Aluminium HE30</strong> is supplied in various forms such as:
+                        <strong class="text-dark">Tantalum</strong> is commonly supplied as:
                     </p>
                 </div>
             </div>
@@ -275,7 +294,7 @@
             <div class="row justify-content-center mb-3">
                 <div class="col-lg-10">
                     <p class="fw-bold fs-5 text-center my-4" style="color: #174268;">
-                        We supply Aluminium HE30 materials in accordance with the most stringent industry standards: </p>
+                        We supply Tantalum materials in accordance with the most stringent industry standards: </p>
                 </div>
             </div>
 
@@ -309,35 +328,35 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>High strength combined with good fatigue resistance</h5>
+                        <h5>Excellent corrosion resistance to almost all acids including aqua regia</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h5>Lightweight, reducing overall structural weight</h5>
+                        <h5>High melting point (over 3000°C)</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h5>Good machinability and surface finish</h5>
+                        <h5>Exceptional biocompatibility for medical applications</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h5>Can be anodized for enhanced corrosion resistance</h5>
+                        <h5>Outstanding thermal and electrical conductivity</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
-                        <h5>Meets stringent aerospace and defense quality standards</h5>
+                        <h5>Non-toxic and suitable for ultra-pure environments</h5>
                     </div>
                 </div>
             </div>
@@ -348,55 +367,53 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Applications of Aluminium HE30</h2>
-                <p class="text-center pb-3"><strong class="text-dark">Aluminium HE30</strong> is preferred in applications
-                    requiring high strength-to-weight ratios, particularly in aerospace and defense
+                <h2>Applications of Tantalum</h2>
+            </div>
 
-                <div class="row g-4 justify-content-center">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="application-card">
-                            <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
-                            <h5>Aerospace Components</h5>
-                            <p>Aircraft structural parts, fuselage panels, and wing skins.
-                            </p>
-                        </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
+                        <h5>Chemical Processing Equipment</h5>
+                        <p>Used in heat exchangers, reactors, vessels, and piping systems where resistance to strong acids
+                            like HCl, H2SO4, and nitric acid is critical.</p>
                     </div>
-
-                    <div class="col-md-6 col-lg-4">
-                        <div class="application-card">
-                            <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
-                            <h5>Defense Industry</h5>
-                            <p>Missile components, armor plating, and military vehicles.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-4">
-                        <div class="application-card">
-                            <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
-                            <h5>Sports Equipment</h5>
-                            <p>High-performance bicycle frames and sporting goods.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="application-card">
-                            <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
-                            <h5>Automotive & Racing</h5>
-                            <p>Lightweight chassis parts and performance accessories.
-                            </p>
-                        </div>
-                    </div>
-
-                    {{-- <div class="col-md-6 col-lg-4">
-                <div class="application-card">
-                     <div class="application-icon"><i class="bi bi-strategies"></i></div>
-                    <h5>Why It Works</h5>
-                    <p><strong>HASTELLOY C276’s</strong> combination of corrosion resistance, weldability, and mechanical durability makes it ideal for mission-critical applications where long-term performance is non-negotiable.</p>
                 </div>
-            </div> --}}
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
+                        <h5>Electronics & Semiconductors</h5>
+                        <p>Employed in sputtering targets, capacitors, and thin-film applications due to high capacitance
+                            and purity.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
+                        <h5>Medical Industry</h5>
+                        <p>Used for surgical implants, orthopedic devices, and dental applications owing to its excellent
+                            biocompatibility and non-reactive nature.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-droplet"></i></div>
+                        <h5>Aerospace and Defense</h5>
+                        <p>Utilized in high-temperature structural parts and radiation shielding components.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
+                        <h5>Laboratory Equipment</h5>
+                        <p>Ideal for crucibles, evaporation boats, and heat-resistant components in vacuum systems.</p>
+                    </div>
                 </div>
             </div>
+        </div>
     </section>
 
 
@@ -410,35 +427,35 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Leading supplier of aerospace-grade Aluminium HE30</h5>
+                        <h5>Supplier of high-purity Tantalum in various grades and specifications</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
-                        <h5>Large stock and custom size availability</h5>
+                        <h5>Precision manufacturing and in-house quality testing</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
-                        <h5>Quality assurance with international certifications</h5>
+                        <h5>Fast turnaround time and custom solutions</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Technical expertise in high-performance aluminium alloys</h5>
+                        <h5>Global logistics with reliable packaging and documentation</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
-                        <h5>Competitive pricing with global delivery network</h5>
+                        <h5>Trusted by chemical, aerospace, and electronics industries worldwide</h5>
                     </div>
                 </div>
             </div>
@@ -450,8 +467,10 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    For quotes or inquiries on Aluminium Alloy HE30 products, <strong>Moksh Tubes & Fittings
-                        LLP</strong> your trusted partner for aerospace-grade aluminium solutions.</p>
+                    Contact <strong>Moksh Tubes & Fittings LLP</strong> — for quotes, technical queries, and bulk orders.
+                    We are your one-stop solution for rare metals and corrosion-resistant alloys.
+
+                </p>
                 <!-- Call button -->
                 <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
             </div>

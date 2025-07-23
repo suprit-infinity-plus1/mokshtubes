@@ -52,7 +52,7 @@ class MainController extends Controller
             'Engineering Steels',
             'Aluminium Alloys',
             'Copper Alloys',
-            'Hard To Find & Special Alloys',
+            'Hard To Find And Special Alloys',
             'Haynes Superalloys',
         ];
 
@@ -129,7 +129,7 @@ class MainController extends Controller
         return view('frontend.materials.inconel.index', compact('grades'));
     }
 
-     public function titanium()
+    public function titanium()
     {
         $grades = [
             ['name' => 'grade 1', 'slug' => 'grade-1'],
@@ -148,7 +148,7 @@ class MainController extends Controller
         return view('frontend.materials.titanium.index', compact('grades'));
     }
 
-     public function aluminiumAlloys()
+    public function aluminiumAlloys()
     {
         $grades = [
             ['name' => '6061 T6', 'slug' => 'aluminium-alloys-6061-T6'],
@@ -164,6 +164,36 @@ class MainController extends Controller
         ];
 
         return view('frontend.materials.aluminium-alloys.index', compact('grades'));
+    }
+
+    public function superAusteniticStainlessSteel()
+    {
+        $grades = [
+            ['name' => 'AL 6XN', 'slug' => 'super-austenitic-stainless-steel-AL-6XN'],
+            ['name' => 'Alloy 926', 'slug' => 'super-austenitic-stainless-steel-Alloy-926'],
+            ['name' => '253 MA', 'slug' => 'super-austenitic-stainless-steel-253-MA'],
+            ['name' => '904L', 'slug' => 'super-austenitic-stainless-steel-904L'],
+            ['name' => 'SMO 254', 'slug' => 'super-austenitic-stainless-steel-SMO-254'],
+            ['name' => 'SMO 654', 'slug' => 'super-austenitic-stainless-steel-SMO-654'],
+        ];
+
+        return view('frontend.materials.super-austenitic-stainless-steel.index', compact('grades'));
+    }
+
+    public function hardToFindAndSpecialAlloys()
+    {
+        $grades = [
+            ['name' => 'Carbide', 'slug' => 'hard-to-find-and-special-alloys-carbide'],
+            ['name' => 'Copy of Nimonic', 'slug' => 'hard-to-find-and-special-alloys-copy-of-nimonic'],
+            ['name' => 'Nimonic', 'slug' => 'hard-to-find-and-special-alloys-nimonic'],
+            ['name' => 'Nitinol', 'slug' => 'hard-to-find-and-special-alloys-nitinol'],
+            ['name' => 'Stellite', 'slug' => 'hard-to-find-and-special-alloys-stellite'],
+            ['name' => 'Tantalum', 'slug' => 'hard-to-find-and-special-alloys-tantalum'],
+            ['name' => 'Tungsten', 'slug' => 'hard-to-find-and-special-alloys-tungsten'],
+
+        ];
+
+        return view('frontend.materials.hard-to-find-and-special-alloys.index', compact('grades'));
     }
 
 
