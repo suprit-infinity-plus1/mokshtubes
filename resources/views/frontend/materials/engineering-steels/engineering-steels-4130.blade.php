@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Engineering Steels 1045 - Moksh Tubes & Fittings LLP')
+@section('title', 'Engineering Steels 4130 - Moksh Tubes & Fittings LLP')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -8,7 +8,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Engineering Steel 1045</h1>
+                    <h1>Engineering Steel 4130</h1>
                 </div>
             </div>
         </div>
@@ -22,30 +22,32 @@
             </div>
 
             <h2 class="fw-semibold text-center mb-5" style="color: #db7227;">
-                Introduction To EN 1045 / C1045 Steel
+                Introduction To Engineering Steel 4130 / AISI 4130 Steel
             </h2>
 
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?" alt="Titanium Grade 2" class="img-fluid rounded shadow-sm">
+                    <img src="https://placehold.co/550x400?" alt="EN 4130" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong>is a manufacturer, supplier,
-                            exporter, importer, and stockist of <strong>EN 1045 steel </strong> products such as pipes,
-                            tubes, bars, plates, and fittings.
+                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a manufacturer, supplier,
+                            exporter, importer, and stockist of<strong class="text-black"> EN 4130 steel products</strong>
+                            including pipes, tubes, bars, plates,
+                            and fittings.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">EN 1045</strong class="text-black">, commonly referred to as
-                            <strong>C1045</strong> or <strong>SAE 1045</strong>, is a medium carbon steel known for its good
-                            strength, hardness, and wear resistance. It offers a balance between ductility and strength,
-                            making it suitable for a wide range of mechanical and structural applications where moderate
-                            strength and toughness are required.
+                            <strong class="text-black">EN 4130</strong class="text-black">, also known as AISI 4130, is a
+                            low-alloy steel containing chromium and molybdenum as key alloying elements. It is well-known
+                            for its excellent strength, toughness, and good weldability. EN 4130 is widely used in
+                            structural and mechanical applications where high strength-to-weight ratio and good fatigue
+                            resistance are essential. This steel is also easily heat-treated to improve mechanical
+                            properties, making it ideal for aerospace, automotive, and oil and gas industries.
                         </p>
                     </div>
                 </div>
@@ -72,19 +74,31 @@
                             <tbody class="text-center">
                                 <tr>
                                     <td>Carbon</td>
-                                    <td>0.43 – 0.50</td>
+                                    <td>0.28 – 0.33</td>
                                 </tr>
                                 <tr>
                                     <td>Manganese</td>
-                                    <td>0.60 – 0.90</td>
+                                    <td>0.40 – 0.60</td>
                                 </tr>
                                 <tr>
-                                    <td>Phosphorus </td>
+                                    <td>Phosphorus</td>
+                                    <td>≤ 0.035</td>
+                                </tr>
+                                <tr>
+                                    <td>Sulfur</td>
                                     <td>≤ 0.040</td>
                                 </tr>
                                 <tr>
-                                    <td>Sulfur </td>
-                                    <td>≤ 0.050</td>
+                                    <td>Chromium</td>
+                                    <td>0.80 – 1.10</td>
+                                </tr>
+                                <tr>
+                                    <td>Molybdenum</td>
+                                    <td>0.15 – 0.25</td>
+                                </tr>
+                                <tr>
+                                    <td>Silicon</td>
+                                    <td>0.15 – 0.35</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -117,8 +131,8 @@
                             <tbody class="text-center">
                                 <tr>
                                     <td>Density</td>
-                                    <td>0.284 lb/in³</td>
-                                    <td>7.85 g/cm³</td>
+                                    <td>0.283 lb/in³</td>
+                                    <td>7.83 g/cm³</td>
                                 </tr>
                                 <tr>
                                     <td>Melting Point</td>
@@ -142,8 +156,8 @@
                                 </tr>
                                 <tr>
                                     <td>Thermal Conductivity</td>
-                                    <td>44 W/m·K</td>
-                                    <td>44 W/m·K</td>
+                                    <td>42 W/m·K</td>
+                                    <td>42 W/m·K</td>
                                 </tr>
                                 <tr>
                                     <td>Specific Heat Capacity</td>
@@ -165,69 +179,53 @@
                             <thead class="table-dark text-center">
                                 <tr>
                                     <th>Property</th>
-                                    <th>Tubing (Annealed)</th>
+                                    <th>Annealed</th>
                                     <th>Hot-Finished</th>
-                                    <th>Tubing (Cold Drawn)</th>
+                                    <th>Cold Drawn</th>
                                     <th>Hot-rolled</th>
-                                    <th>Sheet (Annealed)</th>
+                                    <th>Sheet</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr>
-                                    <td>Tensile Strength (ksi)</td>
-                                    <td>65–85</td>
-                                    <td>75–105</td>
-                                    <td>85–110</td>
-                                    <td>65–85</td>
-                                    <td>60–80</td>
+                                    <td>Tensile Strength (ksi / MPa)</td>
+                                    <td>85–105 ksi / 586–724 MPa</td>
+                                    <td>90–115 ksi / 620–793 MPa</td>
+                                    <td>95–130 ksi / 655–896 MPa</td>
+                                    <td>85–110 ksi / 586–758 MPa</td>
+                                    <td>80–105 ksi / 552–724 MPa</td>
                                 </tr>
                                 <tr>
-                                    <td>Tensile Strength (MPa)</td>
-                                    <td>448–586</td>
-                                    <td>517–724 </td>
-                                    <td>586–758</td>
-                                    <td>448–586</td>
-                                    <td>414–552 </td>
-                                </tr>
-                                <tr>
-                                    <td>Yield Strength (0.2%) (ksi)</td>
-                                    <td>35–55</td>
-                                    <td>50–80</td>
-                                    <td>60–85</td>
-                                    <td>35–55</td>
-                                    <td>30–50</td>
-                                </tr>
-                                <tr>
-                                    <td>Yield Strength (MPa)</td>
-                                    <td>241–379</td>
-                                    <td>345–552</td>
-                                    <td>414–586</td>
-                                    <td>241–379</td>
-                                    <td>207–345</td>
+                                    <td>Yield Strength (0.2%)</td>
+                                    <td>55–70 ksi / 379–483 MPa</td>
+                                    <td>60–95 ksi / 414–655 MPa</td>
+                                    <td>65–105 ksi / 448–724 MPa</td>
+                                    <td>55–80 ksi / 379–552 MPa</td>
+                                    <td>50–75 ksi / 345–517 MPa</td>
                                 </tr>
                                 <tr>
                                     <td>Elongation (%)</td>
                                     <td>20–30</td>
                                     <td>15–25</td>
                                     <td>15–20</td>
-                                    <td>20–30</td>
+                                    <td>20–25</td>
                                     <td>20–30</td>
                                 </tr>
                                 <tr>
                                     <td>Brinell Hardness (3000 kg)</td>
-                                    <td>120–180</td>
-                                    <td>160–220</td>
-                                    <td>160–210</td>
-                                    <td>120–180</td>
+                                    <td>150–200</td>
+                                    <td>180–240</td>
+                                    <td>200–260</td>
+                                    <td>150–210</td>
                                     <td>—</td>
                                 </tr>
                                 <tr>
                                     <td>Rockwell Hardness (B / C)</td>
-                                    <td>70–80 B</td>
+                                    <td>80–90 B</td>
                                     <td>85–95 B</td>
                                     <td>85–95 B</td>
-                                    <td>70–80 B</td>
-                                    <td>70–80 B</td>
+                                    <td>80–90 B</td>
+                                    <td>80–90 B</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -256,13 +254,13 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Products in Engineering Steel 1045</h2>
+                <h2>Products in Engineering Steel 4130</h2>
             </div>
             <!-- Highlighted Paragraph -->
             <div class="row justify-content-center mb-4" style="text-align: justify;">
                 <div class="col-lg-10">
                     <p class="fs-6">
-                        <strong class="text-dark">EN 1045 </strong>is commonly available in:
+                        <strong class="text-dark">Engineering Steel 4130</strong> is typically available in:
                     </p>
                 </div>
             </div>
@@ -287,7 +285,7 @@
             <div class="row justify-content-center mb-3">
                 <div class="col-lg-10">
                     <p class="fw-bold fs-5 text-center my-4" style="color: #174268;">
-                        Titanium Grade 2 products are produced to the following global standards:
+                        Engineering Steel 4130 products are produced to the following global standards:
                     </p>
                 </div>
             </div>
@@ -322,28 +320,28 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>Good tensile strength and wear resistance</h5>
+                        <h5>Excellent strength-to-weight ratio</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h5>Excellent machinability and weldability</h5>
+                        <h5>Good weldability and machinability</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h5>Cost-effective medium carbon steel for structural and mechanical parts</h5>
+                        <h5>High fatigue resistance and toughness</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h5>Can be heat treated to improve mechanical properties</h5>
+                        <h5>meCan be heat-treated for enhanced mechanical properties</h5>
                     </div>
                 </div>
             </div>
@@ -354,8 +352,8 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Applications of Titanium Grade 2</h2>
-                <p class="text-center pb-3"><strong class="text-dark">Engineering Steel 1045</strong> is widely used in:
+                <h2>Applications of Engineering Steel 4130</h2>
+                <p class="text-center pb-3"><strong class="text-dark">Engineering Steel 4130</strong> is widely used in:
                 </p>
             </div>
 
@@ -363,16 +361,17 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
-                        <h5>Automotive Components</h5>
-                        <p>Gears, shafts, axles, crankshafts, and connecting rods.</p>
+                        <h5>Aerospace & Aviation</h5>
+                        <p>Aircraft structural components, engine mounts, and landing gear parts.</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
-                        <h5>Machinery Parts</h5>
-                        <p>Bushings, bolts, studs, and machine tool parts.
+                        <h5>Automotive & Motorsport</h5>
+                        <p>Roll cages, chassis, suspension parts, and drive shafts requiring strength and fatigue
+                            resistance.
                         </p>
                     </div>
                 </div>
@@ -380,16 +379,16 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
-                        <h5>Construction & Structural</h5>
-                        <p>Structural parts requiring moderate strength and toughness.</p>
+                        <h5>Oil & Gas Industry</h5>
+                        <p>Pipelines, tubing, and equipment subjected to high pressure and harsh environments.</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-droplet"></i></div>
-                        <h5>Manufacturing</h5>
-                        <p>Tools, dies, and heavy-duty components requiring wear resistance.</p>
+                        <h5>Mechanical Engineering</h5>
+                        <p>High-strength machinery components, gears, bolts, and shafts.</p>
                     </div>
                 </div>
 
@@ -433,35 +432,35 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Premium quality EN 1045 steel sourced from trusted mills</h5>
+                        <h5>Trusted supplier of premium EN 4130 steel products</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
-                        <h5>Custom sizes and specifications available to meet your project needs</h5>
+                        <h5>Wide inventory of customized sizes and specifications</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
-                        <h5>Strong supply chain and global logistics for timely delivery</h5>
+                        <h5>Expertise in alloy steel manufacturing and distribution</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Expert technical support for alloy and steel selection</h5>
+                        <h5>Timely global delivery and competitive pricing</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
-                        <h5>Commitment to customer satisfaction and quality assurance</h5>
+                        <h5>Dedicated customer support and technical assistance</h5>
                     </div>
                 </div>
             </div>
@@ -473,8 +472,8 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    For inquiries or to request a quote for EN 1045 steel products, contact <strong> Moksh Tubes & Fittings
-                        LLP </strong> — your trusted partner for medium carbon steels.
+                    For inquiries or quotations on EN 4130 steel products, contact <strong> Moksh Tubes & Fittings
+                        LLP </strong> — your reliable partner for chromium-molybdenum alloy steels.
                 </p>
                 <!-- Call button -->
                 <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>

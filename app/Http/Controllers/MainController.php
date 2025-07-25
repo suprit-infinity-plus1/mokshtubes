@@ -166,7 +166,6 @@ class MainController extends Controller
         return view('frontend.materials.aluminium-alloys.index', compact('grades'));
     }
 
-<<<<<<< HEAD
     public function superAusteniticStainlessSteel()
     {
         $grades = [
@@ -195,7 +194,8 @@ class MainController extends Controller
         ];
 
         return view('frontend.materials.hard-to-find-and-special-alloys.index', compact('grades'));
-=======
+
+    }
      public function engineeringSteels()
     {
         $grades = [
@@ -219,7 +219,6 @@ class MainController extends Controller
                 ];
 
         return view('frontend.materials.engineering-steels.index', compact('grades'));
->>>>>>> b9a3eec6cd15951e823f614de6235d6b9b02cbdc
     }
 
 

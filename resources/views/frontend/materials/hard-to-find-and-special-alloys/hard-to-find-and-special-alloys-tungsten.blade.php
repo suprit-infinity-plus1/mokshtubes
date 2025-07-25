@@ -369,7 +369,8 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
                         <h5>Aerospace & Defense</h5>
-                        <p>Used in rocket nozzles, radiation shielding, ballast weights, kinetic energy penetrators, and counterbalances due to its high density and thermal stability.</p>
+                        <p>Used in rocket nozzles, radiation shielding, ballast weights, kinetic energy penetrators, and
+                            counterbalances due to its high density and thermal stability.</p>
                     </div>
                 </div>
 
@@ -377,7 +378,8 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
                         <h5>Electronics & Semiconductor Industry</h5>
-                        <p>Applied in filaments, X-ray tubes, sputtering targets, electrical contacts, and semiconductors for its high melting point and conductivity.</p>
+                        <p>Applied in filaments, X-ray tubes, sputtering targets, electrical contacts, and semiconductors
+                            for its high melting point and conductivity.</p>
                     </div>
                 </div>
 
@@ -405,12 +407,13 @@
                 </div>
 
                 <div class="col-md-6 col-lg-4">
-                <div class="application-card">
-                     <div class="application-icon"><i class="bi bi-strategies"></i></div>
-                    <h5>Oil & Gas Industry</h5>
-                    <p>Tungsten is used in drilling tools, wear parts, and logging equipment due to its abrasion resistance.</p>
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-strategies"></i></div>
+                        <h5>Oil & Gas Industry</h5>
+                        <p>Tungsten is used in drilling tools, wear parts, and logging equipment due to its abrasion
+                            resistance.</p>
+                    </div>
                 </div>
-            </div>
             </div>
         </div>
     </section>
@@ -466,8 +469,8 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    Contact <strong>Moksh Tubes & Fittings LLP</strong> — your trusted partner in wear-resistant and
-                    high-strength carbide solutions.
+                    Contact <strong>Moksh Tubes & Fittings LLP</strong> — is your reliable source for high-performance
+                    refractory metals.
                 </p>
                 <!-- Call button -->
                 <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
