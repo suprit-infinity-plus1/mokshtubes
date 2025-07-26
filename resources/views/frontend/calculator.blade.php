@@ -85,6 +85,7 @@
             <!-- Right content -->
             <div class="col-md-8">
                 <div id="tabContents">
+                    {{-- Steel sheets and plates --}}
                     <div id="tab1" class="tab-content-item">
                         <h5 class="mb-3">Calculator for Steel sheets and plates</h5>
 
@@ -99,7 +100,7 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Thickness, t</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" placeholder="e.g. 1" />
+                                                <input type="number" class="form-control me-2" id="sheetThickness" placeholder="e.g. 1" oninput="calculateSteelSheetWeight()" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -110,7 +111,7 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Width, W</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" placeholder="e.g. 1000" />
+                                                <input type="number" class="form-control me-2" id="sheetWidth" placeholder="e.g. 1000" oninput="calculateSteelSheetWeight()" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -121,7 +122,7 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" placeholder="e.g. 2000" />
+                                                <input type="number" class="form-control me-2" id="sheetLength" placeholder="e.g. 2000" oninput="calculateSteelSheetWeight()" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -130,9 +131,10 @@
                                     <!-- Number of pieces -->
                                     <div class="col-12 mb-3">
                                         <div class="d-flex align-items-center">
-                                            <label class="form-label mb-0 me-3" style="width: 120px;">No. of pieces</label>
+                                            <label class="form-label mb-0 me-3" style="width: 120px;">No. of
+                                                pieces</label>
                                             <div class="flex-grow-1">
-                                                <input type="number" class="form-control" placeholder="e.g. 1" />
+                                                <input type="number" class="form-control" id="sheetPieces" placeholder="e.g. 1" oninput="calculateSteelSheetWeight()" />
                                             </div>
                                         </div>
                                     </div>
@@ -141,8 +143,8 @@
                                 <!-- Result -->
                                 <div class="mt-2">
                                     <h6><strong>Result</strong></h6>
-                                    <p>Single piece weight: <strong class="text-primary">15.7 kg</strong></p>
-                                    <p>Total weight: <strong class="text-primary">15.7 kg</strong></p>
+                                    <p>Single piece weight: <strong id="sheetSingleWeight" class="text-primary">15.7 kg</strong></p>
+                                    <p>Total weight: <strong id="sheetTotalWeight" class="text-primary">15.7 kg</strong></p>
                                 </div>
                             </div>
 
@@ -155,6 +157,7 @@
                     </div>
 
 
+                    {{-- Seamless steel pipes - circular --}}
                     <div id="tab2" class="tab-content-item d-none">
                         <h5 class="mb-3">Seamless steel pipes - circular</h5>
 
@@ -191,7 +194,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" placeholder="e.g. 2000" />
+                                                <input type="number" class="form-control me-2"
+                                                    placeholder="e.g. 2000" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -214,6 +218,7 @@
                         </div>
                     </div>
 
+                    {{-- Hollow structural sections - circular --}}
                     <div id="tab3" class="tab-content-item d-none">
                         <h5 class="mb-3">Hollow structural sections - circular</h5>
 
@@ -250,7 +255,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" placeholder="e.g. 2500" />
+                                                <input type="number" class="form-control me-2"
+                                                    placeholder="e.g. 2500" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -273,6 +279,7 @@
                         </div>
                     </div>
 
+                    {{-- Hollow structural sections - square --}}
                     <div id="tab4" class="tab-content-item d-none">
                         <h5 class="mb-3">Hollow structural sections - square</h5>
 
@@ -309,7 +316,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" placeholder="e.g. 2000" />
+                                                <input type="number" class="form-control me-2"
+                                                    placeholder="e.g. 2000" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -332,6 +340,7 @@
                         </div>
                     </div>
 
+                    {{-- Hollow Structural Sections – Rectangular --}}
                     <div id="tab5" class="tab-content-item d-none">
                         <h5 class="mb-3">Hollow Structural Sections – Rectangular</h5>
 
@@ -379,7 +388,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" placeholder="e.g. 2000" />
+                                                <input type="number" class="form-control me-2"
+                                                    placeholder="e.g. 2000" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -402,6 +412,7 @@
                         </div>
                     </div>
 
+                    {{-- Round Steel Bars --}}
                     <div id="tab6" class="tab-content-item d-none">
                         <h5 class="mb-3">Round Steel Bars</h5>
 
@@ -427,7 +438,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" placeholder="e.g. 6000" />
+                                                <input type="number" class="form-control me-2"
+                                                    placeholder="e.g. 6000" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -450,6 +462,7 @@
                         </div>
                     </div>
 
+                    {{-- Square Steel Bars --}}
                     <div id="tab7" class="tab-content-item d-none">
                         <h5 class="mb-3">Square Steel Bars</h5>
 
@@ -475,7 +488,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" placeholder="e.g. 6000" />
+                                                <input type="number" class="form-control me-2"
+                                                    placeholder="e.g. 6000" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -498,6 +512,7 @@
                         </div>
                     </div>
 
+                    {{-- Flat Bars --}}
                     <div id="tab8" class="tab-content-item d-none">
                         <h5 class="mb-3">Flat Bars</h5>
 
@@ -557,6 +572,7 @@
                         </div>
                     </div>
 
+                    {{-- Equal Angles --}}
                     <div id="tab9" class="tab-content-item d-none">
                         <h5 class="mb-3">Equal Angles</h5>
 
@@ -616,6 +632,7 @@
                         </div>
                     </div>
 
+                    {{-- Unequal Angles --}}
                     <div id="tab10" class="tab-content-item d-none">
                         <h5 class="mb-3">Unequal Angles</h5>
 
@@ -630,7 +647,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Side, A x B</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="text" class="form-control me-2" placeholder="e.g. 30x20" />
+                                                <input type="text" class="form-control me-2"
+                                                    placeholder="e.g. 30x20" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -675,6 +693,7 @@
                         </div>
                     </div>
 
+                    {{-- Channels - GOST --}}
                     <div id="tab11" class="tab-content-item d-none">
                         <h5 class="mb-3">Channels - GOST</h5>
 
@@ -747,12 +766,7 @@
                         </div>
                     </div>
 
-
-
-
-
-
-
+                    {{-- Channels - UPN --}}
                     <div id="tab12" class="tab-content-item d-none">
                         <h5 class="mb-3">Channels - UPN</h5>
                         <p>Input your values in the fields below:</p>
@@ -807,7 +821,8 @@
                                     <!-- Thickness s -->
                                     <div class="col-12 mb-3">
                                         <div class="d-flex align-items-center">
-                                            <label class="form-label mb-0 me-3" style="width: 120px;">Thickness, s:</label>
+                                            <label class="form-label mb-0 me-3" style="width: 120px;">Thickness,
+                                                s:</label>
                                             <input type="number" class="form-control" placeholder="e.g. 5" />
                                             <span class="ms-2">mm</span>
                                         </div>
@@ -816,7 +831,8 @@
                                     <!-- Thickness t -->
                                     <div class="col-12 mb-3">
                                         <div class="d-flex align-items-center">
-                                            <label class="form-label mb-0 me-3" style="width: 120px;">Thickness, t:</label>
+                                            <label class="form-label mb-0 me-3" style="width: 120px;">Thickness,
+                                                t:</label>
                                             <input type="number" class="form-control" placeholder="e.g. 6" />
                                             <span class="ms-2">mm</span>
                                         </div>
@@ -847,6 +863,7 @@
                         </div>
                     </div>
 
+                    {{-- Beams - IPN --}}
                     <div id="tab13" class="tab-content-item d-none">
                         <h5 class="mb-3">Calculator for Beams - IPN</h5>
                         <div class="row">
@@ -868,7 +885,8 @@
                                     </div>
                                     <!-- Thickness of web, tw -->
                                     <div class="col-12 mb-3 d-flex align-items-center">
-                                        <label class="form-label mb-0 me-3" style="width: 150px;">Web thickness, tw</label>
+                                        <label class="form-label mb-0 me-3" style="width: 150px;">Web thickness,
+                                            tw</label>
                                         <input type="number" class="form-control me-2" placeholder="e.g. 10">
                                         <span>mm</span>
                                     </div>
@@ -902,6 +920,7 @@
                         </div>
                     </div>
 
+                    {{-- Beams - IPE --}}
                     <div id="tab14" class="tab-content-item d-none">
                         <h5 class="mb-3">Beams - IPE</h5>
                         <div class="row g-4">
@@ -932,6 +951,8 @@
                                 alt="Placeholder Image">
                         </div>
                     </div>
+
+                    {{-- Beams - HEA (IPBL) --}}
                     <div id="tab15" class="tab-content-item d-none">
                         <h5 class="mb-3">Beams - HEA (IPBL)</h5>
                         <div class="row g-4">
@@ -962,6 +983,8 @@
                                 alt="Placeholder Image">
                         </div>
                     </div>
+
+                    {{-- Beams - HEB (IPB) --}}
                     <div id="tab16" class="tab-content-item d-none">
                         <h5 class="mb-3">Beams - HEB (IPB)</h5>
                         <div class="row g-4">
@@ -1025,6 +1048,25 @@
             document.querySelectorAll('.tab-content-item').forEach(el => {
                 el.classList.toggle('d-none', el.id !== targetId);
             });
+        }
+
+
+        // Steel sheets and plates
+        function calculateSteelSheetWeight() {
+            const thickness = parseFloat(document.getElementById('sheetThickness').value) || 0;
+            const width = parseFloat(document.getElementById('sheetWidth').value) || 0;
+            const length = parseFloat(document.getElementById('sheetLength').value) || 0;
+            const pieces = parseInt(document.getElementById('sheetPieces').value) || 0;
+
+            const density = 7.85; // in g/cm³ = 7850 kg/m³
+
+            // Calculate weight of one sheet in kg
+            const singleWeight = (length * width * thickness * density) / 1_000_000;
+            const totalWeight = singleWeight * pieces;
+
+            // Display result
+            document.getElementById('sheetSingleWeight').textContent = singleWeight.toFixed(2) + " kg";
+            document.getElementById('sheetTotalWeight').textContent = totalWeight.toFixed(2) + " kg";
         }
     </script>
 @endsection
