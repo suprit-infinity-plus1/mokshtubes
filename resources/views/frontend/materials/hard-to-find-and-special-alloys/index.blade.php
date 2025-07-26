@@ -1,5 +1,8 @@
 @extends('layouts.master')
-@section('title', 'Hard To Find And Special Alloys | Moksh Tubes')
+@section('title', 'Special & Rare Alloys | Nimonic, Tantalum, Stellite, Tungsten | Mokshtubes')
+@section('meta_description',
+    'Explore a niche range of hard-to-source alloys such as Nimonic, Tungsten, Carbide, Tantalum, and Nitinol for critical
+    high-performance needs.')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">

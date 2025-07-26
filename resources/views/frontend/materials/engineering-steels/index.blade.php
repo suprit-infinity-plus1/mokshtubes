@@ -1,7 +1,8 @@
 @extends('layouts.master')
 @section('title', 'Engineering Steels | EN8, EN19, 1045, 4140 Grades | Mokshtubes')
-@section('meta_description','Reach out to Mokshtubes Fittings & LLP for product inquiries, technical support, or custom alloy requirements. Call,
-    email, or visit us — we’re happy to assist you.')
+@section('meta_description',
+    'Versatile engineering steel grades for automotive, construction, and tooling applications. Includes EN series, 1045,
+    4340, and more.')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">

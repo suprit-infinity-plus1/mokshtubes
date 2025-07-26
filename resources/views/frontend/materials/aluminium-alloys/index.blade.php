@@ -1,5 +1,8 @@
 @extends('layouts.master')
-@section('title', 'Nickel Based Superalloys | Moksh Tubes')
+@section('title', 'Aluminium Alloys | 6082, 6061, 5083, HE30 Grades | Mokshtubes')
+@section('meta_description',
+    'Lightweight and corrosion-resistant aluminium grades like 6082-T6, 6061-T6, 7075, and HE30 for aerospace, marine, and
+    structural applications.')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">

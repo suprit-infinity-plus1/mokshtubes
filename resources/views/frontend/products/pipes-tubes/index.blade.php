@@ -1,5 +1,8 @@
 @extends('layouts.master')
-@section('title', 'Pipes & Tubes | Moksh Tubes')
+@section('title', 'Pipes & Tubes - Welded, Seamless, U-Bend, Boiler Tubes | Mokshtubes')
+@section('meta_description',
+    'Explore premium Pipes & Tubes including welded, seamless, capillaries, hollow sections, U-bent, and boiler tubes in
+    stainless steel, nickel alloys & more.')
 @section('content')
     <!--Start breadcrumb area-->
 
@@ -18,39 +21,41 @@
     </section>
 
 
- <section class="sec-padd-top sec-padd-bottom bg-white">
-    <div class="container">
-        <div class="section-title center mb-5">
-            <h2 class="fw-bold" style="color: #174268;">Pipe & Tube Types</h2>
-        </div>
+    <section class="sec-padd-top sec-padd-bottom bg-white">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color: #174268;">Pipe & Tube Types</h2>
+            </div>
 
-        <div class="row g-4">
-            @php
-                $types = [
-                    ['name' => 'Welded Pipes & Tubes (ERW & EFW)', 'slug' => 'welded-pipes-and-tubes'],
-                    ['name' => 'Seamless Pipes', 'slug' => 'seamless-pipes'],
-                    ['name' => 'Capillaries', 'slug' => 'capillaries'],
-                    ['name' => 'Hollow Section Pipe', 'slug' => 'hollow-section-pipe'],
-                    ['name' => 'U-Bent Tubes', 'slug' => 'u-bent-tubes'],
-                    ['name' => 'Boiler & Heat Exchanger Tubes', 'slug' => 'boiler-heat-exchanger-tubes'],
-                ];
-            @endphp
+            <div class="row g-4">
+                @php
+                    $types = [
+                        ['name' => 'Welded Pipes & Tubes (ERW & EFW)', 'slug' => 'welded-pipes-and-tubes'],
+                        ['name' => 'Seamless Pipes', 'slug' => 'seamless-pipes'],
+                        ['name' => 'Capillaries', 'slug' => 'capillaries'],
+                        ['name' => 'Hollow Section Pipe', 'slug' => 'hollow-section-pipe'],
+                        ['name' => 'U-Bent Tubes', 'slug' => 'u-bent-tubes'],
+                        ['name' => 'Boiler & Heat Exchanger Tubes', 'slug' => 'boiler-heat-exchanger-tubes'],
+                    ];
+                @endphp
 
-            @foreach ($types as $type)
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ url('/products/pipes-tubes/' . $type['slug']) }}" class="text-decoration-none">
-                        <div class="custom-product-card rounded overflow-hidden shadow h-100 position-relative">
-                            <img src="https://placehold.co/600x350/db7227/fff?" class="img-fluid w-100" alt="{{ $type['name'] }}">
-                            <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center" style="background: rgba(23, 66, 104, 0.65); transition: 0.3s;">
-                                <h5 class="text-white text-center fw-bold text-uppercase">{{ $type['name'] }}</h5>
+                @foreach ($types as $type)
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <a href="{{ url('/products/pipes-tubes/' . $type['slug']) }}" class="text-decoration-none">
+                            <div class="custom-product-card rounded overflow-hidden shadow h-100 position-relative">
+                                <img src="https://placehold.co/600x350/db7227/fff?" class="img-fluid w-100"
+                                    alt="{{ $type['name'] }}">
+                                <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center"
+                                    style="background: rgba(23, 66, 104, 0.65); transition: 0.3s;">
+                                    <h5 class="text-white text-center fw-bold text-uppercase">{{ $type['name'] }}</h5>
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-            @endforeach
+                        </a>
+                    </div>
+                @endforeach
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
 
