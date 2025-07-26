@@ -1,5 +1,7 @@
 @extends('layouts.master')
-@section('title', 'Hastelloy | Moksh Tubes')
+@section('title', 'Hastelloy Alloys | Grades, Properties & Applications | Mokshtubes')
+@section('meta_description', 'Explore the full range of Hastelloy alloys including C276, C22, B2, and G30. Ideal for
+    corrosion resistance in chemical, marine, and power plant industries.')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">

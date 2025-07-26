@@ -1,5 +1,9 @@
 @extends('layouts.master')
-@section('title', 'Incoloy | Moksh Tubes')
+@section('title', 'Incoloy Alloys | Corrosion & Heat Resistant Grades | Mokshtubes')
+@section('meta_description',
+    'Find premium Incoloy grades such as 800, 825, and 925 – engineered for heat, stress, and acidic environments in
+    petrochemical and marine sectors.
+    ')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">

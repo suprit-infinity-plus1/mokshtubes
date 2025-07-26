@@ -1,5 +1,7 @@
 @extends('layouts.master')
-@section('title', 'inconel | Moksh Tubes')
+@section('title', 'Inconel Alloys | High-Performance Nickel Alloys | Mokshtubes')
+@section('meta_description', 'Discover top Inconel grades like 600, 625, 718, and X-750. Known for high-temperature
+    strength, oxidation resistance, and performance in extreme environments.')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">

@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="@yield('meta_description')">
     <title>@yield('title')</title>
 
     <!-- responsive meta -->

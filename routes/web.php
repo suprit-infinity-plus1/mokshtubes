@@ -26,6 +26,7 @@ Route::get('/materials/super-austenitic-stainless-steel', action: [MainControlle
 Route::get('/materials/hard-to-find-and-special-alloys', action: [MainController::class, 'hardToFindAndSpecialAlloys'])->name('materials.hard-To-Find-And-Special-Alloys');
 Route::get('/materials/aluminium-alloys', [MainController::class, 'aluminiumAlloys'])->name('materials.aluminium-Alloys');
 Route::get('/materials/engineering-steels', [MainController::class, 'engineeringSteels'])->name('materials.engineering-Steels');
+Route::get('/materials/austenitic-stainless-steel', [MainController::class, 'austeniticStainlessSteel'])->name('materials.austenitic-stainless-Steel');
 
 Route::get('/materials/{family}/{grade}', [MainController::class, 'showMaterialGrade'])->name('material.grade');
 Route::get('/materials/{category}/{slug}', [MainController::class, 'showMaterial'])->name('materials.grade');

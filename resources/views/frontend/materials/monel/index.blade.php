@@ -1,5 +1,9 @@
 @extends('layouts.master')
-@section('title', 'Monel | Moksh Tubes')
+@section('title', 'Monel Alloys | Nickel-Copper Grades for Harsh Environments | Mokshtubes')
+@section('meta_description',
+    'Explore Monel 400, K500, and R405 – trusted for marine, chemical, and oil & gas use due to excellent corrosion and
+    impact resistance.
+    ')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
@@ -24,9 +28,9 @@
 
             @php
                 $grades = [
-                     ['name' => 'K500', 'slug' => 'monel-k500'],
-                     ['name' => 'R405', 'slug' => 'monel-r405'],
-                     ['name' => '400', 'slug' => 'monel-400'],
+                    ['name' => 'K500', 'slug' => 'monel-k500'],
+                    ['name' => 'R405', 'slug' => 'monel-r405'],
+                    ['name' => '400', 'slug' => 'monel-400'],
                 ];
             @endphp
 

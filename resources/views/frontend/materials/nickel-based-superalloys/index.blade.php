@@ -1,5 +1,8 @@
 @extends('layouts.master')
-@section('title', 'Nickel Based Superalloys | Moksh Tubes')
+@section('title', 'Nickel-Based Superalloys | High-Performance Alloys | Mokshtubes')
+@section('meta_description',
+    'Discover Nickel 200, 201, A286 and other superalloys known for strength, corrosion resistance, and extreme temperature
+    performance.')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
@@ -24,16 +27,17 @@
 
             @php
                 $grades = [
-                     ['name' => 'A286_AIS660', 'slug' => 'nickel-based-superalloys-a286-ais660'],
-                     ['name' => '200', 'slug' => 'nickel-based-superalloys-200'],
-                     ['name' => '201', 'slug' => 'nickel-based-superalloys-201'],
+                    ['name' => 'A286_AIS660', 'slug' => 'nickel-based-superalloys-a286-ais660'],
+                    ['name' => '200', 'slug' => 'nickel-based-superalloys-200'],
+                    ['name' => '201', 'slug' => 'nickel-based-superalloys-201'],
                 ];
             @endphp
 
             <div class="row g-4">
                 @foreach ($grades as $grade)
                     @php
-                        $href = $grade['slug'] !== '#' ? url('/materials/nickel-based-superalloys/' . $grade['slug']) : '#';
+                        $href =
+                            $grade['slug'] !== '#' ? url('/materials/nickel-based-superalloys/' . $grade['slug']) : '#';
                     @endphp
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                         <a href="{{ $href }}" class="text-decoration-none d-block h-100">

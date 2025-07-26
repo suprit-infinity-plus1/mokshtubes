@@ -1,5 +1,7 @@
 @extends('layouts.master')
-@section('title', 'Titanium | Moksh Tubes')
+@section('title', 'Titanium Alloys | Lightweight, High-Strength Grades | Mokshtubes')
+@section('meta_description', 'Browse Titanium Grades 2, 5, 7, 9 & more – known for low weight, high strength, and
+    corrosion resistance in medical, aerospace, and marine sectors.')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">

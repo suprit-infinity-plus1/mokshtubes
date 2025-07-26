@@ -1,5 +1,7 @@
 @extends('layouts.master')
-@section('title', 'Moksh Tubes || Contact Us')
+@section('title', 'Contact Mokshtubes Fittings LLP | Request a Quote or Inquiry')
+@section('meta_description', 'Get in touch with Mokshtubes Fittings & LLP for inquiries, quotations, or technical
+    assistance. Call, email, or visit us.')
 @section('extracss')
     <style>
         .location-card {
@@ -191,29 +193,29 @@
 
 
     <!-- <section class="home-google-map">
-                                        <iframe
-                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d943.3624929957525!2d72.82755531962317!3d18.955724967265716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf9ee4261af1%3A0x57adb33b0f4c262!2sMoksh%20Tubes%20%26%20Fittings%20LLP!5e0!3m2!1sen!2sin!4v1747987043971!5m2!1sen!2sin"
-                                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                                            referrerpolicy="no-referrer-when-downgrade">
-                                        </iframe>
+                                            <iframe
+                                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d943.3624929957525!2d72.82755531962317!3d18.955724967265716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf9ee4261af1%3A0x57adb33b0f4c262!2sMoksh%20Tubes%20%26%20Fittings%20LLP!5e0!3m2!1sen!2sin!4v1747987043971!5m2!1sen!2sin"
+                                                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                                referrerpolicy="no-referrer-when-downgrade">
+                                            </iframe>
 
 
 
-                                    </section> -->
+                                        </section> -->
 
     <!-- <div class="call-out2">
-                                            <div class="container">
-                                                <div class="clearfix">
-                                                    <div class="float_left">
-                                                        <h4>Have any question or need any business consultation?</h4>
+                                                <div class="container">
+                                                    <div class="clearfix">
+                                                        <div class="float_left">
+                                                            <h4>Have any question or need any business consultation?</h4>
+                                                        </div>
+                                                        <div class="float_right">
+                                                            <a href="contact.html" class="thm-btn bg-clr2">Request Quote</a>
+                                                        </div>
                                                     </div>
-                                                    <div class="float_right">
-                                                        <a href="contact.html" class="thm-btn bg-clr2">Request Quote</a>
-                                                    </div>
-                                                </div>
 
-                                            </div>
-                                        </div> -->
+                                                </div>
+                                            </div> -->
 
 
     <!--Start contact form area-->
