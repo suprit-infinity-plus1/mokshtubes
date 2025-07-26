@@ -11,6 +11,11 @@ Disallow: /user/
 Disallow: /vendor/
 Disallow: /storage/
 Disallow: /private/
+Disallow: /*?IDNO=
+Disallow: /*?LYS=
+Disallow: /*?cid=
+Disallow: /*?m=
+Disallow: /*?g=
 
 # Allow everything else
 Allow: /
