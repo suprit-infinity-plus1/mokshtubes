@@ -37,8 +37,8 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a renowned manufacturer,
                             supplier, exporter, importer, and stockist of<strong class="text-black"> Aluminium Alloy 2014-T6
-                                products</strong> such as sheets,
-                            plates, bars, rods, tubes, and custom fabricated items.
+                                <a href="{{ route('products') }}">products</a></strong> such as sheets,
+                            plates, bars, rods,<a href="{{ route('products.pipes-tubes') }}"> tubes</a>, and custom fabricated items.
 
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">Aluminium 2014-T6</strong> is a high-strength aerospace-grade alloy

@@ -37,7 +37,7 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted manufacturer,
                             supplier, exporter, importer, and stockist of<strong class="text-black"> Aluminium Alloy 6012
-                                products</strong>, including sheets,
+                             <a href="{{ route('products') }}">   products</a></strong>, including sheets,
                             plates, coils, rods, and extrusions.
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">Aluminium 6012</strong> is a heat-treatable wrought alloy primarily

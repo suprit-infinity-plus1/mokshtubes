@@ -37,8 +37,9 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a leading manufacturer,
                             supplier, exporter, importer, and stockist of<strong class="text-black"> Aluminium Alloy 1200
-                                products</strong> including sheets,
-                            plates, coils, pipes, tubes, bars, rods, and custom fabrications.
+                                <a href="{{ route('products') }}">products</a></strong> including sheets,
+                            plates, coils, <a href="{{ route('products.pipes-tubes') }}"> pipes</a>, tubes, bars, rods, and
+                            custom fabrications.
 
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">Aluminium 1200</strong> is a commercially pure aluminum grade with
@@ -350,7 +351,9 @@
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Aluminium 1200</h2>
-                <p class="text-center pb-3"><strong class="text-dark">Aluminium 1200</strong> is mainly used in applications requiring excellent corrosion resistance, high formability, and good conductivity, including:
+                <p class="text-center pb-3"><strong class="text-dark">Aluminium 1200</strong> is mainly used in
+                    applications requiring excellent corrosion resistance, high formability, and good conductivity,
+                    including:
             </div>
 
             <div class="row g-4 justify-content-center">

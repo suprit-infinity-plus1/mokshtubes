@@ -37,8 +37,8 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a leading manufacturer,
                             supplier, exporter, importer, and stockist of<strong class="text-black"> Aluminium Alloy 6063
-                                products</strong> including
-                            extrusions, sheets, plates, tubes, and rods.
+                                <a href="{{ route('products') }}">products</a></strong> including
+                            extrusions, sheets, plates,<a href="{{ route('products.pipes-tubes') }}"> tubes</a>, and rods.
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">Aluminium 6063</strong> is a popular heat-treatable alloy primarily
                             used in architectural and structural applications. Known as the “architectural alloy,” it offers

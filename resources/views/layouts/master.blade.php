@@ -13,16 +13,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-95HT8CTVJC"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'G-95HT8CTVJC');
-    </script>
+  gtag('config', 'G-95HT8CTVJC');
+</script>
 
 
     {{--
@@ -241,17 +238,18 @@
 
                             <nav class="main-menu navbar navbar-expand-lg">
                                 <div class="navbar-header">
-                                    <button type="button" class="navbar-toggler ms-3 rounded-0 border-0"
+                                    <button type="button"
+                                        class="navbar-toggler ms-3 rounded-0 border-0"
                                         data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
                                         <span class="navbar-toggler-icon"></span>
                                     </button>
                                 </div>
                                 <div class="collapse navbar-collapse clearfix">
                                     <ul class="navigation navbar-nav me-auto mb-2 mb-lg-0 clearfix">
-                                        <li class="nav-item"><a class="nav-link" href="{{ route('index') }}">Home</a>
-                                        </li>
-                                        <li class="nav-item"><a class="nav-link" href="{{ route('about-us') }}">About
-                                                Us</a></li>
+                                        <li class="nav-item"><a class="nav-link"
+                                                href="{{ route('index') }}">Home</a></li>
+                                        <li class="nav-item"><a class="nav-link"
+                                                href="{{ route('about-us') }}">About Us</a></li>
                                         <li class="nav-item dropdown"><a class="nav-link"
                                                 href="{{ url('/products') }}" data-bs-toggle="dropdown">Products</a>
                                             <ul class="dropdown-menu"
@@ -325,8 +323,7 @@
 
 
                                         <li class="nav-item"><a class="nav-link" href="#">QUALITY</a></li>
-                                        <li class="nav-item"><a class="nav-link"
-                                                href="{{ route('calculator') }}">CALCULATOR</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="{{ route('calculator') }}">CALCULATOR</a></li>
                                         <li class="nav-item"><a class="nav-link" href="#">Blogs</a></li>
                                     </ul>
                                     <ul class="mobile-menu clearfix">
@@ -378,7 +375,7 @@
                         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="footer-col">
                                 <div class="logo-part">
-                                    <a href="#" class="footer-logo text-uppercase">
+                                    <a href="{{ route('home') }}" class="footer-logo text-uppercase">
                                         <!-- <img src="./images/logo/logo moksh1-1.png" alt="logo"> -->
                                         <img src="{{ asset('assets/images/logo/Board-1.png') }}" alt="Awesome Logo">
                                     </a>
@@ -421,7 +418,7 @@
                             <div class="footer-col service-col">
                                 <h3 class="footer-title">Products</h3>
                                 <ul class="footer-list">
-                                    <li><a href="#">WELDED PIPES</a></li>
+                                    <li><a href="{{ route('products.pipes-tubes.welded')}}">WELDED PIPES</a></li>
                                     <li><a href="#">SEAMLESS PIPES</a></li>
                                     <li><a href="#">SHEETS & PLATES</a></li>
                                     <li><a href="#">PERFORATED SHEETS</a></li>
@@ -436,7 +433,7 @@
                             <div class="footer-col post-column">
                                 <h3 class="footer-title">Areas We Serve</h3>
                                 <ul class="footer-list">
-                                    <li><a href="#">PIPES</a></li>
+                                    <li><a href="{{ route('products.pipes-tubes') }}">PIPES</a></li>
                                     <li><a href="#">FITTINGS</a></li>
                                     <li><a href="#">FLANGES</a></li>
                                     <li><a href="#">FASTENERS</a></li>
@@ -450,11 +447,11 @@
                             <div class="footer-col">
                                 <h3 class="footer-title">Useful Links</h3>
                                 <ul class="footer-list">
-                                    <li><a href="#">Home</a></li>
+                                    <li><a href="{{ route('home') }}">Home</a></li>
                                     <li><a href="{{ route('about-us') }}">About Us</a></li>
-                                    <li><a href="#">Our Products</a></li>
+                                    <li><a href="{{ route('products') }}">Our Products</a></li>
                                     <li><a href="#">Blogs</a></li>
-                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="{{ route('contact-us') }}">Contact Us</a></li>
                                 </ul>
 
                             </div>
@@ -558,12 +555,12 @@
                         <div class="col-md-9">
                             <nav class="footer-menu d-flex justify-content-end">
                                 <ul class="nav">
-                                    <li class="nav-item"><a class="nav-link" href="#">home</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="{{ route('home') }}">home</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="{{ route('products') }}">Products</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#">term &amp; condition</a>
                                     </li>
                                     <li class="nav-item"><a class="nav-link" href="#">privacy policy</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#">contact us</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="{{ route('contact-us') }}">contact us</a></li>
                                 </ul>
                             </nav>
                         </div>

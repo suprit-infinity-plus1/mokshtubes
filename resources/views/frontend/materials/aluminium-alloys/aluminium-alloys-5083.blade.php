@@ -37,8 +37,9 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a leading manufacturer,
                             supplier, exporter, importer, and stockist of<strong class="text-black"> Aluminium Alloy 5083
-                                products</strong> including sheets,
-                            plates, bars, rods, tubes, and custom fabricated components.
+                                <a href="{{ route('products') }}"> products</a></strong> including sheets,
+                            plates, bars, rods,<a href="{{ route('products.pipes-tubes') }}"> tubes</a>, and custom
+                            fabricated components.
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">Aluminium 5083</strong> is a non-heat-treatable alloy known for
                             exceptional corrosion resistance, especially in marine and highly corrosive environments. It
@@ -377,7 +378,8 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
                         <h5>Pressure Vessels</h5>
-                        <p>Used in LPG tanks, cryogenic tanks, and other pressure vessels requiring corrosion resistance.</p>
+                        <p>Used in LPG tanks, cryogenic tanks, and other pressure vessels requiring corrosion resistance.
+                        </p>
                     </div>
                 </div>
 
@@ -385,7 +387,8 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-droplet"></i></div>
                         <h5>Automotive</h5>
-                        <p>Body panels, frames, and components in vehicles for enhanced performance and corrosion protection.
+                        <p>Body panels, frames, and components in vehicles for enhanced performance and corrosion
+                            protection.
                         </p>
                     </div>
                 </div>

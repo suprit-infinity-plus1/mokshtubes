@@ -37,9 +37,8 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a manufacturer, supplier,
                             exporter, importer, and stockist of<strong class="text-black"> Aluminium Alloy 7075
-                                products</strong> such as plates, sheets, bars,
+                                <a href="{{ route('products') }}">products</a></strong> such as plates, sheets, bars,
                             rods, forgings, and extrusions.
-                            bars, rods, and extrusions.
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">Aluminium 7075</strong> is a high-strength alloy primarily composed
                             of zinc as the main alloying element, along with magnesium and copper. It is well-known for its

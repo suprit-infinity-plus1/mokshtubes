@@ -37,7 +37,8 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a manufacturer, supplier,
                             exporter, importer, and stockist of<strong class="text-black"> Aluminium Alloy 6082-T6
-                                products</strong> including plates, sheets,
+                                <a href="{{ route('products') }}">products</a></strong> including plates, sheets,<a
+                                href="{{ route('products.pipes-tubes') }}"> tubes</a>,
                             bars, rods, and extrusions.
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">Aluminium 6082</strong> is a medium-strength alloy in the 6000

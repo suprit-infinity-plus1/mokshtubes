@@ -163,22 +163,22 @@
                             <ul class="d-flex flex-wrap justify-content-center gap-5">
                                 <li class="single-fact-counter">
                                     <div class="icon-holder"><span class="flaticon-social"></span></div>
-                                    <span class="timer" data-from="1" data-to="2456" data-speed="5000"
-                                        data-refresh-interval="50">2456</span>
+                                    <span class="timer" data-from="1" data-to="20" data-speed="5000"
+                                        data-refresh-interval="50">20</span>
                                     <i class="fa fa-plus" aria-hidden="true"></i>
-                                    <h3>Engineers & Workers</h3>
+                                    <h3>Years Of Experience</h3>
                                 </li>
                                 <li class="single-fact-counter">
                                     <div class="icon-holder"><span class="flaticon-landscape"></span></div>
-                                    <span class="timer" data-from="1" data-to="640" data-speed="5000"
-                                        data-refresh-interval="50">640</span>
+                                    <span class="timer" data-from="1" data-to="12" data-speed="5000"
+                                        data-refresh-interval="50">12</span>
                                     <i class="fa fa-plus" aria-hidden="true"></i>
-                                    <h3>Factory in Worldwide</h3>
+                                    <h3>Countries Served Globally</h3>
                                 </li>
                                 <li class="single-fact-counter">
                                     <div class="icon-holder"><span class="flaticon-innovation"></span></div>
-                                    <span class="timer" data-from="1" data-to="3250" data-speed="5000"
-                                        data-refresh-interval="50">3250</span>
+                                    <span class="timer" data-from="1" data-to="300" data-speed="5000"
+                                        data-refresh-interval="50">300</span>
                                     <i class="fa fa-plus" aria-hidden="true"></i>
                                     <h3>Projects Completed</h3>
                                 </li>
@@ -195,22 +195,22 @@
                     <ul class="d-flex flex-wrap justify-content-center gap-5">
                         <li class="single-fact-counter">
                             <div class="icon-holder"><span class="flaticon-social"></span></div>
-                            <span class="timer" data-from="1" data-to="2456" data-speed="5000"
-                                data-refresh-interval="50">2456</span>
+                            <span class="timer" data-from="1" data-to="20" data-speed="5000"
+                                data-refresh-interval="50">20</span>
                             <i class="fa fa-plus" aria-hidden="true"></i>
-                            <h3>Engineers & Workers</h3>
+                            <h3>Years Of Experience</h3>
                         </li>
                         <li class="single-fact-counter">
                             <div class="icon-holder"><span class="flaticon-landscape"></span></div>
-                            <span class="timer" data-from="1" data-to="640" data-speed="5000"
-                                data-refresh-interval="50">640</span>
+                            <span class="timer" data-from="1" data-to="12" data-speed="5000"
+                                data-refresh-interval="50">12</span>
                             <i class="fa fa-plus" aria-hidden="true"></i>
-                            <h3>Factory in Worldwide</h3>
+                            <h3>Countries Served Globally</h3>
                         </li>
                         <li class="single-fact-counter">
                             <div class="icon-holder"><span class="flaticon-innovation"></span></div>
-                            <span class="timer" data-from="1" data-to="3250" data-speed="5000"
-                                data-refresh-interval="50">3250</span>
+                            <span class="timer" data-from="1" data-to="300" data-speed="5000"
+                                data-refresh-interval="50">300</span>
                             <i class="fa fa-plus" aria-hidden="true"></i>
                             <h3>Projects Completed</h3>
                         </li>
@@ -506,7 +506,7 @@
                     <div class="footer-col service-col">
                         <h4 class="footer-title">PIPES & TUBES </h4>
                         <ul class="footer-list">
-                            <li><a href="#">WELDED PIPES (ERW & EFW)</a></li>
+                            <li><a href="{{ route('products.pipes-tubes.welded') }}">WELDED PIPES (ERW & EFW)</a></li>
                             <li><a href="#">SEAMLESS PIPES</a></li>
                             <li><a href="#">CAPILLARIESS</a></li>
                             <li><a href="#">HOLLOW SECTION PIPE (SQUARE, RECTANGULAR & OVAL)</a></li>
@@ -646,7 +646,7 @@
                     <div class="default-blog-news wow fadeInUp animated animated"
                         style="visibility: visible; animation-name: fadeInUp;">
                         <figure class="img-holder mb-0">
-                            <a href="#"><img src="{{ asset('assets/images/blog/1.jpg') }}" alt="News"></a>
+                            <a href="#"><img src="{{ asset('assets/images/blog/blog.png') }}" alt="News"></a>
                             <figcaption class="overlay">
                                 <div class="box">
                                     <div class="content">
@@ -676,7 +676,7 @@
                     <div class="default-blog-news wow fadeInUp animated animated"
                         style="visibility: visible; animation-name: fadeInUp;">
                         <figure class="img-holder mb-0">
-                            <a href="#"><img src="{{ asset('assets/images/blog/2.jpg') }}" alt="News"></a>
+                            <a href="#"><img src="{{ asset('assets/images/blog/Untitled (1).png') }}" alt="News"></a>
                             <figcaption class="overlay">
                                 <div class="box">
                                     <div class="content">
@@ -705,7 +705,7 @@
                     <div class="default-blog-news wow fadeInUp animated animated"
                         style="visibility: visible; animation-name: fadeInUp;">
                         <figure class="img-holder mb-0">
-                            <a href="#"><img src="{{ asset('assets/images/blog/3.jpg') }}" alt="News"></a>
+                            <a href="#"><img src="{{ asset('assets/images/blog/Untitled (9).png') }}" alt="News"></a>
                             <figcaption class="overlay">
                                 <div class="box">
                                     <div class="content">
