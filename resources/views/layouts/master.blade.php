@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="@yield('meta_description')">
+    <link rel="canonical" href="@yield('canonical')">
     <title>@yield('title')</title>
 
     <!-- responsive meta -->
@@ -12,13 +13,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-95HT8CTVJC"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-95HT8CTVJC');
-</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-95HT8CTVJC');
+    </script>
 
 
     {{--
@@ -237,18 +241,17 @@
 
                             <nav class="main-menu navbar navbar-expand-lg">
                                 <div class="navbar-header">
-                                    <button type="button"
-                                        class="navbar-toggler ms-3 rounded-0 border-0"
+                                    <button type="button" class="navbar-toggler ms-3 rounded-0 border-0"
                                         data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
                                         <span class="navbar-toggler-icon"></span>
                                     </button>
                                 </div>
                                 <div class="collapse navbar-collapse clearfix">
                                     <ul class="navigation navbar-nav me-auto mb-2 mb-lg-0 clearfix">
-                                        <li class="nav-item"><a class="nav-link"
-                                                href="{{ route('index') }}">Home</a></li>
-                                        <li class="nav-item"><a class="nav-link"
-                                                href="{{ route('about-us') }}">About Us</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="{{ route('index') }}">Home</a>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link" href="{{ route('about-us') }}">About
+                                                Us</a></li>
                                         <li class="nav-item dropdown"><a class="nav-link"
                                                 href="{{ url('/products') }}" data-bs-toggle="dropdown">Products</a>
                                             <ul class="dropdown-menu"
@@ -322,7 +325,8 @@
 
 
                                         <li class="nav-item"><a class="nav-link" href="#">QUALITY</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="{{ route('calculator') }}">CALCULATOR</a></li>
+                                        <li class="nav-item"><a class="nav-link"
+                                                href="{{ route('calculator') }}">CALCULATOR</a></li>
                                         <li class="nav-item"><a class="nav-link" href="#">Blogs</a></li>
                                     </ul>
                                     <ul class="mobile-menu clearfix">
