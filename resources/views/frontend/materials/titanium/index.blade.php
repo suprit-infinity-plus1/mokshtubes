@@ -1,6 +1,7 @@
 @extends('layouts.master')
 @section('title', 'Titanium Alloys | Lightweight, High-Strength Grades | Mokshtubes')
-@section('meta_description', 'Browse Titanium Grades 2, 5, 7, 9 & more – known for low weight, high strength, and
+@section('meta_description',
+    'Browse Titanium Grades 2, 5, 7, 9 & more – known for low weight, high strength, and
     corrosion resistance in medical, aerospace, and marine sectors.')
 @section('content')
     <!--Start breadcrumb area-->
@@ -43,7 +44,7 @@
             <div class="row g-4">
                 @foreach ($grades as $grade)
                     @php
-                        $href = $grade['slug'] !== '#' ? url('/materials/Titanium/' . $grade['slug']) : '#';
+                        $href = $grade['slug'] !== '#' ? url('/materials/titanium/' . $grade['slug']) : '#';
                     @endphp
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                         <a href="{{ $href }}" class="text-decoration-none d-block h-100">
