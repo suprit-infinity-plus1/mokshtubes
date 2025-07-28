@@ -646,7 +646,7 @@
                     <div class="default-blog-news wow fadeInUp animated animated"
                         style="visibility: visible; animation-name: fadeInUp;">
                         <figure class="img-holder mb-0">
-                            <a href="#"><img src="{{ asset('assets/images/blog/1.jpg') }}" alt="News"></a>
+                            <a href="#"><img src="{{ asset('assets/images/blog/blog.png') }}" alt="News"></a>
                             <figcaption class="overlay">
                                 <div class="box">
                                     <div class="content">
@@ -676,7 +676,7 @@
                     <div class="default-blog-news wow fadeInUp animated animated"
                         style="visibility: visible; animation-name: fadeInUp;">
                         <figure class="img-holder mb-0">
-                            <a href="#"><img src="{{ asset('assets/images/blog/2.jpg') }}" alt="News"></a>
+                            <a href="#"><img src="{{ asset('assets/images/blog/Untitled (1).png') }}" alt="News"></a>
                             <figcaption class="overlay">
                                 <div class="box">
                                     <div class="content">
@@ -705,7 +705,7 @@
                     <div class="default-blog-news wow fadeInUp animated animated"
                         style="visibility: visible; animation-name: fadeInUp;">
                         <figure class="img-holder mb-0">
-                            <a href="#"><img src="{{ asset('assets/images/blog/3.jpg') }}" alt="News"></a>
+                            <a href="#"><img src="{{ asset('assets/images/blog/Untitled (9).png') }}" alt="News"></a>
                             <figcaption class="overlay">
                                 <div class="box">
                                     <div class="content">

@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="@yield('meta_description')">
+    <link rel="canonical" href="@yield('canonical')">
     <title>@yield('title')</title>
 
     <!-- responsive meta -->
