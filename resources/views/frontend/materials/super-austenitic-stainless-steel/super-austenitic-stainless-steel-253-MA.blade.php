@@ -39,11 +39,11 @@
                             supplier, exporter, and stockist of 253 MA (UNS S30815 / EN 1.4835) – a high-temperature
                             austenitic stainless steel designed for excellent oxidation resistance, high creep strength, and
                             good structural stability. We offer a broad range of<strong class="text-black"> 253 MA
-                                products</strong> including Pipes, Tubes,
+                                products</strong> including <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>,
                             Fittings, Flanges, Fasteners, Sheets & Plates, Bars, Wire Mesh, and Custom Components.
 
                         <p> <strong class="text-black">253 MA</strong> Originally developed by Outokumpu, 253 MA combines
-                            moderate nickel content with rare earth and alkali metal additions, delivering superior strength
+                            moderate <a href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a> content with rare earth and alkali metal additions, delivering superior strength
                             and oxidation resistance at elevated temperatures (up to 1150°C / 2100°F). It is ideal for
                             applications involving high thermal stresses, cyclic heating, and corrosive industrial
                             atmospheres.
@@ -427,7 +427,8 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Moksh Tubes & Fittings LLP is a pioneer in supplying high-performance heat-resistant alloys like 253 MA</h5>
+                        <h5>Moksh Tubes & Fittings LLP is a pioneer in supplying high-performance heat-resistant alloys like
+                            253 MA</h5>
                     </div>
                 </div>
 

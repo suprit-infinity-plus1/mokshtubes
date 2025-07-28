@@ -37,7 +37,7 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a manufacturer, supplier,
                             exporter, importer and stockist of a variety
-                            of HASTELLOY C-276 (UNS N10276) products such as Pipes & Tubes, Pipe Fittings, Flanges,
+                            of HASTELLOY C-276 (UNS N10276) <a href="{{ route('products') }}">products</a> such as <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings, Flanges,
                             Fasteners,
                             Sheets & Plates, Coils, Wires, Round Bars, Flat Bars, Angles, Channels, Welding rods, Wire Mesh,
                             and
@@ -47,7 +47,7 @@
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">HASTELLOY C276</strong class="text-black"> is a
                             nickel-chromium-molybdenum alloy designed to minimize welding challenges due to
-                            its low silicon and carbon content. Like other nickel alloys, <strong
+                            its low silicon and carbon content. Like other <a href="{{ route('materials.nickel-Based-Superalloys') }}">nickel alloys</a>, <strong
                                 class="text-black">HASTELLOY C-276</strong> is highly ductile,
                             easy to form and weld, and provides excellent resistance to stress corrosion cracking in
                             chloride-rich solutions (a common issue with austenitic stainless steels). Its high chromium and

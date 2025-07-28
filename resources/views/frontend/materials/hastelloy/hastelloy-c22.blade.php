@@ -35,8 +35,10 @@
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a leading manufacturer,
-                            supplier, exporter, importer, and stockist of a comprehensive range of HASTELLOY C-22 (UNS
-                            N06022) products including Pipes & Tubes, Pipe Fittings, Flanges, Fasteners, Sheets & Plates,
+                            supplier, exporter, importer, and stockist of a comprehensive range of <a href="{{ route('materials.hastelloy') }}">HASTELLOY C-22</a> (UNS
+                            N06022) <a href="{{ route('products') }}">products</a> including <a
+                                href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings,
+                            Flanges, Fasteners, Sheets & Plates,
                             Coils, Wires, Round Bars, Flat Bars, Angles, Channels, Welding Rods, Wire Mesh, and other Custom
                             and Hard-to-Find <strong class="text-black">HASTELLOY C22</strong> Products.
                         </p>
@@ -501,8 +503,9 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    For inquiries, technical assistance, or quotations, contact  <strong>Moksh Tubes & Fittings LLP</strong> – your
-                    global supplier for  <strong>HASTELLOY C-22</strong> products.
+                    For inquiries, technical assistance, or quotations, contact <strong>Moksh Tubes & Fittings LLP</strong>
+                    – your
+                    global supplier for <strong>HASTELLOY C-22</strong> products.
                 </p>
                 <!-- Call button -->
                 <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>

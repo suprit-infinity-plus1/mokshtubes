@@ -124,7 +124,7 @@ class MainController extends Controller
             ['name' => '625', 'slug' => '625'],
             ['name' => '690', 'slug' => '690'],
             ['name' => '718', 'slug' => '718'],
-            ['name' => 'x 750', 'slug' => 'x 750'],
+            ['name' => 'x750', 'slug' => 'x750'],
         ];
 
         return view('frontend.materials.inconel.index', compact('grades'));
@@ -185,7 +185,6 @@ class MainController extends Controller
     {
         $grades = [
             ['name' => 'Carbide', 'slug' => 'hard-to-find-and-special-alloys-carbide'],
-            ['name' => 'Copy of Nimonic', 'slug' => 'hard-to-find-and-special-alloys-copy-of-nimonic'],
             ['name' => 'Nimonic', 'slug' => 'hard-to-find-and-special-alloys-nimonic'],
             ['name' => 'Nitinol', 'slug' => 'hard-to-find-and-special-alloys-nitinol'],
             ['name' => 'Stellite', 'slug' => 'hard-to-find-and-special-alloys-stellite'],

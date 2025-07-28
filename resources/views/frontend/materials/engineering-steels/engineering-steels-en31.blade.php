@@ -36,12 +36,13 @@
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a manufacturer, supplier,
-                            exporter, importer, and stockist of a wide range of EN31 steel products including bars, rods,
+                            exporter, importer, and stockist of a wide range of EN31 steel <a
+                                href="{{ route('products') }}">products</a> including bars, rods,
                             sheets, plates, forgings, and custom-engineered components.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">EN 31</strong class="text-black">, is a high carbon,
+                            <strong class="text-black"><a href="{{ route('materials.engineering-Steels') }}">EN 31</a></strong>, is a high carbon,
                             chromium-containing alloy steel known for its exceptional hardness, wear resistance, and high
                             tensile strength. It is widely used in engineering applications where toughness, abrasion
                             resistance, and fatigue strength are critical. This alloy is often employed for making
@@ -369,7 +370,8 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
                         <h5>Automotive and Engineering</h5>
-                        <p>Manufacture of gears, shafts, spindles, crankshafts, and bearings due to its high strength and wear resistance.</p>
+                        <p>Manufacture of gears, shafts, spindles, crankshafts, and bearings due to its high strength and
+                            wear resistance.</p>
                     </div>
                 </div>
 
@@ -377,7 +379,8 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
                         <h5>Tooling and Dies</h5>
-                        <p>Used for making dies, punches, cutting tools, and other tooling parts that require high hardness.</p>
+                        <p>Used for making dies, punches, cutting tools, and other tooling parts that require high hardness.
+                        </p>
                     </div>
                 </div>
 
@@ -385,7 +388,8 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
                         <h5>Machinery Components</h5>
-                        <p>Suitable for heavy-duty machine parts subjected to cyclic loading and wear such as rollers, valve parts, and camshafts.</p>
+                        <p>Suitable for heavy-duty machine parts subjected to cyclic loading and wear such as rollers, valve
+                            parts, and camshafts.</p>
                     </div>
                 </div>
 
@@ -393,7 +397,8 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-droplet"></i></div>
                         <h5>Agricultural Equipment</h5>
-                        <p>Ideal for components like ploughshares, harrows, and tractor parts that face abrasive environments.</p>
+                        <p>Ideal for components like ploughshares, harrows, and tractor parts that face abrasive
+                            environments.</p>
                     </div>
                 </div>
 
@@ -475,7 +480,7 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                   For inquiries or quotes related to EN31 steel products<strong> Moksh Tubes & Fittings LLP
+                    For inquiries or quotes related to EN31 steel products<strong> Moksh Tubes & Fittings LLP
                     </strong> — your trusted partner for high-quality engineering steels.
                 </p>
                 <!-- Call button -->

@@ -37,15 +37,15 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> proudly manufactures, supplies,
                             exports, imports, and stocks a wide variety of<strong class="text-black"> Titanium Grade
-                                1</strong> products, including Pipes &
-                            Tubes, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires, Round Bars, Flat Bars,
+                                1</strong> products, including <a href="{{ route('products.pipes-tubes') }}">Pipes &
+                            Tubes</a>, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires, Round Bars, Flat Bars,
                             Angles, Welding Rods, and other custom or hard-to-source components tailored to meet demanding
                             industry requirements.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">Titanium Grade 1</strong class="text-black"> is the most ductile and
-                            softest among all commercially pure titanium grades. It offers exceptional corrosion resistance,
+                            softest among all commercially pure <a href="{{ route('materials.titanium') }}">titanium grades</a>. It offers exceptional corrosion resistance,
                             outstanding formability, and superior weldability. As a result, it is widely used in industries
                             requiring lightweight, high-strength materials capable of withstanding extreme environments—such
                             as chemical processing, marine applications, aerospace, and medical sectors. Its superior

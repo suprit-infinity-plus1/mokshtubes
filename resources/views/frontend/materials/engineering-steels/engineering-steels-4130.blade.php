@@ -37,14 +37,15 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a manufacturer, supplier,
                             exporter, importer, and stockist of<strong class="text-black"> EN 4130 steel products</strong>
-                            including pipes, tubes, bars, plates,
+                            including pipes,<a href="{{ route('products.pipes-tubes') }}"> tubes</a>, bars, plates,
                             and fittings.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">EN 4130</strong class="text-black">, also known as AISI 4130, is a
                             low-alloy steel containing chromium and molybdenum as key alloying elements. It is well-known
-                            for its excellent strength, toughness, and good weldability. EN 4130 is widely used in
+                            for its excellent strength, toughness, and good weldability.<a
+                                href="{{ route('materials.engineering-Steels') }}"> EN 4130</a> is widely used in
                             structural and mechanical applications where high strength-to-weight ratio and good fatigue
                             resistance are essential. This steel is also easily heat-treated to improve mechanical
                             properties, making it ideal for aerospace, automotive, and oil and gas industries.

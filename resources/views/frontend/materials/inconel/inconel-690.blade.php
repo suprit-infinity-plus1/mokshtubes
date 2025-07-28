@@ -37,7 +37,8 @@
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a premier manufacturer,
                             supplier, exporter, importer, and stockist of<strong class="text-black"> INCONEL 690</strong>
                             (UNS N06690) products in multiple
-                            forms such as Pipes & Tubes, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires,
+                            forms such as <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings,
+                            Flanges, Fasteners, Sheets & Plates, Coils, Wires,
                             Round Bars, Flat Bars, Angles, Channels, Welding Rods, Wire Mesh, and customized components.
                         </p>
 
@@ -46,9 +47,10 @@
                             its excellent resistance to high-temperature oxidation, aqueous corrosion, and especially
                             corrosive attack by hot acidic and caustic solutions. It offers significantly improved
                             performance over INCONEL 600 due to its higher chromium content (30%), which enhances its
-                            performance in nuclear steam generators, chemical processing, and marine applications. INCONEL
-                            690 also provides superb mechanical strength, metallurgical stability, and weldability for
-                            long-term use in demanding environments.
+                            performance in nuclear steam generators, chemical processing, and marine applications. <a
+                                href="{{ route('materials.inconel') }}">INCONEL
+                                690</a> also provides superb mechanical strength, metallurgical stability, and weldability for
+                                long-term use in demanding environments.
                         </p>
                     </div>
                 </div>

@@ -37,16 +37,16 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a prominent manufacturer,
                             supplier, exporter, importer, and stockist of premium-quality<strong class="text-black">
-                                Titanium Grade 4 ELI</strong> products,
+                                Titanium Grade 4 ELI</strong> <a href="{{ route('products') }}">products</a>,
                             including Pipes & Tubes, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires, Round
-                            Bars, Flat Bars, Welding Rods, Wire Mesh, and Custom-Engineered Components that meet the most
+                            Bars, Flat Bars, <a href="{{ route('products.pipes-tubes.welded') }}">Welding Rods</a>, Wire Mesh, and Custom-Engineered Components that meet the most
                             demanding applications.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">Titanium Grade 4 ELI (Extra Low Interstitial)</strong> is an
                             unalloyed
-                            (commercially pure) titanium that offers a remarkable balance of strength, ductility, and
+                            (commercially pure) <a href="{{ route('materials.titanium') }}">titanium</a> that offers a remarkable balance of strength, ductility, and
                             excellent corrosion resistance. It is slightly stronger than Grade 1 but still maintains
                             outstanding formability and weldability. These attributes make it highly suitable for industries
                             requiring strong yet lightweight corrosion-resistant materials—especially in chemical

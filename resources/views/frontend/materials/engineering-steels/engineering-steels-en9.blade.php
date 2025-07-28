@@ -38,13 +38,15 @@
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a leading manufacturer,
                             supplier, exporter, and stockist of<strong class="text-black"> EN 9 steel products</strong>
                             including Round Bars, Flat Bars,
-                            Squares, Forgings, Shafts, Sheets & Plates, Pipes, and Custom Profiles.
+                            Squares, Forgings, Shafts, Sheets & Plates,<a href="{{ route('products.pipes-tubes') }}">
+                                Pipes</a>, and Custom Profiles.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">EN 9</strong class="text-black">, is a medium carbon steel with good
                             tensile strength, wear resistance, and hardenability. It is suitable for components requiring
-                            higher strength and better mechanical properties than mild steel. EN 9 offers a good balance
+                            higher strength and better mechanical properties than mild steel.<a
+                                href="{{ route('materials.engineering-Steels') }}"> EN 9</a> offers a good balance
                             between strength and toughness, and is ideal for shafts, gears, spindles, and automotive parts.
                             It can be flame or induction hardened and is suitable for oil or water quenching..
                         </p>

@@ -36,14 +36,16 @@
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a reliable manufacturer,
-                            supplier, exporter, importer, and stockist of ALLOY G-3 (UNS N06985) in various product forms
-                            including Pipes & Tubes, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires, Round
+                            supplier, exporter, importer, and stockist of ALLOY G-3 (UNS N06985) in various <a
+                                href="{{ route('products') }}">product</a> forms
+                            including <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings,
+                            Flanges, Fasteners, Sheets & Plates, Coils, Wires, Round
                             Bars, Flat Bars, Angles, Channels, Welding Rods, Wire Mesh, and other customized or special
                             components.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">HASTELLOY G3</strong class="text-black"> is a nickel-chromium-iron
+                            <strong class="text-black"><a href="{{ route('materials.hastelloy') }}">HASTELLOY G3</a></strong class="text-black"> is a nickel-chromium-iron
                             alloy with additions of molybdenum and copper, specifically designed to resist a broad range of
                             oxidizing and reducing chemicals. It offers excellent resistance to sulfuric acid, phosphoric
                             acid, nitric acid, and other strongly corrosive environments. Its improved weldability and lower

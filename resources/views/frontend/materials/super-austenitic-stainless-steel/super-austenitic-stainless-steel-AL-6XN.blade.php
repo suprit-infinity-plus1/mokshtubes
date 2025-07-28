@@ -37,14 +37,16 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted manufacturer,
                             supplier, exporter, importer, and stockist of<strong class="text-black"> AL 6XN Alloy (UNS
-                                N08367) products</strong> including
-                            Pipes & Tubes, Pipe Fittings, Flanges, Sheets & Plates, Coils, Wires, Round Bars, Forged
+                                N08367) <a href="{{ route('products') }}">products</a></strong> including
+                            <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings, Flanges, Sheets
+                            & Plates, Coils, Wires, Round Bars, Forged
                             Components, Fasteners, Welding Electrodes, and custom-engineered parts.
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">AL 6XN</strong> is a superaustenitic stainless steel designed for
                             superior corrosion resistance in aggressive chloride environments, especially where standard
                             stainless steels (like 316L) are inadequate. It is known for its high nickel (24%), molybdenum
-                            (6.3%), and nitrogen content, providing excellent resistance to pitting, crevice corrosion, and
+                            (6.3%), and <a href="{{ route('materials.hard-To-Find-And-Special-Alloys') }}">nitrogen</a>
+                            content, providing excellent resistance to pitting, crevice corrosion, and
                             stress corrosion cracking (SCC). Its strength, formability, and weldability make it ideal for
                             critical applications in chemical processing, marine environments, pulp & paper, food, and
                             pharmaceutical industries.

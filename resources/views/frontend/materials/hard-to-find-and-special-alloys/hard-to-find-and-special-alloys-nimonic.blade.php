@@ -42,7 +42,9 @@
                             temperature applications where mechanical strength and structural stability are vital—especially
                             in aerospace, gas turbines, nuclear reactors, and high-stress environments.
                         </p>
-                        <p> <strong class="text-black">Nimonic Alloys</strong> are primarily composed of Nickel (Ni) and
+                        <p> <strong class="text-black"><a
+                                    href="{{ route('materials.hard-To-Find-And-Special-Alloys') }}">Nimonic
+                                    Alloys</a></strong> are primarily composed of Nickel (Ni) and
                             Chromium (Cr), often combined with Titanium (Ti) and Aluminum (Al) for precipitation hardening.
                             Popular grades include Nimonic 75, 80A, 90, 105, 263, and others—each suited to specific
                             mechanical and thermal requirements.</p>
@@ -395,7 +397,8 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
                         <h5>Aerospace & Jet Engines</h5>
-                        <p>Used in turbine blades, combustion chambers, and exhaust systems due to excellent heat resistance.</p>
+                        <p>Used in turbine blades, combustion chambers, and exhaust systems due to excellent heat
+                            resistance.</p>
                     </div>
                 </div>
 
@@ -492,7 +495,8 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    Contact <strong>Moksh Tubes & Fittings LLP</strong> — for expert support, MTC-certified materials, and custom solutions.
+                    Contact <strong>Moksh Tubes & Fittings LLP</strong> — for expert support, MTC-certified materials, and
+                    custom solutions.
                 </p>
                 <!-- Call button -->
                 <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>

@@ -37,9 +37,10 @@
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted manufacturer,
                             supplier, exporter, importer, and stockist of a comprehensive range of<strong
                                 class="text-black"> INCONEL 617</strong> (UNS N06617)
-                            products including Pipes & Tubes, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils,
+                            products including <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe
+                            Fittings, Flanges, Fasteners, Sheets & Plates, Coils,
                             Wires, Round Bars, Flat Bars, Angles, Channels, Welding Rods, Wire Mesh, and other custom and
-                            hard-to-find Alloy 617 components.
+                            <a href="{{ route('materials.hard-To-Find-And-Special-Alloys') }}">hard-to-find</a> Alloy 617 components.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">

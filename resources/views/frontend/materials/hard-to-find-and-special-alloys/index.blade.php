@@ -29,7 +29,6 @@
             @php
                 $grades = [
                     ['name' => 'Carbide', 'slug' => 'hard-to-find-and-special-alloys-carbide'],
-                    // ['name' => 'Copy of Nimonic', 'slug' => 'hard-to-find-and-special-alloys-copy-of-nimonic'],
                     ['name' => 'Nimonic', 'slug' => 'hard-to-find-and-special-alloys-nimonic'],
                     ['name' => 'Nitinol', 'slug' => 'hard-to-find-and-special-alloys-nitinol'],
                     ['name' => 'Stellite', 'slug' => 'hard-to-find-and-special-alloys-stellite'],

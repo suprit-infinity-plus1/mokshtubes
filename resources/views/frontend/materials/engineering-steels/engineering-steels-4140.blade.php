@@ -37,7 +37,7 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted manufacturer,
                             supplier, exporter, importer, and stockist of<strong class="text-black"> EN 4140 steel
-                                products</strong> including pipes, tubes,
+                                products</strong> including<a href="{{ route('products.pipes-tubes') }}"> pipes</a>, tubes,
                             bars, plates, and fittings.
                         </p>
 
@@ -45,7 +45,7 @@
                             <strong class="text-black">EN 4140</strong class="text-black">, is a chromium-molybdenum
                             low-alloy steel renowned for its high tensile strength, toughness, and excellent wear
                             resistance. It is highly versatile and widely used in engineering and structural applications.
-                            EN 4140 can be heat-treated to achieve a wide range of mechanical properties, making it ideal
+                           <a href="{{ route('materials.engineering-Steels') }}"> EN 4140</a> can be heat-treated to achieve a wide range of mechanical properties, making it ideal
                             for applications requiring fatigue resistance and high stress endurance, such as in automotive,
                             oil & gas, and heavy machinery industries.
                         </p>

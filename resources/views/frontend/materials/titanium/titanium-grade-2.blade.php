@@ -37,10 +37,11 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a renowned manufacturer,
                             supplier, exporter, importer, and stockist of a comprehensive range of<strong
-                                class="text-black"> Titanium Grade 2 products
+                                class="text-black"> Titanium Grade 2 <a href="{{ route('products') }}">products</a>
                             </strong> including Pipes & Tubes, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils,
                             Wires, Round
-                            Bars, Flat Bars, Angles, Welding Rods, Wire Mesh, and other Custom or Hard-to-Find Titanium
+                            Bars, Flat Bars, Angles, Welding Rods, Wire Mesh, and other Custom or <a
+                                href="{{ route('materials.hard-To-Find-And-Special-Alloys') }}">Hard-to-Find</a> Titanium
                             Grade 2 Components.
                         </p>
 

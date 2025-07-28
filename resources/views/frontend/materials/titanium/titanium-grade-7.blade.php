@@ -37,8 +37,9 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted manufacturer,
                             supplier, exporter, importer, and stockist of premium<strong class="text-black"> Titanium Grade
-                                7 products.</strong> Our inventory
-                            includes Pipes & Tubes, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires, Round
+                                7 <a href="{{ route('products') }}">products</a>.</strong> Our inventory
+                            includes <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings,
+                            Flanges, Fasteners, Sheets & Plates, Coils, Wires, Round
                             Bars, Welding Rods, Wire Mesh, and custom-engineered components designed to meet the most
                             demanding specifications.
 

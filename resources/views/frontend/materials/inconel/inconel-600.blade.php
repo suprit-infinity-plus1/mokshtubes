@@ -37,13 +37,14 @@
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a leading manufacturer,
                             supplier, exporter, importer, and stockist of high-performance <strong
                                 class="text-black">INCONEL 600 (UNS N06600)</strong>
-                            products. We offer a wide range of forms including Pipes & Tubes, Pipe Fittings, Flanges,
+                            <a href="{{ route('products') }}">products</a>. We offer a wide range of forms including <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings, Flanges,
                             Fasteners, Sheets & Plates, Coils, Wires, Round Bars, Flat Bars, Angles, Channels, Welding Rods,
                             Wire Mesh, and other custom and hard-to-find Inconel 600 products.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">INCONEL 600</strong class="text-black"> is a nickel-chromium-iron
+                            <strong class="text-black">INCONEL 600</strong class="text-black"> is a <a
+                                href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a>-chromium-iron
                             alloy designed for service temperatures from cryogenic to elevated levels in the range of 2000°F
                             (1093°C). Known for its high strength and excellent oxidation and corrosion resistance,
                             particularly in high-temperature applications,<strong class="text-black"> INCONEL 600</strong>

@@ -39,7 +39,7 @@
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted manufacturer,
                             supplier, exporter, importer, and stockist of<strong class="text-black"> Austenitic Stainless
                                 Steel 310 products,</strong> including
-                            pipes, tubes, sheets, plates, bars, and fittings.
+                            pipes,<a href="{{ route('products.pipes-tubes') }}"> tubes</a>, sheets, plates, bars, and fittings.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">

@@ -37,7 +37,7 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted manufacturer,
                             exporter, importer, and stockist of high-performance<strong class="text-black"> Titanium Grade 9
-                                (Ti-3Al-2.5V) products</strong> ,
+                                (Ti-3Al-2.5V) <a href="{{ route('products') }}">products</a></strong> ,
                             including: Pipes & Tubes, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires,
                             Round Bars,
                             Flat Bars, Forgings, and Custom Titanium Components.
@@ -57,7 +57,7 @@
                         <p>
                             Its composition, combining titanium with 3% aluminum and 2.5% vanadium, gives it excellent
                             resistance to seawater, oxidizing environments, and high-cycle fatigue. From aerospace tubing to
-                            marine hardware and sports equipment,<strong class="text-black"> Titanium Grade 9</strong>
+                            marine hardware and sports equipment,<strong class="text-black"> <a href="{{  }}">Titanium Grade 9</a></strong>
                             continues to be a material of choice for
                             mission-critical applications.
                         </p>

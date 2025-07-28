@@ -36,13 +36,13 @@
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong>is a manufacturer, supplier,
-                            exporter, importer, and stockist of <strong>EN 1045 steel </strong> products such as pipes,
-                            tubes, bars, plates, and fittings.
+                            exporter, importer, and stockist of <strong class="text-black">EN 1045 steel products</strong> such as pipes,
+                          <a href="{{ route('products.pipes-tubes') }}">  tubes</a>, bars, plates, and fittings.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">EN 1045</strong class="text-black">, commonly referred to as
-                            <strong>C1045</strong> or <strong>SAE 1045</strong>, is a medium carbon steel known for its good
+                            <strong class="text-black">EN 1045</strong>, commonly referred to as
+                            <strong class="text-black">C1045</strong> or <strong class="text-black">SAE 1045</strong>, is a medium carbon steel known for its good
                             strength, hardness, and wear resistance. It offers a balance between ductility and strength,
                             making it suitable for a wide range of mechanical and structural applications where moderate
                             strength and toughness are required.
@@ -287,7 +287,7 @@
             <div class="row justify-content-center mb-3">
                 <div class="col-lg-10">
                     <p class="fw-bold fs-5 text-center my-4" style="color: #174268;">
-                        Titanium Grade 2 products are produced to the following global standards:
+                       Engineering Steel 1045 products are produced to the following global standards:
                     </p>
                 </div>
             </div>

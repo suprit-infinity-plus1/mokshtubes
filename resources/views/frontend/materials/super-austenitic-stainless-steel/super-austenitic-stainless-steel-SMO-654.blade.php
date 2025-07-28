@@ -37,7 +37,7 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted manufacturer,
                             supplier, exporter, and stockist of high-performance<strong class="text-black"> SMO 654 (UNS
-                                S32654) products.</strong> We offer a
+                                S32654) <a href="{{ route('products') }}">products</a>.</strong> We offer a
                             wide range of components including Pipes & Tubes, Pipe Fittings, Flanges, Sheets & Plates,
                             Coils, Wires, Fasteners, Bars, and Custom-Fabricated Items, suited for highly corrosive and
                             demanding environments.
@@ -46,7 +46,7 @@
                             alloy that provides exceptional resistance to pitting, crevice corrosion, and chloride stress
                             corrosion cracking, even in the most aggressive environments like seawater, pulp & paper
                             bleaching, or offshore operations. With a very high level of molybdenum (~7.5%), chromium, and
-                            nitrogen, SMO 654 surpasses other stainless steels in terms of corrosion resistance and
+                            nitrogen, SMO 654 surpasses other <a href="{{ route('austenitic-stainless-Steel') }}">stainless steels</a> in terms of corrosion resistance and
                             mechanical strength.
                         </p>
                     </div>

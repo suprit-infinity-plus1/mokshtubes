@@ -38,12 +38,13 @@
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted supplier,
                             manufacturer, and exporter of Tungsten and<strong class="text-black"> Tungsten-based
                                 alloys,</strong> offering a comprehensive range
-                            of forms including Tungsten rods, bars, plates, sheets, wires, crucibles, tubes, and
+                            of forms including Tungsten rods, bars, plates, sheets, wires, crucibles, <a
+                                href="{{ route('products.pipes-tubes') }}">tubes</a>, and
                             custom-fabricated parts. Known for its exceptionally high melting point, density, and hardness,
                             Tungsten is widely used in applications where thermal, mechanical, and wear resistance is
                             critical.
 
-                        <p> <strong class="text-black">Tungsten</strong> exhibits excellent electrical conductivity, minimal
+                        <p> <strong class="text-black"><a href="{{ route('materials.hard-To-Find-And-Special-Alloys') }}">Tungsten</a></strong> exhibits excellent electrical conductivity, minimal
                             thermal expansion, and outstanding resistance to erosion by molten metals and high temperatures,
                             making it indispensable in industries like aerospace, defense, electronics, lighting, and
                             metallurgy.

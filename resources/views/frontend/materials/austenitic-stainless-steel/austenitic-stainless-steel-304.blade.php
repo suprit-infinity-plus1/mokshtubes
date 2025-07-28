@@ -39,12 +39,14 @@
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a premier manufacturer,
                             supplier, exporter, importer, and stockist of<strong class="text-black"> Austenitic Stainless
                                 Steel 304 products</strong> including
-                            pipes, tubes, sheets, plates, bars, and fittings.
+                            <a href="{{ route('products.pipes-tubes') }}"> pipes</a>, tubes, sheets, plates, bars, and
+                            fittings.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">Austenitic Stainless Steel 304</strong>, is the most widely used
-                            austenitic stainless steel grade, known for its excellent corrosion resistance, good mechanical
+                            austenitic stainless steel
+                            grade, known for its excellent corrosion resistance, good mechanical
                             properties, and ease of fabrication. It contains high levels of chromium (18-20%) and nickel
                             (8-12%), providing outstanding resistance to oxidation, corrosion, and various chemicals. SS 304
                             is non-magnetic in the annealed condition and maintains strength and toughness over a broad
@@ -479,7 +481,8 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    For inquiries or quotations on Austenitic Stainless Steel 304 products, contact<strong> Moksh Tubes & Fittings
+                    For inquiries or quotations on Austenitic Stainless Steel 304 products, contact<strong> Moksh Tubes &
+                        Fittings
                         LLP</strong> — your reliable partner for stainless steel solutions.
                 </p>
                 <!-- Call button -->

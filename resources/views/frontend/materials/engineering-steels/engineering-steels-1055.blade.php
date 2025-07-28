@@ -37,15 +37,14 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a manufacturer, supplier,
                             exporter, importer, and stockist of<strong class="text-black"> EN 1055 steel products</strong>
-                            such as bars, plates, tubes, and
-                            fittings.
+                            such as bars, plates,<a href="{{ route('products.pipes-tubes') }}"> tubes</a>, and fittings.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">EN 1055</strong class="text-black">, also known as C1055 or SAE 1055,
                             is a medium carbon steel grade characterized by higher carbon content than typical medium carbon
                             steels. It offers higher hardness and strength, suitable for applications requiring good wear
-                            resistance and toughness. EN 1055 steel is commonly used in structural and mechanical components
+                            resistance and toughness.<a href="{{ route('materials.engineering-Steels') }}"> EN 1055 steel</a> is commonly used in structural and mechanical components
                             that require strength and moderate ductility.
                         </p>
                     </div>

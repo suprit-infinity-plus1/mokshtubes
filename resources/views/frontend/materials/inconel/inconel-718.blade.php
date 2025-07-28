@@ -36,14 +36,16 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> proudly manufactures, supplies,
                             exports, and stocks a wide range of<strong class="text-black"> INCONEL 718</strong> (UNS N07718)
-                            products. These include Pipes &
-                            Tubes, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires, Round Bars, Flat Bars,
+                            products. These include <a href="{{ route('products.pipes-tubes') }}">Pipes &
+                                Tubes</a>, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires, Round Bars,
+                            Flat Bars,
                             Angles, Channels, Welding Rods, Wire Mesh, and other custom and difficult-to-source Alloy 718
                             components.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">INCONEL 718</strong class="text-black"> is a nickel-chromium alloy
+                            <strong class="text-black">INCONEL 718</strong class="text-black"> is a <a
+                                href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a>-chromium alloy
                             known for its excellent high strength, corrosion resistance, and weldability, particularly in
                             high-temperature environments ranging from cryogenic up to 700°C (1290°F). A key advantage
                             of<strong class="text-black">

@@ -37,9 +37,10 @@
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted manufacturer,
                             supplier, exporter, importer, and stockist of a wide range of<strong class="text-black"> NICKEL
                                 200 products</strong> including
-                            Pipes & Tubes, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires, Round Bars,
-                            Flat Bars, Angles, Channels, Welding Rods, Wire Mesh, and other Custom and Hard-to-Find Nickel
-                            200 Components.
+                            <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings, Flanges,
+                            Fasteners, Sheets & Plates, Coils, Wires, Round Bars,
+                            Flat Bars, Angles, Channels, Welding Rods, Wire Mesh, and other Custom and Hard-to-Find <a href="{{ route('materials.nickel-Based-Superalloys') }}">Nickel
+                            200</a> Components.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
@@ -562,7 +563,8 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                   Reach out to <strong>Moksh Tubes & Fittings LLP</strong> your reliable partner for premium nickel alloy products.
+                    Reach out to <strong>Moksh Tubes & Fittings LLP</strong> your reliable partner for premium nickel alloy
+                    products.
                 </p>
                 <!-- Call button -->
                 <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>

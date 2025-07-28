@@ -37,13 +37,14 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a leading manufacturer,
                             supplier, exporter, importer, and stockist of premium-grade<strong class="text-black"> Alloy
-                                904L (UNS N08904) products,</strong>
-                            including Pipes & Tubes, Pipe Fittings, Flanges, Sheets, Plates, Coils, Bars, Wire, and Custom
+                                904L (UNS N08904) <a href="{{ route('products') }}">products</a>,</strong>
+                            including <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings,
+                            Flanges, Sheets, Plates, Coils, Bars, Wire, and Custom
                             Fabricated Components.
 
                         <p> <strong class="text-black">Alloy 904L</strong> is a high-alloy austenitic stainless steel
                             developed for exceptional corrosion resistance in harsh environments. With elevated levels of
-                            chromium, nickel, molybdenum, and added copper, 904L offers superior resistance to sulfuric,
+                            chromium, <a href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a>, molybdenum, and added copper, 904L offers superior resistance to sulfuric,
                             phosphoric, and acetic acids, as well as chloride-induced pitting and crevice corrosion.
                             Originally developed for the chemical industry, it also performs excellently in marine and
                             offshore applications. This non-stabilized, low-carbon alloy offers excellent formability,

@@ -36,7 +36,8 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted global
                             manufacturer, supplier, exporter, importer, and stockist of high-quality INCOLOY® 925 (UNS
-                            N09925) products. We offer a complete portfolio including Pipes & Tubes, Pipe Fittings, Flanges,
+                            N09925) <a href="{{ route('products') }}">products</a>. We offer a complete portfolio including <a
+                                href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings, Flanges,
                             Fasteners, Sheets & Plates, Coils, Wires, Round Bars, Flat Bars, Welding Rods, Wire Mesh, and
                             other Custom-Fabricated Components crafted from this versatile alloy.
                         </p>
@@ -44,7 +45,9 @@
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">INCOLOY 925</strong class="text-black"> is a precipitation-hardenable
                             nickel-iron-chromium alloy engineered for superior strength and resistance in extreme
-                            environments. Enriched with molybdenum, copper, titanium, and aluminum, it delivers excellent
+                            environments. Enriched with molybdenum, copper, <a
+                                href="{{ route('materials.titanium') }}">titanium</a>, and <a
+                                href="{{ route('materials.aluminium-Alloys') }}">aluminum</a>, it delivers excellent
                             protection against stress corrosion cracking, pitting, and crevice corrosion—especially in harsh
                             sour gas (H2S) conditions. This alloy combines toughness with excellent mechanical properties,
                             making it ideal for use in offshore oil platforms, deep wells, chemical processing systems, and
