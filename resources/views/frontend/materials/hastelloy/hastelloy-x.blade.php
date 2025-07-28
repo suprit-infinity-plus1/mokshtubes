@@ -36,8 +36,10 @@
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a renowned manufacturer,
-                            supplier, exporter, importer, and stockist of Hastelloy X (UNS N06002) products, including Pipes
-                            & Tubes, Pipe Fittings, Flanges, Sheets & Plates, Coils, Bars, Wires, and customized components.
+                            supplier, exporter, importer, and stockist of Hastelloy X (UNS N06002) products, including <a
+                                href="{{ route('products.pipes-tubes') }}">Pipes
+                                & Tubes</a>, Pipe Fittings, Flanges, Sheets & Plates, Coils, Bars, Wires, and customized
+                                components.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
@@ -45,7 +47,7 @@
                             nickel-chromium-iron-molybdenum alloy developed primarily for high-temperature strength and
                             oxidation resistance. It is widely used in aerospace and industrial gas turbine applications due
                             to its excellent mechanical properties at elevated temperatures (up to 1100°C / 2000°F).
-                            <strong class="text-black"> Hastelloy X</strong> also exhibits good corrosion resistance to mild
+                            <strong class="text-black"> <a href="{{ route('materials.hastelloy') }}">Hastelloy X</a></strong> also exhibits good corrosion resistance to mild
                             oxidizing and reducing environments,
                             and its excellent fabricability makes it ideal for complex parts exposed to extreme thermal and
                             mechanical stress.
@@ -416,7 +418,9 @@
                 </div>
             </div> --}}
             </div>
-            <p class="text-center pb-3 my-4"><strong class="text-dark">HASTELLOY X's</strong> with its unique combination of heat resistance, mechanical strength, and workability is a trusted material in high-performance environments where failure simply isn’t an option.
+            <p class="text-center pb-3 my-4"><strong class="text-dark">HASTELLOY X's</strong> with its unique combination
+                of heat resistance, mechanical strength, and workability is a trusted material in high-performance
+                environments where failure simply isn’t an option.
 
             </p>
         </div>
@@ -473,7 +477,8 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    <strong>Moksh Tubes & Fittings LLP</strong> your trusted partner for  Hastelloy X  </p>
+                    <strong>Moksh Tubes & Fittings LLP</strong> your trusted partner for Hastelloy X
+                </p>
                 <!-- Call button -->
                 <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
             </div>

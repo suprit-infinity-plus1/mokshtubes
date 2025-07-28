@@ -31,7 +31,7 @@
                     ['name' => '625', 'slug' => 'inconel-625'],
                     ['name' => '690', 'slug' => 'inconel-690'],
                     ['name' => '718', 'slug' => 'inconel-718'],
-                    ['name' => 'x 750', 'slug' => 'inconel-x 750'],
+                    ['name' => 'x750', 'slug' => 'inconel-x750'],
                 ];
             @endphp
 

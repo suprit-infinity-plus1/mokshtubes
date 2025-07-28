@@ -36,8 +36,8 @@
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted manufacturer,
-                            exporter, importer, and stockist of high-performance HASTELLOY C-2000 (UNS N06200) products. Our
-                            offering includes Pipes, Tubes, Fittings, Flanges, Fasteners, Plates, Sheets, Bars, Coils,
+                            exporter, importer, and stockist of high-performance <a href="{{ route('materials.hastelloy') }}">HASTELLOY C-2000</a> (UNS N06200) products. Our
+                            offering includes <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Fittings, Flanges, Fasteners, Plates, Sheets, Bars, Coils,
                             Wires, Welding Rods, and fully customized components. Designed to deliver exceptional resistance
                             in the broadest range of corrosive environments, <strong class="text-black">HASTELLOY
                                 C2000</strong> combines outstanding oxidizing and reducing media performance.

@@ -36,10 +36,10 @@
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> proudly offers a complete range
-                            of Titanium Grade 5 products, including Pipes & Tubes, Pipe Fittings, Flanges, Fasteners, Sheets
+                            of Titanium Grade 5 <a href="{{ route('products') }}">products</a>, including Pipes & Tubes, Pipe Fittings, Flanges, Fasteners, Sheets
                             & Plates, Coils, Bars, Wires, Welding Rods, Mesh, Custom Machined Parts, and other specialty
                             components tailored to critical applications. As a manufacturer, stockist, exporter, importer,
-                            and supplier, we are committed to delivering top-tier Titanium Grade 5 solutions worldwide.
+                            and supplier, we are committed to delivering top-tier <a href="{{ route('materials.titanium') }}">Titanium</a> Grade 5 solutions worldwide.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">

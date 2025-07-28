@@ -38,10 +38,10 @@
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a leading manufacturer,
                             stockist, importer, and exporter of premium<strong class="text-black"> Alloy 926 (UNS N08926)
                                 products</strong> including Pipes &
-                            Tubes, Pipe Fittings, Flanges, Sheets & Plates, Coils, Wires, Round Bars, Welding Rods,
+                            <a href="{{ route('products.pipes-tubes') }}">Tubes & Pipe</a> Fittings, Flanges, Sheets & Plates, Coils, Wires, Round Bars, Welding Rods,
                             Fasteners, and Custom Fabricated Components.
                             <strong class="text-black">Alloy 926</strong> is a super-austenitic stainless steel with
-                            enhanced molybdenum (6.5%) and nitrogen additions, delivering excellent resistance to pitting,
+                            enhanced molybdenum (6.5%) and <a href="{{ route('materials.hard-To-Find-And-Special-Alloys') }}">nitrogen</a> additions, delivering excellent resistance to pitting,
                             crevice corrosion, and stress corrosion cracking in aggressive environments. Its high nickel and
                             chromium content provide superior corrosion protection in oxidizing and reducing environments,
                             especially in chloride-bearing solutions. Alloy 926 is ideal for applications in marine,

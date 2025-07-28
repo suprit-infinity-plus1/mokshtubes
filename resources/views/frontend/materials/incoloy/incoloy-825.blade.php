@@ -35,15 +35,16 @@
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a manufacturer, supplier,
-                            exporter, importer and stockist of a variety of INCOLOY® 825 products such as Pipes & Tubes,
+                            exporter, importer and stockist of a variety of INCOLOY 825 products such as <a
+                                href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>,
                             Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires, Round Bars, Flat Bars, Angles,
-                            Channels, Welding rods, Wire Mesh, and other Custom and Hard to Find <strong class="text-black">
+                            Channels, Welding rods, Wire Mesh, and other Custom and <a href="{{ route('materials.hard-To-Find-And-Special-Alloys') }}">Hard to Find</a> <strong class="text-black">
                                 INCOLOY 825 </strong>Products.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">INCOLOY 825</strong class="text-black"> is a nickel-iron-chromium
-                            alloy with additions of molybdenum, copper, and titanium. The alloy offers exceptional
+                            alloy with additions of molybdenum, copper, and <a href="{{ route('materials.titanium') }}">titanium</a>. The alloy offers exceptional
                             resistance to reducing and oxidizing acids, stress-corrosion cracking, pitting, and crevice
                             corrosion. Its unique composition makes it highly suitable for aggressive environments,
                             including those containing sulfuric, phosphoric, and nitric acids. Additionally, the titanium
@@ -442,16 +443,16 @@
                         <p>Ideal for systems exposed to acidic waste, chemical cleaning solutions, and aggressive effluents.
                         </p>
                     </div>
-                                  </div>
-                                    <div class="row mt-4 mb-4" style="text-align: justify;">
-                        <div class="col-lg-10">
-                            <p class="">
-                                <strong class="text-dark">INCOLOY 825’s </strong>unique combination of corrosion
-                                resistance, strength, and workability ensures optimal performance in mission-critical
-                                applications.
-                            </p>
-                        </div>
+                </div>
+                <div class="row mt-4 mb-4" style="text-align: justify;">
+                    <div class="col-lg-10">
+                        <p class="">
+                            <strong class="text-dark">INCOLOY 825’s </strong>unique combination of corrosion
+                            resistance, strength, and workability ensures optimal performance in mission-critical
+                            applications.
+                        </p>
                     </div>
+                </div>
 
                 {{-- <div class="col-md-6 col-lg-4">
                 <div class="application-card">
@@ -515,7 +516,8 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                 For any inquiries or to request a quote, reach out to <strong>Moksh Tubes & Fittings LLP</strong> your trusted partner for INCOLOY 825 products.
+                    For any inquiries or to request a quote, reach out to <strong>Moksh Tubes & Fittings LLP</strong> your
+                    trusted partner for INCOLOY 825 products.
                 </p>
                 <!-- Call button -->
                 <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>

@@ -36,7 +36,7 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> INCOLOY 800H and 800HT</strong> are high-performance alloys designed
                             for superior strength and corrosion resistance in high-temperature environments. These alloys
-                            are modifications of INCOLOY 800, specifically developed to improve creep and stress rupture
+                            are modifications of <a href="{{ route('materials.incoloy') }}">INCOLOY 800</a>, specifically developed to improve creep and stress rupture
                             properties at elevated temperatures.
                         </p>
 
@@ -45,7 +45,10 @@
                                 class="text-black"> 800HT</strong> (UNS
                             N08811) offer excellent resistance to oxidation, carburization, and sulfidation. Their enhanced
                             mechanical properties make them ideal for structural components exposed to long-term high-heat
-                            conditions. With controlled carbon, aluminum, and titanium contents, these alloys maintain their
+                            conditions. With controlled carbon, <a
+                                href="{{ route('materials.aluminium-Alloys') }}">aluminum</a>, and <a
+                                href="{{ route('materials.titanium') }}">titanium</a> contents, these
+                            alloys maintain their
                             strength and metallurgical stability even above 600°C (1110°F), making them a top choice in
                             heat-treating, petrochemical, and power generation sectors.
                         </p>
@@ -199,7 +202,6 @@
                                     <td>140 / 965</td>
                                     <td>99.3 / 685</td>
                                     <td>167.3 / 1154</td>
-                                    <td>172.5 / 1189</td>
                                 </tr>
                                 <tr>
                                     <td>Yield Strength (0.2% Offset), ksi</td>

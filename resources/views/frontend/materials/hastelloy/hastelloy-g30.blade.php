@@ -36,8 +36,10 @@
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> LLP is a leading manufacturer,
-                            supplier, exporter, importer, and stockist of ALLOY G-30 (UNS N06030) products, available in
-                            various forms such as Pipes & Tubes, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils,
+                            supplier, exporter, importer, and stockist of ALLOY G-30 (UNS N06030) <a
+                                href="{{ route('products') }}">products</a>, available in
+                            various forms such as <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe
+                            Fittings, Flanges, Fasteners, Sheets & Plates, Coils,
                             Wires, Round Bars, Flat Bars, Angles, Channels, Welding Rods, Wire Mesh, and special custom-made
                             components.
                         </p>
@@ -48,7 +50,7 @@
                             corrosion resistance in strongly oxidizing acid environments, especially phosphoric and nitric
                             acids. It offers significantly better performance than ALLOY G-3 in many highly oxidizing
                             chemical environments and resists intergranular corrosion even after welding. Known for its
-                            exceptional resistance to mixed acid environments, G-30 also retains good fabricability and is a
+                            exceptional resistance to mixed acid environments, <a href="{{ route('materials.hastelloy') }}">HASTELLOY G30</a> also retains good fabricability and is a
                             popular choice in fertilizer production, chemical processing, and pollution control systems.
                         </p>
                     </div>
@@ -369,7 +371,8 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
                         <h5>Fertilizer Industry</h5>
-                        <p>Used in phosphate reactors, evaporators, and acid piping where phosphoric acid corrosion is a concern.</p>
+                        <p>Used in phosphate reactors, evaporators, and acid piping where phosphoric acid corrosion is a
+                            concern.</p>
                     </div>
                 </div>
 
@@ -377,7 +380,8 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
                         <h5>Chemical Processing Plants</h5>
-                        <p>Ideal for use in handling nitric-phosphoric-sulfuric acid mixtures and other aggressive solutions.</p>
+                        <p>Ideal for use in handling nitric-phosphoric-sulfuric acid mixtures and other aggressive
+                            solutions.</p>
                     </div>
                 </div>
 
@@ -412,7 +416,7 @@
                         <p>Chosen where chemical cleaning agents are used, requiring high resistance and hygiene.</p>
                     </div>
                 </div>
-                 <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
                         <h5>Wastewater Treatment</h5>
@@ -428,7 +432,7 @@
                 </div>
             </div> --}}
             </div>
-            </div>
+        </div>
     </section>
 
 
@@ -482,8 +486,9 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    <strong>Moksh Tubes & Fittings LLP</strong>  your reliable source for
-                    <strong>HASTELLOY G-30</strong> products built for demanding chemical environments and long-term durability.
+                    <strong>Moksh Tubes & Fittings LLP</strong> your reliable source for
+                    <strong>HASTELLOY G-30</strong> products built for demanding chemical environments and long-term
+                    durability.
                 </p>
                 <!-- Call button -->
                 <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>

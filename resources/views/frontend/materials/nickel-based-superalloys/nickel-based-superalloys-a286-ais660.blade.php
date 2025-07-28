@@ -36,7 +36,7 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> proudly manufactures, supplies,
                             exports, and stocks a wide range of<strong class="text-black"> Nickel A286 products</strong>,
-                            including Pipes, Tubes, Sheets,
+                            including <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Sheets,
                             Plates, Coils, Bars, Forgings, Fasteners, Pipe Fittings, Flanges, Wire Mesh, Welding Rods, and
                             Custom Components designed for high-performance applications.
                         </p>
@@ -44,7 +44,9 @@
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">Alloy A286</strong>, also known as <strong class="text-black">AISI
                                 660 </strong>or UNS S66286, is a
-                            high-strength, iron-nickel-chromium alloy with additions of molybdenum and titanium. It is
+                            high-strength, iron-<a
+                                href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a>-chromium alloy with
+                            additions of molybdenum and titanium. It is
                             designed for applications requiring excellent strength and corrosion resistance at temperatures
                             up to 704 °C (1300 °F). It exhibits outstanding mechanical properties and oxidation resistance,
                             making it a widely used material in aerospace, automotive, marine, and industrial gas turbine
@@ -524,7 +526,7 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                     Connect with <strong>Moksh Tubes & Fittings LLP</strong> for precision products built for performance.
+                    Connect with <strong>Moksh Tubes & Fittings LLP</strong> for precision products built for performance.
                 </p>
                 <!-- Call button -->
                 <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>

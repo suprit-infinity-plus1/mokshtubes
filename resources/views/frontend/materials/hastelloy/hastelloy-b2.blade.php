@@ -37,15 +37,15 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a renowned manufacturer,
                             supplier, exporter, importer, and stockist of <strong class="text-black">HASTELLOY B2</strong>
-                            Products. Including pipes & tubes, fittings, flanges, sheets, plates, bars, wires, welding rods,
+                            Products. Including <a href="{{ route('products.pipes-tubes') }}">pipes & tubes</a>, fittings, flanges, sheets, plates, bars, wires, welding rods,
                             wire mesh, and custom-engineered components. Leveraging our deep expertise in nickel-molybdenum
                             alloys and a robust sourcing network, we deliver high-performance B‑2 solutions tailored to your
                             industrial needs.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">HASTELLOY B2</strong class="text-black"> is a nickel alloy
-                            specifically formulated for superior resistance to reducing acids—including hydrochloric,
+                            <strong class="text-black"><a href="{{ route('materials.hastelloy') }}">HASTELLOY B2</a></strong class="text-black"> is a <a href="{{ route('materials.nickel-Based-Superalloys') }}">nickel alloy
+                            specifically</a> formulated for superior resistance to reducing acids—including hydrochloric,
                             sulfuric, acetic, and phosphoric—especially valuable where oxidizing alloys fail under welded
                             conditions. Its low chromium, carbon, and silicon content ensures minimal carbide formation
                             during welding, maintaining alloy integrity in corrosive and high-temperature environments.

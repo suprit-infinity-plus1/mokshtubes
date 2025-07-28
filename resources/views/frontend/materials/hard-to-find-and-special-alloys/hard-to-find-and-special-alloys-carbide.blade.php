@@ -36,13 +36,14 @@
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted manufacturer,
-                            exporter, and supplier of Carbide Alloys, offering a wide range of products including Tungsten
+                            exporter, and supplier of Carbide Alloys, offering a wide range of <a
+                                href="{{ route('products') }}">products</a> including Tungsten
                             Carbide (WC), Titanium Carbide (TiC), Tantalum Carbide (TaC), and specialty carbide-based tools
                             and components. Our range includes rods, strips, dies, nozzles, inserts, buttons, rings, wear
-                            parts, and custom-engineered carbide components designed to withstand extreme wear, abrasion,
+                            parts, and custom-engineered <a href="{{ route('materials.hard-To-Find-And-Special-Alloys') }}">carbide</a> components designed to withstand extreme wear, abrasion,
                             and thermal stress.
 
-                        <p> <strong class="text-black">Carbide Alloys</strong> are hard, wear-resistant materials made by
+                        <p> <strong class="text-black"><a href="{{ route('materials.hard-To-Find-And-Special-Alloys') }}">Carbide Alloys</a></strong> are hard, wear-resistant materials made by
                             combining carbide particles with metallic binders like cobalt or nickel. These alloys offer
                             exceptional hardness, high-temperature resistance, and excellent dimensional stability, making
                             them ideal for demanding industrial applications including metal cutting, mining, oil & gas,
@@ -470,7 +471,8 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                   Contact <strong>Moksh Tubes & Fittings LLP</strong> — your trusted partner in wear-resistant and high-strength carbide solutions.
+                    Contact <strong>Moksh Tubes & Fittings LLP</strong> — your trusted partner in wear-resistant and
+                    high-strength carbide solutions.
                 </p>
                 <!-- Call button -->
                 <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>

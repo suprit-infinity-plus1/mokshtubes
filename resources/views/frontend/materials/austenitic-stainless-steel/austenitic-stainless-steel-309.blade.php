@@ -38,8 +38,8 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a leading manufacturer,
                             supplier, exporter, importer, and stockist of<strong class="text-black"> Austenitic Stainless
-                                Steel 309 products,</strong> including
-                            pipes, tubes, sheets, plates, bars, and fittings.
+                                Steel 309 <a href="{{ route('products') }}"> products</a>,</strong> including
+                            pipes,<a href="{{ route('products.pipes-tubes') }}"> tubes</a>, sheets, plates, bars, and fittings.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">

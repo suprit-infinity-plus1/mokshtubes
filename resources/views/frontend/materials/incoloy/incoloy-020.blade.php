@@ -34,7 +34,7 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black">INCOLOY 020</strong> is a corrosion-resistant nickel-iron-chromium
+                            <strong class="text-black"><a href="{{ route('materials.incoloy') }}">INCOLOY 020</a></strong> is a corrosion-resistant nickel-iron-chromium
                             alloy designed specifically to handle sulfuric acid and other aggressive chemical environments.
                             With the addition of copper and molybdenum, this alloy offers exceptional resistance to pitting,
                             crevice corrosion, and chloride-induced stress corrosion cracking.
@@ -42,8 +42,8 @@
 
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">MOKSH TUBES & FITTINGS LLP</strong class="text-black"> is a trusted
-                            manufacturer, exporter, supplier, importer, and stockist of INCOLOY® 020 in multiple forms
-                            including pipes, tubes, fittings, flanges, fasteners, sheets, plates, bars, rods, coils, wire
+                            manufacturer, exporter, supplier, importer, and stockist of INCOLOY 020 in multiple forms
+                            including <a href="{{ route('products.pipes-tubes') }}">pipes & tubes</a>, fittings, flanges, fasteners, sheets, plates, bars, rods, coils, wire
                             mesh, and custom-fabricated products.
                         </p>
                     </div>

@@ -40,14 +40,16 @@
                                 42CrMo4) engineering steel
                                 products.</strong> We offer a wide range of EN19 products including Round Bars, Flats, Hex
                             Bars,
-                            Forgings, Shafts, Hollow Bars, Pipes, Fasteners, and Customized Components, suitable for
+                            Forgings, Shafts, Hollow Bars,<a href="{{ route('products.pipes-tubes') }}"> Pipes</a>,
+                            Fasteners, and Customized Components, suitable for
                             demanding mechanical and structural applications.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">EN 19</strong class="text-black">, is a high-tensile alloy steel
                             grade with excellent strength, toughness, and wear resistance. It contains chromium and
-                            molybdenum, which provide improved hardenability and high fatigue strength. EN19 is commonly
+                            molybdenum, which provide improved hardenability and high fatigue strength.<a
+                                href="{{ route('materials.engineering-Steels') }}"> EN19</a> is commonly
                             used for automotive components, gears, shafts, and high-stress machine.
                         </p>
                     </div>
@@ -344,13 +346,13 @@
                         <h5>Can be nitrided or case-hardened for surface hardness</h5>
                     </div>
                 </div>
-                 <div class="col-sm-6 col-lg-4">
+                <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
                         <h5>Excellent toughness and resistance to crack propagation</h5>
                     </div>
+                </div>
             </div>
-        </div>
     </section>
 
 
@@ -358,7 +360,8 @@
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Engineering Steel 19</h2>
-                <p class="text-center pb-3"><strong class="text-dark">Engineering Steel 19</strong> is widely used in high-stress industrial, mechanical, and automotive components, including:</p>
+                <p class="text-center pb-3"><strong class="text-dark">Engineering Steel 19</strong> is widely used in
+                    high-stress industrial, mechanical, and automotive components, including:</p>
             </div>
 
             <div class="row g-4 justify-content-center">
@@ -402,7 +405,7 @@
                     </div>
                 </div>
 
-                 <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
                         <h5>Defense & Aerospace</h5>
@@ -472,7 +475,7 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                   Get in touch with <strong> Moksh Tubes & Fittings LLP
+                    Get in touch with <strong> Moksh Tubes & Fittings LLP
                     </strong> — for high-quality EN19 steel products tailored to your specifications.
                 </p>
                 <!-- Call button -->

@@ -38,11 +38,14 @@
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted manufacturer,
                             supplier, exporter, importer, and stockist of<strong class="text-black"> Stellite
                                 Alloys</strong> in a variety of forms including
-                            Rods, Bars, Tubes, Welding Wires, Electrodes, Sheets, Plates, and custom components made to
+                            Rods, Bars, <a href="{{ route('products.pipes-tubes') }}">Tubes</a>, Welding Wires, Electrodes,
+                            Sheets, Plates, and custom components made to
                             order. We specialize in Stellite 6, Stellite 12, Stellite 21, and other grades used for
                             wear-resistant and high-temperature
                         </p>
-                        <p> <strong class="text-black">Stellite</strong> is a family of cobalt-chromium-based superalloys
+                        <p> <strong class="text-black"><a
+                                    href="{{ route('materials.hard-To-Find-And-Special-Alloys') }}">Stellite</strong> is a
+                            family of cobalt-chromium-based superalloys
                             engineered to resist wear, corrosion, and high-temperature degradation. Originally developed for
                             cutting tools, Stellite alloys have become indispensable in industries requiring reliable
                             performance under extreme mechanical and thermal stress. These alloys are known for their

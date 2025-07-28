@@ -35,11 +35,13 @@
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a manufacturer, supplier,
-                            exporter, importer and stockist of a wide range of INCOLOY® 800 (UNS N08800) products including
-                            Pipes & Tubes, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires, Round Bars,
+                            exporter, importer and stockist of a wide range of <a
+                                href="{{ route('materials.incoloy') }}">INCOLOY 800</a> (UNS N08800) products including
+                            <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings, Flanges,
+                            Fasteners, Sheets & Plates, Coils, Wires, Round Bars,
                             Flat Bars, Angles, Channels, Welding Rods, Wire Mesh, and other Custom and Hard to Find <strong
                                 class="text-black">
-                                INCOLOY 800 </strong>Products.
+                                INCOLOY 800 </strong><a href="{{ route('products') }}">Products</a>.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">

@@ -37,7 +37,8 @@
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a leading manufacturer,
                             supplier, exporter, importer, and stockist of<strong class="text-black"> INCONEL X-750</strong>
                             (UNS N07750) products in a wide
-                            range of forms including Pipes & Tubes, Pipe Fittings, Flanges, Fasteners, Sheets & Plates,
+                            range of forms including <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe
+                            Fittings, Flanges, Fasteners, Sheets & Plates,
                             Coils, Wires, Round Bars, Flat Bars, Angles, Channels, Welding Rods, Wire Mesh, and
                             custom-engineered components.
                         </p>
@@ -45,12 +46,16 @@
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">INCONEL X-750</strong> is a precipitation-hardenable nickel-chromium
                             alloy made for high-strength applications at elevated temperatures. This alloy is strengthened
-                            by additions of aluminum and titanium and demonstrates exceptional resistance to relaxation and
-                            oxidation at high temperatures. It maintains excellent mechanical properties from cryogenic
-                            temperatures up to 1300°F (704°C) and provides outstanding resistance to creep rupture, stress
-                            corrosion cracking, and other high-temperature forms of degradation.<strong class="text-black">
-                                INCONEL X-750</strong> is widely
-                            used in aerospace, nuclear, gas turbine, and industrial heat treating applications.
+                            by additions of <a href="{{ route('materials.aluminium-Alloys') }}">aluminum</a> and <a
+                                href="{{ route('materials.titanium') }}">titanium</a>
+                                and demonstrates exceptional resistance to relaxation and
+                                oxidation at high temperatures. It maintains excellent mechanical properties from cryogenic
+                                temperatures up to 1300°F (704°C) and provides outstanding resistance to creep rupture,
+                                stress
+                                corrosion cracking, and other high-temperature forms of degradation.<strong
+                                    class="text-black">
+                                    INCONEL X-750</strong> is widely
+                                used in aerospace, nuclear, gas turbine, and industrial heat treating applications.
                         </p>
                     </div>
                 </div>

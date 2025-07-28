@@ -49,7 +49,7 @@
                             biocompatibility, and fracture toughness. The “ELI” stands for Extra Low Interstitial, meaning
                             it has reduced levels of oxygen, nitrogen, and carbon—making it cleaner, tougher, and more
                             ductile, especially in cryogenic and medical-grade applications. It offers all the strength of
-                            standard Grade 5 titanium but with superior notch sensitivity and enhanced fatigue resistance.
+                            standard Grade 5 <a href="{{ route('materials.titanium') }}">titanium</a> but with superior notch sensitivity and enhanced fatigue resistance.
                         </p>
                     </div>
                 </div>

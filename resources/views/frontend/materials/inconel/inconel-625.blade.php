@@ -37,7 +37,7 @@
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a manufacturer, supplier,
                             exporter, importer and stockist of a wide range of<strong class="text-black"> INCONEL
                                 625</strong> (UNS N06625) products including
-                            Pipes & Tubes, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires, Round Bars,
+                            <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires, Round Bars,
                             Flat Bars, Angles, Channels, Welding Rods, Wire Mesh, and other Custom and Hard-to-Find INCONEL
                             625 Products.
                         </p>
@@ -47,7 +47,7 @@
                             known for its outstanding corrosion resistance, high strength, and excellent fatigue and
                             thermal-fatigue properties. The alloy exhibits exceptional resistance to a wide range of
                             corrosive environments, including oxidizing and reducing acids, chlorides, seawater, and harsh
-                            chemical media. Its high nickel content provides superior resistance to chloride-induced stress
+                            chemical media. Its high <a href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a> content provides superior resistance to chloride-induced stress
                             corrosion cracking, while the addition of molybdenum and niobium enhances its mechanical
                             strength and resistance to pitting and crevice corrosion.
                         </p>

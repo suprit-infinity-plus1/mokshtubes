@@ -37,8 +37,7 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted manufacturer,
                             supplier, exporter, importer, and stockist of<strong class="text-black"> 4340 alloy steel
-                                products</strong> such as bars, plates,
-                            sheets, and forgings.
+                                products</strong> such as bars, plates, sheets, and forgings.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">

@@ -36,10 +36,13 @@
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a reliable manufacturer,
-                            supplier, and exporter of high-quality<strong class="text-black"> EN24 steel products,</strong>
+                            supplier, and exporter of high-quality<strong class="text-black"> EN24 steel <a
+                                    href="{{ route('products') }}">products</a>,</strong>
                             including Round Bars, Forgings,
                             Bright Bars, Hex Bars, Flats, Shafts, Hollow Bars, and Custom Components. EN24, also known as
-                            817M40 or AISI 4340, is a high-strength, alloy engineering steel renowned for its excellent
+                            817M40 or AISI 4340, is a high-strength, alloy <a
+                                href="{{ route('materials.engineering-Steels') }}"> engineering steel</a> renowned for its
+                            excellent
                             toughness, fatigue strength, and wear resistance. With high tensile strength and good ductility,
                             EN24 is particularly suitable for heavy-duty applications requiring high load-bearing capacity.
                         </p>

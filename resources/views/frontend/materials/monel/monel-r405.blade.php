@@ -35,13 +35,17 @@
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a leading manufacturer,
-                            supplier, exporter, importer, and stockist of MONEL R405 (UNS N04405) products, including Pipes
-                            & Tubes, Sheets & Plates, Coils, Round Bars, Forgings, Pipe Fittings, Flanges, Fasteners,
+                            supplier, exporter, importer, and stockist of <a href="{{ route('materials.monel') }}">MONEL
+                                R405</a></a> (UNS N04405) products, including <a
+                                href="{{ route('products.pipes-tubes') }}">Pipes
+                                & Tubes</a>, Sheets & Plates, Coils, Round Bars, Forgings, Pipe Fittings, Flanges,
+                            Fasteners,
                             Welding Rods, and Custom-Machined Components.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">MONEL R405</strong class="text-black"> is a nickel-copper alloy
+                            <strong class="text-black">MONEL R405</strong class="text-black"> is a <a
+                                href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a>-copper alloy
                             similar to Monel 400, but it is specially modified with controlled sulfur content to improve its
                             machinability. This grade is known for excellent resistance to seawater, hydrofluoric acid,
                             sulfuric acid, alkalis, and high-temperature steam. R405 retains high strength and toughness

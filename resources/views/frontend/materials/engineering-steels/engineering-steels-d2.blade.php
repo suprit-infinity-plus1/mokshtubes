@@ -37,8 +37,8 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a leading manufacturer,
                             supplier, exporter, importer, and stockist of<strong class="tex-black"> D2 steel
-                                products</strong> including bars, plates, sheets,
-                            and precision ground tooling materials.
+                                products</strong> including bars, plates, sheets,<a href="{{ route('products.pipes-tubes') }}"> tubes</a> and precision ground tooling
+                            materials.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">

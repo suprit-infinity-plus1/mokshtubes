@@ -37,11 +37,11 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a leading manufacturer,
                             supplier, exporter, and stockist of high-performance<strong class="text-black"> SMO 254 (UNS
-                                S31254) products,</strong> including
+                                S31254) <a href="{{ route('products') }}">products</a>,</strong> including
                             Pipes & Tubes, Fittings, Flanges, Sheets & Plates, Round Bars, Wires, Fasteners, and Custom
                             Fabricated Components.
 
-                        <p> <strong class="text-black">SMO 254</strong> is a super austenitic stainless steel alloy
+                        <p> <strong class="text-black">SMO 254</strong> is a <a href="{{ route('materials.super-Austenitic-Stainless-Steel') }}">super austenitic stainless steel alloy</a>
                             developed for superior corrosion resistance in high chloride environments, including seawater
                             and aggressive chemical media. With high molybdenum (6%) and nitrogen content, it offers
                             excellent pitting resistance, crevice corrosion resistance, and stress corrosion cracking

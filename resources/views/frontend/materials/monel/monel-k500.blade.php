@@ -35,8 +35,10 @@
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong>LLP is a manufacturer, supplier,
-                            exporter, importer and stockist of a comprehensive range of MONEL® K500 (UNS N05500) products
-                            including Pipes & Tubes, Pipe Fittings, Flanges, Fasteners, Sheets, Plates, Coils, Bars, Wires,
+                            exporter, importer and stockist of a comprehensive range of MONEL K500 (UNS N05500) <a
+                                href="{{ route('products') }}">products</a>
+                            including <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings,
+                            Flanges, Fasteners, Sheets, Plates, Coils, Bars, Wires,
                             Welding Rods, and other Custom and Hard-to-Find <strong class="text-black">MONEL K500 </strong>
                             Components.
                         </p>
@@ -44,7 +46,9 @@
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">MONEL K500</strong class="text-black"> is a precipitation-hardenable
                             nickel-copper alloy that combines the excellent corrosion resistance of MONEL 400 with added
-                            strength and hardness due to its aluminum and titanium content. It retains high mechanical
+                            strength and hardness due to its <a
+                                href="{{ route('materials.aluminium-Alloys') }}">aluminum</a> and <a
+                                href="{{ route('materials.titanium') }}">titanium</a> content. It retains high mechanical
                             properties and is particularly resistant to stress corrosion cracking and pitting in marine and
                             chemical environments. MONEL K500 is non-magnetic, even at sub-zero temperatures, and maintains
                             dimensional stability in harsh conditions, making it ideal for high-performance,
@@ -513,7 +517,7 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                <strong>Moksh Tubes & Fittings LLP</strong> your partner in performance-grade MONEL K500 materials.
+                    <strong>Moksh Tubes & Fittings LLP</strong> your partner in performance-grade MONEL K500 materials.
                 </p>
                 <!-- Call button -->
                 <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>

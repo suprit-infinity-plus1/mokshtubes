@@ -37,13 +37,15 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a leading manufacturer,
                             exporter, importer, stockist, and supplier of Nitinol products in a variety of forms including
-                            wires, rods, sheets, tubes, springs, strips, and customized components.<strong
-                                class="text-black"> Nitinol (Nickel Titanium
+                            wires, rods, sheets, <a href="{{ route('products.pipes-tubes') }}">tubes</a>, springs, strips,
+                            and customized components.<strong class="text-black"> Nitinol (Nickel Titanium
                                 Naval Ordnance Laboratory)</strong> is a unique metal alloy primarily composed of nickel and
                             titanium,
                             widely known for its two remarkable properties: Shape Memory Effect (SME) and Superelasticity.
                         </p>
-                        <p> <strong class="text-black">Nitinol's</strong> ability to return to a predetermined shape when
+                        <p> <strong class="text-black"><a
+                                    href="{{ route('materials.hard-To-Find-And-Special-Alloys') }}">Nitinol's</a></strong>
+                            ability to return to a predetermined shape when
                             heated and its exceptional elasticity under stress make it an ideal material for a variety of
                             medical, industrial, and aerospace applications. It also offers excellent corrosion resistance,
                             biocompatibility, and fatigue resistance, especially under cyclic loading environments.</p>
@@ -466,7 +468,8 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    Contact <strong>Moksh Tubes & Fittings LLP</strong> — your trusted source for high-performance memory alloys and nickel-titanium products.
+                    Contact <strong>Moksh Tubes & Fittings LLP</strong> — your trusted source for high-performance memory
+                    alloys and nickel-titanium products.
                 </p>
                 <!-- Call button -->
                 <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>

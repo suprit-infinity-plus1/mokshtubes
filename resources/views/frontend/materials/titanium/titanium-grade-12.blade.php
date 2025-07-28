@@ -38,14 +38,14 @@
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted manufacturer,
                             exporter, importer, stockist, and supplier of a wide array of<strong class="text-black">
                                 Titanium Grade 12 products.</strong> Our
-                            offerings include Pipes & Tubes, Sheets & Plates, Pipe Fittings, Flanges, Wires, Bars, Coils,
+                            offerings include <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Sheets & Plates, Pipe Fittings, Flanges, Wires, Bars, Coils,
                             Welding Rods, and Custom Components designed for extreme performance and reliability.
 
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">Titanium Grade 12 </strong>is a trusted manufacturer, exporter,
-                            importer, stockist, and supplier of a wide array of Titanium Grade 12 products. Our offerings
+                            importer, stockist, and supplier of a wide array of Titanium Grade 12 <a href="{{ route('products') }}">products</a>. Our offerings
                             include Pipes & Tubes, Sheets & Plates, Pipe Fittings, Flanges, Wires, Bars, Coils, Welding
                             Rods, and Custom Components designed for extreme performance and reliability.
                         </p>

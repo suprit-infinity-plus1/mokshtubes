@@ -37,7 +37,7 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> LLP is a reputed manufacturer,
                             exporter, importer, and stockist of high-quality HASTELLOY B-3 (UNS N10675) products. We supply
-                            an extensive range of B-3 alloy materials such as Pipes, Tubes, Pipe Fittings, Flanges,
+                            an extensive range of B-3 alloy materials such as <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings, Flanges,
                             Fasteners, Sheets, Plates, Coils, Bars, Welding Rods, Wire Mesh, and precision-engineered custom
                             components. Built to withstand extreme corrosion, <strong class="text-black">HASTELLOY
                                 B3</strong> is the enhanced version of<strong class="text-black"> Hastelloy B-2</strong>,
@@ -47,7 +47,7 @@
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">HASTELLOY B3</strong class="text-black"> is a nickel-molybdenum alloy
                             designed to handle strong reducing agents, including hydrochloric, hydrobromic, sulfuric, and
-                            phosphoric acids. Compared to B-2, it provides better resistance to pitting, stress corrosion
+                            phosphoric acids. Compared to <a href="{{ route('materials.hastelloy') }}">B-2</a>, it provides better resistance to pitting, stress corrosion
                             cracking, and knife-line/heat-affected zone (HAZ) attack after welding. Its superior formability
                             and weldability make it ideal for modern chemical processing and pickling systems.
                         </p>

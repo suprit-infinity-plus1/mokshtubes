@@ -38,13 +38,13 @@
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a reliable manufacturer,
                             supplier, exporter, importer, and stockist of premium-grade<strong class="text-black"> Tantalum
                                 products</strong> including Tantalum
-                            Pipes & Tubes, Sheets & Plates, Rods & Bars, Wire, Foil, Crucibles, Fasteners, and Custom
+                            <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Sheets & Plates, Rods & Bars, Wire, Foil, Crucibles, Fasteners, and Custom
                             Fabricated Products for critical applications.
                         </p>
                         <p> <strong class="text-black">Tantalum</strong> is a rare, ductile, and highly corrosion-resistant
                             metal with excellent biocompatibility and high melting point. It is highly resistant to most
                             acids (including aqua regia), making it a prime material for demanding chemical processing and
-                            high-temperature applications. Tantalum maintains its mechanical strength at elevated
+                            high-temperature applications.<a href="{{ route('materials.hard-To-Find-And-Special-Alloys') }}"> Tantalum</a> maintains its mechanical strength at elevated
                             temperatures and offers excellent workability in various forms.</p>
                     </div>
                 </div>

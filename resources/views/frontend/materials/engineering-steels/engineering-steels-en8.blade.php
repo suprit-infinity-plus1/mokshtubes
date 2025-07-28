@@ -37,7 +37,7 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted manufacturer,
                             exporter, and stockist of<strong class="text-black"> EN8 Steel products</strong> including
-                            Pipes, Tubes, Round Bars, Flats, Squares,
+                            Pipes,<a href="{{ route('products.pipes-tubes') }}"> Tubes</a>, Round Bars, Flats, Squares,
                             Forged Bars, Shafts, Sheets, Plates, Pipe Fittings, and Custom Machined Components.
                         </p>
 
@@ -46,7 +46,8 @@
                             (approximately 0.40% carbon) known for its high tensile strength and good machinability. It is
                             widely used in engineering applications that require better mechanical properties than mild
                             steel. EN8 offers moderate wear resistance and toughness, making it ideal for shafts, axles,
-                            gears, bolts, studs, automotive parts, and general-purpose engineering components.
+                            gears, bolts, studs, automotive parts, and general-purpose<a
+                                href="{{ route('materials.engineering-Steels') }}"> engineering</a> components.
                         </p>
                     </div>
                 </div>

@@ -36,18 +36,23 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted manufacturer,
                             supplier, exporter, importer, and stockist of high-performance Hastelloy C-4 (UNS N06455)
-                            products, including <strong class="text-black">Pipes & Tubes, Pipe Fittings, Flanges, Sheets &
+                            products, including <strong class="text-black"><a
+                                    href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings, Flanges,
+                                Sheets &
                                 Plates, Coils, Bars, Wire Mesh</strong> , and custom-engineered components.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">HASTELLOY C4</strong class="text-black"> is a
                             nickel-chromium-molybdenum alloy designed to minimize welding challenges due to
-                            its low silicon and carbon content. Like other nickel alloys, is a nickel-chromium-molybdenum
+                            its low silicon and carbon content. Like other <a
+                                href="{{ route('materials.nickel-Based-Superalloys') }}">nickel alloys</a>, is a
+                            nickel-chromium-molybdenum
                             alloy known for
                             its outstanding resistance to high-temperature oxidation, stress corrosion cracking, and strong
-                            oxidizing agents. With excellent stability across a wide range of thermal conditions, Hastelloy
-                            C-4 exhibits superior performance in harsh chemical environments—particularly in hot,
+                            oxidizing agents. With excellent stability across a wide range of thermal conditions, <a
+                                href="{{ route('materials.hard-To-Find-And-Special-Alloys') }}">Hastelloy
+                                C-4</a> exhibits superior performance in harsh chemical environments—particularly in hot,
                             contaminated mineral acids like hydrochloric and sulfuric acid. Its low carbon and silicon
                             content also help prevent grain-boundary precipitation during welding, enhancing its weldability
                             and corrosion resistance.
@@ -472,7 +477,8 @@
                 <h2>Contact Us</h2>
                 <p>
                     Partner with <strong>Moksh Tubes & Fittings LLP</strong> for reliable sourcing of <strong>HASTELLOY
-                        C-4</strong> products.. Get expert support, certified material, and on-time delivery for all your industrial needs.
+                        C-4</strong> products.. Get expert support, certified material, and on-time delivery for all your
+                    industrial needs.
                 </p>
                 <!-- Call button -->
                 <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>

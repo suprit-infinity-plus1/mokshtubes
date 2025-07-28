@@ -35,8 +35,11 @@
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a manufacturer, supplier,
-                            exporter, importer and stockist of a variety of MONEL® 400 (UNS N04400) products such as Pipes &
-                            Tubes, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires, Round Bars, Flat Bars,
+                            exporter, importer and stockist of a variety of MONEL® 400 (UNS N04400) <a
+                                href="{{ route('products') }}">products</a> such as <a
+                                href="{{ route('products.pipes-tubes') }}">Pipes &
+                                Tubes</a>, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires, Round Bars,
+                            Flat Bars,
                             Angles, Channels, Welding rods, Wire Mesh, and other Custom and Hard to Find MONEL 400 Products.
                         </p>
 
@@ -46,7 +49,7 @@
                             chemical environments. This alloy exhibits outstanding performance in brackish and saltwater,
                             hydrofluoric acid, sulfuric acid, and alkali media. It offers high strength, toughness, and good
                             weldability, making it ideal for handling corrosive and high-pressure conditions. <strong
-                                class="text-black"> MONEL 400</strong>
+                                class="text-black"> <a href="{{ route('materials.monel') }}">MONEL 400</a></strong>
                             retains its mechanical properties across a wide temperature range and performs reliably in both
                             oxidizing and reducing conditions.
                         </p>
@@ -383,7 +386,9 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
                         <h5>Marine Engineering & Shipbuilding</h5>
-                        <p>Used in seawater-cooled heat exchangers, condenser tubes, propeller shafts, fasteners, seawater valves, and pump components due to outstanding resistance to saltwater and marine atmospheres.</p>
+                        <p>Used in seawater-cooled heat exchangers, condenser tubes, propeller shafts, fasteners, seawater
+                            valves, and pump components due to outstanding resistance to saltwater and marine atmospheres.
+                        </p>
                     </div>
                 </div>
 
@@ -391,7 +396,9 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
                         <h5>Chemical & Petrochemical Processing</h5>
-                        <p>Ideal for processing and handling equipment such as storage tanks, process vessels, piping systems, heat exchangers, and pumps exposed to hydrofluoric acid, sulfuric acid, and caustic solutions.</p>
+                        <p>Ideal for processing and handling equipment such as storage tanks, process vessels, piping
+                            systems, heat exchangers, and pumps exposed to hydrofluoric acid, sulfuric acid, and caustic
+                            solutions.</p>
                     </div>
                 </div>
 
@@ -399,7 +406,8 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
                         <h5>Oil & Gas Industry</h5>
-                        <p>Preferred for downhole tools, pump shafts, safety valves, and heat exchangers operating in sour gas environments and offshore platforms.</p>
+                        <p>Preferred for downhole tools, pump shafts, safety valves, and heat exchangers operating in sour
+                            gas environments and offshore platforms.</p>
                     </div>
                 </div>
 
@@ -407,7 +415,8 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-droplet"></i></div>
                         <h5>Power Generation</h5>
-                        <p>Applied in boiler feedwater systems, condensers, superheaters, and brine heaters in power plants due to its resistance to saline and chemical media.</p>
+                        <p>Applied in boiler feedwater systems, condensers, superheaters, and brine heaters in power plants
+                            due to its resistance to saline and chemical media.</p>
                     </div>
                 </div>
 
@@ -415,7 +424,8 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
                         <h5>Aerospace & Defense</h5>
-                        <p>Used in fuel tanks, jet engine components, and hydraulic systems that require resistance to high stress, pressure, and corrosive fuels.
+                        <p>Used in fuel tanks, jet engine components, and hydraulic systems that require resistance to high
+                            stress, pressure, and corrosive fuels.
                         </p>
                     </div>
                 </div>
@@ -424,7 +434,8 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
                         <h5>Desalination and Water Treatment</h5>
-                        <p>Employed in brine heaters, evaporators, and saltwater treatment components for long service life and minimal maintenance.</p>
+                        <p>Employed in brine heaters, evaporators, and saltwater treatment components for long service life
+                            and minimal maintenance.</p>
                     </div>
                 </div>
 
@@ -432,7 +443,8 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-capsule"></i></div>
                         <h5>Electronic and Instrumentation</h5>
-                        <p>Selected for non-sparking, non-magnetic parts such as connectors, terminals, and housing components in sensitive electrical systems.</p>
+                        <p>Selected for non-sparking, non-magnetic parts such as connectors, terminals, and housing
+                            components in sensitive electrical systems.</p>
                     </div>
                 </div>
 
