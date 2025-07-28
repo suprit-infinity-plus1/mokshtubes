@@ -100,7 +100,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Thickness, t</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" id="sheetThickness" placeholder="e.g. 1" oninput="calculateSteelSheetWeight()" />
+                                                <input type="number" class="form-control me-2" id="sheetThickness"
+                                                    placeholder="e.g. 1" oninput="calculateSteelSheetWeight()" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -111,7 +112,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Width, W</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" id="sheetWidth" placeholder="e.g. 1000" oninput="calculateSteelSheetWeight()" />
+                                                <input type="number" class="form-control me-2" id="sheetWidth"
+                                                    placeholder="e.g. 1000" oninput="calculateSteelSheetWeight()" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -122,7 +124,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" id="sheetLength" placeholder="e.g. 2000" oninput="calculateSteelSheetWeight()" />
+                                                <input type="number" class="form-control me-2" id="sheetLength"
+                                                    placeholder="e.g. 2000" oninput="calculateSteelSheetWeight()" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -134,7 +137,8 @@
                                             <label class="form-label mb-0 me-3" style="width: 120px;">No. of
                                                 pieces</label>
                                             <div class="flex-grow-1">
-                                                <input type="number" class="form-control" id="sheetPieces" placeholder="e.g. 1" oninput="calculateSteelSheetWeight()" />
+                                                <input type="number" class="form-control" id="sheetPieces"
+                                                    placeholder="e.g. 1" oninput="calculateSteelSheetWeight()" />
                                             </div>
                                         </div>
                                     </div>
@@ -143,7 +147,8 @@
                                 <!-- Result -->
                                 <div class="mt-2">
                                     <h6><strong>Result</strong></h6>
-                                    <p>Single piece weight: <strong id="sheetSingleWeight" class="text-primary">15.7 kg</strong></p>
+                                    <p>Single piece weight: <strong id="sheetSingleWeight" class="text-primary">15.7
+                                            kg</strong></p>
                                     <p>Total weight: <strong id="sheetTotalWeight" class="text-primary">15.7 kg</strong></p>
                                 </div>
                             </div>
@@ -194,8 +199,7 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2"
-                                                    placeholder="e.g. 2000" />
+                                                <input type="number" class="form-control me-2" placeholder="e.g. 2000" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -205,7 +209,7 @@
                                 <!-- Result -->
                                 <div class="mt-2">
                                     <h6><strong>Result</strong></h6>
-                                    <p>Single piece weight: <strong class="text-primary">12.3 kg</strong></p>
+                                    <p>Weight per meter: <strong class="text-primary">12.3 kg/m</strong></p>
                                     <p>Total weight: <strong class="text-primary">12.3 kg</strong></p>
                                 </div>
                             </div>
@@ -255,8 +259,7 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2"
-                                                    placeholder="e.g. 2500" />
+                                                <input type="number" class="form-control me-2" placeholder="e.g. 2500" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -266,7 +269,7 @@
                                 <!-- Result -->
                                 <div class="mt-2">
                                     <h6><strong>Result</strong></h6>
-                                    <p>Single piece weight: <strong class="text-primary">9.8 kg</strong></p>
+                                    <p>Weight per meter: <strong class="text-primary">9.8 kg/m</strong></p>
                                     <p>Total weight: <strong class="text-primary">9.8 kg</strong></p>
                                 </div>
                             </div>
@@ -316,8 +319,7 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2"
-                                                    placeholder="e.g. 2000" />
+                                                <input type="number" class="form-control me-2" placeholder="e.g. 2000" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -327,7 +329,7 @@
                                 <!-- Result -->
                                 <div class="mt-2">
                                     <h6><strong>Result</strong></h6>
-                                    <p>Single piece weight: <strong class="text-primary">10.2 kg</strong></p>
+                                    <p>Weight per meter: <strong class="text-primary">10.2 kg/m</strong></p>
                                     <p>Total weight: <strong class="text-primary">10.2 kg</strong></p>
                                 </div>
                             </div>
@@ -388,8 +390,7 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2"
-                                                    placeholder="e.g. 2000" />
+                                                <input type="number" class="form-control me-2" placeholder="e.g. 2000" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -399,7 +400,7 @@
                                 <!-- Result -->
                                 <div class="mt-2">
                                     <h6><strong>Result</strong></h6>
-                                    <p>Single piece weight: <strong class="text-primary">11.5 kg</strong></p>
+                                    <p>Weight per meter: <strong class="text-primary">11.5 kg/m</strong></p>
                                     <p>Total weight: <strong class="text-primary">11.5 kg</strong></p>
                                 </div>
                             </div>
@@ -438,8 +439,7 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2"
-                                                    placeholder="e.g. 6000" />
+                                                <input type="number" class="form-control me-2" placeholder="e.g. 6000" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -449,7 +449,7 @@
                                 <!-- Result -->
                                 <div class="mt-2">
                                     <h6><strong>Result</strong></h6>
-                                    <p>Single piece weight: <strong class="text-primary">7.1 kg</strong></p>
+                                    <p>Weight per meter: <strong class="text-primary">7.1 kg/m</strong></p>
                                     <p>Total weight: <strong class="text-primary">7.1 kg</strong></p>
                                 </div>
                             </div>
@@ -488,8 +488,7 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2"
-                                                    placeholder="e.g. 6000" />
+                                                <input type="number" class="form-control me-2" placeholder="e.g. 6000" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -499,7 +498,7 @@
                                 <!-- Result -->
                                 <div class="mt-2">
                                     <h6><strong>Result</strong></h6>
-                                    <p>Single piece weight: <strong class="text-primary">5.2 kg</strong></p>
+                                    <p>Weight per meter: <strong class="text-primary">5.2 kg/m</strong></p>
                                     <p>Total weight: <strong class="text-primary">5.2 kg</strong></p>
                                 </div>
                             </div>
@@ -559,7 +558,7 @@
                                 <!-- Result -->
                                 <div class="mt-2">
                                     <h6><strong>Result</strong></h6>
-                                    <p>Single piece weight: <strong class="text-primary">2.4 kg</strong></p>
+                                    <p>Weight per meter: <strong class="text-primary">2.4 kg/m</strong></p>
                                     <p>Total weight: <strong class="text-primary">2.4 kg</strong></p>
                                 </div>
                             </div>
@@ -619,7 +618,7 @@
                                 <!-- Result -->
                                 <div class="mt-2">
                                     <h6><strong>Result</strong></h6>
-                                    <p>Single piece weight: <strong class="text-primary">3.1 kg</strong></p>
+                                    <p>Weight per meter: <strong class="text-primary">3.1 kg/m</strong></p>
                                     <p>Total weight: <strong class="text-primary">3.1 kg</strong></p>
                                 </div>
                             </div>
@@ -647,8 +646,7 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Side, A x B</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="text" class="form-control me-2"
-                                                    placeholder="e.g. 30x20" />
+                                                <input type="text" class="form-control me-2" placeholder="e.g. 30x20" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -680,7 +678,7 @@
                                 <!-- Result -->
                                 <div class="mt-2">
                                     <h6><strong>Result</strong></h6>
-                                    <p>Single piece weight: <strong class="text-primary">4.2 kg</strong></p>
+                                    <p>Weight per meter: <strong class="text-primary">4.2 kg/m</strong></p>
                                     <p>Total weight: <strong class="text-primary">4.2 kg</strong></p>
                                 </div>
                             </div>
@@ -710,6 +708,14 @@
                                         <option>№ 8</option>
                                         <option>№ 10</option>
                                         <option>№ 12</option>
+                                        <option>№ 14</option>
+                                        <option>№ 16</option>
+                                        <option>№ 18</option>
+                                        <option>№ 20</option>
+                                        <option>№ 22</option>
+                                        <option>№ 24</option>
+                                        <option>№ 27</option>
+                                        <option>№ 30</option>
                                         <!-- Add more options as needed -->
                                     </select>
                                 </div>
@@ -752,7 +758,7 @@
                                 <!-- Result -->
                                 <div class="mt-2">
                                     <h6><strong>Result</strong></h6>
-                                    <p>Single piece weight: <strong class="text-primary">4.2 kg</strong></p>
+                                    <p>Weight per meter: <strong class="text-primary">4.2 kg/m</strong></p>
                                     <p>Total weight: <strong class="text-primary">4.2 kg</strong></p>
                                 </div>
                             </div>
@@ -850,8 +856,8 @@
 
                                 <div class="mt-2">
                                     <h6><strong>Result</strong></h6>
-                                    <p>Weight per meter: <strong class="text-primary">– kg/m</strong></p>
-                                    <p>Total weight: <strong class="text-primary">– kg</strong></p>
+                                    <p>Weight per meter: <strong class="text-primary">4.2 kg/m</strong></p>
+                                    <p>Total weight: <strong class="text-primary">4.2 kg</strong></p>
                                 </div>
                             </div>
 
@@ -871,6 +877,113 @@
                             <div class="col-lg-6 mb-4 mb-lg-0">
                                 <p>Input your values in the fields below:</p>
                                 <div class="row">
+                                    <!-- Profile -->
+                                    <div class="mb-3 d-flex align-items-center">
+                                        <label class="form-label mb-0 me-3" style="width: 140px;">Profile:</label>
+                                        <select class="form-select">
+                                            <option selected>IPN 80</option>
+                                            <option>IPN 100</option>
+                                            <option>IPN 120</option>
+                                            <option>IPN 140</option>
+                                            <option>IPN 160</option>
+                                            <option>IPN 180</option>
+                                            <option>IPN 200</option>
+                                            <option>IPN 220</option>
+                                            <option>IPN 240</option>
+                                            <option>IPN 260</option>
+                                            <option>IPN 280</option>
+                                            <option>IPN 300</option>
+                                            <option>IPN 320</option>
+                                            <option>IPN 340</option>
+                                            <option>IPN 360</option>
+                                            <option>IPN 380</option>
+                                            <option>IPN 400</option>
+                                            <option>IPN 450</option>
+                                            <option>IPN 500</option>
+                                            <option>IPN 550</option>
+                                        </select>
+                                    </div>
+
+                                    <!-- Height, h -->
+                                    <div class="col-12 mb-3 d-flex align-items-center">
+                                        <label class="form-label mb-0 me-3" style="width: 150px;">Height, h: </label>
+                                        <input type="number" class="form-control me-2" placeholder="e.g. 300">
+                                        <span>mm</span>
+                                    </div>
+                                    <!-- Width of flange, b -->
+                                    <div class="col-12 mb-3 d-flex align-items-center">
+                                        <label class="form-label mb-0 me-3" style="width: 150px;">width, b: </label>
+                                        <input type="number" class="form-control me-2" placeholder="e.g. 150">
+                                        <span>mm</span>
+                                    </div>
+                                    <!-- Thickness of web, tw -->
+                                    <div class="col-12 mb-3 d-flex align-items-center">
+                                        <label class="form-label mb-0 me-3" style="width: 150px;">thickness,s: </label>
+                                        <input type="number" class="form-control me-2" placeholder="e.g. 10">
+                                        <span>mm</span>
+                                    </div>
+                                    <!-- Thickness of flange, tf -->
+                                    <div class="col-12 mb-3 d-flex align-items-center">
+                                        <label class="form-label mb-0 me-3" style="width: 150px;">thickness, t: </label>
+                                        <input type="number" class="form-control me-2" placeholder="e.g. 15">
+                                        <span>mm</span>
+                                    </div>
+                                    <!-- Length -->
+                                    <div class="col-12 mb-3 d-flex align-items-center">
+                                        <label class="form-label mb-0 me-3" style="width: 150px;">Length, L: </label>
+                                        <input type="number" class="form-control me-2" placeholder="e.g. 6000">
+                                        <span>mm</span>
+                                    </div>
+                                </div>
+                                <!-- Result -->
+                                <div class="mt-2">
+                                    <h6><strong>Result</strong></h6>
+                                    <p>Weight per meter: <strong class="text-primary">4.2 kg/m</strong></p>
+                                    <p>Total weight: <strong class="text-primary">4.2 kg</strong></p>
+                                </div>
+                            </div>
+
+                            <!-- Right: Image -->
+                            <div class="col-lg-6 d-flex align-items-center">
+                                <img src="https://placehold.co/200x200?text=IPN" class="img-fluid rounded border w-100"
+                                    alt="I-Beam Illustration" />
+                            </div>
+                        </div>
+                    </div>
+
+                    {{-- Beams - IPE --}}
+                    <div id="tab14" class="tab-content-item d-none">
+                        <h5 class="mb-3">Calculator for Beams - IPE</h5>
+                        <div class="row">
+                            <!-- Left: Form Inputs -->
+                            <div class="col-lg-6 mb-4 mb-lg-0">
+                                <p>Input your values in the fields below:</p>
+                                <div class="row">
+                                    <!-- Profile -->
+                                    <div class="mb-3 d-flex align-items-center">
+                                        <label class="form-label mb-0 me-3" style="width: 140px;">Profile:</label>
+                                        <select class="form-select">
+                                            <option selected>IPE 80</option>
+                                            <option>IPE 100</option>
+                                            <option>IPE 120</option>
+                                            <option>IPE 140</option>
+                                            <option>IPE 160</option>
+                                            <option>IPE 180</option>
+                                            <option>IPE 200</option>
+                                            <option>IPE 220</option>
+                                            <option>IPE 240</option>
+                                            <option>IPE 270</option>
+                                            <option>IPE 300</option>
+                                            <option>IPE 330</option>
+                                            <option>IPE 360</option>
+                                            <option>IPE 400</option>
+                                            <option>IPE 450</option>
+                                            <option>IPE 500</option>
+                                            <option>IPE 550</option>
+                                            <option>IPE 600</option>
+                                        </select>
+                                    </div>
+
                                     <!-- Height, h -->
                                     <div class="col-12 mb-3 d-flex align-items-center">
                                         <label class="form-label mb-0 me-3" style="width: 150px;">Height, h</label>
@@ -879,21 +992,19 @@
                                     </div>
                                     <!-- Width of flange, b -->
                                     <div class="col-12 mb-3 d-flex align-items-center">
-                                        <label class="form-label mb-0 me-3" style="width: 150px;">Flange width, b</label>
+                                        <label class="form-label mb-0 me-3" style="width: 150px;">width, b</label>
                                         <input type="number" class="form-control me-2" placeholder="e.g. 150">
                                         <span>mm</span>
                                     </div>
                                     <!-- Thickness of web, tw -->
                                     <div class="col-12 mb-3 d-flex align-items-center">
-                                        <label class="form-label mb-0 me-3" style="width: 150px;">Web thickness,
-                                            tw</label>
+                                        <label class="form-label mb-0 me-3" style="width: 150px;">thickness,s</label>
                                         <input type="number" class="form-control me-2" placeholder="e.g. 10">
                                         <span>mm</span>
                                     </div>
                                     <!-- Thickness of flange, tf -->
                                     <div class="col-12 mb-3 d-flex align-items-center">
-                                        <label class="form-label mb-0 me-3" style="width: 150px;">Flange thickness,
-                                            tf</label>
+                                        <label class="form-label mb-0 me-3" style="width: 150px;">thickness,t</label>
                                         <input type="number" class="form-control me-2" placeholder="e.g. 15">
                                         <span>mm</span>
                                     </div>
@@ -907,112 +1018,188 @@
                                 <!-- Result -->
                                 <div class="mt-2">
                                     <h6><strong>Result</strong></h6>
-                                    <p>Single piece weight: <strong class="text-primary">N/A</strong></p>
-                                    <p>Total weight: <strong class="text-primary">N/A</strong></p>
+                                    <p>Weight per meter: <strong class="text-primary">4.2 kg/m</strong></p>
+                                    <p>Total weight: <strong class="text-primary">4.2 kg</strong></p>
                                 </div>
                             </div>
 
                             <!-- Right: Image -->
                             <div class="col-lg-6 d-flex align-items-center">
-                                <img src="https://placehold.co/300x200?text=IPN" class="img-fluid rounded border w-100"
+                                <img src="https://placehold.co/200x200?text=IPE" class="img-fluid rounded border w-100"
                                     alt="I-Beam Illustration" />
                             </div>
                         </div>
                     </div>
 
-                    {{-- Beams - IPE --}}
-                    <div id="tab14" class="tab-content-item d-none">
-                        <h5 class="mb-3">Beams - IPE</h5>
-                        <div class="row g-4">
-                            <div class="col-6">
-                                <label class="form-label">Thickness, t (mm)</label>
-                                <input type="number" class="form-control" placeholder="e.g. 1" />
-                            </div>
-                            <div class="col-6">
-                                <label class="form-label">Width, W (mm)</label>
-                                <input type="number" class="form-control" placeholder="e.g. 1000" />
-                            </div>
-                            <div class="col-6">
-                                <label class="form-label">Length, L (mm)</label>
-                                <input type="number" class="form-control" placeholder="e.g. 2000" />
-                            </div>
-                            <div class="col-6">
-                                <label class="form-label">Number of pieces</label>
-                                <input type="number" class="form-control" placeholder="e.g. 1" />
-                            </div>
-                        </div>
-                        <div class="mt-4">
-                            <h6><strong>Result</strong></h6>
-                            <p>Single piece weight: <strong class="text-primary">15.7 kg</strong></p>
-                            <p>Total weight: <strong class="text-primary">15.7 kg</strong></p>
-                        </div>
-                        <div class="mt-4">
-                            <img src="https://placehold.co/800x300" class="img-fluid rounded border"
-                                alt="Placeholder Image">
-                        </div>
-                    </div>
-
                     {{-- Beams - HEA (IPBL) --}}
                     <div id="tab15" class="tab-content-item d-none">
-                        <h5 class="mb-3">Beams - HEA (IPBL)</h5>
-                        <div class="row g-4">
-                            <div class="col-6">
-                                <label class="form-label">Thickness, t (mm)</label>
-                                <input type="number" class="form-control" placeholder="e.g. 1" />
+                        <h5 class="mb-3">Calculator for Beams - IPE</h5>
+                        <div class="row">
+                            <!-- Left: Form Inputs -->
+                            <div class="col-lg-6 mb-4 mb-lg-0">
+                                <p>Input your values in the fields below:</p>
+                                <div class="row">
+                                    <!-- Profile -->
+                                    <div class="mb-3 d-flex align-items-center">
+                                        <label class="form-label mb-0 me-3" style="width: 140px;">Profile:</label>
+                                        <select class="form-select">
+                                            <option selected>HEA 100</option>
+                                            <option>HEA 120</option>
+                                            <option>HEA 140</option>
+                                            <option>HEA 160</option>
+                                            <option>HEA 180</option>
+                                            <option>HEA 200</option>
+                                            <option>HEA 220</option>
+                                            <option>HEA 240</option>
+                                            <option>HEA 260</option>
+                                            <option>HEA 280</option>
+                                            <option>HEA 300</option>
+                                            <option>HEA 320</option>
+                                            <option>HEA 340</option>
+                                            <option>HEA 360</option>
+                                            <option>HEA 400</option>
+                                            <option>HEA 450</option>
+                                            <option>HEA 500</option>
+                                            <option>HEA 550</option>
+                                            <option>HEA 600</option>
+                                            <option>HEA 650</option>
+                                            <option>HEA 700</option>
+                                            <option>HEA 800</option>
+                                            <option>HEA 900</option>
+                                            <option>HEA 1000</option>
+                                        </select>
+                                    </div>
+
+                                    <!-- Height, h -->
+                                    <div class="col-12 mb-3 d-flex align-items-center">
+                                        <label class="form-label mb-0 me-3" style="width: 150px;">Height, h</label>
+                                        <input type="number" class="form-control me-2" placeholder="e.g. 300">
+                                        <span>mm</span>
+                                    </div>
+                                    <!-- Width of flange, b -->
+                                    <div class="col-12 mb-3 d-flex align-items-center">
+                                        <label class="form-label mb-0 me-3" style="width: 150px;">width, b</label>
+                                        <input type="number" class="form-control me-2" placeholder="e.g. 150">
+                                        <span>mm</span>
+                                    </div>
+                                    <!-- Thickness of web, tw -->
+                                    <div class="col-12 mb-3 d-flex align-items-center">
+                                        <label class="form-label mb-0 me-3" style="width: 150px;">thickness,s</label>
+                                        <input type="number" class="form-control me-2" placeholder="e.g. 10">
+                                        <span>mm</span>
+                                    </div>
+                                    <!-- Thickness of flange, tf -->
+                                    <div class="col-12 mb-3 d-flex align-items-center">
+                                        <label class="form-label mb-0 me-3" style="width: 150px;">thickness,t</label>
+                                        <input type="number" class="form-control me-2" placeholder="e.g. 15">
+                                        <span>mm</span>
+                                    </div>
+                                    <!-- Length -->
+                                    <div class="col-12 mb-3 d-flex align-items-center">
+                                        <label class="form-label mb-0 me-3" style="width: 150px;">Length</label>
+                                        <input type="number" class="form-control me-2" placeholder="e.g. 6000">
+                                        <span>mm</span>
+                                    </div>
+                                </div>
+                                <!-- Result -->
+                                <div class="mt-2">
+                                    <h6><strong>Result</strong></h6>
+                                    <p>Weight per meter: <strong class="text-primary">4.2 kg/m</strong></p>
+                                    <p>Total weight: <strong class="text-primary">4.2 kg</strong></p>
+                                </div>
                             </div>
-                            <div class="col-6">
-                                <label class="form-label">Width, W (mm)</label>
-                                <input type="number" class="form-control" placeholder="e.g. 1000" />
+
+                            <!-- Right: Image -->
+                            <div class="col-lg-6 d-flex align-items-center">
+                                <img src="https://placehold.co/200x200?text=IPBL" class="img-fluid rounded border w-100"
+                                    alt="I-Beam Illustration" />
                             </div>
-                            <div class="col-6">
-                                <label class="form-label">Length, L (mm)</label>
-                                <input type="number" class="form-control" placeholder="e.g. 2000" />
-                            </div>
-                            <div class="col-6">
-                                <label class="form-label">Number of pieces</label>
-                                <input type="number" class="form-control" placeholder="e.g. 1" />
-                            </div>
-                        </div>
-                        <div class="mt-4">
-                            <h6><strong>Result</strong></h6>
-                            <p>Single piece weight: <strong class="text-primary">15.7 kg</strong></p>
-                            <p>Total weight: <strong class="text-primary">15.7 kg</strong></p>
-                        </div>
-                        <div class="mt-4">
-                            <img src="https://placehold.co/800x300" class="img-fluid rounded border"
-                                alt="Placeholder Image">
                         </div>
                     </div>
 
                     {{-- Beams - HEB (IPB) --}}
                     <div id="tab16" class="tab-content-item d-none">
-                        <h5 class="mb-3">Beams - HEB (IPB)</h5>
-                        <div class="row g-4">
-                            <div class="col-6">
-                                <label class="form-label">Thickness, t (mm)</label>
-                                <input type="number" class="form-control" placeholder="e.g. 1" />
+                        <h5 class="mb-3">Calculator for Beams - IPE</h5>
+                        <div class="row">
+                            <!-- Left: Form Inputs -->
+                            <div class="col-lg-6 mb-4 mb-lg-0">
+                                <p>Input your values in the fields below:</p>
+                                <div class="row">
+                                    <!-- Profile -->
+                                    <div class="mb-3 d-flex align-items-center">
+                                        <label class="form-label mb-0 me-3" style="width: 140px;">Profile:</label>
+                                        <select class="form-select">
+                                            <option selected>HEB 100</option>
+                                            <option>HEB 120</option>
+                                            <option>HEB 140</option>
+                                            <option>HEB 160</option>
+                                            <option>HEB 180</option>
+                                            <option>HEB 200</option>
+                                            <option>HEB 220</option>
+                                            <option>HEB 240</option>
+                                            <option>HEB 260</option>
+                                            <option>HEB 280</option>
+                                            <option>HEB 300</option>
+                                            <option>HEB 320</option>
+                                            <option>HEB 340</option>
+                                            <option>HEB 360</option>
+                                            <option>HEB 400</option>
+                                            <option>HEB 450</option>
+                                            <option>HEB 500</option>
+                                            <option>HEB 550</option>
+                                            <option>HEB 600</option>
+                                            <option>HEB 650</option>
+                                            <option>HEB 700</option>
+                                            <option>HEB 800</option>
+                                            <option>HEB 900</option>
+                                            <option>HEB 1000</option>
+                                        </select>
+                                    </div>
+
+                                    <!-- Height, h -->
+                                    <div class="col-12 mb-3 d-flex align-items-center">
+                                        <label class="form-label mb-0 me-3" style="width: 150px;">Height, h</label>
+                                        <input type="number" class="form-control me-2" placeholder="e.g. 300">
+                                        <span>mm</span>
+                                    </div>
+                                    <!-- Width of flange, b -->
+                                    <div class="col-12 mb-3 d-flex align-items-center">
+                                        <label class="form-label mb-0 me-3" style="width: 150px;">width, b</label>
+                                        <input type="number" class="form-control me-2" placeholder="e.g. 150">
+                                        <span>mm</span>
+                                    </div>
+                                    <!-- Thickness of web, tw -->
+                                    <div class="col-12 mb-3 d-flex align-items-center">
+                                        <label class="form-label mb-0 me-3" style="width: 150px;">thickness,s</label>
+                                        <input type="number" class="form-control me-2" placeholder="e.g. 10">
+                                        <span>mm</span>
+                                    </div>
+                                    <!-- Thickness of flange, tf -->
+                                    <div class="col-12 mb-3 d-flex align-items-center">
+                                        <label class="form-label mb-0 me-3" style="width: 150px;">thickness,t</label>
+                                        <input type="number" class="form-control me-2" placeholder="e.g. 15">
+                                        <span>mm</span>
+                                    </div>
+                                    <!-- Length -->
+                                    <div class="col-12 mb-3 d-flex align-items-center">
+                                        <label class="form-label mb-0 me-3" style="width: 150px;">Length</label>
+                                        <input type="number" class="form-control me-2" placeholder="e.g. 6000">
+                                        <span>mm</span>
+                                    </div>
+                                </div>
+                                <!-- Result -->
+                                <div class="mt-2">
+                                    <h6><strong>Result</strong></h6>
+                                    <p>Weight per meter: <strong class="text-primary">4.2 kg/m</strong></p>
+                                    <p>Total weight: <strong class="text-primary">4.2 kg</strong></p>
+                                </div>
                             </div>
-                            <div class="col-6">
-                                <label class="form-label">Width, W (mm)</label>
-                                <input type="number" class="form-control" placeholder="e.g. 1000" />
+
+                            <!-- Right: Image -->
+                            <div class="col-lg-6 d-flex align-items-center">
+                                <img src="https://placehold.co/200x200?text=IPE" class="img-fluid rounded border w-100"
+                                    alt="I-Beam Illustration" />
                             </div>
-                            <div class="col-6">
-                                <label class="form-label">Length, L (mm)</label>
-                                <input type="number" class="form-control" placeholder="e.g. 2000" />
-                            </div>
-                            <div class="col-6">
-                                <label class="form-label">Number of pieces</label>
-                                <input type="number" class="form-control" placeholder="e.g. 1" />
-                            </div>
-                        </div>
-                        <div class="mt-4">
-                            <h6><strong>Result</strong></h6>
-                            <p>Single piece weight: <strong class="text-primary">15.7 kg</strong></p>
-                            <p>Total weight: <strong class="text-primary">15.7 kg</strong></p>
-                        </div>
-                        <div class="mt-4">
-                            <img src="https://placehold.co/800x300" class="img-fluid rounded border"
-                                alt="Placeholder Image">
                         </div>
                     </div>
 
