@@ -13,13 +13,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-95HT8CTVJC"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-95HT8CTVJC');
-</script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-95HT8CTVJC');
+    </script>
 
 
     {{--
@@ -56,6 +59,12 @@
 
     <!-- Responsive stylesheet -->
     <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
+
+    <style>
+        .nav-link:focus-visible {
+            box-shadow: none !important;
+        }
+    </style>
 
 
 </head>
@@ -238,18 +247,17 @@
 
                             <nav class="main-menu navbar navbar-expand-lg">
                                 <div class="navbar-header">
-                                    <button type="button"
-                                        class="navbar-toggler ms-3 rounded-0 border-0"
+                                    <button type="button" class="navbar-toggler ms-3 rounded-0 border-0"
                                         data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
                                         <span class="navbar-toggler-icon"></span>
                                     </button>
                                 </div>
                                 <div class="collapse navbar-collapse clearfix">
                                     <ul class="navigation navbar-nav me-auto mb-2 mb-lg-0 clearfix">
-                                        <li class="nav-item"><a class="nav-link"
-                                                href="{{ route('index') }}">Home</a></li>
-                                        <li class="nav-item"><a class="nav-link"
-                                                href="{{ route('about-us') }}">About Us</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="{{ route('index') }}">Home</a>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link" href="{{ route('about-us') }}">About
+                                                Us</a></li>
                                         <li class="nav-item dropdown"><a class="nav-link"
                                                 href="{{ url('/products') }}" data-bs-toggle="dropdown">Products</a>
                                             <ul class="dropdown-menu"
@@ -258,10 +266,10 @@
                                                 @php
                                                     $productCategories = [
                                                         'Pipes & Tubes',
-                                                        'Sheets, Plates & Coils',
-                                                        'Bars & Rods',
-                                                        'Pipe Fittings, Flanges & Fasteners',
-                                                        'Special Fabricated Products',
+                                                        // 'Sheets, Plates & Coils',
+                                                        // 'Bars & Rods',
+                                                        // 'Pipe Fittings, Flanges & Fasteners',
+                                                        // 'Special Fabricated Products',
                                                     ];
                                                 @endphp
 
@@ -293,16 +301,16 @@
                                                         'Incoloy',
                                                         'Nickel Based Superalloys',
                                                         'Titanium',
-                                                        'Duplex & Super Duplex',
+                                                        // 'Duplex & Super Duplex',
                                                         'Austenitic Stainless Steel',
-                                                        'High Strength Stainless Steel',
+                                                        // 'High Strength Stainless Steel',
                                                         'Super Austenitic Stainless Steel',
-                                                        'Zirconium',
+                                                        // 'Zirconium',
                                                         'Engineering Steels',
                                                         'Aluminium Alloys',
-                                                        'Copper Alloys',
+                                                        // 'Copper Alloys',
                                                         'Hard To Find & Special Alloys',
-                                                        'Haynes Superalloys',
+                                                        // 'Haynes Superalloys',
                                                     ];
                                                 @endphp
 
@@ -323,20 +331,21 @@
 
 
                                         <li class="nav-item"><a class="nav-link" href="#">QUALITY</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="{{ route('calculator') }}">CALCULATOR</a></li>
+                                        <li class="nav-item"><a class="nav-link"
+                                                href="{{ route('calculator') }}">CALCULATOR</a></li>
                                         <li class="nav-item"><a class="nav-link" href="#">Blogs</a></li>
                                     </ul>
                                     <ul class="mobile-menu clearfix">
                                         <li><a href="{{ route('home') }}">Home</a></li>
                                         <li><a href="{{ route('about-us') }}">About Us</a></li>
 
-                                        <li class="dropdown"><a href="#">Products</a>
+                                        <li class="dropdown"><a href="{{ route('products') }}">Products</a>
                                             <ul>
                                                 <li><a href="#">PIPES & TUBES</a></li>
-                                                <li><a href="#">SHEETS, PLATES & COILS</a></li>
+                                                {{-- <li><a href="#">SHEETS, PLATES & COILS</a></li>
                                                 <li><a href="#">BARS & RODS</a></li>
                                                 <li><a href="#">PIPE FITTINGS, FLANGES & FASTENERS</a></li>
-                                                <li><a href="#">SPECIAL FABRICATED PRODUCTS</a></li>
+                                                <li><a href="#">SPECIAL FABRICATED PRODUCTS</a></li> --}}
                                             </ul>
                                         </li>
                                         <li><a href="#">MATERIALS</a></li>
@@ -418,7 +427,7 @@
                             <div class="footer-col service-col">
                                 <h3 class="footer-title">Products</h3>
                                 <ul class="footer-list">
-                                    <li><a href="{{ route('products.pipes-tubes.welded')}}">WELDED PIPES</a></li>
+                                    <li><a href="{{ route('products.pipes-tubes.welded') }}">WELDED PIPES</a></li>
                                     <li><a href="#">SEAMLESS PIPES</a></li>
                                     <li><a href="#">SHEETS & PLATES</a></li>
                                     <li><a href="#">PERFORATED SHEETS</a></li>
@@ -555,12 +564,15 @@
                         <div class="col-md-9">
                             <nav class="footer-menu d-flex justify-content-end">
                                 <ul class="nav">
-                                    <li class="nav-item"><a class="nav-link" href="{{ route('home') }}">home</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="{{ route('products') }}">Products</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="{{ route('home') }}">home</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link"
+                                            href="{{ route('products') }}">Products</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#">term &amp; condition</a>
                                     </li>
                                     <li class="nav-item"><a class="nav-link" href="#">privacy policy</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="{{ route('contact-us') }}">contact us</a></li>
+                                    <li class="nav-item"><a class="nav-link"
+                                            href="{{ route('contact-us') }}">contact us</a></li>
                                 </ul>
                             </nav>
                         </div>
