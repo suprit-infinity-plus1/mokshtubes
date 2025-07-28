@@ -301,16 +301,16 @@
                                                         'Incoloy',
                                                         'Nickel Based Superalloys',
                                                         'Titanium',
-                                                        'Duplex & Super Duplex',
+                                                        // 'Duplex & Super Duplex',
                                                         'Austenitic Stainless Steel',
-                                                        'High Strength Stainless Steel',
+                                                        // 'High Strength Stainless Steel',
                                                         'Super Austenitic Stainless Steel',
-                                                        'Zirconium',
+                                                        // 'Zirconium',
                                                         'Engineering Steels',
                                                         'Aluminium Alloys',
-                                                        'Copper Alloys',
+                                                        // 'Copper Alloys',
                                                         'Hard To Find & Special Alloys',
-                                                        'Haynes Superalloys',
+                                                        // 'Haynes Superalloys',
                                                     ];
                                                 @endphp
 
