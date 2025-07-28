@@ -260,10 +260,10 @@
                                                 @php
                                                     $productCategories = [
                                                         'Pipes & Tubes',
-                                                        'Sheets, Plates & Coils',
-                                                        'Bars & Rods',
-                                                        'Pipe Fittings, Flanges & Fasteners',
-                                                        'Special Fabricated Products',
+                                                        // 'Sheets, Plates & Coils',
+                                                        // 'Bars & Rods',
+                                                        // 'Pipe Fittings, Flanges & Fasteners',
+                                                        // 'Special Fabricated Products',
                                                     ];
                                                 @endphp
 
@@ -333,13 +333,13 @@
                                         <li><a href="{{ route('home') }}">Home</a></li>
                                         <li><a href="{{ route('about-us') }}">About Us</a></li>
 
-                                        <li class="dropdown"><a href="#">Products</a>
+                                        <li class="dropdown"><a href="{{ route('products') }}">Products</a>
                                             <ul>
                                                 <li><a href="#">PIPES & TUBES</a></li>
-                                                <li><a href="#">SHEETS, PLATES & COILS</a></li>
+                                                {{-- <li><a href="#">SHEETS, PLATES & COILS</a></li>
                                                 <li><a href="#">BARS & RODS</a></li>
                                                 <li><a href="#">PIPE FITTINGS, FLANGES & FASTENERS</a></li>
-                                                <li><a href="#">SPECIAL FABRICATED PRODUCTS</a></li>
+                                                <li><a href="#">SPECIAL FABRICATED PRODUCTS</a></li> --}}
                                             </ul>
                                         </li>
                                         <li><a href="#">MATERIALS</a></li>

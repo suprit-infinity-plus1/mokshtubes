@@ -284,11 +284,11 @@ class MainController extends Controller
     {
         $types = [
             ['name' => 'Welded Pipes', 'slug' => 'welded-pipes'],
-            ['name' => 'Seamless Pipes', 'slug' => 'seamless-pipes'],
-            ['name' => 'Capillaries', 'slug' => 'capillaries'],
-            ['name' => 'Hollow Section Pipe', 'slug' => 'hollow-section-pipe'],
-            ['name' => 'U-Bent Tubes', 'slug' => 'u-bent-tubes'],
-            ['name' => 'Boiler & Heat Exchanger Tubes', 'slug' => 'boiler-heat-exchanger-tubes'],
+            // ['name' => 'Seamless Pipes', 'slug' => 'seamless-pipes'],
+            // ['name' => 'Capillaries', 'slug' => 'capillaries'],
+            // ['name' => 'Hollow Section Pipe', 'slug' => 'hollow-section-pipe'],
+            // ['name' => 'U-Bent Tubes', 'slug' => 'u-bent-tubes'],
+            // ['name' => 'Boiler & Heat Exchanger Tubes', 'slug' => 'boiler-heat-exchanger-tubes'],
         ];
 
         return view('frontend.products.pipes-tubes.index', compact('types'));
