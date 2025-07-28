@@ -2000,7 +2000,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="single-service.html">
+                            <a class="w-100" href="#">
                                 <img class="w-100" src="https://placehold.co/300x150" alt="NICKLE ALLOYS">
                             </a>
                         </figure>
@@ -2012,7 +2012,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="single-service.html">
+                            <a class="w-100" href="#">
                                 <img class="w-100" src="https://placehold.co/300x150" alt="STAINLESS STEEL">
                             </a>
                         </figure>
@@ -2024,7 +2024,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="single-service.html">
+                            <a class="w-100" href="#">
                                 <img class="w-100" src="https://placehold.co/300x150" alt="DUPLEX & SUPER">
                             </a>
                         </figure>
@@ -2037,7 +2037,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#single-service.html">
+                            <a class="w-100" href="##">
                                 <img class="w-100" src="https://placehold.co/300x150" alt="TITANIUM ALLOYS">
                             </a>
                         </figure>
@@ -2049,7 +2049,7 @@
                 <div class="col-md-4 col-sm-6 mb-4 ">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" >
+                            <a class="w-100">
                                 <img class="w-100" src="https://placehold.co/300x150" alt="RARE TO ALLOYS">
                             </a>
                         </figure>
@@ -2061,7 +2061,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" >
+                            <a class="w-100">
                                 <img class="w-100" src="https://placehold.co/300x150" alt="CARBON ALLOYS">
                             </a>
                         </figure>

@@ -35,7 +35,7 @@
                     ['name' => 'aluminium alloys 6012', 'slug' => 'aluminium-alloys-6012'],
                     ['name' => 'aluminium alloys 6063', 'slug' => 'aluminium-alloys-6063'],
                     ['name' => 'aluminium alloys 6082 T6', 'slug' => 'aluminium-alloys-6082-T6'],
-                    ['name' => 'aluminium alloys 7075', 'slug' => '-aluminium-alloys7075'],
+                    ['name' => 'aluminium alloys 7075', 'slug' => 'aluminium-alloys7075'],
                     ['name' => 'aluminium alloys HE30', 'slug' => 'aluminium-alloys-HE30'],
                 ];
             @endphp

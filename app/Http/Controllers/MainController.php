@@ -76,7 +76,8 @@ class MainController extends Controller
             ['name' => 'Hastelloy X', 'slug' => 'hastelloy-x'],
         ];
 
-        return view('frontend.materials.hastelloy.index', compact('grades'));
+        // return view('frontend.materials.hastelloy.index', compact('grades'));
+        return view('frontend.materials.hastelloy.index');
     }
 
     public function monel()
