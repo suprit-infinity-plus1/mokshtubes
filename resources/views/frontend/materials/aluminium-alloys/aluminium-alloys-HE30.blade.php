@@ -37,14 +37,15 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a manufacturer, supplier,
                             exporter, importer, and stockist of<strong class="text-black"> Aluminium Alloy HE30
-                                products</strong> including sheets, plates,
+                                <a href="{{ route('products') }}">products</a></strong> including sheets, plates,
                             bars, rods, and extrusions.
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">Aluminium HE30</strong> is a high-strength aerospace-grade alloy,
                             part of the 7000 series, primarily alloyed with zinc and magnesium. It offers excellent
                             mechanical properties, including high tensile strength, good fatigue resistance, and moderate
                             corrosion resistance. HE30 is commonly used in aerospace, defense, and other high-performance
-                            engineering applications where lightweight and strength are critical.
+                            <a href="{{ route('materials.engineering-Steels') }}">engineering</a> applications where
+                            lightweight and strength are critical.
                     </div>
                 </div>
             </div>

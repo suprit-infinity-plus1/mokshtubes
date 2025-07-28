@@ -37,8 +37,9 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted manufacturer,
                             supplier, exporter, importer, and stockist of<strong class="text-black"> Aluminium Alloy 1100
-                                products</strong> such as sheets,
-                            plates, tubes, pipes, bars, rods, and custom fabrications
+                                <a href="{{ route('products') }}">products</a> </strong> such as sheets,
+                            plates, tubes,<a href="{{ route('products.pipes-tubes') }}"> pipes</a>, bars, rods, and custom
+                            fabrications
 
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">Aluminium 1100</strong> is a commercially pure aluminum grade with a

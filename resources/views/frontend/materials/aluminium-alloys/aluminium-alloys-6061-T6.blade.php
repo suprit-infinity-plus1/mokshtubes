@@ -37,8 +37,9 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a leading manufacturer,
                             supplier, exporter, importer, and stockist of<strong class="text-black"> Aluminium Alloy 6061-T6
-                                products</strong> including sheets,
-                            plates, tubes, pipes, bars, rods, and custom fabrications.
+                                <a href="{{ route('products') }}"> products</a></strong> including sheets,
+                            plates, tubes,<a href="{{ route('products.pipes-tubes') }}"> pipes</a>, bars, rods, and custom
+                            fabrications.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
@@ -356,7 +357,8 @@
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Aluminium 6061-T6</h2>
-                <p class="text-center pb-3"><strong class="text-dark">Aluminium 6061-T6</strong> is widely used across multiple industries due to its excellent strength, corrosion resistance, and machinability:
+                <p class="text-center pb-3"><strong class="text-dark">Aluminium 6061-T6</strong> is widely used across
+                    multiple industries due to its excellent strength, corrosion resistance, and machinability:
             </div>
 
             <div class="row g-4 justify-content-center">
@@ -389,7 +391,8 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-droplet"></i></div>
                         <h5>Construction & Architecture</h5>
-                        <p>Structural framing, window frames, and curtain walls requiring strength and weather resistance.</p>
+                        <p>Structural framing, window frames, and curtain walls requiring strength and weather resistance.
+                        </p>
                     </div>
                 </div>
 
@@ -473,7 +476,8 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    For inquiries, pricing, or customized Aluminium 6061-T6 solutions, <strong>Moksh Tubes & Fittings LLP</strong> your reliable partner in aluminium alloys.</p>
+                    For inquiries, pricing, or customized Aluminium 6061-T6 solutions, <strong>Moksh Tubes & Fittings
+                        LLP</strong> your reliable partner in aluminium alloys.</p>
                 <!-- Call button -->
                 <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
             </div>
