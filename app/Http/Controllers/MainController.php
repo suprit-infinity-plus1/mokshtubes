@@ -48,10 +48,10 @@ class MainController extends Controller
             'Austenitic Stainless Steel',
             // 'High Strength Stainless Steel',
             'Super Austenitic Stainless Steel',
-            // 'Zirconium',
+            'Zirconium',
             'Engineering Steels',
             'Aluminium Alloys',
-            // 'Copper Alloys',
+            'Copper Alloys',
             'Hard To Find And Special Alloys',
             // 'Haynes Superalloys',
         ];
@@ -208,8 +208,8 @@ class MainController extends Controller
             ['name' => 'Austenitic Stainless Steel 317', 'slug' => 'austenitic-stainless-steel-317'],
             ['name' => 'Austenitic Stainless Steel 321', 'slug' => 'austenitic-stainless-steel-321'],
             ['name' => 'Austenitic Stainless Steel 347', 'slug' => 'austenitic-stainless-steel-347'],
-            ['name' => 'Austenitic Stainless Steel Nitronic 50', 'slug' => 'austenitic-stainless-steel-Nitronic-50'],
-            ['name' => 'Austenitic Stainless Steel Nitronic 60', 'slug' => 'austenitic-stainless-steel-Nitronic-60'],
+            ['name' => 'Austenitic Stainless Steel Nitronic 50', 'slug' => 'austenitic-stainless-steel-nitronic-50'],
+            ['name' => 'Austenitic Stainless Steel Nitronic 60', 'slug' => 'austenitic-stainless-steel-nitronic-60'],
 
         ];
 
@@ -241,6 +241,27 @@ class MainController extends Controller
         ];
 
         return view('frontend.materials.engineering-steels.index', compact('grades'));
+    }
+
+    public function copperAlloys()
+    {
+        $grades = [
+            ['name' => 'Copper Alloys Aluminium Bronze', 'slug' => 'copper-alloys-aluminium-bronze'],
+            ['name' => 'Copper Alloys Beryllium Copper', 'slug' => 'copper-alloys-beryllium-copper'],
+            ['name' => 'Copper Alloys C44300', 'slug' => 'copper-alloys-c44300'],
+            ['name' => 'Copper Alloys C46400', 'slug' => 'copper-alloys-c46400'],
+            ['name' => 'Copper Alloys C63000', 'slug' => 'copper-alloys-c63000'],
+            ['name' => 'Copper Alloys C71500', 'slug' => 'copper-alloys-c71500'],
+            ['name' => 'Copper Alloys C71520', 'slug' => 'copper-alloys-c71520'],
+            ['name' => 'Copper Alloys Cartridge Brass', 'slug' => 'copper-alloys-cartridge-brass'],
+            ['name' => 'Copper Alloys Cu Ni 70_30', 'slug' => 'copper-alloys-cu-ni-70_30'],
+            ['name' => 'Copper Alloys Cu Ni-90_10', 'slug' => 'copper-alloys-cu-ni-90_10'],
+            ['name' => 'Copper Alloys Ec Copper', 'slug' => 'copper-alloys-ec-copper'],
+            ['name' => 'Copper Alloys Etp Copper', 'slug' => 'copper-alloys-etp-copper'],
+            ['name' => 'Copper Alloys Navel Brass', 'slug' => 'copper-alloys-navel-brass'],
+        ];
+
+        return view('frontend.materials.copper-alloys.index', compact('grades'));
     }
 
 

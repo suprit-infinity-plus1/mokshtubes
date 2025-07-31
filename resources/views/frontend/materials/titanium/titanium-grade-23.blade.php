@@ -37,8 +37,8 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> we specialize in the
                             manufacturing, stocking, exporting, importing, and supplying of premium<strong
-                                class="text-black"> Titanium Grade 23
-                                (Ti-6Al-4V ELI) products.</strong> Our offerings include Pipes & Tubes, Pipe Fittings,
+                                class="text-black"> <a href="{{ route('materials.titanium') }}">Titanium Grade 23</a>
+                                (Ti-6Al-4V ELI) products.</strong> Our offerings include <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings,
                             Flanges,
                             Fasteners, Sheets & Plates, Coils, Wires, Round Bars, Flat Bars, Angles, Channels, Welding Rods,
                             Wire Mesh, and other custom-engineered components that meet the strictest performance demands.
@@ -50,7 +50,7 @@
                             Interstitial), is a high-purity version of the popular Grade 5 alloy. With enhanced
                             biocompatibility, fracture toughness, and superior ductility, it’s particularly well-suited for
                             critical medical, aerospace, and high-performance industrial applications. The alloy features a
-                            composition of 6% Aluminum, 4% Vanadium, and reduced levels of oxygen and other impurities,
+                            composition of 6% <a href="{{ route('materials.aluminium-Alloys') }}">Aluminum</a>, 4% Vanadium, and reduced levels of oxygen and other impurities,
                             offering exceptional strength-to-weight ratio, excellent fatigue resistance, and outstanding
                             corrosion resistance, especially in chloride-rich environments.
                         </p>

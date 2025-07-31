@@ -625,7 +625,7 @@
         </div>
     </section>
 
-    <section class="brand-logo sec-padd">
+    {{-- <section class="brand-logo sec-padd">
         <div class="container">
             <ul class="brand-carousel">
                 <li><a href="#"><img src="{{ asset('assets/images/brand/1.jpg') }}" alt=""></a></li>
@@ -635,7 +635,7 @@
                 <li><a href="#"><img src="{{ asset('assets/images/brand/5.jpg') }}" alt=""></a></li>
             </ul>
         </div>
-    </section>
+    </section> --}}
 
     <section class="blog-section sec-padd2">
         <div class="container">

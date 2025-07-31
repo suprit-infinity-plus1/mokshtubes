@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Hastelloy B2 - Moksh Tubes & Fittings LLP')
+@section('title', 'Aluminium Bronze - Moksh Tubes & Fittings LLP')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -8,7 +8,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Hastelloy b2</h1>
+                    <h1>Aluminium Bronze</h1>
                 </div>
             </div>
         </div>
@@ -22,33 +22,33 @@
             </div>
 
             <h2 class="fw-semibold text-center mb-5" style="color: #db7227;">
-                Introduction To Hastelloy B‑2 / Alloy B‑2 / UNS N10665
+                Introduction To Aluminium Bronze (C95400 / C95500 / C95800)
             </h2>
 
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/hastelloy/hastelloy-b2.jpeg" alt="Hastelloy C276" class="img-fluid rounded shadow-sm">
+                    <img src="https://placehold.co/550x400?"alt="Aluminium Bronze" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a renowned manufacturer,
-                            supplier, exporter, importer, and stockist of <strong class="text-black">HASTELLOY B2</strong>
-                            Products. Including <a href="{{ route('products.pipes-tubes') }}">pipes & tubes</a>, fittings, flanges, sheets, plates, bars, wires, welding rods,
-                            wire mesh, and custom-engineered components. Leveraging our deep expertise in nickel-molybdenum
-                            alloys and a robust sourcing network, we deliver high-performance B‑2 solutions tailored to your
-                            industrial needs.
+                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted manufacturer,
+                            stockist, and global supplier of high-quality<strong class="text-black"> Aluminium Bronze
+                                products</strong>. This family of
+                            copper-based alloys with <a href="{{ route('materials.aluminium-Alloys') }}">aluminium</a> as
+                            the primary alloying element offers outstanding strength,
+                            wear resistance, and corrosion resistance in marine and industrial environments.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black"><a href="{{ route('materials.hastelloy') }}">HASTELLOY B2</a></strong class="text-black"> is a <a href="{{ route('materials.nickel-Based-Superalloys') }}">nickel alloy
-                            specifically</a> formulated for superior resistance to reducing acids—including hydrochloric,
-                            sulfuric, acetic, and phosphoric—especially valuable where oxidizing alloys fail under welded
-                            conditions. Its low chromium, carbon, and silicon content ensures minimal carbide formation
-                            during welding, maintaining alloy integrity in corrosive and high-temperature environments.
+                            <strong class="text-black"><a href="{{ route('materials.copper-Alloys') }}">Aluminium
+                                    Bronze</a></strong>, typically contains 5% to 12% aluminium,
+                            along with iron, nickel, and manganese for enhanced mechanical and anti-corrosive properties. It
+                            is the material of choice for demanding applications involving seawater, chemical exposure, and
+                            heavy-duty loads.
                         </p>
                     </div>
                 </div>
@@ -69,50 +69,66 @@
                             <thead class="table-dark text-center">
                                 <tr>
                                     <th>Element</th>
-                                    <th>Composition (%)</th>
+                                    <th>C95400 (%)</th>
+                                    <th>C95500 (%)</th>
+                                    <th>C95800 (%)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr>
-                                    <td>Nickel</td>
-                                    <td> 65 (Balance)</td>
+                                    <td>Carbon</td>
+                                    <td>83.0</td>
+                                    <td>79.0</td>
+                                    <td>77.0</td>
                                 </tr>
                                 <tr>
-                                    <td>Chromium</td>
-                                    <td>1.0</td>
-                                </tr>
-                                <tr>
-                                    <td>Molybdenum</td>
-                                    <td>26 – 30</td>
+                                    <td>Aluminium</td>
+                                    <td>10.5 – 11.5</td>
+                                    <td>10.0 – 11.5</td>
+                                    <td>8.5 – 9.5</td>
                                 </tr>
                                 <tr>
                                     <td>Iron</td>
-                                    <td>2.0</td>
+                                    <td>3.0 max</td>
+                                    <td>3.5 – 5.0</td>
+                                    <td>4.0 – 5.0</td>
                                 </tr>
                                 <tr>
-                                    <td>Cobalt</td>
-                                    <td>1.0</td>
+                                    <td>Nickel</td>
+                                    <td>—</td>
+                                    <td>4.5 – 5.5</td>
+                                    <td>4.5 – 5.5</td>
                                 </tr>
                                 <tr>
                                     <td>Manganese</td>
-                                    <td>1.0</td>
+                                    <td>0.5 max</td>
+                                    <td>1.5 max</td>
+                                    <td>1.5 max</td>
                                 </tr>
                                 <tr>
-                                    <td>Silicon</td>
-                                    <td>0.10</td>
+                                    <td>Other Elements</td>
+                                    <td>1.5 max</td>
+                                    <td>1.5 max</td>
+                                    <td>1.5 max</td>
                                 </tr>
-                                <tr>
-                                    <td>Carbon</td>
-                                    <td>0.02</td>
-                                </tr>
-                                <tr>
+                                {{-- <tr>
                                     <td>Phosphorus</td>
-                                    <td>0.04</td>
+                                    <td>≤ 0.035</td>
+                                    <td>≤ 0.035</td>
+                                    <td>≤ 0.035</td>
                                 </tr>
                                 <tr>
                                     <td>Sulfur</td>
-                                    <td>0.03</td>
+                                    <td>≤ 0.03</td>
+                                    <td>≤ 0.03</td>
+                                    <td>≤ 0.03</td>
                                 </tr>
+                                <tr>
+                                    <td>Nitrogen</td>
+                                    <td>0.20 – 0.30</td>
+                                    <td>0.20 – 0.30</td>
+                                    <td>0.20 – 0.30</td>
+                                </tr> --}}
                             </tbody>
                         </table>
                     </div>
@@ -143,24 +159,34 @@
                             <tbody class="text-center">
                                 <tr>
                                     <td>Density</td>
-                                    <td>9.24 g/cm³</td>
+                                    <td>7.6 – 7.8 g/cm³</td>
                                 </tr>
                                 <tr>
                                     <td>Melting Point</td>
-                                    <td>1370°C (2500°F)</td>
+                                    <td>1030 – 1045 °C</td>
                                 </tr>
                                 <tr>
-                                    <td>Tensile Strength</td>
-                                    <td>110,000 psi / 760 MPa</td>
+                                    <td>Thermal Conductivity</td>
+                                    <td>40 – 60 W/m·K</td>
                                 </tr>
                                 <tr>
-                                    <td>Yield Strength (0.2% Offset)</td>
-                                    <td>52,000 psi / 355 MPa</td>
+                                    <td>Electrical Conductivity</td>
+                                    <td>7 – 12% IACS</td>
                                 </tr>
                                 <tr>
-                                    <td>Elongation</td>
-                                    <td>40%</td>
+                                    <td>Magnetic Properties</td>
+                                    <td>Non-magnetic</td>
                                 </tr>
+                                {{--  <tr>
+                                    <td>Thermal Conductivity</td>
+                                    <td>45 W/m·K</td>
+                                    <td>45 W/m·K</td>
+                                </tr>
+                                <tr>
+                                    <td>Specific Heat Capacity</td>
+                                    <td>460 J/kg·K</td>
+                                    <td>460 J/kg·K</td>
+                                </tr> --}}
                             </tbody>
                         </table>
                     </div>
@@ -176,39 +202,53 @@
                             <thead class="table-dark text-center">
                                 <tr>
                                     <th>Property</th>
-                                    <th>Metric</th>
-                                    <th>Imperial</th>
+                                    <th>Annealed</th>
+                                    <th>Hot-Finished</th>
+                                    <th>Cold Drawn</th>
+                                    <th>Cast / As-Cast</th>
+                                    <th>Heat Treated / Aged</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr>
-                                    <td>Tensile Strength (@thickness 4.80–25.4 mm, 538°C/@thickness 0.189–1.00 in, 1000°F)
-                                    </td>
-                                    <td>760 MPa</td>
-                                    <td>110,000 psi</td>
+                                    <td>Tensile Strength (ksi / MPa)</td>
+                                    <td>70–90 ksi / 480–620 MPa</td>
+                                    <td>90–115 ksi / 620–790 MPa</td>
+                                    <td>110–150 ksi / 760–1030 MPa</td>
+                                    <td>55–70 ksi / 380–480 MPa</td>
+                                    <td>120–160 ksi / 830–1100 MPa</td>
                                 </tr>
                                 <tr>
-                                    <td>Yield Strength (0.2% offset, @thickness 2.40 mm, 427°C/@thickness 0.0945 in, 801°F)
-                                    </td>
-                                    <td>355 MPa</td>
-                                    <td>52,000 psi</td>
+                                    <td>Yield Strength (0.2%) (ksi / MPa)</td>
+                                    <td>25–45 ksi / 170–310 MPa</td>
+                                    <td>45–80 ksi / 310–550 MPa</td>
+                                    <td>70–110 ksi / 480–760 MPa</td>
+                                    <td>20–40 ksi / 140–275 MPa</td>
+                                    <td>110–140 ksi / 760–965 MPa</td>
                                 </tr>
                                 <tr>
-                                    <td>Elastic Modulus (RT)</td>
-                                    <td>210 GPa</td>
-                                    <td>30,000 ksi</td>
+                                    <td>Elongation (%)</td>
+                                    <td>30–50%</td>
+                                    <td>15–35%</td>
+                                    <td>10–20%</td>
+                                    <td>10–30%</td>
+                                    <td>5–15%</td>
                                 </tr>
                                 <tr>
-                                    <td>Elongation at Break (in 50.8 mm, @thickness 1.60–4.70 mm, 204°C/@thickness
-                                        0.0630–0.185 in, 399°F)</td>
-                                    <td>40%</td>
-                                    <td>40%</td>
+                                    <td>Hardness (Rockwell B / C)</td>
+                                    <td>70–85 B</td>
+                                    <td>85–95 B0</td>
+                                    <td>90–100 B</td>
+                                    <td>60–75 B</td>
+                                    <td>25–40 C</td>
                                 </tr>
                                 <tr>
-                                    <td>Hardness, Rockwell B (plate)</td>
-                                    <td>88</td>
-                                    <td>88</td>
-                                </tr>
+                                    <td>Brinell Hardness (HB)</td>
+                                    <td>150–230 HB</td>
+                                    <td>200–280 HB</td>
+                                    <td>230–300 HB</td>
+                                    <td>120–180 HB</td>
+                                    <td>250–320 HB</td>
                             </tbody>
                         </table>
                     </div>
@@ -236,16 +276,13 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Products in Hastelloy B2</h2>
+                <h2>Products in Aluminium Bronze</h2>
             </div>
-
             <!-- Highlighted Paragraph -->
             <div class="row justify-content-center mb-4" style="text-align: justify;">
                 <div class="col-lg-10">
                     <p class="fs-6">
-                        <strong class="text-dark">MOKSH TUBES & FITTINGS LLP</strong> offers Hastelloy B‑2 in a
-                        comprehensive
-                        range of forms and product types:
+                        <strong class="text-dark">Aluminium Bronze</strong> is available in:
                     </p>
                 </div>
             </div>
@@ -270,7 +307,7 @@
             <div class="row justify-content-center mb-3">
                 <div class="col-lg-10">
                     <p class="fw-bold fs-5 text-center my-4" style="color: #174268;">
-                        We offer Hastelloy B2 in a wide range of product forms, including:
+                        Aluminium Bronze products are produced to the following global standards:
                     </p>
                 </div>
             </div>
@@ -282,7 +319,8 @@
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
                             <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
                                 <div class="product-card h-100">
-                                    <img src="https://placehold.co/300x200?" alt="{{ $product }}"class="img-fluid  w-100">
+                                    <img src="https://placehold.co/300x200?" alt="{{ $product }}"
+                                        class="img-fluid  w-100">
                                     <h6 class="product-card-title text-center mt-2 px-2">{{ $product }}</h6>
                                 </div>
                             </a>
@@ -304,109 +342,96 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>Maintains integrity and strength at moderate to elevated temperatures</h5>
+                        <h5>Exceptional corrosion resistance (esp. in seawater)</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h5>Exceptional resistance to reducing acids (HCl, H₂SO₄)</h5>
+                        <h5>High strength and hardness</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h5>Ideal for welded fabrication—minimizes sensitization and corrosion</h5>
+                        <h5>Non-sparking and anti-galling</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h5>Excellent ductility and weldability</h5>
+                        <h5>Excellent wear and erosion resistance</h5>
                     </div>
                 </div>
-
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
-                        <h5>Reliable in acid handling equipment, corrosion-resistant tanks, piping, and heat exchangers</h5>
+                        <h5>Good weldability and castability</h5>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
 
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Applications of Hastelloy B2</h2>
-                <p class="text-center pb-3"><strong class="text-dark">HASTELLOY B-2</strong> is a nickel-molybdenum alloy
-                    known for its excellent resistance to strong reducing environments, particularly hydrochloric acid in a
-                    wide range of concentrations and temperatures. It also resists stress corrosion cracking, pitting, and
-                    crevice attack, making it a dependable material for tough chemical processing conditions.
-                </p>
+                <h2>Applications of Aluminium Bronze</h2>
+                <p class="text-center pb-3"><strong class="text-dark">Aluminium Bronze</strong> is extensively used in
+                    highly corrosive and high-load environments:</p>
             </div>
 
             <div class="row g-4 justify-content-center">
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
-                        <h5>Chemical Processing Industry</h5>
-                        <p>Commonly used in reactors, heat exchangers, distillation columns, and piping systems handling
-                            hydrochloric, sulfuric, acetic, and phosphoric acids under reducing conditions.</p>
+                        <h5>Marine Industry</h5>
+                        <p>Propeller shafts, pump casings, valves, heat exchangers, seawater piping</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
-                        <h5>Pickling and Acid Regeneration Equipment</h5>
-                        <p>Ideal for use in pickling lines, acid tanks, and regeneration units where strong acids are used
-                            to clean and treat metal surfaces.</p>
+                        <h5>Oil & Gas</h5>
+                        <p>Subsea connectors, non-sparking tools, offshore platform fittings</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
-                        <h5>Agrochemical & Fertilizer Production</h5>
-                        <p> Deployed in acid handling systems, reactors, and piping where highly corrosive environments and
-                            reducing chemicals are present.</p>
+                        <h5>Defense & Aerospace</h5>
+                        <p>Bearing cages, aircraft bushings, landing gear components</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-droplet"></i></div>
-                        <h5>Pharmaceutical & Fine Chemicals</h5>
-                        <p>Used in vessels and systems that demand high purity and corrosion resistance to strong reducing
-                            agents during production and cleaning processes.</p>
+                        <h5>Power Generation</h5>
+                        <p>Turbine parts, valve stems, condenser tubes</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
-                        <h5>Electronics and Semiconductor Manufacturing</h5>
-                        <p>Suitable for acid handling components in wet etching and cleaning systems where metal purity and
-                            corrosion resistance are essential.</p>
+                        <h5>General Engineering</h5>
+                        <p>Gears, wear plates, bearings, nuts, and bolts</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
-                        <h5>Waste Treatment & Pollution Control</h5>
-                        <p>Applied in systems treating acidic waste streams and corrosive off-gases where reducing acids and
-                            aggressive cleaning agents are used.</p>
+                        <h5>Chemical Industry</h5>
+                        <p>Pumps, impellers, and components exposed to acid and salt media</p>
                     </div>
                 </div>
-
-
 
                 {{-- <div class="col-md-6 col-lg-4">
                 <div class="application-card">
@@ -416,11 +441,6 @@
                 </div>
             </div> --}}
             </div>
-            <p class="text-center pb-3 my-4"><strong class="text-dark">HASTELLOY B-2's</strong> Thanks to its resistance
-                to a wide range of non-oxidizing acids and its proven performance in demanding environments, HASTELLOY B-2
-                remains a trusted choice for critical chemical service where long-term corrosion resistance is key
-
-            </p>
         </div>
     </section>
 
@@ -435,28 +455,35 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Extensive experience with nickel-molybdenum alloys</h5>
+                        <h5>Large inventory of standard and custom Aluminium Bronze grades</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
-                        <h5>End-to-end supply chain from raw materials to finished parts</h5>
+                        <h5>Global supply chain with fast turnaround</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
-                        <h5>ISO-quality systems and global export compliances</h5>
+                        <h5>Adherence to ASTM, EN, BS, and ISO standards</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Tailored fabrication and responsive technical support</h5>
+                        <h5>Precision machining & value-added services available</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-6">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
+                        <h5>Reliable quality, competitive pricing, and prompt delivery</h5>
                     </div>
                 </div>
             </div>
@@ -468,11 +495,10 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    For assistance, technical specifications, or pricing inquiries, connect with <strong>Moksh Tubes & Fittings LLP</strong> – your
-                    go-to partner for  <strong>HASTELLOY B-2</strong> expertise.
-                </p>
-                <!-- Call button -->
-                <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
+                    contact <strong >Moksh Tubes & Fittings LLP</strong> — Your trusted partner for
+                    high-performance copper alloys and engineered metal solutions.
+                    <!-- Call button -->
+                    <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
             </div>
         </div>
     </section>

@@ -38,7 +38,7 @@
                         // 'Zirconium',
                         'Engineering Steels',
                         'Aluminium Alloys',
-                        // 'Copper Alloys',
+                        'Copper Alloys',
                         'Hard To Find And Special Alloys',
                         // 'Haynes Superalloys',
                     ];

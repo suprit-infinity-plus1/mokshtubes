@@ -31,18 +31,18 @@
                     ['name' => 'Austenitic Stainless Steel 309', 'slug' => 'austenitic-stainless-steel-309'],
                     ['name' => 'Austenitic Stainless Steel 310', 'slug' => 'austenitic-stainless-steel-310'],
                     ['name' => 'Austenitic Stainless Steel 316', 'slug' => 'austenitic-stainless-steel-316'],
-                    // ['name' => 'Austenitic Stainless Steel 316Ti', 'slug' => 'austenitic-stainless-steel-316Ti'],
-                    // ['name' => 'Austenitic Stainless Steel 317', 'slug' => 'austenitic-stainless-steel-317'],
-                    // ['name' => 'Austenitic Stainless Steel 321', 'slug' => 'austenitic-stainless-steel-321'],
-                    // ['name' => 'Austenitic Stainless Steel 347', 'slug' => 'austenitic-stainless-steel-347'],
-                    // [
-                    //     'name' => 'Austenitic Stainless Steel Nitronic 50',
-                    //     'slug' => 'austenitic-stainless-steel-Nitronic-50',
-                    // ],
-                    // [
-                    //     'name' => 'Austenitic Stainless Steel Nitronic 60',
-                    //     'slug' => 'austenitic-stainless-steel-Nitronic-60',
-                    // ],
+                    ['name' => 'Austenitic Stainless Steel 316Ti', 'slug' => 'austenitic-stainless-steel-316Ti'],
+                    ['name' => 'Austenitic Stainless Steel 317', 'slug' => 'austenitic-stainless-steel-317'],
+                    ['name' => 'Austenitic Stainless Steel 321', 'slug' => 'austenitic-stainless-steel-321'],
+                    ['name' => 'Austenitic Stainless Steel 347', 'slug' => 'austenitic-stainless-steel-347'],
+                    [
+                        'name' => 'Austenitic Stainless Steel Nitronic 50',
+                        'slug' => 'austenitic-stainless-steel-nitronic-50',
+                    ],
+                    [
+                        'name' => 'Austenitic Stainless Steel Nitronic 60',
+                        'slug' => 'austenitic-stainless-steel-nitronic-60',
+                    ],
                 ];
             @endphp
 

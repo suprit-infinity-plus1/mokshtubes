@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Austenitic Stainless Steel 310 - Moksh Tubes & Fittings LLP')
+@section('title', 'Austenitic Stainless Steel 316 - Moksh Tubes & Fittings LLP')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -8,7 +8,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Austenitic Stainless Steel 310</h1>
+                    <h1>Austenitic Stainless Steel 316</h1>
                 </div>
             </div>
         </div>
@@ -22,7 +22,7 @@
             </div>
 
             <h2 class="fw-semibold text-center mb-5" style="color: #db7227;">
-                Introduction To Austenitic Stainless Steel 310
+                Introduction To Austenitic Stainless Steel 316
             </h2>
 
             <div class="row align-items-center">
@@ -36,19 +36,21 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted manufacturer,
+                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a leading manufacturer,
                             supplier, exporter, importer, and stockist of<strong class="text-black"> Austenitic Stainless
-                                Steel 310 products,</strong> including
-                            pipes, tubes, sheets, plates, bars, and fittings.
+                                Steel 316 products</strong> including
+                            <a href="{{ route('products.pipes-tubes') }}">pipes & tubes</a>, sheets, plates, bars, and
+                            fittings.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">Austenitic Stainless Steel 310</strong>, is a high chromium-nickel
-                            alloy designed for excellent high-temperature resistance and corrosion resistance. With
-                            approximately 25% chromium and 20% nickel content, SS 310 offers superior oxidation resistance,
-                            thermal stability, and strength at elevated temperatures up to 1100°C (2012°F). This alloy is
-                            widely used in environments where thermal shock, oxidation, and scaling resistance are critical.
-                        </p>
+                            <strong class="text-black">Austenitic Stainless Steel 316</strong>, is a versatile austenitic
+                            alloy with enhanced corrosion resistance due to its molybdenum content, making it superior to
+                            304 <a href="{{ route('materials.austenitic-stainless-Steel') }}">stainless steel</a> in
+                            chloride environments. It exhibits excellent resistance to pitting and
+                            crevice corrosion, good mechanical properties, and outstanding weldability. SS 316 is widely
+                            used in marine, chemical, pharmaceutical, and food processing industries where durability and
+                            corrosion resistance are critical.</p>
                     </div>
                 </div>
             </div>
@@ -74,31 +76,35 @@
                             <tbody class="text-center">
                                 <tr>
                                     <td>Carbon</td>
-                                    <td>≤ 0.25</td>
+                                    <td>≤ 0.08</td>
                                 </tr>
                                 <tr>
                                     <td>Chromium</td>
-                                    <td>24.0 – 26.0</td>
+                                    <td>16.0 – 18.0</td>
                                 </tr>
                                 <tr>
                                     <td>Nickel</td>
-                                    <td>19.0 – 22.0</td>
+                                    <td>10.0 – 14.0</td>
                                 </tr>
                                 <tr>
                                     <td>Manganese</td>
-                                    <td>≤ 2.00</td>
+                                    <td>≤ 2.0</td>
+                                </tr>
+                                <tr>
+                                    <td>Molybdenum</td>
+                                    <td>2.0 – 3.0</td>
                                 </tr>
                                 <tr>
                                     <td>Silicon</td>
-                                    <td>≤ 1.50</td>
+                                    <td>≤ 0.75</td>
                                 </tr>
                                 <tr>
                                     <td>Phosphorus</td>
-                                    <td>≤ 0.040</td>
+                                    <td>≤ 0.045</td>
                                 </tr>
                                 <tr>
                                     <td>Sulfur</td>
-                                    <td>≤ 0.030</td>
+                                    <td>≤ 0.03</td>
                                 </tr>
                                 <tr>
                                     <td>Nitrogen</td>
@@ -135,8 +141,8 @@
                             <tbody class="text-center">
                                 <tr>
                                     <td>Density</td>
-                                    <td>0.29 lb/in³</td>
-                                    <td>7.9 g/cm³</td>
+                                    <td>0.289 lb/in³</td>
+                                    <td>8.0 g/cm³</td>
                                 </tr>
                                 <tr>
                                     <td>Melting Point</td>
@@ -150,7 +156,7 @@
                                 </tr>
                                 <tr>
                                     <td>Poisson’s Ratio</td>
-                                    <td>0.29</td>
+                                    <td>0.27</td>
                                     <td>—</td>
                                 </tr>
                                 {{-- <tr>
@@ -193,43 +199,43 @@
                             <tbody class="text-center">
                                 <tr>
                                     <td>Tensile Strength (ksi / MPa)</td>
-                                    <td>75–95 / 520–655</td>
+                                    <td>70–90 / 485–620</td>
+                                    <td>75–105 / 515–725</td>
                                     <td>80–110 / 550–760</td>
-                                    <td>85–115 / 585–795</td>
-                                    <td>75–95 / 520–655</td>
-                                    <td>80–105 / 550–725</td>
+                                    <td>70–90 / 485–620</td>
+                                    <td>75–100 / 515–690</td>
                                 </tr>
                                 <tr>
                                     <td>Yield Strength (0.2%) (ksi / MPa)</td>
+                                    <td>30–45 / 205–310</td>
+                                    <td>40–65 / 275–450</td>
+                                    <td>45–70 / 310–485</td>
                                     <td>30–50 / 205–345</td>
-                                    <td>40–70 / 275–480</td>
-                                    <td>45–75 / 310–515</td>
-                                    <td>30–50 / 205–345</td>
-                                    <td>35–65 / 240–450</td>
+                                    <td>35–60 / 240–415</td>
                                 </tr>
                                 <tr>
                                     <td>Elongation (%)</td>
-                                    <td>35–55</td>
-                                    <td>25–45</td>
-                                    <td>20–40</td>
-                                    <td>35–55</td>
+                                    <td>40–60</td>
                                     <td>30–50</td>
+                                    <td>20–40</td>
+                                    <td>40–60</td>
+                                    <td>35–55</td>
                                 </tr>
                                 <tr>
                                     <td>Brinell Hardness (3000 kg)</td>
+                                    <td>120–180</td>
+                                    <td>140–200</td>
+                                    <td>160–210</td>
+                                    <td>120–180</td>
                                     <td>140–190</td>
-                                    <td>150–210</td>
-                                    <td>170–220</td>
-                                    <td>140–190</td>
-                                    <td>150–200</td>
                                 </tr>
                                 <tr>
                                     <td>Rockwell Hardness (B / C)</td>
-                                    <td>85–95 B</td>
-                                    <td>90–100 B</td>
+                                    <td>80–95 B</td>
+                                    <td>85–100 B</td>
                                     <td>95–105 B</td>
+                                    <td>80–95 B</td>
                                     <td>85–95 B</td>
-                                    <td>90–100 B</td>
                             </tbody>
                         </table>
                     </div>
@@ -257,13 +263,13 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Products in Austenitic Stainless Steel 310</h2>
+                <h2>Products in Austenitic Stainless Steel 316</h2>
             </div>
             <!-- Highlighted Paragraph -->
             <div class="row justify-content-center mb-4" style="text-align: justify;">
                 <div class="col-lg-10">
                     <p class="fs-6">
-                        <strong class="text-dark">Austenitic Stainless Steel 310</strong> is available in:
+                        <strong class="text-dark">Austenitic Stainless Steel 316</strong> is available in:
                     </p>
                 </div>
             </div>
@@ -288,7 +294,7 @@
             <div class="row justify-content-center mb-3">
                 <div class="col-lg-10">
                     <p class="fw-bold fs-5 text-center my-4" style="color: #174268;">
-                        Austenitic Stainless Steel 310 products are produced to the following global standards:
+                        Austenitic Stainless Steel 316 products are produced to the following global standards:
                     </p>
                 </div>
             </div>
@@ -323,34 +329,34 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>Excellent resistance to oxidation and scaling at elevated temperatures</h5>
+                        <h5>Excellent resistance to chloride corrosion and pitting</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h5>High thermal stability and mechanical strength at high temperatures</h5>
+                        <h5>Good mechanical properties and toughness</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h5>Good resistance to thermal shock and corrosion</h5>
+                        <h5>Excellent weldability and formability</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h5>Excellent weldability and fabrication properties</h5>
+                        <h5>High resistance to oxidation at elevated temperatures</h5>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
-                        <h5>Suitable for harsh chemical and oxidizing environments</h5>
+                        <h5>Biocompatible and suitable for hygienic environments</h5>
                     </div>
                 </div>
             </div>
@@ -360,26 +366,26 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Applications of Austenitic Stainless Steel 310</h2>
-                <p class="text-center pb-3"><strong class="text-dark">Austenitic Stainless Steel 310</strong> is widely
-                    used in high-temperature environments requiring oxidation resistance and durability, including:</p>
+                <h2>Applications of Austenitic Stainless Steel 316</h2>
+                <p class="text-center pb-3"><strong class="text-dark">Austenitic Stainless Steel 316</strong> is
+                    extensively used in environments exposed to harsh corrosion and aggressive chemicals, including:</p>
             </div>
 
             <div class="row g-4 justify-content-center">
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
-                        <h5>Heat Treatment Furnaces & Kilns</h5>
-                        <p>Furnace parts, heat exchangers, and radiant tubes operating under thermal cycling and scaling
-                            conditions.</p>
+                        <h5>Marine Applications</h5>
+                        <p>Boat fittings, propeller shafts, and marine fasteners due to superior resistance to seawater
+                            corrosion.</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
-                        <h5>Petrochemical & Chemical Industry</h5>
-                        <p>Equipment exposed to oxidizing atmospheres, including reactor vessels and heat exchangers.
+                        <h5>Chemical & Petrochemical Industry</h5>
+                        <p>Storage tanks, piping, and heat exchangers handling acidic and chloride-containing chemicals.
                         </p>
                     </div>
                 </div>
@@ -387,36 +393,36 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
-                        <h5>Power Generation</h5>
-                        <p>Gas turbine components, boilers, and superheaters requiring high strength and oxidation
-                            resistance.</p>
+                        <h5>Food & Beverage Processing</h5>
+                        <p>Food handling equipment, brewing tanks, and dairy industry machinery requiring hygiene and
+                            corrosion resistance.</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-droplet"></i></div>
-                        <h5>Automotive Industry</h5>
-                        <p>Exhaust systems and mufflers subjected to high temperature and corrosive gases.</p>
+                        <h5>Pharmaceutical Industry</h5>
+                        <p>Processing equipment and sanitary fittings where cleanliness and corrosion resistance are
+                            critical.</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
-                        <h5>Food Processing & Baking Equipment</h5>
-                        <p>Ovens, baking trays, and food processing machinery requiring heat resistance and corrosion
-                            resistance.</p>
+                        <h5>Medical Instruments</h5>
+                        <p>Surgical tools and implants due to excellent biocompatibility and corrosion resistance.</p>
                     </div>
                 </div>
-                {{--
-               <div class="col-md-6 col-lg-4">
+
+                <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
-                        <h5>Household Appliances</h5>
-                        <p>Sinks, cookware, and kitchen equipment for corrosion resistance and durability.</p>
+                        <h5>Architectural & Construction</h5>
+                        <p>Cladding, handrails, and structural components in corrosive urban or coastal environments.</p>
                     </div>
-                </div> --}}
+                </div>
 
                 {{-- <div class="col-md-6 col-lg-4">
                 <div class="application-card">
@@ -440,35 +446,35 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Leading supplier of high-quality Austenitic Stainless Steel 310 products</h5>
+                        <h5>Trusted supplier of premium-grade Austenitic Stainless Steel 316 products</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
-                        <h5>Wide inventory and ability to supply custom sizes and specifications</h5>
+                        <h5>Comprehensive stock with custom size and specification availability</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
-                        <h5>Commitment to international quality and standards compliance</h5>
+                        <h5>Adherence to international quality standards and certifications</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Strong technical support and customer service</h5>
+                        <h5>Experienced technical support for material selection and applications</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
-                        <h5>Competitive pricing and reliable global delivery</h5>
+                        <h5>Competitive pricing with reliable global logistics</h5>
                     </div>
                 </div>
             </div>
@@ -480,10 +486,10 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    For more details or to request a quote for Austenitic Stainless Steel 310 products
-                    contact<strong> Moksh Tubes &
+                    For inquiries or quotations related to Austenitic Stainless Steel 316 products, contact<strong> Moksh
+                        Tubes &
                         Fittings
-                        LLP</strong> — your dependable partner for premium stainless steel solutions.
+                        LLP</strong> — your reliable partner for stainless steel solutions.
                     <!-- Call button -->
                     <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
             </div>
