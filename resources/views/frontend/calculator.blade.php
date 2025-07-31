@@ -101,7 +101,8 @@
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Thickness, t</label>
                                             <div class="d-flex align-items-center flex-grow-1">
                                                 <input type="number" class="form-control me-2" id="sheetThickness"
-                                                    placeholder="e.g. 1" oninput="calculateSteelSheetWeight()" />
+                                                    value="1" placeholder="e.g. 1"
+                                                    oninput="calculateSteelSheetWeight()" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -113,7 +114,8 @@
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Width, W</label>
                                             <div class="d-flex align-items-center flex-grow-1">
                                                 <input type="number" class="form-control me-2" id="sheetWidth"
-                                                    placeholder="e.g. 1000" oninput="calculateSteelSheetWeight()" />
+                                                    value="1000" placeholder="e.g. 1000"
+                                                    oninput="calculateSteelSheetWeight()" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -125,7 +127,8 @@
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L</label>
                                             <div class="d-flex align-items-center flex-grow-1">
                                                 <input type="number" class="form-control me-2" id="sheetLength"
-                                                    placeholder="e.g. 2000" oninput="calculateSteelSheetWeight()" />
+                                                    value="2000" placeholder="e.g. 2000"
+                                                    oninput="calculateSteelSheetWeight()" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -138,7 +141,8 @@
                                                 pieces</label>
                                             <div class="flex-grow-1">
                                                 <input type="number" class="form-control" id="sheetPieces"
-                                                    placeholder="e.g. 1" oninput="calculateSteelSheetWeight()" />
+                                                    value="1" placeholder="e.g. 1"
+                                                    oninput="calculateSteelSheetWeight()" />
                                             </div>
                                         </div>
                                     </div>
@@ -149,7 +153,8 @@
                                     <h6><strong>Result</strong></h6>
                                     <p>Single piece weight: <strong id="sheetSingleWeight" class="text-primary">15.7
                                             kg</strong></p>
-                                    <p>Total weight: <strong id="sheetTotalWeight" class="text-primary">15.7 kg</strong></p>
+                                    <p>Total weight: <strong id="sheetTotalWeight" class="text-primary">15.7 kg</strong>
+                                    </p>
                                 </div>
                             </div>
 
@@ -177,7 +182,9 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Diameter, D</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" placeholder="e.g. 50" />
+                                                <input type="number" id="pipeDiameter" class="form-control me-2"
+                                                    placeholder="e.g. 8" value="8"
+                                                    oninput="calculatePipeWeight()" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -188,7 +195,9 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Thickness, t</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" placeholder="e.g. 5" />
+                                                <input type="number" id="pipeThickness" class="form-control me-2"
+                                                    placeholder="e.g. 1.5" value="1.5"
+                                                    oninput="calculatePipeWeight()" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -199,8 +208,10 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" placeholder="e.g. 2000" />
-                                                <span class="text-nowrap">mm</span>
+                                                <input type="number" id="pipeLength" class="form-control me-2"
+                                                    placeholder="e.g. 1" value="1"
+                                                    oninput="calculatePipeWeight()" />
+                                                <span class="text-nowrap">m</span>
                                             </div>
                                         </div>
                                     </div>
@@ -209,8 +220,12 @@
                                 <!-- Result -->
                                 <div class="mt-2">
                                     <h6><strong>Result</strong></h6>
-                                    <p>Weight per meter: <strong class="text-primary">12.3 kg/m</strong></p>
-                                    <p>Total weight: <strong class="text-primary">12.3 kg</strong></p>
+                                    {{-- <p>Weight per meter: <strong class="text-primary">0.24 kg/m</strong></p>
+                                    <p>Total weight: <strong class="text-primary">0.24 kg</strong></p> --}}
+                                    <p>Weight per meter: <strong id="pipeWeightPerMeter" class="text-primary">0.24
+                                            kg/m</strong></p>
+                                    <p>Total weight: <strong id="pipeTotalWeight" class="text-primary">0.24 kg</strong>
+                                    </p>
                                 </div>
                             </div>
 
@@ -259,7 +274,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" placeholder="e.g. 2500" />
+                                                <input type="number" class="form-control me-2"
+                                                    placeholder="e.g. 2500" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -319,7 +335,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" placeholder="e.g. 2000" />
+                                                <input type="number" class="form-control me-2"
+                                                    placeholder="e.g. 2000" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -390,7 +407,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" placeholder="e.g. 2000" />
+                                                <input type="number" class="form-control me-2"
+                                                    placeholder="e.g. 2000" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -439,7 +457,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" placeholder="e.g. 6000" />
+                                                <input type="number" class="form-control me-2"
+                                                    placeholder="e.g. 6000" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -488,7 +507,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" placeholder="e.g. 6000" />
+                                                <input type="number" class="form-control me-2"
+                                                    placeholder="e.g. 6000" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -646,7 +666,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Side, A x B</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="text" class="form-control me-2" placeholder="e.g. 30x20" />
+                                                <input type="text" class="form-control me-2"
+                                                    placeholder="e.g. 30x20" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -1254,6 +1275,32 @@
             // Display result
             document.getElementById('sheetSingleWeight').textContent = singleWeight.toFixed(2) + " kg";
             document.getElementById('sheetTotalWeight').textContent = totalWeight.toFixed(2) + " kg";
+        }
+
+        // Seamless steel pipes - circular
+        function calculatePipeWeight() {
+            const D = parseFloat(document.getElementById('pipeDiameter').value) || 0; // Outer diameter (mm)
+            const t = parseFloat(document.getElementById('pipeThickness').value) || 0; // Thickness (mm)
+            const L_meters = parseFloat(document.getElementById('pipeLength').value) || 0; // Length in meters
+
+            const density = 7.85; // g/cm³ (for steel)
+
+            if (D <= 0 || t <= 0 || L_meters <= 0 || D <= 2 * t) {
+                document.getElementById('pipeWeightPerMeter').textContent = "NaN";
+                document.getElementById('pipeTotalWeight').textContent = "NaN";
+                return;
+            }
+
+            const d = D - 2 * t; // Inner diameter (mm)
+            const area = (Math.PI / 4) * (Math.pow(D, 2) - Math.pow(d, 2)); // mm²
+
+            // Convert mm² to cm² and multiply by density to get g/mm, then convert to kg/mm
+            const weightPerMm = area * density * 1e-6; // kg/mm
+            const weightPerMeter = weightPerMm * 1000; // kg/m
+            const totalWeight = weightPerMeter * L_meters; // kg
+
+            document.getElementById('pipeWeightPerMeter').textContent = weightPerMeter.toFixed(2) + " kg/m";
+            document.getElementById('pipeTotalWeight').textContent = totalWeight.toFixed(2) + " kg";
         }
     </script>
 @endsection
