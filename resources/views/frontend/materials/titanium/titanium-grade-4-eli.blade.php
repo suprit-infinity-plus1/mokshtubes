@@ -39,7 +39,7 @@
                             supplier, exporter, importer, and stockist of premium-quality<strong class="text-black">
                                 Titanium Grade 4 ELI</strong> <a href="{{ route('products') }}">products</a>,
                             including Pipes & Tubes, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires, Round
-                            Bars, Flat Bars, <a href="{{ route('products.pipes-tubes.welded') }}">Welding Rods</a>, Wire Mesh, and Custom-Engineered Components that meet the most
+                            Bars, Flat Bars, <a href="{{ route('products.pipes-tubes.welded-pipes') }}">Welding Rods</a>, Wire Mesh, and Custom-Engineered Components that meet the most
                             demanding applications.
                         </p>
 

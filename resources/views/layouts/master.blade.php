@@ -427,8 +427,8 @@
                             <div class="footer-col service-col">
                                 <h3 class="footer-title">Products</h3>
                                 <ul class="footer-list">
-                                    <li><a href="{{ route('products.pipes-tubes.welded') }}">WELDED PIPES</a></li>
-                                    <li><a href="#">SEAMLESS PIPES</a></li>
+                                    <li><a href="{{ route('products.pipes-tubes.welded-pipes') }}">WELDED PIPES</a></li>
+                                    <li><a href="{{ route('products.pipes-tubes.seamless-pipes')}}">SEAMLESS PIPES</a></li>
                                     <li><a href="#">SHEETS & PLATES</a></li>
                                     <li><a href="#">PERFORATED SHEETS</a></li>
                                     <li><a href="#">ROUND BARS</a></li>

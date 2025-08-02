@@ -64,17 +64,17 @@ class MainController extends Controller
 
     public function hastelloy()
     {
-        $grades = [
-            ['name' => 'C276', 'slug' => 'c276'],
-            ['name' => 'C22', 'slug' => 'c22'],
-            ['name' => 'C4', 'slug' => 'c4'],
-            ['name' => 'B2', 'slug' => 'b2'],
-            ['name' => 'B3', 'slug' => 'b3'],
-            ['name' => 'C2000', 'slug' => 'c2000'],
-            ['name' => 'G3', 'slug' => 'g3'],
-            ['name' => 'G30', 'slug' => 'g30'],
-            ['name' => 'Hastelloy X', 'slug' => 'hastelloy-x'],
-        ];
+        // $grades = [
+        //     ['name' => 'C276', 'slug' => 'c276'],
+        //     ['name' => 'C22', 'slug' => 'c22'],
+        //     ['name' => 'C4', 'slug' => 'c4'],
+        //     ['name' => 'B2', 'slug' => 'b2'],
+        //     ['name' => 'B3', 'slug' => 'b3'],
+        //     ['name' => 'C2000', 'slug' => 'c2000'],
+        //     ['name' => 'G3', 'slug' => 'g3'],
+        //     ['name' => 'G30', 'slug' => 'g30'],
+        //     ['name' => 'Hastelloy X', 'slug' => 'hastelloy-x'],
+        // ];
 
         // return view('frontend.materials.hastelloy.index', compact('grades'));
         return view('frontend.materials.hastelloy.index');
@@ -305,11 +305,11 @@ class MainController extends Controller
     {
         $types = [
             ['name' => 'Welded Pipes', 'slug' => 'welded-pipes'],
-            // ['name' => 'Seamless Pipes', 'slug' => 'seamless-pipes'],
-            // ['name' => 'Capillaries', 'slug' => 'capillaries'],
-            // ['name' => 'Hollow Section Pipe', 'slug' => 'hollow-section-pipe'],
-            // ['name' => 'U-Bent Tubes', 'slug' => 'u-bent-tubes'],
-            // ['name' => 'Boiler & Heat Exchanger Tubes', 'slug' => 'boiler-heat-exchanger-tubes'],
+            ['name' => 'Seamless Pipes', 'slug' => 'seamless-pipes'],
+            ['name' => 'Capillaries', 'slug' => 'capillaries'],
+            ['name' => 'Hollow Section Pipe', 'slug' => 'hollow-section-pipe'],
+            ['name' => 'U-Bent Tubes', 'slug' => 'u-bent-tubes'],
+            ['name' => 'Boiler & Heat Exchanger Tubes', 'slug' => 'boiler-heat-exchanger-tubes'],
         ];
 
         return view('frontend.products.pipes-tubes.index', compact('types'));
@@ -317,6 +317,10 @@ class MainController extends Controller
 
     public function weldedPipes()
     {
-        return view('frontend.products.pipes-tubes.welded');
+        return view('frontend.products.pipes-tubes.welded-pipes');
+    }
+      public function seamlessPipes()
+    {
+        return view('frontend.products.pipes-tubes.seamless-pipes');
     }
 }

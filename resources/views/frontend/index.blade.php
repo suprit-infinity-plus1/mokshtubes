@@ -507,7 +507,7 @@
                     <div class="footer-col service-col">
                         <h4 class="footer-title">PIPES & TUBES </h4>
                         <ul class="footer-list">
-                            <li><a href="{{ route('products.pipes-tubes.welded') }}">WELDED PIPES (ERW & EFW)</a></li>
+                            <li><a href="{{ route('products.pipes-tubes.welded-pipes') }}">WELDED PIPES (ERW & EFW)</a></li>
                             <li><a href="#">SEAMLESS PIPES</a></li>
                             <li><a href="#">CAPILLARIESS</a></li>
                             <li><a href="#">HOLLOW SECTION PIPE (SQUARE, RECTANGULAR & OVAL)</a></li>
