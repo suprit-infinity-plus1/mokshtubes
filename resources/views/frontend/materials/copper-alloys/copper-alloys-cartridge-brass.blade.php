@@ -28,7 +28,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?"alt="Copper Alloys C26000 Cartridge Brass"
+                    <img src="/assets/images/copper-alloys/copper-alloys-cartridge-brass.jpg"alt="Copper Alloys C26000 Cartridge Brass"
                         class="img-fluid rounded shadow-sm">
                 </div>
 
@@ -68,45 +68,45 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Element</th>
                                     <th>Composition (%)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Copper</td>
                                     <td>68.5 – 71.5</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Lead</td>
                                     <td>0.07 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Iron</td>
                                     <td>0.05 max</td>
                                 </tr>
-                                {{-- <tr>
+                                {{-- <tr class="t-row">
                                     <td>Manganese</td>
                                     <td>0.5 – 1.0</td>
                                 </tr> --}}
-                                <tr>
+                                <tr class="t-row">
                                     <td>Zinc</td>
                                     <td>Remainder</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Total Impurities</td>
                                     <td>0.30 max</td>
                                 </tr>
-                                {{-- <tr>
+                                {{-- <tr class="t-row">
                                     <td>Others</td>
                                     <td>≤ 0.50 (Total)</td>
                                 </tr> --}}
-                                {{-- <tr>
+                                {{-- <tr class="t-row">
                                     <td>Others</td>
                                     <td>0.50 max (total)</td>
                                 </tr> --}}
-                                {{--  <tr>
+                                {{--  <tr class="t-row">
                                     <td>Nitrogen</td>
                                     <td>0.20 – 0.30</td>
                                     <td>0.20 – 0.30</td>
@@ -134,39 +134,39 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Metric</th>
                                     <th>Imperial</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Density</td>
                                     <td>8.53 g/cm³</td>
                                     <td>0.308 lb/in³</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Melting Point</td>
                                     <td>899–940 °C</td>
                                     <td>1650–1724 °F</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Thermal Conductivity</td>
                                     <td>111 W/m·K</td>
                                     <td>64.2 BTU/ft·hr·°F</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Electrical Conductivity</td>
                                     <td>28% IACS</td>
                                     <td>-</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Coefficient of Expansion</td>
                                     <td>20.5 µm/m·°C</td>
                                     <td>11.4 µin/in·°F</td>
                                 </tr>
-                                {{-- <tr>
+                                {{-- <tr class="t-row">
                                     <td>Specific Heat Capacity</td>
                                     <td>460 J/kg·K</td>
                                     <td>460 J/kg·K</td>
@@ -184,7 +184,7 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Annealed (Soft)</th>
                                     <th>½‑Hard</th>
@@ -192,31 +192,31 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tensile Strength (ksi / MPa)</td>
                                     <td>45–60 ksi / 310–415 MPa</td>
                                     <td>60–75 ksi / 415–520 MPa</td>
                                     <td>83–92 ksi / 575–635 MPa </td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Yield Strength (0.2%) (ksi / MPa)</td>
                                     <td>10–15 ksi / 70–100 MPa</td>
                                     <td>32–42 ksi / 220–290 MPa</td>
                                     <td>67–78 ksi / 460–540 MPa</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Elongation (%)</td>
                                     <td>40–67%</td>
                                     <td>10–25%</td>
                                     <td>2–14%</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Brinell Hardness (HB) </td>
                                     <td>65–80 HB</td>
                                     <td>100–120 HB</td>
                                     <td>175–185 HV (B‑scale 74‑76 HR30T)</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Rockwell Hardness (B)</td>
                                     <td>70–80 B / 65–73 HR30T</td>
                                     <td>70–76 HR30T</td>

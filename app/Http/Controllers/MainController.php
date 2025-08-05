@@ -264,6 +264,17 @@ class MainController extends Controller
         return view('frontend.materials.copper-alloys.index', compact('grades'));
     }
 
+    public function zirconium()
+    {
+        $grades = [
+                    ['name' => 'Zirconium 702','slug' => 'zirconium-702'],
+                    ['name' => 'Zirconium 704','slug' => 'zirconium-704'],
+                    ['name' => 'Zirconium 705','slug' => 'zirconium-705'],
+                ];
+
+        return view('frontend.materials.zirconium.index', compact('grades'));
+    }
+
 
 
     public function showMaterialGrade($family, $grade)

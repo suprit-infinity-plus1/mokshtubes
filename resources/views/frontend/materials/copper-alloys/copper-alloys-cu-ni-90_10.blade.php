@@ -28,7 +28,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?"alt="Copper Alloys 90/10" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/copper-alloys/copper-alloys-cu-ni-90_10.jpg"alt="Copper Alloys 90/10" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -67,45 +67,45 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Element</th>
                                     <th>Composition (%)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Copper</td>
                                     <td>Balance</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Nickel</td>
                                     <td>9.0 – 11.0</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Iron</td>
                                     <td>1.0 – 1.8</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Manganese</td>
                                     <td>1.0 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Zinc</td>
                                     <td>1.0 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Lead</td>
                                     <td>0.05 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Others</td>
                                     <td>0.50 max (total)</td>
                                 </tr>
-                                {{-- <tr>
+                                {{-- <tr class="t-row">
                                     <td>Others</td>
                                     <td>0.50 max (total)</td>
                                 </tr> --}}
-                                {{--  <tr>
+                                {{--  <tr class="t-row">
                                     <td>Nitrogen</td>
                                     <td>0.20 – 0.30</td>
                                     <td>0.20 – 0.30</td>
@@ -133,39 +133,39 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Imperial</th>
                                     <th>Metric</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Density</td>
                                     <td>0.323 lb/in³</td>
                                     <td>8.94 g/cm³</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Melting Point</td>
                                     <td>2260 – 2370 °F</td>
                                     <td>1240 – 1300 °C</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Thermal Conductivity</td>
                                     <td>26 Btu/ft·hr·°F</td>
                                     <td>45 W/m·K</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Electrical Resistivity</td>
                                     <td>207 ohm·cmil/ft</td>
                                     <td>0.345 µΩ·m</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Specific Heat Capacity</td>
                                     <td>0.09 Btu/lb·°F</td>
                                     <td>0.38 J/g·K</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Coefficient of Expansion</td>
                                     <td>9.8 x 10⁻⁶ /°F</td>
                                     <td>17.6 x 10⁻⁶ /°C</td>
@@ -183,7 +183,7 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Annealed</th>
                                     <th>Cold-Drawn / Tubing</th>
@@ -191,31 +191,31 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tensile Strength (ksi / MPa)</td>
                                     <td>300–414 MPa (44–60 ksi)</td>
                                     <td>345–485 MPa (50–70 ksi) proof strength for tubing</td>
                                     <td>310–480 MPa (45–70 ksi)</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Yield Strength (0.2%) (ksi / MPa)</td>
                                     <td>100–300 MPa (15–43 ksi)</td>
                                     <td>Same as above: 345 MPa (50 ksi) (tubing)</td>
                                     <td>105–240 MPa (15–35 ksi)</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Elongation (%)</td>
                                     <td>42% typical</td>
                                     <td>—</td>
                                     <td>25–35% (rod)</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Brinell Hardness (HB) </td>
                                     <td>70–120 HB</td>
                                     <td>70–120 HB (tubing)</td>
                                     <td>—</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Rockwell Hardness (B)</td>
                                     <td>R290 (70–110 HB)</td>
                                     <td>H08/H06/H04 spring temp up to 87–91 B</td>

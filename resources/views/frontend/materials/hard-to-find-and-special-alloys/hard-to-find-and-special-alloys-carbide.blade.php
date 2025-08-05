@@ -28,7 +28,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?" alt="Carbide alloys" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-carbide.jpg" alt="Carbide alloys" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -66,37 +66,37 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Element</th>
                                     <th>Composition (%)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tungsten</td>
                                     <td>80.0 – 97.0</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Carbon</td>
                                     <td>4.0 – 6.5</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Cobalt</td>
                                     <td>3.0 – 20.0 (binder phase)</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Titanium</td>
                                     <td>Optional (in TiC grades)</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tantalum</td>
                                     <td>Optional (in TaC grades)</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Niobium</td>
                                     <td>Optional</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Nickel</td>
                                     <td>Optional binder (for corrosion-resistant grades)</td>
                                 </tr>
@@ -122,44 +122,44 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Imperial</th>
                                     <th>Metric</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Density</td>
                                     <td>15.6 lb/in³</td>
                                     <td>15.6 g/cm³</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Melting Point</td>
                                     <td>5742 °F (sublimation)</td>
                                     <td>3170 °C (sublimation)</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Modulus of Elasticity – Tension</td>
                                     <td>59 × 10³ ksi</td>
                                     <td>407 GPa</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Modulus of Elasticity – Compression</td>
                                     <td>59 × 10³ ksi</td>
                                     <td>407 GPa</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Modulus of Elasticity – Torsion</td>
                                     <td>20 × 10³ ksi</td>
                                     <td>138 GPa</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Poisson’s Ratio</td>
                                     <td>0.22</td>
                                     <td>—</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Curie Temperature</td>
                                     <td>Not applicable</td>
                                     <td>Not applicable</td>
@@ -177,7 +177,7 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Annealed</th>
                                     <th>Hot-Finished</th>
@@ -187,7 +187,7 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tensile Strength (ksi / MPa)</td>
                                     <td>300–400 / 2070–2760</td>
                                     <td>—</td>
@@ -195,7 +195,7 @@
                                     <td>—</td>
                                     <td>—</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Yield Strength (0.2%) (ksi / MPa)</td>
                                     <td>250–350 / 1720–2410</td>
                                     <td>—</td>
@@ -203,7 +203,7 @@
                                     <td>—</td>
                                     <td>—</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Elongation (%)</td>
                                     <td>0.1–1</td>
                                     <td>—</td>
@@ -211,7 +211,7 @@
                                     <td>—</td>
                                     <td>—</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Rockwell Hardness (B / C)</td>
                                     <td>—</td>
                                     <td>—</td>
@@ -219,7 +219,7 @@
                                     <td>—</td>
                                     <td>80–90 HRC</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Brinell Hardness (HB)</td>
                                     <td>1500–2200</td>
                                     <td>—</td>

@@ -28,7 +28,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?" alt="Titanium Grade 9" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/titanium/Titanium-9.jpeg" alt="Titanium Grade 9" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -78,45 +78,45 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Element</th>
                                     <th>Composition (%)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Titanium</td>
                                     <td>Balance</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Aluminum</td>
                                     <td>2.5 – 3.5</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Vanadium</td>
                                     <td>2.0 – 3.0</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Iron</td>
                                     <td>≤ 0.25</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Oxygen</td>
                                     <td>≤ 0.15</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Carbon</td>
                                     <td>≤ 0.08</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Nitrogen</td>
                                     <td>≤ 0.03</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Hydrogen</td>
                                     <td>≤ 0.015</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Other elements</td>
                                     <td>≤ 0.4 (Total)</td>
                                 </tr>
@@ -142,34 +142,34 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Imperial</th>
                                     <th>Metric</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Density</td>
                                     <td>0.163 lb/in³</td>
                                     <td>4.51 g/cm³</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Melting Point</td>
                                     <td>2630 °F</td>
                                     <td>1443 °C</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Elastic Modulus</td>
                                     <td>14.9 x 10⁶ psi</td>
                                     <td>102 GPa</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Thermal Conductivity</td>
                                     <td>10.6 BTU/hr·ft·°F</td>
                                     <td>15.2 W/m·K</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Electrical Resistivity</td>
                                     <td>23.4 μΩ·cm</td>
                                     <td>—</td>
@@ -187,7 +187,7 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Tubing (Annealed)</th>
                                     <th>Tubing (Cold Drawn)</th>
@@ -197,7 +197,7 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tensile Strength (ksi)</td>
                                     <td>90</td>
                                     <td>115</td>
@@ -205,7 +205,7 @@
                                     <td>92</td>
                                     <td>94</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tensile Strength (MPa)</td>
                                     <td>620</td>
                                     <td>793</td>
@@ -213,7 +213,7 @@
                                     <td>634</td>
                                     <td>648</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Yield Strength (0.2%) (ksi)</td>
                                     <td>70</td>
                                     <td>100</td>
@@ -221,7 +221,7 @@
                                     <td>72</td>
                                     <td>74</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Yield Strength (MPa)</td>
                                     <td>483</td>
                                     <td>689</td>
@@ -229,7 +229,7 @@
                                     <td>496</td>
                                     <td>510</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Elongation (%)</td>
                                     <td>25</td>
                                     <td>12</td>

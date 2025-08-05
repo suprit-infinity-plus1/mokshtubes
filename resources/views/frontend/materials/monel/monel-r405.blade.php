@@ -27,7 +27,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?" alt="Monel K500" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/monel/Monel-R405.jpeg" alt="Monel K500" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -69,37 +69,37 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Element</th>
                                     <th>Composition (%)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Nickel</td>
                                     <td>63.0 min</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Copper</td>
                                     <td>28.0 – 34.0</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Carbon</td>
                                     <td>0.3 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Manganese</td>
                                     <td>2.0 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Iron</td>
                                     <td>2.5 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Sulfur</td>
                                     <td>0.025 – 0.060</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Silicon</td>
                                     <td>0.5 max</td>
                                 </tr>
@@ -125,44 +125,44 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Imperial</th>
                                     <th>Metric</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Density</td>
                                     <td>0.318 lb/in³</td>
                                     <td>8.80 g/cm³</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Melting Range</td>
                                     <td>2370–2460 °F</td>
                                     <td>1300–1350 °C</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Elasticity (Tension)</td>
                                     <td>26.0 × 10³ ksi</td>
                                     <td>179 GPa</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Elasticity (Torsion)</td>
                                     <td>9.5 × 10³ ksi</td>
                                     <td>65.5 GPa</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Elasticity (Compression)</td>
                                     <td>26.0 × 10³ ksi</td>
                                     <td>179 GPa</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Poisson’s Ratio</td>
                                     <td>0.32</td>
                                     <td>—</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Curie Temperature</td>
                                     <td>70–120 °F</td>
                                     <td>21–49 °C</td>
@@ -180,7 +180,7 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Annealed</th>
                                     <th>Hot-Finished</th>
@@ -188,31 +188,31 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Elongation (%)</td>
                                     <td>70 – 85</td>
                                     <td>70 – 85</td>
                                     <td>85 – 115</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Yield Strength (0.2% Offset)</td>
                                     <td>25 – 40</td>
                                     <td>35 – 60</td>
                                     <td>50 – 105</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tensile Strength (ksi)</td>
                                     <td>50 – 35</td>
                                     <td>45 – 30</td>
                                     <td>35 – 15</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Brinell Hardness (3000 kg)</td>
                                     <td>110 – 140</td>
                                     <td>130 – 170</td>
                                     <td>160 – 245</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Rockwell B</td>
                                     <td>60 – 76</td>
                                     <td>72 – 86</td>

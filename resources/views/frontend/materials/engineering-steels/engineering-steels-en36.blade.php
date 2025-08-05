@@ -28,7 +28,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?" alt="EN36" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/engineering-steels/engineering-steels-en36.jpg" alt="EN36" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -66,41 +66,41 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Element</th>
                                     <th>Composition (%)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Carbon</td>
                                     <td>0.33 – 0.40</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Silicon</td>
                                     <td>0.15 – 0.40</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Manganese</td>
                                     <td>0.60 – 0.90</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Chromium</td>
                                     <td>0.90 – 1.20</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Molybdenum</td>
                                     <td>0.15 – 0.30</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Sulfur</td>
                                     <td>≤ 0.040</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Phosphorus</td>
                                     <td>≤ 0.040</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Nickel</td>
                                     <td>1.30 – 1.70</td>
                                 </tr>
@@ -126,44 +126,44 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Imperial</th>
                                     <th>Metric</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Density</td>
                                     <td>0.284 lb/in³</td>
                                     <td>7.85 g/cm³</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Melting Point</td>
                                     <td>2475 – 2550 °F</td>
                                     <td>1358 – 1400 °C</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Modulus of Elasticity (Tension)</td>
                                     <td>29,000 ksi</td>
                                     <td>200 GPa</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Modulus of Elasticity (Torsion)</td>
                                     <td>11,500 ksi</td>
                                     <td>79 GPa</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Poisson’s Ratio</td>
                                     <td>0.27</td>
                                     <td>—</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Thermal Conductivity</td>
                                     <td>44 W/m·K</td>
                                     <td>44 W/m·K</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Specific Heat Capacity</td>
                                     <td>460 J/kg·K</td>
                                     <td>460 J/kg·K</td>
@@ -181,7 +181,7 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Annealed</th>
                                     <th>Hot-Finished</th>
@@ -191,7 +191,7 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tensile Strength (ksi / MPa)</td>
                                     <td>85–105 ksi / 586–724 MPa</td>
                                     <td>90–115 ksi / 620–793 MPa</td>
@@ -199,7 +199,7 @@
                                     <td>95–130 ksi / 655–896 MPa</td>
                                     <td>—</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Yield Strength (0.2%)</td>
                                     <td>50–65 ksi / 345–448 MPa</td>
                                     <td>60–90 ksi / 414–620 MPa</td>
@@ -207,7 +207,7 @@
                                     <td>50–75 ksi / 345–517 MPa</td>
                                     <td>—</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Elongation (%)</td>
                                     <td>20–25</td>
                                     <td>15–20</td>
@@ -215,7 +215,7 @@
                                     <td>18–25</td>
                                     <td>—</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Brinell Hardness (3000 kg)</td>
                                     <td>150–200</td>
                                     <td>180–240</td>
@@ -223,7 +223,7 @@
                                     <td>150–210</td>
                                     <td>—</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Rockwell Hardness (B / C)</td>
                                     <td>80–90 B</td>
                                     <td>85–95 B</td>

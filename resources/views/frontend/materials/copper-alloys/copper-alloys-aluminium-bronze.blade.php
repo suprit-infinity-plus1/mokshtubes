@@ -28,7 +28,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?"alt="Aluminium Bronze" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/copper-alloys/copper alloys aluminium bronze.jpg"alt="Aluminium Bronze" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -67,7 +67,7 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Element</th>
                                     <th>C95400 (%)</th>
                                     <th>C95500 (%)</th>
@@ -75,55 +75,55 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Carbon</td>
                                     <td>83.0</td>
                                     <td>79.0</td>
                                     <td>77.0</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Aluminium</td>
                                     <td>10.5 – 11.5</td>
                                     <td>10.0 – 11.5</td>
                                     <td>8.5 – 9.5</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Iron</td>
                                     <td>3.0 max</td>
                                     <td>3.5 – 5.0</td>
                                     <td>4.0 – 5.0</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Nickel</td>
                                     <td>—</td>
                                     <td>4.5 – 5.5</td>
                                     <td>4.5 – 5.5</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Manganese</td>
                                     <td>0.5 max</td>
                                     <td>1.5 max</td>
                                     <td>1.5 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Other Elements</td>
                                     <td>1.5 max</td>
                                     <td>1.5 max</td>
                                     <td>1.5 max</td>
                                 </tr>
-                                {{-- <tr>
+                                {{-- <tr class="t-row">
                                     <td>Phosphorus</td>
                                     <td>≤ 0.035</td>
                                     <td>≤ 0.035</td>
                                     <td>≤ 0.035</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Sulfur</td>
                                     <td>≤ 0.03</td>
                                     <td>≤ 0.03</td>
                                     <td>≤ 0.03</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Nitrogen</td>
                                     <td>0.20 – 0.30</td>
                                     <td>0.20 – 0.30</td>
@@ -151,38 +151,38 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Value</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Density</td>
                                     <td>7.6 – 7.8 g/cm³</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Melting Point</td>
                                     <td>1030 – 1045 °C</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Thermal Conductivity</td>
                                     <td>40 – 60 W/m·K</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Electrical Conductivity</td>
                                     <td>7 – 12% IACS</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Magnetic Properties</td>
                                     <td>Non-magnetic</td>
                                 </tr>
-                                {{--  <tr>
+                                {{--  <tr class="t-row">
                                     <td>Thermal Conductivity</td>
                                     <td>45 W/m·K</td>
                                     <td>45 W/m·K</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Specific Heat Capacity</td>
                                     <td>460 J/kg·K</td>
                                     <td>460 J/kg·K</td>
@@ -200,7 +200,7 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Annealed</th>
                                     <th>Hot-Finished</th>
@@ -210,7 +210,7 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tensile Strength (ksi / MPa)</td>
                                     <td>70–90 ksi / 480–620 MPa</td>
                                     <td>90–115 ksi / 620–790 MPa</td>
@@ -218,7 +218,7 @@
                                     <td>55–70 ksi / 380–480 MPa</td>
                                     <td>120–160 ksi / 830–1100 MPa</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Yield Strength (0.2%) (ksi / MPa)</td>
                                     <td>25–45 ksi / 170–310 MPa</td>
                                     <td>45–80 ksi / 310–550 MPa</td>
@@ -226,7 +226,7 @@
                                     <td>20–40 ksi / 140–275 MPa</td>
                                     <td>110–140 ksi / 760–965 MPa</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Elongation (%)</td>
                                     <td>30–50%</td>
                                     <td>15–35%</td>
@@ -234,7 +234,7 @@
                                     <td>10–30%</td>
                                     <td>5–15%</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Hardness (Rockwell B / C)</td>
                                     <td>70–85 B</td>
                                     <td>85–95 B0</td>
@@ -242,7 +242,7 @@
                                     <td>60–75 B</td>
                                     <td>25–40 C</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Brinell Hardness (HB)</td>
                                     <td>150–230 HB</td>
                                     <td>200–280 HB</td>

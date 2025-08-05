@@ -28,7 +28,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?"alt="Beryllium Copper" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/copper-alloys/copper-alloys-beryllium-copper.jpeg"alt="Beryllium Copper" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -70,49 +70,49 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Element</th>
                                     <th>Composition (%)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Beryllium</td>
                                     <td>1.80 – 2.00</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Cobalt + Nickel</td>
                                     <td>0.20 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Copper</td>
                                     <td>Balance</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Iron</td>
                                     <td>0.15 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Lead</td>
                                     <td>0.02 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Other Elements</td>
                                     <td>0.10 max</td>
                                 </tr>
-                                {{-- <tr>
+                                {{-- <tr class="t-row">
                                     <td>Phosphorus</td>
                                     <td>≤ 0.035</td>
                                     <td>≤ 0.035</td>
                                     <td>≤ 0.035</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Sulfur</td>
                                     <td>≤ 0.03</td>
                                     <td>≤ 0.03</td>
                                     <td>≤ 0.03</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Nitrogen</td>
                                     <td>0.20 – 0.30</td>
                                     <td>0.20 – 0.30</td>
@@ -140,37 +140,37 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Value</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Density</td>
                                     <td>8.25 g/cm³</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Melting Point</td>
                                     <td>866 – 982 °C</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Thermal Conductivity</td>
                                     <td>105 W/m·K</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Electrical Conductivity</td>
                                     <td>20 – 65% IACS</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Specific Heat Capacity</td>
                                     <td>0.38 J/g·K</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Modulus of Elasticity</td>
                                     <td>131 GPa</td>
                                 </tr>
-                                {{-- <tr>
+                                {{-- <tr class="t-row">
                                     <td>Specific Heat Capacity</td>
                                     <td>460 J/kg·K</td>
                                     <td>460 J/kg·K</td>
@@ -188,7 +188,7 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Annealed (TB00)</th>
                                     <th>Cold-Drawn (¼ to Full Hard)</th>
@@ -196,31 +196,31 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tensile Strength (ksi / MPa)</td>
                                     <td>60–85 ksi / 415–585 MPa</td>
                                     <td>90–165 ksi / 620–1140 MPa (increases with hardness)</td>
                                     <td>165–230 ksi / 1140–1585 MPa</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Yield Strength (0.2%) (ksi / MPa)</td>
                                     <td>40–50 ksi / 275–345 MPa</td>
                                     <td>Approx. 90% of tensile strength for HT tempers</td>
                                     <td>Approx. 90% of tensile strength</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Elongation (%)</td>
                                     <td>20–30%</td>
                                     <td>10–20%</td>
                                     <td>2–5%</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Hardness (Rockwell B / C)</td>
                                     <td>35–60 B</td>
                                     <td>Up to 60 B</td>
                                     <td>36–45 HRC</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Electrical Conductivity (% IACS)</td>
                                     <td>19–28%</td>
                                     <td>15–20%</td>

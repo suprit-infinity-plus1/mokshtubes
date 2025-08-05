@@ -27,7 +27,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?" alt="Inconel 600" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/inconel/inconel-600.jpg" alt="Inconel 600" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -71,41 +71,41 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+
                                     <th>Element</th>
                                     <th>Composition (%)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+
                                     <td>Nickel</td>
                                     <td>72.0 min (Balance)</td>
                                 </tr>
-                                <tr>
+
                                     <td>Chromium</td>
                                     <td>14.0 – 17.0</td>
                                 </tr>
-                                <tr>
+
                                     <td>Iron</td>
                                     <td>6.0 – 10.0</td>
                                 </tr>
-                                <tr>
+
                                     <td>Carbon</td>
                                     <td>0.15 max</td>
                                 </tr>
-                                <tr>
+
                                     <td>Manganese</td>
                                     <td>1.0 max</td>
                                 </tr>
-                                <tr>
+
                                     <td>Sulfur</td>
                                     <td>0.015 max</td>
                                 </tr>
-                                <tr>
+
                                     <td>Silicon</td>
                                     <td>0.5 max</td>
                                 </tr>
-                                <tr>
+
                                     <td>Copper</td>
                                     <td>0.5 max</td>
                                 </tr>
@@ -131,39 +131,39 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+
                                     <th>Property</th>
                                     <th>Imperial</th>
                                     <th>Metric</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+
                                     <td>Density</td>
                                     <td>0.306 lb/in³</td>
                                     <td>8.47 Mg/m³</td>
                                 </tr>
-                                <tr>
+
                                     <td>Melting Range</td>
                                     <td>2470–2575 °F</td>
                                     <td>1354–1413 °C</td>
                                 </tr>
-                                <tr>
+
                                     <td>Specific Heat</td>
                                     <td>0.106 Btu/lb·°F</td>
                                     <td>444 J/kg·°C</td>
                                 </tr>
-                                <tr>
+
                                     <td>Electrical Resistivity</td>
                                     <td>620 ohm·circ mil/ft</td>
                                     <td>1.03 µΩ·m</td>
                                 </tr>
-                                <tr>
+
                                     <td>Curie Temperature</td>
                                     <td>–192 °F</td>
                                     <td>–124 °C</td>
                                 </tr>
-                                <tr>
+
                                     <td>Permeability at 200 oersted (15.9 kA/m)</td>
                                     <td>1.010</td>
                                     <td>—</td>
@@ -181,7 +181,7 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+
                                     <th>Property</th>
                                     <th>Rod & Bar (CD, Annealed)</th>
                                     <th>Rod & Bar (CD, As-Drawn)</th>
@@ -201,7 +201,7 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+
                                     <td>Tensile Strength (ksi)</td>
                                     <td>80–100</td>
                                     <td>105–150</td>
@@ -219,7 +219,7 @@
                                     <td>105–135</td>
                                     <td>170–220</td>
                                 </tr>
-                                <tr>
+
                                     <td>Tensile Strength (MPa)</td>
                                     <td>550–690</td>
                                     <td>725–1035</td>
@@ -237,7 +237,7 @@
                                     <td>725–930</td>
                                     <td>1170–1520</td>
                                 </tr>
-                                <tr>
+
                                     <td>Yield Strength (ksi)</td>
                                     <td>25–50</td>
                                     <td>80–125</td>
@@ -255,7 +255,7 @@
                                     <td>70–105</td>
                                     <td>150–210</td>
                                 </tr>
-                                <tr>
+
                                     <td>Yield Strength (MPa)</td>
                                     <td>170–345</td>
                                     <td>550–860</td>
@@ -273,7 +273,7 @@
                                     <td>480–725</td>
                                     <td>1035–1450</td>
                                 </tr>
-                                <tr>
+
                                     <td>Elongation (%)</td>
                                     <td>55–35</td>
                                     <td>30–10</td>
@@ -291,7 +291,7 @@
                                     <td>35–15</td>
                                     <td>5–2</td>
                                 </tr>
-                                <tr>
+
                                     <td>Hardness (Rockwell)</td>
                                     <td>65–85B</td>
                                     <td>90B–30C</td>

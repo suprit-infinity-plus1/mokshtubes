@@ -28,6 +28,7 @@ Route::get('/materials/aluminium-alloys', [MainController::class, 'aluminiumAllo
 Route::get('/materials/engineering-steels', [MainController::class, 'engineeringSteels'])->name('materials.engineering-Steels');
 Route::get('/materials/austenitic-stainless-steel', [MainController::class, 'austeniticStainlessSteel'])->name('materials.austenitic-stainless-Steel');
 Route::get('/materials/copper-alloys', [MainController::class, 'copperAlloys'])->name('materials.copper-Alloys');
+Route::get('/materials/zirconium', [MainController::class, 'zirconium'])->name('materials.zirconium');
 
 // Route::get('/materials/{family}/{grade}', [MainController::class, 'showMaterialGrade'])->name('material.grade');
 Route::get('/materials/{category}/{slug}', [MainController::class, 'showMaterial'])->name('materials.grade');

@@ -27,7 +27,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?" alt="Hastelloy C276" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/hastelloy/hastelloy-c22.jpeg" alt="Hastelloy C276" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -72,57 +72,57 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Element</th>
                                     <th>Composition (%)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Nickel</td>
                                     <td>56 (Balance)</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Chromium</td>
                                     <td>22</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Molybdenum</td>
                                     <td>13</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Iron</td>
                                     <td>3</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tungsten</td>
                                     <td>3</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Cobalt</td>
                                     <td>2.5 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Manganese</td>
                                     <td>0.5 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Vanadium</td>
                                     <td>0.35 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Silicon</td>
                                     <td>0.08</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Carbon</td>
                                     <td>0.01 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Phosphorus</td>
                                     <td>0.02 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Sulfur</td>
                                     <td>0.02 max</td>
                                 </tr>
@@ -148,29 +148,29 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Value</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Density</td>
                                     <td>8.89 g/cm³</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Melting Point</td>
                                     <td>1350°C (2460°F)</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tensile Strength</td>
                                     <td>115,000 psi / 790 MPa</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Yield Strength (0.2% Offset)</td>
                                     <td>52,000 psi / 355 MPa</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Elongation</td>
                                     <td>45%</td>
                                 </tr>
@@ -187,30 +187,30 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Metric</th>
                                     <th>Imperial</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tensile Strength (@ 538°C / 1000°F)</td>
                                     <td>690 – 790 MPa</td>
                                     <td>100,000 – 115,000 psi</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Yield Strength (0.2% offset @ 427°C / 801°F)</td>
                                     <td>379 MPa</td>
                                     <td>55,000 psi</td>
                                 </tr>
 
-                                <tr>
+                                <tr class="t-row">
                                     <td>Elongation at Break (@ 204°C / 399°F)</td>
                                     <td>45%</td>
                                     <td>45%</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Hardness, Rockwell B (plate)</td>
                                     <td>89 – 100 HRB</td>
                                     <td>89 – 100 HRB</td>

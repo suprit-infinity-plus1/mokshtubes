@@ -27,7 +27,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?" alt="Monel K500" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/incoloy/incoloy-800H_800HT.jpeg" alt="Monel K500" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -69,49 +69,49 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Element</th>
                                     <th>INCOLOY 800H</th>
                                     <th>INCOLOY 800HT</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Nickel</td>
                                     <td>30.0 – 35.0</td>
                                     <td>30.0 – 35.0</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Chromium</td>
                                     <td>19.0 – 23.0</td>
                                     <td>19.0 – 23.0</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Iron</td>
                                     <td>39.5 min</td>
                                     <td>39.5 min</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Carbon</td>
                                     <td>0.05 – 0.10</td>
                                     <td>0.06 – 0.10</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Aluminum</td>
                                     <td>0.15 – 0.60</td>
                                     <td>0.25 – 0.60</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Titanium</td>
                                     <td>0.15 – 0.60</td>
                                     <td>0.25 – 0.60</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Al + Ti</td>
                                     <td>0.30 – 1.20</td>
                                     <td>0.85 – 1.20</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>ASTM Grain Size</td>
                                     <td>5 or coarser</td>
                                     <td>5 or coarser</td>
@@ -138,34 +138,34 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Imperial</th>
                                     <th>Metric</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Density</td>
                                     <td>0.287 lb/in³</td>
                                     <td>7.94 g/cm³</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Melting Range</td>
                                     <td>2475–2525 °F</td>
                                     <td>1357–1385 °C</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Specific Heat (32–212°F / 0–100°C)</td>
                                     <td>0.11 Btu/lb·°F</td>
                                     <td>460 J/kg·°C</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Magnetic Permeability at 200 oersteds (15.9 kA/m)</td>
                                     <td>1.014 (Annealed)</td>
                                     <td>1.009 (Hot-Rolled)</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Curie Temperature</td>
                                     <td>–175 °F</td>
                                     <td>–115 °C</td>
@@ -183,7 +183,7 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>80°F (27°C)</th>
                                     <th>800°F (425°C)</th>
@@ -194,7 +194,7 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tensile Strength (ksi / MPa)</td>
                                     <td>140 / 965</td>
                                     <td>140 / 965</td>
@@ -203,7 +203,7 @@
                                     <td>99.3 / 685</td>
                                     <td>167.3 / 1154</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Yield Strength (0.2% Offset), ksi</td>
                                     <td>126</td>
                                     <td>–</td>
@@ -212,7 +212,7 @@
                                     <td>82</td>
                                     <td>74</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Yield Strength (0.2% Offset), MPa</td>
                                     <td>868</td>
                                     <td>–</td>
@@ -221,7 +221,7 @@
                                     <td>565</td>
                                     <td>510</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tensile Strength, ksi</td>
                                     <td>77.8</td>
                                     <td>67.5</td>
@@ -230,7 +230,7 @@
                                     <td>47.7</td>
                                     <td>34.2</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tensile Strength, MPa</td>
                                     <td>536</td>
                                     <td>465</td>
@@ -239,7 +239,7 @@
                                     <td>329</td>
                                     <td>236</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Hardness, BHN</td>
                                     <td>150</td>
                                     <td>130</td>

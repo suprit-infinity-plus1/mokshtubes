@@ -28,7 +28,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?" alt="EN 4340" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/engineering-steels/engineering-steels-4340.jpg" alt="EN 4340" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -64,41 +64,41 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Element</th>
                                     <th>Composition (%)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Carbon</td>
                                     <td>0.38 – 0.43</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Manganese</td>
                                     <td>0.60 – 0.80</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Phosphorus</td>
                                     <td>≤ 0.035</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Silicon</td>
                                     <td>0.15 – 0.35</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Nickel</td>
                                     <td>1.65 – 2.00</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Chromium</td>
                                     <td>0.70 – 0.90</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Molybdenum</td>
                                     <td>0.20 – 0.30</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Sulfur</td>
                                     <td>≤ 0.040</td>
                                 </tr>
@@ -124,59 +124,59 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Imperial</th>
                                     <th>Metric</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Density</td>
                                     <td>0.284 lb/in³</td>
                                     <td>7.85 g/cm³</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Melting Point</td>
                                     <td>2600 °F</td>
                                     <td>1427 °C</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Elastic Modulus</td>
                                     <td>29.7 ×10³ ksi</td>
                                     <td>205 GPa</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Bulk Modulus</td>
                                     <td>20.3 ×10³ ksi</td>
                                     <td>140 GPa</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Shear Modulus</td>
                                     <td>11.6 ×10³ ksi</td>
                                     <td>80 GPa</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Thermal Conductivity</td>
                                     <td>309 BTU·in/hr·ft²·°F</td>
                                     <td>44.5 W/m·K</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Poisson’s Ratio</td>
                                     <td>0.27–0.30</td>
                                     <td>—</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Thermal Expansion</td>
                                     <td>6.8 µin/in·°F</td>
                                     <td>12.3 µm/m·°C</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Specific Heat</td>
                                     <td>0.114 BTU/lb·°F</td>
                                     <td>0.475 J/g·°C</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Electrical Resistivity</td>
                                     <td>0.0000248 Ω·cm</td>
                                     <td>—</td>
@@ -194,29 +194,29 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Value</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tensile Strength</td>
                                     <td>930 – 1080 MPa</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Yield Strength</td>
                                     <td>745 – 930 MPa</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Elongation at Break</td>
                                     <td>12 – 16 %</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Hardness</td>
                                     <td>28 – 34 HRC</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Impact Toughness</td>
                                     <td>Excellent</td>
                                 </tr>

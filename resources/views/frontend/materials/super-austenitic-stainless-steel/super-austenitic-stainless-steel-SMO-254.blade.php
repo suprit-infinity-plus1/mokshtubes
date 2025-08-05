@@ -66,41 +66,41 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+
                                     <th>Element</th>
                                     <th>Composition (%)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+
                                     <td>Nickel</td>
                                     <td>17.5 – 18.5</td>
                                 </tr>
-                                <tr>
+
                                     <td>Chromium</td>
                                     <td>19.5 – 20.5</td>
                                 </tr>
-                                <tr>
+
                                     <td>Carbon</td>
                                     <td>0.02 max</td>
                                 </tr>
-                                <tr>
+
                                     <td>Silicon</td>
                                     <td>0.8 max</td>
                                 </tr>
-                                <tr>
+
                                     <td>Manganese</td>
                                     <td>1.0 max</td>
                                 </tr>
-                                <tr>
+
                                     <td>Molybdenum</td>
                                     <td>6.0 – 6.5</td>
                                 </tr>
-                                <tr>
+
                                     <td>Nitrogen</td>
                                     <td>0.18 – 0.22</td>
                                 </tr>
-                                <tr>
+
                                     <td>Iron</td>
                                     <td>Balance</td>
                                 </tr>
@@ -126,44 +126,44 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+
                                     <th>Property</th>
                                     <th>Imperial</th>
                                     <th>Metric</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+
                                     <td>Density</td>
                                     <td>0.289 lb/in³</td>
                                     <td>8.00 g/cm³</td>
                                 </tr>
-                                <tr>
+
                                     <td>Melting Point</td>
                                     <td>2500 – 2650 °F</td>
                                     <td>1370 – 1454 °C</td>
                                 </tr>
-                                <tr>
+
                                     <td>Modulus of Elasticity – Tension</td>
                                     <td>29.0 × 10³ ksi</td>
                                     <td>200 GPa</td>
                                 </tr>
-                                <tr>
+
                                     <td>Modulus of Elasticity – Compression</td>
                                     <td>29.0 × 10³ ksi</td>
                                     <td>200 GPa</td>
                                 </tr>
-                                <tr>
+
                                     <td>Modulus of Elasticity – Torsion</td>
                                     <td>11.0 × 10³ ksi</td>
                                     <td>76 GPa</td>
                                 </tr>
-                                <tr>
+
                                     <td>Poisson’s Ratio</td>
                                     <td>0.29</td>
                                     <td>—</td>
                                 </tr>
-                                <tr>
+
                                     <td>Curie Temperature</td>
                                     <td>Not typically applicable</td>
                                     <td>Not typically applicable</td>
@@ -181,7 +181,7 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+
                                     <th>Property</th>
                                     <th>Annealed</th>
                                     <th>Cold Worked</th>
@@ -189,31 +189,31 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+
                                     <td>Tensile Strength (ksi / MPa)</td>
                                     <td>80–100 ksi / 550–690 MPa</td>
                                     <td>100–120 ksi / 690–830 MPa</td>
                                     <td>80–100 ksi / 550–690 MPa</td>
                                 </tr>
-                                <tr>
+
                                     <td>Yield Strength (0.2%) (ksi / MPa)</td>
                                     <td>40–60 ksi / 275–415 MPa</td>
                                     <td>65–90 ksi / 450–620 MPa</td>
                                     <td>40–60 ksi / 275–415 MPa</td>
                                 </tr>
-                                <tr>
+
                                     <td>Elongation (%)</td>
                                     <td>30–55%</td>
                                     <td>15–30%</td>
                                     <td>30–55%</td>
                                 </tr>
-                                <tr>
+
                                     <td>Hardness (Rockwell B / C)</td>
                                     <td>75–90 B</td>
                                     <td>85–95 B</td>
                                     <td>75–90 B</td>
                                 </tr>
-                                <tr>
+
                                     <td>Brinell Hardness (HB)</td>
                                     <td>160–210 HB</td>
                                     <td>200–250 HB</td>

@@ -26,12 +26,12 @@
 
             @php
                 $grades = [
-                    ['name' => '600', 'slug' => 'inconel-600'],
-                    ['name' => '617', 'slug' => 'inconel-617'],
-                    ['name' => '625', 'slug' => 'inconel-625'],
-                    ['name' => '690', 'slug' => 'inconel-690'],
-                    ['name' => '718', 'slug' => 'inconel-718'],
-                    ['name' => 'x750', 'slug' => 'inconel-x750'],
+                    ['name' => 'Inconel 600', 'slug' => 'inconel-600', 'image' => 'assets/images/inconel/inconel-600.jpg'],
+                    ['name' => 'Inconel 617', 'slug' => 'inconel-617', 'image' => 'assets/images/inconel/Inconel-617.jpeg'],
+                    ['name' => 'Inconel 625', 'slug' => 'inconel-625', 'image' => 'assets/images/inconel/Inconel-625.jpeg'],
+                    ['name' => 'Inconel 690', 'slug' => 'inconel-690', 'image' => 'assets/images/inconel/Inconel-690.jpg'],
+                    ['name' => 'Inconel 718', 'slug' => 'inconel-718', 'image' => 'assets/images/inconel/Inconel-718.jpg'],
+                    ['name' => 'Inconel x750', 'slug' => 'inconel-x750', 'image' => 'assets/images/inconel/Inconel-X 750.jpg'],
                 ];
             @endphp
 
@@ -44,7 +44,9 @@
                         <a href="{{ $href }}" class="text-decoration-none d-block h-100">
                             <div class="grade-card border rounded shadow-sm p-3 text-center h-100 transition"
                                 style="border-color: #db7227; transition: 0.3s;">
-                                <img src="https://placehold.co/300x180/db7227/fff?text={{ urlencode($grade['name']) }}"
+                                {{-- <img src="https://placehold.co/300x180/db7227/fff?text={{ urlencode($grade['name']) }}"
+                                    alt="{{ $grade['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;"> --}}
+                                    <img src="{{ asset($grade['image']) }}"
                                     alt="{{ $grade['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;">
                                 <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                     style="background-color: #174268; color: #fff; display: inline-block;">

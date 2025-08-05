@@ -27,7 +27,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?" alt="Inconel 718" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/inconel/Inconel-718.jpg" alt="Inconel 718" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -72,69 +72,69 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Element</th>
                                     <th>Composition (%)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Nickel</td>
                                     <td>50.00 – 55.00</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Chromium</td>
                                     <td>17.00 – 21.00</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Iron</td>
                                     <td>Balance*</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Niobium</td>
                                     <td>4.75 – 5.50</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Molybdenum</td>
                                     <td>2.80 – 3.30</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Titanium</td>
                                     <td>0.65 – 1.15</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Aluminum</td>
                                     <td>0.20 – 0.80</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Cobalt</td>
                                     <td>1.00</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Carbon</td>
                                     <td>0.08</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Manganese</td>
                                     <td>0.35</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Silicon</td>
                                     <td>0.35</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Phosphorus</td>
                                     <td>0.015</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Sulfur</td>
                                     <td>0.015</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Boron</td>
                                     <td>0.006</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Copper</td>
                                     <td>0.30</td>
                                 </tr>
@@ -160,34 +160,34 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Condition</th>
                                     <th>Value</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Density, lb/in³</td>
                                     <td>Annealed / Annealed and Aged</td>
                                     <td>0.296 / 0.297</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Melting Range</td>
                                     <td>—</td>
                                     <td>2300 – 2437 °F / 1260 – 1336 °C</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Specific Heat at 70°F (21°C)</td>
                                     <td>—</td>
                                     <td>0.104 Btu/lb·°F / 435 J/kg·°C</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Curie Temperature</td>
                                     <td>Annealed Material / Annealed and Aged</td>
                                     <td>-320 °F (<-196 °C) / -170 °F (-112 °C)</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Permeability at 200 oersted, 70°F</td>
                                     <td>Annealed Material / Annealed and Aged</td>
                                     <td>1.0013 / 1.0011</td>
@@ -205,7 +205,7 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Parameter</th>
                                     <th>Cold worked, solution annealed & aged 0.5 (12.7) to 150 (10,545)</th>
                                     <th>Hot worked, solution annealed & aged 0.5 (12.7) to 150 (10,545)</th>
@@ -213,54 +213,54 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Diameter, in.(mm)</td>
                                     <td>0.5 (12.7) to 150 (10,545)</td>
                                     <td>0.5 (12.7) to 150 (10,545)</td>
                                     <td>8 (203.2) to 10 (254)</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Maximum Hardness, Rockwell C</td>
                                     <td>120 (8436)</td>
                                     <td>120 (8436)</td>
                                     <td>150 (10,545)</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Impact Strength, ft•lb (Kg•m) min</td>
                                     <td>140 (9842)</td>
                                     <td>140 (9842)</td>
                                     <td>120 (8436)</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Impact Strength, ft•lb (Kg•m) aver</td>
                                     <td>20</td>
                                     <td>20</td>
                                     <td>140 (9842)</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Reduction of Area, % minimum</td>
                                     <td>25</td>
                                     <td>25</td>
                                     <td>20</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Elongation in 2 in. (50.8 mm) or 4D % minimum</td>
                                     <td>40 (5.55)</td>
                                     <td>40 (5.55)</td>
                                     <td>25</td>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Elongation in 2 in. (50.8 mm) or 4D % maximum</td>
                                     <td>30</td>
                                     <td>30</td>
                                     <td>40</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Yield Strength (0.2% Offset), ksi (Kg/cm2) min</td>
                                     <td>40</td>
                                     <td>40</td>
                                     <td>30</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tensile Strength, ksi (Kg/cm2) min</td>
                                     <td>40</td>
                                     <td>40</td>
