@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Titanium Grade 2 - Moksh Tubes & Fittings LLP')
+@section('title', 'Zirconium 702 - Moksh Tubes & Fittings LLP')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -8,7 +8,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Titanium Grade 2</h1>
+                    <h1>Zirconium 702</h1>
                 </div>
             </div>
         </div>
@@ -22,38 +22,34 @@
             </div>
 
             <h2 class="fw-semibold text-center mb-5" style="color: #db7227;">
-                Introduction To Titanium Grade 2 / UNS R50400
+                Introduction To Zirconium 702 / UNS R60702
             </h2>
 
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/titanium/titanium-2.jpg" alt="Titanium Grade 2" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/zirconium/zirconium-702.jpeg" alt="Zirconium 702"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a renowned manufacturer,
-                            supplier, exporter, importer, and stockist of a comprehensive range of<strong
-                                class="text-black"> Titanium Grade 2 <a href="{{ route('products') }}">products</a>
-                            </strong> including Pipes & Tubes, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils,
-                            Wires, Round
-                            Bars, Flat Bars, Angles, Welding Rods, Wire Mesh, and other Custom or <a
-                                href="{{ route('materials.hard-To-Find-And-Special-Alloys') }}">Hard-to-Find</a> Titanium
-                            Grade 2 Components.
+                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> proudly manufactures, supplies,
+                            exports, imports, and stocks a wide range of<strong class="text-black"> Zirconium 702 (UNS R60702) <a
+                                    href="{{ route('products') }}">products</a></strong>. Our offerings
+                            include Pipes & Tubes, Fittings, Flanges, Fasteners, Sheets, Plates, Coils, Wires, Bars, Welding
+                            Rods, and Custom-Engineered Components—all tailored to meet the needs of demanding industries.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">Titanium Grade 2</strong class="text-black"> is an unalloyed
-                            (commercially pure) titanium that offers a remarkable balance of strength, ductility, and
-                            excellent corrosion resistance. It is slightly stronger than Grade 1 but still maintains
-                            outstanding formability and weldability. These attributes make it highly suitable for industries
-                            requiring strong yet lightweight corrosion-resistant materials—especially in chemical
-                            processing, marine environments, medical systems, and aerospace structures. Its ability to
-                            perform reliably in oxidizing and mildly reducing environments sets it apart as a versatile and
-                            cost-effective solution.
+                            <strong class="text-black"><a href="{{ route('materials.zirconium') }}">Zirconium
+                                    702</a></strong class="text-black"> is a commercially pure
+                            zirconium alloy known for its exceptional corrosion resistance, particularly in aggressive
+                            chemical environments like strong acids and alkalis. With excellent weldability, ductility, and
+                            mechanical strength, it’s a go-to material for applications that require purity, performance,
+                            and longevity.
                         </p>
                     </div>
                 </div>
@@ -79,28 +75,36 @@
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Hydrogen</td>
-                                    <td>≤ 0.015</td>
+                                    <td>Zirconium</td>
+                                    <td>≥ 99.2 (balance)</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Titanium</td>
-                                    <td>Balance</td>
+                                    <td>Hafnium</td>
+                                    <td>≤ 4.5</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Iron</td>
-                                    <td>≤ 0.30</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Oxygen</td>
-                                    <td>≤ 0.25</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Carbon</td>
-                                    <td>≤ 0.08</td>
+                                    <td>Iron + Chromium</td>
+                                    <td>≤ 0.2</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Nitrogen</td>
-                                    <td>≤ 0.03</td>
+                                    <td>≤ 0.025</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Hydrogen</td>
+                                    <td>≤ 0.005</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Oxygen</td>
+                                    <td>≤ 0.16</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Carbon</td>
+                                    <td>≤ 0.05</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Niobium</td>
+                                    <td>≤ 0.01</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -133,28 +137,38 @@
                             <tbody class="text-center">
                                 <tr class="t-row">
                                     <td>Density</td>
-                                    <td>0.163 lb/in³</td>
-                                    <td>4.51 g/cm³</td>
+                                    <td>0.235 lb/in³</td>
+                                    <td>6.51 g/cm³</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Melting Point</td>
-                                    <td>3020 °F</td>
-                                    <td>1660 °C</td>
+                                    <td>3370 °F</td>
+                                    <td>1852 °C</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Modulus of Elasticity</td>
-                                    <td>15 x 10⁶ psi</td>
-                                    <td>103 GPa</td>
+                                    <td>Modulus of Elasticity – Tension</td>
+                                    <td>14.4 × 10³ ksi</td>
+                                    <td>99.3 GPa</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Thermal Conductivity</td>
-                                    <td>10.6 BTU/hr·ft·°F</td>
-                                    <td>15.24 W/m·K</td>
+                                    <td>Modulus of Elasticity – Compression</td>
+                                    <td>14.4 × 10³ ksi</td>
+                                    <td>99.3 GPa</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Electrical Resistivity</td>
-                                    <td>27.4 µΩ·in</td>
-                                    <td>173 µΩ·cm</td>
+                                    <td>Modulus of Elasticity – Torsion</td>
+                                    <td>5.25 × 10³ ksi</td>
+                                    <td>36.2 GPa</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Poisson’s Ratio</td>
+                                    <td>0.34</td>
+                                    <td>—</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Curie Temperature</td>
+                                    <td>Non-magnetic</td>
+                                    <td>Non-magnetic</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -171,53 +185,59 @@
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
                                     <th>Property</th>
-                                    <th>Tubing (Annealed)</th>
-                                    <th>Tubing (Cold Drawn)</th>
-                                    <th>Bar (Annealed)</th>
-                                    <th>Plate (Annealed)</th>
-                                    <th>Sheet (Annealed)</th>
+                                    <th>80°F (25°C)</th>
+                                    <th>800°F (425°C)</th>
+                                    <th>1000°F (540°C)</th>
+                                    <th>1200°F (650°C)</th>
+                                    <th>1300°F (705°C)</th>
+                                    <th>1400°F (760°C)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
                                     <td>Tensile Strength (ksi)</td>
-                                    <td>70</td>
-                                    <td>90</td>
-                                    <td>75</td>
-                                    <td>71</td>
-                                    <td>75</td>
+                                    <td>55</td>
+                                    <td>30</td>
+                                    <td>25</td>
+                                    <td>20</td>
+                                    <td>18</td>
+                                    <td>17</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Tensile Strength (MPa)</td>
-                                    <td>483</td>
-                                    <td>620</td>
-                                    <td>517</td>
-                                    <td>490</td>
-                                    <td>517</td>
+                                    <td>379</td>
+                                    <td>207</td>
+                                    <td>172</td>
+                                    <td>138</td>
+                                    <td>124</td>
+                                    <td>117</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Yield Strength (0.2%) (ksi)</td>
-                                    <td>50</td>
-                                    <td>70</td>
-                                    <td>55</td>
-                                    <td>52</td>
-                                    <td>55</td>
+                                    <td>30</td>
+                                    <td>18</td>
+                                    <td>15</td>
+                                    <td>12</td>
+                                    <td>10</td>
+                                    <td>9</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Yield Strength (MPa)</td>
-                                    <td>345</td>
-                                    <td>483</td>
-                                    <td>379</td>
-                                    <td>359</td>
-                                    <td>379</td>
+                                    <td>207</td>
+                                    <td>124</td>
+                                    <td>103</td>
+                                    <td>83</td>
+                                    <td>69</td>
+                                    <td>62</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Elongation (%)</td>
-                                    <td>30</td>
-                                    <td>18</td>
-                                    <td>25</td>
-                                    <td>20</td>
-                                    <td>24</td>
+                                    <td>Hardness (BHN)</td>
+                                    <td>145</td>
+                                    <td>100</td>
+                                    <td>90</td>
+                                    <td>85</td>
+                                    <td>80</td>
+                                    <td>75</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -246,16 +266,14 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Products in Titanium Grade 2</h2>
+                <h2>Products in Zirconium 702</h2>
             </div>
             <!-- Highlighted Paragraph -->
             <div class="row justify-content-center mb-4" style="text-align: justify;">
                 <div class="col-lg-10">
                     <p class="fs-6">
-                        <strong class="text-dark">Titanium Grade 2 (UNS R50400 / W.Nr. 3.7035) </strong>is trusted for its
-                        superior corrosion resistance, light weight, and excellent performance in a wide range of industrial
-                        and commercial applications. Its impressive resistance to oxidation, moisture, and a variety of
-                        chemicals makes it an ideal material for sensitive or corrosive operating environments.
+                        <strong class="text-dark">Zirconium 702</strong> in the following standard and custom-engineered
+                        forms:
                     </p>
                 </div>
             </div>
@@ -280,7 +298,7 @@
             <div class="row justify-content-center mb-3">
                 <div class="col-lg-10">
                     <p class="fw-bold fs-5 text-center my-4" style="color: #174268;">
-                        Titanium Grade 2 products are produced to the following global standards:
+                        Zirconium 702 products are produced to the following global standards:
                     </p>
                 </div>
             </div>
@@ -315,43 +333,44 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>Excellent corrosion resistance in oxidizing and mildly reducing environments</h5>
+                        <h5>Excellent Corrosion Resistance in acids like hydrochloric, sulfuric, nitric, and organic acids
+                        </h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h5>Strong yet lightweight – ideal for weight-sensitive applications</h5>
+                        <h5>Good Strength and Toughness at room and elevated temperatures</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h5>Outstanding weldability and fabricability</h5>
+                        <h5>Easily Weldable and Formable—supports complex fabrication</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h5>Non-toxic and biocompatible – suitable for food, medical, and pharmaceutical uses</h5>
+                        <h5>Low Reactivity with Process Media—ideal for sensitive applications</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
-                        <h5>Stable mechanical properties across varying temperatures</h5>
+                        <h5>Non-toxic and Biocompatible—used in medical and high-purity chemical systems</h5>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-4">
+                {{-- <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
                         <h5>Economical compared to other titanium grades with higher alloy content</h5>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </section>
@@ -360,10 +379,9 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Applications of Titanium Grade 2</h2>
-                <p class="text-center pb-3"><strong class="text-dark">Titanium Grade 2</strong> is extensively used in
-                    industries where strength, corrosion resistance, and weight are critical factors. Its unique
-                    characteristics make it an ideal material for a wide array of applications, such as:
+                <h2>Applications of Zirconium 702</h2>
+                <p class="text-center pb-3"><strong class="text-dark">Zirconium 702</strong> is trusted in industries that
+                    demand purity, performance, and resistance to extreme environments.
                 </p>
             </div>
 
@@ -371,55 +389,56 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
-                        <h5>Chemical Processing Industry</h5>
-                        <p>Used in reactors, heat exchangers, piping systems, and pressure vessels for acidic or
-                            chloride-laden media.</p>
+                        <h5>Chemical Processing</h5>
+                        <p>Perfect for reactors, heat exchangers, pressure vessels, columns, and piping systems exposed to
+                            strong acids.</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
-                        <h5>Desalination and Water Treatment</h5>
-                        <p>Ideal for evaporators, condensers, and brine heaters where high chloride resistance is essential.
-                        </p>
+                        <h5>Nuclear Power</h5>
+                        <p>Due to its low neutron absorption, Zirconium 702 is used in fuel cladding, cooling systems, and
+                            structural components.</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
-                        <h5>Marine and Offshore Environments</h5>
-                        <p>Applied in shipbuilding, offshore platforms, seawater cooling systems, and marine fasteners.</p>
+                        <h5>Pharmaceutical & Food Industry</h5>
+                        <p>Used for high-purity fluid handling, steam lines, and acid-resistant parts that require hygienic
+                            surfaces.</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-droplet"></i></div>
-                        <h5>Power Generation</h5>
-                        <p>Utilized in condensers, cooling systems, and heat recovery units due to its resistance to erosion
-                            and chemical attack.</p>
+                        <h5>Aerospace</h5>
+                        <p>Applicable in corrosive fuel systems and specialty aerospace equipment due to its light weight
+                            and chemical resistance.</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
-                        <h5>Aerospace Industry</h5>
-                        <p>Used in structural frames, tubing, and fuel systems where strength-to-weight ratio is crucial.
-                        </p>
+                        <h5>Medical Devices</h5>
+                        <p>Biocompatible and corrosion-resistant—used in implants, surgical instruments, and sterilization
+                            chambers.</p>
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-4">
+                {{-- <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
                         <h5>Medical and Pharmaceutical Equipment</h5>
                         <p>Favored for surgical tools, implants, and cleanroom processing systems because of its purity and
                             biocompatibility.</p>
                     </div>
-                </div>
+                </div> --}}
 
                 {{-- <div class="col-md-6 col-lg-4">
                 <div class="application-card">
@@ -443,35 +462,35 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Decades of expertise in titanium and non-ferrous metal production</h5>
+                        <h5>Specialists in Zirconium & Exotic Alloys</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
-                        <h5>Strong global supply chain for raw materials and logistics</h5>
+                        <h5>Global sourcing of top-grade raw materials</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
-                        <h5>Full compliance with international standards and certifications</h5>
+                        <h5>Precision manufacturing to ASTM/ASME standards</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Ability to deliver custom-sized and precision-made components</h5>
+                        <h5>Custom fabrication to meet your specs</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
-                        <h5>Commitment to fast delivery, consistent quality, and customer satisfaction</h5>
+                        <h5>Reliable delivery & support across industries</h5>
                     </div>
                 </div>
             </div>
@@ -483,9 +502,8 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    <strong>Moksh Tubes & Fittings LLP</strong> for expert guidance, custom orders, or a competitive quote.
-                    We're your one-stop destination for high-performance titanium solutions tailored to meet the needs of
-                    modern industries.
+                    <strong>Moksh Tubes & Fittings LLP</strong> Let our team help you source exactly what you need, when you
+                    need it.
                 </p>
                 <!-- Call button -->
                 <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
