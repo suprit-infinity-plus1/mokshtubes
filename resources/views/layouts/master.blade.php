@@ -310,7 +310,7 @@
                                                         'Aluminium Alloys',
                                                         'Copper Alloys',
                                                         'Hard To Find & Special Alloys',
-                                                        // 'Haynes Superalloys',
+                                                        'Haynes Superalloys',
                                                     ];
                                                 @endphp
 

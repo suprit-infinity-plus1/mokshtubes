@@ -53,7 +53,7 @@ class MainController extends Controller
             'Aluminium Alloys',
             'Copper Alloys',
             'Hard To Find And Special Alloys',
-            // 'Haynes Superalloys',
+            'Haynes Superalloys',
         ];
 
         return view(
@@ -275,6 +275,18 @@ class MainController extends Controller
         return view('frontend.materials.zirconium.index', compact('grades'));
     }
 
+    public function haynesSuperalloys()
+    {
+                 $grades = [
+                    ['name' => 'haynes-superalloys 160','slug' => 'haynes-superalloys-160'],
+                    ['name' => 'haynes-superalloys 188','slug' => 'haynes-superalloys-188'],
+                    ['name' => 'haynes-superalloys 230','slug' => 'haynes-superalloys-230'],
+                    ['name' => 'haynes-superalloys 242','slug' => 'haynes-superalloys-242'],
+                ];
+
+        return view('frontend.materials.haynes-superalloys.index', compact('grades'));
+    }
+
 
 
     public function showMaterialGrade($family, $grade)
@@ -333,5 +345,10 @@ class MainController extends Controller
       public function seamlessPipes()
     {
         return view('frontend.products.pipes-tubes.seamless-pipes');
+    }
+
+        public function capillaries()
+    {
+        return view('frontend.products.pipes-tubes.capillaries');
     }
 }
