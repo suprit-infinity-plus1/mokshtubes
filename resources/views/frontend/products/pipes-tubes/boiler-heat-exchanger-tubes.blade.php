@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'Capillary Tubes | Moksh Tubes')
+@section('title', 'Boiler & Heat Exchanger Tubes | Moksh Tubes')
 @section('content')
     <!--Start breadcrumb area-->
 
@@ -11,7 +11,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Capillary Tubes</h1>
+                    <h1>Boiler & Heat Exchanger Tubes</h1>
                 </div>
             </div>
         </div>
@@ -21,41 +21,34 @@
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Capillary Tubes</h2>
+                <h2 class="fw-bold" style="color: #174268;">Boiler & Heat Exchanger Tubes</h2>
             </div>
 
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/peoduct/capillary-tubes.jpg" alt="Capillary Tubes" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/peoduct/boiler-heat-exchanger-tubes.jpg" alt="Boiler & Heat Exchanger Tubes"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Right Content -->
                 <div class="col-md-6">
                     <p class="fs-6 mb-3 text-justify">
-                        <strong class="text-black">Capillary Tubes</strong> Capillary Tubes are precision-engineered tubing
-                        <a href="{{ route('products') }}">products</a> with extremely small diameters designed for
-                        applications requiring high accuracy,
-                        controlled flow, and superior surface finish. These tubes are widely used in medical,
-                        instrumentation, refrigeration, and chemical industries where micro-level precision and reliability
-                        are essential.
+                        <strong class="text-black">Boiler & Heat Exchanger Tubes</strong> are essential components in
+                        thermal power plants, petrochemical plants, refineries, and process industries. They are designed to
+                        withstand extreme temperatures, pressures, and corrosive environments while ensuring efficient heat
+                        transfer.
                     </p>
                     <p class="fs-6 mb-3 text-justify">
-                        Made from high-quality <a href="{{ route('materials.super-Austenitic-Stainless-Steel') }}">stainless
-                            steel</a>,<a href="{{ route('materials.nickel-Based-Superalloys') }}"> nickel alloys</a>, <a
-                            href="{{ route('materials.titanium') }}">titanium</a>, and other specialty materials,
-                        capillary tubes offer excellent corrosion resistance, mechanical strength, and durability. Their
-                        tight dimensional tolerances and smooth internal surfaces make them indispensable for sensitive
-                        applications like chromatography, thermocouples, and hydraulic systems.
+                        Made from high-grade<a href="{{ route('materials.austenitic-stainless-Steel') }}"> stainless
+                            steel</a>, carbon steel, alloy steel, and specialty alloys, these tubes
+                        are manufactured to strict tolerances and international quality standards (ASTM, ASME, DIN, EN).
                     </p>
-                    <p class="fs-6 mb-3 text-justify">
-                        <strong class="text-black"> Moksh Tubes & Fittings LLP</strong>, we produce capillaries to ASTM,
-                        ASME, and
-                        international standards,
-                        ensuring consistency, quality, and performance. Our advanced manufacturing techniques, including
-                        cold drawing, bright annealing, and precision polishing, ensure capillary tubes meet the most
-                        demanding industry requirements.
-                    </p>
+                    <p class="fs-6 text-justify">
+                        <strong class="text-black"> Moksh Tubes & Fittings LLP</strong>, we produce boiler and heat
+                        exchanger tubes using advanced cold-drawing, seamless forming, and welding technologies to deliver
+                        precision, durability, and performance. Our tubes are trusted worldwide for use in boilers,
+                        superheaters, condensers, heat exchangers, and other critical systems.
                 </div>
             </div>
         </div>
@@ -80,36 +73,40 @@
                             <tbody class="text-start">
                                 <tr class="t-row">
                                     <td>Material</td>
-                                    <td>Stainless Steel, Duplex & Super Duplex, Nickel Alloys, Inconel, Monel, Titanium,
-                                        Copper Alloys</td>
+                                    <td>Stainless Steel, Duplex & Super Duplex Steel, Nickel Alloys, Inconel, Monel,
+                                        Titanium, Copper Alloys, Alloy Steel, Carbon Steel</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Grades</td>
-                                    <td>Available in ASTM/ASME certified grades across all mentioned alloys</td>
+                                    <td>ASTM/ASME certified – available in all mentioned alloys</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Outer Diameter (OD)</td>
-                                    <td>0.3 mm to 8 mm (custom options available)</td>
+                                    <td>6 mm to 219 mm (¼” to 8” NB)</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Wall Thickness</td>
-                                    <td>0.05 mm to 1.0 mm (tolerances as per application needs)</td>
+                                    <td>0.5 mm to 12.7 mm (standard & custom schedules)</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Lengths</td>
-                                    <td>Standard up to 6 meters or custom coil lengths supplied</td>
+                                    <td>Up to 12 meters or cut-to-length as per project needs</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Finishes</td>
-                                    <td>Bright Annealed, Electro-Polished, Matte, Mechanical Polished</td>
+                                    <td>Bright Annealed, Pickled & Passivated, Electro Polished, Matte</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>From</td>
-                                    <td>Coiled, Straight Lengths, Cut-to-Length Precision Pieces</td>
+                                    <td>Type</td>
+                                    <td>Seamless, Welded (ERW, EFW), U-Bent Tubes</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Standards</td>
-                                    <td>ASTM A213, ASTM A269, ASTM B338, DIN, EN standards</td>
+                                    <td>ASTM A179, A192, A213, A249, A269, A333, ASME SA213, EN 10216, DIN standards</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Applications</td>
+                                    <td>Boilers, Heat Exchangers, Superheaters, Condensers, Economizers</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -165,7 +162,6 @@
                     <tbody>
                         <tr class="t-row">
                             <td>3</td>
-
                             <td>1/8</td>
                             <td>10.3</td>
                             <td>0.2</td>
@@ -180,12 +176,9 @@
                             <td>0.06</td>
                             <td>1.0</td>
                             <td>0.07</td>
-
                         </tr>
-
                         <tr class="t-row">
                             <td>6</td>
-
                             <td>1/4</td>
                             <td>13.7</td>
                             <td>0.2</td>
@@ -200,7 +193,6 @@
                             <td>0.08</td>
                             <td>1.0</td>
                             <td>0.10</td>
-
                         </tr>
                         <tr class="t-row">
                             <td>10</td>
@@ -218,7 +210,6 @@
                             <td>0.11</td>
                             <td>1.0</td>
                             <td>0.14</td>
-
                         </tr>
                         <tr class="t-row">
                             <td>15</td>
@@ -236,7 +227,6 @@
                             <td>0.16</td>
                             <td>1.0</td>
                             <td>0.20</td>
-
                         </tr>
                         <tr class="t-row">
                             <td>20</td>
@@ -274,7 +264,7 @@
                         </tr>
                         <tr class="t-row">
                             <td>32</td>
-                            <td>11.4</td>
+                            <td>1 1/4</td>
                             <td>42.2</td>
                             <td>0.2</td>
                             <td>0.13</td>
@@ -326,7 +316,7 @@
                         <tr class="t-row">
                             <td>65</td>
                             <td>2 1/2</td>
-                            <td>73.00</td>
+                            <td>73.0</td>
                             <td>0.2</td>
                             <td>0.33</td>
                             <td>0.3</td>
@@ -408,160 +398,6 @@
                             <td>1.0</td>
                             <td>8.02</td>
                         </tr>
-                        <tr class="t-row">
-                            <td>200</td>
-                            <td>8</td>
-                            <td>219.1</td>
-                            <td>0.2</td>
-                            <td>2.73</td>
-                            <td>0.3</td>
-                            <td>4.03</td>
-                            <td>0.4</td>
-                            <td>5.40</td>
-                            <td>0.6</td>
-                            <td>8.01</td>
-                            <td>0.8</td>
-                            <td>10.65</td>
-                            <td>1.0</td>
-                            <td>13.33</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>250</td>
-                            <td>10</td>
-                            <td>273.1</td>
-                            <td>0.2</td>
-                            <td>4.17</td>
-                            <td>0.3</td>
-                            <td>6.15</td>
-                            <td>0.4</td>
-                            <td>8.23</td>
-                            <td>0.6</td>
-                            <td>12.23</td>
-                            <td>0.8</td>
-                            <td>16.27</td>
-                            <td>1.0</td>
-                            <td>20.35</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>300</td>
-                            <td>12</td>
-                            <td>323.9</td>
-                            <td>0.2</td>
-                            <td>31.25</td>
-                            <td>4.57</td>
-                            <td>36.00</td>
-                            <td>9.52</td>
-                            <td>73.88</td>
-                            <td>12.7</td>
-                            <td>132.0</td>
-                            <td>33.32</td>
-                            <td>238.76</td>
-                            <td>25.40</td>
-                            <td>186.97</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>300</td>
-                            <td>12</td>
-                            <td>323.9</td>
-                            <td>0.2</td>
-                            <td>5.94</td>
-                            <td>0.3</td>
-                            <td>8.76</td>
-                            <td>0.4</td>
-                            <td>11.71</td>
-                            <td>0.6</td>
-                            <td>17.45</td>
-                            <td>0.8</td>
-                            <td>23.23</td>
-                            <td>1.0</td>
-                            <td>29.05</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>350</td>
-                            <td>14</td>
-                            <td>355.6</td>
-                            <td>0.2</td>
-                            <td>7.21</td>
-                            <td>0.3</td>
-                            <td>10.63</td>
-                            <td>0.4</td>
-                            <td>14.23</td>
-                            <td>0.6</td>
-                            <td>21.20</td>
-                            <td>0.8</td>
-                            <td>28.26</td>
-                            <td>1.0</td>
-                            <td>35.35</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>400</td>
-                            <td>16</td>
-                            <td>406.4</td>
-                            <td>0.2</td>
-                            <td>9.29</td>
-                            <td>0.3</td>
-                            <td>13.70</td>
-                            <td>0.4</td>
-                            <td>18.35</td>
-                            <td>0.6</td>
-                            <td>27.37</td>
-                            <td>0.8</td>
-                            <td>36.46</td>
-                            <td>1.0</td>
-                            <td>45.59</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>450</td>
-                            <td>18</td>
-                            <td>457.2</td>
-                            <td>0.2</td>
-                            <td>11.52</td>
-                            <td>0.3</td>
-                            <td>17.00</td>
-                            <td>0.4</td>
-                            <td>22.78</td>
-                            <td>0.6</td>
-                            <td>34.00</td>
-                            <td>0.8</td>
-                            <td>45.33</td>
-                            <td>1.0</td>
-                            <td>56.70</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>500</td>
-                            <td>20</td>
-                            <td>508.0</td>
-                            <td>0.2</td>
-                            <td>13.88</td>
-                            <td>0.3</td>
-                            <td>20.50</td>
-                            <td>0.4</td>
-                            <td>27.50</td>
-                            <td>0.6</td>
-                            <td>41.10</td>
-                            <td>0.8</td>
-                            <td>54.75</td>
-                            <td>1.0</td>
-                            <td>68.45</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>600</td>
-                            <td>24</td>
-                            <td>609.6</td>
-                            <td>0.2</td>
-                            <td>18.93</td>
-                            <td>0.3</td>
-                            <td>28.00</td>
-                            <td>0.4</td>
-                            <td>37.50</td>
-                            <td>0.6</td>
-                            <td>56.05</td>
-                            <td>0.8</td>
-                            <td>74.68</td>
-                            <td>1.0</td>
-                            <td>93.95</td>
-                        </tr>
-
                         <!-- Add more rows as needed -->
                     </tbody>
                 </table>
@@ -578,7 +414,7 @@
 
             <!-- Child Title -->
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Schedule 5C – Size Chart (ASME B36.19)</h4>
+                <h4 class="text-center mb-0" style="color: #db7227;">Schedule 5C – Size Chart (ASME B36.10)</h4>
             </div>
 
 
@@ -588,6 +424,8 @@
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
+                                    <th>NB (mm)</th>
+                                    <th>NPS (inches)</th>
                                     <th>OD (mm)</th>
                                     <th>Wall Thickness (mm)</th>
                                     <th>Weight (kg/m)</th>
@@ -595,69 +433,158 @@
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>0.30</td>
-                                    <td>0.05</td>
-                                    <td>0.00028</td>
+                                    <td>3</td>
+                                    <td>1/8"</td>
+                                    <td>10.3</td>
+                                    <td>1.24</td>
+                                    <td>0.276</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>0.50</td>
-                                    <td>0.05</td>
-                                    <td>0.00045</td>
+                                    <td>6</td>
+                                    <td>1/4"</td>
+                                    <td>13.7</td>
+                                    <td>1.24</td>
+                                    <td>0.390</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>0.80</td>
-                                    <td>0.08</td>
-                                    <td>0.00080</td>
+                                    <td>10</td>
+                                    <td>3/8"</td>
+                                    <td>17.1</td>
+                                    <td>1.24</td>
+                                    <td>0.490</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>1.00</td>
-                                    <td>0.10</td>
-                                    <td>0.00140</td>
+                                    <td>15</td>
+                                    <td>1/2"</td>
+                                    <td>21.3</td>
+                                    <td>1.65</td>
+                                    <td>0.800</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>1.50</td>
-                                    <td>0.12</td>
-                                    <td>0.00250</td>
+                                    <td>20</td>
+                                    <td>3/4"</td>
+                                    <td>26.7</td>
+                                    <td>1.65</td>
+                                    <td>1.030</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>2.00</td>
-                                    <td>0.15</td>
-                                    <td>0.00370</td>
+                                    <td>25</td>
+                                    <td>1"</td>
+                                    <td>33.4</td>
+                                    <td>1.65</td>
+                                    <td>1.300</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>2.50</td>
-                                    <td>0.20</td>
-                                    <td>0.00620</td>
+                                    <td>32</td>
+                                    <td>1 1/4"</td>
+                                    <td>42.2</td>
+                                    <td>1.65</td>
+                                    <td>1.650</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>3.00</td>
-                                    <td>0.25</td>
-                                    <td>0.00970</td>
+                                    <td>40</td>
+                                    <td>1 1/2"</td>
+                                    <td>48.3</td>
+                                    <td>1.65</td>
+                                    <td>1.910</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>3.50</td>
-                                    <td>0.30</td>
-                                    <td>0.01380</td>
+                                    <td>50</td>
+                                    <td>2"</td>
+                                    <td>60.3</td>
+                                    <td>1.65</td>
+                                    <td>2.400</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>4.00</td>
-                                    <td>0.35</td>
-                                    <td>0.01890</td>
+                                    <td>65</td>
+                                    <td>2 1/2"</td>
+                                    <td>73.0</td>
+                                    <td>2.11</td>
+                                    <td>3.690</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>5.00</td>
-                                    <td>0.40</td>
-                                    <td>0.02700</td>
+                                    <td>80</td>
+                                    <td>3"</td>
+                                    <td>88.9</td>
+                                    <td>2.11</td>
+                                    <td>4.510</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>6.00</td>
-                                    <td>0.50</td>
-                                    <td>0.04150</td>
+                                    <td>100</td>
+                                    <td>4"</td>
+                                    <td>114.3</td>
+                                    <td>2.11</td>
+                                    <td>5.840</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>8.00</td>
-                                    <td>0.50</td>
-                                    <td>0.05500</td>
+                                    <td>125</td>
+                                    <td>5"</td>
+                                    <td>141.3</td>
+                                    <td>2.77</td>
+                                    <td>9.470</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>150</td>
+                                    <td>6"</td>
+                                    <td>168.3</td>
+                                    <td>2.77</td>
+                                    <td>11.320</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>200</td>
+                                    <td>8"</td>
+                                    <td>219.1</td>
+                                    <td>2.77</td>
+                                    <td>14.790</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>250</td>
+                                    <td>10"</td>
+                                    <td>273.1</td>
+                                    <td>3.40</td>
+                                    <td>22.630</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>300</td>
+                                    <td>12"</td>
+                                    <td>323.9</td>
+                                    <td>3.96</td>
+                                    <td>31.250</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>350</td>
+                                    <td>14"</td>
+                                    <td>355.6</td>
+                                    <td>3.96</td>
+                                    <td>34.360</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>400</td>
+                                    <td>16"</td>
+                                    <td>406.4</td>
+                                    <td>4.19</td>
+                                    <td>41.560</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>450</td>
+                                    <td>18"</td>
+                                    <td>457.2</td>
+                                    <td>4.19</td>
+                                    <td>46.800</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>500</td>
+                                    <td>20"</td>
+                                    <td>508.0</td>
+                                    <td>4.78</td>
+                                    <td>59.250</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>600</td>
+                                    <td>24"</td>
+                                    <td>609.6</td>
+                                    <td>5.54</td>
+                                    <td>82.470</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -671,7 +598,7 @@
         <div class="container">
             <!-- Child Title -->
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Schedule 10C – Size Chart (ASME B36.19)</h4>
+                <h4 class="text-center mb-0" style="color: #db7227;">Schedule 10C – Size Chart (ASME B36.10)</h4>
             </div>
 
             <div class="row justify-content-center">
@@ -680,76 +607,190 @@
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
+                                    <th>NPS (inches)</th>
+                                    <th>NB (mm)</th>
                                     <th>OD (mm)</th>
                                     <th>Wall Thickness (mm)</th>
+                                    <th>Internal Diameter (mm)</th>
                                     <th>Weight (kg/m)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>0.30</td>
-                                    <td>0.06</td>
-                                    <td>0.00033</td>
+                                    <td>1/8</td>
+                                    <td>3</td>
+                                    <td>10.30</td>
+                                    <td>1.24</td>
+                                    <td>7.82</td>
+                                    <td>0.28</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>0.50</td>
-                                    <td>0.08</td>
-                                    <td>0.00055</td>
+                                    <td>1/4</td>
+                                    <td>6</td>
+                                    <td>13.70</td>
+                                    <td>1.24</td>
+                                    <td>11.22</td>
+                                    <td>0.39</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>0.80</td>
-                                    <td>0.10</td>
-                                    <td>0.00095</td>
+                                    <td>3/8</td>
+                                    <td>10</td>
+                                    <td>17.10</td>
+                                    <td>1.24</td>
+                                    <td>14.62</td>
+                                    <td>0.49</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>1.00</td>
-                                    <td>0.12</td>
-                                    <td>0.00160</td>
+                                    <td>1/2</td>
+                                    <td>15</td>
+                                    <td>21.30</td>
+                                    <td>1.65</td>
+                                    <td>18.00</td>
+                                    <td>0.81</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>1.50</td>
-                                    <td>0.15</td>
-                                    <td>0.00290</td>
+                                    <td>3/4</td>
+                                    <td>20</td>
+                                    <td>26.70</td>
+                                    <td>1.65</td>
+                                    <td>23.40</td>
+                                    <td>1.04</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>2.00</td>
-                                    <td>0.20</td>
-                                    <td>0.00480</td>
+                                    <td>1</td>
+                                    <td>25</td>
+                                    <td>33.40</td>
+                                    <td>1.65</td>
+                                    <td>30.10</td>
+                                    <td>1.32</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>2.50</td>
-                                    <td>0.25</td>
-                                    <td>0.00750</td>
+                                    <td>1 1/4</td>
+                                    <td>32</td>
+                                    <td>42.20</td>
+                                    <td>1.65</td>
+                                    <td>38.90</td>
+                                    <td>1.68</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>3.00</td>
-                                    <td>0.30</td>
-                                    <td>0.01100</td>
+                                    <td>1 1/2</td>
+                                    <td>40</td>
+                                    <td>48.30</td>
+                                    <td>1.65</td>
+                                    <td>45.00</td>
+                                    <td>1.93</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>3.50</td>
-                                    <td>0.35</td>
-                                    <td>0.01520</td>
+                                    <td>2</td>
+                                    <td>50</td>
+                                    <td>60.30</td>
+                                    <td>1.65</td>
+                                    <td>57.00</td>
+                                    <td>2.43</td>
                                 </tr>
                                 <tr class="t-row">
+                                    <td>2 1/2</td>
+                                    <td>65</td>
+                                    <td>73.00</td>
+                                    <td>1.65</td>
+                                    <td>69.70</td>
+                                    <td>2.96</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>3</td>
+                                    <td>80</td>
+                                    <td>88.90</td>
+                                    <td>1.65</td>
+                                    <td>85.60</td>
+                                    <td>3.62</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>4</td>
+                                    <td>100</td>
+                                    <td>114.30</td>
+                                    <td>1.65</td>
+                                    <td>111.00</td>
+                                    <td>4.67</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>5</td>
+                                    <td>125</td>
+                                    <td>141.30</td>
+                                    <td>1.65</td>
+                                    <td>138.00</td>
+                                    <td>5.79</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>6</td>
+                                    <td>150</td>
+                                    <td>168.30</td>
+                                    <td>1.65</td>
+                                    <td>165.00</td>
+                                    <td>6.91</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>8</td>
+                                    <td>200</td>
+                                    <td>219.10</td>
+                                    <td>2.11</td>
+                                    <td>214.88</td>
+                                    <td>11.51</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>10</td>
+                                    <td>250</td>
+                                    <td>273.10</td>
+                                    <td>2.77</td>
+                                    <td>267.56</td>
+                                    <td>18.81</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>12</td>
+                                    <td>300</td>
+                                    <td>323.90</td>
+                                    <td>3.05</td>
+                                    <td>317.80</td>
+                                    <td>24.59</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>14</td>
+                                    <td>350</td>
+                                    <td>355.60</td>
+                                    <td>3.40</td>
+                                    <td>348.80</td>
+                                    <td>30.10</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>16</td>
+                                    <td>400</td>
+                                    <td>406.40</td>
+                                    <td>3.40</td>
+                                    <td>399.60</td>
+                                    <td>34.44</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>18</td>
+                                    <td>450</td>
+                                    <td>457.20</td>
+                                    <td>3.80</td>
+                                    <td>449.60</td>
+                                    <td>43.28</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>20</td>
+                                    <td>500</td>
+                                    <td>508.00</td>
+                                    <td>3.80</td>
+                                    <td>500.40</td>
+                                    <td>48.15</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>24</td>
+                                    <td>600</td>
+                                    <td>609.60</td>
                                     <td>4.00</td>
-                                    <td>0.40</td>
-                                    <td>0.02040</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>5.00</td>
-                                    <td>0.50</td>
-                                    <td>0.03120</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>6.00</td>
-                                    <td>0.60</td>
-                                    <td>0.04900</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>8.00</td>
-                                    <td>0.60</td>
-                                    <td>0.06280</td>
+                                    <td>601.60</td>
+                                    <td>60.92</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -762,7 +803,7 @@
         <div class="container">
             <!-- Child Title -->
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Schedule 40C – Size Chart (ASME B36.19)</h4>
+                <h4 class="text-center mb-0" style="color: #db7227;">Schedule 40C – Size Chart (ASME B36.10)</h4>
             </div>
 
             <div class="row justify-content-center">
@@ -771,6 +812,8 @@
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
+                                    <th>NPS (inches)</th>
+                                    <th>NB (mm)</th>
                                     <th>OD (mm)</th>
                                     <th>Wall Thickness (mm)</th>
                                     <th>Weight (kg/m)</th>
@@ -778,64 +821,158 @@
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>0.50</td>
-                                    <td>0.10</td>
-                                    <td>0.00065</td>
+                                    <td>1/8</td>
+                                    <td>3</td>
+                                    <td>10.3</td>
+                                    <td>1.73</td>
+                                    <td>0.37</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>0.80</td>
-                                    <td>0.12</td>
-                                    <td>0.00110</td>
+                                    <td>1/4</td>
+                                    <td>6</td>
+                                    <td>13.7</td>
+                                    <td>2.24</td>
+                                    <td>0.64</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>1.00</td>
-                                    <td>0.15</td>
-                                    <td>0.00200</td>
+                                    <td>3/8</td>
+                                    <td>10</td>
+                                    <td>17.1</td>
+                                    <td>2.31</td>
+                                    <td>0.86</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>1.50</td>
-                                    <td>0.20</td>
-                                    <td>0.00390</td>
+                                    <td>1/2</td>
+                                    <td>15</td>
+                                    <td>21.3</td>
+                                    <td>2.77</td>
+                                    <td>1.27</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>2.00</td>
-                                    <td>0.25</td>
-                                    <td>0.00610</td>
+                                    <td>3/4</td>
+                                    <td>20</td>
+                                    <td>26.7</td>
+                                    <td>2.87</td>
+                                    <td>1.70</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>2.50</td>
-                                    <td>0.30</td>
-                                    <td>0.00950</td>
+                                    <td>1</td>
+                                    <td>25</td>
+                                    <td>33.4</td>
+                                    <td>3.38</td>
+                                    <td>2.46</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>3.00</td>
-                                    <td>0.35</td>
-                                    <td>0.01370</td>
+                                    <td>1 1/4</td>
+                                    <td>32</td>
+                                    <td>42.2</td>
+                                    <td>3.56</td>
+                                    <td>3.61</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>3.50</td>
-                                    <td>0.40</td>
-                                    <td>0.01880</td>
+                                    <td>1 1/2</td>
+                                    <td>40</td>
+                                    <td>48.3</td>
+                                    <td>3.68</td>
+                                    <td>4.18</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>4.00</td>
-                                    <td>0.45</td>
-                                    <td>0.02450</td>
+                                    <td>2</td>
+                                    <td>50</td>
+                                    <td>60.3</td>
+                                    <td>3.91</td>
+                                    <td>5.44</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>5.00</td>
-                                    <td>0.50</td>
-                                    <td>0.03340</td>
+                                    <td>2 1/2</td>
+                                    <td>65</td>
+                                    <td>73.0</td>
+                                    <td>5.16</td>
+                                    <td>8.63</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>6.00</td>
-                                    <td>0.60</td>
-                                    <td>0.05350</td>
+                                    <td>3</td>
+                                    <td>80</td>
+                                    <td>88.9</td>
+                                    <td>5.49</td>
+                                    <td>11.29</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>8.00</td>
-                                    <td>0.70</td>
-                                    <td>0.07900</td>
+                                    <td>4</td>
+                                    <td>100</td>
+                                    <td>114.3</td>
+                                    <td>6.02</td>
+                                    <td>17.15</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>5</td>
+                                    <td>125</td>
+                                    <td>141.3</td>
+                                    <td>6.55</td>
+                                    <td>23.85</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>6</td>
+                                    <td>150</td>
+                                    <td>168.3</td>
+                                    <td>7.11</td>
+                                    <td>30.7</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>8</td>
+                                    <td>200</td>
+                                    <td>219.1</td>
+                                    <td>8.18</td>
+                                    <td>49.56</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>10</td>
+                                    <td>250</td>
+                                    <td>273.1</td>
+                                    <td>9.27</td>
+                                    <td>73.5</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>12</td>
+                                    <td>300</td>
+                                    <td>323.9</td>
+                                    <td>10.31</td>
+                                    <td>95.54</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>14</td>
+                                    <td>350</td>
+                                    <td>355.6</td>
+                                    <td>11.13</td>
+                                    <td>112.63</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>16</td>
+                                    <td>400</td>
+                                    <td>406.4</td>
+                                    <td>12.7</td>
+                                    <td>144.27</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>18</td>
+                                    <td>450</td>
+                                    <td>457.2</td>
+                                    <td>14.27</td>
+                                    <td>179.28</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>20</td>
+                                    <td>500</td>
+                                    <td>508.0</td>
+                                    <td>15.09</td>
+                                    <td>213.93</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>24</td>
+                                    <td>600</td>
+                                    <td>609.6</td>
+                                    <td>15.88</td>
+                                    <td>274.06</td>
                                 </tr>
 
                             </tbody>
@@ -858,6 +995,8 @@
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
+                                    <th>NPS (inches)</th>
+                                    <th>NB (mm)</th>
                                     <th>OD (mm)</th>
                                     <th>Wall Thickness (mm)</th>
                                     <th>Weight (kg/m)</th>
@@ -865,64 +1004,341 @@
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>0.50</td>
-                                    <td>0.12</td>
-                                    <td>0.00075</td>
+                                    <td>1/8</td>
+                                    <td>3</td>
+                                    <td>10.3</td>
+                                    <td>1.73</td>
+                                    <td>0.37</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>0.80</td>
-                                    <td>0.15</td>
-                                    <td>0.00130</td>
+                                    <td>1/4</td>
+                                    <td>6</td>
+                                    <td>13.7</td>
+                                    <td>3.02</td>
+                                    <td>0.83</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>1.00</td>
-                                    <td>0.20</td>
-                                    <td>0.00240</td>
+                                    <td>3/8</td>
+                                    <td>10</td>
+                                    <td>17.1</td>
+                                    <td>3.2</td>
+                                    <td>1.13</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>1.50</td>
-                                    <td>0.25</td>
-                                    <td>0.00460</td>
+                                    <td>1/2</td>
+                                    <td>15</td>
+                                    <td>21.3</td>
+                                    <td>3.73</td>
+                                    <td>1.63</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>2.00</td>
-                                    <td>0.30</td>
-                                    <td>0.00730</td>
+                                    <td>3/4</td>
+                                    <td>20</td>
+                                    <td>26.7</td>
+                                    <td>3.91</td>
+                                    <td>2.3</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>2.50</td>
-                                    <td>0.35</td>
-                                    <td>0.01120</td>
+                                    <td>1</td>
+                                    <td>25</td>
+                                    <td>33.4</td>
+                                    <td>4.55</td>
+                                    <td>3.38</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>3.00</td>
-                                    <td>0.40</td>
-                                    <td>0.01550</td>
+                                    <td>1 1/4</td>
+                                    <td>32</td>
+                                    <td>42.2</td>
+                                    <td>4.85</td>
+                                    <td>4.84</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>3.50</td>
-                                    <td>0.50</td>
-                                    <td>0.02150</td>
+                                    <td>1 1/2</td>
+                                    <td>40</td>
+                                    <td>48.3</td>
+                                    <td>5.08</td>
+                                    <td>5.61</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>4.00</td>
-                                    <td>0.60</td>
-                                    <td>0.03010</td>
+                                    <td>2</td>
+                                    <td>50</td>
+                                    <td>60.3</td>
+                                    <td>5.54</td>
+                                    <td>7.48</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>5.00</td>
-                                    <td>0.70</td>
-                                    <td>0.04260</td>
+                                    <td>2 1/2</td>
+                                    <td>65</td>
+                                    <td>73.0</td>
+                                    <td>7.01</td>
+                                    <td>11.76</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>6.00</td>
-                                    <td>0.80</td>
-                                    <td>0.06100</td>
+                                    <td>3</td>
+                                    <td>80</td>
+                                    <td>88.9</td>
+                                    <td>7.62</td>
+                                    <td>15.74</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>8.00</td>
-                                    <td>1.00</td>
-                                    <td>0.09000</td>
+                                    <td>4</td>
+                                    <td>100</td>
+                                    <td>114.3</td>
+                                    <td>8.56</td>
+                                    <td>25.1</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>5</td>
+                                    <td>125</td>
+                                    <td>141.3</td>
+                                    <td>9.53</td>
+                                    <td>36.46</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>6</td>
+                                    <td>150</td>
+                                    <td>168.3</td>
+                                    <td>10.97</td>
+                                    <td>49.56</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>8</td>
+                                    <td>200</td>
+                                    <td>219.1</td>
+                                    <td>12.7</td>
+                                    <td>77.1</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>10</td>
+                                    <td>250</td>
+                                    <td>273.1</td>
+                                    <td>15.09</td>
+                                    <td>114.0</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>12</td>
+                                    <td>300</td>
+                                    <td>323.9</td>
+                                    <td>17.48</td>
+                                    <td>153.0</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>14</td>
+                                    <td>350</td>
+                                    <td>355.6</td>
+                                    <td>19.05</td>
+                                    <td>180.0</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>16</td>
+                                    <td>400</td>
+                                    <td>406.4</td>
+                                    <td>21.44</td>
+                                    <td>227.5</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>18</td>
+                                    <td>450</td>
+                                    <td>457.2</td>
+                                    <td>23.83</td>
+                                    <td>282.5</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>20</td>
+                                    <td>500</td>
+                                    <td>508.0</td>
+                                    <td>26.18</td>
+                                    <td>342.0</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>24</td>
+                                    <td>600</td>
+                                    <td>609.6</td>
+                                    <td>30.96</td>
+                                    <td>480.0</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-light" style="padding-top: 80px;">
+        <div class="container">
+            <!-- Child Title -->
+            <div class="section-title center mb-3">
+                <h4 class="text-center mb-0" style="color: #db7227;">Schedule 160C – Size Chart (ASME B36.10)</h4>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>NPS (inches)</th>
+                                    <th>NB (mm)</th>
+                                    <th>OD (mm)</th>
+                                    <th>Wall Thickness (mm)</th>
+                                    <th>Weight (kg/m)</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr class="t-row">
+                                    <td>1/8</td>
+                                    <td>3</td>
+                                    <td>10.3</td>
+                                    <td>2.41</td>
+                                    <td>0.49</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>1/4</td>
+                                    <td>6</td>
+                                    <td>13.7</td>
+                                    <td>3.02</td>
+                                    <td>0.83</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>3/8</td>
+                                    <td>10</td>
+                                    <td>17.1</td>
+                                    <td>3.2</td>
+                                    <td>1.13</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>1/2</td>
+                                    <td>15</td>
+                                    <td>21.3</td>
+                                    <td>4.09</td>
+                                    <td>1.75</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>3/4</td>
+                                    <td>20</td>
+                                    <td>26.7</td>
+                                    <td>4.55</td>
+                                    <td>2.63</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>1</td>
+                                    <td>25</td>
+                                    <td>33.4</td>
+                                    <td>6.35</td>
+                                    <td>4.51</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>1 1/4</td>
+                                    <td>32</td>
+                                    <td>42.2</td>
+                                    <td>6.35</td>
+                                    <td>6.12</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>1 1/2</td>
+                                    <td>40</td>
+                                    <td>48.3</td>
+                                    <td>7.14</td>
+                                    <td>7.92</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>2</td>
+                                    <td>50</td>
+                                    <td>60.3</td>
+                                    <td>8.71</td>
+                                    <td>11.06</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>2 1/2</td>
+                                    <td>65</td>
+                                    <td>73.0</td>
+                                    <td>9.53</td>
+                                    <td>14.9</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>3</td>
+                                    <td>80</td>
+                                    <td>88.9</td>
+                                    <td>11.13</td>
+                                    <td>21.31</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>4</td>
+                                    <td>100</td>
+                                    <td>114.3</td>
+                                    <td>13.49</td>
+                                    <td>34.35</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>5</td>
+                                    <td>125</td>
+                                    <td>141.3</td>
+                                    <td>15.88</td>
+                                    <td>53.3</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>6</td>
+                                    <td>150</td>
+                                    <td>168.3</td>
+                                    <td>18.26</td>
+                                    <td>75.53</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>8</td>
+                                    <td>200</td>
+                                    <td>219.1</td>
+                                    <td>23.01</td>
+                                    <td>123.9</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>10</td>
+                                    <td>250</td>
+                                    <td>273.1</td>
+                                    <td>28.58</td>
+                                    <td>190.5</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>12</td>
+                                    <td>300</td>
+                                    <td>323.9</td>
+                                    <td>33.32</td>
+                                    <td>268.0</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>14</td>
+                                    <td>350</td>
+                                    <td>355.6</td>
+                                    <td>35.71</td>
+                                    <td>327.0</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>16</td>
+                                    <td>400</td>
+                                    <td>406.4</td>
+                                    <td>40.49</td>
+                                    <td>429.5</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>18</td>
+                                    <td>450</td>
+                                    <td>457.2</td>
+                                    <td>45.24</td>
+                                    <td>544.0</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>20</td>
+                                    <td>500</td>
+                                    <td>508.0</td>
+                                    <td>50.01</td>
+                                    <td>677.5</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>24</td>
+                                    <td>600</td>
+                                    <td>609.6</td>
+                                    <td>59.54</td>
+                                    <td>997.0</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -935,7 +1351,7 @@
         <div class="container">
             <!-- Child Title -->
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Schedule 160C – Size Chart (ASME B36.19)</h4>
+                <h4 class="text-center mb-0" style="color: #db7227;">Schedule XXC – Size Chart (ASME B36.10)</h4>
             </div>
 
             <div class="row justify-content-center">
@@ -944,6 +1360,8 @@
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
+                                    <th>NPS (inches)</th>
+                                    <th>NB (mm)</th>
                                     <th>OD (mm)</th>
                                     <th>Wall Thickness (mm)</th>
                                     <th>Weight (kg/m)</th>
@@ -951,140 +1369,158 @@
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>0.80</td>
-                                    <td>0.20</td>
-                                    <td>0.00165</td>
+                                    <td>1/8</td>
+                                    <td>3</td>
+                                    <td>10.3</td>
+                                    <td>2.41</td>
+                                    <td>0.49</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>1.00</td>
-                                    <td>0.25</td>
-                                    <td>0.00280</td>
+                                    <td>1/4</td>
+                                    <td>6</td>
+                                    <td>13.7</td>
+                                    <td>3.02</td>
+                                    <td>0.83</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>1.50</td>
-                                    <td>0.30</td>
-                                    <td>0.00510</td>
+                                    <td>3/8</td>
+                                    <td>10</td>
+                                    <td>17.1</td>
+                                    <td>3.2</td>
+                                    <td>1.13</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>2.00</td>
-                                    <td>0.35</td>
-                                    <td>0.00820</td>
+                                    <td>1/2</td>
+                                    <td>15</td>
+                                    <td>21.3</td>
+                                    <td>4.78</td>
+                                    <td>1.98</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>2.50</td>
-                                    <td>0.40</td>
-                                    <td>0.01250</td>
+                                    <td>3/4</td>
+                                    <td>20</td>
+                                    <td>26.7</td>
+                                    <td>6.02</td>
+                                    <td>3.32</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>3.00</td>
-                                    <td>0.50</td>
-                                    <td>0.01900</td>
+                                    <td>1</td>
+                                    <td>25</td>
+                                    <td>33.4</td>
+                                    <td>7.47</td>
+                                    <td>5.25</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>3.50</td>
-                                    <td>0.60</td>
-                                    <td>0.02600</td>
+                                    <td>1 1/4</td>
+                                    <td>32</td>
+                                    <td>42.2</td>
+                                    <td>9.09</td>
+                                    <td>8.26</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>4.00</td>
-                                    <td>0.70</td>
-                                    <td>0.03650</td>
+                                    <td>1 1/2</td>
+                                    <td>40</td>
+                                    <td>48.3</td>
+                                    <td>10.15</td>
+                                    <td>10.68</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>5.00</td>
-                                    <td>0.80</td>
-                                    <td>0.05040</td>
+                                    <td>2</td>
+                                    <td>50</td>
+                                    <td>60.3</td>
+                                    <td>11.07</td>
+                                    <td>14.82</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>6.00</td>
-                                    <td>0.90</td>
-                                    <td>0.07180</td>
+                                    <td>2 1/2</td>
+                                    <td>65</td>
+                                    <td>73.0</td>
+                                    <td>13.49</td>
+                                    <td>21.56</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>8.00</td>
-                                    <td>1.20</td>
-                                    <td>0.12200</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="bg-light" style="padding-top: 80px;">
-        <div class="container">
-            <!-- Child Title -->
-            <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Schedule XXC – Size Chart (ASME B36.19)</h4>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>OD (mm)</th>
-                                    <th>Wall Thickness (mm)</th>
-                                    <th>Weight (kg/m)</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>0.80</td>
-                                    <td>0.25</td>
-                                    <td>0.00210</td>
+                                    <td>3</td>
+                                    <td>80</td>
+                                    <td>88.9</td>
+                                    <td>15.24</td>
+                                    <td>29.83</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>1.00</td>
-                                    <td>0.30</td>
-                                    <td>0.00350</td>
+                                    <td>4</td>
+                                    <td>100</td>
+                                    <td>114.3</td>
+                                    <td>18.26</td>
+                                    <td>47.17</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>1.50</td>
-                                    <td>0.40</td>
-                                    <td>0.00670</td>
+                                    <td>5</td>
+                                    <td>125</td>
+                                    <td>141.3</td>
+                                    <td>21.95</td>
+                                    <td>70.65</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>2.00</td>
-                                    <td>0.50</td>
-                                    <td>0.01080</td>
+                                    <td>6</td>
+                                    <td>150</td>
+                                    <td>168.3</td>
+                                    <td>25.4</td>
+                                    <td>99.57</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>2.50</td>
-                                    <td>0.60</td>
-                                    <td>0.01650</td>
+                                    <td>8</td>
+                                    <td>200</td>
+                                    <td>219.1</td>
+                                    <td>28.58</td>
+                                    <td>144.45</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>3.00</td>
-                                    <td>0.70</td>
-                                    <td>0.02350</td>
+                                    <td>10</td>
+                                    <td>250</td>
+                                    <td>273.1</td>
+                                    <td>31.75</td>
+                                    <td>202.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>3.50</td>
-                                    <td>0.80</td>
-                                    <td>0.03200</td>
+                                    <td>12</td>
+                                    <td>300</td>
+                                    <td>323.9</td>
+                                    <td>36.53</td>
+                                    <td>281.25</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>4.00</td>
-                                    <td>1.00</td>
-                                    <td>0.04900</td>
+                                    <td>14</td>
+                                    <td>350</td>
+                                    <td>355.6</td>
+                                    <td>38.89</td>
+                                    <td>338.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>5.00</td>
-                                    <td>1.20</td>
-                                    <td>0.07200</td>
+                                    <td>16</td>
+                                    <td>400</td>
+                                    <td>406.4</td>
+                                    <td>44.45</td>
+                                    <td>442.5</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>6.00</td>
-                                    <td>1.50</td>
-                                    <td>0.11200</td>
+                                    <td>18</td>
+                                    <td>450</td>
+                                    <td>457.2</td>
+                                    <td>50.01</td>
+                                    <td>562.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>8.00</td>
-                                    <td>2.00</td>
-                                    <td>0.18000</td>
+                                    <td>20</td>
+                                    <td>500</td>
+                                    <td>508.0</td>
+                                    <td>55.56</td>
+                                    <td>697.0</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>24</td>
+                                    <td>600</td>
+                                    <td>609.6</td>
+                                    <td>63.5</td>
+                                    <td>984.0</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -1101,7 +1537,8 @@
                 <h2>Grades Available</h2>
             </div>
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Capillary Tubes are manufactured in a wide range of grades to suit specialized environments:</h4>
+                <h4 class="text-center mb-0" style="color: #db7227;">Boiler & Heat Exchanger Tubes are offered in a wide
+                    range of materials and grades:</h4>
             </div>
 
             <div class="row justify-content-center">
@@ -1116,28 +1553,32 @@
                             </thead>
                             <tbody>
                                 <tr class="t-row">
-                                    <td>Stainless Steel Grades</td>
-                                    <td>304, 304L, 316, 316L, 321, 310 – for medical, food-grade, and precision applications.</td>
+                                    <td>Stainless Steel</td>
+                                    <td>304, 304L, 316, 316L, 310, 321, 347 for high-temperature resistance.</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Duplex & Super Duplex: </td>
+                                    <td>2205, S31803, S32750 for high strength and corrosion </td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Nickel Alloys</td>
-                                    <td>Inconel 600, 625, 718 – for high-temperature & corrosive environments.</td>
+                                    <td>Inconel 600, 625, 718, Monel 400, K500 for extreme environments.</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Monel Grades</td>
-                                    <td>Monel 400, K500 – for marine and chemical use.</td>
+                                    <td>Alloy Steel</td>
+                                    <td>T11, T12, T22, T91 for high-pressure boilers.</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Titanium Grades</td>
-                                    <td>Gr. 1, 2, 5 – for aerospace and medical devices.</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Duplex & Super Duplex</td>
-                                    <td>2205, S32750 – for offshore and harsh industrial use.</td>
+                                    <td>Carbon Steel</td>
+                                    <td>ASTM A179, A192 for low and medium-pressure boilers.</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Copper Alloys</td>
-                                    <td>Cu-Ni 70/30, 90/10 – for refrigeration, marine, and heat-exchanger systems.</td>
+                                    <td>Cu-Ni 70/30, 90/10 for marine heat exchangers and condensers.</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Titanium</td>
+                                    <td>Grades 1, 2 for desalination plants and chemical industries.</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -1444,7 +1885,8 @@
             <div class="section-title center">
                 <h2>Applications</h2>
                 <p class="text-center pb-3">
-                    <strong class="text-black">Capillary Tubes</strong> are critical for industries requiring precise control and miniature fluid handling, including:
+                    <strong class="text-black">Boiler & Heat Exchanger Tubes </strong> are crucial for industries where
+                    efficient heat transfer and mechanical strength are required:
                 </p>
             </div>
 
@@ -1454,16 +1896,13 @@
                         <div class="application-icon">
                             <i class="bi bi-gear-wide-connected"></i>
                         </div>
-                        <h5>Medical & Pharmaceutical</h5>
+                        <h5>Power Generation</h5>
                         <ul>
                             <li>
-                                Hypodermic needles and surgical instruments
+                                Boiler tubes for thermal and nuclear power plants
                             </li>
                             <li>
-                                Catheters and fluid delivery systems
-                            </li>
-                            <li>
-                                Laboratory equipment and chromatography
+                                Superheater, reheater, and economizer tubes
                             </li>
                         </ul>
                     </div>
@@ -1472,16 +1911,13 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
-                        <h5>Instrumentation & Control</h5>
+                        <h5>Oil, Gas & Petrochemical Industry</h5>
                         <ul>
                             <li>
-                                Pressure measuring devices
+                                Heat exchangers and condensers in refineries
                             </li>
                             <li>
-                                Hydraulic and pneumatic control lines
-                            </li>
-                            <li>
-                                Thermocouples and sensor lines
+                                Process heating and cooling applications
                             </li>
                         </ul>
                     </div>
@@ -1490,13 +1926,10 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
-                        <h5>Refrigeration & HVAC</h5>
+                        <h5>Chemical & Fertilizer Plants</h5>
                         <ul>
                             <li>
-                                Precision flow control in cooling systems
-                            </li>
-                            <li>
-                                Expansion lines for refrigerators and AC units
+                                Tubing for chemical reactors, cooling towers, and evaporators
                             </li>
                         </ul>
                     </div>
@@ -1505,13 +1938,13 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-droplet"></i></div>
-                        <h5>Chemical & Petrochemical</h5>
+                        <h5>Marine & Offshore</h5>
                         <ul>
                             <li>
-                               Microfluidics and sampling lines
+                                Cu-Ni and Titanium tubes for seawater condensers
                             </li>
                             <li>
-                                Chemical dosing and analytical instrumentation
+                                Marine boiler and heat exchanger systems
                             </li>
                         </ul>
                     </div>
@@ -1520,13 +1953,25 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
-                        <h5>Aerospace & Automotive</h5>
+                        <h5>Food & Dairy Processing</h5>
                         <ul>
                             <li>
-                                Lightweight fluid transmission systems
+                                Hygienic stainless-steel heat exchanger tubes for milk, beverage, and pharma industries
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
+                        <h5>HVAC & Refrigeration</h5>
+                        <ul>
+                            <li>
+                                Tubes for evaporators, condensers, and chilled water systems
                             </li>
                             <li>
-                                Fuel and brake line applications
+                                Applied in commercial, industrial, and residential climate control solutions
                             </li>
                         </ul>
                     </div>
@@ -1544,59 +1989,59 @@
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
-                <h2>Uses of Capillary Tubes</h2>
+                <h2>Uses of Boiler & Heat Exchanger Tubes</h2>
             </div>
             <!-- Child Title -->
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Capillary Tubes are used extensively across multiple
+                <h4 class="text-center mb-0" style="color: #db7227;">Boiler & Heat Exchanger Tubes are used extensively across multiple
                     industries, including:</h4>
             </div>
             <div class="row g-4 mt-4">
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h4>Precision Fluid Flow Control</h4>
-                        <h5>Provides highly accurate fluid flow control in sensitive systems</h5>
+                        <h4>Efficient Heat Transfer</h4>
+                        <h5>Ensures efficient heat transfer in industrial systems</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h4>Miniaturized System Integration</h4>
-                        <h5>Enables miniaturized solutions for medical, scientific, and industrial uses</h5>
+                        <h4>Extreme Condition Performance</h4>
+                        <h5>Handles extreme temperature and pressure conditions</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h4>Corrosion-Resistant Performance</h4>
-                        <h5>Offers corrosion resistance in harsh chemical or marine environments</h5>
+                        <h4>Corrosion Resistance</h4>
+                        <h5>Provides corrosion resistance in aggressive environments</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h4>Compact Installation Flexibility</h4>
-                        <h5>Allows tight bending radius for compact installations</h5>
+                        <h4>Energy Efficiency Support</h4>
+                        <h5>Supports energy efficiency in power plants and process industries</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
-                        <h4>Instrumentation & Safety Systems</h4>
-                        <h5>Supports critical safety and measurement functions in instrumentation</h5>
+                        <h4>Multi-Media Compatibility</h4>
+                        <h5>Suitable for steam, gas, liquid, and chemical transport in heat systems</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-globe2"></i></div>
-                        <h4>Efficient Supply Chain Integration</h4>
-                        <h5>Facilitates seamless import and logistics operations for global distribution</h5>
+                        <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
+                        <h4>Operational Reliability</h4>
+                        <h5>Delivers long-term reliability and consistent performance in demanding applications</h5>
                     </div>
                 </div>
             </div>
@@ -1606,47 +2051,47 @@
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
-                <h2>Advantages of Capillary Tubes</h2>
+                <h2>Advantages of Boiler & Heat Exchanger Tubes</h2>
             </div>
 
             <div class="row g-4 mt-4">
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h4>Superior Surface Finish </h4>
-                        <h5>Smooth internal bore for optimal flow.</h5>
+                        <h4>High-Temperature Strength</h4>
+                        <h5>Maintains integrity in boilers and superheaters.</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h4>Wide Material Selection </h4>
-                        <h5>Compatible with a variety of specialized alloys.</h5>
+                        <h4>Precision Manufacturing</h4>
+                        <h5>Tight dimensional tolerances for critical applications.</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h4>Corrosion Resistance </h4>
-                        <h5>Ideal for aggressive chemicals and marine use.</h5>
+                        <h4>Corrosion & Oxidation Resistance</h4>
+                        <h5>Suitable for marine and chemical exposure.</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h4>Lightweight & Strong </h4>
-                        <h5>Small diameter with exceptional strength-to-weight ratio.</h5>
+                        <h4>Versatile Material Selection</h4>
+                        <h5>Stainless, alloy, carbon, copper-nickel & titanium options.</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
-                        <h4>Customizable Lengths & Forms </h4>
-                        <h5>Available in straight lengths, coils, and cut pieces.</h5>
+                        <h4>Global Standards Compliance</h4>
+                        <h5>Manufactured to ASTM, ASME, DIN, EN requirements.</h5>
                     </div>
                 </div>
             </div>
@@ -1666,41 +2111,41 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Specialized Expertise: Decades of experience in precision tubing manufacturing</h5>
+                        <h5>Extensive Stock & Range: Wide inventory of boiler and heat exchanger tubes in multiple grades.</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
-                        <h5>Advanced Technology: Cold drawing & bright annealing for best tolerances</h5>
+                        <h5>Extensive Stock & Range: Wide inventory of boiler and heat exchanger tubes in multiple grades.</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
-                        <h5>Wide Stock Range: Ready-to-ship standard sizes with custom options available</h5>
+                        <h5>Global Supply Network: Serving power plants, refineries, and industries worldwide.</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Global Supply: Serving medical, aerospace, and industrial clients worldwide</h5>
+                        <h5>Quality Assurance: ISO 9001:2015 certified with full compliance to ASTM/ASME.</h5>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>Stringent Quality Control: Compliance with ASTM, ASME, and ISO standards</h5>
+                        <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
+                        <h5>Timely Dispatch: Efficient production and logistics for on-time delivery.</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-headset"></i></div>
-                        <h5>Responsive Support – Dedicated technical assistance and customer service</h5>
+                        <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
+                        <h5>Customized Solutions: Tailored tubing solutions to meet specific project and industry requirements</h5>
                     </div>
                 </div>
             </div>

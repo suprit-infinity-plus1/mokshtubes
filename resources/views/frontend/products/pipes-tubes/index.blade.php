@@ -30,12 +30,36 @@
             <div class="row g-4">
                 @php
                     $types = [
-                        ['name' => 'Welded Pipes & Tubes (ERW & EFW)', 'slug' => 'welded-pipes-and-tubes'],
-                        ['name' => 'Seamless Pipes', 'slug' => 'seamless-pipes'],
-                        ['name' => 'Capillaries', 'slug' => 'capillaries'],
-                        ['name' => 'Hollow Section Pipe', 'slug' => 'hollow-section-pipe'],
-                        ['name' => 'U-Bent Tubes', 'slug' => 'u-bent-tubes'],
-                        ['name' => 'Boiler & Heat Exchanger Tubes', 'slug' => 'boiler-heat-exchanger-tubes'],
+                        [
+                            'name' => 'Welded Pipes & Tubes (ERW & EFW)',
+                            'slug' => 'welded-pipes-and-tubes',
+                            'image' => 'assets/images/peoduct/welded-pipes-tubes.jpeg',
+                        ],
+                        [
+                            'name' => 'Seamless Pipes',
+                            'slug' => 'seamless-pipes',
+                            'image' => 'assets/images/peoduct/seamless-pipes-2.jpg',
+                        ],
+                        [
+                            'name' => 'Capillaries',
+                            'slug' => 'capillaries',
+                            'image' => 'assets/images/peoduct/capillary-tubes.jpg',
+                        ],
+                        [
+                            'name' => 'Hollow Section Pipe',
+                            'slug' => 'hollow-section-pipe',
+                            'image' => 'assets/images/peoduct/hollow-section-pipe.jpg',
+                        ],
+                        [
+                            'name' => 'U-Bent Tubes',
+                            'slug' => 'u-bent-tubes',
+                            'image' => 'assets/images/peoduct/u-bent-tubes.jpeg',
+                        ],
+                        [
+                            'name' => 'Boiler & Heat Exchanger Tubes',
+                            'slug' => 'boiler-heat-exchanger-tubes',
+                            'image' => 'assets/images/peoduct/boiler-heat-exchanger-tubes.jpg',
+                        ],
                     ];
                 @endphp
 
@@ -43,8 +67,10 @@
                     <div class="col-12 col-sm-6 col-lg-4">
                         <a href="{{ url('/products/pipes-tubes/' . $type['slug']) }}" class="text-decoration-none">
                             <div class="custom-product-card rounded overflow-hidden shadow h-100 position-relative">
-                                <img src="https://placehold.co/600x350/db7227/fff?" class="img-fluid w-100"
-                                    alt="{{ $type['name'] }}">
+                                {{-- <img src="https://placehold.co/600x350/db7227/fff?" class="img-fluid w-100"
+                                    alt="{{ $type['name'] }}"> --}}
+                                <img src="{{ asset($type['image'] ?? 'assets/images/default.jpg') }}"
+                                    alt="{{ $type['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;">
                                 <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center"
                                     style="background: rgba(23, 66, 104, 0.65); transition: 0.3s;">
                                     <h5 class="text-white text-center fw-bold text-uppercase">{{ $type['name'] }}</h5>

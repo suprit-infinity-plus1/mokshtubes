@@ -38,6 +38,9 @@ Route::get('/products/pipes-tubes', [MainController::class, 'pipesTubes'])->name
 Route::get('/products/pipes-tubes/welded-pipes-and-tubes', [MainController::class, 'weldedPipes'])->name('products.pipes-tubes.welded-pipes');
 Route::get('/products/pipes-tubes/seamless-pipes', [MainController::class, 'seamlessPipes'])->name('products.pipes-tubes.seamless-pipes');
 Route::get('/products/pipes-tubes/capillaries', [MainController::class, 'capillaries'])->name('products.pipes-tubes.capillaries');
+Route::get('/products/pipes-tubes/hollow-section-pipe', [MainController::class, 'hollowSectionPipe'])->name('products.pipes-tubes.hollow-section-pipe');
+Route::get('/products/pipes-tubes/u-bent-tubes', [MainController::class, 'uBentTubes'])->name('products.pipes-tubes.u-bent-tubes');
+Route::get('/products/pipes-tubes/boiler-heat-exchanger-tubes', [MainController::class, 'boilerHeatExchangerTubes'])->name('products.pipes-tubes.boiler-heat-exchanger-tubes');
 
 
 // Route::get('/materials/nickel-alloys', [MainController::class, 'nickelAlloys'])->name('materials.nickel-alloys');

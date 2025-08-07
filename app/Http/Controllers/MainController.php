@@ -351,4 +351,19 @@ class MainController extends Controller
     {
         return view('frontend.products.pipes-tubes.capillaries');
     }
+
+         public function hollowSectionPipe()
+    {
+        return view('frontend.products.pipes-tubes.hollow-section-pipe');
+    }
+
+          public function uBentTubes()
+    {
+        return view('frontend.products.pipes-tubes.u-bent-tubes');
+    }
+
+           public function boilerHeatExchangerTubes()
+    {
+        return view('frontend.products.pipes-tubes.boiler-heat-exchanger-tubes');
+    }
 }
