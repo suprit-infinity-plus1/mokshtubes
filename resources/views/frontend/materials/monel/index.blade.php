@@ -29,17 +29,17 @@
             @php
                 $grades = [
                     [
-                        'name' => 'K500',
+                        'name' => 'Monel K500',
                         'slug' => 'monel-k500',
                         'image' => 'assets/images/monel/Monel-K500.jpg'
                     ],
                     [
-                        'name' => 'R405',
+                        'name' => 'Monel R405',
                         'slug' => 'monel-r405',
                         'image' => 'assets/images/monel/Monel-R405.jpeg'
                     ],
                     [
-                        'name' => '400',
+                        'name' => 'Monel 400',
                         'slug' => 'monel-400',
                         'image' => 'assets/images/monel/Monel-400.jpg'
                     ],

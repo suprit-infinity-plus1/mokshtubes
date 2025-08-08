@@ -28,7 +28,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?"alt="Austenitic Stainless Steel 309"
+                    <img src="/assets/images/austenitic-stainless-steel/austenitic-stainless-steel-309.jpeg"alt="Austenitic Stainless Steel 309"
                         class="img-fluid rounded shadow-sm">
                 </div>
 
@@ -39,7 +39,8 @@
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a leading manufacturer,
                             supplier, exporter, importer, and stockist of<strong class="text-black"> Austenitic Stainless
                                 Steel 309 <a href="{{ route('products') }}"> products</a>,</strong> including
-                            pipes,<a href="{{ route('products.pipes-tubes') }}"> tubes</a>, sheets, plates, bars, and fittings.
+                            pipes,<a href="{{ route('products.pipes-tubes') }}"> tubes</a>, sheets, plates, bars, and
+                            fittings.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
@@ -66,41 +67,41 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Element</th>
                                     <th>Composition (%)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Carbon</td>
                                     <td>≤ 0.08</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Chromium</td>
                                     <td>22.0 – 24.0</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Nickel</td>
                                     <td>12.0 – 15.0</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Manganese</td>
                                     <td>≤ 2.00</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Silicon</td>
                                     <td>≤ 1.00</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Phosphorus</td>
                                     <td>≤ 0.040</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Sulfur</td>
                                     <td>≤ 0.030</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Nitrogen</td>
                                     <td>≤ 0.10</td>
                                 </tr>
@@ -126,44 +127,44 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Imperial</th>
                                     <th>Metric</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Density</td>
                                     <td>0.287 lb/in³</td>
                                     <td>7.95 g/cm³</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Melting Point</td>
                                     <td>2550 – 2650 °F</td>
                                     <td>1399 – 1454 °C</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Modulus of Elasticity</td>
                                     <td>28 × 10³ ksi</td>
                                     <td>193 GPa</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Poisson’s Ratio</td>
                                     <td>0.29</td>
                                     <td>—</td>
                                 </tr>
-                                {{-- <tr>
+                                {{-- <tr class="t-row">
                                     <td>Poisson’s Ratio</td>
                                     <td>0.29</td>
                                     <td>—</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Thermal Conductivity</td>
                                     <td>45 W/m·K</td>
                                     <td>45 W/m·K</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Specific Heat Capacity</td>
                                     <td>460 J/kg·K</td>
                                     <td>460 J/kg·K</td>
@@ -181,7 +182,7 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Annealed</th>
                                     <th>Hot-Finished</th>
@@ -191,7 +192,7 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tensile Strength (ksi / MPa)</td>
                                     <td>75–95 / 520–655</td>
                                     <td>80–110 / 550–760</td>
@@ -199,7 +200,7 @@
                                     <td>75–95 / 520–655</td>
                                     <td>80–105 / 550–725</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Yield Strength (0.2%) (ksi / MPa)</td>
                                     <td>30–50 / 205–345</td>
                                     <td>40–70 / 275–480</td>
@@ -207,7 +208,7 @@
                                     <td>30–50 / 205–345</td>
                                     <td>35–65 / 240–450</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Elongation (%)</td>
                                     <td>35–55</td>
                                     <td>25–45</td>
@@ -215,7 +216,7 @@
                                     <td>35–55</td>
                                     <td>30–50</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Brinell Hardness (3000 kg)</td>
                                     <td>140–190</td>
                                     <td>150–210</td>
@@ -223,7 +224,7 @@
                                     <td>140–190</td>
                                     <td>150–200</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Rockwell Hardness (B / C)</td>
                                     <td>85–95 B</td>
                                     <td>90–100 B</td>
@@ -298,7 +299,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">
@@ -361,7 +363,8 @@
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Austenitic Stainless Steel 309</h2>
-                <p class="text-center pb-3"><strong class="text-dark">Austenitic Stainless Steel 309</strong> is extensively used in high-temperature and corrosive environments, such as:</p>
+                <p class="text-center pb-3"><strong class="text-dark">Austenitic Stainless Steel 309</strong> is
+                    extensively used in high-temperature and corrosive environments, such as:</p>
             </div>
 
             <div class="row g-4 justify-content-center">
@@ -369,7 +372,8 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
                         <h5>Furnace Parts & Heat Treatment Equipment</h5>
-                        <p>Furnace linings, heat exchangers, and radiant tubes requiring resistance to thermal shock and scaling.</p>
+                        <p>Furnace linings, heat exchangers, and radiant tubes requiring resistance to thermal shock and
+                            scaling.</p>
                     </div>
                 </div>
 
@@ -377,7 +381,8 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
                         <h5>Petrochemical & Chemical Industry</h5>
-                        <p>Equipment exposed to oxidizing atmospheres and high temperatures, including catalytic reactors.</p>
+                        <p>Equipment exposed to oxidizing atmospheres and high temperatures, including catalytic reactors.
+                        </p>
                     </div>
                 </div>
 
@@ -385,7 +390,8 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
                         <h5>Aerospace & Power Generation</h5>
-                        <p>Gas turbine components, boilers, and exhaust manifolds exposed to extreme heat and corrosive gases.</p>
+                        <p>Gas turbine components, boilers, and exhaust manifolds exposed to extreme heat and corrosive
+                            gases.</p>
                     </div>
                 </div>
 
@@ -393,7 +399,8 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-droplet"></i></div>
                         <h5>Automotive Industry</h5>
-                        <p>Exhaust systems, mufflers, and catalytic converter components demanding high temperature endurance.</p>
+                        <p>Exhaust systems, mufflers, and catalytic converter components demanding high temperature
+                            endurance.</p>
                     </div>
                 </div>
 
@@ -404,7 +411,7 @@
                         <p>Equipment subject to high temperatures and cleaning chemicals.</p>
                     </div>
                 </div>
-{{--
+                {{--
                <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
@@ -475,7 +482,8 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                   For further information or to request a quote on Austenitic Stainless Steel 309 products, contact<strong> Moksh Tubes &
+                    For further information or to request a quote on Austenitic Stainless Steel 309 products,
+                    contact<strong> Moksh Tubes &
                         Fittings
                         LLP</strong> — your trusted supplier for premium stainless steel solutions.
                 </p>

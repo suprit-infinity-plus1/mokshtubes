@@ -28,7 +28,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?"alt="Copper Alloys C71500" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/copper-alloys/copper-alloys-c71500.jpeg"alt="Copper Alloys C71500"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -67,45 +68,45 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Element</th>
                                     <th>Composition (%)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Copper</td>
                                     <td>69.0 min</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Nickel</td>
                                     <td>29.0 – 33.0</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Iron</td>
                                     <td>0.4 – 1.0</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Manganese</td>
                                     <td>0.4 – 1.0</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Zinc</td>
                                     <td>1.0 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Lead</td>
                                     <td>0.05 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Others</td>
                                     <td>0.50 max (total)</td>
                                 </tr>
-                                {{-- <tr>
+                                {{-- <tr class="t-row">
                                     <td>Others</td>
                                     <td>0.50 max (total)</td>
                                 </tr> --}}
-                                {{--  <tr>
+                                {{--  <tr class="t-row">
                                     <td>Nitrogen</td>
                                     <td>0.20 – 0.30</td>
                                     <td>0.20 – 0.30</td>
@@ -133,44 +134,44 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Metric</th>
                                     <th>Imperial</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Density</td>
                                     <td>8.94 g/cm³</td>
                                     <td>0.323 lb/in³</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Melting Point</td>
                                     <td>1170–1240 °C</td>
                                     <td>2140–2264 °F</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Thermal Conductivity</td>
                                     <td>29 W/m·K</td>
                                     <td>200 BTU-in/hr-ft²-°F</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Electrical Conductivity</td>
                                     <td>7% IACS</td>
                                     <td>-</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Modulus of Elasticity</td>
                                     <td>140 GPa</td>
                                     <td>20.3 x 10⁶ psi</td>
                                 </tr>
-                                {{-- <tr>
+                                {{-- <tr class="t-row">
                                     <td>Coefficient of Expansion</td>
                                     <td>10.2 µin/in·°F</td>
                                     <td>18.5 µm/m·K</td>
                                 </tr> --}}
-                                {{-- <tr>
+                                {{-- <tr class="t-row">
                                     <td>Specific Heat Capacity</td>
                                     <td>460 J/kg·K</td>
                                     <td>460 J/kg·K</td>
@@ -188,7 +189,7 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Annealed (Soft)</th>
                                     <th>Cold-Worked / Hard</th>
@@ -197,35 +198,35 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tensile Strength (ksi / MPa)</td>
                                     <td>52–66 ksi / 360–455 MPa</td>
                                     <td>70–85 ksi / 485–586 MPa</td>
                                     <td>≥ 52 ksi / ≥ 360 MPa</td>
                                     <td>54–75 ksi / 372–517 MPa</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Yield Strength (0.2%) (ksi / MPa)</td>
                                     <td>18–25 ksi / 125–170 MPa</td>
                                     <td>35–50 ksi / 240–345 MPa</td>
                                     <td>≥ 18 ksi / ≥ 125 MPa</td>
                                     <td>18–43 ksi / 125–300 MPa</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Elongation (%)</td>
                                     <td>30–45 %</td>
                                     <td>≥ 30 %</td>
                                     <td>10–20 %</td>
                                     <td>≥ 30–45 %</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Hardness Rockwell B</td>
                                     <td>70–88 B</td>
                                     <td>85–95 B</td>
                                     <td>88 B</td>
                                     <td>80–90 B</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Brinell Hardness </td>
                                     <td>80–120 HB</td>
                                     <td>120–160 HB</td>
@@ -300,7 +301,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">
@@ -363,7 +365,8 @@
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Copper Alloys C71500</h2>
-                <p class="text-center pb-3"><strong class="text-dark">Copper Alloys C71500</strong> is extensively used in:</p>
+                <p class="text-center pb-3"><strong class="text-dark">Copper Alloys C71500</strong> is extensively used
+                    in:</p>
             </div>
 
             <div class="row g-4 justify-content-center">
@@ -477,7 +480,8 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    contact <strong >Moksh Tubes & Fittings LLP</strong> — We offer competitive pricing and reliable supply for global projects.
+                    contact <strong>Moksh Tubes & Fittings LLP</strong> — We offer competitive pricing and reliable supply
+                    for global projects.
                     <!-- Call button -->
                     <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
             </div>

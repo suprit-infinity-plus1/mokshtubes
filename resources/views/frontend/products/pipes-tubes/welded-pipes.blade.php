@@ -27,7 +27,7 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x350?" alt="Welded Pipes & Tubes" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/peoduct/welded-pipes-tubes.jpeg" alt="Welded Pipes & Tubes" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Right Content -->
@@ -59,44 +59,44 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Category</th>
                                     <th>Details</th>
                                 </tr>
                             </thead>
                             <tbody class="text-start">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Material</td>
                                     <td>Stainless Steel, Duplex & Super Duplex Steel, Nickel Alloys, Inconel, Monel,
                                         Titanium, Zirconium, Tantalum, Aluminum, Cupro-Nickel, Copper & Brass, Carbon Steel,
                                         Alloy Steel</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Grades</td>
                                     <td>As per ASTM/ASME standards – available in all mentioned alloys</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Outer Diameter (OD)</td>
                                     <td>3 mm to 610 mm / ¼” to 24” NB</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Wall Thickness</td>
                                     <td>Available in all standard and custom schedules</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Lengths</td>
                                     <td>Up to 6 meters or customized as per project requirements</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Finishes</td>
                                     <td>Mill Finish, Electro Polished, Mechanical Polished, Matt Finish, Pickled &
                                         Passivated</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Type</td>
                                     <td>ERW, EFW, LSAW, DSAW, SSAW, HSAW</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Form</td>
                                     <td>Round, Rectangular, Square, Hydraulic, Hollow Section, Oval</td>
                                 </tr>
@@ -124,7 +124,7 @@
             <div class="table-responsive">
                 <table class="table table-bordered table-striped align-middle text-center">
                     <thead class="table-dark">
-                        <tr>
+                        <tr class="t-row">
                             <th colspan="2">Nominal Bore Chart</th>
                             <th rowspan="2">Outside Diameter (O.D) <br> (mm)</th>
                             <th colspan="2">Schedule 5S</th>
@@ -134,7 +134,7 @@
                             <th colspan="2">Schedule 160S</th>
                             <th colspan="2">Schedule XXS</th>
                         </tr>
-                        <tr>
+                        <tr class="t-row">
                             <th>mm</th>
                             <th>inches</th>
                             <th>Wt</th>
@@ -152,7 +152,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
+                        <tr class="t-row">
                             <td>3</td>
 
                             <td>1/8</td>
@@ -172,7 +172,7 @@
 
                         </tr>
 
-                        <tr>
+                        <tr class="t-row">
                             <td>6</td>
 
                             <td>1/4</td>
@@ -191,7 +191,7 @@
                             <td>—</td>
 
                         </tr>
-                        <tr>
+                        <tr class="t-row">
                             <td>10</td>
                             <td>3/8</td>
                             <td>17.1</td>
@@ -209,7 +209,7 @@
                             <td>—</td>
 
                         </tr>
-                        <tr>
+                        <tr class="t-row">
                             <td>15</td>
                             <td>1/2</td>
                             <td>21.3</td>
@@ -227,7 +227,7 @@
                             <td>2.55</td>
 
                         </tr>
-                        <tr>
+                        <tr class="t-row">
                             <td>20</td>
                             <td>3/4</td>
                             <td>26.7</td>
@@ -244,7 +244,7 @@
                             <td>7.82</td>
                             <td>3.63</td>
                         </tr>
-                        <tr>
+                        <tr class="t-row">
                             <td>25</td>
                             <td>1</td>
                             <td>33.4</td>
@@ -261,7 +261,7 @@
                             <td>9.09</td>
                             <td>5.45</td>
                         </tr>
-                        <tr>
+                        <tr class="t-row">
                             <td>32</td>
                             <td>11.4</td>
                             <td>42.2</td>
@@ -278,7 +278,7 @@
                             <td>9.70</td>
                             <td>7.77</td>
                         </tr>
-                        <tr>
+                        <tr class="t-row">
                             <td>40</td>
                             <td>1 1/2</td>
                             <td>48.3</td>
@@ -295,7 +295,7 @@
                             <td>10.16</td>
                             <td>9.54</td>
                         </tr>
-                        <tr>
+                        <tr class="t-row">
                             <td>50</td>
                             <td>2</td>
                             <td>60.3</td>
@@ -312,7 +312,7 @@
                             <td>11.07</td>
                             <td>13.44</td>
                         </tr>
-                        <tr>
+                        <tr class="t-row">
                             <td>65</td>
                             <td>2 1/2</td>
                             <td>73.00</td>
@@ -329,7 +329,7 @@
                             <td>14.2</td>
                             <td>20.39</td>
                         </tr>
-                        <tr>
+                        <tr class="t-row">
                             <td>80</td>
                             <td>3</td>
                             <td>88.9</td>
@@ -346,7 +346,7 @@
                             <td>15.24</td>
                             <td>27.65</td>
                         </tr>
-                        <tr>
+                        <tr class="t-row">
                             <td>100</td>
                             <td>4</td>
                             <td>114.3</td>
@@ -363,7 +363,7 @@
                             <td>17.12</td>
                             <td>41.03</td>
                         </tr>
-                        <tr>
+                        <tr class="t-row">
                             <td>125</td>
                             <td>5</td>
                             <td>141.3</td>
@@ -380,7 +380,7 @@
                             <td>19.05</td>
                             <td>57.43</td>
                         </tr>
-                        <tr>
+                        <tr class="t-row">
                             <td>150</td>
                             <td>6</td>
                             <td>168.3</td>
@@ -397,7 +397,7 @@
                             <td>21.95</td>
                             <td>79.22</td>
                         </tr>
-                        <tr>
+                        <tr class="t-row">
                             <td>200</td>
                             <td>8</td>
                             <td>219.1</td>
@@ -414,7 +414,7 @@
                             <td>22.23</td>
                             <td>107.8</td>
                         </tr>
-                        <tr>
+                        <tr class="t-row">
                             <td>250</td>
                             <td>10</td>
                             <td>273.1</td>
@@ -431,7 +431,7 @@
                             <td>25.40</td>
                             <td>155.15</td>
                         </tr>
-                        <tr>
+                        <tr class="t-row">
                             <td>300</td>
                             <td>12</td>
                             <td>323.9</td>
@@ -448,7 +448,7 @@
                             <td>25.40</td>
                             <td>186.97</td>
                         </tr>
-                        <tr>
+                        <tr class="t-row">
                             <td>350</td>
                             <td>14</td>
                             <td>355.6</td>
@@ -465,7 +465,7 @@
                             <td>—</td>
                             <td>—</td>
                         </tr>
-                        <tr>
+                        <tr class="t-row">
                             <td>400</td>
                             <td>16</td>
                             <td>406.4</td>
@@ -482,7 +482,7 @@
                             <td>—</td>
                             <td>—</td>
                         </tr>
-                        <tr>
+                        <tr class="t-row">
                             <td>450</td>
                             <td>18</td>
                             <td>457.2</td>
@@ -499,7 +499,7 @@
                             <td>—</td>
                             <td>—</td>
                         </tr>
-                        <tr>
+                        <tr class="t-row">
                             <td>500</td>
                             <td>20</td>
                             <td>508.0</td>
@@ -516,7 +516,7 @@
                             <td>—</td>
                             <td>—</td>
                         </tr>
-                        <tr>
+                        <tr class="t-row">
                             <td>600</td>
                             <td>24</td>
                             <td>609.6</td>
@@ -557,7 +557,7 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>NPS (inches)</th>
                                     <th>NB (mm)</th>
                                     <th>OD (mm)</th>
@@ -567,7 +567,7 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>1/8</td>
                                     <td>3</td>
                                     <td>10.3</td>
@@ -575,7 +575,7 @@
                                     <td>7.8</td>
                                     <td>0.276</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>1/4</td>
                                     <td>6</td>
                                     <td>13.7</td>
@@ -583,7 +583,7 @@
                                     <td>11.2</td>
                                     <td>0.39</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>3/8</td>
                                     <td>10</td>
                                     <td>17.1</td>
@@ -591,7 +591,7 @@
                                     <td>14.6</td>
                                     <td>0.49</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>1/2</td>
                                     <td>15</td>
                                     <td>21.3</td>
@@ -599,7 +599,7 @@
                                     <td>18.0</td>
                                     <td>0.84</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>3/4</td>
                                     <td>20</td>
                                     <td>26.7</td>
@@ -607,7 +607,7 @@
                                     <td>23.4</td>
                                     <td>1.03</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>1</td>
                                     <td>25</td>
                                     <td>33.4</td>
@@ -615,7 +615,7 @@
                                     <td>30.1</td>
                                     <td>1.3</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>1 1/4</td>
                                     <td>32</td>
                                     <td>42.2</td>
@@ -623,7 +623,7 @@
                                     <td>38.9</td>
                                     <td>1.65</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>1 1/2</td>
                                     <td>40</td>
                                     <td>48.3</td>
@@ -631,7 +631,7 @@
                                     <td>44.9</td>
                                     <td>1.91</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>2</td>
                                     <td>50</td>
                                     <td>60.3</td>
@@ -639,7 +639,7 @@
                                     <td>56.0</td>
                                     <td>2.4</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>2 1/2</td>
                                     <td>65</td>
                                     <td>73.0</td>
@@ -647,7 +647,7 @@
                                     <td>68.8</td>
                                     <td>3.69</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>3</td>
                                     <td>80</td>
                                     <td>88.9</td>
@@ -655,7 +655,7 @@
                                     <td>84.7</td>
                                     <td>4.51</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>3 1/2</td>
                                     <td>90</td>
                                     <td>101.6</td>
@@ -663,7 +663,7 @@
                                     <td>97.4</td>
                                     <td>5.17</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>4</td>
                                     <td>100</td>
                                     <td>114.3</td>
@@ -671,7 +671,7 @@
                                     <td>110.1</td>
                                     <td>5.84</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>5</td>
                                     <td>125</td>
                                     <td>141.3</td>
@@ -679,7 +679,7 @@
                                     <td>135.8</td>
                                     <td>9.47</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>6</td>
                                     <td>150</td>
                                     <td>168.3</td>
@@ -687,7 +687,7 @@
                                     <td>162.8</td>
                                     <td>11.32</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>8</td>
                                     <td>200</td>
                                     <td>219.1</td>
@@ -695,7 +695,7 @@
                                     <td>213.6</td>
                                     <td>14.79</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>10</td>
                                     <td>250</td>
                                     <td>273.1</td>
@@ -703,7 +703,7 @@
                                     <td>266.3</td>
                                     <td>22.63</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>12</td>
                                     <td>300</td>
                                     <td>323.9</td>
@@ -711,7 +711,7 @@
                                     <td>317.0</td>
                                     <td>31.25</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>14</td>
                                     <td>350</td>
                                     <td>355.6</td>
@@ -719,7 +719,7 @@
                                     <td>347.7</td>
                                     <td>36.96</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>16</td>
                                     <td>400</td>
                                     <td>406.4</td>
@@ -727,7 +727,7 @@
                                     <td>398.0</td>
                                     <td>41.56</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>18</td>
                                     <td>450</td>
                                     <td>457.2</td>
@@ -735,7 +735,7 @@
                                     <td>448.1</td>
                                     <td>49.42</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>20</td>
                                     <td>500</td>
                                     <td>508.0</td>
@@ -743,7 +743,7 @@
                                     <td>496.9</td>
                                     <td>59.25</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>22</td>
                                     <td>550</td>
                                     <td>558.8</td>
@@ -751,7 +751,7 @@
                                     <td>547.7</td>
                                     <td>65.97</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>24</td>
                                     <td>600</td>
                                     <td>609.6</td>
@@ -779,7 +779,7 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>NPS (inches)</th>
                                     <th>NB (mm)</th>
                                     <th>OD (mm)</th>
@@ -789,7 +789,7 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>1/8</td>
                                     <td>3</td>
                                     <td>10.3</td>
@@ -797,7 +797,7 @@
                                     <td>7.8</td>
                                     <td>0.28</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>1/4</td>
                                     <td>6</td>
                                     <td>13.7</td>
@@ -805,7 +805,7 @@
                                     <td>11.2</td>
                                     <td>0.39</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>3/8</td>
                                     <td>10</td>
                                     <td>17.1</td>
@@ -813,7 +813,7 @@
                                     <td>14.6</td>
                                     <td>0.49</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>1/2</td>
                                     <td>15</td>
                                     <td>21.3</td>
@@ -821,7 +821,7 @@
                                     <td>18.0</td>
                                     <td>0.81</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>3/4</td>
                                     <td>20</td>
                                     <td>26.7</td>
@@ -829,7 +829,7 @@
                                     <td>23.4</td>
                                     <td>1.04</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>1</td>
                                     <td>25</td>
                                     <td>33.4</td>
@@ -837,7 +837,7 @@
                                     <td>30.1</td>
                                     <td>1.32</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>1 1/4</td>
                                     <td>32</td>
                                     <td>42.2</td>
@@ -845,7 +845,7 @@
                                     <td>38.9</td>
                                     <td>1.68</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>1 1/2</td>
                                     <td>40</td>
                                     <td>48.3</td>
@@ -853,7 +853,7 @@
                                     <td>45.0</td>
                                     <td>1.93</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>2</td>
                                     <td>50</td>
                                     <td>60.3</td>
@@ -861,7 +861,7 @@
                                     <td>57.0</td>
                                     <td>2.43</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>2 1/2</td>
                                     <td>65</td>
                                     <td>73.0</td>
@@ -869,7 +869,7 @@
                                     <td>69.7</td>
                                     <td>2.96</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>3</td>
                                     <td>80</td>
                                     <td>88.9</td>
@@ -877,7 +877,7 @@
                                     <td>85.6</td>
                                     <td>3.62</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>3 1/2</td>
                                     <td>90</td>
                                     <td>101.6</td>
@@ -885,7 +885,7 @@
                                     <td>98.3</td>
                                     <td>4.14</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>4</td>
                                     <td>100</td>
                                     <td>114.3</td>
@@ -893,7 +893,7 @@
                                     <td>111.0</td>
                                     <td>4.67</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>5</td>
                                     <td>125</td>
                                     <td>141.3</td>
@@ -901,7 +901,7 @@
                                     <td>138.0</td>
                                     <td>5.79</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>6</td>
                                     <td>150</td>
                                     <td>168.3</td>
@@ -909,7 +909,7 @@
                                     <td>165.0</td>
                                     <td>6.91</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>8</td>
                                     <td>200</td>
                                     <td>219.1</td>
@@ -917,7 +917,7 @@
                                     <td>214.9</td>
                                     <td>11.51</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>10</td>
                                     <td>250</td>
                                     <td>273.0</td>
@@ -925,7 +925,7 @@
                                     <td>267.5</td>
                                     <td>18.81</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>12</td>
                                     <td>300</td>
                                     <td>323.8</td>
@@ -933,7 +933,7 @@
                                     <td>317.7</td>
                                     <td>24.59</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>14</td>
                                     <td>350</td>
                                     <td>355.6</td>
@@ -941,7 +941,7 @@
                                     <td>348.8</td>
                                     <td>30.10</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>16</td>
                                     <td>400</td>
                                     <td>406.4</td>
@@ -949,7 +949,7 @@
                                     <td>399.6</td>
                                     <td>34.44</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>18</td>
                                     <td>450</td>
                                     <td>457.0</td>
@@ -957,7 +957,7 @@
                                     <td>449.4</td>
                                     <td>43.28</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>20</td>
                                     <td>500</td>
                                     <td>508.0</td>
@@ -965,7 +965,7 @@
                                     <td>500.4</td>
                                     <td>48.15</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>22</td>
                                     <td>550</td>
                                     <td>559.0</td>
@@ -973,7 +973,7 @@
                                     <td>551.0</td>
                                     <td>55.79</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>24</td>
                                     <td>600</td>
                                     <td>610.0</td>
@@ -1000,7 +1000,7 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>NPS (inches)</th>
                                     <th>NB (mm)</th>
                                     <th>OD (mm)</th>
@@ -1010,7 +1010,7 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>1/8</td>
                                     <td>3</td>
                                     <td>10.3</td>
@@ -1018,7 +1018,7 @@
                                     <td>6.84</td>
                                     <td>0.37</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>1/4</td>
                                     <td>6</td>
                                     <td>13.7</td>
@@ -1026,7 +1026,7 @@
                                     <td>9.22</td>
                                     <td>0.64</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>3/8</td>
                                     <td>10</td>
                                     <td>17.1</td>
@@ -1034,7 +1034,7 @@
                                     <td>12.48</td>
                                     <td>0.86</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>1/2</td>
                                     <td>15</td>
                                     <td>21.3</td>
@@ -1042,7 +1042,7 @@
                                     <td>15.76</td>
                                     <td>1.27</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>3/4</td>
                                     <td>20</td>
                                     <td>26.7</td>
@@ -1050,7 +1050,7 @@
                                     <td>20.96</td>
                                     <td>1.70</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>1</td>
                                     <td>25</td>
                                     <td>33.4</td>
@@ -1058,7 +1058,7 @@
                                     <td>26.64</td>
                                     <td>2.46</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>1 1/4</td>
                                     <td>32</td>
                                     <td>42.2</td>
@@ -1066,7 +1066,7 @@
                                     <td>35.08</td>
                                     <td>3.61</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>1 1/2</td>
                                     <td>40</td>
                                     <td>48.3</td>
@@ -1074,7 +1074,7 @@
                                     <td>40.94</td>
                                     <td>4.18</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>2</td>
                                     <td>50</td>
                                     <td>60.3</td>
@@ -1082,7 +1082,7 @@
                                     <td>52.48</td>
                                     <td>5.44</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>2 1/2</td>
                                     <td>65</td>
                                     <td>73.0</td>
@@ -1090,7 +1090,7 @@
                                     <td>62.68</td>
                                     <td>8.63</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>3</td>
                                     <td>80</td>
                                     <td>88.9</td>
@@ -1098,7 +1098,7 @@
                                     <td>77.92</td>
                                     <td>11.29</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>3 1/2</td>
                                     <td>90</td>
                                     <td>101.6</td>
@@ -1106,7 +1106,7 @@
                                     <td>90.12</td>
                                     <td>14.02</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>4</td>
                                     <td>100</td>
                                     <td>114.3</td>
@@ -1114,7 +1114,7 @@
                                     <td>102.26</td>
                                     <td>17.15</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>5</td>
                                     <td>125</td>
                                     <td>141.3</td>
@@ -1122,7 +1122,7 @@
                                     <td>128.20</td>
                                     <td>23.85</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>6</td>
                                     <td>150</td>
                                     <td>168.3</td>
@@ -1130,7 +1130,7 @@
                                     <td>154.08</td>
                                     <td>30.70</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>8</td>
                                     <td>200</td>
                                     <td>219.1</td>
@@ -1138,7 +1138,7 @@
                                     <td>202.74</td>
                                     <td>49.56</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>10</td>
                                     <td>250</td>
                                     <td>273.0</td>
@@ -1146,7 +1146,7 @@
                                     <td>254.46</td>
                                     <td>73.50</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>12</td>
                                     <td>300</td>
                                     <td>323.8</td>
@@ -1154,7 +1154,7 @@
                                     <td>303.18</td>
                                     <td>95.54</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>14</td>
                                     <td>350</td>
                                     <td>355.6</td>
@@ -1162,7 +1162,7 @@
                                     <td>333.34</td>
                                     <td>112.63</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>16</td>
                                     <td>400</td>
                                     <td>406.4</td>
@@ -1170,7 +1170,7 @@
                                     <td>380.99</td>
                                     <td>144.27</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>18</td>
                                     <td>450</td>
                                     <td>457.0</td>
@@ -1178,7 +1178,7 @@
                                     <td>428.46</td>
                                     <td>179.28</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>20</td>
                                     <td>500</td>
                                     <td>508.0</td>
@@ -1186,7 +1186,7 @@
                                     <td>477.82</td>
                                     <td>213.93</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>22</td>
                                     <td>550</td>
                                     <td>559.0</td>
@@ -1194,7 +1194,7 @@
                                     <td>528.82</td>
                                     <td>235.40</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>24</td>
                                     <td>600</td>
                                     <td>610.0</td>
@@ -1222,7 +1222,7 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>NPS (inches)</th>
                                     <th>NB (mm)</th>
                                     <th>OD (mm)</th>
@@ -1232,7 +1232,7 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>1/8</td>
                                     <td>3</td>
                                     <td>10.3</td>
@@ -1240,7 +1240,7 @@
                                     <td>6.84</td>
                                     <td>0.37</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>1/4</td>
                                     <td>6</td>
                                     <td>13.7</td>
@@ -1248,7 +1248,7 @@
                                     <td>7.66</td>
                                     <td>0.83</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>3/8</td>
                                     <td>10</td>
                                     <td>17.1</td>
@@ -1256,7 +1256,7 @@
                                     <td>10.70</td>
                                     <td>1.13</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>1/2</td>
                                     <td>15</td>
                                     <td>21.3</td>
@@ -1264,7 +1264,7 @@
                                     <td>13.84</td>
                                     <td>1.63</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>3/4</td>
                                     <td>20</td>
                                     <td>26.7</td>
@@ -1272,7 +1272,7 @@
                                     <td>18.88</td>
                                     <td>2.30</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>1</td>
                                     <td>25</td>
                                     <td>33.4</td>
@@ -1280,7 +1280,7 @@
                                     <td>24.30</td>
                                     <td>3.38</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>1 1/4</td>
                                     <td>32</td>
                                     <td>42.2</td>
@@ -1288,7 +1288,7 @@
                                     <td>32.50</td>
                                     <td>4.84</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>1 1/2</td>
                                     <td>40</td>
                                     <td>48.3</td>
@@ -1296,7 +1296,7 @@
                                     <td>38.14</td>
                                     <td>5.61</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>2</td>
                                     <td>50</td>
                                     <td>60.3</td>
@@ -1304,7 +1304,7 @@
                                     <td>49.22</td>
                                     <td>7.48</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>2 1/2</td>
                                     <td>65</td>
                                     <td>73.0</td>
@@ -1312,7 +1312,7 @@
                                     <td>58.98</td>
                                     <td>11.76</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>3</td>
                                     <td>80</td>
                                     <td>88.9</td>
@@ -1320,7 +1320,7 @@
                                     <td>73.66</td>
                                     <td>15.74</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>3 1/2</td>
                                     <td>90</td>
                                     <td>101.6</td>
@@ -1328,7 +1328,7 @@
                                     <td>85.44</td>
                                     <td>20.20</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>4</td>
                                     <td>100</td>
                                     <td>114.3</td>
@@ -1336,7 +1336,7 @@
                                     <td>97.18</td>
                                     <td>25.10</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>5</td>
                                     <td>125</td>
                                     <td>141.3</td>
@@ -1344,7 +1344,7 @@
                                     <td>122.24</td>
                                     <td>36.46</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>6</td>
                                     <td>150</td>
                                     <td>168.3</td>
@@ -1352,7 +1352,7 @@
                                     <td>146.36</td>
                                     <td>49.56</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>8</td>
                                     <td>200</td>
                                     <td>219.1</td>
@@ -1360,7 +1360,7 @@
                                     <td>193.70</td>
                                     <td>77.10</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>10</td>
                                     <td>250</td>
                                     <td>273.0</td>
@@ -1368,7 +1368,7 @@
                                     <td>242.82</td>
                                     <td>114.00</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>12</td>
                                     <td>300</td>
                                     <td>323.8</td>
@@ -1376,7 +1376,7 @@
                                     <td>288.84</td>
                                     <td>153.00</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>14</td>
                                     <td>350</td>
                                     <td>355.6</td>
@@ -1384,7 +1384,7 @@
                                     <td>317.50</td>
                                     <td>180.00</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>16</td>
                                     <td>400</td>
                                     <td>406.4</td>
@@ -1392,7 +1392,7 @@
                                     <td>363.52</td>
                                     <td>227.50</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>18</td>
                                     <td>450</td>
                                     <td>457.0</td>
@@ -1400,7 +1400,7 @@
                                     <td>409.34</td>
                                     <td>282.50</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>20</td>
                                     <td>500</td>
                                     <td>508.0</td>
@@ -1408,7 +1408,7 @@
                                     <td>455.64</td>
                                     <td>342.00</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>22</td>
                                     <td>550</td>
                                     <td>559.0</td>
@@ -1416,7 +1416,7 @@
                                     <td>501.84</td>
                                     <td>408.00</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>24</td>
                                     <td>600</td>
                                     <td>610.0</td>
@@ -1443,7 +1443,7 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>NPS (inches)</th>
                                     <th>NB (mm)</th>
                                     <th>OD (mm)</th>
@@ -1453,7 +1453,7 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>1/8</td>
                                     <td>3</td>
                                     <td>10.3</td>
@@ -1461,7 +1461,7 @@
                                     <td>5.48</td>
                                     <td>0.49</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>1/4</td>
                                     <td>6</td>
                                     <td>13.7</td>
@@ -1469,7 +1469,7 @@
                                     <td>7.66</td>
                                     <td>0.83</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>3/8</td>
                                     <td>10</td>
                                     <td>17.1</td>
@@ -1477,7 +1477,7 @@
                                     <td>10.70</td>
                                     <td>1.13</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>1/2</td>
                                     <td>15</td>
                                     <td>21.3</td>
@@ -1485,7 +1485,7 @@
                                     <td>13.12</td>
                                     <td>1.75</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>3/4</td>
                                     <td>20</td>
                                     <td>26.7</td>
@@ -1493,7 +1493,7 @@
                                     <td>17.60</td>
                                     <td>2.63</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>1</td>
                                     <td>25</td>
                                     <td>33.4</td>
@@ -1501,7 +1501,7 @@
                                     <td>20.70</td>
                                     <td>4.51</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>1 1/4</td>
                                     <td>32</td>
                                     <td>42.2</td>
@@ -1509,7 +1509,7 @@
                                     <td>29.50</td>
                                     <td>6.12</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>1 1/2</td>
                                     <td>40</td>
                                     <td>48.3</td>
@@ -1517,7 +1517,7 @@
                                     <td>34.02</td>
                                     <td>7.92</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>2</td>
                                     <td>50</td>
                                     <td>60.3</td>
@@ -1525,7 +1525,7 @@
                                     <td>42.88</td>
                                     <td>11.06</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>2 1/2</td>
                                     <td>65</td>
                                     <td>73.0</td>
@@ -1533,7 +1533,7 @@
                                     <td>53.94</td>
                                     <td>14.90</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>3</td>
                                     <td>80</td>
                                     <td>88.9</td>
@@ -1541,7 +1541,7 @@
                                     <td>66.64</td>
                                     <td>21.31</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>3 1/2</td>
                                     <td>90</td>
                                     <td>101.6</td>
@@ -1549,7 +1549,7 @@
                                     <td>76.20</td>
                                     <td>29.00</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>4</td>
                                     <td>100</td>
                                     <td>114.3</td>
@@ -1557,7 +1557,7 @@
                                     <td>87.32</td>
                                     <td>34.35</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>5</td>
                                     <td>125</td>
                                     <td>141.3</td>
@@ -1565,7 +1565,7 @@
                                     <td>109.54</td>
                                     <td>53.30</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>6</td>
                                     <td>150</td>
                                     <td>168.3</td>
@@ -1573,7 +1573,7 @@
                                     <td>131.78</td>
                                     <td>75.53</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>8</td>
                                     <td>200</td>
                                     <td>219.1</td>
@@ -1581,7 +1581,7 @@
                                     <td>173.08</td>
                                     <td>123.90</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>10</td>
                                     <td>250</td>
                                     <td>273.0</td>
@@ -1589,7 +1589,7 @@
                                     <td>215.84</td>
                                     <td>190.50</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>12</td>
                                     <td>300</td>
                                     <td>323.8</td>
@@ -1597,7 +1597,7 @@
                                     <td>257.16</td>
                                     <td>268.00</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>14</td>
                                     <td>350</td>
                                     <td>355.6</td>
@@ -1605,7 +1605,7 @@
                                     <td>284.18</td>
                                     <td>327.00</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>16</td>
                                     <td>400</td>
                                     <td>406.4</td>
@@ -1613,7 +1613,7 @@
                                     <td>325.42</td>
                                     <td>429.50</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>18</td>
                                     <td>450</td>
                                     <td>457.0</td>
@@ -1621,7 +1621,7 @@
                                     <td>366.52</td>
                                     <td>544.00</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>20</td>
                                     <td>500</td>
                                     <td>508.0</td>
@@ -1629,7 +1629,7 @@
                                     <td>407.98</td>
                                     <td>677.50</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>22</td>
                                     <td>550</td>
                                     <td>559.0</td>
@@ -1637,7 +1637,7 @@
                                     <td>451.04</td>
                                     <td>823.00</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>24</td>
                                     <td>600</td>
                                     <td>610.0</td>
@@ -1664,7 +1664,7 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>NPS (inches)</th>
                                     <th>NB (mm)</th>
                                     <th>OD (mm)</th>
@@ -1674,7 +1674,7 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>1/8</td>
                                     <td>3</td>
                                     <td>10.3</td>
@@ -1682,7 +1682,7 @@
                                     <td>5.48</td>
                                     <td>0.49</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>1/4</td>
                                     <td>6</td>
                                     <td>13.7</td>
@@ -1690,7 +1690,7 @@
                                     <td>7.66</td>
                                     <td>0.83</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>3/8</td>
                                     <td>10</td>
                                     <td>17.1</td>
@@ -1698,7 +1698,7 @@
                                     <td>10.70</td>
                                     <td>1.13</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>1/2</td>
                                     <td>15</td>
                                     <td>21.3</td>
@@ -1706,7 +1706,7 @@
                                     <td>11.74</td>
                                     <td>1.98</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>3/4</td>
                                     <td>20</td>
                                     <td>26.7</td>
@@ -1714,7 +1714,7 @@
                                     <td>14.66</td>
                                     <td>3.32</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>1</td>
                                     <td>25</td>
                                     <td>33.4</td>
@@ -1722,7 +1722,7 @@
                                     <td>18.46</td>
                                     <td>5.25</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>1 1/4</td>
                                     <td>32</td>
                                     <td>42.2</td>
@@ -1730,7 +1730,7 @@
                                     <td>24.02</td>
                                     <td>8.26</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>1 1/2</td>
                                     <td>40</td>
                                     <td>48.3</td>
@@ -1738,7 +1738,7 @@
                                     <td>28.00</td>
                                     <td>10.68</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>2</td>
                                     <td>50</td>
                                     <td>60.3</td>
@@ -1746,7 +1746,7 @@
                                     <td>38.16</td>
                                     <td>14.82</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>2 1/2</td>
                                     <td>65</td>
                                     <td>73.0</td>
@@ -1754,7 +1754,7 @@
                                     <td>46.02</td>
                                     <td>21.56</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>3</td>
                                     <td>80</td>
                                     <td>88.9</td>
@@ -1762,7 +1762,7 @@
                                     <td>58.42</td>
                                     <td>29.83</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>3 1/2</td>
                                     <td>90</td>
                                     <td>101.6</td>
@@ -1770,7 +1770,7 @@
                                     <td>67.36</td>
                                     <td>39.00</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>4</td>
                                     <td>100</td>
                                     <td>114.3</td>
@@ -1778,7 +1778,7 @@
                                     <td>77.78</td>
                                     <td>47.17</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>5</td>
                                     <td>125</td>
                                     <td>141.3</td>
@@ -1786,7 +1786,7 @@
                                     <td>97.40</td>
                                     <td>70.65</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>6</td>
                                     <td>150</td>
                                     <td>168.3</td>
@@ -1794,7 +1794,7 @@
                                     <td>117.50</td>
                                     <td>99.57</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>8</td>
                                     <td>200</td>
                                     <td>219.1</td>
@@ -1802,7 +1802,7 @@
                                     <td>161.94</td>
                                     <td>144.45</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>10</td>
                                     <td>250</td>
                                     <td>273.0</td>
@@ -1810,7 +1810,7 @@
                                     <td>209.50</td>
                                     <td>202.00</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>12</td>
                                     <td>300</td>
                                     <td>323.8</td>
@@ -1818,7 +1818,7 @@
                                     <td>250.74</td>
                                     <td>281.25</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>14</td>
                                     <td>350</td>
                                     <td>355.6</td>
@@ -1826,7 +1826,7 @@
                                     <td>277.82</td>
                                     <td>338.00</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>16</td>
                                     <td>400</td>
                                     <td>406.4</td>
@@ -1834,7 +1834,7 @@
                                     <td>317.50</td>
                                     <td>442.50</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>18</td>
                                     <td>450</td>
                                     <td>457.0</td>
@@ -1842,7 +1842,7 @@
                                     <td>356.98</td>
                                     <td>562.00</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>20</td>
                                     <td>500</td>
                                     <td>508.0</td>
@@ -1850,7 +1850,7 @@
                                     <td>396.88</td>
                                     <td>697.00</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>22</td>
                                     <td>550</td>
                                     <td>559.0</td>
@@ -1858,7 +1858,7 @@
                                     <td>441.08</td>
                                     <td>826.00</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>24</td>
                                     <td>600</td>
                                     <td>610.0</td>
@@ -1890,95 +1890,95 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Material</th>
                                     <th>Grades</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Nickel Alloys</td>
                                     <td>Hastelloy C276, C22, C4, B2, B3, C2000, G3, G30, Hastelloy X</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td></td>
                                     <td>
                                         Inconel 600, 601, 625, 690, 718, X750
                                     </td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td></td>
                                     <td>
                                         Incoloy 800, 825, 925
                                     </td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td></td>
                                     <td>
                                         Monel 400, K500, R405
                                     </td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td></td>
                                     <td>
                                         Nickel 200, 201, A286 660
                                     </td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Titanium Alloys</td>
                                     <td>Grade 1, 2, 4, 4 ELI, 5, 5 ELI, 23, 7, 7NB, 9, 12</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Duplex / Super Duplex</td>
                                     <td>2507, S32760, S31803, 2205</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Austenitic Stainless Steel</td>
                                     <td>304, 310, 316, 316Ti, 317, 321, 347, 309, Nitronic 50, Nitronic 60</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>High Strength Stainless Steel</td>
                                     <td>17-4PH, 15-5PH, 14-4PH, 410, 420, 420HC, 430F, 416, 431, 440A, 440B, 440C, 422, 403,
                                         405</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Super Austenitic Stainless Steel</td>
                                     <td>904L, SMO 254, SMO 654, AL-6XN, Alloy 926, 253-MA</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Zirconium</td>
                                     <td>702, 704, 705</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tantalum</td>
                                     <td>R05200, R05252, R05255</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Engineering Steels</td>
                                     <td>EN8, EN9, EN19, EN24, EN31, EN36, EN47, D2, 1045, 1055, 4140, 4130, 4340, P1, P11,
                                         P12, P22</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Carbon Steel</td>
                                     <td>ASTM A106, A105, A36, A234 WPB, EN10210, IS2062</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Aluminium Alloys</td>
                                     <td>HE30, 6082-T6, 6061-T6, 5083, 7075, 2014-T6, 6063, 1100, 1200, 6012</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Copper Alloys</td>
                                     <td>CU-NI 70/30, 90/10, C44300, C46400, Aluminium Bronze, NAB, C71520, C71500</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td></td>
                                     <td>C63000, Brass, Naval Brass, Beryllium Copper</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Special Alloys</td>
                                     <td>Tungsten, Carbide, Nitinol, Nimonic, Stellite, Tantalum</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Haynes Superalloys</td>
                                     <td>Haynes 188, 230, 160, 242</td>
                                 </tr>

@@ -27,23 +27,23 @@
 
             @php
                 $grades = [
-                    ['name' => 'Engineering Steel 1045', 'slug' => 'engineering-steels-1045'],
-                    ['name' => 'Engineering Steel 1055', 'slug' => 'engineering-steels-1055'],
-                    ['name' => 'Engineering Steel 4130', 'slug' => 'engineering-steels-4130'],
-                    ['name' => 'Engineering Steel 4140', 'slug' => 'engineering-steels-4140'],
-                    ['name' => 'Engineering Steel 4340', 'slug' => 'engineering-steels-4340'],
-                    ['name' => 'Engineering Steel EN8', 'slug' => 'engineering-steels-en8'],
-                    ['name' => 'Engineering Steel EN9', 'slug' => 'engineering-steels-en9'],
-                    ['name' => 'Engineering Steel EN19', 'slug' => 'engineering-steels-en19'],
-                    ['name' => 'Engineering Steel EN24', 'slug' => 'engineering-steels-en24'],
-                    ['name' => 'Engineering Steel EN31', 'slug' => 'engineering-steels-en31'],
-                    ['name' => 'Engineering Steel EN36', 'slug' => 'engineering-steels-en36'],
-                    ['name' => 'Engineering Steel EN47', 'slug' => 'engineering-steels-en47'],
-                    ['name' => 'Engineering Steel D2', 'slug' => 'engineering-steels-d2'],
-                    ['name' => 'Engineering Steel P1', 'slug' => 'engineering-steels-p1'],
-                    ['name' => 'Engineering Steel P11', 'slug' => 'engineering-steels-p11'],
-                    ['name' => 'Engineering Steel P12', 'slug' => 'engineering-steels-p12'],
-                    ['name' => 'Engineering Steel P22', 'slug' => 'engineering-steels-p22'],
+                    ['name' => 'Engineering Steel 1045', 'slug' => 'engineering-steels-1045', 'image' => 'assets/images/engineering-steels/engineering-steels-1045.png'],
+                    ['name' => 'Engineering Steel 1055', 'slug' => 'engineering-steels-1055', 'image' => 'assets/images/engineering-steels/engineering-steels-1055.jpg'],
+                    ['name' => 'Engineering Steel 4130', 'slug' => 'engineering-steels-4130', 'image' => 'assets/images/engineering-steels/engineering-steels-4130.jpg'],
+                    ['name' => 'Engineering Steel 4140', 'slug' => 'engineering-steels-4140', 'image' => 'assets/images/engineering-steels/engineering-steels-4140.jpeg'],
+                    ['name' => 'Engineering Steel 4340', 'slug' => 'engineering-steels-4340', 'image' => 'assets/images/engineering-steels/engineering-steels-4340.jpg'],
+                    ['name' => 'Engineering Steel EN8', 'slug' => 'engineering-steels-en8', 'image' => 'assets/images/engineering-steels/engineering-steels-en8.jpg'],
+                    ['name' => 'Engineering Steel EN9', 'slug' => 'engineering-steels-en9', 'image' => 'assets/images/engineering-steels/engineering-steels-en9.jpg'],
+                    ['name' => 'Engineering Steel EN19', 'slug' => 'engineering-steels-en19', 'image' => 'assets/images/engineering-steels/engineering-steels-en19.jpeg'],
+                    ['name' => 'Engineering Steel EN24', 'slug' => 'engineering-steels-en24', 'image' => 'assets/images/engineering-steels/engineering-steels-en24.jpg'],
+                    ['name' => 'Engineering Steel EN31', 'slug' => 'engineering-steels-en31', 'image' => 'assets/images/engineering-steels/engineering-steels-en31.jpeg'],
+                    ['name' => 'Engineering Steel EN36', 'slug' => 'engineering-steels-en36', 'image' => 'assets/images/engineering-steels/engineering-steels-en36.jpg'],
+                    ['name' => 'Engineering Steel EN47', 'slug' => 'engineering-steels-en47', 'image' => 'assets/images/engineering-steels/engineering-steels-en47.jpg'],
+                    ['name' => 'Engineering Steel D2', 'slug' => 'engineering-steels-d2', 'image' => 'assets/images/engineering-steels/engineering-steels-d2.jpg'],
+                    ['name' => 'Engineering Steel P1', 'slug' => 'engineering-steels-p1', 'image' => 'assets/images/engineering-steels/engineering-steels-p1.jpg'],
+                    ['name' => 'Engineering Steel P11', 'slug' => 'engineering-steels-p11', 'image' => 'assets/images/engineering-steels/engineering-steels-p11.jpg'],
+                    ['name' => 'Engineering Steel P12', 'slug' => 'engineering-steels-p12', 'image' => 'assets/images/engineering-steels/engineering-steels-p12.jpg'],
+                    ['name' => 'Engineering Steel P22', 'slug' => 'engineering-steels-p22', 'image' => 'assets/images/engineering-steels/engineering-steels-p22.jpg'],
                 ];
             @endphp
 
@@ -56,7 +56,9 @@
                         <a href="{{ $href }}" class="text-decoration-none d-block h-100">
                             <div class="grade-card border rounded shadow-sm p-3 text-center h-100 transition"
                                 style="border-color: #db7227; transition: 0.3s;">
-                                <img src="https://placehold.co/300x180/db7227/fff?text={{ urlencode($grade['name']) }}"
+                                {{-- <img src="https://placehold.co/300x180/db7227/fff?text={{ urlencode($grade['name']) }}"
+                                    alt="{{ $grade['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;"> --}}
+                                    <img src="{{ asset($grade['image']) }}"
                                     alt="{{ $grade['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;">
                                 <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                     style="background-color: #174268; color: #fff; display: inline-block;">

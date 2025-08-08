@@ -27,7 +27,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?" alt="Monel K500" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/monel/Monel-K500.jpg" alt="Monel K500" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -71,45 +71,45 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Element</th>
                                     <th>Composition (%)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Nickel</td>
                                     <td>63.0 min</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Copper</td>
                                     <td>27.0 – 33.0</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Aluminum</td>
                                     <td>2.3 – 3.15</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Titanium</td>
                                     <td>0.35 – 0.85</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Iron</td>
                                     <td>2.0 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Manganese</td>
                                     <td>1.5 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Silicon</td>
                                     <td>0.5 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Carbon</td>
                                     <td>0.25 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Sulfur</td>
                                     <td>0.01 max</td>
                                 </tr>
@@ -135,34 +135,34 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Imperial</th>
                                     <th>Metric</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Density</td>
                                     <td>0.305 lb/in³</td>
                                     <td>8.44 g/cm³</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Melting Range</td>
                                     <td>2400–2460 °F</td>
                                     <td>1315–1350 °C</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Elasticity (Tension)</td>
                                     <td>26.0 × 10³ ksi</td>
                                     <td>179 GPa</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Elasticity (Torsion)</td>
                                     <td>9.5 × 10³ ksi</td>
                                     <td>65.5 GPa</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Poisson’s Ratio</td>
                                     <td>0.32 (aged material, RT)</td>
                                     <td>-</td>
@@ -180,7 +180,7 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Form & Condition</th>
                                     <th>Tensile Strength</th>
                                     <th>Yield Strength (0.2%)</th>
@@ -189,14 +189,14 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Rod & Bar – Hot-Finished, Aged</td>
                                     <td>140–190 ksi (965–1310 MPa)</td>
                                     <td>100–150 ksi (690–1034 MPa)</td>
                                     <td>35–20%%</td>
                                     <td>27–37C</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Rod & Bar – Cold-Drawn, Annealed, Aged</td>
                                     <td>130–190 ksi (896–1310 MPa)</td>
                                     <td>85–120 ksi (586–827 MPa)</td>
@@ -204,21 +204,21 @@
                                     <td>24–35C</td>
                                 </tr>
 
-                                <tr>
+                                <tr class="t-row">
                                     <td>Strip – Spring Temper, Aged</td>
                                     <td>170–220 ksi (1172–1517 MPa)</td>
                                     <td>130–195 ksi (896–1345 MPa)</td>
                                     <td>10–5%</td>
                                     <td>34C min</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tube & Pipe – Cold-Drawn, Aged</td>
                                     <td>140–220 ksi (965–1517 MPa)</td>
                                     <td>100–200 ksi (690–1379 MPa)</td>
                                     <td>25–3%</td>
                                     <td>27–40C</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Wire – Spring Temper, Aged</td>
                                     <td>160–200 ksi (1103–1379 MPa)</td>
                                     <td>140–190 ksi (965–1310 MPa)</td>
@@ -307,7 +307,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">

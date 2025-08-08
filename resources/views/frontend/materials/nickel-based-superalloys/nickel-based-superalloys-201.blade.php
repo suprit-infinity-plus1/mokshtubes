@@ -27,7 +27,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?" alt="Nickel 201" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/nickel-based-superalloys/nickel-based-superalloys-201.jpg" alt="Nickel 201"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -36,14 +37,16 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a leading manufacturer,
                             supplier, exporter, importer, and stockist of<strong class="text-black"> NICKEL 201
-                                products</strong>, offering <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe
+                                products</strong>, offering <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>,
+                            Pipe
                             Fittings, Flanges, Fasteners, Sheets, Plates, Coils, Wires, Round Bars, Flat Bars, Angles,
                             Channels, Welding Rods, Wire Mesh, and other customized and specialty Nickel 201 components.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">Nickel 201</strong>, is a low-carbon version of commercially pure
-                            wrought <a href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a> (99.6% Ni), designed to provide enhanced resistance to graphitization in
+                            wrought <a href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a> (99.6% Ni),
+                            designed to provide enhanced resistance to graphitization in
                             high-temperature environments. It retains the excellent corrosion resistance, thermal and
                             electrical conductivity, and workability of Nickel 200 while offering superior performance in
                             applications above 600 °F (315 °C). The reduced carbon content (0.02% max) minimizes carbide
@@ -67,37 +70,37 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Element</th>
                                     <th>Composition (%)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Nickel</td>
                                     <td>99.0</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Copper</td>
                                     <td>0.25 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Iron</td>
                                     <td>0.40 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Manganese</td>
                                     <td>0.35 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Silicon</td>
                                     <td>0.35 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Carbon</td>
                                     <td>0.02 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Sulfur</td>
                                     <td>0.01 max</td>
                                 </tr>
@@ -123,39 +126,39 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Imperial</th>
                                     <th>Metric</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Density</td>
                                     <td>0.321 lb/in³</td>
                                     <td>8.89 g/cm³</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Melting Range</td>
                                     <td>2615 – 2635 °F</td>
                                     <td>1435 – 1446 °C</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Specific Heat</td>
                                     <td>0.108 Btu/lb•°F</td>
                                     <td>450 J/kg•°C</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Thermal Conductivity</td>
                                     <td>49.9 W/m·K</td>
                                     <td>346 BTU·in/hr·ft²·°F</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Electrical Conductivity</td>
                                     <td>22% IACS</td>
                                     <td>—</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Magnetic Permeability</td>
                                     <td>1.0004</td>
                                     <td>—</td>
@@ -173,7 +176,7 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Rod & Bar (Hot-Finished / Annealed)</th>
                                     <th>Rod & Bar (Cold-Drawn)</th>
@@ -185,7 +188,7 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tensile Strength (ksi)</td>
                                     <td>50–60</td>
                                     <td>60–100</td>
@@ -195,7 +198,7 @@
                                     <td>50–70</td>
                                     <td>60–105</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tensile Strength (MPa)</td>
                                     <td>345–415</td>
                                     <td>415–690</td>
@@ -205,7 +208,7 @@
                                     <td>345–485</td>
                                     <td>415–724</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Yield Strength (ksi)</td>
                                     <td>10–25</td>
                                     <td>35–90</td>
@@ -215,7 +218,7 @@
                                     <td>10–28</td>
                                     <td>30–85</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Yield Strength (MPa)</td>
                                     <td>70–170</td>
                                     <td>240–620</td>
@@ -225,7 +228,7 @@
                                     <td>70–195</td>
                                     <td>207–586</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Elongation %</td>
                                     <td>60–40</td>
                                     <td>35–10</td>
@@ -235,7 +238,7 @@
                                     <td>60–40</td>
                                     <td>35–15</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Hardness (Brinell / Rockwell)</td>
                                     <td>75–100 BHN</td>
                                     <td>125–200 BHN</td>
@@ -317,7 +320,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">

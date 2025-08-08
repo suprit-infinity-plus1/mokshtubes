@@ -28,11 +28,11 @@
 
             @php
                 $grades = [
-                    ['name' => '825', 'slug' => 'incoloy-825'],
-                    ['name' => '800', 'slug' => 'incoloy-800'],
-                    ['name' => '925', 'slug' => 'incoloy-925'],
-                    ['name' => '800H_800HT', 'slug' => 'incoloy-800H_800HT'],
-                    ['name' => '020', 'slug' => 'incoloy-020'],
+                    ['name' => '825', 'slug' => 'incoloy-825', 'image' => 'assets/images/incoloy/incoloy-825.jpeg'],
+                    ['name' => '800', 'slug' => 'incoloy-800', 'image' => 'assets/images/incoloy/incoloy-800.jpg'],
+                    ['name' => '925', 'slug' => 'incoloy-925', 'image' => 'assets/images/incoloy/incoloy-925.jpg'],
+                    ['name' => '800H_800HT', 'slug' => 'incoloy-800H_800HT', 'image' => 'assets/images/incoloy/incoloy-800H_800HT.jpeg'],
+                    ['name' => '020', 'slug' => 'incoloy-020', 'image' => 'assets/images/incoloy/incoloy-020.jpeg'],
                 ];
             @endphp
 
@@ -45,7 +45,9 @@
                         <a href="{{ $href }}" class="text-decoration-none d-block h-100">
                             <div class="grade-card border rounded shadow-sm p-3 text-center h-100 transition"
                                 style="border-color: #db7227; transition: 0.3s;">
-                                <img src="https://placehold.co/300x180/db7227/fff?text={{ urlencode($grade['name']) }}"
+                                {{-- <img src="https://placehold.co/300x180/db7227/fff?text={{ urlencode($grade['name']) }}"
+                                    alt="{{ $grade['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;"> --}}
+                                     <img src="{{ asset($grade['image']) }}"
                                     alt="{{ $grade['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;">
                                 <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                     style="background-color: #174268; color: #fff; display: inline-block;">

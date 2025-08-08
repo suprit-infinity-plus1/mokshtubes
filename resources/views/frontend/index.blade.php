@@ -508,11 +508,11 @@
                         <h4 class="footer-title">PIPES & TUBES </h4>
                         <ul class="footer-list">
                             <li><a href="{{ route('products.pipes-tubes.welded-pipes') }}">WELDED PIPES (ERW & EFW)</a></li>
-                            <li><a href="#">SEAMLESS PIPES</a></li>
-                            <li><a href="#">CAPILLARIESS</a></li>
-                            <li><a href="#">HOLLOW SECTION PIPE (SQUARE, RECTANGULAR & OVAL)</a></li>
-                            <li><a href="#">U-BENT TUBES</a></li>
-                            <li><a href="#">BOILER & HEAT EXCHANGER TUBES</a></li>
+                            <li><a href="{{route('products.pipes-tubes.seamless-pipes')}}">SEAMLESS PIPES</a></li>
+                            <li><a href="{{ route('products.pipes-tubes.capillaries') }}">CAPILLARIESS</a></li>
+                            <li><a href="{{ route('products.pipes-tubes.hollow-section-pipe') }}">HOLLOW SECTION PIPE (SQUARE, RECTANGULAR & OVAL)</a></li>
+                            <li><a href="{{ route('products.pipes-tubes.u-bent-tubes') }}">U-BENT TUBES</a></li>
+                            <li><a href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes') }}">BOILER & HEAT EXCHANGER TUBES</a></li>
                         </ul>
                     </div>
                 </div>

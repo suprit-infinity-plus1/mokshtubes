@@ -28,7 +28,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?" alt="Hastelloy C276" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/hastelloy/hastelloy-c2000.jpg" alt="Hastelloy C2000"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -36,8 +37,10 @@
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted manufacturer,
-                            exporter, importer, and stockist of high-performance <a href="{{ route('materials.hastelloy') }}">HASTELLOY C-2000</a> (UNS N06200) products. Our
-                            offering includes <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Fittings, Flanges, Fasteners, Plates, Sheets, Bars, Coils,
+                            exporter, importer, and stockist of high-performance <a
+                                href="{{ route('materials.hastelloy') }}">HASTELLOY C-2000</a> (UNS N06200) products. Our
+                            offering includes <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Fittings,
+                            Flanges, Fasteners, Plates, Sheets, Bars, Coils,
                             Wires, Welding Rods, and fully customized components. Designed to deliver exceptional resistance
                             in the broadest range of corrosive environments, <strong class="text-black">HASTELLOY
                                 C2000</strong> combines outstanding oxidizing and reducing media performance.
@@ -68,49 +71,49 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Element</th>
                                     <th>Composition (%)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Nickel</td>
                                     <td>59 (Balance)</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Chromium</td>
                                     <td>22.0 – 24.0</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Molybdenum</td>
                                     <td>15.0 – 17.0</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Iron</td>
                                     <td>3.0 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Cobalt</td>
                                     <td>2.5 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Manganese</td>
                                     <td>0.50 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Silicon</td>
                                     <td>0.08 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Carbon</td>
                                     <td>0.01 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Phosphorus</td>
                                     <td>0.02 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Sulfur</td>
                                     <td>0.02 max</td>
                                 </tr>
@@ -136,29 +139,29 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Value</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Density</td>
                                     <td>8.50 g/cm³</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Melting Point</td>
                                     <td>1350–1390°C (2462–2534°F)</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tensile Strength</td>
                                     <td>1,00,000 psi / 690 MPa</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Yield Strength (0.2% Offset)</td>
                                     <td>43,500 psi / 300 MPa</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Elongation</td>
                                     <td>45 %</td>
                                 </tr>
@@ -175,34 +178,34 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Metric</th>
                                     <th>Imperial</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tensile Strength (@ 538°C / 1000°F)</td>
                                     <td>690 MPa</td>
                                     <td>100,000 psi</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Yield Strength (0.2% offset @ 427°C / 801°F)</td>
                                     <td>300 MPa</td>
                                     <td>43,500 psi</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Elastic Modulus (RT)</td>
                                     <td>214 GPa</td>
                                     <td>31,000 ksi</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Elongation at Break (@ 204°C / 399°F)</td>
                                     <td>45%</td>
                                     <td>45%</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Hardness, Rockwell B (plate)</td>
                                     <td>90</td>
                                     <td>90</td>
@@ -277,7 +280,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">

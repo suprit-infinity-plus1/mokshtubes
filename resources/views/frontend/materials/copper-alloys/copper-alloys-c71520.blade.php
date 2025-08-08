@@ -28,7 +28,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?"alt="Copper Alloys C71520" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/copper-alloys/copper-alloys-c71520.jpg"alt="Copper Alloys C71520"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -45,8 +46,8 @@
 
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black"><a href="{{ route('materials.copper-Alloys') }}">Copper Alloys
-                                    C71520</a></strong>, is a controlled composition<strong
-                                class="text-black"> Copper-Nickel Alloy</strong> with
+                                    C71520</a></strong>, is a controlled composition<strong class="text-black">
+                                Copper-Nickel Alloy</strong> with
                             approximately
                             70% copper and 30% nickel, with additions of iron and manganese for increased resistance to
                             seawater flow, cavitation, and stress corrosion cracking. It is specially formulated for
@@ -70,45 +71,45 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Element</th>
                                     <th>Composition (%)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Copper</td>
                                     <td>Balance (approx. 65 – 69)</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Nickel</td>
                                     <td>29.0 – 33.0</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Iron</td>
                                     <td>0.4 – 1.2</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Manganese</td>
                                     <td>0.5 – 1.0</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Zinc</td>
                                     <td>≤ 1.0</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Lead</td>
                                     <td>≤ 0.02</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Others</td>
                                     <td>≤ 0.50 (Total)</td>
                                 </tr>
-                                {{-- <tr>
+                                {{-- <tr class="t-row">
                                     <td>Others</td>
                                     <td>0.50 max (total)</td>
                                 </tr> --}}
-                                {{--  <tr>
+                                {{--  <tr class="t-row">
                                     <td>Nitrogen</td>
                                     <td>0.20 – 0.30</td>
                                     <td>0.20 – 0.30</td>
@@ -136,44 +137,44 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Metric</th>
                                     <th>Imperial</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Density</td>
                                     <td>8.94 g/cm³</td>
                                     <td>0.323 lb/in³</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Melting Point</td>
                                     <td>1240 – 1310 °C</td>
                                     <td>2260 – 2390 °F</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Thermal Conductivity</td>
                                     <td>33 W/m·K</td>
                                     <td>19 Btu/ft·hr·°F</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Electrical Conductivity</td>
                                     <td>-</td>
                                     <td>6 – 10% IACS</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Electrical Resistivity</td>
                                     <td>0.520 µΩ·m</td>
                                     <td>312 ohm·cmil/ft</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Specific Heat</td>
                                     <td>0.38 J/g·K</td>
                                     <td>0.09 Btu/lb·°F</td>
                                 </tr>
-                                {{-- <tr>
+                                {{-- <tr class="t-row">
                                     <td>Specific Heat Capacity</td>
                                     <td>460 J/kg·K</td>
                                     <td>460 J/kg·K</td>
@@ -191,7 +192,7 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Annealed / Soft (M20/O25)</th>
                                     <th>Half-Hard (H01)</th>
@@ -201,14 +202,14 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Composition (wt%)</td>
                                     <td>Cu ≥ 65.0, Ni 29–33, Fe 0.4–1.0, Mn ≤ 1.0, Zn ≤ 0.5, Pb/P/S ≤ 0.02, C ≤ 0.05 </td>
                                     <td>Same</td>
                                     <td>Same</td>
                                     <td>Same</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tensile Strength (ksi / MPa)</td>
                                     <td>≥ 50 ksi / ≥ 345 MPa (flat M10: 45 ksi / 310 MPa)</td>
                                     <td>55 ksi / 380 MPa</td>
@@ -216,7 +217,7 @@
                                     <td>65 ksi / 450 MPa</td>
                                     <td>45–50 ksi / 310–345 MPa</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Yield Strength (0.2%) (ksi / MPa)</td>
                                     <td>≥ 18 ksi / ≥ 125 MPa (M20: ≥ 18 ksi / 125 MPa)</td>
                                     <td>25 ksi / 170 MPa</td>
@@ -224,7 +225,7 @@
                                     <td>25 ksi / 170 MPa</td>
                                     <td>≥ 20 ksi / 105 MPa</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Elongation (%)</td>
                                     <td>≥ 30–35 % (flat: ≥ 30 %)</td>
                                     <td>≥ 10 %</td>
@@ -232,7 +233,7 @@
                                     <td>≥ 10 %</td>
                                     <td>≥ 30 %</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Brinell Hardness (HB) </td>
                                     <td>80 HB (soft)</td>
                                     <td>80–100 HB</td>
@@ -240,7 +241,7 @@
                                     <td>110–130 HB</td>
                                     <td>80 HB – typical</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Rockwell Hardness (B)</td>
                                     <td>≤ 88 B</td>
                                     <td>—</td>
@@ -316,7 +317,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">
@@ -497,7 +499,7 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    contact <strong >Moksh Tubes & Fittings LLP</strong> — a trusted global source for
+                    contact <strong>Moksh Tubes & Fittings LLP</strong> — a trusted global source for
                     corrosion-resistant alloys.
                     <!-- Call button -->
                     <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>

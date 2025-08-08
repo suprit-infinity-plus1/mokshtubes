@@ -28,7 +28,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?" alt="Titanium Grade 12" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/titanium/titanium-grade2.jpg" alt="Titanium Grade 12"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -38,14 +39,16 @@
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted manufacturer,
                             exporter, importer, stockist, and supplier of a wide array of<strong class="text-black">
                                 Titanium Grade 12 products.</strong> Our
-                            offerings include <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Sheets & Plates, Pipe Fittings, Flanges, Wires, Bars, Coils,
+                            offerings include <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Sheets &
+                            Plates, Pipe Fittings, Flanges, Wires, Bars, Coils,
                             Welding Rods, and Custom Components designed for extreme performance and reliability.
 
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">Titanium Grade 12 </strong>is a trusted manufacturer, exporter,
-                            importer, stockist, and supplier of a wide array of Titanium Grade 12 <a href="{{ route('products') }}">products</a>. Our offerings
+                            importer, stockist, and supplier of a wide array of Titanium Grade 12 <a
+                                href="{{ route('products') }}">products</a>. Our offerings
                             include Pipes & Tubes, Sheets & Plates, Pipe Fittings, Flanges, Wires, Bars, Coils, Welding
                             Rods, and Custom Components designed for extreme performance and reliability.
                         </p>
@@ -66,41 +69,41 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Element</th>
                                     <th>Composition (%)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Titanium</td>
                                     <td>Balance</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Nickel</td>
                                     <td>0.6 – 0.9</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Molybdenum</td>
                                     <td>0.2 – 0.4</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Iron</td>
                                     <td>≤ 0.30</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Carbon</td>
                                     <td>≤ 0.08</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Nitrogen</td>
                                     <td>≤ 0.03</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Oxygen</td>
                                     <td>≤ 0.25</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Hydrogen</td>
                                     <td>≤ 0.015</td>
                                 </tr>
@@ -126,34 +129,34 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Imperial</th>
                                     <th>Metric</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Density</td>
                                     <td>0.163 lb/in³</td>
                                     <td>4.51 g/cm³</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Melting Point</td>
                                     <td>1620–1660 °F</td>
                                     <td>882–904 °C</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Elastic Modulus</td>
                                     <td>15.0 x 10⁶ psi</td>
                                     <td>103 GPa</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Thermal Conductivity</td>
                                     <td>9.8 Btu/hr·ft·°F</td>
                                     <td>16.9 W/m·K</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Electrical Resistivity</td>
                                     <td>27.0 μΩ·cm</td>
                                     <td>1.34 μΩ·m</td>
@@ -171,7 +174,7 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Tubing (Annealed)</th>
                                     <th>Tubing (Cold Drawn)</th>
@@ -181,7 +184,7 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tensile Strength (ksi)</td>
                                     <td>80</td>
                                     <td>100</td>
@@ -189,7 +192,7 @@
                                     <td>82</td>
                                     <td>84</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tensile Strength (MPa)</td>
                                     <td>552</td>
                                     <td>690</td>
@@ -197,7 +200,7 @@
                                     <td>565</td>
                                     <td>579</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Yield Strength (0.2%) (ksi)</td>
                                     <td>60</td>
                                     <td>85</td>
@@ -205,7 +208,7 @@
                                     <td>63</td>
                                     <td>64</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Yield Strength (MPa)</td>
                                     <td>414</td>
                                     <td>586</td>
@@ -213,7 +216,7 @@
                                     <td>434</td>
                                     <td>441</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Elongation (%)</td>
                                     <td>25</td>
                                     <td>15</td>
@@ -292,7 +295,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">

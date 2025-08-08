@@ -252,7 +252,9 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Diameter, D</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" placeholder="e.g. 60" />
+                                                <input type="number" class="form-control me-2" id="hollowDiameter"
+                                                    value="21.3" placeholder="e.g. 21.3"
+                                                    oninput="calculateHollowSectionWeight()" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -263,7 +265,9 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Thickness, t</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" placeholder="e.g. 4" />
+                                                <input type="number" class="form-control me-2" id="hollowThickness"
+                                                    value="2" placeholder="e.g. 2"
+                                                    oninput="calculateHollowSectionWeight()" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -274,9 +278,10 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2"
-                                                    placeholder="e.g. 2500" />
-                                                <span class="text-nowrap">mm</span>
+                                                <input type="number" class="form-control me-2" id="hollowLength"
+                                                    value="1" placeholder="e.g. 1"
+                                                    oninput="calculateHollowSectionWeight()" />
+                                                <span class="text-nowrap">m</span>
                                             </div>
                                         </div>
                                     </div>
@@ -285,8 +290,10 @@
                                 <!-- Result -->
                                 <div class="mt-2">
                                     <h6><strong>Result</strong></h6>
-                                    <p>Weight per meter: <strong class="text-primary">9.8 kg/m</strong></p>
-                                    <p>Total weight: <strong class="text-primary">9.8 kg</strong></p>
+                                    <p>Weight per meter: <strong id="hollowWeightPerMeter" class="text-primary">0.95
+                                            kg/m</strong></p>
+                                    <p>Total weight: <strong id="hollowTotalWeight" class="text-primary">0.95 kg</strong>
+                                    </p>
                                 </div>
                             </div>
 
@@ -298,9 +305,8 @@
                         </div>
                     </div>
 
-                    {{-- Hollow structural sections - square --}}
                     <div id="tab4" class="tab-content-item d-none">
-                        <h5 class="mb-3">Hollow structural sections - square</h5>
+                        <h5 class="mb-3">Hollow Structural Sections - Square</h5>
 
                         <div class="row">
                             <!-- Left: Input Fields -->
@@ -313,7 +319,9 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Side, A</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" placeholder="e.g. 50" />
+                                                <input type="number" class="form-control me-2" id="squareSide"
+                                                    value="15" placeholder="e.g. 15"
+                                                    oninput="calculateSquareHollowSectionWeight()" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -324,7 +332,9 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Thickness, t</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" placeholder="e.g. 3" />
+                                                <input type="number" class="form-control me-2" id="squareThickness"
+                                                    value="1.5" placeholder="e.g. 1.5"
+                                                    oninput="calculateSquareHollowSectionWeight()" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -335,9 +345,10 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2"
-                                                    placeholder="e.g. 2000" />
-                                                <span class="text-nowrap">mm</span>
+                                                <input type="number" class="form-control me-2" id="squareLength"
+                                                    value="1" placeholder="e.g. 1"
+                                                    oninput="calculateSquareHollowSectionWeight()" />
+                                                <span class="text-nowrap">m</span>
                                             </div>
                                         </div>
                                     </div>
@@ -346,8 +357,10 @@
                                 <!-- Result -->
                                 <div class="mt-2">
                                     <h6><strong>Result</strong></h6>
-                                    <p>Weight per meter: <strong class="text-primary">10.2 kg/m</strong></p>
-                                    <p>Total weight: <strong class="text-primary">10.2 kg</strong></p>
+                                    <p>Weight per meter: <strong id="squareWeightPerMeter" class="text-primary">0.61
+                                            kg/m</strong></p>
+                                    <p>Total weight: <strong id="squareTotalWeight" class="text-primary">0.61 kg</strong>
+                                    </p>
                                 </div>
                             </div>
 
@@ -374,7 +387,9 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Side, A</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" placeholder="e.g. 100" />
+                                                <input type="number" class="form-control me-2" id="rectangularSideA"
+                                                    value="30" placeholder="e.g. 30"
+                                                    oninput="calculateRectangularHollowSectionWeight()" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -385,7 +400,9 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Side, B</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" placeholder="e.g. 50" />
+                                                <input type="number" class="form-control me-2" id="rectangularSideB"
+                                                    value="20" placeholder="e.g. 20"
+                                                    oninput="calculateRectangularHollowSectionWeight()" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -396,7 +413,9 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Thickness, t</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" placeholder="e.g. 3" />
+                                                <input type="number" class="form-control me-2" id="rectangularThickness"
+                                                    value="1.5" placeholder="e.g. 1.5"
+                                                    oninput="calculateRectangularHollowSectionWeight()" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -407,9 +426,10 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2"
-                                                    placeholder="e.g. 2000" />
-                                                <span class="text-nowrap">mm</span>
+                                                <input type="number" class="form-control me-2" id="rectangularLength"
+                                                    value="1" placeholder="e.g. 1"
+                                                    oninput="calculateRectangularHollowSectionWeight()" />
+                                                <span class="text-nowrap">m</span>
                                             </div>
                                         </div>
                                     </div>
@@ -418,8 +438,10 @@
                                 <!-- Result -->
                                 <div class="mt-2">
                                     <h6><strong>Result</strong></h6>
-                                    <p>Weight per meter: <strong class="text-primary">11.5 kg/m</strong></p>
-                                    <p>Total weight: <strong class="text-primary">11.5 kg</strong></p>
+                                    <p>Weight per meter: <strong id="rectangularWeightPerMeter" class="text-primary">1.08
+                                            kg/m</strong></p>
+                                    <p>Total weight: <strong id="rectangularTotalWeight" class="text-primary">1.08
+                                            kg</strong></p>
                                 </div>
                             </div>
 
@@ -430,6 +452,7 @@
                             </div>
                         </div>
                     </div>
+
 
                     {{-- Round Steel Bars --}}
                     <div id="tab6" class="tab-content-item d-none">
@@ -1301,6 +1324,85 @@
 
             document.getElementById('pipeWeightPerMeter').textContent = weightPerMeter.toFixed(2) + " kg/m";
             document.getElementById('pipeTotalWeight').textContent = totalWeight.toFixed(2) + " kg";
+        }
+
+        // Hollow structural sections - circular
+        function calculateHollowSectionWeight() {
+            const D = parseFloat(document.getElementById('hollowDiameter').value) || 0; // Outer diameter (mm)
+            const t = parseFloat(document.getElementById('hollowThickness').value) || 0; // Thickness (mm)
+            const L_meters = parseFloat(document.getElementById('hollowLength').value) || 0; // Length in meters
+
+            const density = 7.85; // g/cm³ (for steel)
+
+            if (D <= 0 || t <= 0 || L_meters <= 0 || D <= 2 * t) {
+                document.getElementById('hollowWeightPerMeter').textContent = "NaN";
+                document.getElementById('hollowTotalWeight').textContent = "NaN";
+                return;
+            }
+
+            const d = D - 2 * t; // Inner diameter (mm)
+            const area = (Math.PI / 4) * (Math.pow(D, 2) - Math.pow(d, 2)); // mm²
+
+            // Convert mm² to cm² and multiply by density to get g/mm, then convert to kg/mm
+            const weightPerMm = area * density * 1e-6; // kg/mm
+            const weightPerMeter = weightPerMm * 1000; // kg/m
+            const totalWeight = weightPerMeter * L_meters; // kg
+
+            document.getElementById('hollowWeightPerMeter').textContent = weightPerMeter.toFixed(2) + " kg/m";
+            document.getElementById('hollowTotalWeight').textContent = totalWeight.toFixed(2) + " kg";
+        }
+
+        // ===========
+        function calculateSquareHollowSectionWeight() {
+            const A = parseFloat(document.getElementById('squareSide').value) || 0;
+            const t = parseFloat(document.getElementById('squareThickness').value) || 0;
+            const L = parseFloat(document.getElementById('squareLength').value) || 0;
+
+            if (A <= 0 || t <= 0 || L <= 0 || t >= A / 2) {
+                document.getElementById('squareWeightPerMeter').textContent = '0.00 kg/m';
+                document.getElementById('squareTotalWeight').textContent = '0.00 kg';
+                return;
+            }
+
+            const outerArea = A * A;
+            const innerArea = (A - 2 * t) * (A - 2 * t);
+            const area = outerArea - innerArea; // in mm²
+            const density = 7.85e-6; // steel density in kg/mm³
+            const weightPerMeter = area * density * 1000; // per meter
+            const totalWeight = weightPerMeter * L;
+
+            document.getElementById('squareWeightPerMeter').textContent = `${weightPerMeter.toFixed(2)} kg/m`;
+            document.getElementById('squareTotalWeight').textContent = `${totalWeight.toFixed(2)} kg`;
+        }
+
+        // ===========
+
+
+        // Hollow Structural Sections – Rectangular
+        function calculateRectangularHollowSectionWeight() {
+            const A = parseFloat(document.getElementById('rectangularSideA').value) || 0; // Side A (mm)
+            const B = parseFloat(document.getElementById('rectangularSideB').value) || 0; // Side B (mm)
+            const t = parseFloat(document.getElementById('rectangularThickness').value) || 0; // Thickness (mm)
+            const L_meters = parseFloat(document.getElementById('rectangularLength').value) || 0; // Length (m)
+
+            const density = 7.85; // g/cm³ (for steel)
+
+            if (A <= 0 || B <= 0 || t <= 0 || L_meters <= 0 || A <= 2 * t || B <= 2 * t) {
+                document.getElementById('rectangularWeightPerMeter').textContent = "NaN";
+                document.getElementById('rectangularTotalWeight').textContent = "NaN";
+                return;
+            }
+
+            // Area of hollow rectangular section
+            const area = (2 * (A * t)) + (2 * (B * t)) - (4 * (t * t)); // mm²
+
+            // Convert mm² to cm² and multiply by density to get g/mm, then convert to kg/mm
+            const weightPerMm = area * density * 1e-6; // kg/mm
+            const weightPerMeter = weightPerMm * 1000; // kg/m
+            const totalWeight = weightPerMeter * L_meters; // kg
+
+            document.getElementById('rectangularWeightPerMeter').textContent = weightPerMeter.toFixed(2) + " kg/m";
+            document.getElementById('rectangularTotalWeight').textContent = totalWeight.toFixed(2) + " kg";
         }
     </script>
 @endsection

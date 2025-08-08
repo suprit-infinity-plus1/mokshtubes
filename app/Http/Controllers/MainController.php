@@ -53,7 +53,7 @@ class MainController extends Controller
             'Aluminium Alloys',
             'Copper Alloys',
             'Hard To Find And Special Alloys',
-            // 'Haynes Superalloys',
+            'Haynes Superalloys',
         ];
 
         return view(
@@ -264,6 +264,29 @@ class MainController extends Controller
         return view('frontend.materials.copper-alloys.index', compact('grades'));
     }
 
+    public function zirconium()
+    {
+        $grades = [
+                    ['name' => 'Zirconium 702','slug' => 'zirconium-702'],
+                    ['name' => 'Zirconium 704','slug' => 'zirconium-704'],
+                    ['name' => 'Zirconium 705','slug' => 'zirconium-705'],
+                ];
+
+        return view('frontend.materials.zirconium.index', compact('grades'));
+    }
+
+    public function haynesSuperalloys()
+    {
+                 $grades = [
+                    ['name' => 'haynes-superalloys 160','slug' => 'haynes-superalloys-160'],
+                    ['name' => 'haynes-superalloys 188','slug' => 'haynes-superalloys-188'],
+                    ['name' => 'haynes-superalloys 230','slug' => 'haynes-superalloys-230'],
+                    ['name' => 'haynes-superalloys 242','slug' => 'haynes-superalloys-242'],
+                ];
+
+        return view('frontend.materials.haynes-superalloys.index', compact('grades'));
+    }
+
 
 
     public function showMaterialGrade($family, $grade)
@@ -322,5 +345,25 @@ class MainController extends Controller
       public function seamlessPipes()
     {
         return view('frontend.products.pipes-tubes.seamless-pipes');
+    }
+
+        public function capillaries()
+    {
+        return view('frontend.products.pipes-tubes.capillaries');
+    }
+
+         public function hollowSectionPipe()
+    {
+        return view('frontend.products.pipes-tubes.hollow-section-pipe');
+    }
+
+          public function uBentTubes()
+    {
+        return view('frontend.products.pipes-tubes.u-bent-tubes');
+    }
+
+           public function boilerHeatExchangerTubes()
+    {
+        return view('frontend.products.pipes-tubes.boiler-heat-exchanger-tubes');
     }
 }

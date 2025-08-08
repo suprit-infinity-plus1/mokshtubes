@@ -28,7 +28,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?" alt="Tantalum" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-tantalum.jpeg?"
+                        alt="Tantalum" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -38,13 +39,16 @@
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a reliable manufacturer,
                             supplier, exporter, importer, and stockist of premium-grade<strong class="text-black"> Tantalum
                                 products</strong> including Tantalum
-                            <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Sheets & Plates, Rods & Bars, Wire, Foil, Crucibles, Fasteners, and Custom
+                            <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Sheets & Plates, Rods & Bars,
+                            Wire, Foil, Crucibles, Fasteners, and Custom
                             Fabricated Products for critical applications.
                         </p>
                         <p> <strong class="text-black">Tantalum</strong> is a rare, ductile, and highly corrosion-resistant
                             metal with excellent biocompatibility and high melting point. It is highly resistant to most
                             acids (including aqua regia), making it a prime material for demanding chemical processing and
-                            high-temperature applications.<a href="{{ route('materials.hard-To-Find-And-Special-Alloys') }}"> Tantalum</a> maintains its mechanical strength at elevated
+                            high-temperature applications.<a
+                                href="{{ route('materials.hard-To-Find-And-Special-Alloys') }}"> Tantalum</a> maintains its
+                            mechanical strength at elevated
                             temperatures and offers excellent workability in various forms.</p>
                     </div>
                 </div>
@@ -63,49 +67,49 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Element</th>
                                     <th>Composition (%)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tantalum</td>
                                     <td>99.95 min</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Niobium</td>
                                     <td>0.01 – 0.1 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Iron</td>
                                     <td>0.01 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Titanium</td>
                                     <td>0.01 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tungsten</td>
                                     <td>0.05 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Silicon</td>
                                     <td>0.005 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Oxygen</td>
                                     <td>0.015 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Nitrogen</td>
                                     <td>0.01 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Carbon</td>
                                     <td>0.01 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Hydrogen</td>
                                     <td>0.001 max</td>
                                 </tr>
@@ -131,44 +135,44 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Imperial</th>
                                     <th>Metric</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Density</td>
                                     <td>0.311 lb/in³</td>
                                     <td>16.69 g/cm³</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Melting Range</td>
                                     <td>5425 °F</td>
                                     <td>2996 °C</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Modulus of Elasticity – Tension</td>
                                     <td>15.0 × 10³ ksi</td>
                                     <td>103 GPa</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Modulus of Elasticity – Compression</td>
                                     <td>15.0 × 10³ ksi</td>
                                     <td>103 GPa</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Modulus of Elasticity – Torsion</td>
                                     <td>6.0 × 10³ ksi</td>
                                     <td>41 GPa</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Poisson’s Ratio</td>
                                     <td>0.34</td>
                                     <td>—</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Curie Temperature</td>
                                     <td>Not applicable</td>
                                     <td>Not applicable</td>
@@ -186,7 +190,7 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Annealed</th>
                                     <th>Hot-Finished</th>
@@ -196,7 +200,7 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tensile Strength (ksi / MPa)</td>
                                     <td>40–60 / 276–414</td>
                                     <td>55–75 / 379–517</td>
@@ -204,7 +208,7 @@
                                     <td>45–65 / 310–448</td>
                                     <td>40–60 / 276–414</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Yield Strength (0.2%) (ksi / MPa)</td>
                                     <td>20–40 / 138–276</td>
                                     <td>35–55 / 241–379</td>
@@ -212,7 +216,7 @@
                                     <td>30–50 / 207–345</td>
                                     <td>25–45 / 172–310</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Elongation (%)</td>
                                     <td>30–50</td>
                                     <td>15–30</td>
@@ -220,7 +224,7 @@
                                     <td>25–40</td>
                                     <td>30–50</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Brinell Hardness (3000 kg)</td>
                                     <td>90–120</td>
                                     <td>110–140</td>
@@ -228,7 +232,7 @@
                                     <td>100–130</td>
                                     <td>90–120</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Rockwell Hardness (B / C)</td>
                                     <td>40–50 B</td>
                                     <td>50–60 B</td>
@@ -303,7 +307,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">

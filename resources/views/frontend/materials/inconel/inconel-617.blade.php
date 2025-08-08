@@ -27,7 +27,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?" alt="Inconel 617" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/inconel/Inconel-617.jpeg" alt="Inconel 617"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -40,7 +41,8 @@
                             products including <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe
                             Fittings, Flanges, Fasteners, Sheets & Plates, Coils,
                             Wires, Round Bars, Flat Bars, Angles, Channels, Welding Rods, Wire Mesh, and other custom and
-                            <a href="{{ route('materials.hard-To-Find-And-Special-Alloys') }}">hard-to-find</a> Alloy 617 components.
+                            <a href="{{ route('materials.hard-To-Find-And-Special-Alloys') }}">hard-to-find</a> Alloy 617
+                            components.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
@@ -69,57 +71,57 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Element</th>
                                     <th>Composition (%)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Nickel</td>
                                     <td>44.5 min</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Chromium</td>
                                     <td>20.0 – 24.0</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Cobalt</td>
                                     <td>10.0 – 15.0</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Molybdenum</td>
                                     <td>8.0 – 10.0</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Carbon</td>
                                     <td>0.05 – 0.15</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Iron</td>
                                     <td>3.0 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Manganese</td>
                                     <td>1.0 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Silicon</td>
                                     <td>1.0 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Sulfur</td>
                                     <td>0.015 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Titanium</td>
                                     <td>0.6 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Copper</td>
                                     <td>0.5 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Boron</td>
                                     <td>0.006 max</td>
                                 </tr>
@@ -145,29 +147,29 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Imperial</th>
                                     <th>Metric</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Density</td>
                                     <td>0.302 lb/in³</td>
                                     <td>8.36 Mg/m³</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Melting Range</td>
                                     <td>2430–2510 °F</td>
                                     <td>1332–1380 °C</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Specific Heat</td>
                                     <td>0.100 Btu/lb·°F</td>
                                     <td>419 J/kg·°C</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Electrical Resistivity</td>
                                     <td>736 ohm·circ mil/ft</td>
                                     <td>1.22 µΩ·m</td>
@@ -185,7 +187,7 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Plate (Hot Rolled)</th>
                                     <th>Bar (Hot Rolled)</th>
@@ -194,35 +196,35 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Yield Strength (ksi / MPa)</td>
                                     <td>46.7 / 322</td>
                                     <td>46.1 / 318</td>
                                     <td>55.6 / 383</td>
                                     <td>50.9 / 351</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tensile Strength (ksi / MPa)</td>
                                     <td>106.5 / 734</td>
                                     <td>111.5 / 769</td>
                                     <td>110.0 / 758</td>
                                     <td>109.5 / 755</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Elongation (%)</td>
                                     <td>62%</td>
                                     <td>56%</td>
                                     <td>56%</td>
                                     <td>58%</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Reduction of Area (%)</td>
                                     <td>56%</td>
                                     <td>50%</td>
                                     <td>-</td>
                                     <td>-</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Hardness (BHN)</td>
                                     <td>172</td>
                                     <td>181</td>
@@ -301,7 +303,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">

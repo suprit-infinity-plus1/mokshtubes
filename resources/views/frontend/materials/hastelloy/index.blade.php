@@ -26,15 +26,15 @@
 
             @php
                 $grades = [
-                    ['name' => 'Hastelloy C276', 'slug' => 'hastelloy-c276'],
-                    ['name' => 'Hastelloy C22', 'slug' => 'hastelloy-c22'],
-                    ['name' => 'Hastelloy C4', 'slug' => 'hastelloy-c4'],
-                    ['name' => 'Hastelloy B2', 'slug' => 'hastelloy-b2'],
-                    ['name' => 'Hastelloy B3', 'slug' => 'hastelloy-b3'],
-                    ['name' => 'Hastelloy C2000', 'slug' => 'hastelloy-c2000'],
-                    ['name' => 'Hastelloy G3', 'slug' => 'hastelloy-g3'],
-                    ['name' => 'Hastelloy G30', 'slug' => 'hastelloy-g30'],
-                    ['name' => 'Hastelloy X', 'slug' => 'hastelloy-x'],
+                    ['name' => 'Hastelloy C276', 'slug' => 'hastelloy-c276', 'image' => 'assets/images/hastelloy/hastelloy-c276.jpeg'],
+                    ['name' => 'Hastelloy C22', 'slug' => 'hastelloy-c22', 'image' => 'assets/images/hastelloy/hastelloy-c22.jpeg'],
+                    ['name' => 'Hastelloy C4', 'slug' => 'hastelloy-c4', 'image' => 'assets/images/hastelloy/hastelloy-C4.jpeg'],
+                    ['name' => 'Hastelloy B2', 'slug' => 'hastelloy-b2', 'image' => 'assets/images/hastelloy/hastelloy-b2.jpeg'],
+                    ['name' => 'Hastelloy B3', 'slug' => 'hastelloy-b3', 'image' => 'assets/images/hastelloy/Hastelloy-B3.jpeg'],
+                    ['name' => 'Hastelloy C2000', 'slug' => 'hastelloy-c2000', 'image' => 'assets/images/hastelloy/hastelloy-c2000.jpg'],
+                    ['name' => 'Hastelloy G3', 'slug' => 'hastelloy-g3', 'image' => 'assets/images/hastelloy/hastelloy-G3.jpg'],
+                    ['name' => 'Hastelloy G30', 'slug' => 'hastelloy-g30', 'image' => 'assets/images/hastelloy/Hastelloy-G30.jpeg'],
+                    ['name' => 'Hastelloy X', 'slug' => 'hastelloy-x', 'image' => 'assets/images/hastelloy/hastelloy-X.jpg'],
                 ];
             @endphp
 
@@ -47,7 +47,9 @@
                         <a href="{{ $href }}" class="text-decoration-none d-block h-100">
                             <div class="grade-card border rounded shadow-sm p-3 text-center h-100 transition"
                                 style="border-color: #db7227; transition: 0.3s;">
-                                <img src="https://placehold.co/300x180/db7227/fff?text={{ urlencode($grade['name']) }}"
+                                {{-- <img src="https://placehold.co/300x180/db7227/fff?text={{ urlencode($grade['name']) }}"
+                                    alt="{{ $grade['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;"> --}}
+                                     <img src="{{ asset($grade['image']) }}"
                                     alt="{{ $grade['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;">
                                 <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                     style="background-color: #174268; color: #fff; display: inline-block;">

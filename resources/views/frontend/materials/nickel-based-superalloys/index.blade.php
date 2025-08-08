@@ -27,9 +27,9 @@
 
             @php
                 $grades = [
-                    ['name' => 'A286_AIS660', 'slug' => 'nickel-based-superalloys-a286-ais660'],
-                    ['name' => '200', 'slug' => 'nickel-based-superalloys-200'],
-                    ['name' => '201', 'slug' => 'nickel-based-superalloys-201'],
+                    ['name' => 'Nickel Based superalloys A286_AIS660', 'slug' => 'nickel-based-superalloys-a286-ais660', 'image' => 'assets/images/nickel-based-superalloys/nickel-based-superalloys-A286_AIS660.jpeg'],
+                    ['name' => 'Nickel Based superalloys 200', 'slug' => 'nickel-based-superalloys-200', 'image' => 'assets/images/nickel-based-superalloys/nickel-based-superalloys-200.jpeg'],
+                    ['name' => 'Nickel Based superalloys 201', 'slug' => 'nickel-based-superalloys-201', 'image' => 'assets/images/nickel-based-superalloys/nickel-based-superalloys-201.jpg'],
                 ];
             @endphp
 
@@ -43,7 +43,9 @@
                         <a href="{{ $href }}" class="text-decoration-none d-block h-100">
                             <div class="grade-card border rounded shadow-sm p-3 text-center h-100 transition"
                                 style="border-color: #db7227; transition: 0.3s;">
-                                <img src="https://placehold.co/300x180/db7227/fff?text={{ urlencode($grade['name']) }}"
+                                {{-- <img src="https://placehold.co/300x180/db7227/fff?text={{ urlencode($grade['name']) }}"
+                                    alt="{{ $grade['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;"> --}}
+                                     <img src="{{ asset($grade['image']) }}"
                                     alt="{{ $grade['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;">
                                 <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                     style="background-color: #174268; color: #fff; display: inline-block;">

@@ -27,14 +27,16 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?" alt="Monel K500" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/incoloy/incoloy-020.jpeg" alt="incoloy-020"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"><a href="{{ route('materials.incoloy') }}">INCOLOY 020</a></strong> is a corrosion-resistant nickel-iron-chromium
+                            <strong class="text-black"><a href="{{ route('materials.incoloy') }}">INCOLOY 020</a></strong>
+                            is a corrosion-resistant nickel-iron-chromium
                             alloy designed specifically to handle sulfuric acid and other aggressive chemical environments.
                             With the addition of copper and molybdenum, this alloy offers exceptional resistance to pitting,
                             crevice corrosion, and chloride-induced stress corrosion cracking.
@@ -43,7 +45,8 @@
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">MOKSH TUBES & FITTINGS LLP</strong class="text-black"> is a trusted
                             manufacturer, exporter, supplier, importer, and stockist of INCOLOY 020 in multiple forms
-                            including <a href="{{ route('products.pipes-tubes') }}">pipes & tubes</a>, fittings, flanges, fasteners, sheets, plates, bars, rods, coils, wire
+                            including <a href="{{ route('products.pipes-tubes') }}">pipes & tubes</a>, fittings, flanges,
+                            fasteners, sheets, plates, bars, rods, coils, wire
                             mesh, and custom-fabricated products.
                         </p>
                     </div>
@@ -63,53 +66,53 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Element</th>
                                     <th>Composition (%)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Nickel</td>
                                     <td>32.0–38.0</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Chromium</td>
                                     <td>19.0–21.0</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Iron</td>
                                     <td>Balance</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Molybdenum</td>
                                     <td>2.0–3.0</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Copper</td>
                                     <td>3.0–4.0</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Manganese</td>
                                     <td>2.0</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Silicon</td>
                                     <td>1.0</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Carbon</td>
                                     <td>0.02</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Sulfur</td>
                                     <td>0.005</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Phosphorus</td>
                                     <td>0.02</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Niobium + Tantalum</td>
                                     <td>1.0</td>
                                 </tr>
@@ -135,44 +138,44 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Imperial</th>
                                     <th>Metric</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Density</td>
                                     <td>0.292 lb/in³</td>
                                     <td>8.08 g/cm³</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Shear Modulus</td>
                                     <td>11 × 10³ ksi</td>
                                     <td>76 GPa</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Young’s Modulus</td>
                                     <td>28 × 10³ ksi</td>
                                     <td>193 GPa</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Specific Heat</td>
                                     <td>0.12 Btu/lb•°F</td>
                                     <td>500 J/kg•°C</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Electrical Resistivity</td>
                                     <td>651 ohm·circ mil/ft</td>
                                     <td>1.08 µΩ·m</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Thermal Conductivity</td>
                                     <td>85 Btu·in/ft²·h·°F</td>
                                     <td>12.3 W/m·°C</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Coefficient of Thermal Expansion (77–212°F)</td>
                                     <td>8.2 × 10⁻⁶ in/in·°F</td>
                                     <td>14.7 µm/m·°C (25–100°C)</td>
@@ -190,7 +193,7 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Cold Reduction (%)</th>
                                     <th>0%</th>
                                     <th>20%</th>
@@ -201,7 +204,7 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Yield Strength (ksi)</td>
                                     <td>44.4</td>
                                     <td>111.0</td>
@@ -210,7 +213,7 @@
                                     <td>139.5</td>
                                     <td>139.9</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Yield Strength (MPa)</td>
                                     <td>306</td>
                                     <td>765</td>
@@ -219,7 +222,7 @@
                                     <td>962</td>
                                     <td>965</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tensile Strength (ksi)</td>
                                     <td>95.8</td>
                                     <td>119.8</td>
@@ -228,7 +231,7 @@
                                     <td>147.5</td>
                                     <td>149.3</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tensile Strength (MPa)</td>
                                     <td>661</td>
                                     <td>826</td>
@@ -237,7 +240,7 @@
                                     <td>1017</td>
                                     <td>1029</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Elongation (%)</td>
                                     <td>38</td>
                                     <td>13</td>
@@ -246,7 +249,7 @@
                                     <td>4</td>
                                     <td>5</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Hardness (Rockwell)</td>
                                     <td>B83</td>
                                     <td>C23</td>
@@ -325,7 +328,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">
@@ -552,7 +556,8 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    <strong>Moksh Tubes & Fittings LLP</strong>Your trusted partner for INCOLOY 020 and high-performance alloy solutions.
+                    <strong>Moksh Tubes & Fittings LLP</strong>Your trusted partner for INCOLOY 020 and high-performance
+                    alloy solutions.
                 </p>
                 <!-- Call button -->
                 <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>

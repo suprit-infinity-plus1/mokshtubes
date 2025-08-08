@@ -28,7 +28,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?" alt="Titanium Grade 23" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/titanium/titanium-23.jpg" alt="Titanium Grade 23"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -38,7 +39,8 @@
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> we specialize in the
                             manufacturing, stocking, exporting, importing, and supplying of premium<strong
                                 class="text-black"> <a href="{{ route('materials.titanium') }}">Titanium Grade 23</a>
-                                (Ti-6Al-4V ELI) products.</strong> Our offerings include <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings,
+                                (Ti-6Al-4V ELI) products.</strong> Our offerings include <a
+                                href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings,
                             Flanges,
                             Fasteners, Sheets & Plates, Coils, Wires, Round Bars, Flat Bars, Angles, Channels, Welding Rods,
                             Wire Mesh, and other custom-engineered components that meet the strictest performance demands.
@@ -50,7 +52,8 @@
                             Interstitial), is a high-purity version of the popular Grade 5 alloy. With enhanced
                             biocompatibility, fracture toughness, and superior ductility, it’s particularly well-suited for
                             critical medical, aerospace, and high-performance industrial applications. The alloy features a
-                            composition of 6% <a href="{{ route('materials.aluminium-Alloys') }}">Aluminum</a>, 4% Vanadium, and reduced levels of oxygen and other impurities,
+                            composition of 6% <a href="{{ route('materials.aluminium-Alloys') }}">Aluminum</a>, 4% Vanadium,
+                            and reduced levels of oxygen and other impurities,
                             offering exceptional strength-to-weight ratio, excellent fatigue resistance, and outstanding
                             corrosion resistance, especially in chloride-rich environments.
                         </p>
@@ -71,49 +74,49 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Element</th>
                                     <th>Composition (%)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Titanium</td>
                                     <td>Balance</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Aluminum</td>
                                     <td>5.5 – 6.5</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Vanadium</td>
                                     <td>3.5 – 4.5</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Iron</td>
                                     <td>0.25 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Oxygen</td>
                                     <td>0.13 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Carbon</td>
                                     <td>0.08 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Nitrogen</td>
                                     <td>0.05 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Hydrogen</td>
                                     <td>0.0125 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Yttrium</td>
                                     <td>0.005 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Other elements, total</td>
                                     <td>0.40 max</td>
                                 </tr>
@@ -139,34 +142,34 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Imperial</th>
                                     <th>Metric</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Density</td>
                                     <td>0.160 lb/in³</td>
                                     <td>4.43 g/cm³</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Melting Point</td>
                                     <td>2887 °F</td>
                                     <td>1586 °C</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Elastic Modulus</td>
                                     <td>16.5 x 10⁶ psi</td>
                                     <td>114 GPa</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Thermal Conductivity</td>
                                     <td>4.5 BTU/hr·ft·°F</td>
                                     <td>6.5 W/m·K</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Electrical Resistivity</td>
                                     <td>6.13 x 10⁻⁶ Ω·in</td>
                                     <td>15.6 µΩ·cm</td>
@@ -184,7 +187,7 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Tubing (Annealed)</th>
                                     <th>Tubing (Cold Drawn)</th>
@@ -194,7 +197,7 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tensile Strength (ksi)</td>
                                     <td>125</td>
                                     <td>140</td>
@@ -202,7 +205,7 @@
                                     <td>128</td>
                                     <td>132</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tensile Strength (MPa)</td>
                                     <td>862</td>
                                     <td>965</td>
@@ -210,7 +213,7 @@
                                     <td>883</td>
                                     <td>910</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Yield Strength (0.2%) (ksi)</td>
                                     <td>115</td>
                                     <td>125</td>
@@ -218,7 +221,7 @@
                                     <td>118</td>
                                     <td>121</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Yield Strength (MPa)</td>
                                     <td>793</td>
                                     <td>862</td>
@@ -226,7 +229,7 @@
                                     <td>814</td>
                                     <td>834</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Elongation (%)</td>
                                     <td>15</td>
                                     <td>10</td>
@@ -304,7 +307,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">

@@ -28,7 +28,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?" alt="EN 1055" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/engineering-steels/engineering-steels-1055.jpg" alt="EN-1055"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -44,7 +45,8 @@
                             <strong class="text-black">EN 1055</strong class="text-black">, also known as C1055 or SAE 1055,
                             is a medium carbon steel grade characterized by higher carbon content than typical medium carbon
                             steels. It offers higher hardness and strength, suitable for applications requiring good wear
-                            resistance and toughness.<a href="{{ route('materials.engineering-Steels') }}"> EN 1055 steel</a> is commonly used in structural and mechanical components
+                            resistance and toughness.<a href="{{ route('materials.engineering-Steels') }}"> EN 1055
+                                steel</a> is commonly used in structural and mechanical components
                             that require strength and moderate ductility.
                         </p>
                     </div>
@@ -64,27 +66,27 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
-                                    <th>Element</th>
-                                    <th>Composition (%)</th>
+
+                                <th>Element</th>
+                                <th>Composition (%)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
-                                    <td>Carbon</td>
-                                    <td>0.52 – 0.60</td>
+
+                                <td>Carbon</td>
+                                <td>0.52 – 0.60</td>
                                 </tr>
-                                <tr>
-                                    <td>Manganese</td>
-                                    <td>0.60 – 0.90</td>
+
+                                <td>Manganese</td>
+                                <td>0.60 – 0.90</td>
                                 </tr>
-                                <tr>
-                                    <td>Phosphorus </td>
-                                    <td>≤ 0.040</td>
+
+                                <td>Phosphorus </td>
+                                <td>≤ 0.040</td>
                                 </tr>
-                                <tr>
-                                    <td>Sulfur </td>
-                                    <td>≤ 0.050</td>
+
+                                <td>Sulfur </td>
+                                <td>≤ 0.050</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -108,47 +110,47 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
-                                    <th>Property</th>
-                                    <th>Imperial</th>
-                                    <th>Metric</th>
+
+                                <th>Property</th>
+                                <th>Imperial</th>
+                                <th>Metric</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
-                                    <td>Density</td>
-                                    <td>0.284 lb/in³</td>
-                                    <td>7.85 g/cm³</td>
+
+                                <td>Density</td>
+                                <td>0.284 lb/in³</td>
+                                <td>7.85 g/cm³</td>
                                 </tr>
-                                <tr>
-                                    <td>Melting Point</td>
-                                    <td>2500 – 2550 °F</td>
-                                    <td>1370 – 1400 °C</td>
+
+                                <td>Melting Point</td>
+                                <td>2500 – 2550 °F</td>
+                                <td>1370 – 1400 °C</td>
                                 </tr>
-                                <tr>
-                                    <td>Modulus of Elasticity(Tension)</td>
-                                    <td>29,000 ksi</td>
-                                    <td>200 GPa</td>
+
+                                <td>Modulus of Elasticity(Tension)</td>
+                                <td>29,000 ksi</td>
+                                <td>200 GPa</td>
                                 </tr>
-                                <tr>
-                                    <td>Modulus of Elasticity(Torsion)</td>
-                                    <td>11,600 ksi</td>
-                                    <td>80 GPa</td>
+
+                                <td>Modulus of Elasticity(Torsion)</td>
+                                <td>11,600 ksi</td>
+                                <td>80 GPa</td>
                                 </tr>
-                                <tr>
-                                    <td>Poisson's Ratio</td>
-                                    <td>0.29</td>
-                                    <td>-</td>
+
+                                <td>Poisson's Ratio</td>
+                                <td>0.29</td>
+                                <td>-</td>
                                 </tr>
-                                <tr>
-                                    <td>Thermal Conductivity</td>
-                                    <td>44 W/m·K</td>
-                                    <td>44 W/m·K</td>
+
+                                <td>Thermal Conductivity</td>
+                                <td>44 W/m·K</td>
+                                <td>44 W/m·K</td>
                                 </tr>
-                                <tr>
-                                    <td>Specific Heat Capacity</td>
-                                    <td>460 J/kg·K</td>
-                                    <td>460 J/kg·K</td>
+
+                                <td>Specific Heat Capacity</td>
+                                <td>460 J/kg·K</td>
+                                <td>460 J/kg·K</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -163,55 +165,55 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
-                                    <th>Property</th>
-                                    <th>Annealed</th>
-                                    <th>Hot-Finished</th>
-                                    <th>Cold Drawn</th>
-                                    <th>Hot-rolled</th>
-                                    <th>Sheet</th>
+
+                                <th>Property</th>
+                                <th>Annealed</th>
+                                <th>Hot-Finished</th>
+                                <th>Cold Drawn</th>
+                                <th>Hot-rolled</th>
+                                <th>Sheet</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
-                                    <td>Tensile Strength (ksi / MPa)</td>
-                                    <td>75–95 ksi / 517–655 MPa</td>
-                                    <td>80–110 ksi / 552–758 MPa</td>
-                                    <td>90–120 ksi / 620–827 MPa</td>
-                                    <td>75–95 ksi / 517–655 MPa</td>
-                                    <td>70–90 ksi / 482–620 MPa</td>
+
+                                <td>Tensile Strength (ksi / MPa)</td>
+                                <td>75–95 ksi / 517–655 MPa</td>
+                                <td>80–110 ksi / 552–758 MPa</td>
+                                <td>90–120 ksi / 620–827 MPa</td>
+                                <td>75–95 ksi / 517–655 MPa</td>
+                                <td>70–90 ksi / 482–620 MPa</td>
                                 </tr>
-                                <tr>
-                                    <td>Yield Strength (0.2%)</td>
-                                    <td>40–55 ksi / 276–379 MPa</td>
-                                    <td>45–85 ksi / 310–586 MPa</td>
-                                    <td>55–85 ksi / 379–586 MPa</td>
-                                    <td>40–60 ksi / 276–414 MPa</td>
-                                    <td>35–50 ksi / 241–345 MPa</td>
+
+                                <td>Yield Strength (0.2%)</td>
+                                <td>40–55 ksi / 276–379 MPa</td>
+                                <td>45–85 ksi / 310–586 MPa</td>
+                                <td>55–85 ksi / 379–586 MPa</td>
+                                <td>40–60 ksi / 276–414 MPa</td>
+                                <td>35–50 ksi / 241–345 MPa</td>
                                 </tr>
-                                <tr>
-                                    <td>Elongation (%)</td>
-                                    <td>18–25</td>
-                                    <td>15–22</td>
-                                    <td>12–20</td>
-                                    <td>20–30</td>
-                                    <td>20–25</td>
+
+                                <td>Elongation (%)</td>
+                                <td>18–25</td>
+                                <td>15–22</td>
+                                <td>12–20</td>
+                                <td>20–30</td>
+                                <td>20–25</td>
                                 </tr>
-                                <tr>
-                                    <td>Brinell Hardness (3000 kg)</td>
-                                    <td>130–190</td>
-                                    <td>160–220</td>
-                                    <td>160–210</td>
-                                    <td>130–190</td>
-                                    <td>—</td>
+
+                                <td>Brinell Hardness (3000 kg)</td>
+                                <td>130–190</td>
+                                <td>160–220</td>
+                                <td>160–210</td>
+                                <td>130–190</td>
+                                <td>—</td>
                                 </tr>
-                                <tr>
-                                    <td>Rockwell Hardness (B / C)</td>
-                                    <td>75–85 B</td>
-                                    <td>85–95 B</td>
-                                    <td>85–95 B</td>
-                                    <td>75–85 B</td>
-                                    <td>75–85 B</td>
+
+                                <td>Rockwell Hardness (B / C)</td>
+                                <td>75–85 B</td>
+                                <td>85–95 B</td>
+                                <td>85–95 B</td>
+                                <td>75–85 B</td>
+                                <td>75–85 B</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -281,7 +283,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">

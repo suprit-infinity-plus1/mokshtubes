@@ -27,7 +27,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?" alt="Inconel 800" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/incoloy/incoloy-800.jpg" alt="Inconel 800" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -70,41 +70,41 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Element</th>
                                     <th>Composition (%)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Nickel</td>
                                     <td>30.0 – 35.0</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Chromium</td>
                                     <td>19.0 – 23.0</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Iron</td>
                                     <td>39.5 min</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Carbon</td>
                                     <td>0.08 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Aluminum</td>
                                     <td>0.15 – 0.60</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Titanium</td>
                                     <td>0.15 – 0.60</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Al + Ti</td>
                                     <td>0.30 – 1.20</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>ASTM Grain Size</td>
                                     <td>Special</td>
                                 </tr>
@@ -130,34 +130,34 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Imperial</th>
                                     <th>Metric</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Density</td>
                                     <td>0.287 lb/in³</td>
                                     <td>7.94 g/cm³</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Melting Range</td>
                                     <td>2475–2525 °F</td>
                                     <td>1357–1385 °C</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Specific Heat</td>
                                     <td>0.11 Btu/lb•°F</td>
                                     <td>460 J/kg•°C</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Magnetic Permeability at 200 Oe (15.9 kA/m)</td>
                                     <td>1.014 (Annealed)</td>
                                     <td>1.009 (Hot-Rolled)</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Curie Temperature</td>
                                     <td>175 °F</td>
                                     <td>115 °C</td>
@@ -175,7 +175,7 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <th>Property</th>
                                     <th>Annealed – 80°F (25°C)</th>
                                     <th>Annealed – 800°F (425°C)</th>
@@ -193,7 +193,7 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tensile Strength (ksi)</td>
                                     <td>138</td>
                                     <td>120</td>
@@ -208,7 +208,7 @@
                                     <td>120</td>
                                     <td>91</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Tensile Strength (MPa)</td>
                                     <td>952</td>
                                     <td>827</td>
@@ -223,7 +223,7 @@
                                     <td>827</td>
                                     <td>627</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Yield Strength(ksi)</td>
                                     <td>85.5</td>
                                     <td>74.1</td>
@@ -238,7 +238,7 @@
                                     <td>53.5</td>
                                     <td>44.5</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Yield Strength (MPa)</td>
                                     <td>590</td>
                                     <td>511</td>
@@ -253,7 +253,7 @@
                                     <td>369</td>
                                     <td>307</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Hardness (BHN)</td>
                                     <td>250</td>
                                     <td>172</td>
@@ -341,7 +341,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">
