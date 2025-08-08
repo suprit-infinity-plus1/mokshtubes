@@ -27,7 +27,7 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x350?" alt="Welded Pipes & Tubes" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/peoduct/welded-pipes-tubes.jpeg" alt="Welded Pipes & Tubes" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Right Content -->

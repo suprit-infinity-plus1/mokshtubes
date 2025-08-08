@@ -27,7 +27,7 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x350?" alt="Seamless pipes" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/peoduct/seamless-pipes-2.jpg" alt="Seamless pipes" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Right Content -->
