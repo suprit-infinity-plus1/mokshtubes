@@ -307,7 +307,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">
@@ -332,7 +333,8 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>ETP Copper provides nearly 100% IACS, making it ideal for high-performance electrical applications.</h5>
+                        <h5>ETP Copper provides nearly 100% IACS, making it ideal for high-performance electrical
+                            applications.</h5>
                     </div>
                 </div>
 
@@ -371,7 +373,9 @@
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Copper Alloys ETP Copper</h2>
-                <p class="text-center pb-3"><strong class="text-dark">Copper Alloys ETP Copper</strong> is the industry standard for electrical and electronic components due to its unmatched conductivity and ease of fabrication. Common applications include:</p>
+                <p class="text-center pb-3"><strong class="text-dark">Copper Alloys ETP Copper</strong> is the industry
+                    standard for electrical and electronic components due to its unmatched conductivity and ease of
+                    fabrication. Common applications include:</p>
             </div>
 
             <div class="row g-4 justify-content-center">
@@ -485,7 +489,8 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    contact <strong>Moksh Tubes & Fittings LLP</strong> — your trusted partner for high-conductivity copper solutions.
+                    contact <strong>Moksh Tubes & Fittings LLP</strong> — your trusted partner for high-conductivity copper
+                    solutions.
                     <!-- Call button -->
                     <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
             </div>

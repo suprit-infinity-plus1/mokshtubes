@@ -28,7 +28,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/titanium/titanium-5.jpg" alt="Titanium Grade 5" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/titanium/titanium-5.jpg" alt="Titanium Grade 5"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -36,10 +37,12 @@
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> proudly offers a complete range
-                            of Titanium Grade 5 <a href="{{ route('products') }}">products</a>, including Pipes & Tubes, Pipe Fittings, Flanges, Fasteners, Sheets
+                            of Titanium Grade 5 <a href="{{ route('products') }}">products</a>, including Pipes & Tubes,
+                            Pipe Fittings, Flanges, Fasteners, Sheets
                             & Plates, Coils, Bars, Wires, Welding Rods, Mesh, Custom Machined Parts, and other specialty
                             components tailored to critical applications. As a manufacturer, stockist, exporter, importer,
-                            and supplier, we are committed to delivering top-tier <a href="{{ route('materials.titanium') }}">Titanium</a> Grade 5 solutions worldwide.
+                            and supplier, we are committed to delivering top-tier <a
+                                href="{{ route('materials.titanium') }}">Titanium</a> Grade 5 solutions worldwide.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
@@ -300,7 +303,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">
@@ -491,8 +495,8 @@
                 <p>
                     Reach out to <strong>Moksh Tubes & Fittings LLP</strong> – your trusted source for premium titanium
                     solutions.</p>
-                    <!-- Call button -->
-                    <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
+                <!-- Call button -->
+                <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
             </div>
         </div>
     </section>

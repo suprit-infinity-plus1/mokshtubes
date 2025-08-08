@@ -28,7 +28,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/engineering-steels/engineering-steels-4140.jpeg" alt="EN 4140" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/engineering-steels/engineering-steels-4140.jpeg" alt="EN 4140"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -45,7 +46,8 @@
                             <strong class="text-black">EN 4140</strong class="text-black">, is a chromium-molybdenum
                             low-alloy steel renowned for its high tensile strength, toughness, and excellent wear
                             resistance. It is highly versatile and widely used in engineering and structural applications.
-                           <a href="{{ route('materials.engineering-Steels') }}"> EN 4140</a> can be heat-treated to achieve a wide range of mechanical properties, making it ideal
+                            <a href="{{ route('materials.engineering-Steels') }}"> EN 4140</a> can be heat-treated to
+                            achieve a wide range of mechanical properties, making it ideal
                             for applications requiring fatigue resistance and high stress endurance, such as in automotive,
                             oil & gas, and heavy machinery industries.
                         </p>
@@ -295,7 +297,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">
@@ -353,7 +356,8 @@
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Engineering Steel 4140</h2>
-                <p class="text-center pb-3"><strong class="text-dark">Engineering Steel 4140</strong> is extensively used in:
+                <p class="text-center pb-3"><strong class="text-dark">Engineering Steel 4140</strong> is extensively used
+                    in:
                 </p>
             </div>
 
@@ -362,7 +366,8 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
                         <h5>Automotive & Motorsport</h5>
-                        <p>Axles, crankshafts, gears, and connecting rods requiring high strength and fatigue resistance.</p>
+                        <p>Axles, crankshafts, gears, and connecting rods requiring high strength and fatigue resistance.
+                        </p>
                     </div>
                 </div>
 
@@ -471,7 +476,8 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    For detailed information or to request a quote for EN 4140 steel products, contact <strong> Moksh Tubes & Fittings
+                    For detailed information or to request a quote for EN 4140 steel products, contact <strong> Moksh Tubes
+                        & Fittings
                         LLP </strong> — your trusted partner for alloy steels.
                 </p>
                 <!-- Call button -->

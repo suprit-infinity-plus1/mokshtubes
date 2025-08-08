@@ -43,7 +43,8 @@
                             Fittings, Flanges, Fasteners, Sheets & Plates, Bars, Wire Mesh, and Custom Components.
 
                         <p> <strong class="text-black">253 MA</strong> Originally developed by Outokumpu, 253 MA combines
-                            moderate <a href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a> content with rare earth and alkali metal additions, delivering superior strength
+                            moderate <a href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a> content with
+                            rare earth and alkali metal additions, delivering superior strength
                             and oxidation resistance at elevated temperatures (up to 1150°C / 2100°F). It is ideal for
                             applications involving high thermal stresses, cyclic heating, and corrosive industrial
                             atmospheres.
@@ -285,7 +286,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">

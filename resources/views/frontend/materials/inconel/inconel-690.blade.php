@@ -49,8 +49,9 @@
                             performance over INCONEL 600 due to its higher chromium content (30%), which enhances its
                             performance in nuclear steam generators, chemical processing, and marine applications. <a
                                 href="{{ route('materials.inconel') }}">INCONEL
-                                690</a> also provides superb mechanical strength, metallurgical stability, and weldability for
-                                long-term use in demanding environments.
+                                690</a> also provides superb mechanical strength, metallurgical stability, and weldability
+                            for
+                            long-term use in demanding environments.
                         </p>
                     </div>
                 </div>
@@ -314,7 +315,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">

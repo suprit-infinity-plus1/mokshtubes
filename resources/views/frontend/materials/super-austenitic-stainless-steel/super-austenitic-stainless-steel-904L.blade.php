@@ -44,7 +44,8 @@
 
                         <p> <strong class="text-black">Alloy 904L</strong> is a high-alloy austenitic stainless steel
                             developed for exceptional corrosion resistance in harsh environments. With elevated levels of
-                            chromium, <a href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a>, molybdenum, and added copper, 904L offers superior resistance to sulfuric,
+                            chromium, <a href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a>, molybdenum,
+                            and added copper, 904L offers superior resistance to sulfuric,
                             phosphoric, and acetic acids, as well as chloride-induced pitting and crevice corrosion.
                             Originally developed for the chemical industry, it also performs excellently in marine and
                             offshore applications. This non-stabilized, low-carbon alloy offers excellent formability,
@@ -291,7 +292,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">

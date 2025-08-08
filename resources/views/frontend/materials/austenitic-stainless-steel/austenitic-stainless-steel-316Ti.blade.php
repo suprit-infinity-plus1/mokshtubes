@@ -50,7 +50,8 @@
                             maintains excellent corrosion resistance, especially in chloride and acidic environments, and
                             offers superior high-temperature strength. The titanium content stabilizes the alloy against
                             carbide precipitation during welding, making it ideal for high-temperature and corrosive service
-                            conditions in chemical, petrochemical, and power industries.</p>
+                            conditions in chemical, petrochemical, and power industries.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -304,7 +305,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">
@@ -394,7 +396,8 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
                         <h5>Marine Applications</h5>
-                        <p>Marine hardware, pumps, and valves due to its resistance to saltwater corrosion and high strength.</p>
+                        <p>Marine hardware, pumps, and valves due to its resistance to saltwater corrosion and high
+                            strength.</p>
                     </div>
                 </div>
 

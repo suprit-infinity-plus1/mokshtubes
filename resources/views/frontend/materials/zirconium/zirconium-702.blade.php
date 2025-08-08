@@ -37,8 +37,8 @@
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> proudly manufactures, supplies,
-                            exports, imports, and stocks a wide range of<strong class="text-black"> Zirconium 702 (UNS R60702) <a
-                                    href="{{ route('products') }}">products</a></strong>. Our offerings
+                            exports, imports, and stocks a wide range of<strong class="text-black"> Zirconium 702 (UNS
+                                R60702) <a href="{{ route('products') }}">products</a></strong>. Our offerings
                             include Pipes & Tubes, Fittings, Flanges, Fasteners, Sheets, Plates, Coils, Wires, Bars, Welding
                             Rods, and Custom-Engineered Components—all tailored to meet the needs of demanding industries.
                         </p>
@@ -308,7 +308,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">

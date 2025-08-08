@@ -28,7 +28,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/hastelloy/hastelloy-X.jpg" alt="Hastelloy X" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/hastelloy/hastelloy-X.jpg" alt="Hastelloy X"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -39,7 +40,7 @@
                             supplier, exporter, importer, and stockist of Hastelloy X (UNS N06002) products, including <a
                                 href="{{ route('products.pipes-tubes') }}">Pipes
                                 & Tubes</a>, Pipe Fittings, Flanges, Sheets & Plates, Coils, Bars, Wires, and customized
-                                components.
+                            components.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
@@ -47,7 +48,8 @@
                             nickel-chromium-iron-molybdenum alloy developed primarily for high-temperature strength and
                             oxidation resistance. It is widely used in aerospace and industrial gas turbine applications due
                             to its excellent mechanical properties at elevated temperatures (up to 1100°C / 2000°F).
-                            <strong class="text-black"> <a href="{{ route('materials.hastelloy') }}">Hastelloy X</a></strong> also exhibits good corrosion resistance to mild
+                            <strong class="text-black"> <a href="{{ route('materials.hastelloy') }}">Hastelloy
+                                    X</a></strong> also exhibits good corrosion resistance to mild
                             oxidizing and reducing environments,
                             and its excellent fabricability makes it ideal for complex parts exposed to extreme thermal and
                             mechanical stress.
@@ -282,7 +284,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">

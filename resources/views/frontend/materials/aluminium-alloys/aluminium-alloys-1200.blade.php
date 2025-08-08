@@ -28,7 +28,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/aluminium-alloys/aluminium-alloys-1200.jpg" alt="Aluminium 1200" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/aluminium-alloys/aluminium-alloys-1200.jpg" alt="Aluminium 1200"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -286,7 +287,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">

@@ -27,14 +27,16 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/incoloy/incoloy-020.jpeg" alt="incoloy-020" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/incoloy/incoloy-020.jpeg" alt="incoloy-020"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"><a href="{{ route('materials.incoloy') }}">INCOLOY 020</a></strong> is a corrosion-resistant nickel-iron-chromium
+                            <strong class="text-black"><a href="{{ route('materials.incoloy') }}">INCOLOY 020</a></strong>
+                            is a corrosion-resistant nickel-iron-chromium
                             alloy designed specifically to handle sulfuric acid and other aggressive chemical environments.
                             With the addition of copper and molybdenum, this alloy offers exceptional resistance to pitting,
                             crevice corrosion, and chloride-induced stress corrosion cracking.
@@ -43,7 +45,8 @@
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">MOKSH TUBES & FITTINGS LLP</strong class="text-black"> is a trusted
                             manufacturer, exporter, supplier, importer, and stockist of INCOLOY 020 in multiple forms
-                            including <a href="{{ route('products.pipes-tubes') }}">pipes & tubes</a>, fittings, flanges, fasteners, sheets, plates, bars, rods, coils, wire
+                            including <a href="{{ route('products.pipes-tubes') }}">pipes & tubes</a>, fittings, flanges,
+                            fasteners, sheets, plates, bars, rods, coils, wire
                             mesh, and custom-fabricated products.
                         </p>
                     </div>
@@ -325,7 +328,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">
@@ -552,7 +556,8 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    <strong>Moksh Tubes & Fittings LLP</strong>Your trusted partner for INCOLOY 020 and high-performance alloy solutions.
+                    <strong>Moksh Tubes & Fittings LLP</strong>Your trusted partner for INCOLOY 020 and high-performance
+                    alloy solutions.
                 </p>
                 <!-- Call button -->
                 <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>

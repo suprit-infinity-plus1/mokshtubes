@@ -28,7 +28,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/copper-alloys/copper-alloys-c71500.jpeg"alt="Copper Alloys C71500" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/copper-alloys/copper-alloys-c71500.jpeg"alt="Copper Alloys C71500"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -300,7 +301,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">
@@ -363,7 +365,8 @@
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Copper Alloys C71500</h2>
-                <p class="text-center pb-3"><strong class="text-dark">Copper Alloys C71500</strong> is extensively used in:</p>
+                <p class="text-center pb-3"><strong class="text-dark">Copper Alloys C71500</strong> is extensively used
+                    in:</p>
             </div>
 
             <div class="row g-4 justify-content-center">
@@ -477,7 +480,8 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    contact <strong >Moksh Tubes & Fittings LLP</strong> — We offer competitive pricing and reliable supply for global projects.
+                    contact <strong>Moksh Tubes & Fittings LLP</strong> — We offer competitive pricing and reliable supply
+                    for global projects.
                     <!-- Call button -->
                     <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
             </div>

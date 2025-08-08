@@ -39,7 +39,8 @@
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a leading manufacturer,
                             supplier, exporter, importer, and stockist of<strong class="text-black"> Austenitic Stainless
                                 Steel 309 <a href="{{ route('products') }}"> products</a>,</strong> including
-                            pipes,<a href="{{ route('products.pipes-tubes') }}"> tubes</a>, sheets, plates, bars, and fittings.
+                            pipes,<a href="{{ route('products.pipes-tubes') }}"> tubes</a>, sheets, plates, bars, and
+                            fittings.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
@@ -298,7 +299,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">
@@ -361,7 +363,8 @@
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Austenitic Stainless Steel 309</h2>
-                <p class="text-center pb-3"><strong class="text-dark">Austenitic Stainless Steel 309</strong> is extensively used in high-temperature and corrosive environments, such as:</p>
+                <p class="text-center pb-3"><strong class="text-dark">Austenitic Stainless Steel 309</strong> is
+                    extensively used in high-temperature and corrosive environments, such as:</p>
             </div>
 
             <div class="row g-4 justify-content-center">
@@ -369,7 +372,8 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
                         <h5>Furnace Parts & Heat Treatment Equipment</h5>
-                        <p>Furnace linings, heat exchangers, and radiant tubes requiring resistance to thermal shock and scaling.</p>
+                        <p>Furnace linings, heat exchangers, and radiant tubes requiring resistance to thermal shock and
+                            scaling.</p>
                     </div>
                 </div>
 
@@ -377,7 +381,8 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
                         <h5>Petrochemical & Chemical Industry</h5>
-                        <p>Equipment exposed to oxidizing atmospheres and high temperatures, including catalytic reactors.</p>
+                        <p>Equipment exposed to oxidizing atmospheres and high temperatures, including catalytic reactors.
+                        </p>
                     </div>
                 </div>
 
@@ -385,7 +390,8 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
                         <h5>Aerospace & Power Generation</h5>
-                        <p>Gas turbine components, boilers, and exhaust manifolds exposed to extreme heat and corrosive gases.</p>
+                        <p>Gas turbine components, boilers, and exhaust manifolds exposed to extreme heat and corrosive
+                            gases.</p>
                     </div>
                 </div>
 
@@ -393,7 +399,8 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-droplet"></i></div>
                         <h5>Automotive Industry</h5>
-                        <p>Exhaust systems, mufflers, and catalytic converter components demanding high temperature endurance.</p>
+                        <p>Exhaust systems, mufflers, and catalytic converter components demanding high temperature
+                            endurance.</p>
                     </div>
                 </div>
 
@@ -404,7 +411,7 @@
                         <p>Equipment subject to high temperatures and cleaning chemicals.</p>
                     </div>
                 </div>
-{{--
+                {{--
                <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
@@ -475,7 +482,8 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                   For further information or to request a quote on Austenitic Stainless Steel 309 products, contact<strong> Moksh Tubes &
+                    For further information or to request a quote on Austenitic Stainless Steel 309 products,
+                    contact<strong> Moksh Tubes &
                         Fittings
                         LLP</strong> — your trusted supplier for premium stainless steel solutions.
                 </p>

@@ -28,7 +28,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/titanium/titanium-4.jpg" alt="Titanium Grade 4 ELI" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/titanium/titanium-4.jpg" alt="Titanium Grade 4 ELI"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -39,14 +40,16 @@
                             supplier, exporter, importer, and stockist of premium-quality<strong class="text-black">
                                 Titanium Grade 4 ELI</strong> <a href="{{ route('products') }}">products</a>,
                             including Pipes & Tubes, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires, Round
-                            Bars, Flat Bars, <a href="{{ route('products.pipes-tubes.welded-pipes') }}">Welding Rods</a>, Wire Mesh, and Custom-Engineered Components that meet the most
+                            Bars, Flat Bars, <a href="{{ route('products.pipes-tubes.welded-pipes') }}">Welding Rods</a>,
+                            Wire Mesh, and Custom-Engineered Components that meet the most
                             demanding applications.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">Titanium Grade 4 ELI (Extra Low Interstitial)</strong> is an
                             unalloyed
-                            (commercially pure) <a href="{{ route('materials.titanium') }}">titanium</a> that offers a remarkable balance of strength, ductility, and
+                            (commercially pure) <a href="{{ route('materials.titanium') }}">titanium</a> that offers a
+                            remarkable balance of strength, ductility, and
                             excellent corrosion resistance. It is slightly stronger than Grade 1 but still maintains
                             outstanding formability and weldability. These attributes make it highly suitable for industries
                             requiring strong yet lightweight corrosion-resistant materials—especially in chemical
@@ -297,7 +300,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">
@@ -492,8 +496,8 @@
                 <h2>Contact Us</h2>
                 <p>
                     <strong>Moksh Tubes & Fittings LLP</strong> your dependable partner for Titanium Grade 4 ELI solutions.
-                <!-- Call button -->
-                <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
+                    <!-- Call button -->
+                    <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
             </div>
         </div>
     </section>

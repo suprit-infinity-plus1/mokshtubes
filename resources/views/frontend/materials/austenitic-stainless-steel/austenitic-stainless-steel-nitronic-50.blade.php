@@ -304,7 +304,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">
@@ -482,7 +483,8 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                   For inquiries or to request a quote for Nitronic 50 stainless steel products, contact<strong> Moksh Tubes &
+                    For inquiries or to request a quote for Nitronic 50 stainless steel products, contact<strong> Moksh
+                        Tubes &
                         Fittings LLP</strong> — your dependable partner for high-performance alloys.
                     <!-- Call button -->
                     <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>

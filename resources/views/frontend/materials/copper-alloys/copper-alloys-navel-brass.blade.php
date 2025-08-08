@@ -91,7 +91,7 @@
                                     <td>Lead</td>
                                     <td>0.05 max</td>
                                 </tr>
-                                 <tr class="t-row">
+                                <tr class="t-row">
                                     <td>Iron</td>
                                     <td>0.06 max</td>
                                 </tr>
@@ -99,7 +99,7 @@
                                     <td>Others</td>
                                     <td>0.30 max (Total)</td>
                                 </tr>
-                              {{--  <tr class="t-row">
+                                {{--  <tr class="t-row">
                                     <td>Others</td>
                                     <td>0.50 max (total)</td>
                                 </tr> --}}
@@ -308,7 +308,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">
@@ -340,7 +341,8 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h5>Capable of withstanding mechanical stress, vibrations, and loads in structural and underwater applications.</h5>
+                        <h5>Capable of withstanding mechanical stress, vibrations, and loads in structural and underwater
+                            applications.</h5>
                     </div>
                 </div>
 
@@ -371,7 +373,9 @@
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Copper Alloys Naval Brass</h2>
-                <p class="text-center pb-3"><strong class="text-dark">Copper Alloys Naval Brass</strong> is widely used in applications where exposure to seawater, friction, and high stress are common. Its balance of strength, corrosion resistance, and workability makes it a top choice for:</p>
+                <p class="text-center pb-3"><strong class="text-dark">Copper Alloys Naval Brass</strong> is widely used in
+                    applications where exposure to seawater, friction, and high stress are common. Its balance of strength,
+                    corrosion resistance, and workability makes it a top choice for:</p>
             </div>
 
             <div class="row g-4 justify-content-center">
@@ -419,7 +423,8 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
                         <h5>Electrical & Instrumentation</h5>
-                        <p>Connectors, terminals, and switch components needing both conductivity and corrosion resistance.</p>
+                        <p>Connectors, terminals, and switch components needing both conductivity and corrosion resistance.
+                        </p>
                     </div>
                 </div>
 
@@ -485,7 +490,7 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    contact <strong >Moksh Tubes & Fittings LLP</strong> — your trusted partner for premium brass alloys.
+                    contact <strong>Moksh Tubes & Fittings LLP</strong> — your trusted partner for premium brass alloys.
                     <!-- Call button -->
                     <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
             </div>

@@ -28,7 +28,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/titanium/titanium-1.jpg" alt="Titanium Grade 1" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/titanium/titanium-1.jpg" alt="Titanium Grade 1"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -38,14 +39,16 @@
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> proudly manufactures, supplies,
                             exports, imports, and stocks a wide variety of<strong class="text-black"> Titanium Grade
                                 1</strong> products, including <a href="{{ route('products.pipes-tubes') }}">Pipes &
-                            Tubes</a>, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires, Round Bars, Flat Bars,
+                                Tubes</a>, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires, Round Bars,
+                            Flat Bars,
                             Angles, Welding Rods, and other custom or hard-to-source components tailored to meet demanding
                             industry requirements.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">Titanium Grade 1</strong class="text-black"> is the most ductile and
-                            softest among all commercially pure <a href="{{ route('materials.titanium') }}">titanium grades</a>. It offers exceptional corrosion resistance,
+                            softest among all commercially pure <a href="{{ route('materials.titanium') }}">titanium
+                                grades</a>. It offers exceptional corrosion resistance,
                             outstanding formability, and superior weldability. As a result, it is widely used in industries
                             requiring lightweight, high-strength materials capable of withstanding extreme environments—such
                             as chemical processing, marine applications, aerospace, and medical sectors. Its superior
@@ -288,7 +291,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">

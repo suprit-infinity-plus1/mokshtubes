@@ -28,7 +28,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/copper-alloys/copper-alloys-cu-ni-90_10.jpg"alt="Copper Alloys 90/10" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/copper-alloys/copper-alloys-cu-ni-90_10.jpg"alt="Copper Alloys 90/10"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -289,7 +290,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">
@@ -353,7 +355,9 @@
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Copper Alloys CU-NI 90/10</h2>
-                <p class="text-center pb-3"><strong class="text-dark">Copper Alloys CU-NI 90/10</strong> is widely used in marine, industrial, and thermal transfer systems where strength and corrosion resistance are critical:</p>
+                <p class="text-center pb-3"><strong class="text-dark">Copper Alloys CU-NI 90/10</strong> is widely used in
+                    marine, industrial, and thermal transfer systems where strength and corrosion resistance are critical:
+                </p>
             </div>
 
             <div class="row g-4 justify-content-center">
@@ -361,7 +365,8 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
                         <h5>Marine & Shipbuilding</h5>
-                        <p>Seawater piping, cooling systems, hull cladding, condensers, water intakes, propeller sleeves.</p>
+                        <p>Seawater piping, cooling systems, hull cladding, condensers, water intakes, propeller sleeves.
+                        </p>
                     </div>
                 </div>
 
@@ -406,12 +411,12 @@
                 </div>
 
                 <div class="col-md-6 col-lg-4">
-                <div class="application-card">
-                     <div class="application-icon"><i class="bi bi-strategies"></i></div>
-                    <h5>Welding Consumables & Filler Metals</h5>
-                    <p>Used in welding of similar alloys and repair work.</p>
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-strategies"></i></div>
+                        <h5>Welding Consumables & Filler Metals</h5>
+                        <p>Used in welding of similar alloys and repair work.</p>
+                    </div>
                 </div>
-            </div>
             </div>
         </div>
     </section>
@@ -467,7 +472,8 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    contact <strong>Moksh Tubes & Fittings LLP</strong> — delivering high-quality Cu-Ni solutions tailored to your project.
+                    contact <strong>Moksh Tubes & Fittings LLP</strong> — delivering high-quality Cu-Ni solutions tailored
+                    to your project.
                     <!-- Call button -->
                     <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
             </div>

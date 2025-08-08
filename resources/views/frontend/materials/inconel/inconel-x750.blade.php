@@ -27,7 +27,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/inconel/Inconel-X 750.jpg" alt="Inconel X-750" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/inconel/Inconel-X 750.jpg" alt="Inconel X-750"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -48,14 +49,13 @@
                             alloy made for high-strength applications at elevated temperatures. This alloy is strengthened
                             by additions of <a href="{{ route('materials.aluminium-Alloys') }}">aluminum</a> and <a
                                 href="{{ route('materials.titanium') }}">titanium</a>
-                                and demonstrates exceptional resistance to relaxation and
-                                oxidation at high temperatures. It maintains excellent mechanical properties from cryogenic
-                                temperatures up to 1300°F (704°C) and provides outstanding resistance to creep rupture,
-                                stress
-                                corrosion cracking, and other high-temperature forms of degradation.<strong
-                                    class="text-black">
-                                    INCONEL X-750</strong> is widely
-                                used in aerospace, nuclear, gas turbine, and industrial heat treating applications.
+                            and demonstrates exceptional resistance to relaxation and
+                            oxidation at high temperatures. It maintains excellent mechanical properties from cryogenic
+                            temperatures up to 1300°F (704°C) and provides outstanding resistance to creep rupture,
+                            stress
+                            corrosion cracking, and other high-temperature forms of degradation.<strong class="text-black">
+                                INCONEL X-750</strong> is widely
+                            used in aerospace, nuclear, gas turbine, and industrial heat treating applications.
                         </p>
                     </div>
                 </div>
@@ -309,7 +309,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">

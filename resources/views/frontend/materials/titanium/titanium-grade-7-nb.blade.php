@@ -28,7 +28,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/titanium/titanium-7nb.jpg" alt="Titanium Grade 7 NB" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/titanium/titanium-7nb.jpg" alt="Titanium Grade 7 NB"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -39,13 +40,15 @@
                             supplier, exporter, importer, and stockist of a wide range of<strong class="text-black">
                                 Titanium Grade 7 NB products</strong>
                             including Pipes & Tubes, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires, Bars,
-                            Forgings, Custom Components, and other hard-to-find titanium alloy <a href="{{ route('products') }}">products</a> tailored to your
+                            Forgings, Custom Components, and other hard-to-find titanium alloy <a
+                                href="{{ route('products') }}">products</a> tailored to your
                             exact requirements.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">Titanium Grade 7 NB (UNS R52400), </strong>also known as Ti-0.2Pd, is
-                            a corrosion-resistant, alpha-phase <a href="{{ route('materials.titanium') }}">titanium alloy</a> that offers the same mechanical properties as
+                            a corrosion-resistant, alpha-phase <a href="{{ route('materials.titanium') }}">titanium
+                                alloy</a> that offers the same mechanical properties as
                             Grade 2, but with enhanced corrosion resistance due to the addition of palladium (0.12–0.25%).
                             This makes it one of the most corrosion-resistant titanium grades available, especially in
                             reducing and mildly oxidizing environments such as hydrochloric and sulfuric acid.
@@ -296,7 +299,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">

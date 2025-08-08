@@ -28,7 +28,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/hastelloy/Hastelloy-G30.jpeg" alt="Hastelloy g30" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/hastelloy/Hastelloy-G30.jpeg" alt="Hastelloy g30"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -50,7 +51,9 @@
                             corrosion resistance in strongly oxidizing acid environments, especially phosphoric and nitric
                             acids. It offers significantly better performance than ALLOY G-3 in many highly oxidizing
                             chemical environments and resists intergranular corrosion even after welding. Known for its
-                            exceptional resistance to mixed acid environments, <a href="{{ route('materials.hastelloy') }}">HASTELLOY G30</a> also retains good fabricability and is a
+                            exceptional resistance to mixed acid environments, <a
+                                href="{{ route('materials.hastelloy') }}">HASTELLOY G30</a> also retains good fabricability
+                            and is a
                             popular choice in fertilizer production, chemical processing, and pollution control systems.
                         </p>
                     </div>
@@ -289,7 +292,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">

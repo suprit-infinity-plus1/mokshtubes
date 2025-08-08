@@ -28,7 +28,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/titanium/titanium-23.jpg" alt="Titanium Grade 23" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/titanium/titanium-23.jpg" alt="Titanium Grade 23"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -38,7 +39,8 @@
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> we specialize in the
                             manufacturing, stocking, exporting, importing, and supplying of premium<strong
                                 class="text-black"> <a href="{{ route('materials.titanium') }}">Titanium Grade 23</a>
-                                (Ti-6Al-4V ELI) products.</strong> Our offerings include <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings,
+                                (Ti-6Al-4V ELI) products.</strong> Our offerings include <a
+                                href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings,
                             Flanges,
                             Fasteners, Sheets & Plates, Coils, Wires, Round Bars, Flat Bars, Angles, Channels, Welding Rods,
                             Wire Mesh, and other custom-engineered components that meet the strictest performance demands.
@@ -50,7 +52,8 @@
                             Interstitial), is a high-purity version of the popular Grade 5 alloy. With enhanced
                             biocompatibility, fracture toughness, and superior ductility, it’s particularly well-suited for
                             critical medical, aerospace, and high-performance industrial applications. The alloy features a
-                            composition of 6% <a href="{{ route('materials.aluminium-Alloys') }}">Aluminum</a>, 4% Vanadium, and reduced levels of oxygen and other impurities,
+                            composition of 6% <a href="{{ route('materials.aluminium-Alloys') }}">Aluminum</a>, 4% Vanadium,
+                            and reduced levels of oxygen and other impurities,
                             offering exceptional strength-to-weight ratio, excellent fatigue resistance, and outstanding
                             corrosion resistance, especially in chloride-rich environments.
                         </p>
@@ -304,7 +307,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">

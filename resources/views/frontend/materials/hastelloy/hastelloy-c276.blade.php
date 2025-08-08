@@ -28,7 +28,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/hastelloy/hastelloy-c276.jpeg" alt="Hastelloy C276" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/hastelloy/hastelloy-c276.jpeg" alt="Hastelloy C276"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -37,7 +38,8 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a manufacturer, supplier,
                             exporter, importer and stockist of a variety
-                            of HASTELLOY C-276 (UNS N10276) <a href="{{ route('products') }}">products</a> such as <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings, Flanges,
+                            of HASTELLOY C-276 (UNS N10276) <a href="{{ route('products') }}">products</a> such as <a
+                                href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings, Flanges,
                             Fasteners,
                             Sheets & Plates, Coils, Wires, Round Bars, Flat Bars, Angles, Channels, Welding rods, Wire Mesh,
                             and
@@ -47,7 +49,8 @@
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">HASTELLOY C276</strong class="text-black"> is a
                             nickel-chromium-molybdenum alloy designed to minimize welding challenges due to
-                            its low silicon and carbon content. Like other <a href="{{ route('materials.nickel-Based-Superalloys') }}">nickel alloys</a>, <strong
+                            its low silicon and carbon content. Like other <a
+                                href="{{ route('materials.nickel-Based-Superalloys') }}">nickel alloys</a>, <strong
                                 class="text-black">HASTELLOY C-276</strong> is highly ductile,
                             easy to form and weld, and provides excellent resistance to stress corrosion cracking in
                             chloride-rich solutions (a common issue with austenitic stainless steels). Its high chromium and
@@ -135,97 +138,97 @@
     </section>
 
 
-   <section class="sec-padd-top sec-padd-bottom bg-light">
-    <div class="container">
-        <div class="section-title center mb-5">
-            <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
-        </div>
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+            </div>
 
-        <!-- Physical Properties Table -->
-        <div class="row justify-content-center mb-5">
-            <div class="col-lg-8">
-                <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
-                <div class="table-responsive">
-                    <table class="table table-bordered table-striped align-middle">
-                        <thead class="table-dark text-center">
-                            <tr class="t-row">
-                                <th>Property</th>
-                                <th>Value</th>
-                            </tr>
-                        </thead>
-                        <tbody class="text-center">
-                            <tr class="t-row">
-                                <td>Density</td>
-                                <td>8.89 g/cm³</td>
-                            </tr>
-                            <tr class="t-row">
-                                <td>Melting Point</td>
-                                <td>1370°C (2500°F)</td>
-                            </tr>
-                            <tr class="t-row">
-                                <td>Tensile Strength</td>
-                                <td>115,000 psi / 790 MPa</td>
-                            </tr>
-                            <tr class="t-row">
-                                <td>Yield Strength (0.2% Offset)</td>
-                                <td>52,000 psi / 355 MPa</td>
-                            </tr>
-                            <tr class="t-row">
-                                <td>Elongation</td>
-                                <td>40%</td>
-                            </tr>
-                        </tbody>
-                    </table>
+            <!-- Physical Properties Table -->
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Property</th>
+                                    <th>Value</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr class="t-row">
+                                    <td>Density</td>
+                                    <td>8.89 g/cm³</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Melting Point</td>
+                                    <td>1370°C (2500°F)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Tensile Strength</td>
+                                    <td>115,000 psi / 790 MPa</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Yield Strength (0.2% Offset)</td>
+                                    <td>52,000 psi / 355 MPa</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Elongation</td>
+                                    <td>40%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mechanical Properties Table -->
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Property</th>
+                                    <th>Metric</th>
+                                    <th>Imperial</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr class="t-row">
+                                    <td>Tensile Strength (@ 538°C / 1000°F)</td>
+                                    <td>601.2 MPa</td>
+                                    <td>87,200 psi</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Yield Strength (0.2% offset @ 427°C / 801°F)</td>
+                                    <td>204.8 MPa</td>
+                                    <td>29,700 psi</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Elastic Modulus (RT)</td>
+                                    <td>205 GPa</td>
+                                    <td>29,700 ksi</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Elongation at Break (@ 204°C / 399°F)</td>
+                                    <td>56%</td>
+                                    <td>56%</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Hardness, Rockwell B (plate)</td>
+                                    <td>87</td>
+                                    <td>87</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <!-- Mechanical Properties Table -->
-        <div class="row justify-content-center">
-            <div class="col-lg-10">
-                <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
-                <div class="table-responsive">
-                    <table class="table table-bordered table-striped align-middle">
-                        <thead class="table-dark text-center">
-                            <tr class="t-row">
-                                <th>Property</th>
-                                <th>Metric</th>
-                                <th>Imperial</th>
-                            </tr>
-                        </thead>
-                        <tbody class="text-center">
-                            <tr class="t-row">
-                                <td>Tensile Strength (@ 538°C / 1000°F)</td>
-                                <td>601.2 MPa</td>
-                                <td>87,200 psi</td>
-                            </tr>
-                            <tr class="t-row">
-                                <td>Yield Strength (0.2% offset @ 427°C / 801°F)</td>
-                                <td>204.8 MPa</td>
-                                <td>29,700 psi</td>
-                            </tr>
-                            <tr class="t-row">
-                                <td>Elastic Modulus (RT)</td>
-                                <td>205 GPa</td>
-                                <td>29,700 ksi</td>
-                            </tr>
-                            <tr class="t-row">
-                                <td>Elongation at Break (@ 204°C / 399°F)</td>
-                                <td>56%</td>
-                                <td>56%</td>
-                            </tr>
-                            <tr class="t-row">
-                                <td>Hardness, Rockwell B (plate)</td>
-                                <td>87</td>
-                                <td>87</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
 
 
     @php
@@ -243,75 +246,75 @@
         ];
     @endphp
 
-   <section class="sec-padd-top sec-padd-bottom">
-    <div class="container">
-        <div class="section-title center">
-            <h2>Products in Hastelloy C276</h2>
-        </div>
-
-        <!-- Highlighted Paragraph -->
-        <div class="row justify-content-center mb-4" style="text-align: justify;">
-            <div class="col-lg-10">
-                <p class="fs-6">
-                    <strong class="text-dark">MOKSH TUBES & FITTINGS LLP</strong>, with its extensive experience in
-                    nickel-chromium-molybdenum grades and huge network of sources, deals in a wide variety of <strong
-                        class="text-dark">HASTELLOY C276</strong> products. These products have an extensive range of
-                    applications, including Chemical Processing, Nuclear Power Plants, Pollution Control Projects, Pulp
-                    & Paper, Oil & Gas, Flue Gas Desulphurization, Waste Water Treatment, and other associated
-                    industries. They are exceptionally suited for extremely corrosive environments and high-temperature
-                    conditions. Such harsh environments require materials that can maintain integrity, form, and
-                    performance under severe chemical and thermal stress. <strong class="text-dark">HASTELLOY
-                        C276</strong> effectively meets these challenges, making it a reliable choice for critical
-                    applications where long-term durability and resistance to degradation are essential for client
-                    success in their projects.
-                </p>
+    <section class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Products in Hastelloy C276</h2>
             </div>
-        </div>
 
-        <!-- Horizontal Styled Product List -->
-        <div class="row justify-content-center mb-5">
-            <div class="col-lg-10">
-                <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color: #db7227;">
-                    <div class="row">
-                        @foreach ($products as $slug => $product)
-                            <div class="col-12 col-sm-6 mb-2 d-flex justify-content-start align-items-start">
-                                <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span>
-                                <span>{{ $product }}</span>
-                            </div>
-                        @endforeach
+            <!-- Highlighted Paragraph -->
+            <div class="row justify-content-center mb-4" style="text-align: justify;">
+                <div class="col-lg-10">
+                    <p class="fs-6">
+                        <strong class="text-dark">MOKSH TUBES & FITTINGS LLP</strong>, with its extensive experience in
+                        nickel-chromium-molybdenum grades and huge network of sources, deals in a wide variety of <strong
+                            class="text-dark">HASTELLOY C276</strong> products. These products have an extensive range of
+                        applications, including Chemical Processing, Nuclear Power Plants, Pollution Control Projects, Pulp
+                        & Paper, Oil & Gas, Flue Gas Desulphurization, Waste Water Treatment, and other associated
+                        industries. They are exceptionally suited for extremely corrosive environments and high-temperature
+                        conditions. Such harsh environments require materials that can maintain integrity, form, and
+                        performance under severe chemical and thermal stress. <strong class="text-dark">HASTELLOY
+                            C276</strong> effectively meets these challenges, making it a reliable choice for critical
+                        applications where long-term durability and resistance to degradation are essential for client
+                        success in their projects.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Horizontal Styled Product List -->
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-10">
+                    <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color: #db7227;">
+                        <div class="row">
+                            @foreach ($products as $slug => $product)
+                                <div class="col-12 col-sm-6 mb-2 d-flex justify-content-start align-items-start">
+                                    <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span>
+                                    <span>{{ $product }}</span>
+                                </div>
+                            @endforeach
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- Emphasized Line -->
-        <div class="row justify-content-center mb-3">
-            <div class="col-lg-10">
-                <p class="fw-bold fs-5 text-center my-4" style="color: #174268;">
-                    We offer Hastelloy C276 in a wide range of product forms, including:
-                </p>
+            <!-- Emphasized Line -->
+            <div class="row justify-content-center mb-3">
+                <div class="col-lg-10">
+                    <p class="fw-bold fs-5 text-center my-4" style="color: #174268;">
+                        We offer Hastelloy C276 in a wide range of product forms, including:
+                    </p>
+                </div>
+            </div>
+
+            <!-- Product Image Cards (Now centered and responsive) -->
+            <div class="row g-4">
+                @foreach ($products as $slug => $product)
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
+                        <div class="mx-auto" style="width: 100%; max-width: 300px;">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
+                                <div class="product-card h-100">
+                                    <img src="https://placehold.co/300x200?" alt="{{ $product }}"
+                                        class="img-fluid  w-100">
+                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product }}</h6>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                @endforeach
             </div>
         </div>
-
-        <!-- Product Image Cards (Now centered and responsive) -->
-        <div class="row g-4">
-            @foreach ($products as $slug => $product)
-                <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
-                    <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                        <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
-                            <div class="product-card h-100">
-                                <img src="https://placehold.co/300x200?"
-                                     alt="{{ $product }}"
-                                     class="img-fluid  w-100">
-                                <h6 class="product-card-title text-center mt-2 px-2">{{ $product }}</h6>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            @endforeach
-        </div>
-    </div>
-</section>
+    </section>
 
 
     <section class="sec-padd-top sec-padd-bottom bg-light">
@@ -507,18 +510,19 @@
         </div>
     </section>
 
-<section class="sec-padd-top sec-padd-bottom">
-    <div class="container">
-        <div class="contact-cta-box">
-            <h2>Contact Us</h2>
-            <p>
-                For any inquiries or to request a quote, reach out to <strong>Moksh Tubes & Fittings LLP</strong> – your trusted partner for <strong>HASTELLOY C-276</strong> products.
-            </p>
-            <!-- Call button -->
-            <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
+    <section class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="contact-cta-box">
+                <h2>Contact Us</h2>
+                <p>
+                    For any inquiries or to request a quote, reach out to <strong>Moksh Tubes & Fittings LLP</strong> – your
+                    trusted partner for <strong>HASTELLOY C-276</strong> products.
+                </p>
+                <!-- Call button -->
+                <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
 

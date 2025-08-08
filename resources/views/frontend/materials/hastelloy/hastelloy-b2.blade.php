@@ -28,7 +28,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/hastelloy/hastelloy-b2.jpeg" alt="Hastelloy-b2" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/hastelloy/hastelloy-b2.jpeg" alt="Hastelloy-b2"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -37,15 +38,19 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a renowned manufacturer,
                             supplier, exporter, importer, and stockist of <strong class="text-black">HASTELLOY B2</strong>
-                            Products. Including <a href="{{ route('products.pipes-tubes') }}">pipes & tubes</a>, fittings, flanges, sheets, plates, bars, wires, welding rods,
+                            Products. Including <a href="{{ route('products.pipes-tubes') }}">pipes & tubes</a>, fittings,
+                            flanges, sheets, plates, bars, wires, welding rods,
                             wire mesh, and custom-engineered components. Leveraging our deep expertise in nickel-molybdenum
                             alloys and a robust sourcing network, we deliver high-performance B‑2 solutions tailored to your
                             industrial needs.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black"><a href="{{ route('materials.hastelloy') }}">HASTELLOY B2</a></strong class="text-black"> is a <a href="{{ route('materials.nickel-Based-Superalloys') }}">nickel alloy
-                            specifically</a> formulated for superior resistance to reducing acids—including hydrochloric,
+                            <strong class="text-black"><a href="{{ route('materials.hastelloy') }}">HASTELLOY B2</a></strong
+                                class="text-black"> is a <a href="{{ route('materials.nickel-Based-Superalloys') }}">nickel
+                                alloy
+                                specifically</a> formulated for superior resistance to reducing acids—including
+                            hydrochloric,
                             sulfuric, acetic, and phosphoric—especially valuable where oxidizing alloys fail under welded
                             conditions. Its low chromium, carbon, and silicon content ensures minimal carbide formation
                             during welding, maintaining alloy integrity in corrosive and high-temperature environments.
@@ -280,9 +285,11 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
-                                    <img src="https://placehold.co/300x200?" alt="{{ $product }}"class="img-fluid  w-100">
+                                    <img src="https://placehold.co/300x200?"
+                                        alt="{{ $product }}"class="img-fluid  w-100">
                                     <h6 class="product-card-title text-center mt-2 px-2">{{ $product }}</h6>
                                 </div>
                             </a>
@@ -468,8 +475,9 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    For assistance, technical specifications, or pricing inquiries, connect with <strong>Moksh Tubes & Fittings LLP</strong> – your
-                    go-to partner for  <strong>HASTELLOY B-2</strong> expertise.
+                    For assistance, technical specifications, or pricing inquiries, connect with <strong>Moksh Tubes &
+                        Fittings LLP</strong> – your
+                    go-to partner for <strong>HASTELLOY B-2</strong> expertise.
                 </p>
                 <!-- Call button -->
                 <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>

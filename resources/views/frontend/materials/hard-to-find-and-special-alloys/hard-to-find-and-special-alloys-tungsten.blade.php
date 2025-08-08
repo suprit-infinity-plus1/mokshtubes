@@ -28,7 +28,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-tungsten.png" alt="Tungsten" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-tungsten.png"
+                        alt="Tungsten" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -44,7 +45,9 @@
                             Tungsten is widely used in applications where thermal, mechanical, and wear resistance is
                             critical.
 
-                        <p> <strong class="text-black"><a href="{{ route('materials.hard-To-Find-And-Special-Alloys') }}">Tungsten</a></strong> exhibits excellent electrical conductivity, minimal
+                        <p> <strong class="text-black"><a
+                                    href="{{ route('materials.hard-To-Find-And-Special-Alloys') }}">Tungsten</a></strong>
+                            exhibits excellent electrical conductivity, minimal
                             thermal expansion, and outstanding resistance to erosion by molten metals and high temperatures,
                             making it indispensable in industries like aerospace, defense, electronics, lighting, and
                             metallurgy.
@@ -298,7 +301,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">

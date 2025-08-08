@@ -28,7 +28,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/engineering-steels/engineering-steels-4340.jpg" alt="EN 4340" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/engineering-steels/engineering-steels-4340.jpg" alt="EN 4340"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -288,7 +289,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">
@@ -356,7 +358,8 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
                         <h5>Aerospace & Defense</h5>
-                        <p>Aircraft landing gear, structural components, and fasteners requiring high strength and toughness.
+                        <p>Aircraft landing gear, structural components, and fasteners requiring high strength and
+                            toughness.
                         </p>
                     </div>
                 </div>
@@ -382,7 +385,8 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-droplet"></i></div>
                         <h5>Oil & Gas</h5>
-                        <p>Components for high-pressure and high-temperature applications such as drill collars and valve parts.</p>
+                        <p>Components for high-pressure and high-temperature applications such as drill collars and valve
+                            parts.</p>
                     </div>
                 </div>
 

@@ -289,7 +289,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">
@@ -352,7 +353,8 @@
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Copper Alloys C26000 Cartridge Brass</h2>
-                <p class="text-center pb-3"><strong class="text-dark">Copper Alloys C26000 Cartridge Brass</strong> is widely used across a range of industries for its mechanical and aesthetic properties:</p>
+                <p class="text-center pb-3"><strong class="text-dark">Copper Alloys C26000 Cartridge Brass</strong> is
+                    widely used across a range of industries for its mechanical and aesthetic properties:</p>
             </div>
 
             <div class="row g-4 justify-content-center">
@@ -402,16 +404,16 @@
                         <h5>Industrial Components</h5>
                         <p>Heat exchangers, radiator cores, condenser tubes</p>
                     </div>
-            </div>
+                </div>
 
-            {{-- <div class="col-md-6 col-lg-4">
+                {{-- <div class="col-md-6 col-lg-4">
                 <div class="application-card">
                      <div class="application-icon"><i class="bi bi-strategies"></i></div>
                     <h5>Why It Works</h5>
                     <p><strong>HASTELLOY C276’s</strong> combination of corrosion resistance, weldability, and mechanical durability makes it ideal for mission-critical applications where long-term performance is non-negotiable.</p>
                 </div>
             </div> --}}
-        </div>
+            </div>
         </div>
     </section>
 
@@ -466,7 +468,8 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    contact <strong >Moksh Tubes & Fittings LLP</strong> — today for quotes, technical support, and custom orders.
+                    contact <strong>Moksh Tubes & Fittings LLP</strong> — today for quotes, technical support, and custom
+                    orders.
                     <!-- Call button -->
                     <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
             </div>

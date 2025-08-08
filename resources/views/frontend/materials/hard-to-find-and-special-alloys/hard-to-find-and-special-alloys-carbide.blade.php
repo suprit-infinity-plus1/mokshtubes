@@ -28,7 +28,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-carbide.jpg" alt="Carbide alloys" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-carbide.jpg"
+                        alt="Carbide alloys" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -40,10 +41,14 @@
                                 href="{{ route('products') }}">products</a> including Tungsten
                             Carbide (WC), Titanium Carbide (TiC), Tantalum Carbide (TaC), and specialty carbide-based tools
                             and components. Our range includes rods, strips, dies, nozzles, inserts, buttons, rings, wear
-                            parts, and custom-engineered <a href="{{ route('materials.hard-To-Find-And-Special-Alloys') }}">carbide</a> components designed to withstand extreme wear, abrasion,
+                            parts, and custom-engineered <a
+                                href="{{ route('materials.hard-To-Find-And-Special-Alloys') }}">carbide</a> components
+                            designed to withstand extreme wear, abrasion,
                             and thermal stress.
 
-                        <p> <strong class="text-black"><a href="{{ route('materials.hard-To-Find-And-Special-Alloys') }}">Carbide Alloys</a></strong> are hard, wear-resistant materials made by
+                        <p> <strong class="text-black"><a
+                                    href="{{ route('materials.hard-To-Find-And-Special-Alloys') }}">Carbide
+                                    Alloys</a></strong> are hard, wear-resistant materials made by
                             combining carbide particles with metallic binders like cobalt or nickel. These alloys offer
                             exceptional hardness, high-temperature resistance, and excellent dimensional stability, making
                             them ideal for demanding industrial applications including metal cutting, mining, oil & gas,
@@ -294,7 +299,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">

@@ -277,7 +277,8 @@
             <div class="row justify-content-center mb-4" style="text-align: justify;">
                 <div class="col-lg-10">
                     <p class="fs-6">
-                        <strong class="text-dark">Haynes Superalloys 160</strong> is offered in numerous product forms meeting ASTM, ASME, and other standards:
+                        <strong class="text-dark">Haynes Superalloys 160</strong> is offered in numerous product forms
+                        meeting ASTM, ASME, and other standards:
                     </p>
                 </div>
             </div>
@@ -312,7 +313,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">
@@ -383,7 +385,8 @@
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Haynes Superalloys 160</h2>
-                <p class="text-center pb-3"><strong class="text-dark">Haynes Superalloys 160</strong> Commonly used in industries requiring reliable performance under extreme conditions:
+                <p class="text-center pb-3"><strong class="text-dark">Haynes Superalloys 160</strong> Commonly used in
+                    industries requiring reliable performance under extreme conditions:
                 </p>
             </div>
 

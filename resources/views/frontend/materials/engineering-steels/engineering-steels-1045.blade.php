@@ -28,7 +28,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/engineering-steels/engineering-steels-1045.png" alt="en-1045" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/engineering-steels/engineering-steels-1045.png" alt="en-1045"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -36,13 +37,15 @@
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong>is a manufacturer, supplier,
-                            exporter, importer, and stockist of <strong class="text-black">EN 1045 steel products</strong> such as pipes,
-                          <a href="{{ route('products.pipes-tubes') }}">  tubes</a>, bars, plates, and fittings.
+                            exporter, importer, and stockist of <strong class="text-black">EN 1045 steel products</strong>
+                            such as pipes,
+                            <a href="{{ route('products.pipes-tubes') }}"> tubes</a>, bars, plates, and fittings.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">EN 1045</strong>, commonly referred to as
-                            <strong class="text-black">C1045</strong> or <strong class="text-black">SAE 1045</strong>, is a medium carbon steel known for its good
+                            <strong class="text-black">C1045</strong> or <strong class="text-black">SAE 1045</strong>, is a
+                            medium carbon steel known for its good
                             strength, hardness, and wear resistance. It offers a balance between ductility and strength,
                             making it suitable for a wide range of mechanical and structural applications where moderate
                             strength and toughness are required.
@@ -287,7 +290,7 @@
             <div class="row justify-content-center mb-3">
                 <div class="col-lg-10">
                     <p class="fw-bold fs-5 text-center my-4" style="color: #174268;">
-                       Engineering Steel 1045 products are produced to the following global standards:
+                        Engineering Steel 1045 products are produced to the following global standards:
                     </p>
                 </div>
             </div>
@@ -297,7 +300,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">

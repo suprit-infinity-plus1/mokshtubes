@@ -28,7 +28,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/aluminium-alloys/aluminium-alloys-6012.jpg" alt="Aluminium 6012" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/aluminium-alloys/aluminium-alloys-6012.jpg" alt="Aluminium 6012"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -37,7 +38,7 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted manufacturer,
                             supplier, exporter, importer, and stockist of<strong class="text-black"> Aluminium Alloy 6012
-                             <a href="{{ route('products') }}">   products</a></strong>, including sheets,
+                                <a href="{{ route('products') }}"> products</a></strong>, including sheets,
                             plates, coils, rods, and extrusions.
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">Aluminium 6012</strong> is a heat-treatable wrought alloy primarily
@@ -284,7 +285,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">

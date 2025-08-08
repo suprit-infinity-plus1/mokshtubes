@@ -27,7 +27,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/incoloy/incoloy-825.jpeg" alt="Incoloy 825" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/incoloy/incoloy-825.jpeg" alt="Incoloy 825"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -38,13 +39,16 @@
                             exporter, importer and stockist of a variety of INCOLOY 825 products such as <a
                                 href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>,
                             Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires, Round Bars, Flat Bars, Angles,
-                            Channels, Welding rods, Wire Mesh, and other Custom and <a href="{{ route('materials.hard-To-Find-And-Special-Alloys') }}">Hard to Find</a> <strong class="text-black">
+                            Channels, Welding rods, Wire Mesh, and other Custom and <a
+                                href="{{ route('materials.hard-To-Find-And-Special-Alloys') }}">Hard to Find</a> <strong
+                                class="text-black">
                                 INCOLOY 825 </strong>Products.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">INCOLOY 825</strong class="text-black"> is a nickel-iron-chromium
-                            alloy with additions of molybdenum, copper, and <a href="{{ route('materials.titanium') }}">titanium</a>. The alloy offers exceptional
+                            alloy with additions of molybdenum, copper, and <a
+                                href="{{ route('materials.titanium') }}">titanium</a>. The alloy offers exceptional
                             resistance to reducing and oxidizing acids, stress-corrosion cracking, pitting, and crevice
                             corrosion. Its unique composition makes it highly suitable for aggressive environments,
                             including those containing sulfuric, phosphoric, and nitric acids. Additionally, the titanium
@@ -309,7 +313,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">

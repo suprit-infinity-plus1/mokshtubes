@@ -27,7 +27,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/inconel/Inconel-625.jpeg" alt="Inconel 625" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/inconel/Inconel-625.jpeg" alt="Inconel 625"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -37,7 +38,8 @@
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a manufacturer, supplier,
                             exporter, importer and stockist of a wide range of<strong class="text-black"> INCONEL
                                 625</strong> (UNS N06625) products including
-                            <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires, Round Bars,
+                            <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings, Flanges,
+                            Fasteners, Sheets & Plates, Coils, Wires, Round Bars,
                             Flat Bars, Angles, Channels, Welding Rods, Wire Mesh, and other Custom and Hard-to-Find INCONEL
                             625 Products.
                         </p>
@@ -47,7 +49,8 @@
                             known for its outstanding corrosion resistance, high strength, and excellent fatigue and
                             thermal-fatigue properties. The alloy exhibits exceptional resistance to a wide range of
                             corrosive environments, including oxidizing and reducing acids, chlorides, seawater, and harsh
-                            chemical media. Its high <a href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a> content provides superior resistance to chloride-induced stress
+                            chemical media. Its high <a href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a>
+                            content provides superior resistance to chloride-induced stress
                             corrosion cracking, while the addition of molybdenum and niobium enhances its mechanical
                             strength and resistance to pitting and crevice corrosion.
                         </p>
@@ -333,7 +336,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">

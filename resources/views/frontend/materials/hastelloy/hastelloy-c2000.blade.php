@@ -28,7 +28,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/hastelloy/hastelloy-c2000.jpg" alt="Hastelloy C2000" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/hastelloy/hastelloy-c2000.jpg" alt="Hastelloy C2000"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -36,8 +37,10 @@
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted manufacturer,
-                            exporter, importer, and stockist of high-performance <a href="{{ route('materials.hastelloy') }}">HASTELLOY C-2000</a> (UNS N06200) products. Our
-                            offering includes <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Fittings, Flanges, Fasteners, Plates, Sheets, Bars, Coils,
+                            exporter, importer, and stockist of high-performance <a
+                                href="{{ route('materials.hastelloy') }}">HASTELLOY C-2000</a> (UNS N06200) products. Our
+                            offering includes <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Fittings,
+                            Flanges, Fasteners, Plates, Sheets, Bars, Coils,
                             Wires, Welding Rods, and fully customized components. Designed to deliver exceptional resistance
                             in the broadest range of corrosive environments, <strong class="text-black">HASTELLOY
                                 C2000</strong> combines outstanding oxidizing and reducing media performance.
@@ -277,7 +280,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">

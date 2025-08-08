@@ -27,7 +27,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/incoloy/incoloy-925.jpg" alt="assets/images/incoloy/incoloy-925.jpg" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/incoloy/incoloy-925.jpg" alt="assets/images/incoloy/incoloy-925.jpg"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -36,8 +37,8 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted global
                             manufacturer, supplier, exporter, importer, and stockist of high-quality INCOLOY® 925 (UNS
-                            N09925) <a href="{{ route('products') }}">products</a>. We offer a complete portfolio including <a
-                                href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings, Flanges,
+                            N09925) <a href="{{ route('products') }}">products</a>. We offer a complete portfolio including
+                            <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings, Flanges,
                             Fasteners, Sheets & Plates, Coils, Wires, Round Bars, Flat Bars, Welding Rods, Wire Mesh, and
                             other Custom-Fabricated Components crafted from this versatile alloy.
                         </p>
@@ -326,7 +327,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">

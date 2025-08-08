@@ -41,7 +41,9 @@
                             Pipes & Tubes, Fittings, Flanges, Sheets & Plates, Round Bars, Wires, Fasteners, and Custom
                             Fabricated Components.
 
-                        <p> <strong class="text-black">SMO 254</strong> is a <a href="{{ route('materials.super-Austenitic-Stainless-Steel') }}">super austenitic stainless steel alloy</a>
+                        <p> <strong class="text-black">SMO 254</strong> is a <a
+                                href="{{ route('materials.super-Austenitic-Stainless-Steel') }}">super austenitic stainless
+                                steel alloy</a>
                             developed for superior corrosion resistance in high chloride environments, including seawater
                             and aggressive chemical media. With high molybdenum (6%) and nitrogen content, it offers
                             excellent pitting resistance, crevice corrosion resistance, and stress corrosion cracking
@@ -67,42 +69,42 @@
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
 
-                                    <th>Element</th>
-                                    <th>Composition (%)</th>
+                                <th>Element</th>
+                                <th>Composition (%)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
 
-                                    <td>Nickel</td>
-                                    <td>17.5 – 18.5</td>
+                                <td>Nickel</td>
+                                <td>17.5 – 18.5</td>
                                 </tr>
 
-                                    <td>Chromium</td>
-                                    <td>19.5 – 20.5</td>
+                                <td>Chromium</td>
+                                <td>19.5 – 20.5</td>
                                 </tr>
 
-                                    <td>Carbon</td>
-                                    <td>0.02 max</td>
+                                <td>Carbon</td>
+                                <td>0.02 max</td>
                                 </tr>
 
-                                    <td>Silicon</td>
-                                    <td>0.8 max</td>
+                                <td>Silicon</td>
+                                <td>0.8 max</td>
                                 </tr>
 
-                                    <td>Manganese</td>
-                                    <td>1.0 max</td>
+                                <td>Manganese</td>
+                                <td>1.0 max</td>
                                 </tr>
 
-                                    <td>Molybdenum</td>
-                                    <td>6.0 – 6.5</td>
+                                <td>Molybdenum</td>
+                                <td>6.0 – 6.5</td>
                                 </tr>
 
-                                    <td>Nitrogen</td>
-                                    <td>0.18 – 0.22</td>
+                                <td>Nitrogen</td>
+                                <td>0.18 – 0.22</td>
                                 </tr>
 
-                                    <td>Iron</td>
-                                    <td>Balance</td>
+                                <td>Iron</td>
+                                <td>Balance</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -127,46 +129,46 @@
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
 
-                                    <th>Property</th>
-                                    <th>Imperial</th>
-                                    <th>Metric</th>
+                                <th>Property</th>
+                                <th>Imperial</th>
+                                <th>Metric</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
 
-                                    <td>Density</td>
-                                    <td>0.289 lb/in³</td>
-                                    <td>8.00 g/cm³</td>
+                                <td>Density</td>
+                                <td>0.289 lb/in³</td>
+                                <td>8.00 g/cm³</td>
                                 </tr>
 
-                                    <td>Melting Point</td>
-                                    <td>2500 – 2650 °F</td>
-                                    <td>1370 – 1454 °C</td>
+                                <td>Melting Point</td>
+                                <td>2500 – 2650 °F</td>
+                                <td>1370 – 1454 °C</td>
                                 </tr>
 
-                                    <td>Modulus of Elasticity – Tension</td>
-                                    <td>29.0 × 10³ ksi</td>
-                                    <td>200 GPa</td>
+                                <td>Modulus of Elasticity – Tension</td>
+                                <td>29.0 × 10³ ksi</td>
+                                <td>200 GPa</td>
                                 </tr>
 
-                                    <td>Modulus of Elasticity – Compression</td>
-                                    <td>29.0 × 10³ ksi</td>
-                                    <td>200 GPa</td>
+                                <td>Modulus of Elasticity – Compression</td>
+                                <td>29.0 × 10³ ksi</td>
+                                <td>200 GPa</td>
                                 </tr>
 
-                                    <td>Modulus of Elasticity – Torsion</td>
-                                    <td>11.0 × 10³ ksi</td>
-                                    <td>76 GPa</td>
+                                <td>Modulus of Elasticity – Torsion</td>
+                                <td>11.0 × 10³ ksi</td>
+                                <td>76 GPa</td>
                                 </tr>
 
-                                    <td>Poisson’s Ratio</td>
-                                    <td>0.29</td>
-                                    <td>—</td>
+                                <td>Poisson’s Ratio</td>
+                                <td>0.29</td>
+                                <td>—</td>
                                 </tr>
 
-                                    <td>Curie Temperature</td>
-                                    <td>Not typically applicable</td>
-                                    <td>Not typically applicable</td>
+                                <td>Curie Temperature</td>
+                                <td>Not typically applicable</td>
+                                <td>Not typically applicable</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -182,42 +184,42 @@
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
 
-                                    <th>Property</th>
-                                    <th>Annealed</th>
-                                    <th>Cold Worked</th>
-                                    <th>Solution Treated</th>
+                                <th>Property</th>
+                                <th>Annealed</th>
+                                <th>Cold Worked</th>
+                                <th>Solution Treated</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
 
-                                    <td>Tensile Strength (ksi / MPa)</td>
-                                    <td>80–100 ksi / 550–690 MPa</td>
-                                    <td>100–120 ksi / 690–830 MPa</td>
-                                    <td>80–100 ksi / 550–690 MPa</td>
+                                <td>Tensile Strength (ksi / MPa)</td>
+                                <td>80–100 ksi / 550–690 MPa</td>
+                                <td>100–120 ksi / 690–830 MPa</td>
+                                <td>80–100 ksi / 550–690 MPa</td>
                                 </tr>
 
-                                    <td>Yield Strength (0.2%) (ksi / MPa)</td>
-                                    <td>40–60 ksi / 275–415 MPa</td>
-                                    <td>65–90 ksi / 450–620 MPa</td>
-                                    <td>40–60 ksi / 275–415 MPa</td>
+                                <td>Yield Strength (0.2%) (ksi / MPa)</td>
+                                <td>40–60 ksi / 275–415 MPa</td>
+                                <td>65–90 ksi / 450–620 MPa</td>
+                                <td>40–60 ksi / 275–415 MPa</td>
                                 </tr>
 
-                                    <td>Elongation (%)</td>
-                                    <td>30–55%</td>
-                                    <td>15–30%</td>
-                                    <td>30–55%</td>
+                                <td>Elongation (%)</td>
+                                <td>30–55%</td>
+                                <td>15–30%</td>
+                                <td>30–55%</td>
                                 </tr>
 
-                                    <td>Hardness (Rockwell B / C)</td>
-                                    <td>75–90 B</td>
-                                    <td>85–95 B</td>
-                                    <td>75–90 B</td>
+                                <td>Hardness (Rockwell B / C)</td>
+                                <td>75–90 B</td>
+                                <td>85–95 B</td>
+                                <td>75–90 B</td>
                                 </tr>
 
-                                    <td>Brinell Hardness (HB)</td>
-                                    <td>160–210 HB</td>
-                                    <td>200–250 HB</td>
-                                    <td>160–210 HB</td>
+                                <td>Brinell Hardness (HB)</td>
+                                <td>160–210 HB</td>
+                                <td>200–250 HB</td>
+                                <td>160–210 HB</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -286,7 +288,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">

@@ -27,7 +27,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/incoloy/incoloy-800H_800HT.jpeg" alt="Monel K500" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/incoloy/incoloy-800H_800HT.jpeg" alt="Monel K500"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -36,7 +37,8 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> INCOLOY 800H and 800HT</strong> are high-performance alloys designed
                             for superior strength and corrosion resistance in high-temperature environments. These alloys
-                            are modifications of <a href="{{ route('materials.incoloy') }}">INCOLOY 800</a>, specifically developed to improve creep and stress rupture
+                            are modifications of <a href="{{ route('materials.incoloy') }}">INCOLOY 800</a>, specifically
+                            developed to improve creep and stress rupture
                             properties at elevated temperatures.
                         </p>
 
@@ -323,7 +325,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">

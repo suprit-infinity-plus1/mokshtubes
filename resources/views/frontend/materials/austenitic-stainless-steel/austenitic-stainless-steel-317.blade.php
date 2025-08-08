@@ -49,7 +49,8 @@
                             environments containing chlorides and acids. It is widely used where higher corrosion resistance
                             than 316 is needed. This alloy also exhibits good strength and excellent resistance to pitting
                             and crevice corrosion, making it ideal for chemical processing, pollution control, and marine
-                            applications.</p>
+                            applications.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -303,7 +304,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">
@@ -481,7 +483,8 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    For detailed product information or to request a quote on Austenitic Stainless Steel 317, contact<strong> Moksh
+                    For detailed product information or to request a quote on Austenitic Stainless Steel 317,
+                    contact<strong> Moksh
                         Tubes &
                         Fittings
                         LLP</strong> — your dependable partner for stainless steel solutions.

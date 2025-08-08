@@ -28,7 +28,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="assets/images/hastelloy/hastelloy-G3.jpg" alt="Hastelloy g3" class="img-fluid rounded shadow-sm">
+                    <img src="assets/images/hastelloy/hastelloy-G3.jpg" alt="Hastelloy g3"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -45,7 +46,8 @@
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black"><a href="{{ route('materials.hastelloy') }}">HASTELLOY G3</a></strong class="text-black"> is a nickel-chromium-iron
+                            <strong class="text-black"><a href="{{ route('materials.hastelloy') }}">HASTELLOY G3</a></strong
+                                class="text-black"> is a nickel-chromium-iron
                             alloy with additions of molybdenum and copper, specifically designed to resist a broad range of
                             oxidizing and reducing chemicals. It offers excellent resistance to sulfuric acid, phosphoric
                             acid, nitric acid, and other strongly corrosive environments. Its improved weldability and lower
@@ -281,7 +283,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">

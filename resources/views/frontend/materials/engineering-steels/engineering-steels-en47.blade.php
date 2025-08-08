@@ -28,7 +28,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/engineering-steels/engineering-steels-en47.jpg" alt="EN47" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/engineering-steels/engineering-steels-en47.jpg" alt="EN47"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -65,38 +66,38 @@
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
 
-                                    <th>Element</th>
-                                    <th>Composition (%)</th>
+                                <th>Element</th>
+                                <th>Composition (%)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
 
-                                    <td>Carbon</td>
-                                    <td>0.45 – 0.53</td>
+                                <td>Carbon</td>
+                                <td>0.45 – 0.53</td>
                                 </tr>
 
-                                    <td>Silicon</td>
-                                    <td>0.17 – 0.37</td>
+                                <td>Silicon</td>
+                                <td>0.17 – 0.37</td>
                                 </tr>
 
-                                    <td>Manganese</td>
-                                    <td>0.50 – 0.80</td>
+                                <td>Manganese</td>
+                                <td>0.50 – 0.80</td>
                                 </tr>
 
-                                    <td>Chromium</td>
-                                    <td>0.80 – 1.10</td>
+                                <td>Chromium</td>
+                                <td>0.80 – 1.10</td>
                                 </tr>
                                 {{--
                                     <td>Molybdenum</td>
                                     <td>0.15 – 0.30</td>
                                 </tr> --}}
 
-                                    <td>Sulfur</td>
-                                    <td>≤ 0.035</td>
+                                <td>Sulfur</td>
+                                <td>≤ 0.035</td>
                                 </tr>
 
-                                    <td>Phosphorus</td>
-                                    <td>≤ 0.035</td>
+                                <td>Phosphorus</td>
+                                <td>≤ 0.035</td>
                                 </tr>
                                 {{--
                                     <td>Nickel</td>
@@ -125,46 +126,46 @@
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
 
-                                    <th>Property</th>
-                                    <th>Imperial</th>
-                                    <th>Metric</th>
+                                <th>Property</th>
+                                <th>Imperial</th>
+                                <th>Metric</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
 
-                                    <td>Density</td>
-                                    <td>0.284 lb/in³</td>
-                                    <td>7.85 g/cm³</td>
+                                <td>Density</td>
+                                <td>0.284 lb/in³</td>
+                                <td>7.85 g/cm³</td>
                                 </tr>
 
-                                    <td>Melting Point</td>
-                                    <td>2480 – 2550 °F</td>
-                                    <td>1358 – 1400 °C</td>
+                                <td>Melting Point</td>
+                                <td>2480 – 2550 °F</td>
+                                <td>1358 – 1400 °C</td>
                                 </tr>
 
-                                    <td>Modulus of Elasticity (Tension)</td>
-                                    <td>29,000 ksi</td>
-                                    <td>200 GPa</td>
+                                <td>Modulus of Elasticity (Tension)</td>
+                                <td>29,000 ksi</td>
+                                <td>200 GPa</td>
                                 </tr>
 
-                                    <td>Modulus of Elasticity (Torsion)</td>
-                                    <td>11,600 ksi</td>
-                                    <td>80 GPa</td>
+                                <td>Modulus of Elasticity (Torsion)</td>
+                                <td>11,600 ksi</td>
+                                <td>80 GPa</td>
                                 </tr>
 
-                                    <td>Poisson’s Ratio</td>
-                                    <td>0.29</td>
-                                    <td>—</td>
+                                <td>Poisson’s Ratio</td>
+                                <td>0.29</td>
+                                <td>—</td>
                                 </tr>
 
-                                    <td>Thermal Conductivity</td>
-                                    <td>44 W/m·K</td>
-                                    <td>44 W/m·K</td>
+                                <td>Thermal Conductivity</td>
+                                <td>44 W/m·K</td>
+                                <td>44 W/m·K</td>
                                 </tr>
 
-                                    <td>Specific Heat Capacity</td>
-                                    <td>460 J/kg·K</td>
-                                    <td>460 J/kg·K</td>
+                                <td>Specific Heat Capacity</td>
+                                <td>460 J/kg·K</td>
+                                <td>460 J/kg·K</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -180,54 +181,54 @@
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
 
-                                    <th>Property</th>
-                                    <th>Annealed</th>
-                                    <th>Hot-Finished</th>
-                                    <th>Cold Drawn</th>
-                                    <th>Hot-rolled</th>
-                                    <th>Sheet</th>
+                                <th>Property</th>
+                                <th>Annealed</th>
+                                <th>Hot-Finished</th>
+                                <th>Cold Drawn</th>
+                                <th>Hot-rolled</th>
+                                <th>Sheet</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
 
-                                    <td>Tensile Strength (ksi / MPa)</td>
-                                    <td>85–105 ksi / 586–724 MPa</td>
-                                    <td>90–120 ksi / 620–827 MPa</td>
-                                    <td>95–135 ksi / 655–931 MPa</td>
-                                    <td>85–110 ksi / 586–758 MPa</td>
-                                    <td>—</td>
+                                <td>Tensile Strength (ksi / MPa)</td>
+                                <td>85–105 ksi / 586–724 MPa</td>
+                                <td>90–120 ksi / 620–827 MPa</td>
+                                <td>95–135 ksi / 655–931 MPa</td>
+                                <td>85–110 ksi / 586–758 MPa</td>
+                                <td>—</td>
                                 </tr>
 
-                                    <td>Yield Strength (0.2%)</td>
-                                    <td>50–65 ksi / 345–448 MPa</td>
-                                    <td>60–100 ksi / 414–690 MPa</td>
-                                    <td>65–110 ksi / 448–758 MPa</td>
-                                    <td>50–75 ksi / 345–517 MPa</td>
-                                    <td>—</td>
+                                <td>Yield Strength (0.2%)</td>
+                                <td>50–65 ksi / 345–448 MPa</td>
+                                <td>60–100 ksi / 414–690 MPa</td>
+                                <td>65–110 ksi / 448–758 MPa</td>
+                                <td>50–75 ksi / 345–517 MPa</td>
+                                <td>—</td>
                                 </tr>
 
-                                    <td>Elongation (%)</td>
-                                    <td>20–25</td>
-                                    <td>15–25</td>
-                                    <td>12–18</td>
-                                    <td>18–25</td>
-                                    <td>—</td>
+                                <td>Elongation (%)</td>
+                                <td>20–25</td>
+                                <td>15–25</td>
+                                <td>12–18</td>
+                                <td>18–25</td>
+                                <td>—</td>
                                 </tr>
 
-                                    <td>Brinell Hardness (3000 kg)</td>
-                                    <td>150–200</td>
-                                    <td>180–250</td>
-                                    <td>200–270</td>
-                                    <td>150–210</td>
-                                    <td>—</td>
+                                <td>Brinell Hardness (3000 kg)</td>
+                                <td>150–200</td>
+                                <td>180–250</td>
+                                <td>200–270</td>
+                                <td>150–210</td>
+                                <td>—</td>
                                 </tr>
 
-                                    <td>Rockwell Hardness (B / C)</td>
-                                    <td>80–90 B</td>
-                                    <td>85–95 B</td>
-                                    <td>90–95 B / 20–30 C</td>
-                                    <td>80–90 B</td>
-                                    <td>—</td>
+                                <td>Rockwell Hardness (B / C)</td>
+                                <td>80–90 B</td>
+                                <td>85–95 B</td>
+                                <td>90–95 B / 20–30 C</td>
+                                <td>80–90 B</td>
+                                <td>—</td>
                             </tbody>
                         </table>
                     </div>
@@ -296,7 +297,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">
@@ -359,7 +361,8 @@
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Engineering Steel 47</h2>
-                <p class="text-center pb-3"><strong class="text-dark">Engineering Steel 47</strong> is widely used for applications requiring high wear resistance and fatigue strength:</p>
+                <p class="text-center pb-3"><strong class="text-dark">Engineering Steel 47</strong> is widely used for
+                    applications requiring high wear resistance and fatigue strength:</p>
             </div>
 
             <div class="row g-4 justify-content-center">
@@ -474,7 +477,8 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    For quotations and inquiries about EN47 steel bars, springs, and components, contact<strong> Moksh Tubes & Fittings LLP
+                    For quotations and inquiries about EN47 steel bars, springs, and components, contact<strong> Moksh Tubes
+                        & Fittings LLP
                     </strong> — your trusted partner for alloy steels.
                 </p>
                 <!-- Call button -->

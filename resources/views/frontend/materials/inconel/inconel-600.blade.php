@@ -37,7 +37,8 @@
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a leading manufacturer,
                             supplier, exporter, importer, and stockist of high-performance <strong
                                 class="text-black">INCONEL 600 (UNS N06600)</strong>
-                            <a href="{{ route('products') }}">products</a>. We offer a wide range of forms including <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings, Flanges,
+                            <a href="{{ route('products') }}">products</a>. We offer a wide range of forms including <a
+                                href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings, Flanges,
                             Fasteners, Sheets & Plates, Coils, Wires, Round Bars, Flat Bars, Angles, Channels, Welding Rods,
                             Wire Mesh, and other custom and hard-to-find Inconel 600 products.
                         </p>
@@ -72,42 +73,42 @@
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
 
-                                    <th>Element</th>
-                                    <th>Composition (%)</th>
+                                <th>Element</th>
+                                <th>Composition (%)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
 
-                                    <td>Nickel</td>
-                                    <td>72.0 min (Balance)</td>
+                                <td>Nickel</td>
+                                <td>72.0 min (Balance)</td>
                                 </tr>
 
-                                    <td>Chromium</td>
-                                    <td>14.0 – 17.0</td>
+                                <td>Chromium</td>
+                                <td>14.0 – 17.0</td>
                                 </tr>
 
-                                    <td>Iron</td>
-                                    <td>6.0 – 10.0</td>
+                                <td>Iron</td>
+                                <td>6.0 – 10.0</td>
                                 </tr>
 
-                                    <td>Carbon</td>
-                                    <td>0.15 max</td>
+                                <td>Carbon</td>
+                                <td>0.15 max</td>
                                 </tr>
 
-                                    <td>Manganese</td>
-                                    <td>1.0 max</td>
+                                <td>Manganese</td>
+                                <td>1.0 max</td>
                                 </tr>
 
-                                    <td>Sulfur</td>
-                                    <td>0.015 max</td>
+                                <td>Sulfur</td>
+                                <td>0.015 max</td>
                                 </tr>
 
-                                    <td>Silicon</td>
-                                    <td>0.5 max</td>
+                                <td>Silicon</td>
+                                <td>0.5 max</td>
                                 </tr>
 
-                                    <td>Copper</td>
-                                    <td>0.5 max</td>
+                                <td>Copper</td>
+                                <td>0.5 max</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -132,41 +133,41 @@
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
 
-                                    <th>Property</th>
-                                    <th>Imperial</th>
-                                    <th>Metric</th>
+                                <th>Property</th>
+                                <th>Imperial</th>
+                                <th>Metric</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
 
-                                    <td>Density</td>
-                                    <td>0.306 lb/in³</td>
-                                    <td>8.47 Mg/m³</td>
+                                <td>Density</td>
+                                <td>0.306 lb/in³</td>
+                                <td>8.47 Mg/m³</td>
                                 </tr>
 
-                                    <td>Melting Range</td>
-                                    <td>2470–2575 °F</td>
-                                    <td>1354–1413 °C</td>
+                                <td>Melting Range</td>
+                                <td>2470–2575 °F</td>
+                                <td>1354–1413 °C</td>
                                 </tr>
 
-                                    <td>Specific Heat</td>
-                                    <td>0.106 Btu/lb·°F</td>
-                                    <td>444 J/kg·°C</td>
+                                <td>Specific Heat</td>
+                                <td>0.106 Btu/lb·°F</td>
+                                <td>444 J/kg·°C</td>
                                 </tr>
 
-                                    <td>Electrical Resistivity</td>
-                                    <td>620 ohm·circ mil/ft</td>
-                                    <td>1.03 µΩ·m</td>
+                                <td>Electrical Resistivity</td>
+                                <td>620 ohm·circ mil/ft</td>
+                                <td>1.03 µΩ·m</td>
                                 </tr>
 
-                                    <td>Curie Temperature</td>
-                                    <td>–192 °F</td>
-                                    <td>–124 °C</td>
+                                <td>Curie Temperature</td>
+                                <td>–192 °F</td>
+                                <td>–124 °C</td>
                                 </tr>
 
-                                    <td>Permeability at 200 oersted (15.9 kA/m)</td>
-                                    <td>1.010</td>
-                                    <td>—</td>
+                                <td>Permeability at 200 oersted (15.9 kA/m)</td>
+                                <td>1.010</td>
+                                <td>—</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -182,132 +183,132 @@
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
 
-                                    <th>Property</th>
-                                    <th>Rod & Bar (CD, Annealed)</th>
-                                    <th>Rod & Bar (CD, As-Drawn)</th>
-                                    <th>Rod & Bar (HF, Annealed)</th>
-                                    <th>Rod & Bar (HF)</th>
-                                    <th>Plate (Annealed)</th>
-                                    <th>Plate (As-Rolled)</th>
-                                    <th>Sheet (Annealed)</th>
-                                    <th>Sheet (Hard)</th>
-                                    <th>Strip (Annealed)</th>
-                                    <th>Strip (Spring Temper)</th>
-                                    <th>Tube/Pipe (HF)</th>
-                                    <th>Tube/Pipe (CD, Annealed)</th>
-                                    <th>Wire (Annealed)</th>
-                                    <th>Wire (No. 1 Temper)</th>
-                                    <th>Wire (Spring Temper)</th>
+                                <th>Property</th>
+                                <th>Rod & Bar (CD, Annealed)</th>
+                                <th>Rod & Bar (CD, As-Drawn)</th>
+                                <th>Rod & Bar (HF, Annealed)</th>
+                                <th>Rod & Bar (HF)</th>
+                                <th>Plate (Annealed)</th>
+                                <th>Plate (As-Rolled)</th>
+                                <th>Sheet (Annealed)</th>
+                                <th>Sheet (Hard)</th>
+                                <th>Strip (Annealed)</th>
+                                <th>Strip (Spring Temper)</th>
+                                <th>Tube/Pipe (HF)</th>
+                                <th>Tube/Pipe (CD, Annealed)</th>
+                                <th>Wire (Annealed)</th>
+                                <th>Wire (No. 1 Temper)</th>
+                                <th>Wire (Spring Temper)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
 
-                                    <td>Tensile Strength (ksi)</td>
-                                    <td>80–100</td>
-                                    <td>105–150</td>
-                                    <td>80–100</td>
-                                    <td>85–120</td>
-                                    <td>80–105</td>
-                                    <td>85–110</td>
-                                    <td>80–100</td>
-                                    <td>120–150</td>
-                                    <td>80–100</td>
-                                    <td>145–170</td>
-                                    <td>75–100</td>
-                                    <td>80–100</td>
-                                    <td>80–120</td>
-                                    <td>105–135</td>
-                                    <td>170–220</td>
+                                <td>Tensile Strength (ksi)</td>
+                                <td>80–100</td>
+                                <td>105–150</td>
+                                <td>80–100</td>
+                                <td>85–120</td>
+                                <td>80–105</td>
+                                <td>85–110</td>
+                                <td>80–100</td>
+                                <td>120–150</td>
+                                <td>80–100</td>
+                                <td>145–170</td>
+                                <td>75–100</td>
+                                <td>80–100</td>
+                                <td>80–120</td>
+                                <td>105–135</td>
+                                <td>170–220</td>
                                 </tr>
 
-                                    <td>Tensile Strength (MPa)</td>
-                                    <td>550–690</td>
-                                    <td>725–1035</td>
-                                    <td>550–690</td>
-                                    <td>585–830</td>
-                                    <td>550–725</td>
-                                    <td>580–760</td>
-                                    <td>550–690</td>
-                                    <td>830–1035</td>
-                                    <td>550–690</td>
-                                    <td>1000–1170</td>
-                                    <td>520–690</td>
-                                    <td>550–690</td>
-                                    <td>550–830</td>
-                                    <td>725–930</td>
-                                    <td>1170–1520</td>
+                                <td>Tensile Strength (MPa)</td>
+                                <td>550–690</td>
+                                <td>725–1035</td>
+                                <td>550–690</td>
+                                <td>585–830</td>
+                                <td>550–725</td>
+                                <td>580–760</td>
+                                <td>550–690</td>
+                                <td>830–1035</td>
+                                <td>550–690</td>
+                                <td>1000–1170</td>
+                                <td>520–690</td>
+                                <td>550–690</td>
+                                <td>550–830</td>
+                                <td>725–930</td>
+                                <td>1170–1520</td>
                                 </tr>
 
-                                    <td>Yield Strength (ksi)</td>
-                                    <td>25–50</td>
-                                    <td>80–125</td>
-                                    <td>30–50</td>
-                                    <td>35–90</td>
-                                    <td>30–50</td>
-                                    <td>35–65</td>
-                                    <td>30–45</td>
-                                    <td>90–125</td>
-                                    <td>30–45</td>
-                                    <td>120–160</td>
-                                    <td>25–50</td>
-                                    <td>25–50</td>
-                                    <td>35–75</td>
-                                    <td>70–105</td>
-                                    <td>150–210</td>
+                                <td>Yield Strength (ksi)</td>
+                                <td>25–50</td>
+                                <td>80–125</td>
+                                <td>30–50</td>
+                                <td>35–90</td>
+                                <td>30–50</td>
+                                <td>35–65</td>
+                                <td>30–45</td>
+                                <td>90–125</td>
+                                <td>30–45</td>
+                                <td>120–160</td>
+                                <td>25–50</td>
+                                <td>25–50</td>
+                                <td>35–75</td>
+                                <td>70–105</td>
+                                <td>150–210</td>
                                 </tr>
 
-                                    <td>Yield Strength (MPa)</td>
-                                    <td>170–345</td>
-                                    <td>550–860</td>
-                                    <td>205–345</td>
-                                    <td>240–620</td>
-                                    <td>205–345</td>
-                                    <td>240–450</td>
-                                    <td>205–310</td>
-                                    <td>620–860</td>
-                                    <td>205–310</td>
-                                    <td>830–1100</td>
-                                    <td>170–345</td>
-                                    <td>170–345</td>
-                                    <td>240–520</td>
-                                    <td>480–725</td>
-                                    <td>1035–1450</td>
+                                <td>Yield Strength (MPa)</td>
+                                <td>170–345</td>
+                                <td>550–860</td>
+                                <td>205–345</td>
+                                <td>240–620</td>
+                                <td>205–345</td>
+                                <td>240–450</td>
+                                <td>205–310</td>
+                                <td>620–860</td>
+                                <td>205–310</td>
+                                <td>830–1100</td>
+                                <td>170–345</td>
+                                <td>170–345</td>
+                                <td>240–520</td>
+                                <td>480–725</td>
+                                <td>1035–1450</td>
                                 </tr>
 
-                                    <td>Elongation (%)</td>
-                                    <td>55–35</td>
-                                    <td>30–10</td>
-                                    <td>55–35</td>
-                                    <td>50–30</td>
-                                    <td>55–35</td>
-                                    <td>50–30</td>
-                                    <td>55–35</td>
-                                    <td>15–2</td>
-                                    <td>55–35</td>
-                                    <td>10–2</td>
-                                    <td>55–35</td>
-                                    <td>55–35</td>
-                                    <td>45–20</td>
-                                    <td>35–15</td>
-                                    <td>5–2</td>
+                                <td>Elongation (%)</td>
+                                <td>55–35</td>
+                                <td>30–10</td>
+                                <td>55–35</td>
+                                <td>50–30</td>
+                                <td>55–35</td>
+                                <td>50–30</td>
+                                <td>55–35</td>
+                                <td>15–2</td>
+                                <td>55–35</td>
+                                <td>10–2</td>
+                                <td>55–35</td>
+                                <td>55–35</td>
+                                <td>45–20</td>
+                                <td>35–15</td>
+                                <td>5–2</td>
                                 </tr>
 
-                                    <td>Hardness (Rockwell)</td>
-                                    <td>65–85B</td>
-                                    <td>90B–30C</td>
-                                    <td>65–85B</td>
-                                    <td>75–95B</td>
-                                    <td>65–85B</td>
-                                    <td>80–95B</td>
-                                    <td>88B max</td>
-                                    <td>24C min</td>
-                                    <td>84B max</td>
-                                    <td>30C min</td>
-                                    <td>–</td>
-                                    <td>88B max</td>
-                                    <td>–</td>
-                                    <td>–</td>
-                                    <td>–</td>
+                                <td>Hardness (Rockwell)</td>
+                                <td>65–85B</td>
+                                <td>90B–30C</td>
+                                <td>65–85B</td>
+                                <td>75–95B</td>
+                                <td>65–85B</td>
+                                <td>80–95B</td>
+                                <td>88B max</td>
+                                <td>24C min</td>
+                                <td>84B max</td>
+                                <td>30C min</td>
+                                <td>–</td>
+                                <td>88B max</td>
+                                <td>–</td>
+                                <td>–</td>
+                                <td>–</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -381,7 +382,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">

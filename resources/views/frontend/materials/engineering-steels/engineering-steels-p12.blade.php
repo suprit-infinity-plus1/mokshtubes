@@ -28,7 +28,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/engineering-steels/engineering-steels-p12.jpg" alt="ENp12" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/engineering-steels/engineering-steels-p12.jpg" alt="ENp12"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -297,7 +298,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">
@@ -360,7 +362,8 @@
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Engineering Steel P12</h2>
-                <p class="text-center pb-3"><strong class="text-dark">Engineering Steel P12</strong> is widely used in:</p>
+                <p class="text-center pb-3"><strong class="text-dark">Engineering Steel P12</strong> is widely used in:
+                </p>
             </div>
 
             <div class="row g-4 justify-content-center">
@@ -368,7 +371,8 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
                         <h5>Power Generation</h5>
-                        <p>Boiler tubes, superheater tubes, and heat exchanger tubes operating at elevated temperatures and pressures.
+                        <p>Boiler tubes, superheater tubes, and heat exchanger tubes operating at elevated temperatures and
+                            pressures.
                         </p>
                     </div>
                 </div>

@@ -289,7 +289,8 @@
             <div class="row justify-content-center mb-4" style="text-align: justify;">
                 <div class="col-lg-10">
                     <p class="fs-6">
-                        <strong class="text-dark">Haynes Superalloys 230</strong> is supplied in multiple product forms meeting ASTM, ASME, and other industry standards:
+                        <strong class="text-dark">Haynes Superalloys 230</strong> is supplied in multiple product forms
+                        meeting ASTM, ASME, and other industry standards:
                     </p>
                 </div>
             </div>
@@ -324,7 +325,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">

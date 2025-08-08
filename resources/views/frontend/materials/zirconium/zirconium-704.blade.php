@@ -271,7 +271,8 @@
             <div class="row justify-content-center mb-4" style="text-align: justify;">
                 <div class="col-lg-10">
                     <p class="fs-6">
-                        <strong class="text-dark">Zirconium 704</strong> in numerous standard and custom formats to match your project requirements:
+                        <strong class="text-dark">Zirconium 704</strong> in numerous standard and custom formats to match
+                        your project requirements:
                     </p>
                 </div>
             </div>
@@ -306,7 +307,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">
@@ -377,7 +379,8 @@
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Zirconium 704</h2>
-                <p class="text-center pb-3"><strong class="text-dark">Zirconium 704</strong> meets the exacting demands of environments requiring purity, consistency, and durability:
+                <p class="text-center pb-3"><strong class="text-dark">Zirconium 704</strong> meets the exacting demands of
+                    environments requiring purity, consistency, and durability:
                 </p>
             </div>
 
@@ -430,7 +433,7 @@
                     </div>
                 </div>
 
-                 {{-- <div class="col-md-6 col-lg-4">
+                {{-- <div class="col-md-6 col-lg-4">
                 <div class="application-card">
                      <div class="application-icon"><i class="bi bi-strategies"></i></div>
                     <h5>Why It Works</h5>

@@ -267,7 +267,8 @@
             <div class="row justify-content-center mb-4" style="text-align: justify;">
                 <div class="col-lg-10">
                     <p class="fs-6">
-                        <strong class="text-dark">Zirconium 705</strong> is stocked or fabricated to your specifications in the following formats:
+                        <strong class="text-dark">Zirconium 705</strong> is stocked or fabricated to your specifications in
+                        the following formats:
                     </p>
                 </div>
             </div>
@@ -302,7 +303,8 @@
                 @foreach ($products as $slug => $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none">
+                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
+                            <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product }}"
                                         class="img-fluid  w-100">
@@ -373,7 +375,8 @@
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Zirconium 705</h2>
-                <p class="text-center pb-3"><strong class="text-dark">Zirconium 705</strong> is the go-to alloy when reliability and purity outweigh all other requirements:
+                <p class="text-center pb-3"><strong class="text-dark">Zirconium 705</strong> is the go-to alloy when
+                    reliability and purity outweigh all other requirements:
                 </p>
             </div>
 
@@ -382,7 +385,8 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
                         <h5>Chemical Processing</h5>
-                        <p>Reactor vessels, piping systems, heat exchangers, and pressure chambers in harsh chemical environments.</p>
+                        <p>Reactor vessels, piping systems, heat exchangers, and pressure chambers in harsh chemical
+                            environments.</p>
                     </div>
                 </div>
 
@@ -398,7 +402,8 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
                         <h5>Pharmaceutical & Biotech</h5>
-                        <p>High-purity process piping, sterile components, and cleanroom systems requiring contamination control.</p>
+                        <p>High-purity process piping, sterile components, and cleanroom systems requiring contamination
+                            control.</p>
                     </div>
                 </div>
 
