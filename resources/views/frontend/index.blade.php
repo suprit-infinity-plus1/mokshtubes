@@ -73,7 +73,7 @@
                         data-splitout="none" data-responsive_offset="on" data-start="2300">
                         <div class="slide-content-box">
                             <div class="button">
-                                <a class="thm-btn bg-clr1" href="#">About Us</a>
+                                <a class="thm-btn bg-clr1" href="{{ route('about-us') }}">About Us</a>
                             </div>
                         </div>
                     </div>
