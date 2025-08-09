@@ -27,6 +27,12 @@ class MainController extends Controller
     {
         return view('frontend.gulalwadi');
     }
+
+    public function blogs()
+    {
+        return view('frontend.blogs');
+    }
+
     public function contactUsKhetwadi()
     {
         return view('frontend.khetwadi');
@@ -35,6 +41,16 @@ class MainController extends Controller
     // {
     //     return view('frontend.materials');
     // }
+
+    public function StainlessSteelInconelTubes()
+    {
+
+        return view('frontend.blogs.stainless-steel-inconel-tubes');
+    }
+
+
+
+
     public function materials()
     {
         $materials = [

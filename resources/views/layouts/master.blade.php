@@ -305,7 +305,7 @@
                                                         'Austenitic Stainless Steel',
                                                         // 'High Strength Stainless Steel',
                                                         'Super Austenitic Stainless Steel',
-                                                        // 'Zirconium',
+                                                        'Zirconium',
                                                         'Engineering Steels',
                                                         'Aluminium Alloys',
                                                         'Copper Alloys',
@@ -333,7 +333,7 @@
                                         <li class="nav-item"><a class="nav-link" href="#">QUALITY</a></li>
                                         <li class="nav-item"><a class="nav-link"
                                                 href="{{ route('calculator') }}">CALCULATOR</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="#">Blogs</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="{{ route('blogs') }}">Blogs</a></li>
                                     </ul>
                                     <ul class="mobile-menu clearfix">
                                         <li><a href="{{ route('home') }}">Home</a></li>
@@ -351,7 +351,7 @@
                                         <li><a href="#">MATERIALS</a></li>
                                         <li><a href="#">QUALITY</a></li>
                                         <li><a href="{{ route('calculator') }}">CALCULATOR</a></li>
-                                        <li><a href="#">Blogs</a></li>
+                                        <li><a href="{{ route('blogs') }}">Blogs</a></li>
 
                                     </ul>
                                 </div>
@@ -459,7 +459,7 @@
                                     <li><a href="{{ route('home') }}">Home</a></li>
                                     <li><a href="{{ route('about-us') }}">About Us</a></li>
                                     <li><a href="{{ route('products') }}">Our Products</a></li>
-                                    <li><a href="#">Blogs</a></li>
+                                    <li><a href="{{ route('blogs') }}">Blogs</a></li>
                                     <li><a href="{{ route('contact-us') }}">Contact Us</a></li>
                                 </ul>
 
