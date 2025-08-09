@@ -15,6 +15,9 @@ Route::get('/contact-us/khetwadi', [MainController::class, 'contactUsKhetwadi'])
 Route::get('/about-us', [MainController::class, 'aboutUs'])->name('about-us');
 Route::get('/calculator', [MainController::class, 'calculator'])->name('calculator');
 Route::get('/materials', [MainController::class, 'materials'])->name('materials');
+Route::get('/blogs', [MainController::class, 'blogs'])->name('blogs');
+
+
 Route::get('/materials/hastelloy', [MainController::class, 'hastelloy'])->name('materials.hastelloy');
 Route::get('/materials/monel', [MainController::class, 'monel'])->name('materials.monel');
 Route::get('/materials/incoloy', [MainController::class, 'incoloy'])->name('materials.incoloy');
@@ -42,6 +45,8 @@ Route::get('/products/pipes-tubes/hollow-section-pipe', [MainController::class, 
 Route::get('/products/pipes-tubes/u-bent-tubes', [MainController::class, 'uBentTubes'])->name('products.pipes-tubes.u-bent-tubes');
 Route::get('/products/pipes-tubes/boiler-heat-exchanger-tubes', [MainController::class, 'boilerHeatExchangerTubes'])->name('products.pipes-tubes.boiler-heat-exchanger-tubes');
 
+//blogs//
+Route::get('/blogs/stainless-steel-inconel-tubes', [MainController::class, 'StainlessSteelInconelTubes'])->name('blogs.stainless-steel-inconel-tubes');
 
 // Route::get('/materials/nickel-alloys', [MainController::class, 'nickelAlloys'])->name('materials.nickel-alloys');
 

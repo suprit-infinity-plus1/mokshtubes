@@ -523,16 +523,22 @@ textarea {
     -o-transition: all 0.7s ease;
 }
 
-.section-title {
+.section-title,
+.blog-title {
     position: relative;
     margin-bottom: 50px;
 }
 
-.section-title h2 {
+.section-title h2 ,
+.blog-title h2 {
     position: relative;
     text-transform: capitalize;
     font-weight: 600;
     padding-bottom: 20px;
+}
+.blog-title h2 {
+    padding-bottom: 0;
+        color: var(--primary);
 }
 
 .section-title h3 {
@@ -8383,4 +8389,12 @@ ul.gallery-filter li span {
 .t-row:hover td {
     background-color: #db7227 !important;
     color: white !important;
+}
+
+.accordion-box .accordion .accord-btn.active {
+     background: var(--brown) none repeat scroll 0;
+}
+
+.accordion-box .accordion .accord-btn.active h4 {
+    color: #ffffff;
 }
