@@ -1,7 +1,10 @@
 @extends('layouts.master')
 
 @section('title', 'Austenitic Stainless Steel Nitronic 60')
-@section('meta_description', 'Nitronic 60 stainless steel with excellent wear & galling resistance.')
+@section('meta_description',
+    'Nitronic 60 alloy offering durability and corrosion resistance, perfect for heavy-duty
+    industrial and harsh environment applications.')
+    {{-- @section('meta_description', 'Nitronic 60 stainless steel with excellent wear & galling resistance.') --}}
 
 @section('content')
     <!--Start breadcrumb area-->

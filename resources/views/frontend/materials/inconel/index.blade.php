@@ -1,6 +1,7 @@
 @extends('layouts.master')
 @section('title', 'Inconel Alloys | High-Performance Nickel Alloys | Mokshtubes')
-@section('meta_description', 'Discover top Inconel grades like 600, 625, 718, and X-750. Known for high-temperature
+@section('meta_description',
+    'Discover top Inconel grades like 600, 625, 718, and X-750. Known for high-temperature
     strength, oxidation resistance, and performance in extreme environments.')
 @section('content')
     <!--Start breadcrumb area-->
@@ -26,12 +27,36 @@
 
             @php
                 $grades = [
-                    ['name' => 'Inconel 600', 'slug' => 'inconel-600', 'image' => 'assets/images/inconel/inconel-600.jpg'],
-                    ['name' => 'Inconel 617', 'slug' => 'inconel-617', 'image' => 'assets/images/inconel/Inconel-617.jpeg'],
-                    ['name' => 'Inconel 625', 'slug' => 'inconel-625', 'image' => 'assets/images/inconel/Inconel-625.jpeg'],
-                    ['name' => 'Inconel 690', 'slug' => 'inconel-690', 'image' => 'assets/images/inconel/Inconel-690.jpg'],
-                    ['name' => 'Inconel 718', 'slug' => 'inconel-718', 'image' => 'assets/images/inconel/Inconel-718.jpg'],
-                    ['name' => 'Inconel x750', 'slug' => 'inconel-x750', 'image' => 'assets/images/inconel/Inconel-X 750.jpg'],
+                    [
+                        'name' => 'Inconel 600',
+                        'slug' => 'inconel-600',
+                        'image' => 'assets/images/inconel/inconel-600.jpg',
+                    ],
+                    [
+                        'name' => 'Inconel 617',
+                        'slug' => 'inconel-617',
+                        'image' => 'assets/images/inconel/Inconel-617.jpeg',
+                    ],
+                    [
+                        'name' => 'Inconel 625',
+                        'slug' => 'inconel-625',
+                        'image' => 'assets/images/inconel/Inconel-625.jpeg',
+                    ],
+                    [
+                        'name' => 'Inconel 690',
+                        'slug' => 'inconel-690',
+                        'image' => 'assets/images/inconel/Inconel-690.jpg',
+                    ],
+                    [
+                        'name' => 'Inconel 718',
+                        'slug' => 'inconel-718',
+                        'image' => 'assets/images/inconel/Inconel-718.jpg',
+                    ],
+                    [
+                        'name' => 'Inconel x750',
+                        'slug' => 'inconel-x750',
+                        'image' => 'assets/images/inconel/Inconel-X 750.jpg',
+                    ],
                 ];
             @endphp
 
@@ -46,8 +71,8 @@
                                 style="border-color: #db7227; transition: 0.3s;">
                                 {{-- <img src="https://placehold.co/300x180/db7227/fff?text={{ urlencode($grade['name']) }}"
                                     alt="{{ $grade['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;"> --}}
-                                    <img src="{{ asset($grade['image']) }}"
-                                    alt="{{ $grade['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+                                <img src="{{ asset($grade['image']) }}" alt="{{ $grade['name'] }}"
+                                    class="img-fluid rounded mb-3" style="border-radius: 8px;">
                                 <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                     style="background-color: #174268; color: #fff; display: inline-block;">
                                     {{ $grade['name'] }}

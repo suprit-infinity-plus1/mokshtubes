@@ -1,7 +1,12 @@
 @extends('layouts.master')
 @section('title', 'Hastelloy Alloys | Grades, Properties & Applications | Mokshtubes')
-@section('meta_description', 'Explore the full range of Hastelloy alloys including C276, C22, B2, and G30. Ideal for
-    corrosion resistance in chemical, marine, and power plant industries.')
+@section('meta_description',
+    'Reliable Hastelloy alloys with exceptional corrosion and heat resistance, perfect for harsh chemical, marine, and
+    aerospace industries.
+    ')
+    {{-- @section('meta_description',
+    'Explore the full range of Hastelloy alloys including C276, C22, B2, and G30. Ideal for
+    corrosion resistance in chemical, marine, and power plant industries.') --}}
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
@@ -26,15 +31,51 @@
 
             @php
                 $grades = [
-                    ['name' => 'Hastelloy C276', 'slug' => 'hastelloy-c276', 'image' => 'assets/images/hastelloy/hastelloy-c276.jpeg'],
-                    ['name' => 'Hastelloy C22', 'slug' => 'hastelloy-c22', 'image' => 'assets/images/hastelloy/hastelloy-c22.jpeg'],
-                    ['name' => 'Hastelloy C4', 'slug' => 'hastelloy-c4', 'image' => 'assets/images/hastelloy/hastelloy-C4.jpeg'],
-                    ['name' => 'Hastelloy B2', 'slug' => 'hastelloy-b2', 'image' => 'assets/images/hastelloy/hastelloy-b2.jpeg'],
-                    ['name' => 'Hastelloy B3', 'slug' => 'hastelloy-b3', 'image' => 'assets/images/hastelloy/Hastelloy-B3.jpeg'],
-                    ['name' => 'Hastelloy C2000', 'slug' => 'hastelloy-c2000', 'image' => 'assets/images/hastelloy/hastelloy-c2000.jpg'],
-                    ['name' => 'Hastelloy G3', 'slug' => 'hastelloy-g3', 'image' => 'assets/images/hastelloy/hastelloy-G3.jpg'],
-                    ['name' => 'Hastelloy G30', 'slug' => 'hastelloy-g30', 'image' => 'assets/images/hastelloy/Hastelloy-G30.jpeg'],
-                    ['name' => 'Hastelloy X', 'slug' => 'hastelloy-x', 'image' => 'assets/images/hastelloy/hastelloy-X.jpg'],
+                    [
+                        'name' => 'Hastelloy C276',
+                        'slug' => 'hastelloy-c276',
+                        'image' => 'assets/images/hastelloy/hastelloy-c276.jpeg',
+                    ],
+                    [
+                        'name' => 'Hastelloy C22',
+                        'slug' => 'hastelloy-c22',
+                        'image' => 'assets/images/hastelloy/hastelloy-c22.jpeg',
+                    ],
+                    [
+                        'name' => 'Hastelloy C4',
+                        'slug' => 'hastelloy-c4',
+                        'image' => 'assets/images/hastelloy/hastelloy-C4.jpeg',
+                    ],
+                    [
+                        'name' => 'Hastelloy B2',
+                        'slug' => 'hastelloy-b2',
+                        'image' => 'assets/images/hastelloy/hastelloy-b2.jpeg',
+                    ],
+                    [
+                        'name' => 'Hastelloy B3',
+                        'slug' => 'hastelloy-b3',
+                        'image' => 'assets/images/hastelloy/Hastelloy-B3.jpeg',
+                    ],
+                    [
+                        'name' => 'Hastelloy C2000',
+                        'slug' => 'hastelloy-c2000',
+                        'image' => 'assets/images/hastelloy/hastelloy-c2000.jpg',
+                    ],
+                    [
+                        'name' => 'Hastelloy G3',
+                        'slug' => 'hastelloy-g3',
+                        'image' => 'assets/images/hastelloy/hastelloy-G3.jpg',
+                    ],
+                    [
+                        'name' => 'Hastelloy G30',
+                        'slug' => 'hastelloy-g30',
+                        'image' => 'assets/images/hastelloy/Hastelloy-G30.jpeg',
+                    ],
+                    [
+                        'name' => 'Hastelloy X',
+                        'slug' => 'hastelloy-x',
+                        'image' => 'assets/images/hastelloy/hastelloy-X.jpg',
+                    ],
                 ];
             @endphp
 
@@ -49,8 +90,8 @@
                                 style="border-color: #db7227; transition: 0.3s;">
                                 {{-- <img src="https://placehold.co/300x180/db7227/fff?text={{ urlencode($grade['name']) }}"
                                     alt="{{ $grade['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;"> --}}
-                                     <img src="{{ asset($grade['image']) }}"
-                                    alt="{{ $grade['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+                                <img src="{{ asset($grade['image']) }}" alt="{{ $grade['name'] }}"
+                                    class="img-fluid rounded mb-3" style="border-radius: 8px;">
                                 <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                     style="background-color: #174268; color: #fff; display: inline-block;">
                                     {{ $grade['name'] }}

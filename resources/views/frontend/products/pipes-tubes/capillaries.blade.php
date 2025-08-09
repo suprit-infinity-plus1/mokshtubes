@@ -1,5 +1,9 @@
 @extends('layouts.master')
-@section('title', 'Capillary Tubes | Moksh Tubes')
+@section('title', 'Capillary Tubes | Precision & High-Performance Solutions | Mokshtubes')
+@section('meta_description',
+    'Explore premium capillary tubes delivering exceptional precision, durability, and reliability for diverse industrial
+    and medical applications.
+    ')
 @section('content')
     <!--Start breadcrumb area-->
 
@@ -27,7 +31,8 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/peoduct/capillary-tubes.jpg" alt="Capillary Tubes" class="img-fluid rounded shadow-sm">
+                    <img src="/assets/images/peoduct/capillary-tubes.jpg" alt="Capillary Tubes"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Right Content -->
@@ -1101,7 +1106,8 @@
                 <h2>Grades Available</h2>
             </div>
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Capillary Tubes are manufactured in a wide range of grades to suit specialized environments:</h4>
+                <h4 class="text-center mb-0" style="color: #db7227;">Capillary Tubes are manufactured in a wide range of
+                    grades to suit specialized environments:</h4>
             </div>
 
             <div class="row justify-content-center">
@@ -1117,7 +1123,8 @@
                             <tbody>
                                 <tr class="t-row">
                                     <td>Stainless Steel Grades</td>
-                                    <td>304, 304L, 316, 316L, 321, 310 – for medical, food-grade, and precision applications.</td>
+                                    <td>304, 304L, 316, 316L, 321, 310 – for medical, food-grade, and precision
+                                        applications.</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Nickel Alloys</td>
@@ -1444,7 +1451,8 @@
             <div class="section-title center">
                 <h2>Applications</h2>
                 <p class="text-center pb-3">
-                    <strong class="text-black">Capillary Tubes</strong> are critical for industries requiring precise control and miniature fluid handling, including:
+                    <strong class="text-black">Capillary Tubes</strong> are critical for industries requiring precise
+                    control and miniature fluid handling, including:
                 </p>
             </div>
 
@@ -1508,7 +1516,7 @@
                         <h5>Chemical & Petrochemical</h5>
                         <ul>
                             <li>
-                               Microfluidics and sampling lines
+                                Microfluidics and sampling lines
                             </li>
                             <li>
                                 Chemical dosing and analytical instrumentation

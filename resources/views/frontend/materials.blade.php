@@ -1,6 +1,14 @@
 @extends('layouts.master')
 
-@section('title', 'Materials | Moksh Tubes')
+@section('title',
+    'Metal Materials | High-Quality Alloys & Grades | Mokshtubes
+    ')
+
+@section('meta_description',
+    'Discover a broad selection of high-quality metal materials and alloys, offering exceptional strength, corrosion
+    resistance, and versatility for every industry.
+
+    ')
 
 @section('content')
 

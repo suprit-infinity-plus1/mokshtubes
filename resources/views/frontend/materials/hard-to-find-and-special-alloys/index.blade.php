@@ -1,8 +1,12 @@
 @extends('layouts.master')
 @section('title', 'Special & Rare Alloys | Nimonic, Tantalum, Stellite, Tungsten | Mokshtubes')
 @section('meta_description',
+    'Rare special alloys like Nimonic, Tantalum, Stellite & Tungsten with exceptional strength, heat resistance, and
+    corrosion protection.
+    ')
+    {{-- @section('meta_description',
     'Explore a niche range of hard-to-source alloys such as Nimonic, Tungsten, Carbide, Tantalum, and Nitinol for critical
-    high-performance needs.')
+    high-performance needs.') --}}
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
@@ -28,12 +32,42 @@
 
             @php
                 $grades = [
-                    ['name' => 'Carbide', 'slug' => 'hard-to-find-and-special-alloys-carbide', 'image' => 'assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-carbide.jpg'],
-                    ['name' => 'Nimonic', 'slug' => 'hard-to-find-and-special-alloys-nimonic', 'image' => 'assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-nimonic.jpg'],
-                    ['name' => 'Nitinol', 'slug' => 'hard-to-find-and-special-alloys-nitinol', 'image' => 'assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-nitinol.png'],
-                    ['name' => 'Stellite', 'slug' => 'hard-to-find-and-special-alloys-stellite', 'image' => 'assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-stellite.jpeg'],
-                    ['name' => 'Tantalum', 'slug' => 'hard-to-find-and-special-alloys-tantalum', 'image' => 'assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-tantalum.jpeg'],
-                    ['name' => 'Tungsten', 'slug' => 'hard-to-find-and-special-alloys-tungsten', 'image' => 'assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-tungsten.png'],
+                    [
+                        'name' => 'Carbide',
+                        'slug' => 'hard-to-find-and-special-alloys-carbide',
+                        'image' =>
+                            'assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-carbide.jpg',
+                    ],
+                    [
+                        'name' => 'Nimonic',
+                        'slug' => 'hard-to-find-and-special-alloys-nimonic',
+                        'image' =>
+                            'assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-nimonic.jpg',
+                    ],
+                    [
+                        'name' => 'Nitinol',
+                        'slug' => 'hard-to-find-and-special-alloys-nitinol',
+                        'image' =>
+                            'assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-nitinol.png',
+                    ],
+                    [
+                        'name' => 'Stellite',
+                        'slug' => 'hard-to-find-and-special-alloys-stellite',
+                        'image' =>
+                            'assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-stellite.jpeg',
+                    ],
+                    [
+                        'name' => 'Tantalum',
+                        'slug' => 'hard-to-find-and-special-alloys-tantalum',
+                        'image' =>
+                            'assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-tantalum.jpeg',
+                    ],
+                    [
+                        'name' => 'Tungsten',
+                        'slug' => 'hard-to-find-and-special-alloys-tungsten',
+                        'image' =>
+                            'assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-tungsten.png',
+                    ],
                 ];
             @endphp
 
@@ -51,8 +85,8 @@
                                 style="border-color: #db7227; transition: 0.3s;">
                                 {{-- <img src="https://placehold.co/300x180/db7227/fff?text={{ urlencode($grade['name']) }}"
                                     alt="{{ $grade['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;"> --}}
-                                     <img src="{{ asset($grade['image']) }}"
-                                    alt="{{ $grade['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+                                <img src="{{ asset($grade['image']) }}" alt="{{ $grade['name'] }}"
+                                    class="img-fluid rounded mb-3" style="border-radius: 8px;">
                                 <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                     style="background-color: #174268; color: #fff; display: inline-block;">
                                     {{ $grade['name'] }}

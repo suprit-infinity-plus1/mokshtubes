@@ -1,9 +1,13 @@
 @extends('layouts.master')
 @section('title', 'Monel Alloys | Nickel-Copper Grades for Harsh Environments | Mokshtubes')
 @section('meta_description',
+    'Durable Monel nickel-copper alloys designed to withstand harsh, corrosive environments with unmatched strength and
+    reliability.
+    ')
+    {{-- @section('meta_description',
     'Explore Monel 400, K500, and R405 – trusted for marine, chemical, and oil & gas use due to excellent corrosion and
     impact resistance.
-    ')
+    ') --}}
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
@@ -31,17 +35,17 @@
                     [
                         'name' => 'Monel K500',
                         'slug' => 'monel-k500',
-                        'image' => 'assets/images/monel/Monel-K500.jpg'
+                        'image' => 'assets/images/monel/Monel-K500.jpg',
                     ],
                     [
                         'name' => 'Monel R405',
                         'slug' => 'monel-r405',
-                        'image' => 'assets/images/monel/Monel-R405.jpeg'
+                        'image' => 'assets/images/monel/Monel-R405.jpeg',
                     ],
                     [
                         'name' => 'Monel 400',
                         'slug' => 'monel-400',
-                        'image' => 'assets/images/monel/Monel-400.jpg'
+                        'image' => 'assets/images/monel/Monel-400.jpg',
                     ],
                 ];
             @endphp
@@ -57,8 +61,8 @@
                                 style="border-color: #db7227; transition: 0.3s;">
                                 {{-- <img src="https://placehold.co/300x180/db7227/fff?text={{ urlencode($grade['name']) }}"
                                     alt="{{ $grade['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;"> --}}
-                                <img src="{{ asset($grade['image']) }}"
-                                    alt="{{ $grade['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+                                <img src="{{ asset($grade['image']) }}" alt="{{ $grade['name'] }}"
+                                    class="img-fluid rounded mb-3" style="border-radius: 8px;">
                                 <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                     style="background-color: #174268; color: #fff; display: inline-block;">
                                     {{ $grade['name'] }}

@@ -1,5 +1,8 @@
 @extends('layouts.master')
-@section('title', 'Mokshtube || Calculator')
+@section('title', 'Pipe & Tube Weight Calculator | Accurate & Easy to Use | Mokshtubes')
+@section('meta_description',
+    'Use Mokshtubes’ accurate pipe and tube weight calculator for precise measurements, helping
+    you plan projects efficiently with reliable data.')
 @section('extracss')
     <style>
         .list-group-item.active {
