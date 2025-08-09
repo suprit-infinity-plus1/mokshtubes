@@ -30,7 +30,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/hastelloy/hastelloy-G3.jpg" alt="Hastelloy g3"
+                    <img src="assets/images/hastelloy/hastelloy-G3.jpg" alt="Hastelloy g3"
                         class="img-fluid rounded shadow-sm">
                 </div>
 

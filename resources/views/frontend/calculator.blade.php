@@ -55,7 +55,7 @@
 
             <!-- Left nav -->
             <div class="col-md-4 d-none d-md-block">
-                <h5 class="mb-3">Calculator</h5>
+                <h1 class="mb-3 fs-3">Calculator</h1>
 
                 <div class="list-group" id="tabList">
                     <button class="list-group-item list-group-item-action active" data-target="tab1">Steel sheets and
@@ -87,7 +87,7 @@
                 <div id="tabContents">
                     {{-- Steel sheets and plates --}}
                     <div id="tab1" class="tab-content-item">
-                        <h5 class="mb-3">Calculator for Steel sheets and plates</h5>
+                        <h2 class="mb-3 fs-3">Calculator for Steel sheets and plates</h2>
 
                         <div class="row">
                             <!-- Left: Input Fields -->

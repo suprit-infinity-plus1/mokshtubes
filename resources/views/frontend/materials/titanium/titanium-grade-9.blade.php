@@ -63,7 +63,7 @@
                             Its composition, combining titanium with 3% aluminum and 2.5% vanadium, gives it excellent
                             resistance to seawater, oxidizing environments, and high-cycle fatigue. From aerospace tubing to
                             marine hardware and sports equipment,<strong class="text-black"> <a
-                                    href="{{ }}">Titanium Grade 9</a></strong>
+                                    href="{{ route('materials.titanium') }}">Titanium Grade 9</a></strong>
                             continues to be a material of choice for
                             mission-critical applications.
                         </p>
