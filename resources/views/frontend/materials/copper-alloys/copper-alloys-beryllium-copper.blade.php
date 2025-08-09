@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Beryllium Copper - Moksh Tubes & Fittings LLP')
+@section('title', 'Beryllium Copper Alloy')
+@section('meta_description','Durable beryllium copper alloys offering high strength, conductivity & wear resistance for aerospace, electronics & tooling.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

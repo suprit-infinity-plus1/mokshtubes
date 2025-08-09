@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Engineering Steels 1045 - Moksh Tubes & Fittings LLP')
+@section('title', 'Engineering Steels 1045')
+@section('meta_description','Durable 1045 engineering steel with high strength and wear resistance for industrial applications.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

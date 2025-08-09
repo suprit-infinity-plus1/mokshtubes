@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Engineering Steels 1055 - Moksh Tubes & Fittings LLP')
+@section('meta_description','Tough 1055 engineering steel for machinery parts, tools, and automotive components.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

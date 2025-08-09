@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Aluminium 6061-T6 - Moksh Tubes & Fittings LLP')
+@section('title', 'Aluminium 6061-T6')
+@section('meta_description','High-strength Aluminium 6061 T6 sheets, plates, and tubes for aerospace, marine & structural applications.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

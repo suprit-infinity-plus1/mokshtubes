@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Inconel 617 - Moksh Tubes & Fittings LLP')
+@section('title', 'Inconel 617 | High-Strength Heat & Corrosion Resistant Alloy')
+@section('meta_description', 'Inconel 617 offers exceptional strength, oxidation, and corrosion resistance at high
+    temperatures. Ideal for chemical, power, and aerospace industries.')
 
 @section('content')
     <!--Start breadcrumb area-->

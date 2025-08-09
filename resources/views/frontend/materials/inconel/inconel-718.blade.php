@@ -1,7 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Inconel 718 - Moksh Tubes & Fittings LLP')
-
+@section('title', 'Inconel 718 | High-Strength Alloy for Aerospace & Energy')
+@section('meta_description', 'Inconel 718 offers excellent tensile strength, fatigue resistance, and oxidation
+    protection, making it ideal for aerospace, turbines, and high-stress applications.')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">

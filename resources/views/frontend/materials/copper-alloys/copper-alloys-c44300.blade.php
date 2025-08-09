@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Copper Alloys C44300 - Moksh Tubes & Fittings LLP')
+@section('title', 'Copper Alloys C44300')
+@section('meta_description','C44300 admiralty brass alloy for superior corrosion resistance in marine, condenser & heat exchanger applications.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

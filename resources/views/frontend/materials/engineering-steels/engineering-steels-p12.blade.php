@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Engineering Steels P12 - Moksh Tubes & Fittings LLP')
+@section('meta_description','Durable P12 steel for boiler tubes, heat exchangers, and industrial piping.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

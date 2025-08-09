@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Nimonic Alloys - Moksh Tubes & Fittings LLP')
+@section('title', 'Nimonic Alloys')
+@section('meta_description','Nimonic alloys for high-temperature and corrosion-resistant applications in aerospace, turbines, and power generation.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

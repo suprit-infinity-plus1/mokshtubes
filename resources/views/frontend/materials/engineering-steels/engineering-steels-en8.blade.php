@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Engineering Steels 8 - Moksh Tubes & Fittings LLP')
+@section('meta_description','Medium carbon EN8 steel for shafts, gears, and general engineering components.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

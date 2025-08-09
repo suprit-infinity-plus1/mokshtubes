@@ -1,6 +1,7 @@
 @extends('layouts.master')
 
-@section('title', 'Austenitic Stainless Steel Nitronic 50 - Moksh Tubes & Fittings LLP')
+@section('title', 'Austenitic Stainless Steel Nitronic 50')
+@section('meta_description', 'Nitronic 50 stainless steel offers strength, corrosion resistance & toughness.')
 
 @section('content')
     <!--Start breadcrumb area-->

@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Aluminium Bronze - Moksh Tubes & Fittings LLP')
+@section('title', 'Aluminium Bronze Alloys')
+@section('meta_description','High-strength aluminium bronze alloys with excellent corrosion resistance for marine, aerospace & industrial applications.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

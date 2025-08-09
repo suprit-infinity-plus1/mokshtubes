@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Engineering Steels P22 - Moksh Tubes & Fittings LLP')
+@section('meta_description','High-temperature P22 alloy steel for power plants and industrial systems.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

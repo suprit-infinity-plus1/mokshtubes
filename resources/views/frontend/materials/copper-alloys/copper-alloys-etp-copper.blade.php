@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Copper Alloys ETP Copper - Moksh Tubes & Fittings LLP')
+@section('title', 'Copper Alloys ETP Copper')
+@section('meta_description','ETP grade copper with superior electrical conductivity for wiring, transformers, busbars & industrial components.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

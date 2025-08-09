@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Zirconium 702 - Moksh Tubes & Fittings LLP')
+@section('title', 'Zirconium 702')
+@section('meta_description','High-Purity Zirconium 702 pipes, tubes & fittings for chemical, marine & nuclear applications with corrosion resistance.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

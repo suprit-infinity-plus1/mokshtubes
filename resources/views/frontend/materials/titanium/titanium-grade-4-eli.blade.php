@@ -1,6 +1,7 @@
 @extends('layouts.master')
 
-@section('title', 'Titanium Grade 4 ELI - Moksh Tubes & Fittings LLP')
+@section('title', 'Titanium Grade 4 ELI')
+@section('meta_description','Extra Low Interstitial (ELI) Titanium Grade 4 for superior toughness in aerospace & medical use.')
 
 @section('content')
     <!--Start breadcrumb area-->

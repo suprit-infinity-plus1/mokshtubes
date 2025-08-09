@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Copper Alloys CU-NI 70/30 - Moksh Tubes & Fittings LLP')
+@section('title', 'Copper Alloys CU-NI 70/30')
+@section('meta_description','Copper-nickel 90/10 alloy with high corrosion resistance for marine, desalination & heat exchanger systems.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

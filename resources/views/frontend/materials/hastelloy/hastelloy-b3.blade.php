@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Hastelloy B-3 - Moksh Tubes & Fittings LLP')
+@section('title', 'Hastelloy B-3 | Enhanced Alloy for Acid Corrosion Resistance')
+@section('meta_description', 'Hastelloy B-3 delivers improved thermal stability and superior resistance to strong acids
+    like hydrochloric, sulfuric, and phosphoric acid.')
 
 @section('content')
     <!--Start breadcrumb area-->

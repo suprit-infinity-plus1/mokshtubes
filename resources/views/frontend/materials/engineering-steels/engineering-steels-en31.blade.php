@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Engineering Steels 31 - Moksh Tubes & Fittings LLP')
+@section('meta_description','High carbon EN31 steel for bearings, tools, and wear-resistant components.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

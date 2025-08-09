@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Engineering Steels 24 - Moksh Tubes & Fittings LLP')
+@section('meta_description','Strong EN24 steel for aerospace, automotive, and high-performance engineering.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Hastelloy B2 - Moksh Tubes & Fittings LLP')
+@section('title', 'Hastelloy B-2 | Premium Hydrochloric Acid Resistant Alloy')
+@section('meta_description', 'Offering outstanding resistance to hydrochloric acid at all concentrations, Hastelloy B-2
+    is perfect for aggressive chemical process applications.')
 
 @section('content')
     <!--Start breadcrumb area-->

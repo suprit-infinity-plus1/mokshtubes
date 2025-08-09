@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'AL 6XN - Moksh Tubes & Fittings LLP')
+@section('title', 'Super Austenitic Stainless Steel AL-6XN | Superior Corrosion & Chloride Resistance')
+@section('meta_description', 'A high-performance alloy engineered for extreme corrosion resistance in saltwater,
+    chemical, and food processing environments.')
 
 @section('content')
     <!--Start breadcrumb area-->

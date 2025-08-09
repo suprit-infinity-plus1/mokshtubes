@@ -1,6 +1,7 @@
 @extends('layouts.master')
 
-@section('title', 'Titanium Grade 4 - Moksh Tubes & Fittings LLP')
+@section('title', 'Titanium Grade 4')
+@section('meta_description', 'High-strength Titanium Grade 4 ideal for aerospace, marine, and medical applications.')
 
 @section('content')
     <!--Start breadcrumb area-->

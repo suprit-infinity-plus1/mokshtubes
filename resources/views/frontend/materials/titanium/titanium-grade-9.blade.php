@@ -1,6 +1,10 @@
 @extends('layouts.master')
 
-@section('title', 'Titanium Grade 9 - Moksh Tubes & Fittings LLP')
+@section('title', 'Titanium Grade 9')
+@section('meta_description', 'Lightweight Titanium Grade 9 (Ti-3Al-2.5V) with excellent corrosion resistance for marine & aerospace.
+')
+
+
 
 @section('content')
     <!--Start breadcrumb area-->

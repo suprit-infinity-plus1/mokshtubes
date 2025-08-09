@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
-@section('title', 'Hastelloy C276 - Moksh Tubes & Fittings LLP')
-
+@section('title', 'Hastelloy C-276 | Premium Corrosion-Resistant Alloy for Extreme Environments')
+@section('meta_description', 'Hastelloy C-276 | Premium Corrosion-Resistant Alloy for Extreme Environments')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
@@ -28,7 +28,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/hastelloy/hastelloy-c276.jpeg" alt="Hastelloy C276"
+                    <img src="{{ asset('/assets/images/hastelloy/hastelloy-c276.jpeg') }}" alt="Hastelloy C276"
                         class="img-fluid rounded shadow-sm">
                 </div>
 

@@ -1,6 +1,9 @@
 @extends('layouts.master')
 
-@section('title', 'Zirconium 705 - Moksh Tubes & Fittings LLP')
+@section('title', 'Zirconium 705 Alloy')
+@section('meta_description',
+    'Top-quality Zirconium 705 alloy with superior corrosion resistance for chemical, nuclear & marine uses.
+    ')
 
 @section('content')
     <!--Start breadcrumb area-->

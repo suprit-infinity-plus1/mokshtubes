@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Hastelloy C2000 - Moksh Tubes & Fittings LLP')
+@section('title', 'Hastelloy C-2000 | Advanced Alloy for Mixed Acid Environments')
+@section('meta_description', 'With exceptional versatility, Hastelloy C-2000 handles both oxidizing and reducing acids,
+    ensuring long-lasting equipment life.')
 
 @section('content')
     <!--Start breadcrumb area-->

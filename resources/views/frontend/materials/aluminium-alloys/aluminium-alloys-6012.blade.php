@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Aluminium 6012 - Moksh Tubes & Fittings LLP')
+@section('title', 'Aluminium 6012')
+@section('meta_description','Aluminium 6012 alloy rods, bars & tubes for high-machinability engineering & automotive applications.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

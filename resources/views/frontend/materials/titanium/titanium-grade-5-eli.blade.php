@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Titanium Grade 5 ELI - Moksh Tubes & Fittings LLP')
+@section('title', 'Titanium Grade 5 ELI')
+@section('meta_description', 'Titanium Grade 5 Extra Low Interstitial for high-performance aerospace & medical
+    implants.')
 
 @section('content')
     <!--Start breadcrumb area-->

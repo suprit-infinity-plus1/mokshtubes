@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Engineering Steels P11 - Moksh Tubes & Fittings LLP')
+@section('meta_description','Creep-resistant P11 steel for high-temperature and pressure applications.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Tungsten - Moksh Tubes & Fittings LLP')
+@section('title', 'Tungsten')
+@section('meta_description','Strong and dense tungsten alloys for aerospace, defense, and industrial applications. Superior strength and heat resistance.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

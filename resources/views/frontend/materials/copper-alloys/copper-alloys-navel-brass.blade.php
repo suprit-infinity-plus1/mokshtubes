@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Copper Alloys Naval Brass - Moksh Tubes & Fittings LLP')
+@section('title', 'Copper Alloys Naval Brass')
+@section('meta_description','Strong & corrosion-resistant naval brass alloy for marine hardware, propeller shafts & industrial applications.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

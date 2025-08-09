@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Engineering Steels 19 - Moksh Tubes & Fittings LLP')
+@section('meta_description','High tensile EN19 alloy steel for heavy-duty applications in engineering.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

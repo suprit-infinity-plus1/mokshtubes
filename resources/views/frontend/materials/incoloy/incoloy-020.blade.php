@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'INCOLOY 020 - Moksh Tubes & Fittings LLP')
+@section('title', 'Incoloy 020 | Elite Acid-Resistant Super Alloy')
+@section('meta_description', 'Incoloy 020 offers outstanding resistance to sulfuric acid and other aggressive chemicals,
+    ensuring long service life in demanding environments.')
 
 @section('content')
     <!--Start breadcrumb area-->

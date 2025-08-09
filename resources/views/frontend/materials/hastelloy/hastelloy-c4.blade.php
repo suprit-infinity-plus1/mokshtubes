@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Hastelloy C4 - Moksh Tubes & Fittings LLP')
+@section('title', 'Hastelloy C-4 | High-Performance Alloy for Oxidizing Media')
+@section('meta_description', 'Designed for long-term stability, Hastelloy C-4 resists strong oxidizing chemicals and
+    maintains strength at elevated temperatures.')
 
 @section('content')
     <!--Start breadcrumb area-->

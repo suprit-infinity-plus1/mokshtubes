@@ -1,6 +1,7 @@
 @extends('layouts.master')
 
-@section('title', 'Austenitic Stainless Steel 321 - Moksh Tubes & Fittings LLP')
+@section('title', 'Austenitic Stainless Steel 321')
+@section('meta_description', 'Titanium-stabilized SS 321 ideal for high-temperature applications.')
 
 @section('content')
     <!--Start breadcrumb area-->

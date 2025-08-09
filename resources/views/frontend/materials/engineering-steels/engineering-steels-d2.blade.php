@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Engineering Steels D2 - Moksh Tubes & Fittings LLP')
+@section('meta_description','Wear-resistant D2 tool steel for cutting tools, dies, and industrial applications.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

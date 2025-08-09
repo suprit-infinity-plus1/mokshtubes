@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'NITINOL -Moksh Tubes & Fittings LLP')
+@section('title', 'NITINOL')
+@section('meta_description','Premium Nitinol shape memory alloys for medical devices, aerospace, and industrial applications. Precision-made and corrosion-resistant.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

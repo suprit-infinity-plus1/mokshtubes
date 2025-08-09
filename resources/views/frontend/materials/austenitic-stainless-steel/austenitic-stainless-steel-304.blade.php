@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Austenitic Stainless Steel 304 - Moksh Tubes & Fittings LLP')
+@section('title', 'Austenitic Stainless Steel 304')
+@section('meta_description', 'High-quality SS 304 with excellent corrosion resistance for industrial & architectural
+    applications.')
 
 @section('content')
     <!--Start breadcrumb area-->

@@ -1,6 +1,9 @@
 @extends('layouts.master')
 
-@section('title', 'Aluminium 2014-T6 - Moksh Tubes & Fittings LLP')
+@section('title', 'Aluminium 2014-T6')
+@section('meta_description',
+    'Aerospace-grade Aluminium 2014 T6 with exceptional strength & machinability for engineering applications.
+    ')
 
 @section('content')
     <!--Start breadcrumb area-->

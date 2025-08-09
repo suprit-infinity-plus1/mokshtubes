@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Aluminium 6082 - Moksh Tubes & Fittings LLP')
+@section('title', 'Aluminium 6082')
+@section('meta_description','High-strength Aluminium 6082 T6 for structural, transport & marine applications with excellent machinability.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

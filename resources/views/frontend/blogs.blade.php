@@ -30,7 +30,8 @@
                     <div class="default-blog-news wow fadeInUp animated animated"
                         style="visibility: visible; animation-name: fadeInUp;">
                         <figure class="img-holder mb-0">
-                            <a href="#"><img src="{{ asset('assets/images/blogs/Inconel-vs-Stainless-Steel.jpg') }}" alt="blogs"></a>
+                            <a href="#"><img src="{{ asset('assets/images/blogs/Inconel-vs-Stainless-Steel.jpg') }}"
+                                    alt="blogs"></a>
                             <figcaption class="overlay">
                                 <div class="box">
                                     <div class="content">
@@ -45,7 +46,8 @@
                             </a>
                             <div class="post-meta">by fletcher | 14 Comments | 21 Feb</div>
                             <div class="text">
-                                <p>Choosing between stainless steel and Inconel tubes depends heavily on your industrial needs</p>
+                                <p>Choosing between stainless steel and Inconel tubes depends heavily on your industrial
+                                    needs</p>
                             </div>
                             <div class="link">
                                 <a href="#" class="default_link">Read More <i class="fa fa-angle-right"></i></a>
@@ -55,7 +57,14 @@
                     </div>
 
                 </div>
+            </section>
 
+            <section class="blog-section sec-padd2">
+        <div class="container">
+            <div class="section-title">
+                <h2>blogs</h2>
+            </div>
+            <div class="row">
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="default-blog-news wow fadeInUp animated animated"
                         style="visibility: visible; animation-name: fadeInUp;">

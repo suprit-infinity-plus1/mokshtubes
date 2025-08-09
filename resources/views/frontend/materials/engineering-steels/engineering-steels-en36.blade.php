@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Engineering Steels 36 - Moksh Tubes & Fittings LLP')
+@section('meta_description','Case-hardening EN36 steel for gears, shafts, and aerospace components.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

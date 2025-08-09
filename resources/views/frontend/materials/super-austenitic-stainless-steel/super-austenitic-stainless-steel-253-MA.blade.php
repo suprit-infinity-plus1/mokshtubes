@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', '253 MA - Moksh Tubes & Fittings LLP')
+@section('title', 'Super Austenitic Stainless Steel 253 MA | High Temperature & Oxidation Resistant Alloy')
+@section('meta_description', 'Specialized for high-temperature industrial environments, maintaining strength and
+    oxidation resistance up to 1150°C.')
 
 @section('content')
     <!--Start breadcrumb area-->

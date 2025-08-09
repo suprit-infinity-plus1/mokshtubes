@@ -1,6 +1,7 @@
 @extends('layouts.master')
 
-@section('title', 'Austenitic Stainless Steel 316Ti - Moksh Tubes & Fittings LLP')
+@section('title', 'Austenitic Stainless Steel 316Ti')
+@section('meta_description', 'Titanium-stabilized SS 316Ti for improved high-temperature stability.')
 
 @section('content')
     <!--Start breadcrumb area-->

@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'INCOLOY 825 - Moksh Tubes & Fittings LLP')
+@section('title', 'Incoloy 825 | Premium Corrosion-Resistant Nickel-Iron-Chromium Alloy')
+@section('meta_description', 'Incoloy 825 delivers exceptional resistance to acids, alkalis, and oxidizing agents,
+    making it a top choice for chemical processing and marine industries.')
 
 @section('content')
     <!--Start breadcrumb area-->

@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Alloy 926 - Moksh Tubes & Fittings LLP')
+@section('title', 'Super Austenitic Stainless Steel Alloy 926 | High Nickel-Molybdenum for Harsh Environments')
+@section('meta_description', 'Designed for aggressive chemical and seawater applications, offering exceptional
+    resistance to pitting and crevice corrosion.')
 
 @section('content')
     <!--Start breadcrumb area-->

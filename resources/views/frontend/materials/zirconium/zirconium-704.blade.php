@@ -1,6 +1,10 @@
 @extends('layouts.master')
 
-@section('title', 'Zirconium 704 - Moksh Tubes & Fittings LLP')
+@section('title', 'Zirconium 704 Alloy')
+@section('meta_description',
+    'Premium Zirconium 704 alloy products for aerospace, chemical processing & marine industries. High strength &
+    durability.
+    ')
 
 @section('content')
     <!--Start breadcrumb area-->

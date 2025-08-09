@@ -1,7 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Inconel X-750 - Moksh Tubes & Fittings LLP')
-
+@section('title', 'Inconel X-750 | Extreme Temperature & Oxidation Resistant Alloy')
+@section('meta_description', 'Designed for springs, fasteners, and gas turbines, Inconel X-750 maintains strength and
+    stability even in extreme heat conditions.')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">

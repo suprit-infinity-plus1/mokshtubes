@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Stellite -Moksh Tubes & Fittings LLP')
+@section('title', 'Stellite')
+@section('meta_description','Durable Stellite cobalt-chrome alloys for wear, heat, and corrosion resistance in demanding industrial environments.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

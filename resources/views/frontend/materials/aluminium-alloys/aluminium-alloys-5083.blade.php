@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Aluminium 5083 - Moksh Tubes & Fittings LLP')
+@section('title', 'Aluminium 5083')
+@section('meta_description','Marine-grade Aluminium 5083 with superior corrosion resistance for shipbuilding & offshore industries.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

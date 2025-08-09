@@ -1,6 +1,7 @@
 @extends('layouts.master')
 
-@section('title', 'Austenitic Stainless Steel 310 - Moksh Tubes & Fittings LLP')
+@section('title', 'Austenitic Stainless Steel 310')
+@section('meta_description', 'Premium SS 310 for extreme heat resistance & superior durability.')
 
 @section('content')
     <!--Start breadcrumb area-->

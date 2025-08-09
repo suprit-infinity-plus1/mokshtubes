@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Titanium Grade 2 - Moksh Tubes & Fittings LLP')
+@section('title', 'Titanium Grade 2')
+@section('meta_description', 'Durable Titanium Grade 2 with outstanding corrosion resistance for aerospace, marine, and
+    chemical processing.')
 
 @section('content')
     <!--Start breadcrumb area-->

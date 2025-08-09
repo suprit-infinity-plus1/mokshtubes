@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Engineering Steels 4340 - Moksh Tubes & Fittings LLP')
+@section('meta_description','Ultra-high strength 4340 steel for aerospace, defense, and heavy-duty engineering.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

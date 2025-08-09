@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Hastelloy G3 - Moksh Tubes & Fittings LLP')
+@section('title', 'Hastelloy G-3 | High-Strength Alloy for Acidic Solutions')
+@section('meta_description', 'This grade resists phosphoric, sulfuric, and nitric acids, making it a reliable choice for
+    fertilizer production and chemical plants.')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -28,7 +30,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="assets/images/hastelloy/hastelloy-G3.jpg" alt="Hastelloy g3"
+                    <img src="/assets/images/hastelloy/hastelloy-G3.jpg" alt="Hastelloy g3"
                         class="img-fluid rounded shadow-sm">
                 </div>
 

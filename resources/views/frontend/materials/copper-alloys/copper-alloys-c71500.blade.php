@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Copper Alloys C71500 - Moksh Tubes & Fittings LLP')
+@section('title', 'Copper C71500 Nickel Alloy')
+@section('meta_description','C71500 copper-nickel alloy for outstanding corrosion resistance in marine, offshore & heat exchanger environments.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Haynes Superalloys 230 - Moksh Tubes & Fittings LLP')
+@section('title', 'Haynes Superalloys 230')
+@section('meta_description','Haynes Alloy 230 offers exceptional strength, oxidation resistance, and thermal stability for extreme applications.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

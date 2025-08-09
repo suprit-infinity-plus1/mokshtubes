@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Aluminium HE30 - Moksh Tubes & Fittings LLP')
+@section('title', 'Aluminium HE30')
+@section('meta_description','Aluminium HE30 alloy (6082) for structural & marine use with high corrosion resistance & weldability.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

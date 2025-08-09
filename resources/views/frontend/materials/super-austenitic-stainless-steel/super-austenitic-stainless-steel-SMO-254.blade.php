@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'SMO 254 - Moksh Tubes & Fittings LLP')
+@section('title', 'Super Austenitic Stainless Steel SMO 254 | Extreme Seawater & Chloride Resistance')
+@section('meta_description', 'A top-tier stainless steel with ultra-high corrosion resistance, ideal for marine,
+    desalination, and chemical process applications.')
 
 @section('content')
     <!--Start breadcrumb area-->

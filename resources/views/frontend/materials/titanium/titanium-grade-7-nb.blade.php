@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Titanium Grade 7 NB - Moksh Tubes & Fittings LLP')
+@section('title', 'Titanium Grade 7 NB')
+@section('meta_description', 'Titanium Grade 7 with Nb for superior corrosion resistance in chemical & marine
+    industries.')
 
 @section('content')
     <!--Start breadcrumb area-->

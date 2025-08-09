@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Aluminium 7075 - Moksh Tubes & Fittings LLP')
+@section('title', 'Aluminium 7075')
+@section('meta_description','Premium Aluminium 7075 alloy with high strength-to-weight ratio for aerospace & defense industries.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

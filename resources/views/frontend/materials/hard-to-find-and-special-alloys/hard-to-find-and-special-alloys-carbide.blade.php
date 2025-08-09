@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Carbide Alloys - Moksh Tubes & Fittings LLP')
+@section('title', 'Carbide Alloys')
+@section('meta_description','High-performance carbide alloys for wear resistance and precision engineering applications. Available in custom grades and sizes.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

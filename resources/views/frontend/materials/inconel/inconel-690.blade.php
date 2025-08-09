@@ -1,7 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Inconel 690 - Moksh Tubes & Fittings LLP')
-
+@section('title', 'Inconel 690 | High-Chromium Corrosion-Resistant Alloy')
+@section('meta_description', 'Known for its outstanding resistance to oxidizing chemicals and hot gases, Inconel 690 is
+    perfect for nuclear, chemical, and thermal processing industries.')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">

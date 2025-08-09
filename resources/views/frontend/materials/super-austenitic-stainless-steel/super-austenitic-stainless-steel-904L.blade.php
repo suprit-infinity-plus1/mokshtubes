@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Alloy 904L - Moksh Tubes & Fittings LLP')
+@section('title', 'Super Austenitic Stainless Steel 904L | Premium Corrosion Resistance in Harsh Chemicals')
+@section('meta_description', 'Non-stabilized, low-carbon alloy with high chromium, nickel, and molybdenum, perfect for
+    sulfuric and phosphoric acid handling.')
 
 @section('content')
     <!--Start breadcrumb area-->

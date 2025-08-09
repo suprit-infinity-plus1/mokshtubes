@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Aluminium 1100 - Moksh Tubes & Fittings LLP')
+@section('title', 'Aluminium 1100')
+@section('meta_description','Pure Aluminium 1100 products with excellent corrosion resistance for chemical, marine & decorative uses.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

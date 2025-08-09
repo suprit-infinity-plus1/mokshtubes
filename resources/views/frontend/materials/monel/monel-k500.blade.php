@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Monel K500 - Moksh Tubes & Fittings LLP')
+@section('title', 'Monel K-500 | High-Strength Corrosion-Resistant Nickel Alloy')
+@section('meta_description', 'Monel K-500 combines exceptional corrosion resistance with superior strength, making it
+    ideal for marine, chemical, and oil & gas applications.')
 
 @section('content')
     <!--Start breadcrumb area-->

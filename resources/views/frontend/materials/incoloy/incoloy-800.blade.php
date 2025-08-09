@@ -1,7 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'INCOLOY 800 - Moksh Tubes & Fittings LLP')
-
+@section('title', 'Incoloy 800 | High-Temperature Strength & Oxidation Resistance')
+@section('meta_description', 'Ideal for furnace equipment and heat exchangers, Incoloy 800 maintains stability and
+    corrosion resistance at elevated temperatures.')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">

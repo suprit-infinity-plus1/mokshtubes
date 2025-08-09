@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'SMO 654 - Moksh Tubes & Fittings LLP')
+@section('title', 'Super Austenitic Stainless Steel SMO 654 | High Strength')
+@section('meta_description', 'SMO 654 offers exceptional corrosion resistance, high strength, and durability for marine,
+    chemical, and offshore applications.')
 
 @section('content')
     <!--Start breadcrumb area-->

@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Engineering Steels 4140 - Moksh Tubes & Fittings LLP')
+@section('meta_description','High tensile strength 4140 steel for automotive, oil & gas, and machinery applications.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

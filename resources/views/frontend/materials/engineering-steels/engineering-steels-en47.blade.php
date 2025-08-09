@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Engineering Steels 47 - Moksh Tubes & Fittings LLP')
+@section('meta_description','High fatigue resistance EN47 spring steel for automotive and industrial springs.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

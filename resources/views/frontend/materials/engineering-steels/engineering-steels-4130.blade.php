@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Engineering Steels 4130 - Moksh Tubes & Fittings LLP')
+@section('meta_description','Strong 4130 alloy steel ideal for aerospace, motorsport, and industrial use.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

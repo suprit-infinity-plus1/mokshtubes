@@ -1,6 +1,9 @@
 @extends('layouts.master')
 
-@section('title', 'Hastelloy X - Moksh Tubes & Fittings LLP')
+@section('title', 'Hastelloy X | Extreme Heat & Oxidation Resistant Alloy')
+@section('meta_description',
+    'Known for its outstanding strength and oxidation resistance, Hastelloy X is ideal for gas turbines, furnace parts, and
+    aerospace applications.')
 
 @section('content')
     <!--Start breadcrumb area-->

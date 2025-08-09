@@ -1,6 +1,7 @@
 @extends('layouts.master')
 
-@section('title', 'Austenitic Stainless Steel 309 - Moksh Tubes & Fittings LLP')
+@section('title', 'Austenitic Stainless Steel 309')
+@section('meta_description', 'Heat-resistant SS 309 ideal for high-temperature & corrosive environments.')
 
 @section('content')
     <!--Start breadcrumb area-->

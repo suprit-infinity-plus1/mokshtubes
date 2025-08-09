@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Copper Alloys C26000 Cartridge Brass - Moksh Tubes & Fittings LLP')
+@section('title', 'Copper Alloys C26000 Cartridge Brass')
+@section('meta_description','Durable C26000 cartridge brass with excellent corrosion resistance for automotive, plumbing & industrial use.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

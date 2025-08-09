@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Haynes Superalloys 160 - Moksh Tubes & Fittings LLP')
+@section('title', 'Haynes Superalloys 160')
+@section('meta_description','High-strength Haynes Alloy 160 for extreme heat resistance and corrosion protection. Available in various forms.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

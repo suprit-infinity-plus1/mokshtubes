@@ -1,6 +1,7 @@
 @extends('layouts.master')
 
-@section('title', 'Austenitic Stainless Steel 347 - Moksh Tubes & Fittings LLP')
+@section('title', 'Austenitic Stainless Steel 347')
+@section('meta_description', 'Columbium-stabilized SS 347 for heat resistance & oxidation protection.')
 
 @section('content')
     <!--Start breadcrumb area-->

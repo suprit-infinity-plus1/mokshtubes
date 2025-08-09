@@ -1,7 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'INCOLOY 925 - Moksh Tubes & Fittings LLP')
-
+@section('title', 'Incoloy 925 | Superior Strength & Sour Gas Resistant Alloy')
+@section('meta_description', 'Combining high strength with excellent corrosion resistance, Incoloy 925 excels in oil &
+    gas well components and marine applications.')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">

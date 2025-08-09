@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Titanium Grade 1 - Moksh Tubes & Fittings LLP')
+@section('title', 'Titanium Grade 1')
+@section('meta_description', 'High-purity Titanium Grade 1 with excellent corrosion resistance for chemical, marine &
+    aerospace industries.')
 
 @section('content')
     <!--Start breadcrumb area-->

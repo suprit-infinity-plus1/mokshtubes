@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Tantalum -Moksh Tubes & Fittings LLP')
+@section('title', 'Tantalum')
+@section('meta_description','High-purity tantalum alloys for chemical processing, aerospace, and electronics industries. Exceptional corrosion resistance.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

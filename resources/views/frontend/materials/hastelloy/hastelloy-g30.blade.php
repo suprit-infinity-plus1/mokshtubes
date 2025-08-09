@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Hastelloy G30 - Moksh Tubes & Fittings LLP')
+@section('title', 'Hastelloy G-30 | Elite Alloy for Phosphoric Acid Resistance')
+@section('meta_description', 'Optimized for phosphoric acid service, Hastelloy G-30 also offers excellent resistance to
+    highly oxidizing acids.')
 
 @section('content')
     <!--Start breadcrumb area-->

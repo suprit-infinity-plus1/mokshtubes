@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Copper Alloys C44300 - Moksh Tubes & Fittings LLP')
+@section('title', 'Copper C46400 Naval Brass - Moksh Tubes & Fittings LLP')
+@section('meta_description','High-strength C46400 naval brass with excellent corrosion resistance for marine, pump & architectural hardware use.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

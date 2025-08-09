@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Aluminium 6063 - Moksh Tubes & Fittings LLP')
+@section('title', 'Aluminium 6063')
+@section('meta_description','Aluminium 6063 alloy for architectural, structural & decorative profiles with smooth finish & corrosion resistance.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

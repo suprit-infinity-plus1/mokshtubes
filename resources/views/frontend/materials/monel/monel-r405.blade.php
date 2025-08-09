@@ -1,7 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Monel R405 - Moksh Tubes & Fittings LLP')
-
+@section('title', 'Monel R-405 | Premium Free-Machining Corrosion-Resistant Alloy')
+@section('meta_description', 'Designed for excellent machinability, Monel R-405 maintains the outstanding corrosion
+    resistance of Monel 400 in seawater and chemical environments.')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">

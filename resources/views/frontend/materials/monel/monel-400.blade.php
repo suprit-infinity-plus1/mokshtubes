@@ -1,7 +1,10 @@
 @extends('layouts.master')
 
-@section('title', 'Monel 400 - Moksh Tubes & Fittings LLP')
-
+@section('title', 'Monel 400 | Superior Nickel-Copper Alloy for Marine Applications')
+@section('meta_description',
+    'Monel 400 offers excellent resistance to seawater, acids, and alkalis, ensuring long-lasting performance in harsh
+    marine and industrial conditions.
+    ')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">

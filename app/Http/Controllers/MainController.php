@@ -382,4 +382,11 @@ class MainController extends Controller
     {
         return view('frontend.products.pipes-tubes.boiler-heat-exchanger-tubes');
     }
+
+
+
+
+
+
+
 }

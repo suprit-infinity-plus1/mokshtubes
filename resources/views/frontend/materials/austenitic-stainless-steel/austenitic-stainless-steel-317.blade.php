@@ -1,6 +1,7 @@
 @extends('layouts.master')
 
-@section('title', 'Austenitic Stainless Steel 317 - Moksh Tubes & Fittings LLP')
+@section('title', 'Austenitic Stainless Steel 317')
+@section('meta_description', 'High-molybdenum SS 317 for exceptional corrosion & chemical resistance.')
 
 @section('content')
     <!--Start breadcrumb area-->

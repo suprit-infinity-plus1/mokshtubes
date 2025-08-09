@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Titanium Grade 23 - Moksh Tubes & Fittings LLP')
+@section('title', 'Titanium Grade 23')
+@section('meta_description','Titanium Grade 23 (Ti-6Al-4V ELI) for high strength, low weight in aerospace & medical industries.'
+)
 
 @section('content')
     <!--Start breadcrumb area-->

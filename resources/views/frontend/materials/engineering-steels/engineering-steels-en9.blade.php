@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Engineering Steels 9 - Moksh Tubes & Fittings LLP')
+@section('meta_description','High wear resistance EN9 steel for automotive, mining, and engineering parts.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Engineering Steels P1 - Moksh Tubes & Fittings LLP')
+@section('meta_description','Heat-resistant P1 steel for boilers, heat exchangers, and pressure vessels.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

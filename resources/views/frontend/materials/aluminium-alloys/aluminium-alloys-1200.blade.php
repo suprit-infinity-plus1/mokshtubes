@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Aluminium 1200 - Moksh Tubes & Fittings LLP')
+@section('title', 'Aluminium 1200')
+@section('meta_description','Aluminium 1200 alloy with high corrosion resistance, formability & thermal conductivity for multiple industries.
+')
 
 @section('content')
     <!--Start breadcrumb area-->

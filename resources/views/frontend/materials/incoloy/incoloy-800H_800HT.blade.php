@@ -1,7 +1,8 @@
 @extends('layouts.master')
 
-@section('title', '800H and 800HT - Moksh Tubes & Fittings LLP')
-
+@section('title', 'Incoloy 800H/800HT | Enhanced Heat-Resistant Nickel Alloy')
+@section('meta_description', 'With improved creep and rupture strength, Incoloy 800H/800HT is designed for petrochemical
+    and power generation equipment.')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
