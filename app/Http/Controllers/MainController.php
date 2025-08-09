@@ -254,8 +254,8 @@ class MainController extends Controller
             ['name' => 'Copper Alloys C71500', 'slug' => 'copper-alloys-c71500'],
             ['name' => 'Copper Alloys C71520', 'slug' => 'copper-alloys-c71520'],
             ['name' => 'Copper Alloys Cartridge Brass', 'slug' => 'copper-alloys-cartridge-brass'],
-            ['name' => 'Copper Alloys Cu Ni 70_30', 'slug' => 'copper-alloys-cu-ni-70_30'],
-            ['name' => 'Copper Alloys Cu Ni-90_10', 'slug' => 'copper-alloys-cu-ni-90_10'],
+            ['name' => 'Copper Alloys Cu Ni 70_30', 'slug' => 'copper-alloys-cu-ni-70-30'],
+            ['name' => 'Copper Alloys Cu Ni-90_10', 'slug' => 'copper-alloys-cu-ni-90-10'],
             ['name' => 'Copper Alloys Ec Copper', 'slug' => 'copper-alloys-ec-copper'],
             ['name' => 'Copper Alloys Etp Copper', 'slug' => 'copper-alloys-etp-copper'],
             ['name' => 'Copper Alloys Navel Brass', 'slug' => 'copper-alloys-navel-brass'],
@@ -267,22 +267,22 @@ class MainController extends Controller
     public function zirconium()
     {
         $grades = [
-                    ['name' => 'Zirconium 702','slug' => 'zirconium-702'],
-                    ['name' => 'Zirconium 704','slug' => 'zirconium-704'],
-                    ['name' => 'Zirconium 705','slug' => 'zirconium-705'],
-                ];
+            ['name' => 'Zirconium 702', 'slug' => 'zirconium-702'],
+            ['name' => 'Zirconium 704', 'slug' => 'zirconium-704'],
+            ['name' => 'Zirconium 705', 'slug' => 'zirconium-705'],
+        ];
 
         return view('frontend.materials.zirconium.index', compact('grades'));
     }
 
     public function haynesSuperalloys()
     {
-                 $grades = [
-                    ['name' => 'haynes-superalloys 160','slug' => 'haynes-superalloys-160'],
-                    ['name' => 'haynes-superalloys 188','slug' => 'haynes-superalloys-188'],
-                    ['name' => 'haynes-superalloys 230','slug' => 'haynes-superalloys-230'],
-                    ['name' => 'haynes-superalloys 242','slug' => 'haynes-superalloys-242'],
-                ];
+        $grades = [
+            ['name' => 'haynes-superalloys 160', 'slug' => 'haynes-superalloys-160'],
+            ['name' => 'haynes-superalloys 188', 'slug' => 'haynes-superalloys-188'],
+            ['name' => 'haynes-superalloys 230', 'slug' => 'haynes-superalloys-230'],
+            ['name' => 'haynes-superalloys 242', 'slug' => 'haynes-superalloys-242'],
+        ];
 
         return view('frontend.materials.haynes-superalloys.index', compact('grades'));
     }
@@ -342,27 +342,27 @@ class MainController extends Controller
     {
         return view('frontend.products.pipes-tubes.welded-pipes');
     }
-      public function seamlessPipes()
+    public function seamlessPipes()
     {
         return view('frontend.products.pipes-tubes.seamless-pipes');
     }
 
-        public function capillaries()
+    public function capillaries()
     {
         return view('frontend.products.pipes-tubes.capillaries');
     }
 
-         public function hollowSectionPipe()
+    public function hollowSectionPipe()
     {
         return view('frontend.products.pipes-tubes.hollow-section-pipe');
     }
 
-          public function uBentTubes()
+    public function uBentTubes()
     {
         return view('frontend.products.pipes-tubes.u-bent-tubes');
     }
 
-           public function boilerHeatExchangerTubes()
+    public function boilerHeatExchangerTubes()
     {
         return view('frontend.products.pipes-tubes.boiler-heat-exchanger-tubes');
     }

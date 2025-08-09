@@ -46,7 +46,8 @@
                             alloy that provides exceptional resistance to pitting, crevice corrosion, and chloride stress
                             corrosion cracking, even in the most aggressive environments like seawater, pulp & paper
                             bleaching, or offshore operations. With a very high level of molybdenum (~7.5%), chromium, and
-                            nitrogen, SMO 654 surpasses other <a href="{{ route('austenitic-stainless-Steel') }}">stainless
+                            nitrogen, SMO 654 surpasses other <a
+                                href="{{ route('materials.austenitic-stainless-Steel') }}">stainless
                                 steels</a> in terms of corrosion resistance and
                             mechanical strength.
                         </p>

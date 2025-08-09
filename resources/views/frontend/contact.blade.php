@@ -1,6 +1,7 @@
 @extends('layouts.master')
 @section('title', 'Contact Mokshtubes Fittings LLP | Request a Quote or Inquiry')
-@section('meta_description', 'Get in touch with Mokshtubes Fittings & LLP for inquiries, quotations, or technical
+@section('meta_description',
+    'Get in touch with Mokshtubes Fittings & LLP for inquiries, quotations, or technical
     assistance. Call, email, or visit us.')
 @section('extracss')
     <style>
@@ -85,7 +86,7 @@
     <section class="global-presence pt-5 bg-light">
         <div class="container">
             <div class="text-center">
-                <h1 class="fw-semibold mb-3">Moksh Tube Locations and Contact Details</h1>
+                <h2 class="fw-semibold mb-3 fs-1">Moksh Tube Locations and Contact Details</h2>
                 <p class="moksh-overview-contact">
                     Discover Moksh Tube Steel’s global footprint — delivering excellence across industries and regions. <br>
                     From trusted partners to our strategic locations, find us wherever your business needs us.
@@ -105,7 +106,7 @@
                         <div class="list-group">
 
                             <a href="#" class="list-group-item location-card">
-                                <h5 class="mb-1 fw-semibold">Gulalwadi – Mumbai</h5>
+                                <h3 class="mb-1 fw-semibold">Gulalwadi – Mumbai</h3>
                                 <p class="mb-0 small">Bldg. No. 36/40, Hinglaj Bhavan, Kika Street</p>
                             </a>
 
@@ -193,29 +194,29 @@
 
 
     <!-- <section class="home-google-map">
-                                            <iframe
-                                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d943.3624929957525!2d72.82755531962317!3d18.955724967265716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf9ee4261af1%3A0x57adb33b0f4c262!2sMoksh%20Tubes%20%26%20Fittings%20LLP!5e0!3m2!1sen!2sin!4v1747987043971!5m2!1sen!2sin"
-                                                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                                                referrerpolicy="no-referrer-when-downgrade">
-                                            </iframe>
+                                                    <iframe
+                                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d943.3624929957525!2d72.82755531962317!3d18.955724967265716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf9ee4261af1%3A0x57adb33b0f4c262!2sMoksh%20Tubes%20%26%20Fittings%20LLP!5e0!3m2!1sen!2sin!4v1747987043971!5m2!1sen!2sin"
+                                                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                                        referrerpolicy="no-referrer-when-downgrade">
+                                                    </iframe>
 
 
 
-                                        </section> -->
+                                                </section> -->
 
     <!-- <div class="call-out2">
-                                                <div class="container">
-                                                    <div class="clearfix">
-                                                        <div class="float_left">
-                                                            <h4>Have any question or need any business consultation?</h4>
-                                                        </div>
-                                                        <div class="float_right">
-                                                            <a href="contact.html" class="thm-btn bg-clr2">Request Quote</a>
-                                                        </div>
-                                                    </div>
+                                                        <div class="container">
+                                                            <div class="clearfix">
+                                                                <div class="float_left">
+                                                                    <h4>Have any question or need any business consultation?</h4>
+                                                                </div>
+                                                                <div class="float_right">
+                                                                    <a href="contact.html" class="thm-btn bg-clr2">Request Quote</a>
+                                                                </div>
+                                                            </div>
 
-                                                </div>
-                                            </div> -->
+                                                        </div>
+                                                    </div> -->
 
 
     <!--Start contact form area-->

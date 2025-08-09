@@ -363,7 +363,7 @@
                         <div class="right-area">
 
                             <div class="link_btn float_right">
-                                <a href="http://127.0.0.1:8000/contact-us" class="thm-btn bg-clr1">Contact Us</a>
+                                <a href="{{ route('contact-us') }}" class="thm-btn bg-clr1">Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -427,8 +427,10 @@
                             <div class="footer-col service-col">
                                 <h3 class="footer-title">Products</h3>
                                 <ul class="footer-list">
-                                    <li><a href="{{ route('products.pipes-tubes.welded-pipes') }}">WELDED PIPES</a></li>
-                                    <li><a href="{{ route('products.pipes-tubes.seamless-pipes')}}">SEAMLESS PIPES</a></li>
+                                    <li><a href="{{ route('products.pipes-tubes.welded-pipes') }}">WELDED PIPES</a>
+                                    </li>
+                                    <li><a href="{{ route('products.pipes-tubes.seamless-pipes') }}">SEAMLESS
+                                            PIPES</a></li>
                                     <li><a href="#">SHEETS & PLATES</a></li>
                                     <li><a href="#">PERFORATED SHEETS</a></li>
                                     <li><a href="#">ROUND BARS</a></li>
