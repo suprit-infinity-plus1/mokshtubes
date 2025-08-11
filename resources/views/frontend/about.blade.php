@@ -47,9 +47,9 @@
                         </h2>
                         <div class="text">
                             <!-- <p>Thank you for being a friend. Travelled down the road and back again. Your heart is
-                                                                                                            true you're a pal and a confidant. It's time to put on makeup. It's time to dress up
-                                                                                                            right.They're all together ooky the Addams Family doin' it our way. There's nothing
-                                                                                                            we wont try. Never heard the word impossible. This time there's no stopping us.</p> -->
+                                                                                                                    true you're a pal and a confidant. It's time to put on makeup. It's time to dress up
+                                                                                                                    right.They're all together ooky the Addams Family doin' it our way. There's nothing
+                                                                                                                    we wont try. Never heard the word impossible. This time there's no stopping us.</p> -->
                             <p>
                                 <strong class="text-black">
                                     MOKSH TUBES & FITTINGS LLP
@@ -129,8 +129,8 @@
             <div class="content">
                 <h2>action is the foundational key to all success</h2>
                 <!-- <p>Where the kisses are hers and hers and his. Three's company too. Goodbye gray sky hello blue.
-                                                                                                There's nothing can hold me <br>when I hold you. Feels so right it cant be wrong. Rockin' and
-                                                                                                rollin' all week long.</p> -->
+                                                                                                                    There's nothing can hold me <br>when I hold you. Feels so right it cant be wrong. Rockin' and
+                                                                                                                    rollin' all week long.</p> -->
                 <p>Quality materials. Reliable supply. Trusted by professionals across industries, we’re here to
                     support your success with products built to perform.</p>
 
@@ -635,17 +635,17 @@
 
 
     <!-- <div class="call-out2">
-                                                                                    <div class="container">
-                                                                                        <div class="clearfix">
-                                                                                            <div class="float_left">
-                                                                                                <h4>Have any question or need any business consultation?</h4>
+                                                                                        <div class="container">
+                                                                                            <div class="clearfix">
+                                                                                                <div class="float_left">
+                                                                                                    <h4>Have any question or need any business consultation?</h4>
+                                                                                                </div>
+                                                                                                <div class="float_right">
+                                                                                                    <a href="contact.html" class="thm-btn bg-clr2">Request Quote</a>
+                                                                                                </div>
                                                                                             </div>
-                                                                                            <div class="float_right">
-                                                                                                <a href="contact.html" class="thm-btn bg-clr2">Request Quote</a>
-                                                                                            </div>
-                                                                                        </div>
 
-                                                                                    </div>
-                                                                                </div> -->
+                                                                                        </div>
+                                                                                    </div> -->
 
 @endsection
