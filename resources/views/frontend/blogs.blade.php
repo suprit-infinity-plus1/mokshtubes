@@ -9,7 +9,6 @@
     <!--Start rev slider wrapper-->
 
 
-
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
@@ -21,7 +20,7 @@
     </section>
 
 
-    <section class="blog-section sec-padd2">
+  {{--   <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -153,4 +152,72 @@
             </div>
         </div>
     </section>
+
+     --}}
+
+ <section class="blog-section sec-padd2">
+    <div class="container">
+        <div class="section-title">
+            <h2>blogs</h2>
+        </div>
+        <div class="row">
+            @foreach($blogs as $blog)
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="default-blog-news wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+                        <figure class="img-holder mb-0">
+                            <a href="{{ $blog['link'] }}">
+                                <img src="{{ asset($blog['image']) }}" alt="blogs">
+                            </a>
+                            <figcaption class="overlay">
+                                <div class="box">
+                                    <div class="content">
+                                        <a href="{{ $blog['link'] }}"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <div class="lower-content">
+                            <a href="{{ $blog['link'] }}">
+                                <h5>{{ $blog['title'] }}</h5>
+                            </a>
+                            <div class="post-meta">
+                                by {{ $blog['author'] }} | {{ $blog['comments'] }} Comments | {{ $blog['date'] }}
+                            </div>
+                            <div class="text">
+                                <p>{{ $blog['excerpt'] }}</p>
+                            </div>
+                            <div class="link">
+                                <a href="{{ $blog['link'] }}" class="default_link">Read More <i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            @endforeach
+        </div>
+
+        <!-- Custom Pagination -->
+        <div class="custom-pagination">
+            @if ($blogs->onFirstPage())
+                <span class="disabled">« Prev</span>
+            @else
+                <a href="{{ $blogs->previousPageUrl() }}">« Prev</a>
+            @endif
+
+            @foreach ($blogs->getUrlRange(1, $blogs->lastPage()) as $page => $url)
+                @if ($page == $blogs->currentPage())
+                    <span class="active">{{ $page }}</span>
+                @else
+                    <a href="{{ $url }}">{{ $page }}</a>
+                @endif
+            @endforeach
+
+            @if ($blogs->hasMorePages())
+                <a href="{{ $blogs->nextPageUrl() }}">Next »</a>
+            @else
+                <span class="disabled">Next »</span>
+            @endif
+        </div>
+    </div>
+</section>
+
 @endsection
