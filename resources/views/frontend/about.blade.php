@@ -35,8 +35,8 @@
 
                     <figure class="about-img h-100 m-0">
                         <!-- <img src="images/resource/1.png" alt="about titan builders photo"> -->
-                        <img src="{{ asset('assets/images/about/about-materials_11zon.webp') }}" alt="about titan builders photo"
-                            class="img-fluid w-100 h-100 object-fit-cover custom-img">
+                        <img src="{{ asset('assets/images/about/about-materials_11zon.webp') }}"
+                            alt="about titan builders photo" class="img-fluid w-100 h-100 object-fit-cover custom-img">
                         <!-- <img src="https://placehold.co/300x300" class="mt-1" alt="about titan builders photo"> -->
                     </figure>
                 </div>
@@ -47,9 +47,9 @@
                         </h2>
                         <div class="text">
                             <!-- <p>Thank you for being a friend. Travelled down the road and back again. Your heart is
-                                                                                                                    true you're a pal and a confidant. It's time to put on makeup. It's time to dress up
-                                                                                                                    right.They're all together ooky the Addams Family doin' it our way. There's nothing
-                                                                                                                    we wont try. Never heard the word impossible. This time there's no stopping us.</p> -->
+                                                                                                                        true you're a pal and a confidant. It's time to put on makeup. It's time to dress up
+                                                                                                                        right.They're all together ooky the Addams Family doin' it our way. There's nothing
+                                                                                                                        we wont try. Never heard the word impossible. This time there's no stopping us.</p> -->
                             <p>
                                 <strong class="text-black">
                                     MOKSH TUBES & FITTINGS LLP
@@ -129,8 +129,8 @@
             <div class="content">
                 <h2>action is the foundational key to all success</h2>
                 <!-- <p>Where the kisses are hers and hers and his. Three's company too. Goodbye gray sky hello blue.
-                                                                                                                    There's nothing can hold me <br>when I hold you. Feels so right it cant be wrong. Rockin' and
-                                                                                                                    rollin' all week long.</p> -->
+                                                                                                                        There's nothing can hold me <br>when I hold you. Feels so right it cant be wrong. Rockin' and
+                                                                                                                        rollin' all week long.</p> -->
                 <p>Quality materials. Reliable supply. Trusted by professionals across industries, we’re here to
                     support your success with products built to perform.</p>
 
@@ -166,7 +166,8 @@
                 </div>
                 <div class="col-md-6 text-center">
                     <!-- Desktop Image -->
-                    <img src="{{ asset('assets/images/history/our-mission.webp') }}" alt="Large" class="img-fluid d-none d-lg-block">
+                    <img src="{{ asset('assets/images/history/our-mission.webp') }}" alt="Large"
+                        class="img-fluid d-none d-lg-block">
                     <!-- Tablet Image 400x250-->
                     <img src="{{ asset('assets/images/history/our-mission.webp') }}" alt="Tablet"
                         class="img-fluid d-none d-md-block d-lg-none">
@@ -193,7 +194,8 @@
                 </div>
                 <div class="col-md-6 text-center">
                     <!-- Desktop Image 600x300 -->
-                    <img src="{{ asset('assets/images/history/our-goal.jpg') }}" alt="Large" class="img-fluid d-none d-lg-block">
+                    <img src="{{ asset('assets/images/history/our-goal.jpg') }}" alt="Large"
+                        class="img-fluid d-none d-lg-block">
                     <!-- Tablet Image 400x250 -->
                     <img src="{{ asset('assets/images/history/our-goal.jpg') }}" alt="Tablet"
                         class="img-fluid d-none d-md-block d-lg-none">
@@ -318,194 +320,194 @@
             <!-- <div class="row">
 
 
-                                                                                            <div class="item col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                                                                                                <div class="inner-box wow fadeIn animated animated" data-wow-delay="0ms"
-                                                                                                    data-wow-duration="1500ms"
-                                                                                                    style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
+                                                                                                <div class="item col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                                                                                                    <div class="inner-box wow fadeIn animated animated" data-wow-delay="0ms"
+                                                                                                        data-wow-duration="1500ms"
+                                                                                                        style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
 
-                                                                                                    <div class="icon_box">
-                                                                                                        <span class="flaticon-people-1"></span>
-                                                                                                    </div>
+                                                                                                        <div class="icon_box">
+                                                                                                            <span class="flaticon-people-1"></span>
+                                                                                                        </div>
 
-                                                                                                    <h4>EXPERIENCED</h4>
-                                                                                                    <div class="text">
-                                                                                                        <p>Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track
-                                                                                                            now. </p>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="item col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                                                                                                <div class="inner-box wow fadeIn animated animated" data-wow-delay="0ms"
-                                                                                                    data-wow-duration="1500ms"
-                                                                                                    style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
-
-                                                                                                    <div class="icon_box">
-                                                                                                        <span class="flaticon-sun"></span>
-                                                                                                    </div>
-
-                                                                                                    <h4>PROFESSIONAL SERVICE</h4>
-                                                                                                    <div class="text">
-                                                                                                        <p>Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track
-                                                                                                            now.</p>
+                                                                                                        <h4>EXPERIENCED</h4>
+                                                                                                        <div class="text">
+                                                                                                            <p>Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track
+                                                                                                                now. </p>
+                                                                                                        </div>
                                                                                                     </div>
                                                                                                 </div>
-                                                                                            </div>
-                                                                                            <div class="item col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                                                                                                <div class="inner-box wow fadeIn animated animated" data-wow-delay="0ms"
-                                                                                                    data-wow-duration="1500ms"
-                                                                                                    style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
+                                                                                                <div class="item col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                                                                                                    <div class="inner-box wow fadeIn animated animated" data-wow-delay="0ms"
+                                                                                                        data-wow-duration="1500ms"
+                                                                                                        style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
 
-                                                                                                    <div class="icon_box">
-                                                                                                        <span class="flaticon-people-2"></span>
-                                                                                                    </div>
+                                                                                                        <div class="icon_box">
+                                                                                                            <span class="flaticon-sun"></span>
+                                                                                                        </div>
 
-                                                                                                    <h4>PUBLIC PROJECTS</h4>
-                                                                                                    <div class="text">
-                                                                                                        <p>Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track
-                                                                                                            now.</p>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="item col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                                                                                                <div class="inner-box wow fadeIn animated animated" data-wow-delay="0ms"
-                                                                                                    data-wow-duration="1500ms"
-                                                                                                    style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
-
-                                                                                                    <div class="icon_box">
-                                                                                                        <span class="flaticon-factory"></span>
-                                                                                                    </div>
-
-                                                                                                    <h4>SUPERIOR QUALITY</h4>
-                                                                                                    <div class="text">
-                                                                                                        <p>Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track
-                                                                                                            now. </p>
+                                                                                                        <h4>PROFESSIONAL SERVICE</h4>
+                                                                                                        <div class="text">
+                                                                                                            <p>Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track
+                                                                                                                now.</p>
+                                                                                                        </div>
                                                                                                     </div>
                                                                                                 </div>
-                                                                                            </div>
-                                                                                            <div class="item col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                                                                                                <div class="inner-box wow fadeIn animated animated" data-wow-delay="0ms"
-                                                                                                    data-wow-duration="1500ms"
-                                                                                                    style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
+                                                                                                <div class="item col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                                                                                                    <div class="inner-box wow fadeIn animated animated" data-wow-delay="0ms"
+                                                                                                        data-wow-duration="1500ms"
+                                                                                                        style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
 
-                                                                                                    <div class="icon_box">
-                                                                                                        <span class="flaticon-arrows"></span>
-                                                                                                    </div>
+                                                                                                        <div class="icon_box">
+                                                                                                            <span class="flaticon-people-2"></span>
+                                                                                                        </div>
 
-                                                                                                    <h4>COMPETITIVE PRICE</h4>
-                                                                                                    <div class="text">
-                                                                                                        <p>Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track
-                                                                                                            now. </p>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="item col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                                                                                                <div class="inner-box wow fadeIn animated animated" data-wow-delay="0ms"
-                                                                                                    data-wow-duration="1500ms"
-                                                                                                    style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
-
-                                                                                                    <div class="icon_box">
-                                                                                                        <span class="flaticon-technology-1"></span>
-                                                                                                    </div>
-
-                                                                                                    <h4>TIME DELIVERY</h4>
-                                                                                                    <div class="text">
-                                                                                                        <p>Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track
-                                                                                                            now. </p>
+                                                                                                        <h4>PUBLIC PROJECTS</h4>
+                                                                                                        <div class="text">
+                                                                                                            <p>Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track
+                                                                                                                now.</p>
+                                                                                                        </div>
                                                                                                     </div>
                                                                                                 </div>
-                                                                                            </div>
+                                                                                                <div class="item col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                                                                                                    <div class="inner-box wow fadeIn animated animated" data-wow-delay="0ms"
+                                                                                                        data-wow-duration="1500ms"
+                                                                                                        style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
 
-                                                                                        </div> -->
+                                                                                                        <div class="icon_box">
+                                                                                                            <span class="flaticon-factory"></span>
+                                                                                                        </div>
+
+                                                                                                        <h4>SUPERIOR QUALITY</h4>
+                                                                                                        <div class="text">
+                                                                                                            <p>Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track
+                                                                                                                now. </p>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="item col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                                                                                                    <div class="inner-box wow fadeIn animated animated" data-wow-delay="0ms"
+                                                                                                        data-wow-duration="1500ms"
+                                                                                                        style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
+
+                                                                                                        <div class="icon_box">
+                                                                                                            <span class="flaticon-arrows"></span>
+                                                                                                        </div>
+
+                                                                                                        <h4>COMPETITIVE PRICE</h4>
+                                                                                                        <div class="text">
+                                                                                                            <p>Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track
+                                                                                                                now. </p>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="item col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                                                                                                    <div class="inner-box wow fadeIn animated animated" data-wow-delay="0ms"
+                                                                                                        data-wow-duration="1500ms"
+                                                                                                        style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
+
+                                                                                                        <div class="icon_box">
+                                                                                                            <span class="flaticon-technology-1"></span>
+                                                                                                        </div>
+
+                                                                                                        <h4>TIME DELIVERY</h4>
+                                                                                                        <div class="text">
+                                                                                                            <p>Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track
+                                                                                                                now. </p>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+
+                                                                                            </div> -->
         </div>
     </section>
 
     <!-- <section class="testimonial padd3">
-                                                                                    <div class="container">
-                                                                                        <div class="section-title center">
-                                                                                            <h2>Client Feedback</h2>
+                                                                                        <div class="container">
+                                                                                            <div class="section-title center">
+                                                                                                <h2>Client Feedback</h2>
+                                                                                            </div>
+                                                                                            <div class="testimonial-carousel">
+                                                                                                <div class="testimonial-item">
+                                                                                                    <div class="content">
+                                                                                                        <span class="fa fa-quote-left"></span>
+                                                                                                        <p>Lorem ipsum dolor sit amet ment tionim sea. Ei explicari evertitur uptatum vi core
+                                                                                                            zupitor inciderint reforin alienum</p>
+
+                                                                                                        <ul class="rating">
+                                                                                                            <li class="fa fa-star"></li>
+                                                                                                            <li class="fa fa-star"></li>
+                                                                                                            <li class="fa fa-star"></li>
+                                                                                                            <li class="fa fa-star"></li>
+                                                                                                            <li class="fa fa-star"></li>
+                                                                                                        </ul>
+                                                                                                    </div>
+                                                                                                    <div class="author">
+                                                                                                        <ul class="list-inline">
+                                                                                                            <li>
+                                                                                                                <img src="images/team/1.png" alt="">
+                                                                                                            </li>
+                                                                                                            <li>
+                                                                                                                <h5>Allen Duckeat</h5>
+                                                                                                                <p>Newyork</p>
+                                                                                                            </li>
+                                                                                                        </ul>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="testimonial-item">
+                                                                                                    <div class="content">
+                                                                                                        <span class="fa fa-quote-left"></span>
+                                                                                                        <p>Lorem ipsum dolor sit amet ment tionim sea. Ei explicari evertitur uptatum vi core
+                                                                                                            zupitor inciderint reforin alienum</p>
+
+                                                                                                        <ul class="rating">
+                                                                                                            <li class="fa fa-star"></li>
+                                                                                                            <li class="fa fa-star"></li>
+                                                                                                            <li class="fa fa-star"></li>
+                                                                                                            <li class="fa fa-star"></li>
+                                                                                                            <li class="fa fa-star"></li>
+                                                                                                        </ul>
+                                                                                                    </div>
+                                                                                                    <div class="author">
+                                                                                                        <ul class="list-inline">
+                                                                                                            <li>
+                                                                                                                <img src="images/team/2.png" alt="">
+                                                                                                            </li>
+                                                                                                            <li>
+                                                                                                                <h5>mack raider</h5>
+                                                                                                                <p>California</p>
+                                                                                                            </li>
+                                                                                                        </ul>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="testimonial-item">
+                                                                                                    <div class="content">
+                                                                                                        <span class="fa fa-quote-left"></span>
+                                                                                                        <p>Lorem ipsum dolor sit amet ment tionim sea. Ei explicari evertitur uptatum vi core
+                                                                                                            zupitor inciderint reforin alienum</p>
+
+                                                                                                        <ul class="rating">
+                                                                                                            <li class="fa fa-star"></li>
+                                                                                                            <li class="fa fa-star"></li>
+                                                                                                            <li class="fa fa-star"></li>
+                                                                                                            <li class="fa fa-star"></li>
+                                                                                                            <li class="fa fa-star"></li>
+                                                                                                        </ul>
+                                                                                                    </div>
+                                                                                                    <div class="author">
+                                                                                                        <ul class="list-inline">
+                                                                                                            <li>
+                                                                                                                <img src="images/team/3.png" alt="">
+                                                                                                            </li>
+                                                                                                            <li>
+                                                                                                                <h5>Don Flethcer</h5>
+                                                                                                                <p>Los Angeles</p>
+                                                                                                            </li>
+                                                                                                        </ul>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
                                                                                         </div>
-                                                                                        <div class="testimonial-carousel">
-                                                                                            <div class="testimonial-item">
-                                                                                                <div class="content">
-                                                                                                    <span class="fa fa-quote-left"></span>
-                                                                                                    <p>Lorem ipsum dolor sit amet ment tionim sea. Ei explicari evertitur uptatum vi core
-                                                                                                        zupitor inciderint reforin alienum</p>
-
-                                                                                                    <ul class="rating">
-                                                                                                        <li class="fa fa-star"></li>
-                                                                                                        <li class="fa fa-star"></li>
-                                                                                                        <li class="fa fa-star"></li>
-                                                                                                        <li class="fa fa-star"></li>
-                                                                                                        <li class="fa fa-star"></li>
-                                                                                                    </ul>
-                                                                                                </div>
-                                                                                                <div class="author">
-                                                                                                    <ul class="list-inline">
-                                                                                                        <li>
-                                                                                                            <img src="images/team/1.png" alt="">
-                                                                                                        </li>
-                                                                                                        <li>
-                                                                                                            <h5>Allen Duckeat</h5>
-                                                                                                            <p>Newyork</p>
-                                                                                                        </li>
-                                                                                                    </ul>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="testimonial-item">
-                                                                                                <div class="content">
-                                                                                                    <span class="fa fa-quote-left"></span>
-                                                                                                    <p>Lorem ipsum dolor sit amet ment tionim sea. Ei explicari evertitur uptatum vi core
-                                                                                                        zupitor inciderint reforin alienum</p>
-
-                                                                                                    <ul class="rating">
-                                                                                                        <li class="fa fa-star"></li>
-                                                                                                        <li class="fa fa-star"></li>
-                                                                                                        <li class="fa fa-star"></li>
-                                                                                                        <li class="fa fa-star"></li>
-                                                                                                        <li class="fa fa-star"></li>
-                                                                                                    </ul>
-                                                                                                </div>
-                                                                                                <div class="author">
-                                                                                                    <ul class="list-inline">
-                                                                                                        <li>
-                                                                                                            <img src="images/team/2.png" alt="">
-                                                                                                        </li>
-                                                                                                        <li>
-                                                                                                            <h5>mack raider</h5>
-                                                                                                            <p>California</p>
-                                                                                                        </li>
-                                                                                                    </ul>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                            <div class="testimonial-item">
-                                                                                                <div class="content">
-                                                                                                    <span class="fa fa-quote-left"></span>
-                                                                                                    <p>Lorem ipsum dolor sit amet ment tionim sea. Ei explicari evertitur uptatum vi core
-                                                                                                        zupitor inciderint reforin alienum</p>
-
-                                                                                                    <ul class="rating">
-                                                                                                        <li class="fa fa-star"></li>
-                                                                                                        <li class="fa fa-star"></li>
-                                                                                                        <li class="fa fa-star"></li>
-                                                                                                        <li class="fa fa-star"></li>
-                                                                                                        <li class="fa fa-star"></li>
-                                                                                                    </ul>
-                                                                                                </div>
-                                                                                                <div class="author">
-                                                                                                    <ul class="list-inline">
-                                                                                                        <li>
-                                                                                                            <img src="images/team/3.png" alt="">
-                                                                                                        </li>
-                                                                                                        <li>
-                                                                                                            <h5>Don Flethcer</h5>
-                                                                                                            <p>Los Angeles</p>
-                                                                                                        </li>
-                                                                                                    </ul>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </section> -->
+                                                                                    </section> -->
 
     <section class="subscribe center sec-padd">
         <div class="container">
@@ -630,22 +632,106 @@
                 </article>
             </div>
         </div>
+
+        <!--Start faq content area-->
+        <section class="faq-content-area sec-padd2">
+            <div class="container">
+                <div class="section-title center">
+                    <h2>FAQ's</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="accordion-box">
+                            <!--Start single accordion box-->
+                            <div class="accordion accordion-block">
+                                <div class="accord-btn active">
+                                    <h4>What products does Moksh Tubes & Fittings LLP manufacture and supply?</h4>
+                                </div>
+                                <div class="accord-content collapsed">
+                                    <p>Moksh Tubes & Fittings LLP manufactures and supplies a wide range of steel products,
+                                        including Pipes & Tubes, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils,
+                                        Wires, Round Bars, Flat Bars, Angles, Channels, Welding Rods, Wire Mesh, and other
+                                        custom and hard-to-find steel products in both ferrous and non-ferrous grades.</p>
+                                </div>
+                            </div>
+                            <!--End single accordion box-->
+                            <!--Start single accordion box-->
+                            <div class="accordion accordion-block">
+                                <div class="accord-btn">
+                                    <h4>Which industries does Moksh Tubes & Fittings LLP serve?</h4>
+                                </div>
+                                <div class="accord-content">
+                                    <p>We cater to diverse industries such as Oil & Gas, Petrochemicals, Power Generation,
+                                        Water Management, Pharmaceuticals, Food & Beverage, Marine, Construction, Sugar
+                                        Industries, Boilers & Pressure Vessels, Solar, and Chemical Processing, delivering
+                                        high-quality materials for critical applications.</p>
+                                </div>
+                            </div>
+                            <!--End single accordion box-->
+                            <!--Start single accordion box-->
+                            <div class="accordion accordion-block">
+                                <div class="accord-btn">
+                                    <h4>What materials are available at Moksh Tubes & Fittings LLP?
+                                    </h4>
+                                </div>
+                                <div class="accord-content">
+                                    <p>Our product range covers Stainless Steel, Duplex & Super Duplex Steel, Nickel Alloys
+                                        like Hastelloy, Inconel, and Monel, Titanium Alloys, Copper & Bronze Alloys, Carbon
+                                        Steel, and rare alloys including Nimonic, Ferralium, Zirconium, and Tantalum.</p>
+                                </div>
+                            </div>
+                            <!--End single accordion box-->
+                            <!--Start single accordion box-->
+                            <div class="accordion accordion-block">
+                                <div class="accord-btn">
+                                    <h4>How does Moksh Tubes & Fittings LLP ensure quality standards?
+                                    </h4>
+                                </div>
+                                <div class="accord-content">
+                                    <p>All materials we supply comply with international standards such as ASTM, ASME, ISO,
+                                        and DIN. We maintain strict quality control procedures and partner with trusted
+                                        suppliers to ensure reliable performance and durability in every project.
+                                    </p>
+                                </div>
+                            </div>
+                            <!--End single accordion box-->
+                            <!--Start single accordion box-->
+                            <div class="accordion accordion-block">
+                                <div class="accord-btn">
+                                    <h4>Does Moksh Tubes & Fittings LLP offer global delivery?
+                                    </h4>
+                                </div>
+                                <div class="accord-content">
+                                    <p>Yes. With 20 years of experience and projects completed in over 12 countries, Moksh
+                                        Tubes & Fittings LLP has the logistics and sourcing capabilities to deliver steel
+                                        products worldwide, ensuring on-time supply for urgent and large-scale orders.</p>
+                                </div>
+                            </div>
+                            <!--End single accordion box-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End faq content area-->
+
+
     </section>
 
 
 
     <!-- <div class="call-out2">
-                                                                                        <div class="container">
-                                                                                            <div class="clearfix">
-                                                                                                <div class="float_left">
-                                                                                                    <h4>Have any question or need any business consultation?</h4>
+                                                                                            <div class="container">
+                                                                                                <div class="clearfix">
+                                                                                                    <div class="float_left">
+                                                                                                        <h4>Have any question or need any business consultation?</h4>
+                                                                                                    </div>
+                                                                                                    <div class="float_right">
+                                                                                                        <a href="contact.html" class="thm-btn bg-clr2">Request Quote</a>
+                                                                                                    </div>
                                                                                                 </div>
-                                                                                                <div class="float_right">
-                                                                                                    <a href="contact.html" class="thm-btn bg-clr2">Request Quote</a>
-                                                                                                </div>
-                                                                                            </div>
 
-                                                                                        </div>
-                                                                                    </div> -->
+                                                                                            </div>
+                                                                                        </div> -->
 
 @endsection

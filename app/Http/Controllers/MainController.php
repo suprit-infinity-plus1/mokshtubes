@@ -48,6 +48,17 @@ class MainController extends Controller
         return view('frontend.blogs.stainless-steel-inconel-tubes');
     }
 
+    public function tenMistakesToAvoidWhenBuyingStainlessSteelPipes()
+    {
+
+        return view('frontend.blogs.10-mistakes-to-avoid-when-buying-stainless-steel-pipes');
+    }
+    public function emergingTrendsInIndustrialPipingFor2025AndBeyond()
+    {
+
+        return view('frontend.blogs.emerging-trends-in-industrial-piping-for-2025-and-beyond');
+    }
+
 
 
 

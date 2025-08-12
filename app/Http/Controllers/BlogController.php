@@ -17,25 +17,25 @@ class BlogController extends Controller
                 'date' => '21 Feb',
                 'image' => 'assets/images/blogs/Inconel-vs-Stainless-Steel.jpg',
                 'excerpt' => 'Choosing between stainless steel and Inconel tubes depends heavily on your industrial needs',
-                'link' => '#'
+                'link' => route('blogs.stainless-steel-inconel-tubes')
             ],
             [
-                'title' => 'MATERIALS & MANUFACTURING',
+                'title' => '10 Mistakes to Avoid When Buying Stainless Steel Pipes',
                 'author' => 'fletcher',
                 'comments' => 14,
                 'date' => '21 Feb',
-                'image' => 'assets/images/blog/blog.png',
-                'excerpt' => 'Except to obtain some advantage from it? But who has any right to enjoy a pleasure.',
-                'link' => '#'
+                'image' => 'assets/images/blog/10-Mistakes-to-Avoid-When-Buying-Stainless-Steel-Pipes.webp',
+                'excerpt' => 'Stainless steel pipes are truly the backbone of many industries worldwide. ',
+                'link' => route('blogs.10-mistakes-to-avoid-when-buying-stainless-steel-pipes')
             ],
             [
-                'title' => 'COMMERCIAL AND REAL PROJECTS',
+                'title' => 'Emerging Trends in Industrial Piping for 2025 and Beyond',
                 'author' => 'Richards',
                 'comments' => 22,
                 'date' => '17 Apr',
                 'image' => 'assets/images/blog/Untitled (1).png',
-                'excerpt' => 'Great pleasure to take a trivial example, which of us undertakes laborious.',
-                'link' => '#'
+                'excerpt' => 'The industrial piping industry is on the brink of a significant transformation.',
+                'link' => route('blogs.emerging-trends-in-industrial-piping-for-2025-and-beyond')
             ],
             [
                 'title' => 'MATERIALS FOR THE ECONOMY',
@@ -73,8 +73,8 @@ class BlogController extends Controller
                 'excerpt' => 'Pleasure and praising pain was born and I will give you a complete account.',
                 'link' => '#'
             ],
-            
-       
+
+
         ]);
 
         // Laravel pagination from array
