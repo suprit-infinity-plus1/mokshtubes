@@ -26,15 +26,15 @@
 
             @php
                 $grades = [
-                    ['name' => 'Hastelloy C276', 'slug' => 'hastelloy-c276', 'image' => 'assets/images/hastelloy/hastelloy-c276.jpeg'],
-                    ['name' => 'Hastelloy C22', 'slug' => 'hastelloy-c22', 'image' => 'assets/images/hastelloy/hastelloy-c22.jpeg'],
-                    ['name' => 'Hastelloy C4', 'slug' => 'hastelloy-c4', 'image' => 'assets/images/hastelloy/hastelloy-C4.jpeg'],
-                    ['name' => 'Hastelloy B2', 'slug' => 'hastelloy-b2', 'image' => 'assets/images/hastelloy/hastelloy-b2.jpeg'],
-                    ['name' => 'Hastelloy B3', 'slug' => 'hastelloy-b3', 'image' => 'assets/images/hastelloy/Hastelloy-B3.jpeg'],
-                    ['name' => 'Hastelloy C2000', 'slug' => 'hastelloy-c2000', 'image' => 'assets/images/hastelloy/hastelloy-c2000.jpg'],
-                    ['name' => 'Hastelloy G3', 'slug' => 'hastelloy-g3', 'image' => 'assets/images/hastelloy/hastelloy-G3.jpg'],
-                    ['name' => 'Hastelloy G30', 'slug' => 'hastelloy-g30', 'image' => 'assets/images/hastelloy/Hastelloy-G30.jpeg'],
-                    ['name' => 'Hastelloy X', 'slug' => 'hastelloy-x', 'image' => 'assets/images/hastelloy/hastelloy-X.jpg'],
+                    ['name' => 'Hastelloy C276', 'slug' => 'hastelloy-c276', 'image' => 'assets/images/hastelloy/hastelloy-c276.webp'],
+                    ['name' => 'Hastelloy C22', 'slug' => 'hastelloy-c22', 'image' => 'assets/images/hastelloy/hastelloy-c22.webp'],
+                    ['name' => 'Hastelloy C4', 'slug' => 'hastelloy-c4', 'image' => 'assets/images/hastelloy/hastelloy-C4.webp'],
+                    ['name' => 'Hastelloy B2', 'slug' => 'hastelloy-b2', 'image' => 'assets/images/hastelloy/hastelloy-b2.webp'],
+                    ['name' => 'Hastelloy B3', 'slug' => 'hastelloy-b3', 'image' => 'assets/images/hastelloy/Hastelloy-B3.webp'],
+                    ['name' => 'Hastelloy C2000', 'slug' => 'hastelloy-c2000', 'image' => 'assets/images/hastelloy/hastelloy-c2000.webp'],
+                    ['name' => 'Hastelloy G3', 'slug' => 'hastelloy-g3', 'image' => 'assets/images/hastelloy/hastelloy-G3.webp'],
+                    ['name' => 'Hastelloy G30', 'slug' => 'hastelloy-g30', 'image' => 'assets/images/hastelloy/Hastelloy-G30.webp'],
+                    ['name' => 'Hastelloy X', 'slug' => 'hastelloy-x', 'image' => 'assets/images/hastelloy/hastelloy-X.webp'],
                 ];
             @endphp
 

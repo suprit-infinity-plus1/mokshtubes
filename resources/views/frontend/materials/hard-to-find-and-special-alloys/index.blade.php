@@ -28,12 +28,12 @@
 
             @php
                 $grades = [
-                    ['name' => 'Carbide', 'slug' => 'hard-to-find-and-special-alloys-carbide', 'image' => 'assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-carbide.jpg'],
-                    ['name' => 'Nimonic', 'slug' => 'hard-to-find-and-special-alloys-nimonic', 'image' => 'assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-nimonic.jpg'],
-                    ['name' => 'Nitinol', 'slug' => 'hard-to-find-and-special-alloys-nitinol', 'image' => 'assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-nitinol.png'],
-                    ['name' => 'Stellite', 'slug' => 'hard-to-find-and-special-alloys-stellite', 'image' => 'assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-stellite.jpeg'],
-                    ['name' => 'Tantalum', 'slug' => 'hard-to-find-and-special-alloys-tantalum', 'image' => 'assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-tantalum.jpeg'],
-                    ['name' => 'Tungsten', 'slug' => 'hard-to-find-and-special-alloys-tungsten', 'image' => 'assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-tungsten.png'],
+                    ['name' => 'Hard To Find And Special Alloys Carbide', 'slug' => 'hard-to-find-and-special-alloys-carbide', 'image' => 'assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-carbide.webp'],
+                    ['name' => 'Hard To Find And Special Alloys Nimonic', 'slug' => 'hard-to-find-and-special-alloys-nimonic', 'image' => 'assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-nimonic.webp'],
+                    ['name' => 'Hard To Find And Special Alloys Nitinol', 'slug' => 'hard-to-find-and-special-alloys-nitinol', 'image' => 'assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-nitinol.webp'],
+                    ['name' => 'Hard To Find And Special Alloys Stellite', 'slug' => 'hard-to-find-and-special-alloys-stellite', 'image' => 'assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-stellite.webp'],
+                    ['name' => 'Hard To Find And Special Alloys Tantalum', 'slug' => 'hard-to-find-and-special-alloys-tantalum', 'image' => 'assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-tantalum.webp'],
+                    ['name' => 'Hard To Find And Special Alloys Tungsten', 'slug' => 'hard-to-find-and-special-alloys-tungsten', 'image' => 'assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-tungsten.webp'],
                 ];
             @endphp
 

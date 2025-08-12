@@ -29,67 +29,67 @@
                     [
                         'name' => 'Copper Alloys Aluminium Bronze',
                         'slug' => 'copper-alloys-aluminium-bronze',
-                        'image' => 'assets/images/copper-alloys/copper alloys aluminium bronze.jpg',
+                        'image' => 'assets/images/copper-alloys/copper alloys aluminium bronze.webp',
                     ],
                     [
                         'name' => 'Copper Alloys Beryllium Copper',
                         'slug' => 'copper-alloys-beryllium-copper',
-                        'image' => 'assets/images/copper-alloys/copper-alloys-beryllium-copper.jpeg',
+                        'image' => 'assets/images/copper-alloys/copper-alloys-beryllium-copper.webp',
                     ],
                     [
                         'name' => 'Copper Alloys C44300',
                         'slug' => 'copper-alloys-c44300',
-                        'image' => 'assets/images/copper-alloys/copper-alloys-c44300.jpeg',
+                        'image' => 'assets/images/copper-alloys/copper-alloys-c44300.webp',
                     ],
                     [
                         'name' => 'Copper Alloys C46400',
                         'slug' => 'copper-alloys-c46400',
-                        'image' => 'assets/images/copper-alloys/copper-alloys-c46400.jpg',
+                        'image' => 'assets/images/copper-alloys/copper-alloys-c46400.webp',
                     ],
                     [
                         'name' => 'Copper Alloys C63000',
                         'slug' => 'copper-alloys-c63000',
-                        'image' => 'assets/images/copper-alloys/Copper Alloys C63000.jpg',
+                        'image' => 'assets/images/copper-alloys/Copper Alloys C63000.webp',
                     ],
                     [
                         'name' => 'Copper Alloys C71500',
                         'slug' => 'copper-alloys-c71500',
-                        'image' => 'assets/images/copper-alloys/copper-alloys-c71500.jpeg',
+                        'image' => 'assets/images/copper-alloys/copper-alloys-c71500.webp',
                     ],
                     [
                         'name' => 'Copper Alloys C71520',
                         'slug' => 'copper-alloys-c71520',
-                        'image' => 'assets/images/copper-alloys/copper-alloys-c71520.jpg',
+                        'image' => 'assets/images/copper-alloys/copper-alloys-c71520.webp',
                     ],
                     [
                         'name' => 'Copper Alloys Cartridge Brass',
                         'slug' => 'copper-alloys-cartridge-brass',
-                        'image' => 'assets/images/copper-alloys/copper-alloys-cartridge-brass.jpg',
+                        'image' => 'assets/images/copper-alloys/copper-alloys-cartridge-brass.webp',
                     ],
                     [
                         'name' => 'Copper Alloys Cu Ni 70_30',
                         'slug' => 'copper-alloys-cu-ni-70-30',
-                        'image' => 'assets/images/copper-alloys/copper-alloys-cu-ni-70_30.jpg',
+                        'image' => 'assets/images/copper-alloys/copper-alloys-cu-ni-70_30.webp',
                     ],
                     [
                         'name' => 'Copper Alloys Cu Ni-90_10',
                         'slug' => 'copper-alloys-cu-ni-90-10',
-                        'image' => 'assets/images/copper-alloys/copper-alloys-cu-ni-90_10.jpg',
+                        'image' => 'assets/images/copper-alloys/copper-alloys-cu-ni-90_10.webp',
                     ],
                     [
                         'name' => 'Copper Alloys Ec Copper',
                         'slug' => 'copper-alloys-ec-copper',
-                        'image' => 'assets/images/copper-alloys/copper-alloys-ec-copper.jpeg',
+                        'image' => 'assets/images/copper-alloys/copper-alloys-ec-copper.webp',
                     ],
                     [
                         'name' => 'Copper Alloys Etp Copper',
                         'slug' => 'copper-alloys-etp-copper',
-                        'image' => 'assets/images/copper-alloys/copper-alloys-etp-copper.jpg',
+                        'image' => 'assets/images/copper-alloys/copper-alloys-etp-copper.webp',
                     ],
                     [
                         'name' => 'Copper Alloys Navel Brass',
                         'slug' => 'copper-alloys-navel-brass',
-                        'image' => 'assets/images/copper-alloys/copper-alloys-navel-brass.jpeg',
+                        'image' => 'assets/images/copper-alloys/copper-alloys-navel-brass.webp',
                     ],
                 ];
             @endphp

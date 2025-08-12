@@ -27,9 +27,9 @@
 
             @php
                 $grades = [
-                    ['name' => 'Nickel Based superalloys A286_AIS660', 'slug' => 'nickel-based-superalloys-a286-ais660', 'image' => 'assets/images/nickel-based-superalloys/nickel-based-superalloys-A286_AIS660.jpeg'],
-                    ['name' => 'Nickel Based superalloys 200', 'slug' => 'nickel-based-superalloys-200', 'image' => 'assets/images/nickel-based-superalloys/nickel-based-superalloys-200.jpeg'],
-                    ['name' => 'Nickel Based superalloys 201', 'slug' => 'nickel-based-superalloys-201', 'image' => 'assets/images/nickel-based-superalloys/nickel-based-superalloys-201.jpg'],
+                    ['name' => 'Nickel Based superalloys A286_AIS660', 'slug' => 'nickel-based-superalloys-a286-ais660', 'image' => 'assets/images/nickel-based-superalloys/nickel-based-superalloys-A286_AIS660.webp'],
+                    ['name' => 'Nickel Based superalloys 200', 'slug' => 'nickel-based-superalloys-200', 'image' => 'assets/images/nickel-based-superalloys/nickel-based-superalloys-200.webp'],
+                    ['name' => 'Nickel Based superalloys 201', 'slug' => 'nickel-based-superalloys-201', 'image' => 'assets/images/nickel-based-superalloys/nickel-based-superalloys-201.webp'],
                 ];
             @endphp
 

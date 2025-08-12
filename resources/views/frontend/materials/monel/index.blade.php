@@ -31,17 +31,17 @@
                     [
                         'name' => 'Monel K500',
                         'slug' => 'monel-k500',
-                        'image' => 'assets/images/monel/Monel-K500.jpg'
+                        'image' => 'assets/images/monel/Monel-400.webp'
                     ],
                     [
                         'name' => 'Monel R405',
                         'slug' => 'monel-r405',
-                        'image' => 'assets/images/monel/Monel-R405.jpeg'
+                        'image' => 'assets/images/monel/Monel-R405.webp'
                     ],
                     [
                         'name' => 'Monel 400',
                         'slug' => 'monel-400',
-                        'image' => 'assets/images/monel/Monel-400.jpg'
+                        'image' => 'assets/images/monel/Monel-400.webp'
                     ],
                 ];
             @endphp

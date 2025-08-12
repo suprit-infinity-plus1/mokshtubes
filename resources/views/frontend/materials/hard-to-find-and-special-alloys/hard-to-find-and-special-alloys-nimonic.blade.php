@@ -30,7 +30,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-nimonic.jpg"
+                    <img src="{{ asset('assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-nimonic.webp') }}"
                         alt="Nimonic Alloys" class="img-fluid rounded shadow-sm">
                 </div>
 

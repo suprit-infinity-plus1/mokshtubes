@@ -30,18 +30,18 @@
                     [
                     'name' => 'aluminium alloys 6061 T6',
                     'slug' => 'aluminium-alloys-6061-T6',
-                    'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6061-T6.jpeg'
+                    'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp'
                     ],
 
-                    ['name' => 'aluminium alloys 1100', 'slug' => 'aluminium-alloys-1100', 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-1100.jpg'],
-                    ['name' => 'aluminium alloys 1200', 'slug' => 'aluminium-alloys-1200','image' => 'assets/images/aluminium-alloys/aluminium-alloys-1200.jpg'],
-                    ['name' => 'aluminium alloys 2014 T6', 'slug' => 'aluminium-alloys-2014-T6','image' => 'assets/images/aluminium-alloys/aluminium-alloys-2014-T6.jpeg'],
-                    ['name' => 'aluminium alloys 5083', 'slug' => 'aluminium-alloys-5083', 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.jpg'],
-                    ['name' => 'aluminium alloys 6012', 'slug' => 'aluminium-alloys-6012', 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.jpg'],
-                    ['name' => 'aluminium alloys 6063', 'slug' => 'aluminium-alloys-6063', 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.jpeg'],
-                    ['name' => 'aluminium alloys 6082 T6', 'slug' => 'aluminium-alloys-6082-T6', 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6082-T6.jpeg'],
-                    ['name' => 'aluminium alloys 7075', 'slug' => 'aluminium-alloys7075', 'image' => 'assets/images/aluminium-alloys/aluminium-alloys7075.jpg'],
-                    ['name' => 'aluminium alloys HE30', 'slug' => 'aluminium-alloys-HE30', 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-HE30.jpeg'],
+                    ['name' => 'aluminium alloys 1100', 'slug' => 'aluminium-alloys-1100', 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-1100.webp'],
+                    ['name' => 'aluminium alloys 1200', 'slug' => 'aluminium-alloys-1200','image' => 'assets/images/aluminium-alloys/aluminium-alloys-1200.webp'],
+                    ['name' => 'aluminium alloys 2014 T6', 'slug' => 'aluminium-alloys-2014-T6','image' => 'assets/images/aluminium-alloys/aluminium-alloys-2014-T6.webp'],
+                    ['name' => 'aluminium alloys 5083', 'slug' => 'aluminium-alloys-5083', 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.webp'],
+                    ['name' => 'aluminium alloys 6012', 'slug' => 'aluminium-alloys-6012', 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp'],
+                    ['name' => 'aluminium alloys 6063', 'slug' => 'aluminium-alloys-6063', 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp'],
+                    ['name' => 'aluminium alloys 6082 T6', 'slug' => 'aluminium-alloys-6082-T6', 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6082-T6.webp'],
+                    ['name' => 'aluminium alloys 7075', 'slug' => 'aluminium-alloys7075', 'image' => 'assets/images/aluminium-alloys/aluminium-alloys7075.webp'],
+                    ['name' => 'aluminium alloys HE30', 'slug' => 'aluminium-alloys-HE30', 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-HE30.webp'],
                 ];
             @endphp
 

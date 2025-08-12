@@ -30,7 +30,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?" alt="Alloy 904L" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/super-austenitic-stainless-steel/super-austenitic-stainless-steel-904L.webp') }}" alt="Alloy 904L" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->

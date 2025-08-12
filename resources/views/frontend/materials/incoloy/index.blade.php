@@ -28,15 +28,15 @@
 
             @php
                 $grades = [
-                    ['name' => '825', 'slug' => 'incoloy-825', 'image' => 'assets/images/incoloy/incoloy-825.jpeg'],
-                    ['name' => '800', 'slug' => 'incoloy-800', 'image' => 'assets/images/incoloy/incoloy-800.jpg'],
-                    ['name' => '925', 'slug' => 'incoloy-925', 'image' => 'assets/images/incoloy/incoloy-925.jpg'],
+                    ['name' => '825', 'slug' => 'incoloy-825', 'image' => 'assets/images/incoloy/incoloy-825.webp'],
+                    ['name' => '800', 'slug' => 'incoloy-800', 'image' => 'assets/images/incoloy/incoloy-800.webp'],
+                    ['name' => '925', 'slug' => 'incoloy-925', 'image' => 'assets/images/incoloy/incoloy-925.webp'],
                     [
                         'name' => '800H_800HT',
                         'slug' => 'incoloy-800H-800HT',
-                        'image' => 'assets/images/incoloy/incoloy-800H_800HT.jpeg',
+                        'image' => 'assets/images/incoloy/incoloy-800H_800HT.webp',
                     ],
-                    ['name' => '020', 'slug' => 'incoloy-020', 'image' => 'assets/images/incoloy/incoloy-020.jpeg'],
+                    ['name' => '020', 'slug' => 'incoloy-020', 'image' => 'assets/images/incoloy/incoloy-020.webp'],
                 ];
             @endphp
 

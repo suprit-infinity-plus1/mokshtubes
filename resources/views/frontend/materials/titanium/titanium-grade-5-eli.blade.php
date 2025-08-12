@@ -30,7 +30,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/titanium/titanium-5-eli.jpeg" alt="Titanium Grade 5 ELI"
+                    <img src="{{ asset('assets/images/titanium/titanium-5-eli.webp') }}" alt="Titanium Grade 5 ELI"
                         class="img-fluid rounded shadow-sm">
                 </div>
 

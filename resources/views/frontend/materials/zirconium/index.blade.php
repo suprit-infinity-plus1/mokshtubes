@@ -30,17 +30,17 @@
                     [
                         'name' => 'Zirconium 702',
                         'slug' => 'zirconium-702',
-                        'image' => 'assets/images/zirconium/zirconium-702.jpeg',
+                        'image' => 'assets/images/zirconium/zirconium-702.webp',
                     ],
                     [
                         'name' => 'Zirconium 704',
                         'slug' => 'zirconium-704',
-                        'image' => 'assets/images/zirconium/zirconium704.png',
+                        'image' => 'assets/images/zirconium/zirconium704.webp',
                     ],
                     [
                         'name' => 'Zirconium 705',
                         'slug' => 'zirconium-705',
-                        'image' => 'assets/images/zirconium/zirconium-705.jpeg',
+                        'image' => 'assets/images/zirconium/zirconium-705.webp',
                     ],
                 ];
             @endphp

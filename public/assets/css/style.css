@@ -4846,7 +4846,7 @@ textarea {
 }
 
 .accordion-box {
-    padding: 80px 0 80px 0px;
+    /* padding: 20px 0 80px 0px; */
 }
 
 .accordion-box .accordion {
@@ -4856,7 +4856,7 @@ textarea {
 }
 
 .accordion-box .accordion .accord-btn {
-    background: #f7f7f7 none repeat scroll 0 0;
+    background: #dfdfdf none repeat scroll 0 0;
     cursor: pointer;
     height: 55px;
     line-height: 18px;
@@ -4919,7 +4919,7 @@ textarea {
 }
 
 .accordion-box .accordion .accord-content p {
-    color: #9a9a9a;
+    color: #4e4646;
     line-height: 28px;
     margin: 0;
 }
@@ -4974,6 +4974,14 @@ textarea {
 .faq-content-area .question-form form button:hover {
     background: var(--primary);
     color: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+    .faq-content-area .accordion-box .accordion .accord-btn h4 {
+        font-size: 16px;
+        line-height: 19px !important;
+        padding-right: 20px;
+    }
 }
 
 /***

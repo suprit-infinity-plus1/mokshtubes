@@ -26,12 +26,12 @@
 
             @php
                 $grades = [
-                    ['name' => 'Inconel 600', 'slug' => 'inconel-600', 'image' => 'assets/images/inconel/inconel-600.jpg'],
-                    ['name' => 'Inconel 617', 'slug' => 'inconel-617', 'image' => 'assets/images/inconel/Inconel-617.jpeg'],
-                    ['name' => 'Inconel 625', 'slug' => 'inconel-625', 'image' => 'assets/images/inconel/Inconel-625.jpeg'],
-                    ['name' => 'Inconel 690', 'slug' => 'inconel-690', 'image' => 'assets/images/inconel/Inconel-690.jpg'],
-                    ['name' => 'Inconel 718', 'slug' => 'inconel-718', 'image' => 'assets/images/inconel/Inconel-718.jpg'],
-                    ['name' => 'Inconel x750', 'slug' => 'inconel-x750', 'image' => 'assets/images/inconel/Inconel-X 750.jpg'],
+                    ['name' => 'Inconel 600', 'slug' => 'inconel-600', 'image' => 'assets/images/inconel/inconel-600.webp'],
+                    ['name' => 'Inconel 617', 'slug' => 'inconel-617', 'image' => 'assets/images/inconel/Inconel-617.webp'],
+                    ['name' => 'Inconel 625', 'slug' => 'inconel-625', 'image' => 'assets/images/inconel/Inconel-625.webp'],
+                    ['name' => 'Inconel 690', 'slug' => 'inconel-690', 'image' => 'assets/images/inconel/Inconel-690.webp'],
+                    ['name' => 'Inconel 718', 'slug' => 'inconel-718', 'image' => 'assets/images/inconel/Inconel-718.webp'],
+                    ['name' => 'Inconel x750', 'slug' => 'inconel-x750', 'image' => 'assets/images/inconel/Inconel-X 750.webp'],
                 ];
             @endphp
 

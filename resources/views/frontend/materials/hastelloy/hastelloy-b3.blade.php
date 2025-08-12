@@ -30,7 +30,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/hastelloy/Hastelloy-B3.jpeg" alt="Hastelloy-b3"
+                    <img src="{{ asset('assets/images/hastelloy/Hastelloy-B3.webp') }}" alt="Hastelloy-b3"
                         class="img-fluid rounded shadow-sm">
                 </div>
 

@@ -29,7 +29,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/incoloy/incoloy-825.jpeg" alt="Incoloy 825"
+                    <img src="{{ asset('assets/images/incoloy/incoloy-825.webp') }}" alt="Incoloy 825"
                         class="img-fluid rounded shadow-sm">
                 </div>
 

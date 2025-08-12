@@ -27,17 +27,17 @@
 
             @php
                 $grades = [
-                    ['name' => 'Titanium grade 1', 'slug' => 'titanium-grade-1', 'image' => 'assets/images/titanium/titanium-1.jpg'],
-                    ['name' => 'Titanium grade 2', 'slug' => 'titanium-grade-2', 'image' => 'assets/images/titanium/titanium-2.jpg'],
-                    ['name' => 'Titanium grade 4 eli', 'slug' => 'titanium-grade-4-eli', 'image' => 'assets/images/titanium/titanium-4.jpg'],
-                    ['name' => 'Titanium grade 4', 'slug' => 'titanium-grade-4', 'image' => 'assets/images/titanium/titanium-4.jpeg'],
-                    ['name' => 'Titanium grade 5 eli', 'slug' => 'titanium-grade-5-eli', 'image' => 'assets/images/titanium/titanium-5-eli.jpeg'],
-                    ['name' => 'Titanium grade 5', 'slug' => 'titanium-grade-5', 'image' => 'assets/images/titanium/titanium-5.jpg'],
-                    ['name' => 'Titanium grade 7 nb', 'slug' => 'titanium-grade-7-nb', 'image' => 'assets/images/titanium/titanium-7nb.jpg'],
-                    ['name' => 'Titanium grade 9', 'slug' => 'titanium-grade-9', 'image' => 'assets/images/titanium/Titanium-9.jpeg'],
-                    ['name' => 'Titanium grade 12', 'slug' => 'titanium-grade-12', 'image' => 'assets/images/titanium/titanium-grade2.jpg'],
-                    ['name' => 'Titanium grade 7', 'slug' => 'titanium-grade-7', 'image' => 'assets/images/titanium/titanium-7.jpeg'],
-                    ['name' => 'Titanium grade 23', 'slug' => 'titanium-grade-23', 'image' => 'assets/images/titanium/titanium-23.jpg'],
+                    ['name' => 'Titanium grade 1', 'slug' => 'titanium-grade-1', 'image' => 'assets/images/titanium/titanium-1.webp'],
+                    ['name' => 'Titanium grade 2', 'slug' => 'titanium-grade-2', 'image' => 'assets/images/titanium/titanium-2.webp'],
+                    ['name' => 'Titanium grade 4 eli', 'slug' => 'titanium-grade-4-eli', 'image' => 'assets/images/titanium/titanium-4.webp'],
+                    ['name' => 'Titanium grade 4', 'slug' => 'titanium-grade-4', 'image' => 'assets/images/titanium/titanium-4.webp'],
+                    ['name' => 'Titanium grade 5 eli', 'slug' => 'titanium-grade-5-eli', 'image' => 'assets/images/titanium/titanium-5-eli.webp'],
+                    ['name' => 'Titanium grade 5', 'slug' => 'titanium-grade-5', 'image' => 'assets/images/titanium/titanium-5.webp'],
+                    ['name' => 'Titanium grade 7 nb', 'slug' => 'titanium-grade-7-nb', 'image' => 'assets/images/titanium/titanium-7nb.webp'],
+                    ['name' => 'Titanium grade 9', 'slug' => 'titanium-grade-9', 'image' => 'assets/images/titanium/Titanium-9.webp'],
+                    ['name' => 'Titanium grade 12', 'slug' => 'titanium-grade-12', 'image' => 'assets/images/titanium/titanium-grade2.webp'],
+                    ['name' => 'Titanium grade 7', 'slug' => 'titanium-grade-7', 'image' => 'assets/images/titanium/titanium-7.webp'],
+                    ['name' => 'Titanium grade 23', 'slug' => 'titanium-grade-23', 'image' => 'assets/images/titanium/titanium-23.webp'],
                 ];
             @endphp
 

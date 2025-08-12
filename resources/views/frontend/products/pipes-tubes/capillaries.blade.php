@@ -27,7 +27,7 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/peoduct/capillary-tubes.jpg" alt="Capillary Tubes" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/peoduct/capillary-tubes.webp') }}" alt="Capillary Tubes" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Right Content -->

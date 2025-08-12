@@ -29,7 +29,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/austenitic-stainless-steel/austenitic-stainless-steel-309.jpeg"alt="Austenitic Stainless Steel 309"
+                    <img src="{{ asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-309.webp') }}"alt="Austenitic Stainless Steel 309"
                         class="img-fluid rounded shadow-sm">
                 </div>
 

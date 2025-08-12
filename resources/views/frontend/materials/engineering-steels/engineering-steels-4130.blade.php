@@ -30,7 +30,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/engineering-steels/engineering-steels-4130.jpg" alt="EN 4130"
+                    <img src="{{ asset('assets/images/engineering-steels/engineering-steels-4130.webp') }}" alt="EN 4130"
                         class="img-fluid rounded shadow-sm">
                 </div>
 
