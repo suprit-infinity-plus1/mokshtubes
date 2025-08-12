@@ -1,7 +1,12 @@
 @extends('layouts.master')
 @section('title', 'Copper Alloys | CU-NI, Brass, Bronze, Beryllium Copper | Mokshtubes')
-@section('meta_description', 'Find high-conductivity and corrosion-resistant copper-based alloys including 70/30 Cu-Ni,
-    Brass, Aluminium Bronze, and C63000.')
+@section('meta_description',
+    'Premium copper alloys including CU-Ni, brass, bronze & beryllium copper offering excellent durability, conductivity,
+    and corrosion resistance.
+    ')
+    {{-- @section('meta_description',
+    'Find high-conductivity and corrosion-resistant copper-based alloys including 70/30 Cu-Ni,
+    Brass, Aluminium Bronze, and C63000.') --}}
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">

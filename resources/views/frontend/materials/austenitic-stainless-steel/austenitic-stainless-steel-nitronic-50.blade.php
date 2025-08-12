@@ -1,7 +1,10 @@
 @extends('layouts.master')
 
 @section('title', 'Austenitic Stainless Steel Nitronic 50')
-@section('meta_description', 'Nitronic 50 stainless steel offers strength, corrosion resistance & toughness.')
+@section('meta_description',
+    'Nitronic 50 stainless steel with high strength, excellent corrosion resistance, and superb
+    weldability for demanding industrial uses.')
+    {{-- @section('meta_description', 'Nitronic 50 stainless steel offers strength, corrosion resistance & toughness.') --}}
 
 @section('content')
     <!--Start breadcrumb area-->

@@ -1,5 +1,12 @@
 @extends('layouts.master')
-@section('title', 'U-Bent Tubes | Moksh Tubes')
+@section('title',
+    content: 'U-Bent Tubes | Custom Fabricated & Durable Solutions | Mokshtubes
+    ')
+@section('meta_description',
+    'Find precision-engineered U-bent tubes customized to your specifications, offering excellent durability and performance
+    for industrial uses.
+
+    ')
 @section('content')
     <!--Start breadcrumb area-->
 
@@ -1974,7 +1981,8 @@
             <div class="section-title center">
                 <h2>Applications</h2>
                 <p class="text-center pb-3">
-                   <strong class="text-black"> U-Bent Tubes</strong> are essential in thermal systems where compactness, efficiency, and heat transfer performance are required:
+                    <strong class="text-black"> U-Bent Tubes</strong> are essential in thermal systems where compactness,
+                    efficiency, and heat transfer performance are required:
                 </p>
             </div>
 

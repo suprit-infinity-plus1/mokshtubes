@@ -1,8 +1,12 @@
 @extends('layouts.master')
 @section('title', 'Zirconium Alloys | 702, 704, 705 Grades for Nuclear & Chemical Use | Mokshtubes')
 @section('meta_description',
+    'High-purity zirconium alloys 702, 704 & 705 ideal for nuclear and chemical industries with outstanding corrosion
+    resistance and durability.
+    ')
+    {{-- @section('meta_description',
     'Explore corrosion-resistant Zirconium grades 702, 704, 705 ideal for nuclear,
-    pharmaceutical, and chemical equipment applications.')
+    pharmaceutical, and chemical equipment applications.') --}}
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">

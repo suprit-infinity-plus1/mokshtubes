@@ -1,5 +1,9 @@
 @extends('layouts.master')
-@section('title', 'Seamless pipes | Moksh Tubes')
+@section('title', 'Seamless Pipes | Premium Quality & Durable Solutions | Mokshtubes')
+@section('meta_description',
+    'Discover high-quality seamless pipes engineered for superior strength, precision, and long-lasting durability across
+    critical industrial applications.
+    ')
 @section('content')
     <!--Start breadcrumb area-->
 

@@ -3,6 +3,7 @@
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\BlogController;
 
 // Route::get('/', function () {
 //     return view('welcome');
@@ -15,7 +16,8 @@ Route::get('/contact-us/khetwadi', [MainController::class, 'contactUsKhetwadi'])
 Route::get('/about-us', [MainController::class, 'aboutUs'])->name('about-us');
 Route::get('/calculator', [MainController::class, 'calculator'])->name('calculator');
 Route::get('/materials', [MainController::class, 'materials'])->name('materials');
-Route::get('/blogs', [MainController::class, 'blogs'])->name('blogs');
+// Route::get('/blogs', [MainController::class, 'blogs'])->name('blogs');
+Route::get('/blogs', [BlogController::class, 'blogs'])->name('blogs');
 
 
 Route::get('/materials/hastelloy', [MainController::class, 'hastelloy'])->name('materials.hastelloy');

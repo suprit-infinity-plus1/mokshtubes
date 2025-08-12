@@ -1,8 +1,12 @@
 @extends('layouts.master')
 @section('title', 'Austenitic Stainless Steels | 304, 316, 310, 321 Grades | Mokshtubes')
 @section('meta_description',
+    'Trusted austenitic stainless steels 304, 316, 310 & 321 offering superior corrosion resistance, strength, and
+    versatility for diverse needs.
+    ')
+    {{-- @section('meta_description',
     'A complete range of Austenitic Stainless Steel grades offering excellent formability, corrosion resistance, and
-    weldability for industrial applications.')
+    weldability for industrial applications.') --}}
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
@@ -62,8 +66,8 @@
                                 style="border-color: #db7227; transition: 0.3s;">
                                 {{-- <img src="https://placehold.co/300x180/db7227/fff?text={{ urlencode($grade['name']) }}"
                                     alt="{{ $grade['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;"> --}}
-                                     <img src="{{ asset($grade['image']) }}"
-                                    alt="{{ $grade['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+                                <img src="{{ asset($grade['image']) }}" alt="{{ $grade['name'] }}"
+                                    class="img-fluid rounded mb-3" style="border-radius: 8px;">
                                 <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                     style="background-color: #174268; color: #fff; display: inline-block;">
                                     {{ $grade['name'] }}

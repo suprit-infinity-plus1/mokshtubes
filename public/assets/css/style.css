@@ -8406,3 +8406,27 @@ ul.gallery-filter li span {
 .accordion-box .accordion .accord-btn.active h4 {
     color: #ffffff;
 }
+
+
+/* ==================== Custom Pagination ==================== */
+.custom-pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 8px;
+}
+.custom-pagination a, .custom-pagination span {
+    padding: 8px 14px;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    color: #333;
+    border-radius: 4px;
+}
+.custom-pagination .active {
+    background: #333;
+    color: white;
+}
+.custom-pagination .disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

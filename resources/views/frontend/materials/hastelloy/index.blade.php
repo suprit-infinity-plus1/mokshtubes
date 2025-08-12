@@ -1,7 +1,12 @@
 @extends('layouts.master')
 @section('title', 'Hastelloy Alloys | Grades, Properties & Applications | Mokshtubes')
-@section('meta_description', 'Explore the full range of Hastelloy alloys including C276, C22, B2, and G30. Ideal for
-    corrosion resistance in chemical, marine, and power plant industries.')
+@section('meta_description',
+    'Reliable Hastelloy alloys with exceptional corrosion and heat resistance, perfect for harsh chemical, marine, and
+    aerospace industries.
+    ')
+    {{-- @section('meta_description',
+    'Explore the full range of Hastelloy alloys including C276, C22, B2, and G30. Ideal for
+    corrosion resistance in chemical, marine, and power plant industries.') --}}
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
@@ -49,8 +54,8 @@
                                 style="border-color: #db7227; transition: 0.3s;">
                                 {{-- <img src="https://placehold.co/300x180/db7227/fff?text={{ urlencode($grade['name']) }}"
                                     alt="{{ $grade['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;"> --}}
-                                     <img src="{{ asset($grade['image']) }}"
-                                    alt="{{ $grade['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+                                <img src="{{ asset($grade['image']) }}" alt="{{ $grade['name'] }}"
+                                    class="img-fluid rounded mb-3" style="border-radius: 8px;">
                                 <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                     style="background-color: #174268; color: #fff; display: inline-block;">
                                     {{ $grade['name'] }}

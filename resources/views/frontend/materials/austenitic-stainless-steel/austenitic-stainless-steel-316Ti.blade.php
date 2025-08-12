@@ -1,7 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Austenitic Stainless Steel 316Ti')
-@section('meta_description', 'Titanium-stabilized SS 316Ti for improved high-temperature stability.')
+@section('meta_description',
+    '316Ti stainless steel known for excellent heat resistance, corrosion protection, and durability in chemical and
+    petrochemical industries.
+    ')
+    {{-- @section('meta_description', 'Titanium-stabilized SS 316Ti for improved high-temperature stability.') --}}
 
 @section('content')
     <!--Start breadcrumb area-->

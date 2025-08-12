@@ -1,8 +1,12 @@
 @extends('layouts.master')
 @section('title', 'Titanium Alloys | Lightweight, High-Strength Grades | Mokshtubes')
 @section('meta_description',
+    'Lightweight titanium alloys with outstanding strength and corrosion resistance, ideal for aerospace, medical, and
+    industrial applications.
+    ')
+    {{-- @section('meta_description',
     'Browse Titanium Grades 2, 5, 7, 9 & more – known for low weight, high strength, and
-    corrosion resistance in medical, aerospace, and marine sectors.')
+    corrosion resistance in medical, aerospace, and marine sectors.') --}}
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
@@ -52,8 +56,8 @@
                                 style="border-color: #db7227; transition: 0.3s;">
                                 {{-- <img src="https://placehold.co/300x180/db7227/fff?text={{ urlencode($grade['name']) }}"
                                     alt="{{ $grade['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;"> --}}
-                                     <img src="{{ asset($grade['image']) }}"
-                                    alt="{{ $grade['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+                                <img src="{{ asset($grade['image']) }}" alt="{{ $grade['name'] }}"
+                                    class="img-fluid rounded mb-3" style="border-radius: 8px;">
                                 <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                     style="background-color: #174268; color: #fff; display: inline-block;">
                                     {{ $grade['name'] }}
