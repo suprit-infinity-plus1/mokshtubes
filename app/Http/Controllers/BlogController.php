@@ -33,7 +33,7 @@ class BlogController extends Controller
                 'author' => 'Richards',
                 'comments' => 22,
                 'date' => '17 Apr',
-                'image' => 'assets/images/blog/Untitled (1).png',
+                'image' => 'assets/images/blog/emerging-trends-in-industrial-piping-for-2025-and-beyond_11zon_11zon_11zon.webp',
                 'excerpt' => 'The industrial piping industry is on the brink of a significant transformation.',
                 'link' => route('blogs.emerging-trends-in-industrial-piping-for-2025-and-beyond')
             ],
