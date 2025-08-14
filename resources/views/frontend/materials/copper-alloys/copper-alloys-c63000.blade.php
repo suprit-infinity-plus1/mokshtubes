@@ -4,6 +4,7 @@
 @section('meta_description', 'Heat treatable Copper Alloy C63000 known for durability and corrosion resistance.')
 @section('meta_keywords', 'Copper Alloy C63000, heat treatable copper alloy, corrosion resistant copper, durable copper alloy, industrial copper alloy')
 
+
 @section('content')
 
     <!--Start breadcrumb area-->

@@ -4,6 +4,7 @@
 @section('meta_description', 'Aerospace-grade Aluminium 2014 T6 with excellent machinability and strength.')
 @section('meta_keywords', 'Aluminium Alloy 2014 T6, High Strength Aluminium, Aerospace Grade Aluminium, Aluminium 2014 T6 Pipes, Aluminium 2014 T6 Tubes, Aluminium 2014 T6 Sheets, Corrosion Resistant Aluminium, Machinable Aluminium Alloy, Aerospace Aluminium Alloys, Industrial Aluminium Grades')
 
+
 @section('content')
 
     <!--Start breadcrumb area-->

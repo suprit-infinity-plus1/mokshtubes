@@ -4,6 +4,7 @@
 @section('meta_description', 'High purity Electrolytic Copper with excellent electrical and thermal conductivity.')
 @section('meta_keywords', 'Electrolytic Copper, EC Copper, high purity copper, electrical conductivity copper, thermal conductivity copper, industrial copper')
 
+
 @section('content')
 
     <!--Start breadcrumb area-->

@@ -4,6 +4,7 @@
 @section('meta_description', 'Copper Nickel Alloy C71520 offering excellent corrosion resistance and durability in seawater applications.')
 @section('meta_keywords', 'Copper Nickel Alloy C71520, high performance copper alloy, corrosion resistant copper nickel, seawater resistant alloy, durable copper nickel alloy')
 
+
 @section('content')
 
     <!--Start breadcrumb area-->

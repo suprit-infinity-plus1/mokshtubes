@@ -4,6 +4,7 @@
 @section('meta_description','Haynes Alloy 242 with excellent oxidation, thermal stability, and corrosion resistance for demanding environments.
 ')
 
+
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">

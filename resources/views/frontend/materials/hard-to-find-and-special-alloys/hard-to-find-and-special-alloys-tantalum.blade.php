@@ -4,6 +4,7 @@
 @section('meta_description', 'Tantalum provides exceptional corrosion resistance, high melting point, and durability, ideal for chemical, electronics, aerospace, and industrial uses.')
 @section('meta_keywords', 'Tantalum, corrosion resistant metal, heat resistant metal, high melting point metal, chemical industry metal, electronics metal, aerospace metal, durable Tantalum')
 
+
 @section('content')
 
     <!--Start breadcrumb area-->

@@ -4,6 +4,7 @@
 @section('meta_description', 'Carbide offers exceptional hardness, wear resistance, and precision performance, ideal for cutting tools, industrial machinery, and high-stress applications.')
 @section('meta_keywords', 'Carbide, high hardness carbide, wear resistant carbide, precision cutting tools, industrial carbide, high stress applications, durable carbide')
 
+
 @section('content')
 
     <!--Start breadcrumb area-->

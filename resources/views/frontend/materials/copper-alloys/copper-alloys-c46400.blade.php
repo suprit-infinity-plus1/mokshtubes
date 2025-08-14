@@ -4,6 +4,7 @@
 @section('meta_description', 'High strength Copper Alloy C46400 ideal for aerospace and industrial applications.')
 @section('meta_keywords', 'Copper Alloy C46400, high strength copper alloy, aerospace copper alloy, industrial copper alloy, durable copper alloy')
 
+
 @section('content')
 
     <!--Start breadcrumb area-->

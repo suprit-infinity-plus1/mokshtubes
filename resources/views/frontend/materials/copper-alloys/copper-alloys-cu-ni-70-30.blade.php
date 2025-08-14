@@ -4,6 +4,7 @@
 @section('meta_description', 'Copper Nickel 70/30 alloy with superior corrosion resistance in seawater and marine environments.')
 @section('meta_keywords', 'Copper Nickel 70/30, Cu-Ni 70/30, marine grade copper alloy, seawater resistant alloy, corrosion resistant copper nickel, durable copper nickel')
 
+
 @section('content')
 
     <!--Start breadcrumb area-->

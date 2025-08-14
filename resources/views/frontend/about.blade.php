@@ -3,7 +3,6 @@
 @section('meta_description','Mokshtubes is your trusted partner for hard-to-find metal alloys, delivering premium quality, reliable supply, and expert support for all industrial needs.')
 @section('meta_keywords', 'Mokshtubes, Metal Alloys Supplier, High Performance Alloys, Industrial Metal Solutions, Hard-to-Find Alloys, Premium Quality Alloys, Reliable Alloy Supply, Industrial Alloy Support, Metal Tubes and Fittings, Engineering Alloys Supplier')
 
-@section('canonical', 'https://mokshtubes.com/about-us')
 @section('content')
 
     <!--Start breadcrumb area-->

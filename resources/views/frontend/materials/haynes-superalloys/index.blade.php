@@ -2,6 +2,8 @@
 @section('title', 'Haynes Superalloys | 188, 230, 242, 160 Grades | Mokshtubes')
 @section('meta_description', 'Browse Haynes high-performance alloys like 188, 230, and 242 – built for strength,
     oxidation resistance, and long-term service in extreme conditions.')
+
+
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">

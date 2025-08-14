@@ -4,6 +4,7 @@
 @section('meta_description', 'Electrolytic Tough Pitch Copper with excellent conductivity and mechanical properties for industrial use.')
 @section('meta_keywords', 'Electrolytic Tough Pitch Copper, ETP Copper, industrial grade copper, high conductivity copper, mechanical properties copper, durable copper alloy')
 
+
 @section('content')
 
     <!--Start breadcrumb area-->

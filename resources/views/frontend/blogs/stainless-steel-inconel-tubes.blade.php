@@ -2,6 +2,7 @@
 
 @section('title', 'Stainless Steel vs Inconel Tubes - Moksh Tubes & Fittings LLP')
 
+
 @section('content')
     <!--Start breadcrumb area-->
 
@@ -468,7 +469,7 @@
                                         </a>
                                         <h6 class="post-date">
                                             <i class="icon-calendar-with-spring-binder-and-date-blocks"></i>
-                                            Jan 08, 2017
+                                            august 14, 2025
                                         </h6>
                                     </div>
                                 </li>
@@ -493,7 +494,7 @@
                                         </a>
                                         <h6 class="post-date">
                                             <i class="icon-calendar-with-spring-binder-and-date-blocks"></i>
-                                            Dec 18, 2016
+                                            august 14, 2025
                                         </h6>
                                     </div>
                                 </li>
@@ -518,7 +519,7 @@
                                         </a>
                                         <h6 class="post-date">
                                             <i class="icon-calendar-with-spring-binder-and-date-blocks"></i>
-                                            Nov 21, 2016
+                                            august 14, 2025
                                         </h6>
                                     </div>
                                 </li>

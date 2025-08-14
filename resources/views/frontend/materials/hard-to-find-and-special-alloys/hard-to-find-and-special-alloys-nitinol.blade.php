@@ -4,6 +4,7 @@
 @section('meta_description', 'Nitinol offers exceptional shape memory, superelasticity, and durability, ideal for medical devices, robotics, and high-precision engineering applications.')
 @section('meta_keywords', 'Nitinol alloy, shape memory alloy, superelastic alloy, medical device alloy, robotics alloy, high precision engineering alloy, durable Nitinol')
 
+
 @section('content')
 
     <!--Start breadcrumb area-->

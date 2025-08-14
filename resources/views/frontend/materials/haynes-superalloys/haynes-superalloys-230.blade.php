@@ -4,6 +4,7 @@
 @section('meta_description','Haynes Alloy 230 offers exceptional strength, oxidation resistance, and thermal stability for extreme applications.
 ')
 
+
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">

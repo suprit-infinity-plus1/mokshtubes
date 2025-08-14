@@ -4,7 +4,6 @@
 @section('meta_description', 'SMO 654 – Super austenitic stainless steel with excellent chloride resistance, high strength & durability in harsh chemical conditions.')
 @section('meta_keywords', 'SMO 654, super austenitic stainless steel, chloride resistant steel, chemical resistant steel, high strength stainless steel')
 
-
 @section('content')
 
     <!--Start breadcrumb area-->

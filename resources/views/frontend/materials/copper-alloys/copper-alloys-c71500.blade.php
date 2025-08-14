@@ -4,6 +4,7 @@
 @section('meta_description', 'Copper Alloy C71500 with superior strength and corrosion resistance for marine and industrial uses.')
 @section('meta_keywords', 'Copper Alloy C71500, high strength copper alloy, corrosion resistant copper, marine copper alloy, industrial copper alloy')
 
+
 @section('content')
 
     <!--Start breadcrumb area-->

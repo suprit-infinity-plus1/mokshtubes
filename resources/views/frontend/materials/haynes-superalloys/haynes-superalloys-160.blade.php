@@ -4,6 +4,7 @@
 @section('meta_description','High-strength Haynes Alloy 160 for extreme heat resistance and corrosion protection. Available in various forms.
 ')
 
+
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
