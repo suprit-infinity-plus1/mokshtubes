@@ -3,7 +3,10 @@
 @section('meta_description',
     'Explore corrosion-resistant Zirconium grades 702, 704, 705 ideal for nuclear,
     pharmaceutical, and chemical equipment applications.')
+@section('meta_keywords', 'Zirconium Alloys, Zirconium 702, Zirconium 704, Zirconium 705, Corrosion Resistant Zirconium, Nuclear Industry Alloys, Pharmaceutical Equipment Alloys, Chemical Processing Zirconium, High Performance Zirconium Alloys, Industrial Zirconium Grades')
+
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

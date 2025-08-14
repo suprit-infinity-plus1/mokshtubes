@@ -1,6 +1,12 @@
 @extends('layouts.master')
 
-@section('title', 'INCOLOY 925 - Moksh Tubes & Fittings LLP')
+@section('title', ' Incoloy 925 | Superior Strength & Sour Gas Protection
+')
+@section('meta_description', 'Incoloy 925 combines high strength with outstanding corrosion resistance—perfect for oil & gas well parts and demanding marine environments.
+')
+@section('meta_keywords', 'Incoloy 825, nickel alloy, corrosion resistant alloy, premium metal alloys, moksh tubes')
+@section('canonical', url('materials/incoloy/incoloy-925'))
+
 
 @section('content')
     <!--Start breadcrumb area-->

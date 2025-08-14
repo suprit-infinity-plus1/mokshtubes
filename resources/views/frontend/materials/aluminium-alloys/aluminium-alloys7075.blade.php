@@ -1,8 +1,12 @@
 @extends('layouts.master')
 
-@section('title', 'Aluminium 7075 - Moksh Tubes & Fittings LLP')
+@section('title', 'Aluminium Alloy 7075 | High Performance Alloy')
+@section('meta_description', 'High performance Aluminium 7075 with excellent strength and fatigue resistance for aerospace and sports uses.')
+@section('meta_keywords', 'Aluminium Alloy 7075, High Performance Aluminium, Aluminium 7075 Pipes, Aluminium 7075 Tubes, Aluminium 7075 Sheets, High Strength Aluminium Alloy, Fatigue Resistant Aluminium, Aerospace Aluminium Alloys, Sports Equipment Aluminium, Industrial Aluminium Grades')
+@section('canonical', url()->current())
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

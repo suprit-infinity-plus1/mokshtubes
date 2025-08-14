@@ -1,8 +1,12 @@
 @extends('layouts.master')
 
-@section('title', 'Alloy 904L - Moksh Tubes & Fittings LLP')
+@section('title', '904L Stainless | Premium Corrosion Resistant')
+@section('meta_description', '904L stainless steel pipes, tubes & fittings provide superior corrosion resistance for chemical, marine, and pharmaceutical industries.')
+@section('meta_keywords', '904L Stainless Steel, Corrosion Resistant Alloy, 904L Pipes, 904L Tubes, 904L Fittings, Chemical Industry Alloys, Marine Industry Alloys, Pharmaceutical Industry Alloys, High Strength Stainless Steel, Industrial Corrosion Resistant Alloys')
+@section('canonical', url()->current())
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

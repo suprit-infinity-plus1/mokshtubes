@@ -1,8 +1,12 @@
 @extends('layouts.master')
 
-@section('title', 'Titanium Grade 7 NB - Moksh Tubes & Fittings LLP')
+@section('title', 'Titanium Grade 7 Nb | Niobium Stabilized Titanium Alloy')
+@section('meta_description', 'Titanium Grade 7 Nb alloy with excellent corrosion resistance, especially in reducing environments.')
+@section('meta_keywords', 'Titanium Grade 7 Nb, Niobium Stabilized Titanium, Corrosion Resistant Titanium, Titanium Grade 7 Nb Pipes, Titanium Grade 7 Nb Tubes, Titanium Grade 7 Nb Sheets, Reducing Environment Resistant Titanium, Chemical Processing Titanium, Industrial Titanium Alloys, High Performance Titanium')
+@section('canonical', url()->current())
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

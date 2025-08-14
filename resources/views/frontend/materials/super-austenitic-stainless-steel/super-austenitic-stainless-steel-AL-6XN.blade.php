@@ -1,8 +1,12 @@
 @extends('layouts.master')
 
-@section('title', 'AL 6XN - Moksh Tubes & Fittings LLP')
+@section('title', 'AL-6XN | Superior Corrosion Resistant Alloy')
+@section('meta_description', 'AL-6XN pipes, tubes & fittings offer exceptional corrosion resistance in seawater, chemical, and food processing environments.')
+@section('meta_keywords', 'AL-6XN, Corrosion Resistant Alloy, AL-6XN Pipes, AL-6XN Tubes, AL-6XN Fittings, Seawater Resistant Alloy, Chemical Processing Alloys, Food Processing Alloys, High Strength Stainless Steel, Industrial Corrosion Resistant Alloys')
+@section('canonical', url()->current())
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

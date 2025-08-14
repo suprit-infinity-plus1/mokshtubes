@@ -1,6 +1,11 @@
 @extends('layouts.master')
 
-@section('title', '800H and 800HT - Moksh Tubes & Fittings LLP')
+@section('title', 'Incoloy 800H and 800HT | Enhanced Heat-Resistant Alloy
+')
+@section('meta_description', 'With superior creep and rupture strength, Incoloy 800H and 800HT thrives in petrochemical, heat treatment, and power generation applications.
+')
+@section('meta_keywords', 'Incoloy 825, nickel alloy, corrosion resistant alloy, premium metal alloys, moksh tubes')
+@section('canonical', url()->current())
 
 @section('content')
     <!--Start breadcrumb area-->

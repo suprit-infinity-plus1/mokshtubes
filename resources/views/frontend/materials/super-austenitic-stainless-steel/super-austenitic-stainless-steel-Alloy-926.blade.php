@@ -1,8 +1,12 @@
 @extends('layouts.master')
 
-@section('title', 'Alloy 926 - Moksh Tubes & Fittings LLP')
+@section('title', 'Alloy 926 | High-Performance Super Austenitic')
+@section('meta_description', 'Alloy 926 pipes, tubes & fittings with excellent pitting, crevice, and chloride corrosion resistance for harsh marine & chemical use.')
+@section('meta_keywords', 'Alloy 926, Super Austenitic Stainless Steel, Corrosion Resistant Alloy, Alloy 926 Pipes, Alloy 926 Tubes, Alloy 926 Fittings, Pitting Resistant Alloy, Crevice Corrosion Resistant, Chloride Resistant Alloy, Marine Industry Alloys, Chemical Processing Alloys')
+@section('canonical', url()->current())
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

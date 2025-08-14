@@ -1,8 +1,12 @@
 @extends('layouts.master')
 
-@section('title', 'Titanium Grade 9 - Moksh Tubes & Fittings LLP')
+@section('title', 'Titanium Grade 9 | Titanium Alloy with Excellent Strength')
+@section('meta_description', 'Buy Incoloy 825 — a premium corrosion-resistant nickel alloy ideal for chemical processing, marine, and oil & gas applications. High strength and durability guaranteed.')
+@section('meta_keywords', 'Incoloy 825, nickel alloy, corrosion resistant alloy, premium metal alloys, moksh tubes')
+@section('canonical', url()->current())
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

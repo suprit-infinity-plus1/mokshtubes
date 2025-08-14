@@ -27,7 +27,7 @@
 
             @php
                 $grades = [
-                    ['name' => 'Austenitic Stainless Steel 304', 'slug' => 'austenitic-stainless-steel-304','image' => 'assets/images/austenitic-stainless-steel/austenitic-stainless-steel-304.jpg'],
+                    ['name' => 'Austenitic Stainless Steel 304', 'slug' => 'austenitic-stainless-steel-304','image' => 'assets/images/austenitic-stainless-steel/austenitic-stainless-steel-304.webp'],
                     ['name' => 'Austenitic Stainless Steel 309', 'slug' => 'austenitic-stainless-steel-309' ,'image' => 'assets/images/austenitic-stainless-steel/austenitic-stainless-steel-309.jpeg'],
                     ['name' => 'Austenitic Stainless Steel 310', 'slug' => 'austenitic-stainless-steel-310' ,'image' => 'assets/images/austenitic-stainless-steel/austenitic-stainless-steel-310.jpg'],
                     ['name' => 'Austenitic Stainless Steel 316', 'slug' => 'austenitic-stainless-steel-316' ,'image' => 'assets/images/austenitic-stainless-steel/austenitic-stainless-steel-316.jpg'],

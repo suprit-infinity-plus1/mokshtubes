@@ -3,7 +3,22 @@
 
 <head>
     <meta charset="UTF-8">
+
+       {{-- Dynamic Page Title --}}
+    <title>@yield('title', 'Mokshtubes')</title>
+
+    {{-- Dynamic Meta Description --}}
+    <meta name="description" content="@yield('meta_description', 'Default meta description for Mokshtubes')">
+
+    {{-- Dynamic Meta Keywords --}}
+    <meta name="keywords" content="@yield('meta_keywords', 'default, keywords, mokshtubes')">
+
+    {{-- Canonical Tag --}}
+    <link rel="canonical" href="@yield('canonical', url()->current())">
+
+    {{-- <meta name="title" content="@yield('meta_title')">
     <meta name="description" content="@yield('meta_description')">
+    <meta name="keyword" content="@yield('meta_keyword')"> --}}
     <link rel="canonical" href="@yield('canonical')">
     <title>@yield('title')</title>
 

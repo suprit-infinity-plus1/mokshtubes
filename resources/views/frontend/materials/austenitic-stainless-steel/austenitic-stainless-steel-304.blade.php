@@ -1,6 +1,7 @@
 @extends('layouts.master')
 
-@section('title', 'Austenitic Stainless Steel 304 - Moksh Tubes & Fittings LLP')
+@section('title', 'Superior Austenitic Stainless Steel 304 | Tubes & Fittings')
+@section('meta-description', 'Moksh Tubes & Fittings LLP supplies high-quality Austenitic Stainless Steel 304 pipes, tubes & fittings for industrial, marine & chemical applications.')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -28,7 +29,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/austenitic-stainless-steel/austenitic-stainless-steel-304.jpg"
+                    <img src="/assets/images/austenitic-stainless-steel/austenitic-stainless-steel-304.webp"
                         alt="Austenitic Stainless Steel 304" class="img-fluid rounded shadow-sm">
                 </div>
 

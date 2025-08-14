@@ -1,8 +1,12 @@
 @extends('layouts.master')
 
-@section('title', 'Hastelloy C22 - Moksh Tubes & Fittings LLP')
+@section('title', 'Hastelloy C22 | Superior Corrosion-Resistant Alloy')
+@section('meta_description', 'Get Hastelloy C22 pipes, tubes & fittings with exceptional resistance to pitting, crevice, and stress corrosion in harsh environments.')
+@section('meta_keywords', 'Hastelloy C22, Corrosion Resistant Alloy, Hastelloy C22 Pipes, Hastelloy C22 Tubes, Hastelloy C22 Fittings, Pitting Resistant Alloy, Crevice Corrosion Resistant, Stress Corrosion Resistant, Chemical Processing Alloys, Industrial Corrosion Resistant Alloys')
+@section('canonical', url()->current())
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

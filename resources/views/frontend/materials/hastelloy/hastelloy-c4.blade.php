@@ -1,8 +1,12 @@
 @extends('layouts.master')
 
-@section('title', 'Hastelloy C4 - Moksh Tubes & Fittings LLP')
+@section('title', 'Hastelloy C-4 | High-Performance Alloy for Oxidizing Media')
+@section('meta_description', 'Hastelloy C4 pipes, tubes & fittings with superior resistance to oxidizers, acids, and high heat for demanding industrial environments.')
+@section('meta_keywords', 'Hastelloy C-4, Hastelloy C4, High Performance Alloy, Corrosion Resistant Alloy, Hastelloy C4 Pipes, Hastelloy C4 Tubes, Hastelloy C4 Fittings, Oxidizer Resistant Alloy, Acid Resistant Alloy, Industrial Corrosion Resistant Alloys, High Tempera_
+@section('canonical', url()->current())
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

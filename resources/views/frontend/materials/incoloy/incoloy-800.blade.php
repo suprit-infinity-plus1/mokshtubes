@@ -1,6 +1,11 @@
 @extends('layouts.master')
 
-@section('title', 'INCOLOY 800 - Moksh Tubes & Fittings LLP')
+@section('title', 'Incoloy 800 | High-Temperature Strength & Oxidation Shield
+')
+@section('meta_description', 'Incoloy 800 offers remarkable stability and corrosion resistance at high heat—ideal for furnace equipment, heat exchangers, and industrial systems.
+')
+@section('meta_keywords', 'Incoloy 825, nickel alloy, corrosion resistant alloy, premium metal alloys, moksh tubes')
+@section('canonical', url()->current())
 
 @section('content')
     <!--Start breadcrumb area-->

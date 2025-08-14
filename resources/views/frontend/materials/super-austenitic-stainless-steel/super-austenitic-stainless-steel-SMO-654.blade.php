@@ -1,8 +1,15 @@
 @extends('layouts.master')
 
-@section('title', 'SMO 654 - Moksh Tubes & Fittings LLP')
+@section('title', 'SMO 654 | Super Austenitic Stainless Steel | Mokshtubes')
+
+@section('meta_description', 'SMO 654 – Super austenitic stainless steel with excellent chloride resistance, high strength & durability in harsh chemical conditions.')
+
+@section('meta_keywords', 'SMO 654, super austenitic stainless steel, chloride resistant steel, chemical resistant steel, high strength stainless steel')
+
+@section('canonical', url()->current())
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

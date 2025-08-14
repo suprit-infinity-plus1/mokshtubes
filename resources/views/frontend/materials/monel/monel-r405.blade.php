@@ -1,8 +1,12 @@
 @extends('layouts.master')
 
-@section('title', 'Monel R405 - Moksh Tubes & Fittings LLP')
+@section('title', 'Monel R405 Alloy – Premium Strength & Machinability')
+@section('meta_description', 'Discover Monel R405 Alloy with superior corrosion resistance, high strength & exceptional machinability for marine, chemical & industrial success.')
+@section('meta_keywords', 'Monel R405, Monel R405 Alloy, Nickel-Copper Alloy, High Strength Alloy, Corrosion Resistant Alloy, Marine Industry Alloys, Chemical Processing Alloys, Oilfield Alloys, Machinable Nickel Alloys, Durable Nickel Alloys')
+@section('canonical', url()->current())
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
