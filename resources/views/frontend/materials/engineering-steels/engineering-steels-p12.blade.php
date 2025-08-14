@@ -1,10 +1,11 @@
 @extends('layouts.master')
 
-@section('title', 'Engineering Steels P12 - Moksh Tubes & Fittings LLP')
-@section('meta_description','Durable P12 steel for boiler tubes, heat exchangers, and industrial piping.
-')
+@section('title', 'P12 Alloy Steel | High Strength Alloy Steel')
+@section('meta_description', 'P12 Alloy Steel used in boilers and pressure vessels requiring excellent strength and creep resistance.')
+@section('meta_keywords', 'P12 Alloy Steel, high strength alloy steel, boiler steel, pressure vessel steel, creep resistant steel, industrial alloy steel')
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

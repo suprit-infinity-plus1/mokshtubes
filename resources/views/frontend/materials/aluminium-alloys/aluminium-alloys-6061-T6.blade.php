@@ -2,8 +2,6 @@
 @section('title', 'Aluminium Alloy 6061 T6 | High Strength Aluminium')
 @section('meta_description', 'Aluminium 6061 T6 with excellent strength, corrosion resistance, and weldability for structural applications.')
 @section('meta_keywords', 'Aluminium Alloy 6061 T6, High Strength Aluminium, Aluminium 6061 T6 Pipes, Aluminium 6061 T6 Tubes, Aluminium 6061 T6 Sheets, Corrosion Resistant Aluminium, Weldable Aluminium Alloy, Structural Aluminium Alloys, Aerospace Aluminium, Industrial Aluminium Grades')
-@section('canonical', url()->current())
-
 
 @section('content')
 

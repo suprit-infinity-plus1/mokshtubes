@@ -1,10 +1,11 @@
 @extends('layouts.master')
 
-@section('title', 'Engineering Steels 8 - Moksh Tubes & Fittings LLP')
-@section('meta_description','Medium carbon EN8 steel for shafts, gears, and general engineering components.
-')
+@section('title', 'EN8 Engineering Steel | Medium Carbon Steel')
+@section('meta_description', 'EN8 Engineering Steel with good tensile strength and machinability, suitable for general engineering use.')
+@section('meta_keywords', 'EN8 Engineering Steel, medium carbon steel, good tensile strength steel, machinable steel, general engineering steel, industrial steel')
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

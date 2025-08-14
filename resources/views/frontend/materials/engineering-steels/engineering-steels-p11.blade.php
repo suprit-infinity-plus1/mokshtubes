@@ -1,10 +1,11 @@
 @extends('layouts.master')
 
-@section('title', 'Engineering Steels P11 - Moksh Tubes & Fittings LLP')
-@section('meta_description','Creep-resistant P11 steel for high-temperature and pressure applications.
-')
+@section('title', 'P11 Alloy Steel | Alloy Steel for High Temperature Applications')
+@section('meta_description', 'P11 Alloy Steel designed for high-temperature pressure vessels and pipework in power plants.')
+@section('meta_keywords', 'P11 Alloy Steel, high temperature alloy steel, pressure vessel steel, boiler steel, power plant steel, industrial alloy steel')
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

@@ -1,10 +1,11 @@
 @extends('layouts.master')
 
-@section('title', 'Carbide Alloys')
-@section('meta_description','High-performance carbide alloys for wear resistance and precision engineering applications. Available in custom grades and sizes.
-')
+@section('title', 'Carbide | Superior Hardness & Precision Performance')
+@section('meta_description', 'Carbide offers exceptional hardness, wear resistance, and precision performance, ideal for cutting tools, industrial machinery, and high-stress applications.')
+@section('meta_keywords', 'Carbide, high hardness carbide, wear resistant carbide, precision cutting tools, industrial carbide, high stress applications, durable carbide')
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

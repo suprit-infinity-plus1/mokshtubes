@@ -3,7 +3,6 @@
 @section('title', 'Austenitic Stainless Steel 309 | Heat Resistant Alloy')
 @section('meta_description', 'Austenitic Stainless Steel 309 pipes & fittings offering superior oxidation resistance at elevated temperatures.')
 @section('meta_keywords', 'Austenitic Stainless Steel 309, Stainless Steel 309 Pipes, Stainless Steel 309 Tubes, Stainless Steel 309 Fittings, Heat Resistant Stainless Steel 309, Oxidation Resistant Stainless Steel 309, High Temperature Stainless Steel, Industrial Stainless Steel 309, Furnace Grade Stainless Steel, Thermal Processing Stainless Steel')
-@section('canonical', url()->current())
 
 @section('content')
 

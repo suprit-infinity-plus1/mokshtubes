@@ -3,7 +3,6 @@
 @section('title', 'Aluminium Alloy 1100 | Commercially Pure Aluminium')
 @section('meta_description', 'Commercially pure Aluminium 1100 with excellent corrosion resistance and formability—ideal for chemical, marine, and decorative applications.')
 @section('meta_keywords', 'Aluminium Alloy 1100, Commercially Pure Aluminium, Aluminium 1100 Pipes, Aluminium 1100 Tubes, Aluminium 1100 Sheets, Corrosion Resistant Aluminium, Formable Aluminium Alloy, Industrial Aluminium Grades, Commercial Aluminium Alloys, Pure Aluminium Products')
-@section('canonical', url()->current())
 
 @section('content')
 

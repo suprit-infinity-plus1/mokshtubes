@@ -3,7 +3,6 @@
 @section('title', 'Austenitic Stainless Steel 310 | High Temp Resistance')
 @section('meta_description', '304L Stainless Steel 310 pipes and fittings designed for high temperature and corrosion resistant applications.')
 @section('meta_keywords', 'Austenitic Stainless Steel 310, Stainless Steel 310 Pipes, Stainless Steel 310 Tubes, Stainless Steel 310 Fittings, High Temperature Stainless Steel 310, Corrosion Resistant Stainless Steel 310, Heat Resistant Stainless Steel 310, Industrial Stainless Steel 310, Furnace Grade Stainless Steel, Thermal Processing Stainless Steel')
-@section('canonical', url()->current())
 
 @section('content')
 

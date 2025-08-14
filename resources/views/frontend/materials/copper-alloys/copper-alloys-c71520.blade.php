@@ -1,10 +1,11 @@
 @extends('layouts.master')
 
-@section('title', 'Copper Alloys C71520')
-@section('meta_description','Premium C71520 copper-nickel (70/30) alloy for high-performance marine, condenser & industrial applications.
-')
+@section('title', 'Copper Alloy C71520 | High Performance Copper Nickel Alloy')
+@section('meta_description', 'Copper Nickel Alloy C71520 offering excellent corrosion resistance and durability in seawater applications.')
+@section('meta_keywords', 'Copper Nickel Alloy C71520, high performance copper alloy, corrosion resistant copper nickel, seawater resistant alloy, durable copper nickel alloy')
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

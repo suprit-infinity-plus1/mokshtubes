@@ -1,10 +1,11 @@
 @extends('layouts.master')
 
-@section('title', 'Copper C63000 Aluminium Bronze - Moksh Tubes & Fittings LLP')
-@section('meta_description','C63000 aluminium bronze with superior strength, wear resistance & corrosion protection for heavy-duty applications.
-')
+@section('title', 'Copper Alloy C63000 | Heat Treatable Copper Alloy')
+@section('meta_description', 'Heat treatable Copper Alloy C63000 known for durability and corrosion resistance.')
+@section('meta_keywords', 'Copper Alloy C63000, heat treatable copper alloy, corrosion resistant copper, durable copper alloy, industrial copper alloy')
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

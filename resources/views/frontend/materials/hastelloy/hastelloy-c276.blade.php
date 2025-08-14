@@ -3,7 +3,6 @@
 @section('title', 'Hastelloy C276 | Ultimate Corrosion-Proof Nickel Alloy')
 @section('meta_description', 'Buy Hastelloy C276 pipes, tubes & fittings with top corrosion resistance, strength, and durability for harsh industrial environments.')
 @section('meta_keywords', 'Hastelloy C276, Corrosion Resistant Alloy, Nickel Alloy, Hastelloy C276 Pipes, Hastelloy C276 Tubes, Hastelloy C276 Fittings, Industrial Corrosion Resistant Alloys, Durable Nickel Alloys, Chemical Processing Alloys, Marine Alloys')
-@section('canonical', url()->current())
 
 @section('content')
 

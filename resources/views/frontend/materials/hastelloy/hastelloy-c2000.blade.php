@@ -3,7 +3,6 @@
 @section('title', 'Hastelloy C2000 | Versatile Corrosion Alloy')
 @section('meta_description', 'Hastelloy C2000 pipes, tubes & fittings with top resistance to oxidizing and reducing agents, ideal for mixed-acid chemical processing.')
 @section('meta_keywords', 'Hastelloy C2000, Corrosion Resistant Alloy, Hastelloy C2000 Pipes, Hastelloy C2000 Tubes, Hastelloy C2000 Fittings, Oxidizing Agent Resistant, Reducing Agent Resistant, Chemical Processing Alloys, Mixed-Acid Resistant Alloy, Industrial Corrosion Alloys')
-@section('canonical', url()->current())
 
 @section('content')
 

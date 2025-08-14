@@ -3,7 +3,6 @@
 @section('title', 'Austenitic Stainless Steel 317 | Superior Corrosion SS')
 @section('meta_description', 'Austenitic Stainless Steel 317 pipes & fittings providing enhanced corrosion resistance for harsh chemical environments.')
 @section('meta_keywords', 'Austenitic Stainless Steel 317, Stainless Steel 317 Pipes, Stainless Steel 317 Tubes, Stainless Steel 317 Fittings, Corrosion Resistant Stainless Steel 317, Chemical Processing Stainless Steel 317, Marine Grade Stainless Steel 317, Industrial Stainless Steel 317, High Strength Stainless Steel 317, Harsh Environment Stainless Steel 317')
-@section('canonical', url()->current())
 
 @section('content')
 

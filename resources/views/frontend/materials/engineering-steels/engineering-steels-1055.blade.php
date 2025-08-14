@@ -1,10 +1,11 @@
 @extends('layouts.master')
 
-@section('title', 'Engineering Steels 1055 - Moksh Tubes & Fittings LLP')
-@section('meta_description','Tough 1055 engineering steel for machinery parts, tools, and automotive components.
-')
+@section('title', '1055 Engineering Steel | Medium Carbon Steel')
+@section('meta_description', '1055 Engineering Steel ideal for manufacturing components requiring medium carbon content and durability.')
+@section('meta_keywords', '1055 Engineering Steel, medium carbon steel, durable steel, mechanical steel, industrial steel, high strength steel, steel for components')
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

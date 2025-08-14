@@ -1,10 +1,11 @@
 @extends('layouts.master')
 
-@section('title', 'Copper Alloys ETP Copper')
-@section('meta_description','ETP grade copper with superior electrical conductivity for wiring, transformers, busbars & industrial components.
-')
+@section('title', 'Electrolytic Tough Pitch Copper | Industrial Grade Copper')
+@section('meta_description', 'Electrolytic Tough Pitch Copper with excellent conductivity and mechanical properties for industrial use.')
+@section('meta_keywords', 'Electrolytic Tough Pitch Copper, ETP Copper, industrial grade copper, high conductivity copper, mechanical properties copper, durable copper alloy')
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

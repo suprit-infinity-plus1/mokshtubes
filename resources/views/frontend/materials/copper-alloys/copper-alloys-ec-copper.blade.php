@@ -1,10 +1,11 @@
 @extends('layouts.master')
 
-@section('title', 'Copper Alloys EC Copper')
-@section('meta_description','EC grade copper with excellent conductivity & corrosion resistance for electrical, power & industrial applications.
-')
+@section('title', 'Electrolytic Copper (EC Copper) | High Purity Copper')
+@section('meta_description', 'High purity Electrolytic Copper with excellent electrical and thermal conductivity.')
+@section('meta_keywords', 'Electrolytic Copper, EC Copper, high purity copper, electrical conductivity copper, thermal conductivity copper, industrial copper')
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

@@ -1,10 +1,11 @@
 @extends('layouts.master')
 
-@section('title', 'Copper Alloys Naval Brass')
-@section('meta_description','Strong & corrosion-resistant naval brass alloy for marine hardware, propeller shafts & industrial applications.
-')
+@section('title', 'Naval Brass Alloy | Corrosion Resistant Marine Copper Alloy')
+@section('meta_description', 'Naval Brass with excellent corrosion resistance for marine and offshore applications.')
+@section('meta_keywords', 'Naval Brass, corrosion resistant brass, marine copper alloy, offshore brass alloy, durable brass, C46400 brass')
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

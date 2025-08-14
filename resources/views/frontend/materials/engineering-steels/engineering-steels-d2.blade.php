@@ -1,10 +1,11 @@
 @extends('layouts.master')
 
-@section('title', 'Engineering Steels D2 - Moksh Tubes & Fittings LLP')
-@section('meta_description','Wear-resistant D2 tool steel for cutting tools, dies, and industrial applications.
-')
+@section('title', 'D2 Tool Steel | High Carbon, High Chromium Steel')
+@section('meta_description', 'D2 Tool Steel providing superior wear resistance and toughness for cutting tools and dies.')
+@section('meta_keywords', 'D2 Tool Steel, high carbon steel, high chromium steel, wear resistant steel, tough tool steel, cutting tools steel, die steel, industrial tool steel')
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

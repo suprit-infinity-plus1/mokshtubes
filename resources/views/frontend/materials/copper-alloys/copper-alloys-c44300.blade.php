@@ -1,10 +1,11 @@
 @extends('layouts.master')
 
-@section('title', 'Copper Alloys C44300')
-@section('meta_description','C44300 admiralty brass alloy for superior corrosion resistance in marine, condenser & heat exchanger applications.
-')
+@section('title', 'Copper Alloy C44300 | Corrosion Resistant & Durable')
+@section('meta_description', 'Copper Alloy C44300 with excellent corrosion resistance and strength for harsh environments.')
+@section('meta_keywords', 'Copper Alloy C44300, corrosion resistant copper, durable copper alloy, industrial copper alloy, high strength copper')
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

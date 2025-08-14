@@ -3,7 +3,6 @@
 @section('title', 'Zirconium 704 | Industrial Grade Corrosion-Resistant Alloy')
 @section('meta_description', 'Durable Zirconium 704 alloy designed for superior resistance to aggressive chemical environments and industrial use.')
 @section('meta_keywords', 'Zirconium 704, Industrial Grade Zirconium, Corrosion Resistant Zirconium, Zirconium 704 Pipes, Zirconium 704 Tubes, Zirconium 704 Sheets, Chemical Processing Zirconium, Industrial Zirconium Alloys, High Performance Zirconium, Aggressive Chemical Resistant Alloy')
-@section('canonical', url()->current())
 
 @section('content')
 

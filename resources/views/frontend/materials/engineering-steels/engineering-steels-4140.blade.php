@@ -1,10 +1,11 @@
 @extends('layouts.master')
 
-@section('title', 'Engineering Steels 4140 - Moksh Tubes & Fittings LLP')
-@section('meta_description','High tensile strength 4140 steel for automotive, oil & gas, and machinery applications.
-')
+@section('title', '4140 Alloy Steel | Versatile Alloy Steel')
+@section('meta_description', '4140 Alloy Steel offers a balance of strength, hardness, and wear resistance for diverse engineering needs.')
+@section('meta_keywords', '4140 Alloy Steel, versatile alloy steel, high strength steel, wear resistant steel, hardenable steel, industrial alloy steel, engineering steel')
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

@@ -3,7 +3,6 @@
 @section('title', 'Hastelloy C-4 | High-Performance Alloy for Oxidizing Media')
 @section('meta_description', 'Hastelloy C-4 pipes, tubes & fittings with long-term stability, superior resistance to strong oxidizing chemicals, acids, and high heat — maintaining strength at elevated temperatures for demanding industrial applications.')
 @section('meta_keywords', 'Hastelloy C-4, Hastelloy C4, High Performance Alloy, Corrosion Resistant Alloy, Hastelloy C4 Pipes, Hastelloy C4 Tubes, Hastelloy C4 Fittings, Oxidizer Resistant Alloy, Acid Resistant Alloy, Industrial Corrosion Resistant Alloys, High Temperature Alloys, Durable Nickel Alloys')
-@section('canonical', url()->current())
 
 @section('content')
 

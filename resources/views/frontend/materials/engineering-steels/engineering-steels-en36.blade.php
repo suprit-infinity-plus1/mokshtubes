@@ -1,10 +1,11 @@
 @extends('layouts.master')
 
-@section('title', 'Engineering Steels 36 - Moksh Tubes & Fittings LLP')
-@section('meta_description','Case-hardening EN36 steel for gears, shafts, and aerospace components.
-')
+@section('title', 'EN36 Alloy Steel | Tough Alloy Steel')
+@section('meta_description', 'EN36 Alloy Steel offering toughness and impact resistance for demanding mechanical parts.')
+@section('meta_keywords', 'EN36 Alloy Steel, tough alloy steel, impact resistant steel, high strength steel, mechanical parts steel, industrial alloy steel')
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

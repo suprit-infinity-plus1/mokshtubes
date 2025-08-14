@@ -3,7 +3,7 @@
 @section('meta_title', 'Hastelloy Alloys | Grades, Properties & Applications | Mokshtubes')
 @section('meta_description', 'Explore Hastelloy alloys C276, C22, B2, and G30 with excellent corrosion resistance for chemical, marine, and power industries.')
 @section('meta_keywords', 'Hastelloy, Hastelloy Alloys, C276, C22, B2, G30, Corrosion Resistant Alloys, Chemical Industry Alloys, Marine Industry Alloys, Power Plant Alloys')
-@section('canonical', url()->current())
+
 @section('content')
 
     <!--Start breadcrumb area-->

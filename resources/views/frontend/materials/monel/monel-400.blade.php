@@ -3,7 +3,6 @@
 @section('title', 'Monel 400 Alloy | Superior Corrosion Resistance & Strength')
 @section('meta_description', 'High-quality Monel 400 offers superior corrosion resistance, excellent strength, and reliability for marine, chemical, and industrial uses.')
 @section('meta_keywords', 'Monel 400, Monel 400 Alloy, Nickel-Copper Alloy, Corrosion Resistant Alloy, High Strength Alloy, Marine Industry Alloys, Chemical Processing Alloys, Industrial Alloys, Impact Resistant Alloys, Durable Nickel Alloys')
-@section('canonical', url()->current())
 
 @section('content')
     <!--Start breadcrumb area-->

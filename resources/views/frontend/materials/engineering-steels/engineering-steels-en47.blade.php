@@ -1,10 +1,11 @@
 @extends('layouts.master')
 
-@section('title', 'Engineering Steels 47 - Moksh Tubes & Fittings LLP')
-@section('meta_description','High fatigue resistance EN47 spring steel for automotive and industrial springs.
-')
+@section('title', 'EN47 Spring Steel | High Strength Spring Steel')
+@section('meta_description', 'EN47 Spring Steel known for excellent elasticity and tensile strength in spring manufacturing.')
+@section('meta_keywords', 'EN47 Spring Steel, high strength spring steel, elastic steel, tensile strength steel, spring manufacturing steel, industrial spring steel')
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

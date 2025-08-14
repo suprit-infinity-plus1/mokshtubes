@@ -1,10 +1,11 @@
 @extends('layouts.master')
 
-@section('title', 'Tantalum')
-@section('meta_description','High-purity tantalum alloys for chemical processing, aerospace, and electronics industries. Exceptional corrosion resistance.
-')
+@section('title', 'Tantalum | Superior Corrosion & Heat Resistance')
+@section('meta_description', 'Tantalum provides exceptional corrosion resistance, high melting point, and durability, ideal for chemical, electronics, aerospace, and industrial uses.')
+@section('meta_keywords', 'Tantalum, corrosion resistant metal, heat resistant metal, high melting point metal, chemical industry metal, electronics metal, aerospace metal, durable Tantalum')
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

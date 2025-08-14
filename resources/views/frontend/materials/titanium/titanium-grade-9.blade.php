@@ -1,17 +1,8 @@
 @extends('layouts.master')
 
-<<<<<<< HEAD
 @section('title', 'Titanium Grade 9 | Titanium Alloy with Excellent Strength')
 @section('meta_description', 'Buy Incoloy 825 — a premium corrosion-resistant nickel alloy ideal for chemical processing, marine, and oil & gas applications. High strength and durability guaranteed.')
 @section('meta_keywords', 'Incoloy 825, nickel alloy, corrosion resistant alloy, premium metal alloys, moksh tubes')
-@section('canonical', url()->current())
-=======
-@section('title', 'Titanium Grade 9')
-@section('meta_description', 'Lightweight Titanium Grade 9 (Ti-3Al-2.5V) with excellent corrosion resistance for marine & aerospace.
-')
-
-
->>>>>>> fea365251b967b6f2239993370ab8890248a83c8
 
 @section('content')
 

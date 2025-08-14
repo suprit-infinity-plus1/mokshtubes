@@ -1,10 +1,11 @@
 @extends('layouts.master')
 
-@section('title', 'Nimonic Alloys')
-@section('meta_description','Nimonic alloys for high-temperature and corrosion-resistant applications in aerospace, turbines, and power generation.
-')
+@section('title', 'Nimonic | Superior High-Temp Strength Alloy')
+@section('meta_description', 'Nimonic provides exceptional high-temperature strength, creep resistance, and durability, ideal for aerospace, power generation, and industrial turbine applications.')
+@section('meta_keywords', 'Nimonic alloy, high temperature alloy, creep resistant alloy, aerospace alloy, turbine alloy, power generation alloy, durable high strength alloy')
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

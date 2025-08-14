@@ -3,7 +3,6 @@
 @section('title', 'Austenitic Stainless Steel 316Ti | Heat Stable Alloy')
 @section('meta_description', '316Ti Stainless Steel pipes and fittings with excellent high-temperature stability and corrosion resistance.')
 @section('meta_keywords', 'Austenitic Stainless Steel 316Ti, Stainless Steel 316Ti Pipes, Stainless Steel 316Ti Tubes, Stainless Steel 316Ti Fittings, Heat Resistant Stainless Steel 316Ti, Corrosion Resistant Stainless Steel 316Ti, High Temperature Stainless Steel 316Ti, Industrial Stainless Steel 316Ti, Marine Grade Stainless Steel 316Ti, Chemical Processing Stainless Steel 316Ti')
-@section('canonical', url()->current())
 
 @section('content')
 

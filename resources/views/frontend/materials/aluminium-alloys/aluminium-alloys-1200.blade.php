@@ -3,7 +3,7 @@
 @section('title', 'Aluminium Alloy 1200 | Pure Aluminium Grade')
 @section('meta_description', 'High purity Aluminium 1200 with superior corrosion resistance and electrical conductivity.')
 @section('meta_keywords', 'Aluminium Alloy 1200, Pure Aluminium Grade, Aluminium 1200 Pipes, Aluminium 1200 Tubes, Aluminium 1200 Sheets, Corrosion Resistant Aluminium, High Purity Aluminium, Electrical Conductive Aluminium, Industrial Aluminium Grades, Commercial Aluminium Alloys')
-@section('canonical', url()->current())
+
 @section('content')
 
     <!--Start breadcrumb area-->

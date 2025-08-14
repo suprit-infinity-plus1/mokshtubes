@@ -1,10 +1,11 @@
 @extends('layouts.master')
 
-@section('title', 'Engineering Steels 4130 - Moksh Tubes & Fittings LLP')
-@section('meta_description','Strong 4130 alloy steel ideal for aerospace, motorsport, and industrial use.
-')
+@section('title', '4130 Alloy Steel | Chromium-Molybdenum Steel')
+@section('meta_description', '4130 Alloy Steel known for high strength, toughness, and excellent weldability for aerospace and automotive use.')
+@section('meta_keywords', '4130 Alloy Steel, chromium-molybdenum steel, high strength steel, tough steel, weldable steel, aerospace steel, automotive steel, industrial alloy steel')
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

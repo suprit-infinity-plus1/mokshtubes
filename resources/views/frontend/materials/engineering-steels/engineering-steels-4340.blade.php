@@ -1,10 +1,11 @@
 @extends('layouts.master')
 
-@section('title', 'Engineering Steels 4340 - Moksh Tubes & Fittings LLP')
-@section('meta_description','Ultra-high strength 4340 steel for aerospace, defense, and heavy-duty engineering.
-')
+@section('title', '4340 Alloy Steel | High Tensile Strength Alloy')
+@section('meta_description', '4340 Alloy Steel delivers superior toughness and fatigue resistance for critical applications.')
+@section('meta_keywords', '4340 Alloy Steel, high tensile strength steel, tough steel, fatigue resistant steel, alloy steel for critical applications, industrial alloy steel')
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

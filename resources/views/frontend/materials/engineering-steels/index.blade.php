@@ -1,13 +1,11 @@
 @extends('layouts.master')
+
 @section('title', 'Engineering Steels | EN8, EN19, 1045, 4140 Grades | Mokshtubes')
-@section('meta_description',
-    'Durable engineering steels EN8, EN19, 1045 & 4140 designed for toughness, precision, and reliable performance in
-    demanding environments.
-    ')
-    {{-- @section('meta_description',
-    'Versatile engineering steel grades for automotive, construction, and tooling applications. Includes EN series, 1045,
-    4340, and more.') --}}
+@section('meta_description', 'Durable engineering steels EN8, EN19, 1045, and 4140 designed for toughness, precision, and reliable performance in demanding environments.')
+@section('meta_keywords', 'Engineering steels, EN8 steel, EN19 steel, 1045 steel, 4140 steel, high strength steel, tough steel, industrial alloy steel, mechanical steel')
+
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

@@ -1,10 +1,11 @@
 @extends('layouts.master')
 
-@section('title', 'Engineering Steels P22 - Moksh Tubes & Fittings LLP')
-@section('meta_description','High-temperature P22 alloy steel for power plants and industrial systems.
-')
+@section('title', 'P22 Alloy Steel | Chromium-Molybdenum Alloy Steel')
+@section('meta_description', 'P22 Alloy Steel ideal for high pressure and temperature applications in power generation industries.')
+@section('meta_keywords', 'P22 Alloy Steel, chromium-molybdenum alloy steel, high pressure steel, high temperature steel, power plant alloy steel, industrial alloy steel')
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

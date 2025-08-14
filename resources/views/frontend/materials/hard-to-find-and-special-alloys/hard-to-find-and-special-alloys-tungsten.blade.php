@@ -1,10 +1,11 @@
 @extends('layouts.master')
 
-@section('title', 'Tungsten')
-@section('meta_description','Strong and dense tungsten alloys for aerospace, defense, and industrial applications. Superior strength and heat resistance.
-')
+@section('title', 'Tungsten | Exceptional Strength & High Durability')
+@section('meta_description', 'Tungsten provides outstanding strength, heat resistance, and durability, ideal for industrial tools, high-temperature applications, and precision engineering.')
+@section('meta_keywords', 'Tungsten, high strength metal, heat resistant metal, durable metal, industrial tools metal, high temperature applications, precision engineering metal')
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

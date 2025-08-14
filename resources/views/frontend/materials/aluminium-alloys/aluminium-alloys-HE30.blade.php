@@ -3,7 +3,6 @@
 @section('title', 'Aluminium Alloy HE30 | Hardened Aluminium Alloy')
 @section('meta_description', 'Hardened Aluminium HE30 alloy providing excellent strength and corrosion resistance for heavy-duty applications.')
 @section('meta_keywords', 'Aluminium Alloy HE30, Hardened Aluminium Alloy, Aluminium HE30 Pipes, Aluminium HE30 Tubes, Aluminium HE30 Sheets, High Strength Aluminium, Corrosion Resistant Aluminium, Heavy Duty Aluminium Alloys, Structural Aluminium Alloys, Industrial Aluminium Grades')
-@section('canonical', url()->current())
 
 @section('content')
 

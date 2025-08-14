@@ -1,10 +1,11 @@
 @extends('layouts.master')
 
-@section('title', 'Engineering Steels 24 - Moksh Tubes & Fittings LLP')
-@section('meta_description','Strong EN24 steel for aerospace, automotive, and high-performance engineering.
-')
+@section('title', 'EN24 Alloy Steel | High Strength Alloy Steel')
+@section('meta_description', 'EN24 Alloy Steel known for superior fatigue strength and toughness in heavy-duty applications.')
+@section('meta_keywords', 'EN24 Alloy Steel, high strength alloy steel, fatigue resistant steel, tough alloy steel, heavy-duty steel, industrial alloy steel')
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

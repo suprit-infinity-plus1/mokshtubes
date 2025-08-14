@@ -1,15 +1,11 @@
 @extends('layouts.master')
 
-@section('title', 'Copper Alloys C26000 Cartridge Brass')
-@section('meta_description',
-    'Cartridge Brass C26000 is a premium copper alloy with excellent machinability, corrosion resistance, and strength for
-    industrial and decorative use.
-    ')
-    {{-- @section('meta_description',
-    'Durable C26000 cartridge brass with excellent corrosion resistance for automotive, plumbing & industrial use.
-') --}}
+@section('title', 'Cartridge Brass Alloy | Reliable & Corrosion Resistant')
+@section('meta_description', 'Cartridge Brass with excellent machinability and corrosion resistance for general engineering applications.')
+@section('meta_keywords', 'Cartridge Brass, C26000 brass, corrosion resistant brass, machinable brass alloy, general engineering brass, durable brass alloy')
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

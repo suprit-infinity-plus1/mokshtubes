@@ -1,10 +1,11 @@
 @extends('layouts.master')
 
-@section('title', 'Beryllium Copper Alloy')
-@section('meta_description','Durable beryllium copper alloys offering high strength, conductivity & wear resistance for aerospace, electronics & tooling.
-')
+@section('title', 'Beryllium Copper Alloy | High Conductivity & Durability')
+@section('meta_description', 'Beryllium Copper offering superior electrical conductivity, strength, and wear resistance.')
+@section('meta_keywords', 'Beryllium Copper, high conductivity copper alloy, durable copper alloy, wear resistant copper, electrical copper alloy, industrial copper alloy')
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

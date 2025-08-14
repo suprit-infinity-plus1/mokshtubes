@@ -1,18 +1,9 @@
 @extends('layouts.master')
 
-<<<<<<< HEAD
 @section('title', 'SMO 654 | Super Austenitic Stainless Steel | Mokshtubes')
-
 @section('meta_description', 'SMO 654 – Super austenitic stainless steel with excellent chloride resistance, high strength & durability in harsh chemical conditions.')
-
 @section('meta_keywords', 'SMO 654, super austenitic stainless steel, chloride resistant steel, chemical resistant steel, high strength stainless steel')
 
-@section('canonical', url()->current())
-=======
-@section('title', 'Super Austenitic Stainless Steel SMO 654 | High Strength')
-@section('meta_description', 'SMO 654 offers exceptional corrosion resistance, high strength, and durability for marine,
-    chemical, and offshore applications.')
->>>>>>> fea365251b967b6f2239993370ab8890248a83c8
 
 @section('content')
 

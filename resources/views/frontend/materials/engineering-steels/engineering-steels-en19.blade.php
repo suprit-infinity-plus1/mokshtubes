@@ -1,10 +1,11 @@
 @extends('layouts.master')
 
-@section('title', 'Engineering Steels 19 - Moksh Tubes & Fittings LLP')
-@section('meta_description','High tensile EN19 alloy steel for heavy-duty applications in engineering.
-')
+@section('title', 'EN19 Alloy Steel | Hardened Alloy Steel')
+@section('meta_description', 'EN19 Alloy Steel offering excellent hardness and strength for tools and machinery parts.')
+@section('meta_keywords', 'EN19 Alloy Steel, hardened alloy steel, high strength steel, hard alloy steel, tools steel, machinery parts steel, industrial alloy steel')
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

@@ -3,7 +3,6 @@
 @section('title', 'Austenitic Stainless Steel Nitronic 50 | High Strength SS')
 @section('meta_description', 'Nitronic 50 Stainless Steel pipes & fittings with excellent strength, corrosion resistance, and wear resistance for engineering applications.')
 @section('meta_keywords', 'Austenitic Stainless Steel Nitronic 50, Nitronic 50 Stainless Steel Pipes, Nitronic 50 Stainless Steel Tubes, Nitronic 50 Stainless Steel Fittings, High Strength Nitronic 50, Corrosion Resistant Nitronic 50, Wear Resistant Nitronic 50, Industrial Nitronic 50 Stainless Steel, Marine Grade Nitronic 50, Engineering Applications Nitronic 50')
-@section('canonical', url()->current())
 
 @section('content')
     <!--Start breadcrumb area-->

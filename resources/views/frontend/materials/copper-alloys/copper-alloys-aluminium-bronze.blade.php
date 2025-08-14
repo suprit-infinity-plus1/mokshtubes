@@ -1,10 +1,11 @@
 @extends('layouts.master')
 
-@section('title', 'Aluminium Bronze Alloys')
-@section('meta_description','High-strength aluminium bronze alloys with excellent corrosion resistance for marine, aerospace & industrial applications.
-')
+@section('title', 'Aluminium Bronze Copper Alloy | High Strength & Corrosion Resistant')
+@section('meta_description', 'Aluminium Bronze with excellent strength and corrosion resistance for marine and industrial applications.')
+@section('meta_keywords', 'Aluminium Bronze, copper alloy, high strength copper, corrosion resistant alloy, marine copper alloy, industrial copper alloy')
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

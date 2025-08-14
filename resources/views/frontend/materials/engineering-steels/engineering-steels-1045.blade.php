@@ -1,10 +1,11 @@
 @extends('layouts.master')
 
-@section('title', 'Engineering Steels 1045')
-@section('meta_description','Durable 1045 engineering steel with high strength and wear resistance for industrial applications.
-')
+@section('title', '1045 Engineering Steel | High Strength Carbon Steel')
+@section('meta_description', '1045 Engineering Steel offering excellent strength and toughness for mechanical and structural applications.')
+@section('meta_keywords', '1045 Engineering Steel, high strength carbon steel, medium carbon steel, mechanical steel, structural steel, durable steel, industrial steel')
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

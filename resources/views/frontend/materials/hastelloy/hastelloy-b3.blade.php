@@ -3,7 +3,6 @@
 @section('title', 'Hastelloy B3 | Enhanced High-Stability Nickel Alloy')
 @section('meta_description', 'Hastelloy B3 pipes, tubes & fittings with improved thermal stability and superior resistance to strong acids like hydrochloric, sulfuric, and phosphoric acid — ideal for harsh chemical processing environments.')
 @section('meta_keywords', 'Hastelloy B3, High Stability Nickel Alloy, Corrosion Resistant Alloy, Hastelloy B3 Pipes, Hastelloy B3 Tubes, Hastelloy B3 Fittings, Hydrochloric Acid Resistant, Sulfuric Acid Resistant, Phosphoric Acid Resistant, Chemical Processing Alloys, Industrial Corrosion Resistant Alloys, Durable Nickel Alloys')
-@section('canonical', url()->current())
 
 @section('content')
 

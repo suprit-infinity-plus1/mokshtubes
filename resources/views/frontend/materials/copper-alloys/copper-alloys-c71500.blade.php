@@ -1,10 +1,11 @@
 @extends('layouts.master')
 
-@section('title', 'Copper C71500 Nickel Alloy')
-@section('meta_description','C71500 copper-nickel alloy for outstanding corrosion resistance in marine, offshore & heat exchanger environments.
-')
+@section('title', 'Copper Alloy C71500 | High Strength & Corrosion Resistance')
+@section('meta_description', 'Copper Alloy C71500 with superior strength and corrosion resistance for marine and industrial uses.')
+@section('meta_keywords', 'Copper Alloy C71500, high strength copper alloy, corrosion resistant copper, marine copper alloy, industrial copper alloy')
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

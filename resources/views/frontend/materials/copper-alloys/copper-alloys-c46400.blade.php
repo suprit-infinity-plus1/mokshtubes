@@ -1,10 +1,11 @@
 @extends('layouts.master')
 
-@section('title', 'Copper C46400 Naval Brass - Moksh Tubes & Fittings LLP')
-@section('meta_description','High-strength C46400 naval brass with excellent corrosion resistance for marine, pump & architectural hardware use.
-')
+@section('title', 'Copper Alloy C46400 | High Strength Copper Alloy')
+@section('meta_description', 'High strength Copper Alloy C46400 ideal for aerospace and industrial applications.')
+@section('meta_keywords', 'Copper Alloy C46400, high strength copper alloy, aerospace copper alloy, industrial copper alloy, durable copper alloy')
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

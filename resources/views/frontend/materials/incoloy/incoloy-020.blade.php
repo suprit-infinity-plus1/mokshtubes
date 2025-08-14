@@ -3,7 +3,6 @@
 @section('title', 'Incoloy 020 | Elite Acid-Resistant Super AlloyIncoloy 020 | Elite Acid-Resistant Super Alloy')
 @section('meta_description', 'Incoloy 020 ensures superior resistance to sulfuric acid and harsh chemicals—delivering long service life in challenging industrial environments.')
 @section('meta_keywords', 'Incoloy 020, Incoloy 020 Pipes, Incoloy 020 Tubes, Incoloy 020 Fittings, Acid Resistant Incoloy 020, Corrosion Resistant Incoloy 020, Sulfuric Acid Resistant Incoloy 020, Chemical Processing Incoloy 020, Industrial Incoloy 020 Alloy, High Performance Incoloy 020')
-@section('canonical', url()->current())
 
 @section('content')
     <!--Start breadcrumb area-->

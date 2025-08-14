@@ -1,10 +1,11 @@
 @extends('layouts.master')
 
-@section('title', 'Engineering Steels P1 - Moksh Tubes & Fittings LLP')
-@section('meta_description','Heat-resistant P1 steel for boilers, heat exchangers, and pressure vessels.
-')
+@section('title', 'P1 Alloy Steel | Tool Steel for Impact Resistance')
+@section('meta_description', 'P1 Alloy Steel used for tools requiring good impact resistance and hardness.')
+@section('meta_keywords', 'P1 Alloy Steel, tool steel, impact resistant steel, hard alloy steel, industrial tools steel, durable alloy steel')
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

@@ -1,10 +1,11 @@
 @extends('layouts.master')
 
-@section('title', 'Engineering Steels 9 - Moksh Tubes & Fittings LLP')
-@section('meta_description','High wear resistance EN9 steel for automotive, mining, and engineering parts.
-')
+@section('title', 'EN9 Engineering Steel | High Carbon Steel')
+@section('meta_description', 'EN9 Engineering Steel designed for high strength and wear resistance in engineering components.')
+@section('meta_keywords', 'EN9 Engineering Steel, high carbon steel, high strength steel, wear resistant steel, engineering components steel, industrial steel')
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

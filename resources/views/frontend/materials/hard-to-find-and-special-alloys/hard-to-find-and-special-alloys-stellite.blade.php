@@ -1,10 +1,11 @@
 @extends('layouts.master')
 
-@section('title', 'Stellite')
-@section('meta_description','Durable Stellite cobalt-chrome alloys for wear, heat, and corrosion resistance in demanding industrial environments.
-')
+@section('title', 'Stellite | Superior Hardness & Wear Resistance')
+@section('meta_description', 'Stellite offers exceptional hardness, wear resistance, and corrosion protection, ideal for cutting tools, valves, industrial machinery, and high-stress applications.')
+@section('meta_keywords', 'Stellite alloy, high hardness alloy, wear resistant alloy, corrosion resistant alloy, cutting tools alloy, valves alloy, industrial machinery alloy, durable Stellite')
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

@@ -1,10 +1,11 @@
 @extends('layouts.master')
 
-@section('title', 'Copper Alloys CU-NI 70/30')
-@section('meta_description','Copper-nickel 70/30 alloy for superior corrosion resistance in seawater, condenser & heat exchanger systems.
-')
+@section('title', 'Copper Nickel Cu-Ni 70/30 | Marine Grade Alloy')
+@section('meta_description', 'Copper Nickel 70/30 alloy with superior corrosion resistance in seawater and marine environments.')
+@section('meta_keywords', 'Copper Nickel 70/30, Cu-Ni 70/30, marine grade copper alloy, seawater resistant alloy, corrosion resistant copper nickel, durable copper nickel')
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

@@ -1,10 +1,11 @@
 @extends('layouts.master')
 
-@section('title', 'Engineering Steels 31 - Moksh Tubes & Fittings LLP')
-@section('meta_description','High carbon EN31 steel for bearings, tools, and wear-resistant components.
-')
+@section('title', 'EN31 Alloy Steel | High Wear Resistance Steel')
+@section('meta_description', 'EN31 Alloy Steel with excellent wear resistance and high hardness for industrial tooling applications.')
+@section('meta_keywords', 'EN31 Alloy Steel, high wear resistance steel, high hardness steel, industrial tooling steel, durable alloy steel, engineering steel')
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

@@ -3,7 +3,6 @@
 @section('title', 'Austenitic Stainless Steels | 304, 316, 310, 321 Grades | Mokshtubes')
 @section('meta_description', 'Trusted austenitic stainless steels 304, 316, 310 & 321 offering superior corrosion resistance, strength, and versatility for diverse needs.')
 @section('meta_keywords', 'Austenitic Stainless Steels, Stainless Steel 304, Stainless Steel 316, Stainless Steel 310, Stainless Steel 321, Corrosion Resistant Stainless Steel, High Strength Stainless Steel, Versatile Stainless Steels, Industrial Stainless Steel Grades, Marine Stainless Steel Alloys, Chemical Processing Stainless Steels')
-@section('canonical', url()->current())
 
 @section('content')
 
