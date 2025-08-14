@@ -5,6 +5,8 @@
     '316Ti stainless steel known for excellent heat resistance, corrosion protection, and durability in chemical and
     petrochemical industries.
     ')
+@section('canonical', url()->current())
+
     {{-- @section('meta_description', 'Titanium-stabilized SS 316Ti for improved high-temperature stability.') --}}
 
 @section('content')

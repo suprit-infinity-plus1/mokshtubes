@@ -4,6 +4,8 @@
     'Trusted austenitic stainless steels 304, 316, 310 & 321 offering superior corrosion resistance, strength, and
     versatility for diverse needs.
     ')
+@section('canonical', url()->current())
+
     {{-- @section('meta_description',
     'A complete range of Austenitic Stainless Steel grades offering excellent formability, corrosion resistance, and
     weldability for industrial applications.') --}}

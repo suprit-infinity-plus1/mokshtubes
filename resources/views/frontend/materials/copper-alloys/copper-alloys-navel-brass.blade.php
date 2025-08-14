@@ -3,6 +3,7 @@
 @section('title', 'Copper Alloys Naval Brass')
 @section('meta_description','Strong & corrosion-resistant naval brass alloy for marine hardware, propeller shafts & industrial applications.
 ')
+@section('canonical', url()->current())
 
 @section('content')
     <!--Start breadcrumb area-->

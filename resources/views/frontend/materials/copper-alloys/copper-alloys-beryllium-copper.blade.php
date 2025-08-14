@@ -3,6 +3,7 @@
 @section('title', 'Beryllium Copper Alloy')
 @section('meta_description','Durable beryllium copper alloys offering high strength, conductivity & wear resistance for aerospace, electronics & tooling.
 ')
+@section('canonical', url()->current())
 
 @section('content')
     <!--Start breadcrumb area-->

@@ -3,6 +3,7 @@
 @section('title', 'Copper C63000 Aluminium Bronze - Moksh Tubes & Fittings LLP')
 @section('meta_description','C63000 aluminium bronze with superior strength, wear resistance & corrosion protection for heavy-duty applications.
 ')
+@section('canonical', url()->current())
 
 @section('content')
     <!--Start breadcrumb area-->

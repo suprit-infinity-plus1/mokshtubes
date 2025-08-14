@@ -3,6 +3,7 @@
 @section('title', 'Copper Alloys CU-NI 70/30')
 @section('meta_description','Copper-nickel 70/30 alloy for superior corrosion resistance in seawater, condenser & heat exchanger systems.
 ')
+@section('canonical', url()->current())
 
 @section('content')
     <!--Start breadcrumb area-->

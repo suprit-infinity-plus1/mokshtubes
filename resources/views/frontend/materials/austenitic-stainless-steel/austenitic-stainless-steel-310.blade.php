@@ -2,6 +2,7 @@
 
 @section('title', 'Austenitic Stainless Steel 310')
 @section('meta_description', 'Premium SS 310 for extreme heat resistance & superior durability.')
+@section('canonical', url()->current())
 
 @section('content')
     <!--Start breadcrumb area-->

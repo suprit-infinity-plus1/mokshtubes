@@ -3,6 +3,7 @@
 @section('title', 'Stellite')
 @section('meta_description','Durable Stellite cobalt-chrome alloys for wear, heat, and corrosion resistance in demanding industrial environments.
 ')
+@section('canonical', url()->current())
 
 @section('content')
     <!--Start breadcrumb area-->

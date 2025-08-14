@@ -2,6 +2,7 @@
 
 @section('title', 'Austenitic Stainless Steel 309')
 @section('meta_description', 'Heat-resistant SS 309 ideal for high-temperature & corrosive environments.')
+@section('canonical', url()->current())
 
 @section('content')
     <!--Start breadcrumb area-->

@@ -8,6 +8,8 @@
     {{-- @section('meta_description',
     'Durable C26000 cartridge brass with excellent corrosion resistance for automotive, plumbing & industrial use.
 ') --}}
+@section('canonical', url()->current())
+
 
 @section('content')
     <!--Start breadcrumb area-->

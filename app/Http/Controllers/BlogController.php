@@ -12,66 +12,66 @@ class BlogController extends Controller
         $blogsData = collect([
             [
                 'title' => 'STAINLESS STEEL VS INCONEL TUBES',
-                'author' => 'fletcher',
+                'author' => 'Jash Jain',
                 'comments' => 14,
-                'date' => '21 Feb',
+                'date' => 'august 14, 2025',
                 'image' => 'assets/images/blogs/Inconel-vs-Stainless-Steel.jpg',
                 'excerpt' => 'Choosing between stainless steel and Inconel tubes depends heavily on your industrial needs',
                 'link' => route('blogs.stainless-steel-inconel-tubes')
             ],
             [
                 'title' => '10 Mistakes to Avoid When Buying Stainless Steel Pipes',
-                'author' => 'fletcher',
+                'author' => 'Jash Jain',
                 'comments' => 14,
-                'date' => '21 Feb',
+                'date' => 'august 14, 2025',
                 'image' => 'assets/images/blog/10-Mistakes-to-Avoid-When-Buying-Stainless-Steel-Pipes.webp',
                 'excerpt' => 'Stainless steel pipes are truly the backbone of many industries worldwide. ',
                 'link' => route('blogs.10-mistakes-to-avoid-when-buying-stainless-steel-pipes')
             ],
             [
                 'title' => 'Emerging Trends in Industrial Piping for 2025 and Beyond',
-                'author' => 'Richards',
+                'author' => 'Jash Jain',
                 'comments' => 22,
-                'date' => '17 Apr',
+                'date' => 'august 14, 2025',
                 'image' => 'assets/images/blog/emerging-trends-in-industrial-piping-for-2025-and-beyond_11zon_11zon_11zon.webp',
                 'excerpt' => 'The industrial piping industry is on the brink of a significant transformation.',
                 'link' => route('blogs.emerging-trends-in-industrial-piping-for-2025-and-beyond')
             ],
             [
-                'title' => 'MATERIALS FOR THE ECONOMY',
-                'author' => 'Vincent',
+                'title' => 'Everything You Need to Know About Welded & Seamless',
+                'author' => 'Jash Jain',
                 'comments' => 16,
-                'date' => '14 June',
-                'image' => 'assets/images/blog/Untitled (9).png',
-                'excerpt' => 'Pleasure and praising pain was born and I will give you a complete account.',
-                'link' => '#'
+                'date' => 'august 14, 2025',
+                'image' => 'assets/images/blog/everything-you-need-to-know-about-welded-and-seamless-pipes.webp',
+                'excerpt' => 'Pipes are the unsung heroes of modern infrastructure',
+                'link' => route('blogs.everything-you-need-to-know-about-welded-and-seamless-pipes')
             ],
             [
-                'title' => 'MATERIALS FOR THE ECONOMY',
-                'author' => 'Vincent',
+                'title' => 'India’s Stainless Steel Export Industry',
+                'author' => 'Jash Jain',
                 'comments' => 16,
-                'date' => '14 June',
-                'image' => 'assets/images/blog/Untitled (9).png',
-                'excerpt' => 'Pleasure and praising pain was born and I will give you a complete account.',
-                'link' => '#'
+                'date' => 'august 14, 2025',
+                'image' => 'assets/images/blog/india’s-stainless-steel-export-industry.webp',
+                'excerpt' => 'India has emerged as a global leader in stainless steel production and exports,',
+                'link' => route('blogs.india’s-stainless-steel-export-industry')
             ],
             [
-                'title' => 'MATERIALS FOR THE ECONOMY',
-                'author' => 'Vincent',
+                'title' => 'The Role of High-Performance Alloys in Desalination Plants',
+                'author' => 'Jash Jain',
                 'comments' => 16,
-                'date' => '14 June',
+                'date' => 'august 14, 2025',
                 'image' => 'assets/images/blog/Untitled (9).png',
-                'excerpt' => 'Pleasure and praising pain was born and I will give you a complete account.',
-                'link' => '#'
+                'excerpt' => 'Desalination plants are at the forefront of solving one of the world',
+                'link' => route('blogs.the-role-of-high-performance')
             ],
             [
-                'title' => 'MATERIALS FOR THE ECONOMY',
-                'author' => 'Vincent',
+                'title' => 'Top 7 Advantages of Using Stainless Steel 316L',
+                'author' => 'Jash Jain',
                 'comments' => 16,
-                'date' => '14 June',
-                'image' => 'assets/images/blog/Untitled (9).png',
-                'excerpt' => 'Pleasure and praising pain was born and I will give you a complete account.',
-                'link' => '#'
+                'date' => 'august 14, 2025',
+                'image' => 'assets/images/blog/top-7-advantages-of-using.webp',
+                'excerpt' => 'Stainless steel 316L has earned its reputation as a go-to material for industrial',
+                'link' => route('blogs.top-7-advantages-of-using')
             ],
 
 

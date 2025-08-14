@@ -59,6 +59,28 @@ class MainController extends Controller
         return view('frontend.blogs.emerging-trends-in-industrial-piping-for-2025-and-beyond');
     }
 
+    public function everythingYouNeedToKnowAboutWeldedAndSeamlessPipes()
+    {
+
+        return view('frontend.blogs.everything-you-need-to-know-about-welded-and-seamless-pipes');
+    }
+
+    public function india’sStainlessSteelExportIndustry()
+    {
+
+        return view('frontend.blogs.india’s-stainless-steel-export-industry');
+    }
+    public function theRoleOfHighPerformance()
+    {
+
+        return view('frontend.blogs.the-role-of-high-performance');
+    }
+    public function topSevenAdvantagesOfUsing()
+    {
+
+        return view('frontend.blogs.top-7-advantages-of-using');
+    }
+
 
 
 

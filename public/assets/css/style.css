@@ -2449,7 +2449,7 @@ textarea {
     left: 0;
     width: 8px;
     height: 8px;
-    background: #fff;
+    background: #174268;
     border: 1px solid #d9d9d9;
     content: "";
     border-radius: 50%;
@@ -8430,9 +8430,29 @@ ul.gallery-filter li span {
     cursor: not-allowed;
 }
 
+.text li {
+     margin-bottom: 0.25rem;
+    color: #848484;
+    list-style-type: disc;
+    list-style-position: inside;
+    
+}
+
+.exapmle ul {
+     list-style-position: inside;
+    padding-left: 30px;
+}
+
+
+.exapmle li {
+     margin-bottom: 0.25rem;
+    color: #848484;
+    list-style-type: disc;
+}
+
 .tip-box {
-    background-color: #f0fdf4; /* light green background */
-    border-left: 4px solid #db7227; /* green left border */
+    background-color: #f0fdf4;
+    border-left: 4px solid #db7227;
     padding: 1rem;
     border-radius: 6px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
@@ -8469,6 +8489,7 @@ ul.gallery-filter li span {
     color: #174268;
     font-weight: 600;
     font-size: 20px;
+    padding-bottom: 10px;
 
 
 }

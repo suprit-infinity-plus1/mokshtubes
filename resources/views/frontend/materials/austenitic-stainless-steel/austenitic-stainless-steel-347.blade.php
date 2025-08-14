@@ -2,6 +2,7 @@
 
 @section('title', 'Austenitic Stainless Steel 347')
 @section('meta_description', 'Columbium-stabilized SS 347 for heat resistance & oxidation protection.')
+@section('canonical', url()->current())
 
 @section('content')
     <!--Start breadcrumb area-->

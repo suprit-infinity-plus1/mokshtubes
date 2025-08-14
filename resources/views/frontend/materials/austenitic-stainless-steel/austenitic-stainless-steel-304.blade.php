@@ -2,6 +2,7 @@
 
 @section('title', 'Superior Austenitic Stainless Steel 304 | Tubes & Fittings')
 @section('meta-description', 'Moksh Tubes & Fittings LLP supplies high-quality Austenitic Stainless Steel 304 pipes, tubes & fittings for industrial, marine & chemical applications.')
+@section('canonical', url()->current())
 
 @section('content')
     <!--Start breadcrumb area-->

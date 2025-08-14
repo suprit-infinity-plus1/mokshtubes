@@ -3,6 +3,7 @@
 @section('title', 'Copper Alloys C71520')
 @section('meta_description','Premium C71520 copper-nickel (70/30) alloy for high-performance marine, condenser & industrial applications.
 ')
+@section('canonical', url()->current())
 
 @section('content')
     <!--Start breadcrumb area-->

@@ -5,6 +5,7 @@
     'Nitronic 60 alloy offering durability and corrosion resistance, perfect for heavy-duty
     industrial and harsh environment applications.')
     {{-- @section('meta_description', 'Nitronic 60 stainless steel with excellent wear & galling resistance.') --}}
+@section('canonical', url()->current())
 
 @section('content')
     <!--Start breadcrumb area-->

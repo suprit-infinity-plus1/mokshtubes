@@ -2,6 +2,7 @@
 
 @section('title', 'Austenitic Stainless Steel 317')
 @section('meta_description', 'High-molybdenum SS 317 for exceptional corrosion & chemical resistance.')
+@section('canonical', url()->current())
 
 @section('content')
     <!--Start breadcrumb area-->

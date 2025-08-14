@@ -3,6 +3,7 @@
 @section('title', 'Austenitic Stainless Steel 316')
 @section('meta_description',
     'SS 316 with molybdenum for superior corrosion & pitting resistance.')
+@section('canonical', url()->current())
 
 @section('content')
     <!--Start breadcrumb area-->

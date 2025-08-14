@@ -3,6 +3,7 @@
 @section('title', 'Haynes Superalloys 160')
 @section('meta_description','High-strength Haynes Alloy 160 for extreme heat resistance and corrosion protection. Available in various forms.
 ')
+@section('canonical', url()->current())
 
 @section('content')
     <!--Start breadcrumb area-->
