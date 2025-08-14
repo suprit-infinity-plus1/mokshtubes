@@ -1,9 +1,10 @@
 @extends('layouts.master')
 
 @section('title', 'Aluminium Alloy 5083 | Marine Grade Aluminium')
-@section('meta_description', 'Marine-grade Aluminium 5083 offering superior corrosion resistance in seawater and excellent weldability.')
+@section('meta_description', 'Marine-grade Aluminium 5083 with superior corrosion resistance for shipbuilding, offshore, and seawater applications. Excellent weldability and durability.')
 @section('meta_keywords', 'Aluminium Alloy 5083, Marine Grade Aluminium, Aluminium 5083 Pipes, Aluminium 5083 Tubes, Aluminium 5083 Sheets, Corrosion Resistant Aluminium, Seawater Resistant Aluminium, Weldable Aluminium Alloy, Marine Industry Aluminium, Industrial Aluminium Grades')
 @section('canonical', url()->current())
+
 
 @section('content')
 

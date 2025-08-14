@@ -1,9 +1,7 @@
 @extends('layouts.master')
 
-@section('title', 'Inconel 625 | Superior Strength & Marine Protection
-')
-@section('meta_description', 'Inconel 625 offers unmatched fatigue, creep, and chloride resistance—perfect for aerospace, marine, and chemical processing applications
-')
+@section('title', 'Inconel 625 | Superior Strength & Marine Protection')
+@section('meta_description', 'Inconel 625 offers unmatched fatigue, creep, and chloride resistance—perfect for aerospace, marine, and chemical processing applications')
 @section('meta_keywords', 'Inconel 625, Superior Strength Alloy, Marine Protection Alloy, Nickel Alloys, Fatigue Resistant Alloy, Creep Resistant Alloy, Chloride Resistant Alloy, Aerospace Alloys, Marine Industry Alloys, Chemical Processing Alloys, Corrosion Resistant Alloys')
 @section('canonical', url()->current())
 

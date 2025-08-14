@@ -1,8 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Austenitic Stainless Steel 316')
-@section('meta_description',
-    'SS 316 with molybdenum for superior corrosion & pitting resistance.')
+@section('title', 'Austenitic Stainless Steel 316 | Marine Grade SS')
+@section('meta_description', 'Corrosion-resistant Austenitic Stainless Steel 316 pipes & fittings ideal for marine, chemical, and food processing industries.')
+@section('meta_keywords', 'Austenitic Stainless Steel 316, Stainless Steel 316 Pipes, Stainless Steel 316 Tubes, Stainless Steel 316 Fittings, Marine Grade Stainless Steel 316, Corrosion Resistant Stainless Steel 316, Chemical Processing Stainless Steel 316, Food Grade Stainless Steel 316, Industrial Stainless Steel 316, High Strength Stainless Steel 316')
 @section('canonical', url()->current())
 
 @section('content')

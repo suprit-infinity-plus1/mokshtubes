@@ -1,9 +1,15 @@
 @extends('layouts.master')
 
+<<<<<<< HEAD
 @section('title', '253 MA | Heat & Oxidation Resistant Alloy')
 @section('meta_description', 'Specialized for high-temperature industrial environments, maintaining strength and oxidation resistance up to 1150°C.')
 @section('meta_keywords', '253 MA, Heat Resistant Alloy, Oxidation Resistant Alloy, High Temperature Alloy, 253 MA Pipes, 253 MA Tubes, 253 MA Fittings, Industrial Heat Resistant Alloys, High Strength Alloy, Corrosion Resistant Alloy')
 @section('canonical', url()->current())
+=======
+@section('title', 'Super Austenitic Stainless Steel 253 MA | High Temperature & Oxidation Resistant Alloy')
+@section('meta_description', 'Specialized for high-temperature industrial environments, maintaining strength and
+    oxidation resistance up to 1150°C.')
+>>>>>>> fea365251b967b6f2239993370ab8890248a83c8
 
 @section('content')
 

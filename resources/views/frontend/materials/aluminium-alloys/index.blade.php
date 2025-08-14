@@ -5,6 +5,7 @@
 @section('meta_keywords', 'Aluminium Alloys, 6082, 6061, 5083, HE30, 7075, Aluminium 6082-T6, Aluminium 6061-T6, Lightweight Alloys, Corrosion Resistant Aluminium, Aerospace Aluminium Alloys, Marine Aluminium Alloys, Structural Aluminium Alloys, Industrial Aluminium Grades')
 @section('canonical', url()->current())
 
+
 @section('content')
 
     <!--Start breadcrumb area-->

@@ -1,15 +1,12 @@
 @extends('layouts.master')
 
-@section('title', 'Austenitic Stainless Steel 316Ti')
-@section('meta_description',
-    '316Ti stainless steel known for excellent heat resistance, corrosion protection, and durability in chemical and
-    petrochemical industries.
-    ')
+@section('title', 'Austenitic Stainless Steel 316Ti | Heat Stable Alloy')
+@section('meta_description', '316Ti Stainless Steel pipes and fittings with excellent high-temperature stability and corrosion resistance.')
+@section('meta_keywords', 'Austenitic Stainless Steel 316Ti, Stainless Steel 316Ti Pipes, Stainless Steel 316Ti Tubes, Stainless Steel 316Ti Fittings, Heat Resistant Stainless Steel 316Ti, Corrosion Resistant Stainless Steel 316Ti, High Temperature Stainless Steel 316Ti, Industrial Stainless Steel 316Ti, Marine Grade Stainless Steel 316Ti, Chemical Processing Stainless Steel 316Ti')
 @section('canonical', url()->current())
 
-    {{-- @section('meta_description', 'Titanium-stabilized SS 316Ti for improved high-temperature stability.') --}}
-
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

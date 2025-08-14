@@ -1,8 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Hastelloy B2 | Acid-Resistant Nickel Alloy')
-@section('meta_description', 'Hastelloy B2 pipes, tubes & fittings with top resistance to reducing acids like HCl and H₂SO₄, ideal for harsh chemical processing industries.')
-@section('meta_keywords', 'Hastelloy B2, Acid Resistant Nickel Alloy, Corrosion Resistant Alloy, Hastelloy B2 Pipes, Hastelloy B2 Tubes, Hastelloy B2 Fittings, Hydrochloric Acid Resistant, Sulfuric Acid Resistant, Chemical Processing Alloys, Industrial Corrosion Resistant Alloys')
+@section('title', 'Hastelloy B2 | Premium Acid-Resistant Nickel Alloy')
+@section('meta_description', 'Hastelloy B2 pipes, tubes & fittings with exceptional resistance to hydrochloric acid at all concentrations and strong performance in reducing acids like sulfuric acid — ideal for aggressive chemical processing applications.')
+@section('meta_keywords', 'Hastelloy B2, Acid Resistant Nickel Alloy, Corrosion Resistant Alloy, Hastelloy B2 Pipes, Hastelloy B2 Tubes, Hastelloy B2 Fittings, Hydrochloric Acid Resistant, Sulfuric Acid Resistant, Chemical Processing Alloys, Industrial Corrosion Resistant Alloys, Durable Nickel Alloys')
 @section('canonical', url()->current())
 
 @section('content')

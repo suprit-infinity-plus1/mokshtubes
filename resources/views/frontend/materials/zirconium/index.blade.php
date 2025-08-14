@@ -6,9 +6,7 @@
     ')
     {{-- @section('meta_description',
     'Explore corrosion-resistant Zirconium grades 702, 704, 705 ideal for nuclear,
-    pharmaceutical, and chemical equipment applications.')
-@section('meta_keywords', 'Zirconium Alloys, Zirconium 702, Zirconium 704, Zirconium 705, Corrosion Resistant Zirconium, Nuclear Industry Alloys, Pharmaceutical Equipment Alloys, Chemical Processing Zirconium, High Performance Zirconium Alloys, Industrial Zirconium Grades')
-
+    pharmaceutical, and chemical equipment applications.') --}}
 @section('content')
 
     <!--Start breadcrumb area-->

@@ -1,9 +1,14 @@
 @extends('layouts.master')
 
+<<<<<<< HEAD
 @section('title', 'Titanium Grade 7 | Corrosion Resistant Titanium Alloy')
 @section('meta_description', 'Titanium Grade 7 providing excellent resistance to oxidizing and reducing environments in chemical industries.')
 @section('meta_keywords', 'Titanium Grade 7, Corrosion Resistant Titanium, Titanium Grade 7 Pipes, Titanium Grade 7 Tubes, Titanium Grade 7 Sheets, Oxidizing Resistant Titanium, Reducing Environment Titanium, Chemical Industry Titanium, Industrial Titanium Alloys, High Performance Titanium')
 @section('canonical', url()->current())
+=======
+@section('title', 'Titanium Grade 7')
+@section('meta_description', 'Corrosion-resistant Titanium Grade 7 for chemical, desalination & marine applications.')
+>>>>>>> fea365251b967b6f2239993370ab8890248a83c8
 
 @section('content')
 

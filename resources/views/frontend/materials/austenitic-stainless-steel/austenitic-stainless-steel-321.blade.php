@@ -1,10 +1,12 @@
 @extends('layouts.master')
 
-@section('title', 'Austenitic Stainless Steel 321')
-@section('meta_description', 'Titanium-stabilized SS 321 ideal for high-temperature applications.')
+@section('title', 'Austenitic Stainless Steel 321 | Stabilized Heat Resistant Alloy')
+@section('meta_description', 'Stabilized Austenitic Stainless Steel 321 pipes & fittings designed for high-temperature applications with excellent oxidation resistance.')
+@section('meta_keywords', 'Austenitic Stainless Steel 321, Stainless Steel 321 Pipes, Stainless Steel 321 Tubes, Stainless Steel 321 Fittings, Heat Resistant Stainless Steel 321, Oxidation Resistant Stainless Steel 321, High Temperature Stainless Steel 321, Stabilized Stainless Steel 321, Industrial Stainless Steel 321, Thermal Processing Stainless Steel 321')
 @section('canonical', url()->current())
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

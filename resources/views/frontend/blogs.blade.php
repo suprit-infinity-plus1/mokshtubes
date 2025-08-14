@@ -1,11 +1,11 @@
 @extends('layouts.master')
 @section('title', 'Mokshtubes | High-Performance Metal Alloys & Industrial Products')
 
-@section('meta_description',
-    'Reach out to Mokshtubes Fittings & LLP for product inquiries, technical support, or custom alloy requirements. Call,
-    email, or visit us — we’re happy to assist you.')
+@section('meta_description', 'Need help with industrial alloys or custom metal solutions? Contact Mokshtubes LLP by phone, email, or visit — we’re here to help.')
+@section('meta_keywords', 'Mokshtubes Contact, Industrial Alloys Support, Custom Metal Solutions, Metal Alloys Supplier, Product Inquiries, Technical Assistance, High Performance Alloys, Alloy Supply Contact, Industrial Metal Solutions, Mokshtubes LLP')
 @section('canonical', 'https://blogs.com')
 @section('content')
+
     <!--Start rev slider wrapper-->
 
 

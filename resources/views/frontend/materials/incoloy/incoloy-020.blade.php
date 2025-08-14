@@ -1,10 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Incoloy 825 | Premium Corrosion-Resistant Nickel Alloy
-')
-@section('meta_description', 'Incoloy 825 delivers exceptional resistance to acids, alkalis, and oxidizing agents—making it a trusted choice for chemical and marine industries.
-')
-@section('meta_keywords', 'Incoloy 825, nickel alloy, corrosion resistant alloy, premium metal alloys, moksh tubes')
+@section('title', 'Incoloy 020 | Elite Acid-Resistant Super AlloyIncoloy 020 | Elite Acid-Resistant Super Alloy')
+@section('meta_description', 'Incoloy 020 ensures superior resistance to sulfuric acid and harsh chemicals—delivering long service life in challenging industrial environments.')
+@section('meta_keywords', 'Incoloy 020, Incoloy 020 Pipes, Incoloy 020 Tubes, Incoloy 020 Fittings, Acid Resistant Incoloy 020, Corrosion Resistant Incoloy 020, Sulfuric Acid Resistant Incoloy 020, Chemical Processing Incoloy 020, Industrial Incoloy 020 Alloy, High Performance Incoloy 020')
 @section('canonical', url()->current())
 
 @section('content')
@@ -40,19 +38,16 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"><a href="{{ route('materials.incoloy') }}">INCOLOY 020</a></strong>
-                            is a corrosion-resistant nickel-iron-chromium
-                            alloy designed specifically to handle sulfuric acid and other aggressive chemical environments.
-                            With the addition of copper and molybdenum, this alloy offers exceptional resistance to pitting,
-                            crevice corrosion, and chloride-induced stress corrosion cracking.
+                                <a href="{{ route('materials.incoloy') }}" class="text-black"><strong>INCOLOY 020</strong></a>
+                                is a corrosion-resistant nickel-iron-chromium alloy designed specifically to handle sulfuric acid and other aggressive chemical environments.
+                                With the addition of copper and molybdenum, this alloy offers exceptional resistance to pitting, crevice corrosion, and chloride-induced stress corrosion cracking.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">MOKSH TUBES & FITTINGS LLP</strong class="text-black"> is a trusted
-                            manufacturer, exporter, supplier, importer, and stockist of INCOLOY 020 in multiple forms
-                            including <a href="{{ route('products.pipes-tubes') }}">pipes & tubes</a>, fittings, flanges,
-                            fasteners, sheets, plates, bars, rods, coils, wire
-                            mesh, and custom-fabricated products.
+                            <strong class="text-black">MOKSH TUBES & FITTINGS LLP</strong> is a trusted
+                                    manufacturer, exporter, supplier, importer, and stockist of INCOLOY 020 in multiple forms
+                                    including <a href="{{ route('products.pipes-tubes') }}">pipes & tubes</a>, fittings, flanges,
+                                    fasteners, sheets, plates, bars, rods, coils, wire mesh, and custom-fabricated products.
                         </p>
                     </div>
                 </div>

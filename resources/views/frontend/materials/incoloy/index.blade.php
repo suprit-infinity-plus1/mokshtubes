@@ -1,17 +1,12 @@
 @extends('layouts.master')
+
 @section('title', 'Incoloy Alloys | Corrosion & Heat Resistant Grades | Mokshtubes')
-@section('meta_description',
-    'Advanced Incoloy alloys providing excellent corrosion and heat resistance for critical chemical, power, and industrial
-    applications.
-    ')
-    @section('canonical', url()->current())
-    {{-- @section('meta_description',
-    'Find premium Incoloy grades such as 800, 825, and 925 – engineered for heat, stress, and acidic environments in
-    petrochemical and marine sectors.
-    ')
-    @section('meta_keywords', 'Incoloy 825, nickel alloy, corrosion resistant alloy, premium metal alloys, moksh tubes')
---}}
+@section('meta_description','Advanced Incoloy alloys providing excellent corrosion and heat resistance for critical chemical, power, and industrial applications.')
+@section('meta_keywords', 'Incoloy Alloys, Corrosion Resistant Incoloy, Heat Resistant Incoloy, Incoloy Pipes, Incoloy Tubes, Incoloy Fittings, Chemical Industry Incoloy, Power Industry Incoloy, Industrial Incoloy Alloys, High Performance Incoloy, Industrial Heat Resistant Alloys')
+@section('canonical', url()->current())
+
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

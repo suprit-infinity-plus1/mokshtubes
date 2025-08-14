@@ -1,9 +1,7 @@
 @extends('layouts.master')
 
-@section('title', 'Inconel 718 | High-Strength Alloy for Extreme Loads
-')
-@section('meta_description', 'Inconel 718 delivers superior tensile strength, fatigue resistance, and oxidation protection—ideal for aerospace, turbines, and energy sectors.
-')
+@section('title', 'Inconel 718 | High-Strength Alloy for Extreme Loads')
+@section('meta_description', 'Inconel 718 delivers superior tensile strength, fatigue resistance, and oxidation protection—ideal for aerospace, turbines, and energy sectors.')
 @section('meta_keywords', 'Inconel 718, High-Strength Alloy, Extreme Load Alloys, Nickel Alloys, Aerospace Alloys, Turbine Alloys, Energy Sector Alloys, Fatigue Resistant Alloys, Oxidation Resistant Alloys, Corrosion Resistant Alloys')
 @section('canonical', url()->current())
 
