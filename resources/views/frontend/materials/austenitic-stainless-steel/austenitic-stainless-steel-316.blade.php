@@ -1,6 +1,9 @@
 @extends('layouts.master')
 
-@section('title', 'Austenitic Stainless Steel 316 - Moksh Tubes & Fittings LLP')
+@section('title', 'Austenitic Stainless Steel 316 | Marine Grade SS')
+@section('meta_description', 'Corrosion-resistant Austenitic Stainless Steel 316 pipes & fittings ideal for marine, chemical, and food processing industries.')
+@section('meta_keywords', 'Austenitic Stainless Steel 316, Stainless Steel 316 Pipes, Stainless Steel 316 Tubes, Stainless Steel 316 Fittings, Marine Grade Stainless Steel 316, Corrosion Resistant Stainless Steel 316, Chemical Processing Stainless Steel 316, Food Grade Stainless Steel 316, Industrial Stainless Steel 316, High Strength Stainless Steel 316')
+@section('canonical', url()->current())
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -28,7 +31,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/austenitic-stainless-steel/austenitic-stainless-steel-316.jpg"alt="Austenitic-Stainless-Steel 310"
+                    <img src="{{ asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-316.webp') }}"alt="Austenitic-Stainless-Steel 310"
                         class="img-fluid rounded shadow-sm">
                 </div>
 

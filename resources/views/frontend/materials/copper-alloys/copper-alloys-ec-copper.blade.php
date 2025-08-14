@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Copper Alloys EC Copper - Moksh Tubes & Fittings LLP')
+@section('title', 'Copper Alloys EC Copper')
+@section('meta_description','EC grade copper with excellent conductivity & corrosion resistance for electrical, power & industrial applications.
+')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -28,7 +30,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/copper-alloys/copper-alloys-ec-copper.jpeg"alt="Copper Alloys EC Copper"
+                    <img src="{{ asset('assets/images/copper-alloys/copper-alloys-ec-copper.webp') }}"alt="Copper Alloys EC Copper"
                         class="img-fluid rounded shadow-sm">
                 </div>
 

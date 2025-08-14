@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Copper Alloys C71500 - Moksh Tubes & Fittings LLP')
+@section('title', 'Copper C71500 Nickel Alloy')
+@section('meta_description','C71500 copper-nickel alloy for outstanding corrosion resistance in marine, offshore & heat exchanger environments.
+')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -28,7 +30,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/copper-alloys/copper-alloys-c71500.jpeg"alt="Copper Alloys C71500"
+                    <img src="{{ asset('assets/images/copper-alloys/copper-alloys-c71500.webp') }}"alt="Copper Alloys C71500"
                         class="img-fluid rounded shadow-sm">
                 </div>
 

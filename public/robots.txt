@@ -28,6 +28,7 @@ Disallow: /ws1_2.php?IDNO=Nu435051238&cid=121&g=12&m=1
 Disallow: /gs3.php?LYS=SLY537060190&cid=153&g=12
 Disallow: /sw5.php?IDNO=Nu179987211&cid=151&g=9&m=3
 Disallow: /gs3.php?LYS=SLY536803299&cid=153&g=12
+Disallow: /ws1_2.php
 
 # Allow everything else
 Allow: /

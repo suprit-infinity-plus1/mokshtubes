@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Nickel A286 AIS600 - Moksh Tubes & Fittings LLP')
+@section('title', 'Nickel A286 AIS600 Superalloy | High Strength & Heat Resistant | Mokshtubes ')
+@section('meta_description', 'Explore A286 superalloy known for high strength, heat resistance, and excellent
+    performance in aerospace and high-temperature applications.')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -27,7 +29,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/nickel-based-superalloys/nickel-based-superalloys-A286_AIS660.jpeg"
+                    <img src="{{ asset('assets/images/nickel-based-superalloys/nickel-based-superalloys-A286_AIS660.webp') }}"
                         alt="Nickel A286 AIS600" class="img-fluid rounded shadow-sm">
                 </div>
 

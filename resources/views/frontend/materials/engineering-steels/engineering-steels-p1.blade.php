@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Engineering Steels P1 - Moksh Tubes & Fittings LLP')
+@section('meta_description','Heat-resistant P1 steel for boilers, heat exchangers, and pressure vessels.
+')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -28,7 +30,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/engineering-steels/engineering-steels-p1.jpg" alt="ENp1"
+                    <img src="{{ asset('assets/images/engineering-steels/engineering-steels-p1.webp') }}" alt="ENp1"
                         class="img-fluid rounded shadow-sm">
                 </div>
 

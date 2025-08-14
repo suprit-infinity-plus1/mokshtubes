@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Tungsten - Moksh Tubes & Fittings LLP')
+@section('title', 'Tungsten')
+@section('meta_description','Strong and dense tungsten alloys for aerospace, defense, and industrial applications. Superior strength and heat resistance.
+')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -28,7 +30,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-tungsten.png"
+                    <img src="{{ asset('assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-tungsten.webp') }}"
                         alt="Tungsten" class="img-fluid rounded shadow-sm">
                 </div>
 

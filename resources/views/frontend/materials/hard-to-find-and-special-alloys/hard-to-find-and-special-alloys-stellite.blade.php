@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Stellite -Moksh Tubes & Fittings LLP')
+@section('title', 'Stellite')
+@section('meta_description','Durable Stellite cobalt-chrome alloys for wear, heat, and corrosion resistance in demanding industrial environments.
+')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -28,7 +30,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-stellite.jpeg"
+                    <img src="{{ asset('assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-stellite.webp') }}"
                         alt="Stellite" class="img-fluid rounded shadow-sm">
                 </div>
 

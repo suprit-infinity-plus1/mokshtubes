@@ -1,9 +1,15 @@
 @extends('layouts.master')
 
+<<<<<<< HEAD
 @section('title', 'Alloy 926 | High-Performance Super Austenitic')
 @section('meta_description', 'Alloy 926 pipes, tubes & fittings with excellent pitting, crevice, and chloride corrosion resistance for harsh marine & chemical use.')
 @section('meta_keywords', 'Alloy 926, Super Austenitic Stainless Steel, Corrosion Resistant Alloy, Alloy 926 Pipes, Alloy 926 Tubes, Alloy 926 Fittings, Pitting Resistant Alloy, Crevice Corrosion Resistant, Chloride Resistant Alloy, Marine Industry Alloys, Chemical Processing Alloys')
 @section('canonical', url()->current())
+=======
+@section('title', 'Super Austenitic Stainless Steel Alloy 926 | High Nickel-Molybdenum for Harsh Environments')
+@section('meta_description', 'Designed for aggressive chemical and seawater applications, offering exceptional
+    resistance to pitting and crevice corrosion.')
+>>>>>>> fea365251b967b6f2239993370ab8890248a83c8
 
 @section('content')
 
@@ -32,7 +38,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?" alt="Alloy 926" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/super-austenitic-stainless-steel/super-austenitic-stainless-steel-AL-926.webp') }}" alt="Alloy 926" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->

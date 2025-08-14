@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Engineering Steels 31 - Moksh Tubes & Fittings LLP')
+@section('meta_description','High carbon EN31 steel for bearings, tools, and wear-resistant components.
+')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -28,7 +30,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/engineering-steels/engineering-steels-en31.jpeg" alt="EN31"
+                    <img src="{{ asset('assets/images/engineering-steels/engineering-steels-en31.webp') }}" alt="EN31"
                         class="img-fluid rounded shadow-sm">
                 </div>
 

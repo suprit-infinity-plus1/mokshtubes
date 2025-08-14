@@ -1,5 +1,9 @@
 @extends('layouts.master')
-@section('title', 'Seamless pipes | Moksh Tubes')
+@section('title', 'Seamless Pipes | Premium Quality & Durable Solutions | Mokshtubes')
+@section('meta_description',
+    'Discover high-quality seamless pipes engineered for superior strength, precision, and long-lasting durability across
+    critical industrial applications.
+    ')
 @section('content')
     <!--Start breadcrumb area-->
 
@@ -27,7 +31,7 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/peoduct/seamless-pipes-2.jpg" alt="Seamless pipes" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/peoduct/seamless-pipes-2.webp') }}" alt="Seamless pipes" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Right Content -->

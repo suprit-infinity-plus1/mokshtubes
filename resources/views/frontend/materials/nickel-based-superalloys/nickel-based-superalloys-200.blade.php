@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Nickel 200 - Moksh Tubes & Fittings LLP')
+@section('title', 'Nickel 200 | Commercial Pure Nickel Grade | Mokshtubes ')
+@section('meta_description', ' Find premium Nickel 200 with excellent thermal & electrical conductivity and outstanding
+    corrosion resistance for diverse industrial applications. ')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -27,7 +29,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/nickel-based-superalloys/nickel-based-superalloys-200.jpeg" alt="Nickel 200"
+                    <img src="{{ asset('assets/images/nickel-based-superalloys/nickel-based-superalloys-200.webp') }}" alt="Nickel 200"
                         class="img-fluid rounded shadow-sm">
                 </div>
 

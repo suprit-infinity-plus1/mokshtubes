@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Carbide Alloys - Moksh Tubes & Fittings LLP')
+@section('title', 'Carbide Alloys')
+@section('meta_description','High-performance carbide alloys for wear resistance and precision engineering applications. Available in custom grades and sizes.
+')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -28,7 +30,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-carbide.jpg"
+                    <img src="{{ asset('assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-carbide.webp') }}"
                         alt="Carbide alloys" class="img-fluid rounded shadow-sm">
                 </div>
 

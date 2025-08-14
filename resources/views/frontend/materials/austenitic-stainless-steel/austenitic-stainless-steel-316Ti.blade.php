@@ -1,8 +1,12 @@
 @extends('layouts.master')
 
-@section('title', 'Austenitic Stainless Steel 316Ti - Moksh Tubes & Fittings LLP')
+@section('title', 'Austenitic Stainless Steel 316Ti | Heat Stable Alloy')
+@section('meta_description', '316Ti Stainless Steel pipes and fittings with excellent high-temperature stability and corrosion resistance.')
+@section('meta_keywords', 'Austenitic Stainless Steel 316Ti, Stainless Steel 316Ti Pipes, Stainless Steel 316Ti Tubes, Stainless Steel 316Ti Fittings, Heat Resistant Stainless Steel 316Ti, Corrosion Resistant Stainless Steel 316Ti, High Temperature Stainless Steel 316Ti, Industrial Stainless Steel 316Ti, Marine Grade Stainless Steel 316Ti, Chemical Processing Stainless Steel 316Ti')
+@section('canonical', url()->current())
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
@@ -28,7 +32,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/austenitic-stainless-steel/austenitic-stainless-steel-316Ti.jpg"alt="Austenitic Stainless Steel 316Ti"
+                    <img src="{{ asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-316Ti.webp') }}"alt="Austenitic Stainless Steel 316Ti"
                         class="img-fluid rounded shadow-sm">
                 </div>
 

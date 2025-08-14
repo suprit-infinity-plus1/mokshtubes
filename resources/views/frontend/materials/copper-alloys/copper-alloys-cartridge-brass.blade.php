@@ -1,6 +1,13 @@
 @extends('layouts.master')
 
-@section('title', 'Copper Alloys C26000 Cartridge Brass - Moksh Tubes & Fittings LLP')
+@section('title', 'Copper Alloys C26000 Cartridge Brass')
+@section('meta_description',
+    'Cartridge Brass C26000 is a premium copper alloy with excellent machinability, corrosion resistance, and strength for
+    industrial and decorative use.
+    ')
+    {{-- @section('meta_description',
+    'Durable C26000 cartridge brass with excellent corrosion resistance for automotive, plumbing & industrial use.
+') --}}
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -28,7 +35,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/copper-alloys/copper-alloys-cartridge-brass.jpg"alt="Copper Alloys C26000 Cartridge Brass"
+                    <img src="{{ asset('assets/images/copper-alloys/copper-alloys-cartridge-brass.webp') }}"alt="Copper Alloys C26000 Cartridge Brass"
                         class="img-fluid rounded shadow-sm">
                 </div>
 

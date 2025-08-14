@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Copper Alloys ETP Copper - Moksh Tubes & Fittings LLP')
+@section('title', 'Copper Alloys ETP Copper')
+@section('meta_description','ETP grade copper with superior electrical conductivity for wiring, transformers, busbars & industrial components.
+')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -28,7 +30,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/copper-alloys/copper-alloys-etp-copper.jpg"alt="Copper Alloys EC Copper"
+                    <img src="{{ asset('assets/images/copper-alloys/copper-alloys-etp-copper.webp') }}"alt="Copper Alloys EC Copper"
                         class="img-fluid rounded shadow-sm">
                 </div>
 

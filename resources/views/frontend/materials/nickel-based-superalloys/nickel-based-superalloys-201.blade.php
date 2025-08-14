@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Nickel 201 - Moksh Tubes & Fittings LLP')
+@section('title', 'Nickel 201 | High Purity Nickel for Corrosion Resistance| Mokshtubes ')
+@section('meta_description', 'Discover high-purity Nickel 201 offering superior corrosion resistance and reliability,
+    ideal for harsh chemical and industrial environments.')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -27,7 +29,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/nickel-based-superalloys/nickel-based-superalloys-201.jpg" alt="Nickel 201"
+                    <img src="{{ asset('assets/images/nickel-based-superalloys/nickel-based-superalloys-201.webp') }}" alt="Nickel 201"
                         class="img-fluid rounded shadow-sm">
                 </div>
 

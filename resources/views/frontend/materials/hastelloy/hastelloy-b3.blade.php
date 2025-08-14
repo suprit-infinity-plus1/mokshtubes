@@ -1,11 +1,12 @@
 @extends('layouts.master')
 
-@section('title', 'Hastelloy B3 | High-Stability Nickel Alloy')
-@section('meta_description', 'Hastelloy B3 pipes, tubes & fittings with improved thermal stability and top resistance to hydrochloric acid for harsh chemical processing.')
-@section('meta_keywords', 'Hastelloy B3, High Stability Nickel Alloy, Corrosion Resistant Alloy, Hastelloy B3 Pipes, Hastelloy B3 Tubes, Hastelloy B3 Fittings, Hydrochloric Acid Resistant, Chemical Processing Alloys, Industrial Corrosion Resistant Alloys, Durable Nickel Alloys')
+@section('title', 'Hastelloy B3 | Enhanced High-Stability Nickel Alloy')
+@section('meta_description', 'Hastelloy B3 pipes, tubes & fittings with improved thermal stability and superior resistance to strong acids like hydrochloric, sulfuric, and phosphoric acid — ideal for harsh chemical processing environments.')
+@section('meta_keywords', 'Hastelloy B3, High Stability Nickel Alloy, Corrosion Resistant Alloy, Hastelloy B3 Pipes, Hastelloy B3 Tubes, Hastelloy B3 Fittings, Hydrochloric Acid Resistant, Sulfuric Acid Resistant, Phosphoric Acid Resistant, Chemical Processing Alloys, Industrial Corrosion Resistant Alloys, Durable Nickel Alloys')
 @section('canonical', url()->current())
 
 @section('content')
+
 
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
@@ -32,7 +33,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/hastelloy/Hastelloy-B3.jpeg" alt="Hastelloy-b3"
+                    <img src="{{ asset('assets/images/hastelloy/Hastelloy-B3.webp') }}" alt="Hastelloy-b3"
                         class="img-fluid rounded shadow-sm">
                 </div>
 

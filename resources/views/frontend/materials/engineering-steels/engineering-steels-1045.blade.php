@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Engineering Steels 1045 - Moksh Tubes & Fittings LLP')
+@section('title', 'Engineering Steels 1045')
+@section('meta_description','Durable 1045 engineering steel with high strength and wear resistance for industrial applications.
+')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -28,7 +30,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/engineering-steels/engineering-steels-1045.png" alt="en-1045"
+                    <img src="{{ asset('assets/images/engineering-steels/engineering-steels-1045.webp') }}" alt="en-1045"
                         class="img-fluid rounded shadow-sm">
                 </div>
 

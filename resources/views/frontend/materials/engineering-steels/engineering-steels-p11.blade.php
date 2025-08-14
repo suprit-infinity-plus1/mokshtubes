@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Engineering Steels P11 - Moksh Tubes & Fittings LLP')
+@section('meta_description','Creep-resistant P11 steel for high-temperature and pressure applications.
+')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -28,7 +30,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/engineering-steels/engineering-steels-p11.jpg" alt="ENp11"
+                    <img src="{{ asset('assets/images/engineering-steels/engineering-steels-p11.webp') }}" alt="ENp11"
                         class="img-fluid rounded shadow-sm">
                 </div>
 

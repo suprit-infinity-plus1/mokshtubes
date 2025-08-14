@@ -1,9 +1,7 @@
 @extends('layouts.master')
 
-@section('title', 'Inconel 718 | High-Strength Alloy for Extreme Loads
-')
-@section('meta_description', 'Inconel 718 delivers superior tensile strength, fatigue resistance, and oxidation protection—ideal for aerospace, turbines, and energy sectors.
-')
+@section('title', 'Inconel 718 | High-Strength Alloy for Extreme Loads')
+@section('meta_description', 'Inconel 718 delivers superior tensile strength, fatigue resistance, and oxidation protection—ideal for aerospace, turbines, and energy sectors.')
 @section('meta_keywords', 'Inconel 718, High-Strength Alloy, Extreme Load Alloys, Nickel Alloys, Aerospace Alloys, Turbine Alloys, Energy Sector Alloys, Fatigue Resistant Alloys, Oxidation Resistant Alloys, Corrosion Resistant Alloys')
 @section('canonical', url()->current())
 
@@ -32,7 +30,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/inconel/Inconel-718.jpg" alt="Inconel 718" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/inconel/Inconel-718.webp') }}" alt="Inconel 718" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->

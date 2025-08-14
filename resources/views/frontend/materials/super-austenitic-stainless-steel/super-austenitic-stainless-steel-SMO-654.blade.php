@@ -1,5 +1,6 @@
 @extends('layouts.master')
 
+<<<<<<< HEAD
 @section('title', 'SMO 654 | Super Austenitic Stainless Steel | Mokshtubes')
 
 @section('meta_description', 'SMO 654 – Super austenitic stainless steel with excellent chloride resistance, high strength & durability in harsh chemical conditions.')
@@ -7,6 +8,11 @@
 @section('meta_keywords', 'SMO 654, super austenitic stainless steel, chloride resistant steel, chemical resistant steel, high strength stainless steel')
 
 @section('canonical', url()->current())
+=======
+@section('title', 'Super Austenitic Stainless Steel SMO 654 | High Strength')
+@section('meta_description', 'SMO 654 offers exceptional corrosion resistance, high strength, and durability for marine,
+    chemical, and offshore applications.')
+>>>>>>> fea365251b967b6f2239993370ab8890248a83c8
 
 @section('content')
 
@@ -35,7 +41,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?" alt="SMO 654" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/super-austenitic-stainless-steel/super-austenitic-stainless-steel-SMO-654.webp') }}" alt="SMO 654" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -53,7 +59,8 @@
                             alloy that provides exceptional resistance to pitting, crevice corrosion, and chloride stress
                             corrosion cracking, even in the most aggressive environments like seawater, pulp & paper
                             bleaching, or offshore operations. With a very high level of molybdenum (~7.5%), chromium, and
-                            nitrogen, SMO 654 surpasses other <a href="{{ route('austenitic-stainless-Steel') }}">stainless
+                            nitrogen, SMO 654 surpasses other <a
+                                href="{{ route('materials.austenitic-stainless-Steel') }}">stainless
                                 steels</a> in terms of corrosion resistance and
                             mechanical strength.
                         </p>

@@ -1,9 +1,9 @@
 @extends('layouts.master')
-
 @section('title', 'Aluminium Alloy 6061 T6 | High Strength Aluminium')
 @section('meta_description', 'Aluminium 6061 T6 with excellent strength, corrosion resistance, and weldability for structural applications.')
 @section('meta_keywords', 'Aluminium Alloy 6061 T6, High Strength Aluminium, Aluminium 6061 T6 Pipes, Aluminium 6061 T6 Tubes, Aluminium 6061 T6 Sheets, Corrosion Resistant Aluminium, Weldable Aluminium Alloy, Structural Aluminium Alloys, Aerospace Aluminium, Industrial Aluminium Grades')
 @section('canonical', url()->current())
+
 
 @section('content')
 
@@ -32,7 +32,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?" alt="Aluminium 6061 T6" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}" alt="Aluminium 6061 T6" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->

@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Engineering Steels 4140 - Moksh Tubes & Fittings LLP')
+@section('meta_description','High tensile strength 4140 steel for automotive, oil & gas, and machinery applications.
+')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -28,7 +30,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/engineering-steels/engineering-steels-4140.jpeg" alt="EN 4140"
+                    <img src="{{ asset('assets/images/engineering-steels/engineering-steels-4140.webp') }}" alt="EN 4140"
                         class="img-fluid rounded shadow-sm">
                 </div>
 

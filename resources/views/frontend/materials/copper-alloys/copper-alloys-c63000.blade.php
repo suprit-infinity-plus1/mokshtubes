@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Copper Alloys C63000 - Moksh Tubes & Fittings LLP')
+@section('title', 'Copper C63000 Aluminium Bronze - Moksh Tubes & Fittings LLP')
+@section('meta_description','C63000 aluminium bronze with superior strength, wear resistance & corrosion protection for heavy-duty applications.
+')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -28,7 +30,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/copper-alloys/Copper Alloys C63000.jpg"alt="Copper Alloys C63000"
+                    <img src="{{ asset('assets/images/copper-alloys/Copper Alloys C63000.webp') }}"alt="Copper Alloys C63000"
                         class="img-fluid rounded shadow-sm">
                 </div>
 

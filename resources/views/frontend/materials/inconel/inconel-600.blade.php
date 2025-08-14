@@ -1,13 +1,12 @@
 @extends('layouts.master')
 
-@section('title', 'Inconel 600 | Premium Heat & Corrosion Shield
-')
-@section('meta_description', 'Inconel 600 delivers exceptional oxidation and corrosion resistance at high temperatures—ideal for heat exchangers, furnaces, and chemical plants.
-')
+@section('title', 'Inconel 600 | Premium Heat & Corrosion Shield')
+@section('meta_description', 'Inconel 600 delivers exceptional oxidation and corrosion resistance at high temperatures—ideal for heat exchangers, furnaces, and chemical plants.')
 @section('meta_keywords', 'Inconel 600, Premium Heat Resistant Alloy, Corrosion Resistant Alloy, Oxidation Resistant Alloy, Nickel Alloys, Heat Exchanger Alloys, Furnace Alloys, Chemical Plant Alloys, High Temperature Alloys, Industrial Heat Resistant Alloys')
 @section('canonical', url()->current())
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
@@ -32,7 +31,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/inconel/inconel-600.jpg" alt="Inconel 600" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/inconel/inconel-600.webp') }}" alt="Inconel 600" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->

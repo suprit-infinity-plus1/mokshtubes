@@ -1,10 +1,12 @@
 @extends('layouts.master')
 @section('title', 'Zirconium Alloys | 702, 704, 705 Grades for Nuclear & Chemical Use | Mokshtubes')
 @section('meta_description',
+    'High-purity zirconium alloys 702, 704 & 705 ideal for nuclear and chemical industries with outstanding corrosion
+    resistance and durability.
+    ')
+    {{-- @section('meta_description',
     'Explore corrosion-resistant Zirconium grades 702, 704, 705 ideal for nuclear,
-    pharmaceutical, and chemical equipment applications.')
-@section('meta_keywords', 'Zirconium Alloys, Zirconium 702, Zirconium 704, Zirconium 705, Corrosion Resistant Zirconium, Nuclear Industry Alloys, Pharmaceutical Equipment Alloys, Chemical Processing Zirconium, High Performance Zirconium Alloys, Industrial Zirconium Grades')
-
+    pharmaceutical, and chemical equipment applications.') --}}
 @section('content')
 
     <!--Start breadcrumb area-->
@@ -33,17 +35,17 @@
                     [
                         'name' => 'Zirconium 702',
                         'slug' => 'zirconium-702',
-                        'image' => 'assets/images/zirconium/zirconium-702.jpeg',
+                        'image' => 'assets/images/zirconium/zirconium-702.webp',
                     ],
                     [
                         'name' => 'Zirconium 704',
                         'slug' => 'zirconium-704',
-                        'image' => 'assets/images/zirconium/zirconium704.png',
+                        'image' => 'assets/images/zirconium/zirconium704.webp',
                     ],
                     [
                         'name' => 'Zirconium 705',
                         'slug' => 'zirconium-705',
-                        'image' => 'assets/images/zirconium/zirconium-705.jpeg',
+                        'image' => 'assets/images/zirconium/zirconium-705.webp',
                     ],
                 ];
             @endphp

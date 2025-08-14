@@ -1,10 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Incoloy 800 | High-Temperature Strength & Oxidation Shield
-')
-@section('meta_description', 'Incoloy 800 offers remarkable stability and corrosion resistance at high heat—ideal for furnace equipment, heat exchangers, and industrial systems.
-')
-@section('meta_keywords', 'Incoloy 825, nickel alloy, corrosion resistant alloy, premium metal alloys, moksh tubes')
+@section('title', 'Incoloy 800 | High-Temperature Strength & Oxidation Shield')
+@section('meta_description', 'Incoloy 800 offers remarkable stability and corrosion resistance at high heat—ideal for furnace equipment, heat exchangers, and industrial systems.')
+@section('meta_keywords', 'Incoloy 800, Incoloy 800 Pipes, Incoloy 800 Tubes, Incoloy 800 Fittings, Heat Resistant Incoloy 800, High Temperature Incoloy 800, Oxidation Resistant Incoloy 800, Furnace Equipment Incoloy 800, Heat Exchanger Incoloy 800, Industrial Incoloy 800 Alloy')
 @section('canonical', url()->current())
 
 @section('content')
@@ -32,7 +30,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/incoloy/incoloy-800.jpg" alt="Inconel 800" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/incoloy/incoloy-800.webp') }}" alt="Inconel 800" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->

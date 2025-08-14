@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Haynes Superalloys 188 - Moksh Tubes & Fittings LLP')
+@section('title', 'Haynes Superalloys 188')
+@section('meta_description','Premium Haynes Alloy 188 with superior oxidation resistance at high temperatures. Ideal for aerospace and gas turbines.
+')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -28,7 +30,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/haynes /haynes-alloy-188.png" alt="Haynes-188"
+                    <img src="{{ asset('assets/images/haynes /haynes-alloy-188.webp') }}" alt="Haynes-188"
                         class="img-fluid rounded shadow-sm">
                 </div>
 

@@ -1,14 +1,12 @@
 @extends('layouts.master')
 
-@section('title', ' Incoloy 925 | Superior Strength & Sour Gas Protection
-')
-@section('meta_description', 'Incoloy 925 combines high strength with outstanding corrosion resistance—perfect for oil & gas well parts and demanding marine environments.
-')
-@section('meta_keywords', 'Incoloy 825, nickel alloy, corrosion resistant alloy, premium metal alloys, moksh tubes')
+@section('title', ' Incoloy 925 | Superior Strength & Sour Gas Protection')
+@section('meta_description', 'Incoloy 925 combines high strength with outstanding corrosion resistance—perfect for oil & gas well parts and demanding marine environments.')
+@section('meta_keywords', 'Incoloy 925, Incoloy 925 Pipes, Incoloy 925 Tubes, Incoloy 925 Fittings, High Strength Incoloy 925, Corrosion Resistant Incoloy 925, Sour Gas Resistant Incoloy 925, Oil & Gas Industry Incoloy 925, Marine Environment Incoloy 925, Industrial Incoloy 925 Alloy')
 @section('canonical', url('materials/incoloy/incoloy-925'))
 
-
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
@@ -33,7 +31,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/incoloy/incoloy-925.jpg" alt="assets/images/incoloy/incoloy-925.jpg"
+                    <img src="{{ asset('assets/images/incoloy/incoloy-925.webp') }}" alt="incoloy-925"
                         class="img-fluid rounded shadow-sm">
                 </div>
 

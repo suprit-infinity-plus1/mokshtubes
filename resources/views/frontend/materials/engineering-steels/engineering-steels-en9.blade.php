@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Engineering Steels 9 - Moksh Tubes & Fittings LLP')
+@section('meta_description','High wear resistance EN9 steel for automotive, mining, and engineering parts.
+')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -28,7 +30,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/engineering-steels/engineering-steels-en9.jpg" alt="EN9"
+                    <img src="{{ asset('assets/images/engineering-steels/engineering-steels-en9.webp') }}" alt="EN9"
                         class="img-fluid rounded shadow-sm">
                 </div>
 

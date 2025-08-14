@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Engineering Steels 24 - Moksh Tubes & Fittings LLP')
+@section('meta_description','Strong EN24 steel for aerospace, automotive, and high-performance engineering.
+')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -28,7 +30,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/engineering-steels/engineering-steels-en24.jpg" alt="EN24"
+                    <img src="{{ asset('assets/images/engineering-steels/engineering-steels-en24.webp') }}" alt="EN24"
                         class="img-fluid rounded shadow-sm">
                 </div>
 

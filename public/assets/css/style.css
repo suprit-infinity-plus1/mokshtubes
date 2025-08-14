@@ -523,16 +523,22 @@ textarea {
     -o-transition: all 0.7s ease;
 }
 
-.section-title {
+.section-title,
+.blog-title {
     position: relative;
     margin-bottom: 50px;
 }
 
-.section-title h2 {
+.section-title h2 ,
+.blog-title h2 {
     position: relative;
     text-transform: capitalize;
     font-weight: 600;
     padding-bottom: 20px;
+}
+.blog-title h2 {
+    padding-bottom: 0;
+        color: var(--primary);
 }
 
 .section-title h3 {
@@ -2095,8 +2101,8 @@ textarea {
 =============================================
 ***/
 #blog-area {
-    padding-bottom: 80px;
-    padding-top: 80px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 #blog-area .blog-post {
@@ -2218,11 +2224,11 @@ textarea {
 }
 
 .single-blog-post .text-holder {
-    border-left: 1px solid #f4f4f4;
-    border-right: 1px solid #f4f4f4;
+    /* border-left: 1px solid #f4f4f4;
+    border-right: 1px solid #f4f4f4; */
     border-bottom: 1px solid #f4f4f4;
-    padding-left: 20px;
-    padding-right: 20px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
     padding-top: 26px;
     transition: all 500ms ease;
     position: relative;
@@ -4840,7 +4846,7 @@ textarea {
 }
 
 .accordion-box {
-    padding: 80px 0 80px 0px;
+    /* padding: 20px 0 80px 0px; */
 }
 
 .accordion-box .accordion {
@@ -4850,9 +4856,8 @@ textarea {
 }
 
 .accordion-box .accordion .accord-btn {
-    background: #f7f7f7 none repeat scroll 0 0;
+    background: #dfdfdf none repeat scroll 0 0;
     cursor: pointer;
-    height: 55px;
     line-height: 18px;
     padding: 11px 20px 12px;
     position: relative;
@@ -4913,7 +4918,7 @@ textarea {
 }
 
 .accordion-box .accordion .accord-content p {
-    color: #9a9a9a;
+    color: #4e4646;
     line-height: 28px;
     margin: 0;
 }
@@ -4968,6 +4973,14 @@ textarea {
 .faq-content-area .question-form form button:hover {
     background: var(--primary);
     color: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+    .faq-content-area .accordion-box .accordion .accord-btn h4 {
+        font-size: 16px;
+        line-height: 19px !important;
+        padding-right: 20px;
+    }
 }
 
 /***
@@ -8384,3 +8397,79 @@ ul.gallery-filter li span {
     background-color: #db7227 !important;
     color: white !important;
 }
+
+.accordion-box .accordion .accord-btn.active {
+     background: var(--brown) none repeat scroll 0;
+}
+
+.accordion-box .accordion .accord-btn.active h4 {
+    color: #ffffff;
+}
+
+
+/* ==================== Custom Pagination ==================== */
+.custom-pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 8px;
+}
+.custom-pagination a, .custom-pagination span {
+    padding: 8px 14px;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    color: #333;
+    border-radius: 4px;
+}
+.custom-pagination .active {
+    background: #333;
+    color: white;
+}
+.custom-pagination .disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.tip-box {
+    background-color: #f0fdf4; /* light green background */
+    border-left: 4px solid #db7227; /* green left border */
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.tip-box h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: #db7227; /* dark green text */
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.tip-box ul {
+    padding-left: 1.2rem;
+    margin: 0;
+}
+
+.tip-box li {
+    margin-bottom: 0.25rem;
+    color: #1f2937; /* dark gray */
+    list-style-type: disc;
+}
+
+.tip-box-point {
+    max-width: 80%; /* shrink width */
+    padding: 10px 15px; /* reduce space inside */
+    font-size: 0.9em; /* slightly smaller text */
+    border-radius: 4px;
+}
+
+.exapmle h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #174268;
+    font-weight: 600;
+    font-size: 20px;
+
+
+}
+

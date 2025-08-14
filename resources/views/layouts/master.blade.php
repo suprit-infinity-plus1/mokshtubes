@@ -320,7 +320,7 @@
                                                         'Austenitic Stainless Steel',
                                                         // 'High Strength Stainless Steel',
                                                         'Super Austenitic Stainless Steel',
-                                                        // 'Zirconium',
+                                                        'Zirconium',
                                                         'Engineering Steels',
                                                         'Aluminium Alloys',
                                                         'Copper Alloys',
@@ -348,7 +348,7 @@
                                         <li class="nav-item"><a class="nav-link" href="#">QUALITY</a></li>
                                         <li class="nav-item"><a class="nav-link"
                                                 href="{{ route('calculator') }}">CALCULATOR</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="#">Blogs</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="{{ route('blogs') }}">Blogs</a></li>
                                     </ul>
                                     <ul class="mobile-menu clearfix">
                                         <li><a href="{{ route('home') }}">Home</a></li>
@@ -366,7 +366,7 @@
                                         <li><a href="#">MATERIALS</a></li>
                                         <li><a href="#">QUALITY</a></li>
                                         <li><a href="{{ route('calculator') }}">CALCULATOR</a></li>
-                                        <li><a href="#">Blogs</a></li>
+                                        <li><a href="{{ route('blogs') }}">Blogs</a></li>
 
                                     </ul>
                                 </div>
@@ -378,7 +378,7 @@
                         <div class="right-area">
 
                             <div class="link_btn float_right">
-                                <a href="http://127.0.0.1:8000/contact-us" class="thm-btn bg-clr1">Contact Us</a>
+                                <a href="{{ route('contact-us') }}" class="thm-btn bg-clr1">Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -442,8 +442,10 @@
                             <div class="footer-col service-col">
                                 <h3 class="footer-title">Products</h3>
                                 <ul class="footer-list">
-                                    <li><a href="{{ route('products.pipes-tubes.welded-pipes') }}">WELDED PIPES</a></li>
-                                    <li><a href="{{ route('products.pipes-tubes.seamless-pipes')}}">SEAMLESS PIPES</a></li>
+                                    <li><a href="{{ route('products.pipes-tubes.welded-pipes') }}">WELDED PIPES</a>
+                                    </li>
+                                    <li><a href="{{ route('products.pipes-tubes.seamless-pipes') }}">SEAMLESS
+                                            PIPES</a></li>
                                     <li><a href="#">SHEETS & PLATES</a></li>
                                     <li><a href="#">PERFORATED SHEETS</a></li>
                                     <li><a href="#">ROUND BARS</a></li>
@@ -474,7 +476,7 @@
                                     <li><a href="{{ route('home') }}">Home</a></li>
                                     <li><a href="{{ route('about-us') }}">About Us</a></li>
                                     <li><a href="{{ route('products') }}">Our Products</a></li>
-                                    <li><a href="#">Blogs</a></li>
+                                    <li><a href="{{ route('blogs') }}">Blogs</a></li>
                                     <li><a href="{{ route('contact-us') }}">Contact Us</a></li>
                                 </ul>
 

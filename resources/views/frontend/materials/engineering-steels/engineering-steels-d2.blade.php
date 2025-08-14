@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Engineering Steels D2 - Moksh Tubes & Fittings LLP')
+@section('meta_description','Wear-resistant D2 tool steel for cutting tools, dies, and industrial applications.
+')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -28,7 +30,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/engineering-steels/engineering-steels-d2.jpg" alt="ENd2"
+                    <img src="{{ asset('assets/images/engineering-steels/engineering-steels-d2.webp') }}" alt="ENd2"
                         class="img-fluid rounded shadow-sm">
                 </div>
 

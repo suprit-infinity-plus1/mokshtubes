@@ -1,10 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Incoloy 825 | Premium Corrosion-Resistant Nickel Alloy
-')
-@section('meta_description', 'Incoloy 825 delivers exceptional resistance to acids, alkalis, and oxidizing agents—making it a trusted choice for chemical and marine industries.
-')
-@section('meta_keywords', 'Incoloy 825, nickel alloy, corrosion resistant alloy, premium metal alloys, moksh tubes')
+@section('title', 'Incoloy 020 | Elite Acid-Resistant Super AlloyIncoloy 020 | Elite Acid-Resistant Super Alloy')
+@section('meta_description', 'Incoloy 020 ensures superior resistance to sulfuric acid and harsh chemicals—delivering long service life in challenging industrial environments.')
+@section('meta_keywords', 'Incoloy 020, Incoloy 020 Pipes, Incoloy 020 Tubes, Incoloy 020 Fittings, Acid Resistant Incoloy 020, Corrosion Resistant Incoloy 020, Sulfuric Acid Resistant Incoloy 020, Chemical Processing Incoloy 020, Industrial Incoloy 020 Alloy, High Performance Incoloy 020')
 @section('canonical', url()->current())
 
 @section('content')
@@ -32,7 +30,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/incoloy/incoloy-020.jpeg" alt="incoloy-020"
+                    <img src="{{ asset('assets/images/incoloy/incoloy-020.webp') }}" alt="incoloy-020"
                         class="img-fluid rounded shadow-sm">
                 </div>
 

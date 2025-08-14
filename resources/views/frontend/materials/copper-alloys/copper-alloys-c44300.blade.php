@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Copper Alloys C44300 - Moksh Tubes & Fittings LLP')
+@section('title', 'Copper Alloys C44300')
+@section('meta_description','C44300 admiralty brass alloy for superior corrosion resistance in marine, condenser & heat exchanger applications.
+')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -28,7 +30,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/copper-alloys/copper-alloys-c44300.jpeg"alt="Copper Alloys C44300"
+                    <img src="{{ asset('assets/images/copper-alloys/copper-alloys-c44300.webp') }}"alt="Copper Alloys C44300"
                         class="img-fluid rounded shadow-sm">
                 </div>
 

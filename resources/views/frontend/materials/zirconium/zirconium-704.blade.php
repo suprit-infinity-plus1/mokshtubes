@@ -32,7 +32,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/zirconium/zirconium704.png" alt="Zirconium 704"
+                    <img src="{{ asset('assets/images/zirconium/zirconium704.webp') }}" alt="Zirconium 704"
                         class="img-fluid rounded shadow-sm">
                 </div>
 

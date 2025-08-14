@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Tantalum -Moksh Tubes & Fittings LLP')
+@section('title', 'Tantalum')
+@section('meta_description','High-purity tantalum alloys for chemical processing, aerospace, and electronics industries. Exceptional corrosion resistance.
+')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -28,7 +30,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-tantalum.jpeg?"
+                    <img src="{{ asset('assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-tantalum.webp') }}"
                         alt="Tantalum" class="img-fluid rounded shadow-sm">
                 </div>
 

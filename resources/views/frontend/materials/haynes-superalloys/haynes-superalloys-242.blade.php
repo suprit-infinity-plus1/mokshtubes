@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Haynes Superalloys 242 - Moksh Tubes & Fittings LLP')
+@section('title', 'Haynes Superalloys 242')
+@section('meta_description','Haynes Alloy 242 with excellent oxidation, thermal stability, and corrosion resistance for demanding environments.
+')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -28,7 +30,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/haynes /haynes- 242.jpg" alt="Haynes-242" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/haynes /haynes- 242.webp') }}" alt="Haynes-242" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->

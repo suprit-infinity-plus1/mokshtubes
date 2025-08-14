@@ -33,32 +33,32 @@
                         [
                             'name' => 'Welded Pipes & Tubes (ERW & EFW)',
                             'slug' => 'welded-pipes-and-tubes',
-                            'image' => 'assets/images/peoduct/welded-pipes-tubes.jpeg',
+                            'image' => 'assets/images/peoduct/welded-pipes-tubes.webp',
                         ],
                         [
                             'name' => 'Seamless Pipes',
                             'slug' => 'seamless-pipes',
-                            'image' => 'assets/images/peoduct/seamless-pipes-2.jpg',
+                            'image' => 'assets/images/peoduct/seamless-pipes-2.webp',
                         ],
                         [
                             'name' => 'Capillaries',
                             'slug' => 'capillaries',
-                            'image' => 'assets/images/peoduct/capillary-tubes.jpg',
+                            'image' => 'assets/images/peoduct/capillary-tubes.webp',
                         ],
                         [
                             'name' => 'Hollow Section Pipe',
                             'slug' => 'hollow-section-pipe',
-                            'image' => 'assets/images/peoduct/hollow-section-pipe.jpg',
+                            'image' => 'assets/images/peoduct/hollow-section-pipe.webp',
                         ],
                         [
                             'name' => 'U-Bent Tubes',
                             'slug' => 'u-bent-tubes',
-                            'image' => 'assets/images/peoduct/u-bent-tubes.jpeg',
+                            'image' => 'assets/images/peoduct/u-bent-tubes.webp',
                         ],
                         [
                             'name' => 'Boiler & Heat Exchanger Tubes',
                             'slug' => 'boiler-heat-exchanger-tubes',
-                            'image' => 'assets/images/peoduct/boiler-heat-exchanger-tubes.jpg',
+                            'image' => 'assets/images/peoduct/boiler-heat-exchanger-tubes.webp',
                         ],
                     ];
                 @endphp

@@ -1,9 +1,15 @@
 @extends('layouts.master')
 
+<<<<<<< HEAD
 @section('title', 'SMO 254 | Ultimate Chloride Resistant Alloy')
 @section('meta_description', 'SMO 254 stainless steel pipes, tubes & fittings offer unmatched chloride corrosion resistance for marine, offshore, and chemical use.')
 @section('meta_keywords', 'SMO 254, Super Austenitic Stainless Steel, Chloride Resistant Alloy, Corrosion Resistant Alloy, SMO 254 Pipes, SMO 254 Tubes, SMO 254 Fittings, Marine Industry Alloys, Offshore Industry Alloys, Chemical Processing Alloys, Industrial Corrosion Resistant Alloys')
 @section('canonical', url()->current())
+=======
+@section('title', 'Super Austenitic Stainless Steel SMO 254 | Extreme Seawater & Chloride Resistance')
+@section('meta_description', 'A top-tier stainless steel with ultra-high corrosion resistance, ideal for marine,
+    desalination, and chemical process applications.')
+>>>>>>> fea365251b967b6f2239993370ab8890248a83c8
 
 @section('content')
 
@@ -32,7 +38,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?" alt="SMO 254" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/super-austenitic-stainless-steel/super-austenitic-stainless-steel-SMO-254.webp') }}" alt="SMO 254" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->

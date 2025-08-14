@@ -1,9 +1,7 @@
 @extends('layouts.master')
 
-@section('title', 'Inconel 690 | High-Chromium Corrosion Master Alloy
-')
-@section('meta_description', 'Inconel 690 provides outstanding resistance to oxidizing chemicals and hot gases—trusted in nuclear, chemical, and thermal processing.
-')
+@section('title', 'Inconel 690 | High-Chromium Corrosion Master Alloy')
+@section('meta_description', 'Inconel 690 provides outstanding resistance to oxidizing chemicals and hot gases—trusted in nuclear, chemical, and thermal processing.')
 @section('meta_keywords', 'Inconel 690, High-Chromium Alloy, Corrosion Resistant Alloy, Nickel Alloys, Oxidation Resistant Alloy, Nuclear Industry Alloys, Chemical Processing Alloys, Thermal Processing Alloys, High Temperature Alloys, Oxidizing Chemical Resistant Alloys')
 @section('canonical', url()->current())
 
@@ -33,7 +31,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/inconel/Inconel-690.jpg" alt="Inconel 690" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/inconel/Inconel-690.webp') }}" alt="Inconel 690" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->

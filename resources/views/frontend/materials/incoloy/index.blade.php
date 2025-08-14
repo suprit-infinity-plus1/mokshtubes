@@ -1,12 +1,12 @@
 @extends('layouts.master')
+
 @section('title', 'Incoloy Alloys | Corrosion & Heat Resistant Grades | Mokshtubes')
-@section('meta_description',
-    'Find premium Incoloy grades such as 800, 825, and 925 – engineered for heat, stress, and acidic environments in
-    petrochemical and marine sectors.
-    ')
-    @section('meta_keywords', 'Incoloy 825, nickel alloy, corrosion resistant alloy, premium metal alloys, moksh tubes')
+@section('meta_description','Advanced Incoloy alloys providing excellent corrosion and heat resistance for critical chemical, power, and industrial applications.')
+@section('meta_keywords', 'Incoloy Alloys, Corrosion Resistant Incoloy, Heat Resistant Incoloy, Incoloy Pipes, Incoloy Tubes, Incoloy Fittings, Chemical Industry Incoloy, Power Industry Incoloy, Industrial Incoloy Alloys, High Performance Incoloy, Industrial Heat Resistant Alloys')
 @section('canonical', url()->current())
+
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
@@ -30,11 +30,15 @@
 
             @php
                 $grades = [
-                    ['name' => '825', 'slug' => 'incoloy-825', 'image' => 'assets/images/incoloy/incoloy-825.jpeg'],
-                    ['name' => '800', 'slug' => 'incoloy-800', 'image' => 'assets/images/incoloy/incoloy-800.jpg'],
-                    ['name' => '925', 'slug' => 'incoloy-925', 'image' => 'assets/images/incoloy/incoloy-925.jpg'],
-                    ['name' => '800H_800HT', 'slug' => 'incoloy-800H_800HT', 'image' => 'assets/images/incoloy/incoloy-800H_800HT.jpeg'],
-                    ['name' => '020', 'slug' => 'incoloy-020', 'image' => 'assets/images/incoloy/incoloy-020.jpeg'],
+                    ['name' => '825', 'slug' => 'incoloy-825', 'image' => 'assets/images/incoloy/incoloy-825.webp'],
+                    ['name' => '800', 'slug' => 'incoloy-800', 'image' => 'assets/images/incoloy/incoloy-800.webp'],
+                    ['name' => '925', 'slug' => 'incoloy-925', 'image' => 'assets/images/incoloy/incoloy-925.webp'],
+                    [
+                        'name' => '800H_800HT',
+                        'slug' => 'incoloy-800H-800HT',
+                        'image' => 'assets/images/incoloy/incoloy-800H_800HT.webp',
+                    ],
+                    ['name' => '020', 'slug' => 'incoloy-020', 'image' => 'assets/images/incoloy/incoloy-020.webp'],
                 ];
             @endphp
 
@@ -49,8 +53,8 @@
                                 style="border-color: #db7227; transition: 0.3s;">
                                 {{-- <img src="https://placehold.co/300x180/db7227/fff?text={{ urlencode($grade['name']) }}"
                                     alt="{{ $grade['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;"> --}}
-                                     <img src="{{ asset($grade['image']) }}"
-                                    alt="{{ $grade['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+                                <img src="{{ asset($grade['image']) }}" alt="{{ $grade['name'] }}"
+                                    class="img-fluid rounded mb-3" style="border-radius: 8px;">
                                 <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                     style="background-color: #174268; color: #fff; display: inline-block;">
                                     {{ $grade['name'] }}

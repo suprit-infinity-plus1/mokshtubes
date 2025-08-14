@@ -1,7 +1,12 @@
 @extends('layouts.master')
 @section('title', 'Copper Alloys | CU-NI, Brass, Bronze, Beryllium Copper | Mokshtubes')
 @section('meta_description',
-    'Find high-conductivity and corrosion-resistant copper-based alloys including 70/30 Cu-Ni, Brass, Aluminium Bronze, and C63000.')
+    'Premium copper alloys including CU-Ni, brass, bronze & beryllium copper offering excellent durability, conductivity,
+    and corrosion resistance.
+    ')
+    {{-- @section('meta_description',
+    'Find high-conductivity and corrosion-resistant copper-based alloys including 70/30 Cu-Ni,
+    Brass, Aluminium Bronze, and C63000.') --}}
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
@@ -26,19 +31,71 @@
 
             @php
                 $grades = [
-                    ['name' => 'Copper Alloys Aluminium Bronze', 'slug' => 'copper-alloys-aluminium-bronze','image' => 'assets/images/copper-alloys/copper alloys aluminium bronze.jpg'],
-                    ['name' => 'Copper Alloys Beryllium Copper', 'slug' => 'copper-alloys-beryllium-copper','image' => 'assets/images/copper-alloys/copper-alloys-beryllium-copper.jpeg'],
-                    ['name' => 'Copper Alloys C44300', 'slug' => 'copper-alloys-c44300','image' => 'assets/images/copper-alloys/copper-alloys-c44300.jpeg'],
-                    ['name' => 'Copper Alloys C46400', 'slug' => 'copper-alloys-c46400','image' => 'assets/images/copper-alloys/copper-alloys-c46400.jpg'],
-                    ['name' => 'Copper Alloys C63000', 'slug' => 'copper-alloys-c63000','image' => 'assets/images/copper-alloys/Copper Alloys C63000.jpg'],
-                    ['name' => 'Copper Alloys C71500', 'slug' => 'copper-alloys-c71500','image' => 'assets/images/copper-alloys/copper-alloys-c71500.jpeg'],
-                    ['name' => 'Copper Alloys C71520', 'slug' => 'copper-alloys-c71520','image' => 'assets/images/copper-alloys/copper-alloys-c71520.jpg'],
-                    ['name' => 'Copper Alloys Cartridge Brass', 'slug' => 'copper-alloys-cartridge-brass','image' => 'assets/images/copper-alloys/copper-alloys-cartridge-brass.jpg'],
-                    ['name' => 'Copper Alloys Cu Ni 70_30', 'slug' => 'copper-alloys-cu-ni-70_30','image' => 'assets/images/copper-alloys/copper-alloys-cu-ni-70_30.jpg'],
-                    ['name' => 'Copper Alloys Cu Ni-90_10', 'slug' => 'copper-alloys-cu-ni-90_10','image' => 'assets/images/copper-alloys/copper-alloys-cu-ni-90_10.jpg'],
-                    ['name' => 'Copper Alloys Ec Copper', 'slug' => 'copper-alloys-ec-copper','image' => 'assets/images/copper-alloys/copper-alloys-ec-copper.jpeg'],
-                    ['name' => 'Copper Alloys Etp Copper', 'slug' => 'copper-alloys-etp-copper','image' => 'assets/images/copper-alloys/copper-alloys-etp-copper.jpg'],
-                    ['name' => 'Copper Alloys Navel Brass', 'slug' => 'copper-alloys-navel-brass','image' => 'assets/images/copper-alloys/copper-alloys-navel-brass.jpeg'],
+                    [
+                        'name' => 'Copper Alloys Aluminium Bronze',
+                        'slug' => 'copper-alloys-aluminium-bronze',
+                        'image' => 'assets/images/copper-alloys/copper alloys aluminium bronze.webp',
+                    ],
+                    [
+                        'name' => 'Copper Alloys Beryllium Copper',
+                        'slug' => 'copper-alloys-beryllium-copper',
+                        'image' => 'assets/images/copper-alloys/copper-alloys-beryllium-copper.webp',
+                    ],
+                    [
+                        'name' => 'Copper Alloys C44300',
+                        'slug' => 'copper-alloys-c44300',
+                        'image' => 'assets/images/copper-alloys/copper-alloys-c44300.webp',
+                    ],
+                    [
+                        'name' => 'Copper Alloys C46400',
+                        'slug' => 'copper-alloys-c46400',
+                        'image' => 'assets/images/copper-alloys/copper-alloys-c46400.webp',
+                    ],
+                    [
+                        'name' => 'Copper Alloys C63000',
+                        'slug' => 'copper-alloys-c63000',
+                        'image' => 'assets/images/copper-alloys/Copper Alloys C63000.webp',
+                    ],
+                    [
+                        'name' => 'Copper Alloys C71500',
+                        'slug' => 'copper-alloys-c71500',
+                        'image' => 'assets/images/copper-alloys/copper-alloys-c71500.webp',
+                    ],
+                    [
+                        'name' => 'Copper Alloys C71520',
+                        'slug' => 'copper-alloys-c71520',
+                        'image' => 'assets/images/copper-alloys/copper-alloys-c71520.webp',
+                    ],
+                    [
+                        'name' => 'Copper Alloys Cartridge Brass',
+                        'slug' => 'copper-alloys-cartridge-brass',
+                        'image' => 'assets/images/copper-alloys/copper-alloys-cartridge-brass.webp',
+                    ],
+                    [
+                        'name' => 'Copper Alloys Cu Ni 70_30',
+                        'slug' => 'copper-alloys-cu-ni-70-30',
+                        'image' => 'assets/images/copper-alloys/copper-alloys-cu-ni-70_30.webp',
+                    ],
+                    [
+                        'name' => 'Copper Alloys Cu Ni-90_10',
+                        'slug' => 'copper-alloys-cu-ni-90-10',
+                        'image' => 'assets/images/copper-alloys/copper-alloys-cu-ni-90_10.webp',
+                    ],
+                    [
+                        'name' => 'Copper Alloys Ec Copper',
+                        'slug' => 'copper-alloys-ec-copper',
+                        'image' => 'assets/images/copper-alloys/copper-alloys-ec-copper.webp',
+                    ],
+                    [
+                        'name' => 'Copper Alloys Etp Copper',
+                        'slug' => 'copper-alloys-etp-copper',
+                        'image' => 'assets/images/copper-alloys/copper-alloys-etp-copper.webp',
+                    ],
+                    [
+                        'name' => 'Copper Alloys Navel Brass',
+                        'slug' => 'copper-alloys-navel-brass',
+                        'image' => 'assets/images/copper-alloys/copper-alloys-navel-brass.webp',
+                    ],
                 ];
             @endphp
 
@@ -53,8 +110,8 @@
                                 style="border-color: #db7227; transition: 0.3s;">
                                 {{-- <img src="https://placehold.co/300x180/db7227/fff?text={{ urlencode($grade['name']) }}"
                                     alt="{{ $grade['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;"> --}}
-                                     <img src="{{ asset($grade['image']) }}"
-                                    alt="{{ $grade['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+                                <img src="{{ asset($grade['image']) }}" alt="{{ $grade['name'] }}"
+                                    class="img-fluid rounded mb-3" style="border-radius: 8px;">
                                 <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                     style="background-color: #174268; color: #fff; display: inline-block;">
                                     {{ $grade['name'] }}

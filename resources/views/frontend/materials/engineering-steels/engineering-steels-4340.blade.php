@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Engineering Steels 4340 - Moksh Tubes & Fittings LLP')
+@section('meta_description','Ultra-high strength 4340 steel for aerospace, defense, and heavy-duty engineering.
+')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -28,7 +30,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/engineering-steels/engineering-steels-4340.jpg" alt="EN 4340"
+                    <img src="{{ asset('assets/images/engineering-steels/engineering-steels-4340.webp') }}" alt="EN 4340"
                         class="img-fluid rounded shadow-sm">
                 </div>
 

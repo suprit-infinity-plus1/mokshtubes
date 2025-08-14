@@ -5,6 +5,7 @@
 @section('meta_keywords', 'Aluminium Alloys, 6082, 6061, 5083, HE30, 7075, Aluminium 6082-T6, Aluminium 6061-T6, Lightweight Alloys, Corrosion Resistant Aluminium, Aerospace Aluminium Alloys, Marine Aluminium Alloys, Structural Aluminium Alloys, Industrial Aluminium Grades')
 @section('canonical', url()->current())
 
+
 @section('content')
 
     <!--Start breadcrumb area-->
@@ -33,18 +34,18 @@
                     [
                     'name' => 'aluminium alloys 6061 T6',
                     'slug' => 'aluminium-alloys-6061-T6',
-                    'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6061-T6.jpeg'
+                    'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp'
                     ],
 
-                    ['name' => 'aluminium alloys 1100', 'slug' => 'aluminium-alloys-1100', 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-1100.jpg'],
-                    ['name' => 'aluminium alloys 1200', 'slug' => 'aluminium-alloys-1200','image' => 'assets/images/aluminium-alloys/aluminium-alloys-1200.jpg'],
-                    ['name' => 'aluminium alloys 2014 T6', 'slug' => 'aluminium-alloys-2014-T6','image' => 'assets/images/aluminium-alloys/aluminium-alloys-2014-T6.jpeg'],
-                    ['name' => 'aluminium alloys 5083', 'slug' => 'aluminium-alloys-5083', 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.jpg'],
-                    ['name' => 'aluminium alloys 6012', 'slug' => 'aluminium-alloys-6012', 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.jpg'],
-                    ['name' => 'aluminium alloys 6063', 'slug' => 'aluminium-alloys-6063', 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.jpeg'],
-                    ['name' => 'aluminium alloys 6082 T6', 'slug' => 'aluminium-alloys-6082-T6', 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6082-T6.jpeg'],
-                    ['name' => 'aluminium alloys 7075', 'slug' => 'aluminium-alloys7075', 'image' => 'assets/images/aluminium-alloys/aluminium-alloys7075.jpg'],
-                    ['name' => 'aluminium alloys HE30', 'slug' => 'aluminium-alloys-HE30', 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-HE30.jpeg'],
+                    ['name' => 'aluminium alloys 1100', 'slug' => 'aluminium-alloys-1100', 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-1100.webp'],
+                    ['name' => 'aluminium alloys 1200', 'slug' => 'aluminium-alloys-1200','image' => 'assets/images/aluminium-alloys/aluminium-alloys-1200.webp'],
+                    ['name' => 'aluminium alloys 2014 T6', 'slug' => 'aluminium-alloys-2014-T6','image' => 'assets/images/aluminium-alloys/aluminium-alloys-2014-T6.webp'],
+                    ['name' => 'aluminium alloys 5083', 'slug' => 'aluminium-alloys-5083', 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.webp'],
+                    ['name' => 'aluminium alloys 6012', 'slug' => 'aluminium-alloys-6012', 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp'],
+                    ['name' => 'aluminium alloys 6063', 'slug' => 'aluminium-alloys-6063', 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp'],
+                    ['name' => 'aluminium alloys 6082 T6', 'slug' => 'aluminium-alloys-6082-T6', 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6082-T6.webp'],
+                    ['name' => 'aluminium alloys 7075', 'slug' => 'aluminium-alloys7075', 'image' => 'assets/images/aluminium-alloys/aluminium-alloys7075.webp'],
+                    ['name' => 'aluminium alloys HE30', 'slug' => 'aluminium-alloys-HE30', 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-HE30.webp'],
                 ];
             @endphp
 
@@ -59,8 +60,8 @@
                                 style="border-color: #db7227; transition: 0.3s;">
                                 {{-- <img src="https://placehold.co/300x180/db7227/fff?text={{ urlencode($grade['name']) }}"
                                     alt="{{ $grade['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;"> --}}
-                                     <img src="{{ asset($grade['image']) }}"
-                                    alt="{{ $grade['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+                                <img src="{{ asset($grade['image']) }}" alt="{{ $grade['name'] }}"
+                                    class="img-fluid rounded mb-3" style="border-radius: 8px;">
                                 <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                     style="background-color: #174268; color: #fff; display: inline-block;">
                                     {{ $grade['name'] }}

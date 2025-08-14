@@ -1,5 +1,19 @@
 @extends('layouts.master')
-@section('title', 'Products | Moksh Tubes')
+@section('title',
+    'Industrial Pipes & Tubes | Wide Range of Premium Products | Mokshtubes
+    ')
+@section('meta_description',
+    'Premium super austenitic stainless steels 904L, SMO 254 & Alloy 926 offering exceptional corrosion resistance and
+    durability in harsh conditions.
+    ')
+    {{-- @section('meta_description',
+    'Superior welded, seamless, U-bend & boiler tubes engineered for strength, precision, and long-lasting industrial
+    performance.
+    ') --}}
+    {{-- @section('meta_description',
+    'Browse Mokshtubes’ extensive range of premium industrial pipes and tubes designed for strength, reliability, and
+    superior performance in all sectors.
+    ') --}}
 @section('content')
     <!--Start breadcrumb area-->
 

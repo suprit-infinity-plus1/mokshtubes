@@ -1,6 +1,9 @@
 @extends('layouts.master')
 
-@section('title', 'Austenitic Stainless Steel Nitronic 50 - Moksh Tubes & Fittings LLP')
+@section('title', 'Austenitic Stainless Steel Nitronic 50 | High Strength SS')
+@section('meta_description', 'Nitronic 50 Stainless Steel pipes & fittings with excellent strength, corrosion resistance, and wear resistance for engineering applications.')
+@section('meta_keywords', 'Austenitic Stainless Steel Nitronic 50, Nitronic 50 Stainless Steel Pipes, Nitronic 50 Stainless Steel Tubes, Nitronic 50 Stainless Steel Fittings, High Strength Nitronic 50, Corrosion Resistant Nitronic 50, Wear Resistant Nitronic 50, Industrial Nitronic 50 Stainless Steel, Marine Grade Nitronic 50, Engineering Applications Nitronic 50')
+@section('canonical', url()->current())
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -28,7 +31,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/austenitic-stainless-steel/austenitic-stainless-steel-nitronic-50.jpg"alt="Austenitic Stainless Steel Nitronic 50"
+                    <img src="{{ asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-nitronic-50_9_11zon.webp') }}"alt="Austenitic Stainless Steel Nitronic 50"
                         class="img-fluid rounded shadow-sm">
                 </div>
 

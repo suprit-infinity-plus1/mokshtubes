@@ -1,12 +1,11 @@
-extends('layouts.master')
-@section('title', 'Incoloy 825 | Premium Corrosion-Resistant Nickel Alloy
-')
-@section('meta_description',
-    'Incoloy 825 delivers exceptional resistance to acids, alkalis, and oxidizing agents—making it a trusted choice for chemical and marine industries.
-')
+@extends('layouts.master')
+
+@section('title', 'Incoloy 825 | Premium Corrosion-Resistant Nickel Alloy')
+@section('meta_description', 'Incoloy 825 delivers exceptional resistance to acids, alkalis, and oxidizing agents—making it a trusted choice for chemical and marine industries.')
 @section('meta_keywords', 'Incoloy 825, nickel alloy, corrosion resistant alloy, premium metal alloys, moksh tubes')
 @section('canonical', 'https://mokshtubes.com')
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
@@ -31,7 +30,7 @@ extends('layouts.master')
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/incoloy/incoloy-825.jpeg" alt="Incoloy 825"
+                    <img src="{{ asset('assets/images/incoloy/incoloy-825.webp') }}" alt="Incoloy 825"
                         class="img-fluid rounded shadow-sm">
                 </div>
 

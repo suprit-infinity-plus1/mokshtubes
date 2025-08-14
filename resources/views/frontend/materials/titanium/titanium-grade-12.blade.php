@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Titanium Grade 12 - Moksh Tubes & Fittings LLP')
+@section('title', 'Titanium Grade 12')
+@section('meta_description','Corrosion-resistant Titanium Grade 12 with enhanced weldability for marine & chemical uses.
+')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -28,7 +30,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/titanium/titanium-grade2.jpg" alt="Titanium Grade 12"
+                    <img src="{{ asset('assets/images/titanium/titanium-grade2.webp') }}" alt="Titanium Grade 12"
                         class="img-fluid rounded shadow-sm">
                 </div>
 

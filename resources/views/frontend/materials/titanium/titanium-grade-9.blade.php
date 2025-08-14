@@ -1,9 +1,17 @@
 @extends('layouts.master')
 
+<<<<<<< HEAD
 @section('title', 'Titanium Grade 9 | Titanium Alloy with Excellent Strength')
 @section('meta_description', 'Buy Incoloy 825 — a premium corrosion-resistant nickel alloy ideal for chemical processing, marine, and oil & gas applications. High strength and durability guaranteed.')
 @section('meta_keywords', 'Incoloy 825, nickel alloy, corrosion resistant alloy, premium metal alloys, moksh tubes')
 @section('canonical', url()->current())
+=======
+@section('title', 'Titanium Grade 9')
+@section('meta_description', 'Lightweight Titanium Grade 9 (Ti-3Al-2.5V) with excellent corrosion resistance for marine & aerospace.
+')
+
+
+>>>>>>> fea365251b967b6f2239993370ab8890248a83c8
 
 @section('content')
 
@@ -32,7 +40,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/titanium/Titanium-9.jpeg" alt="Titanium Grade 9"
+                    <img src="{{ asset('assets/images/titanium/Titanium-9.webp') }}" alt="Titanium Grade 9"
                         class="img-fluid rounded shadow-sm">
                 </div>
 
@@ -63,7 +71,7 @@
                             Its composition, combining titanium with 3% aluminum and 2.5% vanadium, gives it excellent
                             resistance to seawater, oxidizing environments, and high-cycle fatigue. From aerospace tubing to
                             marine hardware and sports equipment,<strong class="text-black"> <a
-                                    href="{{ }}">Titanium Grade 9</a></strong>
+                                    href="{{ route('materials.titanium') }}">Titanium Grade 9</a></strong>
                             continues to be a material of choice for
                             mission-critical applications.
                         </p>

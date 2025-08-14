@@ -4,7 +4,6 @@
 @section('meta_description', 'High purity Aluminium 1200 with superior corrosion resistance and electrical conductivity.')
 @section('meta_keywords', 'Aluminium Alloy 1200, Pure Aluminium Grade, Aluminium 1200 Pipes, Aluminium 1200 Tubes, Aluminium 1200 Sheets, Corrosion Resistant Aluminium, High Purity Aluminium, Electrical Conductive Aluminium, Industrial Aluminium Grades, Commercial Aluminium Alloys')
 @section('canonical', url()->current())
-
 @section('content')
 
     <!--Start breadcrumb area-->
@@ -32,7 +31,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="/assets/images/aluminium-alloys/aluminium-alloys-1200.jpg" alt="Aluminium 1200"
+                    <img src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-1200.webp') }}" alt="Aluminium 1200"
                         class="img-fluid rounded shadow-sm">
                 </div>
 

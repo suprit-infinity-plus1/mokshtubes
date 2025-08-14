@@ -1,9 +1,15 @@
 @extends('layouts.master')
 
+<<<<<<< HEAD
 @section('title', 'AL-6XN | Superior Corrosion Resistant Alloy')
 @section('meta_description', 'AL-6XN pipes, tubes & fittings offer exceptional corrosion resistance in seawater, chemical, and food processing environments.')
 @section('meta_keywords', 'AL-6XN, Corrosion Resistant Alloy, AL-6XN Pipes, AL-6XN Tubes, AL-6XN Fittings, Seawater Resistant Alloy, Chemical Processing Alloys, Food Processing Alloys, High Strength Stainless Steel, Industrial Corrosion Resistant Alloys')
 @section('canonical', url()->current())
+=======
+@section('title', 'Super Austenitic Stainless Steel AL-6XN | Superior Corrosion & Chloride Resistance')
+@section('meta_description', 'A high-performance alloy engineered for extreme corrosion resistance in saltwater,
+    chemical, and food processing environments.')
+>>>>>>> fea365251b967b6f2239993370ab8890248a83c8
 
 @section('content')
 
@@ -32,7 +38,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="https://placehold.co/550x400?" alt="AL 6XN" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/super-austenitic-stainless-steel/super-austenitic-stainless-steel-AL-6XN.webp') }}" alt="AL 6XN" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
