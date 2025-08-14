@@ -3,7 +3,7 @@
 
 @section('meta_description', 'Need help with industrial alloys or custom metal solutions? Contact Mokshtubes LLP by phone, email, or visit — we’re here to help.')
 @section('meta_keywords', 'Mokshtubes Contact, Industrial Alloys Support, Custom Metal Solutions, Metal Alloys Supplier, Product Inquiries, Technical Assistance, High Performance Alloys, Alloy Supply Contact, Industrial Metal Solutions, Mokshtubes LLP')
-@section('canonical', 'https://blogs.com')
+{{-- @section('canonical', 'https://blogs.com') --}}
 @section('content')
 
     <!--Start rev slider wrapper-->
