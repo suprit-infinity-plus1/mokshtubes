@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
 
-       {{-- Dynamic Page Title --}}
+    {{-- Dynamic Page Title --}}
     <title>@yield('title', 'Mokshtubes')</title>
 
     {{-- Dynamic Meta Description --}}
-    <meta name="description" content="@yield('meta_description', 'Default meta description for Mokshtubes')">
+    <meta name="description" content="@yield('meta_description', 'Mokshtubes')">
 
     {{-- Dynamic Meta Keywords --}}
-    <meta name="keywords" content="@yield('meta_keywords', 'default, keywords, mokshtubes')">
+    <meta name="keywords" content="@yield('meta_keywords', 'mokshtubes')">
 
     {{-- Canonical Tag --}}
     <link rel="canonical" href="@yield('canonical', url()->current())">
@@ -348,7 +348,8 @@
                                         <li class="nav-item"><a class="nav-link" href="#">QUALITY</a></li>
                                         <li class="nav-item"><a class="nav-link"
                                                 href="{{ route('calculator') }}">CALCULATOR</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="{{ route('blogs') }}">Blogs</a></li>
+                                        <li class="nav-item"><a class="nav-link"
+                                                href="{{ route('blogs') }}">Blogs</a></li>
                                     </ul>
                                     <ul class="mobile-menu clearfix">
                                         <li><a href="{{ route('home') }}">Home</a></li>
