@@ -3,7 +3,7 @@
 @section('title', 'Copper Alloys EC Copper')
 @section('meta_description','EC grade copper with excellent conductivity & corrosion resistance for electrical, power & industrial applications.
 ')
-@section('canonical', url()->current())
+
 
 @section('content')
     <!--Start breadcrumb area-->

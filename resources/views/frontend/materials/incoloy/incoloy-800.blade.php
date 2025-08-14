@@ -3,7 +3,7 @@
 @section('title', 'Incoloy 800 | High-Temperature Strength & Oxidation Shield')
 @section('meta_description', 'Incoloy 800 offers remarkable stability and corrosion resistance at high heat—ideal for furnace equipment, heat exchangers, and industrial systems.')
 @section('meta_keywords', 'Incoloy 800, Incoloy 800 Pipes, Incoloy 800 Tubes, Incoloy 800 Fittings, Heat Resistant Incoloy 800, High Temperature Incoloy 800, Oxidation Resistant Incoloy 800, Furnace Equipment Incoloy 800, Heat Exchanger Incoloy 800, Industrial Incoloy 800 Alloy')
-@section('canonical', url()->current())
+
 
 @section('content')
     <!--Start breadcrumb area-->

@@ -3,7 +3,7 @@
 @section('title', 'Titanium Grade 4 | High Strength Titanium Alloy')
 @section('meta_description', 'High strength Titanium Grade 4 ideal for aerospace, marine, and chemical industries with great corrosion resistance.')
 @section('meta_keywords', 'Titanium Grade 4, High Strength Titanium, Corrosion Resistant Titanium, Titanium Grade 4 Pipes, Titanium Grade 4 Tubes, Titanium Grade 4 Sheets, Aerospace Titanium Alloys, Marine Industry Titanium, Chemical Processing Titanium, Industrial Titanium Grades')
-@section('canonical', url()->current())
+
 
 @section('content')
 

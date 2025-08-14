@@ -4,7 +4,7 @@
     'Premium copper alloys including CU-Ni, brass, bronze & beryllium copper offering excellent durability, conductivity,
     and corrosion resistance.
     ')
-@section('canonical', url()->current())
+
 
     {{-- @section('meta_description',
     'Find high-conductivity and corrosion-resistant copper-based alloys including 70/30 Cu-Ni,

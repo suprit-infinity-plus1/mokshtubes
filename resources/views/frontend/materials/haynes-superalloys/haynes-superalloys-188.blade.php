@@ -3,7 +3,7 @@
 @section('title', 'Haynes Superalloys 188')
 @section('meta_description','Premium Haynes Alloy 188 with superior oxidation resistance at high temperatures. Ideal for aerospace and gas turbines.
 ')
-@section('canonical', url()->current())
+
 
 @section('content')
     <!--Start breadcrumb area-->

@@ -4,7 +4,7 @@
 @section('meta_description',
     'Discover key industrial piping trends for 2025, including global market forecasts,
     stainless steel innovations, and sustainability-focused solutions.')
-@section('canonical', url()->current())
+
 
 
 @section('content')

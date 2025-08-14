@@ -3,7 +3,7 @@
 @section('title', 'Copper Alloys ETP Copper')
 @section('meta_description','ETP grade copper with superior electrical conductivity for wiring, transformers, busbars & industrial components.
 ')
-@section('canonical', url()->current())
+
 
 @section('content')
     <!--Start breadcrumb area-->

@@ -3,7 +3,7 @@
 @section('title', 'Inconel Alloys | High-Performance Nickel Alloys | Mokshtubes')
 @section('meta_description', 'Explore Inconel alloys like 600, 625, 718 & X-750, offering high-temperature strength, corrosion resistance & durability in extreme conditions.')
 @section('meta_keywords', 'nconel Alloys, Inconel 600, Inconel 625, Inconel 718, Inconel X-750, Nickel Alloys, High-Performance Nickel Alloys, Corrosion Resistant Alloys, High Temperature Alloys, Mokshtubes Inconel.')
-@section('canonical', url()->current())
+
 
 @section('content')
 

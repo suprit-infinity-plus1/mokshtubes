@@ -3,7 +3,7 @@
 @section('title', 'Aluminium Bronze Alloys')
 @section('meta_description','High-strength aluminium bronze alloys with excellent corrosion resistance for marine, aerospace & industrial applications.
 ')
-@section('canonical', url()->current())
+
 
 @section('content')
     <!--Start breadcrumb area-->

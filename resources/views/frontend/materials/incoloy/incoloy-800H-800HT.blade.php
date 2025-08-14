@@ -3,7 +3,7 @@
 @section('title', 'Incoloy 800H and 800HT | Enhanced Heat-Resistant Alloy')
 @section('meta_description', 'With superior creep and rupture strength, Incoloy 800H and 800HT thrives in petrochemical, heat treatment, and power generation applications.')
 @section('meta_keywords', 'Incoloy 800H, Incoloy 800HT, Incoloy 800H Pipes, Incoloy 800HT Pipes, Incoloy 800H Tubes, Incoloy 800HT Tubes, Incoloy 800H Fittings, Incoloy 800HT Fittings, Heat Resistant Incoloy 800H, Heat Resistant Incoloy 800HT, High Temperature Incoloy 800H, High Temperature Incoloy 800HT, Creep Resistant Incoloy 800H, Creep Resistant Incoloy 800HT, Petrochemical Incoloy 800H, Power Generation Incoloy 800HT')
-@section('canonical', url()->current())
+{{--   --}}
 
 @section('content')
     <!--Start breadcrumb area-->

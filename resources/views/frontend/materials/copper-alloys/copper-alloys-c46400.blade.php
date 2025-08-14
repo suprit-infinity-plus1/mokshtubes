@@ -3,7 +3,7 @@
 @section('title', 'Copper C46400 Naval Brass - Moksh Tubes & Fittings LLP')
 @section('meta_description','High-strength C46400 naval brass with excellent corrosion resistance for marine, pump & architectural hardware use.
 ')
-@section('canonical', url()->current())
+
 
 @section('content')
     <!--Start breadcrumb area-->

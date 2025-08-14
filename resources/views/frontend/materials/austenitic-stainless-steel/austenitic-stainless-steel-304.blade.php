@@ -3,7 +3,7 @@
 @section('title', 'Austenitic Stainless Steel 304 | Premium Quality SS')
 @section('meta_description', 'High-grade Austenitic Stainless Steel 304 pipes & fittings with excellent corrosion resistance.')
 @section('meta_keywords', 'Austenitic Stainless Steel 304, Stainless Steel 304 Pipes, Stainless Steel 304 Tubes, Stainless Steel 304 Fittings, Corrosion Resistant Stainless Steel 304, Premium Quality Stainless Steel, Industrial Stainless Steel 304, Marine Grade Stainless Steel 304, Chemical Processing Stainless Steel 304, High Strength Stainless Steel 304')
-@section('canonical', url()->current())
+
 
 @section('content')
     <!--Start breadcrumb area-->

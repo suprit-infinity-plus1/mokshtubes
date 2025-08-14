@@ -3,7 +3,7 @@
 @section('title', 'Hastelloy C-22 | Superior All-Around Corrosion-Resistant Alloy')
 @section('meta_description', 'Hastelloy C-22 pipes, tubes & fittings with unmatched resistance to oxidizing and reducing agents, exceptional protection against pitting, crevice corrosion, and stress corrosion — ideal for harsh chemical and industrial environments.')
 @section('meta_keywords', 'Hastelloy C-22, Hastelloy C22, Corrosion Resistant Alloy, Hastelloy C22 Pipes, Hastelloy C22 Tubes, Hastelloy C22 Fittings, Pitting Resistant Alloy, Crevice Corrosion Resistant, Stress Corrosion Resistant, Chemical Processing Alloys, Industrial Corrosion Resistant Alloys, Durable Nickel Alloys')
-@section('canonical', url()->current())
+
 
 @section('content')
 

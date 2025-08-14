@@ -3,7 +3,7 @@
 @section('title', 'Incoloy Alloys | Corrosion & Heat Resistant Grades | Mokshtubes')
 @section('meta_description','Advanced Incoloy alloys providing excellent corrosion and heat resistance for critical chemical, power, and industrial applications.')
 @section('meta_keywords', 'Incoloy Alloys, Corrosion Resistant Incoloy, Heat Resistant Incoloy, Incoloy Pipes, Incoloy Tubes, Incoloy Fittings, Chemical Industry Incoloy, Power Industry Incoloy, Industrial Incoloy Alloys, High Performance Incoloy, Industrial Heat Resistant Alloys')
-@section('canonical', url()->current())
+
 
 @section('content')
 

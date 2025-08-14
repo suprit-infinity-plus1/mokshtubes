@@ -4,7 +4,7 @@
 @section('meta_description',
     'Avoid costly errors when buying stainless steel pipes. Learn about grades, suppliers,
     standards, and more to ensure quality and performance.')
-@section('canonical', url()->current())
+
 
 
 @section('content')

@@ -3,7 +3,7 @@
 @section('title', 'Tantalum')
 @section('meta_description','High-purity tantalum alloys for chemical processing, aerospace, and electronics industries. Exceptional corrosion resistance.
 ')
-@section('canonical', url()->current())
+
 
 @section('content')
     <!--Start breadcrumb area-->

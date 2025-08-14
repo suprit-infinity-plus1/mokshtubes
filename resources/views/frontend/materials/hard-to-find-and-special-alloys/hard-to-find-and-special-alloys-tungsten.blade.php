@@ -3,7 +3,7 @@
 @section('title', 'Tungsten')
 @section('meta_description','Strong and dense tungsten alloys for aerospace, defense, and industrial applications. Superior strength and heat resistance.
 ')
-@section('canonical', url()->current())
+
 
 @section('content')
     <!--Start breadcrumb area-->

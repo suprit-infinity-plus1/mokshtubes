@@ -4,7 +4,7 @@
 @section('meta_description',
     ' Discover how Moksh Tubes serves 30+ countries as a trusted stainless steel exporter.
     High-quality Mumbai pipe fittings & global distribution guaranteed!')
-@section('canonical', url()->current())
+
 
 @section('content')
     <!--Start breadcrumb area-->

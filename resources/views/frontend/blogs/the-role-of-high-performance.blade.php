@@ -4,7 +4,7 @@
 @section('meta_description',
     'Learn how high-performance alloys like SMO 254 stainless steel boost durability and
     efficiency in desalination plants while resisting seawater corrosion.')
-@section('canonical', url()->current())
+
 
 @section('content')
     <!--Start breadcrumb area-->

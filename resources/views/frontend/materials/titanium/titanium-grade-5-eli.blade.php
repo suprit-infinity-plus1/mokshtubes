@@ -3,7 +3,7 @@
 @section('title', 'Titanium Grade 5 ELI | Extra Low Interstitial Aerospace Titanium Alloy')
 @section('meta_description', 'Extra pure Titanium Grade 5 ELI for medical implants and high-performance aerospace applications.')
 @section('meta_keywords', 'Titanium Grade 5 ELI, Extra Low Interstitial Titanium, Aerospace Grade Titanium, Medical Implant Titanium, Titanium Grade 5 ELI Pipes, Titanium Grade 5 ELI Tubes, High Performance Titanium, Corrosion Resistant Titanium, Medical Titanium Alloys, Industrial Titanium Grades')
-@section('canonical', url()->current())
+
 
 @section('content')
 

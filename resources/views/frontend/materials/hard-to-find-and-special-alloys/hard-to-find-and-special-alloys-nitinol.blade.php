@@ -3,7 +3,7 @@
 @section('title', 'NITINOL')
 @section('meta_description','Premium Nitinol shape memory alloys for medical devices, aerospace, and industrial applications. Precision-made and corrosion-resistant.
 ')
-@section('canonical', url()->current())
+
 
 @section('content')
     <!--Start breadcrumb area-->

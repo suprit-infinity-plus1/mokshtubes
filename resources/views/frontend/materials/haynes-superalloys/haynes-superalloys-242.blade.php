@@ -3,7 +3,7 @@
 @section('title', 'Haynes Superalloys 242')
 @section('meta_description','Haynes Alloy 242 with excellent oxidation, thermal stability, and corrosion resistance for demanding environments.
 ')
-@section('canonical', url()->current())
+
 
 @section('content')
     <!--Start breadcrumb area-->

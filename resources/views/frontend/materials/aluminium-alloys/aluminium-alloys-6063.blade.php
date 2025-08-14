@@ -3,7 +3,7 @@
 @section('title', 'Aluminium Alloy 6063 | Architectural Grade Aluminium')
 @section('meta_description', 'Architectural-grade Aluminium 6063 known for excellent surface finish and corrosion resistance.')
 @section('meta_keywords', 'Aluminium Alloy 6063, Architectural Grade Aluminium, Aluminium 6063 Pipes, Aluminium 6063 Tubes, Aluminium 6063 Sheets, Corrosion Resistant Aluminium, Excellent Surface Finish Aluminium, Architectural Aluminium Alloys, Structural Aluminium, Industrial Aluminium Grades')
-@section('canonical', url()->current())
+
 
 @section('content')
 

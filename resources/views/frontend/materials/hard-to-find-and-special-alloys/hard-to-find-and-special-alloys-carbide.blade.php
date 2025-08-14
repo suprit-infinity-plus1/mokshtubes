@@ -3,7 +3,7 @@
 @section('title', 'Carbide Alloys')
 @section('meta_description','High-performance carbide alloys for wear resistance and precision engineering applications. Available in custom grades and sizes.
 ')
-@section('canonical', url()->current())
+
 
 @section('content')
     <!--Start breadcrumb area-->

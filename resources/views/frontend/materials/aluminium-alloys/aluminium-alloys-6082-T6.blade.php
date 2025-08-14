@@ -3,7 +3,7 @@
 @section('title', 'Aluminium Alloy 6082 T6 | Structural Grade Aluminium')
 @section('meta_description', 'Strong and corrosion resistant Aluminium 6082 T6 ideal for structural and transport applications.')
 @section('meta_keywords', 'Aluminium Alloy 6082 T6, Structural Grade Aluminium, Aluminium 6082 T6 Pipes, Aluminium 6082 T6 Tubes, Aluminium 6082 T6 Sheets, High Strength Aluminium, Corrosion Resistant Aluminium, Structural Aluminium Alloys, Transport Industry Aluminium, Industrial Aluminium Grades')
-@section('canonical', url()->current())
+
 
 @section('content')
 

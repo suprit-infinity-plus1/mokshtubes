@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title', 'Stainless Steel vs Inconel Tubes - Moksh Tubes & Fittings LLP')
-@section('canonical', url()->current())
+
 
 @section('content')
     <!--Start breadcrumb area-->
