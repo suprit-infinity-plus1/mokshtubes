@@ -1,14 +1,11 @@
 @extends('layouts.master')
 @section('title', 'About Mokshtubes | Expertise in High-Performance Alloys & Industrial Solutions')
-@section('meta_description',
-    'Mokshtubes is your trusted partner for hard-to-find metal alloys, delivering premium quality, reliable supply, and
-    expert support for all industrial needs.
-    ')
-    {{-- @section('meta_description',
-    'Learn about Mokshtubes Fittings & LLP – our vision, experience, and commitment to delivering top-quality materials and
-    custom-engineered metal solutions across global industries.') --}}
+@section('meta_description','Mokshtubes is your trusted partner for hard-to-find metal alloys, delivering premium quality, reliable supply, and expert support for all industrial needs.')
+@section('meta_keywords', 'Mokshtubes, Metal Alloys Supplier, High Performance Alloys, Industrial Metal Solutions, Hard-to-Find Alloys, Premium Quality Alloys, Reliable Alloy Supply, Industrial Alloy Support, Metal Tubes and Fittings, Engineering Alloys Supplier')
+
 @section('canonical', 'https://mokshtubes.com/about-us')
 @section('content')
+
     <!--Start breadcrumb area-->
 
 
@@ -431,7 +428,7 @@
                                                                                                     <div class="content">
                                                                                                         <span class="fa fa-quote-left"></span>
                                                                                                         <p>Lorem ipsum dolor sit amet ment tionim sea. Ei explicari evertitur uptatum vi core
-                                                                                                            zupitor inciderint reforin alienum</p>
+                                                                                                            zupitor inciderint reforin aluminium</p>
 
                                                                                                         <ul class="rating">
                                                                                                             <li class="fa fa-star"></li>
@@ -457,7 +454,7 @@
                                                                                                     <div class="content">
                                                                                                         <span class="fa fa-quote-left"></span>
                                                                                                         <p>Lorem ipsum dolor sit amet ment tionim sea. Ei explicari evertitur uptatum vi core
-                                                                                                            zupitor inciderint reforin alienum</p>
+                                                                                                            zupitor inciderint reforin aluminium</p>
 
                                                                                                         <ul class="rating">
                                                                                                             <li class="fa fa-star"></li>
@@ -483,7 +480,7 @@
                                                                                                     <div class="content">
                                                                                                         <span class="fa fa-quote-left"></span>
                                                                                                         <p>Lorem ipsum dolor sit amet ment tionim sea. Ei explicari evertitur uptatum vi core
-                                                                                                            zupitor inciderint reforin alienum</p>
+                                                                                                            zupitor inciderint reforin aluminium</p>
 
                                                                                                         <ul class="rating">
                                                                                                             <li class="fa fa-star"></li>
@@ -550,7 +547,7 @@
                             </figure>
                             <div class="member-info">
                                 <a href="#">
-                                    <h5>ben Afflick</h5>
+                                    <h5>Ben Afflin</h5>
                                 </a>
                                 <p>President</p>
                             </div>

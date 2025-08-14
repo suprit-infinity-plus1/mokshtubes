@@ -1,19 +1,11 @@
 @extends('layouts.master')
+
 @section('title', 'Mokshtubes | High-Performance Metal Alloys & Industrial Products')
-@section('meta_description',
-    'Mokshtubes provides premium metal alloys and industrial solutions with excellent durability, reliability, and expert
-    support for diverse industries.
-    ')
-    {{-- @section('meta_description',
-    'Reach out to Mokshtubes Fittings & LLP for product inquiries, technical support, or custom alloy requirements. Call,
-<<<<<<< HEAD
-    email, or visit us — we’re happy to assist you.')
-    @section('meta_keywords', 'Incoloy 825, nickel alloy, corrosion resistant alloy, premium metal alloys, moksh tubes')
-=======
-    email, or visit us — we’re happy to assist you.') --}}
->>>>>>> fea365251b967b6f2239993370ab8890248a83c8
+@section('meta_description','Mokshtubes provides premium metal alloys and industrial solutions with excellent durability, reliability, and expertsupport for diverse industries. ')
+@section('meta_keywords', 'Incoloy 825, nickel alloy, corrosion resistant alloy, premium metal alloys, moksh tubes')
 @section('canonical', 'https://mokshtubes.com')
 @section('content')
+
     <!--Start rev slider wrapper-->
     <section class="rev_slider_wrapper">
         <div id="slider1" class="rev_slider" data-version="5.0">
