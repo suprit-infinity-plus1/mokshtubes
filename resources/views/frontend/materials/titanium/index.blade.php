@@ -6,8 +6,11 @@
     ')
     {{-- @section('meta_description',
     'Browse Titanium Grades 2, 5, 7, 9 & more – known for low weight, high strength, and
-    corrosion resistance in medical, aerospace, and marine sectors.') --}}
+    corrosion resistance in medical, aerospace, and marine sectors.')
+@section('meta_keywords', 'Titanium Alloys, Titanium Grade 2, Titanium Grade 5, Titanium Grade 7, Titanium Grade 9, Lightweight Titanium, High Strength Titanium, Corrosion Resistant Titanium, Medical Industry Titanium, Aerospace Titanium Alloys, Marine Titanium Alloys, Industrial Titanium Grades')
+
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

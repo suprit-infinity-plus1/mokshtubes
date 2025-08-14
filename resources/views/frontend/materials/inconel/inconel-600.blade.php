@@ -1,8 +1,12 @@
 @extends('layouts.master')
 
-@section('title', 'Inconel 600 | Premium Heat & Corrosion-Resistant Alloy')
-@section('meta_description', 'Inconel 600 delivers excellent oxidation and corrosion resistance at high temperatures,
-    making it ideal for heat exchangers, furnace components, and chemical processing equipment.')
+@section('title', 'Inconel 600 | Premium Heat & Corrosion Shield
+')
+@section('meta_description', 'Inconel 600 delivers exceptional oxidation and corrosion resistance at high temperatures—ideal for heat exchangers, furnaces, and chemical plants.
+')
+@section('meta_keywords', 'Inconel 600, Premium Heat Resistant Alloy, Corrosion Resistant Alloy, Oxidation Resistant Alloy, Nickel Alloys, Heat Exchanger Alloys, Furnace Alloys, Chemical Plant Alloys, High Temperature Alloys, Industrial Heat Resistant Alloys')
+@section('canonical', url()->current())
+
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">

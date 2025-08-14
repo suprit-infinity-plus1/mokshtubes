@@ -1,10 +1,12 @@
 @extends('layouts.master')
 
-@section('title', 'Aluminium 6061-T6')
-@section('meta_description','High-strength Aluminium 6061 T6 sheets, plates, and tubes for aerospace, marine & structural applications.
-')
+@section('title', 'Aluminium Alloy 6061 T6 | High Strength Aluminium')
+@section('meta_description', 'Aluminium 6061 T6 with excellent strength, corrosion resistance, and weldability for structural applications.')
+@section('meta_keywords', 'Aluminium Alloy 6061 T6, High Strength Aluminium, Aluminium 6061 T6 Pipes, Aluminium 6061 T6 Tubes, Aluminium 6061 T6 Sheets, Corrosion Resistant Aluminium, Weldable Aluminium Alloy, Structural Aluminium Alloys, Aerospace Aluminium, Industrial Aluminium Grades')
+@section('canonical', url()->current())
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

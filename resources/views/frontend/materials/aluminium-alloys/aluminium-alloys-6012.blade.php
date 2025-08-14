@@ -1,10 +1,12 @@
 @extends('layouts.master')
 
-@section('title', 'Aluminium 6012')
-@section('meta_description','Aluminium 6012 alloy rods, bars & tubes for high-machinability engineering & automotive applications.
-')
+@section('title', 'Aluminium Alloy 6012 | Heat Treatable Aluminium')
+@section('meta_description', 'Heat treatable Aluminium 6012 with good corrosion resistance and strength for automotive and structural uses.')
+@section('meta_keywords', 'Aluminium Alloy 6012, Heat Treatable Aluminium, Aluminium 6012 Pipes, Aluminium 6012 Tubes, Aluminium 6012 Sheets, Corrosion Resistant Aluminium, High Strength Aluminium, Automotive Aluminium Alloys, Structural Aluminium Alloys, Industrial Aluminium Grades')
+@section('canonical', url()->current())
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

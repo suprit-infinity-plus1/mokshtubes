@@ -1,8 +1,13 @@
 @extends('layouts.master')
 
-@section('title', 'Inconel X-750 | Extreme Temperature & Oxidation Resistant Alloy')
-@section('meta_description', 'Designed for springs, fasteners, and gas turbines, Inconel X-750 maintains strength and
-    stability even in extreme heat conditions.')
+@section('title', 'Inconel X-750 | Extreme Heat & Oxidation Defender
+')
+@section('meta_description', 'Inconel X-750 maintains strength and stability in extreme heat—perfect for springs, fasteners, and high-performance gas turbines.
+')
+@section('meta_keywords', 'Inconel X-750, Extreme Heat Alloys, Oxidation Resistant Alloys, High Temperature Alloys, Nickel Alloys, Corrosion Resistant Alloys, Inconel Springs, Inconel Fasteners, High-Performance Gas Turbine Alloys')
+@section('canonical', url()->current())
+
+
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">

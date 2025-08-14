@@ -1,8 +1,9 @@
 @extends('layouts.master')
 @section('title', 'Inconel Alloys | High-Performance Nickel Alloys | Mokshtubes')
-@section('meta_description',
-    'Discover top Inconel grades like 600, 625, 718, and X-750. Known for high-temperature
-    strength, oxidation resistance, and performance in extreme environments.')
+@section('meta_description', 'Explore Inconel alloys like 600, 625, 718 & X-750, offering high-temperature strength, corrosion resistance & durability in extreme conditions.')
+@section('meta_keywords', 'nconel Alloys, Inconel 600, Inconel 625, Inconel 718, Inconel X-750, Nickel Alloys, High-Performance Nickel Alloys, Corrosion Resistant Alloys, High Temperature Alloys, Mokshtubes Inconel.')
+@section('canonical', url()->current())
+
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">

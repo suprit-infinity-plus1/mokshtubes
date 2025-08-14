@@ -1,10 +1,12 @@
 @extends('layouts.master')
 
-@section('title', 'Inconel 617 | High-Strength Heat & Corrosion Resistant Alloy')
-@section('meta_description', 'Inconel 617 offers exceptional strength, oxidation, and corrosion resistance at high
-    temperatures. Ideal for chemical, power, and aerospace industries.')
+@section('title', 'Inconel 617 | High-Temperature & Corrosion-Resistant Alloy')
+@section('meta_description', 'Inconel 617 offers exceptional strength, oxidation, and corrosion resistance at high temperatures—ideal for gas turbines, chemical processing, and petrochemical applications.')
+@section('meta_keywords', 'Inconel 617, High-Temperature Alloy, Corrosion Resistant Alloy, Oxidation Resistant Alloy, Nickel Alloys, Gas Turbine Alloys, Chemical Processing Alloys, Petrochemical Industry Alloys, Heat Resistant Alloys, High Strength Alloys')
+@section('canonical', url()->current())
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

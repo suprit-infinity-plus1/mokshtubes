@@ -1,9 +1,11 @@
-@extends('layouts.master')
-
-@section('title', 'Incoloy 825 | Premium Corrosion-Resistant Nickel-Iron-Chromium Alloy')
-@section('meta_description', 'Incoloy 825 delivers exceptional resistance to acids, alkalis, and oxidizing agents,
-    making it a top choice for chemical processing and marine industries.')
-
+extends('layouts.master')
+@section('title', 'Incoloy 825 | Premium Corrosion-Resistant Nickel Alloy
+')
+@section('meta_description',
+    'Incoloy 825 delivers exceptional resistance to acids, alkalis, and oxidizing agents—making it a trusted choice for chemical and marine industries.
+')
+@section('meta_keywords', 'Incoloy 825, nickel alloy, corrosion resistant alloy, premium metal alloys, moksh tubes')
+@section('canonical', 'https://mokshtubes.com')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">

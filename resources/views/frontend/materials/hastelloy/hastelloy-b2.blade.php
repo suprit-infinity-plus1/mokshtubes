@@ -1,10 +1,12 @@
 @extends('layouts.master')
 
-@section('title', 'Hastelloy B-2 | Premium Hydrochloric Acid Resistant Alloy')
-@section('meta_description', 'Offering outstanding resistance to hydrochloric acid at all concentrations, Hastelloy B-2
-    is perfect for aggressive chemical process applications.')
+@section('title', 'Hastelloy B2 | Acid-Resistant Nickel Alloy')
+@section('meta_description', 'Hastelloy B2 pipes, tubes & fittings with top resistance to reducing acids like HCl and H₂SO₄, ideal for harsh chemical processing industries.')
+@section('meta_keywords', 'Hastelloy B2, Acid Resistant Nickel Alloy, Corrosion Resistant Alloy, Hastelloy B2 Pipes, Hastelloy B2 Tubes, Hastelloy B2 Fittings, Hydrochloric Acid Resistant, Sulfuric Acid Resistant, Chemical Processing Alloys, Industrial Corrosion Resistant Alloys')
+@section('canonical', url()->current())
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

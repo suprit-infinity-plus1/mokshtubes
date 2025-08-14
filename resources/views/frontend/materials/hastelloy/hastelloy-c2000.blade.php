@@ -1,10 +1,12 @@
 @extends('layouts.master')
 
-@section('title', 'Hastelloy C-2000 | Advanced Alloy for Mixed Acid Environments')
-@section('meta_description', 'With exceptional versatility, Hastelloy C-2000 handles both oxidizing and reducing acids,
-    ensuring long-lasting equipment life.')
+@section('title', 'Hastelloy C2000 | Versatile Corrosion Alloy')
+@section('meta_description', 'Hastelloy C2000 pipes, tubes & fittings with top resistance to oxidizing and reducing agents, ideal for mixed-acid chemical processing.')
+@section('meta_keywords', 'Hastelloy C2000, Corrosion Resistant Alloy, Hastelloy C2000 Pipes, Hastelloy C2000 Tubes, Hastelloy C2000 Fittings, Oxidizing Agent Resistant, Reducing Agent Resistant, Chemical Processing Alloys, Mixed-Acid Resistant Alloy, Industrial Corrosion Alloys')
+@section('canonical', url()->current())
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

@@ -1,10 +1,12 @@
 @extends('layouts.master')
 
-@section('title', 'Aluminium 1200')
-@section('meta_description','Aluminium 1200 alloy with high corrosion resistance, formability & thermal conductivity for multiple industries.
-')
+@section('title', 'Aluminium Alloy 1200 | Pure Aluminium Grade')
+@section('meta_description', 'High purity Aluminium 1200 with superior corrosion resistance and electrical conductivity.')
+@section('meta_keywords', 'Aluminium Alloy 1200, Pure Aluminium Grade, Aluminium 1200 Pipes, Aluminium 1200 Tubes, Aluminium 1200 Sheets, Corrosion Resistant Aluminium, High Purity Aluminium, Electrical Conductive Aluminium, Industrial Aluminium Grades, Commercial Aluminium Alloys')
+@section('canonical', url()->current())
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

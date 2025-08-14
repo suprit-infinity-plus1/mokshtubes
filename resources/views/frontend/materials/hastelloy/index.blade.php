@@ -1,13 +1,11 @@
 @extends('layouts.master')
-@section('title', 'Hastelloy Alloys | Grades, Properties & Applications | Mokshtubes')
-@section('meta_description',
-    'Reliable Hastelloy alloys with exceptional corrosion and heat resistance, perfect for harsh chemical, marine, and
-    aerospace industries.
-    ')
-    {{-- @section('meta_description',
-    'Explore the full range of Hastelloy alloys including C276, C22, B2, and G30. Ideal for
-    corrosion resistance in chemical, marine, and power plant industries.') --}}
+
+@section('meta_title', 'Hastelloy Alloys | Grades, Properties & Applications | Mokshtubes')
+@section('meta_description', 'Explore Hastelloy alloys C276, C22, B2, and G30 with excellent corrosion resistance for chemical, marine, and power industries.')
+@section('meta_keywords', 'Hastelloy, Hastelloy Alloys, C276, C22, B2, G30, Corrosion Resistant Alloys, Chemical Industry Alloys, Marine Industry Alloys, Power Plant Alloys')
+@section('canonical', url()->current())
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

@@ -1,13 +1,12 @@
 @extends('layouts.master')
+
 @section('title', 'Aluminium Alloys | 6082, 6061, 5083, HE30 Grades | Mokshtubes')
-@section('meta_description',
-    'High-quality aluminium alloys 6082, 6061, 5083 & HE30, delivering superior strength, corrosion resistance, and
-    versatility across industries.
-    ')
-    {{-- @section('meta_description',
-    'Lightweight and corrosion-resistant aluminium grades like 6082-T6, 6061-T6, 7075, and HE30 for aerospace, marine, and
-    structural applications.') --}}
+@section('meta_description', 'Lightweight and corrosion-resistant aluminium grades like 6082-T6, 6061-T6, 7075, and HE30 for aerospace, marine, and structural applications.')
+@section('meta_keywords', 'Aluminium Alloys, 6082, 6061, 5083, HE30, 7075, Aluminium 6082-T6, Aluminium 6061-T6, Lightweight Alloys, Corrosion Resistant Aluminium, Aerospace Aluminium Alloys, Marine Aluminium Alloys, Structural Aluminium Alloys, Industrial Aluminium Grades')
+@section('canonical', url()->current())
+
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

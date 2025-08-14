@@ -1,10 +1,12 @@
 @extends('layouts.master')
 
-@section('title', 'Titanium Grade 1')
-@section('meta_description', 'High-purity Titanium Grade 1 with excellent corrosion resistance for chemical, marine &
-    aerospace industries.')
+@section('title', 'Titanium Grade 1 | Commercially Pure Titanium')
+@section('meta_description', 'Titanium Grade 1 with excellent corrosion resistance, ductility, and weldability for chemical and marine use.')
+@section('meta_keywords', 'Titanium Grade 1, Commercially Pure Titanium, Corrosion Resistant Titanium, Titanium Grade 1 Pipes, Titanium Grade 1 Tubes, Titanium Grade 1 Sheets, Marine Industry Titanium, Chemical Processing Titanium, Weldable Titanium Alloy, Industrial Titanium Grades')
+@section('canonical', url()->current())
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

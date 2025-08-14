@@ -1,10 +1,12 @@
 @extends('layouts.master')
 
-@section('title', 'Monel K-500 | High-Strength Corrosion-Resistant Nickel Alloy')
-@section('meta_description', 'Monel K-500 combines exceptional corrosion resistance with superior strength, making it
-    ideal for marine, chemical, and oil & gas applications.')
+@section('title', 'Monel K500 Alloy | Ultimate Strength & Shield')
+@section('meta_description', 'Discover the extreme strength and corrosion resistance of Monel K500—engineered for top performance in marine, chemical, and oilfield environments.')
+@section('meta_keywords', 'Monel K500, Monel K500 Alloy, Nickel-Copper Alloy, High Strength Alloy, Corrosion Resistant Alloy, Marine Industry Alloys, Chemical Processing Alloys, Oilfield Alloys, Impact Resistant Alloys, Durable Nickel Alloys')
+@section('canonical', url()->current())
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

@@ -1,8 +1,7 @@
 @extends('layouts.master')
 
-@section('title', 'Austenitic Stainless Steel 304')
-@section('meta_description', 'High-quality SS 304 with excellent corrosion resistance for industrial & architectural
-    applications.')
+@section('title', 'Superior Austenitic Stainless Steel 304 | Tubes & Fittings')
+@section('meta-description', 'Moksh Tubes & Fittings LLP supplies high-quality Austenitic Stainless Steel 304 pipes, tubes & fittings for industrial, marine & chemical applications.')
 
 @section('content')
     <!--Start breadcrumb area-->

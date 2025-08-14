@@ -1,10 +1,12 @@
 @extends('layouts.master')
 
-@section('title', 'Super Austenitic Stainless Steel 904L | Premium Corrosion Resistance in Harsh Chemicals')
-@section('meta_description', 'Non-stabilized, low-carbon alloy with high chromium, nickel, and molybdenum, perfect for
-    sulfuric and phosphoric acid handling.')
+@section('title', '904L Stainless | Premium Corrosion Resistant')
+@section('meta_description', '904L stainless steel pipes, tubes & fittings provide superior corrosion resistance for chemical, marine, and pharmaceutical industries.')
+@section('meta_keywords', '904L Stainless Steel, Corrosion Resistant Alloy, 904L Pipes, 904L Tubes, 904L Fittings, Chemical Industry Alloys, Marine Industry Alloys, Pharmaceutical Industry Alloys, High Strength Stainless Steel, Industrial Corrosion Resistant Alloys')
+@section('canonical', url()->current())
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

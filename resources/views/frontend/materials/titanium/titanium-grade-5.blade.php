@@ -1,9 +1,12 @@
 @extends('layouts.master')
 
-@section('title', 'Titanium Grade 5')
-@section('meta_description','Titanium Grade 5 (Ti-6Al-4V) high strength, lightweight alloy for aerospace, marine & medical.')
+@section('title', 'Titanium Grade 5 | Aerospace-Grade Titanium Alloy')
+@section('meta_description', 'Aerospace-grade Titanium Grade 5 offering superior strength, corrosion resistance, and weldability.')
+@section('meta_keywords', 'Titanium Grade 5, Aerospace Grade Titanium, High Strength Titanium, Corrosion Resistant Titanium, Titanium Grade 5 Pipes, Titanium Grade 5 Tubes, Titanium Grade 5 Sheets, Weldable Titanium Alloy, Industrial Titanium Grades, Marine Titanium Alloys')
+@section('canonical', url()->current())
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

@@ -1,10 +1,11 @@
 @extends('layouts.master')
 
-@section('title', 'Hastelloy G-3 | High-Strength Alloy for Acidic Solutions')
-@section('meta_description', 'This grade resists phosphoric, sulfuric, and nitric acids, making it a reliable choice for
-    fertilizer production and chemical plants.')
+@section('title', 'Hastelloy G3 | Weldable Corrosion Alloy')
+@section('meta_description', 'Hastelloy G3 pipes, tubes & fittings with superior resistance to oxidizing and reducing acids, offering excellent weldability and durability.')
+@section('meta_keywords', 'Hastelloy G3, Corrosion Resistant Alloy, Hastelloy G3 Pipes, Hastelloy G3 Tubes, Hastelloy G3 Fittings, Weldable Alloy, Oxidizing Acid Resistant, Reducing Acid Resistant, Durable Alloy')
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

@@ -1,10 +1,12 @@
 @extends('layouts.master')
 
-@section('title', 'Hastelloy G-30 | Elite Alloy for Phosphoric Acid Resistance')
-@section('meta_description', 'Optimized for phosphoric acid service, Hastelloy G-30 also offers excellent resistance to
-    highly oxidizing acids.')
+@section('title', 'Hastelloy G30 | Superior Oxidation Resistance')
+@section('meta_description', 'Hastelloy G30 pipes, tubes & fittings with exceptional resistance to nitric, phosphoric & sulfuric acids, ideal for harsh chemical processing.')
+@section('meta_keywords', 'Hastelloy G30, Oxidation Resistant Alloy, Hastelloy G30 Pipes, Hastelloy G30 Tubes, Hastelloy G30 Fittings, Chemical Processing Alloys, Acid Resistant Alloy, Industrial Corrosion Resistant Alloys')
+@section('canonical', url()->current())
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

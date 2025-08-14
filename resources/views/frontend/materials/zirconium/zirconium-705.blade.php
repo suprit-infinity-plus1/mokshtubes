@@ -1,11 +1,12 @@
 @extends('layouts.master')
 
-@section('title', 'Zirconium 705 Alloy')
-@section('meta_description',
-    'Top-quality Zirconium 705 alloy with superior corrosion resistance for chemical, nuclear & marine uses.
-    ')
+@section('title', 'Zirconium 705 | High-Performance Zirconium Alloy')
+@section('meta_description', 'Zirconium 705 alloy offering exceptional corrosion resistance and strength for demanding nuclear and chemical processes.')
+@section('meta_keywords', 'Zirconium 705, High Performance Zirconium, Corrosion Resistant Zirconium, Zirconium 705 Pipes, Zirconium 705 Tubes, Zirconium 705 Sheets, Chemical Processing Zirconium, Nuclear Industry Zirconium, Industrial Zirconium_
+@section('canonical', url()->current())
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

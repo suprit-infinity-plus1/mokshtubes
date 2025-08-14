@@ -1,8 +1,13 @@
 @extends('layouts.master')
 
-@section('title', 'Incoloy 925 | Superior Strength & Sour Gas Resistant Alloy')
-@section('meta_description', 'Combining high strength with excellent corrosion resistance, Incoloy 925 excels in oil &
-    gas well components and marine applications.')
+@section('title', ' Incoloy 925 | Superior Strength & Sour Gas Protection
+')
+@section('meta_description', 'Incoloy 925 combines high strength with outstanding corrosion resistance—perfect for oil & gas well parts and demanding marine environments.
+')
+@section('meta_keywords', 'Incoloy 825, nickel alloy, corrosion resistant alloy, premium metal alloys, moksh tubes')
+@section('canonical', url('materials/incoloy/incoloy-925'))
+
+
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">

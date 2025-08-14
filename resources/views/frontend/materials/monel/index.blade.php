@@ -1,13 +1,10 @@
 @extends('layouts.master')
+
 @section('title', 'Monel Alloys | Nickel-Copper Grades for Harsh Environments | Mokshtubes')
-@section('meta_description',
-    'Durable Monel nickel-copper alloys designed to withstand harsh, corrosive environments with unmatched strength and
-    reliability.
-    ')
-    {{-- @section('meta_description',
-    'Explore Monel 400, K500, and R405 – trusted for marine, chemical, and oil & gas use due to excellent corrosion and
-    impact resistance.
-    ') --}}
+@section('meta_description', 'Explore Monel 400, K500, and R405 – trusted for marine, chemical, and oil & gas use due to excellent corrosion and impact resistance.')
+@section('meta_keywords', 'Monel Alloys, Monel 400, Monel K500, Monel R405, Nickel-Copper Alloys, Marine Industry Alloys, Chemical Processing Alloys, Oil and Gas Alloys, Corrosion Resistant Alloys, Impact Resistant Alloys')
+@section('canonical', url()->current())
+
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">

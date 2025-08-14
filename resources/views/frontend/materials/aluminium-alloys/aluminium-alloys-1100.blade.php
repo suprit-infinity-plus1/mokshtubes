@@ -1,10 +1,12 @@
 @extends('layouts.master')
 
-@section('title', 'Aluminium 1100')
-@section('meta_description','Pure Aluminium 1100 products with excellent corrosion resistance for chemical, marine & decorative uses.
-')
+@section('title', 'Aluminium Alloy 1100 | Commercially Pure Aluminium')
+@section('meta_description', 'Commercially pure Aluminium 1100 known for its excellent corrosion resistance and formability.')
+@section('meta_keywords', 'Aluminium Alloy 1100, Commercially Pure Aluminium, Aluminium 1100 Pipes, Aluminium 1100 Tubes, Aluminium 1100 Sheets, Corrosion Resistant Aluminium, Formable Aluminium Alloy, Industrial Aluminium Grades, Commercial Aluminium Alloys, Pure Aluminium Products')
+@section('canonical', url()->current())
 
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
