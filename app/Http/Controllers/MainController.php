@@ -37,10 +37,6 @@ class MainController extends Controller
     {
         return view('frontend.khetwadi');
     }
-    // public function materials()
-    // {
-    //     return view('frontend.materials');
-    // }
 
     public function StainlessSteelInconelTubes()
     {
@@ -101,7 +97,7 @@ class MainController extends Controller
             'Engineering Steels',
             'Aluminium Alloys',
             'Copper Alloys',
-            'Hard To Find And Special Alloys',
+            'Hard To Find Special Alloys',
             'Haynes Superalloys',
         ];
 
@@ -233,16 +229,16 @@ class MainController extends Controller
     public function hardToFindAndSpecialAlloys()
     {
         $grades = [
-            ['name' => 'Carbide', 'slug' => 'hard-to-find-and-special-alloys-carbide'],
-            ['name' => 'Nimonic', 'slug' => 'hard-to-find-and-special-alloys-nimonic'],
-            ['name' => 'Nitinol', 'slug' => 'hard-to-find-and-special-alloys-nitinol'],
-            ['name' => 'Stellite', 'slug' => 'hard-to-find-and-special-alloys-stellite'],
-            ['name' => 'Tantalum', 'slug' => 'hard-to-find-and-special-alloys-tantalum'],
-            ['name' => 'Tungsten', 'slug' => 'hard-to-find-and-special-alloys-tungsten'],
+            ['name' => 'Carbide', 'slug' => 'hard-to-find-special-alloys-carbide'],
+            ['name' => 'Nimonic', 'slug' => 'hard-to-find-special-alloys-nimonic'],
+            ['name' => 'Nitinol', 'slug' => 'hard-to-find-special-alloys-nitinol'],
+            ['name' => 'Stellite', 'slug' => 'hard-to-find-special-alloys-stellite'],
+            ['name' => 'Tantalum', 'slug' => 'hard-to-find-special-alloys-tantalum'],
+            ['name' => 'Tungsten', 'slug' => 'hard-to-find-special-alloys-tungsten'],
 
         ];
 
-        return view('frontend.materials.hard-to-find-and-special-alloys.index', compact('grades'));
+        return view('frontend.materials.hard-to-find-special-alloys.index', compact('grades'));
 
     }
 

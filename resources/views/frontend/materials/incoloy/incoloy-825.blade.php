@@ -1,7 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Incoloy 825 | Premium Corrosion-Resistant Nickel Alloy')
-@section('meta_description', 'Incoloy 825 delivers exceptional resistance to acids, alkalis, and oxidizing agents—making it a trusted choice for chemical and marine industries.')
+@section('meta_description', 'Incoloy 825 delivers exceptional resistance to acids, alkalis, and oxidizing agents—making
+    it a trusted choice for chemical and marine industries.')
 @section('meta_keywords', 'Incoloy 825, nickel alloy, corrosion resistant alloy, premium metal alloys, moksh tubes')
 @section('canonical', 'https://mokshtubes.com')
 @section('content')
@@ -43,7 +44,7 @@
                                 href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>,
                             Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires, Round Bars, Flat Bars, Angles,
                             Channels, Welding rods, Wire Mesh, and other Custom and <a
-                                href="{{ route('materials.hard-To-Find-And-Special-Alloys') }}">Hard to Find</a> <strong
+                                href="{{ route('materials.hard-To-Find-Special-Alloys') }}">Hard to Find</a> <strong
                                 class="text-black">
                                 INCOLOY 825 </strong>Products.
                         </p>

@@ -1,8 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Alloy 926 | High-Performance Super Austenitic')
-@section('meta_description', 'Alloy 926 pipes, tubes & fittings with excellent pitting, crevice, and chloride corrosion resistance for harsh marine & chemical use.')
-@section('meta_keywords', 'Alloy 926, Super Austenitic Stainless Steel, Corrosion Resistant Alloy, Alloy 926 Pipes, Alloy 926 Tubes, Alloy 926 Fittings, Pitting Resistant Alloy, Crevice Corrosion Resistant, Chloride Resistant Alloy, Marine Industry Alloys, Chemical Processing Alloys')
+@section('meta_description', 'Alloy 926 pipes, tubes & fittings with excellent pitting, crevice, and chloride corrosion
+    resistance for harsh marine & chemical use.')
+@section('meta_keywords', 'Alloy 926, Super Austenitic Stainless Steel, Corrosion Resistant Alloy, Alloy 926 Pipes,
+    Alloy 926 Tubes, Alloy 926 Fittings, Pitting Resistant Alloy, Crevice Corrosion Resistant, Chloride Resistant Alloy,
+    Marine Industry Alloys, Chemical Processing Alloys')
 
 @section('content')
 
@@ -31,7 +34,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/super-austenitic-stainless-steel/super-austenitic-stainless-steel-AL-926.webp') }}" alt="Alloy 926" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/super-austenitic-stainless-steel/super-austenitic-stainless-steel-AL-926.webp') }}"
+                        alt="Alloy 926" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -46,7 +50,7 @@
                             Fasteners, and Custom Fabricated Components.
                             <strong class="text-black">Alloy 926</strong> is a super-austenitic stainless steel with
                             enhanced molybdenum (6.5%) and <a
-                                href="{{ route('materials.hard-To-Find-And-Special-Alloys') }}">nitrogen</a> additions,
+                                href="{{ route('materials.hard-To-Find-Special-Alloys') }}">nitrogen</a> additions,
                             delivering excellent resistance to pitting,
                             crevice corrosion, and stress corrosion cracking in aggressive environments. Its high nickel and
                             chromium content provide superior corrosion protection in oxidizing and reducing environments,

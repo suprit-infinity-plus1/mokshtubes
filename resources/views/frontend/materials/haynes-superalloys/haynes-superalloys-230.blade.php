@@ -1,8 +1,9 @@
 @extends('layouts.master')
 
 @section('title', 'Haynes Superalloys 230')
-@section('meta_description','Haynes Alloy 230 offers exceptional strength, oxidation resistance, and thermal stability for extreme applications.
-')
+@section('meta_description',
+    'Haynes Alloy 230 offers exceptional strength, oxidation resistance, and thermal stability for extreme applications.
+    ')
 
 
 @section('content')
@@ -31,7 +32,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/haynes /haynes-230.webp') }}" alt="Haynes-230" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/haynes /haynes-230.webp') }}" alt="Haynes-230"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -43,7 +45,7 @@
                                 N06230) <a href="{{ route('products') }}">products</a></strong> including Pipes & Tubes,
                             Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires, Round Bars, Flat Bars, Angles,
                             Channels, Welding Rods, Wire Mesh, and other custom and <a
-                                href="{{ route('materials.hard-To-Find-And-Special-Alloys') }}">hard-to-find</a> Haynes 230
+                                href="{{ route('materials.hard-To-Find-Special-Alloys') }}">hard-to-find</a> Haynes 230
                             products.
                         </p>
 

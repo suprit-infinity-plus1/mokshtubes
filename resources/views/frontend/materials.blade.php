@@ -47,7 +47,7 @@
                         'Engineering Steels',
                         'Aluminium Alloys',
                         'Copper Alloys',
-                        'Hard To Find And Special Alloys',
+                        'Hard To Find Special Alloys',
                         'Haynes Superalloys',
                     ];
                 @endphp

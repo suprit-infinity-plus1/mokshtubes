@@ -1,8 +1,9 @@
 @extends('layouts.master')
 
 @section('title', 'Haynes Superalloys 188')
-@section('meta_description','Premium Haynes Alloy 188 with superior oxidation resistance at high temperatures. Ideal for aerospace and gas turbines.
-')
+@section('meta_description',
+    'Premium Haynes Alloy 188 with superior oxidation resistance at high temperatures. Ideal for aerospace and gas turbines.
+    ')
 
 
 @section('content')
@@ -44,7 +45,7 @@
                                 N06188) <a href="{{ route('products') }}">products</a></strong>. Including Pipes & Tubes,
                             Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires, Round Bars, Flat Bars, Angles,
                             Channels, Welding Rods, Wire Mesh, and other custom and<a
-                                href="{{ route('materials.hard-To-Find-And-Special-Alloys') }}"> hard-to-find</a> Haynes 188
+                                href="{{ route('materials.hard-To-Find-Special-Alloys') }}"> hard-to-find</a> Haynes 188
                             products.
                         </p>
 

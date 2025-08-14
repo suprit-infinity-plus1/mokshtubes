@@ -1,8 +1,10 @@
 @extends('layouts.master')
 
-@section('title', 'Nimonic | Superior High-Temp Strength Alloy')
-@section('meta_description', 'Nimonic provides exceptional high-temperature strength, creep resistance, and durability, ideal for aerospace, power generation, and industrial turbine applications.')
-@section('meta_keywords', 'Nimonic alloy, high temperature alloy, creep resistant alloy, aerospace alloy, turbine alloy, power generation alloy, durable high strength alloy')
+@section('title', 'Tantalum | Superior Corrosion & Heat Resistance')
+@section('meta_description', 'Tantalum provides exceptional corrosion resistance, high melting point, and durability,
+    ideal for chemical, electronics, aerospace, and industrial uses.')
+@section('meta_keywords', 'Tantalum, corrosion resistant metal, heat resistant metal, high melting point metal, chemical
+    industry metal, electronics metal, aerospace metal, durable Tantalum')
 
 
 @section('content')
@@ -12,7 +14,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Nimonic Alloys</h1>
+                    <h1>Tantalum</h1>
                 </div>
             </div>
         </div>
@@ -26,33 +28,34 @@
             </div>
 
             <h2 class="fw-semibold text-center mb-5" style="color: #db7227;">
-                Introduction To Nimonic Alloys
+                Introduction To Tantalum
             </h2>
 
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-nimonic.webp') }}"
-                        alt="Nimonic Alloys" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-tantalum.webp') }}"
+                        alt="Tantalum" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a leading supplier, stockist,
-                            and exporter of high-performance<strong class="text-black"> Nimonic Alloys,</strong> known for
-                            their exceptional resistance to heat,
-                            oxidation, and corrosion. These nickel-chromium-based superalloys are engineered for extreme
-                            temperature applications where mechanical strength and structural stability are vital—especially
-                            in aerospace, gas turbines, nuclear reactors, and high-stress environments.
+                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a reliable manufacturer,
+                            supplier, exporter, importer, and stockist of premium-grade<strong class="text-black"> Tantalum
+                                products</strong> including Tantalum
+                            <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Sheets & Plates, Rods & Bars,
+                            Wire, Foil, Crucibles, Fasteners, and Custom
+                            Fabricated Products for critical applications.
                         </p>
-                        <p> <strong class="text-black"><a
-                                    href="{{ route('materials.hard-To-Find-And-Special-Alloys') }}">Nimonic
-                                    Alloys</a></strong> are primarily composed of Nickel (Ni) and
-                            Chromium (Cr), often combined with Titanium (Ti) and Aluminum (Al) for precipitation hardening.
-                            Popular grades include Nimonic 75, 80A, 90, 105, 263, and others—each suited to specific
-                            mechanical and thermal requirements.</p>
+                        <p> <strong class="text-black">Tantalum</strong> is a rare, ductile, and highly corrosion-resistant
+                            metal with excellent biocompatibility and high melting point. It is highly resistant to most
+                            acids (including aqua regia), making it a prime material for demanding chemical processing and
+                            high-temperature applications.<a href="{{ route('materials.hard-To-Find-Special-Alloys') }}">
+                                Tantalum</a> maintains its
+                            mechanical strength at elevated
+                            temperatures and offers excellent workability in various forms.</p>
                     </div>
                 </div>
             </div>
@@ -72,69 +75,49 @@
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
                                     <th>Element</th>
-                                    <th>Anti-NIMONIC 75</th>
-                                    <th>Anti-NIMONIC 80A</th>
-                                    <th>Anti-NIMONIC 90</th>
-                                    <th>Anti-NIMONIC 105</th>
-                                    <th>Anti-NIMONIC 263</th>
+                                    <th>Composition (%)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Nickel</td>
-                                    <td>≤ 20%</td>
-                                    <td>≤ 30%</td>
-                                    <td>≤ 30%</td>
-                                    <td>≤ 30%</td>
-                                    <td>≤ 20%</td>
+                                    <td>Tantalum</td>
+                                    <td>99.95 min</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Chromium</td>
-                                    <td>≤ 3%</td>
-                                    <td>≤ 3%</td>
-                                    <td>≤ 3%</td>
-                                    <td>≤ 5%</td>
-                                    <td>≤ 3%</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Cobalt</td>
-                                    <td>Present</td>
-                                    <td>≥ 2.5%</td>
-                                    <td>≤ 5%</td>
-                                    <td>≤ 5%</td>
-                                    <td>≤ 5%</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Titanium</td>
-                                    <td>≥ 0.6%</td>
-                                    <td>≥ 0.5%</td>
-                                    <td>≥ 0.5%</td>
-                                    <td>≥ 0.5%</td>
-                                    <td>≥ 0.5%</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Aluminum</td>
-                                    <td>≥ 0.6%</td>
-                                    <td>≥ 0.5%</td>
-                                    <td>≥ 0.5%</td>
-                                    <td>≥ 0.5%</td>
-                                    <td>≥ 0.1.0%</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Molybdenum</td>
-                                    <td>Present</td>
-                                    <td>Present</td>
-                                    <td>Present</td>
-                                    <td>≤ 1.0%</td>
-                                    <td>≤ 1.0%</td>
+                                    <td>Niobium</td>
+                                    <td>0.01 – 0.1 max</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Iron</td>
-                                    <td>≥ 10%</td>
-                                    <td>≥ 5.0%</td>
-                                    <td>≥ 5.0%</td>
-                                    <td>≥ 5.0%</td>
-                                    <td>≥ 2.0%</td>
+                                    <td>0.01 max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Titanium</td>
+                                    <td>0.01 max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Tungsten</td>
+                                    <td>0.05 max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Silicon</td>
+                                    <td>0.005 max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Oxygen</td>
+                                    <td>0.015 max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Nitrogen</td>
+                                    <td>0.01 max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Carbon</td>
+                                    <td>0.01 max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Hydrogen</td>
+                                    <td>0.001 max</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -167,38 +150,38 @@
                             <tbody class="text-center">
                                 <tr class="t-row">
                                     <td>Density</td>
-                                    <td>0.30 lb/in³</td>
-                                    <td>8.2 g/cm³</td>
+                                    <td>0.311 lb/in³</td>
+                                    <td>16.69 g/cm³</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Melting Range</td>
-                                    <td>2500 – 2650 °F</td>
-                                    <td>1370 – 1460 °C</td>
+                                    <td>5425 °F</td>
+                                    <td>2996 °C</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Modulus of Elasticity – Tension</td>
-                                    <td>28.0 × 10³ ksi</td>
-                                    <td>193 GPa</td>
+                                    <td>15.0 × 10³ ksi</td>
+                                    <td>103 GPa</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Modulus of Elasticity – Compression</td>
-                                    <td>28.0 × 10³ ksii</td>
-                                    <td>193 GPa</td>
+                                    <td>15.0 × 10³ ksi</td>
+                                    <td>103 GPa</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Modulus of Elasticity – Torsion</td>
-                                    <td>10.0 × 10³ ksi</td>
-                                    <td>193 GPa</td>
+                                    <td>6.0 × 10³ ksi</td>
+                                    <td>41 GPa</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Poisson’s Ratio</td>
-                                    <td>0.30</td>
+                                    <td>0.34</td>
                                     <td>—</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Curie Temperature</td>
-                                    <td>1040 °F</td>
-                                    <td>560 °C</td>
+                                    <td>Not applicable</td>
+                                    <td>Not applicable</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -225,43 +208,43 @@
                             <tbody class="text-center">
                                 <tr class="t-row">
                                     <td>Tensile Strength (ksi / MPa)</td>
-                                    <td>90–120 / 620–830</td>
-                                    <td>130–170 / 896–1172</td>
-                                    <td>150–200 / 1034–1379</td>
-                                    <td>100–140 / 690–965</td>
-                                    <td>90–130 / 620–896</td>
+                                    <td>40–60 / 276–414</td>
+                                    <td>55–75 / 379–517</td>
+                                    <td>75–100 / 517–690</td>
+                                    <td>45–65 / 310–448</td>
+                                    <td>40–60 / 276–414</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Yield Strength (0.2%) (ksi / MPa)</td>
-                                    <td>60–90 / 414–620</td>
-                                    <td>110–150 / 758–1034</td>
-                                    <td>140–180 / 965–1240</td>
-                                    <td>70–110 / 483–758</td>
-                                    <td>60–90 / 414–620</td>
+                                    <td>20–40 / 138–276</td>
+                                    <td>35–55 / 241–379</td>
+                                    <td>50–80 / 345–552</td>
+                                    <td>30–50 / 207–345</td>
+                                    <td>25–45 / 172–310</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Elongation (%)</td>
+                                    <td>30–50</td>
                                     <td>15–30</td>
-                                    <td>8–15</td>
-                                    <td>5–10</td>
-                                    <td>15–25</td>
-                                    <td>20–30</td>
+                                    <td>10–25</td>
+                                    <td>25–40</td>
+                                    <td>30–50</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Brinell Hardness (3000 kg)</td>
+                                    <td>90–120</td>
+                                    <td>110–140</td>
+                                    <td>140–180</td>
+                                    <td>100–130</td>
+                                    <td>90–120</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Rockwell Hardness (B / C)</td>
+                                    <td>40–50 B</td>
+                                    <td>50–60 B</td>
                                     <td>60–70 B</td>
-                                    <td>80–90 B</td>
-                                    <td>90–95 B</td>
-                                    <td>70–80 B</td>
-                                    <td>65–75 B</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Brinell Hardness (HB)</td>
-                                    <td>180–220</td>
-                                    <td>250–300</td>
-                                    <td>300–350</td>
-                                    <td>200–250</td>
-                                    <td>180–220</td>
+                                    <td>45–55 B</td>
+                                    <td>40–50 B</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -290,13 +273,13 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Products in Nimonic Alloys</h2>
+                <h2>Products in Tantalum</h2>
             </div>
             <!-- Highlighted Paragraph -->
             <div class="row justify-content-center mb-4" style="text-align: justify;">
                 <div class="col-lg-10">
                     <p class="fs-6">
-                        <strong class="text-dark">Nimonic Alloys</strong> is commonly supplied as:
+                        <strong class="text-dark">Tantalum</strong> is commonly supplied as:
                     </p>
                 </div>
             </div>
@@ -321,7 +304,7 @@
             <div class="row justify-content-center mb-3">
                 <div class="col-lg-10">
                     <p class="fw-bold fs-5 text-center my-4" style="color: #174268;">
-                        We supply Nimonic Alloys materials in accordance with the most stringent industry standards: </p>
+                        We supply Tantalum materials in accordance with the most stringent industry standards: </p>
                 </div>
             </div>
 
@@ -356,35 +339,35 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>Superior resistance to heat creep and fatigue</h5>
+                        <h5>Excellent corrosion resistance to almost all acids including aqua regia</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h5>Excellent oxidation and corrosion resistance at high temperatures</h5>
+                        <h5>High melting point (over 3000°C)</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h5>High strength-to-weight ratio</h5>
+                        <h5>Exceptional biocompatibility for medical applications</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h5>Good weldability and workability (especially Nimonic 263)</h5>
+                        <h5>Outstanding thermal and electrical conductivity</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
-                        <h5>Long-term dimensional and structural stability</h5>
+                        <h5>Non-toxic and suitable for ultra-pure environments</h5>
                     </div>
                 </div>
             </div>
@@ -395,57 +378,51 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Applications of Nimonic Alloys</h2>
+                <h2>Applications of Tantalum</h2>
             </div>
 
             <div class="row g-4 justify-content-center">
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
-                        <h5>Aerospace & Jet Engines</h5>
-                        <p>Used in turbine blades, combustion chambers, and exhaust systems due to excellent heat
-                            resistance.</p>
+                        <h5>Chemical Processing Equipment</h5>
+                        <p>Used in heat exchangers, reactors, vessels, and piping systems where resistance to strong acids
+                            like HCl, H2SO4, and nitric acid is critical.</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
-                        <h5>Gas Turbines & Power Generation</h5>
-                        <p>Nimonic components withstand long-term exposure to high temperatures and stress.</p>
+                        <h5>Electronics & Semiconductors</h5>
+                        <p>Employed in sputtering targets, capacitors, and thin-film applications due to high capacitance
+                            and purity.</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
-                        <h5>Nuclear Reactors</h5>
-                        <p>Ideal for components exposed to neutron irradiation and extreme heat.</p>
+                        <h5>Medical Industry</h5>
+                        <p>Used for surgical implants, orthopedic devices, and dental applications owing to its excellent
+                            biocompatibility and non-reactive nature.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-droplet"></i></div>
-                        <h5>Automotive & Motorsport</h5>
-                        <p>Applied in valves, manifolds, and turbocharger parts.</p>
+                        <h5>Aerospace and Defense</h5>
+                        <p>Utilized in high-temperature structural parts and radiation shielding components.</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
-                        <h5>Industrial Heating</h5>
-                        <p>Used in furnace parts, heat shields, and high-temp tooling.</p>
+                        <h5>Laboratory Equipment</h5>
+                        <p>Ideal for crucibles, evaporation boats, and heat-resistant components in vacuum systems.</p>
                     </div>
                 </div>
-
-                {{-- <div class="col-md-6 col-lg-4">
-                <div class="application-card">
-                     <div class="application-icon"><i class="bi bi-strategies"></i></div>
-                    <h5>Why It Works</h5>
-                    <p><strong>HASTELLOY C276’s</strong> combination of corrosion resistance, weldability, and mechanical durability makes it ideal for mission-critical applications where long-term performance is non-negotiable.</p>
-                </div>
-            </div> --}}
             </div>
         </div>
     </section>
@@ -461,35 +438,35 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Wide inventory of Nimonic bars, tubes, wires, and forgings</h5>
+                        <h5>Supplier of high-purity Tantalum in various grades and specifications</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
-                        <h5>Custom fabrication and CNC machining available</h5>
+                        <h5>Precision manufacturing and in-house quality testing</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
-                        <h5>Global shipping with export compliance</h5>
+                        <h5>Fast turnaround time and custom solutions</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>ISO 9001:2015 certified quality assurance</h5>
+                        <h5>Global logistics with reliable packaging and documentation</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
-                        <h5>Fast turnaround and competitive pricing</h5>
+                        <h5>Trusted by chemical, aerospace, and electronics industries worldwide</h5>
                     </div>
                 </div>
             </div>
@@ -501,8 +478,9 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    Contact <strong>Moksh Tubes & Fittings LLP</strong> — for expert support, MTC-certified materials, and
-                    custom solutions.
+                    Contact <strong>Moksh Tubes & Fittings LLP</strong> — for quotes, technical queries, and bulk orders.
+                    We are your one-stop solution for rare metals and corrosion-resistant alloys.
+
                 </p>
                 <!-- Call button -->
                 <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>

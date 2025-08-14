@@ -1,8 +1,12 @@
 @extends('layouts.master')
 
 @section('title', 'Hastelloy C-4 | High-Performance Alloy for Oxidizing Media')
-@section('meta_description', 'Hastelloy C-4 pipes, tubes & fittings with long-term stability, superior resistance to strong oxidizing chemicals, acids, and high heat — maintaining strength at elevated temperatures for demanding industrial applications.')
-@section('meta_keywords', 'Hastelloy C-4, Hastelloy C4, High Performance Alloy, Corrosion Resistant Alloy, Hastelloy C4 Pipes, Hastelloy C4 Tubes, Hastelloy C4 Fittings, Oxidizer Resistant Alloy, Acid Resistant Alloy, Industrial Corrosion Resistant Alloys, High Temperature Alloys, Durable Nickel Alloys')
+@section('meta_description', 'Hastelloy C-4 pipes, tubes & fittings with long-term stability, superior resistance to
+    strong oxidizing chemicals, acids, and high heat — maintaining strength at elevated temperatures for demanding
+    industrial applications.')
+@section('meta_keywords', 'Hastelloy C-4, Hastelloy C4, High Performance Alloy, Corrosion Resistant Alloy, Hastelloy C4
+    Pipes, Hastelloy C4 Tubes, Hastelloy C4 Fittings, Oxidizer Resistant Alloy, Acid Resistant Alloy, Industrial Corrosion
+    Resistant Alloys, High Temperature Alloys, Durable Nickel Alloys')
 
 @section('content')
 
@@ -56,7 +60,7 @@
                             alloy known for
                             its outstanding resistance to high-temperature oxidation, stress corrosion cracking, and strong
                             oxidizing agents. With excellent stability across a wide range of thermal conditions, <a
-                                href="{{ route('materials.hard-To-Find-And-Special-Alloys') }}">Hastelloy
+                                href="{{ route('materials.hard-To-Find-Special-Alloys') }}">Hastelloy
                                 C-4</a> exhibits superior performance in harsh chemical environments—particularly in hot,
                             contaminated mineral acids like hydrochloric and sulfuric acid. Its low carbon and silicon
                             content also help prevent grain-boundary precipitation during welding, enhancing its weldability

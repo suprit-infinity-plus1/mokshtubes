@@ -1,8 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'AL-6XN | Superior Corrosion Resistant Alloy')
-@section('meta_description', 'AL-6XN pipes, tubes & fittings offer exceptional corrosion resistance in seawater, chemical, and food processing environments.')
-@section('meta_keywords', 'AL-6XN, Corrosion Resistant Alloy, AL-6XN Pipes, AL-6XN Tubes, AL-6XN Fittings, Seawater Resistant Alloy, Chemical Processing Alloys, Food Processing Alloys, High Strength Stainless Steel, Industrial Corrosion Resistant Alloys')
+@section('meta_description', 'AL-6XN pipes, tubes & fittings offer exceptional corrosion resistance in seawater,
+    chemical, and food processing environments.')
+@section('meta_keywords', 'AL-6XN, Corrosion Resistant Alloy, AL-6XN Pipes, AL-6XN Tubes, AL-6XN Fittings, Seawater
+    Resistant Alloy, Chemical Processing Alloys, Food Processing Alloys, High Strength Stainless Steel, Industrial Corrosion
+    Resistant Alloys')
 
 @section('content')
 
@@ -31,7 +34,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/super-austenitic-stainless-steel/super-austenitic-stainless-steel-AL-6XN.webp') }}" alt="AL 6XN" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/super-austenitic-stainless-steel/super-austenitic-stainless-steel-AL-6XN.webp') }}"
+                        alt="AL 6XN" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -48,7 +52,7 @@
                             <strong class="text-black">AL 6XN</strong> is a superaustenitic stainless steel designed for
                             superior corrosion resistance in aggressive chloride environments, especially where standard
                             stainless steels (like 316L) are inadequate. It is known for its high nickel (24%), molybdenum
-                            (6.3%), and <a href="{{ route('materials.hard-To-Find-And-Special-Alloys') }}">nitrogen</a>
+                            (6.3%), and <a href="{{ route('materials.hard-To-Find-Special-Alloys') }}">nitrogen</a>
                             content, providing excellent resistance to pitting, crevice corrosion, and
                             stress corrosion cracking (SCC). Its strength, formability, and weldability make it ideal for
                             critical applications in chemical processing, marine environments, pulp & paper, food, and

@@ -1,8 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Titanium Grade 2 | Industrial Grade Titanium')
-@section('meta_description', 'Versatile Titanium Grade 2 offering strong corrosion resistance and strength for aerospace and medical sectors.')
-@section('meta_keywords', 'Titanium Grade 2, Industrial Grade Titanium, Corrosion Resistant Titanium, Titanium Grade 2 Pipes, Titanium Grade 2 Tubes, Titanium Grade 2 Sheets, Aerospace Titanium Alloys, Medical Industry Titanium, High Strength Titanium, Industrial Titanium Grades')
+@section('meta_description', 'Versatile Titanium Grade 2 offering strong corrosion resistance and strength for aerospace
+    and medical sectors.')
+@section('meta_keywords', 'Titanium Grade 2, Industrial Grade Titanium, Corrosion Resistant Titanium, Titanium Grade 2
+    Pipes, Titanium Grade 2 Tubes, Titanium Grade 2 Sheets, Aerospace Titanium Alloys, Medical Industry Titanium, High
+    Strength Titanium, Industrial Titanium Grades')
 
 @section('content')
 
@@ -45,7 +48,7 @@
                             </strong> including Pipes & Tubes, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils,
                             Wires, Round
                             Bars, Flat Bars, Angles, Welding Rods, Wire Mesh, and other Custom or <a
-                                href="{{ route('materials.hard-To-Find-And-Special-Alloys') }}">Hard-to-Find</a> Titanium
+                                href="{{ route('materials.hard-To-Find-Special-Alloys') }}">Hard-to-Find</a> Titanium
                             Grade 2 Components.
                         </p>
 

@@ -1,8 +1,10 @@
 @extends('layouts.master')
 
-@section('title', 'Tungsten | Exceptional Strength & High Durability')
-@section('meta_description', 'Tungsten provides outstanding strength, heat resistance, and durability, ideal for industrial tools, high-temperature applications, and precision engineering.')
-@section('meta_keywords', 'Tungsten, high strength metal, heat resistant metal, durable metal, industrial tools metal, high temperature applications, precision engineering metal')
+@section('title', 'Carbide | Superior Hardness & Precision Performance')
+@section('meta_description', 'Carbide offers exceptional hardness, wear resistance, and precision performance, ideal for
+    cutting tools, industrial machinery, and high-stress applications.')
+@section('meta_keywords', 'Carbide, high hardness carbide, wear resistant carbide, precision cutting tools, industrial
+    carbide, high stress applications, durable carbide')
 
 
 @section('content')
@@ -12,7 +14,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Tungsten</h1>
+                    <h1>Carbide Alloys</h1>
                 </div>
             </div>
         </div>
@@ -26,35 +28,37 @@
             </div>
 
             <h2 class="fw-semibold text-center mb-5" style="color: #db7227;">
-                Introduction To Tungsten - Extreme Heat And Wear Resistant Metal
+                Introduction To Carbide Alloys (TUNGSTEN CARBIDE / TITANIUM CARBIDE / TANTALUM CARBIDE)
             </h2>
 
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-tungsten.webp') }}"
-                        alt="Tungsten" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-carbide.webp') }}"
+                        alt="Carbide alloys" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted supplier,
-                            manufacturer, and exporter of Tungsten and<strong class="text-black"> Tungsten-based
-                                alloys,</strong> offering a comprehensive range
-                            of forms including Tungsten rods, bars, plates, sheets, wires, crucibles, <a
-                                href="{{ route('products.pipes-tubes') }}">tubes</a>, and
-                            custom-fabricated parts. Known for its exceptionally high melting point, density, and hardness,
-                            Tungsten is widely used in applications where thermal, mechanical, and wear resistance is
-                            critical.
+                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted manufacturer,
+                            exporter, and supplier of Carbide Alloys, offering a wide range of <a
+                                href="{{ route('products') }}">products</a> including Tungsten
+                            Carbide (WC), Titanium Carbide (TiC), Tantalum Carbide (TaC), and specialty carbide-based tools
+                            and components. Our range includes rods, strips, dies, nozzles, inserts, buttons, rings, wear
+                            parts, and custom-engineered <a
+                                href="{{ route('materials.hard-To-Find-Special-Alloys') }}">carbide</a> components
+                            designed to withstand extreme wear, abrasion,
+                            and thermal stress.
 
                         <p> <strong class="text-black"><a
-                                    href="{{ route('materials.hard-To-Find-And-Special-Alloys') }}">Tungsten</a></strong>
-                            exhibits excellent electrical conductivity, minimal
-                            thermal expansion, and outstanding resistance to erosion by molten metals and high temperatures,
-                            making it indispensable in industries like aerospace, defense, electronics, lighting, and
-                            metallurgy.
+                                    href="{{ route('materials.hard-To-Find-Special-Alloys') }}">Carbide
+                                    Alloys</a></strong> are hard, wear-resistant materials made by
+                            combining carbide particles with metallic binders like cobalt or nickel. These alloys offer
+                            exceptional hardness, high-temperature resistance, and excellent dimensional stability, making
+                            them ideal for demanding industrial applications including metal cutting, mining, oil & gas,
+                            aerospace, and wear protection systems.
                         </p>
                     </div>
                 </div>
@@ -81,35 +85,31 @@
                             <tbody class="text-center">
                                 <tr class="t-row">
                                     <td>Tungsten</td>
-                                    <td>≥ 99.95</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Molybdenum</td>
-                                    <td>≤ 0.01</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Iron</td>
-                                    <td>≤ 0.001</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Silicon</td>
-                                    <td>≤ 0.001</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Nickel</td>
-                                    <td>≤ 0.001</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Oxygen</td>
-                                    <td>≤ 0.003</td>
+                                    <td>80.0 – 97.0</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Carbon</td>
-                                    <td>≤ 0.002</td>
+                                    <td>4.0 – 6.5</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Nitrogen</td>
-                                    <td>≤ 0.001</td>
+                                    <td>Cobalt</td>
+                                    <td>3.0 – 20.0 (binder phase)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Titanium</td>
+                                    <td>Optional (in TiC grades)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Tantalum</td>
+                                    <td>Optional (in TaC grades)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Niobium</td>
+                                    <td>Optional</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Nickel</td>
+                                    <td>Optional binder (for corrosion-resistant grades)</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -142,38 +142,38 @@
                             <tbody class="text-center">
                                 <tr class="t-row">
                                     <td>Density</td>
-                                    <td>0.698 lb/in³</td>
-                                    <td>19.25 g/cm³</td>
+                                    <td>15.6 lb/in³</td>
+                                    <td>15.6 g/cm³</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Melting Range</td>
-                                    <td>6160 °F</td>
-                                    <td>3410 °C</td>
+                                    <td>Melting Point</td>
+                                    <td>5742 °F (sublimation)</td>
+                                    <td>3170 °C (sublimation)</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Modulus of Elasticity – Tension</td>
-                                    <td>57.0 × 10³ ksi</td>
-                                    <td>393 GPa</td>
+                                    <td>59 × 10³ ksi</td>
+                                    <td>407 GPa</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Modulus of Elasticity – Compression</td>
-                                    <td>57.0 × 10³ ksi</td>
-                                    <td>393 GPa</td>
+                                    <td>59 × 10³ ksi</td>
+                                    <td>407 GPa</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Modulus of Elasticity – Torsion</td>
-                                    <td>20.0 × 10³ ksi</td>
-                                    <td>138 GPa </td>
+                                    <td>20 × 10³ ksi</td>
+                                    <td>138 GPa</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Poisson’s Ratio</td>
-                                    <td>0.28</td>
+                                    <td>0.22</td>
                                     <td>—</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Curie Temperature</td>
-                                    <td>—</td>
-                                    <td>—</td>
+                                    <td>Not applicable</td>
+                                    <td>Not applicable</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -200,43 +200,43 @@
                             <tbody class="text-center">
                                 <tr class="t-row">
                                     <td>Tensile Strength (ksi / MPa)</td>
-                                    <td>100–130 / 690–900</td>
-                                    <td>120–150 / 827–1034</td>
-                                    <td>130–160 / 896–1103</td>
-                                    <td>100–140 / 690–965</td>
-                                    <td>90–130 / 620–896</td>
+                                    <td>300–400 / 2070–2760</td>
+                                    <td>—</td>
+                                    <td>—</td>
+                                    <td>—</td>
+                                    <td>—</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Yield Strength (0.2%) (ksi / MPa)</td>
-                                    <td>90–110 / 620–758</td>
-                                    <td>100–130 / 690–896</td>
-                                    <td>110–140 / 758–965</td>
-                                    <td>90–120 / 620–827</td>
-                                    <td>85–120 / 586–827</td>
+                                    <td>250–350 / 1720–2410</td>
+                                    <td>—</td>
+                                    <td>—</td>
+                                    <td>—</td>
+                                    <td>—</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Elongation (%)</td>
-                                    <td>1–2</td>
-                                    <td>0.5–1.5</td>
-                                    <td>0.5–1</td>
-                                    <td>1–2</td>
-                                    <td>0.5–1</td>
+                                    <td>0.1–1</td>
+                                    <td>—</td>
+                                    <td>—</td>
+                                    <td>—</td>
+                                    <td>—</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Rockwell Hardness (B / C)</td>
                                     <td>—</td>
-                                    <td>70 HR C</td>
-                                    <td>75 HR C</td>
-                                    <td>70 HR C</td>
-                                    <td>65 HR C</td>
+                                    <td>—</td>
+                                    <td>—</td>
+                                    <td>—</td>
+                                    <td>80–90 HRC</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Brinell Hardness (HB)</td>
-                                    <td>300–400</td>
-                                    <td>400–500</td>
-                                    <td>450–550</td>
-                                    <td>350–450</td>
-                                    <td>300–400</td>
+                                    <td>1500–2200</td>
+                                    <td>—</td>
+                                    <td>—</td>
+                                    <td>—</td>
+                                    <td>—</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -265,13 +265,13 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Products in Tungsten</h2>
+                <h2>Products in Carbide Alloys</h2>
             </div>
             <!-- Highlighted Paragraph -->
             <div class="row justify-content-center mb-4" style="text-align: justify;">
                 <div class="col-lg-10">
                     <p class="fs-6">
-                        <strong class="text-dark">Tungsten</strong> is commonly supplied as:
+                        <strong class="text-dark">Carbide Alloys</strong> is commonly supplied as:
                     </p>
                 </div>
             </div>
@@ -296,7 +296,7 @@
             <div class="row justify-content-center mb-3">
                 <div class="col-lg-10">
                     <p class="fw-bold fs-5 text-center my-4" style="color: #174268;">
-                        We supply Tungsten materials in accordance with the most stringent industry standards: </p>
+                        We supply Carbide Alloys materials in accordance with the most stringent industry standards: </p>
                 </div>
             </div>
 
@@ -331,35 +331,35 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>World’s highest melting point among metals (3422°C)</h5>
+                        <h5>Extremely high hardness and wear resistance</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h5>Extremely dense – suitable for radiation and vibration shielding</h5>
+                        <h5>Excellent heat resistance and thermal stability</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h5>Outstanding hardness – ideal for wear-resistant applications</h5>
+                        <h5>High compressive strength and rigidity</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h5>High thermal conductivity – used in heat sinks and crucibles</h5>
+                        <h5>Resistance to corrosion (in WC-Ni grades)</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
-                        <h5>Low thermal expansion – excellent dimensional stability</h5>
+                        <h5>Long service life under extreme conditions</h5>
                     </div>
                 </div>
             </div>
@@ -370,59 +370,64 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Applications of Tungsten</h2>
+                <h2>Applications of Carbide Alloys</h2>
             </div>
 
             <div class="row g-4 justify-content-center">
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
-                        <h5>Aerospace & Defense</h5>
-                        <p>Used in rocket nozzles, radiation shielding, ballast weights, kinetic energy penetrators, and
-                            counterbalances due to its high density and thermal stability.</p>
+                        <h5>Tooling & Machining</h5>
+                        <p>Cutting tools (turning, milling, drilling).</p>
+                        <p>Reamers, end mills, and wear blades.</p>
+                        <p>Stamping and punching dies.</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
-                        <h5>Electronics & Semiconductor Industry</h5>
-                        <p>Applied in filaments, X-ray tubes, sputtering targets, electrical contacts, and semiconductors
-                            for its high melting point and conductivity.</p>
+                        <h5>Mining & Construction</h5>
+                        <p>Button bits, drill rods, chisel tools.</p>
+                        <p>Road planning picks, tunneling bits.</p>
+                        <p>Oil well drilling heads and downhole tools.</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
-                        <h5>Medical Devices</h5>
-                        <p>Tungsten is used in radiation shielding for PET/CT scanners, collimators, and syringes.</p>
+                        <h5>Industrial Wear Parts</h5>
+                        <p>Pump sleeves, seal rings, guide bushings.</p>
+                        <p>Abrasive-resistant liners, wear blocks.</p>
+                        <p>Valves, plungers, and mechanical seals.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-droplet"></i></div>
-                        <h5>Lighting</h5>
-                        <p>Utilized in incandescent lamp filaments and high-intensity discharge lamps.</p>
+                        <h5>Chemical & Energy Industry</h5>
+                        <p>Components exposed to corrosive slurries.</p>
+                        <p>Carbide wear plates in reactors and furnaces.</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
-                        <h5>Metallurgy & Foundries</h5>
-                        <p>Used in sintering boats, crucibles, furnace parts, and tools that endure extreme heat.</p>
+                        <h5>Aerospace & Defense</h5>
+                        <p>Jet engine components, rocket nozzles.</p>
+                        <p>Armor-piercing cores and protective inserts.</p>
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-strategies"></i></div>
-                        <h5>Oil & Gas Industry</h5>
-                        <p>Tungsten is used in drilling tools, wear parts, and logging equipment due to its abrasion
-                            resistance.</p>
-                    </div>
+                {{-- <div class="col-md-6 col-lg-4">
+                <div class="application-card">
+                     <div class="application-icon"><i class="bi bi-strategies"></i></div>
+                    <h5>Why It Works</h5>
+                    <p><strong>HASTELLOY C276’s</strong> combination of corrosion resistance, weldability, and mechanical durability makes it ideal for mission-critical applications where long-term performance is non-negotiable.</p>
                 </div>
+            </div> --}}
             </div>
         </div>
     </section>
@@ -438,35 +443,35 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Wide range of pure and alloyed Tungsten products</h5>
+                        <h5>In-house capability for precision carbide machining</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
-                        <h5>Machining and custom fabrication as per drawing</h5>
+                        <h5>ISO-compliant manufacturing and custom grade development</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
-                        <h5>Strict quality controls and certification</h5>
+                        <h5>End-to-end supply from powder to finished components</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Quick delivery with global logistics</h5>
+                        <h5>Strong network of global clients and OEMs</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
-                        <h5>Competitive pricing and ISO-certified operations</h5>
+                        <h5>Technical assistance and quick turnaround for custom parts</h5>
                     </div>
                 </div>
             </div>
@@ -478,8 +483,8 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    Contact <strong>Moksh Tubes & Fittings LLP</strong> — is your reliable source for high-performance
-                    refractory metals.
+                    Contact <strong>Moksh Tubes & Fittings LLP</strong> — your trusted partner in wear-resistant and
+                    high-strength carbide solutions.
                 </p>
                 <!-- Call button -->
                 <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>

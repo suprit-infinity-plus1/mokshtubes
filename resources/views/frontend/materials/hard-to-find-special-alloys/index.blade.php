@@ -34,12 +34,42 @@
 
             @php
                 $grades = [
-                    ['name' => 'Hard To Find And Special Alloys Carbide', 'slug' => 'hard-to-find-and-special-alloys-carbide', 'image' => 'assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-carbide.webp'],
-                    ['name' => 'Hard To Find And Special Alloys Nimonic', 'slug' => 'hard-to-find-and-special-alloys-nimonic', 'image' => 'assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-nimonic.webp'],
-                    ['name' => 'Hard To Find And Special Alloys Nitinol', 'slug' => 'hard-to-find-and-special-alloys-nitinol', 'image' => 'assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-nitinol.webp'],
-                    ['name' => 'Hard To Find And Special Alloys Stellite', 'slug' => 'hard-to-find-and-special-alloys-stellite', 'image' => 'assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-stellite.webp'],
-                    ['name' => 'Hard To Find And Special Alloys Tantalum', 'slug' => 'hard-to-find-and-special-alloys-tantalum', 'image' => 'assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-tantalum.webp'],
-                    ['name' => 'Hard To Find And Special Alloys Tungsten', 'slug' => 'hard-to-find-and-special-alloys-tungsten', 'image' => 'assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-tungsten.webp'],
+                    [
+                        'name' => 'Hard To Find Special Alloys Carbide',
+                        'slug' => 'hard-to-find-special-alloys-carbide',
+                        'image' =>
+                            'assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-carbide.webp',
+                    ],
+                    [
+                        'name' => 'Hard To Find Special Alloys Nimonic',
+                        'slug' => 'hard-to-find-special-alloys-nimonic',
+                        'image' =>
+                            'assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-nimonic.webp',
+                    ],
+                    [
+                        'name' => 'Hard To Find Special Alloys Nitinol',
+                        'slug' => 'hard-to-find-special-alloys-nitinol',
+                        'image' =>
+                            'assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-nitinol.webp',
+                    ],
+                    [
+                        'name' => 'Hard To Find Special Alloys Stellite',
+                        'slug' => 'hard-to-find-special-alloys-stellite',
+                        'image' =>
+                            'assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-stellite.webp',
+                    ],
+                    [
+                        'name' => 'Hard To Find Special Alloys Tantalum',
+                        'slug' => 'hard-to-find-special-alloys-tantalum',
+                        'image' =>
+                            'assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-tantalum.webp',
+                    ],
+                    [
+                        'name' => 'Hard To Find Special Alloys Tungsten',
+                        'slug' => 'hard-to-find-special-alloys-tungsten',
+                        'image' =>
+                            'assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-tungsten.webp',
+                    ],
                 ];
             @endphp
 
@@ -48,7 +78,7 @@
                     @php
                         $href =
                             $grade['slug'] !== '#'
-                                ? url('/materials/hard-to-find-and-special-alloys/' . $grade['slug'])
+                                ? url('/materials/hard-to-find-special-alloys/' . $grade['slug'])
                                 : '#';
                     @endphp
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3">

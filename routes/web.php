@@ -28,7 +28,7 @@ Route::get('/materials/inconel', [MainController::class, 'inconel'])->name('mate
 Route::get('/materials/titanium', [MainController::class, 'titanium'])->name('materials.titanium');
 Route::get('/materials/aluminium-alloys', action: [MainController::class, 'aluminiumAlloys'])->name('materials.aluminium-Alloys');
 Route::get('/materials/super-austenitic-stainless-steel', action: [MainController::class, 'superAusteniticStainlessSteel'])->name('materials.super-Austenitic-Stainless-Steel');
-Route::get('/materials/hard-to-find-and-special-alloys', action: [MainController::class, 'hardToFindAndSpecialAlloys'])->name('materials.hard-To-Find-And-Special-Alloys');
+Route::get('/materials/hard-to-find-special-alloys', action: [MainController::class, 'hardToFindAndSpecialAlloys'])->name('materials.hard-To-Find-Special-Alloys');
 Route::get('/materials/aluminium-alloys', [MainController::class, 'aluminiumAlloys'])->name('materials.aluminium-Alloys');
 Route::get('/materials/engineering-steels', [MainController::class, 'engineeringSteels'])->name('materials.engineering-Steels');
 Route::get('/materials/austenitic-stainless-steel', [MainController::class, 'austeniticStainlessSteel'])->name('materials.austenitic-stainless-Steel');
