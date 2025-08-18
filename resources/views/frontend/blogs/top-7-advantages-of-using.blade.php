@@ -530,7 +530,7 @@
                 <ul class="recent-post">
                     <li>
                         <div class="img-holder">
-                            <img src="images/blog/thumb1.png" alt="Awesome Image">
+                            <img src="{{ asset('assets/images/blog/thumb1.png') }}" alt="Awesome Image">
                             <div class="overlay-style-two">
                                 <div class="box">
                                     <div class="content">
@@ -555,7 +555,7 @@
                     </li>
                     <li>
                         <div class="img-holder">
-                            <img src="images/blog/thumb2.png" alt="Awesome Image">
+                            <img src="{{ asset('assets/images/blog/thumb2.png') }}" alt="Awesome Image">
                             <div class="overlay-style-two">
                                 <div class="box">
                                     <div class="content">
@@ -580,7 +580,7 @@
                     </li>
                     <li>
                         <div class="img-holder">
-                            <img src="images/blog/thumb3.png" alt="Awesome Image">
+                            <img src="{{ asset('assets/images/blog/thumb3.png') }}" alt="Awesome Image">
                             <div class="overlay-style-two">
                                 <div class="box">
                                     <div class="content">
