@@ -1,8 +1,12 @@
 @extends('layouts.master')
 
 @section('title', 'Austenitic Stainless Steel 316 | Marine Grade SS')
-@section('meta_description', 'Corrosion-resistant Austenitic Stainless Steel 316 pipes & fittings ideal for marine, chemical, and food processing industries.')
-@section('meta_keywords', 'Austenitic Stainless Steel 316, Stainless Steel 316 Pipes, Stainless Steel 316 Tubes, Stainless Steel 316 Fittings, Marine Grade Stainless Steel 316, Corrosion Resistant Stainless Steel 316, Chemical Processing Stainless Steel 316, Food Grade Stainless Steel 316, Industrial Stainless Steel 316, High Strength Stainless Steel 316')
+@section('meta_description', 'Corrosion-resistant Austenitic Stainless Steel 316 pipes & fittings ideal for marine,
+    chemical, and food processing industries.')
+@section('meta_keywords', 'Austenitic Stainless Steel 316, Stainless Steel 316 Pipes, Stainless Steel 316 Tubes,
+    Stainless Steel 316 Fittings, Marine Grade Stainless Steel 316, Corrosion Resistant Stainless Steel 316, Chemical
+    Processing Stainless Steel 316, Food Grade Stainless Steel 316, Industrial Stainless Steel 316, High Strength Stainless
+    Steel 316')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -484,6 +488,126 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What is Austenitic Stainless Steel 316 and what makes it different from 304 stainless
+                                    steel?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Austenitic Stainless Steel 316 is a molybdenum-alloyed stainless steel that offers
+                                    superior resistance to chloride corrosion, pitting, and crevice attack compared to
+                                    Stainless Steel 304. Its enhanced durability makes it the preferred choice for marine,
+                                    chemical, and pharmaceutical industries where exposure to aggressive environments is
+                                    common.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What are the key properties of Stainless Steel 316?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>SS 316 provides:</p>
+                                <ul>
+                                    <li>Excellent resistance to chlorides, acids, and harsh chemicals.</li>
+                                    <li>Good mechanical strength and toughness across temperature ranges.</li>
+                                    <li>Outstanding weldability and formability.</li>
+                                    <li>Oxidation resistance at elevated temperatures.</li>
+                                    <li>Biocompatibility, making it safe for medical and food applications.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Where is Stainless Steel 316 commonly used?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>Stainless Steel 316 is widely used in industries requiring high corrosion resistance and
+                                    hygiene, including:</p>
+                                <ul>
+                                    <li>Marine applications (boat fittings, propeller shafts, seawater-exposed fasteners).
+                                    </li>
+                                    <li>Chemical and petrochemical processing (storage tanks, pipelines, heat exchangers).
+                                    </li>
+                                    <li>Food & beverage industry (dairy equipment, brewing tanks, hygienic machinery).</li>
+                                    <li>Pharmaceutical industry (sanitary fittings and processing equipment).</li>
+                                    <li>Medical instruments (surgical tools, implants, biocompatible devices).</li>
+                                    <li>Construction (cladding, handrails, coastal structures).</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Why is Stainless Steel 316 preferred for marine and chemical applications?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    SS 316 contains 2–3% molybdenum, which gives it superior resistance to chloride-induced
+                                    corrosion and pitting compared to 304 stainless steel. This makes it the ideal material
+                                    for seawater environments, acidic solutions, and aggressive chemical conditions,
+                                    ensuring durability and long service life.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Who is the best supplier of Stainless Steel 316 in India?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Moksh Tubes & Fittings LLP is a leading manufacturer, supplier, exporter, importer, and
+                                    stockist of Stainless Steel 316 products. They provide a wide range of pipes, tubes,
+                                    sheets, plates, bars, flanges, fittings, and fasteners in compliance with international
+                                    standards. With custom sizing, global delivery, competitive pricing, and strong
+                                    technical support, Moksh Tubes & Fittings LLP is a trusted partner for industries
+                                    worldwide.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

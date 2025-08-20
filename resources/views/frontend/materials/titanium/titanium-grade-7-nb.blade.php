@@ -1,8 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Titanium Grade 7 Nb | Niobium Stabilized Titanium Alloy')
-@section('meta_description', 'Titanium Grade 7 Nb alloy with excellent corrosion resistance, especially in reducing environments.')
-@section('meta_keywords', 'Titanium Grade 7 Nb, Niobium Stabilized Titanium, Corrosion Resistant Titanium, Titanium Grade 7 Nb Pipes, Titanium Grade 7 Nb Tubes, Titanium Grade 7 Nb Sheets, Reducing Environment Resistant Titanium, Chemical Processing Titanium, Industrial Titanium Alloys, High Performance Titanium')
+@section('meta_description', 'Titanium Grade 7 Nb alloy with excellent corrosion resistance, especially in reducing
+    environments.')
+@section('meta_keywords', 'Titanium Grade 7 Nb, Niobium Stabilized Titanium, Corrosion Resistant Titanium, Titanium
+    Grade 7 Nb Pipes, Titanium Grade 7 Nb Tubes, Titanium Grade 7 Nb Sheets, Reducing Environment Resistant Titanium,
+    Chemical Processing Titanium, Industrial Titanium Alloys, High Performance Titanium')
 
 @section('content')
 
@@ -487,6 +490,105 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Titanium Grade 7 NB (Ti-0.2Pd) and why is it used?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Titanium Grade 7 NB, also known as Ti-0.2Pd (UNS R52400), is a corrosion resistant,
+                                    alpha phase titanium alloy. It shares the mechanical properties of Grade 2 titanium but
+                                    includes palladium (0.12–0.25%) for enhanced resistance against acids and chlorides.
+                                    These characteristics make it ideal for chemical processing, desalination, marine, and
+                                    other aggressive environments where long lasting performance is critical.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What types of Titanium Grade 7 NB products are offered by MOKSH TUBES & FITTINGS LLP?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP provides an extensive range of Grade 7 NB products, including
+                                    seamless and welded pipes, tubes, sheets, plates, coils, bars, wires, fasteners,
+                                    flanges, forgings, and custom fabricated components. All products are manufactured to
+                                    international standards and are suitable for high performance applications in
+                                    corrosion prone environments.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the key advantages of Titanium Grade 7 NB?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Titanium Grade 7 NB offers exceptional corrosion resistance, especially in acidic,
+                                    chloride, and brine-rich environments. It features excellent weldability without
+                                    post weld heat treatment, a high strength to weight ratio, biocompatibility, and
+                                    superior machinability and formability. These properties make it ideal for industries
+                                    that require durable performance in harsh chemical conditions.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Which industries benefit most from Titanium Grade 7 NB products?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Industries that benefit from Titanium Grade 7 NB include chemical processing for piping
+                                    and tanks, desalination plants for brine handling systems, pulp and paper for bleach
+                                    tanks and digesters, power generation for condenser and feedwater systems,
+                                    pharmaceutical and food sectors for sanitary equipment, and pollution control systems
+                                    for scrubbers and reactors exposed to corrosive gases.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for Titanium Grade 7 NB solutions?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    With decades of expertise, MOKSH TUBES & FITTINGS LLP delivers globally sourced,
+                                    high quality Grade 7 NB products with full traceability and strict quality control. The
+                                    company provides custom-fabricated components tailored to specific requirements, ensures
+                                    timely delivery, and offers expert technical support, making it a trusted partner for
+                                    industries operating in aggressive environments.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

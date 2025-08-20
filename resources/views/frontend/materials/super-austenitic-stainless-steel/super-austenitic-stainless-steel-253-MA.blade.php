@@ -1,8 +1,10 @@
 @extends('layouts.master')
 
 @section('title', '253 MA | Heat & Oxidation Resistant Alloy')
-@section('meta_description', 'Specialized for high-temperature industrial environments, maintaining strength and oxidation resistance up to 1150°C.')
-@section('meta_keywords', '253 MA, Heat Resistant Alloy, Oxidation Resistant Alloy, High Temperature Alloy, 253 MA Pipes, 253 MA Tubes, 253 MA Fittings, Industrial Heat Resistant Alloys, High Strength Alloy, Corrosion Resistant Alloy')
+@section('meta_description', 'Specialized for high-temperature industrial environments, maintaining strength and
+    oxidation resistance up to 1150°C.')
+@section('meta_keywords', '253 MA, Heat Resistant Alloy, Oxidation Resistant Alloy, High Temperature Alloy, 253 MA
+    Pipes, 253 MA Tubes, 253 MA Fittings, Industrial Heat Resistant Alloys, High Strength Alloy, Corrosion Resistant Alloy')
 
 @section('content')
 
@@ -31,7 +33,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/super-austenitic-stainless-steel/super-austenitic-stainless-steel-253.webp') }}" alt="253 MA" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/super-austenitic-stainless-steel/super-austenitic-stainless-steel-253.webp') }}"
+                        alt="253 MA" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -467,6 +470,106 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's - 253 MA Stainless Steel (UNS S30815 / EN 1.4835)</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is 253 MA stainless steel and its key features?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    253 MA (UNS S30815 / EN 1.4835) is a high-temperature austenitic stainless steel
+                                    developed for excellent oxidation resistance, high creep strength, and structural
+                                    stability at elevated temperatures. Originally developed by Outokumpu, it contains
+                                    moderate nickel along with rare earth and alkali metal additions, providing superior
+                                    performance in high thermal stress, cyclic heating, and corrosive environments, with
+                                    service temperatures up to 1150°C (2100°F).
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What types of 253 MA products does Moksh Tubes & Fittings LLP supply?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Moksh Tubes & Fittings LLP offers a comprehensive range of 253 MA products including
+                                    seamless and welded pipes (ERW & EFW), capillary, U-bend, boiler, and heat exchanger
+                                    tubes, sheets, plates, coils, strips, round bars, flat bars, hex bars, square bars, pipe
+                                    fittings, flanges, fasteners, wire mesh, and custom-fabricated components. All products
+                                    meet stringent industry standards for high-temperature applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the advantages of using 253 MA stainless steel?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    253 MA provides outstanding oxidation resistance up to 1150°C (2100°F), excellent creep
+                                    rupture strength, and structural stability at elevated temperatures. It is
+                                    cost-efficient due to its lower nickel content compared to other heat-resistant alloys,
+                                    has good weldability and fabricability, and performs reliably under high-stress and
+                                    corrosive conditions.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Which industries commonly use 253 MA materials?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    253 MA is widely used in industries requiring high-temperature resistance and mechanical
+                                    stability, including heat treatment equipment (furnace parts, rollers, and radiant
+                                    tubes), petrochemical (reformer tubes, burners, catalyst supports), power generation
+                                    (boilers, superheaters, heat exchangers), cement and lime kilns (lifters, anchor bolts,
+                                    refractory supports), incineration and waste processing, and steel and glass
+                                    manufacturing (conveyor belts, flame shields, hot zones).
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose Moksh Tubes & Fittings LLP for 253 MA supply?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Moksh Tubes & Fittings LLP specializes in high-performance heat-resistant alloys like
+                                    253 MA, offering rigorous quality control with EN 10204 3.1 / 3.2 certifications,
+                                    ready-to-ship inventory, custom sizes, fast turnaround, and technical metallurgical
+                                    support. Their global logistics capabilities ensure reliable supply and precision
+                                    products for demanding industrial applications.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

@@ -1,8 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Titanium Grade 7 | Corrosion Resistant Titanium Alloy')
-@section('meta_description', 'Titanium Grade 7 providing excellent resistance to oxidizing and reducing environments in chemical industries.')
-@section('meta_keywords', 'Titanium Grade 7, Corrosion Resistant Titanium, Titanium Grade 7 Pipes, Titanium Grade 7 Tubes, Titanium Grade 7 Sheets, Oxidizing Resistant Titanium, Reducing Environment Titanium, Chemical Industry Titanium, Industrial Titanium Alloys, High Performance Titanium')
+@section('meta_description', 'Titanium Grade 7 providing excellent resistance to oxidizing and reducing environments in
+    chemical industries.')
+@section('meta_keywords', 'Titanium Grade 7, Corrosion Resistant Titanium, Titanium Grade 7 Pipes, Titanium Grade 7
+    Tubes, Titanium Grade 7 Sheets, Oxidizing Resistant Titanium, Reducing Environment Titanium, Chemical Industry Titanium,
+    Industrial Titanium Alloys, High Performance Titanium')
 
 @section('content')
 
@@ -482,6 +485,99 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Titanium Grade 7?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Titanium Grade 7 is a corrosion resistant titanium alloy that contains palladium,
+                                    providing superior strength, weldability, and durability. It is particularly suited for
+                                    chemical, marine, and industrial applications that demand high performance and
+                                    long-lasting reliability.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the common applications of Titanium Grade 7?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Titanium Grade 7 is widely used in chemical processing plants, desalination systems,
+                                    marine equipment, power generation facilities, pharmaceutical processing, and pollution
+                                    control systems. It provides excellent resistance to acids, brines, and harsh industrial
+                                    environments, ensuring long term performance in challenging conditions.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What products are available in Titanium Grade 7?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP supplies Titanium Grade 7 in a wide range of products,
+                                    including pipes, tubes, sheets, plates, coils, bars, fittings, flanges, fasteners, and
+                                    custom fabricated components. All products are manufactured to strict international
+                                    standards for high-performance industrial applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose Titanium Grade 7 NB for harsh environments?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Titanium Grade 7 NB contains palladium, which enhances resistance to hydrochloric and
+                                    sulfuric acids, brines, and chloride-rich conditions. It maintains excellent
+                                    weldability, mechanical strength, and durability, making it ideal for critical
+                                    industrial environments where reliability is essential.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS LLP?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP provides premium Titanium Grade 7 products with global
+                                    sourcing, custom fabrication, strict quality control, fast delivery, and expert
+                                    technical support. We ensure reliable, high-performance solutions for demanding
+                                    industrial and chemical applications.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

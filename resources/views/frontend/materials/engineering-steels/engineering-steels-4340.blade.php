@@ -1,8 +1,10 @@
 @extends('layouts.master')
 
 @section('title', '4340 Alloy Steel | High Tensile Strength Alloy')
-@section('meta_description', '4340 Alloy Steel delivers superior toughness and fatigue resistance for critical applications.')
-@section('meta_keywords', '4340 Alloy Steel, high tensile strength steel, tough steel, fatigue resistant steel, alloy steel for critical applications, industrial alloy steel')
+@section('meta_description', '4340 Alloy Steel delivers superior toughness and fatigue resistance for critical
+    applications.')
+@section('meta_keywords', '4340 Alloy Steel, high tensile strength steel, tough steel, fatigue resistant steel, alloy
+    steel for critical applications, industrial alloy steel')
 
 @section('content')
 
@@ -467,6 +469,114 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is EN 4340 steel and why is it used in industries?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    EN 4340 is a high strength, low-alloy steel containing nickel, chromium, and molybdenum,
+                                    which provide superior toughness, hardenability, and wear resistance.
+                                    Known for its excellent fatigue strength and ability to perform under high stress, 4340
+                                    is widely used in aerospace, automotive, oil and gas, and heavy machinery industries
+                                    where strength, impact resistance, and durability are critical.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the key chemical and mechanical properties of EN 4340 steel?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    EN 4340 steel has a chemical composition that includes 0.38–0.43% carbon, 1.65–2.00%
+                                    nickel, 0.70–0.90% chromium, and 0.20–0.30% molybdenum, along with manganese, silicon,
+                                    phosphorus, and sulfur in controlled amounts.
+                                    It exhibits tensile strength between 930–1080 MPa, yield strength of 745–930 MPa,
+                                    elongation of 12–16%, and hardness of 28–34 HRC.
+                                    With excellent impact toughness and fatigue resistance, EN 4340 provides outstanding
+                                    performance in demanding environments.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What EN 4340 steel products are supplied by MOKSH TUBES & FITTINGS LLP?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP offers a wide range of EN 4340 steel products including
+                                    seamless and welded pipes, tubes, sheets, plates, coils, strips, round bars, hex bars,
+                                    flat bars, square bars, pipe fittings, flanges, fasteners, and custom-fabricated
+                                    components.
+                                    All products are manufactured to meet international quality standards and can be
+                                    supplied in both standard and customized dimensions to suit industry-specific
+                                    requirements.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the major applications of EN 4340 steel?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    EN 4340 steel is extensively used in aerospace and defense for aircraft landing gear,
+                                    structural parts, and high-strength fasteners.
+                                    In the automotive industry, it is applied in crankshafts, axles, gears, and drive shafts
+                                    exposed to heavy loads.
+                                    Heavy machinery and industrial equipment use EN 4340 for shafts, bolts, and connecting
+                                    rods requiring durability and fatigue resistance,
+                                    while the oil and gas industry applies it in drill collars, valve components, and
+                                    high-pressure equipment.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for EN 4340 steel materials?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP is a trusted global supplier and exporter of EN 4340 alloy
+                                    steel with a comprehensive stock in multiple forms and sizes.
+                                    The company provides customized cutting, forging, and processing services backed by
+                                    expert technical support.
+                                    With stringent quality control, international certifications, reliable worldwide
+                                    deliveries, and competitive pricing,
+                                    MOKSH TUBES & FITTINGS LLP ensures superior EN 4340 steel solutions tailored to diverse
+                                    industrial needs.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

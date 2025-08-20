@@ -1,8 +1,13 @@
 @extends('layouts.master')
 
 @section('title', 'Aluminium Alloy 6012 | Heat Treatable Aluminium')
-@section('meta_description', 'Heat treatable Aluminium 6012 with good corrosion resistance and strength for automotive and structural uses.')
-@section('meta_keywords', 'Aluminium Alloy 6012, Heat Treatable Aluminium, Aluminium 6012 Pipes, Aluminium 6012 Tubes, Aluminium 6012 Sheets, Corrosion Resistant Aluminium, High Strength Aluminium, Automotive Aluminium Alloys, Structural Aluminium Alloys, Industrial Aluminium Grades')
+@section('meta_description',
+    'Heat treatable Aluminium 6012 with good corrosion resistance and strength for automotive
+    and structural uses.')
+@section('meta_keywords',
+    'Aluminium Alloy 6012, Heat Treatable Aluminium, Aluminium 6012 Pipes, Aluminium 6012 Tubes,
+    Aluminium 6012 Sheets, Corrosion Resistant Aluminium, High Strength Aluminium, Automotive Aluminium Alloys, Structural
+    Aluminium Alloys, Industrial Aluminium Grades')
 
 @section('content')
 
@@ -454,6 +459,128 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn ">
+                                <h4>
+                                    What is Aluminium Alloy 6012 and what are its key properties?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Aluminium Alloy 6012 is a heat treatable wrought <a
+                                        href="{{ route('materials.aluminium-Alloys') }}">aluminum alloy</a> designed for
+                                    automotive,
+                                    structural, and general <a
+                                        href="{{ route('materials.engineering-Steels') }}">engineering</a> applications. It
+                                    offers an excellent balance of
+                                    strength, ductility, machinability, and corrosion resistance. The alloy is widely used
+                                    where lightweight <a href="{{ route('materials') }}">material</a> with good surface
+                                    finish is required.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What are the common applications of Aluminium 6012?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Aluminium 6012 is used in a variety of industries, including:
+                                </p>
+                                <ul>
+                                    <li><strong>Automotive</strong>: Body panels, structural components, chassis parts.</li>
+                                    <li><strong>Electrical</strong>: Housings, connectors, and conductive component.</li>
+                                    <li><strong>Structural</strong>: Frames, supports, and architectural fittings.
+                                    </li>
+                                    <li><strong>Consumer Goods</strong>: Sports equipment, appliances, and furniture.</li>
+                                    <li><strong>Industrial Fabrication</strong>: Extrusions, plates, and rods requiring
+                                        corrosion resistance and strength.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Is Aluminium Alloy 6012 suitable for welding and surface treatments?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Yes, Aluminium 6012 provides good weldability and is suitable for anodizing and other
+                                    surface treatments, making it ideal for both functional and decorative applications. It
+                                    also delivers a smooth surface finish, which is highly beneficial in automotive and
+                                    consumer product manufacturing.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What are the main advantages of Aluminium 6012?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Key benefits of Aluminium Alloy 6012 include:
+                                </p>
+                                <ul>
+                                    <li>Balanced strength and ductility for versatile applications.</li>
+                                    <li>Excellent corrosion resistance in atmospheric environments.</li>
+                                    <li>Outstanding machinability and workability.</li>
+                                    <li>Lightweight with high formability.</li>
+                                    <li>Suitable for anodizing and surface finishing.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What Aluminium 6012 products does Moksh Tubes & Fittings LLP supply?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Moksh Tubes & Fittings LLP offers a wide range of Aluminium 6012 products, including:
+                                <ul>
+                                    <li>Sheets, Plates, Coils & Strips.</li>
+                                    <li>Pipes & Tubes (<a
+                                            href="{{ route('products.pipes-tubes.seamless-pipes') }}">Seamless</a>, <a
+                                            href="{{ route('products.pipes-tubes.welded-pipes') }}">Welded</a>, Heat
+                                        Exchanger, U-Bend).</li>
+                                    <li>Bars & Rods (Round, Hex, Flat, Square).</li>
+                                    <li>Pipe Fittings, Flanges, and Fasteners.</li>
+                                    <li>Custom Fabricated Components tailored to customer needs.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

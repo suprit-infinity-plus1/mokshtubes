@@ -1,8 +1,10 @@
 @extends('layouts.master')
 
 @section('title', 'Copper Alloy C71500 | High Strength & Corrosion Resistance')
-@section('meta_description', 'Copper Alloy C71500 with superior strength and corrosion resistance for marine and industrial uses.')
-@section('meta_keywords', 'Copper Alloy C71500, high strength copper alloy, corrosion resistant copper, marine copper alloy, industrial copper alloy')
+@section('meta_description', 'Copper Alloy C71500 with superior strength and corrosion resistance for marine and
+    industrial uses.')
+@section('meta_keywords', 'Copper Alloy C71500, high strength copper alloy, corrosion resistant copper, marine copper
+    alloy, industrial copper alloy')
 
 
 @section('content')
@@ -478,6 +480,130 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What is Copper Nickel 70/30 (C71500) and why is it widely used?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Copper Nickel 70/30, also known as C71500, is an alloy made of 70% copper and 30% nickel
+                                    with small additions of iron and manganese for added strength. It is highly valued for
+                                    its exceptional resistance to seawater corrosion, biofouling, and stress corrosion
+                                    cracking, making it ideal for marine, offshore, and heat exchanger applications.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What are the key benefits of Copper Nickel 70/30 (C71500)?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>C71500 offers several performance advantages:</p>
+                                <ul>
+                                    <li>Outstanding seawater corrosion resistance.</li>
+                                    <li>High mechanical strength and toughness.</li>
+                                    <li>Non-magnetic and spark-resistant properties.</li>
+                                    <li>Excellent weldability, machinability, and formability.</li>
+                                    <li>Thermal and electrical stability under high pressure and elevated temperatures.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What are the common applications of Copper Nickel C71500?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>C71500 is widely used in:</p>
+                                <ul>
+                                    <li>Marine engineering seawater piping, condensers, saltwater flanges, ship hulls,
+                                        offshore platforms.</li>
+                                    <li>Power plants heat exchangers, evaporators, condensers.</li>
+                                    <li>Desalination plants brine heaters, flash chambers, high-pressure piping.</li>
+                                    <li>Chemical processing acid-resistant piping and vessels.</li>
+                                    <li>Oil & Gas hydraulic lines, firewater systems, instrumentation tubing.</li>
+                                    <li>Naval & Defense submarine components, seawater coolers, anti-fouling systems.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What types of Copper Nickel 70/30 (C71500) products does MOKSH TUBES & FITTINGS LLP
+                                    supply?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>We offer a full range of C71500 Copper Nickel products, including:</p>
+                                <ul>
+                                    <li>Seamless & Welded Pipes.</li>
+                                    <li>Tubes (U-bend, boiler, heat exchanger).</li>
+                                    <li>Sheets, Plates, Coils & Strips.</li>
+                                    <li>Round Bars, Hex Bars, Square Bars.</li>
+                                    <li>Pipe Fittings (elbows, tees, reducers, caps, stub ends).</li>
+                                    <li>Flanges (weld neck, slip on, blind, threaded, socket weld).</li>
+                                    <li>Fasteners (bolts, nuts, washers, studs).</li>
+                                    <li>Custom-fabricated components.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Why choose MOKSH TUBES & FITTINGS LLP for Copper Nickel 70/30 (C71500)?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>MOKSH TUBES & FITTINGS LLP is a leading manufacturer, supplier, and exporter of Copper
+                                    Nickel 70/30 with:</p>
+                                <ul>
+                                    <li>In house manufacturing and a wide product range.</li>
+                                    <li>Fast delivery & customized supply for project needs.</li>
+                                    <li>Stringent quality control and third party inspection (TPI available).</li>
+                                    <li>Export ready packaging and worldwide delivery.</li>
+                                    <li>Trusted supplier for marine, power, desalination, oil & gas, and defense
+                                        industries.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

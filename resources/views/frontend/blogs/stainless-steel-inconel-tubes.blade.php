@@ -295,34 +295,17 @@
                                     </div>
                                 </section>
 
-                                <section class="sec-padd-top ">
-                                    <div class="container">
-                                        <div class="section-title center">
-                                            <h2>Conclusion</h2>
-                                        </div>
-                                        <div class="row align-items-center">
-                                            <div class="col-md-12">
-                                                <div class="pe-md-3">
-                                                    <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                                                        Selecting between stainless steel and Inconel tubes hinges on your
-                                                        industrial requirements, environmental conditions, and budget
-                                                        constraints. Stainless steel is ideal for cost-effective
-                                                        applications with moderate conditions, while Inconel excels in
-                                                        extreme environments demanding superior strength and corrosion
-                                                        resistance.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
+
 
                                 <!--Start faq content area-->
-                                <section class="faq-content-area">
+                                <section class="faq-content-area sec-padd-top">
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                                 <div class="accordion-box">
+                                                    <div class="blog-title text-center">
+                                                        <h2>FAQ's</h2>
+                                                    </div>
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
@@ -339,11 +322,11 @@
                                                     <!--End single accordion box-->
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
-                                                        <div class="accord-btn active">
+                                                        <div class="accord-btn ">
                                                             <h4>When should I use stainless steel tubes instead of Inconel?
                                                             </h4>
                                                         </div>
-                                                        <div class="accord-content collapsed">
+                                                        <div class="accord-content ">
                                                             <p>Use stainless steel tubes for moderate operating conditions,
                                                                 where cost and ease of fabrication are priorities, and
                                                                 corrosion levels are not severe.</p>
@@ -399,10 +382,32 @@
                                 <!--End faq content area-->
 
 
+                                <section class="sec-padd-top ">
+                                    <div class="container">
+                                        <div class="section-title center">
+                                            <h2>Conclusion</h2>
+                                        </div>
+                                        <div class="row align-items-center">
+                                            <div class="col-md-12">
+                                                <div class="pe-md-3">
+                                                    <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
+                                                        Selecting between stainless steel and Inconel tubes hinges on your
+                                                        industrial requirements, environmental conditions, and budget
+                                                        constraints. Stainless steel is ideal for cost-effective
+                                                        applications with moderate conditions, while Inconel excels in
+                                                        extreme environments demanding superior strength and corrosion
+                                                        resistance.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <!--Start sidebar Wrapper-->
                 <div class="col-lg-3 col-md-4 col-sm-7 col-xs-12">
                     <div class="sidebar-wrapper">
@@ -527,9 +532,63 @@
                         </div>
                         <!--End single sidebar-->
 
+                        <section class="contact-form-area sec-padd-top">
+                            <div class="single-sidebar overflow-visible" style="position: relative;">
+                                <div class="contact-form" style="position: sticky; top: 20px;">
+                                    <div class="section-title">
+                                        <h2>get in <span class="thm-color">touch</span></h2>
+                                        <p>Let’s forge a connection — contact our team today.</p>
+                                    </div>
+
+                                    <form id="contact-form" name="contact_form" class="default-form"
+                                        action="inc/sendmail.php" method="post">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <input class="m-1" type="text" name="form_name" placeholder="Your Name*"
+                                                    required="">
+                                            </div>
+                                            <div class="col-md-12">
+                                                <input class="m-1" type="email" name="form_email" placeholder="Your Mail*"
+                                                    required="">
+                                            </div>
+                                            <div class="col-md-12">
+                                                <input class="m-1" type="text" name="form_phone" placeholder="Phone">
+                                            </div>
+                                            <div class="col-md-12">
+                                                <input class="m-1" type="text" name="form_subject" placeholder="Subject">
+                                            </div>
+                                            <div class="col-md-12">
+                                                <textarea name="form_message" placeholder="Your Message.." required=""></textarea>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <input id="form_botcheck" name="form_botcheck" type="hidden"
+                                                    value="">
+                                                <button class="thm-btn bg-clr1" type="submit"
+                                                    data-loading-text="Please wait...">
+                                                    send message
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </section>
+                        <!--End Sidebar Wrapper-->
                     </div>
                 </div>
-                <!--End Sidebar Wrapper-->
+
+    </section>
+    <section class="pt-4 mb-5 col-12">
+        <div class="container">
+            <div class="contact-cta-box">
+                <h2>Contact Us</h2>
+                <p>
+                    AT<strong> Moksh Tubes & Fittings LLP</strong>, we’re dedicated to making
+                    your purchases seamless offering expert advice, a wide inventory of
+                    certified products, and global support for every order, large or small.
+                </p>
+                <!-- Call button -->
+                <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
             </div>
         </div>
     </section>

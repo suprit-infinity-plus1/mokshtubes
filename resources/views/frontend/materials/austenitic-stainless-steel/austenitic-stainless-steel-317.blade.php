@@ -1,8 +1,12 @@
 @extends('layouts.master')
 
 @section('title', 'Austenitic Stainless Steel 317 | Superior Corrosion SS')
-@section('meta_description', 'Austenitic Stainless Steel 317 pipes & fittings providing enhanced corrosion resistance for harsh chemical environments.')
-@section('meta_keywords', 'Austenitic Stainless Steel 317, Stainless Steel 317 Pipes, Stainless Steel 317 Tubes, Stainless Steel 317 Fittings, Corrosion Resistant Stainless Steel 317, Chemical Processing Stainless Steel 317, Marine Grade Stainless Steel 317, Industrial Stainless Steel 317, High Strength Stainless Steel 317, Harsh Environment Stainless Steel 317')
+@section('meta_description', 'Austenitic Stainless Steel 317 pipes & fittings providing enhanced corrosion resistance
+    for harsh chemical environments.')
+@section('meta_keywords', 'Austenitic Stainless Steel 317, Stainless Steel 317 Pipes, Stainless Steel 317 Tubes,
+    Stainless Steel 317 Fittings, Corrosion Resistant Stainless Steel 317, Chemical Processing Stainless Steel 317, Marine
+    Grade Stainless Steel 317, Industrial Stainless Steel 317, High Strength Stainless Steel 317, Harsh Environment
+    Stainless Steel 317')
 
 @section('content')
 
@@ -480,6 +484,122 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What is Austenitic Stainless Steel 317 and how is it different from 316 stainless steel?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Austenitic Stainless Steel 317 is a molybdenum-rich stainless steel that offers greater
+                                    corrosion resistance than SS 316, especially in environments containing chlorides,
+                                    acids, and aggressive chemicals. With 3–4% molybdenum content, SS 317 provides superior
+                                    resistance to pitting and crevice corrosion, making it ideal for chemical processing,
+                                    pollution control, and marine applications.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What are the key properties of Stainless Steel 317?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>SS 317 offers:</p>
+                                <ul>
+                                    <li>Enhanced resistance to chlorides, sulfuric acid, phosphoric acid, and acidic
+                                        environments.</li>
+                                    <li>Superior protection against pitting and crevice corrosion compared to SS 316.</li>
+                                    <li>High mechanical strength and toughness at both ambient and elevated temperatures.
+                                    </li>
+                                    <li>Excellent weldability and formability.</li>
+                                    <li>Good resistance after welding due to controlled carbon content.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Where is Stainless Steel 317 commonly used?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>SS 317 is widely used in:</p>
+                                <ul>
+                                    <li>Chemical processing plants (tanks, reactors, heat exchangers).</li>
+                                    <li>Pollution control equipment (scrubbers, flue gas stacks).</li>
+                                    <li>Marine and offshore industries (seawater-exposed components).</li>
+                                    <li>Food and beverage processing (handling acidic foods and cleaning chemicals).</li>
+                                    <li>Pharmaceutical industry (corrosion-resistant processing equipment).</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Why is Stainless Steel 317 preferred over 316 in aggressive environments?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Stainless Steel 317 has a higher molybdenum content (3–4%) compared to 316, which
+                                    significantly improves its resistance to localized corrosion like pitting and crevice
+                                    attack. This makes SS 317 the preferred choice for severe chemical, marine, and acidic
+                                    service conditions where SS 316 may not provide adequate durability.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Who is a reliable supplier of Stainless Steel 317 in India?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Moksh Tubes & Fittings LLP is a trusted manufacturer, supplier, exporter, importer, and
+                                    stockist of Stainless Steel 317 products. They supply pipes, tubes, sheets, plates,
+                                    bars, flanges, fittings, and fasteners manufactured to international quality standards.
+                                    With competitive pricing, global supply reliability, and expert technical support, Moksh
+                                    Tubes & Fittings LLP is a preferred partner for industries worldwide.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

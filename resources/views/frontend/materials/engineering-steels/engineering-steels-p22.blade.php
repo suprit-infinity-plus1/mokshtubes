@@ -1,8 +1,10 @@
 @extends('layouts.master')
 
 @section('title', 'P22 Alloy Steel | Chromium-Molybdenum Alloy Steel')
-@section('meta_description', 'P22 Alloy Steel ideal for high pressure and temperature applications in power generation industries.')
-@section('meta_keywords', 'P22 Alloy Steel, chromium-molybdenum alloy steel, high pressure steel, high temperature steel, power plant alloy steel, industrial alloy steel')
+@section('meta_description', 'P22 Alloy Steel ideal for high pressure and temperature applications in power generation
+    industries.')
+@section('meta_keywords', 'P22 Alloy Steel, chromium-molybdenum alloy steel, high pressure steel, high temperature
+    steel, power plant alloy steel, industrial alloy steel')
 
 @section('content')
 
@@ -477,6 +479,95 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is P22 steel used for?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    P22 steel is used in high temperature and high-pressure applications such as boiler
+                                    tubes, superheater and reheater tubes, heat exchangers, pressure vessels, and refinery
+                                    piping in power plants, petrochemical, and oil & gas industries.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the key properties of P22 steel?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    P22 steel provides excellent strength, high creep resistance, corrosion and oxidation
+                                    resistance at elevated temperatures, good weldability, and reliable mechanical
+                                    performance for long term service.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>In what forms is P22 steel available?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    P22 steel is available as seamless and welded pipes, tubes, sheets, plates, bars,
+                                    flanges, fasteners, and custom fabricated components to meet diverse industrial
+                                    requirements.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why is P22 steel preferred for high-temperature applications?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    With chromium, molybdenum, and nickel alloying, P22 steel offers superior
+                                    high temperature strength, creep resistance, and corrosion resistance, making it
+                                    suitable for boilers, superheaters, and pressure vessels operating under severe
+                                    conditions.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for P22 steel?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    We provide certified P22 steel products with extensive stock, custom sizing, technical
+                                    expertise, competitive pricing, timely delivery, and full traceability to ensure
+                                    reliable performance in critical applications.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

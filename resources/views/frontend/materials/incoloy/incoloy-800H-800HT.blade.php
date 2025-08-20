@@ -1,8 +1,12 @@
 @extends('layouts.master')
 
 @section('title', 'Incoloy 800H and 800HT | Enhanced Heat-Resistant Alloy')
-@section('meta_description', 'With superior creep and rupture strength, Incoloy 800H and 800HT thrives in petrochemical, heat treatment, and power generation applications.')
-@section('meta_keywords', 'Incoloy 800H, Incoloy 800HT, Incoloy 800H Pipes, Incoloy 800HT Pipes, Incoloy 800H Tubes, Incoloy 800HT Tubes, Incoloy 800H Fittings, Incoloy 800HT Fittings, Heat Resistant Incoloy 800H, Heat Resistant Incoloy 800HT, High Temperature Incoloy 800H, High Temperature Incoloy 800HT, Creep Resistant Incoloy 800H, Creep Resistant Incoloy 800HT, Petrochemical Incoloy 800H, Power Generation Incoloy 800HT')
+@section('meta_description', 'With superior creep and rupture strength, Incoloy 800H and 800HT thrives in petrochemical,
+    heat treatment, and power generation applications.')
+@section('meta_keywords', 'Incoloy 800H, Incoloy 800HT, Incoloy 800H Pipes, Incoloy 800HT Pipes, Incoloy 800H Tubes,
+    Incoloy 800HT Tubes, Incoloy 800H Fittings, Incoloy 800HT Fittings, Heat Resistant Incoloy 800H, Heat Resistant Incoloy
+    800HT, High Temperature Incoloy 800H, High Temperature Incoloy 800HT, Creep Resistant Incoloy 800H, Creep Resistant
+    Incoloy 800HT, Petrochemical Incoloy 800H, Power Generation Incoloy 800HT')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -550,6 +554,108 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are Incoloy 800H and 800HT alloys?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Incoloy 800H (UNS N08810) and Incoloy 800HT (UNS N08811) are high-performance
+                                    nickel iron chromium alloys specifically developed to enhance creep strength and stress
+                                    rupture resistance in high-temperature environments. They are modified versions of
+                                    Incoloy 800, engineered with controlled carbon, aluminum, and titanium levels to deliver
+                                    excellent metallurgical stability and long-term strength above 600°C, making them ideal
+                                    for extreme industrial applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the key properties of Incoloy 800H and 800HT?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Both Incoloy 800H and 800HT offer excellent resistance to oxidation, carburization, and
+                                    sulfidation under prolonged exposure to elevated temperatures. These alloys provide
+                                    superior creep resistance, reliable structural integrity, and stable mechanical
+                                    properties in aggressive chemical and thermal environments. Their good weldability and
+                                    formability further increase their suitability for demanding high-temperature
+                                    applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Where are Incoloy 800H and 800HT commonly used?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Incoloy 800H and 800HT are widely used across industries requiring long-term strength
+                                    and corrosion resistance at elevated temperatures. Typical applications include heat
+                                    treatment equipment, petrochemical furnaces, reformer tubes, superheaters, boiler
+                                    components, nuclear reactor supports, chemical processing plants, industrial kilns, gas
+                                    turbines, and aerospace combustion systems. Their durability makes them a preferred
+                                    choice for critical service conditions.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What product forms are available in Incoloy 800H and 800HT?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP supplies Incoloy 800H and 800HT in a wide variety of product
+                                    forms, including seamless and welded pipes, tubes, sheets, plates, coils, bars, pipe
+                                    fittings, flanges, fasteners, and custom-fabricated components. All products are
+                                    manufactured to international standards such as ASTM and ASME, ensuring quality,
+                                    consistency, and performance in high-pressure, high temperature systems.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for Incoloy 800H and 800HT materials?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP is a trusted manufacturer, supplier, and exporter of Incoloy
+                                    800H and 800HT products, offering ISO and ASTM-compliant materials across global
+                                    markets. With extensive inventory, fast delivery, and customized solutions, the company
+                                    ensures top quality products tailored to critical engineering applications. Its
+                                    expertise in high performance nickel alloys, combined with strong customer support,
+                                    makes it the preferred choice for industries worldwide.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

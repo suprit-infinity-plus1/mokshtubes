@@ -1,8 +1,10 @@
 @extends('layouts.master')
 
 @section('title', '1055 Engineering Steel | Medium Carbon Steel')
-@section('meta_description', '1055 Engineering Steel ideal for manufacturing components requiring medium carbon content and durability.')
-@section('meta_keywords', '1055 Engineering Steel, medium carbon steel, durable steel, mechanical steel, industrial steel, high strength steel, steel for components')
+@section('meta_description', '1055 Engineering Steel ideal for manufacturing components requiring medium carbon content
+    and durability.')
+@section('meta_keywords', '1055 Engineering Steel, medium carbon steel, durable steel, mechanical steel, industrial
+    steel, high strength steel, steel for components')
 
 @section('content')
 
@@ -458,6 +460,112 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is EN 1055 steel and what are its main characteristics?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    EN 1055, also known as C1055 or SAE 1055, is a medium carbon steel grade with higher
+                                    carbon content compared to standard medium carbon steels.
+                                    It offers superior hardness, strength, and wear resistance, making it ideal for
+                                    applications that demand toughness and durability.
+                                    With a good balance of mechanical properties, EN 1055 is widely used in structural and
+                                    mechanical components requiring strength with moderate ductility.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the mechanical and physical properties of EN 1055 steel?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    EN 1055 steel has a density of 7.85 g/cm³ and a melting point range of 1370–1400 °C.
+                                    Its tensile strength varies between 517–827 MPa depending on the product condition,
+                                    while yield strength ranges from 241–586 MPa.
+                                    It also exhibits elongation values between 12–30%, Brinell hardness of 130–220, and
+                                    Rockwell hardness between 75–95 B.
+                                    These properties make EN 1055 suitable for heavy-duty engineering and industrial use.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What EN 1055 steel products does MOKSH TUBES & FITTINGS LLP supply?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP manufactures, supplies, and exports a complete range of EN
+                                    1055 steel products including seamless and welded pipes, tubes, sheets, plates, coils,
+                                    strips, bars,
+                                    pipe fittings, flanges, fasteners, and custom-fabricated components.
+                                    All products are manufactured according to global quality standards and can be
+                                    customized in terms of dimensions, specifications, and heat treatment to meet specific
+                                    industry needs.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the main applications of EN 1055 steel?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    EN 1055 steel is extensively used in the automotive and machinery industries for the
+                                    production of shafts, gears, crankshafts, bolts, and studs that require high strength
+                                    and wear resistance.
+                                    In structural engineering, it is applied in heavy-duty parts exposed to mechanical
+                                    stress.
+                                    It is also widely utilized in manufacturing for tools, dies, and machine components
+                                    where both strength and toughness are critical.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for EN 1055 steel products?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP is a trusted manufacturer and global supplier of EN 1055
+                                    steel, offering premium quality materials sourced from reliable mills.
+                                    The company provides custom sizes, heat treatment options, and technical support to meet
+                                    project-specific requirements.
+                                    With strong logistics for timely worldwide delivery and a commitment to quality and
+                                    customer satisfaction,
+                                    MOKSH TUBES & FITTINGS LLP ensures dependable steel solutions for diverse industries.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

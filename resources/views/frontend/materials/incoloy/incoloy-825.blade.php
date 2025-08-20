@@ -1,7 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Incoloy 825 | Premium Corrosion-Resistant Nickel Alloy')
-@section('meta_description', 'Incoloy 825 delivers exceptional resistance to acids, alkalis, and oxidizing agents—making
+@section('meta_description',
+    'Incoloy 825 delivers exceptional resistance to acids, alkalis, and oxidizing agents—making
     it a trusted choice for chemical and marine industries.')
 @section('meta_keywords', 'Incoloy 825, nickel alloy, corrosion resistant alloy, premium metal alloys, moksh tubes')
 @section('canonical', 'https://mokshtubes.com')
@@ -519,6 +520,108 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Incoloy 825 and what makes it unique?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Incoloy 825 (UNS N08825 / W.Nr. 2.4858) is a nickel-iron-chromium alloy with added
+                                    molybdenum, copper, and titanium, designed for exceptional corrosion resistance in both
+                                    oxidizing and reducing environments. Its titanium stabilization provides excellent
+                                    protection against intergranular corrosion after exposure to sensitization temperatures,
+                                    making it highly reliable in aggressive conditions such as sulfuric, phosphoric, and
+                                    nitric acids.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the key properties of Incoloy 825?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Incoloy 825 is known for its outstanding resistance to pitting, crevice corrosion, and
+                                    stress corrosion cracking in chloride bearing environments. It offers excellent
+                                    mechanical strength, high ductility, and reliable performance across a wide temperature
+                                    range. With superior resistance to sulfuric, phosphoric, and nitric acids, this alloy
+                                    delivers long term durability in harsh chemical and marine conditions, while also
+                                    offering excellent weldability and formability.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Where is Incoloy 825 commonly used?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Incoloy 825 is widely used in industries where corrosion resistance and mechanical
+                                    stability are crucial. Its applications include chemical processing equipment, heat
+                                    exchangers, evaporators, tanks, and piping systems handling acidic solutions. It is also
+                                    used in oil and gas exploration, pollution control systems, marine and offshore
+                                    structures, nuclear fuel reprocessing, power generation, and wastewater treatment plants
+                                    where aggressive chemical exposure is a concern.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What product forms are available in Incoloy 825?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP manufactures, supplies, and exports Incoloy 825 in a wide
+                                    range of forms, including seamless and welded pipes, tubes, sheets, plates, coils, bars,
+                                    wire mesh, welding rods, flanges, fasteners, pipe fittings, and custom fabricated
+                                    components. Each product conforms to international standards and specifications,
+                                    ensuring superior quality and reliability for critical service conditions.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for Incoloy 825 materials?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP is a trusted global supplier of Incoloy 825 products,
+                                    offering premium-quality materials backed by ISO and ASTM standards. With extensive
+                                    expertise in nickel alloys, a strong supplier network, and a commitment to timely
+                                    delivery, the company ensures tailored solutions for diverse industrial needs. Their
+                                    dedication to quality, dependability, and customer satisfaction makes them the preferred
+                                    choice for industries requiring high-performance corrosion resistant alloys.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

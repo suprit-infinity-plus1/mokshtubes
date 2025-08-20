@@ -1,8 +1,10 @@
 @extends('layouts.master')
 
 @section('title', 'Hastelloy X | High-Temp Strength Alloy')
-@section('meta_description', 'Hastelloy X pipes, tubes & fittings with exceptional high-temperature strength, oxidation resistance & weldability for aerospace and turbines.')
-@section('meta_keywords', 'Hastelloy X, High Temperature Alloy, Hastelloy X Pipes, Hastelloy X Tubes, Hastelloy X Fittings, Oxidation Resistant Alloy, Aerospace Alloys, Turbine Alloys, High-Temp Strength Alloy')
+@section('meta_description', 'Hastelloy X pipes, tubes & fittings with exceptional high-temperature strength, oxidation
+    resistance & weldability for aerospace and turbines.')
+@section('meta_keywords', 'Hastelloy X, High Temperature Alloy, Hastelloy X Pipes, Hastelloy X Tubes, Hastelloy X
+    Fittings, Oxidation Resistant Alloy, Aerospace Alloys, Turbine Alloys, High-Temp Strength Alloy')
 
 @section('content')
 
@@ -477,6 +479,112 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Hastelloy X and why is it widely used in high-temperature applications?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Hastelloy X (UNS N06002) is a nickel chromium iron molybdenum alloy engineered for
+                                    outstanding high-temperature strength and oxidation resistance up to 1100°C (2000°F). It
+                                    is widely used in aerospace, industrial furnaces, and power generation because it
+                                    retains excellent mechanical properties at elevated temperatures while also providing
+                                    good resistance to mild oxidizing and reducing environments. Its unique combination of
+                                    durability, creep resistance, and weldability makes it ideal for critical components
+                                    exposed to extreme thermal and mechanical stress.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the key properties of Hastelloy X that make it reliable in extreme
+                                    environments?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Hastelloy X offers exceptional strength, creep resistance, and oxidation resistance at
+                                    high temperatures, with a tensile strength of 110,000 psi, yield strength of 60,000 psi,
+                                    and elongation of 30%. The alloy resists degradation in oxidizing and reducing
+                                    conditions, retains stability under thermal cycling, and offers excellent fabricability
+                                    and weldability. These properties make it a preferred choice for industries requiring
+                                    materials that can withstand both heat and stress without compromising performance.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Which industries commonly use Hastelloy X materials and components?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Hastelloy X is extensively used in aerospace for turbine engines, afterburners,
+                                    combustors, and transition ducts due to its ability to maintain structural integrity in
+                                    extreme heat. It is also applied in industrial furnaces, heat treating equipment, and
+                                    petrochemical processing plants for burner nozzles, muffles, reactors, and reformers.
+                                    Additionally, it is used in nuclear and power generation facilities for high stress
+                                    structural components and in automotive and motorsport industries for turbocharger
+                                    parts, exhaust manifolds, and heat shields.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What types of Hastelloy X products are available from MOKSH TUBES & FITTINGS LLP?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP supplies a wide range of Hastelloy X products including
+                                    seamless and welded pipes, tubes, sheets, plates, coils, flanges, fittings, fasteners,
+                                    round bars, and custom-fabricated components. These products are manufactured to meet
+                                    global quality and aerospace standards, ensuring long-lasting reliability in demanding
+                                    applications. The company also provides custom specifications to meet client
+                                    requirements across various industries.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for Hastelloy X materials?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP is a trusted manufacturer and global supplier of nickel-based
+                                    superalloys with expertise in high-performance materials like Hastelloy X. The company
+                                    maintains strict quality control, supports aerospace-grade manufacturing standards, and
+                                    offers a strong global supply network. With a focus on timely delivery, custom
+                                    fabrication, and customer satisfaction, MOKSH TUBES & FITTINGS LLP ensures reliable
+                                    solutions for industries that demand exceptional performance under extreme conditions.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

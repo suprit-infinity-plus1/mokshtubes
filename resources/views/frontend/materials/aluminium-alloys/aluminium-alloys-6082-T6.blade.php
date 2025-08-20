@@ -1,8 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Aluminium Alloy 6082 T6 | Structural Grade Aluminium')
-@section('meta_description', 'Strong and corrosion resistant Aluminium 6082 T6 ideal for structural and transport applications.')
-@section('meta_keywords', 'Aluminium Alloy 6082 T6, Structural Grade Aluminium, Aluminium 6082 T6 Pipes, Aluminium 6082 T6 Tubes, Aluminium 6082 T6 Sheets, High Strength Aluminium, Corrosion Resistant Aluminium, Structural Aluminium Alloys, Transport Industry Aluminium, Industrial Aluminium Grades')
+@section('meta_description', 'Strong and corrosion resistant Aluminium 6082 T6 ideal for structural and transport
+    applications.')
+@section('meta_keywords', 'Aluminium Alloy 6082 T6, Structural Grade Aluminium, Aluminium 6082 T6 Pipes, Aluminium 6082
+    T6 Tubes, Aluminium 6082 T6 Sheets, High Strength Aluminium, Corrosion Resistant Aluminium, Structural Aluminium Alloys,
+    Transport Industry Aluminium, Industrial Aluminium Grades')
 
 @section('content')
 
@@ -31,8 +34,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6082-T6.jpeg') }}" alt="Aluminium 6082"
-                        class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6082-T6.webp') }}"
+                        alt="Aluminium 6082" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -445,6 +448,118 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What is Aluminium Alloy 6082-T6 used for?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Aluminium 6082-T6 is widely used in structural, marine, automotive, and aerospace
+                                    applications due to its high strength, excellent corrosion resistance, and good
+                                    machinability.
+                                    Common uses include bridges, vehicle frames, boat hulls, cranes, and heavy duty
+                                    equipment.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What are the advantages of Aluminium 6082-T6?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    The main advantages of Aluminium 6082-T6 are its high tensile strength, superior
+                                    corrosion resistance, excellent weldability, and good fatigue performance.
+                                    It also offers a good surface finish for anodizing, making it suitable for both
+                                    structural and decorative purposes.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    How strong is Aluminium 6082-T6 compared to other aluminium alloys?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Aluminium 6082-T6 is considered the strongest alloy in the 6000 series, with a tensile
+                                    strength of 310–380 MPa and a yield strength of 275–345 MPa.
+                                    It is stronger than 6061 and offers better machinability, making it a preferred choice
+                                    in engineering and transport industries.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Can Aluminium 6082-T6 be welded and machined easily?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Yes. Aluminium 6082-T6 offers excellent weldability with common welding techniques such
+                                    as MIG and TIG.
+                                    It also has superior machinability compared to many other alloys, making it ideal for
+                                    precision engineering and custom fabrication.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Where can I buy high-quality Aluminium 6082-T6 products in India?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    You can purchase premium quality Aluminium 6082-T6 sheets, plates, tubes, pipes, bars,
+                                    and extrusions from
+                                    <strong>Moksh Tubes & Fittings LLP</strong>, a leading manufacturer, supplier, exporter,
+                                    and stockist in India.
+                                    The company provides custom solutions, international quality standards, and timely
+                                    deliveries.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

@@ -1,8 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Hastelloy C2000 | Versatile Corrosion Alloy')
-@section('meta_description', 'Hastelloy C2000 pipes, tubes & fittings with top resistance to oxidizing and reducing agents, ideal for mixed-acid chemical processing.')
-@section('meta_keywords', 'Hastelloy C2000, Corrosion Resistant Alloy, Hastelloy C2000 Pipes, Hastelloy C2000 Tubes, Hastelloy C2000 Fittings, Oxidizing Agent Resistant, Reducing Agent Resistant, Chemical Processing Alloys, Mixed-Acid Resistant Alloy, Industrial Corrosion Alloys')
+@section('meta_description', 'Hastelloy C2000 pipes, tubes & fittings with top resistance to oxidizing and reducing
+    agents, ideal for mixed-acid chemical processing.')
+@section('meta_keywords', 'Hastelloy C2000, Corrosion Resistant Alloy, Hastelloy C2000 Pipes, Hastelloy C2000 Tubes,
+    Hastelloy C2000 Fittings, Oxidizing Agent Resistant, Reducing Agent Resistant, Chemical Processing Alloys, Mixed-Acid
+    Resistant Alloy, Industrial Corrosion Alloys')
 
 @section('content')
 
@@ -480,6 +483,106 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Hastelloy C-2000 and why is it used in industries?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Hastelloy C-2000 (UNS N06200) is a nickel chromium molybdenum copper alloy developed to
+                                    provide superior resistance to both oxidizing and reducing environments. The addition of
+                                    copper enhances its performance in sulfuric acid, while chromium offers excellent
+                                    resistance against oxidizing agents. This makes Hastelloy C-2000 a highly versatile
+                                    material widely used in industries that require exceptional corrosion resistance and
+                                    long term durability.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the key properties of Hastelloy C-2000?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Hastelloy C-2000 is known for its excellent resistance to mixed acid environments,
+                                    including sulfuric, nitric, and hydrochloric acids. It has high mechanical strength,
+                                    superior metallurgical stability, and improved weldability compared to other C-grade
+                                    alloys. With a density of 8.50 g/cm³, melting point of 1350–1390°C, tensile strength of
+                                    100,000 psi, and elongation of 45%, this alloy maintains structural integrity even in
+                                    highly aggressive and high temperature conditions.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>In which industries is Hastelloy C-2000 most commonly used?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Hastelloy C-2000 is widely utilized in chemical processing, pharmaceutical and
+                                    biotechnology, pollution control, pulp and paper, food and beverage, mining, wastewater
+                                    treatment, and environmental protection industries. Its ability to perform well in the
+                                    presence of strong acids, oxidizers, and corrosive effluents makes it a trusted choice
+                                    for critical applications where conventional materials fail.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What types of Hastelloy C-2000 products are offered by MOKSH TUBES & FITTINGS LLP?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP supplies a comprehensive range of Hastelloy C-2000 products
+                                    including seamless and welded pipes, tubes, sheets, plates, coils, bars, flanges,
+                                    fittings, fasteners, wires, welding rods, and custom fabricated components. Each product
+                                    is manufactured under strict quality control standards to ensure reliability,
+                                    performance, and compliance with global specifications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for Hastelloy C-2000 materials?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP is a trusted manufacturer, exporter, importer, and stockist
+                                    of high performance Hastelloy C-2000 products. With a strong vendor network,
+                                    ISO certified manufacturing, precision machining, and global supply capabilities, the
+                                    company ensures timely delivery and reliable solutions. Clients worldwide prefer MOKSH
+                                    TUBES & FITTINGS LLP for their expertise in nickel alloys, exceptional service, and
+                                    commitment to customer satisfaction.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

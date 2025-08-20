@@ -1,8 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Titanium Grade 4 ELI | Extra Low Interstitial Titanium Alloy')
-@section('meta_description', 'Titanium Grade 4 ELI with enhanced purity and toughness for critical aerospace and medical applications.')
-@section('meta_keywords', 'Titanium Grade 4 ELI, Extra Low Interstitial Titanium, High Purity Titanium, Tough Titanium Alloy, Titanium Grade 4 ELI Pipes, Titanium Grade 4 ELI Tubes, Aerospace Titanium Alloys, Medical Titanium Alloys, Corrosion Resistant Titanium, Industrial Titanium Grades')
+@section('meta_description', 'Titanium Grade 4 ELI with enhanced purity and toughness for critical aerospace and medical
+    applications.')
+@section('meta_keywords', 'Titanium Grade 4 ELI, Extra Low Interstitial Titanium, High Purity Titanium, Tough Titanium
+    Alloy, Titanium Grade 4 ELI Pipes, Titanium Grade 4 ELI Tubes, Aerospace Titanium Alloys, Medical Titanium Alloys,
+    Corrosion Resistant Titanium, Industrial Titanium Grades')
 
 @section('content')
 
@@ -492,6 +495,107 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Titanium Grade 4 ELI and what are its key properties?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Titanium Grade 4 ELI (Extra Low Interstitial) is a commercially pure titanium grade
+                                    known for its high strength, exceptional corrosion resistance, and excellent
+                                    biocompatibility. It has superior fracture toughness due to low interstitial content and
+                                    can withstand harsh chemical, marine, and high-temperature environments. It is widely
+                                    used in aerospace, medical, chemical, and marine industries.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What products are available in Titanium Grade 4 ELI?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP offers a comprehensive range of Titanium Grade 4 ELI
+                                    products, including seamless and welded pipes, tubes (capillary, U-bend, boiler, heat
+                                    exchanger), sheets, plates, coils, strips, round, flat, hex, and square bars, pipe
+                                    fittings, flanges, fasteners, welding rods, wire mesh, and custom-fabricated components.
+                                    All products comply with global quality standards.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the advantages of using Titanium Grade 4 ELI?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Titanium Grade 4 ELI provides the highest strength among commercially pure titanium
+                                    grades, outstanding corrosion resistance, excellent weldability and fabricability, and
+                                    biocompatibility suitable for medical implants. It is lightweight, durable, and performs
+                                    reliably in extreme temperatures, saline, acidic, and oxidizing environments.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Which industries commonly use Titanium Grade 4 ELI?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Titanium Grade 4 ELI is extensively used in:
+                                <ul>
+                                    <li><strong>Chemical processing:</strong> Reactors, piping systems, heat exchangers.</li>
+                                    <li><strong>Medical & surgical devices:</strong> Implants, trauma plates, surgical tools.</li>
+                                    <li><strong>Aerospace & defense:</strong> Airframes, structural supports, fluid systems.</li>
+                                    <li><strong>Marine & offshore applications:</strong> Tanks, heat exchangers, seawater systems.</li>
+                                    <li><strong>Cryogenics & power generation:</strong> Equipment exposed to extreme temperatures and
+                                        pressures.</li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for Titanium Grade 4 ELI products?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    We provide high purity, implant-grade Titanium Grade 4 ELI with precise manufacturing
+                                    and strict quality control. Our global supply chain ensures timely delivery of standard
+                                    or custom sized components. With decades of experience in titanium and critical alloys,
+                                    we offer reliable technical support, international compliance, and unmatched customer
+                                    satisfaction.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

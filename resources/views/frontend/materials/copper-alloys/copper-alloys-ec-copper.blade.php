@@ -2,7 +2,8 @@
 
 @section('title', 'Electrolytic Copper (EC Copper) | High Purity Copper')
 @section('meta_description', 'High purity Electrolytic Copper with excellent electrical and thermal conductivity.')
-@section('meta_keywords', 'Electrolytic Copper, EC Copper, high purity copper, electrical conductivity copper, thermal conductivity copper, industrial copper')
+@section('meta_keywords', 'Electrolytic Copper, EC Copper, high purity copper, electrical conductivity copper, thermal
+    conductivity copper, industrial copper')
 
 
 @section('content')
@@ -481,12 +482,130 @@
         </div>
     </section>
 
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is EC Copper and why is it important in electrical applications?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    EC Copper, also known as Electrolytic Copper, C10100, or CW009A, is a high purity copper
+                                    grade with over
+                                    99.95% copper content. It is valued for its outstanding electrical conductivity (≥101%
+                                    IACS), thermal
+                                    conductivity, ductility, and corrosion resistance. Due to its purity and low oxygen
+                                    levels, EC Copper is
+                                    widely used in electrical, electronic, and thermal applications where high efficiency
+                                    and performance are
+                                    essential.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the advantages of using EC Copper over other copper alloys?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    EC Copper offers superior electrical and thermal conductivity compared to most other
+                                    copper alloys, making
+                                    it the preferred choice for current carrying and heat dissipating components. It is
+                                    highly ductile, weldable,
+                                    and easy to form into wires, rods, sheets, and busbars. Oxygen-free grades of EC Copper
+                                    further enhance
+                                    performance in sensitive electronic applications, reducing signal loss and improving
+                                    reliability in
+                                    high frequency and precision systems.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the main applications of EC Copper in industries?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    EC Copper is extensively used in power transmission and distribution systems for
+                                    busbars, switchgear,
+                                    substations, and overhead conductors. It is also widely applied in motors, generators,
+                                    and transformers for
+                                    windings, commutators, and terminals. In addition, EC Copper is used in electronics,
+                                    microelectronics,
+                                    telecommunications, renewable energy, automotive, and electric vehicles due to its
+                                    excellent conductivity,
+                                    durability, and thermal stability.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What EC Copper products are supplied by MOKSH TUBES & FITTINGS LLP?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP provides a complete range of EC Copper products including
+                                    wires, rods, bars,
+                                    pipes, sheets, plates, coils, foils, strips, busbars, fasteners, flanges, and
+                                    custom-fabricated parts.
+                                    These products are manufactured to meet global standards and are available in different
+                                    sizes, shapes,
+                                    and finishes to suit diverse industrial applications. Precision-machined components and
+                                    custom solutions
+                                    are also offered for specific technical requirements.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for EC Copper products?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP is a trusted manufacturer, supplier, and exporter of EC
+                                    Copper products with
+                                    expertise in high conductivity applications. The company offers certified and globally
+                                    compliant materials,
+                                    custom machining, and technical support to meet industry-specific demands. With strong
+                                    inventory, competitive
+                                    pricing, and worldwide delivery, MOKSH TUBES & FITTINGS LLP ensures reliable and timely
+                                    supply of EC Copper
+                                    for electrical, thermal, and electronic industries.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
+
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    contact <strong>Moksh Tubes & Fittings LLP</strong> — for premium-quality electrolytic copper solutions.
+                    contact <strong>Moksh Tubes & Fittings LLP</strong> — for premium-quality electrolytic copper solutions.</p>
                     <!-- Call button -->
                     <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
             </div>

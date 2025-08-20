@@ -1,8 +1,12 @@
 @extends('layouts.master')
 
 @section('title', 'Austenitic Stainless Steel Nitronic 60 | Wear Resistant SS')
-@section('meta_description', 'Nitronic 60 pipes & fittings known for superior wear and corrosion resistance in demanding industrial applications.')
-@section('meta_keywords', 'Austenitic Stainless Steel Nitronic 60, Nitronic 60 Stainless Steel Pipes, Nitronic 60 Stainless Steel Tubes, Nitronic 60 Stainless Steel Fittings, Wear Resistant Nitronic 60, Corrosion Resistant Nitronic 60, High Strength Nitronic 60, Industrial Nitronic 60 Stainless Steel, Marine Grade Nitronic 60, Engineering Applications Nitronic 60')
+@section('meta_description', 'Nitronic 60 pipes & fittings known for superior wear and corrosion resistance in demanding
+    industrial applications.')
+@section('meta_keywords', 'Austenitic Stainless Steel Nitronic 60, Nitronic 60 Stainless Steel Pipes, Nitronic 60
+    Stainless Steel Tubes, Nitronic 60 Stainless Steel Fittings, Wear Resistant Nitronic 60, Corrosion Resistant Nitronic
+    60, High Strength Nitronic 60, Industrial Nitronic 60 Stainless Steel, Marine Grade Nitronic 60, Engineering
+    Applications Nitronic 60')
 
 @section('content')
 
@@ -480,6 +484,113 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What is Nitronic 60 stainless steel and what makes it unique?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Nitronic 60 is an austenitic stainless steel alloy known for its outstanding wear
+                                    resistance, galling resistance, and corrosion resistance. Unlike conventional stainless
+                                    steels, it performs exceptionally well in applications where friction, seizing, and
+                                    pitting are major concerns.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    How does Nitronic 60 compare to Nitronic 50 or 316 stainless steel?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Nitronic 60 offers superior resistance to galling and wear compared to Nitronic 50 and
+                                    stainless steel 316. While 316 is widely used for general corrosion resistance, Nitronic
+                                    60 is the preferred choice for valves, pumps, and high friction components due to its
+                                    durability under sliding and abrasive conditions.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What are the common applications of Nitronic 60 stainless steel?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Nitronic 60 is used in industries such as chemical processing, marine, power generation,
+                                    and industrial machinery. Typical applications include valves, pumps, bearings,
+                                    fasteners, downhole tools, and components exposed to seawater or high friction
+                                    environments.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What Nitronic 60 products does MOKSH TUBES & FITTINGS LLP supply?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    We manufacture and supply a full range of Nitronic 60 products, including seamless &
+                                    welded pipes, tubes, sheets, plates, coils, bars, fittings, flanges, fasteners, and
+                                    custom fabricated components, all produced to meet international standards.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Why choose MOKSH TUBES & FITTINGS LLP for Nitronic 60 stainless steel products?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP is a trusted manufacturer, supplier, and exporter with a
+                                    strong inventory, global certifications, customized solutions, and timely worldwide
+                                    delivery. We specialize in high performance alloys like Nitronic 60, ensuring quality,
+                                    durability, and customer satisfaction.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

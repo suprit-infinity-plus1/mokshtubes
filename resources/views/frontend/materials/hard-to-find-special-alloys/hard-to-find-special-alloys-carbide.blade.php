@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Carbide | Superior Hardness & Precision Performance')
-@section('meta_description', 'Carbide offers exceptional hardness, wear resistance, and precision performance, ideal for
+@section('meta_description',
+    'Carbide offers exceptional hardness, wear resistance, and precision performance, ideal for
     cutting tools, industrial machinery, and high-stress applications.')
-@section('meta_keywords', 'Carbide, high hardness carbide, wear resistant carbide, precision cutting tools, industrial
+@section('meta_keywords',
+    'Carbide, high hardness carbide, wear resistant carbide, precision cutting tools, industrial
     carbide, high stress applications, durable carbide')
 
 
@@ -477,6 +479,93 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are Carbide Alloys used for?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Carbide Alloys are used for cutting tools, mining bits, drilling heads, stamping and
+                                    punching dies, wear parts in industrial machinery, aerospace components, and
+                                    chemical-resistant applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What types of Carbide Alloys does MOKSH TUBES & FITTINGS supply?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    We supply Tungsten Carbide (WC), Titanium Carbide (TiC), Tantalum Carbide (TaC), and
+                                    custom carbide grades for specialized applications, available as rods, strips, sheets,
+                                    tubes, and fabricated components.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the key properties of Carbide Alloys?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Carbide Alloys offer extreme hardness, excellent wear resistance, high compressive
+                                    strength, thermal stability, corrosion resistance (in specific grades), and long service
+                                    life under harsh conditions.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>In what forms are Carbide Alloys available?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Carbide Alloys are supplied as seamless and welded pipes, tubes, sheets, plates, bars,
+                                    flanges, fasteners, and custom engineered components tailored to industrial needs.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS for Carbide Alloys?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    We provide ISO compliant carbide products with precision machining capabilities, custom
+                                    grade development, end to end supply from powder to finished parts, technical support,
+                                    and global delivery for OEMs and industrial clients.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

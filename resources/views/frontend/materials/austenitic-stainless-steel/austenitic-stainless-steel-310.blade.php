@@ -1,8 +1,12 @@
 @extends('layouts.master')
 
 @section('title', 'Austenitic Stainless Steel 310 | High Temp Resistance')
-@section('meta_description', '304L Stainless Steel 310 pipes and fittings designed for high temperature and corrosion resistant applications.')
-@section('meta_keywords', 'Austenitic Stainless Steel 310, Stainless Steel 310 Pipes, Stainless Steel 310 Tubes, Stainless Steel 310 Fittings, High Temperature Stainless Steel 310, Corrosion Resistant Stainless Steel 310, Heat Resistant Stainless Steel 310, Industrial Stainless Steel 310, Furnace Grade Stainless Steel, Thermal Processing Stainless Steel')
+@section('meta_description', '304L Stainless Steel 310 pipes and fittings designed for high temperature and corrosion
+    resistant applications.')
+@section('meta_keywords', 'Austenitic Stainless Steel 310, Stainless Steel 310 Pipes, Stainless Steel 310 Tubes,
+    Stainless Steel 310 Fittings, High Temperature Stainless Steel 310, Corrosion Resistant Stainless Steel 310, Heat
+    Resistant Stainless Steel 310, Industrial Stainless Steel 310, Furnace Grade Stainless Steel, Thermal Processing
+    Stainless Steel')
 
 @section('content')
 
@@ -479,6 +483,122 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What is Austenitic Stainless Steel 310 and why is it used in high-temperature
+                                    applications?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Austenitic Stainless Steel 310 is a high chromium (24–26%) and nickel (19–22%) alloy
+                                    designed for exceptional oxidation and corrosion resistance at elevated temperatures. It
+                                    can withstand temperatures up to 1100°C (2012°F), making it ideal for furnaces, kilns,
+                                    and heat treatment equipment where thermal shock and scaling resistance are critical.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What are the key properties of Stainless Steel 310?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>SS 310 offers:</p>
+                                <ul>
+                                    <li>Excellent oxidation resistance at high temperatures.</li>
+                                    <li>High thermal stability and mechanical strength.</li>
+                                    <li>Good resistance to thermal shock and scaling.</li>
+                                    <li>Superior corrosion resistance in harsh chemical environments.</li>
+                                    <li>Good weldability and fabrication properties.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Where is Stainless Steel 310 commonly used?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>Stainless Steel 310 is widely used in industries requiring heat and corrosion resistance,
+                                    including:</p>
+                                <ul>
+                                    <li>Heat treatment furnaces, kilns, and radiant tubes.</li>
+                                    <li>Petrochemical and chemical processing equipment.</li>
+                                    <li>Power generation boilers, superheaters, and turbines.</li>
+                                    <li>Automotive exhaust systems and mufflers.</li>
+                                    <li>Food processing and baking equipment.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    How is Stainless Steel 310 different from Stainless Steel 309 and 304?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    While SS 304 and 309 offer good corrosion resistance, Stainless Steel 310 contains
+                                    higher chromium and nickel levels, providing superior oxidation resistance and
+                                    mechanical strength at extreme temperatures. SS 310 is the preferred choice for
+                                    continuous high heat operations where SS 304 or 309 may not perform as effectively.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Who is the leading supplier of Stainless Steel 310 in India?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Moksh Tubes & Fittings LLP is a trusted manufacturer, supplier, exporter, importer, and
+                                    stockist of Stainless Steel 310 products. The company provides pipes, tubes, sheets,
+                                    plates, bars, flanges, fittings, and fasteners, adhering to international standards,
+                                    custom requirements, and global delivery timelines. With competitive pricing and strong
+                                    technical support, Moksh Tubes & Fittings LLP is a reliable partner for industries
+                                    worldwide.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

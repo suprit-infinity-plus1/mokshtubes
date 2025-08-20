@@ -2,7 +2,8 @@
 
 @section('title', 'Naval Brass Alloy | Corrosion Resistant Marine Copper Alloy')
 @section('meta_description', 'Naval Brass with excellent corrosion resistance for marine and offshore applications.')
-@section('meta_keywords', 'Naval Brass, corrosion resistant brass, marine copper alloy, offshore brass alloy, durable brass, C46400 brass')
+@section('meta_keywords', 'Naval Brass, corrosion resistant brass, marine copper alloy, offshore brass alloy, durable
+    brass, C46400 brass')
 
 
 @section('content')
@@ -489,14 +490,118 @@
         </div>
     </section>
 
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's - ETP Copper</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is ETP Copper and why is it widely used in industries?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    ETP Copper, also known as Electrolytic Tough Pitch Copper, is the most widely used
+                                    commercial copper grade with a minimum of 99.90% copper content.
+                                    It offers excellent electrical and thermal conductivity, ductility, and corrosion
+                                    resistance.
+                                    With nearly 100% IACS conductivity, ETP Copper is the preferred choice in electrical,
+                                    electronic, and industrial applications that demand efficiency and long-term
+                                    reliability.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the key benefits of using ETP Copper?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    The benefits of ETP Copper include superior electrical conductivity, excellent heat
+                                    transfer, and high formability for easy fabrication.
+                                    It performs reliably in atmospheric and industrial environments and is suitable for
+                                    welding, brazing, and soldering.
+                                    Its versatility makes it ideal for electrical systems, cooling equipment, architectural
+                                    applications, and automotive components.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the main applications of ETP Copper in different sectors?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    ETP Copper is extensively used in electrical wiring, busbars, switchgear, and
+                                    transformers due to its high conductivity.
+                                    It is also applied in PCBs, terminals, and connectors in the electronics industry, while
+                                    telecom and data sectors use it for cables, grounding, and RF shielding.
+                                    Other applications include renewable energy systems, HVAC, refrigeration, architectural
+                                    designs, and automotive parts such as electric vehicle components.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What ETP Copper products does MOKSH TUBES & FITTINGS LLP provide?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP supplies a comprehensive range of ETP Copper products
+                                    including seamless and welded pipes, tubes, sheets, plates, coils, busbars, strips,
+                                    foils,
+                                    rods, flats, fasteners, flanges, pipe fittings, and custom-fabricated components.
+                                    All products meet international quality standards and are available in both standard and
+                                    customized specifications for various industrial needs.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for ETP Copper materials?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP is a leading manufacturer, supplier, and exporter of ETP
+                                    Copper with advanced facilities and strict quality checks.
+                                    The company ensures reliable global supply, competitive pricing, and customized
+                                    solutions to meet client-specific requirements.
+                                    With proven expertise across electrical, automotive, telecom, and renewable energy
+                                    sectors, it delivers high-quality ETP Copper products trusted worldwide.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
+
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    contact <strong>Moksh Tubes & Fittings LLP</strong> — your trusted partner for premium brass alloys.
-                    <!-- Call button -->
-                    <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
+                    contact <strong>Moksh Tubes & Fittings LLP</strong> — your trusted partner for premium brass alloys.</p>
+                <!-- Call button -->
+                <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
             </div>
         </div>
     </section>

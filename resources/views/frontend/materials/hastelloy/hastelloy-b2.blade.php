@@ -1,8 +1,12 @@
 @extends('layouts.master')
 
 @section('title', 'Hastelloy B2 | Premium Acid-Resistant Nickel Alloy')
-@section('meta_description', 'Hastelloy B2 pipes, tubes & fittings with exceptional resistance to hydrochloric acid at all concentrations and strong performance in reducing acids like sulfuric acid — ideal for aggressive chemical processing applications.')
-@section('meta_keywords', 'Hastelloy B2, Acid Resistant Nickel Alloy, Corrosion Resistant Alloy, Hastelloy B2 Pipes, Hastelloy B2 Tubes, Hastelloy B2 Fittings, Hydrochloric Acid Resistant, Sulfuric Acid Resistant, Chemical Processing Alloys, Industrial Corrosion Resistant Alloys, Durable Nickel Alloys')
+@section('meta_description', 'Hastelloy B2 pipes, tubes & fittings with exceptional resistance to hydrochloric acid at
+    all concentrations and strong performance in reducing acids like sulfuric acid — ideal for aggressive chemical
+    processing applications.')
+@section('meta_keywords', 'Hastelloy B2, Acid Resistant Nickel Alloy, Corrosion Resistant Alloy, Hastelloy B2 Pipes,
+    Hastelloy B2 Tubes, Hastelloy B2 Fittings, Hydrochloric Acid Resistant, Sulfuric Acid Resistant, Chemical Processing
+    Alloys, Industrial Corrosion Resistant Alloys, Durable Nickel Alloys')
 
 @section('content')
 
@@ -472,6 +476,96 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Hastelloy B2 and what are its properties?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Hastelloy B2 is a nickel-molybdenum alloy designed for outstanding resistance to
+                                    reducing acids. It maintains strength at moderate to elevated temperatures, offers
+                                    excellent ductility, weldability, and resists stress corrosion cracking, pitting, and
+                                    crevice attack.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Which Hastelloy B2 products are available?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Products include seamless and welded pipes, tubes (capillary, U-bend, boiler, heat
+                                    exchanger), sheets, plates, coils, strips, bars (round, flat, hex, square), pipe
+                                    fittings, flanges, fasteners, wires, welding rods, wire mesh, and custom-fabricated
+                                    components.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the key advantages of Hastelloy B2?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Hastelloy B2 provides exceptional resistance to hydrochloric, sulfuric, acetic, and
+                                    phosphoric acids, excellent weldability, low sensitization risk, structural integrity
+                                    under high temperatures, and reliable performance in chemical handling equipment.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>In which industries is Hastelloy B2 used?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    It is widely used in chemical processing, pickling and acid regeneration, agrochemical
+                                    and fertilizer production, pharmaceutical and fine chemicals, electronics and
+                                    semiconductor manufacturing, and waste treatment systems.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS for Hastelloy B2?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    We deliver pure and alloyed Hastelloy B2 in multiple forms, offer precision fabrication,
+                                    maintain ISO certified quality systems, provide end to end supply chain support, and
+                                    ensure responsive technical assistance with global delivery.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

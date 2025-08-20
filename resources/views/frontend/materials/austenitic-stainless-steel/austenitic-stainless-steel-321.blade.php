@@ -1,8 +1,12 @@
 @extends('layouts.master')
 
 @section('title', 'Austenitic Stainless Steel 321 | Stabilized Heat Resistant Alloy')
-@section('meta_description', 'Stabilized Austenitic Stainless Steel 321 pipes & fittings designed for high-temperature applications with excellent oxidation resistance.')
-@section('meta_keywords', 'Austenitic Stainless Steel 321, Stainless Steel 321 Pipes, Stainless Steel 321 Tubes, Stainless Steel 321 Fittings, Heat Resistant Stainless Steel 321, Oxidation Resistant Stainless Steel 321, High Temperature Stainless Steel 321, Stabilized Stainless Steel 321, Industrial Stainless Steel 321, Thermal Processing Stainless Steel 321')
+@section('meta_description', 'Stabilized Austenitic Stainless Steel 321 pipes & fittings designed for high-temperature
+    applications with excellent oxidation resistance.')
+@section('meta_keywords', 'Austenitic Stainless Steel 321, Stainless Steel 321 Pipes, Stainless Steel 321 Tubes,
+    Stainless Steel 321 Fittings, Heat Resistant Stainless Steel 321, Oxidation Resistant Stainless Steel 321, High
+    Temperature Stainless Steel 321, Stabilized Stainless Steel 321, Industrial Stainless Steel 321, Thermal Processing
+    Stainless Steel 321')
 
 @section('content')
 
@@ -476,6 +480,122 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What is Austenitic Stainless Steel 321 and how does it differ from 304 stainless steel?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Austenitic Stainless Steel 321 is a titanium-stabilized grade of stainless steel
+                                    designed to resist intergranular corrosion caused by carbide precipitation at elevated
+                                    temperatures (427–816°C). Unlike SS 304, which can suffer from sensitization, SS 321
+                                    maintains stability and strength in high temperature applications, making it ideal for
+                                    heat exchangers, furnace parts, and aerospace components.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What are the main properties of Stainless Steel 321?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>Key properties of SS 321 include:</p>
+                                <ul>
+                                    <li>Titanium stabilization for resistance against carbide precipitation.</li>
+                                    <li>Excellent oxidation resistance up to 900°C (1652°F).</li>
+                                    <li>Superior creep strength compared to 304 stainless steel.</li>
+                                    <li>Good weldability and formability for fabrication.</li>
+                                    <li>Retains mechanical properties even during long term high-temperature exposure.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Where is Stainless Steel 321 commonly used?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>SS 321 is widely used in industries that require high strength and corrosion resistance
+                                    at elevated temperatures, including:</p>
+                                <ul>
+                                    <li>Aerospace & aviation (exhaust manifolds, jet engine parts).</li>
+                                    <li>Power generation & refinery equipment (heat exchangers, boilers).</li>
+                                    <li>Chemical & petrochemical industry (reactors, process piping).</li>
+                                    <li>Food & beverage processing (acid-resistant equipment).</li>
+                                    <li>Marine applications (heat exchangers, seawater exposed structures).</li>
+                                    <li>Furnace components (radiant tubes, firebox sheets).</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Why is Stainless Steel 321 preferred for high temperature applications?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    SS 321 contains titanium, which prevents chromium carbide formation during welding and
+                                    prolonged heating. This ensures resistance to intergranular corrosion, while maintaining
+                                    mechanical strength and oxidation resistance up to 900°C. These features make it highly
+                                    reliable for thermal equipment, power plants, aerospace, and furnace components.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Who is a trusted supplier of Stainless Steel 321 in India?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Moksh Tubes & Fittings LLP is a leading manufacturer, supplier, exporter, importer, and
+                                    stockist of Stainless Steel 321 products, including pipes, tubes, sheets, plates, bars,
+                                    fittings, and flanges. With ISO & PED certifications, strict quality control, custom
+                                    fabrication, and a global export network, Moksh Tubes & Fittings LLP is a reliable
+                                    partner for industries worldwide.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

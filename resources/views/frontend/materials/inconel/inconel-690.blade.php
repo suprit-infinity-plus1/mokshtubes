@@ -1,8 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Inconel 690 | High-Chromium Corrosion Master Alloy')
-@section('meta_description', 'Inconel 690 provides outstanding resistance to oxidizing chemicals and hot gases—trusted in nuclear, chemical, and thermal processing.')
-@section('meta_keywords', 'Inconel 690, High-Chromium Alloy, Corrosion Resistant Alloy, Nickel Alloys, Oxidation Resistant Alloy, Nuclear Industry Alloys, Chemical Processing Alloys, Thermal Processing Alloys, High Temperature Alloys, Oxidizing Chemical Resistant Alloys')
+@section('meta_description', 'Inconel 690 provides outstanding resistance to oxidizing chemicals and hot gases—trusted
+    in nuclear, chemical, and thermal processing.')
+@section('meta_keywords', 'Inconel 690, High-Chromium Alloy, Corrosion Resistant Alloy, Nickel Alloys, Oxidation
+    Resistant Alloy, Nuclear Industry Alloys, Chemical Processing Alloys, Thermal Processing Alloys, High Temperature
+    Alloys, Oxidizing Chemical Resistant Alloys')
 
 @section('content')
 
@@ -30,7 +33,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/inconel/Inconel-690.webp') }}" alt="Inconel 690" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/inconel/Inconel-690.webp') }}" alt="Inconel 690"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -511,6 +515,115 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Inconel 690 and what makes it unique?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Inconel 690 (UNS N06690) is a high chromium, nickel based alloy that stands out for its
+                                    exceptional resistance to high temperature oxidation and aqueous corrosion. With a
+                                    chromium content of around 30%, it performs significantly better than Inconel 600 in
+                                    resisting acidic and caustic environments. It also offers high mechanical strength,
+                                    metallurgical stability, and excellent weldability, making it a reliable choice for
+                                    long term use in nuclear steam generators, chemical processing plants, and marine
+                                    applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the main applications of Inconel 690?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Inconel 690 is widely used in industries that demand resistance to heat, pressure, and
+                                    corrosion. In nuclear power plants, it is employed in steam generator tubing and heat
+                                    exchangers exposed to high-pressure steam. Chemical industries use it in reactors,
+                                    scrubbers, and piping systems handling hot acids and caustic solutions. It is also
+                                    preferred in power boilers, superheaters, and marine condensers, as well as in
+                                    aerospace, gas turbines, desalination systems, and even food and beverage processing
+                                    equipment where hygiene and durability are essential.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the key advantages of Inconel 690 compared to other alloys?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Inconel 690 offers superior oxidation resistance at elevated temperatures, excellent
+                                    resistance to hot acidic and alkaline solutions, and high structural stability under
+                                    prolonged service conditions. Its strong metallurgical composition prevents pitting,
+                                    stress corrosion cracking, and scaling, even in highly aggressive environments. Another
+                                    advantage is its outstanding weldability, which makes it easier to fabricate into
+                                    complex components without compromising its strength or corrosion resistance. These
+                                    features make it more durable than alloys like Inconel 600 in critical applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>How does the chemical composition of Inconel 690 enhance its performance?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    The chemical composition of Inconel 690 is dominated by nickel (58% minimum) and
+                                    chromium (27–31%), with controlled additions of iron, carbon, manganese, and silicon.
+                                    The high chromium content ensures excellent resistance to oxidation and aggressive hot
+                                    acidic environments, while nickel provides superior corrosion resistance in both
+                                    reducing and oxidizing conditions. The balanced alloying elements contribute to
+                                    mechanical strength, stability, and resistance to stress cracking, which is why Inconel
+                                    690 performs reliably in nuclear, chemical, and marine environments.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why should industries choose Moksh Tubes & Fittings LLP for Inconel 690 products?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Moksh Tubes & Fittings LLP is a trusted global manufacturer, supplier, exporter,
+                                    importer, and stockist of premium Inconel 690 products, offering a complete range that
+                                    includes pipes, tubes, fittings, flanges, sheets, plates, coils, fasteners, and
+                                    custom fabricated components. With extensive expertise in nickel chromium alloys, access
+                                    to hard to source raw materials, advanced testing facilities, and a reliable
+                                    international supply chain, the company ensures consistent quality and timely delivery.
+                                    Customers choose Moksh Tubes & Fittings LLP for its commitment to precision, durability,
+                                    and tailored solutions that meet the most demanding industrial needs.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

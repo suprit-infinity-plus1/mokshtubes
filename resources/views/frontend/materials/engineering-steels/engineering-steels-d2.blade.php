@@ -1,8 +1,10 @@
 @extends('layouts.master')
 
 @section('title', 'D2 Tool Steel | High Carbon, High Chromium Steel')
-@section('meta_description', 'D2 Tool Steel providing superior wear resistance and toughness for cutting tools and dies.')
-@section('meta_keywords', 'D2 Tool Steel, high carbon steel, high chromium steel, wear resistant steel, tough tool steel, cutting tools steel, die steel, industrial tool steel')
+@section('meta_description', 'D2 Tool Steel providing superior wear resistance and toughness for cutting tools and
+    dies.')
+@section('meta_keywords', 'D2 Tool Steel, high carbon steel, high chromium steel, wear resistant steel, tough tool
+    steel, cutting tools steel, die steel, industrial tool steel')
 
 @section('content')
 
@@ -477,6 +479,117 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is EN D2 steel and why is it important in toolmaking?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    EN D2 is a high-carbon, high-chromium, air-hardening cold work tool steel renowned for
+                                    its exceptional wear resistance, toughness, and edge retention.
+                                    With a high chromium content of 11–13%, it offers moderate corrosion resistance compared
+                                    to other tool steels, making it suitable for applications where tools face both abrasive
+                                    wear and mild corrosive conditions.
+                                    Due to its ability to maintain dimensional stability during heat treatment, EN D2 is a
+                                    preferred choice in toolmaking and industrial applications requiring long lasting
+                                    performance.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the chemical and mechanical properties of EN D2 steel?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    EN D2 steel has a chemical composition of 1.40–1.60% carbon, 11–13% chromium, 0.70–1.20%
+                                    molybdenum, 0.80–1.20% vanadium, along with controlled amounts of silicon, manganese,
+                                    phosphorus, and sulfur.
+                                    In terms of mechanical properties, it offers tensile strength of 90–105 ksi (620–724
+                                    MPa), yield strength of 70–85 ksi (482–586 MPa), elongation of 8–12%, and hardness of
+                                    58–62 HRC after heat treatment.
+                                    These properties provide a balance of hardness, strength, and wear resistance that make
+                                    EN D2 suitable for high performance tooling and industrial use.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What D2 steel products are offered by MOKSH TUBES & FITTINGS LLP?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP supplies a wide range of EN D2 steel products including
+                                    seamless and welded pipes, precision tubes, sheets, plates, coils, strips, round bars,
+                                    flat bars, square bars, and hex bars.
+                                    Additionally, the company manufactures pipe fittings, flanges, fasteners, and
+                                    custom fabricated components designed to meet global quality standards.
+                                    All products are available in standard and customized specifications to fulfill diverse
+                                    industry requirements.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the common applications of EN D2 tool steel?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    EN D2 steel is widely used in cold work tooling applications such as dies, punches,
+                                    blanking tools, shear blades, and cutting tools that require high wear resistance.
+                                    It is also popular in the production of industrial knives and blades for paper, leather,
+                                    plastic, and metal cutting.
+                                    In mold-making, EN D2 is used for plastic molds and extrusion dies due to its ability to
+                                    withstand wear and maintain stability.
+                                    Furthermore, it is applied in manufacturing wear resistant machine parts like shafts,
+                                    rollers, and dies for heavy duty operations.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for D2 steel materials?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP is a reliable manufacturer, supplier, and exporter of EN D2
+                                    tool steel with large stock availability in multiple sizes and forms.
+                                    The company provides precision cutting, heat-treatment guidance, and custom processing
+                                    to meet industry-specific needs.
+                                    With strong technical expertise, competitive pricing, and a commitment to quality and
+                                    timely delivery, MOKSH TUBES & FITTINGS LLP ensures that clients worldwide receive
+                                    durable and high performance D2 steel solutions.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

@@ -1,8 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Aluminium Alloy 7075 | High Performance Alloy')
-@section('meta_description', 'High performance Aluminium 7075 with excellent strength and fatigue resistance for aerospace and sports uses.')
-@section('meta_keywords', 'Aluminium Alloy 7075, High Performance Aluminium, Aluminium 7075 Pipes, Aluminium 7075 Tubes, Aluminium 7075 Sheets, High Strength Aluminium Alloy, Fatigue Resistant Aluminium, Aerospace Aluminium Alloys, Sports Equipment Aluminium, Industrial Aluminium Grades')
+@section('meta_description', 'High performance Aluminium 7075 with excellent strength and fatigue resistance for
+    aerospace and sports uses.')
+@section('meta_keywords', 'Aluminium Alloy 7075, High Performance Aluminium, Aluminium 7075 Pipes, Aluminium 7075 Tubes,
+    Aluminium 7075 Sheets, High Strength Aluminium Alloy, Fatigue Resistant Aluminium, Aerospace Aluminium Alloys, Sports
+    Equipment Aluminium, Industrial Aluminium Grades')
 
 @section('content')
 
@@ -451,6 +454,119 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What is Aluminium Alloy 7075 used for?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Aluminium 7075 is mainly used in aerospace, defense, automotive, and sports equipment
+                                    industries due to its exceptional strength, toughness, and fatigue resistance.
+                                    Common applications include aircraft structures, firearm components, racing car parts,
+                                    and high performance bicycle frames.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What are the key properties of Aluminium 7075?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Aluminium 7075 is a zinc-based alloy with excellent mechanical strength, fatigue
+                                    resistance, and machinability.
+                                    It has tensile strength up to 572 MPa, making it one of the strongest aluminium alloys.
+                                    However, it has lower corrosion resistance compared to 6000 series alloys but performs
+                                    well when anodized or surface treated.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Is Aluminium 7075 stronger than Aluminium 6061?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Yes. Aluminium 7075 is significantly stronger than 6061 due to its higher zinc and
+                                    magnesium content.
+                                    While 6061 is preferred for general purpose use with better corrosion resistance,
+                                    7075 is chosen for aerospace and defense applications where maximum strength is
+                                    required.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Can Aluminium 7075 be welded or machined easily?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Aluminium 7075 has excellent machinability and can be used for precision engineered
+                                    parts.
+                                    However, it is not easily weldable compared to 6000 series alloys.
+                                    Special techniques are required if welding is necessary, but for most cases, it is used
+                                    in machined and forged forms.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Where can I buy Aluminium 7075 in India?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    You can purchase Aluminium 7075 sheets, plates, rods, bars, forgings, and extrusions
+                                    from
+                                    <strong>Moksh Tubes & Fittings LLP</strong>, a leading manufacturer, supplier, exporter,
+                                    importer, and stockist.
+                                    They provide premium aerospace grade materials with custom sizes, international
+                                    certifications, and global delivery.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

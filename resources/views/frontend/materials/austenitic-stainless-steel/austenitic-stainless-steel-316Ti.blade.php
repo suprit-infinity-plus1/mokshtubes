@@ -1,8 +1,14 @@
 @extends('layouts.master')
 
 @section('title', 'Austenitic Stainless Steel 316Ti | Heat Stable Alloy')
-@section('meta_description', '316Ti Stainless Steel pipes and fittings with excellent high-temperature stability and corrosion resistance.')
-@section('meta_keywords', 'Austenitic Stainless Steel 316Ti, Stainless Steel 316Ti Pipes, Stainless Steel 316Ti Tubes, Stainless Steel 316Ti Fittings, Heat Resistant Stainless Steel 316Ti, Corrosion Resistant Stainless Steel 316Ti, High Temperature Stainless Steel 316Ti, Industrial Stainless Steel 316Ti, Marine Grade Stainless Steel 316Ti, Chemical Processing Stainless Steel 316Ti')
+@section('meta_description',
+    '316Ti Stainless Steel pipes and fittings with excellent high-temperature stability and
+    corrosion resistance.')
+@section('meta_keywords',
+    'Austenitic Stainless Steel 316Ti, Stainless Steel 316Ti Pipes, Stainless Steel 316Ti Tubes,
+    Stainless Steel 316Ti Fittings, Heat Resistant Stainless Steel 316Ti, Corrosion Resistant Stainless Steel 316Ti, High
+    Temperature Stainless Steel 316Ti, Industrial Stainless Steel 316Ti, Marine Grade Stainless Steel 316Ti, Chemical
+    Processing Stainless Steel 316Ti')
 
 @section('content')
 
@@ -484,6 +490,122 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What is Austenitic Stainless Steel 316Ti and how is it different from 316 stainless
+                                    steel?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Austenitic Stainless Steel 316Ti is a titanium stabilized version of SS 316, designed to
+                                    resist intergranular corrosion caused by carbide precipitation during welding. While
+                                    both alloys offer excellent corrosion resistance in chloride and acidic environments,
+                                    316Ti provides better high temperature strength and stability, making it ideal for
+                                    continuous service up to 800°C.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What are the main properties of Stainless Steel 316Ti?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>SS 316Ti is known for:</p>
+                                <ul>
+                                    <li>Superior resistance to intergranular corrosion due to titanium stabilization.</li>
+                                    <li>Excellent performance in chloride and acidic environments.</li>
+                                    <li>High strength retention at elevated temperatures.</li>
+                                    <li>Good weldability and fabrication properties.</li>
+                                    <li>Suitability for hygienic and high temperature applications.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Where is Stainless Steel 316Ti commonly used?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>316Ti stainless steel is widely used in industries such as:</p>
+                                <ul>
+                                    <li>Chemical & petrochemical plants (vessels, piping, heat exchangers).</li>
+                                    <li>Power generation (boiler tubes, superheaters, turbines).</li>
+                                    <li>Marine environments (pumps, valves, and seawater exposed components).</li>
+                                    <li>Pharmaceutical & food processing (sanitary fittings and hygienic equipment).</li>
+                                    <li>Automotive & aerospace (exhaust systems and high-temperature engine parts).</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Why is Stainless Steel 316Ti preferred for high-temperature applications?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    The titanium content in SS 316Ti prevents carbide precipitation during welding and
+                                    prolonged heating, which enhances resistance to intergranular corrosion. This
+                                    stabilization allows it to maintain mechanical strength and corrosion resistance even at
+                                    temperatures up to 800°C, making it ideal for power plants, heat exchangers, and
+                                    chemical processing equipment.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Who is the trusted supplier of Stainless Steel 316Ti in India?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Moksh Tubes & Fittings LLP is a leading manufacturer, supplier, exporter, importer, and
+                                    stockist of Stainless Steel 316Ti products. They offer a wide range of pipes, tubes,
+                                    sheets, plates, bars, flanges, fittings, and fasteners manufactured to international
+                                    standards. With custom sizing, technical support, global supply, and competitive
+                                    pricing, Moksh Tubes & Fittings LLP is a reliable partner for industries worldwide.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

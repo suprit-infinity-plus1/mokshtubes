@@ -1,8 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Monel 400 Alloy | Superior Corrosion Resistance & Strength')
-@section('meta_description', 'High-quality Monel 400 offers superior corrosion resistance, excellent strength, and reliability for marine, chemical, and industrial uses.')
-@section('meta_keywords', 'Monel 400, Monel 400 Alloy, Nickel-Copper Alloy, Corrosion Resistant Alloy, High Strength Alloy, Marine Industry Alloys, Chemical Processing Alloys, Industrial Alloys, Impact Resistant Alloys, Durable Nickel Alloys')
+@section('meta_description', 'High-quality Monel 400 offers superior corrosion resistance, excellent strength, and
+    reliability for marine, chemical, and industrial uses.')
+@section('meta_keywords', 'Monel 400, Monel 400 Alloy, Nickel-Copper Alloy, Corrosion Resistant Alloy, High Strength
+    Alloy, Marine Industry Alloys, Chemical Processing Alloys, Industrial Alloys, Impact Resistant Alloys, Durable Nickel
+    Alloys')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -25,11 +28,11 @@
 
             <h2 class="fw-semibold text-center mb-5" style="color: #db7227;">
                 Introduction To Monel 400 / Alloy 400 / UNS N04400 </h2>
-
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/monel/Monel-400.webp') }}" alt="Monel 400" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/monel/Monel-400.webp') }}" alt="Monel 400"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -507,6 +510,102 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Monel 400 and why is it widely used?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Monel 400 (UNS N04400) is a nickel-copper solid solution alloy well-known for its
+                                    exceptional corrosion resistance in seawater, brackish water, chemical processing
+                                    environments, and acidic conditions. It combines high strength, toughness, and good
+                                    weldability, making it suitable for industries that demand durability and reliability in
+                                    aggressive environments.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What types of Monel 400 products are available from Moksh Tubes & Fittings LLP?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Moksh Tubes & Fittings LLP manufactures, supplies, and exports a wide range of Monel 400
+                                    products including seamless and welded pipes, tubes, pipe fittings, flanges, fasteners,
+                                    sheets, plates, coils, bars, wire mesh, welding rods, and custom engineered components,
+                                    ensuring customers receive solutions tailored to their exact needs.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>In which industries is Monel 400 most commonly used?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Monel 400 is widely used in marine engineering, chemical and petrochemical processing,
+                                    oil and gas industries, desalination plants, aerospace, defense, power generation, and
+                                    water treatment systems. Its excellent resistance to seawater, acids, alkalis, and
+                                    high-pressure environments makes it indispensable in these sectors.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the key advantages of choosing Monel 400 over other alloys?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    The main advantages of Monel 400 include outstanding resistance to seawater and salt
+                                    spray, excellent toughness over a wide temperature range, good weldability and
+                                    formability, and superior performance in both oxidizing and reducing conditions. These
+                                    properties make it a cost effective solution for long-term, corrosion resistant
+                                    applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose Moksh Tubes & Fittings LLP for Monel 400 products?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Moksh Tubes & Fittings LLP is a trusted manufacturer and global supplier of Monel 400
+                                    with in depth expertise in high performance nickel alloys. The company ensures
+                                    ISO certified quality, precision manufacturing, customized product solutions, timely
+                                    global delivery, and exceptional customer support, making it the preferred choice for
+                                    clients worldwide.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

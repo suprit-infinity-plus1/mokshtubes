@@ -1,8 +1,10 @@
 @extends('layouts.master')
 
 @section('title', 'Copper Alloy C44300 | Corrosion Resistant & Durable')
-@section('meta_description', 'Copper Alloy C44300 with excellent corrosion resistance and strength for harsh environments.')
-@section('meta_keywords', 'Copper Alloy C44300, corrosion resistant copper, durable copper alloy, industrial copper alloy, high strength copper')
+@section('meta_description', 'Copper Alloy C44300 with excellent corrosion resistance and strength for harsh
+    environments.')
+@section('meta_keywords', 'Copper Alloy C44300, corrosion resistant copper, durable copper alloy, industrial copper
+    alloy, high strength copper')
 
 
 @section('content')
@@ -491,6 +493,126 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What is C44300 Admiralty Brass and what makes it unique?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    C44300 Admiralty Brass is a copper-zinc alloy with a small addition of tin (0.9–1.2%)
+                                    and arsenic.
+                                    These elements improve its corrosion resistance, especially against dezincification,
+                                    making it ideal
+                                    for marine and brackish water applications. It also provides good thermal conductivity
+                                    and mechanical strength.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Where is C44300 Admiralty Brass commonly used?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Admiralty Brass is widely used in heat exchangers, condensers, desalination plants,
+                                    saltwater piping,
+                                    HVAC systems, power plants, petrochemical industries, and shipbuilding. Its excellent
+                                    resistance to seawater
+                                    corrosion makes it a preferred choice for marine engineering and industrial cooling
+                                    systems.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What are the advantages of using Admiralty Brass C44300 over other alloys?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>C44300 offers several benefits including:</p>
+                                <ul>
+                                    <li>Superior corrosion resistance in marine and brackish water</li>
+                                    <li>High thermal conductivity for efficient heat transfer</li>
+                                    <li>Resistance to dezincification due to tin and arsenic content</li>
+                                    <li>Ease of fabrication and ductility</li>
+                                    <li>Long service life in harsh environments</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What C44300 Admiralty Brass products does MOKSH TUBES & FITTINGS LLP supply?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    We manufacture and stock a complete range of C44300 Admiralty Brass products such as
+                                    seamless & welded pipes,
+                                    tubes (U-bend, boiler, heat exchanger), sheets, plates, coils, bars, pipe fittings,
+                                    flanges, fasteners, and
+                                    custom fabricated components, all in compliance with international standards like ASTM
+                                    and DIN.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Why choose MOKSH TUBES & FITTINGS LLP for Admiralty Brass materials?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP is a trusted global supplier with:
+                                </p>
+                                <ul>
+                                    <li>Strict quality control following metallurgical standards.</li>
+                                    <li>Extensive inventory of standard and custom sizes.</li>
+                                    <li>Tailor-made solutions for marine, HVAC, power, and desalination sectors.</li>
+                                    <li>Quick delivery & export packaging for global clients.</li>
+                                    <li>Proven expertise in copper alloys for critical industrial applications.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

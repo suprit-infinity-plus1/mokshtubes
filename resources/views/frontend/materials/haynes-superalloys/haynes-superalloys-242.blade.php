@@ -1,8 +1,9 @@
 @extends('layouts.master')
 
 @section('title', 'Haynes Superalloys 242')
-@section('meta_description','Haynes Alloy 242 with excellent oxidation, thermal stability, and corrosion resistance for demanding environments.
-')
+@section('meta_description',
+    'Haynes Alloy 242 with excellent oxidation, thermal stability, and corrosion resistance for demanding environments.
+    ')
 
 
 @section('content')
@@ -31,7 +32,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/haynes /haynes- 242.webp') }}" alt="Haynes-242" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/haynes /haynes- 242.webp') }}" alt="Haynes-242"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -508,6 +510,108 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Haynes 242 and why is it important in high-temperature applications?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Haynes 242 (UNS N10242) is an age-hardenable nickel-molybdenum-chromium alloy that
+                                    combines excellent high-temperature strength with very low thermal expansion. It is
+                                    widely used in aerospace, chemical, and power generation industries because it provides
+                                    outstanding dimensional stability, fatigue resistance, and oxidation resistance up to
+                                    815 °C (1500 °F), making it ideal for critical operations under extreme conditions.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the key properties of Haynes 242 alloy?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Haynes 242 offers a unique combination of properties including exceptional strength at
+                                    elevated temperatures, the lowest thermal expansion among comparable superalloys, high
+                                    resistance to oxidation, and excellent fatigue and creep performance. It has a tensile
+                                    strength ranging from 105 to 218 ksi depending on form, with yield strength up to 140
+                                    ksi, and maintains structural stability up to 705 °C (1300 °F). Its weldability and
+                                    formability, even in the age-hardened condition, make it a versatile alloy for demanding
+                                    applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Which industries and applications commonly use Haynes 242?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Haynes 242 is widely used in aerospace and gas turbines for seal rings, ducting, fuel
+                                    nozzles, and containment casings. In chemical and petrochemical industries, it is used
+                                    for HF and fluorine resistant components, reactors, and extrusion screws. It also finds
+                                    applications in industrial furnaces for press tooling, heat exchangers, and furnace
+                                    parts, in nuclear and specialty energy sectors for controlled expansion components, and
+                                    in power generation for boiler superheaters and gas turbine hardware.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What types of Haynes 242 products are supplied by MOKSH TUBES & FITTINGS LLP?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP supplies a wide range of Haynes 242 products including
+                                    seamless and welded pipes, tubes, sheets, plates, coils, bars, flanges, pipe fittings,
+                                    fasteners, welding rods, wire mesh, and custom-fabricated components. All products
+                                    conform to ASTM, ASME, NACE, and international standards, ensuring that industries
+                                    receive high-quality materials designed for long service life and superior performance.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for Haynes 242 materials?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP is a trusted manufacturer and global supplier of Haynes 242,
+                                    offering deep expertise in exotic alloys, a strong international supply chain, and ISO
+                                    9001 certified quality assurance. The company provides customized machining, age
+                                    treatment, and fabrication services while ensuring timely delivery and full material
+                                    traceability. With technical support from selection to fabrication, MOKSH TUBES &
+                                    FITTINGS LLP is a reliable partner for industries operating in extreme environments.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

@@ -1,8 +1,12 @@
 @extends('layouts.master')
 
 @section('title', 'Austenitic Stainless Steel 309 | Heat Resistant Alloy')
-@section('meta_description', 'Austenitic Stainless Steel 309 pipes & fittings offering superior oxidation resistance at elevated temperatures.')
-@section('meta_keywords', 'Austenitic Stainless Steel 309, Stainless Steel 309 Pipes, Stainless Steel 309 Tubes, Stainless Steel 309 Fittings, Heat Resistant Stainless Steel 309, Oxidation Resistant Stainless Steel 309, High Temperature Stainless Steel, Industrial Stainless Steel 309, Furnace Grade Stainless Steel, Thermal Processing Stainless Steel')
+@section('meta_description', 'Austenitic Stainless Steel 309 pipes & fittings offering superior oxidation resistance at
+    elevated temperatures.')
+@section('meta_keywords', 'Austenitic Stainless Steel 309, Stainless Steel 309 Pipes, Stainless Steel 309 Tubes,
+    Stainless Steel 309 Fittings, Heat Resistant Stainless Steel 309, Oxidation Resistant Stainless Steel 309, High
+    Temperature Stainless Steel, Industrial Stainless Steel 309, Furnace Grade Stainless Steel, Thermal Processing Stainless
+    Steel')
 
 @section('content')
 
@@ -479,6 +483,117 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What is Austenitic Stainless Steel 309 and what makes it unique?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Austenitic Stainless Steel 309 is a high chromium (22–24%) and nickel (12–15%) alloy
+                                    designed for superior oxidation and corrosion resistance at elevated temperatures. It is
+                                    widely used in furnace parts, petrochemical equipment, and exhaust systems due to its
+                                    ability to maintain strength and toughness under thermal cycling conditions.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What are the key properties of Stainless Steel 309?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>SS 309 offers:</p>
+                                <ul>
+                                    <li>Excellent oxidation resistance up to high temperatures.</li>
+                                    <li>Superior resistance to scaling and carburization.</li>
+                                    <li>Good mechanical strength (tensile strength 520–655 MPa).</li>
+                                    <li>Durability in thermal shock and corrosive environments.</li>
+                                    <li>Good weldability and fabrication properties.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Where is Stainless Steel 309 commonly used?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Stainless Steel 309 is extensively used in furnaces, heat treatment equipment, catalytic
+                                    reactors, gas turbines, boilers, exhaust manifolds, food processing equipment, and
+                                    petrochemical plants. Its ability to withstand high heat and oxidation makes it a
+                                    preferred material in aerospace, automotive, and power generation industries.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    How is Stainless Steel 309 different from Stainless Steel 304 and 310?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Compared to SS 304, Stainless Steel 309 has higher chromium and nickel content, making
+                                    it far more resistant to high-temperature oxidation. While SS 310 has slightly higher
+                                    alloying elements, SS 309 offers a cost effective balance of heat resistance, strength,
+                                    and corrosion protection, ideal for industrial high-heat applications.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Who is the best supplier of Stainless Steel 309 in India?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Moksh Tubes & Fittings LLP is a trusted manufacturer, supplier, exporter, importer, and
+                                    stockist of Stainless Steel 309 products, including pipes, tubes, sheets, plates, bars,
+                                    fittings, flanges, and fasteners. With international quality standards, custom sizes,
+                                    competitive pricing, and global delivery, Moksh Tubes & Fittings LLP is a reliable
+                                    choice for industries requiring premium heat resistant stainless steels.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

@@ -1,8 +1,10 @@
 @extends('layouts.master')
 
 @section('title', '4130 Alloy Steel | Chromium-Molybdenum Steel')
-@section('meta_description', '4130 Alloy Steel known for high strength, toughness, and excellent weldability for aerospace and automotive use.')
-@section('meta_keywords', '4130 Alloy Steel, chromium-molybdenum steel, high strength steel, tough steel, weldable steel, aerospace steel, automotive steel, industrial alloy steel')
+@section('meta_description', '4130 Alloy Steel known for high strength, toughness, and excellent weldability for
+    aerospace and automotive use.')
+@section('meta_keywords', '4130 Alloy Steel, chromium-molybdenum steel, high strength steel, tough steel, weldable
+    steel, aerospace steel, automotive steel, industrial alloy steel')
 
 @section('content')
 
@@ -472,6 +474,112 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is EN 4130 steel and why is it widely used?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    EN 4130, also known as AISI 4130, is a low-alloy steel containing chromium and
+                                    molybdenum, which provide excellent strength, toughness, and weldability.
+                                    It is valued for its high strength-to-weight ratio and fatigue resistance, making it
+                                    suitable for demanding structural and mechanical applications.
+                                    Due to its ability to be heat-treated for enhanced mechanical properties, EN 4130 is
+                                    extensively used in aerospace, automotive, and oil & gas industries.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the chemical and mechanical properties of EN 4130 steel?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    EN 4130 steel has a chemical composition that includes carbon (0.28–0.33%), manganese
+                                    (0.40–0.60%), chromium (0.80–1.10%), and molybdenum (0.15–0.25%),
+                                    along with small amounts of silicon, phosphorus, and sulfur.
+                                    Mechanically, it offers tensile strength between 552–896 MPa and yield strength between
+                                    345–724 MPa, depending on the product form and heat treatment.
+                                    With elongation up to 30% and hardness ranging from 150–260 Brinell, EN 4130 is strong,
+                                    ductile, and highly versatile.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What EN 4130 steel products are offered by MOKSH TUBES & FITTINGS LLP?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP supplies a complete range of EN 4130 steel products including
+                                    seamless and welded pipes, tubes, sheets, plates, coils, strips, bars,
+                                    pipe fittings, flanges, fasteners, and custom-fabricated components.
+                                    All products are manufactured to international standards and can be customized in terms
+                                    of dimensions, thickness, and heat treatment to meet specific industry requirements.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the key applications of EN 4130 steel?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    EN 4130 steel is widely used in aerospace and aviation for manufacturing aircraft
+                                    components, engine mounts, and landing gear parts.
+                                    In the automotive and motorsport industry, it is used for roll cages, chassis, drive
+                                    shafts, and suspension parts that require strength and fatigue resistance.
+                                    It is also extensively used in the oil & gas industry for pipelines, high-pressure
+                                    tubing, and equipment exposed to extreme environments,
+                                    as well as in mechanical engineering for gears, bolts, and machinery components.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for EN 4130 steel materials?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP is a trusted supplier of high-quality EN 4130 steel products
+                                    with a wide inventory and the ability to provide customized solutions.
+                                    The company has strong expertise in alloy steel manufacturing and ensures compliance
+                                    with international standards.
+                                    With global supply capabilities, timely deliveries, competitive pricing, and dedicated
+                                    customer support,
+                                    MOKSH TUBES & FITTINGS LLP is a reliable partner for industries requiring durable and
+                                    high-performance EN 4130 steel materials.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

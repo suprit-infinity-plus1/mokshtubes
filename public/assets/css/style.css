@@ -529,7 +529,7 @@ textarea {
     margin-bottom: 50px;
 }
 
-.section-title h2 ,
+.section-title h2,
 .blog-title h2 {
     position: relative;
     text-transform: capitalize;
@@ -538,7 +538,7 @@ textarea {
 }
 .blog-title h2 {
     padding-bottom: 0;
-        color: var(--primary);
+    color: var(--primary);
 }
 
 .section-title h3 {
@@ -8399,13 +8399,12 @@ ul.gallery-filter li span {
 }
 
 .accordion-box .accordion .accord-btn.active {
-     background: var(--brown) none repeat scroll 0;
+    background: var(--brown) none repeat scroll 0;
 }
 
 .accordion-box .accordion .accord-btn.active h4 {
     color: #ffffff;
 }
-
 
 /* ==================== Custom Pagination ==================== */
 .custom-pagination {
@@ -8414,7 +8413,8 @@ ul.gallery-filter li span {
     margin-top: 30px;
     gap: 8px;
 }
-.custom-pagination a, .custom-pagination span {
+.custom-pagination a,
+.custom-pagination span {
     padding: 8px 14px;
     border: 1px solid #ddd;
     text-decoration: none;
@@ -8431,21 +8431,19 @@ ul.gallery-filter li span {
 }
 
 .text li {
-     margin-bottom: 0.25rem;
+    margin-bottom: 0.25rem;
     color: #848484;
     list-style-type: disc;
     list-style-position: inside;
-    
 }
 
 .exapmle ul {
-     list-style-position: inside;
+    list-style-position: inside;
     padding-left: 30px;
 }
 
-
 .exapmle li {
-     margin-bottom: 0.25rem;
+    margin-bottom: 0.25rem;
     color: #848484;
     list-style-type: disc;
 }
@@ -8455,7 +8453,7 @@ ul.gallery-filter li span {
     border-left: 4px solid #db7227;
     padding: 1rem;
     border-radius: 6px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .tip-box h3 {
@@ -8484,13 +8482,17 @@ ul.gallery-filter li span {
     border-radius: 4px;
 }
 
+/* Grade FAQ's li */
 .exapmle h3 {
     font-family: "Montserrat", sans-serif;
     color: #174268;
     font-weight: 600;
     font-size: 20px;
     padding-bottom: 10px;
-
-
 }
 
+.accord-content li {
+    list-style: disc;
+    list-style-position: inside;
+    color: #4e4646;
+}

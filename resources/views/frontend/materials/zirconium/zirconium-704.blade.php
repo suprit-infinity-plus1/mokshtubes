@@ -1,8 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Zirconium 704 | Industrial Grade Corrosion-Resistant Alloy')
-@section('meta_description', 'Durable Zirconium 704 alloy designed for superior resistance to aggressive chemical environments and industrial use.')
-@section('meta_keywords', 'Zirconium 704, Industrial Grade Zirconium, Corrosion Resistant Zirconium, Zirconium 704 Pipes, Zirconium 704 Tubes, Zirconium 704 Sheets, Chemical Processing Zirconium, Industrial Zirconium Alloys, High Performance Zirconium, Aggressive Chemical Resistant Alloy')
+@section('meta_description', 'Durable Zirconium 704 alloy designed for superior resistance to aggressive chemical
+    environments and industrial use.')
+@section('meta_keywords', 'Zirconium 704, Industrial Grade Zirconium, Corrosion Resistant Zirconium, Zirconium 704
+    Pipes, Zirconium 704 Tubes, Zirconium 704 Sheets, Chemical Processing Zirconium, Industrial Zirconium Alloys, High
+    Performance Zirconium, Aggressive Chemical Resistant Alloy')
 
 @section('content')
 
@@ -492,6 +495,98 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Zirconium 704 and its main characteristics?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Zirconium 704 (UNS R60704) is a high-purity zirconium alloy recognized for superior
+                                    corrosion resistance, excellent weldability, high mechanical strength, minimal
+                                    contamination, and biocompatibility. It is ideal for chemical, nuclear, pharmaceutical,
+                                    and seawater applications requiring reliability and longevity.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Which products are available in Zirconium 704?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP offers a full range of Zirconium 704 products, including
+                                    seamless and welded pipes, tubes, sheets, plates, coils, bars, flanges, fittings,
+                                    fasteners, welding rods, and custom fabricated components that meet industrial and
+                                    medical standards.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What industries commonly use Zirconium 704?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Zirconium 704 is widely applied in chemical processing, nuclear reactors, pharmaceutical
+                                    and biotech sectors, aerospace, medical devices, and seawater systems where high purity,
+                                    corrosion resistance, and durability are essential.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the advantages of Zirconium 704 over other alloys?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Zirconium 704 offers excellent corrosion resistance in acids and high-purity water,
+                                    superior mechanical strength, easy fabrication, minimal contamination risk, non magnetic
+                                    behavior, biocompatibility, and low neutron absorption, making it particularly suitable
+                                    for nuclear and high purity applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for Zirconium 704?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP supplies premium Zirconium 704, sourced globally and
+                                    manufactured to ASTM/ASME standards. We provide custom solutions, reliable delivery, and
+                                    technical support across multiple industries, ensuring performance and compliance for
+                                    critical applications.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

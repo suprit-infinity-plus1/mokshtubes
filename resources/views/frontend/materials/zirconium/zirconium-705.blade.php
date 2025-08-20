@@ -1,8 +1,13 @@
 @extends('layouts.master')
 
 @section('title', 'Zirconium 705 | High-Performance Zirconium Alloy')
-@section('meta_description', 'Zirconium 705 alloy offering exceptional corrosion resistance and strength for demanding nuclear and chemical processes.')
-@section('meta_keywords', 'Zirconium 705, High Performance Zirconium, Corrosion Resistant Zirconium, Zirconium 705 Pipes, Zirconium 705 Tubes, Zirconium 705 Sheets, Chemical Processing Zirconium, Nuclear Industry Zirconium, Industrial Zirconium_
+@section('meta_description',
+    'Zirconium 705 alloy offering exceptional corrosion resistance and strength for demanding
+    nuclear and chemical processes.')
+@section('meta_keywords',
+    'Zirconium 705, High Performance Zirconium, Corrosion Resistant Zirconium, Zirconium 705
+    Pipes, Zirconium 705 Tubes, Zirconium 705 Sheets, Chemical Processing Zirconium, Nuclear Industry Zirconium, Industrial
+    Zirconium')
 
 @section('content')
 
@@ -490,6 +495,97 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Zirconium 705 and where is it used?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Zirconium 705 is a high purity zirconium alloy known for exceptional corrosion
+                                    resistance in strong acids, alkalis, and hot water. It is widely applied in chemical
+                                    processing, nuclear reactors, pharmaceuticals, marine systems, and medical devices where
+                                    purity, durability, and mechanical strength are critical.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the key properties of Zirconium 705?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Zirconium 705 provides high tensile and yield strength, excellent ductility, outstanding
+                                    weldability, non magnetic behavior, and low neutron absorption. These characteristics
+                                    make it ideal for nuclear, medical, and high-purity industrial applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Which Zirconium 705 products are available?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP supplies Zirconium 705 in a variety of forms including
+                                    seamless and welded pipes, tubes, sheets, plates, coils, bars, flanges, fittings,
+                                    fasteners, welding rods, and custom-fabricated components tailored to your project
+                                    requirements.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>How resistant is Zirconium 705 to corrosion?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Zirconium 705 exhibits superior corrosion resistance in strong acids such as nitric and
+                                    sulfuric, caustic solutions, seawater, and high purity water systems. Its chemical
+                                    stability ensures reliability for long term industrial and marine applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for Zirconium 705?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    We specialize in high-purity zirconium alloys with ASTM/ASME certified manufacturing,
+                                    access to globally sourced raw materials, and custom fabrication solutions. Our
+                                    Zirconium 705 products ensure consistent quality, traceability, and dependable supply
+                                    for demanding industrial projects.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

@@ -1,7 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Nickel A286 AIS600 Superalloy | High Strength & Heat Resistant | Mokshtubes ')
-@section('meta_description', 'Explore A286 superalloy known for high strength, heat resistance, and excellent
+@section('meta_description',
+    'Explore A286 superalloy known for high strength, heat resistance, and excellent
     performance in aerospace and high-temperature applications.')
 
 @section('content')
@@ -524,6 +525,105 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Nickel A286 (AISI 660) and what are its key properties?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Nickel A286, also known as AISI 660 or UNS S66286, is a high-strength
+                                    iron nickel chromium alloy with additions of molybdenum and titanium. It is designed for
+                                    applications requiring excellent strength and corrosion resistance at temperatures up to
+                                    704 °C (1300 °F). The alloy exhibits superior mechanical properties, oxidation
+                                    resistance, and thermal stability, making it ideal for aerospace, automotive, marine,
+                                    power generation, and chemical processing applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What Nickel A286 products does Moksh Tubes & Fittings LLP supply?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Moksh Tubes & Fittings LLP manufactures, stocks, and exports a wide range of Nickel A286
+                                    products including seamless and welded pipes, tubes, sheets, plates, coils, strips,
+                                    round bars, flat bars, hex bars, square bars, pipe fittings, flanges, fasteners, wire
+                                    mesh, welding rods, and custom fabricated components. All products are designed for
+                                    high-performance applications in extreme environments.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the main advantages of using Nickel A286 in industrial applications?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Nickel A286 offers high tensile and creep rupture strength even at elevated
+                                    temperatures, excellent oxidation and corrosion resistance, and long-term dimensional
+                                    stability. It is easily fabricated and welded, maintains mechanical integrity over
+                                    prolonged service periods, and is non magnetic after heat treatment. These features make
+                                    it suitable for critical, high-temperature, high stress industrial applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Which industries commonly use Nickel A286 alloy products?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Nickel A286 is widely used in aerospace for jet engines, turbines, exhaust systems, and
+                                    fasteners; in power generation for turbines, boilers, and high temperature steam
+                                    systems; in automotive for turbochargers and engine components; in chemical processing
+                                    for high-temperature equipment; and in oil & gas, marine, and industrial sectors for
+                                    heat exchangers, subsea tools, and high pressure fasteners.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose Moksh Tubes & Fittings LLP for Nickel A286 supply?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Moksh Tubes & Fittings LLP provides certified, high performance Nickel A286 products
+                                    with comprehensive test reports and compliance with international standards. With
+                                    decades of expertise in nickel based alloys, in house machining, custom fabrication,
+                                    ready stock for fast delivery, global export capabilities, and dedicated technical
+                                    support, the company ensures reliable solutions for critical industrial applications.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

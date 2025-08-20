@@ -1,8 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Monel R405 Alloy – Premium Strength & Machinability')
-@section('meta_description', 'Discover Monel R405 Alloy with superior corrosion resistance, high strength & exceptional machinability for marine, chemical & industrial success.')
-@section('meta_keywords', 'Monel R405, Monel R405 Alloy, Nickel-Copper Alloy, High Strength Alloy, Corrosion Resistant Alloy, Marine Industry Alloys, Chemical Processing Alloys, Oilfield Alloys, Machinable Nickel Alloys, Durable Nickel Alloys')
+@section('meta_description', 'Discover Monel R405 Alloy with superior corrosion resistance, high strength & exceptional
+    machinability for marine, chemical & industrial success.')
+@section('meta_keywords', 'Monel R405, Monel R405 Alloy, Nickel-Copper Alloy, High Strength Alloy, Corrosion Resistant
+    Alloy, Marine Industry Alloys, Chemical Processing Alloys, Oilfield Alloys, Machinable Nickel Alloys, Durable Nickel
+    Alloys')
 
 @section('content')
 
@@ -30,7 +33,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/monel/Monel-R405.webp') }}" alt="Monel K500" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/monel/Monel-R405.webp') }}" alt="Monel K500"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -522,6 +526,108 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Monel R405 and how does it differ from Monel 400?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Monel R405 (UNS N04405) is a nickel-copper alloy that offers the same corrosion
+                                    resistance and mechanical strength as Monel 400, but with added sulfur content to
+                                    improve machinability. This modification makes Monel R405 particularly suitable for
+                                    high-speed automatic screw machines, while still retaining excellent resistance to
+                                    seawater, acids, alkalis, and high-temperature steam.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What types of Monel R405 products are available at Moksh Tubes & Fittings LLP?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Moksh Tubes & Fittings LLP supplies a wide range of Monel R405 products including
+                                    seamless and welded pipes, tubes, sheets, plates, coils, round bars, pipe fittings,
+                                    flanges, fasteners, welding rods, forgings, and custom-machined components. These
+                                    products are available in both standard and tailor-made dimensions, ensuring reliable
+                                    performance in marine, oil and gas, chemical, aerospace, and power generation
+                                    industries.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the key benefits of using Monel R405 in industrial applications?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    The main advantages of Monel R405 include excellent machinability due to controlled
+                                    sulfur content, outstanding resistance to seawater and corrosive chemicals, high
+                                    strength and toughness at both cryogenic and elevated temperatures, and suitability for
+                                    automated machining processes. These properties make Monel R405 a cost effective and
+                                    long lasting solution for industries requiring precision components and reliable
+                                    performance under extreme conditions.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Which industries commonly use Monel R405 alloy products?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Monel R405 is widely used in industries such as marine and offshore engineering, oil and
+                                    gas exploration, chemical and petrochemical processing, power generation, aerospace,
+                                    defense, and medical equipment manufacturing. Typical applications include pump shafts,
+                                    valve stems, fasteners, drill collars, screw machine parts, impellers, turbine
+                                    components, and electrical sensor housings where machinability and corrosion resistance
+                                    are equally important.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose Moksh Tubes & Fittings LLP for Monel R405 supply?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Moksh Tubes & Fittings LLP is a leading manufacturer, supplier, and global exporter of
+                                    Monel R405 products, trusted for its high quality raw materials, precision machining,
+                                    and customized solutions. With ISO certified processes, quick delivery schedules, and
+                                    strong global logistics, the company ensures reliable supply for critical industries.
+                                    Its expertise in Monel alloys and commitment to quality assurance make it the preferred
+                                    partner for clients worldwide.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

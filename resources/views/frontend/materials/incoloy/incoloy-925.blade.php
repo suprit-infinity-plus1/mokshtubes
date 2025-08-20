@@ -1,8 +1,11 @@
 @extends('layouts.master')
 
 @section('title', ' Incoloy 925 | Superior Strength & Sour Gas Protection')
-@section('meta_description', 'Incoloy 925 combines high strength with outstanding corrosion resistance—perfect for oil & gas well parts and demanding marine environments.')
-@section('meta_keywords', 'Incoloy 925, Incoloy 925 Pipes, Incoloy 925 Tubes, Incoloy 925 Fittings, High Strength Incoloy 925, Corrosion Resistant Incoloy 925, Sour Gas Resistant Incoloy 925, Oil & Gas Industry Incoloy 925, Marine Environment Incoloy 925, Industrial Incoloy 925 Alloy')
+@section('meta_description', 'Incoloy 925 combines high strength with outstanding corrosion resistance—perfect for oil &
+    gas well parts and demanding marine environments.')
+@section('meta_keywords', 'Incoloy 925, Incoloy 925 Pipes, Incoloy 925 Tubes, Incoloy 925 Fittings, High Strength
+    Incoloy 925, Corrosion Resistant Incoloy 925, Sour Gas Resistant Incoloy 925, Oil & Gas Industry Incoloy 925, Marine
+    Environment Incoloy 925, Industrial Incoloy 925 Alloy')
 @section('canonical', url('materials/incoloy/incoloy-925'))
 
 @section('content')
@@ -528,6 +531,111 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Incoloy 925 and why is it used in critical industries?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Incoloy 925 (UNS N09925) is a precipitation-hardenable nickel iron chromium alloy
+                                    enhanced with molybdenum, copper, titanium, and aluminum. It is designed to deliver
+                                    exceptional resistance to stress corrosion cracking, pitting, and crevice corrosion,
+                                    particularly in sour gas (H2S) environments. With a balance of high strength and
+                                    corrosion resistance, Incoloy 925 is a preferred material for demanding industries such
+                                    as oil and gas, chemical processing, power generation, and marine engineering.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the main properties of Incoloy 925?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Incoloy 925 offers a unique combination of mechanical strength and corrosion resistance,
+                                    performing reliably under extreme pressures and high temperatures. It provides
+                                    outstanding resistance to chloride-induced stress corrosion cracking and maintains
+                                    durability in aggressive sour gas and seawater environments. Along with its superior
+                                    toughness, the alloy offers good weldability, formability, and long service life, making
+                                    it ideal for harsh industrial applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the common applications of Incoloy 925?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Incoloy 925 is widely used in industries that demand both strength and corrosion
+                                    resistance. In the oil and gas sector, it is utilized for downhole tubing, hangers,
+                                    valves, and other sour service equipment. In chemical processing, it is found in heat
+                                    exchangers, tanks, and piping systems exposed to acidic and chloride rich fluids. It is
+                                    also deployed in marine engineering for seawater handling equipment, in desalination
+                                    plants for saltwater filtration systems, and in power generation for turbine and piping
+                                    components.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What product forms are available in Incoloy 925?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP manufactures and supplies Incoloy 925 in a comprehensive
+                                    range of forms, including seamless and welded pipes, tubes, sheets, plates, coils, bars,
+                                    welding rods, wire mesh, flanges, fasteners, pipe fittings, and custom-fabricated
+                                    components. All products are crafted to meet international standards such as NACE
+                                    MR-01-75 and ASME specifications, ensuring quality and reliability in mission critical
+                                    operations.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for Incoloy 925 products?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP is a trusted global supplier of Incoloy 925 materials, with
+                                    expertise in manufacturing precision engineered products for industries such as oil and
+                                    gas, chemical processing, and marine applications. By sourcing premium grade raw
+                                    materials, offering fast turnaround times, and providing custom fabrication support, the
+                                    company ensures superior product performance and customer satisfaction. Their strong
+                                    quality assurance and global track record make them a reliable partner for Incoloy 925
+                                    solutions.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

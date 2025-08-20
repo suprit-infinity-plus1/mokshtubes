@@ -2,7 +2,8 @@
 
 @section('title', 'P1 Alloy Steel | Tool Steel for Impact Resistance')
 @section('meta_description', 'P1 Alloy Steel used for tools requiring good impact resistance and hardness.')
-@section('meta_keywords', 'P1 Alloy Steel, tool steel, impact resistant steel, hard alloy steel, industrial tools steel, durable alloy steel')
+@section('meta_keywords', 'P1 Alloy Steel, tool steel, impact resistant steel, hard alloy steel, industrial tools steel,
+    durable alloy steel')
 
 @section('content')
 
@@ -475,6 +476,92 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is P1 steel used for?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    P1 steel is primarily used for cold work tooling, including dies, punches, shear blades,
+                                    and forming tools, as well as precision engineering components requiring high wear
+                                    resistance and toughness.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the key properties of P1 steel?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    P1 steel offers excellent hardness, wear resistance, toughness, and dimensional
+                                    stability, making it ideal for high-precision and heavy duty tooling applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>In what forms is P1 steel available?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    P1 steel is available in bars, sheets, plates, tubes, flanges, fasteners, and
+                                    custom fabricated components to meet diverse industrial and engineering requirements.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why is P1 steel suitable for cold work applications?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Its high carbon, high chromium composition provides sharp cutting edges, superior wear
+                                    resistance, and resistance to deformation under repeated mechanical stresses, making it
+                                    ideal for cold work tools.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for P1 steel?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    We offer premium P1 steel products with a wide range of sizes, custom processing
+                                    options, strict quality control, competitive pricing, fast delivery, and dedicated
+                                    technical support.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

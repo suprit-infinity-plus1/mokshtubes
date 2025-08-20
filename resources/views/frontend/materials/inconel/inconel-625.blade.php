@@ -1,8 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Inconel 625 | Superior Strength & Marine Protection')
-@section('meta_description', 'Inconel 625 offers unmatched fatigue, creep, and chloride resistance—perfect for aerospace, marine, and chemical processing applications')
-@section('meta_keywords', 'Inconel 625, Superior Strength Alloy, Marine Protection Alloy, Nickel Alloys, Fatigue Resistant Alloy, Creep Resistant Alloy, Chloride Resistant Alloy, Aerospace Alloys, Marine Industry Alloys, Chemical Processing Alloys, Corrosion Resistant Alloys')
+@section('meta_description', 'Inconel 625 offers unmatched fatigue, creep, and chloride resistance—perfect for
+    aerospace, marine, and chemical processing applications')
+@section('meta_keywords', 'Inconel 625, Superior Strength Alloy, Marine Protection Alloy, Nickel Alloys, Fatigue
+    Resistant Alloy, Creep Resistant Alloy, Chloride Resistant Alloy, Aerospace Alloys, Marine Industry Alloys, Chemical
+    Processing Alloys, Corrosion Resistant Alloys')
 
 @section('content')
 
@@ -539,6 +542,119 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Inconel 625 and why is it widely used?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Inconel 625 (UNS N06625) is a nickel chromium molybdenum niobium alloy known for its
+                                    exceptional corrosion resistance, high strength, and remarkable fatigue and
+                                    thermal fatigue properties. It performs reliably in extreme environments, including
+                                    exposure to seawater, strong acids, and high pressure, high temperature conditions. The
+                                    alloy’s unique chemical balance gives it superior resistance to pitting, crevice
+                                    corrosion, and chloride induced stress corrosion cracking, making it a preferred
+                                    material across industries such as aerospace, marine, chemical processing, oil and gas,
+                                    and power generation.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the primary applications of Inconel 625?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Inconel 625 is used in a wide variety of industries where durability and corrosion
+                                    resistance are critical. In aerospace, it is applied in jet engine components, exhaust
+                                    systems, and turbine shroud rings. In the marine and offshore sector, it is relied upon
+                                    for seawater piping, underwater fasteners, and platform structures. The alloy also sees
+                                    extensive use in chemical plants for reactors, scrubbers, and heat exchangers; in power
+                                    generation for steam lines and containment vessels; and in oil and gas industries for
+                                    sour gas service, downhole equipment, and manifolds. Its versatility extends to
+                                    environmental systems, pharmaceuticals, and food processing industries.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the main advantages of Inconel 625 compared to other alloys?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Inconel 625 offers a unique combination of high tensile strength, excellent fatigue
+                                    resistance, and outstanding corrosion resistance in both oxidizing and reducing
+                                    environments. Unlike many alloys, it retains its mechanical properties even under
+                                    extreme thermal cycling, making it ideal for demanding service conditions. Its
+                                    resistance to aggressive chemicals, seawater, hydrogen sulfide, and chloride rich
+                                    environments sets it apart as a reliable, long lasting material. Additionally, it is
+                                    easy to fabricate, weld, and machine, which helps industries reduce downtime and
+                                    maintenance costs.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>How does the chemical composition of Inconel 625 enhance its properties?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    The chemical composition of Inconel 625 is carefully balanced to deliver superior
+                                    performance. A high nickel content provides resistance to chloride stress corrosion
+                                    cracking, while chromium improves resistance to oxidation and scaling. The addition of
+                                    molybdenum enhances its defense against pitting and crevice corrosion, and niobium
+                                    increases strength and toughness through solid solution strengthening. These elements
+                                    together give Inconel 625 unmatched durability in seawater, acidic media, and
+                                    high-temperature environments, making it a truly versatile alloy for critical
+                                    applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose Moksh Tubes & Fittings LLP for Inconel 625 products?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Moksh Tubes & Fittings LLP is a trusted manufacturer, supplier, exporter, importer, and
+                                    stockist of premium Inconel 625 products, offering everything from pipes, tubes, sheets,
+                                    plates, and coils to fittings, flanges, fasteners, and custom-fabricated components.
+                                    With proven expertise in nickel-based alloys, a strong global supply network, and
+                                    stringent quality control standards, the company ensures that every product meets
+                                    international specifications. Customers rely on Moksh Tubes & Fittings LLP for
+                                    customized solutions, timely delivery, and consistent performance across industries
+                                    where reliability is non negotiable.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

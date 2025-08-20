@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Titanium Grade 2 | Industrial Grade Titanium')
-@section('meta_description', 'Versatile Titanium Grade 2 offering strong corrosion resistance and strength for aerospace
+@section('meta_description',
+    'Versatile Titanium Grade 2 offering strong corrosion resistance and strength for aerospace
     and medical sectors.')
-@section('meta_keywords', 'Titanium Grade 2, Industrial Grade Titanium, Corrosion Resistant Titanium, Titanium Grade 2
+@section('meta_keywords',
+    'Titanium Grade 2, Industrial Grade Titanium, Corrosion Resistant Titanium, Titanium Grade 2
     Pipes, Titanium Grade 2 Tubes, Titanium Grade 2 Sheets, Aerospace Titanium Alloys, Medical Industry Titanium, High
     Strength Titanium, Industrial Titanium Grades')
 
@@ -485,6 +487,114 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Titanium Grade 2 and what are its applications?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Titanium Grade 2 is a commercially pure (unalloyed) titanium that offers an excellent
+                                    balance of strength, ductility, and corrosion resistance. Slightly stronger than Grade 1
+                                    while maintaining outstanding formability and weldability, it is ideal for industries
+                                    requiring lightweight, corrosion resistant materials. It performs reliably in oxidizing
+                                    and mildly reducing environments, making it a versatile and cost effective solution for
+                                    chemical processing, marine applications, aerospace, medical systems, desalination
+                                    plants, power generation, and pharmaceutical equipment.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the chemical and mechanical properties of Titanium Grade 2?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Titanium Grade 2 consists primarily of titanium as the balance element, with minor
+                                    concentrations of hydrogen (≤0.015%), iron (≤0.30%), oxygen (≤0.25%), carbon (≤0.08%),
+                                    and nitrogen (≤0.03%). Mechanically, annealed tubing exhibits a tensile strength of 70
+                                    ksi (483 MPa) and yield strength of 50 ksi (345 MPa) with 30% elongation, while
+                                    cold-drawn tubing achieves 90 ksi (620 MPa) tensile strength and 70 ksi (483 MPa) yield
+                                    strength with 18% elongation. This combination of mechanical performance and ductility
+                                    allows Titanium Grade 2 to be fabricated into pipes, tubes, sheets, plates, bars, and
+                                    custom components for demanding industrial environments.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What types of Titanium Grade 2 products are offered?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP manufactures and supplies Titanium Grade 2 in a broad range
+                                    of products, including seamless and welded pipes, capillary, U-bend, boiler, and heat
+                                    exchanger tubes, sheets, plates, coils, strips, round, flat, hex, and square bars.
+                                    Additionally, it provides pipe fittings, flanges, fasteners, wire mesh, welding rods,
+                                    and custom fabricated components. All products are produced according to global
+                                    standards, ensuring high quality performance, dimensional accuracy, and compliance with
+                                    industrial specifications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the advantages of using Titanium Grade 2?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Titanium Grade 2 is highly resistant to corrosion in oxidizing and mildly reducing
+                                    conditions while being strong yet lightweight, which is ideal for weight sensitive
+                                    applications. It demonstrates excellent weldability and fabricability, is biocompatible
+                                    and non toxic, and maintains stable mechanical properties across a wide temperature
+                                    range. Economical compared to higher alloy titanium grades, it provides a reliable and
+                                    cost effective solution for industries that require durable and long lasting components.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for Titanium Grade 2 products?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    With decades of expertise in titanium and non ferrous metals, MOKSH TUBES & FITTINGS LLP
+                                    ensures superior quality and timely delivery. The company maintains a strong global
+                                    supply chain, full compliance with international standards, and the ability to
+                                    manufacture custom-sized and precision made components. Commitment to fast delivery,
+                                    consistent quality, and customer satisfaction makes it a trusted partner for clients
+                                    across chemical, marine, aerospace, medical, pharmaceutical, and power generation
+                                    sectors.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

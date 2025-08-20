@@ -1,8 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Aluminium Alloy 6063 | Architectural Grade Aluminium')
-@section('meta_description', 'Architectural-grade Aluminium 6063 known for excellent surface finish and corrosion resistance.')
-@section('meta_keywords', 'Aluminium Alloy 6063, Architectural Grade Aluminium, Aluminium 6063 Pipes, Aluminium 6063 Tubes, Aluminium 6063 Sheets, Corrosion Resistant Aluminium, Excellent Surface Finish Aluminium, Architectural Aluminium Alloys, Structural Aluminium, Industrial Aluminium Grades')
+@section('meta_description', 'Architectural-grade Aluminium 6063 known for excellent surface finish and corrosion
+    resistance.')
+@section('meta_keywords', 'Aluminium Alloy 6063, Architectural Grade Aluminium, Aluminium 6063 Pipes, Aluminium 6063
+    Tubes, Aluminium 6063 Sheets, Corrosion Resistant Aluminium, Excellent Surface Finish Aluminium, Architectural Aluminium
+    Alloys, Structural Aluminium, Industrial Aluminium Grades')
 
 @section('content')
 
@@ -454,6 +457,116 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What is Aluminium Alloy 6063 used for?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Aluminium 6063, also known as the architectural alloy, is widely used in window frames,
+                                    door frames, curtain walls, pipelines, heat exchangers, furniture, and lightweight
+                                    structural applications.
+                                    Its excellent corrosion resistance and anodizing finish make it highly popular in
+                                    construction and architectural industries.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What are the advantages of Aluminium 6063 over other aluminium alloys?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Aluminium 6063 offers superior surface finish, high corrosion resistance, good
+                                    strength to weight ratio, and excellent anodizing properties compared to many other
+                                    aluminium grades.
+                                    It is also highly formable, weldable, and extrudable, making it ideal for complex shapes
+                                    and decorative applications.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What is the difference between Aluminium 6061 and 6063?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    The main difference lies in their strength and finish. Aluminium 6061 has higher
+                                    mechanical strength, making it suitable for heavy duty structural applications,
+                                    whereas Aluminium 6063 is lighter, smoother, and better for anodizing, making it the
+                                    preferred choice for architectural and decorative uses.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Can Aluminium 6063 be welded and anodized?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Yes. Aluminium 6063 is known for its excellent weldability and superior anodizing
+                                    capability, which provides a durable, attractive surface finish.
+                                    This makes it widely used in construction, transportation, and consumer products where
+                                    both appearance and durability matter.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Where can I buy high-quality Aluminium 6063 products in India?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    You can purchase premium quality Aluminium 6063 sheets, plates, tubes, pipes, bars, and
+                                    custom extrusions from <strong>Moksh Tubes & Fittings LLP</strong>,
+                                    a trusted manufacturer, supplier, and exporter of aluminium alloys with a strong
+                                    commitment to quality, timely delivery, and customer satisfaction.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

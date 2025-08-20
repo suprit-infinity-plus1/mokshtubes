@@ -1,8 +1,13 @@
 @extends('layouts.master')
 
 @section('title', 'Aluminium Alloy 1200 | Pure Aluminium Grade')
-@section('meta_description', 'High purity Aluminium 1200 with superior corrosion resistance and electrical conductivity.')
-@section('meta_keywords', 'Aluminium Alloy 1200, Pure Aluminium Grade, Aluminium 1200 Pipes, Aluminium 1200 Tubes, Aluminium 1200 Sheets, Corrosion Resistant Aluminium, High Purity Aluminium, Electrical Conductive Aluminium, Industrial Aluminium Grades, Commercial Aluminium Alloys')
+@section('meta_description',
+    'High purity Aluminium 1200 with superior corrosion resistance and electrical
+    conductivity.')
+@section('meta_keywords',
+    'Aluminium Alloy 1200, Pure Aluminium Grade, Aluminium 1200 Pipes, Aluminium 1200 Tubes,
+    Aluminium 1200 Sheets, Corrosion Resistant Aluminium, High Purity Aluminium, Electrical Conductive Aluminium, Industrial
+    Aluminium Grades, Commercial Aluminium Alloys')
 
 @section('content')
 
@@ -470,6 +475,121 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn ">
+                                <h4>
+                                    What is Aluminium Alloy 1200 and what are its main characteristics?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Aluminium Alloy 1200 is a commercially pure <a
+                                        href="{{ route('materials.aluminium-Alloys') }}">aluminum grade</a> with a minimum
+                                    of 99%
+                                    aluminum. It is widely known for its excellent corrosion resistance, high ductility, and
+                                    good thermal and electrical conductivity. It offers great workability and weldability,
+                                    making it ideal for industries that require moderate strength with superior formability.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Is Aluminium 1200 heat-treatable?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    No, Aluminium Alloy 1200 is a non heat treatable alloy. Its mechanical strength can be
+                                    improved through cold working processes such as rolling, drawing, and forming. This
+                                    ensures it retains stable properties across different applications.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What are the typical applications of Aluminium 1200?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Aluminium 1200 is used in a wide range of industries such as:
+                                </p>
+                                <ul>
+                                    <li><strong>Electrical</strong>: conductors, bus bars, and cables.</li>
+                                    <li><strong>Packaging</strong>: foils, wrapping, and cans.</li>
+                                    <li><strong>Architectural</strong>: siding, roofing, and decorative trim.</li>
+                                    <li><strong>Food & Beverage</strong>: cooking utensils and food containers.</li>
+                                    <li><strong>General Fabrication</strong>: signage, reflectors, and ornamental
+                                        components.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What are the advantages of Aluminium 1200 over other alloys?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Key benefits of Aluminium Alloy 1200 include:
+                                </p>
+                                <ul>
+                                    <li>Excellent resistance to corrosion.</li>
+                                    <li>Superior electrical & thermal conductivity.</li>
+                                    <li>Good machinability and weldability.</li>
+                                    <li>High ductility and formability.</li>
+                                    <li>Cost effectiveness for mass applications.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What Aluminium 1200 products does Moksh Tubes & Fittings LLP supply?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Moksh Tubes & Fittings LLP offers a wide variety of Aluminium 1200 products including:
+                                </p>
+                                <ul>
+                                    <li>Sheets, Plates, Coils & Strips.</li>
+                                    <li>Pipes & Tubes (Seamless, Welded, Heat Exchanger, U-Bend).</li>
+                                    <li>Bars & Rods (Round, Hex, Flat, Square).</li>
+                                    <li>Pipe Fittings, Flanges, and Fasteners.</li>
+                                    <li>Custom Fabricated Components tailored to customer requirements.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

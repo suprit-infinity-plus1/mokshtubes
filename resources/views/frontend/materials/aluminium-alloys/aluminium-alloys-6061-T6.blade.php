@@ -1,7 +1,10 @@
 @extends('layouts.master')
 @section('title', 'Aluminium Alloy 6061 T6 | High Strength Aluminium')
-@section('meta_description', 'Aluminium 6061 T6 with excellent strength, corrosion resistance, and weldability for structural applications.')
-@section('meta_keywords', 'Aluminium Alloy 6061 T6, High Strength Aluminium, Aluminium 6061 T6 Pipes, Aluminium 6061 T6 Tubes, Aluminium 6061 T6 Sheets, Corrosion Resistant Aluminium, Weldable Aluminium Alloy, Structural Aluminium Alloys, Aerospace Aluminium, Industrial Aluminium Grades')
+@section('meta_description', 'Aluminium 6061 T6 with excellent strength, corrosion resistance, and weldability for
+    structural applications.')
+@section('meta_keywords', 'Aluminium Alloy 6061 T6, High Strength Aluminium, Aluminium 6061 T6 Pipes, Aluminium 6061 T6
+    Tubes, Aluminium 6061 T6 Sheets, Corrosion Resistant Aluminium, Weldable Aluminium Alloy, Structural Aluminium Alloys,
+    Aerospace Aluminium, Industrial Aluminium Grades')
 
 @section('content')
 
@@ -30,7 +33,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}" alt="Aluminium 6061 T6" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}"
+                        alt="Aluminium 6061 T6" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -473,6 +477,129 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What is Aluminium Alloy 6061-T6 and why is it widely used?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Aluminium Alloy 6061-T6 is a heat treated, high strength aluminum alloy known for its
+                                    excellent corrosion resistance, weldability, and machinability.
+                                    The T6 temper means it has been solution heat treated and artificially aged, providing
+                                    superior strength, hardness, and durability,
+                                    making it one of the most versatile aluminum grades for industrial applications.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What are the main applications of Aluminium 6061-T6?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>Aluminium 6061-T6 is used in a wide variety of industries, including:</p>
+                                <ul>
+                                    <li><strong>Aerospace & Aviation :</strong> Aircraft structures, fittings, and frames.
+                                    </li>
+                                    <li><strong>Automotive :</strong> Wheels, chassis, and lightweight body panels.</li>
+                                    <li><strong>Marine :</strong> Boat hulls, decks, and fittings with seawater resistance.
+                                    </li>
+                                    <li><strong>Construction & Architecture :</strong> Urtain walls, window frames, and
+                                        structural framing.</li>
+                                    <li><strong>Electrical & Electronics :</strong> Heat sinks, enclosures, and components.
+                                    </li>
+                                    <li><strong>Sports Equipment :</strong> Bicycle frames, golf clubs, and performance gear.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What are the advantages of Aluminium 6061-T6 over other alloys?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>Key benefits of Aluminium 6061-T6 include:</p>
+                                <ul>
+                                    <li>Excellent strength to weight ratio for structural applications.</li>
+                                    <li>High corrosion resistance in atmospheric and marine conditions.</li>
+                                    <li>Good weldability and machinability for fabrication.</li>
+                                    <li>Durability with fatigue resistance in heavy duty uses.</li>
+                                    <li>Suitable for anodizing and surface treatments for enhanced protection and aesthetics.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Is Aluminium 6061-T6 suitable for marine and aerospace applications?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Yes, Aluminium 6061-T6 is widely used in both marine and aerospace industries due to its
+                                    lightweight, strength, and corrosion resistance.
+                                    In aerospace, it is used for frames, fittings, and aircraft structures, while in marine
+                                    applications, it is commonly found in boat hulls, decks, and fittings exposed to
+                                    seawater.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What Aluminium 6061-T6 products are available at Moksh Tubes & Fittings LLP?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>Moksh Tubes & Fittings LLP offers a wide range of Aluminium 6061-T6 products, including:
+                                </p>
+                                <ul>
+                                    <li>Sheets, Plates, Coils & Strips.</li>
+                                    <li>Pipes & Tubes (Seamless, Welded, Heat Exchanger, U-Bend).</li>
+                                    <li>Bars & Rods (Round, Hex, Flat, Square).</li>
+                                    <li>Pipe Fittings, Flanges & Fasteners.</li>
+                                    <li>Custom Fabricated Components designed as per client requirements.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

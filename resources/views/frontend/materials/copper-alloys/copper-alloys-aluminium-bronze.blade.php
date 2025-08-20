@@ -1,8 +1,10 @@
 @extends('layouts.master')
 
 @section('title', 'Aluminium Bronze Copper Alloy | High Strength & Corrosion Resistant')
-@section('meta_description', 'Aluminium Bronze with excellent strength and corrosion resistance for marine and industrial applications.')
-@section('meta_keywords', 'Aluminium Bronze, copper alloy, high strength copper, corrosion resistant alloy, marine copper alloy, industrial copper alloy')
+@section('meta_description', 'Aluminium Bronze with excellent strength and corrosion resistance for marine and
+    industrial applications.')
+@section('meta_keywords', 'Aluminium Bronze, copper alloy, high strength copper, corrosion resistant alloy, marine
+    copper alloy, industrial copper alloy')
 
 
 @section('content')
@@ -495,6 +497,114 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What is Aluminium Bronze and why is it used?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Aluminium Bronze is a family of copper-based alloys containing 5–12% aluminium, along
+                                    with iron, nickel, and manganese. It is widely used because of its high strength, wear
+                                    resistance, and exceptional corrosion resistance in seawater and industrial
+                                    environments.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    How does Aluminium Bronze compare to other copper alloys or stainless steel?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Compared to traditional copper alloys, Aluminium Bronze offers superior hardness,
+                                    tensile strength, and resistance to erosion and galling. Unlike stainless steels, it is
+                                    non magnetic, non sparking, and performs exceptionally well in marine and offshore
+                                    environments.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What are the common applications of Aluminium Bronze?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Aluminium Bronze is extensively used in marine, oil & gas, defense, aerospace, power
+                                    generation, general engineering, and chemical industries. Typical applications include
+                                    propeller shafts, pump casings, valves, heat exchangers, turbine parts, non sparking
+                                    tools, bearings, and gears.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What Aluminium Bronze products does MOKSH TUBES & FITTINGS LLP supply?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    We supply a wide range of Aluminium Bronze products including seamless & welded pipes,
+                                    tubes, sheets, plates, coils, bars, pipe fittings, flanges, fasteners, and
+                                    custom-fabricated components, all produced in compliance with ASTM, EN, BS, and ISO
+                                    standards.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Why choose MOKSH TUBES & FITTINGS LLP for Aluminium Bronze products?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP is a trusted manufacturer, stockist, and global supplier
+                                    offering large inventory, precision machining, customized solutions, competitive
+                                    pricing, and timely delivery. With expertise in Aluminium Bronze, we provide reliable
+                                    materials for marine, industrial, and high performance applications.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

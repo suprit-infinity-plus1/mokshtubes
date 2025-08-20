@@ -1,8 +1,9 @@
 @extends('layouts.master')
 
 @section('title', 'Titanium Grade 12')
-@section('meta_description','Corrosion-resistant Titanium Grade 12 with enhanced weldability for marine & chemical uses.
-')
+@section('meta_description',
+    'Corrosion-resistant Titanium Grade 12 with enhanced weldability for marine & chemical uses.
+    ')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -485,6 +486,100 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Titanium Grade 12?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Titanium Grade 12 (UNS R53400) is a corrosion-resistant titanium alloy containing nickel
+                                    and molybdenum. It offers excellent strength, weldability, and reliable performance in
+                                    acidic, chloride, and marine environments, making it suitable for demanding industrial
+                                    applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the common applications of Titanium Grade 12?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Titanium Grade 12 is widely used in chemical processing plants, desalination systems,
+                                    marine and offshore equipment, power generation, oil and gas applications, pollution
+                                    control systems, automotive, and aerospace industries. It provides excellent corrosion
+                                    resistance and structural reliability under high temperature and high-pressure
+                                    conditions.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What products are available in Titanium Grade 12?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP supplies Titanium Grade 12 as seamless and welded pipes,
+                                    tubes, sheets, plates, coils, bars, fittings, flanges, fasteners, welding rods, and
+                                    custom fabricated components. All products are tested and manufactured to meet
+                                    international industrial standards.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why is Titanium Grade 12 preferred over other alloys?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Titanium Grade 12 offers superior corrosion resistance in both oxidizing and reducing
+                                    environments, a high strength to weight ratio, excellent weldability and formability,
+                                    and long term durability. These properties make it ideal for demanding chemical, marine,
+                                    and industrial applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS LLP?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP delivers premium Titanium Grade 12 products with precision
+                                    engineering, global sourcing, decades of titanium expertise, worldwide shipping, and
+                                    custom solutions tailored to industrial and mission critical applications, ensuring
+                                    high performance and reliability.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

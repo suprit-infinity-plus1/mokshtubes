@@ -2,7 +2,10 @@
 
 @section('title', 'Aluminium Alloy 2014 T6 | High Strength Aerospace Alloy')
 @section('meta_description', 'Aerospace-grade Aluminium 2014 T6 with excellent machinability and strength.')
-@section('meta_keywords', 'Aluminium Alloy 2014 T6, High Strength Aluminium, Aerospace Grade Aluminium, Aluminium 2014 T6 Pipes, Aluminium 2014 T6 Tubes, Aluminium 2014 T6 Sheets, Corrosion Resistant Aluminium, Machinable Aluminium Alloy, Aerospace Aluminium Alloys, Industrial Aluminium Grades')
+@section('meta_keywords',
+    'Aluminium Alloy 2014 T6, High Strength Aluminium, Aerospace Grade Aluminium, Aluminium 2014
+    T6 Pipes, Aluminium 2014 T6 Tubes, Aluminium 2014 T6 Sheets, Corrosion Resistant Aluminium, Machinable Aluminium Alloy,
+    Aerospace Aluminium Alloys, Industrial Aluminium Grades')
 
 
 @section('content')
@@ -32,8 +35,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-2014-T6.webp') }}" alt="Aluminium 2014-T6"
-                        class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-2014-T6.webp') }}"
+                        alt="Aluminium 2014-T6" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -463,6 +466,132 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn ">
+                                <h4>
+                                    What is Aluminium Alloy 2014-T6 and what makes it unique?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Aluminium Alloy 2014-T6 is a high strength, <a
+                                        href="{{ route('materials.copper-Alloys') }}">copper alloyed</a> aluminum grade
+                                    widely used in
+                                    aerospace, automotive, and structural <a
+                                        href="{{ route('materials.engineering-Steels') }}">engineering</a>. The T6 temper
+                                    means it has been
+                                    solution heat-treated and artificially aged, giving it excellent tensile strength,
+                                    hardness, and machinability, but with slightly reduced corrosion resistance compared to
+                                    pure aluminum alloys.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Is Aluminium 2014-T6 corrosion resistant?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Aluminium 2014-T6 offers moderate corrosion resistance, but it is not as
+                                    corrosion resistant as commercially pure aluminum grades like <a
+                                        href="{{ url('materials/aluminium-alloys/aluminium-alloys-1100') }}">1100</a> or <a
+                                        href="{{ url('aluminium-alloys/aluminium-alloys-1200') }}">1200</a>. In most
+                                    cases, protective coatings, anodizing, or surface treatments are recommended when the
+                                    alloy is used in corrosive or marine environments.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What are the key applications of Aluminium 2014-T6?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Due to its strength-to-weight ratio and wear resistance, Aluminium 2014-T6 is
+                                    extensively used in:
+                                </p>
+                                <ul>
+                                    <li><strong>Aerospace</strong>: aircraft structures, wing skins, fuselage components.
+                                    </li>
+                                    <li><strong>Automotive</strong>: chassis, body panels, and high performance parts.</li>
+                                    <li><strong>Industrial Equipment</strong>: gears, shafts, and load-bearing components.
+                                    </li>
+                                    <li><strong>Marine</strong>: moderate structural applications.</li>
+                                    <li><strong>Machinery & Tools</strong>: dies, molds, and precision instruments.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What are the advantages of Aluminium Alloy 2014-T6?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Some of the main benefits of Aluminium 2014-T6 include:
+                                </p>
+                                <ul>
+                                    <li>High tensile and yield strength for demanding applications.</li>
+                                    <li>Excellent machinability for complex precision parts.</li>
+                                    <li>Good fatigue and wear resistance for structural use.</li>
+                                    <li>Lightweight yet durable alternative to steel.</li>
+                                    <li>Heat treatable alloy (T6) for enhanced performance.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What Aluminium 2014-T6 products does Moksh Tubes & Fittings LLP supply?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Moksh Tubes & Fittings LLP manufactures and supplies a wide range of Aluminium 2014-T6
+                                    products, including:
+                                <ul>
+                                    <li>Sheets, Plates, Coils & Strips.</li>
+                                    <li>Pipes & Tubes (<a
+                                            href="{{ route('products.pipes-tubes.seamless-pipes') }}">Seamless</a>, <a
+                                            href="{{ route('products.pipes-tubes.welded-pipes') }}">Welded</a>, Heat
+                                        Exchanger, U-Bend).</li>
+                                    <li>Bars & Rods (Round, Hex, Flat, Square).</li>
+                                    <li>Pipe Fittings, Flanges, and Fasteners.</li>
+                                    <li>Custom Fabricated Components tailored to customer requirements.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

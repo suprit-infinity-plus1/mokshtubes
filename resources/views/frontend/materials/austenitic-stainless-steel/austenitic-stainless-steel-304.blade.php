@@ -1,8 +1,12 @@
 @extends('layouts.master')
 
 @section('title', 'Austenitic Stainless Steel 304 | Premium Quality SS')
-@section('meta_description', 'High-grade Austenitic Stainless Steel 304 pipes & fittings with excellent corrosion resistance.')
-@section('meta_keywords', 'Austenitic Stainless Steel 304, Stainless Steel 304 Pipes, Stainless Steel 304 Tubes, Stainless Steel 304 Fittings, Corrosion Resistant Stainless Steel 304, Premium Quality Stainless Steel, Industrial Stainless Steel 304, Marine Grade Stainless Steel 304, Chemical Processing Stainless Steel 304, High Strength Stainless Steel 304')
+@section('meta_description', 'High-grade Austenitic Stainless Steel 304 pipes & fittings with excellent corrosion
+    resistance.')
+@section('meta_keywords', 'Austenitic Stainless Steel 304, Stainless Steel 304 Pipes, Stainless Steel 304 Tubes,
+    Stainless Steel 304 Fittings, Corrosion Resistant Stainless Steel 304, Premium Quality Stainless Steel, Industrial
+    Stainless Steel 304, Marine Grade Stainless Steel 304, Chemical Processing Stainless Steel 304, High Strength Stainless
+    Steel 304')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -478,6 +482,112 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What is Austenitic Stainless Steel 304 and why is it widely used?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Austenitic Stainless Steel 304 is the most common stainless steel grade, known for its
+                                    excellent corrosion resistance, durability, and ease of fabrication. With 18–20%
+                                    chromium and 8–12% nickel, it resists rust, oxidation, and chemical attacks, making it
+                                    suitable for food processing, chemical, medical, and construction industries.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What are the key properties of Stainless Steel 304?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    SS 304 offers high tensile strength (485–620 MPa), excellent ductility, and toughness
+                                    even at low temperatures. It is non-magnetic in the annealed condition, has good
+                                    weldability, and provides long lasting corrosion resistance against water, mild
+                                    chemicals, and atmospheric conditions.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Where is Stainless Steel 304 commonly used?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Stainless Steel 304 is widely used in food and beverage processing, chemical plants,
+                                    medical equipment, construction, automotive, and household appliances. Typical
+                                    applications include tanks, heat exchangers, kitchen sinks, cookware, architectural
+                                    cladding, and surgical instruments.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Is Stainless Steel 304 corrosion resistant in all environments?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Yes, Stainless Steel 304 has excellent resistance to corrosion and oxidation in most
+                                    environments. However, in highly saline or chloride-rich conditions, it may be prone to
+                                    localized corrosion, where Stainless Steel 316 (with molybdenum) is often preferred.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Who is the leading supplier of Stainless Steel 304 in India?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Moksh Tubes & Fittings LLP is a trusted manufacturer, supplier, exporter, importer, and
+                                    stockist of Stainless Steel 304 pipes, tubes, sheets, plates, bars, and fittings. With
+                                    custom size availability, certified quality, and global delivery, Moksh Tubes & Fittings
+                                    LLP ensures reliable supply for industrial and commercial applications.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

@@ -1,8 +1,13 @@
 @extends('layouts.master')
 
 @section('title', 'Aluminium Alloy 5083 | Marine Grade Aluminium')
-@section('meta_description', 'Marine-grade Aluminium 5083 with superior corrosion resistance for shipbuilding, offshore, and seawater applications. Excellent weldability and durability.')
-@section('meta_keywords', 'Aluminium Alloy 5083, Marine Grade Aluminium, Aluminium 5083 Pipes, Aluminium 5083 Tubes, Aluminium 5083 Sheets, Corrosion Resistant Aluminium, Seawater Resistant Aluminium, Weldable Aluminium Alloy, Marine Industry Aluminium, Industrial Aluminium Grades')
+@section('meta_description',
+    'Marine-grade Aluminium 5083 with superior corrosion resistance for shipbuilding, offshore,
+    and seawater applications. Excellent weldability and durability.')
+@section('meta_keywords',
+    'Aluminium Alloy 5083, Marine Grade Aluminium, Aluminium 5083 Pipes, Aluminium 5083 Tubes,
+    Aluminium 5083 Sheets, Corrosion Resistant Aluminium, Seawater Resistant Aluminium, Weldable Aluminium Alloy, Marine
+    Industry Aluminium, Industrial Aluminium Grades')
 
 
 @section('content')
@@ -465,6 +470,125 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn ">
+                                <h4>
+                                    What is Aluminium Alloy 5083 and what makes it special?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Aluminium Alloy 5083 is a non heat treatable, marine grade <a
+                                        href="{{ route('materials.aluminium-Alloys') }}">aluminum alloy</a> known for its
+                                    exceptional corrosion resistance, especially in seawater and industrial chemical
+                                    environments. Strengthened primarily by magnesium and manganese, it offers high
+                                    strength, excellent weldability, and toughness, making it ideal for harsh operating
+                                    conditions.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Where is Aluminium 5083 commonly used?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Aluminium 5083 is widely used in industries requiring strength, durability, and
+                                    resistance to corrosion, including:
+                                </p>
+                                <ul>
+                                    <li><strong>Marine</strong>: shipbuilding, boat hulls, and offshore structures.</li>
+                                    <li><strong>Transportation</strong>: Truck bodies, trailers, and rail cars.</li>
+                                    <li><strong>Pressure Vessels</strong>: LPG tanks, cryogenic tanks, and chemical storage.
+                                    </li>
+                                    <li><strong>Automotive</strong>: Body panels, frames, and structural components.</li>
+                                    <li><strong>Industrial Applications</strong>: Chemical plants, piping, and tanks.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Is Aluminium Alloy 5083 heat-treatable?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    No, Aluminium 5083 is a non heat treatable alloy. Instead, it achieves its mechanical
+                                    strength through strain hardening and cold working. Despite this, it retains excellent
+                                    weldability and formability, making it highly versatile for fabrication in demanding
+                                    industries.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What are the main advantages of Aluminium 5083?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Key benefits of Aluminium Alloy 5083 include:
+                                </p>
+                                <ul>
+                                    <li>Outstanding corrosion resistance, especially in seawater.</li>
+                                    <li>High strength to weight ratio for lightweight structural designs.</li>
+                                    <li>Excellent weldability and formability.</li>
+                                    <li>Good fatigue resistance and toughness.</li>
+                                    <li>Non magnetic and resistant to stress corrosion cracking.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What Aluminium 5083 products does Moksh Tubes & Fittings LLP offer?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Moksh Tubes & Fittings LLP supplies Aluminium 5083 in various mill forms, including:
+                                <ul>
+                                    <li>Sheets, Plates, Coils & Strips.</li>
+                                    <li>Pipes & Tubes (<a
+                                            href="{{ route('products.pipes-tubes.seamless-pipes') }}">Seamless</a>, <a
+                                            href="{{ route('products.pipes-tubes.welded-pipes') }}">Welded</a>, Heat
+                                        Exchanger, U-Bend).</li>
+                                    <li>Bars & Rods (Round, Hex, Flat, Square).</li>
+                                    <li>Pipe Fittings, Flanges, and Fasteners.</li>
+                                    <li>Custom Fabricated Components designed to meet client specifications.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

@@ -1,8 +1,12 @@
 @extends('layouts.master')
 
 @section('title', 'Hastelloy C-22 | Superior All-Around Corrosion-Resistant Alloy')
-@section('meta_description', 'Hastelloy C-22 pipes, tubes & fittings with unmatched resistance to oxidizing and reducing agents, exceptional protection against pitting, crevice corrosion, and stress corrosion — ideal for harsh chemical and industrial environments.')
-@section('meta_keywords', 'Hastelloy C-22, Hastelloy C22, Corrosion Resistant Alloy, Hastelloy C22 Pipes, Hastelloy C22 Tubes, Hastelloy C22 Fittings, Pitting Resistant Alloy, Crevice Corrosion Resistant, Stress Corrosion Resistant, Chemical Processing Alloys, Industrial Corrosion Resistant Alloys, Durable Nickel Alloys')
+@section('meta_description', 'Hastelloy C-22 pipes, tubes & fittings with unmatched resistance to oxidizing and reducing
+    agents, exceptional protection against pitting, crevice corrosion, and stress corrosion — ideal for harsh chemical and
+    industrial environments.')
+@section('meta_keywords', 'Hastelloy C-22, Hastelloy C22, Corrosion Resistant Alloy, Hastelloy C22 Pipes, Hastelloy C22
+    Tubes, Hastelloy C22 Fittings, Pitting Resistant Alloy, Crevice Corrosion Resistant, Stress Corrosion Resistant,
+    Chemical Processing Alloys, Industrial Corrosion Resistant Alloys, Durable Nickel Alloys')
 
 @section('content')
 
@@ -504,6 +508,105 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Hastelloy C-22 and what makes it unique?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Hastelloy C-22 (UNS N06022) is a highly versatile nickel chromium molybdenum tungsten
+                                    alloy designed to deliver exceptional resistance to oxidizing and reducing environments.
+                                    It provides superior protection against pitting, crevice corrosion, and stress corrosion
+                                    cracking, even in the presence of aggressive chemicals like chlorides, wet chlorine gas,
+                                    and strong acids, making it more reliable than many conventional alloys in extreme
+                                    conditions.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Which industries commonly use Hastelloy C-22?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Hastelloy C-22 is widely used across critical industries such as chemical processing,
+                                    pollution control, oil and gas, marine and offshore engineering, power generation,
+                                    nuclear plants, pulp and paper, pharmaceuticals, and wastewater treatment. Its ability
+                                    to withstand highly corrosive and mixed chemical environments makes it an indispensable
+                                    material in mission critical applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What products are available in Hastelloy C-22 from MOKSH TUBES & FITTINGS LLP?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP supplies a comprehensive range of Hastelloy C-22 products
+                                    including seamless and welded pipes, tubes, sheets, plates, coils, strips, bars, pipe
+                                    fittings, flanges, fasteners, welding rods, wire mesh, and custom fabricated components.
+                                    All products are manufactured to international quality standards to ensure durability
+                                    and reliability in corrosive environments.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why is Hastelloy C-22 preferred over other corrosion-resistant alloys?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Hastelloy C-22 is preferred because of its exceptional resistance to a wide variety of
+                                    aggressive chemicals, including oxidizing agents, reducing acids, and chloride induced
+                                    environments. Unlike many other alloys, it maintains structural integrity under extreme
+                                    thermal and chemical stress, offering superior long term performance, excellent
+                                    weldability, and flexibility in fabrication.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for Hastelloy C-22 products?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP is a trusted global supplier known for its expertise in
+                                    nickel based alloys and specialty metals. With in house manufacturing, strict ISO driven
+                                    quality control, a robust supply network, ready stock availability, and the ability to
+                                    deliver customized solutions, the company ensures high quality Hastelloy C-22 products
+                                    with complete reliability and customer satisfaction.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

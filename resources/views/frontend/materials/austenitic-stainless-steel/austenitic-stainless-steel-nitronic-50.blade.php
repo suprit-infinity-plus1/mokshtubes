@@ -1,8 +1,12 @@
 @extends('layouts.master')
 
 @section('title', 'Austenitic Stainless Steel Nitronic 50 | High Strength SS')
-@section('meta_description', 'Nitronic 50 Stainless Steel pipes & fittings with excellent strength, corrosion resistance, and wear resistance for engineering applications.')
-@section('meta_keywords', 'Austenitic Stainless Steel Nitronic 50, Nitronic 50 Stainless Steel Pipes, Nitronic 50 Stainless Steel Tubes, Nitronic 50 Stainless Steel Fittings, High Strength Nitronic 50, Corrosion Resistant Nitronic 50, Wear Resistant Nitronic 50, Industrial Nitronic 50 Stainless Steel, Marine Grade Nitronic 50, Engineering Applications Nitronic 50')
+@section('meta_description', 'Nitronic 50 Stainless Steel pipes & fittings with excellent strength, corrosion
+    resistance, and wear resistance for engineering applications.')
+@section('meta_keywords', 'Austenitic Stainless Steel Nitronic 50, Nitronic 50 Stainless Steel Pipes, Nitronic 50
+    Stainless Steel Tubes, Nitronic 50 Stainless Steel Fittings, High Strength Nitronic 50, Corrosion Resistant Nitronic 50,
+    Wear Resistant Nitronic 50, Industrial Nitronic 50 Stainless Steel, Marine Grade Nitronic 50, Engineering Applications
+    Nitronic 50')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -479,6 +483,112 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What is Nitronic 50 stainless steel and why is it used?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Nitronic 50 is a nitrogen strengthened austenitic stainless steel that provides superior
+                                    corrosion resistance, high strength, and toughness. It is widely used in marine,
+                                    chemical, and industrial applications where resistance to pitting, crevice corrosion,
+                                    and stress corrosion cracking is critical.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    How does Nitronic 50 compare to conventional stainless steels like 304 and 316?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Compared to 304 and 316 stainless steel, Nitronic 50 offers nearly double the yield
+                                    strength and significantly better resistance to chloride induced corrosion. It also
+                                    maintains excellent mechanical properties across a wide temperature range, making it
+                                    ideal for aggressive environments.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What are the common applications of Nitronic 50 stainless steel?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Nitronic 50 is used in power generation, marine & offshore, chemical processing, food &
+                                    pharmaceutical equipment, automotive, and aerospace industries. Typical applications
+                                    include heat exchangers, pumps, valves, fasteners, and seawater exposed components.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What Nitronic 50 products are available at MOKSH TUBES & FITTINGS LLP?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    We supply a complete range of Nitronic 50 products including pipes, tubes, sheets,
+                                    plates, coils, bars, flanges, fittings, fasteners, and custom fabricated components, all
+                                    manufactured to meet international quality standards.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Why choose MOKSH TUBES & FITTINGS LLP for Nitronic 50 stainless steel?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP is a trusted manufacturer, supplier, and exporter with
+                                    extensive stock, certified products, technical expertise, competitive pricing, and
+                                    global delivery. We provide reliable solutions tailored to industries requiring
+                                    high strength, corrosion-resistant stainless steel.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

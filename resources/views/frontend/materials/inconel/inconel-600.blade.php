@@ -1,8 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Inconel 600 | Premium Heat & Corrosion Shield')
-@section('meta_description', 'Inconel 600 delivers exceptional oxidation and corrosion resistance at high temperatures—ideal for heat exchangers, furnaces, and chemical plants.')
-@section('meta_keywords', 'Inconel 600, Premium Heat Resistant Alloy, Corrosion Resistant Alloy, Oxidation Resistant Alloy, Nickel Alloys, Heat Exchanger Alloys, Furnace Alloys, Chemical Plant Alloys, High Temperature Alloys, Industrial Heat Resistant Alloys')
+@section('meta_description', 'Inconel 600 delivers exceptional oxidation and corrosion resistance at high
+    temperatures—ideal for heat exchangers, furnaces, and chemical plants.')
+@section('meta_keywords', 'Inconel 600, Premium Heat Resistant Alloy, Corrosion Resistant Alloy, Oxidation Resistant
+    Alloy, Nickel Alloys, Heat Exchanger Alloys, Furnace Alloys, Chemical Plant Alloys, High Temperature Alloys, Industrial
+    Heat Resistant Alloys')
 
 @section('content')
 
@@ -30,7 +33,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/inconel/inconel-600.webp') }}" alt="Inconel 600" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/inconel/inconel-600.webp') }}" alt="Inconel 600"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -584,6 +588,109 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Inconel 600 and why is it widely used?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Inconel 600 is a high performance nickel chromium iron alloy designed to withstand
+                                    extreme temperatures and harsh environments. Known for its excellent oxidation and
+                                    corrosion resistance, it remains stable under both oxidizing and reducing conditions.
+                                    Because of its outstanding mechanical strength and resistance to chloride ion
+                                    stress corrosion cracking, Inconel 600 is widely used in industries such as chemical
+                                    processing, aerospace, marine engineering, and power generation.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the key properties of Inconel 600?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Inconel 600 is highly resistant to heat, scaling, and oxidation, even at temperatures up
+                                    to 2000°F (1093°C). It offers superior strength, good weldability, and excellent
+                                    resistance to chloride-ion stress-corrosion cracking. This alloy is non-magnetic,
+                                    retains toughness at cryogenic temperatures, and performs well in both oxidizing and
+                                    reducing environments, making it suitable for critical applications where durability and
+                                    reliability are essential.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the common applications of Inconel 600?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Inconel 600 is used across multiple industries where high strength and corrosion
+                                    resistance are required. It is commonly applied in heat treatment furnaces, nuclear
+                                    power plants, and chemical processing equipment. Other applications include jet engine
+                                    components, exhaust systems, marine heat exchangers, food processing equipment, and
+                                    cryogenic storage systems. Its versatility and ability to withstand extreme environments
+                                    make it a preferred choice for demanding projects.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>How does Inconel 600 perform in chemical processing environments?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Inconel 600 is highly valued in chemical processing because of its resistance to acidic,
+                                    caustic, and chloride-rich environments. It withstands exposure to chlorine, hydrogen
+                                    chloride, and oxidizing salts without losing mechanical integrity. This makes it ideal
+                                    for use in vessels, piping, and heat exchangers where long-term resistance to corrosion
+                                    is critical, ensuring safe and reliable operation in aggressive chemical conditions.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for Inconel 600 products?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP is a trusted global supplier of premium Inconel 600 products
+                                    in various forms including pipes, tubes, fittings, flanges, fasteners, sheets, plates,
+                                    and custom-fabricated components. With strong sourcing from certified mills, advanced
+                                    manufacturing expertise, and strict quality assurance, the company ensures superior
+                                    product performance. Clients benefit from timely delivery, custom fabrication support,
+                                    and a commitment to customer satisfaction, making MOKSH a reliable partner for Inconel
+                                    600 solutions worldwide.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

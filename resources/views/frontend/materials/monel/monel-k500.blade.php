@@ -1,8 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Monel K500 Alloy | Ultimate Strength & Shield')
-@section('meta_description', 'Discover the extreme strength and corrosion resistance of Monel K500—engineered for top performance in marine, chemical, and oilfield environments.')
-@section('meta_keywords', 'Monel K500, Monel K500 Alloy, Nickel-Copper Alloy, High Strength Alloy, Corrosion Resistant Alloy, Marine Industry Alloys, Chemical Processing Alloys, Oilfield Alloys, Impact Resistant Alloys, Durable Nickel Alloys')
+@section('meta_description', 'Discover the extreme strength and corrosion resistance of Monel K500—engineered for top
+    performance in marine, chemical, and oilfield environments.')
+@section('meta_keywords', 'Monel K500, Monel K500 Alloy, Nickel-Copper Alloy, High Strength Alloy, Corrosion Resistant
+    Alloy, Marine Industry Alloys, Chemical Processing Alloys, Oilfield Alloys, Impact Resistant Alloys, Durable Nickel
+    Alloys')
 
 @section('content')
 
@@ -30,7 +33,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/monel/Monel-K500.webp') }}" alt="Monel K500" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/monel/Monel-K500.webp') }}" alt="Monel K500"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -515,6 +519,106 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Monel K500 and how does it differ from Monel 400?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Monel K500 (UNS N05500) is a precipitation-hardenable nickel-copper alloy that combines
+                                    the corrosion resistance of Monel 400 with enhanced strength and hardness provided by
+                                    aluminum and titanium additions. Unlike Monel 400, Monel K500 offers higher mechanical
+                                    strength, excellent resistance to stress corrosion cracking, and better performance in
+                                    high-pressure and high temperature environments, making it ideal for demanding
+                                    industrial applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What types of Monel K500 products are supplied by Moksh Tubes & Fittings LLP?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Moksh Tubes & Fittings LLP supplies a comprehensive range of Monel K500 products
+                                    including seamless and welded pipes, tubes, pipe fittings, flanges, fasteners, sheets,
+                                    plates, coils, bars, wires, welding rods, and custom-fabricated components. All products
+                                    are available in both standard and custom dimensions to meet the requirements of marine,
+                                    oil and gas, chemical, and aerospace industries.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the key advantages of using Monel K500 in industrial applications?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    The main advantages of Monel K500 include superior resistance to seawater and chemical
+                                    corrosion, non-magnetic behavior even at sub-zero temperatures, high resistance to
+                                    stress corrosion cracking and erosion, and long-term durability in harsh operating
+                                    conditions. Its combination of strength, toughness, and corrosion resistance makes it an
+                                    alloy of choice for mission critical applications in offshore, marine, and petrochemical
+                                    industries.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Which industries commonly use Monel K500 products?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Monel K500 is widely used in marine and offshore engineering, oil and gas exploration,
+                                    chemical processing, aerospace, defense, power generation, and pump and valve
+                                    manufacturing. Applications include propeller shafts, pump shafts, non-magnetic drill
+                                    collars, valve components, heat exchangers, turbine blades, springs, fasteners, and
+                                    medical equipment where reliability under extreme conditions is essential.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose Moksh Tubes & Fittings LLP for Monel K500 supply?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Moksh Tubes & Fittings LLP is a trusted manufacturer, supplier, and global exporter of
+                                    Monel K500 products with proven expertise in nickel alloys and high performance
+                                    materials. The company ensures top quality raw materials, precision engineering,
+                                    customized fabrication, rapid delivery, and strict quality assurance, making it the
+                                    preferred choice for clients requiring durable and dependable Monel K500 solutions.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

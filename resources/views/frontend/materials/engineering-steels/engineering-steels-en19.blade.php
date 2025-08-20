@@ -2,7 +2,8 @@
 
 @section('title', 'EN19 Alloy Steel | Hardened Alloy Steel')
 @section('meta_description', 'EN19 Alloy Steel offering excellent hardness and strength for tools and machinery parts.')
-@section('meta_keywords', 'EN19 Alloy Steel, hardened alloy steel, high strength steel, hard alloy steel, tools steel, machinery parts steel, industrial alloy steel')
+@section('meta_keywords', 'EN19 Alloy Steel, hardened alloy steel, high strength steel, hard alloy steel, tools steel,
+    machinery parts steel, industrial alloy steel')
 
 @section('content')
 
@@ -474,6 +475,118 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is EN19 steel and why is it also known as AISI 4140 or 42CrMo4?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    EN19, also referred to as AISI 4140 or 42CrMo4, is a high-tensile chromium-molybdenum
+                                    alloy steel widely recognized for its excellent combination of strength, toughness, and
+                                    wear resistance.
+                                    The presence of chromium provides enhanced hardenability and corrosion resistance, while
+                                    molybdenum improves fatigue strength and toughness.
+                                    These properties make EN19 suitable for heavy-duty engineering and mechanical
+                                    applications where high performance under stress is required.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the key chemical and mechanical properties of EN19 steel?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    The chemical composition of EN19 includes 0.36–0.44% carbon, 0.90–1.50% chromium,
+                                    0.15–0.35% molybdenum, 0.50–0.80% manganese, 0.10–0.35% silicon, and controlled levels
+                                    of phosphorus and sulfur.
+                                    It provides tensile strength in the range of 85–130 ksi (586–896 MPa) depending on
+                                    condition, with yield strength between 50–110 ksi (345–758 MPa).
+                                    EN19 also offers elongation of 12–25%, hardness between 150–270 Brinell, and good
+                                    machinability in normalized or quenched and tempered conditions, making it an excellent
+                                    choice for precision-engineered parts.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What EN19 steel products does MOKSH TUBES & FITTINGS LLP supply?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP supplies a comprehensive range of EN19 steel products
+                                    including round bars, flat bars, hex bars, square bars, hollow bars, forgings, shafts,
+                                    sheets, plates, coils, strips, seamless and welded pipes, tubes, flanges, pipe fittings,
+                                    fasteners, and custom-fabricated components.
+                                    All products are manufactured to international standards and can be supplied in
+                                    annealed, hot rolled, cold drawn, or quenched and tempered conditions with precision
+                                    machining and heat treatment options.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the common applications of EN19 steel in different industries?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    EN19 steel is extensively used across automotive, oil and gas, power generation, heavy
+                                    engineering, construction, defense, and aerospace sectors.
+                                    In the automotive industry, it is used for axles, crankshafts, gear shafts, and drive
+                                    shafts, while in oil and gas it is used for drill collars, hydraulic tools, and blowout
+                                    preventers.
+                                    In power generation and heavy machinery, EN19 is used for rotor shafts, press tools,
+                                    coupling rods, rollers, and die blocks.
+                                    Its toughness also makes it suitable for aerospace landing gear components, structural
+                                    brackets, and hydraulic cylinders.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for EN19 steel products?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP is a trusted manufacturer, supplier, stockist, and exporter
+                                    of EN19 steel products, offering precision processing, CNC machining, cutting, heat
+                                    treatment, and custom-tailored solutions to meet exact client requirements.
+                                    The company sources certified raw materials from reputed mills and ensures strict
+                                    quality control with ISO-certified processes and third party inspections.
+                                    With ready stock availability, fast global shipping, and technical expertise, MOKSH
+                                    TUBES & FITTINGS LLP is a reliable partner for industries requiring high-performance
+                                    EN19 steel solutions.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

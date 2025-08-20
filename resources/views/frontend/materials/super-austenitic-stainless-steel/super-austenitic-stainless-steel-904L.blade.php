@@ -1,8 +1,11 @@
 @extends('layouts.master')
 
 @section('title', '904L Stainless | Premium Corrosion Resistant')
-@section('meta_description', '904L stainless steel pipes, tubes & fittings provide superior corrosion resistance for chemical, marine, and pharmaceutical industries.')
-@section('meta_keywords', '904L Stainless Steel, Corrosion Resistant Alloy, 904L Pipes, 904L Tubes, 904L Fittings, Chemical Industry Alloys, Marine Industry Alloys, Pharmaceutical Industry Alloys, High Strength Stainless Steel, Industrial Corrosion Resistant Alloys')
+@section('meta_description', '904L stainless steel pipes, tubes & fittings provide superior corrosion resistance for
+    chemical, marine, and pharmaceutical industries.')
+@section('meta_keywords', '904L Stainless Steel, Corrosion Resistant Alloy, 904L Pipes, 904L Tubes, 904L Fittings,
+    Chemical Industry Alloys, Marine Industry Alloys, Pharmaceutical Industry Alloys, High Strength Stainless Steel,
+    Industrial Corrosion Resistant Alloys')
 
 @section('content')
 
@@ -31,7 +34,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/super-austenitic-stainless-steel/super-austenitic-stainless-steel-904L.webp') }}" alt="Alloy 904L" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/super-austenitic-stainless-steel/super-austenitic-stainless-steel-904L.webp') }}"
+                        alt="Alloy 904L" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -478,6 +482,109 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Alloy 904L stainless steel and what makes it special?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Alloy 904L (UNS N08904) is a premium-grade austenitic stainless steel designed for
+                                    exceptional corrosion resistance in aggressive environments. With a high content of
+                                    chromium, nickel, molybdenum, and added copper, it provides outstanding resistance to
+                                    sulfuric, phosphoric, and acetic acids, as well as chloride induced pitting and crevice
+                                    corrosion. Its low carbon content prevents intergranular corrosion while ensuring
+                                    excellent toughness, weldability, and formability.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What Alloy 904L products does Moksh Tubes & Fittings LLP offer?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Moksh Tubes & Fittings LLP supplies a complete range of Alloy 904L products including
+                                    seamless and welded pipes, capillary and U-bend tubes, boiler and heat exchanger tubes,
+                                    sheets, plates, coils, strips, round bars, hex bars, square bars, flanges, pipe
+                                    fittings, fasteners, wire, and custom-fabricated components. All products meet
+                                    international standards and are available in various sizes and dimensions for industrial
+                                    applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the main advantages of using Alloy 904L?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Alloy 904L provides superior resistance to strong reducing acids, particularly sulfuric
+                                    acid, making it highly reliable in chemical and industrial processes. It resists pitting
+                                    and crevice corrosion in chloride rich environments, maintains excellent toughness at
+                                    both low and high temperatures, and is fully austenitic with excellent weldability and
+                                    formability. Being non-magnetic with a low carbon content, it also minimizes the risk of
+                                    intergranular corrosion, ensuring long service life.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Which industries commonly use Alloy 904L materials?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Alloy 904L is widely used across multiple industries such as marine engineering and
+                                    offshore equipment, chemical and petrochemical processing, oil and gas production, pulp
+                                    and paper processing, desalination and water treatment plants, pharmaceutical systems,
+                                    and food industry equipment. Its ability to withstand strong acids, chloride rich
+                                    seawater, and aggressive industrial chemicals makes it a preferred choice for critical
+                                    applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose Moksh Tubes & Fittings LLP for Alloy 904L supply?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Moksh Tubes & Fittings LLP is a trusted manufacturer, supplier, and exporter of
+                                    high quality Alloy 904L products with in-house testing, mill test certification, and
+                                    complete traceability. The company offers custom sizes, quick delivery, and global
+                                    export capabilities to meet client requirements. With extensive industry experience and
+                                    a strong reputation in marine, chemical, and oil & gas sectors, Moksh Tubes & Fittings
+                                    LLP ensures reliable supply and superior product performance.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

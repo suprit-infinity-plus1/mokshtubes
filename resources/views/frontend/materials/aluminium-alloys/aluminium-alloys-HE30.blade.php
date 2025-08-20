@@ -1,8 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Aluminium Alloy HE30 | Hardened Aluminium Alloy')
-@section('meta_description', 'Hardened Aluminium HE30 alloy providing excellent strength and corrosion resistance for heavy-duty applications.')
-@section('meta_keywords', 'Aluminium Alloy HE30, Hardened Aluminium Alloy, Aluminium HE30 Pipes, Aluminium HE30 Tubes, Aluminium HE30 Sheets, High Strength Aluminium, Corrosion Resistant Aluminium, Heavy Duty Aluminium Alloys, Structural Aluminium Alloys, Industrial Aluminium Grades')
+@section('meta_description', 'Hardened Aluminium HE30 alloy providing excellent strength and corrosion resistance for
+    heavy-duty applications.')
+@section('meta_keywords', 'Aluminium Alloy HE30, Hardened Aluminium Alloy, Aluminium HE30 Pipes, Aluminium HE30 Tubes,
+    Aluminium HE30 Sheets, High Strength Aluminium, Corrosion Resistant Aluminium, Heavy Duty Aluminium Alloys, Structural
+    Aluminium Alloys, Industrial Aluminium Grades')
 
 @section('content')
 
@@ -450,6 +453,116 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What is Aluminium Alloy HE30 used for?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Aluminium HE30 is an aerospace-grade aluminium alloy widely used in aircraft structures,
+                                    defense equipment, automotive parts, and high performance sports gear.
+                                    Its high strength to weight ratio makes it ideal for industries requiring both
+                                    lightweight and durability.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What are the key properties of Aluminium HE30?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    HE30 aluminium offers high tensile strength, excellent fatigue resistance, good
+                                    machinability, and moderate corrosion resistance.
+                                    It can also be anodized for improved surface protection, making it suitable for
+                                    aerospace, defense, and automotive industries.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    How strong is Aluminium HE30 compared to other aluminium alloys?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Aluminium HE30, part of the 7000 series alloys, is stronger than most 6000 series alloys
+                                    like 6061 and 6082.
+                                    With tensile strength ranging from 200–310 MPa, HE30 is specifically engineered for
+                                    aerospace and defense applications where strength and performance are critical.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Can Aluminium HE30 be welded and machined?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Yes, Aluminium HE30 has good machinability, allowing it to be shaped into complex
+                                    components.
+                                    However, like many 7000 series alloys, its weldability is limited, and special care must
+                                    be taken when welding to maintain mechanical properties.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Where can I buy Aluminium HE30 in India?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    You can buy premium quality Aluminium HE30 sheets, plates, bars, rods, extrusions, and
+                                    custom components from
+                                    <strong>Moksh Tubes & Fittings LLP</strong> a trusted manufacturer, supplier,
+                                    exporter, and stockist.
+                                    They provide aerospace-grade certified materials with global delivery and competitive
+                                    pricing.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

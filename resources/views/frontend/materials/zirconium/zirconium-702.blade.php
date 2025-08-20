@@ -1,8 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Zirconium 702 | High-Purity Corrosion Resistant Alloy')
-@section('meta_description', 'Premium Zirconium 702 alloy with excellent corrosion resistance and high purity for chemical & nuclear applications.')
-@section('meta_keywords', 'Zirconium 702, High Purity Zirconium, Corrosion Resistant Zirconium, Zirconium 702 Pipes, Zirconium 702 Tubes, Zirconium 702 Sheets, Chemical Processing Zirconium, Nuclear Industry Zirconium, Industrial Zirconium Alloys, High Performance Zirconium Grades')
+@section('meta_description', 'Premium Zirconium 702 alloy with excellent corrosion resistance and high purity for
+    chemical & nuclear applications.')
+@section('meta_keywords', 'Zirconium 702, High Purity Zirconium, Corrosion Resistant Zirconium, Zirconium 702 Pipes,
+    Zirconium 702 Tubes, Zirconium 702 Sheets, Chemical Processing Zirconium, Nuclear Industry Zirconium, Industrial
+    Zirconium Alloys, High Performance Zirconium Grades')
 
 @section('content')
 
@@ -500,6 +503,98 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Zirconium 702 and its key features?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Zirconium 702 (UNS R60702) is a commercially pure zirconium alloy known for its
+                                    exceptional corrosion resistance, excellent weldability, high strength, and
+                                    biocompatibility. These properties make it highly suitable for chemical processing,
+                                    nuclear, and medical applications where purity and durability are critical.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Which products are available in Zirconium 702?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP offers a wide range of Zirconium 702 products, including
+                                    seamless and welded pipes, tubes, sheets, plates, coils, bars, flanges, fittings,
+                                    fasteners, welding rods, and custom fabricated components suitable for high performance
+                                    industrial and medical applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the main applications of Zirconium 702?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Zirconium 702 is extensively used in chemical processing, nuclear power plants,
+                                    pharmaceuticals, food processing, aerospace systems, and medical devices, providing
+                                    outstanding performance where high purity and corrosion resistance are essential.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What advantages does Zirconium 702 offer over other alloys?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Zirconium 702 delivers superior corrosion resistance in acidic and alkaline
+                                    environments, excellent formability and weldability, low reactivity, biocompatibility,
+                                    and long term durability under extreme industrial conditions, making it a reliable
+                                    choice for critical applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for Zirconium 702?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP provides high quality Zirconium 702 with precision
+                                    fabrication, global sourcing, compliance with ASTM/ASME standards, timely delivery, and
+                                    expert technical support, ensuring reliable solutions for demanding industrial and
+                                    medical applications.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

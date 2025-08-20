@@ -2,7 +2,8 @@
 
 @section('title', 'Copper Alloy C46400 | High Strength Copper Alloy')
 @section('meta_description', 'High strength Copper Alloy C46400 ideal for aerospace and industrial applications.')
-@section('meta_keywords', 'Copper Alloy C46400, high strength copper alloy, aerospace copper alloy, industrial copper alloy, durable copper alloy')
+@section('meta_keywords', 'Copper Alloy C46400, high strength copper alloy, aerospace copper alloy, industrial copper
+    alloy, durable copper alloy')
 
 
 @section('content')
@@ -499,6 +500,125 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What is C46400 Naval Brass and why is it important?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    C46400 Naval Brass is a copper zinc alloy with 0.75–1% tin, designed to improve
+                                    corrosion resistance,
+                                    strength, and durability. It is widely used in marine environments, seawater piping,
+                                    propeller shafts,
+                                    and industrial applications due to its excellent dezincification resistance and hot
+                                    working properties.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What are the main applications of Naval Brass C46400?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    C46400 is commonly used in shipbuilding, marine hardware, condenser tubes, propeller
+                                    shafts, offshore structures,
+                                    heat exchangers, desalination plants, bushings, valve stems, bearings, and architectural
+                                    fittings. Its gold like
+                                    finish also makes it popular for decorative and nautical themed applications.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What are the key advantages of using C46400 Naval Brass?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>The alloy offers several benefits:</p>
+                                <ul>
+                                    <li>Superior corrosion resistance in saltwater and brackish water.</li>
+                                    <li>High strength and ductility for heavy duty use.</li>
+                                    <li>Resistance to dezincification and stress corrosion.</li>
+                                    <li>Good hot formability and moderate machinability.</li>
+                                    <li>Long service life in harsh marine and industrial environments.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What types of C46400 Naval Brass products does MOKSH TUBES & FITTINGS LLP supply?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    We offer a complete range of C46400 Naval Brass products, including pipes, tubes, rods,
+                                    sheets, plates, coils,
+                                    flanges, pipe fittings, fasteners, and custom engineered components. All products are
+                                    manufactured in compliance
+                                    with ASTM, DIN, and other international standards.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Why choose MOKSH TUBES & FITTINGS LLP for Naval Brass materials?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP is a trusted manufacturer and exporter with:
+                                </p>
+                                <ul>
+                                    <li>High quality products meeting global standards.</li>
+                                    <li>Custom fabrication for project specific requirements.</li>
+                                    <li>Large stock availability and ready to ship inventory.</li>
+                                    <li>Reliable export services with documentation support.</li>
+                                    <li>Expertise in serving marine, shipbuilding, industrial, and desalination sectors
+                                        worldwide.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

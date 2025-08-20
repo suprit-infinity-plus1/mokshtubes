@@ -1,8 +1,12 @@
 @extends('layouts.master')
 
 @section('title', 'Hastelloy B3 | Enhanced High-Stability Nickel Alloy')
-@section('meta_description', 'Hastelloy B3 pipes, tubes & fittings with improved thermal stability and superior resistance to strong acids like hydrochloric, sulfuric, and phosphoric acid — ideal for harsh chemical processing environments.')
-@section('meta_keywords', 'Hastelloy B3, High Stability Nickel Alloy, Corrosion Resistant Alloy, Hastelloy B3 Pipes, Hastelloy B3 Tubes, Hastelloy B3 Fittings, Hydrochloric Acid Resistant, Sulfuric Acid Resistant, Phosphoric Acid Resistant, Chemical Processing Alloys, Industrial Corrosion Resistant Alloys, Durable Nickel Alloys')
+@section('meta_description', 'Hastelloy B3 pipes, tubes & fittings with improved thermal stability and superior
+    resistance to strong acids like hydrochloric, sulfuric, and phosphoric acid — ideal for harsh chemical processing
+    environments.')
+@section('meta_keywords', 'Hastelloy B3, High Stability Nickel Alloy, Corrosion Resistant Alloy, Hastelloy B3 Pipes,
+    Hastelloy B3 Tubes, Hastelloy B3 Fittings, Hydrochloric Acid Resistant, Sulfuric Acid Resistant, Phosphoric Acid
+    Resistant, Chemical Processing Alloys, Industrial Corrosion Resistant Alloys, Durable Nickel Alloys')
 
 @section('content')
 
@@ -478,6 +482,89 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Hastelloy B-3 used for?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Hastelloy B-3 is ideal for chemical processing, pharmaceutical, metal pickling, and
+                                    semiconductor industries where strong reducing acids like hydrochloric acid are used.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>How is Hastelloy B-3 different from Hastelloy B-2?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    B-3 has better resistance to stress corrosion cracking, pitting, and knife-line attacks
+                                    after welding, along with superior thermal stability and formability.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Which products are available in Hastelloy B-3?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    We offer pipes, tubes, sheets, plates, bars, flanges, fittings, fasteners, wire mesh,
+                                    welding rods, and custom components.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the benefits of using Hastelloy B-3?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Hastelloy B-3 provides outstanding acid resistance, excellent weldability, high
+                                    mechanical strength, and long lasting performance in harsh chemical environments.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for Hastelloy B-3 products?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    We provide decades of alloy expertise, certified quality, custom fabrication, traceable
+                                    documentation, and fast international delivery for critical industrial applications.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

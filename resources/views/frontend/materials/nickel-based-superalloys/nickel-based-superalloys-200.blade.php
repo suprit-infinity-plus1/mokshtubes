@@ -1,7 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Nickel 200 | Commercial Pure Nickel Grade | Mokshtubes ')
-@section('meta_description', ' Find premium Nickel 200 with excellent thermal & electrical conductivity and outstanding
+@section('meta_description',
+    ' Find premium Nickel 200 with excellent thermal & electrical conductivity and outstanding
     corrosion resistance for diverse industrial applications. ')
 
 @section('content')
@@ -29,8 +30,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/nickel-based-superalloys/nickel-based-superalloys-200.webp') }}" alt="Nickel 200"
-                        class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/nickel-based-superalloys/nickel-based-superalloys-200.webp') }}"
+                        alt="Nickel 200" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -547,21 +548,112 @@
                         <h5>Global network for sourcing and logistics</h5>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-6">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
-                        <h5>ISO-certified production and export operations</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-6">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
-                        <h5>Commitment to material traceability and customer satisfaction</h5>
+            </div>
+        </div>
+    </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Nickel 200 and what makes it unique?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Nickel 200 (UNS N02200) is a commercially pure wrought nickel alloy containing about
+                                    99.6% nickel. It is widely recognized for its excellent resistance to alkaline and
+                                    caustic environments, outstanding ductility, and high thermal and electrical
+                                    conductivity. These properties make Nickel 200 an ideal choice for applications
+                                    requiring both purity and performance, such as chemical processing, food handling,
+                                    electronics, and marine engineering.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What types of Nickel 200 products does Moksh Tubes & Fittings LLP offer?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Moksh Tubes & Fittings LLP manufactures, supplies, and exports a wide range of Nickel
+                                    200 products including seamless and welded pipes, tubes, sheets, plates, coils, wire
+                                    mesh, round bars, flat bars, angles, channels, flanges, pipe fittings, fasteners,
+                                    welding rods, and custom-fabricated components. All products meet global industry
+                                    standards and can be customized to meet specific client requirements across diverse
+                                    industries.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the key benefits of using Nickel 200 in industrial applications?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    The main advantages of Nickel 200 include excellent corrosion resistance in caustic and
+                                    alkaline environments, superior thermal and electrical conductivity, high purity that
+                                    makes it suitable for food and pharmaceutical industries, and outstanding ductility that
+                                    allows easy fabrication and welding. Additionally, its non-magnetic properties and
+                                    mechanical strength make it a reliable material for high-performance applications in
+                                    aerospace, marine, and power generation.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Which industries commonly use Nickel 200 alloy products?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Nickel 200 is widely used in industries such as chemical processing, food processing,
+                                    electronics, aerospace, defense, marine, medical, and power generation. It is commonly
+                                    applied in equipment like tanks, vessels, heat exchangers, piping systems, battery
+                                    components, electrical contacts, caustic soda production systems, marine fasteners,
+                                    instrumentation, and medical equipment where purity, durability, and corrosion
+                                    resistance are critical.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose Moksh Tubes & Fittings LLP for Nickel 200 supply?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Moksh Tubes & Fittings LLP is a trusted global supplier of Nickel 200 products, known
+                                    for its extensive inventory, ISO certified operations, and commitment to quality
+                                    assurance. With decades of expertise, advanced testing facilities, and precision
+                                    machining services, the company ensures reliable supply and timely delivery of Nickel
+                                    200 materials. Their dedication to traceability, customer satisfaction, and customized
+                                    solutions makes them a preferred partner for clients across industries worldwide.
+                                </p>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

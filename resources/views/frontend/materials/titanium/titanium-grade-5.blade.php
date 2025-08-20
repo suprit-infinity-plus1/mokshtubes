@@ -1,8 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Titanium Grade 5 | Aerospace-Grade Titanium Alloy')
-@section('meta_description', 'Aerospace-grade Titanium Grade 5 offering superior strength, corrosion resistance, and weldability.')
-@section('meta_keywords', 'Titanium Grade 5, Aerospace Grade Titanium, High Strength Titanium, Corrosion Resistant Titanium, Titanium Grade 5 Pipes, Titanium Grade 5 Tubes, Titanium Grade 5 Sheets, Weldable Titanium Alloy, Industrial Titanium Grades, Marine Titanium Alloys')
+@section('meta_description', 'Aerospace-grade Titanium Grade 5 offering superior strength, corrosion resistance, and
+    weldability.')
+@section('meta_keywords', 'Titanium Grade 5, Aerospace Grade Titanium, High Strength Titanium, Corrosion Resistant
+    Titanium, Titanium Grade 5 Pipes, Titanium Grade 5 Tubes, Titanium Grade 5 Sheets, Weldable Titanium Alloy, Industrial
+    Titanium Grades, Marine Titanium Alloys')
 
 @section('content')
 
@@ -490,6 +493,104 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Titanium Grade 5 (Ti-6Al-4V) and why is it widely used?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Titanium Grade 5, also known as Ti-6Al-4V, is a high strength titanium alloy containing
+                                    6% aluminum and 4% vanadium. It combines an exceptional strength-to-weight ratio with
+                                    corrosion resistance and temperature tolerance, making it ideal for aerospace, medical,
+                                    marine, and industrial applications. Its versatility and reliability have made it the
+                                    most widely used titanium alloy for precision-engineered and structural components.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What types of Titanium Grade 5 products does MOKSH TUBES & FITTINGS LLP provide?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP offers a complete range of Titanium Grade 5 products,
+                                    including seamless and welded pipes, various tubes, sheets, plates, coils, bars, wires,
+                                    fasteners, flanges, welding rods, mesh, and custom machined components. All products
+                                    comply with international quality standards and are designed for high performance and
+                                    critical applications where strength and durability are essential.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the main advantages of Titanium Grade 5?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Titanium Grade 5 offers a superior strength-to-weight ratio, excellent corrosion
+                                    resistance including in saltwater environments high fatigue and crack resistance, and
+                                    biocompatibility suitable for medical implants. It retains its strength at elevated
+                                    temperatures up to 400°C and can be welded, forged, and machined with precision, making
+                                    it ideal for demanding industrial and aerospace applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Which industries benefit most from Titanium Grade 5 products?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Titanium Grade 5 is widely used in aerospace and defense for airframes and jet engine
+                                    components, in medical sectors for implants and surgical instruments, in marine and
+                                    offshore engineering for underwater equipment and ship structures, in automotive and
+                                    motorsport for high performance parts, in chemical processing for corrosion resistant
+                                    vessels, and in power generation for turbines and condenser components.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for Titanium Grade 5 solutions?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    With over a decade of expertise, MOKSH TUBES & FITTINGS LLP provides globally compliant
+                                    Titanium Grade 5 products with in house processing, testing, and machining for full
+                                    traceability. We ensure timely delivery, competitive pricing, and custom solutions
+                                    tailored to your specifications, making us a trusted supplier for high performance
+                                    industries worldwide.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

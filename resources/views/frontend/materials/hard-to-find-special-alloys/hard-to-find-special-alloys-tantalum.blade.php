@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Tantalum | Superior Corrosion & Heat Resistance')
-@section('meta_description', 'Tantalum provides exceptional corrosion resistance, high melting point, and durability,
+@section('meta_description',
+    'Tantalum provides exceptional corrosion resistance, high melting point, and durability,
     ideal for chemical, electronics, aerospace, and industrial uses.')
-@section('meta_keywords', 'Tantalum, corrosion resistant metal, heat resistant metal, high melting point metal, chemical
+@section('meta_keywords',
+    'Tantalum, corrosion resistant metal, heat resistant metal, high melting point metal, chemical
     industry metal, electronics metal, aerospace metal, durable Tantalum')
 
 
@@ -472,6 +474,94 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Tantalum and where is it used?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Tantalum is a highly corrosion-resistant metal with a high melting point, used in
+                                    chemical processing, electronics, medical implants, aerospace, and laboratory equipment
+                                    for its durability, biocompatibility, and resistance to strong acids.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Which forms of Tantalum products are available?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Tantalum is supplied as seamless and welded pipes, tubes, sheets, plates, coils, strips,
+                                    round/flat/hex/square bars, pipe fittings, flanges, fasteners, wire, foil, crucibles,
+                                    and custom-fabricated components.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the key advantages of Tantalum?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Tantalum offers excellent corrosion resistance to acids, high thermal and electrical
+                                    conductivity, exceptional biocompatibility, non toxicity, and suitability for ultra-pure
+                                    environments, while maintaining strength at high temperatures.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>In which industries is Tantalum commonly applied?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Tantalum is widely used in chemical processing equipment, electronics and semiconductor
+                                    components, medical devices, aerospace and defense, and laboratory equipment due to its
+                                    chemical and thermal stability.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS for Tantalum alloys?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    We provide high-purity Tantalum in various grades, precision manufacturing, in-house
+                                    quality testing, fast turnaround, custom solutions, global logistics, and reliable
+                                    documentation, trusted by chemical, aerospace, and electronics industries worldwide.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

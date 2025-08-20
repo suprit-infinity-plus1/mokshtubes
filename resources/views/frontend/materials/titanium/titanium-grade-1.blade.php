@@ -1,8 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Titanium Grade 1 | Commercially Pure Titanium')
-@section('meta_description', 'Titanium Grade 1 with excellent corrosion resistance, ductility, and weldability for chemical and marine use.')
-@section('meta_keywords', 'Titanium Grade 1, Commercially Pure Titanium, Corrosion Resistant Titanium, Titanium Grade 1 Pipes, Titanium Grade 1 Tubes, Titanium Grade 1 Sheets, Marine Industry Titanium, Chemical Processing Titanium, Weldable Titanium Alloy, Industrial Titanium Grades')
+@section('meta_description', 'Titanium Grade 1 with excellent corrosion resistance, ductility, and weldability for
+    chemical and marine use.')
+@section('meta_keywords', 'Titanium Grade 1, Commercially Pure Titanium, Corrosion Resistant Titanium, Titanium Grade 1
+    Pipes, Titanium Grade 1 Tubes, Titanium Grade 1 Sheets, Marine Industry Titanium, Chemical Processing Titanium, Weldable
+    Titanium Alloy, Industrial Titanium Grades')
 
 @section('content')
 
@@ -481,6 +484,113 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Titanium Grade 1 and where is it used?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Titanium Grade 1 is the softest and most ductile of the commercially pure titanium
+                                    grades, renowned for its exceptional corrosion resistance, superior formability, and
+                                    excellent weldability. Its lightweight yet strong properties make it ideal for
+                                    industries requiring durable materials that withstand extreme environments, such as
+                                    chemical processing, marine and offshore applications, aerospace, medical, food, and
+                                    pharmaceutical industries. It performs particularly well in oxygenated and chlorinated
+                                    media, offering reliable performance in aggressive conditions.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the chemical and mechanical properties of Titanium Grade 1?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Titanium Grade 1 has a chemical composition of titanium as the balance element, with
+                                    oxygen ≤0.18%, iron ≤0.20%, carbon ≤0.08%, nitrogen ≤0.03%, and hydrogen ≤0.015%.
+                                    Mechanically, annealed tubing and bars have a tensile strength of 35 ksi (240 MPa) and
+                                    yield strength of 25 ksi (170 MPa), with an elongation of 24%. Cold-drawn tubing
+                                    achieves a higher tensile strength of 50 ksi (345 MPa) and yield strength of 40 ksi (275
+                                    MPa) with slightly lower elongation of 18%, making it adaptable for different
+                                    fabrication and structural needs.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What types of Titanium Grade 1 products are available?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP manufactures and supplies Titanium Grade 1 in a wide variety
+                                    of forms, including seamless and welded pipes, capillary, U-bend, boiler, and heat
+                                    exchanger tubes, as well as sheets, plates, coils, strips, round, flat, hex, and square
+                                    bars. It is also available in pipe fittings, flanges, fasteners such as bolts, nuts,
+                                    screws, washers, studs, and custom-fabricated components designed to meet precise
+                                    industrial requirements. All products are manufactured according to globally recognized
+                                    standards for performance and reliability.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the key advantages of Titanium Grade 1?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Titanium Grade 1 offers excellent corrosion resistance in oxidizing and mildly reducing
+                                    environments, a high strength to weight ratio, and superior formability and weldability.
+                                    It is biocompatible, making it safe for medical and food applications, and highly
+                                    resistant to chlorides and acidic conditions. Its ductility makes it suitable for deep
+                                    drawing and complex fabrications, while maintaining long-term durability in harsh
+                                    industrial and marine environments.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for Titanium Grade 1 products?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP is a trusted manufacturer, supplier, and exporter of
+                                    high-quality Titanium Grade 1 products, backed by expertise in corrosion-resistant
+                                    alloys. We use premium raw materials, employ state of the art production and testing
+                                    facilities, and provide flexible manufacturing tailored to technical drawings and custom
+                                    requirements. With robust inventory, efficient supply chain management, and quick
+                                    turnaround times, we ensure reliable delivery and industry compliant solutions for
+                                    global clients.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

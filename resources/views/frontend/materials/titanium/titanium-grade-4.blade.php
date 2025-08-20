@@ -1,8 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Titanium Grade 4 | High Strength Titanium Alloy')
-@section('meta_description', 'High strength Titanium Grade 4 ideal for aerospace, marine, and chemical industries with great corrosion resistance.')
-@section('meta_keywords', 'Titanium Grade 4, High Strength Titanium, Corrosion Resistant Titanium, Titanium Grade 4 Pipes, Titanium Grade 4 Tubes, Titanium Grade 4 Sheets, Aerospace Titanium Alloys, Marine Industry Titanium, Chemical Processing Titanium, Industrial Titanium Grades')
+@section('meta_description', 'High strength Titanium Grade 4 ideal for aerospace, marine, and chemical industries with
+    great corrosion resistance.')
+@section('meta_keywords', 'Titanium Grade 4, High Strength Titanium, Corrosion Resistant Titanium, Titanium Grade 4
+    Pipes, Titanium Grade 4 Tubes, Titanium Grade 4 Sheets, Aerospace Titanium Alloys, Marine Industry Titanium, Chemical
+    Processing Titanium, Industrial Titanium Grades')
 
 @section('content')
 
@@ -482,6 +485,116 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Titanium Grade 4 and why is it important?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Titanium Grade 4 is the strongest among commercially pure titanium grades. It offers an
+                                    exceptional combination of high strength, corrosion resistance, and weldability while
+                                    maintaining good formability. This makes it ideal for demanding applications in
+                                    aerospace, marine, chemical processing, power generation, and medical sectors.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What types of Titanium Grade 4 products are available?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP supplies a wide range of Titanium Grade 4 products,
+                                    including:
+                                <ul>
+                                    <li>Seamless and welded pipes (ERW & EFW).</li>
+                                    <li>Tubes (capillary, U-bend, boiler, and heat exchanger).</li>
+                                    <li>Sheets, plates, coils, and strips.</li>
+                                    <li>Round, flat, hex, and square bars.</li>
+                                    <li>Pipe fittings (elbows, tees, reducers, caps, stub ends).</li>
+                                    <li>Flanges (weld neck, slip-on, blind, socket weld, threaded).</li>
+                                    <li>Fasteners (bolts, nuts, screws, washers, studs).</li>
+                                    <li>Welding rods, wire mesh, and custom-fabricated components.</li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the key advantages of Titanium Grade 4?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                <ul>
+                                    <li>Highest strength among commercially pure titanium grades.</li>
+                                    <li>Excellent resistance to oxidizing and chloride-rich environments.</li>
+                                    <li>Lightweight with superior mechanical durability.</li>
+                                    <li>Biocompatible for medical and surgical applications.</li>
+                                    <li>Easy to weld and fabricate, suitable for intricate designs.</li>
+                                    <li>Performs reliably in high-temperature and extreme environments.</li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Which industries use Titanium Grade 4 products?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Titanium Grade 4 is widely used in critical industries, such as:
+                                <ul>
+                                    <li><strong>Chemical Processing:</strong> Piping, pressure vessels, heat exchangers.</li>
+                                    <li><strong>Marine & Offshore:</strong> Ship hulls, underwater piping, offshore rigs.</li>
+                                    <li><strong>Aerospace & Defense:</strong> Airframes, hydraulic systems, structural components.</li>
+                                    <li><strong>Power Generation:</strong> Condenser tubes, heat exchangers, nuclear applications.</li>
+                                    <li><strong>Medical & Surgical:</strong> Orthopedic implants, dental fixtures, surgical instruments.</li>
+                                    <li><strong>Oil & Gas:</strong> Subsea components, risers, and wellhead equipment.</li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for Titanium Grade 4 products?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    We provide premium-grade Titanium Grade 4 with precision engineering and strict quality
+                                    control. Our global supply chain ensures availability of standard and custom sizes. With
+                                    years of expertise in high performance metals, we guarantee reliable service, compliance
+                                    with international standards, and exceptional customer support.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

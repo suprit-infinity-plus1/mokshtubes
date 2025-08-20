@@ -1,7 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Nickel 201 | High Purity Nickel for Corrosion Resistance| Mokshtubes ')
-@section('meta_description', 'Discover high-purity Nickel 201 offering superior corrosion resistance and reliability,
+@section('meta_description',
+    'Discover high-purity Nickel 201 offering superior corrosion resistance and reliability,
     ideal for harsh chemical and industrial environments.')
 
 @section('content')
@@ -29,8 +30,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/nickel-based-superalloys/nickel-based-superalloys-201.webp') }}" alt="Nickel 201"
-                        class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/nickel-based-superalloys/nickel-based-superalloys-201.webp') }}"
+                        alt="Nickel 201" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -512,15 +513,110 @@
                         <h5>Testing and certification as per international norms</h5>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-6">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
-                        <h5>Fast delivery with precision cutting and fabrication services</h5>
+            </div>
+        </div>
+    </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Nickel 201 and how does it differ from Nickel 200?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Nickel 201, also known as UNS N02201 or W.Nr. 2.4068, is a low-carbon version of
+                                    commercially pure wrought nickel (99.6% Ni). Compared to Nickel 200, it offers enhanced
+                                    resistance to graphitization at high temperatures due to its reduced carbon content
+                                    (0.02% max), minimizing carbide precipitation and intergranular corrosion. It retains
+                                    excellent corrosion resistance, thermal and electrical conductivity, and workability,
+                                    making it suitable for caustic, food-grade, and elevated-temperature applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What types of Nickel 201 products are supplied by Moksh Tubes & Fittings LLP?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Moksh Tubes & Fittings LLP manufactures, stocks, and exports a wide range of Nickel 201
+                                    products including seamless and welded pipes, tubes, sheets, plates, coils, strips,
+                                    round bars, flat bars, hex bars, square bars, pipe fittings, flanges, fasteners, wires,
+                                    welding rods, wire mesh, and custom fabricated components. All products are designed to
+                                    meet high-performance and industrial application requirements.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the main benefits of using Nickel 201 alloy?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Nickel 201 provides exceptional resistance to caustic alkalis, acids, and
+                                    high temperature environments. It is non magnetic, maintains high electrical
+                                    conductivity, and has excellent mechanical properties and workability. The low carbon
+                                    content prevents embrittlement and intergranular corrosion, ensuring long term
+                                    durability and reliability in demanding industrial processes.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Which industries commonly use Nickel 201 products?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Nickel 201 is widely used in chemical and petrochemical industries for reactors, piping,
+                                    and caustic solution handling equipment; in electronics and battery components; in food
+                                    processing for caustic wash systems and tanks; in aerospace and defense for
+                                    EMI-sensitive shielding; in heat exchangers for caustic and acidic media; in marine and
+                                    offshore for saltwater applications; and in nuclear and power generation for reactor
+                                    vessels and thermal insulation.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose Moksh Tubes & Fittings LLP for Nickel 201 supply?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Moksh Tubes & Fittings LLP specializes in high purity nickel alloys with superior
+                                    corrosion resistance and dimensional accuracy. The company offers ready stock of Nickel
+                                    201 in standard and custom sizes, testing and certification according to international
+                                    norms, fast delivery, precision cutting, and custom fabrication. With global export
+                                    capabilities and a focus on quality and reliability, they provide dependable solutions
+                                    for critical industrial applications.
+                                </p>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

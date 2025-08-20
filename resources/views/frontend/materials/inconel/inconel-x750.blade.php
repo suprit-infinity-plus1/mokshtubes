@@ -1,8 +1,10 @@
 @extends('layouts.master')
 
 @section('title', 'Inconel X-750 | Extreme Heat & Oxidation Defender')
-@section('meta_description', 'Inconel X-750 maintains strength and stability in extreme heat—perfect for springs, fasteners, and high-performance gas turbines.')
-@section('meta_keywords', 'Inconel X-750, Extreme Heat Alloys, Oxidation Resistant Alloys, High Temperature Alloys, Nickel Alloys, Corrosion Resistant Alloys, Inconel Springs, Inconel Fasteners, High-Performance Gas Turbine Alloys')
+@section('meta_description', 'Inconel X-750 maintains strength and stability in extreme heat—perfect for springs,
+    fasteners, and high-performance gas turbines.')
+@section('meta_keywords', 'Inconel X-750, Extreme Heat Alloys, Oxidation Resistant Alloys, High Temperature Alloys,
+    Nickel Alloys, Corrosion Resistant Alloys, Inconel Springs, Inconel Fasteners, High-Performance Gas Turbine Alloys')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -510,6 +512,102 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Inconel X-750 and what makes it unique?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Inconel X-750 (UNS N07750) is a precipitation hardenable nickel chromium alloy
+                                    strengthened with titanium and aluminum, designed for high temperature and high stress
+                                    environments. It provides outstanding resistance to oxidation, stress corrosion
+                                    cracking, and relaxation, while maintaining excellent mechanical properties from
+                                    cryogenic temperatures up to 1300°F (704°C).
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What types of Inconel X-750 products are available at Moksh Tubes & Fittings LLP?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Moksh Tubes & Fittings LLP manufactures and supplies Inconel X-750 in multiple product
+                                    forms, including seamless and welded pipes, tubes, sheets, plates, coils, round bars,
+                                    flat bars, pipe fittings, flanges, fasteners, welding rods, wire mesh, and
+                                    custom-engineered components, all meeting international quality standards.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Which industries commonly use Inconel X-750?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Inconel X-750 is widely used in aerospace, nuclear power, petrochemical plants, gas
+                                    turbines, and industrial furnace applications. Its ability to withstand high stress,
+                                    thermal cycling, and corrosive environments makes it a preferred material for turbine
+                                    blades, nuclear reactor components, fasteners, springs, heat exchangers, and chemical
+                                    processing equipment.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why is Inconel X-750 preferred over other high-temperature alloys?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    The advantage of Inconel X-750 lies in its excellent combination of high strength, creep
+                                    resistance, and oxidation protection at elevated temperatures. Unlike many alloys, it
+                                    maintains stability under prolonged thermal exposure, prevents relaxation in spring
+                                    applications, and resists scaling, making it ideal for mission critical and long service
+                                    applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why should customers choose Moksh Tubes & Fittings LLP for Inconel X-750 products?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Moksh Tubes & Fittings LLP is a trusted manufacturer and global supplier with unmatched
+                                    expertise in high performance nickel alloys. The company provides ISO certified quality,
+                                    a wide stock range, customized solutions, and strict adherence to international
+                                    standards, ensuring reliable and timely delivery of Inconel X-750 products worldwide.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

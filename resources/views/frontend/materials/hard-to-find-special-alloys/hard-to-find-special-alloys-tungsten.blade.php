@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Tungsten | Exceptional Strength & High Durability')
-@section('meta_description', 'Tungsten provides outstanding strength, heat resistance, and durability, ideal for
+@section('meta_description',
+    'Tungsten provides outstanding strength, heat resistance, and durability, ideal for
     industrial tools, high-temperature applications, and precision engineering.')
-@section('meta_keywords', 'Tungsten, high strength metal, heat resistant metal, durable metal, industrial tools metal,
+@section('meta_keywords',
+    'Tungsten, high strength metal, heat resistant metal, durable metal, industrial tools metal,
     high temperature applications, precision engineering metal')
 
 
@@ -474,6 +476,94 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Tungsten and what are its key properties?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Tungsten is a dense, high melting-point metal known for outstanding hardness, high
+                                    thermal conductivity, minimal thermal expansion, and excellent resistance to wear,
+                                    corrosion, and high temperatures.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Which forms of Tungsten products are available?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Tungsten is supplied as seamless and welded pipes, tubes (capillary, U-bend, boiler,
+                                    heat exchanger), sheets, plates, coils, strips, round/flat/hex/square bars, pipe
+                                    fittings, flanges, fasteners, wires, crucibles, and custom fabricated components.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the main advantages of Tungsten?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Tungsten offers the world’s highest melting point among metals, extreme density,
+                                    exceptional hardness, high thermal conductivity, and low thermal expansion, making it
+                                    ideal for high temperature, wear-resistant, and radiation shielding applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>In which industries is Tungsten commonly used?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Tungsten is widely used in aerospace and defense, electronics and semiconductors,
+                                    medical devices, lighting, metallurgy, foundries, and oil & gas industries for its
+                                    thermal stability, hardness, and durability.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS for Tungsten products?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    We provide pure and alloyed Tungsten in various forms, precision machining, custom
+                                    fabrication, strict quality control, ISO certified operations, fast global delivery, and
+                                    competitive pricing, trusted by industries worldwide.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

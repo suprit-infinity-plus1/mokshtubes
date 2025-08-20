@@ -1,8 +1,12 @@
 @extends('layouts.master')
 
 @section('title', 'Austenitic Stainless Steel 347 | High-Temp Stability SS')
-@section('meta_description', '347 Stainless Steel pipes & fittings offer long-term high temperature and corrosion resistance for industrial environments.')
-@section('meta_keywords', 'Austenitic Stainless Steel 347, Stainless Steel 347 Pipes, Stainless Steel 347 Tubes, Stainless Steel 347 Fittings, Heat Resistant Stainless Steel 347, Corrosion Resistant Stainless Steel 347, High Temperature Stainless Steel 347, Industrial Stainless Steel 347, Stabilized Stainless Steel 347, Thermal Processing Stainless Steel 347')
+@section('meta_description', '347 Stainless Steel pipes & fittings offer long-term high temperature and corrosion
+    resistance for industrial environments.')
+@section('meta_keywords', 'Austenitic Stainless Steel 347, Stainless Steel 347 Pipes, Stainless Steel 347 Tubes,
+    Stainless Steel 347 Fittings, Heat Resistant Stainless Steel 347, Corrosion Resistant Stainless Steel 347, High
+    Temperature Stainless Steel 347, Industrial Stainless Steel 347, Stabilized Stainless Steel 347, Thermal Processing
+    Stainless Steel 347')
 
 @section('content')
 
@@ -482,6 +486,112 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What is Stainless Steel 347 and how is it different from 304 or 316?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Stainless Steel 347 is a niobium stabilized austenitic stainless steel offering
+                                    excellent resistance to intergranular corrosion and high temperature strength. Unlike
+                                    304 or 316, SS 347 provides superior performance in elevated temperature applications
+                                    such as boilers, heat exchangers, and furnace parts.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What are the key advantages of using Stainless Steel 347?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    The main benefits of SS 347 include resistance to intergranular corrosion, stress
+                                    corrosion cracking, and oxidation at high temperatures. It also maintains mechanical
+                                    strength in severe environments, making it ideal for power generation, chemical,
+                                    petrochemical, and aerospace applications.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    In which industries is Stainless Steel 347 commonly used?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    SS 347 is widely used in power plants, chemical and petrochemical industries, aerospace,
+                                    automotive exhaust systems, oil & gas, and food processing equipment due to its
+                                    durability in high temperature and corrosive environments.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What forms of Stainless Steel 347 products are available at MOKSH TUBES & FITTINGS LLP?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    We supply Stainless Steel 347 in various forms such as seamless and welded pipes, tubes,
+                                    sheets, plates, coils, strips, bars, pipe fittings, flanges, fasteners, and
+                                    custom fabricated components, all manufactured to global quality standards.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Why should I choose MOKSH TUBES & FITTINGS LLP for Stainless Steel 347 products?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP is a trusted manufacturer, supplier, and exporter with a wide
+                                    stock range, international certifications, competitive pricing, and timely worldwide
+                                    delivery. We provide expert guidance for selecting the right SS 347 products for your
+                                    application.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

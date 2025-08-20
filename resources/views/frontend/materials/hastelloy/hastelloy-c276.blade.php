@@ -1,8 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Hastelloy C276 | Ultimate Corrosion-Proof Nickel Alloy')
-@section('meta_description', 'Buy Hastelloy C276 pipes, tubes & fittings with top corrosion resistance, strength, and durability for harsh industrial environments.')
-@section('meta_keywords', 'Hastelloy C276, Corrosion Resistant Alloy, Nickel Alloy, Hastelloy C276 Pipes, Hastelloy C276 Tubes, Hastelloy C276 Fittings, Industrial Corrosion Resistant Alloys, Durable Nickel Alloys, Chemical Processing Alloys, Marine Alloys')
+@section('meta_description', 'Buy Hastelloy C276 pipes, tubes & fittings with top corrosion resistance, strength, and
+    durability for harsh industrial environments.')
+@section('meta_keywords', 'Hastelloy C276, Corrosion Resistant Alloy, Nickel Alloy, Hastelloy C276 Pipes, Hastelloy C276
+    Tubes, Hastelloy C276 Fittings, Industrial Corrosion Resistant Alloys, Durable Nickel Alloys, Chemical Processing
+    Alloys, Marine Alloys')
 
 @section('content')
 
@@ -512,6 +515,104 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Hastelloy C-276 and why is it important?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Hastelloy C-276 (UNS N10276) is a nickel-chromium-molybdenum alloy with excellent
+                                    resistance to strong oxidizers, reducing agents, and chloride-induced corrosion. Its low
+                                    silicon and carbon content reduce welding challenges, while its superior resistance to
+                                    pitting, crevice corrosion, and stress corrosion cracking makes it an ideal choice for
+                                    industries operating in highly aggressive chemical and thermal environments.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the key properties of Hastelloy C-276?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Hastelloy C-276 offers outstanding corrosion resistance, high mechanical strength, and
+                                    excellent weldability and formability. With a density of 8.89 g/cm³, a melting point of
+                                    1370°C, tensile strength of 115,000 psi, and yield strength of 52,000 psi, the alloy
+                                    maintains superior performance even in extreme chemical and high temperature conditions,
+                                    making it one of the most reliable materials for critical applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>In which industries is Hastelloy C-276 most commonly used?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Hastelloy C-276 is widely used in industries such as chemical processing, nuclear and
+                                    conventional power plants, oil and gas, pulp and paper, marine and offshore systems,
+                                    pollution control, pharmaceutical and food processing, and wastewater treatment. Its
+                                    ability to withstand harsh chemicals, acidic gases, seawater, and high temperatures
+                                    makes it indispensable in mission critical projects.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What products are available in Hastelloy C-276 from MOKSH TUBES & FITTINGS LLP?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP manufactures and supplies a complete range of Hastelloy C-276
+                                    products including seamless and welded pipes, tubes, sheets, plates, coils, bars, pipe
+                                    fittings, flanges, fasteners, welding rods, wire mesh, and customized fabricated
+                                    components. All products are made to international standards to deliver durability,
+                                    precision, and long term reliability in corrosive environments.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for Hastelloy C-276 products?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP is a trusted manufacturer, supplier, exporter, importer, and
+                                    stockist of high-quality Hastelloy C-276 products. With expertise in nickel-based
+                                    alloys, a strong global supply network, advanced manufacturing capabilities, and a
+                                    commitment to quality and customer satisfaction, the company delivers customized
+                                    solutions and reliable materials for critical industrial requirements worldwide.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

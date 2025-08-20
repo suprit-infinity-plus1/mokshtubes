@@ -1,8 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Titanium Grade 23')
-@section('meta_description','Titanium Grade 23 (Ti-6Al-4V ELI) for high strength, low weight in aerospace & medical industries.'
-)
+@section('meta_description', 'Titanium Grade 23 (Ti-6Al-4V ELI) for high strength, low weight in aerospace & medical
+    industries.')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -492,6 +492,97 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Titanium Grade 23 and its key features?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Titanium Grade 23 (Ti-6Al-4V ELI) is a high-purity titanium alloy known for its
+                                    excellent biocompatibility, superior strength to weight ratio, exceptional corrosion
+                                    resistance, and high fracture toughness. These properties make it ideal for medical,
+                                    aerospace, and high-performance industrial applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Which products are available in Titanium Grade 23?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP offers a wide range of Titanium Grade 23 products, including
+                                    seamless and welded pipes, various tubes, sheets, plates, coils, bars, flanges,
+                                    fasteners, wire mesh, and custom fabricated components designed to meet high performance
+                                    specifications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the main applications of Titanium Grade 23?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Titanium Grade 23 is widely used in medical implants and surgical devices, aerospace
+                                    components, motorsports, marine engineering, industrial machinery, and additive
+                                    manufacturing, offering reliability and performance in demanding environments.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What advantages does Titanium Grade 23 provide over other alloys?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Titanium Grade 23 provides excellent biocompatibility, superior corrosion resistance,
+                                    high fatigue strength, weldability, and lightweight performance. These advantages make
+                                    it especially suitable for critical medical and high performance industrial
+                                    applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for Titanium Grade 23?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP supplies high quality Titanium Grade 23 with custom
+                                    fabrication services, global shipping, strict quality control, and technical support,
+                                    ensuring precision, reliability, and compliance for demanding applications.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

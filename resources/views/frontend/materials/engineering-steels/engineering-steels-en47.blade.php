@@ -1,8 +1,10 @@
 @extends('layouts.master')
 
 @section('title', 'EN47 Spring Steel | High Strength Spring Steel')
-@section('meta_description', 'EN47 Spring Steel known for excellent elasticity and tensile strength in spring manufacturing.')
-@section('meta_keywords', 'EN47 Spring Steel, high strength spring steel, elastic steel, tensile strength steel, spring manufacturing steel, industrial spring steel')
+@section('meta_description', 'EN47 Spring Steel known for excellent elasticity and tensile strength in spring
+    manufacturing.')
+@section('meta_keywords', 'EN47 Spring Steel, high strength spring steel, elastic steel, tensile strength steel, spring
+    manufacturing steel, industrial spring steel')
 
 @section('content')
 
@@ -474,6 +476,91 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is EN47 steel used for?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    EN47 steel is widely used for manufacturing springs, gears, shafts, automotive
+                                    components, and heavy duty machinery parts requiring high wear resistance and fatigue
+                                    strength.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the key properties of EN47 steel?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    EN47 steel offers excellent hardness, wear resistance, high tensile strength, and
+                                    fatigue resistance, making it ideal for dynamic and heavy-load applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>In what forms is EN47 steel available?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    EN47 steel is available in bars, rods, sheets, plates, pipes, tubes, flanges, fasteners,
+                                    and custom fabricated components to meet diverse engineering requirements.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Is EN47 steel heat treated?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Yes, EN47 steel is typically heat-treated to achieve high hardness, wear resistance, and
+                                    optimal mechanical properties for demanding applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for EN47 steel?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    We offer premium quality EN47 steel, customized sizes, global sourcing, strict quality
+                                    control, timely delivery, and expert technical support, ensuring reliable and
+                                    high-performance solutions.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

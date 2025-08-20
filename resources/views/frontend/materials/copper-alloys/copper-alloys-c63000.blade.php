@@ -2,7 +2,8 @@
 
 @section('title', 'Copper Alloy C63000 | Heat Treatable Copper Alloy')
 @section('meta_description', 'Heat treatable Copper Alloy C63000 known for durability and corrosion resistance.')
-@section('meta_keywords', 'Copper Alloy C63000, heat treatable copper alloy, corrosion resistant copper, durable copper alloy, industrial copper alloy')
+@section('meta_keywords', 'Copper Alloy C63000, heat treatable copper alloy, corrosion resistant copper, durable copper
+    alloy, industrial copper alloy')
 
 
 @section('content')
@@ -474,6 +475,127 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What is Aluminum Bronze C63000 and what makes it unique?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Aluminum Bronze C63000, also known as UNS C63000, is a high-strength copper based alloy
+                                    containing
+                                    aluminum, nickel, and iron. It is known for its exceptional corrosion resistance, wear
+                                    resistance,
+                                    and non sparking properties, making it ideal for marine, aerospace, oil & gas, and
+                                    defense industries.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What are the main applications of C63000 Aluminum Bronze?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    C63000 is widely used in marine engineering (propeller shafts, valves, pump components),
+                                    aerospace
+                                    (landing gear bushings, wear plates), defense (submarine and torpedo parts), oil & gas
+                                    (valve seats,
+                                    offshore components), chemical processing (corrosive fluid fittings, impellers), and
+                                    industrial equipment
+                                    (gears, bushings, wear rings, cam followers).
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What are the key benefits of using Aluminum Bronze C63000?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>C63000 offers several advantages, including:</p>
+                                <ul>
+                                    <li>Excellent resistance to seawater, erosion, and cavitation</li>
+                                    <li>High strength with superior fatigue and wear resistance</li>
+                                    <li>Non magnetic and spark resistant properties for safety critical applications</li>
+                                    <li>Good machinability and weldability</li>
+                                    <li>Maintains mechanical strength even at elevated temperatures</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What C63000 Aluminum Bronze products does MOKSH TUBES & FITTINGS LLP supply?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    We manufacture and supply a complete range of C63000 Aluminum Bronze products such as
+                                    seamless & welded pipes,
+                                    tubes, rods, bars, sheets, plates, coils, flanges, pipe fittings, fasteners, and
+                                    custom fabricated components.
+                                    All products meet international standards (ASTM, DIN, UNS).
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Why choose MOKSH TUBES & FITTINGS LLP for Aluminum Bronze C63000 materials?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP is a trusted global supplier of Aluminum Bronze C63000 with:
+                                </p>
+                                <ul>
+                                    <li>A wide inventory in standard and custom sizes.</li>
+                                    <li>Guaranteed quality backed by Mill Test Certificates and TPI approval.</li>
+                                    <li>Custom machining services for bushings, rings, and forged parts.</li>
+                                    <li>Fast lead times and reliable global export services.</li>
+                                    <li>Proven expertise in supplying marine, aerospace, defense, oil & gas, and chemical
+                                        industries.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Nimonic | Superior High-Temp Strength Alloy')
-@section('meta_description', 'Nimonic provides exceptional high-temperature strength, creep resistance, and durability,
+@section('meta_description',
+    'Nimonic provides exceptional high-temperature strength, creep resistance, and durability,
     ideal for aerospace, power generation, and industrial turbine applications.')
-@section('meta_keywords', 'Nimonic alloy, high temperature alloy, creep resistant alloy, aerospace alloy, turbine alloy,
+@section('meta_keywords',
+    'Nimonic alloy, high temperature alloy, creep resistant alloy, aerospace alloy, turbine alloy,
     power generation alloy, durable high strength alloy')
 
 
@@ -497,6 +499,94 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are Nimonic Alloys used for?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Nimonic Alloys are used in turbine blades, combustion chambers, exhaust systems, gas
+                                    turbines, nuclear reactors, high performance automotive components, and industrial
+                                    furnace parts requiring superior heat and corrosion resistance.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Which grades of Nimonic Alloys are available?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Popular grades include Nimonic 75, 80A, 90, 105, and 263, each engineered for specific
+                                    mechanical strength, thermal performance, and structural stability under extreme
+                                    conditions.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the key properties of Nimonic Alloys?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Nimonic Alloys offer excellent heat creep resistance, oxidation and corrosion
+                                    resistance, high strength to weight ratio, dimensional stability, and good weldability,
+                                    especially in Nimonic 263.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>In what forms are Nimonic Alloys supplied?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    They are supplied as seamless and welded pipes, tubes, sheets, plates, coils, strips,
+                                    round/flat/hex/square bars, pipe fittings, flanges, fasteners, and custom engineered
+                                    components.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS for Nimonic Alloys?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    We provide ISO 9001:2015 certified Nimonic products with wide inventory availability,
+                                    custom fabrication, CNC machining, fast turnaround, competitive pricing, and global
+                                    shipping with export compliance.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

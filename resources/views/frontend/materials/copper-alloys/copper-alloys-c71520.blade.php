@@ -1,8 +1,10 @@
 @extends('layouts.master')
 
 @section('title', 'Copper Alloy C71520 | High Performance Copper Nickel Alloy')
-@section('meta_description', 'Copper Nickel Alloy C71520 offering excellent corrosion resistance and durability in seawater applications.')
-@section('meta_keywords', 'Copper Nickel Alloy C71520, high performance copper alloy, corrosion resistant copper nickel, seawater resistant alloy, durable copper nickel alloy')
+@section('meta_description', 'Copper Nickel Alloy C71520 offering excellent corrosion resistance and durability in
+    seawater applications.')
+@section('meta_keywords', 'Copper Nickel Alloy C71520, high performance copper alloy, corrosion resistant copper nickel,
+    seawater resistant alloy, durable copper nickel alloy')
 
 
 @section('content')
@@ -497,6 +499,112 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Copper Nickel C71520 and how is it different from C71500?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Copper Nickel C71520 is a high performance version of the traditional Cu-Ni 70/30 alloy
+                                    (UNS C71500).
+                                    It contains around 70% copper and 30% nickel with controlled additions of iron and
+                                    manganese,
+                                    giving it enhanced mechanical strength, better erosion resistance, and improved
+                                    durability in
+                                    high-velocity seawater environments compared to the standard grade.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the main advantages of Copper Nickel C71520?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <ul>
+                                    <li>Exceptional resistance to seawater corrosion, biofouling, and microbial corrosion
+                                    </li>
+                                    <li>Superior erosion and cavitation resistance in turbulent marine systems</li>
+                                    <li>Excellent thermal conductivity for heat exchangers</li>
+                                    <li>Retains strength at high pressures</li>
+                                    <li>Non-magnetic and spark resistant</li>
+                                    <li>Highly weldable, making it ideal for critical engineering applications</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Where is Copper Nickel C71520 commonly used?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <ul>
+                                    <li>Marine & Offshore engineering seawater piping, condensers, pumps, ship hulls.</li>
+                                    <li>Naval & Defense submarine components, anti-fouling systems, seawater cooling lines.
+                                    </li>
+                                    <li>Desalination plants brine heaters, high-pressure piping.</li>
+                                    <li>Power plants condensers and heat exchangers.</li>
+                                    <li>Oil & Gas firewater systems, hydraulic lines, instrumentation tubing.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What Copper Nickel C71520 products are available from MOKSH TUBES & FITTINGS LLP?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <ul>
+                                    <li>Seamless and Welded Pipes.</li>
+                                    <li>Heat Exchanger and U-bend Tubes.</li>
+                                    <li>Sheets, Plates, Coils, Strips.</li>
+                                    <li>Round Bars, Square Bars, Hex Bars.</li>
+                                    <li>Pipe Fittings.</li>
+                                    <li>Flanges.</li>
+                                    <li>Fasteners.</li>
+                                    <li>Custom Fabricated Components.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why should I choose MOKSH TUBES & FITTINGS LLP for Copper Nickel C71520?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <ul>
+                                    <li>Certified materials that meet ASTM, EN, MIL, and DEF STAN standards.</li>
+                                    <li>In house CNC machining & customized fabrication.</li>
+                                    <li>Strict quality control with third party inspections.</li>
+                                    <li>Fast worldwide delivery with export ready packaging.</li>
+                                    <li>Trusted solutions for marine, power, offshore, oil & gas, and defense projects.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

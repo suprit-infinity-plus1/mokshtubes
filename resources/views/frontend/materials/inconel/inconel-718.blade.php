@@ -1,8 +1,10 @@
 @extends('layouts.master')
 
 @section('title', 'Inconel 718 | High-Strength Alloy for Extreme Loads')
-@section('meta_description', 'Inconel 718 delivers superior tensile strength, fatigue resistance, and oxidation protection—ideal for aerospace, turbines, and energy sectors.')
-@section('meta_keywords', 'Inconel 718, High-Strength Alloy, Extreme Load Alloys, Nickel Alloys, Aerospace Alloys, Turbine Alloys, Energy Sector Alloys, Fatigue Resistant Alloys, Oxidation Resistant Alloys, Corrosion Resistant Alloys')
+@section('meta_description', 'Inconel 718 delivers superior tensile strength, fatigue resistance, and oxidation
+    protection—ideal for aerospace, turbines, and energy sectors.')
+@section('meta_keywords', 'Inconel 718, High-Strength Alloy, Extreme Load Alloys, Nickel Alloys, Aerospace Alloys,
+    Turbine Alloys, Energy Sector Alloys, Fatigue Resistant Alloys, Oxidation Resistant Alloys, Corrosion Resistant Alloys')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -29,7 +31,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/inconel/Inconel-718.webp') }}" alt="Inconel 718" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/inconel/Inconel-718.webp') }}" alt="Inconel 718"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
@@ -537,6 +540,115 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Inconel 718 and what makes it special?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Inconel 718 (UNS N07718) is a high-performance nickel-chromium alloy known for its
+                                    outstanding strength, corrosion resistance, and weldability in extreme temperature
+                                    environments. Unlike many other alloys, Inconel 718 can be precipitation hardened, which
+                                    gives it superior tensile, fatigue, creep, and rupture strength. It performs reliably
+                                    from cryogenic temperatures up to 700°C (1290°F) while resisting oxidation, post weld
+                                    cracking, and corrosive attack, making it a preferred material for aerospace, marine,
+                                    chemical processing, and power generation industries.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Where is Inconel 718 commonly used?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Inconel 718 is widely applied across industries that demand both mechanical strength and
+                                    corrosion resistance. In aerospace, it is used for turbine discs, compressor blades,
+                                    casings, and fasteners. Power generation plants rely on it for gas turbines, transition
+                                    ducts, and combustion hardware. It also plays a key role in nuclear and marine
+                                    components, automotive and motorsport engine parts, oil and gas exploration tools,
+                                    cryogenic storage systems, and chemical processing equipment where long term stability
+                                    in aggressive environments is crucial.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the key advantages of Inconel 718?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    The main advantages of Inconel 718 include its outstanding strength across a wide
+                                    temperature range, excellent weldability without post-weld cracking, and its ability to
+                                    be precipitation hardened for enhanced mechanical performance. It offers superior
+                                    resistance to stress corrosion cracking, pitting, and crevice corrosion while
+                                    maintaining exceptional fatigue and creep-rupture strength. These properties make it
+                                    highly durable and cost effective for industries where materials must withstand high
+                                    pressure, extreme heat, and chemically aggressive conditions.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>How does the chemical composition of Inconel 718 enhance its performance?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    The chemical composition of Inconel 718 includes 50–55% nickel, 17–21% chromium, and
+                                    controlled additions of niobium, molybdenum, titanium, and aluminum, with iron making up
+                                    the balance. The nickel chromium base provides superior corrosion resistance in
+                                    oxidizing and reducing environments, while niobium and molybdenum contribute to
+                                    precipitation hardening for improved strength. Titanium and aluminum enhance creep
+                                    resistance and structural stability, giving Inconel 718 the ability to maintain its
+                                    mechanical properties under extreme operating conditions.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose Moksh Tubes & Fittings LLP for Inconel 718 products?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Moksh Tubes & Fittings LLP is a trusted global manufacturer, supplier, exporter,
+                                    importer, and stockist of Inconel 718 products in various forms, including pipes, tubes,
+                                    fittings, flanges, fasteners, sheets, plates, coils, wires, bars, and custom-fabricated
+                                    components. With unmatched expertise in high performance nickel alloys, a wide inventory
+                                    of rare materials, advanced engineering capabilities, and a strong international supply
+                                    chain, the company ensures timely delivery and top-quality products. Customers prefer
+                                    Moksh Tubes & Fittings LLP for its commitment to precision, reliability, and global
+                                    compliance standards in every Inconel 718 solution.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

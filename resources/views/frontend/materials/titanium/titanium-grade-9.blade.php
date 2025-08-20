@@ -1,7 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Titanium Grade 9 | Titanium Alloy with Excellent Strength')
-@section('meta_description', 'Buy Incoloy 825 — a premium corrosion-resistant nickel alloy ideal for chemical processing, marine, and oil & gas applications. High strength and durability guaranteed.')
+@section('meta_description', 'Buy Incoloy 825 — a premium corrosion-resistant nickel alloy ideal for chemical
+    processing, marine, and oil & gas applications. High strength and durability guaranteed.')
 @section('meta_keywords', 'Incoloy 825, nickel alloy, corrosion resistant alloy, premium metal alloys, moksh tubes')
 
 
@@ -497,6 +498,99 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Titanium Grade 9?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Titanium Grade 9 (Ti-3Al-2.5V) is a medium-strength titanium alloy that offers excellent
+                                    corrosion resistance, weldability, and formability. It is ideal for aerospace, marine,
+                                    chemical, and automotive applications where lightweight yet durable performance is
+                                    essential.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the common applications of Titanium Grade 9?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Titanium Grade 9 is commonly used in aerospace hydraulic lines, marine tubing, chemical
+                                    reactors, automotive exhaust systems, medical instruments, and power generation
+                                    equipment. Its combination of strength, corrosion resistance, and fatigue stability
+                                    makes it suitable for critical industrial projects.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What products are available in Titanium Grade 9?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP supplies Titanium Grade 9 in the form of pipes, tubes,
+                                    sheets, plates, coils, bars, fittings, flanges, fasteners, forgings, and
+                                    custom fabricated components. All products are manufactured and tested to meet global
+                                    industrial and engineering standards.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why is Titanium Grade 9 preferred over other titanium alloys?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Titanium Grade 9 offers a balanced solution between commercially pure titanium and Grade
+                                    5, providing a strong, corrosion-resistant, weldable, and formable alloy. It is
+                                    cost effective for moderate strength applications that require structural reliability
+                                    and long-term durability.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS LLP?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP delivers high performance Titanium Grade 9 products with
+                                    strict quality control, extensive stock availability, global supply, custom fabrication,
+                                    timely delivery, and expert technical support, ensuring reliable solutions for
+                                    industrial and specialized applications.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

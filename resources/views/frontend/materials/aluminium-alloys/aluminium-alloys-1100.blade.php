@@ -1,8 +1,13 @@
 @extends('layouts.master')
 
 @section('title', 'Aluminium Alloy 1100 | Commercially Pure Aluminium')
-@section('meta_description', 'Commercially pure Aluminium 1100 with excellent corrosion resistance and formability—ideal for chemical, marine, and decorative applications.')
-@section('meta_keywords', 'Aluminium Alloy 1100, Commercially Pure Aluminium, Aluminium 1100 Pipes, Aluminium 1100 Tubes, Aluminium 1100 Sheets, Corrosion Resistant Aluminium, Formable Aluminium Alloy, Industrial Aluminium Grades, Commercial Aluminium Alloys, Pure Aluminium Products')
+@section('meta_description',
+    'Commercially pure Aluminium 1100 with excellent corrosion resistance and formability—ideal
+    for chemical, marine, and decorative applications.')
+@section('meta_keywords',
+    'Aluminium Alloy 1100, Commercially Pure Aluminium, Aluminium 1100 Pipes, Aluminium 1100
+    Tubes, Aluminium 1100 Sheets, Corrosion Resistant Aluminium, Formable Aluminium Alloy, Industrial Aluminium Grades,
+    Commercial Aluminium Alloys, Pure Aluminium Products')
 
 @section('content')
 
@@ -470,6 +475,117 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn ">
+                                <h4>
+                                    What is Aluminium Alloy 1100 and what makes it unique?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Aluminium Alloy 1100 is a commercially pure <a
+                                        href="{{ route('materials.aluminium-Alloys') }}">grade</a> with at least 99%
+                                    aluminum content. It
+                                    is highly valued for its excellent corrosion resistance, superior workability, and high
+                                    thermal and electrical conductivity, making it ideal for industries such as electrical,
+                                    packaging, and architecture.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What are the key applications of Aluminium 1100 products?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Aluminium 1100 is commonly used in electrical conductors, heat exchangers, roofing,
+                                    siding, food processing equipment, utensils, reflectors, and chemical storage tanks. Its
+                                    outstanding formability and corrosion resistance make it suitable for both industrial
+                                    and decorative applications.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Is Aluminium 1100 a heat-treatable alloy?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    No, Aluminium Alloy 1100 is a non-heat treatable alloy. Instead, it achieves strength
+                                    through cold working processes such as rolling, drawing, or forming. This ensures stable
+                                    mechanical properties during use.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What are the advantages of using Aluminium Alloy 1100?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    The main benefits of Aluminium 1100 include:
+                                </p>
+                                <ul>
+                                    <li>Excellent corrosion resistance in various environments.</li>
+                                    <li>High electrical & thermal conductivity.</li>
+                                    <li>Easy machinability and weldability.</li>
+                                    <li>Superior formability for complex fabrication.</li>
+                                    <li>Cost-effectiveness compared to stronger alloys.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What Aluminium 1100 products are available at Moksh Tubes & Fittings LLP?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Moksh Tubes & Fittings LLP supplies a wide range of Aluminium 1100 products, including:
+                                </p>
+                                <ul>
+                                    <li>Pipes & Tubes (Seamless, Welded, Heat Exchanger, U-Bend).</li>
+                                    <li>Sheets, Plates, Coils & Strips.</li>
+                                    <li>Bars & Rods (Round, Hex, Flat, Square).</li>
+                                    <li>Pipe Fittings, Flanges, and Fasteners.</li>
+                                    <li>Custom Fabricated Components tailored to customer needs.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

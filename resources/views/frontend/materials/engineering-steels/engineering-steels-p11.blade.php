@@ -1,8 +1,10 @@
 @extends('layouts.master')
 
 @section('title', 'P11 Alloy Steel | Alloy Steel for High Temperature Applications')
-@section('meta_description', 'P11 Alloy Steel designed for high-temperature pressure vessels and pipework in power plants.')
-@section('meta_keywords', 'P11 Alloy Steel, high temperature alloy steel, pressure vessel steel, boiler steel, power plant steel, industrial alloy steel')
+@section('meta_description', 'P11 Alloy Steel designed for high-temperature pressure vessels and pipework in power
+    plants.')
+@section('meta_keywords', 'P11 Alloy Steel, high temperature alloy steel, pressure vessel steel, boiler steel, power
+    plant steel, industrial alloy steel')
 
 @section('content')
 
@@ -478,6 +480,94 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is P11 steel used for?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    P11 steel is primarily used in high temperature and high pressure applications,
+                                    including boiler tubes, superheaters, pressure vessels, and heat exchanger components in
+                                    power generation, petrochemical, oil & gas, and chemical processing industries.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the key properties of P11 steel?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    P11 steel provides excellent strength, creep resistance, oxidation resistance, good
+                                    weldability, and machinability, making it suitable for thermal cycling and high-pressure
+                                    environments.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>In what forms is P11 steel available?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    P11 steel is available in seamless and welded pipes, tubes, sheets, plates, bars,
+                                    flanges, fasteners, and custom fabricated components to meet diverse industrial
+                                    requirements.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why is P11 steel suitable for high-temperature applications?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Its chromium molybdenum composition ensures superior creep resistance, oxidation
+                                    resistance, and strength at elevated temperatures up to 550°C (1022°F), making it ideal
+                                    for boilers, superheaters, and pressure vessels.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for P11 steel?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    We provide certified high-quality P11 steel products with comprehensive stock, custom
+                                    sizing, technical expertise, timely deliveries, competitive pricing, and full
+                                    traceability for critical alloy steel applications.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

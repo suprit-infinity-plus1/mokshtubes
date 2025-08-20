@@ -1,8 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Incoloy 020 | Elite Acid-Resistant Super AlloyIncoloy 020 | Elite Acid-Resistant Super Alloy')
-@section('meta_description', 'Incoloy 020 ensures superior resistance to sulfuric acid and harsh chemicals—delivering long service life in challenging industrial environments.')
-@section('meta_keywords', 'Incoloy 020, Incoloy 020 Pipes, Incoloy 020 Tubes, Incoloy 020 Fittings, Acid Resistant Incoloy 020, Corrosion Resistant Incoloy 020, Sulfuric Acid Resistant Incoloy 020, Chemical Processing Incoloy 020, Industrial Incoloy 020 Alloy, High Performance Incoloy 020')
+@section('meta_description', 'Incoloy 020 ensures superior resistance to sulfuric acid and harsh chemicals—delivering
+    long service life in challenging industrial environments.')
+@section('meta_keywords', 'Incoloy 020, Incoloy 020 Pipes, Incoloy 020 Tubes, Incoloy 020 Fittings, Acid Resistant
+    Incoloy 020, Corrosion Resistant Incoloy 020, Sulfuric Acid Resistant Incoloy 020, Chemical Processing Incoloy 020,
+    Industrial Incoloy 020 Alloy, High Performance Incoloy 020')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -37,16 +40,18 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                                <a href="{{ route('materials.incoloy') }}" class="text-black"><strong>INCOLOY 020</strong></a>
-                                is a corrosion-resistant nickel-iron-chromium alloy designed specifically to handle sulfuric acid and other aggressive chemical environments.
-                                With the addition of copper and molybdenum, this alloy offers exceptional resistance to pitting, crevice corrosion, and chloride-induced stress corrosion cracking.
+                            <a href="{{ route('materials.incoloy') }}" class="text-black"><strong>INCOLOY 020</strong></a>
+                            is a corrosion-resistant nickel-iron-chromium alloy designed specifically to handle sulfuric
+                            acid and other aggressive chemical environments.
+                            With the addition of copper and molybdenum, this alloy offers exceptional resistance to pitting,
+                            crevice corrosion, and chloride-induced stress corrosion cracking.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">MOKSH TUBES & FITTINGS LLP</strong> is a trusted
-                                    manufacturer, exporter, supplier, importer, and stockist of INCOLOY 020 in multiple forms
-                                    including <a href="{{ route('products.pipes-tubes') }}">pipes & tubes</a>, fittings, flanges,
-                                    fasteners, sheets, plates, bars, rods, coils, wire mesh, and custom-fabricated products.
+                            manufacturer, exporter, supplier, importer, and stockist of INCOLOY 020 in multiple forms
+                            including <a href="{{ route('products.pipes-tubes') }}">pipes & tubes</a>, fittings, flanges,
+                            fasteners, sheets, plates, bars, rods, coils, wire mesh, and custom-fabricated products.
                         </p>
                     </div>
                 </div>
@@ -549,6 +554,106 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Incoloy 020 and what makes it unique?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Incoloy 020, also known as Alloy 20, is a nickel-iron-chromium alloy specifically
+                                    designed to resist sulfuric acid and other aggressive chemical environments. With the
+                                    addition of copper and molybdenum, it provides excellent resistance to pitting, crevice
+                                    corrosion, and chloride-induced stress corrosion cracking, making it a preferred
+                                    material for industries handling highly corrosive media.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the key properties of Incoloy 020 alloy?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Incoloy 020 exhibits outstanding corrosion resistance, strong mechanical properties, and
+                                    excellent workability. It maintains resistance even after welding and delivers superior
+                                    protection against sulfuric acid, nitric acid, chlorides, and mixed chemical
+                                    environments. Its tensile strength can reach up to 149 ksi, with excellent ductility and
+                                    hardness, ensuring durability and long service life in critical applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Where is Incoloy 020 commonly used?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Incoloy 020 is widely used in the chemical processing industry for heat exchangers,
+                                    reactors, piping, and storage tanks handling strong acids. It is also utilized in
+                                    pharmaceutical and food processing industries, oil and gas facilities, marine
+                                    environments, pulp and paper plants, pollution control systems, acid recovery units, and
+                                    power generation equipment, where resistance to acidic and chloride rich environments is
+                                    essential.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What types of Incoloy 020 products are available?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP supplies Incoloy 020 in multiple forms including seamless and
+                                    welded pipes, tubes, sheets, plates, coils, bars, fittings, flanges, fasteners, wire
+                                    mesh, and custom fabricated components. All products comply with ASTM, ASME, and
+                                    international standards to ensure high performance, reliability, and compatibility with
+                                    demanding industrial requirements.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for Incoloy 020 materials?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP is a trusted global supplier of Incoloy 020, offering a wide
+                                    inventory, quick delivery, and custom machining solutions. With deep expertise in
+                                    nickel-based and corrosion-resistant alloys, the company ensures ISO certified quality
+                                    assurance, competitive pricing, and full compliance with international standards, making
+                                    it a reliable partner for industries that demand long-lasting corrosion resistance and
+                                    operational safety.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

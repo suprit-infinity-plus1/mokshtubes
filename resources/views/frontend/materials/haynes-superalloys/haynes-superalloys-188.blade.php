@@ -511,6 +511,108 @@
         </div>
     </section>
 
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Haynes 188 and why is it used in high-temperature applications?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Haynes 188 (UNS N06188) is a cobalt-based superalloy well known for its exceptional
+                                    strength, corrosion resistance, and remarkable resistance to oxidation and carburization
+                                    at elevated temperatures. It performs reliably in aggressive environments where
+                                    components are exposed to extreme heat and stress, making it one of the most trusted
+                                    alloys in aerospace, chemical processing, and power generation industries.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the key properties of Haynes 188 alloy?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Haynes 188 exhibits superior high-temperature strength, creep resistance, and stability
+                                    in harsh conditions. It offers a tensile strength of up to 150 ksi, yield strength of 70
+                                    ksi, and elongation of around 50%. With excellent resistance to oxidation and
+                                    carburization up to 2000°F (1093°C), combined with good thermal fatigue resistance,
+                                    fabricability, and weldability, this alloy provides long-lasting performance in
+                                    demanding applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Which industries commonly use Haynes 188 products?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Haynes 188 is widely used in aerospace for gas turbine components such as combustion
+                                    chambers, hot section parts, and turbine blades, in industrial furnaces for
+                                    heat-treating equipment, in chemical processing for reactors and heat exchangers
+                                    handling corrosive media, and in power generation for steam turbine and boiler parts. It
+                                    is also applied in environmental control equipment such as incinerators and flue gas
+                                    treatment systems due to its ability to withstand aggressive thermal and chemical
+                                    conditions.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What types of Haynes 188 products are available from MOKSH TUBES & FITTINGS LLP?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP supplies a complete range of Haynes 188 products including
+                                    seamless and welded pipes, tubes, sheets, plates, coils, bars, flanges, pipe fittings,
+                                    fasteners, welding rods, wire mesh, and custom fabricated components. All materials are
+                                    produced according to ASTM, ASME, and other international standards, ensuring superior
+                                    quality, consistency, and performance for critical industrial applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for Haynes 188 materials?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP is a trusted manufacturer and global supplier of cobalt based
+                                    superalloys like Haynes 188, offering expertise, strict quality assurance, and a robust
+                                    supply chain. With a focus on custom manufacturing, technical support, and timely
+                                    delivery, the company ensures clients receive high performance materials that meet
+                                    industry standards and project requirements, making it a reliable partner for industries
+                                    operating in extreme environments.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
+
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">

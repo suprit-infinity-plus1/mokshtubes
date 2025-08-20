@@ -1,8 +1,10 @@
 @extends('layouts.master')
 
 @section('title', 'Stellite | Superior Hardness & Wear Resistance')
-@section('meta_description', 'Stellite offers exceptional hardness, wear resistance, and corrosion protection, ideal for cutting tools, valves, industrial machinery, and high-stress applications.')
-@section('meta_keywords', 'Stellite alloy, high hardness alloy, wear resistant alloy, corrosion resistant alloy, cutting tools alloy, valves alloy, industrial machinery alloy, durable Stellite')
+@section('meta_description', 'Stellite offers exceptional hardness, wear resistance, and corrosion protection, ideal for
+    cutting tools, valves, industrial machinery, and high-stress applications.')
+@section('meta_keywords', 'Stellite alloy, high hardness alloy, wear resistant alloy, corrosion resistant alloy, cutting
+    tools alloy, valves alloy, industrial machinery alloy, durable Stellite')
 
 
 @section('content')
@@ -40,7 +42,8 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted manufacturer,
+                            <strong class="text-black"> <a href="{{ route('index') }}">MOKSH TUBES & FITTINGS
+                                    LLP</a></strong> is a trusted manufacturer,
                             supplier, exporter, importer, and stockist of<strong class="text-black"> Stellite
                                 Alloys</strong> in a variety of forms including
                             Rods, Bars, <a href="{{ route('products.pipes-tubes') }}">Tubes</a>, Welding Wires, Electrodes,
@@ -48,8 +51,7 @@
                             order. We specialize in Stellite 6, Stellite 12, Stellite 21, and other grades used for
                             wear-resistant and high-temperature
                         </p>
-                        <p> <strong class="text-black"><a
-                                    href="{{ route('materials.hard-To-Find-And-Special-Alloys') }}">Stellite</strong> is a
+                        <p> <strong class="text-black">Stellite</strong> is a
                             family of cobalt-chromium-based superalloys
                             engineered to resist wear, corrosion, and high-temperature degradation. Originally developed for
                             cutting tools, Stellite alloys have become indispensable in industries requiring reliable
@@ -462,6 +464,94 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Stellite and why is it used?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Stellite is a cobalt-chromium superalloy designed for extreme wear, corrosion, and
+                                    high temperature resistance, making it ideal for aerospace, oil & gas, power generation,
+                                    and cutting tool applications.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Which forms of Stellite products are available?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Stellite is supplied as seamless and welded pipes, tubes, sheets, plates, coils, strips,
+                                    round/flat/hex/square bars, pipe fittings, flanges, fasteners, welding wires,
+                                    electrodes, and custom fabricated components.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the key advantages of Stellite?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Stellite offers excellent wear and galling resistance, maintains hardness at high
+                                    temperatures, resists corrosion and oxidation, is non magnetic, and is available in both
+                                    cast and wrought forms.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>In which industries is Stellite commonly used?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Stellite is widely used in aerospace (turbine blades, vanes), valve and pump components,
+                                    oil & gas and petrochemical equipment, power generation (boilers, turbines), medical and
+                                    dental tools, and cutting tools and dies.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS for Stellite alloys?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    We provide specialized hard-to-find Stellite alloys, high-quality cobalt-based stock,
+                                    custom fabrication and welding services, in-house quality control, metallurgical
+                                    testing, fast delivery, and global export capabilities.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

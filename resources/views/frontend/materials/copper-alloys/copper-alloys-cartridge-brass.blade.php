@@ -1,8 +1,12 @@
 @extends('layouts.master')
 
 @section('title', 'Cartridge Brass Alloy | Reliable & Corrosion Resistant')
-@section('meta_description', 'Cartridge Brass with excellent machinability and corrosion resistance for general engineering applications.')
-@section('meta_keywords', 'Cartridge Brass, C26000 brass, corrosion resistant brass, machinable brass alloy, general engineering brass, durable brass alloy')
+@section('meta_description',
+    'Cartridge Brass with excellent machinability and corrosion resistance for general
+    engineering applications.')
+@section('meta_keywords',
+    'Cartridge Brass, C26000 brass, corrosion resistant brass, machinable brass alloy, general
+    engineering brass, durable brass alloy')
 
 
 
@@ -467,6 +471,120 @@
             </div>
         </div>
     </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Cartridge Brass C26000 and why is it called 70/30 Brass?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Cartridge Brass C26000, also known as 70/30 Brass, is a copper zinc alloy containing
+                                    approximately
+                                    70% copper and 30% zinc. It is recognized for its excellent cold workability, high
+                                    ductility,
+                                    attractive golden-yellow color, and strong corrosion resistance. The name “Cartridge
+                                    Brass” comes
+                                    from its traditional use in ammunition cases and bullet jackets due to its superior
+                                    formability
+                                    and strength.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the main benefits of using C26000 Cartridge Brass?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <ul>
+                                    <li>Outstanding cold working properties</li>
+                                    <li>Excellent corrosion resistance in different environments</li>
+                                    <li>Bright decorative finish for functional and aesthetic applications</li>
+                                    <li>Good strength with moderate electrical and thermal conductivity</li>
+                                    <li>Easily soldered, brazed, or machined</li>
+                                    <li>Versatile choice for multiple industries</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Where is Cartridge Brass C26000 commonly used?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <ul>
+                                    <li>Ammunition manufacturing cartridge cases and bullet jackets</li>
+                                    <li>Architecture & Decoration door handles, trim, railings, nameplates</li>
+                                    <li>Plumbing & HVAC valves, fittings, radiators</li>
+                                    <li>Electrical & Electronics connectors and terminals</li>
+                                    <li>Musical instruments trumpets, saxophones</li>
+                                    <li>Industrial equipment heat exchangers, condenser tubes, radiator cores</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What Cartridge Brass C26000 products does MOKSH TUBES & FITTINGS LLP supply?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <ul>
+                                    <li>Seamless and Welded Pipes</li>
+                                    <li>Tubes</li>
+                                    <li>Sheets, Plates, Coils, Strips</li>
+                                    <li>Round Bars, Hex Bars, Square Bars, Flats</li>
+                                    <li>Pipe Fittings</li>
+                                    <li>Flanges</li>
+                                    <li>Fasteners</li>
+                                    <li>Custom Fabricated Components</li>
+                                </ul>
+                                <p>
+                                    All products are manufactured in compliance with international quality standards to meet
+                                    diverse
+                                    industrial, architectural, and engineering requirements.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for Cartridge Brass C26000 materials?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <ul>
+                                    <li>Trusted manufacturer, exporter, importer, and stockist with over a decade of
+                                        expertise</li>
+                                    <li>High precision processing with tailored dimensions and finishes</li>
+                                    <li>Rapid delivery and global logistics support</li>
+                                    <li>Strict adherence to ASTM and international standards</li>
+                                    <li>Competitive pricing with reliable sourcing</li>
+                                    <li>Ensures quality and consistency for every order worldwide</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
