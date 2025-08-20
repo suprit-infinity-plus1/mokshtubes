@@ -303,7 +303,7 @@
                                         <div class="row">
                                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                                 <div class="accordion-box">
-                                                    <div class="blog-title text-center">
+                                                    <div class="blog-title text-ceanter">
                                                         <h2>FAQ's</h2>
                                                     </div>
                                                     <!--Start single accordion box-->
@@ -403,11 +403,12 @@
                                         </div>
                                     </div>
                                 </section>
+
+
                             </div>
                         </div>
                     </div>
                 </div>
-
                 <!--Start sidebar Wrapper-->
                 <div class="col-lg-3 col-md-4 col-sm-7 col-xs-12">
                     <div class="sidebar-wrapper">
@@ -455,7 +456,7 @@
                             <ul class="recent-post">
                                 <li>
                                     <div class="img-holder">
-                                        <img src="{{ asset('assets/images/blog/thumb1.png') }}" alt="Awesome Image">
+                                        <img src="images/blog/thumb1.png" alt="Awesome Image">
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
@@ -480,7 +481,7 @@
                                 </li>
                                 <li>
                                     <div class="img-holder">
-                                        <img src="{{ asset('assets/images/blog/thumb2.png') }}" alt="Awesome Image">
+                                        <img src="images/blog/thumb2.png" alt="Awesome Image">
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
@@ -505,7 +506,7 @@
                                 </li>
                                 <li>
                                     <div class="img-holder">
-                                        <img src="{{ asset('assets/images/blog/thumb3.png') }}" alt="Awesome Image">
+                                        <img src="images/blog/thumb3.png" alt="Awesome Image">
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
@@ -532,51 +533,68 @@
                         </div>
                         <!--End single sidebar-->
 
+                        {{-- contact form start --}}
                         <section class="contact-form-area sec-padd-top">
-                            <div class="single-sidebar overflow-visible" style="position: relative;">
-                                <div class="contact-form" style="position: sticky; top: 20px;">
-                                    <div class="section-title">
-                                        <h2>get in <span class="thm-color">touch</span></h2>
-                                        <p>Let’s forge a connection — contact our team today.</p>
-                                    </div>
+                            <div class="container">
+                                <div class="section-title">
+                                    <h2>get in <span class="thm-color">touch</span></h2>
+                                    <p>Let’s forge a connection — contact our team today. </p>
+                                </div>
 
-                                    <form id="contact-form" name="contact_form" class="default-form"
-                                        action="inc/sendmail.php" method="post">
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <input class="m-1" type="text" name="form_name" placeholder="Your Name*"
-                                                    required="">
-                                            </div>
-                                            <div class="col-md-12">
-                                                <input class="m-1" type="email" name="form_email" placeholder="Your Mail*"
-                                                    required="">
-                                            </div>
-                                            <div class="col-md-12">
-                                                <input class="m-1" type="text" name="form_phone" placeholder="Phone">
-                                            </div>
-                                            <div class="col-md-12">
-                                                <input class="m-1" type="text" name="form_subject" placeholder="Subject">
-                                            </div>
-                                            <div class="col-md-12">
-                                                <textarea name="form_message" placeholder="Your Message.." required=""></textarea>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <input id="form_botcheck" name="form_botcheck" type="hidden"
-                                                    value="">
-                                                <button class="thm-btn bg-clr1" type="submit"
-                                                    data-loading-text="Please wait...">
-                                                    send message
-                                                </button>
-                                            </div>
+                                <div class="row">
+
+                                    <div class="col-md-8">
+
+                                        <div class="contact-form">
+                                            <form id="contact-form" name="contact_form" class="default-form"
+                                                action="inc/sendmail.php" method="post">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <input type="text" name="form_name" value=""
+                                                            placeholder="Your Name*" required="">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <input type="email" name="form_email" value=""
+                                                            placeholder="Your Mail*" required="">
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <input type="text" name="form_phone" value=""
+                                                            placeholder="Phone">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <input type="text" name="form_subject" value=""
+                                                            placeholder="Subject">
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <textarea name="form_message" placeholder="Your Message.." required=""></textarea>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <input id="form_botcheck" name="form_botcheck"
+                                                            class="form-control" type="hidden" value="">
+                                                        <button class="thm-btn bg-clr1" type="submit"
+                                                            data-loading-text="Please wait...">send
+                                                            message</button>
+                                                    </div>
+                                                </div>
+                                            </form>
                                         </div>
-                                    </form>
+                                    </div>
                                 </div>
                             </div>
                         </section>
-                        <!--End Sidebar Wrapper-->
+                        {{-- contact form end --}}
+
                     </div>
                 </div>
-
+                <!--End Sidebar Wrapper-->
+            </div>
+        </div>
     </section>
     <section class="pt-4 mb-5 col-12">
         <div class="container">
