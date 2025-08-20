@@ -532,6 +532,8 @@
                             </ul>
                         </div>
                         <!--End single sidebar-->
+                        {{-- Start contant form --}}
+
                         <section class="blog-contact-form">
                             <div class="section-title">
                                 <h2>get in <span class="thm-color">touch</span></h2>
@@ -556,11 +558,11 @@
                                         <input class="m-1" type="text" name="form_subject" placeholder="Subject">
                                     </div>
                                     <div class="col-md-12">
-                                        <textarea name="form_message" placeholder="Your Message.." required=""></textarea>
+                                        <textarea name="form_message" class="m-1" placeholder="Your Message.." required=""></textarea>
                                     </div>
                                     <div class="col-md-12">
                                         <input id="form_botcheck" name="form_botcheck" type="hidden" value="">
-                                        <button class="thm-btn bg-clr1" type="submit"
+                                        <button class="thm-btn bg-clr1 m-1" type="submit"
                                             data-loading-text="Please wait...">
                                             send message
                                         </button>
@@ -568,6 +570,7 @@
                                 </div>
                             </form>
                         </section>
+                        {{-- End contant form --}}
                     </div>
                 </div>
                 <!--End Sidebar Wrapper-->

@@ -2329,8 +2329,22 @@ textarea {
 .sidebar-wrapper .blog-contact-form {
     position: sticky;
     position: -webkit-sticky;
-    top: 120px;
+    top: 80px;
     /* z-index: 1; */
+}
+
+.sidebar-wrapper .blog-contact-form input[type="text"],
+.sidebar-wrapper .blog-contact-form input[type="email"],
+.sidebar-wrapper .blog-contact-form textarea {
+    border: 1px solid #f4f4f4;
+    color: #999;
+    display: block;
+    font-size: 16px;
+    height: 55px;
+    margin-bottom: 30px;
+    padding: 0 20px;
+    width: 100%;
+    transition: all 500ms ease;
 }
 
 .sidebar-wrapper .single-sidebar {
