@@ -19,8 +19,8 @@
     {{-- <meta name="title" content="@yield('meta_title')">
     <meta name="description" content="@yield('meta_description')">
     <meta name="keyword" content="@yield('meta_keyword')"> --}}
-    <link rel="canonical" href="@yield('canonical')">
-    <title>@yield('title')</title>
+    {{-- <link rel="canonical" href="@yield('canonical')">
+    <title>@yield('title')</title> --}}
 
     <!-- responsive meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1">

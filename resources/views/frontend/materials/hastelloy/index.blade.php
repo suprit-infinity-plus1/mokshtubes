@@ -37,7 +37,7 @@
                     ['name' => 'Hastelloy C2000', 'slug' => 'hastelloy-c2000', 'image' => 'assets/images/hastelloy/hastelloy-c2000.webp'],
                     ['name' => 'Hastelloy G3', 'slug' => 'hastelloy-g3', 'image' => 'assets/images/hastelloy/hastelloy-G3.webp'],
                     ['name' => 'Hastelloy G30', 'slug' => 'hastelloy-g30', 'image' => 'assets/images/hastelloy/Hastelloy-G30.webp'],
-                    ['name' => 'Hastelloy X', 'slug' => 'hastelloy-x', 'image' => 'assets/images/hastelloy/hastelloy-X.webp'],
+                    ['name' => 'Hastelloy X', 'slug' => 'hastelloy-x', 'image' => 'assets/images/hastelloy/hastelloy-x.webp'],
                 ];
             @endphp
 
