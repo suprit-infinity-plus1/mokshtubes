@@ -410,9 +410,9 @@
 
                 <!--Start sidebar Wrapper-->
                 <div class="col-lg-3 col-md-4 col-sm-7 col-xs-12">
-                    <div class="sidebar-wrapper">
+                    <div class="sidebar-wrapper black-box">
                         <!--Start single sidebar-->
-                        <div class="single-sidebar">
+                        <div class="single-sidebar pink-box">
                             <div class="sec-title">
                                 <h3>Categories</h3>
                                 <span class="border"></span>
@@ -447,7 +447,7 @@
                         </div>
                         <!--End single sidebar-->
                         <!--Start single sidebar-->
-                        <div class="single-sidebar">
+                        <div class="single-sidebar pink-box">
                             <div class="sec-title">
                                 <h3>Recent News</h3>
                                 <span class="border"></span>
@@ -531,49 +531,42 @@
                             </ul>
                         </div>
                         <!--End single sidebar-->
-
-                        <section class="contact-form-area sec-padd-top">
-                            <div class="single-sidebar overflow-visible" style="position: relative;">
-                                <div class="contact-form" style="position: sticky; top: 20px;">
-                                    <div class="section-title">
-                                        <h2>get in <span class="thm-color">touch</span></h2>
-                                        <p>Let’s forge a connection — contact our team today.</p>
-                                    </div>
-
-                                    <form id="contact-form" name="contact_form" class="default-form"
-                                        action="inc/sendmail.php" method="post">
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <input class="m-1" type="text" name="form_name" placeholder="Your Name*"
-                                                    required="">
-                                            </div>
-                                            <div class="col-md-12">
-                                                <input class="m-1" type="email" name="form_email" placeholder="Your Mail*"
-                                                    required="">
-                                            </div>
-                                            <div class="col-md-12">
-                                                <input class="m-1" type="text" name="form_phone" placeholder="Phone">
-                                            </div>
-                                            <div class="col-md-12">
-                                                <input class="m-1" type="text" name="form_subject" placeholder="Subject">
-                                            </div>
-                                            <div class="col-md-12">
-                                                <textarea name="form_message" placeholder="Your Message.." required=""></textarea>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <input id="form_botcheck" name="form_botcheck" type="hidden"
-                                                    value="">
-                                                <button class="thm-btn bg-clr1" type="submit"
-                                                    data-loading-text="Please wait...">
-                                                    send message
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
+                        <section class="blog-contact-form">
+                            <div class="section-title">
+                                <h2>get in <span class="thm-color">touch</span></h2>
+                                <p>Let’s forge a connection — contact our team today.</p>
                             </div>
+
+                            <form id="contact-form" name="contact_form" class="default-form" action="inc/sendmail.php"
+                                method="post">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input class="m-1" type="text" name="form_name" placeholder="Your Name*"
+                                            required="">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input class="m-1" type="email" name="form_email" placeholder="Your Mail*"
+                                            required="">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input class="m-1" type="text" name="form_phone" placeholder="Phone">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input class="m-1" type="text" name="form_subject" placeholder="Subject">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <textarea name="form_message" placeholder="Your Message.." required=""></textarea>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input id="form_botcheck" name="form_botcheck" type="hidden" value="">
+                                        <button class="thm-btn bg-clr1" type="submit"
+                                            data-loading-text="Please wait...">
+                                            send message
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
                         </section>
-                        <!--End Sidebar Wrapper-->
                     </div>
                 </div>
 
