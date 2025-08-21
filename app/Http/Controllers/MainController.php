@@ -76,6 +76,11 @@ class MainController extends Controller
 
         return view('frontend.blogs.top-7-advantages-of-using');
     }
+    public function weldedVsSeamless()
+    {
+
+        return view('frontend.blogs.welded-vs-seamless');
+    }
 
 
 

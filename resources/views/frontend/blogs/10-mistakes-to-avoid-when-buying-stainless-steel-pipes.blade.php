@@ -688,22 +688,6 @@
                                         </p>
                                     </div>
                                 </div>
-                                <section class="pt-4">
-                                    <div class="container">
-                                        <div class="contact-cta-box">
-                                            <h2>Contact Us</h2>
-                                            <p>
-                                                AT<strong> Moksh Tubes & Fittings LLP</strong>, we’re dedicated to making
-                                                your purchases seamless offering expert advice, a wide inventory of
-                                                certified products, and global support for every order, large or small.
-                                            </p>
-                                            <!-- Call button -->
-                                            <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
-                                        </div>
-                                    </div>
-                                </section>
-
-
                             </div>
                         </div>
                     </div>
@@ -715,7 +699,6 @@
                         <div class="single-sidebar">
                             <div class="sec-title">
                                 <h3>Categories</h3>
-                                <span class="border"></span>
                             </div>
                             <ul class="categories clearfix">
                                 <li>
@@ -750,7 +733,6 @@
                         <div class="single-sidebar">
                             <div class="sec-title">
                                 <h3>Recent Blogs</h3>
-                                <span class="border"></span>
                             </div>
                             <ul class="recent-post">
                                 <li>
@@ -832,9 +814,62 @@
                         </div>
                         <!--End single sidebar-->
 
+                        {{-- Start contant form --}}
+                        <section class="blog-contact-form">
+                            <div class="section-title">
+                                <h2>get in <span class="thm-color">touch</span></h2>
+                                <p>Let’s forge a connection — contact our team today.</p>
+                            </div>
+
+                            <form id="contact-form" name="contact_form" class="default-form" action="inc/sendmail.php"
+                                method="post">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <input class="m-1" type="text" name="form_name" placeholder="Your Name*"
+                                            required="">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input class="m-1" type="email" name="form_email" placeholder="Your Mail*"
+                                            required="">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input class="m-1" type="text" name="form_phone" placeholder="Phone">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input class="m-1" type="text" name="form_subject" placeholder="Subject">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <textarea name="form_message" class="m-1" placeholder="Your Message.." required=""></textarea>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input id="form_botcheck" name="form_botcheck" type="hidden" value="">
+                                        <button class="thm-btn bg-clr1 m-1" type="submit"
+                                            data-loading-text="Please wait...">
+                                            send message
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </section>
+                        {{-- End contant form --}}
+
                     </div>
                 </div>
                 <!--End Sidebar Wrapper-->
+            </div>
+        </div>
+    </section>
+    <section class="pt-4 mb-5 col-12">
+        <div class="container">
+            <div class="contact-cta-box">
+                <h2>Contact Us</h2>
+                <p>
+                    AT<strong> Moksh Tubes & Fittings LLP</strong>, we’re dedicated to making
+                    your purchases seamless offering expert advice, a wide inventory of
+                    certified products, and global support for every order, large or small.
+                </p>
+                <!-- Call button -->
+                <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
             </div>
         </div>
     </section>

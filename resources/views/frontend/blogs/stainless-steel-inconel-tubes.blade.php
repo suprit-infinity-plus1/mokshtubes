@@ -416,7 +416,6 @@
                         <div class="single-sidebar pink-box">
                             <div class="sec-title">
                                 <h3>Categories</h3>
-                                <span class="border"></span>
                             </div>
                             <ul class="categories clearfix">
                                 <li>
@@ -450,8 +449,7 @@
                         <!--Start single sidebar-->
                         <div class="single-sidebar pink-box">
                             <div class="sec-title">
-                                <h3>Recent News</h3>
-                                <span class="border"></span>
+                                <h3>Recent Blog</h3>
                             </div>
                             <ul class="recent-post">
                                 <li>
@@ -532,8 +530,8 @@
                             </ul>
                         </div>
                         <!--End single sidebar-->
-                        {{-- Start contant form --}}
 
+                        {{-- Start contant form --}}
                         <section class="blog-contact-form">
                             <div class="section-title">
                                 <h2>get in <span class="thm-color">touch</span></h2>
@@ -571,6 +569,7 @@
                             </form>
                         </section>
                         {{-- End contant form --}}
+
                     </div>
                 </div>
                 <!--End Sidebar Wrapper-->

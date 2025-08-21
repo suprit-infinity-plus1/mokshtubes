@@ -246,16 +246,57 @@
 
     @php
         $products = [
-            'seamless-pipes' => 'Seamless Pipes',
-            'welded-pipes' => 'Welded Pipes (ERW & EFW)',
-            'tubes' => 'Tubes (Capillary, U-Bend, Boiler & Heat Exchanger Tubes)',
-            'sheets-plates' => 'Sheets & Plates',
-            'coils-strips' => 'Coils & Strips',
-            'bars' => 'Round Bars, Flat Bars, Hex Bars, Square Bars',
-            'pipe-fittings' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
-            'flanges' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
-            'fasteners' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
-            'custom-components' => 'Custom Fabricated Components',
+            [
+                'name' => 'Seamless Pipes',
+                'route' => 'products.pipes-tubes.seamless-pipes',
+                'image' => 'assets/images/all product/seamless-pipes-10.jpg',
+            ],
+
+            [
+                'name' => 'Welded Pipes (ERW & EFW)',
+                'route' => 'products.pipes-tubes.welded-pipes',
+                'image' => 'assets/images/all product/welded-pipes-tubes-1.jpg',
+            ],
+            [
+                'name' => 'Tubes (Capillary, U-Bend)',
+                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'image' => 'assets/images/all product/11zon_resized.jpg',
+            ],
+            [
+                'name' => 'Sheets & Plates',
+                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'image' => 'assets/images/all product/sheets-plates.jpg',
+            ],
+            [
+                'name' => 'Coils & Strips',
+                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.webp',
+            ],
+            [
+                'name' => 'Round Bars, Flat Bars, Hex Bars, Square Bars',
+                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
+            ],
+            [
+                'name' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
+                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
+            ],
+            [
+                'name' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
+                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
+            ],
+            [
+                'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
+                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'image' => 'assets/images/all product/FASTENERS-1.png',
+            ],
+            [
+                'name' => 'Custom Fabricated Components',
+                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'image' => 'assets/images/all product/custom-metal-fabricated.jpg',
+            ],
         ];
     @endphp
 
@@ -281,10 +322,11 @@
                 <div class="col-lg-10">
                     <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color: #db7227;">
                         <div class="row">
-                            @foreach ($products as $slug => $product)
+                            {{-- @foreach ($products as $slug => $product) --}}
+                            @foreach ($products as $product)
                                 <div class="col-12 col-sm-6 mb-2 d-flex justify-content-start align-items-start">
                                     <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span>
-                                    <span>{{ $product }}</span>
+                                    <span>{{ $product['name'] }}</span>
                                 </div>
                             @endforeach
                         </div>
@@ -303,15 +345,14 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                @foreach ($products as $slug => $product)
+                 @foreach ($products as $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
-                            <a href="#" class="text-decoration-none">
+                            <a href="{{ route($product['route']) }}" class="text-decoration-none">
                                 <div class="product-card h-100">
-                                    <img src="https://placehold.co/300x200?" alt="{{ $product }}"
+                                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
                                         class="img-fluid  w-100">
-                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product }}</h6>
+                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product['name'] }}</h6>
                                 </div>
                             </a>
                         </div>
