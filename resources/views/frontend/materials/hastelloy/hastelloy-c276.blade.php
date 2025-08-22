@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Hastelloy C276 | Ultimate Corrosion-Proof Nickel Alloy')
-@section('meta_description', 'Buy Hastelloy C276 pipes, tubes & fittings with top corrosion resistance, strength, and
+@section('meta_description',
+    'Buy Hastelloy C276 pipes, tubes & fittings with top corrosion resistance, strength, and
     durability for harsh industrial environments.')
-@section('meta_keywords', 'Hastelloy C276, Corrosion Resistant Alloy, Nickel Alloy, Hastelloy C276 Pipes, Hastelloy C276
+@section('meta_keywords',
+    'Hastelloy C276, Corrosion Resistant Alloy, Nickel Alloy, Hastelloy C276 Pipes, Hastelloy C276
     Tubes, Hastelloy C276 Fittings, Industrial Corrosion Resistant Alloys, Durable Nickel Alloys, Chemical Processing
     Alloys, Marine Alloys')
 
@@ -42,31 +44,27 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a manufacturer, supplier,
-                            exporter, importer and stockist of a variety
-                            of HASTELLOY C-276 (UNS N10276) <a href="{{ route('products') }}">products</a> such as <a
-                                href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings, Flanges,
-                            Fasteners,
-                            Sheets & Plates, Coils, Wires, Round Bars, Flat Bars, Angles, Channels, Welding rods, Wire Mesh,
-                            and
-                            other Custom and Hard to Find <strong class="text-black">HASTELLOY C276</strong> Products.
+                            <strong class="text-black">Hastelloy C276 (UNS N10276)</strong> is a high performance <strong
+                                class="text-black">nickel alloy</strong> designed to offer excellent
+                            resistance in some of the most corrosive environments. <a href="{{ route('index') }}">MOKSH
+                                TUBES & FITTINGS LLP</a> is a trusted
+                            supplier, exporter, importer, and stockist of a wide range of Hastelloy C276 <a
+                                href="{{ route('products') }}">products</a>, including
+                            pipes, tubes, pipe fittings, flanges, fasteners, sheets, plates, coils, wires, round bars, and
+                            custom alloy components.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">HASTELLOY C276</strong class="text-black"> is a
-                            nickel-chromium-molybdenum alloy designed to minimize welding challenges due to
-                            its low silicon and carbon content. Like other <a
-                                href="{{ route('materials.nickel-Based-Superalloys') }}">nickel alloys</a>, <strong
-                                class="text-black">HASTELLOY C-276</strong> is highly ductile,
-                            easy to form and weld, and provides excellent resistance to stress corrosion cracking in
-                            chloride-rich solutions (a common issue with austenitic stainless steels). Its high chromium and
-                            molybdenum content make it highly resistant to both oxidizing and non-oxidizing acids.
-                            Additionally,
-                            it offers exceptional defense against pitting and crevice corrosion in the presence of chlorides
-                            and
-                            halides. The alloy is also highly resistant to sulfide stress cracking and stress corrosion in
-                            sour
-                            oilfield environments.
+                            <strong class="text-black">Hastelloy C276</strong> is a nickel chromium molybdenum alloy, highly
+                            resistant to both oxidizing and
+                            non oxidizing acids, and provides superior defense against stress corrosion cracking and pitting
+                            in chloride rich solutions. Its high chromium and molybdenum content make it an ideal choice for
+                            applications requiring exceptional metal durability.
+                        </p>
+                        <p class="fs-6" style="text-align: justify;">
+                            <strong class="text-black">Hastelloy C276</strong> is also highly ductile, easy
+                            to form and weld, and designed to minimize welding challenges, making it a versatile choice for
+                            industries handling aggressive chemicals and extreme temperatures.
                         </p>
                     </div>
                 </div>
@@ -239,16 +237,57 @@
 
     @php
         $products = [
-            'seamless-pipes' => 'Seamless Pipes',
-            'welded-pipes' => 'Welded Pipes (ERW & EFW)',
-            'tubes' => 'Tubes (Capillary, U-Bend, Boiler & Heat Exchanger Tubes)',
-            'sheets-plates' => 'Sheets & Plates',
-            'coils-strips' => 'Coils & Strips',
-            'bars' => 'Round Bars, Flat Bars, Hex Bars, Square Bars',
-            'pipe-fittings' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
-            'flanges' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
-            'fasteners' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
-            'custom-components' => 'Custom Fabricated Components',
+            [
+                'name' => 'Seamless Pipes',
+                'route' => 'products.pipes-tubes.seamless-pipes',
+                'image' => 'assets/images/all product/seamless-pipes-10.jpg',
+            ],
+
+            [
+                'name' => 'Welded Pipes (ERW & EFW)',
+                'route' => 'products.pipes-tubes.welded-pipes',
+                'image' => 'assets/images/all product/welded-pipes-tubes-1.jpg',
+            ],
+            [
+                'name' => 'Tubes (Capillary, U-Bend)',
+                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'image' => 'assets/images/all product/11zon_resized.jpg',
+            ],
+            [
+                'name' => 'Sheets & Plates',
+                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'image' => 'assets/images/all product/sheets-plates.jpg',
+            ],
+            [
+                'name' => 'Coils & Strips',
+                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.webp',
+            ],
+            [
+                'name' => 'Round Bars, Flat Bars, Hex Bars, Square Bars',
+                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
+            ],
+            [
+                'name' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
+                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
+            ],
+            [
+                'name' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
+                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
+            ],
+            [
+                'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
+                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'image' => 'assets/images/all product/FASTENERS-1.png',
+            ],
+            [
+                'name' => 'Custom Fabricated Components',
+                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'image' => 'assets/images/all product/custom-metal-fabricated.jpg',
+            ],
         ];
     @endphp
 
@@ -282,10 +321,11 @@
                 <div class="col-lg-10">
                     <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color: #db7227;">
                         <div class="row">
-                            @foreach ($products as $slug => $product)
+                            {{-- @foreach ($products as $slug => $product) --}}
+                            @foreach ($products as $product)
                                 <div class="col-12 col-sm-6 mb-2 d-flex justify-content-start align-items-start">
                                     <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span>
-                                    <span>{{ $product }}</span>
+                                    <span>{{ $product['name'] }}</span>
                                 </div>
                             @endforeach
                         </div>
@@ -304,15 +344,14 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                @foreach ($products as $slug => $product)
+                @foreach ($products as $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
-                            <a href="#" class="text-decoration-none">
+                            <a href="{{ route($product['route']) }}" class="text-decoration-none">
                                 <div class="product-card h-100">
-                                    <img src="https://placehold.co/300x200?" alt="{{ $product }}"
+                                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
                                         class="img-fluid  w-100">
-                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product }}</h6>
+                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product['name'] }}</h6>
                                 </div>
                             </a>
                         </div>
@@ -373,11 +412,8 @@
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Hastelloy C276</h2>
-                <p class="text-center pb-3"><strong class="text-dark">HASTELLOY C-276</strong> is a versatile alloy
-                    extensively
-                    used across industries where exceptional corrosion resistance and mechanical strength are critical. Its
-                    ability to withstand aggressive chemical environments, including strong oxidizers, reducing agents, and
-                    chlorides, makes it ideal for the following applications:
+                <p class="text-center pb-3"><strong class="text-dark">HASTELLOY C-276</strong> is widely used in
+                    industries where exceptional corrosion resistance and mechanical strength are critical:
                 </p>
             </div>
 

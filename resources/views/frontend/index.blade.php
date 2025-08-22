@@ -249,7 +249,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="/assets/images/service/WELDED-PIPES.jpg"alt="Awesome Image">
+                                <img class="w-100" src="/assets/images/service/WELDED-PIPES.webp"alt="Awesome Image">
                             </a>
                         </figure>
                         <div class="p-3">
@@ -267,7 +267,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="/assets/images/service/SEAMLESS-PIPES.jpg" alt="Awesome Image">
+                                <img class="w-100" src="/assets/images/service/SEAMLESS-PIPES.webp" alt="Awesome Image">
                             </a>
                         </figure>
                         <div class="p-3">
@@ -285,7 +285,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="/assets/images/service/SHEETS-PLATES.jpg" alt="Awesome Image">
+                                <img class="w-100" src="/assets/images/service/SHEETS-PLATES.webp" alt="Awesome Image">
                             </a>
                         </figure>
                         <div class="p-3">
@@ -342,7 +342,7 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="##">
                                 {{-- <img class="w-100" src="{{ asset('assets/images/service/6.jpg') }}" alt="Awesome Image"> --}}
-                                <img class="w-100" src="/assets/images/service/FASTENERS-1.jpg" alt="Awesome Image">
+                                <img class="w-100" src="/assets/images/service/FASTENERS-1.webp" alt="Awesome Image">
                             </a>
                         </figure>
                         <div class="p-3">

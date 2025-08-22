@@ -55,6 +55,7 @@ Route::get('/blogs/everything-you-need-to-know-about-welded-and-seamless-pipes',
 Route::get('/blogs/india’s-stainless-steel-export-industry', [MainController::class, 'india’sStainlessSteelExportIndustry'])->name('blogs.india’s-stainless-steel-export-industry');
 Route::get('/blogs/the-role-of-high-performance', [MainController::class, 'theRoleOfHighPerformance'])->name('blogs.the-role-of-high-performance');
 Route::get('/blogs/top-7-advantages-of-using', [MainController::class, 'topSevenAdvantagesOfUsing'])->name('blogs.top-7-advantages-of-using');
+Route::get('/blogs/welded-vs-seamless', [MainController::class, 'weldedVsSeamless'])->name('blogs.welded-vs-seamless');
 
 
 // Route::get('/materials/nickel-alloys', [MainController::class, 'nickelAlloys'])->name('materials.nickel-alloys');

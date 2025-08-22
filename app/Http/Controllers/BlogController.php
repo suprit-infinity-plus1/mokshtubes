@@ -73,6 +73,15 @@ class BlogController extends Controller
                 'excerpt' => 'Stainless steel 316L has earned its reputation as a go-to material for industrial',
                 'link' => route('blogs.top-7-advantages-of-using')
             ],
+            [
+                'title' => 'Stainless Steel Pipes: Welded vs Seamless ',
+                'author' => 'Jash Jain',
+                'comments' => 16,
+                'date' => 'august 14, 2025',
+                'image' => 'assets/images/blog/everything-you-need-to-know-about-welded-and-seamless-pipes.webp',
+                'excerpt' => 'Choosing the right stainless steel pipes can make or break your industrial project.',
+                'link' => route('blogs.welded-vs-seamless')
+            ],
 
 
         ]);
