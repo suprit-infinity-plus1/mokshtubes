@@ -103,9 +103,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Thickness, t</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" id="sheetThickness"
-                                                    value="1" placeholder="e.g. 1"
-                                                    oninput="calculateSteelSheetWeight()" />
+                                                <input type="number" class="form-control me-2" id="sheetThickness1"
+                                                    value="1" placeholder="e.g. 1" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -116,9 +115,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Width, W</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" id="sheetWidth"
-                                                    value="1000" placeholder="e.g. 1000"
-                                                    oninput="calculateSteelSheetWeight()" />
+                                                <input type="number" class="form-control me-2" id="sheetWidth1"
+                                                    value="1000" placeholder="e.g. 1000" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -129,9 +127,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" id="sheetLength"
-                                                    value="2000" placeholder="e.g. 2000"
-                                                    oninput="calculateSteelSheetWeight()" />
+                                                <input type="number" class="form-control me-2" id="sheetLength1"
+                                                    value="2000" placeholder="e.g. 2000" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -143,9 +140,8 @@
                                             <label class="form-label mb-0 me-3" style="width: 120px;">No. of
                                                 pieces</label>
                                             <div class="flex-grow-1">
-                                                <input type="number" class="form-control" id="sheetPieces"
-                                                    value="1" placeholder="e.g. 1"
-                                                    oninput="calculateSteelSheetWeight()" />
+                                                <input type="number" class="form-control" id="sheetPieces1"
+                                                    value="1" placeholder="e.g. 1" />
                                             </div>
                                         </div>
                                     </div>
@@ -154,20 +150,20 @@
                                 <!-- Result -->
                                 <div class="mt-2">
                                     <h6><strong>Result</strong></h6>
-                                    <p>Single piece weight: <strong id="sheetSingleWeight" class="text-primary">15.7
+                                    <p>Single piece weight: <strong id="sheetSingleWeight1" class="text-primary">0
                                             kg</strong></p>
-                                    <p>Total weight: <strong id="sheetTotalWeight" class="text-primary">15.7 kg</strong>
-                                    </p>
+                                    <p>Total weight: <strong id="sheetTotalWeight1" class="text-primary">0 kg</strong></p>
                                 </div>
                             </div>
 
                             <!-- Right: Image -->
                             <div class="col-lg-6 d-flex align-items-center">
                                 <img src="https://placehold.co/200x200" class="img-fluid rounded border w-100"
-                                    alt="Placeholder Image">
+                                    alt="Steel Sheet Image">
                             </div>
                         </div>
                     </div>
+
 
 
                     {{-- Seamless steel pipes - circular --}}
@@ -185,9 +181,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Diameter, D</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" id="pipeDiameter" class="form-control me-2"
-                                                    placeholder="e.g. 8" value="8"
-                                                    oninput="calculatePipeWeight()" />
+                                                <input type="number" id="pipeDiameter2" class="form-control me-2"
+                                                    placeholder="e.g. 8" value="8" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -198,9 +193,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Thickness, t</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" id="pipeThickness" class="form-control me-2"
-                                                    placeholder="e.g. 1.5" value="1.5"
-                                                    oninput="calculatePipeWeight()" />
+                                                <input type="number" id="pipeThickness2" class="form-control me-2"
+                                                    placeholder="e.g. 1.5" value="1.5" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -211,9 +205,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" id="pipeLength" class="form-control me-2"
-                                                    placeholder="e.g. 1" value="1"
-                                                    oninput="calculatePipeWeight()" />
+                                                <input type="number" id="pipeLength2" class="form-control me-2"
+                                                    placeholder="e.g. 1" value="1" />
                                                 <span class="text-nowrap">m</span>
                                             </div>
                                         </div>
@@ -223,19 +216,16 @@
                                 <!-- Result -->
                                 <div class="mt-2">
                                     <h6><strong>Result</strong></h6>
-                                    {{-- <p>Weight per meter: <strong class="text-primary">0.24 kg/m</strong></p>
-                                    <p>Total weight: <strong class="text-primary">0.24 kg</strong></p> --}}
-                                    <p>Weight per meter: <strong id="pipeWeightPerMeter" class="text-primary">0.24
+                                    <p>Weight per meter: <strong id="pipeWeightPerMeter2" class="text-primary">0
                                             kg/m</strong></p>
-                                    <p>Total weight: <strong id="pipeTotalWeight" class="text-primary">0.24 kg</strong>
-                                    </p>
+                                    <p>Total weight: <strong id="pipeTotalWeight2" class="text-primary">0 kg</strong></p>
                                 </div>
                             </div>
 
                             <!-- Right: Image -->
                             <div class="col-lg-6 d-flex align-items-center">
                                 <img src="https://placehold.co/200x200" class="img-fluid rounded border w-100"
-                                    alt="Placeholder Image of Rod or Pipe">
+                                    alt="Pipe Image">
                             </div>
                         </div>
                     </div>
@@ -255,9 +245,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Diameter, D</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" id="hollowDiameter"
-                                                    value="21.3" placeholder="e.g. 21.3"
-                                                    oninput="calculateHollowSectionWeight()" />
+                                                <input type="number" id="hollowDiameter3" class="form-control me-2"
+                                                    value="21.3" placeholder="e.g. 21.3" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -268,9 +257,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Thickness, t</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" id="hollowThickness"
-                                                    value="2" placeholder="e.g. 2"
-                                                    oninput="calculateHollowSectionWeight()" />
+                                                <input type="number" id="hollowThickness3" class="form-control me-2"
+                                                    value="2" placeholder="e.g. 2" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -281,9 +269,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" id="hollowLength"
-                                                    value="1" placeholder="e.g. 1"
-                                                    oninput="calculateHollowSectionWeight()" />
+                                                <input type="number" id="hollowLength3" class="form-control me-2"
+                                                    value="1" placeholder="e.g. 1" />
                                                 <span class="text-nowrap">m</span>
                                             </div>
                                         </div>
@@ -293,9 +280,9 @@
                                 <!-- Result -->
                                 <div class="mt-2">
                                     <h6><strong>Result</strong></h6>
-                                    <p>Weight per meter: <strong id="hollowWeightPerMeter" class="text-primary">0.95
+                                    <p>Weight per meter: <strong id="hollowWeightPerMeter3" class="text-primary">0
                                             kg/m</strong></p>
-                                    <p>Total weight: <strong id="hollowTotalWeight" class="text-primary">0.95 kg</strong>
+                                    <p>Total weight: <strong id="hollowTotalWeight3" class="text-primary">0 kg</strong>
                                     </p>
                                 </div>
                             </div>
@@ -303,7 +290,7 @@
                             <!-- Right: Image -->
                             <div class="col-lg-6 d-flex align-items-center">
                                 <img src="https://placehold.co/200x200" class="img-fluid rounded border w-100"
-                                    alt="Placeholder Image for Pipe">
+                                    alt="Pipe Image">
                             </div>
                         </div>
                     </div>
@@ -441,9 +428,9 @@
                                 <!-- Result -->
                                 <div class="mt-2">
                                     <h6><strong>Result</strong></h6>
-                                    <p>Weight per meter: <strong id="rectangularWeightPerMeter" class="text-primary">1.08
+                                    <p>Weight per meter: <strong id="rectangularWeightPerMeter" class="text-primary">0.00
                                             kg/m</strong></p>
-                                    <p>Total weight: <strong id="rectangularTotalWeight" class="text-primary">1.08
+                                    <p>Total weight: <strong id="rectangularTotalWeight" class="text-primary">0.00
                                             kg</strong></p>
                                 </div>
                             </div>
@@ -472,7 +459,9 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Diameter, D</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" placeholder="e.g. 25" />
+                                                <input type="number" class="form-control me-2" id="roundDiameter"
+                                                    value="8" placeholder="e.g. 8"
+                                                    oninput="calculateRoundBarWeight()" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -483,8 +472,9 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2"
-                                                    placeholder="e.g. 6000" />
+                                                <input type="number" class="form-control me-2" id="roundLength"
+                                                    value="1" placeholder="e.g. 6"
+                                                    oninput="calculateRoundBarWeight()" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -494,8 +484,10 @@
                                 <!-- Result -->
                                 <div class="mt-2">
                                     <h6><strong>Result</strong></h6>
-                                    <p>Weight per meter: <strong class="text-primary">7.1 kg/m</strong></p>
-                                    <p>Total weight: <strong class="text-primary">7.1 kg</strong></p>
+                                    <p>Weight per meter: <strong id="roundWeightPerMeter" class="text-primary">0.00
+                                            kg/m</strong></p>
+                                    <p>Total weight: <strong id="roundTotalWeight" class="text-primary">0.00 kg</strong>
+                                    </p>
                                 </div>
                             </div>
 
@@ -522,7 +514,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Side, A</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" placeholder="e.g. 20" />
+                                                <input type="number" class="form-control me-2" id="squareSideA7"
+                                                    value="10" placeholder="e.g. 10" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -533,8 +526,8 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2"
-                                                    placeholder="e.g. 6000" />
+                                                <input type="number" class="form-control me-2" id="squareLength7"
+                                                    value="1" placeholder="e.g. 1" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -544,8 +537,10 @@
                                 <!-- Result -->
                                 <div class="mt-2">
                                     <h6><strong>Result</strong></h6>
-                                    <p>Weight per meter: <strong class="text-primary">5.2 kg/m</strong></p>
-                                    <p>Total weight: <strong class="text-primary">5.2 kg</strong></p>
+                                    <p>Weight per meter: <strong id="squareWeightPerMeter7" class="text-primary">0.00
+                                            kg/m</strong></p>
+                                    <p>Total weight: <strong id="squareTotalWeight7" class="text-primary">0.00 kg</strong>
+                                    </p>
                                 </div>
                             </div>
 
@@ -556,6 +551,8 @@
                             </div>
                         </div>
                     </div>
+
+
 
                     {{-- Flat Bars --}}
                     <div id="tab8" class="tab-content-item d-none">
@@ -572,7 +569,9 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Width, W</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" placeholder="e.g. 10" />
+                                                <input type="number" class="form-control me-2" id="flatWidth8"
+                                                    value="10" placeholder="e.g. 10"
+                                                    oninput="calculateFlatBarWeight8()" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -583,7 +582,9 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Thickness, t</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" placeholder="e.g. 3" />
+                                                <input type="number" class="form-control me-2" id="flatThickness8"
+                                                    value="3" placeholder="e.g. 3"
+                                                    oninput="calculateFlatBarWeight8()" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -594,7 +595,9 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" placeholder="e.g. 1" />
+                                                <input type="number" class="form-control me-2" id="flatLength8"
+                                                    value="1" placeholder="e.g. 1"
+                                                    oninput="calculateFlatBarWeight8()" />
                                                 <span class="text-nowrap">m</span>
                                             </div>
                                         </div>
@@ -604,8 +607,10 @@
                                 <!-- Result -->
                                 <div class="mt-2">
                                     <h6><strong>Result</strong></h6>
-                                    <p>Weight per meter: <strong class="text-primary">2.4 kg/m</strong></p>
-                                    <p>Total weight: <strong class="text-primary">2.4 kg</strong></p>
+                                    <p>Weight per meter: <strong id="flatWeightPerMeter8" class="text-primary">0.00
+                                            kg/m</strong></p>
+                                    <p>Total weight: <strong id="flatTotalWeight8" class="text-primary">0.00 kg</strong>
+                                    </p>
                                 </div>
                             </div>
 
@@ -632,7 +637,9 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Side, A</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" placeholder="e.g. 20" />
+                                                <input type="number" class="form-control me-2" id="angleSide9"
+                                                    value="20" placeholder="e.g. 20"
+                                                    oninput="calculateEqualAngleWeight9()" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -643,7 +650,9 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Thickness, t</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" placeholder="e.g. 3" />
+                                                <input type="number" class="form-control me-2" id="angleThickness9"
+                                                    value="3" placeholder="e.g. 3"
+                                                    oninput="calculateEqualAngleWeight9()" />
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -654,7 +663,9 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" placeholder="e.g. 1" />
+                                                <input type="number" class="form-control me-2" id="angleLength9"
+                                                    value="1" placeholder="e.g. 1"
+                                                    oninput="calculateEqualAngleWeight9()" />
                                                 <span class="text-nowrap">m</span>
                                             </div>
                                         </div>
@@ -664,8 +675,10 @@
                                 <!-- Result -->
                                 <div class="mt-2">
                                     <h6><strong>Result</strong></h6>
-                                    <p>Weight per meter: <strong class="text-primary">3.1 kg/m</strong></p>
-                                    <p>Total weight: <strong class="text-primary">3.1 kg</strong></p>
+                                    <p>Weight per meter: <strong id="angleWeightPerMeter9" class="text-primary">0.00
+                                            kg/m</strong></p>
+                                    <p>Total weight: <strong id="angleTotalWeight9" class="text-primary">0.00 kg</strong>
+                                    </p>
                                 </div>
                             </div>
 
@@ -676,6 +689,8 @@
                             </div>
                         </div>
                     </div>
+
+
 
                     {{-- Unequal Angles --}}
                     <div id="tab10" class="tab-content-item d-none">
@@ -690,10 +705,45 @@
                                     <!-- Side A x B -->
                                     <div class="col-12 mb-3">
                                         <div class="d-flex align-items-center">
-                                            <label class="form-label mb-0 me-3" style="width: 120px;">Side, A x B</label>
+                                            <label class="form-label mb-0 me-3" style="width: 120px;">Side, A × B</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="text" class="form-control me-2"
-                                                    placeholder="e.g. 30x20" />
+                                                <select id="angleSize10" class="form-control me-2"
+                                                    onchange="updateThicknessOptions10(); calculateUnequalAngleWeight10()">
+                                                    <option value="30x20">30x20</option>
+                                                    <option value="40x20">40x20</option>
+                                                    <option value="40x25">40x25</option>
+                                                    <option value="45x30">45x30</option>
+                                                    <option value="50x30">50x30</option>
+                                                    <option value="60x30">60x30</option>
+                                                    <option value="60x40">60x40</option>
+                                                    <option value="60x50">60x50</option>
+                                                    <option value="65x50">65x50</option>
+                                                    <option value="70x50">70x50</option>
+                                                    <option value="75x50">75x50</option>
+                                                    <option value="75x55">75x55</option>
+                                                    <option value="75x60">75x60</option>
+                                                    <option value="80x40">80x40</option>
+                                                    <option value="80x60">80x60</option>
+                                                    <option value="90x60">90x60</option>
+                                                    <option value="90x75">90x75</option>
+                                                    <option value="100x50">100x50</option>
+                                                    <option value="100x65">100x65</option>
+                                                    <option value="100x75">100x75</option>
+                                                    <option value="100x90">100x90</option>
+                                                    <option value="120x80">120x80</option>
+                                                    <option value="125x75">125x75</option>
+                                                    <option value="125x80">125x80</option>
+                                                    <option value="125x90">125x90</option>
+                                                    <option value="130x65">130x65</option>
+                                                    <option value="130x75">130x75</option>
+                                                    <option value="130x90">130x90</option>
+                                                    <option value="150x75">150x75</option>
+                                                    <option value="150x90">150x90</option>
+                                                    <option value="150x100">150x100</option>
+                                                    <option value="180x90">180x90</option>
+                                                    <option value="200x100">200x100</option>
+                                                    <option value="200x150">200x150</option>
+                                                </select>
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -704,7 +754,9 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Thickness, t</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" placeholder="e.g. 3" />
+                                                <select id="angleThickness10" class="form-control me-2"
+                                                    onchange="calculateUnequalAngleWeight10()">
+                                                </select>
                                                 <span class="text-nowrap">mm</span>
                                             </div>
                                         </div>
@@ -715,7 +767,9 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L</label>
                                             <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" class="form-control me-2" placeholder="e.g. 1" />
+                                                <input type="number" class="form-control me-2" id="angleLength10"
+                                                    value="1" placeholder="e.g. 1"
+                                                    oninput="calculateUnequalAngleWeight10()" />
                                                 <span class="text-nowrap">m</span>
                                             </div>
                                         </div>
@@ -725,8 +779,10 @@
                                 <!-- Result -->
                                 <div class="mt-2">
                                     <h6><strong>Result</strong></h6>
-                                    <p>Weight per meter: <strong class="text-primary">4.2 kg/m</strong></p>
-                                    <p>Total weight: <strong class="text-primary">4.2 kg</strong></p>
+                                    <p>Weight per meter: <strong id="angleWeightPerMeter10" class="text-primary">0.00
+                                            kg/m</strong></p>
+                                    <p>Total weight: <strong id="angleTotalWeight10" class="text-primary">0.00 kg</strong>
+                                    </p>
                                 </div>
                             </div>
 
@@ -737,6 +793,8 @@
                             </div>
                         </div>
                     </div>
+
+
 
                     {{-- Channels - GOST --}}
                     <div id="tab11" class="tab-content-item d-none">
@@ -750,66 +808,53 @@
                                 <!-- Profile -->
                                 <div class="mb-3 d-flex align-items-center">
                                     <label class="form-label mb-0 me-3" style="width: 140px;">Profile:</label>
-                                    <select class="form-select">
-                                        <option selected>№ 6.5</option>
-                                        <option>№ 8</option>
-                                        <option>№ 10</option>
-                                        <option>№ 12</option>
-                                        <option>№ 14</option>
-                                        <option>№ 16</option>
-                                        <option>№ 18</option>
-                                        <option>№ 20</option>
-                                        <option>№ 22</option>
-                                        <option>№ 24</option>
-                                        <option>№ 27</option>
-                                        <option>№ 30</option>
-                                        <!-- Add more options as needed -->
-                                    </select>
+                                    <select id="gostProfile" class="form-select"></select>
                                 </div>
 
                                 <!-- Height, h -->
                                 <div class="mb-3 d-flex align-items-center">
                                     <label class="form-label mb-0 me-3" style="width: 140px;">Height, h:</label>
-                                    <input type="number" class="form-control me-2" placeholder="e.g. 65" />
+                                    <input id="gostH" type="number" class="form-control me-2" readonly />
                                     <span class="text-nowrap">mm</span>
                                 </div>
 
                                 <!-- Width, b -->
                                 <div class="mb-3 d-flex align-items-center">
                                     <label class="form-label mb-0 me-3" style="width: 140px;">Width, b:</label>
-                                    <input type="number" class="form-control me-2" placeholder="e.g. 36" />
+                                    <input id="gostB" type="number" class="form-control me-2" readonly />
                                     <span class="text-nowrap">mm</span>
                                 </div>
 
                                 <!-- Thickness, s -->
                                 <div class="mb-3 d-flex align-items-center">
                                     <label class="form-label mb-0 me-3" style="width: 140px;">Thickness, s:</label>
-                                    <input type="number" class="form-control me-2" placeholder="e.g. 4.4" />
+                                    <input id="gostS" type="number" class="form-control me-2" readonly />
                                     <span class="text-nowrap">mm</span>
                                 </div>
 
                                 <!-- Thickness, t -->
                                 <div class="mb-3 d-flex align-items-center">
                                     <label class="form-label mb-0 me-3" style="width: 140px;">Thickness, t:</label>
-                                    <input type="number" class="form-control me-2" placeholder="e.g. 7.2" />
+                                    <input id="gostT" type="number" class="form-control me-2" readonly />
                                     <span class="text-nowrap">mm</span>
                                 </div>
 
                                 <!-- Length, L -->
                                 <div class="mb-3 d-flex align-items-center">
                                     <label class="form-label mb-0 me-3" style="width: 140px;">Length, L:</label>
-                                    <input type="number" class="form-control me-2" placeholder="e.g. 1" />
+                                    <input id="gostLength" type="number" class="form-control me-2" value="1" />
                                     <span class="text-nowrap">m</span>
                                 </div>
 
                                 <!-- Result -->
                                 <div class="mt-2">
                                     <h6><strong>Result</strong></h6>
-                                    <p>Weight per meter: <strong class="text-primary">4.2 kg/m</strong></p>
-                                    <p>Total weight: <strong class="text-primary">4.2 kg</strong></p>
+                                    <p>Weight per meter: <strong id="gostWeightPerMeter" class="text-primary">0.00
+                                            kg/m</strong></p>
+                                    <p>Total weight: <strong id="gostTotalWeight" class="text-primary">0.00 kg</strong>
+                                    </p>
                                 </div>
                             </div>
-
 
                             <!-- Right: Image -->
                             <div class="col-lg-6 d-flex align-items-center">
@@ -818,6 +863,7 @@
                             </div>
                         </div>
                     </div>
+
 
                     {{-- Channels - UPN --}}
                     <div id="tab12" class="tab-content-item d-none">
@@ -1408,4 +1454,547 @@
             document.getElementById('rectangularTotalWeight').textContent = totalWeight.toFixed(2) + " kg";
         }
     </script>
+
+    <script>
+        function initSteelSheetCalculator(tabNumber, density = 7850) {
+            const tInput = document.getElementById('sheetThickness' + tabNumber);
+            const wInput = document.getElementById('sheetWidth' + tabNumber);
+            const lInput = document.getElementById('sheetLength' + tabNumber);
+            const piecesInput = document.getElementById('sheetPieces' + tabNumber);
+
+            const singleOutput = document.getElementById('sheetSingleWeight' + tabNumber);
+            const totalOutput = document.getElementById('sheetTotalWeight' + tabNumber);
+
+            function calculate() {
+                let t = parseFloat(tInput.value) || 0;
+                let W = parseFloat(wInput.value) || 0;
+                let L = parseFloat(lInput.value) || 0;
+                let pieces = parseInt(piecesInput.value) || 1;
+
+                // Volume in m³
+                let volume_m3 = (t / 1000) * (W / 1000) * (L / 1000);
+                let weight_single = volume_m3 * density;
+                let weight_total = weight_single * pieces;
+
+                singleOutput.innerText = weight_single.toFixed(2) + " kg";
+                totalOutput.innerText = weight_total.toFixed(2) + " kg";
+            }
+
+            // Add event listeners
+            tInput.addEventListener('input', calculate);
+            wInput.addEventListener('input', calculate);
+            lInput.addEventListener('input', calculate);
+            piecesInput.addEventListener('input', calculate);
+
+            // Initial calculation
+            calculate();
+        }
+
+        // Initialize tab1 calculator
+        initSteelSheetCalculator(1);
+    </script>
+    <script>
+        function initPipeCalculator(tabNumber, density = 7850) {
+            const DInput = document.getElementById('pipeDiameter' + tabNumber);
+            const tInput = document.getElementById('pipeThickness' + tabNumber);
+            const LInput = document.getElementById('pipeLength' + tabNumber);
+
+            const perMeterOutput = document.getElementById('pipeWeightPerMeter' + tabNumber);
+            const totalOutput = document.getElementById('pipeTotalWeight' + tabNumber);
+
+            function calculate() {
+                let D = parseFloat(DInput.value) || 0; // outer diameter in mm
+                let t = parseFloat(tInput.value) || 0; // thickness in mm
+                let L = parseFloat(LInput.value) || 0; // length in meters
+
+                // Convert to meters
+                D = D / 1000;
+                t = t / 1000;
+
+                if (t >= D / 2) {
+                    perMeterOutput.innerText = "0 kg/m";
+                    totalOutput.innerText = "0 kg";
+                    return;
+                }
+
+                // Cross-sectional area of hollow pipe: π/4 * (D^2 - (D-2t)^2)
+                let area = Math.PI / 4 * (Math.pow(D, 2) - Math.pow(D - 2 * t, 2)); // m²
+
+                let weight_per_meter = area * density; // kg/m
+                let total_weight = weight_per_meter * L;
+
+                perMeterOutput.innerText = weight_per_meter.toFixed(2) + " kg/m";
+                totalOutput.innerText = total_weight.toFixed(2) + " kg";
+            }
+
+            // Event listeners
+            DInput.addEventListener('input', calculate);
+            tInput.addEventListener('input', calculate);
+            LInput.addEventListener('input', calculate);
+
+            // Initial calculation
+            calculate();
+        }
+
+        // Initialize tab2 calculator
+        initPipeCalculator(2);
+    </script>
+    <script>
+        function initHollowCircularCalculator(tabNumber, density = 7850) {
+            const DInput = document.getElementById('hollowDiameter' + tabNumber);
+            const tInput = document.getElementById('hollowThickness' + tabNumber);
+            const LInput = document.getElementById('hollowLength' + tabNumber);
+
+            const perMeterOutput = document.getElementById('hollowWeightPerMeter' + tabNumber);
+            const totalOutput = document.getElementById('hollowTotalWeight' + tabNumber);
+
+            function calculate() {
+                let D = parseFloat(DInput.value) || 0; // outer diameter in mm
+                let t = parseFloat(tInput.value) || 0; // thickness in mm
+                let L = parseFloat(LInput.value) || 0; // length in meters
+
+                // Convert to meters
+                D = D / 1000;
+                t = t / 1000;
+
+                if (t >= D / 2) {
+                    perMeterOutput.innerText = "0 kg/m";
+                    totalOutput.innerText = "0 kg";
+                    return;
+                }
+
+                // Cross-sectional area of hollow circular section: π/4 * (D^2 - (D-2t)^2)
+                let area = Math.PI / 4 * (Math.pow(D, 2) - Math.pow(D - 2 * t, 2)); // m²
+
+                let weight_per_meter = area * density; // kg/m
+                let total_weight = weight_per_meter * L;
+
+                perMeterOutput.innerText = weight_per_meter.toFixed(2) + " kg/m";
+                totalOutput.innerText = total_weight.toFixed(2) + " kg";
+            }
+
+            // Event listeners
+            DInput.addEventListener('input', calculate);
+            tInput.addEventListener('input', calculate);
+            LInput.addEventListener('input', calculate);
+
+            // Initial calculation
+            calculate();
+        }
+
+        // Initialize tab3 calculator
+        initHollowCircularCalculator(3);
+    </script>
+
+    <script>
+        function calculateSquareHollowSectionWeight() {
+            // Get input values
+            let A = parseFloat(document.getElementById('squareSide').value); // mm
+            let t = parseFloat(document.getElementById('squareThickness').value); // mm
+            let L = parseFloat(document.getElementById('squareLength').value); // m
+
+            if (isNaN(A) || isNaN(t) || isNaN(L)) return;
+
+            // Convert mm to meters
+            A = A / 1000;
+            t = t / 1000;
+
+            // Density in kg/m³
+            const density = 7530;
+
+            // Calculate inner side
+            let A_inner = A - 2 * t;
+            if (A_inner < 0) A_inner = 0;
+
+            // Cross-sectional area
+            let area = Math.pow(A, 2) - Math.pow(A_inner, 2);
+
+            // Weight per meter
+            let weightPerMeter = area * density;
+
+            // Total weight
+            let totalWeight = weightPerMeter * L;
+
+            // Round to 2 decimal places
+            weightPerMeter = weightPerMeter.toFixed(2);
+            totalWeight = totalWeight.toFixed(2);
+
+            // Display results
+            document.getElementById('squareWeightPerMeter').textContent = weightPerMeter + ' kg/m';
+            document.getElementById('squareTotalWeight').textContent = totalWeight + ' kg';
+        }
+
+        // Trigger calculation on page load
+        calculateSquareHollowSectionWeight();
+    </script>
+    <script>
+        // Constants from MAIAK
+        const MAIAK = {
+            Z: 0.0157, // Constant Z
+            Q: 0.044877 // Constant Q
+        };
+
+        // Function to calculate the weight based on the provided inputs
+        function calculateRectangularHollowSectionWeight() {
+            // Get the inputs from HTML elements
+            const a = parseFloat(document.getElementById("rectangularSideA").value); // Side A in mm
+            const b = parseFloat(document.getElementById("rectangularSideB").value); // Side B in mm
+            const t = parseFloat(document.getElementById("rectangularThickness").value); // Thickness in mm
+            const L = parseFloat(document.getElementById("rectangularLength").value); // Length in meters
+
+            // Convert length to mm
+            const L_mm = L * 1000; // Length in mm
+
+            // Check if the thickness is valid (not greater than half of either side)
+            if (t > a / 2 || t > b / 2) {
+                alert("Thickness is too large for the given dimensions.");
+                return;
+            }
+
+            // Calculate weight per meter using the formula
+            const weightPerMeter = t * (MAIAK.Z * (a + b) - MAIAK.Q * t);
+
+            // Calculate total weight (weight per meter multiplied by length in meters)
+            const totalWeight = weightPerMeter * L;
+
+            // Display the results
+            document.getElementById("rectangularWeightPerMeter").textContent = weightPerMeter.toFixed(2) + " kg/m";
+            document.getElementById("rectangularTotalWeight").textContent = totalWeight.toFixed(2) + " kg";
+        }
+    </script>
+
+    <script>
+        function calculateRoundBarWeight() {
+            const density = 7850; // kg/m³
+
+            // Input values
+            const D = parseFloat(document.getElementById("roundDiameter").value) || 0; // mm
+            const L = parseFloat(document.getElementById("roundLength").value) || 0; // m (already in meters)
+
+            // Convert D mm → m
+            const Dm = D / 1000;
+
+            // Cross-sectional area of circle
+            const area = Math.PI * Math.pow(Dm, 2) / 4;
+
+            // Weight per meter
+            const weightPerMeter = area * density;
+
+            // Total weight
+            const totalWeight = weightPerMeter * L; // L already in meters
+
+            // Update results
+            document.getElementById("roundWeightPerMeter").innerText = weightPerMeter.toFixed(2) + " kg/m";
+            document.getElementById("roundTotalWeight").innerText = totalWeight.toFixed(2) + " kg";
+        }
+
+        // Initial calculation
+        calculateRoundBarWeight();
+    </script>
+
+    <script>
+        function calculateSquareBarWeight7() {
+            const density = 7850; // kg/m³
+
+            // Input values
+            const A = parseFloat(document.getElementById("squareSideA7").value) || 0; // mm
+            const L = parseFloat(document.getElementById("squareLength7").value) || 0; // m (in meters, not mm)
+
+            // Convert mm → m
+            const Am = A / 1000;
+
+            // Cross-sectional area (m²)
+            const area = Am * Am;
+
+            // Weight per meter (kg/m)
+            const weightPerMeter = area * density;
+
+            // Total weight (kg)
+            const totalWeight = weightPerMeter * L;
+
+            // Update results
+            document.getElementById("squareWeightPerMeter7").innerText = weightPerMeter.toFixed(2) + " kg/m";
+            document.getElementById("squareTotalWeight7").innerText = totalWeight.toFixed(2) + " kg";
+        }
+
+        // Run once at page load
+        document.addEventListener("DOMContentLoaded", function() {
+            // Attach events
+            document.getElementById("squareSideA7").addEventListener("input", calculateSquareBarWeight7);
+            document.getElementById("squareLength7").addEventListener("input", calculateSquareBarWeight7);
+
+            calculateSquareBarWeight7(); // initial calc
+        });
+    </script>
+
+    <script>
+        function calculateFlatBarWeight8() {
+            const density = 7850; // kg/m³
+
+            // Get input values
+            const W = parseFloat(document.getElementById("flatWidth8").value) || 0; // mm
+            const T = parseFloat(document.getElementById("flatThickness8").value) || 0; // mm
+            const L = parseFloat(document.getElementById("flatLength8").value) || 0; // m
+
+            // Convert mm → m
+            const Wm = W / 1000;
+            const Tm = T / 1000;
+
+            // Cross-sectional area (m²)
+            const area = Wm * Tm;
+
+            // Weight per meter
+            const weightPerMeter = area * density;
+
+            // Total weight
+            const totalWeight = weightPerMeter * L;
+
+            // Update results
+            document.getElementById("flatWeightPerMeter8").innerText = weightPerMeter.toFixed(2) + " kg/m";
+            document.getElementById("flatTotalWeight8").innerText = totalWeight.toFixed(2) + " kg";
+        }
+
+        // Run once on page load
+        calculateFlatBarWeight8();
+    </script>
+
+    <script>
+        function calculateEqualAngleWeight9() {
+            const density = 7850; // kg/m³
+
+            // Input values
+            const A = parseFloat(document.getElementById("angleSide9").value) || 0; // mm
+            const t = parseFloat(document.getElementById("angleThickness9").value) || 0; // mm
+            const L = parseFloat(document.getElementById("angleLength9").value) || 0; // m
+
+            // Convert mm → m
+            const Am = A / 1000;
+            const tm = t / 1000;
+
+            // Cross-sectional area = 2*(A*t) - (t*t)
+            const area = (2 * Am * tm) - (tm * tm);
+
+            // Weight per meter
+            const weightPerMeter = area * density;
+
+            // Total weight
+            const totalWeight = weightPerMeter * L;
+
+            // Update results
+            document.getElementById("angleWeightPerMeter9").innerText = weightPerMeter.toFixed(2) + " kg/m";
+            document.getElementById("angleTotalWeight9").innerText = totalWeight.toFixed(2) + " kg";
+        }
+
+        // Run once at load
+        calculateEqualAngleWeight9();
+    </script>
+    <script>
+        // Mapping of Side (A×B) → available thickness options
+        const thicknessOptions10 = {
+            "30x20": [3, 4],
+            "40x20": [3, 4],
+            "40x25": [4],
+            "45x30": [3, 4, 5],
+            "50x30": [4, 5],
+            "60x30": [5],
+            "60x40": [5, 6, 7],
+            "60x50": [5, 6, 8, 10],
+            "65x50": [5],
+            "70x50": [6],
+            "75x50": [5, 6, 8, 9, 10],
+            "75x55": [5, 7, 9],
+            "75x60": [5, 6, 8, 10],
+            "80x40": [6, 8, 10],
+            "80x60": [7],
+            "90x60": [6, 8, 10],
+            "90x75": [6, 8, 10],
+            "100x50": [6, 8, 10, 12],
+            "100x65": [7, 8, 9, 10],
+            "100x75": [6, 7, 8, 9, 10, 12],
+            "100x90": [6, 8, 10, 12],
+            "120x80": [8, 10, 12],
+            "125x75": [8, 10, 12],
+            "125x80": [8, 10, 12, 15],
+            "125x90": [8, 10, 12, 15],
+            "130x65": [8, 10, 12],
+            "130x75": [8, 10, 12, 15],
+            "130x90": [10, 12],
+            "150x75": [9, 10, 12, 15],
+            "150x90": [10, 12, 15],
+            "150x100": [10, 12],
+            "180x90": [10, 12],
+            "200x100": [10, 12, 15],
+            "200x150": [12, 15]
+        };
+
+        // Update thickness dropdown based on selected size
+        function updateThicknessOptions10() {
+            const size = document.getElementById("angleSize10").value;
+            const thicknessSelect = document.getElementById("angleThickness10");
+
+            // Clear old options
+            thicknessSelect.innerHTML = "";
+
+            // Populate new options
+            if (thicknessOptions10[size]) {
+                thicknessOptions10[size].forEach(t => {
+                    let opt = document.createElement("option");
+                    opt.value = t;
+                    opt.text = t;
+                    thicknessSelect.add(opt);
+                });
+            }
+        }
+
+        // Calculate weight
+        function calculateUnequalAngleWeight10() {
+            const density = 7850; // kg/m³
+
+            const size = document.getElementById("angleSize10").value;
+            const [A, B] = size.split("x").map(Number); // mm
+
+            const t = parseFloat(document.getElementById("angleThickness10").value) || 0; // mm
+            const L = parseFloat(document.getElementById("angleLength10").value) || 0; // m
+
+            // Convert mm → m
+            const Am = A / 1000;
+            const Bm = B / 1000;
+            const tm = t / 1000;
+
+            // Cross-sectional area (m²) = (A*t + B*t - t²)
+            const area = (Am * tm) + (Bm * tm) - (tm * tm);
+
+            const weightPerMeter = area * density;
+            const totalWeight = weightPerMeter * L;
+
+            // Update results
+            document.getElementById("angleWeightPerMeter10").innerText = weightPerMeter.toFixed(2) + " kg/m";
+            document.getElementById("angleTotalWeight10").innerText = totalWeight.toFixed(2) + " kg";
+        }
+
+        // Initialize on page load
+        updateThicknessOptions10();
+        calculateUnequalAngleWeight10();
+    </script>
+
+    <script>
+        const gostChannels = {
+            "6.5": {
+                h: 65,
+                b: 36,
+                s: 4.4,
+                t: 7.2,
+                w: 5.90
+            },
+            "8": {
+                h: 80,
+                b: 40,
+                s: 4.2,
+                t: 7.4,
+                w: 7.03
+            },
+            "10": {
+                h: 100,
+                b: 46,
+                s: 4.3,
+                t: 7.6,
+                w: 8.58
+            },
+            "12": {
+                h: 120,
+                b: 52,
+                s: 4.3,
+                t: 7.9,
+                w: 10.22
+            },
+            "14": {
+                h: 140,
+                b: 58,
+                s: 4.4,
+                t: 8.2,
+                w: 12.07
+            },
+            "16": {
+                h: 160,
+                b: 64,
+                s: 4.4,
+                t: 8.5,
+                w: 13.83
+            },
+            "18": {
+                h: 180,
+                b: 70,
+                s: 4.5,
+                t: 9.2,
+                w: 16.60
+            },
+            "20": {
+                h: 200,
+                b: 76,
+                s: 4.6,
+                t: 9.6,
+                w: 18.41
+            },
+            "22": {
+                h: 220,
+                b: 80,
+                s: 4.6,
+                t: 10.0,
+                w: 20.53
+            },
+            "24": {
+                h: 240,
+                b: 90,
+                s: 4.8,
+                t: 10.6,
+                w: 23.70
+            },
+            "27": {
+                h: 270,
+                b: 95,
+                s: 6.0,
+                t: 10.5,
+                w: 27.70
+            },
+            "30": {
+                h: 300,
+                b: 100,
+                s: 6.3,
+                t: 11.4,
+                w: 32.09
+            }
+        };
+
+        // Populate dropdown
+        function populateGostProfiles() {
+            const select = document.getElementById("gostProfile");
+            select.innerHTML = Object.keys(gostChannels).map(p => `<option value="${p}">№ ${p}</option>`).join('');
+        }
+
+        // Update fields & calculation
+        function updateGostUI() {
+            const profile = document.getElementById("gostProfile").value;
+            const data = gostChannels[profile];
+            if (!data) return;
+
+            document.getElementById("gostH").value = data.h;
+            document.getElementById("gostB").value = data.b;
+            document.getElementById("gostS").value = data.s;
+            document.getElementById("gostT").value = data.t;
+
+            const length = parseFloat(document.getElementById("gostLength").value) || 0;
+            document.getElementById("gostWeightPerMeter").textContent = data.w.toFixed(2) + " kg/m";
+            document.getElementById("gostTotalWeight").textContent = (data.w * length).toFixed(2) + " kg";
+        }
+
+        // Init
+        document.addEventListener("DOMContentLoaded", () => {
+            populateGostProfiles();
+            document.getElementById("gostProfile").addEventListener("change", updateGostUI);
+            document.getElementById("gostLength").addEventListener("input", updateGostUI);
+            document.getElementById("gostProfile").selectedIndex = 0;
+            updateGostUI();
+        });
+    </script>
+
 @endsection
