@@ -81,6 +81,11 @@ class MainController extends Controller
 
         return view('frontend.blogs.welded-vs-seamless');
     }
+    public function whyHastelloyWeighsMoreThanStainlessSteel()
+    {
+
+        return view('frontend.blogs.why-hastelloy-weighs-more-than-stainless-steel');
+    }
 
 
 
