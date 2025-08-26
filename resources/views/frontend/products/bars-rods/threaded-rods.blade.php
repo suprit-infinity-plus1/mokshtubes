@@ -1,12 +1,12 @@
 @extends('layouts.master')
-@section('title', 'Square Bars – Stainless Steel, MS, Aluminium, Brass | Moksh Tubes')
+@section('title', 'Threaded Rods | Stainless Steel, Galvanized, Carbon & Alloy Steel | Weight Chart')
 @section('meta_description',
-    'Get premium Square Bars in SS, MS, Aluminium & Brass at Moksh Tubes. View size charts,
-    grades & order custom cut to length options.')
+    'Buy threaded rods in stainless steel, galvanized, carbon steel & alloy steel. View
+    threaded rod weight chart (M6–M64), sizes, ASTM/DIN standards & applications.')
 @section('meta_keywords',
-    'Square Bar, Mild Steel Square Bar, Stainless Steel Square Bar, Carbon Steel Square Bar, Alloy
-    Steel Square Bar, 10mm Square Bar, 12mm Square Bar, 20mm Square Bar, Steel Square Rod, MS Square Rod, Bright Square Bar,
-    Hot Rolled Square Bar, Cold Drawn Square Bar, Steel Square Bar Weight Chart, Square Bar Supplier.')
+    'Threaded Rods, Stainless Steel Threaded Rods, Carbon Steel Threaded Rods, Alloy Steel
+    Threaded Rods, Galvanized Threaded Rods, Duplex Steel Threaded Rods,Super Duplex Threaded Rods,Brass Threaded Rods,
+    Copper Threaded Rods, Titanium Threaded Rods, Custom Threaded Rods.')
 @section('content')
     <!--Start breadcrumb area-->
 
@@ -18,7 +18,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Square Bars</h1>
+                    <h1>Threaded Rods</h1>
                 </div>
             </div>
         </div>
@@ -28,36 +28,34 @@
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Square Bars</h2>
+                <h2 class="fw-bold" style="color: #174268;">Threaded Rods</h2>
             </div>
 
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/peoduct/Bars & Rods/square-bars.webp') }}"
-                        alt="Square Bars" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/peoduct/Bars & Rods/threaded-rods.webp') }}" alt="Threaded Rods"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Right Content -->
                 <div class="col-md-6">
                     <p class="fs-6 mb-3 text-justify">
-                        <strong>Square Bars</strong> are solid four sided metal bars used for a wide range of structural,
-                        machining,
-                        fabrication, and decorative applications. Known for their strength, versatility, and uniform shape,
-                        10mm square bar weight, aluminium square bar, brass square bar, mild steel square bar, and stainless
-                        steel square bar are used in industries like construction, marine, automotive, aerospace, and heavy
-                        engineering.
+                        <strong class="text-black">Threaded Rods</strong> are essential fastening components widely used in
+                        construction, manufacturing,
+                        automotive, and mechanical industries. These rods, also known as stud bolts or all thread rods, are
+                        long fasteners threaded along their entire length, allowing nuts, bolts, and washers to be easily
+                        attached for secure fastening. A threaded rod provides high tensile strength, durability, and
+                        versatility, making it suitable for both temporary and permanent applications.
                     </p>
                     <p class="fs-6 mb-3 text-justify">
-                        <strong class="text-black"><a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a></strong>,
-                        we supply high quality square bars in stainless steel square bar, ms
-                        square bar, times square bars, carbon steel, alloy steel, duplex & super duplex, <a
-                            href="{{ route('materials.nickel-Based-Superalloys') }}">nickel alloys</a>,
-                        <a href="{{ route('materials.titanium') }}">titanium</a>, aluminium, brass square bar, and copper.
-                        All our square bars meet ASTM, ASME, DIN, EN, and
-                        JIS standards, ensuring precision, reliability, and performance for both industrial and decorative
-                        uses.
+                        <a href="{{ route('index') }}"><b>Moksh Tubes & Fittings LLP</b></a>, we supply high quality
+                        threaded rods in stainless steel, carbon steel,
+                        alloy steel, duplex & super duplex, nickel alloys, titanium, brass, and copper alloys. ASTM, ASME,
+                        DIN, ISO, and BS standards, our threaded rods offer strength, corrosion resistance,
+                        and reliability for demanding applications worldwide.
                     </p>
+
                 </div>
             </div>
         </div>
@@ -81,35 +79,25 @@
                             </thead>
                             <tbody class="text-start">
                                 <tr class="t-row">
-                                    <td>Material</td>
-                                    <td>Stainless Steel, Carbon Steel, Alloy Steel, Duplex & Super Duplex, Nickel Alloys,
-                                        Titanium, Aluminium Square Bar, Brass Square Bar, Copper</td>
+                                    <td>Sizes</td>
+                                    <td>M6 to M64, 1/4” to 4” diameter</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Grades</td>
-                                    <td>ASTM, ASME, DIN, EN, and JIS certified grades – available in all major alloys</td>
+                                    <td>Length</td>
+                                    <td>1m, 2m, 3m, and custom lengths available</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Size Range</td>
-                                    <td>6 mm x 6 mm to 150 mm x 150 mm (custom sizes up to 200 mm on request) – includes
-                                        square bar sizes</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Lengths</td>
-                                    <td>3 meters to 6 meters (cut-to-length available)</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Types</td>
-                                    <td>Hot Rolled Square Bars, Cold Drawn Square Bars, Forged Square Bars, Polished Square
-                                        Bars</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Finishes</td>
-                                    <td>Bright, Polished, Mill Finish, Shot Blasted, Pickled & Passivated</td>
+                                    <td>Threads</td>
+                                    <td>UNC, UNF, Metric Coarse, Metric Fine</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Standards</td>
-                                    <td>ASTM A276, A484, ASTM B160, EN 10059, DIN 1014</td>
+                                    <td>DIN 975, DIN 976, ASTM A193, ASTM A307, ISO 898-1</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Materials</td>
+                                    <td>Stainless Steel (304, 316), Carbon Steel, Alloy Steel, Brass, Copper, Galvanized
+                                        Steel</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -137,248 +125,407 @@
                 <table class="table table-bordered table-striped align-middle text-center">
                     <thead class="table-dark">
                         <tr class="t-row">
-                            <th>Size (mm)</th>
-                            <th>Inches</th>
-                            <th>Sectional Area (mm²)</th>
+                            <th>Nominal Size (M)</th>
+                            <th>Pitch (mm)</th>
+                            <th>Tensile Stress Area (mm²)</th>
                             <th>Weight (kg/m)</th>
-                            <th>Weight (lb/ft)</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr class="t-row">
-                            <td>6</td>
-                            <td>1/4</td>
-                            <td>36</td>
-                            <td>0.283</td>
-                            <td>0.190</td>
+                            <td>M6</td>
+                            <td>1.00</td>
+                            <td>20.1</td>
+                            <td>0.222</td>
                         </tr>
                         <tr class="t-row">
-                            <td>8</td>
-                            <td>5/16</td>
-                            <td>64</td>
-                            <td>0.503</td>
-                            <td>0.338</td>
+                            <td>M8</td>
+                            <td>1.25</td>
+                            <td>36.6</td>
+                            <td>0.373</td>
                         </tr>
                         <tr class="t-row">
-                            <td>10</td>
-                            <td>3/8</td>
-                            <td>100</td>
-                            <td>0.785</td>
-                            <td>0.527</td>
+                            <td>M10</td>
+                            <td>1.50</td>
+                            <td>58.0</td>
+                            <td>0.579</td>
                         </tr>
                         <tr class="t-row">
-                            <td>12</td>
-                            <td>1/2</td>
-                            <td>144</td>
-                            <td>1.13</td>
-                            <td>0.758</td>
+                            <td>M12</td>
+                            <td>1.75</td>
+                            <td>84.3</td>
+                            <td>0.821</td>
                         </tr>
                         <tr class="t-row">
-                            <td>16</td>
-                            <td>5/8</td>
-                            <td>256</td>
-                            <td>2.01</td>
-                            <td>1.35</td>
+                            <td>M14</td>
+                            <td>2.00</td>
+                            <td>115</td>
+                            <td>1.12</td>
                         </tr>
                         <tr class="t-row">
-                            <td>18</td>
-                            <td>11/16</td>
-                            <td>324</td>
-                            <td>2.54</td>
-                            <td>1.70</td>
+                            <td>M16</td>
+                            <td>2.00</td>
+                            <td>157</td>
+                            <td>1.58</td>
                         </tr>
                         <tr class="t-row">
-                            <td>20</td>
-                            <td>3/4</td>
-                            <td>400</td>
-                            <td>3.14</td>
-                            <td>2.11</td>
+                            <td>M18</td>
+                            <td>2.50</td>
+                            <td>192</td>
+                            <td>2.00</td>
                         </tr>
                         <tr class="t-row">
-                            <td>22</td>
-                            <td>7/8</td>
-                            <td>484</td>
-                            <td>3.85</td>
-                            <td>2.58</td>
+                            <td>M20</td>
+                            <td>2.50</td>
+                            <td>245</td>
+                            <td>2.47</td>
                         </tr>
                         <tr class="t-row">
-                            <td>25</td>
-                            <td>1</td>
-                            <td>625</td>
-                            <td>4.91</td>
-                            <td>3.30</td>
+                            <td>M22</td>
+                            <td>2.50</td>
+                            <td>303</td>
+                            <td>3.04</td>
                         </tr>
                         <tr class="t-row">
-                            <td>28</td>
-                            <td>1-1/8</td>
-                            <td>784</td>
-                            <td>6.16</td>
-                            <td>4.14</td>
+                            <td>M24</td>
+                            <td>3.00</td>
+                            <td>353</td>
+                            <td>3.77</td>
                         </tr>
                         <tr class="t-row">
-                            <td>30</td>
-                            <td>1-3/16</td>
-                            <td>900</td>
-                            <td>7.07</td>
-                            <td>4.75</td>
+                            <td>M27</td>
+                            <td>3.00</td>
+                            <td>459</td>
+                            <td>4.90</td>
                         </tr>
                         <tr class="t-row">
-                            <td>32</td>
-                            <td>1-1/4</td>
-                            <td>1024</td>
-                            <td>8.04</td>
-                            <td>5.40</td>
+                            <td>M30</td>
+                            <td>3.50</td>
+                            <td>561</td>
+                            <td>6.40</td>
                         </tr>
                         <tr class="t-row">
-                            <td>36</td>
-                            <td>1-7/16</td>
-                            <td>1296</td>
-                            <td>10.18</td>
-                            <td>6.83</td>
+                            <td>M33</td>
+                            <td>3.50</td>
+                            <td>694</td>
+                            <td>7.98</td>
                         </tr>
                         <tr class="t-row">
-                            <td>40</td>
-                            <td>1-9/16</td>
-                            <td>1600</td>
-                            <td>12.56</td>
-                            <td>8.43</td>
+                            <td>M36</td>
+                            <td>4.00</td>
+                            <td>817</td>
+                            <td>9.29</td>
                         </tr>
                         <tr class="t-row">
-                            <td>45</td>
-                            <td>1-3/4</td>
-                            <td>2025</td>
-                            <td>15.90</td>
-                            <td>10.67</td>
+                            <td>M39</td>
+                            <td>4.00</td>
+                            <td>976</td>
+                            <td>11.0</td>
                         </tr>
                         <tr class="t-row">
-                            <td>50</td>
-                            <td>2</td>
-                            <td>2500</td>
-                            <td>19.63</td>
-                            <td>13.19</td>
+                            <td>M42</td>
+                            <td>4.50</td>
+                            <td>1,134</td>
+                            <td>13.4</td>
                         </tr>
                         <tr class="t-row">
-                            <td>55</td>
-                            <td>2-3/16</td>
-                            <td>3025</td>
-                            <td>23.77</td>
-                            <td>15.98</td>
+                            <td>M45</td>
+                            <td>4.50</td>
+                            <td>1,303</td>
+                            <td>15.5</td>
                         </tr>
                         <tr class="t-row">
-                            <td>60</td>
-                            <td>2-3/8</td>
-                            <td>3600</td>
-                            <td>28.26</td>
-                            <td>18.99</td>
+                            <td>M48</td>
+                            <td>5.00</td>
+                            <td>1,470</td>
+                            <td>17.7</td>
                         </tr>
                         <tr class="t-row">
-                            <td>65</td>
-                            <td>2-1/2</td>
-                            <td>4225</td>
-                            <td>33.13</td>
-                            <td>22.25</td>
+                            <td>M52</td>
+                            <td>5.00</td>
+                            <td>1,676</td>
+                            <td>20.9</td>
                         </tr>
                         <tr class="t-row">
-                            <td>70</td>
-                            <td>2-3/4</td>
-                            <td>4900</td>
-                            <td>38.48</td>
-                            <td>25.82</td>
+                            <td>M56</td>
+                            <td>5.50</td>
+                            <td>1,962</td>
+                            <td>24.8</td>
                         </tr>
                         <tr class="t-row">
-                            <td>75</td>
-                            <td>3</td>
-                            <td>5625</td>
-                            <td>44.18</td>
-                            <td>29.68</td>
+                            <td>M60</td>
+                            <td>5.50</td>
+                            <td>2,216</td>
+                            <td>28.6</td>
                         </tr>
                         <tr class="t-row">
-                            <td>80</td>
-                            <td>3-1/8</td>
-                            <td>6400</td>
-                            <td>50.24</td>
-                            <td>33.71</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>90</td>
-                            <td>3-1/2</td>
-                            <td>8100</td>
-                            <td>63.62</td>
-                            <td>42.76</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>100</td>
-                            <td>4</td>
-                            <td>10000</td>
-                            <td>78.50</td>
-                            <td>52.73</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>110</td>
-                            <td>4-3/8</td>
-                            <td>12100</td>
-                            <td>95.00</td>
-                            <td>63.90</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>120</td>
-                            <td>4-3/4</td>
-                            <td>14400</td>
-                            <td>113.10</td>
-                            <td>76.00</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>125</td>
-                            <td>5</td>
-                            <td>15625</td>
-                            <td>122.72</td>
-                            <td>82.43</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>130</td>
-                            <td>5-1/8</td>
-                            <td>16900</td>
-                            <td>132.70</td>
-                            <td>89.10</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>140</td>
-                            <td>5-1/2</td>
-                            <td>19600</td>
-                            <td>153.70</td>
-                            <td>103.30</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>150</td>
-                            <td>6</td>
-                            <td>22500</td>
-                            <td>176.71</td>
-                            <td>118.70</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>160</td>
-                            <td>6-1/4</td>
-                            <td>25600</td>
-                            <td>201.10</td>
-                            <td>135.00</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>180</td>
-                            <td>7-1/8</td>
-                            <td>32400</td>
-                            <td>254.50</td>
-                            <td>170.90</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>200</td>
-                            <td>8</td>
-                            <td>40000</td>
-                            <td>314.00</td>
-                            <td>211.00</td>
+                            <td>M64</td>
+                            <td>6.00</td>
+                            <td>2,561</td>
+                            <td>33.6</td>
                         </tr>
                     </tbody>
                 </table>
 
+            </div>
+        </div>
+    </section>
+    <section class="bg-light" style="padding-top: 80px;">
+        <div class="container">
+
+            <!-- Parent Title -->
+            <div class="section-title center mb-4">
+                <h2 class="fw-bold" style="color: #174268;">Threaded Rod</h2>
+            </div>
+
+            <!-- Child Title -->
+            <div class="section-title center mb-3">
+                <h4 class="text-center mb-0" style="color: #db7227;">Expanded Table (for one item – Threaded Rod)</h4>
+            </div>
+
+
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Nominal Size (M)</th>
+                                    <th>Pitch (mm)</th>
+                                    <th>Tensile Stress Area (mm²)</th>
+                                    <th>Black Steel (kg/m)</th>
+                                    <th>Zinc Plated (kg/m)</th>
+                                    <th>Hot Dip Galvanized (kg/m)</th>
+                                    <th>Stainless Steel 304 (kg/m)</th>
+                                    <th>Stainless Steel 316 (kg/m)</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr class="t-row">
+                                    <td>M6</td>
+                                    <td>1.00</td>
+                                    <td>20.1</td>
+                                    <td>0.222</td>
+                                    <td>0.222</td>
+                                    <td>0.223</td>
+                                    <td>0.224</td>
+                                    <td>0.224</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>M8</td>
+                                    <td>1.25</td>
+                                    <td>36.6</td>
+                                    <td>0.373</td>
+                                    <td>0.374</td>
+                                    <td>0.375</td>
+                                    <td>0.376</td>
+                                    <td>0.376</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>M10</td>
+                                    <td>1.50</td>
+                                    <td>58.0</td>
+                                    <td>0.579</td>
+                                    <td>0.580</td>
+                                    <td>0.582</td>
+                                    <td>0.584</td>
+                                    <td>0.584</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>M12</td>
+                                    <td>1.75</td>
+                                    <td>84.3</td>
+                                    <td>0.821</td>
+                                    <td>0.823</td>
+                                    <td>0.826</td>
+                                    <td>0.829</td>
+                                    <td>0.829</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>M14</td>
+                                    <td>2.00</td>
+                                    <td>115</td>
+                                    <td>1.12</td>
+                                    <td>1.13</td>
+                                    <td>1.14</td>
+                                    <td>1.15</td>
+                                    <td>1.15</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>M16</td>
+                                    <td>2.00</td>
+                                    <td>157</td>
+                                    <td>1.58</td>
+                                    <td>1.59</td>
+                                    <td>1.60</td>
+                                    <td>1.62</td>
+                                    <td>1.62</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>M18</td>
+                                    <td>2.50</td>
+                                    <td>192</td>
+                                    <td>2.00</td>
+                                    <td>2.02</td>
+                                    <td>2.04</td>
+                                    <td>2.06</td>
+                                    <td>2.06</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>M20</td>
+                                    <td>2.50</td>
+                                    <td>245</td>
+                                    <td>2.47</td>
+                                    <td>2.49</td>
+                                    <td>2.51</td>
+                                    <td>2.53</td>
+                                    <td>2.53</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>M22</td>
+                                    <td>2.50</td>
+                                    <td>303</td>
+                                    <td>3.04</td>
+                                    <td>3.06</td>
+                                    <td>3.09</td>
+                                    <td>3.12</td>
+                                    <td>3.12</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>M24</td>
+                                    <td>3.00</td>
+                                    <td>353</td>
+                                    <td>3.77</td>
+                                    <td>3.80</td>
+                                    <td>3.83</td>
+                                    <td>3.86</td>
+                                    <td>3.86</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>M27</td>
+                                    <td>3.00</td>
+                                    <td>459</td>
+                                    <td>4.90</td>
+                                    <td>4.93</td>
+                                    <td>4.97</td>
+                                    <td>5.01</td>
+                                    <td>5.01</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>M30</td>
+                                    <td>3.50</td>
+                                    <td>561</td>
+                                    <td>6.40</td>
+                                    <td>6.44</td>
+                                    <td>6.48</td>
+                                    <td>6.53</td>
+                                    <td>6.53</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>M33</td>
+                                    <td>3.50</td>
+                                    <td>694</td>
+                                    <td>7.98</td>
+                                    <td>8.02</td>
+                                    <td>8.07</td>
+                                    <td>8.12</td>
+                                    <td>8.12</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>M36</td>
+                                    <td>4.00</td>
+                                    <td>817</td>
+                                    <td>9.29</td>
+                                    <td>9.34</td>
+                                    <td>9.39</td>
+                                    <td>9.44</td>
+                                    <td>9.44</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>M39</td>
+                                    <td>4.00</td>
+                                    <td>976</td>
+                                    <td>11.0</td>
+                                    <td>11.1</td>
+                                    <td>11.2</td>
+                                    <td>11.3</td>
+                                    <td>11.3</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>M42</td>
+                                    <td>4.50</td>
+                                    <td>1,134</td>
+                                    <td>13.4</td>
+                                    <td>13.5</td>
+                                    <td>13.6</td>
+                                    <td>13.7</td>
+                                    <td>13.7</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>M45</td>
+                                    <td>4.50</td>
+                                    <td>1,303</td>
+                                    <td>15.5</td>
+                                    <td>15.6</td>
+                                    <td>15.7</td>
+                                    <td>15.9</td>
+                                    <td>15.9</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>M48</td>
+                                    <td>5.00</td>
+                                    <td>1,470</td>
+                                    <td>17.7</td>
+                                    <td>17.8</td>
+                                    <td>18.0</td>
+                                    <td>18.2</td>
+                                    <td>18.2</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>M52</td>
+                                    <td>5.00</td>
+                                    <td>1,676</td>
+                                    <td>20.9</td>
+                                    <td>21.0</td>
+                                    <td>21.2</td>
+                                    <td>21.4</td>
+                                    <td>21.4</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>M56</td>
+                                    <td>5.50</td>
+                                    <td>1,962</td>
+                                    <td>24.8</td>
+                                    <td>25.0</td>
+                                    <td>25.2</td>
+                                    <td>25.4</td>
+                                    <td>25.4</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>M60</td>
+                                    <td>5.50</td>
+                                    <td>2,216</td>
+                                    <td>28.6</td>
+                                    <td>28.8</td>
+                                    <td>29.0</td>
+                                    <td>29.3</td>
+                                    <td>29.3</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>M64</td>
+                                    <td>6.00</td>
+                                    <td>2,561</td>
+                                    <td>33.6</td>
+                                    <td>33.8</td>
+                                    <td>34.0</td>
+                                    <td>34.3</td>
+                                    <td>34.3</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -390,7 +537,8 @@
                 <h2>Grades Available</h2>
             </div>
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">We offer Square Bars in a wide variety of grades:</h4>
+                <h4 class="text-center mb-0" style="color: #db7227;">We supply <strong>Threaded Rods</strong> in a wide
+                    range of grades:</h4>
             </div>
 
             <div class="row justify-content-center">
@@ -406,50 +554,52 @@
                             <tbody>
                                 <tr class="t-row">
                                     <td>Stainless Steel</td>
-                                    <td>304, 304L, 316, 316L, 310, 321, 347 <br>
-                                        <small>(Corrosion resistance & hygienic use)</small>
+                                    <td>
+                                        304, 304L, 316, 316L, 310, 321 <br>
+                                        <small>(For corrosion resistance in marine, food & pharma industries)</small>
                                     </td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Carbon Steel</td>
-                                    <td>ASTM A36, EN8, EN9, IS2062 <br>
-                                        <small>(General structural & engineering applications – MS Square Bar)</small>
-                                    </td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Alloy Steel</td>
-                                    <td>EN19, EN24, EN31, 4140, 4130 <br>
-                                        <small>(High-strength heavy-duty parts)</small>
+                                    <td>Carbon & Alloy Steel</td>
+                                    <td>
+                                        ASTM A193 B7/B7M, A320 L7/L7M, ASTM A307 <br>
+                                        <small>(For structural & high-strength use)</small>
                                     </td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Duplex & Super Duplex</td>
-                                    <td>2205, S32750, S32760 <br>
-                                        <small>(Offshore, chemical & marine projects)</small>
+                                    <td>
+                                        UNS S31803, S32205, S32750, S32760 <br>
+                                        <small>(For offshore & chemical plants)</small>
                                     </td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Nickel Alloys</td>
-                                    <td>Inconel, Monel, Hastelloy <br>
-                                        <small>(High temperature & corrosive environments – Times Square Bars)</small>
+                                    <td>
+                                        Inconel 600/625, Monel 400/K500, Hastelloy C22/C276 <br>
+                                        <small>(For extreme heat & corrosive service)</small>
                                     </td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Titanium</td>
-                                    <td>Grades 2, 5 <br>
-                                        <small>(Aerospace, desalination & critical industries)</small>
+                                    <td>
+                                        Grades 2, 5 <br>
+                                        <small>(Lightweight, strong, and corrosion-resistant for aerospace & medical
+                                            use)</small>
                                     </td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Copper & Brass</td>
-                                    <td>C11000, C26000 <br>
-                                        <small>(Decorative, electrical & marine applications – Brass Square Bar)</small>
+                                    <td>
+                                        C36000 Brass, C11000 Copper <br>
+                                        <small>(For decorative, electrical & architectural purposes)</small>
                                     </td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Aluminum</td>
-                                    <td>6061, 6082, 7075 <br>
-                                        <small>(Lightweight structural use – Aluminium Square Bar)</small>
+                                    <td>
+                                        6061, 6082 <br>
+                                        <small>(For lightweight fastening & corrosion-prone environments)</small>
                                     </td>
                                 </tr>
                             </tbody>
@@ -758,12 +908,14 @@
             <div class="section-title center">
                 <h2>Applications</h2>
                 <p class="text-center pb-3">
-                    <strong class="text-black">Square Bars</strong> are used in multiple industries for both functional and
-                    decorative purposes:
+                    <strong class="text-black">Threaded rods</strong> are essential for structural, mechanical, and
+                    industrial uses:
                 </p>
             </div>
 
             <div class="row g-4">
+
+                <!-- Construction & Infrastructure -->
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon">
@@ -771,70 +923,86 @@
                         </div>
                         <h5>Construction & Infrastructure</h5>
                         <ul>
-                            <li><b>Structural supports, braces, and reinforcement bars</b> in buildings, bridges &
-                                industrial projects.</li>
-                            <li>Used in <b>grills, gates, frames, and base plates</b>
-                                (<b>square bar grill design</b>, <b>square bar gate design</b>, <b>modern square bar gate
-                                    design</b>, <b>modern square bar window grill design photos</b>).
+                            <li>Used for suspending ceilings, HVAC systems, ductwork, and cable trays</li>
+                            <li>Foundation anchoring, structural reinforcement, and joining of steel frames</li>
+                            <li>Used in concrete anchoring, pipe supports, and structural frameworks</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Marine & Offshore -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon">
+                            <i class="bi bi-tsunami"></i>
+                        </div>
+                        <h5>Marine & Offshore</h5>
+                        <ul>
+                            <li>Stainless & duplex threaded rods for docks, jetties, shipbuilding, and offshore rigs</li>
+                            <li>Corrosion-resistant fasteners for saltwater exposure</li>
+                            <li>Stainless steel and brass rods offer excellent corrosion resistance</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Oil, Gas & Petrochemical -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon">
+                            <i class="bi bi-fuel-pump-fill"></i>
+                        </div>
+                        <h5>Oil, Gas & Petrochemical</h5>
+                        <ul>
+                            <li>Threaded rods for valves, flanges, pressure vessels, and refinery pipelines</li>
+                            <li>High-strength alloy rods for offshore platforms and chemical plants</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Industrial & Mechanical -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon">
+                            <i class="bi bi-gear-wide-connected"></i>
+                        </div>
+                        <h5>Industrial & Mechanical</h5>
+                        <ul>
+                            <li>Used in equipment assembly, heavy machinery, turbines, pumps, and compressors</li>
+                            <li>Support rods for industrial installations and maintenance</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Automotive & Aerospace -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon">
+                            <i class="bi bi-airplane-engines"></i>
+                        </div>
+                        <h5>Automotive & Aerospace</h5>
+                        <ul>
+                            <li>Titanium and alloy threaded rods for engine components, suspension systems, and aircraft
+                                assemblies</li>
+                            <li>For assembling machinery, suspension systems, and engine parts</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Architectural & Decorative -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon">
+                            <i class="bi bi-brush-fill"></i>
+                        </div>
+                        <h5>Architectural & Decorative</h5>
+                        <ul>
+                            <li>Brass and copper threaded rods for furniture, decorative railings, signage, and interiors
                             </li>
                         </ul>
                     </div>
                 </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon">
-                            <i class="bi bi-water"></i>
-                        </div>
-                        <h5>Marine & Offshore</h5>
-                        <ul>
-                            <li><b>Duplex and copper nickel square bars</b> for ship fittings, marine furniture, and
-                                offshore platforms.</li>
-                            <li><b>Corrosion-resistant stainless steel square bar</b> for seawater applications.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon">
-                            <i class="bi bi-fuel-pump"></i>
-                        </div>
-                        <h5>Oil, Gas & Petrochemical</h5>
-                        <ul>
-                            <li>Machined into <b>valve bodies, pump parts, and connectors</b>.</li>
-                            <li><b>Alloy square bars</b> for refinery, pipeline, and chemical plant applications.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-6">
-                    <div class="application-card">
-                        <div class="application-icon">
-                            <i class="bi bi-car-front"></i>
-                        </div>
-                        <h5>Automotive & Aerospace</h5>
-                        <ul>
-                            <li><b>Alloy & titanium square bars</b> for chassis components, structural frames & tooling
-                                parts.</li>
-                            <li><b>Aluminium square bar</b> for lightweight automotive and aerospace structures.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-6">
-                    <div class="application-card">
-                        <div class="application-icon">
-                            <i class="bi bi-brush"></i>
-                        </div>
-                        <h5>Decorative & Architectural</h5>
-                        <ul>
-                            <li><b>Mirror polished stainless & brass square bar</b> for luxury interiors, furniture,
-                                signage, and ornamental work.</li>
-                        </ul>
-                    </div>
-                </div>
             </div>
+
             {{-- <p class="text-center pb-3 my-4"><strong class="text-dark">HASTELLOY C-276's</strong> unique combination of
                 corrosion resistance, weldability, and mechanical durability makes it a reliable material for
                 mission-critical applications where long-term performance is non-negotiable.
@@ -847,52 +1015,58 @@
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
-                <h2>Uses of Square Bars</h2>
+                <h2>Uses of Threaded Rods</h2>
             </div>
             <!-- Child Title -->
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Square Bars are used extensively
+                <h4 class="text-center mb-0" style="color: #db7227;">Threaded Rods are used extensively
                     across multiple
                     industries, including:</h4>
             </div>
             <div class="row g-4 mt-4">
+
+                <!-- Structural Fastening -->
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-box-seam"></i></div>
-                        <h4>Fabrication Stock</h4>
-                        <h5>Used for <b>cutting, drilling, machining, and welding</b> into components.</h5>
+                        <div class="advantage-icon"><i class="bi bi-diagram-3-fill"></i></div>
+                        <h4>Structural Fastening</h4>
+                        <h5>Connects and reinforces steel, wood, and concrete structures</h5>
                     </div>
                 </div>
 
+                <!-- Suspension Systems -->
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-building"></i></div>
-                        <h4>Structural Strength</h4>
-                        <h5>Supports frameworks and <b>construction needs (ms square bar)</b>.</h5>
+                        <div class="advantage-icon"><i class="bi bi-box-arrow-down"></i></div>
+                        <h4>Suspension Systems</h4>
+                        <h5>Hangs ceilings, piping, ductwork, and equipment</h5>
                     </div>
                 </div>
 
+                <!-- Assembly & Maintenance -->
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-brush-fill"></i></div>
-                        <h4>Decorative Applications</h4>
-                        <h5>Available in <b>polished finishes</b> for interior and exterior use.</h5>
+                        <div class="advantage-icon"><i class="bi bi-tools"></i></div>
+                        <h4>Assembly & Maintenance</h4>
+                        <h5>Ideal for machinery installation and repairs</h5>
                     </div>
                 </div>
 
+                <!-- Custom Lengths -->
                 <div class="col-sm-6 col-lg-6">
                     <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-gear-wide-connected"></i></div>
-                        <h4>Machined Parts</h4>
-                        <h5>Easily converted into <b>fittings, tools, and machine components</b>.</h5>
+                        <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
+                        <h4>Custom Lengths</h4>
+                        <h5>Easily cut or extended for specific project requirements</h5>
                     </div>
                 </div>
 
+                <!-- Temporary or Permanent Fixing -->
                 <div class="col-sm-12 col-lg-6">
                     <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-lightning-charge-fill"></i></div>
-                        <h4>Marine & Electrical Use</h4>
-                        <h5><b>Copper & brass square bar</b> for hardware and conductive applications.</h5>
+                        <div class="advantage-icon"><i class="bi bi-link-45deg"></i></div>
+                        <h4>Temporary or Permanent Fixing</h4>
+                        <h5>Suitable for bolted or tensioned applications</h5>
                     </div>
                 </div>
             </div>
@@ -904,61 +1078,59 @@
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
-                <h2>Advantages of Square Bars</h2>
+                <h2>Advantages of Threaded Rods</h2>
             </div>
 
             <div class="row g-4 mt-4">
+
+                <!-- High Tensile Strength -->
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-gear"></i></div>
-                        <h4>Precision Manufacturing</h4>
-                        <h5>Tighter tolerances for <b>machining & fabrication</b>.</h5>
+                        <div class="advantage-icon"><i class="bi bi-graph-up-arrow"></i></div>
+                        <h4>High Tensile Strength</h4>
+                        <h5>High tensile strength and load capacity.</h5>
                     </div>
                 </div>
 
+                <!-- Easy Customization -->
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-layers"></i></div>
-                        <h4>Material Variety</h4>
-                        <h5>Available in <b>Stainless, Duplex, <a
-                                    href="{{ route('materials.nickel-Based-Superalloys') }}">Nickel</a>, Titanium, Brass,
-                                Copper</b>, and more.</h5>
+                        <div class="advantage-icon"><i class="bi bi-scissors"></i></div>
+                        <h4>Easy Customization</h4>
+                        <h5>Easy to cut and customize to desired length.</h5>
                     </div>
                 </div>
 
+                <!-- Compatibility -->
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-brush-fill"></i></div>
-                        <h4>Surface Finishes</h4>
-                        <h5>From <b>rough hot rolled</b> to <b>bright polished</b> for decorative projects.</h5>
+                        <div class="advantage-icon"><i class="bi bi-nut"></i></div>
+                        <h4>Compatibility</h4>
+                        <h5>Compatible with nuts, bolts, and washers.</h5>
                     </div>
                 </div>
 
-                <div class="col-sm-6 col-lg-4">
+                <!-- Material & Finish Options -->
+                <div class="col-sm-6 col-lg-6">
                     <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-sliders"></i></div>
-                        <h4>Customization</h4>
-                        <h5><b>Cut-to-length</b> & special sizes as per project needs.</h5>
+                        <div class="advantage-icon"><i class="bi bi-palette"></i></div>
+                        <h4>Material & Finish Options</h4>
+                        <h5>Wide material and finish options available.</h5>
                     </div>
                 </div>
 
-                <div class="col-sm-6 col-lg-4">
+                <!-- Temperature & Corrosion Resistance -->
+                <div class="col-sm-6 col-lg-6">
                     <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-check2-circle"></i></div>
-                        <h4>Standard Compliance</h4>
-                        <h5>Meets <b>ASTM, ASME, DIN, EN, and ISO</b> requirements.</h5>
+                        <div class="advantage-icon"><i class="bi bi-thermometer-sun"></i></div>
+                        <h4>Temperature & Corrosion Resistance</h4>
+                        <h5>Suitable for high-temperature and corrosive environments.</h5>
                     </div>
                 </div>
 
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-lock"></i></div>
-                        <h4>Durability</h4>
-                        <h5>Ensures <b>long lasting performance</b> even in extreme conditions.</h5>
-                    </div>
-                </div>
             </div>
 
+        </div>
         </div>
     </section>
 
@@ -972,47 +1144,48 @@
             </div>
 
             <div class="row g-4 mt-4">
+
+                <!-- Complete Inventory -->
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5><b>Expertise in Fabrication:</b> Decades of experience in crafting high quality steel furniture.
-                        </h5>
+                        <div class="why-banner-icon"><i class="bi bi-box-seam"></i></div>
+                        <h5>Complete Inventory: Threaded rods in multiple grades, lengths & coatings.</h5>
                     </div>
                 </div>
 
+                <!-- ISO Certified -->
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-brush-fill"></i></div>
-                        <h5><b>Custom Design Solutions:</b> From concept to completion, we deliver furniture tailored to
-                            your vision.</h5>
+                        <div class="why-banner-icon"><i class="bi bi-patch-check-fill"></i></div>
+                        <h5>ISO 9001:2015 Certified: Quality assurance with Mill Test Certificates (MTC).</h5>
                     </div>
                 </div>
 
+                <!-- Customization Capability -->
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-gem"></i></div>
-                        <h5><b>Premium Material Selection:</b> Only certified steel grades are used for superior quality.
-                        </h5>
+                        <div class="why-banner-icon"><i class="bi bi-sliders"></i></div>
+                        <h5>Customization Capability: Special lengths, left hand threads, and coatings available.</h5>
                     </div>
                 </div>
 
+                <!-- Worldwide Reach -->
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5><b>Global Reach & Timely Delivery:</b> Supplying projects across India and worldwide.</h5>
+                        <h5>Worldwide Reach: Supplying to construction, oil & gas, marine, and industrial clients.</h5>
                     </div>
                 </div>
 
+                <!-- Timely Dispatch -->
                 <div class="col-sm-12 col-lg-6">
                     <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-currency-rupee"></i></div>
-                        <h5><b>Competitive Pricing:</b> Affordable solutions without compromising quality or craftsmanship.
-                        </h5>
+                        <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
+                        <h5>Timely Dispatch: Large stock for fast delivery worldwide.</h5>
                     </div>
                 </div>
             </div>
 
-        </div>
         </div>
     </section>
 
@@ -1027,17 +1200,16 @@
                         </div>
 
                         <!--Start single accordion box-->
+                        <!--Start single accordion box-->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What is an M.S. Square Bar?</h4>
+                                <h4>What is a threaded rod used for?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    An M.S. (Mild Steel) Square Bar is a solid steel bar with a square shaped cross section.
-                                    It is made from mild steel,
-                                    which is known for its strength, flexibility, and cost effectiveness. These bars are
-                                    widely used in construction,
-                                    fabrication, railings, industrial frameworks, and general engineering applications.
+                                    A threaded rod is used for fastening applications where long, durable, and adjustable
+                                    fasteners are required.
+                                    It is commonly applied in construction, electrical, and industrial projects.
                                 </p>
                             </div>
                         </div>
@@ -1046,14 +1218,11 @@
                         <!--Start single accordion box-->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>How is a steel square bar designed edge to edge?</h4>
+                                <h4>What is the weight of M12 threaded rod per meter?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    A steel square bar is designed with equal dimensions on all four sides, giving it a
-                                    uniform “edge to edge” square shape.
-                                    This consistent design makes it easy to cut, weld, drill, and use in structural or
-                                    decorative applications.
+                                    The M12 threaded rod weight per meter is approximately 0.860 kg as per standard charts.
                                 </p>
                             </div>
                         </div>
@@ -1062,53 +1231,49 @@
                         <!--Start single accordion box-->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What are the advantages of using M.S. Square Bars?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <ul>
-                                    <li>Strong and durable</li>
-                                    <li>Easy to cut, bend, and weld</li>
-                                    <li>Cost-effective compared to other metals</li>
-                                    <li>Widely available in different sizes and lengths</li>
-                                    <li>Versatile for construction, manufacturing, and DIY projects</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Where are M.S. Square Bars commonly used?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <ul>
-                                    <li>Building construction</li>
-                                    <li>Industrial machinery and tools</li>
-                                    <li>Metal gates and railings</li>
-                                    <li>Furniture frames</li>
-                                    <li>Structural frameworks</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Can M.S. Square Bars be customized?</h4>
+                                <h4>Which material is best for threaded rods?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Yes, M.S. Square Bars can be cut, machined, or fabricated into custom sizes and shapes
-                                    depending on project requirements.
+                                    For corrosion resistance, stainless steel threaded rods (SS 304, SS 316) are the best
+                                    choice.
+                                    For heavy load-bearing, carbon steel threaded rods are preferred.
                                 </p>
                             </div>
                         </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the standard sizes of threaded rods?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Standard threaded rod sizes range from M6 to M64 in metric and 1/4” to 4” in imperial
+                                    standards.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Where can I find a threaded rod weight chart?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    We provide a detailed threaded rod weight chart above with diameter, pitch, and weight
+                                    per meter for quick reference.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
                         <!--End single accordion box-->
 
                     </div>
-
                 </div>
             </div>
         </div>
@@ -1120,9 +1285,8 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    Looking for Stainless Steel, MS, Aluminium, or Brass Square Bars? <br><a
-                            href="{{ route('index') }}"><b>Moksh Tubes</b></a> delivers premium
-                    square bars with precision manufacturing, global supply, and fast delivery.
+                    Looking for Custom Steel Furniture that combines design, durability, and value?<br>Contact <strong><a
+                            href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a></strong>
                 </p>
                 <!-- Call button -->
                 <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>

@@ -33,18 +33,18 @@
                         [
                             'name' => 'Square Bars',
                             'slug' => 'square-bars',
-                            'image' => 'assets/images/peoduct/welded-pipes-tubes.webp',
+                            'image' => 'assets/images/peoduct/Bars & Rods/square-bars.webp',
                         ],
-                        // [
-                        //     'name' => 'Seamless Pipes',
-                        //     'slug' => 'seamless-pipes',
-                        //     'image' => 'assets/images/peoduct/seamless-pipes-2.webp',
-                        // ],
-                        // [
-                        //     'name' => 'Capillaries',
-                        //     'slug' => 'capillaries',
-                        //     'image' => 'assets/images/peoduct/capillary-tubes.webp',
-                        // ],
+                        [
+                            'name' => 'Threaded Rods',
+                            'slug' => 'threaded-rods',
+                            'image' => 'assets/images/peoduct/Bars & Rods/threaded-rods.webp',
+                        ],
+                        [
+                            'name' => 'Round Bars',
+                            'slug' => 'round-bars',
+                            'image' => 'assets/images/peoduct/Bars & Rods/round-bars.webp',
+                        ],
                         // [
                         //     'name' => 'Hollow Section Pipe',
                         //     'slug' => 'hollow-section-pipe',

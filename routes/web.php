@@ -53,7 +53,9 @@ Route::get('/products/special-fabricated/fabricated-ss-grills', [MainController:
 
 // Bars & Rods
 Route::get('/products/bars-rods', [MainController::class, 'barsRods'])->name('products.bars-rods');
-Route::get('/products/square-bars', [MainController::class, 'squareBars'])->name('products.bars-rods.square-bars');
+Route::get('/products/bars-rods/square-bars', [MainController::class, 'squareBars'])->name('products.bars-rods.square-bars');
+Route::get('/products/bars-rods/threaded-rods', [MainController::class, 'threadedRods'])->name('products.bars-rods.threaded-rods');
+Route::get('/products/bars-rods/round-bars', [MainController::class, 'roundBars'])->name('products.bars-rods.round-bars');
 
 
 //blogs//

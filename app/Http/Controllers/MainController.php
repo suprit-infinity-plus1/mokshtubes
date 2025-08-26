@@ -452,7 +452,7 @@ class MainController extends Controller
     {
         $types = [
             ['name' => 'Square Bars', 'slug' => 'square-bars'],
-            // ['name' => 'Fabricated SS Grills', 'slug' => 'fabricated-ss-grills'],
+            ['name' => 'Threaded Rods', 'slug' => 'threaded-rods'],
             // ['name' => 'Capillaries', 'slug' => 'capillaries'],
             // ['name' => 'Hollow Section Pipe', 'slug' => 'hollow-section-pipe'],
             // ['name' => 'U-Bent Tubes', 'slug' => 'u-bent-tubes'],
@@ -465,6 +465,14 @@ class MainController extends Controller
  public function squareBars()
     {
         return view('frontend.products.bars-rods.square-bars');
+    }
+ public function threadedRods()
+    {
+        return view('frontend.products.bars-rods.threaded-rods');
+    }
+ public function roundBars()
+    {
+        return view('frontend.products.bars-rods.round-bars');
     }
 
 }
