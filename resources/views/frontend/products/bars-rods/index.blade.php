@@ -14,7 +14,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Special Fabricated</h1>
+                    <h1>Bars & Rods</h1>
                 </div>
             </div>
         </div>
@@ -24,22 +24,22 @@
     <section class="sec-padd-top sec-padd-bottom bg-white">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Special Fabricated Types</h2>
+                <h2 class="fw-bold" style="color: #174268;">Bars & Rods Types</h2>
             </div>
 
             <div class="row g-4">
                 @php
                     $types = [
                         [
-                            'name' => 'Custom Steel Furniture',
-                            'slug' => 'custom-steel-furniture',
-                            'image' => 'assets/images/peoduct/steel-furniture/custom-steel-furniture.webp',
+                            'name' => 'Square Bars',
+                            'slug' => 'square-bars',
+                            'image' => 'assets/images/peoduct/welded-pipes-tubes.webp',
                         ],
-                        [
-                            'name' => 'Fabricated SS Grills',
-                            'slug' => 'fabricated-ss-grills',
-                            'image' => 'assets/images/peoduct/seamless-pipes-2.webp',
-                        ],
+                        // [
+                        //     'name' => 'Seamless Pipes',
+                        //     'slug' => 'seamless-pipes',
+                        //     'image' => 'assets/images/peoduct/seamless-pipes-2.webp',
+                        // ],
                         // [
                         //     'name' => 'Capillaries',
                         //     'slug' => 'capillaries',
@@ -50,12 +50,22 @@
                         //     'slug' => 'hollow-section-pipe',
                         //     'image' => 'assets/images/peoduct/hollow-section-pipe.webp',
                         // ],
-                    ];
+                        // [
+                        //     'name' => 'U-Bent Tubes',
+                        //     'slug' => 'u-bent-tubes',
+                        //     'image' => 'assets/images/peoduct/u-bent-tubes.webp',
+                        // ],
+                    //     [
+                    //         'name' => 'Boiler & Heat Exchanger Tubes',
+                    //         'slug' => 'boiler-heat-exchanger-tubes',
+                    //         'image' => 'assets/images/peoduct/boiler-heat-exchanger-tubes.webp',
+                    //     ],
+                       ];
                 @endphp
 
                 @foreach ($types as $type)
                     <div class="col-12 col-sm-6 col-lg-4">
-                        <a href="{{ url('/products/special-fabricated/' . $type['slug']) }}" class="text-decoration-none">
+                        <a href="{{ url('/products/bars-rods/' . $type['slug']) }}" class="text-decoration-none">
                             <div class="custom-product-card rounded overflow-hidden shadow h-100 position-relative">
                                 {{-- <img src="https://placehold.co/600x350/db7227/fff?" class="img-fluid w-100"
                                     alt="{{ $type['name'] }}"> --}}

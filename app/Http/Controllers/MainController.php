@@ -423,7 +423,7 @@ class MainController extends Controller
         return view('frontend.products.pipes-tubes.boiler-heat-exchanger-tubes');
     }
 
-// 2end Product
+// Special Fabricated Product
  public function specialFabricated()
     {
         $types = [
@@ -448,6 +448,23 @@ class MainController extends Controller
     }
 
 
+ public function barsRods()
+    {
+        $types = [
+            ['name' => 'Square Bars', 'slug' => 'square-bars'],
+            // ['name' => 'Fabricated SS Grills', 'slug' => 'fabricated-ss-grills'],
+            // ['name' => 'Capillaries', 'slug' => 'capillaries'],
+            // ['name' => 'Hollow Section Pipe', 'slug' => 'hollow-section-pipe'],
+            // ['name' => 'U-Bent Tubes', 'slug' => 'u-bent-tubes'],
+            // ['name' => 'Boiler & Heat Exchanger Tubes', 'slug' => 'boiler-heat-exchanger-tubes'],
+        ];
 
+        return view('frontend.products.bars-rods.index', compact('types'));
+    }
+
+ public function squareBars()
+    {
+        return view('frontend.products.bars-rods.square-bars');
+    }
 
 }

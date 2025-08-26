@@ -51,6 +51,10 @@ Route::get('/products/special-fabricated', [MainController::class, 'specialFabri
 Route::get('/products/special-fabricated/custom-steel-furniture', [MainController::class, 'customSteelFurniture'])->name('products.special-fabricated.custom-steel-furniture');
 Route::get('/products/special-fabricated/fabricated-ss-grills', [MainController::class, 'fabricatedSsGrills'])->name('products.special-fabricated.fabricated-ss-grills');
 
+// Bars & Rods
+Route::get('/products/bars-rods', [MainController::class, 'barsRods'])->name('products.bars-rods');
+Route::get('/products/square-bars', [MainController::class, 'squareBars'])->name('products.bars-rods.square-bars');
+
 
 //blogs//
 Route::get('/blogs/stainless-steel-inconel-tubes', [MainController::class, 'StainlessSteelInconelTubes'])->name('blogs.stainless-steel-inconel-tubes');

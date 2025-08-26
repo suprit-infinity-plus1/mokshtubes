@@ -282,7 +282,7 @@
                                                     $productCategories = [
                                                         'Pipes & Tubes',
                                                         // 'Sheets, Plates & Coils',
-                                                        // 'Bars & Rods',
+                                                        'Bars & Rods',
                                                         // 'Pipe Fittings, Flanges & Fasteners',
                                                         'Special Fabricated',
                                                     ];
@@ -358,9 +358,9 @@
                                         <li class="dropdown"><a href="{{ route('products') }}">Products</a>
                                             <ul>
                                                 <li><a href="{{ route('products.pipes-tubes') }}">PIPES & TUBES</a></li>
-                                                {{-- <li><a href="#">SHEETS, PLATES & COILS</a></li>
+                                                 {{-- <li><a href="#">SHEETS, PLATES & COILS</a></li> --}}
                                                 <li><a href="#">BARS & RODS</a></li>
-                                                <li><a href="#">PIPE FITTINGS, FLANGES & FASTENERS</a></li> --}}
+                                                {{--<li><a href="#">PIPE FITTINGS, FLANGES & FASTENERS</a></li> --}}
                                                 <li><a href="{{ route('products.special-fabricated') }}">SPECIAL FABRICATED PRODUCTS</a></li>
                                             </ul>
                                         </li>
