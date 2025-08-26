@@ -8468,13 +8468,14 @@ ul.gallery-filter li span {
 
 .exapmle ul {
     list-style-position: inside;
-    padding-left: 30px;
+    /* padding-left: 30px; */
 }
 
 .exapmle li {
     margin-bottom: 0.25rem;
     color: #848484;
     list-style-type: disc;
+
 }
 
 .tip-box {
@@ -8535,6 +8536,3 @@ ul.gallery-filter li span {
 .black-box {
     position: relative;
 }
-
-
-

@@ -379,6 +379,7 @@ class MainController extends Controller
         return view('frontend.products.index');
     }
 
+    // 1st Product pipes & tubes
     public function pipesTubes()
     {
         $types = [
@@ -422,8 +423,29 @@ class MainController extends Controller
         return view('frontend.products.pipes-tubes.boiler-heat-exchanger-tubes');
     }
 
+// 2end Product
+ public function specialFabricated()
+    {
+        $types = [
+            ['name' => 'Custom Steel Furniture', 'slug' => 'custom-steel-furniture'],
+            ['name' => 'Fabricated SS Grills', 'slug' => 'fabricated-ss-grills'],
+            // ['name' => 'Capillaries', 'slug' => 'capillaries'],
+            // ['name' => 'Hollow Section Pipe', 'slug' => 'hollow-section-pipe'],
+            // ['name' => 'U-Bent Tubes', 'slug' => 'u-bent-tubes'],
+            // ['name' => 'Boiler & Heat Exchanger Tubes', 'slug' => 'boiler-heat-exchanger-tubes'],
+        ];
 
+        return view('frontend.products.special-fabricated.index', compact('types'));
+    }
 
+ public function customSteelFurniture()
+    {
+        return view('frontend.products.special-fabricated.custom-steel-furniture');
+    }
+ public function fabricatedSsGrills()
+    {
+        return view('frontend.products.special-fabricated.fabricated-ss-grills');
+    }
 
 
 

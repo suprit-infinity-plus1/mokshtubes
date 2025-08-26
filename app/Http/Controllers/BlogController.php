@@ -87,7 +87,7 @@ class BlogController extends Controller
                 'author' => 'Jash Jain',
                 'comments' => 16,
                 'date' => 'august 22, 2025',
-                'image' => 'assets/images/blog/everything-you-need-to-know-about-welded-and-seamless-pipes.webp',
+                'image' => 'assets/images/blog/why-hastelloy-weighs-more-than-stainless-steel.webp',
                 'excerpt' => 'When selecting metals for demanding industrial applications, weight matters as much',
                 'link' => route('blogs.why-hastelloy-weighs-more-than-stainless-steel')
             ],

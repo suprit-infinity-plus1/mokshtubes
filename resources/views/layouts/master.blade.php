@@ -274,7 +274,7 @@
                                         <li class="nav-item"><a class="nav-link" href="{{ route('about-us') }}">About
                                                 Us</a></li>
                                         <li class="nav-item dropdown"><a class="nav-link"
-                                                href="{{ url('/products') }}" data-bs-toggle="dropdown">Products</a>
+                                                href="{{ url('/products') }}" data-bs-toggle="dropdown">Products</a></li>
                                             <ul class="dropdown-menu"
                                                 style="display: none; overflow-x: auto; padding-top: 12px; margin-top: 0px; padding-bottom: 12px; margin-bottom: 0px;">
 
@@ -284,7 +284,7 @@
                                                         // 'Sheets, Plates & Coils',
                                                         // 'Bars & Rods',
                                                         // 'Pipe Fittings, Flanges & Fasteners',
-                                                        // 'Special Fabricated Products',
+                                                        'Special Fabricated',
                                                     ];
                                                 @endphp
 
@@ -357,14 +357,32 @@
 
                                         <li class="dropdown"><a href="{{ route('products') }}">Products</a>
                                             <ul>
-                                                <li><a href="#">PIPES & TUBES</a></li>
+                                                <li><a href="{{ route('products.pipes-tubes') }}">PIPES & TUBES</a></li>
                                                 {{-- <li><a href="#">SHEETS, PLATES & COILS</a></li>
                                                 <li><a href="#">BARS & RODS</a></li>
-                                                <li><a href="#">PIPE FITTINGS, FLANGES & FASTENERS</a></li>
-                                                <li><a href="#">SPECIAL FABRICATED PRODUCTS</a></li> --}}
+                                                <li><a href="#">PIPE FITTINGS, FLANGES & FASTENERS</a></li> --}}
+                                                <li><a href="{{ route('products.special-fabricated') }}">SPECIAL FABRICATED PRODUCTS</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="#">MATERIALS</a></li>
+                                        <li class="dropdown"><a href="{{ route('materials') }}">Materials</a>
+                                            <ul>
+                                                <li><a href="{{ route('materials.hastelloy') }}">Hastelloy</a></li>
+                                                <li><a href="{{ route('materials.monel') }}">Monel</a></li>
+                                                <li><a href="{{ route('materials.incoloy') }}">Incoloy</a></li>
+                                                <li><a href="{{ route('materials.nickel-Based-Superalloys') }}">Nickel Based Superalloys</a></li>
+                                                <li><a href="{{ route('materials.inconel') }}">Inconel</a></li>
+                                                <li><a href="{{ route('materials.titanium') }}">Titanium</a></li>
+                                                <li><a href="{{ route('materials.aluminium-Alloys') }}">Aluminium Alloys</a></li>
+                                                <li><a href="{{ route('materials.super-Austenitic-Stainless-Steel') }}">Super Austenitic Stainless Steel</a></li>
+                                                <li><a href="{{ route('materials.hard-To-Find-Special-Alloys') }}">Hard To Find Special Alloys</a></li>
+                                                <li><a href="{{ route('materials.engineering-Steels') }}">Engineering Steels</a></li>
+                                                <li><a href="{{ route('materials.austenitic-stainless-Steel') }}">Austenitic Stainless Steel</a></li>
+                                                <li><a href="{{ route('materials.copper-Alloys') }}">Copper Alloys</a></li>
+                                                <li><a href="{{ route('materials.zirconium') }}">Zirconium</a></li>
+                                                <li><a href="{{ route('materials.haynes-Superalloys') }}">Haynes Superalloys</a></li>
+                                            </ul>
+                                        {{-- <li><a href="{{ route('materials') }}">MATERIALS</a></li> --}}
+
                                         <li><a href="#">QUALITY</a></li>
                                         <li><a href="{{ route('calculator') }}">CALCULATOR</a></li>
                                         <li><a href="{{ route('blogs') }}">Blogs</a></li>
