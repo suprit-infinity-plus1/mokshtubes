@@ -273,8 +273,10 @@
                                         </li>
                                         <li class="nav-item"><a class="nav-link" href="{{ route('about-us') }}">About
                                                 Us</a></li>
+                                        {{-- <li class="nav-item dropdown"><a class="nav-link"
+                                                href="{{ url('/products') }}" data-bs-toggle="dropdown">Products</a></li> --}}
                                         <li class="nav-item dropdown"><a class="nav-link"
-                                                href="{{ url('/products') }}" data-bs-toggle="dropdown">Products</a></li>
+                                                href="{{ route('products') }}">Products</a>
                                             <ul class="dropdown-menu"
                                                 style="display: none; overflow-x: auto; padding-top: 12px; margin-top: 0px; padding-bottom: 12px; margin-bottom: 0px;">
 
