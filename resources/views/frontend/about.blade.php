@@ -1,7 +1,6 @@
 @extends('layouts.master')
-@section('title', 'About Mokshtubes | Expertise in High-Performance Alloys & Industrial Solutions')
-@section('meta_description', 'Mokshtubes is your trusted partner for hard-to-find metal alloys, delivering premium
-    quality, reliable supply, and expert support for all industrial needs.')
+@section('title', 'About Moksh Tubes | Experts in Alloys & Industrial Solutions')
+@section('meta_description', 'Moksh Tubes is your trusted partner for hard-to-find metal alloys, offering premium quality, reliable supply & expert support for global industrial needs.')
 @section('meta_keywords', 'Mokshtubes, Metal Alloys Supplier, High Performance Alloys, Industrial Metal Solutions,
     Hard-to-Find Alloys, Premium Quality Alloys, Reliable Alloy Supply, Industrial Alloy Support, Metal Tubes and Fittings,
     Engineering Alloys Supplier')

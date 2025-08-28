@@ -1,8 +1,7 @@
 @extends('layouts.master')
 @section('title', 'Round Bars | SS, MS, Alloy Steel, Copper, Brass, Nickel – Mokshtubes')
 @section('meta_description',
-    'Mokshtubes offers stainless steel, MS, alloy steel, nickel alloy, titanium, aluminium,
-    brass & copper round bars with grades, sizes & weight chart.')
+    'Mokshtubes offers stainless steel, MS, alloy steel, nickel alloy, titanium, aluminium, brass & copper round bars with grades, sizes & weight chart.')
 @section('meta_keywords', 'Round Bars')
 @section('content')
 

@@ -30,7 +30,7 @@
             </div>
 
             <h2 class="fw-semibold text-center mb-5" style="color: #db7227;">
-                Introduction To Carbide Alloys (TUNGSTEN CARBIDE / TITANIUM CARBIDE / TANTALUM CARBIDE)
+                Introduction to Carbide Alloys – Tungsten, Titanium & Tantalum
             </h2>
 
             <div class="row align-items-center">

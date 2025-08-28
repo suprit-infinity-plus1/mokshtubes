@@ -1,8 +1,7 @@
 @extends('layouts.master')
 
-@section('title', 'Stellite | Superior Hardness & Wear Resistance')
-@section('meta_description', 'Stellite offers exceptional hardness, wear resistance, and corrosion protection, ideal for
-    cutting tools, valves, industrial machinery, and high-stress applications.')
+@section('title', 'Stellite Metal | Moksh Tubes – Durable & High Strength')
+@section('meta_description', 'Stellite Alloys | Moksh Tubes – Superior hardness, wear & corrosion resistance for cutting tools, valves, machinery, and high-stress applications.')
 @section('meta_keywords', 'Stellite alloy, high hardness alloy, wear resistant alloy, corrosion resistant alloy, cutting
     tools alloy, valves alloy, industrial machinery alloy, durable Stellite')
 

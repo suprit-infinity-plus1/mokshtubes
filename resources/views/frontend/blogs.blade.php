@@ -1,7 +1,7 @@
 @extends('layouts.master')
-@section('title', 'Mokshtubes | High-Performance Metal Alloys & Industrial Products')
+@section('title', 'Blog | Industry Insights, News & Updates | Moksh Tubes')
 
-@section('meta_description', 'Need help with industrial alloys or custom metal solutions? Contact Mokshtubes LLP by phone, email, or visit — we’re here to help.')
+@section('meta_description', 'Explore the Moksh Tubes Blog for the latest industry insights, product updates & expert articles on stainless steel, alloys, pipes, tubes & fittings.')
 @section('meta_keywords', 'Mokshtubes Contact, Industrial Alloys Support, Custom Metal Solutions, Metal Alloys Supplier, Product Inquiries, Technical Assistance, High Performance Alloys, Alloy Supply Contact, Industrial Metal Solutions, Mokshtubes LLP')
 {{-- @section('canonical', 'https://blogs.com') --}}
 @section('content')

@@ -1,6 +1,9 @@
 @extends('layouts.master')
 
-@section('title', 'Stainless Steel vs Inconel Tubes - Moksh Tubes & Fittings LLP')
+@section('title', 'Stainless Steel vs Inconel Tubes | Key Differences')
+
+@section('meta_description',
+    'Explore the top 7 advantages of Stainless Steel 316L, including corrosion resistance, durability & strength for industrial, marine & chemical applications.')
 
 
 @section('content')

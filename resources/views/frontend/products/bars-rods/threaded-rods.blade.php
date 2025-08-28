@@ -1,8 +1,7 @@
 @extends('layouts.master')
-@section('title', 'Threaded Rods | Stainless Steel, Galvanized, Carbon & Alloy Steel | Weight Chart')
+@section('title', 'Threaded Rods - Stainless, Galvanized & Alloy Steel | Moksh Tubes')
 @section('meta_description',
-    'Buy threaded rods in stainless steel, galvanized, carbon steel & alloy steel. View
-    threaded rod weight chart (M6–M64), sizes, ASTM/DIN standards & applications.')
+    'Buy high-quality Threaded Rods from Moksh Tubes in Stainless, Galvanized, Carbon & Alloy Steel. Explore weight chart, sizes, ASTM & DIN standards.')
 @section('meta_keywords',
     'Threaded Rods, Stainless Steel Threaded Rods, Carbon Steel Threaded Rods, Alloy Steel
     Threaded Rods, Galvanized Threaded Rods, Duplex Steel Threaded Rods,Super Duplex Threaded Rods,Brass Threaded Rods,

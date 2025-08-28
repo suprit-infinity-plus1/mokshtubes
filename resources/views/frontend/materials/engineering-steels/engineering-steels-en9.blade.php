@@ -27,7 +27,7 @@
             </div>
 
             <h2 class="fw-semibold text-center mb-5" style="color: #db7227;">
-                Introduction To Engineering Steel 9 / AISI 1055 / DIN CK55 / BS 970 070M55
+                Introduction to Engineering Steel EN9 (AISI 1055 / DIN CK55)
             </h2>
 
             <div class="row align-items-center">

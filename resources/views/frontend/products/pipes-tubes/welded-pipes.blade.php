@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'Welded Pipes & Tubes | Moksh Tubes')
+@section('title', 'Welded Pipes - ERW, EFW & LSAW Steel Tubes | Moksh Tubes')
 @section('content')
     <!--Start breadcrumb area-->
 

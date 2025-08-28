@@ -32,7 +32,7 @@
                             </div>
                             <div class="text-holder">
                                 <div class="blog-title text-start">
-                                    <h2>Stainless Steel Pipes: Welded vs Seamless Which Is Right for Your Project?</h2>
+                                    <h2>Choosing Between Welded and Seamless Stainless Steel Pipes</h2>
                                 </div>
                                 <div class="text">
                                     <p>
