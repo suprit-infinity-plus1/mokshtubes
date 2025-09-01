@@ -517,11 +517,13 @@
                             <ul class="recent-post">
                                 <li>
                                     <div class="img-holder">
-                                        <img src="{{ asset('assets/images/blog/thumb1.png') }}" alt="Awesome Image">
+                                        <img src="{{ asset('assets/images/blogs/thumb/why-hastelloy-weighs-more-than-stainless-steel-thumb.webp') }}"
+                                            alt="Awesome Image">
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a href="#">
+                                                    <a
+                                                        href="{{ route('blogs.why-hastelloy-weighs-more-than-stainless-steel') }}">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -529,9 +531,9 @@
                                         </div>
                                     </div>
                                     <div class="title-holder">
-                                        <a href="#">
+                                        <a href="{{ route('blogs.why-hastelloy-weighs-more-than-stainless-steel') }}">
                                             <h5 class="post-title">
-                                                Finance &amp; legal<br> throughout project.
+                                                Why Hastelloy Weighs More Than Stainless Steel
                                             </h5>
                                         </a>
                                         <h6 class="post-date">
@@ -542,11 +544,12 @@
                                 </li>
                                 <li>
                                     <div class="img-holder">
-                                        <img src="{{ asset('assets/images/blog/thumb2.png') }}" alt="Awesome Image">
+                                        <img src="{{ asset('assets/images/blogs/thumb/the-role-of-high-performance-alloys-in-desalination-plants-thumb.webp') }}"
+                                            alt="Awesome Image">
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a href="#">
+                                                    <a href="{{ route('blogs.the-role-of-high-performance') }}">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -554,9 +557,9 @@
                                         </div>
                                     </div>
                                     <div class="title-holder">
-                                        <a href="#">
+                                        <a href="{{ route('blogs.the-role-of-high-performance') }}">
                                             <h5 class="post-title">
-                                                What makes us best<br> in the world?
+                                                The Role of High Performance Alloys in Desalination Plants
                                             </h5>
                                         </a>
                                         <h6 class="post-date">
@@ -567,11 +570,13 @@
                                 </li>
                                 <li>
                                     <div class="img-holder">
-                                        <img src="{{ asset('assets/images/blog/thumb3.png') }}" alt="Awesome Image">
+                                        <img src="{{ asset('assets/images/blogs/thumb/india’s-stainless-steel-export-industry-thumb.webp') }}"
+                                            alt="Awesome Image">
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a href="#">
+                                                    <a
+                                                        href="{{ route('blogs.india’s-stainless-steel-export-industry') }}">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -579,9 +584,9 @@
                                         </div>
                                     </div>
                                     <div class="title-holder">
-                                        <a href="#">
+                                        <a href="{{ route('blogs.india’s-stainless-steel-export-industry') }}">
                                             <h5 class="post-title">
-                                                Why experts go with<br> Builder.
+                                                India’s Stainless Steel Exports – Moksh Tubes Global Reach
                                             </h5>
                                         </a>
                                         <h6 class="post-date">

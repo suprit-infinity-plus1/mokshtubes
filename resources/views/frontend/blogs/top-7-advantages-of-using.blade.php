@@ -506,89 +506,94 @@
             </div>
             <!--End single sidebar-->
             <!--Start single sidebar-->
-            <div class="single-sidebar">
-                <div class="sec-title">
-                    <h3>Recent Blogs</h3>
-                </div>
-                <ul class="recent-post">
-                    <li>
-                        <div class="img-holder">
-                            <img src="{{ asset('assets/images/blog/thumb1.png') }}" alt="Awesome Image">
-                            <div class="overlay-style-two">
-                                <div class="box">
-                                    <div class="content">
-                                        <a href="#">
-                                            <i class="fa fa-link" aria-hidden="true"></i>
-                                        </a>
-                                    </div>
-                                </div>
+                        <div class="single-sidebar">
+                            <div class="sec-title">
+                                <h3>Recent Blogs</h3>
                             </div>
-                        </div>
-                        <div class="title-holder">
-                            <a href="#">
-                                <h5 class="post-title">
-                                    Finance &amp; legal<br> throughout project.
-                                </h5>
-                            </a>
-                            <h6 class="post-date">
-                                <i class="icon-calendar-with-spring-binder-and-date-blocks"></i>
-                                august 14, 2025
-                            </h6>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="img-holder">
-                            <img src="{{ asset('assets/images/blog/thumb2.png') }}" alt="Awesome Image">
-                            <div class="overlay-style-two">
-                                <div class="box">
-                                    <div class="content">
-                                        <a href="#">
-                                            <i class="fa fa-link" aria-hidden="true"></i>
-                                        </a>
+                            <ul class="recent-post">
+                                <li>
+                                    <div class="img-holder">
+                                        <img src="{{ asset('assets/images/blogs/thumb/why-hastelloy-weighs-more-than-stainless-steel-thumb.webp') }}"
+                                            alt="Awesome Image">
+                                        <div class="overlay-style-two">
+                                            <div class="box">
+                                                <div class="content">
+                                                    <a
+                                                        href="{{ route('blogs.why-hastelloy-weighs-more-than-stainless-steel') }}">
+                                                        <i class="fa fa-link" aria-hidden="true"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="title-holder">
-                            <a href="#">
-                                <h5 class="post-title">
-                                    What makes us best<br> in the world?
-                                </h5>
-                            </a>
-                            <h6 class="post-date">
-                                <i class="icon-calendar-with-spring-binder-and-date-blocks"></i>
-                                august 14, 2025
-                            </h6>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="img-holder">
-                            <img src="{{ asset('assets/images/blog/thumb3.png') }}" alt="Awesome Image">
-                            <div class="overlay-style-two">
-                                <div class="box">
-                                    <div class="content">
-                                        <a href="#">
-                                            <i class="fa fa-link" aria-hidden="true"></i>
+                                    <div class="title-holder">
+                                        <a href="{{ route('blogs.why-hastelloy-weighs-more-than-stainless-steel') }}">
+                                            <h5 class="post-title">
+                                                Why Hastelloy Weighs More Than Stainless Steel
+                                            </h5>
                                         </a>
+                                        <h6 class="post-date">
+                                            <i class="icon-calendar-with-spring-binder-and-date-blocks"></i>
+                                            august 14, 2025
+                                        </h6>
                                     </div>
-                                </div>
-                            </div>
+                                </li>
+                                <li>
+                                    <div class="img-holder">
+                                        <img src="{{ asset('assets/images/blogs/thumb/the-role-of-high-performance-alloys-in-desalination-plants-thumb.webp') }}"
+                                            alt="Awesome Image">
+                                        <div class="overlay-style-two">
+                                            <div class="box">
+                                                <div class="content">
+                                                    <a href="{{ route('blogs.the-role-of-high-performance') }}">
+                                                        <i class="fa fa-link" aria-hidden="true"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="title-holder">
+                                        <a href="{{ route('blogs.the-role-of-high-performance') }}">
+                                            <h5 class="post-title">
+                                                The Role of High Performance Alloys in Desalination Plants
+                                            </h5>
+                                        </a>
+                                        <h6 class="post-date">
+                                            <i class="icon-calendar-with-spring-binder-and-date-blocks"></i>
+                                            august 14, 2025
+                                        </h6>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="img-holder">
+                                        <img src="{{ asset('assets/images/blogs/thumb/india’s-stainless-steel-export-industry-thumb.webp') }}"
+                                            alt="Awesome Image">
+                                        <div class="overlay-style-two">
+                                            <div class="box">
+                                                <div class="content">
+                                                    <a
+                                                        href="{{ route('blogs.india’s-stainless-steel-export-industry') }}">
+                                                        <i class="fa fa-link" aria-hidden="true"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="title-holder">
+                                        <a href="{{ route('blogs.india’s-stainless-steel-export-industry') }}">
+                                            <h5 class="post-title">
+                                                India’s Stainless Steel Exports – Moksh Tubes Global Reach
+                                            </h5>
+                                        </a>
+                                        <h6 class="post-date">
+                                            <i class="icon-calendar-with-spring-binder-and-date-blocks"></i>
+                                            august 14, 2025
+                                        </h6>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="title-holder">
-                            <a href="#">
-                                <h5 class="post-title">
-                                    Why experts go with<br> Builder.
-                                </h5>
-                            </a>
-                            <h6 class="post-date">
-                                <i class="icon-calendar-with-spring-binder-and-date-blocks"></i>
-                                august 14, 2025
-                            </h6>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <!--End single sidebar-->
+                        <!--End single sidebar-->
 
             {{-- Start contant form --}}
             <section class="blog-contact-form">

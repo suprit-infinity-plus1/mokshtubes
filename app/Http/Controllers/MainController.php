@@ -86,6 +86,16 @@ class MainController extends Controller
 
         return view('frontend.blogs.why-hastelloy-weighs-more-than-stainless-steel');
     }
+    public function dinStandardMetalAlloys()
+    {
+
+        return view('frontend.blogs.din-standard-metal-alloys');
+    }
+    public function uae’sUltimateGuide()
+    {
+
+        return view('frontend.blogs.uae’s-ultimate-guide');
+    }
 
 
 

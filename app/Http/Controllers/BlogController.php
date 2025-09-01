@@ -10,6 +10,25 @@ class BlogController extends Controller
     public function blogs()
     {
         $blogsData = collect([
+
+            [
+                'title' => 'Seamless vs Welded Pipes: UAE’s Ultimate Guide',
+                'author' => 'Jash Jain',
+                'comments' => 16,
+                'date' => 'sep 01, 2025',
+                'image' => 'assets/images/blog/uae’s-ultimate-guide.webp',
+                'excerpt' => 'Imagine this you’re overseeing a mega project on Dubai’s skyline.',
+                'link' => route('blogs.uae’s-ultimate-guide')
+            ],
+            [
+                'title' => 'DIN Standard Metal Alloys & Industrial Tubes',
+                'author' => 'Jash Jain',
+                'comments' => 16,
+                'date' => 'sep 01, 2025',
+                'image' => 'assets/images/blog/din-standard-metal-alloys.webp',
+                'excerpt' => 'Germany stands as Europes manufacturing powerhouse, driving innovation across',
+                'link' => route('blogs.din-standard-metal-alloys')
+            ],
             [
                 'title' => 'STAINLESS STEEL VS INCONEL TUBES',
                 'author' => 'Jash Jain',
@@ -28,7 +47,7 @@ class BlogController extends Controller
                 'excerpt' => 'Stainless steel pipes are truly the backbone of many industries worldwide. ',
                 'link' => route('blogs.10-mistakes-to-avoid-when-buying-stainless-steel-pipes')
             ],
-            [
+             [
                 'title' => 'Emerging Trends in Industrial Piping for 2025 and Beyond',
                 'author' => 'Jash Jain',
                 'comments' => 22,
@@ -55,7 +74,7 @@ class BlogController extends Controller
                 'excerpt' => 'India has emerged as a global leader in stainless steel production and exports,',
                 'link' => route('blogs.india’s-stainless-steel-export-industry')
             ],
-            [
+              [
                 'title' => 'The Role of High-Performance Alloys in Desalination Plants',
                 'author' => 'Jash Jain',
                 'comments' => 16,

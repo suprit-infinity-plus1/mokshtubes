@@ -72,6 +72,7 @@ Route::get('/blogs/top-7-advantages-of-using', [MainController::class, 'topSeven
 Route::get('/blogs/welded-vs-seamless', [MainController::class, 'weldedVsSeamless'])->name('blogs.welded-vs-seamless');
 Route::get('/blogs/why-hastelloy-weighs-more-than-stainless-steel', [MainController::class, 'whyHastelloyWeighsMoreThanStainlessSteel'])->name('blogs.why-hastelloy-weighs-more-than-stainless-steel');
 Route::get('/blogs/din-standard-metal-alloys', [MainController::class, 'dinStandardMetalAlloys'])->name('blogs.din-standard-metal-alloys');
+Route::get('/blogs/uae’s-ultimate-guide', [MainController::class, 'Uae’sUltimateGuide'])->name('blogs.uae’s-ultimate-guide');
 
 
 // Route::get('/materials/nickel-alloys', [MainController::class, 'nickelAlloys'])->name('materials.nickel-alloys');
