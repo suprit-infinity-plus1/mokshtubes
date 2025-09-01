@@ -22,7 +22,7 @@
                         data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-splitin="none" data-splitout="none"
                         data-responsive_offset="on" data-start="700">
                         <div class="slide-content-box">
-                            <h1>Welcome to Moksh Tubes & <br>Fittings LLP </h1>
+                            <h1>Global Supplier of Nickel & Stainless Steel Pipes, Tubes & Fittings </h1>
                             <p>They'll have to make the best of things its an uphill climb.<br> The weather started
                                 getting was tossed. </p>
                         </div>
