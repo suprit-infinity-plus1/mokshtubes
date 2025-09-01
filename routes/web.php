@@ -56,6 +56,9 @@ Route::get('/products/bars-rods', [MainController::class, 'barsRods'])->name('pr
 Route::get('/products/bars-rods/square-bars', [MainController::class, 'squareBars'])->name('products.bars-rods.square-bars');
 Route::get('/products/bars-rods/threaded-rods', [MainController::class, 'threadedRods'])->name('products.bars-rods.threaded-rods');
 Route::get('/products/bars-rods/round-bars', [MainController::class, 'roundBars'])->name('products.bars-rods.round-bars');
+Route::get('/products/bars-rods/hollow-bars', [MainController::class, 'hollowBars'])->name('products.bars-rods.hollow-bars');
+Route::get('/products/bars-rods/hexagon-bars', [MainController::class, 'hexagonBars'])->name('products.bars-rods.hexagon-bars');
+Route::get('/products/bars-rods/flat-bars', [MainController::class, 'flatBars'])->name('products.bars-rods.flat-bars');
 
 
 //blogs//
@@ -68,6 +71,7 @@ Route::get('/blogs/the-role-of-high-performance', [MainController::class, 'theRo
 Route::get('/blogs/top-7-advantages-of-using', [MainController::class, 'topSevenAdvantagesOfUsing'])->name('blogs.top-7-advantages-of-using');
 Route::get('/blogs/welded-vs-seamless', [MainController::class, 'weldedVsSeamless'])->name('blogs.welded-vs-seamless');
 Route::get('/blogs/why-hastelloy-weighs-more-than-stainless-steel', [MainController::class, 'whyHastelloyWeighsMoreThanStainlessSteel'])->name('blogs.why-hastelloy-weighs-more-than-stainless-steel');
+Route::get('/blogs/din-standard-metal-alloys', [MainController::class, 'dinStandardMetalAlloys'])->name('blogs.din-standard-metal-alloys');
 
 
 // Route::get('/materials/nickel-alloys', [MainController::class, 'nickelAlloys'])->name('materials.nickel-alloys');

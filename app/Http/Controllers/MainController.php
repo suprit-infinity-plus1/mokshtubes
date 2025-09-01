@@ -474,5 +474,17 @@ class MainController extends Controller
     {
         return view('frontend.products.bars-rods.round-bars');
     }
+ public function hollowBars()
+    {
+        return view('frontend.products.bars-rods.hollow-bars');
+    }
+ public function hexagonBars()
+    {
+        return view('frontend.products.bars-rods.hexagon-bars');
+    }
+ public function flatBars()
+    {
+        return view('frontend.products.bars-rods.flat-bars');
+    }
 
 }

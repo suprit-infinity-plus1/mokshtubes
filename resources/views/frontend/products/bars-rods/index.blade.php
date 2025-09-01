@@ -45,21 +45,21 @@
                             'slug' => 'round-bars',
                             'image' => 'assets/images/peoduct/Bars & Rods/round-bars.webp',
                         ],
-                        // [
-                        //     'name' => 'Hollow Section Pipe',
-                        //     'slug' => 'hollow-section-pipe',
-                        //     'image' => 'assets/images/peoduct/hollow-section-pipe.webp',
-                        // ],
-                        // [
-                        //     'name' => 'U-Bent Tubes',
-                        //     'slug' => 'u-bent-tubes',
-                        //     'image' => 'assets/images/peoduct/u-bent-tubes.webp',
-                        // ],
-                    //     [
-                    //         'name' => 'Boiler & Heat Exchanger Tubes',
-                    //         'slug' => 'boiler-heat-exchanger-tubes',
-                    //         'image' => 'assets/images/peoduct/boiler-heat-exchanger-tubes.webp',
-                    //     ],
+                        [
+                            'name' => 'Hollow Bars',
+                            'slug' => 'hollow-bars',
+                            'image' => 'assets/images/peoduct/hollow-section-pipe.webp',
+                        ],
+                        [
+                            'name' => 'Hexagon Bars',
+                            'slug' => 'hexagon-bars',
+                            'image' => 'assets/images/peoduct/u-bent-tubes.webp',
+                        ],
+                        [
+                            'name' => 'Flat Bars',
+                            'slug' => 'flat-bars',
+                            'image' => 'assets/images/peoduct/boiler-heat-exchanger-tubes.webp',
+                        ],
                        ];
                 @endphp
 
