@@ -1,11 +1,9 @@
 @extends('layouts.master')
 
-@section('title', 'Titanium Grade 12')
-@section('meta_description',
-    'Corrosion-resistant Titanium Grade 12 with enhanced weldability for marine & chemical uses.
-    ')
-
+@section('title', 'Titanium Grade 12 - Corrosion Resistant Alloy')
+@section('meta_description', 'Corrosion-resistant Titanium Grade 12 with enhanced weldability, ideal for marine and chemical industry applications.')
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">

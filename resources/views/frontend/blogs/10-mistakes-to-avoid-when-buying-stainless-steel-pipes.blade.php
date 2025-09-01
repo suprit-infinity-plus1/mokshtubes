@@ -1,9 +1,8 @@
 @extends('layouts.master')
 
 @section('title', '10 Mistakes to Avoid When Buying Stainless Steel Pipes')
-@section('meta_description',
-    'Avoid costly mistakes when buying stainless steel pipes. Discover key tips on grades, suppliers & standards to ensure durability, quality & performance.')
-
+@section('meta_description','Avoid costly mistakes when buying stainless steel pipes. Discover key tips on grades, suppliers & standards to ensure durability, quality & performance.')
+@section('meta_keywords','Stainless Steel Pipes, Buying Stainless Steel Pipes, Stainless Steel Pipe Grades, Stainless Steel
 
 
 @section('content')
@@ -11,7 +10,7 @@
 
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container text-center">
-            <h1>10 Mistakes to Avoid When Buying Stainless Steel Pipes</h1>
+            <h1>Buying Stainless Steel Pipes: Mistakes to Avoid</h1>
         </div>
     </section>
     <!--End breadcrumb area-->

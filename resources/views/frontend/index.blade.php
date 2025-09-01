@@ -22,9 +22,9 @@
                         data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-splitin="none" data-splitout="none"
                         data-responsive_offset="on" data-start="700">
                         <div class="slide-content-box">
-                            <h1>Global Supplier of Nickel & Stainless Steel Pipes, Tubes & Fittings </h1>
-                            <p>They'll have to make the best of things its an uphill climb.<br> The weather started
-                                getting was tossed. </p>
+                            <h1>Global Supplier of <br> Nickel & Stainless Steel <br> Tubes & Fittings</h1>
+
+                            <p>They'll have to make the best of things its an uphill climb.<br> The weather started getting was tossed.</p>
                         </div>
                     </div>
                     <div class="tp-caption tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="110"
@@ -64,7 +64,7 @@
                         data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-splitin="none" data-splitout="none"
                         data-responsive_offset="on" data-start="700">
                         <div class="slide-content-box">
-                            <h1>Provide Solution <br>for Industries plan </h1>
+                            <h2>Provide Solution <br>for Industries plan </h2>
                             <p>They'll have to make the best of things its an uphill climb.<br> The weather started
                                 getting was tossed. </p>
                         </div>
@@ -105,7 +105,7 @@
                         data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-splitin="none" data-splitout="none"
                         data-responsive_offset="on" data-start="700">
                         <div class="slide-content-box">
-                            <h1>We help Industries<br>innovate and grow.</h1>
+                            <h2>We help Industries<br>innovate and grow.</h2>
                             <p>They'll have to make the best of things its an uphill climb.<br> The weather started
                                 getting was tossed. </p>
                         </div>

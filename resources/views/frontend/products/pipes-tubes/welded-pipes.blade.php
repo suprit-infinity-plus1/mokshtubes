@@ -1,6 +1,8 @@
 @extends('layouts.master')
 @section('title', 'Welded Pipes - ERW, EFW & LSAW Steel Tubes | Moksh Tubes')
+@section('meta_description','Moksh Tubes offers Welded Pipes including ERW, EFW & LSAW Steel Tubes for oil, gas, chemical & industrial applications with global quality standards.')
 @section('content')
+
     <!--Start breadcrumb area-->
 
 

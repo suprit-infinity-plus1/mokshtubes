@@ -33,7 +33,7 @@
                     ['name' => 'Austenitic Stainless Steel 309', 'slug' => 'austenitic-stainless-steel-309' ,'image' => 'assets/images/austenitic-stainless-steel/austenitic-stainless-steel-309.webp'],
                     ['name' => 'Austenitic Stainless Steel 310', 'slug' => 'austenitic-stainless-steel-310' ,'image' => 'assets/images/austenitic-stainless-steel/austenitic-stainless-steel-310.webp'],
                     ['name' => 'Austenitic Stainless Steel 316', 'slug' => 'austenitic-stainless-steel-316' ,'image' => 'assets/images/austenitic-stainless-steel/austenitic-stainless-steel-316.webp'],
-                    ['name' => 'Austenitic Stainless Steel 316Ti', 'slug' => 'austenitic-stainless-steel-316Ti' ,'image' => 'assets/images/austenitic-stainless-steel/austenitic-stainless-steel-316Ti.webp'],
+                    ['name' => 'Austenitic Stainless Steel 316ti', 'slug' => 'austenitic-stainless-steel-316ti' ,'image' => 'assets/images/austenitic-stainless-steel/austenitic-stainless-steel-316ti.webp'],
                     ['name' => 'Austenitic Stainless Steel 317', 'slug' => 'austenitic-stainless-steel-317' ,'image' => 'assets/images/austenitic-stainless-steel/austenitic-stainless-steel-317.webp'],
                     ['name' => 'Austenitic Stainless Steel 321', 'slug' => 'austenitic-stainless-steel-321' ,'image' => 'assets/images/austenitic-stainless-steel/austenitic-stainless-steel-321.webp'],
                     ['name' => 'Austenitic Stainless Steel 347', 'slug' => 'austenitic-stainless-steel-347' ,'image' => 'assets/images/austenitic-stainless-steel/austenitic-stainless-steel-347.webp'],

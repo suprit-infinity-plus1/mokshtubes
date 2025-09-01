@@ -337,7 +337,7 @@
                             {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c4/') }}" class="text-decoration-none"> --}}
                             <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
-                                    <img src="https://placehold.co/300x200?" alt="{{ $product }}"
+                                    <img src="https://placehold.co/300x200?" alt="{{ $product-> }}"
                                         class="img-fluid  w-100">
                                     <h6 class="product-card-title text-center mt-2 px-2">{{ $product }}</h6>
                                 </div>

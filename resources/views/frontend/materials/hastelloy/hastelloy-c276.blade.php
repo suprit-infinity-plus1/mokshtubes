@@ -13,7 +13,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Hastelloy C276 | UNS N10276 Pipe, Sheet, Bar & Applications</h1>
+                    <h1>Hastelloy C276 (UNS N10276)</h1>
                 </div>
             </div>
         </div>
@@ -82,7 +82,7 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>Hastelloy C276 Chemical Composition</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -206,7 +206,7 @@
             <!-- Mechanical Properties Table -->
             <div class="row justify-content-center">
                 <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties of Hastelloy C276</h4>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -623,15 +623,11 @@
                         <!-- Q3 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>In which industries is Hastelloy C-276 most commonly used?</h4>
+                                <h4>Is Hastelloy C276 weldable?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Hastelloy C-276 is widely used in industries such as chemical processing, nuclear and
-                                    conventional power plants, oil and gas, pulp and paper, marine and offshore systems,
-                                    pollution control, pharmaceutical and food processing, and wastewater treatment. Its
-                                    ability to withstand harsh chemicals, acidic gases, seawater, and high temperatures
-                                    makes it indispensable in mission critical projects.
+                                   Yes, Hastelloy C276 is weldable using standard welding techniques like TIG and MIG. However, low carbon content and controlled heat input are recommended to maintain its corrosion resistance.
                                 </p>
                             </div>
                         </div>

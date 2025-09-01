@@ -1,10 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Haynes Superalloys 160')
-@section('meta_description',
-    'High-strength Haynes Alloy 160 for extreme heat resistance and corrosion protection. Available in various forms.
-    ')
-
+@section('title', 'Haynes Superalloys 160 - High Strength Heat Resistant')
+@section('meta_description', 'High-strength Haynes Alloy 160 for extreme heat resistance and corrosion protection. Available in various industry-grade forms.')
+@section('meta_keywords', 'Haynes Superalloys 160, Haynes Alloy 160, High Strength Haynes, Heat Resistant Haynes, Corrosion Resistant Haynes, Industrial Haynes Alloys, Chemical Processing Haynes, Power Industry Haynes, Aerospace Haynes Alloys, Marine Industry Haynes')
 
 @section('content')
     <!--Start breadcrumb area-->
