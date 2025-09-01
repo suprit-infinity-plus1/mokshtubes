@@ -30,7 +30,7 @@
             </div>
 
             <h2 class="fw-semibold text-center mb-5" style="color: #db7227;">
-                Introduction To Nitinol (Nickel-Titanium Alloy) - SHAPE MEMORY & SUPERELASTIC MATERIAL
+                Introduction to Nitinol Nickel-Titanium Alloy
             </h2>
 
             <div class="row align-items-center">

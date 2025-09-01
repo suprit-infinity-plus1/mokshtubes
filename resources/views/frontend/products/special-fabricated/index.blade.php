@@ -1,8 +1,7 @@
 @extends('layouts.master')
-@section('title', 'Pipes & Tubes - Welded, Seamless, U-Bend, Boiler Tubes | Mokshtubes')
+@section('title', 'Special Fabricated Products - Custom Steel & Alloy | Moksh Tubes')
 @section('meta_description',
-    'Explore premium Pipes & Tubes including welded, seamless, capillaries, hollow sections, U-bent, and boiler tubes in
-    stainless steel, nickel alloys & more.')
+    'Discover Special Fabricated Products at Moksh Tubes – custom steel, alloy & stainless solutions. Precision-made, high quality & global fabrication standards.')
 @section('content')
     <!--Start breadcrumb area-->
 

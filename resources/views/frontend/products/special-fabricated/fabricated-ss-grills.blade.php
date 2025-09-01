@@ -1,8 +1,7 @@
 @extends('layouts.master')
-@section('title', 'Fabricated Stainless Steel Grills | Durable, Stylish & Custom Designs')
+@section('title', 'Fabricated Stainless Steel Grills | Custom Designs | Moksh Tubes')
 @section('meta_description',
-    'Premium fabricated stainless steel grills for gates, balconies, staircases & windows.
-    Strong, rust-resistant & customizable designs for homes & industries.')
+    'Get premium fabricated stainless steel grills at Moksh Tubes – durable, rust-resistant & stylish. Perfect for gates, balconies, staircases & windows.')
 @section('meta_keywords', 'Fabricated Stainless Steel Grills, SS Grills Manufacturer, Stainless Steel Window Grills, SS
     Balcony & Staircase Grills, Custom Stainless Steel Grills, Decorative Stainless Steel Grills, Modern SS Grills for Home,
     Industrial Stainless Steel Grills, Duplex & Super Duplex Steel Grills, Stainless Steel Security Grills')

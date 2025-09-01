@@ -1,9 +1,8 @@
 @extends('layouts.master')
 
-@section('title', '10 Mistakes to Avoid When Buying Stainless Steel Pipes ')
+@section('title', '7 Advantages of Stainless Steel 316L in Industry')
 @section('meta_description',
-    'Avoid costly errors when buying stainless steel pipes. Learn about grades, suppliers,
-    standards, and more to ensure quality and performance.')
+    'Explore the top 7 advantages of Stainless Steel 316L, including corrosion resistance, durability & strength for industrial, marine & chemical applications.')
 
 
 @section('content')
@@ -31,7 +30,7 @@
                             </div>
                             <div class="text-holder">
                                 <div class="blog-title text-start">
-                                    <h2>Top 7 Advantages of Using Stainless Steel 316L in Industrial Applications</h2>
+                                    <h2>Why Stainless Steel 316L is Ideal for Industrial Applications</h2>
                                 </div>
                                 <div class="text">
                                     <p>

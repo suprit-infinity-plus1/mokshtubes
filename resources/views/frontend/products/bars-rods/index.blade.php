@@ -1,8 +1,7 @@
 @extends('layouts.master')
-@section('title', 'Pipes & Tubes - Welded, Seamless, U-Bend, Boiler Tubes | Mokshtubes')
+@section('title', 'Bars & Rods - Round, Square, Hex, Flat | Moksh Tubes')
 @section('meta_description',
-    'Explore premium Pipes & Tubes including welded, seamless, capillaries, hollow sections, U-bent, and boiler tubes in
-    stainless steel, nickel alloys & more.')
+    'Explore premium Bars & Rods from Moksh Tubes – Round, Square, Hex, Flat & Threaded in SS, Alloy & Duplex grades with global quality standards.')
 @section('content')
     <!--Start breadcrumb area-->
 

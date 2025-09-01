@@ -1,8 +1,7 @@
 @extends('layouts.master')
 
-@section('title', 'Titanium Grade 9 | Titanium Alloy with Excellent Strength')
-@section('meta_description', 'Buy Incoloy 825 — a premium corrosion-resistant nickel alloy ideal for chemical
-    processing, marine, and oil & gas applications. High strength and durability guaranteed.')
+@section('title', 'Titanium Grade 9 Alloy | Moksh Tubes – High Strength')
+@section('meta_description', 'Moksh Tubes supplies Titanium Grade 9 alloy with excellent strength, corrosion resistance & durability, ideal for aerospace, marine & industrial uses.')
 @section('meta_keywords', 'Incoloy 825, nickel alloy, corrosion resistant alloy, premium metal alloys, moksh tubes')
 
 

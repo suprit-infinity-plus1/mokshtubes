@@ -1,5 +1,7 @@
 @extends('layouts.master')
-@section('title', 'Boiler & Heat Exchanger Tubes | Moksh Tubes')
+@section('title', 'Boiler & Heat Exchanger Tubes | Moksh Tubes Suppliers')
+@section('meta_description',
+    'Moksh Tubes supplies premium boiler & heat exchanger tubes with excellent strength, corrosion resistance & durability for power, marine & industrial use.')
 @section('content')
     <!--Start breadcrumb area-->
 

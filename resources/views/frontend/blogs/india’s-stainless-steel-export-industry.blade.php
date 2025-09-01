@@ -31,7 +31,7 @@
                             </div>
                             <div class="text-holder">
                                 <div class="blog-title text-start">
-                                    <h2>India’s Stainless Steel Export Industry: How Moksh Tubes Serves 30+ Countries </h2>
+                                    <h2>India’s Stainless Steel Exports – Moksh Tubes Global Reach </h2>
                                 </div>
                                 <div class="text">
                                     <p>

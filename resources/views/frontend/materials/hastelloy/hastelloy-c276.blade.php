@@ -1,13 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Hastelloy C276 | Ultimate Corrosion-Proof Nickel Alloy')
-@section('meta_description',
-    'Buy Hastelloy C276 pipes, tubes & fittings with top corrosion resistance, strength, and
-    durability for harsh industrial environments.')
-@section('meta_keywords',
-    'Hastelloy C276, Corrosion Resistant Alloy, Nickel Alloy, Hastelloy C276 Pipes, Hastelloy C276
-    Tubes, Hastelloy C276 Fittings, Industrial Corrosion Resistant Alloys, Durable Nickel Alloys, Chemical Processing
-    Alloys, Marine Alloys')
+@section('title', 'Hastelloy C276 | UNS N10276 Pipe, Sheet, Bar & Applications')
+@section('meta_description', ' Explore Hastelloy C276 (UNS N10276) pipes, sheets, bars & flanges. High corrosion resistance for chemical, oil & gas, marine, and industrial uses.')
+@section('meta_keywords', 'Hastelloy C276, Corrosion Resistant Alloy, Nickel Alloy, Hastelloy C276 Pipes, Hastelloy C276, Tubes, Hastelloy C276 Fittings, Industrial Corrosion Resistant Alloys, Durable Nickel Alloys, Chemical Processing Alloys, Marine Alloys')
 
 @section('content')
 
@@ -16,7 +11,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Hastelloy C276</h1>
+                    <h1>Hastelloy C276 (UNS N10276) Products, Specifications & Applications – Moksh Tubes</h1>
                 </div>
             </div>
         </div>
@@ -44,23 +39,13 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black">Hastelloy C276 (UNS N10276)</strong> is a high performance <strong
-                                class="text-black">nickel alloy</strong> designed to offer excellent
-                            resistance in some of the most corrosive environments. <a href="{{ route('index') }}">MOKSH
-                                TUBES & FITTINGS LLP</a> is a trusted
-                            supplier, exporter, importer, and stockist of a wide range of Hastelloy C276 <a
-                                href="{{ route('products') }}">products</a>, including
-                            pipes, tubes, pipe fittings, flanges, fasteners, sheets, plates, coils, wires, round bars, and
-                            custom alloy components.
-                        </p>
+    <strong class="text-black">Hastelloy C276</strong>, also known as <strong class="text-black">Alloy C276</strong> or <strong class="text-black">UNS N10276</strong>, is a high-performance <strong class="text-black">nickel-chromium-molybdenum alloy</strong> designed for extreme <strong class="text-black">corrosion resistance</strong>. Its low <strong class="text-black">carbon</strong> and <strong class="text-black">silicon</strong> content ensure easy <strong class="text-black">welding</strong> and <strong class="text-black">forming</strong>. The material offers excellent resistance to <strong class="text-black">stress corrosion cracking</strong>, <strong class="text-black">pitting</strong>, and <strong class="text-black">crevice corrosion</strong>, even in <strong class="text-black">chloride-rich environments</strong>.
+</p>
 
-                        <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">Hastelloy C276</strong> is a nickel chromium molybdenum alloy, highly
-                            resistant to both oxidizing and
-                            non oxidizing acids, and provides superior defense against stress corrosion cracking and pitting
-                            in chloride rich solutions. Its high chromium and molybdenum content make it an ideal choice for
-                            applications requiring exceptional metal durability.
-                        </p>
+<p class="fs-6 mb-4 text-justify" style="text-align: justify;">
+    <a href="{{ route('index') }}"><strong class="text-black">Moksh Tubes & Fittings LLP</strong></a> provides <strong class="text-black">Hastelloy C276</strong> <a href="{{ route('products') }}">pipe</a>, <a href="{{ route('products') }}">sheet</a>, <a href="{{ route('products') }}">round bar</a>, and other critical products. With superior <strong class="text-black">chromium</strong> and <strong class="text-black">molybdenum</strong> content, <strong class="text-black">Hastelloy C276</strong> withstands both <strong class="text-black">oxidizing</strong> and <strong class="text-black">non-oxidizing acids</strong>, <strong class="text-black">sulfide stress cracking</strong>, and harsh <strong class="text-black">oilfield environments</strong>.
+</p>
+
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">Hastelloy C276</strong> is also highly ductile, easy
                             to form and weld, and designed to minimize welding challenges, making it a versatile choice for
@@ -135,6 +120,10 @@
                                 </tr>
                             </tbody>
                         </table>
+                        <!-- Added text below the table with bold keywords -->
+                <p class="fs-6 text-center mt-4">
+                    This composition ensures superior <strong>corrosion resistance</strong> and <strong>mechanical strength</strong>, outperforming conventional <strong>mild steel</strong> and <strong>carbon steel</strong>.
+                </p>
                     </div>
                 </div>
             </div>
@@ -234,27 +223,26 @@
         </div>
     </section>
 
-
     @php
         $products = [
             [
-                'name' => 'Seamless Pipes',
+                'name' => 'Seamless Pipes – Hastelloy C276 pipes',
                 'route' => 'products.pipes-tubes.seamless-pipes',
                 'image' => 'assets/images/all product/seamless-pipes-10.jpg',
             ],
 
             [
-                'name' => 'Welded Pipes (ERW & EFW)',
+                'name' => 'Welded Pipes (ERW & EFW) – Hastelloy pipes',
                 'route' => 'products.pipes-tubes.welded-pipes',
                 'image' => 'assets/images/all product/welded-pipes-tubes-1.jpg',
             ],
             [
-                'name' => 'Tubes (Capillary, U-Bend)',
+                'name' => 'Tubes – Capillary, U-Bend, Boiler & Heat Exchanger Tubes',
                 'route' => 'products.pipes-tubes.u-bent-tubes',
                 'image' => 'assets/images/all product/11zon_resized.jpg',
             ],
             [
-                'name' => 'Sheets & Plates',
+                'name' => 'Sheets & Plates – Hastelloy C276 sheet & plates',
                 'route' => 'products.pipes-tubes.u-bent-tubes',
                 'image' => 'assets/images/all product/sheets-plates.jpg',
             ],
@@ -264,22 +252,22 @@
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.webp',
             ],
             [
-                'name' => 'Round Bars, Flat Bars, Hex Bars, Square Bars',
+                'name' => 'Bars – Round, Flat, Hex, Square',
                 'route' => 'products.pipes-tubes.u-bent-tubes',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
             ],
             [
-                'name' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
+                'name' => 'Pipe Fittings – Elbows, Tees, Reducers, Caps, Stub Ends',
                 'route' => 'products.pipes-tubes.u-bent-tubes',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
             ],
             [
-                'name' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
+                'name' => 'Flanges – Weld Neck, Slip-On, Blind, Socket Weld, Threaded',
                 'route' => 'products.pipes-tubes.u-bent-tubes',
                 'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
             ],
             [
-                'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
+                'name' => 'Fasteners – Bolts, Nuts, Screws, Washers, Studs',
                 'route' => 'products.pipes-tubes.u-bent-tubes',
                 'image' => 'assets/images/all product/FASTENERS-1.png',
             ],
@@ -313,6 +301,9 @@
                         applications where long-term durability and resistance to degradation are essential for client
                         success in their projects.
                     </p>
+                    <p class="mt-3">
+                     Compare with <a href="{{ route('products.pipes-tubes.u-bent-tubes') }}">Hastelloy C22</a> for alternative corrosion-resistant alloys.
+                </p>
                 </div>
             </div>
 
@@ -337,7 +328,8 @@
             <div class="row justify-content-center mb-3">
                 <div class="col-lg-10">
                     <p class="fw-bold fs-5 text-center my-4" style="color: #174268;">
-                        We offer Hastelloy C276 in a wide range of product forms, including:
+                        Moksh Tubes & Fittings LLP offers a wide range of Hastelloy C276 products:
+
                     </p>
                 </div>
             </div>
@@ -372,7 +364,7 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>Outstanding resistance to a wide range of aggressive chemicals</h5>
+                        <h5>Outstanding resistance to corrosive chemicals and oxidizing/reducing agents</h5>
                     </div>
                 </div>
 
@@ -386,21 +378,21 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h5>High mechanical strength and durability at elevated temperatures</h5>
+                        <h5>High mechanical strength at elevated temperatures</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h5>Excellent weldability and formability</h5>
+                        <h5>Superior weldability and formability</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
-                        <h5>Suitable for severe operating conditions in critical industries</h5>
+                        <h5>Ideal for critical industries with harsh operating conditions</h5>
                     </div>
                 </div>
             </div>
@@ -422,17 +414,15 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
                         <h5>Chemical Processing Industry</h5>
-                        <p>Used in reactors, heat exchangers, scrubbers, columns, piping systems, evaporators, and storage
-                            tanks handling acidic and chloride-laden fluids.</p>
+                        <p> Reactors, heat exchangers, scrubbers, piping systems, storage tanks.</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
-                        <h5>Pollution Control / FGD Systems</h5>
-                        <p>Ideal for stack liners, ducts, dampers, scrubbers, and other components exposed to harsh acidic
-                            gases and high temperatures.</p>
+                        <h5>Pollution Control & FGD Systems</h5>
+                        <p> Stack liners, ducts, dampers, scrubbers.</p>
                     </div>
                 </div>
 
@@ -440,8 +430,7 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
                         <h5>Oil & Gas Sector</h5>
-                        <p>Deployed in sour gas service components such as downhole tubing, wellhead equipment, valves,
-                            manifolds, and separators.</p>
+                        <p>Downhole tubing, valves, manifolds, separators.</p>
                     </div>
                 </div>
 
@@ -449,8 +438,7 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-droplet"></i></div>
                         <h5>Marine & Offshore Applications</h5>
-                        <p>Suitable for seawater systems, condenser tubes, marine exhaust systems, and offshore structures
-                            subjected to saltwater exposure.</p>
+                        <p>Seawater systems, condenser tubes.</p>
                     </div>
                 </div>
 
@@ -458,8 +446,7 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
                         <h5>Pulp and Paper Industry</h5>
-                        <p>Utilized in digesters, bleach plants, and chemical recovery systems that require resistance to
-                            chlorine-based chemicals and acidic solutions.</p>
+                        <p>Digesters, bleach plants, chemical recovery systems.</p>
                     </div>
                 </div>
 
@@ -467,8 +454,7 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
                         <h5>Nuclear & Power Generation</h5>
-                        <p>For critical components exposed to high temperatures, corrosive media, and radiation in nuclear
-                            and conventional power plants.</p>
+                        <p>High-temperature, corrosive, radiation-exposed components.</p>
                     </div>
                 </div>
 
@@ -476,8 +462,7 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-capsule"></i></div>
                         <h5>Pharmaceutical & Food Processing</h5>
-                        <p>Applied in systems requiring high corrosion resistance, hygiene standards, and compliance with
-                            strict regulatory norms.</p>
+                        <p> Corrosion-resistant and hygienic systems.</p>
                     </div>
                 </div>
 
@@ -485,8 +470,7 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-recycle"></i></div>
                         <h5>Wastewater Treatment</h5>
-                        <p>For tanks, piping, and equipment exposed to corrosive waste streams and aggressive chemical
-                            cleaning agents.</p>
+                        <p>Tanks, piping, and equipment handling aggressive chemicals.</p>
                     </div>
                 </div>
 
@@ -517,14 +501,14 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Specialists in manufacturing high-quality products</h5>
+                        <h5>Specialists in premium Hastelloy C276 products</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
-                        <h5>Strong supplier network for premium raw materials</h5>
+                        <h5>Strong supplier network for UNS N10276 material</h5>
                     </div>
                 </div>
 
@@ -538,7 +522,7 @@
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Global presence with customized solutions for diverse needs</h5>
+                        <h5>Global presence with customized solutions</h5>
                     </div>
                 </div>
 
@@ -565,15 +549,11 @@
                         <!-- Q1 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What is Hastelloy C-276 and why is it important?</h4>
+                                <h4>What is Hastelloy C276?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Hastelloy C-276 (UNS N10276) is a nickel-chromium-molybdenum alloy with excellent
-                                    resistance to strong oxidizers, reducing agents, and chloride-induced corrosion. Its low
-                                    silicon and carbon content reduce welding challenges, while its superior resistance to
-                                    pitting, crevice corrosion, and stress corrosion cracking makes it an ideal choice for
-                                    industries operating in highly aggressive chemical and thermal environments.
+                                    Hastelloy C276, also called Alloy C276 or UNS N10276, is a nickel-chromium-molybdenum alloy known for high corrosion resistance.
                                 </p>
                             </div>
                         </div>
@@ -581,15 +561,11 @@
                         <!-- Q2 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What are the key properties of Hastelloy C-276?</h4>
+                                <h4>What is the density of Hastelloy C276?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Hastelloy C-276 offers outstanding corrosion resistance, high mechanical strength, and
-                                    excellent weldability and formability. With a density of 8.89 g/cm³, a melting point of
-                                    1370°C, tensile strength of 115,000 psi, and yield strength of 52,000 psi, the alloy
-                                    maintains superior performance even in extreme chemical and high temperature conditions,
-                                    making it one of the most reliable materials for critical applications.
+                                    The density is 8.89 g/cm³, higher than mild steel or carbon steel.
                                 </p>
                             </div>
                         </div>
@@ -597,15 +573,11 @@
                         <!-- Q3 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>In which industries is Hastelloy C-276 most commonly used?</h4>
+                                <h4> What products are available in Hastelloy C276?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Hastelloy C-276 is widely used in industries such as chemical processing, nuclear and
-                                    conventional power plants, oil and gas, pulp and paper, marine and offshore systems,
-                                    pollution control, pharmaceutical and food processing, and wastewater treatment. Its
-                                    ability to withstand harsh chemicals, acidic gases, seawater, and high temperatures
-                                    makes it indispensable in mission critical projects.
+                                    Pipes, tubes, sheets, plates, coils, round bars, flat bars, flanges, fasteners, and custom fabricated components.
                                 </p>
                             </div>
                         </div>
@@ -613,15 +585,11 @@
                         <!-- Q4 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What products are available in Hastelloy C-276 from MOKSH TUBES & FITTINGS LLP?</h4>
+                                <h4>What is the price of Hastelloy C276 in India?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    MOKSH TUBES & FITTINGS LLP manufactures and supplies a complete range of Hastelloy C-276
-                                    products including seamless and welded pipes, tubes, sheets, plates, coils, bars, pipe
-                                    fittings, flanges, fasteners, welding rods, wire mesh, and customized fabricated
-                                    components. All products are made to international standards to deliver durability,
-                                    precision, and long term reliability in corrosive environments.
+                                    Price varies based on form, quantity, and market conditions. Contact Moksh Tubes & Fittings LLP for a quote.
                                 </p>
                             </div>
                         </div>
@@ -629,15 +597,11 @@
                         <!-- Q5 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for Hastelloy C-276 products?</h4>
+                                <h4>Can Hastelloy C276 be welded?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    MOKSH TUBES & FITTINGS LLP is a trusted manufacturer, supplier, exporter, importer, and
-                                    stockist of high-quality Hastelloy C-276 products. With expertise in nickel-based
-                                    alloys, a strong global supply network, advanced manufacturing capabilities, and a
-                                    commitment to quality and customer satisfaction, the company delivers customized
-                                    solutions and reliable materials for critical industrial requirements worldwide.
+                                    Yes, low carbon and silicon content ensures easy welding suitable for critical applications.
                                 </p>
                             </div>
                         </div>
@@ -655,7 +619,7 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    For any inquiries or to request a quote, reach out to <strong>Moksh Tubes & Fittings LLP</strong> – your
+                    For inquiries or quotes for <strong>Hastelloy C276 pipe, sheet, or round bar,</strong> reach out to <strong>Moksh Tubes & Fittings LLP</strong> – your
                     trusted partner for <strong>HASTELLOY C-276</strong> products.
                 </p>
                 <!-- Call button -->
