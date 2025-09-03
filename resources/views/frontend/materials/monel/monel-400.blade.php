@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Monel 400 Alloy | Superior Corrosion Resistance & Strength')
-@section('meta_description', 'High-quality Monel 400 offers superior corrosion resistance, excellent strength, and
+@section('meta_description',
+    'High-quality Monel 400 offers superior corrosion resistance, excellent strength, and
     reliability for marine, chemical, and industrial uses.')
-@section('meta_keywords', 'Monel 400, Monel 400 Alloy, Nickel-Copper Alloy, Corrosion Resistant Alloy, High Strength
+@section('meta_keywords',
+    'Monel 400, Monel 400 Alloy, Nickel-Copper Alloy, Corrosion Resistant Alloy, High Strength
     Alloy, Marine Industry Alloys, Chemical Processing Alloys, Industrial Alloys, Impact Resistant Alloys, Durable Nickel
     Alloys')
 
@@ -353,15 +355,14 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                @foreach ($products as $slug => $product)
+                @foreach ($products as $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            {{-- <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none"> --}}
-                            <a href="#" class="text-decoration-none">
+                            <a href="{{ route($product['route']) }}" class="text-decoration-none">
                                 <div class="product-card h-100">
-                                    <img src="https://placehold.co/300x200?" alt="{{ $product }}"
+                                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
                                         class="img-fluid  w-100">
-                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product }}</h6>
+                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product['name'] }}</h6>
                                 </div>
                             </a>
                         </div>

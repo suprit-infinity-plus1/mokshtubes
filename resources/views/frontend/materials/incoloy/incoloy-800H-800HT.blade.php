@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Incoloy 800H and 800HT | Enhanced Heat-Resistant Alloy')
-@section('meta_description', 'With superior creep and rupture strength, Incoloy 800H and 800HT thrives in petrochemical,
+@section('meta_description',
+    'With superior creep and rupture strength, Incoloy 800H and 800HT thrives in petrochemical,
     heat treatment, and power generation applications.')
-@section('meta_keywords', 'Incoloy 800H, Incoloy 800HT, Incoloy 800H Pipes, Incoloy 800HT Pipes, Incoloy 800H Tubes,
+@section('meta_keywords',
+    'Incoloy 800H, Incoloy 800HT, Incoloy 800H Pipes, Incoloy 800HT Pipes, Incoloy 800H Tubes,
     Incoloy 800HT Tubes, Incoloy 800H Fittings, Incoloy 800HT Fittings, Heat Resistant Incoloy 800H, Heat Resistant Incoloy
     800HT, High Temperature Incoloy 800H, High Temperature Incoloy 800HT, Creep Resistant Incoloy 800H, Creep Resistant
     Incoloy 800HT, Petrochemical Incoloy 800H, Power Generation Incoloy 800HT')
@@ -370,15 +372,14 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                @foreach ($products as $slug => $product)
+                @foreach ($products as $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            {{-- <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none"> --}}
-                            <a href="#" class="text-decoration-none">
+                            <a href="{{ route($product['route']) }}" class="text-decoration-none">
                                 <div class="product-card h-100">
-                                    <img src="https://placehold.co/300x200?" alt="{{ $product }}"
+                                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
                                         class="img-fluid  w-100">
-                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product }}</h6>
+                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product['name'] }}</h6>
                                 </div>
                             </a>
                         </div>

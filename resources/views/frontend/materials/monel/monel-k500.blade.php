@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Monel K500 Alloy | Ultimate Strength & Shield')
-@section('meta_description', 'Discover the extreme strength and corrosion resistance of Monel K500—engineered for top
+@section('meta_description',
+    'Discover the extreme strength and corrosion resistance of Monel K500—engineered for top
     performance in marine, chemical, and oilfield environments.')
-@section('meta_keywords', 'Monel K500, Monel K500 Alloy, Nickel-Copper Alloy, High Strength Alloy, Corrosion Resistant
+@section('meta_keywords',
+    'Monel K500, Monel K500 Alloy, Nickel-Copper Alloy, High Strength Alloy, Corrosion Resistant
     Alloy, Marine Industry Alloys, Chemical Processing Alloys, Oilfield Alloys, Impact Resistant Alloys, Durable Nickel
     Alloys')
 
@@ -321,10 +323,10 @@
                 <div class="col-lg-10">
                     <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color: #db7227;">
                         <div class="row">
-                            @foreach ($products as $slug => $product)
+                            @foreach ($products as $product)
                                 <div class="col-12 col-sm-6 mb-2 d-flex justify-content-start align-items-start">
                                     <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span>
-                                    <span>{{ $product }}</span>
+                                    <span>{{ $product['name'] }}</span>
                                 </div>
                             @endforeach
                         </div>
@@ -352,15 +354,14 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                @foreach ($products as $slug => $product)
+                @foreach ($products as $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            {{-- <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none"> --}}
-                            <a href="#" class="text-decoration-none">
+                            <a href="{{ route($product['route']) }}" class="text-decoration-none">
                                 <div class="product-card h-100">
-                                    <img src="https://placehold.co/300x200?" alt="{{ $product }}"
+                                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
                                         class="img-fluid  w-100">
-                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product }}</h6>
+                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product['name'] }}</h6>
                                 </div>
                             </a>
                         </div>
