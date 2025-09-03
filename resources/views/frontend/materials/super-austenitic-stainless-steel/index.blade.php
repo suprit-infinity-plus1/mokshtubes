@@ -32,12 +32,12 @@
 
             @php
                 $grades = [
-                    ['name' => 'Super Austenitic Stainless Steel AL 6XN', 'slug' => 'super-austenitic-stainless-steel-AL-6XN', 'image' => 'assets/images/super-austenitic-stainless-steel/super-austenitic-stainless-steel-AL-6XN.webp'],
-                    ['name' => 'Super Austenitic Stainless Steel Alloy 926', 'slug' => 'super-austenitic-stainless-steel-Alloy-926', 'image' => 'assets/images/super-austenitic-stainless-steel/super-austenitic-stainless-steel-AL-926.webp'],
-                    ['name' => 'Super Austenitic Stainless Steel 253 MA', 'slug' => 'super-austenitic-stainless-steel-253-MA', 'image' => 'assets/images/super-austenitic-stainless-steel/super-austenitic-stainless-steel-253.webp'],
-                    ['name' => 'Super Austenitic Stainless Steel 904L', 'slug' => 'super-austenitic-stainless-steel-904L', 'image' => 'assets/images/super-austenitic-stainless-steel/super-austenitic-stainless-steel-904L.webp'],
-                    ['name' => 'Super Austenitic Stainless Steel SMO 254', 'slug' => 'super-austenitic-stainless-steel-SMO-254', 'image' => 'assets/images/super-austenitic-stainless-steel/super-austenitic-stainless-steel-SMO-254.webp'],
-                    ['name' => 'Super Austenitic Stainless Steel SMO 654', 'slug' => 'super-austenitic-stainless-steel-SMO-654', 'image' => 'assets/images/super-austenitic-stainless-steel/super-austenitic-stainless-steel-SMO-654.webp'],
+                    ['name' => 'Super Austenitic Stainless Steel al 6xn', 'slug' => 'super-austenitic-stainless-steel-al-6xn', 'image' => 'assets/images/super-austenitic-stainless-steel/super-austenitic-stainless-steel-al-6xn.webp'],
+                    ['name' => 'Super Austenitic Stainless Steel alloy 926', 'slug' => 'super-austenitic-stainless-steel-alloy-926', 'image' => 'assets/images/super-austenitic-stainless-steel/super-austenitic-stainless-steel-al-926.webp'],
+                    ['name' => 'Super Austenitic Stainless Steel 253 ma', 'slug' => 'super-austenitic-stainless-steel-253-ma', 'image' => 'assets/images/super-austenitic-stainless-steel/super-austenitic-stainless-steel-253-ma.webp'],
+                    ['name' => 'Super Austenitic Stainless Steel 904l', 'slug' => 'super-austenitic-stainless-steel-904l', 'image' => 'assets/images/super-austenitic-stainless-steel/super-austenitic-stainless-steel-904l.webp'],
+                    ['name' => 'Super Austenitic Stainless Steel smo 254', 'slug' => 'super-austenitic-stainless-steel-smo-254', 'image' => 'assets/images/super-austenitic-stainless-steel/super-austenitic-stainless-steel-smo-254.webp'],
+                    ['name' => 'Super Austenitic Stainless Steel smo 654', 'slug' => 'super-austenitic-stainless-steel-smo-654', 'image' => 'assets/images/super-austenitic-stainless-steel/super-austenitic-stainless-steel-smo-654.webp'],
                 ];
             @endphp
 

@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Titanium Grade 1 | Commercially Pure Titanium')
+@section('title', 'Titanium Grade 1 | Commercially Pure Titanium Material & Metal Uses')
 @section('meta_description', 'Titanium Grade 1 with excellent corrosion resistance, ductility, and weldability for
     chemical and marine use.')
 @section('meta_keywords', 'Titanium Grade 1, Commercially Pure Titanium, Corrosion Resistant Titanium, Titanium Grade 1
@@ -61,6 +61,12 @@
                             resistance to oxygenated and chlorinated media makes it particularly valuable in aggressive
                             service conditions.
                         </p>
+                        <p class="fs-6" style="text-align: justify;">
+    The <strong>density of titanium metal</strong> is about 4.51 g/cm³, making it lighter yet stronger 
+    than many other engineering metals. Similarly, the <strong>titanium melting point</strong> is 1660 °C, 
+    which ensures performance in high-temperature applications.
+</p>
+
                     </div>
                 </div>
             </div>
@@ -126,7 +132,12 @@
             <!-- Physical Properties Table -->
             <div class="row justify-content-center mb-5">
                 <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
+                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties of Titanium</h4>
+                    <p class="text-center">
+    The <strong>density of titanium metal</strong> is about 4.51 g/cm³, making it lighter yet stronger 
+    than many other engineering metals. Similarly, the <strong>titanium melting point</strong> is 1660 °C, 
+    which ensures performance in high-temperature applications.
+</p>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -410,8 +421,10 @@
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Titanium Grade 1</h2>
-                <p class="text-center pb-3"><strong class="text-dark">Titanium Grade 1</strong> adaptability and corrosion
-                    resistance make it a preferred choice for a range of demanding industrial uses:
+                <p class="text-center pb-3"><strong class="text-dark">Common <strong>titanium metal uses</strong> include aircraft parts, marine equipment, 
+   surgical implants, and sports gear. The versatility of <strong>titanium usage</strong> 
+   ensures its demand across multiple industries worldwide.
+</p>
                 </p>
             </div>
 
@@ -638,9 +651,15 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    <strong>Moksh Tubes & Fittings LLP</strong> today for technical consultation, pricing, and custom
-                    product inquiries. We're your reliable partner for high-performance titanium products built for the
-                    future.
+                    <strong><p>
+   Whether used as a structural <strong>titanium material</strong> or in 
+   advanced alloys, its lightweight, high-strength, and corrosion-resistant 
+   nature ensure that titanium remains one of the most valuable 
+   engineering metals today. <strong>Moksh Tubes</strong>, we supply 
+   premium quality <strong>titanium</strong> and its alloys for various 
+   industrial applications.
+</p>
+
                 </p>
                 <!-- Call button -->
                 <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>

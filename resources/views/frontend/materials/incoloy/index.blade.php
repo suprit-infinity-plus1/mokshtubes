@@ -33,9 +33,9 @@
                     ['name' => '800', 'slug' => 'incoloy-800', 'image' => 'assets/images/incoloy/incoloy-800.webp'],
                     ['name' => '925', 'slug' => 'incoloy-925', 'image' => 'assets/images/incoloy/incoloy-925.webp'],
                     [
-                        'name' => '800H_800HT',
-                        'slug' => 'incoloy-800H-800HT',
-                        'image' => 'assets/images/incoloy/incoloy-800H_800HT.webp',
+                        'name' => '800h_800ht',
+                        'slug' => ('Incoloy 800h-800ht'),
+                        'image' => 'assets/images/incoloy/incoloy-800h_800ht.webp',
                     ],
                     ['name' => '020', 'slug' => 'incoloy-020', 'image' => 'assets/images/incoloy/incoloy-020.webp'],
                 ];

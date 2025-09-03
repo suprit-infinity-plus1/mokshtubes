@@ -1,10 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Haynes Superalloys 230')
-@section('meta_description',
-    'Haynes Alloy 230 offers exceptional strength, oxidation resistance, and thermal stability for extreme applications.
-    ')
-
+@section('title', 'Haynes Superalloys 230 - Strength & Oxidation Resistant')
+@section('meta_description', 'Haynes Alloy 230 offers exceptional strength, oxidation resistance, and thermal stability for extreme industrial applications.')
+@section('meta_keywords', 'Haynes Superalloys 230, Haynes Alloy 230, High Strength Haynes, Oxidation Resistant Haynes, Thermal Stability Alloy, Corrosion Resistant Haynes, Industrial Haynes Alloys, Chemical Processing Haynes, Power Industry Haynes, Aerospace Haynes Alloys, Marine Industry Haynes')
 
 @section('content')
     <!--Start breadcrumb area-->
