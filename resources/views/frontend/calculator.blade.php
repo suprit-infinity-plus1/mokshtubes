@@ -57,7 +57,7 @@
             </div>
 
             <!-- Left nav -->
-            <div class="col-md-4 d-none d-md-block">
+            <div class="col-md-4 d-none d-md-block mb-5">
                 <h1 class="mb-3 fs-3">Calculator</h1>
 
                 <div class="list-group" id="tabList">
@@ -153,6 +153,8 @@
                                     <p>Single piece weight: <strong id="sheetSingleWeight1" class="text-primary">0
                                             kg</strong></p>
                                     <p>Total weight: <strong id="sheetTotalWeight1" class="text-primary">0 kg</strong></p>
+                                    <p>Density used: <strong id="sheetDensity1" class="text-secondary">7850 kg/m³</strong>
+                                    </p>
                                 </div>
                             </div>
 
@@ -219,6 +221,8 @@
                                     <p>Weight per meter: <strong id="pipeWeightPerMeter2" class="text-primary">0
                                             kg/m</strong></p>
                                     <p>Total weight: <strong id="pipeTotalWeight2" class="text-primary">0 kg</strong></p>
+                                    <p>Density used: <strong id="pipeDensity" class="text-secondary">7850 kg/m³</strong>
+                                    </p>
                                 </div>
                             </div>
 
@@ -283,6 +287,8 @@
                                     <p>Weight per meter: <strong id="hollowWeightPerMeter3" class="text-primary">0
                                             kg/m</strong></p>
                                     <p>Total weight: <strong id="hollowTotalWeight3" class="text-primary">0 kg</strong>
+                                    </p>
+                                    <p>Density used: <strong id="hollowDensity" class="text-secondary">7850 kg/m³</strong>
                                     </p>
                                 </div>
                             </div>
@@ -350,6 +356,8 @@
                                     <p>Weight per meter: <strong id="squareWeightPerMeter" class="text-primary">0.61
                                             kg/m</strong></p>
                                     <p>Total weight: <strong id="squareTotalWeight" class="text-primary">0.61 kg</strong>
+                                    </p>
+                                    <p>Density used: <strong id="squareDensity" class="text-secondary">7850 kg/m³</strong>
                                     </p>
                                 </div>
                             </div>
@@ -432,6 +440,8 @@
                                             kg/m</strong></p>
                                     <p>Total weight: <strong id="rectangularTotalWeight" class="text-primary">0.00
                                             kg</strong></p>
+                                    <p>Density used: <strong id="rectangularDensity" class="text-secondary">7850
+                                            kg/m³</strong></p>
                                 </div>
                             </div>
 
@@ -487,6 +497,7 @@
                                     <p>Weight per meter: <strong id="roundWeightPerMeter" class="text-primary">0.00
                                             kg/m</strong></p>
                                     <p>Total weight: <strong id="roundTotalWeight" class="text-primary">0.00 kg</strong>
+                                    <p>Density used: <strong class="text-secondary">7850 kg/m³</strong></p>
                                     </p>
                                 </div>
                             </div>
@@ -871,39 +882,20 @@
                         <p>Input your values in the fields below:</p>
 
                         <div class="row">
+                            <!-- Inputs -->
                             <div class="col-lg-6 mb-4 mb-lg-0">
                                 <div class="row">
                                     <!-- Profile Dropdown -->
                                     <div class="mb-3 d-flex align-items-center">
                                         <label class="form-label me-3 mb-0" style="min-width: 80px;">Profile:</label>
-                                        <select class="form-select" style="max-width: 250px;">
-                                            <option selected>UPN 50 x 25</option>
-                                            <option>UPN 50</option>
-                                            <option>UPN 60</option>
-                                            <option>UPN 65</option>
-                                            <option>UPN 80</option>
-                                            <option>UPN 100</option>
-                                            <option>UPN 120</option>
-                                            <option>UPN 140</option>
-                                            <option>UPN 160</option>
-                                            <option>UPN 180</option>
-                                            <option>UPN 200</option>
-                                            <option>UPN 220</option>
-                                            <option>UPN 240</option>
-                                            <option>UPN 260</option>
-                                            <option>UPN 280</option>
-                                            <option>UPN 300</option>
-                                            <option>UPN 320</option>
-                                            <option>UPN 350</option>
-                                            <option>UPN 380</option>
-                                            <option>UPN 400</option>
-                                        </select>
+                                        <select id="upnProfile" class="form-select" style="max-width: 250px;"></select>
                                     </div>
+
                                     <!-- Height -->
                                     <div class="col-12 mb-3">
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Height, h:</label>
-                                            <input type="number" class="form-control" placeholder="e.g. 50" />
+                                            <input id="upnH" type="number" class="form-control" readonly />
                                             <span class="ms-2">mm</span>
                                         </div>
                                     </div>
@@ -912,7 +904,7 @@
                                     <div class="col-12 mb-3">
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Width, b:</label>
-                                            <input type="number" class="form-control" placeholder="e.g. 25" />
+                                            <input id="upnB" type="number" class="form-control" readonly />
                                             <span class="ms-2">mm</span>
                                         </div>
                                     </div>
@@ -922,7 +914,7 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Thickness,
                                                 s:</label>
-                                            <input type="number" class="form-control" placeholder="e.g. 5" />
+                                            <input id="upnS" type="number" class="form-control" readonly />
                                             <span class="ms-2">mm</span>
                                         </div>
                                     </div>
@@ -932,7 +924,7 @@
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Thickness,
                                                 t:</label>
-                                            <input type="number" class="form-control" placeholder="e.g. 6" />
+                                            <input id="upnT" type="number" class="form-control" readonly />
                                             <span class="ms-2">mm</span>
                                         </div>
                                     </div>
@@ -941,26 +933,33 @@
                                     <div class="col-12 mb-3">
                                         <div class="d-flex align-items-center">
                                             <label class="form-label mb-0 me-3" style="width: 120px;">Length, L:</label>
-                                            <input type="number" class="form-control" placeholder="e.g. 1" />
+                                            <input id="upnLength" type="number" class="form-control" value="1"
+                                                min="0.01" step="0.01" />
                                             <span class="ms-2">m</span>
                                         </div>
                                     </div>
                                 </div>
 
+                                <!-- Result -->
                                 <div class="mt-2">
                                     <h6><strong>Result</strong></h6>
-                                    <p>Weight per meter: <strong class="text-primary">4.2 kg/m</strong></p>
-                                    <p>Total weight: <strong class="text-primary">4.2 kg</strong></p>
+                                    <p>Weight per meter: <strong id="upnWeightPerMeter" class="text-primary">0.00
+                                            kg/m</strong></p>
+                                    <p>Total weight: <strong id="upnTotalWeight" class="text-primary">0.00 kg</strong></p>
                                 </div>
                             </div>
 
                             <!-- Right: Image -->
                             <div class="col-lg-6 d-flex align-items-center">
                                 <img src="https://placehold.co/200x200" class="img-fluid rounded border w-100"
-                                    alt="Placeholder Image">
+                                    alt="Placeholder Image for Channels - UPN">
                             </div>
                         </div>
                     </div>
+
+
+
+
 
                     {{-- Beams - IPN --}}
                     <div id="tab13" class="tab-content-item d-none">
@@ -973,66 +972,52 @@
                                     <!-- Profile -->
                                     <div class="mb-3 d-flex align-items-center">
                                         <label class="form-label mb-0 me-3" style="width: 140px;">Profile:</label>
-                                        <select class="form-select">
-                                            <option selected>IPN 80</option>
-                                            <option>IPN 100</option>
-                                            <option>IPN 120</option>
-                                            <option>IPN 140</option>
-                                            <option>IPN 160</option>
-                                            <option>IPN 180</option>
-                                            <option>IPN 200</option>
-                                            <option>IPN 220</option>
-                                            <option>IPN 240</option>
-                                            <option>IPN 260</option>
-                                            <option>IPN 280</option>
-                                            <option>IPN 300</option>
-                                            <option>IPN 320</option>
-                                            <option>IPN 340</option>
-                                            <option>IPN 360</option>
-                                            <option>IPN 380</option>
-                                            <option>IPN 400</option>
-                                            <option>IPN 450</option>
-                                            <option>IPN 500</option>
-                                            <option>IPN 550</option>
-                                        </select>
+                                        <select id="ipnProfile" class="form-select" style="max-width: 250px;"></select>
                                     </div>
 
-                                    <!-- Height, h -->
+                                    <!-- Height -->
                                     <div class="col-12 mb-3 d-flex align-items-center">
-                                        <label class="form-label mb-0 me-3" style="width: 150px;">Height, h: </label>
-                                        <input type="number" class="form-control me-2" placeholder="e.g. 300">
+                                        <label class="form-label mb-0 me-3" style="width: 150px;">Height, h:</label>
+                                        <input id="ipnH" type="number" class="form-control me-2" readonly>
                                         <span>mm</span>
                                     </div>
-                                    <!-- Width of flange, b -->
+
+                                    <!-- Width -->
                                     <div class="col-12 mb-3 d-flex align-items-center">
-                                        <label class="form-label mb-0 me-3" style="width: 150px;">width, b: </label>
-                                        <input type="number" class="form-control me-2" placeholder="e.g. 150">
+                                        <label class="form-label mb-0 me-3" style="width: 150px;">Width, b:</label>
+                                        <input id="ipnB" type="number" class="form-control me-2" readonly>
                                         <span>mm</span>
                                     </div>
-                                    <!-- Thickness of web, tw -->
+
+                                    <!-- Thickness s -->
                                     <div class="col-12 mb-3 d-flex align-items-center">
-                                        <label class="form-label mb-0 me-3" style="width: 150px;">thickness,s: </label>
-                                        <input type="number" class="form-control me-2" placeholder="e.g. 10">
+                                        <label class="form-label mb-0 me-3" style="width: 150px;">Thickness, s:</label>
+                                        <input id="ipnS" type="number" class="form-control me-2" readonly>
                                         <span>mm</span>
                                     </div>
-                                    <!-- Thickness of flange, tf -->
+
+                                    <!-- Thickness t -->
                                     <div class="col-12 mb-3 d-flex align-items-center">
-                                        <label class="form-label mb-0 me-3" style="width: 150px;">thickness, t: </label>
-                                        <input type="number" class="form-control me-2" placeholder="e.g. 15">
+                                        <label class="form-label mb-0 me-3" style="width: 150px;">Thickness, t:</label>
+                                        <input id="ipnT" type="number" class="form-control me-2" readonly>
                                         <span>mm</span>
                                     </div>
+
                                     <!-- Length -->
                                     <div class="col-12 mb-3 d-flex align-items-center">
-                                        <label class="form-label mb-0 me-3" style="width: 150px;">Length, L: </label>
-                                        <input type="number" class="form-control me-2" placeholder="e.g. 6000">
-                                        <span>mm</span>
+                                        <label class="form-label mb-0 me-3" style="width: 150px;">Length, L:</label>
+                                        <input id="ipnLength" type="number" class="form-control me-2" value="1"
+                                            min="0.01" step="0.01">
+                                        <span>m</span>
                                     </div>
                                 </div>
+
                                 <!-- Result -->
                                 <div class="mt-2">
                                     <h6><strong>Result</strong></h6>
-                                    <p>Weight per meter: <strong class="text-primary">4.2 kg/m</strong></p>
-                                    <p>Total weight: <strong class="text-primary">4.2 kg</strong></p>
+                                    <p>Weight per meter: <strong id="ipnWeightPerMeter" class="text-primary">0.00
+                                            kg/m</strong></p>
+                                    <p>Total weight: <strong id="ipnTotalWeight" class="text-primary">0.00 kg</strong></p>
                                 </div>
                             </div>
 
@@ -1055,78 +1040,85 @@
                                     <!-- Profile -->
                                     <div class="mb-3 d-flex align-items-center">
                                         <label class="form-label mb-0 me-3" style="width: 140px;">Profile:</label>
-                                        <select class="form-select">
-                                            <option selected>IPE 80</option>
-                                            <option>IPE 100</option>
-                                            <option>IPE 120</option>
-                                            <option>IPE 140</option>
-                                            <option>IPE 160</option>
-                                            <option>IPE 180</option>
-                                            <option>IPE 200</option>
-                                            <option>IPE 220</option>
-                                            <option>IPE 240</option>
-                                            <option>IPE 270</option>
-                                            <option>IPE 300</option>
-                                            <option>IPE 330</option>
-                                            <option>IPE 360</option>
-                                            <option>IPE 400</option>
-                                            <option>IPE 450</option>
-                                            <option>IPE 500</option>
-                                            <option>IPE 550</option>
-                                            <option>IPE 600</option>
+                                        <select id="ipeProfile" class="form-select" style="max-width: 200px;">
+                                            <option value="IPE 80">IPE 80</option>
+                                            <option value="IPE 100">IPE 100</option>
+                                            <option value="IPE 120">IPE 120</option>
+                                            <option value="IPE 140">IPE 140</option>
+                                            <option value="IPE 160">IPE 160</option>
+                                            <option value="IPE 180">IPE 180</option>
+                                            <option value="IPE 200">IPE 200</option>
+                                            <option value="IPE 220">IPE 220</option>
+                                            <option value="IPE 240">IPE 240</option>
+                                            <option value="IPE 270">IPE 270</option>
+                                            <option value="IPE 300">IPE 300</option>
+                                            <option value="IPE 330">IPE 330</option>
+                                            <option value="IPE 360">IPE 360</option>
+                                            <option value="IPE 400">IPE 400</option>
+                                            <option value="IPE 450">IPE 450</option>
+                                            <option value="IPE 500">IPE 500</option>
+                                            <option value="IPE 550">IPE 550</option>
+                                            <option value="IPE 600">IPE 600</option>
                                         </select>
                                     </div>
 
                                     <!-- Height, h -->
                                     <div class="col-12 mb-3 d-flex align-items-center">
-                                        <label class="form-label mb-0 me-3" style="width: 150px;">Height, h</label>
-                                        <input type="number" class="form-control me-2" placeholder="e.g. 300">
+                                        <label class="form-label mb-0 me-3" style="width: 150px;">Height, h:</label>
+                                        <input id="ipeH" type="number" class="form-control me-2" readonly />
                                         <span>mm</span>
                                     </div>
+
                                     <!-- Width of flange, b -->
                                     <div class="col-12 mb-3 d-flex align-items-center">
-                                        <label class="form-label mb-0 me-3" style="width: 150px;">width, b</label>
-                                        <input type="number" class="form-control me-2" placeholder="e.g. 150">
+                                        <label class="form-label mb-0 me-3" style="width: 150px;">Width, b:</label>
+                                        <input id="ipeB" type="number" class="form-control me-2" readonly />
                                         <span>mm</span>
                                     </div>
-                                    <!-- Thickness of web, tw -->
+
+                                    <!-- Thickness of web, s -->
                                     <div class="col-12 mb-3 d-flex align-items-center">
-                                        <label class="form-label mb-0 me-3" style="width: 150px;">thickness,s</label>
-                                        <input type="number" class="form-control me-2" placeholder="e.g. 10">
+                                        <label class="form-label mb-0 me-3" style="width: 150px;">Thickness, s:</label>
+                                        <input id="ipeS" type="number" class="form-control me-2" readonly />
                                         <span>mm</span>
                                     </div>
-                                    <!-- Thickness of flange, tf -->
+
+                                    <!-- Thickness of flange, t -->
                                     <div class="col-12 mb-3 d-flex align-items-center">
-                                        <label class="form-label mb-0 me-3" style="width: 150px;">thickness,t</label>
-                                        <input type="number" class="form-control me-2" placeholder="e.g. 15">
+                                        <label class="form-label mb-0 me-3" style="width: 150px;">Thickness, t:</label>
+                                        <input id="ipeT" type="number" class="form-control me-2" readonly />
                                         <span>mm</span>
                                     </div>
+
                                     <!-- Length -->
                                     <div class="col-12 mb-3 d-flex align-items-center">
-                                        <label class="form-label mb-0 me-3" style="width: 150px;">Length</label>
-                                        <input type="number" class="form-control me-2" placeholder="e.g. 6000">
-                                        <span>mm</span>
+                                        <label class="form-label mb-0 me-3" style="width: 150px;">Length, L:</label>
+                                        <input id="ipeLength" type="number" class="form-control me-2" value="1"
+                                            min="0.01" step="0.01" />
+                                        <span>m</span>
                                     </div>
                                 </div>
+
                                 <!-- Result -->
                                 <div class="mt-2">
                                     <h6><strong>Result</strong></h6>
-                                    <p>Weight per meter: <strong class="text-primary">4.2 kg/m</strong></p>
-                                    <p>Total weight: <strong class="text-primary">4.2 kg</strong></p>
+                                    <p>Weight per meter: <strong id="ipeWeightPerMeter" class="text-primary">0.00
+                                            kg/m</strong></p>
+                                    <p>Total weight: <strong id="ipeTotalWeight" class="text-primary">0.00 kg</strong></p>
                                 </div>
                             </div>
 
                             <!-- Right: Image -->
                             <div class="col-lg-6 d-flex align-items-center">
                                 <img src="https://placehold.co/200x200?text=IPE" class="img-fluid rounded border w-100"
-                                    alt="I-Beam Illustration" />
+                                    alt="IPE Beam Illustration" />
                             </div>
                         </div>
                     </div>
 
                     {{-- Beams - HEA (IPBL) --}}
                     <div id="tab15" class="tab-content-item d-none">
-                        <h5 class="mb-3">Calculator for Beams - IPE</h5>
+                        <h5 class="mb-3">Calculator for Beams - HEA</h5>
                         <div class="row">
                             <!-- Left: Form Inputs -->
                             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -1135,166 +1127,374 @@
                                     <!-- Profile -->
                                     <div class="mb-3 d-flex align-items-center">
                                         <label class="form-label mb-0 me-3" style="width: 140px;">Profile:</label>
-                                        <select class="form-select">
-                                            <option selected>HEA 100</option>
-                                            <option>HEA 120</option>
-                                            <option>HEA 140</option>
-                                            <option>HEA 160</option>
-                                            <option>HEA 180</option>
-                                            <option>HEA 200</option>
-                                            <option>HEA 220</option>
-                                            <option>HEA 240</option>
-                                            <option>HEA 260</option>
-                                            <option>HEA 280</option>
-                                            <option>HEA 300</option>
-                                            <option>HEA 320</option>
-                                            <option>HEA 340</option>
-                                            <option>HEA 360</option>
-                                            <option>HEA 400</option>
-                                            <option>HEA 450</option>
-                                            <option>HEA 500</option>
-                                            <option>HEA 550</option>
-                                            <option>HEA 600</option>
-                                            <option>HEA 650</option>
-                                            <option>HEA 700</option>
-                                            <option>HEA 800</option>
-                                            <option>HEA 900</option>
-                                            <option>HEA 1000</option>
+                                        <select id="heaProfile" class="form-select" style="max-width: 200px;">
+                                            <option value="HEA 100">HEA 100</option>
+                                            <option value="HEA 120">HEA 120</option>
+                                            <option value="HEA 140">HEA 140</option>
+                                            <option value="HEA 160">HEA 160</option>
+                                            <option value="HEA 180">HEA 180</option>
+                                            <option value="HEA 200">HEA 200</option>
+                                            <option value="HEA 220">HEA 220</option>
+                                            <option value="HEA 240">HEA 240</option>
+                                            <option value="HEA 260">HEA 260</option>
+                                            <option value="HEA 280">HEA 280</option>
+                                            <option value="HEA 300">HEA 300</option>
+                                            <option value="HEA 320">HEA 320</option>
+                                            <option value="HEA 340">HEA 340</option>
+                                            <option value="HEA 360">HEA 360</option>
+                                            <option value="HEA 400">HEA 400</option>
+                                            <option value="HEA 450">HEA 450</option>
+                                            <option value="HEA 500">HEA 500</option>
+                                            <option value="HEA 550">HEA 550</option>
+                                            <option value="HEA 600">HEA 600</option>
+                                            <option value="HEA 650">HEA 650</option>
+                                            <option value="HEA 700">HEA 700</option>
+                                            <option value="HEA 800">HEA 800</option>
+                                            <option value="HEA 900">HEA 900</option>
+                                            <option value="HEA 1000">HEA 1000</option>
                                         </select>
                                     </div>
 
                                     <!-- Height, h -->
                                     <div class="col-12 mb-3 d-flex align-items-center">
-                                        <label class="form-label mb-0 me-3" style="width: 150px;">Height, h</label>
-                                        <input type="number" class="form-control me-2" placeholder="e.g. 300">
+                                        <label class="form-label mb-0 me-3" style="width: 150px;">Height, h:</label>
+                                        <input id="heaH" type="number" class="form-control me-2" readonly />
                                         <span>mm</span>
                                     </div>
+
                                     <!-- Width of flange, b -->
                                     <div class="col-12 mb-3 d-flex align-items-center">
-                                        <label class="form-label mb-0 me-3" style="width: 150px;">width, b</label>
-                                        <input type="number" class="form-control me-2" placeholder="e.g. 150">
+                                        <label class="form-label mb-0 me-3" style="width: 150px;">Width, b:</label>
+                                        <input id="heaB" type="number" class="form-control me-2" readonly />
                                         <span>mm</span>
                                     </div>
-                                    <!-- Thickness of web, tw -->
+
+                                    <!-- Thickness of web, s -->
                                     <div class="col-12 mb-3 d-flex align-items-center">
-                                        <label class="form-label mb-0 me-3" style="width: 150px;">thickness,s</label>
-                                        <input type="number" class="form-control me-2" placeholder="e.g. 10">
+                                        <label class="form-label mb-0 me-3" style="width: 150px;">Thickness, s:</label>
+                                        <input id="heaS" type="number" class="form-control me-2" readonly />
                                         <span>mm</span>
                                     </div>
-                                    <!-- Thickness of flange, tf -->
+
+                                    <!-- Thickness of flange, t -->
                                     <div class="col-12 mb-3 d-flex align-items-center">
-                                        <label class="form-label mb-0 me-3" style="width: 150px;">thickness,t</label>
-                                        <input type="number" class="form-control me-2" placeholder="e.g. 15">
+                                        <label class="form-label mb-0 me-3" style="width: 150px;">Thickness, t:</label>
+                                        <input id="heaT" type="number" class="form-control me-2" readonly />
                                         <span>mm</span>
                                     </div>
+
                                     <!-- Length -->
                                     <div class="col-12 mb-3 d-flex align-items-center">
-                                        <label class="form-label mb-0 me-3" style="width: 150px;">Length</label>
-                                        <input type="number" class="form-control me-2" placeholder="e.g. 6000">
-                                        <span>mm</span>
+                                        <label class="form-label mb-0 me-3" style="width: 150px;">Length, L:</label>
+                                        <input id="heaLength" type="number" class="form-control me-2" value="1"
+                                            min="0.01" step="0.01" />
+                                        <span>m</span>
                                     </div>
                                 </div>
+
                                 <!-- Result -->
                                 <div class="mt-2">
                                     <h6><strong>Result</strong></h6>
-                                    <p>Weight per meter: <strong class="text-primary">4.2 kg/m</strong></p>
-                                    <p>Total weight: <strong class="text-primary">4.2 kg</strong></p>
+                                    <p>Weight per meter: <strong id="heaWeightPerMeter" class="text-primary">0.00
+                                            kg/m</strong></p>
+                                    <p>Total weight: <strong id="heaTotalWeight" class="text-primary">0.00 kg</strong></p>
                                 </div>
                             </div>
 
                             <!-- Right: Image -->
                             <div class="col-lg-6 d-flex align-items-center">
-                                <img src="https://placehold.co/200x200?text=IPBL" class="img-fluid rounded border w-100"
-                                    alt="I-Beam Illustration" />
+                                <img src="https://placehold.co/200x200?text=HEA" class="img-fluid rounded border w-100"
+                                    alt="HEA Beam Illustration" />
                             </div>
                         </div>
                     </div>
+
 
                     {{-- Beams - HEB (IPB) --}}
+                    <!-- HTML for HEB Calculator -->
                     <div id="tab16" class="tab-content-item d-none">
-                        <h5 class="mb-3">Calculator for Beams - IPE</h5>
+                        <h5 class="mb-3">Calculator for Beams – HEB (IPB)</h5>
                         <div class="row">
-                            <!-- Left: Form Inputs -->
                             <div class="col-lg-6 mb-4 mb-lg-0">
-                                <p>Input your values in the fields below:</p>
+                                <!-- Profile Selector -->
+                                <div class="mb-3 d-flex align-items-center">
+                                    <label for="hebProfile" class="form-label mb-0 me-3"
+                                        style="width:140px;">Profile:</label>
+                                    <select id="hebProfile" class="form-select">
+                                        <option>HEB 100</option>
+                                        <option>HEB 120</option>
+                                        <option>HEB 140</option>
+                                        <option>HEB 160</option>
+                                        <option>HEB 180</option>
+                                        <option>HEB 200</option>
+                                        <option>HEB 220</option>
+                                        <option>HEB 240</option>
+                                        <option>HEB 260</option>
+                                        <option>HEB 280</option>
+                                        <option>HEB 300</option>
+                                        <option>HEB 320</option>
+                                        <option>HEB 340</option>
+                                        <option>HEB 360</option>
+                                        <option>HEB 400</option>
+                                        <option>HEB 450</option>
+                                        <option>HEB 500</option>
+                                        <option>HEB 550</option>
+                                        <option>HEB 600</option>
+                                        <option>HEB 650</option>
+                                        <option>HEB 700</option>
+                                        <option>HEB 800</option>
+                                        <option>HEB 900</option>
+                                        <option>HEB 1000</option>
+                                    </select>
+                                </div>
+                                <!-- Dimension Fields (readonly) -->
                                 <div class="row">
-                                    <!-- Profile -->
-                                    <div class="mb-3 d-flex align-items-center">
-                                        <label class="form-label mb-0 me-3" style="width: 140px;">Profile:</label>
-                                        <select class="form-select">
-                                            <option selected>HEB 100</option>
-                                            <option>HEB 120</option>
-                                            <option>HEB 140</option>
-                                            <option>HEB 160</option>
-                                            <option>HEB 180</option>
-                                            <option>HEB 200</option>
-                                            <option>HEB 220</option>
-                                            <option>HEB 240</option>
-                                            <option>HEB 260</option>
-                                            <option>HEB 280</option>
-                                            <option>HEB 300</option>
-                                            <option>HEB 320</option>
-                                            <option>HEB 340</option>
-                                            <option>HEB 360</option>
-                                            <option>HEB 400</option>
-                                            <option>HEB 450</option>
-                                            <option>HEB 500</option>
-                                            <option>HEB 550</option>
-                                            <option>HEB 600</option>
-                                            <option>HEB 650</option>
-                                            <option>HEB 700</option>
-                                            <option>HEB 800</option>
-                                            <option>HEB 900</option>
-                                            <option>HEB 1000</option>
-                                        </select>
-                                    </div>
-
-                                    <!-- Height, h -->
                                     <div class="col-12 mb-3 d-flex align-items-center">
-                                        <label class="form-label mb-0 me-3" style="width: 150px;">Height, h</label>
-                                        <input type="number" class="form-control me-2" placeholder="e.g. 300">
+                                        <label class="form-label mb-0 me-3" style="width:150px;">Height, h:</label>
+                                        <input id="hebH" type="number" class="form-control me-2" readonly />
                                         <span>mm</span>
                                     </div>
-                                    <!-- Width of flange, b -->
                                     <div class="col-12 mb-3 d-flex align-items-center">
-                                        <label class="form-label mb-0 me-3" style="width: 150px;">width, b</label>
-                                        <input type="number" class="form-control me-2" placeholder="e.g. 150">
+                                        <label class="form-label mb-0 me-3" style="width:150px;">Width, b:</label>
+                                        <input id="hebB" type="number" class="form-control me-2" readonly />
                                         <span>mm</span>
                                     </div>
-                                    <!-- Thickness of web, tw -->
                                     <div class="col-12 mb-3 d-flex align-items-center">
-                                        <label class="form-label mb-0 me-3" style="width: 150px;">thickness,s</label>
-                                        <input type="number" class="form-control me-2" placeholder="e.g. 10">
+                                        <label class="form-label mb-0 me-3" style="width:150px;">Thickness, s:</label>
+                                        <input id="hebS" type="number" class="form-control me-2" readonly />
                                         <span>mm</span>
                                     </div>
-                                    <!-- Thickness of flange, tf -->
                                     <div class="col-12 mb-3 d-flex align-items-center">
-                                        <label class="form-label mb-0 me-3" style="width: 150px;">thickness,t</label>
-                                        <input type="number" class="form-control me-2" placeholder="e.g. 15">
+                                        <label class="form-label mb-0 me-3" style="width:150px;">Thickness, t:</label>
+                                        <input id="hebT" type="number" class="form-control me-2" readonly />
                                         <span>mm</span>
                                     </div>
-                                    <!-- Length -->
                                     <div class="col-12 mb-3 d-flex align-items-center">
-                                        <label class="form-label mb-0 me-3" style="width: 150px;">Length</label>
-                                        <input type="number" class="form-control me-2" placeholder="e.g. 6000">
-                                        <span>mm</span>
+                                        <label class="form-label mb-0 me-3" style="width:150px;">Length, L:</label>
+                                        <input id="hebLength" type="number" class="form-control me-2" value="1"
+                                            step="0.01" min="0.01" />
+                                        <span>m</span>
                                     </div>
                                 </div>
-                                <!-- Result -->
+                                <!-- Results -->
                                 <div class="mt-2">
                                     <h6><strong>Result</strong></h6>
-                                    <p>Weight per meter: <strong class="text-primary">4.2 kg/m</strong></p>
-                                    <p>Total weight: <strong class="text-primary">4.2 kg</strong></p>
+                                    <p>Weight per meter: <strong id="hebWeightPerMeter" class="text-primary">0.00
+                                            kg/m</strong></p>
+                                    <p>Total weight: <strong id="hebTotalWeight" class="text-primary">0.00 kg</strong></p>
                                 </div>
-                            </div>
-
-                            <!-- Right: Image -->
-                            <div class="col-lg-6 d-flex align-items-center">
-                                <img src="https://placehold.co/200x200?text=IPE" class="img-fluid rounded border w-100"
-                                    alt="I-Beam Illustration" />
                             </div>
                         </div>
                     </div>
+
+                    <script>
+                        document.addEventListener('DOMContentLoaded', () => {
+                            const specs = {
+                                // data per Maiak (h, b, s, t, weight per meter)
+                                "HEB 100": {
+                                    h: 100,
+                                    b: 100,
+                                    s: 6,
+                                    t: 10,
+                                    w: 20.4
+                                },
+                                "HEB 120": {
+                                    h: 120,
+                                    b: 120,
+                                    s: 6.5,
+                                    t: 11,
+                                    w: 26.7
+                                },
+                                "HEB 140": {
+                                    h: 140,
+                                    b: 140,
+                                    s: 7,
+                                    t: 12,
+                                    w: 33.7
+                                },
+                                "HEB 160": {
+                                    h: 160,
+                                    b: 160,
+                                    s: 8,
+                                    t: 13,
+                                    w: 42.6
+                                },
+                                "HEB 180": {
+                                    h: 180,
+                                    b: 180,
+                                    s: 8.5,
+                                    t: 14,
+                                    w: 51.2
+                                },
+                                "HEB 200": {
+                                    h: 200,
+                                    b: 200,
+                                    s: 9,
+                                    t: 15,
+                                    w: 61.3
+                                },
+                                "HEB 220": {
+                                    h: 220,
+                                    b: 220,
+                                    s: 9.5,
+                                    t: 16,
+                                    w: 71.5
+                                },
+                                "HEB 240": {
+                                    h: 240,
+                                    b: 240,
+                                    s: 10,
+                                    t: 17,
+                                    w: 83.2
+                                },
+                                "HEB 260": {
+                                    h: 260,
+                                    b: 260,
+                                    s: 10,
+                                    t: 17.5,
+                                    w: 93.0
+                                },
+                                "HEB 280": {
+                                    h: 280,
+                                    b: 280,
+                                    s: 10.5,
+                                    t: 18,
+                                    w: 103
+                                },
+                                "HEB 300": {
+                                    h: 300,
+                                    b: 300,
+                                    s: 11,
+                                    t: 19,
+                                    w: 117
+                                },
+                                "HEB 320": {
+                                    h: 320,
+                                    b: 300,
+                                    s: 11.5,
+                                    t: 20.5,
+                                    w: 127
+                                },
+                                "HEB 340": {
+                                    h: 340,
+                                    b: 300,
+                                    s: 12,
+                                    t: 21.5,
+                                    w: 134
+                                },
+                                "HEB 360": {
+                                    h: 360,
+                                    b: 300,
+                                    s: 12.5,
+                                    t: 22.5,
+                                    w: 142
+                                },
+                                "HEB 400": {
+                                    h: 400,
+                                    b: 300,
+                                    s: 13.5,
+                                    t: 24,
+                                    w: 155
+                                },
+                                "HEB 450": {
+                                    h: 450,
+                                    b: 300,
+                                    s: 14,
+                                    t: 26,
+                                    w: 171
+                                },
+                                "HEB 500": {
+                                    h: 500,
+                                    b: 300,
+                                    s: 14.5,
+                                    t: 28,
+                                    w: 187
+                                },
+                                "HEB 550": {
+                                    h: 550,
+                                    b: 300,
+                                    s: 15,
+                                    t: 29,
+                                    w: 199
+                                },
+                                "HEB 600": {
+                                    h: 600,
+                                    b: 300,
+                                    s: 15.5,
+                                    t: 30,
+                                    w: 212
+                                },
+                                "HEB 650": {
+                                    h: 650,
+                                    b: 300,
+                                    s: 16,
+                                    t: 31,
+                                    w: 225
+                                },
+                                "HEB 700": {
+                                    h: 700,
+                                    b: 300,
+                                    s: 17,
+                                    t: 32,
+                                    w: 241
+                                },
+                                "HEB 800": {
+                                    h: 800,
+                                    b: 300,
+                                    s: 17.5,
+                                    t: 33,
+                                    w: 262
+                                },
+                                "HEB 900": {
+                                    h: 900,
+                                    b: 300,
+                                    s: 18.5,
+                                    t: 35,
+                                    w: 291
+                                },
+                                "HEB 1000": {
+                                    h: 1000,
+                                    b: 300,
+                                    s: 19,
+                                    t: 36,
+                                    w: 314
+                                }
+                            };
+
+                            const profile = document.getElementById('hebProfile');
+                            const inpH = document.getElementById('hebH');
+                            const inpB = document.getElementById('hebB');
+                            const inpS = document.getElementById('hebS');
+                            const inpT = document.getElementById('hebT');
+                            const inpLength = document.getElementById('hebLength');
+                            const outWpm = document.getElementById('hebWeightPerMeter');
+                            const outTW = document.getElementById('hebTotalWeight');
+
+                            function update() {
+                                const p = specs[profile.value];
+                                if (!p) return;
+
+                                inpH.value = p.h;
+                                inpB.value = p.b;
+                                inpS.value = p.s;
+                                inpT.value = p.t;
+
+                                const length = parseFloat(inpLength.value) || 0;
+                                const wpm = p.w;
+                                outWpm.textContent = `${wpm.toFixed(2)} kg/m`;
+                                outTW.textContent = `${(wpm * length).toFixed(2)} kg`;
+                            }
+
+                            profile.addEventListener('change', update);
+                            inpLength.addEventListener('input', update);
+
+                            // Initialize
+                            inpLength.value = 1;
+                            update();
+                        });
+                    </script>
+
+
 
 
                 </div>
@@ -1472,7 +1672,7 @@
                 let pieces = parseInt(piecesInput.value) || 1;
 
                 // Volume in m³
-                let volume_m3 = (t / 1000) * (W / 1000) * (L / 1000);
+                let volume_m3 = (t / 1000) * (W / 1000564545) * (L / 1000);
                 let weight_single = volume_m3 * density;
                 let weight_total = weight_single * pieces;
 
@@ -1997,4 +2197,578 @@
         });
     </script>
 
+    <script>
+        const upnChannels = {
+            "UPN 50×25": {
+                h: 50,
+                b: 25,
+                s: 5.0,
+                t: 6.0,
+                w: 3.86
+            },
+            "UPN 50×38": {
+                h: 50,
+                b: 38,
+                s: 5.0,
+                t: 7.0,
+                w: 5.59
+            },
+            "UPN 60": {
+                h: 60,
+                b: 30,
+                s: 6.0,
+                t: 6.0,
+                w: 5.07
+            },
+            "UPN 65": {
+                h: 65,
+                b: 42,
+                s: 5.5,
+                t: 7.5,
+                w: 7.09
+            },
+            "UPN 80": {
+                h: 80,
+                b: 45,
+                s: 6.0,
+                t: 8.0,
+                w: 8.64
+            },
+            "UPN 100": {
+                h: 100,
+                b: 50,
+                s: 6.0,
+                t: 8.5,
+                w: 10.6
+            },
+            "UPN 120": {
+                h: 120,
+                b: 55,
+                s: 7.0,
+                t: 9.0,
+                w: 13.4
+            },
+            "UPN 140": {
+                h: 140,
+                b: 60,
+                s: 7.0,
+                t: 10.0,
+                w: 16.0
+            },
+            "UPN 160": {
+                h: 160,
+                b: 65,
+                s: 7.5,
+                t: 10.5,
+                w: 18.8
+            },
+            "UPN 180": {
+                h: 180,
+                b: 70,
+                s: 8.0,
+                t: 11.0,
+                w: 22.0
+            },
+            "UPN 200": {
+                h: 200,
+                b: 75,
+                s: 8.5,
+                t: 11.5,
+                w: 25.3
+            },
+            "UPN 220": {
+                h: 220,
+                b: 80,
+                s: 9.0,
+                t: 12.5,
+                w: 29.4
+            },
+            "UPN 240": {
+                h: 240,
+                b: 85,
+                s: 9.5,
+                t: 13.0,
+                w: 33.2
+            },
+            "UPN 260": {
+                h: 260,
+                b: 90,
+                s: 10.0,
+                t: 14.0,
+                w: 37.9
+            },
+            "UPN 280": {
+                h: 280,
+                b: 95,
+                s: 10.0,
+                t: 15.0,
+                w: 41.8
+            },
+            "UPN 300": {
+                h: 300,
+                b: 100,
+                s: 10.0,
+                t: 16.0,
+                w: 46.2
+            },
+            "UPN 320": {
+                h: 320,
+                b: 100,
+                s: 14.0,
+                t: 17.5,
+                w: 59.5
+            },
+            "UPN 350": {
+                h: 350,
+                b: 100,
+                s: 14.0,
+                t: 16.0,
+                w: 60.6
+            },
+            "UPN 380": {
+                h: 380,
+                b: 102,
+                s: 13.5,
+                t: 16.0,
+                w: 63.1
+            },
+            "UPN 400": {
+                h: 400,
+                b: 110,
+                s: 14.0,
+                t: 18.0,
+                w: 71.8
+            }
+        };
+
+        function populateUpnProfiles() {
+            const select = document.querySelector('#tab12 select');
+            select.innerHTML = Object.keys(upnChannels)
+                .map(p => `<option value="${p}">${p}</option>`)
+                .join('');
+        }
+
+        function updateUpnUI() {
+            const selectEl = document.querySelector('#tab12 select');
+            const data = upnChannels[selectEl.value];
+            if (!data) return;
+
+            const inputs = document.querySelectorAll('#tab12 input');
+            inputs[0].value = data.h;
+            inputs[1].value = data.b;
+            inputs[2].value = data.s;
+            inputs[3].value = data.t;
+
+            const length = parseFloat(inputs[4].value) || 1;
+            const weightPerMeter = data.w;
+            const totalWeight = weightPerMeter * length;
+
+            const results = document.querySelectorAll('#tab12 .text-primary');
+            results[0].textContent = weightPerMeter.toFixed(2) + " kg/m";
+            results[1].textContent = totalWeight.toFixed(2) + " kg";
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            populateUpnProfiles();
+            const select = document.querySelector('#tab12 select');
+            select.selectedIndex = 0; // Select the first profile by default
+            updateUpnUI();
+            select.addEventListener('change', updateUpnUI);
+            document.querySelector('#tab12 input:nth-of-type(5)').addEventListener('input', updateUpnUI);
+        });
+    </script>
+
+
+
+    <!-- === JavaScript === -->
+    <script>
+        const ipnChannels = {
+            "IPN 80": {
+                h: 80,
+                b: 42,
+                s: 3.9,
+                t: 5.9,
+                w: 5.94
+            },
+            "IPN 100": {
+                h: 100,
+                b: 50,
+                s: 4.5,
+                t: 6.8,
+                w: 8.34
+            },
+            "IPN 120": {
+                h: 120,
+                b: 58,
+                s: 5.1,
+                t: 7.7,
+                w: 11.1
+            },
+            "IPN 140": {
+                h: 140,
+                b: 66,
+                s: 5.7,
+                t: 8.6,
+                w: 14.3
+            },
+            "IPN 160": {
+                h: 160,
+                b: 74,
+                s: 6.3,
+                t: 9.5,
+                w: 17.9
+            },
+            "IPN 180": {
+                h: 180,
+                b: 82,
+                s: 6.9,
+                t: 10.4,
+                w: 21.9
+            },
+            "IPN 200": {
+                h: 200,
+                b: 90,
+                s: 7.5,
+                t: 11.3,
+                w: 26.2
+            },
+            "IPN 220": {
+                h: 220,
+                b: 98,
+                s: 8.1,
+                t: 12.2,
+                w: 31.1
+            },
+            "IPN 240": {
+                h: 240,
+                b: 106,
+                s: 8.7,
+                t: 13.1,
+                w: 36.2
+            },
+            "IPN 260": {
+                h: 260,
+                b: 113,
+                s: 9.4,
+                t: 14.1,
+                w: 41.9
+            },
+            "IPN 280": {
+                h: 280,
+                b: 119,
+                s: 10.1,
+                t: 15.2,
+                w: 47.9
+            },
+            "IPN 300": {
+                h: 300,
+                b: 125,
+                s: 10.8,
+                t: 16.2,
+                w: 54.2
+            },
+            "IPN 320": {
+                h: 320,
+                b: 131,
+                s: 11.5,
+                t: 17.3,
+                w: 61.0
+            },
+            "IPN 340": {
+                h: 340,
+                b: 137,
+                s: 12.2,
+                t: 18.3,
+                w: 68.0
+            },
+            "IPN 360": {
+                h: 360,
+                b: 143,
+                s: 13.0,
+                t: 19.5,
+                w: 76.1
+            },
+            "IPN 380": {
+                h: 380,
+                b: 149,
+                s: 13.7,
+                t: 20.5,
+                w: 84.0
+            },
+            "IPN 400": {
+                h: 400,
+                b: 155,
+                s: 14.4,
+                t: 21.6,
+                w: 92.4
+            },
+            "IPN 450": {
+                h: 450,
+                b: 170,
+                s: 16.2,
+                t: 24.3,
+                w: 115.0
+            },
+            "IPN 500": {
+                h: 500,
+                b: 185,
+                s: 18.0,
+                t: 27.0,
+                w: 141.0
+            },
+            "IPN 550": {
+                h: 550,
+                b: 200,
+                s: 19.0,
+                t: 30.0,
+                w: 166.0
+            }
+        };
+
+        function populateIpnProfiles() {
+            const select = document.getElementById('ipnProfile');
+            select.innerHTML = Object.keys(ipnChannels)
+                .map(profile => `<option value="${profile}">${profile}</option>`)
+                .join('');
+        }
+
+        function updateIpnUI() {
+            const select = document.getElementById('ipnProfile');
+            const profile = select.value;
+            const data = ipnChannels[profile];
+
+            if (!data) return;
+
+            // Set dimensions
+            document.getElementById('ipnH').value = data.h;
+            document.getElementById('ipnB').value = data.b;
+            document.getElementById('ipnS').value = data.s;
+            document.getElementById('ipnT').value = data.t;
+
+            // Calculate weight
+            const length = parseFloat(document.getElementById('ipnLength').value) || 0;
+            const weightPerMeter = data.w;
+            const totalWeight = weightPerMeter * length;
+
+            // Set results
+            document.getElementById('ipnWeightPerMeter').textContent = weightPerMeter.toFixed(2) + " kg/m";
+            document.getElementById('ipnTotalWeight').textContent = totalWeight.toFixed(2) + " kg";
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            populateIpnProfiles();
+            document.getElementById('ipnProfile').addEventListener('change', updateIpnUI);
+            document.getElementById('ipnLength').addEventListener('input', updateIpnUI);
+
+            // Set default values
+            updateIpnUI();
+        });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const specs = {
+                // data per Maiak (h, b, s, t, weight per meter)
+                "HEB 100": {
+                    h: 100,
+                    b: 100,
+                    s: 6,
+                    t: 10,
+                    w: 20.4
+                },
+                "HEB 120": {
+                    h: 120,
+                    b: 120,
+                    s: 6.5,
+                    t: 11,
+                    w: 26.7
+                },
+                "HEB 140": {
+                    h: 140,
+                    b: 140,
+                    s: 7,
+                    t: 12,
+                    w: 33.7
+                },
+                "HEB 160": {
+                    h: 160,
+                    b: 160,
+                    s: 8,
+                    t: 13,
+                    w: 42.6
+                },
+                "HEB 180": {
+                    h: 180,
+                    b: 180,
+                    s: 8.5,
+                    t: 14,
+                    w: 51.2
+                },
+                "HEB 200": {
+                    h: 200,
+                    b: 200,
+                    s: 9,
+                    t: 15,
+                    w: 61.3
+                },
+                "HEB 220": {
+                    h: 220,
+                    b: 220,
+                    s: 9.5,
+                    t: 16,
+                    w: 71.5
+                },
+                "HEB 240": {
+                    h: 240,
+                    b: 240,
+                    s: 10,
+                    t: 17,
+                    w: 83.2
+                },
+                "HEB 260": {
+                    h: 260,
+                    b: 260,
+                    s: 10,
+                    t: 17.5,
+                    w: 93.0
+                },
+                "HEB 280": {
+                    h: 280,
+                    b: 280,
+                    s: 10.5,
+                    t: 18,
+                    w: 103
+                },
+                "HEB 300": {
+                    h: 300,
+                    b: 300,
+                    s: 11,
+                    t: 19,
+                    w: 117
+                },
+                "HEB 320": {
+                    h: 320,
+                    b: 300,
+                    s: 11.5,
+                    t: 20.5,
+                    w: 127
+                },
+                "HEB 340": {
+                    h: 340,
+                    b: 300,
+                    s: 12,
+                    t: 21.5,
+                    w: 134
+                },
+                "HEB 360": {
+                    h: 360,
+                    b: 300,
+                    s: 12.5,
+                    t: 22.5,
+                    w: 142
+                },
+                "HEB 400": {
+                    h: 400,
+                    b: 300,
+                    s: 13.5,
+                    t: 24,
+                    w: 155
+                },
+                "HEB 450": {
+                    h: 450,
+                    b: 300,
+                    s: 14,
+                    t: 26,
+                    w: 171
+                },
+                "HEB 500": {
+                    h: 500,
+                    b: 300,
+                    s: 14.5,
+                    t: 28,
+                    w: 187
+                },
+                "HEB 550": {
+                    h: 550,
+                    b: 300,
+                    s: 15,
+                    t: 29,
+                    w: 199
+                },
+                "HEB 600": {
+                    h: 600,
+                    b: 300,
+                    s: 15.5,
+                    t: 30,
+                    w: 212
+                },
+                "HEB 650": {
+                    h: 650,
+                    b: 300,
+                    s: 16,
+                    t: 31,
+                    w: 225
+                },
+                "HEB 700": {
+                    h: 700,
+                    b: 300,
+                    s: 17,
+                    t: 32,
+                    w: 241
+                },
+                "HEB 800": {
+                    h: 800,
+                    b: 300,
+                    s: 17.5,
+                    t: 33,
+                    w: 262
+                },
+                "HEB 900": {
+                    h: 900,
+                    b: 300,
+                    s: 18.5,
+                    t: 35,
+                    w: 291
+                },
+                "HEB 1000": {
+                    h: 1000,
+                    b: 300,
+                    s: 19,
+                    t: 36,
+                    w: 314
+                }
+            };
+
+            const profile = document.getElementById('hebProfile');
+            const inpH = document.getElementById('hebH');
+            const inpB = document.getElementById('hebB');
+            const inpS = document.getElementById('hebS');
+            const inpT = document.getElementById('hebT');
+            const inpLength = document.getElementById('hebLength');
+            const outWpm = document.getElementById('hebWeightPerMeter');
+            const outTW = document.getElementById('hebTotalWeight');
+
+            function update() {
+                const p = specs[profile.value];
+                if (!p) return;
+
+                inpH.value = p.h;
+                inpB.value = p.b;
+                inpS.value = p.s;
+                inpT.value = p.t;
+
+                const length = parseFloat(inpLength.value) || 0;
+                const wpm = p.w;
+                outWpm.textContent = `${wpm.toFixed(2)} kg/m`;
+                outTW.textContent = `${(wpm * length).toFixed(2)} kg`;
+            }
+
+            profile.addEventListener('change', update);
+            inpLength.addEventListener('input', update);
+
+            // Initialize
+            inpLength.value = 1;
+            update();
+        });
+    </script>
 @endsection
