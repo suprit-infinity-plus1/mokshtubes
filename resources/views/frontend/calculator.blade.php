@@ -357,7 +357,7 @@
                                             kg/m</strong></p>
                                     <p>Total weight: <strong id="squareTotalWeight" class="text-primary">0.61 kg</strong>
                                     </p>
-                                    <p>Density used: <strong id="squareDensity" class="text-secondary">7850 kg/m³</strong>
+                                    <p>Density used: <strong id="squareDensity" class="text-secondary">7530 kg/m³</strong>
                                     </p>
                                 </div>
                             </div>
@@ -440,8 +440,9 @@
                                             kg/m</strong></p>
                                     <p>Total weight: <strong id="rectangularTotalWeight" class="text-primary">0.00
                                             kg</strong></p>
-                                    <p>Density used: <strong id="rectangularDensity" class="text-secondary">7850
-                                            kg/m³</strong></p>
+                                    <p>Constant Z : 0.0157</p>
+                                    <p>Constant Q : 0.044877</p>
+
                                 </div>
                             </div>
 
@@ -497,8 +498,7 @@
                                     <p>Weight per meter: <strong id="roundWeightPerMeter" class="text-primary">0.00
                                             kg/m</strong></p>
                                     <p>Total weight: <strong id="roundTotalWeight" class="text-primary">0.00 kg</strong>
-                                    <p>Density used: <strong class="text-secondary">7850 kg/m³</strong></p>
-                                    </p>
+                                    <p>Density used: <strong>7850 kg/m³</strong></p>
                                 </div>
                             </div>
 
@@ -552,6 +552,7 @@
                                             kg/m</strong></p>
                                     <p>Total weight: <strong id="squareTotalWeight7" class="text-primary">0.00 kg</strong>
                                     </p>
+                                    <p>Density used: <strong>7850 kg/m³</strong></p>
                                 </div>
                             </div>
 
@@ -622,6 +623,7 @@
                                             kg/m</strong></p>
                                     <p>Total weight: <strong id="flatTotalWeight8" class="text-primary">0.00 kg</strong>
                                     </p>
+                                    <p>Density used: <strong>7850 kg/m³</strong></p>
                                 </div>
                             </div>
 
@@ -690,6 +692,7 @@
                                             kg/m</strong></p>
                                     <p>Total weight: <strong id="angleTotalWeight9" class="text-primary">0.00 kg</strong>
                                     </p>
+                                    <p>Density used: <strong>7850 kg/m³</strong></p>
                                 </div>
                             </div>
 
@@ -794,6 +797,7 @@
                                             kg/m</strong></p>
                                     <p>Total weight: <strong id="angleTotalWeight10" class="text-primary">0.00 kg</strong>
                                     </p>
+                                    <p>Density used: <strong>7850 kg/m³</strong></p>
                                 </div>
                             </div>
 
@@ -1532,127 +1536,121 @@
 
 
         // Steel sheets and plates
-        function calculateSteelSheetWeight() {
-            const thickness = parseFloat(document.getElementById('sheetThickness').value) || 0;
-            const width = parseFloat(document.getElementById('sheetWidth').value) || 0;
-            const length = parseFloat(document.getElementById('sheetLength').value) || 0;
-            const pieces = parseInt(document.getElementById('sheetPieces').value) || 0;
+        // function calculateSteelSheetWeight() {
+        //     const thickness = parseFloat(document.getElementById('sheetThickness').value) || 0;
+        //     const width = parseFloat(document.getElementById('sheetWidth').value) || 0;
+        //     const length = parseFloat(document.getElementById('sheetLength').value) || 0;
+        //     const pieces = parseInt(document.getElementById('sheetPieces').value) || 0;
 
-            const density = 7.85; // in g/cm³ = 7850 kg/m³
+        //     const density = 7.85; 
 
-            // Calculate weight of one sheet in kg
-            const singleWeight = (length * width * thickness * density) / 1_000_000;
-            const totalWeight = singleWeight * pieces;
+        //     const singleWeight = (length * width * thickness * density) / 1_000_000;
+        //     const totalWeight = singleWeight * pieces;
 
-            // Display result
-            document.getElementById('sheetSingleWeight').textContent = singleWeight.toFixed(2) + " kg";
-            document.getElementById('sheetTotalWeight').textContent = totalWeight.toFixed(2) + " kg";
-        }
+        //     document.getElementById('sheetSingleWeight').textContent = singleWeight.toFixed(2) + " kg";
+        //     document.getElementById('sheetTotalWeight').textContent = totalWeight.toFixed(2) + " kg";
+        // }
 
         // Seamless steel pipes - circular
-        function calculatePipeWeight() {
-            const D = parseFloat(document.getElementById('pipeDiameter').value) || 0; // Outer diameter (mm)
-            const t = parseFloat(document.getElementById('pipeThickness').value) || 0; // Thickness (mm)
-            const L_meters = parseFloat(document.getElementById('pipeLength').value) || 0; // Length in meters
+        // function calculatePipeWeight() {
+        //     const D = parseFloat(document.getElementById('pipeDiameter').value) || 0; // Outer diameter (mm)
+        //     const t = parseFloat(document.getElementById('pipeThickness').value) || 0; // Thickness (mm)
+        //     const L_meters = parseFloat(document.getElementById('pipeLength').value) || 0; // Length in meters
 
-            const density = 7.85; // g/cm³ (for steel)
+        //     const density = 7.85; 
 
-            if (D <= 0 || t <= 0 || L_meters <= 0 || D <= 2 * t) {
-                document.getElementById('pipeWeightPerMeter').textContent = "NaN";
-                document.getElementById('pipeTotalWeight').textContent = "NaN";
-                return;
-            }
+        //     if (D <= 0 || t <= 0 || L_meters <= 0 || D <= 2 * t) {
+        //         document.getElementById('pipeWeightPerMeter').textContent = "NaN";
+        //         document.getElementById('pipeTotalWeight').textContent = "NaN";
+        //         return;
+        //     }
 
-            const d = D - 2 * t; // Inner diameter (mm)
-            const area = (Math.PI / 4) * (Math.pow(D, 2) - Math.pow(d, 2)); // mm²
+        //     const d = D - 2 * t; 
+        //     const area = (Math.PI / 4) * (Math.pow(D, 2) - Math.pow(d, 2)); // mm²
 
-            // Convert mm² to cm² and multiply by density to get g/mm, then convert to kg/mm
-            const weightPerMm = area * density * 1e-6; // kg/mm
-            const weightPerMeter = weightPerMm * 1000; // kg/m
-            const totalWeight = weightPerMeter * L_meters; // kg
+        //     const weightPerMm = area * density * 1e-6; 
+        //     const weightPerMeter = weightPerMm * 1000; 
+        //     const totalWeight = weightPerMeter * L_meters; 
 
-            document.getElementById('pipeWeightPerMeter').textContent = weightPerMeter.toFixed(2) + " kg/m";
-            document.getElementById('pipeTotalWeight').textContent = totalWeight.toFixed(2) + " kg";
-        }
+        //     document.getElementById('pipeWeightPerMeter').textContent = weightPerMeter.toFixed(2) + " kg/m";
+        //     document.getElementById('pipeTotalWeight').textContent = totalWeight.toFixed(2) + " kg";
+        // }
 
         // Hollow structural sections - circular
-        function calculateHollowSectionWeight() {
-            const D = parseFloat(document.getElementById('hollowDiameter').value) || 0; // Outer diameter (mm)
-            const t = parseFloat(document.getElementById('hollowThickness').value) || 0; // Thickness (mm)
-            const L_meters = parseFloat(document.getElementById('hollowLength').value) || 0; // Length in meters
+        // function calculateHollowSectionWeight() {
+        //     const D = parseFloat(document.getElementById('hollowDiameter').value) || 0; // Outer diameter (mm)
+        //     const t = parseFloat(document.getElementById('hollowThickness').value) || 0; // Thickness (mm)
+        //     const L_meters = parseFloat(document.getElementById('hollowLength').value) || 0; // Length in meters
 
-            const density = 7.85; // g/cm³ (for steel)
+        //     const density = 7.85; 
 
-            if (D <= 0 || t <= 0 || L_meters <= 0 || D <= 2 * t) {
-                document.getElementById('hollowWeightPerMeter').textContent = "NaN";
-                document.getElementById('hollowTotalWeight').textContent = "NaN";
-                return;
-            }
+        //     if (D <= 0 || t <= 0 || L_meters <= 0 || D <= 2 * t) {
+        //         document.getElementById('hollowWeightPerMeter').textContent = "NaN";
+        //         document.getElementById('hollowTotalWeight').textContent = "NaN";
+        //         return;
+        //     }
 
-            const d = D - 2 * t; // Inner diameter (mm)
-            const area = (Math.PI / 4) * (Math.pow(D, 2) - Math.pow(d, 2)); // mm²
+        //     const d = D - 2 * t; 
+        //     const area = (Math.PI / 4) * (Math.pow(D, 2) - Math.pow(d, 2)); // mm²
 
-            // Convert mm² to cm² and multiply by density to get g/mm, then convert to kg/mm
-            const weightPerMm = area * density * 1e-6; // kg/mm
-            const weightPerMeter = weightPerMm * 1000; // kg/m
-            const totalWeight = weightPerMeter * L_meters; // kg
+        //     const weightPerMm = area * density * 1e-6; 
+        //     const weightPerMeter = weightPerMm * 1000; 
+        //     const totalWeight = weightPerMeter * L_meters; 
 
-            document.getElementById('hollowWeightPerMeter').textContent = weightPerMeter.toFixed(2) + " kg/m";
-            document.getElementById('hollowTotalWeight').textContent = totalWeight.toFixed(2) + " kg";
-        }
+        //     document.getElementById('hollowWeightPerMeter').textContent = weightPerMeter.toFixed(2) + " kg/m";
+        //     document.getElementById('hollowTotalWeight').textContent = totalWeight.toFixed(2) + " kg";
+        // }
 
         // ===========
-        function calculateSquareHollowSectionWeight() {
-            const A = parseFloat(document.getElementById('squareSide').value) || 0;
-            const t = parseFloat(document.getElementById('squareThickness').value) || 0;
-            const L = parseFloat(document.getElementById('squareLength').value) || 0;
+        // function calculateSquareHollowSectionWeight() {
+        //     const A = parseFloat(document.getElementById('squareSide').value) || 0;
+        //     const t = parseFloat(document.getElementById('squareThickness').value) || 0;
+        //     const L = parseFloat(document.getElementById('squareLength').value) || 0;
 
-            if (A <= 0 || t <= 0 || L <= 0 || t >= A / 2) {
-                document.getElementById('squareWeightPerMeter').textContent = '0.00 kg/m';
-                document.getElementById('squareTotalWeight').textContent = '0.00 kg';
-                return;
-            }
+        //     if (A <= 0 || t <= 0 || L <= 0 || t >= A / 2) {
+        //         document.getElementById('squareWeightPerMeter').textContent = '0.00 kg/m';
+        //         document.getElementById('squareTotalWeight').textContent = '0.00 kg';
+        //         return;
+        //     }
 
-            const outerArea = A * A;
-            const innerArea = (A - 2 * t) * (A - 2 * t);
-            const area = outerArea - innerArea; // in mm²
-            const density = 7.85e-6; // steel density in kg/mm³
-            const weightPerMeter = area * density * 1000; // per meter
-            const totalWeight = weightPerMeter * L;
+        //     const outerArea = A * A;
+        //     const innerArea = (A - 2 * t) * (A - 2 * t);
+        //     const area = outerArea - innerArea; 
+        //     const density = 7.85e-6; 
+        //     const weightPerMeter = area * density * 1000; 
+        //     const totalWeight = weightPerMeter * L;
 
-            document.getElementById('squareWeightPerMeter').textContent = `${weightPerMeter.toFixed(2)} kg/m`;
-            document.getElementById('squareTotalWeight').textContent = `${totalWeight.toFixed(2)} kg`;
-        }
+        //     document.getElementById('squareWeightPerMeter').textContent = `${weightPerMeter.toFixed(2)} kg/m`;
+        //     document.getElementById('squareTotalWeight').textContent = `${totalWeight.toFixed(2)} kg`;
+        // }
 
         // ===========
 
 
         // Hollow Structural Sections – Rectangular
-        function calculateRectangularHollowSectionWeight() {
-            const A = parseFloat(document.getElementById('rectangularSideA').value) || 0; // Side A (mm)
-            const B = parseFloat(document.getElementById('rectangularSideB').value) || 0; // Side B (mm)
-            const t = parseFloat(document.getElementById('rectangularThickness').value) || 0; // Thickness (mm)
-            const L_meters = parseFloat(document.getElementById('rectangularLength').value) || 0; // Length (m)
+        // function calculateRectangularHollowSectionWeight() {
+        //     const A = parseFloat(document.getElementById('rectangularSideA').value) || 0; // Side A (mm)
+        //     const B = parseFloat(document.getElementById('rectangularSideB').value) || 0; // Side B (mm)
+        //     const t = parseFloat(document.getElementById('rectangularThickness').value) || 0; // Thickness (mm)
+        //     const L_meters = parseFloat(document.getElementById('rectangularLength').value) || 0; // Length (m)
 
-            const density = 7.85; // g/cm³ (for steel)
+        //     const density = 7.85; 
 
-            if (A <= 0 || B <= 0 || t <= 0 || L_meters <= 0 || A <= 2 * t || B <= 2 * t) {
-                document.getElementById('rectangularWeightPerMeter').textContent = "NaN";
-                document.getElementById('rectangularTotalWeight').textContent = "NaN";
-                return;
-            }
+        //     if (A <= 0 || B <= 0 || t <= 0 || L_meters <= 0 || A <= 2 * t || B <= 2 * t) {
+        //         document.getElementById('rectangularWeightPerMeter').textContent = "NaN";
+        //         document.getElementById('rectangularTotalWeight').textContent = "NaN";
+        //         return;
+        //     }
 
-            // Area of hollow rectangular section
-            const area = (2 * (A * t)) + (2 * (B * t)) - (4 * (t * t)); // mm²
+        //     const area = (2 * (A * t)) + (2 * (B * t)) - (4 * (t * t)); 
 
-            // Convert mm² to cm² and multiply by density to get g/mm, then convert to kg/mm
-            const weightPerMm = area * density * 1e-6; // kg/mm
-            const weightPerMeter = weightPerMm * 1000; // kg/m
-            const totalWeight = weightPerMeter * L_meters; // kg
+        //     const weightPerMm = area * density * 1e-6;
+        //     const weightPerMeter = weightPerMm * 1000; 
+        //     const totalWeight = weightPerMeter * L_meters; 
 
-            document.getElementById('rectangularWeightPerMeter').textContent = weightPerMeter.toFixed(2) + " kg/m";
-            document.getElementById('rectangularTotalWeight').textContent = totalWeight.toFixed(2) + " kg";
-        }
+        //     document.getElementById('rectangularWeightPerMeter').textContent = weightPerMeter.toFixed(2) + " kg/m";
+        //     document.getElementById('rectangularTotalWeight').textContent = totalWeight.toFixed(2) + " kg";
+        // }
     </script>
 
     <script>
@@ -1671,8 +1669,7 @@
                 let L = parseFloat(lInput.value) || 0;
                 let pieces = parseInt(piecesInput.value) || 1;
 
-                // Volume in m³
-                let volume_m3 = (t / 1000) * (W / 1000564545) * (L / 1000);
+                let volume_m3 = (t / 1000) * (W / 1000) * (L / 1000);
                 let weight_single = volume_m3 * density;
                 let weight_total = weight_single * pieces;
 
@@ -1680,17 +1677,13 @@
                 totalOutput.innerText = weight_total.toFixed(2) + " kg";
             }
 
-            // Add event listeners
             tInput.addEventListener('input', calculate);
             wInput.addEventListener('input', calculate);
             lInput.addEventListener('input', calculate);
             piecesInput.addEventListener('input', calculate);
-
-            // Initial calculation
             calculate();
         }
 
-        // Initialize tab1 calculator
         initSteelSheetCalculator(1);
     </script>
     <script>
@@ -2564,6 +2557,397 @@
             updateIpnUI();
         });
     </script>
+
+    <script>
+        // EN 10365:2017 — Standard IPE sections (not IPE A / O / V)
+        // Fields: h, b, s (web), t (flange), weight (kg/m), area (cm²)
+        const IPE_DATA = {
+            "IPE 80": {
+                h: 80.0,
+                b: 46.0,
+                s: 3.8,
+                t: 5.2,
+                weight: 6.0,
+                area: 7.6
+            },
+            "IPE 100": {
+                h: 100.0,
+                b: 55.0,
+                s: 4.1,
+                t: 5.7,
+                weight: 8.1,
+                area: 10.3
+            },
+            "IPE 120": {
+                h: 120.0,
+                b: 64.0,
+                s: 4.4,
+                t: 6.3,
+                weight: 10.4,
+                area: 13.2
+            },
+            "IPE 140": {
+                h: 140.0,
+                b: 73.0,
+                s: 4.7,
+                t: 6.9,
+                weight: 12.9,
+                area: 16.4
+            },
+            "IPE 160": {
+                h: 160.0,
+                b: 82.0,
+                s: 5.0,
+                t: 7.4,
+                weight: 15.8,
+                area: 20.1
+            },
+            "IPE 180": {
+                h: 180.0,
+                b: 91.0,
+                s: 5.3,
+                t: 8.0,
+                weight: 18.8,
+                area: 23.9
+            },
+            "IPE 200": {
+                h: 200.0,
+                b: 100.0,
+                s: 5.6,
+                t: 8.5,
+                weight: 22.4,
+                area: 28.5
+            },
+            "IPE 220": {
+                h: 220.0,
+                b: 110.0,
+                s: 5.9,
+                t: 9.2,
+                weight: 26.2,
+                area: 33.4
+            },
+            "IPE 240": {
+                h: 240.0,
+                b: 120.0,
+                s: 6.2,
+                t: 9.8,
+                weight: 30.7,
+                area: 39.1
+            },
+            "IPE 270": {
+                h: 270.0,
+                b: 135.0,
+                s: 6.6,
+                t: 10.2,
+                weight: 36.1,
+                area: 45.9
+            },
+            "IPE 300": {
+                h: 300.0,
+                b: 150.0,
+                s: 7.1,
+                t: 10.7,
+                weight: 42.2,
+                area: 53.8
+            },
+            "IPE 330": {
+                h: 330.0,
+                b: 160.0,
+                s: 7.5,
+                t: 11.5,
+                weight: 49.1,
+                area: 62.6
+            },
+            "IPE 360": {
+                h: 360.0,
+                b: 170.0,
+                s: 8.0,
+                t: 12.7,
+                weight: 57.1,
+                area: 72.7
+            },
+            "IPE 400": {
+                h: 400.0,
+                b: 180.0,
+                s: 8.6,
+                t: 13.5,
+                weight: 66.3,
+                area: 84.5
+            },
+            "IPE 450": {
+                h: 450.0,
+                b: 190.0,
+                s: 9.4,
+                t: 14.6,
+                weight: 77.6,
+                area: 98.8
+            },
+            "IPE 500": {
+                h: 500.0,
+                b: 200.0,
+                s: 10.2,
+                t: 16.0,
+                weight: 90.7,
+                area: 115.5
+            },
+            "IPE 550": {
+                h: 550.0,
+                b: 210.0,
+                s: 11.1,
+                t: 17.2,
+                weight: 106.0,
+                area: 134.4
+            },
+            "IPE 600": {
+                h: 600.0,
+                b: 220.0,
+                s: 12.0,
+                t: 19.0,
+                weight: 122.0,
+                area: 156.0
+            }
+        };
+        const profileEl = document.getElementById('ipeProfile');
+        const hEl = document.getElementById('ipeH');
+        const bEl = document.getElementById('ipeB');
+        const sEl = document.getElementById('ipeS');
+        const tEl = document.getElementById('ipeT');
+        const lenEl = document.getElementById('ipeLength');
+        const wpmEl = document.getElementById('ipeWeightPerMeter');
+        const totalEl = document.getElementById('ipeTotalWeight');
+
+        function updateIPE() {
+            const key = profileEl.value;
+            const d = IPE_DATA[key];
+            if (!d) return;
+            hEl.value = d.h;
+            bEl.value = d.b;
+            sEl.value = d.s;
+            tEl.value = d.t;
+            const wpm = d.weight; // kg/m from standard
+            const total = wpm * (parseFloat(lenEl.value) || 0);
+            wpmEl.textContent = `${wpm.toFixed(1)} kg/m`;
+            totalEl.textContent = `${total.toFixed(2)} kg`;
+        }
+
+        profileEl.addEventListener('change', updateIPE);
+        lenEl.addEventListener('input', updateIPE);
+
+        // init on load
+        updateIPE();
+    </script>
+
+    <script>
+        const heaData = {
+            "HEA 100": {
+                h: 96,
+                b: 100,
+                s: 5.0,
+                t: 8.0,
+                weight: 16.7
+            },
+            "HEA 120": {
+                h: 114,
+                b: 120,
+                s: 5.0,
+                t: 8.0,
+                weight: 19.9
+            },
+            "HEA 140": {
+                h: 133,
+                b: 140,
+                s: 5.5,
+                t: 8.5,
+                weight: 24.7
+            },
+            "HEA 160": {
+                h: 152,
+                b: 160,
+                s: 6.0,
+                t: 9.0,
+                weight: 30.4
+            },
+            "HEA 180": {
+                h: 171,
+                b: 180,
+                s: 6.0,
+                t: 9.5,
+                weight: 35.5
+            },
+            "HEA 200": {
+                h: 190,
+                b: 200,
+                s: 6.5,
+                t: 10.0,
+                weight: 42.3
+            },
+            "HEA 220": {
+                h: 210,
+                b: 220,
+                s: 7.0,
+                t: 11.0,
+                weight: 50.5
+            },
+            "HEA 240": {
+                h: 230,
+                b: 240,
+                s: 7.5,
+                t: 12.0,
+                weight: 60.3
+            },
+            "HEA 260": {
+                h: 250,
+                b: 260,
+                s: 7.5,
+                t: 12.5,
+                weight: 68.2
+            },
+            "HEA 280": {
+                h: 270,
+                b: 280,
+                s: 8.0,
+                t: 13.0,
+                weight: 76.4
+            },
+            "HEA 300": {
+                h: 290,
+                b: 300,
+                s: 8.5,
+                t: 14.0,
+                weight: 88.3
+            },
+            "HEA 320": {
+                h: 310,
+                b: 300,
+                s: 9.0,
+                t: 15.5,
+                weight: 97.6
+            },
+            "HEA 340": {
+                h: 330,
+                b: 300,
+                s: 9.5,
+                t: 16.5,
+                weight: 105.0
+            },
+            "HEA 360": {
+                h: 350,
+                b: 300,
+                s: 10.0,
+                t: 17.5,
+                weight: 112.0
+            },
+            "HEA 400": {
+                h: 390,
+                b: 300,
+                s: 11.0,
+                t: 19.0,
+                weight: 125.0
+            },
+            "HEA 450": {
+                h: 440,
+                b: 300,
+                s: 11.5,
+                t: 21.0,
+                weight: 140.0
+            },
+            "HEA 500": {
+                h: 490,
+                b: 300,
+                s: 12.0,
+                t: 23.0,
+                weight: 155.0
+            },
+            "HEA 550": {
+                h: 540,
+                b: 300,
+                s: 12.5,
+                t: 24.0,
+                weight: 166.0
+            },
+            "HEA 600": {
+                h: 590,
+                b: 300,
+                s: 13.0,
+                t: 25.0,
+                weight: 178.0
+            },
+            "HEA 650": {
+                h: 640,
+                b: 300,
+                s: 13.5,
+                t: 26.0,
+                weight: 190.0
+            },
+            "HEA 700": {
+                h: 690,
+                b: 300,
+                s: 14.5,
+                t: 27.0,
+                weight: 204.0
+            },
+            "HEA 800": {
+                h: 790,
+                b: 300,
+                s: 15.0,
+                t: 28.0,
+                weight: 224.0
+            },
+            "HEA 900": {
+                h: 890,
+                b: 300,
+                s: 16.0,
+                t: 30.0,
+                weight: 252.0
+            },
+            "HEA 1000": {
+                h: 990,
+                b: 300,
+                s: 16.5,
+                t: 31.0,
+                weight: 272.0
+            }
+        };
+
+        // DOM elements
+        const profileSelect = document.getElementById("heaProfile");
+        const hInput = document.getElementById("heaH");
+        const bInput = document.getElementById("heaB");
+        const sInput = document.getElementById("heaS");
+        const tInput = document.getElementById("heaT");
+        const lengthInput = document.getElementById("heaLength");
+        const weightPerMeterEl = document.getElementById("heaWeightPerMeter");
+        const totalWeightEl = document.getElementById("heaTotalWeight");
+
+        function updateHEA() {
+            const profile = profileSelect.value;
+            const data = heaData[profile];
+            if (!data) return;
+
+            // Fill inputs
+            hInput.value = data.h;
+            bInput.value = data.b;
+            sInput.value = data.s;
+            tInput.value = data.t;
+
+            // Calculate
+            const weightPerMeter = data.weight;
+            const length = parseFloat(lengthInput.value) || 0;
+            const totalWeight = weightPerMeter * length;
+
+            // Update UI
+            weightPerMeterEl.textContent = weightPerMeter.toFixed(2) + " kg/m";
+            totalWeightEl.textContent = totalWeight.toFixed(2) + " kg";
+        }
+
+        // Events
+        profileSelect.addEventListener("change", updateHEA);
+        lengthInput.addEventListener("input", updateHEA);
+
+        // Initialize on page load
+        updateHEA();
+    </script>
+
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
