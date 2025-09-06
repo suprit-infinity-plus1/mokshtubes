@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Austenitic Stainless Steel 317 | Superior Corrosion SS')
-@section('meta_description', 'Austenitic Stainless Steel 317 pipes & fittings providing enhanced corrosion resistance
+@section('meta_description',
+    'Austenitic Stainless Steel 317 pipes & fittings providing enhanced corrosion resistance
     for harsh chemical environments.')
-@section('meta_keywords', 'Austenitic Stainless Steel 317, Stainless Steel 317 Pipes, Stainless Steel 317 Tubes,
+@section('meta_keywords',
+    'Austenitic Stainless Steel 317, Stainless Steel 317 Pipes, Stainless Steel 317 Tubes,
     Stainless Steel 317 Fittings, Corrosion Resistant Stainless Steel 317, Chemical Processing Stainless Steel 317, Marine
     Grade Stainless Steel 317, Industrial Stainless Steel 317, High Strength Stainless Steel 317, Harsh Environment
     Stainless Steel 317')
@@ -350,7 +352,7 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                 @foreach ($products as $product)
+                @foreach ($products as $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
                             <a href="{{ route($product['route']) }}" class="text-decoration-none">
@@ -653,7 +655,11 @@
                         Fittings
                         LLP</strong> — your dependable partner for stainless steel solutions.
                     <!-- Call button -->
-                    <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
+                    <!-- Call button -->
+                    <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                        data-bs-target="#contactFormModal">
+                        Get in Touch
+                    </a>
             </div>
         </div>
     </section>

@@ -359,11 +359,13 @@
 
                                         <li class="dropdown"><a href="{{ route('products') }}">Products</a>
                                             <ul>
-                                                <li><a href="{{ route('products.pipes-tubes') }}">PIPES & TUBES</a></li>
-                                                 {{-- <li><a href="#">SHEETS, PLATES & COILS</a></li> --}}
+                                                <li><a href="{{ route('products.pipes-tubes') }}">PIPES & TUBES</a>
+                                                </li>
+                                                {{-- <li><a href="#">SHEETS, PLATES & COILS</a></li> --}}
                                                 <li><a href="#">BARS & RODS</a></li>
-                                                {{--<li><a href="#">PIPE FITTINGS, FLANGES & FASTENERS</a></li> --}}
-                                                <li><a href="{{ route('products.special-fabricated') }}">SPECIAL FABRICATED PRODUCTS</a></li>
+                                                {{-- <li><a href="#">PIPE FITTINGS, FLANGES & FASTENERS</a></li> --}}
+                                                <li><a href="{{ route('products.special-fabricated') }}">SPECIAL
+                                                        FABRICATED PRODUCTS</a></li>
                                             </ul>
                                         </li>
                                         <li class="dropdown"><a href="{{ route('materials') }}">Materials</a>
@@ -371,19 +373,28 @@
                                                 <li><a href="{{ route('materials.hastelloy') }}">Hastelloy</a></li>
                                                 <li><a href="{{ route('materials.monel') }}">Monel</a></li>
                                                 <li><a href="{{ route('materials.incoloy') }}">Incoloy</a></li>
-                                                <li><a href="{{ route('materials.nickel-Based-Superalloys') }}">Nickel Based Superalloys</a></li>
+                                                <li><a href="{{ route('materials.nickel-Based-Superalloys') }}">Nickel
+                                                        Based Superalloys</a></li>
                                                 <li><a href="{{ route('materials.inconel') }}">Inconel</a></li>
                                                 <li><a href="{{ route('materials.titanium') }}">Titanium</a></li>
-                                                <li><a href="{{ route('materials.aluminium-Alloys') }}">Aluminium Alloys</a></li>
-                                                <li><a href="{{ route('materials.super-Austenitic-Stainless-Steel') }}">Super Austenitic Stainless Steel</a></li>
-                                                <li><a href="{{ route('materials.hard-To-Find-Special-Alloys') }}">Hard To Find Special Alloys</a></li>
-                                                <li><a href="{{ route('materials.engineering-Steels') }}">Engineering Steels</a></li>
-                                                <li><a href="{{ route('materials.austenitic-stainless-Steel') }}">Austenitic Stainless Steel</a></li>
-                                                <li><a href="{{ route('materials.copper-Alloys') }}">Copper Alloys</a></li>
+                                                <li><a href="{{ route('materials.aluminium-Alloys') }}">Aluminium
+                                                        Alloys</a></li>
+                                                <li><a
+                                                        href="{{ route('materials.super-Austenitic-Stainless-Steel') }}">Super
+                                                        Austenitic Stainless Steel</a></li>
+                                                <li><a href="{{ route('materials.hard-To-Find-Special-Alloys') }}">Hard
+                                                        To Find Special Alloys</a></li>
+                                                <li><a href="{{ route('materials.engineering-Steels') }}">Engineering
+                                                        Steels</a></li>
+                                                <li><a href="{{ route('materials.austenitic-stainless-Steel') }}">Austenitic
+                                                        Stainless Steel</a></li>
+                                                <li><a href="{{ route('materials.copper-Alloys') }}">Copper Alloys</a>
+                                                </li>
                                                 <li><a href="{{ route('materials.zirconium') }}">Zirconium</a></li>
-                                                <li><a href="{{ route('materials.haynes-Superalloys') }}">Haynes Superalloys</a></li>
+                                                <li><a href="{{ route('materials.haynes-Superalloys') }}">Haynes
+                                                        Superalloys</a></li>
                                             </ul>
-                                        {{-- <li><a href="{{ route('materials') }}">MATERIALS</a></li> --}}
+                                            {{-- <li><a href="{{ route('materials') }}">MATERIALS</a></li> --}}
 
                                         <li><a href="#">QUALITY</a></li>
                                         <li><a href="{{ route('calculator') }}">CALCULATOR</a></li>
@@ -620,6 +631,66 @@
 
         </footer>
 
+        <!-- Contact Form Modal -->
+        <!-- Contact Form Modal -->
+        <div class="modal fade" id="contactFormModal" tabindex="-1" role="dialog"
+            aria-labelledby="contactFormModalLabel" aria-hidden="true" style="z-index: 2000;">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content p-3" style="z-index:2001;">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h5 class="modal-title fw-bold fs-3" id="contactFormModalLabel">Get in Touch</h5>
+                        <button type="button" class="close ms-auto" data-bs-dismiss="modal" aria-label="Close"
+                            style="font-size: 3rem;">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                    <!-- Modal Body -->
+                    <div class="modal-body">
+                        <form id="contact-form" name="contact_form" class="default-form"
+                            action="{{ url('sendmail') }}" method="post">
+                            @csrf
+                            <div class="row">
+                                <div class="col-md-12 mb-3">
+                                    <input class="form-control" type="text" name="form_name"
+                                        placeholder="Your Name*" required>
+                                </div>
+                                <div class="col-md-12 mb-3">
+                                    <input class="form-control" type="email" name="form_email"
+                                        placeholder="Your Mail*" required>
+                                </div>
+                                <div class="col-md-12 mb-3">
+                                    <input class="form-control" type="text" name="form_phone"
+                                        placeholder="Phone">
+                                </div>
+                                <div class="col-md-12 mb-3">
+                                    <input class="form-control" type="text" name="form_subject"
+                                        placeholder="Subject">
+                                </div>
+                                <div class="col-md-12 mb-3">
+                                    <textarea name="form_message" class="form-control" placeholder="Your Message.." required></textarea>
+                                </div>
+                                <div class="col-md-12 text-end">
+                                    <input id="form_botcheck" name="form_botcheck" type="hidden" value="">
+                                    <button class="thm-btn bg-clr1" type="submit"
+                                        data-loading-text="Please wait...">
+                                        Send Message
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
 
         <!--Scroll to top-->
         <div class="scroll-to-top scroll-to-target" data-bs-target="html"><span class="fa fa-angle-up"></span></div>
@@ -704,6 +775,14 @@
                 });
             });
         </script>
+        {{-- <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                setTimeout(function() {
+                    var contactModal = new bootstrap.Modal(document.getElementById('contactFormModal'));
+                    contactModal.show();
+                }, 15000); 
+            });
+        </script> --}}
 
 
 

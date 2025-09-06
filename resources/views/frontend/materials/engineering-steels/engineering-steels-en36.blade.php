@@ -637,8 +637,11 @@
                     For inquiries or quotations regarding EN36 steel products<strong> Moksh Tubes & Fittings LLP
                     </strong> — your reliable partner in premium engineering steels.
                 </p>
-                <!-- Call button -->
-                <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
+               <!-- Call button -->
+                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                    data-bs-target="#contactFormModal">
+                    Get in Touch
+                </a>
             </div>
         </div>
     </section>

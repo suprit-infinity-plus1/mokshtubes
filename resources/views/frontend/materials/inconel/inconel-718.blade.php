@@ -702,8 +702,11 @@
                         LLP</strong> your reliable supplier of INCONEL 718 products built for precision, strength, and
                     performance in demanding applications.
                 </p>
-                <!-- Call button -->
-                <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
+               <!-- Call button -->
+                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                    data-bs-target="#contactFormModal">
+                    Get in Touch
+                </a>
             </div>
         </div>
     </section>

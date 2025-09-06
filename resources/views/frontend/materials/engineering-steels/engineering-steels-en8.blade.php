@@ -629,8 +629,11 @@
                     contact <strong> Moksh Tubes & Fittings LLP </strong> — today for competitive quotes, technical
                     consultation, and custom solutions.
                 </p>
-                <!-- Call button -->
-                <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
+               <!-- Call button -->
+                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                    data-bs-target="#contactFormModal">
+                    Get in Touch
+                </a>
             </div>
         </div>
     </section>

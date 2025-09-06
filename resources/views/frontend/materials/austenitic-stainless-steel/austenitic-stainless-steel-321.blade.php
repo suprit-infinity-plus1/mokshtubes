@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Austenitic Stainless Steel 321 | Stabilized Heat Resistant Alloy')
-@section('meta_description', 'Stabilized Austenitic Stainless Steel 321 pipes & fittings designed for high-temperature
+@section('meta_description',
+    'Stabilized Austenitic Stainless Steel 321 pipes & fittings designed for high-temperature
     applications with excellent oxidation resistance.')
-@section('meta_keywords', 'Austenitic Stainless Steel 321, Stainless Steel 321 Pipes, Stainless Steel 321 Tubes,
+@section('meta_keywords',
+    'Austenitic Stainless Steel 321, Stainless Steel 321 Pipes, Stainless Steel 321 Tubes,
     Stainless Steel 321 Fittings, Heat Resistant Stainless Steel 321, Oxidation Resistant Stainless Steel 321, High
     Temperature Stainless Steel 321, Stabilized Stainless Steel 321, Industrial Stainless Steel 321, Thermal Processing
     Stainless Steel 321')
@@ -346,7 +348,7 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                 @foreach ($products as $product)
+                @foreach ($products as $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
                             <a href="{{ route($product['route']) }}" class="text-decoration-none">
@@ -647,7 +649,10 @@
                     Steel 321 products –
                     contact us today for competitive pricing & technical support.
                     <!-- Call button -->
-                    <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
+                    <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                        data-bs-target="#contactFormModal">
+                        Get in Touch
+                    </a>
             </div>
         </div>
     </section>

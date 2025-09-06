@@ -743,8 +743,11 @@
                     For inquiries or to request a quote, reach out to <strong>Moksh Tubes & Fittings LLP</strong> your
                     reliable source for INCONEL 600 products engineered for performance, precision, and reliability.
                 </p>
-                <!-- Call button -->
-                <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
+               <!-- Call button -->
+                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                    data-bs-target="#contactFormModal">
+                    Get in Touch
+                </a>
             </div>
         </div>
     </section>

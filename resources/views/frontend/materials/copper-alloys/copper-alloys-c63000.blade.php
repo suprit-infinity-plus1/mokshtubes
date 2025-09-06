@@ -2,7 +2,8 @@
 
 @section('title', 'Copper Alloy C63000 | Heat Treatable Copper Alloy')
 @section('meta_description', 'Heat treatable Copper Alloy C63000 known for durability and corrosion resistance.')
-@section('meta_keywords', 'Copper Alloy C63000, heat treatable copper alloy, corrosion resistant copper, durable copper
+@section('meta_keywords',
+    'Copper Alloy C63000, heat treatable copper alloy, corrosion resistant copper, durable copper
     alloy, industrial copper alloy')
 
 
@@ -341,7 +342,7 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                 @foreach ($products as $product)
+                @foreach ($products as $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
                             <a href="{{ route($product['route']) }}" class="text-decoration-none">
@@ -646,7 +647,10 @@
                     contact <strong>Moksh Tubes & Fittings LLP</strong> — for custom quotes, technical support, and prompt
                     delivery. We're your trusted partner in non-ferrous alloys.
                     <!-- Call button -->
-                    <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
+                    <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                        data-bs-target="#contactFormModal">
+                        Get in Touch
+                    </a>
             </div>
         </div>
     </section>
