@@ -18,7 +18,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Hastelloy C4</h1>
+                    <h1>Hastelloy C-4 (UNS N06455 | W.Nr. 2.4610)</h1>
                 </div>
             </div>
         </div>
@@ -44,30 +44,31 @@
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
-                        <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted manufacturer,
-                            supplier, exporter, importer, and stockist of high-performance Hastelloy C-4 (UNS N06455)
-                            products, including <strong class="text-black"><a
-                                    href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings, Flanges,
-                                Sheets &
-                                Plates, Coils, Bars, Wire Mesh</strong> , and custom-engineered components.
-                        </p>
+                       <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
+    <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted supplier, exporter, importer, and stockist of high-performance Hastelloy C-4 (UNS N06455)
+    products, including <strong class="text-black"><a
+            href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings, Flanges,
+        Sheets & Plates, Coils, Bars, Wire Mesh</strong>, and custom-engineered components.
+</p>
 
-                        <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">HASTELLOY C4</strong class="text-black"> is a
-                            nickel-chromium-molybdenum alloy designed to minimize welding challenges due to
-                            its low silicon and carbon content. Like other <a
-                                href="{{ route('materials.nickel-Based-Superalloys') }}">nickel alloys</a>, is a
-                            nickel-chromium-molybdenum
-                            alloy known for
-                            its outstanding resistance to high-temperature oxidation, stress corrosion cracking, and strong
-                            oxidizing agents. With excellent stability across a wide range of thermal conditions, <a
-                                href="{{ route('materials.hard-To-Find-Special-Alloys') }}">Hastelloy
-                                C-4</a> exhibits superior performance in harsh chemical environments—particularly in hot,
-                            contaminated mineral acids like hydrochloric and sulfuric acid. Its low carbon and silicon
-                            content also help prevent grain-boundary precipitation during welding, enhancing its weldability
-                            and corrosion resistance.
-                        </p>
+<p class="fs-6 mb-4 text-justify" style="text-align: justify;">
+    <strong class="text-black">HASTELLOY C4</strong> is a nickel-chromium-molybdenum alloy designed to minimize welding challenges
+    due to its low silicon and carbon content. Like other <a
+        href="{{ route('materials.nickel-Based-Superalloys') }}">nickel alloys</a>, it is known for its outstanding resistance
+    to high-temperature oxidation, stress corrosion cracking, and strong oxidizing agents. With excellent stability across
+    a wide range of thermal conditions, <a href="{{ route('materials.hard-To-Find-Special-Alloys') }}">Hastelloy C-4</a>
+    exhibits superior performance in harsh chemical environments—particularly in hot, contaminated mineral acids like
+    hydrochloric and sulfuric acid. Its low carbon and silicon content also help prevent grain-boundary precipitation during
+    welding, enhancing its weldability and corrosion resistance.
+</p>
+
+<p class="fs-6" style="text-align: justify;">
+    Hastelloy C-4 alloy is a nickel-chromium-molybdenum material specially developed to provide excellent corrosion resistance
+    in highly aggressive environments. With its low carbon and silicon content, Hastelloy C-4 composition ensures superior
+    weldability and resistance to grain boundary precipitation. It is widely used in industries that require corrosion-resistant
+    alloys, particularly in hot mineral acids such as hydrochloric and sulfuric acid.
+</p>
+
                     </div>
                 </div>
             </div>
@@ -77,7 +78,7 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>Hastelloy C-4 Chemical Composition</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -144,13 +145,13 @@
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color: #174268;">Technical Composition of Hastelloy C-4</h2>
             </div>
 
             <!-- Physical Properties Table -->
             <div class="row justify-content-center mb-5">
                 <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
+                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties of Hastelloy C-4</h4>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -189,7 +190,7 @@
             <!-- Mechanical Properties Table -->
             <div class="row justify-content-center">
                 <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties of Hastelloy C-4</h4>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -337,9 +338,9 @@
                             {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c4/') }}" class="text-decoration-none"> --}}
                             <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
-                                    <img src="https://placehold.co/300x200?" alt="{{ $product-> }}"
+                                    <img src="https://placehold.co/300x200?" alt="{{ $product['name'] ?? $product->name }}"
                                         class="img-fluid  w-100">
-                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product }}</h6>
+                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product['name'] ?? $product->name }}</h6>
                                 </div>
                             </a>
                         </div>
@@ -479,53 +480,7 @@
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container text-center">
-            <div class="section-title center">
-                <h2>WHY CHOOSE US?</h2>
-            </div>
-
-            <div class="row g-4 mt-4">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Expertise in high-performance corrosion-resistant alloys</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
-                        <h5>In-house manufacturing and export compliance</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
-                        <h5>Committed customer support and project-based solutions</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-6">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>ISO and international standards-driven quality control</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-6">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
-                        <h5>Ready stock of standard sizes & customizable offerings</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--Start faq content area-->
+     <!--Start faq content area-->
     <section class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
@@ -614,6 +569,53 @@
     </section>
     <!--End faq content area-->
 
+
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container text-center">
+            <div class="section-title center">
+                <h2>WHY CHOOSE US?</h2>
+            </div>
+
+            <div class="row g-4 mt-4">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
+                        <h5>Expertise in high-performance corrosion-resistant alloys</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
+                        <h5>In-house manufacturing and export compliance</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
+                        <h5>Committed customer support and project-based solutions</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-6">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
+                        <h5>ISO and international standards-driven quality control</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-6">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
+                        <h5>Ready stock of standard sizes & customizable offerings</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
