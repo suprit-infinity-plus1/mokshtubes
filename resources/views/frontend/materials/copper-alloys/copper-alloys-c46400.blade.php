@@ -2,7 +2,8 @@
 
 @section('title', 'Copper Alloy C46400 | High Strength Copper Alloy')
 @section('meta_description', 'High strength Copper Alloy C46400 ideal for aerospace and industrial applications.')
-@section('meta_keywords', 'Copper Alloy C46400, high strength copper alloy, aerospace copper alloy, industrial copper
+@section('meta_keywords',
+    'Copper Alloy C46400, high strength copper alloy, aerospace copper alloy, industrial copper
     alloy, durable copper alloy')
 
 
@@ -362,7 +363,7 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                 @foreach ($products as $product)
+                @foreach ($products as $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
                             <a href="{{ route($product['route']) }}" class="text-decoration-none">
@@ -669,7 +670,10 @@
                     contact <strong>Moksh Tubes & Fittings LLP</strong> — your dependable source for
                     premium-grade naval brass solutions.
                     <!-- Call button -->
-                    <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
+                    <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                        data-bs-target="#contactFormModal">
+                        Get in Touch
+                    </a>
             </div>
         </div>
     </section>

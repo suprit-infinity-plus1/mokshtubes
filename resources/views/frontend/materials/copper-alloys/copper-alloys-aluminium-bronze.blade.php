@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Aluminium Bronze Copper Alloy | High Strength & Corrosion Resistant')
-@section('meta_description', 'Aluminium Bronze with excellent strength and corrosion resistance for marine and
+@section('meta_description',
+    'Aluminium Bronze with excellent strength and corrosion resistance for marine and
     industrial applications.')
-@section('meta_keywords', 'Aluminium Bronze, copper alloy, high strength copper, corrosion resistant alloy, marine
+@section('meta_keywords',
+    'Aluminium Bronze, copper alloy, high strength copper, corrosion resistant alloy, marine
     copper alloy, industrial copper alloy')
 
 
@@ -363,7 +365,7 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                 @foreach ($products as $product)
+                @foreach ($products as $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
                             <a href="{{ route($product['route']) }}" class="text-decoration-none">
@@ -655,7 +657,10 @@
                     contact <strong>Moksh Tubes & Fittings LLP</strong> — Your trusted partner for
                     high-performance copper alloys and engineered metal solutions.
                     <!-- Call button -->
-                    <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
+                    <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                        data-bs-target="#contactFormModal">
+                        Get in Touch
+                    </a>
             </div>
         </div>
     </section>

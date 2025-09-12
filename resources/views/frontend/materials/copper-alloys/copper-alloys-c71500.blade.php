@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Copper Alloy C71500 | High Strength & Corrosion Resistance')
-@section('meta_description', 'Copper Alloy C71500 with superior strength and corrosion resistance for marine and
+@section('meta_description',
+    'Copper Alloy C71500 with superior strength and corrosion resistance for marine and
     industrial uses.')
-@section('meta_keywords', 'Copper Alloy C71500, high strength copper alloy, corrosion resistant copper, marine copper
+@section('meta_keywords',
+    'Copper Alloy C71500, high strength copper alloy, corrosion resistant copper, marine copper
     alloy, industrial copper alloy')
 
 
@@ -346,7 +348,7 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                 @foreach ($products as $product)
+                @foreach ($products as $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
                             <a href="{{ route($product['route']) }}" class="text-decoration-none">
@@ -654,7 +656,10 @@
                     contact <strong>Moksh Tubes & Fittings LLP</strong> — We offer competitive pricing and reliable supply
                     for global projects.
                     <!-- Call button -->
-                    <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
+                    <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                        data-bs-target="#contactFormModal">
+                        Get in Touch
+                    </a>
             </div>
         </div>
     </section>

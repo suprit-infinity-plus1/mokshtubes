@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Austenitic Stainless Steel Nitronic 60 | Wear Resistant SS')
-@section('meta_description', 'Nitronic 60 pipes & fittings known for superior wear and corrosion resistance in demanding
+@section('meta_description',
+    'Nitronic 60 pipes & fittings known for superior wear and corrosion resistance in demanding
     industrial applications.')
-@section('meta_keywords', 'Austenitic Stainless Steel Nitronic 60, Nitronic 60 Stainless Steel Pipes, Nitronic 60
+@section('meta_keywords',
+    'Austenitic Stainless Steel Nitronic 60, Nitronic 60 Stainless Steel Pipes, Nitronic 60
     Stainless Steel Tubes, Nitronic 60 Stainless Steel Fittings, Wear Resistant Nitronic 60, Corrosion Resistant Nitronic
     60, High Strength Nitronic 60, Industrial Nitronic 60 Stainless Steel, Marine Grade Nitronic 60, Engineering
     Applications Nitronic 60')
@@ -350,7 +352,7 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                 @foreach ($products as $product)
+                @foreach ($products as $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
                             <a href="{{ route($product['route']) }}" class="text-decoration-none">
@@ -643,7 +645,10 @@
                         Tubes &
                         Fittings LLP</strong> — your reliable partner for advanced alloy solutions.
                     <!-- Call button -->
-                    <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
+                    <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                        data-bs-target="#contactFormModal">
+                        Get in Touch
+                    </a>
             </div>
         </div>
     </section>

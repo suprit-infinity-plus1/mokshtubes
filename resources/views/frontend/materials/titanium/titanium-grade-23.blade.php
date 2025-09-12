@@ -631,8 +631,11 @@
                 <p>
                     Get in touch with <strong>Moksh Tubes & Fittings LLP</strong> your dedicated partner in high-performance
                     titanium alloys.</p>
-                <!-- Call button -->
-                <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
+               <!-- Call button -->
+                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                    data-bs-target="#contactFormModal">
+                    Get in Touch
+                </a>
             </div>
         </div>
     </section>
