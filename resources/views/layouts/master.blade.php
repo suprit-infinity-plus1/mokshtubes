@@ -285,7 +285,7 @@
                                                         'Pipes & Tubes',
                                                         // 'Sheets, Plates & Coils',
                                                         'Bars & Rods',
-                                                        // 'Pipe Fittings, Flanges & Fasteners',
+                                                        'Pipe Fittings, Flanges & Fasteners',
                                                         'Special Fabricated',
                                                     ];
                                                 @endphp
@@ -362,7 +362,7 @@
                                                 <li><a href="{{ route('products.pipes-tubes') }}">PIPES & TUBES</a></li>
                                                  {{-- <li><a href="#">SHEETS, PLATES & COILS</a></li> --}}
                                                 <li><a href="#">BARS & RODS</a></li>
-                                                {{--<li><a href="#">PIPE FITTINGS, FLANGES & FASTENERS</a></li> --}}
+                                                <li><a href="{{ route('products.pipe-fittings-flanges-fasteners') }}">PIPE FITTINGS, FLANGES & FASTENERS</a></li>
                                                 <li><a href="{{ route('products.special-fabricated') }}">SPECIAL FABRICATED PRODUCTS</a></li>
                                             </ul>
                                         </li>

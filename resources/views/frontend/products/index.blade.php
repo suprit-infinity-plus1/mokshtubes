@@ -45,7 +45,7 @@
                     ['name' => 'Pipes & Tubes', 'slug' => 'pipes-tubes'],
                     // ['name' => 'Sheets, Plates & Coils', 'slug' => 'sheets-plates-coils'],
                     ['name' => 'Bars & Rods', 'slug' => 'bars-rods'],
-                    // ['name' => 'Pipe Fittings, Flanges & Fasteners', 'slug' => 'pipe-fittings-flanges-fasteners'],
+                    ['name' => 'Pipe Fittings, Flanges & Fasteners', 'slug' => 'pipe-fittings-flanges-fasteners'],
                     ['name' => 'Special Fabricated', 'slug' => 'special-fabricated'],
                 ];
             @endphp
