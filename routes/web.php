@@ -25,6 +25,8 @@ Route::get('/calculator', [MainController::class, 'calculator'])->name('calculat
 Route::get('/materials', [MainController::class, 'materials'])->name('materials');
 // Route::get('/blogs', [MainController::class, 'blogs'])->name('blogs');
 Route::get('/blogs', [BlogController::class, 'blogs'])->name('blogs');
+Route::post('/lead-capture', [LeadController::class, 'store'])->name('lead.capture');
+
 
 
 Route::get('/materials/hastelloy', [MainController::class, 'hastelloy'])->name('materials.hastelloy');

@@ -537,3 +537,31 @@ class MainController extends Controller
     return response()->download($filePath, 'EN8_Steel_Datasheet.pdf');
 }
 }
+
+
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class LeadController extends Controller
+{
+    public function store(Request $request)
+    {
+        // Validate email
+        $request->validate([
+            'email' => 'required|email',
+        ]);
+
+        // Path to datasheet in public folder
+        $filePath = public_path('datasheets/EN8_Datasheet_v2.docx');
+
+        if (!file_exists($filePath)) {
+            return back()->with('error', 'Datasheet file not found!');
+        }
+
+        // Download the file
+        return response()->download($filePath, 'EN8_Datasheet.docx');
+    }
+}
+

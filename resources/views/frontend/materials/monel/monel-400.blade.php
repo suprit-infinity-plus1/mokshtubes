@@ -42,7 +42,7 @@
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a manufacturer, supplier,
-                            exporter, importer and stockist of a variety of MONEL® 400 (UNS N04400) <a
+                            exporter, importer and stockist of a variety of MONEL 400 (UNS N04400) <a
                                 href="{{ route('products') }}">products</a> such as <a
                                 href="{{ route('products.pipes-tubes') }}">Pipes &
                                 Tubes</a>, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires, Round Bars,
@@ -53,9 +53,9 @@
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">MONEL 400</strong class="text-black"> is a solid-solution alloy of
                             nickel and copper, known for its excellent corrosion resistance, particularly in marine and
-                            chemical environments. This alloy exhibits outstanding performance in brackish and saltwater,
+                            chemical environments. This <a href="{{ route('materials.hastelloy') }}">alloy</a> exhibits outstanding performance in brackish and saltwater,
                             hydrofluoric acid, sulfuric acid, and alkali media. It offers high strength, toughness, and good
-                            weldability, making it ideal for handling corrosive and high-pressure conditions. <strong
+                            weldability, making it ideal for handling corrosive and high pressure conditions. <strong
                                 class="text-black"> <a href="{{ route('materials.monel') }}">MONEL 400</a></strong>
                             retains its mechanical properties across a wide temperature range and performs reliably in both
                             oxidizing and reducing conditions.

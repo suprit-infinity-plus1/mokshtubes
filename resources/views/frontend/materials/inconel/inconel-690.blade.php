@@ -52,7 +52,7 @@
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">INCONEL 690</strong> is a high-chromium, nickel-based alloy known for
+                            <strong class="text-black">INCONEL 690</strong> is a high chromium, nickel based <a href="{{ route('materials.hastelloy') }}">alloy</a> known for
                             its excellent resistance to high-temperature oxidation, aqueous corrosion, and especially
                             corrosive attack by hot acidic and caustic solutions. It offers significantly improved
                             performance over INCONEL 600 due to its higher chromium content (30%), which enhances its

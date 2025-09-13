@@ -53,9 +53,9 @@
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">INCONEL 625</strong> is a nickel-chromium-molybdenum-niobium alloy
+                            <strong class="text-black">INCONEL 625</strong> is a nickel chromium molybdenum niobium <a href="{{ route('materials.hastelloy') }}">alloy</a>
                             known for its outstanding corrosion resistance, high strength, and excellent fatigue and
-                            thermal-fatigue properties. The alloy exhibits exceptional resistance to a wide range of
+                            thermal fatigue properties. The alloy exhibits exceptional resistance to a wide range of
                             corrosive environments, including oxidizing and reducing acids, chlorides, seawater, and harsh
                             chemical media. Its high <a href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a>
                             content provides superior resistance to chloride-induced stress

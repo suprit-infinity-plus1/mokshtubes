@@ -1,8 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Hastelloy C276 | UNS N10276 Pipe, Sheet, Bar & Applications')
-@section('meta_description', ' Explore Hastelloy C276 (UNS N10276) pipes, sheets, bars & flanges. High corrosion
-    resistance for chemical, oil & gas, marine, and industrial uses.')
+@section('title', 'Hastelloy C276 (UNS N10276) | Pipes, Sheets, Bars & Flanges')
+@section('meta_description', 'Hastelloy C276 is a nickel-molybdenum-chromium alloy with outstanding corrosion
+    resistance. Ideal for chemical, oil & gas, marine, and pollution control industries.')
 @section('meta_keywords',
     'Hastelloy C276, Corrosion Resistant Alloy, Nickel Alloy, Hastelloy C276 Pipes, Hastelloy C276
     Tubes, Hastelloy C276 Fittings, Industrial Corrosion Resistant Alloys, Durable Nickel Alloys, Chemical Processing
@@ -55,7 +55,7 @@
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">Hastelloy C276</strong> is a nickel chromium molybdenum alloy, highly
+                            <strong class="text-black"><a href="{{ route('materials.hastelloy') }}">Hastelloy</a> C276</strong> is a nickel chromium molybdenum alloy, highly
                             resistant to both oxidizing and
                             non oxidizing acids, and provides superior defense against stress corrosion cracking and pitting
                             in chloride rich solutions. Its high chromium and molybdenum content make it an ideal choice for
@@ -709,7 +709,7 @@
                     For any inquiries or to request a quote, reach out to <strong>Moksh Tubes & Fittings LLP</strong> – your
                     trusted partner for <strong>HASTELLOY C-276</strong> products.
                 </p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch

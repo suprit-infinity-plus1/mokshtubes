@@ -54,7 +54,7 @@
 
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">MONEL R405</strong class="text-black"> is a <a
-                                href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a>-copper alloy
+                                href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a> copper <a href="{{ route('materials.hastelloy') }}">alloy</a>
                             similar to Monel 400, but it is specially modified with controlled sulfur content to improve its
                             machinability. This grade is known for excellent resistance to seawater, hydrofluoric acid,
                             sulfuric acid, alkalis, and high-temperature steam. R405 retains high strength and toughness

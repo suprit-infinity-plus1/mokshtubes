@@ -54,8 +54,8 @@
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">INCONEL 617</strong> is a nickel-chromium-cobalt-molybdenum alloy
-                            engineered for excellent high-temperature strength and outstanding resistance to oxidation and
+                            <strong class="text-black">INCONEL 617</strong> is a nickel chromium cobalt molybdenum <a href="{{ route('materials.hastelloy') }}">alloy</a>
+                            engineered for excellent high temperature strength and outstanding resistance to oxidation and
                             carburization. It offers superior metallurgical stability and resistance to a wide range of
                             corrosive environments, making it ideal for service in extreme conditions such as combustion and
                             flue gas environments. The alloy retains its mechanical properties at elevated temperatures,

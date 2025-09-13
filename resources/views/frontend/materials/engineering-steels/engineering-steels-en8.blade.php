@@ -63,6 +63,60 @@
         </div>
     </section>
 
+    <!-- Lead Capture Form -->
+    {{-- <div class="datasheet-download my-5 p-4 rounded shadow-sm border text-center" style="background:#f8f9fa;">
+        <h3 class="mb-3" style="color:#174268;">Download EN8 Steel Datasheet</h3>
+        <p class="mb-3">
+            Get the complete EN8 Steel datasheet with chemical composition,
+            mechanical properties, heat treatment details, and applications.
+            Enter your email to receive the PDF instantly.
+        </p>
+        <form method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+
+            <div class="row justify-content-center">
+                <div class="col-md-6 mb-2">
+                    <input type="email" name="email" required class="form-control p-3"
+                        placeholder="Enter your email address">
+                </div>
+                <div class="col-md-3 mb-2">
+                    <button type="submit" class="btn btn-lg w-100 text-white"
+                        style="background-color:#db7227; border-radius:8px;">
+                        📥 Get Datasheet
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div> --}}
+    <div class="datasheet-download my-5 p-4 rounded shadow-sm border text-center" style="background:#f8f9fa;">
+    <h3 class="mb-3" style="color:#174268;">Download EN8 Steel Datasheet</h3>
+
+    @if (session('success'))
+        <div class="alert alert-success">{{ session('success') }}</div>
+    @endif
+    @if (session('error'))
+        <div class="alert alert-danger">{{ session('error') }}</div>
+    @endif
+
+    <form method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+        @csrf
+
+        <div class="row justify-content-center">
+            <div class="col-md-6 mb-2">
+                <input type="email" name="email" required class="form-control p-3"
+                       placeholder="Enter your email address">
+            </div>
+            <div class="col-md-3 mb-2">
+                <button type="submit" class="btn btn-lg w-100 text-white"
+                        style="background-color:#db7227; border-radius:8px;">
+                    📥 Get Datasheet
+                </button>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
@@ -337,6 +391,7 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
+                @foreach ($products as $product)
                 @foreach ($products as $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
@@ -631,6 +686,7 @@
                     contact <strong> Moksh Tubes & Fittings LLP </strong> — today for competitive quotes, technical
                     consultation, and custom solutions.
                 </p>
+                <!-- Call button -->
                 <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">

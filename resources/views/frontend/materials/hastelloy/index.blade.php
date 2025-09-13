@@ -1,8 +1,10 @@
 @extends('layouts.master')
 
-@section('meta_title', 'Hastelloy Alloys | Grades, Properties & Applications | Mokshtubes')
-@section('meta_description', 'Explore Hastelloy alloys C276, C22, B2, and G30 with excellent corrosion resistance for chemical, marine, and power industries.')
-@section('meta_keywords', 'Hastelloy, Hastelloy Alloys, C276, C22, B2, G30, Corrosion Resistant Alloys, Chemical Industry Alloys, Marine Industry Alloys, Power Plant Alloys')
+@section('meta_title', 'Hastelloy Alloys | C276, C22, B2 | Corrosion Resistant Materials')
+@section('meta_description', 'Discover Hastelloy alloys like C276, C22 & B2. Exceptional corrosion resistance for chemical plants, marine environments, oil & gas, and industrial equipment.
+')
+@section('meta_keywords', 'Hastelloy, Hastelloy Alloys, C276, C22, B2, G30, Corrosion Resistant Alloys, Chemical
+    Industry Alloys, Marine Industry Alloys, Power Plant Alloys')
 
 @section('content')
 
@@ -29,15 +31,51 @@
 
             @php
                 $grades = [
-                    ['name' => 'Hastelloy C276', 'slug' => 'hastelloy-c276', 'image' => 'assets/images/hastelloy/hastelloy-c276.webp'],
-                    ['name' => 'Hastelloy C22', 'slug' => 'hastelloy-c22', 'image' => 'assets/images/hastelloy/hastelloy-c22.webp'],
-                    ['name' => 'Hastelloy C4', 'slug' => 'hastelloy-c4', 'image' => 'assets/images/hastelloy/hastelloy-C4.webp'],
-                    ['name' => 'Hastelloy B2', 'slug' => 'hastelloy-b2', 'image' => 'assets/images/hastelloy/hastelloy-b2.webp'],
-                    ['name' => 'Hastelloy B3', 'slug' => 'hastelloy-b3', 'image' => 'assets/images/hastelloy/Hastelloy-B3.webp'],
-                    ['name' => 'Hastelloy C2000', 'slug' => 'hastelloy-c2000', 'image' => 'assets/images/hastelloy/hastelloy-c2000.webp'],
-                    ['name' => 'Hastelloy G3', 'slug' => 'hastelloy-g3', 'image' => 'assets/images/hastelloy/hastelloy-G3.webp'],
-                    ['name' => 'Hastelloy G30', 'slug' => 'hastelloy-g30', 'image' => 'assets/images/hastelloy/Hastelloy-G30.webp'],
-                    ['name' => 'Hastelloy X', 'slug' => 'hastelloy-x', 'image' => 'assets/images/hastelloy/hastelloy-x.webp'],
+                    [
+                        'name' => 'Hastelloy C276',
+                        'slug' => 'hastelloy-c276',
+                        'image' => 'assets/images/hastelloy/hastelloy-c276.webp',
+                    ],
+                    [
+                        'name' => 'Hastelloy C22',
+                        'slug' => 'hastelloy-c22',
+                        'image' => 'assets/images/hastelloy/hastelloy-c22.webp',
+                    ],
+                    [
+                        'name' => 'Hastelloy C4',
+                        'slug' => 'hastelloy-c4',
+                        'image' => 'assets/images/hastelloy/hastelloy-C4.webp',
+                    ],
+                    [
+                        'name' => 'Hastelloy B2',
+                        'slug' => 'hastelloy-b2',
+                        'image' => 'assets/images/hastelloy/hastelloy-b2.webp',
+                    ],
+                    [
+                        'name' => 'Hastelloy B3',
+                        'slug' => 'hastelloy-b3',
+                        'image' => 'assets/images/hastelloy/Hastelloy-B3.webp',
+                    ],
+                    [
+                        'name' => 'Hastelloy C2000',
+                        'slug' => 'hastelloy-c2000',
+                        'image' => 'assets/images/hastelloy/hastelloy-c2000.webp',
+                    ],
+                    [
+                        'name' => 'Hastelloy G3',
+                        'slug' => 'hastelloy-g3',
+                        'image' => 'assets/images/hastelloy/hastelloy-G3.webp',
+                    ],
+                    [
+                        'name' => 'Hastelloy G30',
+                        'slug' => 'hastelloy-g30',
+                        'image' => 'assets/images/hastelloy/Hastelloy-G30.webp',
+                    ],
+                    [
+                        'name' => 'Hastelloy X',
+                        'slug' => 'hastelloy-x',
+                        'image' => 'assets/images/hastelloy/hastelloy-x.webp',
+                    ],
                 ];
             @endphp
 
