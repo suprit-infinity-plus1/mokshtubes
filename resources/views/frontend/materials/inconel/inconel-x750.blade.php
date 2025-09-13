@@ -52,7 +52,7 @@
 
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">INCONEL X-750</strong> is a precipitation-hardenable nickel-chromium
-                            alloy made for high-strength applications at elevated temperatures. This alloy is strengthened
+                            <a href="{{ route('materials.hastelloy') }}">alloy</a> made for high-strength applications at elevated temperatures. This alloy is strengthened
                             by additions of <a href="{{ route('materials.aluminium-Alloys') }}">aluminum</a> and <a
                                 href="{{ route('materials.titanium') }}">titanium</a>
                             and demonstrates exceptional resistance to relaxation and

@@ -1,8 +1,11 @@
 @extends('layouts.master')
 
-@section('title', 'Incoloy Alloys | Corrosion & Heat Resistant Grades | Mokshtubes')
-@section('meta_description','Advanced Incoloy alloys providing excellent corrosion and heat resistance for critical chemical, power, and industrial applications.')
-@section('meta_keywords', 'Incoloy Alloys, Corrosion Resistant Incoloy, Heat Resistant Incoloy, Incoloy Pipes, Incoloy Tubes, Incoloy Fittings, Chemical Industry Incoloy, Power Industry Incoloy, Industrial Incoloy Alloys, High Performance Incoloy, Industrial Heat Resistant Alloys')
+@section('title', 'Incoloy Alloys | Grades 800, 825, 925 | Strength & Resistance')
+@section('meta_description', 'Learn about Incoloy alloys including 800, 825, and 925. High strength, oxidation resistance, and corrosion protection for chemical, marine & heat applications.
+')
+@section('meta_keywords', 'Incoloy Alloys, Corrosion Resistant Incoloy, Heat Resistant Incoloy, Incoloy Pipes, Incoloy
+    Tubes, Incoloy Fittings, Chemical Industry Incoloy, Power Industry Incoloy, Industrial Incoloy Alloys, High Performance
+    Incoloy, Industrial Heat Resistant Alloys')
 
 @section('content')
 
@@ -34,7 +37,7 @@
                     ['name' => '925', 'slug' => 'incoloy-925', 'image' => 'assets/images/incoloy/incoloy-925.webp'],
                     [
                         'name' => '800h_800ht',
-                        'slug' => ('Incoloy 800h-800ht'),
+                        'slug' => 'Incoloy 800h-800ht',
                         'image' => 'assets/images/incoloy/incoloy-800h_800ht.webp',
                     ],
                     ['name' => '020', 'slug' => 'incoloy-020', 'image' => 'assets/images/incoloy/incoloy-020.webp'],

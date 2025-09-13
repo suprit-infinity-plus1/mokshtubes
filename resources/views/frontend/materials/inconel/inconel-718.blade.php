@@ -52,9 +52,9 @@
 
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">INCONEL 718</strong class="text-black"> is a <a
-                                href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a>-chromium alloy
+                                href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a> chromium <a href="{{ route('materials.hastelloy') }}">alloy</a>
                             known for its excellent high strength, corrosion resistance, and weldability, particularly in
-                            high-temperature environments ranging from cryogenic up to 700°C (1290°F). A key advantage
+                            high temperature environments ranging from cryogenic up to 700°C (1290°F). A key advantage
                             of<strong class="text-black">
                                 INCONEL 718</strong> is its ability to be precipitation hardened, providing high tensile,
                             fatigue, creep,

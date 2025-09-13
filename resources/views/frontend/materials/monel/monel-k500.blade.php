@@ -30,7 +30,7 @@
             </div>
 
             <h2 class="fw-semibold text-center mb-5" style="color: #db7227;">
-                Introduction To Monel® K500 / Alloy K500 / UNS N05500 </h2>
+                Introduction To Monel K500 / Alloy K500 / UNS N05500 </h2>
 
             <div class="row align-items-center">
                 <!-- Image Left -->
@@ -48,13 +48,13 @@
                                 href="{{ route('products') }}">products</a>
                             including <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings,
                             Flanges, Fasteners, Sheets, Plates, Coils, Bars, Wires,
-                            Welding Rods, and other Custom and Hard-to-Find <strong class="text-black">MONEL K500 </strong>
+                            Welding Rods, and other Custom and Hard to Find <strong class="text-black">MONEL K500 </strong>
                             Components.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">MONEL K500</strong class="text-black"> is a precipitation-hardenable
-                            nickel-copper alloy that combines the excellent corrosion resistance of MONEL 400 with added
+                            nickel copper <a href="{{ route('materials.hastelloy') }}">alloy</a> that combines the excellent corrosion resistance of MONEL 400 with added
                             strength and hardness due to its <a
                                 href="{{ route('materials.aluminium-Alloys') }}">aluminum</a> and <a
                                 href="{{ route('materials.titanium') }}">titanium</a> content. It retains high mechanical

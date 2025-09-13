@@ -34,7 +34,7 @@
                                 </div>
                                 <div class="text">
                                     <p>
-                                        Choosing between stainless steel and Inconel tubes depends heavily on your
+                                        Choosing between stainless steel and <a href="{{ route('materials.incoloy') }}">Inconel</a> tubes depends heavily on your
                                         industrial
                                         needs, environmental conditions, and budget. Both materials offer unique advantages
                                         suited for specific applications. This guide compares their key characteristics,
