@@ -785,13 +785,7 @@
             });
         </script> --}}
 
-        <script>
-            document.getElementById('leadForm').addEventListener('submit', function() {
-                setTimeout(() => {
-                    this.reset(); // clears input fields after submission
-                }, 1000); // wait a moment so download starts
-            });
-        </script>
+     
 
 
 

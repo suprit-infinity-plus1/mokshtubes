@@ -63,59 +63,44 @@
         </div>
     </section>
 
-    <!-- Lead Capture Form -->
-    {{-- <div class="datasheet-download my-5 p-4 rounded shadow-sm border text-center" style="background:#f8f9fa;">
-        <h3 class="mb-3" style="color:#174268;">Download EN8 Steel Datasheet</h3>
-        <p class="mb-3">
-            Get the complete EN8 Steel datasheet with chemical composition,
-            mechanical properties, heat treatment details, and applications.
-            Enter your email to receive the PDF instantly.
-        </p>
-        <form method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+    <section>
+        <div class="datasheet-download my-5 p-4 rounded shadow-sm border text-center" style="background:#f8f9fa;">
+            <h3 class="mb-3" style="color:#174268;">Download EN8 Steel Datasheet</h3>
+            <p class="mb-3">
+                Get the complete EN8 Steel datasheet with chemical composition,
+                mechanical properties, heat treatment details, and applications.
+                Enter your email to receive the PDF instantly.
+            </p>
 
-            <div class="row justify-content-center">
-                <div class="col-md-6 mb-2">
-                    <input type="email" name="email" required class="form-control p-3"
-                        placeholder="Enter your email address">
+            <!-- Lead Capture Form -->
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+                @csrf
+                <div class="row justify-content-center">
+                    <div class="col-md-6 mb-2">
+                        <input type="email" name="email" required class="form-control p-3"
+                            placeholder="Enter your email address">
+                    </div>
+                    <div class="col-md-3 mb-2">
+                        <button type="submit" class="btn btn-lg w-100 text-white"
+                            style="background-color:#db7227; border-radius:8px;">
+                            📥 Get Datasheet
+                        </button>
+                    </div>
                 </div>
-                <div class="col-md-3 mb-2">
-                    <button type="submit" class="btn btn-lg w-100 text-white"
-                        style="background-color:#db7227; border-radius:8px;">
-                        📥 Get Datasheet
-                    </button>
+            </form>
+
+            @if (session('success'))
+                <div class="alert alert-success mt-3">
+                    {{ session('success') }}
                 </div>
-            </div>
-        </form>
-    </div> --}}
-    <div class="datasheet-download my-5 p-4 rounded shadow-sm border text-center" style="background:#f8f9fa;">
-    <h3 class="mb-3" style="color:#174268;">Download EN8 Steel Datasheet</h3>
+            @endif
 
-    @if (session('success'))
-        <div class="alert alert-success">{{ session('success') }}</div>
-    @endif
-    @if (session('error'))
-        <div class="alert alert-danger">{{ session('error') }}</div>
-    @endif
-
-    <form method="POST" action="{{ route('lead.capture') }}" class="mb-3">
-        @csrf
-
-        <div class="row justify-content-center">
-            <div class="col-md-6 mb-2">
-                <input type="email" name="email" required class="form-control p-3"
-                       placeholder="Enter your email address">
-            </div>
-            <div class="col-md-3 mb-2">
-                <button type="submit" class="btn btn-lg w-100 text-white"
-                        style="background-color:#db7227; border-radius:8px;">
-                    📥 Get Datasheet
-                </button>
-            </div>
+            <hr class="my-4">
+            <p class="small text-muted">
+                We respect your privacy. Your email will only be used to send the datasheet.
+            </p>
         </div>
-    </form>
-</div>
-
-
+    </section>
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -391,7 +376,6 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                @foreach ($products as $product)
                 @foreach ($products as $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
@@ -687,7 +671,6 @@
                     consultation, and custom solutions.
                 </p>
                 <!-- Call button -->
-                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch
@@ -695,48 +678,4 @@
             </div>
         </div>
     </section>
-
-
-    <div class="datasheet-download my-5 p-4 rounded shadow-sm border text-center" style="background:#f8f9fa;">
-        <h3 class="mb-3" style="color:#174268;">Download EN8 Steel Datasheet</h3>
-        <p class="mb-3">
-            Get the complete EN8 Steel datasheet with chemical composition,
-            mechanical properties, heat treatment details, and applications.
-            Enter your email to receive the PDF instantly.
-        </p>
-
-        <!-- Lead Capture Form -->
-        <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
-            @csrf
-            <div class="row justify-content-center">
-                <div class="col-md-6 mb-2">
-                    <input type="email" name="email" required class="form-control p-3"
-                        placeholder="Enter your email address">
-                </div>
-                <div class="col-md-3 mb-2">
-                    <button type="submit" class="btn btn-lg w-100 text-white"
-                        style="background-color:#db7227; border-radius:8px;">
-                        📥 Get Datasheet
-                    </button>
-                </div>
-            </div>
-        </form>
-
-        @if (session('success'))
-            <div class="alert alert-success mt-3">
-                {{ session('success') }}
-            </div>
-        @endif
-
-        <hr class="my-4">
-        <p class="small text-muted">
-            We respect your privacy. Your email will only be used to send the datasheet.
-        </p>
-    </div>
-
-
-
-
-
-
 @endsection

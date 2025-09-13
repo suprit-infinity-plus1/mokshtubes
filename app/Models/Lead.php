@@ -9,16 +9,6 @@ class Lead extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['email'];
-}
-
-<?php
-
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Model;
-
-class Lead extends Model
-{
+    protected $table = 'leads';
     protected $fillable = ['email'];
 }
