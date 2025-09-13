@@ -363,8 +363,10 @@
                                                 </li>
                                                 {{-- <li><a href="#">SHEETS, PLATES & COILS</a></li> --}}
                                                 <li><a href="#">BARS & RODS</a></li>
-                                                <li><a href="{{ route('products.pipe-fittings-flanges-fasteners') }}">PIPE FITTINGS, FLANGES & FASTENERS</a></li>
-                                                <li><a href="{{ route('products.special-fabricated') }}">SPECIAL FABRICATED PRODUCTS</a></li>
+                                                <li><a href="{{ route('products.pipe-fittings-flanges-fasteners') }}">PIPE
+                                                        FITTINGS, FLANGES & FASTENERS</a></li>
+                                                <li><a href="{{ route('products.special-fabricated') }}">SPECIAL
+                                                        FABRICATED PRODUCTS</a></li>
                                             </ul>
                                         </li>
                                         <li class="dropdown"><a href="{{ route('materials') }}">Materials</a>
@@ -782,6 +784,14 @@
                 }, 15000);
             });
         </script> --}}
+
+        <script>
+            document.getElementById('leadForm').addEventListener('submit', function() {
+                setTimeout(() => {
+                    this.reset(); // clears input fields after submission
+                }, 1000); // wait a moment so download starts
+            });
+        </script>
 
 
 

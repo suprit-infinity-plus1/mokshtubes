@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Illuminate\Support\Facades\Storage;
 use Illuminate\Http\Request;
 
 class MainController extends Controller
@@ -523,4 +523,17 @@ class MainController extends Controller
         return view('frontend.products.bars-rods.flat-bars');
     }
 
+
+    public function downloadDatasheet()
+{
+    // Path to PDF in storage/app/public/datasheets/
+    $filePath = storage_path('app/public/datasheets/en8.pdf');
+
+    if (!file_exists($filePath)) {
+        abort(404, 'File not found');
+    }
+
+    // Return PDF as download
+    return response()->download($filePath, 'EN8_Steel_Datasheet.pdf');
+}
 }

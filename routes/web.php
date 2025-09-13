@@ -4,10 +4,17 @@ use App\Http\Controllers\MainController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\LeadController;
+
 
 // Route::get('/', function () {
 //     return view('welcome');
 // })
+
+Route::post('/lead-capture', [LeadController::class, 'store'])->name('lead.capture');
+
+
+
 Route::get('/', [MainController::class, 'home'])->name('index');
 Route::get('/home', [MainController::class, 'home'])->name('home');
 Route::get('/contact-us', [MainController::class, 'contactUs'])->name('contact-us');
