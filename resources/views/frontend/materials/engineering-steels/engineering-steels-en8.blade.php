@@ -63,8 +63,8 @@
         </div>
     </section>
 
-    <section>
-        <div class="datasheet-download my-5 p-4 rounded shadow-sm border text-center" style="background:#f8f9fa;">
+    <section class="sec-padd-bottom bg-light">
+        <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download EN8 Steel Datasheet</h3>
             <p class="mb-3">
                 Get the complete EN8 Steel datasheet with chemical composition,
