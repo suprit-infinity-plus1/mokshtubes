@@ -27,7 +27,7 @@
                             <p>They'll have to make the best of things its an uphill climb.<br> The weather started getting was tossed.</p>
                         </div>
                     </div>
-                    <div class="tp-caption tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="110"
+                    <div class="tp-caption tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="130"
                         data-transform_idle="o:1;"
                         data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
                         data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-splitin="none"
@@ -38,7 +38,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tp-caption tp-resizeme" data-x="left" data-hoffset="227" data-y="center" data-voffset="110"
+                    <div class="tp-caption tp-resizeme" data-x="left" data-hoffset="227" data-y="center" data-voffset="130"
                         data-transform_idle="o:1;"
                         data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
                         data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-splitin="none"
@@ -64,12 +64,12 @@
                         data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-splitin="none" data-splitout="none"
                         data-responsive_offset="on" data-start="700">
                         <div class="slide-content-box">
-                            <h2>Provide Solution <br>for Industries plan </h2>
+                            <h1>Provide Solution <br>for Industries plan </h1>
                             <p>They'll have to make the best of things its an uphill climb.<br> The weather started
                                 getting was tossed. </p>
                         </div>
                     </div>
-                    <div class="tp-caption tp-resizeme" data-x="right" data-hoffset="390" data-y="center" data-voffset="110"
+                    <div class="tp-caption tp-resizeme" data-x="right" data-hoffset="400" data-y="center" data-voffset="110"
                         data-transform_idle="o:1;"
                         data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
                         data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-splitin="none"
@@ -80,7 +80,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tp-caption tp-resizeme" data-x="right" data-hoffset="180" data-y="center"
+                    <div class="tp-caption tp-resizeme" data-x="right" data-hoffset="190" data-y="center"
                         data-voffset="110" data-transform_idle="o:1;"
                         data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
                         data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-splitin="none"
@@ -105,7 +105,7 @@
                         data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-splitin="none" data-splitout="none"
                         data-responsive_offset="on" data-start="700">
                         <div class="slide-content-box">
-                            <h2>We help Industries<br>innovate and grow.</h2>
+                            <h1>We help Industries<br>innovate and grow.</h1>
                             <p>They'll have to make the best of things its an uphill climb.<br> The weather started
                                 getting was tossed. </p>
                         </div>
