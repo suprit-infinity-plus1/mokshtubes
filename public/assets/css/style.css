@@ -567,6 +567,10 @@ textarea {
     background: #f8b864;
 }
 
+.section-title:after {
+    left: 50%;
+    margin-left: -35px;
+}
 .section-title.center:after {
     left: 50%;
     margin-left: -35px;
@@ -1180,6 +1184,14 @@ textarea {
 =============================================
 ***/
 .rev_slider_wrapper .slide-content-box h1 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 65px;
+    margin: 0px 0 20px;
+    text-transform: none;
+}
+.rev_slider_wrapper .slide-content-box h2 {
     color: #fff;
     font-size: 60px;
     font-weight: 700;
