@@ -51,6 +51,45 @@
                     </div>
                 </li>
 
+                <li data-transition="slidingoverlayright">
+                    <img src="{{ asset('assets/images/slides/Mokshtubes-banner-desktop.png') }}" alt="banner image"
+                        width="1920" height="880" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat"
+                        data-bgparallax="1">
+
+                    <div class="tp-caption  tp-resizeme" data-x="left" data-hoffset="15" data-y="center"
+                        data-voffset="-50" data-transform_idle="o:1;"
+                        data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;"
+                        data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                        data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-splitin="none" data-splitout="none"
+                        data-responsive_offset="on" data-start="700">
+                        <div class="slide-content-box">
+                            <h2>Global Supplier of <br> Nickel & Stainless Steel <br> Tubes & Fittings.</h2>
+                            <p>They'll have to make the best of things its an uphill climb.<br> The weather started getting was tossed. </p>
+                        </div>
+                    </div>
+                    <div class="tp-caption tp-resizeme" data-x="left" data-hoffset="15" data-y="center"
+                        data-voffset="110" data-transform_idle="o:1;"
+                        data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                        data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-splitin="none"
+                        data-splitout="none" data-responsive_offset="on" data-start="2300">
+                        <div class="slide-content-box">
+                            <div class="button">
+                                <a class="thm-btn bg-clr1" href="#">About Us</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tp-caption tp-resizeme" data-x="left" data-hoffset="227" data-y="center"
+                        data-voffset="110" data-transform_idle="o:1;"
+                        data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                        data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-splitin="none"
+                        data-splitout="none" data-responsive_offset="on" data-start="2600">
+                        <div class="slide-content-box">
+                            <div class="button">
+                                <a class="thm-btn bg-clr2" href="#">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
 
                 <li data-transition="slidingoverlayleft">
                     <img src="{{ asset('assets/images/slides/carpenteria-interno.jpg') }}" alt="banner image" width="1920"
