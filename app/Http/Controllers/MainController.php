@@ -536,6 +536,26 @@ class MainController extends Controller
     }
 
 
+    public function sheetsPlatesCoils()
+    {
+        $types = [
+            ['name' => 'Custom Steel Furniture', 'slug' => 'custom-steel-furniture'],
+            ['name' => 'Fabricated SS Grills', 'slug' => 'fabricated-ss-grills'],
+            ['name' => 'Custom Fabricated Fittings', 'slug' => 'custom-fabricated-fittings'],
+            // ['name' => 'Hollow Section Pipe', 'slug' => 'hollow-section-pipe'],
+            // ['name' => 'U-Bent Tubes', 'slug' => 'u-bent-tubes'],
+            // ['name' => 'Boiler & Heat Exchanger Tubes', 'slug' => 'boiler-heat-exchanger-tubes'],
+        ];
+
+        return view('frontend.products.sheets-plates-coils.index', compact('types'));
+    }
+
+    public function chequeredSheets()
+    {
+        return view('frontend.products.sheets-plates-coils.chequered-sheets');
+    }
+
+
     public function downloadDatasheet()
 {
     // Path to PDF in storage/app/public/datasheets/

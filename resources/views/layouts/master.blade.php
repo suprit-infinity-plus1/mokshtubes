@@ -283,7 +283,7 @@
                                                 @php
                                                     $productCategories = [
                                                         'Pipes & Tubes',
-                                                        // 'Sheets, Plates & Coils',
+                                                        'Sheets, Plates & Coils',
                                                         'Bars & Rods',
                                                         'Pipe Fittings, Flanges & Fasteners',
                                                         'Special Fabricated',
@@ -785,7 +785,7 @@
             });
         </script> --}}
 
-     
+
 
 
 

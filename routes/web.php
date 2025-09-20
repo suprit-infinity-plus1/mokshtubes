@@ -67,6 +67,9 @@ Route::get('/products/pipe-fittings-flanges-fasteners/custom-fabricated-fittings
 Route::get('/products/pipe-fittings-flanges-fasteners/fasteners', [MainController::class, 'fasteners'])->name('products.pipe-fittings-flanges-fasteners.fasteners');
 Route::get('/products/pipe-fittings-flanges-fasteners/pipe-fittings', [MainController::class, 'pipeFittings'])->name('products.pipe-fittings-flanges-fasteners.pipe-fittings');
 
+Route::get('/products/sheets-plates-coils', [MainController::class, 'sheetsPlatesCoils'])->name('products.sheets-plates-coils');
+Route::get('/products/sheets-plates-coils/chequered-sheets', [MainController::class, 'chequeredSheets'])->name('products.sheets-plates-coils.chequered-sheets');
+
 
 // Bars & Rods
 Route::get('/products/bars-rods', [MainController::class, 'barsRods'])->name('products.bars-rods');
