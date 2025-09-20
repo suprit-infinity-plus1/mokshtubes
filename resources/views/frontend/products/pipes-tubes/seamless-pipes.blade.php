@@ -624,7 +624,7 @@
                                     <td>12</td>
                                     <td>300</td>
                                     <td>323.9</td>
-                                    <td>4.78<< /td>
+                                    <td>4.78</td>
                                     <td>314.3</td>
                                     <td>40.7</td>
                                 </tr>
@@ -847,7 +847,7 @@
                                     <td>300</td>
                                     <td>323.8</td>
                                     <td>4.78</td>
-                                    <td>314.3/td>
+                                    <td>314.3</td>
                                     <td>40.7</td>
                                 </tr>
                                 <tr class="t-row">
@@ -1817,12 +1817,12 @@
             <div class="container">
             </div>
 
-            <div class="row">
+             <div class="row">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="https://placehold.co/300x150" alt="NICKLE ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}" alt="NICKLE ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1834,7 +1834,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="https://placehold.co/300x150" alt="STAINLESS STEEL">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}" alt="STAINLESS STEEL">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1846,7 +1846,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="https://placehold.co/300x150" alt="DUPLEX & SUPER">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}" alt="DUPLEX & SUPER">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1859,7 +1859,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="##">
-                                <img class="w-100" src="https://placehold.co/300x150" alt="TITANIUM ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}" alt="TITANIUM ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1871,7 +1871,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100">
-                                <img class="w-100" src="https://placehold.co/300x150" alt="RARE TO ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}" alt="RARE TO ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1883,7 +1883,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100">
-                                <img class="w-100" src="https://placehold.co/300x150" alt="CARBON ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}" alt="CARBON ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">

@@ -467,7 +467,7 @@ class MainController extends Controller
         $types = [
             ['name' => 'Custom Steel Furniture', 'slug' => 'custom-steel-furniture'],
             ['name' => 'Fabricated SS Grills', 'slug' => 'fabricated-ss-grills'],
-            // ['name' => 'Capillaries', 'slug' => 'capillaries'],
+            ['name' => 'Custom Fabricated Fittings', 'slug' => 'custom-fabricated-fittings'],
             // ['name' => 'Hollow Section Pipe', 'slug' => 'hollow-section-pipe'],
             // ['name' => 'U-Bent Tubes', 'slug' => 'u-bent-tubes'],
             // ['name' => 'Boiler & Heat Exchanger Tubes', 'slug' => 'boiler-heat-exchanger-tubes'],
@@ -482,6 +482,18 @@ class MainController extends Controller
     public function flangesAndGaskets()
     {
         return view('frontend.products.pipe-fittings-flanges-fasteners.flanges-and-gaskets');
+    }
+    public function customFabricatedFittings()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings');
+    }
+    public function fasteners()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners');
+    }
+    public function pipeFittings()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.pipe-fittings');
     }
 
     public function barsRods()

@@ -1,9 +1,15 @@
 @extends('layouts.master')
-@section('title', 'Hollow Bars | Stainless, Alloy & MS Mokshtubes')
+@section('title', 'Custom Fabricated Fittings | Stainless, Alloy, Duplex & Nickel | Moksh Tubes & Fittings LLP')
 @section('meta_description',
-    'Mokshtubes offers stainless steel, MS, alloy, aluminium & bronze hollow bars in custom
-    sizes, grades & global delivery.')
-@section('meta_keywords', 'Hollow Bars')
+    'Get precision engineered custom fabricated fittings from Moksh Tubes & Fittings LLP.
+    Available in stainless steel, carbon steel, duplex, super duplex, nickel alloys, titanium, and copper alloys. Ideal for
+    oil & gas, marine, power, chemical, and industrial applications. Compliance with ASTM, ASME, DIN, EN, and API
+    standards.')
+@section('meta_keywords',
+    'custom fabricated fittings, stainless steel fittings, carbon steel fittings, duplex fittings,
+    super duplex fittings, nickel alloy fittings, titanium fittings, copper alloy fittings, industrial pipe fittings,
+    precision pipe fittings, ASME compliant fittings, ASTM certified fittings, oil & gas fittings, marine fittings, chemical
+    plant fittings, power generation fittings')
 @section('content')
     <!--Start breadcrumb area-->
 
@@ -15,7 +21,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Hollow Bars</h1>
+                    <h1>Pipe Fittings</h1>
                 </div>
             </div>
         </div>
@@ -25,33 +31,34 @@
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Hollow Bars</h2>
+                <h2 class="fw-bold" style="color: #174268;">Pipe Fittings</h2>
             </div>
 
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/peoduct/steel-furniture/custom-steel-furniture.webp') }}"
-                        alt="Hollow Bars" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/peoduct/flangs/custom-fabricated-fittings.jpeg') }}"
+                        alt="Pipe-Fittings" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Right Content -->
                 <div class="col-md-6">
                     <p class="fs-6 mb-3 text-justify">
-                        <strong class="text-black">Hollow Bars</strong> are tubular metal <a
-                            href="{{ route('products.bars-rods') }}">bars</a> with a hollow center,
-                        offering a high strength to weight ratio. Widely used in automotive, construction, marine,
-                        aerospace, and mechanical applications, they provide excellent machinability and versatility.
+                        <strong class="text-black">Pipe Fittings</strong> are essential components used to connect, control,
+                        and change the direction of pipelines in industrial, commercial, and residential systems. They come
+                        in a variety of shapes, sizes, and materials to handle different pressures, temperatures, and flow
+                        conditions.
+                    </p>
                     <p class="fs-6 mb-3 text-justify">
-                        <a href="{{ route('index') }}"><b>Moksh Tubes & Fittings LLP</b></a>, we supply high quality
-                        stainless steel hollow bars, MS hollow bars, 4140
-                        hollow bars, aluminium hollow square bars, bronze hollow bars, and nickel hollow bars. We also offer
-                        hollow square bars, extruded hollow bars, and oil filled hollow bars for specialized applications.
-                        All <a href="{{ route('products') }}">products</a> conform to ASTM, ASME, DIN, EN, and JIS
-                        standards.
+                        <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a>, we supply a comprehensive range of
+                        pipe fittings from standard elbows, tees, reducers, and caps to custom fabricated fittings for
+                        complex layouts. Manufactured from stainless steel, carbon steel, alloy steel, duplex, super duplex,
+                        nickel alloys, titanium, and copper alloys, our fittings conform to ASTM, ASME, DIN, EN, and API
+                        standards and are widely trusted for oil & gas, chemical, marine, and power industries.
                     </p>
                 </div>
             </div>
+        </div>
     </section>
 
     <section class="sec-padd-top sec-padd-bottom">
@@ -82,27 +89,29 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Size Range</td>
-                                    <td>OD: 25 mm – 450 mm / ID: 12 mm – 300 mm (custom sizes available)</td>
+                                    <td>½” NB to 72” NB (special sizes on request)</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Wall Thickness</td>
-                                    <td>5 mm – 100 mm</td>
+                                    <td>Thickness</td>
+                                    <td>SCH 5 to SCH XXS (custom schedules available)</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Lengths</td>
-                                    <td>Standard 3m – 6m; cut-to-length on request</td>
+                                    <td>Types</td>
+                                    <td>Elbows (45°, 90°, 180°), Tees (Equal & Reducing), Reducers (Concentric & Eccentric),
+                                        Caps, Stub Ends, Crosses, Nipples, Custom Fabricated Fittings</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Manufacturing Methods</td>
+                                    <td>Seamless, Welded, Forged, Custom Fabricated</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Standards</td>
-                                    <td>ASTM A511, A312, A790, EN 10294, DIN 17458</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Forms</td>
-                                    <td>Seamless Hollow Bars, Welded Hollow Bars</td>
+                                    <td>ASME B16.9, B16.11, MSS-SP-43, ASTM A403, A815, B366</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Finishes</td>
-                                    <td>Mill Finish, Polished, Pickled & Passivated, Ground</td>
+                                    <td>Pickled & Passivated, Shot Blasted, Bead Blasted, Mirror Polish (for sanitary uses)
+                                    </td>
                                 </tr>
                             </tbody>
                         </table>
@@ -117,9 +126,9 @@
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
-                <h2 class="fw-bold" style="color: #174268;">Charts</h2>
-
-
+                <h2 class="fw-bold" style="color: #174268;">
+                    Product Range Charts
+                </h2>
             </div>
             <!-- Child Title -->
             <div class="section-title center mb-3">
@@ -130,84 +139,48 @@
                 <table class="table table-bordered table-striped align-middle text-center">
                     <thead class="table-dark">
                         <tr class="t-row">
-                            <th>OD (mm)</th>
-                            <th>WT (mm)</th>
-                            <th>ID (mm)</th>
-                            <th>Weight (Kg/m)</th>
+                            <th>Fitting Type</th>
+                            <th>Size Range (NPS)</th>
+                            <th>Standard</th>
+                            <th>Ends Available</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr class="t-row">
-                            <td>20</td>
-                            <td>2</td>
-                            <td>16</td>
-                            <td>0.94</td>
+                            <td>Elbows (45° / 90° / 180°)</td>
+                            <td>½" – 48"</td>
+                            <td>ASME B16.9, B16.28</td>
+                            <td>Butt Weld, Socket Weld, Threaded</td>
                         </tr>
                         <tr class="t-row">
-                            <td>25</td>
-                            <td>3</td>
-                            <td>19</td>
-                            <td>1.72</td>
+                            <td>Tees & Crosses</td>
+                            <td>½" – 48"</td>
+                            <td>ASME B16.9</td>
+                            <td>Butt Weld, Socket Weld, Threaded</td>
                         </tr>
                         <tr class="t-row">
-                            <td>30</td>
-                            <td>4</td>
-                            <td>22</td>
-                            <td>2.72</td>
+                            <td>Reducers (Concentric / Eccentric)</td>
+                            <td>½" – 48"</td>
+                            <td>ASME B16.9</td>
+                            <td>Butt Weld</td>
                         </tr>
                         <tr class="t-row">
-                            <td>40</td>
-                            <td>5</td>
-                            <td>30</td>
-                            <td>4.56</td>
+                            <td>Caps & Stub Ends</td>
+                            <td>½" – 24"</td>
+                            <td>ASME B16.9, MSS-SP-43</td>
+                            <td>Butt Weld, Lap Joint</td>
                         </tr>
                         <tr class="t-row">
-                            <td>50</td>
-                            <td>6</td>
-                            <td>38</td>
-                            <td>6.80</td>
+                            <td>Couplings & Unions</td>
+                            <td>¼" – 12"</td>
+                            <td>ASME B16.11</td>
+                            <td>Socket Weld, Threaded</td>
                         </tr>
                         <tr class="t-row">
-                            <td>60</td>
-                            <td>8</td>
-                            <td>44</td>
-                            <td>10.84</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>80</td>
-                            <td>10</td>
-                            <td>60</td>
-                            <td>18.24</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>100</td>
-                            <td>12</td>
-                            <td>76</td>
-                            <td>27.28</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>150</td>
-                            <td>16</td>
-                            <td>118</td>
-                            <td>54.40</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>200</td>
-                            <td>20</td>
-                            <td>160</td>
-                            <td>88.80</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>250</td>
-                            <td>25</td>
-                            <td>200</td>
-                            <td>138.00</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>300</td>
-                            <td>30</td>
-                            <td>240</td>
-                            <td>198.00</td>
+                            <td>Special Fabricated Fittings</td>
+                            <td>Custom</td>
+                            <td>As per drawing</td>
+                            <td>As required</td>
                         </tr>
                     </tbody>
                 </table>
@@ -215,152 +188,62 @@
             </div>
         </div>
     </section>
-    <section class="bg-light" style="padding-top: 80px;">
+    <section class="bg-light" style="">
         <div class="container">
 
             <!-- Parent Title -->
             <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Nominal Bore</h2>
+                <h2 class="fw-bold" style="color: #174268;">Dimensional</h2>
             </div>
 
             <!-- Child Title -->
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Expanded Table (for one item – Hollow Pipes)</h4>
+                <h4 class="text-center mb-0" style="color: #db7227;">Expanded Table (90° Elbow – ASME B16.9)</h4>
             </div>
 
 
             <div class="row justify-content-center">
                 <div class="col-lg-12">
                     <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle text-center">
-                            <thead class="table-dark">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>NB (mm)</th>
-                                    <th>Inches</th>
-                                    <th>OD (mm)</th>
-                                    <th>Sch 40 WT (mm)</th>
-                                    <th>Sch 40 Wt (Kg/m)</th>
-                                    <th>Sch 80 WT (mm)</th>
-                                    <th>Sch 80 Wt (Kg/m)</th>
+                                    <th>Nominal Pipe Size (NPS)</th>
+                                    <th>Outside Diameter (D) (mm)</th>
+                                    <th>Center-to-End (A) (mm)</th>
+                                    <th>Wall Thickness (t) (mm)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>15</td>
-                                    <td>1/2</td>
-                                    <td>21.3</td>
-                                    <td>2.77</td>
-                                    <td>1.27</td>
-                                    <td>3.73</td>
-                                    <td>1.62</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>20</td>
-                                    <td>3/4</td>
-                                    <td>26.7</td>
-                                    <td>2.87</td>
-                                    <td>1.68</td>
-                                    <td>3.91</td>
-                                    <td>2.20</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>25</td>
-                                    <td>1</td>
-                                    <td>33.4</td>
-                                    <td>3.38</td>
-                                    <td>2.50</td>
-                                    <td>4.55</td>
-                                    <td>3.24</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>32</td>
-                                    <td>1 1/4</td>
-                                    <td>42.2</td>
-                                    <td>3.56</td>
-                                    <td>3.38</td>
-                                    <td>4.85</td>
-                                    <td>4.47</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>40</td>
-                                    <td>1 1/2</td>
-                                    <td>48.3</td>
-                                    <td>3.68</td>
-                                    <td>4.05</td>
-                                    <td>5.08</td>
-                                    <td>5.41</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>50</td>
-                                    <td>2</td>
+                                    <td>2&quot;</td>
                                     <td>60.3</td>
-                                    <td>3.91</td>
-                                    <td>5.44</td>
-                                    <td>5.54</td>
-                                    <td>7.48</td>
+                                    <td>76</td>
+                                    <td>As per schedule</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>65</td>
-                                    <td>2 1/2</td>
-                                    <td>73.0</td>
-                                    <td>5.16</td>
-                                    <td>8.63</td>
-                                    <td>7.01</td>
-                                    <td>11.40</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>80</td>
-                                    <td>3</td>
-                                    <td>88.9</td>
-                                    <td>5.49</td>
-                                    <td>11.30</td>
-                                    <td>7.62</td>
-                                    <td>15.20</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>100</td>
-                                    <td>4</td>
+                                    <td>4&quot;</td>
                                     <td>114.3</td>
-                                    <td>6.02</td>
-                                    <td>16.07</td>
-                                    <td>8.56</td>
-                                    <td>22.30</td>
+                                    <td>152</td>
+                                    <td>As per schedule</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>150</td>
-                                    <td>6</td>
-                                    <td>168.3</td>
-                                    <td>7.11</td>
-                                    <td>28.30</td>
-                                    <td>10.97</td>
-                                    <td>42.70</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>200</td>
-                                    <td>8</td>
+                                    <td>8&quot;</td>
                                     <td>219.1</td>
-                                    <td>8.18</td>
-                                    <td>42.60</td>
-                                    <td>12.70</td>
-                                    <td>64.60</td>
+                                    <td>305</td>
+                                    <td>As per schedule</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>250</td>
-                                    <td>10</td>
-                                    <td>273.1</td>
-                                    <td>9.27</td>
-                                    <td>60.50</td>
-                                    <td>12.70</td>
-                                    <td>96.00</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>300</td>
-                                    <td>12</td>
+                                    <td>12&quot;</td>
                                     <td>323.9</td>
-                                    <td>9.52</td>
-                                    <td>73.88</td>
-                                    <td>12.70</td>
-                                    <td>132.00</td>
+                                    <td>457</td>
+                                    <td>As per schedule</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>24&quot;</td>
+                                    <td>610</td>
+                                    <td>914</td>
+                                    <td>As per schedule</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -376,78 +259,72 @@
 
             <!-- Parent Title -->
             <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Square Hollow Sections</h2>
+                <h2 class="fw-bold" style="color: #174268;">Pressure Rating Chart</h2>
             </div>
+
+            <!-- Child Title -->
+            <div class="section-title center mb-3">
+                <h4 class="text-center mb-0" style="color: #db7227;">Expanded Table (Typical – for Welded Fabricated
+                    Fittings)
+                </h4>
+            </div>
+
 
             <div class="row justify-content-center">
                 <div class="col-lg-12">
                     <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle text-center">
-                            <thead class="table-dark">
-                                <tr class="t-row">
-                                    <th>Size (mm)</th>
-                                    <th>WT (mm)</th>
-                                    <th>Weight (Kg/m)</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>25 × 25</td>
-                                    <td>2</td>
-                                    <td>1.47</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>25 × 25</td>
-                                    <td>3</td>
-                                    <td>2.13</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>40 × 40</td>
-                                    <td>3</td>
-                                    <td>3.55</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>50 × 50</td>
-                                    <td>3</td>
-                                    <td>4.49</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>50 × 50</td>
-                                    <td>4</td>
-                                    <td>5.84</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>60 × 60</td>
-                                    <td>4</td>
-                                    <td>7.11</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>75 × 75</td>
-                                    <td>5</td>
-                                    <td>11.05</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>100 × 100</td>
-                                    <td>5</td>
-                                    <td>14.87</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>150 × 150</td>
-                                    <td>6</td>
-                                    <td>26.65</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>200 × 200</td>
-                                    <td>8</td>
-                                    <td>47.19</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-striped align-middle">
+                                <thead class="table-dark text-center">
+                                    <tr class="t-row">
+                                        <th>Material</th>
+                                        <th>Class 150</th>
+                                        <th>Class 300</th>
+                                        <th>Class 600</th>
+                                        <th>Class 900</th>
+                                        <th>Class 1500</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="text-center">
+                                    <tr class="t-row">
+                                        <td>Stainless Steel 316</td>
+                                        <td>285 psi</td>
+                                        <td>740 psi</td>
+                                        <td>1480 psi</td>
+                                        <td>2220 psi</td>
+                                        <td>3700 psi</td>
+                                    </tr>
+                                    <tr class="t-row">
+                                        <td>Duplex 2205</td>
+                                        <td>290 psi</td>
+                                        <td>750 psi</td>
+                                        <td>1500 psi</td>
+                                        <td>2250 psi</td>
+                                        <td>3750 psi</td>
+                                    </tr>
+                                    <tr class="t-row">
+                                        <td>Inconel 625</td>
+                                        <td>260 psi</td>
+                                        <td>675 psi</td>
+                                        <td>1350 psi</td>
+                                        <td>2025 psi</td>
+                                        <td>3375 psi</td>
+                                    </tr>
+                                    <tr class="t-row">
+                                        <td>Hastelloy C276</td>
+                                        <td>270 psi</td>
+                                        <td>710 psi</td>
+                                        <td>1420 psi</td>
+                                        <td>2130 psi</td>
+                                        <td>3550 psi</td>
+                                    </tr>
+                                </tbody>
+                            </table>
 
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
 
     <section class="bg-light" style="padding-top: 80px;">
@@ -455,147 +332,123 @@
 
             <!-- Parent Title -->
             <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Rectangular Hollow Sections</h2>
+                <h2 class="fw-bold" style="color: #174268;">Weight Chart</h2>
             </div>
+
+            <!-- Child Title -->
+            <div class="section-title center mb-3">
+                <h4 class="text-center mb-0" style="color: #db7227;">Expanded Table (Custom Fabricated Reducers)
+                </h4>
+            </div>
+
 
             <div class="row justify-content-center">
                 <div class="col-lg-12">
                     <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle text-center">
-                            <thead class="table-dark">
-                                <tr class="t-row">
-                                    <th>Size (mm)</th>
-                                    <th>WT (mm)</th>
-                                    <th>Weight (Kg/m)</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>40 × 20</td>
-                                    <td>2</td>
-                                    <td>2.08</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>50 × 25</td>
-                                    <td>3</td>
-                                    <td>3.61</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>60 × 40</td>
-                                    <td>3</td>
-                                    <td>4.49</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>80 × 40</td>
-                                    <td>4</td>
-                                    <td>7.56</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>100 × 50</td>
-                                    <td>4</td>
-                                    <td>9.28</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>120 × 60</td>
-                                    <td>5</td>
-                                    <td>14.25</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>150 × 100</td>
-                                    <td>6</td>
-                                    <td>21.88</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>200 × 100</td>
-                                    <td>8</td>
-                                    <td>33.98</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>250 × 150</td>
-                                    <td>8</td>
-                                    <td>48.45</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>300 × 200</td>
-                                    <td>10</td>
-                                    <td>85.00</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-striped align-middle">
+                                <thead class="table-dark text-center">
+                                    <tr class="t-row">
+                                        <th>NPS (Large End)</th>
+                                        <th>NPS (Small End)</th>
+                                        <th>Wall Thickness (mm)</th>
+                                        <th>Approx. Weight (kg)</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="text-center">
+                                    <tr class="t-row">
+                                        <td>4&quot;</td>
+                                        <td>2&quot;</td>
+                                        <td>6.0</td>
+                                        <td>3.5</td>
+                                    </tr>
+                                    <tr class="t-row">
+                                        <td>8&quot;</td>
+                                        <td>4&quot;</td>
+                                        <td>8.0</td>
+                                        <td>12.0</td>
+                                    </tr>
+                                    <tr class="t-row">
+                                        <td>12&quot;</td>
+                                        <td>6&quot;</td>
+                                        <td>10.0</td>
+                                        <td>28.0</td>
+                                    </tr>
+                                    <tr class="t-row">
+                                        <td>16&quot;</td>
+                                        <td>8&quot;</td>
+                                        <td>12.5</td>
+                                        <td>50.0</td>
+                                    </tr>
+                                    <tr class="t-row">
+                                        <td>24&quot;</td>
+                                        <td>12&quot;</td>
+                                        <td>15.0</td>
+                                        <td>120.0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
 
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
-
     <section class="bg-light" style="padding-top: 80px;">
         <div class="container">
 
             <!-- Parent Title -->
             <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Oval Hollow Sections</h2>
+                <h2 class="fw-bold" style="color: #174268;">Tolerances</h2>
             </div>
+
+            <!-- Child Title -->
+            <div class="section-title center mb-3">
+                <h4 class="text-center mb-0" style="color: #db7227;">Expanded Table (Fabricated Fittings – as per ASME
+                    B16.9)
+                </h4>
+            </div>
+
 
             <div class="row justify-content-center">
                 <div class="col-lg-12">
                     <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle text-center">
-                            <thead class="table-dark">
-                                <tr class="t-row">
-                                    <th>Size (mm)</th>
-                                    <th>WT (mm)</th>
-                                    <th>Weight (Kg/m)</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>30 × 15</td>
-                                    <td>2</td>
-                                    <td>1.15</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>40 × 20</td>
-                                    <td>2</td>
-                                    <td>1.60</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>50 × 25</td>
-                                    <td>2.5</td>
-                                    <td>2.40</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>60 × 30</td>
-                                    <td>3</td>
-                                    <td>3.50</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>80 × 40</td>
-                                    <td>3</td>
-                                    <td>4.80</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>100 × 50</td>
-                                    <td>4</td>
-                                    <td>7.20</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>120 × 60</td>
-                                    <td>5</td>
-                                    <td>11.20</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>150 × 75</td>
-                                    <td>6</td>
-                                    <td>19.50</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-striped align-middle">
+                                <thead class="table-dark text-center">
+                                    <tr class="t-row">
+                                        <th>Parameter</th>
+                                        <th>Tolerance</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="text-center">
+                                    <tr class="t-row">
+                                        <td>Outside Diameter (D)</td>
+                                        <td>±1% or ±1.5 mm (whichever is greater)</td>
+                                    </tr>
+                                    <tr class="t-row">
+                                        <td>Wall Thickness (t)</td>
+                                        <td>Not less than 87.5% of specified</td>
+                                    </tr>
+                                    <tr class="t-row">
+                                        <td>Center-to-End (A)</td>
+                                        <td>±3 mm (NPS ≤ 12&quot;), ±5 mm (NPS &gt; 12&quot;)</td>
+                                    </tr>
+                                    <tr class="t-row">
+                                        <td>Angularity</td>
+                                        <td>±0.5°</td>
+                                    </tr>
+                                    <tr class="t-row">
+                                        <td>Straightness</td>
+                                        <td>0.03 mm per mm</td>
+                                    </tr>
+                                </tbody>
+                            </table>
 
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
 
     {{-- Grades Available --}}
@@ -605,9 +458,8 @@
                 <h2>Grades Available</h2>
             </div>
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;"><strong>Hollow Bars</strong> is
-                    manufactured in a wide range of grades, ensuring suitability for different applications, environments,
-                    and design goals:</h4>
+                <h4 class="text-center mb-0" style="color: #db7227;"><strong>Custom fabricated fittings</strong> are
+                    available in multiple grades for diverse industries:</h4>
             </div>
 
             <div class="row justify-content-center">
@@ -623,44 +475,30 @@
                             <tbody>
                                 <tr class="t-row">
                                     <td>Stainless Steel</td>
-                                    <td>304, 304L, 316, 316L, 310, 321, 347 <br>
-                                        <small>(Corrosion resistance & machining)</small>
-                                    </td>
+                                    <td>304, 304L, 316, 316L, 310, 321, 347 – for hygiene-critical and corrosion-resistant
+                                        uses.</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Carbon Steel</td>
-                                    <td>ASTM A105, A350 LF2, IS2062 <br>
-                                        <small>(Structural & general engineering)</small>
-                                    </td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Alloy Steel</td>
-                                    <td>4140, 4130, EN19, EN24 <br>
-                                        <small>(High-strength machined components)</small>
-                                    </td>
+                                    <td>ASTM A234 WPB, ASTM A105, IS2062 – for structural and high-pressure piping.</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Duplex & Super Duplex</td>
-                                    <td>2205, S32750, S32760 <br>
-                                        <small>(Offshore & chemical processing)</small>
+                                    <td>UNS S31803, S32205, S32750, S32760 – for offshore, marine, and chemical processing.
                                     </td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Nickel Alloys</td>
-                                    <td>Inconel, Monel, Hastelloy <br>
-                                        <small>(High-temperature & corrosive environments)</small>
-                                    </td>
+                                    <td>Inconel 600/625/825, Monel 400/K500, Hastelloy C22/C276 – for extreme heat and
+                                        corrosive service.</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Titanium</td>
-                                    <td>Grades 2, 5 <br>
-                                        <small>(Aerospace, desalination & chemical industries)</small>
-                                    </td>
+                                    <td>Grades 1, 2, 5 – for aerospace, desalination, and medical industries.</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Copper Alloys</td>
-                                    <td>Cu-Ni 70/30, Cu-Ni 90/10, Brass, Bronze <br>
-                                        <small>(Marine & decorative)</small>
+                                    <td>Cu-Ni 70/30, Cu-Ni 90/10 – for marine, desalination, and shipbuilding applications.
                                     </td>
                                 </tr>
                             </tbody>
@@ -678,12 +516,13 @@
             <div class="container">
             </div>
 
-             <div class="row">
+            <div class="row">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}" alt="NICKLE ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}"
+                                    alt="NICKLE ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -695,7 +534,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}" alt="STAINLESS STEEL">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}"
+                                    alt="STAINLESS STEEL">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -707,7 +547,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}" alt="DUPLEX & SUPER">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}"
+                                    alt="DUPLEX & SUPER">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -720,7 +561,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="##">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}" alt="TITANIUM ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}"
+                                    alt="TITANIUM ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -732,7 +574,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}" alt="RARE TO ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}"
+                                    alt="RARE TO ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -744,7 +587,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}" alt="CARBON ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}"
+                                    alt="CARBON ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -969,8 +813,8 @@
             <div class="section-title center">
                 <h2>Applications</h2>
                 <p class="text-center pb-3">
-                    <strong class="text-black">Hollow Bars</strong> is versatile and used across a variety of
-                    industries and settings:
+                    <strong class="text-black">Custom Fabricated Fittings</strong> are crucial in projects where standard
+                    fittings are not suitable due to design constraints or operational demands.
                 </p>
             </div>
 
@@ -978,71 +822,66 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon">
+                            <i class="bi bi-fuel-pump-fill"></i>
+                        </div>
+                        <h5>Oil, Gas & Petrochemical</h5>
+                        <ul>
+                            <li>Complex pipeline layouts for refineries and offshore platforms.</li>
+                            <li>Manifold assemblies, laterals, and special reducers for processing units.</li>
+                            <li>High-pressure and high-temperature fittings for critical flow lines.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon">
+                            <i class="bi bi-lightning-charge-fill"></i>
+                        </div>
+                        <h5>Power Generation & Energy</h5>
+                        <ul>
+                            <li>Fittings for boiler feed lines, condensers, and turbine systems.</li>
+                            <li>Custom elbows, tees, and reducers for nuclear, thermal, and renewable plants.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon">
+                            <i class="bi bi-tsunami"></i>
+                        </div>
+                        <h5>Marine & Shipbuilding</h5>
+                        <ul>
+                            <li>Saltwater-resistant fittings for ship piping, ballast systems, and offshore rigs.</li>
+                            <li>Large-bore fabricated fittings for desalination plants and marine structures.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                    <div class="application-card">
+                        <div class="application-icon">
+                            <i class="bi bi-airplane-engines-fill"></i>
+                        </div>
+                        <h5>Automotive & Aerospace</h5>
+                        <ul>
+                            <li>Precision fabricated fittings for fuel lines, exhaust systems, and hydraulic systems.</li>
+                            <li>Titanium and nickel alloy fittings for aerospace assemblies and prototypes.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                    <div class="application-card">
+                        <div class="application-icon">
                             <i class="bi bi-building"></i>
                         </div>
                         <h5>Construction & Infrastructure</h5>
                         <ul>
-                            <li>Structural supports, frameworks, base plates</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon">
-                            <i class="bi bi-water"></i>
-                        </div>
-                        <h5>Marine & Offshore</h5>
-                        <ul>
-                            <li>Bronze, nickel, duplex, and Cu-Ni hollow bars for shafts, propellers, offshore rigs</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon">
-                            <i class="bi bi-fuel-pump"></i>
-                        </div>
-                        <h5>Oil, Gas & Petrochemical</h5>
-                        <ul>
-                            <li>Valve bodies, pump housings, manifolds, high-pressure pipelines</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon">
-                            <i class="bi bi-gear-wide-connected"></i>
-                        </div>
-                        <h5>Industrial & Engineering</h5>
-                        <ul>
-                            <li>Bushings, bearings, hydraulic cylinders, rollers, machine tools</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon">
-                            <i class="bi bi-truck-front"></i>
-                        </div>
-                        <h5>Automotive & Aerospace</h5>
-                        <ul>
-                            <li>Shafts, hydraulic systems, landing gear, lightweight components</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon">
-                            <i class="bi bi-capsule-pill"></i>
-                        </div>
-                        <h5>Food, Pharma & Chemical</h5>
-                        <ul>
-                            <li>Sanitary fittings, clean piping, processing machinery</li>
+                            <li>Custom bends, headers, and Y-pieces for HVAC, fire protection, and water distribution
+                                systems.</li>
+                            <li>Structural and architectural fittings for stadiums, malls, and high-rise projects.</li>
                         </ul>
                     </div>
                 </div>
@@ -1056,60 +895,113 @@
         </div>
     </section>
 
-    
+    {{-- Uses of Welded Pipes and Tubes --}}
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Uses of Custom Fabricated Fittings</h2>
+            </div>
+            <!-- Child Title -->
+            <div class="section-title center mb-3">
+                <h4 class="text-center mb-0" style="color: #db7227;">Custom Fabricated Fittings</h4>
+            </div>
+            <div class="row g-4 mt-4">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-layout-text-sidebar-reverse"></i></div>
+                        <h4>Special Layouts</h4>
+                        <h5>Enables complex piping designs not possible with standard fittings.</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-tools"></i></div>
+                        <h4>Project-Specific Needs</h4>
+                        <h5>Tailored for unique pressures, temperatures, and flow requirements.</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-arrow-counterclockwise"></i></div>
+                        <h4>Repair & Replacement</h4>
+                        <h5>Used for retrofit projects where older pipelines require non-standard fittings.</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-6">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-fill-check"></i></div>
+                        <h4>Heavy-Duty Service</h4>
+                        <h5>Handles harsh chemicals, seawater, and extreme conditions.</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-6">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-vector-pen"></i></div>
+                        <h4>Design Flexibility</h4>
+                        <h5>Allows architects and engineers to integrate fittings into challenging spaces.</h5>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
     {{-- Advantages of Welded Pipes & Tubes --}}
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
-                <h2>Advantages of Hollow Bars</h2>
+                <h2>Advantages of Custom Fabricated Fittings</h2>
             </div>
 
             <div class="row g-4 mt-4">
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-tools"></i></div>
-                        <h4>High Machinability</h4>
-                        <h5>Turning, boring, threading, milling.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-bullseye"></i></div>
-                        <h4>Consistent Quality</h4>
-                        <h5>Tight tolerances on OD, ID, wall thickness.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-cash-coin"></i></div>
-                        <h4>Material Efficiency</h4>
-                        <h5>Less waste, cost-effective production.</h5>
+                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
+                        <h4>Precision Engineering</h4>
+                        <h5>Designed and fabricated to exact specifications.</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-layers"></i></div>
-                        <h4>Wide Material Range</h4>
-                        <h5>Stainless, Duplex, Nickel, Titanium, Copper alloys.</h5>
+                        <h4>Material Flexibility</h4>
+                        <h5>Available in stainless, carbon, duplex, nickel, titanium, and copper alloys.</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-globe2"></i></div>
-                        <h4>Global Standards</h4>
-                        <h5>ASTM, ASME, DIN, EN, ISO certified.</h5>
+                        <div class="advantage-icon"><i class="bi bi-cash-stack"></i></div>
+                        <h4>Cost-Effective Solutions</h4>
+                        <h5>Eliminates the need for multiple welded joints by providing a single-piece fitting.</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-sliders"></i></div>
-                        <h4>Custom Solutions</h4>
-                        <h5>Cut-to-length & special dimensions available.</h5>
+                        <div class="advantage-icon"><i class="bi bi-clock-history"></i></div>
+                        <h4>Quick Turnaround</h4>
+                        <h5>Custom solutions delivered faster than sourcing rare or imported parts.</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-patch-check-fill"></i></div>
+                        <h4>Compliance</h4>
+                        <h5>Manufactured as per ASTM, ASME, API, and international standards.</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-fill-check"></i></div>
+                        <h4>Enhanced Safety</h4>
+                        <h5>Ensures proper flow, pressure handling, and leak-proof integrity.</h5>
                     </div>
                 </div>
             </div>
@@ -1129,39 +1021,41 @@
             <div class="row g-4 mt-4">
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-layers-fill"></i></div>
-                        <h5>Wide Range: Stainless Steel, MS, Alloy, Aluminium, Bronze, Nickel.</h5>
+                        <div class="why-banner-icon"><i class="bi bi-diagram-3-fill"></i></div>
+                        <h5>Decades of Expertise: Specialists in custom fabrication for oil & gas, power, and marine
+                            sectors.</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-rulers"></i></div>
-                        <h5>Custom Sizes & Grades available for diverse applications.</h5>
+                        <div class="why-banner-icon"><i class="bi bi-building"></i></div>
+                        <h5>State of the Art Facilities: Advanced CNC, bending, and welding capabilities.</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-patch-check-fill"></i></div>
-                        <h5>High Quality Standards: ASTM, ASME, DIN, EN, JIS compliant.</h5>
+                        <div class="why-banner-icon"><i class="bi bi-box-seam"></i></div>
+                        <h5>Wide Material Inventory: Ready stock of alloys for quick fabrication.</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Global Supply: Bangladesh, India, UAE, USA, Europe.</h5>
+                        <div class="why-banner-icon"><i class="bi bi-patch-check-fill"></i></div>
+                        <h5>Strict Quality Control: ISO 9001:2015 certified; Mill Test Certificates (MTC) provided.</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-12 col-lg-6">
                     <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-people-fill"></i></div>
-                        <h5>Trusted Suppliers: Hollow Bar Albany, Hollow MS Bar Bangladesh.</h5>
+                        <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
+                        <h5>Global Supply Network: Serving industries across India, Middle East, Europe, and Asia.</h5>
                     </div>
                 </div>
             </div>
+
 
         </div>
     </section>
@@ -1179,14 +1073,13 @@
                         <!--Start single accordion box-->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What is a hollow bar and where is it used?</h4>
+                                <h4>What are custom fabricated fittings?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    A hollow bar is a metal bar with a hollow center, reducing weight while maintaining
-                                    strength.
-                                    It is widely used in construction, automotive, aerospace, marine, and mechanical
-                                    projects.
+                                    Custom fabricated fittings are specially designed pipe fittings that are manufactured
+                                    according to specific requirements, such as size, material, design, or application. They
+                                    are used when standard fittings do not meet the needs of a project.
                                 </p>
                             </div>
                         </div>
@@ -1195,11 +1088,13 @@
                         <!--Start single accordion box-->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What materials are available?</h4>
+                                <h4>Which industries use custom fabricated fittings?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Stainless steel, MS, 4140, aluminium hollow square bars, bronze, and nickel hollow bars.
+                                    These fittings are widely used in oil & gas, petrochemical, power generation, marine,
+                                    chemical processing, food & beverage, water treatment, and other industries where unique
+                                    piping solutions are required.
                                 </p>
                             </div>
                         </div>
@@ -1208,13 +1103,13 @@
                         <!--Start single accordion box-->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What sizes can I get?</h4>
+                                <h4>What materials are available for custom fabricated fittings?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Sizes range from 10 mm hollow bar to 2 inch × 2 inch hollow square bar, with wall
-                                    thickness
-                                    and custom diameters available.
+                                    We offer fittings in stainless steel, duplex steel, super duplex, nickel alloys
+                                    (Inconel, Hastelloy, Monel), titanium, copper alloys, and other high-performance
+                                    materials depending on the application.
                                 </p>
                             </div>
                         </div>
@@ -1223,12 +1118,12 @@
                         <!--Start single accordion box-->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>Can I get hollow bars in Dhaka or Albany?</h4>
+                                <h4>What types of fittings can be custom fabricated?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Yes, delivery is available for Hollow Square Bars in Dhaka, Hollow Bar Albany, and
-                                    worldwide.
+                                    Elbows, tees, reducers, crosses, stub ends, branch fittings, lateral fittings, headers,
+                                    manifolds, and other complex pipe components can all be fabricated as per project needs.
                                 </p>
                             </div>
                         </div>
@@ -1237,16 +1132,17 @@
                         <!--Start single accordion box-->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What types do you supply?</h4>
+                                <h4>How are custom fabricated fittings manufactured?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    We supply hollow steel bar, extruded hollow bar, oil-filled hollow bar, MS hollow bar,
-                                    and aluminium hollow square bar. All products meet ASTM, ASME, DIN, and EN standards.
+                                    They are manufactured through advanced processes such as cutting, bending, welding,
+                                    machining, and heat treatment to ensure precise dimensions, strength, and durability.
                                 </p>
                             </div>
                         </div>
                         <!--End single accordion box-->
+
 
                     </div>
                 </div>
@@ -1260,14 +1156,11 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                   For precision hollow bars for machining or structural applications:<br>Contact <strong><a
-                            href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a></strong>
+                    Need custom fabricated fittings for your pipeline or industrial project?<br>Contact
+                    <strong><a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a></strong>
                 </p>
-               <!-- Call button -->
-                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
-                    data-bs-target="#contactFormModal">
-                    Get in Touch
-                </a>
+                <!-- Call button -->
+                <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
             </div>
         </div>
     </section>

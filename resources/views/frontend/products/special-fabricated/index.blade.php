@@ -59,7 +59,7 @@
                                 {{-- <img src="https://placehold.co/600x350/db7227/fff?" class="img-fluid w-100"
                                     alt="{{ $type['name'] }}"> --}}
                                 <img src="{{ asset($type['image'] ?? 'assets/images/default.jpg') }}"
-                                    alt="{{ $type['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+                                    alt="{{ $type['name'] }}" class="img-fluid rounded " style="border-radius: 8px;">
                                 <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center"
                                     style="background: rgba(23, 66, 104, 0.65); transition: 0.3s;">
                                     <h5 class="text-white text-center fw-bold text-uppercase">{{ $type['name'] }}</h5>

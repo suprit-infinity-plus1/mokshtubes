@@ -63,6 +63,9 @@ Route::get('/products/special-fabricated/fabricated-ss-grills', [MainController:
 Route::get('/products/pipe-fittings-flanges-fasteners', [MainController::class, 'pipeFittingsFlangesFasteners'])->name('products.pipe-fittings-flanges-fasteners');
 Route::get('/products/pipe-fittings-flanges-fasteners/fittings-and-flanges', [MainController::class, 'fittingsAndFlanges'])->name('products.pipe-fittings-flanges-fasteners.fittings-and-flanges');
 Route::get('/products/pipe-fittings-flanges-fasteners/flanges-and-gaskets', [MainController::class, 'flangesAndGaskets'])->name('products.pipe-fittings-flanges-fasteners.flanges-and-gaskets');
+Route::get('/products/pipe-fittings-flanges-fasteners/custom-fabricated-fittings', [MainController::class, 'customFabricatedFittings'])->name('products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings');
+Route::get('/products/pipe-fittings-flanges-fasteners/fasteners', [MainController::class, 'fasteners'])->name('products.pipe-fittings-flanges-fasteners.fasteners');
+Route::get('/products/pipe-fittings-flanges-fasteners/pipe-fittings', [MainController::class, 'pipeFittings'])->name('products.pipe-fittings-flanges-fasteners.pipe-fittings');
 
 
 // Bars & Rods

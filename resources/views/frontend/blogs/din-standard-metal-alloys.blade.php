@@ -55,7 +55,7 @@
                                         fittings that deliver exceptional performance under demanding conditions.
                                     </p>
                                     <p>
-                                        At <strong><a href="{{ route('index') }}">Mokshtubes LLP</a></strong>, we understand
+                                        At <strong><a href="{{ route('index') }}">Mokshtubes & Fittings LLP</a></strong>, we understand
                                         these exacting requirements. Our
                                         mission
                                         centers on providing German industries with premium alloys and industrial products
@@ -472,7 +472,7 @@
                                             efficiency and sustainability, material requirements become increasingly
                                             sophisticated and demanding.
                                         <p>
-                                            Mokshtubes LLP provides German companies with world class products, complete DIN
+                                            Mokshtubes & Fittings LLP provides German companies with world class products, complete DIN
                                             compliance, and unmatched technical support. We commit to strengthening
                                             Germany's industrial future by delivering alloys and fittings that meet global
                                             standards while addressing the specific requirements of German manufacturing
@@ -662,7 +662,7 @@
                 <h2>Contact Us</h2>
                 <p>
                     Looking for a trusted DIN-standard alloy and industrial tube supplier in Germany?<br> Connect with
-                    <strong>Mokshtubes LLP</strong> today and discover how our materials can enhance your manufacturing
+                    <strong>Mokshtubes & Fittings LLP</strong> today and discover how our materials can enhance your manufacturing
                     capabilities.
                 </p>
                <!-- Call button -->

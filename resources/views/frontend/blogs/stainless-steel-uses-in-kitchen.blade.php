@@ -492,7 +492,7 @@
                 <h2>Contact Us</h2>
                 <p>
                     Looking to upgrade your kitchen or facility with stainless steel?<br> Connect with
-                    <strong>Mokshtubes LLP</strong> we help restaurants, food processors, and home chefs find the right
+                    <strong>Mokshtubes & Fittings LLP</strong> we help restaurants, food processors, and home chefs find the right
                     stainless steel solutions that last for decades. From cookware to industrial tanks, our products are
                     built for safety, performance, and peace of mind.
                 </p>

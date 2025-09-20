@@ -662,7 +662,7 @@
                 <h2>Contact Us</h2>
                 <p>
                     Looking for a trusted DIN-standard alloy and industrial tube supplier in Germany?<br> Connect with
-                    <strong>Mokshtubes LLP</strong> today and discover how our materials can enhance your manufacturing
+                    <strong>Mokshtubes & Fittings LLP</strong> today and discover how our materials can enhance your manufacturing
                     capabilities.
                 </p>
                <!-- Call button -->
