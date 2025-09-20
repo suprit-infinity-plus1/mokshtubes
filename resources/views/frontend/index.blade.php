@@ -3,7 +3,7 @@
 @section('title', 'Moksh Tubes | High-Performance Pipes & Fittings Supplier')
 @section('meta_description','Reach out to Mokshtubes Fittings & LLP for product inquiries, technical support, or custom alloy requirements. Call, email, or visit us — we’re happy to assist you.')
 @section('meta_keywords', 'Incoloy 825, nickel alloy, corrosion resistant alloy, premium metal alloys, moksh tubes')
-@section('canonical', 'https://mokshtubes.com') 
+@section('canonical', 'https://mokshtubes.com')
 @section('content')
 
     <!--Start rev slider wrapper-->
@@ -27,7 +27,7 @@
                             <p>They'll have to make the best of things its an uphill climb.<br> The weather started getting was tossed.</p>
                         </div>
                     </div>
-                    <div class="tp-caption tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="110"
+                    <div class="tp-caption tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="130"
                         data-transform_idle="o:1;"
                         data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
                         data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-splitin="none"
@@ -38,7 +38,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tp-caption tp-resizeme" data-x="left" data-hoffset="227" data-y="center" data-voffset="110"
+                    <div class="tp-caption tp-resizeme" data-x="left" data-hoffset="227" data-y="center" data-voffset="130"
                         data-transform_idle="o:1;"
                         data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
                         data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-splitin="none"
@@ -108,7 +108,7 @@
                                 getting was tossed. </p>
                         </div>
                     </div>
-                    <div class="tp-caption tp-resizeme" data-x="right" data-hoffset="390" data-y="center" data-voffset="110"
+                    <div class="tp-caption tp-resizeme" data-x="right" data-hoffset="400" data-y="center" data-voffset="110"
                         data-transform_idle="o:1;"
                         data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
                         data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-splitin="none"
@@ -119,7 +119,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tp-caption tp-resizeme" data-x="right" data-hoffset="180" data-y="center"
+                    <div class="tp-caption tp-resizeme" data-x="right" data-hoffset="190" data-y="center"
                         data-voffset="110" data-transform_idle="o:1;"
                         data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
                         data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-splitin="none"
@@ -274,7 +274,7 @@
                         <h2>Our Products</h2>
                     </div>
                 </div>
-                <div class="col-md-8 col-sm-7 col-xs-12 font-20">
+                <div class="col-md-8 col-sm-7 col-xs-12 font-20 mb-4">
                     <p>Premium Welded & Seamless Pipes, Sheets, Plates, Perforated Sheets, Round Bars, and Fasteners –
                         <strong class="text-black"> High-Quality Industrial Metal Products</strong> for Construction,
                         Manufacturing, and Engineering

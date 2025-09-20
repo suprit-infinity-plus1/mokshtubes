@@ -2,7 +2,8 @@
 
 @section('title', 'Electrolytic Copper (EC Copper) | High Purity Copper')
 @section('meta_description', 'High purity Electrolytic Copper with excellent electrical and thermal conductivity.')
-@section('meta_keywords', 'Electrolytic Copper, EC Copper, high purity copper, electrical conductivity copper, thermal
+@section('meta_keywords',
+    'Electrolytic Copper, EC Copper, high purity copper, electrical conductivity copper, thermal
     conductivity copper, industrial copper')
 
 
@@ -345,7 +346,7 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                 @foreach ($products as $product)
+                @foreach ($products as $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
                             <a href="{{ route($product['route']) }}" class="text-decoration-none">
@@ -646,9 +647,13 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    contact <strong>Moksh Tubes & Fittings LLP</strong> — for premium-quality electrolytic copper solutions.</p>
-                    <!-- Call button -->
-                    <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
+                    contact <strong>Moksh Tubes & Fittings LLP</strong> — for premium-quality electrolytic copper solutions.
+                </p>
+                <!-- Call button -->
+                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                    data-bs-target="#contactFormModal">
+                    Get in Touch
+                </a>
             </div>
         </div>
     </section>

@@ -616,8 +616,11 @@
                 <p>
                     For inquiries or to request a quote for Aluminium Alloy 6063 products, <strong>Moksh Tubes & Fittings
                         LLP</strong> your reliable partner for premium aluminium materials.</p>
-                <!-- Call button -->
-                <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
+               <!-- Call button -->
+                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                    data-bs-target="#contactFormModal">
+                    Get in Touch
+                </a>
             </div>
         </div>
     </section>

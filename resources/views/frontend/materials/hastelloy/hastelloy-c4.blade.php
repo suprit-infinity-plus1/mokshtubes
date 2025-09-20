@@ -332,10 +332,23 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                @foreach ($products as $slug => $product)
+                @foreach ($products as $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c4/') }}" class="text-decoration-none"> --}}
+                            <a href="{{ route($product['route']) }}" class="text-decoration-none">
+                                <div class="product-card h-100">
+                                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
+                                        class="img-fluid  w-100">
+                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product['name'] }}</h6>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                @endforeach
+                {{-- @foreach ($products as $slug => $product)
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
+                        <div class="mx-auto" style="width: 100%; max-width: 300px;">
+                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c4/') }}" class="text-decoration-none">
                             <a href="#" class="text-decoration-none">
                                 <div class="product-card h-100">
                                     <img src="https://placehold.co/300x200?" alt="{{ $product['name'] ?? $product->name }}"
@@ -345,7 +358,7 @@
                             </a>
                         </div>
                     </div>
-                @endforeach
+                @endforeach --}}
             </div>
         </div>
     </section>
@@ -626,8 +639,11 @@
                         C-4</strong> products.. Get expert support, certified material, and on-time delivery for all your
                     industrial needs.
                 </p>
-                <!-- Call button -->
-                <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
+               <!-- Call button -->
+                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                    data-bs-target="#contactFormModal">
+                    Get in Touch
+                </a>
             </div>
         </div>
     </section>

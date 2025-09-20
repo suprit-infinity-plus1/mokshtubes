@@ -2,7 +2,8 @@
 
 @section('title', 'EN19 Alloy Steel | Hardened Alloy Steel')
 @section('meta_description', 'EN19 Alloy Steel offering excellent hardness and strength for tools and machinery parts.')
-@section('meta_keywords', 'EN19 Alloy Steel, hardened alloy steel, high strength steel, hard alloy steel, tools steel,
+@section('meta_keywords',
+    'EN19 Alloy Steel, hardened alloy steel, high strength steel, hard alloy steel, tools steel,
     machinery parts steel, industrial alloy steel')
 
 @section('content')
@@ -51,7 +52,9 @@
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">EN 19</strong class="text-black">, is a high-tensile alloy steel
+                            <strong class="text-black">EN 19</strong class="text-black">, <a
+                                href="{{ uri('resources/views/frontend/materials/engineering-steels/engineering-steels-en8.blade.php') }}">EN8</a>
+                            is a high tensile alloy steel
                             grade with excellent strength, toughness, and wear resistance. It contains chromium and
                             molybdenum, which provide improved hardenability and high fatigue strength.<a
                                 href="{{ route('materials.engineering-Steels') }}"> EN19</a> is commonly
@@ -341,7 +344,7 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                 @foreach ($products as $product)
+                @foreach ($products as $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
                             <a href="{{ route($product['route']) }}" class="text-decoration-none">
@@ -609,7 +612,8 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    MOKSH TUBES & FITTINGS LLP is a trusted manufacturer, supplier, stockist, and exporter
+                                    <a href="{{ route('index') }}">MOKSH TUBES & FITTINGS LLP</a> is a trusted
+                                    manufacturer, supplier, stockist, and exporter
                                     of EN19 steel products, offering precision processing, CNC machining, cutting, heat
                                     treatment, and custom-tailored solutions to meet exact client requirements.
                                     The company sources certified raw materials from reputed mills and ensures strict
@@ -638,7 +642,10 @@
                     </strong> — for high-quality EN19 steel products tailored to your specifications.
                 </p>
                 <!-- Call button -->
-                <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
+                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                    data-bs-target="#contactFormModal">
+                    Get in Touch
+                </a>
             </div>
         </div>
     </section>

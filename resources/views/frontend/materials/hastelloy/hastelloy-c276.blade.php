@@ -24,7 +24,7 @@
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
-        
+
             </div>
 
             <h2 class="fw-semibold text-center mb-5" style="color: #db7227;">
@@ -53,7 +53,7 @@
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">Hastelloy C276</strong> is a nickel chromium molybdenum alloy, highly
+                            <strong class="text-black"><a href="{{ route('materials.hastelloy') }}">Hastelloy</a> C276</strong> is a nickel chromium molybdenum alloy, highly
                             resistant to both oxidizing and
                             non oxidizing acids, and provides superior defense against stress corrosion cracking and pitting
                             in chloride rich solutions. Its high chromium and molybdenum content make it an ideal choice for
@@ -64,15 +64,17 @@
                             to form and weld, and designed to minimize welding challenges, making it a versatile choice for
                             industries handling aggressive chemicals and extreme temperatures.
                         </p>
-                          <p class="fs-6 mb-4" style="text-align: justify;">
-                        <strong>Hastelloy C276</strong> (UNS N10276) is often compared with traditional steels where 
-                        <strong>density of steel</strong>, <strong>density of mild steel</strong>, and 
-                        <strong>density of carbon steel</strong> play an important role in design. While 
-                        <strong>steel material density</strong> is around <strong>7.85 g/cm³</strong>, the 
-                        <strong>Hastelloy C276 density</strong> is about <strong>8.89 g/cm³</strong>, giving it higher strength 
-                        and durability in aggressive environments. This makes <strong>C276 material</strong> one of the most 
-                        trusted alloys for industries requiring extreme corrosion resistance and mechanical reliability.
-                    </p>
+                        <p class="fs-6 mb-4" style="text-align: justify;">
+                            <strong>Hastelloy C276</strong> (UNS N10276) is often compared with traditional steels where
+                            <strong>density of steel</strong>, <strong>density of mild steel</strong>, and
+                            <strong>density of carbon steel</strong> play an important role in design. While
+                            <strong>steel material density</strong> is around <strong>7.85 g/cm³</strong>, the
+                            <strong>Hastelloy C276 density</strong> is about <strong>8.89 g/cm³</strong>, giving it higher
+                            strength
+                            and durability in aggressive environments. This makes <strong>C276 material</strong> one of the
+                            most
+                            trusted alloys for industries requiring extreme corrosion resistance and mechanical reliability.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -143,13 +145,16 @@
                             </tbody>
                         </table>
                         <p class="fs-6 text-center mt-3">
-    The unique <strong>Hastelloy C276 chemical composition</strong> provides excellent resistance against both 
-    oxidizing and reducing agents. In comparison, <strong>mild steel density</strong> and 
-    <strong>carbon steel density</strong> vary based on grade, often expressed as 
-    <strong>density of steel in kg m3</strong>, <strong>density of steel g cm3</strong>, or even 
-    <strong>density of steel lb ft3</strong>. By contrast, the <strong>Hastelloy composition</strong> balances 
-    Nickel, Chromium, and Molybdenum, which ensures superior performance where steels or other alloys may fail.
-</p>
+                            The unique <strong>Hastelloy C276 chemical composition</strong> provides excellent resistance
+                            against both
+                            oxidizing and reducing agents. In comparison, <strong>mild steel density</strong> and
+                            <strong>carbon steel density</strong> vary based on grade, often expressed as
+                            <strong>density of steel in kg m3</strong>, <strong>density of steel g cm3</strong>, or even
+                            <strong>density of steel lb ft3</strong>. By contrast, the <strong>Hastelloy
+                                composition</strong> balances
+                            Nickel, Chromium, and Molybdenum, which ensures superior performance where steels or other
+                            alloys may fail.
+                        </p>
 
                     </div>
                 </div>
@@ -431,7 +436,7 @@
                 <p class="text-center pb-3"><strong class="text-dark">HASTELLOY C-276</strong> is widely used in
                     industries where exceptional corrosion resistance and mechanical strength are critical:
                 </p>
-                
+
             </div>
 
             <div class="row g-4 justify-content-center">
@@ -506,7 +511,7 @@
                             cleaning agents.</p>
                     </div>
                 </div>
-                
+
 
                 {{-- <div class="col-md-6 col-lg-4">
                 <div class="application-card">
@@ -516,16 +521,17 @@
                 </div>
             </div> --}}
             </div>
-            <p class="text-center pb-3 my-4"><strong class="text-dark">Engineers often compare <strong>Hastelloy C22 vs C276</strong> when selecting alloys for
-        demanding projects. While both are premium <strong>hastelloy materials</strong>,
-        <strong>Alloy C276</strong> delivers better performance in chloride-rich environments,
-        high-temperature exposure, and seawater applications. This makes it highly suitable for
-        <strong>Hastelloy C276 pipe</strong>, <strong>Hastelloy tubing</strong>,
-        <strong>Hastelloy C276 plate</strong>, and <strong>Hastelloy C276 round bar</strong>,
-        outperforming traditional options like <strong>carbon steel density</strong> and
-        <strong>ss density in kg m3</strong>.
-    </p>
-       
+            <p class="text-center pb-3 my-4"><strong class="text-dark">Engineers often compare <strong>Hastelloy C22 vs
+                        C276</strong> when selecting alloys for
+                    demanding projects. While both are premium <strong>hastelloy materials</strong>,
+                    <strong>Alloy C276</strong> delivers better performance in chloride-rich environments,
+                    high-temperature exposure, and seawater applications. This makes it highly suitable for
+                    <strong>Hastelloy C276 pipe</strong>, <strong>Hastelloy tubing</strong>,
+                    <strong>Hastelloy C276 plate</strong>, and <strong>Hastelloy C276 round bar</strong>,
+                    outperforming traditional options like <strong>carbon steel density</strong> and
+                    <strong>ss density in kg m3</strong>.
+            </p>
+
         </div>
     </section>
 
@@ -607,16 +613,18 @@
                                 <h4>How does Hastelloy C-276 compare to steel in terms of density?</h4>
                             </div>
                             <div class="accord-content">
-                               <p>
-            Traditional steels such as mild steel and carbon steel typically have a 
-            <strong>density of steel</strong> around <strong>7.85 g/cm³</strong> 
-            (<strong>density of steel in kg m3</strong> ≈ 7850). Variants like 
-            <strong>density of carbon steel lb/in3</strong> or 
-            <strong>density of steel per cubic inch</strong> are often used in engineering calculations. 
-            In comparison, <strong>Hastelloy C276 density</strong> is approximately 
-            <strong>8.89 g/cm³</strong>, making it heavier but far more resistant to corrosion, stress, 
-            and extreme temperatures than conventional steel grades.
-        </p>
+                                <p>
+                                    Traditional steels such as mild steel and carbon steel typically have a
+                                    <strong>density of steel</strong> around <strong>7.85 g/cm³</strong>
+                                    (<strong>density of steel in kg m3</strong> ≈ 7850). Variants like
+                                    <strong>density of carbon steel lb/in3</strong> or
+                                    <strong>density of steel per cubic inch</strong> are often used in engineering
+                                    calculations.
+                                    In comparison, <strong>Hastelloy C276 density</strong> is approximately
+                                    <strong>8.89 g/cm³</strong>, making it heavier but far more resistant to corrosion,
+                                    stress,
+                                    and extreme temperatures than conventional steel grades.
+                                </p>
                             </div>
                         </div>
 
@@ -627,7 +635,9 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                   Yes, Hastelloy C276 is weldable using standard welding techniques like TIG and MIG. However, low carbon content and controlled heat input are recommended to maintain its corrosion resistance.
+                                    Yes, Hastelloy C276 is weldable using standard welding techniques like TIG and MIG.
+                                    However, low carbon content and controlled heat input are recommended to maintain its
+                                    corrosion resistance.
                                 </p>
                             </div>
                         </div>
@@ -646,7 +656,7 @@
                                     precision, and long term reliability in corrosive environments.
                                 </p>
                             </div>
-                            
+
                         </div>
 
                         <!-- Q5 -->
@@ -674,35 +684,38 @@
 
     
 
-   <!-- Supplier / Price Info -->
-<section>
-    <div class="container">
-        <p class="text-center">
-            Looking for reliable <strong>Hastelloy C276 suppliers</strong> or checking the 
-            <strong>Hastelloy C276 price per kg</strong> in India? 
-            <strong>Moksh Tubes & Fittings LLP</strong> offers competitive rates on 
-            <strong>Hastelloy C276 sheet</strong>, <strong>Hastelloy C276 plate</strong>, 
-            <strong>Hastelloy C276 pipe fittings</strong>, <strong>Hastelloy C276 fasteners</strong>, 
-            and <strong>Hastelloy C276 welding consumables</strong>. We also provide export-quality 
-            <strong>Hastelloy C276 round bar suppliers</strong> network for global clients.
-        </p>
-    </div>
-</section>
-
-<!-- Contact Section -->
-<section class="sec-padd-bottom">
-    <div class="container">
-        <div class="contact-cta-box">
-            <h2>Contact Us</h2>
-            <p>
-                For any inquiries or to request a quote, reach out to <strong>Moksh Tubes & Fittings LLP</strong> – your
-                trusted partner for <strong>HASTELLOY C-276</strong> products.
+    <!-- Supplier / Price Info -->
+    <section>
+        <div class="container">
+            <p class="text-center">
+                Looking for reliable <strong>Hastelloy C276 suppliers</strong> or checking the
+                <strong>Hastelloy C276 price per kg</strong> in India?
+                <strong>Moksh Tubes & Fittings LLP</strong> offers competitive rates on
+                <strong>Hastelloy C276 sheet</strong>, <strong>Hastelloy C276 plate</strong>,
+                <strong>Hastelloy C276 pipe fittings</strong>, <strong>Hastelloy C276 fasteners</strong>,
+                and <strong>Hastelloy C276 welding consumables</strong>. We also provide export-quality
+                <strong>Hastelloy C276 round bar suppliers</strong> network for global clients.
             </p>
-            <!-- Call button -->
-            <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
         </div>
-    </div>
-</section>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="sec-padd-bottom">
+        <div class="container">
+            <div class="contact-cta-box">
+                <h2>Contact Us</h2>
+                <p>
+                    For any inquiries or to request a quote, reach out to <strong>Moksh Tubes & Fittings LLP</strong> – your
+                    trusted partner for <strong>HASTELLOY C-276</strong> products.
+                </p>
+                <!-- Call button -->
+                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                    data-bs-target="#contactFormModal">
+                    Get in Touch
+                </a>
+            </div>
+        </div>
+    </section>
 
 
 

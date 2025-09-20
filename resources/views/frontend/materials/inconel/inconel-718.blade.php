@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Inconel 718 | High-Strength Alloy for Extreme Loads')
-@section('meta_description', 'Inconel 718 delivers superior tensile strength, fatigue resistance, and oxidation
+@section('meta_description',
+    'Inconel 718 delivers superior tensile strength, fatigue resistance, and oxidation
     protection—ideal for aerospace, turbines, and energy sectors.')
-@section('meta_keywords', 'Inconel 718, High-Strength Alloy, Extreme Load Alloys, Nickel Alloys, Aerospace Alloys,
+@section('meta_keywords',
+    'Inconel 718, High-Strength Alloy, Extreme Load Alloys, Nickel Alloys, Aerospace Alloys,
     Turbine Alloys, Energy Sector Alloys, Fatigue Resistant Alloys, Oxidation Resistant Alloys, Corrosion Resistant Alloys')
 
 @section('content')
@@ -50,9 +52,9 @@
 
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">INCONEL 718</strong class="text-black"> is a <a
-                                href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a>-chromium alloy
+                                href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a> chromium <a href="{{ route('materials.hastelloy') }}">alloy</a>
                             known for its excellent high strength, corrosion resistance, and weldability, particularly in
-                            high-temperature environments ranging from cryogenic up to 700°C (1290°F). A key advantage
+                            high temperature environments ranging from cryogenic up to 700°C (1290°F). A key advantage
                             of<strong class="text-black">
                                 INCONEL 718</strong> is its ability to be precipitation hardened, providing high tensile,
                             fatigue, creep,
@@ -381,15 +383,14 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                @foreach ($products as $slug => $product)
+                @foreach ($products as $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            {{-- <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none"> --}}
-                            <a href="#" class="text-decoration-none">
+                            <a href="{{ route($product['route']) }}" class="text-decoration-none">
                                 <div class="product-card h-100">
-                                    <img src="https://placehold.co/300x200?" alt="{{ $product }}"
+                                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
                                         class="img-fluid  w-100">
-                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product }}</h6>
+                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product['name'] }}</h6>
                                 </div>
                             </a>
                         </div>
@@ -701,8 +702,11 @@
                         LLP</strong> your reliable supplier of INCONEL 718 products built for precision, strength, and
                     performance in demanding applications.
                 </p>
-                <!-- Call button -->
-                <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
+               <!-- Call button -->
+                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                    data-bs-target="#contactFormModal">
+                    Get in Touch
+                </a>
             </div>
         </div>
     </section>

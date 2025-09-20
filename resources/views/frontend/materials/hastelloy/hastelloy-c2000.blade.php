@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Hastelloy C2000 | Versatile Corrosion Alloy')
-@section('meta_description', 'Hastelloy C2000 pipes, tubes & fittings with top resistance to oxidizing and reducing
+@section('meta_description',
+    'Hastelloy C2000 pipes, tubes & fittings with top resistance to oxidizing and reducing
     agents, ideal for mixed-acid chemical processing.')
-@section('meta_keywords', 'Hastelloy C2000, Corrosion Resistant Alloy, Hastelloy C2000 Pipes, Hastelloy C2000 Tubes,
+@section('meta_keywords',
+    'Hastelloy C2000, Corrosion Resistant Alloy, Hastelloy C2000 Pipes, Hastelloy C2000 Tubes,
     Hastelloy C2000 Fittings, Oxidizing Agent Resistant, Reducing Agent Resistant, Chemical Processing Alloys, Mixed-Acid
     Resistant Alloy, Industrial Corrosion Alloys')
 
@@ -325,7 +327,7 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                 @foreach ($products as $product)
+                @foreach ($products as $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
                             <a href="{{ route($product['route']) }}" class="text-decoration-none">
@@ -633,8 +635,11 @@
                     <strong>Moksh Tubes & Fittings LLP</strong> today for expert assistance and a competitive quote.
                     <strong>HASTELLOY C-2000</strong> products.
                 </p>
-                <!-- Call button -->
-                <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
+               <!-- Call button -->
+                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                    data-bs-target="#contactFormModal">
+                    Get in Touch
+                </a>
             </div>
         </div>
     </section>

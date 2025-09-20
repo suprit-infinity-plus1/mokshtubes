@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Monel 400 Alloy | Superior Corrosion Resistance & Strength')
-@section('meta_description', 'High-quality Monel 400 offers superior corrosion resistance, excellent strength, and
+@section('meta_description',
+    'High-quality Monel 400 offers superior corrosion resistance, excellent strength, and
     reliability for marine, chemical, and industrial uses.')
-@section('meta_keywords', 'Monel 400, Monel 400 Alloy, Nickel-Copper Alloy, Corrosion Resistant Alloy, High Strength
+@section('meta_keywords',
+    'Monel 400, Monel 400 Alloy, Nickel-Copper Alloy, Corrosion Resistant Alloy, High Strength
     Alloy, Marine Industry Alloys, Chemical Processing Alloys, Industrial Alloys, Impact Resistant Alloys, Durable Nickel
     Alloys')
 
@@ -40,7 +42,7 @@
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a manufacturer, supplier,
-                            exporter, importer and stockist of a variety of MONEL® 400 (UNS N04400) <a
+                            exporter, importer and stockist of a variety of MONEL 400 (UNS N04400) <a
                                 href="{{ route('products') }}">products</a> such as <a
                                 href="{{ route('products.pipes-tubes') }}">Pipes &
                                 Tubes</a>, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires, Round Bars,
@@ -51,9 +53,9 @@
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">MONEL 400</strong class="text-black"> is a solid-solution alloy of
                             nickel and copper, known for its excellent corrosion resistance, particularly in marine and
-                            chemical environments. This alloy exhibits outstanding performance in brackish and saltwater,
+                            chemical environments. This <a href="{{ route('materials.hastelloy') }}">alloy</a> exhibits outstanding performance in brackish and saltwater,
                             hydrofluoric acid, sulfuric acid, and alkali media. It offers high strength, toughness, and good
-                            weldability, making it ideal for handling corrosive and high-pressure conditions. <strong
+                            weldability, making it ideal for handling corrosive and high pressure conditions. <strong
                                 class="text-black"> <a href="{{ route('materials.monel') }}">MONEL 400</a></strong>
                             retains its mechanical properties across a wide temperature range and performs reliably in both
                             oxidizing and reducing conditions.
@@ -353,15 +355,14 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                @foreach ($products as $slug => $product)
+                @foreach ($products as $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            {{-- <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none"> --}}
-                            <a href="#" class="text-decoration-none">
+                            <a href="{{ route($product['route']) }}" class="text-decoration-none">
                                 <div class="product-card h-100">
-                                    <img src="https://placehold.co/300x200?" alt="{{ $product }}"
+                                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
                                         class="img-fluid  w-100">
-                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product }}</h6>
+                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product['name'] }}</h6>
                                 </div>
                             </a>
                         </div>
@@ -656,8 +657,11 @@
                 <p>
                     <strong>Moksh Tubes & Fittings LLP</strong> your trusted partner for MONEL 400 products.
                 </p>
-                <!-- Call button -->
-                <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
+               <!-- Call button -->
+                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                    data-bs-target="#contactFormModal">
+                    Get in Touch
+                </a>
             </div>
         </div>
     </section>

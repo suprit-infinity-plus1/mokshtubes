@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Inconel 625 | Superior Strength & Marine Protection')
-@section('meta_description', 'Inconel 625 offers unmatched fatigue, creep, and chloride resistance—perfect for
+@section('meta_description',
+    'Inconel 625 offers unmatched fatigue, creep, and chloride resistance—perfect for
     aerospace, marine, and chemical processing applications')
-@section('meta_keywords', 'Inconel 625, Superior Strength Alloy, Marine Protection Alloy, Nickel Alloys, Fatigue
+@section('meta_keywords',
+    'Inconel 625, Superior Strength Alloy, Marine Protection Alloy, Nickel Alloys, Fatigue
     Resistant Alloy, Creep Resistant Alloy, Chloride Resistant Alloy, Aerospace Alloys, Marine Industry Alloys, Chemical
     Processing Alloys, Corrosion Resistant Alloys')
 
@@ -51,9 +53,9 @@
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">INCONEL 625</strong> is a nickel-chromium-molybdenum-niobium alloy
+                            <strong class="text-black">INCONEL 625</strong> is a nickel chromium molybdenum niobium <a href="{{ route('materials.hastelloy') }}">alloy</a>
                             known for its outstanding corrosion resistance, high strength, and excellent fatigue and
-                            thermal-fatigue properties. The alloy exhibits exceptional resistance to a wide range of
+                            thermal fatigue properties. The alloy exhibits exceptional resistance to a wide range of
                             corrosive environments, including oxidizing and reducing acids, chlorides, seawater, and harsh
                             chemical media. Its high <a href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a>
                             content provides superior resistance to chloride-induced stress
@@ -381,15 +383,14 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                @foreach ($products as $slug => $product)
+                @foreach ($products as $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            {{-- <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none"> --}}
-                            <a href="#" class="text-decoration-none">
+                            <a href="{{ route($product['route']) }}" class="text-decoration-none">
                                 <div class="product-card h-100">
-                                    <img src="https://placehold.co/300x200?" alt="{{ $product }}"
+                                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
                                         class="img-fluid  w-100">
-                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product }}</h6>
+                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product['name'] }}</h6>
                                 </div>
                             </a>
                         </div>
@@ -706,8 +707,11 @@
                     <strong>Moksh Tubes & Fittings LLP</strong> for inquiries or quotes – your trusted partner for
                     world-class INCONEL 625 products.
                 </p>
-                <!-- Call button -->
-                <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
+               <!-- Call button -->
+                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                    data-bs-target="#contactFormModal">
+                    Get in Touch
+                </a>
             </div>
         </div>
     </section>

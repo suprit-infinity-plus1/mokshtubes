@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Titanium Grade 4 ELI | Extra Low Interstitial Titanium Alloy')
-@section('meta_description', 'Titanium Grade 4 ELI with enhanced purity and toughness for critical aerospace and medical
+@section('meta_description',
+    'Titanium Grade 4 ELI with enhanced purity and toughness for critical aerospace and medical
     applications.')
-@section('meta_keywords', 'Titanium Grade 4 ELI, Extra Low Interstitial Titanium, High Purity Titanium, Tough Titanium
+@section('meta_keywords',
+    'Titanium Grade 4 ELI, Extra Low Interstitial Titanium, High Purity Titanium, Tough Titanium
     Alloy, Titanium Grade 4 ELI Pipes, Titanium Grade 4 ELI Tubes, Aerospace Titanium Alloys, Medical Titanium Alloys,
     Corrosion Resistant Titanium, Industrial Titanium Grades')
 
@@ -345,7 +347,7 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                 @foreach ($products as $product)
+                @foreach ($products as $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
                             <a href="{{ route($product['route']) }}" class="text-decoration-none">
@@ -603,11 +605,16 @@
                                 <p>
                                     Titanium Grade 4 ELI is extensively used in:
                                 <ul>
-                                    <li><strong>Chemical processing:</strong> Reactors, piping systems, heat exchangers.</li>
-                                    <li><strong>Medical & surgical devices:</strong> Implants, trauma plates, surgical tools.</li>
-                                    <li><strong>Aerospace & defense:</strong> Airframes, structural supports, fluid systems.</li>
-                                    <li><strong>Marine & offshore applications:</strong> Tanks, heat exchangers, seawater systems.</li>
-                                    <li><strong>Cryogenics & power generation:</strong> Equipment exposed to extreme temperatures and
+                                    <li><strong>Chemical processing:</strong> Reactors, piping systems, heat exchangers.
+                                    </li>
+                                    <li><strong>Medical & surgical devices:</strong> Implants, trauma plates, surgical
+                                        tools.</li>
+                                    <li><strong>Aerospace & defense:</strong> Airframes, structural supports, fluid systems.
+                                    </li>
+                                    <li><strong>Marine & offshore applications:</strong> Tanks, heat exchangers, seawater
+                                        systems.</li>
+                                    <li><strong>Cryogenics & power generation:</strong> Equipment exposed to extreme
+                                        temperatures and
                                         pressures.</li>
                                 </ul>
                                 </p>
@@ -645,7 +652,10 @@
                 <p>
                     <strong>Moksh Tubes & Fittings LLP</strong> your dependable partner for Titanium Grade 4 ELI solutions.
                     <!-- Call button -->
-                    <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
+                    <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                        data-bs-target="#contactFormModal">
+                        Get in Touch
+                    </a>
             </div>
         </div>
     </section>

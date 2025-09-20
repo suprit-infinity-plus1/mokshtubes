@@ -1,9 +1,10 @@
 @extends('layouts.master')
 
-@section('title', 'Stainless Steel Pipes: Welded vs Seamless Guide | Mokshtubes')
-@section('meta_description',
-    'Compare welded vs seamless stainless steel pipes. Learn manufacturing differences,
-    strength, costs, and applications to choose the right pipe.')
+@section('title', 'Welded vs Seamless Pipes: Key Facts & Uses')
+@section('meta_description', 'Discover the differences between welded and seamless pipes, their benefits, applications,
+    and how to choose the right pipe for your project.')
+@section('meta_keywords', 'welded pipes, seamless pipes, welded vs seamless, pipe types, pipe applications, industrial
+    pipes, steel pipes, pipe benefits')
 
 
 
@@ -701,10 +702,13 @@
                                             <div class="tip-box">
                                                 <h3>ASTM Standards</h3>
                                                 <ul>
-                                                    <li><strong class="text-black">A312:</strong> Seamless and welded austenitic stainless steel pipes.</li>
-                                                    <li><strong class="text-black">A358:</strong> Welded chromium-nickel stainless pipes for high-temperature
+                                                    <li><strong class="text-black">A312:</strong> Seamless and welded
+                                                        austenitic stainless steel pipes.</li>
+                                                    <li><strong class="text-black">A358:</strong> Welded chromium-nickel
+                                                        stainless pipes for high-temperature
                                                         service.</li>
-                                                    <li><strong class="text-black">A376:</strong> Seamless pipes for high-temperature central-station service.
+                                                    <li><strong class="text-black">A376:</strong> Seamless pipes for
+                                                        high-temperature central-station service.
                                                     </li>
                                                 </ul>
                                             </div>
@@ -714,9 +718,12 @@
                                             <div class="tip-box">
                                                 <h3>International Standards</h3>
                                                 <ul>
-                                                    <li><strong class="text-black">ASME B36.19M:</strong> Stainless steel pipe dimensions and weights.</li>
-                                                    <li><strong class="text-black">EN 10216-5:</strong> European standard for stainless steel pipes.</li>
-                                                    <li><strong class="text-black">JIS G3459:</strong> Japanese industrial standard.</li>
+                                                    <li><strong class="text-black">ASME B36.19M:</strong> Stainless steel
+                                                        pipe dimensions and weights.</li>
+                                                    <li><strong class="text-black">EN 10216-5:</strong> European standard
+                                                        for stainless steel pipes.</li>
+                                                    <li><strong class="text-black">JIS G3459:</strong> Japanese industrial
+                                                        standard.</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1061,7 +1068,8 @@
                                     </div>
                                     <div class="text">
                                         <p>
-                                            The choice between <strong class="text-black">welded vs seamless stainless steel pipes</strong> ultimately depends
+                                            The choice between <strong class="text-black">welded vs seamless stainless
+                                                steel pipes</strong> ultimately depends
                                             on your specific application requirements, budget constraints, and performance
                                             expectations.
                                         </p>
@@ -1123,7 +1131,7 @@
                             </ul>
                         </div>
                         <!--End single sidebar-->
-                       <!--Start single sidebar-->
+                        <!--Start single sidebar-->
                         <div class="single-sidebar">
                             <div class="sec-title">
                                 <h3>Recent Blogs</h3>
@@ -1268,7 +1276,10 @@
                     certified products, and global support for every order, large or small.
                 </p>
                 <!-- Call button -->
-                <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
+                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                    data-bs-target="#contactFormModal">
+                    Get in Touch
+                </a>
             </div>
         </div>
     </section>

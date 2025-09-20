@@ -1,10 +1,12 @@
 @extends('layouts.master')
 
 @section('title', 'Hastelloy C-22 | Superior All-Around Corrosion-Resistant Alloy')
-@section('meta_description', 'Hastelloy C-22 pipes, tubes & fittings with unmatched resistance to oxidizing and reducing
+@section('meta_description',
+    'Hastelloy C-22 pipes, tubes & fittings with unmatched resistance to oxidizing and reducing
     agents, exceptional protection against pitting, crevice corrosion, and stress corrosion — ideal for harsh chemical and
     industrial environments.')
-@section('meta_keywords', 'Hastelloy C-22, Hastelloy C22, Corrosion Resistant Alloy, Hastelloy C22 Pipes, Hastelloy C22
+@section('meta_keywords',
+    'Hastelloy C-22, Hastelloy C22, Corrosion Resistant Alloy, Hastelloy C22 Pipes, Hastelloy C22
     Tubes, Hastelloy C22 Fittings, Pitting Resistant Alloy, Crevice Corrosion Resistant, Stress Corrosion Resistant,
     Chemical Processing Alloys, Industrial Corrosion Resistant Alloys, Durable Nickel Alloys')
 
@@ -358,15 +360,14 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                @foreach ($products as $slug => $product)
+                @foreach ($products as $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            {{-- <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none"> --}}
-                            <a href="#" class="text-decoration-none">
+                            <a href="{{ route($product['route']) }}" class="text-decoration-none">
                                 <div class="product-card h-100">
-                                    <img src="https://placehold.co/300x200?" alt="{ $product->hastelloy-c22 }}"
+                                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
                                         class="img-fluid  w-100">
-                                    <h6 class="product-card-title text-center mt-2 px-2">{ $product->hastelloy-c22 }</h6>
+                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product['name'] }}</h6>
                                 </div>
                             </a>
                         </div>

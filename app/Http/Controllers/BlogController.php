@@ -12,6 +12,15 @@ class BlogController extends Controller
         $blogsData = collect([
 
             [
+                'title' => 'Stainless Steel Uses in Kitchen & Food Industry',
+                'author' => 'Jash Jain',
+                'comments' => 16,
+                'date' => 'sep 04, 2025',
+                'image' => 'assets/images/blog/uae’s-ultimate-guide.webp',
+                'excerpt' => 'Walk into any professional kitchen, and one thing shines above',
+                'link' => route('blogs.stainless-steel-uses-in-kitchen')
+            ],
+            [
                 'title' => 'Seamless vs Welded Pipes: UAE’s Ultimate Guide',
                 'author' => 'Jash Jain',
                 'comments' => 16,

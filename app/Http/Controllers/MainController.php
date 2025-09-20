@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Illuminate\Support\Facades\Storage;
 use Illuminate\Http\Request;
 
 class MainController extends Controller
@@ -95,6 +95,11 @@ class MainController extends Controller
     {
 
         return view('frontend.blogs.uae’s-ultimate-guide');
+    }
+    public function stainlessSteelUsesInKitchen()
+    {
+
+        return view('frontend.blogs.stainless-steel-uses-in-kitchen');
     }
 
 
@@ -433,8 +438,8 @@ class MainController extends Controller
         return view('frontend.products.pipes-tubes.boiler-heat-exchanger-tubes');
     }
 
-// Special Fabricated Product
- public function specialFabricated()
+    // Special Fabricated Product
+    public function specialFabricated()
     {
         $types = [
             ['name' => 'Custom Steel Furniture', 'slug' => 'custom-steel-furniture'],
@@ -448,17 +453,50 @@ class MainController extends Controller
         return view('frontend.products.special-fabricated.index', compact('types'));
     }
 
- public function customSteelFurniture()
+    public function customSteelFurniture()
     {
         return view('frontend.products.special-fabricated.custom-steel-furniture');
     }
- public function fabricatedSsGrills()
+    public function fabricatedSsGrills()
     {
         return view('frontend.products.special-fabricated.fabricated-ss-grills');
     }
 
+    public function pipeFittingsFlangesFasteners()
+    {
+        $types = [
+            ['name' => 'Custom Steel Furniture', 'slug' => 'custom-steel-furniture'],
+            ['name' => 'Fabricated SS Grills', 'slug' => 'fabricated-ss-grills'],
+            ['name' => 'Custom Fabricated Fittings', 'slug' => 'custom-fabricated-fittings'],
+            // ['name' => 'Hollow Section Pipe', 'slug' => 'hollow-section-pipe'],
+            // ['name' => 'U-Bent Tubes', 'slug' => 'u-bent-tubes'],
+            // ['name' => 'Boiler & Heat Exchanger Tubes', 'slug' => 'boiler-heat-exchanger-tubes'],
+        ];
 
- public function barsRods()
+        return view('frontend.products.pipe-fittings-flanges-fasteners.index', compact('types'));
+    }
+    public function fittingsAndFlanges()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.fittings-and-flanges');
+    }
+    public function flangesAndGaskets()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.flanges-and-gaskets');
+    }
+    public function customFabricatedFittings()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings');
+    }
+    public function fasteners()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners');
+    }
+    public function pipeFittings()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.pipe-fittings');
+    }
+
+    public function barsRods()
     {
         $types = [
             ['name' => 'Square Bars', 'slug' => 'square-bars'],
@@ -472,29 +510,70 @@ class MainController extends Controller
         return view('frontend.products.bars-rods.index', compact('types'));
     }
 
- public function squareBars()
+    public function squareBars()
     {
         return view('frontend.products.bars-rods.square-bars');
     }
- public function threadedRods()
+    public function threadedRods()
     {
         return view('frontend.products.bars-rods.threaded-rods');
     }
- public function roundBars()
+    public function roundBars()
     {
         return view('frontend.products.bars-rods.round-bars');
     }
- public function hollowBars()
+    public function hollowBars()
     {
         return view('frontend.products.bars-rods.hollow-bars');
     }
- public function hexagonBars()
+    public function hexagonBars()
     {
         return view('frontend.products.bars-rods.hexagon-bars');
     }
- public function flatBars()
+    public function flatBars()
     {
         return view('frontend.products.bars-rods.flat-bars');
     }
 
+
+    public function downloadDatasheet()
+{
+    // Path to PDF in storage/app/public/datasheets/
+    $filePath = storage_path('app/public/datasheets/en8.pdf');
+
+    if (!file_exists($filePath)) {
+        abort(404, 'File not found');
+    }
+
+    // Return PDF as download
+    return response()->download($filePath, 'EN8_Steel_Datasheet.pdf');
 }
+}
+
+
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class LeadController extends Controller
+{
+    public function store(Request $request)
+    {
+        // Validate email
+        $request->validate([
+            'email' => 'required|email',
+        ]);
+
+        // Path to datasheet in public folder
+        $filePath = public_path('datasheets/EN8_Datasheet_v2.docx');
+
+        if (!file_exists($filePath)) {
+            return back()->with('error', 'Datasheet file not found!');
+        }
+
+        // Download the file
+        return response()->download($filePath, 'EN8_Datasheet.docx');
+    }
+}
+

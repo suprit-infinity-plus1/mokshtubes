@@ -1,10 +1,12 @@
 @extends('layouts.master')
 
 @section('title', 'Hastelloy B3 | Enhanced High-Stability Nickel Alloy')
-@section('meta_description', 'Hastelloy B3 pipes, tubes & fittings with improved thermal stability and superior
+@section('meta_description',
+    'Hastelloy B3 pipes, tubes & fittings with improved thermal stability and superior
     resistance to strong acids like hydrochloric, sulfuric, and phosphoric acid — ideal for harsh chemical processing
     environments.')
-@section('meta_keywords', 'Hastelloy B3, High Stability Nickel Alloy, Corrosion Resistant Alloy, Hastelloy B3 Pipes,
+@section('meta_keywords',
+    'Hastelloy B3, High Stability Nickel Alloy, Corrosion Resistant Alloy, Hastelloy B3 Pipes,
     Hastelloy B3 Tubes, Hastelloy B3 Fittings, Hydrochloric Acid Resistant, Sulfuric Acid Resistant, Phosphoric Acid
     Resistant, Chemical Processing Alloys, Industrial Corrosion Resistant Alloys, Durable Nickel Alloys')
 
@@ -334,15 +336,14 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                @foreach ($products as $slug => $product)
+                @foreach ($products as $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            {{-- <a href="{{ url('/materials/nickel-alloys/hastelloy-c276/') }}" class="text-decoration-none"> --}}
-                            <a href="#" class="text-decoration-none">
+                            <a href="{{ route($product['route']) }}" class="text-decoration-none">
                                 <div class="product-card h-100">
-                                    <img src="https://placehold.co/300x200?" alt="{{ $product }}"
+                                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
                                         class="img-fluid  w-100">
-                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product }}</h6>
+                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product['name'] }}</h6>
                                 </div>
                             </a>
                         </div>
@@ -617,8 +618,11 @@
                         B-3</strong> products. Get expert support, certified material, and on-time delivery for all your
                     industrial needs.
                 </p>
-                <!-- Call button -->
-                <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
+               <!-- Call button -->
+                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                    data-bs-target="#contactFormModal">
+                    Get in Touch
+                </a>
             </div>
         </div>
     </section>

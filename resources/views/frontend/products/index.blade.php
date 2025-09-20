@@ -45,7 +45,7 @@
                     ['name' => 'Pipes & Tubes', 'slug' => 'pipes-tubes'],
                     // ['name' => 'Sheets, Plates & Coils', 'slug' => 'sheets-plates-coils'],
                     ['name' => 'Bars & Rods', 'slug' => 'bars-rods'],
-                    // ['name' => 'Pipe Fittings, Flanges & Fasteners', 'slug' => 'pipe-fittings-flanges-fasteners'],
+                    ['name' => 'Pipe Fittings, Flanges & Fasteners', 'slug' => 'pipe-fittings-flanges-fasteners'],
                     ['name' => 'Special Fabricated', 'slug' => 'special-fabricated'],
                 ];
             @endphp
@@ -57,7 +57,7 @@
                         <a href="{{ url('/products/' . $product['slug']) }}" class="text-decoration-none d-block h-100">
                             <div class="product-card b  order rounded shadow-sm p-2 text-center h-100">
                                 <img style="transition: 0.3s; border: 2px solid ##db7227; rounded: 10px;"
-                                    src="https://placehold.co/370x200/db7227/fff?" class="img-fluid mb-3"
+                                    src="https://placehold.co/370x200/db7227/fff?" class="img-fluid "
                                     alt="{{ $product['name'] }}">
                                 <h5 class="fw-semibold" style="color: #174268   ;">{{ $product['name'] }}</h5>
                             </div>

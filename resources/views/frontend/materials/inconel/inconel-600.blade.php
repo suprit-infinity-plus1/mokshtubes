@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Inconel 600 | Premium Heat & Corrosion Shield')
-@section('meta_description', 'Inconel 600 delivers exceptional oxidation and corrosion resistance at high
+@section('meta_description',
+    'Inconel 600 delivers exceptional oxidation and corrosion resistance at high
     temperatures—ideal for heat exchangers, furnaces, and chemical plants.')
-@section('meta_keywords', 'Inconel 600, Premium Heat Resistant Alloy, Corrosion Resistant Alloy, Oxidation Resistant
+@section('meta_keywords',
+    'Inconel 600, Premium Heat Resistant Alloy, Corrosion Resistant Alloy, Oxidation Resistant
     Alloy, Nickel Alloys, Heat Exchanger Alloys, Furnace Alloys, Chemical Plant Alloys, High Temperature Alloys, Industrial
     Heat Resistant Alloys')
 
@@ -42,23 +44,23 @@
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a leading manufacturer,
-                            supplier, exporter, importer, and stockist of high-performance <strong
+                            supplier, exporter, importer, and stockist of high performance <strong
                                 class="text-black">INCONEL 600 (UNS N06600)</strong>
                             <a href="{{ route('products') }}">products</a>. We offer a wide range of forms including <a
                                 href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings, Flanges,
                             Fasteners, Sheets & Plates, Coils, Wires, Round Bars, Flat Bars, Angles, Channels, Welding Rods,
-                            Wire Mesh, and other custom and hard-to-find Inconel 600 products.
+                            Wire Mesh, and other custom and hard to find Inconel 600 products.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">INCONEL 600</strong class="text-black"> is a <a
-                                href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a>-chromium-iron
-                            alloy designed for service temperatures from cryogenic to elevated levels in the range of 2000°F
+                                href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a>-chromium iron
+                            <a href="{{ route('materials.hastelloy') }}">alloy</a> designed for service temperatures from cryogenic to elevated levels in the range of 2000°F
                             (1093°C). Known for its high strength and excellent oxidation and corrosion resistance,
-                            particularly in high-temperature applications,<strong class="text-black"> INCONEL 600</strong>
+                            particularly in high temperature applications,<strong class="text-black"> INCONEL 600</strong>
                             also exhibits great mechanical
-                            properties and is readily weldable and formable. It is immune to chloride-ion stress-corrosion
-                            cracking, non-magnetic, and maintains stability under both oxidizing and reducing conditions.
+                            properties and is readily weldable and formable. It is immune to chloride ion stress-corrosion
+                            cracking, non magnetic, and maintains stability under both oxidizing and reducing conditions.
                             These properties make it ideal for a variety of industries including chemical processing,
                             aerospace, marine, and heat treating equipment.
                         </p>
@@ -428,15 +430,14 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                @foreach ($products as $slug => $product)
+                @foreach ($products as $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            {{-- <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none"> --}}
-                            <a href="#" class="text-decoration-none">
+                            <a href="{{ route($product['route']) }}" class="text-decoration-none">
                                 <div class="product-card h-100">
-                                    <img src="https://placehold.co/300x200?" alt="{{ $product }}"
+                                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
                                         class="img-fluid  w-100">
-                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product }}</h6>
+                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product['name'] }}</h6>
                                 </div>
                             </a>
                         </div>
@@ -742,8 +743,11 @@
                     For inquiries or to request a quote, reach out to <strong>Moksh Tubes & Fittings LLP</strong> your
                     reliable source for INCONEL 600 products engineered for performance, precision, and reliability.
                 </p>
-                <!-- Call button -->
-                <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
+               <!-- Call button -->
+                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                    data-bs-target="#contactFormModal">
+                    Get in Touch
+                </a>
             </div>
         </div>
     </section>

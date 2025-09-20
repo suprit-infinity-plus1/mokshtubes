@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Inconel 690 | High-Chromium Corrosion Master Alloy')
-@section('meta_description', 'Inconel 690 provides outstanding resistance to oxidizing chemicals and hot gases—trusted
+@section('meta_description',
+    'Inconel 690 provides outstanding resistance to oxidizing chemicals and hot gases—trusted
     in nuclear, chemical, and thermal processing.')
-@section('meta_keywords', 'Inconel 690, High-Chromium Alloy, Corrosion Resistant Alloy, Nickel Alloys, Oxidation
+@section('meta_keywords',
+    'Inconel 690, High-Chromium Alloy, Corrosion Resistant Alloy, Nickel Alloys, Oxidation
     Resistant Alloy, Nuclear Industry Alloys, Chemical Processing Alloys, Thermal Processing Alloys, High Temperature
     Alloys, Oxidizing Chemical Resistant Alloys')
 
@@ -50,7 +52,7 @@
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">INCONEL 690</strong> is a high-chromium, nickel-based alloy known for
+                            <strong class="text-black">INCONEL 690</strong> is a high chromium, nickel based <a href="{{ route('materials.hastelloy') }}">alloy</a> known for
                             its excellent resistance to high-temperature oxidation, aqueous corrosion, and especially
                             corrosive attack by hot acidic and caustic solutions. It offers significantly improved
                             performance over INCONEL 600 due to its higher chromium content (30%), which enhances its
@@ -361,15 +363,14 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                @foreach ($products as $slug => $product)
+                @foreach ($products as $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            {{-- <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none"> --}}
-                            <a href="#" class="text-decoration-none">
+                            <a href="{{ route($product['route']) }}" class="text-decoration-none">
                                 <div class="product-card h-100">
-                                    <img src="https://placehold.co/300x200?" alt="{{ $product }}"
+                                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
                                         class="img-fluid  w-100">
-                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product }}</h6>
+                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product['name'] }}</h6>
                                 </div>
                             </a>
                         </div>
@@ -675,8 +676,11 @@
                     <strong>Moksh Tubes & Fittings LLP</strong> your trusted source for INCONEL 690 components tailored for
                     high-performance and longevity in corrosive and elevated temperature environments.
                 </p>
-                <!-- Call button -->
-                <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
+               <!-- Call button -->
+                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                    data-bs-target="#contactFormModal">
+                    Get in Touch
+                </a>
             </div>
         </div>
     </section>

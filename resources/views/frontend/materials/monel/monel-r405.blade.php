@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Monel R405 Alloy – Premium Strength & Machinability')
-@section('meta_description', 'Discover Monel R405 Alloy with superior corrosion resistance, high strength & exceptional
+@section('meta_description',
+    'Discover Monel R405 Alloy with superior corrosion resistance, high strength & exceptional
     machinability for marine, chemical & industrial success.')
-@section('meta_keywords', 'Monel R405, Monel R405 Alloy, Nickel-Copper Alloy, High Strength Alloy, Corrosion Resistant
+@section('meta_keywords',
+    'Monel R405, Monel R405 Alloy, Nickel-Copper Alloy, High Strength Alloy, Corrosion Resistant
     Alloy, Marine Industry Alloys, Chemical Processing Alloys, Oilfield Alloys, Machinable Nickel Alloys, Durable Nickel
     Alloys')
 
@@ -52,7 +54,7 @@
 
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">MONEL R405</strong class="text-black"> is a <a
-                                href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a>-copper alloy
+                                href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a> copper <a href="{{ route('materials.hastelloy') }}">alloy</a>
                             similar to Monel 400, but it is specially modified with controlled sulfur content to improve its
                             machinability. This grade is known for excellent resistance to seawater, hydrofluoric acid,
                             sulfuric acid, alkalis, and high-temperature steam. R405 retains high strength and toughness
@@ -336,15 +338,14 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                @foreach ($products as $slug => $product)
+                @foreach ($products as $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            {{-- <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none"> --}}
-                            <a href="#" class="text-decoration-none">
+                            <a href="{{ route($product['route']) }}" class="text-decoration-none">
                                 <div class="product-card h-100">
-                                    <img src="https://placehold.co/300x200?" alt="{{ $product }}"
+                                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
                                         class="img-fluid  w-100">
-                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product }}</h6>
+                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product['name'] }}</h6>
                                 </div>
                             </a>
                         </div>
@@ -679,7 +680,11 @@
                     <strong>Moksh Tubes & Fittings LLP</strong> Your source for high-performance Monel materials.
                 </p>
                 <!-- Call button -->
-                <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
+                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                    data-bs-target="#contactFormModal">
+                    Get in Touch
+                </a>
+
             </div>
         </div>
     </section>

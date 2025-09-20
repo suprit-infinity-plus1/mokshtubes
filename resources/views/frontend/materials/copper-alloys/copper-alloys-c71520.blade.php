@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Copper Alloy C71520 | High Performance Copper Nickel Alloy')
-@section('meta_description', 'Copper Nickel Alloy C71520 offering excellent corrosion resistance and durability in
+@section('meta_description',
+    'Copper Nickel Alloy C71520 offering excellent corrosion resistance and durability in
     seawater applications.')
-@section('meta_keywords', 'Copper Nickel Alloy C71520, high performance copper alloy, corrosion resistant copper nickel,
+@section('meta_keywords',
+    'Copper Nickel Alloy C71520, high performance copper alloy, corrosion resistant copper nickel,
     seawater resistant alloy, durable copper nickel alloy')
 
 
@@ -362,7 +364,7 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                 @foreach ($products as $product)
+                @foreach ($products as $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
                             <a href="{{ route($product['route']) }}" class="text-decoration-none">
@@ -655,7 +657,10 @@
                     contact <strong>Moksh Tubes & Fittings LLP</strong> — a trusted global source for
                     corrosion-resistant alloys.
                     <!-- Call button -->
-                    <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
+                    <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                        data-bs-target="#contactFormModal">
+                        Get in Touch
+                    </a>
             </div>
         </div>
     </section>

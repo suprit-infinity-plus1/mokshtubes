@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Copper Nickel Cu-Ni 70/30 | Marine Grade Alloy')
-@section('meta_description', 'Copper Nickel 70/30 alloy with superior corrosion resistance in seawater and marine
+@section('meta_description',
+    'Copper Nickel 70/30 alloy with superior corrosion resistance in seawater and marine
     environments.')
-@section('meta_keywords', 'Copper Nickel 70/30, Cu-Ni 70/30, marine grade copper alloy, seawater resistant alloy,
+@section('meta_keywords',
+    'Copper Nickel 70/30, Cu-Ni 70/30, marine grade copper alloy, seawater resistant alloy,
     corrosion resistant copper nickel, durable copper nickel')
 
 
@@ -335,7 +337,7 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                 @foreach ($products as $product)
+                @foreach ($products as $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
                             <a href="{{ route($product['route']) }}" class="text-decoration-none">
@@ -640,7 +642,10 @@
                     contact <strong>Moksh Tubes & Fittings LLP</strong> — your dependable source for
                     corrosion-resistant Cu-Ni alloys.
                     <!-- Call button -->
-                    <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
+                    <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                        data-bs-target="#contactFormModal">
+                        Get in Touch
+                    </a>
             </div>
         </div>
     </section>

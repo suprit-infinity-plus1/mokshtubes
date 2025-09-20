@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Inconel X-750 | Extreme Heat & Oxidation Defender')
-@section('meta_description', 'Inconel X-750 maintains strength and stability in extreme heat—perfect for springs,
+@section('meta_description',
+    'Inconel X-750 maintains strength and stability in extreme heat—perfect for springs,
     fasteners, and high-performance gas turbines.')
-@section('meta_keywords', 'Inconel X-750, Extreme Heat Alloys, Oxidation Resistant Alloys, High Temperature Alloys,
+@section('meta_keywords',
+    'Inconel X-750, Extreme Heat Alloys, Oxidation Resistant Alloys, High Temperature Alloys,
     Nickel Alloys, Corrosion Resistant Alloys, Inconel Springs, Inconel Fasteners, High-Performance Gas Turbine Alloys')
 
 @section('content')
@@ -50,7 +52,7 @@
 
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">INCONEL X-750</strong> is a precipitation-hardenable nickel-chromium
-                            alloy made for high-strength applications at elevated temperatures. This alloy is strengthened
+                            <a href="{{ route('materials.hastelloy') }}">alloy</a> made for high-strength applications at elevated temperatures. This alloy is strengthened
                             by additions of <a href="{{ route('materials.aluminium-Alloys') }}">aluminum</a> and <a
                                 href="{{ route('materials.titanium') }}">titanium</a>
                             and demonstrates exceptional resistance to relaxation and
@@ -352,15 +354,14 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                @foreach ($products as $slug => $product)
+                @foreach ($products as $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            {{-- <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none"> --}}
-                            <a href="#" class="text-decoration-none">
+                            <a href="{{ route($product['route']) }}" class="text-decoration-none">
                                 <div class="product-card h-100">
-                                    <img src="https://placehold.co/300x200?" alt="{{ $product }}"
+                                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
                                         class="img-fluid  w-100">
-                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product }}</h6>
+                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product['name'] }}</h6>
                                 </div>
                             </a>
                         </div>
@@ -659,8 +660,11 @@
                     <strong>Moksh Tubes & Fittings LLP</strong> your reliable partner for INCONEL X-750 products engineered
                     for durability and performance in the world’s harshest operating conditions.
                 </p>
-                <!-- Call button -->
-                <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
+               <!-- Call button -->
+                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                    data-bs-target="#contactFormModal">
+                    Get in Touch
+                </a>
             </div>
         </div>
     </section>

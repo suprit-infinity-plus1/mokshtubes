@@ -54,8 +54,8 @@
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">INCONEL 617</strong> is a nickel-chromium-cobalt-molybdenum alloy
-                            engineered for excellent high-temperature strength and outstanding resistance to oxidation and
+                            <strong class="text-black">INCONEL 617</strong> is a nickel chromium cobalt molybdenum <a href="{{ route('materials.hastelloy') }}">alloy</a>
+                            engineered for excellent high temperature strength and outstanding resistance to oxidation and
                             carburization. It offers superior metallurgical stability and resistance to a wide range of
                             corrosive environments, making it ideal for service in extreme conditions such as combustion and
                             flue gas environments. The alloy retains its mechanical properties at elevated temperatures,
@@ -350,15 +350,14 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                @foreach ($products as $slug => $product)
+                @foreach ($products as $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            {{-- <a href="{{ url('/materials/hastelloy/c22') }}" class="text-decoration-none"> --}}
-                            <a href="#" class="text-decoration-none">
+                            <a href="{{ route($product['route']) }}" class="text-decoration-none">
                                 <div class="product-card h-100">
-                                    <img src="https://placehold.co/300x200?" alt="{{ $product }}"
+                                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
                                         class="img-fluid  w-100">
-                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product }}</h6>
+                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product['name'] }}</h6>
                                 </div>
                             </a>
                         </div>
@@ -670,8 +669,11 @@
                     <strong>Moksh Tubes & Fittings LLP</strong> your trusted partner for INCONEL 617 solutions built for
                     durability, strength, and superior performance in the most demanding environments.
                 </p>
-                <!-- Call button -->
-                <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
+               <!-- Call button -->
+                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                    data-bs-target="#contactFormModal">
+                    Get in Touch
+                </a>
             </div>
         </div>
     </section>
