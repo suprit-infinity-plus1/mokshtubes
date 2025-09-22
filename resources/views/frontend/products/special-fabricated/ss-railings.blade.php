@@ -1,11 +1,9 @@
 @extends('layouts.master')
-@section('title', 'Custom Steel Furniture | Modern & Durable | Moksh Tubes')
+@section('title', 'SS Railing Design | Balcony & Staircase Railings | Moksh Tubes')
 @section('meta_description',
-    'Discover premium custom steel furniture at Moksh Tubes – durable, rust-resistant & stylish. Perfect for homes, offices, hospitality & industrial spaces.')
+    'Premium SS railing, glass railing, and staircase designs. Get durable SS balcony railings, custom stainless steel handrails & fittings at best price.')
 @section('meta_keywords',
-    'Custom Steel Furniture,Steel Furniture Manufacturers, Stainless Steel Furniture, Durable Steel
-    Furniture, Modern Steel Furniture Designs, Industrial Steel Furniture, Custom Steel Tables, Chairs, Racks, Cabinets,
-    Steel Furniture for Home & Office')
+    'SS Railing Design, Balcony Railings, Staircase Railings, Stainless Steel Handrails, Custom Stainless Steel Fittings, Glass Railing, SS Balcony Railings')
 @section('content')
     <!--Start breadcrumb area-->
 
@@ -17,7 +15,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Custom Steel Furniture</h1>
+                    <h1>SS RAILING</h1>
                 </div>
             </div>
         </div>
@@ -27,7 +25,7 @@
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Custom Steel Furniture</h2>
+                <h2 class="fw-bold" style="color: #174268;">SS RAILING</h2>
             </div>
 
             <div class="row align-items-center">
@@ -39,31 +37,15 @@
 
                 <!-- Right Content -->
                 <div class="col-md-6">
-                    <p class="fs-6 mb-3 text-justify">
-                        <strong class="text-black">Custom Steel Furniture</strong> represents the perfect balance of
-                        <strong>functionality, durability, and design
-                            innovation.</strong> Unlike mass produced pieces, custom made steel furniture is tailored to
-                        meet <strong>unique
-                            aesthetic preferences, space constraints, and functional requirements.</strong> From minimalist
-                        modern
-                        interiors to industrial style commercial setups, steel furniture has become an integral choice for
-                        architects, designers, and homeowners.
-                    </p>
-                    <p class="fs-6 mb-3 text-justify">
-                        Steel furniture is valued for its strength and longevity, offering superior performance compared to
-                        wooden or plastic alternatives. Its ability to integrate seamlessly with materials like glass, wood,
-                        and stone allows for endless design possibilities. <strong class="text-black"><a
-                                href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a></strong> brings decades of
-                        fabrication expertise to deliver furniture solutions that are structurally sound,
-                        corrosion-resistant, and visually appealing.
-                    </p>
-                    <p class="fs-6 text-justify">
-                        From elegant dining tables and sleek office desks to heavy duty industrial workstations and custom
-                        shelving units, our steel furniture is crafted with precision <a
-                            href="{{ route('materials.engineering-Steels') }}">engineering</a> and premium <a
-                            href="{{ route('materials') }}">grade
-                            materials</a> to ensure it withstands the test of time making it a long term investment for any
-                        setting.
+                  <p class="fs-6 mb-3 text-justify">
+    <strong class="text-black">Stainless Steel (SS) Railing Products</strong> are an integral part of modern architecture and interior design, offering the perfect combination of strength, style, and functionality. Known for their durability and sleek appearance, SS railing systems are widely used in residential, commercial, hospitality, and industrial projects.
+</p>
+<p class="fs-6 mb-3 text-justify">
+    Unlike traditional railing materials such as wood or mild steel, SS railings (<strong>SS railing design, SS steel railing design, SS staircase railing, SS balcony railing</strong>) provide long-lasting corrosion resistance, low maintenance, and a contemporary finish that enhances any environment. From balconies and staircases to decking and pool enclosures, stainless steel railings bring safety and elegance to every installation.
+</p>
+<p class="fs-6 text-justify">
+    <strong class="text-black"><a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a></strong>, we design and supply premium-grade <strong>SS railing products, SS with glass railing, SS and glass railing, SS steel railing with glass, and SS glass railing systems</strong> with precision, ensuring compliance with international quality standards. Our range includes modular railing systems, balusters, handrails, posts, and fittings — all crafted to meet diverse design requirements while maintaining structural integrity.
+</p>
                 </div>
             </div>
         </div>
@@ -80,46 +62,38 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Category</th>
-                                    <th>Details</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-start">
-                                <tr class="t-row">
-                                    <td>Material</td>
-                                    <td>Stainless Steel, Mild Steel, Carbon Steel, Duplex & Super Duplex Steel</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Grades</td>
-                                    <td>As per ASTM/ASME standards available in all mentioned alloys</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Dimensions</td>
-                                    <td>Fully customizable designed to suit specific client needs</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Finishes</td>
-                                    <td>Matte, Mirror, Brushed, Powder Coated, Painted, Antique Finish</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Fabrication Methods</td>
-                                    <td>CNC Cutting, Laser Cutting, TIG/MIG Welding, Polishing & Surface Treatment</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Types</td>
-                                    <td>Tables, Chairs, Cabinets, Workstations, Wardrobes, Shelves, Storage Units, Outdoor
-                                        Furniture</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Applications</td>
-                                    <td>Residential, Commercial, Industrial, Hospitality & Institutional Spaces</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Durability</td>
-                                    <td>Rust resistant, termite proof, long-lasting performance even under heavy use</td>
-                                </tr>
-                            </tbody>
+                               <tr class="t-row">
+    <th>Category</th>
+    <th>Details</th>
+</tr>
+</thead>
+<tbody class="text-start">
+    <tr class="t-row">
+        <td>Material</td>
+        <td>Stainless Steel (304, 304L, 316, 316L), Duplex & Super Duplex</td>
+    </tr>
+    <tr class="t-row">
+        <td>Grades</td>
+        <td>ASTM/ASME certified – available in all mentioned alloys</td>
+    </tr>
+    <tr class="t-row">
+        <td>Types</td>
+        <td>Modular Railings, Balusters, Handrails, Posts, Clamps, Spigots, Connectors (<strong>SS square pipe railing design, SS cable railing</strong>)</td>
+    </tr>
+    <tr class="t-row">
+        <td>Finishes</td>
+        <td>Matte, Mirror, Satin, Brushed, Powder Coated (<strong>SS railing design photo, SS railing images</strong>)</td>
+    </tr>
+    <tr class="t-row">
+        <td>Applications</td>
+        <td>Staircases, Balconies, Decks, Pool Areas, Public Spaces, Commercial Projects (<strong>balcony SS railing design, staircase SS railing design</strong>)</td>
+    </tr>
+    <tr class="t-row">
+        <td>Mounting Options</td>
+        <td>Top-Mounted, Side-Mounted, Spigot-Fitted, Glass-Supported Systems (<strong>SS glass railing balcony, SS railing with glass designs</strong>)</td>
+    </tr>
+</tbody>
+
                         </table>
 
                     </div>
@@ -138,216 +112,49 @@
             </div>
             <!-- Child Title -->
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Weight Chart</h4>
+                <h4 class="text-center mb-0" style="color: #db7227;">Stainless Steel Railing Tube Weight Chart</h4>
             </div>
 
             <div class="table-responsive">
                 <table class="table table-bordered table-striped align-middle text-center">
                     <thead class="table-dark">
-                        <tr class="t-row">
-                            <th>Furniture Type</th>
-                            <th>Section Type</th>
-                            <th>Standard Size (mm)</th>
-                            <th>Thickness Range (mm)</th>
-                            <th>Approx. Weight (kg/m)</th>
-                            <th>Usage / Remarks</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="t-row">
-                            <td rowspan="3">Chairs</td>
-                            <td>Round Tube</td>
-                            <td>Ø19 – Ø25</td>
-                            <td>1.2 – 1.5</td>
-                            <td>0.60 – 0.95</td>
-                            <td>Café chairs, dining chairs</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Square Tube</td>
-                            <td>25 × 25</td>
-                            <td>1.2 – 1.5</td>
-                            <td>0.89 – 1.10</td>
-                            <td>Frames & legs</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Flat Bar</td>
-                            <td>25 × 5</td>
-                            <td>Solid</td>
-                            <td>0.98</td>
-                            <td>Supports, braces</td>
-                        </tr>
+                        <div class="table-responsive">
+    <table class="table table-bordered table-striped align-middle">
+        <thead class="table-dark text-center">
+            <tr>
+                <th>Outside Diameter (OD) mm</th>
+                <th>Inches</th>
+                <th>1.0 mm (kg/m)</th>
+                <th>1.2 mm (kg/m)</th>
+                <th>1.5 mm (kg/m)</th>
+                <th>2.0 mm (kg/m)</th>
+                <th>2.5 mm (kg/m)</th>
+                <th>3.0 mm (kg/m)</th>
+                <th>3.5 mm (kg/m)</th>
+            </tr>
+        </thead>
+        <tbody class="text-center">
+            <tr><td>12.7</td><td>½”</td><td>0.25</td><td>0.30</td><td>0.37</td><td>0.49</td><td>0.61</td><td>0.73</td><td>0.85</td></tr>
+            <tr><td>15.88</td><td>⅝”</td><td>0.32</td><td>0.38</td><td>0.48</td><td>0.63</td><td>0.78</td><td>0.92</td><td>1.07</td></tr>
+            <tr><td>19.05</td><td>¾”</td><td>0.38</td><td>0.46</td><td>0.58</td><td>0.77</td><td>0.95</td><td>1.13</td><td>1.30</td></tr>
+            <tr><td>25.4</td><td>1”</td><td>0.51</td><td>0.59</td><td>0.72</td><td>0.95</td><td>1.17</td><td>1.39</td><td>1.60</td></tr>
+            <tr><td>31.8</td><td>1¼”</td><td>0.65</td><td>0.75</td><td>0.95</td><td>1.24</td><td>1.53</td><td>1.81</td><td>2.08</td></tr>
+            <tr><td>38.1</td><td>1½”</td><td>0.79</td><td>0.91</td><td>1.14</td><td>1.50</td><td>1.86</td><td>2.21</td><td>2.56</td></tr>
+            <tr><td>42.4</td><td>1.67”</td><td>0.88</td><td>1.02</td><td>1.28</td><td>1.68</td><td>2.07</td><td>2.46</td><td>2.84</td></tr>
+            <tr><td>48.3</td><td>1.9”</td><td>1.01</td><td>1.17</td><td>1.47</td><td>1.94</td><td>2.40</td><td>2.86</td><td>3.31</td></tr>
+            <tr><td>50.8</td><td>2”</td><td>1.05</td><td>1.22</td><td>1.53</td><td>2.00</td><td>2.47</td><td>2.93</td><td>3.38</td></tr>
+            <tr><td>63.5</td><td>2½”</td><td>1.29</td><td>1.54</td><td>1.93</td><td>2.52</td><td>3.10</td><td>3.68</td><td>4.25</td></tr>
+            <tr><td>76.2</td><td>3”</td><td>1.55</td><td>1.86</td><td>2.34</td><td>3.04</td><td>3.73</td><td>4.41</td><td>5.08</td></tr>
+            <tr><td>88.9</td><td>3½”</td><td>1.81</td><td>2.18</td><td>2.73</td><td>3.55</td><td>4.36</td><td>5.16</td><td>5.95</td></tr>
+            <tr><td>101.6</td><td>4”</td><td>2.07</td><td>2.49</td><td>3.14</td><td>4.07</td><td>5.00</td><td>5.92</td><td>6.83</td></tr>
+            <tr><td>114.3</td><td>4½”</td><td>2.34</td><td>2.81</td><td>3.55</td><td>4.60</td><td>5.65</td><td>6.69</td><td>7.73</td></tr>
+            <tr><td>127</td><td>5”</td><td>2.60</td><td>3.13</td><td>3.95</td><td>5.12</td><td>6.28</td><td>7.44</td><td>8.59</td></tr>
+            <tr><td>141.3</td><td>5½”</td><td>2.89</td><td>3.47</td><td>4.38</td><td>5.69</td><td>6.99</td><td>8.29</td><td>9.59</td></tr>
+            <tr><td>168.3</td><td>6”</td><td>3.44</td><td>4.14</td><td>5.23</td><td>6.81</td><td>8.38</td><td>9.95</td><td>11.5</td></tr>
+        </tbody>
+    </table>
+</div>
 
-                        <tr class="t-row">
-                            <td rowspan="3">Tables</td>
-                            <td>Square Tube</td>
-                            <td>40 × 40</td>
-                            <td>1.5 – 2.0</td>
-                            <td>1.50 – 2.00</td>
-                            <td>Dining & office tables</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Rectangular Tube</td>
-                            <td>50 × 25</td>
-                            <td>1.5 – 2.0</td>
-                            <td>1.38 – 1.80</td>
-                            <td>Side frames</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Sheet Top</td>
-                            <td>Custom</td>
-                            <td>1.0 – 2.0</td>
-                            <td>Varies</td>
-                            <td>Powder-coated / SS</td>
-                        </tr>
-
-                        <tr class="t-row">
-                            <td rowspan="3">Storage Racks</td>
-                            <td>Square Tube</td>
-                            <td>50 × 50</td>
-                            <td>2.0 – 3.0</td>
-                            <td>2.47 – 3.70</td>
-                            <td>Heavy-duty frames</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Rectangular Tube</td>
-                            <td>75 × 40</td>
-                            <td>2.0 – 3.0</td>
-                            <td>2.68 – 3.95</td>
-                            <td>Uprights</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Sheet Shelves</td>
-                            <td>Custom</td>
-                            <td>1.0 – 2.0</td>
-                            <td>Varies</td>
-                            <td>Solid / perforated</td>
-                        </tr>
-
-                        <tr class="t-row">
-                            <td rowspan="3">Beds (Frames)</td>
-                            <td>Square Tube</td>
-                            <td>50 × 50</td>
-                            <td>1.5 – 2.0</td>
-                            <td>1.90 – 2.47</td>
-                            <td>Main structure</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Rectangular Tube</td>
-                            <td>75 × 40</td>
-                            <td>1.5 – 2.0</td>
-                            <td>2.30 – 2.90</td>
-                            <td>Side supports</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Flat Bar</td>
-                            <td>40 × 5</td>
-                            <td>Solid</td>
-                            <td>1.57</td>
-                            <td>Reinforcement</td>
-                        </tr>
-
-                        <tr class="t-row">
-                            <td rowspan="2">Benches</td>
-                            <td>Square Tube</td>
-                            <td>40 × 40</td>
-                            <td>1.5 – 2.0</td>
-                            <td>1.50 – 2.00</td>
-                            <td>Seating frames</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Flat Bar</td>
-                            <td>50 × 6</td>
-                            <td>Solid</td>
-                            <td>2.36</td>
-                            <td>Seat slats</td>
-                        </tr>
-
-                        <tr class="t-row">
-                            <td rowspan="2">Cabinets / Lockers</td>
-                            <td>Square Tube</td>
-                            <td>25 × 25</td>
-                            <td>1.0 – 1.5</td>
-                            <td>0.75 – 1.10</td>
-                            <td>Frame</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Sheet Panels</td>
-                            <td>Custom</td>
-                            <td>0.8 – 1.2</td>
-                            <td>Varies</td>
-                            <td>Doors & sides</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
-    <section class="bg-light" style="padding-top: 80px;">
-        <div class="container">
-
-            <!-- Parent Title -->
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Storage Racks</h2>
-            </div>
-
-            <!-- Child Title -->
-            <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Expanded Table (for one item – Storage Racks)</h4>
-            </div>
-
-
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Furniture Type</th>
-                                    <th>Section Type</th>
-                                    <th>Standard Size (mm)</th>
-                                    <th>Thickness (mm)</th>
-                                    <th>Weight (kg/m)</th>
-                                    <th>Finish Options</th>
-                                    <th>Steel Grade</th>
-                                    <th>Load Capacity</th>
-                                    <th>Application</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Storage Rack</td>
-                                    <td>Square Tube</td>
-                                    <td>50 × 50</td>
-                                    <td>2.0 – 3.0</td>
-                                    <td>2.47 – 3.70</td>
-                                    <td>Powder coat / SS</td>
-                                    <td>MS / SS202</td>
-                                    <td>150–250 kg</td>
-                                    <td>Industrial / Shop</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Storage Rack</td>
-                                    <td>Rectangular</td>
-                                    <td>75 × 40</td>
-                                    <td>2.0 – 3.0</td>
-                                    <td>2.68 – 3.95</td>
-                                    <td>Painted / SS Brushed</td>
-                                    <td>MS / SS304</td>
-                                    <td>250–500 kg</td>
-                                    <td>Warehouse / Garage</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Storage Rack</td>
-                                    <td>Sheet Shelf</td>
-                                    <td>900 × 450</td>
-                                    <td>1.0 – 2.0</td>
-                                    <td>Varies</td>
-                                    <td>Powder coat / GI</td>
-                                    <td>MS / GI</td>
-                                    <td>50–150 kg</td>
-                                    <td>Home / Office</td>
-                                </tr>
-                            </tbody>
                         </table>
                     </div>
                 </div>
@@ -362,9 +169,7 @@
                 <h2>Grades Available</h2>
             </div>
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;"><strong>Custom Steel Furniture</strong> is
-                    manufactured in a wide range of grades, ensuring suitability for different applications, environments,
-                    and design goals:</h4>
+                <h4 class="text-center mb-0" style="color: #db7227;">Our SS railing products are offered in a wide selection of grades for different environments and usage:</h4>
             </div>
 
             <div class="row justify-content-center">
@@ -372,124 +177,42 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Material</th>
-                                    <th>Grades</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr class="t-row">
-                                    <td>Stainless Steel</td>
-                                    <td>304, 304L, 316, 316L, 310, 321 <br>
-                                        <small>(Corrosion resistance & sleek finishes – ideal for premium interiors and
-                                            outdoor furniture)</small>
-                                    </td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Carbon & Mild Steel</td>
-                                    <td>IS2062, ASTM A36, A106 <br>
-                                        <small>(Robust, economical furniture frames)</small>
-                                    </td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Duplex & Super Duplex</td>
-                                    <td>2205, S31803, S32750 <br>
-                                        <small>(Excellent for furniture in coastal areas or high-humidity
-                                            environments)</small>
-                                    </td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>High-Performance Alloys</td>
-                                    <td>904L, SMO 254, AL-6XN <br>
-                                        <small>(Luxury & industrial-grade furniture needing extreme durability)</small>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                               <div class="table-responsive">
+    <table class="table table-bordered table-striped align-middle">
+        <thead class="table-dark text-center">
+            <tr class="t-row">
+                <th>Category</th>
+                <th>Grades & Applications</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="t-row">
+                <td>Stainless Steel</td>
+                <td>
+                    304 – Ideal for interiors (SS 304 railing, SS hand railing design) <br>
+                    304L – Weldable, good for architectural use <br>
+                    316 – Marine-grade for outdoor & coastal areas (SS glass railing balcony, SS railing design for balcony) <br>
+                    316L – High resistance to corrosion & welding suitability
+                </td>
+            </tr>
+            <tr class="t-row">
+                <td>Duplex & Super Duplex</td>
+                <td>
+                    2205, S31803, S32750 – Maximum corrosion resistance in harsh or marine conditions <br>
+                    <small>(SS railing industrial use, long-term durability)</small>
+                </td>
+            </tr>
+            <tr class="t-row">
+                <td>Decorative & Luxury Finishes</td>
+                <td>
+                    904L, SMO 254 – For premium railing installations <br>
+                    <small>(golden SS railing, designer SS railings, luxury projects)</small>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
-    {{-- Gallery --}}
-    <section class="our-services">
-        <div class="container">
-            <div class="container">
-            </div>
-
-             <div class="row">
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}" alt="NICKLE ALLOYS">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">NICKLE ALLOYS</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}" alt="STAINLESS STEEL">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">STAINLESS STEEL</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}" alt="DUPLEX & SUPER">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">DUPLEX & SUPER</h6>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="##">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}" alt="TITANIUM ALLOYS">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4 ">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}" alt="RARE TO ALLOYS">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">RARE TO ALLOYS</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}" alt="CARBON ALLOYS">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">CARBON ALLOYS</h6>
-                        </div>
                     </div>
                 </div>
 
@@ -709,8 +432,7 @@
             <div class="section-title center">
                 <h2>Applications</h2>
                 <p class="text-center pb-3">
-                    <strong class="text-black">Custom Steel Furniture</strong> is versatile and used across a variety of
-                    industries and settings:
+                    <strong class="text-black">SS Railing Products are widely installed in:
                 </p>
             </div>
 
