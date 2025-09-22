@@ -34,9 +34,35 @@
                             'slug' => 'chequered-sheets',
                             'image' => 'assets/images/peoduct/steel-furniture/custom-steel-furniture.webp',
                         ],
-                        [
-                            'name' => 'Fabricated SS Grills',
-                            'slug' => 'fabricated-ss-grills',
+                       
+                         [
+                            'name' => 'Strips',
+                            'slug' => 'strips',
+                            'image' => 'assets/images/peoduct/seamless-pipes-2.webp',
+                        ],
+                         [
+                            'name' => 'Shim sheets',
+                            'slug' => 'shi,-sheets',
+                            'image' => 'assets/images/peoduct/seamless-pipes-2.webp',
+                        ],
+                         [
+                            'name' => 'Sheets & plates',
+                            'slug' => 'sheets-&-plates',
+                            'image' => 'assets/images/peoduct/seamless-pipes-2.webp',
+                        ],
+                         [
+                            'name' => 'Perforated sheets',
+                            'slug' => 'perforated-sheets',
+                            'image' => 'assets/images/peoduct/seamless-pipes-2.webp',
+                        ],
+                         [
+                            'name' => 'Coils',
+                            'slug' => 'coils',
+                            'image' => 'assets/images/peoduct/seamless-pipes-2.webp',
+                        ],
+                         [
+                            'name' => 'Cladded plates',
+                            'slug' => 'cladded-plates',
                             'image' => 'assets/images/peoduct/seamless-pipes-2.webp',
                         ],
                         // [
