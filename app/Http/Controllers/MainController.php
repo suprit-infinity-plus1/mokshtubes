@@ -562,7 +562,31 @@ class MainController extends Controller
     {
         return view('frontend.products.sheets-plates-coils.chequered-sheets');
     }
-
+    public function strips()
+    {
+        return view('frontend.products.sheets-plates-coils.strips');
+    }
+    public function shimsheets()
+    {
+        return view('frontend.products.sheets-plates-coils.shim-sheets');
+    }
+    public function sheetsandplates()
+    {
+        return view('frontend.products.sheets-plates-coils.sheets-and-plates');
+    }
+    public function perforatedsheets()
+    {
+        return view('frontend.products.sheets-plates-coils.perforated-sheets');
+    }
+    public function coils()
+    {
+        return view('frontend.products.sheets-plates-coils.coils');
+    }
+    public function claddedplates()
+    {
+        return view('frontend.products.sheets-plates-coils.cladded-plates');
+    }
+    
 
     public function downloadDatasheet()
 {

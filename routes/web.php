@@ -71,6 +71,12 @@ Route::get('/products/pipe-fittings-flanges-fasteners/pipe-fittings', [MainContr
 
 Route::get('/products/sheets-plates-coils', [MainController::class, 'sheetsPlatesCoils'])->name('products.sheets-plates-coils');
 Route::get('/products/sheets-plates-coils/chequered-sheets', [MainController::class, 'chequeredSheets'])->name('products.sheets-plates-coils.chequered-sheets');
+Route::get('/products/sheets-plates-coils/strips', [MainController::class, 'strips'])->name('products.sheets-plates-coils.strips');
+Route::get('/products/sheets-plates-coils/shim-sheets', [MainController::class, 'shimsheets'])->name('products.sheets-plates-coils.shim-sheets');
+Route::get('/products/sheets-plates-coils/sheets-and-plates', [MainController::class, 'sheetsandplates'])->name('products.sheets-plates-coils.sheets-and-plates');
+Route::get('/products/sheets-plates-coils/perforated-sheets', [MainController::class, 'perforatedsheets'])->name('products.sheets-plates-coils.perforated-sheets');
+Route::get('/products/sheets-plates-coils/coils', [MainController::class, 'coils'])->name('products.sheets-plates-coils.coils');
+Route::get('/products/sheets-plates-coils/cladded-plates', [MainController::class, 'claddedplates'])->name('products.sheets-plates-coils.cladded-plates');
 
 
 // Bars & Rods

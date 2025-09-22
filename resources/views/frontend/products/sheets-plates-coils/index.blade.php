@@ -42,12 +42,12 @@
                         ],
                          [
                             'name' => 'Shim sheets',
-                            'slug' => 'shi,-sheets',
+                            'slug' => 'shim-sheets',
                             'image' => 'assets/images/peoduct/seamless-pipes-2.webp',
                         ],
                          [
-                            'name' => 'Sheets & plates',
-                            'slug' => 'sheets-&-plates',
+                            'name' => 'Sheets and plates',
+                            'slug' => 'sheets-and-plates',
                             'image' => 'assets/images/peoduct/seamless-pipes-2.webp',
                         ],
                          [
