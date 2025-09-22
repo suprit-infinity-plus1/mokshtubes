@@ -461,6 +461,14 @@ class MainController extends Controller
     {
         return view('frontend.products.special-fabricated.fabricated-ss-grills');
     }
+    public function ssrailings()
+    {
+        return view('frontend.products.special-fabricated.ss-railings');
+    }
+    public function glassrailings()
+    {
+        return view('frontend.products.special-fabricated.glass-railings');
+    }
 
     public function pipeFittingsFlangesFasteners()
     {
