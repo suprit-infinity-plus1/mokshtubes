@@ -1,11 +1,9 @@
 @extends('layouts.master')
-@section('title', 'Custom Steel Furniture | Modern & Durable | Moksh Tubes')
+@section('title', 'Mokshtubes Glass Railings – Modern Designs')
 @section('meta_description',
-    'Discover premium custom steel furniture at Moksh Tubes – durable, rust-resistant & stylish. Perfect for homes, offices, hospitality & industrial spaces.')
+    'Mokshtubes offers premium glass railings for balconies, staircases & terraces. Safe, durable & elegant designs crafted for modern spaces.')
 @section('meta_keywords',
-    'Custom Steel Furniture,Steel Furniture Manufacturers, Stainless Steel Furniture, Durable Steel
-    Furniture, Modern Steel Furniture Designs, Industrial Steel Furniture, Custom Steel Tables, Chairs, Racks, Cabinets,
-    Steel Furniture for Home & Office')
+    'glass railings, balcony glass railing, staircase glass railing, terrace glass railing, frameless glass railing, stainless steel glass railing, tempered glass railing, custom glass railing, modern glass railing designs')
 @section('content')
     <!--Start breadcrumb area-->
 
@@ -17,7 +15,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Custom Steel Furniture</h1>
+                    <h1>GLASS RAILINGS</h1>
                 </div>
             </div>
         </div>
@@ -27,7 +25,7 @@
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Custom Steel Furniture</h2>
+                <h2 class="fw-bold" style="color: #174268;">GLASS RAILINGS</h2>
             </div>
 
             <div class="row align-items-center">
@@ -40,30 +38,21 @@
                 <!-- Right Content -->
                 <div class="col-md-6">
                     <p class="fs-6 mb-3 text-justify">
-                        <strong class="text-black">Custom Steel Furniture</strong> represents the perfect balance of
-                        <strong>functionality, durability, and design
-                            innovation.</strong> Unlike mass produced pieces, custom made steel furniture is tailored to
-                        meet <strong>unique
-                            aesthetic preferences, space constraints, and functional requirements.</strong> From minimalist
-                        modern
-                        interiors to industrial style commercial setups, steel furniture has become an integral choice for
-                        architects, designers, and homeowners.
-                    </p>
-                    <p class="fs-6 mb-3 text-justify">
-                        Steel furniture is valued for its strength and longevity, offering superior performance compared to
-                        wooden or plastic alternatives. Its ability to integrate seamlessly with materials like glass, wood,
-                        and stone allows for endless design possibilities. <strong class="text-black"><a
-                                href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a></strong> brings decades of
-                        fabrication expertise to deliver furniture solutions that are structurally sound,
-                        corrosion-resistant, and visually appealing.
-                    </p>
-                    <p class="fs-6 text-justify">
-                        From elegant dining tables and sleek office desks to heavy duty industrial workstations and custom
-                        shelving units, our steel furniture is crafted with precision <a
-                            href="{{ route('materials.engineering-Steels') }}">engineering</a> and premium <a
-                            href="{{ route('materials') }}">grade
-                            materials</a> to ensure it withstands the test of time making it a long term investment for any
-                        setting.
+    Glass railings are the epitome of modern architectural design, offering an elegant balance between safety,
+    transparency, and sophistication. Used widely in residential, commercial, and hospitality spaces, glass railings
+    bring a sleek and contemporary aesthetic that complements any environment.
+</p>
+<p class="fs-6 mb-3 text-justify">
+    Unlike traditional railing systems, glass railings create an open, airy feel by allowing uninterrupted views,
+    making spaces look larger and more refined. Whether for a balcony, staircase, terrace, or poolside area, they
+    combine functionality and style while maintaining the highest standards of safety and durability.
+</p>
+<p class="fs-6 text-justify">
+    <strong class="text-black">Moksh Tubes & Fittings LLP</strong>, we specialize in designing and fabricating custom
+    glass railing systems using high-quality tempered and laminated glass, paired with premium stainless steel or
+    aluminium hardware. Every railing solution is crafted to meet structural safety requirements while achieving a
+    flawless aesthetic appeal.
+</p>
                 </div>
             </div>
         </div>
@@ -88,36 +77,35 @@
                             <tbody class="text-start">
                                 <tr class="t-row">
                                     <td>Material</td>
-                                    <td>Stainless Steel, Mild Steel, Carbon Steel, Duplex & Super Duplex Steel</td>
+                                    <td>Toughened Glass, Laminated Glass, Stainless Steel (304, 316), Aluminium</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Grades</td>
-                                    <td>As per ASTM/ASME standards available in all mentioned alloys</td>
+                                    <td>Stainless Steel: 304, 316 for coastal and outdoor applications</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Dimensions</td>
-                                    <td>Fully customizable designed to suit specific client needs</td>
+                                    <td>Glass Thickness</td>
+                                    <td>10 mm to 20 mm (custom options available)</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Finishes</td>
-                                    <td>Matte, Mirror, Brushed, Powder Coated, Painted, Antique Finish</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Fabrication Methods</td>
-                                    <td>CNC Cutting, Laser Cutting, TIG/MIG Welding, Polishing & Surface Treatment</td>
+                                    <td>Clear, Frosted, Tinted, Etched, Sandblasted Designs</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Types</td>
-                                    <td>Tables, Chairs, Cabinets, Workstations, Wardrobes, Shelves, Storage Units, Outdoor
-                                        Furniture</td>
+                                    <td>Frameless Glass Railings, Semi-Framed Railings, Full-Framed Railings, Post-Mounted, Spigot-Mounted</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Hardware</td>
+                                    <td>Stainless Steel Clamps, Spigots, Posts, Handrails, Channels</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Applications</td>
-                                    <td>Residential, Commercial, Industrial, Hospitality & Institutional Spaces</td>
+                                    <td>Balconies, Staircases, Terraces, Poolside Railings, Corporate Spaces, Showrooms, Hotels</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Durability</td>
-                                    <td>Rust resistant, termite proof, long-lasting performance even under heavy use</td>
+                                    <td>Impact-resistant, weather-proof, and engineered for safety</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -138,145 +126,146 @@
             </div>
             <!-- Child Title -->
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Weight Chart</h4>
+                <h4 class="text-center mb-0" style="color: #db7227;">Glass Railing Pipe Weight Chart</h4>
             </div>
 
             <div class="table-responsive">
                 <table class="table table-bordered table-striped align-middle text-center">
-                    <thead class="table-dark">
-                        <tr class="t-row">
-                            <th>Furniture Type</th>
-                            <th>Section Type</th>
-                            <th>Standard Size (mm)</th>
-                            <th>Thickness Range (mm)</th>
-                            <th>Approx. Weight (kg/m)</th>
-                            <th>Usage / Remarks</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="t-row">
-                            <td rowspan="3">Chairs</td>
-                            <td>Round Tube</td>
-                            <td>Ø19 – Ø25</td>
-                            <td>1.2 – 1.5</td>
-                            <td>0.60 – 0.95</td>
-                            <td>Café chairs, dining chairs</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Square Tube</td>
-                            <td>25 × 25</td>
-                            <td>1.2 – 1.5</td>
-                            <td>0.89 – 1.10</td>
-                            <td>Frames & legs</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Flat Bar</td>
-                            <td>25 × 5</td>
-                            <td>Solid</td>
-                            <td>0.98</td>
-                            <td>Supports, braces</td>
-                        </tr>
-
-                        <tr class="t-row">
-                            <td rowspan="3">Tables</td>
-                            <td>Square Tube</td>
-                            <td>40 × 40</td>
-                            <td>1.5 – 2.0</td>
-                            <td>1.50 – 2.00</td>
-                            <td>Dining & office tables</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Rectangular Tube</td>
-                            <td>50 × 25</td>
-                            <td>1.5 – 2.0</td>
-                            <td>1.38 – 1.80</td>
-                            <td>Side frames</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Sheet Top</td>
-                            <td>Custom</td>
-                            <td>1.0 – 2.0</td>
-                            <td>Varies</td>
-                            <td>Powder-coated / SS</td>
-                        </tr>
-
-                        <tr class="t-row">
-                            <td rowspan="3">Storage Racks</td>
-                            <td>Square Tube</td>
-                            <td>50 × 50</td>
-                            <td>2.0 – 3.0</td>
-                            <td>2.47 – 3.70</td>
-                            <td>Heavy-duty frames</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Rectangular Tube</td>
-                            <td>75 × 40</td>
-                            <td>2.0 – 3.0</td>
-                            <td>2.68 – 3.95</td>
-                            <td>Uprights</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Sheet Shelves</td>
-                            <td>Custom</td>
-                            <td>1.0 – 2.0</td>
-                            <td>Varies</td>
-                            <td>Solid / perforated</td>
-                        </tr>
-
-                        <tr class="t-row">
-                            <td rowspan="3">Beds (Frames)</td>
-                            <td>Square Tube</td>
-                            <td>50 × 50</td>
-                            <td>1.5 – 2.0</td>
-                            <td>1.90 – 2.47</td>
-                            <td>Main structure</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Rectangular Tube</td>
-                            <td>75 × 40</td>
-                            <td>1.5 – 2.0</td>
-                            <td>2.30 – 2.90</td>
-                            <td>Side supports</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Flat Bar</td>
-                            <td>40 × 5</td>
-                            <td>Solid</td>
-                            <td>1.57</td>
-                            <td>Reinforcement</td>
-                        </tr>
-
-                        <tr class="t-row">
-                            <td rowspan="2">Benches</td>
-                            <td>Square Tube</td>
-                            <td>40 × 40</td>
-                            <td>1.5 – 2.0</td>
-                            <td>1.50 – 2.00</td>
-                            <td>Seating frames</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Flat Bar</td>
-                            <td>50 × 6</td>
-                            <td>Solid</td>
-                            <td>2.36</td>
-                            <td>Seat slats</td>
-                        </tr>
-
-                        <tr class="t-row">
-                            <td rowspan="2">Cabinets / Lockers</td>
-                            <td>Square Tube</td>
-                            <td>25 × 25</td>
-                            <td>1.0 – 1.5</td>
-                            <td>0.75 – 1.10</td>
-                            <td>Frame</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>Sheet Panels</td>
-                            <td>Custom</td>
-                            <td>0.8 – 1.2</td>
-                            <td>Varies</td>
-                            <td>Doors & sides</td>
-                        </tr>
+                   <thead class="table-dark">
+            <tr>
+                <th>Nominal Bore (mm)</th>
+                <th>Inches</th>
+                <th>OD (mm)</th>
+                <th>1.0 mm Wt</th>
+                <th>1.2 mm Wt</th>
+                <th>1.5 mm Wt</th>
+                <th>2.0 mm Wt</th>
+                <th>2.5 mm Wt</th>
+                <th>3.0 mm Wt</th>
+                <th>3.5 mm Wt</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>12</td>
+                <td>½”</td>
+                <td>12.7</td>
+                <td>0.25</td>
+                <td>0.30</td>
+                <td>0.37</td>
+                <td>0.49</td>
+                <td>0.61</td>
+                <td>0.73</td>
+                <td>0.85</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>¾”</td>
+                <td>19.05</td>
+                <td>0.38</td>
+                <td>0.46</td>
+                <td>0.58</td>
+                <td>0.77</td>
+                <td>0.95</td>
+                <td>1.13</td>
+                <td>1.30</td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>1”</td>
+                <td>25.4</td>
+                <td>0.51</td>
+                <td>0.59</td>
+                <td>0.72</td>
+                <td>0.95</td>
+                <td>1.17</td>
+                <td>1.39</td>
+                <td>1.60</td>
+            </tr>
+            <tr>
+                <td>32</td>
+                <td>1¼”</td>
+                <td>31.8</td>
+                <td>0.65</td>
+                <td>0.77</td>
+                <td>0.96</td>
+                <td>1.27</td>
+                <td>1.58</td>
+                <td>1.88</td>
+                <td>2.18</td>
+            </tr>
+            <tr>
+                <td>38</td>
+                <td>1½”</td>
+                <td>38.1</td>
+                <td>0.79</td>
+                <td>0.91</td>
+                <td>1.14</td>
+                <td>1.50</td>
+                <td>1.86</td>
+                <td>2.21</td>
+                <td>2.56</td>
+            </tr>
+            <tr>
+                <td>50</td>
+                <td>2”</td>
+                <td>50.8</td>
+                <td>1.05</td>
+                <td>1.22</td>
+                <td>1.53</td>
+                <td>2.00</td>
+                <td>2.47</td>
+                <td>2.93</td>
+                <td>3.38</td>
+            </tr>
+            <tr>
+                <td>63</td>
+                <td>2½”</td>
+                <td>63.5</td>
+                <td>1.29</td>
+                <td>1.54</td>
+                <td>1.93</td>
+                <td>2.52</td>
+                <td>3.10</td>
+                <td>3.68</td>
+                <td>4.25</td>
+            </tr>
+            <tr>
+                <td>76</td>
+                <td>3”</td>
+                <td>76.2</td>
+                <td>1.55</td>
+                <td>1.86</td>
+                <td>2.34</td>
+                <td>3.04</td>
+                <td>3.73</td>
+                <td>4.41</td>
+                <td>5.08</td>
+            </tr>
+            <tr>
+                <td>89</td>
+                <td>3½”</td>
+                <td>88.9</td>
+                <td>1.81</td>
+                <td>2.17</td>
+                <td>2.72</td>
+                <td>3.53</td>
+                <td>4.34</td>
+                <td>5.14</td>
+                <td>5.94</td>
+            </tr>
+            <tr>
+                <td>101</td>
+                <td>4”</td>
+                <td>101.6</td>
+                <td>2.07</td>
+                <td>2.49</td>
+                <td>3.12</td>
+                <td>4.05</td>
+                <td>4.98</td>
+                <td>5.90</td>
+                <td>6.82</td>
+            </tr>
                     </tbody>
                 </table>
             </div>
@@ -287,12 +276,12 @@
 
             <!-- Parent Title -->
             <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Storage Racks</h2>
+                <h2 class="fw-bold" style="color: #174268;">Weight Chart </h2>
             </div>
 
             <!-- Child Title -->
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Expanded Table (for one item – Storage Racks)</h4>
+                <h4 class="text-center mb-0" style="color: #db7227;">Glass Railing Weight Chart (kg/m²)</h4>
             </div>
 
 
@@ -302,51 +291,95 @@
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Furniture Type</th>
-                                    <th>Section Type</th>
-                                    <th>Standard Size (mm)</th>
-                                    <th>Thickness (mm)</th>
-                                    <th>Weight (kg/m)</th>
-                                    <th>Finish Options</th>
-                                    <th>Steel Grade</th>
-                                    <th>Load Capacity</th>
-                                    <th>Application</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Storage Rack</td>
-                                    <td>Square Tube</td>
-                                    <td>50 × 50</td>
-                                    <td>2.0 – 3.0</td>
-                                    <td>2.47 – 3.70</td>
-                                    <td>Powder coat / SS</td>
-                                    <td>MS / SS202</td>
-                                    <td>150–250 kg</td>
-                                    <td>Industrial / Shop</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Storage Rack</td>
-                                    <td>Rectangular</td>
-                                    <td>75 × 40</td>
-                                    <td>2.0 – 3.0</td>
-                                    <td>2.68 – 3.95</td>
-                                    <td>Painted / SS Brushed</td>
-                                    <td>MS / SS304</td>
-                                    <td>250–500 kg</td>
-                                    <td>Warehouse / Garage</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Storage Rack</td>
-                                    <td>Sheet Shelf</td>
-                                    <td>900 × 450</td>
-                                    <td>1.0 – 2.0</td>
-                                    <td>Varies</td>
-                                    <td>Powder coat / GI</td>
-                                    <td>MS / GI</td>
-                                    <td>50–150 kg</td>
-                                    <td>Home / Office</td>
-                                </tr>
+                                  <th>Glass Type</th>
+            <th>Thickness (mm)</th>
+            <th>Weight (kg/m²)</th>
+            <th>Weight (per 1.2m × 1.0m panel)</th>
+            <th>Weight (per 1.5m × 1.2m panel)</th>
+            <th>Weight (per 2.0m × 1.2m panel)</th>
+        </tr>
+    </thead>
+    <tbody class="text-center">
+        <tr class="t-row">
+            <td>Toughened</td>
+            <td>6</td>
+            <td>15.0</td>
+            <td>18.0</td>
+            <td>27.0</td>
+            <td>36.0</td>
+        </tr>
+        <tr class="t-row">
+            <td>Toughened</td>
+            <td>8</td>
+            <td>20.0</td>
+            <td>24.0</td>
+            <td>36.0</td>
+            <td>48.0</td>
+        </tr>
+        <tr class="t-row">
+            <td>Toughened</td>
+            <td>10</td>
+            <td>25.0</td>
+            <td>30.0</td>
+            <td>45.0</td>
+            <td>60.0</td>
+        </tr>
+        <tr class="t-row">
+            <td>Toughened</td>
+            <td>12</td>
+            <td>30.0</td>
+            <td>36.0</td>
+            <td>54.0</td>
+            <td>72.0</td>
+        </tr>
+        <tr class="t-row">
+            <td>Toughened</td>
+            <td>15</td>
+            <td>37.5</td>
+            <td>45.0</td>
+            <td>67.5</td>
+            <td>90.0</td>
+        </tr>
+        <tr class="t-row">
+            <td>Toughened</td>
+            <td>19</td>
+            <td>47.5</td>
+            <td>57.0</td>
+            <td>85.5</td>
+            <td>114.0</td>
+        </tr>
+        <tr class="t-row">
+            <td>Laminated (6+6)</td>
+            <td>12</td>
+            <td>30.0</td>
+            <td>36.0</td>
+            <td>54.0</td>
+            <td>72.0</td>
+        </tr>
+        <tr class="t-row">
+            <td>Laminated (8+8)</td>
+            <td>16</td>
+            <td>40.0</td>
+            <td>48.0</td>
+            <td>72.0</td>
+            <td>96.0</td>
+        </tr>
+        <tr class="t-row">
+            <td>Laminated (10+10)</td>
+            <td>20</td>
+            <td>50.0</td>
+            <td>60.0</td>
+            <td>90.0</td>
+            <td>120.0</td>
+        </tr>
+        <tr class="t-row">
+            <td>Laminated (12+12)</td>
+            <td>24</td>
+            <td>60.0</td>
+            <td>72.0</td>
+            <td>108.0</td>
+            <td>144.0</td>
+        </tr>
                             </tbody>
                         </table>
                     </div>
@@ -362,9 +395,8 @@
                 <h2>Grades Available</h2>
             </div>
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;"><strong>Custom Steel Furniture</strong> is
-                    manufactured in a wide range of grades, ensuring suitability for different applications, environments,
-                    and design goals:</h4>
+                <h4 class="text-center mb-0" style="color: #db7227;"><strong>Our Glass Railing Systems</strong> are paired with premium-grade materials for strength, durability, and longevity — ensuring safety and modern aesthetics for every application.
+</h4>
             </div>
 
             <div class="row justify-content-center">
@@ -379,31 +411,21 @@
                             </thead>
                             <tbody>
                                 <tr class="t-row">
-                                    <td>Stainless Steel</td>
-                                    <td>304, 304L, 316, 316L, 310, 321 <br>
-                                        <small>(Corrosion resistance & sleek finishes – ideal for premium interiors and
-                                            outdoor furniture)</small>
+                                    <td>Stainless Steel Hardware</td>
+                                    <td>304 (for interiors) and 316 (marine-grade for outdoor & coastal use)
                                     </td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Carbon & Mild Steel</td>
-                                    <td>IS2062, ASTM A36, A106 <br>
-                                        <small>(Robust, economical furniture frames)</small>
+                                    <td>Glass Types</td>
+                                    <td>Tempered Glass, Laminated Safety Glass, Heat-Soaked Glass
                                     </td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Duplex & Super Duplex</td>
-                                    <td>2205, S31803, S32750 <br>
-                                        <small>(Excellent for furniture in coastal areas or high-humidity
-                                            environments)</small>
+                                    <td>Special Options</td>
+                                    <td>Custom coatings, UV-protected glass, and designer etched finishes
                                     </td>
                                 </tr>
-                                <tr class="t-row">
-                                    <td>High-Performance Alloys</td>
-                                    <td>904L, SMO 254, AL-6XN <br>
-                                        <small>(Luxury & industrial-grade furniture needing extreme durability)</small>
-                                    </td>
-                                </tr>
+                               
                             </tbody>
                         </table>
                     </div>
@@ -709,9 +731,7 @@
             <div class="section-title center">
                 <h2>Applications</h2>
                 <p class="text-center pb-3">
-                    <strong class="text-black">Custom Steel Furniture</strong> is versatile and used across a variety of
-                    industries and settings:
-                </p>
+                    <strong class="text-black">Glass Railings</strong> widely used across multiple sectors for both functional and decorative purposes:</p>
             </div>
 
             <div class="row g-4">
@@ -722,8 +742,9 @@
                         </div>
                         <h5>Residential</h5>
                         <ul>
-                            <li>Dining tables, kitchen islands, beds, wardrobes, and storage cabinets</li>
-                            <li>Outdoor furniture built to withstand sun, rain, and weather changes</li>
+                            <li>Balcony glass railings for modern apartments and villas</li>
+                            <li>Staircase glass railings with wooden or stainless-steel handrails</li>
+                            <li>Terrace and deck railings for open, panoramic views</li>
                         </ul>
                     </div>
                 </div>
@@ -733,10 +754,11 @@
                         <div class="application-icon">
                             <i class="bi bi-buildings"></i>
                         </div>
-                        <h5>Commercial</h5>
+                        <h5>Commercial & Corporate Spaces</h5>
                         <ul>
-                            <li>Modular office desks, shelving units, reception counters, and filing cabinets</li>
-                            <li>Conference tables, workstations, and display furniture for retail</li>
+                            <li>Office lobbies, atriums, and conference areas</li>
+                            <li>Retail showrooms and shopping malls</li>
+                            <li>Airports, hospitals, and educational institutions</li>
                         </ul>
                     </div>
                 </div>
@@ -746,10 +768,11 @@
                         <div class="application-icon">
                             <i class="bi bi-cup-straw"></i>
                         </div>
-                        <h5>Hospitality</h5>
+                        <h5>Hospitality & Luxury Spaces</h5>
                         <ul>
-                            <li>Restaurant tables, bar counters, café seating, and outdoor dining furniture</li>
-                            <li>Hotel room wardrobes, luggage racks, and custom-designed furniture</li>
+                            <li>Hotels, resorts, and spa areas</li>
+                            <li>Poolside glass railings for safety and elegance</li>
+                            <li>Restaurants and rooftop bars with uninterrupted views</li>
                         </ul>
                     </div>
                 </div>
@@ -759,26 +782,15 @@
                         <div class="application-icon">
                             <i class="bi bi-gear-wide-connected"></i>
                         </div>
-                        <h5>Industrial & Workshop</h5>
+                        <h5>Outdoor & Landscape Use</h5>
                         <ul>
-                            <li>Heavy-duty workbenches, tool storage systems, and fabrication tables</li>
-                            <li>Warehouse shelving, carts, and custom-built organizational racks</li>
+                            <li>Garden and patio enclosures</li>
+                            <li>Yacht and marina installations using marine-grade fittings</li>
                         </ul>
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-6">
-                    <div class="application-card">
-                        <div class="application-icon">
-                            <i class="bi bi-mortarboard-fill"></i>
-                        </div>
-                        <h5>Institutional</h5>
-                        <ul>
-                            <li>School and university furniture, library shelves, and laboratory tables</li>
-                            <li>Hostel and dormitory steel furniture solutions</li>
-                        </ul>
-                    </div>
-                </div>
+                
             </div>
             {{-- <p class="text-center pb-3 my-4"><strong class="text-dark">HASTELLOY C-276's</strong> unique combination of
                 corrosion resistance, weldability, and mechanical durability makes it a reliable material for
@@ -792,11 +804,11 @@
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
-                <h2>Uses of Custom Steel Furniture</h2>
+                <h2>Uses of Glass Railings</h2>
             </div>
             <!-- Child Title -->
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Custom Steel Furniture are used extensively
+                <h4 class="text-center mb-0" style="color: #db7227;">Glass Railings are used extensively
                     across multiple
                     industries, including:</h4>
             </div>
@@ -805,31 +817,31 @@
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-palette-fill"></i></div>
                         <h4>Aesthetic Appeal</h4>
-                        <h5>Enhances aesthetic appeal while ensuring strength and longevity</h5>
+                        <h5>Creates a modern, open aesthetic in residential and commercial projects</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
-                        <h4>Heavy-Duty Support</h4>
-                        <h5>Provides heavy-duty support in industrial and commercial settings</h5>
+                        <h4>Unobstructed Safety</h4>
+                        <h5>Provides reliable safety without blocking the view</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-layers-half"></i></div>
-                        <h4>Design Flexibility</h4>
-                        <h5>Offers design flexibility, integrating with wood, glass, or stone</h5>
+                        <h4>Natural Light Flow</h4>
+                        <h5>Enhances brightness and openness by maximizing natural light</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-hospital"></i></div>
-                        <h4>Hygienic Applications</h4>
-                        <h5>Suitable for hygienic environments like restaurants and hospitals</h5>
+                        <h4>Design Flexibility</h4>
+                        <h5>Customizable to match diverse architectural themes and styles</h5>
                     </div>
                 </div>
 
@@ -837,8 +849,8 @@
                 <div class="col-sm-12 col-lg-6">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-lock-fill"></i></div>
-                        <h4>Safety & Durability</h4>
-                        <h5>Ensures long-term durability with high safety standards in all applications</h5>
+                        <h4>Versatile Applications</h4>
+                        <h5>Ideal for both indoor and outdoor use in balconies, staircases, pools, and terraces</h5>
                     </div>
                 </div>
             </div>
@@ -848,62 +860,142 @@
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
-                <h2>Advantages of Custom Steel Furniture</h2>
+                <h2>Advantages of Glass Railings</h2>
             </div>
 
             <div class="row g-4 mt-4">
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-cash-coin"></i></div>
-                        <h4>Cost-Effective Investment</h4>
-                        <h5>Outlasts wooden and plastic furniture, reducing replacement costs.</h5>
+                        <h4>Sleek, Modern Appeal </h4>
+                        <h5>Adds elegance and value to properties</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h4>Corrosion & Termite Resistance</h4>
-                        <h5>Ideal for humid, coastal, and pest-prone environments.</h5>
+                        <h4>Durable & Safe</h4>
+                        <h5>Tempered and laminated glass ensures high impact resistance</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-recycle"></i></div>
-                        <h4>Eco-Friendly Choice</h4>
-                        <h5>Made from recyclable steel, supporting sustainability.</h5>
+                        <h4>Low Maintenance</h4>
+                        <h5>Easy to clean and does not corrode or rust</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-brush"></i></div>
-                        <h4>Design Versatility</h4>
-                        <h5>Can be shaped into modern, industrial, or classic designs to match décor.</h5>
+                        <h4>Versatile Design Options</h4>
+                        <h5>Frameless, semi-framed, or fully framed</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-bucket"></i></div>
-                        <h4>Low Maintenance</h4>
-                        <h5>Easy to clean, requiring minimal upkeep compared to other materials.</h5>
+                        <h4>Customizable Finishes</h4>
+                        <h5> Clear, frosted, tinted, or patterned glass</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-box-seam"></i></div>
-                        <h4>Heavy Load-Bearing Capacity</h4>
-                        <h5>Perfect for residential, industrial, and commercial use.</h5>
+                        <h4>Long-Term Investment</h4>
+                        <h5> Enhances property aesthetics and market value</h5>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+<!--Start faq content area-->
+    <section class="faq-content-area sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>Frequently Asked Questions (FAQs) – Glass Railings</h2>
+                        </div>
 
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Are glass railings safe for balconies and staircases?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Yes. When installed with toughened or laminated glass and secured with strong stainless steel hardware, glass railings are completely safe for residential and commercial use.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What thickness of glass is recommended for railings?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                   The standard thickness is 8 mm to 12 mm toughened glass. For higher safety and strength, laminated glass (10 mm + 10 mm) is used in heavy-duty applications.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Do glass railings require a lot of maintenance?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                     No. Glass railings are easy to maintain—just regular cleaning with mild soap and water keeps them clear and shiny. Stainless steel or aluminium hardware also requires minimal upkeep.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Can glass railings withstand outdoor weather?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Yes. Toughened glass and 304/316 stainless steel hardware are corrosion-resistant and designed to handle rain, sun, and humidity without losing strength or appearance.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is the average lifespan of glass railings?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    With proper installation and minimal maintenance, glass railings can last 15–20 years or more without any issues.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                         </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
 
     {{-- why choose us --}}
     <section class="sec-padd-top sec-padd-bottom bg-light">
@@ -916,207 +1008,49 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Expertise in Fabrication: Decades of experience in crafting high-quality steel furniture.</h5>
+                        <h5>Precision Engineering: Every railing system is crafted with safety and style in mind.</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-brush-fill"></i></div>
-                        <h5>Custom Design Solutions: From concept to completion, we deliver furniture tailored to your
-                            vision.</h5>
+                        <h5>Customization: From frameless elegance to bold designer styles.</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-gem"></i></div>
-                        <h5>Premium Material Selection: Only certified steel grades are used for superior quality.</h5>
+                        <h5>Premium Materials: Only certified glass and stainless steel fittings are used.</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Global Reach & Timely Delivery: Supplying projects across India and worldwide.</h5>
+                        <h5>Global Supply: Serving residential, commercial, and hospitality projects worldwide.</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-12 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-currency-rupee"></i></div>
-                        <h5>Competitive Pricing: Affordable solutions without compromising quality or craftsmanship.</h5>
+                        <h5>Compliance: All products meet safety and building code standards.</h5>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!--Start faq content area-->
-    <section class="faq-content-area sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="accordion-box">
-                        <div class="section-title center">
-                            <h2>FAQ's</h2>
-                        </div>
-
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Why should I choose custom steel furniture over wooden furniture?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    Steel furniture is stronger, termite-proof, rust-resistant, and more durable than wood.
-                                    Unlike wooden furniture, it requires minimal maintenance and lasts much longer.
-                                </p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Is custom steel furniture suitable for homes or only for industrial use?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    Custom steel furniture is versatile. It is used in homes (tables, beds, wardrobes),
-                                    offices (desks, cabinets), hospitality (restaurants, hotels), and industries
-                                    (workbenches, storage racks).
-                                </p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Can steel furniture be combined with wood, glass, or stone?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    Yes, steel integrates seamlessly with materials like wood, glass, and stone to create
-                                    unique and stylish designs that match modern interiors.
-                                </p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>What grades of steel are used in custom furniture?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    We manufacture furniture using stainless steel (304, 316, etc.), mild steel, carbon
-                                    steel, duplex steel, and even high-performance alloys depending on the application and
-                                    environment.
-                                </p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Will my steel furniture rust over time?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    No, when manufactured with the right grade (like SS 304/316) and protective finishes
-                                    (powder coating, polishing), steel furniture remains rust-free and corrosion-resistant.
-                                </p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Is steel furniture heavy to move around?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    Not necessarily. Steel furniture is strong but can be fabricated in lightweight
-                                    sections. Many designs are modular, making them easy to move and reassemble.
-                                </p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Can custom steel furniture be designed to match my interior theme?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    Absolutely. We offer matte, mirror, brushed, powder-coated, and antique finishes to
-                                    match modern, industrial, or classic décor.
-                                </p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>How do I maintain custom steel furniture?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    Maintenance is simple—just wipe with a damp cloth. Unlike wood, it doesn’t require
-                                    polishing, painting, or termite treatment.
-                                </p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Is custom steel furniture cost-effective?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    Yes, while the initial investment may be slightly higher than wood or plastic, steel
-                                    furniture lasts decades, reducing replacement and repair costs.
-                                </p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Can you design modular or space-saving steel furniture?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    Yes, we specialize in modular, foldable, and space-optimized steel furniture ideal for
-                                    homes, offices, and institutions.
-                                </p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--End faq content area-->
+    {{-- Contact us --}}
 
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    Looking for Custom Steel Furniture that combines design, durability, and value?<br>Contact <strong><a
+                    Looking for Glass Railing Systems that combine style, safety, and sophistication?<br>Contact <strong><a
                             href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a></strong>
                 </p>
                <!-- Call button -->
