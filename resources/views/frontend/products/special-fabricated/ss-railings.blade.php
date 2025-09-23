@@ -444,8 +444,8 @@
                         </div>
                         <h5>Residential</h5>
                         <ul>
-                            <li>Dining tables, kitchen islands, beds, wardrobes, and storage cabinets</li>
-                            <li>Outdoor furniture built to withstand sun, rain, and weather changes</li>
+                            <h6>Dining tables, kitchen islands, beds, wardrobes, and storage cabinets</h6>
+                            <h6>Outdoor furniture built to withstand sun, rain, and weather changes</h6>
                         </ul>
                     </div>
                 </div>
@@ -457,8 +457,8 @@
                         </div>
                         <h5>Commercial</h5>
                         <ul>
-                            <li>Modular office desks, shelving units, reception counters, and filing cabinets</li>
-                            <li>Conference tables, workstations, and display furniture for retail</li>
+                            <h6>Modular office desks, shelving units, reception counters, and filing cabinets</h6>
+                            <h6>Conference tables, workstations, and display furniture for retail</h6>
                         </ul>
                     </div>
                 </div>
@@ -470,8 +470,8 @@
                         </div>
                         <h5>Hospitality</h5>
                         <ul>
-                            <li>Restaurant tables, bar counters, café seating, and outdoor dining furniture</li>
-                            <li>Hotel room wardrobes, luggage racks, and custom-designed furniture</li>
+                            <h6>Restaurant tables, bar counters, café seating, and outdoor dining furniture</h6>
+                            <h6>Hotel room wardrobes, luggage racks, and custom-designed furniture</h6>
                         </ul>
                     </div>
                 </div>
@@ -483,8 +483,8 @@
                         </div>
                         <h5>Industrial & Workshop</h5>
                         <ul>
-                            <li>Heavy-duty workbenches, tool storage systems, and fabrication tables</li>
-                            <li>Warehouse shelving, carts, and custom-built organizational racks</li>
+                            <h6>Heavy-duty workbenches, tool storage systems, and fabrication tables</h6>
+                            <h6>Warehouse shelving, carts, and custom-built organizational racks</h6>
                         </ul>
                     </div>
                 </div>
@@ -496,8 +496,8 @@
                         </div>
                         <h5>Institutional</h5>
                         <ul>
-                            <li>School and university furniture, library shelves, and laboratory tables</li>
-                            <li>Hostel and dormitory steel furniture solutions</li>
+                            <h6>School and university furniture, library shelves, and laboratory tables</h6>
+                            <h6>Hostel and dormitory steel furniture solutions</h6>
                         </ul>
                     </div>
                 </div>
@@ -514,11 +514,11 @@
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
-                <h2>Uses of Custom Steel Furniture</h2>
+                <h2>Uses of ss railings</h2>
             </div>
             <!-- Child Title -->
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Custom Steel Furniture are used extensively
+                <h4 class="text-center mb-0" style="color: #db7227;">ss railings are used extensively
                     across multiple
                     industries, including:</h4>
             </div>
@@ -526,32 +526,32 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-palette-fill"></i></div>
-                        <h4>Aesthetic Appeal</h4>
-                        <h5>Enhances aesthetic appeal while ensuring strength and longevity</h5>
+                        <h4>Safety & Structural Support</h4>
+                        <h5> Provides safety and structural support for staircases, balconies, and public areas (staircase railing design SS, balcony railing design SS)</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
-                        <h4>Heavy-Duty Support</h4>
-                        <h5>Provides heavy-duty support in industrial and commercial settings</h5>
+                        <h4>Modern Aesthetic</h4>
+                        <h5>Adds a modern, elegant appearance to buildings and outdoor spaces (SS steel design railing, SS gate railing)</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-layers-half"></i></div>
-                        <h4>Design Flexibility</h4>
-                        <h5>Offers design flexibility, integrating with wood, glass, or stone</h5>
+                        <h4>Low Maintenance</h4>
+                        <h5>Suitable for indoor and outdoor applications with minimal upkeep (SS railing cost per kg)</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-hospital"></i></div>
-                        <h4>Hygienic Applications</h4>
-                        <h5>Suitable for hygienic environments like restaurants and hospitals</h5>
+                        <h4>Hybrid Design Options</h4>
+                        <h5>Can be combined with glass, wood, or stone for hybrid designs (glass and SS railing, wooden SS railing)</h5>
                     </div>
                 </div>
 
@@ -559,8 +559,8 @@
                 <div class="col-sm-12 col-lg-6">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-lock-fill"></i></div>
-                        <h4>Safety & Durability</h4>
-                        <h5>Ensures long-term durability with high safety standards in all applications</h5>
+                        <h4>Architectural Customization</h4>
+                        <h5>Supports architectural customization with modular or bespoke railing solutions (SS railing design catalogue)</h5>
                     </div>
                 </div>
             </div>
@@ -570,62 +570,135 @@
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
-                <h2>Advantages of Custom Steel Furniture</h2>
+                <h2>Advantages of ss railings</h2>
             </div>
 
             <div class="row g-4 mt-4">
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-cash-coin"></i></div>
-                        <h4>Cost-Effective Investment</h4>
-                        <h5>Outlasts wooden and plastic furniture, reducing replacement costs.</h5>
+                        <h4>Corrosion Resistance</h4>
+                        <h5>Stainless steel is highly resistant to rust, even in coastal or humid environments (SS railing India.)</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h4>Corrosion & Termite Resistance</h4>
-                        <h5>Ideal for humid, coastal, and pest-prone environments.</h5>
+                        <h4>Long Lifespan</h4>
+                        <h5> Outlasts wood, mild steel, and other materials with minimal maintenance (SS railing price per kg, SS railing price in Bangalore/Hyderabad/Indore)</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-recycle"></i></div>
-                        <h4>Eco-Friendly Choice</h4>
-                        <h5>Made from recyclable steel, supporting sustainability.</h5>
+                        <h4>Low Maintenance</h4>
+                        <h5>Simple cleaning keeps railings looking brand new (SS hand railing specification, SS railing fixing detail)</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-brush"></i></div>
-                        <h4>Design Versatility</h4>
-                        <h5>Can be shaped into modern, industrial, or classic designs to match décor.</h5>
+                        <h4>Sleek Aesthetic Appeal</h4>
+                        <h5>Available in multiple finishes to suit contemporary and classic styles (SS railing models, SS railing design PDF)</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-bucket"></i></div>
-                        <h4>Low Maintenance</h4>
-                        <h5>Easy to clean, requiring minimal upkeep compared to other materials.</h5>
+                        <h4>Strength & Stability</h4>
+                        <h5>Offers exceptional support and durability for both residential and heavy-duty use (SS railing steel, SS pipe railing design)</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-box-seam"></i></div>
-                        <h4>Heavy Load-Bearing Capacity</h4>
-                        <h5>Perfect for residential, industrial, and commercial use.</h5>
+                        <h4>Sustainable Choice</h4>
+                        <h5>Stainless steel is recyclable, making it eco-friendly (SS railing meaning, what is SS railing)</h5>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+ <!--Start faq content area-->
+    <section class="faq-content-area sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>Frequently Asked Questions (FAQ) – Stainless Steel Railing Products</h2>
+                        </div>
 
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What grade of stainless steel is best for railing?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    For indoor use, SS 304 is commonly used due to its durability and cost-effectiveness. For outdoor, coastal, or marine environments, SS 316 (marine grade) is recommended because of its superior corrosion resistance (SS railing with glass balcony, SS staircase railing glass).
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Are stainless steel railings suitable for outdoor use?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Yes, SS railings are ideal for outdoor use. Grades like 316, 316L, Duplex, and Super Duplex ensure long-lasting performance even in harsh, humid, or coastal environments (SS glass balcony railing, SS roof railing design).
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Can stainless steel railings be customized?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Absolutely. Moksh Tubes & Fittings LLP, we provide fully customizable railing solutions — from dimensions and finishes to modular or bespoke designs — to meet architectural and interior requirements (SS railing manufacturers in Rajkot, Pune, Ahmedabad, Delhi NCR).
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What finishes are available for SS railing products?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    SS railings are available in Matte, Mirror, Satin, Brushed, and Powder-Coated finishes. High-end projects can also opt for premium grades like 904L or SMO 254 with decorative finishes (golden SS railing, HPL SS railing).
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Do stainless steel railings require maintenance?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Very minimal. Unlike wood or mild steel, SS railings only need occasional cleaning with mild soap and water to maintain their shine and durability (SS hand railing rate, SS railing cost in Hyderabad).
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
 
     {{-- why choose us --}}
     <section class="sec-padd-top sec-padd-bottom bg-light">
@@ -638,207 +711,51 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Expertise in Fabrication: Decades of experience in crafting high-quality steel furniture.</h5>
+                        <h5>Expertise in Railing Solutions:  Decades of experience in stainless steel fabrication (SS railing work India)</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-brush-fill"></i></div>
-                        <h5>Custom Design Solutions: From concept to completion, we deliver furniture tailored to your
-                            vision.</h5>
+                        <h5>Wide Range of Products: Complete modular railing systems, posts, and accessories (SS railing accessories, SS railing baluster, SS railing pillar)</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-gem"></i></div>
-                        <h5>Premium Material Selection: Only certified steel grades are used for superior quality.</h5>
+                        <h5>Premium Quality Materials: All components meet ASTM/ASME standards (SS 304 railing, SS 316 railing)</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Global Reach & Timely Delivery: Supplying projects across India and worldwide.</h5>
+                        <h5>Global Reach & Timely Delivery: Serving projects worldwide with reliable supply chains (SS rail works pvt ltd, Mettech steel works SS railing)</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-12 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-currency-rupee"></i></div>
-                        <h5>Competitive Pricing: Affordable solutions without compromising quality or craftsmanship.</h5>
+                        <h5>Customization Capability: Tailored designs for architects, builders, and interior designers (SS railing quotation, SS railing cost analysis)</h5>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!--Start faq content area-->
-    <section class="faq-content-area sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="accordion-box">
-                        <div class="section-title center">
-                            <h2>FAQ's</h2>
-                        </div>
+   
 
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Why should I choose custom steel furniture over wooden furniture?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    Steel furniture is stronger, termite-proof, rust-resistant, and more durable than wood.
-                                    Unlike wooden furniture, it requires minimal maintenance and lasts much longer.
-                                </p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Is custom steel furniture suitable for homes or only for industrial use?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    Custom steel furniture is versatile. It is used in homes (tables, beds, wardrobes),
-                                    offices (desks, cabinets), hospitality (restaurants, hotels), and industries
-                                    (workbenches, storage racks).
-                                </p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Can steel furniture be combined with wood, glass, or stone?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    Yes, steel integrates seamlessly with materials like wood, glass, and stone to create
-                                    unique and stylish designs that match modern interiors.
-                                </p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>What grades of steel are used in custom furniture?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    We manufacture furniture using stainless steel (304, 316, etc.), mild steel, carbon
-                                    steel, duplex steel, and even high-performance alloys depending on the application and
-                                    environment.
-                                </p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Will my steel furniture rust over time?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    No, when manufactured with the right grade (like SS 304/316) and protective finishes
-                                    (powder coating, polishing), steel furniture remains rust-free and corrosion-resistant.
-                                </p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Is steel furniture heavy to move around?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    Not necessarily. Steel furniture is strong but can be fabricated in lightweight
-                                    sections. Many designs are modular, making them easy to move and reassemble.
-                                </p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Can custom steel furniture be designed to match my interior theme?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    Absolutely. We offer matte, mirror, brushed, powder-coated, and antique finishes to
-                                    match modern, industrial, or classic décor.
-                                </p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>How do I maintain custom steel furniture?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    Maintenance is simple—just wipe with a damp cloth. Unlike wood, it doesn’t require
-                                    polishing, painting, or termite treatment.
-                                </p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Is custom steel furniture cost-effective?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    Yes, while the initial investment may be slightly higher than wood or plastic, steel
-                                    furniture lasts decades, reducing replacement and repair costs.
-                                </p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Can you design modular or space-saving steel furniture?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    Yes, we specialize in modular, foldable, and space-optimized steel furniture ideal for
-                                    homes, offices, and institutions.
-                                </p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--End faq content area-->
+    {{-- Contact us --}}
 
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    Looking for Custom Steel Furniture that combines design, durability, and value?<br>Contact <strong><a
+                    Looking for premium SS railing design for balcony, staircase SS railing, or SS glass railing for your next project?<br>Contact <strong><a
                             href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a></strong>
                 </p>
                <!-- Call button -->
