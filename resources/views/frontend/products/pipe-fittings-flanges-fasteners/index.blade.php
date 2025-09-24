@@ -1,7 +1,7 @@
 @extends('layouts.master')
-@section('title', 'Flanges & Pipe Fittings | Moksh Tubes LLP')
+@section('title', 'Mokshtubes Pipe Fittings, Flanges & Fasteners')
 @section('meta_description',
-    'Discover Special Fabricated Products at Moksh Tubes – custom steel, alloy & stainless solutions. Precision-made, high quality & global fabrication standards.')
+    'Discover Mokshtubes pipe fittings, flanges, fasteners, gaskets, and custom fabricated fittings designed for strength, durability, and precision in every application.')
 @section('content')
     <!--Start breadcrumb area-->
 

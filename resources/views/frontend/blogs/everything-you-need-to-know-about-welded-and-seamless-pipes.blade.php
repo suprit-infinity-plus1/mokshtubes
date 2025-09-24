@@ -1,8 +1,7 @@
 @extends('layouts.master')
 
-@section('title', 'Welded vs Seamless Pipes: Key Facts & Uses')
-@section('meta_description', 'Discover the differences between welded and seamless pipes, their benefits, applications,
-    and how to choose the right pipe for your project.')
+@section('title', 'Welded vs Seamless Pipes Guide | Moksh Tubes')
+@section('meta_description', 'Learn the differences, uses, and benefits of welded & seamless pipes. Moksh Tubes offers certified products for global industries.')
 @section('meta_keywords', 'welded pipes, seamless pipes, welded vs seamless, pipe types, pipe applications, industrial
     pipes, steel pipes, pipe benefits')
 
