@@ -1,7 +1,7 @@
 @extends('layouts.master')
-@section('title', 'Special Fabricated Products - Custom Steel & Alloy | Moksh Tubes')
+@section('title', 'Mokshtubes Special Fabricated | Steel & SS Works')
 @section('meta_description',
-    'Discover Special Fabricated Products at Moksh Tubes – custom steel, alloy & stainless solutions. Precision-made, high quality & global fabrication standards.')
+    'Mokshtubes offers special fabricated products like custom steel furniture, SS grills, railings, and glass solutions designed for durability and modern style.')
 @section('content')
     <!--Start breadcrumb area-->
 

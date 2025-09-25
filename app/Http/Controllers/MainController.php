@@ -167,7 +167,7 @@ class MainController extends Controller
             ['name' => '825', 'slug' => '825'],
             ['name' => '800', 'slug' => '800'],
             ['name' => '925', 'slug' => '925'],
-            ['name' => '800H_800HT', 'slug' => '800H_800HT'],
+            ['name' => '800h_800ht', 'slug' => '800h_800ht'],
             ['name' => '020', 'slug' => '020'],
         ];
 
@@ -222,16 +222,16 @@ class MainController extends Controller
     public function aluminiumAlloys()
     {
         $grades = [
-            ['name' => '6061 T6', 'slug' => 'aluminium-alloys-6061-T6'],
+            ['name' => '6061 T6', 'slug' => 'aluminium-alloys-6061-t6'],
             ['name' => '1100', 'slug' => 'aluminium-alloys-1100'],
             ['name' => '1200', 'slug' => 'aluminium-alloys-1200'],
-            ['name' => '2014 T6', 'slug' => 'aluminium-alloys-2014-T6'],
+            ['name' => '2014 T6', 'slug' => 'aluminium-alloys-2014-t6'],
             ['name' => '5083', 'slug' => 'aluminium-alloys-5083'],
             ['name' => '6012', 'slug' => 'aluminium-alloys-6012'],
             ['name' => '6063', 'slug' => 'aluminium-alloys-6063'],
-            ['name' => '6082 T6', 'slug' => 'aluminium-alloys-6082-T6'],
+            ['name' => '6082 T6', 'slug' => 'aluminium-alloys-6082-t6'],
             ['name' => '7075', 'slug' => '-aluminium-alloys7075'],
-            ['name' => 'HE30', 'slug' => 'aluminium-alloys-HE30'],
+            ['name' => 'HE30', 'slug' => 'aluminium-alloys-he30'],
         ];
 
         return view('frontend.materials.aluminium-alloys.index', compact('grades'));
@@ -240,12 +240,12 @@ class MainController extends Controller
     public function superAusteniticStainlessSteel()
     {
         $grades = [
-            ['name' => 'AL 6XN', 'slug' => 'super-austenitic-stainless-steel-AL-6XN'],
-            ['name' => 'Alloy 926', 'slug' => 'super-austenitic-stainless-steel-Alloy-926'],
-            ['name' => '253 MA', 'slug' => 'super-austenitic-stainless-steel-253-MA'],
-            ['name' => '904L', 'slug' => 'super-austenitic-stainless-steel-904L'],
-            ['name' => 'SMO 254', 'slug' => 'super-austenitic-stainless-steel-SMO-254'],
-            ['name' => 'SMO 654', 'slug' => 'super-austenitic-stainless-steel-SMO-654'],
+            ['name' => 'AL 6XN', 'slug' => 'super-austenitic-stainless-steel-al-6XN'],
+            ['name' => 'Alloy 926', 'slug' => 'super-austenitic-stainless-steel-alloy-926'],
+            ['name' => '253 MA', 'slug' => 'super-austenitic-stainless-steel-253-ma'],
+            ['name' => '904L', 'slug' => 'super-austenitic-stainless-steel-904l'],
+            ['name' => 'SMO 254', 'slug' => 'super-austenitic-stainless-steel-smo-254'],
+            ['name' => 'SMO 654', 'slug' => 'super-austenitic-stainless-steel-smo-654'],
         ];
 
         return view('frontend.materials.super-austenitic-stainless-steel.index', compact('grades'));
@@ -274,7 +274,7 @@ class MainController extends Controller
             ['name' => 'Austenitic Stainless Steel 309', 'slug' => 'austenitic-stainless-steel-309'],
             ['name' => 'Austenitic Stainless Steel 310', 'slug' => 'austenitic-stainless-steel-310'],
             ['name' => 'Austenitic Stainless Steel 316', 'slug' => 'austenitic-stainless-steel-316'],
-            ['name' => 'Austenitic Stainless Steel 316Ti', 'slug' => 'austenitic-stainless-steel-316Ti'],
+            ['name' => 'Austenitic Stainless Steel 316Ti', 'slug' => 'austenitic-stainless-steel-316ti'],
             ['name' => 'Austenitic Stainless Steel 317', 'slug' => 'austenitic-stainless-steel-317'],
             ['name' => 'Austenitic Stainless Steel 321', 'slug' => 'austenitic-stainless-steel-321'],
             ['name' => 'Austenitic Stainless Steel 347', 'slug' => 'austenitic-stainless-steel-347'],

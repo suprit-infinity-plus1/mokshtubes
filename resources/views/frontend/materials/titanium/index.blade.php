@@ -1,9 +1,7 @@
 @extends('layouts.master')
-@section('title', 'Titanium Alloys | Lightweight, High-Strength Grades | Mokshtubes')
+@section('title', 'Titanium Alloys: Lightweight, High-Strength | MokshTubes')
 @section('meta_description',
-    'Lightweight titanium alloys with outstanding strength and corrosion resistance, ideal for aerospace, medical, and
-    industrial applications.
-    ')
+    'Premium lightweight titanium alloys at MokshTubes with exceptional strength and corrosion resistance, ideal for aerospace, medical, and industrial uses.')
     {{-- @section('meta_description',
     'Browse Titanium Grades 2, 5, 7, 9 & more – known for low weight, high strength, and
     corrosion resistance in medical, aerospace, and marine sectors.') --}}

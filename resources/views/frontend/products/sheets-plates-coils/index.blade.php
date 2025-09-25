@@ -1,7 +1,7 @@
 @extends('layouts.master')
-@section('title', 'Special Fabricated Products - Custom Steel & Alloy | Moksh Tubes')
+@section('title', 'Mokshtubes Sheets, Plates & Coils | Quality Metal Products')
 @section('meta_description',
-    'Discover Special Fabricated Products at Moksh Tubes – custom steel, alloy & stainless solutions. Precision-made, high quality & global fabrication standards.')
+    'Mokshtubes provides premium sheets, plates, coils, chequered sheets, shim sheets, perforated sheets, cladded plates, and strips with durability and precision.')
 @section('content')
     <!--Start breadcrumb area-->
 

@@ -1,13 +1,7 @@
 @extends('layouts.master')
-@section('title', 'Custom Fabricated Fittings | Stainless, Alloy, Duplex & Nickel | Moksh Tubes & Fittings LLP')
-@section('meta_description', 'Get precision engineered custom fabricated fittings from Moksh Tubes & Fittings LLP.
-    Available in stainless steel, carbon steel, duplex, super duplex, nickel alloys, titanium, and copper alloys. Ideal for
-    oil & gas, marine, power, chemical, and industrial applications. Compliance with ASTM, ASME, DIN, EN, and API
-    standards.')
-@section('meta_keywords', 'custom fabricated fittings, stainless steel fittings, carbon steel fittings, duplex fittings,
-    super duplex fittings, nickel alloy fittings, titanium fittings, copper alloy fittings, industrial pipe fittings,
-    precision pipe fittings, ASME compliant fittings, ASTM certified fittings, oil & gas fittings, marine fittings, chemical
-    plant fittings, power generation fittings')
+@section('title', 'Custom Fabricated Fittings | Moksh Tubes & Fittings')
+@section('meta_description', 'Moksh Tubes & Fittings LLP offers custom fabricated fittings in SS, CS, Duplex, Nickel & Titanium alloys, made to ASTM/ASME standards for critical industries.')
+@section('meta_keywords', 'custom fabricated fittings, stainless steel fittings, alloy steel fittings, duplex fittings, titanium fittings, nickel alloy fittings, ASTM fittings, ASME fittings, industrial fittings, pressure vessel fittings')
 @section('content')
     <!--Start breadcrumb area-->
 

@@ -10,7 +10,7 @@
 
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container text-center">
-            <h1>Top 7 Advantages of Using Stainless Steel 316L in Industrial Applications</h1>
+            <h1>Top 7 Advantages of Stainless Steel 316L for Industrial Use</h1>
         </div>
     </section>
     <!--End breadcrumb area-->

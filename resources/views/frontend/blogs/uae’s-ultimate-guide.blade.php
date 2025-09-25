@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Seamless vs Welded Pipes: UAE’s Ultimate Guide')
+@section('title', 'Seamless vs Welded Pipes in UAE | Key Differences & Guide')
 @section('meta_description',
     'Learn the difference between seamless and welded pipes for UAE projects. Compare cost,
     strength & applications to choose the best option.')
