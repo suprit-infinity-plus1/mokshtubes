@@ -564,6 +564,7 @@ class MainController extends Controller
     }
     public function strips()
     {
+        // dd("I AM HERE");
         return view('frontend.products.sheets-plates-coils.strips');
     }
     public function shimsheets()
@@ -586,7 +587,7 @@ class MainController extends Controller
     {
         return view('frontend.products.sheets-plates-coils.cladded-plates');
     }
-    
+
 
     public function downloadDatasheet()
 {
