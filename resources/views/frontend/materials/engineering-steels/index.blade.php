@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
-@section('title', 'Engineering Steels | EN8, EN19, 1045, 4140 Grades | Mokshtubes')
-@section('meta_description', 'Durable engineering steels EN8, EN19, 1045, and 4140 designed for toughness, precision, and reliable performance in demanding environments.')
+@section('title', 'Engineering Steels: EN8, EN19, 1045, 4140 | MokshTubes')
+@section('meta_description', 'Durable engineering steels EN8, EN19, 1045, and 4140 at MokshTubes, designed for toughness, precision, and reliable performance in demanding environments.')
 @section('meta_keywords', 'Engineering steels, EN8 steel, EN19 steel, 1045 steel, 4140 steel, high strength steel, tough steel, industrial alloy steel, mechanical steel')
 
 @section('content')

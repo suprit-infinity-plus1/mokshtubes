@@ -1,8 +1,7 @@
 @extends('layouts.master')
-@section('title', 'Pipe & Tube Weight Calculator | Accurate & Easy to Use | Mokshtubes')
+@section('title', 'Pipe & Tube Weight Calculator | Easy & Accurate | MokshTubes')
 @section('meta_description',
-    'Use Mokshtubes’ accurate pipe and tube weight calculator for precise measurements, helping
-    you plan projects efficiently with reliable data.')
+    'Use MokshTubes’ pipe and tube weight calculator for accurate measurements, helping you plan projects efficiently with reliable and precise data.')
 @section('extracss')
     <style>
         .list-group-item.active {

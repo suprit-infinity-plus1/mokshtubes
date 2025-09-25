@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
-@section('title', 'Moksh Tubes | High-Performance Pipes & Fittings Supplier')
-@section('meta_description','Reach out to Mokshtubes Fittings & LLP for product inquiries, technical support, or custom alloy requirements. Call, email, or visit us — we’re happy to assist you.')
+@section('title', 'Moksh Tubes: High-Performance Pipes & Fittings')
+@section('meta_description','Contact MokshTubes for product inquiries, technical support, or custom alloy requirements. Call, email, or visit us — we’re here to assist you.')
 @section('meta_keywords', 'Incoloy 825, nickel alloy, corrosion resistant alloy, premium metal alloys, moksh tubes')
 @section('canonical', 'https://mokshtubes.com')
 @section('content')
