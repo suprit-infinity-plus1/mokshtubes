@@ -32,7 +32,7 @@
             </div>
 
             <h2 class="fw-semibold text-center mb-5" style="color: #db7227;">
-               Hastelloy C22 (Alloy C22 / UNS N06022) – Pipes, Sheets, Bars & Applications </h2>
+               Hastelloy C22 (UNS N06022) Pipes, Sheets, Bars & Applications </h2>
 
             <div class="row align-items-center">
                 <!-- Image Left -->

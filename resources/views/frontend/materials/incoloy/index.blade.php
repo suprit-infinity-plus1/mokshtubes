@@ -35,13 +35,9 @@
                     ['name' => '825', 'slug' => 'incoloy-825', 'image' => 'assets/images/incoloy/incoloy-825.webp'],
                     ['name' => '800', 'slug' => 'incoloy-800', 'image' => 'assets/images/incoloy/incoloy-800.webp'],
                     ['name' => '925', 'slug' => 'incoloy-925', 'image' => 'assets/images/incoloy/incoloy-925.webp'],
-                    [
-                        'name' => '800h_800ht',
-                        'slug' => 'Incoloy 800h-800ht',
-                        'image' => 'assets/images/incoloy/incoloy-800h_800ht.webp',
-                    ],
+                    ['name' => '800h / 800ht', 'slug' => 'incoloy-800h-800ht', 'image' => 'assets/images/incoloy/incoloy-800h-800ht.webp'],
                     ['name' => '020', 'slug' => 'incoloy-020', 'image' => 'assets/images/incoloy/incoloy-020.webp'],
-                ];
+                            ];
             @endphp
 
             <div class="row g-4">
