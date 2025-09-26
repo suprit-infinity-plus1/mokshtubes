@@ -2399,7 +2399,7 @@ textarea {
 .sidebar-wrapper .single-sidebar .sec-title h3 {
     color: #222222;
     font-size: 22px;
-    font-weight: 400;
+    font-weight: 700;
     text-transform: capitalize;
 }
 
@@ -8547,4 +8547,69 @@ ul.gallery-filter li span {
 
 .black-box {
     position: relative;
+}
+
+
+/* blog right section product  */
+.product-item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-link {
+    display: block;
+    padding: 12px 15px;
+    background: #e7e7e761;
+    border-radius: 8px;
+    color: #174268;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.product-link:hover {
+    background: #174268;
+    color: #fff;
+    transform: translateX(8px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.product-link i {
+    color: #db7227;
+    transition: color 0.3s ease;
+}
+
+.product-link:hover i {
+    color: #fff;
+}
+
+/* this categories */
+.category-item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category-link {
+    display: block;
+    padding: 12px 15px;
+    background: #e7e7e761;
+    border-radius: 8px;
+    color: #174268;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.category-link:hover {
+    background: #174268;
+    color: #fff;
+    transform: translateX(8px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.category-link i {
+    color: #db7227;
+    transition: color 0.3s ease;
+}
+
+.category-link:hover i {
+    color: #fff;
 }

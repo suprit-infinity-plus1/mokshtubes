@@ -632,6 +632,26 @@
 
         </footer>
 
+        <div class="whatsapp-btn-container"
+        style="
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 25px;
+position: fixed;
+bottom: 25px;
+background: #25d366;
+left: 2.1875rem;
+width: 50px;
+height: 50px;
+z-index:99;">
+        <div id="whatsapp-btn" style="margin-top:5px;">
+            <a class="whatsapp" href="https://wa.me/+919769584950">
+                <i class="fa fa-whatsapp fa-2x text-white" aria-hidden="true"></i>
+            </a>
+        </div>
+    </div>
+
         <!-- Contact Form Modal -->
         <!-- Contact Form Modal -->
         <div class="modal fade" id="contactFormModal" tabindex="-1" role="dialog"

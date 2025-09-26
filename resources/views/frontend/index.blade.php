@@ -545,7 +545,7 @@
                                                                                                                                                                                                                                 </div>
                                                                                                                                                                                                                             </section> -->
 
-    <section class="all-products-container sec-padd2 ">
+     <section class="all-products-container sec-padd2 ">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -671,10 +671,10 @@
                 </div>
             </div> --}}
         </div>
-    </section>
+     </section>
 
-    {{-- <section class="brand-logo sec-padd">
-        <div class="container">
+     {{-- <section class="brand-logo sec-padd">
+         <div class="container">
             <ul class="brand-carousel">
                 <li><a href="#"><img src="{{ asset('assets/images/brand/1.jpg') }}" alt=""></a></li>
                 <li><a href="#"><img src="{{ asset('assets/images/brand/2.jpg') }}" alt=""></a></li>
@@ -683,9 +683,9 @@
                 <li><a href="#"><img src="{{ asset('assets/images/brand/5.jpg') }}" alt=""></a></li>
             </ul>
         </div>
-    </section> --}}
+     </section> --}}
 
-    <section class="blog-section sec-padd2">
+      <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -784,6 +784,21 @@
 
             </div>
         </div>
+
+
+
+        <div class="container-fluid py-5 text-center ">
+            <div class="section-title">
+                <h2>International Market to Explore</h2>
+            </div>
+     <div class="d-flex justify-content-center mt-4">
+        <img src="{{ asset('assets/images/map.webp') }}"
+             alt="International Market"
+             class="img-fluid"
+             style="max-width: 900px;">
+     </div>
+      </div>
+
 
         <!--Start faq content area-->
         <section class="faq-content-area sec-padd2">

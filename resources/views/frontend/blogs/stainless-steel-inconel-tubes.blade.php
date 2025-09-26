@@ -2,8 +2,8 @@
 
 @section('title', 'Stainless Steel vs Inconel Tubes | Moksh Tubes')
 
-@section('meta_description',
-    'Compare stainless steel and Inconel tubes — composition, strength, cost, and applications. Moksh Tubes offers certified solutions worldwide.')
+@section('meta_description', 'Compare stainless steel and Inconel tubes — composition, strength, cost, and applications.
+    Moksh Tubes offers certified solutions worldwide.')
 
 
 @section('content')
@@ -34,7 +34,9 @@
                                 </div>
                                 <div class="text">
                                     <p>
-                                        Choosing between stainless steel and <a href="{{ route('materials.incoloy') }}">Inconel</a> tubes depends heavily on your
+                                        Choosing between stainless steel and <a
+                                            href="{{ route('materials.incoloy') }}">Inconel</a> tubes depends heavily on
+                                        your
                                         industrial
                                         needs, environmental conditions, and budget. Both materials offer unique advantages
                                         suited for specific applications. This guide compares their key characteristics,
@@ -416,40 +418,79 @@
                 <div class="col-lg-3 col-md-4 col-sm-7 col-xs-12">
                     <div class="sidebar-wrapper black-box">
                         <!--Start single sidebar-->
-                        <div class="single-sidebar pink-box">
-                            <div class="sec-title">
-                                <h3>Categories</h3>
+                        <div class="container ">
+                            <div class="row justify-content-center">
+                                <div class="col-md-12">
+                                    <h4 class="fw-bold mb-4">Products We Offer</h4>
+                                    <ul class="list-unstyled mb-4">
+                                        <li class="product-item mb-2">
+                                            <a href="{{ route('products.pipes-tubes') }}" class="product-link">
+                                                <i class="bi bi-box-seam me-2"></i> Pipes & Tubes
+                                            </a>
+                                        </li>
+                                        <li class="product-item mb-2">
+                                            <a href="{{ route('products.sheets-plates-coils') }}" class="product-link">
+                                                <i class="bi bi-square me-2"></i> Sheets, Plates & Coils
+                                            </a>
+                                        </li>
+                                        <li class="product-item mb-2">
+                                            <a href="{{ route('products.bars-rods') }}" class="product-link">
+                                                <i class="bi bi-diagram-3 me-2"></i> Bars & Rods
+                                            </a>
+                                        </li>
+                                        <li class="product-item mb-2">
+                                            <a href="{{ route('products.special-fabricated') }}" class="product-link">
+                                                <i class="bi bi-tools me-2"></i> Special Fabricated
+                                            </a>
+                                        </li>
+                                        <li class="product-item mb-2">
+                                            <a href="{{ route('products.pipe-fittings-flanges-fasteners') }}"
+                                                class="product-link">
+                                                <i class="bi bi-nut me-2"></i> Pipe Fittings, Flanges & Fasteners
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                            <ul class="categories clearfix">
-                                <li>
-                                    <a href="#">
-                                        Architecture Plans
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Construction Projects
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Paintings
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Electrical Works
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Plumbing Works
-                                    </a>
-                                </li>
-                            </ul>
+                        </div>
+
+
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-md-12">
+                                    <h4 class="fw-bold mb-4">Categories</h4>
+                                    <ul class="list-unstyled mb-4">
+                                        <li class="category-item mb-2">
+                                            <a href="#" class="category-link">
+                                                <i class="bi bi-building me-2"></i> Architecture Plans
+                                            </a>
+                                        </li>
+                                        <li class="category-item mb-2">
+                                            <a href="#" class="category-link">
+                                                <i class="bi bi-hammer me-2"></i> Construction Projects
+                                            </a>
+                                        </li>
+                                        <li class="category-item mb-2">
+                                            <a href="#" class="category-link">
+                                                <i class="bi bi-brush me-2"></i> Paintings
+                                            </a>
+                                        </li>
+                                        <li class="category-item mb-2">
+                                            <a href="#" class="category-link">
+                                                <i class="bi bi-lightning-charge me-2"></i> Electrical Works
+                                            </a>
+                                        </li>
+                                        <li class="category-item mb-2">
+                                            <a href="#" class="category-link">
+                                                <i class="bi bi-tools me-2"></i> Plumbing Works
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                         <!--End single sidebar-->
-                       <!--Start single sidebar-->
+                        <!--Start single sidebar-->
                         <div class="single-sidebar">
                             <div class="sec-title">
                                 <h3>Recent Blogs</h3>
@@ -538,7 +579,64 @@
                             </ul>
                         </div>
                         <!--End single sidebar-->
+                        <div class="container my-5">
+                            <div class="row justify-content-center">
+                                <div class="col-md-12">
+                                    <div class="card-body ">
+                                        <!-- Heading -->
+                                        <div class="section-title">
+                                            <h2>get in <span class="thm-color">touch</span></h2>
+                                            <p>Let’s forge a connection — contact our team today.</p>
+                                        </div>
 
+                                        <!-- Map -->
+                                        <div class="mb-3 text-center">
+                                            <iframe
+                                                src="https://www.google.com/maps/place/Moksh+Tubes+%26+Fittings+LLP/@18.956197,72.8288042,17z/data=!4m10!1m2!2m1!1smoksh+tubes.com+map!3m6!1s0x3be7cf9ee4261af1:0x57adb33b0f4c262!8m2!3d18.9561299!4d72.8287668!15sChNtb2tzaCB0dWJlcy5jb20gbWFwkgEMbWFudWZhY3R1cmVyqgFOCgsvZy8xdHJyYm5wcxABKgciA2NvbSgAMh8QASIbjJWhbK9Dq8lgbx706NjWt0eyqM7Fa1e3RgjMMhMQAiIPbW9rc2ggdHViZXMgY29t4AEA!16s%2Fg%2F11xdfzyd83?entry=ttu&g_ep=EgoyMDI1MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+                                                width="100%" height="200" style="border:0;" allowfullscreen=""
+                                                loading="lazy">
+                                            </iframe>
+                                        </div>
+
+                                        <!-- Contact Info -->
+                                        <p class="mb-2"><i class="bi bi-envelope me-2 text-primary"></i>
+                                            info@mokstubes.com</p>
+                                        <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
+                                            <strong>Office Address:</strong> Hinglaj Bhavan, Gulalwadi Mumbai, Maharashtra.
+                                            400004
+                                        </p>
+                                        <p class="mb-2"><i class="bi bi-geo-alt me-2 text-success"></i>
+                                            <strong>Office Address:</strong> 6/A, Ground Floor, Rajwanti Mansion, Khetwadi
+                                            Mumbai
+                                        </p>
+                                        <p class="mb-2"><i class="bi bi-geo-alt me-2 text-info"></i>
+                                            <strong>Office Address:</strong> 95/95A, Dawood Baug, Sukhlaji Street,
+                                            Kamatipura Mumbai
+                                        </p>
+
+                                        <!-- Social Icons -->
+                                        <div class="mt-3 text-center">
+                                            <a href="https://wa.me/+919769584950"
+                                                class="btn btn-outline-success btn-sm rounded-circle me-2"><i
+                                                    class="bi bi-whatsapp"></i></a>
+                                            <a href="https://www.instagram.com/mokshtubesandfittingsllp/"
+                                                class="btn btn-outline-dark btn-sm rounded-circle me-2"><i
+                                                    class="bi bi-instagram"></i></a>
+                                            <a href="https://www.facebook.com/mokshtubes/"
+                                                class="btn btn-outline-primary btn-sm rounded-circle me-2"><i
+                                                    class="bi bi-facebook"></i></a>
+                                            <a href="https://www.linkedin.com/company/moksh-tubes/"
+                                                class="btn btn-outline-info btn-sm rounded-circle"><i
+                                                    class="bi bi-linkedin"></i></a>
+                                            <a href="https://x.com/Moksh_Tubes"
+                                                class="btn btn-outline-info btn-sm rounded-circle"><i
+                                                    class="fab fa-x-twitter"></i></a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         {{-- Start contant form --}}
                         <section class="blog-contact-form">
                             <div class="section-title">
@@ -593,7 +691,7 @@
                     your purchases seamless offering expert advice, a wide inventory of
                     certified products, and global support for every order, large or small.
                 </p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch
