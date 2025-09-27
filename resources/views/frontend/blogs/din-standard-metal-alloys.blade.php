@@ -1,15 +1,10 @@
 @extends('layouts.master')
 
-@section('title', 'DIN Standard Metal Alloys & Industrial Tubes Supplier in Germany | Mokshtubes')
+@section('title', 'DIN Standard Alloys & Tubes Supplier in Germany')
 @section('meta_description',
-    'Mokshtubes supplies DIN standard stainless steel tubes, fittings & high performance alloys
-    in Germany. Trusted partner for automotive, construction & energy industries.')
+    'Supplying DIN standard metal alloys and industrial tubes across Germany with fast delivery, DIN/EN compliance, and expert technical support for diverse industries.')
 @section('meta_keywords',
-    'DIN Standard Metal Alloys Supplier in Germany, best DIN standard alloy supplier in Germany,
-    DIN certified stainless steel tube manufacturer Germany, custom alloy solutions for German industries, industrial alloy
-    and tube supplier for automotive Germany, DIN EN standard industrial fittings supplier Germany, high strength stainless
-    steel tubes for exhaust systems Germany, corrosion resistant pipe fittings for chemical plants Germany, DIN certified
-    alloy steel pipes for construction Germany, stainless steel tubes for German power generation sector')
+    'DIN standard alloys Germany, stainless steel tubes Germany, industrial fittings Germany, DIN certified metal alloys, alloy steel supplier Germany, precision tubes Germany, industrial tubes supplier Germany, DIN/EN compliant fittings, high performance alloys Germany')
 
 
 @section('content')
@@ -17,7 +12,7 @@
 
     <section class="breadcrumb-area" style="background-image: url({{ asset('assets/images/background/din-standard.jpg') }});">
         <div class="container text-center">
-            <h1>DIN Standard Metal Alloys & Industrial Tubes Supplier in Germany</h1>
+            <h1>DIN Standard Metal Alloys & Industrial Tubes in Germany</h1>
         </div>
     </section>
     <!-- End breadcrumb area -->
@@ -297,6 +292,82 @@
                                     </div>
                                 </section>
 
+                                
+                                <!-- FAQs -->
+                                <section class="faq-content-area">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="accordion-box">
+                                                    <div class="blog-title text-start">
+                                                        <h2>FAQ's</h2>
+                                                    </div>
+
+                                                    <div class="accordion accordion-block">
+                                                        <div class="accord-btn">
+                                                            <h4>Do you supply DIN certified alloys in Germany?</h4>
+                                                        </div>
+                                                        <div class="accord-content">
+                                                            <p>Yes, all our products comply with DIN, EN, ASTM, and ISO
+                                                                standards widely used throughout German industry. Our
+                                                                certification processes ensure full compliance with German
+                                                                regulatory requirements.</p>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="accordion accordion-block">
+                                                        <div class="accord-btn">
+                                                            <h4>Which German industries use your products?</h4>
+                                                        </div>
+                                                        <div class="accord-content">
+                                                            <p>Our alloys and fittings serve automotive, construction,
+                                                                chemical, marine, and power generation sectors. We've
+                                                                developed specialized expertise in each industry's unique
+                                                                requirements.</p>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="accordion accordion-block">
+                                                        <div class="accord-btn">
+                                                            <h4>How fast can you deliver products to Germany?</h4>
+                                                        </div>
+                                                        <div class="accord-content">
+                                                            <p>We maintain efficient logistics networks that enable quick
+                                                                shipping to major German industrial hubs including Berlin,
+                                                                Hamburg, Frankfurt, Munich, and Stuttgart.</p>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="accordion accordion-block">
+                                                        <div class="accord-btn">
+                                                            <h4>Can you provide custom alloys?</h4>
+                                                        </div>
+                                                        <div class="accord-content">
+                                                            <p>Absolutely. Our metallurgical capabilities include
+                                                                manufacturing custom alloy solutions designed to meet
+                                                                specific engineering requirements common in German
+                                                                industrial applications.</p>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="accordion accordion-block">
+                                                        <div class="accord-btn">
+                                                            <h4>Why should German companies choose Mokshtubes?</h4>
+                                                        </div>
+                                                        <div class="accord-content">
+                                                            <p>We offer global standards, DIN compliance, responsive
+                                                                logistics, and comprehensive technical expertise. This
+                                                                combination makes us an ideal partner for German companies
+                                                                requiring reliable material solutions.</p>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+
                                 <!-- Why Choose Us -->
                                 <section id="blog-area" class="blog-with-sidebar-area blog-single-area">
                                     <div class="blog-title text-start">
@@ -382,81 +453,6 @@
                                                     vehicle platforms.
                                                 </li>
                                             </ul>
-                                        </div>
-                                    </div>
-                                </section>
-
-                                <!-- FAQs -->
-                                <section class="faq-content-area">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-12">
-                                                <div class="accordion-box">
-                                                    <div class="blog-title text-start">
-                                                        <h2>FAQ's</h2>
-                                                    </div>
-
-                                                    <div class="accordion accordion-block">
-                                                        <div class="accord-btn">
-                                                            <h4>Do you supply DIN certified alloys in Germany?</h4>
-                                                        </div>
-                                                        <div class="accord-content">
-                                                            <p>Yes, all our products comply with DIN, EN, ASTM, and ISO
-                                                                standards widely used throughout German industry. Our
-                                                                certification processes ensure full compliance with German
-                                                                regulatory requirements.</p>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="accordion accordion-block">
-                                                        <div class="accord-btn">
-                                                            <h4>Which German industries use your products?</h4>
-                                                        </div>
-                                                        <div class="accord-content">
-                                                            <p>Our alloys and fittings serve automotive, construction,
-                                                                chemical, marine, and power generation sectors. We've
-                                                                developed specialized expertise in each industry's unique
-                                                                requirements.</p>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="accordion accordion-block">
-                                                        <div class="accord-btn">
-                                                            <h4>How fast can you deliver products to Germany?</h4>
-                                                        </div>
-                                                        <div class="accord-content">
-                                                            <p>We maintain efficient logistics networks that enable quick
-                                                                shipping to major German industrial hubs including Berlin,
-                                                                Hamburg, Frankfurt, Munich, and Stuttgart.</p>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="accordion accordion-block">
-                                                        <div class="accord-btn">
-                                                            <h4>Can you provide custom alloys?</h4>
-                                                        </div>
-                                                        <div class="accord-content">
-                                                            <p>Absolutely. Our metallurgical capabilities include
-                                                                manufacturing custom alloy solutions designed to meet
-                                                                specific engineering requirements common in German
-                                                                industrial applications.</p>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="accordion accordion-block">
-                                                        <div class="accord-btn">
-                                                            <h4>Why should German companies choose Mokshtubes?</h4>
-                                                        </div>
-                                                        <div class="accord-content">
-                                                            <p>We offer global standards, DIN compliance, responsive
-                                                                logistics, and comprehensive technical expertise. This
-                                                                combination makes us an ideal partner for German companies
-                                                                requiring reliable material solutions.</p>
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-                                            </div>
                                         </div>
                                     </div>
                                 </section>

@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('title', 'Chequered Sheets | Anti-Slip Tread Plates – Mokshtubes')
 @section('meta_description',
-    'Mokshtubes offers high-quality chequered sheets in stainless steel, aluminum & carbon steel. Ideal for flooring, ramps, stairs & industrial use.')
+    'Mokshtubes offers high-quality chequered sheets in stainless steel, aluminum, and carbon steel, ideal for flooring, ramps, stairs, and heavy-duty industrial applications.')
 @section('meta_keywords',
     'Chequered Sheets, Tread Plates, Checker Plates, Anti-Slip Sheets, Stainless Steel Chequered Sheets, Aluminum Chequered Sheets, Carbon Steel Chequered Sheets, Industrial Flooring Sheets')
 @section('content')

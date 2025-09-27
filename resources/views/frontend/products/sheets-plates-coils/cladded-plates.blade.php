@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('title', 'Mokshtubes Cladded Plates – Corrosion Resistant & Durable')
 @section('meta_description',
-    'Explore Mokshtubes cladded plates offering cost-effective corrosion resistance with stainless steel, nickel, titanium & copper for marine, chemical & oil industries.')
+    'Explore Mokshtubes cladded plates offering cost-effective corrosion resistance with stainless steel, nickel, titanium, and copper, ideal for marine, chemical, and oil industry applications.')
 @section('meta_keywords',
     'cladded plates, stainless steel cladded plates, nickel cladded plates, titanium cladded plates, copper cladded plates, corrosion resistant plates, durable cladded plates, marine industry plates, chemical industry plates, oil and gas industry plates')
 @section('content')

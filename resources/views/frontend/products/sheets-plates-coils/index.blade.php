@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('title', 'Mokshtubes Sheets, Plates & Coils | Quality Metal Products')
 @section('meta_description',
-    'Mokshtubes provides premium sheets, plates, coils, chequered sheets, shim sheets, perforated sheets, cladded plates, and strips with durability and precision.')
+    'Mokshtubes provides premium sheets, plates, coils, chequered sheets, shim sheets, perforated sheets, cladded plates, and strips, crafted with durability, precision, and superior quality.')
 @section('content')
     <!--Start breadcrumb area-->
 

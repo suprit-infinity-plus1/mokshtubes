@@ -2,8 +2,7 @@
 
 @section('title', 'Inconel 617 | High-Temperature & Corrosion-Resistant Alloy')
 @section('meta_description',
-    'Inconel 617 offers exceptional strength, oxidation, and corrosion resistance at high
-    temperatures—ideal for gas turbines, chemical processing, and petrochemical applications.')
+    'Inconel 617 offers exceptional strength, oxidation, and corrosion resistance at high temperatures, making it ideal for gas turbines, chemical processing, and petrochemical applications.')
 @section('meta_keywords',
     'Inconel 617, High-Temperature Alloy, Corrosion Resistant Alloy, Oxidation Resistant Alloy,
     Nickel Alloys, Gas Turbine Alloys, Chemical Processing Alloys, Petrochemical Industry Alloys, Heat Resistant Alloys,

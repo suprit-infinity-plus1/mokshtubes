@@ -1,6 +1,6 @@
 @extends('layouts.master')
 @section('title', 'Custom Fabricated Fittings | Moksh Tubes & Fittings')
-@section('meta_description', 'Moksh Tubes & Fittings LLP offers custom fabricated fittings in SS, CS, Duplex, Nickel & Titanium alloys, made to ASTM/ASME standards for critical industries.')
+@section('meta_description', 'Moksh Tubes & Fittings LLP offers custom fabricated fittings in SS, CS, Duplex, Nickel, and Titanium alloys, made to ASTM/ASME standards for critical industrial applications.')
 @section('meta_keywords', 'custom fabricated fittings, stainless steel fittings, alloy steel fittings, duplex fittings, titanium fittings, nickel alloy fittings, ASTM fittings, ASME fittings, industrial fittings, pressure vessel fittings')
 @section('content')
     <!--Start breadcrumb area-->

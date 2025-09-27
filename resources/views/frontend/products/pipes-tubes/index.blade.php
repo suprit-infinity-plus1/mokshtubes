@@ -1,8 +1,9 @@
 @extends('layouts.master')
 @section('title', 'Pipes & Tubes - Welded, Seamless, U-Bend, Boiler Tubes | Mokshtubes')
 @section('meta_description',
-    'Explore premium Pipes & Tubes including welded, seamless, capillaries, hollow sections, U-bent, and boiler tubes in
-    stainless steel, nickel alloys & more.')
+    'Explore premium pipes and tubes including welded, seamless, capillaries, hollow sections, U-bent, and boiler tubes in stainless steel, nickel alloys, titanium, and more with superior quality and durability.')
+    @section('meta_keywords',
+    'Pipes, Tubes, Welded Pipes, Seamless Pipes, Capillaries, Hollow Section Pipes, U-Bent Tubes, Boiler Tubes, Stainless Steel Pipes, Nickel)
 @section('content')
     <!--Start breadcrumb area-->
 

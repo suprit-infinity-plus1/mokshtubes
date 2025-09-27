@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('title', 'Zirconium Alloys: 702, 704, 705 | MokshTubes')
 @section('meta_description',
-    'High-purity zirconium alloys 702, 704, and 705 at MokshTubes, ideal for nuclear and chemical industries with exceptional corrosion resistance and durability.')
+    'Discover high-purity Zirconium alloys 702, 704, and 705 at MokshTubes, designed for nuclear and chemical industries with superior corrosion resistance, durability, and long-term reliability.')
     {{-- @section('meta_description',
     'Explore corrosion-resistant Zirconium grades 702, 704, 705 ideal for nuclear,
     pharmaceutical, and chemical equipment applications.') --}}

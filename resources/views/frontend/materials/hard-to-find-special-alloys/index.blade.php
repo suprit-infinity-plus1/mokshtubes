@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('title', 'Special & Rare Alloys: Nimonic, Tantalum, Stellite | MokshTubes')
 @section('meta_description',
-    'Explore rare special alloys like Nimonic, Tantalum, Stellite & Tungsten at MokshTubes, offering exceptional strength, heat resistance, and corrosion protection.')
+    'Explore rare special alloys including Nimonic, Tantalum, Stellite & Tungsten at MokshTubes, engineered for superior strength, durability, heat resistance, and long-lasting corrosion protection.')
 
 
     {{-- @section('meta_description',

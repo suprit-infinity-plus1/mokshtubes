@@ -2,8 +2,7 @@
 
 @section('title', 'Tungsten | Exceptional Strength & High Durability')
 @section('meta_description',
-    'Tungsten provides outstanding strength, heat resistance, and durability, ideal for
-    industrial tools, high-temperature applications, and precision engineering.')
+    'Tungsten provides outstanding strength, heat resistance, and durability, making it ideal for industrial tools, high-temperature applications, and precision engineering solutions.')
 @section('meta_keywords',
     'Tungsten, high strength metal, heat resistant metal, durable metal, industrial tools metal,
     high temperature applications, precision engineering metal')

@@ -1,9 +1,7 @@
 @extends('layouts.master')
 @section('title', 'High Quality Industrial Fasteners | Moksh Tubes & Fittings LLP')
 @section('meta_description',
-    'Discover premium fasteners from Moksh Tubes & Fittings LLP. We supply bolts, nuts, screws,
-    washers, studs, and anchors in stainless steel, alloy, titanium, and nickel for industrial, marine, aerospace, and
-    construction applications.')
+    'Discover premium fasteners from Moksh Tubes & Fittings LLP, including bolts, nuts, screws, washers, studs, and anchors in stainless steel, alloy, titanium, and nickel for industrial, marine, aerospace, and construction uses.')
 @section('meta_keywords', 'industrial fasteners, bolts, nuts, screws, washers, studs, anchors, stainless steel
     fasteners, titanium fasteners, nickel alloy fasteners, custom fasteners, high-strength fasteners, corrosion resistant
     fasteners, ISO certified fasteners')

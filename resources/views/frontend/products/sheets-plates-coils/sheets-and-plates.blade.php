@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('title', 'Industrial Sheets & Plates – Mokshtubes Premium Solutions')
 @section('meta_description',
-    'Mokshtubes delivers industrial-grade sheets & plates in stainless, carbon steel, and alloy metals for manufacturing, construction, and critical applications.')
+    'Mokshtubes delivers industrial-grade sheets and plates in stainless, carbon steel, and alloy metals for manufacturing, construction, and critical industrial applications.')
 @section('meta_keywords',
     '● Industrial Sheets & Plates ● Stainless Steel Sheets & Plates ● Carbon Steel Sheets & Plates ● Alloy Steel Sheets & Plates ● Custom Metal Sheets & Plates ● High-Quality Industrial Sheets & Plates')
 @section('content')
