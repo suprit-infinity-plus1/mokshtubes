@@ -1,10 +1,8 @@
 @extends('layouts.master')
 
-@section('title', '1045 Engineering Steel | High Strength Carbon Steel')
-@section('meta_description', '1045 Engineering Steel offering excellent strength and toughness for mechanical and
-    structural applications.')
-@section('meta_keywords', '1045 Engineering Steel, high strength carbon steel, medium carbon steel, mechanical steel,
-    structural steel, durable steel, industrial steel')
+@section('title', '1045 Engineering Steel | High Strength Steel')
+@section('meta_description', '1045 Engineering Steel offering superior strength, toughness, and wear resistance for mechanical, structural, and industrial applications.')
+@section('meta_keywords', '1045 Engineering Steel, high strength carbon steel, medium carbon steel, mechanical steel, structural steel, durable steel, industrial steel')
 
 @section('content')
 
@@ -13,7 +11,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Engineering Steel 1045</h1>
+                    <h1>1045 Engineering Steel <br> High Strength Carbon Steel</h1>
                 </div>
             </div>
         </div>

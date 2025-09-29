@@ -1,11 +1,10 @@
 @extends('layouts.master')
 
 @section('title', 'Aluminium Alloy 6082 T6 | Structural Grade Aluminium')
-@section('meta_description', 'Strong and corrosion resistant Aluminium 6082 T6 ideal for structural and transport
-    applications.')
-@section('meta_keywords', 'Aluminium Alloy 6082 T6, Structural Grade Aluminium, Aluminium 6082 T6 Pipes, Aluminium 6082
-    T6 Tubes, Aluminium 6082 T6 Sheets, High Strength Aluminium, Corrosion Resistant Aluminium, Structural Aluminium Alloys,
-    Transport Industry Aluminium, Industrial Aluminium Grades')
+
+@section('meta_description', 'Aluminium 6082 T6 – strong, corrosion resistant alloy ideal for structural, transport, and heavy-duty engineering applications.')
+
+@section('meta_keywords', 'Aluminium Alloy 6082 T6, Structural Grade Aluminium, Aluminium 6082 T6 Pipes, Aluminium 6082 T6 Tubes, Aluminium 6082 T6 Sheets, High Strength Aluminium, Corrosion Resistant Aluminium, Structural Aluminium Alloys, Transport Industry Aluminium, Industrial Aluminium Grades')
 
 @section('content')
 
@@ -14,11 +13,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Aluminium 6082</h1>
+                    <h1>Aluminium 6082 T6 <br> Structural Grade Corrosion-Resistant Alloy</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

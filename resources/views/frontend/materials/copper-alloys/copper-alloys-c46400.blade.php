@@ -1,11 +1,10 @@
 @extends('layouts.master')
 
-@section('title', 'Copper Alloy C46400 | High Strength Copper Alloy')
-@section('meta_description', 'High strength Copper Alloy C46400 ideal for aerospace and industrial applications.')
-@section('meta_keywords',
-    'Copper Alloy C46400, high strength copper alloy, aerospace copper alloy, industrial copper
-    alloy, durable copper alloy')
+@section('title', 'Copper Alloy C46400 | High Strength & Durability')
 
+@section('meta_description', 'Copper Alloy C46400 is a high-strength, durable copper alloy offering excellent corrosion resistance for aerospace, marine, and industrial uses.')
+
+@section('meta_keywords', 'Copper Alloy C46400, high strength copper alloy, aerospace copper alloy, marine copper alloy, industrial copper alloy, durable copper alloy')
 
 @section('content')
 
@@ -14,7 +13,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Copper Alloys C46400</h1>
+                    <h1>Copper Alloy C46400 <br> High Strength Durable Alloy</h1>
                 </div>
             </div>
         </div>

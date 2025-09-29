@@ -17,7 +17,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>About us</h1>
+                    <h1>About MokshTubes – Trusted Metal Industry Partner</h1>
                 </div>
             </div>
         </div>

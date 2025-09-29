@@ -1,10 +1,8 @@
 @extends('layouts.master')
 
 @section('title', '1055 Engineering Steel | Medium Carbon Steel')
-@section('meta_description', '1055 Engineering Steel ideal for manufacturing components requiring medium carbon content
-    and durability.')
-@section('meta_keywords', '1055 Engineering Steel, medium carbon steel, durable steel, mechanical steel, industrial
-    steel, high strength steel, steel for components')
+@section('meta_description', '1055 Engineering Steel offering optimal medium carbon content for strength, durability, and reliable mechanical performance in industrial applications.')
+@section('meta_keywords', '1055 Engineering Steel, medium carbon steel, durable steel, mechanical steel, industrial steel, high strength steel, steel for components')
 
 @section('content')
 
@@ -13,7 +11,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Engineering Steel 1055</h1>
+                    <h1>1055 Engineering Steel <br> Medium Carbon Steel</h1>
                 </div>
             </div>
         </div>

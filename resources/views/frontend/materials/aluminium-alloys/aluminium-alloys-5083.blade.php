@@ -1,13 +1,10 @@
 @extends('layouts.master')
 
 @section('title', 'Aluminium Alloy 5083 | Marine Grade Aluminium')
-@section('meta_description',
-    'Marine-grade Aluminium 5083 offers corrosion resistance, weldability, and durability for shipbuilding, offshore, and seawater applications.')
-@section('meta_keywords',
-    'Aluminium Alloy 5083, Marine Grade Aluminium, Aluminium 5083 Pipes, Aluminium 5083 Tubes,
-    Aluminium 5083 Sheets, Corrosion Resistant Aluminium, Seawater Resistant Aluminium, Weldable Aluminium Alloy, Marine
-    Industry Aluminium, Industrial Aluminium Grades')
 
+@section('meta_description', 'Aluminium 5083 – marine-grade alloy offering excellent corrosion resistance, weldability, and durability for shipbuilding and offshore applications.')
+
+@section('meta_keywords', 'Aluminium Alloy 5083, Marine Grade Aluminium, Aluminium 5083 Pipes, Aluminium 5083 Tubes, Aluminium 5083 Sheets, Corrosion Resistant Aluminium, Seawater Resistant Aluminium, Weldable Aluminium Alloy, Marine Industry Aluminium, Industrial Aluminium Grades')
 
 @section('content')
 
@@ -16,11 +13,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Aluminium 5083</h1>
+                    <h1>Aluminium 5083 <br> Marine-Grade Corrosion-Resistant Alloy</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

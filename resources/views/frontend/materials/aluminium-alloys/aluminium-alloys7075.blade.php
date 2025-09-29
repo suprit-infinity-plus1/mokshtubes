@@ -14,7 +14,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Aluminium 7075</h1>
+                    <h1>Premium Aluminium 7075 Alloy for Industrial Use</h1>
                 </div>
             </div>
         </div>

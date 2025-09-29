@@ -1,13 +1,10 @@
 @extends('layouts.master')
 
-@section('title', 'Copper Nickel Cu-Ni 90/10 | High Corrosion Resistance Alloy')
-@section('meta_description',
-    'Copper Nickel 90/10 alloy known for excellent corrosion resistance and strength in marine
-    applications.')
-@section('meta_keywords',
-    'Copper Nickel 90/10, Cu-Ni 90/10, high corrosion resistance copper alloy, marine grade copper
-    nickel, durable copper nickel alloy, seawater resistant alloy')
+@section('title', 'Copper Nickel Cu-Ni 90/10 | Marine & Seawater Alloy')
 
+@section('meta_description', 'Copper Nickel Alloy 90/10 (Cu-Ni) offers outstanding corrosion resistance, durability, and strength for seawater, marine, and offshore applications.')
+
+@section('meta_keywords', 'Copper Nickel 90/10, Cu-Ni 90/10 Alloy, Copper Nickel Marine Alloy, Seawater Resistant Copper Nickel, Corrosion Resistant Cu-Ni 90/10, Durable Copper Nickel Alloy, Industrial Copper Nickel')
 
 @section('content')
 
@@ -16,11 +13,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Copper Alloys 90/10</h1>
+                    <h1>Copper Nickel Alloy 90/10 (Cu-Ni) <br> Marine Grade</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

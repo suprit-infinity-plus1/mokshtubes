@@ -1,10 +1,8 @@
 @extends('layouts.master')
 
-@section('title', '4140 Alloy Steel | Versatile Alloy Steel')
-@section('meta_description', '4140 Alloy Steel offers a balance of strength, hardness, and wear resistance for diverse
-    engineering needs.')
-@section('meta_keywords', '4140 Alloy Steel, versatile alloy steel, high strength steel, wear resistant steel,
-    hardenable steel, industrial alloy steel, engineering steel')
+@section('title', '4140 Alloy Steel | High Strength Engineering Steel')
+@section('meta_description', '4140 Alloy Steel offering excellent strength, hardness, and wear resistance for engineering and industrial applications.')
+@section('meta_keywords', '4140 Alloy Steel, versatile alloy steel, high strength steel, wear resistant steel, hardenable steel, industrial alloy steel, engineering steel')
 
 @section('content')
 
@@ -13,11 +11,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Engineering Steel 4140</h1>
+                    <h1>Versatile 4140 Alloy Steel for Engineering Needs</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

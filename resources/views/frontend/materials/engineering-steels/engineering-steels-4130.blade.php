@@ -1,10 +1,8 @@
 @extends('layouts.master')
 
 @section('title', '4130 Alloy Steel | Chromium-Molybdenum Steel')
-@section('meta_description', '4130 Alloy Steel known for high strength, toughness, and excellent weldability for
-    aerospace and automotive use.')
-@section('meta_keywords', '4130 Alloy Steel, chromium-molybdenum steel, high strength steel, tough steel, weldable
-    steel, aerospace steel, automotive steel, industrial alloy steel')
+@section('meta_description', '4130 Alloy Steel offering high strength, toughness, and weldability for aerospace, automotive, and industrial applications.')
+@section('meta_keywords', '4130 Alloy Steel, chromium-molybdenum steel, high strength steel, tough steel, weldable steel, aerospace steel, automotive steel, industrial alloy steel')
 
 @section('content')
 
@@ -13,7 +11,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Engineering Steel 4130</h1>
+                    <h1>4130 Alloy Steel <br> Chromium-Molybdenum Steel</h1>
                 </div>
             </div>
         </div>

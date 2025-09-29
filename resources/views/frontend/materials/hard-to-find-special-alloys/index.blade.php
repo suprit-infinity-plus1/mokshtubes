@@ -13,7 +13,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Hard To Find And Special Alloys</h1>
+                    <h1>Special & Rare Alloys for High-Performance Applications</h1>
                 </div>
             </div>
         </div>

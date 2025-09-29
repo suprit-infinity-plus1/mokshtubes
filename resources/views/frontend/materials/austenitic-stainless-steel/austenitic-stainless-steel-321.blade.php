@@ -1,14 +1,10 @@
 @extends('layouts.master')
 
-@section('title', 'Austenitic Stainless Steel 321 – Heat Resistant Alloys.')
-@section('meta_description',
-    'Stabilized Austenitic Stainless Steel 321 pipes & fittings designed for high-temperature
-    applications with excellent oxidation resistance.')
-@section('meta_keywords',
-    'Austenitic Stainless Steel 321, Stainless Steel 321 Pipes, Stainless Steel 321 Tubes,
-    Stainless Steel 321 Fittings, Heat Resistant Stainless Steel 321, Oxidation Resistant Stainless Steel 321, High
-    Temperature Stainless Steel 321, Stabilized Stainless Steel 321, Industrial Stainless Steel 321, Thermal Processing
-    Stainless Steel 321')
+@section('title', 'Austenitic Stainless Steel 321 | Heat Resistant Alloy')
+
+@section('meta_description', 'Austenitic Stainless Steel 321 – stabilized alloy designed for high-temperature applications offering excellent oxidation resistance and durability.')
+
+@section('meta_keywords', 'Austenitic Stainless Steel 321, Stainless Steel 321 Pipes, Stainless Steel 321 Tubes, Stainless Steel 321 Fittings, Heat Resistant Stainless Steel 321, Oxidation Resistant Stainless Steel 321, High Temperature Stainless Steel 321, Stabilized Stainless Steel 321, Industrial Stainless Steel 321, Thermal Processing Stainless Steel 321')
 
 @section('content')
 
@@ -17,11 +13,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Austenitic Stainless Steel 321</h1>
+                    <h1>Austenitic Stainless Steel 321 <br> Heat Resistant Corrosion Alloy</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

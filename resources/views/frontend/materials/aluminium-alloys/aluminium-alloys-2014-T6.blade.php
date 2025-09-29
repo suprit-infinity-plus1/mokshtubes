@@ -1,12 +1,10 @@
 @extends('layouts.master')
 
 @section('title', 'Aluminium Alloy 2014 T6 | High Strength Aerospace Alloy')
-@section('meta_description', 'Aerospace-grade Aluminium 2014 T6 with excellent machinability and strength.')
-@section('meta_keywords',
-    'Aluminium Alloy 2014 T6, High Strength Aluminium, Aerospace Grade Aluminium, Aluminium 2014
-    T6 Pipes, Aluminium 2014 T6 Tubes, Aluminium 2014 T6 Sheets, Corrosion Resistant Aluminium, Machinable Aluminium Alloy,
-    Aerospace Aluminium Alloys, Industrial Aluminium Grades')
 
+@section('meta_description', 'Aluminium 2014 T6 – aerospace-grade alloy with excellent machinability, corrosion resistance, and high strength for industrial applications.')
+
+@section('meta_keywords', 'Aluminium Alloy 2014 T6, High Strength Aluminium, Aerospace Grade Aluminium, Aluminium 2014 T6 Pipes, Aluminium 2014 T6 Tubes, Aluminium 2014 T6 Sheets, Corrosion Resistant Aluminium, Machinable Aluminium Alloy, Aerospace Aluminium Alloys, Industrial Aluminium Grades')
 
 @section('content')
 
@@ -15,11 +13,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Aluminium 2014-T6</h1>
+                    <h1>Aluminium 2014 T6 <br>High Strength Aerospace Alloy</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

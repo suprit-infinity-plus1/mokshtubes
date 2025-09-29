@@ -1,14 +1,10 @@
 @extends('layouts.master')
 
 @section('title', 'Austenitic Stainless Steel 347 | High-Temp Stability SS')
-@section('meta_description',
-    '347 Stainless Steel pipes & fittings offer long-term high temperature and corrosion
-    resistance for industrial environments.')
-@section('meta_keywords',
-    'Austenitic Stainless Steel 347, Stainless Steel 347 Pipes, Stainless Steel 347 Tubes,
-    Stainless Steel 347 Fittings, Heat Resistant Stainless Steel 347, Corrosion Resistant Stainless Steel 347, High
-    Temperature Stainless Steel 347, Industrial Stainless Steel 347, Stabilized Stainless Steel 347, Thermal Processing
-    Stainless Steel 347')
+
+@section('meta_description', 'Austenitic Stainless Steel 347 – premium alloy offering excellent long-term high temperature and corrosion resistance for demanding industrial environments.')
+
+@section('meta_keywords', 'Austenitic Stainless Steel 347, Stainless Steel 347 Pipes, Stainless Steel 347 Tubes, Stainless Steel 347 Fittings, Heat Resistant Stainless Steel 347, Corrosion Resistant Stainless Steel 347, High Temperature Stainless Steel 347, Industrial Stainless Steel 347, Stabilized Stainless Steel 347, Thermal Processing Stainless Steel 347')
 
 @section('content')
 
@@ -17,11 +13,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Austenitic Stainless Steel 347</h1>
+                    <h1>Austenitic Stainless Steel 347 <br> High-Temperature Alloy</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

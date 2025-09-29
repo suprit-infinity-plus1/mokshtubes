@@ -1,10 +1,10 @@
 @extends('layouts.master')
+
 @section('title', 'Aluminium Alloy 6061 T6 | High Strength Aluminium')
-@section('meta_description', 'Aluminium 6061 T6 with excellent strength, corrosion resistance, and weldability for
-    structural applications.')
-@section('meta_keywords', 'Aluminium Alloy 6061 T6, High Strength Aluminium, Aluminium 6061 T6 Pipes, Aluminium 6061 T6
-    Tubes, Aluminium 6061 T6 Sheets, Corrosion Resistant Aluminium, Weldable Aluminium Alloy, Structural Aluminium Alloys,
-    Aerospace Aluminium, Industrial Aluminium Grades')
+
+@section('meta_description', 'Aluminium 6061 T6 – high strength alloy offering excellent corrosion resistance and weldability, ideal for structural and aerospace applications.')
+
+@section('meta_keywords', 'Aluminium Alloy 6061 T6, High Strength Aluminium, Aluminium 6061 T6 Pipes, Aluminium 6061 T6 Tubes, Aluminium 6061 T6 Sheets, Corrosion Resistant Aluminium, Weldable Aluminium Alloy, Structural Aluminium Alloys, Aerospace Aluminium, Industrial Aluminium Grades')
 
 @section('content')
 
@@ -13,11 +13,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Aluminium 6061-T6</h1>
+                    <h1>Aluminium 6061 T6 <br>High Strength Corrosion-Resistant Alloy</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

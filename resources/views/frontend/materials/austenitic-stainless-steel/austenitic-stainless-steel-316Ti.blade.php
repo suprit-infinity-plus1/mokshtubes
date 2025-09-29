@@ -1,14 +1,10 @@
 @extends('layouts.master')
 
 @section('title', 'Austenitic Stainless Steel 316Ti | Heat Stable Alloy')
-@section('meta_description',
-    '316Ti Stainless Steel pipes and fittings with excellent high-temperature stability and
-    corrosion resistance.')
-@section('meta_keywords',
-    'Austenitic Stainless Steel 316Ti, Stainless Steel 316Ti Pipes, Stainless Steel 316Ti Tubes,
-    Stainless Steel 316Ti Fittings, Heat Resistant Stainless Steel 316Ti, Corrosion Resistant Stainless Steel 316Ti, High
-    Temperature Stainless Steel 316Ti, Industrial Stainless Steel 316Ti, Marine Grade Stainless Steel 316Ti, Chemical
-    Processing Stainless Steel 316Ti')
+
+@section('meta_description', 'Austenitic Stainless Steel 316Ti – high-performance alloy with excellent high-temperature stability and corrosion resistance for diverse industries.')
+
+@section('meta_keywords', 'Austenitic Stainless Steel 316Ti, Stainless Steel 316Ti Pipes, Stainless Steel 316Ti Tubes, Stainless Steel 316Ti Fittings, Heat Resistant Stainless Steel 316Ti, Corrosion Resistant Stainless Steel 316Ti, High Temperature Stainless Steel 316Ti, Industrial Stainless Steel 316Ti, Marine Grade Stainless Steel 316Ti, Chemical Processing Stainless Steel 316Ti')
 
 @section('content')
 
@@ -17,11 +13,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Austenitic Stainless Steel 316Ti</h1>
+                    <h1>Austenitic Stainless Steel 316Ti <br>Heat Stable Alloy</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

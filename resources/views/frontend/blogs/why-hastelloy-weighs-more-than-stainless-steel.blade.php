@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Why Hastelloy Weighs More Than Stainless Steel.') ')
+@section('title', 'Why Hastelloy Weighs More Than Stainless Steel. ')
 @section('meta_description',
     'Learn why Hastelloy is heavier than stainless steel. Compare densities, compositions, and
     industrial applications with expert insights.')

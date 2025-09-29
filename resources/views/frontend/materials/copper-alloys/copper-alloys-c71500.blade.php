@@ -1,13 +1,10 @@
 @extends('layouts.master')
 
-@section('title', 'Copper Alloy C71500 | High Strength & Corrosion Resistance')
-@section('meta_description',
-    'Copper Alloy C71500 with superior strength and corrosion resistance for marine and
-    industrial uses.')
-@section('meta_keywords',
-    'Copper Alloy C71500, high strength copper alloy, corrosion resistant copper, marine copper
-    alloy, industrial copper alloy')
+@section('title', 'Copper Alloy C71500 | Marine Grade Durability')
 
+@section('meta_description', 'Copper Alloy C71500 is a marine-grade, high strength and corrosion resistant alloy ideal for seawater, marine, and industrial applications.')
+
+@section('meta_keywords', 'Copper Alloy C71500, marine grade copper alloy, high strength copper, corrosion resistant copper, seawater copper alloy, durable copper alloy, industrial copper alloy')
 
 @section('content')
 
@@ -16,11 +13,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Copper Alloys C71500</h1>
+                    <h1>Copper Alloy C71500 <br> Marine Grade & Corrosion Resistant</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

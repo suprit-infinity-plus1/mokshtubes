@@ -1,10 +1,8 @@
 @extends('layouts.master')
 
 @section('title', '4340 Alloy Steel | High Tensile Strength Alloy')
-@section('meta_description', '4340 Alloy Steel delivers superior toughness and fatigue resistance for critical
-    applications.')
-@section('meta_keywords', '4340 Alloy Steel, high tensile strength steel, tough steel, fatigue resistant steel, alloy
-    steel for critical applications, industrial alloy steel')
+@section('meta_description', '4340 Alloy Steel delivers superior toughness and fatigue resistance for demanding engineering applications.')
+@section('meta_keywords', '4340 Alloy Steel, high tensile strength steel, tough steel, fatigue resistant steel, alloy steel for critical applications, industrial alloy steel')
 
 @section('content')
 
@@ -13,11 +11,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Engineering Steel 4340</h1>
+                    <h1>High Performance 4340 Alloy Steel for Engineering</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">
@@ -41,8 +40,7 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted manufacturer,
-                            supplier, exporter, importer, and stockist of<strong class="text-black"> 4340 alloy steel
+                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted supplier, exporter, importer, and stockist of<strong class="text-black"> 4340 alloy steel
                                 products</strong> such as bars, plates, sheets, and forgings.
                         </p>
 

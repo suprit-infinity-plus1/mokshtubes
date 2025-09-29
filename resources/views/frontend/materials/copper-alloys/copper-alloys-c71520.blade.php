@@ -1,13 +1,10 @@
 @extends('layouts.master')
 
-@section('title', 'Copper Alloy C71520 | High Performance Copper Nickel Alloy')
-@section('meta_description',
-    'Copper Nickel Alloy C71520 offering excellent corrosion resistance and durability in
-    seawater applications.')
-@section('meta_keywords',
-    'Copper Nickel Alloy C71520, high performance copper alloy, corrosion resistant copper nickel,
-    seawater resistant alloy, durable copper nickel alloy')
+@section('title', 'Copper Nickel Alloy C71520 | Marine Grade Performance')
 
+@section('meta_description', 'Copper Nickel Alloy C71520 provides high performance, durability, and corrosion resistance in marine, seawater, and industrial applications.')
+
+@section('meta_keywords', 'Copper Nickel Alloy C71520, marine grade copper nickel, high performance copper alloy, corrosion resistant copper nickel, seawater resistant alloy, durable copper nickel, industrial copper alloy')
 
 @section('content')
 
@@ -16,11 +13,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Copper Alloys C71520</h1>
+                    <h1>Copper Nickel Alloy C71520 <br> Marine Grade & Corrosion Resistant</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

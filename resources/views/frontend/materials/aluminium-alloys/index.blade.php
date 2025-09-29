@@ -11,7 +11,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Aluminium Alloys</h1>
+                    <h1>Aluminium Alloys – High Strength & Corrosion Resistance</h1>
                 </div>
             </div>
         </div>

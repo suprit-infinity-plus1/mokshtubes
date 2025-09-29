@@ -13,7 +13,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Welded Pipes & Tubes</h1>
+                    <h1>Industrial Welded Pipes & Tubes – Quality & Strength</h1>
                 </div>
             </div>
         </div>

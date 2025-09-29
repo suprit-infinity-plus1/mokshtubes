@@ -1,12 +1,10 @@
 @extends('layouts.master')
 
 @section('title', 'Austenitic Stainless Steel 309 | Heat Resistant Alloy')
-@section('meta_description', 'Austenitic Stainless Steel 309 pipes & fittings offering superior oxidation resistance at
-    elevated temperatures.')
-@section('meta_keywords', 'Austenitic Stainless Steel 309, Stainless Steel 309 Pipes, Stainless Steel 309 Tubes,
-    Stainless Steel 309 Fittings, Heat Resistant Stainless Steel 309, Oxidation Resistant Stainless Steel 309, High
-    Temperature Stainless Steel, Industrial Stainless Steel 309, Furnace Grade Stainless Steel, Thermal Processing Stainless
-    Steel')
+
+@section('meta_description', 'Austenitic Stainless Steel 309 – high-quality alloy offering superior oxidation resistance and durability for high-temperature and industrial applications.')
+
+@section('meta_keywords', 'Austenitic Stainless Steel 309, Stainless Steel 309 Pipes, Stainless Steel 309 Tubes, Stainless Steel 309 Fittings, Heat Resistant Stainless Steel 309, Oxidation Resistant Stainless Steel 309, High Temperature Stainless Steel, Industrial Stainless Steel 309, Furnace Grade Stainless Steel, Thermal Processing Stainless Steel')
 
 @section('content')
 
@@ -15,11 +13,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Austenitic Stainless Steel 309</h1>
+                    <h1>Austenitic Stainless Steel 309 <br>Heat Resistant Corrosion Alloy</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

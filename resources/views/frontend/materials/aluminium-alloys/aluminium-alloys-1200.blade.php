@@ -1,13 +1,10 @@
 @extends('layouts.master')
 
 @section('title', 'Aluminium Alloy 1200 | Pure Aluminium Grade')
-@section('meta_description',
-    'High purity Aluminium 1200 with superior corrosion resistance and electrical
-    conductivity.')
-@section('meta_keywords',
-    'Aluminium Alloy 1200, Pure Aluminium Grade, Aluminium 1200 Pipes, Aluminium 1200 Tubes,
-    Aluminium 1200 Sheets, Corrosion Resistant Aluminium, High Purity Aluminium, Electrical Conductive Aluminium, Industrial
-    Aluminium Grades, Commercial Aluminium Alloys')
+
+@section('meta_description', 'Aluminium 1200 – high purity alloy with superior corrosion resistance and excellent electrical conductivity for industrial applications.')
+
+@section('meta_keywords', 'Aluminium Alloy 1200, Pure Aluminium Grade, Aluminium 1200 Pipes, Aluminium 1200 Tubes, Aluminium 1200 Sheets, Corrosion Resistant Aluminium, High Purity Aluminium, Electrical Conductive Aluminium, Industrial Aluminium Grades, Commercial Aluminium Alloys')
 
 @section('content')
 
@@ -16,11 +13,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Aluminium 1200</h1>
+                    <h1>Aluminium 1200 <br> Pure Corrosion-Resistant Aluminium Grade</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">
