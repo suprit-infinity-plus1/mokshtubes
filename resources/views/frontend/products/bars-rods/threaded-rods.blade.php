@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'Threaded Rods - Stainless, Galvanized & Alloy Steel | Moksh Tubes')
+@section('title', 'Threaded Rods - Stainless, Galvanized & Alloy Steel.')
 @section('meta_description',
     'Buy high-quality Threaded Rods from Moksh Tubes in Stainless, Galvanized, Carbon & Alloy Steel. Explore weight chart, sizes, ASTM & DIN standards.')
 @section('meta_keywords',

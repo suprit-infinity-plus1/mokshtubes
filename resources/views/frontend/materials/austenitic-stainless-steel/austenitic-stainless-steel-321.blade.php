@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Austenitic Stainless Steel 321 | Stabilized Heat Resistant Alloy')
+@section('title', 'Austenitic Stainless Steel 321 – Heat Resistant Alloys.')
 @section('meta_description',
     'Stabilized Austenitic Stainless Steel 321 pipes & fittings designed for high-temperature
     applications with excellent oxidation resistance.')

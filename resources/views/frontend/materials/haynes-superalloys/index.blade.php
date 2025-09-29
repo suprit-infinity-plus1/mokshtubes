@@ -1,6 +1,6 @@
 @extends('layouts.master')
 @section('title', 'Haynes Superalloys: 188, 230, 242, 160 | MokshTubes')
-@section('meta_description', 'Browse Haynes superalloys 188, 230, 242, and 160 at MokshTubes, designed for exceptional strength, oxidation resistance, and long-term performance in extreme conditions.')
+@section('meta_description', 'Browse Haynes superalloys 188, 230, 242, and 160 at MokshTubes, engineered for exceptional strength, oxidation resistance, and long-term performance in extreme conditions.')
 
 
 @section('content')

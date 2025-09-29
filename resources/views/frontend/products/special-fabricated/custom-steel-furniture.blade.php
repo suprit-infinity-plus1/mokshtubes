@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'Custom Steel Furniture | Modern & Durable | Moksh Tubes')
+@section('title', 'Custom Steel Furniture – Modern & Durable | Moksh Tubes')
 @section('meta_description',
     'Discover premium custom steel furniture at Moksh Tubes – durable, rust-resistant & stylish. Perfect for homes, offices, hospitality & industrial spaces.')
 @section('meta_keywords',

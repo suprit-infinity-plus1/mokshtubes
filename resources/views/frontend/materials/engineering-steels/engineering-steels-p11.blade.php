@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'P11 Alloy Steel | Alloy Steel for High Temperature Applications')
+@section('title', 'P11 Alloy Steel – High Temperature Applications')
 @section('meta_description', 'P11 Alloy Steel designed for high-temperature pressure vessels and pipework in power
     plants.')
 @section('meta_keywords', 'P11 Alloy Steel, high temperature alloy steel, pressure vessel steel, boiler steel, power

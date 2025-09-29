@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Nickel 201 | High Purity Nickel for Corrosion Resistance| Mokshtubes ')
+@section('title', 'Nickel 201 | High Purity Nickel for Corrosion Resistance.')
 @section('meta_description',
     'Discover high-purity Nickel 201 offering superior corrosion resistance and reliability,
     ideal for harsh chemical and industrial environments.')

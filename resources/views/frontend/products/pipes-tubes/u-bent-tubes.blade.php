@@ -1,7 +1,6 @@
 @extends('layouts.master')
 @section('title',
-    content: 'U-Bent Tubes | Custom Fabricated & Durable Solutions | Mokshtubes
-    ')
+    content: 'U-Bent Tubes | Custom Fabricated & Durable Solutions.')
 @section('meta_description',
     'Find precision-engineered U-bent tubes customized to your specifications, offering excellent durability and performance
     for industrial uses.

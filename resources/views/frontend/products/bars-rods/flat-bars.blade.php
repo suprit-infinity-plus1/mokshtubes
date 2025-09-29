@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'Flat Bars | Stainless, MS, Alloy, Aluminium, Brass & Copper – Mokshtubes')
+@section('title', 'Flat Bars – Stainless, Alloy, Aluminium, Brass, Copper.')
 @section('meta_description',
     'Mokshtubes supplies stainless steel, MS, alloy, aluminium, brass & copper flat bars. Check
     sizes, grades, weight chart & custom cut options.">')

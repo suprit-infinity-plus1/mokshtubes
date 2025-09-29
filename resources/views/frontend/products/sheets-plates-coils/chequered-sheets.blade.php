@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'Chequered Sheets | Anti-Slip Tread Plates – Mokshtubes')
+@section('title', 'Chequered Sheets – Anti-Slip Tread Plates | Mokshtubes')
 @section('meta_description',
     'Mokshtubes offers high-quality chequered sheets in stainless steel, aluminum, and carbon steel, ideal for flooring, ramps, stairs, and heavy-duty industrial applications.')
 @section('meta_keywords',

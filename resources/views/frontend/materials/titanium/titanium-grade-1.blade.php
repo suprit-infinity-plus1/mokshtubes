@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Titanium Grade 1 | Commercially Pure Titanium Material & Metal Uses')
+@section('title', 'Titanium Grade 1 – Pure Titanium Material & Uses.')
 @section('meta_description', 'Titanium Grade 1 with excellent corrosion resistance, ductility, and weldability for
     chemical and marine use.')
 @section('meta_keywords', 'Titanium Grade 1, Commercially Pure Titanium, Corrosion Resistant Titanium, Titanium Grade 1

@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'Nickel Superalloys for Extreme Conditions | MokshTubes')
+@section('title', 'Nickel Superalloys for Extreme Conditions.')
 @section('meta_description',
     'MokshTubes offers premium nickel-based superalloys engineered for extreme temperatures and harsh environments, delivering exceptional corrosion resistance, strength, and lasting reliability.')
     {{-- @section('meta_description',

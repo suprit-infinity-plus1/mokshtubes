@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'Capillary Tubes | Precision & High-Performance Solutions | Mokshtubes')
+@section('title', 'Capillary Tubes | Precision & High-Performance Solutions.')
 @section('meta_description',
     'Explore premium capillary tubes delivering exceptional precision, durability, and reliability for diverse industrial
     and medical applications.

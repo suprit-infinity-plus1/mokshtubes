@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'Square Bars - Stainless, MS, Aluminium & Brass | Moksh Tubes')
+@section('title', 'Square Bars - Stainless, MS, Aluminium & Brass.')
 @section('meta_description',
     'Get premium Square Bars in SS, MS, Aluminium & Brass at Moksh Tubes. View size charts,
     grades & order custom cut to length options.')

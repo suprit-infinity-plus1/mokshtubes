@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Titanium Grade 5 ELI | Extra Low Interstitial Aerospace Titanium Alloy')
+@section('title', 'Titanium Grade 5 ELI – Aerospace Titanium Alloy.')
 @section('meta_description', 'Extra pure Titanium Grade 5 ELI for medical implants and high-performance aerospace
     applications.')
 @section('meta_keywords', 'Titanium Grade 5 ELI, Extra Low Interstitial Titanium, Aerospace Grade Titanium, Medical

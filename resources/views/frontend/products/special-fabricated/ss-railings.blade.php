@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'SS Railing Design | Balcony & Staircase Railings | Moksh Tubes')
+@section('title', 'SS Railing Design – Balcony & Staircase Railings')
 @section('meta_description',
     'Premium SS railing, glass railing, and staircase designs. Get durable SS balcony railings, custom stainless steel handrails & fittings at best price.')
 @section('meta_keywords',

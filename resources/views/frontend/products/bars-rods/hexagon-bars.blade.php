@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'Hexagon Bars | Stainless Steel, Brass, Aluminium, Alloy & MS Hex Bars – Mokshtubes')
+@section('title', 'Hexagon Bars – Stainless, Brass, Aluminium, Alloy & MS.')
 @section('meta_description',
     'Mokshtubes supplies stainless steel hexagon bars, brass hex bars, aluminium hex bars &
     alloy hex bars with grades, sizes & weight chart.')

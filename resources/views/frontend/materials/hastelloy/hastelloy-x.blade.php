@@ -1,8 +1,7 @@
 @extends('layouts.master')
 
 @section('title', 'Hastelloy X | High-Temp Strength Alloy')
-@section('meta_description', 'Hastelloy X pipes, tubes & fittings with exceptional high-temperature strength, oxidation
-    resistance & weldability for aerospace and turbines.')
+@section('meta_description', 'Hastelloy X pipes, tubes & fittings offer exceptional high-temperature strength, oxidation resistance, and weldability for aerospace and turbine applications.')
 @section('meta_keywords', 'Hastelloy X, High Temperature Alloy, Hastelloy X Pipes, Hastelloy X Tubes, Hastelloy X
     Fittings, Oxidation Resistant Alloy, Aerospace Alloys, Turbine Alloys, High-Temp Strength Alloy')
 

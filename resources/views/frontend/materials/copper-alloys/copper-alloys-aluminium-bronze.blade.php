@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Aluminium Bronze Copper Alloy | High Strength & Corrosion Resistant')
+@section('title', 'Aluminium Bronze Alloy – High Strength & Corrosion Resistant.')
 @section('meta_description',
     'Aluminium Bronze with excellent strength and corrosion resistance for marine and
     industrial applications.')

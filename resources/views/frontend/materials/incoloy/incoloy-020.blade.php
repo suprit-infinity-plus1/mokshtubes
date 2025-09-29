@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Incoloy 020 | Elite Acid-Resistant Super AlloyIncoloy 020 | Elite Acid-Resistant Super Alloy')
+@section('title', 'Incoloy 020 – Elite Acid-Resistant Super Alloy')
 @section('meta_description',
     'Incoloy 020 ensures superior resistance to sulfuric acid and harsh chemicals—delivering
     long service life in challenging industrial environments.')
