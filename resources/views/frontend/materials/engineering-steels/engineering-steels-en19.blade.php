@@ -1,10 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'EN19 Alloy Steel | Hardened Alloy Steel')
-@section('meta_description', 'EN19 Alloy Steel offering excellent hardness and strength for tools and machinery parts.')
-@section('meta_keywords',
-    'EN19 Alloy Steel, hardened alloy steel, high strength steel, hard alloy steel, tools steel,
-    machinery parts steel, industrial alloy steel')
+@section('title', 'EN19 Alloy Steel | Hardened High Strength Steel')
+@section('meta_description', 'EN19 Alloy Steel offering superior hardness, strength, and durability for tools and heavy machinery parts.')
+@section('meta_keywords', 'EN19 Alloy Steel, hardened alloy steel, high strength steel, tool steel, machinery steel, durable alloy steel, industrial alloy steel')
 
 @section('content')
 
@@ -13,7 +11,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Engineering Steel 19</h1>
+                    <h1>Premium EN19 Hardened Alloy Steel</h1>
                 </div>
             </div>
         </div>

@@ -1,10 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'P12 Alloy Steel | High Strength Alloy Steel')
-@section('meta_description', 'P12 Alloy Steel used in boilers and pressure vessels requiring excellent strength and
-    creep resistance.')
-@section('meta_keywords', 'P12 Alloy Steel, high strength alloy steel, boiler steel, pressure vessel steel, creep
-    resistant steel, industrial alloy steel')
+@section('title', 'P12 Alloy Steel | High Strength & Creep Resistant Steel')
+@section('meta_description', 'P12 Alloy Steel used in boilers and pressure vessels requiring excellent strength and creep resistance for high-temperature applications.')
+@section('meta_keywords', 'P12 Alloy Steel, high strength alloy steel, boiler steel, pressure vessel steel, creep resistant steel, industrial alloy steel')
 
 @section('content')
 
@@ -13,11 +11,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Engineering Steel P12</h1>
+                    <h1>High Strength P12 Alloy Steel</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

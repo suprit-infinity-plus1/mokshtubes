@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Carbide | Superior Hardness & Precision Performance')
+@section('title', 'Carbide Alloys for Superior Hardness & Precision')
 @section('meta_description',
     'Carbide delivers exceptional hardness, wear resistance & precision—ideal for cutting tools, machinery & demanding industrial applications.')
 @section('meta_keywords',
@@ -15,7 +15,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Carbide Alloys</h1>
+                    <h1>Carbide Alloys <br> High Hardness & Precision</h1>
                 </div>
             </div>
         </div>

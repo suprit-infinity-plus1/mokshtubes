@@ -84,7 +84,7 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Phosphorus</td>
-                                    <td>≤ 0.035</td>
+                                    <td>0.035</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Silicon</td>
@@ -104,7 +104,7 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Sulfur</td>
-                                    <td>≤ 0.040</td>
+                                    <td>0.040</td>
                                 </tr>
                             </tbody>
                         </table>

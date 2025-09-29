@@ -1,12 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Tungsten | Exceptional Strength & High Durability')
-@section('meta_description',
-    'Tungsten offers strength, heat resistance & durability, ideal for tools, high-temperature applications & precision engineering solutions.')
-@section('meta_keywords',
-    'Tungsten, high strength metal, heat resistant metal, durable metal, industrial tools metal,
-    high temperature applications, precision engineering metal')
-
+@section('title', 'Tungsten | Exceptional Strength & Durability')
+@section('meta_description', 'Tungsten offers exceptional strength, heat resistance & durability for tools, high-temperature applications & precision engineering.')
+@section('meta_keywords', 'Tungsten, high strength metal, heat resistant metal, durable metal, industrial tools metal, high temperature applications, precision engineering metal')
 
 @section('content')
 
@@ -15,11 +11,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Tungsten</h1>
+                    <h1>Tungsten Alloy <br> High Strength & Durability Metal</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

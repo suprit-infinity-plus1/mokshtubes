@@ -1,12 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Hastelloy B2 | Premium Acid-Resistant Nickel Alloy')
-@section('meta_description',
-    'Hastelloy B2 pipes, tubes & fittings offer exceptional resistance to hydrochloric acid and strong performance in reducing acids for chemical processing.')
-@section('meta_keywords',
-    'Hastelloy B2, Acid Resistant Nickel Alloy, Corrosion Resistant Alloy, Hastelloy B2 Pipes,
-    Hastelloy B2 Tubes, Hastelloy B2 Fittings, Hydrochloric Acid Resistant, Sulfuric Acid Resistant, Chemical Processing
-    Alloys, Industrial Corrosion Resistant Alloys, Durable Nickel Alloys')
+@section('meta_description', 'Hastelloy B2 pipes, tubes & fittings offer exceptional resistance to hydrochloric acid and strong performance in reducing acids for chemical processing.')
+@section('meta_keywords', 'Hastelloy B2, acid resistant nickel alloy, corrosion resistant alloy, Hastelloy B2 pipes, Hastelloy B2 tubes, Hastelloy B2 fittings, hydrochloric acid resistant, sulfuric acid resistant, chemical processing alloys, industrial corrosion resistant alloys, durable nickel alloys')
 
 @section('content')
 
@@ -15,11 +11,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Hastelloy b2</h1>
+                    <h1>Hastelloy B2 Alloy <br> Acid Resistant Nickel Alloy</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

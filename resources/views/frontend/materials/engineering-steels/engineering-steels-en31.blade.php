@@ -1,10 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'EN31 Alloy Steel | High Wear Resistance Steel')
-@section('meta_description', 'EN31 Alloy Steel with excellent wear resistance and high hardness for industrial tooling
-    applications.')
-@section('meta_keywords', 'EN31 Alloy Steel, high wear resistance steel, high hardness steel, industrial tooling steel,
-    durable alloy steel, engineering steel')
+@section('meta_description', 'EN31 Alloy Steel offering superior wear resistance and hardness for demanding industrial tooling applications.')
+@section('meta_keywords', 'EN31 Alloy Steel, high wear resistance steel, high hardness steel, industrial tooling steel, durable alloy steel, engineering steel')
 
 @section('content')
 
@@ -13,11 +11,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Engineering Steel 31</h1>
+                    <h1>Premium EN31 Alloy Steel for Tooling Applications</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

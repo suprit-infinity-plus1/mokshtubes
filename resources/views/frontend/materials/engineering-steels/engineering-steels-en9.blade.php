@@ -1,10 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'EN9 Engineering Steel | High Carbon Steel')
-@section('meta_description', 'EN9 Engineering Steel designed for high strength and wear resistance in engineering
-    components.')
-@section('meta_keywords', 'EN9 Engineering Steel, high carbon steel, high strength steel, wear resistant steel,
-    engineering components steel, industrial steel')
+@section('title', 'EN9 Engineering Steel | High Carbon Alloy Steel')
+@section('meta_description', 'EN9 Engineering Steel designed for high strength and wear resistance, ideal for demanding engineering components and industrial applications.')
+@section('meta_keywords', 'EN9 Engineering Steel, high carbon steel, high strength steel, wear resistant steel, engineering components steel, industrial steel')
 
 @section('content')
 
@@ -13,7 +11,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Engineering Steel 9</h1>
+                    <h1>Premium EN9 High Carbon Engineering Steel</h1>
                 </div>
             </div>
         </div>

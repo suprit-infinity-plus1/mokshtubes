@@ -1,10 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'EN47 Spring Steel | High Strength Spring Steel')
-@section('meta_description', 'EN47 Spring Steel known for excellent elasticity and tensile strength in spring
-    manufacturing.')
-@section('meta_keywords', 'EN47 Spring Steel, high strength spring steel, elastic steel, tensile strength steel, spring
-    manufacturing steel, industrial spring steel')
+@section('title', 'EN47 Spring Steel | High Strength Elastic Alloy Steel')
+@section('meta_description', 'EN47 Spring Steel with excellent elasticity and tensile strength ideal for precision spring manufacturing.')
+@section('meta_keywords', 'EN47 Spring Steel, high strength spring steel, elastic steel, tensile strength steel, spring manufacturing steel, industrial spring steel')
 
 @section('content')
 
@@ -13,11 +11,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Engineering Steel 47</h1>
+                    <h1>High Strength EN47 Spring Steel</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

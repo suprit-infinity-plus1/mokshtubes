@@ -1,10 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Stellite Metal | Moksh Tubes – Durable & High Strength')
-@section('meta_description', 'Stellite alloys at MokshTubes deliver hardness, wear & corrosion resistance, ideal for cutting tools, valves, machinery & high-stress applications.')
-@section('meta_keywords', 'Stellite alloy, high hardness alloy, wear resistant alloy, corrosion resistant alloy, cutting
-    tools alloy, valves alloy, industrial machinery alloy, durable Stellite')
-
+@section('meta_description', 'Stellite alloys at MokshTubes deliver exceptional hardness, wear and corrosion resistance for cutting tools, valves, machinery & high-stress applications.')
+@section('meta_keywords', 'Stellite alloy, high hardness alloy, wear resistant alloy, corrosion resistant alloy, cutting tools alloy, valves alloy, industrial machinery alloy, durable Stellite')
 
 @section('content')
 
@@ -13,11 +11,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Stellite</h1>
+                    <h1>Stellite Alloy <br> Durable High Strength Metal</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

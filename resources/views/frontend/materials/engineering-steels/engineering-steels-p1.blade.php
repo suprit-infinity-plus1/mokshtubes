@@ -1,9 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'P1 Alloy Steel | Tool Steel for Impact Resistance')
-@section('meta_description', 'P1 Alloy Steel used for tools requiring good impact resistance and hardness.')
-@section('meta_keywords', 'P1 Alloy Steel, tool steel, impact resistant steel, hard alloy steel, industrial tools steel,
-    durable alloy steel')
+@section('title', 'P1 Alloy Steel | High Impact Resistance Tool Steel')
+@section('meta_description', 'P1 Alloy Steel ideal for tools requiring superior impact resistance, hardness, and durability.')
+@section('meta_keywords', 'P1 Alloy Steel, tool steel, impact resistant steel, hard alloy steel, industrial tools steel, durable alloy steel')
 
 @section('content')
 
@@ -12,11 +11,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Engineering Steel P1</h1>
+                    <h1>High Impact P1 Alloy Steel</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">
