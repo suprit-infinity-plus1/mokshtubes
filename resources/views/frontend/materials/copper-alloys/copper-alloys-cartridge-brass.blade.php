@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Cartridge Brass C26000 | High Machinability & Corrosion Resistance')
+@section('title', 'Cartridge Brass C26000 | Machinability & Corrosion Resistance')
 
 @section('meta_description', 'Cartridge Brass Alloy C26000 offers excellent machinability, durability, and corrosion resistance for engineering, marine, and industrial uses.')
 

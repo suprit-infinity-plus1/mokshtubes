@@ -161,18 +161,19 @@ class MainController extends Controller
         return view('frontend.materials.monel.index', compact('grades'));
     }
 
-    public function incoloy()
-    {
-        $grades = [
-            ['name' => '825', 'slug' => '825'],
-            ['name' => '800', 'slug' => '800'],
-            ['name' => '925', 'slug' => '925'],
-            ['name' => '800h_800ht', 'slug' => '800h_800ht'],
-            ['name' => '020', 'slug' => '020'],
-        ];
+  public function incoloy()
+{
+    $grades = [
+        ['name' => 'Incoloy 825', 'slug' => 'incoloy-825'],
+        ['name' => 'Incoloy 800', 'slug' => 'incoloy-800'],
+        ['name' => 'Incoloy 925', 'slug' => 'incoloy-925'],
+        ['name' => 'Incoloy 800h / 800ht', 'slug' => 'incoloy-800h-800ht'],
+        ['name' => 'Incoloy 020', 'slug' => 'incoloy-020'],
+    ];
 
-        return view('frontend.materials.incoloy.index', compact('grades'));
-    }
+    return view('frontend.materials.incoloy.index', compact('grades'));
+}
+
 
 
     public function nickelBasedSuperalloys()
@@ -312,6 +313,16 @@ class MainController extends Controller
 
         return view('frontend.materials.engineering-steels.index', compact('grades'));
     }
+public function engineeringSteelsGrade($slug)
+{
+    $viewPath = 'frontend.materials.engineering-steels.' . $slug;
+
+    if (view()->exists($viewPath)) {
+        return view($viewPath);
+    }
+
+    abort(404);
+}
 
     public function copperAlloys()
     {

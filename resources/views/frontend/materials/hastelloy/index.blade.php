@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('meta_title', 'Hastelloy Alloys: C276, C22, B2 | MokshTubes')
+@section('meta_title', 'Hastelloy Alloys: C276, C22, B2 | Moksh Tubes LLP')
 @section('meta_description', 'Discover Hastelloy alloys C276, C22, and B2 at MokshTubes, engineered for exceptional corrosion resistance in chemical, marine, oil & gas, and industrial applications.')
 @section('meta_keywords', 'Hastelloy, Hastelloy Alloys, C276, C22, B2, G30, Corrosion Resistant Alloys, Chemical
     Industry Alloys, Marine Industry Alloys, Power Plant Alloys')

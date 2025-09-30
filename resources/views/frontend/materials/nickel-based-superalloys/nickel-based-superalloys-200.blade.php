@@ -10,7 +10,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Nickel 200 <br> Pure Nickel with Superior Conductivity & Corrosion Resistance</h1>
+                    <h1>Nickel 200<br> High Purity Nickel with Great Conductivity</h1>
                 </div>
             </div>
         </div>
