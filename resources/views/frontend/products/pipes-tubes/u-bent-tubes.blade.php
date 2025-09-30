@@ -1,27 +1,19 @@
 @extends('layouts.master')
-@section('title',
-    content: 'U-Bent Tubes | Custom Fabricated & Durable Solutions.')
+@section('title', 'U-Bent Tubes – Custom Fabricated Industrial Solutions') <!-- 52 characters -->
 @section('meta_description',
-    'Find precision-engineered U-bent tubes customized to your specifications, offering excellent durability and performance
-    for industrial uses.
-
-    ')
+    'Moksh Tubes provides precision-engineered U-bent tubes customized for industrial applications, offering superior durability, strength, and long-lasting performance.') <!-- 153 characters -->
 @section('content')
-    <!--Start breadcrumb area-->
-
-
-    <!--End mainmenu area-->
-
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>U-Bent Tubes</h1>
+                    <h1>Industrial U-Bent Tubes for High-Performance Applications</h1> <!-- 52 characters -->
                 </div>
             </div>
         </div>
     </section>
+
 
 
     <section class="sec-padd-top sec-padd-bottom bg-light">

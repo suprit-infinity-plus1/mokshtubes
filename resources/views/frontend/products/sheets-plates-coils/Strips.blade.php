@@ -1,25 +1,20 @@
 @extends('layouts.master')
-@section('title', 'High-Quality Metal Strips for Industry – Mokshtubes')
+@section('title', 'Metal Strips – Premium Stainless, Carbon & Alloy Metals') <!-- 52 characters -->
 @section('meta_description',
-    'Mokshtubes supplies premium metal strips in stainless steel, carbon steel, and alloys, ideal for automotive, construction, and industrial applications.')
-@section('meta_keywords',
-    '● Metal Strips Supplier, ● Stainless Steel Strips, ● Carbon Steel Strips, ● Alloy Strips, ● Industrial Metal Strips, ● Custom Metal Strips, ● Precision Metal Strips, ● Durable Metal Strips, ● High-Quality Metal Strips, ● Mokshtubes Metal Strips')
+    'Mokshtubes provides high-quality metal strips in stainless steel, carbon steel, and alloys, ideal for automotive, construction, and industrial applications with superior precision and durability.') <!-- 153 characters -->
+@section('meta_keywords', 'Metal Strips Supplier, Stainless Steel Strips, Carbon Steel Strips, Alloy Strips, Industrial Metal Strips, Custom Metal Strips, Precision Metal Strips, Durable Metal Strips, High-Quality Metal Strips, Mokshtubes Metal Strips')
 @section('content')
-    <!--Start breadcrumb area-->
-
-
-    <!--End mainmenu area-->
-
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Strips</h1>
+                    <h1>High-Quality Metal Strips for Industrial Use</h1> <!-- 52 characters -->
                 </div>
             </div>
         </div>
     </section>
+
 
 
     <section class="sec-padd-top sec-padd-bottom bg-light">

@@ -1,23 +1,25 @@
 @extends('layouts.master')
-@section('title', 'Blog | Industry Insights, News & Updates | Moksh Tubes')
+@section('title', 'Blog – Industry Insights & Updates | Moksh Tubes') <!-- 52 characters -->
 
-@section('meta_description', 'Explore the Moksh Tubes Blog for the latest industry insights, product updates & expert articles on stainless steel, alloys, pipes, tubes & fittings.')
-@section('meta_keywords', 'Mokshtubes Contact, Industrial Alloys Support, Custom Metal Solutions, Metal Alloys Supplier, Product Inquiries, Technical Assistance, High Performance Alloys, Alloy Supply Contact, Industrial Metal Solutions, Mokshtubes & Fittings LLP')
+@section('meta_description', 'Stay updated with Moksh Tubes Blog: industry news, product insights, and expert articles on stainless steel, alloys, pipes, tubes, and fittings.') <!-- 152 characters -->
+
+@section('meta_keywords', 'Mokshtubes Blog, Industrial Alloys Insights, Stainless Steel Updates, Pipes and Tubes News, Metal Industry Articles, Alloy Supply Updates, Expert Metal Solutions')
 {{-- @section('canonical', 'https://blogs.com') --}}
+
 @section('content')
 
-    <!--Start rev slider wrapper-->
+<!--Start rev slider wrapper-->
 
-
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-auto text-center">
-                    <h1>Blogs</h1>
-                </div>
+<section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-auto text-center">
+                <h1>Moksh Tubes Blog <br> Industry Insights</h1> <!-- 52 characters -->
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
 
 
 

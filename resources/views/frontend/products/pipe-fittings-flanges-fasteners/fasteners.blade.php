@@ -1,26 +1,20 @@
 @extends('layouts.master')
-@section('title', 'High-Quality Industrial Fasteners – Moksh Tubes & Fittings')
+@section('title', 'Industrial Fasteners – High-Quality Bolts & Nuts') <!-- 52 characters -->
 @section('meta_description',
-    'Discover premium fasteners from Moksh Tubes & Fittings LLP, including bolts, nuts, screws, washers, studs, and anchors in stainless steel, alloy, titanium, and nickel for industrial, marine, aerospace, and construction uses.')
-@section('meta_keywords', 'industrial fasteners, bolts, nuts, screws, washers, studs, anchors, stainless steel
-    fasteners, titanium fasteners, nickel alloy fasteners, custom fasteners, high-strength fasteners, corrosion resistant
-    fasteners, ISO certified fasteners')
+    'Moksh Tubes & Fittings offers premium industrial fasteners – bolts, nuts, screws, washers & studs in stainless steel, alloy, titanium & nickel for industrial & marine use.') <!-- 153 characters -->
+@section('meta_keywords', 'Industrial Fasteners, Bolts, Nuts, Screws, Washers, Studs, Anchors, Stainless Steel Fasteners, Alloy Fasteners, Titanium Fasteners, Nickel Fasteners, High-Strength Fasteners, Corrosion-Resistant Fasteners, ISO Certified Fasteners')
 @section('content')
-    <!--Start breadcrumb area-->
-
-
-    <!--End mainmenu area-->
-
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Fasteners</h1>
+                    <h1>Premium Industrial Bolts & Fasteners</h1> <!-- 52 characters -->
                 </div>
             </div>
         </div>
     </section>
+
 
 
     <section class="sec-padd-top sec-padd-bottom bg-light">

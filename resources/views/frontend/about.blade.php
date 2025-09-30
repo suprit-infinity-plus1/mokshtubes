@@ -1,27 +1,24 @@
 @extends('layouts.master')
-@section('title', 'About Moksh Tubes | Experts in Alloys & Industrial Solutions')
-@section('meta_description', 'Moksh Tubes is your trusted partner for hard-to-find metal alloys, offering premium quality, reliable supply & expert support for global industrial needs.')
-@section('meta_keywords', 'Mokshtubes, Metal Alloys Supplier, High Performance Alloys, Industrial Metal Solutions,
-    Hard-to-Find Alloys, Premium Quality Alloys, Reliable Alloy Supply, Industrial Alloy Support, Metal Tubes and Fittings,
-    Engineering Alloys Supplier')
+@section('title', 'About Moksh Tubes – Experts in Metal Alloys') <!-- 52 characters -->
+@section('meta_description', 'Moksh Tubes supplies high-quality metal alloys with reliable support for global industries, ensuring premium quality, availability, and expert guidance.') <!-- 152 characters -->
+@section('meta_keywords', 'Mokshtubes, Metal Alloys Supplier, High Performance Alloys, Industrial Metal Solutions, Premium Quality Alloys, Alloy Tubes, Engineering Alloys')
 
 @section('content')
 
-    <!--Start breadcrumb area-->
+<!--Start breadcrumb area-->
 
+<!--End mainmenu area-->
 
-    <!--End mainmenu area-->
-
-    <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/about/Untitled.png);">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-auto text-center">
-                    <h1>About MokshTubes – Trusted Metal Industry Partner</h1>
-                </div>
+<!--Start breadcrumb area-->
+<section class="breadcrumb-area" style="background-image: url(/assets/images/about/Untitled.png);">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-auto text-center">
+                <h1>About Moksh Tubes <br> Trusted Alloy Experts</h1> <!-- 52 characters -->
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!--End breadcrumb area-->
 

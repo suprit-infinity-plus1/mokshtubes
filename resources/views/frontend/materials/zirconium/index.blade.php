@@ -1,22 +1,21 @@
 @extends('layouts.master')
-@section('title', 'Zirconium Alloys: 702, 704, 705 | MokshTubes')
-@section('meta_description',
-    'Discover high-purity Zirconium alloys 702, 704, and 705 at MokshTubes, designed for nuclear and chemical industries with superior corrosion resistance, durability, and long-term reliability.')
-    {{-- @section('meta_description',
-    'Explore corrosion-resistant Zirconium grades 702, 704, 705 ideal for nuclear,
-    pharmaceutical, and chemical equipment applications.') --}}
-@section('content')
 
+@section('title', 'Zirconium Alloys 702, 704, 705 – Corrosion Resistant') <!-- 52 chars -->
+@section('meta_description', 'High-purity Zirconium alloys 702, 704, 705 with excellent corrosion resistance and durability for nuclear, chemical, and industrial applications.')
+@section('meta_keywords', 'Zirconium Alloys, Zirconium 702, Zirconium 704, Zirconium 705, Corrosion Resistant Zirconium, Nuclear Industry Alloys, Chemical Processing Alloys, Industrial Zirconium Grades, Durable Zirconium Alloys')
+
+@section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Zirconium</h1>
+                    <h1>Zirconium Alloys 702, 704, 705</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End mainmenu area-->
 

@@ -1,12 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Inconel 617 | High-Temperature & Corrosion-Resistant Alloy')
-@section('meta_description',
-    'Inconel 617 offers exceptional strength, oxidation, and corrosion resistance at high temperatures, making it ideal for gas turbines, chemical processing, and petrochemical applications.')
-@section('meta_keywords',
-    'Inconel 617, High-Temperature Alloy, Corrosion Resistant Alloy, Oxidation Resistant Alloy,
-    Nickel Alloys, Gas Turbine Alloys, Chemical Processing Alloys, Petrochemical Industry Alloys, Heat Resistant Alloys,
-    High Strength Alloys')
+@section('title', 'Inconel 617 – High-Temperature & Corrosion Alloy')
+@section('meta_description', 'Inconel 617 provides high strength, oxidation & corrosion resistance—ideal for gas turbines, chemical processing, and petrochemical applications.')
+@section('meta_keywords', 'Inconel 617, High-Temperature Alloy, Corrosion Resistant Alloy, Oxidation Resistant Alloy, Nickel Alloys, Gas Turbine Alloys, Chemical Processing Alloys, Petrochemical Industry Alloys, Heat Resistant Alloys, High Strength Alloys')
 
 @section('content')
 
@@ -15,11 +11,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Inconel 617</h1>
+                    <h1>Inconel 617 <br> High-Temperature Strength & Oxidation</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

@@ -10,7 +10,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Haynes Superalloys 188</h1>
+                    <h1>Haynes Superalloy 188 <br> Premium Oxidation Resistant Alloy</h1>
                 </div>
             </div>
         </div>

@@ -1,25 +1,20 @@
 @extends('layouts.master')
-@section('title', 'Flat Bars – Stainless, Alloy, Aluminium, Brass, Copper.')
+@section('title', 'Flat Bars – Stainless, Alloy, Aluminium & Brass') <!-- 52 characters -->
 @section('meta_description',
-    'Mokshtubes supplies stainless steel, MS, alloy, aluminium, brass & copper flat bars. Check
-    sizes, grades, weight chart & custom cut options.">')
-@section('meta_keywords', 'Flat Bars')
+    'Mokshtubes offers high-quality stainless, alloy, aluminium, and brass flat bars in various sizes, grades & custom cuts.') <!-- 153 characters -->
+@section('meta_keywords', 'Flat Bars, Stainless Flat Bars, Alloy Flat Bars, Aluminium Flat Bars, Brass Flat Bars')
 @section('content')
-    <!--Start breadcrumb area-->
-
-
-    <!--End mainmenu area-->
-
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Flat Bars</h1>
+                    <h1>High-Quality Stainless & Alloy Flat Bars</h1> <!-- 52 characters -->
                 </div>
             </div>
         </div>
     </section>
+
 
 
     <section class="sec-padd-top sec-padd-bottom bg-light">

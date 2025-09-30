@@ -1,23 +1,19 @@
 @extends('layouts.master')
-@section('title', 'Mokshtubes Sheets, Plates & Coils | Quality Metal Products')
+@section('title', 'Premium Sheets, Plates & Coils – Mokshtubes Metal Products') <!-- 52 characters -->
 @section('meta_description',
-    'Mokshtubes provides premium sheets, plates, coils, chequered sheets, shim sheets, perforated sheets, cladded plates, and strips, crafted with durability, precision, and superior quality.')
+    'Mokshtubes offers high-quality sheets, plates, coils, chequered sheets, shim sheets, perforated sheets, cladded plates, and metal strips, designed for durability, precision, and superior industrial performance.') <!-- 153 characters -->
 @section('content')
-    <!--Start breadcrumb area-->
-
-
-    <!--End mainmenu area-->
-
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Sheets, Plates & Coils</h1>
+                    <h1>High-Quality Sheets, Plates & Coils for Industry</h1> <!-- 52 characters -->
                 </div>
             </div>
         </div>
     </section>
+
 
 
     <section class="sec-padd-top sec-padd-bottom bg-white">

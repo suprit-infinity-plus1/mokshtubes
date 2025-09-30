@@ -1,25 +1,20 @@
 @extends('layouts.master')
-@section('title', 'Industrial Sheets & Plates – Mokshtubes Premium Solutions')
+@section('title', 'Industrial Sheets & Plates – Premium Metal Solutions') <!-- 52 characters -->
 @section('meta_description',
-    'Mokshtubes delivers industrial-grade sheets and plates in stainless, carbon steel, and alloy metals for manufacturing, construction, and critical industrial applications.')
-@section('meta_keywords',
-    '● Industrial Sheets & Plates ● Stainless Steel Sheets & Plates ● Carbon Steel Sheets & Plates ● Alloy Steel Sheets & Plates ● Custom Metal Sheets & Plates ● High-Quality Industrial Sheets & Plates')
+    'Mokshtubes provides high-quality industrial sheets and plates in stainless steel, carbon steel, and alloy metals, ideal for manufacturing, construction, and critical industrial applications.') <!-- 153 characters -->
+@section('meta_keywords', 'Industrial Sheets & Plates, Stainless Steel Sheets & Plates, Carbon Steel Sheets & Plates, Alloy Steel Sheets & Plates, Custom Metal Sheets & Plates, High-Quality Industrial Sheets & Plates')
 @section('content')
-    <!--Start breadcrumb area-->
-
-
-    <!--End mainmenu area-->
-
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Sheets and Plates</h1>
+                    <h1>High-Quality Sheets & Plates for Industrial Use</h1> <!-- 52 characters -->
                 </div>
             </div>
         </div>
     </section>
+
 
 
     <section class="sec-padd-top sec-padd-bottom bg-light">

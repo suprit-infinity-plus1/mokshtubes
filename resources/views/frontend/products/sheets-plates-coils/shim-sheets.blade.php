@@ -1,25 +1,20 @@
 @extends('layouts.master')
-@section('title', 'Mokshtubes Shim Sheets – Durable & High-Precision')
+@section('title', 'Shim Sheets – High-Precision & Durable Metal Stock') <!-- 52 characters -->
 @section('meta_description',
-    'Explore Mokshtubes shim sheets designed for accurate fitting, corrosion resistance, and durability in automotive, industrial, and engineering projects.')
-@section('meta_keywords',
-    '● Shim Sheets, ● Shim Stock, ● Stainless Steel Shim Sheets, ● Precision Shims, ● Custom Shim Sheets, ● Shim Material Supplier')
+    'Mokshtubes provides high-quality shim sheets designed for precise fitting, corrosion resistance, and long-lasting durability in automotive, industrial, and engineering applications.') <!-- 153 characters -->
+@section('meta_keywords', 'Shim Sheets, Shim Stock, Stainless Steel Shim Sheets, Precision Shims, Custom Shim Sheets, Shim Material Supplier')
 @section('content')
-    <!--Start breadcrumb area-->
-
-
-    <!--End mainmenu area-->
-
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Shim Sheets</h1>
+                    <h1>Precision Shim Sheets for Industrial Applications</h1> <!-- 52 characters -->
                 </div>
             </div>
         </div>
     </section>
+
 
 
     <section class="sec-padd-top sec-padd-bottom bg-light">

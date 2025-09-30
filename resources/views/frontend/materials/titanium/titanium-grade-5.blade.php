@@ -1,11 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Titanium Grade 5 | Aerospace-Grade Titanium Alloy')
-@section('meta_description', 'Aerospace-grade Titanium Grade 5 offering superior strength, corrosion resistance, and
-    weldability.')
-@section('meta_keywords', 'Titanium Grade 5, Aerospace Grade Titanium, High Strength Titanium, Corrosion Resistant
-    Titanium, Titanium Grade 5 Pipes, Titanium Grade 5 Tubes, Titanium Grade 5 Sheets, Weldable Titanium Alloy, Industrial
-    Titanium Grades, Marine Titanium Alloys')
+@section('title', 'Titanium Grade 5 – Aerospace-Grade Titanium Alloy') <!-- 52 chars -->
+@section('meta_description', 'Titanium Grade 5 provides superior strength, corrosion resistance, and weldability, ideal for aerospace, marine, and industrial applications.')
+@section('meta_keywords', 'Titanium Grade 5, Aerospace Grade Titanium, High Strength Titanium, Corrosion Resistant Titanium, Titanium Grade 5 Pipes, Titanium Grade 5 Tubes, Titanium Grade 5 Sheets, Weldable Titanium Alloy, Industrial Titanium Grades, Marine Titanium Alloys')
 
 @section('content')
 
@@ -14,11 +11,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Titanium Grade 5</h1>
+                    <h1>Titanium Grade 5 <br> High Strength & Corrosion Resistant Alloy</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

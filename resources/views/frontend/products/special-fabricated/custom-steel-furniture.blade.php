@@ -1,27 +1,20 @@
 @extends('layouts.master')
-@section('title', 'Custom Steel Furniture – Modern & Durable | Moksh Tubes')
+@section('title', 'Custom Steel Furniture – Modern, Durable & Stylish') <!-- 52 characters -->
 @section('meta_description',
-    'Discover premium custom steel furniture at Moksh Tubes – durable, rust-resistant & stylish. Perfect for homes, offices, hospitality & industrial spaces.')
-@section('meta_keywords',
-    'Custom Steel Furniture,Steel Furniture Manufacturers, Stainless Steel Furniture, Durable Steel
-    Furniture, Modern Steel Furniture Designs, Industrial Steel Furniture, Custom Steel Tables, Chairs, Racks, Cabinets,
-    Steel Furniture for Home & Office')
+    'Moksh Tubes offers premium custom steel furniture – rust-resistant, durable, and stylish, perfect for homes, offices, hospitality, and industrial applications.') <!-- 152 characters -->
+@section('meta_keywords', 'Custom Steel Furniture, Steel Furniture Manufacturers, Stainless Steel Furniture, Durable Steel Furniture, Modern Steel Furniture Designs, Industrial Steel Furniture, Custom Steel Tables, Chairs, Racks, Cabinets, Steel Furniture for Home & Office')
 @section('content')
-    <!--Start breadcrumb area-->
-
-
-    <!--End mainmenu area-->
-
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Custom Steel Furniture</h1>
+                    <h1>Premium Custom Steel Furniture Solutions</h1> <!-- 52 characters -->
                 </div>
             </div>
         </div>
     </section>
+
 
 
     <section class="sec-padd-top sec-padd-bottom bg-light">

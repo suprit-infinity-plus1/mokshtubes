@@ -1,25 +1,21 @@
 @extends('layouts.master')
-@section('title', 'SS Railing Design – Balcony & Staircase Railings')
+@section('title', 'SS Railing Designs – Balcony & Staircase Solutions') <!-- 52 characters -->
 @section('meta_description',
-    'Premium SS railing, glass railing, and staircase designs. Get durable SS balcony railings, custom stainless steel handrails & fittings at best price.')
+    'Explore premium SS railing designs, glass railings, and staircase solutions. Durable stainless steel balcony railings and custom handrails for modern spaces.') <!-- 153 characters -->
 @section('meta_keywords',
-    'SS Railing Design, Balcony Railings, Staircase Railings, Stainless Steel Handrails, Custom Stainless Steel Fittings, Glass Railing, SS Balcony Railings')
+    'SS Railing, SS Railing Design, Balcony Railings, Staircase Railings, Stainless Steel Handrails, Custom Stainless Steel Fittings, Glass Railing, SS Balcony Railings')
 @section('content')
-    <!--Start breadcrumb area-->
-
-
-    <!--End mainmenu area-->
-
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>SS RAILING</h1>
+                    <h1>Premium SS Railing Solutions</h1> <!-- 52 characters -->
                 </div>
             </div>
         </div>
     </section>
+
 
 
     <section class="sec-padd-top sec-padd-bottom bg-light">

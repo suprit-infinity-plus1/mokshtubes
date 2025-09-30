@@ -1,25 +1,20 @@
 @extends('layouts.master')
-@section('title', 'Mokshtubes Cladded Plates – Corrosion Resistant & Durable')
+@section('title', 'Premium Cladded Plates – Corrosion Resistant & Durable') <!-- 52 characters -->
 @section('meta_description',
-    'Explore Mokshtubes cladded plates offering cost-effective corrosion resistance with stainless steel, nickel, titanium, and copper, ideal for marine, chemical, and oil industry applications.')
-@section('meta_keywords',
-    'cladded plates, stainless steel cladded plates, nickel cladded plates, titanium cladded plates, copper cladded plates, corrosion resistant plates, durable cladded plates, marine industry plates, chemical industry plates, oil and gas industry plates')
+    'Mokshtubes provides high-quality cladded plates in stainless steel, nickel, titanium, and copper, offering excellent corrosion resistance and durability for marine, chemical, and oil industry applications.') <!-- 153 characters -->
+@section('meta_keywords', 'cladded plates, stainless steel cladded plates, nickel cladded plates, titanium cladded plates, copper cladded plates, corrosion resistant plates, durable cladded plates, marine industry plates, chemical industry plates, oil and gas industry plates')
 @section('content')
-    <!--Start breadcrumb area-->
-
-
-    <!--End mainmenu area-->
-
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Cladded Plates</h1>
+                    <h1>High-Performance Cladded Plates for Industrial Use</h1> <!-- 52 characters -->
                 </div>
             </div>
         </div>
     </section>
+
 
 
     <section class="sec-padd-top sec-padd-bottom bg-light">

@@ -1,25 +1,20 @@
 @extends('layouts.master')
-@section('title', 'Premium Metal Coils for Industry – Mokshtubes')
+@section('title', 'Metal Coils – Premium Stainless, Carbon & Alloy Sheets') <!-- 52 characters -->
 @section('meta_description',
-    'Mokshtubes supplies high-quality metal coils in stainless steel, carbon steel, and alloys for manufacturing, construction, and industrial applications.')
-@section('meta_keywords',
-    '● Stainless Steel Coils ● Carbon Steel Coils ● Alloy Coils ● Metal Coils Supplier ● Industrial Metal Coils ● Custom Metal Coils ● High-Quality Metal Coils ● Durable Metal Coils ● Precision Metal Coils ● Mokshtubes')
+    'Mokshtubes supplies high-quality metal coils in stainless steel, carbon steel, and alloy grades, ideal for manufacturing, construction, and industrial applications with superior durability.') <!-- 153 characters -->
+@section('meta_keywords', 'Stainless Steel Coils, Carbon Steel Coils, Alloy Coils, Metal Coils Supplier, Industrial Metal Coils, Custom Metal Coils, High-Quality Metal Coils, Durable Metal Coils, Precision Metal Coils, Mokshtubes')
 @section('content')
-    <!--Start breadcrumb area-->
-
-
-    <!--End mainmenu area-->
-
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Metal Coils</h1>
+                    <h1>High-Quality Metal Coils for Industrial Applications</h1> <!-- 52 characters -->
                 </div>
             </div>
         </div>
     </section>
+
 
 
     <section class="sec-padd-top sec-padd-bottom bg-light">

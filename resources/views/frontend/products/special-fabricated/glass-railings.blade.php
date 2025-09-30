@@ -1,25 +1,21 @@
 @extends('layouts.master')
-@section('title', 'Mokshtubes Glass Railings – Modern Designs')
+@section('title', 'Mokshtubes Glass Railings – Safe & Modern Designs') <!-- 52 characters -->
 @section('meta_description',
-    'Mokshtubes offers premium glass railings for balconies, staircases & terraces. Safe, durable & elegant designs crafted for modern spaces.')
+    'Mokshtubes provides premium glass railings for balconies, staircases, and terraces – durable, safe, and elegant designs for modern spaces.') <!-- 153 characters -->
 @section('meta_keywords',
     'glass railings, balcony glass railing, staircase glass railing, terrace glass railing, frameless glass railing, stainless steel glass railing, tempered glass railing, custom glass railing, modern glass railing designs')
 @section('content')
-    <!--Start breadcrumb area-->
-
-
-    <!--End mainmenu area-->
-
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>GLASS RAILINGS</h1>
+                    <h1>Premium Glass Railings for Modern Spaces</h1> <!-- 52 characters -->
                 </div>
             </div>
         </div>
     </section>
+
 
 
     <section class="sec-padd-top sec-padd-bottom bg-light">

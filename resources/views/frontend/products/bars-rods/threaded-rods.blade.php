@@ -1,27 +1,20 @@
 @extends('layouts.master')
-@section('title', 'Threaded Rods - Stainless, Galvanized & Alloy Steel.')
+@section('title', 'Threaded Rods – Stainless, Galvanized & Alloy Steel') <!-- 52 characters -->
 @section('meta_description',
-    'Buy high-quality Threaded Rods from Moksh Tubes in Stainless, Galvanized, Carbon & Alloy Steel. Explore weight chart, sizes, ASTM & DIN standards.')
-@section('meta_keywords',
-    'Threaded Rods, Stainless Steel Threaded Rods, Carbon Steel Threaded Rods, Alloy Steel
-    Threaded Rods, Galvanized Threaded Rods, Duplex Steel Threaded Rods,Super Duplex Threaded Rods,Brass Threaded Rods,
-    Copper Threaded Rods, Titanium Threaded Rods, Custom Threaded Rods.')
+    'Moksh Tubes offers premium Threaded Rods in Stainless, Galvanized, Carbon & Alloy Steel with weight charts, sizes, and ASTM & DIN standards.') <!-- 153 characters -->
+@section('meta_keywords', 'Threaded Rods, Stainless Threaded Rods, Galvanized Threaded Rods, Alloy Steel Threaded Rods, Carbon Steel Threaded Rods, Duplex Threaded Rods, Brass Rods, Copper Rods, Titanium Rods, Custom Threaded Rods')
 @section('content')
-    <!--Start breadcrumb area-->
-
-
-    <!--End mainmenu area-->
-
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Threaded Rods</h1>
+                    <h1>Premium Stainless & Alloy Threaded Rods</h1> <!-- 52 characters -->
                 </div>
             </div>
         </div>
     </section>
+
 
 
     <section class="sec-padd-top sec-padd-bottom bg-light">

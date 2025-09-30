@@ -1,19 +1,15 @@
 @extends('layouts.master')
-@section('title', 'Custom Fabricated Fittings | Moksh Tubes & Fittings')
-@section('meta_description', 'Moksh Tubes & Fittings LLP offers custom fabricated fittings in SS, CS, Duplex, Nickel, and Titanium alloys, made to ASTM/ASME standards for critical industrial applications.')
-@section('meta_keywords', 'custom fabricated fittings, stainless steel fittings, alloy steel fittings, duplex fittings, titanium fittings, nickel alloy fittings, ASTM fittings, ASME fittings, industrial fittings, pressure vessel fittings')
+@section('title', 'Industrial Custom Fabricated Fittings – Moksh Tubes') <!-- 53 characters -->
+@section('meta_description',
+    'Moksh Tubes provides industrial-grade custom fabricated fittings in Stainless, Alloy, Duplex, Nickel & Titanium alloys, made as per ASTM & ASME standards.') <!-- 153 characters -->
+@section('meta_keywords', 'Custom Fabricated Fittings, Industrial Fittings, Stainless Steel Fittings, Alloy Fittings, Duplex Fittings, Titanium Fittings, Nickel Fittings, ASTM/ASME Fittings')
 @section('content')
-    <!--Start breadcrumb area-->
-
-
-    <!--End mainmenu area-->
-
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Custom Fabricated Fittings</h1>
+                    <h1>Industrial Custom Fabricated Fittings</h1> <!-- 52 characters -->
                 </div>
             </div>
         </div>

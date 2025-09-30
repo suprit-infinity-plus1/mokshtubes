@@ -1,13 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Monel 400 Alloy | Superior Corrosion Resistance & Strength')
-@section('meta_description',
-    'High-quality Monel 400 offers superior corrosion resistance, excellent strength, and
-    reliability for marine, chemical, and industrial uses.')
-@section('meta_keywords',
-    'Monel 400, Monel 400 Alloy, Nickel-Copper Alloy, Corrosion Resistant Alloy, High Strength
-    Alloy, Marine Industry Alloys, Chemical Processing Alloys, Industrial Alloys, Impact Resistant Alloys, Durable Nickel
-    Alloys')
+@section('title', 'Monel 400 Alloy – Superior Corrosion & Strength') <!-- 53 chars -->
+@section('meta_description', 'Monel 400 provides superior corrosion resistance, excellent strength, and reliability for marine, chemical, and industrial applications.')
+@section('meta_keywords', 'Monel 400, Monel 400 Alloy, Nickel-Copper Alloy, Corrosion Resistant Alloy, High Strength Alloy, Marine Industry Alloys, Chemical Processing Alloys, Industrial Alloys, Impact Resistant Alloys, Durable Nickel Alloys')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -15,11 +10,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Monel 400</h1>
+                    <h1>Monel 400 <br> Corrosion Resistant & High-Strength Alloy</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

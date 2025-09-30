@@ -1,9 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Nickel 201 | High Purity Nickel for Corrosion Resistance.')
-@section('meta_description',
-    'Discover high-purity Nickel 201 offering superior corrosion resistance and reliability,
-    ideal for harsh chemical and industrial environments.')
+@section('title', 'Nickel 201 – High-Purity Nickel for Corrosion Resistance') <!-- 53 chars -->
+@section('meta_description', 'High-purity Nickel 201 offers superior corrosion resistance and reliability, ideal for harsh chemical and industrial environments.')
+@section('meta_keywords', 'Nickel 201, High Purity Nickel, Corrosion Resistant Nickel, Industrial Nickel, Chemical Industry Nickel, Nickel Alloy, Reliable Nickel, Industrial Applications, High-Quality Nickel')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -11,11 +10,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Nickel 201</h1>
+                    <h1>Nickel 201 <br> High-Purity & Corrosion Resistant Nickel</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

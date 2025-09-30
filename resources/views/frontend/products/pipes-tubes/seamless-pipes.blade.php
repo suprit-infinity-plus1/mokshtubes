@@ -1,24 +1,19 @@
 @extends('layouts.master')
-@section('title', 'Seamless Pipes | Stainless Steel & Alloy Tubes - Moksh Tubes')
+@section('title', 'Premium Seamless Pipes – Stainless & Alloy Tubes') <!-- 52 characters -->
 @section('meta_description',
-    'Discover high-quality seamless pipes engineered for superior strength, precision, and long-lasting durability across
-    critical industrial applications.')
+    'Moksh Tubes offers high-quality seamless pipes with superior strength, precision, and durability for critical industrial, marine, and power applications.') <!-- 153 characters -->
 @section('content')
-    <!--Start breadcrumb area-->
-
-
-    <!--End mainmenu area-->
-
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Seamless pipes</h1>
+                    <h1>High-Performance Seamless Pipes for Industry</h1> <!-- 52 characters -->
                 </div>
             </div>
         </div>
     </section>
+
 
 
     <section class="sec-padd-top sec-padd-bottom bg-light">

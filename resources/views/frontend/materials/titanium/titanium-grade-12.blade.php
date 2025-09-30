@@ -1,7 +1,9 @@
 @extends('layouts.master')
 
-@section('title', 'Titanium Grade 12 - Corrosion Resistant Alloy')
-@section('meta_description', 'Corrosion-resistant Titanium Grade 12 with enhanced weldability, ideal for marine and chemical industry applications.')
+@section('title', 'Titanium Grade 12 – Corrosion Resistant & Weldable Alloy') <!-- 52 chars -->
+@section('meta_description', 'Titanium Grade 12 offers excellent corrosion resistance and enhanced weldability, ideal for marine, chemical, and industrial applications.')
+@section('meta_keywords', 'Titanium Grade 12, Corrosion Resistant Titanium, Weldable Titanium Alloy, Titanium Grade 12 Pipes, Titanium Grade 12 Tubes, Marine Titanium Alloys, Chemical Processing Titanium, Industrial Titanium Grades, High Strength Titanium, Premium Titanium Alloy')
+
 @section('content')
 
     <!--Start breadcrumb area-->
@@ -9,11 +11,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Titanium Grade 12</h1>
+                    <h1>Titanium Grade 12 <br> Corrosion Resistant & Weldable Alloy</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

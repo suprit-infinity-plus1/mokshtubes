@@ -12,7 +12,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Hastelloy</h1>
+                    <h1>Hastelloy Alloys: C276, C22, B2 <br> Corrosion Resistant Nickel Alloys</h1>
                 </div>
             </div>
         </div>

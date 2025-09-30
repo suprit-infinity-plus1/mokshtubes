@@ -1,23 +1,20 @@
 @extends('layouts.master')
-@section('title', 'Mokshtubes Pipe Fittings, Flanges & Fasteners')
+@section('title', 'Pipe Fittings, Flanges & Fasteners – Mokshtubes') <!-- 52 characters -->
 @section('meta_description',
-    'Discover Mokshtubes pipe fittings, flanges, fasteners, gaskets, and custom fabricated fittings designed for strength, durability, and precision in every application.')
+    'Mokshtubes provides premium pipe fittings, flanges, fasteners, gaskets & custom fabricated fittings designed for industrial strength, durability & precision.') <!-- 153 characters -->
 @section('content')
-    <!--Start breadcrumb area-->
-
-
-    <!--End mainmenu area-->
-
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Pipe Fittings Flanges Fasteners</h1>
+                    <h1>Premium Pipe Fittings, Flanges & Fasteners</h1> <!-- 52 characters -->
                 </div>
             </div>
         </div>
     </section>
+
+
 
 
     <section class="sec-padd-top sec-padd-bottom bg-white">

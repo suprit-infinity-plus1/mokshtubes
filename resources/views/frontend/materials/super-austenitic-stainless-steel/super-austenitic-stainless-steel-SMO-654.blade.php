@@ -1,10 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'SMO 654 | Super Austenitic Stainless Steel | Mokshtubes')
-@section('meta_description', 'SMO 654 – Super austenitic stainless steel with excellent chloride resistance, high
-    strength & durability in harsh chemical conditions.')
-@section('meta_keywords', 'SMO 654, super austenitic stainless steel, chloride resistant steel, chemical resistant
-    steel, high strength stainless steel')
+@section('title', 'SMO 654 – Super Austenitic Stainless Steel') <!-- 52 chars -->
+@section('meta_description', 'SMO 654 is a super austenitic stainless steel offering excellent chloride resistance, high strength, and durability in harsh chemical environments.')
+@section('meta_keywords', 'SMO 654, Super Austenitic Stainless Steel, Chloride Resistant Alloy, Chemical Resistant Steel, High Strength Stainless Steel, Industrial Stainless Steel Alloys')
 
 @section('content')
 
@@ -13,11 +11,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>SMO 654</h1>
+                    <h1>SMO 654 <br> High Strength & Chloride Resistant Stainless Steel</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

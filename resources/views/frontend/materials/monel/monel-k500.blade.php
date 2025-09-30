@@ -1,13 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Monel K500 Alloy | Ultimate Strength & Shield')
-@section('meta_description',
-    'Discover the extreme strength and corrosion resistance of Monel K500—engineered for top
-    performance in marine, chemical, and oilfield environments.')
-@section('meta_keywords',
-    'Monel K500, Monel K500 Alloy, Nickel-Copper Alloy, High Strength Alloy, Corrosion Resistant
-    Alloy, Marine Industry Alloys, Chemical Processing Alloys, Oilfield Alloys, Impact Resistant Alloys, Durable Nickel
-    Alloys')
+@section('title', 'Monel K500 Alloy – Ultimate Strength & Corrosion Shield') <!-- 53 chars -->
+@section('meta_description', 'Monel K500 offers extreme strength and corrosion resistance—engineered for peak performance in marine, chemical, and oilfield applications.')
+@section('meta_keywords', 'Monel K500, Monel K500 Alloy, Nickel-Copper Alloy, High Strength Alloy, Corrosion Resistant Alloy, Marine Industry Alloys, Chemical Processing Alloys, Oilfield Alloys, Impact Resistant Alloys, Durable Nickel Alloys')
 
 @section('content')
 
@@ -16,11 +11,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Monel K500</h1>
+                    <h1>Monel K500 <br> High-Strength & Corrosion Resistant Alloy</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

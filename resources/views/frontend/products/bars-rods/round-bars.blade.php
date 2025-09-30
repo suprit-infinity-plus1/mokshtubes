@@ -1,23 +1,20 @@
 @extends('layouts.master')
-@section('title', 'Round Bars | SS, MS, Alloy Steel, Copper, Brass, Nickel.')
+@section('title', 'Round Bars – SS, MS, Alloy, Copper & Brass') <!-- 52 characters -->
 @section('meta_description',
-    'Mokshtubes offers stainless steel, MS, alloy steel, nickel alloy, titanium, aluminium, brass & copper round bars with grades, sizes & weight chart.')
-@section('meta_keywords', 'Round Bars')
+    'Mokshtubes supplies high-quality stainless steel, MS, alloy, copper, brass, nickel & aluminium round bars in various sizes, grades & weight chart.') <!-- 153 characters -->
+@section('meta_keywords', 'Round Bars, Stainless Steel Round Bars, MS Round Bars, Alloy Round Bars, Copper Round Bars, Brass Round Bars, Nickel Round Bars, Aluminium Round Bars')
 @section('content')
-
-
-
     <!--Start breadcrumb area-->
-
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Round Bars</h1>
+                    <h1>Premium SS, MS & Alloy Round Bars</h1> <!-- 52 characters -->
                 </div>
             </div>
         </div>
     </section>
+
 
         <!--End breadcrumb area-->
 

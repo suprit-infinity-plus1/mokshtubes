@@ -1,7 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Titanium Grade 23 (Ti-6Al-4V ELI) - High Strength Alloy')
-@section('meta_description', 'Titanium Grade 23 (Ti-6Al-4V ELI) offers exceptional strength and low weight for aerospace and medical industries applications.')
+@section('title', 'Titanium Grade 23 – Ti-6Al-4V ELI High Strength Alloy') <!-- 52 chars -->
+@section('meta_description', 'Titanium Grade 23 (Ti-6Al-4V ELI) provides exceptional strength, low weight, and corrosion resistance for aerospace and medical applications.')
+@section('meta_keywords', 'Titanium Grade 23, Ti-6Al-4V ELI, High Strength Titanium, Lightweight Titanium Alloy, Aerospace Titanium Alloys, Medical Titanium Alloys, Corrosion Resistant Titanium, Titanium Grade 23 Pipes, Titanium Grade 23 Tubes, Industrial Titanium Grades')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -9,11 +10,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Titanium Grade 23</h1>
+                    <h1>Titanium Grade 23 <br> Ti-6Al-4V ELI High Strength Alloy</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

@@ -1,26 +1,22 @@
 @extends('layouts.master')
 
 @section('title', 'Hastelloy C-22 – Superior Corrosion-Resistant Alloys.')
-@section('meta_description',
-    'Hastelloy C-22 pipes, tubes & fittings offer unmatched resistance to oxidizing and reducing agents, with exceptional corrosion protection for harsh industrial environments.')
-@section('meta_keywords',
-    'Hastelloy C-22, Hastelloy C22, Corrosion Resistant Alloy, Hastelloy C22 Pipes, Hastelloy C22
-    Tubes, Hastelloy C22 Fittings, Pitting Resistant Alloy, Crevice Corrosion Resistant, Stress Corrosion Resistant,
-    Chemical Processing Alloys, Industrial Corrosion Resistant Alloys, Durable Nickel Alloys')
+@section('meta_description', 'Hastelloy C-22 pipes, tubes & fittings offer unmatched resistance to oxidizing and reducing agents, with exceptional corrosion protection for harsh industrial environments.')
+@section('meta_keywords', 'Hastelloy C-22, Hastelloy C22, Corrosion Resistant Alloy, Hastelloy C22 Pipes, Hastelloy C22 Tubes, Hastelloy C22 Fittings, Pitting Resistant Alloy, Crevice Corrosion Resistant, Stress Corrosion Resistant, Chemical Processing Alloys, Industrial Corrosion Resistant Alloys, Durable Nickel Alloys')
 
 @section('content')
-
 
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Hastelloy C22 UNS N06022</h1>
+                    <h1>Hastelloy C-22 Alloy <br> UNS N06022 Corrosion-Resistant Nickel Alloy</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

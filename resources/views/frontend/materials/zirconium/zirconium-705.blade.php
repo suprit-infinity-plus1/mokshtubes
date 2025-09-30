@@ -16,7 +16,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Zirconium 705</h1>
+                    <h1>Zirconium 705 <br> High-Performance & Corrosion Resistant Alloy</h1>
                 </div>
             </div>
         </div>

@@ -1,11 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Titanium Grade 7 Nb | Niobium Stabilized Titanium Alloy')
-@section('meta_description', 'Titanium Grade 7 Nb alloy with excellent corrosion resistance, especially in reducing
-    environments.')
-@section('meta_keywords', 'Titanium Grade 7 Nb, Niobium Stabilized Titanium, Corrosion Resistant Titanium, Titanium
-    Grade 7 Nb Pipes, Titanium Grade 7 Nb Tubes, Titanium Grade 7 Nb Sheets, Reducing Environment Resistant Titanium,
-    Chemical Processing Titanium, Industrial Titanium Alloys, High Performance Titanium')
+@section('title', 'Titanium Grade 7 Nb – Niobium Stabilized Titanium Alloy') <!-- 52 chars -->
+@section('meta_description', 'Titanium Grade 7 Nb provides excellent corrosion resistance, particularly in reducing environments, ideal for chemical, marine, and industrial applications.')
+@section('meta_keywords', 'Titanium Grade 7 Nb, Niobium Stabilized Titanium, Corrosion Resistant Titanium, Titanium Grade 7 Nb Pipes, Titanium Grade 7 Nb Tubes, Titanium Grade 7 Nb Sheets, Reducing Environment Resistant Titanium, Chemical Processing Titanium, Industrial Titanium Alloys, High Performance Titanium')
 
 @section('content')
 
@@ -14,11 +11,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Titanium Grade 7 NB</h1>
+                    <h1>Titanium Grade 7 Nb <br> Corrosion Resistant & High Performance Alloy</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

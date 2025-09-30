@@ -9,7 +9,8 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Haynes Superalloys</h1>
+                    <h1>Haynes Superalloys 188, 230, 242, 160</h1>
+
                 </div>
             </div>
         </div>

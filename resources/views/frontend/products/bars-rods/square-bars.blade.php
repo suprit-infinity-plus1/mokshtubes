@@ -1,28 +1,20 @@
 @extends('layouts.master')
-@section('title', 'Square Bars - Stainless, MS, Aluminium & Brass.')
+@section('title', 'Square Bars – Stainless, MS, Aluminium & Brass') <!-- 52 characters -->
 @section('meta_description',
-    'Get premium Square Bars in SS, MS, Aluminium & Brass at Moksh Tubes. View size charts,
-    grades & order custom cut to length options.')
-@section('meta_keywords',
-    'Square Bar, Mild Steel Square Bar, Stainless Steel Square Bar, Carbon Steel Square Bar, Alloy
-    Steel Square Bar, 10mm Square Bar, 12mm Square Bar, 20mm Square Bar, Steel Square Rod, MS Square Rod, Bright Square Bar,
-    Hot Rolled Square Bar, Cold Drawn Square Bar, Steel Square Bar Weight Chart, Square Bar Supplier.')
+    'Moksh Tubes supplies premium Square Bars in SS, MS, Aluminium & Brass with size charts, grades & custom cut-to-length options.') <!-- 152 characters -->
+@section('meta_keywords', 'Square Bars, Stainless Square Bars, MS Square Bars, Aluminium Square Bars, Brass Square Bars, Steel Square Rods, Square Bar Sizes, Square Bar Weight Chart')
 @section('content')
-    <!--Start breadcrumb area-->
-
-
-    <!--End mainmenu area-->
-
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Square Bars</h1>
+                    <h1>Premium SS, MS & Aluminium Square Bars</h1> <!-- 52 characters -->
                 </div>
             </div>
         </div>
     </section>
+
 
 
     <section class="sec-padd-top sec-padd-bottom bg-light">

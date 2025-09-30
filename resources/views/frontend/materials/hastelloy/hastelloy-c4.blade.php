@@ -1,26 +1,22 @@
 @extends('layouts.master')
 
 @section('title', 'Hastelloy C-4 | High-Performance Alloy for Oxidizing Media')
-@section('meta_description',
-    'Hastelloy C-4 pipes, tubes & fittings provide long-term stability and superior resistance to oxidizing chemicals, acids, and high heat for industrial applications.')
-@section('meta_keywords',
-    'Hastelloy C-4, Hastelloy C4, High Performance Alloy, Corrosion Resistant Alloy, Hastelloy C4
-    Pipes, Hastelloy C4 Tubes, Hastelloy C4 Fittings, Oxidizer Resistant Alloy, Acid Resistant Alloy, Industrial Corrosion
-    Resistant Alloys, High Temperature Alloys, Durable Nickel Alloys')
+@section('meta_description', 'Hastelloy C-4 pipes, tubes & fittings provide long-term stability and superior resistance to oxidizing chemicals, acids, and high heat for industrial applications.')
+@section('meta_keywords', 'Hastelloy C-4, Hastelloy C4, high performance alloy, corrosion resistant alloy, Hastelloy C4 pipes, Hastelloy C4 tubes, Hastelloy C4 fittings, oxidizer resistant alloy, acid resistant alloy, industrial corrosion resistant alloys, high temperature alloys, durable nickel alloys')
 
 @section('content')
-
 
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Hastelloy C-4 (UNS N06455 | W.Nr. 2.4610)</h1>
+                    <h1>Hastelloy C-4 Alloy <br> UNS N06455 High-Performance Nickel Alloy</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

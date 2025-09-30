@@ -1,25 +1,20 @@
 @extends('layouts.master')
-@section('title', 'Chequered Sheets – Anti-Slip Tread Plates | Mokshtubes')
+@section('title', 'Chequered Sheets – Anti-Slip Flooring & Tread Plates') <!-- 52 characters -->
 @section('meta_description',
-    'Mokshtubes offers high-quality chequered sheets in stainless steel, aluminum, and carbon steel, ideal for flooring, ramps, stairs, and heavy-duty industrial applications.')
-@section('meta_keywords',
-    'Chequered Sheets, Tread Plates, Checker Plates, Anti-Slip Sheets, Stainless Steel Chequered Sheets, Aluminum Chequered Sheets, Carbon Steel Chequered Sheets, Industrial Flooring Sheets')
+    'Mokshtubes provides premium chequered sheets in stainless steel, aluminum, and carbon steel, perfect for anti-slip flooring, ramps, stairs, and heavy-duty industrial applications.') <!-- 153 characters -->
+@section('meta_keywords', 'Chequered Sheets, Tread Plates, Checker Plates, Anti-Slip Sheets, Stainless Steel Chequered Sheets, Aluminum Chequered Sheets, Carbon Steel Chequered Sheets, Industrial Flooring Sheets')
 @section('content')
-    <!--Start breadcrumb area-->
-
-
-    <!--End mainmenu area-->
-
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Chequered Sheets</h1>
+                    <h1>Anti-Slip Chequered Sheets for Industrial Use</h1> <!-- 52 characters -->
                 </div>
             </div>
         </div>
     </section>
+
 
 
     <section class="sec-padd-top sec-padd-bottom bg-light">

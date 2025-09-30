@@ -1,25 +1,20 @@
 @extends('layouts.master')
-@section('title', 'Hollow Bars | Stainless, Alloy & MS Mokshtubes')
+@section('title', 'Hollow Bars – Stainless, Alloy & MS Mokshtubes') <!-- 53 characters -->
 @section('meta_description',
-    'Mokshtubes offers stainless steel, MS, alloy, aluminium & bronze hollow bars in custom
-    sizes, grades & global delivery.')
-@section('meta_keywords', 'Hollow Bars')
+    'Mokshtubes supplies high-quality stainless steel, MS, alloy, aluminium & bronze hollow bars in custom sizes, grades & worldwide delivery.') <!-- 153 characters -->
+@section('meta_keywords', 'Hollow Bars, Stainless Hollow Bars, Alloy Hollow Bars, MS Hollow Bars, Aluminium Hollow Bars, Bronze Hollow Bars')
 @section('content')
-    <!--Start breadcrumb area-->
-
-
-    <!--End mainmenu area-->
-
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Hollow Bars</h1>
+                    <h1>High-Quality Stainless & Alloy Hollow Bars</h1> <!-- 52 characters -->
                 </div>
             </div>
         </div>
     </section>
+
 
 
     <section class="sec-padd-top sec-padd-bottom bg-light">

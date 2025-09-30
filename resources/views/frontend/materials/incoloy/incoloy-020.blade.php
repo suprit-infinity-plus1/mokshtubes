@@ -15,7 +15,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>INCOLOY 020</h1>
+                   <h1>Incoloy 020 <br> High-Performance Industrial Alloy</h1>
                 </div>
             </div>
         </div>

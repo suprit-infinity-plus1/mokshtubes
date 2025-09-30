@@ -1,23 +1,19 @@
 @extends('layouts.master')
-@section('title', 'Hollow Section Pipes | Durable Steel Tubes - Moksh Tubes')
+@section('title', 'Hollow Section Pipes – Square, Rectangular & Oval Tubes') <!-- 53 characters -->
 @section('meta_description',
-    'Moksh Tubes supplies high-quality hollow section pipes in square, rectangular & oval shapes. Durable, corrosion-resistant & ideal for structural use.')
+    'Moksh Tubes provides premium hollow section pipes in square, rectangular, and oval shapes. Durable, corrosion-resistant tubes ideal for structural and industrial applications.') <!-- 153 characters -->
 @section('content')
-    <!--Start breadcrumb area-->
-
-
-    <!--End mainmenu area-->
-
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Hollow Section Pipe</h1>
+                    <h1>Durable Hollow Section Pipes for Industrial Use</h1> <!-- 52 characters -->
                 </div>
             </div>
         </div>
     </section>
+
 
 
     <section class="sec-padd-top sec-padd-bottom bg-light">

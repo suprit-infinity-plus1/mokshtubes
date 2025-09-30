@@ -13,7 +13,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Incoloy</h1>
+                    <h1>Incoloy Alloys <br> High Strength, Heat & Corrosion Resistance</h1>
                 </div>
             </div>
         </div>

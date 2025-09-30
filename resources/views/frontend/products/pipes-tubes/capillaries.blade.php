@@ -1,25 +1,19 @@
 @extends('layouts.master')
-@section('title', 'Capillary Tubes | Precision & High-Performance Solutions.')
+@section('title', 'Precision Capillary Tubes – High-Performance Solutions') <!-- 52 characters -->
 @section('meta_description',
-    'Explore premium capillary tubes delivering exceptional precision, durability, and reliability for diverse industrial
-    and medical applications.
-    ')
+    'Moksh Tubes offers premium capillary tubes with exceptional precision, durability, and reliability for industrial, medical, and high-performance applications.') <!-- 153 characters -->
 @section('content')
-    <!--Start breadcrumb area-->
-
-
-    <!--End mainmenu area-->
-
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Capillary Tubes</h1>
+                    <h1>High-Precision Capillary Tubes for Industrial Use</h1> <!-- 52 characters -->
                 </div>
             </div>
         </div>
     </section>
+
 
 
     <section class="sec-padd-top sec-padd-bottom bg-light">

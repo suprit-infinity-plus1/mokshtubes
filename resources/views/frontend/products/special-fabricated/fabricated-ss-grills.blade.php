@@ -1,26 +1,20 @@
 @extends('layouts.master')
-@section('title', 'Fabricated Stainless Steel Grills – Custom Designs')
+@section('title', 'Fabricated Stainless Steel Grills – Stylish & Durable') <!-- 52 characters -->
 @section('meta_description',
-    'Get premium fabricated stainless steel grills at Moksh Tubes – durable, rust-resistant & stylish. Perfect for gates, balconies, staircases & windows.')
-@section('meta_keywords', 'Fabricated Stainless Steel Grills, SS Grills Manufacturer, Stainless Steel Window Grills, SS
-    Balcony & Staircase Grills, Custom Stainless Steel Grills, Decorative Stainless Steel Grills, Modern SS Grills for Home,
-    Industrial Stainless Steel Grills, Duplex & Super Duplex Steel Grills, Stainless Steel Security Grills')
+    'Moksh Tubes provides premium fabricated stainless steel grills – rust-resistant, durable, and stylish, ideal for gates, balconies, staircases, and windows.') <!-- 153 characters -->
+@section('meta_keywords', 'Fabricated Stainless Steel Grills, SS Grills Manufacturer, Stainless Steel Window Grills, SS Balcony & Staircase Grills, Custom Stainless Steel Grills, Decorative Stainless Steel Grills, Modern SS Grills for Home, Industrial Stainless Steel Grills, Duplex & Super Duplex Steel Grills, Stainless Steel Security Grills')
 @section('content')
-    <!--Start breadcrumb area-->
-
-
-    <!--End mainmenu area-->
-
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Fabricated Stainless Steel Grills</h1>
+                    <h1>Premium Fabricated Stainless Steel Grills</h1> <!-- 52 characters -->
                 </div>
             </div>
         </div>
     </section>
+
 
 
     <section class="sec-padd-top sec-padd-bottom bg-light">

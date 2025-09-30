@@ -16,7 +16,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>INCOLOY 800H / 800HT</h1>
+                    <h1>Incoloy 800H / 800HT <br> High Strength & Heat Resistance</h1>
                 </div>
             </div>
         </div>

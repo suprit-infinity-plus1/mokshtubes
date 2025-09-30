@@ -1,13 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Inconel 625 | Superior Strength & Marine Protection')
-@section('meta_description',
-    'Inconel 625 offers unmatched fatigue, creep, and chloride resistance—perfect for
-    aerospace, marine, and chemical processing applications')
-@section('meta_keywords',
-    'Inconel 625, Superior Strength Alloy, Marine Protection Alloy, Nickel Alloys, Fatigue
-    Resistant Alloy, Creep Resistant Alloy, Chloride Resistant Alloy, Aerospace Alloys, Marine Industry Alloys, Chemical
-    Processing Alloys, Corrosion Resistant Alloys')
+@section('title', 'Inconel 625 – Superior Strength & Corrosion Alloy') <!-- 53 chars -->
+@section('meta_description', 'Inconel 625 provides exceptional fatigue, creep, and chloride resistance—ideal for aerospace, marine, and chemical processing applications.')
+@section('meta_keywords', 'Inconel 625, Superior Strength Alloy, Marine Protection Alloy, Nickel Alloys, Fatigue Resistant Alloy, Creep Resistant Alloy, Chloride Resistant Alloy, Aerospace Alloys, Marine Industry Alloys, Chemical Processing Alloys, Corrosion Resistant Alloys')
 
 @section('content')
 
@@ -16,11 +11,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Inconel 625</h1>
+                    <h1>Inconel 625 <br> Corrosion & Heat Resistant Alloy</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

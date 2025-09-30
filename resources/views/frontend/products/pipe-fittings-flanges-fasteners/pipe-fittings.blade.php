@@ -1,25 +1,20 @@
 @extends('layouts.master')
-@section('title', 'Pipe Fittings Manufacturer & Supplier | Moksh Tubes')
+@section('title', 'Premium Pipe Fittings Manufacturer & Supplier') <!-- 52 characters -->
 @section('meta_description',
-    'Moksh Tubes offers stainless steel, carbon steel, alloy, duplex, nickel alloy, and titanium pipe fittings manufactured as per ASTM/ASME standards for strength, reliability, and performance.')
-@section('meta_keywords',
-    'pipe fittings, stainless steel fittings, carbon steel fittings, alloy steel fittings, duplex fittings, nickel alloy fittings, titanium fittings, ASTM fittings, ASME fittings, industrial pipe fittings')
+    'Moksh Tubes provides high-quality stainless, carbon, alloy, duplex, nickel & titanium pipe fittings built to ASTM/ASME standards for industrial reliability and performance.') <!-- 153 characters -->
+@section('meta_keywords', 'Pipe Fittings, Stainless Steel Fittings, Carbon Steel Fittings, Alloy Steel Fittings, Duplex Fittings, Nickel Alloy Fittings, Titanium Fittings, ASTM/ASME Fittings, Industrial Pipe Fittings')
 @section('content')
-    <!--Start breadcrumb area-->
-
-
-    <!--End mainmenu area-->
-
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Pipe Fittings</h1>
+                    <h1>Industrial Pipe Fittings for High-Performance Systems</h1> <!-- 52 characters -->
                 </div>
             </div>
         </div>
     </section>
+
 
 
     <section class="sec-padd-top sec-padd-bottom bg-light">

@@ -1,13 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Inconel 690 | High-Chromium Corrosion Master Alloy')
-@section('meta_description',
-    'Inconel 690 provides outstanding resistance to oxidizing chemicals and hot gases—trusted
-    in nuclear, chemical, and thermal processing.')
-@section('meta_keywords',
-    'Inconel 690, High-Chromium Alloy, Corrosion Resistant Alloy, Nickel Alloys, Oxidation
-    Resistant Alloy, Nuclear Industry Alloys, Chemical Processing Alloys, Thermal Processing Alloys, High Temperature
-    Alloys, Oxidizing Chemical Resistant Alloys')
+@section('title', 'Inconel 690 – High-Chromium Corrosion Alloy') <!-- 53 chars -->
+@section('meta_description', 'Inconel 690 delivers excellent resistance to oxidizing chemicals and high temperatures—ideal for nuclear, chemical, and thermal processing.')
+@section('meta_keywords', 'Inconel 690, High-Chromium Alloy, Corrosion Resistant Alloy, Nickel Alloys, Oxidation Resistant Alloy, Nuclear Industry Alloys, Chemical Processing Alloys, Thermal Processing Alloys, High Temperature Alloys, Oxidizing Chemical Resistant Alloys')
 
 @section('content')
 
@@ -16,11 +11,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Inconel 690</h1>
+                    <h1>Inconel 690 <br> High Corrosion & Heat Resistant Alloy</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

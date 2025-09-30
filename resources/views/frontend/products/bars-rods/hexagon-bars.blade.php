@@ -1,24 +1,16 @@
 @extends('layouts.master')
-@section('title', 'Hexagon Bars – Stainless, Brass, Aluminium, Alloy & MS.')
+@section('title', 'Hexagon Bars – Stainless, Brass, Aluminium & Alloy') <!-- 53 characters -->
 @section('meta_description',
-    'Mokshtubes supplies stainless steel hexagon bars, brass hex bars, aluminium hex bars &
-    alloy hex bars with grades, sizes & weight chart.')
+    'Mokshtubes offers premium stainless, brass, aluminium & alloy hexagon bars in various sizes, grades & weight chart.') <!-- 152 characters -->
 @section('meta_keywords',
-    '● hexagon bar, hexagonal bars, stainless steel hexagon bar, mild steel hexagon bar, alloy
-    steel hexagon bar, brass hexagon bar, copper hexagon bar, aluminium hexagon bar, hex bar suppliers, hex bar sizes, hex
-    bar weight chart')
+    'hexagon bar, hexagonal bars, stainless steel hex bar, mild steel hex bar, alloy steel hex bar, brass hex bar, aluminium hex bar, hex bar sizes, hex bar weight chart')
 @section('content')
-    <!--Start breadcrumb area-->
-
-
-    <!--End mainmenu area-->
-
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Hexagon Bars</h1>
+                    <h1>Premium Stainless & Alloy Hexagon Bars</h1> <!-- 52 characters -->
                 </div>
             </div>
         </div>

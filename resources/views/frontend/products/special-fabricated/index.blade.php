@@ -1,19 +1,16 @@
 @extends('layouts.master')
-@section('title', 'Mokshtubes Special Fabricated | Steel & SS Works')
+@section('title', 'Special Fabricated Products – Steel & Stainless Solutions') <!-- 53 characters -->
 @section('meta_description',
-    'Mokshtubes provides special fabricated products including custom steel furniture, SS grills, railings, and glass solutions crafted for durability, functionality, and modern style.')
+    'Mokshtubes offers special fabricated products including custom steel furniture, stainless steel grills, railings, and glass solutions designed for durability, functionality, and modern style.') <!-- 153 characters -->
+@section('meta_keywords',
+    'special fabricated, custom steel furniture, stainless steel grills, railings, glass solutions, modern fabricated products, durable fabricated items, custom metal works, industrial steel fabrication')
 @section('content')
-    <!--Start breadcrumb area-->
-
-
-    <!--End mainmenu area-->
-
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Special Fabricated</h1>
+                    <h1>Premium Special Fabricated Products</h1> <!-- 52 characters -->
                 </div>
             </div>
         </div>

@@ -1,10 +1,8 @@
 @extends('layouts.master')
-@section('title',
-    'Super Austenitic Stainless Steel: 904L, SMO 254 | MokshTubes')
-@section('meta_description',
-    'Premium super austenitic stainless steels 904L, SMO 254, and Alloy 926 at MokshTubes, built for chloride resistance, strength, and harsh chemical exposure.')
-@section('meta_keywords',
-     'Super Austenitic Stainless Steel, 904L, SMO 254, Alloy 926, Chloride Resistant Alloy, Corrosion Resistant Alloy, Chemical Processing Alloys, Marine Industry Alloys, High Strength Stainless Steel, Industrial Stainless Steel Alloys')
+
+@section('title', 'Super Austenitic Stainless Steel – 904L & SMO 254') <!-- 52 chars -->
+@section('meta_description', 'Premium super austenitic stainless steels 904L, SMO 254, and Alloy 926 at MokshTubes, offering chloride resistance, high strength, and chemical durability.')
+@section('meta_keywords', 'Super Austenitic Stainless Steel, 904L, SMO 254, Alloy 926, Chloride Resistant Alloy, Corrosion Resistant Alloy, Chemical Processing Alloys, Marine Industry Alloys, High Strength Stainless Steel, Industrial Stainless Steel Alloys')
 
 @section('content')
 
@@ -13,11 +11,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Super Austenitic Stainless Steel</h1>
+                    <h1>Super Austenitic Stainless Steel <br> 904L, SMO 254 & Alloy 926</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End mainmenu area-->
 

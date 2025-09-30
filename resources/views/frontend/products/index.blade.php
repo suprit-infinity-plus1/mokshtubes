@@ -23,7 +23,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Products</h1>
+                   <h1>Industrial Pipes & Tubes</h1>
                 </div>
             </div>
         </div>

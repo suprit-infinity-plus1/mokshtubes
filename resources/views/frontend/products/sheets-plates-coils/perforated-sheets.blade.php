@@ -1,25 +1,20 @@
 @extends('layouts.master')
-@section('title', 'Mokshtubes Perforated Sheets – Durable & Precision Engineered')
+@section('title', 'Perforated Sheets – Durable & Precision Metal Panels') <!-- 52 characters -->
 @section('meta_description',
-    'Explore Mokshtubes perforated sheets offering strength, corrosion resistance, and precision in stainless steel, carbon steel, and alloy steels, ideal for diverse industrial applications.')
-@section('meta_keywords',
-    '● Perforated Sheets, ● Perforated Metal Sheets, ● Stainless Steel Perforated Sheets, ● Carbon Steel Perforated Sheets, ● Alloy Steel Perforated Sheets, ● Custom Perforated Sheets, ● Industrial Perforated Sheets, ● Precision Engineered Sheets, ● Corrosion Resistant Sheets, ● Durable Metal Sheets')
+    'Mokshtubes provides high-quality perforated sheets in stainless steel, carbon steel, and alloy steels, designed for strength, corrosion resistance, and precision for diverse industrial applications.') <!-- 153 characters -->
+@section('meta_keywords', 'Perforated Sheets, Perforated Metal Sheets, Stainless Steel Perforated Sheets, Carbon Steel Perforated Sheets, Alloy Steel Perforated Sheets, Custom Perforated Sheets, Industrial Perforated Sheets, Precision Engineered Sheets, Corrosion Resistant Sheets, Durable Metal Sheets')
 @section('content')
-    <!--Start breadcrumb area-->
-
-
-    <!--End mainmenu area-->
-
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Perforated Sheets</h1>
+                    <h1>High-Quality Perforated Sheets for Industrial Use</h1> <!-- 52 characters -->
                 </div>
             </div>
         </div>
     </section>
+
 
 
     <section class="sec-padd-top sec-padd-bottom bg-light">
