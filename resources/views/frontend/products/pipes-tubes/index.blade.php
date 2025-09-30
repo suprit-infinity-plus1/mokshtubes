@@ -1,8 +1,11 @@
 @extends('layouts.master')
 @section('title', 'Premium Pipes & Tubes – Welded, Seamless & Capillaries') <!-- 53 characters -->
 @section('meta_description',
-    'Moksh Tubes supplies high-quality pipes and tubes including welded, seamless, capillaries, hollow sections, U-bent & boiler tubes in stainless steel, nickel & titanium alloys.') <!-- 153 characters -->
-@section('meta_keywords', 'Pipes, Tubes, Welded Pipes, Seamless Pipes, Capillaries, Hollow Section Pipes, U-Bent Tubes, Boiler Tubes, Stainless Steel Pipes, Nickel Tubes, Titanium Tubes')
+    'Moksh Tubes supplies high-quality pipes and tubes including welded, seamless, capillaries,
+    hollow sections, U-bent & boiler tubes in stainless steel, nickel & titanium alloys.') <!-- 153 characters -->
+@section('meta_keywords',
+    'Pipes, Tubes, Welded Pipes, Seamless Pipes, Capillaries, Hollow Section Pipes, U-Bent Tubes,
+    Boiler Tubes, Stainless Steel Pipes, Nickel Tubes, Titanium Tubes')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
