@@ -26,7 +26,7 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/peoduct/seamless-pipes-2.webp') }}" alt="Seamless pipes" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/peoduct/Sheets, Plates and Coils/chequered-sheets.jpeg') }}" alt="Seamless pipes" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Right Content -->
@@ -212,7 +212,7 @@
 
 
     <section class="bg-light" style="padding-top: 80px;">
-        
+
         <div class="container">
             <div class="section-title center">
                 <h2 class="fw-bold" style="color: #174268;">Chequered Sheet Weight Chart</h2>
@@ -285,7 +285,7 @@
     </section>
 
     <section class="bg-light" style="padding-top: 80px;">
-        
+
                     <!-- Child Title -->
             <div class="section-title center mb-3">
                 <h4 class="text-center mb-0" style="color: #db7227;">Stainless Steel (Density 8.0 g/cm³)</h4>
@@ -352,8 +352,8 @@
         </div>
     </section>
     <section class="bg-light" style="padding-top: 80px;">
-        
-            
+
+
             <!-- Child Title -->
             <div class="section-title center mb-3">
                 <h4 class="text-center mb-0" style="color: #db7227;">Aluminum (Density 2.7 g/cm³)</h4>
@@ -416,7 +416,7 @@
         </div>
     </section>
 
-    
+
     {{-- Grades Available --}}
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -460,7 +460,7 @@
                                         Grades for heavy-duty and industrial platforms requiring high strength.
                                     </td>
                                 </tr>
-                                
+
                             </tbody>
                         </table>
                     </div>
@@ -771,7 +771,7 @@
             </div>
 
             <div class="row g-4">
-               
+
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
@@ -796,7 +796,7 @@
                             <li>
                                Truck beds, bus steps, trailer flooring, and vehicle ramps
                             </li>
-                           
+
                          </ul>
                     </div>
                 </div>
@@ -809,7 +809,7 @@
                             <li>
                                 Railway stations, airports, pedestrian bridges, and subways
                             </li>
-                            
+
                         </ul>
                     </div>
                 </div>
@@ -823,7 +823,7 @@
                                 Boat decks, ship flooring, and dockside safety surfaces
                             </li>
                             <li>
-                                Offshore platform walkways and maintenance areas        
+                                Offshore platform walkways and maintenance areas
                             </li>
                         </ul>
                     </div>
@@ -833,7 +833,7 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-recycle"></i></div>
                         <h5>Industrial & Heavy-Duty Use</h5>
-                        
+
                         <ul>
                             <li>
                                Platforms, catwalks, oil rigs, and factory flooring
@@ -905,7 +905,7 @@
                     </div>
                 </div>
 
-               
+
             </div>
         </div>
     </section>
@@ -1083,7 +1083,7 @@
                         <h5>Global Supply Network: Serving construction, industrial, and transport sectors worldwide
                     </div>
                 </div>
-                
+
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">

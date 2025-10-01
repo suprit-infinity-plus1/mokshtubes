@@ -26,7 +26,7 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/peoduct/steel-furniture/custom-steel-furniture.webp') }}"
+                    <img src="{{ asset('assets/images/peoduct/Sheets, Plates and Coils/Metal-Coils.jpeg') }}"
                         alt="Hexagon Bars" class="img-fluid rounded shadow-sm">
                 </div>
 
@@ -242,7 +242,7 @@
 
         </div>
     </section>
-    
+
 
     {{-- Grades Available --}}
     <section class="sec-padd-top sec-padd-bottom">
@@ -268,7 +268,7 @@
                     <tr class="t-row">
                         <td>Stainless Steel</td>
                         <td>
-                            304, 304L, 316, 316L, 321, 347  
+                            304, 304L, 316, 316L, 321, 347
                             <br>
                             <small>(Corrosion-resistant & hygienic)</small>
                         </td>
@@ -276,7 +276,7 @@
                     <tr class="t-row">
                         <td>Carbon & Mild Steel</td>
                         <td>
-                            ASTM A36, IS2062, EN10025  
+                            ASTM A36, IS2062, EN10025
                             <br>
                             <small>(Structural & fabrication use)</small>
                         </td>
@@ -284,7 +284,7 @@
                     <tr class="t-row">
                         <td>Alloy Steel</td>
                         <td>
-                            High-strength engineering grades  
+                            High-strength engineering grades
                             <br>
                             <small>(Industrial machinery & heavy-duty use)</small>
                         </td>
@@ -292,7 +292,7 @@
                     <tr class="t-row">
                         <td>Duplex & Super Duplex</td>
                         <td>
-                            2205, S31803, S32750  
+                            2205, S31803, S32750
                             <br>
                             <small>(Marine & offshore projects)</small>
                         </td>
@@ -300,7 +300,7 @@
                     <tr class="t-row">
                         <td>Aluminum</td>
                         <td>
-                            1100, 5052, 6061, 6063  
+                            1100, 5052, 6061, 6063
                             <br>
                             <small>(Lightweight & corrosion-resistant)</small>
                         </td>
@@ -308,7 +308,7 @@
                     <tr class="t-row">
                         <td>Copper & Brass</td>
                         <td>
-                            C11000, C26000  
+                            C11000, C26000
                             <br>
                             <small>(Electrical, decorative & plumbing)</small>
                         </td>
@@ -894,7 +894,7 @@
     </div>
     <div class="accord-content">
         <p>
-            Metal coils are rolled strips of metal wound into a coil for ease of handling, transportation, 
+            Metal coils are rolled strips of metal wound into a coil for ease of handling, transportation,
             and storage. They serve as raw material for sheets, strips, and other fabricated products.
         </p>
     </div>
@@ -908,7 +908,7 @@
     </div>
     <div class="accord-content">
         <p>
-            Coils are available in stainless steel, carbon steel, alloy steel, aluminum, copper, brass, 
+            Coils are available in stainless steel, carbon steel, alloy steel, aluminum, copper, brass,
             nickel alloys, titanium, and other specialty metals.
         </p>
     </div>
@@ -1019,7 +1019,7 @@
         </div>
     </section>
 
-   
+
 
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">

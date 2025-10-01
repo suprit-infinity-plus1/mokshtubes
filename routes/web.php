@@ -103,6 +103,8 @@ Route::get('/blogs/why-hastelloy-weighs-more-than-stainless-steel', [MainControl
 Route::get('/blogs/din-standard-metal-alloys', [MainController::class, 'dinStandardMetalAlloys'])->name('blogs.din-standard-metal-alloys');
 Route::get('/blogs/uae’s-ultimate-guide', [MainController::class, 'Uae’sUltimateGuide'])->name('blogs.uae’s-ultimate-guide');
 Route::get('/blogs/stainless-steel-uses-in-kitchen', [MainController::class, 'stainlessSteelUsesInKitchen'])->name('blogs.stainless-steel-uses-in-kitchen');
+Route::get('/blogs/where-to-buy-high-quality', [MainController::class, 'WhereToBuyHighQuality'])->name('blogs.where-to-buy-high-quality');
+Route::get('/blogs/how-to-choose-the-best-stainless-steel-pipes', [MainController::class, 'howToChooseTheBestStainlessSteelPipes'])->name('blogs.how-to-choose-the-best-stainless-steel-pipes');
 
 
 // Route::get('/materials/nickel-alloys', [MainController::class, 'nickelAlloys'])->name('materials.nickel-alloys');

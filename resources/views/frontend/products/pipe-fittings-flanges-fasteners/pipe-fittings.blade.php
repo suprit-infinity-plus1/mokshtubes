@@ -26,7 +26,7 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/peoduct/flangs/custom-fabricated-fittings.jpeg') }}"
+                    <img src="{{ asset('assets/images/peoduct/flangs/Pipe-Fittings.jpg') }}"
                         alt="Pipe-Fittings" class="img-fluid rounded shadow-sm">
                 </div>
 

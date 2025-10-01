@@ -34,7 +34,7 @@
                         [
                             'name' => 'Flanges And Gaskets',
                             'slug' => 'flanges-and-gaskets',
-                            'image' => 'assets/images/peoduct/seamless-pipes-2.webp',
+                            'image' => 'assets/images/peoduct/flangs/Flange-Gaskets.jpg',
                         ],
                         [
                             'name' => 'Custom Fabricated Fittings',
@@ -49,7 +49,7 @@
                         [
                             'name' => 'Pipe Fittings ',
                             'slug' => 'pipe-fittings ',
-                            'image' => 'assets/images/peoduct/flangs/FASTENERS.jpeg',
+                            'image' => 'assets/images/peoduct/flangs/Pipe-Fittings.jpg',
                         ],
                     ];
                 @endphp

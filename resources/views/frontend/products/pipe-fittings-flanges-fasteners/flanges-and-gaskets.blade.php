@@ -26,7 +26,7 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/peoduct/steel-furniture/custom-steel-furniture.webp') }}"
+                    <img src="{{ asset('assets/images/peoduct/flangs/Flange-Gaskets.jpg') }}"
                         alt="Flange-Industrial-Gaskets" class="img-fluid rounded shadow-sm">
                 </div>
 

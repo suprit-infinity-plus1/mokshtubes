@@ -101,6 +101,16 @@ class MainController extends Controller
 
         return view('frontend.blogs.stainless-steel-uses-in-kitchen');
     }
+    public function whereToBuyHighQuality()
+    {
+
+        return view('frontend.blogs.where-to-buy-high-quality');
+    }
+    public function howToChooseTheBestStainlessSteelPipes()
+    {
+
+        return view('frontend.blogs.how-to-choose-the-best-stainless-steel-pipes');
+    }
 
 
 

@@ -28,38 +28,38 @@
                         [
                             'name' => 'Chequered Sheets',
                             'slug' => 'chequered-sheets',
-                            'image' => 'assets/images/peoduct/steel-furniture/custom-steel-furniture.webp',
+                            'image' => 'assets/images/peoduct/Sheets, Plates and Coils/chequered-sheets.jpeg',
                         ],
-                       
+
                          [
                             'name' => 'Strips',
                             'slug' => 'strips',
-                            'image' => 'assets/images/peoduct/seamless-pipes-2.webp',
+                            'image' => 'assets/images/peoduct/Sheets, Plates and Coils/Metal-Strips.jpg',
                         ],
                          [
                             'name' => 'Shim sheets',
                             'slug' => 'shim-sheets',
-                            'image' => 'assets/images/peoduct/seamless-pipes-2.webp',
+                            'image' => 'assets/images/peoduct/Sheets, Plates and Coils/Shim-Sheets.jpeg',
                         ],
                          [
                             'name' => 'Sheets and plates',
                             'slug' => 'sheets-and-plates',
-                            'image' => 'assets/images/peoduct/seamless-pipes-2.webp',
+                            'image' => 'assets/images/peoduct/Sheets, Plates and Coils/Sheets-and-Plates.jpg',
                         ],
                          [
                             'name' => 'Perforated sheets',
                             'slug' => 'perforated-sheets',
-                            'image' => 'assets/images/peoduct/seamless-pipes-2.webp',
+                            'image' => 'assets/images/peoduct/Sheets, Plates and Coils/sheets-Perforated.jpeg',
                         ],
                          [
                             'name' => 'Coils',
                             'slug' => 'coils',
-                            'image' => 'assets/images/peoduct/seamless-pipes-2.webp',
+                            'image' => 'assets/images/peoduct/Sheets, Plates and Coils/Metal-Coils.jpeg',
                         ],
                          [
                             'name' => 'Cladded plates',
                             'slug' => 'cladded-plates',
-                            'image' => 'assets/images/peoduct/seamless-pipes-2.webp',
+                            'image' => 'assets/images/peoduct/Sheets, Plates and Coils/Cladded-Plates.jpg',
                         ],
                         // [
                         //     'name' => 'Capillaries',

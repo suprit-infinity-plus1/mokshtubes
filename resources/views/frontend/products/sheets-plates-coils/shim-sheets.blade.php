@@ -26,7 +26,7 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/peoduct/steel-furniture/custom-steel-furniture.webp') }}"
+                    <img src="{{ asset('assets/images/peoduct/Sheets, Plates and Coils/Shim-Sheets.jpeg') }}"
                         alt="Hexagon Bars" class="img-fluid rounded shadow-sm">
                 </div>
 
@@ -532,7 +532,7 @@
         </div>
     </section> --}}
 
-   
+
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">

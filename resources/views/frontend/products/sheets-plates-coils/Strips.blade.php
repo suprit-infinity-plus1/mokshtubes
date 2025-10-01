@@ -26,22 +26,22 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/peoduct/steel-furniture/custom-steel-furniture.webp') }}"
+                    <img src="{{ asset('assets/images/peoduct/Sheets, Plates and Coils/Metal-Strips.jpg') }}"
                         alt="Hexagon Bars" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Right Content -->
                 <div class="col-md-6">
                     <p class="fs-6 mb-3 text-justify">
-    <strong class="text-black">Metal Strips</strong> are narrow, flat-rolled products slit from wider coils or sheets and 
-    used in a wide range of industrial, engineering, and decorative applications. These strips are produced from 
+    <strong class="text-black">Metal Strips</strong> are narrow, flat-rolled products slit from wider coils or sheets and
+    used in a wide range of industrial, engineering, and decorative applications. These strips are produced from
     stainless steel, carbon steel, aluminum, brass, copper, nickel alloys, and other specialty metals.
 </p>
 <p class="fs-6 mb-3 text-justify">
-    Because of their precision thickness, narrow widths, and high-quality finishes, metal strips are widely used in 
-    automotive, electronics, construction, consumer goods, and manufacturing industries. 
-    <a href="{{ route('index') }}"><b>Moksh Tubes & Fittings LLP</b></a> supplies premium-quality strips in a variety of 
-    materials, grades, and finishes. Our strips conform to ASTM, ASME, DIN, JIS, and EN standards, ensuring consistency, 
+    Because of their precision thickness, narrow widths, and high-quality finishes, metal strips are widely used in
+    automotive, electronics, construction, consumer goods, and manufacturing industries.
+    <a href="{{ route('index') }}"><b>Moksh Tubes & Fittings LLP</b></a> supplies premium-quality strips in a variety of
+    materials, grades, and finishes. Our strips conform to ASTM, ASME, DIN, JIS, and EN standards, ensuring consistency,
     durability, and performance for demanding applications.
 </p>
 
@@ -565,7 +565,7 @@
         </div>
     </section> --}}
 
-   
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

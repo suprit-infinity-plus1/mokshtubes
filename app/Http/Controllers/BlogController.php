@@ -12,6 +12,24 @@ class BlogController extends Controller
         $blogsData = collect([
 
             [
+                'title' => 'How to Choose the Best Stainless Steel Pipes',
+                'author' => 'Jash Jain',
+                'comments' => 16,
+                'date' => 'October 01, 2025',
+                'image' => 'assets/images/blog/10-Mistakes-to-Avoid-When-Buying-Stainless-Steel-Pipes.webp',
+                'excerpt' => 'Sourcing materials for a critical industrial, construction,',
+                'link' => route('blogs.how-to-choose-the-best-stainless-steel-pipes')
+            ],
+            [
+                'title' => 'Where to Buy High Quality Stainless Steel Tubes Online',
+                'author' => 'Jash Jain',
+                'comments' => 16,
+                'date' => 'October 01, 2025',
+                'image' => 'assets/images/blog/10-Mistakes-to-Avoid-When-Buying-Stainless-Steel-Pipes.webp',
+                'excerpt' => 'Sourcing materials for a critical industrial, construction,',
+                'link' => route('blogs.where-to-buy-high-quality')
+            ],
+            [
                 'title' => 'Stainless Steel Uses in Kitchen & Food Industry',
                 'author' => 'Jash Jain',
                 'comments' => 16,

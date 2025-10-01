@@ -26,7 +26,7 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/peoduct/steel-furniture/custom-steel-furniture.webp') }}"
+                    <img src="{{ asset('assets/images/peoduct/Sheets, Plates and Coils/sheets-Perforated.jpeg') }}"
                         alt="Hexagon Bars" class="img-fluid rounded shadow-sm">
                 </div>
 
@@ -964,7 +964,7 @@
     </div>
     <div class="accord-content">
         <p>
-            Perforated sheets are metal sheets that have been punched or stamped with holes, slots, or decorative patterns. 
+            Perforated sheets are metal sheets that have been punched or stamped with holes, slots, or decorative patterns.
             They are used for filtration, screening, ventilation, and aesthetic applications.
         </p>
     </div>
@@ -978,7 +978,7 @@
     </div>
     <div class="accord-content">
         <p>
-            They can be manufactured in stainless steel, carbon steel, aluminum, brass, copper, titanium, nickel alloys, 
+            They can be manufactured in stainless steel, carbon steel, aluminum, brass, copper, titanium, nickel alloys,
             and galvanized steel depending on the application.
         </p>
     </div>
