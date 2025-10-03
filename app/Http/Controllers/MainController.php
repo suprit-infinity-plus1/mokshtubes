@@ -111,6 +111,11 @@ class MainController extends Controller
 
         return view('frontend.blogs.how-to-choose-the-best-stainless-steel-pipes');
     }
+    public function HowStainlessSteelTubesImproveProcessEfficiency()
+    {
+
+        return view('frontend.blogs.how-stainless-steel-tubes-improve-process-efficiency');
+    }
 
 
 
@@ -376,6 +381,28 @@ public function engineeringSteelsGrade($slug)
         ];
 
         return view('frontend.materials.haynes-superalloys.index', compact('grades'));
+    }
+    public function duplexAndSuperDuplex()
+    {
+        $grades = [
+            // ['name' => 'haynes-superalloys 160', 'slug' => 'haynes-superalloys-160'],
+            // ['name' => 'haynes-superalloys 188', 'slug' => 'haynes-superalloys-188'],
+            // ['name' => 'haynes-superalloys 230', 'slug' => 'haynes-superalloys-230'],
+            // ['name' => 'haynes-superalloys 242', 'slug' => 'haynes-superalloys-242'],
+        ];
+
+        return view('frontend.materials.duplex-and-super-duplex.index', compact('grades'));
+    }
+    public function highStrengthStainlessSteel()
+    {
+        $grades = [
+            // ['name' => 'haynes-superalloys 160', 'slug' => 'haynes-superalloys-160'],
+            // ['name' => 'haynes-superalloys 188', 'slug' => 'haynes-superalloys-188'],
+            // ['name' => 'haynes-superalloys 230', 'slug' => 'haynes-superalloys-230'],
+            // ['name' => 'haynes-superalloys 242', 'slug' => 'haynes-superalloys-242'],
+        ];
+
+        return view('frontend.materials.high-strength-stainless-steel.index', compact('grades'));
     }
 
 

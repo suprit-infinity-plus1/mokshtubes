@@ -792,7 +792,7 @@
                 <h2>International Market to Explore</h2>
             </div>
      <div class="d-flex justify-content-center mt-4">
-        <img src="{{ asset('assets/images/map.webp') }}"
+        <img src="{{ asset('assets/images/map.png') }}"
              alt="International Market"
              class="img-fluid"
              style="max-width: 900px;">

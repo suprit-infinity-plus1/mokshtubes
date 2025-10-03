@@ -12,6 +12,15 @@ class BlogController extends Controller
         $blogsData = collect([
 
             [
+                'title' => 'How Stainless Steel Tubes Improve Process Efficiency',
+                'author' => 'Jash Jain',
+                'comments' => 16,
+                'date' => 'October 03, 2025',
+                'image' => 'assets/images/blog/10-Mistakes-to-Avoid-When-Buying-Stainless-Steel-Pipes.webp',
+                'excerpt' => 'In any industrial or manufacturing setting, efficiency is the engine of profitability.',
+                'link' => route('blogs.how-stainless-steel-tubes-improve-process-efficiency')
+            ],
+            [
                 'title' => 'How to Choose the Best Stainless Steel Pipes',
                 'author' => 'Jash Jain',
                 'comments' => 16,

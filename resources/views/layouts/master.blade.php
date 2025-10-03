@@ -318,9 +318,9 @@
                                                         'Incoloy',
                                                         'Nickel Based Superalloys',
                                                         'Titanium',
-                                                        // 'Duplex & Super Duplex',
+                                                        'Duplex  Super Duplex',
                                                         'Austenitic Stainless Steel',
-                                                        // 'High Strength Stainless Steel',
+                                                        'High Strength Stainless Steel',
                                                         'Super Austenitic Stainless Steel',
                                                         'Zirconium',
                                                         'Engineering Steels',
@@ -637,13 +637,13 @@
 display: flex;
 align-items: center;
 justify-content: center;
-border-radius: 25px;
+border-radius: 50px;
 position: fixed;
 bottom: 25px;
 background: #25d366;
 left: 2.1875rem;
-width: 50px;
-height: 50px;
+width: 60px;
+height: 60px;
 z-index:99;">
         <div id="whatsapp-btn" style="margin-top:5px;">
             <a class="whatsapp" href="https://wa.me/+919769584950">

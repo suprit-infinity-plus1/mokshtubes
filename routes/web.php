@@ -45,6 +45,8 @@ Route::get('/materials/austenitic-stainless-steel', [MainController::class, 'aus
 Route::get('/materials/copper-alloys', [MainController::class, 'copperAlloys'])->name('materials.copper-Alloys');
 Route::get('/materials/zirconium', [MainController::class, 'zirconium'])->name('materials.zirconium');
 Route::get('/materials/haynes-superalloys', [MainController::class, 'haynesSuperalloys'])->name('materials.haynes-Superalloys');
+Route::get('/materials/duplex-and-super-duplex', [MainController::class, 'duplexAndSuperDuplex'])->name('materials.duplex-and-super-duplex');
+Route::get('/materials/high-strength-stainless-steel', [MainController::class, 'highStrengthStainlessSteel'])->name('materials.high-strength-stainless-steel');
 
 // Route::get('/materials/{family}/{grade}', [MainController::class, 'showMaterialGrade'])->name('material.grade');
 Route::get('/materials/{category}/{slug}', [MainController::class, 'showMaterial'])->name('materials.grade');
@@ -105,6 +107,7 @@ Route::get('/blogs/uae’s-ultimate-guide', [MainController::class, 'Uae’sUlti
 Route::get('/blogs/stainless-steel-uses-in-kitchen', [MainController::class, 'stainlessSteelUsesInKitchen'])->name('blogs.stainless-steel-uses-in-kitchen');
 Route::get('/blogs/where-to-buy-high-quality', [MainController::class, 'WhereToBuyHighQuality'])->name('blogs.where-to-buy-high-quality');
 Route::get('/blogs/how-to-choose-the-best-stainless-steel-pipes', [MainController::class, 'howToChooseTheBestStainlessSteelPipes'])->name('blogs.how-to-choose-the-best-stainless-steel-pipes');
+Route::get('/blogs/how-stainless-steel-tubes-improve-process-efficiency', [MainController::class, 'HowStainlessSteelTubesImproveProcessEfficiency'])->name('blogs.how-stainless-steel-tubes-improve-process-efficiency');
 
 
 // Route::get('/materials/nickel-alloys', [MainController::class, 'nickelAlloys'])->name('materials.nickel-alloys');
