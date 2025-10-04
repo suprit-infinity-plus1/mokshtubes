@@ -102,22 +102,22 @@
                     <div class="sticky-card" style="position: sticky; top: 100px;">
                         <div class="list-group">
 
-                            <a href="#" class="list-group-item location-card">
+                            <a href="{{ route('contact-us-gulalwadi') }}" class="list-group-item location-card">
                                 <h3 class="mb-1 fw-semibold">Gulalwadi – Mumbai</h3>
                                 <p class="mb-0 small">Bldg. No. 36/40, Hinglaj Bhavan, Kika Street</p>
                             </a>
 
-                            <a href="#" class="list-group-item location-card">
+                            <a href="{{ route('contact-us-khetwadi') }}" class="list-group-item location-card">
                                 <h5 class="mb-1 fw-semibold">Khetwadi – Mumbai</h5>
                                 <p class="mb-0 small">6/A, Ground Floor, Rajwanti Mansion</p>
                             </a>
 
-                            <a href="#" class="list-group-item location-card">
+                            <a href="{{ route('contact-us-kamatipura') }}" class="list-group-item location-card">
                                 <h5 class="mb-1 fw-semibold">Kamatipura – Mumbai</h5>
                                 <p class="mb-0 small">95/95A, Dawood Baug, Sukhlaji Street</p>
                             </a>
 
-                            <a href="#" class="list-group-item location-card mb-0">
+                            <a href="{{ route('contact-us-darukhana') }}" class="list-group-item location-card mb-0">
                                 <h5 class="mb-1 fw-semibold">Darukhana – Mumbai</h5>
                                 <p class="mb-0 small">92E, Plot No. 3, New Tank Bunder, Reay Road</p>
                             </a>

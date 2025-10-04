@@ -20,6 +20,8 @@ Route::get('/home', [MainController::class, 'home'])->name('home');
 Route::get('/contact-us', [MainController::class, 'contactUs'])->name('contact-us');
 Route::get('/contact-us/gulalwadi', [MainController::class, 'contactUsGulalwadi'])->name('contact-us-gulalwadi');
 Route::get('/contact-us/khetwadi', [MainController::class, 'contactUsKhetwadi'])->name('contact-us-khetwadi');
+Route::get('/contact-us/darukhana', [MainController::class, 'contactUsDarukhana'])->name('contact-us-darukhana');
+Route::get('/contact-us/kamatipura', [MainController::class, 'contactUsKamatipura'])->name('contact-us-kamatipura');
 Route::get('/about-us', [MainController::class, 'aboutUs'])->name('about-us');
 Route::get('/calculator', [MainController::class, 'calculator'])->name('calculator');
 Route::get('/materials', [MainController::class, 'materials'])->name('materials');

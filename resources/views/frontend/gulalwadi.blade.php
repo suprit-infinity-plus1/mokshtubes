@@ -1,4 +1,4 @@
-z@extends('layouts.master')
+@extends('layouts.master')
 @section('title', 'Moksh Tubes || Contact Us')
 
 @section('content')

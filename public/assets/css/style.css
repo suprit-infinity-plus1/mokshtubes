@@ -2083,6 +2083,11 @@ textarea {
     vertical-align: middle;
     color: #61888e;
 }
+/* .footer-contact-info ul li .iocn-holder {
+    display: table-cell;
+    vertical-align: middle;
+    color: #61888e;
+} */
 
 .footer-contact-info ul li .text-holder {
     padding-left: 10px;
@@ -4910,6 +4915,14 @@ textarea {
     transition: all 500ms ease;
     text-transform: none;
 }
+.accordion-box .accordion .accord-btn h3 {
+    color: #252525;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    transition: all 500ms ease;
+    text-transform: none;
+}
 
 .accordion-box .accordion .accord-btn::after {
     background: var(--primary) none repeat scroll 0 0;
@@ -4941,6 +4954,9 @@ textarea {
 }
 
 .accordion-box .accordion .accord-btn.active h4 {
+    color: var(--primary);
+}
+.accordion-box .accordion .accord-btn.active h3 {
     color: var(--primary);
 }
 
@@ -5124,6 +5140,13 @@ textarea {
 }
 
 .why-chooseus .item .inner-box h4 {
+    color: #272727;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 15px 0px 8px;
+    z-index: 2;
+}
+.why-chooseus .item .inner-box h3 {
     color: #272727;
     font-size: 18px;
     font-weight: 600;
@@ -8192,6 +8215,12 @@ ul.gallery-filter li span {
     color: #174268;
     margin-top: 12px;
 }
+.advantage-card h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #174268;
+    margin-top: 12px;
+}
 
 @media (max-width: 575.98px) {
     .advantage-card {
@@ -8247,6 +8276,12 @@ ul.gallery-filter li span {
     font-weight: 700;
     margin-bottom: 10px;
 }
+.application-card h3 {
+    font-size: 1.1rem;
+    color: #174268;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
 
 .application-card p {
     font-size: 0.95rem;
@@ -8288,6 +8323,12 @@ ul.gallery-filter li span {
 }
 
 .why-banner-block h5 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #174268;
+    margin-bottom: 0;
+}
+.why-banner-block h3 {
     font-size: 1.05rem;
     font-weight: 600;
     color: #174268;
@@ -8441,6 +8482,9 @@ ul.gallery-filter li span {
 }
 
 .accordion-box .accordion .accord-btn.active h4 {
+    color: #ffffff;
+}
+.accordion-box .accordion .accord-btn.active h3 {
     color: #ffffff;
 }
 

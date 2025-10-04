@@ -6,7 +6,7 @@
     <section class="bg-light sec-padd-bottom">
         <div class="container py-5">
             <!-- Title in center -->
-            <h1 class="text-center mb-5 fw-semibold my-4 title-color">Khetwadi Mumbai </h1>
+            <h1 class="text-center mb-5 fw-semibold my-4 title-color">Darukhana Mumbai </h1>
 
             <!-- Two column layout -->
             <div class="row">
@@ -15,16 +15,13 @@
                 <div class="col-md-5 content-left">
                     <h4 class="fs-5 fw-semibold my-4">Visiting Address</h4>
                     <p class="my-3b fs-5" style="max-width: 350px">
-                        6/A, Ground Floor, Rajwanti Mansion, 4th Khetwadi, Mumbai, Maharashtra- 400 004.
+                        92E, Plot No. 3, New Tank Bunder, Reay Road, Darukhana, Mumbai, Maharashtra- 400 010.
                     </p>
 
                     <h5 class="fs-5 fw-semibold mt-4 mb-2">Contact Details</h5>
 
                     <p class="mb-2">
-                        📞 <a href="tel:+919819777413" class="text-decoration-none text-dark fw-medium">+91 9819777413</a>
-                    </p>
-                    <p class="mb-2">
-                        📞 <a href="tel:+91 98332 99961" class="text-decoration-none text-dark fw-medium">+91 98332 99961</a>
+                        📞 <a href="tel:+919999999999" class="text-decoration-none text-dark fw-medium">+91 99999 99999</a>
                     </p>
                     <p>
                         📧 <a href="mailto:info@mokshtubes.com"
@@ -32,10 +29,10 @@
                     </p>
                     <h2 class="fs-5 fw-semibold mt-4 mb-2">Get Direction</h2>
 
-                    <p class=" fs-5 mb-2">18°56'56"N 72°49'31"E</p>
+                    <p class=" fs-5 mb-2">18°58'23"N 72°50'57"E</p>
 
                     <p>
-                        <a href="https://maps.app.goo.gl/Nok2fPjWZrKHHsUJ9" target="_blank" class="text-primary fs-4"
+                        <a href="https://maps.app.goo.gl/4KJZX3MP9LG36EdU9" target="_blank" class="text-primary fs-4"
                             title="Open in Google Maps">
                             <i class="bi bi-geo-alt-fill"></i>
                         </a>
@@ -51,7 +48,7 @@
                 <div class="col-md-7">
                     <div class="ratio ratio-4x3">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.3750110239916!2d72.82037992520247!3d18.959038582221584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce1656fe7bdd%3A0x953bc465e58544dc!2sMoksh%20Tubes!5e0!3m2!1sen!2sin!4v1759581804206!5m2!1sen!2sin"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.0581743739162!2d72.84495927393439!3d18.973038044218114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce4963df4429%3A0x1605cf2dda038127!2sFlange%20Forged%20Engineers!5e0!3m2!1sen!2sin!4v1759584410711!5m2!1sen!2sin"
                             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
@@ -129,8 +126,8 @@
                                 </div>
                                 <div class="text-holder">
 
-                                    <h6>Rajwanti Mansion,Khetwadi</h6>
-                                    <p>Mumbai, Maharashtra. 400004</p>
+                                    <h6>New Tank Bunder Darukhana</h6>
+                                    <p>Mumbai, Maharashtra-400 010</p>
                                 </div>
                             </li>
                             <li>
@@ -139,7 +136,7 @@
                                 </div>
                                 <div class="text-holder">
                                     <h6>Call Us On</h6>
-                                    <p>+91 9819777413</p>
+                                    <p>+91 97695 84950</p>
                                 </div>
                             </li>
                             <li>
