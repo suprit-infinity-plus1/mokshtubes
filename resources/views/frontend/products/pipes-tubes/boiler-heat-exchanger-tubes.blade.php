@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('title', 'Premium Boiler & Heat Exchanger Tubes – Moksh Tubes') <!-- 52 characters -->
-@section('meta_description',
-    'Moksh Tubes provides high-quality boiler and heat exchanger tubes with superior strength, corrosion resistance & durability for power, marine & industrial applications.') <!-- 153 characters -->
+@section('meta_description', 'Moksh Tubes provides high-quality boiler and heat exchanger tubes with superior strength,
+    corrosion resistance & durability for power, marine & industrial applications.') <!-- 153 characters -->
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
@@ -25,8 +25,8 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/peoduct/boiler-heat-exchanger-tubes.webp') }}" alt="Boiler & Heat Exchanger Tubes"
-                        class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/peoduct/boiler-heat-exchanger-tubes.webp') }}"
+                        alt="Boiler & Heat Exchanger Tubes" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Right Content -->
@@ -38,13 +38,14 @@
                         transfer.
                     </p>
                     <p class="fs-6 mb-3 text-justify">
-                        Made from high-grade<a href="{{ route('materials.austenitic-stainless-Steel') }}"> stainless
+                        Made from high grade<a href="{{ route('materials.austenitic-stainless-Steel') }}"> stainless
                             steel</a>, carbon steel, alloy steel, and specialty alloys, these tubes
                         are manufactured to strict tolerances and international quality standards (ASTM, ASME, DIN, EN).
                     </p>
                     <p class="fs-6 text-justify">
                         <strong class="text-black"> Moksh Tubes & Fittings LLP</strong>, we produce boiler and heat
-                        exchanger tubes using advanced cold-drawing, seamless forming, and welding technologies to deliver
+                        exchanger tubes using advanced cold-drawing, seamless forming, and <a
+                            href="{{ route('products.pipes-tubes.welded-pipes') }}">welding</a> technologies to deliver
                         precision, durability, and performance. Our tubes are trusted worldwide for use in boilers,
                         superheaters, condensers, heat exchangers, and other critical systems.
                 </div>
@@ -1592,12 +1593,13 @@
             <div class="container">
             </div>
 
-             <div class="row">
+            <div class="row">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}" alt="NICKLE ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}"
+                                    alt="NICKLE ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1609,7 +1611,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}" alt="STAINLESS STEEL">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}"
+                                    alt="STAINLESS STEEL">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1621,7 +1624,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}" alt="DUPLEX & SUPER">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}"
+                                    alt="DUPLEX & SUPER">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1634,7 +1638,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="##">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}" alt="TITANIUM ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}"
+                                    alt="TITANIUM ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1646,7 +1651,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}" alt="RARE TO ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}"
+                                    alt="RARE TO ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1658,7 +1664,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}" alt="CARBON ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}"
+                                    alt="CARBON ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1991,7 +1998,8 @@
             </div>
             <!-- Child Title -->
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Boiler & Heat Exchanger Tubes are used extensively across multiple
+                <h4 class="text-center mb-0" style="color: #db7227;">Boiler & Heat Exchanger Tubes are used extensively
+                    across multiple
                     industries, including:</h4>
             </div>
             <div class="row g-4 mt-4">
@@ -2109,14 +2117,16 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Extensive Stock & Range: Wide inventory of boiler and heat exchanger tubes in multiple grades.</h5>
+                        <h5>Extensive Stock & Range: Wide inventory of boiler and heat exchanger tubes in multiple grades.
+                        </h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
-                        <h5>Extensive Stock & Range: Wide inventory of boiler and heat exchanger tubes in multiple grades.</h5>
+                        <h5>Extensive Stock & Range: Wide inventory of boiler and heat exchanger tubes in multiple grades.
+                        </h5>
                     </div>
                 </div>
 
@@ -2143,7 +2153,8 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
-                        <h5>Customized Solutions: Tailored tubing solutions to meet specific project and industry requirements</h5>
+                        <h5>Customized Solutions: Tailored tubing solutions to meet specific project and industry
+                            requirements</h5>
                     </div>
                 </div>
             </div>
