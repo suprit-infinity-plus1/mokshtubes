@@ -178,7 +178,7 @@
                                                 <div class="advantage-card">
                                                     <div class="advantage-icon"><i class="fas fa-thermometer-half"></i>
                                                     </div>
-                                                    <h4>Temperature Resistance</h4>
+                                                    <h3 class="h4">Temperature Resistance</h3>
                                                     <ul>
                                                         <li><strong>Stainless Steel:</strong> Maintains strength up to
                                                             ~870°C (1600°F)</li>
@@ -191,7 +191,7 @@
                                             <div class="col-sm-6 col-lg-6">
                                                 <div class="advantage-card">
                                                     <div class="advantage-icon"><i class="fas fa-shield-alt"></i></div>
-                                                    <h4>Corrosion Resistance</h4>
+                                                    <h3 class="h4">Corrosion Resistance</h3>
                                                     <ul>
                                                         <li><strong>Stainless Steel:</strong> Good general corrosion
                                                             resistance; best for
@@ -314,8 +314,8 @@
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4> What is the main difference between stainless steel and
-                                                                Inconel tubes?</h4>
+                                                            <h3> What is the main difference between stainless steel and
+                                                                Inconel tubes?</h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>Stainless steel contains less nickel and chromium than
@@ -328,8 +328,8 @@
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn ">
-                                                            <h4>When should I use stainless steel tubes instead of Inconel?
-                                                            </h4>
+                                                            <h3>When should I use stainless steel tubes instead of Inconel?
+                                                            </h3>
                                                         </div>
                                                         <div class="accord-content ">
                                                             <p>Use stainless steel tubes for moderate operating conditions,
@@ -341,8 +341,8 @@
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>Are Inconel tubes more expensive than stainless steel tubes?
-                                                            </h4>
+                                                            <h3>Are Inconel tubes more expensive than stainless steel tubes?
+                                                            </h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>Yes, Inconel tubes cost 5 to 10 times more than stainless
@@ -354,8 +354,8 @@
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>Can stainless steel tubes be used in marine environments?
-                                                            </h4>
+                                                            <h3>Can stainless steel tubes be used in marine environments?
+                                                            </h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>Stainless steel offers good corrosion resistance but may be
@@ -368,8 +368,8 @@
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>What industries typically use Inconel tubes?
-                                                            </h4>
+                                                            <h3>What industries typically use Inconel tubes?
+                                                            </h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>Inconel tubes are commonly used in aerospace, power

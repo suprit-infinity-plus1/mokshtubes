@@ -37,10 +37,10 @@
                                 <div class="text">
                                     <p>
                                         In any industrial or manufacturing setting, efficiency is the engine of
-                                        profitability. Every decision, from process design to material selection, is
+                                        profitability. Every decision, from process design to <a href="{{ route('materials') }}">material</a> selection, is
                                         scrutinized for its potential to reduce costs, minimize downtime, and maximize
                                         output. While large machinery and automated systems often get the spotlight, the
-                                        seemingly simple components, like pipes and tubes, play an equally critical role.
+                                        seemingly simple components, like <a href="{{ route('products') }}">pipes and tubes</a>, play an equally critical role.
                                         The right tubing material can be the difference between a smooth, continuous
                                         operation and a system plagued by constant interruptions and maintenance.
                                     </p>
@@ -60,7 +60,7 @@
                                 </div>
                                 <div class="text">
                                     <p>
-                                        To understand how stainless steel tubes boost efficiency, we first need to look at
+                                        To understand how <a href="{{ route('blogs.stainless-steel-inconel-tubes') }}">stainless steel</a> tubes boost efficiency, we first need to look at
                                         their inherent characteristics. These properties work together to create a <a href="{{ route('materials') }}">material</a>
                                         that solves many of the common challenges faced in industrial environments.
                                     </p>

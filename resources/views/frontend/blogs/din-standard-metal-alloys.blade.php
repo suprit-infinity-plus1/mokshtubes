@@ -45,7 +45,7 @@
                                         enormous
                                         demand for high quality materials that meet the strictest quality standards. German
                                         companies
-                                        require DIN standard alloys, precision-engineered stainless steel tubes, and
+                                        require DIN standard alloys, precision engineered stainless steel tubes, and
                                         industrial
                                         fittings that deliver exceptional performance under demanding conditions.
                                     </p>
@@ -292,7 +292,7 @@
                                     </div>
                                 </section>
 
-                                
+
                                 <!-- FAQs -->
                                 <section class="faq-content-area">
                                     <div class="container">
@@ -305,7 +305,7 @@
 
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>Do you supply DIN certified alloys in Germany?</h4>
+                                                            <h3>Do you supply DIN certified alloys in Germany?</h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>Yes, all our products comply with DIN, EN, ASTM, and ISO
@@ -317,7 +317,7 @@
 
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>Which German industries use your products?</h4>
+                                                            <h3>Which German industries use your products?</h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>Our alloys and fittings serve automotive, construction,
@@ -329,7 +329,7 @@
 
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>How fast can you deliver products to Germany?</h4>
+                                                            <h3>How fast can you deliver products to Germany?</h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>We maintain efficient logistics networks that enable quick
@@ -340,7 +340,7 @@
 
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>Can you provide custom alloys?</h4>
+                                                            <h3>Can you provide custom alloys?</h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>Absolutely. Our metallurgical capabilities include
@@ -352,7 +352,7 @@
 
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>Why should German companies choose Mokshtubes?</h4>
+                                                            <h3>Why should German companies choose Mokshtubes?</h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>We offer global standards, DIN compliance, responsive

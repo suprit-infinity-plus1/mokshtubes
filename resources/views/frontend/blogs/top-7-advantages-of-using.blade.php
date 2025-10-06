@@ -36,12 +36,12 @@
                                     <p>
                                         <a
                                             href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-316') }}">Stainless
-                                            steel 316L</a> has earned its reputation as a go-to material for industrial
+                                            steel 316L</a> has earned its reputation as a go to material for industrial
                                         applications. Thanks to its excellent corrosion resistance, durability, and
                                         versatility, it has become indispensable in industries such as chemical processing,
                                         marine environments, and pharmaceuticals. Whether you’re designing equipment for
                                         extreme environments or seeking long lasting materials for high stakes projects,
-                                        stainless steel 316L offers unbeatable advantages.
+                                        <a href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-316') }}">stainless steel 316L</a> offers unbeatable advantages.
                                     </p>
                                 </div>
                                 <div class="text">
@@ -88,7 +88,7 @@
                                                     <li>
                                                         <strong>Chemical Plants:</strong> Ideal for equipment exposed to
                                                         acidic or
-                                                        chloride-rich solutions.
+                                                        chloride rich solutions.
                                                     </li>
                                                 </ul>
                                             </div>
@@ -106,14 +106,14 @@
                                             <p>
                                                 Stainless steel 316L is synonymous with strength and toughness. It can
                                                 withstand high mechanical stresses and extreme temperatures, making it a
-                                                dependable material for industrial applications. Its low carbon content
+                                                dependable material for <a href="{{ route('blogs.emerging-trends-in-industrial-piping-for-2025-and-beyond') }}">industrial</a> applications. Its low carbon content
                                                 further enhances its ability to resist deformation under pressure.
                                             </p>
                                         </div>
                                         <div class="text">
                                             <p>
                                                 This strength gives 316L stainless steel a long lifespan, even in demanding
-                                                environments. Equipment made from this material requires minimal repairs or
+                                                environments. Equipment made from this <a href="{{ route('materials') }}">material</a> requires minimal repairs or
                                                 replacements, reducing operational downtime and increasing efficiency.
                                             </p>
                                         </div>
@@ -122,7 +122,7 @@
                                                 <h3>Practical Applications</h3>
                                                 <ul>
                                                     <li>
-                                                        <strong>Pressure Vessels:</strong> Resilient against high-pressure
+                                                        <strong>Pressure Vessels:</strong> Resilient against high pressure
                                                         conditions in oil refineries.
 
                                                     </li>
@@ -204,11 +204,11 @@
                                                 <ul>
                                                     <li>
                                                         <strong>Pharmaceuticals:</strong> Used in cleanrooms and
-                                                        medical-grade components.
+                                                        medical grade components.
                                                     </li>
                                                     <li>
                                                         <strong>Food & Beverage:</strong> Ensures clean and
-                                                        contamination-free food storage and processing equipment.
+                                                        contamination free food storage and processing equipment.
                                                     </li>
                                                 </ul>
                                             </div>
@@ -306,7 +306,7 @@
                                         <div class="text">
                                             <p>
                                                 Beyond its practical advantages, stainless steel 316L also scores points for
-                                                being an eco-friendly material. It is 100% recyclable and contributes to
+                                                being an eco friendly material. It is 100% recyclable and contributes to
                                                 sustainable manufacturing practices. For industries considering
                                                 environmental impact and compliance with green initiatives, 316L stainless
                                                 steel is an ideal solution.
@@ -317,7 +317,7 @@
                                                 <h3>Practical Applications</h3>
                                                 <ul>
                                                     <li>
-                                                        <strong>Green Manufacturing:</strong> Used in eco-friendly
+                                                        <strong>Green Manufacturing:</strong> Used in eco friendly
                                                         industrial infrastructure.
                                                     </li>
                                                     <li>
@@ -360,7 +360,7 @@
                                                 will
                                                 remain indispensable. Whether you’re operating in the marine,
                                                 pharmaceutical, or chemical sector, you can’t go wrong with this
-                                                high-performance alloy.
+                                                high performance alloy.
                                             </p>
                                         </div>
                                     </div>
@@ -380,9 +380,9 @@
                         <!--Start single accordion box-->
                         <div class="accordion accordion-block">
                             <div class="accord-btn ">
-                                <h4>
+                                <h3>
                                     What makes stainless steel 316L better than other stainless steels?
-                                </h4>
+                                </h3>
                             </div>
                             <div class="accord-content">
                                 <p>
@@ -396,9 +396,9 @@
                         <!--Start single accordion box-->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>
+                                <h3>
                                     Where is stainless steel 316L commonly used?
-                                </h4>
+                                </h3>
                             </div>
                             <div class="accord-content">
                                 <p>
@@ -412,9 +412,9 @@
                         <!--Start single accordion box-->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>
+                                <h3>
                                     How should stainless steel 316L be maintained to ensure longevity?
-                                </h4>
+                                </h3>
                             </div>
                             <div class="accord-content">
                                 <p>
@@ -428,9 +428,9 @@
                         <!--Start single accordion box-->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>
+                                <h3>
                                     Is stainless steel 316L suitable for high-temperature applications?
-                                </h4>
+                                </h3>
                             </div>
                             <div class="accord-content">
                                 <p>
@@ -443,9 +443,9 @@
                         <!--Start single accordion box-->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>
+                                <h3>
                                     Can stainless steel 316L be welded and fabricated easily?
-                                </h4>
+                                </h3>
                             </div>
                             <div class="accord-content">
                                 <p>

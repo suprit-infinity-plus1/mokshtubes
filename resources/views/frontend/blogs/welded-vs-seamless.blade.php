@@ -40,7 +40,7 @@
                                         Choosing the right <strong class="text-black">stainless steel pipes</strong> can
                                         make or break your industrial project.
                                         Whether you're building a chemical processing plant, constructing a high rise
-                                        building, or designing a marine vessel, the pipe type you select directly impacts
+                                        building, or designing a marine vessel, the <a href="{{ route('products.pipes-tubes') }}">pipe type you select directly impacts
                                         performance, safety, and costs.
                                     </p>
                                 </div>
@@ -261,7 +261,7 @@
                                                         Consistent material properties throughout the pipe wall.
                                                     </li>
                                                     <li>
-                                                        No heat-affected zones that can create weak points.
+                                                        No heatn affected zones that can create weak points.
                                                     </li>
                                                     <li>
                                                         Superior fatigue resistance under cycling loads.
@@ -705,10 +705,10 @@
                                                     <li><strong class="text-black">A312:</strong> Seamless and welded
                                                         austenitic stainless steel pipes.</li>
                                                     <li><strong class="text-black">A358:</strong> Welded chromium-nickel
-                                                        stainless pipes for high-temperature
+                                                        stainless pipes for high temperature
                                                         service.</li>
                                                     <li><strong class="text-black">A376:</strong> Seamless pipes for
-                                                        high-temperature central-station service.
+                                                        high temperature central station service.
                                                     </li>
                                                 </ul>
                                             </div>

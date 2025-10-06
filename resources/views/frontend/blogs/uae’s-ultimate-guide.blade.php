@@ -404,8 +404,8 @@
 
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>Can welded pipes be used for high-pressure oil & gas
-                                                                applications in the UAE?</h4>
+                                                            <h3>Can welded pipes be used for high-pressure oil & gas
+                                                                applications in the UAE?</h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>Welded pipes can handle moderate pressures, but most UAE oil
@@ -417,8 +417,8 @@
 
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>Are seamless pipes worth the higher cost for Dubai
-                                                                construction projects?</h4>
+                                                            <h3>Are seamless pipes worth the higher cost for Dubai
+                                                                construction projects?</h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>For regular plumbing, HVAC, and fire systems, welded pipes
@@ -430,8 +430,8 @@
 
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>How do UAE’s harsh environmental conditions affect pipe
-                                                                performance?</h4>
+                                                            <h3>How do UAE’s harsh environmental conditions affect pipe
+                                                                performance?</h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>With high heat, humidity, and salty coastal air, corrosion
@@ -443,8 +443,8 @@
 
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>What’s the delivery time difference between seamless and
-                                                                welded pipes in the UAE?</h4>
+                                                            <h3>What’s the delivery time difference between seamless and
+                                                                welded pipes in the UAE?</h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p><a href="{{ route('products.pipes-tubes.welded-pipes') }}">Welded
@@ -459,7 +459,7 @@
 
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>Which pipe type is better for UAE desalination plants?</h4>
+                                                            <h3>Which pipe type is better for UAE desalination plants?</h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>Most desalination plants use both <a

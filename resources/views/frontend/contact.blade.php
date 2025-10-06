@@ -103,22 +103,22 @@
                         <div class="list-group">
 
                             <a href="{{ route('contact-us-gulalwadi') }}" class="list-group-item location-card">
-                                <h3 class="mb-1 fw-semibold">Gulalwadi – Mumbai</h3>
+                                <h2 class="mb-1 fw-semibold h5">Gulalwadi – Mumbai</h2>
                                 <p class="mb-0 small">Bldg. No. 36/40, Hinglaj Bhavan, Kika Street</p>
                             </a>
 
                             <a href="{{ route('contact-us-khetwadi') }}" class="list-group-item location-card">
-                                <h5 class="mb-1 fw-semibold">Khetwadi – Mumbai</h5>
+                                <h2 class="mb-1 fw-semibold h5">Khetwadi – Mumbai</h2>
                                 <p class="mb-0 small">6/A, Ground Floor, Rajwanti Mansion</p>
                             </a>
 
                             <a href="{{ route('contact-us-kamatipura') }}" class="list-group-item location-card">
-                                <h5 class="mb-1 fw-semibold">Kamatipura – Mumbai</h5>
+                                <h2 class="mb-1 fw-semibold h5">Kamatipura – Mumbai</h2>
                                 <p class="mb-0 small">95/95A, Dawood Baug, Sukhlaji Street</p>
                             </a>
 
                             <a href="{{ route('contact-us-darukhana') }}" class="list-group-item location-card mb-0">
-                                <h5 class="mb-1 fw-semibold">Darukhana – Mumbai</h5>
+                                <h2 class="mb-1 fw-semibold h5">Darukhana – Mumbai</h2>
                                 <p class="mb-0 small">92E, Plot No. 3, New Tank Bunder, Reay Road</p>
                             </a>
 
@@ -269,7 +269,7 @@
                 <div class="col-md-4">
                     <div class="footer-contact-info">
                         <div class="title">
-                            <h4>Quick Contact</h4>
+                            <h2>Quick Contact</h2>
                             <p>If you are passionate about helping people: through education, or preventing then
                                 you </p>
                         </div>
@@ -281,7 +281,7 @@
                                 </div>
                                 <div class="text-holder">
 
-                                    <h6>Hinglaj Bhavan, Gulalwadi</h6>
+                                    <h3 class="h6">Hinglaj Bhavan, Gulalwadi</h3>
                                     <p>Mumbai, Maharashtra. 400004</p>
                                 </div>
                             </li>
@@ -290,7 +290,7 @@
                                     <span class="icon-technology-1"></span>
                                 </div>
                                 <div class="text-holder">
-                                    <h6>Call Us On</h6>
+                                    <h3 class="h6">Call Us On</h3>
                                     <p>+91 97695 84950</p>
                                 </div>
                             </li>
@@ -299,7 +299,7 @@
                                     <span class="icon-letter-1"></span>
                                 </div>
                                 <div class="text-holder">
-                                    <h6>Mail Us @</h6>
+                                    <h3 class="h6">Mail Us @</h3>
                                     <a href="#">
                                         <p>info@mokstubes.com</p>
                                     </a>

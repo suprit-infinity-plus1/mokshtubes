@@ -331,8 +331,8 @@
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn ">
-                                                            <h4>What are the key industrial piping trends for 2025 and
-                                                                beyond?</h4>
+                                                            <h3>What are the key industrial piping trends for 2025 and
+                                                                beyond?</h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>
@@ -349,8 +349,8 @@
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>Why is stainless steel becoming more important in industrial
-                                                                piping?</h4>
+                                                            <h3>Why is stainless steel becoming more important in industrial
+                                                                piping?</h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>
@@ -372,10 +372,10 @@
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>
+                                                            <h3>
                                                                 How are smart piping systems transforming industrial
                                                                 operations?
-                                                            </h4>
+                                                            </h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>
@@ -391,10 +391,10 @@
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>
+                                                            <h3>
                                                                 What are the benefits of modular and prefabricated piping
                                                                 systems?
-                                                            </h4>
+                                                            </h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>
@@ -410,10 +410,10 @@
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>
+                                                            <h3>
                                                                 Which regions are driving global industrial piping market
                                                                 growth?
-                                                            </h4>
+                                                            </h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>

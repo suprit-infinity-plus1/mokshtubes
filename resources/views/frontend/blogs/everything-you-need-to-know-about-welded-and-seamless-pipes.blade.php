@@ -373,7 +373,7 @@
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn ">
-                                                            <h4>Which is stronger welded or seamless pipes?</h4>
+                                                            <h3>Which is stronger welded or seamless pipes?</h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>
@@ -389,7 +389,7 @@
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>Are welded pipes suitable for industrial projects?</h4>
+                                                            <h3>Are welded pipes suitable for industrial projects?</h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>
@@ -404,9 +404,9 @@
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>
+                                                            <h3>
                                                                 Can you supply pipes with international certifications?
-                                                            </h4>
+                                                            </h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>
@@ -419,9 +419,9 @@
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>
+                                                            <h3>
                                                                 Do you offer both stainless steel and carbon steel pipes?
-                                                            </h4>
+                                                            </h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>
@@ -434,9 +434,9 @@
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>
+                                                            <h3>
                                                                 Do you export worldwide?
-                                                            </h4>
+                                                            </h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>

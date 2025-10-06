@@ -36,11 +36,11 @@
                                 <div class="text">
                                     <p>
                                         India has emerged as a global leader in stainless steel production and exports,
-                                        thanks to its robust manufacturing capabilities and high quality outputs. The
+                                        thanks to its robust manufacturing capabilities and <a href="{{ route('blogs.where-to-buy-high-quality') }}">high quality</a> outputs. The
                                         country’s stainless steel export industry caters to diverse sectors such as
                                         construction, oil and gas, chemical processing, and water treatment, among others.
                                         At the forefront of this industry is <stong><a href="{{ route('index') }}">Moksh
-                                                Tubes & Fittings LLP</a></stong>, a Mumbai-based
+                                                Tubes & Fittings LLP</a></stong>, a Mumbai based
                                         company that has carved a strong reputation as a trusted global pipe supplier.
                                     </p>
                                 </div>
@@ -182,12 +182,12 @@
                                             </p>
                                         </div>
                                         <div class="exapmle">
-                                            <h3>Corrosion-Resistant Materials </h3>
+                                            <h3>Corrosion Resistant Materials </h3>
                                         </div>
 
                                         <div class="text">
                                             <p>
-                                                The company uses advanced materials like duplex and super duplex stainless
+                                                The company uses advanced materials like <a href="{{ route('materials.duplex-and-super-duplex') }}">duplex and super duplex</> stainless
                                                 steels, which offer superior resistance to corrosion in demanding
                                                 environments such as seawater or chemical exposure.
                                             </p>
@@ -358,7 +358,7 @@
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn ">
-                                                            <h4>What makes India a leading stainless steel exporter?</h4>
+                                                            <h3>What makes India a leading stainless steel exporter?</h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>
@@ -376,8 +376,8 @@
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>Why do global clients choose Moksh Tubes & Fittings LLP?
-                                                            </h4>
+                                                            <h3>Why do global clients choose Moksh Tubes & Fittings LLP?
+                                                            </h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>
@@ -395,10 +395,10 @@
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>
+                                                            <h3>
                                                                 Which industries use stainless steel pipes and fittings from
                                                                 Moksh Tubes?
-                                                            </h4>
+                                                            </h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>
@@ -414,10 +414,10 @@
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>
+                                                            <h3>
                                                                 What stainless steel products does Moksh Tubes manufacture
                                                                 and export?
-                                                            </h4>
+                                                            </h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>
@@ -433,10 +433,10 @@
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>
+                                                            <h3>
                                                                 How does Moksh Tubes ensure quality in its stainless steel
                                                                 exports?
-                                                            </h4>
+                                                            </h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>

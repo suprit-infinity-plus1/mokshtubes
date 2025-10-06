@@ -43,12 +43,12 @@
                                         containers to massive processing machinery, stainless steel is the backbone of food
                                         preparation and service worldwide.</p>
                                     <p>
-                                        But why has this material earned such universal acceptance in the food industry? The
+                                        But why has this <a href="{{ route('materials') }}">material</a> earned such universal acceptance in the food industry? The
                                         answer lies in its unique combination of properties that address the most critical
                                         concerns in food handling: safety, hygiene, durability, and efficiency.</p>
                                     <p>
                                         Whether you’re a restaurant owner, food manufacturer, or home cooking enthusiast,
-                                        understanding the role of stainless steel can help you make better decisions for
+                                        understanding the role of <a href="{{ route('blogs.stainless-steel-inconel-tubes') }}">stainless steel</a> can help you make better decisions for
                                         your kitchen or facility.</p>
                                 </div>
 
@@ -240,7 +240,7 @@
 
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>Is all stainless steel food safe?</h4>
+                                                            <h3>Is all stainless steel food safe?</h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>No. Only 304 and 316 grades are FDA approved for direct food
@@ -250,7 +250,7 @@
 
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>How do I remove water spots and fingerprints?</h4>
+                                                            <h3>How do I remove water spots and fingerprints?</h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>Use vinegar + water or a stainless steel cleaner, and always
@@ -260,7 +260,7 @@
 
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>Can stainless steel cookware go in the dishwasher?</h4>
+                                                            <h3>Can stainless steel cookware go in the dishwasher?</h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>Yes, but handwashing keeps it looking newer for longer.</p>
@@ -269,7 +269,7 @@
 
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>Why does some stainless steel rust?</h4>
+                                                            <h3>Why does some stainless steel rust?</h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>Usually low grade steel or damage to the protective layer.
@@ -280,8 +280,8 @@
 
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>Is stainless steel better than plastic for food storage?
-                                                            </h4>
+                                                            <h3>Is stainless steel better than plastic for food storage?
+                                                            </h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>Absolutely. It’s odor free, chemical-free, and long lasting.

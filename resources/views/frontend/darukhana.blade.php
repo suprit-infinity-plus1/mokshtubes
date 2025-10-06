@@ -13,12 +13,12 @@
                 <!-- Left Content (60%) -->
                 <!-- Left Content (60%) -->
                 <div class="col-md-5 content-left">
-                    <h4 class="fs-5 fw-semibold my-4">Visiting Address</h4>
+                    <h2 class="fs-5 fw-semibold my-4">Visiting Address</h2>
                     <p class="my-3b fs-5" style="max-width: 350px">
                         92E, Plot No. 3, New Tank Bunder, Reay Road, Darukhana, Mumbai, Maharashtra- 400 010.
                     </p>
 
-                    <h5 class="fs-5 fw-semibold mt-4 mb-2">Contact Details</h5>
+                    <h2 class="fs-5 fw-semibold mt-4 mb-2">Contact Details</h2>
 
                     <p class="mb-2">
                         📞 <a href="tel:+919999999999" class="text-decoration-none text-dark fw-medium">+91 99999 99999</a>
@@ -114,7 +114,7 @@
                 <div class="col-md-4">
                     <div class="footer-contact-info">
                         <div class="title">
-                            <h4>Quick Contact</h4>
+                            <h2>Quick Contact</h2>
                             <p>If you are passionate about helping people: through education, or preventing then
                                 you </p>
                         </div>
@@ -126,7 +126,7 @@
                                 </div>
                                 <div class="text-holder">
 
-                                    <h6>New Tank Bunder Darukhana</h6>
+                                    <h3 class="h6">New Tank Bunder Darukhana</h3>
                                     <p>Mumbai, Maharashtra-400 010</p>
                                 </div>
                             </li>
@@ -135,7 +135,7 @@
                                     <span class="icon-technology-1"></span>
                                 </div>
                                 <div class="text-holder">
-                                    <h6>Call Us On</h6>
+                                    <h3 class="h6">Call Us On</h6>
                                     <p>+91 97695 84950</p>
                                 </div>
                             </li>
@@ -144,7 +144,7 @@
                                     <span class="icon-letter-1"></span>
                                 </div>
                                 <div class="text-holder">
-                                    <h6>Mail Us @</h6>
+                                    <h3 class="h6">Mail Us @</h3>
                                     <a href="#">
                                         <p>info@mokstubes.com</p>
                                     </a>

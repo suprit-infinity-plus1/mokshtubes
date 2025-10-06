@@ -237,7 +237,7 @@
                                         </div>
                                         <div class="tip-box-point">
                                             <div class="tip-box">
-                                                <h3>How to avoid this mistake:</h3>
+                                                <h4>How to avoid this mistake:</h4>
                                                 <ul>
                                                     <li>Analyze your system’s pressure, temperature, and chemical
                                                         environment. </li>
@@ -280,7 +280,7 @@
                                         </div>
                                         <div class="tip-box-point">
                                             <div class="tip-box">
-                                                <h3>How to avoid this mistake:</h3>
+                                                <h4>How to avoid this mistake:</h4>
                                                 <ul>
                                                     <li>Ask for up to date certificates showing compliance with applicable
                                                         standards for each product batch. </li>
@@ -321,7 +321,7 @@
                                         </div>
                                         <div class="tip-box-point">
                                             <div class="tip-box">
-                                                <h3>How to avoid this mistake:</h3>
+                                                <h4>How to avoid this mistake:</h4>
                                                 <ul>
                                                     <li>Request detailed quotations, including breakdowns of grade,
                                                         standards, thickness, origin, and quality control processes. </li>
@@ -364,7 +364,7 @@
                                         </div>
                                         <div class="tip-box-point">
                                             <div class="tip-box">
-                                                <h3>How to avoid this mistake:</h3>
+                                                <h4>How to avoid this mistake:</h4>
                                                 <ul>
                                                     <li>Always review and triple check the engineering drawings and specs.
                                                     </li>
@@ -408,7 +408,7 @@
                                         </div>
                                         <div class="tip-box-point">
                                             <div class="tip-box">
-                                                <h3>How to avoid this mistake:</h3>
+                                                <h4>How to avoid this mistake:</h4>
                                                 <ul>
                                                     <li>Research the supplier thoroughly read reviews, ask for case
                                                         studies, and verify their certifications, past project lists, and
@@ -453,7 +453,7 @@
                                         </div>
                                         <div class="tip-box-point">
                                             <div class="tip-box">
-                                                <h3>How to avoid this mistake:</h3>
+                                                <h4>How to avoid this mistake:</h4>
                                                 <ul>
                                                     <li>Discuss expected maintenance needs with both your internal technical
                                                         staff and the supplier. </li>
@@ -496,7 +496,7 @@
                                         </div>
                                         <div class="tip-box-point">
                                             <div class="tip-box">
-                                                <h3>How to avoid this mistake:</h3>
+                                                <h4>How to avoid this mistake:</h4>
                                                 <ul>
                                                     <li>Conduct your own inspections upon receipt.</li>
                                                     <li>Visual checks for surface defects, correct sizing, and labeling.
@@ -545,7 +545,7 @@
                                         </div>
                                         <div class="tip-box-point">
                                             <div class="tip-box">
-                                                <h3>How to avoid this mistake:</h3>
+                                                <h4>How to avoid this mistake:</h4>
                                                 <ul>
                                                     <li>Build buffers into your project timeline to accommodate delays.
                                                     </li>
@@ -575,8 +575,8 @@
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn ">
-                                                            <h4>What are the most common grades of stainless steel pipes,
-                                                                and how do I select the right one? </h4>
+                                                            <h2>What are the most common grades of stainless steel pipes,
+                                                                and how do I select the right one? </h2>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>
@@ -598,8 +598,8 @@
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>Should I use welded or seamless pipes for my project?
-                                                            </h4>
+                                                            <h2>Should I use welded or seamless pipes for my project?
+                                                            </h2>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>
@@ -619,10 +619,10 @@
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>
+                                                            <h2>
                                                                 How important is it to check standards compliance and
                                                                 certifications?
-                                                            </h4>
+                                                            </h2>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>
@@ -637,9 +637,9 @@
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>
+                                                            <h2>
                                                                 What kind of maintenance do stainless steel pipes require?
-                                                            </h4>
+                                                            </h2>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>
@@ -654,9 +654,9 @@
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>
+                                                            <h2>
                                                                 How do I find a reliable supplier for stainless steel pipes?
-                                                            </h4>
+                                                            </h2>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>
@@ -837,7 +837,7 @@
                         <!--Start single sidebar-->
                         <div class="single-sidebar">
                             <div class="sec-title">
-                                <h3>Recent Blogs</h3>
+                                <h2>Recent Blogs</h2>
                             </div>
                             <ul class="recent-post">
                                 <li>

@@ -35,13 +35,13 @@
                                 </div>
                                 <div class="text">
                                     <p>
-                                        Selecting the right stainless steel pipes for an industrial project is a decision
+                                        Selecting the right stainless steel pipes for an <a href="{{ route('blogs.emerging-trends-in-industrial-piping-for-2025-and-beyond') }}">industrial</a> project is a decision
                                         that carries significant weight. It directly impacts the safety, efficiency, and
                                         longevity of your entire system. With countless grades, sizes, and specifications
                                         available, making the correct choice can seem daunting. A mistake can lead to
                                         premature failure, costly downtime, and even safety hazards. This industrial pipe
                                         selection guide will walk you through the essential factors to consider, ensuring
-                                        you choose the best stainless steel pipes for your specific application and get the
+                                        you choose the best stainless steel pipes for your <a href="{{ route('products.special-fabricated') }}">specific</a> application and get the
                                         most value from your investment.
                                     </p>
                                 </div>
@@ -56,7 +56,7 @@
                                         matched to the substance it carries and the environment it operates in. Choosing
                                         an inadequate pipe can lead to corrosion, leaks, or structural failure,
                                         compromising operations and safety. By taking a methodical approach to
-                                        selection, you can build a reliable, long-lasting system that performs exactly
+                                        selection, you can build a reliable, long lasting system that performs exactly
                                         as intended.
                                     </p>
                                 </div>
@@ -77,12 +77,12 @@
                                                 <h3>Austenitic Grades</h3>
                                             </div>
                                             <ul>
-                                                <li><strong>Grade 304:</strong> This is the most common and versatile
+                                                <li><strong><a href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-304') }}">Grade 304:</a></strong> This is the most common and versatile
                                                     stainless steel. With 18% chromium and 8% nickel, it offers excellent
                                                     corrosion resistance in a wide range of environments. It's a workhorse
                                                     for applications in food and beverage, chemical processing, and
                                                     general purpose plumbing.</li>
-                                                <li><strong>Grade 316:</strong> For more demanding conditions, Grade 316 is
+                                                <li><strong><a href="{{ url('materials\austenitic-stainless-steel\austenitic-stainless-steel-316') }}">Grade 316:</a></strong> For more demanding conditions, Grade 316 is
                                                     the go to choice. It contains molybdenum (typically 2-3%), which
                                                     significantly enhances its resistance to chlorides (like salt) and other
                                                     harsh chemicals. It is essential for marine environments, pharmaceutical
@@ -102,7 +102,7 @@
                                                 <h3>Duplex Grades</h3>
                                             </div>
                                             <ul>
-                                                <li><strong>Duplex 2205:</strong> Duplex stainless steels have a mixed
+                                                <li><strong><a href="{{ url('materials/duplex-and-super-duplex/super-duplex-2205') }}">Duplex 2205:</a></strong> Duplex stainless steels have a mixed
                                                     microstructure of austenite and ferrite. This gives them the "best of
                                                     both worlds" higher strength than austenitic grades and superior
                                                     resistance to chloride stress corrosion cracking. They are ideal for
