@@ -121,7 +121,9 @@
             <div class="section-title center">
                 <h2 class="fw-bold" style="color: #174268;">Charts</h2>
 
-
+ <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
+                                                <strong>Office Address:</strong> 92E, Plot No. 3, New Tank Bunder, Darukhana, Mumbai, Maharashtra- 400 010.
+                                            </p>
             </div>
             <!-- Child Title -->
             <div class="section-title center mb-3">

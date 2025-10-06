@@ -106,13 +106,21 @@
                                             <h3>Composition and Characteristics</h3>
 
                                             <ul>
-                                                <li><a href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-304') }}">304 Stainless Steel</a> 18% chromium, 8% nickel</li>
-                                                <li><a href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-316') }}">316 Stainless Steel</a> 16% chromium, 10% nickel, 2% molybdenum</li>
-                                                <li><a href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-310') }}">310 Stainless Steel</a> 25% chromium, 20% nickel (high-temperature grade)
+                                                <li><a
+                                                        href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-304') }}">304
+                                                        Stainless Steel</a> 18% chromium, 8% nickel</li>
+                                                <li><a
+                                                        href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-316') }}">316
+                                                        Stainless Steel</a> 16% chromium, 10% nickel, 2% molybdenum</li>
+                                                <li><a
+                                                        href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-310') }}">310
+                                                        Stainless Steel</a> 25% chromium, 20% nickel (high-temperature
+                                                    grade)
                                                 </li>
                                             </ul>
                                         </div>
-                                        <p>Unlike <a href="{{ route('materials.nickel-Based-Superalloys') }}">nickel alloys</a> such as Hastelloy, stainless steel relies primarily on iron
+                                        <p>Unlike <a href="{{ route('materials.nickel-Based-Superalloys') }}">nickel
+                                                alloys</a> such as Hastelloy, stainless steel relies primarily on iron
                                             as its
                                             base metal, contributing to its lighter weight profile.</p>
 
@@ -543,35 +551,40 @@
                                     <div class="card-body ">
                                         <!-- Heading -->
                                         <div class="section-title">
-                                            <h2>get in <span class="thm-color">touch</span></h2>
-                                            <p>Let’s forge a connection — contact our team today.</p>
+                                            <h2>Locate <span class="thm-color">Us</span></h2>
+                                            {{-- <p>Let’s forge a connection — contact our team today.</p> --}}
                                         </div>
 
                                         <!-- Map -->
                                         <div class="mb-3 text-center">
-                                           <iframe
+                                            <iframe
                                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.4406978634916!2d72.82619187387158!3d18.956134955727215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf9ee4261af1%3A0x57adb33b0f4c262!2sMoksh%20Tubes%20%26%20Fittings%20LLP!5e0!3m2!1sen!2sin!4v1759749318402!5m2!1sen!2sin"
                                                 width="100%" height="200" style="border:0;" allowfullscreen=""
                                                 loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-                                        <!-- Contact Info -->
-                                        <p class="mb-2"><i class="bi bi-envelope me-2 text-primary"></i>
-                                            info@mokstubes.com</p>
-                                        <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
-                                            <strong>Office Address:</strong> Hinglaj Bhavan, Gulalwadi Mumbai, Maharashtra.
-                                            400004
-                                        </p>
-                                        <p class="mb-2"><i class="bi bi-geo-alt me-2 text-success"></i>
-                                            <strong>Office Address:</strong> 6/A, Ground Floor, Rajwanti Mansion, Khetwadi
-                                            Mumbai
-                                        </p>
-                                        <p class="mb-2"><i class="bi bi-geo-alt me-2 text-info"></i>
-                                            <strong>Office Address:</strong> 95/95A, Dawood Baug, Sukhlaji Street,
-                                            Kamatipura Mumbai
-                                        </p>
+                                            <!-- Contact Info -->
+                                            <p class="mb-2"><i class="bi bi-envelope me-2 text-primary"></i>
+                                                info@mokstubes.com</p>
+                                            <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
+                                                <strong>Office Address:</strong> Hinglaj Bhavan, Gulalwadi Mumbai,
+                                                Maharashtra.
+                                                400004
+                                            </p>
+                                            <p class="mb-2"><i class="bi bi-geo-alt me-2 text-success"></i>
+                                                <strong>Office Address:</strong> 6/A, Ground Floor, Rajwanti Mansion,
+                                                Khetwadi
+                                                Mumbai
+                                            </p>
+                                            <p class="mb-2"><i class="bi bi-geo-alt me-2 text-info"></i>
+                                                <strong>Office Address:</strong> 95/95A, Dawood Baug, Sukhlaji Street,
+                                                Kamatipura Mumbai
+                                            </p>
+                                            <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
+                                                <strong>Office Address:</strong> 92E, Plot No. 3, New Tank Bunder, Darukhana, Mumbai, Maharashtra- 400 010.
+                                            </p>
 
-                                        <!-- Social Icons -->
-                                        {{-- <div class="mt-3 text-center">
+                                            <!-- Social Icons -->
+                                            {{-- <div class="mt-3 text-center">
                                             <a href="https://wa.me/+919769584950"
                                                 class="btn btn-outline-success btn-sm rounded-circle me-2"><i
                                                     class="bi bi-whatsapp"></i></a>
@@ -589,54 +602,56 @@
                                                     class="fab fa-x-twitter"></i></a>
 
                                         </div> --}}
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            {{-- Start contant form --}}
+                            <section class="blog-contact-form">
+                                <div class="section-title">
+                                    <h2>get in <span class="thm-color">touch</span></h2>
+                                    <p>Let’s forge a connection — contact our team today.</p>
+                                </div>
+
+                                <form id="contact-form" name="contact_form" class="default-form"
+                                    action="inc/sendmail.php" method="post">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <input class="m-1" type="text" name="form_name"
+                                                placeholder="Your Name*" required="">
+                                        </div>
+                                        <div class="col-md-12">
+                                            <input class="m-1" type="email" name="form_email"
+                                                placeholder="Your Mail*" required="">
+                                        </div>
+                                        <div class="col-md-12">
+                                            <input class="m-1" type="text" name="form_phone" placeholder="Phone">
+                                        </div>
+                                        <div class="col-md-12">
+                                            <input class="m-1" type="text" name="form_subject"
+                                                placeholder="Subject">
+                                        </div>
+                                        <div class="col-md-12">
+                                            <textarea name="form_message" class="m-1" placeholder="Your Message.." required=""></textarea>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <input id="form_botcheck" name="form_botcheck" type="hidden"
+                                                value="">
+                                            <button class="thm-btn bg-clr1 m-1" type="submit"
+                                                data-loading-text="Please wait...">
+                                                send message
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </section>
+                            {{-- End contant form --}}
+
                         </div>
-                        {{-- Start contant form --}}
-                        <section class="blog-contact-form">
-                            <div class="section-title">
-                                <h2>get in <span class="thm-color">touch</span></h2>
-                                <p>Let’s forge a connection — contact our team today.</p>
-                            </div>
-
-                            <form id="contact-form" name="contact_form" class="default-form" action="inc/sendmail.php"
-                                method="post">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <input class="m-1" type="text" name="form_name" placeholder="Your Name*"
-                                            required="">
-                                    </div>
-                                    <div class="col-md-12">
-                                        <input class="m-1" type="email" name="form_email" placeholder="Your Mail*"
-                                            required="">
-                                    </div>
-                                    <div class="col-md-12">
-                                        <input class="m-1" type="text" name="form_phone" placeholder="Phone">
-                                    </div>
-                                    <div class="col-md-12">
-                                        <input class="m-1" type="text" name="form_subject" placeholder="Subject">
-                                    </div>
-                                    <div class="col-md-12">
-                                        <textarea name="form_message" class="m-1" placeholder="Your Message.." required=""></textarea>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <input id="form_botcheck" name="form_botcheck" type="hidden" value="">
-                                        <button class="thm-btn bg-clr1 m-1" type="submit"
-                                            data-loading-text="Please wait...">
-                                            send message
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
-                        </section>
-                        {{-- End contant form --}}
-
                     </div>
+                    <!--End Sidebar Wrapper-->
                 </div>
-                <!--End Sidebar Wrapper-->
             </div>
-        </div>
     </section>
     <section class="pt-4 mb-5 col-12">
         <div class="container">

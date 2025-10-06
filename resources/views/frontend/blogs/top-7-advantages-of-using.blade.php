@@ -1,7 +1,8 @@
 @extends('layouts.master')
 
 @section('title', '7 Advantages of Stainless Steel 316L in Industry')
-@section('meta_description', 'Explore the top 7 advantages of Stainless Steel 316L, including corrosion resistance,
+@section('meta_description',
+    'Explore the top 7 advantages of Stainless Steel 316L, including corrosion resistance,
     durability & strength for industrial, marine & chemical applications.')
 
 
@@ -41,7 +42,9 @@
                                         versatility, it has become indispensable in industries such as chemical processing,
                                         marine environments, and pharmaceuticals. Whether you’re designing equipment for
                                         extreme environments or seeking long lasting materials for high stakes projects,
-                                        <a href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-316') }}">stainless steel 316L</a> offers unbeatable advantages.
+                                        <a
+                                            href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-316') }}">stainless
+                                            steel 316L</a> offers unbeatable advantages.
                                     </p>
                                 </div>
                                 <div class="text">
@@ -106,14 +109,17 @@
                                             <p>
                                                 Stainless steel 316L is synonymous with strength and toughness. It can
                                                 withstand high mechanical stresses and extreme temperatures, making it a
-                                                dependable material for <a href="{{ route('blogs.emerging-trends-in-industrial-piping-for-2025-and-beyond') }}">industrial</a> applications. Its low carbon content
+                                                dependable material for <a
+                                                    href="{{ route('blogs.emerging-trends-in-industrial-piping-for-2025-and-beyond') }}">industrial</a>
+                                                applications. Its low carbon content
                                                 further enhances its ability to resist deformation under pressure.
                                             </p>
                                         </div>
                                         <div class="text">
                                             <p>
                                                 This strength gives 316L stainless steel a long lifespan, even in demanding
-                                                environments. Equipment made from this <a href="{{ route('materials') }}">material</a> requires minimal repairs or
+                                                environments. Equipment made from this <a
+                                                    href="{{ route('materials') }}">material</a> requires minimal repairs or
                                                 replacements, reducing operational downtime and increasing efficiency.
                                             </p>
                                         </div>
@@ -636,16 +642,16 @@
                         <div class="card-body ">
                             <!-- Heading -->
                             <div class="section-title">
-                                <h2>get in <span class="thm-color">touch</span></h2>
-                                <p>Let’s forge a connection — contact our team today.</p>
+                                <h2>Locate <span class="thm-color">Us</span></h2>
+                                {{-- <p>Let’s forge a connection — contact our team today.</p> --}}
                             </div>
 
                             <!-- Map -->
                             <div class="mb-3 text-center">
                                 <iframe
-                                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.4406978634916!2d72.82619187387158!3d18.956134955727215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf9ee4261af1%3A0x57adb33b0f4c262!2sMoksh%20Tubes%20%26%20Fittings%20LLP!5e0!3m2!1sen!2sin!4v1759749318402!5m2!1sen!2sin"
-                                                width="100%" height="200" style="border:0;" allowfullscreen=""
-                                                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.4406978634916!2d72.82619187387158!3d18.956134955727215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf9ee4261af1%3A0x57adb33b0f4c262!2sMoksh%20Tubes%20%26%20Fittings%20LLP!5e0!3m2!1sen!2sin!4v1759749318402!5m2!1sen!2sin"
+                                    width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
 
                             <!-- Contact Info -->
@@ -662,6 +668,10 @@
                             <p class="mb-2"><i class="bi bi-geo-alt me-2 text-info"></i>
                                 <strong>Office Address:</strong> 95/95A, Dawood Baug, Sukhlaji Street,
                                 Kamatipura Mumbai
+                            </p>
+                            <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
+                                <strong>Office Address:</strong> 92E, Plot No. 3, New Tank Bunder, Darukhana, Mumbai,
+                                Maharashtra- 400 010.
                             </p>
 
                             <!-- Social Icons -->

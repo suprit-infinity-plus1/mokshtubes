@@ -654,8 +654,8 @@
                                     <div class="card-body ">
                                         <!-- Heading -->
                                         <div class="section-title">
-                                            <h2>get in <span class="thm-color">touch</span></h2>
-                                            <p>Let’s forge a connection — contact our team today.</p>
+                                            <h2>Locate <span class="thm-color">Us</span></h2>
+                                            {{-- <p>Let’s forge a connection — contact our team today.</p> --}}
                                         </div>
 
                                         <!-- Map -->
@@ -681,6 +681,10 @@
                                             <strong>Office Address:</strong> 95/95A, Dawood Baug, Sukhlaji Street,
                                             Kamatipura Mumbai
                                         </p>
+                                        <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
+                                <strong>Office Address:</strong> 92E, Plot No. 3, New Tank Bunder, Darukhana, Mumbai,
+                                Maharashtra- 400 010.
+                            </p>
 
                                         <!-- Social Icons -->
                                         {{-- <div class="mt-3 text-center">
