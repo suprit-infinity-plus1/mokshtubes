@@ -88,20 +88,20 @@ function stickyHeader() {
 }
 
 //===scoll to Top===
-function scrollToTop() {
-    if ($(".scroll-to-target").length) {
-        $(".scroll-to-target").on("click", function () {
-            var target = $(this).attr("data-target");
-            // animate
-            $("html, body").animate(
-                {
-                    scrollTop: $(target).offset().top,
-                },
-                1000
-            );
-        });
-    }
-}
+// function scrollToTop() {
+//     if ($(".scroll-to-target").length) {
+//         $(".scroll-to-target").on("click", function () {
+//             var target = $(this).attr("data-target");
+//             // animate
+//             $("html, body").animate(
+//                 {
+//                     scrollTop: $(target).offset().top,
+//                 },
+//                 1000
+//             );
+//         });
+//     }
+// }
 
 let scrollToTopBtn = document.querySelector(".scroll-to-top");
 scrollToTopBtn.addEventListener("click", function () {
