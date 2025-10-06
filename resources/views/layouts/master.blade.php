@@ -633,7 +633,7 @@
         </footer>
 
         <div class="whatsapp-btn-container"
-        style="
+            style="
 display: flex;
 align-items: center;
 justify-content: center;
@@ -645,12 +645,12 @@ left: 2.1875rem;
 width: 60px;
 height: 60px;
 z-index:99;">
-        <div id="whatsapp-btn" style="margin-top:5px;">
-            <a class="whatsapp" href="https://wa.me/+919769584950">
-                <i class="fa fa-whatsapp fa-2x text-white" aria-hidden="true"></i>
-            </a>
+            <div id="whatsapp-btn" style="margin-top:5px;">
+                <a class="whatsapp" href="https://wa.me/+919769584950">
+                    <i class="fa fa-whatsapp fa-2x text-white" aria-hidden="true"></i>
+                </a>
+            </div>
         </div>
-    </div>
 
         <!-- Contact Form Modal -->
         <!-- Contact Form Modal -->
@@ -707,8 +707,6 @@ z-index:99;">
                 </div>
             </div>
         </div>
-
-
 
 
 

@@ -1,7 +1,9 @@
 @extends('layouts.master')
 
 @section('title', 'Moksh Tubes: High-Performance Pipes & Fittings')
-@section('meta_description','Contact MokshTubes for product inquiries, technical support, or custom alloy requirements. Call, email, or visit us — we’re here to assist you.')
+@section('meta_description',
+    'Contact MokshTubes for product inquiries, technical support, or custom alloy requirements.
+    Call, email, or visit us — we’re here to assist you.')
 @section('meta_keywords', 'Incoloy 825, nickel alloy, corrosion resistant alloy, premium metal alloys, moksh tubes')
 @section('canonical', 'https://mokshtubes.com')
 @section('content')
@@ -24,7 +26,8 @@
                         <div class="slide-content-box">
                             <h1>Global Supplier of Nickel<br> & Stainless Steel Tubes</h1>
 
-                            <p>They'll have to make the best of things its an uphill climb.<br> The weather started getting was tossed.</p>
+                            <p>They'll have to make the best of things its an uphill climb.<br> The weather started getting
+                                was tossed.</p>
                         </div>
                     </div>
                     <div class="tp-caption tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="130"
@@ -53,22 +56,23 @@
 
                 <li data-transition="slidingoverlayright">
                     <img src="{{ asset('assets/images/slides/Mokshtubes-banner-desktop.png') }}" alt="banner image"
-                        width="1920" height="880" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat"
-                        data-bgparallax="1">
+                        width="1920" height="880" data-bgposition="top center" data-bgfit="cover"
+                        data-bgrepeat="no-repeat" data-bgparallax="1">
 
-                    <div class="tp-caption  tp-resizeme" data-x="left" data-hoffset="15" data-y="center"
-                        data-voffset="-50" data-transform_idle="o:1;"
+                    <div class="tp-caption  tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="-50"
+                        data-transform_idle="o:1;"
                         data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;"
                         data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
                         data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-splitin="none" data-splitout="none"
                         data-responsive_offset="on" data-start="700">
                         <div class="slide-content-box">
                             <h2>Global Supplier of <br> Nickel & Stainless Steel <br> Tubes & Fittings.</h2>
-                            <p>They'll have to make the best of things its an uphill climb.<br> The weather started getting was tossed. </p>
+                            <p>They'll have to make the best of things its an uphill climb.<br> The weather started getting
+                                was tossed. </p>
                         </div>
                     </div>
-                    <div class="tp-caption tp-resizeme" data-x="left" data-hoffset="15" data-y="center"
-                        data-voffset="110" data-transform_idle="o:1;"
+                    <div class="tp-caption tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="110"
+                        data-transform_idle="o:1;"
                         data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
                         data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-splitin="none"
                         data-splitout="none" data-responsive_offset="on" data-start="2300">
@@ -92,12 +96,12 @@
                 </li>
 
                 <li data-transition="slidingoverlayleft">
-                    <img src="{{ asset('assets/images/slides/carpenteria-interno.jpg') }}" alt="banner image" width="1920"
-                        height="880" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat"
-                        data-bgparallax="1">
+                    <img src="{{ asset('assets/images/slides/carpenteria-interno.jpg') }}" alt="banner image"
+                        width="1920" height="880" data-bgposition="top center" data-bgfit="cover"
+                        data-bgrepeat="no-repeat" data-bgparallax="1">
 
-                    <div class="tp-caption  tp-resizeme" data-x="right" data-hoffset="15" data-y="center" data-voffset="-50"
-                        data-transform_idle="o:1;"
+                    <div class="tp-caption  tp-resizeme" data-x="right" data-hoffset="15" data-y="center"
+                        data-voffset="-50" data-transform_idle="o:1;"
                         data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;"
                         data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
                         data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-splitin="none" data-splitout="none"
@@ -108,8 +112,8 @@
                                 getting was tossed. </p>
                         </div>
                     </div>
-                    <div class="tp-caption tp-resizeme" data-x="right" data-hoffset="400" data-y="center" data-voffset="110"
-                        data-transform_idle="o:1;"
+                    <div class="tp-caption tp-resizeme" data-x="right" data-hoffset="400" data-y="center"
+                        data-voffset="110" data-transform_idle="o:1;"
                         data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
                         data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-splitin="none"
                         data-splitout="none" data-responsive_offset="on" data-start="2300">
@@ -401,151 +405,151 @@
     </section>
 
     <!-- <section class="latest-project sec-padd" style="background-image: url(images/background/5.jpg);">
-                                                                                                                                                                                                                                <div class="container">
-                                                                                                                                                                                                                                    <div class="section-title">
-                                                                                                                                                                                                                                        <h2>Latest Projects</h2>
-                                                                                                                                                                                                                                    </div>
-                                                                                                                                                                                                                                    <div class="latest-project-carousel">
-                                                                                                                                                                                                                                        <div class="item">
-                                                                                                                                                                                                                                            <div class="single-project">
-                                                                                                                                                                                                                                                <figure class="imghvr-shutter-in-out-horiz">
-                                                                                                                                                                                                                                                    <img src="images/project/p1.jpg" alt="Awesome Image" />
-                                                                                                                                                                                                                                                    <figcaption>
-                                                                                                                                                                                                                                                        <div class="content">
-                                                                                                                                                                                                                                                            <a href="project-single.html">
-                                                                                                                                                                                                                                                                <h5>PETROLEUM GAS</h5>
-                                                                                                                                                                                                                                                            </a>
-                                                                                                                                                                                                                                                            <p>Chemical</p>
-                                                                                                                                                                                                                                                        </div>
-                                                                                                                                                                                                                                                    </figcaption>
-                                                                                                                                                                                                                                                </figure>
-                                                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                                                        </div>
-                                                                                                                                                                                                                                        <div class="item">
-                                                                                                                                                                                                                                            <div class="single-latest-project-carousel">
-                                                                                                                                                                                                                                                <div class="single-project">
-                                                                                                                                                                                                                                                    <figure class="imghvr-shutter-in-out-horiz">
-                                                                                                                                                                                                                                                        <img src="images/project/p2.jpg" alt="Awesome Image" />
-                                                                                                                                                                                                                                                        <figcaption>
-                                                                                                                                                                                                                                                            <div class="content">
-                                                                                                                                                                                                                                                                <a href="project-single.html">
-                                                                                                                                                                                                                                                                    <h5>MULTI SPRING PUSH</h5>
-                                                                                                                                                                                                                                                                </a>
-                                                                                                                                                                                                                                                                <p>Mechanical</p>
-                                                                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                                                                        </figcaption>
-                                                                                                                                                                                                                                                    </figure>
-                                                                                                                                                                                                                                                </div>
-                                                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                                                        </div>
-                                                                                                                                                                                                                                        <div class="item">
-                                                                                                                                                                                                                                            <div class="single-latest-project-carousel">
-                                                                                                                                                                                                                                                <div class="single-project">
-                                                                                                                                                                                                                                                    <figure class="imghvr-shutter-in-out-horiz">
-                                                                                                                                                                                                                                                        <img src="images/project/p3.jpg" alt="Awesome Image" />
-                                                                                                                                                                                                                                                        <figcaption>
-                                                                                                                                                                                                                                                            <div class="content">
-                                                                                                                                                                                                                                                                <a href="project-single.html">
-                                                                                                                                                                                                                                                                    <h5>STORAGE SYSTEM</h5>
-                                                                                                                                                                                                                                                                </a>
-                                                                                                                                                                                                                                                                <p>Power Energy</p>
-                                                                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                                                                        </figcaption>
-                                                                                                                                                                                                                                                    </figure>
-                                                                                                                                                                                                                                                </div>
-                                                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                                                        </div>
-                                                                                                                                                                                                                                        <div class="item">
-                                                                                                                                                                                                                                            <div class="single-latest-project-carousel">
-                                                                                                                                                                                                                                                <div class="single-project">
-                                                                                                                                                                                                                                                    <figure class="imghvr-shutter-in-out-horiz">
-                                                                                                                                                                                                                                                        <img src="images/project/p4.jpg" alt="Awesome Image" />
-                                                                                                                                                                                                                                                        <figcaption>
-                                                                                                                                                                                                                                                            <div class="content">
-                                                                                                                                                                                                                                                                <a href="project-single.html">
-                                                                                                                                                                                                                                                                    <h5>MENUFACTURING</h5>
-                                                                                                                                                                                                                                                                </a>
-                                                                                                                                                                                                                                                                <p>Agricultural</p>
-                                                                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                                                                        </figcaption>
-                                                                                                                                                                                                                                                    </figure>
-                                                                                                                                                                                                                                                </div>
-                                                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                                                        </div>
-                                                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                                                                            <div class="container">
+                                                                                                                                                                                                                                                                <div class="section-title">
+                                                                                                                                                                                                                                                                    <h2>Latest Projects</h2>
+                                                                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                                                                                <div class="latest-project-carousel">
+                                                                                                                                                                                                                                                                    <div class="item">
+                                                                                                                                                                                                                                                                        <div class="single-project">
+                                                                                                                                                                                                                                                                            <figure class="imghvr-shutter-in-out-horiz">
+                                                                                                                                                                                                                                                                                <img src="images/project/p1.jpg" alt="Awesome Image" />
+                                                                                                                                                                                                                                                                                <figcaption>
+                                                                                                                                                                                                                                                                                    <div class="content">
+                                                                                                                                                                                                                                                                                        <a href="project-single.html">
+                                                                                                                                                                                                                                                                                            <h5>PETROLEUM GAS</h5>
+                                                                                                                                                                                                                                                                                        </a>
+                                                                                                                                                                                                                                                                                        <p>Chemical</p>
+                                                                                                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                                                                                                </figcaption>
+                                                                                                                                                                                                                                                                            </figure>
+                                                                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                                                                                    <div class="item">
+                                                                                                                                                                                                                                                                        <div class="single-latest-project-carousel">
+                                                                                                                                                                                                                                                                            <div class="single-project">
+                                                                                                                                                                                                                                                                                <figure class="imghvr-shutter-in-out-horiz">
+                                                                                                                                                                                                                                                                                    <img src="images/project/p2.jpg" alt="Awesome Image" />
+                                                                                                                                                                                                                                                                                    <figcaption>
+                                                                                                                                                                                                                                                                                        <div class="content">
+                                                                                                                                                                                                                                                                                            <a href="project-single.html">
+                                                                                                                                                                                                                                                                                                <h5>MULTI SPRING PUSH</h5>
+                                                                                                                                                                                                                                                                                            </a>
+                                                                                                                                                                                                                                                                                            <p>Mechanical</p>
+                                                                                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                                                                                                    </figcaption>
+                                                                                                                                                                                                                                                                                </figure>
+                                                                                                                                                                                                                                                                            </div>
+                                                                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                                                                                    <div class="item">
+                                                                                                                                                                                                                                                                        <div class="single-latest-project-carousel">
+                                                                                                                                                                                                                                                                            <div class="single-project">
+                                                                                                                                                                                                                                                                                <figure class="imghvr-shutter-in-out-horiz">
+                                                                                                                                                                                                                                                                                    <img src="images/project/p3.jpg" alt="Awesome Image" />
+                                                                                                                                                                                                                                                                                    <figcaption>
+                                                                                                                                                                                                                                                                                        <div class="content">
+                                                                                                                                                                                                                                                                                            <a href="project-single.html">
+                                                                                                                                                                                                                                                                                                <h5>STORAGE SYSTEM</h5>
+                                                                                                                                                                                                                                                                                            </a>
+                                                                                                                                                                                                                                                                                            <p>Power Energy</p>
+                                                                                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                                                                                                    </figcaption>
+                                                                                                                                                                                                                                                                                </figure>
+                                                                                                                                                                                                                                                                            </div>
+                                                                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                                                                                    <div class="item">
+                                                                                                                                                                                                                                                                        <div class="single-latest-project-carousel">
+                                                                                                                                                                                                                                                                            <div class="single-project">
+                                                                                                                                                                                                                                                                                <figure class="imghvr-shutter-in-out-horiz">
+                                                                                                                                                                                                                                                                                    <img src="images/project/p4.jpg" alt="Awesome Image" />
+                                                                                                                                                                                                                                                                                    <figcaption>
+                                                                                                                                                                                                                                                                                        <div class="content">
+                                                                                                                                                                                                                                                                                            <a href="project-single.html">
+                                                                                                                                                                                                                                                                                                <h5>MENUFACTURING</h5>
+                                                                                                                                                                                                                                                                                            </a>
+                                                                                                                                                                                                                                                                                            <p>Agricultural</p>
+                                                                                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                                                                                                    </figcaption>
+                                                                                                                                                                                                                                                                                </figure>
+                                                                                                                                                                                                                                                                            </div>
+                                                                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                                                                                </div>
 
-                                                                                                                                                                                                                                </div>
-                                                                                                                                                                                                                            </section> -->
+                                                                                                                                                                                                                                                            </div>
+                                                                                                                                                                                                                                                        </section> -->
 
 
     <!-- <section class="call-back sec-padd2" style="background-image: url(images/background/4.jpg);">
-                                                                                                                                                                                                                                <div class="container">
+                                                                                                                                                                                                                                                            <div class="container">
 
-                                                                                                                                                                                                                                    <div class="row">
-                                                                                                                                                                                                                                        <div class="col-md-5 col-sm-12">
-                                                                                                                                                                                                                                            <div class="section-title">
-                                                                                                                                                                                                                                                <h2>Request a Call Back</h2>
-                                                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                                                            <h5>Have You Any Question About Us?</h5>
-                                                                                                                                                                                                                                            <br>
-                                                                                                                                                                                                                                            <div class="text">
-                                                                                                                                                                                                                                                <p>Any kind of business solution and consultion hesitate to contact with us for customer
-                                                                                                                                                                                                                                                    support. We are love to hear from you</p><br>
-                                                                                                                                                                                                                                                <p><span>Phone & Email:</span> For any information contact with us through our <a href="#">
-                                                                                                                                                                                                                                                        Email</a> and you can also contact with directe by call us in this number
-                                                                                                                                                                                                                                                    <span>(+880) 1723801729</span>
-                                                                                                                                                                                                                                                </p><br>
-                                                                                                                                                                                                                                                <p><span>Office Hours:</span> We are alwyes open excpet saturday & Sunday from
-                                                                                                                                                                                                                                                    <span>10:00am</span> to <span> 8:00pm</span>
-                                                                                                                                                                                                                                                </p>
-                                                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                                                        </div>
-                                                                                                                                                                                                                                        <div class="col-md-7 col-sm-12">
-                                                                                                                                                                                                                                            <div class="contact-form-area">
-                                                                                                                                                                                                                                                <div class="contact-form">
-                                                                                                                                                                                                                                                    <form id="contact-form" name="contact_form" class="default-form"
-                                                                                                                                                                                                                                                        action="inc/sendmail.php" method="post" novalidate="novalidate">
-                                                                                                                                                                                                                                                        <div class="row">
-                                                                                                                                                                                                                                                            <div class="col-md-6">
-                                                                                                                                                                                                                                                                <input type="text" name="form_name" value="" placeholder="Your Name*"
-                                                                                                                                                                                                                                                                    required="" aria-required="true">
-                                                                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                                                                            <div class="col-md-6">
-                                                                                                                                                                                                                                                                <input type="email" name="form_email" value="" placeholder="Your Mail*"
-                                                                                                                                                                                                                                                                    required="" aria-required="true">
-                                                                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                                                                        </div>
-                                                                                                                                                                                                                                                        <div class="row">
-                                                                                                                                                                                                                                                            <div class="col-md-6">
-                                                                                                                                                                                                                                                                <input type="text" name="form_phone" value="" placeholder="Phone">
-                                                                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                                                                            <div class="col-md-6">
-                                                                                                                                                                                                                                                                <input type="text" name="form_subject" value="" placeholder="Subject">
-                                                                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                                                                        </div>
-                                                                                                                                                                                                                                                        <div class="row">
-                                                                                                                                                                                                                                                            <div class="col-md-12">
-                                                                                                                                                                                                                                                                <textarea name="form_message" placeholder="Your Message.." required="" aria-required="true"></textarea>
-                                                                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                                                                        </div>
-                                                                                                                                                                                                                                                        <div class="row">
-                                                                                                                                                                                                                                                            <div class="col-md-12">
-                                                                                                                                                                                                                                                                <input id="form_botcheck" name="form_botcheck" class="form-control"
-                                                                                                                                                                                                                                                                    type="hidden" value="">
-                                                                                                                                                                                                                                                                <button class="thm-btn bg-clr1" type="submit"
-                                                                                                                                                                                                                                                                    data-loading-text="Please wait...">send message</button>
-                                                                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                                                                        </div>
-                                                                                                                                                                                                                                                    </form>
-                                                                                                                                                                                                                                                </div>
-                                                                                                                                                                                                                                            </div>
+                                                                                                                                                                                                                                                                <div class="row">
+                                                                                                                                                                                                                                                                    <div class="col-md-5 col-sm-12">
+                                                                                                                                                                                                                                                                        <div class="section-title">
+                                                                                                                                                                                                                                                                            <h2>Request a Call Back</h2>
+                                                                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                                                                                        <h5>Have You Any Question About Us?</h5>
+                                                                                                                                                                                                                                                                        <br>
+                                                                                                                                                                                                                                                                        <div class="text">
+                                                                                                                                                                                                                                                                            <p>Any kind of business solution and consultion hesitate to contact with us for customer
+                                                                                                                                                                                                                                                                                support. We are love to hear from you</p><br>
+                                                                                                                                                                                                                                                                            <p><span>Phone & Email:</span> For any information contact with us through our <a href="#">
+                                                                                                                                                                                                                                                                                    Email</a> and you can also contact with directe by call us in this number
+                                                                                                                                                                                                                                                                                <span>(+880) 1723801729</span>
+                                                                                                                                                                                                                                                                            </p><br>
+                                                                                                                                                                                                                                                                            <p><span>Office Hours:</span> We are alwyes open excpet saturday & Sunday from
+                                                                                                                                                                                                                                                                                <span>10:00am</span> to <span> 8:00pm</span>
+                                                                                                                                                                                                                                                                            </p>
+                                                                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                                                                                    <div class="col-md-7 col-sm-12">
+                                                                                                                                                                                                                                                                        <div class="contact-form-area">
+                                                                                                                                                                                                                                                                            <div class="contact-form">
+                                                                                                                                                                                                                                                                                <form id="contact-form" name="contact_form" class="default-form"
+                                                                                                                                                                                                                                                                                    action="inc/sendmail.php" method="post" novalidate="novalidate">
+                                                                                                                                                                                                                                                                                    <div class="row">
+                                                                                                                                                                                                                                                                                        <div class="col-md-6">
+                                                                                                                                                                                                                                                                                            <input type="text" name="form_name" value="" placeholder="Your Name*"
+                                                                                                                                                                                                                                                                                                required="" aria-required="true">
+                                                                                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                                                                                                        <div class="col-md-6">
+                                                                                                                                                                                                                                                                                            <input type="email" name="form_email" value="" placeholder="Your Mail*"
+                                                                                                                                                                                                                                                                                                required="" aria-required="true">
+                                                                                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                                                                                                    <div class="row">
+                                                                                                                                                                                                                                                                                        <div class="col-md-6">
+                                                                                                                                                                                                                                                                                            <input type="text" name="form_phone" value="" placeholder="Phone">
+                                                                                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                                                                                                        <div class="col-md-6">
+                                                                                                                                                                                                                                                                                            <input type="text" name="form_subject" value="" placeholder="Subject">
+                                                                                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                                                                                                    <div class="row">
+                                                                                                                                                                                                                                                                                        <div class="col-md-12">
+                                                                                                                                                                                                                                                                                            <textarea name="form_message" placeholder="Your Message.." required="" aria-required="true"></textarea>
+                                                                                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                                                                                                    <div class="row">
+                                                                                                                                                                                                                                                                                        <div class="col-md-12">
+                                                                                                                                                                                                                                                                                            <input id="form_botcheck" name="form_botcheck" class="form-control"
+                                                                                                                                                                                                                                                                                                type="hidden" value="">
+                                                                                                                                                                                                                                                                                            <button class="thm-btn bg-clr1" type="submit"
+                                                                                                                                                                                                                                                                                                data-loading-text="Please wait...">send message</button>
+                                                                                                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                                                                                                </form>
+                                                                                                                                                                                                                                                                            </div>
+                                                                                                                                                                                                                                                                        </div>
 
-                                                                                                                                                                                                                                        </div>
-                                                                                                                                                                                                                                    </div>
-                                                                                                                                                                                                                                </div>
-                                                                                                                                                                                                                            </section> -->
+                                                                                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                                                                            </div>
+                                                                                                                                                                                                                                                        </section> -->
 
-     <section class="all-products-container sec-padd2 ">
+    <section class="all-products-container sec-padd2 ">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -671,9 +675,9 @@
                 </div>
             </div> --}}
         </div>
-     </section>
+    </section>
 
-     {{-- <section class="brand-logo sec-padd">
+    {{-- <section class="brand-logo sec-padd">
          <div class="container">
             <ul class="brand-carousel">
                 <li><a href="#"><img src="{{ asset('assets/images/brand/1.jpg') }}" alt=""></a></li>
@@ -685,7 +689,7 @@
         </div>
      </section> --}}
 
-      <section class="blog-section sec-padd2">
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -787,102 +791,100 @@
 
 
 
-        <div class="container-fluid py-5 text-center ">
-            <div class="section-title">
-                <h2>International Market to Explore</h2>
+
+
+    </section>
+
+    <div class="container py-5 text-center ">
+        <div class="section-title">
+            <h2>International Market to Explore</h2>
+        </div>
+        <div class=" col-md-8 mx-auto mt-4">
+            <img src="{{ asset('assets/images/map.png') }}" alt="International Market" class="img-fluid"
+                style="width:100%">
+        </div>
+    </div>
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="section-title center">
+                <h2>FAQ's</h2>
             </div>
-     <div class="d-flex justify-content-center mt-4">
-        <img src="{{ asset('assets/images/map.png') }}"
-             alt="International Market"
-             class="img-fluid"
-             style="max-width: 900px;">
-     </div>
-      </div>
-
-
-        <!--Start faq content area-->
-        <section class="faq-content-area sec-padd2">
-            <div class="container">
-                <div class="section-title center">
-                    <h2>FAQ's</h2>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="accordion-box">
-                            <!--Start single accordion box-->
-                            <div class="accordion accordion-block">
-                                <div class="accord-btn active">
-                                    <h3>What types of metal products do you offer?</h3>
-                                </div>
-                                <div class="accord-content collapsed">
-                                    <p>We supply a complete range of industrial metal products, including welded pipes,
-                                        seamless pipes, stainless steel sheets, metal plates, perforated sheets, round bars,
-                                        and industrial fasteners. All our products are manufactured with precision to meet
-                                        the needs of construction, manufacturing, and engineering industries.</p>
-                                </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn active">
+                                <h3>What types of metal products do you offer?</h3>
                             </div>
-                            <!--End single accordion box-->
-                            <!--Start single accordion box-->
-                            <div class="accordion accordion-block">
-                                <div class="accord-btn">
-                                    <h3>What are the uses of perforated metal sheets?</h3>
-                                </div>
-                                <div class="accord-content">
-                                    <p>Our perforated metal sheets are widely used for ventilation, filtration,
-                                        soundproofing, and decorative applications in construction, machinery, and
-                                        architecture. They can be customized with different hole patterns, sizes, and
-                                        materials to suit your specific needs.</p>
-                                </div>
+                            <div class="accord-content collapsed">
+                                <p>We supply a complete range of industrial metal products, including welded pipes,
+                                    seamless pipes, stainless steel sheets, metal plates, perforated sheets, round bars,
+                                    and industrial fasteners. All our products are manufactured with precision to meet
+                                    the needs of construction, manufacturing, and engineering industries.</p>
                             </div>
-                            <!--End single accordion box-->
-                            <!--Start single accordion box-->
-                            <div class="accordion accordion-block">
-                                <div class="accord-btn">
-                                    <h3>What is the difference between welded and seamless pipes?
-                                    </h3>
-                                </div>
-                                <div class="accord-content">
-                                    <p>Welded pipes are made by rolling and welding steel sheets into cylindrical shapes,
-                                        making them cost-effective for many applications. Seamless pipes are produced from
-                                        solid billets, providing superior strength, durability, and high-pressure
-                                        resistance, which makes them ideal for oil, gas, and heavy engineering projects.</p>
-                                </div>
-                            </div>
-                            <!--End single accordion box-->
-                            <!--Start single accordion box-->
-                            <div class="accordion accordion-block">
-                                <div class="accord-btn">
-                                    <h3>Do you offer corrosion-resistant stainless steel sheets and plates?
-                                    </h3>
-                                </div>
-                                <div class="accord-content">
-                                    <p>Yes. Our stainless steel sheets and plates are highly corrosion-resistant and deliver
-                                        long-lasting performance in marine, chemical, and industrial environments. They are
-                                        available in various thicknesses, grades, and finishes to match your project
-                                        requirements.
-                                    </p>
-                                </div>
-                            </div>
-                            <!--End single accordion box-->
-                            <!--Start single accordion box-->
-                            <div class="accordion accordion-block">
-                                <div class="accord-btn">
-                                    <h3>Can I order custom-sized welded pipes, sheets, and fasteners?
-                                    </h3>
-                                </div>
-                                <div class="accord-content">
-                                    <p>Absolutely. We provide custom manufacturing services for welded pipes, metal sheets,
-                                        and fasteners to meet your exact dimensions, grades, and specifications—ensuring a
-                                        perfect fit for any industrial project.</p>
-                                </div>
-                            </div>
-                            <!--End single accordion box-->
                         </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h3>What are the uses of perforated metal sheets?</h3>
+                            </div>
+                            <div class="accord-content">
+                                <p>Our perforated metal sheets are widely used for ventilation, filtration,
+                                    soundproofing, and decorative applications in construction, machinery, and
+                                    architecture. They can be customized with different hole patterns, sizes, and
+                                    materials to suit your specific needs.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h3>What is the difference between welded and seamless pipes?
+                                </h3>
+                            </div>
+                            <div class="accord-content">
+                                <p>Welded pipes are made by rolling and welding steel sheets into cylindrical shapes,
+                                    making them cost-effective for many applications. Seamless pipes are produced from
+                                    solid billets, providing superior strength, durability, and high-pressure
+                                    resistance, which makes them ideal for oil, gas, and heavy engineering projects.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h3>Do you offer corrosion-resistant stainless steel sheets and plates?
+                                </h3>
+                            </div>
+                            <div class="accord-content">
+                                <p>Yes. Our stainless steel sheets and plates are highly corrosion-resistant and deliver
+                                    long-lasting performance in marine, chemical, and industrial environments. They are
+                                    available in various thicknesses, grades, and finishes to match your project
+                                    requirements.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h3>Can I order custom-sized welded pipes, sheets, and fasteners?
+                                </h3>
+                            </div>
+                            <div class="accord-content">
+                                <p>Absolutely. We provide custom manufacturing services for welded pipes, metal sheets,
+                                    and fasteners to meet your exact dimensions, grades, and specifications—ensuring a
+                                    perfect fit for any industrial project.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
                     </div>
                 </div>
             </div>
-        </section>
-        <!--End faq content area-->
-
+        </div>
     </section>
+    <!--End faq content area-->
 @endsection
