@@ -534,7 +534,7 @@ jQuery(document).on("ready", function () {
         // add your functions
         revolutionSliderActiver();
         mainmenu();
-        scrollToTop();
+        // scrollToTop();
         prettyPhoto();
         CounterNumberChanger();
         accordion();
