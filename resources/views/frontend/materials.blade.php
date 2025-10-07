@@ -32,49 +32,86 @@
 
             <div class="row g-4">
                 @php
-                    // $materials = [
-                    //     'Hastelloy',
-                    //     'Monel',
-                    //     'Inconel',
-                    //     'Incoloy',
-                    //     'Nickel Based Superalloys',
-                    //     'Titanium',
-                    //     'Duplex and Super Duplex',
-                    //     'Austenitic Stainless Steel',
-                    //     'High Strength Stainless Steel',
-                    //     'Super Austenitic Stainless Steel',
-                    //     'Zirconium',
-                    //     'Engineering Steels',
-                    //     'Aluminium Alloys',
-                    //     'Copper Alloys',
-                    //     'Hard To Find Special Alloys',
-                    //     'Haynes Superalloys',
-                    // ];
-                    $materials = [
+                   $materials = [
                         [
                             'name' => 'Hastelloy',
                             'slug' => 'hastelloy',
-                            'image' => 'assets/images/peoduct/main-product/pipes&tubes.webp',
+                            'image' => 'assets/images/material/hastelloy.webp',
                         ],
                         [
                             'name' => 'Monel',
-                            'slug' => 'sheets-plates-coils',
-                            'image' => 'assets/images/peoduct/main-product/SheetsPlates.webp',
+                            'slug' => 'monel',
+                            'image' => 'assets/images/material/monel.webp',
                         ],
                         [
-                            'name' => 'Bars & Rods',
-                            'slug' => 'bars-rods',
-                            'image' => 'assets/images/peoduct/main-product/rods.webp',
+                            'name' => 'Inconel',
+                            'slug' => 'inconel',
+                            'image' => 'assets/images/inconel/inconel-600.webp',
                         ],
                         [
-                            'name' => 'Pipe Fittings, Flanges & Fasteners',
-                            'slug' => 'pipe-fittings-flanges-fasteners',
-                            'image' => 'assets/images/peoduct/main-product/fittings.webp',
+                            'name' => 'Incoloy',
+                            'slug' => 'incoloy',
+                            'image' => 'assets/images/incoloy/incoloy-800.webp',
                         ],
                         [
-                            'name' => 'Special Fabricated',
-                            'slug' => 'special-fabricated',
-                            'image' => 'assets/images/peoduct/main-product/Special.webp',
+                            'name' => 'Nickel Based Superalloys',
+                            'slug' => 'nickel-based-superalloys',
+                            'image' => 'assets/images/material/Nickel-Based-Superalloys.webp',
+                        ],
+                        [
+                            'name' => 'Titanium',
+                            'slug' => 'titanium',
+                            'image' => 'assets/images/titanium/titanium-5.webp',
+                        ],
+                        [
+                            'name' => 'Duplex and Super Duplex',
+                            'slug' => 'duplex-and-super-duplex',
+                            'image' => 'assets/images/material/Duplex-and-Super-Duplex.webp',
+                        ],
+                        [
+                            'name' => 'Austenitic Stainless Steel',
+                            'slug' => 'austenitic-stainless-steel',
+                            'image' => 'assets/images/material/Austenitic-Stainless-Steel.webp',
+                        ],
+                        [
+                            'name' => 'High Strength Stainless Steel',
+                            'slug' => 'high-strength-stainless-steel',
+                            'image' => 'assets/images/material/stainless.webp',
+                        ],
+                        [
+                            'name' => 'Super Austenitic Stainless Steel',
+                            'slug' => 'super-austenitic-stainless-steel',
+                            'image' => 'assets/images/material/Super-Austenitic-Stainless-Steel.webp',
+                        ],
+                        [
+                            'name' => 'Zirconium',
+                            'slug' => 'zirconium',
+                            'image' => 'assets/images/zirconium/zirconium704.webp',
+                        ],
+                        [
+                            'name' => 'Engineering Steels',
+                            'slug' => 'engineering-steels',
+                            'image' => 'assets/images/material/Engineering-Steels.webp',
+                        ],
+                        [
+                            'name' => 'Aluminium Alloys',
+                            'slug' => 'aluminium-alloys',
+                            'image' => 'assets/images/material/Aluminium-Alloys-Aluminium-Alloys.webp',
+                        ],
+                        [
+                            'name' => 'Copper Alloys',
+                            'slug' => 'copper-alloys',
+                            'image' => 'assets/images/material/Copper-Alloys-Copper-Alloys.webp',
+                        ],
+                        [
+                            'name' => 'Hard To Find Special Alloys',
+                            'slug' => 'hard-to-find-special-alloys',
+                            'image' => 'assets/images/material/Hard-To-Find-Special-Alloys.webp',
+                        ],
+                        [
+                            'name' => 'Haynes Superalloys',
+                            'slug' => 'haynes-superalloys',
+                            'image' => 'assets/images/material/Haynes-Superalloys.webp',
                         ],
                     ];
                 @endphp
