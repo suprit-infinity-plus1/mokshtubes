@@ -1267,6 +1267,7 @@ textarea {
 
 .footer-social {
     padding-top: 18px;
+    display: flex;
 }
 
 .footer-social li:not(:first-of-type) {

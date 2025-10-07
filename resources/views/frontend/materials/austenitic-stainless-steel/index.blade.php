@@ -1,8 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Austenitic Stainless Steels: 304, 316, 310, 321 | MokshTubes')
-@section('meta_description', 'MokshTubes offers stainless steels 304, 316, 310 & 321 with superior corrosion resistance, strength, and versatility for diverse applications.')
-@section('meta_keywords', 'Austenitic Stainless Steels, Stainless Steel 304, Stainless Steel 316, Stainless Steel 310, Stainless Steel 321, Corrosion Resistant Stainless Steel, High Strength Stainless Steel, Versatile Stainless Steels, Industrial Stainless Steel Grades, Marine Stainless Steel Alloys, Chemical Processing Stainless Steels')
+@section('meta_description', 'MokshTubes offers stainless steels 304, 316, 310 & 321 with superior corrosion resistance,
+    strength, and versatility for diverse applications.')
+@section('meta_keywords', 'Austenitic Stainless Steels, Stainless Steel 304, Stainless Steel 316, Stainless Steel 310,
+    Stainless Steel 321, Corrosion Resistant Stainless Steel, High Strength Stainless Steel, Versatile Stainless Steels,
+    Industrial Stainless Steel Grades, Marine Stainless Steel Alloys, Chemical Processing Stainless Steels')
 
 @section('content')
 
@@ -29,23 +32,57 @@
 
             @php
                 $grades = [
-                    ['name' => 'Austenitic Stainless Steel 304', 'slug' => 'austenitic-stainless-steel-304','image' => 'assets/images/austenitic-stainless-steel/austenitic-stainless-steel-304.webp'],
-                    ['name' => 'Austenitic Stainless Steel 309', 'slug' => 'austenitic-stainless-steel-309' ,'image' => 'assets/images/austenitic-stainless-steel/austenitic-stainless-steel-309.webp'],
-                    ['name' => 'Austenitic Stainless Steel 310', 'slug' => 'austenitic-stainless-steel-310' ,'image' => 'assets/images/austenitic-stainless-steel/austenitic-stainless-steel-310.webp'],
-                    ['name' => 'Austenitic Stainless Steel 316', 'slug' => 'austenitic-stainless-steel-316' ,'image' => 'assets/images/austenitic-stainless-steel/austenitic-stainless-steel-316.webp'],
-                    ['name' => 'Austenitic Stainless Steel 316ti', 'slug' => 'austenitic-stainless-steel-316ti' ,'image' => 'assets/images/austenitic-stainless-steel/austenitic-stainless-steel-316ti.webp'],
-                    ['name' => 'Austenitic Stainless Steel 317', 'slug' => 'austenitic-stainless-steel-317' ,'image' => 'assets/images/austenitic-stainless-steel/austenitic-stainless-steel-317.webp'],
-                    ['name' => 'Austenitic Stainless Steel 321', 'slug' => 'austenitic-stainless-steel-321' ,'image' => 'assets/images/austenitic-stainless-steel/austenitic-stainless-steel-321.webp'],
-                    ['name' => 'Austenitic Stainless Steel 347', 'slug' => 'austenitic-stainless-steel-347' ,'image' => 'assets/images/austenitic-stainless-steel/austenitic-stainless-steel-347.webp'],
+                    [
+                        'name' => 'Austenitic Stainless Steel 304',
+                        'slug' => 'austenitic-stainless-steel-304',
+                        'image' => 'assets/images/austenitic-stainless-steel/austenitic-stainless-steel-304.webp',
+                    ],
+                    [
+                        'name' => 'Austenitic Stainless Steel 309',
+                        'slug' => 'austenitic-stainless-steel-309',
+                        'image' => 'assets/images/austenitic-stainless-steel/austenitic-stainless-steel-309.webp',
+                    ],
+                    [
+                        'name' => 'Austenitic Stainless Steel 310',
+                        'slug' => 'austenitic-stainless-steel-310',
+                        'image' => 'assets/images/austenitic-stainless-steel/austenitic-stainless-steel-310.webp',
+                    ],
+                    [
+                        'name' => 'Austenitic Stainless Steel 316',
+                        'slug' => 'austenitic-stainless-steel-316',
+                        'image' => 'assets/images/austenitic-stainless-steel/austenitic-stainless-steel-316.webp',
+                    ],
+                    [
+                        'name' => 'Austenitic Stainless Steel 316ti',
+                        'slug' => 'austenitic-stainless-steel-316ti',
+                        'image' => 'assets/images/austenitic-stainless-steel/austenitic-stainless-steel-316Ti.webp',
+                    ],
+                    [
+                        'name' => 'Austenitic Stainless Steel 317',
+                        'slug' => 'austenitic-stainless-steel-317',
+                        'image' => 'assets/images/austenitic-stainless-steel/austenitic-stainless-steel-317.webp',
+                    ],
+                    [
+                        'name' => 'Austenitic Stainless Steel 321',
+                        'slug' => 'austenitic-stainless-steel-321',
+                        'image' => 'assets/images/austenitic-stainless-steel/austenitic-stainless-steel-321.webp',
+                    ],
+                    [
+                        'name' => 'Austenitic Stainless Steel 347',
+                        'slug' => 'austenitic-stainless-steel-347',
+                        'image' => 'assets/images/austenitic-stainless-steel/austenitic-stainless-steel-347.webp',
+                    ],
                     [
                         'name' => 'Austenitic Stainless Steel Nitronic 50',
                         'slug' => 'austenitic-stainless-steel-nitronic-50',
-                        'image' => 'assets/images/austenitic-stainless-steel/austenitic-stainless-steel-nitronic-50_9_11zon.webp'
+                        'image' =>
+                            'assets/images/austenitic-stainless-steel/austenitic-stainless-steel-nitronic-50_9_11zon.webp',
                     ],
                     [
                         'name' => 'Austenitic Stainless Steel Nitronic 60',
                         'slug' => 'austenitic-stainless-steel-nitronic-60',
-                        'image' => 'assets/images/austenitic-stainless-steel/austenitic-stainless-steel-nitronic-60_10_11zon.webp'
+                        'image' =>
+                            'assets/images/austenitic-stainless-steel/austenitic-stainless-steel-nitronic-60_10_11zon.webp',
                     ],
                 ];
             @endphp

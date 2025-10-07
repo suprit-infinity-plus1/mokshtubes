@@ -21,7 +21,7 @@
                 <h2 class="fs-5 fw-semibold mt-4 mb-2">Contact Details</h2>
 
                 <p class="mb-2">
-                    📞 <a href="tel:+919999999999" class="text-decoration-none text-dark fw-medium">+91 99999 99999</a>
+                    📞 <a href="tel:+91 97695 84950" class="text-decoration-none text-dark fw-medium">+91 97695 84950</a>
                 </p>
                 <p>
                     📧 <a href="mailto:info@mokshtubes.com"

@@ -479,10 +479,10 @@
                                     </li>
                                     <li><a href="{{ route('products.pipes-tubes.seamless-pipes') }}">SEAMLESS
                                             PIPES</a></li>
-                                    <li><a href="#">SHEETS & PLATES</a></li>
-                                    <li><a href="#">PERFORATED SHEETS</a></li>
-                                    <li><a href="#">ROUND BARS</a></li>
-                                    <li><a href="#">FASTENERS</a></li>
+                                    <li><a href="{{route('products.sheets-plates-coils')}}">SHEETS & PLATES</a></li>
+                                    <li><a href="{{ route('products.sheets-plates-coils.perforated-sheets') }}">PERFORATED SHEETS</a></li>
+                                    <li><a href="{{ route('products.bars-rods.round-bars') }}">ROUND BARS</a></li>
+                                    <li><a href="{{ route('products.pipe-fittings-flanges-fasteners') }}">FASTENERS</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -493,10 +493,10 @@
                                 <h3 class="footer-title">Areas We Serve</h3>
                                 <ul class="footer-list">
                                     <li><a href="{{ route('products.pipes-tubes') }}">PIPES</a></li>
-                                    <li><a href="#">FITTINGS</a></li>
-                                    <li><a href="#">FLANGES</a></li>
-                                    <li><a href="#">FASTENERS</a></li>
-                                    <li><a href="#">STEEL</a></li>
+                                    <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.pipe-fittings') }}">FITTINGS</a></li>
+                                    <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.fittings-and-flanges') }}">FLANGES</a></li>
+                                    <li><a href="{{ route('products.pipe-fittings-flanges-fasteners') }}">FASTENERS</a></li>
+                                    <li><a href="">STEEL</a></li>
                                 </ul>
 
                             </div>

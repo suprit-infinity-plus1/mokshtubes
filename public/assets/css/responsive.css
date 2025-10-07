@@ -66,10 +66,12 @@
 
     .subscribe-form {
         display: inline-block;
+        width: min-content;
     }
 
     .subscribe-form input {
         width: auto;
+        margin-bottom: 10px;
     }
 
     .footer-col.service-col {

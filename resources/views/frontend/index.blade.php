@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Moksh Tubes: High-Performance Pipes & Fittings')
+@section('title', 'Moksh Tubes: Superior Pipes and Fittings Solutions')
 @section('meta_description',
     'Contact MokshTubes for product inquiries, technical support, or custom alloy requirements.
     Call, email, or visit us — we’re here to assist you.')
@@ -37,7 +37,7 @@
                         data-splitout="none" data-responsive_offset="on" data-start="2300">
                         <div class="slide-content-box">
                             <div class="button">
-                                <a class="thm-btn bg-clr1" href="#">About Us</a>
+                                <a class="thm-btn bg-clr1" href="{{ route('about-us') }}">About Us</a>
                             </div>
                         </div>
                     </div>
@@ -48,7 +48,7 @@
                         data-splitout="none" data-responsive_offset="on" data-start="2600">
                         <div class="slide-content-box">
                             <div class="button">
-                                <a class="thm-btn bg-clr2" href="#">Contact Us</a>
+                                <a class="thm-btn bg-clr2" href="{{ route('contact-us') }}">Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -78,7 +78,7 @@
                         data-splitout="none" data-responsive_offset="on" data-start="2300">
                         <div class="slide-content-box">
                             <div class="button">
-                                <a class="thm-btn bg-clr1" href="#">About Us</a>
+                                <a class="thm-btn bg-clr1" href="{{ route('about-us') }}">About Us</a>
                             </div>
                         </div>
                     </div>
@@ -89,7 +89,7 @@
                         data-splitout="none" data-responsive_offset="on" data-start="2600">
                         <div class="slide-content-box">
                             <div class="button">
-                                <a class="thm-btn bg-clr2" href="#">Contact Us</a>
+                                <a class="thm-btn bg-clr2" href="{{ route('contact-us') }}">Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -130,7 +130,7 @@
                         data-splitout="none" data-responsive_offset="on" data-start="2600">
                         <div class="slide-content-box">
                             <div class="button">
-                                <a class="thm-btn bg-clr2" href="#">Contact Us</a>
+                                <a class="thm-btn bg-clr2" href="{{ route('contact-us') }}">Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -160,7 +160,7 @@
                         data-splitout="none" data-responsive_offset="on" data-start="2300">
                         <div class="slide-content-box">
                             <div class="button">
-                                <a class="thm-btn bg-clr1" href="#">About Us</a>
+                                <a class="thm-btn bg-clr1" href="{{ route('about-us') }}">About Us</a>
                             </div>
                         </div>
                     </div>
@@ -171,7 +171,7 @@
                         data-splitout="none" data-responsive_offset="on" data-start="2600">
                         <div class="slide-content-box">
                             <div class="button">
-                                <a class="thm-btn bg-clr2" href="#">Contact Us</a>
+                                <a class="thm-btn bg-clr2" href="{{ route('contact-us') }}">Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -296,7 +296,7 @@
                             </a>
                         </figure>
                         <div class="p-3">
-                            <a href="#">
+                            <a href="{{ route('products.pipes-tubes.welded-pipes') }}">
                                 <h3 class="mt-0 h5">WELDED PIPES</h3>
                             </a>
                             <p>
@@ -314,7 +314,7 @@
                             </a>
                         </figure>
                         <div class="p-3">
-                            <a href="#">
+                            <a href="{{ route('products.pipes-tubes.seamless-pipes') }}">
                                 <h3 class="mt-0 h5">SEAMLESS PIPES</h3>
                             </a>
                             <p>
@@ -332,7 +332,7 @@
                             </a>
                         </figure>
                         <div class="p-3">
-                            <a href="#">
+                            <a href="{{ route('products.sheets-plates-coils.sheets-and-plates') }}">
                                 <h3 class="mt-0 h5">SHEETS & PLATES</h3>
                             </a>
                             <p>
@@ -352,7 +352,7 @@
                             </a>
                         </figure>
                         <div class="p-3">
-                            <a href="#">
+                            <a href="{{ route('products.sheets-plates-coils.perforated-sheets')  }}">
                                 <h3 class="mt-0 h5">PERFORATED SHEETS</h3>
                             </a>
                             <p>
@@ -370,7 +370,7 @@
                             </a>
                         </figure>
                         <div class="p-3">
-                            <a href="#">
+                            <a href="{{ route('products.bars-rods.round-bars') }}">
                                 <h3 class="mt-0 h5">ROUND BARS</h3>
                             </a>
                             <p>
@@ -389,7 +389,7 @@
                             </a>
                         </figure>
                         <div class="p-3">
-                            <a href="#">
+                            <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners') }}">
                                 <h3 class="mt-0 h5">FASTENERS</h3>
                             </a>
                             <p>
@@ -572,13 +572,13 @@
                     <div class="footer-col service-col">
                         <h2 class="footer-title h4">SHEETS, PLATES & COILS</h2>
                         <ul class="footer-list">
-                            <li><a href="#">SHEETS & PLATES</a></li>
-                            <li><a href="#">COILS</a></li>
-                            <li><a href="#">STRIPS</a></li>
-                            <li><a href="#">PERFORATED SHEETS</a></li>
-                            <li><a href="#">CHEQUERED SHEETS</a></li>
-                            <li><a href="#">SHIM SHEETS</a></li>
-                            <li><a href="#">CLADDED PLATES</a></li>
+                            <li><a href="{{ route('products.sheets-plates-coils') }}">SHEETS & PLATES</a></li>
+                            <li><a href="{{ route('products.sheets-plates-coils.coils') }}">COILS</a></li>
+                            <li><a href="{{ route('products.sheets-plates-coils.strips') }}">STRIPS</a></li>
+                            <li><a href="{{ route('products.sheets-plates-coils.perforated-sheets') }}">PERFORATED SHEETS</a></li>
+                            <li><a href="{{ route('products.sheets-plates-coils.chequered-sheets') }}">CHEQUERED SHEETS</a></li>
+                            <li><a href="{{ route('products.sheets-plates-coils.shim-sheets') }}">SHIM SHEETS</a></li>
+                            <li><a href="{{ route('products.sheets-plates-coils.cladded-plates') }}">CLADDED PLATES</a></li>
                         </ul>
                     </div>
                 </div>
@@ -586,12 +586,12 @@
                     <div class="footer-col service-col">
                         <h2 class="footer-title h4">BARS & RODS</h2>
                         <ul class="footer-list">
-                            <li><a href="#">ROUND BARS</a></li>
-                            <li><a href="#">HEXAGON BARS</a></li>
-                            <li><a href="#">FLAT BARS</a></li>
-                            <li><a href="#">SQUARE BARS</a></li>
-                            <li><a href="#">THREADED RODS</a></li>
-                            <li><a href="#">HOLLOW BARS</a></li>
+                            <li><a href="{{ route('products.bars-rods.round-bars') }}">ROUND BARS</a></li>
+                            <li><a href="{{ route('products.bars-rods.hexagon-bars') }}">HEXAGON BARS</a></li>
+                            <li><a href="{{ route('products.bars-rods.flat-bars') }}">FLAT BARS</a></li>
+                            <li><a href="{{ route('products.bars-rods.square-bars') }}">SQUARE BARS</a></li>
+                            <li><a href="{{ route('products.bars-rods.threaded-rods') }}">THREADED RODS</a></li>
+                            <li><a href="{{ route('products.bars-rods.hollow-bars') }}">HOLLOW BARS</a></li>
                         </ul>
                     </div>
                 </div>
@@ -599,11 +599,11 @@
                     <div class="footer-col service-col">
                         <h2 class="footer-title h4">PIPE FITTINGS, FLANGES & FASTENERS</h2>
                         <ul class="footer-list">
-                            <li><a href="#">FITTINGS</a></li>
-                            <li><a href="#">FLANGES</a></li>
-                            <li><a href="#">FASTENERS</a></li>
-                            <li><a href="#">GASKETS</a></li>
-                            <li><a href="#">CUSTOM FABRICATED FITTINGS</a></li>
+                            <li><a href="{{ route('products.pipe-fittings-flanges-fasteners') }}">FITTINGS</a></li>
+                            <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.fittings-and-flanges') }}">FLANGES</a></li>
+                            <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners') }}">FASTENERS</a></li>
+                            <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.flanges-and-gaskets') }}">GASKETS</a></li>
+                            <li><a href="{{ route('products.special-fabricated.custom-steel-furniture') }}">CUSTOM FABRICATED FITTINGS</a></li>
                         </ul>
                     </div>
                 </div>
@@ -611,10 +611,10 @@
                     <div class="footer-col service-col">
                         <h2 class="footer-title h4">SPECIAL FABRICATED PRODUCTS </h2>
                         <ul class="footer-list">
-                            <li><a href="#">SS RAILING PRODUCTS</a></li>
-                            <li><a href="#">GLASS RAILINGS</a></li>
-                            <li><a href="#">CUSTOM STEEL FURNITURE</a></li>
-                            <li><a href="#">FABRICATED SS GRILLS</a></li>
+                            <li><a href="{{ route('products.special-fabricated.ss-railings') }}">SS RAILING PRODUCTS</a></li>
+                            <li><a href="{{ route('products.special-fabricated.glass-railings') }}">GLASS RAILINGS</a></li>
+                            <li><a href="{{ route('products.special-fabricated.custom-steel-furniture') }}">CUSTOM STEEL FURNITURE</a></li>
+                            <li><a href="{{ route('products.special-fabricated.fabricated-ss-grills') }}">FABRICATED SS GRILLS</a></li>
                         </ul>
                     </div>
                 </div>
@@ -699,26 +699,25 @@
                     <div class="default-blog-news wow fadeInUp animated animated"
                         style="visibility: visible; animation-name: fadeInUp;">
                         <figure class="img-holder mb-0">
-                            <a href="#"><img src="{{ asset('assets/images/blog/blog.png') }}" alt="News"></a>
+                            <a href="{{ route('blogs.emerging-trends-in-industrial-piping-for-2025-and-beyond') }}"><img src="{{ asset('assets/images/blog/emerging-trends-in-industrial-piping-for-2025-and-beyond_11zon_11zon_11zon.webp') }}" alt="News"></a>
                             <figcaption class="overlay">
                                 <div class="box">
                                     <div class="content">
-                                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                        <a href="{{ route('blogs.emerging-trends-in-industrial-piping-for-2025-and-beyond') }}"><i class="fa fa-link" aria-hidden="true"></i></a>
                                     </div>
                                 </div>
                             </figcaption>
                         </figure>
                         <div class="lower-content">
-                            <a href="#">
-                                <h3 class="h5">MATERIALS & MANUFACTURING </h3>
+                            <a href="{{ route('blogs.emerging-trends-in-industrial-piping-for-2025-and-beyond') }}">
+                                <h3 class="h5">Emerging Trends in Industrial Piping for 2025 and Beyond</h3>
                             </a>
                             <div class="post-meta">by fletcher | 14 Comments | 21 Feb</div>
                             <div class="text">
-                                <p>Except to obtain some advantage from it? But who has any right to find to enjoy a
-                                    pleasure.</p>
+                                <p>The industrial piping industry is on the brink of a significant transformation.</p>
                             </div>
                             <div class="link">
-                                <a href="#" class="default_link">Read More <i class="fa fa-angle-right"></i></a>
+                                <a href="{{ route('blogs.emerging-trends-in-industrial-piping-for-2025-and-beyond') }}" class="default_link">Read More <i class="fa fa-angle-right"></i></a>
                             </div>
 
                         </div>
@@ -729,26 +728,26 @@
                     <div class="default-blog-news wow fadeInUp animated animated"
                         style="visibility: visible; animation-name: fadeInUp;">
                         <figure class="img-holder mb-0">
-                            <a href="#"><img src="{{ asset('assets/images/blog/Untitled (1).png') }}"
+                            <a href="#"><img src="{{ asset('assets/images/blog/india’s-stainless-steel-export-industry.webp') }}"
                                     alt="News"></a>
                             <figcaption class="overlay">
                                 <div class="box">
                                     <div class="content">
-                                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                        <a href="{{ route('blogs.india’s-stainless-steel-export-industry') }}"><i class="fa fa-link" aria-hidden="true"></i></a>
                                     </div>
                                 </div>
                             </figcaption>
                         </figure>
                         <div class="lower-content">
-                            <a href="#">
-                                <h3 class="h5">COMMERCIAL AND REAL PROJECTS</h3>
+                            <a href="{{ route('blogs.india’s-stainless-steel-export-industry') }}">
+                                <h3 class="h5">India’s Stainless Steel Exports – Moksh Tubes Global Reach</h3>
                             </a>
                             <div class="post-meta">by Richards | 22 Comments | 17 Apr</div>
                             <div class="text">
-                                <p>Great pleasure to take a trivial example, which of us undertakes laborious.</p>
+                                <p>India has emerged as a global leader in stainless steel production and exports,</p>
                             </div>
                             <div class="link">
-                                <a href="#" class="default_link">Read More <i class="fa fa-angle-right"></i></a>
+                                <a href="{{ route('blogs.india’s-stainless-steel-export-industry') }}" class="default_link">Read More <i class="fa fa-angle-right"></i></a>
                             </div>
 
                         </div>
@@ -764,21 +763,21 @@
                             <figcaption class="overlay">
                                 <div class="box">
                                     <div class="content">
-                                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                        <a href="{{ route('blogs.the-role-of-high-performance') }}"><i class="fa fa-link" aria-hidden="true"></i></a>
                                     </div>
                                 </div>
                             </figcaption>
                         </figure>
                         <div class="lower-content">
-                            <a href="#">
-                                <h3 class="h5">MATERIALS FOR THE ECONOMY</h3>
+                            <a href="{{ route('blogs.the-role-of-high-performance') }}">
+                                <h3 class="h5">The Role of High Performance Alloys in Desalination Plants</h3>
                             </a>
                             <div class="post-meta">by Vincent | 16 Comments | 14 June</div>
                             <div class="text">
-                                <p>Pleasure and praising pain was born and I will give you a complete account.</p>
+                                <p>Desalination plants are at the forefront of solving one of the world</p>
                             </div>
                             <div class="link">
-                                <a href="#" class="default_link">Read More <i class="fa fa-angle-right"></i></a>
+                                <a href="{{ route('blogs.the-role-of-high-performance') }}" class="default_link">Read More <i class="fa fa-angle-right"></i></a>
                             </div>
 
                         </div>

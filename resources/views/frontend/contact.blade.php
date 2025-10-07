@@ -127,8 +127,12 @@
                 </div>
 
                 <div class="col-lg-8">
-                    <img id="mapImage" src="{{ asset('assets/images/background/2.jpg') }}" alt="Location Map"
-                        class="img-fluid rounded shadow-sm w-100">
+                    {{-- <img id="mapImage" src="{{ asset('assets/images/background/2.jpg') }}" alt="Location Map"
+                        class="img-fluid rounded shadow-sm w-100"> --}}
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3773.4404691355185!2d72.82619187351122!3d18.95614506718077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sMoksh%20Tubes!5e0!3m2!1sen!2sin!4v1759824406817!5m2!1sen!2sin"
+                        width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
@@ -191,29 +195,29 @@
 
 
     <!-- <section class="home-google-map">
-                                                            <iframe
-                                                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d943.3624929957525!2d72.82755531962317!3d18.955724967265716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf9ee4261af1%3A0x57adb33b0f4c262!2sMoksh%20Tubes%20%26%20Fittings%20LLP!5e0!3m2!1sen!2sin!4v1747987043971!5m2!1sen!2sin"
-                                                                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                                                                referrerpolicy="no-referrer-when-downgrade">
-                                                            </iframe>
+                                                                <iframe
+                                                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d943.3624929957525!2d72.82755531962317!3d18.955724967265716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf9ee4261af1%3A0x57adb33b0f4c262!2sMoksh%20Tubes%20%26%20Fittings%20LLP!5e0!3m2!1sen!2sin!4v1747987043971!5m2!1sen!2sin"
+                                                                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                                                    referrerpolicy="no-referrer-when-downgrade">
+                                                                </iframe>
 
 
 
-                                                        </section> -->
+                                                            </section> -->
 
     <!-- <div class="call-out2">
-                                                                <div class="container">
-                                                                    <div class="clearfix">
-                                                                        <div class="float_left">
-                                                                            <h4>Have any question or need any business consultation?</h4>
+                                                                    <div class="container">
+                                                                        <div class="clearfix">
+                                                                            <div class="float_left">
+                                                                                <h4>Have any question or need any business consultation?</h4>
+                                                                            </div>
+                                                                            <div class="float_right">
+                                                                                <a href="contact.html" class="thm-btn bg-clr2">Request Quote</a>
+                                                                            </div>
                                                                         </div>
-                                                                        <div class="float_right">
-                                                                            <a href="contact.html" class="thm-btn bg-clr2">Request Quote</a>
-                                                                        </div>
-                                                                    </div>
 
-                                                                </div>
-                                                            </div> -->
+                                                                    </div>
+                                                                </div> -->
 
 
     <!--Start contact form area-->
@@ -258,7 +262,8 @@
                                 <div class="col-md-12">
                                     <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden"
                                         value="">
-                                    <button class="thm-btn bg-clr1" type="submit" data-loading-text="Please wait...">send
+                                    <button class="thm-btn bg-clr1" type="submit"
+                                        data-loading-text="Please wait...">send
                                         message</button>
                                 </div>
                             </div>
