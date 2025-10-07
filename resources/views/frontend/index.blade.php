@@ -63,7 +63,7 @@
                         data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-splitin="none" data-splitout="none"
                         data-responsive_offset="on" data-start="700">
                         <div class="slide-content-box">
-                            <h2>Global Supplier of <br> Nickel & Stainless Steel <br> Tubes & Fittings.</h2>
+                            <h2 class="hero-title">Global Supplier of <br>Nickel & Stainless Steel <br>Tubes & Fittings</h2>
                             <p>They'll have to make the best of things its an uphill climb.<br> The weather started getting was tossed. </p>
                         </div>
                     </div>
@@ -103,7 +103,7 @@
                         data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-splitin="none" data-splitout="none"
                         data-responsive_offset="on" data-start="700">
                         <div class="slide-content-box">
-                            <h2>Provide Solution <br>for Industries plan </h2>
+                            <h2 class="hero-title">Provide Solution for <br>Industries plan</h2>
                             <p>They'll have to make the best of things its an uphill climb.<br> The weather started
                                 getting was tossed. </p>
                         </div>
@@ -144,7 +144,7 @@
                         data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-splitin="none" data-splitout="none"
                         data-responsive_offset="on" data-start="700">
                         <div class="slide-content-box">
-                            <h2>We help Industries<br>innovate and grow.</h2>
+                            <h2 class="hero-title">We help Industries <br> innovate and grow</h2>
                             <p>They'll have to make the best of things its an uphill climb.<br> The weather started
                                 getting was tossed. </p>
                         </div>
@@ -293,7 +293,7 @@
                         </figure>
                         <div class="p-3">
                             <a href="#">
-                                <h5 class="mt-0">WELDED PIPES</h5>
+                                <h3 class="mt-0">WELDED PIPES</h3>
                             </a>
                             <p>
                                 Welded tubes are a vital component in today’s industrial landscape, offering a combination
@@ -311,7 +311,7 @@
                         </figure>
                         <div class="p-3">
                             <a href="#">
-                                <h5 class="mt-0">SEAMLESS PIPES</h5>
+                                <h3 class="mt-0">SEAMLESS PIPES</h3>
                             </a>
                             <p>
                                 Seamless pipes are widely recognized for their superior strength, reliability, and ability
@@ -329,7 +329,7 @@
                         </figure>
                         <div class="p-3">
                             <a href="#">
-                                <h5 class="mt-0">SHEETS & PLATES</h5>
+                                <h3 class="mt-0">SHEETS & PLATES</h3>
                             </a>
                             <p>
                                 Sheets & Plates are flat-rolled metal products used in construction, manufacturing, and
@@ -349,7 +349,7 @@
                         </figure>
                         <div class="p-3">
                             <a href="#">
-                                <h5 class="mt-0">PERFORATED SHEETS</h5>
+                                <h3 class="mt-0">PERFORATED SHEETS</h3>
                             </a>
                             <p>
                                 Perforated Sheets are metal sheets punched with holes, slots, or patterns. Used for
@@ -367,7 +367,7 @@
                         </figure>
                         <div class="p-3">
                             <a href="#">
-                                <h5 class="mt-0">ROUND BARS</h5>
+                                <h3 class="mt-0">ROUND BARS</h3>
                             </a>
                             <p>
                                 Round Bars are cylindrical metal rods used in construction, manufacturing, and engineering.
@@ -386,7 +386,7 @@
                         </figure>
                         <div class="p-3">
                             <a href="#">
-                                <h5 class="mt-0">FASTENERS</h5>
+                                <h3 class="mt-0">FASTENERS</h3>
                             </a>
                             <p>
                                 Fasteners are hardware devices used to mechanically join or affix two or more objects.
@@ -550,7 +550,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="footer-col service-col">
-                        <h4 class="footer-title">PIPES & TUBES </h4>
+                        <h3 class="footer-title">PIPES & TUBES </h3>
                         <ul class="footer-list">
                             <li><a href="{{ route('products.pipes-tubes.welded-pipes') }}">WELDED PIPES (ERW & EFW)</a>
                             </li>
@@ -566,7 +566,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="footer-col service-col">
-                        <h4 class="footer-title">SHEETS, PLATES & COILS</h4>
+                        <h3 class="footer-title">SHEETS, PLATES & COILS</h3>
                         <ul class="footer-list">
                             <li><a href="#">SHEETS & PLATES</a></li>
                             <li><a href="#">COILS</a></li>
@@ -580,7 +580,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="footer-col service-col">
-                        <h4 class="footer-title">BARS & RODS</h4>
+                        <h3 class="footer-title">BARS & RODS</h3>
                         <ul class="footer-list">
                             <li><a href="#">ROUND BARS</a></li>
                             <li><a href="#">HEXAGON BARS</a></li>
@@ -593,7 +593,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="footer-col service-col">
-                        <h4 class="footer-title">PIPE FITTINGS, FLANGES & FASTENERS</h4>
+                        <h3 class="footer-title">PIPE FITTINGS, FLANGES & FASTENERS</h3>
                         <ul class="footer-list">
                             <li><a href="#">FITTINGS</a></li>
                             <li><a href="#">FLANGES</a></li>
@@ -605,7 +605,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="footer-col service-col">
-                        <h4 class="footer-title">SPECIAL FABRICATED PRODUCTS </h4>
+                        <h3 class="footer-title">SPECIAL FABRICATED PRODUCTS </h3>
                         <ul class="footer-list">
                             <li><a href="#">SS RAILING PRODUCTS</a></li>
                             <li><a href="#">GLASS RAILINGS</a></li>
@@ -706,7 +706,7 @@
                         </figure>
                         <div class="lower-content">
                             <a href="#">
-                                <h5>MATERIALS & MANUFACTURING </h5>
+                                <h3>MATERIALS & MANUFACTURING </h3>
                             </a>
                             <div class="post-meta">by fletcher | 14 Comments | 21 Feb</div>
                             <div class="text">
@@ -737,7 +737,7 @@
                         </figure>
                         <div class="lower-content">
                             <a href="#">
-                                <h5>COMMERCIAL AND REAL PROJECTS</h5>
+                                <h3>COMMERCIAL AND REAL PROJECTS</h3>
                             </a>
                             <div class="post-meta">by Richards | 22 Comments | 17 Apr</div>
                             <div class="text">
@@ -767,7 +767,7 @@
                         </figure>
                         <div class="lower-content">
                             <a href="#">
-                                <h5>MATERIALS FOR THE ECONOMY</h5>
+                                <h3>MATERIALS FOR THE ECONOMY</h3>
                             </a>
                             <div class="post-meta">by Vincent | 16 Comments | 14 June</div>
                             <div class="text">
@@ -812,7 +812,7 @@
                             <!--Start single accordion box-->
                             <div class="accordion accordion-block">
                                 <div class="accord-btn active">
-                                    <h4>What types of metal products do you offer?</h4>
+                                    <h3>What types of metal products do you offer?</h3>
                                 </div>
                                 <div class="accord-content collapsed">
                                     <p>We supply a complete range of industrial metal products, including welded pipes,
@@ -825,7 +825,7 @@
                             <!--Start single accordion box-->
                             <div class="accordion accordion-block">
                                 <div class="accord-btn">
-                                    <h4>What are the uses of perforated metal sheets?</h4>
+                                    <h3>What are the uses of perforated metal sheets?</h3>
                                 </div>
                                 <div class="accord-content">
                                     <p>Our perforated metal sheets are widely used for ventilation, filtration,
@@ -838,8 +838,8 @@
                             <!--Start single accordion box-->
                             <div class="accordion accordion-block">
                                 <div class="accord-btn">
-                                    <h4>What is the difference between welded and seamless pipes?
-                                    </h4>
+                                    <h3>What is the difference between welded and seamless pipes?
+                                    </h3>
                                 </div>
                                 <div class="accord-content">
                                     <p>Welded pipes are made by rolling and welding steel sheets into cylindrical shapes,
@@ -852,8 +852,8 @@
                             <!--Start single accordion box-->
                             <div class="accordion accordion-block">
                                 <div class="accord-btn">
-                                    <h4>Do you offer corrosion-resistant stainless steel sheets and plates?
-                                    </h4>
+                                    <h3>Do you offer corrosion-resistant stainless steel sheets and plates?
+                                    </h3>
                                 </div>
                                 <div class="accord-content">
                                     <p>Yes. Our stainless steel sheets and plates are highly corrosion-resistant and deliver
@@ -867,8 +867,8 @@
                             <!--Start single accordion box-->
                             <div class="accordion accordion-block">
                                 <div class="accord-btn">
-                                    <h4>Can I order custom-sized welded pipes, sheets, and fasteners?
-                                    </h4>
+                                    <h3>Can I order custom-sized welded pipes, sheets, and fasteners?
+                                    </h3>
                                 </div>
                                 <div class="accord-content">
                                     <p>Absolutely. We provide custom manufacturing services for welded pipes, metal sheets,

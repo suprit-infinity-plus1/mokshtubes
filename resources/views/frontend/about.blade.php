@@ -219,7 +219,7 @@
                             <span class="fas fa-warehouse
         "></span>
                         </div>
-                        <h4>Extensive Inventory</h4>
+                        <h3>Extensive Inventory</h3>
                         <div class="text">
                             <p>Over 200 tons of steel products in ready stock for fast and reliable delivery across
                                 sectors.</p>
@@ -232,7 +232,7 @@
                         <div class="icon_box">
                             <span class="fas fa-globe"></span>
                         </div>
-                        <h4>Sourcing Capabilities</h4>
+                        <h3>Sourcing Capabilities</h3>
                         <div class="text">
                             <p>Backed by a global network to locate and deliver even the hardest-to-find steel
                                 products.</p>
@@ -246,7 +246,7 @@
                             <span class="fas fa-layer-group
         "></span>
                         </div>
-                        <h4>Wide Range of Materials</h4>
+                        <h3>Wide Range of Materials</h3>
                         <div class="text">
                             <p>Offering stainless steel, duplex, nickel alloys, and more to meet diverse industry
                                 needs.</p>
@@ -260,7 +260,7 @@
                             <span class="fas fa-certificate
         "></span>
                         </div>
-                        <h4>Certified Quality</h4>
+                        <h3>Certified Quality</h3>
                         <div class="text">
                             <p>All materials comply with ASTM, ASME, ISO, DIN, and other global quality standards.
                             </p>
@@ -274,7 +274,7 @@
                             <span class="fas fa-tags
         "></span>
                         </div>
-                        <h4>Competitive Pricing</h4>
+                        <h3>Competitive Pricing</h3>
                         <div class="text">
                             <p>We deliver cost-effective solutions without compromising on quality or performance.
                             </p>
@@ -288,7 +288,7 @@
                             <span class="fas fa-truck
         "></span>
                         </div>
-                        <h4>Reliable Logistics</h4>
+                        <h3>Reliable Logistics</h3>
                         <div class="text">
                             <p>On-time delivery solutions tailored to meet tight project schedules and deadlines.
                             </p>
@@ -303,7 +303,7 @@
 
         "></span>
                         </div>
-                        <h4>Dedicated Support</h4>
+                        <h3>Dedicated Support</h3>
                         <div class="text">
                             <p>Get expert technical advice and seamless support from start to finish on every order.
                             </p>
@@ -640,7 +640,7 @@
                             <!--Start single accordion box-->
                             <div class="accordion accordion-block">
                                 <div class="accord-btn active">
-                                    <h4>What products does Moksh Tubes & Fittings LLP manufacture and supply?</h4>
+                                    <h3>What products does Moksh Tubes & Fittings LLP manufacture and supply?</h3>
                                 </div>
                                 <div class="accord-content collapsed">
                                     <p>Moksh Tubes & Fittings LLP manufactures and supplies a wide range of steel products,
@@ -653,7 +653,7 @@
                             <!--Start single accordion box-->
                             <div class="accordion accordion-block">
                                 <div class="accord-btn">
-                                    <h4>Which industries does Moksh Tubes & Fittings LLP serve?</h4>
+                                    <h3>Which industries does Moksh Tubes & Fittings LLP serve?</h3>
                                 </div>
                                 <div class="accord-content">
                                     <p>We cater to diverse industries such as Oil & Gas, Petrochemicals, Power Generation,
@@ -666,8 +666,8 @@
                             <!--Start single accordion box-->
                             <div class="accordion accordion-block">
                                 <div class="accord-btn">
-                                    <h4>What materials are available at Moksh Tubes & Fittings LLP?
-                                    </h4>
+                                    <h3>What materials are available at Moksh Tubes & Fittings LLP?
+                                    </h3>
                                 </div>
                                 <div class="accord-content">
                                     <p>Our product range covers Stainless Steel, Duplex & Super Duplex Steel, Nickel Alloys
@@ -679,8 +679,8 @@
                             <!--Start single accordion box-->
                             <div class="accordion accordion-block">
                                 <div class="accord-btn">
-                                    <h4>How does Moksh Tubes & Fittings LLP ensure quality standards?
-                                    </h4>
+                                    <h3>How does Moksh Tubes & Fittings LLP ensure quality standards?
+                                    </h3>
                                 </div>
                                 <div class="accord-content">
                                     <p>All materials we supply comply with international standards such as ASTM, ASME, ISO,
@@ -693,8 +693,8 @@
                             <!--Start single accordion box-->
                             <div class="accordion accordion-block">
                                 <div class="accord-btn">
-                                    <h4>Does Moksh Tubes & Fittings LLP offer global delivery?
-                                    </h4>
+                                    <h3>Does Moksh Tubes & Fittings LLP offer global delivery?
+                                    </h3>
                                 </div>
                                 <div class="accord-content">
                                     <p>Yes. With 20 years of experience and projects completed in over 12 countries, Moksh
