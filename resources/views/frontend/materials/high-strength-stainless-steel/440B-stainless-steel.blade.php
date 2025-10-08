@@ -1,8 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Hastelloy C276 – Corrosion-Resistant Pipes, Sheets & Bars.')
-@section('meta_description', 'Discover Hastelloy C276 (UNS N10276) pipes, sheets, bars & flanges — a premium corrosion-resistant nickel alloy ideal for chemical, oil & gas, marine, and industrial applications.')
-@section('meta_keywords', 'Hastelloy C276, Corrosion Resistant Alloy, Nickel Alloy, Hastelloy C276 Pipes, Hastelloy C276 Tubes, Hastelloy C276 Fittings, Industrial Corrosion Resistant Alloys, Durable Nickel Alloys, Chemical Processing Alloys, Marine Alloys')
+@section('title', 'Stainless Steel 440B | Precision Bars & Rods Supplier')
+@section('meta_description', 'Premium 440B Stainless Steel bars & rods offering high strength, wear resistance & polish finish for industrial, tooling & engineering applications.')
+@section('meta_keywords', '440B Stainless Steel, UNS S44004, AISI 440B, High Carbon Martensitic Stainless Steel, Corrosion Resistant Stainless Steel, High Strength Stainless Steel, Wear Resistant Alloy, Industrial Stainless Steel Supplier, Engineering Grade Stainless Steel, Tooling Stainless Steel')
 
 @section('content')
 
@@ -11,7 +11,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Hastelloy C276 Alloy <br> UNS N10276 Corrosion-Resistant Nickel Alloy</h1>
+                    <h1>Stainless Steel 440B <br> High-Carbon Martensitic Stainless Steel</h1>
                 </div>
             </div>
         </div>
@@ -27,7 +27,7 @@
             </div>
 
             <h2 class="fw-semibold text-center mb-5" style="color: #db7227;">
-                Introduction to Hastelloy C276 / Alloy C276 / UNS N10276
+                INTRODUCTION TO STAINLESS STEEL 440B / AISI 440B / UNS S44004
             </h2>
 
             <div class="row align-items-center">
@@ -40,40 +40,21 @@
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
-                        <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black">Hastelloy C276 (UNS N10276)</strong> is a high performance <strong
-                                class="text-black">nickel alloy</strong> designed to offer excellent
-                            resistance in some of the most corrosive environments. <a href="{{ route('index') }}">MOKSH
-                                TUBES & FITTINGS LLP</a> is a trusted
-                            supplier, exporter, importer, and stockist of a wide range of Hastelloy C276 <a
-                                href="{{ route('products') }}">products</a>, including
-                            pipes, tubes, pipe fittings, flanges, fasteners, sheets, plates, coils, wires, round bars, and
-                            custom alloy components.
-                        </p>
+                         <p class="fs-6 mb-4" style="text-align: justify;">
+                    <strong class="text-black">Stainless Steel 440B (UNS S44004)</strong> is a high-carbon martensitic stainless steel offering higher hardness and wear resistance than 440A after heat treatment, while retaining moderate corrosion resistance in mildly corrosive environments. It is fully magnetic and can be hardened by conventional quench-and-temper cycles, making it suitable for blades, wear parts, and precision components.
+                </p>
 
-                        <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black"><a href="{{ route('materials.hastelloy') }}">Hastelloy</a> C276</strong> is a nickel chromium molybdenum alloy, highly
-                            resistant to both oxidizing and
-                            non oxidizing acids, and provides superior defense against stress corrosion cracking and pitting
-                            in chloride rich solutions. Its high chromium and molybdenum content make it an ideal choice for
-                            applications requiring exceptional metal durability.
-                        </p>
-                        <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">Hastelloy C276</strong> is also highly ductile, easy
-                            to form and weld, and designed to minimize welding challenges, making it a versatile choice for
-                            industries handling aggressive chemicals and extreme temperatures.
-                        </p>
-                        <p class="fs-6 mb-4" style="text-align: justify;">
-                            <strong>Hastelloy C276</strong> (UNS N10276) is often compared with traditional steels where
-                            <strong>density of steel</strong>, <strong>density of mild steel</strong>, and
-                            <strong>density of carbon steel</strong> play an important role in design. While
-                            <strong>steel material density</strong> is around <strong>7.85 g/cm³</strong>, the
-                            <strong>Hastelloy C276 density</strong> is about <strong>8.89 g/cm³</strong>, giving it higher
-                            strength
-                            and durability in aggressive environments. This makes <strong>C276 material</strong> one of the
-                            most
-                            trusted alloys for industries requiring extreme corrosion resistance and mechanical reliability.
-                        </p>
+                <p class="fs-6" style="text-align: justify;">
+                    <a href="{{ route('index') }}"><strong class="text-black">MOKSH TUBES & FITTINGS LLP</strong></a> is a trusted supplier, exporter, importer, and stockist of stainless 440B <a href="{{ route('products') }}">products</a>, including pipes, tubes, fittings, flanges, fasteners, sheets, plates, coils, wires, bars, and custom machined parts, produced to international standards for performance and reliability.
+                </p>
+
+                <p class="fs-6" style="text-align: justify;">
+                    Compared to lower-carbon grades, <strong class="text-black">440B</strong> delivers excellent edge retention, high surface hardness up to 56–60 HRC when properly heat treated, and good polishability for cutting tool and industrial service applications where both hardness and oxidation resistance are required.
+                </p>
+
+                <p class="fs-6 mb-4" style="text-align: justify;">
+                    For weight-critical designs, note typical <strong>steel density</strong> of 7.85 g/cm³ versus <strong>440B density</strong> 7.65 g/cm³, which can slightly reduce component mass without compromising mechanical performance when properly heat treated and finished.
+                </p>
                     </div>
                 </div>
             </div>
@@ -83,77 +64,57 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Hastelloy C276 Chemical Composition</h2>
+                <h2>Chemical Composition of 440B stainless steel</h2>
             </div>
 
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Element</th>
-                                    <th>Composition (%)</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Nickel</td>
-                                    <td>57 (Balance)</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Chromium</td>
-                                    <td>16</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Molybdenum</td>
-                                    <td>16</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Iron</td>
-                                    <td>5</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Tungsten</td>
-                                    <td>4</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Cobalt</td>
-                                    <td>2.5 max</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Manganese</td>
-                                    <td>1 max</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Vanadium</td>
-                                    <td>0.35 max</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Silicon</td>
-                                    <td>0.08</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Carbon</td>
-                                    <td>0.01 max</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Copper</td>
-                                    <td>0.5 max</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                        <p class="fs-6 text-center mt-3">
-                            The unique <strong>Hastelloy C276 chemical composition</strong> provides excellent resistance
-                            against both
-                            oxidizing and reducing agents. In comparison, <strong>mild steel density</strong> and
-                            <strong>carbon steel density</strong> vary based on grade, often expressed as
-                            <strong>density of steel in kg m3</strong>, <strong>density of steel g cm3</strong>, or even
-                            <strong>density of steel lb ft3</strong>. By contrast, the <strong>Hastelloy
-                                composition</strong> balances
-                            Nickel, Chromium, and Molybdenum, which ensures superior performance where steels or other
-                            alloys may fail.
-                        </p>
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Element</th>
+                            <th>Composition (%)</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Carbon (C)</td>
+                            <td>0.75 – 0.95</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Chromium (Cr)</td>
+                            <td>16.0 – 18.0</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Molybdenum (Mo)</td>
+                            <td>0.75</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Manganese (Mn)</td>
+                            <td>1.00</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Silicon (Si)</td>
+                            <td>1.00</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Phosphorus (P)</td>
+                            <td>0.04</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Sulfur (S)</td>
+                            <td>0.03</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Iron (Fe)</td>
+                            <td>Balance</td>
+                        </tr>
+                    </tbody>
+                </table>
+                         <p class="fs-6 text-center mt-3" style="text-align: justify;">
+                    The higher carbon range in <strong>440B</strong> enables superior hardenability and wear resistance over 440A, while chromium ensures stainless behavior in mildly corrosive media when properly heat treated and finished.
+                </p>
 
                     </div>
                 </div>
@@ -171,38 +132,42 @@
             <!-- Physical Properties Table -->
             <div class="row justify-content-center mb-5">
                 <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
+                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties of 440B stainless steel</h4>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Value</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Density</td>
-                                    <td>8.89 g/cm³</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Melting Point</td>
-                                    <td>1370°C (2500°F)</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Tensile Strength</td>
-                                    <td>115,000 psi / 790 MPa</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Yield Strength (0.2% Offset)</td>
-                                    <td>52,000 psi / 355 MPa</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Elongation</td>
-                                    <td>40%</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Value</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Density</td>
+                            <td>7.65 g/cm³</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Melting Point</td>
+                            <td>1480 – 1530 °C</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Modulus of Elasticity</td>
+                            <td>200 GPa</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Thermal Conductivity (100 °C)</td>
+                            <td>24 W/m·K</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Electrical Resistivity</td>
+                            <td>0.60 µΩ·m</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Magnetic Properties</td>
+                            <td>Fully Magnetic (Martensitic)</td>
+                        </tr>
+                    </tbody>
+                </table>
                     </div>
                 </div>
             </div>
@@ -210,44 +175,44 @@
             <!-- Mechanical Properties Table -->
             <div class="row justify-content-center">
                 <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties of Hastelloy C276</h4>
+                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties of 440B stainless steel</h4>
                     <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Metric</th>
-                                    <th>Imperial</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Tensile Strength (@ 538°C / 1000°F)</td>
-                                    <td>601.2 MPa</td>
-                                    <td>87,200 psi</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Yield Strength (0.2% offset @ 427°C / 801°F)</td>
-                                    <td>204.8 MPa</td>
-                                    <td>29,700 psi</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Elastic Modulus (RT)</td>
-                                    <td>205 GPa</td>
-                                    <td>29,700 ksi</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Elongation at Break (@ 204°C / 399°F)</td>
-                                    <td>56%</td>
-                                    <td>56%</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Hardness, Rockwell B (plate)</td>
-                                    <td>87</td>
-                                    <td>87</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                       <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Metric</th>
+                            <th>Imperial</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Tensile Strength (annealed)</td>
+                            <td>655 – 895 MPa</td>
+                            <td>95,000 – 130,000 psi</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Yield Strength 0.2% (annealed)</td>
+                            <td>415 MPa</td>
+                            <td>60,000 psi</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elongation (annealed)</td>
+                            <td>15 – 20%</td>
+                            <td>15 – 20%</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Hardness (Brinell, annealed)</td>
+                            <td>215 – 235 HB</td>
+                            <td>215 – 235 HB</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Hardness (Hardened & Tempered)</td>
+                            <td>56 – 60 HRC</td>
+                            <td>56 – 60 HRC</td>
+                        </tr>
+                    </tbody>
+                </table>
                     </div>
                 </div>
             </div>
@@ -312,55 +277,85 @@
     @endphp
 
     <section class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Products in Hastelloy C276</h2>
-            </div>
+    <div class="container">
+        <div class="section-title center">
+            <h2>Products in Stainless Steel 440B</h2>
+        </div>
 
-            <!-- Highlighted Paragraph -->
-            <div class="row justify-content-center mb-4" style="text-align: justify;">
-                <div class="col-lg-10">
-                    <p class="fs-6">
-                        <strong class="text-dark">MOKSH TUBES & FITTINGS LLP</strong>, with its extensive experience in
-                        nickel-chromium-molybdenum grades and huge network of sources, deals in a wide variety of <strong
-                            class="text-dark">HASTELLOY C276</strong> products. These products have an extensive range of
-                        applications, including Chemical Processing, Nuclear Power Plants, Pollution Control Projects, Pulp
-                        & Paper, Oil & Gas, Flue Gas Desulphurization, Waste Water Treatment, and other associated
-                        industries. They are exceptionally suited for extremely corrosive environments and high-temperature
-                        conditions. Such harsh environments require materials that can maintain integrity, form, and
-                        performance under severe chemical and thermal stress. <strong class="text-dark">HASTELLOY
-                            C276</strong> effectively meets these challenges, making it a reliable choice for critical
-                        applications where long-term durability and resistance to degradation are essential for client
-                        success in their projects.
-                    </p>
-                </div>
+        <!-- Highlighted Paragraph -->
+        <div class="row justify-content-center mb-4" style="text-align: justify;">
+            <div class="col-lg-10">
+                <p class="fs-6">
+                    <strong class="text-dark">MOKSH TUBES & FITTINGS LLP</strong>, with extensive experience in martensitic stainless steels, 
+                    supplies <strong class="text-dark">Stainless Steel 440B</strong> in a broad range of product forms for industrial, mechanical, 
+                    and precision applications. Known for its excellent hardness, wear resistance, and moderate corrosion protection, 
+                    440B serves as a versatile material for engineering and production environments that demand high performance.
+                </p>
             </div>
+        </div>
 
-            <!-- Horizontal Styled Product List -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-10">
-                    <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color: #db7227;">
-                        <div class="row">
-                            {{-- @foreach ($products as $slug => $product) --}}
-                            @foreach ($products as $product)
-                                <div class="col-12 col-sm-6 mb-2 d-flex justify-content-start align-items-start">
-                                    <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span>
-                                    <span>{{ $product['name'] }}</span>
-                                </div>
-                            @endforeach
+        <!-- Horizontal Styled Product List -->
+        <div class="row justify-content-center mb-5">
+            <div class="col-lg-10">
+                <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color: #db7227;">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 mb-2 d-flex align-items-start">
+                            <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span>
+                            <span>Seamless Pipes</span>
+                        </div>
+                        <div class="col-12 col-sm-6 mb-2 d-flex align-items-start">
+                            <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span>
+                            <span>Welded Pipes (ERW & EFW)</span>
+                        </div>
+                        <div class="col-12 col-sm-6 mb-2 d-flex align-items-start">
+                            <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span>
+                            <span>Tubes (Capillary, Instrumentation, Heat Exchanger)</span>
+                        </div>
+                        <div class="col-12 col-sm-6 mb-2 d-flex align-items-start">
+                            <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span>
+                            <span>Sheets & Plates</span>
+                        </div>
+                        <div class="col-12 col-sm-6 mb-2 d-flex align-items-start">
+                            <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span>
+                            <span>Coils & Strips</span>
+                        </div>
+                        <div class="col-12 col-sm-6 mb-2 d-flex align-items-start">
+                            <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span>
+                            <span>Round Bars, Flat Bars, Hex Bars, Square Bars</span>
+                        </div>
+                        <div class="col-12 col-sm-6 mb-2 d-flex align-items-start">
+                            <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span>
+                            <span>Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)</span>
+                        </div>
+                        <div class="col-12 col-sm-6 mb-2 d-flex align-items-start">
+                            <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span>
+                            <span>Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)</span>
+                        </div>
+                        <div class="col-12 col-sm-6 mb-2 d-flex align-items-start">
+                            <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span>
+                            <span>Fasteners (Bolts, Nuts, Screws, Washers, Studs)</span>
+                        </div>
+                        <div class="col-12 col-sm-6 mb-2 d-flex align-items-start">
+                            <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span>
+                            <span>Precision Machined & Heat-Treated Components</span>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <!-- Emphasized Line -->
-            <div class="row justify-content-center mb-3">
-                <div class="col-lg-10">
-                    <p class="fw-bold fs-5 text-center my-4" style="color: #174268;">
-                        We offer Hastelloy C276 in a wide range of product forms, including:
-                    </p>
-                </div>
+        <!-- Standards Section -->
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <p class="fw-bold fs-6 text-center my-4" style="color: #174268;">
+                    All products comply with international standards such as <strong>ASTM A276 / A314 / A580</strong> 
+                    to ensure top-quality material performance and dimensional accuracy.
+                </p>
             </div>
+        </div>
+    </div>
+</section>
+
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
@@ -382,331 +377,288 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Uses and Advantages</h2>
-            </div>
-
-            <div class="row g-4 mt-4 justify-content-center">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>Outstanding resistance to a wide range of aggressive chemicals</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h5>Excellent resistance to pitting, crevice corrosion, and stress corrosion cracking</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h5>High mechanical strength and durability at elevated temperatures</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h5>Excellent weldability and formability</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
-                        <h5>Suitable for severe operating conditions in critical industries</h5>
-                    </div>
-                </div>
-            </div>
+   <section class="sec-padd-top sec-padd-bottom bg-light">
+    <div class="container">
+        <div class="section-title center">
+            <h2>Uses and Advantages of 440B stainless steel</h2>
         </div>
-    </section>
 
+        <div class="row g-4 mt-4 justify-content-center">
 
-    <section class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Applications of Hastelloy C276</h2>
-                <p class="text-center pb-3"><strong class="text-dark">HASTELLOY C-276</strong> is widely used in
-                    industries where exceptional corrosion resistance and mechanical strength are critical:
-                </p>
-
+            <div class="col-sm-6 col-lg-4">
+                <div class="advantage-card">
+                    <div class="advantage-icon"><i class="bi bi-gem"></i></div>
+                    <h5>High Surface Hardness</h5>
+                    <p>Achieves superior surface hardness after precise heat treatment, making it ideal for wear-intensive applications.</p>
+                </div>
             </div>
 
-            <div class="row g-4 justify-content-center">
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
-                        <h5>Chemical Processing Industry</h5>
-                        <p>Used in reactors, heat exchangers, scrubbers, columns, piping systems, evaporators, and storage
-                            tanks handling acidic and chloride-laden fluids.</p>
-                    </div>
+            <div class="col-sm-6 col-lg-4">
+                <div class="advantage-card">
+                    <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                    <h5>Good Corrosion Resistance</h5>
+                    <p>Performs reliably in mild corrosive environments such as air, freshwater, and lightly acidic conditions.</p>
                 </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
-                        <h5>Pollution Control / FGD Systems</h5>
-                        <p>Ideal for stack liners, ducts, dampers, scrubbers, and other components exposed to harsh acidic
-                            gases and high temperatures.</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
-                        <h5>Oil & Gas Sector</h5>
-                        <p>Deployed in sour gas service components such as downhole tubing, wellhead equipment, valves,
-                            manifolds, and separators.</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-droplet"></i></div>
-                        <h5>Marine & Offshore Applications</h5>
-                        <p>Suitable for seawater systems, condenser tubes, marine exhaust systems, and offshore structures
-                            subjected to saltwater exposure.</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
-                        <h5>Pulp and Paper Industry</h5>
-                        <p>Utilized in digesters, bleach plants, and chemical recovery systems that require resistance to
-                            chlorine-based chemicals and acidic solutions.</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
-                        <h5>Nuclear & Power Generation</h5>
-                        <p>For critical components exposed to high temperatures, corrosive media, and radiation in nuclear
-                            and conventional power plants.</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-capsule"></i></div>
-                        <h5>Pharmaceutical & Food Processing</h5>
-                        <p>Applied in systems requiring high corrosion resistance, hygiene standards, and compliance with
-                            strict regulatory norms.</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-recycle"></i></div>
-                        <h5>Wastewater Treatment</h5>
-                        <p>For tanks, piping, and equipment exposed to corrosive waste streams and aggressive chemical
-                            cleaning agents.</p>
-                    </div>
-                </div>
-
-
-                {{-- <div class="col-md-6 col-lg-4">
-                <div class="application-card">
-                     <div class="application-icon"><i class="bi bi-strategies"></i></div>
-                    <h5>Why It Works</h5>
-                    <p><strong>HASTELLOY C276’s</strong> combination of corrosion resistance, weldability, and mechanical durability makes it ideal for mission-critical applications where long-term performance is non-negotiable.</p>
-                </div>
-            </div> --}}
             </div>
-            <p class="text-center pb-3 my-4"><strong class="text-dark">Engineers often compare <strong>Hastelloy C22 vs
-                        C276</strong> when selecting alloys for
-                    demanding projects. While both are premium <strong>hastelloy materials</strong>,
-                    <strong>Alloy C276</strong> delivers better performance in chloride-rich environments,
-                    high-temperature exposure, and seawater applications. This makes it highly suitable for
-                    <strong>Hastelloy C276 pipe</strong>, <strong>Hastelloy tubing</strong>,
-                    <strong>Hastelloy C276 plate</strong>, and <strong>Hastelloy C276 round bar</strong>,
-                    outperforming traditional options like <strong>carbon steel density</strong> and
-                    <strong>ss density in kg m3</strong>.
+
+            <div class="col-sm-6 col-lg-4">
+                <div class="advantage-card">
+                    <div class="advantage-icon"><i class="bi bi-magnet"></i></div>
+                    <h5>Fully Magnetic Ferritic Structure</h5>
+                    <p>Maintains strong magnetic properties in both annealed and heat-treated conditions, suitable for specialized engineering uses.</p>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4">
+                <div class="advantage-card">
+                    <div class="advantage-icon"><i class="bi bi-tools"></i></div>
+                    <h5>Excellent Wear Resistance</h5>
+                    <p>Offers high edge retention and superior wear resistance, essential for cutting tools and precision components.</p>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4">
+                <div class="advantage-card">
+                    <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
+                    <h5>Heat-Treatable for Strength</h5>
+                    <p>Can be heat treated to achieve exceptional hardness, strength, and performance in high-stress conditions.</p>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4">
+                <div class="advantage-card">
+                    <div class="advantage-icon"><i class="bi bi-gear-wide-connected"></i></div>
+                    <h5>Easy to Machine and Polish</h5>
+                    <p>Suitable for machining, grinding, and polishing operations, ensuring precision and enhanced surface finish.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+   <section class="sec-padd-top sec-padd-bottom">
+    <div class="container">
+        <div class="section-title center">
+            <h2>Applications of Stainless Steel 440B</h2>
+            <p class="text-center pb-3">
+                <strong class="text-dark">Stainless Steel 440B</strong> is valued for its hardness, wear resistance, and moderate corrosion protection, making it an excellent choice across various demanding industries.
             </p>
-
         </div>
-    </section>
 
+        <div class="row g-4 justify-content-center">
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container text-center">
-            <div class="section-title center">
-                <h2>WHY CHOOSE US?</h2>
+            <div class="col-md-6 col-lg-4">
+                <div class="application-card">
+                    <div class="application-icon"><i class="bi bi-scissors"></i></div>
+                    <h5>Cutlery & Blades</h5>
+                    <p>Used in knives, scissors, surgical instruments, and cutting tools requiring sharp edges and durability.</p>
+                </div>
             </div>
 
-            <div class="row g-4 mt-4">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Specialists in manufacturing high-quality products</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
-                        <h5>Strong supplier network for premium raw materials</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
-                        <h5>Expertise in nickel alloys and high-performance materials</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-6">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Global presence with customized solutions for diverse needs</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-6">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
-                        <h5>Dedicated to quality, dependability, and customer satisfaction</h5>
-                    </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="application-card">
+                    <div class="application-icon"><i class="bi bi-gear"></i></div>
+                    <h5>Automotive & Mechanical Components</h5>
+                    <p>Applied in shafts, bearings, bushings, and wear-resistant parts for automotive and mechanical purposes.</p>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="accordion-box">
-                        <div class="section-title center">
-                            <h2>FAQ's</h2>
-                        </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="application-card">
+                    <div class="application-icon"><i class="bi bi-droplet-half"></i></div>
+                    <h5>Valve & Pump Components</h5>
+                    <p>Seats, stems, and trims designed to handle mildly corrosive fluids with precision and reliability.</p>
+                </div>
+            </div>
 
-                        <!-- Q1 -->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>What is Hastelloy C-276 and why is it important?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    Hastelloy C-276 (UNS N10276) is a nickel-chromium-molybdenum alloy with excellent
-                                    resistance to strong oxidizers, reducing agents, and chloride-induced corrosion. Its low
-                                    silicon and carbon content reduce welding challenges, while its superior resistance to
-                                    pitting, crevice corrosion, and stress corrosion cracking makes it an ideal choice for
-                                    industries operating in highly aggressive chemical and thermal environments.
-                                </p>
-                            </div>
-                        </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="application-card">
+                    <div class="application-icon"><i class="bi bi-hammer"></i></div>
+                    <h5>Tools & Dies</h5>
+                    <p>Ideal for molds, dies, and gauges in high-wear applications requiring stability and long service life.</p>
+                </div>
+            </div>
 
-                        <!-- Q2 -->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>How does Hastelloy C-276 compare to steel in terms of density?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    Traditional steels such as mild steel and carbon steel typically have a
-                                    <strong>density of steel</strong> around <strong>7.85 g/cm³</strong>
-                                    (<strong>density of steel in kg m3</strong> ≈ 7850). Variants like
-                                    <strong>density of carbon steel lb/in3</strong> or
-                                    <strong>density of steel per cubic inch</strong> are often used in engineering
-                                    calculations.
-                                    In comparison, <strong>Hastelloy C276 density</strong> is approximately
-                                    <strong>8.89 g/cm³</strong>, making it heavier but far more resistant to corrosion,
-                                    stress,
-                                    and extreme temperatures than conventional steel grades.
-                                </p>
-                            </div>
-                        </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="application-card">
+                    <div class="application-icon"><i class="bi bi-cup-straw"></i></div>
+                    <h5>Food Processing & Equipment</h5>
+                    <p>Cutting blades, knives, and various food processing tools needing hygiene, hardness, and corrosion resistance.</p>
+                </div>
+            </div>
 
-                        <!-- Q3 -->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Is Hastelloy C276 weldable?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    Yes, Hastelloy C276 is weldable using standard welding techniques like TIG and MIG.
-                                    However, low carbon content and controlled heat input are recommended to maintain its
-                                    corrosion resistance.
-                                </p>
-                            </div>
-                        </div>
-
-                        <!-- Q4 -->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>What products are available in Hastelloy C-276 from MOKSH TUBES & FITTINGS LLP?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    MOKSH TUBES & FITTINGS LLP manufactures and supplies a complete range of Hastelloy C-276
-                                    products including seamless and welded pipes, tubes, sheets, plates, coils, bars, pipe
-                                    fittings, flanges, fasteners, welding rods, wire mesh, and customized fabricated
-                                    components. All products are made to international standards to deliver durability,
-                                    precision, and long term reliability in corrosive environments.
-                                </p>
-                            </div>
-
-                        </div>
-
-                        <!-- Q5 -->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for Hastelloy C-276 products?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    MOKSH TUBES & FITTINGS LLP is a trusted manufacturer, supplier, exporter, importer, and
-                                    stockist of high-quality Hastelloy C-276 products. With expertise in nickel-based
-                                    alloys, a strong global supply network, advanced manufacturing capabilities, and a
-                                    commitment to quality and customer satisfaction, the company delivers customized
-                                    solutions and reliable materials for critical industrial requirements worldwide.
-                                </p>
-                            </div>
-                        </div>
-
-                    </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="application-card">
+                    <div class="application-icon"><i class="bi bi-diagram-3"></i></div>
+                    <h5>General Engineering</h5>
+                    <p>Precision-engineered parts requiring hard surfaces, dimensional stability, and durability after heat treatment.</p>
                 </div>
             </div>
         </div>
-    </section>
-    <!--End faq content area-->
 
+        <div class="row justify-content-center mt-4">
+            <div class="col-lg-10">
+                <p class="fw-bold fs-5 text-center my-4" style="color: #174268;">
+                    Combining strength, hardness, and moderate corrosion resistance, <strong>Stainless Steel 440B</strong> is a proven and reliable grade for both industrial and consumer products.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+   <section class="sec-padd-top sec-padd-bottom bg-light">
+    <div class="container text-center">
+        <div class="section-title center">
+            <h2>WHY CHOOSE US?</h2>
+        </div>
+
+        <div class="row g-4 mt-4">
+            <div class="col-sm-6 col-lg-4">
+                <div class="why-banner-block">
+                    <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
+                    <h5>Specialists in High-Carbon Martensitic Stainless Steels</h5>
+                    <p>We specialize in supplying and manufacturing top-quality 440B stainless steel with exceptional hardness, wear resistance, and reliability.</p>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4">
+                <div class="why-banner-block">
+                    <div class="why-banner-icon"><i class="bi bi-box-seam"></i></div>
+                    <h5>Extensive Stock of Standard and Custom Products</h5>
+                    <p>We keep a large inventory of both standard forms and custom-engineered components ready to meet diverse client needs.</p>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4">
+                <div class="why-banner-block">
+                    <div class="why-banner-icon"><i class="bi bi-gear-wide-connected"></i></div>
+                    <h5>Expertise in Heat Treatment, Precision Machining, and Fabrication</h5>
+                    <p>Our technical team ensures perfect heat treatment and machining for optimal performance and durability.</p>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-6">
+                <div class="why-banner-block">
+                    <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
+                    <h5>Global Supply with Fast Delivery</h5>
+                    <p>We provide reliable worldwide shipping with prompt delivery timelines for urgent and large-scale projects.</p>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-6">
+                <div class="why-banner-block">
+                    <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
+                    <h5>Commitment to Quality and Customer Satisfaction</h5>
+                    <p>We focus strongly on quality control, traceability, and building enduring customer relationships through superior service.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+   <!--Start faq content area-->
+<section class="faq-content-area sec-padd2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="accordion-box">
+                    <div class="section-title center">
+                        <h2>FAQ’s – 440B Stainless Steel</h2>
+                    </div>
+
+                    <!-- Q1 -->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn">
+                            <h4>What is 440B Stainless Steel?</h4>
+                        </div>
+                        <div class="accord-content">
+                            <p>
+                                440B is a high-carbon martensitic stainless steel designed for exceptional hardness, high strength, and good corrosion resistance. 
+                                It is commonly used in manufacturing precision tools and components that require a balance of wear resistance and toughness.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Q2 -->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn">
+                            <h4>What are its key properties?</h4>
+                        </div>
+                        <div class="accord-content">
+                            <p>
+                                The main properties of 440B Stainless Steel include:
+                                <ul>
+                                    <li>Excellent wear and abrasion resistance</li>
+                                    <li>High hardness after heat treatment</li>
+                                    <li>Good polishability and machinability</li>
+                                    <li>Moderate corrosion resistance in temperate environments</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Q3 -->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn">
+                            <h4>Where is it used?</h4>
+                        </div>
+                        <div class="accord-content">
+                            <p>
+                                440B Stainless Steel is used in knife blades, surgical and dental instruments, bearings, cutting tools, and wear-resistant mechanical parts.
+                                Its ability to maintain hardness and sharpness makes it ideal for heavy-duty and precision applications.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Q4 -->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn">
+                            <h4>Is it weldable?</h4>
+                        </div>
+                        <div class="accord-content">
+                            <p>
+                                Welding 440B is possible but requires preheating and post-weld heat treatment to prevent cracking and restore corrosion resistance. 
+                                TIG or MIG welding methods are recommended for controlled and accurate joints.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Q5 -->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn">
+                            <h4>Why choose MOKSH TUBES & FITTINGS LLP for 440B Stainless Steel?</h4>
+                        </div>
+                        <div class="accord-content">
+                            <p>
+                                MOKSH TUBES & FITTINGS LLP provides premium-grade 440B stainless steel with precision processing, 
+                                consistent quality assurance, and timely global delivery. Our materials meet rigorous industry standards 
+                                and are tailored to meet client requirements across multiple sectors.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End faq content area-->
     
 
-    <!-- Supplier / Price Info -->
-    <section>
-        <div class="container">
-            <p class="text-center">
-                Looking for reliable <strong>Hastelloy C276 suppliers</strong> or checking the
-                <strong>Hastelloy C276 price per kg</strong> in India?
-                <strong>Moksh Tubes & Fittings LLP</strong> offers competitive rates on
-                <strong>Hastelloy C276 sheet</strong>, <strong>Hastelloy C276 plate</strong>,
-                <strong>Hastelloy C276 pipe fittings</strong>, <strong>Hastelloy C276 fasteners</strong>,
-                and <strong>Hastelloy C276 welding consumables</strong>. We also provide export-quality
-                <strong>Hastelloy C276 round bar suppliers</strong> network for global clients.
-            </p>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
+ <!-- Contact Section -->
     <section class="sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
-                <p>
-                    For any inquiries or to request a quote, reach out to <strong>Moksh Tubes & Fittings LLP</strong> – your
-                    trusted partner for <strong>HASTELLOY C-276</strong> products.
-                </p>
+               <p>
+    For inquiries or to request a quote, reach out to <strong>Moksh Tubes & Fittings LLP</strong> – your trusted partner for <strong>Stainless Steel 440B</strong> products.
+</p>
+
                 <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
