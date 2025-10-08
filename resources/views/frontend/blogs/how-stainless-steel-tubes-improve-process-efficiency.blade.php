@@ -37,10 +37,10 @@
                                 <div class="text">
                                     <p>
                                         In any industrial or manufacturing setting, efficiency is the engine of
-                                        profitability. Every decision, from process design to material selection, is
+                                        profitability. Every decision, from process design to <a href="{{ route('materials') }}">material</a> selection, is
                                         scrutinized for its potential to reduce costs, minimize downtime, and maximize
                                         output. While large machinery and automated systems often get the spotlight, the
-                                        seemingly simple components, like pipes and tubes, play an equally critical role.
+                                        seemingly simple components, like <a href="{{ route('products') }}">pipes and tubes</a>, play an equally critical role.
                                         The right tubing material can be the difference between a smooth, continuous
                                         operation and a system plagued by constant interruptions and maintenance.
                                     </p>
@@ -60,7 +60,7 @@
                                 </div>
                                 <div class="text">
                                     <p>
-                                        To understand how stainless steel tubes boost efficiency, we first need to look at
+                                        To understand how <a href="{{ route('blogs.stainless-steel-inconel-tubes') }}">stainless steel</a> tubes boost efficiency, we first need to look at
                                         their inherent characteristics. These properties work together to create a <a href="{{ route('materials') }}">material</a>
                                         that solves many of the common challenges faced in industrial environments.
                                     </p>
@@ -449,17 +449,16 @@
                                     <div class="card-body ">
                                         <!-- Heading -->
                                         <div class="section-title">
-                                            <h2>get in <span class="thm-color">touch</span></h2>
-                                            <p>Let’s forge a connection — contact our team today.</p>
+                                            <h2>Locate <span class="thm-color">Us</span></h2>
+                                            {{-- <p>Let’s forge a connection — contact our team today.</p> --}}
                                         </div>
 
                                         <!-- Map -->
                                         <div class="mb-3 text-center">
                                             <iframe
-                                                src="https://www.google.com/maps/place/Moksh+Tubes+%26+Fittings+LLP/@18.956197,72.8288042,17z/data=!4m10!1m2!2m1!1smoksh+tubes.com+map!3m6!1s0x3be7cf9ee4261af1:0x57adb33b0f4c262!8m2!3d18.9561299!4d72.8287668!15sChNtb2tzaCB0dWJlcy5jb20gbWFwkgEMbWFudWZhY3R1cmVyqgFOCgsvZy8xdHJyYm5wcxABKgciA2NvbSgAMh8QASIbjJWhbK9Dq8lgbx706NjWt0eyqM7Fa1e3RgjMMhMQAiIPbW9rc2ggdHViZXMgY29t4AEA!16s%2Fg%2F11xdfzyd83?entry=ttu&g_ep=EgoyMDI1MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+                                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.4406978634916!2d72.82619187387158!3d18.956134955727215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf9ee4261af1%3A0x57adb33b0f4c262!2sMoksh%20Tubes%20%26%20Fittings%20LLP!5e0!3m2!1sen!2sin!4v1759749318402!5m2!1sen!2sin"
                                                 width="100%" height="200" style="border:0;" allowfullscreen=""
-                                                loading="lazy">
-                                            </iframe>
+                                                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                         </div>
 
                                         <!-- Contact Info -->
@@ -479,6 +478,10 @@
                                             <strong>Office Address:</strong> 95/95A, Dawood Baug, Sukhlaji Street,
                                             Kamatipura Mumbai
                                         </p>
+                                        <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
+                                <strong>Office Address:</strong> 92E, Plot No. 3, New Tank Bunder, Darukhana, Mumbai,
+                                Maharashtra- 400 010.
+                            </p>
 
                                     </div>
                                 </div>

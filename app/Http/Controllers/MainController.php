@@ -37,6 +37,14 @@ class MainController extends Controller
     {
         return view('frontend.khetwadi');
     }
+    public function contactUsKamatipura()
+    {
+        return view('frontend.kamatipura');
+    }
+    public function contactUsDarukhana()
+    {
+        return view('frontend.darukhana');
+    }
 
     public function StainlessSteelInconelTubes()
     {

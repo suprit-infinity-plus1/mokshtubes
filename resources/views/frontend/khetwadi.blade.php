@@ -1,147 +1,59 @@
 @extends('layouts.master')
 @section('title', 'Moksh Tubes || Contact Us')
 
-@section('extracss')
-    <style>
-        .bg-orange {
-            background-color: #f4770c;
-        }
-
-        .text-orange {
-            color: #f4770c;
-        }
-
-        .icon-box {
-            width: 48px;
-            height: 48px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border-radius: 50%;
-            flex-shrink: 0;
-        }
-
-        .btn-gradient {
-            background: linear-gradient(135deg, #f4770c, #ff8f38);
-            color: white;
-            border: none;
-            transition: 0.3s ease;
-            border-radius: 6px;
-        }
-
-        .btn-gradient:hover {
-            background: linear-gradient(135deg, #e26200, #fa7813);
-            color: white;
-        }
-    </style>
-@endsection
 @section('content')
 
-    {{-- <section class="bg-light pb-5">
+    <section class="bg-light sec-padd-bottom">
+        <div class="container py-5">
+            <!-- Title in center -->
+            <h1 class="text-center mb-5 fw-semibold my-4 title-color">Khetwadi Mumbai </h1>
 
-        <div class="container-fluid px-0">
-            <div class="w-100 " style="height: 500px;">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3773.4420541005015!2d72.8278971!3d18.956075!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf9ee4261af1%3A0x57adb33b0f4c262!2sMoksh%20Tubes%20%26%20Fittings%20LLP!5e0!3m2!1sen!2sin!4v1750077034926!5m2!1sen!2sin"
-                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+            <!-- Two column layout -->
+            <div class="row">
+                <!-- Left Content (60%) -->
+                <!-- Left Content (60%) -->
+                <div class="col-md-5 content-left">
+                    <h2 class="fs-5 fw-semibold my-4">Visiting Address</h2>
+                    <p class="my-3b fs-5" style="max-width: 350px">
+                        6/A, Ground Floor, Rajwanti Mansion, 4th Khetwadi, Mumbai, Maharashtra- 400 004.
+                    </p>
 
-        </div>
+                    <h2 class="fs-5 fw-semibold mt-4 mb-2">Contact Details</h2>
 
-        <div class="container pb-5" style="margin-top: -48px">
+                    <p class="mb-2">
+                        📞 <a href="tel:+919819777413" class="text-decoration-none text-dark fw-medium">+91 9819777413</a>
+                    </p>
+                    <p class="mb-2">
+                        📞 <a href="tel:+91 98332 99961" class="text-decoration-none text-dark fw-medium">+91 98332 99961</a>
+                    </p>
+                    <p>
+                        📧 <a href="mailto:info@mokshtubes.com"
+                            class="text-decoration-none text-dark fw-medium">info@mokshtubes.com</a>
+                    </p>
+                    <h2 class="fs-5 fw-semibold mt-4 mb-2">Get Direction</h2>
 
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="card h-100 shadow-sm">
-                        <div class="card-body">
-                            <h5 class="card-title fw-semibold">Visiting Address</h5>
-                            <p class="card-text fs-5 mt-3">
-                                6/A, Ground Floor, Rajwanti Mansion, 4th Khetwadi, Mumbai, Maharashtra - 400 004.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                    <p class=" fs-5 mb-2">18°56'56"N 72°49'31"E</p>
 
-                <div class="col-md-4">
-                    <div class="card h-100 shadow-sm">
-                        <div class="card-body">
-                            <h5 class="card-title fw-semibold">Contact Details</h5>
-                            <p class="card-text fs-5 mt-3 mb-2">
-                                📞 <a href="tel:+919999999999" class="text-decoration-none text-dark fw-medium">+91 99999
-                                    99999</a>
-                            </p>
-                            <p class="card-text fs-5">
-                                📧 <a href="mailto:info@mokshtubes.com"
-                                    class="text-decoration-none text-dark fw-medium">info@mokshtubes.com</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card h-100 shadow-sm">
-                        <div class="card-body">
-                            <h5 class="card-title fw-semibold">Get Direction</h5>
-                            <p class="card-text fs-5 mt-3 mb-2">18°57'22"N 72°49'43"E</p>
-                            <a href="https://maps.app.goo.gl/7WYkcCj9HwC5cK267" target="_blank"
-                                class="btn btn-outline-primary d-inline-flex align-items-center gap-2">
-                                <i class="bi bi-geo-alt-fill fs-5"></i> Open in Google Maps
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> --}}
-
-    <section class="bg-light py-5">
-        <div class="container">
-            <h2 class="text-center fw-semibold mb-5 title-color">Darukhana – Mumbai</h2>
-
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
-
-                <div class="col">
-                    <div class="custom-info-card text-center p-4 h-100 border rounded shadow-sm">
-                        <div class="fs-2 text-orange mb-3"><i class="bi bi-geo-alt-fill"></i></div>
-                        <h5 class="fw-semibold mb-2">Visiting Address</h5>
-                        <p class="fs-6 mb-0">
-                            92E, Plot No. 3, New Tank Bunder, Reay Road, Mumbai – 400 010
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="custom-info-card text-center p-4 h-100 border rounded shadow-sm">
-                        <div class="fs-2 text-orange mb-3"><i class="bi bi-telephone-fill"></i></div>
-                        <h5 class="fw-semibold mb-2">Phone</h5>
-                        <p class="fs-6 mb-0">
-                            <a href="tel:+9199999399999" class="text-decoration-none text-dark fw-medium">+91 99999
-                                993499</a>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="custom-info-card text-center p-4 h-100 border rounded shadow-sm">
-                        <div class="fs-2 text-orange mb-3"><i class="bi bi-envelope-fill"></i></div>
-                        <h5 class="fw-semibold mb-2">Email</h5>
-                        <p class="fs-6 mb-0">
-                            <a href="mailto:info@mokshtubes.com"
-                                class="text-decoration-none text-dark fw-medium">info@mokshtubes.com</a>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="custom-info-card text-center p-4 h-100 border rounded shadow-sm">
-                        <div class="fs-2 text-orange mb-3"><i class="bi bi-map-fill"></i></div>
-                        <h5 class="fw-semibold mb-2">Get Direction</h5>
-                        <p class="fs-6">18°57'22"N 72°49'43"E</p>
-                        <a href="https://maps.app.goo.gl/7WYkcCj9HwC5cK267" target="_blank"
-                            class="btn btn-orange btn-sm px-3">
-                            See Location
+                    <p>
+                        <a href="https://maps.app.goo.gl/Nok2fPjWZrKHHsUJ9" target="_blank" class="text-primary fs-4"
+                            title="Open in Google Maps">
+                            <i class="bi bi-geo-alt-fill"></i>
                         </a>
+                    </p>
+
+
+
+
+                </div>
+
+
+                <!-- Right Content: Map -->
+                <div class="col-md-7">
+                    <div class="ratio ratio-4x3">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.3750110239916!2d72.82037992520247!3d18.959038582221584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce1656fe7bdd%3A0x953bc465e58544dc!2sMoksh%20Tubes!5e0!3m2!1sen!2sin!4v1759581804206!5m2!1sen!2sin"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
 
@@ -150,75 +62,9 @@
     </section>
 
 
-    {{-- <section class="contact-premium-section py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center fw-bold mb-5 title-color">Darukhana – Mumbai</h2>
-
-            <div class="row align-items-stretch g-4">
-
-                <div class="col-lg-6">
-                    <div class="d-flex flex-column gap-4 h-100 justify-content-center">
-
-                        <div class="d-flex align-items-start gap-3">
-                            <div class="icon-box text-white bg-orange">
-                                <i class="bi bi-geo-alt-fill fs-4"></i>
-                            </div>
-                            <div>
-                                <h5 class="fw-semibold mb-1">Visiting Address</h5>
-                                <p class="mb-0">92E, Plot No. 3, New Tank Bunder, Reay Road, Mumbai – 400 010</p>
-                            </div>
-                        </div>
-
-                        <div class="d-flex align-items-start gap-3">
-                            <div class="icon-box text-white bg-orange">
-                                <i class="bi bi-telephone-fill fs-4"></i>
-                            </div>
-                            <div>
-                                <h5 class="fw-semibold mb-1">Phone</h5>
-                                <a href="tel:+919999999999" class="text-decoration-none text-dark">+91 99999 99999</a>
-                            </div>
-                        </div>
-
-                        <div class="d-flex align-items-start gap-3">
-                            <div class="icon-box text-white bg-orange">
-                                <i class="bi bi-envelope-fill fs-4"></i>
-                            </div>
-                            <div>
-                                <h5 class="fw-semibold mb-1">Email</h5>
-                                <a href="mailto:info@mokshtubes.com"
-                                    class="text-decoration-none text-dark">info@mokshtubes.com</a>
-                            </div>
-                        </div>
-
-                        <div class="d-flex align-items-start gap-3">
-                            <div class="icon-box text-white bg-orange">
-                                <i class="bi bi-map-fill fs-4"></i>
-                            </div>
-                            <div>
-                                <h5 class="fw-semibold mb-1">Coordinates</h5>
-                                <p class="mb-0">18°57'22"N 72°49'43"E</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 d-flex">
-                    <div class="cta-card shadow-sm rounded p-5 text-center d-flex flex-column justify-content-center w-100">
-                        <h4 class="fw-semibold mb-3">Need Directions?</h4>
-                        <p class="mb-4">Open the exact location directly in Google Maps for hassle-free navigation.</p>
-                        <a href="https://maps.app.goo.gl/7WYkcCj9HwC5cK267" target="_blank"
-                            class="btn btn-gradient px-4 py-2 fw-semibold">
-                            <i class="bi bi-geo-alt-fill me-2"></i> See Location
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section> --}}
 
 
-
+    <!--Start contact form area-->
     <section class="contact-form-area sec-padd-top">
         <div class="container">
             <div class="section-title">
@@ -232,15 +78,15 @@
 
                     <div class="contact-form">
                         <form id="contact-form" name="contact_form" class="default-form" action="inc/sendmail.php"
-                            method="post" novalidate="novalidate">
+                            method="post">
                             <div class="row">
                                 <div class="col-md-6">
                                     <input type="text" name="form_name" value="" placeholder="Your Name*"
-                                        required="" aria-required="true">
+                                        required="">
                                 </div>
                                 <div class="col-md-6">
                                     <input type="email" name="form_email" value="" placeholder="Your Mail*"
-                                        required="" aria-required="true">
+                                        required="">
                                 </div>
                             </div>
                             <div class="row">
@@ -253,7 +99,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
-                                    <textarea name="form_message" placeholder="Your Message.." required="" aria-required="true"></textarea>
+                                    <textarea name="form_message" placeholder="Your Message.." required=""></textarea>
                                 </div>
                             </div>
                             <div class="row">
@@ -271,19 +117,19 @@
                 <div class="col-md-4">
                     <div class="footer-contact-info">
                         <div class="title">
-                            <h4>Quick Contact</h4>
+                            <h2>Quick Contact</h2>
                             <p>If you are passionate about helping people: through education, or preventing then
                                 you </p>
                         </div>
                         <ul class="clearfix">
                             <li>
                                 <div class="iocn-holder">
-
+                                    {{-- <span class="fa fa-home"></span> --}}
                                     <span class="flaticon-web-page-home"></span>
                                 </div>
                                 <div class="text-holder">
 
-                                    <h6>Hinglaj Bhavan, Gulalwadi</h6>
+                                    <h3 class="h6">Rajwanti Mansion,Khetwadi</h3>
                                     <p>Mumbai, Maharashtra. 400004</p>
                                 </div>
                             </li>
@@ -292,8 +138,8 @@
                                     <span class="icon-technology-1"></span>
                                 </div>
                                 <div class="text-holder">
-                                    <h6>Call Us On</h6>
-                                    <p>+91 97695 84950</p>
+                                    <h3 class="h6">Call Us On</h3>
+                                    <p>+91 9819777413</p>
                                 </div>
                             </li>
                             <li>
@@ -301,7 +147,7 @@
                                     <span class="icon-letter-1"></span>
                                 </div>
                                 <div class="text-holder">
-                                    <h6>Mail Us @</h6>
+                                    <h3 class="h6">Mail Us @</h3>
                                     <a href="#">
                                         <p>info@mokstubes.com</p>
                                     </a>
@@ -315,8 +161,5 @@
             </div>
         </div>
     </section>
-
-
-
-
+    <!--End contact form area-->
 @endsection

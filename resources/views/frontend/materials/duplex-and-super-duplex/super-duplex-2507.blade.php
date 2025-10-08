@@ -1,8 +1,14 @@
 @extends('layouts.master')
 
-@section('title', 'Super Duplex Stainless Steel 2507 | Mokshtubes Solutions')
-@section('meta_description', 'Mokshtubes delivers versatile Super Duplex Stainless Steel 2507 with exceptional corrosion resistance & strength for chemical, marine & heavy engineering applications.')
-@section('meta_keywords', 'Super Duplex Stainless Steel 2507, Super Duplex Steel 2507, 2507 Super Duplex Stainless Steel, UNS S32750, Super Duplex Stainless Steel 2507 Supplier, Super Duplex Stainless Steel 2507 Exporter, Super Duplex Stainless Steel 2507 Stockist')
+@section('title', 'Super Duplex Stainless Steel 2507 (S32750) | Ultra High Corrosion-Resistant Alloy')
+
+@section('meta_description', 'Buy Super Duplex Stainless Steel 2507 (S32750) pipes, tubes & fittings from Mokshtubes
+    LLP. Ultra corrosion resistance and high-strength alloy for demanding environments.')
+
+@section('meta_keywords', 'Super Duplex Stainless Steel 2507, S32750, 2507 pipes, 2507 tubes, 2507 fittings,
+    corrosion-resistant stainless steel, high strength super duplex steel, Mokshtubes LLP, chemical processing steel, marine
+    engineering steel, oil and gas stainless steel, desalination plant steel, stainless steel plates, stainless steel
+    flanges')
 
 @section('content')
 
@@ -11,68 +17,47 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Hastelloy C276 Alloy <br> UNS N10276 Corrosion-Resistant Nickel Alloy</h1>
+                    <h1>Super Duplex Stainless Steel 2507 (S32750) | Ultra High Corrosion-Resistant Alloy</h1>
                 </div>
             </div>
         </div>
     </section>
-
-
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+
+    <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
-
             </div>
 
-            <h2 class="fw-semibold text-center mb-5" style="color: #db7227;">
-                Introduction to Hastelloy C276 / Alloy C276 / UNS N10276
-            </h2>
+            <h3 class="h2 fw-semibold text-center mb-5" style="color: #db7227;">
+                Introduction To Super Duplex Stainless Steel 2507
+            </h3>
 
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/hastelloy/hastelloy-c276.webp') }}" alt="Hastelloy C276"
-                        class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}"
+                        alt="Super Duplex Stainless Steel 2507" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black">Hastelloy C276 (UNS N10276)</strong> is a high performance <strong
-                                class="text-black">nickel alloy</strong> designed to offer excellent
-                            resistance in some of the most corrosive environments. <a href="{{ route('index') }}">MOKSH
-                                TUBES & FITTINGS LLP</a> is a trusted
-                            supplier, exporter, importer, and stockist of a wide range of Hastelloy C276 <a
-                                href="{{ route('products') }}">products</a>, including
-                            pipes, tubes, pipe fittings, flanges, fasteners, sheets, plates, coils, wires, round bars, and
-                            custom alloy components.
+                            <strong class="text-black">Super Duplex Stainless Steel 2507 (S32750)</strong> is a premium
+                            duplex stainless steel grade with exceptional corrosion resistance and high mechanical strength.
+                            Featuring high levels of chromium (25%), molybdenum (4%), and nitrogen, this alloy offers
+                            unmatched resistance to pitting, crevice corrosion, and stress corrosion cracking, particularly
+                            in chloride-rich and aggressive environments.
                         </p>
 
-                        <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black"><a href="{{ route('materials.hastelloy') }}">Hastelloy</a> C276</strong> is a nickel chromium molybdenum alloy, highly
-                            resistant to both oxidizing and
-                            non oxidizing acids, and provides superior defense against stress corrosion cracking and pitting
-                            in chloride rich solutions. Its high chromium and molybdenum content make it an ideal choice for
-                            applications requiring exceptional metal durability.
-                        </p>
-                        <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">Hastelloy C276</strong> is also highly ductile, easy
-                            to form and weld, and designed to minimize welding challenges, making it a versatile choice for
-                            industries handling aggressive chemicals and extreme temperatures.
-                        </p>
-                        <p class="fs-6 mb-4" style="text-align: justify;">
-                            <strong>Hastelloy C276</strong> (UNS N10276) is often compared with traditional steels where
-                            <strong>density of steel</strong>, <strong>density of mild steel</strong>, and
-                            <strong>density of carbon steel</strong> play an important role in design. While
-                            <strong>steel material density</strong> is around <strong>7.85 g/cm³</strong>, the
-                            <strong>Hastelloy C276 density</strong> is about <strong>8.89 g/cm³</strong>, giving it higher
-                            strength
-                            and durability in aggressive environments. This makes <strong>C276 material</strong> one of the
-                            most
-                            trusted alloys for industries requiring extreme corrosion resistance and mechanical reliability.
+                        <p class="fs-6 text-justify" style="text-align: justify;">
+                            <a href="{{ route('index') }}">MOKSH TUBES & FITTINGS LLP</a> is a trusted supplier, exporter,
+                            importer, and stockist of Super Duplex 2507 products including <a
+                                href="{{ route('products') }}">pipes, tubes, fittings, flanges, sheets, plates, and custom
+                                components</a>. This alloy is widely used in offshore oil & gas, chemical processing, marine
+                            engineering, and desalination plants.
                         </p>
                     </div>
                 </div>
@@ -80,10 +65,10 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
-                <h2>Hastelloy C276 Chemical Composition</h2>
+                <h2>Chemical Composition</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -93,85 +78,62 @@
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
                                     <th>Element</th>
-                                    <th>Composition (%)</th>
+                                    <th>Content (%)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Nickel</td>
-                                    <td>57 (Balance)</td>
+                                    <td>Carbon (C)</td>
+                                    <td>≤ 0.03</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Chromium</td>
-                                    <td>16</td>
+                                    <td>Manganese (Mn)</td>
+                                    <td>≤ 0.50</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Molybdenum</td>
-                                    <td>16</td>
+                                    <td>Silicon (Si)</td>
+                                    <td>≤ 0.80</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Iron</td>
-                                    <td>5</td>
+                                    <td>Chromium (Cr)</td>
+                                    <td>24.0 – 26.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Tungsten</td>
-                                    <td>4</td>
+                                    <td>Nickel (Ni)</td>
+                                    <td>6.0 – 8.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Cobalt</td>
-                                    <td>2.5 max</td>
+                                    <td>Molybdenum (Mo)</td>
+                                    <td>3.0 – 5.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Manganese</td>
-                                    <td>1 max</td>
+                                    <td>Copper (Cu)</td>
+                                    <td>0.50 max</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Vanadium</td>
-                                    <td>0.35 max</td>
+                                    <td>Nitrogen (N)</td>
+                                    <td>0.24 – 0.32</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Silicon</td>
-                                    <td>0.08</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Carbon</td>
-                                    <td>0.01 max</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Copper</td>
-                                    <td>0.5 max</td>
+                                    <td>Iron (Fe)</td>
+                                    <td>Balance</td>
                                 </tr>
                             </tbody>
                         </table>
-                        <p class="fs-6 text-center mt-3">
-                            The unique <strong>Hastelloy C276 chemical composition</strong> provides excellent resistance
-                            against both
-                            oxidizing and reducing agents. In comparison, <strong>mild steel density</strong> and
-                            <strong>carbon steel density</strong> vary based on grade, often expressed as
-                            <strong>density of steel in kg m3</strong>, <strong>density of steel g cm3</strong>, or even
-                            <strong>density of steel lb ft3</strong>. By contrast, the <strong>Hastelloy
-                                composition</strong> balances
-                            Nickel, Chromium, and Molybdenum, which ensures superior performance where steels or other
-                            alloys may fail.
-                        </p>
-
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color: #174268;">Mechanical Properties</h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -182,69 +144,24 @@
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Density</td>
-                                    <td>8.89 g/cm³</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Melting Point</td>
-                                    <td>1370°C (2500°F)</td>
-                                </tr>
-                                <tr class="t-row">
                                     <td>Tensile Strength</td>
-                                    <td>115,000 psi / 790 MPa</td>
+                                    <td>850 – 1,050 MPa</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Yield Strength (0.2% Offset)</td>
-                                    <td>52,000 psi / 355 MPa</td>
+                                    <td>550 – 750 MPa</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Elongation</td>
-                                    <td>40%</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties of Hastelloy C276</h4>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Metric</th>
-                                    <th>Imperial</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Tensile Strength (@ 538°C / 1000°F)</td>
-                                    <td>601.2 MPa</td>
-                                    <td>87,200 psi</td>
+                                    <td>20 – 25%</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (0.2% offset @ 427°C / 801°F)</td>
-                                    <td>204.8 MPa</td>
-                                    <td>29,700 psi</td>
+                                    <td>Hardness</td>
+                                    <td>≤ 320 HB</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Elastic Modulus (RT)</td>
-                                    <td>205 GPa</td>
-                                    <td>29,700 ksi</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Elongation at Break (@ 204°C / 399°F)</td>
-                                    <td>56%</td>
-                                    <td>56%</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Hardness, Rockwell B (plate)</td>
-                                    <td>87</td>
-                                    <td>87</td>
+                                    <td>Density</td>
+                                    <td>7.8 g/cm³</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -253,7 +170,6 @@
             </div>
         </div>
     </section>
-
 
     @php
         $products = [
@@ -311,27 +227,17 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
-                <h2>Products in Hastelloy C276</h2>
+                <h2>Products in Duplex Stainless Steel S31803</h2>
             </div>
-
             <!-- Highlighted Paragraph -->
             <div class="row justify-content-center mb-4" style="text-align: justify;">
                 <div class="col-lg-10">
                     <p class="fs-6">
-                        <strong class="text-dark">MOKSH TUBES & FITTINGS LLP</strong>, with its extensive experience in
-                        nickel-chromium-molybdenum grades and huge network of sources, deals in a wide variety of <strong
-                            class="text-dark">HASTELLOY C276</strong> products. These products have an extensive range of
-                        applications, including Chemical Processing, Nuclear Power Plants, Pollution Control Projects, Pulp
-                        & Paper, Oil & Gas, Flue Gas Desulphurization, Waste Water Treatment, and other associated
-                        industries. They are exceptionally suited for extremely corrosive environments and high-temperature
-                        conditions. Such harsh environments require materials that can maintain integrity, form, and
-                        performance under severe chemical and thermal stress. <strong class="text-dark">HASTELLOY
-                            C276</strong> effectively meets these challenges, making it a reliable choice for critical
-                        applications where long-term durability and resistance to degradation are essential for client
-                        success in their projects.
+                        <strong class="text-dark">Duplex Stainless Steel S31803</strong> is available in a variety of mill
+                        forms:
                     </p>
                 </div>
             </div>
@@ -356,9 +262,9 @@
             <!-- Emphasized Line -->
             <div class="row justify-content-center mb-3">
                 <div class="col-lg-10">
-                    <p class="fw-bold fs-5 text-center my-4" style="color: #174268;">
-                        We offer Hastelloy C276 in a wide range of product forms, including:
-                    </p>
+                    <h2 class="fw-bold fs-5 text-center my-4" style="color: #174268;">
+                        We supply Duplex Stainless Steel S31803 materials in accordance with the most stringent industry
+                        standards: </h2>
                 </div>
             </div>
 
@@ -381,9 +287,8 @@
         </div>
     </section>
 
-
     <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
+        <div class="container text-center">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
             </div>
@@ -392,148 +297,89 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>Outstanding resistance to a wide range of aggressive chemicals</h5>
+                        <h3>Highest corrosion resistance among duplex stainless steels</h3>
                     </div>
                 </div>
-
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h5>Excellent resistance to pitting, crevice corrosion, and stress corrosion cracking</h5>
+                        <h3>Exceptional resistance to pitting and crevice corrosion, even in seawater and acidic
+                            environments</h3>
                     </div>
                 </div>
-
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-arrow-up-square"></i></div>
+                        <h3>Excellent resistance to chloride stress corrosion cracking</h3>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-tools"></i></div>
+                        <h3>High mechanical strength (twice that of austenitic stainless steels)</h3>
+                    </div>
+                </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h5>High mechanical strength and durability at elevated temperatures</h5>
+                        <h3>Long service life in the most aggressive environments</h3>
                     </div>
                 </div>
-
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h5>Excellent weldability and formability</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
-                        <h5>Suitable for severe operating conditions in critical industries</h5>
+                        <div class="advantage-icon"><i class="bi bi-wrench"></i></div>
+                        <h3>Good weldability and formability</h3>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Applications of Hastelloy C276</h2>
-                <p class="text-center pb-3"><strong class="text-dark">HASTELLOY C-276</strong> is widely used in
-                    industries where exceptional corrosion resistance and mechanical strength are critical:
-                </p>
-
+                <h2>Applications of Super Duplex Stainless Steel 2507 (S32750)</h2>
             </div>
 
             <div class="row g-4 justify-content-center">
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
-                        <h5>Chemical Processing Industry</h5>
-                        <p>Used in reactors, heat exchangers, scrubbers, columns, piping systems, evaporators, and storage
-                            tanks handling acidic and chloride-laden fluids.</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
-                        <h5>Pollution Control / FGD Systems</h5>
-                        <p>Ideal for stack liners, ducts, dampers, scrubbers, and other components exposed to harsh acidic
-                            gases and high temperatures.</p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
                         <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
-                        <h5>Oil & Gas Sector</h5>
-                        <p>Deployed in sour gas service components such as downhole tubing, wellhead equipment, valves,
-                            manifolds, and separators.</p>
+                        <h3>Offshore Oil & Gas Platforms</h3>
+                        <p>Subsea equipment and offshore installations.</p>
                     </div>
                 </div>
-
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-droplet"></i></div>
-                        <h5>Marine & Offshore Applications</h5>
-                        <p>Suitable for seawater systems, condenser tubes, marine exhaust systems, and offshore structures
-                            subjected to saltwater exposure.</p>
+                        <div class="application-icon"><i class="bi bi-droplet-half"></i></div>
+                        <h3>Desalination Plants</h3>
+                        <p>Components and seawater cooling systems.</p>
                     </div>
                 </div>
-
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
-                        <h5>Pulp and Paper Industry</h5>
-                        <p>Utilized in digesters, bleach plants, and chemical recovery systems that require resistance to
-                            chlorine-based chemicals and acidic solutions.</p>
+                        <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
+                        <h3>Chemical Processing</h3>
+                        <p>Reactors, heat exchangers, and piping systems.</p>
                     </div>
                 </div>
-
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
-                        <h5>Nuclear & Power Generation</h5>
-                        <p>For critical components exposed to high temperatures, corrosive media, and radiation in nuclear
-                            and conventional power plants.</p>
+                        <div class="application-icon"><i class="bi bi-box-seam"></i></div>
+                        <h3>Marine Engineering</h3>
+                        <p>Structural components in corrosive environments.</p>
                     </div>
                 </div>
-
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-capsule"></i></div>
-                        <h5>Pharmaceutical & Food Processing</h5>
-                        <p>Applied in systems requiring high corrosion resistance, hygiene standards, and compliance with
-                            strict regulatory norms.</p>
+                        <div class="application-icon"><i class="bi bi-thermometer-high"></i></div>
+                        <h3>Pressure Vessels & Flanges</h3>
+                        <p>Equipment in corrosive conditions and chloride-rich fluids.</p>
                     </div>
                 </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-recycle"></i></div>
-                        <h5>Wastewater Treatment</h5>
-                        <p>For tanks, piping, and equipment exposed to corrosive waste streams and aggressive chemical
-                            cleaning agents.</p>
-                    </div>
-                </div>
-
-
-                {{-- <div class="col-md-6 col-lg-4">
-                <div class="application-card">
-                     <div class="application-icon"><i class="bi bi-strategies"></i></div>
-                    <h5>Why It Works</h5>
-                    <p><strong>HASTELLOY C276’s</strong> combination of corrosion resistance, weldability, and mechanical durability makes it ideal for mission-critical applications where long-term performance is non-negotiable.</p>
-                </div>
-            </div> --}}
             </div>
-            <p class="text-center pb-3 my-4"><strong class="text-dark">Engineers often compare <strong>Hastelloy C22 vs
-                        C276</strong> when selecting alloys for
-                    demanding projects. While both are premium <strong>hastelloy materials</strong>,
-                    <strong>Alloy C276</strong> delivers better performance in chloride-rich environments,
-                    high-temperature exposure, and seawater applications. This makes it highly suitable for
-                    <strong>Hastelloy C276 pipe</strong>, <strong>Hastelloy tubing</strong>,
-                    <strong>Hastelloy C276 plate</strong>, and <strong>Hastelloy C276 round bar</strong>,
-                    outperforming traditional options like <strong>carbon steel density</strong> and
-                    <strong>ss density in kg m3</strong>.
-            </p>
-
         </div>
     </section>
-
 
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
@@ -545,35 +391,43 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Specialists in manufacturing high-quality products</h5>
+                        <h3>Seamless & Welded Pipes</h3>
+                        <p>Mokshtubes Fittings & LLP offers Super Duplex 2507 in seamless pipes, welded pipes, tubes,
+                            fittings, flanges, sheets, plates, and custom fabricated components with international quality
+                            assurance.</p>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
-                        <h5>Strong supplier network for premium raw materials</h5>
+                        <h3>Custom Fabrication</h3>
+                        <p>Our products adhere to strict quality standards to ensure long-term performance in the most
+                            demanding environments.</p>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
-                        <h5>Expertise in nickel alloys and high-performance materials</h5>
+                        <h3>Quality Standards</h3>
+                        <p>Manufactured to the highest standards for long-lasting industrial performance.</p>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Global presence with customized solutions for diverse needs</h5>
+                        <h3>Technical Support</h3>
+                        <p>Experienced guidance for material selection and application across industries.</p>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
-                        <h5>Dedicated to quality, dependability, and customer satisfaction</h5>
+                        <h3>Customer Satisfaction</h3>
+                        <p>Commitment to quality assurance and long-term client satisfaction.</p>
                     </div>
                 </div>
             </div>
@@ -584,93 +438,52 @@
     <section class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-12">
                     <div class="accordion-box">
                         <div class="section-title center">
                             <h2>FAQ's</h2>
                         </div>
 
-                        <!-- Q1 -->
+                        <!--Start single accordion box-->
                         <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>What is Hastelloy C-276 and why is it important?</h4>
+                            <div class="accord-btn active">
+                                <h3>Why is Super Duplex 2507 (S32750) considered superior?</h3>
                             </div>
-                            <div class="accord-content">
-                                <p>
-                                    Hastelloy C-276 (UNS N10276) is a nickel-chromium-molybdenum alloy with excellent
-                                    resistance to strong oxidizers, reducing agents, and chloride-induced corrosion. Its low
-                                    silicon and carbon content reduce welding challenges, while its superior resistance to
-                                    pitting, crevice corrosion, and stress corrosion cracking makes it an ideal choice for
-                                    industries operating in highly aggressive chemical and thermal environments.
+                            <div class="accord-content collapsed">
+                                <p>Due to its high chromium, molybdenum, and nitrogen content, it offers the highest
+                                    corrosion resistance among duplex stainless steels, especially in chloride environments.
                                 </p>
                             </div>
                         </div>
+                        <!--End single accordion box-->
 
-                        <!-- Q2 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>How does Hastelloy C-276 compare to steel in terms of density?</h4>
+                                <h3>Is S32750 weldable?</h3>
                             </div>
                             <div class="accord-content">
-                                <p>
-                                    Traditional steels such as mild steel and carbon steel typically have a
-                                    <strong>density of steel</strong> around <strong>7.85 g/cm³</strong>
-                                    (<strong>density of steel in kg m3</strong> ≈ 7850). Variants like
-                                    <strong>density of carbon steel lb/in3</strong> or
-                                    <strong>density of steel per cubic inch</strong> are often used in engineering
-                                    calculations.
-                                    In comparison, <strong>Hastelloy C276 density</strong> is approximately
-                                    <strong>8.89 g/cm³</strong>, making it heavier but far more resistant to corrosion,
-                                    stress,
-                                    and extreme temperatures than conventional steel grades.
-                                </p>
+                                <p>Yes, but controlled heat input and post-weld heat treatment are essential to maintain
+                                    corrosion resistance and mechanical properties.</p>
                             </div>
                         </div>
 
-                        <!-- Q3 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>Is Hastelloy C276 weldable?</h4>
+                                <h3>Where is S32750 most commonly used?</h3>
                             </div>
                             <div class="accord-content">
-                                <p>
-                                    Yes, Hastelloy C276 is weldable using standard welding techniques like TIG and MIG.
-                                    However, low carbon content and controlled heat input are recommended to maintain its
-                                    corrosion resistance.
-                                </p>
+                                <p>In offshore oil & gas, marine engineering, chemical processing, and desalination plants
+                                    where maximum corrosion resistance is required.</p>
                             </div>
                         </div>
 
-                        <!-- Q4 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What products are available in Hastelloy C-276 from MOKSH TUBES & FITTINGS LLP?</h4>
+                                <h3>Can S32750 be used in seawater applications?</h3>
                             </div>
                             <div class="accord-content">
-                                <p>
-                                    MOKSH TUBES & FITTINGS LLP manufactures and supplies a complete range of Hastelloy C-276
-                                    products including seamless and welded pipes, tubes, sheets, plates, coils, bars, pipe
-                                    fittings, flanges, fasteners, welding rods, wire mesh, and customized fabricated
-                                    components. All products are made to international standards to deliver durability,
-                                    precision, and long term reliability in corrosive environments.
-                                </p>
-                            </div>
-
-                        </div>
-
-                        <!-- Q5 -->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for Hastelloy C-276 products?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    MOKSH TUBES & FITTINGS LLP is a trusted manufacturer, supplier, exporter, importer, and
-                                    stockist of high-quality Hastelloy C-276 products. With expertise in nickel-based
-                                    alloys, a strong global supply network, advanced manufacturing capabilities, and a
-                                    commitment to quality and customer satisfaction, the company delivers customized
-                                    solutions and reliable materials for critical industrial requirements worldwide.
-                                </p>
+                                <p>Yes — it is exceptionally resistant to seawater corrosion and chloride stress corrosion
+                                    cracking, making it ideal for marine environments.</p>
                             </div>
                         </div>
 
@@ -681,33 +494,14 @@
     </section>
     <!--End faq content area-->
 
-    
-
-    <!-- Supplier / Price Info -->
-    <section>
-        <div class="container">
-            <p class="text-center">
-                Looking for reliable <strong>Hastelloy C276 suppliers</strong> or checking the
-                <strong>Hastelloy C276 price per kg</strong> in India?
-                <strong>Moksh Tubes & Fittings LLP</strong> offers competitive rates on
-                <strong>Hastelloy C276 sheet</strong>, <strong>Hastelloy C276 plate</strong>,
-                <strong>Hastelloy C276 pipe fittings</strong>, <strong>Hastelloy C276 fasteners</strong>,
-                and <strong>Hastelloy C276 welding consumables</strong>. We also provide export-quality
-                <strong>Hastelloy C276 round bar suppliers</strong> network for global clients.
-            </p>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="sec-padd-bottom">
+    <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    For any inquiries or to request a quote, reach out to <strong>Moksh Tubes & Fittings LLP</strong> – your
-                    trusted partner for <strong>HASTELLOY C-276</strong> products.
-                </p>
-                <!-- Call button -->
+                    For inquiries, pricing, or customized Super Duplex Stainless Steel 2507 solutions, <strong>Moksh Tubes &
+                        Fittings
+                        LLP</strong> is your reliable partner in Super Duplex Stainless Steel 2507.</p>
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch
@@ -715,10 +509,5 @@
             </div>
         </div>
     </section>
-
-
-
-
-
 
 @endsection

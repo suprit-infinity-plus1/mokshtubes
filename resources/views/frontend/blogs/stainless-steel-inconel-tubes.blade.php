@@ -178,7 +178,7 @@
                                                 <div class="advantage-card">
                                                     <div class="advantage-icon"><i class="fas fa-thermometer-half"></i>
                                                     </div>
-                                                    <h4>Temperature Resistance</h4>
+                                                    <h3 class="h4">Temperature Resistance</h3>
                                                     <ul>
                                                         <li><strong>Stainless Steel:</strong> Maintains strength up to
                                                             ~870°C (1600°F)</li>
@@ -191,7 +191,7 @@
                                             <div class="col-sm-6 col-lg-6">
                                                 <div class="advantage-card">
                                                     <div class="advantage-icon"><i class="fas fa-shield-alt"></i></div>
-                                                    <h4>Corrosion Resistance</h4>
+                                                    <h3 class="h4">Corrosion Resistance</h3>
                                                     <ul>
                                                         <li><strong>Stainless Steel:</strong> Good general corrosion
                                                             resistance; best for
@@ -314,8 +314,8 @@
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4> What is the main difference between stainless steel and
-                                                                Inconel tubes?</h4>
+                                                            <h3> What is the main difference between stainless steel and
+                                                                Inconel tubes?</h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>Stainless steel contains less nickel and chromium than
@@ -328,8 +328,8 @@
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn ">
-                                                            <h4>When should I use stainless steel tubes instead of Inconel?
-                                                            </h4>
+                                                            <h3>When should I use stainless steel tubes instead of Inconel?
+                                                            </h3>
                                                         </div>
                                                         <div class="accord-content ">
                                                             <p>Use stainless steel tubes for moderate operating conditions,
@@ -341,8 +341,8 @@
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>Are Inconel tubes more expensive than stainless steel tubes?
-                                                            </h4>
+                                                            <h3>Are Inconel tubes more expensive than stainless steel tubes?
+                                                            </h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>Yes, Inconel tubes cost 5 to 10 times more than stainless
@@ -354,8 +354,8 @@
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>Can stainless steel tubes be used in marine environments?
-                                                            </h4>
+                                                            <h3>Can stainless steel tubes be used in marine environments?
+                                                            </h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>Stainless steel offers good corrosion resistance but may be
@@ -368,8 +368,8 @@
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>What industries typically use Inconel tubes?
-                                                            </h4>
+                                                            <h3>What industries typically use Inconel tubes?
+                                                            </h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>Inconel tubes are commonly used in aerospace, power
@@ -585,17 +585,16 @@
                                     <div class="card-body ">
                                         <!-- Heading -->
                                         <div class="section-title">
-                                            <h2>get in <span class="thm-color">touch</span></h2>
-                                            <p>Let’s forge a connection — contact our team today.</p>
+                                            <h2>Locate <span class="thm-color">Us</span></h2>
+                                            {{-- <p>Let’s forge a connection — contact our team today.</p> --}}
                                         </div>
 
                                         <!-- Map -->
                                         <div class="mb-3 text-center">
                                             <iframe
-                                                src="https://www.google.com/maps/place/Moksh+Tubes+%26+Fittings+LLP/@18.956197,72.8288042,17z/data=!4m10!1m2!2m1!1smoksh+tubes.com+map!3m6!1s0x3be7cf9ee4261af1:0x57adb33b0f4c262!8m2!3d18.9561299!4d72.8287668!15sChNtb2tzaCB0dWJlcy5jb20gbWFwkgEMbWFudWZhY3R1cmVyqgFOCgsvZy8xdHJyYm5wcxABKgciA2NvbSgAMh8QASIbjJWhbK9Dq8lgbx706NjWt0eyqM7Fa1e3RgjMMhMQAiIPbW9rc2ggdHViZXMgY29t4AEA!16s%2Fg%2F11xdfzyd83?entry=ttu&g_ep=EgoyMDI1MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+                                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.4406978634916!2d72.82619187387158!3d18.956134955727215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf9ee4261af1%3A0x57adb33b0f4c262!2sMoksh%20Tubes%20%26%20Fittings%20LLP!5e0!3m2!1sen!2sin!4v1759749318402!5m2!1sen!2sin"
                                                 width="100%" height="200" style="border:0;" allowfullscreen=""
-                                                loading="lazy">
-                                            </iframe>
+                                                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                         </div>
 
                                         <!-- Contact Info -->
@@ -613,9 +612,13 @@
                                             <strong>Office Address:</strong> 95/95A, Dawood Baug, Sukhlaji Street,
                                             Kamatipura Mumbai
                                         </p>
+                                        <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
+                                <strong>Office Address:</strong> 92E, Plot No. 3, New Tank Bunder, Darukhana, Mumbai,
+                                Maharashtra- 400 010.
+                            </p>
 
                                         <!-- Social Icons -->
-                                        <div class="mt-3 text-center">
+                                        {{-- <div class="mt-3 text-center">
                                             <a href="https://wa.me/+919769584950"
                                                 class="btn btn-outline-success btn-sm rounded-circle me-2"><i
                                                     class="bi bi-whatsapp"></i></a>
@@ -632,7 +635,7 @@
                                                 class="btn btn-outline-info btn-sm rounded-circle"><i
                                                     class="fab fa-x-twitter"></i></a>
 
-                                        </div>
+                                        </div> --}}
                                     </div>
                                 </div>
                             </div>

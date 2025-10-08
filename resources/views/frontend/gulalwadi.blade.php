@@ -1,4 +1,4 @@
-z@extends('layouts.master')
+@extends('layouts.master')
 @section('title', 'Moksh Tubes || Contact Us')
 
 @section('content')
@@ -13,15 +13,15 @@ z@extends('layouts.master')
             <!-- Left Content (60%) -->
             <!-- Left Content (60%) -->
             <div class="col-md-5 content-left">
-                <h4 class="fs-5 fw-semibold my-4">Visiting Address</h4>
+                <h2 class="fs-5 fw-semibold my-4">Visiting Address</h2>
                 <p class="my-3b fs-5" style="max-width: 350px">
                     Office No. 20, 2nd Floor, Bldg. No. 36/40, Hinglaj Bhavan, Kika Street, Gulalwadi, Mumbai- 400 004.
                 </p>
 
-                <h5 class="fs-5 fw-semibold mt-4 mb-2">Contact Details</h5>
+                <h2 class="fs-5 fw-semibold mt-4 mb-2">Contact Details</h2>
 
                 <p class="mb-2">
-                    📞 <a href="tel:+919999999999" class="text-decoration-none text-dark fw-medium">+91 99999 99999</a>
+                    📞 <a href="tel:+91 97695 84950" class="text-decoration-none text-dark fw-medium">+91 97695 84950</a>
                 </p>
                 <p>
                     📧 <a href="mailto:info@mokshtubes.com"
@@ -112,7 +112,7 @@ z@extends('layouts.master')
                 <div class="col-md-4">
                     <div class="footer-contact-info">
                         <div class="title">
-                            <h4>Quick Contact</h4>
+                            <h2>Quick Contact</h2>
                             <p>If you are passionate about helping people: through education, or preventing then
                                 you </p>
                         </div>
@@ -124,7 +124,7 @@ z@extends('layouts.master')
                                 </div>
                                 <div class="text-holder">
 
-                                    <h6>Hinglaj Bhavan, Gulalwadi</h6>
+                                    <h3 class="h6">Hinglaj Bhavan, Gulalwadi</h3>
                                     <p>Mumbai, Maharashtra. 400004</p>
                                 </div>
                             </li>
@@ -133,7 +133,7 @@ z@extends('layouts.master')
                                     <span class="icon-technology-1"></span>
                                 </div>
                                 <div class="text-holder">
-                                    <h6>Call Us On</h6>
+                                    <h3 class="h6">Call Us On</h3>
                                     <p>+91 97695 84950</p>
                                 </div>
                             </li>
@@ -142,7 +142,7 @@ z@extends('layouts.master')
                                     <span class="icon-letter-1"></span>
                                 </div>
                                 <div class="text-holder">
-                                    <h6>Mail Us @</h6>
+                                    <h3 class="h6">Mail Us @</h3>
                                     <a href="#">
                                         <p>info@mokstubes.com</p>
                                     </a>

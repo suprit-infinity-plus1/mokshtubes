@@ -43,12 +43,12 @@
                                         containers to massive processing machinery, stainless steel is the backbone of food
                                         preparation and service worldwide.</p>
                                     <p>
-                                        But why has this material earned such universal acceptance in the food industry? The
+                                        But why has this <a href="{{ route('materials') }}">material</a> earned such universal acceptance in the food industry? The
                                         answer lies in its unique combination of properties that address the most critical
                                         concerns in food handling: safety, hygiene, durability, and efficiency.</p>
                                     <p>
                                         Whether you’re a restaurant owner, food manufacturer, or home cooking enthusiast,
-                                        understanding the role of stainless steel can help you make better decisions for
+                                        understanding the role of <a href="{{ route('blogs.stainless-steel-inconel-tubes') }}">stainless steel</a> can help you make better decisions for
                                         your kitchen or facility.</p>
                                 </div>
 
@@ -240,7 +240,7 @@
 
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>Is all stainless steel food safe?</h4>
+                                                            <h3>Is all stainless steel food safe?</h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>No. Only 304 and 316 grades are FDA approved for direct food
@@ -250,7 +250,7 @@
 
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>How do I remove water spots and fingerprints?</h4>
+                                                            <h3>How do I remove water spots and fingerprints?</h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>Use vinegar + water or a stainless steel cleaner, and always
@@ -260,7 +260,7 @@
 
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>Can stainless steel cookware go in the dishwasher?</h4>
+                                                            <h3>Can stainless steel cookware go in the dishwasher?</h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>Yes, but handwashing keeps it looking newer for longer.</p>
@@ -269,7 +269,7 @@
 
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>Why does some stainless steel rust?</h4>
+                                                            <h3>Why does some stainless steel rust?</h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>Usually low grade steel or damage to the protective layer.
@@ -280,8 +280,8 @@
 
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>Is stainless steel better than plastic for food storage?
-                                                            </h4>
+                                                            <h3>Is stainless steel better than plastic for food storage?
+                                                            </h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>Absolutely. It’s odor free, chemical-free, and long lasting.
@@ -485,17 +485,16 @@
                                     <div class="card-body ">
                                         <!-- Heading -->
                                         <div class="section-title">
-                                            <h2>get in <span class="thm-color">touch</span></h2>
-                                            <p>Let’s forge a connection — contact our team today.</p>
+                                            <h2>Locate <span class="thm-color">Us</span></h2>
+                                            {{-- <p>Let’s forge a connection — contact our team today.</p> --}}
                                         </div>
 
                                         <!-- Map -->
                                         <div class="mb-3 text-center">
                                             <iframe
-                                                src="https://www.google.com/maps/place/Moksh+Tubes+%26+Fittings+LLP/@18.956197,72.8288042,17z/data=!4m10!1m2!2m1!1smoksh+tubes.com+map!3m6!1s0x3be7cf9ee4261af1:0x57adb33b0f4c262!8m2!3d18.9561299!4d72.8287668!15sChNtb2tzaCB0dWJlcy5jb20gbWFwkgEMbWFudWZhY3R1cmVyqgFOCgsvZy8xdHJyYm5wcxABKgciA2NvbSgAMh8QASIbjJWhbK9Dq8lgbx706NjWt0eyqM7Fa1e3RgjMMhMQAiIPbW9rc2ggdHViZXMgY29t4AEA!16s%2Fg%2F11xdfzyd83?entry=ttu&g_ep=EgoyMDI1MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+                                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.4406978634916!2d72.82619187387158!3d18.956134955727215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf9ee4261af1%3A0x57adb33b0f4c262!2sMoksh%20Tubes%20%26%20Fittings%20LLP!5e0!3m2!1sen!2sin!4v1759749318402!5m2!1sen!2sin"
                                                 width="100%" height="200" style="border:0;" allowfullscreen=""
-                                                loading="lazy">
-                                            </iframe>
+                                                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                         </div>
 
                                         <!-- Contact Info -->
@@ -513,9 +512,13 @@
                                             <strong>Office Address:</strong> 95/95A, Dawood Baug, Sukhlaji Street,
                                             Kamatipura Mumbai
                                         </p>
+                                        <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
+                                <strong>Office Address:</strong> 92E, Plot No. 3, New Tank Bunder, Darukhana, Mumbai,
+                                Maharashtra- 400 010.
+                            </p>
 
                                         <!-- Social Icons -->
-                                        <div class="mt-3 text-center">
+                                        {{-- <div class="mt-3 text-center">
                                             <a href="https://wa.me/+919769584950"
                                                 class="btn btn-outline-success btn-sm rounded-circle me-2"><i
                                                     class="bi bi-whatsapp"></i></a>
@@ -532,7 +535,7 @@
                                                 class="btn btn-outline-info btn-sm rounded-circle"><i
                                                     class="fab fa-x-twitter"></i></a>
 
-                                        </div>
+                                        </div> --}}
                                     </div>
                                 </div>
                             </div>
