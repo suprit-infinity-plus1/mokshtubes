@@ -15,7 +15,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-auto text-center">
-                <h1>Super Duplex Stainless Steel S32760 | Ultra-Corrosion-Resistant Alloy</h1>
+                <h1>Super Duplex Stainless Steel S32760 <br> Ultra-Corrosion-Resistant Alloy</h1>
             </div>
         </div>
     </div>

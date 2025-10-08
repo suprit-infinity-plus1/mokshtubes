@@ -19,7 +19,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Duplex Stainless Steel S31803 | High Strength Corrosion Resistant Alloy</h1>
+                    <h1>Duplex Stainless Steel S31803 <br> High Strength Corrosion Resistant Alloy</h1>
                 </div>
             </div>
         </div>
