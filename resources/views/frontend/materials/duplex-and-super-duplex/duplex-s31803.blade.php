@@ -1,8 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Hastelloy C276 – Corrosion-Resistant Pipes, Sheets & Bars.')
-@section('meta_description', 'Discover Hastelloy C276 (UNS N10276) pipes, sheets, bars & flanges — a premium corrosion-resistant nickel alloy ideal for chemical, oil & gas, marine, and industrial applications.')
-@section('meta_keywords', 'Hastelloy C276, Corrosion Resistant Alloy, Nickel Alloy, Hastelloy C276 Pipes, Hastelloy C276 Tubes, Hastelloy C276 Fittings, Industrial Corrosion Resistant Alloys, Durable Nickel Alloys, Chemical Processing Alloys, Marine Alloys')
+@section('title', 'Duplex Stainless Steel S31803 | Mokshtubes Fittings LLP')
+@section('meta_description', 'Mokshtubes supplies Duplex Stainless Steel S31803 fittings & flanges with high corrosion resistance, strength & durability for marine, chemical & industrial use.')
+@section('meta_keywords', 'Duplex Stainless Steel S31803, Duplex Steel S31803, S31803 Duplex Stainless Steel, UNS S31803, Duplex Stainless Steel S31803 Fittings, Duplex Stainless Steel S31803 Flanges, Duplex Stainless Steel S31803 Supplier, Duplex Stainless Steel S31803 Exporter, Duplex Stainless Steel S31803 Stockist')
 
 @section('content')
 

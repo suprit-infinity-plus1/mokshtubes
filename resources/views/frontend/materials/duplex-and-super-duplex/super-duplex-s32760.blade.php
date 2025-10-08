@@ -1,8 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Hastelloy C276 – Corrosion-Resistant Pipes, Sheets & Bars.')
-@section('meta_description', 'Discover Hastelloy C276 (UNS N10276) pipes, sheets, bars & flanges — a premium corrosion-resistant nickel alloy ideal for chemical, oil & gas, marine, and industrial applications.')
-@section('meta_keywords', 'Hastelloy C276, Corrosion Resistant Alloy, Nickel Alloy, Hastelloy C276 Pipes, Hastelloy C276 Tubes, Hastelloy C276 Fittings, Industrial Corrosion Resistant Alloys, Durable Nickel Alloys, Chemical Processing Alloys, Marine Alloys')
+@section('title', 'Super Duplex Stainless Steel S32760 | Mokshtubes Sheets Dealer')
+@section('meta_description', 'Reliable Super Duplex Stainless Steel S32760 sheets, plates & coils from Mokshtubes offering corrosion resistance & strength for demanding marine & chemical applications.')
+@section('meta_keywords', 'Super Duplex Stainless Steel S32760, Super Duplex Steel S32760, S32760 Super Duplex Stainless Steel, UNS S32760, Super Duplex Stainless Steel S32760 Sheets, Super Duplex Stainless Steel S32760 Plates, Super Duplex Stainless Steel S32760 Coils, Super Duplex Stainless Steel S32760 Supplier, Super Duplex Stainless Steel S32760 Exporter, Super Duplex Stainless Steel S32760 Stockist')
 
 @section('content')
 

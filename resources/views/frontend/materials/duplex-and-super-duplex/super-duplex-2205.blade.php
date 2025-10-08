@@ -1,8 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Hastelloy C276 – Corrosion-Resistant Pipes, Sheets & Bars.')
-@section('meta_description', 'Discover Hastelloy C276 (UNS N10276) pipes, sheets, bars & flanges — a premium corrosion-resistant nickel alloy ideal for chemical, oil & gas, marine, and industrial applications.')
-@section('meta_keywords', 'Hastelloy C276, Corrosion Resistant Alloy, Nickel Alloy, Hastelloy C276 Pipes, Hastelloy C276 Tubes, Hastelloy C276 Fittings, Industrial Corrosion Resistant Alloys, Durable Nickel Alloys, Chemical Processing Alloys, Marine Alloys')
+@section('title', 'Super Duplex Stainless Steel 2205 | Mokshtubes Alloy Supplier')
+@section('meta_description', 'High-quality Super Duplex Stainless Steel 2205 from Mokshtubes with exceptional corrosion resistance, strength & toughness for marine, chemical & industrial needs.')
+@section('meta_keywords', 'Super Duplex Stainless Steel 2205, Super Duplex Steel 2205, 2205 Super Duplex Stainless Steel, UNS S32205, Super Duplex Stainless Steel 2205 Supplier, Super Duplex Stainless Steel 2205 Exporter, Super Duplex Stainless Steel 2205 Stockist')
 
 @section('content')
 
