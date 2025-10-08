@@ -17,7 +17,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Super Duplex Stainless Steel 2507 (S32750) | Ultra High Corrosion-Resistant Alloy</h1>
+                    <h1>Super Duplex Stainless Steel 2507 (S32750) <br> Ultra High Corrosion-Resistant Alloy</h1>
                 </div>
             </div>
         </div>

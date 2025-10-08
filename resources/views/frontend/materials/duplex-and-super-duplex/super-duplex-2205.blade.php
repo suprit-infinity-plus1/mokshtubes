@@ -15,7 +15,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-auto text-center">
-                <h1>Super Duplex Stainless Steel 2205 | High Strength Corrosion-Resistant Alloy</h1>
+                <h1>Super Duplex Stainless Steel 2205 <br> High Strength Corrosion-Resistant Alloy</h1>
             </div>
         </div>
     </div>
