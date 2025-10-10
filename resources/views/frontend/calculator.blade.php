@@ -159,7 +159,7 @@
 
                             <!-- Right: Image -->
                             <div class="col-lg-6 d-flex align-items-center">
-                                <img src="https://placehold.co/200x200" class="img-fluid rounded border w-100"
+                                <img src="{{ asset('assets/images/calculator/Steel-sheets-and-plates.png') }}" class="img-fluid rounded border w-100"
                                     alt="Steel Sheet Image">
                             </div>
                         </div>
@@ -227,7 +227,7 @@
 
                             <!-- Right: Image -->
                             <div class="col-lg-6 d-flex align-items-center">
-                                <img src="https://placehold.co/200x200" class="img-fluid rounded border w-100"
+                                <img src="{{ asset('assets/images/calculator/Seamless-steel-pipes-circular.png') }}" class="img-fluid rounded border w-100"
                                     alt="Pipe Image">
                             </div>
                         </div>
@@ -294,7 +294,7 @@
 
                             <!-- Right: Image -->
                             <div class="col-lg-6 d-flex align-items-center">
-                                <img src="https://placehold.co/200x200" class="img-fluid rounded border w-100"
+                                <img src="{{ asset('assets/images/calculator/Seamless-steel-pipes-circular.png') }}" class="img-fluid rounded border w-100"
                                     alt="Pipe Image">
                             </div>
                         </div>
@@ -363,7 +363,7 @@
 
                             <!-- Right: Image -->
                             <div class="col-lg-6 d-flex align-items-center">
-                                <img src="https://placehold.co/200x200" class="img-fluid rounded border w-100"
+                                <img src="{{ asset('assets/images/calculator/Hollow-structural-sections-square.png') }}" class="img-fluid rounded border w-100"
                                     alt="Placeholder Image for Square Section">
                             </div>
                         </div>
@@ -447,7 +447,7 @@
 
                             <!-- Right: Image -->
                             <div class="col-lg-6 d-flex align-items-center">
-                                <img src="https://placehold.co/200x200" class="img-fluid rounded border w-100"
+                                <img src="{{ asset('assets/images/calculator/Hollow-structural-sections-rectangular.png') }}" class="img-fluid rounded border w-100"
                                     alt="Placeholder Image for Rectangular HSS">
                             </div>
                         </div>
@@ -503,7 +503,7 @@
 
                             <!-- Right: Image -->
                             <div class="col-lg-6 d-flex align-items-center">
-                                <img src="https://placehold.co/200x200" class="img-fluid rounded border w-100"
+                                <img src="{{ asset('assets/images/calculator/Round-steel-bars.png') }}" class="img-fluid rounded border w-100"
                                     alt="Placeholder Image for Round Steel Bar">
                             </div>
                         </div>
@@ -557,7 +557,7 @@
 
                             <!-- Right: Image -->
                             <div class="col-lg-6 d-flex align-items-center">
-                                <img src="https://placehold.co/200x200" class="img-fluid rounded border w-100"
+                                <img src="{{ asset('assets/images/calculator/Square-steel-bars.png') }}" class="img-fluid rounded border w-100"
                                     alt="Placeholder Image for Square Steel Bar">
                             </div>
                         </div>
@@ -628,7 +628,7 @@
 
                             <!-- Right: Image -->
                             <div class="col-lg-6 d-flex align-items-center">
-                                <img src="https://placehold.co/200x200" class="img-fluid rounded border w-100"
+                                <img src="{{ asset('assets/images/calculator/Flat-bars.png') }}" class="img-fluid rounded border w-100"
                                     alt="Placeholder Image for Flat Bar">
                             </div>
                         </div>
@@ -697,7 +697,7 @@
 
                             <!-- Right: Image -->
                             <div class="col-lg-6 d-flex align-items-center">
-                                <img src="https://placehold.co/200x200" class="img-fluid rounded border w-100"
+                                <img src="{{ asset('assets/images/calculator/Equal-angles.png') }}" class="img-fluid rounded border w-100"
                                     alt="Placeholder Image for Equal Angles">
                             </div>
                         </div>
@@ -802,7 +802,7 @@
 
                             <!-- Right: Image -->
                             <div class="col-lg-6 d-flex align-items-center">
-                                <img src="https://placehold.co/200x200" class="img-fluid rounded border w-100"
+                                <img src="{{ asset('assets/images/calculator/Unequal-angles.png') }}" class="img-fluid rounded border w-100"
                                     alt="Placeholder Image for Unequal Angles">
                             </div>
                         </div>
@@ -872,7 +872,7 @@
 
                             <!-- Right: Image -->
                             <div class="col-lg-6 d-flex align-items-center">
-                                <img src="https://placehold.co/200x200" class="img-fluid rounded border w-100"
+                                <img src="{{ asset('assets/images/calculator/Channels-UPN.png') }}" class="img-fluid rounded border w-100"
                                     alt="Placeholder Image for Channels - GOST">
                             </div>
                         </div>
@@ -954,7 +954,7 @@
 
                             <!-- Right: Image -->
                             <div class="col-lg-6 d-flex align-items-center">
-                                <img src="https://placehold.co/200x200" class="img-fluid rounded border w-100"
+                                <img src="{{ asset('assets/images/calculator/Channels-UPN.png') }}" class="img-fluid rounded border w-100"
                                     alt="Placeholder Image for Channels - UPN">
                             </div>
                         </div>
@@ -1026,7 +1026,7 @@
 
                             <!-- Right: Image -->
                             <div class="col-lg-6 d-flex align-items-center">
-                                <img src="https://placehold.co/200x200?text=IPN" class="img-fluid rounded border w-100"
+                                <img src="{{ asset('assets/images/calculator/Beams-IPN.png') }}" class="img-fluid rounded border w-100"
                                     alt="I-Beam Illustration" />
                             </div>
                         </div>
@@ -1113,7 +1113,7 @@
 
                             <!-- Right: Image -->
                             <div class="col-lg-6 d-flex align-items-center">
-                                <img src="https://placehold.co/200x200?text=IPE" class="img-fluid rounded border w-100"
+                                <img src="{{ asset('assets/images/calculator/Beams-IPE.png') }}" class="img-fluid rounded border w-100"
                                     alt="IPE Beam Illustration" />
                             </div>
                         </div>
@@ -1206,7 +1206,7 @@
 
                             <!-- Right: Image -->
                             <div class="col-lg-6 d-flex align-items-center">
-                                <img src="https://placehold.co/200x200?text=HEA" class="img-fluid rounded border w-100"
+                                <img src="{{ asset('assets/images/calculator/Beams-HEA-(IPBL).png') }}" class="img-fluid rounded border w-100"
                                     alt="HEA Beam Illustration" />
                             </div>
                         </div>
@@ -1286,6 +1286,11 @@
                                             kg/m</strong></p>
                                     <p>Total weight: <strong id="hebTotalWeight" class="text-primary">0.00 kg</strong></p>
                                 </div>
+                            </div>
+                             <!-- Right: Image -->
+                            <div class="col-lg-6 d-flex align-items-center">
+                                <img src="{{ asset('assets/images/calculator/Beams-HEB-(IPB).png') }}" class="img-fluid rounded border w-100"
+                                    alt="HEA Beam Illustration" />
                             </div>
                         </div>
                     </div>

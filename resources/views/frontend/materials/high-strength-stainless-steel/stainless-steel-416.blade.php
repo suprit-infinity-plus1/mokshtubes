@@ -31,7 +31,7 @@
         <div class="row align-items-center">
             <!-- Image Left -->
             <div class="col-md-6 mb-4 mb-md-0">
-                <img src="{{ asset('assets/images/stainless/stainless-steel-416.webp') }}" alt="Stainless Steel 416"
+                <img src="{{ asset('assets/images/High Strength Stainless Steel WEBP/416-Stainless-Steel.jpeg') }}" alt="Stainless Steel 416"
                     class="img-fluid rounded shadow-sm">
             </div>
 
