@@ -32,27 +32,91 @@
 
             <div class="row g-4">
                 @php
-                    $materials = [
-                        'Hastelloy',
-                        'Monel',
-                        'Inconel',
-                        'Incoloy',
-                        'Nickel Based Superalloys',
-                        'Titanium',
-                        // 'Duplex & Super Duplex',
-                        'Austenitic Stainless Steel',
-                        // 'High Strength Stainless Steel',
-                        'Super Austenitic Stainless Steel',
-                        'Zirconium',
-                        'Engineering Steels',
-                        'Aluminium Alloys',
-                        'Copper Alloys',
-                        'Hard To Find Special Alloys',
-                        'Haynes Superalloys',
+                   $materials = [
+                        [
+                            'name' => 'Hastelloy',
+                            'slug' => 'hastelloy',
+                            'image' => 'assets/images/material/hastelloy.webp',
+                        ],
+                        [
+                            'name' => 'Monel',
+                            'slug' => 'monel',
+                            'image' => 'assets/images/material/monel.webp',
+                        ],
+                        [
+                            'name' => 'Inconel',
+                            'slug' => 'inconel',
+                            'image' => 'assets/images/inconel/inconel-600.webp',
+                        ],
+                        [
+                            'name' => 'Incoloy',
+                            'slug' => 'incoloy',
+                            'image' => 'assets/images/incoloy/incoloy-800.webp',
+                        ],
+                        [
+                            'name' => 'Nickel Based Superalloys',
+                            'slug' => 'nickel-based-superalloys',
+                            'image' => 'assets/images/material/Nickel-Based-Superalloys.webp',
+                        ],
+                        [
+                            'name' => 'Titanium',
+                            'slug' => 'titanium',
+                            'image' => 'assets/images/titanium/titanium-5.webp',
+                        ],
+                        [
+                            'name' => 'Duplex and Super Duplex',
+                            'slug' => 'duplex-and-super-duplex',
+                            'image' => 'assets/images/material/Duplex-and-Super-Duplex.webp',
+                        ],
+                        [
+                            'name' => 'Austenitic Stainless Steel',
+                            'slug' => 'austenitic-stainless-steel',
+                            'image' => 'assets/images/material/Austenitic-Stainless-Steel.webp',
+                        ],
+                        [
+                            'name' => 'High Strength Stainless Steel',
+                            'slug' => 'high-strength-stainless-steel',
+                            'image' => 'assets/images/material/stainless.webp',
+                        ],
+                        [
+                            'name' => 'Super Austenitic Stainless Steel',
+                            'slug' => 'super-austenitic-stainless-steel',
+                            'image' => 'assets/images/material/Super-Austenitic-Stainless-Steel.webp',
+                        ],
+                        [
+                            'name' => 'Zirconium',
+                            'slug' => 'zirconium',
+                            'image' => 'assets/images/zirconium/zirconium704.webp',
+                        ],
+                        [
+                            'name' => 'Engineering Steels',
+                            'slug' => 'engineering-steels',
+                            'image' => 'assets/images/material/Engineering-Steels.webp',
+                        ],
+                        [
+                            'name' => 'Aluminium Alloys',
+                            'slug' => 'aluminium-alloys',
+                            'image' => 'assets/images/material/Aluminium-Alloys-Aluminium-Alloys.webp',
+                        ],
+                        [
+                            'name' => 'Copper Alloys',
+                            'slug' => 'copper-alloys',
+                            'image' => 'assets/images/material/Copper-Alloys-Copper-Alloys.webp',
+                        ],
+                        [
+                            'name' => 'Hard To Find Special Alloys',
+                            'slug' => 'hard-to-find-special-alloys',
+                            'image' => 'assets/images/material/Hard-To-Find-Special-Alloys.webp',
+                        ],
+                        [
+                            'name' => 'Haynes Superalloys',
+                            'slug' => 'haynes-superalloys',
+                            'image' => 'assets/images/material/Haynes-Superalloys.webp',
+                        ],
                     ];
                 @endphp
 
-                @foreach ($materials as $material)
+                {{-- @foreach ($materials as $material)
                     @php
                         $slug = Str::slug($material);
                         $link = url('/materials/' . $slug);
@@ -71,6 +135,36 @@
                             </div>
                         </a>
                     </div>
+                @endforeach --}}
+                @foreach ($materials as $material)
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <a href="{{ url('/materials/' . $material['slug']) }}" class="text-decoration-none d-block h-100">
+                            <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                                style="border-color: #db7227; transition: 0.3s;">
+                                <img src="{{ asset($material['image'] ?? 'assets/images/default.jpg') }}"
+                                    alt="{{ $material['name'] }}" class="img-fluid rounded mb-3"
+                                    style="border-radius: 8px;">
+                                <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                    style="background-color: #174268; color: #fff; display: inline-block;">
+                                    {{ $material['name'] }}
+                                </h6>
+                            </div>
+                        </a>
+                    </div>
+                    {{-- <div class="col-12 col-sm-6 col-lg-4">
+
+                        <a href="{{ url('/products/' . $type['slug']) }}" class="text-decoration-none">
+                            <div class="custom-product-card rounded overflow-hidden shadow h-100 position-relative">
+
+                                <img src="{{ asset($type['image'] ?? 'assets/images/default.jpg') }}"
+                                    alt="{{ $type['name'] }}" class="img-fluid rounded" style="border-radius: 8px;">
+                                <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center"
+                                    style="background: rgba(23, 66, 104, 0.65); transition: 0.3s;">
+                                    <h5 class="text-white text-center fw-bold text-uppercase">{{ $type['name'] }}</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div> --}}
                 @endforeach
             </div>
         </div>

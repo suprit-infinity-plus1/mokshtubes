@@ -1,9 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Nickel A286 AIS600 Superalloy | High Strength & Heat Resistant | Mokshtubes ')
-@section('meta_description',
-    'Explore A286 superalloy known for high strength, heat resistance, and excellent
-    performance in aerospace and high-temperature applications.')
+@section('title', 'Nickel A286 – High-Strength & Heat Resistant Superalloy') <!-- 53 chars -->
+@section('meta_description', 'A286 (AIS600) superalloy provides high strength, excellent heat resistance, and reliable performance for aerospace and high-temperature industrial applications.')
+@section('meta_keywords', 'Nickel A286, AIS600 Superalloy, High Strength Nickel, Heat Resistant Alloy, Aerospace Nickel Alloy, Industrial Superalloy, Corrosion Resistant Nickel, High Temperature Alloy, Nickel-Based Alloy')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -11,10 +10,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Nickel A286 AIS600</h1>
+                    <h1>Nickel A286 <br> High-Strength & Heat Resistant Superalloy</h1>
                 </div>
             </div>
         </div>
+    </section>
+
     </section>
 
     <!--End breadcrumb area-->

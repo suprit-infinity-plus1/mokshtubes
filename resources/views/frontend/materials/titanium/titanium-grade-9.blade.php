@@ -1,9 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Titanium Grade 9 Alloy | Moksh Tubes – High Strength')
-@section('meta_description', 'Moksh Tubes supplies Titanium Grade 9 alloy with excellent strength, corrosion resistance & durability, ideal for aerospace, marine & industrial uses.')
-@section('meta_keywords', 'Incoloy 825, nickel alloy, corrosion resistant alloy, premium metal alloys, moksh tubes')
-
+@section('title', 'Titanium Grade 9 – High Strength & Corrosion Resistant') <!-- 52 chars -->
+@section('meta_description', 'Titanium Grade 9 alloy offers superior strength, corrosion resistance, and durability, perfect for aerospace, marine, and industrial applications.')
+@section('meta_keywords', 'Titanium Grade 9, High Strength Titanium, Corrosion Resistant Titanium, Titanium Grade 9 Pipes, Titanium Grade 9 Tubes, Aerospace Titanium Alloys, Marine Titanium Alloys, Industrial Titanium Alloys, Durable Titanium, Premium Titanium Alloy')
 
 @section('content')
 
@@ -12,11 +11,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Titanium Grade 9</h1>
+                    <h1>Titanium Grade 9 <br> High Strength & Corrosion Resistant Alloy</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

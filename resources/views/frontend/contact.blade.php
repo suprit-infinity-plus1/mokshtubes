@@ -102,23 +102,23 @@
                     <div class="sticky-card" style="position: sticky; top: 100px;">
                         <div class="list-group">
 
-                            <a href="#" class="list-group-item location-card">
-                                <h3 class="mb-1 fw-semibold">Gulalwadi – Mumbai</h3>
+                            <a href="{{ route('contact-us-gulalwadi') }}" class="list-group-item location-card">
+                                <h2 class="mb-1 fw-semibold h5">Gulalwadi – Mumbai</h2>
                                 <p class="mb-0 small">Bldg. No. 36/40, Hinglaj Bhavan, Kika Street</p>
                             </a>
 
-                            <a href="#" class="list-group-item location-card">
-                                <h5 class="mb-1 fw-semibold">Khetwadi – Mumbai</h5>
+                            <a href="{{ route('contact-us-khetwadi') }}" class="list-group-item location-card">
+                                <h2 class="mb-1 fw-semibold h5">Khetwadi – Mumbai</h2>
                                 <p class="mb-0 small">6/A, Ground Floor, Rajwanti Mansion</p>
                             </a>
 
-                            <a href="#" class="list-group-item location-card">
-                                <h5 class="mb-1 fw-semibold">Kamatipura – Mumbai</h5>
+                            <a href="{{ route('contact-us-kamatipura') }}" class="list-group-item location-card">
+                                <h2 class="mb-1 fw-semibold h5">Kamatipura – Mumbai</h2>
                                 <p class="mb-0 small">95/95A, Dawood Baug, Sukhlaji Street</p>
                             </a>
 
-                            <a href="#" class="list-group-item location-card mb-0">
-                                <h5 class="mb-1 fw-semibold">Darukhana – Mumbai</h5>
+                            <a href="{{ route('contact-us-darukhana') }}" class="list-group-item location-card mb-0">
+                                <h2 class="mb-1 fw-semibold h5">Darukhana – Mumbai</h2>
                                 <p class="mb-0 small">92E, Plot No. 3, New Tank Bunder, Reay Road</p>
                             </a>
 
@@ -127,8 +127,12 @@
                 </div>
 
                 <div class="col-lg-8">
-                    <img id="mapImage" src="{{ asset('assets/images/background/2.jpg') }}" alt="Location Map"
-                        class="img-fluid rounded shadow-sm w-100">
+                    {{-- <img id="mapImage" src="{{ asset('assets/images/background/2.jpg') }}" alt="Location Map"
+                        class="img-fluid rounded shadow-sm w-100"> --}}
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3773.4404691355185!2d72.82619187351122!3d18.95614506718077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sMoksh%20Tubes!5e0!3m2!1sen!2sin!4v1759824406817!5m2!1sen!2sin"
+                        width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
@@ -191,29 +195,29 @@
 
 
     <!-- <section class="home-google-map">
-                                                    <iframe
-                                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d943.3624929957525!2d72.82755531962317!3d18.955724967265716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf9ee4261af1%3A0x57adb33b0f4c262!2sMoksh%20Tubes%20%26%20Fittings%20LLP!5e0!3m2!1sen!2sin!4v1747987043971!5m2!1sen!2sin"
-                                                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                                                        referrerpolicy="no-referrer-when-downgrade">
-                                                    </iframe>
+                                                                <iframe
+                                                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d943.3624929957525!2d72.82755531962317!3d18.955724967265716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf9ee4261af1%3A0x57adb33b0f4c262!2sMoksh%20Tubes%20%26%20Fittings%20LLP!5e0!3m2!1sen!2sin!4v1747987043971!5m2!1sen!2sin"
+                                                                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                                                    referrerpolicy="no-referrer-when-downgrade">
+                                                                </iframe>
 
 
 
-                                                </section> -->
+                                                            </section> -->
 
     <!-- <div class="call-out2">
-                                                        <div class="container">
-                                                            <div class="clearfix">
-                                                                <div class="float_left">
-                                                                    <h4>Have any question or need any business consultation?</h4>
-                                                                </div>
-                                                                <div class="float_right">
-                                                                    <a href="contact.html" class="thm-btn bg-clr2">Request Quote</a>
-                                                                </div>
-                                                            </div>
+                                                                    <div class="container">
+                                                                        <div class="clearfix">
+                                                                            <div class="float_left">
+                                                                                <h4>Have any question or need any business consultation?</h4>
+                                                                            </div>
+                                                                            <div class="float_right">
+                                                                                <a href="contact.html" class="thm-btn bg-clr2">Request Quote</a>
+                                                                            </div>
+                                                                        </div>
 
-                                                        </div>
-                                                    </div> -->
+                                                                    </div>
+                                                                </div> -->
 
 
     <!--Start contact form area-->
@@ -258,7 +262,8 @@
                                 <div class="col-md-12">
                                     <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden"
                                         value="">
-                                    <button class="thm-btn bg-clr1" type="submit" data-loading-text="Please wait...">send
+                                    <button class="thm-btn bg-clr1" type="submit"
+                                        data-loading-text="Please wait...">send
                                         message</button>
                                 </div>
                             </div>
@@ -269,19 +274,18 @@
                 <div class="col-md-4">
                     <div class="footer-contact-info">
                         <div class="title">
-                            <h4>Quick Contact</h4>
+                            <h2>Quick Contact</h2>
                             <p>If you are passionate about helping people: through education, or preventing then
                                 you </p>
                         </div>
-                        <ul class="clearfix">
+                        <ul class="">
                             <li>
                                 <div class="iocn-holder">
-                                    {{-- <span class="fa fa-home"></span> --}}
                                     <span class="flaticon-web-page-home"></span>
                                 </div>
                                 <div class="text-holder">
 
-                                    <h6>Hinglaj Bhavan, Gulalwadi</h6>
+                                    <h3 class="h6">Hinglaj Bhavan, Gulalwadi</h3>
                                     <p>Mumbai, Maharashtra. 400004</p>
                                 </div>
                             </li>
@@ -290,7 +294,7 @@
                                     <span class="icon-technology-1"></span>
                                 </div>
                                 <div class="text-holder">
-                                    <h6>Call Us On</h6>
+                                    <h3 class="h6">Call Us On</h3>
                                     <p>+91 97695 84950</p>
                                 </div>
                             </li>
@@ -299,7 +303,7 @@
                                     <span class="icon-letter-1"></span>
                                 </div>
                                 <div class="text-holder">
-                                    <h6>Mail Us @</h6>
+                                    <h3 class="h6">Mail Us @</h3>
                                     <a href="#">
                                         <p>info@mokstubes.com</p>
                                     </a>

@@ -2,8 +2,7 @@
 
 @section('title', 'Hastelloy G3 | Weldable Corrosion Alloy')
 @section('meta_description',
-    'Hastelloy G3 pipes, tubes & fittings with superior resistance to oxidizing and reducing
-    acids, offering excellent weldability and durability.')
+    'Hastelloy G3 pipes, tubes & fittings offer superior resistance to oxidizing and reducing acids, with excellent weldability and durability for demanding applications.')
 @section('meta_keywords',
     'Hastelloy G3, Corrosion Resistant Alloy, Hastelloy G3 Pipes, Hastelloy G3 Tubes, Hastelloy G3
     Fittings, Weldable Alloy, Oxidizing Acid Resistant, Reducing Acid Resistant, Durable Alloy')
@@ -15,7 +14,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Hastelloy G3</h1>
+                    <h1>Hastelloy G3 Alloy <br> Weldable Corrosion Resistant Nickel Alloy</h1>
                 </div>
             </div>
         </div>

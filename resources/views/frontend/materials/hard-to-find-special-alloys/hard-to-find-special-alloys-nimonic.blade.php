@@ -1,12 +1,10 @@
 @extends('layouts.master')
 
-@section('title', 'Nimonic Alloys | Moksh Tubes – High-Temp Strength')
+@section('title', 'Nimonic Alloys | High-Temp Strength & Durability')
 @section('meta_description',
-    'Nimonic alloys offer superior high-temperature strength, creep resistance & durability, ideal for aerospace, turbines & power generation.')
+    'Nimonic alloys deliver exceptional high-temperature strength, creep resistance, and durability for aerospace, turbines, power generation, and extreme environments.')
 @section('meta_keywords',
-    'Nimonic alloy, high temperature alloy, creep resistant alloy, aerospace alloy, turbine alloy,
-    power generation alloy, durable high strength alloy')
-
+    'Nimonic alloy, high temperature alloy, creep resistant alloy, aerospace alloy, turbine alloy, power generation alloy, durable high strength alloy')
 
 @section('content')
 
@@ -15,11 +13,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Nimonic Alloys</h1>
+                    <h1>Nimonic Alloys for High-Temperature Strength</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

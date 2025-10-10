@@ -1,13 +1,10 @@
 @extends('layouts.master')
 
 @section('title', 'Copper Alloy C44300 | Corrosion Resistant & Durable')
-@section('meta_description',
-    'Copper Alloy C44300 with excellent corrosion resistance and strength for harsh
-    environments.')
-@section('meta_keywords',
-    'Copper Alloy C44300, corrosion resistant copper, durable copper alloy, industrial copper
-    alloy, high strength copper')
 
+@section('meta_description', 'Copper Alloy C44300 – high-performance copper alloy offering excellent corrosion resistance and strength for demanding industrial environments.')
+
+@section('meta_keywords', 'Copper Alloy C44300, corrosion resistant copper, durable copper alloy, industrial copper alloy, high strength copper')
 
 @section('content')
 
@@ -16,13 +13,14 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Copper Alloys C44300</h1>
+                    <h1>Copper Alloy C44300 <br> Corrosion Resistant Durable Alloy</h1>
                 </div>
             </div>
         </div>
     </section>
 
     <!--End breadcrumb area-->
+
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">

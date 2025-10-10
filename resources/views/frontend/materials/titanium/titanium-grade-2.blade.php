@@ -1,13 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Titanium Grade 2 | Industrial Grade Titanium')
-@section('meta_description',
-    'Versatile Titanium Grade 2 offering strong corrosion resistance and strength for aerospace
-    and medical sectors.')
-@section('meta_keywords',
-    'Titanium Grade 2, Industrial Grade Titanium, Corrosion Resistant Titanium, Titanium Grade 2
-    Pipes, Titanium Grade 2 Tubes, Titanium Grade 2 Sheets, Aerospace Titanium Alloys, Medical Industry Titanium, High
-    Strength Titanium, Industrial Titanium Grades')
+@section('title', 'Titanium Grade 2 – Industrial Grade Titanium') <!-- 52 chars -->
+@section('meta_description', 'Titanium Grade 2 provides excellent corrosion resistance and strength, ideal for aerospace, medical, and industrial applications.')
+@section('meta_keywords', 'Titanium Grade 2, Industrial Grade Titanium, Corrosion Resistant Titanium, Titanium Grade 2 Pipes, Titanium Grade 2 Tubes, Titanium Grade 2 Sheets, Aerospace Titanium Alloys, Medical Industry Titanium, High Strength Titanium, Industrial Titanium Grades')
 
 @section('content')
 
@@ -16,11 +11,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Titanium Grade 2</h1>
+                    <h1>Titanium Grade 2 <br> Corrosion Resistant & Industrial Alloy</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

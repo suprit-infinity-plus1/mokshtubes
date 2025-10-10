@@ -1,27 +1,24 @@
 @extends('layouts.master')
 
 @section('title', 'Austenitic Stainless Steel Nitronic 60 | Wear Resistant SS')
-@section('meta_description',
-    'Nitronic 60 pipes & fittings known for superior wear and corrosion resistance in demanding
-    industrial applications.')
-@section('meta_keywords',
-    'Austenitic Stainless Steel Nitronic 60, Nitronic 60 Stainless Steel Pipes, Nitronic 60
-    Stainless Steel Tubes, Nitronic 60 Stainless Steel Fittings, Wear Resistant Nitronic 60, Corrosion Resistant Nitronic
-    60, High Strength Nitronic 60, Industrial Nitronic 60 Stainless Steel, Marine Grade Nitronic 60, Engineering
-    Applications Nitronic 60')
+
+@section('meta_description', 'Austenitic Stainless Steel Nitronic 60 – premium alloy with superior wear and corrosion resistance for demanding industrial and engineering applications.')
+
+@section('meta_keywords', 'Austenitic Stainless Steel Nitronic 60, Nitronic 60 Stainless Steel Pipes, Nitronic 60 Stainless Steel Tubes, Nitronic 60 Stainless Steel Fittings, Wear Resistant Nitronic 60, Corrosion Resistant Nitronic 60, High Strength Nitronic 60, Industrial Nitronic 60 Stainless Steel, Marine Grade Nitronic 60, Engineering Applications Nitronic 60')
 
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/austenitic-stainless-steel/austenitic-stainless-steel-nitronic-60_10_11zon.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Austenitic Stainless Steel Nitronic 60</h1>
+                    <h1>Austenitic Stainless Steel Nitronic 60 <br> Wear Resistant Alloy</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

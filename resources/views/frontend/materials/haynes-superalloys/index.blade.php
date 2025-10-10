@@ -1,7 +1,6 @@
 @extends('layouts.master')
-@section('title', 'Haynes Superalloys | 188, 230, 242, 160 Grades | Mokshtubes')
-@section('meta_description', 'Browse Haynes high-performance alloys like 188, 230, and 242 – built for strength,
-    oxidation resistance, and long-term service in extreme conditions.')
+@section('title', 'Haynes Superalloys: 188, 230, 242, 160 | MokshTubes')
+@section('meta_description', 'Browse Haynes superalloys 188, 230, 242, and 160 at MokshTubes, engineered for exceptional strength, oxidation resistance, and long-term performance in extreme conditions.')
 
 
 @section('content')
@@ -10,7 +9,8 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Haynes Superalloys</h1>
+                    <h1>Haynes Superalloys 188, 230, 242, 160</h1>
+
                 </div>
             </div>
         </div>

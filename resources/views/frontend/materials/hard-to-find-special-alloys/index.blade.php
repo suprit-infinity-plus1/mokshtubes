@@ -1,9 +1,7 @@
 @extends('layouts.master')
-@section('title', 'Special & Rare Alloys | Nimonic, Tantalum, Stellite, Tungsten | Mokshtubes')
+@section('title', 'Special & Rare Alloys – Nimonic, Tantalum, Stellite')
 @section('meta_description',
-    'Rare special alloys like Nimonic, Tantalum, Stellite & Tungsten with exceptional strength, heat resistance, and
-    corrosion protection.
-    ')
+    'Explore special alloys Nimonic, Tantalum, Stellite & Tungsten at MokshTubes for superior strength, heat resistance & corrosion protection.')
 
 
     {{-- @section('meta_description',
@@ -15,7 +13,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Hard To Find And Special Alloys</h1>
+                    <h1>Special & Rare Alloys for High-Performance Applications</h1>
                 </div>
             </div>
         </div>

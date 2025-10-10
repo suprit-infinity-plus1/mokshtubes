@@ -37,6 +37,14 @@ class MainController extends Controller
     {
         return view('frontend.khetwadi');
     }
+    public function contactUsKamatipura()
+    {
+        return view('frontend.kamatipura');
+    }
+    public function contactUsDarukhana()
+    {
+        return view('frontend.darukhana');
+    }
 
     public function StainlessSteelInconelTubes()
     {
@@ -101,6 +109,21 @@ class MainController extends Controller
 
         return view('frontend.blogs.stainless-steel-uses-in-kitchen');
     }
+    public function whereToBuyHighQuality()
+    {
+
+        return view('frontend.blogs.where-to-buy-high-quality');
+    }
+    public function howToChooseTheBestStainlessSteelPipes()
+    {
+
+        return view('frontend.blogs.how-to-choose-the-best-stainless-steel-pipes');
+    }
+    public function HowStainlessSteelTubesImproveProcessEfficiency()
+    {
+
+        return view('frontend.blogs.how-stainless-steel-tubes-improve-process-efficiency');
+    }
 
 
 
@@ -161,18 +184,19 @@ class MainController extends Controller
         return view('frontend.materials.monel.index', compact('grades'));
     }
 
-    public function incoloy()
-    {
-        $grades = [
-            ['name' => '825', 'slug' => '825'],
-            ['name' => '800', 'slug' => '800'],
-            ['name' => '925', 'slug' => '925'],
-            ['name' => '800H_800HT', 'slug' => '800H_800HT'],
-            ['name' => '020', 'slug' => '020'],
-        ];
+  public function incoloy()
+{
+    $grades = [
+        ['name' => 'Incoloy 825', 'slug' => 'incoloy-825'],
+        ['name' => 'Incoloy 800', 'slug' => 'incoloy-800'],
+        ['name' => 'Incoloy 925', 'slug' => 'incoloy-925'],
+        ['name' => 'Incoloy 800h / 800ht', 'slug' => 'incoloy-800h-800ht'],
+        ['name' => 'Incoloy 020', 'slug' => 'incoloy-020'],
+    ];
 
-        return view('frontend.materials.incoloy.index', compact('grades'));
-    }
+    return view('frontend.materials.incoloy.index', compact('grades'));
+}
+
 
 
     public function nickelBasedSuperalloys()
@@ -222,16 +246,16 @@ class MainController extends Controller
     public function aluminiumAlloys()
     {
         $grades = [
-            ['name' => '6061 T6', 'slug' => 'aluminium-alloys-6061-T6'],
+            ['name' => '6061 T6', 'slug' => 'aluminium-alloys-6061-t6'],
             ['name' => '1100', 'slug' => 'aluminium-alloys-1100'],
             ['name' => '1200', 'slug' => 'aluminium-alloys-1200'],
-            ['name' => '2014 T6', 'slug' => 'aluminium-alloys-2014-T6'],
+            ['name' => '2014 T6', 'slug' => 'aluminium-alloys-2014-t6'],
             ['name' => '5083', 'slug' => 'aluminium-alloys-5083'],
             ['name' => '6012', 'slug' => 'aluminium-alloys-6012'],
             ['name' => '6063', 'slug' => 'aluminium-alloys-6063'],
-            ['name' => '6082 T6', 'slug' => 'aluminium-alloys-6082-T6'],
+            ['name' => '6082 T6', 'slug' => 'aluminium-alloys-6082-t6'],
             ['name' => '7075', 'slug' => '-aluminium-alloys7075'],
-            ['name' => 'HE30', 'slug' => 'aluminium-alloys-HE30'],
+            ['name' => 'HE30', 'slug' => 'aluminium-alloys-he30'],
         ];
 
         return view('frontend.materials.aluminium-alloys.index', compact('grades'));
@@ -240,12 +264,12 @@ class MainController extends Controller
     public function superAusteniticStainlessSteel()
     {
         $grades = [
-            ['name' => 'AL 6XN', 'slug' => 'super-austenitic-stainless-steel-AL-6XN'],
-            ['name' => 'Alloy 926', 'slug' => 'super-austenitic-stainless-steel-Alloy-926'],
-            ['name' => '253 MA', 'slug' => 'super-austenitic-stainless-steel-253-MA'],
-            ['name' => '904L', 'slug' => 'super-austenitic-stainless-steel-904L'],
-            ['name' => 'SMO 254', 'slug' => 'super-austenitic-stainless-steel-SMO-254'],
-            ['name' => 'SMO 654', 'slug' => 'super-austenitic-stainless-steel-SMO-654'],
+            ['name' => 'AL 6XN', 'slug' => 'super-austenitic-stainless-steel-al-6XN'],
+            ['name' => 'Alloy 926', 'slug' => 'super-austenitic-stainless-steel-alloy-926'],
+            ['name' => '253 MA', 'slug' => 'super-austenitic-stainless-steel-253-ma'],
+            ['name' => '904L', 'slug' => 'super-austenitic-stainless-steel-904l'],
+            ['name' => 'SMO 254', 'slug' => 'super-austenitic-stainless-steel-smo-254'],
+            ['name' => 'SMO 654', 'slug' => 'super-austenitic-stainless-steel-smo-654'],
         ];
 
         return view('frontend.materials.super-austenitic-stainless-steel.index', compact('grades'));
@@ -274,7 +298,7 @@ class MainController extends Controller
             ['name' => 'Austenitic Stainless Steel 309', 'slug' => 'austenitic-stainless-steel-309'],
             ['name' => 'Austenitic Stainless Steel 310', 'slug' => 'austenitic-stainless-steel-310'],
             ['name' => 'Austenitic Stainless Steel 316', 'slug' => 'austenitic-stainless-steel-316'],
-            ['name' => 'Austenitic Stainless Steel 316Ti', 'slug' => 'austenitic-stainless-steel-316Ti'],
+            ['name' => 'Austenitic Stainless Steel 316Ti', 'slug' => 'austenitic-stainless-steel-316ti'],
             ['name' => 'Austenitic Stainless Steel 317', 'slug' => 'austenitic-stainless-steel-317'],
             ['name' => 'Austenitic Stainless Steel 321', 'slug' => 'austenitic-stainless-steel-321'],
             ['name' => 'Austenitic Stainless Steel 347', 'slug' => 'austenitic-stainless-steel-347'],
@@ -312,6 +336,16 @@ class MainController extends Controller
 
         return view('frontend.materials.engineering-steels.index', compact('grades'));
     }
+public function engineeringSteelsGrade($slug)
+{
+    $viewPath = 'frontend.materials.engineering-steels.' . $slug;
+
+    if (view()->exists($viewPath)) {
+        return view($viewPath);
+    }
+
+    abort(404);
+}
 
     public function copperAlloys()
     {
@@ -355,6 +389,28 @@ class MainController extends Controller
         ];
 
         return view('frontend.materials.haynes-superalloys.index', compact('grades'));
+    }
+    public function duplexAndSuperDuplex()
+    {
+        $grades = [
+            // ['name' => 'haynes-superalloys 160', 'slug' => 'haynes-superalloys-160'],
+            // ['name' => 'haynes-superalloys 188', 'slug' => 'haynes-superalloys-188'],
+            // ['name' => 'haynes-superalloys 230', 'slug' => 'haynes-superalloys-230'],
+            // ['name' => 'haynes-superalloys 242', 'slug' => 'haynes-superalloys-242'],
+        ];
+
+        return view('frontend.materials.duplex-and-super-duplex.index', compact('grades'));
+    }
+    public function highStrengthStainlessSteel()
+    {
+        $grades = [
+            // ['name' => 'haynes-superalloys 160', 'slug' => 'haynes-superalloys-160'],
+            // ['name' => 'haynes-superalloys 188', 'slug' => 'haynes-superalloys-188'],
+            // ['name' => 'haynes-superalloys 230', 'slug' => 'haynes-superalloys-230'],
+            // ['name' => 'haynes-superalloys 242', 'slug' => 'haynes-superalloys-242'],
+        ];
+
+        return view('frontend.materials.high-strength-stainless-steel.index', compact('grades'));
     }
 
 
@@ -461,13 +517,21 @@ class MainController extends Controller
     {
         return view('frontend.products.special-fabricated.fabricated-ss-grills');
     }
+    public function ssrailings()
+    {
+        return view('frontend.products.special-fabricated.ss-railings');
+    }
+    public function glassrailings()
+    {
+        return view('frontend.products.special-fabricated.glass-railings');
+    }
 
     public function pipeFittingsFlangesFasteners()
     {
         $types = [
             ['name' => 'Custom Steel Furniture', 'slug' => 'custom-steel-furniture'],
             ['name' => 'Fabricated SS Grills', 'slug' => 'fabricated-ss-grills'],
-            // ['name' => 'Capillaries', 'slug' => 'capillaries'],
+            ['name' => 'Custom Fabricated Fittings', 'slug' => 'custom-fabricated-fittings'],
             // ['name' => 'Hollow Section Pipe', 'slug' => 'hollow-section-pipe'],
             // ['name' => 'U-Bent Tubes', 'slug' => 'u-bent-tubes'],
             // ['name' => 'Boiler & Heat Exchanger Tubes', 'slug' => 'boiler-heat-exchanger-tubes'],
@@ -482,6 +546,18 @@ class MainController extends Controller
     public function flangesAndGaskets()
     {
         return view('frontend.products.pipe-fittings-flanges-fasteners.flanges-and-gaskets');
+    }
+    public function customFabricatedFittings()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings');
+    }
+    public function fasteners()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners');
+    }
+    public function pipeFittings()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.pipe-fittings');
     }
 
     public function barsRods()
@@ -521,6 +597,51 @@ class MainController extends Controller
     public function flatBars()
     {
         return view('frontend.products.bars-rods.flat-bars');
+    }
+
+
+    public function sheetsPlatesCoils()
+    {
+        $types = [
+            ['name' => 'Custom Steel Furniture', 'slug' => 'custom-steel-furniture'],
+            ['name' => 'Fabricated SS Grills', 'slug' => 'fabricated-ss-grills'],
+            ['name' => 'Custom Fabricated Fittings', 'slug' => 'custom-fabricated-fittings'],
+            // ['name' => 'Hollow Section Pipe', 'slug' => 'hollow-section-pipe'],
+            // ['name' => 'U-Bent Tubes', 'slug' => 'u-bent-tubes'],
+            // ['name' => 'Boiler & Heat Exchanger Tubes', 'slug' => 'boiler-heat-exchanger-tubes'],
+        ];
+
+        return view('frontend.products.sheets-plates-coils.index', compact('types'));
+    }
+
+    public function chequeredSheets()
+    {
+        return view('frontend.products.sheets-plates-coils.chequered-sheets');
+    }
+    public function strips()
+    {
+        // dd("I AM HERE");
+        return view('frontend.products.sheets-plates-coils.strips');
+    }
+    public function shimsheets()
+    {
+        return view('frontend.products.sheets-plates-coils.shim-sheets');
+    }
+    public function sheetsandplates()
+    {
+        return view('frontend.products.sheets-plates-coils.sheets-and-plates');
+    }
+    public function perforatedsheets()
+    {
+        return view('frontend.products.sheets-plates-coils.perforated-sheets');
+    }
+    public function coils()
+    {
+        return view('frontend.products.sheets-plates-coils.coils');
+    }
+    public function claddedplates()
+    {
+        return view('frontend.products.sheets-plates-coils.cladded-plates');
     }
 
 

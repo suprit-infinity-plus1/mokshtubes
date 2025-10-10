@@ -1,12 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Inconel 718 | High-Strength Alloy for Extreme Loads')
-@section('meta_description',
-    'Inconel 718 delivers superior tensile strength, fatigue resistance, and oxidation
-    protection—ideal for aerospace, turbines, and energy sectors.')
-@section('meta_keywords',
-    'Inconel 718, High-Strength Alloy, Extreme Load Alloys, Nickel Alloys, Aerospace Alloys,
-    Turbine Alloys, Energy Sector Alloys, Fatigue Resistant Alloys, Oxidation Resistant Alloys, Corrosion Resistant Alloys')
+@section('title', 'Inconel 718 – High-Strength Alloy for Extreme Loads') <!-- 53 chars -->
+@section('meta_description', 'Inconel 718 offers superior tensile strength, fatigue, and oxidation resistance—ideal for aerospace, turbines, and energy sectors.')
+@section('meta_keywords', 'Inconel 718, High-Strength Alloy, Extreme Load Alloys, Nickel Alloys, Aerospace Alloys, Turbine Alloys, Energy Sector Alloys, Fatigue Resistant Alloys, Oxidation Resistant Alloys, Corrosion Resistant Alloys')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -14,11 +10,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Inconel 718</h1>
+                    <h1>Inconel 718 <br> High-Strength & Corrosion Resistant Alloy</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

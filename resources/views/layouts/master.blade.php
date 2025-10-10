@@ -283,7 +283,7 @@
                                                 @php
                                                     $productCategories = [
                                                         'Pipes & Tubes',
-                                                        // 'Sheets, Plates & Coils',
+                                                        'Sheets, Plates & Coils',
                                                         'Bars & Rods',
                                                         'Pipe Fittings, Flanges & Fasteners',
                                                         'Special Fabricated',
@@ -318,9 +318,9 @@
                                                         'Incoloy',
                                                         'Nickel Based Superalloys',
                                                         'Titanium',
-                                                        // 'Duplex & Super Duplex',
+                                                        'Duplex and Super Duplex',
                                                         'Austenitic Stainless Steel',
-                                                        // 'High Strength Stainless Steel',
+                                                        'High Strength Stainless Steel',
                                                         'Super Austenitic Stainless Steel',
                                                         'Zirconium',
                                                         'Engineering Steels',
@@ -479,10 +479,13 @@
                                     </li>
                                     <li><a href="{{ route('products.pipes-tubes.seamless-pipes') }}">SEAMLESS
                                             PIPES</a></li>
-                                    <li><a href="#">SHEETS & PLATES</a></li>
-                                    <li><a href="#">PERFORATED SHEETS</a></li>
-                                    <li><a href="#">ROUND BARS</a></li>
-                                    <li><a href="#">FASTENERS</a></li>
+                                    <li><a href="{{ route('products.sheets-plates-coils') }}">SHEETS & PLATES</a></li>
+                                    <li><a href="{{ route('products.sheets-plates-coils.perforated-sheets') }}">PERFORATED
+                                            SHEETS</a></li>
+                                    <li><a href="{{ route('products.bars-rods.round-bars') }}">ROUND BARS</a></li>
+                                    <li><a
+                                            href="{{ route('products.pipe-fittings-flanges-fasteners') }}">FASTENERS</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -493,10 +496,16 @@
                                 <h3 class="footer-title">Areas We Serve</h3>
                                 <ul class="footer-list">
                                     <li><a href="{{ route('products.pipes-tubes') }}">PIPES</a></li>
-                                    <li><a href="#">FITTINGS</a></li>
-                                    <li><a href="#">FLANGES</a></li>
-                                    <li><a href="#">FASTENERS</a></li>
-                                    <li><a href="#">STEEL</a></li>
+                                    <li><a
+                                            href="{{ route('products.pipe-fittings-flanges-fasteners.pipe-fittings') }}">FITTINGS</a>
+                                    </li>
+                                    <li><a
+                                            href="{{ route('products.pipe-fittings-flanges-fasteners.fittings-and-flanges') }}">FLANGES</a>
+                                    </li>
+                                    <li><a
+                                            href="{{ route('products.pipe-fittings-flanges-fasteners') }}">FASTENERS</a>
+                                    </li>
+                                    <li><a href="">STEEL</a></li>
                                 </ul>
 
                             </div>
@@ -632,6 +641,26 @@
 
         </footer>
 
+        <div class="whatsapp-btn-container"
+            style="
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50px;
+position: fixed;
+bottom: 25px;
+background: #25d366;
+left: 2.1875rem;
+width: 60px;
+height: 60px;
+z-index:99;">
+            <div id="whatsapp-btn" style="margin-top:5px;">
+                <a class="whatsapp" href="https://wa.me/+919769584950">
+                    <i class="fa fa-whatsapp fa-2x text-white" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+
         <!-- Contact Form Modal -->
         <!-- Contact Form Modal -->
         <div class="modal fade" id="contactFormModal" tabindex="-1" role="dialog"
@@ -687,8 +716,6 @@
                 </div>
             </div>
         </div>
-
-
 
 
 
@@ -785,7 +812,7 @@
             });
         </script> --}}
 
-     
+
 
 
 

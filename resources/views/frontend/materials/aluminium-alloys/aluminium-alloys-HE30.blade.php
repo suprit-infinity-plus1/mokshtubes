@@ -1,11 +1,10 @@
 @extends('layouts.master')
 
 @section('title', 'Aluminium Alloy HE30 | Hardened Aluminium Alloy')
-@section('meta_description', 'Hardened Aluminium HE30 alloy providing excellent strength and corrosion resistance for
-    heavy-duty applications.')
-@section('meta_keywords', 'Aluminium Alloy HE30, Hardened Aluminium Alloy, Aluminium HE30 Pipes, Aluminium HE30 Tubes,
-    Aluminium HE30 Sheets, High Strength Aluminium, Corrosion Resistant Aluminium, Heavy Duty Aluminium Alloys, Structural
-    Aluminium Alloys, Industrial Aluminium Grades')
+
+@section('meta_description', 'Aluminium HE30 – hardened alloy offering excellent strength, corrosion resistance, and durability for heavy-duty structural and industrial applications.')
+
+@section('meta_keywords', 'Aluminium Alloy HE30, Hardened Aluminium Alloy, Aluminium HE30 Pipes, Aluminium HE30 Tubes, Aluminium HE30 Sheets, High Strength Aluminium, Corrosion Resistant Aluminium, Heavy Duty Aluminium Alloys, Structural Aluminium Alloys, Industrial Aluminium Grades')
 
 @section('content')
 
@@ -14,11 +13,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Aluminium HE30</h1>
+                    <h1>Aluminium HE30 <br> Hardened High Strength Aluminium Alloy</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

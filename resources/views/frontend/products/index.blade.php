@@ -1,11 +1,8 @@
 @extends('layouts.master')
-@section('title',
-    'Industrial Pipes & Tubes | Wide Range of Premium Products | Mokshtubes
-    ')
+@section('title', 'Industrial Pipes & Tubes: Premium Products | MokshTubes')
 @section('meta_description',
-    'Premium super austenitic stainless steels 904L, SMO 254 & Alloy 926 offering exceptional corrosion resistance and
-    durability in harsh conditions.
-    ')
+    'Explore industrial pipes and tubes at MokshTubes, including 904L, SMO 254, and Alloy 926,
+    engineered for exceptional corrosion resistance, strength, and durability in harsh conditions.')
     {{-- @section('meta_description',
     'Superior welded, seamless, U-bend & boiler tubes engineered for strength, precision, and long-lasting industrial
     performance.
@@ -26,7 +23,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Products</h1>
+                    <h1>Industrial Pipes & Tubes</h1>
                 </div>
             </div>
         </div>
@@ -40,26 +37,52 @@
                 <p class="text-muted fs-5 pb-2">Explore a wide range of precision-engineered products for your industry.</p>
             </div>
 
+            <div class="row g-4">
+
             @php
-                $products = [
-                    ['name' => 'Pipes & Tubes', 'slug' => 'pipes-tubes'],
-                    // ['name' => 'Sheets, Plates & Coils', 'slug' => 'sheets-plates-coils'],
-                    ['name' => 'Bars & Rods', 'slug' => 'bars-rods'],
-                    ['name' => 'Pipe Fittings, Flanges & Fasteners', 'slug' => 'pipe-fittings-flanges-fasteners'],
-                    ['name' => 'Special Fabricated', 'slug' => 'special-fabricated'],
+                $types = [
+                    [
+                        'name' => 'Pipes & Tubes',
+                        'slug' => 'pipes-tubes',
+                        'image' => 'assets/images/peoduct/main-product/pipes&tubes.webp',
+                    ],
+                    [
+                        'name' => 'Sheets, Plates & Coils',
+                        'slug' => 'sheets-plates-coils',
+                        'image' => 'assets/images/peoduct/main-product/SheetsPlates.webp',
+                    ],
+                    [
+                        'name' => 'Bars & Rods',
+                        'slug' => 'bars-rods',
+                        'image' => 'assets/images/peoduct/main-product/rods.webp',
+                    ],
+                    [
+                        'name' => 'Pipe Fittings, Flanges & Fasteners',
+                        'slug' => 'pipe-fittings-flanges-fasteners',
+                        'image' => 'assets/images/peoduct/main-product/fittings.webp',
+                    ],
+                    [
+                        'name' => 'Special Fabricated',
+                        'slug' => 'special-fabricated',
+                        'image' => 'assets/images/peoduct/main-product/Special.webp',
+                    ],
                 ];
             @endphp
 
-            <div class="row g-4">
-                @foreach ($products as $product)
+
+                @foreach ($types as $type)
                     <div class="col-12 col-sm-6 col-lg-4">
                         {{-- Generate URL based on slug --}}
-                        <a href="{{ url('/products/' . $product['slug']) }}" class="text-decoration-none d-block h-100">
-                            <div class="product-card b  order rounded shadow-sm p-2 text-center h-100">
-                                <img style="transition: 0.3s; border: 2px solid ##db7227; rounded: 10px;"
-                                    src="https://placehold.co/370x200/db7227/fff?" class="img-fluid mb-3"
-                                    alt="{{ $product['name'] }}">
-                                <h5 class="fw-semibold" style="color: #174268   ;">{{ $product['name'] }}</h5>
+                        <a href="{{ url('/products/' . $type['slug']) }}" class="text-decoration-none">
+                            <div class="custom-product-card rounded overflow-hidden shadow h-100 position-relative">
+                                {{-- <img src="https://placehold.co/600x350/db7227/fff?" class="img-fluid w-100"
+                                    alt="{{ $type['name'] }}"> --}}
+                                <img src="{{ asset($type['image'] ?? 'assets/images/default.jpg') }}"
+                                    alt="{{ $type['name'] }}" class="img-fluid rounded" style="border-radius: 8px;">
+                                <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center"
+                                    style="background: rgba(23, 66, 104, 0.65); transition: 0.3s;">
+                                    <h5 class="text-white text-center fw-bold text-uppercase">{{ $type['name'] }}</h5>
+                                </div>
                             </div>
                         </a>
                     </div>

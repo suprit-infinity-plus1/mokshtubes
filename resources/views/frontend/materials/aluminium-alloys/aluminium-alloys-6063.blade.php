@@ -1,11 +1,10 @@
 @extends('layouts.master')
 
 @section('title', 'Aluminium Alloy 6063 | Architectural Grade Aluminium')
-@section('meta_description', 'Architectural-grade Aluminium 6063 known for excellent surface finish and corrosion
-    resistance.')
-@section('meta_keywords', 'Aluminium Alloy 6063, Architectural Grade Aluminium, Aluminium 6063 Pipes, Aluminium 6063
-    Tubes, Aluminium 6063 Sheets, Corrosion Resistant Aluminium, Excellent Surface Finish Aluminium, Architectural Aluminium
-    Alloys, Structural Aluminium, Industrial Aluminium Grades')
+
+@section('meta_description', 'Aluminium 6063 – architectural-grade alloy offering excellent surface finish, corrosion resistance, and durability for structural applications.')
+
+@section('meta_keywords', 'Aluminium Alloy 6063, Architectural Grade Aluminium, Aluminium 6063 Pipes, Aluminium 6063 Tubes, Aluminium 6063 Sheets, Corrosion Resistant Aluminium, Excellent Surface Finish Aluminium, Architectural Aluminium Alloys, Structural Aluminium, Industrial Aluminium Grades')
 
 @section('content')
 
@@ -14,11 +13,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Aluminium 6063</h1>
+                    <h1>Aluminium 6063 <br> Architectural Grade Corrosion-Resistant Alloy</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

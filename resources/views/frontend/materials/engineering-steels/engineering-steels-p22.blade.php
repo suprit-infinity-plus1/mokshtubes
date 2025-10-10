@@ -1,10 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'P22 Alloy Steel | Chromium-Molybdenum Alloy Steel')
-@section('meta_description', 'P22 Alloy Steel ideal for high pressure and temperature applications in power generation
-    industries.')
-@section('meta_keywords', 'P22 Alloy Steel, chromium-molybdenum alloy steel, high pressure steel, high temperature
-    steel, power plant alloy steel, industrial alloy steel')
+@section('title', 'P22 Alloy Steel | High Pressure & Temperature Alloy')
+@section('meta_description', 'P22 Alloy Steel ideal for high pressure and high temperature applications in power generation and heavy industries.')
+@section('meta_keywords', 'P22 Alloy Steel, chromium-molybdenum alloy steel, high pressure steel, high temperature steel, power plant alloy steel, industrial alloy steel')
 
 @section('content')
 
@@ -13,11 +11,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Engineering Steel P22</h1>
+                    <h1>High Performance P22 Alloy Steel</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

@@ -1,23 +1,20 @@
 @extends('layouts.master')
-@section('title', 'Bars & Rods - Round, Square, Hex, Flat | Moksh Tubes')
+@section('title', 'Bars & Rods – Round, Square, Hex & Flat') <!-- 52 characters -->
 @section('meta_description',
-    'Explore premium Bars & Rods from Moksh Tubes – Round, Square, Hex, Flat & Threaded in SS, Alloy & Duplex grades with global quality standards.')
+    'Moksh Tubes offers premium Bars & Rods – Round, Square, Hex, Flat & Threaded in SS, Alloy & Duplex grades with worldwide delivery.') <!-- 153 characters -->
+@section('meta_keywords', 'Bars & Rods, Round Bars, Square Bars, Hex Bars, Flat Bars, Threaded Rods, Stainless Steel Rods, Alloy Bars, Duplex Bars')
 @section('content')
-    <!--Start breadcrumb area-->
-
-
-    <!--End mainmenu area-->
-
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Bars & Rods</h1>
+                    <h1>Premium Round, Square, Hex & Flat Bars</h1> <!-- 52 characters -->
                 </div>
             </div>
         </div>
     </section>
+
 
 
     <section class="sec-padd-top sec-padd-bottom bg-white">
@@ -69,7 +66,7 @@
                                 {{-- <img src="https://placehold.co/600x350/db7227/fff?" class="img-fluid w-100"
                                     alt="{{ $type['name'] }}"> --}}
                                 <img src="{{ asset($type['image'] ?? 'assets/images/default.jpg') }}"
-                                    alt="{{ $type['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+                                    alt="{{ $type['name'] }}" class="img-fluid rounded " style="border-radius: 8px;">
                                 <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center"
                                     style="background: rgba(23, 66, 104, 0.65); transition: 0.3s;">
                                     <h5 class="text-white text-center fw-bold text-uppercase">{{ $type['name'] }}</h5>

@@ -1,27 +1,24 @@
 @extends('layouts.master')
 
 @section('title', 'Austenitic Stainless Steel 317 | Superior Corrosion SS')
-@section('meta_description',
-    'Austenitic Stainless Steel 317 pipes & fittings providing enhanced corrosion resistance
-    for harsh chemical environments.')
-@section('meta_keywords',
-    'Austenitic Stainless Steel 317, Stainless Steel 317 Pipes, Stainless Steel 317 Tubes,
-    Stainless Steel 317 Fittings, Corrosion Resistant Stainless Steel 317, Chemical Processing Stainless Steel 317, Marine
-    Grade Stainless Steel 317, Industrial Stainless Steel 317, High Strength Stainless Steel 317, Harsh Environment
-    Stainless Steel 317')
+
+@section('meta_description', 'Austenitic Stainless Steel 317 – high-grade alloy offering superior corrosion resistance for harsh chemical environments and demanding industrial applications.')
+
+@section('meta_keywords', 'Austenitic Stainless Steel 317, Stainless Steel 317 Pipes, Stainless Steel 317 Tubes, Stainless Steel 317 Fittings, Corrosion Resistant Stainless Steel 317, Chemical Processing Stainless Steel 317, Marine Grade Stainless Steel 317, Industrial Stainless Steel 317, High Strength Stainless Steel 317, Harsh Environment Stainless Steel 317')
 
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/austenitic-stainless-steel/austenitic-stainless-steel-317.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Austenitic Stainless Steel 317</h1>
+                    <h1>Austenitic Stainless Steel 317 <br>Superior Corrosion-Resistant Alloy</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

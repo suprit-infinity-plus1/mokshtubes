@@ -1,11 +1,10 @@
 @extends('layouts.master')
 
-@section('title', 'Copper Alloy C63000 | Heat Treatable Copper Alloy')
-@section('meta_description', 'Heat treatable Copper Alloy C63000 known for durability and corrosion resistance.')
-@section('meta_keywords',
-    'Copper Alloy C63000, heat treatable copper alloy, corrosion resistant copper, durable copper
-    alloy, industrial copper alloy')
+@section('title', 'Copper Alloy C63000 | High Strength & Durability')
 
+@section('meta_description', 'Copper Alloy C63000 is a high-strength, heat treatable copper alloy offering excellent corrosion resistance and durability for marine and industrial use.')
+
+@section('meta_keywords', 'Copper Alloy C63000, heat treatable copper alloy, high strength copper, corrosion resistant copper, durable copper alloy, marine copper alloy, industrial copper alloy')
 
 @section('content')
 
@@ -14,11 +13,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Copper Alloys C63000</h1>
+                    <h1>Copper Alloy C63000 <br> Heat Treatable & Durable</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

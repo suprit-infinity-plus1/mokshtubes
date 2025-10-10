@@ -1,13 +1,10 @@
 @extends('layouts.master')
 
-@section('title', 'Copper Nickel Cu-Ni 70/30 | Marine Grade Alloy')
-@section('meta_description',
-    'Copper Nickel 70/30 alloy with superior corrosion resistance in seawater and marine
-    environments.')
-@section('meta_keywords',
-    'Copper Nickel 70/30, Cu-Ni 70/30, marine grade copper alloy, seawater resistant alloy,
-    corrosion resistant copper nickel, durable copper nickel')
+@section('title', 'Copper Nickel Cu-Ni 70/30 | Seawater & Marine Alloy')
 
+@section('meta_description', 'Copper Nickel Alloy 70/30 (Cu-Ni) offers superior corrosion resistance, strength, and durability in seawater and harsh marine environments.')
+
+@section('meta_keywords', 'Copper Nickel 70/30, Cu-Ni 70/30 Alloy, Copper Nickel Marine Alloy, Seawater Resistant Copper Nickel, Corrosion Resistant Cu-Ni 70/30, Durable Copper Nickel, Industrial Copper Nickel Alloy')
 
 @section('content')
 
@@ -16,7 +13,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Copper Alloys CU-NI 70/30</h1>
+                    <h1>Copper Nickel Alloy 70/30 (Cu-Ni) <br> Marine Grade</h1>
                 </div>
             </div>
         </div>

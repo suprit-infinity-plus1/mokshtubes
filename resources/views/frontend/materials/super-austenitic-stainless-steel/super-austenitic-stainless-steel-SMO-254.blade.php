@@ -1,11 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'SMO 254 | Ultimate Chloride Resistant Alloy')
-@section('meta_description', 'SMO 254 stainless steel pipes, tubes & fittings offer unmatched chloride corrosion
-    resistance for marine, offshore, and chemical use.')
-@section('meta_keywords', 'SMO 254, Super Austenitic Stainless Steel, Chloride Resistant Alloy, Corrosion Resistant
-    Alloy, SMO 254 Pipes, SMO 254 Tubes, SMO 254 Fittings, Marine Industry Alloys, Offshore Industry Alloys, Chemical
-    Processing Alloys, Industrial Corrosion Resistant Alloys')
+@section('title', 'SMO 254 – Ultimate Chloride Resistant Alloy') <!-- 52 chars -->
+@section('meta_description', 'SMO 254 stainless steel pipes, tubes, and fittings offer unmatched chloride corrosion resistance for marine, offshore, and chemical applications.')
+@section('meta_keywords', 'SMO 254, Super Austenitic Stainless Steel, Chloride Resistant Alloy, Corrosion Resistant Alloy, SMO 254 Pipes, SMO 254 Tubes, SMO 254 Fittings, Marine Industry Alloys, Offshore Industry Alloys, Chemical Processing Alloys, Industrial Corrosion Resistant Alloys')
 
 @section('content')
 
@@ -14,11 +11,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>SMO 254</h1>
+                    <h1>SMO 254 <br> Chloride & Corrosion Resistant Stainless Steel</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

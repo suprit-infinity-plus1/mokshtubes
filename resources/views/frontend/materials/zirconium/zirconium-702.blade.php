@@ -1,11 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Zirconium 702 | High-Purity Corrosion Resistant Alloy')
-@section('meta_description', 'Premium Zirconium 702 alloy with excellent corrosion resistance and high purity for
-    chemical & nuclear applications.')
-@section('meta_keywords', 'Zirconium 702, High Purity Zirconium, Corrosion Resistant Zirconium, Zirconium 702 Pipes,
-    Zirconium 702 Tubes, Zirconium 702 Sheets, Chemical Processing Zirconium, Nuclear Industry Zirconium, Industrial
-    Zirconium Alloys, High Performance Zirconium Grades')
+@section('title', 'Zirconium 702 | High-Purity Corrosion Resistant')
+@section('meta_description', 'Zirconium 702 alloy offers excellent corrosion resistance and high purity, ideal for chemical, nuclear, and industrial applications.')
+@section('meta_keywords', 'Zirconium 702, High Purity Zirconium, Corrosion Resistant Zirconium, Zirconium 702 Pipes, Zirconium 702 Tubes, Zirconium 702 Sheets, Chemical Industry Zirconium, Nuclear Zirconium, Industrial Zirconium Alloys, High Performance Zirconium')
 
 @section('content')
 
@@ -14,11 +11,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Zirconium 702</h1>
+                    <h1>Zirconium 702 <br> High Purity & Corrosion Resistant Alloy</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

@@ -1,13 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Tantalum | Superior Corrosion & Heat Resistance')
-@section('meta_description',
-    'Tantalum provides exceptional corrosion resistance, high melting point, and durability,
-    ideal for chemical, electronics, aerospace, and industrial uses.')
-@section('meta_keywords',
-    'Tantalum, corrosion resistant metal, heat resistant metal, high melting point metal, chemical
-    industry metal, electronics metal, aerospace metal, durable Tantalum')
-
+@section('meta_description', 'Tantalum offers exceptional corrosion resistance, high melting point & durability for chemical, electronics, aerospace & industrial applications.')
+@section('meta_keywords', 'Tantalum, corrosion resistant metal, heat resistant metal, high melting point metal, chemical industry metal, electronics metal, aerospace metal, durable Tantalum')
 
 @section('content')
 
@@ -16,7 +11,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Tantalum</h1>
+                    <h1>Tantalum Alloy <br> Corrosion & Heat Resistant Metal</h1>
                 </div>
             </div>
         </div>

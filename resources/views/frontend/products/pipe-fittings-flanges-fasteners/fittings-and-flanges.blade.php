@@ -1,27 +1,20 @@
 @extends('layouts.master')
-@section('title', 'Flanges & Pipe Fittings | Moksh Tubes LLP')
+@section('title', 'Industrial Flanges & Pipe Fittings – Moksh Tubes') <!-- 52 characters -->
 @section('meta_description',
-    'High-quality flanges: stainless steel, weld neck, slip-on, blind. Explore flange types,
-    ASME B16.5 dimensions & industrial flange joints.')
-@section('meta_keywords',
-    'flanges, stainless steel flanges, weld neck flange, slip on flange, blind flange, pipe
-    flange, flange joint, b16 5 flange dimensions, orifice flange, spectacle blind flange')
+    'Moksh Tubes provides premium flanges – stainless steel, weld neck, slip-on & blind with ASME B16.5 dimensions for industrial piping systems.') <!-- 153 characters -->
+@section('meta_keywords', 'Industrial Flanges, Stainless Steel Flanges, Weld Neck Flanges, Slip-On Flanges, Blind Flanges, Pipe Fittings, ASME B16.5, Flange Joints, Orifice Flanges, Spectacle Blind Flanges')
 @section('content')
-    <!--Start breadcrumb area-->
-
-
-    <!--End mainmenu area-->
-
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Flanges & Pipe Fittings</h1>
+                    <h1>Premium Industrial Flanges for Pipe Systems</h1> <!-- 52 characters -->
                 </div>
             </div>
         </div>
     </section>
+
 
 
     <section class="sec-padd-top sec-padd-bottom bg-light">
@@ -1373,12 +1366,12 @@
             <div class="container">
             </div>
 
-            <div class="row">
+             <div class="row">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="https://placehold.co/300x150" alt="NICKLE ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}" alt="NICKLE ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1390,7 +1383,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="https://placehold.co/300x150" alt="STAINLESS STEEL">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}" alt="STAINLESS STEEL">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1402,7 +1395,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="https://placehold.co/300x150" alt="DUPLEX & SUPER">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}" alt="DUPLEX & SUPER">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1415,7 +1408,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="##">
-                                <img class="w-100" src="https://placehold.co/300x150" alt="TITANIUM ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}" alt="TITANIUM ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1427,7 +1420,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100">
-                                <img class="w-100" src="https://placehold.co/300x150" alt="RARE TO ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}" alt="RARE TO ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1439,7 +1432,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100">
-                                <img class="w-100" src="https://placehold.co/300x150" alt="CARBON ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}" alt="CARBON ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">

@@ -17,7 +17,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>INCOLOY 925</h1>
+                    <h1>Incoloy 925 <br> High Strength & Corrosion Resistant Alloy</h1>
                 </div>
             </div>
         </div>

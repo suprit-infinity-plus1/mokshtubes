@@ -1,11 +1,10 @@
 @extends('layouts.master')
 
 @section('title', 'Beryllium Copper Alloy | High Conductivity & Durability')
-@section('meta_description', 'Beryllium Copper offering superior electrical conductivity, strength, and wear
-    resistance.')
-@section('meta_keywords', 'Beryllium Copper, high conductivity copper alloy, durable copper alloy, wear resistant
-    copper, electrical copper alloy, industrial copper alloy')
 
+@section('meta_description', 'Beryllium Copper – premium alloy offering superior electrical conductivity, exceptional strength, and wear resistance for demanding industrial applications.')
+
+@section('meta_keywords', 'Beryllium Copper, high conductivity copper alloy, durable copper alloy, wear resistant copper, electrical copper alloy, industrial copper alloy')
 
 @section('content')
 
@@ -14,11 +13,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Beryllium Copper</h1>
+                    <h1>Beryllium Copper <br> High Conductivity & Durable Alloy</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

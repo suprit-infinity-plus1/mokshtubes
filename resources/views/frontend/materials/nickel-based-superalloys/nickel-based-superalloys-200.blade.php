@@ -1,9 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Nickel 200 | Commercial Pure Nickel Grade | Mokshtubes ')
-@section('meta_description',
-    ' Find premium Nickel 200 with excellent thermal & electrical conductivity and outstanding
-    corrosion resistance for diverse industrial applications. ')
+@section('title', 'Nickel 200 – Commercial Pure Nickel Grade') <!-- 52 chars -->
+@section('meta_description', 'Premium Nickel 200 offers excellent thermal and electrical conductivity along with outstanding corrosion resistance for diverse industrial applications.')
+@section('meta_keywords', 'Nickel 200, Commercial Nickel, Pure Nickel, Thermal Conductivity, Electrical Conductivity, Corrosion Resistant Nickel, Industrial Nickel, Nickel Alloy, High Purity Nickel')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -11,11 +10,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Nickel 200</h1>
+                    <h1>Nickel 200<br> High Purity Nickel with Great Conductivity</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

@@ -1,27 +1,20 @@
 @extends('layouts.master')
-@section('title', 'Custom Steel Furniture | Modern & Durable | Moksh Tubes')
+@section('title', 'Custom Steel Furniture – Modern, Durable & Stylish') <!-- 52 characters -->
 @section('meta_description',
-    'Discover premium custom steel furniture at Moksh Tubes – durable, rust-resistant & stylish. Perfect for homes, offices, hospitality & industrial spaces.')
-@section('meta_keywords',
-    'Custom Steel Furniture,Steel Furniture Manufacturers, Stainless Steel Furniture, Durable Steel
-    Furniture, Modern Steel Furniture Designs, Industrial Steel Furniture, Custom Steel Tables, Chairs, Racks, Cabinets,
-    Steel Furniture for Home & Office')
+    'Moksh Tubes offers premium custom steel furniture – rust-resistant, durable, and stylish, perfect for homes, offices, hospitality, and industrial applications.') <!-- 152 characters -->
+@section('meta_keywords', 'Custom Steel Furniture, Steel Furniture Manufacturers, Stainless Steel Furniture, Durable Steel Furniture, Modern Steel Furniture Designs, Industrial Steel Furniture, Custom Steel Tables, Chairs, Racks, Cabinets, Steel Furniture for Home & Office')
 @section('content')
-    <!--Start breadcrumb area-->
-
-
-    <!--End mainmenu area-->
-
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Custom Steel Furniture</h1>
+                    <h1>Premium Custom Steel Furniture Solutions</h1> <!-- 52 characters -->
                 </div>
             </div>
         </div>
     </section>
+
 
 
     <section class="sec-padd-top sec-padd-bottom bg-light">
@@ -418,12 +411,12 @@
             <div class="container">
             </div>
 
-            <div class="row">
+             <div class="row">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="https://placehold.co/300x150" alt="NICKLE ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}" alt="NICKLE ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -435,7 +428,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="https://placehold.co/300x150" alt="STAINLESS STEEL">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}" alt="STAINLESS STEEL">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -447,7 +440,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="https://placehold.co/300x150" alt="DUPLEX & SUPER">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}" alt="DUPLEX & SUPER">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -460,7 +453,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="##">
-                                <img class="w-100" src="https://placehold.co/300x150" alt="TITANIUM ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}" alt="TITANIUM ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -472,7 +465,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100">
-                                <img class="w-100" src="https://placehold.co/300x150" alt="RARE TO ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}" alt="RARE TO ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -484,7 +477,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100">
-                                <img class="w-100" src="https://placehold.co/300x150" alt="CARBON ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}" alt="CARBON ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">

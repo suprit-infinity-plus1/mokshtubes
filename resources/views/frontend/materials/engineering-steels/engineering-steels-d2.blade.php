@@ -1,10 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'D2 Tool Steel | High Carbon, High Chromium Steel')
-@section('meta_description', 'D2 Tool Steel providing superior wear resistance and toughness for cutting tools and
-    dies.')
-@section('meta_keywords', 'D2 Tool Steel, high carbon steel, high chromium steel, wear resistant steel, tough tool
-    steel, cutting tools steel, die steel, industrial tool steel')
+@section('title', 'D2 Tool Steel | High Carbon, High Chromium Alloy')
+@section('meta_description', 'D2 Tool Steel offering exceptional wear resistance and toughness for cutting tools, dies, and industrial applications.')
+@section('meta_keywords', 'D2 Tool Steel, high carbon steel, high chromium steel, wear resistant steel, tough tool steel, cutting tools steel, die steel, industrial tool steel')
 
 @section('content')
 
@@ -13,7 +11,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Engineering Steel D2</h1>
+                    <h1>Premium D2 Tool Steel for Industrial Applications</h1>
                 </div>
             </div>
         </div>

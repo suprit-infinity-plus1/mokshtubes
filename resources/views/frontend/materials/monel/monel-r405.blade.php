@@ -1,13 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Monel R405 Alloy – Premium Strength & Machinability')
-@section('meta_description',
-    'Discover Monel R405 Alloy with superior corrosion resistance, high strength & exceptional
-    machinability for marine, chemical & industrial success.')
-@section('meta_keywords',
-    'Monel R405, Monel R405 Alloy, Nickel-Copper Alloy, High Strength Alloy, Corrosion Resistant
-    Alloy, Marine Industry Alloys, Chemical Processing Alloys, Oilfield Alloys, Machinable Nickel Alloys, Durable Nickel
-    Alloys')
+@section('title', 'Monel R405 Alloy – Premium Strength & Machinability') <!-- 53 chars -->
+@section('meta_description', 'Monel R405 Alloy offers superior corrosion resistance, high strength, and exceptional machinability for marine, chemical, and industrial applications.')
+@section('meta_keywords', 'Monel R405, Monel R405 Alloy, Nickel-Copper Alloy, High Strength Alloy, Corrosion Resistant Alloy, Marine Industry Alloys, Chemical Processing Alloys, Oilfield Alloys, Machinable Nickel Alloys, Durable Nickel Alloys')
 
 @section('content')
 
@@ -16,11 +11,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Monel R405</h1>
+                    <h1>Monel R405 <br> High Strength & Machinable Alloy</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

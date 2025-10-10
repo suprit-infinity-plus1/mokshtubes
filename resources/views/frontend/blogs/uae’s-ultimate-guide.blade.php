@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Seamless vs Welded Pipes: UAE’s Ultimate Guide')
+@section('title', 'Seamless vs Welded Pipes in UAE | Key Differences & Guide')
 @section('meta_description',
     'Learn the difference between seamless and welded pipes for UAE projects. Compare cost,
     strength & applications to choose the best option.')
@@ -58,7 +58,8 @@
                                         <h2>What Are Seamless Pipes? – The Premium Choice</h2>
                                     </div>
                                     <p>
-                                        <a href="{{ route('products.pipes-tubes.seamless-pipes') }}">Seamless pipes</a> are produced from solid steel billets, heated to around 1200°C, and
+                                        <a href="{{ route('products.pipes-tubes.seamless-pipes') }}">Seamless pipes</a> are
+                                        produced from solid steel billets, heated to around 1200°C, and
                                         pierced to create a hollow tube. The result? A pipe without welds or seams.
                                     </p>
                                     <div class="exapmle">
@@ -99,7 +100,8 @@
                                         <h2>What Are Welded Pipes? – The Versatile Workhorses</h2>
                                     </div>
                                     <p>
-                                        <a href="{{ route('products.pipes-tubes.welded-pipes') }}">Welded pipes</a> are made by rolling flat steel plates into cylindrical form and welding
+                                        <a href="{{ route('products.pipes-tubes.welded-pipes') }}">Welded pipes</a> are made
+                                        by rolling flat steel plates into cylindrical form and welding
                                         the edges together. While less expensive, they’re highly reliable in many
                                         industries.
                                     </p>
@@ -139,7 +141,8 @@
                                 <section id="blog-area" class="blog-with-sidebar-area blog-single-area">
                                     <div class="container">
                                         <div class="blog-title">
-                                            <h2><a href="{{ route('blogs.welded-vs-seamless') }}">Seamless vs Welded Pipes</a> Quick Comparison</h2>
+                                            <h2><a href="{{ route('blogs.welded-vs-seamless') }}">Seamless vs Welded
+                                                    Pipes</a> Quick Comparison</h2>
                                         </div>
 
                                         <div class="row justify-content-center">
@@ -339,7 +342,9 @@
                                     <div class="col-6 d-flex w-100">
                                         <div class="tip-box-point">
                                             <div class="tip-box">
-                                                <h3>Choose <a href="{{ route('products.pipes-tubes.seamless-pipes') }}">Seamless Pipes</a> When:</h3>
+                                                <h3>Choose <a
+                                                        href="{{ route('products.pipes-tubes.seamless-pipes') }}">Seamless
+                                                        Pipes</a> When:</h3>
                                                 <ul>
                                                     <li>
                                                         Safety critical systems.
@@ -362,7 +367,9 @@
 
                                         <div class="tip-box-point">
                                             <div class="tip-box">
-                                                <h3>Choose <a href="{{ route('products.pipes-tubes.welded-pipes') }}">Welded Pipes</a> When:</h3>
+                                                <h3>Choose <a
+                                                        href="{{ route('products.pipes-tubes.welded-pipes') }}">Welded
+                                                        Pipes</a> When:</h3>
                                                 <ul>
                                                     <li>
                                                         Budget is tight.
@@ -397,8 +404,8 @@
 
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>Can welded pipes be used for high-pressure oil & gas
-                                                                applications in the UAE?</h4>
+                                                            <h3>Can welded pipes be used for high-pressure oil & gas
+                                                                applications in the UAE?</h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>Welded pipes can handle moderate pressures, but most UAE oil
@@ -410,8 +417,8 @@
 
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>Are seamless pipes worth the higher cost for Dubai
-                                                                construction projects?</h4>
+                                                            <h3>Are seamless pipes worth the higher cost for Dubai
+                                                                construction projects?</h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>For regular plumbing, HVAC, and fire systems, welded pipes
@@ -423,8 +430,8 @@
 
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>How do UAE’s harsh environmental conditions affect pipe
-                                                                performance?</h4>
+                                                            <h3>How do UAE’s harsh environmental conditions affect pipe
+                                                                performance?</h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>With high heat, humidity, and salty coastal air, corrosion
@@ -436,22 +443,28 @@
 
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>What’s the delivery time difference between seamless and
-                                                                welded pipes in the UAE?</h4>
+                                                            <h3>What’s the delivery time difference between seamless and
+                                                                welded pipes in the UAE?</h3>
                                                         </div>
                                                         <div class="accord-content">
-                                                            <p><a href="{{ route('products.pipes-tubes.welded-pipes') }}">Welded pipes</a> are locally available with 2–4 week delivery.
-                                                                <a href="{{ route('products.pipes-tubes.seamless-pipes') }}">Seamless pipes</a>, often imported, may require 6–12 weeks
-                                                                depending on specifications.</p>
+                                                            <p><a href="{{ route('products.pipes-tubes.welded-pipes') }}">Welded
+                                                                    pipes</a> are locally available with 2–4 week delivery.
+                                                                <a
+                                                                    href="{{ route('products.pipes-tubes.seamless-pipes') }}">Seamless
+                                                                    pipes</a>, often imported, may require 6–12 weeks
+                                                                depending on specifications.
+                                                            </p>
                                                         </div>
                                                     </div>
 
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>Which pipe type is better for UAE desalination plants?</h4>
+                                                            <h3>Which pipe type is better for UAE desalination plants?</h3>
                                                         </div>
                                                         <div class="accord-content">
-                                                            <p>Most desalination plants use both <a href="{{ route('products.pipes-tubes.seamless-pipes') }}">seamless pipes</a> for
+                                                            <p>Most desalination plants use both <a
+                                                                    href="{{ route('products.pipes-tubes.seamless-pipes') }}">seamless
+                                                                    pipes</a> for
                                                                 high pressure RO (reverse osmosis) systems, and welded pipes
                                                                 for low pressure water distribution.</p>
                                                         </div>
@@ -470,7 +483,8 @@
                                     </div>
                                     <div class="text">
                                         <p>
-                                            <a href="{{ route('index') }}">Moksh Tubes</a>, we know how critical this decision is whether it’s a high pressure
+                                            <a href="{{ route('index') }}">Moksh Tubes</a>, we know how critical this
+                                            decision is whether it’s a high pressure
                                             oil & gas system, a Dubai skyscraper, or municipal water supply. Our team has
                                             helped engineers, contractors, and project managers across the Emirates make
                                             smart, cost-effective pipe choices that last.
@@ -489,37 +503,76 @@
                 <div class="col-lg-3 col-md-12 col-sm-7 col-xs-12">
                     <div class="sidebar-wrapper">
                         <!--Start single sidebar-->
-                        <div class="single-sidebar mb-4">
-                            <div class="sec-title">
-                                <h3>Categories</h3>
+                        <div class="container ">
+                            <div class="row justify-content-center">
+                                <div class="col-md-12">
+                                    <h4 class="fw-bold mb-4">Products We Offer</h4>
+                                    <ul class="list-unstyled mb-4">
+                                        <li class="product-item mb-2">
+                                            <a href="{{ route('products.pipes-tubes') }}" class="product-link">
+                                                <i class="bi bi-box-seam me-2"></i> Pipes & Tubes
+                                            </a>
+                                        </li>
+                                        <li class="product-item mb-2">
+                                            <a href="{{ route('products.sheets-plates-coils') }}" class="product-link">
+                                                <i class="bi bi-square me-2"></i> Sheets, Plates & Coils
+                                            </a>
+                                        </li>
+                                        <li class="product-item mb-2">
+                                            <a href="{{ route('products.bars-rods') }}" class="product-link">
+                                                <i class="bi bi-diagram-3 me-2"></i> Bars & Rods
+                                            </a>
+                                        </li>
+                                        <li class="product-item mb-2">
+                                            <a href="{{ route('products.special-fabricated') }}" class="product-link">
+                                                <i class="bi bi-tools me-2"></i> Special Fabricated
+                                            </a>
+                                        </li>
+                                        <li class="product-item mb-2">
+                                            <a href="{{ route('products.pipe-fittings-flanges-fasteners') }}"
+                                                class="product-link">
+                                                <i class="bi bi-nut me-2"></i> Pipe Fittings, Flanges & Fasteners
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                            <ul class="categories clearfix">
-                                <li>
-                                    <a href="#">
-                                        Architecture Plans
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Construction Projects
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Paintings
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Electrical Works
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Plumbing Works
-                                    </a>
-                                </li>
-                            </ul>
+                        </div>
+
+
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-md-12">
+                                    <h4 class="fw-bold mb-4">Categories</h4>
+                                    <ul class="list-unstyled mb-4">
+                                        <li class="category-item mb-2">
+                                            <a href="#" class="category-link">
+                                                <i class="bi bi-building me-2"></i> Architecture Plans
+                                            </a>
+                                        </li>
+                                        <li class="category-item mb-2">
+                                            <a href="#" class="category-link">
+                                                <i class="bi bi-hammer me-2"></i> Construction Projects
+                                            </a>
+                                        </li>
+                                        <li class="category-item mb-2">
+                                            <a href="#" class="category-link">
+                                                <i class="bi bi-brush me-2"></i> Paintings
+                                            </a>
+                                        </li>
+                                        <li class="category-item mb-2">
+                                            <a href="#" class="category-link">
+                                                <i class="bi bi-lightning-charge me-2"></i> Electrical Works
+                                            </a>
+                                        </li>
+                                        <li class="category-item mb-2">
+                                            <a href="#" class="category-link">
+                                                <i class="bi bi-tools me-2"></i> Plumbing Works
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                         <!--End single sidebar-->
                         <!--Start single sidebar-->
@@ -588,7 +641,8 @@
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a href="{{ route('blogs.india’s-stainless-steel-export-industry') }}">
+                                                    <a
+                                                        href="{{ route('blogs.india’s-stainless-steel-export-industry') }}">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -610,7 +664,66 @@
                             </ul>
                         </div>
                         <!--End single sidebar-->
+                        <div class="container my-5">
+                            <div class="row justify-content-center">
+                                <div class="col-md-12">
+                                    <div class="card-body ">
+                                        <!-- Heading -->
+                                        <div class="section-title">
+                                            <h2>Locate <span class="thm-color">Us</span></h2>
+                                            {{-- <p>Let’s forge a connection — contact our team today.</p> --}}
+                                        </div>
 
+                                        <!-- Map -->
+                                        <div class="mb-3 text-center">
+                                            <iframe
+                                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.4406978634916!2d72.82619187387158!3d18.956134955727215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf9ee4261af1%3A0x57adb33b0f4c262!2sMoksh%20Tubes%20%26%20Fittings%20LLP!5e0!3m2!1sen!2sin!4v1759749318402!5m2!1sen!2sin"
+                                                width="100%" height="200" style="border:0;" allowfullscreen=""
+                                                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        </div>
+
+                                        <!-- Contact Info -->
+                                        <p class="mb-2"><i class="bi bi-envelope me-2 text-primary"></i>
+                                            info@mokstubes.com</p>
+                                        <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
+                                            <strong>Office Address:</strong> Hinglaj Bhavan, Gulalwadi Mumbai, Maharashtra.
+                                            400004
+                                        </p>
+                                        <p class="mb-2"><i class="bi bi-geo-alt me-2 text-success"></i>
+                                            <strong>Office Address:</strong> 6/A, Ground Floor, Rajwanti Mansion, Khetwadi
+                                            Mumbai
+                                        </p>
+                                        <p class="mb-2"><i class="bi bi-geo-alt me-2 text-info"></i>
+                                            <strong>Office Address:</strong> 95/95A, Dawood Baug, Sukhlaji Street,
+                                            Kamatipura Mumbai
+                                        </p>
+                                         <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
+                                                <strong>Office Address:</strong> 92E, Plot No. 3, New Tank Bunder, Darukhana, Mumbai, Maharashtra- 400 010.
+                                            </p>
+
+                                        <!-- Social Icons -->
+                                        {{-- <div class="mt-3 text-center">
+                                            <a href="https://wa.me/+919769584950"
+                                                class="btn btn-outline-success btn-sm rounded-circle me-2"><i
+                                                    class="bi bi-whatsapp"></i></a>
+                                            <a href="https://www.instagram.com/mokshtubesandfittingsllp/"
+                                                class="btn btn-outline-dark btn-sm rounded-circle me-2"><i
+                                                    class="bi bi-instagram"></i></a>
+                                            <a href="https://www.facebook.com/mokshtubes/"
+                                                class="btn btn-outline-primary btn-sm rounded-circle me-2"><i
+                                                    class="bi bi-facebook"></i></a>
+                                            <a href="https://www.linkedin.com/company/moksh-tubes/"
+                                                class="btn btn-outline-info btn-sm rounded-circle"><i
+                                                    class="bi bi-linkedin"></i></a>
+                                            <a href="https://x.com/Moksh_Tubes"
+                                                class="btn btn-outline-info btn-sm rounded-circle"><i
+                                                    class="fab fa-x-twitter"></i></a>
+
+                                        </div> --}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         {{-- Start contant form --}}
                         <section class="blog-contact-form">
                             <div class="section-title">
@@ -662,10 +775,11 @@
                 <h2>Contact Us</h2>
                 <p>
                     Looking for a trusted DIN-standard alloy and industrial tube supplier in Germany?<br> Connect with
-                    <strong>Mokshtubes LLP</strong> today and discover how our materials can enhance your manufacturing
+                    <strong>Mokshtubes & Fittings LLP</strong> today and discover how our materials can enhance your
+                    manufacturing
                     capabilities.
                 </p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch

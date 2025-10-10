@@ -13,7 +13,8 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Copper Alloys Naval Brass</h1>
+                    <h1>Copper Alloys Naval Brass <br> Corrosion Resistant Grade</h1>
+
                 </div>
             </div>
         </div>

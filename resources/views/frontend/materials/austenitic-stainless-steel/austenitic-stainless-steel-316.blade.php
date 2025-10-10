@@ -1,20 +1,18 @@
 @extends('layouts.master')
 
 @section('title', 'Austenitic Stainless Steel 316 | Marine Grade SS')
-@section('meta_description', 'Corrosion-resistant Austenitic Stainless Steel 316 pipes & fittings ideal for marine,
-    chemical, and food processing industries.')
-@section('meta_keywords', 'Austenitic Stainless Steel 316, Stainless Steel 316 Pipes, Stainless Steel 316 Tubes,
-    Stainless Steel 316 Fittings, Marine Grade Stainless Steel 316, Corrosion Resistant Stainless Steel 316, Chemical
-    Processing Stainless Steel 316, Food Grade Stainless Steel 316, Industrial Stainless Steel 316, High Strength Stainless
-    Steel 316')
+
+@section('meta_description', 'Austenitic Stainless Steel 316 – marine-grade alloy offering superior corrosion resistance for marine, chemical, and food processing applications.')
+
+@section('meta_keywords', 'Austenitic Stainless Steel 316, Stainless Steel 316 Pipes, Stainless Steel 316 Tubes, Stainless Steel 316 Fittings, Marine Grade Stainless Steel 316, Corrosion Resistant Stainless Steel 316, Chemical Processing Stainless Steel 316, Food Grade Stainless Steel 316, Industrial Stainless Steel 316, High Strength Stainless Steel 316')
 
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/austenitic-stainless-steel/austenitic-stainless-steel-316.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Austenitic Stainless Steel 316</h1>
+                    <h1>Austenitic Stainless Steel 316 <br> Marine Corrosion-Resistant Alloy</h1>
                 </div>
             </div>
         </div>

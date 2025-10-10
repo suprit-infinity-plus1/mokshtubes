@@ -1,11 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Titanium Grade 7 | Corrosion Resistant Titanium Alloy')
-@section('meta_description', 'Titanium Grade 7 providing excellent resistance to oxidizing and reducing environments in
-    chemical industries.')
-@section('meta_keywords', 'Titanium Grade 7, Corrosion Resistant Titanium, Titanium Grade 7 Pipes, Titanium Grade 7
-    Tubes, Titanium Grade 7 Sheets, Oxidizing Resistant Titanium, Reducing Environment Titanium, Chemical Industry Titanium,
-    Industrial Titanium Alloys, High Performance Titanium')
+@section('title', 'Titanium Grade 7 – Corrosion Resistant Titanium Alloy') <!-- 52 chars -->
+@section('meta_description', 'Titanium Grade 7 provides excellent corrosion resistance in both oxidizing and reducing environments, ideal for chemical, marine, and industrial applications.')
+@section('meta_keywords', 'Titanium Grade 7, Corrosion Resistant Titanium, Titanium Grade 7 Pipes, Titanium Grade 7 Tubes, Titanium Grade 7 Sheets, Oxidizing Resistant Titanium, Reducing Environment Titanium, Chemical Industry Titanium, Industrial Titanium Alloys, High Performance Titanium')
 
 @section('content')
 
@@ -14,11 +11,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Titanium Grade 7</h1>
+                    <h1>Titanium Grade 7 <br> High Corrosion Resistant Alloy</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

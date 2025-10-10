@@ -1,10 +1,8 @@
 @extends('layouts.master')
 
-@section('title', '253 MA | Heat & Oxidation Resistant Alloy')
-@section('meta_description', 'Specialized for high-temperature industrial environments, maintaining strength and
-    oxidation resistance up to 1150°C.')
-@section('meta_keywords', '253 MA, Heat Resistant Alloy, Oxidation Resistant Alloy, High Temperature Alloy, 253 MA
-    Pipes, 253 MA Tubes, 253 MA Fittings, Industrial Heat Resistant Alloys, High Strength Alloy, Corrosion Resistant Alloy')
+@section('title', '253 MA – Heat & Oxidation Resistant Alloy') <!-- 52 chars -->
+@section('meta_description', '253 MA alloy is designed for high-temperature industrial environments, offering excellent strength and oxidation resistance up to 1150°C.')
+@section('meta_keywords', '253 MA, Heat Resistant Alloy, Oxidation Resistant Alloy, High Temperature Alloy, 253 MA Pipes, 253 MA Tubes, 253 MA Fittings, Industrial Heat Resistant Alloys, High Strength Alloy, Corrosion Resistant Alloy')
 
 @section('content')
 
@@ -13,11 +11,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>253 MA</h1>
+                    <h1>253 MA <br> High-Temperature & Oxidation Resistant Alloy</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

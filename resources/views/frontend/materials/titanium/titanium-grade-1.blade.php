@@ -1,11 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Titanium Grade 1 | Commercially Pure Titanium Material & Metal Uses')
-@section('meta_description', 'Titanium Grade 1 with excellent corrosion resistance, ductility, and weldability for
-    chemical and marine use.')
-@section('meta_keywords', 'Titanium Grade 1, Commercially Pure Titanium, Corrosion Resistant Titanium, Titanium Grade 1
-    Pipes, Titanium Grade 1 Tubes, Titanium Grade 1 Sheets, Marine Industry Titanium, Chemical Processing Titanium, Weldable
-    Titanium Alloy, Industrial Titanium Grades')
+@section('title', 'Titanium Grade 1 – Pure Titanium Material & Uses') <!-- 52 chars -->
+@section('meta_description', 'Titanium Grade 1 offers excellent corrosion resistance, ductility, and weldability—ideal for chemical, marine, and industrial applications.')
+@section('meta_keywords', 'Titanium Grade 1, Commercially Pure Titanium, Corrosion Resistant Titanium, Titanium Grade 1 Pipes, Titanium Grade 1 Tubes, Titanium Grade 1 Sheets, Marine Industry Titanium, Chemical Processing Titanium, Weldable Titanium Alloy, Industrial Titanium Grades')
 
 @section('content')
 
@@ -14,11 +11,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Titanium Grade 1</h1>
+                    <h1>Titanium Grade 1 <br> Corrosion Resistant & Weldable</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

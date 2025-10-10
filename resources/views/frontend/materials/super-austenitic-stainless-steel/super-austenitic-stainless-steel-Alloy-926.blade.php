@@ -1,13 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Alloy 926 | High-Performance Super Austenitic')
-@section('meta_description',
-    'Alloy 926 pipes, tubes & fittings with excellent pitting, crevice, and chloride corrosion
-    resistance for harsh marine & chemical use.')
-@section('meta_keywords',
-    'Alloy 926, Super Austenitic Stainless Steel, Corrosion Resistant Alloy, Alloy 926 Pipes,
-    Alloy 926 Tubes, Alloy 926 Fittings, Pitting Resistant Alloy, Crevice Corrosion Resistant, Chloride Resistant Alloy,
-    Marine Industry Alloys, Chemical Processing Alloys')
+@section('title', 'Alloy 926 – High-Performance Super Austenitic') <!-- 52 chars -->
+@section('meta_description', 'Alloy 926 pipes, tubes, and fittings offer excellent pitting, crevice, and chloride corrosion resistance for harsh marine and chemical environments.')
+@section('meta_keywords', 'Alloy 926, Super Austenitic Stainless Steel, Corrosion Resistant Alloy, Alloy 926 Pipes, Alloy 926 Tubes, Alloy 926 Fittings, Pitting Resistant Alloy, Crevice Corrosion Resistant, Chloride Resistant Alloy, Marine Industry Alloys, Chemical Processing Alloys')
 
 @section('content')
 
@@ -16,11 +11,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Alloy 926</h1>
+                    <h1>Alloy 926 <br> Super Austenitic & Corrosion Resistant</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

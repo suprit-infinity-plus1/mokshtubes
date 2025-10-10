@@ -1,14 +1,10 @@
 @extends('layouts.master')
 
-@section('title', 'Cartridge Brass Alloy | Reliable & Corrosion Resistant')
-@section('meta_description',
-    'Cartridge Brass with excellent machinability and corrosion resistance for general
-    engineering applications.')
-@section('meta_keywords',
-    'Cartridge Brass, C26000 brass, corrosion resistant brass, machinable brass alloy, general
-    engineering brass, durable brass alloy')
+@section('title', 'Cartridge Brass C26000 | Machinability & Corrosion Resistance')
 
+@section('meta_description', 'Cartridge Brass Alloy C26000 offers excellent machinability, durability, and corrosion resistance for engineering, marine, and industrial uses.')
 
+@section('meta_keywords', 'Cartridge Brass C26000, C26000 brass alloy, machinable brass, corrosion resistant brass, durable brass alloy, general engineering brass, marine brass alloy, industrial brass grade')
 
 @section('content')
 
@@ -17,11 +13,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Copper Alloys C26000 Cartridge Brass</h1>
+                    <h1>Cartridge Brass Alloy C26000 <br> Durable & Corrosion Resistant</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

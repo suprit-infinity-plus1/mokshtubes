@@ -1,24 +1,23 @@
 @extends('layouts.master')
 
 @section('title', 'Austenitic Stainless Steel 304 | Premium Quality SS')
-@section('meta_description', 'High-grade Austenitic Stainless Steel 304 pipes & fittings with excellent corrosion
-    resistance.')
-@section('meta_keywords', 'Austenitic Stainless Steel 304, Stainless Steel 304 Pipes, Stainless Steel 304 Tubes,
-    Stainless Steel 304 Fittings, Corrosion Resistant Stainless Steel 304, Premium Quality Stainless Steel, Industrial
-    Stainless Steel 304, Marine Grade Stainless Steel 304, Chemical Processing Stainless Steel 304, High Strength Stainless
-    Steel 304')
+
+@section('meta_description', 'Austenitic Stainless Steel 304 – premium grade pipes and fittings offering exceptional corrosion resistance, durability, and high strength for diverse applications.')
+
+@section('meta_keywords', 'Austenitic Stainless Steel 304, Stainless Steel 304 Pipes, Stainless Steel 304 Tubes, Stainless Steel 304 Fittings, Corrosion Resistant Stainless Steel 304, Premium Quality Stainless Steel, Industrial Stainless Steel 304, Marine Grade Stainless Steel 304, Chemical Processing Stainless Steel 304, High Strength Stainless Steel 304')
 
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/austenitic-stainless-steel/austenitic-stainless-steel-304.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Austenitic Stainless Steel 304</h1>
+                    <h1>Austenitic Stainless Steel 304 <br> Premium Corrosion-Resistant Alloy</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

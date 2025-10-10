@@ -1,24 +1,23 @@
 @extends('layouts.master')
-@section('title', 'Pipes & Tubes - Welded, Seamless, U-Bend, Boiler Tubes | Mokshtubes')
+@section('title', 'Premium Pipes & Tubes – Welded, Seamless & Capillaries') <!-- 53 characters -->
 @section('meta_description',
-    'Explore premium Pipes & Tubes including welded, seamless, capillaries, hollow sections, U-bent, and boiler tubes in
-    stainless steel, nickel alloys & more.')
+    'Moksh Tubes supplies high-quality pipes and tubes including welded, seamless, capillaries,
+    hollow sections, U-bent & boiler tubes in stainless steel, nickel & titanium alloys.') <!-- 153 characters -->
+@section('meta_keywords',
+    'Pipes, Tubes, Welded Pipes, Seamless Pipes, Capillaries, Hollow Section Pipes, U-Bent Tubes,
+    Boiler Tubes, Stainless Steel Pipes, Nickel Tubes, Titanium Tubes')
 @section('content')
-    <!--Start breadcrumb area-->
-
-
-    <!--End mainmenu area-->
-
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Pipes & Tubes</h1>
+                    <h1>High-Quality Industrial Pipes & Tubes</h1> <!-- 52 characters -->
                 </div>
             </div>
         </div>
     </section>
+
 
 
     <section class="sec-padd-top sec-padd-bottom bg-white">
@@ -70,7 +69,7 @@
                                 {{-- <img src="https://placehold.co/600x350/db7227/fff?" class="img-fluid w-100"
                                     alt="{{ $type['name'] }}"> --}}
                                 <img src="{{ asset($type['image'] ?? 'assets/images/default.jpg') }}"
-                                    alt="{{ $type['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+                                    alt="{{ $type['name'] }}" class="img-fluid rounded" style="border-radius: 8px;">
                                 <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center"
                                     style="background: rgba(23, 66, 104, 0.65); transition: 0.3s;">
                                     <h5 class="text-white text-center fw-bold text-uppercase">{{ $type['name'] }}</h5>

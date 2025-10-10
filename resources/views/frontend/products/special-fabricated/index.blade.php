@@ -1,19 +1,16 @@
 @extends('layouts.master')
-@section('title', 'Special Fabricated Products - Custom Steel & Alloy | Moksh Tubes')
+@section('title', 'Special Fabricated Products – Steel & Stainless Solutions') <!-- 53 characters -->
 @section('meta_description',
-    'Discover Special Fabricated Products at Moksh Tubes – custom steel, alloy & stainless solutions. Precision-made, high quality & global fabrication standards.')
+    'Mokshtubes offers special fabricated products including custom steel furniture, stainless steel grills, railings, and glass solutions designed for durability, functionality, and modern style.') <!-- 153 characters -->
+@section('meta_keywords',
+    'special fabricated, custom steel furniture, stainless steel grills, railings, glass solutions, modern fabricated products, durable fabricated items, custom metal works, industrial steel fabrication')
 @section('content')
-    <!--Start breadcrumb area-->
-
-
-    <!--End mainmenu area-->
-
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Special Fabricated</h1>
+                    <h1>Premium Special Fabricated Products</h1> <!-- 52 characters -->
                 </div>
             </div>
         </div>
@@ -39,6 +36,16 @@
                             'slug' => 'fabricated-ss-grills',
                             'image' => 'assets/images/peoduct/seamless-pipes-2.webp',
                         ],
+                        [
+                            'name' => 'SS Railings',
+                            'slug' => 'ss-railings',
+                            'image' => 'assets/images/peoduct/seamless-pipes-2.webp',
+                        ],
+                          [
+                            'name' => 'Glass Railings',
+                            'slug' => 'glass-railings',
+                            'image' => 'assets/images/peoduct/seamless-pipes-2.webp',
+                        ],
                         // [
                         //     'name' => 'Capillaries',
                         //     'slug' => 'capillaries',
@@ -59,7 +66,7 @@
                                 {{-- <img src="https://placehold.co/600x350/db7227/fff?" class="img-fluid w-100"
                                     alt="{{ $type['name'] }}"> --}}
                                 <img src="{{ asset($type['image'] ?? 'assets/images/default.jpg') }}"
-                                    alt="{{ $type['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+                                    alt="{{ $type['name'] }}" class="img-fluid rounded " style="border-radius: 8px;">
                                 <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center"
                                     style="background: rgba(23, 66, 104, 0.65); transition: 0.3s;">
                                     <h5 class="text-white text-center fw-bold text-uppercase">{{ $type['name'] }}</h5>

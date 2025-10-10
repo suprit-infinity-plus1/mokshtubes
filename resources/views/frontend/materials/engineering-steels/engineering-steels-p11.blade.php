@@ -1,10 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'P11 Alloy Steel | Alloy Steel for High Temperature Applications')
-@section('meta_description', 'P11 Alloy Steel designed for high-temperature pressure vessels and pipework in power
-    plants.')
-@section('meta_keywords', 'P11 Alloy Steel, high temperature alloy steel, pressure vessel steel, boiler steel, power
-    plant steel, industrial alloy steel')
+@section('title', 'P11 Alloy Steel | High Temperature Pressure Vessel Steel')
+@section('meta_description', 'P11 Alloy Steel designed for high-temperature pressure vessels, boilers, and pipework in power plants.')
+@section('meta_keywords', 'P11 Alloy Steel, high temperature alloy steel, pressure vessel steel, boiler steel, power plant steel, industrial alloy steel')
 
 @section('content')
 
@@ -13,11 +11,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Engineering Steel P11</h1>
+                    <h1>High Temperature P11 Alloy Steel</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

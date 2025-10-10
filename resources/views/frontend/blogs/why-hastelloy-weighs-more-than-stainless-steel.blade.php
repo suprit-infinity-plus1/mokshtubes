@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Why Hastelloy Weighs More Than Stainless Steel | Density Guide ')
+@section('title', 'Why Hastelloy Weighs More Than Stainless Steel. ')
 @section('meta_description',
     'Learn why Hastelloy is heavier than stainless steel. Compare densities, compositions, and
     industrial applications with expert insights.')
@@ -106,13 +106,21 @@
                                             <h3>Composition and Characteristics</h3>
 
                                             <ul>
-                                                <li>304 Stainless Steel: 18% chromium, 8% nickel</li>
-                                                <li>316 Stainless Steel: 16% chromium, 10% nickel, 2% molybdenum</li>
-                                                <li>310 Stainless Steel: 25% chromium, 20% nickel (high-temperature grade)
+                                                <li><a
+                                                        href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-304') }}">304
+                                                        Stainless Steel</a> 18% chromium, 8% nickel</li>
+                                                <li><a
+                                                        href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-316') }}">316
+                                                        Stainless Steel</a> 16% chromium, 10% nickel, 2% molybdenum</li>
+                                                <li><a
+                                                        href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-310') }}">310
+                                                        Stainless Steel</a> 25% chromium, 20% nickel (high-temperature
+                                                    grade)
                                                 </li>
                                             </ul>
                                         </div>
-                                        <p>Unlike nickel alloys such as Hastelloy, stainless steel relies primarily on iron
+                                        <p>Unlike <a href="{{ route('materials.nickel-Based-Superalloys') }}">nickel
+                                                alloys</a> such as Hastelloy, stainless steel relies primarily on iron
                                             as its
                                             base metal, contributing to its lighter weight profile.</p>
 
@@ -147,7 +155,7 @@
                                                     weight but essential for chemical resistance.</li>
                                                 <li><strong>Cobalt Presence:</strong> Density 8.9 g/cm³, contributes to both
                                                     weight and
-                                                    high-temperature strength.</li>
+                                                    high temperature strength.</li>
                                             </ul>
                                         </div>
 
@@ -272,8 +280,8 @@
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>How much heavier is Hastelloy compared to stainless steel?
-                                                            </h4>
+                                                            <h3>How much heavier is Hastelloy compared to stainless steel?
+                                                            </h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>
@@ -288,7 +296,7 @@
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>Does the extra weight affect Hastelloy's performance?</h4>
+                                                            <h3>Does the extra weight affect Hastelloy's performance?</h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>
@@ -304,8 +312,8 @@
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>Can I substitute stainless steel for Hastelloy to save
-                                                                weight?</h4>
+                                                            <h3>Can I substitute stainless steel for Hastelloy to save
+                                                                weight?</h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>
@@ -321,7 +329,7 @@
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>Are there lightweight Hastelloy alternatives?</h4>
+                                                            <h3>Are there lightweight Hastelloy alternatives?</h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>
@@ -376,37 +384,76 @@
                 <div class="col-lg-3 col-md-12 col-sm-7 col-xs-12">
                     <div class="sidebar-wrapper">
                         <!--Start single sidebar-->
-                        <div class="single-sidebar">
-                            <div class="sec-title">
-                                <h3>Categories</h3>
+                        <div class="container ">
+                            <div class="row justify-content-center">
+                                <div class="col-md-12">
+                                    <h4 class="fw-bold mb-4">Products We Offer</h4>
+                                    <ul class="list-unstyled mb-4">
+                                        <li class="product-item mb-2">
+                                            <a href="{{ route('products.pipes-tubes') }}" class="product-link">
+                                                <i class="bi bi-box-seam me-2"></i> Pipes & Tubes
+                                            </a>
+                                        </li>
+                                        <li class="product-item mb-2">
+                                            <a href="{{ route('products.sheets-plates-coils') }}" class="product-link">
+                                                <i class="bi bi-square me-2"></i> Sheets, Plates & Coils
+                                            </a>
+                                        </li>
+                                        <li class="product-item mb-2">
+                                            <a href="{{ route('products.bars-rods') }}" class="product-link">
+                                                <i class="bi bi-diagram-3 me-2"></i> Bars & Rods
+                                            </a>
+                                        </li>
+                                        <li class="product-item mb-2">
+                                            <a href="{{ route('products.special-fabricated') }}" class="product-link">
+                                                <i class="bi bi-tools me-2"></i> Special Fabricated
+                                            </a>
+                                        </li>
+                                        <li class="product-item mb-2">
+                                            <a href="{{ route('products.pipe-fittings-flanges-fasteners') }}"
+                                                class="product-link">
+                                                <i class="bi bi-nut me-2"></i> Pipe Fittings, Flanges & Fasteners
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                            <ul class="categories clearfix">
-                                <li>
-                                    <a href="#">
-                                        Architecture Plans
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Construction Projects
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Paintings
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Electrical Works
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Plumbing Works
-                                    </a>
-                                </li>
-                            </ul>
+                        </div>
+
+
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-md-12">
+                                    <h4 class="fw-bold mb-4">Categories</h4>
+                                    <ul class="list-unstyled mb-4">
+                                        <li class="category-item mb-2">
+                                            <a href="#" class="category-link">
+                                                <i class="bi bi-building me-2"></i> Architecture Plans
+                                            </a>
+                                        </li>
+                                        <li class="category-item mb-2">
+                                            <a href="#" class="category-link">
+                                                <i class="bi bi-hammer me-2"></i> Construction Projects
+                                            </a>
+                                        </li>
+                                        <li class="category-item mb-2">
+                                            <a href="#" class="category-link">
+                                                <i class="bi bi-brush me-2"></i> Paintings
+                                            </a>
+                                        </li>
+                                        <li class="category-item mb-2">
+                                            <a href="#" class="category-link">
+                                                <i class="bi bi-lightning-charge me-2"></i> Electrical Works
+                                            </a>
+                                        </li>
+                                        <li class="category-item mb-2">
+                                            <a href="#" class="category-link">
+                                                <i class="bi bi-tools me-2"></i> Plumbing Works
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                         <!--End single sidebar-->
                         <!--Start single sidebar-->
@@ -498,51 +545,113 @@
                             </ul>
                         </div>
                         <!--End single sidebar-->
+                        <div class="container my-5">
+                            <div class="row justify-content-center">
+                                <div class="col-md-12">
+                                    <div class="card-body ">
+                                        <!-- Heading -->
+                                        <div class="section-title">
+                                            <h2>Locate <span class="thm-color">Us</span></h2>
+                                            {{-- <p>Let’s forge a connection — contact our team today.</p> --}}
+                                        </div>
 
-                        {{-- Start contant form --}}
-                        <section class="blog-contact-form">
-                            <div class="section-title">
-                                <h2>get in <span class="thm-color">touch</span></h2>
-                                <p>Let’s forge a connection — contact our team today.</p>
-                            </div>
+                                        <!-- Map -->
+                                        <div class="mb-3 text-center">
+                                            <iframe
+                                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.4406978634916!2d72.82619187387158!3d18.956134955727215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf9ee4261af1%3A0x57adb33b0f4c262!2sMoksh%20Tubes%20%26%20Fittings%20LLP!5e0!3m2!1sen!2sin!4v1759749318402!5m2!1sen!2sin"
+                                                width="100%" height="200" style="border:0;" allowfullscreen=""
+                                                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-                            <form id="contact-form" name="contact_form" class="default-form" action="inc/sendmail.php"
-                                method="post">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <input class="m-1" type="text" name="form_name" placeholder="Your Name*"
-                                            required="">
-                                    </div>
-                                    <div class="col-md-12">
-                                        <input class="m-1" type="email" name="form_email" placeholder="Your Mail*"
-                                            required="">
-                                    </div>
-                                    <div class="col-md-12">
-                                        <input class="m-1" type="text" name="form_phone" placeholder="Phone">
-                                    </div>
-                                    <div class="col-md-12">
-                                        <input class="m-1" type="text" name="form_subject" placeholder="Subject">
-                                    </div>
-                                    <div class="col-md-12">
-                                        <textarea name="form_message" class="m-1" placeholder="Your Message.." required=""></textarea>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <input id="form_botcheck" name="form_botcheck" type="hidden" value="">
-                                        <button class="thm-btn bg-clr1 m-1" type="submit"
-                                            data-loading-text="Please wait...">
-                                            send message
-                                        </button>
+                                            <!-- Contact Info -->
+                                            <p class="mb-2"><i class="bi bi-envelope me-2 text-primary"></i>
+                                                info@mokstubes.com</p>
+                                            <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
+                                                <strong>Office Address:</strong> Hinglaj Bhavan, Gulalwadi Mumbai,
+                                                Maharashtra.
+                                                400004
+                                            </p>
+                                            <p class="mb-2"><i class="bi bi-geo-alt me-2 text-success"></i>
+                                                <strong>Office Address:</strong> 6/A, Ground Floor, Rajwanti Mansion,
+                                                Khetwadi
+                                                Mumbai
+                                            </p>
+                                            <p class="mb-2"><i class="bi bi-geo-alt me-2 text-info"></i>
+                                                <strong>Office Address:</strong> 95/95A, Dawood Baug, Sukhlaji Street,
+                                                Kamatipura Mumbai
+                                            </p>
+                                            <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
+                                                <strong>Office Address:</strong> 92E, Plot No. 3, New Tank Bunder, Darukhana, Mumbai, Maharashtra- 400 010.
+                                            </p>
+
+                                            <!-- Social Icons -->
+                                            {{-- <div class="mt-3 text-center">
+                                            <a href="https://wa.me/+919769584950"
+                                                class="btn btn-outline-success btn-sm rounded-circle me-2"><i
+                                                    class="bi bi-whatsapp"></i></a>
+                                            <a href="https://www.instagram.com/mokshtubesandfittingsllp/"
+                                                class="btn btn-outline-dark btn-sm rounded-circle me-2"><i
+                                                    class="bi bi-instagram"></i></a>
+                                            <a href="https://www.facebook.com/mokshtubes/"
+                                                class="btn btn-outline-primary btn-sm rounded-circle me-2"><i
+                                                    class="bi bi-facebook"></i></a>
+                                            <a href="https://www.linkedin.com/company/moksh-tubes/"
+                                                class="btn btn-outline-info btn-sm rounded-circle"><i
+                                                    class="bi bi-linkedin"></i></a>
+                                            <a href="https://x.com/Moksh_Tubes"
+                                                class="btn btn-outline-info btn-sm rounded-circle"><i
+                                                    class="fab fa-x-twitter"></i></a>
+
+                                        </div> --}}
+                                        </div>
                                     </div>
                                 </div>
-                            </form>
-                        </section>
-                        {{-- End contant form --}}
+                            </div>
+                            {{-- Start contant form --}}
+                            <section class="blog-contact-form">
+                                <div class="section-title">
+                                    <h2>get in <span class="thm-color">touch</span></h2>
+                                    <p>Let’s forge a connection — contact our team today.</p>
+                                </div>
 
+                                <form id="contact-form" name="contact_form" class="default-form"
+                                    action="inc/sendmail.php" method="post">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <input class="m-1" type="text" name="form_name"
+                                                placeholder="Your Name*" required="">
+                                        </div>
+                                        <div class="col-md-12">
+                                            <input class="m-1" type="email" name="form_email"
+                                                placeholder="Your Mail*" required="">
+                                        </div>
+                                        <div class="col-md-12">
+                                            <input class="m-1" type="text" name="form_phone" placeholder="Phone">
+                                        </div>
+                                        <div class="col-md-12">
+                                            <input class="m-1" type="text" name="form_subject"
+                                                placeholder="Subject">
+                                        </div>
+                                        <div class="col-md-12">
+                                            <textarea name="form_message" class="m-1" placeholder="Your Message.." required=""></textarea>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <input id="form_botcheck" name="form_botcheck" type="hidden"
+                                                value="">
+                                            <button class="thm-btn bg-clr1 m-1" type="submit"
+                                                data-loading-text="Please wait...">
+                                                send message
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </section>
+                            {{-- End contant form --}}
+
+                        </div>
                     </div>
+                    <!--End Sidebar Wrapper-->
                 </div>
-                <!--End Sidebar Wrapper-->
             </div>
-        </div>
     </section>
     <section class="pt-4 mb-5 col-12">
         <div class="container">
@@ -553,7 +662,7 @@
                     your purchases seamless offering expert advice, a wide inventory of
                     certified products, and global support for every order, large or small.
                 </p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch

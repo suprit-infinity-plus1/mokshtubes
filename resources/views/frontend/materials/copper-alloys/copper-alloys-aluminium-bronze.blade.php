@@ -1,13 +1,10 @@
 @extends('layouts.master')
 
-@section('title', 'Aluminium Bronze Copper Alloy | High Strength & Corrosion Resistant')
-@section('meta_description',
-    'Aluminium Bronze with excellent strength and corrosion resistance for marine and
-    industrial applications.')
-@section('meta_keywords',
-    'Aluminium Bronze, copper alloy, high strength copper, corrosion resistant alloy, marine
-    copper alloy, industrial copper alloy')
+@section('title', 'Aluminium Bronze Alloy | High Strength & Corrosion Resistant')
 
+@section('meta_description', 'Aluminium Bronze – high-strength copper alloy offering exceptional corrosion resistance for marine, chemical, and heavy industrial applications.')
+
+@section('meta_keywords', 'Aluminium Bronze, copper alloy, high strength copper, corrosion resistant alloy, marine copper alloy, industrial copper alloy')
 
 @section('content')
 
@@ -16,11 +13,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Aluminium Bronze</h1>
+                    <h1>Aluminium Bronze <br> High Strength Corrosion Alloy</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

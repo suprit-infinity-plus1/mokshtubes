@@ -1,5 +1,6 @@
 @extends('layouts.master')
-@section('title', 'Nickel Alloys | Moksh Tubes')
+@section('title', 'Nickel Alloys: High-Performance Grades | MokshTubes')
+@section('meta_description', 'Explore high-performance nickel alloys at MokshTubes, including Hastelloy, Inconel, Incoloy, Monel, and superalloys for extreme environments.')
 @section('content')
     <!--Start breadcrumb area-->
 

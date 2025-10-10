@@ -1,27 +1,20 @@
 @extends('layouts.master')
-@section('title', 'Flange & Industrial Gaskets | Moksh Tubes')
+@section('title', 'Flange Gaskets – High-Temperature & Chemical Resistant') <!-- 53 characters -->
 @section('meta_description',
-    'Moksh Tubes offers flange, high temp, chemical resistant & non-metallic gaskets. Spiral
-    wound, RTJ & rubber gaskets for industrial sealing solutions.')
-@section('meta_keywords',
-    'flange gasket, high temperature gasket, chemical resistant gasket, sealing solutions,
-    non-metallic gasket, semi-metallic gasket,')
+    'Moksh Tubes provides premium flange gaskets – spiral wound, RTJ, rubber & non-metallic gaskets for industrial sealing and high-temperature applications.') <!-- 153 characters -->
+@section('meta_keywords', 'Flange Gaskets, Industrial Gaskets, Spiral Wound Gaskets, RTJ Gaskets, Rubber Gaskets, Chemical Resistant Gaskets, Non-Metallic Gaskets, Sealing Solutions')
 @section('content')
-    <!--Start breadcrumb area-->
-
-
-    <!--End mainmenu area-->
-
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Flange & Industrial Gaskets</h1>
+                    <h1>Premium Industrial Flange Gaskets for Sealing</h1> <!-- 52 characters -->
                 </div>
             </div>
         </div>
     </section>
+
 
 
     <section class="sec-padd-top sec-padd-bottom bg-light">
@@ -33,7 +26,7 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/peoduct/steel-furniture/custom-steel-furniture.webp') }}"
+                    <img src="{{ asset('assets/images/peoduct/flangs/Flange-Gaskets.jpg') }}"
                         alt="Flange-Industrial-Gaskets" class="img-fluid rounded shadow-sm">
                 </div>
 
@@ -702,12 +695,12 @@
             <div class="container">
             </div>
 
-            <div class="row">
+             <div class="row">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="https://placehold.co/300x150" alt="NICKLE ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}" alt="NICKLE ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -719,7 +712,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="https://placehold.co/300x150" alt="STAINLESS STEEL">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}" alt="STAINLESS STEEL">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -731,7 +724,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="https://placehold.co/300x150" alt="DUPLEX & SUPER">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}" alt="DUPLEX & SUPER">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -744,7 +737,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="##">
-                                <img class="w-100" src="https://placehold.co/300x150" alt="TITANIUM ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}" alt="TITANIUM ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -756,7 +749,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100">
-                                <img class="w-100" src="https://placehold.co/300x150" alt="RARE TO ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}" alt="RARE TO ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -768,7 +761,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100">
-                                <img class="w-100" src="https://placehold.co/300x150" alt="CARBON ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}" alt="CARBON ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">

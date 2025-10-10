@@ -1,9 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Aluminium Alloy 1100 | Commercially Pure Aluminium')
-@section('meta_description',
-    'Commercially pure Aluminium 1100 with excellent corrosion resistance and formability—ideal
-    for chemical, marine, and decorative applications.')
+@section('meta_description', 'Aluminium 1100 – commercially pure alloy offering excellent corrosion resistance and formability, ideal for chemical, marine, and decorative uses.')
+
 @section('meta_keywords',
     'Aluminium Alloy 1100, Commercially Pure Aluminium, Aluminium 1100 Pipes, Aluminium 1100
     Tubes, Aluminium 1100 Sheets, Corrosion Resistant Aluminium, Formable Aluminium Alloy, Industrial Aluminium Grades,
@@ -17,7 +16,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Aluminium 1100</h1>
+                    <h1>Aluminium 1100 <br> Commercially Pure Corrosion-Resistant Alloy</h1>
                 </div>
             </div>
         </div>

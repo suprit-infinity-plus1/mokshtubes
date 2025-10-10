@@ -1,13 +1,10 @@
 @extends('layouts.master')
 
 @section('title', 'Aluminium Alloy 6012 | Heat Treatable Aluminium')
-@section('meta_description',
-    'Heat treatable Aluminium 6012 with good corrosion resistance and strength for automotive
-    and structural uses.')
-@section('meta_keywords',
-    'Aluminium Alloy 6012, Heat Treatable Aluminium, Aluminium 6012 Pipes, Aluminium 6012 Tubes,
-    Aluminium 6012 Sheets, Corrosion Resistant Aluminium, High Strength Aluminium, Automotive Aluminium Alloys, Structural
-    Aluminium Alloys, Industrial Aluminium Grades')
+
+@section('meta_description', 'Aluminium 6012 – heat treatable alloy offering good corrosion resistance and high strength, ideal for automotive and structural applications.')
+
+@section('meta_keywords', 'Aluminium Alloy 6012, Heat Treatable Aluminium, Aluminium 6012 Pipes, Aluminium 6012 Tubes, Aluminium 6012 Sheets, Corrosion Resistant Aluminium, High Strength Aluminium, Automotive Aluminium Alloys, Structural Aluminium Alloys, Industrial Aluminium Grades')
 
 @section('content')
 
@@ -16,11 +13,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Aluminium 6012</h1>
+                    <h1>Aluminium 6012 <br> Heat Treatable Corrosion-Resistant Alloy</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

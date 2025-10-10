@@ -36,11 +36,11 @@
                                 <div class="text">
                                     <p>
                                         India has emerged as a global leader in stainless steel production and exports,
-                                        thanks to its robust manufacturing capabilities and high quality outputs. The
+                                        thanks to its robust manufacturing capabilities and <a href="{{ route('blogs.where-to-buy-high-quality') }}">high quality</a> outputs. The
                                         country’s stainless steel export industry caters to diverse sectors such as
                                         construction, oil and gas, chemical processing, and water treatment, among others.
                                         At the forefront of this industry is <stong><a href="{{ route('index') }}">Moksh
-                                                Tubes & Fittings LLP</a></stong>, a Mumbai-based
+                                                Tubes & Fittings LLP</a></stong>, a Mumbai based
                                         company that has carved a strong reputation as a trusted global pipe supplier.
                                     </p>
                                 </div>
@@ -182,12 +182,12 @@
                                             </p>
                                         </div>
                                         <div class="exapmle">
-                                            <h3>Corrosion-Resistant Materials </h3>
+                                            <h3>Corrosion Resistant Materials </h3>
                                         </div>
 
                                         <div class="text">
                                             <p>
-                                                The company uses advanced materials like duplex and super duplex stainless
+                                                The company uses advanced materials like <a href="{{ route('materials.duplex-and-super-duplex') }}">duplex and super duplex</> stainless
                                                 steels, which offer superior resistance to corrosion in demanding
                                                 environments such as seawater or chemical exposure.
                                             </p>
@@ -358,7 +358,7 @@
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn ">
-                                                            <h4>What makes India a leading stainless steel exporter?</h4>
+                                                            <h3>What makes India a leading stainless steel exporter?</h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>
@@ -376,8 +376,8 @@
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>Why do global clients choose Moksh Tubes & Fittings LLP?
-                                                            </h4>
+                                                            <h3>Why do global clients choose Moksh Tubes & Fittings LLP?
+                                                            </h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>
@@ -395,10 +395,10 @@
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>
+                                                            <h3>
                                                                 Which industries use stainless steel pipes and fittings from
                                                                 Moksh Tubes?
-                                                            </h4>
+                                                            </h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>
@@ -414,10 +414,10 @@
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>
+                                                            <h3>
                                                                 What stainless steel products does Moksh Tubes manufacture
                                                                 and export?
-                                                            </h4>
+                                                            </h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>
@@ -433,10 +433,10 @@
                                                     <!--Start single accordion box-->
                                                     <div class="accordion accordion-block">
                                                         <div class="accord-btn">
-                                                            <h4>
+                                                            <h3>
                                                                 How does Moksh Tubes ensure quality in its stainless steel
                                                                 exports?
-                                                            </h4>
+                                                            </h3>
                                                         </div>
                                                         <div class="accord-content">
                                                             <p>
@@ -487,37 +487,76 @@
                 <div class="col-lg-3 col-md-12 col-sm-7 col-xs-12">
                     <div class="sidebar-wrapper">
                         <!--Start single sidebar-->
-                        <div class="single-sidebar">
-                            <div class="sec-title">
-                                <h3>Categories</h3>
+                        <div class="container ">
+                            <div class="row justify-content-center">
+                                <div class="col-md-12">
+                                    <h4 class="fw-bold mb-4">Products We Offer</h4>
+                                    <ul class="list-unstyled mb-4">
+                                        <li class="product-item mb-2">
+                                            <a href="{{ route('products.pipes-tubes') }}" class="product-link">
+                                                <i class="bi bi-box-seam me-2"></i> Pipes & Tubes
+                                            </a>
+                                        </li>
+                                        <li class="product-item mb-2">
+                                            <a href="{{ route('products.sheets-plates-coils') }}" class="product-link">
+                                                <i class="bi bi-square me-2"></i> Sheets, Plates & Coils
+                                            </a>
+                                        </li>
+                                        <li class="product-item mb-2">
+                                            <a href="{{ route('products.bars-rods') }}" class="product-link">
+                                                <i class="bi bi-diagram-3 me-2"></i> Bars & Rods
+                                            </a>
+                                        </li>
+                                        <li class="product-item mb-2">
+                                            <a href="{{ route('products.special-fabricated') }}" class="product-link">
+                                                <i class="bi bi-tools me-2"></i> Special Fabricated
+                                            </a>
+                                        </li>
+                                        <li class="product-item mb-2">
+                                            <a href="{{ route('products.pipe-fittings-flanges-fasteners') }}"
+                                                class="product-link">
+                                                <i class="bi bi-nut me-2"></i> Pipe Fittings, Flanges & Fasteners
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                            <ul class="categories clearfix">
-                                <li>
-                                    <a href="#">
-                                        Architecture Plans
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Construction Projects
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Paintings
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Electrical Works
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Plumbing Works
-                                    </a>
-                                </li>
-                            </ul>
+                        </div>
+
+
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-md-12">
+                                    <h4 class="fw-bold mb-4">Categories</h4>
+                                    <ul class="list-unstyled mb-4">
+                                        <li class="category-item mb-2">
+                                            <a href="#" class="category-link">
+                                                <i class="bi bi-building me-2"></i> Architecture Plans
+                                            </a>
+                                        </li>
+                                        <li class="category-item mb-2">
+                                            <a href="#" class="category-link">
+                                                <i class="bi bi-hammer me-2"></i> Construction Projects
+                                            </a>
+                                        </li>
+                                        <li class="category-item mb-2">
+                                            <a href="#" class="category-link">
+                                                <i class="bi bi-brush me-2"></i> Paintings
+                                            </a>
+                                        </li>
+                                        <li class="category-item mb-2">
+                                            <a href="#" class="category-link">
+                                                <i class="bi bi-lightning-charge me-2"></i> Electrical Works
+                                            </a>
+                                        </li>
+                                        <li class="category-item mb-2">
+                                            <a href="#" class="category-link">
+                                                <i class="bi bi-tools me-2"></i> Plumbing Works
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                         <!--End single sidebar-->
                         <!--Start single sidebar-->
@@ -609,7 +648,67 @@
                             </ul>
                         </div>
                         <!--End single sidebar-->
+                        <div class="container my-5">
+                            <div class="row justify-content-center">
+                                <div class="col-md-12">
+                                    <div class="card-body ">
+                                        <!-- Heading -->
+                                        <div class="section-title">
+                                            <h2>Locate <span class="thm-color">Us</span></h2>
+                                            {{-- <p>Let’s forge a connection — contact our team today.</p> --}}
+                                        </div>
 
+                                        <!-- Map -->
+                                        <div class="mb-3 text-center">
+                                            <iframe
+                                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.4406978634916!2d72.82619187387158!3d18.956134955727215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf9ee4261af1%3A0x57adb33b0f4c262!2sMoksh%20Tubes%20%26%20Fittings%20LLP!5e0!3m2!1sen!2sin!4v1759749318402!5m2!1sen!2sin"
+                                                width="100%" height="200" style="border:0;" allowfullscreen=""
+                                                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        </div>
+
+                                        <!-- Contact Info -->
+                                        <p class="mb-2"><i class="bi bi-envelope me-2 text-primary"></i>
+                                            info@mokstubes.com</p>
+                                        <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
+                                            <strong>Office Address:</strong> Hinglaj Bhavan, Gulalwadi Mumbai, Maharashtra.
+                                            400004
+                                        </p>
+                                        <p class="mb-2"><i class="bi bi-geo-alt me-2 text-success"></i>
+                                            <strong>Office Address:</strong> 6/A, Ground Floor, Rajwanti Mansion, Khetwadi
+                                            Mumbai
+                                        </p>
+                                        <p class="mb-2"><i class="bi bi-geo-alt me-2 text-info"></i>
+                                            <strong>Office Address:</strong> 95/95A, Dawood Baug, Sukhlaji Street,
+                                            Kamatipura Mumbai
+                                        </p>
+                                        <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
+                                <strong>Office Address:</strong> 92E, Plot No. 3, New Tank Bunder, Darukhana, Mumbai,
+                                Maharashtra- 400 010.
+                            </p>
+
+                                        <!-- Social Icons -->
+                                        {{-- <div class="mt-3 text-center">
+                                            <a href="https://wa.me/+919769584950"
+                                                class="btn btn-outline-success btn-sm rounded-circle me-2"><i
+                                                    class="bi bi-whatsapp"></i></a>
+                                            <a href="https://www.instagram.com/mokshtubesandfittingsllp/"
+                                                class="btn btn-outline-dark btn-sm rounded-circle me-2"><i
+                                                    class="bi bi-instagram"></i></a>
+                                            <a href="https://www.facebook.com/mokshtubes/"
+                                                class="btn btn-outline-primary btn-sm rounded-circle me-2"><i
+                                                    class="bi bi-facebook"></i></a>
+                                            <a href="https://www.linkedin.com/company/moksh-tubes/"
+                                                class="btn btn-outline-info btn-sm rounded-circle"><i
+                                                    class="bi bi-linkedin"></i></a>
+                                            <a href="https://x.com/Moksh_Tubes"
+                                                class="btn btn-outline-info btn-sm rounded-circle"><i
+                                                    class="fab fa-x-twitter"></i></a>
+
+                                        </div> --}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         {{-- Start contant form --}}
                         <section class="blog-contact-form">
                             <div class="section-title">
@@ -664,7 +763,7 @@
                     your purchases seamless offering expert advice, a wide inventory of
                     certified products, and global support for every order, large or small.
                 </p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch

@@ -1,10 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'EN24 Alloy Steel | High Strength Alloy Steel')
-@section('meta_description', 'EN24 Alloy Steel known for superior fatigue strength and toughness in heavy-duty
-    applications.')
-@section('meta_keywords', 'EN24 Alloy Steel, high strength alloy steel, fatigue resistant steel, tough alloy steel,
-    heavy-duty steel, industrial alloy steel')
+@section('meta_description', 'EN24 Alloy Steel offering superior fatigue strength and toughness for heavy-duty applications.')
+@section('meta_keywords', 'EN24 Alloy Steel, high strength alloy steel, fatigue resistant steel, tough alloy steel, heavy-duty steel, industrial alloy steel')
 
 @section('content')
 
@@ -13,11 +11,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Engineering Steel 24</h1>
+                    <h1>Premium EN24 Alloy Steel for Heavy Duty Use</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

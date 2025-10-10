@@ -1,12 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'EN8 Engineering Steel | Medium Carbon Steel')
-@section('meta_description',
-    'EN8 Engineering Steel with good tensile strength and machinability, suitable for general
-    engineering use.')
-@section('meta_keywords',
-    'EN8 Engineering Steel, medium carbon steel, good tensile strength steel, machinable steel,
-    general engineering steel, industrial steel')
+@section('title', 'EN8 Engineering Steel | Medium Carbon Alloy')
+@section('meta_description', 'EN8 Engineering Steel offering good tensile strength and machinability for durable and reliable general engineering applications.')
+@section('meta_keywords', 'EN8 Engineering Steel, medium carbon steel, good tensile strength steel, machinable steel, general engineering steel, industrial steel')
 
 @section('content')
 
@@ -15,11 +11,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Engineering Steel 8</h1>
+                    <h1>Premium EN8 Engineering Steel for General Use</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

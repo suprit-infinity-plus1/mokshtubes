@@ -2,12 +2,9 @@
 
 @section('title', 'Nitinol | Superior Shape Memory & Flexibility')
 @section('meta_description',
-    'Nitinol offers exceptional shape memory, superelasticity, and durability, ideal for
-    medical devices, robotics, and high-precision engineering applications.')
+    'Nitinol offers exceptional shape memory, superelasticity, and durability for medical devices, robotics, and high-precision engineering.')
 @section('meta_keywords',
-    'Nitinol alloy, shape memory alloy, superelastic alloy, medical device alloy, robotics alloy,
-    high precision engineering alloy, durable Nitinol')
-
+    'Nitinol alloy, shape memory alloy, superelastic alloy, medical device alloy, robotics alloy, high precision engineering alloy, durable Nitinol')
 
 @section('content')
 
@@ -16,11 +13,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>NITINOL (Nickel-Titanium Alloy) </h1>
+                    <h1>Nitinol Alloy <br> Superior Shape Memory & Flexibility</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

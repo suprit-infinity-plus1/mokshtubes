@@ -1,28 +1,22 @@
 @extends('layouts.master')
 
 @section('title', 'Hastelloy B3 | Enhanced High-Stability Nickel Alloy')
-@section('meta_description',
-    'Hastelloy B3 pipes, tubes & fittings with improved thermal stability and superior
-    resistance to strong acids like hydrochloric, sulfuric, and phosphoric acid — ideal for harsh chemical processing
-    environments.')
-@section('meta_keywords',
-    'Hastelloy B3, High Stability Nickel Alloy, Corrosion Resistant Alloy, Hastelloy B3 Pipes,
-    Hastelloy B3 Tubes, Hastelloy B3 Fittings, Hydrochloric Acid Resistant, Sulfuric Acid Resistant, Phosphoric Acid
-    Resistant, Chemical Processing Alloys, Industrial Corrosion Resistant Alloys, Durable Nickel Alloys')
+@section('meta_description', 'Hastelloy B3 pipes, tubes & fittings offer improved thermal stability and superior resistance to strong acids, ideal for harsh chemical environments.')
+@section('meta_keywords', 'Hastelloy B3, high stability nickel alloy, corrosion resistant alloy, Hastelloy B3 pipes, Hastelloy B3 tubes, Hastelloy B3 fittings, hydrochloric acid resistant, sulfuric acid resistant, phosphoric acid resistant, chemical processing alloys, industrial corrosion resistant alloys, durable nickel alloys')
 
 @section('content')
-
 
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Hastelloy B3</h1>
+                    <h1>Hastelloy B3 Alloy <br> High-Stability Nickel Alloy</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

@@ -1,8 +1,7 @@
 @extends('layouts.master')
 
-@section('title', 'Incoloy Alloys | Grades 800, 825, 925 | Strength & Resistance')
-@section('meta_description', 'Learn about Incoloy alloys including 800, 825, and 925. High strength, oxidation resistance, and corrosion protection for chemical, marine & heat applications.
-')
+@section('title', 'Incoloy Alloys: 800, 825, 925.')
+@section('meta_description', 'Explore Incoloy alloys 800, 825, and 925 at MokshTubes, offering high strength, oxidation resistance, and corrosion protection for chemical, marine, and high-temperature applications.')
 @section('meta_keywords', 'Incoloy Alloys, Corrosion Resistant Incoloy, Heat Resistant Incoloy, Incoloy Pipes, Incoloy
     Tubes, Incoloy Fittings, Chemical Industry Incoloy, Power Industry Incoloy, Industrial Incoloy Alloys, High Performance
     Incoloy, Industrial Heat Resistant Alloys')
@@ -14,7 +13,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Incoloy</h1>
+                    <h1>Incoloy Alloys <br> High Strength, Heat & Corrosion Resistance</h1>
                 </div>
             </div>
         </div>
@@ -32,16 +31,12 @@
 
             @php
                 $grades = [
-                    ['name' => '825', 'slug' => 'incoloy-825', 'image' => 'assets/images/incoloy/incoloy-825.webp'],
-                    ['name' => '800', 'slug' => 'incoloy-800', 'image' => 'assets/images/incoloy/incoloy-800.webp'],
-                    ['name' => '925', 'slug' => 'incoloy-925', 'image' => 'assets/images/incoloy/incoloy-925.webp'],
-                    [
-                        'name' => '800h_800ht',
-                        'slug' => 'Incoloy 800h-800ht',
-                        'image' => 'assets/images/incoloy/incoloy-800h_800ht.webp',
-                    ],
-                    ['name' => '020', 'slug' => 'incoloy-020', 'image' => 'assets/images/incoloy/incoloy-020.webp'],
-                ];
+                    ['name' => 'Incoloy 825', 'slug' => 'incoloy-825', 'image' => 'assets/images/incoloy/incoloy-825.webp'],
+                    ['name' => 'Incoloy 800', 'slug' => 'incoloy-800', 'image' => 'assets/images/incoloy/incoloy-800.webp'],
+                    ['name' => 'Incoloy 925', 'slug' => 'incoloy-925', 'image' => 'assets/images/incoloy/incoloy-925.webp'],
+                    ['name' => 'Incoloy 800h / 800ht', 'slug' => 'incoloy-800h-800ht', 'image' => 'assets/images/incoloy/incoloy-800H_800HT.webp'],
+                    ['name' => 'Incoloy 020', 'slug' => 'incoloy-020', 'image' => 'assets/images/incoloy/incoloy-020.webp'],
+                            ];
             @endphp
 
             <div class="row g-4">

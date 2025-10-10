@@ -1,25 +1,24 @@
 @extends('layouts.master')
 
 @section('title', 'Austenitic Stainless Steel 310 | High Temp Resistance')
-@section('meta_description', '304L Stainless Steel 310 pipes and fittings designed for high temperature and corrosion
-    resistant applications.')
-@section('meta_keywords', 'Austenitic Stainless Steel 310, Stainless Steel 310 Pipes, Stainless Steel 310 Tubes,
-    Stainless Steel 310 Fittings, High Temperature Stainless Steel 310, Corrosion Resistant Stainless Steel 310, Heat
-    Resistant Stainless Steel 310, Industrial Stainless Steel 310, Furnace Grade Stainless Steel, Thermal Processing
-    Stainless Steel')
+
+@section('meta_description', 'Austenitic Stainless Steel 310 – high-grade alloy offering excellent high temperature and corrosion resistance for industrial and furnace applications.')
+
+@section('meta_keywords', 'Austenitic Stainless Steel 310, Stainless Steel 310 Pipes, Stainless Steel 310 Tubes, Stainless Steel 310 Fittings, High Temperature Stainless Steel 310, Corrosion Resistant Stainless Steel 310, Heat Resistant Stainless Steel 310, Industrial Stainless Steel 310, Furnace Grade Stainless Steel, Thermal Processing Stainless Steel')
 
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/austenitic-stainless-steel/austenitic-stainless-steel-310.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Austenitic Stainless Steel 310</h1>
+                    <h1>Austenitic Stainless Steel 310 <br> High Temperature Alloy</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

@@ -20,6 +20,8 @@ Route::get('/home', [MainController::class, 'home'])->name('home');
 Route::get('/contact-us', [MainController::class, 'contactUs'])->name('contact-us');
 Route::get('/contact-us/gulalwadi', [MainController::class, 'contactUsGulalwadi'])->name('contact-us-gulalwadi');
 Route::get('/contact-us/khetwadi', [MainController::class, 'contactUsKhetwadi'])->name('contact-us-khetwadi');
+Route::get('/contact-us/darukhana', [MainController::class, 'contactUsDarukhana'])->name('contact-us-darukhana');
+Route::get('/contact-us/kamatipura', [MainController::class, 'contactUsKamatipura'])->name('contact-us-kamatipura');
 Route::get('/about-us', [MainController::class, 'aboutUs'])->name('about-us');
 Route::get('/calculator', [MainController::class, 'calculator'])->name('calculator');
 Route::get('/materials', [MainController::class, 'materials'])->name('materials');
@@ -40,10 +42,13 @@ Route::get('/materials/super-austenitic-stainless-steel', action: [MainControlle
 Route::get('/materials/hard-to-find-special-alloys', action: [MainController::class, 'hardToFindAndSpecialAlloys'])->name('materials.hard-To-Find-Special-Alloys');
 Route::get('/materials/aluminium-alloys', [MainController::class, 'aluminiumAlloys'])->name('materials.aluminium-Alloys');
 Route::get('/materials/engineering-steels', [MainController::class, 'engineeringSteels'])->name('materials.engineering-Steels');
+Route::get('/materials/engineering-steels/{slug}', [MainController::class, 'engineeringSteelsGrade'])->name('materials.engineering-Steel-grade');
 Route::get('/materials/austenitic-stainless-steel', [MainController::class, 'austeniticStainlessSteel'])->name('materials.austenitic-stainless-Steel');
 Route::get('/materials/copper-alloys', [MainController::class, 'copperAlloys'])->name('materials.copper-Alloys');
 Route::get('/materials/zirconium', [MainController::class, 'zirconium'])->name('materials.zirconium');
 Route::get('/materials/haynes-superalloys', [MainController::class, 'haynesSuperalloys'])->name('materials.haynes-Superalloys');
+Route::get('/materials/duplex-and-super-duplex', [MainController::class, 'duplexAndSuperDuplex'])->name('materials.duplex-and-super-duplex');
+Route::get('/materials/high-strength-stainless-steel', [MainController::class, 'highStrengthStainlessSteel'])->name('materials.high-strength-stainless-steel');
 
 // Route::get('/materials/{family}/{grade}', [MainController::class, 'showMaterialGrade'])->name('material.grade');
 Route::get('/materials/{category}/{slug}', [MainController::class, 'showMaterial'])->name('materials.grade');
@@ -59,10 +64,24 @@ Route::get('/products/pipes-tubes/boiler-heat-exchanger-tubes', [MainController:
 Route::get('/products/special-fabricated', [MainController::class, 'specialFabricated'])->name('products.special-fabricated');
 Route::get('/products/special-fabricated/custom-steel-furniture', [MainController::class, 'customSteelFurniture'])->name('products.special-fabricated.custom-steel-furniture');
 Route::get('/products/special-fabricated/fabricated-ss-grills', [MainController::class, 'fabricatedSsGrills'])->name('products.special-fabricated.fabricated-ss-grills');
+Route::get('/products/special-fabricated/ss-railings', [MainController::class, 'ssrailings'])->name('products.special-fabricated.ss-railings');
+Route::get('/products/special-fabricated/glass-railings', [MainController::class, 'glassrailings'])->name('products.special-fabricated.glass-railings');
 
 Route::get('/products/pipe-fittings-flanges-fasteners', [MainController::class, 'pipeFittingsFlangesFasteners'])->name('products.pipe-fittings-flanges-fasteners');
 Route::get('/products/pipe-fittings-flanges-fasteners/fittings-and-flanges', [MainController::class, 'fittingsAndFlanges'])->name('products.pipe-fittings-flanges-fasteners.fittings-and-flanges');
 Route::get('/products/pipe-fittings-flanges-fasteners/flanges-and-gaskets', [MainController::class, 'flangesAndGaskets'])->name('products.pipe-fittings-flanges-fasteners.flanges-and-gaskets');
+Route::get('/products/pipe-fittings-flanges-fasteners/custom-fabricated-fittings', [MainController::class, 'customFabricatedFittings'])->name('products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings');
+Route::get('/products/pipe-fittings-flanges-fasteners/fasteners', [MainController::class, 'fasteners'])->name('products.pipe-fittings-flanges-fasteners.fasteners');
+Route::get('/products/pipe-fittings-flanges-fasteners/pipe-fittings', [MainController::class, 'pipeFittings'])->name('products.pipe-fittings-flanges-fasteners.pipe-fittings');
+
+Route::get('/products/sheets-plates-coils', [MainController::class, 'sheetsPlatesCoils'])->name('products.sheets-plates-coils');
+Route::get('/products/sheets-plates-coils/chequered-sheets', [MainController::class, 'chequeredSheets'])->name('products.sheets-plates-coils.chequered-sheets');
+Route::get('/products/sheets-plates-coils/strips', [MainController::class, 'strips'])->name('products.sheets-plates-coils.strips');
+Route::get('/products/sheets-plates-coils/shim-sheets', [MainController::class, 'shimsheets'])->name('products.sheets-plates-coils.shim-sheets');
+Route::get('/products/sheets-plates-coils/sheets-and-plates', [MainController::class, 'sheetsandplates'])->name('products.sheets-plates-coils.sheets-and-plates');
+Route::get('/products/sheets-plates-coils/perforated-sheets', [MainController::class, 'perforatedsheets'])->name('products.sheets-plates-coils.perforated-sheets');
+Route::get('/products/sheets-plates-coils/coils', [MainController::class, 'coils'])->name('products.sheets-plates-coils.coils');
+Route::get('/products/sheets-plates-coils/cladded-plates', [MainController::class, 'claddedplates'])->name('products.sheets-plates-coils.cladded-plates');
 
 
 // Bars & Rods
@@ -88,6 +107,9 @@ Route::get('/blogs/why-hastelloy-weighs-more-than-stainless-steel', [MainControl
 Route::get('/blogs/din-standard-metal-alloys', [MainController::class, 'dinStandardMetalAlloys'])->name('blogs.din-standard-metal-alloys');
 Route::get('/blogs/uae’s-ultimate-guide', [MainController::class, 'Uae’sUltimateGuide'])->name('blogs.uae’s-ultimate-guide');
 Route::get('/blogs/stainless-steel-uses-in-kitchen', [MainController::class, 'stainlessSteelUsesInKitchen'])->name('blogs.stainless-steel-uses-in-kitchen');
+Route::get('/blogs/where-to-buy-high-quality', [MainController::class, 'WhereToBuyHighQuality'])->name('blogs.where-to-buy-high-quality');
+Route::get('/blogs/how-to-choose-the-best-stainless-steel-pipes', [MainController::class, 'howToChooseTheBestStainlessSteelPipes'])->name('blogs.how-to-choose-the-best-stainless-steel-pipes');
+Route::get('/blogs/how-stainless-steel-tubes-improve-process-efficiency', [MainController::class, 'HowStainlessSteelTubesImproveProcessEfficiency'])->name('blogs.how-stainless-steel-tubes-improve-process-efficiency');
 
 
 // Route::get('/materials/nickel-alloys', [MainController::class, 'nickelAlloys'])->name('materials.nickel-alloys');

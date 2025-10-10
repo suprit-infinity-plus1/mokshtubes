@@ -1,19 +1,16 @@
 @extends('layouts.master')
-@section('title', 'Nickel-Based Superalloys | High-Performance Alloys | Mokshtubes')
-@section('meta_description',
-    'High-performance nickel-based superalloys engineered for extreme temperatures and corrosion resistance, delivering
-    lasting reliability.
-    ')
-    {{-- @section('meta_description',
-    'Discover Nickel 200, 201, A286 and other superalloys known for strength, corrosion resistance, and extreme temperature
-    performance.') --}}
+
+@section('title', 'Nickel Superalloys – Extreme Strength & Corrosion') <!-- 53 chars -->
+@section('meta_description', 'MokshTubes offers premium nickel-based superalloys engineered for extreme temperatures and harsh environments, providing exceptional corrosion resistance, strength, and reliability.')
+@section('meta_keywords', 'Nickel Superalloys, Nickel 200, Nickel 201, A286, High-Temperature Alloys, Corrosion Resistant Alloys, Nickel-Based Alloys, Extreme Temperature Alloys, High Strength Alloys, Industrial Superalloys')
+
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Nickel Based Superalloys</h1>
+                    <h1>Nickel-Based Superalloys <br> High Strength & Corrosion Resistance</h1>
                 </div>
             </div>
         </div>

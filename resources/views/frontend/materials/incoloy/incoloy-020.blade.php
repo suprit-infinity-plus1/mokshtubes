@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Incoloy 020 | Elite Acid-Resistant Super AlloyIncoloy 020 | Elite Acid-Resistant Super Alloy')
+@section('title', 'Incoloy 020 – Elite Acid-Resistant Super Alloy')
 @section('meta_description',
     'Incoloy 020 ensures superior resistance to sulfuric acid and harsh chemicals—delivering
     long service life in challenging industrial environments.')
@@ -15,7 +15,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>INCOLOY 020</h1>
+                   <h1>Incoloy 020 <br> High-Performance Industrial Alloy</h1>
                 </div>
             </div>
         </div>

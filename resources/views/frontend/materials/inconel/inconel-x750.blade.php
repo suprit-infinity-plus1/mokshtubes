@@ -1,12 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Inconel X-750 | Extreme Heat & Oxidation Defender')
-@section('meta_description',
-    'Inconel X-750 maintains strength and stability in extreme heat—perfect for springs,
-    fasteners, and high-performance gas turbines.')
-@section('meta_keywords',
-    'Inconel X-750, Extreme Heat Alloys, Oxidation Resistant Alloys, High Temperature Alloys,
-    Nickel Alloys, Corrosion Resistant Alloys, Inconel Springs, Inconel Fasteners, High-Performance Gas Turbine Alloys')
+@section('title', 'Inconel X-750 – Extreme Heat & Oxidation Alloy') <!-- 53 chars -->
+@section('meta_description', 'Inconel X-750 maintains strength and stability in extreme heat—ideal for springs, fasteners, and high-performance gas turbines.')
+@section('meta_keywords', 'Inconel X-750, Extreme Heat Alloys, Oxidation Resistant Alloys, High Temperature Alloys, Nickel Alloys, Corrosion Resistant Alloys, Inconel Springs, Inconel Fasteners, High-Performance Gas Turbine Alloys')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -14,7 +10,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Inconel X-750</h1>
+                    <h1>Inconel X-750 <br> High-Strength & Heat Resistant Alloy</h1>
                 </div>
             </div>
         </div>

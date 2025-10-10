@@ -1,11 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Titanium Grade 5 ELI | Extra Low Interstitial Aerospace Titanium Alloy')
-@section('meta_description', 'Extra pure Titanium Grade 5 ELI for medical implants and high-performance aerospace
-    applications.')
-@section('meta_keywords', 'Titanium Grade 5 ELI, Extra Low Interstitial Titanium, Aerospace Grade Titanium, Medical
-    Implant Titanium, Titanium Grade 5 ELI Pipes, Titanium Grade 5 ELI Tubes, High Performance Titanium, Corrosion Resistant
-    Titanium, Medical Titanium Alloys, Industrial Titanium Grades')
+@section('title', 'Titanium Grade 5 ELI – Aerospace Titanium Alloy') <!-- 52 chars -->
+@section('meta_description', 'Titanium Grade 5 ELI offers extra purity and exceptional performance, ideal for aerospace, medical implants, and high-performance industrial applications.')
+@section('meta_keywords', 'Titanium Grade 5 ELI, Extra Low Interstitial Titanium, Aerospace Grade Titanium, Medical Implant Titanium, Titanium Grade 5 ELI Pipes, Titanium Grade 5 ELI Tubes, High Performance Titanium, Corrosion Resistant Titanium, Medical Titanium Alloys, Industrial Titanium Grades')
 
 @section('content')
 
@@ -14,11 +11,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Titanium Grade 5 ELI</h1>
+                    <h1>Titanium Grade 5 ELI <br> High Purity & Aerospace Alloy</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

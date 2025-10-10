@@ -1,10 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'EN36 Alloy Steel | Tough Alloy Steel')
-@section('meta_description', 'EN36 Alloy Steel offering toughness and impact resistance for demanding mechanical
-    parts.')
-@section('meta_keywords', 'EN36 Alloy Steel, tough alloy steel, impact resistant steel, high strength steel, mechanical
-    parts steel, industrial alloy steel')
+@section('title', 'EN36 Alloy Steel | Tough Alloy Steel for Mechanical Parts')
+@section('meta_description', 'EN36 Alloy Steel with superior toughness and impact resistance for demanding mechanical applications.')
+@section('meta_keywords', 'EN36 Alloy Steel, tough alloy steel, impact resistant steel, high strength steel, mechanical parts steel, industrial alloy steel')
 
 @section('content')
 
@@ -13,11 +11,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Engineering Steel 36</h1>
+                    <h1>Tough EN36 Alloy Steel for Mechanical Applications</h1>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">
