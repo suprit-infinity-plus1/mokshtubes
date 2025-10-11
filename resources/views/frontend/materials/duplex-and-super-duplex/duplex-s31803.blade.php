@@ -1,10 +1,9 @@
 @extends('layouts.master')
 
-@section('title', 'Duplex Stainless Steel S31803 | High Strength & Corrosion Resistance')
+@section('title', 'Duplex Steel S31803 | High Strength & Corrosion Resistance')
 
 @section('meta_description',
-    'Buy Duplex Stainless Steel S31803 pipes, tubes & fittings from Mokshtubes LLP. High
-    strength, superior corrosion resistance, and cost-effective performance.')
+    'Buy Duplex Stainless Steel S31803 pipes, tubes & fittings from Moksh Tubes LLP. High strength, corrosion resistance, and durability for harsh conditions.')
 
 @section('meta_keywords',
     'Duplex Stainless Steel S31803, S31803 pipes, S31803 tubes, S31803 fittings,

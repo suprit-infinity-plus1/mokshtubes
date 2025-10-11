@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Super Duplex Stainless Steel S32760 | Ultra-Corrosion-Resistant Alloy')
+@section('title', 'Super Duplex Steel S32760 | Ultra Corrosion Resistance')
 
 @section('meta_description',
     'Buy Super Duplex Stainless Steel S32760 pipes, tubes & fittings from Mokshtubes LLP. Exceptional corrosion resistance, high strength, and long-lasting performance.')

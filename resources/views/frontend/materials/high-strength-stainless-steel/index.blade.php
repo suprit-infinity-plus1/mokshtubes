@@ -1,8 +1,7 @@
 @extends('layouts.master')
 
-@section('title', 'Engineering Steels: EN8, EN19, 1045, 4140 | MokshTubes')
-@section('meta_description', 'Explore durable engineering steels EN8, EN19, 1045, and 4140 from MokshTubes, offering
-    high strength, toughness, and reliability for industrial and mechanical applications.')
+@section('title', 'High Strength Stainless Steel Grades | MokshTubes')
+@section('meta_description', 'Explore high strength stainless steel grades like 17-4PH, 15-5PH, 420, 431 & 440C from MokshTubes. Ideal for durability, corrosion resistance & performance.')
 @section('meta_keywords', 'Engineering steels, EN8 steel, EN19 steel, 1045 steel, 4140 steel, high strength steel, tough
     steel, industrial alloy steel, mechanical steel')
 
@@ -35,42 +34,42 @@
                 $grades = [
                     [
                         'name' => '14 4PH Stainless Steel',
-                        'slug' => '14-4PH-stainless-steel',
+                        'slug' => '14-4ph-stainless-steel',
                         'image' => 'assets/images/High Strength Stainless Steel WEBP/14-4PH -Stainless-Steel.jpeg',
                     ],
                     [
                         'name' => '15 5PH Stainless Steel',
-                        'slug' => '15-5PH-stainless-steel',
+                        'slug' => '15-5ph-stainless-steel',
                         'image' => 'assets/images/High Strength Stainless Steel WEBP/15-5-PH-STAINLESS-STEEL.jpg',
                     ],
                     [
                         'name' => '17 4PH Stainless Steel',
-                        'slug' => '17-4PH-stainless-steel',
+                        'slug' => '17-4ph-stainless-steel',
                         'image' => 'assets/images/High Strength Stainless Steel WEBP/17-4-PH-STAINLESS-STEEL.jpg',
                     ],
                     [
                         'name' => '420HC Stainless Steel',
-                        'slug' => '420HC-stainless-steel',
+                        'slug' => '420hc-stainless-steel',
                         'image' => 'assets/images/High Strength Stainless Steel WEBP/420HC-STAINLESS-STEEL.jpeg',
                     ],
                     [
                         'name' => '430F Stainless Steel',
-                        'slug' => '430F-stainless-steel',
+                        'slug' => '430f-stainless-steel',
                         'image' => 'assets/images/High Strength Stainless Steel WEBP/430F-Stainless-Steel.webp',
                     ],
                     [
                         'name' => '440A Stainless Steel',
-                        'slug' => '440A-stainless-steel',
+                        'slug' => '440a-stainless-steel',
                         'image' => 'assets/images/High Strength Stainless Steel WEBP/440A-Stainless-Steel.webp',
                     ],
                     [
                         'name' => '440B Stainless Steel',
-                        'slug' => '440B-stainless-steel',
+                        'slug' => '440b-stainless-steel',
                         'image' => 'assets/images/High Strength Stainless Steel WEBP/440B-Stainless-Steel.webp',
                     ],
                     [
                         'name' => '440C Stainless Steel',
-                        'slug' => '440C-stainless-steel',
+                        'slug' => '440c-stainless-steel',
                         'image' => 'assets/images/High Strength Stainless Steel WEBP/440C-Stainless-Steel.webp',
                     ],
                     [
