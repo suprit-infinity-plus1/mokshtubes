@@ -27,7 +27,7 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Product Overview</h2>
+                <h2>Super Duplex 2507 (S32750) | Product Overview</h2>
             </div>
 
             <h3 class="h2 fw-semibold text-center mb-5" style="color: #db7227;">
