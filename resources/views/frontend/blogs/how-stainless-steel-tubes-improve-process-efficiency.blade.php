@@ -32,7 +32,7 @@
                             </div>
                             <div class="text-holder">
                                 <div class="blog-title text-start">
-                                    <h2>How Stainless Steel Tubes Improve Process Efficiency</h2>
+                                    <h2>How Why Stainless Steel Tubes Improve Process Efficiency</h2>
                                 </div>
                                 <div class="text">
                                     <p>
@@ -56,7 +56,7 @@
                                     </p>
                                 </div>
                                 <div class="blog-title text-start">
-                                    <h2>The Foundation of Efficiency: Unpacking the Properties of Stainless Steel</h2>
+                                    <h2>Stainless Steel Properties for Industrial Efficiency</h2>
                                 </div>
                                 <div class="text">
                                     <p>

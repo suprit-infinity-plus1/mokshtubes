@@ -30,7 +30,7 @@
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
-                <h2>Product Overview</h2>
+                <h2>Duplex S31803 | Product Overview</h2>
             </div>
 
             <h3 class="h2 fw-semibold text-center mb-5" style="color: #db7227;">

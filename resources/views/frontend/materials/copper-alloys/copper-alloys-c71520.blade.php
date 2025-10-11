@@ -24,11 +24,11 @@
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
-                <h2>Product Overview</h2>
+                <h2>Copper Alloys C71520 | Product Overview</h2>
             </div>
 
             <h2 class="fw-semibold text-center mb-5" style="color: #db7227;">
-                Introduction To Copper Alloys C71520 / CU-NI 70/30 ENHANCED
+            Introduction To Copper Alloys C71520 / CU-NI 70/30
             </h2>
 
             <div class="row align-items-center">
