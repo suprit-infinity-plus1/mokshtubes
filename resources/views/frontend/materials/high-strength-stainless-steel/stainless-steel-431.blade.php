@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title', 'Stainless Steel 431 | Mokshtubes Precision Alloy Supplier')
-@section('meta_description', 'High-quality Stainless Steel 431 from Mokshtubes with superior corrosion resistance, hardness & toughness for aerospace, tooling & engineering applications.')
+@section('meta_description', 'High-quality Stainless Steel 431 from Moksh Tubes — superior corrosion resistance, hardness & toughness for aerospace, tooling & engineering applications.')
 @section('meta_keywords', 'Stainless Steel 431, Alloy 431, UNS S43100, High-Strength Martensitic Stainless Steel, SS 431 Pipes, SS 431 Tubes, SS 431 Sheets, SS 431 Plates, SS 431 Coils, SS 431 Flanges, SS 431 Fasteners, SS 431 Bars, SS 431 Rods, SS 431 Components')
 
 @section('content')

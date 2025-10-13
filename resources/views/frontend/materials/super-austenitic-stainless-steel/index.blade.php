@@ -1,8 +1,7 @@
 @extends('layouts.master')
 
 @section('title', 'Super Austenitic Stainless Steel – 904L & SMO 254') <!-- 52 chars -->
-@section('meta_description', 'Premium super austenitic stainless steels 904L, SMO 254, and Alloy 926 at MokshTubes,
-    offering chloride resistance, high strength, and chemical durability.')
+@section('meta_description', 'Premium super austenitic stainless steels 904L, SMO 254 & Alloy 926 from Mokshtubes — chloride-resistant, strong & chemically durable.')
 @section('meta_keywords', 'Super Austenitic Stainless Steel, 904L, SMO 254, Alloy 926, Chloride Resistant Alloy,
     Corrosion Resistant Alloy, Chemical Processing Alloys, Marine Industry Alloys, High Strength Stainless Steel, Industrial
     Stainless Steel Alloys')

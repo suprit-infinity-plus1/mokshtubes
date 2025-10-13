@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('title', 'Shim Sheets – High-Precision & Durable Metal Stock') <!-- 52 characters -->
 @section('meta_description',
-    'Mokshtubes provides high-quality shim sheets designed for precise fitting, corrosion resistance, and long-lasting durability in automotive, industrial, and engineering applications.') <!-- 153 characters -->
+    'Get premium shim sheets engineered for precise fitting, corrosion resistance, and long-lasting durability—ideal for automotive, industrial, and engineering use.') <!-- 153 characters -->
 @section('meta_keywords', 'Shim Sheets, Shim Stock, Stainless Steel Shim Sheets, Precision Shims, Custom Shim Sheets, Shim Material Supplier')
 @section('content')
     <!--Start breadcrumb area-->

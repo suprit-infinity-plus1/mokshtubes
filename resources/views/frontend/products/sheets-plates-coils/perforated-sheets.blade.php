@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('title', 'Perforated Sheets – Durable & Precision Metal Panels') <!-- 52 characters -->
 @section('meta_description',
-    'Mokshtubes provides high-quality perforated sheets in stainless steel, carbon steel, and alloy steels, designed for strength, corrosion resistance, and precision for diverse industrial applications.') <!-- 153 characters -->
+    'Durable perforated sheets in stainless, carbon & alloy steels from Mokshtubes — corrosion-resistant & precise for diverse industrial applications.') <!-- 153 characters -->
 @section('meta_keywords', 'Perforated Sheets, Perforated Metal Sheets, Stainless Steel Perforated Sheets, Carbon Steel Perforated Sheets, Alloy Steel Perforated Sheets, Custom Perforated Sheets, Industrial Perforated Sheets, Precision Engineered Sheets, Corrosion Resistant Sheets, Durable Metal Sheets')
 @section('content')
     <!--Start breadcrumb area-->

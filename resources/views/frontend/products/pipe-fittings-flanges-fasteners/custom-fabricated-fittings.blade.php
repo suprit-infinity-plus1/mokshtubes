@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('title', 'Industrial Custom Fabricated Fittings – Moksh Tubes') <!-- 53 characters -->
 @section('meta_description',
-    'Moksh Tubes provides industrial-grade custom fabricated fittings in Stainless, Alloy, Duplex, Nickel & Titanium alloys, made as per ASTM & ASME standards.') <!-- 153 characters -->
+    'Moksh Tubes provides industrial-grade custom fabricated fittings in stainless, alloy, duplex, nickel & titanium alloys per ASTM & ASME standards.') <!-- 153 characters -->
 @section('meta_keywords', 'Custom Fabricated Fittings, Industrial Fittings, Stainless Steel Fittings, Alloy Fittings, Duplex Fittings, Titanium Fittings, Nickel Fittings, ASTM/ASME Fittings')
 @section('content')
     <!--Start breadcrumb area-->

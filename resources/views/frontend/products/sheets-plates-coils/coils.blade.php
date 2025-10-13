@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('title', 'Metal Coils – Premium Stainless, Carbon & Alloy Sheets') <!-- 52 characters -->
 @section('meta_description',
-    'Mokshtubes supplies high-quality metal coils in stainless steel, carbon steel, and alloy grades, ideal for manufacturing, construction, and industrial applications with superior durability.') <!-- 153 characters -->
+    'Durable metal coils in stainless, carbon & alloy grades from Moksh Tubes — ideal for manufacturing, construction & industrial applications.') <!-- 153 characters -->
 @section('meta_keywords', 'Stainless Steel Coils, Carbon Steel Coils, Alloy Coils, Metal Coils Supplier, Industrial Metal Coils, Custom Metal Coils, High-Quality Metal Coils, Durable Metal Coils, Precision Metal Coils, Mokshtubes')
 @section('content')
     <!--Start breadcrumb area-->

@@ -2,8 +2,9 @@
 
 @section('title', 'Stainless Steel Kitchen & Food Industry Applications Guide')
 @section('meta_description',
-    'Discover why stainless steel is the top choice for kitchens and the food industry, offering hygiene, durability, and safety for commercial and residential applications.')
-@section('meta_keywords', 'Seamless, Welded Pipes')
+    'Discover why stainless steel is ideal for kitchens & the food industry — hygienic, durable & safe for commercial & residential use.')
+@section('meta_keywords',
+    'Stainless Steel Kitchen, Food Industry Stainless Steel, Stainless Steel Cookware, Commercial Kitchen Materials, Food Processing Equipment, Hygienic Kitchen Surfaces, Durable Kitchen Materials, Stainless Steel Appliances, Food Safety Materials, Stainless Steel Benefits')
 
 
 @section('content')

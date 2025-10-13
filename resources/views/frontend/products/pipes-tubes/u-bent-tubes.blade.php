@@ -1,7 +1,9 @@
 @extends('layouts.master')
 @section('title', 'U-Bent Tubes – Custom Fabricated Industrial Solutions') <!-- 52 characters -->
 @section('meta_description',
-    'Moksh Tubes provides precision-engineered U-bent tubes customized for industrial applications, offering superior durability, strength, and long-lasting performance.') <!-- 153 characters -->
+    'Precision-engineered U-bent tubes from Moksh Tubes — customized for industrial applications with superior strength, durability & performance.') <!-- 153 characters -->
+@section('meta_keywords',
+    'U-Bent Tubes, U-Bend Tubes, Custom U-Bent Tubes, Industrial U-Bent Tubes, Heat Exchanger Tubes, Boiler Tubes, Stainless Steel U-Bent Tubes, Alloy U-Bent Tubes, Precision Bent Tubes, Moksh Tubes')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">

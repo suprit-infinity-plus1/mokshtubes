@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('title', 'Special Fabricated Products – Steel & Stainless Solutions') <!-- 53 characters -->
 @section('meta_description',
-    'Mokshtubes offers special fabricated products including custom steel furniture, stainless steel grills, railings, and glass solutions designed for durability, functionality, and modern style.') <!-- 153 characters -->
+    'Custom fabricated products from Moksh Tubes — steel furniture, stainless grills, railings & glass solutions, designed for durability, function & style.') <!-- 153 characters -->
 @section('meta_keywords',
     'special fabricated, custom steel furniture, stainless steel grills, railings, glass solutions, modern fabricated products, durable fabricated items, custom metal works, industrial steel fabrication')
 @section('content')
