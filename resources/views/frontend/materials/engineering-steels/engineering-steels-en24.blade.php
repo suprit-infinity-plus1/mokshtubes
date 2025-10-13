@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'EN24 Alloy Steel | High Strength Alloy Steel')
+@section('title', 'EN24 Steel | Material Properties, Chemical Composition & Applications')
 @section('meta_description', 'EN24 Alloy Steel offering superior fatigue strength and toughness for heavy-duty applications.')
 @section('meta_keywords', 'EN24 Alloy Steel, high strength alloy steel, fatigue resistant steel, tough alloy steel, heavy-duty steel, industrial alloy steel')
 
