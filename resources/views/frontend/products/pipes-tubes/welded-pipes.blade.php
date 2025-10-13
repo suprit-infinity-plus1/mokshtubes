@@ -1,6 +1,6 @@
 @extends('layouts.master')
 @section('title', 'Welded Pipes – ERW, EFW & LSAW Steel Tubes') <!-- 52 characters -->
-@section('meta_description', 'Moksh Tubes supplies premium welded pipes including ERW, EFW & LSAW steel tubes for oil, gas, chemical, and industrial applications, ensuring superior strength and global quality standards.') <!-- 153 characters -->
+@section('meta_description', 'Premium ERW, EFW & LSAW welded pipes from Moksh Tubes — high-strength, corrosion-resistant, ideal for oil, gas, chemical & industrial use.') <!-- 153 characters -->
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">

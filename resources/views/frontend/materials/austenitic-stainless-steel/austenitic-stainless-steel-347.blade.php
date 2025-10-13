@@ -2,7 +2,7 @@
 
 @section('title', 'Austenitic Stainless Steel 347 | High-Temp Stability SS')
 
-@section('meta_description', 'Austenitic Stainless Steel 347 – premium alloy offering excellent long-term high temperature and corrosion resistance for demanding industrial environments.')
+@section('meta_description', 'Austenitic Stainless Steel 347 from Moksh Tubes — excellent long-term high-temperature & corrosion resistance for industrial applications.')
 
 @section('meta_keywords', 'Austenitic Stainless Steel 347, Stainless Steel 347 Pipes, Stainless Steel 347 Tubes, Stainless Steel 347 Fittings, Heat Resistant Stainless Steel 347, Corrosion Resistant Stainless Steel 347, High Temperature Stainless Steel 347, Industrial Stainless Steel 347, Stabilized Stainless Steel 347, Thermal Processing Stainless Steel 347')
 

@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title', 'Duplex & Super Duplex Steels | MokshTubes')
-@section('meta_description', 'Explore durable engineering steels EN8, EN19, 1045, and 4140 from MokshTubes, offering high strength, toughness, and reliability for industrial and mechanical applications.')
+@section('meta_description', 'Explore Duplex & Super Duplex stainless steels like S31803, 2205, 2507 & S32760—known for strength, corrosion resistance & durability.')
 @section('meta_keywords', 'Engineering steels, EN8 steel, EN19 steel, 1045 steel, 4140 steel, high strength steel, tough steel, industrial alloy steel, mechanical steel')
 
 @section('content')

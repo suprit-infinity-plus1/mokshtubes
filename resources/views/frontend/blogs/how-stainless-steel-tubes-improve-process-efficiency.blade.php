@@ -2,10 +2,9 @@
 
 @section('title', 'How Stainless Steel Tubes Boost Process Efficiency')
 @section('meta_description',
-    'Discover how stainless steel tubes improve industrial process efficiency through
-    durability, low maintenance, and superior corrosion resistance. Learn the key benefits.')
-
-
+    'Learn how stainless steel tubes improve industrial efficiency — durable, low-maintenance & corrosion-resistant with key operational benefits.')
+@section('meta_keywords',
+    'Stainless Steel Tubes, Process Efficiency, Industrial Tubing, Corrosion Resistance, Low Maintenance Tubes, Durable Stainless Steel, High Performance Tubing, Industrial Process Optimization, Stainless Steel Benefits, Efficient Fluid Transport')    
 
 @section('content')
     <!--Start breadcrumb area-->

@@ -3,7 +3,7 @@
 @section('title', 'Super Duplex Steel 2205 | High Strength & Corrosion Proof')
 
 @section('meta_description',
-    'Discover Super Duplex Stainless Steel 2205 by Moksh Tubes LLP. Exceptional corrosion resistance, high strength, and performance for marine & chemical uses.')
+    'Super Duplex Stainless Steel 2205 from Moksh Tubes — exceptional corrosion resistance, high strength & performance for marine & chemical applications.')
 
 @section('meta_keywords',
     'Super Duplex Stainless Steel 2205, 2205 pipes, 2205 tubes, 2205 fittings, corrosion-resistant stainless steel, high strength super duplex steel, Mokshtubes LLP, chemical processing steel, marine engineering steel, oil and gas stainless steel, desalination plant steel, stainless steel plates, stainless steel flanges')
@@ -15,7 +15,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-auto text-center">
-                <h1>Super Duplex Stainless Steel 2205 <br> High Strength Corrosion-Resistant Alloy</h1>
+                <h1>Super Duplex 2205 <br> High Strength & Corrosion Resistance</h1>
             </div>
         </div>
     </div>

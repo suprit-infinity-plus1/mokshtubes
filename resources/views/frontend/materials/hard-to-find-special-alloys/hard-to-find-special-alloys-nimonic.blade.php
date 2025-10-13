@@ -2,7 +2,7 @@
 
 @section('title', 'Nimonic Alloys | High-Temp Strength & Durability')
 @section('meta_description',
-    'Nimonic alloys deliver exceptional high-temperature strength, creep resistance, and durability for aerospace, turbines, power generation, and extreme environments.')
+    'Nimonic alloys from Moksh Tubes — high-temperature strength, creep-resistant & durable for aerospace, turbines, power generation & extreme environments.')
 @section('meta_keywords',
     'Nimonic alloy, high temperature alloy, creep resistant alloy, aerospace alloy, turbine alloy, power generation alloy, durable high strength alloy')
 

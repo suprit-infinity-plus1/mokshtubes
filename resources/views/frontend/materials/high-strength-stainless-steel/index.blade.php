@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title', 'High Strength Stainless Steel Grades | MokshTubes')
-@section('meta_description', 'Explore high strength stainless steel grades like 17-4PH, 15-5PH, 420, 431 & 440C from MokshTubes. Ideal for durability, corrosion resistance & performance.')
+@section('meta_description', 'High strength stainless steel grades 17-4PH, 15-5PH, 420, 431 & 440C from Moksh Tubes — durable, corrosion-resistant & performance-focused.')
 @section('meta_keywords', 'Engineering steels, EN8 steel, EN19 steel, 1045 steel, 4140 steel, high strength steel, tough
     steel, industrial alloy steel, mechanical steel')
 

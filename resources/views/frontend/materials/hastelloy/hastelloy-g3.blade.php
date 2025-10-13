@@ -2,7 +2,7 @@
 
 @section('title', 'Hastelloy G3 | Weldable Corrosion Alloy')
 @section('meta_description',
-    'Hastelloy G3 pipes, tubes & fittings offer superior resistance to oxidizing and reducing acids, with excellent weldability and durability for demanding applications.')
+    'Hastelloy G3 pipes, tubes & fittings from Moksh Tubes — resistant to oxidizing & reducing acids, with excellent weldability & durability.')
 @section('meta_keywords',
     'Hastelloy G3, Corrosion Resistant Alloy, Hastelloy G3 Pipes, Hastelloy G3 Tubes, Hastelloy G3
     Fittings, Weldable Alloy, Oxidizing Acid Resistant, Reducing Acid Resistant, Durable Alloy')

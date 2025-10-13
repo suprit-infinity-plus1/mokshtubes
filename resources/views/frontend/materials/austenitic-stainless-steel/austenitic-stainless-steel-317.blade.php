@@ -2,7 +2,7 @@
 
 @section('title', 'Austenitic Stainless Steel 317 | Superior Corrosion SS')
 
-@section('meta_description', 'Austenitic Stainless Steel 317 – high-grade alloy offering superior corrosion resistance for harsh chemical environments and demanding industrial applications.')
+@section('meta_description', 'Austenitic Stainless Steel 317 from Moksh Tubes — premium alloy with superior corrosion resistance for harsh chemical & industrial applications.')
 
 @section('meta_keywords', 'Austenitic Stainless Steel 317, Stainless Steel 317 Pipes, Stainless Steel 317 Tubes, Stainless Steel 317 Fittings, Corrosion Resistant Stainless Steel 317, Chemical Processing Stainless Steel 317, Marine Grade Stainless Steel 317, Industrial Stainless Steel 317, High Strength Stainless Steel 317, Harsh Environment Stainless Steel 317')
 
