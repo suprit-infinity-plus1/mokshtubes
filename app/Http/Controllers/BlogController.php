@@ -12,6 +12,33 @@ class BlogController extends Controller
         $blogsData = collect([
 
             [
+                'title' => 'Stainless Steel Tube Grades Explained: Which One to Pick?',
+                'author' => 'Jash Jain',
+                'comments' => 16,
+                'date' => 'October 13, 2025',
+                'image' => 'assets/images/blog/Stainless-Steel-Tube-Grades.png',
+                'excerpt' => 'Choosing stainless steel for your tubing is a smart first step,',
+                'link' => route('blogs.stainless-steel-tube-grades-explained')
+            ],
+            [
+                'title' => 'Stainless Steel Pipe Installation: Step by Step Guide',
+                'author' => 'Jash Jain',
+                'comments' => 16,
+                'date' => 'October 13, 2025',
+                'image' => 'assets/images/blog/Stainless-Steel-Pipe-Installation.jpeg',
+                'excerpt' => 'Choosing high quality stainless steel pipes for your project is an excellent first step toward ',
+                'link' => route('blogs.stainless-steel-pipe-installation')
+            ],
+            [
+                'title' => 'Stainless Steel vs Other Metals: Longevity Comparison',
+                'author' => 'Jash Jain',
+                'comments' => 16,
+                'date' => 'October 13, 2025',
+                'image' => 'assets/images/blog/Stainless-Steel-vs-Other-Metals.webp',
+                'excerpt' => 'Choosing the right material for a project isn’t just about the initial investment',
+                'link' => route('blogs.stainless-steel-vs-other-metals')
+            ],
+            [
                 'title' => 'How Stainless Steel Tubes Improve Process Efficiency',
                 'author' => 'Jash Jain',
                 'comments' => 16,
