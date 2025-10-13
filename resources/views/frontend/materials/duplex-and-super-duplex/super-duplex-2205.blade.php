@@ -1,9 +1,9 @@
 @extends('layouts.master')
 
-@section('title', 'Super Duplex Stainless Steel 2205 | High Strength Corrosion-Resistant Alloy')
+@section('title', 'Super Duplex Steel 2205 | High Strength & Corrosion Proof')
 
 @section('meta_description',
-    'Buy Super Duplex Stainless Steel 2205 pipes, tubes & fittings from Mokshtubes LLP. High strength, superior corrosion resistance, and durable performance.')
+    'Discover Super Duplex Stainless Steel 2205 by Moksh Tubes LLP. Exceptional corrosion resistance, high strength, and performance for marine & chemical uses.')
 
 @section('meta_keywords',
     'Super Duplex Stainless Steel 2205, 2205 pipes, 2205 tubes, 2205 fittings, corrosion-resistant stainless steel, high strength super duplex steel, Mokshtubes LLP, chemical processing steel, marine engineering steel, oil and gas stainless steel, desalination plant steel, stainless steel plates, stainless steel flanges')
@@ -15,7 +15,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-auto text-center">
-                <h1>Super Duplex Stainless Steel 2205 | High Strength Corrosion-Resistant Alloy</h1>
+                <h1>Super Duplex Stainless Steel 2205 <br> High Strength Corrosion-Resistant Alloy</h1>
             </div>
         </div>
     </div>
@@ -25,7 +25,7 @@
 <section class="sec-padd-top sec-padd-bottom bg-light">
     <div class="container">
         <div class="section-title center">
-            <h2>Product Overview</h2>
+            <h2>Super Duplex 2205 | Product Overview</h2>
         </div>
 
         <h3 class="h2 fw-semibold text-center mb-5" style="color: #db7227;">

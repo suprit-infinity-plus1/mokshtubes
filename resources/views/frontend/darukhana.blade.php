@@ -1,5 +1,7 @@
 @extends('layouts.master')
-@section('title', 'Moksh Tubes || Contact Us')
+@section('title', 'Darukhana Mumbai Office – Contact Moksh Tubes')
+@section('meta_description',
+    'Connect with Moksh Tubes at Darukhana, Mumbai. Visit New Tank Bunder, Reay Road or call +91 97695 84950 | info@mokshtubes.com for assistance.')
 
 @section('content')
 

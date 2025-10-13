@@ -11,7 +11,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Hastelloy C276 Alloy <br> UNS N10276 Corrosion-Resistant Nickel Alloy</h1>
+                    <h1>Hastelloy C276 <br> Corrosion-Resistant Nickel Alloy</h1>
                 </div>
             </div>
         </div>
@@ -26,9 +26,9 @@
 
             </div>
 
-            <h2 class="fw-semibold text-center mb-5" style="color: #db7227;">
+            <h3 class="fw-semibold text-center mb-5" style="color: #db7227;">
                 Introduction to Hastelloy C276 / Alloy C276 / UNS N10276
-            </h2>
+            </h3>
 
             <div class="row align-items-center">
                 <!-- Image Left -->

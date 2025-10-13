@@ -1,10 +1,9 @@
 @extends('layouts.master')
 
-@section('title', 'Duplex Stainless Steel S31803 | High Strength & Corrosion Resistance')
+@section('title', 'Duplex Steel S31803 | High Strength & Corrosion Resistance')
 
 @section('meta_description',
-    'Buy Duplex Stainless Steel S31803 pipes, tubes & fittings from Mokshtubes LLP. High
-    strength, superior corrosion resistance, and cost-effective performance.')
+    'Buy Duplex Stainless Steel S31803 pipes, tubes & fittings from Moksh Tubes LLP. High strength, corrosion resistance, and durability for harsh conditions.')
 
 @section('meta_keywords',
     'Duplex Stainless Steel S31803, S31803 pipes, S31803 tubes, S31803 fittings,
@@ -19,7 +18,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Duplex Stainless Steel S31803 | High Strength Corrosion Resistant Alloy</h1>
+                    <h1>Duplex Stainless Steel S31803 <br> High Strength Corrosion Resistant Alloy</h1>
                 </div>
             </div>
         </div>
@@ -30,7 +29,7 @@
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
-                <h2>Product Overview</h2>
+                <h2>Super Duplex S31803 | Product Overview</h2>
             </div>
 
             <h3 class="h2 fw-semibold text-center mb-5" style="color: #db7227;">

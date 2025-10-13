@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
-@section('title', 'EN8 Engineering Steel | Medium Carbon Alloy')
-@section('meta_description', 'EN8 Engineering Steel offering good tensile strength and machinability for durable and reliable general engineering applications.')
+@section('title', 'EN8 Steel | EN8 Chemical Composition, Mechanical Properties | Moksh Tubes')
+@section('meta_description', 'Check EN8 steel composition, mechanical properties, hardness, and equivalent grades. Moksh Tubes supplies EN8 round bars, pipes, and fittings at best prices.')
 @section('meta_keywords', 'EN8 Engineering Steel, medium carbon steel, good tensile strength steel, machinable steel, general engineering steel, industrial steel')
 
 @section('content')
@@ -11,7 +11,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Premium EN8 Engineering Steel for General Use</h1>
+                    <h1>EN8 Steel – Chemical Composition, Properties, and Applications</h1>
                 </div>
             </div>
         </div>
