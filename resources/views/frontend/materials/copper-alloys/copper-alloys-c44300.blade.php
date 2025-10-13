@@ -13,7 +13,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Copper Alloy C44300 <br> Corrosion Resistant Durable Alloy</h1>
+                    <h1>Copper Alloy C44300 (Admiralty Brass) <br> Corrosion Resistant Durable Alloy</h1>
                 </div>
             </div>
         </div>
@@ -24,7 +24,7 @@
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
-                <h2><h2>Copper Alloys C44300 | Product Overview</h2></h2>
+                <h2>Copper Alloys C44300 | Product Overview</h2>
             </div>
 
             <h2 class="fw-semibold text-center mb-5" style="color: #db7227;">
@@ -140,7 +140,7 @@
             <!-- Physical Properties Table -->
             <div class="row justify-content-center mb-5">
                 <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
+                    <h3 class="text-center mb-3" style="color: #db7227;">Physical Properties</h3>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -195,7 +195,7 @@
             <!-- Mechanical Properties Table -->
             <div class="row justify-content-center">
                 <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+                    <h3 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h3>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -383,34 +383,34 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>Excellent corrosion resistance in marine & brackish waters</h5>
+                        <h3>Excellent corrosion resistance in marine & brackish waters</h3>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h5>Good thermal conductivity for heat exchange applications</h5>
+                        <h3>Good thermal conductivity for heat exchange applications</h3>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h5>High resistance to dezincification (due to tin & arsenic)</h5>
+                        <h3>High resistance to dezincification (due to tin & arsenic)</h3>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h5>Good ductility and ease of fabrication</h5>
+                        <h3>Good ductility and ease of fabrication</h3>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
-                        <h5>Long service life in aggressive environments</h5>
+                        <h3>Long service life in aggressive environments</h3>
                     </div>
                 </div>
             </div>
@@ -431,7 +431,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
-                        <h5>Electrical & Electronics</h5>
+                        <h3>Electrical & Electronics</h3>
                         <p>Connectors, contacts, switches, relays, springs, EMI shielding</p>
                     </div>
                 </div>
@@ -439,7 +439,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
-                        <h5>Marine & Shipbuilding</h5>
+                        <h3>Marine & Shipbuilding</h3>
                         <p>Condenser and heat exchanger tubing</p>
                         <p>Saltwater piping and cooling systems</p>
                     </div>
@@ -448,7 +448,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
-                        <h5>Power & Desalination Plants</h5>
+                        <h3>Power & Desalination Plants</h3>
                         <p>Tube bundles in evaporators and heaters</p>
                         <p>Heat transfer tubes in multi-stage flash (MSF) systems</p>
                     </div>
@@ -457,7 +457,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-droplet"></i></div>
-                        <h5>HVAC & Industrial Applications</h5>
+                        <h3>HVAC & Industrial Applications</h3>
                         <p>Condenser coils, air conditioning units, refrigeration piping</p>
                     </div>
                 </div>
@@ -465,7 +465,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
-                        <h5>Petrochemical Industry</h5>
+                        <h3>Petrochemical Industry</h3>
                         <p>Non-oxidizing acid handling components</p>
                     </div>
                 </div>
@@ -473,7 +473,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
-                        <h5>Plumbing</h5>
+                        <h3>Plumbing</h3>
                         <p>Water heaters, geysers, and industrial plumbing fittings</p>
                     </div>
                 </div>
@@ -500,35 +500,35 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Superior Product Quality: Adherence to global metallurgical standards</h5>
+                        <h3>Superior Product Quality: Adherence to global metallurgical standards</h3>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
-                        <h5>Extensive Inventory: Large stock of standard and customized sizes</h5>
+                        <h3>Extensive Inventory: Large stock of standard and customized sizes</h3>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
-                        <h5>Custom Manufacturing: Tailor-made solutions for critical applications</h5>
+                        <h3>Custom Manufacturing: Tailor-made solutions for critical applications</h3>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Quick Delivery: Efficient logistics and export packaging</h5>
+                        <h3>Quick Delivery: Efficient logistics and export packaging</h3>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
-                        <h5>Global Reach: Serving marine, HVAC, energy, and desalination sectors worldwide</h5>
+                        <h3>Global Reach: Serving marine, HVAC, energy, and desalination sectors worldwide</h3>
                     </div>
                 </div>
             </div>
@@ -548,9 +548,9 @@
                         <!--Start single accordion box-->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>
+                                <h3>
                                     What is C44300 Admiralty Brass and what makes it unique?
-                                </h4>
+                                </h3>
                             </div>
                             <div class="accord-content">
                                 <p>
@@ -568,9 +568,9 @@
                         <!--Start single accordion box-->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>
+                                <h3>
                                     Where is C44300 Admiralty Brass commonly used?
-                                </h4>
+                                </h3>
                             </div>
                             <div class="accord-content">
                                 <p>
@@ -588,9 +588,9 @@
                         <!--Start single accordion box-->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>
+                                <h3>
                                     What are the advantages of using Admiralty Brass C44300 over other alloys?
-                                </h4>
+                                </h3>
                             </div>
                             <div class="accord-content">
                                 <p>C44300 offers several benefits including:</p>
@@ -608,9 +608,9 @@
                         <!--Start single accordion box-->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>
+                                <h3>
                                     What C44300 Admiralty Brass products does MOKSH TUBES & FITTINGS LLP supply?
-                                </h4>
+                                </h3>
                             </div>
                             <div class="accord-content">
                                 <p>
@@ -628,9 +628,9 @@
                         <!--Start single accordion box-->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>
+                                <h3>
                                     Why choose MOKSH TUBES & FITTINGS LLP for Admiralty Brass materials?
-                                </h4>
+                                </h3>
                             </div>
                             <div class="accord-content">
                                 <p>
