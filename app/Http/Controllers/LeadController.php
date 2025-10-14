@@ -18,11 +18,17 @@ class LeadController extends Controller
         $leads = Lead::create([
             'email' => $request->email
         ]);
+        $pdfFile = basename($request->pdf);
         // Path to PDF
-        $filePath = storage_path('app/public/datasheets/en8.pdf');
+        $filePath = storage_path('app/public/datasheets/' . $pdfFile);
+
+         // Check if file exists
+    if (!file_exists($filePath)) {
+        abort(404, 'Requested datasheet not found.');
+    }
 
         // dd("i am hwere");
         // Return PDF as download
-        return response()->download($filePath, 'EN8_Steel_Datasheet.pdf');
+        return response()->download($filePath, $filePath);
     }
 }
