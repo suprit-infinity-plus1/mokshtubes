@@ -10,5 +10,5 @@ class Lead extends Model
     use HasFactory;
 
     protected $table = 'leads';
-    protected $fillable = ['email'];
+    protected $fillable = ['email', 'pdf'];
 }

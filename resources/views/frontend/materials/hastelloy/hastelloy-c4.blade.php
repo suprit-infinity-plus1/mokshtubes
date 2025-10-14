@@ -1,8 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Hastelloy C-4 | High-Performance Alloy for Oxidizing Media')
-@section('meta_description', 'Hastelloy C-4 pipes, tubes & fittings from Moksh Tubes — long-term stability & resistance to oxidizing chemicals, acids & high heat for industrial use.')
-@section('meta_keywords', 'Hastelloy C-4, Hastelloy C4, high performance alloy, corrosion resistant alloy, Hastelloy C4 pipes, Hastelloy C4 tubes, Hastelloy C4 fittings, oxidizer resistant alloy, acid resistant alloy, industrial corrosion resistant alloys, high temperature alloys, durable nickel alloys')
+@section('meta_description', 'Hastelloy C-4 pipes, tubes & fittings from Moksh Tubes — long-term stability & resistance
+    to oxidizing chemicals, acids & high heat for industrial use.')
+@section('meta_keywords', 'Hastelloy C-4, Hastelloy C4, high performance alloy, corrosion resistant alloy, Hastelloy C4
+    pipes, Hastelloy C4 tubes, Hastelloy C4 fittings, oxidizer resistant alloy, acid resistant alloy, industrial corrosion
+    resistant alloys, high temperature alloys, durable nickel alloys')
 
 @section('content')
 
@@ -38,30 +41,40 @@
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
-                       <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-    <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted supplier, exporter, importer, and stockist of high-performance Hastelloy C-4 (UNS N06455)
-    products, including <strong class="text-black"><a
-            href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings, Flanges,
-        Sheets & Plates, Coils, Bars, Wire Mesh</strong>, and custom-engineered components.
-</p>
+                        <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
+                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted supplier, exporter,
+                            importer, and stockist of high-performance Hastelloy C-4 (UNS N06455)
+                            products, including <strong class="text-black"><a
+                                    href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings, Flanges,
+                                Sheets & Plates, Coils, Bars, Wire Mesh</strong>, and custom-engineered components.
+                        </p>
 
-<p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-    <strong class="text-black">HASTELLOY C4</strong> is a nickel-chromium-molybdenum alloy designed to minimize welding challenges
-    due to its low silicon and carbon content. Like other <a
-        href="{{ route('materials.nickel-Based-Superalloys') }}">nickel alloys</a>, it is known for its outstanding resistance
-    to high-temperature oxidation, stress corrosion cracking, and strong oxidizing agents. With excellent stability across
-    a wide range of thermal conditions, <a href="{{ route('materials.hard-To-Find-Special-Alloys') }}">Hastelloy C-4</a>
-    exhibits superior performance in harsh chemical environments—particularly in hot, contaminated mineral acids like
-    hydrochloric and sulfuric acid. Its low carbon and silicon content also help prevent grain-boundary precipitation during
-    welding, enhancing its weldability and corrosion resistance.
-</p>
+                        <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
+                            <strong class="text-black">HASTELLOY C4</strong> is a nickel-chromium-molybdenum alloy designed
+                            to minimize welding challenges
+                            due to its low silicon and carbon content. Like other <a
+                                href="{{ route('materials.nickel-Based-Superalloys') }}">nickel alloys</a>, it is known for
+                            its outstanding resistance
+                            to high-temperature oxidation, stress corrosion cracking, and strong oxidizing agents. With
+                            excellent stability across
+                            a wide range of thermal conditions, <a
+                                href="{{ route('materials.hard-To-Find-Special-Alloys') }}">Hastelloy C-4</a>
+                            exhibits superior performance in harsh chemical environments—particularly in hot, contaminated
+                            mineral acids like
+                            hydrochloric and sulfuric acid. Its low carbon and silicon content also help prevent
+                            grain-boundary precipitation during
+                            welding, enhancing its weldability and corrosion resistance.
+                        </p>
 
-<p class="fs-6" style="text-align: justify;">
-    Hastelloy C-4 alloy is a nickel-chromium-molybdenum material specially developed to provide excellent corrosion resistance
-    in highly aggressive environments. With its low carbon and silicon content, Hastelloy C-4 composition ensures superior
-    weldability and resistance to grain boundary precipitation. It is widely used in industries that require corrosion-resistant
-    alloys, particularly in hot mineral acids such as hydrochloric and sulfuric acid.
-</p>
+                        <p class="fs-6" style="text-align: justify;">
+                            Hastelloy C-4 alloy is a nickel-chromium-molybdenum material specially developed to provide
+                            excellent corrosion resistance
+                            in highly aggressive environments. With its low carbon and silicon content, Hastelloy C-4
+                            composition ensures superior
+                            weldability and resistance to grain boundary precipitation. It is widely used in industries that
+                            require corrosion-resistant
+                            alloys, particularly in hot mineral acids such as hydrochloric and sulfuric acid.
+                        </p>
 
                     </div>
                 </div>
@@ -82,6 +95,7 @@
             <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
                 @csrf
                 <div class="row justify-content-center">
+                    <input type="hidden" name="pdf" value="Hastelloy_C4.pdf">
                     <div class="col-md-6 mb-2">
                         <input type="email" name="email" required class="form-control p-3"
                             placeholder="Enter your email address">
@@ -526,7 +540,7 @@
         </div>
     </section>
 
-     <!--Start faq content area-->
+    <!--Start faq content area-->
     <section class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
@@ -672,7 +686,7 @@
                         C-4</strong> products.. Get expert support, certified material, and on-time delivery for all your
                     industrial needs.
                 </p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch

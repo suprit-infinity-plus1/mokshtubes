@@ -12,15 +12,19 @@ class LeadController extends Controller
     {
         // Validate email
         $request->validate([
-            'email' => 'required|email|unique:leads,email'
+            'email' => 'required|email|unique:leads,email',
+            'pdf' => 'required|string'
         ]);
         // Save email to database
         $leads = Lead::create([
-            'email' => $request->email
+            'email' => $request->email,
+            'pdf' => $request->pdf
         ]);
         $pdfFile = basename($request->pdf);
+        // dd($pdfFile);
         // Path to PDF
         $filePath = storage_path('app/public/datasheets/' . $pdfFile);
+        // $filePath = storage_path('app/public/datasheets/EN8_Steel_Datasheet.pdf');
 
          // Check if file exists
     if (!file_exists($filePath)) {
@@ -29,6 +33,6 @@ class LeadController extends Controller
 
         // dd("i am hwere");
         // Return PDF as download
-        return response()->download($filePath, $filePath);
+        return response()->download($filePath, $pdfFile);
     }
 }

@@ -13,7 +13,8 @@ return new class extends Migration
     {
         Schema::create('leads', function (Blueprint $table) {
             $table->id();
-            $table->string('email')->unique(); 
+            $table->string('email');
+            $table->string('pdf');
             $table->timestamps();
         });
     }
