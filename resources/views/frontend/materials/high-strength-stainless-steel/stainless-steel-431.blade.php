@@ -31,7 +31,7 @@
         <div class="row align-items-center">
             <!-- Image Left -->
             <div class="col-md-6 mb-4 mb-md-0">
-                <img src="{{ asset('assets/images/High Strength Stainless Steel WEBP/Stainless-Steel-431.webp') }}" alt="Stainless Steel 431"
+                <img src="{{ asset('assets/images/high-strength-stainless-steel/Stainless-Steel-431.webp') }}" alt="Stainless Steel 431"
                     class="img-fluid rounded shadow-sm">
             </div>
 
@@ -39,18 +39,18 @@
             <div class="col-md-6">
                 <div class="pe-md-3">
                     <p class="fs-6" style="text-align: justify;">
-                        <strong class="text-black">Stainless Steel 431 (UNS S43100)</strong> is a high-strength martensitic stainless steel known for 
-                        its excellent corrosion resistance, toughness, and superior tensile strength. It is widely used in 
+                        <strong class="text-black">Stainless Steel 431 (UNS S43100)</strong> is a high-strength martensitic stainless steel known for
+                        its excellent corrosion resistance, toughness, and superior tensile strength. It is widely used in
                         aerospace, marine, chemical, and automotive applications where both strength and corrosion resistance are key.
                     </p>
 
                     <p class="fs-6 mb-4" style="text-align: justify;">
-                        <strong>MOKSH TUBES & FITTINGS LLP</strong> supplies and stocks an extensive range of Stainless Steel 431 
-                        products, including pipes, tubes, sheets, plates, coils, flanges, fasteners, bars, rods, and precision-engineered 
+                        <strong>MOKSH TUBES & FITTINGS LLP</strong> supplies and stocks an extensive range of Stainless Steel 431
+                        products, including pipes, tubes, sheets, plates, coils, flanges, fasteners, bars, rods, and precision-engineered
                         components. It provides high resistance to mild acids, freshwater, and a variety of industrial chemicals.
-                        After heat treatment, this grade offers exceptional hardness and mechanical properties, making 
+                        After heat treatment, this grade offers exceptional hardness and mechanical properties, making
                         <strong>Stainless Steel 431</strong> one of the most versatile grades in the 400-series category.
-                        The <strong>Stainless Steel 431 density</strong> is approximately <strong>7.75 g/cm³</strong>, providing a balance between 
+                        The <strong>Stainless Steel 431 density</strong> is approximately <strong>7.75 g/cm³</strong>, providing a balance between
                         corrosion resistance, durability, and machinability.
                     </p>
                 </div>
@@ -215,7 +215,7 @@
         <div class="row justify-content-center mb-4" style="text-align: justify;">
             <div class="col-lg-10">
                 <p class="fs-6">
-                    <strong class="text-dark">MOKSH TUBES & FITTINGS LLP</strong>, with extensive experience in high-strength martensitic stainless steels and a strong supply network, offers a complete range of <strong class="text-dark">STAINLESS STEEL 431</strong> products. These materials are designed for demanding applications in aerospace, marine, chemical, and automotive industries, where superior mechanical performance and corrosion resistance are essential. 
+                    <strong class="text-dark">MOKSH TUBES & FITTINGS LLP</strong>, with extensive experience in high-strength martensitic stainless steels and a strong supply network, offers a complete range of <strong class="text-dark">STAINLESS STEEL 431</strong> products. These materials are designed for demanding applications in aerospace, marine, chemical, and automotive industries, where superior mechanical performance and corrosion resistance are essential.
                     Our SS 431 offerings meet international quality standards, ensuring reliability, durability, and precision for both critical and general-purpose projects.
                 </p>
             </div>

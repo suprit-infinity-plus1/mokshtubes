@@ -33,7 +33,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/High Strength Stainless Steel WEBP/14-4PH -Stainless-Steel.jpeg') }}" alt="Hastelloy C276"
+                    <img src="{{ asset('assets/images/high-strength-stainless-steel/14-4PH-Stainless-Steel.jpeg') }}" alt="Hastelloy C276"
                         class="img-fluid rounded shadow-sm">
                 </div>
 
@@ -45,7 +45,7 @@
         </p>
 
         <p class="fs-6" style="text-align: justify;">
-            <a href="{{ route('index') }}">MOKSH TUBES & FITTINGS LLP</a> offers a wide range of <strong class="text-black">14-4PH Stainless Steel</strong> products including pipes, sheets, bars, rods, and fittings designed for superior performance in aerospace, nuclear, marine, and petrochemical industries. 
+            <a href="{{ route('index') }}">MOKSH TUBES & FITTINGS LLP</a> offers a wide range of <strong class="text-black">14-4PH Stainless Steel</strong> products including pipes, sheets, bars, rods, and fittings designed for superior performance in aerospace, nuclear, marine, and petrochemical industries.
         </p>
 
         <p class="fs-6 mb-4" style="text-align: justify;">
@@ -54,7 +54,7 @@
     </div>
 </div>
             </div>
-        </div>  
+        </div>
     </section>
 
     <section class="sec-padd-top sec-padd-bottom">
@@ -650,7 +650,7 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                <p>
-    At <strong>Moksh Tubes & Fittings LLP</strong>, we provide high-quality <strong>14-4PH Stainless Steel</strong> products engineered for precision and durability. Our expertise in special alloys ensures reliable supply for critical industries such as aerospace, defense, and energy. 
+    At <strong>Moksh Tubes & Fittings LLP</strong>, we provide high-quality <strong>14-4PH Stainless Steel</strong> products engineered for precision and durability. Our expertise in special alloys ensures reliable supply for critical industries such as aerospace, defense, and energy.
 </p>
 <p>
     For any inquiries or to request a quote, reach out to <strong>Moksh Tubes & Fittings LLP</strong> – your trusted partner for <strong>14-4PH Stainless Steel</strong> products.

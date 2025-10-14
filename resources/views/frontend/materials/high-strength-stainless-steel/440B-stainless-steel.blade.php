@@ -33,7 +33,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/High Strength Stainless Steel WEBP/440B-Stainless-Steel.webp') }}" alt="Hastelloy C276"
+                    <img src="{{ asset('assets/images/high-strength-stainless-steel/440B-Stainless-Steel.webp') }}" alt="Hastelloy C276"
                         class="img-fluid rounded shadow-sm">
                 </div>
 
@@ -286,9 +286,9 @@
         <div class="row justify-content-center mb-4" style="text-align: justify;">
             <div class="col-lg-10">
                 <p class="fs-6">
-                    <strong class="text-dark">MOKSH TUBES & FITTINGS LLP</strong>, with extensive experience in martensitic stainless steels, 
-                    supplies <strong class="text-dark">Stainless Steel 440B</strong> in a broad range of product forms for industrial, mechanical, 
-                    and precision applications. Known for its excellent hardness, wear resistance, and moderate corrosion protection, 
+                    <strong class="text-dark">MOKSH TUBES & FITTINGS LLP</strong>, with extensive experience in martensitic stainless steels,
+                    supplies <strong class="text-dark">Stainless Steel 440B</strong> in a broad range of product forms for industrial, mechanical,
+                    and precision applications. Known for its excellent hardness, wear resistance, and moderate corrosion protection,
                     440B serves as a versatile material for engineering and production environments that demand high performance.
                 </p>
             </div>
@@ -348,7 +348,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-10">
                 <p class="fw-bold fs-6 text-center my-4" style="color: #174268;">
-                    All products comply with international standards such as <strong>ASTM A276 / A314 / A580</strong> 
+                    All products comply with international standards such as <strong>ASTM A276 / A314 / A580</strong>
                     to ensure top-quality material performance and dimensional accuracy.
                 </p>
             </div>
@@ -578,7 +578,7 @@
                         </div>
                         <div class="accord-content">
                             <p>
-                                440B is a high-carbon martensitic stainless steel designed for exceptional hardness, high strength, and good corrosion resistance. 
+                                440B is a high-carbon martensitic stainless steel designed for exceptional hardness, high strength, and good corrosion resistance.
                                 It is commonly used in manufacturing precision tools and components that require a balance of wear resistance and toughness.
                             </p>
                         </div>
@@ -622,7 +622,7 @@
                         </div>
                         <div class="accord-content">
                             <p>
-                                Welding 440B is possible but requires preheating and post-weld heat treatment to prevent cracking and restore corrosion resistance. 
+                                Welding 440B is possible but requires preheating and post-weld heat treatment to prevent cracking and restore corrosion resistance.
                                 TIG or MIG welding methods are recommended for controlled and accurate joints.
                             </p>
                         </div>
@@ -635,8 +635,8 @@
                         </div>
                         <div class="accord-content">
                             <p>
-                                MOKSH TUBES & FITTINGS LLP provides premium-grade 440B stainless steel with precision processing, 
-                                consistent quality assurance, and timely global delivery. Our materials meet rigorous industry standards 
+                                MOKSH TUBES & FITTINGS LLP provides premium-grade 440B stainless steel with precision processing,
+                                consistent quality assurance, and timely global delivery. Our materials meet rigorous industry standards
                                 and are tailored to meet client requirements across multiple sectors.
                             </p>
                         </div>
@@ -648,7 +648,7 @@
     </div>
 </section>
 <!--End faq content area-->
-    
+
 
  <!-- Contact Section -->
     <section class="sec-padd-bottom">

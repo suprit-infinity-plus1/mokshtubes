@@ -33,7 +33,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/High Strength Stainless Steel WEBP/440A-Stainless-Steel.webp') }}" alt="Hastelloy C276"
+                    <img src="{{ asset('assets/images/high-strength-stainless-steel/440A-Stainless-Steel.webp') }}" alt="Hastelloy C276"
                         class="img-fluid rounded shadow-sm">
                 </div>
 
@@ -41,25 +41,25 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-    <a href="{{ route('index') }}"><strong class="text-black">MOKSH TUBES & FITTINGS LLP</strong></a> is a leading supplier, exporter, importer, and stockist of a comprehensive range of 
-    <strong class="text-black">Stainless Steel 440A</strong> products, including Pipes & Tubes, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires, Round Bars, Flat Bars, 
+    <a href="{{ route('index') }}"><strong class="text-black">MOKSH TUBES & FITTINGS LLP</strong></a> is a leading supplier, exporter, importer, and stockist of a comprehensive range of
+    <strong class="text-black">Stainless Steel 440A</strong> products, including Pipes & Tubes, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires, Round Bars, Flat Bars,
     Angles, Channels, Wire Mesh, and other custom or hard-to-find 440A components.
 </p>
 
 <p class="fs-6" style="text-align: justify;">
-    <strong class="text-black">Stainless Steel 440A</strong> is a high-carbon martensitic stainless steel that delivers an excellent balance between hardness, strength, and corrosion resistance. 
-    This alloy contains more chromium than Type 410, enhancing its corrosion resistance, while the higher carbon content provides increased wear resistance and edge retention. 
+    <strong class="text-black">Stainless Steel 440A</strong> is a high-carbon martensitic stainless steel that delivers an excellent balance between hardness, strength, and corrosion resistance.
+    This alloy contains more chromium than Type 410, enhancing its corrosion resistance, while the higher carbon content provides increased wear resistance and edge retention.
     It is suitable for applications requiring strong mechanical performance combined with hardness and polishability.
 </p>
 
 <p class="fs-6" style="text-align: justify;">
-    440A stainless steel is magnetic in all conditions and can be hardened through conventional heat treatment processes. 
-    This property makes it ideal for the manufacture of cutting tools, blades, valve parts, and components that require both high surface hardness and dimensional stability. 
+    440A stainless steel is magnetic in all conditions and can be hardened through conventional heat treatment processes.
+    This property makes it ideal for the manufacture of cutting tools, blades, valve parts, and components that require both high surface hardness and dimensional stability.
     It also performs exceptionally well in environments with moderate corrosion exposure.
 </p>
 
 <p class="fs-6 mb-4" style="text-align: justify;">
-    Among the 440 stainless steel series (440A, 440B, and 440C), <strong>440A</strong> offers the best corrosion resistance while maintaining excellent machinability in the annealed condition. 
+    Among the 440 stainless steel series (440A, 440B, and 440C), <strong>440A</strong> offers the best corrosion resistance while maintaining excellent machinability in the annealed condition.
     Its ability to combine hardness, strength, and cost-efficiency makes it one of the most reliable martensitic grades for industrial and commercial use.
 </p>
 
@@ -119,7 +119,7 @@
             <td>Balance</td>
         </tr>
     </tbody>
-</table>             
+</table>
                     </div>
                 </div>
             </div>
@@ -292,9 +292,9 @@
         <div class="row justify-content-center mb-4" style="text-align: justify;">
             <div class="col-lg-10">
                 <p class="fs-6">
-                    <strong class="text-dark">MOKSH TUBES & FITTINGS LLP</strong>, with decades of experience in high-carbon stainless steels, 
-                    supplies <strong class="text-dark">Stainless Steel 440A</strong> in a comprehensive range of product forms. Known for its 
-                    high strength, wear resistance, and precision heat-treating properties, 440A is ideal for diverse industrial, mechanical, 
+                    <strong class="text-dark">MOKSH TUBES & FITTINGS LLP</strong>, with decades of experience in high-carbon stainless steels,
+                    supplies <strong class="text-dark">Stainless Steel 440A</strong> in a comprehensive range of product forms. Known for its
+                    high strength, wear resistance, and precision heat-treating properties, 440A is ideal for diverse industrial, mechanical,
                     and specialty applications.
                 </p>
             </div>
@@ -354,7 +354,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-10">
                 <p class="fw-bold fs-6 text-center my-4" style="color: #174268;">
-                    All products are manufactured and supplied as per <strong>ASTM A276 / A314 / A580</strong> and equivalent international standards to ensure 
+                    All products are manufactured and supplied as per <strong>ASTM A276 / A314 / A580</strong> and equivalent international standards to ensure
                     superior performance, reliability, and precision.
                 </p>
             </div>

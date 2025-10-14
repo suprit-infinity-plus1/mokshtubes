@@ -31,7 +31,7 @@
         <div class="row align-items-center">
             <!-- Image Left -->
             <div class="col-md-6 mb-4 mb-md-0">
-                <img src="{{ asset('assets/images/High Strength Stainless Steel WEBP/Stainless-Steel-405.webp') }}" alt="Stainless Steel 405"
+                <img src="{{ asset('assets/images/high-strength-stainless-steel/Stainless-Steel-405.webp') }}" alt="Stainless Steel 405"
                     class="img-fluid rounded shadow-sm">
             </div>
 
@@ -282,13 +282,13 @@
             <div class="row justify-content-center mb-4" style="text-align: justify;">
                 <div class="col-lg-10">
                     <p class="fs-6">
-                        <strong class="text-dark">MOKSH TUBES & FITTINGS LLP</strong> supplies a wide range of 
-                        <strong class="text-dark">Stainless Steel 405</strong> products in various forms. These products 
-                        are widely used in industries such as Chemical Processing, Power Generation, Oil & Gas, Pulp & Paper, 
-                        and many other engineering sectors. Stainless Steel 405 offers excellent oxidation and scaling resistance 
-                        along with good ductility and machinability, making it suitable for applications that require 
-                        moderate corrosion resistance and formability under elevated temperatures. 
-                        It is an ideal material for components that must maintain mechanical integrity and durability 
+                        <strong class="text-dark">MOKSH TUBES & FITTINGS LLP</strong> supplies a wide range of
+                        <strong class="text-dark">Stainless Steel 405</strong> products in various forms. These products
+                        are widely used in industries such as Chemical Processing, Power Generation, Oil & Gas, Pulp & Paper,
+                        and many other engineering sectors. Stainless Steel 405 offers excellent oxidation and scaling resistance
+                        along with good ductility and machinability, making it suitable for applications that require
+                        moderate corrosion resistance and formability under elevated temperatures.
+                        It is an ideal material for components that must maintain mechanical integrity and durability
                         in heat and mildly corrosive environments.
                     </p>
                 </div>
@@ -317,8 +317,8 @@
                     <p class="fw-bold fs-5 text-center my-4" style="color: #174268;">
                         MOKSH TUBES & FITTINGS LLP supplies Stainless Steel 405 in a wide variety of product forms, including:
                     </p>
-                    
-                    
+
+
                 </div>
             </div>
         </div>
@@ -571,7 +571,7 @@
 <!--End faq content area-->
 
 
-   
+
     <!-- Contact Section -->
     <section class="sec-padd-bottom">
         <div class="container">

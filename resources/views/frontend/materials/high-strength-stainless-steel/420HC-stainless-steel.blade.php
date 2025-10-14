@@ -33,7 +33,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/High Strength Stainless Steel WEBP/420HC-STAINLESS-STEEL.jpeg') }}" alt="Hastelloy C276"
+                    <img src="{{ asset('assets/images/high-strength-stainless-steel/420HC-STAINLESS-STEEL.jpeg') }}" alt="Hastelloy C276"
                         class="img-fluid rounded shadow-sm">
                 </div>
 
@@ -41,7 +41,7 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                        <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-    <a href="{{ route('index') }}"><strong class="text-black">MOKSH TUBES & FITTINGS LLP</strong></a> is a trusted supplier, exporter, importer, and stockist of a wide range of 
+    <a href="{{ route('index') }}"><strong class="text-black">MOKSH TUBES & FITTINGS LLP</strong></a> is a trusted supplier, exporter, importer, and stockist of a wide range of
     <strong class="text-black">Stainless Steel 420HC</strong> products including Pipes & Tubes, Sheets & Plates, Coils, Bars, Wires, Pipe Fittings, Flanges, Fasteners, and Custom Fabricated Components.
 </p>
 
@@ -287,10 +287,10 @@
         <div class="row justify-content-center mb-4" style="text-align: justify;">
             <div class="col-lg-10">
                 <p class="fs-6">
-                    With our specialized manufacturing capabilities and extensive global sourcing network, 
-                    <strong class="text-dark">MOKSH TUBES & FITTINGS LLP</strong> offers a comprehensive range of 
+                    With our specialized manufacturing capabilities and extensive global sourcing network,
+                    <strong class="text-dark">MOKSH TUBES & FITTINGS LLP</strong> offers a comprehensive range of
                     high-performance <strong class="text-dark">Stainless Steel 420HC</strong> products designed for diverse
-                    industrial and commercial applications. Known for its excellent hardness, polishability, and wear resistance, 
+                    industrial and commercial applications. Known for its excellent hardness, polishability, and wear resistance,
                     420HC Stainless Steel serves as an ideal material for high-precision and durable components.
                 </p>
             </div>
@@ -633,7 +633,7 @@
 </section>
 <!--End faq content area-->
 
-      
+
     <!-- Contact Section -->
     <section class="sec-padd-bottom">
         <div class="container">

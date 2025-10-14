@@ -33,7 +33,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/High Strength Stainless Steel WEBP/17-4-PH-STAINLESS-STEEL.jpg') }}" alt="Hastelloy C276"
+                    <img src="{{ asset('assets/images/high-strength-stainless-steel/17-4-PH-STAINLESS-STEEL.jpg') }}" alt="Hastelloy C276"
                         class="img-fluid rounded shadow-sm">
                 </div>
 
@@ -41,25 +41,25 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                        <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-    <a href="{{ route('index') }}"><strong class="text-black">MOKSH TUBES & FITTINGS LLP</strong></a> is a leading supplier, exporter, importer, and stockist of a wide range of 
-    <strong class="text-black">17-4 PH Stainless Steel (UNS S17400)</strong> products including Pipes & Tubes, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, 
+    <a href="{{ route('index') }}"><strong class="text-black">MOKSH TUBES & FITTINGS LLP</strong></a> is a leading supplier, exporter, importer, and stockist of a wide range of
+    <strong class="text-black">17-4 PH Stainless Steel (UNS S17400)</strong> products including Pipes & Tubes, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils,
     Wires, Bars, Welding Rods, Mesh, and Custom Fabricated Components.
 </p>
 
 <p class="fs-6" style="text-align: justify;">
-    <strong class="text-black">17-4 PH Stainless Steel</strong> is a precipitation-hardening martensitic stainless steel that combines high strength, excellent corrosion resistance, 
-    and ease of heat treatment into one versatile alloy. Its nominal composition includes chromium, nickel, and copper, which allow it to achieve very high tensile and yield 
+    <strong class="text-black">17-4 PH Stainless Steel</strong> is a precipitation-hardening martensitic stainless steel that combines high strength, excellent corrosion resistance,
+    and ease of heat treatment into one versatile alloy. Its nominal composition includes chromium, nickel, and copper, which allow it to achieve very high tensile and yield
     strengths through a simple heat treatment process.
 </p>
 
 <p class="fs-6" style="text-align: justify;">
-    The alloy is magnetic in all conditions, weldable using conventional techniques, and can be machined efficiently in its solution-annealed or aged states. Due to its ability 
-    to develop high mechanical properties without extensive processing, <strong>17-4 PH</strong> is widely used in aerospace, petrochemical, marine, power generation, and general 
+    The alloy is magnetic in all conditions, weldable using conventional techniques, and can be machined efficiently in its solution-annealed or aged states. Due to its ability
+    to develop high mechanical properties without extensive processing, <strong>17-4 PH</strong> is widely used in aerospace, petrochemical, marine, power generation, and general
     engineering industries.
 </p>
 
 <p class="fs-6 mb-4" style="text-align: justify;">
-    It performs well in mildly corrosive environments, similar to <strong>304 stainless steel</strong>, and offers exceptional resistance to stress corrosion cracking in many 
+    It performs well in mildly corrosive environments, similar to <strong>304 stainless steel</strong>, and offers exceptional resistance to stress corrosion cracking in many
     applications. Its balance of strength, toughness, and corrosion resistance makes it one of the most commonly used precipitation-hardening stainless steels worldwide.
 </p>
 
@@ -308,7 +308,7 @@
                 <p class="fs-6">
                     <strong class="text-dark">MOKSH TUBES & FITTINGS LLP</strong>, we supply a complete range of
                     <strong class="text-dark">17-4 PH Stainless Steel</strong> products tailored to meet diverse industrial applications.
-                    Backed by years of experience and a strong global sourcing network, we ensure top-quality materials 
+                    Backed by years of experience and a strong global sourcing network, we ensure top-quality materials
                     that perform reliably under demanding and challenging service conditions.
                 </p>
             </div>

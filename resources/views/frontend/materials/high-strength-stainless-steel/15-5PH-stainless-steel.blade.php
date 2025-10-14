@@ -33,7 +33,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/High Strength Stainless Steel WEBP/15-5-PH-STAINLESS-STEEL.jpg') }}" alt="Hastelloy C276"
+                    <img src="{{ asset('assets/images/high-strength-stainless-steel/15-5-PH-STAINLESS-STEEL.jpg') }}" alt="Hastelloy C276"
                         class="img-fluid rounded shadow-sm">
                 </div>
 
@@ -41,22 +41,22 @@
               <div class="col-md-6">
     <div class="pe-md-3">
         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-            <a href="{{ route('index') }}"><strong class="text-black">MOKSH TUBES & FITTINGS LLP</strong></a> is a trusted supplier, exporter, importer, and stockist of high-quality 
-            <strong class="text-black">15-5 PH Stainless Steel</strong> products, including Pipes & Tubes, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires, 
+            <a href="{{ route('index') }}"><strong class="text-black">MOKSH TUBES & FITTINGS LLP</strong></a> is a trusted supplier, exporter, importer, and stockist of high-quality
+            <strong class="text-black">15-5 PH Stainless Steel</strong> products, including Pipes & Tubes, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires,
             Round Bars, Flat Bars, Angles, Channels, Welding Rods, Wire Mesh, and Custom Fabricated Components.
         </p>
 
         <p class="fs-6" style="text-align: justify;">
-            <strong class="text-black">15-5 PH (Precipitation Hardening) Stainless Steel</strong>, designated as UNS S15500, is a martensitic 
-            chromium–nickel–copper stainless steel designed for high strength, excellent corrosion resistance, and superior toughness. 
-            Developed as an improvement over 17-4 PH, this alloy offers enhanced transverse toughness and more uniform mechanical properties 
+            <strong class="text-black">15-5 PH (Precipitation Hardening) Stainless Steel</strong>, designated as UNS S15500, is a martensitic
+            chromium–nickel–copper stainless steel designed for high strength, excellent corrosion resistance, and superior toughness.
+            Developed as an improvement over 17-4 PH, this alloy offers enhanced transverse toughness and more uniform mechanical properties
             than traditional precipitation-hardening grades.
         </p>
 
-       
+
         <p class="fs-6 mb-4" style="text-align: justify;">
-            The alloy can be hardened through a simple low-temperature aging process without distortion or scaling, allowing engineers to 
-            achieve the required strength levels efficiently. With its balance of strength, ductility, and corrosion resistance, 
+            The alloy can be hardened through a simple low-temperature aging process without distortion or scaling, allowing engineers to
+            achieve the required strength levels efficiently. With its balance of strength, ductility, and corrosion resistance,
             <strong>15-5 PH Stainless Steel</strong> remains a versatile solution for both structural and critical component applications.
         </p>
     </div>
@@ -126,7 +126,7 @@
     </tbody>
 </table>
 
-                   
+
                     </div>
                 </div>
             </div>
@@ -301,8 +301,8 @@
                 <p class="fs-6">
                     <strong class="text-dark">MOKSH TUBES & FITTINGS LLP</strong>, with deep expertise in high-performance
                     stainless steels and an extensive global sourcing network, offers a comprehensive range of
-                    <strong class="text-dark">15-5 PH Stainless Steel</strong> products. These products are ideally suited 
-                    for applications requiring high strength, corrosion resistance, and reliability in demanding sectors 
+                    <strong class="text-dark">15-5 PH Stainless Steel</strong> products. These products are ideally suited
+                    for applications requiring high strength, corrosion resistance, and reliability in demanding sectors
                     such as Aerospace, Petrochemical, Power Generation, and Marine Industries.
                 </p>
             </div>
@@ -642,7 +642,7 @@
 </section>
 <!--End faq content area-->
 
-        
+
     <!-- Contact Section -->
     <section class="sec-padd-bottom">
         <div class="container">

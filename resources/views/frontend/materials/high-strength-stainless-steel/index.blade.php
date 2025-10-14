@@ -35,77 +35,77 @@
                     [
                         'name' => '14 4PH Stainless Steel',
                         'slug' => '14-4ph-stainless-steel',
-                        'image' => 'assets/images/High Strength Stainless Steel WEBP/14-4PH -Stainless-Steel.jpeg',
+                        'image' => 'assets/images/high-strength-stainless-steel/14-4PH-Stainless-Steel.jpeg',
                     ],
                     [
                         'name' => '15 5PH Stainless Steel',
                         'slug' => '15-5ph-stainless-steel',
-                        'image' => 'assets/images/High Strength Stainless Steel WEBP/15-5-PH-STAINLESS-STEEL.jpg',
+                        'image' => 'assets/images/high-strength-stainless-steel/15-5-PH-STAINLESS-STEEL.jpg',
                     ],
                     [
                         'name' => '17 4PH Stainless Steel',
                         'slug' => '17-4ph-stainless-steel',
-                        'image' => 'assets/images/High Strength Stainless Steel WEBP/17-4-PH-STAINLESS-STEEL.jpg',
+                        'image' => 'assets/images/high-strength-stainless-steel/17-4-PH-STAINLESS-STEEL.jpg',
                     ],
                     [
                         'name' => '420HC Stainless Steel',
                         'slug' => '420hc-stainless-steel',
-                        'image' => 'assets/images/High Strength Stainless Steel WEBP/420HC-STAINLESS-STEEL.jpeg',
+                        'image' => 'assets/images/high-strength-stainless-steel/420HC-STAINLESS-STEEL.jpeg',
                     ],
                     [
                         'name' => '430F Stainless Steel',
                         'slug' => '430f-stainless-steel',
-                        'image' => 'assets/images/High Strength Stainless Steel WEBP/430F-Stainless-Steel.webp',
+                        'image' => 'assets/images/high-strength-stainless-steel/430F-Stainless-Steel.webp',
                     ],
                     [
                         'name' => '440A Stainless Steel',
                         'slug' => '440a-stainless-steel',
-                        'image' => 'assets/images/High Strength Stainless Steel WEBP/440A-Stainless-Steel.webp',
+                        'image' => 'assets/images/high-strength-stainless-steel/440A-Stainless-Steel.webp',
                     ],
                     [
                         'name' => '440B Stainless Steel',
                         'slug' => '440b-stainless-steel',
-                        'image' => 'assets/images/High Strength Stainless Steel WEBP/440B-Stainless-Steel.webp',
+                        'image' => 'assets/images/high-strength-stainless-steel/440B-Stainless-Steel.webp',
                     ],
                     [
                         'name' => '440C Stainless Steel',
                         'slug' => '440c-stainless-steel',
-                        'image' => 'assets/images/High Strength Stainless Steel WEBP/440C-Stainless-Steel.webp',
+                        'image' => 'assets/images/high-strength-stainless-steel/440C-Stainless-Steel.webp',
                     ],
                     [
                         'name' => 'Stainless Steel 403',
                         'slug' => 'stainless-steel-403',
-                        'image' => 'assets/images/High Strength Stainless Steel WEBP/Stainless-Steel-403.webp',
+                        'image' => 'assets/images/high-strength-stainless-steel/Stainless-Steel-403.webp',
                     ],
                     [
                         'name' => 'Stainless Steel 405',
                         'slug' => 'stainless-steel-405',
-                        'image' => 'assets/images/High Strength Stainless Steel WEBP/Stainless-Steel-405.webp',
+                        'image' => 'assets/images/high-strength-stainless-steel/Stainless-Steel-405.webp',
                     ],
                     [
                         'name' => 'Stainless Steel 410',
                         'slug' => 'stainless-steel-410',
-                        'image' => 'assets/images/High Strength Stainless Steel WEBP/Stainless-Steel-410.webp',
+                        'image' => 'assets/images/high-strength-stainless-steel/Stainless-Steel-410.webp',
                     ],
                     [
                         'name' => 'Stainless Steel 416',
                         'slug' => 'stainless-steel-416',
-                        'image' => 'assets/images/High Strength Stainless Steel WEBP/416-Stainless-Steel.jpeg',
+                        'image' => 'assets/images/high-strength-stainless-steel/416-Stainless-Steel.jpeg',
                     ],
                     [
                         'name' => 'Stainless Steel 420',
                         'slug' => 'stainless-steel-420',
-                        'image' => 'assets/images/High Strength Stainless Steel WEBP/Stainless-Steel-420.webp',
+                        'image' => 'assets/images/high-strength-stainless-steel/Stainless-Steel-420.webp',
                     ],
                     [
                         'name' => 'Stainless Steel 422',
                         'slug' => 'stainless-steel-422',
-                        'image' => 'assets/images/High Strength Stainless Steel WEBP/Stainless-Steel-422.webp',
+                        'image' => 'assets/images/high-strength-stainless-steel/Stainless-Steel-422.webp',
                     ],
                     [
                         'name' => 'Stainless Steel 431',
                         'slug' => 'stainless-steel-431',
-                        'image' => 'assets/images/High Strength Stainless Steel WEBP/Stainless-Steel-431.webp',
+                        'image' => 'assets/images/high-strength-stainless-steel/Stainless-Steel-431.webp',
                     ],
                 ];
             @endphp

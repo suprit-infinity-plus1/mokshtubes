@@ -31,7 +31,7 @@
         <div class="row align-items-center">
             <!-- Image Left -->
             <div class="col-md-6 mb-4 mb-md-0">
-                <img src="{{ asset('assets/images/High Strength Stainless Steel WEBP/440C-Stainless-Steel.webp') }}" alt="Stainless Steel 440C"
+                <img src="{{ asset('assets/images/high-strength-stainless-steel/440C-Stainless-Steel.webp') }}" alt="Stainless Steel 440C"
                     class="img-fluid rounded shadow-sm">
             </div>
 
@@ -282,10 +282,10 @@
         <div class="row justify-content-center mb-4" style="text-align: justify;">
             <div class="col-lg-10">
                 <p class="fs-6">
-                    <strong class="text-dark">MOKSH TUBES & FITTINGS LLP</strong> offers a comprehensive range of 
-                    <strong class="text-dark">Stainless Steel 440C</strong> products for use in industrial, mechanical, 
-                    and specialty applications. Known for its exceptional hardness, edge retention, and wear resistance, 
-                    440C is the hardest and most corrosion-resistant steel among the 440 series, making it a preferred 
+                    <strong class="text-dark">MOKSH TUBES & FITTINGS LLP</strong> offers a comprehensive range of
+                    <strong class="text-dark">Stainless Steel 440C</strong> products for use in industrial, mechanical,
+                    and specialty applications. Known for its exceptional hardness, edge retention, and wear resistance,
+                    440C is the hardest and most corrosion-resistant steel among the 440 series, making it a preferred
                     choice for cutting tools, bearings, and precision components.
                 </p>
             </div>
@@ -345,8 +345,8 @@
         <div class="row justify-content-center">
             <div class="col-lg-10">
                 <p class="fw-bold fs-6 text-center my-4" style="color: #174268;">
-                    All materials are manufactured and tested as per <strong>ASTM A276 / A314 / A580</strong> 
-                    and equivalent international standards to ensure superior mechanical performance, 
+                    All materials are manufactured and tested as per <strong>ASTM A276 / A314 / A580</strong>
+                    and equivalent international standards to ensure superior mechanical performance,
                     dimensional accuracy, and durability.
                 </p>
             </div>
@@ -595,9 +595,9 @@
 </section>
 
 
-    
 
-   
+
+
     <!-- Contact Section -->
     <section class="sec-padd-bottom">
         <div class="container">
