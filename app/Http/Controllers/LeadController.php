@@ -29,6 +29,6 @@ class LeadController extends Controller
 
         // dd("i am hwere");
         // Return PDF as download
-        return response()->download($filePath, $filePath);
+        return response()->download($filePath, $pdfFile);
     }
 }

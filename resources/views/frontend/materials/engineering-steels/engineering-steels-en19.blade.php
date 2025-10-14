@@ -51,7 +51,7 @@
 
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">EN 19</strong class="text-black">, <a
-                                href="{{ uri('resources/views/frontend/materials/engineering-steels/engineering-steels-en8.blade.php') }}">EN8</a>
+                                href="{{ uri('materials/engineering-steels/engineering-steels-en8') }}">EN8</a>
                             is a high tensile alloy steel
                             grade with excellent strength, toughness, and wear resistance. It contains chromium and
                             molybdenum, which provide improved hardenability and high fatigue strength.<a
