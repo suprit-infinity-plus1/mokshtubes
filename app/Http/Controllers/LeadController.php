@@ -21,6 +21,7 @@ class LeadController extends Controller
         // Path to PDF
         $filePath = storage_path('app/public/datasheets/en8.pdf');
 
+        // dd("i am hwere");
         // Return PDF as download
         return response()->download($filePath, 'EN8_Steel_Datasheet.pdf');
     }

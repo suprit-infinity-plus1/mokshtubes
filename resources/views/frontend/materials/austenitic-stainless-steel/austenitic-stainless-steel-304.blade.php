@@ -2,7 +2,7 @@
 
 @section('title', 'Austenitic Stainless Steel 304 | Premium Quality SS')
 
-@section('meta_description', 'Austenitic Stainless Steel 304 – premium grade pipes and fittings offering exceptional corrosion resistance, durability, and high strength for diverse applications.')
+@section('meta_description', 'Austenitic Stainless Steel 304 from Moksh Tubes — premium pipes & fittings with exceptional corrosion resistance, durability & strength.')
 
 @section('meta_keywords', 'Austenitic Stainless Steel 304, Stainless Steel 304 Pipes, Stainless Steel 304 Tubes, Stainless Steel 304 Fittings, Corrosion Resistant Stainless Steel 304, Premium Quality Stainless Steel, Industrial Stainless Steel 304, Marine Grade Stainless Steel 304, Chemical Processing Stainless Steel 304, High Strength Stainless Steel 304')
 

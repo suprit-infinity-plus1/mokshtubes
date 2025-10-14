@@ -1,8 +1,7 @@
 @extends('layouts.master')
 @section('title', 'Premium Pipes & Tubes – Welded, Seamless & Capillaries') <!-- 53 characters -->
 @section('meta_description',
-    'Moksh Tubes supplies high-quality pipes and tubes including welded, seamless, capillaries,
-    hollow sections, U-bent & boiler tubes in stainless steel, nickel & titanium alloys.') <!-- 153 characters -->
+    'High-quality boiler & heat exchanger tubes from Moksh Tubes — strong, durable & corrosion-resistant for power, marine & industrial use.') <!-- 153 characters -->
 @section('meta_keywords',
     'Pipes, Tubes, Welded Pipes, Seamless Pipes, Capillaries, Hollow Section Pipes, U-Bent Tubes,
     Boiler Tubes, Stainless Steel Pipes, Nickel Tubes, Titanium Tubes')

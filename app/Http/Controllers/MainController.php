@@ -124,6 +124,21 @@ class MainController extends Controller
 
         return view('frontend.blogs.how-stainless-steel-tubes-improve-process-efficiency');
     }
+    public function stainlessSteelVsOtherMetals()
+    {
+
+        return view('frontend.blogs.stainless-steel-vs-other-metals');
+    }
+    public function stainlessSteelPipeInstallation()
+    {
+
+        return view('frontend.blogs.stainless-steel-pipe-installation');
+    }
+    public function stainlessSteelTubeGradesExplained()
+    {
+
+        return view('frontend.blogs.stainless-steel-tube-grades-explained');
+    }
 
 
 

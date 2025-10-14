@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('title', 'Premium Pipe Fittings Manufacturer & Supplier') <!-- 52 characters -->
 @section('meta_description',
-    'Moksh Tubes provides high-quality stainless, carbon, alloy, duplex, nickel & titanium pipe fittings built to ASTM/ASME standards for industrial reliability and performance.') <!-- 153 characters -->
+    'High-quality stainless, carbon, alloy, duplex, nickel & titanium pipe fittings from Moksh Tubes — ASTM/ASME-compliant for reliable industrial performance.') <!-- 153 characters -->
 @section('meta_keywords', 'Pipe Fittings, Stainless Steel Fittings, Carbon Steel Fittings, Alloy Steel Fittings, Duplex Fittings, Nickel Alloy Fittings, Titanium Fittings, ASTM/ASME Fittings, Industrial Pipe Fittings')
 @section('content')
     <!--Start breadcrumb area-->

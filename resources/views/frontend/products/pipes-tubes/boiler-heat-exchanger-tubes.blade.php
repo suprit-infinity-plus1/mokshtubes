@@ -1,7 +1,6 @@
 @extends('layouts.master')
 @section('title', 'Premium Boiler & Heat Exchanger Tubes – Moksh Tubes') <!-- 52 characters -->
-@section('meta_description', 'Moksh Tubes provides high-quality boiler and heat exchanger tubes with superior strength,
-    corrosion resistance & durability for power, marine & industrial applications.') <!-- 153 characters -->
+@section('meta_description', 'High-quality boiler & heat exchanger tubes from Moksh Tubes — strong, durable & corrosion-resistant for power, marine & industrial use.') <!-- 153 characters -->
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">

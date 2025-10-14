@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
-@section('title', 'Incoloy Alloys: 800, 825, 925.')
-@section('meta_description', 'Explore Incoloy alloys 800, 825, and 925 at MokshTubes, offering high strength, oxidation resistance, and corrosion protection for chemical, marine, and high-temperature applications.')
+@section('title', 'Incoloy Alloys (800, 825, 925) | Nickel-Iron-Chromium Alloy Supplier')
+@section('meta_description', 'Incoloy 800, 825 & 925 alloys from Moksh Tubes — high strength, oxidation-resistant & corrosion-protected for chemical, marine & high-temperature use.')
 @section('meta_keywords', 'Incoloy Alloys, Corrosion Resistant Incoloy, Heat Resistant Incoloy, Incoloy Pipes, Incoloy
     Tubes, Incoloy Fittings, Chemical Industry Incoloy, Power Industry Incoloy, Industrial Incoloy Alloys, High Performance
     Incoloy, Industrial Heat Resistant Alloys')

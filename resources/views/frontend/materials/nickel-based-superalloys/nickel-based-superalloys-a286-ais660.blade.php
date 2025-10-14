@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title', 'Nickel A286 – High-Strength & Heat Resistant Superalloy') <!-- 53 chars -->
-@section('meta_description', 'A286 (AIS600) superalloy provides high strength, excellent heat resistance, and reliable performance for aerospace and high-temperature industrial applications.')
+@section('meta_description', 'A286 (AIS660) superalloy from Moksh Tubes — high strength, heat-resistant, reliable for aerospace & high-temperature industrial applications.')
 @section('meta_keywords', 'Nickel A286, AIS600 Superalloy, High Strength Nickel, Heat Resistant Alloy, Aerospace Nickel Alloy, Industrial Superalloy, Corrosion Resistant Nickel, High Temperature Alloy, Nickel-Based Alloy')
 
 @section('content')

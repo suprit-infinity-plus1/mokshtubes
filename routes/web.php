@@ -110,6 +110,9 @@ Route::get('/blogs/stainless-steel-uses-in-kitchen', [MainController::class, 'st
 Route::get('/blogs/where-to-buy-high-quality', [MainController::class, 'WhereToBuyHighQuality'])->name('blogs.where-to-buy-high-quality');
 Route::get('/blogs/how-to-choose-the-best-stainless-steel-pipes', [MainController::class, 'howToChooseTheBestStainlessSteelPipes'])->name('blogs.how-to-choose-the-best-stainless-steel-pipes');
 Route::get('/blogs/how-stainless-steel-tubes-improve-process-efficiency', [MainController::class, 'HowStainlessSteelTubesImproveProcessEfficiency'])->name('blogs.how-stainless-steel-tubes-improve-process-efficiency');
+Route::get('/blogs/stainless-steel-vs-other-metals', [MainController::class, 'stainlessSteelVsOtherMetals'])->name('blogs.stainless-steel-vs-other-metals');
+Route::get('/blogs/stainless-steel-pipe-installation', [MainController::class, 'stainlessSteelPipeInstallation'])->name('blogs.stainless-steel-pipe-installation');
+Route::get('/blogs/stainless-steel-tube-grades-explained', [MainController::class, 'stainlessSteelTubeGradesExplained'])->name('blogs.stainless-steel-tube-grades-explained');
 
 
 // Route::get('/materials/nickel-alloys', [MainController::class, 'nickelAlloys'])->name('materials.nickel-alloys');

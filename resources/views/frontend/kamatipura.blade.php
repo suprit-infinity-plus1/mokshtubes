@@ -1,7 +1,7 @@
 @extends('layouts.master')
-@section('title', 'Gulalwadi Mumbai Office – Contact Moksh Tubes Today')
+@section('title', 'Kamatipura Mumbai Office – Contact Moksh Tubes Today')
 @section('meta_description',
-    'Visit our Gulalwadi, Mumbai office or contact Moksh Tubes at +91 97695 84950 | info@mokshtubes.com for inquiries, directions, or business support.')
+    'Visit our Kamatipura, Mumbai office or contact Moksh Tubes at +91 97695 84950 | info@mokshtubes.com for inquiries, directions, or business support.')
 
 @section('content')
     <section class="bg-light sec-padd-bottom">

@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Moksh Tubes: Superior Pipes and Fittings Solutions')
+@section('title', 'Moksh Tubes & Fittings LLP | Stainless Steel & Nickel Alloy Supplier in India')
 @section('meta_description',
     'Contact MokshTubes for product inquiries, technical support, or custom alloy requirements.
     Call, email, or visit us — we’re here to assist you.')
@@ -54,6 +54,10 @@
                     </div>
                 </li>
 
+<<<<<<< HEAD
+=======
+                
+>>>>>>> d5b6516b692041d94617c510b1888e0f39e3afcc
 
                 <li data-transition="slidingoverlayleft">
                     <img src="{{ asset('assets/images/slides/carpenteria-interno.jpg') }}" alt="banner image" width="1920"
@@ -853,8 +857,8 @@
                         <!--Start single accordion box-->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>Can I order custom-sized welded pipes, sheets, and fasteners?
-                                </h4>
+                                <h3>Can I order custom-sized welded pipes, sheets, and fasteners?
+                                </h3>
                             </div>
                             <div class="accord-content">
                                 <p>Absolutely. We provide custom manufacturing services for welded pipes, metal sheets,
