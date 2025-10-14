@@ -39,24 +39,24 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                        <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-    <strong class="text-black">MOKSH TUBES & FITTINGS LLP</strong> is a trusted 
-    <strong>supplier</strong>, exporter, importer, and stockist of 
-    Hastelloy C22</a> (Alloy C22 / UNS N06022) along with other nickel alloys such as <a href="/hastelloy-c276/">Hastelloy C276</a>
- and <a href="/Incoloy 825/">Incoloy 825</a>. 
-    We offer a complete range of <a href="{{ route('products') }}">products</a> including 
-    <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings, Flanges, Fasteners, 
-    Sheets & Plates, Coils, Wires, Round Bars, Flat Bars, Angles, Channels, Welding Rods, Wire Mesh, 
+    <strong class="text-black">MOKSH TUBES & FITTINGS LLP</strong> is a trusted
+    <strong>supplier</strong>, exporter, importer, and stockist of
+    Hastelloy C22</a> (Alloy C22 / UNS N06022) along with other nickel alloys such as <a href="{{ url('materials/hastelloy/hastelloy-c276') }}">Hastelloy C276</a>
+ and <a href="{{ url('materials/incoloy/incoloy-825') }}">Incoloy 825</a>.
+    We offer a complete range of <a href="{{ route('products') }}">products</a> including
+    <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings, Flanges, Fasteners,
+    Sheets & Plates, Coils, Wires, Round Bars, Flat Bars, Angles, Channels, Welding Rods, Wire Mesh,
     and other Custom Hastelloy solutions.
 </p>
 
 <p class="fs-6" style="text-align: justify;">
-    Unlike conventional stainless steels, <strong class="text-black">Hastelloy alloys</strong> such as 
-    <strong>C22</strong> and <strong>C276</strong> are designed for highly corrosive and unpredictable environments. 
-    With excellent resistance to both oxidizing and reducing media, 
-    <strong class="text-black">Hastelloy C22</strong> provides superior protection against pitting, 
-    crevice corrosion, and stress corrosion cracking – even in aggressive chemical processes involving 
-    chlorides, wet chlorine gas, ferric and cupric salts, formic and acetic acids. 
-    Its unique chemistry and superior mechanical properties make it indispensable in 
+    Unlike conventional stainless steels, <strong class="text-black">Hastelloy alloys</strong> such as
+    <strong>C22</strong> and <strong>C276</strong> are designed for highly corrosive and unpredictable environments.
+    With excellent resistance to both oxidizing and reducing media,
+    <strong class="text-black">Hastelloy C22</strong> provides superior protection against pitting,
+    crevice corrosion, and stress corrosion cracking – even in aggressive chemical processes involving
+    chlorides, wet chlorine gas, ferric and cupric salts, formic and acetic acids.
+    Its unique chemistry and superior mechanical properties make it indispensable in
     chemical processing, marine, oil & gas, and other critical industries.
 </p>
 
@@ -71,8 +71,8 @@
             <div class="section-title center">
                 <h2>Hastelloy C22 Chemical Composition (UNS N06022)</h2>
                 <p class="text-center">
-    The <strong>Hastelloy C22 chemical composition</strong> is carefully balanced to deliver outstanding 
-    <strong>corrosion resistance</strong> and durability compared to other <strong>Hastelloy grades</strong> 
+    The <strong>Hastelloy C22 chemical composition</strong> is carefully balanced to deliver outstanding
+    <strong>corrosion resistance</strong> and durability compared to other <strong>Hastelloy grades</strong>
     like the <strong>Hastelloy C276 alloy</strong>.
 </p>
 
@@ -157,8 +157,8 @@
                 <div class="col-lg-8">
                     <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties of Hastelloy C22</h4>
                     <p class="text-center">
-    The following datasheet covers the <strong>Hastelloy density</strong>, 
-    <strong>Hastelloy melting point</strong>, <strong>tensile strength</strong>, 
+    The following datasheet covers the <strong>Hastelloy density</strong>,
+    <strong>Hastelloy melting point</strong>, <strong>tensile strength</strong>,
     and <strong>hardness</strong>.
 </p>
 
@@ -235,8 +235,8 @@
                             </tbody>
                         </table>
                         <p class="text-center">
-    These values highlight <strong>Hastelloy tensile strength</strong>, 
-    <strong>yield strength</strong>, and <strong>hardness</strong> which make it suitable 
+    These values highlight <strong>Hastelloy tensile strength</strong>,
+    <strong>yield strength</strong>, and <strong>hardness</strong> which make it suitable
     for extreme service conditions.
 </p>
 
@@ -631,7 +631,7 @@
         </div>
     </section>
 
-    
+
 
 
     <section class="sec-padd-top sec-padd-bottom">
@@ -639,10 +639,10 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
              <p>
-    For inquiries, technical assistance, or quotations, contact 
-    <strong>Moksh Tubes & Fittings LLP</strong> – your global supplier for 
-    <strong>Hastelloy C22</strong> and <strong>Hastelloy C276 products</strong>.  
-    Reach us at <a href="mailto:info@mokshfittings.com"><strong>info@mokshfittings.com</strong></a> 
+    For inquiries, technical assistance, or quotations, contact
+    <strong>Moksh Tubes & Fittings LLP</strong> – your global supplier for
+    <strong>Hastelloy C22</strong> and <strong>Hastelloy C276 products</strong>.
+    Reach us at <a href="mailto:info@mokshfittings.com"><strong>info@mokshfittings.com</strong></a>
     or call us at <a href="tel:+91 97695 84950"><strong>+91 97695 84950</strong></a>.
 </p>
 

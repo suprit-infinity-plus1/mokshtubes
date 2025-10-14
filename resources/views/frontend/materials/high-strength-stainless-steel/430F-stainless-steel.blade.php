@@ -33,7 +33,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/High Strength Stainless Steel WEBP/430F-Stainless-Steel.webp') }}" alt="Hastelloy C276"
+                    <img src="{{ asset('assets/images/high-strength-stainless-steel/430F-Stainless-Steel.webp') }}" alt="Hastelloy C276"
                         class="img-fluid rounded shadow-sm">
                 </div>
 
@@ -41,23 +41,23 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                        <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-    <a href="{{ route('index') }}"><strong class="text-black">MOKSH TUBES & FITTINGS LLP</strong></a> is a leading supplier, exporter, importer, and stockist of a wide variety of 
-    <strong class="text-black">430F Stainless Steel</strong> products including Pipes & Tubes, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires, Round Bars, Flat Bars, 
+    <a href="{{ route('index') }}"><strong class="text-black">MOKSH TUBES & FITTINGS LLP</strong></a> is a leading supplier, exporter, importer, and stockist of a wide variety of
+    <strong class="text-black">430F Stainless Steel</strong> products including Pipes & Tubes, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires, Round Bars, Flat Bars,
     Angles, Channels, Wire Mesh, and other custom and hard-to-find 430F products.
 </p>
 
 <p class="fs-6" style="text-align: justify;">
-    <strong class="text-black">430F Stainless Steel</strong> is a free-machining ferritic stainless steel, specifically modified with controlled amounts of sulfur to enhance machinability. 
+    <strong class="text-black">430F Stainless Steel</strong> is a free-machining ferritic stainless steel, specifically modified with controlled amounts of sulfur to enhance machinability.
     This improvement makes it highly suitable for automatic screw machining, high-speed manufacturing, and precision-engineered components where quick production turnaround is essential.
 </p>
 
 <p class="fs-6" style="text-align: justify;">
-    The alloy offers good resistance to oxidation, moderate corrosion resistance in various environments, and excellent magnetic properties. Its performance is reliable in applications 
+    The alloy offers good resistance to oxidation, moderate corrosion resistance in various environments, and excellent magnetic properties. Its performance is reliable in applications
     where aesthetics, dimensional accuracy, and medium corrosion protection are required.
 </p>
 
 <p class="fs-6 mb-4" style="text-align: justify%;">
-    Unlike austenitic stainless grades, <strong>430F</strong> cannot be hardened through heat treatment but gains strength via cold working processes. Its ferritic microstructure ensures 
+    Unlike austenitic stainless grades, <strong>430F</strong> cannot be hardened through heat treatment but gains strength via cold working processes. Its ferritic microstructure ensures
     solid dimensional stability and ease of fabrication, positioning it as a cost-effective alternative for non-critical corrosion-resistant applications.
 </p>
 
@@ -115,7 +115,7 @@
     </tbody>
 </table>
 
-                     
+
                     </div>
                 </div>
             </div>
@@ -626,7 +626,7 @@
 <!--End faq content area-->
 
 
-   
+
     <!-- Contact Section -->
     <section class="sec-padd-bottom">
         <div class="container">

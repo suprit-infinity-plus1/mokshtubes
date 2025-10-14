@@ -31,7 +31,7 @@
         <div class="row align-items-center">
             <!-- Image Left -->
             <div class="col-md-6 mb-4 mb-md-0">
-                <img src="{{ asset('assets/images/High Strength Stainless Steel WEBP/Stainless-Steel-422.webp') }}" alt="Stainless Steel 422"
+                <img src="{{ asset('assets/images/high-strength-stainless-steel/Stainless-Steel-422.webp') }}" alt="Stainless Steel 422"
                     class="img-fluid rounded shadow-sm">
             </div>
 
@@ -506,7 +506,7 @@
                         <div class="accord-btn"><h4>2. What are the key properties of SS 422?</h4></div>
                         <div class="accord-content">
                             <p>
-                                Key properties include high hardness, good wear resistance, excellent creep strength, and 
+                                Key properties include high hardness, good wear resistance, excellent creep strength, and
                                 moderate corrosion resistance. It also offers stability and strength in heat-treated conditions.
                             </p>
                         </div>
