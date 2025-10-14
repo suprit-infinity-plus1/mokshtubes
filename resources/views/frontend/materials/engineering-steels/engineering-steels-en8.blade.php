@@ -1,8 +1,10 @@
 @extends('layouts.master')
 
 @section('title', 'EN8 Steel | EN8 Chemical Composition, Mechanical Properties | Moksh Tubes')
-@section('meta_description', 'Check EN8 steel composition, mechanical properties, hardness, and equivalent grades. Moksh Tubes supplies EN8 round bars, pipes, and fittings at best prices.')
-@section('meta_keywords', 'EN8 Engineering Steel, medium carbon steel, good tensile strength steel, machinable steel, general engineering steel, industrial steel')
+@section('meta_description', 'Check EN8 steel composition, mechanical properties, hardness, and equivalent grades. Moksh
+    Tubes supplies EN8 round bars, pipes, and fittings at best prices.')
+@section('meta_keywords', 'EN8 Engineering Steel, medium carbon steel, good tensile strength steel, machinable steel,
+    general engineering steel, industrial steel')
 
 @section('content')
 
@@ -73,6 +75,7 @@
             <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
                 @csrf
                 <div class="row justify-content-center">
+                    <input type="hidden" name="pdf" value="en8.pdf">
                     <div class="col-md-6 mb-2">
                         <input type="email" name="email" required class="form-control p-3"
                             placeholder="Enter your email address">

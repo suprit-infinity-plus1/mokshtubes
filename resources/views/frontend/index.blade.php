@@ -54,10 +54,7 @@
                     </div>
                 </li>
 
-<<<<<<< HEAD
-=======
-                
->>>>>>> d5b6516b692041d94617c510b1888e0f39e3afcc
+
 
                 <li data-transition="slidingoverlayleft">
                     <img src="{{ asset('assets/images/slides/carpenteria-interno.jpg') }}" alt="banner image" width="1920"
