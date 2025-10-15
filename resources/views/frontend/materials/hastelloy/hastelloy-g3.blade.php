@@ -78,7 +78,7 @@
             </p>
 
             <!-- Lead Capture Form -->
-            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+            {{-- <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
                 @csrf
                 <div class="row justify-content-center">
                     <input type="hidden" name="pdf" value="Hastelloy_G3.pdf">
@@ -93,7 +93,7 @@
                         </button>
                     </div>
                 </div>
-            </form>
+            </form> --}}
 
             @if (session('success'))
                 <div class="alert alert-success mt-3">
