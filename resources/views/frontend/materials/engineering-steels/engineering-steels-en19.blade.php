@@ -1,8 +1,10 @@
 @extends('layouts.master')
 
 @section('title', 'EN19 Alloy Steel | Hardened High Strength Steel')
-@section('meta_description', 'EN19 Alloy Steel offering superior hardness, strength, and durability for tools and heavy machinery parts.')
-@section('meta_keywords', 'EN19 Alloy Steel, hardened alloy steel, high strength steel, tool steel, machinery steel, durable alloy steel, industrial alloy steel')
+@section('meta_description', 'EN19 Alloy Steel offering superior hardness, strength, and durability for tools and heavy
+    machinery parts.')
+@section('meta_keywords', 'EN19 Alloy Steel, hardened alloy steel, high strength steel, tool steel, machinery steel,
+    durable alloy steel, industrial alloy steel')
 
 @section('content')
 
@@ -51,7 +53,7 @@
 
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">EN 19</strong class="text-black">, <a
-                                href="{{ uri('materials/engineering-steels/engineering-steels-en8') }}">EN8</a>
+                                href="{{ url('materials/engineering-steels/engineering-steels-en8') }}">EN8</a>
                             is a high tensile alloy steel
                             grade with excellent strength, toughness, and wear resistance. It contains chromium and
                             molybdenum, which provide improved hardenability and high fatigue strength.<a

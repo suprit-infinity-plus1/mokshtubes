@@ -2,9 +2,12 @@
 
 @section('title', 'Aluminium Alloy 2014 T6 | High Strength Aerospace Alloy')
 
-@section('meta_description', 'Aluminium 2014 T6 – aerospace-grade alloy with excellent machinability, corrosion resistance, and high strength for industrial applications.')
+@section('meta_description', 'Aluminium 2014 T6 – aerospace-grade alloy with excellent machinability, corrosion
+    resistance, and high strength for industrial applications.')
 
-@section('meta_keywords', 'Aluminium Alloy 2014 T6, High Strength Aluminium, Aerospace Grade Aluminium, Aluminium 2014 T6 Pipes, Aluminium 2014 T6 Tubes, Aluminium 2014 T6 Sheets, Corrosion Resistant Aluminium, Machinable Aluminium Alloy, Aerospace Aluminium Alloys, Industrial Aluminium Grades')
+@section('meta_keywords', 'Aluminium Alloy 2014 T6, High Strength Aluminium, Aerospace Grade Aluminium, Aluminium 2014
+    T6 Pipes, Aluminium 2014 T6 Tubes, Aluminium 2014 T6 Sheets, Corrosion Resistant Aluminium, Machinable Aluminium Alloy,
+    Aerospace Aluminium Alloys, Industrial Aluminium Grades')
 
 @section('content')
 
@@ -550,7 +553,8 @@
                                     Aluminium 2014-T6 offers moderate corrosion resistance, but it is not as
                                     corrosion resistant as commercially pure aluminum grades like <a
                                         href="{{ url('materials/aluminium-alloys/aluminium-alloys-1100') }}">1100</a> or
-                                    <a href="{{ url('aluminium-alloys/aluminium-alloys-1200') }}">1200</a>. In most
+                                    <a href="{{ url('materials/aluminium-alloys/aluminium-alloys-1200') }}">1200</a>. In
+                                    most
                                     cases, protective coatings, anodizing, or surface treatments are recommended when the
                                     alloy is used in corrosive or marine environments.
                                 </p>
@@ -640,7 +644,7 @@
                 <p>
                     For quotes, inquiries, or customized Aluminium Alloy 2014-T6 products, <strong>Moksh Tubes & Fittings
                         LLP</strong> your trusted supplier of high-performance aluminum alloys.</p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch
