@@ -1,7 +1,9 @@
 @extends('layouts.master')
-@section('title', 'Pipe Fittings, Flanges & Fasteners – Mokshtubes') <!-- 52 characters -->
+@section('title', 'Industrial Pipes, Tubes & Fittings – Mokshtubes LLP') <!-- 52 characters -->
 @section('meta_description',
-    'Mokshtubes provides premium pipe fittings, flanges, fasteners, gaskets & custom fabricated fittings designed for industrial strength, durability & precision.') <!-- 153 characters -->
+    'Explore pipes, tubes, fittings, flanges & fasteners in stainless steel, nickel alloys, and titanium. Global delivery.') <!-- 153 characters -->
+@section('meta_keywords',
+    'Pipe Fittings, Flanges, Fasteners, Stainless Steel Fittings, Nickel Alloy Fittings, Titanium Fittings, Custom Fabricated Fittings')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">

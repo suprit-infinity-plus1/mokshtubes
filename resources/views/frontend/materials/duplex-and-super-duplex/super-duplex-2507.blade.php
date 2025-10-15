@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Super Duplex Steel 2507 | Ultra-High Corrosion Strength')
+@section('title', 'Super Duplex 2507 – High Corrosion Resistance')
 
 @section('meta_description', 'Super Duplex Stainless Steel 2507 (S32750) from Moksh Tubes — ultra corrosion-resistant, high-strength alloy for demanding industrial & marine applications.')
 

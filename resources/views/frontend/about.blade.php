@@ -1,7 +1,6 @@
 @extends('layouts.master')
-@section('title', 'About Moksh Tubes – Experts in Metal Alloys') <!-- 52 characters -->
-@section('meta_description', 'Moksh Tubes supplies high-quality metal alloys with reliable support for global
-    industries, ensuring premium quality, availability, and expert guidance.') <!-- 152 characters -->
+@section('title', 'About Us – Mokshtubes Fittings & LLP') <!-- 52 characters -->
+@section('meta_description', 'Learn about Mokshtubes LLP, trusted manufacturer & exporter of stainless steel, Hastelloy, and Inconel products.') <!-- 152 characters -->
 @section('meta_keywords', 'Mokshtubes, Metal Alloys Supplier, High Performance Alloys, Industrial Metal Solutions,
     Premium Quality Alloys, Alloy Tubes, Engineering Alloys')
 

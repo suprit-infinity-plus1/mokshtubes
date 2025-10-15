@@ -1,9 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Moksh Tubes & Fittings LLP | Stainless Steel & Nickel Alloy Supplier in India')
+@section('title', 'Mokshtubes LLP – Pipes, Fittings, Alloys Supplier')
 @section('meta_description',
-    'Contact MokshTubes for product inquiries, technical support, or custom alloy requirements.
-    Call, email, or visit us — we’re here to assist you.')
+    'Leading supplier of stainless steel, nickel alloy, and titanium pipes, fittings, flanges. Serving India, Germany & worldwide.')
 @section('meta_keywords', 'Incoloy 825, nickel alloy, corrosion resistant alloy, premium metal alloys, moksh tubes')
 @section('canonical', 'https://mokshtubes.com')
 @section('content')

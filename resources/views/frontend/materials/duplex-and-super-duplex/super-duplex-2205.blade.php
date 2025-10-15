@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Super Duplex Steel 2205 | High Strength & Corrosion Proof')
+@section('title', 'Super Duplex 2205 Corrosion-Resistant Steel')
 
 @section('meta_description',
     'Super Duplex Stainless Steel 2205 from Moksh Tubes — exceptional corrosion resistance, high strength & performance for marine & chemical applications.')

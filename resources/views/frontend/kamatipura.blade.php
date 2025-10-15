@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('title', 'Kamatipura Mumbai Office – Contact Moksh Tubes Today')
 @section('meta_description',
-    'Visit our Kamatipura, Mumbai office or contact Moksh Tubes at +91 97695 84950 | info@mokshtubes.com for inquiries, directions, or business support.')
+    'Connect with Moksh Tubes at our Kamatipura, Mumbai branch. Call or visit for product inquiries, quotes, and customized metal solutions.')
 
 @section('content')
     <section class="bg-light sec-padd-bottom">
