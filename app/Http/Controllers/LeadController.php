@@ -12,7 +12,7 @@ class LeadController extends Controller
     {
         // Validate email
         $request->validate([
-            'email' => 'required|email|unique:leads,email',
+            'email' => 'required|email',
             'pdf' => 'required|string'
         ]);
         // Save email to database
