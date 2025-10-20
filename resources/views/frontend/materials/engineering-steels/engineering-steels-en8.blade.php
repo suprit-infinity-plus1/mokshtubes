@@ -26,12 +26,12 @@
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
-                <h2>Product Overview</h2>
+                <h2>Overview of EN8 / 080M40 / AISI 1040 Steel</h2>
             </div>
 
-            <h2 class="fw-semibold text-center mb-5" style="color: #db7227;">
+            <h3 class="fw-semibold text-center mb-5" style="color: #db7227;">
                 Introduction To Engineering Steel 8 / 080M40 / AISI 1040
-            </h2>
+            </h3>
 
             <div class="row align-items-center">
                 <!-- Image Left -->
@@ -66,7 +66,7 @@
 
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
-            <h3 class="mb-3" style="color:#174268;">Download EN8 Steel Datasheet</h3>
+            <h2 class="mb-3" style="color:#174268;">Download EN8 Steel Datasheet</h2>
             <p class="mb-3">
                 Get the complete EN8 Steel datasheet with chemical composition,
                 mechanical properties, heat treatment details, and applications.
@@ -107,7 +107,7 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>EN8 Chemical Composition</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -157,13 +157,13 @@
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color: #174268;">EN8 Technical Composition</h2>
             </div>
 
             <!-- Physical Properties Table -->
             <div class="row justify-content-center mb-5">
                 <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
+                    <h3 class="text-center mb-3" style="color: #db7227;">EN8 Physical Properties</h3>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -218,7 +218,7 @@
             <!-- Mechanical Properties Table -->
             <div class="row justify-content-center">
                 <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+                    <h3 class="text-center mb-3" style="color: #db7227;">EN8 Mechanical Properties</h3>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -339,7 +339,7 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Products in Engineering Steel 8</h2>
+                <h2>Available Products in EN8 Steel</h2>
             </div>
             <!-- Highlighted Paragraph -->
             <div class="row justify-content-center mb-4" style="text-align: justify;">
@@ -385,7 +385,7 @@
                                 <div class="product-card h-100">
                                     <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
                                         class="img-fluid  w-100">
-                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product['name'] }}</h6>
+                                    <h4 class="product-card-title text-center mt-2 px-2">{{ $product['name'] }}</h4>
                                 </div>
                             </a>
                         </div>
@@ -399,35 +399,35 @@
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
-                <h2>Uses and Advantages</h2>
+                <h2>Uses and Advantages of EN8 Steel</h2>
             </div>
 
             <div class="row g-4 mt-4 justify-content-center">
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>Higher strength than mild steel (EN3B)</h5>
+                        <h3>Higher strength than mild steel (EN3B)</h3>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h5>Readily machinable and weldable</h5>
+                        <h3>Readily machinable and weldable</h3>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h5>Cost-effective for structural and automotive use</h5>
+                        <h3>Cost-effective for structural and automotive use</h3>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h5>Moderate wear and fatigue resistance</h5>
+                        <h3>Moderate wear and fatigue resistance</h3>
                     </div>
                 </div>
             </div>
@@ -438,7 +438,7 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Applications of Engineering Steel 8</h2>
+                <h2>Applications of EN8 Steel</h2>
                 <p class="text-center pb-3"><strong class="text-dark">Engineering Steel 8</strong> is widely used in
                     mechanical engineering for parts that need better mechanical strength than mild steel but don’t require
                     high hardenability or extreme corrosion resistance.</p>
@@ -448,7 +448,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
-                        <h5>Automotive Components</h5>
+                        <h3>Automotive Components</h3>
                         <p>Axles, crankshafts, connecting rods, gear shafts, studs
                         </p>
                     </div>
@@ -457,7 +457,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
-                        <h5>Mechanical Engineering</h5>
+                        <h3>Mechanical Engineering</h3>
                         <p>Keys, keyways, couplings, spindles, and general-purpose machinery parts
                         </p>
                     </div>
@@ -466,7 +466,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
-                        <h5>Industrial Equipment</h5>
+                        <h3>Industrial Equipment</h3>
                         <p>Rollers, cams, and press tools</p>
                     </div>
                 </div>
@@ -474,7 +474,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-droplet"></i></div>
-                        <h5>Oil & Gas and Petrochemical</h5>
+                        <h3>Oil & Gas and Petrochemical</h3>
                         <p>Non-corrosive structural and pipeline components needing wear resistance</p>
                     </div>
                 </div>
@@ -482,7 +482,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
-                        <h5>Agricultural Equipment</h5>
+                        <h3>Agricultural Equipment</h3>
                         <p>Drive shafts, rotors, and agricultural blades
                         </p>
                     </div>
@@ -491,7 +491,7 @@
                 {{-- <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
-                        <h5>Medical and Pharmaceutical Equipment</h5>
+                        <h3>Medical and Pharmaceutical Equipment</h3>
                         <p>Favored for surgical tools, implants, and cleanroom processing systems because of its purity and
                             biocompatibility.</p>
                     </div>
@@ -500,7 +500,7 @@
                 {{-- <div class="col-md-6 col-lg-4">
                 <div class="application-card">
                      <div class="application-icon"><i class="bi bi-strategies"></i></div>
-                    <h5>Why It Works</h5>
+                    <h3>Why It Works</h3>
                     <p><strong>HASTELLOY C276’s</strong> combination of corrosion resistance, weldability, and mechanical durability makes it ideal for mission-critical applications where long-term performance is non-negotiable.</p>
                 </div>
             </div> --}}
@@ -512,42 +512,42 @@
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
             <div class="section-title center">
-                <h2>WHY CHOOSE US?</h2>
+                <h2>Why Choose Moksh Tubes?</h2>
             </div>
 
             <div class="row g-4 mt-4">
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>In-house stock of a wide range of EN8 products</h5>
+                        <h3>In-house stock of a wide range of EN8 products</h3>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
-                        <h5>Precision machining and cut-to-size capabilities</h5>
+                        <h3>Precision machining and cut-to-size capabilities</h3>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
-                        <h5>Experienced technical team for material selection</h5>
+                        <h3>Experienced technical team for material selection</h3>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>On-time delivery and quality assurance</h5>
+                        <h3>On-time delivery and quality assurance</h3>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
-                        <h5>Global export and competitive pricing</h5>
+                        <h3>Global export and competitive pricing</h3>
                     </div>
                 </div>
             </div>
@@ -561,13 +561,13 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="accordion-box">
                         <div class="section-title center">
-                            <h2>FAQ's</h2>
+                            <h2>Frequently Asked Questions (FAQ)</h2>
                         </div>
 
                         <!-- Q1 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What is EN8 steel and why is it widely used in engineering?</h4>
+                                <h3>What is EN8 steel and why is it widely used in engineering?</h3>
                             </div>
                             <div class="accord-content">
                                 <p>
@@ -585,7 +585,7 @@
                         <!-- Q2 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What are the key chemical and mechanical properties of EN8 steel?</h4>
+                                <h3>What are the key chemical and mechanical properties of EN8 steel?</h3>
                             </div>
                             <div class="accord-content">
                                 <p>
@@ -604,7 +604,7 @@
                         <!-- Q3 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What EN8 steel products are available from MOKSH TUBES & FITTINGS LLP?</h4>
+                                <h3>What EN8 steel products are available from MOKSH TUBES & FITTINGS LLP?</h3>
                             </div>
                             <div class="accord-content">
                                 <p>
@@ -622,7 +622,7 @@
                         <!-- Q4 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What are the common applications of EN8 steel?</h4>
+                                <h3>What are the common applications of EN8 steel?</h3>
                             </div>
                             <div class="accord-content">
                                 <p>
@@ -641,7 +641,7 @@
                         <!-- Q5 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for EN8 steel materials?</h4>
+                                <h3>Why choose MOKSH TUBES & FITTINGS LLP for EN8 steel materials?</h3>
                             </div>
                             <div class="accord-content">
                                 <p>
@@ -667,7 +667,7 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
-                <h2>Contact Us</h2>
+                <h2>Contact Moksh Tubes for EN8 Steel</h2>
                 <p>
                     contact <strong> Moksh Tubes & Fittings LLP </strong> — today for competitive quotes, technical
                     consultation, and custom solutions.

@@ -12,7 +12,7 @@
         <div id="slider1" class="rev_slider" data-version="5.0">
             <ul>
                 <li data-transition="slidingoverlayleft">
-                    <img src="{{ asset('assets/images/slides/Mokshtubes-banner-desktop.png') }}" alt="banner image"
+                    <img src="{{ asset('assets/images/slides/Mokshtubes-banner-desktop.png') }}" alt="Stainless Steel Welded Pipes ERW EFW ASTM A312"
                         width="1920" height="880" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat"
                         data-bgparallax="1">
 
@@ -23,10 +23,10 @@
                         data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-splitin="none" data-splitout="none"
                         data-responsive_offset="on" data-start="700">
                         <div class="slide-content-box">
-                            <h1>Global Supplier of Nickel<br> & Stainless Steel Tubes</h1>
+                            <h1>Stainless Steel & Nickel Alloy Pipes<br>Tubes Supplier in India<br> (304/316, Inconel, Hastelloy) </h1>
 
-                            <p>They'll have to make the best of things its an uphill climb.<br> The weather started getting
-                                was tossed.</p>
+                            <p>Seamless & Welded Pipes/Tubes in SS 304/316/321/904L, <br>Inconel & Hastelloy with MTC (EN 10204 3.1), PMI & Hydro Test ready stock</p>
+<p>Cut‑to‑length, export‑grade packing, fast dispatch across India, GCC, EU</p>
                         </div>
                     </div>
                     <div class="tp-caption tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="130"
@@ -36,7 +36,7 @@
                         data-splitout="none" data-responsive_offset="on" data-start="2300">
                         <div class="slide-content-box">
                             <div class="button">
-                                <a class="thm-btn bg-clr1" href="{{ route('about-us') }}">About Us</a>
+                                <a class="thm-btn bg-clr1" href="{{ route('about-us') }}">about us</a>
                             </div>
                         </div>
                     </div>
@@ -47,10 +47,11 @@
                         data-splitout="none" data-responsive_offset="on" data-start="2600">
                         <div class="slide-content-box">
                             <div class="button">
-                                <a class="thm-btn bg-clr2" href="{{ route('contact-us') }}">Contact Us</a>
+                                <a class="thm-btn bg-clr2" href="{{ route('contact-us') }}">Get RFQ/Quote</a>
                             </div>
                         </div>
                     </div>
+                    
                 </li>
 
 
@@ -68,8 +69,8 @@
                         data-responsive_offset="on" data-start="700">
                         <div class="slide-content-box">
                             <h2 class="hero-title">Provide Solution for <br>Industries plan</h2>
-                            <p>They'll have to make the best of things its an uphill climb.<br> The weather started
-                                getting was tossed. </p>
+                            <p>Seamless & Welded Pipes/Tubes in SS 304/316/321/904L<br>Inconel & Hastelloy with MTC (EN 10204 3.1)<br>PMI & Hydro Test ready stock</p>
+
                         </div>
                     </div>
                     <div class="tp-caption tp-resizeme" data-x="right" data-hoffset="400" data-y="center" data-voffset="110"
@@ -109,8 +110,8 @@
                         data-responsive_offset="on" data-start="700">
                         <div class="slide-content-box">
                             <h2 class="hero-title">We help Industries <br> innovate and grow</h2>
-                            <p>They'll have to make the best of things its an uphill climb.<br> The weather started
-                                getting was tossed. </p>
+                            <p>Cut‑to‑length, export‑grade packing<br> fast dispatch across India, GCC, EU</p>
+
                         </div>
                     </div>
                     <div class="tp-caption tp-resizeme" data-x="left" data-hoffset="15" data-y="center"
@@ -162,10 +163,7 @@
                             about <span class="thm-color">Moksh Tubes & Fittings LLP</span>
                         </h2>
                         <div class="text">
-                            <p>Thank you for being a friend. Travelled down the road and back again. Your heart is
-                                true you're a pal and a confidant. It's time to put on makeup. It's time to dress up
-                                right.They're all together ooky the Addams Family doin' it our way. There's nothing
-                                we wont try. Never heard the word impossible. This time there's no stopping us.</p>
+                            <p>Welcome to Moksh Tubes & Fittings LLP, a trusted provider of high-quality gi pipes, ss pipes, welded pipes, and seamless pipes. With over 20 years of experience and projects delivered across 12 countries, we offer premium metal products designed for construction, manufacturing, and engineering applications. Our mild steel, stainless steel, and ms materials are manufactured with precision and reliability.</p>
                         </div>
                         <div class="fact-counter d-xl-block d-none">
                             <ul class="d-flex flex-wrap justify-content-center gap-5">
@@ -206,21 +204,21 @@
                             <span class="timer" data-from="1" data-to="20" data-speed="5000"
                                 data-refresh-interval="50">20</span>
                             <i class="fa fa-plus" aria-hidden="true"></i>
-                            <h2>Years Of Experience</h2>
+                            <h3>Years Of Experience</h3>
                         </li>
                         <li class="single-fact-counter">
                             <div class="icon-holder"><span class="flaticon-landscape"></span></div>
                             <span class="timer" data-from="1" data-to="12" data-speed="5000"
                                 data-refresh-interval="50">12</span>
                             <i class="fa fa-plus" aria-hidden="true"></i>
-                            <h2>Countries Served Globally</h2>
+                            <h3>Countries Served Globally</h3>
                         </li>
                         <li class="single-fact-counter">
                             <div class="icon-holder"><span class="flaticon-innovation"></span></div>
                             <span class="timer" data-from="1" data-to="300" data-speed="5000"
                                 data-refresh-interval="50">300</span>
                             <i class="fa fa-plus" aria-hidden="true"></i>
-                            <h2>Projects Completed</h2>
+                            <h3>Projects Completed</h3>
                         </li>
                     </ul>
                 </div>
@@ -239,10 +237,7 @@
                     </div>
                 </div>
                 <div class="col-md-8 col-sm-7 col-xs-12 font-20 mb-4">
-                    <p>Premium Welded & Seamless Pipes, Sheets, Plates, Perforated Sheets, Round Bars, and Fasteners –
-                        <strong class="text-black"> High-Quality Industrial Metal Products</strong> for Construction,
-                        Manufacturing, and Engineering
-                        Applications. Reliable Materials, Precision Manufacturing, and Superior Performance You Can Trust.
+                    <p>Our products include <strong> pipes (ERW & EFW), seamless pipes, gi pipes, ss pipes, stainless steel sheets, metal plates, perforated sheets, round bars, and industrial fasteners. We provide complete pipe sizes charts, pipe schedules, and steel density specifications</strong> to ensure you get the right product for your needs.
                     </p>
                 </div>
             </div>
@@ -260,8 +255,7 @@
                                 <h3 class="mt-0 h5">WELDED PIPES</h3>
                             </a>
                             <p>
-                                Welded tubes are a vital component in today’s industrial landscape, offering a combination
-                                of strength...
+                                Our welded pipes are produced from mild steel and stainless steel materials, offering strength, uniform wall thickness, and excellent corrosion resistance.
                             </p>
                         </div>
                     </div>
@@ -278,8 +272,7 @@
                                 <h3 class="mt-0 h5">SEAMLESS PIPES</h3>
                             </a>
                             <p>
-                                Seamless pipes are widely recognized for their superior strength, reliability, and ability
-                                to handle high-pressure...
+                                Our seamless pipes deliver superior strength, reliability, and resistance to high pressure. Ideal for boiler tubes, heat exchangers, and structural applications.
                             </p>
                         </div>
                     </div>
@@ -296,8 +289,7 @@
                                 <h3 class="mt-0 h5">SHEETS & PLATES</h3>
                             </a>
                             <p>
-                                Sheets & Plates are flat-rolled metal products used in construction, manufacturing, and
-                                engineering. Sheets are thinner and flexible...
+                                We supply steel sheets, plates, coils, and chequered sheets, manufactured using precision rolling to maintain consistent steel density and flatness.
                             </p>
                         </div>
                     </div>
@@ -316,8 +308,7 @@
                                 <h3 class="mt-0 h5">PERFORATED SHEETS</h3>
                             </a>
                             <p>
-                                Perforated Sheets are metal sheets punched with holes, slots, or patterns. Used for
-                                ventilation, filtration, and decoration...
+                                Our perforated sheets are designed for ventilation, filtration, and decorative applications. Available in stainless steel, galvanized iron, and mild steel.
                             </p>
                         </div>
                     </div>
@@ -334,8 +325,7 @@
                                 <h3 class="mt-0 h5">ROUND BARS</h3>
                             </a>
                             <p>
-                                Round Bars are cylindrical metal rods used in construction, manufacturing, and engineering.
-                                Made from materials like stainless steel...
+                                Round bars, flat bars, and hex bars are offered in various grades of stainless steel and carbon steel for manufacturing and fabrication.
                             </p>
                         </div>
                     </div>
@@ -350,11 +340,10 @@
                         </figure>
                         <div class="p-3">
                             <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners') }}">
-                                <h3 class="mt-0 h5">FASTENERS</h3>
+                                <h3 class="mt-0 h5">Fasteners & Fittings</h3>
                             </a>
                             <p>
-                                Fasteners are hardware devices used to mechanically join or affix two or more objects.
-                                Common types include bolts...
+                                We supply all types of pipe fittings, flanges, threaded pipes, and SS fasteners. Custom sizes and fabricated products are also available for unique project.
                             </p>
                         </div>
                     </div>
@@ -691,7 +680,7 @@
                             </a>
                             <div class="post-meta">by fletcher | 14 Comments | 21 Feb</div>
                             <div class="text">
-                                <p>The industrial piping industry is on the brink of a significant transformation.</p>
+                                <p>Discover how pipeline transport, hydraulic piping, and high-performance steel materials are shaping the future of industrial engineering.</p>
                             </div>
                             <div class="link">
                                 <a href="{{ route('blogs.emerging-trends-in-industrial-piping-for-2025-and-beyond') }}"
@@ -724,7 +713,7 @@
                             </a>
                             <div class="post-meta">by Richards | 22 Comments | 17 Apr</div>
                             <div class="text">
-                                <p>India has emerged as a global leader in stainless steel production and exports,</p>
+                                <p>India continues to lead global exports of stainless steel pipes and fittings, with Moksh Tubes at the forefront of international markets.</p>
                             </div>
                             <div class="link">
                                 <a href="{{ route('blogs.india’s-stainless-steel-export-industry') }}"
@@ -756,7 +745,7 @@
                             </a>
                             <div class="post-meta">by Vincent | 16 Comments | 14 June</div>
                             <div class="text">
-                                <p>Desalination plants are at the forefront of solving one of the world</p>
+                                <p>Explore the use of ERW pipes, seamless tubes, and low carbon steel in desalination and water treatment projects.</p>
                             </div>
                             <div class="link">
                                 <a href="{{ route('blogs.the-role-of-high-performance') }}" class="default_link">Read
@@ -801,10 +790,7 @@
                                 <h3>What types of metal products do you offer?</h3>
                             </div>
                             <div class="accord-content collapsed">
-                                <p>We supply a complete range of industrial metal products, including welded pipes,
-                                    seamless pipes, stainless steel sheets, metal plates, perforated sheets, round bars,
-                                    and industrial fasteners. All our products are manufactured with precision to meet
-                                    the needs of construction, manufacturing, and engineering industries.</p>
+                                <p>We supply GI pipes, SS pipes, welded and seamless pipes, stainless steel sheets, metal plates, perforated sheets, and industrial fasteners.</p>
                             </div>
                         </div>
                         <!--End single accordion box-->
@@ -824,14 +810,11 @@
                         <!--Start single accordion box-->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h3>What is the difference between welded and seamless pipes?
+                                <h3>Do you provide size or schedule charts?
                                 </h3>
                             </div>
                             <div class="accord-content">
-                                <p>Welded pipes are made by rolling and welding steel sheets into cylindrical shapes,
-                                    making them cost-effective for many applications. Seamless pipes are produced from
-                                    solid billets, providing superior strength, durability, and high-pressure
-                                    resistance, which makes them ideal for oil, gas, and heavy engineering projects.</p>
+                                <p>Yes, we offer complete pipe size charts, nominal diameter (DN) references, and pipe schedule tables for all pipe types.</p>
                             </div>
                         </div>
                         <!--End single accordion box-->
@@ -853,13 +836,11 @@
                         <!--Start single accordion box-->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h3>Can I order custom-sized welded pipes, sheets, and fasteners?
+                                <h3>Can I order custom-sized pipes or fittings?
                                 </h3>
                             </div>
                             <div class="accord-content">
-                                <p>Absolutely. We provide custom manufacturing services for welded pipes, metal sheets,
-                                    and fasteners to meet your exact dimensions, grades, and specifications—ensuring a
-                                    perfect fit for any industrial project.</p>
+                                <p>Absolutely. We specialize in custom-fabricated fittings, special steel furniture, and custom SS railings according to client requirements.</p>
                             </div>
                         </div>
                         <!--End single accordion box-->
