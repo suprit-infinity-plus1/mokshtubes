@@ -2,8 +2,7 @@
 
 @section('title', 'Hastelloy C-22 – Superior Corrosion-Resistant Alloys.')
 @section('meta_description',
-    'Hastelloy C-22 pipes, tubes & fittings from Moksh Tubes — unmatched corrosion protection
-    against oxidizing & reducing agents in harsh industrial environments.')
+    'Hastelloy C-22 pipes, tubes, and fittings – unmatched corrosion protection against oxidizing and reducing agents in harsh industrial environments.')
 @section('meta_keywords',
     'Hastelloy C-22, Hastelloy C22, Corrosion Resistant Alloy, Hastelloy C22 Pipes, Hastelloy C22
     Tubes, Hastelloy C22 Fittings, Pitting Resistant Alloy, Crevice Corrosion Resistant, Stress Corrosion Resistant,

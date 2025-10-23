@@ -677,17 +677,17 @@
                             <!-- Social Icons -->
                             <div class="mt-3 text-center">
                                 <a href="https://wa.me/+919769584950"
-                                    class="btn btn-outline-success btn-sm rounded-circle me-2"><i
+                                    class="btn btn-outline-success btn-sm rounded-circle me-2" aria-label="Chat with us on WhatsApp"><i
                                         class="bi bi-whatsapp"></i></a>
                                 <a href="https://www.instagram.com/mokshtubesandfittingsllp/"
-                                    class="btn btn-outline-dark btn-sm rounded-circle me-2"><i
+                                    class="btn btn-outline-dark btn-sm rounded-circle me-2" aria-label="Follow us on Instagram"><i
                                         class="bi bi-instagram"></i></a>
                                 <a href="https://www.facebook.com/mokshtubes/"
-                                    class="btn btn-outline-primary btn-sm rounded-circle me-2"><i
+                                    class="btn btn-outline-primary btn-sm rounded-circle me-2" aria-label="Follow us on Facebook"><i
                                         class="bi bi-facebook"></i></a>
                                 <a href="https://www.linkedin.com/company/moksh-tubes/"
-                                    class="btn btn-outline-info btn-sm rounded-circle"><i class="bi bi-linkedin"></i></a>
-                                <a href="https://x.com/Moksh_Tubes" class="btn btn-outline-info btn-sm rounded-circle"><i
+                                    class="btn btn-outline-info btn-sm rounded-circle" aria-label="Connect with us on LinkedIn"><i class="bi bi-linkedin"></i></a>
+                                <a href="https://x.com/Moksh_Tubes" class="btn btn-outline-info btn-sm rounded-circle" aria-label="Follow us on X><i
                                         class="fab fa-x-twitter"></i></a>
 
                             </div>

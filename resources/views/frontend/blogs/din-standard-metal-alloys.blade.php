@@ -599,7 +599,7 @@
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a href="{{ route('blogs.the-role-of-high-performance') }}">
+                                                    <a href="{{ route('blogs.the-role-of-high-performance') }}" aria-label="Read blog: The Role of High Performance">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>

@@ -2,8 +2,7 @@
 
 @section('title', 'EN8 Steel | EN8 Chemical Composition, Mechanical Properties | Moksh Tubes')
 @section('meta_description',
-    'Check EN8 steel composition, mechanical properties, hardness, and equivalent grades. Moksh
-    Tubes supplies EN8 round bars, pipes, and fittings at best prices.')
+    'EN8 steel – composition, mechanical properties, hardness, and equivalent grades. Supplied as round bars, pipes, and fittings for industrial use.')
 @section('meta_keywords',
     'EN8 Engineering Steel, medium carbon steel, good tensile strength steel, machinable steel,
     general engineering steel, industrial steel')

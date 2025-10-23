@@ -1,6 +1,6 @@
 @extends('layouts.master')
 @section('title', 'Haynes Superalloys: 188, 230, 242, 160 | MokshTubes')
-@section('meta_description', 'Explore Haynes superalloys 188, 230, 242 & 160—designed for extreme strength, oxidation resistance, and long-term performance in demanding environments.')
+@section('meta_description', 'Haynes superalloys 188, 230, 242 & 160 – extreme strength, oxidation-resistant, and durable for demanding industrial applications.')
 @section('meta_keywords', 'Haynes Superalloys, Haynes 188, Haynes 230, Haynes 242, Haynes 160, High-Temperature Alloys, Corrosion Resistant Alloys, Industrial Superalloys, Heat Resistant Alloys, Nickel-Based Superalloys, Aerospace Alloys, Power Generation Alloys')
 
 @section('content')

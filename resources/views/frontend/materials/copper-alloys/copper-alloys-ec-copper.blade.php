@@ -51,8 +51,7 @@
                             solutions to meet your specific industry needs.
 
                         <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black"><a href="{{ route('materials.copper-Alloys') }}">Copper Alloys
-                                    EC Copper</a></strong>, also known as Electrolytic Grade Copper, is a high-purity copper
+                            <strong class="text-black"><a href="{{ route('materials.copper-Alloys') }}">Copper Alloys EC Copper</a></strong>, also known as Electrolytic Grade Copper, is a high-purity copper
                             (>99.95%) renowned for its exceptional electrical and thermal conductivity, ductility, and
                             corrosion resistance. It is oxygen-free or has extremely low oxygen content, making it ideal for
                             high-performance electrical and electronic applications. EC Copper is widely used in power

@@ -113,6 +113,11 @@ Route::get('/blogs/how-stainless-steel-tubes-improve-process-efficiency', [MainC
 Route::get('/blogs/stainless-steel-vs-other-metals', [MainController::class, 'stainlessSteelVsOtherMetals'])->name('blogs.stainless-steel-vs-other-metals');
 Route::get('/blogs/stainless-steel-pipe-installation', [MainController::class, 'stainlessSteelPipeInstallation'])->name('blogs.stainless-steel-pipe-installation');
 Route::get('/blogs/stainless-steel-tube-grades-explained', [MainController::class, 'stainlessSteelTubeGradesExplained'])->name('blogs.stainless-steel-tube-grades-explained');
+Route::redirect(
+    '/materials/super-austenitic-stainless-steel/super-austenitic-stainless-steel-SMO-254',
+    '/materials/super-austenitic-stainless-steel/super-austenitic-stainless-steel-smo-254',
+    301
+);
 
 
 // Route::get('/materials/nickel-alloys', [MainController::class, 'nickelAlloys'])->name('materials.nickel-alloys');

@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'Precision Capillary Tubes – High-Performance Solutions') <!-- 52 characters -->
+@section('title', 'Capillary Tubes | Stainless Steel & Nickel Alloy Tubes – Moksh Tubes') <!-- 52 characters -->
 @section('meta_description',
     'Moksh Tubes offers premium capillary tubes with exceptional precision, durability, and reliability for industrial, medical, and high-performance applications.') <!-- 153 characters -->
 @section('content')

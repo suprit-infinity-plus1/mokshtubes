@@ -33,7 +33,7 @@
                     <p class=" fs-5 mb-2">18°57'54"N 72°49'28"E</p>
 
                     <p>
-                        <a href="https://maps.app.goo.gl/4KJZX3MP9LG36EdU9" target="_blank" class="text-primary fs-4"
+                        <a href="https://maps.app.goo.gl/4KJZX3MP9LG36EdU9" target="_blank" rel="noopener" class="text-primary fs-4"
                             title="Open in Google Maps">
                             <i class="bi bi-geo-alt-fill"></i>
                         </a>

@@ -46,7 +46,7 @@
                                 </div>
                                 <div class="text">
                                     <p>
-                                        The fundamental choice often comes down to <a
+                                        The main choice often comes down to <a
                                             href="{{ route('products.pipes-tubes.welded-pipes') }}">welded</a> vs <a
                                             href="{{ route('products.pipes-tubes.seamless-pipes') }}">seamless</a>
                                         construction. While
@@ -1104,27 +1104,27 @@
                                     <h4 class="fw-bold mb-4">Products We Offer</h4>
                                     <ul class="list-unstyled mb-4">
                                         <li class="product-item mb-2">
-                                            <a href="{{ route('products.pipes-tubes') }}" class="product-link">
+                                            <a href="{{ route('products.pipes-tubes') }}" class="product-link" aria-label="Pipes & Tubes">
                                                 <i class="bi bi-box-seam me-2"></i> Pipes & Tubes
                                             </a>
                                         </li>
                                         <li class="product-item mb-2">
-                                            <a href="{{ route('products.sheets-plates-coils') }}" class="product-link">
+                                            <a href="{{ route('products.sheets-plates-coils') }}" class="product-link" aria-label="sheets, Plates & Coils">
                                                 <i class="bi bi-square me-2"></i> Sheets, Plates & Coils
                                             </a>
                                         </li>
                                         <li class="product-item mb-2">
-                                            <a href="{{ route('products.bars-rods') }}" class="product-link">
+                                            <a href="{{ route('products.bars-rods') }}" class="product-link" aria-label="Bars & Rods">
                                                 <i class="bi bi-diagram-3 me-2"></i> Bars & Rods
                                             </a>
                                         </li>
                                         <li class="product-item mb-2">
-                                            <a href="{{ route('products.special-fabricated') }}" class="product-link">
+                                            <a href="{{ route('products.special-fabricated') }}" class="product-link" aria-label="Special Fabricated">
                                                 <i class="bi bi-tools me-2"></i> Special Fabricated
                                             </a>
                                         </li>
                                         <li class="product-item mb-2">
-                                            <a href="{{ route('products.pipe-fittings-flanges-fasteners') }}" class="product-link">
+                                            <a href="{{ route('products.pipe-fittings-flanges-fasteners') }}" class="product-link" aria-label="Pipe Fittings, Flanges & Fasteners">
                                                 <i class="bi bi-nut me-2"></i> Pipe Fittings, Flanges & Fasteners
                                             </a>
                                         </li>
@@ -1209,7 +1209,7 @@
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a href="{{ route('blogs.the-role-of-high-performance') }}">
+                                                    <a href="{{ route('blogs.the-role-of-high-performance') }} ">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>

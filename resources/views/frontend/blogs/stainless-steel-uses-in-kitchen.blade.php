@@ -431,7 +431,7 @@
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a href="{{ route('blogs.the-role-of-high-performance') }}">
+                                                    <a href="{{ route('blogs.the-role-of-high-performance') }}" aria-label="blog:the-role-of-high-performance">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -439,7 +439,7 @@
                                         </div>
                                     </div>
                                     <div class="title-holder">
-                                        <a href="{{ route('blogs.the-role-of-high-performance') }}">
+                                        <a href="{{ route('blogs.the-role-of-high-performance') }}" aria-label="blog:the-role-of-high-performance>
                                             <h5 class="post-title">
                                                 The Role of High Performance Alloys in Desalination Plants
                                             </h5>

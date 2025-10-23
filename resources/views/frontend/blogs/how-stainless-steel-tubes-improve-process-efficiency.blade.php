@@ -287,22 +287,22 @@
                                     <h4 class="fw-bold mb-4">Products We Offer</h4>
                                     <ul class="list-unstyled mb-4">
                                         <li class="product-item mb-2">
-                                            <a href="{{ route('products.pipes-tubes') }}" class="product-link">
+                                            <a href="{{ route('products.pipes-tubes') }}" class="product-link" aria-label="blog:products.pipes-tubes ">
                                                 <i class="bi bi-box-seam me-2"></i> Pipes & Tubes
                                             </a>
                                         </li>
                                         <li class="product-item mb-2">
-                                            <a href="{{ route('products.sheets-plates-coils') }}" class="product-link">
+                                            <a href="{{ route('products.sheets-plates-coils') }}" class="product-link" aria-label="blog:products.sheets-plates-coils ">
                                                 <i class="bi bi-square me-2"></i> Sheets, Plates & Coils
                                             </a>
                                         </li>
                                         <li class="product-item mb-2">
-                                            <a href="{{ route('products.bars-rods') }}" class="product-link">
+                                            <a href="{{ route('products.bars-rods') }}" class="product-link" aria-label="blog:products.bars-rods ">
                                                 <i class="bi bi-diagram-3 me-2"></i> Bars & Rods
                                             </a>
                                         </li>
                                         <li class="product-item mb-2">
-                                            <a href="{{ route('products.special-fabricated') }}" class="product-link">
+                                            <a href="{{ route('products.special-fabricated') }}" class="product-link" aria-label="blog:products.special-fabricated ">
                                                 <i class="bi bi-tools me-2"></i> Special Fabricated
                                             </a>
                                         </li>
@@ -393,7 +393,7 @@
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a href="{{ route('blogs.the-role-of-high-performance') }}">
+                                                    <a href="{{ route('blogs.the-role-of-high-performance') }}" aria-label="blog:the-role-of-high-performance">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
