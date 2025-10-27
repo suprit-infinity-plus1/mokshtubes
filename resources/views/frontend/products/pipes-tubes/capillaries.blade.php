@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('title', 'Capillary Tubes | Stainless Steel & Nickel Alloy Tubes – Moksh Tubes') <!-- 52 characters -->
-@section('meta_description',
-Moksh Tubes provides premium capillary tubes with precision, durability, and reliability for industrial, medical, and high-performance applications.)
+@section('meta_description', 'Moksh Tubes provides premium capillary tubes with precision, durability, and reliability
+    for industrial, medical, and high-performance applications.')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
@@ -25,7 +25,8 @@ Moksh Tubes provides premium capillary tubes with precision, durability, and rel
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/peoduct/capillary-tubes.webp') }}" alt="Capillary Tubes" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/peoduct/capillary-tubes.webp') }}" alt="Capillary Tubes"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Right Content -->
@@ -1153,12 +1154,13 @@ Moksh Tubes provides premium capillary tubes with precision, durability, and rel
             <div class="container">
             </div>
 
-             <div class="row">
+            <div class="row">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}" alt="NICKLE ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}"
+                                    alt="NICKLE ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1170,7 +1172,8 @@ Moksh Tubes provides premium capillary tubes with precision, durability, and rel
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}" alt="STAINLESS STEEL">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}"
+                                    alt="STAINLESS STEEL">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1182,7 +1185,8 @@ Moksh Tubes provides premium capillary tubes with precision, durability, and rel
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}" alt="DUPLEX & SUPER">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}"
+                                    alt="DUPLEX & SUPER">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1195,7 +1199,8 @@ Moksh Tubes provides premium capillary tubes with precision, durability, and rel
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="##">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}" alt="TITANIUM ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}"
+                                    alt="TITANIUM ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1207,7 +1212,8 @@ Moksh Tubes provides premium capillary tubes with precision, durability, and rel
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}" alt="RARE TO ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}"
+                                    alt="RARE TO ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1219,7 +1225,8 @@ Moksh Tubes provides premium capillary tubes with precision, durability, and rel
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}" alt="CARBON ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}"
+                                    alt="CARBON ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
