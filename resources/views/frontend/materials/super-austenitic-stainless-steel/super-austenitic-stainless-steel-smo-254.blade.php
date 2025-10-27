@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'SMO 254 – Ultimate Chloride Resistant Alloy') <!-- 52 chars -->
+@section('title', 'SMO 254 – High Strength Chloride Resistant Alloy | Moksh') <!-- 52 chars -->
 @section('meta_description', 'SMO 254 stainless steel pipes, tubes, and fittings offer unmatched chloride corrosion resistance for marine, offshore, and chemical applications.')
 @section('meta_keywords', 'SMO 254, Super Austenitic Stainless Steel, Chloride Resistant Alloy, Corrosion Resistant Alloy, SMO 254 Pipes, SMO 254 Tubes, SMO 254 Fittings, Marine Industry Alloys, Offshore Industry Alloys, Chemical Processing Alloys, Industrial Corrosion Resistant Alloys')
 
@@ -26,7 +26,7 @@
             </div>
 
             <h2 class="fw-semibold text-center mb-5" style="color: #db7227;">
-                Introduction To SMO 254 / UNS S31254 / 6Mo Stainless Steel
+                Introduction To SMO 254 (UNS S31254/6Mo) Stainless Steel
             </h2>
 
             <div class="row align-items-center">

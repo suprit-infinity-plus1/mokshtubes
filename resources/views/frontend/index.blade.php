@@ -7,6 +7,8 @@
 @section('canonical', 'https://mokshtubes.com')
 @section('content')
 
+
+
     <!--Start rev slider wrapper-->
     <section class="rev_slider_wrapper">
         <div id="slider1" class="rev_slider" data-version="5.0">
@@ -850,4 +852,60 @@
         </div>
     </section>
     <!--End faq content area-->
+
 @endsection
+
+@section('jsscripts')
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of metal products do you offer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We supply GI pipes, SS pipes, welded and seamless pipes, stainless steel sheets, metal plates, perforated sheets, and industrial fasteners."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the uses of perforated metal sheets?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our perforated metal sheets are widely used for ventilation, filtration, soundproofing, and decorative applications in construction, machinery, and architecture. They can be customized with different hole patterns, sizes, and materials to suit your specific needs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you provide size or schedule charts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we offer complete pipe size charts, nominal diameter (DN) references, and pipe schedule tables for all pipe types."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer corrosion-resistant stainless steel sheets and plates?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Our stainless steel sheets and plates are highly corrosion-resistant and deliver long-lasting performance in marine, chemical, and industrial environments. They are available in various thicknesses, grades, and finishes to match your project requirements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I order custom-sized pipes or fittings?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. We specialize in custom-fabricated fittings, special steel furniture, and custom SS railings according to client requirements."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection
+
