@@ -117,7 +117,7 @@
             </div>
             <!-- Child Title -->
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Weight Chart</h4>
+                <h3 class="text-center mb-0" style="color: #db7227;">Weight Chart</h3>
             </div>
 
             <div class="table-responsive">
@@ -314,7 +314,7 @@
 
             <!-- Child Title -->
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Expanded Table (for class 150 – Ring Gaskets)</h4>
+                <h3 class="text-center mb-0" style="color: #db7227;">Expanded Table (for class 150 – Ring Gaskets)</h3>
             </div>
 
 
@@ -504,7 +504,7 @@
 
             <!-- Child Title -->
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Expanded Table (for class 150 – 2500 )</h4>
+                <h3 class="text-center mb-0" style="color: #db7227;">Expanded Table (for class 150 – 2500 )</h3>
             </div>
 
 
@@ -716,7 +716,9 @@
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0">STAINLESS STEEL</h6>
+                            <!-- <h6 class="mt-0">STAINLESS STEEL</h6> -->
+                           <p class="mt-0" style="font-size: 0.875rem; font-weight: 600;">STAINLESS STEEL</p>
+
                         </div>
                     </div>
                 </div>

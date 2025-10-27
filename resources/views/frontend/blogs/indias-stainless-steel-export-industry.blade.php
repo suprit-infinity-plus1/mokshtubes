@@ -2,8 +2,7 @@
 
 @section('title', 'India’s Stainless Steel Export Industry | Moksh Tubes ')
 @section('meta_description',
-    ' Discover how Moksh Tubes serves 30+ countries as a trusted stainless steel exporter.
-    High-quality Mumbai pipe fittings & global distribution guaranteed!')
+    ' Moksh Tubes exports high-quality stainless steel pipe fittings from Mumbai to 30+ countries, ensuring trusted global distribution and superior service.')
 
 
 @section('content')
@@ -25,10 +24,12 @@
                 <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
                     <div class="blog-post">
                         <div class="single-blog-post">
-                            <div class="img-holder">
+                            <div class="img-holder" style="position:relative;width:100%;aspect-ratio:3/2;overflow:hidden;">
                                 <img src="{{ asset('assets/images/blog/india’s-stainless-steel-export-industry.webp') }}"
-                                    alt="india’s-stainless-steel-export-industry">
+                                    alt="india’s-stainless-steel-export-industry"
+                                    style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
                             </div>
+
                             <div class="text-holder">
                                 <div class="blog-title text-start">
                                     <h2>India’s Stainless Steel Exports – Moksh Tubes Global Reach </h2>
@@ -573,7 +574,7 @@
                                             <div class="box">
                                                 <div class="content">
                                                     <a
-                                                        href="{{ route('blogs.why-hastelloy-weighs-more-than-stainless-steel') }}">
+                                                        href="{{ route('blogs.why-hastelloy-weighs-more-than-stainless-steel') }}" aria-label="blog: why hastelloy weighs moe than stainless steel">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -599,7 +600,8 @@
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a href="{{ route('blogs.the-role-of-high-performance') }}">
+                                                    <a href="{{ route('blogs.the-role-of-high-performance') }}" aria-label="blogs: the role of high performance"
+>
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -626,7 +628,8 @@
                                             <div class="box">
                                                 <div class="content">
                                                     <a
-                                                        href="{{ route('blogs.india’s-stainless-steel-export-industry') }}">
+                                                        href="{{ route('blogs.india’s-stainless-steel-export-industry') }}" aria-label="blog: india’s-stainless-steel-export-industry"
+>
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -689,19 +692,19 @@
                                         <!-- Social Icons -->
                                         {{-- <div class="mt-3 text-center">
                                             <a href="https://wa.me/+919769584950"
-                                                class="btn btn-outline-success btn-sm rounded-circle me-2"><i
+                                                class="btn btn-outline-success btn-sm rounded-circle me-2" aria-label="contact us on whatsapp"><i
                                                     class="bi bi-whatsapp"></i></a>
                                             <a href="https://www.instagram.com/mokshtubesandfittingsllp/"
-                                                class="btn btn-outline-dark btn-sm rounded-circle me-2"><i
+                                                class="btn btn-outline-dark btn-sm rounded-circle me-2" aria-label="follow us on instagram"><i
                                                     class="bi bi-instagram"></i></a>
                                             <a href="https://www.facebook.com/mokshtubes/"
-                                                class="btn btn-outline-primary btn-sm rounded-circle me-2"><i
+                                                class="btn btn-outline-primary btn-sm rounded-circle me-2" aria-label="follow us on facebook"><i
                                                     class="bi bi-facebook"></i></a>
                                             <a href="https://www.linkedin.com/company/moksh-tubes/"
-                                                class="btn btn-outline-info btn-sm rounded-circle"><i
+                                                class="btn btn-outline-info btn-sm rounded-circle" aria-label="follow us on linkedin"><i
                                                     class="bi bi-linkedin"></i></a>
                                             <a href="https://x.com/Moksh_Tubes"
-                                                class="btn btn-outline-info btn-sm rounded-circle"><i
+                                                class="btn btn-outline-info btn-sm rounded-circle" aria-label="follow us on x"><i
                                                     class="fab fa-x-twitter"></i></a>
 
                                         </div> --}}

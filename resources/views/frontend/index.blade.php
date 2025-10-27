@@ -245,11 +245,11 @@
             <div class="row">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
-                        <figure class="img-box mb-0">
+                       <figure class="img-box mb-0" style="position: relative; width: 100%; aspect-ratio: 3/2; overflow: hidden;">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="/assets/images/service/WELDED-PIPES.webp"alt="Awesome Image">
-                            </a>
+                            <img src="/assets/images/service/WELDED-PIPES.webp"  alt="Awesome Image" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;" ></a>
                         </figure>
+
                         <div class="p-3">
                             <a href="{{ route('products.pipes-tubes.welded-pipes') }}">
                                 <h3 class="mt-0 h5">WELDED PIPES</h3>
@@ -281,7 +281,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="/assets/images/service/SHEETS-PLATES.webp" alt="Awesome Image">
+                                <img src="/assets/images/service/SHEETS-PLATES.webp" alt="Sheets and Plates" style="width:100%; height:auto; aspect-ratio:3/2; object-fit:cover;">
+
                             </a>
                         </figure>
                         <div class="p-3">
@@ -297,12 +298,12 @@
 
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
-                        <figure class="img-box mb-0">
+                        <figure class="img-box mb-0" style="position: relative; width: 100%; aspect-ratio:3/2; overflow: hidden;">
                             <a class="w-100" href="##">
-                                <img class="w-100" src="/assets/images/service/PERFORATED-SHEETS.jpg"
-                                    alt="Awesome Image">
+                                <img src="/assets/images/service/PERFORATED-SHEETS.jpg" alt="Perforated Sheets" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
                             </a>
                         </figure>
+
                         <div class="p-3">
                             <a href="{{ route('products.sheets-plates-coils.perforated-sheets') }}">
                                 <h3 class="mt-0 h5">PERFORATED SHEETS</h3>
@@ -770,10 +771,10 @@
         <div class="section-title">
             <h2>International Market to Explore</h2>
         </div>
-        <div class=" col-md-8 mx-auto mt-4">
-            <img src="{{ asset('assets/images/map.png') }}" alt="International Market" class="img-fluid"
-                style="width:100%">
+        <div class="col-md-8 mx-auto mt-4" style="position:relative;width:100%;aspect-ratio:3/2;overflow:hidden;">
+            <img src="{{ asset('assets/images/map.png') }}" alt="International Market" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
         </div>
+
     </div>
     <!--Start faq content area-->
     <section class="faq-content-area sec-padd2">

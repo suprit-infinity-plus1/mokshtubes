@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title', 'Stainless Steel 422 | Mokshtubes Fittings Exporter')
-@section('meta_description', 'Mokshtubes supplies Stainless Steel 422 fittings & fasteners with superior corrosion resistance, wear strength & durability for engineering & industrial use.')
+@section('meta_description', 'Stainless Steel 422 fittings & fasteners from Mokshtubes – corrosion-resistant, durable, and strong for engineering and industrial applications.')
 @section('meta_keywords', 'Stainless Steel 422, Stainless Steel 422 Fittings, Stainless Steel 422 Fasteners, Stainless Steel 422 Supplier, Stainless Steel 422 Exporter, Stainless Steel 422 Stockist, Stainless Steel 422 Manufacturer')
 
 @section('content')

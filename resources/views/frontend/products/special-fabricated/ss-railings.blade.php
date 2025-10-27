@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('title', 'SS Railing Designs – Balcony & Staircase Solutions') <!-- 52 characters -->
 @section('meta_description',
-    'Explore premium SS railing designs, glass railings, and staircase solutions. Durable stainless steel balcony railings and custom handrails for modern spaces.') <!-- 153 characters -->
+    'Explore premium stainless steel and glass railing designs, durable balcony railings, and custom handrails for modern staircases and living spaces.') <!-- 153 characters -->
 @section('meta_keywords',
     'SS Railing, SS Railing Design, Balcony Railings, Staircase Railings, Stainless Steel Handrails, Custom Stainless Steel Fittings, Glass Railing, SS Balcony Railings')
 @section('content')
@@ -108,7 +108,7 @@
             </div>
             <!-- Child Title -->
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Stainless Steel Railing Tube Weight Chart</h4>
+                <h3 class="text-center mb-0" style="color: #db7227;">Stainless Steel Railing Tube Weight Chart</h3>
             </div>
 
             <div class="table-responsive">
@@ -165,7 +165,7 @@
                 <h2>Grades Available</h2>
             </div>
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Our SS railing products are offered in a wide selection of grades for different environments and usage:</h4>
+                <h3 class="text-center mb-0" style="color: #db7227;">Our SS railing products are offered in a wide selection of grades for different environments and usage:</h3>
             </div>
 
             <div class="row justify-content-center">

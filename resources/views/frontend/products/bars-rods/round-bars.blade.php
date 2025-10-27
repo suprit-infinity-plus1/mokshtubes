@@ -1812,9 +1812,9 @@
             </div>
             <!-- Child Title -->
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Round Bars are used extensively
+                <h3 class="text-center mb-0" style="color: #db7227;">Round Bars are used extensively
                     across multiple
-                    industries, including:</h4>
+                    industries, including:</h3>
             </div>
             <div class="row g-4 mt-4">
 

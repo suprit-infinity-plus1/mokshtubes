@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title', 'Stainless Steel 403 | Fittings & Fasteners Exporters')
-@section('meta_description', 'Trusted Stainless Steel 403 fittings & fasteners with excellent strength & corrosion resistance for engineering, automotive & power generation applications.')
+@section('meta_description', 'Stainless Steel 403 fittings & fasteners – strong, corrosion-resistant, ideal for engineering, automotive, and power generation applications.')
 @section('meta_keywords', 'Stainless Steel 403, AISI 403, UNS S40300, martensitic stainless steel, stainless steel fittings, stainless steel fasteners, corrosion-resistant stainless steel, high-strength stainless steel, engineering applications stainless steel, automotive stainless steel components, power generation stainless steel parts')
 
 @section('content')

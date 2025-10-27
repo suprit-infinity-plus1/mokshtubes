@@ -13,7 +13,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Copper Alloy C44300 (Admiralty Brass) <br> Corrosion Resistant Durable Alloy</h1>
+                   <h1>Copper Alloy C44300-(Admiralty Brass)</h1>
                 </div>
             </div>
         </div>

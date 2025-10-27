@@ -341,7 +341,7 @@
                                             <div class="box">
                                                 <div class="content">
                                                     <a
-                                                        href="{{ route('blogs.why-hastelloy-weighs-more-than-stainless-steel') }}">
+                                                        href="{{ route('blogs.why-hastelloy-weighs-more-than-stainless-steel') }}" aria-label="blogs: why hatelloy weighs more than stainless steel">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -367,7 +367,7 @@
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a href="{{ route('blogs.the-role-of-high-performance') }}">
+                                                    <a href="{{ route('blogs.the-role-of-high-performance') }}" aria-label="blogs: the role of high performance">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -394,7 +394,7 @@
                                             <div class="box">
                                                 <div class="content">
                                                     <a
-                                                        href="{{ route('blogs.india’s-stainless-steel-export-industry') }}">
+                                                        href="{{ route('blogs.india’s-stainless-steel-export-industry') }}" aria-label="inida's stainless steel export industry">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -460,19 +460,19 @@
                                         <!-- Social Icons -->
                                         <div class="mt-3 text-center">
                                             <a href="https://wa.me/+919769584950"
-                                                class="btn btn-outline-success btn-sm rounded-circle me-2"><i
+                                                class="btn btn-outline-success btn-sm rounded-circle me-2" aria-label="contact us on whatsapp"><i
                                                     class="bi bi-whatsapp"></i></a>
                                             <a href="https://www.instagram.com/mokshtubesandfittingsllp/"
-                                                class="btn btn-outline-dark btn-sm rounded-circle me-2"><i
+                                                class="btn btn-outline-dark btn-sm rounded-circle me-2" aria-label="follow us on instagram"><i
                                                     class="bi bi-instagram"></i></a>
                                             <a href="https://www.facebook.com/mokshtubes/"
-                                                class="btn btn-outline-primary btn-sm rounded-circle me-2"><i
+                                                class="btn btn-outline-primary btn-sm rounded-circle me-2" aria-label="follow us on facebook"><i
                                                     class="bi bi-facebook"></i></a>
                                             <a href="https://www.linkedin.com/company/moksh-tubes/"
-                                                class="btn btn-outline-info btn-sm rounded-circle"><i
+                                                class="btn btn-outline-info btn-sm rounded-circle" aria-label="follow us on linkedin"><i
                                                     class="bi bi-linkedin"></i></a>
                                             <a href="https://x.com/Moksh_Tubes"
-                                                class="btn btn-outline-info btn-sm rounded-circle"><i
+                                                class="btn btn-outline-info btn-sm rounded-circle" aria-label="follow us on x"><i
                                                     class="fab fa-x-twitter"></i></a>
 
                                         </div>
@@ -546,3 +546,4 @@
 
 
 @endsection
+
