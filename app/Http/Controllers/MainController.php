@@ -139,6 +139,31 @@ class MainController extends Controller
 
         return view('frontend.blogs.stainless-steel-tube-grades-explained');
     }
+    public function stainlessSteelTubesApplicationsBenefitsAndCostGuide()
+    {
+
+        return view('frontend.blogs.stainless-steel-tubes-applications-benefits-and-cost-guide');
+    }
+    public function stainlessSteelTubingForFoodAndBeverageIndustry()
+    {
+
+        return view('frontend.blogs.stainless-steel-tubing-for-food-and-beverage-industry');
+    }
+    public function topTenUsesOfStainlessSteel()
+    {
+
+        return view('frontend.blogs.top-ten-uses-of-stainless-steel');
+    }
+    public function maintenanceTipsForStainlessSteel()
+    {
+
+        return view('frontend.blogs.maintenance-tips-for-stainless-steel');
+    }
+    public function stainlessSteelTubesVsCarbonSteelPipes()
+    {
+
+        return view('frontend.blogs.stainless-steel-tubes-vs-carbon-steel-pipes');
+    }
 
 
 

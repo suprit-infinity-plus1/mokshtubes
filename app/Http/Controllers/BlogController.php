@@ -12,10 +12,55 @@ class BlogController extends Controller
         $blogsData = collect([
 
             [
+                'title' => 'Stainless Steel Tubes vs Carbon Steel Pipes: A Complete Comparison',
+                'author' => 'Jash Jain',
+                'comments' => 16,
+                'date' => 'October 27, 2025',
+                'image' => 'assets/images/blog/Stainless-Steel-Tubes-vs-Carbon-Steel-Pipes-A-Complete-Comparison_11zon.jpeg',
+                'excerpt' => 'Choosing the right material for an industrial or construction piping system',
+                'link' => route('blogs.stainless-steel-tubes-vs-carbon-steel-pipes')
+            ],
+            [
+                'title' => 'Maintenance Tips for Stainless Steel Tubes to Prevent Rust',
+                'author' => 'Jash Jain',
+                'comments' => 16,
+                'date' => 'October 27, 2025',
+                'image' => 'assets/images/blog/Maintenance-Tips-for-Stainless-Steel_11zon.jpg',
+                'excerpt' => 'Stainless steel is celebrated for its remarkable strength and resistance',
+                'link' => route('blogs.maintenance-tips-for-stainless-steel')
+            ],
+            [
+                'title' => 'Top 10 Uses of Stainless Steel Pipes in Construction Projects',
+                'author' => 'Jash Jain',
+                'comments' => 16,
+                'date' => 'October 27, 2025',
+                'image' => 'assets/images/blog/Top-10-Uses-of-Stainless-Steel-Pipes.jpeg',
+                'excerpt' => 'Look at any modern city skyline, and you see a testament to strength,',
+                'link' => route('blogs.top-ten-uses-of-stainless-steel')
+            ],
+            [
+                'title' => 'Stainless Steel Tubing for Food and Beverage Industry',
+                'author' => 'Jash Jain',
+                'comments' => 16,
+                'date' => 'October 27, 2025',
+                'image' => 'assets/images/blog/stainless-steel-tubing-for-food-and-beverage-industry.webp',
+                'excerpt' => 'In the food and beverage industry, there is zero room for error.',
+                'link' => route('blogs.stainless-steel-tubing-for-food-and-beverage-industry')
+            ],
+            [
+                'title' => 'Stainless Steel Tubes: Applications, Benefits & Cost Guide',
+                'author' => 'Jash Jain',
+                'comments' => 16,
+                'date' => 'October 27, 2025',
+                'image' => 'assets/images/blog/Stainless-Steel-Tubes-Applications-Benefits-Cost-Guide.webp',
+                'excerpt' => 'From the towering skyscrapers that define our cities to the intricate,',
+                'link' => route('blogs.stainless-steel-tubes-applications-benefits-and-cost-guide')
+            ],
+            [
                 'title' => 'Stainless Steel Tube Grades Explained: Which One to Pick?',
                 'author' => 'Jash Jain',
                 'comments' => 16,
-                'date' => 'October 13, 2025',
+                'date' => 'October 27, 2025',
                 'image' => 'assets/images/blog/Stainless-Steel-Tube-Grades.png',
                 'excerpt' => 'Choosing stainless steel for your tubing is a smart first step,',
                 'link' => route('blogs.stainless-steel-tube-grades-explained')
@@ -70,7 +115,7 @@ class BlogController extends Controller
                 'author' => 'Jash Jain',
                 'comments' => 16,
                 'date' => 'sep 04, 2025',
-                'image' => 'assets/images/blog/uae’s-ultimate-guide.webp',
+                'image' => 'assets/images/blog/din-standard-metal-alloys.webp',
                 'excerpt' => 'Walk into any professional kitchen, and one thing shines above',
                 'link' => route('blogs.stainless-steel-uses-in-kitchen')
             ],
@@ -79,19 +124,19 @@ class BlogController extends Controller
                 'author' => 'Jash Jain',
                 'comments' => 16,
                 'date' => 'sep 01, 2025',
-                'image' => 'assets/images/blog/uae’s-ultimate-guide.webp',
+                'image' => 'assets/images/blog/uaes-ultimate-guide.webp',
                 'excerpt' => 'Imagine this you’re overseeing a mega project on Dubai’s skyline.',
                 'link' => route('blogs.uae’s-ultimate-guide')
             ],
-            [
-                'title' => 'DIN Standard Metal Alloys & Industrial Tubes',
-                'author' => 'Jash Jain',
-                'comments' => 16,
-                'date' => 'sep 01, 2025',
-                'image' => 'assets/images/blog/din-standard-metal-alloys.webp',
-                'excerpt' => 'Germany stands as Europes manufacturing powerhouse, driving innovation across',
-                'link' => route('blogs.din-standard-metal-alloys')
-            ],
+            // [
+            //     'title' => 'DIN Standard Metal Alloys & Industrial Tubes',
+            //     'author' => 'Jash Jain',
+            //     'comments' => 16,
+            //     'date' => 'sep 01, 2025',
+            //     'image' => 'assets/images/blog/din-standard-metal-alloys.webp',
+            //     'excerpt' => 'Germany stands as Europes manufacturing powerhouse, driving innovation across',
+            //     'link' => route('blogs.din-standard-metal-alloys')
+            // ],
             [
                 'title' => 'STAINLESS STEEL VS INCONEL TUBES',
                 'author' => 'Jash Jain',
@@ -133,7 +178,7 @@ class BlogController extends Controller
                 'author' => 'Jash Jain',
                 'comments' => 16,
                 'date' => 'august 14, 2025',
-                'image' => 'assets/images/blog/india’s-stainless-steel-export-industry.webp',
+                'image' => '/assets/images/blog/indias-stainless-steel-export-industry.webp',
                 'excerpt' => 'India has emerged as a global leader in stainless steel production and exports,',
                 'link' => route('blogs.india’s-stainless-steel-export-industry')
             ],

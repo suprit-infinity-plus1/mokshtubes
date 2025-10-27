@@ -347,9 +347,9 @@
                                         </li>
 
 
-                                        <li class="nav-item"><a class="nav-link" href="#">QUALITY</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">Quality</a></li>
                                         <li class="nav-item"><a class="nav-link"
-                                                href="{{ route('calculator') }}">CALCULATOR</a></li>
+                                                href="{{ route('calculator') }}">Calculator</a></li>
                                         <li class="nav-item"><a class="nav-link"
                                                 href="{{ route('blogs') }}">Blogs</a></li>
                                     </ul>
@@ -397,8 +397,8 @@
                                             </ul>
                                             {{-- <li><a href="{{ route('materials') }}">MATERIALS</a></li> --}}
 
-                                        <li><a href="#">QUALITY</a></li>
-                                        <li><a href="{{ route('calculator') }}">CALCULATOR</a></li>
+                                        <li><a href="#">Quality</a></li>
+                                        <li><a href="{{ route('calculator') }}">Calculator</a></li>
                                         <li><a href="{{ route('blogs') }}">Blogs</a></li>
 
                                     </ul>

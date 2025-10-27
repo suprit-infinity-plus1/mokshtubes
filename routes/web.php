@@ -113,6 +113,11 @@ Route::get('/blogs/how-stainless-steel-tubes-improve-process-efficiency', [MainC
 Route::get('/blogs/stainless-steel-vs-other-metals', [MainController::class, 'stainlessSteelVsOtherMetals'])->name('blogs.stainless-steel-vs-other-metals');
 Route::get('/blogs/stainless-steel-pipe-installation', [MainController::class, 'stainlessSteelPipeInstallation'])->name('blogs.stainless-steel-pipe-installation');
 Route::get('/blogs/stainless-steel-tube-grades-explained', [MainController::class, 'stainlessSteelTubeGradesExplained'])->name('blogs.stainless-steel-tube-grades-explained');
+Route::get('/blogs/stainless-steel-tubes-applications-benefits-and-cost-guide', [MainController::class, 'stainlessSteelTubesApplicationsBenefitsAndCostGuide'])->name('blogs.stainless-steel-tubes-applications-benefits-and-cost-guide');
+Route::get('/blogs/stainless-steel-tubing-for-food-and-beverage-industry', [MainController::class, 'stainlessSteelTubingForFoodAndBeverageIndustry'])->name('blogs.stainless-steel-tubing-for-food-and-beverage-industry');
+Route::get('/blogs/top-10-uses-of-stainless-steel', [MainController::class, 'topTenUsesOfStainlessSteel'])->name('blogs.top-ten-uses-of-stainless-steel');
+Route::get('/blogs/maintenance-tips-for-stainless-steel', [MainController::class, 'maintenanceTipsForStainlessSteel'])->name('blogs.maintenance-tips-for-stainless-steel');
+Route::get('/blogs/stainless-steel-tubes-vs-carbon-steel-pipes', [MainController::class, 'stainlessSteelTubesVsCarbonSteelPipes'])->name('blogs.stainless-steel-tubes-vs-carbon-steel-pipes');
 Route::redirect(
     '/materials/super-austenitic-stainless-steel/super-austenitic-stainless-steel-SMO-254',
     '/materials/super-austenitic-stainless-steel/super-austenitic-stainless-steel-smo-254',
