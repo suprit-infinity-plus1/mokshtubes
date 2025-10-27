@@ -82,6 +82,7 @@
     </style>
 
 
+
 </head>
 
 <body>
@@ -822,5 +823,8 @@ z-index:99;">
 
     </div>
 </body>
+
+ @yield('jsscripts')
+ 
 
 </html>
