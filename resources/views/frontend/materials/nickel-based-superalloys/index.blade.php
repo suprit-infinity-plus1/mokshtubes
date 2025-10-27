@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title', 'Nickel Superalloys – Extreme Strength & Corrosion') <!-- 53 chars -->
-@section('meta_description', 'Nickel-based superalloys from Moksh Tubes offer strength, corrosion resistance, and reliability for extreme temperatures and harsh environments.')
+@section('meta_description', 'Premium nickel-based superalloys from Moksh Tubes — extreme temperature & harsh environment-resistant with corrosion protection, strength & reliability.')
 @section('meta_keywords', 'Nickel Superalloys, Nickel 200, Nickel 201, A286, High-Temperature Alloys, Corrosion Resistant Alloys, Nickel-Based Alloys, Extreme Temperature Alloys, High Strength Alloys, Industrial Superalloys')
 
 @section('content')
