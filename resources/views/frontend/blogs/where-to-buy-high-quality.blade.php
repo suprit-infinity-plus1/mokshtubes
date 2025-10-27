@@ -9,7 +9,7 @@
 @section('content')
     <!--Start breadcrumb area-->
 
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/blog/stainless_steel_pipes.jpg);">
         <div class="container text-center">
             <h1>Where to Buy High Quality Stainless Steel Tubes Online</h1>
         </div>
@@ -26,8 +26,8 @@
                     <div class="blog-post">
                         <div class="single-blog-post">
                             <div class="img-holder">
-                                <img src="{{ asset('assets/images/blog/10-Mistakes-to-Avoid-When-Buying-Stainless-Steel-Pipes.webp') }}"
-                                    alt="hastelloy-vs-stainless">
+                                <img src="{{ asset('assets/images/blog/stainless_steel_pipes.jpg') }}"
+                                    alt="hastelloy-vs-stainless" style="width:700px; height:400px; object-fit:cover;>
                             </div>
                             <div class="text-holder">
                                 <div class="blog-title text-start">

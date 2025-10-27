@@ -52,7 +52,7 @@ class BlogController extends Controller
                 'author' => 'Jash Jain',
                 'comments' => 16,
                 'date' => 'October 01, 2025',
-                'image' => 'assets/images/blog/10-Mistakes-to-Avoid-When-Buying-Stainless-Steel-Pipes.webp',
+                'image' => 'assets/images/blog/how_to_choose.png',
                 'excerpt' => 'Sourcing materials for a critical industrial, construction,',
                 'link' => route('blogs.how-to-choose-the-best-stainless-steel-pipes')
             ],
@@ -61,7 +61,7 @@ class BlogController extends Controller
                 'author' => 'Jash Jain',
                 'comments' => 16,
                 'date' => 'October 01, 2025',
-                'image' => 'assets/images/blog/10-Mistakes-to-Avoid-When-Buying-Stainless-Steel-Pipes.webp',
+                'image' => 'assets/images/blog/stainless_steel_pipes.jpg',
                 'excerpt' => 'Sourcing materials for a critical industrial, construction,',
                 'link' => route('blogs.where-to-buy-high-quality')
             ],
@@ -124,7 +124,7 @@ class BlogController extends Controller
                 'author' => 'Jash Jain',
                 'comments' => 16,
                 'date' => 'august 14, 2025',
-                'image' => 'assets/images/blog/everything-you-need-to-know-about-welded-and-seamless-pipes.webp',
+                'image' => 'assets/images/blog/seamless_welded_pipes.jpeg',
                 'excerpt' => 'Pipes are the unsung heroes of modern infrastructure',
                 'link' => route('blogs.everything-you-need-to-know-about-welded-and-seamless-pipes')
             ],
