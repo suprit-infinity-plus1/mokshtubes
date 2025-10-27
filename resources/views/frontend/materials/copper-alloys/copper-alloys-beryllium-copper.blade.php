@@ -2,7 +2,7 @@
 
 @section('title', 'Beryllium Copper Alloy | High Conductivity & Durability')
 
-@section('meta_description', 'Beryllium Copper – premium alloy offering superior electrical conductivity, exceptional strength, and wear resistance for demanding industrial applications.')
+@section('meta_description', 'BBeryllium Copper – premium alloy with superior electrical conductivity, exceptional strength, and wear resistance for industrial applications')
 
 @section('meta_keywords', 'Beryllium Copper, high conductivity copper alloy, durable copper alloy, wear resistant copper, electrical copper alloy, industrial copper alloy')
 

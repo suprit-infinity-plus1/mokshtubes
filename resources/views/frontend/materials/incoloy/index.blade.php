@@ -1,6 +1,5 @@
 @extends('layouts.master')
-
-@section('title', 'Incoloy Alloys (800, 825, 925) | Nickel-Iron-Chromium Alloy Supplier')
+@section('title', 'Incoloy Alloys 800, 825, 925 | Nickel-Iron-Chromium Supplier')
 @section('meta_description',
     'Incoloy 800, 825 & 925 alloys from Moksh Tubes — high strength, oxidation-resistant &
     corrosion-protected for chemical, marine & high-temperature use.')

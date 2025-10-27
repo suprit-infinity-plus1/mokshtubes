@@ -5,7 +5,7 @@
     'Incoloy 825 delivers exceptional resistance to acids, alkalis, and oxidizing agents—making
     it a trusted choice for chemical and marine industries.')
 @section('meta_keywords', 'Incoloy 825, nickel alloy, corrosion resistant alloy, premium metal alloys, moksh tubes')
-@section('canonical', 'https://mokshtubes.com')
+@section('canonical', 'https://mokshtubes.com/materials/incoloy/incoloy-825')
 @section('content')
 
     <!--Start breadcrumb area-->

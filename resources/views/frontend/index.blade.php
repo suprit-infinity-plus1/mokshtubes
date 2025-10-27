@@ -1,12 +1,14 @@
 @extends('layouts.master')
 
-@section('title', 'Moksh Tubes LLP | Pipes, Fittings & Alloys Supplier & Exporter')
+@section('title', 'Moksh Tubes | Pipes, Fittings & Alloys Supplier & Exporter')
 @section('meta_description',
     'Moksh Tubes LLP is a trusted supplier & exporter of stainless steel, nickel alloy, Incoloy
     & titanium pipes, fittings & flanges. Serving India & worldwide.')
 @section('meta_keywords', 'Incoloy 825, nickel alloy, corrosion resistant alloy, premium metal alloys, moksh tubes')
 @section('canonical', 'https://mokshtubes.com')
 @section('content')
+
+
 
     <!--Start rev slider wrapper-->
     <section class="rev_slider_wrapper">
@@ -24,7 +26,7 @@
                         data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-splitin="none" data-splitout="none"
                         data-responsive_offset="on" data-start="700">
                         <div class="slide-content-box">
-                            <h1>Trusted Stainless Steel & Nickel Alloy<br> Supplier & Exporter Moksh Tubes LLP</h1>
+                            <h1>Trusted Stainless Steel & Nickel Alloy<br> Supplier & Exporter Moksh Tubes</h1>
 
                             <p>Seamless & Welded Pipes/Tubes in SS 304/316/321/904L, <br>Inconel & Hastelloy with MTC (EN
                                 10204 3.1), PMI & Hydro Test ready stock</p>
@@ -255,11 +257,11 @@
             <div class="row">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
-                        <figure class="img-box mb-0">
+                       <figure class="img-box mb-0" style="position: relative; width: 100%; aspect-ratio: 3/2; overflow: hidden;">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="/assets/images/service/WELDED-PIPES.webp"alt="Awesome Image">
-                            </a>
+                            <img src="/assets/images/service/WELDED-PIPES.webp"  alt="Awesome Image" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;" ></a>
                         </figure>
+
                         <div class="p-3">
                             <a href="{{ route('products.pipes-tubes.welded-pipes') }}">
                                 <h3 class="mt-0 h5">WELDED PIPES</h3>
@@ -293,7 +295,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="/assets/images/service/SHEETS-PLATES.webp" alt="Awesome Image">
+                                <img src="/assets/images/service/SHEETS-PLATES.webp" alt="Sheets and Plates" style="width:100%; height:auto; aspect-ratio:3/2; object-fit:cover;">
+
                             </a>
                         </figure>
                         <div class="p-3">
@@ -310,12 +313,12 @@
 
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
-                        <figure class="img-box mb-0">
+                        <figure class="img-box mb-0" style="position: relative; width: 100%; aspect-ratio:3/2; overflow: hidden;">
                             <a class="w-100" href="##">
-                                <img class="w-100" src="/assets/images/service/PERFORATED-SHEETS.jpg"
-                                    alt="Awesome Image">
+                                <img src="/assets/images/service/PERFORATED-SHEETS.jpg" alt="Perforated Sheets" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
                             </a>
                         </figure>
+
                         <div class="p-3">
                             <a href="{{ route('products.sheets-plates-coils.perforated-sheets') }}">
                                 <h3 class="mt-0 h5">PERFORATED SHEETS</h3>
@@ -789,10 +792,10 @@
         <div class="section-title">
             <h2>International Market to Explore</h2>
         </div>
-        <div class=" col-md-8 mx-auto mt-4">
-            <img src="{{ asset('assets/images/map.png') }}" alt="International Market" class="img-fluid"
-                style="width:100%">
+        <div class="col-md-8 mx-auto mt-4" style="position:relative;width:100%;aspect-ratio:3/2;overflow:hidden;">
+            <img src="{{ asset('assets/images/map.png') }}" alt="International Market" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
         </div>
+
     </div>
     <!--Start faq content area-->
     <section class="faq-content-area sec-padd2">
@@ -872,4 +875,60 @@
         </div>
     </section>
     <!--End faq content area-->
+
 @endsection
+
+@section('jsscripts')
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of metal products do you offer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We supply GI pipes, SS pipes, welded and seamless pipes, stainless steel sheets, metal plates, perforated sheets, and industrial fasteners."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the uses of perforated metal sheets?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our perforated metal sheets are widely used for ventilation, filtration, soundproofing, and decorative applications in construction, machinery, and architecture. They can be customized with different hole patterns, sizes, and materials to suit your specific needs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you provide size or schedule charts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we offer complete pipe size charts, nominal diameter (DN) references, and pipe schedule tables for all pipe types."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer corrosion-resistant stainless steel sheets and plates?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Our stainless steel sheets and plates are highly corrosion-resistant and deliver long-lasting performance in marine, chemical, and industrial environments. They are available in various thicknesses, grades, and finishes to match your project requirements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I order custom-sized pipes or fittings?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. We specialize in custom-fabricated fittings, special steel furniture, and custom SS railings according to client requirements."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection
+
