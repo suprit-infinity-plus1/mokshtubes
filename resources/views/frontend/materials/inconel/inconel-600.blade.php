@@ -801,3 +801,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Inconel 600 and why is it widely used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Inconel 600 is a high performance nickel chromium iron alloy designed to withstand extreme temperatures and harsh environments. Known for its excellent oxidation and corrosion resistance, it remains stable under both oxidizing and reducing conditions. Because of its outstanding mechanical strength and resistance to chloride ion stress corrosion cracking, Inconel 600 is widely used in industries such as chemical processing, aerospace, marine engineering, and power generation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the key properties of Inconel 600?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Inconel 600 is highly resistant to heat, scaling, and oxidation, even at temperatures up to 2000°F (1093°C). It offers superior strength, good weldability, and excellent resistance to chloride-ion stress-corrosion cracking. This alloy is non-magnetic, retains toughness at cryogenic temperatures, and performs well in both oxidizing and reducing environments, making it suitable for critical applications where durability and reliability are essential."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the common applications of Inconel 600?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Inconel 600 is used across multiple industries where high strength and corrosion resistance are required. It is commonly applied in heat treatment furnaces, nuclear power plants, and chemical processing equipment. Other applications include jet engine components, exhaust systems, marine heat exchangers, food processing equipment, and cryogenic storage systems. Its versatility and ability to withstand extreme environments make it a preferred choice for demanding projects."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does Inconel 600 perform in chemical processing environments?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Inconel 600 is highly valued in chemical processing because of its resistance to acidic, caustic, and chloride-rich environments. It withstands exposure to chlorine, hydrogen chloride, and oxidizing salts without losing mechanical integrity. This makes it ideal for use in vessels, piping, and heat exchangers where long-term resistance to corrosion is critical, ensuring safe and reliable operation in aggressive chemical conditions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose MOKSH TUBES & FITTINGS LLP for Inconel 600 products?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP is a trusted global supplier of premium Inconel 600 products in various forms including pipes, tubes, fittings, flanges, fasteners, sheets, plates, and custom-fabricated components. With strong sourcing from certified mills, advanced manufacturing expertise, and strict quality assurance, the company ensures superior product performance. Clients benefit from timely delivery, custom fabrication support, and a commitment to customer satisfaction, making MOKSH a reliable partner for Inconel 600 solutions worldwide."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection
