@@ -128,9 +128,7 @@
                                                     <strong>Carbon Steel:</strong> Has very poor corrosion resistance. When
                                                     exposed to moisture and oxygen, carbon steel rusts a process of
                                                     oxidation that degrades the metal and compromises its structural
-                                                    integrity. To be used in most environments, <a
-                                                        href="{{ route('blogs.stainless-steel-tubes-vs-carbon-steel-pipes') }}">carbon
-                                                        steel</a> must be
+                                                    integrity. To be used in most environments, carbon steel must be
                                                     protected with a coating, such as paint, oil, or galvanization (a zinc
                                                     coating). This protective layer is temporary and requires maintenance.
                                                 </li>
