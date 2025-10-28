@@ -624,3 +624,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Tungsten and what are its key properties?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tungsten is a dense, high melting-point metal known for outstanding hardness, high thermal conductivity, minimal thermal expansion, and excellent resistance to wear, corrosion, and high temperatures."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which forms of Tungsten products are available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tungsten is supplied as seamless and welded pipes, tubes (capillary, U-bend, boiler, heat exchanger), sheets, plates, coils, strips, round/flat/hex/square bars, pipe fittings, flanges, fasteners, wires, crucibles, and custom fabricated components."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main advantages of Tungsten?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tungsten offers the world’s highest melting point among metals, extreme density, exceptional hardness, high thermal conductivity, and low thermal expansion, making it ideal for high temperature, wear-resistant, and radiation shielding applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "In which industries is Tungsten commonly used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tungsten is widely used in aerospace and defense, electronics and semiconductors, medical devices, lighting, metallurgy, foundries, and oil & gas industries for its thermal stability, hardness, and durability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose MOKSH TUBES & FITTINGS for Tungsten products?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We provide pure and alloyed Tungsten in various forms, precision machining, custom fabrication, strict quality control, ISO certified operations, fast global delivery, and competitive pricing, trusted by industries worldwide."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection
