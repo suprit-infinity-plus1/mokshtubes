@@ -1,8 +1,11 @@
 @extends('layouts.master')
 @section('title', 'Flange Gaskets – High-Temperature & Chemical Resistant') <!-- 53 characters -->
 @section('meta_description',
-    'Moksh Tubes provides premium flange gaskets – spiral wound, RTJ, rubber & non-metallic gaskets for industrial sealing and high-temperature applications.') <!-- 153 characters -->
-@section('meta_keywords', 'Flange Gaskets, Industrial Gaskets, Spiral Wound Gaskets, RTJ Gaskets, Rubber Gaskets, Chemical Resistant Gaskets, Non-Metallic Gaskets, Sealing Solutions')
+    'Moksh Tubes provides premium flange gaskets – spiral wound, RTJ, rubber & non-metallic
+    gaskets for industrial sealing and high-temperature applications.') <!-- 153 characters -->
+@section('meta_keywords',
+    'Flange Gaskets, Industrial Gaskets, Spiral Wound Gaskets, RTJ Gaskets, Rubber Gaskets,
+    Chemical Resistant Gaskets, Non-Metallic Gaskets, Sealing Solutions')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
@@ -33,7 +36,7 @@
                 <!-- Right Content -->
                 <div class="col-md-6">
                     <p class="fs-6 mb-3 text-justify">
-                        Gaskets are essential sealing components used to create a pressure-tight seal between two or more
+                        Gaskets are essential sealing components used to create a pressure tight seal between two or more
                         mating surfaces, preventing leakage of liquids or gases under various operating conditions.
                     </p>
                     <p class="fs-6 mb-3 text-justify">
@@ -44,8 +47,10 @@
                     <p class="fs-6 text-justify">
                         <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a>, we supply a comprehensive range of
                         industrial gaskets and seals – from
-                        standard flange gaskets, head gaskets, and rubber gaskets to custom-engineered sealing solutions. We
-                        also provide PTFE gaskets, spiral wound gaskets, graphite gaskets, metal gaskets, and non-asbestos
+                        standard flange gaskets, head gaskets, and rubber gaskets to <a
+                            href="{{ url('products/pipe-fittings-flanges-fasteners/custom-fabricated-fittings') }}">custom
+                            engineered</a> sealing solutions. We
+                        also provide PTFE gaskets, spiral wound gaskets, graphite gaskets, metal gaskets, and non asbestos
                         gaskets.
                 </div>
             </div>
@@ -72,9 +77,9 @@
                                 <tr class="t-row">
                                     <td>Category</td>
                                     <td>
-                                        Non-Metallic (Rubber gaskets, PTFE gaskets, Non-Asbestos gaskets, Graphite gaskets)
+                                        Non Metallic (Rubber gaskets, PTFE gaskets, Non Asbestos gaskets, Graphite gaskets)
                                         <br>
-                                        Semi-Metallic (Spiral Wound gaskets, Corrugated, Kammprofile gaskets) <br>
+                                        Semi Metallic (Spiral Wound gaskets, Corrugated, Kammprofile gaskets) <br>
                                         Metallic (Stainless Steel gaskets, Soft Iron, Inconel)
                                     </td>
                                 </tr>
@@ -661,14 +666,18 @@
                             <tbody>
                                 <tr class="t-row">
                                     <td>Stainless Steel Grades</td>
-                                    <td>304, 304L, 316, 316L <br>
+                                    <td>304, 304L, <a
+                                            href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-316') }}">316,
+                                            316L</a> <br>
                                         <small>(Used for spiral wound gaskets & metallic gaskets)</small>
                                     </td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Alloys</td>
-                                    <td>Inconel, Monel, Hastelloy <br>
-                                        <small>(For high-temperature gaskets)</small>
+                                    <td><a href="{{ route('materials.inconel') }}">Inconel</a>, <a
+                                            href="{{ route('materials.monel') }}">Monel</a>, <a
+                                            href="{{ route('materials.hastelloy') }}">Hastelloy</a> <br>
+                                        <small>(For high temperature gaskets)</small>
                                     </td>
                                 </tr>
                                 <tr class="t-row">
@@ -695,12 +704,13 @@
             <div class="container">
             </div>
 
-             <div class="row">
+            <div class="row">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}" alt="NICKLE ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}"
+                                    alt="NICKLE ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -712,12 +722,13 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}" alt="STAINLESS STEEL">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}"
+                                    alt="STAINLESS STEEL">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
                             <!-- <h6 class="mt-0">STAINLESS STEEL</h6> -->
-                           <p class="mt-0" style="font-size: 0.875rem; font-weight: 600;">STAINLESS STEEL</p>
+                            <p class="mt-0" style="font-size: 0.875rem; font-weight: 600;">STAINLESS STEEL</p>
 
                         </div>
                     </div>
@@ -726,7 +737,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}" alt="DUPLEX & SUPER">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}"
+                                    alt="DUPLEX & SUPER">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -739,7 +751,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="##">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}" alt="TITANIUM ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}"
+                                    alt="TITANIUM ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -751,7 +764,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}" alt="RARE TO ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}"
+                                    alt="RARE TO ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -763,7 +777,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}" alt="CARBON ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}"
+                                    alt="CARBON ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -897,8 +912,8 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-water"></i></div>
-                        <h4>Leak-Proof Sealing</h4>
-                        <h5>Provide leak-proof sealing between flange joints.</h5>
+                        <h4>Leak Proof Sealing</h4>
+                        <h5>Provide leak proof sealing between flange joints.</h5>
                     </div>
                 </div>
 
@@ -914,7 +929,7 @@
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
                         <h4>High Pressure & Temperature Resistance</h4>
-                        <h5>Withstand high-pressure gaskets and high-temperature gaskets.</h5>
+                        <h5>Withstand high pressure gaskets and high temperature gaskets.</h5>
                     </div>
                 </div>
 

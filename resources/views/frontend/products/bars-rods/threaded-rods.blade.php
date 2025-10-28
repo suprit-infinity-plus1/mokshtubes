@@ -1,8 +1,9 @@
 @extends('layouts.master')
 @section('title', 'Threaded Rods – Stainless, Galvanized & Alloy Steel') <!-- 52 characters -->
-@section('meta_description',
-    'Moksh Tubes offers premium Threaded Rods in Stainless, Galvanized, Carbon & Alloy Steel with weight charts, sizes, and ASTM & DIN standards.') <!-- 153 characters -->
-@section('meta_keywords', 'Threaded Rods, Stainless Threaded Rods, Galvanized Threaded Rods, Alloy Steel Threaded Rods, Carbon Steel Threaded Rods, Duplex Threaded Rods, Brass Rods, Copper Rods, Titanium Rods, Custom Threaded Rods')
+@section('meta_description', 'Moksh Tubes offers premium Threaded Rods in Stainless, Galvanized, Carbon & Alloy Steel
+    with weight charts, sizes, and ASTM & DIN standards.') <!-- 153 characters -->
+@section('meta_keywords', 'Threaded Rods, Stainless Threaded Rods, Galvanized Threaded Rods, Alloy Steel Threaded Rods,
+    Carbon Steel Threaded Rods, Duplex Threaded Rods, Brass Rods, Copper Rods, Titanium Rods, Custom Threaded Rods')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
@@ -43,7 +44,9 @@
                     <p class="fs-6 mb-3 text-justify">
                         <a href="{{ route('index') }}"><b>Moksh Tubes & Fittings LLP</b></a>, we supply high quality
                         threaded rods in stainless steel, carbon steel,
-                        alloy steel, duplex & super duplex, nickel alloys, titanium, brass, and copper alloys. ASTM, ASME,
+                        alloy steel, <a href="{{ route('materials.duplex-and-super-duplex') }}">duplex & super duplex</a>,
+                        nickel alloys, <a href="{{ route('materials.titanium') }}">titanium</a>, brass, and <a
+                            href="{{ route('materials.copper-Alloys') }}">copper alloys</a>. ASTM, ASME,
                         DIN, ISO, and BS standards, our threaded rods offer strength, corrosion resistance,
                         and reliability for demanding applications worldwide.
                     </p>
@@ -547,7 +550,9 @@
                                 <tr class="t-row">
                                     <td>Stainless Steel</td>
                                     <td>
-                                        304, 304L, 316, 316L, 310, 321 <br>
+                                        <a
+                                            href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-304') }}">304</a>,
+                                        304L, 316, 316L, 310, 321 <br>
                                         <small>(For corrosion resistance in marine, food & pharma industries)</small>
                                     </td>
                                 </tr>
@@ -555,7 +560,7 @@
                                     <td>Carbon & Alloy Steel</td>
                                     <td>
                                         ASTM A193 B7/B7M, A320 L7/L7M, ASTM A307 <br>
-                                        <small>(For structural & high-strength use)</small>
+                                        <small>(For structural & high strength use)</small>
                                     </td>
                                 </tr>
                                 <tr class="t-row">
@@ -568,30 +573,32 @@
                                 <tr class="t-row">
                                     <td>Nickel Alloys</td>
                                     <td>
-                                        Inconel 600/625, Monel 400/K500, Hastelloy C22/C276 <br>
+                                        Inconel 600/625, <a href="{{ route('materials.monel') }}">Monel 400/K500</a>, <a
+                                            href="{{ route('materials.hastelloy') }}">Hastelloy C22/C276</a> <br>
                                         <small>(For extreme heat & corrosive service)</small>
                                     </td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Titanium</td>
                                     <td>
-                                        Grades 2, 5 <br>
-                                        <small>(Lightweight, strong, and corrosion-resistant for aerospace & medical
+                                        <a href="{{ route('materials.titanium') }}">Grades 2, 5</a> <br>
+                                        <small>(Lightweight, strong, and corrosion resistant for aerospace & medical
                                             use)</small>
                                     </td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Copper & Brass</td>
                                     <td>
-                                        C36000 Brass, C11000 Copper <br>
+                                        <a href="{{ route('materials.copper-Alloys') }}">C36000 Brass, C11000 Copper</a>
+                                        <br>
                                         <small>(For decorative, electrical & architectural purposes)</small>
                                     </td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Aluminum</td>
                                     <td>
-                                        6061, 6082 <br>
-                                        <small>(For lightweight fastening & corrosion-prone environments)</small>
+                                        <a href="{{ route('materials.aluminium-Alloys') }}">6061, 6082</a> <br>
+                                        <small>(For lightweight fastening & corrosion prone environments)</small>
                                     </td>
                                 </tr>
                             </tbody>
@@ -609,12 +616,13 @@
             <div class="container">
             </div>
 
-             <div class="row">
+            <div class="row">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}" alt="NICKLE ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}"
+                                    alt="NICKLE ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -626,7 +634,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}" alt="STAINLESS STEEL">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}"
+                                    alt="STAINLESS STEEL">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -638,7 +647,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}" alt="DUPLEX & SUPER">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}"
+                                    alt="DUPLEX & SUPER">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -651,7 +661,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="##">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}" alt="TITANIUM ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}"
+                                    alt="TITANIUM ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -663,7 +674,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}" alt="RARE TO ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}"
+                                    alt="RARE TO ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -675,7 +687,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}" alt="CARBON ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}"
+                                    alt="CARBON ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -690,7 +703,7 @@
 
 
     {{-- Applications --}}
-    
+
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
@@ -727,7 +740,9 @@
                         <h5>Marine & Offshore</h5>
                         <ul>
                             <li>Stainless & duplex threaded rods for docks, jetties, shipbuilding, and offshore rigs</li>
-                            <li>Corrosion-resistant fasteners for saltwater exposure</li>
+                            <li>Corrosion resistant <a
+                                    href="{{ url('products/pipe-fittings-flanges-fasteners/fasteners') }}">fasteners</a>
+                                for saltwater exposure</li>
                             <li>Stainless steel and brass rods offer excellent corrosion resistance</li>
                         </ul>
                     </div>
@@ -742,7 +757,8 @@
                         <h5>Oil, Gas & Petrochemical</h5>
                         <ul>
                             <li>Threaded rods for valves, flanges, pressure vessels, and refinery pipelines</li>
-                            <li>High-strength alloy rods for offshore platforms and chemical plants</li>
+                            <li><a href="{{ route('materials.high-strength-stainless-steel') }}">High strength alloy</a>
+                                rods for offshore platforms and chemical plants</li>
                         </ul>
                     </div>
                 </div>
@@ -1076,7 +1092,7 @@
                     Looking for Custom Steel Furniture that combines design, durability, and value?<br>Contact <strong><a
                             href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a></strong>
                 </p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch

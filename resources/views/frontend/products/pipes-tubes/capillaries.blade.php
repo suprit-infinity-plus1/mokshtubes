@@ -1,6 +1,7 @@
 @extends('layouts.master')
 @section('title', 'Capillary Tubes | Stainless Steel & Nickel Alloy Tubes – Moksh Tubes') <!-- 52 characters -->
-@section('meta_description', 'Moksh Tubes provides premium capillary tubes with precision, durability, and reliability
+@section('meta_description',
+    'Moksh Tubes provides premium capillary tubes with precision, durability, and reliability
     for industrial, medical, and high-performance applications.')
 @section('content')
     <!--Start breadcrumb area-->
@@ -36,19 +37,22 @@
                         <a href="{{ route('products') }}">products</a> with extremely small diameters designed for
                         applications requiring high accuracy,
                         controlled flow, and superior surface finish. These tubes are widely used in medical,
-                        instrumentation, refrigeration, and chemical industries where micro-level precision and reliability
+                        instrumentation, refrigeration, and chemical industries where micro level precision and reliability
                         are essential.
                     </p>
                     <p class="fs-6 mb-3 text-justify">
                         Made from high-quality <a href="{{ route('materials.super-Austenitic-Stainless-Steel') }}">stainless
                             steel</a>,<a href="{{ route('materials.nickel-Based-Superalloys') }}"> nickel alloys</a>, <a
                             href="{{ route('materials.titanium') }}">titanium</a>, and other specialty materials,
-                        capillary tubes offer excellent corrosion resistance, mechanical strength, and durability. Their
+                        capillary tubes offer excellent corrosion resistance, mechanical <a
+                            href="{{ route('materials.high-strength-stainless-steel') }}">strength</a>, and durability.
+                        Their
                         tight dimensional tolerances and smooth internal surfaces make them indispensable for sensitive
                         applications like chromatography, thermocouples, and hydraulic systems.
                     </p>
                     <p class="fs-6 mb-3 text-justify">
-                        <strong class="text-black"> Moksh Tubes & Fittings LLP</strong>, we produce capillaries to ASTM,
+                        <strong class="text-black"> <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a></strong>,
+                        we produce capillaries to ASTM,
                         ASME, and
                         international standards,
                         ensuring consistency, quality, and performance. Our advanced manufacturing techniques, including
@@ -79,7 +83,9 @@
                             <tbody class="text-start">
                                 <tr class="t-row">
                                     <td>Material</td>
-                                    <td>Stainless Steel, Duplex & Super Duplex, Nickel Alloys, Inconel, Monel, Titanium,
+                                    <td>Stainless Steel, <a href="{{ route('materials.duplex-and-super-duplex') }}">Duplex &
+                                            Super Duplex</a>, Nickel Alloys, Inconel, <a
+                                            href="{{ route('materials.monel') }}">Monel</a>, Titanium,
                                         Copper Alloys</td>
                                 </tr>
                                 <tr class="t-row">
@@ -100,11 +106,11 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Finishes</td>
-                                    <td>Bright Annealed, Electro-Polished, Matte, Mechanical Polished</td>
+                                    <td>Bright Annealed, Electro Polished, Matte, Mechanical Polished</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>From</td>
-                                    <td>Coiled, Straight Lengths, Cut-to-Length Precision Pieces</td>
+                                    <td>Coiled, Straight Lengths, Cut to Length Precision Pieces</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Standards</td>
@@ -1117,12 +1123,14 @@
                             <tbody>
                                 <tr class="t-row">
                                     <td>Stainless Steel Grades</td>
-                                    <td>304, 304L, 316, 316L, 321, 310 – for medical, food-grade, and precision
+                                    <td><a href="{{ route('materials.austenitic-stainless-Steel') }}">304, 304L, 316, 316L,
+                                            321, 310</a> – for medical, food grade, and precision
                                         applications.</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Nickel Alloys</td>
-                                    <td>Inconel 600, 625, 718 – for high-temperature & corrosive environments.</td>
+                                    <td><a href="{{ route('materials.inconel') }}">Inconel 600, 625, 718</a> – for high
+                                        temperature & corrosive environments.</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Monel Grades</td>

@@ -1,8 +1,12 @@
 @extends('layouts.master')
 @section('title', 'Industrial Fasteners – High-Quality Bolts & Nuts') <!-- 52 characters -->
 @section('meta_description',
-    'Premium industrial fasteners from Mokshtubes — bolts, nuts, screws & washers in stainless steel, alloy, titanium & nickel for marine & industrial use.') <!-- 153 characters -->
-@section('meta_keywords', 'Industrial Fasteners, Bolts, Nuts, Screws, Washers, Studs, Anchors, Stainless Steel Fasteners, Alloy Fasteners, Titanium Fasteners, Nickel Fasteners, High-Strength Fasteners, Corrosion-Resistant Fasteners, ISO Certified Fasteners')
+    'Premium industrial fasteners from Mokshtubes — bolts, nuts, screws & washers in stainless
+    steel, alloy, titanium & nickel for marine & industrial use.') <!-- 153 characters -->
+@section('meta_keywords',
+    'Industrial Fasteners, Bolts, Nuts, Screws, Washers, Studs, Anchors, Stainless Steel
+    Fasteners, Alloy Fasteners, Titanium Fasteners, Nickel Fasteners, High-Strength Fasteners, Corrosion-Resistant
+    Fasteners, ISO Certified Fasteners')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
@@ -26,8 +30,8 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/peoduct/flangs/FASTENERS.jpeg') }}"
-                        alt="Custom-Fabricated-Fittings" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/peoduct/flangs/FASTENERS.jpeg') }}" alt="Custom-Fabricated-Fittings"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Right Content -->
@@ -40,7 +44,8 @@
                     <p class="fs-6 mb-3 text-justify">
                         <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a>, we supply a comprehensive range of
                         fasteners – from bolts, nuts, washers, and screws to specialized studs and anchors in stainless
-                        steel, carbon steel, alloy steel, titanium, nickel alloys, and copper alloys.
+                        steel, carbon steel, alloy steel, <a href="{{ route('materials.titanium') }}">titanium</a>, nickel
+                        alloys, and copper alloys.
                     </p>
                 </div>
             </div>
@@ -66,7 +71,9 @@
                             <tbody class="text-start">
                                 <tr class="t-row">
                                     <td>Material</td>
-                                    <td>Stainless Steel, Carbon Steel, Alloy Steel, Duplex &amp; Super Duplex, Nickel
+                                    <td>Stainless Steel, Carbon Steel, Alloy Steel, <a
+                                            href="{{ route('materials.duplex-and-super-duplex') }}">Duplex &amp; Super
+                                            Duplex</a>, Nickel
                                         Alloys, Titanium, Copper Alloys</td>
                                 </tr>
                                 <tr class="t-row">
@@ -79,7 +86,7 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Threads</td>
-                                    <td>Metric, UNC, UNF, BSW, BSF, ACME, Left-Hand Threads</td>
+                                    <td>Metric, UNC, UNF, BSW, BSF, ACME, Left Hand Threads</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Types</td>
@@ -88,7 +95,7 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Finishes</td>
-                                    <td>Plain, Zinc-Plated, Galvanized, Hot-Dip Galvanized, PTFE, Xylon, Nickel-Plated</td>
+                                    <td>Plain, Zinc Plated, Galvanized, Hot-Dip Galvanized, PTFE, Xylon, Nickel Plated</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Standards</td>
@@ -486,12 +493,15 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Nickel Alloys</td>
-                                    <td>Inconel 600/625/718, Monel 400/K500, Hastelloy C22/C276 – for extreme heat and
+                                    <td><a href="{{ route('materials.inconel') }}">Inconel 600/625/718</a>, Monel 400/K500,
+                                        <a href="{{ route('materials.hastelloy') }}">Hastelloy C22/C276</a> – for extreme
+                                        heat and
                                         corrosive conditions.</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Titanium</td>
-                                    <td>Grades 2, 5 (Ti-6Al-4V) – lightweight and strong for aerospace and medical use.</td>
+                                    <td><a href="{{ route('materials.titanium') }}">Grades 2, 5</a> (Ti-6Al-4V) –
+                                        lightweight and strong for aerospace and medical use.</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Copper Alloys</td>
@@ -517,7 +527,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
+                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}"
                                     alt="NICKLE ALLOYS">
                             </a>
@@ -530,7 +540,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}"
                                     alt="STAINLESS STEEL">
                             </a>
@@ -543,7 +553,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}"
                                     alt="DUPLEX & SUPER">
                             </a>
@@ -557,7 +567,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="##">
+                            <a class="w-100" href="{{ route('materials.titanium') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}"
                                     alt="TITANIUM ALLOYS">
                             </a>
@@ -632,7 +642,7 @@
                         <h5>Marine & Offshore</h5>
                         <ul>
                             <li>Stainless & Duplex fasteners for shipbuilding, docks, offshore oil rigs</li>
-                            <li>Saltwater-resistant fasteners for marine decks and equipment</li>
+                            <li>Saltwater resistant fasteners for marine decks and equipment</li>
                         </ul>
                     </div>
                 </div>
@@ -644,7 +654,8 @@
                         </div>
                         <h5>Oil, Gas & Petrochemical</h5>
                         <ul>
-                            <li>High-strength bolts for pipeline flanges, valves, and pressure vessels</li>
+                            <li><a href="{{ route('materials.high-strength-stainless-steel') }}">High strength</a> bolts
+                                for pipeline flanges, valves, and pressure vessels</li>
                             <li>Alloy fasteners for refineries and chemical plants with harsh media</li>
                         </ul>
                     </div>
@@ -658,7 +669,8 @@
                         <h5>Automotive, Aerospace & Transport</h5>
                         <ul>
                             <li>Screws, studs, and bolts for engines, chassis, and braking systems</li>
-                            <li>Titanium and nickel fasteners for aircraft, satellites, and racing vehicles</li>
+                            <li><a href="{{ route('materials.titanium') }}">Titanium</a> and nickel fasteners for
+                                aircraft, satellites, and racing vehicles</li>
                         </ul>
                     </div>
                 </div>
@@ -780,7 +792,9 @@
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-grid-1x2-fill"></i></div>
                         <h4>Wide Range</h4>
-                        <h5>Standard, metric, and custom fasteners available</h5>
+                        <h5>Standard, metric, and <a
+                                href="{{ url('products/pipe-fittings-flanges-fasteners/custom-fabricated-fittings') }}">custom
+                                fasteners</a> available</h5>
                     </div>
                 </div>
 
@@ -825,14 +839,15 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-diagram-3-fill"></i></div>
-                        <h5>Complete Range: From tiny machine screws to heavy-duty anchor bolts</h5>
+                        <h5>Complete Range: From tiny machine screws to heavy duty anchor bolts</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-layers"></i></div>
-                        <h5>Material Expertise: Stainless, Duplex, Nickel Alloys, Titanium, Copper Alloys</h5>
+                        <h5><a href="{{ route('materials') }}">Material</a> Expertise: Stainless, Duplex, Nickel Alloys,
+                            Titanium, Copper Alloys</h5>
                     </div>
                 </div>
 
@@ -874,7 +889,8 @@
                         <!--Start single accordion box-->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What types of fasteners are available from Moksh Tubes & Fittings LLP?</h4>
+                                <h4>What types of fasteners are available from <a href="{{ route('index') }}">Moksh Tubes
+                                        & Fittings LLP</a>?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>

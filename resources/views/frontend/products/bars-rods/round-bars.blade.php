@@ -1,8 +1,9 @@
 @extends('layouts.master')
 @section('title', 'Round Bars – SS, MS, Alloy, Copper & Brass') <!-- 52 characters -->
-@section('meta_description',
-    'Mokshtubes supplies high-quality stainless steel, MS, alloy, copper, brass, nickel & aluminium round bars in various sizes, grades & weight chart.') <!-- 153 characters -->
-@section('meta_keywords', 'Round Bars, Stainless Steel Round Bars, MS Round Bars, Alloy Round Bars, Copper Round Bars, Brass Round Bars, Nickel Round Bars, Aluminium Round Bars')
+@section('meta_description', 'Mokshtubes supplies high quality stainless steel, MS, alloy, copper, brass, nickel &
+    aluminium round bars in various sizes, grades & weight chart.') <!-- 153 characters -->
+@section('meta_keywords', 'Round Bars, Stainless Steel Round Bars, MS Round Bars, Alloy Round Bars, Copper Round Bars,
+    Brass Round Bars, Nickel Round Bars, Aluminium Round Bars')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
@@ -16,7 +17,7 @@
     </section>
 
 
-        <!--End breadcrumb area-->
+    <!--End breadcrumb area-->
 
 
     <section class="sec-padd-top sec-padd-bottom bg-light">
@@ -37,7 +38,8 @@
                     <p class="fs-6 mb-3 text-justify">
                         <strong class="text-black">Round Bars</strong> are solid cylindrical metal bars widely used across
                         construction,
-                        automotive, aerospace, marine, and engineering sectors. Available in different materials, sizes, and
+                        automotive, aerospace, marine, and engineering sectors. Available in different <a
+                            href="{{ route('materials') }}">materials</a>, sizes, and
                         finishes, steel round bars are one of the most versatile raw <a
                             href="{{ route('materials') }}">materials</a> for machining, fabrication,
                         and structural applications.
@@ -48,9 +50,10 @@
                         carbon steel round bars (MS round bars), alloy steel round bars, duplex & super duplex round bars,
                         <a href="{{ route('materials.nickel-Based-Superalloys') }}">nickel alloy</a> round bars, <a
                             href="{{ route('materials.titanium') }}">titanium</a> round bars, aluminium round bars, brass
-                        round bars, and copper
+                        round bars, and <a href="{{ route('materials.copper-Alloys') }}">copper</a>
                         round bars. All our plain round bars and bright steel round bars are manufactured as per ASTM, ASME,
-                        DIN, EN, and JIS standards, ensuring tight tolerances, excellent surface finish, and durability for
+                        DIN, <a href="{{ route('materials.engineering-Steel-grade') }}">EN</a>, and JIS standards, ensuring
+                        tight tolerances, excellent surface finish, and durability for
                         demanding industries.
                     </p>
 
@@ -1341,23 +1344,39 @@
                                 <tr class="t-row">
                                     <td>Stainless Steel Round Bars</td>
                                     <td>
-                                        304 stainless steel round bar, 310 stainless steel round bar, 455 stainless steel
+                                        <a
+                                            href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-304') }}">304
+                                            stainless steel</a> round bar, <a
+                                            href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-310') }}">310
+                                            stainless steel</a> round bar, 455 stainless steel
                                         round bar <br>
-                                        <small>(Corrosion-resistant & hygienic applications)</small>
+                                        <small>(Corrosion resistant & hygienic applications)</small>
                                     </td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Carbon Steel Round Bars (MS Round Bars)</td>
                                     <td>
-                                        ASTM A36, EN8 SS round bar, N8 SS round bar, EN9, IS2062 <br>
-                                        <small>(Widely used in structural, engineering & general fabrication)</small>
+                                        ASTM A36, <a
+                                            href="{{ url('materials/engineering-steels/engineering-steels-en8') }}">EN8</a>
+                                        SS round bar, N8 SS round bar, <a
+                                            href="{{ url('materials/engineering-steels/engineering-steels-en9') }}">EN9</a>,
+                                        IS2062 <br>
+                                        <small>(Widely used in structural, <a
+                                                href="{{ route('materials.engineering-Steel-grade') }}">engineering</a> &
+                                            general fabrication)</small>
                                     </td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Alloy Steel Round Bars</td>
                                     <td>
-                                        EN19, EN24, EN31, 4140, 4130 <br>
-                                        <small>(Ideal for heavy-duty & high strength components)</small>
+                                        EN19, EN24, <a
+                                            href="{{ url('materials/engineering-steels/engineering-steels-en31') }}">EN31</a>,
+                                        4140, <a
+                                            href="{{ url('materials/engineering-steels/engineering-steels-4130') }}">4130</a>
+                                        <br>
+                                        <small>(Ideal for heavy duty & <a
+                                                href="{{ route('materials.high-strength-stainless-steel') }}">high
+                                                strength</a> components)</small>
                                     </td>
                                 </tr>
                                 <tr class="t-row">
@@ -1371,7 +1390,9 @@
                                     <td>Nickel Alloy Round Bars</td>
                                     <td>
                                         Inconel 600 round bar, Inconel 718 round bar, Alloy 600 round bar, Alloy 601 round
-                                        bar, Monel 400 round bar, Waspaloy round bar, 718 Inconel round bar suppliers <br>
+                                        bar, Monel 400 round bar, Waspaloy round bar, <a
+                                            href="{{ url('materials/inconel/inconel-718') }}">718 Inconel</a> round bar
+                                        suppliers <br>
                                         <small>(Designed for extreme heat & corrosive conditions)</small>
                                     </td>
                                 </tr>
@@ -1417,12 +1438,13 @@
             <div class="container">
             </div>
 
-             <div class="row">
+            <div class="row">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}" alt="NICKLE ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}"
+                                    alt="NICKLE ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1434,7 +1456,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}" alt="STAINLESS STEEL">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}"
+                                    alt="STAINLESS STEEL">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1446,7 +1469,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}" alt="DUPLEX & SUPER">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}"
+                                    alt="DUPLEX & SUPER">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1459,7 +1483,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="##">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}" alt="TITANIUM ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}"
+                                    alt="TITANIUM ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1471,7 +1496,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}" alt="RARE TO ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}"
+                                    alt="RARE TO ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1483,7 +1509,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}" alt="CARBON ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}"
+                                    alt="CARBON ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1883,7 +1910,7 @@
                     Looking for high quality round bars for your next project?<br>Contact <strong><a
                             href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a></strong>
                 </p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch

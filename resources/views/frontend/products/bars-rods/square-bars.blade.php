@@ -1,8 +1,11 @@
 @extends('layouts.master')
 @section('title', 'Square Bars – Stainless, MS, Aluminium & Brass') <!-- 52 characters -->
 @section('meta_description',
-    'Moksh Tubes supplies premium Square Bars in SS, MS, Aluminium & Brass with size charts, grades & custom cut-to-length options.') <!-- 152 characters -->
-@section('meta_keywords', 'Square Bars, Stainless Square Bars, MS Square Bars, Aluminium Square Bars, Brass Square Bars, Steel Square Rods, Square Bar Sizes, Square Bar Weight Chart')
+    'Moksh Tubes supplies premium Square Bars in SS, MS, Aluminium & Brass with size charts,
+    grades & custom cut-to-length options.') <!-- 152 characters -->
+@section('meta_keywords',
+    'Square Bars, Stainless Square Bars, MS Square Bars, Aluminium Square Bars, Brass Square Bars,
+    Steel Square Rods, Square Bar Sizes, Square Bar Weight Chart')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
@@ -26,8 +29,8 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/peoduct/Bars & Rods/square-bars.webp') }}"
-                        alt="Square Bars" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/peoduct/Bars & Rods/square-bars.webp') }}" alt="Square Bars"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Right Content -->
@@ -79,7 +82,8 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Grades</td>
-                                    <td>ASTM, ASME, DIN, EN, and JIS certified grades – available in all major alloys</td>
+                                    <td>ASTM, ASME, DIN, EN,
+                                        and JIS certified grades – available in all major alloys</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Size Range</td>
@@ -398,7 +402,11 @@
                             <tbody>
                                 <tr class="t-row">
                                     <td>Stainless Steel</td>
-                                    <td>304, 304L, 316, 316L, 310, 321, 347 <br>
+                                    <td>304, 304L, 316, <a
+                                            href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-316ti') }}">316L</a>,
+                                        310, <a
+                                            href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-321') }}">321</a>,
+                                        347 <br>
                                         <small>(Corrosion resistance & hygienic use)</small>
                                     </td>
                                 </tr>
@@ -411,12 +419,16 @@
                                 <tr class="t-row">
                                     <td>Alloy Steel</td>
                                     <td>EN19, EN24, EN31, 4140, 4130 <br>
-                                        <small>(High-strength heavy-duty parts)</small>
+                                        <small>(High strength heavy duty parts)</small>
                                     </td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Duplex & Super Duplex</td>
-                                    <td>2205, S32750, S32760 <br>
+                                    <td><a
+                                            href="{{ url('materials/duplex-and-super-duplex/super-duplex-2205') }}">2205</a>,
+                                        S32750, <a
+                                            href="{{ url('materials/duplex-and-super-duplex/super-duplex-s32760') }}">S32760</a>
+                                        <br>
                                         <small>(Offshore, chemical & marine projects)</small>
                                     </td>
                                 </tr>
@@ -440,7 +452,12 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Aluminum</td>
-                                    <td>6061, 6082, 7075 <br>
+                                    <td><a
+                                            href="{{ url('materials/aluminium-alloys/aluminium-alloys-6061-t6') }}">6061</a>,
+                                        <a
+                                            href="{{ url('materials/aluminium-alloys/aluminium-alloys-6082-t6') }}">6082</a>,
+                                        <a href="{{ url('materials/aluminium-alloys/aluminium-alloys7075') }}">7075</a>
+                                        <br>
                                         <small>(Lightweight structural use – Aluminium Square Bar)</small>
                                     </td>
                                 </tr>
@@ -459,12 +476,13 @@
             <div class="container">
             </div>
 
-             <div class="row">
+            <div class="row">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}" alt="NICKLE ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}"
+                                    alt="NICKLE ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -476,7 +494,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}" alt="STAINLESS STEEL">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}"
+                                    alt="STAINLESS STEEL">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -488,7 +507,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}" alt="DUPLEX & SUPER">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}"
+                                    alt="DUPLEX & SUPER">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -501,7 +521,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="##">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}" alt="TITANIUM ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}"
+                                    alt="TITANIUM ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -513,7 +534,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}" alt="RARE TO ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}"
+                                    alt="RARE TO ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -525,7 +547,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}" alt="CARBON ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}"
+                                    alt="CARBON ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -578,7 +601,7 @@
                         <ul>
                             <li><b>Duplex and copper nickel square bars</b> for ship fittings, marine furniture, and
                                 offshore platforms.</li>
-                            <li><b>Corrosion-resistant stainless steel square bar</b> for seawater applications.</li>
+                            <li><b>Corrosion resistant stainless steel square bar</b> for seawater applications.</li>
                         </ul>
                     </div>
                 </div>
@@ -605,7 +628,8 @@
                         <ul>
                             <li><b>Alloy & titanium square bars</b> for chassis components, structural frames & tooling
                                 parts.</li>
-                            <li><b>Aluminium square bar</b> for lightweight automotive and aerospace structures.</li>
+                            <li><b><a href="{{ route('materials.aluminium-Alloys') }}">Aluminium</a> square bar</b> for
+                                light weight automotive and aerospace structures.</li>
                         </ul>
                     </div>
                 </div>
@@ -672,7 +696,9 @@
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-gear-wide-connected"></i></div>
                         <h4>Machined Parts</h4>
-                        <h5>Easily converted into <b>fittings, tools, and machine components</b>.</h5>
+                        <h5>Easily converted into <b><a
+                                    href="{{ url('products/pipe-fittings-flanges-fasteners/fittings-and-flanges') }}">fittings</a>,
+                                tools, and machine components</b>.</h5>
                     </div>
                 </div>
 
@@ -680,7 +706,8 @@
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-lightning-charge-fill"></i></div>
                         <h4>Marine & Electrical Use</h4>
-                        <h5><b>Copper & brass square bar</b> for hardware and conductive applications.</h5>
+                        <h5><b><a href="{{ route('materials.copper-Alloys') }}">Copper</a> & brass square bar</b> for
+                            hardware and conductive applications.</h5>
                     </div>
                 </div>
             </div>
@@ -726,7 +753,7 @@
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-sliders"></i></div>
                         <h4>Customization</h4>
-                        <h5><b>Cut-to-length</b> & special sizes as per project needs.</h5>
+                        <h5><b>Cut to length</b> & special sizes as per project needs.</h5>
                     </div>
                 </div>
 
@@ -771,7 +798,9 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-brush-fill"></i></div>
-                        <h5><b>Custom Design Solutions:</b> From concept to completion, we deliver furniture tailored to
+                        <h5><b><a
+                                    href="{{ url('products/pipe-fittings-flanges-fasteners/custom-fabricated-fittings') }}">Custom</a>
+                                Design Solutions:</b> From concept to completion, we deliver furniture tailored to
                             your vision.</h5>
                     </div>
                 </div>
@@ -779,7 +808,8 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-gem"></i></div>
-                        <h5><b>Premium Material Selection:</b> Only certified steel grades are used for superior quality.
+                        <h5><b>Premium <a href="{{ route('materials') }}">Material</a> Selection:</b> Only certified steel
+                            grades are used for superior quality.
                         </h5>
                     </div>
                 </div>
@@ -823,9 +853,12 @@
                                 <p>
                                     An M.S. (Mild Steel) Square Bar is a solid steel bar with a square shaped cross section.
                                     It is made from mild steel,
-                                    which is known for its strength, flexibility, and cost effectiveness. These bars are
+                                    which is known for its <a
+                                        href="{{ route('materials.high-strength-stainless-steel') }}">strength</a>,
+                                    flexibility, and cost effectiveness. These bars are
                                     widely used in construction,
-                                    fabrication, railings, industrial frameworks, and general engineering applications.
+                                    fabrication, railings, industrial frameworks, and general <a
+                                        href="{{ route('materials.engineering-Steels') }}">engineering</a> applications.
                                 </p>
                             </div>
                         </div>
@@ -839,7 +872,7 @@
                             <div class="accord-content">
                                 <p>
                                     A steel square bar is designed with equal dimensions on all four sides, giving it a
-                                    uniform “edge to edge” square shape.
+                                    uniform <strong>“edge to edge”</strong> square shape.
                                     This consistent design makes it easy to cut, weld, drill, and use in structural or
                                     decorative applications.
                                 </p>
@@ -856,7 +889,7 @@
                                 <ul>
                                     <li>Strong and durable</li>
                                     <li>Easy to cut, bend, and weld</li>
-                                    <li>Cost-effective compared to other metals</li>
+                                    <li>Cost effective compared to other metals</li>
                                     <li>Widely available in different sizes and lengths</li>
                                     <li>Versatile for construction, manufacturing, and DIY projects</li>
                                 </ul>
@@ -909,10 +942,10 @@
                 <h2>Contact Us</h2>
                 <p>
                     Looking for Stainless Steel, MS, Aluminium, or Brass Square Bars? <br><a
-                            href="{{ route('index') }}"><b>Moksh Tubes</b></a> delivers premium
+                        href="{{ route('index') }}"><b>Moksh Tubes</b></a> delivers premium
                     square bars with precision manufacturing, global supply, and fast delivery.
                 </p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch
