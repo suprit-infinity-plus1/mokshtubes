@@ -721,3 +721,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are Incoloy 800H and 800HT alloys?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Incoloy 800H (UNS N08810) and Incoloy 800HT (UNS N08811) are high-performance nickel iron chromium alloys specifically developed to enhance creep strength and stress rupture resistance in high-temperature environments. They are modified versions of Incoloy 800, engineered with controlled carbon, aluminum, and titanium levels to deliver excellent metallurgical stability and long-term strength above 600°C, making them ideal for extreme industrial applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the key properties of Incoloy 800H and 800HT?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Both Incoloy 800H and 800HT offer excellent resistance to oxidation, carburization, and sulfidation under prolonged exposure to elevated temperatures. These alloys provide superior creep resistance, reliable structural integrity, and stable mechanical properties in aggressive chemical and thermal environments. Their good weldability and formability further increase their suitability for demanding high-temperature applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where are Incoloy 800H and 800HT commonly used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Incoloy 800H and 800HT are widely used across industries requiring long-term strength and corrosion resistance at elevated temperatures. Typical applications include heat treatment equipment, petrochemical furnaces, reformer tubes, superheaters, boiler components, nuclear reactor supports, chemical processing plants, industrial kilns, gas turbines, and aerospace combustion systems. Their durability makes them a preferred choice for critical service conditions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What product forms are available in Incoloy 800H and 800HT?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP supplies Incoloy 800H and 800HT in a wide variety of product forms, including seamless and welded pipes, tubes, sheets, plates, coils, bars, pipe fittings, flanges, fasteners, and custom-fabricated components. All products are manufactured to international standards such as ASTM and ASME, ensuring quality, consistency, and performance in high-pressure, high temperature systems."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose MOKSH TUBES & FITTINGS LLP for Incoloy 800H and 800HT materials?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP is a trusted manufacturer, supplier, and exporter of Incoloy 800H and 800HT products, offering ISO and ASTM-compliant materials across global markets. With extensive inventory, fast delivery, and customized solutions, the company ensures top quality products tailored to critical engineering applications. Its expertise in high performance nickel alloys, combined with strong customer support, makes it the preferred choice for industries worldwide."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection
