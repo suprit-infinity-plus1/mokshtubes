@@ -1,9 +1,11 @@
 @extends('layouts.master')
 @section('title', 'Hexagon Bars – Stainless, Brass, Aluminium & Alloy') <!-- 53 characters -->
 @section('meta_description',
-    'Mokshtubes offers premium stainless, brass, aluminium & alloy hexagon bars in various sizes, grades & weight chart.') <!-- 152 characters -->
+    'Mokshtubes offers premium stainless, brass, aluminium & alloy hexagon bars in various
+    sizes, grades & weight chart.') <!-- 152 characters -->
 @section('meta_keywords',
-    'hexagon bar, hexagonal bars, stainless steel hex bar, mild steel hex bar, alloy steel hex bar, brass hex bar, aluminium hex bar, hex bar sizes, hex bar weight chart')
+    'hexagon bar, hexagonal bars, stainless steel hex bar, mild steel hex bar, alloy steel hex
+    bar, brass hex bar, aluminium hex bar, hex bar sizes, hex bar weight chart')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
@@ -69,8 +71,13 @@
                             <tbody class="text-start">
                                 <tr class="t-row">
                                     <td>Material</td>
-                                    <td>Stainless Steel, Carbon Steel, Alloy Steel, Duplex &amp; Super Duplex, Nickel
-                                        Alloys, Titanium, Aluminum, Brass, Copper</td>
+                                    <td><a href="{{ route('materials.high-strength-stainless-steel') }}">Stainless
+                                            Steel</a>, Carbon Steel, Alloy Steel, <a
+                                            href="{{ route('materials.duplex-and-super-duplex') }}">Duplex &amp; Super
+                                            Duplex</a>, <a href="{{ route('materials.nickel-Based-Superalloys') }}">Nickel
+                                            Alloys</a>, <a href="{{ route('materials.titanium') }}">Titanium</a>, <a
+                                            href="{{ route('materials.aluminium-Alloys') }}">Aluminum</a>, Brass, <a
+                                            href="{{ route('materials.copper-Alloys') }}">Copper</a></td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Grades</td>
@@ -82,7 +89,7 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Lengths</td>
-                                    <td>3 meters to 6 meters (or cut-to-length)</td>
+                                    <td>3 meters to 6 meters (or cut to length)</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Types</td>
@@ -471,11 +478,15 @@
                                 <tr class="t-row">
                                     <td>Stainless Steel</td>
                                     <td>
-                                        303 stainless steel hex bar, 304 stainless steel hex bar, 316 stainless steel hex
+                                        303 stainless steel hex bar, 304 stainless steel hex bar, <a
+                                            href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-316') }}">316
+                                            stainless steel</a> hex
                                         bar,
                                         316 stainless steel hexagon bar, 316 hex bar, 17-4 stainless hex bar, 17-4PH hex
                                         bar,
-                                        ss 303 hex bar, ss 304 hex bar, ss 304 hex bar price, ss hex bar, ss hexagonal rod
+                                        ss 303 hex bar, <a
+                                            href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-304') }}">ss
+                                            304</a> hex bar, ss 304 hex bar price, ss hex bar, ss hexagonal rod
                                         <br>
                                         <small>(Corrosion resistance & machining)</small>
                                     </td>
@@ -493,7 +504,7 @@
                                     <td>
                                         4140, 4130, EN19, EN24
                                         <br>
-                                        <small>(Heavy-duty engineering)</small>
+                                        <small>(Heavy duty engineering)</small>
                                     </td>
                                 </tr>
                                 <tr class="t-row">
@@ -507,15 +518,18 @@
                                 <tr class="t-row">
                                     <td>Nickel Alloys</td>
                                     <td>
-                                        Inconel, Monel, Hastelloy
+                                        <a href="{{ route('materials.inconel') }}">Inconel</a>, <a
+                                            href="{{ route('materials.monel') }}">Monel</a>, <a
+                                            href="{{ route('materials.hastelloy') }}">Hastelloy</a>
                                         <br>
-                                        <small>(High-temperature & corrosive service)</small>
+                                        <small>(High temperature & corrosive service)</small>
                                     </td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Titanium</td>
                                     <td>
-                                        Grade 2, Grade 5
+                                        <a href="{{ url('materials/titanium/titanium-grade-2') }}">Grade 2</a>, <a
+                                            href="{{ url('materials/titanium/titanium-grade-5') }}">Grade 5</a>
                                         <br>
                                         <small>(Aerospace & desalination projects)</small>
                                     </td>
@@ -524,7 +538,7 @@
                                     <td>Copper & Brass</td>
                                     <td>
                                         brass hex rod, brass hex rod sizes, brass hexagon, brass hex bar price, brass hex
-                                        bar weight calculator,
+                                        bar weight <a href="{{ route('calculator') }}">calculator</a>,
                                         hex bar brass, hexagonal brass rod, hexagonal brass bar suppliers, brass hex bar
                                         stock
                                         <br>
@@ -556,12 +570,13 @@
             <div class="container">
             </div>
 
-             <div class="row">
+            <div class="row">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}" alt="NICKLE ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}"
+                                    alt="NICKLE ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -573,7 +588,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}" alt="STAINLESS STEEL">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}"
+                                    alt="STAINLESS STEEL">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -585,7 +601,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}" alt="DUPLEX & SUPER">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}"
+                                    alt="DUPLEX & SUPER">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -598,7 +615,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="##">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}" alt="TITANIUM ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}"
+                                    alt="TITANIUM ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -610,7 +628,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}" alt="RARE TO ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}"
+                                    alt="RARE TO ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -622,7 +641,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}" alt="CARBON ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}"
+                                    alt="CARBON ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -671,8 +691,9 @@
                 <div class="col-sm-12 col-lg-6">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-tools"></i></div>
-                        <h4>Free-Cutting Brass Hex Bars</h4>
-                        <h5>Excellent machinability for fasteners</h5>
+                        <h4>Free Cutting Brass Hex Bars</h4>
+                        <h5>Excellent machinability for <a
+                                href="{{ url('products/pipe-fittings-flanges-fasteners/fasteners') }}">fasteners</a></h5>
                     </div>
                 </div>
 
@@ -706,7 +727,9 @@
                         </div>
                         <h5>Construction & Infrastructure</h5>
                         <ul>
-                            <li>Base plates, braces, fittings</li>
+                            <li>Base plates, braces, <a
+                                    href="{{ url('products/pipe-fittings-flanges-fasteners/fittings-and-flanges') }}">fittings</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -718,7 +741,9 @@
                         </div>
                         <h5>Marine & Shipbuilding</h5>
                         <ul>
-                            <li>Stainless & duplex hex bars for corrosion resistance, copper-nickel for seawater</li>
+                            <li>Stainless & <a href="{{ route('materials.duplex-and-super-duplex') }}">duplex</a> hex bars
+                                for corrosion resistance, <a href="{{ route('materials.copper-Alloys') }}">copper</a> <a
+                                    href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a> for seawater</li>
                         </ul>
                     </div>
                 </div>
@@ -742,7 +767,8 @@
                         </div>
                         <h5>Automotive & Aerospace</h5>
                         <ul>
-                            <li>Aluminium hex bar & titanium hex bars for engine & suspension</li>
+                            <li>Aluminium hex bar & <a href="{{ route('materials.titanium') }}">titanium</a> hex bars for
+                                engine & suspension</li>
                         </ul>
                     </div>
                 </div>
@@ -865,7 +891,7 @@
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-cash-coin"></i></div>
                         <h4>Material Efficiency</h4>
-                        <h5>Less waste, cost-effective production.</h5>
+                        <h5>Less waste, cost effective production.</h5>
                     </div>
                 </div>
 
@@ -873,7 +899,8 @@
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-layers"></i></div>
                         <h4>Wide Material Range</h4>
-                        <h5>Stainless, Duplex, Nickel, Titanium, Copper alloys.</h5>
+                        <h5>Stainless, <a href="{{ route('materials.duplex-and-super-duplex') }}">Duplex</a>, Nickel,
+                            Titanium, Copper alloys.</h5>
                     </div>
                 </div>
 
@@ -889,7 +916,7 @@
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-sliders"></i></div>
                         <h4>Custom Solutions</h4>
-                        <h5>Cut-to-length & special dimensions available.</h5>
+                        <h5>Cut to length & special dimensions available.</h5>
                     </div>
                 </div>
             </div>
@@ -917,7 +944,7 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-patch-check-fill"></i></div>
-                        <h5>ISO 9001:2015 certified, MTC & third-party inspection available</h5>
+                        <h5>ISO 9001:2015 certified, MTC & third party inspection available</h5>
                     </div>
                 </div>
 
@@ -938,7 +965,8 @@
                 <div class="col-sm-12 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-gear-wide-connected"></i></div>
-                        <h5>Custom machining & cut-to-length solutions available.</h5>
+                        <h5><a href="{{ url('products/special-fabricated/custom-steel-furniture') }}">Custom</a> machining
+                            & cut to length solutions available.</h5>
                     </div>
                 </div>
             </div>
@@ -964,7 +992,7 @@
                             <div class="accord-content">
                                 <p>
                                     Hexagon bars are commonly used in nuts, bolts, fasteners, and precision components due
-                                    to their six-sided shape, which makes them easy to machine and grip.
+                                    to their six sided shape, which makes them easy to machine and grip.
                                 </p>
                             </div>
                         </div>
@@ -1044,7 +1072,7 @@
                     Looking for high quality hexagonal steel bar suppliers or metric brass hex stock?<br>Contact <strong><a
                             href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a></strong>
                 </p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch

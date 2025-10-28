@@ -1,8 +1,11 @@
 @extends('layouts.master')
 @section('title', 'Industrial Flanges & Pipe Fittings – Moksh Tubes') <!-- 52 characters -->
 @section('meta_description',
-    'Moksh Tubes provides premium flanges – stainless steel, weld neck, slip-on & blind with ASME B16.5 dimensions for industrial piping systems.') <!-- 153 characters -->
-@section('meta_keywords', 'Industrial Flanges, Stainless Steel Flanges, Weld Neck Flanges, Slip-On Flanges, Blind Flanges, Pipe Fittings, ASME B16.5, Flange Joints, Orifice Flanges, Spectacle Blind Flanges')
+    'Moksh Tubes provides premium flanges – stainless steel, weld neck, slip-on & blind with
+    ASME B16.5 dimensions for industrial piping systems.') <!-- 153 characters -->
+@section('meta_keywords',
+    'Industrial Flanges, Stainless Steel Flanges, Weld Neck Flanges, Slip-On Flanges, Blind
+    Flanges, Pipe Fittings, ASME B16.5, Flange Joints, Orifice Flanges, Spectacle Blind Flanges')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
@@ -40,7 +43,8 @@
                     <p class="fs-6 mb-3 text-justify">
                         <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a>, we supply a complete range of
                         industrial flanges including stainless
-                        steel flanges, carbon steel flanges, alloy steel flanges, duplex & super duplex flanges, <a
+                        steel flanges,carbon steel
+                        flanges, alloy steel flanges, duplex & super duplex flanges, <a
                             href="{{ route('materials.nickel-Based-Superalloys') }}">nickel
                             alloy</a> flanges, titanium flanges, and copper alloy flanges.
                     </p>
@@ -72,8 +76,11 @@
                             <tbody class="text-start">
                                 <tr class="t-row">
                                     <td>Material</td>
-                                    <td>Stainless Steel, Carbon Steel, Alloy Steel, Duplex & Super Duplex, Nickel Alloys,
-                                        Titanium, Copper Alloys</td>
+                                    <td>Stainless Steel, Carbon Steel, Alloy Steel, <a
+                                            href="{{ route('materials.duplex-and-super-duplex') }}">Duplex & Super
+                                            Duplex</a>, Nickel Alloys,
+                                        <a href="{{ route('materials.titanium') }}">Titanium</a>, Copper Alloys
+                                    </td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Grades</td>
@@ -1326,7 +1333,9 @@
                             <tbody>
                                 <tr class="t-row">
                                     <td>Stainless Steel Flanges</td>
-                                    <td>304, 304L, 316, 316L, 310, 321, 347</td>
+                                    <td><a
+                                            href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-304') }}">304</a>,
+                                        304L, 316, 316L, 310, 321, 347</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Carbon Steel Flanges</td>
@@ -1366,12 +1375,13 @@
             <div class="container">
             </div>
 
-             <div class="row">
+            <div class="row">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}" alt="NICKLE ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}"
+                                    alt="NICKLE ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1383,7 +1393,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}" alt="STAINLESS STEEL">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}"
+                                    alt="STAINLESS STEEL">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1395,7 +1406,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}" alt="DUPLEX & SUPER">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}"
+                                    alt="DUPLEX & SUPER">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1408,7 +1420,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="##">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}" alt="TITANIUM ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}"
+                                    alt="TITANIUM ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1420,7 +1433,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}" alt="RARE TO ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}"
+                                    alt="RARE TO ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1432,7 +1446,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}" alt="CARBON ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}"
+                                    alt="CARBON ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1496,7 +1511,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-6">
+                <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon">
                             <i class="bi bi-flask"></i>
@@ -1509,7 +1524,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-6">
+                <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon">
                             <i class="bi bi-airplane-engines-fill"></i>
@@ -1522,7 +1537,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-12 col-lg-12">
+                <div class="col-md-12 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon">
                             <i class="bi bi-building"></i>
@@ -1620,7 +1635,9 @@
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-layers"></i></div>
                         <h4>Material Versatility</h4>
-                        <h5>Stainless, carbon, nickel, titanium, and copper alloys (stainless flange, MS flange)</h5>
+                        <h5>Stainless, carbon, <a href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a>,
+                            titanium, and <a href="{{ route('materials.copper-Alloys') }}">copper alloys</a> (stainless
+                            flange, MS flange)</h5>
                     </div>
                 </div>
 
@@ -1636,7 +1653,7 @@
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-sliders"></i></div>
                         <h4>Custom Options</h4>
-                        <h5>Non-standard sizes, high-pressure ratings, and coatings available</h5>
+                        <h5>Non-standard sizes, high pressure ratings, and coatings available</h5>
                     </div>
                 </div>
 
@@ -1679,7 +1696,8 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-tools"></i></div>
-                        <h5>Custom Flanges: Long Weld Neck, Lap Joint, Orifice, Spectacle Blind</h5>
+                        <h5><a href="{{ url('products/pipe-fittings-flanges-fasteners/custom-fabricated-fittings') }}">Custom
+                                Flanges</a>: Long Weld Neck, Lap Joint, Orifice, Spectacle Blind</h5>
                     </div>
                 </div>
 
@@ -1714,7 +1732,9 @@
                         <!--Start single accordion box-->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What is a flange?</h4>
+                                <h4>What is a <a
+                                        href="{{ url('products/pipe-fittings-flanges-fasteners/flanges-and-gaskets') }}">flange</a>?
+                                </h4>
                             </div>
                             <div class="accord-content">
                                 <p>
@@ -1799,8 +1819,8 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    Looking for high-quality stainless steel flanges, carbon steel flanges, or alloy flanges?<br>Contact <strong><a
-                            href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a></strong>
+                    Looking for high-quality stainless steel flanges, carbon steel flanges, or alloy flanges?<br>Contact
+                    <strong><a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a></strong>
                 </p>
                 <!-- Call button -->
                 <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>

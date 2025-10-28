@@ -1,8 +1,9 @@
 @extends('layouts.master')
 @section('title', 'Industrial Custom Fabricated Fittings – Moksh Tubes') <!-- 53 characters -->
-@section('meta_description',
-    'Moksh Tubes provides industrial-grade custom fabricated fittings in stainless, alloy, duplex, nickel & titanium alloys per ASTM & ASME standards.') <!-- 153 characters -->
-@section('meta_keywords', 'Custom Fabricated Fittings, Industrial Fittings, Stainless Steel Fittings, Alloy Fittings, Duplex Fittings, Titanium Fittings, Nickel Fittings, ASTM/ASME Fittings')
+@section('meta_description', 'Moksh Tubes provides industrial-grade custom fabricated fittings in stainless, alloy,
+    duplex, nickel & titanium alloys per ASTM & ASME standards.') <!-- 153 characters -->
+@section('meta_keywords', 'Custom Fabricated Fittings, Industrial Fittings, Stainless Steel Fittings, Alloy Fittings,
+    Duplex Fittings, Titanium Fittings, Nickel Fittings, ASTM/ASME Fittings')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
@@ -34,7 +35,8 @@
                     <p class="fs-6 mb-3 text-justify">
                         <strong class="text-black">Custom Fabricated Fittings</strong> are specialized piping and structural
                         components supplied to meet unique design, dimensional, or operational requirements. Unlike standard
-                        fittings, these are engineered and fabricated to customer specifications ensuring perfect
+                        fittings, these are <a href="{{ route('materials.engineering-Steels') }}">engineered</a> and
+                        fabricated to customer specifications ensuring perfect
                         compatibility with project layouts, pressure ratings, and environmental conditions.
                     </p>
                     <p class="fs-6 mb-3 text-justify">
@@ -461,12 +463,12 @@
                             <tbody>
                                 <tr class="t-row">
                                     <td>Stainless Steel</td>
-                                    <td>304, 304L, 316, 316L, 310, 321, 347 – for hygiene-critical and corrosion-resistant
+                                    <td>304, 304L, 316, 316L, 310, 321, 347 – for hygiene critical and corrosion resistant
                                         uses.</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Carbon Steel</td>
-                                    <td>ASTM A234 WPB, ASTM A105, IS2062 – for structural and high-pressure piping.</td>
+                                    <td>ASTM A234 WPB, ASTM A105, IS2062 – for structural and high pressure piping.</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Duplex & Super Duplex</td>
@@ -475,7 +477,10 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Nickel Alloys</td>
-                                    <td>Inconel 600/625/825, Monel 400/K500, Hastelloy C22/C276 – for extreme heat and
+                                    <td><a href="{{ route('materials.inconel') }}">Inconel 600/625/825</a>, <a
+                                            href="{{ route('materials.monel') }}">Monel 400/K500</a>, <a
+                                            href="{{ route('materials.hastelloy') }}">Hastelloy C22/C276</a> – for extreme
+                                        heat and
                                         corrosive service.</td>
                                 </tr>
                                 <tr class="t-row">
@@ -484,7 +489,8 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Copper Alloys</td>
-                                    <td>Cu-Ni 70/30, Cu-Ni 90/10 – for marine, desalination, and shipbuilding applications.
+                                    <td><a href="{{ route('materials.copper-Alloys') }}">Cu-Ni 70/30, Cu-Ni 90/10</a> –
+                                        for marine, desalination, and shipbuilding applications.
                                     </td>
                                 </tr>
                             </tbody>
@@ -609,7 +615,9 @@
                         <ul>
                             <li>Complex pipeline layouts for refineries and offshore platforms.</li>
                             <li>Manifold assemblies, laterals, and special reducers for processing units.</li>
-                            <li>High-pressure and high-temperature fittings for critical flow lines.</li>
+                            <li>High pressure and high temperature <a
+                                    href="{{ url('products/pipe-fittings-flanges-fasteners/fittings-and-flanges') }}">fittings</a>
+                                for critical flow lines.</li>
                         </ul>
                     </div>
                 </div>
@@ -634,8 +642,10 @@
                         </div>
                         <h5>Marine & Shipbuilding</h5>
                         <ul>
-                            <li>Saltwater-resistant fittings for ship piping, ballast systems, and offshore rigs.</li>
-                            <li>Large-bore fabricated fittings for desalination plants and marine structures.</li>
+                            <li>Saltwater resistant fittings for ship piping, ballast systems, and offshore rigs.</li>
+                            <li>Large bore <a
+                                    href="{{ url('products/special-fabricated/fabricated-ss-grills') }}">fabricated</a>
+                                fittings for desalination plants and marine structures.</li>
                         </ul>
                     </div>
                 </div>
@@ -648,7 +658,8 @@
                         <h5>Automotive & Aerospace</h5>
                         <ul>
                             <li>Precision fabricated fittings for fuel lines, exhaust systems, and hydraulic systems.</li>
-                            <li>Titanium and nickel alloy fittings for aerospace assemblies and prototypes.</li>
+                            <li><a href="{{ route('materials.titanium') }}">Titanium</a> and nickel alloy fittings for
+                                aerospace assemblies and prototypes.</li>
                         </ul>
                     </div>
                 </div>
@@ -662,7 +673,7 @@
                         <ul>
                             <li>Custom bends, headers, and Y-pieces for HVAC, fire protection, and water distribution
                                 systems.</li>
-                            <li>Structural and architectural fittings for stadiums, malls, and high-rise projects.</li>
+                            <li>Structural and architectural fittings for stadiums, malls, and high rise projects.</li>
                         </ul>
                     </div>
                 </div>
@@ -714,7 +725,7 @@
                 <div class="col-sm-6 col-lg-6">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-fill-check"></i></div>
-                        <h4>Heavy-Duty Service</h4>
+                        <h4>Heavy Duty Service</h4>
                         <h5>Handles harsh chemicals, seawater, and extreme conditions.</h5>
                     </div>
                 </div>
@@ -750,14 +761,16 @@
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-layers"></i></div>
                         <h4>Material Flexibility</h4>
-                        <h5>Available in stainless, carbon, duplex, nickel, titanium, and copper alloys.</h5>
+                        <h5>Available in stainless, carbon, <a
+                                href="{{ route('materials.duplex-and-super-duplex') }}">duplex</a>, nickel, titanium, and
+                            copper alloys.</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-cash-stack"></i></div>
-                        <h4>Cost-Effective Solutions</h4>
+                        <h4>Cost Effective Solutions</h4>
                         <h5>Eliminates the need for multiple welded joints by providing a single-piece fitting.</h5>
                     </div>
                 </div>
@@ -782,7 +795,7 @@
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-fill-check"></i></div>
                         <h4>Enhanced Safety</h4>
-                        <h5>Ensures proper flow, pressure handling, and leak-proof integrity.</h5>
+                        <h5>Ensures proper flow, pressure handling, and leak proof integrity.</h5>
                     </div>
                 </div>
             </div>
@@ -811,7 +824,8 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-building"></i></div>
-                        <h5>State of the Art Facilities: Advanced CNC, bending, and welding capabilities.</h5>
+                        <h5>State of the Art Facilities: Advanced CNC, bending, and <a
+                                href="{{ route('products.pipes-tubes.welded-pipes') }}">welding</a> capabilities.</h5>
                     </div>
                 </div>
 
@@ -859,7 +873,8 @@
                             <div class="accord-content">
                                 <p>
                                     Custom fabricated fittings are specially designed pipe fittings that are manufactured
-                                    according to specific requirements, such as size, material, design, or application. They
+                                    according to specific requirements, such as size, <a
+                                        href="{{ route('materials') }}">material</a>, design, or application. They
                                     are used when standard fittings do not meet the needs of a project.
                                 </p>
                             </div>
@@ -873,7 +888,9 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    These fittings are widely used in oil & gas, petrochemical, power generation, marine,
+                                    These <a
+                                        href="{{ url('products/pipe-fittings-flanges-fasteners/fittings-and-flanges') }}">fittings</a>
+                                    are widely used in oil & gas, petrochemical, power generation, marine,
                                     chemical processing, food & beverage, water treatment, and other industries where unique
                                     piping solutions are required.
                                 </p>
@@ -889,7 +906,9 @@
                             <div class="accord-content">
                                 <p>
                                     We offer fittings in stainless steel, duplex steel, super duplex, nickel alloys
-                                    (Inconel, Hastelloy, Monel), titanium, copper alloys, and other high-performance
+                                    (Inconel, Hastelloy, Monel), titanium, <a
+                                        href="{{ route('materials.copper-Alloys') }}">copper alloys</a>, and other high
+                                    performance
                                     materials depending on the application.
                                 </p>
                             </div>
@@ -918,7 +937,9 @@
                             <div class="accord-content">
                                 <p>
                                     They are manufactured through advanced processes such as cutting, bending, welding,
-                                    machining, and heat treatment to ensure precise dimensions, strength, and durability.
+                                    machining, and heat treatment to ensure precise dimensions, <a
+                                        href="{{ route('materials.high-strength-stainless-steel') }}">strength</a>, and
+                                    durability.
                                 </p>
                             </div>
                         </div>

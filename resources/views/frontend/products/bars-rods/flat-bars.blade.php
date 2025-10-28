@@ -1,7 +1,8 @@
 @extends('layouts.master')
 @section('title', 'Flat Bars – Stainless, Alloy, Aluminium & Brass') <!-- 52 characters -->
 @section('meta_description',
-    'Mokshtubes offers high-quality stainless, alloy, aluminium, and brass flat bars in various sizes, grades & custom cuts.') <!-- 153 characters -->
+    'Mokshtubes offers high-quality stainless, alloy, aluminium, and brass flat bars in various
+    sizes, grades & custom cuts.') <!-- 153 characters -->
 @section('meta_keywords', 'Flat Bars, Stainless Flat Bars, Alloy Flat Bars, Aluminium Flat Bars, Brass Flat Bars')
 @section('content')
     <!--Start breadcrumb area-->
@@ -9,7 +10,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>High-Quality Stainless & Alloy Flat Bars</h1> <!-- 52 characters -->
+                    <h1>High Quality Stainless & Alloy Flat Bars</h1> <!-- 52 characters -->
                 </div>
             </div>
         </div>
@@ -33,7 +34,8 @@
                 <!-- Right Content -->
                 <div class="col-md-6">
                     <p class="fs-6 mb-3 text-justify">
-                        <strong class="text-black">Flat Bars</strong> are strong and versatile rectangular shaped metal bars
+                        <strong class="text-black">Flat Bars</strong> are strong and versatile rectangular shaped <a
+                            href="{{ route('products.bars-rods') }}">metal bars</a>
                         widely used in construction, fabrication, and engineering applications. Whether you need a steel
                         flat bar, mild steel flat bar (MS flat bar), or stainless steel flat bar (SS flat bar) <a
                             href="{{ route('index') }}">Moksh Tubes
@@ -43,7 +45,8 @@
                     <p class="fs-6 mb-3 text-justify">
                         We stock a wide range including hot rolled flat bars, polished stainless steel flat bar, <a
                             href="{{ route('materials.aluminium-Alloys') }}">aluminium</a>
-                        flat bar, brass flat bar, copper flat bar, and even specialty alloys like titanium flat bar, nylon
+                        flat bar, brass flat bar, copper flat bar, and even specialty alloys like <a
+                            href="{{ route('materials.titanium') }}">titanium</a> flat bar, nylon
                         flat bar, and plastic flat bar.
                     </p>
                 </div>
@@ -535,7 +538,9 @@
                             <tbody>
                                 <tr class="t-row">
                                     <td>Stainless Steel Flat Bar Sizes</td>
-                                    <td>304, 304L, 316, 316L, 310, 321, 347</td>
+                                    <td><a
+                                            href="{{ url('materials\austenitic-stainless-steel\austenitic-stainless-steel-304') }}">304</a>,
+                                        304L, 316, 316L, 310, 321, 347</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Mild Steel Flat Bar Sizes</td>
@@ -576,12 +581,13 @@
             <div class="container">
             </div>
 
-             <div class="row">
+            <div class="row">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}" alt="NICKLE ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}"
+                                    alt="NICKLE ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -593,7 +599,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}" alt="STAINLESS STEEL">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}"
+                                    alt="STAINLESS STEEL">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -605,7 +612,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}" alt="DUPLEX & SUPER">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}"
+                                    alt="DUPLEX & SUPER">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -618,7 +626,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="##">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}" alt="TITANIUM ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}"
+                                    alt="TITANIUM ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -630,7 +639,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}" alt="RARE TO ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}"
+                                    alt="RARE TO ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -642,7 +652,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}" alt="CARBON ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}"
+                                    alt="CARBON ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -687,7 +698,9 @@
                         </div>
                         <h5>Shipbuilding & Marine</h5>
                         <ul>
-                            <li>Copper-nickel and duplex flat bar rail, hull reinforcement, offshore platforms</li>
+                            <li>Copper <a href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a> and <a
+                                    href="{{ route('materials.duplex-and-super-duplex') }}">duplex</a> flat bar rail, hull
+                                reinforcement, offshore platforms</li>
                         </ul>
                     </div>
                 </div>
@@ -699,7 +712,7 @@
                         </div>
                         <h5>Oil, Gas & Petrochemical</h5>
                         <ul>
-                            <li>Corrosion-resistant SS flat bar for pipe racks and skids</li>
+                            <li>Corrosion resistant SS flat bar for pipe racks and skids</li>
                         </ul>
                     </div>
                 </div>
@@ -711,7 +724,8 @@
                         </div>
                         <h5>Automotive & Aerospace</h5>
                         <ul>
-                            <li>Aluminium flat bar and titanium flat bar for body trims, brackets, and aircraft parts</li>
+                            <li><a href="{{ route('materials.aluminium-Alloys') }}">Aluminium</a> flat bar and titanium
+                                flat bar for body trims, brackets, and aircraft parts</li>
                         </ul>
                     </div>
                 </div>
@@ -781,7 +795,9 @@
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-patch-check"></i></div>
                         <h4>Stainless Steel Flat Bar Prices</h4>
-                        <h5>Grades available: 304, 316, 416</h5>
+                        <h5>Grades available: 304, <a
+                                href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-316') }}">316</a>,
+                            416</h5>
                     </div>
                 </div>
 
@@ -835,7 +851,7 @@
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
                         <h4>Strong & Durable</h4>
-                        <h5>Corrosion-resistant for long-lasting performance</h5>
+                        <h5>Corrosion resistant for long lasting performance</h5>
                     </div>
                 </div>
 
@@ -951,7 +967,8 @@
                                 <p>
                                     The weight of a mild steel (MS) flat bar can be calculated using the formula:<br>
                                     <strong>Weight (kg) = Length (m) × Width (m) × Thickness (m) × 7850</strong><br>
-                                    Where 7850 kg/m³ is the density of mild steel. A weight chart or calculator can make
+                                    Where 7850 kg/m³ is the density of mild steel. A weight chart or <a
+                                        href="{{ route('calculator') }}">calculator</a> can make
                                     this easier.
                                 </p>
                             </div>
@@ -961,14 +978,20 @@
                         <!--Start single accordion box-->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What materials are available for flat bars?</h4>
+                                <h4>What <a href="{{ route('materials') }}">materials</a> are available for flat bars?
+                                </h4>
                             </div>
                             <div class="accord-content">
-                                <p>
-                                    Flat bars are available in stainless steel (SS), mild steel (MS), alloy steel,
-                                    aluminium, copper,
-                                    brass, nickel alloys, and titanium. Grades comply with ASTM, ASME, DIN, EN, and JIS
-                                    standards.
+
+                                Flat bars are available in <a
+                                    href="{{ route('materials.high-strength-stainless-steel') }}">steel (SS)</a>, mild
+                                steel (MS), alloy steel,
+                                <a href="{{ route('materials.aluminium-Alloys') }}">aluminium</a>, <a
+                                    href="{{ route('materials.copper-Alloys') }}">copper</a>,
+                                brass, <a href="{{ route('materials.nickel-Based-Superalloys') }}">nickel alloys</a>,
+                                and <a href="{{ route('materials.titanium') }}">titanium</a>. Grades comply with ASTM,
+                                ASME, DIN, EN, and JIS
+                                standards.
                                 </p>
                             </div>
                         </div>
@@ -998,7 +1021,7 @@
                             <div class="accord-content">
                                 <p>
                                     Stainless steel flat bars come in bright, polished, mill finish, peeled & ground,
-                                    shot-blasted, pickled & passivated finishes, ensuring excellent surface quality
+                                    shot blasted, pickled & passivated finishes, ensuring excellent surface quality
                                     for decorative and industrial applications.
                                 </p>
                             </div>
@@ -1017,10 +1040,10 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    Looking for flat bars, steel slotted metal flat bar, or custom flat bar grating solutions?<br>Contact <strong><a
-                            href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a></strong>
+                    Looking for flat bars, steel slotted metal flat bar, or custom flat bar grating solutions?<br>Contact
+                    <strong><a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a></strong>
                 </p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch

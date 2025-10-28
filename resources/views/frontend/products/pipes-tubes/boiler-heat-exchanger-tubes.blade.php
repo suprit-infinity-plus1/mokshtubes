@@ -1,6 +1,8 @@
 @extends('layouts.master')
 @section('title', 'Premium Boiler & Heat Exchanger Tubes – Moksh Tubes') <!-- 52 characters -->
-@section('meta_description', 'High-quality boiler & heat exchanger tubes from Moksh Tubes — strong, durable & corrosion-resistant for power, marine & industrial use.') <!-- 153 characters -->
+@section('meta_description',
+    'High-quality boiler & heat exchanger tubes from Moksh Tubes — strong, durable &
+    corrosion-resistant for power, marine & industrial use.') <!-- 153 characters -->
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
@@ -42,8 +44,9 @@
                         are manufactured to strict tolerances and international quality standards (ASTM, ASME, DIN, EN).
                     </p>
                     <p class="fs-6 text-justify">
-                        <strong class="text-black"> Moksh Tubes & Fittings LLP</strong>, we produce boiler and heat
-                        exchanger tubes using advanced cold-drawing, seamless forming, and <a
+                        <strong class="text-black"> <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a></strong>,
+                        we produce boiler and heat
+                        exchanger tubes using advanced cold drawing, seamless forming, and <a
                             href="{{ route('products.pipes-tubes.welded-pipes') }}">welding</a> technologies to deliver
                         precision, durability, and performance. Our tubes are trusted worldwide for use in boilers,
                         superheaters, condensers, heat exchangers, and other critical systems.
@@ -71,7 +74,9 @@
                             <tbody class="text-start">
                                 <tr class="t-row">
                                     <td>Material</td>
-                                    <td>Stainless Steel, Duplex & Super Duplex Steel, Nickel Alloys, Inconel, Monel,
+                                    <td>Stainless Steel, <a href="{{ route('materials.duplex-and-super-duplex') }}">Duplex &
+                                            Super Duplex Steel</a>, Nickel Alloys, <a
+                                            href="{{ route('materials.inconel') }}">Inconel</a>, Monel,
                                         Titanium, Copper Alloys, Alloy Steel, Carbon Steel</td>
                                 </tr>
                                 <tr class="t-row">
@@ -96,7 +101,9 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Type</td>
-                                    <td>Seamless, Welded (ERW, EFW), U-Bent Tubes</td>
+                                    <td><a href="{{ url('products/pipes-tubes/seamless-pipes') }}">Seamless</a>, Welded
+                                        (ERW, EFW), <a href="{{ url('products/pipes-tubes/u-bent-tubes') }}">U-Bent
+                                            Tubes</a></td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Standards</td>
@@ -120,9 +127,10 @@
             <div class="section-title center">
                 <h2 class="fw-bold" style="color: #174268;">Charts</h2>
 
- <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
-                                                <strong>Office Address:</strong> 92E, Plot No. 3, New Tank Bunder, Darukhana, Mumbai, Maharashtra- 400 010.
-                                            </p>
+                <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
+                    <strong>Office Address:</strong> 92E, Plot No. 3, New Tank Bunder, Darukhana, Mumbai, Maharashtra- 400
+                    010.
+                </p>
             </div>
             <!-- Child Title -->
             <div class="section-title center mb-3">
@@ -1566,11 +1574,11 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Alloy Steel</td>
-                                    <td>T11, T12, T22, T91 for high-pressure boilers.</td>
+                                    <td>T11, T12, T22, T91 for high pressure boilers.</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Carbon Steel</td>
-                                    <td>ASTM A179, A192 for low and medium-pressure boilers.</td>
+                                    <td>ASTM A179, A192 for low and medium pressure boilers.</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Copper Alloys</td>
@@ -1578,7 +1586,8 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Titanium</td>
-                                    <td>Grades 1, 2 for desalination plants and chemical industries.</td>
+                                    <td><a href="{{ route('materials.titanium') }}">Grades 1, 2</a> for desalination plants
+                                        and chemical industries.</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -1843,7 +1852,7 @@
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
                         <h4>Operational Reliability</h4>
-                        <h5>Delivers long-term reliability and consistent performance in demanding applications</h5>
+                        <h5>Delivers long term reliability and consistent performance in demanding applications</h5>
                     </div>
                 </div>
             </div>
@@ -1860,7 +1869,7 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h4>High-Temperature Strength</h4>
+                        <h4>High Temperature Strength</h4>
                         <h5>Maintains integrity in boilers and superheaters.</h5>
                     </div>
                 </div>
@@ -1885,7 +1894,9 @@
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
                         <h4>Versatile Material Selection</h4>
-                        <h5>Stainless, alloy, carbon, copper-nickel & titanium options.</h5>
+                        <h5>Stainless, alloy, carbon, copper <a
+                                href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a> & titanium options.
+                        </h5>
                     </div>
                 </div>
 
@@ -1942,7 +1953,7 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Timely Dispatch: Efficient production and logistics for on-time delivery.</h5>
+                        <h5>Timely Dispatch: Efficient production and logistics for on time delivery.</h5>
                     </div>
                 </div>
 
