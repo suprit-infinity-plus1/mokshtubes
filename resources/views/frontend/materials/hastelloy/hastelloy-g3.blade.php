@@ -683,3 +683,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Hastelloy G-3 and why is it important in industrial applications?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hastelloy G-3 (UNS N06985) is a nickel-chromium-iron alloy with additions of molybdenum and copper, engineered to resist a broad spectrum of oxidizing and reducing chemicals. It offers excellent resistance to sulfuric acid, nitric acid, phosphoric acid, and hydrochloric acid, making it an ideal material for industries that deal with aggressive chemical environments and require long-term performance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the key properties of Hastelloy G-3 alloy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hastelloy G-3 provides outstanding corrosion resistance in both oxidizing and reducing acids while maintaining strength after welding and high heat exposure. It resists intergranular corrosion, has reduced sensitivity to weld cracking, and offers superior mechanical stability with a tensile strength of 95,000 psi and yield strength of 43,000 psi. Its density of 8.22 g/cm³ and excellent formability make it highly adaptable in demanding industries."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which industries commonly use Hastelloy G-3 products?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hastelloy G-3 is widely used in the chemical processing industry for tanks, piping, valves, and heat exchangers exposed to mixed acids. It is also applied in pollution control systems such as scrubbers and stack liners, fertilizer production, pickling plants, acid regeneration units, wastewater treatment, and sectors like pharmaceuticals and food processing where both hygiene and chemical resistance are essential."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What types of Hastelloy G-3 products are supplied by MOKSH TUBES & FITTINGS LLP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP offers a complete range of Hastelloy G-3 products including seamless and welded pipes, tubes, sheets, plates, coils, flanges, fittings, fasteners, round bars, wire mesh, welding rods, and custom-fabricated components. All products are manufactured under strict quality standards to ensure performance, durability, and compliance with international specifications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose MOKSH TUBES & FITTINGS LLP for Hastelloy G-3 materials?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP is a trusted manufacturer, supplier, exporter, and stockist of Alloy G-3, known for its strong vendor network, large inventory, and global shipping capabilities. With adherence to ASTM and ASME standards, precision fabrication, and expert customer support, the company ensures reliable supply of high performance Hastelloy G-3 products for clients worldwide."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection

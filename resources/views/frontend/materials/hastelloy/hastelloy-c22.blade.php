@@ -712,3 +712,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Hastelloy C22 and why is it unique?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hastelloy C22 (Alloy C22 / UNS N06022) is a nickel-chromium-molybdenum-tungsten alloy with unmatched resistance to mixed chemical environments. Its composition makes it superior to many other Hastelloy grades."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the Hastelloy C22 price per kg?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Prices vary depending on product form (pipes, sheets, bars) and order size. Contact us for the latest Hastelloy C22 price in India."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Hastelloy C22 vs C276 – which one should I choose?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "C22 offers better resistance to oxidizing agents, while C276 is widely available and more cost-effective. Choice depends on application."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Hastelloy better than stainless steel 316L?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, for highly aggressive chemical environments, Hastelloy alloys outperform 316L stainless steel in corrosion resistance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who are the leading Hastelloy C22 suppliers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Moksh Tubes & Fittings LLP is a leading Hastelloy C22 supplier, stockist, and exporter with a strong global presence."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection

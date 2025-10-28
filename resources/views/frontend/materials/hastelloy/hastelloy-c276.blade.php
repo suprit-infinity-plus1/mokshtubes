@@ -766,3 +766,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Hastelloy C-276 and why is it important?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hastelloy C-276 (UNS N10276) is a nickel-chromium-molybdenum alloy with excellent resistance to strong oxidizers, reducing agents, and chloride-induced corrosion. Its low silicon and carbon content reduce welding challenges, while its superior resistance to pitting, crevice corrosion, and stress corrosion cracking makes it an ideal choice for industries operating in highly aggressive chemical and thermal environments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does Hastelloy C-276 compare to steel in terms of density?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Traditional steels such as mild steel and carbon steel typically have a density around 7.85 g/cm³ (7850 kg/m³). In comparison, Hastelloy C276 density is approximately 8.89 g/cm³, making it heavier but far more resistant to corrosion, stress, and extreme temperatures than conventional steel grades."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Hastelloy C276 weldable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Hastelloy C276 is weldable using standard welding techniques like TIG and MIG. However, low carbon content and controlled heat input are recommended to maintain its corrosion resistance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What products are available in Hastelloy C-276 from MOKSH TUBES & FITTINGS LLP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP manufactures and supplies a complete range of Hastelloy C-276 products including seamless and welded pipes, tubes, sheets, plates, coils, bars, pipe fittings, flanges, fasteners, welding rods, wire mesh, and customized fabricated components. All products are made to international standards for durability and long-term reliability in corrosive environments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose MOKSH TUBES & FITTINGS LLP for Hastelloy C-276 products?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP is a trusted manufacturer, supplier, exporter, importer, and stockist of high-quality Hastelloy C-276 products. With expertise in nickel-based alloys, a strong global supply network, advanced manufacturing capabilities, and a commitment to quality and customer satisfaction, the company delivers reliable materials for critical industrial requirements worldwide."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection
