@@ -631,3 +631,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is P11 steel used for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "P11 steel is primarily used in high temperature and high pressure applications, including boiler tubes, superheaters, pressure vessels, and heat exchanger components in power generation, petrochemical, oil & gas, and chemical processing industries."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the key properties of P11 steel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "P11 steel provides excellent strength, creep resistance, oxidation resistance, good weldability, and machinability, making it suitable for thermal cycling and high-pressure environments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "In what forms is P11 steel available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "P11 steel is available in seamless and welded pipes, tubes, sheets, plates, bars, flanges, fasteners, and custom fabricated components to meet diverse industrial requirements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is P11 steel suitable for high-temperature applications?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Its chromium molybdenum composition ensures superior creep resistance, oxidation resistance, and strength at elevated temperatures up to 550°C (1022°F), making it ideal for boilers, superheaters, and pressure vessels."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose MOKSH TUBES & FITTINGS LLP for P11 steel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We provide certified high-quality P11 steel products with comprehensive stock, custom sizing, technical expertise, timely deliveries, competitive pricing, and full traceability for critical alloy steel applications."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection

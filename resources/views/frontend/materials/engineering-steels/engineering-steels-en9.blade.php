@@ -644,3 +644,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is EN 9 steel and why is it widely used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "EN 9 is a medium carbon steel grade containing 0.50–0.60% carbon, known for its high tensile strength, good wear resistance, and excellent hardenability. It offers a balanced combination of strength and toughness, making it suitable for engineering and automotive components that demand higher mechanical performance than mild steel. EN 9 can be flame or induction hardened and is commonly used in shafts, gears, spindles, rollers, and other parts subjected to dynamic stresses."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the key chemical and mechanical properties of EN 9 steel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "EN 9 steel has a chemical composition of 0.50–0.60% carbon, 0.60–0.90% manganese, 0.10–0.35% silicon, and controlled levels of phosphorus and sulfur with the balance being iron. It provides tensile strength between 75–115 ksi (517–793 MPa) and yield strength ranging from 35–80 ksi (241–552 MPa), depending on its condition. Its hardness varies between 130–210 Brinell and 70–90 Rockwell B, while elongation is 15–30%. These properties make EN 9 a versatile engineering steel with good machinability, wear resistance, and heat treatment response."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What EN 9 steel products are supplied by MOKSH TUBES & FITTINGS LLP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP offers a comprehensive range of EN 9 steel products including round bars, flat bars, square bars, hex bars, forged bars, shafts, sheets, plates, coils, strips, pipes, tubes, pipe fittings, flanges, fasteners, and custom fabricated components. Products are manufactured according to international standards and can be supplied in normalized, annealed, hot rolled, or cold drawn conditions with customized machining and cut to length services to meet specific industry requirements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the major applications of EN 9 steel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "EN 9 steel is widely used in automotive and mechanical engineering for manufacturing crankshafts, axles, spindles, gears, rollers, studs, and connecting rods. It is also utilized in general engineering for shafts, bolts, pins, levers, and wear plates. In tool manufacturing, it is used for making jigs, dies, and molds, while in agricultural and industrial equipment it finds applications in machine parts, tillage tools, and high-strength components that require wear resistance and fatigue performance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose MOKSH TUBES & FITTINGS LLP for EN 9 steel products?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP is a trusted global supplier, manufacturer, and exporter of EN 9 steel, offering precision manufacturing with strict dimensional accuracy and high-quality material certifications. With a wide stock availability, custom machining options, and heat-treated solutions, the company ensures timely deliveries for diverse industries including automotive, machinery, construction, tooling, and general engineering. Backed by technical expertise and competitive pricing, MOKSH TUBES & FITTINGS LLP is the preferred choice for EN 9 steel solutions worldwide."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection

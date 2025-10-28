@@ -655,3 +655,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is EN31 steel and what are its key characteristics?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "EN31 is a high carbon, chromium alloy steel known for its exceptional hardness, wear resistance, and tensile strength. It offers toughness, abrasion resistance, and fatigue strength, making it suitable for components such as bearings, shafts, gears, and machine parts that operate under heavy mechanical stress."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the chemical and mechanical properties of EN31 steel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "EN31 steel contains 1.00–1.10% carbon, 1.40–1.65% chromium, 0.40–0.70% manganese, and 0.10–0.35% silicon, with low sulfur and phosphorus content. It provides tensile strength of 90–130 ksi, yield strength between 50–105 ksi, elongation of 8–20%, and Brinell hardness from 180–280. It offers excellent fatigue strength and machinability in the annealed state."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What EN31 steel products are supplied by MOKSH TUBES & FITTINGS LLP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP supplies EN31 round bars, flat bars, hex bars, square bars, sheets, plates, coils, strips, seamless and welded pipes, tubes, flanges, fittings, fasteners, forgings, and custom components. These are manufactured to international standards and supplied in annealed, hot finished, cold drawn, or heat treated conditions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main applications of EN31 steel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "EN31 steel is used in industries demanding high wear resistance and strength, such as automotive, engineering, tooling, and heavy machinery. Typical applications include gears, shafts, spindles, crankshafts, bearings, punches, dies, cutting tools, agricultural equipment parts, pins, bolts, and rollers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose MOKSH TUBES & FITTINGS LLP for EN31 steel products?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP is a reputable manufacturer, supplier, exporter, importer, and stockist of EN31 steel products. The company offers expertise in heat treatment, customization, and strict quality control, ensuring consistent material performance. Clients benefit from global sourcing, fast delivery, competitive pricing, and technical support for material selection."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection
