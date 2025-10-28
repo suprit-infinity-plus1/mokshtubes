@@ -553,3 +553,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "What is Stainless Steel 431 used for?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Stainless Steel 431 is widely used in aerospace, marine, oil & gas, and automotive applications where strength, toughness, and corrosion resistance are required."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Is Stainless Steel 431 magnetic?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Being a martensitic stainless steel, it is magnetic both in annealed and hardened conditions."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Can Stainless Steel 431 be welded?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Welding is possible, but preheating and post-weld heat treatment are recommended to minimize cracking and maintain mechanical strength."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How does Stainless Steel 431 compare with 304 or 316?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Stainless Steel 431 has higher hardness and tensile strength than 304 or 316 but slightly lower corrosion resistance, making it suitable for mechanical and structural use."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What products are available in Stainless Steel 431 at MOKSH TUBES?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "MOKSH TUBES & FITTINGS LLP supplies SS 431 in pipes, tubes, sheets, plates, coils, flanges, fittings, fasteners, bars, rods, and customized components engineered for precision projects."
+            }
+        }
+    ]
+}
+</script>
+@endverbatim
+@endsection

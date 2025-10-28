@@ -621,3 +621,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is 440C Stainless Steel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "440C is a high-carbon martensitic stainless steel known for its excellent hardness, wear resistance, and corrosion resistance, widely used in precision applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are its key properties?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "High hardness, superior wear resistance, good corrosion resistance, and excellent polishability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is it used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Knife blades, bearings, surgical instruments, cutting tools, and high-wear components."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it weldable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Welding is possible but requires special procedures and post-weld heat treatment to preserve mechanical properties."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose Mokshtubes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mokshtubes provides premium 440C stainless steel with precise manufacturing, consistent quality, and reliable global supply."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection

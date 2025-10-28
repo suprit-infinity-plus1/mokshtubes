@@ -679,3 +679,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is 17-4 PH Stainless Steel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "17-4 PH (Precipitation Hardening) Stainless Steel is a high-strength, corrosion-resistant alloy widely used in aerospace, chemical, petrochemical, and marine industries for demanding applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are its main properties?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "17-4 PH Stainless Steel offers high hardness, exceptional strength, good corrosion resistance, and outstanding mechanical performance at elevated temperatures."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is its chemical composition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Typical composition includes: Chromium (Cr): 15–17.5%, Nickel (Ni): 3–5%, Copper (Cu): 3–5%, Carbon (C): ≤ 0.07%, Manganese (Mn): ≤ 1%, Silicon (Si): ≤ 1%, Iron (Fe): Balance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is it used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "17-4 PH Stainless Steel is used in aerospace structural components, chemical process equipment, marine shafts, pump parts, valves, and tooling applications due to its strength and durability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it weldable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, 17-4 PH Stainless Steel can be welded using methods such as TIG or MIG. Post-weld heat treatment is recommended to restore strength and corrosion resistance."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection
