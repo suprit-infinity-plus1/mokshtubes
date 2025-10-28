@@ -514,3 +514,47 @@
     </section>
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Why is Super Duplex 2507 (S32750) considered superior?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Due to its high chromium, molybdenum, and nitrogen content, it offers the highest corrosion resistance among duplex stainless steels, especially in chloride environments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is S32750 weldable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, but controlled heat input and post-weld heat treatment are essential to maintain corrosion resistance and mechanical properties."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is S32750 most commonly used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In offshore oil & gas, marine engineering, chemical processing, and desalination plants where maximum corrosion resistance is required."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can S32750 be used in seawater applications?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — it is exceptionally resistant to seawater corrosion and chloride stress corrosion cracking, making it ideal for marine environments."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection

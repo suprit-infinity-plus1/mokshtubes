@@ -607,3 +607,48 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<!-- FAQ Schema Markup -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Duplex Stainless Steel S31803 used for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It is widely used in chemical processing, marine engineering, desalination, and oil & gas applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Duplex S31803 weldable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, but proper welding procedures and post-weld heat treatment are recommended for maintaining optimum corrosion resistance and mechanical strength."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can S31803 be used in seawater environments?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, it provides excellent seawater corrosion resistance but is slightly less resistant than Super Duplex grades."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does S31803 compare to 2205?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "S31803 is more cost-effective for general use but offers slightly lower corrosion resistance compared to Super Duplex 2205."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection
