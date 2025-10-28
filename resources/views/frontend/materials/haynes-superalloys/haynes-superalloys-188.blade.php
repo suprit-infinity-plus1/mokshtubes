@@ -673,3 +673,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Haynes 188 and why is it used in high-temperature applications?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Haynes 188 (UNS N06188) is a cobalt-based superalloy well known for its exceptional strength, corrosion resistance, and remarkable resistance to oxidation and carburization at elevated temperatures. It performs reliably in aggressive environments where components are exposed to extreme heat and stress, making it one of the most trusted alloys in aerospace, chemical processing, and power generation industries."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the key properties of Haynes 188 alloy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Haynes 188 exhibits superior high-temperature strength, creep resistance, and stability in harsh conditions. It offers a tensile strength of up to 150 ksi, yield strength of 70 ksi, and elongation of around 50%. With excellent resistance to oxidation and carburization up to 2000°F (1093°C), combined with good thermal fatigue resistance, fabricability, and weldability, this alloy provides long-lasting performance in demanding applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which industries commonly use Haynes 188 products?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Haynes 188 is widely used in aerospace for gas turbine components such as combustion chambers, hot section parts, and turbine blades, in industrial furnaces for heat-treating equipment, in chemical processing for reactors and heat exchangers handling corrosive media, and in power generation for steam turbine and boiler parts. It is also applied in environmental control equipment such as incinerators and flue gas treatment systems due to its ability to withstand aggressive thermal and chemical conditions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What types of Haynes 188 products are available from MOKSH TUBES & FITTINGS LLP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP supplies a complete range of Haynes 188 products including seamless and welded pipes, tubes, sheets, plates, coils, bars, flanges, pipe fittings, fasteners, welding rods, wire mesh, and custom fabricated components. All materials are produced according to ASTM, ASME, and other international standards, ensuring superior quality, consistency, and performance for critical industrial applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose MOKSH TUBES & FITTINGS LLP for Haynes 188 materials?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP is a trusted manufacturer and global supplier of cobalt based superalloys like Haynes 188, offering expertise, strict quality assurance, and a robust supply chain. With a focus on custom manufacturing, technical support, and timely delivery, the company ensures clients receive high performance materials that meet industry standards and project requirements, making it a reliable partner for industries operating in extreme environments."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection
