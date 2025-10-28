@@ -668,3 +668,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Copper Nickel C71520 and how is it different from C71500?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Copper Nickel C71520 is a high-performance version of the traditional Cu-Ni 70/30 alloy (UNS C71500). It contains around 70% copper and 30% nickel with controlled additions of iron and manganese, giving it enhanced mechanical strength, better erosion resistance, and improved durability in high-velocity seawater environments compared to the standard grade."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main advantages of Copper Nickel C71520?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Copper Nickel C71520 offers exceptional resistance to seawater corrosion, biofouling, and microbial corrosion. It has superior erosion and cavitation resistance in turbulent marine systems, excellent thermal conductivity for heat exchangers, retains strength at high pressures, is non-magnetic and spark resistant, and is highly weldable for critical engineering applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is Copper Nickel C71520 commonly used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "C71520 is commonly used in marine and offshore engineering for seawater piping, condensers, pumps, and ship hulls; naval and defense applications like submarine components and seawater cooling lines; desalination plants for brine heaters and high-pressure piping; power plants for condensers and heat exchangers; and oil & gas systems such as firewater, hydraulic, and instrumentation lines."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Copper Nickel C71520 products are available from MOKSH TUBES & FITTINGS LLP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP supplies a wide range of Copper Nickel C71520 products, including seamless and welded pipes, heat exchanger and U-bend tubes, sheets, plates, coils, strips, round bars, square bars, hex bars, pipe fittings, flanges, fasteners, and custom fabricated components."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why should I choose MOKSH TUBES & FITTINGS LLP for Copper Nickel C71520?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP provides certified materials that meet ASTM, EN, MIL, and DEF STAN standards. The company offers in-house CNC machining and custom fabrication, strict quality control with third-party inspections, fast worldwide delivery with export-ready packaging, and trusted solutions for marine, power, offshore, oil & gas, and defense projects."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection

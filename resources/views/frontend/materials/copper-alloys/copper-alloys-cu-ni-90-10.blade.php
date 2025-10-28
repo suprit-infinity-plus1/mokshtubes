@@ -652,3 +652,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Copper Nickel 90/10 and what makes it a preferred alloy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Copper Nickel 90/10, also known as UNS C70600 or CW352H, is an alloy consisting of 90% copper and 10% nickel with small additions of iron and manganese. It is widely valued for its excellent corrosion resistance in seawater and marine environments, making it a reliable material for shipbuilding, desalination plants, offshore oil and gas, and power generation industries."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main advantages of using Copper Nickel 90/10 alloy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The CU-NI 90/10 alloy offers strong resistance to biofouling, erosion, and stress corrosion cracking. It retains reliable mechanical properties over a wide temperature and pressure range, making it suitable for demanding flow systems and thermal applications. With good weldability, soldering, and brazing capability, Copper Nickel 90/10 ensures ease of fabrication while maintaining long-term durability in harsh operating conditions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the common applications of Copper Nickel 90/10?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Copper Nickel 90/10 is extensively used in marine and shipbuilding for seawater piping, condensers, cooling systems, hull cladding, and propeller sleeves. It is also widely applied in desalination plants, HVAC systems, oil refineries, and power plants for heat exchangers, condensers, brine heaters, and evaporator tubes. Additionally, it finds use in offshore oil and gas systems, automotive brake lines, and locomotive radiator components due to its corrosion resistance and thermal stability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Copper Nickel 90/10 products are available at MOKSH TUBES & FITTINGS LLP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP supplies a wide range of Copper Nickel 90/10 products including seamless and welded pipes and tubes, plates, sheets, coils, strips, rods, bars, pipe fittings, flanges, wires, fasteners, and custom-engineered components. All products are manufactured to meet global quality standards such as ASTM, DIN, EN, and ASME, and can be tailored in size, finish, and specifications to match specific industrial requirements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose MOKSH TUBES & FITTINGS LLP for Copper Nickel 90/10 materials?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP is a trusted manufacturer, supplier, and exporter of Copper Nickel 90/10 products, offering marine-grade and industrial-grade materials sourced from reputed mills. With extensive inventory, competitive pricing, and global supply capabilities, the company ensures timely delivery and quality assurance. Backed by expertise in copper nickel alloys, it serves clients across shipyards, desalination projects, offshore oil and gas, power plants, and automotive industries with certified and reliable CU-NI 90/10 solutions."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection

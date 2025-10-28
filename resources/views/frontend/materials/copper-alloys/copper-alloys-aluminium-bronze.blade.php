@@ -668,3 +668,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Aluminium Bronze and why is it used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aluminium Bronze is a family of copper-based alloys containing 5–12% aluminium, along with iron, nickel, and manganese. It is widely used because of its high strength, wear resistance, and exceptional corrosion resistance in seawater and industrial environments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does Aluminium Bronze compare to other copper alloys or stainless steel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Compared to traditional copper alloys, Aluminium Bronze offers superior hardness, tensile strength, and resistance to erosion and galling. Unlike stainless steels, it is non-magnetic, non-sparking, and performs exceptionally well in marine and offshore environments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the common applications of Aluminium Bronze?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aluminium Bronze is extensively used in marine, oil & gas, defense, aerospace, power generation, general engineering, and chemical industries. Typical applications include propeller shafts, pump casings, valves, heat exchangers, turbine parts, non-sparking tools, bearings, and gears."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Aluminium Bronze products does MOKSH TUBES & FITTINGS LLP supply?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We supply a wide range of Aluminium Bronze products including seamless and welded pipes, tubes, sheets, plates, coils, bars, pipe fittings, flanges, fasteners, and custom-fabricated components, all produced in compliance with ASTM, EN, BS, and ISO standards."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose MOKSH TUBES & FITTINGS LLP for Aluminium Bronze products?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP is a trusted manufacturer, stockist, and global supplier offering large inventory, precision machining, customized solutions, competitive pricing, and timely delivery. With expertise in Aluminium Bronze, we provide reliable materials for marine, industrial, and high-performance applications."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection

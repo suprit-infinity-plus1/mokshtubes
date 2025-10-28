@@ -656,3 +656,52 @@
 
 
 @endsection
+<!-- FAQ Schema Markup -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is ETP Copper and why is it widely used in industries?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ETP Copper, also known as Electrolytic Tough Pitch Copper, is the most widely used commercial copper grade with a minimum of 99.90% copper content. It offers excellent electrical and thermal conductivity, ductility, and corrosion resistance. With nearly 100% IACS conductivity, ETP Copper is the preferred choice in electrical, electronic, and industrial applications that demand efficiency and long-term reliability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the key benefits of using ETP Copper?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The benefits of ETP Copper include superior electrical conductivity, excellent heat transfer, and high formability for easy fabrication. It performs reliably in atmospheric and industrial environments and is suitable for welding, brazing, and soldering. Its versatility makes it ideal for electrical systems, cooling equipment, architectural applications, and automotive components."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main applications of ETP Copper in different sectors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ETP Copper is extensively used in electrical wiring, busbars, switchgear, and transformers due to its high conductivity. It is also applied in PCBs, terminals, and connectors in the electronics industry, while telecom and data sectors use it for cables, grounding, and RF shielding. Other applications include renewable energy systems, HVAC, refrigeration, architectural designs, and automotive parts such as electric vehicle components."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What ETP Copper products does MOKSH TUBES & FITTINGS LLP provide?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP supplies a comprehensive range of ETP Copper products including seamless and welded pipes, tubes, sheets, plates, coils, busbars, strips, foils, rods, flats, fasteners, flanges, pipe fittings, and custom-fabricated components. All products meet international quality standards and are available in both standard and customized specifications for various industrial needs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose MOKSH TUBES & FITTINGS LLP for ETP Copper materials?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP is a leading manufacturer, supplier, and exporter of ETP Copper with advanced facilities and strict quality checks. The company ensures reliable global supply, competitive pricing, and customized solutions to meet client-specific requirements. With proven expertise across electrical, automotive, telecom, and renewable energy sectors, it delivers high-quality ETP Copper products trusted worldwide."
+      }
+    }
+  ]
+}
+</script>

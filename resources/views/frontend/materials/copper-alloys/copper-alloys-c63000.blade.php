@@ -660,3 +660,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Aluminum Bronze C63000 and what makes it unique?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aluminum Bronze C63000, also known as UNS C63000, is a high-strength copper based alloy containing aluminum, nickel, and iron. It is known for its exceptional corrosion resistance, wear resistance, and non sparking properties, making it ideal for marine, aerospace, oil & gas, and defense industries."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main applications of C63000 Aluminum Bronze?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "C63000 is widely used in marine engineering (propeller shafts, valves, pump components), aerospace (landing gear bushings, wear plates), defense (submarine and torpedo parts), oil & gas (valve seats, offshore components), chemical processing (corrosive fluid fittings, impellers), and industrial equipment (gears, bushings, wear rings, cam followers)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the key benefits of using Aluminum Bronze C63000?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "C63000 offers several advantages, including excellent resistance to seawater, erosion, and cavitation; high strength with superior fatigue and wear resistance; non magnetic and spark resistant properties; good machinability and weldability; and maintains mechanical strength even at elevated temperatures."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What C63000 Aluminum Bronze products does MOKSH TUBES & FITTINGS LLP supply?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP manufactures and supplies a complete range of C63000 Aluminum Bronze products such as seamless & welded pipes, tubes, rods, bars, sheets, plates, coils, flanges, pipe fittings, fasteners, and custom fabricated components. All products meet international standards (ASTM, DIN, UNS)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose MOKSH TUBES & FITTINGS LLP for Aluminum Bronze C63000 materials?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP is a trusted global supplier of Aluminum Bronze C63000 offering a wide inventory in standard and custom sizes, guaranteed quality backed by Mill Test Certificates and TPI approval, custom machining services for bushings, rings, and forged parts, fast lead times, and proven expertise in marine, aerospace, defense, oil & gas, and chemical industries."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection
