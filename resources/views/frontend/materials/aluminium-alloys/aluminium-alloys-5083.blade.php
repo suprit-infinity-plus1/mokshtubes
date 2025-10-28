@@ -649,3 +649,56 @@
 
 
 @endsection
+@section('jsscripts')
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Aluminium Alloy 5083 and what makes it special?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aluminium Alloy 5083 is a non heat treatable, marine grade aluminum alloy known for its exceptional corrosion resistance, especially in seawater and industrial chemical environments. Strengthened primarily by magnesium and manganese, it offers high strength, excellent weldability, and toughness, making it ideal for harsh operating conditions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is Aluminium 5083 commonly used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aluminium 5083 is widely used in industries requiring strength, durability, and resistance to corrosion, including: Marine: shipbuilding, boat hulls, and offshore structures. Transportation: Truck bodies, trailers, and rail cars. Pressure Vessels: LPG tanks, cryogenic tanks, and chemical storage. Automotive: Body panels, frames, and structural components. Industrial Applications: Chemical plants, piping, and tanks."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Aluminium Alloy 5083 heat-treatable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, Aluminium 5083 is a non heat treatable alloy. Instead, it achieves its mechanical strength through strain hardening and cold working. Despite this, it retains excellent weldability and formability, making it highly versatile for fabrication in demanding industries."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main advantages of Aluminium 5083?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Key benefits of Aluminium Alloy 5083 include: Outstanding corrosion resistance, especially in seawater. High strength to weight ratio for lightweight structural designs. Excellent weldability and formability. Good fatigue resistance and toughness. Non magnetic and resistant to stress corrosion cracking."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Aluminium 5083 products does Moksh Tubes & Fittings LLP offer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Moksh Tubes & Fittings LLP supplies Aluminium 5083 in various mill forms, including: Sheets, Plates, Coils & Strips. Pipes & Tubes (Seamless, Welded, Heat Exchanger, U-Bend). Bars & Rods (Round, Hex, Flat, Square). Pipe Fittings, Flanges, and Fasteners. Custom Fabricated Components designed to meet client specifications."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection

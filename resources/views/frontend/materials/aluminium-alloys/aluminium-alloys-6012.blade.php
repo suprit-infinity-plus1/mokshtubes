@@ -642,3 +642,58 @@
 
 
 @endsection
+
+
+@secion('jsscripts')
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Aluminium Alloy 6012 and what are its key properties?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aluminium Alloy 6012 is a heat treatable wrought aluminum alloy designed for automotive, structural, and general engineering applications. It offers an excellent balance of strength, ductility, machinability, and corrosion resistance. The alloy is widely used where lightweight material with good surface finish is required."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the common applications of Aluminium 6012?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aluminium 6012 is used in a variety of industries, including: Automotive: Body panels, structural components, chassis parts. Electrical: Housings, connectors, and conductive component. Structural: Frames, supports, and architectural fittings. Consumer Goods: Sports equipment, appliances, and furniture. Industrial Fabrication: Extrusions, plates, and rods requiring corrosion resistance and strength."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Aluminium Alloy 6012 suitable for welding and surface treatments?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Aluminium 6012 provides good weldability and is suitable for anodizing and other surface treatments, making it ideal for both functional and decorative applications. It also delivers a smooth surface finish, which is highly beneficial in automotive and consumer product manufacturing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main advantages of Aluminium 6012?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Key benefits of Aluminium Alloy 6012 include: Balanced strength and ductility for versatile applications. Excellent corrosion resistance in atmospheric environments. Outstanding machinability and workability. Lightweight with high formability. Suitable for anodizing and surface finishing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Aluminium 6012 products does Moksh Tubes & Fittings LLP supply?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Moksh Tubes & Fittings LLP offers a wide range of Aluminium 6012 products, including: Sheets, Plates, Coils & Strips. Pipes & Tubes (Seamless, Welded, Heat Exchanger, U-Bend). Bars & Rods (Round, Hex, Flat, Square). Pipe Fittings, Flanges, and Fasteners. Custom Fabricated Components tailored to customer needs."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection

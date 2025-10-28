@@ -630,3 +630,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Aluminium Alloy 7075 used for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aluminium 7075 is mainly used in aerospace, defense, automotive, and sports equipment industries due to its exceptional strength, toughness, and fatigue resistance. Common applications include aircraft structures, firearm components, racing car parts, and high performance bicycle frames."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the key properties of Aluminium 7075?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aluminium 7075 is a zinc-based alloy with excellent mechanical strength, fatigue resistance, and machinability. It has tensile strength up to 572 MPa, making it one of the strongest aluminium alloys. However, it has lower corrosion resistance compared to 6000 series alloys but performs well when anodized or surface treated."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Aluminium 7075 stronger than Aluminium 6061?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Aluminium 7075 is significantly stronger than 6061 due to its higher zinc and magnesium content. While 6061 is preferred for general purpose use with better corrosion resistance, 7075 is chosen for aerospace and defense applications where maximum strength is required."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Aluminium 7075 be welded or machined easily?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aluminium 7075 has excellent machinability and can be used for precision engineered parts. However, it is not easily weldable compared to 6000 series alloys. Special techniques are required if welding is necessary, but for most cases, it is used in machined and forged forms."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I buy Aluminium 7075 in India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can purchase Aluminium 7075 sheets, plates, rods, bars, forgings, and extrusions from Moksh Tubes & Fittings LLP, a leading manufacturer, supplier, exporter, importer, and stockist. They provide premium aerospace grade materials with custom sizes, international certifications, and global delivery."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection

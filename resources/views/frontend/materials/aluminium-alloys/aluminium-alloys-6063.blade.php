@@ -630,3 +630,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Aluminium Alloy 6063 used for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aluminium 6063, also known as the architectural alloy, is widely used in window frames, door frames, curtain walls, pipelines, heat exchangers, furniture, and lightweight structural applications. Its excellent corrosion resistance and anodizing finish make it highly popular in construction and architectural industries."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the advantages of Aluminium 6063 over other aluminium alloys?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aluminium 6063 offers superior surface finish, high corrosion resistance, good strength to weight ratio, and excellent anodizing properties compared to many other aluminium grades. It is also highly formable, weldable, and extrudable, making it ideal for complex shapes and decorative applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between Aluminium 6061 and 6063?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The main difference lies in their strength and finish. Aluminium 6061 has higher mechanical strength, making it suitable for heavy duty structural applications, whereas Aluminium 6063 is lighter, smoother, and better for anodizing, making it the preferred choice for architectural and decorative uses."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Aluminium 6063 be welded and anodized?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Aluminium 6063 is known for its excellent weldability and superior anodizing capability, which provides a durable, attractive surface finish. This makes it widely used in construction, transportation, and consumer products where both appearance and durability matter."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I buy high-quality Aluminium 6063 products in India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can purchase premium quality Aluminium 6063 sheets, plates, tubes, pipes, bars, and custom extrusions from Moksh Tubes & Fittings LLP, a trusted manufacturer, supplier, and exporter of aluminium alloys with a strong commitment to quality, timely delivery, and customer satisfaction."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection
