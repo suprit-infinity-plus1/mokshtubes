@@ -666,3 +666,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Austenitic Stainless Steel 317 and how is it different from 316 stainless steel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Austenitic Stainless Steel 317 is a molybdenum-rich stainless steel that offers greater corrosion resistance than SS 316, especially in environments containing chlorides, acids, and aggressive chemicals. With 3–4% molybdenum content, SS 317 provides superior resistance to pitting and crevice corrosion, making it ideal for chemical processing, pollution control, and marine applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the key properties of Stainless Steel 317?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SS 317 offers enhanced resistance to chlorides, sulfuric acid, phosphoric acid, and acidic environments; superior protection against pitting and crevice corrosion compared to SS 316; high mechanical strength and toughness at both ambient and elevated temperatures; excellent weldability and formability; and good resistance after welding due to controlled carbon content."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is Stainless Steel 317 commonly used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SS 317 is widely used in chemical processing plants, pollution control equipment, marine and offshore industries, food and beverage processing, and the pharmaceutical industry."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is Stainless Steel 317 preferred over 316 in aggressive environments?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stainless Steel 317 has a higher molybdenum content (3–4%) compared to 316, which significantly improves its resistance to localized corrosion like pitting and crevice attack. This makes SS 317 the preferred choice for severe chemical, marine, and acidic service conditions where SS 316 may not provide adequate durability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who is a reliable supplier of Stainless Steel 317 in India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Moksh Tubes & Fittings LLP is a trusted manufacturer, supplier, exporter, importer, and stockist of Stainless Steel 317 products. They supply pipes, tubes, sheets, plates, bars, flanges, fittings, and fasteners manufactured to international quality standards. With competitive pricing, global supply reliability, and expert technical support, Moksh Tubes & Fittings LLP is a preferred partner for industries worldwide."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection

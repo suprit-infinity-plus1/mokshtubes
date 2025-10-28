@@ -668,3 +668,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Austenitic Stainless Steel 316Ti and how is it different from 316 stainless steel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Austenitic Stainless Steel 316Ti is a titanium stabilized version of SS 316, designed to resist intergranular corrosion caused by carbide precipitation during welding. While both alloys offer excellent corrosion resistance in chloride and acidic environments, 316Ti provides better high temperature strength and stability, making it ideal for continuous service up to 800°C."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main properties of Stainless Steel 316Ti?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SS 316Ti offers superior resistance to intergranular corrosion due to titanium stabilization, excellent performance in chloride and acidic environments, high strength retention at elevated temperatures, good weldability and fabrication properties, and suitability for hygienic and high temperature applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is Stainless Steel 316Ti commonly used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "316Ti stainless steel is used across industries including chemical and petrochemical plants, power generation, marine environments, pharmaceutical and food processing equipment, as well as automotive and aerospace applications for high temperature and corrosion resistance components."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is Stainless Steel 316Ti preferred for high-temperature applications?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The titanium content in SS 316Ti prevents carbide precipitation during welding and prolonged heating, enhancing resistance to intergranular corrosion. This stabilization allows it to maintain mechanical strength and corrosion resistance at temperatures up to 800°C, making it ideal for power plants, heat exchangers, and chemical processing equipment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who is the trusted supplier of Stainless Steel 316Ti in India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Moksh Tubes & Fittings LLP is a leading manufacturer, supplier, exporter, importer, and stockist of Stainless Steel 316Ti products. They offer pipes, tubes, sheets, plates, bars, flanges, fittings, and fasteners manufactured to international standards. With custom sizing, technical support, global supply, and competitive pricing, Moksh Tubes & Fittings LLP is a reliable partner for industries worldwide."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection
