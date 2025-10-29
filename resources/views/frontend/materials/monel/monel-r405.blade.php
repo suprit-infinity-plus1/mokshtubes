@@ -738,3 +738,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "What is Monel R405 and how does it differ from Monel 400?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Monel R405 (UNS N04405) is a nickel-copper alloy that offers the same corrosion resistance and mechanical strength as Monel 400, but with added sulfur content to improve machinability. This modification makes Monel R405 particularly suitable for high-speed automatic screw machines, while still retaining excellent resistance to seawater, acids, alkalis, and high-temperature steam."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What types of Monel R405 products are available at Moksh Tubes & Fittings LLP?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Moksh Tubes & Fittings LLP supplies a wide range of Monel R405 products including seamless and welded pipes, tubes, sheets, plates, coils, round bars, pipe fittings, flanges, fasteners, welding rods, forgings, and custom-machined components. These products are available in both standard and tailor-made dimensions, ensuring reliable performance in marine, oil and gas, chemical, aerospace, and power generation industries."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What are the key benefits of using Monel R405 in industrial applications?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The main advantages of Monel R405 include excellent machinability due to controlled sulfur content, outstanding resistance to seawater and corrosive chemicals, high strength and toughness at both cryogenic and elevated temperatures, and suitability for automated machining processes. These properties make Monel R405 a cost effective and long lasting solution for industries requiring precision components and reliable performance under extreme conditions."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Which industries commonly use Monel R405 alloy products?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Monel R405 is widely used in industries such as marine and offshore engineering, oil and gas exploration, chemical and petrochemical processing, power generation, aerospace, defense, and medical equipment manufacturing. Typical applications include pump shafts, valve stems, fasteners, drill collars, screw machine parts, impellers, turbine components, and electrical sensor housings where machinability and corrosion resistance are equally important."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Why choose Moksh Tubes & Fittings LLP for Monel R405 supply?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Moksh Tubes & Fittings LLP is a leading manufacturer, supplier, and global exporter of Monel R405 products, trusted for its high quality raw materials, precision machining, and customized solutions. With ISO certified processes, quick delivery schedules, and strong global logistics, the company ensures reliable supply for critical industries. Its expertise in Monel alloys and commitment to quality assurance make it the preferred partner for clients worldwide."
+            }
+        }
+    ]
+}
+</script>
+@endverbatim
+@endsection

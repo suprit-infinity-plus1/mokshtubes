@@ -653,3 +653,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Titanium Grade 9?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Titanium Grade 9 (Ti-3Al-2.5V) is a medium-strength titanium alloy that offers excellent corrosion resistance, weldability, and formability. It is ideal for aerospace, marine, chemical, and automotive applications where lightweight yet durable performance is essential."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the common applications of Titanium Grade 9?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Titanium Grade 9 is commonly used in aerospace hydraulic lines, marine tubing, chemical reactors, automotive exhaust systems, medical instruments, and power generation equipment. Its combination of strength, corrosion resistance, and fatigue stability makes it suitable for critical industrial projects."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What products are available in Titanium Grade 9?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP supplies Titanium Grade 9 in the form of pipes, tubes, sheets, plates, coils, bars, fittings, flanges, fasteners, forgings, and custom fabricated components. All products are manufactured and tested to meet global industrial and engineering standards."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is Titanium Grade 9 preferred over other titanium alloys?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Titanium Grade 9 offers a balanced solution between commercially pure titanium and Grade 5, providing a strong, corrosion-resistant, weldable, and formable alloy. It is cost effective for moderate strength applications that require structural reliability and long-term durability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose MOKSH TUBES & FITTINGS LLP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP delivers high performance Titanium Grade 9 products with strict quality control, extensive stock availability, global supply, custom fabrication, timely delivery, and expert technical support, ensuring reliable solutions for industrial and specialized applications."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection

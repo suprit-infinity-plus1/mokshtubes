@@ -716,3 +716,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "What is Monel 400 and why is it widely used?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Monel 400 (UNS N04400) is a nickel-copper solid solution alloy well-known for its exceptional corrosion resistance in seawater, brackish water, chemical processing environments, and acidic conditions. It combines high strength, toughness, and good weldability, making it suitable for industries that demand durability and reliability in aggressive environments."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What types of Monel 400 products are available from Moksh Tubes & Fittings LLP?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Moksh Tubes & Fittings LLP manufactures, supplies, and exports a wide range of Monel 400 products including seamless and welded pipes, tubes, pipe fittings, flanges, fasteners, sheets, plates, coils, bars, wire mesh, welding rods, and custom engineered components, ensuring customers receive solutions tailored to their exact needs."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "In which industries is Monel 400 most commonly used?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Monel 400 is widely used in marine engineering, chemical and petrochemical processing, oil and gas industries, desalination plants, aerospace, defense, power generation, and water treatment systems. Its excellent resistance to seawater, acids, alkalis, and high-pressure environments makes it indispensable in these sectors."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What are the key advantages of choosing Monel 400 over other alloys?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The main advantages of Monel 400 include outstanding resistance to seawater and salt spray, excellent toughness over a wide temperature range, good weldability and formability, and superior performance in both oxidizing and reducing conditions. These properties make it a cost effective solution for long-term, corrosion resistant applications."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Why choose Moksh Tubes & Fittings LLP for Monel 400 products?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Moksh Tubes & Fittings LLP is a trusted manufacturer and global supplier of Monel 400 with in depth expertise in high performance nickel alloys. The company ensures ISO certified quality, precision manufacturing, customized product solutions, timely global delivery, and exceptional customer support, making it the preferred choice for clients worldwide."
+            }
+        }
+    ]
+}
+</script>
+@endverbatim
+@endsection

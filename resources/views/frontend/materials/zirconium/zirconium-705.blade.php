@@ -650,3 +650,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Zirconium 705 and where is it used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Zirconium 705 is a high purity zirconium alloy known for exceptional corrosion resistance in strong acids, alkalis, and hot water. It is widely applied in chemical processing, nuclear reactors, pharmaceuticals, marine systems, and medical devices where purity, durability, and mechanical strength are critical."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the key properties of Zirconium 705?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Zirconium 705 provides high tensile and yield strength, excellent ductility, outstanding weldability, non magnetic behavior, and low neutron absorption. These characteristics make it ideal for nuclear, medical, and high-purity industrial applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which Zirconium 705 products are available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP supplies Zirconium 705 in a variety of forms including seamless and welded pipes, tubes, sheets, plates, coils, bars, flanges, fittings, fasteners, welding rods, and custom-fabricated components tailored to your project requirements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How resistant is Zirconium 705 to corrosion?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Zirconium 705 exhibits superior corrosion resistance in strong acids such as nitric and sulfuric, caustic solutions, seawater, and high purity water systems. Its chemical stability ensures reliability for long term industrial and marine applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose MOKSH TUBES & FITTINGS LLP for Zirconium 705?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We specialize in high-purity zirconium alloys with ASTM/ASME certified manufacturing, access to globally sourced raw materials, and custom fabrication solutions. Our Zirconium 705 products ensure consistent quality, traceability, and dependable supply for demanding industrial projects."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection

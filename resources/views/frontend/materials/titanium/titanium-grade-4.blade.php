@@ -658,3 +658,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "What is Titanium Grade 4 and why is it important?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Titanium Grade 4 is the strongest of all commercially pure titanium grades, offering exceptional strength, corrosion resistance, and weldability while maintaining good formability. It is ideal for demanding applications in aerospace, marine, chemical processing, power generation, and medical sectors."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What types of Titanium Grade 4 products are available?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "MOKSH TUBES & FITTINGS LLP provides a wide range of Titanium Grade 4 products including seamless and welded pipes, tubes (capillary, U-bend, boiler, and heat exchanger), sheets, plates, coils, strips, bars, pipe fittings, flanges, fasteners, welding rods, wire mesh, and custom-fabricated components."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What are the key advantages of Titanium Grade 4?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Titanium Grade 4 offers the highest strength among commercially pure titanium grades, excellent resistance to oxidizing and chloride-rich environments, lightweight durability, biocompatibility for medical use, easy weldability, and high performance in extreme conditions."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Which industries use Titanium Grade 4 products?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Titanium Grade 4 is used in chemical processing (piping, heat exchangers), marine and offshore (ship hulls, underwater systems), aerospace and defense (airframes, hydraulic systems), power generation (nuclear and condenser tubes), medical (implants, instruments), and oil & gas (subsea and wellhead components)."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Why choose MOKSH TUBES & FITTINGS LLP for Titanium Grade 4 products?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "MOKSH TUBES & FITTINGS LLP provides high-quality Titanium Grade 4 materials with precision manufacturing, strict quality assurance, and global supply capability. With extensive expertise in titanium and specialty metals, the company ensures reliability, compliance, and superior customer support."
+            }
+        }
+    ]
+}
+</script>
+@endverbatim
+@endsection

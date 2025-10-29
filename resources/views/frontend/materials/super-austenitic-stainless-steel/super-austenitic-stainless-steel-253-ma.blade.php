@@ -632,3 +632,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is 253 MA stainless steel and its key features?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "253 MA (UNS S30815 / EN 1.4835) is a high-temperature austenitic stainless steel developed for excellent oxidation resistance, high creep strength, and structural stability at elevated temperatures. Containing moderate nickel along with rare earth and alkali metal additions, it performs exceptionally well in high thermal stress, cyclic heating, and corrosive environments, with service temperatures up to 1150°C (2100°F)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What types of 253 MA products does Moksh Tubes & Fittings LLP supply?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Moksh Tubes & Fittings LLP supplies a complete range of 253 MA products including seamless and welded pipes (ERW & EFW), capillary, U-bend, boiler, and heat exchanger tubes, sheets, plates, coils, strips, round bars, flat bars, hex bars, square bars, pipe fittings, flanges, fasteners, wire mesh, and custom-fabricated components designed for high-temperature service."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the advantages of using 253 MA stainless steel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "253 MA offers outstanding oxidation resistance up to 1150°C (2100°F), excellent creep rupture strength, and structural stability at elevated temperatures. It is cost-effective due to lower nickel content compared to other heat-resistant alloys, has good weldability and fabricability, and maintains performance under high stress and corrosive conditions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which industries commonly use 253 MA materials?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "253 MA is used in industries requiring high-temperature strength and corrosion resistance, including heat treatment (furnace parts, rollers, radiant tubes), petrochemical (reformer tubes, burners, catalyst supports), power generation (boilers, superheaters, heat exchangers), cement and lime kilns, incineration, waste processing, and steel and glass manufacturing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose Moksh Tubes & Fittings LLP for 253 MA supply?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Moksh Tubes & Fittings LLP specializes in high-performance heat-resistant alloys like 253 MA, offering EN 10204 3.1 / 3.2 certified materials, ready stock, custom sizes, quick delivery, and metallurgical support. Their global logistics ensure reliable supply and precision-engineered products for demanding applications."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection
