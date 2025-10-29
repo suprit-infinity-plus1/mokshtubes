@@ -159,11 +159,11 @@ class MainController extends Controller
 
         return view('frontend.blogs.maintenance-tips-for-stainless-steel');
     }
-    public function stainlessSteelTubesVsCarbonSteelPipes()
-    {
+    // public function stainlessSteelTubesVsCarbonSteelPipes()
+    // {
 
-        return view('frontend.blogs.stainless-steel-tubes-vs-carbon-steel-pipes');
-    }
+    //     return view('frontend.blogs.stainless-steel-tubes-vs-carbon-steel-pipes');
+    // }
 
 
 

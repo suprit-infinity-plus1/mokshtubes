@@ -1,9 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Moksh Tubes | Pipes, Fittings & Alloys Supplier & Exporter')
+@section('title', 'Premium Stainless Steel & Nickel Alloy Pipes | Moksh Tubes LLP')
 @section('meta_description',
-    'Moksh Tubes LLP is a trusted supplier & exporter of stainless steel, nickel alloy, Incoloy
-    & titanium pipes, fittings & flanges. Serving India & worldwide.')
+    'Leading exporter of stainless steel, nickel alloy & titanium pipes, tubes & fittings. ISO-certified quality, fast quotes & global delivery.')
 @section('meta_keywords', 'Incoloy 825, nickel alloy, corrosion resistant alloy, premium metal alloys, moksh tubes')
 @section('canonical', 'https://mokshtubes.com')
 @section('content')
@@ -26,7 +25,7 @@
                         data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-splitin="none" data-splitout="none"
                         data-responsive_offset="on" data-start="700">
                         <div class="slide-content-box">
-                            <h1>Trusted Stainless Steel & Nickel Alloy<br> Supplier & Exporter Moksh Tubes</h1>
+                            <h1>Stainless Steel & Nickel Alloy Pipes <br> Moksh Tubes LLP
 
                             <p>Seamless & Welded Pipes/Tubes in SS 304/316/321/904L, <br>Inconel & Hastelloy with MTC (EN
                                 10204 3.1), PMI & Hydro Test ready stock</p>

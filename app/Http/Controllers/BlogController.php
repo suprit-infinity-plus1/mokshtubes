@@ -11,15 +11,15 @@ class BlogController extends Controller
     {
         $blogsData = collect([
 
-            [
-                'title' => 'Stainless Steel Tubes vs Carbon Steel Pipes: A Complete Comparison',
-                'author' => 'Jash Jain',
-                'comments' => 16,
-                'date' => 'October 27, 2025',
-                'image' => 'assets/images/blog/Stainless-Steel-Tubes-vs-Carbon-Steel-Pipes-A-Complete-Comparison_11zon.jpeg',
-                'excerpt' => 'Choosing the right material for an industrial or construction piping system',
-                'link' => route('blogs.stainless-steel-tubes-vs-carbon-steel-pipes')
-            ],
+            // [
+            //     'title' => 'Stainless Steel Tubes vs Carbon Steel Pipes: A Complete Comparison',
+            //     'author' => 'Jash Jain',
+            //     'comments' => 16,
+            //     'date' => 'October 27, 2025',
+            //     'image' => 'assets/images/blog/Stainless-Steel-Tubes-vs-Carbon-Steel-Pipes-A-Complete-Comparison_11zon.jpeg',
+            //     'excerpt' => 'Choosing the right material for an industrial or construction piping system',
+            //     'link' => route('blogs.stainless-steel-tubes-vs-carbon-steel-pipes')
+            // ],
             [
                 'title' => 'Maintenance Tips for Stainless Steel Tubes to Prevent Rust',
                 'author' => 'Jash Jain',
