@@ -159,7 +159,7 @@
 
                             <!-- Right: Image -->
                             <div class="col-lg-6 d-flex align-items-center">
-                                <img src="{{ asset('assets/images/calculator/stainless_steel_sheets_plates.png') }}" class="img-fluid rounded border w-100"
+                                <img src="{{ asset('assets/images/calculator/steel-sheets-plates.png') }}" class="img-fluid rounded border w-100"
                                     alt="Steel Sheet Image">
                             </div>
                         </div>
@@ -697,7 +697,7 @@
 
                             <!-- Right: Image -->
                             <div class="col-lg-6 d-flex align-items-center">
-                                <img src="{{ asset('assets/images/calculator/Equal-angles.png') }}" class="img-fluid rounded border w-100"
+                                <img src="{{ asset('assets\images\calculator\Equal-angles.png') }}" class="img-fluid rounded border w-100 object-fit-cover"
                                     alt="Placeholder Image for Equal Angles">
                             </div>
                         </div>
@@ -802,7 +802,7 @@
 
                             <!-- Right: Image -->
                             <div class="col-lg-6 d-flex align-items-center">
-                                <img src="{{ asset('assets/images/calculator/Unequalangles.jpg') }}" class="img-fluid rounded border w-100"
+                                <img src="{{ asset('assets/images/calculator/unequal-angles.png') }}" class="img-fluid rounded border w-100"
                                     alt="Placeholder Image for Unequal Angles">
                             </div>
                         </div>
@@ -1206,7 +1206,7 @@
 
                             <!-- Right: Image -->
                             <div class="col-lg-6 d-flex align-items-center">
-                                <img src="{{ asset('assets/images/calculator/Beams-HEA(IPBL).jpg') }}" class="img-fluid rounded border w-100"
+                                <img src="{{ asset('assets/images/calculator/Beams-HEA(IPBL) .jpg') }}" class="img-fluid rounded border w-100"
                                     alt="HEA Beam Illustration" />
                             </div>
                         </div>
