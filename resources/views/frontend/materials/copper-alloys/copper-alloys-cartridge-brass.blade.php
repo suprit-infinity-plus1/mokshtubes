@@ -645,3 +645,56 @@
 
 
 @endsection
+@section('jsscripts')
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Cartridge Brass C26000 and why is it called 70/30 Brass?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cartridge Brass C26000, also known as 70/30 Brass, is a copper zinc alloy containing approximately 70% copper and 30% zinc. It is recognized for its excellent cold workability, high ductility, attractive golden-yellow color, and strong corrosion resistance. The name 'Cartridge Brass' comes from its traditional use in ammunition cases and bullet jackets due to its superior formability and strength."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main benefits of using C26000 Cartridge Brass?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The main benefits of using C26000 Cartridge Brass include outstanding cold working properties, excellent corrosion resistance, bright decorative finish, good strength with moderate electrical and thermal conductivity, easy soldering and brazing, and versatility across industries."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is Cartridge Brass C26000 commonly used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "C26000 Cartridge Brass is used in ammunition manufacturing (cartridge cases, bullet jackets), architecture and decoration (door handles, trim, railings, nameplates), plumbing and HVAC (valves, fittings, radiators), electrical and electronics (connectors, terminals), musical instruments (trumpets, saxophones), and industrial equipment (heat exchangers, condenser tubes, radiator cores)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Cartridge Brass C26000 products does MOKSH TUBES & FITTINGS LLP supply?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP supplies Seamless and Welded Pipes, Tubes, Sheets, Plates, Coils, Strips, Round Bars, Hex Bars, Square Bars, Flats, Pipe Fittings, Flanges, Fasteners, and Custom Fabricated Components. All products comply with international quality standards for industrial, architectural, and engineering applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose MOKSH TUBES & FITTINGS LLP for Cartridge Brass C26000 materials?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP is a trusted manufacturer, exporter, importer, and stockist with over a decade of expertise. The company provides high-precision processing, rapid global delivery, strict adherence to ASTM standards, competitive pricing, and consistent quality for every order."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection

@@ -45,7 +45,7 @@
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" /> --}}
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/images/favicon/apple-touch-icon.png') }}">
     <link rel="icon" type="image/png" href="{{ asset('assets/images/favicon/logo-moksh-32x32.png') }}"
         sizes="32x32">
     <link rel="icon" type="image/png" href="{{ asset('assets/images/favicon/logo-moksh-16x16.png') }}"
@@ -348,9 +348,9 @@
                                         </li>
 
 
-                                        <li class="nav-item"><a class="nav-link" href="#">QUALITY</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">Quality</a></li>
                                         <li class="nav-item"><a class="nav-link"
-                                                href="{{ route('calculator') }}">CALCULATOR</a></li>
+                                                href="{{ route('calculator') }}">Calculator</a></li>
                                         <li class="nav-item"><a class="nav-link"
                                                 href="{{ route('blogs') }}">Blogs</a></li>
                                     </ul>
@@ -398,8 +398,8 @@
                                             </ul>
                                             {{-- <li><a href="{{ route('materials') }}">MATERIALS</a></li> --}}
 
-                                        <li><a href="#">QUALITY</a></li>
-                                        <li><a href="{{ route('calculator') }}">CALCULATOR</a></li>
+                                        <li><a href="#">Quality</a></li>
+                                        <li><a href="{{ route('calculator') }}">Calculator</a></li>
                                         <li><a href="{{ route('blogs') }}">Blogs</a></li>
 
                                     </ul>
@@ -824,7 +824,7 @@ z-index:99;">
     </div>
 </body>
 
- @yield('jsscripts')
- 
+@yield('jsscripts')
+
 
 </html>

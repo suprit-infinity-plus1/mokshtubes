@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title', 'Stainless Steel 420 | Mokshtubes Sheets & Bars Dealer')
-@section('meta_description', 'Reliable Stainless Steel 420 sheets, bars & coils from Mokshtubes offering corrosion resistance, hardness & durability for precision engineering applications.')
+@section('meta_description', 'Stainless Steel 420 sheets, bars & coils from MokshTubes – corrosion-resistant, durable, and hard, perfect for precision engineering applications.')
 @section('meta_keywords', 'Stainless Steel 420, AISI 420, UNS S42000, martensitic stainless steel, stainless steel sheets, stainless steel bars, stainless steel coils, corrosion-resistant stainless steel, high-strength stainless steel, precision engineering materials, wear-resistant stainless steel')
 
 @section('content')
@@ -574,4 +574,56 @@
 
 
 
+@endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "What is 420 Stainless Steel?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "420 is a high-carbon martensitic stainless steel known for good hardness, corrosion resistance, and excellent polishability, often used in cutting tools and precision instruments."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What are its key properties?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "High hardness after heat treatment, good wear resistance, moderate corrosion resistance, and good machinability."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Where is it used?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Commonly used in cutlery, surgical instruments, bearings, valve parts, and precision tools."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Is it weldable?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Welding is possible but limited; preheating and post-weld heat treatment are recommended to maintain properties."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Why choose MOKSH TUBES & FITTINGS LLP for SS 420?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Mokshtubes offers premium 420 stainless steel with guaranteed quality, precision manufacturing, extensive stock, and reliable global delivery."
+            }
+        }
+    ]
+}
+</script>
+@endverbatim
 @endsection

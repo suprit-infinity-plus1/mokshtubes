@@ -1,7 +1,8 @@
 @extends('layouts.master')
 @section('title', 'Capillary Tubes | Stainless Steel & Nickel Alloy Tubes – Moksh Tubes') <!-- 52 characters -->
 @section('meta_description',
-    'Moksh Tubes offers premium capillary tubes with exceptional precision, durability, and reliability for industrial, medical, and high-performance applications.') <!-- 153 characters -->
+    'Moksh Tubes provides premium capillary tubes with precision, durability, and reliability
+    for industrial, medical, and high-performance applications.')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
@@ -25,7 +26,8 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/peoduct/capillary-tubes.webp') }}" alt="Capillary Tubes" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/peoduct/capillary-tubes.webp') }}" alt="Capillary Tubes"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Right Content -->
@@ -35,19 +37,22 @@
                         <a href="{{ route('products') }}">products</a> with extremely small diameters designed for
                         applications requiring high accuracy,
                         controlled flow, and superior surface finish. These tubes are widely used in medical,
-                        instrumentation, refrigeration, and chemical industries where micro-level precision and reliability
+                        instrumentation, refrigeration, and chemical industries where micro level precision and reliability
                         are essential.
                     </p>
                     <p class="fs-6 mb-3 text-justify">
                         Made from high-quality <a href="{{ route('materials.super-Austenitic-Stainless-Steel') }}">stainless
                             steel</a>,<a href="{{ route('materials.nickel-Based-Superalloys') }}"> nickel alloys</a>, <a
                             href="{{ route('materials.titanium') }}">titanium</a>, and other specialty materials,
-                        capillary tubes offer excellent corrosion resistance, mechanical strength, and durability. Their
+                        capillary tubes offer excellent corrosion resistance, mechanical <a
+                            href="{{ route('materials.high-strength-stainless-steel') }}">strength</a>, and durability.
+                        Their
                         tight dimensional tolerances and smooth internal surfaces make them indispensable for sensitive
                         applications like chromatography, thermocouples, and hydraulic systems.
                     </p>
                     <p class="fs-6 mb-3 text-justify">
-                        <strong class="text-black"> Moksh Tubes & Fittings LLP</strong>, we produce capillaries to ASTM,
+                        <strong class="text-black"> <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a></strong>,
+                        we produce capillaries to ASTM,
                         ASME, and
                         international standards,
                         ensuring consistency, quality, and performance. Our advanced manufacturing techniques, including
@@ -78,7 +83,9 @@
                             <tbody class="text-start">
                                 <tr class="t-row">
                                     <td>Material</td>
-                                    <td>Stainless Steel, Duplex & Super Duplex, Nickel Alloys, Inconel, Monel, Titanium,
+                                    <td>Stainless Steel, <a href="{{ route('materials.duplex-and-super-duplex') }}">Duplex &
+                                            Super Duplex</a>, Nickel Alloys, Inconel, <a
+                                            href="{{ route('materials.monel') }}">Monel</a>, Titanium,
                                         Copper Alloys</td>
                                 </tr>
                                 <tr class="t-row">
@@ -99,11 +106,11 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Finishes</td>
-                                    <td>Bright Annealed, Electro-Polished, Matte, Mechanical Polished</td>
+                                    <td>Bright Annealed, Electro Polished, Matte, Mechanical Polished</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>From</td>
-                                    <td>Coiled, Straight Lengths, Cut-to-Length Precision Pieces</td>
+                                    <td>Coiled, Straight Lengths, Cut to Length Precision Pieces</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Standards</td>
@@ -1116,28 +1123,30 @@
                             <tbody>
                                 <tr class="t-row">
                                     <td>Stainless Steel Grades</td>
-                                    <td>304, 304L, 316, 316L, 321, 310 – for medical, food-grade, and precision
+                                    <td><a href="{{ route('materials.austenitic-stainless-Steel') }}">304, 304L, 316, 316L,
+                                            321, 310</a> – for medical, food grade, and precision
                                         applications.</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Nickel Alloys</td>
-                                    <td>Inconel 600, 625, 718 – for high-temperature & corrosive environments.</td>
+                                    <td><a href="{{ route('materials.inconel') }}">Inconel 600, 625, 718</a> – for high
+                                        temperature & corrosive environments.</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Monel Grades</td>
-                                    <td>Monel 400, K500 – for marine and chemical use.</td>
+                                    <td><a href="{{ route('materials.monel') }}">Monel 400, K500</a> – for marine and chemical use.</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Titanium Grades</td>
-                                    <td>Gr. 1, 2, 5 – for aerospace and medical devices.</td>
+                                    <td><a href="{{ route('materials.titanium') }}">Gr. 1, 2, 5</a> – for aerospace and medical devices.</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Duplex & Super Duplex</td>
-                                    <td>2205, S32750 – for offshore and harsh industrial use.</td>
+                                    <td><a href="{{ route('materials.duplex-and-super-duplex') }}">2205, S32750</a> – for offshore and harsh industrial use.</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Copper Alloys</td>
-                                    <td>Cu-Ni 70/30, 90/10 – for refrigeration, marine, and heat-exchanger systems.</td>
+                                    <td><a href="{{ route('materials.copper-Alloys') }}">Cu-Ni 70/30, 90/10</a> – for refrigeration, marine, and heat exchanger systems.</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -1153,12 +1162,13 @@
             <div class="container">
             </div>
 
-             <div class="row">
+            <div class="row">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}" alt="NICKLE ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}"
+                                    alt="NICKLE ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1170,7 +1180,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}" alt="STAINLESS STEEL">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}"
+                                    alt="STAINLESS STEEL">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1182,7 +1193,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}" alt="DUPLEX & SUPER">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}"
+                                    alt="DUPLEX & SUPER">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1195,7 +1207,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="##">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}" alt="TITANIUM ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}"
+                                    alt="TITANIUM ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1207,7 +1220,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}" alt="RARE TO ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}"
+                                    alt="RARE TO ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1219,7 +1233,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}" alt="CARBON ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}"
+                                    alt="CARBON ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1234,211 +1249,6 @@
 
 
     {{-- Applications --}}
-    {{-- <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Application</h2>
-            </div>
-            <p class="mb-4">
-                Welded pipes and tubes are indispensable components in numerous industries due to their exceptional
-                strength, precise dimensional accuracy, and cost-effectiveness. These versatile products are widely utilized
-                for structural purposes and fluid transport systems, particularly in demanding environments.
-            </p>
-            <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            1. Oil and Gas Industry
-                        </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>Welded pipes and tubes find extensive use in the energy sector, including:</strong>
-                            <ul>
-                                <li>
-                                    Onshore and offshore pipeline networks
-                                </li>
-                                <li>
-                                    Crude oil and natural gas transmission systems
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            2. Power Generation
-                        </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>Power plants rely on welded pipes and tubes to ensure operational efficiency in areas
-                                such as:</strong>
-                            <ul>
-                                <li>
-                                    Boiler tubes, superheaters, and economizers
-                                </li>
-                                <li>
-                                    Condensers and feedwater systems
-                                </li>
-                                <li>
-                                    Heat recovery steam generators (HRSG)
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            3. Chemical and Petrochemical Industry
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>For handling corrosive substances and high-pressure environments, welded pipes and tubes
-                                are essential in:</strong>
-                            <ul>
-                                <li>
-                                    Transporting corrosive fluids and gases
-                                </li>
-                                <li>
-                                    Process piping within chemical reactors
-                                </li>
-                                <li>
-                                    Distillation and separation systems
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            4. Construction and Infrastructure
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>Welded pipes and tubes are critical in the construction sector for:</strong>
-                            <ul>
-                                <li>
-                                    Building structures and architectural frameworks
-                                </li>
-                                <li>
-                                    Bridges, tunnels, and industrial sheds
-                                </li>
-                                <li>
-                                    Water distribution and sewage systems
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            5. Automotive and Transport
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>The automotive and heavy transport industries heavily utilize welded pipes and tubes
-                                for:</strong>
-                            <ul>
-                                <li>
-                                    Exhaust systems and fuel lines
-                                </li>
-                                <li>
-                                    Hydraulic systems and structural components
-                                </li>
-                                <li>
-                                    Roll cages and chassis frameworks
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            6. Food, Beverage, and Dairy Processing
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>Hygienic-grade welded pipes and tubes ensure safe and sanitary applications in:</strong>
-                            <ul>
-                                <li>
-                                    Sanitary fluid transfer systems
-                                </li>
-                                <li>
-                                    Process lines for dairy and beverage production
-                                </li>
-                                <li>
-                                    Clean-in-place (CIP) and sterilization systems
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            7. Marine and Shipbuilding
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>Welded pipes and tubes also serve an integral role in:</strong>
-                            <ul>
-                                <li>
-                                    Seawater piping systems
-                                </li>
-                                <li>
-                                    Ballast and bilge systems
-                                </li>
-                                <li>
-                                    Structural frameworks for ships and offshore platforms
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            8. HVAC and Plumbing
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>Welded pipes and tubes provide reliable solutions for the HVAC and plumbing sectors,
-                                including:</strong>
-                            <ul>
-                                <li>
-                                    Hot and cold water distribution
-                                </li>
-                                <li>
-                                    Heating, ventilation, and air conditioning systems
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> --}}
-
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
@@ -1572,7 +1382,7 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h4>Corrosion-Resistant Performance</h4>
+                        <h4>Corrosion Resistant Performance</h4>
                         <h5>Offers corrosion resistance in harsh chemical or marine environments</h5>
                     </div>
                 </div>
@@ -1622,7 +1432,7 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h4>Wide Material Selection </h4>
+                        <h4>Wide <a href="{{ route('materials') }}">Material</a> Selection </h4>
                         <h5>Compatible with a variety of specialized alloys.</h5>
                     </div>
                 </div>
@@ -1639,7 +1449,7 @@
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
                         <h4>Lightweight & Strong </h4>
-                        <h5>Small diameter with exceptional strength-to-weight ratio.</h5>
+                        <h5>Small diameter with exceptional strength to weight ratio.</h5>
                     </div>
                 </div>
 

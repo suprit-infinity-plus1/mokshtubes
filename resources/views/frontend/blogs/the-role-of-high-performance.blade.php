@@ -2,8 +2,7 @@
 
 @section('title', 'The Role of High-Performance Alloys in Desalination Plants')
 @section('meta_description',
-    'Learn how high-performance alloys like SMO 254 stainless steel boost durability and
-    efficiency in desalination plants while resisting seawater corrosion.')
+    'Discover how SMO 254 stainless steel enhances durability and efficiency in desalination plants, offering superior resistance to seawater corrosion.')
 
 
 @section('content')

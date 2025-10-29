@@ -2,7 +2,7 @@
 
 @section('title', 'Beryllium Copper Alloy | High Conductivity & Durability')
 
-@section('meta_description', 'Beryllium Copper – premium alloy offering superior electrical conductivity, exceptional strength, and wear resistance for demanding industrial applications.')
+@section('meta_description', 'BBeryllium Copper – premium alloy with superior electrical conductivity, exceptional strength, and wear resistance for industrial applications')
 
 @section('meta_keywords', 'Beryllium Copper, high conductivity copper alloy, durable copper alloy, wear resistant copper, electrical copper alloy, industrial copper alloy')
 
@@ -649,4 +649,56 @@
 
 
 
+@endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Beryllium Copper and what are its key properties?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Beryllium Copper (CuBe) is a high-performance copper alloy containing 0.4%–2% beryllium. It is valued for its exceptional strength, electrical and thermal conductivity, non-magnetic behavior, and corrosion resistance. It can be heat treated for even higher mechanical strength, making it ideal for demanding applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main applications of Beryllium Copper?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Beryllium Copper is widely used in electrical and electronics, aerospace and defense, marine engineering, oil and gas, automotive, and tooling industries. Common applications include connectors, contacts, springs, non-sparking tools, valve components, bearings, molds, and aerospace hardware."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is Beryllium Copper preferred over other copper alloys?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Unlike standard copper alloys, Beryllium Copper provides a unique balance of high strength and conductivity. It offers better fatigue resistance, non-sparking safety, and non-magnetic properties, making it superior in critical environments like offshore platforms, defense systems, and high-precision electrical components."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Beryllium Copper products does MOKSH TUBES & FITTINGS LLP supply?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We manufacture and stock a wide range of Beryllium Copper products, including pipes, tubes, sheets, plates, coils, bars, wires, foils, forgings, pipe fittings, flanges, fasteners, and custom fabricated components, all produced to international standards such as ASTM, AMS, and DIN."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose MOKSH TUBES & FITTINGS LLP for Beryllium Copper materials?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP is a trusted global supplier offering strict quality control, custom sizes, fast delivery, and compliance with international standards. With our technical expertise, global logistics, and reliable material traceability, we are the preferred choice for high-quality Beryllium Copper solutions."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
 @endsection

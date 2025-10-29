@@ -1,8 +1,9 @@
 @extends('layouts.master')
 @section('title', 'Threaded Rods – Stainless, Galvanized & Alloy Steel') <!-- 52 characters -->
-@section('meta_description',
-    'Moksh Tubes offers premium Threaded Rods in Stainless, Galvanized, Carbon & Alloy Steel with weight charts, sizes, and ASTM & DIN standards.') <!-- 153 characters -->
-@section('meta_keywords', 'Threaded Rods, Stainless Threaded Rods, Galvanized Threaded Rods, Alloy Steel Threaded Rods, Carbon Steel Threaded Rods, Duplex Threaded Rods, Brass Rods, Copper Rods, Titanium Rods, Custom Threaded Rods')
+@section('meta_description', 'Moksh Tubes offers premium Threaded Rods in Stainless, Galvanized, Carbon & Alloy Steel
+    with weight charts, sizes, and ASTM & DIN standards.') <!-- 153 characters -->
+@section('meta_keywords', 'Threaded Rods, Stainless Threaded Rods, Galvanized Threaded Rods, Alloy Steel Threaded Rods,
+    Carbon Steel Threaded Rods, Duplex Threaded Rods, Brass Rods, Copper Rods, Titanium Rods, Custom Threaded Rods')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
@@ -43,7 +44,9 @@
                     <p class="fs-6 mb-3 text-justify">
                         <a href="{{ route('index') }}"><b>Moksh Tubes & Fittings LLP</b></a>, we supply high quality
                         threaded rods in stainless steel, carbon steel,
-                        alloy steel, duplex & super duplex, nickel alloys, titanium, brass, and copper alloys. ASTM, ASME,
+                        alloy steel, <a href="{{ route('materials.duplex-and-super-duplex') }}">duplex & super duplex</a>,
+                        nickel alloys, <a href="{{ route('materials.titanium') }}">titanium</a>, brass, and <a
+                            href="{{ route('materials.copper-Alloys') }}">copper alloys</a>. ASTM, ASME,
                         DIN, ISO, and BS standards, our threaded rods offer strength, corrosion resistance,
                         and reliability for demanding applications worldwide.
                     </p>
@@ -547,7 +550,9 @@
                                 <tr class="t-row">
                                     <td>Stainless Steel</td>
                                     <td>
-                                        304, 304L, 316, 316L, 310, 321 <br>
+                                        <a
+                                            href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-304') }}">304</a>,
+                                        304L, 316, 316L, 310, 321 <br>
                                         <small>(For corrosion resistance in marine, food & pharma industries)</small>
                                     </td>
                                 </tr>
@@ -555,7 +560,7 @@
                                     <td>Carbon & Alloy Steel</td>
                                     <td>
                                         ASTM A193 B7/B7M, A320 L7/L7M, ASTM A307 <br>
-                                        <small>(For structural & high-strength use)</small>
+                                        <small>(For structural & high strength use)</small>
                                     </td>
                                 </tr>
                                 <tr class="t-row">
@@ -568,30 +573,32 @@
                                 <tr class="t-row">
                                     <td>Nickel Alloys</td>
                                     <td>
-                                        Inconel 600/625, Monel 400/K500, Hastelloy C22/C276 <br>
+                                        Inconel 600/625, <a href="{{ route('materials.monel') }}">Monel 400/K500</a>, <a
+                                            href="{{ route('materials.hastelloy') }}">Hastelloy C22/C276</a> <br>
                                         <small>(For extreme heat & corrosive service)</small>
                                     </td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Titanium</td>
                                     <td>
-                                        Grades 2, 5 <br>
-                                        <small>(Lightweight, strong, and corrosion-resistant for aerospace & medical
+                                        <a href="{{ route('materials.titanium') }}">Grades 2, 5</a> <br>
+                                        <small>(Lightweight, strong, and corrosion resistant for aerospace & medical
                                             use)</small>
                                     </td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Copper & Brass</td>
                                     <td>
-                                        C36000 Brass, C11000 Copper <br>
+                                        <a href="{{ route('materials.copper-Alloys') }}">C36000 Brass, C11000 Copper</a>
+                                        <br>
                                         <small>(For decorative, electrical & architectural purposes)</small>
                                     </td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Aluminum</td>
                                     <td>
-                                        6061, 6082 <br>
-                                        <small>(For lightweight fastening & corrosion-prone environments)</small>
+                                        <a href="{{ route('materials.aluminium-Alloys') }}">6061, 6082</a> <br>
+                                        <small>(For lightweight fastening & corrosion prone environments)</small>
                                     </td>
                                 </tr>
                             </tbody>
@@ -609,12 +616,13 @@
             <div class="container">
             </div>
 
-             <div class="row">
+            <div class="row">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}" alt="NICKLE ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}"
+                                    alt="NICKLE ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -626,7 +634,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}" alt="STAINLESS STEEL">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}"
+                                    alt="STAINLESS STEEL">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -638,7 +647,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}" alt="DUPLEX & SUPER">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}"
+                                    alt="DUPLEX & SUPER">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -651,7 +661,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="##">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}" alt="TITANIUM ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}"
+                                    alt="TITANIUM ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -663,7 +674,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}" alt="RARE TO ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}"
+                                    alt="RARE TO ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -675,7 +687,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}" alt="CARBON ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}"
+                                    alt="CARBON ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -690,210 +703,6 @@
 
 
     {{-- Applications --}}
-    {{-- <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Application</h2>
-            </div>
-            <p class="mb-4">
-                Welded pipes and tubes are indispensable components in numerous industries due to their exceptional
-                strength, precise dimensional accuracy, and cost-effectiveness. These versatile products are widely utilized
-                for structural purposes and fluid transport systems, particularly in demanding environments.
-            </p>
-            <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            1. Oil and Gas Industry
-                        </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>Welded pipes and tubes find extensive use in the energy sector, including:</strong>
-                            <ul>
-                                <li>
-                                    Onshore and offshore pipeline networks
-                                </li>
-                                <li>
-                                    Crude oil and natural gas transmission systems
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            2. Power Generation
-                        </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>Power plants rely on welded pipes and tubes to ensure operational efficiency in areas
-                                such as:</strong>
-                            <ul>
-                                <li>
-                                    Boiler tubes, superheaters, and economizers
-                                </li>
-                                <li>
-                                    Condensers and feedwater systems
-                                </li>
-                                <li>
-                                    Heat recovery steam generators (HRSG)
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            3. Chemical and Petrochemical Industry
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>For handling corrosive substances and high-pressure environments, welded pipes and tubes
-                                are essential in:</strong>
-                            <ul>
-                                <li>
-                                    Transporting corrosive fluids and gases
-                                </li>
-                                <li>
-                                    Process piping within chemical reactors
-                                </li>
-                                <li>
-                                    Distillation and separation systems
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            4. Construction and Infrastructure
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>Welded pipes and tubes are critical in the construction sector for:</strong>
-                            <ul>
-                                <li>
-                                    Building structures and architectural frameworks
-                                </li>
-                                <li>
-                                    Bridges, tunnels, and industrial sheds
-                                </li>
-                                <li>
-                                    Water distribution and sewage systems
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            5. Automotive and Transport
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>The automotive and heavy transport industries heavily utilize welded pipes and tubes
-                                for:</strong>
-                            <ul>
-                                <li>
-                                    Exhaust systems and fuel lines
-                                </li>
-                                <li>
-                                    Hydraulic systems and structural components
-                                </li>
-                                <li>
-                                    Roll cages and chassis frameworks
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            6. Food, Beverage, and Dairy Processing
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>Hygienic-grade welded pipes and tubes ensure safe and sanitary applications in:</strong>
-                            <ul>
-                                <li>
-                                    Sanitary fluid transfer systems
-                                </li>
-                                <li>
-                                    Process lines for dairy and beverage production
-                                </li>
-                                <li>
-                                    Clean-in-place (CIP) and sterilization systems
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            7. Marine and Shipbuilding
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>Welded pipes and tubes also serve an integral role in:</strong>
-                            <ul>
-                                <li>
-                                    Seawater piping systems
-                                </li>
-                                <li>
-                                    Ballast and bilge systems
-                                </li>
-                                <li>
-                                    Structural frameworks for ships and offshore platforms
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            8. HVAC and Plumbing
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>Welded pipes and tubes provide reliable solutions for the HVAC and plumbing sectors,
-                                including:</strong>
-                            <ul>
-                                <li>
-                                    Hot and cold water distribution
-                                </li>
-                                <li>
-                                    Heating, ventilation, and air conditioning systems
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> --}}
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -931,7 +740,9 @@
                         <h5>Marine & Offshore</h5>
                         <ul>
                             <li>Stainless & duplex threaded rods for docks, jetties, shipbuilding, and offshore rigs</li>
-                            <li>Corrosion-resistant fasteners for saltwater exposure</li>
+                            <li>Corrosion resistant <a
+                                    href="{{ url('products/pipe-fittings-flanges-fasteners/fasteners') }}">fasteners</a>
+                                for saltwater exposure</li>
                             <li>Stainless steel and brass rods offer excellent corrosion resistance</li>
                         </ul>
                     </div>
@@ -946,7 +757,8 @@
                         <h5>Oil, Gas & Petrochemical</h5>
                         <ul>
                             <li>Threaded rods for valves, flanges, pressure vessels, and refinery pipelines</li>
-                            <li>High-strength alloy rods for offshore platforms and chemical plants</li>
+                            <li><a href="{{ route('materials.high-strength-stainless-steel') }}">High strength alloy</a>
+                                rods for offshore platforms and chemical plants</li>
                         </ul>
                     </div>
                 </div>
@@ -1280,7 +1092,7 @@
                     Looking for Custom Steel Furniture that combines design, durability, and value?<br>Contact <strong><a
                             href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a></strong>
                 </p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch

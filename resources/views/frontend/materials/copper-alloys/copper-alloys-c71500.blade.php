@@ -667,3 +667,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Copper Nickel 70/30 (C71500) and why is it widely used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Copper Nickel 70/30, also known as C71500, is an alloy made of 70% copper and 30% nickel with small additions of iron and manganese for added strength. It is highly valued for its exceptional resistance to seawater corrosion, biofouling, and stress corrosion cracking, making it ideal for marine, offshore, and heat exchanger applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the key benefits of Copper Nickel 70/30 (C71500)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "C71500 offers several performance advantages including outstanding seawater corrosion resistance, high mechanical strength and toughness, non-magnetic and spark-resistant properties, excellent weldability, machinability, and formability, and thermal and electrical stability under high pressure and elevated temperatures."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the common applications of Copper Nickel C71500?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "C71500 is widely used in marine engineering (seawater piping, condensers, saltwater flanges, ship hulls, offshore platforms), power plants (heat exchangers, evaporators, condensers), desalination plants (brine heaters, flash chambers, high-pressure piping), chemical processing (acid-resistant piping and vessels), oil & gas (hydraulic lines, firewater systems, instrumentation tubing), and naval & defense applications (submarine components, seawater coolers, anti-fouling systems)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What types of Copper Nickel 70/30 (C71500) products does MOKSH TUBES & FITTINGS LLP supply?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP offers a full range of C71500 Copper Nickel products including seamless and welded pipes, tubes (U-bend, boiler, heat exchanger), sheets, plates, coils, strips, round bars, hex bars, square bars, pipe fittings (elbows, tees, reducers, caps, stub ends), flanges (weld neck, slip on, blind, threaded, socket weld), fasteners (bolts, nuts, washers, studs), and custom fabricated components."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose MOKSH TUBES & FITTINGS LLP for Copper Nickel 70/30 (C71500)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP is a leading manufacturer, supplier, and exporter of Copper Nickel 70/30 with in-house manufacturing, a wide product range, fast delivery and customized supply for project needs, stringent quality control with third-party inspection, export-ready packaging, and worldwide delivery. The company is a trusted supplier for marine, power, desalination, oil & gas, and defense industries."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection

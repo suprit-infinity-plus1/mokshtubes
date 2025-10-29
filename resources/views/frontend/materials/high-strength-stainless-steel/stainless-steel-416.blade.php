@@ -577,3 +577,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Stainless Steel 416 and why is it important?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stainless Steel 416 (UNS S41600) is a martensitic stainless steel known for its excellent machinability, moderate corrosion resistance, and good mechanical properties. It is widely used for parts requiring precision machining, including shafts, fasteners, and valves."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the key properties of SS 416?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SS 416 offers outstanding machinability, good hardness after heat treatment, moderate corrosion resistance, and magnetic properties in all conditions. It is easily heat treated to enhance strength and wear performance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is Stainless Steel 416 used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SS 416 is commonly used in valves, pump shafts, fasteners, fittings, and components for automotive, aerospace, and general engineering industries that require high machining efficiency."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Stainless Steel 416 weldable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Stainless Steel 416 can be welded using standard techniques, but due to its sulfur content, care should be taken to minimize cracking. Post-weld heat treatment is recommended to restore corrosion resistance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose MOKSH TUBES & FITTINGS LLP for Stainless Steel 416?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP provides high-quality SS 416 materials, extensive inventories, precision machining, global sourcing, and strict quality control standards — making it a reliable choice for industrial clients worldwide."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection

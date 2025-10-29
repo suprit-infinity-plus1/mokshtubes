@@ -1,8 +1,7 @@
 @extends('layouts.master')
 
 @section('title', 'Aluminium Alloys: 6082, 6061, 5083, HE30 | MokshTubes')
-@section('meta_description', 'Lightweight, corrosion-resistant aluminium alloys at MokshTubes, including 6082, 6061,
-    5083, and HE30, ideal for aerospace, marine, and structural uses.')
+@section('meta_description', 'Lightweight, corrosion-resistant aluminium alloys at MokshTubes — 6082, 6061, 5083 & HE30, ideal for aerospace, marine, and structural uses')
 @section('meta_keywords', 'Aluminium Alloys, 6082, 6061, 5083, HE30, 7075, Aluminium 6082-T6, Aluminium 6061-T6,
     Lightweight Alloys, Corrosion Resistant Aluminium, Aerospace Aluminium Alloys, Marine Aluminium Alloys, Structural
     Aluminium Alloys, Industrial Aluminium Grades')

@@ -1,8 +1,11 @@
 @extends('layouts.master')
 @section('title', 'Flange Gaskets – High-Temperature & Chemical Resistant') <!-- 53 characters -->
 @section('meta_description',
-    'Moksh Tubes provides premium flange gaskets – spiral wound, RTJ, rubber & non-metallic gaskets for industrial sealing and high-temperature applications.') <!-- 153 characters -->
-@section('meta_keywords', 'Flange Gaskets, Industrial Gaskets, Spiral Wound Gaskets, RTJ Gaskets, Rubber Gaskets, Chemical Resistant Gaskets, Non-Metallic Gaskets, Sealing Solutions')
+    'Moksh Tubes provides premium flange gaskets – spiral wound, RTJ, rubber & non-metallic
+    gaskets for industrial sealing and high-temperature applications.') <!-- 153 characters -->
+@section('meta_keywords',
+    'Flange Gaskets, Industrial Gaskets, Spiral Wound Gaskets, RTJ Gaskets, Rubber Gaskets,
+    Chemical Resistant Gaskets, Non-Metallic Gaskets, Sealing Solutions')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
@@ -33,7 +36,7 @@
                 <!-- Right Content -->
                 <div class="col-md-6">
                     <p class="fs-6 mb-3 text-justify">
-                        Gaskets are essential sealing components used to create a pressure-tight seal between two or more
+                        Gaskets are essential sealing components used to create a pressure tight seal between two or more
                         mating surfaces, preventing leakage of liquids or gases under various operating conditions.
                     </p>
                     <p class="fs-6 mb-3 text-justify">
@@ -44,8 +47,10 @@
                     <p class="fs-6 text-justify">
                         <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a>, we supply a comprehensive range of
                         industrial gaskets and seals – from
-                        standard flange gaskets, head gaskets, and rubber gaskets to custom-engineered sealing solutions. We
-                        also provide PTFE gaskets, spiral wound gaskets, graphite gaskets, metal gaskets, and non-asbestos
+                        standard flange gaskets, head gaskets, and rubber gaskets to <a
+                            href="{{ url('products/pipe-fittings-flanges-fasteners/custom-fabricated-fittings') }}">custom
+                            engineered</a> sealing solutions. We
+                        also provide PTFE gaskets, spiral wound gaskets, graphite gaskets, metal gaskets, and non asbestos
                         gaskets.
                 </div>
             </div>
@@ -72,9 +77,9 @@
                                 <tr class="t-row">
                                     <td>Category</td>
                                     <td>
-                                        Non-Metallic (Rubber gaskets, PTFE gaskets, Non-Asbestos gaskets, Graphite gaskets)
+                                        Non Metallic (Rubber gaskets, PTFE gaskets, Non Asbestos gaskets, Graphite gaskets)
                                         <br>
-                                        Semi-Metallic (Spiral Wound gaskets, Corrugated, Kammprofile gaskets) <br>
+                                        Semi Metallic (Spiral Wound gaskets, Corrugated, Kammprofile gaskets) <br>
                                         Metallic (Stainless Steel gaskets, Soft Iron, Inconel)
                                     </td>
                                 </tr>
@@ -117,7 +122,7 @@
             </div>
             <!-- Child Title -->
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Weight Chart</h4>
+                <h3 class="text-center mb-0" style="color: #db7227;">Weight Chart</h3>
             </div>
 
             <div class="table-responsive">
@@ -314,7 +319,7 @@
 
             <!-- Child Title -->
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Expanded Table (for class 150 – Ring Gaskets)</h4>
+                <h3 class="text-center mb-0" style="color: #db7227;">Expanded Table (for class 150 – Ring Gaskets)</h3>
             </div>
 
 
@@ -504,7 +509,7 @@
 
             <!-- Child Title -->
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Expanded Table (for class 150 – 2500 )</h4>
+                <h3 class="text-center mb-0" style="color: #db7227;">Expanded Table (for class 150 – 2500 )</h3>
             </div>
 
 
@@ -661,14 +666,18 @@
                             <tbody>
                                 <tr class="t-row">
                                     <td>Stainless Steel Grades</td>
-                                    <td>304, 304L, 316, 316L <br>
+                                    <td>304, 304L, <a
+                                            href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-316') }}">316,
+                                            316L</a> <br>
                                         <small>(Used for spiral wound gaskets & metallic gaskets)</small>
                                     </td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Alloys</td>
-                                    <td>Inconel, Monel, Hastelloy <br>
-                                        <small>(For high-temperature gaskets)</small>
+                                    <td><a href="{{ route('materials.inconel') }}">Inconel</a>, <a
+                                            href="{{ route('materials.monel') }}">Monel</a>, <a
+                                            href="{{ route('materials.hastelloy') }}">Hastelloy</a> <br>
+                                        <small>(For high temperature gaskets)</small>
                                     </td>
                                 </tr>
                                 <tr class="t-row">
@@ -695,12 +704,13 @@
             <div class="container">
             </div>
 
-             <div class="row">
+            <div class="row">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}" alt="NICKLE ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}"
+                                    alt="NICKLE ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -712,11 +722,14 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}" alt="STAINLESS STEEL">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}"
+                                    alt="STAINLESS STEEL">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0">STAINLESS STEEL</h6>
+                            <!-- <h6 class="mt-0">STAINLESS STEEL</h6> -->
+                            <p class="mt-0" style="font-size: 0.875rem; font-weight: 600;">STAINLESS STEEL</p>
+
                         </div>
                     </div>
                 </div>
@@ -724,7 +737,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}" alt="DUPLEX & SUPER">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}"
+                                    alt="DUPLEX & SUPER">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -737,7 +751,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="##">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}" alt="TITANIUM ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}"
+                                    alt="TITANIUM ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -749,7 +764,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}" alt="RARE TO ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}"
+                                    alt="RARE TO ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -761,7 +777,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}" alt="CARBON ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}"
+                                    alt="CARBON ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -776,211 +793,6 @@
 
 
     {{-- Applications --}}
-    {{-- <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Application</h2>
-            </div>
-            <p class="mb-4">
-                Welded pipes and tubes are indispensable components in numerous industries due to their exceptional
-                strength, precise dimensional accuracy, and cost-effectiveness. These versatile products are widely utilized
-                for structural purposes and fluid transport systems, particularly in demanding environments.
-            </p>
-            <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            1. Oil and Gas Industry
-                        </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>Welded pipes and tubes find extensive use in the energy sector, including:</strong>
-                            <ul>
-                                <li>
-                                    Onshore and offshore pipeline networks
-                                </li>
-                                <li>
-                                    Crude oil and natural gas transmission systems
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            2. Power Generation
-                        </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>Power plants rely on welded pipes and tubes to ensure operational efficiency in areas
-                                such as:</strong>
-                            <ul>
-                                <li>
-                                    Boiler tubes, superheaters, and economizers
-                                </li>
-                                <li>
-                                    Condensers and feedwater systems
-                                </li>
-                                <li>
-                                    Heat recovery steam generators (HRSG)
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            3. Chemical and Petrochemical Industry
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>For handling corrosive substances and high-pressure environments, welded pipes and tubes
-                                are essential in:</strong>
-                            <ul>
-                                <li>
-                                    Transporting corrosive fluids and gases
-                                </li>
-                                <li>
-                                    Process piping within chemical reactors
-                                </li>
-                                <li>
-                                    Distillation and separation systems
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            4. Construction and Infrastructure
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>Welded pipes and tubes are critical in the construction sector for:</strong>
-                            <ul>
-                                <li>
-                                    Building structures and architectural frameworks
-                                </li>
-                                <li>
-                                    Bridges, tunnels, and industrial sheds
-                                </li>
-                                <li>
-                                    Water distribution and sewage systems
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            5. Automotive and Transport
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>The automotive and heavy transport industries heavily utilize welded pipes and tubes
-                                for:</strong>
-                            <ul>
-                                <li>
-                                    Exhaust systems and fuel lines
-                                </li>
-                                <li>
-                                    Hydraulic systems and structural components
-                                </li>
-                                <li>
-                                    Roll cages and chassis frameworks
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            6. Food, Beverage, and Dairy Processing
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>Hygienic-grade welded pipes and tubes ensure safe and sanitary applications in:</strong>
-                            <ul>
-                                <li>
-                                    Sanitary fluid transfer systems
-                                </li>
-                                <li>
-                                    Process lines for dairy and beverage production
-                                </li>
-                                <li>
-                                    Clean-in-place (CIP) and sterilization systems
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            7. Marine and Shipbuilding
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>Welded pipes and tubes also serve an integral role in:</strong>
-                            <ul>
-                                <li>
-                                    Seawater piping systems
-                                </li>
-                                <li>
-                                    Ballast and bilge systems
-                                </li>
-                                <li>
-                                    Structural frameworks for ships and offshore platforms
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            8. HVAC and Plumbing
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>Welded pipes and tubes provide reliable solutions for the HVAC and plumbing sectors,
-                                including:</strong>
-                            <ul>
-                                <li>
-                                    Hot and cold water distribution
-                                </li>
-                                <li>
-                                    Heating, ventilation, and air conditioning systems
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> --}}
-
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
@@ -1100,8 +912,8 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-water"></i></div>
-                        <h4>Leak-Proof Sealing</h4>
-                        <h5>Provide leak-proof sealing between flange joints.</h5>
+                        <h4>Leak Proof Sealing</h4>
+                        <h5>Provide leak proof sealing between flange joints.</h5>
                     </div>
                 </div>
 
@@ -1117,7 +929,7 @@
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
                         <h4>High Pressure & Temperature Resistance</h4>
-                        <h5>Withstand high-pressure gaskets and high-temperature gaskets.</h5>
+                        <h5>Withstand high pressure gaskets and high temperature gaskets.</h5>
                     </div>
                 </div>
 

@@ -659,3 +659,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Austenitic Stainless Steel 321 and how does it differ from 304 stainless steel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Austenitic Stainless Steel 321 is a titanium-stabilized grade of stainless steel designed to resist intergranular corrosion caused by carbide precipitation at elevated temperatures (427–816°C). Unlike SS 304, which can suffer from sensitization, SS 321 maintains stability and strength in high temperature applications, making it ideal for heat exchangers, furnace parts, and aerospace components."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main properties of Stainless Steel 321?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Key properties of SS 321 include: Titanium stabilization for resistance against carbide precipitation; excellent oxidation resistance up to 900°C (1652°F); superior creep strength compared to 304 stainless steel; good weldability and formability for fabrication; retains mechanical properties even during long term high-temperature exposure."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is Stainless Steel 321 commonly used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SS 321 is widely used in industries that require high strength and corrosion resistance at elevated temperatures, including aerospace and aviation, power generation and refinery equipment, chemical and petrochemical industry, food and beverage processing, marine applications, and furnace components."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is Stainless Steel 321 preferred for high temperature applications?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SS 321 contains titanium, which prevents chromium carbide formation during welding and prolonged heating. This ensures resistance to intergranular corrosion, while maintaining mechanical strength and oxidation resistance up to 900°C. These features make it highly reliable for thermal equipment, power plants, aerospace, and furnace components."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who is a trusted supplier of Stainless Steel 321 in India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Moksh Tubes & Fittings LLP is a leading manufacturer, supplier, exporter, importer, and stockist of Stainless Steel 321 products, including pipes, tubes, sheets, plates, bars, fittings, and flanges. With ISO and PED certifications, strict quality control, custom fabrication, and a global export network, Moksh Tubes & Fittings LLP is a reliable partner for industries worldwide."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection

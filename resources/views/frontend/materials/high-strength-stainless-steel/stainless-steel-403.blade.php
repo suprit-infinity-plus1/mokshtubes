@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title', 'Stainless Steel 403 | Fittings & Fasteners Exporters')
-@section('meta_description', 'Trusted Stainless Steel 403 fittings & fasteners with excellent strength & corrosion resistance for engineering, automotive & power generation applications.')
+@section('meta_description', 'Stainless Steel 403 fittings & fasteners – strong, corrosion-resistant, ideal for engineering, automotive, and power generation applications.')
 @section('meta_keywords', 'Stainless Steel 403, AISI 403, UNS S40300, martensitic stainless steel, stainless steel fittings, stainless steel fasteners, corrosion-resistant stainless steel, high-strength stainless steel, engineering applications stainless steel, automotive stainless steel components, power generation stainless steel parts')
 
 @section('content')
@@ -612,4 +612,56 @@
 
 
 
+@endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is 403 Stainless Steel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "403 is a martensitic stainless steel offering good corrosion resistance, high strength, and ease of machining, often used in engineering applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are its key properties?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Good tensile strength, moderate corrosion resistance, excellent wear resistance, and good hardness."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is it used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Automotive components, turbine blades, valve parts, shafts, and general engineering applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it weldable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Welding is possible with proper preheating and post-weld heat treatment to prevent cracking."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose Mokshtubes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mokshtubes supplies high-quality 403 stainless steel with precision manufacturing, reliable quality, and global delivery."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
 @endsection

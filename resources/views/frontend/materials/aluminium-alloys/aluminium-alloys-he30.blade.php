@@ -626,3 +626,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Aluminium Alloy HE30 used for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aluminium HE30 is an aerospace-grade aluminium alloy widely used in aircraft structures, defense equipment, automotive parts, and high performance sports gear. Its high strength to weight ratio makes it ideal for industries requiring both lightweight and durability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the key properties of Aluminium HE30?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "HE30 aluminium offers high tensile strength, excellent fatigue resistance, good machinability, and moderate corrosion resistance. It can also be anodized for improved surface protection, making it suitable for aerospace, defense, and automotive industries."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How strong is Aluminium HE30 compared to other aluminium alloys?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aluminium HE30, part of the 7000 series alloys, is stronger than most 6000 series alloys like 6061 and 6082. With tensile strength ranging from 200–310 MPa, HE30 is specifically engineered for aerospace and defense applications where strength and performance are critical."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Aluminium HE30 be welded and machined?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Aluminium HE30 has good machinability, allowing it to be shaped into complex components. However, like many 7000 series alloys, its weldability is limited, and special care must be taken when welding to maintain mechanical properties."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I buy Aluminium HE30 in India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can buy premium quality Aluminium HE30 sheets, plates, bars, rods, extrusions, and custom components from Moksh Tubes & Fittings LLP, a trusted manufacturer, supplier, exporter, and stockist. They provide aerospace-grade certified materials with global delivery and competitive pricing."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection

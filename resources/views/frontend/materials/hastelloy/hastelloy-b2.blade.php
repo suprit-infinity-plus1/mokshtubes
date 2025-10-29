@@ -1,8 +1,7 @@
 @extends('layouts.master')
 
 @section('title', 'Hastelloy B2 | Premium Acid-Resistant Nickel Alloy')
-@section('meta_description', 'Hastelloy B2 pipes, tubes & fittings offer exceptional resistance to hydrochloric acid and
-    strong performance in reducing acids for chemical processing.')
+@section('meta_description', 'Hastelloy B2 pipes, tubes, and fittings provide exceptional resistance to hydrochloric acid and outstanding performance in reducing acids for chemical processing.')
 @section('meta_keywords', 'Hastelloy B2, acid resistant nickel alloy, corrosion resistant alloy, Hastelloy B2 pipes,
     Hastelloy B2 tubes, Hastelloy B2 fittings, hydrochloric acid resistant, sulfuric acid resistant, chemical processing
     alloys, industrial corrosion resistant alloys, durable nickel alloys')
@@ -683,4 +682,56 @@
 
 
 
+@endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Hastelloy B2 and what are its properties?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hastelloy B2 is a nickel-molybdenum alloy designed for outstanding resistance to reducing acids. It maintains strength at moderate to elevated temperatures, offers excellent ductility, weldability, and resists stress corrosion cracking, pitting, and crevice attack."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which Hastelloy B2 products are available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Products include seamless and welded pipes, tubes (capillary, U-bend, boiler, heat exchanger), sheets, plates, coils, strips, bars (round, flat, hex, square), pipe fittings, flanges, fasteners, wires, welding rods, wire mesh, and custom-fabricated components."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the key advantages of Hastelloy B2?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hastelloy B2 provides exceptional resistance to hydrochloric, sulfuric, acetic, and phosphoric acids, excellent weldability, low sensitization risk, structural integrity under high temperatures, and reliable performance in chemical handling equipment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "In which industries is Hastelloy B2 used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It is widely used in chemical processing, pickling and acid regeneration, agrochemical and fertilizer production, pharmaceutical and fine chemicals, electronics and semiconductor manufacturing, and waste treatment systems."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose MOKSH TUBES & FITTINGS for Hastelloy B2?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We deliver pure and alloyed Hastelloy B2 in multiple forms, offer precision fabrication, maintain ISO certified quality systems, provide end to end supply chain support, and ensure responsive technical assistance with global delivery."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
 @endsection

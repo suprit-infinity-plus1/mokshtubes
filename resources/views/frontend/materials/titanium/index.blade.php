@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title', 'Titanium Alloys – Lightweight & High-Strength') <!-- 52 chars -->
-@section('meta_description', 'Explore premium titanium alloys offering high strength, corrosion resistance, and lightweight performance—perfect for aerospace, medical, and industrial use.')
+@section('meta_description', 'Explore premium titanium alloys with high strength, corrosion resistance & lightweight performance for aerospace, medical, and industrial use. edit it for meta description tell me current characters and new')
 @section('meta_keywords', 'Titanium Alloys, Titanium Grades, Lightweight Alloy, High Strength Alloy, Corrosion Resistant Titanium, Aerospace Titanium, Medical Titanium, Industrial Titanium, Titanium Pipes, Titanium Tubes, Titanium Fittings')
 
 @section('content')
@@ -32,7 +32,7 @@
                     ['name' => 'Titanium grade 1', 'slug' => 'titanium-grade-1', 'image' => 'assets/images/titanium/titanium-1.webp'],
                     ['name' => 'Titanium grade 2', 'slug' => 'titanium-grade-2', 'image' => 'assets/images/titanium/titanium-2.webp'],
                     ['name' => 'Titanium grade 4 eli', 'slug' => 'titanium-grade-4-eli', 'image' => 'assets/images/titanium/titanium-4.webp'],
-                    ['name' => 'Titanium grade 4', 'slug' => 'titanium-grade-4', 'image' => 'assets/images/titanium/titanium-4.webp'],
+                    ['name' => 'Titanium grade 4', 'slug' => 'titanium-grade-4', 'image' => 'assets/images/material/titanium-grade4.jpg'],
                     ['name' => 'Titanium grade 5 eli', 'slug' => 'titanium-grade-5-eli', 'image' => 'assets/images/titanium/titanium-5-eli.webp'],
                     ['name' => 'Titanium grade 5', 'slug' => 'titanium-grade-5', 'image' => 'assets/images/titanium/titanium-5.webp'],
                     ['name' => 'Titanium grade 7 nb', 'slug' => 'titanium-grade-7-nb', 'image' => 'assets/images/titanium/titanium-7nb.webp'],

@@ -1763,7 +1763,7 @@
     </section>
 
 
-    {{-- Applications --}}
+    <!-- {{-- Applications --}}
     {{-- <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
@@ -1968,7 +1968,7 @@
             </div>
         </div>
     </section> --}}
-
+ -->
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">

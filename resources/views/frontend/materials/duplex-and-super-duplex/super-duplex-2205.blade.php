@@ -500,3 +500,47 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What makes Super Duplex 2205 superior to standard austenitic stainless steel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It has twice the strength and significantly better resistance to chloride stress corrosion cracking than standard austenitic grades like 304 or 316."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Super Duplex 2205 weldable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, but proper control of heat input and post-weld treatment is essential to maintain corrosion resistance and strength."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is Super Duplex 2205 most commonly used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In offshore oil & gas, desalination plants, chemical processing, and marine applications where corrosion resistance and high strength are critical."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Super Duplex 2205 be used in seawater environments?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, it has excellent resistance to seawater corrosion and chloride-induced stress corrosion cracking."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection

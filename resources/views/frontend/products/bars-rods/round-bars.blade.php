@@ -1,8 +1,9 @@
 @extends('layouts.master')
 @section('title', 'Round Bars – SS, MS, Alloy, Copper & Brass') <!-- 52 characters -->
-@section('meta_description',
-    'Mokshtubes supplies high-quality stainless steel, MS, alloy, copper, brass, nickel & aluminium round bars in various sizes, grades & weight chart.') <!-- 153 characters -->
-@section('meta_keywords', 'Round Bars, Stainless Steel Round Bars, MS Round Bars, Alloy Round Bars, Copper Round Bars, Brass Round Bars, Nickel Round Bars, Aluminium Round Bars')
+@section('meta_description', 'Mokshtubes supplies high quality stainless steel, MS, alloy, copper, brass, nickel &
+    aluminium round bars in various sizes, grades & weight chart.') <!-- 153 characters -->
+@section('meta_keywords', 'Round Bars, Stainless Steel Round Bars, MS Round Bars, Alloy Round Bars, Copper Round Bars,
+    Brass Round Bars, Nickel Round Bars, Aluminium Round Bars')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
@@ -16,7 +17,7 @@
     </section>
 
 
-        <!--End breadcrumb area-->
+    <!--End breadcrumb area-->
 
 
     <section class="sec-padd-top sec-padd-bottom bg-light">
@@ -37,7 +38,8 @@
                     <p class="fs-6 mb-3 text-justify">
                         <strong class="text-black">Round Bars</strong> are solid cylindrical metal bars widely used across
                         construction,
-                        automotive, aerospace, marine, and engineering sectors. Available in different materials, sizes, and
+                        automotive, aerospace, marine, and engineering sectors. Available in different <a
+                            href="{{ route('materials') }}">materials</a>, sizes, and
                         finishes, steel round bars are one of the most versatile raw <a
                             href="{{ route('materials') }}">materials</a> for machining, fabrication,
                         and structural applications.
@@ -48,9 +50,10 @@
                         carbon steel round bars (MS round bars), alloy steel round bars, duplex & super duplex round bars,
                         <a href="{{ route('materials.nickel-Based-Superalloys') }}">nickel alloy</a> round bars, <a
                             href="{{ route('materials.titanium') }}">titanium</a> round bars, aluminium round bars, brass
-                        round bars, and copper
+                        round bars, and <a href="{{ route('materials.copper-Alloys') }}">copper</a>
                         round bars. All our plain round bars and bright steel round bars are manufactured as per ASTM, ASME,
-                        DIN, EN, and JIS standards, ensuring tight tolerances, excellent surface finish, and durability for
+                        DIN, <a href="{{ route('materials.engineering-Steel-grade') }}">EN</a>, and JIS standards, ensuring
+                        tight tolerances, excellent surface finish, and durability for
                         demanding industries.
                     </p>
 
@@ -1341,23 +1344,39 @@
                                 <tr class="t-row">
                                     <td>Stainless Steel Round Bars</td>
                                     <td>
-                                        304 stainless steel round bar, 310 stainless steel round bar, 455 stainless steel
+                                        <a
+                                            href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-304') }}">304
+                                            stainless steel</a> round bar, <a
+                                            href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-310') }}">310
+                                            stainless steel</a> round bar, 455 stainless steel
                                         round bar <br>
-                                        <small>(Corrosion-resistant & hygienic applications)</small>
+                                        <small>(Corrosion resistant & hygienic applications)</small>
                                     </td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Carbon Steel Round Bars (MS Round Bars)</td>
                                     <td>
-                                        ASTM A36, EN8 SS round bar, N8 SS round bar, EN9, IS2062 <br>
-                                        <small>(Widely used in structural, engineering & general fabrication)</small>
+                                        ASTM A36, <a
+                                            href="{{ url('materials/engineering-steels/engineering-steels-en8') }}">EN8</a>
+                                        SS round bar, N8 SS round bar, <a
+                                            href="{{ url('materials/engineering-steels/engineering-steels-en9') }}">EN9</a>,
+                                        IS2062 <br>
+                                        <small>(Widely used in structural, <a
+                                                href="{{ route('materials.engineering-Steel-grade') }}">engineering</a> &
+                                            general fabrication)</small>
                                     </td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Alloy Steel Round Bars</td>
                                     <td>
-                                        EN19, EN24, EN31, 4140, 4130 <br>
-                                        <small>(Ideal for heavy-duty & high strength components)</small>
+                                        EN19, EN24, <a
+                                            href="{{ url('materials/engineering-steels/engineering-steels-en31') }}">EN31</a>,
+                                        4140, <a
+                                            href="{{ url('materials/engineering-steels/engineering-steels-4130') }}">4130</a>
+                                        <br>
+                                        <small>(Ideal for heavy duty & <a
+                                                href="{{ route('materials.high-strength-stainless-steel') }}">high
+                                                strength</a> components)</small>
                                     </td>
                                 </tr>
                                 <tr class="t-row">
@@ -1371,7 +1390,9 @@
                                     <td>Nickel Alloy Round Bars</td>
                                     <td>
                                         Inconel 600 round bar, Inconel 718 round bar, Alloy 600 round bar, Alloy 601 round
-                                        bar, Monel 400 round bar, Waspaloy round bar, 718 Inconel round bar suppliers <br>
+                                        bar, Monel 400 round bar, Waspaloy round bar, <a
+                                            href="{{ url('materials/inconel/inconel-718') }}">718 Inconel</a> round bar
+                                        suppliers <br>
                                         <small>(Designed for extreme heat & corrosive conditions)</small>
                                     </td>
                                 </tr>
@@ -1417,12 +1438,13 @@
             <div class="container">
             </div>
 
-             <div class="row">
+            <div class="row">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}" alt="NICKLE ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}"
+                                    alt="NICKLE ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1434,7 +1456,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}" alt="STAINLESS STEEL">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}"
+                                    alt="STAINLESS STEEL">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1446,7 +1469,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}" alt="DUPLEX & SUPER">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}"
+                                    alt="DUPLEX & SUPER">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1459,7 +1483,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="##">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}" alt="TITANIUM ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}"
+                                    alt="TITANIUM ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1471,7 +1496,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}" alt="RARE TO ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}"
+                                    alt="RARE TO ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1483,7 +1509,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}" alt="CARBON ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}"
+                                    alt="CARBON ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1498,211 +1525,6 @@
 
 
     {{-- Applications --}}
-    {{-- <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Application</h2>
-            </div>
-            <p class="mb-4">
-                Welded pipes and tubes are indispensable components in numerous industries due to their exceptional
-                strength, precise dimensional accuracy, and cost-effectiveness. These versatile products are widely utilized
-                for structural purposes and fluid transport systems, particularly in demanding environments.
-            </p>
-            <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            1. Oil and Gas Industry
-                        </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>Welded pipes and tubes find extensive use in the energy sector, including:</strong>
-                            <ul>
-                                <li>
-                                    Onshore and offshore pipeline networks
-                                </li>
-                                <li>
-                                    Crude oil and natural gas transmission systems
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            2. Power Generation
-                        </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>Power plants rely on welded pipes and tubes to ensure operational efficiency in areas
-                                such as:</strong>
-                            <ul>
-                                <li>
-                                    Boiler tubes, superheaters, and economizers
-                                </li>
-                                <li>
-                                    Condensers and feedwater systems
-                                </li>
-                                <li>
-                                    Heat recovery steam generators (HRSG)
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            3. Chemical and Petrochemical Industry
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>For handling corrosive substances and high-pressure environments, welded pipes and tubes
-                                are essential in:</strong>
-                            <ul>
-                                <li>
-                                    Transporting corrosive fluids and gases
-                                </li>
-                                <li>
-                                    Process piping within chemical reactors
-                                </li>
-                                <li>
-                                    Distillation and separation systems
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            4. Construction and Infrastructure
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>Welded pipes and tubes are critical in the construction sector for:</strong>
-                            <ul>
-                                <li>
-                                    Building structures and architectural frameworks
-                                </li>
-                                <li>
-                                    Bridges, tunnels, and industrial sheds
-                                </li>
-                                <li>
-                                    Water distribution and sewage systems
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            5. Automotive and Transport
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>The automotive and heavy transport industries heavily utilize welded pipes and tubes
-                                for:</strong>
-                            <ul>
-                                <li>
-                                    Exhaust systems and fuel lines
-                                </li>
-                                <li>
-                                    Hydraulic systems and structural components
-                                </li>
-                                <li>
-                                    Roll cages and chassis frameworks
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            6. Food, Beverage, and Dairy Processing
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>Hygienic-grade welded pipes and tubes ensure safe and sanitary applications in:</strong>
-                            <ul>
-                                <li>
-                                    Sanitary fluid transfer systems
-                                </li>
-                                <li>
-                                    Process lines for dairy and beverage production
-                                </li>
-                                <li>
-                                    Clean-in-place (CIP) and sterilization systems
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            7. Marine and Shipbuilding
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>Welded pipes and tubes also serve an integral role in:</strong>
-                            <ul>
-                                <li>
-                                    Seawater piping systems
-                                </li>
-                                <li>
-                                    Ballast and bilge systems
-                                </li>
-                                <li>
-                                    Structural frameworks for ships and offshore platforms
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            8. HVAC and Plumbing
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>Welded pipes and tubes provide reliable solutions for the HVAC and plumbing sectors,
-                                including:</strong>
-                            <ul>
-                                <li>
-                                    Hot and cold water distribution
-                                </li>
-                                <li>
-                                    Heating, ventilation, and air conditioning systems
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> --}}
-
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
@@ -1812,9 +1634,9 @@
             </div>
             <!-- Child Title -->
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Round Bars are used extensively
+                <h3 class="text-center mb-0" style="color: #db7227;">Round Bars are used extensively
                     across multiple
-                    industries, including:</h4>
+                    industries, including:</h3>
             </div>
             <div class="row g-4 mt-4">
 
@@ -2088,7 +1910,7 @@
                     Looking for high quality round bars for your next project?<br>Contact <strong><a
                             href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a></strong>
                 </p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch

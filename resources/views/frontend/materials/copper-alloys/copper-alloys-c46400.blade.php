@@ -682,3 +682,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is C46400 Naval Brass and why is it important?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "C46400 Naval Brass is a copper zinc alloy with 0.75–1% tin, designed to improve corrosion resistance, strength, and durability. It is widely used in marine environments, seawater piping, propeller shafts, and industrial applications due to its excellent dezincification resistance and hot working properties."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main applications of Naval Brass C46400?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "C46400 is commonly used in shipbuilding, marine hardware, condenser tubes, propeller shafts, offshore structures, heat exchangers, desalination plants, bushings, valve stems, bearings, and architectural fittings. Its gold-like finish also makes it popular for decorative and nautical-themed applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the key advantages of using C46400 Naval Brass?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The alloy offers several benefits: Superior corrosion resistance in saltwater and brackish water, high strength and ductility, resistance to dezincification and stress corrosion, good hot formability, and long service life in harsh environments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What types of C46400 Naval Brass products does MOKSH TUBES & FITTINGS LLP supply?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP supplies C46400 Naval Brass pipes, tubes, rods, sheets, plates, coils, flanges, pipe fittings, fasteners, and custom-engineered components — all manufactured to ASTM, DIN, and other global standards."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose MOKSH TUBES & FITTINGS LLP for Naval Brass materials?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP provides high-quality products, custom fabrication, large inventory, export-ready documentation, and expertise in serving marine, shipbuilding, industrial, and desalination sectors worldwide."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection

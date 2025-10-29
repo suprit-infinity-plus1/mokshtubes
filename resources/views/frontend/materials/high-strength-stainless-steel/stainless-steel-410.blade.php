@@ -641,3 +641,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is 410 Stainless Steel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "410 is a martensitic stainless steel that provides good corrosion resistance, excellent hardenability, and high strength, making it ideal for engineering and industrial components."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are its key properties?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It offers high wear resistance, hardness after heat treatment, moderate corrosion resistance, and excellent toughness for mechanical parts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is Stainless Steel 410 used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Commonly used in cutlery, valves, pump components, shafts, and turbine parts across industrial and mechanical sectors."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Stainless Steel 410 weldable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, 410 stainless steel can be welded with proper preheating and post-weld heat treatment to maintain corrosion resistance and mechanical properties."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose MOKSH TUBES & FITTINGS LLP for 410 Stainless Steel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP provides premium-quality 410 stainless steel products with precision manufacturing, extensive global delivery, and strict quality assurance for industrial customers worldwide."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection

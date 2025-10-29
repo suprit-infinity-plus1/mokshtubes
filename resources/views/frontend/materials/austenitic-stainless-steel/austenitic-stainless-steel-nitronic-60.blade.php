@@ -655,3 +655,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Nitronic 60 stainless steel and what makes it unique?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nitronic 60 is an austenitic stainless steel alloy known for its outstanding wear, galling, and corrosion resistance. Unlike conventional stainless steels, it performs exceptionally well in applications where friction, seizing, and pitting are major concerns."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does Nitronic 60 compare to Nitronic 50 or 316 stainless steel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nitronic 60 offers superior resistance to galling and wear compared to Nitronic 50 and stainless steel 316. While 316 is popular for corrosion resistance, Nitronic 60 is preferred for valves, pumps, and high friction components due to its durability under sliding and abrasive conditions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the common applications of Nitronic 60 stainless steel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nitronic 60 is used in chemical processing, marine, power generation, and industrial machinery industries. Typical applications include valves, pumps, bearings, fasteners, downhole tools, and components exposed to seawater or high friction environments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Nitronic 60 products does MOKSH TUBES & FITTINGS LLP supply?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We manufacture and supply a complete range of Nitronic 60 products including seamless and welded pipes, tubes, sheets, plates, coils, bars, fittings, flanges, fasteners, and custom fabricated components, all made to international standards."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose MOKSH TUBES & FITTINGS LLP for Nitronic 60 stainless steel products?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP is a trusted manufacturer, supplier, and exporter with strong inventory, international certifications, and global delivery. We specialize in high performance alloys like Nitronic 60, ensuring quality, reliability, and customer satisfaction."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection

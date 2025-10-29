@@ -651,3 +651,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Nitronic 50 stainless steel and why is it used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nitronic 50 is a nitrogen strengthened austenitic stainless steel that provides superior corrosion resistance, high strength, and toughness. It is widely used in marine, chemical, and industrial applications where resistance to pitting, crevice corrosion, and stress corrosion cracking is critical."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does Nitronic 50 compare to conventional stainless steels like 304 and 316?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Compared to 304 and 316 stainless steel, Nitronic 50 offers nearly double the yield strength and significantly better resistance to chloride induced corrosion. It also maintains excellent mechanical properties across a wide temperature range, making it ideal for aggressive environments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the common applications of Nitronic 50 stainless steel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nitronic 50 is used in power generation, marine and offshore, chemical processing, food and pharmaceutical equipment, automotive, and aerospace industries. Typical applications include heat exchangers, pumps, valves, fasteners, and seawater exposed components."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Nitronic 50 products are available at MOKSH TUBES & FITTINGS LLP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We supply a complete range of Nitronic 50 products including pipes, tubes, sheets, plates, coils, bars, flanges, fittings, fasteners, and custom fabricated components, all manufactured to meet international quality standards."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose MOKSH TUBES & FITTINGS LLP for Nitronic 50 stainless steel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP is a trusted manufacturer, supplier, and exporter with extensive stock, certified products, technical expertise, competitive pricing, and global delivery. We provide reliable solutions tailored to industries requiring high strength, corrosion-resistant stainless steel."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection

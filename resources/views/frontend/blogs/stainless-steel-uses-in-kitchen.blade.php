@@ -1,16 +1,18 @@
 @extends('layouts.master')
 
 @section('title', 'Stainless Steel Kitchen & Food Industry Applications Guide')
-@section('meta_description',
-    'Discover why stainless steel is ideal for kitchens & the food industry — hygienic, durable & safe for commercial & residential use.')
-@section('meta_keywords',
-    'Stainless Steel Kitchen, Food Industry Stainless Steel, Stainless Steel Cookware, Commercial Kitchen Materials, Food Processing Equipment, Hygienic Kitchen Surfaces, Durable Kitchen Materials, Stainless Steel Appliances, Food Safety Materials, Stainless Steel Benefits')
+@section('meta_description', 'Discover why stainless steel is ideal for kitchens & the food industry — hygienic, durable
+    & safe for commercial & residential use.')
+@section('meta_keywords', 'Stainless Steel Kitchen, Food Industry Stainless Steel, Stainless Steel Cookware, Commercial
+    Kitchen Materials, Food Processing Equipment, Hygienic Kitchen Surfaces, Durable Kitchen Materials, Stainless Steel
+    Appliances, Food Safety Materials, Stainless Steel Benefits')
 
 
 @section('content')
     <!--Start breadcrumb area-->
 
-    <section class="breadcrumb-area" style="background-image: url({{ asset('assets/images/background/din-standard.jpg') }});">
+    <section class="breadcrumb-area"
+        style="background-image: url({{ asset('assets/images/blog/din-standard-metal-alloys.webp') }});">
         <div class="container text-center">
             <h1>Stainless Steel Uses in Kitchen & Food Industry</h1>
         </div>
@@ -26,7 +28,7 @@
                     <div class="blog-post">
                         <div class="single-blog-post">
                             <div class="img-holder mb-4">
-                                <img src="{{ asset('assets/images/blog/uae’s-ultimate-guide.webp') }}"
+                                <img src="{{ asset('assets/images/blog/din-standard-metal-alloys.webp') }}"
                                     alt="stainless-steel-uses-in-kitchen" class="img-fluid rounded">
                             </div>
                             <div class="text-holder">
@@ -44,12 +46,15 @@
                                         containers to massive processing machinery, stainless steel is the backbone of food
                                         preparation and service worldwide.</p>
                                     <p>
-                                        But why has this <a href="{{ route('materials') }}">material</a> earned such universal acceptance in the food industry? The
+                                        But why has this <a href="{{ route('materials') }}">material</a> earned such
+                                        universal acceptance in the food industry? The
                                         answer lies in its unique combination of properties that address the most critical
                                         concerns in food handling: safety, hygiene, durability, and efficiency.</p>
                                     <p>
                                         Whether you’re a restaurant owner, food manufacturer, or home cooking enthusiast,
-                                        understanding the role of <a href="{{ route('blogs.stainless-steel-inconel-tubes') }}">stainless steel</a> can help you make better decisions for
+                                        understanding the role of <a
+                                            href="{{ route('blogs.stainless-steel-inconel-tubes') }}">stainless steel</a>
+                                        can help you make better decisions for
                                         your kitchen or facility.</p>
                                 </div>
 
@@ -431,7 +436,8 @@
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a href="{{ route('blogs.the-role-of-high-performance') }}" aria-label="blog:the-role-of-high-performance">
+                                                    <a href="{{ route('blogs.the-role-of-high-performance') }}"
+                                                        aria-label="blog:the-role-of-high-performance">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -439,9 +445,10 @@
                                         </div>
                                     </div>
                                     <div class="title-holder">
-                                        <a href="{{ route('blogs.the-role-of-high-performance') }}" aria-label="blog:the-role-of-high-performance>
+                                        <a href="{{ route('blogs.the-role-of-high-performance') }}"
+                                            aria-label="blog:the-role-of-high-performance>
                                             <h5 class="post-title">
-                                                The Role of High Performance Alloys in Desalination Plants
+                                            The Role of High Performance Alloys in Desalination Plants
                                             </h5>
                                         </a>
                                         <h6 class="post-date">
@@ -514,9 +521,10 @@
                                             Kamatipura Mumbai
                                         </p>
                                         <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
-                                <strong>Office Address:</strong> 92E, Plot No. 3, New Tank Bunder, Darukhana, Mumbai,
-                                Maharashtra- 400 010.
-                            </p>
+                                            <strong>Office Address:</strong> 92E, Plot No. 3, New Tank Bunder, Darukhana,
+                                            Mumbai,
+                                            Maharashtra- 400 010.
+                                        </p>
 
                                         <!-- Social Icons -->
                                         {{-- <div class="mt-3 text-center">

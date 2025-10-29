@@ -629,7 +629,8 @@ textarea {
     background-color: #ffffff;
     background-position: center center;
     background-repeat: no-repeat;
-    background-image: url(../images/icons/preloader.gif);
+    /* background-image: url(../images/icons/preloader.gif); */
+
 }
 
 .video-image-box {
@@ -1587,7 +1588,7 @@ textarea {
 }
 
 .service-section .service-box:hover {
-    background-image: url(../images/background/1.jpg);
+    /* background-image: url(../images/background/1.jpg); */
     background-color: var(--primary);
     background-repeat: no-repeat;
     background-size: cover;
@@ -6567,7 +6568,7 @@ ul.gallery-filter li span {
 }
 
 .single-sidebar-box .title {
-    background: url(../img/resources/sidebar-title-bg.jpg) repeat top left;
+    /* background: url(../img/resources/sidebar-title-bg.jpg) repeat top left; */
     padding-left: 20px;
 }
 
@@ -6708,7 +6709,7 @@ ul.gallery-filter li span {
 }
 
 .single-sidebar-box.testimonials-widget .single-testi-carousel .box {
-    background: url(../img/resources/testi-bg.png) top left no-repeat;
+    /* background: url(../img/resources/testi-bg.png) top left no-repeat; */
     background-size: 100% 100%;
     padding-top: 24px;
     padding-left: 18px;
@@ -8176,7 +8177,7 @@ ul.gallery-filter li span {
 }
 
 .action-is-the-foundational-key {
-    background-image: url(../images/background/2.jpg);
+    /* background-image: url(../images/background/2.jpg); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

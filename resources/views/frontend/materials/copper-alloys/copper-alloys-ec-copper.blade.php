@@ -662,3 +662,52 @@
 
 
 @endsection
+<!-- FAQ Schema Markup -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is EC Copper and why is it important in electrical applications?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "EC Copper, also known as Electrolytic Copper, C10100, or CW009A, is a high purity copper grade with over 99.95% copper content. It is valued for its outstanding electrical conductivity (≥101% IACS), thermal conductivity, ductility, and corrosion resistance. Due to its purity and low oxygen levels, EC Copper is widely used in electrical, electronic, and thermal applications where high efficiency and performance are essential."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the advantages of using EC Copper over other copper alloys?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "EC Copper offers superior electrical and thermal conductivity compared to most other copper alloys, making it the preferred choice for current carrying and heat dissipating components. It is highly ductile, weldable, and easy to form into wires, rods, sheets, and busbars. Oxygen-free grades of EC Copper further enhance performance in sensitive electronic applications, reducing signal loss and improving reliability in high frequency and precision systems."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main applications of EC Copper in industries?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "EC Copper is extensively used in power transmission and distribution systems for busbars, switchgear, substations, and overhead conductors. It is also widely applied in motors, generators, and transformers for windings, commutators, and terminals. In addition, EC Copper is used in electronics, microelectronics, telecommunications, renewable energy, automotive, and electric vehicles due to its excellent conductivity, durability, and thermal stability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What EC Copper products are supplied by MOKSH TUBES & FITTINGS LLP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP provides a complete range of EC Copper products including wires, rods, bars, pipes, sheets, plates, coils, foils, strips, busbars, fasteners, flanges, and custom-fabricated parts. These products are manufactured to meet global standards and are available in different sizes, shapes, and finishes to suit diverse industrial applications. Precision-machined components and custom solutions are also offered for specific technical requirements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose MOKSH TUBES & FITTINGS LLP for EC Copper products?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP is a trusted manufacturer, supplier, and exporter of EC Copper products with expertise in high conductivity applications. The company offers certified and globally compliant materials, custom machining, and technical support to meet industry-specific demands. With strong inventory, competitive pricing, and worldwide delivery, MOKSH TUBES & FITTINGS LLP ensures reliable and timely supply of EC Copper for electrical, thermal, and electronic industries."
+      }
+    }
+  ]
+}
+</script>

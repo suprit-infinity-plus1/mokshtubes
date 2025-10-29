@@ -1,15 +1,16 @@
 @extends('layouts.master')
 @section('title', 'Premium Pipe Fittings Manufacturer & Supplier') <!-- 52 characters -->
-@section('meta_description',
-    'High-quality stainless, carbon, alloy, duplex, nickel & titanium pipe fittings from Moksh Tubes — ASTM/ASME-compliant for reliable industrial performance.') <!-- 153 characters -->
-@section('meta_keywords', 'Pipe Fittings, Stainless Steel Fittings, Carbon Steel Fittings, Alloy Steel Fittings, Duplex Fittings, Nickel Alloy Fittings, Titanium Fittings, ASTM/ASME Fittings, Industrial Pipe Fittings')
+@section('meta_description', 'High-quality stainless, carbon, alloy, duplex, nickel & titanium pipe fittings from Moksh
+    Tubes — ASTM/ASME-compliant for reliable industrial performance.') <!-- 153 characters -->
+@section('meta_keywords', 'Pipe Fittings, Stainless Steel Fittings, Carbon Steel Fittings, Alloy Steel Fittings, Duplex
+    Fittings, Nickel Alloy Fittings, Titanium Fittings, ASTM/ASME Fittings, Industrial Pipe Fittings')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Industrial Pipe Fittings for High-Performance Systems</h1> <!-- 52 characters -->
+                    <h1>Industrial Pipe Fittings for High Performance Systems</h1> <!-- 52 characters -->
                 </div>
             </div>
         </div>
@@ -26,8 +27,8 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/peoduct/flangs/Pipe-Fittings.jpg') }}"
-                        alt="Pipe-Fittings" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/peoduct/flangs/Pipe-Fittings.jpg') }}" alt="Pipe-Fittings"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Right Content -->
@@ -40,8 +41,11 @@
                     </p>
                     <p class="fs-6 mb-3 text-justify">
                         <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a>, we supply a comprehensive range of
-                        pipe fittings from standard elbows, tees, reducers, and caps to custom fabricated fittings for
-                        complex layouts. Manufactured from stainless steel, carbon steel, alloy steel, duplex, super duplex,
+                        pipe fittings from standard elbows, tees, reducers, and caps to <a
+                            href="{{ url('products/pipe-fittings-flanges-fasteners/custom-fabricated-fittings') }}">custom
+                            fabricated fittings</a> for
+                        complex layouts. Manufactured from stainless steel, carbon steel, alloy steel, <a
+                            href="{{ route('materials.duplex-and-super-duplex') }}">duplex, super duplex</a>,
                         nickel alloys, titanium, and copper alloys, our fittings conform to ASTM, ASME, DIN, EN, and API
                         standards and are widely trusted for oil & gas, chemical, marine, and power industries.
                     </p>
@@ -69,8 +73,9 @@
                             <tbody class="text-start">
                                 <tr class="t-row">
                                     <td>Material</td>
-                                    <td>Stainless Steel, Carbon Steel, Alloy Steel, Duplex & Super Duplex, Nickel Alloys,
-                                        Titanium, Copper Alloys</td>
+                                    <td>Stainless Steel, Carbon Steel, Alloy Steel, Duplex & Super Duplex, <a
+                                            href="{{ route('materials.nickel-Based-Superalloys') }}">Nickel Alloys</a>,
+                                        Titanium, <a href="{{ route('materials.copper-Alloys') }}">Copper Alloys</a></td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Grades</td>
@@ -91,7 +96,9 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Manufacturing Methods</td>
-                                    <td>Seamless, Welded, Forged, Custom Fabricated</td>
+                                    <td>Seamless, Welded, Forged, <a
+                                            href="{{ url('products/pipe-fittings-flanges-fasteners/custom-fabricated-fittings') }}">Custom
+                                            Fabricated</a></td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Standards</td>
@@ -592,217 +599,14 @@
 
 
     {{-- Applications --}}
-    {{-- <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Application</h2>
-            </div>
-            <p class="mb-4">
-                Welded pipes and tubes are indispensable components in numerous industries due to their exceptional
-                strength, precise dimensional accuracy, and cost-effectiveness. These versatile products are widely utilized
-                for structural purposes and fluid transport systems, particularly in demanding environments.
-            </p>
-            <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            1. Oil and Gas Industry
-                        </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>Welded pipes and tubes find extensive use in the energy sector, including:</strong>
-                            <ul>
-                                <li>
-                                    Onshore and offshore pipeline networks
-                                </li>
-                                <li>
-                                    Crude oil and natural gas transmission systems
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            2. Power Generation
-                        </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>Power plants rely on welded pipes and tubes to ensure operational efficiency in areas
-                                such as:</strong>
-                            <ul>
-                                <li>
-                                    Boiler tubes, superheaters, and economizers
-                                </li>
-                                <li>
-                                    Condensers and feedwater systems
-                                </li>
-                                <li>
-                                    Heat recovery steam generators (HRSG)
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            3. Chemical and Petrochemical Industry
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>For handling corrosive substances and high-pressure environments, welded pipes and tubes
-                                are essential in:</strong>
-                            <ul>
-                                <li>
-                                    Transporting corrosive fluids and gases
-                                </li>
-                                <li>
-                                    Process piping within chemical reactors
-                                </li>
-                                <li>
-                                    Distillation and separation systems
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            4. Construction and Infrastructure
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>Welded pipes and tubes are critical in the construction sector for:</strong>
-                            <ul>
-                                <li>
-                                    Building structures and architectural frameworks
-                                </li>
-                                <li>
-                                    Bridges, tunnels, and industrial sheds
-                                </li>
-                                <li>
-                                    Water distribution and sewage systems
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            5. Automotive and Transport
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>The automotive and heavy transport industries heavily utilize welded pipes and tubes
-                                for:</strong>
-                            <ul>
-                                <li>
-                                    Exhaust systems and fuel lines
-                                </li>
-                                <li>
-                                    Hydraulic systems and structural components
-                                </li>
-                                <li>
-                                    Roll cages and chassis frameworks
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            6. Food, Beverage, and Dairy Processing
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>Hygienic-grade welded pipes and tubes ensure safe and sanitary applications in:</strong>
-                            <ul>
-                                <li>
-                                    Sanitary fluid transfer systems
-                                </li>
-                                <li>
-                                    Process lines for dairy and beverage production
-                                </li>
-                                <li>
-                                    Clean-in-place (CIP) and sterilization systems
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            7. Marine and Shipbuilding
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>Welded pipes and tubes also serve an integral role in:</strong>
-                            <ul>
-                                <li>
-                                    Seawater piping systems
-                                </li>
-                                <li>
-                                    Ballast and bilge systems
-                                </li>
-                                <li>
-                                    Structural frameworks for ships and offshore platforms
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            8. HVAC and Plumbing
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>Welded pipes and tubes provide reliable solutions for the HVAC and plumbing sectors,
-                                including:</strong>
-                            <ul>
-                                <li>
-                                    Hot and cold water distribution
-                                </li>
-                                <li>
-                                    Heating, ventilation, and air conditioning systems
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> --}}
-
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications</h2>
                 <p class="text-center pb-3">
-                    <strong class="text-black">Custom Fabricated Fittings</strong> are crucial in projects where standard
+                    <strong class="text-black"><a
+                            href="{{ url('products/pipe-fittings-flanges-fasteners/custom-fabricated-fittings') }}">Custom
+                            Fabricated Fittings</a></strong> are crucial in projects where standard
                     fittings are not suitable due to design constraints or operational demands.
                 </p>
             </div>
@@ -817,7 +621,7 @@
                         <ul>
                             <li>Complex pipeline layouts for refineries and offshore platforms.</li>
                             <li>Manifold assemblies, laterals, and special reducers for processing units.</li>
-                            <li>High-pressure and high-temperature fittings for critical flow lines.</li>
+                            <li>High pressure and high-temperature fittings for critical flow lines.</li>
                         </ul>
                     </div>
                 </div>

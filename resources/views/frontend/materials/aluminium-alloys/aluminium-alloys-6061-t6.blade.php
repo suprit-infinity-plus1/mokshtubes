@@ -664,3 +664,57 @@
 
 
 @endsection
+
+@section('jsscripts')
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Aluminium Alloy 6061-T6 and why is it widely used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aluminium Alloy 6061-T6 is a heat treated, high strength aluminum alloy known for its excellent corrosion resistance, weldability, and machinability. The T6 temper means it has been solution heat treated and artificially aged, providing superior strength, hardness, and durability, making it one of the most versatile aluminum grades for industrial applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main applications of Aluminium 6061-T6?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aluminium 6061-T6 is used in aerospace, automotive, marine, construction, electronics, and sports equipment industries for its strength, corrosion resistance, and lightweight properties."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the advantages of Aluminium 6061-T6 over other alloys?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It offers excellent strength to weight ratio, high corrosion resistance, good weldability, durability, and suitability for anodizing or surface treatments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Aluminium 6061-T6 suitable for marine and aerospace applications?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Aluminium 6061-T6 is ideal for marine and aerospace applications due to its lightweight, strength, and corrosion resistance, used in boat hulls, aircraft frames, and structural components."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Aluminium 6061-T6 products are available at Moksh Tubes & Fittings LLP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Moksh Tubes & Fittings LLP supplies Aluminium 6061-T6 sheets, plates, coils, strips, pipes, tubes, bars, rods, pipe fittings, flanges, fasteners, and custom fabricated components."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection

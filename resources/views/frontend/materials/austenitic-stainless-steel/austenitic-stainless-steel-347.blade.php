@@ -656,3 +656,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Stainless Steel 347 and how is it different from 304 or 316?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stainless Steel 347 is a niobium stabilized austenitic stainless steel offering excellent resistance to intergranular corrosion and high temperature strength. Unlike 304 or 316, SS 347 provides superior performance in elevated temperature applications such as boilers, heat exchangers, and furnace parts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the key advantages of using Stainless Steel 347?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The main benefits of SS 347 include resistance to intergranular corrosion, stress corrosion cracking, and oxidation at high temperatures. It also maintains mechanical strength in severe environments, making it ideal for power generation, chemical, petrochemical, and aerospace applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "In which industries is Stainless Steel 347 commonly used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SS 347 is widely used in power plants, chemical and petrochemical industries, aerospace, automotive exhaust systems, oil and gas, and food processing equipment due to its durability in high temperature and corrosive environments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What forms of Stainless Steel 347 products are available at MOKSH TUBES & FITTINGS LLP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We supply Stainless Steel 347 in various forms such as seamless and welded pipes, tubes, sheets, plates, coils, strips, bars, pipe fittings, flanges, fasteners, and custom fabricated components, all manufactured to global quality standards."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why should I choose MOKSH TUBES & FITTINGS LLP for Stainless Steel 347 products?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP is a trusted manufacturer, supplier, and exporter with a wide stock range, international certifications, competitive pricing, and timely worldwide delivery. We provide expert guidance for selecting the right SS 347 products for your application."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection
