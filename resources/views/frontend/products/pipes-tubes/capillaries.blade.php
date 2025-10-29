@@ -1134,19 +1134,19 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Monel Grades</td>
-                                    <td>Monel 400, K500 – for marine and chemical use.</td>
+                                    <td><a href="{{ route('materials.monel') }}">Monel 400, K500</a> – for marine and chemical use.</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Titanium Grades</td>
-                                    <td>Gr. 1, 2, 5 – for aerospace and medical devices.</td>
+                                    <td><a href="{{ route('materials.titanium') }}">Gr. 1, 2, 5</a> – for aerospace and medical devices.</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Duplex & Super Duplex</td>
-                                    <td>2205, S32750 – for offshore and harsh industrial use.</td>
+                                    <td><a href="{{ route('materials.duplex-and-super-duplex') }}">2205, S32750</a> – for offshore and harsh industrial use.</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Copper Alloys</td>
-                                    <td>Cu-Ni 70/30, 90/10 – for refrigeration, marine, and heat-exchanger systems.</td>
+                                    <td><a href="{{ route('materials.copper-Alloys') }}">Cu-Ni 70/30, 90/10</a> – for refrigeration, marine, and heat exchanger systems.</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -1382,7 +1382,7 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h4>Corrosion-Resistant Performance</h4>
+                        <h4>Corrosion Resistant Performance</h4>
                         <h5>Offers corrosion resistance in harsh chemical or marine environments</h5>
                     </div>
                 </div>
@@ -1432,7 +1432,7 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h4>Wide Material Selection </h4>
+                        <h4>Wide <a href="{{ route('materials') }}">Material</a> Selection </h4>
                         <h5>Compatible with a variety of specialized alloys.</h5>
                     </div>
                 </div>
@@ -1449,7 +1449,7 @@
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
                         <h4>Lightweight & Strong </h4>
-                        <h5>Small diameter with exceptional strength-to-weight ratio.</h5>
+                        <h5>Small diameter with exceptional strength to weight ratio.</h5>
                     </div>
                 </div>
 

@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('title', 'Hollow Section Pipes – Square, Rectangular & Oval Tubes') <!-- 53 characters -->
-@section('meta_description',
-    'Premium hollow section pipes in square, rectangular & oval shapes from Moksh Tubes — corrosion-resistant & ideal for structural & industrial use.') <!-- 153 characters -->
+@section('meta_description', 'Premium hollow section pipes in square, rectangular & oval shapes from Moksh Tubes —
+    corrosion-resistant & ideal for structural & industrial use.') <!-- 153 characters -->
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
@@ -25,15 +25,17 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/peoduct/hollow-section-pipe.webp') }}" alt="Hollow Section Pipe" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/peoduct/hollow-section-pipe.webp') }}" alt="Hollow Section Pipe"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Right Content -->
                 <div class="col-md-6">
                     <p class="fs-6 mb-3 text-justify">
                         <strong class="text-black">Hollow Section Pipe</strong> available in square, rectangular, and oval
-                        profiles — are an integral component of modern structural and architectural applications. These
-                        pipes are valued for their high strength-to-weight ratio, aesthetic appeal, and versatility across
+                        profiles are an integral component of modern structural and architectural applications. These
+                        pipes are valued for their <a href="{{ route('materials.high-strength-stainless-steel') }}">high
+                            strength</a> to weight ratio, aesthetic appeal, and versatility across
                         construction, infrastructure, and industrial projects.
                     </p>
                     <p class="fs-6 mb-3 text-justify">
@@ -645,12 +647,13 @@
             <div class="container">
             </div>
 
-             <div class="row">
+            <div class="row">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}" alt="NICKLE ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}"
+                                    alt="NICKLE ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -662,7 +665,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}" alt="STAINLESS STEEL">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}"
+                                    alt="STAINLESS STEEL">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -674,7 +678,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}" alt="DUPLEX & SUPER">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}"
+                                    alt="DUPLEX & SUPER">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -687,7 +692,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="##">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}" alt="TITANIUM ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}"
+                                    alt="TITANIUM ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -699,7 +705,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}" alt="RARE TO ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}"
+                                    alt="RARE TO ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -711,7 +718,8 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}" alt="CARBON ALLOYS">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}"
+                                    alt="CARBON ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -766,7 +774,7 @@
                                 Modern tables, chairs, shelving systems, and designer elements
                             </li>
                             <li>
-                               Decorative partitions, window frames, and railing supports
+                                Decorative partitions, window frames, and railing supports
                             </li>
                         </ul>
                     </div>
@@ -793,7 +801,7 @@
                         <h5>Industrial Fabrication</h5>
                         <ul>
                             <li>
-                               Equipment frames, conveyor systems, and mechanical supports
+                                Equipment frames, conveyor systems, and mechanical supports
                             </li>
                             <li>
                                 Warehouse shelving and heavy-duty racks
@@ -830,7 +838,8 @@
             </div>
             <!-- Child Title -->
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Hollow Section Pipes are used extensively across multiple
+                <h4 class="text-center mb-0" style="color: #db7227;">Hollow Section Pipes are used extensively across
+                    multiple
                     industries, including:</h4>
             </div>
             <div class="row g-4 mt-4">
