@@ -76,7 +76,9 @@
                             <tbody class="text-start">
                                 <tr class="t-row">
                                     <td>Material</td>
-                                    <td>Stainless Steel, Carbon Steel, Alloy Steel, Brass, Copper, Aluminium, Nickel Alloys,
+                                    <td>Stainless Steel, Carbon Steel, Alloy Steel, Brass, <a
+                                            href="{{ route('materials.copper-Alloys') }}">Copper</a>, Aluminium, Nickel
+                                        Alloys,
                                         Titanium</td>
                                 </tr>
                                 <tr class="t-row">
