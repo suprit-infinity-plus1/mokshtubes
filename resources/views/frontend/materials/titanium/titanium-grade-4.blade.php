@@ -7,7 +7,7 @@
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/material/titanium-grade4.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -32,7 +32,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/titanium/titanium-4.webp') }}" alt="Titanium Grade 4"
+                    <img src="{{ asset('assets/images/material/titanium-grade4.jpg') }}" alt="Titanium Grade 4"
                         class="img-fluid rounded shadow-sm">
                 </div>
 

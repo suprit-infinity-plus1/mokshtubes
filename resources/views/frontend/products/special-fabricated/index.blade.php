@@ -34,17 +34,17 @@
                         [
                             'name' => 'Fabricated SS Grills',
                             'slug' => 'fabricated-ss-grills',
-                            'image' => 'assets/images/peoduct/seamless-pipes-2.webp',
+                            'image' => 'assets/images/peoduct/SS-grill.jpg',
                         ],
                         [
                             'name' => 'SS Railings',
                             'slug' => 'ss-railings',
-                            'image' => 'assets/images/peoduct/seamless-pipes-2.webp',
+                            'image' => 'assets/images/peoduct/SS-railings.jpg',
                         ],
                           [
                             'name' => 'Glass Railings',
                             'slug' => 'glass-railings',
-                            'image' => 'assets/images/peoduct/seamless-pipes-2.webp',
+                            'image' => 'assets/images/peoduct/Glass-railing.jpg',
                         ],
                         // [
                         //     'name' => 'Capillaries',

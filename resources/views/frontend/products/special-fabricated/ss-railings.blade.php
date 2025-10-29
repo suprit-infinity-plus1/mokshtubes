@@ -6,7 +6,7 @@
     'SS Railing, SS Railing Design, Balcony Railings, Staircase Railings, Stainless Steel Handrails, Custom Stainless Steel Fittings, Glass Railing, SS Balcony Railings')
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/SS-railings.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -27,7 +27,7 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/peoduct/steel-furniture/custom-steel-furniture.webp') }}"
+                    <img src="{{ asset('assets/images/peoduct/SS-railings.jpg') }}"
                         alt="Custom-Steel-Furniture" class="img-fluid rounded shadow-sm">
                 </div>
 

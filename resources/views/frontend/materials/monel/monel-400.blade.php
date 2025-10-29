@@ -11,7 +11,7 @@
 
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/material/monel-400.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -34,7 +34,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/monel/Monel-400.webp') }}" alt="Monel 400"
+                    <img src="{{ asset('assets/images/material/monel-400.jpg') }}" alt="Monel 400"
                         class="img-fluid rounded shadow-sm">
                 </div>
 
