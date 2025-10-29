@@ -671,3 +671,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Hastelloy B-3 used for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hastelloy B-3 is ideal for chemical processing, pharmaceutical, metal pickling, and semiconductor industries where strong reducing acids like hydrochloric acid are used."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is Hastelloy B-3 different from Hastelloy B-2?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "B-3 has better resistance to stress corrosion cracking, pitting, and knife-line attacks after welding, along with superior thermal stability and formability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which products are available in Hastelloy B-3?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We offer pipes, tubes, sheets, plates, bars, flanges, fittings, fasteners, wire mesh, welding rods, and custom components."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the benefits of using Hastelloy B-3?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hastelloy B-3 provides outstanding acid resistance, excellent weldability, high mechanical strength, and long lasting performance in harsh chemical environments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose MOKSH TUBES & FITTINGS LLP for Hastelloy B-3 products?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We provide decades of alloy expertise, certified quality, custom fabrication, traceable documentation, and fast international delivery for critical industrial applications."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection

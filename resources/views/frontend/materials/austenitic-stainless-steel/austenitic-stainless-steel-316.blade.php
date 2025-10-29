@@ -671,3 +671,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Austenitic Stainless Steel 316 and what makes it different from 304 stainless steel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Austenitic Stainless Steel 316 is a molybdenum-alloyed stainless steel that offers superior resistance to chloride corrosion, pitting, and crevice attack compared to Stainless Steel 304. Its enhanced durability makes it the preferred choice for marine, chemical, and pharmaceutical industries where exposure to aggressive environments is common."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the key properties of Stainless Steel 316?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SS 316 provides excellent resistance to chlorides, acids, and harsh chemicals, good mechanical strength and toughness across temperature ranges, outstanding weldability and formability, oxidation resistance at elevated temperatures, and biocompatibility suitable for medical and food applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is Stainless Steel 316 commonly used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stainless Steel 316 is widely used in marine applications such as boat fittings and propeller shafts, chemical and petrochemical processing equipment, food and beverage industry machinery, pharmaceutical processing systems, medical instruments, and construction projects in coastal environments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is Stainless Steel 316 preferred for marine and chemical applications?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SS 316 contains 2–3% molybdenum, which provides superior resistance to chloride-induced corrosion and pitting compared to 304 stainless steel. This makes it ideal for seawater environments, acidic solutions, and aggressive chemical conditions, ensuring long service life and structural integrity."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who is the best supplier of Stainless Steel 316 in India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Moksh Tubes & Fittings LLP is a leading manufacturer, supplier, exporter, importer, and stockist of Stainless Steel 316 products. They offer pipes, tubes, sheets, plates, bars, flanges, fittings, and fasteners that meet international standards. With custom sizing, competitive pricing, technical support, and reliable global delivery, Moksh Tubes & Fittings LLP serves diverse industrial needs worldwide."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection

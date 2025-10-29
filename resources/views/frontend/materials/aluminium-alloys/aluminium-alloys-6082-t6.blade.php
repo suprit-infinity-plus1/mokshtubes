@@ -623,3 +623,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Aluminium Alloy 6082-T6 used for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aluminium 6082-T6 is widely used in structural, marine, automotive, and aerospace applications due to its high strength, excellent corrosion resistance, and good machinability. Common uses include bridges, vehicle frames, boat hulls, cranes, and heavy-duty equipment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the advantages of Aluminium 6082-T6?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The main advantages of Aluminium 6082-T6 are its high tensile strength, superior corrosion resistance, excellent weldability, and good fatigue performance. It also offers a good surface finish for anodizing, making it suitable for both structural and decorative purposes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How strong is Aluminium 6082-T6 compared to other aluminium alloys?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aluminium 6082-T6 is considered the strongest alloy in the 6000 series, with a tensile strength of 310–380 MPa and a yield strength of 275–345 MPa. It is stronger than 6061 and offers better machinability, making it a preferred choice in engineering and transport industries."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Aluminium 6082-T6 be welded and machined easily?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Aluminium 6082-T6 offers excellent weldability with common welding techniques such as MIG and TIG. It also has superior machinability compared to many other alloys, making it ideal for precision engineering and custom fabrication."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I buy high-quality Aluminium 6082-T6 products in India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can purchase premium quality Aluminium 6082-T6 sheets, plates, tubes, pipes, bars, and extrusions from Moksh Tubes & Fittings LLP, a leading manufacturer, supplier, exporter, and stockist in India. The company provides custom solutions, international quality standards, and timely deliveries."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection

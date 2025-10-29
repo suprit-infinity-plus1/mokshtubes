@@ -652,3 +652,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Austenitic Stainless Steel 304 and why is it widely used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Austenitic Stainless Steel 304 is the most common stainless steel grade, known for its excellent corrosion resistance, durability, and ease of fabrication. With 18–20% chromium and 8–12% nickel, it resists rust, oxidation, and chemical attacks, making it suitable for food processing, chemical, medical, and construction industries."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the key properties of Stainless Steel 304?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SS 304 offers high tensile strength (485–620 MPa), excellent ductility, and toughness even at low temperatures. It is non-magnetic in the annealed condition, has good weldability, and provides long lasting corrosion resistance against water, mild chemicals, and atmospheric conditions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is Stainless Steel 304 commonly used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stainless Steel 304 is widely used in food and beverage processing, chemical plants, medical equipment, construction, automotive, and household appliances. Typical applications include tanks, heat exchangers, kitchen sinks, cookware, architectural cladding, and surgical instruments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Stainless Steel 304 corrosion resistant in all environments?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Stainless Steel 304 has excellent resistance to corrosion and oxidation in most environments. However, in highly saline or chloride-rich conditions, it may be prone to localized corrosion, where Stainless Steel 316 (with molybdenum) is often preferred."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who is the leading supplier of Stainless Steel 304 in India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Moksh Tubes & Fittings LLP is a trusted manufacturer, supplier, exporter, importer, and stockist of Stainless Steel 304 pipes, tubes, sheets, plates, bars, and fittings. With custom size availability, certified quality, and global delivery, Moksh Tubes & Fittings LLP ensures reliable supply for industrial and commercial applications."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection

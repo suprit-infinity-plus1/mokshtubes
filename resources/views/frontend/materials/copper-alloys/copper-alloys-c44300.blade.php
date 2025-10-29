@@ -676,3 +676,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is C44300 Admiralty Brass and what makes it unique?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "C44300 Admiralty Brass is a copper-zinc alloy with a small addition of tin (0.9–1.2%) and arsenic. These elements improve its corrosion resistance, especially against dezincification, making it ideal for marine and brackish water applications. It also provides good thermal conductivity and mechanical strength."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is C44300 Admiralty Brass commonly used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Admiralty Brass is widely used in heat exchangers, condensers, desalination plants, saltwater piping, HVAC systems, power plants, petrochemical industries, and shipbuilding. Its excellent resistance to seawater corrosion makes it a preferred choice for marine engineering and industrial cooling systems."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the advantages of using Admiralty Brass C44300 over other alloys?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "C44300 offers several benefits including: Superior corrosion resistance in marine and brackish water, high thermal conductivity for efficient heat transfer, resistance to dezincification due to tin and arsenic content, ease of fabrication and ductility, and long service life in harsh environments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What C44300 Admiralty Brass products does MOKSH TUBES & FITTINGS LLP supply?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We manufacture and stock a complete range of C44300 Admiralty Brass products such as seamless and welded pipes, tubes (U-bend, boiler, heat exchanger), sheets, plates, coils, bars, pipe fittings, flanges, fasteners, and custom fabricated components, all in compliance with international standards like ASTM and DIN."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose MOKSH TUBES & FITTINGS LLP for Admiralty Brass materials?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP is a trusted global supplier with strict quality control following metallurgical standards, extensive inventory of standard and custom sizes, tailor-made solutions for marine, HVAC, power, and desalination sectors, quick delivery and export packaging for global clients, and proven expertise in copper alloys for critical industrial applications."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection

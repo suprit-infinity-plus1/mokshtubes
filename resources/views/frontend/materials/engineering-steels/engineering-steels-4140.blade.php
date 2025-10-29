@@ -648,3 +648,53 @@
 
 
 @endsection
+@section('jsscripts')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is EN 4140 steel and what are its main features?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "EN 4140 is a chromium-molybdenum low-alloy steel known for its high tensile strength, toughness, and excellent wear resistance. It can be heat-treated to achieve various mechanical properties and is used in automotive, oil and gas, aerospace, and heavy machinery industries due to its fatigue resistance and ability to perform under high stress."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the chemical and mechanical properties of EN 4140 steel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "EN 4140 steel contains 0.38–0.43% carbon, 0.80–1.10% chromium, and 0.15–0.25% molybdenum, with controlled amounts of manganese, silicon, phosphorus, and sulfur. Its tensile strength ranges from 586–896 MPa and yield strength from 379–827 MPa depending on heat treatment. It also has elongation up to 30%, Brinell hardness between 150–260, and Rockwell hardness of 80–95 B."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What EN 4140 steel products are supplied by MOKSH TUBES & FITTINGS LLP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP supplies EN 4140 steel in the form of seamless and welded pipes, tubes, sheets, plates, coils, strips, bars, pipe fittings, flanges, fasteners, and custom-fabricated components. All products comply with international standards and can be customized in size, dimensions, and heat treatment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the common applications of EN 4140 steel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "EN 4140 steel is used in the automotive industry for axles, gears, crankshafts, and connecting rods. In oil and gas, it serves pipelines, drilling tools, and high-pressure tubing. Aerospace and mechanical engineering also use it for shafts, bolts, and high-strength machinery parts due to its durability under dynamic loads."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose MOKSH TUBES & FITTINGS LLP for EN 4140 steel materials?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP is a reliable supplier of EN 4140 steel with a wide stock range, customization options, and global delivery capability. The company offers precision cutting, technical support, and competitive pricing—ensuring consistent quality and customer satisfaction."
+      }
+    }
+  ]
+}
+</script>
+@endsection

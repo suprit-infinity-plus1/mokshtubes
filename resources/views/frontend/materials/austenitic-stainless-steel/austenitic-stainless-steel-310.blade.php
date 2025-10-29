@@ -663,3 +663,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Austenitic Stainless Steel 310 and why is it used in high-temperature applications?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Austenitic Stainless Steel 310 is a high chromium (24–26%) and nickel (19–22%) alloy designed for exceptional oxidation and corrosion resistance at elevated temperatures. It can withstand temperatures up to 1100°C (2012°F), making it ideal for furnaces, kilns, and heat treatment equipment where thermal shock and scaling resistance are critical."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the key properties of Stainless Steel 310?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SS 310 offers excellent oxidation resistance at high temperatures, high thermal stability and mechanical strength, good resistance to thermal shock and scaling, superior corrosion resistance in harsh chemical environments, and good weldability and fabrication properties."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is Stainless Steel 310 commonly used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stainless Steel 310 is widely used in heat treatment furnaces, kilns, and radiant tubes, petrochemical and chemical processing equipment, power generation boilers, superheaters, and turbines, automotive exhaust systems and mufflers, and food processing and baking equipment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is Stainless Steel 310 different from Stainless Steel 309 and 304?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "While SS 304 and 309 offer good corrosion resistance, Stainless Steel 310 contains higher chromium and nickel levels, providing superior oxidation resistance and mechanical strength at extreme temperatures. SS 310 is the preferred choice for continuous high heat operations where SS 304 or 309 may not perform as effectively."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who is the leading supplier of Stainless Steel 310 in India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Moksh Tubes & Fittings LLP is a trusted manufacturer, supplier, exporter, importer, and stockist of Stainless Steel 310 products. The company provides pipes, tubes, sheets, plates, bars, flanges, fittings, and fasteners, adhering to international standards, custom requirements, and global delivery timelines. With competitive pricing and strong technical support, Moksh Tubes & Fittings LLP is a reliable partner for industries worldwide."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection

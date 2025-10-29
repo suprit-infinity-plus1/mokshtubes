@@ -652,3 +652,56 @@
 
 
 @endsection
+@section('jsscripts')
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Copper Nickel 70/30 and how is it different from 90/10?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Copper Nickel 70/30, also known as UNS C71500 or CW354H, is a copper alloy containing about 70% copper and 30% nickel with small additions of iron and manganese. Compared to Copper Nickel 90/10, the 70/30 grade offers greater mechanical strength, improved corrosion resistance, and excellent durability in highly aggressive environments such as fast-flowing seawater and chemical processing systems."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main benefits of using Copper Nickel 70/30 alloy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The key benefits of Copper Nickel 70/30 include outstanding resistance to pitting, crevice corrosion, biofouling, and stress cracking in both stagnant and turbulent seawater. It is stronger than CU-NI 90/10, performs reliably under thermal cycling, and is resistant to acidic and saline environments. It also offers excellent weldability with minimal pre or post-heat treatment requirements, making it ideal for marine and offshore installations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is Copper Nickel 70/30 commonly used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Copper Nickel 70/30 is widely used in marine and shipbuilding industries for seawater piping, condenser plates, valves, and propeller sleeves. It is a preferred material in power plants, desalination plants, and offshore oil and gas facilities. The alloy is also used in defense and naval sectors for submarine systems and hull-mounted components due to its long-term durability in harsh environments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Copper Nickel 70/30 products are supplied by MOKSH TUBES & FITTINGS LLP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP supplies seamless and welded pipes and tubes, sheets, plates, coils, strips, round bars, flats, hex bars, pipe fittings, flanges, fasteners, wires, and custom machined components made from Copper Nickel 70/30. All materials comply with international standards and can be customized in size, thickness, and finish as per project requirements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose MOKSH TUBES & FITTINGS LLP for Copper Nickel 70/30 materials?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP is a trusted manufacturer, supplier, and exporter of Copper Nickel 70/30 products with extensive experience serving marine, offshore, and industrial projects. The company offers certified materials, large inventories, cut-to-size services, and global logistics support, ensuring reliable quality, traceability, and performance for every order."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection

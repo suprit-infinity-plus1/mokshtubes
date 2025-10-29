@@ -649,3 +649,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are Nimonic Alloys used for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nimonic Alloys are used in turbine blades, combustion chambers, exhaust systems, gas turbines, nuclear reactors, high performance automotive components, and industrial furnace parts requiring superior heat and corrosion resistance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which grades of Nimonic Alloys are available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Popular grades include Nimonic 75, 80A, 90, 105, and 263, each engineered for specific mechanical strength, thermal performance, and structural stability under extreme conditions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the key properties of Nimonic Alloys?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nimonic Alloys offer excellent heat creep resistance, oxidation and corrosion resistance, high strength to weight ratio, dimensional stability, and good weldability, especially in Nimonic 263."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "In what forms are Nimonic Alloys supplied?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "They are supplied as seamless and welded pipes, tubes, sheets, plates, coils, strips, round/flat/hex/square bars, pipe fittings, flanges, fasteners, and custom engineered components."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose MOKSH TUBES & FITTINGS for Nimonic Alloys?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We provide ISO 9001:2015 certified Nimonic products with wide inventory availability, custom fabrication, CNC machining, fast turnaround, competitive pricing, and global shipping with export compliance."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection

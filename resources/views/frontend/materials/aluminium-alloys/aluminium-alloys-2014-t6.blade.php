@@ -658,3 +658,57 @@
 
 
 @endsection
+
+@section('jsscripts')
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Aluminium Alloy 2014-T6 and what makes it unique?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aluminium Alloy 2014-T6 is a high strength, copper alloyed aluminum grade widely used in aerospace, automotive, and structural engineering. The T6 temper means it has been solution heat-treated and artificially aged, giving it excellent tensile strength, hardness, and machinability, but with slightly reduced corrosion resistance compared to pure aluminum alloys."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Aluminium 2014-T6 corrosion resistant?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aluminium 2014-T6 offers moderate corrosion resistance, but it is not as corrosion resistant as commercially pure aluminum grades like 1100 or 1200. In most cases, protective coatings, anodizing, or surface treatments are recommended when the alloy is used in corrosive or marine environments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the key applications of Aluminium 2014-T6?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Due to its strength-to-weight ratio and wear resistance, Aluminium 2014-T6 is extensively used in: Aerospace: aircraft structures, wing skins, fuselage components. Automotive: chassis, body panels, and high performance parts. Industrial Equipment: gears, shafts, and load-bearing components. Marine: moderate structural applications. Machinery & Tools: dies, molds, and precision instruments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the advantages of Aluminium Alloy 2014-T6?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Some of the main benefits of Aluminium 2014-T6 include: High tensile and yield strength for demanding applications. Excellent machinability for complex precision parts. Good fatigue and wear resistance for structural use. Lightweight yet durable alternative to steel. Heat treatable alloy (T6) for enhanced performance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Aluminium 2014-T6 products does Moksh Tubes & Fittings LLP supply?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Moksh Tubes & Fittings LLP manufactures and supplies a wide range of Aluminium 2014-T6 products, including: Sheets, Plates, Coils & Strips. Pipes & Tubes (Seamless, Welded, Heat Exchanger, U-Bend). Bars & Rods (Round, Hex, Flat, Square). Pipe Fittings, Flanges, and Fasteners. Custom Fabricated Components tailored to customer requirements."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection

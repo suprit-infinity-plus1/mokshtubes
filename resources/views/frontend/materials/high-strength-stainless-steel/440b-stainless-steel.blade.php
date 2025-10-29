@@ -674,3 +674,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is 440B Stainless Steel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "440B is a high-carbon martensitic stainless steel designed for exceptional hardness, high strength, and good corrosion resistance. It is commonly used in manufacturing precision tools and components that require a balance of wear resistance and toughness."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are its key properties?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Key properties of 440B Stainless Steel include excellent wear and abrasion resistance, high hardness after heat treatment, good polishability and machinability, and moderate corrosion resistance in temperate environments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is it used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "440B Stainless Steel is used in knife blades, surgical and dental instruments, bearings, cutting tools, and wear-resistant mechanical parts. Its ability to maintain hardness and sharpness makes it ideal for heavy-duty and precision applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it weldable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Welding 440B is possible but requires preheating and post-weld heat treatment to prevent cracking and restore corrosion resistance. TIG or MIG welding methods are recommended for controlled and accurate joints."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose MOKSH TUBES & FITTINGS LLP for 440B Stainless Steel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP provides premium-grade 440B stainless steel with precision processing, consistent quality assurance, and timely global delivery. Our materials meet rigorous industry standards and are tailored to meet client requirements across multiple sectors."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection
