@@ -1,8 +1,8 @@
 @extends('layouts.master')
 
 @section('title', '10 Mistakes to Avoid When Buying Stainless Pipes')
-@section('meta_description',
-    'Avoid costly mistakes when buying stainless steel pipes. Discover key tips on grades, suppliers, and standards to ensure quality, durability, and performance.')
+@section('meta_description', 'Avoid costly mistakes when buying stainless steel pipes. Discover key tips on grades,
+    suppliers, and standards to ensure quality, durability, and performance.')
 @section('meta_keywords',
     'Stainless Steel Pipes, Buying Stainless Steel Pipes, Stainless Steel Pipe Grades, Stainless
     Steel')
@@ -82,9 +82,11 @@
                                             <p>
                                                 Many first time buyers and even seasoned professionals underestimate how
                                                 crucial
-                                                it is to analyze the specific purpose the stainless steel pipe will serve.
+                                                it is to analyze the specific purpose the stainless steel <a
+                                                    href="{{ route('products.pipes-tubes') }}">pipe</a> will serve.
                                                 Buying a
-                                                “standard” pipe for every project is a costly and risky shortcut.
+                                                “standard” <a href="{{ route('products.pipes-tubes') }}">pipe</a> for every
+                                                project is a costly and risky shortcut.
                                             </p>
                                         </div>
                                         <div class="text">
@@ -169,7 +171,9 @@
                                                             href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-321') }}">SS
                                                             321</a>, <a
                                                             href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-347') }}">SS
-                                                            347</a>, Duplex/Super Duplex, and relevant
+                                                            347</a>, <a
+                                                            href="{{ route('materials.duplex-and-super-duplex') }}">Duplex/Super
+                                                            Duplex</a>, and relevant
                                                         nickel alloys. </li>
                                                     <li>Consider not only the initial purchase cost, but the full cost of
                                                         ownership including expected service life, maintenance, and the
@@ -343,7 +347,7 @@
 
                                         <div class="text">
                                             <p>
-                                                Ordering the wrong size, thickness, or quantity of pipe can result in
+                                                Ordering the wrong size, thickness, or quantity of <a href="{{ route('products.pipes-tubes') }}">pipe</a> can result in
                                                 significant delays, wasted resources, and last minute rush orders at
                                                 inflated prices. This issue is especially common in projects with complex
                                                 layouts or phased installation schedules.
@@ -874,7 +878,8 @@
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a href="{{ route('blogs.the-role-of-high-performance') }}" aria-label="Read blog: The Role of High Performance">
+                                                    <a href="{{ route('blogs.the-role-of-high-performance') }}"
+                                                        aria-label="Read blog: The Role of High Performance">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -882,7 +887,8 @@
                                         </div>
                                     </div>
                                     <div class="title-holder">
-                                        <a href="{{ route('blogs.the-role-of-high-performance') }}" aria-label="Read blog: The Role of High Performance">
+                                        <a href="{{ route('blogs.the-role-of-high-performance') }}"
+                                            aria-label="Read blog: The Role of High Performance">
                                             <h5 class="post-title">
                                                 The Role of High Performance Alloys in Desalination Plants
                                             </h5>
@@ -958,9 +964,10 @@
                                             Kamatipura Mumbai
                                         </p>
                                         <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
-                                <strong>Office Address:</strong> 92E, Plot No. 3, New Tank Bunder, Darukhana, Mumbai,
-                                Maharashtra- 400 010.
-                            </p>
+                                            <strong>Office Address:</strong> 92E, Plot No. 3, New Tank Bunder, Darukhana,
+                                            Mumbai,
+                                            Maharashtra- 400 010.
+                                        </p>
 
                                         <!-- Social Icons -->
                                         {{-- <div class="mt-3 text-center">

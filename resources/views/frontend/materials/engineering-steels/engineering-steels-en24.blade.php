@@ -1,8 +1,10 @@
 @extends('layouts.master')
 
 @section('title', 'EN24 Steel | Properties & Applications | Moksh Tubes')
-@section('meta_description', 'EN24 alloy steel mechanical and chemical properties. Supplier of EN24 round bar and forged components – Moksh Tubes.')
-@section('meta_keywords', 'EN24 Alloy Steel, high strength alloy steel, fatigue resistant steel, tough alloy steel, heavy-duty steel, industrial alloy steel')
+@section('meta_description', 'EN24 alloy steel mechanical and chemical properties. Supplier of EN24 round bar and forged
+    components – Moksh Tubes.')
+@section('meta_keywords', 'EN24 Alloy Steel, high strength alloy steel, fatigue resistant steel, tough alloy steel,
+    heavy-duty steel, industrial alloy steel')
 
 @section('content')
 
@@ -41,15 +43,15 @@
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a reliable manufacturer,
-                            supplier, and exporter of high-quality<strong class="text-black"> EN24 steel <a
+                            supplier, and exporter of high quality<strong class="text-black"> EN24 steel <a
                                     href="{{ route('products') }}">products</a>,</strong>
                             including Round Bars, Forgings,
-                            Bright Bars, Hex Bars, Flats, Shafts, Hollow Bars, and Custom Components. EN24, also known as
-                            817M40 or AISI 4340, is a high-strength, alloy <a
-                                href="{{ route('materials.engineering-Steels') }}"> engineering steel</a> renowned for its
+                            Bright Bars, Hex Bars, Flats, Shafts, <a href="{{ route('products.bars-rods.hollow-bars') }}">Hollow Bars</a>, and Custom Components. <a href="{{ url('materials/engineering-steels/engineering-steels-en36') }}">EN36</a>, also known as
+                            817M40 or AISI 4340, is a high strength, alloy <a
+                                href="{{ url('materials/engineering-steels/engineering-steels-en8') }}"> engineering steel 8</a> renowned for its
                             excellent
                             toughness, fatigue strength, and wear resistance. With high tensile strength and good ductility,
-                            EN24 is particularly suitable for heavy-duty applications requiring high load-bearing capacity.
+                            EN24 is particularly suitable for heavy duty applications requiring high load bearing capacity.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
@@ -268,37 +270,37 @@
             ],
             [
                 'name' => 'Sheets & Plates',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.sheets-and-plates',
                 'image' => 'assets/images/all product/sheets-plates.jpg',
             ],
             [
                 'name' => 'Coils & Strips',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.strips',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.webp',
             ],
             [
                 'name' => 'Round Bars, Flat Bars, Hex Bars, Square Bars',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.bars-rods',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
             ],
             [
                 'name' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.pipe-fittings',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
             ],
             [
                 'name' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.flanges-and-gaskets',
                 'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
             ],
             [
                 'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
                 'image' => 'assets/images/all product/FASTENERS-1.png',
             ],
             [
                 'name' => 'Custom Fabricated Components',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
                 'image' => 'assets/images/all product/custom-metal-fabricated.jpg',
             ],
         ];
@@ -346,7 +348,7 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                 @foreach ($products as $product)
+                @foreach ($products as $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
                             <a href="{{ route($product['route']) }}" class="text-decoration-none">
@@ -643,7 +645,7 @@
                     Get in touch with <strong> Moksh Tubes & Fittings LLP
                     </strong> — Your Trusted Source for EN24 Alloy Steel Products
                 </p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch
@@ -658,8 +660,8 @@
 
 @endsection
 @section('jsscripts')
-@verbatim
-<script type="application/ld+json">
+    @verbatim
+        <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -707,5 +709,5 @@
   ]
 }
 </script>
-@endverbatim
+    @endverbatim
 @endsection

@@ -71,31 +71,26 @@
 
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/slides/Mokshtubes-banner-desktop.png);">
         <div class="container text-center">
             <h1>Contact Us</h1>
         </div>
     </section>
     <!--End breadcrumb area-->
 
-
-
-
-
-
     <section class="global-presence pt-5 bg-light">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="fw-semibold mb-3 fs-1">Moksh Tube Locations and Contact Details</h2>
-                <p class="moksh-overview-contact">
-                    Discover Moksh Tube Steel’s global footprint — delivering excellence across industries and regions. <br>
-                    From trusted partners to our strategic locations, find us wherever your business needs us.
-                </p>
-            </div>
+        <div class="container text-center">
+            <h2 class="fw-semibold mb-3 fs-1">Moksh Tube Locations and Contact Details</h2>
+            <p class="moksh-overview-contact">
+                Discover Moksh Tube Steel’s global footprint delivering excellence across industries and regions. <br>
+                From trusted partners to our strategic locations, find us wherever your business needs us.
+            </p>
+            <!-- ✅ Added SEO Benefit Text -->
+            <p class="text-success fw-semibold mt-3 fs-5">🚀 Get quote within 24 hours – Global delivery available.</p>
         </div>
     </section>
 
-    <section class=" bg-light sec-padd-top sec-padd-bottom">
+    <section class="bg-light sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 mb-4 mb-lg-0">
@@ -127,8 +122,6 @@
                 </div>
 
                 <div class="col-lg-8">
-                    {{-- <img id="mapImage" src="{{ asset('assets/images/background/2.jpg') }}" alt="Location Map"
-                        class="img-fluid rounded shadow-sm w-100"> --}}
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3773.4404691355185!2d72.82619187351122!3d18.95614506718077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sMoksh%20Tubes!5e0!3m2!1sen!2sin!4v1759824406817!5m2!1sen!2sin"
                         width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
@@ -138,133 +131,52 @@
         </div>
     </section>
 
-
-
-    {{-- <section class=" bg-light sec-padd-top sec-padd-bottom">
-            <div class="container">
-                <div class="row g-4">
-                    <div class="col-md-6 col-lg-3">
-                        <div class="p-4 shadow-sm rounded branch-card h-100">
-                            <h5 class="fw-semibold mb-2">Gulalwadi – Mumbai</h5>
-                            <p class="small mb-1">36/40, Hinglaj Bhavan, Kika Street</p>
-                            <p class="small mb-1">📞 +91 97695 84950</p>
-                            <p class="small mb-3">✉️ info@mokstubes.com</p>
-                            <a href="#" class="btn branch-btn w-100">See Location</a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-3">
-                        <div class="p-4 shadow-sm rounded branch-card h-100">
-                            <h5 class="fw-semibold mb-2">Khetwadi – Mumbai</h5>
-                            <p class="small mb-1">6/A, Rajwanti Mansion</p>
-                            <p class="small mb-1">📞 +91 97695 84950</p>
-                            <p class="small mb-3">✉️ info@mokstubes.com</p>
-                            <a href="#" class="btn branch-btn w-100">See Location</a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-3">
-                        <div class="p-4 shadow-sm rounded branch-card h-100">
-                            <h5 class="fw-semibold mb-2">Kamatipura – Mumbai</h5>
-                            <p class="small mb-1">95/95A, Dawood Baug, Sukhlaji Street</p>
-                            <p class="small mb-1">📞 +91 97695 84950</p>
-                            <p class="small mb-3">✉️ info@mokstubes.com</p>
-                            <a href="#" class="btn branch-btn w-100">See Location</a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-3">
-                        <div class="p-4 shadow-sm rounded branch-card h-100">
-                            <h5 class="fw-semibold mb-2">Darukhana – Mumbai</h5>
-                            <p class="small mb-1">92E, Plot No. 3, Reay Road</p>
-                            <p class="small mb-1">📞 +91 97695 84950</p>
-                            <p class="small mb-3">✉️ info@mokstubes.com</p>
-                            <a href="#" class="btn branch-btn w-100">See Location</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> --}}
-
-
-
-
-
-
-
-
-
-    <!-- <section class="home-google-map">
-                                                                <iframe
-                                                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d943.3624929957525!2d72.82755531962317!3d18.955724967265716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf9ee4261af1%3A0x57adb33b0f4c262!2sMoksh%20Tubes%20%26%20Fittings%20LLP!5e0!3m2!1sen!2sin!4v1747987043971!5m2!1sen!2sin"
-                                                                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                                                                    referrerpolicy="no-referrer-when-downgrade">
-                                                                </iframe>
-
-
-
-                                                            </section> -->
-
-    <!-- <div class="call-out2">
-                                                                    <div class="container">
-                                                                        <div class="clearfix">
-                                                                            <div class="float_left">
-                                                                                <h4>Have any question or need any business consultation?</h4>
-                                                                            </div>
-                                                                            <div class="float_right">
-                                                                                <a href="contact.html" class="thm-btn bg-clr2">Request Quote</a>
-                                                                            </div>
-                                                                        </div>
-
-                                                                    </div>
-                                                                </div> -->
-
-
     <!--Start contact form area-->
     <section class="contact-form-area sec-padd-top">
         <div class="container">
-            <div class="section-title">
-                <h2>get in <span class="thm-color">touch</span></h2>
+            <div class="section-title text-center">
+                <h2>Get in <span class="thm-color">Touch</span></h2>
                 <p>Let’s forge a connection — contact our team today. </p>
+                <!-- ✅ Added Benefit Text below heading -->
+                <p class="text-success fw-semibold mt-2">✅ Get quote within 24 hours – Global delivery available.</p>
             </div>
 
             <div class="row">
-
                 <div class="col-md-8">
-
-                    <div class="contact-form">
+                    <div class="contact-form shadow-sm p-4 bg-white rounded">
                         <form id="contact-form" name="contact_form" class="default-form" action="inc/sendmail.php"
                             method="post">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <input type="text" name="form_name" value="" placeholder="Your Name*"
-                                        required="">
+                                    <input type="text" name="form_name" placeholder="Your Name*" required>
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="email" name="form_email" value="" placeholder="Your Mail*"
-                                        required="">
+                                    <input type="email" name="form_email" placeholder="Your Mail*" required>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-6">
-                                    <input type="text" name="form_phone" value="" placeholder="Phone">
+                                    <input type="text" name="form_phone" placeholder="Phone">
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" name="form_subject" value="" placeholder="Subject">
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <textarea name="form_message" placeholder="Your Message.." required=""></textarea>
+                                    <input type="text" name="form_subject" placeholder="Subject">
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
-                                    <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden"
-                                        value="">
-                                    <button class="thm-btn bg-clr1" type="submit"
-                                        data-loading-text="Please wait...">send
-                                        message</button>
+                                    <textarea name="form_message" placeholder="Your Message.." required></textarea>
+                                </div>
+                            </div>
+                            <div class="row align-items-center">
+                                <div class="col-md-12 d-flex flex-wrap align-items-center justify-content-between">
+                                    <button class="thm-btn bg-clr1" type="submit" data-loading-text="Please wait...">Send
+                                        Message</button>
+
+                                    <!-- ✅ WhatsApp CTA -->
+                                    {{-- <a href="https://wa.me/919769584950" target="_blank"
+                                        class="btn btn-success mt-3 mt-md-0">
+                                        💬 Chat on WhatsApp
+                                    </a> --}}
                                 </div>
                             </div>
                         </form>
@@ -313,13 +225,28 @@
                     </div>
 
                 </div>
-
             </div>
         </div>
     </section>
-    <!--End contact form area-->
 
-
+    <!-- ✅ Schema Markup for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Moksh Tubes & Fittings LLP",
+        "url": "https://www.mokstubes.com",
+        "logo": "https://www.mokstubes.com/assets/images/logo.png",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+91-97695-84950",
+            "contactType": "Customer Service",
+            "email": "info@mokstubes.com",
+            "areaServed": "Worldwide",
+            "availableLanguage": ["English", "Hindi"]
+        }
+    }
+    </script>
 @endsection
 
 @section('extrajs')

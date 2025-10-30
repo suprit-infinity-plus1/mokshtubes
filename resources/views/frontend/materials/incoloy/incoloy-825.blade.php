@@ -40,7 +40,7 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a manufacturer, supplier,
+                            <strong class="text-black"> <a href="{{ route('index') }}">MOKSH TUBES & FITTINGS LLP</a></strong> is a <a href="{{ route('materials.nickel-Based-Superalloys') }}">supplier</a>,
                             exporter, importer and stockist of a variety of INCOLOY 825 products such as <a
                                 href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>,
                             Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires, Round Bars, Flat Bars, Angles,
@@ -51,16 +51,16 @@
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">INCOLOY 825</strong class="text-black"> is a nickel-iron-chromium
+                            <strong class="text-black">INCOLOY 825</strong class="text-black"> is a <a href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a> iron chromium
                             alloy with additions of molybdenum, copper, and <a
                                 href="{{ route('materials.titanium') }}">titanium</a>. The alloy offers exceptional
-                            resistance to reducing and oxidizing acids, stress-corrosion cracking, pitting, and crevice
+                            resistance to reducing and oxidizing acids, stress corrosion cracking, pitting, and crevice
                             corrosion. Its unique composition makes it highly suitable for aggressive environments,
-                            including those containing sulfuric, phosphoric, and nitric acids. Additionally, the titanium
+                            including those containing sulfuric, phosphoric, and nitric acids. Additionally, the <a href="{{ route('materials.titanium') }}">titanium</a>
                             stabilization provides resistance to intergranular corrosion after exposure to sensitization
                             temperatures. With excellent mechanical properties across a wide temperature range, <strong
                                 class="text-black"> INCOLOY 825</strong>
-                            is a go-to alloy for critical industries where corrosion performance and strength are key.
+                            is a go to alloy for critical industries where corrosion performance and strength are key.
                         </p>
                     </div>
                 </div>
@@ -255,7 +255,7 @@
     </section>
 
 
-    @php
+     @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -275,37 +275,37 @@
             ],
             [
                 'name' => 'Sheets & Plates',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.sheets-and-plates',
                 'image' => 'assets/images/all product/sheets-plates.jpg',
             ],
             [
                 'name' => 'Coils & Strips',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.strips',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.webp',
             ],
             [
                 'name' => 'Round Bars, Flat Bars, Hex Bars, Square Bars',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.bars-rods',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
             ],
             [
                 'name' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.pipe-fittings',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
             ],
             [
                 'name' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.flanges-and-gaskets',
                 'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
             ],
             [
                 'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
                 'image' => 'assets/images/all product/FASTENERS-1.png',
             ],
             [
                 'name' => 'Custom Fabricated Components',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
                 'image' => 'assets/images/all product/custom-metal-fabricated.jpg',
             ],
         ];
@@ -322,8 +322,8 @@
                 <div class="col-lg-10">
                     <p class="fs-6">
                         <strong class="text-dark">INCOLOY 825 </strong>, (UNS N08825 / W.Nr. 2.4858) is a trusted material
-                        in the world of corrosion-resistant alloys. Known for its excellent performance in aggressive
-                        environments—especially those containing acids—this nickel-iron-chromium alloy is commonly found in
+                        in the world of corrosion resistant alloys. Known for its excellent performance in aggressive
+                        environments—especially those containing acids this <a href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a> iron chromium alloy is commonly found in
                         oil and gas operations, chemical processing, pollution control, and nuclear fuel reprocessing.
                     </p>
                 </div>
@@ -427,7 +427,7 @@
                 <h2>Applications of INCOLOY 825</h2>
                 <p class="text-center pb-3"><strong class="text-dark">INCOLOY 825</strong> is extensively used in
                     industries where superior corrosion resistance and mechanical reliability are required. Its ability to
-                    resist acidic and chloride-laden environments makes it ideal for the following applications:
+                    resist acidic and chloride laden environments makes it ideal for the following applications:
                 </p>
             </div>
 
@@ -436,7 +436,7 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
                         <h5>Chemical Processing Industry</h5>
-                        <p>Used in heat exchangers, evaporators, tanks, and piping systems handling acidic and chloride-rich
+                        <p>Used in heat exchangers, evaporators, tanks, and piping systems handling acidic and chloride rich
                             fluids.
                         </p>
                     </div>
@@ -499,7 +499,7 @@
                     <div class="col-lg-10">
                         <p class="">
                             <strong class="text-dark">INCOLOY 825’s </strong>unique combination of corrosion
-                            resistance, strength, and workability ensures optimal performance in mission-critical
+                            resistance, strength, and workability ensures optimal performance in mission critical
                             applications.
                         </p>
                     </div>
@@ -527,7 +527,7 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Specialists in manufacturing high-quality products</h5>
+                        <h5>Specialists in manufacturing high quality products</h5>
                     </div>
                 </div>
 
@@ -630,7 +630,7 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    MOKSH TUBES & FITTINGS LLP manufactures, supplies, and exports Incoloy 825 in a wide
+                                    <a href="{{ route('index') }}">MOKSH TUBES & FITTINGS LLP</a> manufactures, supplies, and exports Incoloy 825 in a wide
                                     range of forms, including seamless and welded pipes, tubes, sheets, plates, coils, bars,
                                     wire mesh, welding rods, flanges, fasteners, pipe fittings, and custom fabricated
                                     components. Each product conforms to international standards and specifications,
@@ -646,8 +646,8 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    MOKSH TUBES & FITTINGS LLP is a trusted global supplier of Incoloy 825 products,
-                                    offering premium-quality materials backed by ISO and ASTM standards. With extensive
+                                    <a href="{{ route('index') }}">MOKSH TUBES & FITTINGS LLP</a> is a trusted global supplier of Incoloy 825 products,
+                                    offering premium quality materials backed by ISO and ASTM standards. With extensive
                                     expertise in nickel alloys, a strong supplier network, and a commitment to timely
                                     delivery, the company ensures tailored solutions for diverse industrial needs. Their
                                     dedication to quality, dependability, and customer satisfaction makes them the preferred

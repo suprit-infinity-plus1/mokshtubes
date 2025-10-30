@@ -6,7 +6,7 @@
     'special fabricated, custom steel furniture, stainless steel grills, railings, glass solutions, modern fabricated products, durable fabricated items, custom metal works, industrial steel fabrication')
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/steel-furniture/custom-steel-furniture.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

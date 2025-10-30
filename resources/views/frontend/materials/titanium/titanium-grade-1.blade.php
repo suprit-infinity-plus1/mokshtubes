@@ -60,8 +60,8 @@
                             service conditions.
                         </p>
                         <p class="fs-6" style="text-align: justify;">
-    The <strong>density of titanium metal</strong> is about 4.51 g/cm³, making it lighter yet stronger 
-    than many other engineering metals. Similarly, the <strong>titanium melting point</strong> is 1660 °C, 
+    The <strong>density of titanium metal</strong> is about 4.51 g/cm³, making it lighter yet stronger
+    than many other engineering metals. Similarly, the <strong>titanium melting point</strong> is 1660 °C,
     which ensures performance in high-temperature applications.
 </p>
 
@@ -132,8 +132,8 @@
                 <div class="col-lg-8">
                     <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties of Titanium</h4>
                     <p class="text-center">
-    The <strong>density of titanium metal</strong> is about 4.51 g/cm³, making it lighter yet stronger 
-    than many other engineering metals. Similarly, the <strong>titanium melting point</strong> is 1660 °C, 
+    The <strong>density of titanium metal</strong> is about 4.51 g/cm³, making it lighter yet stronger
+    than many other engineering metals. Similarly, the <strong>titanium melting point</strong> is 1660 °C,
     which ensures performance in high-temperature applications.
 </p>
                     <div class="table-responsive">
@@ -243,7 +243,7 @@
     </section>
 
 
-    @php
+     @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -263,37 +263,37 @@
             ],
             [
                 'name' => 'Sheets & Plates',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.sheets-and-plates',
                 'image' => 'assets/images/all product/sheets-plates.jpg',
             ],
             [
                 'name' => 'Coils & Strips',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.strips',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.webp',
             ],
             [
                 'name' => 'Round Bars, Flat Bars, Hex Bars, Square Bars',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.bars-rods',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
             ],
             [
                 'name' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.pipe-fittings',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
             ],
             [
                 'name' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.flanges-and-gaskets',
                 'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
             ],
             [
                 'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
                 'image' => 'assets/images/all product/FASTENERS-1.png',
             ],
             [
                 'name' => 'Custom Fabricated Components',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
                 'image' => 'assets/images/all product/custom-metal-fabricated.jpg',
             ],
         ];
@@ -419,8 +419,8 @@
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Titanium Grade 1</h2>
-                <p class="text-center pb-3"><strong class="text-dark">Common <strong>titanium metal uses</strong> include aircraft parts, marine equipment, 
-   surgical implants, and sports gear. The versatility of <strong>titanium usage</strong> 
+                <p class="text-center pb-3"><strong class="text-dark">Common <strong>titanium metal uses</strong> include aircraft parts, marine equipment,
+   surgical implants, and sports gear. The versatility of <strong>titanium usage</strong>
    ensures its demand across multiple industries worldwide.
 </p>
                 </p>
@@ -650,11 +650,11 @@
                 <h2>Contact Us</h2>
                 <p>
                     <strong><p>
-   Whether used as a structural <strong>titanium material</strong> or in 
-   advanced alloys, its lightweight, high-strength, and corrosion-resistant 
-   nature ensure that titanium remains one of the most valuable 
-   engineering metals today. <strong>Moksh Tubes</strong>, we supply 
-   premium quality <strong>titanium</strong> and its alloys for various 
+   Whether used as a structural <strong>titanium material</strong> or in
+   advanced alloys, its lightweight, high-strength, and corrosion-resistant
+   nature ensure that titanium remains one of the most valuable
+   engineering metals today. <strong>Moksh Tubes</strong>, we supply
+   premium quality <strong>titanium</strong> and its alloys for various
    industrial applications.
 </p>
 

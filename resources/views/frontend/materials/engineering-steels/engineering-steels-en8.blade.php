@@ -43,7 +43,7 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted manufacturer,
+                            <strong class="text-black"> <a href="{{ route('index') }}">MOKSH TUBES & FITTINGS LLP</a></strong> is a trusted manufacturer,
                             exporter, and stockist of<strong class="text-black"> EN8 Steel products</strong> including
                             Pipes,<a href="{{ route('products.pipes-tubes') }}"> Tubes</a>, Round Bars, Flats, Squares,
                             Forged Bars, Shafts, Sheets, Plates, Pipe Fittings, and Custom Machined Components.
@@ -224,9 +224,9 @@
                                 <tr class="t-row">
                                     <th>Property</th>
                                     <th>Annealed</th>
-                                    <th>Hot-Finished</th>
+                                    <th>Hot Finished</th>
                                     <th>Cold Drawn</th>
-                                    <th>Hot-rolled</th>
+                                    <th>Hot rolled</th>
                                     <th>Sheet</th>
                                 </tr>
                             </thead>
@@ -279,7 +279,7 @@
     </section>
 
 
-    @php
+     @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -299,37 +299,37 @@
             ],
             [
                 'name' => 'Sheets & Plates',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.sheets-and-plates',
                 'image' => 'assets/images/all product/sheets-plates.jpg',
             ],
             [
                 'name' => 'Coils & Strips',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.strips',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.webp',
             ],
             [
                 'name' => 'Round Bars, Flat Bars, Hex Bars, Square Bars',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.bars-rods',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
             ],
             [
                 'name' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.pipe-fittings',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
             ],
             [
                 'name' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.flanges-and-gaskets',
                 'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
             ],
             [
                 'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
                 'image' => 'assets/images/all product/FASTENERS-1.png',
             ],
             [
                 'name' => 'Custom Fabricated Components',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
                 'image' => 'assets/images/all product/custom-metal-fabricated.jpg',
             ],
         ];
@@ -439,7 +439,7 @@
             <div class="section-title center">
                 <h2>Applications of EN8 Steel</h2>
                 <p class="text-center pb-3"><strong class="text-dark">Engineering Steel 8</strong> is widely used in
-                    mechanical engineering for parts that need better mechanical strength than mild steel but don’t require
+                    mechanical <a href="{{ route('materials.engineering-Steels') }}">engineering</a> for parts that need better mechanical strength than mild steel but don’t require
                     high hardenability or extreme corrosion resistance.</p>
             </div>
 

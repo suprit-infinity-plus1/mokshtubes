@@ -44,17 +44,17 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted global
-                            manufacturer, supplier, exporter, importer, and stockist of high-quality INCOLOY® 925 (UNS
+                            <strong class="text-black"> <a href="{{ route('index') }}">MOKSH TUBES & FITTINGS LLP</a></strong> is a trusted global
+                            manufacturer, supplier, exporter, importer, and stockist of high quality INCOLOY 925 (UNS
                             N09925) <a href="{{ route('products') }}">products</a>. We offer a complete portfolio including
                             <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings, Flanges,
                             Fasteners, Sheets & Plates, Coils, Wires, Round Bars, Flat Bars, Welding Rods, Wire Mesh, and
-                            other Custom-Fabricated Components crafted from this versatile alloy.
+                            <a href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a> other Custom Fabricated Components crafted from this versatile alloy.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">INCOLOY 925</strong class="text-black"> is a precipitation-hardenable
-                            nickel-iron-chromium alloy engineered for superior strength and resistance in extreme
+                            <a href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a> iron chromium alloy engineered for superior strength and resistance in extreme
                             environments. Enriched with molybdenum, copper, <a
                                 href="{{ route('materials.titanium') }}">titanium</a>, and <a
                                 href="{{ route('materials.aluminium-Alloys') }}">aluminum</a>, it delivers excellent
@@ -293,37 +293,37 @@
             ],
             [
                 'name' => 'Sheets & Plates',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.sheets-and-plates',
                 'image' => 'assets/images/all product/sheets-plates.jpg',
             ],
             [
                 'name' => 'Coils & Strips',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.strips',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.webp',
             ],
             [
                 'name' => 'Round Bars, Flat Bars, Hex Bars, Square Bars',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.bars-rods',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
             ],
             [
                 'name' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.pipe-fittings',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
             ],
             [
                 'name' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.flanges-and-gaskets',
                 'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
             ],
             [
                 'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
                 'image' => 'assets/images/all product/FASTENERS-1.png',
             ],
             [
                 'name' => 'Custom Fabricated Components',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
                 'image' => 'assets/images/all product/custom-metal-fabricated.jpg',
             ],
         ];
@@ -687,7 +687,7 @@
                 <p>
                     <strong>Moksh Tubes & Fittings LLP</strong> Your trusted partner for high-performance alloy solutions.
                 </p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch
@@ -702,8 +702,8 @@
 
 @endsection
 @section('jsscripts')
-@verbatim
-<script type="application/ld+json">
+    @verbatim
+        <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -751,5 +751,5 @@
   ]
 }
 </script>
-@endverbatim
+    @endverbatim
 @endsection

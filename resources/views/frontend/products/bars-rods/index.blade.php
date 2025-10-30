@@ -1,11 +1,12 @@
 @extends('layouts.master')
 @section('title', 'Bars & Rods – Round, Square, Hex & Flat') <!-- 52 characters -->
-@section('meta_description',
-    'Moksh Tubes offers premium Bars & Rods – Round, Square, Hex, Flat & Threaded in SS, Alloy & Duplex grades with worldwide delivery.') <!-- 153 characters -->
-@section('meta_keywords', 'Bars & Rods, Round Bars, Square Bars, Hex Bars, Flat Bars, Threaded Rods, Stainless Steel Rods, Alloy Bars, Duplex Bars')
+@section('meta_description', 'Moksh Tubes offers premium Bars & Rods – Round, Square, Hex, Flat & Threaded in SS, Alloy
+    & Duplex grades with worldwide delivery.') <!-- 153 characters -->
+@section('meta_keywords', 'Bars & Rods, Round Bars, Square Bars, Hex Bars, Flat Bars, Threaded Rods, Stainless Steel
+    Rods, Alloy Bars, Duplex Bars')
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/Bars-&-Rods/square-bars.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -29,34 +30,34 @@
                         [
                             'name' => 'Square Bars',
                             'slug' => 'square-bars',
-                            'image' => 'assets/images/peoduct/Bars & Rods/square-bars.webp',
+                            'image' => 'assets/images/peoduct/Bars-&-Rods/square-bars.webp',
                         ],
                         [
                             'name' => 'Threaded Rods',
                             'slug' => 'threaded-rods',
-                            'image' => 'assets/images/peoduct/Bars & Rods/threaded-rods.webp',
+                            'image' => 'assets/images/peoduct/Bars-&-Rods/threaded-rods.webp',
                         ],
                         [
                             'name' => 'Round Bars',
                             'slug' => 'round-bars',
-                            'image' => 'assets/images/peoduct/Bars & Rods/round-bars.webp',
+                            'image' => 'assets/images/peoduct/Bars-&-Rods/round-bars.webp',
                         ],
                         [
                             'name' => 'Hollow Bars',
                             'slug' => 'hollow-bars',
-                            'image' => 'assets/images/peoduct/hollow-section-pipe.webp',
+                            'image' => 'assets/images/peoduct/Hollow-Bars.jpeg',
                         ],
                         [
                             'name' => 'Hexagon Bars',
                             'slug' => 'hexagon-bars',
-                            'image' => 'assets/images/peoduct/u-bent-tubes.webp',
+                            'image' => 'assets/images/peoduct/Hexagon-Bars.jpg',
                         ],
                         [
                             'name' => 'Flat Bars',
                             'slug' => 'flat-bars',
-                            'image' => 'assets/images/peoduct/boiler-heat-exchanger-tubes.webp',
+                            'image' => 'assets/images/peoduct/Flat-Bars.jpg',
                         ],
-                       ];
+                    ];
                 @endphp
 
                 @foreach ($types as $type)
