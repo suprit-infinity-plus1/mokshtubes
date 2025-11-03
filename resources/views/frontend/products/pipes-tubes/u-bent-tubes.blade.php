@@ -1,7 +1,7 @@
 @extends('layouts.master')
-@section('title', 'U-Bent Tubes – Custom Fabricated Industrial Solutions') <!-- 52 characters -->
+@section('title', 'Industrial U-Bent Tubes | Custom Fabrication') <!-- 54 characters -->
 @section('meta_description',
-    'Precision-engineered U-bent tubes from Moksh Tubes — customized for industrial applications with superior strength, durability & performance.') <!-- 153 characters -->
+    'Get precision U-Bent Tubes from Moksh Tubes — custom sizes, superior durability & performance for boilers, heat exchangers & industrial systems.') <!-- 153 characters -->
 @section('meta_keywords',
     'U-Bent Tubes, U-Bend Tubes, Custom U-Bent Tubes, Industrial U-Bent Tubes, Heat Exchanger Tubes, Boiler Tubes, Stainless Steel U-Bent Tubes, Alloy U-Bent Tubes, Precision Bent Tubes, Moksh Tubes')
 @section('content')
@@ -27,7 +27,7 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/peoduct/u-bent-tubes.webp') }}" alt="U-Bent Tubes" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/peoduct/u-bent-tubes.webp') }}" alt="U-Bent Tubes for Industrial Heat Exchangers" class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
                 <!-- Right Content -->
@@ -48,6 +48,15 @@
                         industries. All tubes are produced and bent under strict quality control to ensure dimensional
                         accuracy and structural integrity.
                     </p>
+                     <ul class="fs-6 mb-3">
+                    <li>Custom lengths & diameters up to 12 meters</li>
+                    <li>Available in stainless steel, carbon steel, alloy steel & nickel alloys</li>
+                    <li>Ideal for power, petrochemical & industrial applications</li>
+                    <li>Strict quality control ensures dimensional accuracy & durability</li>
+                </ul>
+                <p class="fs-6 text-justify">
+                    Explore our range of <a href="{{ route('products.pipes-tubes') }}">industrial piping solutions</a> and find the **perfect U-Bent Tube** for your system.
+                </p>
                 </div>
             </div>
         </div>

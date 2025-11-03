@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
-@section('title', '1055 Engineering Steel | Medium Carbon Steel')
-@section('meta_description', '1055 Engineering Steel offering optimal medium carbon content for strength, durability, and reliable mechanical performance in industrial applications.')
+@section('title', '1055 Engineering Steel | Strong & Durable Medium Carbon Steel')
+@section('meta_description', 'Discover high-strength 1055 Engineering Steel for industrial and mechanical applications. Durable, reliable, and perfect for bars, plates, tubes, and fittings.')
 @section('meta_keywords', '1055 Engineering Steel, medium carbon steel, durable steel, mechanical steel, industrial steel, high strength steel, steel for components')
 
 @section('content')
@@ -31,8 +31,8 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/engineering-steels/engineering-steels-1055.webp') }}" alt="EN-1055"
-                        class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/engineering-steels/engineering-steels-1055.webp') }}" alt="1055 steel"
+                        class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
                 <!-- Content Right -->
@@ -61,7 +61,7 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>Chemical Composition of Engineering Steel 1055</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -103,13 +103,13 @@
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color: #174268;">Technical Composition of Engineering Steel 1055</h2>
             </div>
 
             <!-- Physical Properties Table -->
             <div class="row justify-content-center mb-5">
                 <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
+                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties of Engineering Steel 1055</h4>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -164,7 +164,7 @@
             <!-- Mechanical Properties Table -->
             <div class="row justify-content-center">
                 <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties of Engineering Steel 1055</h4>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
