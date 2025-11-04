@@ -644,17 +644,17 @@
 
         <div class="whatsapp-btn-container"
             style="
-display: flex;
-align-items: center;
-justify-content: center;
-border-radius: 50px;
-position: fixed;
-bottom: 25px;
-background: #25d366;
-left: 2.1875rem;
-width: 60px;
-height: 60px;
-z-index:99;">
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50px;
+                    position: fixed;
+                    bottom: 25px;
+                    background: #25d366;
+                    left: 2.1875rem;
+                    width: 60px;
+                    height: 60px;
+                    z-index:99;">
             <div id="whatsapp-btn" style="margin-top:5px;">
                 <a class="whatsapp" href="https://wa.me/+919769584950">
                     <i class="fa fa-whatsapp fa-2x text-white" aria-hidden="true"></i>
@@ -817,14 +817,14 @@ z-index:99;">
 
 
 
-        @yield('extrajs')
 
 
 
-    </div>
+</div>
+@yield('extrajs')
+    @yield('jsscripts')
 </body>
 
-@yield('jsscripts')
 
 
 </html>
