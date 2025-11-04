@@ -1086,3 +1086,55 @@
 
 
 @endsection
+@section('jsscripts')
+<script type="application/ld+json">
+@verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are hexagon bars used for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hexagon bars are commonly used in nuts, bolts, fasteners, and precision components due to their six-sided shape, which makes them easy to machine and grip."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What materials are available in hexagon bars?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We supply stainless steel hexagon bars, mild steel hexagon bars, alloy steel hexagon bars, brass hexagon bars, copper hexagon bars, and aluminium hexagon bars in different grades and finishes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What sizes do hexagon bars come in?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hexagon bars are available in a wide range of sizes, including 10 mm hexagon bar, 20 mm hex bar, and custom cut to size options."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How to calculate the weight of a hexagon bar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The weight of a hexagon bar can be calculated using the formula: Weight (kg/m) = (0.0068 × Across Flat Dimension²) × Density of Material."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who are the leading hexagon bar suppliers in Mumbai, India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Moksh Tubes & Fittings LLP is among the trusted hexagon bar suppliers in Mumbai, offering a wide range of stainless steel, MS, alloy steel, copper, brass, and aluminium hexagon bars."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
+@endsection

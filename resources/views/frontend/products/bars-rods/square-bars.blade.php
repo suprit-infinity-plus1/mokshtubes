@@ -959,3 +959,55 @@
 
 
 @endsection
+@section('jsscripts')
+<script type="application/ld+json">
+@verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is an M.S. Square Bar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An M.S. (Mild Steel) Square Bar is a solid steel bar with a square shaped cross section. It is made from mild steel, known for its strength, flexibility, and cost effectiveness. These bars are widely used in construction, fabrication, railings, industrial frameworks, and general engineering applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is a steel square bar designed edge to edge?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A steel square bar is designed with equal dimensions on all four sides, giving it a uniform square shape. This design allows for easy cutting, welding, drilling, and use in both structural and decorative applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the advantages of using M.S. Square Bars?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "M.S. Square Bars are strong, durable, easy to cut and weld, cost effective, and available in various sizes and lengths. They are ideal for construction, manufacturing, and DIY projects."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where are M.S. Square Bars commonly used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "M.S. Square Bars are commonly used in building construction, machinery, metal gates and railings, furniture frames, and structural frameworks."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can M.S. Square Bars be customized?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, M.S. Square Bars can be customized by cutting, machining, or fabricating them into different sizes and shapes to suit project requirements."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
+@endsection
