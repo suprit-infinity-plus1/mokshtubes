@@ -126,7 +126,7 @@ class BlogController extends Controller
                 'date' => 'sep 01, 2025',
                 'image' => 'assets/images/blog/uaes-ultimate-guide.webp',
                 'excerpt' => 'Imagine this you’re overseeing a mega project on Dubai’s skyline.',
-                'link' => route('blogs.uae’s-ultimate-guide')
+                'link' => route('blogs.uaes-ultimate-guide')
             ],
             // [
             //     'title' => 'DIN Standard Metal Alloys & Industrial Tubes',
@@ -180,7 +180,7 @@ class BlogController extends Controller
                 'date' => 'august 14, 2025',
                 'image' => '/assets/images/blog/indias-stainless-steel-export-industry.webp',
                 'excerpt' => 'India has emerged as a global leader in stainless steel production and exports,',
-                'link' => route('blogs.india’s-stainless-steel-export-industry')
+                'link' => route('blogs.indias-stainless-steel-export-industry')
             ],
               [
                 'title' => 'The Role of High-Performance Alloys in Desalination Plants',

@@ -31,22 +31,22 @@
                     [
                         'name' => 'haynes-superalloys 160',
                         'slug' => 'haynes-superalloys-160',
-                        'image' => 'assets/images/haynes /haynes-alloy-160.webp',
+                        'image' => 'assets/images/haynes/haynes-alloy-160.webp',
                     ],
                     [
                         'name' => 'haynes-superalloys 188',
                         'slug' => 'haynes-superalloys-188',
-                        'image' => 'assets/images/haynes /haynes-alloy-188.webp',
+                        'image' => 'assets/images/haynes/haynes-alloy-188.webp',
                     ],
                     [
                         'name' => 'haynes-superalloys 230',
                         'slug' => 'haynes-superalloys-230',
-                        'image' => 'assets/images/haynes /haynes-230.webp',
+                        'image' => 'assets/images/haynes/haynes-230.webp',
                     ],
                     [
                         'name' => 'haynes-superalloys 242',
                         'slug' => 'haynes-superalloys-242',
-                        'image' => 'assets/images/haynes /haynes- 242.webp',
+                        'image' => 'assets/images/haynes/haynes-242.webp',
                     ],
                 ];
             @endphp
