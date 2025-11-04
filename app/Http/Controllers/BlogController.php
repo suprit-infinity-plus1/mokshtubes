@@ -97,7 +97,7 @@ class BlogController extends Controller
                 'author' => 'Jash Jain',
                 'comments' => 16,
                 'date' => 'October 01, 2025',
-                'image' => 'assets/images/blog/how_to_choose.png',
+                'image' => 'assets/images/blog/how_to_choose.webp',
                 'excerpt' => 'Sourcing materials for a critical industrial, construction,',
                 'link' => route('blogs.how-to-choose-the-best-stainless-steel-pipes')
             ],
