@@ -1792,3 +1792,55 @@
 
 
 @endsection
+@section('jsscripts')
+<script type="application/ld+json">
+@verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are perforated sheets?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Perforated sheets are metal sheets that have been punched or stamped with holes, slots, or decorative patterns. They are used for filtration, screening, ventilation, and aesthetic applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which materials are perforated sheets available in?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Perforated sheets can be made from stainless steel, carbon steel, aluminum, brass, copper, titanium, nickel alloys, and galvanized steel depending on the application."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What thickness range is offered for perforated sheets?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Perforated sheets are usually available in thicknesses from 0.3 mm to 12 mm, with customized options available on request."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the standard hole shapes and patterns?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common hole shapes and patterns include round, square, slotted (rectangular or oblong), hexagonal, and custom decorative designs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the typical applications of perforated sheets?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Perforated sheets are used for filtration and sieving, ventilation grills, soundproofing panels, sunshades, decorative facades, machinery guards, and in food processing or chemical industries."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
+@endsection

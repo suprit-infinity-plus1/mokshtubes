@@ -945,3 +945,56 @@
 
 
 @endsection
+@section('jsscripts')
+<script type="application/ld+json">
+@verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are Shim Sheets?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Shim sheets are thin sheets of metal used for precision adjustments, alignment, spacing, and support in machinery, assemblies, and industrial equipment. They help achieve accurate tolerances and reduce wear."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which materials are shim sheets available in?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Shim sheets are available in stainless steel, brass, copper, aluminum, carbon steel, nickel alloys, and specialty alloys depending on the application."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What thickness range is offered in shim sheets?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Shim sheets typically range from 0.02 mm up to 5 mm in thickness, with tighter tolerances available for precision engineering. Custom thicknesses can also be made on request."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the common applications of shim sheets?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Shim sheets are commonly used for machine alignment, tool and die adjustments, motor and pump spacing, aerospace and automotive components, electronic equipment assembly, and gasket or sealing purposes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can shim sheets be supplied in cut sizes or rolls?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, shim sheets are available in full sheets, coils, rolls, and precision cut-to-size pieces depending on project requirements."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
+@endsection
+
