@@ -25,7 +25,7 @@
                     <div class="blog-post">
                         <div class="single-blog-post">
                             <div class="img-holder" style="position:relative;width:100%;aspect-ratio:3/2;overflow:hidden;">
-                                <img src="{{ asset('assets/images/blog/india’s-stainless-steel-export-industry.webp') }}"
+                                <img src="{{ asset('assets/images/blog/indias-stainless-steel-export-industry.webp') }}"
                                     alt="india’s-stainless-steel-export-industry"
                                     style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
                             </div>

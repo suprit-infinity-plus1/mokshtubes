@@ -8,7 +8,7 @@
     Steel Square Rods, Square Bar Sizes, Square Bar Weight Chart')
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/Bars-&-Rods/square-bars.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -29,7 +29,7 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/peoduct/Bars & Rods/square-bars.webp') }}" alt="Square Bars"
+                    <img src="{{ asset('assets/images/peoduct/Bars-&-Rods/square-bars.webp') }}" alt="Square Bars"
                         class="img-fluid rounded shadow-sm">
                 </div>
 
@@ -471,6 +471,7 @@
     </section>
 
     {{-- Gallery --}}
+    {{-- Gallery --}}
     <section class="our-services">
         <div class="container">
             <div class="container">
@@ -480,7 +481,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
+                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}"
                                     alt="NICKLE ALLOYS">
                             </a>
@@ -493,7 +494,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}"
                                     alt="STAINLESS STEEL">
                             </a>
@@ -506,7 +507,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}"
                                     alt="DUPLEX & SUPER">
                             </a>
@@ -520,7 +521,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="##">
+                            <a class="w-100" href="{{ route('materials.titanium') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}"
                                     alt="TITANIUM ALLOYS">
                             </a>
@@ -533,26 +534,26 @@
                 <div class="col-md-4 col-sm-6 mb-4 ">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100">
+                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}"
-                                    alt="RARE TO ALLOYS">
+                                    alt="Haynes Superalloys">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0">RARE TO ALLOYS</h6>
+                            <h6 class="mt-0">Haynes Superalloys</h6>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100">
+                            <a class="w-100" href="{{ route('materials.inconel') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}"
-                                    alt="CARBON ALLOYS">
+                                    alt="Inconel">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0">CARBON ALLOYS</h6>
+                            <h6 class="mt-0">Inconel</h6>
                         </div>
                     </div>
                 </div>
@@ -957,4 +958,56 @@
     <!--End breadcrumb area-->
 
 
+@endsection
+@section('jsscripts')
+<script type="application/ld+json">
+@verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is an M.S. Square Bar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An M.S. (Mild Steel) Square Bar is a solid steel bar with a square-shaped cross section. It is made from mild steel, known for its strength, flexibility, and cost-effectiveness. These bars are widely used in construction, fabrication, railings, industrial frameworks, and general engineering applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is a steel square bar designed edge to edge?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A steel square bar is designed with equal dimensions on all four sides, giving it a uniform 'edge to edge' square shape. This consistent design makes it easy to cut, weld, drill, and use in structural or decorative applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the advantages of using M.S. Square Bars?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "M.S. Square Bars offer several advantages including: strong and durable performance, easy cutting, bending, and welding, cost-effectiveness compared to other metals, wide availability in different sizes, and versatility for construction, manufacturing, and DIY projects."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where are M.S. Square Bars commonly used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "M.S. Square Bars are commonly used in building construction, industrial machinery and tools, metal gates and railings, furniture frames, and structural frameworks."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can M.S. Square Bars be customized?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, M.S. Square Bars can be cut, machined, or fabricated into custom sizes and shapes depending on specific project requirements."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
 @endsection

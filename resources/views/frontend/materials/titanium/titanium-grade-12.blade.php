@@ -237,7 +237,7 @@
     </section>
 
 
-    @php
+     @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -257,37 +257,37 @@
             ],
             [
                 'name' => 'Sheets & Plates',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.sheets-and-plates',
                 'image' => 'assets/images/all product/sheets-plates.jpg',
             ],
             [
                 'name' => 'Coils & Strips',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.strips',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.webp',
             ],
             [
                 'name' => 'Round Bars, Flat Bars, Hex Bars, Square Bars',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.bars-rods',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
             ],
             [
                 'name' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.pipe-fittings',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
             ],
             [
                 'name' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.flanges-and-gaskets',
                 'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
             ],
             [
                 'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
                 'image' => 'assets/images/all product/FASTENERS-1.png',
             ],
             [
                 'name' => 'Custom Fabricated Components',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
                 'image' => 'assets/images/all product/custom-metal-fabricated.jpg',
             ],
         ];
@@ -643,4 +643,56 @@
 
 
 
+@endsection
+@section('jsscripts')
+<script type="application/ld+json">
+    @verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Titanium Grade 12?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Titanium Grade 12 (UNS R53400) is a corrosion-resistant titanium alloy containing nickel and molybdenum. It offers excellent strength, weldability, and reliable performance in acidic, chloride, and marine environments, making it suitable for demanding industrial applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the common applications of Titanium Grade 12?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Titanium Grade 12 is widely used in chemical processing plants, desalination systems, marine and offshore equipment, power generation, oil and gas applications, pollution control systems, automotive, and aerospace industries. It provides excellent corrosion resistance and structural reliability under high temperature and high-pressure conditions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What products are available in Titanium Grade 12?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP supplies Titanium Grade 12 as seamless and welded pipes, tubes, sheets, plates, coils, bars, fittings, flanges, fasteners, welding rods, and custom fabricated components. All products are tested and manufactured to meet international industrial standards."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is Titanium Grade 12 preferred over other alloys?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Titanium Grade 12 offers superior corrosion resistance in both oxidizing and reducing environments, a high strength to weight ratio, excellent weldability and formability, and long term durability. These properties make it ideal for demanding chemical, marine, and industrial applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose MOKSH TUBES & FITTINGS LLP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP delivers premium Titanium Grade 12 products with precision engineering, global sourcing, decades of titanium expertise, worldwide shipping, and custom solutions tailored to industrial and mission critical applications, ensuring high performance and reliability."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
 @endsection

@@ -273,7 +273,7 @@
     </section>
 
 
-    @php
+     @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -293,37 +293,37 @@
             ],
             [
                 'name' => 'Sheets & Plates',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.sheets-and-plates',
                 'image' => 'assets/images/all product/sheets-plates.jpg',
             ],
             [
                 'name' => 'Coils & Strips',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.strips',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.webp',
             ],
             [
                 'name' => 'Round Bars, Flat Bars, Hex Bars, Square Bars',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.bars-rods',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
             ],
             [
                 'name' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.pipe-fittings',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
             ],
             [
                 'name' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.flanges-and-gaskets',
                 'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
             ],
             [
                 'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
                 'image' => 'assets/images/all product/FASTENERS-1.png',
             ],
             [
                 'name' => 'Custom Fabricated Components',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
                 'image' => 'assets/images/all product/custom-metal-fabricated.jpg',
             ],
         ];
@@ -719,4 +719,56 @@
 
 
 
+@endsection
+@section('jsscripts')
+<script type="application/ld+json">
+    @verbatim
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "What is Incoloy 020 and what makes it unique?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Incoloy 020, also known as Alloy 20, is a nickel-iron-chromium alloy specifically designed to resist sulfuric acid and other aggressive chemical environments. With the addition of copper and molybdenum, it provides excellent resistance to pitting, crevice corrosion, and chloride-induced stress corrosion cracking, making it a preferred material for industries handling highly corrosive media."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What are the key properties of Incoloy 020 alloy?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Incoloy 020 exhibits outstanding corrosion resistance, strong mechanical properties, and excellent workability. It maintains resistance even after welding and delivers superior protection against sulfuric acid, nitric acid, chlorides, and mixed chemical environments. Its tensile strength can reach up to 149 ksi, with excellent ductility and hardness, ensuring durability and long service life in critical applications."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Where is Incoloy 020 commonly used?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Incoloy 020 is widely used in the chemical processing industry for heat exchangers, reactors, piping, and storage tanks handling strong acids. It is also utilized in pharmaceutical and food processing industries, oil and gas facilities, marine environments, pulp and paper plants, pollution control systems, acid recovery units, and power generation equipment, where resistance to acidic and chloride rich environments is essential."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What types of Incoloy 020 products are available?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "MOKSH TUBES & FITTINGS LLP supplies Incoloy 020 in multiple forms including seamless and welded pipes, tubes, sheets, plates, coils, bars, fittings, flanges, fasteners, wire mesh, and custom fabricated components. All products comply with ASTM, ASME, and international standards to ensure high performance, reliability, and compatibility with demanding industrial requirements."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Why choose MOKSH TUBES & FITTINGS LLP for Incoloy 020 materials?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "MOKSH TUBES & FITTINGS LLP is a trusted global supplier of Incoloy 020, offering a wide inventory, quick delivery, and custom machining solutions. With deep expertise in nickel-based and corrosion-resistant alloys, the company ensures ISO certified quality assurance, competitive pricing, and full compliance with international standards, making it a reliable partner for industries that demand long-lasting corrosion resistance and operational safety."
+            }
+        }
+    ]
+}
+@endverbatim
+</script>
 @endsection

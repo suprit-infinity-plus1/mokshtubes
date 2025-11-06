@@ -233,7 +233,7 @@
     </section>
 
 
-    @php
+     @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -253,37 +253,37 @@
             ],
             [
                 'name' => 'Sheets & Plates',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.sheets-and-plates',
                 'image' => 'assets/images/all product/sheets-plates.jpg',
             ],
             [
                 'name' => 'Coils & Strips',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.strips',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.webp',
             ],
             [
                 'name' => 'Round Bars, Flat Bars, Hex Bars, Square Bars',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.bars-rods',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
             ],
             [
                 'name' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.pipe-fittings',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
             ],
             [
                 'name' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.flanges-and-gaskets',
                 'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
             ],
             [
                 'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
                 'image' => 'assets/images/all product/FASTENERS-1.png',
             ],
             [
                 'name' => 'Custom Fabricated Components',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
                 'image' => 'assets/images/all product/custom-metal-fabricated.jpg',
             ],
         ];
@@ -631,4 +631,56 @@
 
 
 
+@endsection
+@section('jsscripts')
+<script type="application/ld+json">
+    @verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is 253 MA stainless steel and its key features?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "253 MA (UNS S30815 / EN 1.4835) is a high-temperature austenitic stainless steel developed for excellent oxidation resistance, high creep strength, and structural stability at elevated temperatures. Containing moderate nickel along with rare earth and alkali metal additions, it performs exceptionally well in high thermal stress, cyclic heating, and corrosive environments, with service temperatures up to 1150°C (2100°F)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What types of 253 MA products does Moksh Tubes & Fittings LLP supply?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Moksh Tubes & Fittings LLP supplies a complete range of 253 MA products including seamless and welded pipes (ERW & EFW), capillary, U-bend, boiler, and heat exchanger tubes, sheets, plates, coils, strips, round bars, flat bars, hex bars, square bars, pipe fittings, flanges, fasteners, wire mesh, and custom-fabricated components designed for high-temperature service."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the advantages of using 253 MA stainless steel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "253 MA offers outstanding oxidation resistance up to 1150°C (2100°F), excellent creep rupture strength, and structural stability at elevated temperatures. It is cost-effective due to lower nickel content compared to other heat-resistant alloys, has good weldability and fabricability, and maintains performance under high stress and corrosive conditions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which industries commonly use 253 MA materials?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "253 MA is used in industries requiring high-temperature strength and corrosion resistance, including heat treatment (furnace parts, rollers, radiant tubes), petrochemical (reformer tubes, burners, catalyst supports), power generation (boilers, superheaters, heat exchangers), cement and lime kilns, incineration, waste processing, and steel and glass manufacturing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose Moksh Tubes & Fittings LLP for 253 MA supply?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Moksh Tubes & Fittings LLP specializes in high-performance heat-resistant alloys like 253 MA, offering EN 10204 3.1 / 3.2 certified materials, ready stock, custom sizes, quick delivery, and metallurgical support. Their global logistics ensure reliable supply and precision-engineered products for demanding applications."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
 @endsection

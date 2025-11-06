@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
-@section('title', '1055 Engineering Steel | Medium Carbon Steel')
-@section('meta_description', '1055 Engineering Steel offering optimal medium carbon content for strength, durability, and reliable mechanical performance in industrial applications.')
+@section('title', '1055 Engineering Steel | Strong & Durable Medium Carbon Steel')
+@section('meta_description', 'Discover high-strength 1055 Engineering Steel for industrial and mechanical applications. Durable, reliable, and perfect for bars, plates, tubes, and fittings.')
 @section('meta_keywords', '1055 Engineering Steel, medium carbon steel, durable steel, mechanical steel, industrial steel, high strength steel, steel for components')
 
 @section('content')
@@ -31,15 +31,15 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/engineering-steels/engineering-steels-1055.webp') }}" alt="EN-1055"
-                        class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/engineering-steels/engineering-steels-1055.webp') }}" alt="1055 steel"
+                        class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a manufacturer, supplier,
+                            <strong class="text-black"> <a href="{{ route('index') }}">MOKSH TUBES & FITTINGS LLP</a></strong> is a manufacturer, supplier,
                             exporter, importer, and stockist of<strong class="text-black"> EN 1055 steel products</strong>
                             such as bars, plates,<a href="{{ route('products.pipes-tubes') }}"> tubes</a>, and fittings.
                         </p>
@@ -61,7 +61,7 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>Chemical Composition of Engineering Steel 1055</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -103,13 +103,13 @@
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color: #174268;">Technical Composition of Engineering Steel 1055</h2>
             </div>
 
             <!-- Physical Properties Table -->
             <div class="row justify-content-center mb-5">
                 <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
+                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties of Engineering Steel 1055</h4>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -164,16 +164,16 @@
             <!-- Mechanical Properties Table -->
             <div class="row justify-content-center">
                 <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties of Engineering Steel 1055</h4>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
 
                                 <th>Property</th>
                                 <th>Annealed</th>
-                                <th>Hot-Finished</th>
+                                <th>Hot Finished</th>
                                 <th>Cold Drawn</th>
-                                <th>Hot-rolled</th>
+                                <th>Hot rolled</th>
                                 <th>Sheet</th>
                                 </tr>
                             </thead>
@@ -227,7 +227,7 @@
     </section>
 
 
-    @php
+     @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -247,37 +247,37 @@
             ],
             [
                 'name' => 'Sheets & Plates',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.sheets-and-plates',
                 'image' => 'assets/images/all product/sheets-plates.jpg',
             ],
             [
                 'name' => 'Coils & Strips',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.strips',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.webp',
             ],
             [
                 'name' => 'Round Bars, Flat Bars, Hex Bars, Square Bars',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.bars-rods',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
             ],
             [
                 'name' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.pipe-fittings',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
             ],
             [
                 'name' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.flanges-and-gaskets',
                 'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
             ],
             [
                 'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
                 'image' => 'assets/images/all product/FASTENERS-1.png',
             ],
             [
                 'name' => 'Custom Fabricated Components',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
                 'image' => 'assets/images/all product/custom-metal-fabricated.jpg',
             ],
         ];
@@ -629,8 +629,8 @@
 
 @endsection
 @section('jsscripts')
-@verbatim
 <script type="application/ld+json">
+    @verbatim
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -677,6 +677,6 @@
     }
   ]
 }
-</script>
 @endverbatim
+</script>
 @endsection

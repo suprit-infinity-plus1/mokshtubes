@@ -8,7 +8,7 @@
     Alloy Steel Sheets & Plates, Custom Metal Sheets & Plates, High-Quality Industrial Sheets & Plates')
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/Sheets-Plates-and-Coils/Sheets-and-Plates.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -32,7 +32,7 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/peoduct/Sheets, Plates and Coils/Sheets-and-Plates.jpg') }}"
+                    <img src="{{ asset('assets/images/peoduct/Sheets-Plates-and-Coils/Sheets-and-Plates.jpg') }}"
                         alt="Hexagon Bars" class="img-fluid rounded shadow-sm">
                 </div>
 
@@ -497,6 +497,7 @@
     </section>
 
     {{-- Gallery --}}
+    {{-- Gallery --}}
     <section class="our-services">
         <div class="container">
             <div class="container">
@@ -506,7 +507,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
+                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}"
                                     alt="NICKLE ALLOYS">
                             </a>
@@ -519,7 +520,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}"
                                     alt="STAINLESS STEEL">
                             </a>
@@ -532,7 +533,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}"
                                     alt="DUPLEX & SUPER">
                             </a>
@@ -546,7 +547,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="##">
+                            <a class="w-100" href="{{ route('materials.titanium') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}"
                                     alt="TITANIUM ALLOYS">
                             </a>
@@ -559,26 +560,26 @@
                 <div class="col-md-4 col-sm-6 mb-4 ">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100">
+                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}"
-                                    alt="RARE TO ALLOYS">
+                                    alt="Haynes Superalloys">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0">RARE TO ALLOYS</h6>
+                            <h6 class="mt-0">Haynes Superalloys</h6>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100">
+                            <a class="w-100" href="{{ route('materials.inconel') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}"
-                                    alt="CARBON ALLOYS">
+                                    alt="Inconel">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0">CARBON ALLOYS</h6>
+                            <h6 class="mt-0">Inconel</h6>
                         </div>
                     </div>
                 </div>
@@ -1046,4 +1047,56 @@
     <!--End breadcrumb area-->
 
 
+@endsection
+@section('jsscripts')
+<script type="application/ld+json">
+    @verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between sheets and plates?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sheets: Flat rolled metal with a thickness usually below 6 mm. Plates: Flat rolled metal with a thickness above 6 mm. Both are used in construction, fabrication, and industrial applications, but plates are generally preferred for heavy-duty uses."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which materials are available in sheets & plates?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "They are available in stainless steel, carbon steel, alloy steel, aluminum, copper, brass, titanium, nickel alloys, duplex/super duplex, and other special alloys."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What size range is offered?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Thickness: 0.3 mm to 200 mm (varies by material). Width: up to 2500 mm (custom widths possible). Length: custom cut lengths or standard 2000 mm, 2500 mm, 6000 mm, etc."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the common applications of sheets & plates?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pressure vessels and boilers, Oil & gas pipelines, Heat exchangers and condensers, Aerospace & marine structures, Automotive & rail industry, Construction, bridges & heavy machinery, Food processing and medical equipment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What finishes are available for sheets & plates?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sheets & plates can be supplied in finishes such as 2B, BA, HR, No.1, No.4, polished, matte, checkered, perforated, or coated."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
 @endsection

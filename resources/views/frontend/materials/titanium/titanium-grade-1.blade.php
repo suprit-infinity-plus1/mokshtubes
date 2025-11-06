@@ -60,8 +60,8 @@
                             service conditions.
                         </p>
                         <p class="fs-6" style="text-align: justify;">
-    The <strong>density of titanium metal</strong> is about 4.51 g/cm³, making it lighter yet stronger 
-    than many other engineering metals. Similarly, the <strong>titanium melting point</strong> is 1660 °C, 
+    The <strong>density of titanium metal</strong> is about 4.51 g/cm³, making it lighter yet stronger
+    than many other engineering metals. Similarly, the <strong>titanium melting point</strong> is 1660 °C,
     which ensures performance in high-temperature applications.
 </p>
 
@@ -132,8 +132,8 @@
                 <div class="col-lg-8">
                     <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties of Titanium</h4>
                     <p class="text-center">
-    The <strong>density of titanium metal</strong> is about 4.51 g/cm³, making it lighter yet stronger 
-    than many other engineering metals. Similarly, the <strong>titanium melting point</strong> is 1660 °C, 
+    The <strong>density of titanium metal</strong> is about 4.51 g/cm³, making it lighter yet stronger
+    than many other engineering metals. Similarly, the <strong>titanium melting point</strong> is 1660 °C,
     which ensures performance in high-temperature applications.
 </p>
                     <div class="table-responsive">
@@ -243,7 +243,7 @@
     </section>
 
 
-    @php
+     @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -263,37 +263,37 @@
             ],
             [
                 'name' => 'Sheets & Plates',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.sheets-and-plates',
                 'image' => 'assets/images/all product/sheets-plates.jpg',
             ],
             [
                 'name' => 'Coils & Strips',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.strips',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.webp',
             ],
             [
                 'name' => 'Round Bars, Flat Bars, Hex Bars, Square Bars',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.bars-rods',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
             ],
             [
                 'name' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.pipe-fittings',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
             ],
             [
                 'name' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.flanges-and-gaskets',
                 'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
             ],
             [
                 'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
                 'image' => 'assets/images/all product/FASTENERS-1.png',
             ],
             [
                 'name' => 'Custom Fabricated Components',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
                 'image' => 'assets/images/all product/custom-metal-fabricated.jpg',
             ],
         ];
@@ -419,8 +419,8 @@
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Titanium Grade 1</h2>
-                <p class="text-center pb-3"><strong class="text-dark">Common <strong>titanium metal uses</strong> include aircraft parts, marine equipment, 
-   surgical implants, and sports gear. The versatility of <strong>titanium usage</strong> 
+                <p class="text-center pb-3"><strong class="text-dark">Common <strong>titanium metal uses</strong> include aircraft parts, marine equipment,
+   surgical implants, and sports gear. The versatility of <strong>titanium usage</strong>
    ensures its demand across multiple industries worldwide.
 </p>
                 </p>
@@ -650,11 +650,11 @@
                 <h2>Contact Us</h2>
                 <p>
                     <strong><p>
-   Whether used as a structural <strong>titanium material</strong> or in 
-   advanced alloys, its lightweight, high-strength, and corrosion-resistant 
-   nature ensure that titanium remains one of the most valuable 
-   engineering metals today. <strong>Moksh Tubes</strong>, we supply 
-   premium quality <strong>titanium</strong> and its alloys for various 
+   Whether used as a structural <strong>titanium material</strong> or in
+   advanced alloys, its lightweight, high-strength, and corrosion-resistant
+   nature ensure that titanium remains one of the most valuable
+   engineering metals today. <strong>Moksh Tubes</strong>, we supply
+   premium quality <strong>titanium</strong> and its alloys for various
    industrial applications.
 </p>
 
@@ -672,4 +672,56 @@
 
 
 
+@endsection
+@section('jsscripts')
+<script type="application/ld+json">
+    @verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Titanium Grade 1 and where is it used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Titanium Grade 1 is the softest and most ductile of the commercially pure titanium grades, renowned for its exceptional corrosion resistance, superior formability, and excellent weldability. Its lightweight yet strong properties make it ideal for industries requiring durable materials that withstand extreme environments, such as chemical processing, marine and offshore applications, aerospace, medical, food, and pharmaceutical industries. It performs particularly well in oxygenated and chlorinated media, offering reliable performance in aggressive conditions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the chemical and mechanical properties of Titanium Grade 1?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Titanium Grade 1 has a chemical composition of titanium as the balance element, with oxygen ≤0.18%, iron ≤0.20%, carbon ≤0.08%, nitrogen ≤0.03%, and hydrogen ≤0.015%. Mechanically, annealed tubing and bars have a tensile strength of 35 ksi (240 MPa) and yield strength of 25 ksi (170 MPa), with an elongation of 24%. Cold-drawn tubing achieves a higher tensile strength of 50 ksi (345 MPa) and yield strength of 40 ksi (275 MPa) with slightly lower elongation of 18%, making it adaptable for different fabrication and structural needs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What types of Titanium Grade 1 products are available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP manufactures and supplies Titanium Grade 1 in a wide variety of forms, including seamless and welded pipes, capillary, U-bend, boiler, and heat exchanger tubes, as well as sheets, plates, coils, strips, round, flat, hex, and square bars. It is also available in pipe fittings, flanges, fasteners such as bolts, nuts, screws, washers, studs, and custom-fabricated components designed to meet precise industrial requirements. All products are manufactured according to globally recognized standards for performance and reliability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the key advantages of Titanium Grade 1?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Titanium Grade 1 offers excellent corrosion resistance in oxidizing and mildly reducing environments, a high strength to weight ratio, and superior formability and weldability. It is biocompatible, making it safe for medical and food applications, and highly resistant to chlorides and acidic conditions. Its ductility makes it suitable for deep drawing and complex fabrications, while maintaining long-term durability in harsh industrial and marine environments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose MOKSH TUBES & FITTINGS LLP for Titanium Grade 1 products?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP is a trusted manufacturer, supplier, and exporter of high-quality Titanium Grade 1 products, backed by expertise in corrosion-resistant alloys. We use premium raw materials, employ state of the art production and testing facilities, and provide flexible manufacturing tailored to technical drawings and custom requirements. With robust inventory, efficient supply chain management, and quick turnaround times, we ensure reliable delivery and industry compliant solutions for global clients."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
 @endsection

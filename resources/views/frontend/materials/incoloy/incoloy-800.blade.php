@@ -15,7 +15,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Incoloy 800 <br> High-Temperature Strength & Resistance</h1>
+                    <h1>Incoloy 800 <br> High Temperature Strength & Resistance</h1>
                 </div>
             </div>
         </div>
@@ -42,7 +42,7 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a manufacturer, supplier,
+                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a <a href="{{ route('materials.nickel-Based-Superalloys') }}">supplier</a>,
                             exporter, importer and stockist of a wide range of <a
                                 href="{{ route('materials.incoloy') }}">INCOLOY 800</a> (UNS N08800) products including
                             <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings, Flanges,
@@ -54,7 +54,7 @@
 
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">INCOLOY 800</strong class="text-black"> is a nickel-iron-chromium
-                            alloy designed for high-temperature strength and excellent resistance to oxidation,
+                            alloy designed for high temperature strength and excellent resistance to oxidation,
                             carburization, and sulfidation. The alloy retains its structural integrity at elevated
                             temperatures, making it ideal for heat exchangers, reformer tubes, superheaters, and nuclear
                             steam generator components.<strong class="text-black"> INCOLOY 800 </strong> shows good
@@ -305,37 +305,37 @@
             ],
             [
                 'name' => 'Sheets & Plates',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.sheets-and-plates',
                 'image' => 'assets/images/all product/sheets-plates.jpg',
             ],
             [
                 'name' => 'Coils & Strips',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.strips',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.webp',
             ],
             [
                 'name' => 'Round Bars, Flat Bars, Hex Bars, Square Bars',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.bars-rods',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
             ],
             [
                 'name' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.pipe-fittings',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
             ],
             [
                 'name' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.flanges-and-gaskets',
                 'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
             ],
             [
                 'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
                 'image' => 'assets/images/all product/FASTENERS-1.png',
             ],
             [
                 'name' => 'Custom Fabricated Components',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
                 'image' => 'assets/images/all product/custom-metal-fabricated.jpg',
             ],
         ];
@@ -352,7 +352,7 @@
                 <div class="col-lg-10">
                     <p class="fs-6">
                         <strong class="text-dark">INCOLOY 800 </strong>, (UNS N08800 / Werkstoff Nr. 1.4876) is a
-                        high-performance material designed for exceptional strength and resistance to oxidation and
+                        high performance material designed for exceptional strength and resistance to oxidation and
                         carburization at elevated temperatures. Recognized by NACE MR0175 for oil and gas service, this
                         alloy is ideal for critical applications across power generation, petrochemical processing, nuclear
                         energy, and heat treatment industries.
@@ -416,7 +416,7 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>High-temperature strength and structural stability</h5>
+                        <h5>High temperature strength and structural stability</h5>
                     </div>
                 </div>
 
@@ -457,7 +457,7 @@
             <div class="section-title center">
                 <h2>Applications of INCOLOY 800</h2>
                 <p class="text-center pb-3"><strong class="text-dark">INCOLOY 800</strong> is widely used in
-                    high-temperature industrial applications requiring exceptional resistance to oxidation, carburization,
+                    high temperature industrial applications requiring exceptional resistance to oxidation, carburization,
                     and thermal fatigue. Its stability and strength under prolonged exposure to elevated temperatures make
                     it ideal for components exposed to harsh heat and chemical environments. Key application areas include:
                 </p>
@@ -665,7 +665,7 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    MOKSH TUBES & FITTINGS LLP offers Incoloy 800 in a wide range of products including
+                                    <a href="{{ route('index') }}">MOKSH TUBES & FITTINGS LLP</a> offers Incoloy 800 in a wide range of products including
                                     seamless and welded pipes, tubes, sheets, plates, coils, round bars, flat bars, pipe
                                     fittings, flanges, fasteners, welding rods, wire mesh, and custom-fabricated components.
                                     All products are manufactured to international standards such as ASTM and ASME, ensuring
@@ -707,7 +707,7 @@
                     For any inquiries or to request a quote, reach out to <strong>Moksh Tubes & Fittings LLP</strong> your
                     trusted partner for INCOLOY 800 products.
                 </p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch
@@ -720,4 +720,56 @@
 
 
 
+@endsection
+@section('jsscripts')
+<script type="application/ld+json">
+            @verbatim
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "What is Incoloy 800 and what makes it special?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Incoloy 800, also known as UNS N08800, is a nickel iron chromium alloy designed to deliver exceptional strength and stability at high temperatures. It offers outstanding resistance to oxidation, carburization, and sulfidation while retaining mechanical integrity under prolonged thermal exposure. This makes it highly reliable for applications such as heat exchangers, reformer tubes, superheaters, and nuclear steam generator components."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What are the key properties of Incoloy 800 alloy?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Incoloy 800 exhibits superior resistance to high-temperature oxidation and carburization, combined with good corrosion resistance in aqueous environments. It offers excellent structural stability, reliable performance under cyclic thermal conditions, and retains strength even after long service at elevated temperatures. The alloy also provides excellent weldability and fabricability, making it suitable for demanding industrial environments."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Where is Incoloy 800 commonly used?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Incoloy 800 is widely used across industries that demand long-term performance under extreme heat and corrosive conditions. Its applications include heat treatment equipment, petrochemical and refining systems, nuclear power generation, chemical processing plants, pulp and paper facilities, industrial ovens, kilns, gas turbines, heat recovery systems, and offshore or marine engineering where resistance to both heat and corrosion is critical."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What products are available in Incoloy 800?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "MOKSH TUBES & FITTINGS LLP offers Incoloy 800 in a wide range of products including seamless and welded pipes, tubes, sheets, plates, coils, round bars, flat bars, pipe fittings, flanges, fasteners, welding rods, wire mesh, and custom-fabricated components. All products are manufactured to international standards such as ASTM and ASME, ensuring durability, reliability, and compliance for high-performance applications."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Why choose MOKSH TUBES & FITTINGS LLP for Incoloy 800 materials?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "MOKSH TUBES & FITTINGS LLP is a trusted manufacturer, supplier, and exporter of Incoloy 800 products with global reach and proven industry expertise. The company maintains a strong supplier network for premium raw materials, offers customized fabrication solutions, and ensures strict quality control as per international standards. With a focus on dependability, customer satisfaction, and competitive pricing, it is the preferred partner for industries requiring high-quality Incoloy 800 materials."
+            }
+        }
+    ]
+}
+@endverbatim
+</script>
 @endsection

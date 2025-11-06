@@ -4,7 +4,7 @@
     corrosion-resistant & ideal for structural & industrial use.') <!-- 153 characters -->
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/hollow-section-pipe.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -642,6 +642,7 @@
     </section>
 
     {{-- Gallery --}}
+    {{-- Gallery --}}
     <section class="our-services">
         <div class="container">
             <div class="container">
@@ -651,7 +652,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
+                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}"
                                     alt="NICKLE ALLOYS">
                             </a>
@@ -664,7 +665,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}"
                                     alt="STAINLESS STEEL">
                             </a>
@@ -677,7 +678,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}"
                                     alt="DUPLEX & SUPER">
                             </a>
@@ -691,7 +692,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="##">
+                            <a class="w-100" href="{{ route('materials.titanium') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}"
                                     alt="TITANIUM ALLOYS">
                             </a>
@@ -704,26 +705,26 @@
                 <div class="col-md-4 col-sm-6 mb-4 ">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100">
+                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}"
-                                    alt="RARE TO ALLOYS">
+                                    alt="Haynes Superalloys">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0">RARE TO ALLOYS</h6>
+                            <h6 class="mt-0">Haynes Superalloys</h6>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100">
+                            <a class="w-100" href="{{ route('materials.inconel') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}"
-                                    alt="CARBON ALLOYS">
+                                    alt="Inconel">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0">CARBON ALLOYS</h6>
+                            <h6 class="mt-0">Inconel</h6>
                         </div>
                     </div>
                 </div>
@@ -1001,5 +1002,250 @@
 
     <!--End breadcrumb area-->
 
+<!--Start faq content area-->
+<section class="faq-content-area sec-padd2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="accordion-box">
+                    <div class="section-title center">
+                        <h2>FAQ's</h2>
+                    </div>
 
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn">
+                            <h4>
+                                What are hollow section pipes?
+                            </h4>
+                        </div>
+                        <div class="accord-content">
+                            <p>
+                                Hollow Section Pipes are metal tubes available in square, rectangular, and oval profiles designed for structural and architectural applications.
+                                They are known for their high strength-to-weight ratio, uniform geometry, and versatility across industries such as construction, furniture, and automotive manufacturing.
+                            </p>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn">
+                            <h4>
+                                What materials are used to manufacture hollow section pipes?
+                            </h4>
+                        </div>
+                        <div class="accord-content">
+                            <p>
+                                Hollow Section Pipes are produced in a wide range of materials including Stainless Steel, Carbon Steel, Alloy Steel, Duplex & Super Duplex, Aluminium, Copper, and Nickel Alloys.
+                                Each material is selected based on the intended strength, corrosion resistance, and application requirements.
+                            </p>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn">
+                            <h4>
+                                What are the different shapes of hollow section pipes available?
+                            </h4>
+                        </div>
+                        <div class="accord-content">
+                            <p>
+                                Hollow Section Pipes are available in <b>square</b>, <b>rectangular</b>, <b>oval</b>, and <b>custom hollow profiles</b>.
+                                These varied shapes provide excellent design flexibility and load-bearing performance for structural and decorative uses.
+                            </p>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn">
+                            <h4>
+                                What are the advantages of hollow section pipes?
+                            </h4>
+                        </div>
+                        <div class="accord-content">
+                            <ul>
+                                <li>High strength-to-weight ratio</li>
+                                <li>Corrosion resistance and long-term durability</li>
+                                <li>Design versatility with various profiles</li>
+                                <li>Ease of cutting, welding, and fabrication</li>
+                                <li>Cost-effective for structural applications</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn">
+                            <h4>
+                                What are the common applications of hollow section pipes?
+                            </h4>
+                        </div>
+                        <div class="accord-content">
+                            <p>
+                                Hollow Section Pipes are widely used in:
+                            </p>
+                            <ul>
+                                <li>Construction & Infrastructure – columns, beams, and frameworks</li>
+                                <li>Furniture & Interior Design – tables, shelves, and railings</li>
+                                <li>Automotive & Transportation – chassis and support structures</li>
+                                <li>Industrial Fabrication – equipment frames and conveyors</li>
+                                <li>Agricultural & Marine – greenhouse and offshore frameworks</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn">
+                            <h4>
+                                What standards and specifications do Moksh Tubes & Fittings LLP follow?
+                            </h4>
+                        </div>
+                        <div class="accord-content">
+                            <p>
+                                Our hollow section pipes are manufactured and tested according to <b>ASTM A500, EN 10210, EN 10219, IS 4923, and DIN 2395</b> standards.
+                                Each product meets strict dimensional, mechanical, and quality control parameters to ensure reliability and global compliance.
+                            </p>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn">
+                            <h4>
+                                What finishes are available for hollow section pipes?
+                            </h4>
+                        </div>
+                        <div class="accord-content">
+                            <p>
+                                Moksh Tubes & Fittings LLP offers various surface finishes including Hot Rolled, Cold Rolled, Pickled & Passivated, Polished, and Powder Coated options to meet both functional and aesthetic requirements.
+                            </p>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn">
+                            <h4>
+                                Why choose Moksh Tubes & Fittings LLP for hollow section pipes?
+                            </h4>
+                        </div>
+                        <div class="accord-content">
+                            <ul>
+                                <li>Extensive product range across multiple materials and profiles</li>
+                                <li>Custom fabrication with precision engineering</li>
+                                <li>Adherence to international standards</li>
+                                <li>Experienced technical team and reliable support</li>
+                                <li>Global supply with timely delivery</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End faq content area-->
+<section class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="contact-cta-box">
+                <h2>Contact Us</h2>
+                <p>
+                    For further information, quotes, or customized hollow section pipes products, <strong>Moksh Tubes & Fittings
+                        LLP</strong> your dependable partner in aluminum alloys.</p>
+               <!-- Call button -->
+                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                    data-bs-target="#contactFormModal">
+                    Get in Touch
+                </a>
+            </div>
+        </div>
+    </section>
+@endsection
+@section('jsscripts')
+<script type="application/ld+json">
+@verbatim
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "What are hollow section pipes?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Hollow Section Pipes are metal tubes available in square, rectangular, and oval profiles designed for structural and architectural applications. They are known for their high strength-to-weight ratio, uniform geometry, and versatility across industries such as construction, furniture, and automotive manufacturing."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What materials are used to manufacture hollow section pipes?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Hollow Section Pipes are produced in a wide range of materials including Stainless Steel, Carbon Steel, Alloy Steel, Duplex & Super Duplex, Aluminium, Copper, and Nickel Alloys. Each material is selected based on the intended strength, corrosion resistance, and application requirements."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What are the different shapes of hollow section pipes available?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Hollow Section Pipes are available in square, rectangular, oval, and custom hollow profiles. These varied shapes provide excellent design flexibility and load-bearing performance for structural and decorative uses."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What are the advantages of hollow section pipes?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Advantages include high strength-to-weight ratio, corrosion resistance, design versatility, ease of fabrication, and cost-effectiveness for structural applications."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What are the common applications of hollow section pipes?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Hollow Section Pipes are widely used in construction, furniture, automotive, industrial fabrication, and marine applications such as columns, beams, railings, chassis, and greenhouse frameworks."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What standards and specifications do Moksh Tubes & Fittings LLP follow?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Our hollow section pipes are manufactured and tested according to ASTM A500, EN 10210, EN 10219, IS 4923, and DIN 2395 standards. Each product meets strict dimensional, mechanical, and quality control parameters to ensure reliability and global compliance."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What finishes are available for hollow section pipes?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Moksh Tubes & Fittings LLP offers various surface finishes including Hot Rolled, Cold Rolled, Pickled & Passivated, Polished, and Powder Coated options to meet both functional and aesthetic requirements."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Why choose Moksh Tubes & Fittings LLP for hollow section pipes?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We provide an extensive product range, custom fabrication, adherence to international standards, experienced technical support, and global supply with timely delivery."
+            }
+        }
+    ]
+}
+@endverbatim
+</script>
 @endsection

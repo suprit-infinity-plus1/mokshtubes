@@ -237,7 +237,7 @@
     </section>
 
 
-    @php
+     @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -257,37 +257,37 @@
             ],
             [
                 'name' => 'Sheets & Plates',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.sheets-and-plates',
                 'image' => 'assets/images/all product/sheets-plates.jpg',
             ],
             [
                 'name' => 'Coils & Strips',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.strips',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.webp',
             ],
             [
                 'name' => 'Round Bars, Flat Bars, Hex Bars, Square Bars',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.bars-rods',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
             ],
             [
                 'name' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.pipe-fittings',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
             ],
             [
                 'name' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.flanges-and-gaskets',
                 'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
             ],
             [
                 'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
                 'image' => 'assets/images/all product/FASTENERS-1.png',
             ],
             [
                 'name' => 'Custom Fabricated Components',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
                 'image' => 'assets/images/all product/custom-metal-fabricated.jpg',
             ],
         ];
@@ -651,56 +651,56 @@
 @endsection
 
 @section('jsscripts')
-@section('jsscripts')
-@verbatim
+
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is Aluminium Alloy 1100 and what makes it unique?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Aluminium Alloy 1100 is a commercially pure grade with at least 99% aluminum content. It is highly valued for its excellent corrosion resistance, superior workability, and high thermal and electrical conductivity, making it ideal for industries such as electrical, packaging, and architecture."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the key applications of Aluminium 1100 products?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Aluminium 1100 is commonly used in electrical conductors, heat exchangers, roofing, siding, food processing equipment, utensils, reflectors, and chemical storage tanks. Its outstanding formability and corrosion resistance make it suitable for both industrial and decorative applications."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is Aluminium 1100 a heat-treatable alloy?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No, Aluminium Alloy 1100 is a non-heat treatable alloy. Instead, it achieves strength through cold working processes such as rolling, drawing, or forming. This ensures stable mechanical properties during use."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the advantages of using Aluminium Alloy 1100?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The main benefits of Aluminium 1100 include: Excellent corrosion resistance in various environments. High electrical & thermal conductivity. Easy machinability and weldability. Superior formability for complex fabrication. Cost-effectiveness compared to stronger alloys."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What Aluminium 1100 products are available at Moksh Tubes & Fittings LLP?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Moksh Tubes & Fittings LLP supplies a wide range of Aluminium 1100 products, including: Pipes & Tubes (Seamless, Welded, Heat Exchanger, U-Bend). Sheets, Plates, Coils & Strips. Bars & Rods (Round, Hex, Flat, Square). Pipe Fittings, Flanges, and Fasteners. Custom Fabricated Components tailored to customer needs."
-      }
-    }
-  ]
-}
+    @verbatim
+        {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+            "@type": "Question",
+            "name": "What is Aluminium Alloy 1100 and what makes it unique?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Aluminium Alloy 1100 is a commercially pure grade with at least 99% aluminum content. It is highly valued for its excellent corrosion resistance, superior workability, and high thermal and electrical conductivity, making it ideal for industries such as electrical, packaging, and architecture."
+            }
+            },
+            {
+            "@type": "Question",
+            "name": "What are the key applications of Aluminium 1100 products?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Aluminium 1100 is commonly used in electrical conductors, heat exchangers, roofing, siding, food processing equipment, utensils, reflectors, and chemical storage tanks. Its outstanding formability and corrosion resistance make it suitable for both industrial and decorative applications."
+            }
+            },
+            {
+            "@type": "Question",
+            "name": "Is Aluminium 1100 a heat-treatable alloy?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No, Aluminium Alloy 1100 is a non-heat treatable alloy. Instead, it achieves strength through cold working processes such as rolling, drawing, or forming. This ensures stable mechanical properties during use."
+            }
+            },
+            {
+            "@type": "Question",
+            "name": "What are the advantages of using Aluminium Alloy 1100?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The main benefits of Aluminium 1100 include: Excellent corrosion resistance in various environments. High electrical & thermal conductivity. Easy machinability and weldability. Superior formability for complex fabrication. Cost-effectiveness compared to stronger alloys."
+            }
+            },
+            {
+            "@type": "Question",
+            "name": "What Aluminium 1100 products are available at Moksh Tubes & Fittings LLP?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Moksh Tubes & Fittings LLP supplies a wide range of Aluminium 1100 products, including: Pipes & Tubes (Seamless, Welded, Heat Exchanger, U-Bend). Sheets, Plates, Coils & Strips. Bars & Rods (Round, Hex, Flat, Square). Pipe Fittings, Flanges, and Fasteners. Custom Fabricated Components tailored to customer needs."
+            }
+            }
+        ]
+        }
+
+    @endverbatim
 </script>
-@endverbatim
-@endsection
 @endsection

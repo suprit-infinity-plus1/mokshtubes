@@ -6,7 +6,7 @@
 @section('meta_keywords', 'Flat Bars, Stainless Flat Bars, Alloy Flat Bars, Aluminium Flat Bars, Brass Flat Bars')
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/Flat-Bars.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -27,7 +27,7 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/peoduct/steel-furniture/custom-steel-furniture.webp') }}"
+                    <img src="{{ asset('assets/images/peoduct/Flat-Bars.jpg') }}"
                         alt="Flat Bars" class="img-fluid rounded shadow-sm">
                 </div>
 
@@ -576,6 +576,7 @@
     </section>
 
     {{-- Gallery --}}
+    {{-- Gallery --}}
     <section class="our-services">
         <div class="container">
             <div class="container">
@@ -585,7 +586,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
+                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}"
                                     alt="NICKLE ALLOYS">
                             </a>
@@ -598,7 +599,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}"
                                     alt="STAINLESS STEEL">
                             </a>
@@ -611,7 +612,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}"
                                     alt="DUPLEX & SUPER">
                             </a>
@@ -625,7 +626,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="##">
+                            <a class="w-100" href="{{ route('materials.titanium') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}"
                                     alt="TITANIUM ALLOYS">
                             </a>
@@ -638,26 +639,26 @@
                 <div class="col-md-4 col-sm-6 mb-4 ">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100">
+                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}"
-                                    alt="RARE TO ALLOYS">
+                                    alt="Haynes Superalloys">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0">RARE TO ALLOYS</h6>
+                            <h6 class="mt-0">Haynes Superalloys</h6>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100">
+                            <a class="w-100" href="{{ route('materials.inconel') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}"
-                                    alt="CARBON ALLOYS">
+                                    alt="Inconel">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0">CARBON ALLOYS</h6>
+                            <h6 class="mt-0">Inconel</h6>
                         </div>
                     </div>
                 </div>
@@ -1055,4 +1056,56 @@
     <!--End breadcrumb area-->
 
 
+@endsection
+@section('jsscripts')
+<script type="application/ld+json">
+@verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the standard flat bar size?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Standard flat bar sizes vary by thickness and width. Common sizes range from 3mm to 50mm thickness and 12mm to 300mm width. Custom sizes are also available on request."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How to calculate MS flat bar weight?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The weight of a mild steel (MS) flat bar can be calculated using the formula: Weight (kg) = Length (m) × Width (m) × Thickness (m) × 7850, where 7850 kg/m³ is the density of mild steel. A weight chart or an on-site calculator can make this easier."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What materials are available for flat bars?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Flat bars are available in steel (stainless steel), mild steel (MS), alloy steel, aluminium, copper, brass, nickel alloys, and titanium. Grades comply with standards such as ASTM, ASME, DIN, EN, and JIS."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can flat bars be custom cut?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Flat bars can be custom cut to specific lengths, widths, or thicknesses according to project requirements. This is ideal for machining, fabrication, or structural applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What finishes are available for stainless steel flat bars?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stainless steel flat bars come in bright, polished, mill finish, peeled & ground, shot blasted, pickled & passivated finishes to provide suitable surface quality for decorative and industrial uses."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
 @endsection

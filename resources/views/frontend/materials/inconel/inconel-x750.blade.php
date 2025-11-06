@@ -249,7 +249,7 @@
     </section>
 
 
-    @php
+     @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -269,37 +269,37 @@
             ],
             [
                 'name' => 'Sheets & Plates',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.sheets-and-plates',
                 'image' => 'assets/images/all product/sheets-plates.jpg',
             ],
             [
                 'name' => 'Coils & Strips',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.strips',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.webp',
             ],
             [
                 'name' => 'Round Bars, Flat Bars, Hex Bars, Square Bars',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.bars-rods',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
             ],
             [
                 'name' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.pipe-fittings',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
             ],
             [
                 'name' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.flanges-and-gaskets',
                 'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
             ],
             [
                 'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
                 'image' => 'assets/images/all product/FASTENERS-1.png',
             ],
             [
                 'name' => 'Custom Fabricated Components',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
                 'image' => 'assets/images/all product/custom-metal-fabricated.jpg',
             ],
         ];
@@ -669,4 +669,56 @@
 
 
 
+@endsection
+@section('jsscripts')
+<script type="application/ld+json">
+    @verbatim
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "What is Inconel X-750 and what makes it unique?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Inconel X-750 (UNS N07750) is a precipitation-hardenable nickel-chromium alloy strengthened with titanium and aluminum. It offers exceptional resistance to oxidation, stress corrosion cracking, and relaxation, while maintaining high strength and stability from cryogenic temperatures up to 1300°F (704°C)."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What types of Inconel X-750 products are available at Moksh Tubes & Fittings LLP?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Moksh Tubes & Fittings LLP manufactures and supplies Inconel X-750 in seamless and welded pipes, tubes, sheets, plates, coils, bars, fittings, flanges, fasteners, wire mesh, welding rods, and custom-engineered components, all compliant with international quality standards."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Which industries commonly use Inconel X-750?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Inconel X-750 is used in aerospace, nuclear power, petrochemical, gas turbine, and furnace industries. Its resistance to high stress, corrosion, and thermal cycling makes it ideal for turbine blades, reactor components, springs, heat exchangers, and chemical processing equipment."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Why is Inconel X-750 preferred over other high-temperature alloys?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Inconel X-750 provides an excellent combination of strength, creep resistance, and oxidation protection at elevated temperatures. It remains stable during long thermal exposure, resists relaxation in springs, and prevents scaling, making it ideal for demanding, long-life applications."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Why should customers choose Moksh Tubes & Fittings LLP for Inconel X-750 products?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Moksh Tubes & Fittings LLP is a certified global supplier of high-performance nickel alloys, offering ISO-quality assurance, wide product availability, customized solutions, and on-time worldwide delivery of Inconel X-750 products."
+            }
+        }
+    ]
+}
+@endverbatim
+</script>
 @endsection

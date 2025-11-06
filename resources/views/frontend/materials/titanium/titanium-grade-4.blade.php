@@ -7,7 +7,7 @@
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/material/titanium-grade4.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -32,7 +32,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/titanium/titanium-4.webp') }}" alt="Titanium Grade 4"
+                    <img src="{{ asset('assets/images/material/titanium-grade4.jpg') }}" alt="Titanium Grade 4"
                         class="img-fluid rounded shadow-sm">
                 </div>
 
@@ -231,7 +231,7 @@
     </section>
 
 
-    @php
+     @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -251,37 +251,37 @@
             ],
             [
                 'name' => 'Sheets & Plates',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.sheets-and-plates',
                 'image' => 'assets/images/all product/sheets-plates.jpg',
             ],
             [
                 'name' => 'Coils & Strips',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.strips',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.webp',
             ],
             [
                 'name' => 'Round Bars, Flat Bars, Hex Bars, Square Bars',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.bars-rods',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
             ],
             [
                 'name' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.pipe-fittings',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
             ],
             [
                 'name' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.flanges-and-gaskets',
                 'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
             ],
             [
                 'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
                 'image' => 'assets/images/all product/FASTENERS-1.png',
             ],
             [
                 'name' => 'Custom Fabricated Components',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
                 'image' => 'assets/images/all product/custom-metal-fabricated.jpg',
             ],
         ];
@@ -657,4 +657,56 @@
 
 
 
+@endsection
+@section('jsscripts')
+<script type="application/ld+json">
+    @verbatim
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "What is Titanium Grade 4 and why is it important?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Titanium Grade 4 is the strongest of all commercially pure titanium grades, offering exceptional strength, corrosion resistance, and weldability while maintaining good formability. It is ideal for demanding applications in aerospace, marine, chemical processing, power generation, and medical sectors."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What types of Titanium Grade 4 products are available?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "MOKSH TUBES & FITTINGS LLP provides a wide range of Titanium Grade 4 products including seamless and welded pipes, tubes (capillary, U-bend, boiler, and heat exchanger), sheets, plates, coils, strips, bars, pipe fittings, flanges, fasteners, welding rods, wire mesh, and custom-fabricated components."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What are the key advantages of Titanium Grade 4?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Titanium Grade 4 offers the highest strength among commercially pure titanium grades, excellent resistance to oxidizing and chloride-rich environments, lightweight durability, biocompatibility for medical use, easy weldability, and high performance in extreme conditions."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Which industries use Titanium Grade 4 products?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Titanium Grade 4 is used in chemical processing (piping, heat exchangers), marine and offshore (ship hulls, underwater systems), aerospace and defense (airframes, hydraulic systems), power generation (nuclear and condenser tubes), medical (implants, instruments), and oil & gas (subsea and wellhead components)."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Why choose MOKSH TUBES & FITTINGS LLP for Titanium Grade 4 products?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "MOKSH TUBES & FITTINGS LLP provides high-quality Titanium Grade 4 materials with precision manufacturing, strict quality assurance, and global supply capability. With extensive expertise in titanium and specialty metals, the company ensures reliability, compliance, and superior customer support."
+            }
+        }
+    ]
+}
+@endverbatim
+</script>
 @endsection

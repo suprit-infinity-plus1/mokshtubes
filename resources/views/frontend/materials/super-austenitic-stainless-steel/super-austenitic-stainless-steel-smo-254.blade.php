@@ -235,7 +235,7 @@
     </section>
 
 
-    @php
+     @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -255,37 +255,37 @@
             ],
             [
                 'name' => 'Sheets & Plates',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.sheets-and-plates',
                 'image' => 'assets/images/all product/sheets-plates.jpg',
             ],
             [
                 'name' => 'Coils & Strips',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.strips',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.webp',
             ],
             [
                 'name' => 'Round Bars, Flat Bars, Hex Bars, Square Bars',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.bars-rods',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
             ],
             [
                 'name' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.pipe-fittings',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
             ],
             [
                 'name' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.flanges-and-gaskets',
                 'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
             ],
             [
                 'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
                 'image' => 'assets/images/all product/FASTENERS-1.png',
             ],
             [
                 'name' => 'Custom Fabricated Components',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
                 'image' => 'assets/images/all product/custom-metal-fabricated.jpg',
             ],
         ];
@@ -639,4 +639,56 @@
 
 
 
+@endsection
+@section('jsscripts')
+<script type="application/ld+json">
+    @verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is SMO 254 (UNS S31254) stainless steel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SMO 254 is a super-austenitic stainless steel alloy specifically designed for high corrosion resistance in chloride-rich environments, such as seawater and aggressive chemical media. With high molybdenum (6%) and nitrogen content, it offers excellent resistance to pitting, crevice corrosion, and stress corrosion cracking, while maintaining superior mechanical strength, weldability, and durability. This makes it ideal for extreme industrial applications, including offshore oil platforms, desalination plants, and chemical processing units."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the chemical and mechanical properties of SMO 254?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SMO 254 contains Nickel 17.5–18.5%, Chromium 19.5–20.5%, Molybdenum 6–6.5%, Nitrogen 0.18–0.22%, Carbon up to 0.02%, and Iron as balance. Its mechanical properties vary based on treatment; annealed SMO 254 has a tensile strength of 80–100 ksi (550–690 MPa), yield strength of 40–60 ksi (275–415 MPa), and elongation of 30–55%, while cold-worked material can reach a tensile strength of 100–120 ksi (690–830 MPa) and yield strength of 65–90 ksi (450–620 MPa). Hardness ranges from 75–95 HRB depending on the processing method, ensuring both toughness and durability in harsh conditions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What products are available in SMO 254?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SMO 254 is supplied in a wide range of products to suit industrial needs. It is available as seamless and welded pipes, tubes for heat exchangers and boilers, sheets, plates, coils, and strips. The alloy is also offered in bars, including round, flat, hexagonal, and square forms. Additionally, SMO 254 is fabricated into pipe fittings, flanges, fasteners such as bolts, nuts, screws, washers, and studs, as well as custom fabricated components tailored to specific industrial requirements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the key applications of SMO 254?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SMO 254 is widely used in industries that require both high corrosion resistance and mechanical strength. In the marine and offshore sector, it is ideal for seawater piping systems, heat exchangers, and desalination plants. The chemical and petrochemical industries rely on SMO 254 for tanks, piping, and chemical processing equipment that handle chloride rich or acidic media. It is also used in oil and gas applications, including sour gas environments and high pressure pipelines. Other key applications include digesters and bleaching vessels in the pulp and paper industry, as well as hygienic and corrosion resistant processing equipment in the food and beverage sector."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose MOKSH TUBES & FITTINGS LLP for SMO 254?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP offers ISO-certified, high-performance SMO 254 materials with extensive global inventory and fast delivery. With expertise in nickel alloys, 6Mo, Duplex, and Super Duplex stainless steels, the company ensures high-quality materials through in-house testing and custom fabrication. Clients benefit from adherence to international standards, competitive pricing, and a commitment to customer satisfaction, making MOKSH TUBES & FITTINGS LLP a trusted supplier for marine, chemical, oil, and gas industries worldwide."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
 @endsection

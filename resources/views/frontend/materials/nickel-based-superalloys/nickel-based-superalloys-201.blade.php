@@ -260,7 +260,7 @@
     </section>
 
 
-    @php
+     @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -280,37 +280,37 @@
             ],
             [
                 'name' => 'Sheets & Plates',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.sheets-and-plates',
                 'image' => 'assets/images/all product/sheets-plates.jpg',
             ],
             [
                 'name' => 'Coils & Strips',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.strips',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.webp',
             ],
             [
                 'name' => 'Round Bars, Flat Bars, Hex Bars, Square Bars',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.bars-rods',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
             ],
             [
                 'name' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.pipe-fittings',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
             ],
             [
                 'name' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.flanges-and-gaskets',
                 'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
             ],
             [
                 'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
                 'image' => 'assets/images/all product/FASTENERS-1.png',
             ],
             [
                 'name' => 'Custom Fabricated Components',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
                 'image' => 'assets/images/all product/custom-metal-fabricated.jpg',
             ],
         ];
@@ -680,4 +680,56 @@
 
 
 
+@endsection
+@section('jsscripts')
+<script type="application/ld+json">
+    @verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Nickel 201 and how does it differ from Nickel 200?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nickel 201 (UNS N02201 or W.Nr. 2.4068) is a low-carbon version of commercially pure wrought nickel (99.6% Ni). Compared to Nickel 200, it offers enhanced resistance to graphitization at high temperatures due to its reduced carbon content (0.02% max), minimizing carbide precipitation and intergranular corrosion. It retains excellent corrosion resistance, thermal and electrical conductivity, and workability, making it suitable for caustic, food-grade, and elevated-temperature applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What types of Nickel 201 products are supplied by Moksh Tubes & Fittings LLP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Moksh Tubes & Fittings LLP supplies a wide range of Nickel 201 products including seamless and welded pipes, tubes, sheets, plates, coils, strips, round bars, flat bars, hex bars, square bars, pipe fittings, flanges, fasteners, wires, welding rods, wire mesh, and custom fabricated components designed for industrial applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main benefits of using Nickel 201 alloy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nickel 201 provides exceptional resistance to caustic alkalis, acids, and high temperature environments. It is non-magnetic, maintains high electrical conductivity, and has excellent mechanical properties and workability. The low carbon content prevents embrittlement and intergranular corrosion, ensuring long-term durability and reliability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which industries commonly use Nickel 201 products?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nickel 201 is used across chemical and petrochemical industries, electronics and battery components, food processing systems, aerospace and defense, heat exchangers, marine and offshore applications, and nuclear and power generation sectors for its corrosion resistance and conductivity."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose Moksh Tubes & Fittings LLP for Nickel 201 supply?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Moksh Tubes & Fittings LLP specializes in high purity nickel alloys with superior corrosion resistance and dimensional accuracy. The company offers ready stock, certification to international standards, fast delivery, precision cutting, and global export capabilities, ensuring dependable solutions for critical industrial applications."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
 @endsection

@@ -7,7 +7,7 @@
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/titanium/titanium-4-eli.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -32,7 +32,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/titanium/titanium-4.webp') }}" alt="Titanium Grade 4 ELI"
+                    <img src="{{ asset('assets/images/titanium/titanium-4-eli.webp') }}" alt="Titanium Grade 4 ELI"
                         class="img-fluid rounded shadow-sm">
                 </div>
 
@@ -242,7 +242,7 @@
     </section>
 
 
-    @php
+     @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -262,37 +262,37 @@
             ],
             [
                 'name' => 'Sheets & Plates',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.sheets-and-plates',
                 'image' => 'assets/images/all product/sheets-plates.jpg',
             ],
             [
                 'name' => 'Coils & Strips',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.strips',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.webp',
             ],
             [
                 'name' => 'Round Bars, Flat Bars, Hex Bars, Square Bars',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.bars-rods',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
             ],
             [
                 'name' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.pipe-fittings',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
             ],
             [
                 'name' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.flanges-and-gaskets',
                 'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
             ],
             [
                 'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
                 'image' => 'assets/images/all product/FASTENERS-1.png',
             ],
             [
                 'name' => 'Custom Fabricated Components',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
                 'image' => 'assets/images/all product/custom-metal-fabricated.jpg',
             ],
         ];
@@ -660,4 +660,56 @@
 
 
 
+@endsection
+@section('jsscripts')
+<script type="application/ld+json">
+    @verbatim
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "What is Titanium Grade 4 ELI and what are its key properties?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Titanium Grade 4 ELI (Extra Low Interstitial) is a high-strength, commercially pure titanium grade known for its excellent corrosion resistance, superior toughness, and biocompatibility. It performs reliably in harsh environments, making it suitable for aerospace, medical, chemical, and marine industries."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What products are available in Titanium Grade 4 ELI?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "MOKSH TUBES & FITTINGS LLP supplies Titanium Grade 4 ELI in seamless and welded pipes, tubes (capillary, U-bend, boiler, heat exchanger), sheets, plates, coils, strips, round, flat, hex, and square bars, pipe fittings, flanges, fasteners, wire mesh, welding rods, and custom-fabricated components, all compliant with global standards."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What are the advantages of using Titanium Grade 4 ELI?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Titanium Grade 4 ELI offers the highest strength among commercially pure titanium grades, with superior corrosion resistance, excellent weldability, lightweight durability, and biocompatibility, making it ideal for medical, industrial, and aerospace applications."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Which industries commonly use Titanium Grade 4 ELI?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Titanium Grade 4 ELI is widely used in chemical processing (reactors, piping, heat exchangers), medical and surgical devices (implants, trauma plates, surgical tools), aerospace and defense (airframes, fluid systems), marine and offshore (tanks, seawater systems), and cryogenic or power generation equipment."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Why choose MOKSH TUBES & FITTINGS LLP for Titanium Grade 4 ELI products?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "MOKSH TUBES & FITTINGS LLP provides implant-grade Titanium Grade 4 ELI with precise manufacturing, strict quality control, and reliable global supply. With decades of experience in titanium and critical alloys, the company ensures international compliance, technical expertise, and exceptional customer satisfaction."
+            }
+        }
+    ]
+}
+@endverbatim
+</script>
 @endsection

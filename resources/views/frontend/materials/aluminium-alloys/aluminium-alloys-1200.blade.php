@@ -235,7 +235,7 @@
     </section>
 
 
-    @php
+     @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -255,37 +255,37 @@
             ],
             [
                 'name' => 'Sheets & Plates',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.sheets-and-plates',
                 'image' => 'assets/images/all product/sheets-plates.jpg',
             ],
             [
                 'name' => 'Coils & Strips',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.strips',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.webp',
             ],
             [
                 'name' => 'Round Bars, Flat Bars, Hex Bars, Square Bars',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.bars-rods',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
             ],
             [
                 'name' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.pipe-fittings',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
             ],
             [
                 'name' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.flanges-and-gaskets',
                 'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
             ],
             [
                 'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
                 'image' => 'assets/images/all product/FASTENERS-1.png',
             ],
             [
                 'name' => 'Custom Fabricated Components',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
                 'image' => 'assets/images/all product/custom-metal-fabricated.jpg',
             ],
         ];
@@ -652,56 +652,56 @@
 
 @endsection
 
+
 @section('jsscripts')
-@section('jsscripts')
-@verbatim
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is Aluminium Alloy 1200 and what are its main characteristics?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Aluminium Alloy 1200 is a commercially pure aluminum grade with a minimum of 99% aluminum. It is widely known for its excellent corrosion resistance, high ductility, and good thermal and electrical conductivity. It offers great workability and weldability, making it ideal for industries that require moderate strength with superior formability."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is Aluminium 1200 heat-treatable?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No, Aluminium Alloy 1200 is a non heat treatable alloy. Its mechanical strength can be improved through cold working processes such as rolling, drawing, and forming. This ensures it retains stable properties across different applications."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the typical applications of Aluminium 1200?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Aluminium 1200 is used in a wide range of industries such as: Electrical: conductors, bus bars, and cables. Packaging: foils, wrapping, and cans. Architectural: siding, roofing, and decorative trim. Food & Beverage: cooking utensils and food containers. General Fabrication: signage, reflectors, and ornamental components."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the advantages of Aluminium 1200 over other alloys?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Key benefits of Aluminium Alloy 1200 include: Excellent resistance to corrosion. Superior electrical & thermal conductivity. Good machinability and weldability. High ductility and formability. Cost effectiveness for mass applications."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What Aluminium 1200 products does Moksh Tubes & Fittings LLP supply?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Moksh Tubes & Fittings LLP offers a wide variety of Aluminium 1200 products including: Sheets, Plates, Coils & Strips. Pipes & Tubes (Seamless, Welded, Heat Exchanger, U-Bend). Bars & Rods (Round, Hex, Flat, Square). Pipe Fittings, Flanges, and Fasteners. Custom Fabricated Components tailored to customer requirements."
-      }
-    }
-  ]
-}
+        @verbatim
+        {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+            "@type": "Question",
+            "name": "What is Aluminium Alloy 1200 and what are its main characteristics?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Aluminium Alloy 1200 is a commercially pure aluminum grade with a minimum of 99% aluminum. It is widely known for its excellent corrosion resistance, high ductility, and good thermal and electrical conductivity. It offers great workability and weldability, making it ideal for industries that require moderate strength with superior formability."
+            }
+            },
+            {
+            "@type": "Question",
+            "name": "Is Aluminium 1200 heat-treatable?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No, Aluminium Alloy 1200 is a non heat treatable alloy. Its mechanical strength can be improved through cold working processes such as rolling, drawing, and forming. This ensures it retains stable properties across different applications."
+            }
+            },
+            {
+            "@type": "Question",
+            "name": "What are the typical applications of Aluminium 1200?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Aluminium 1200 is used in a wide range of industries such as: Electrical: conductors, bus bars, and cables. Packaging: foils, wrapping, and cans. Architectural: siding, roofing, and decorative trim. Food & Beverage: cooking utensils and food containers. General Fabrication: signage, reflectors, and ornamental components."
+            }
+            },
+            {
+            "@type": "Question",
+            "name": "What are the advantages of Aluminium 1200 over other alloys?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Key benefits of Aluminium Alloy 1200 include: Excellent resistance to corrosion. Superior electrical & thermal conductivity. Good machinability and weldability. High ductility and formability. Cost effectiveness for mass applications."
+            }
+            },
+            {
+            "@type": "Question",
+            "name": "What Aluminium 1200 products does Moksh Tubes & Fittings LLP supply?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Moksh Tubes & Fittings LLP offers a wide variety of Aluminium 1200 products including: Sheets, Plates, Coils & Strips. Pipes & Tubes (Seamless, Welded, Heat Exchanger, U-Bend). Bars & Rods (Round, Hex, Flat, Square). Pipe Fittings, Flanges, and Fasteners. Custom Fabricated Components tailored to customer requirements."
+            }
+            }
+        ]
+        }
+    @endverbatim
 </script>
-@endverbatim
 @endsection

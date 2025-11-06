@@ -43,7 +43,7 @@
                     [
                         'name' => 'Monel 400',
                         'slug' => 'monel-400',
-                        'image' => 'assets/images/monel/Monel-400.webp'
+                        'image' => 'assets/images/material/monel-400.jpg'
                     ],
                 ];
             @endphp

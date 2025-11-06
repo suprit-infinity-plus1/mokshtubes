@@ -11,7 +11,7 @@
 
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/material/monel-400.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -34,7 +34,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/monel/Monel-400.webp') }}" alt="Monel 400"
+                    <img src="{{ asset('assets/images/material/monel-400.jpg') }}" alt="Monel 400"
                         class="img-fluid rounded shadow-sm">
                 </div>
 
@@ -300,7 +300,7 @@
     </section>
 
 
-    @php
+     @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -320,37 +320,37 @@
             ],
             [
                 'name' => 'Sheets & Plates',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.sheets-and-plates',
                 'image' => 'assets/images/all product/sheets-plates.jpg',
             ],
             [
                 'name' => 'Coils & Strips',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.strips',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.webp',
             ],
             [
                 'name' => 'Round Bars, Flat Bars, Hex Bars, Square Bars',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.bars-rods',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
             ],
             [
                 'name' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.pipe-fittings',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
             ],
             [
                 'name' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.flanges-and-gaskets',
                 'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
             ],
             [
                 'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
                 'image' => 'assets/images/all product/FASTENERS-1.png',
             ],
             [
                 'name' => 'Custom Fabricated Components',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
                 'image' => 'assets/images/all product/custom-metal-fabricated.jpg',
             ],
         ];
@@ -715,4 +715,56 @@
 
 
 
+@endsection
+@section('jsscripts')
+<script type="application/ld+json">
+    @verbatim
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "What is Monel 400 and why is it widely used?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Monel 400 (UNS N04400) is a nickel-copper solid solution alloy well-known for its exceptional corrosion resistance in seawater, brackish water, chemical processing environments, and acidic conditions. It combines high strength, toughness, and good weldability, making it suitable for industries that demand durability and reliability in aggressive environments."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What types of Monel 400 products are available from Moksh Tubes & Fittings LLP?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Moksh Tubes & Fittings LLP manufactures, supplies, and exports a wide range of Monel 400 products including seamless and welded pipes, tubes, pipe fittings, flanges, fasteners, sheets, plates, coils, bars, wire mesh, welding rods, and custom engineered components, ensuring customers receive solutions tailored to their exact needs."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "In which industries is Monel 400 most commonly used?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Monel 400 is widely used in marine engineering, chemical and petrochemical processing, oil and gas industries, desalination plants, aerospace, defense, power generation, and water treatment systems. Its excellent resistance to seawater, acids, alkalis, and high-pressure environments makes it indispensable in these sectors."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What are the key advantages of choosing Monel 400 over other alloys?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The main advantages of Monel 400 include outstanding resistance to seawater and salt spray, excellent toughness over a wide temperature range, good weldability and formability, and superior performance in both oxidizing and reducing conditions. These properties make it a cost effective solution for long-term, corrosion resistant applications."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Why choose Moksh Tubes & Fittings LLP for Monel 400 products?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Moksh Tubes & Fittings LLP is a trusted manufacturer and global supplier of Monel 400 with in depth expertise in high performance nickel alloys. The company ensures ISO certified quality, precision manufacturing, customized product solutions, timely global delivery, and exceptional customer support, making it the preferred choice for clients worldwide."
+            }
+        }
+    ]
+}
+@endverbatim
+</script>
 @endsection

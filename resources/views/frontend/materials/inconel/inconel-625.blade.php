@@ -326,7 +326,7 @@
     </section>
 
 
-    @php
+     @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -346,37 +346,37 @@
             ],
             [
                 'name' => 'Sheets & Plates',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.sheets-and-plates',
                 'image' => 'assets/images/all product/sheets-plates.jpg',
             ],
             [
                 'name' => 'Coils & Strips',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.strips',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.webp',
             ],
             [
                 'name' => 'Round Bars, Flat Bars, Hex Bars, Square Bars',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.bars-rods',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
             ],
             [
                 'name' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.pipe-fittings',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
             ],
             [
                 'name' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.flanges-and-gaskets',
                 'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
             ],
             [
                 'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
                 'image' => 'assets/images/all product/FASTENERS-1.png',
             ],
             [
                 'name' => 'Custom Fabricated Components',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
                 'image' => 'assets/images/all product/custom-metal-fabricated.jpg',
             ],
         ];
@@ -764,4 +764,56 @@
 
 
 
+@endsection
+@section('jsscripts')
+<script type="application/ld+json">
+    @verbatim
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "What is Inconel 625 and why is it widely used?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Inconel 625 (UNS N06625) is a nickel chromium molybdenum niobium alloy known for its exceptional corrosion resistance, high strength, and remarkable fatigue and thermal fatigue properties. It performs reliably in extreme environments, including exposure to seawater, strong acids, and high pressure, high temperature conditions. The alloy’s unique chemical balance gives it superior resistance to pitting, crevice corrosion, and chloride induced stress corrosion cracking, making it a preferred material across industries such as aerospace, marine, chemical processing, oil and gas, and power generation."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What are the primary applications of Inconel 625?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Inconel 625 is used in a wide variety of industries where durability and corrosion resistance are critical. In aerospace, it is applied in jet engine components, exhaust systems, and turbine shroud rings. In the marine and offshore sector, it is relied upon for seawater piping, underwater fasteners, and platform structures. The alloy also sees extensive use in chemical plants for reactors, scrubbers, and heat exchangers; in power generation for steam lines and containment vessels; and in oil and gas industries for sour gas service, downhole equipment, and manifolds. Its versatility extends to environmental systems, pharmaceuticals, and food processing industries."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What are the main advantages of Inconel 625 compared to other alloys?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Inconel 625 offers a unique combination of high tensile strength, excellent fatigue resistance, and outstanding corrosion resistance in both oxidizing and reducing environments. Unlike many alloys, it retains its mechanical properties even under extreme thermal cycling, making it ideal for demanding service conditions. Its resistance to aggressive chemicals, seawater, hydrogen sulfide, and chloride rich environments sets it apart as a reliable, long lasting material. Additionally, it is easy to fabricate, weld, and machine, which helps industries reduce downtime and maintenance costs."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How does the chemical composition of Inconel 625 enhance its properties?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The chemical composition of Inconel 625 is carefully balanced to deliver superior performance. A high nickel content provides resistance to chloride stress corrosion cracking, while chromium improves resistance to oxidation and scaling. The addition of molybdenum enhances its defense against pitting and crevice corrosion, and niobium increases strength and toughness through solid solution strengthening. These elements together give Inconel 625 unmatched durability in seawater, acidic media, and high-temperature environments, making it a truly versatile alloy for critical applications."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Why choose Moksh Tubes & Fittings LLP for Inconel 625 products?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Moksh Tubes & Fittings LLP is a trusted manufacturer, supplier, exporter, importer, and stockist of premium Inconel 625 products, offering everything from pipes, tubes, sheets, plates, and coils to fittings, flanges, fasteners, and custom-fabricated components. With proven expertise in nickel-based alloys, a strong global supply network, and stringent quality control standards, the company ensures that every product meets international specifications. Customers rely on Moksh Tubes & Fittings LLP for customized solutions, timely delivery, and consistent performance across industries where reliability is non negotiable."
+            }
+        }
+    ]
+}
+@endverbatim
+</script>
 @endsection

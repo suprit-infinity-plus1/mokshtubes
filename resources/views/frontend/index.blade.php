@@ -14,7 +14,7 @@
         <div id="slider1" class="rev_slider" data-version="5.0">
             <ul>
                 <li data-transition="slidingoverlayleft">
-                    <img src="{{ asset('assets/images/slides/Mokshtubes-banner-desktop.png') }}"
+                    <img src="{{ asset('assets/images/slides/Mokshtubes-banner-desktop.webp') }}"
                         alt="Stainless Steel Welded Pipes ERW EFW ASTM A312" width="1920" height="880"
                         data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1">
 
@@ -25,14 +25,14 @@
                         data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-splitin="none" data-splitout="none"
                         data-responsive_offset="on" data-start="700">
                         <div class="slide-content-box">
-                            <h1>Stainless Steel & Nickel Alloy Pipes <br> Moksh Tubes LLP
+                            <h1>Stainless Steel & Nickel Alloy Pipes <br> Moksh Tubes LLP</h1>
 
                             <p>Seamless & Welded Pipes/Tubes in SS 304/316/321/904L, <br>Inconel & Hastelloy with MTC (EN
-                                10204 3.1), PMI & Hydro Test ready stock</p>
-                            <p>Cut‑to‑length, export‑grade packing, fast dispatch across India, GCC, EU</p>
+                                10204 3.1), PMI & Hydro Test ready stock<br>
+                            Cut to length, export grade packing, fast dispatch across India, GCC, EU</p>
                         </div>
                     </div>
-                    <div class="tp-caption tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="130"
+                    <div class="tp-caption tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="110"
                         data-transform_idle="o:1;"
                         data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
                         data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-splitin="none"
@@ -43,14 +43,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tp-caption tp-resizeme" data-x="left" data-hoffset="227" data-y="center" data-voffset="130"
+                    <div class="tp-caption tp-resizeme" data-x="left" data-hoffset="227" data-y="center" data-voffset="110"
                         data-transform_idle="o:1;"
                         data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
                         data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-splitin="none"
                         data-splitout="none" data-responsive_offset="on" data-start="2600">
                         <div class="slide-content-box">
                             <div class="button">
-                                <a class="thm-btn bg-clr2" href="{{ route('contact-us') }}">Get RFQ/Quote</a>
+                                <a class="thm-btn bg-clr2" href="{{ route('contact-us') }}">Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -60,7 +60,7 @@
 
 
                 <li data-transition="slidingoverlayleft">
-                    <img src="{{ asset('assets/images/slides/carpenteria-interno.jpg') }}" alt="banner image" width="1920"
+                    <img src="{{ asset('assets/images/slides/carpenteria-interno.webp') }}" alt="banner image" width="1920"
                         height="880" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat"
                         data-bgparallax="1">
 
@@ -256,9 +256,9 @@
             <div class="row">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
-                       <figure class="img-box mb-0" style="position: relative; width: 100%; aspect-ratio: 3/2; overflow: hidden;">
-                            <a class="w-100" href="#">
-                            <img src="/assets/images/service/WELDED-PIPES.webp"  alt="Awesome Image" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;" ></a>
+                       <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('products.pipes-tubes.welded-pipes') }}">
+                            <img src="/assets/images/service/WELDED-PIPES.webp"  alt="Awesome Image" ></a>
                         </figure>
 
                         <div class="p-3">
@@ -275,7 +275,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
+                            <a class="w-100" href="{{ route('products.pipes-tubes.seamless-pipes') }}">
                                 <img class="w-100" src="/assets/images/service/SEAMLESS-PIPES.webp" alt="Awesome Image">
                             </a>
                         </figure>
@@ -293,8 +293,8 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
-                                <img src="/assets/images/service/SHEETS-PLATES.webp" alt="Sheets and Plates" style="width:100%; height:auto; aspect-ratio:3/2; object-fit:cover;">
+                            <a class="w-100" href="{{ route('products.sheets-plates-coils.sheets-and-plates') }}">
+                                <img src="/assets/images/service/SHEETS-PLATES.webp" alt="Sheets and Plates" >
 
                             </a>
                         </figure>
@@ -312,9 +312,9 @@
 
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
-                        <figure class="img-box mb-0" style="position: relative; width: 100%; aspect-ratio:3/2; overflow: hidden;">
-                            <a class="w-100" href="##">
-                                <img src="/assets/images/service/PERFORATED-SHEETS.jpg" alt="Perforated Sheets" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+                        <figure class="img-box mb-0" >
+                            <a class="w-100" href="{{ route('products.sheets-plates-coils.perforated-sheets') }}">
+                                <img src="/assets/images/service/PERFORATED-SHEETS.jpg" alt="Perforated Sheets" >
                             </a>
                         </figure>
 
@@ -332,7 +332,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="##">
+                            <a class="w-100" href="{{ route('products.bars-rods.round-bars') }}">
                                 <img class="w-100" src="/assets/images/service/ROUND-BARS.jpg" alt="Awesome Image">
                             </a>
                         </figure>
@@ -341,8 +341,7 @@
                                 <h3 class="mt-0 h5">ROUND BARS</h3>
                             </a>
                             <p>
-                                Round bars, flat bars, and hex bars are offered in various grades of stainless steel and
-                                carbon steel for manufacturing and fabrication.
+                                Round Bars are solid cylindrical metal bars widely used across construction, automotive, aerospace, marine, and engineering sectors. Available in different materials, sizes, and
                             </p>
                         </div>
                     </div>
@@ -350,7 +349,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="##">
+                            <a class="w-100" href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners') }}">
                                 {{-- <img class="w-100" src="{{ asset('assets/images/service/6.jpg') }}" alt="Awesome Image"> --}}
                                 <img class="w-100" src="/assets/images/service/FASTENERS-1.webp" alt="Awesome Image">
                             </a>
@@ -748,7 +747,7 @@
                     <div class="default-blog-news wow fadeInUp animated animated"
                         style="visibility: visible; animation-name: fadeInUp;">
                         <figure class="img-holder mb-0">
-                            <a href="#"><img src="{{ asset('assets/images/blog/Untitled (9).png') }}"
+                            <a href="#"><img src="{{ asset('assets/images/blog/Untitled.webp') }}"
                                     alt="News"></a>
                             <figcaption class="overlay">
                                 <div class="box">

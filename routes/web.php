@@ -117,7 +117,7 @@ Route::get('/blogs/stainless-steel-tubes-applications-benefits-and-cost-guide', 
 Route::get('/blogs/stainless-steel-tubing-for-food-and-beverage-industry', [MainController::class, 'stainlessSteelTubingForFoodAndBeverageIndustry'])->name('blogs.stainless-steel-tubing-for-food-and-beverage-industry');
 Route::get('/blogs/top-10-uses-of-stainless-steel', [MainController::class, 'topTenUsesOfStainlessSteel'])->name('blogs.top-ten-uses-of-stainless-steel');
 Route::get('/blogs/maintenance-tips-for-stainless-steel', [MainController::class, 'maintenanceTipsForStainlessSteel'])->name('blogs.maintenance-tips-for-stainless-steel');
-// Route::get('/blogs/stainless-steel-tubes-vs-carbon-steel-pipes', [MainController::class, 'stainlessSteelTubesVsCarbonSteelPipes'])->name('blogs.stainless-steel-tubes-vs-carbon-steel-pipes');
+Route::get('/blogs/stainless-steel-tubes-vs-carbon-steel-pipes', [MainController::class, 'stainlessSteelTubesVsCarbonSteelPipes'])->name('blogs.stainless-steel-tubes-vs-carbon-steel-pipes');
 Route::redirect(
     '/materials/super-austenitic-stainless-steel/super-austenitic-stainless-steel-SMO-254',
     '/materials/super-austenitic-stainless-steel/super-austenitic-stainless-steel-smo-254',

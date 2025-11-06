@@ -273,7 +273,7 @@
     </section>
 
 
-    @php
+     @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -293,37 +293,37 @@
             ],
             [
                 'name' => 'Sheets & Plates',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.sheets-and-plates',
                 'image' => 'assets/images/all product/sheets-plates.jpg',
             ],
             [
                 'name' => 'Coils & Strips',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.strips',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.webp',
             ],
             [
                 'name' => 'Round Bars, Flat Bars, Hex Bars, Square Bars',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.bars-rods',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
             ],
             [
                 'name' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.pipe-fittings',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
             ],
             [
                 'name' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.flanges-and-gaskets',
                 'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
             ],
             [
                 'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
                 'image' => 'assets/images/all product/FASTENERS-1.png',
             ],
             [
                 'name' => 'Custom Fabricated Components',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
                 'image' => 'assets/images/all product/custom-metal-fabricated.jpg',
             ],
         ];
@@ -687,4 +687,56 @@
 
 
 
+@endsection
+@section('jsscripts')
+<script type="application/ld+json">
+    @verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Nickel A286 (AISI 660) and what are its key properties?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nickel A286, also known as AISI 660 or UNS S66286, is a high-strength iron-nickel-chromium alloy with additions of molybdenum and titanium. It is designed for applications requiring excellent strength and corrosion resistance at temperatures up to 704 °C (1300 °F). The alloy exhibits superior mechanical properties, oxidation resistance, and thermal stability, making it ideal for aerospace, automotive, marine, power generation, and chemical processing applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Nickel A286 products does Moksh Tubes & Fittings LLP supply?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Moksh Tubes & Fittings LLP supplies a wide range of Nickel A286 products including seamless and welded pipes, tubes, sheets, plates, coils, strips, round bars, flat bars, hex bars, square bars, pipe fittings, flanges, fasteners, wire mesh, welding rods, and custom fabricated components designed for high-performance applications in extreme environments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main advantages of using Nickel A286 in industrial applications?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nickel A286 offers high tensile and creep rupture strength at elevated temperatures, excellent oxidation and corrosion resistance, and long-term dimensional stability. It is easily fabricated and welded, maintains mechanical integrity over prolonged service periods, and is non-magnetic after heat treatment—making it ideal for critical, high-temperature, high-stress industrial applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which industries commonly use Nickel A286 alloy products?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nickel A286 is used in aerospace for jet engines, turbines, exhaust systems, and fasteners; in power generation for turbines and high-temperature steam systems; in automotive for turbochargers and engine components; in chemical processing for high-temperature equipment; and in oil & gas, marine, and industrial sectors for heat exchangers, subsea tools, and high-pressure fasteners."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose Moksh Tubes & Fittings LLP for Nickel A286 supply?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Moksh Tubes & Fittings LLP provides certified, high-performance Nickel A286 products with full test reports and compliance with international standards. With decades of expertise in nickel-based alloys, in-house machining, custom fabrication, ready stock for fast delivery, and global export capabilities, the company ensures reliable solutions for critical industrial applications."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
 @endsection

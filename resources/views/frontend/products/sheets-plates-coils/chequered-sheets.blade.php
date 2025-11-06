@@ -8,7 +8,7 @@
     Sheets, Aluminum Chequered Sheets, Carbon Steel Chequered Sheets, Industrial Flooring Sheets')
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/Sheets-Plates-and-Coils/chequered-sheets.jpeg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -29,7 +29,7 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/peoduct/Sheets, Plates and Coils/chequered-sheets.jpeg') }}"
+                    <img src="{{ asset('assets/images/peoduct/Sheets-Plates-and-Coils/chequered-sheets.jpeg') }}"
                         alt="Seamless pipes" class="img-fluid rounded shadow-sm">
                 </div>
 
@@ -491,6 +491,7 @@
     </section>
 
     {{-- Gallery --}}
+    {{-- Gallery --}}
     <section class="our-services">
         <div class="container">
             <div class="container">
@@ -500,7 +501,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
+                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}"
                                     alt="NICKLE ALLOYS">
                             </a>
@@ -513,7 +514,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}"
                                     alt="STAINLESS STEEL">
                             </a>
@@ -526,7 +527,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}"
                                     alt="DUPLEX & SUPER">
                             </a>
@@ -540,7 +541,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="##">
+                            <a class="w-100" href="{{ route('materials.titanium') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}"
                                     alt="TITANIUM ALLOYS">
                             </a>
@@ -553,26 +554,26 @@
                 <div class="col-md-4 col-sm-6 mb-4 ">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100">
+                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}"
-                                    alt="RARE TO ALLOYS">
+                                    alt="Haynes Superalloys">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0">RARE TO ALLOYS</h6>
+                            <h6 class="mt-0">Haynes Superalloys</h6>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100">
+                            <a class="w-100" href="{{ route('materials.inconel') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}"
-                                    alt="CARBON ALLOYS">
+                                    alt="Inconel">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0">CARBON ALLOYS</h6>
+                            <h6 class="mt-0">Inconel</h6>
                         </div>
                     </div>
                 </div>
@@ -946,4 +947,56 @@
     <!--End breadcrumb area-->
 
 
+@endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are chequered sheets?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Chequered sheets are metal sheets with raised patterns or embossing, usually in diamond, square, or circular shapes, designed to provide anti-slip properties and enhanced grip for flooring and industrial applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which materials are chequered sheets available in?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Chequered sheets are commonly available in stainless steel, aluminum, carbon steel, mild steel, and alloy steel depending on the intended use."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What thickness range is offered for chequered sheets?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Chequered sheets typically range from 1.5 mm to 12 mm in thickness, with custom thicknesses available on request."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the common patterns in chequered sheets?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common patterns in chequered sheets include diamond pattern (most common), round/checkered pattern, and custom patterns as per design requirements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the typical applications of chequered sheets?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Chequered sheets are used for flooring in industrial and commercial areas, stair treads and ramps for anti-slip protection, vehicle steps and platforms, decorative panels and wall cladding, and marine or offshore applications."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
 @endsection

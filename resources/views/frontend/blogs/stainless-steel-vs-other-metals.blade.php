@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Stainless Steel vs Other Metals: Durability & Longevity Guide')
+@section('title', 'Stainless Steel vs Other Metals | Durability Guide')
 @section('meta_description',
     'Compare stainless steel with aluminum, carbon steel, and copper. Discover which metal
     lasts longest and offers the best value for your projects.')

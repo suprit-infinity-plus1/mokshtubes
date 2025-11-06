@@ -238,7 +238,7 @@
     </section>
 
 
-    @php
+     @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -258,37 +258,37 @@
             ],
             [
                 'name' => 'Sheets & Plates',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.sheets-and-plates',
                 'image' => 'assets/images/all product/sheets-plates.jpg',
             ],
             [
                 'name' => 'Coils & Strips',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.strips',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.webp',
             ],
             [
                 'name' => 'Round Bars, Flat Bars, Hex Bars, Square Bars',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.bars-rods',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
             ],
             [
                 'name' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.pipe-fittings',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
             ],
             [
                 'name' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.flanges-and-gaskets',
                 'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
             ],
             [
                 'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
                 'image' => 'assets/images/all product/FASTENERS-1.png',
             ],
             [
                 'name' => 'Custom Fabricated Components',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
                 'image' => 'assets/images/all product/custom-metal-fabricated.jpg',
             ],
         ];
@@ -644,4 +644,56 @@
 
 
 
+@endsection
+@section('jsscripts')
+<script type="application/ld+json">
+    @verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Alloy 904L stainless steel and what makes it special?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Alloy 904L (UNS N08904) is a high-performance austenitic stainless steel with excellent corrosion resistance in aggressive environments. Containing high levels of chromium, nickel, molybdenum, and copper, it resists sulfuric, phosphoric, and acetic acids, as well as chloride-induced pitting and crevice corrosion. Its low carbon content prevents intergranular corrosion while ensuring good weldability, toughness, and formability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Alloy 904L products does Moksh Tubes & Fittings LLP offer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Moksh Tubes & Fittings LLP supplies a wide range of Alloy 904L products such as seamless and welded pipes, capillary and U-bend tubes, boiler and heat exchanger tubes, sheets, plates, coils, strips, round bars, hex bars, square bars, flanges, pipe fittings, fasteners, wire, and custom-fabricated components. All items meet international standards and are available in various sizes and specifications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main advantages of using Alloy 904L?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Alloy 904L provides outstanding resistance to strong reducing acids like sulfuric acid, as well as excellent resistance to pitting and crevice corrosion in chloride-rich environments. It maintains toughness at both low and high temperatures, offers good weldability and formability, and remains non-magnetic. Its low carbon content minimizes intergranular corrosion, ensuring long-term durability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which industries commonly use Alloy 904L materials?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Alloy 904L is used in industries such as marine and offshore engineering, chemical and petrochemical processing, oil and gas production, pulp and paper, desalination, water treatment, pharmaceuticals, and food processing. Its high corrosion resistance in acidic and chloride environments makes it suitable for critical applications in harsh conditions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose Moksh Tubes & Fittings LLP for Alloy 904L supply?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Moksh Tubes & Fittings LLP provides certified, high-quality Alloy 904L products with in-house testing, mill test certification, and complete traceability. Offering custom dimensions, fast delivery, and global export support, the company is trusted for consistent quality, expertise, and reliability in marine, chemical, and oil & gas sectors."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
 @endsection

@@ -251,7 +251,7 @@
     </section>
 
 
-    @php
+     @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -271,37 +271,37 @@
             ],
             [
                 'name' => 'Sheets & Plates',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.sheets-and-plates',
                 'image' => 'assets/images/all product/sheets-plates.jpg',
             ],
             [
                 'name' => 'Coils & Strips',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.strips',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.webp',
             ],
             [
                 'name' => 'Round Bars, Flat Bars, Hex Bars, Square Bars',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.bars-rods',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
             ],
             [
                 'name' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.pipe-fittings',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
             ],
             [
                 'name' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.flanges-and-gaskets',
                 'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
             ],
             [
                 'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
                 'image' => 'assets/images/all product/FASTENERS-1.png',
             ],
             [
                 'name' => 'Custom Fabricated Components',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
                 'image' => 'assets/images/all product/custom-metal-fabricated.jpg',
             ],
         ];
@@ -649,4 +649,56 @@
 
 
 
+@endsection
+@section('jsscripts')
+<script type="application/ld+json">
+    @verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Zirconium 705 and where is it used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Zirconium 705 is a high purity zirconium alloy known for exceptional corrosion resistance in strong acids, alkalis, and hot water. It is widely applied in chemical processing, nuclear reactors, pharmaceuticals, marine systems, and medical devices where purity, durability, and mechanical strength are critical."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the key properties of Zirconium 705?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Zirconium 705 provides high tensile and yield strength, excellent ductility, outstanding weldability, non magnetic behavior, and low neutron absorption. These characteristics make it ideal for nuclear, medical, and high-purity industrial applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which Zirconium 705 products are available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP supplies Zirconium 705 in a variety of forms including seamless and welded pipes, tubes, sheets, plates, coils, bars, flanges, fittings, fasteners, welding rods, and custom-fabricated components tailored to your project requirements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How resistant is Zirconium 705 to corrosion?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Zirconium 705 exhibits superior corrosion resistance in strong acids such as nitric and sulfuric, caustic solutions, seawater, and high purity water systems. Its chemical stability ensures reliability for long term industrial and marine applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose MOKSH TUBES & FITTINGS LLP for Zirconium 705?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We specialize in high-purity zirconium alloys with ASTM/ASME certified manufacturing, access to globally sourced raw materials, and custom fabrication solutions. Our Zirconium 705 products ensure consistent quality, traceability, and dependable supply for demanding industrial projects."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
 @endsection

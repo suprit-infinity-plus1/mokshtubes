@@ -26,7 +26,7 @@
                     <div class="blog-post">
                         <div class="single-blog-post">
                             <div class="img-holder mb-4">
-                                <img src="{{ asset('assets/images/blog/uae’s-ultimate-guide.webp') }}"
+                                <img src="{{ asset('assets/images/blog/uaes-ultimate-guide.webp') }}"
                                     alt="DIN Standard Metal Alloys & Tubes Germany" class="img-fluid rounded">
                             </div>
                             <div class="text-holder">

@@ -4,11 +4,11 @@
     'Discover high-quality sheets, plates, and coils from MokshTubes—engineered for durability, precision, and superior performance in industrial applications.') <!-- 153 characters -->
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/Sheets-Plates-and-Coils/Sheets-and-Plates.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>High-Quality Sheets, Plates & Coils for Industry</h1> <!-- 52 characters -->
+                    <h1>High Quality Sheets, Plates & Coils for Industry</h1> <!-- 52 characters -->
                 </div>
             </div>
         </div>
@@ -28,38 +28,38 @@
                         [
                             'name' => 'Chequered Sheets',
                             'slug' => 'chequered-sheets',
-                            'image' => 'assets/images/peoduct/Sheets, Plates and Coils/chequered-sheets.jpeg',
+                            'image' => 'assets/images/peoduct/Sheets-Plates-and-Coils/chequered-sheets.jpeg',
                         ],
 
                          [
                             'name' => 'Strips',
                             'slug' => 'strips',
-                            'image' => 'assets/images/peoduct/Sheets, Plates and Coils/Metal-Strips.jpg',
+                            'image' => 'assets/images/peoduct/Sheets-Plates-and-Coils/Metal-Strips.jpg',
                         ],
                          [
                             'name' => 'Shim sheets',
                             'slug' => 'shim-sheets',
-                            'image' => 'assets/images/peoduct/Sheets, Plates and Coils/Shim-Sheets.jpeg',
+                            'image' => 'assets/images/peoduct/Sheets-Plates-and-Coils/Shim-Sheets.jpeg',
                         ],
                          [
                             'name' => 'Sheets and plates',
                             'slug' => 'sheets-and-plates',
-                            'image' => 'assets/images/peoduct/Sheets, Plates and Coils/Sheets-and-Plates.jpg',
+                            'image' => 'assets/images/peoduct/Sheets-Plates-and-Coils/Sheets-and-Plates.jpg',
                         ],
                          [
                             'name' => 'Perforated sheets',
                             'slug' => 'perforated-sheets',
-                            'image' => 'assets/images/peoduct/Sheets, Plates and Coils/sheets-Perforated.jpeg',
+                            'image' => 'assets/images/peoduct/Sheets-Plates-and-Coils/sheets-Perforated.jpeg',
                         ],
                          [
                             'name' => 'Coils',
                             'slug' => 'coils',
-                            'image' => 'assets/images/peoduct/Sheets, Plates and Coils/Metal-Coils.jpeg',
+                            'image' => 'assets/images/peoduct/Sheets-Plates-and-Coils/Metal-Coils.jpeg',
                         ],
                          [
                             'name' => 'Cladded plates',
                             'slug' => 'cladded-plates',
-                            'image' => 'assets/images/peoduct/Sheets, Plates and Coils/Cladded-Plates.jpg',
+                            'image' => 'assets/images/peoduct/Sheets-Plates-and-Coils/Cladded-Plates.jpg',
                         ],
                         // [
                         //     'name' => 'Capillaries',

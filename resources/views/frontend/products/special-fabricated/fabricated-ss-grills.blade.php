@@ -5,7 +5,7 @@
 @section('meta_keywords', 'Fabricated Stainless Steel Grills, SS Grills Manufacturer, Stainless Steel Window Grills, SS Balcony & Staircase Grills, Custom Stainless Steel Grills, Decorative Stainless Steel Grills, Modern SS Grills for Home, Industrial Stainless Steel Grills, Duplex & Super Duplex Steel Grills, Stainless Steel Security Grills')
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/SS-grill.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -26,7 +26,7 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/peoduct/steel-furniture/custom-steel-furniture.webp') }}"
+                    <img src="{{ asset('assets/images/peoduct/SS-grill.jpg') }}"
                         alt="Fabricated-SS-Grills" class="img-fluid rounded shadow-sm">
                 </div>
 
@@ -517,12 +517,13 @@
             <div class="container">
             </div>
 
-             <div class="row">
+            <div class="row">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}" alt="NICKLE ALLOYS">
+                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}"
+                                    alt="NICKLE ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -533,8 +534,9 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}" alt="STAINLESS STEEL">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}"
+                                    alt="STAINLESS STEEL">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -545,8 +547,9 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}" alt="DUPLEX & SUPER">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}"
+                                    alt="DUPLEX & SUPER">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -558,8 +561,9 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="##">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}" alt="TITANIUM ALLOYS">
+                            <a class="w-100" href="{{ route('materials.titanium') }}">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}"
+                                    alt="TITANIUM ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -570,24 +574,26 @@
                 <div class="col-md-4 col-sm-6 mb-4 ">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}" alt="RARE TO ALLOYS">
+                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}"
+                                    alt="Haynes Superalloys">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0">RARE TO ALLOYS</h6>
+                            <h6 class="mt-0">Haynes Superalloys</h6>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}" alt="CARBON ALLOYS">
+                            <a class="w-100" href="{{ route('materials.inconel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}"
+                                    alt="Inconel">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0">CARBON ALLOYS</h6>
+                            <h6 class="mt-0">Inconel</h6>
                         </div>
                     </div>
                 </div>
@@ -1032,4 +1038,96 @@
     <!--End breadcrumb area-->
 
 
+@endsection
+@section('jsscripts')
+<script type="application/ld+json">
+    @verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Why should I choose stainless steel grills over iron grills?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stainless steel grills are rust-proof, more durable, and low maintenance, unlike iron grills that require regular painting and rust protection."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can SS grills be customized in design and size?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. At Moksh Tubes & Fittings LLP, we offer fully customized grills in terms of dimensions, thickness, patterns, and finishes to match your project requirements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which grade of stainless steel is best for grills?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For residential use, SS 304 / 304L is most common. For coastal or outdoor projects, SS 316 / 316L is recommended due to its superior corrosion resistance. For luxury or harsh environments, higher grades like Duplex, Super Duplex, or 904L are preferred."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are fabricated SS grills suitable for outdoor use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, stainless steel grills are weather-resistant and corrosion-proof, making them ideal for balconies, terraces, gates, and façades."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What finishes are available in SS grills?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Grills are available in matte, mirror, brushed, powder coated, antique, and decorative finishes depending on the design preference."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How strong are stainless steel grills compared to mild steel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stainless steel is stronger, tougher, and longer-lasting. Unlike mild steel, it does not corrode easily and maintains its structural integrity for decades."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do stainless steel grills require maintenance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Maintenance is minimal. Simple cleaning with soap water or mild detergent keeps the shine intact. No repainting or polishing is required."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can SS grills be used for decorative purposes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. With laser cutting and CNC fabrication, SS grills can be designed into intricate patterns, geometric shapes, and artistic designs, making them both functional and decorative."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where are fabricated SS grills most commonly used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "They are widely used in residential balconies, staircases, windows, doors, gates, office partitions, hotel lobbies, industrial safety enclosures, and ventilation systems."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I order custom stainless steel grills?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Simply contact Moksh Tubes & Fittings LLP at 📞 +91 97695 84950 or request a quote on our website. We supply custom built SS grills globally."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
 @endsection

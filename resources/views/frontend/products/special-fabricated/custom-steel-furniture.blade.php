@@ -5,7 +5,7 @@
 @section('meta_keywords', 'Custom Steel Furniture, Steel Furniture Manufacturers, Stainless Steel Furniture, Durable Steel Furniture, Modern Steel Furniture Designs, Industrial Steel Furniture, Custom Steel Tables, Chairs, Racks, Cabinets, Steel Furniture for Home & Office')
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/steel-furniture/custom-steel-furniture.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -411,12 +411,13 @@
             <div class="container">
             </div>
 
-             <div class="row">
+            <div class="row">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}" alt="NICKLE ALLOYS">
+                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}"
+                                    alt="NICKLE ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -427,8 +428,9 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}" alt="STAINLESS STEEL">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}"
+                                    alt="STAINLESS STEEL">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -439,8 +441,9 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}" alt="DUPLEX & SUPER">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}"
+                                    alt="DUPLEX & SUPER">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -452,8 +455,9 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="##">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}" alt="TITANIUM ALLOYS">
+                            <a class="w-100" href="{{ route('materials.titanium') }}">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}"
+                                    alt="TITANIUM ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -464,24 +468,26 @@
                 <div class="col-md-4 col-sm-6 mb-4 ">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}" alt="RARE TO ALLOYS">
+                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}"
+                                    alt="Haynes Superalloys">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0">RARE TO ALLOYS</h6>
+                            <h6 class="mt-0">Haynes Superalloys</h6>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}" alt="CARBON ALLOYS">
+                            <a class="w-100" href="{{ route('materials.inconel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}"
+                                    alt="Inconel">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0">CARBON ALLOYS</h6>
+                            <h6 class="mt-0">Inconel</h6>
                         </div>
                     </div>
                 </div>
@@ -919,4 +925,96 @@
     <!--End breadcrumb area-->
 
 
+@endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Why should I choose custom steel furniture over wooden furniture?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Steel furniture is stronger, termite-proof, rust-resistant, and more durable than wood. Unlike wooden furniture, it requires minimal maintenance and lasts much longer."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is custom steel furniture suitable for homes or only for industrial use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Custom steel furniture is versatile. It is used in homes (tables, beds, wardrobes), offices (desks, cabinets), hospitality (restaurants, hotels), and industries (workbenches, storage racks)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can steel furniture be combined with wood, glass, or stone?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, steel integrates seamlessly with materials like wood, glass, and stone to create unique and stylish designs that match modern interiors."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What grades of steel are used in custom furniture?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We manufacture furniture using stainless steel (304, 316, etc.), mild steel, carbon steel, duplex steel, and even high-performance alloys depending on the application and environment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will my steel furniture rust over time?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, when manufactured with the right grade (like SS 304/316) and protective finishes (powder coating, polishing), steel furniture remains rust-free and corrosion-resistant."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is steel furniture heavy to move around?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not necessarily. Steel furniture is strong but can be fabricated in lightweight sections. Many designs are modular, making them easy to move and reassemble."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can custom steel furniture be designed to match my interior theme?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. We offer matte, mirror, brushed, powder-coated, and antique finishes to match modern, industrial, or classic décor."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I maintain custom steel furniture?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Maintenance is simple—just wipe with a damp cloth. Unlike wood, it doesn’t require polishing, painting, or termite treatment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is custom steel furniture cost-effective?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, while the initial investment may be slightly higher than wood or plastic, steel furniture lasts decades, reducing replacement and repair costs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you design modular or space-saving steel furniture?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we specialize in modular, foldable, and space-optimized steel furniture ideal for homes, offices, and institutions."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
 @endsection

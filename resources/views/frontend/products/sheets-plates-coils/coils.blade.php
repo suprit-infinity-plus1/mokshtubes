@@ -8,7 +8,7 @@
     Metal Coils, Custom Metal Coils, High-Quality Metal Coils, Durable Metal Coils, Precision Metal Coils, Mokshtubes')
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/Sheets-Plates-and-Coils/Metal-Coils.jpeg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -29,7 +29,7 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/peoduct/Sheets, Plates and Coils/Metal-Coils.jpeg') }}"
+                    <img src="{{ asset('assets/images/peoduct/Sheets-Plates-and-Coils/Metal-Coils.jpeg') }}"
                         alt="Hexagon Bars" class="img-fluid rounded shadow-sm">
                 </div>
 
@@ -341,6 +341,7 @@
     </section>
 
     {{-- Gallery --}}
+    {{-- Gallery --}}
     <section class="our-services">
         <div class="container">
             <div class="container">
@@ -350,7 +351,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
+                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}"
                                     alt="NICKLE ALLOYS">
                             </a>
@@ -363,7 +364,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}"
                                     alt="STAINLESS STEEL">
                             </a>
@@ -376,7 +377,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}"
                                     alt="DUPLEX & SUPER">
                             </a>
@@ -390,7 +391,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="##">
+                            <a class="w-100" href="{{ route('materials.titanium') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}"
                                     alt="TITANIUM ALLOYS">
                             </a>
@@ -403,26 +404,26 @@
                 <div class="col-md-4 col-sm-6 mb-4 ">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100">
+                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}"
-                                    alt="RARE TO ALLOYS">
+                                    alt="Haynes Superalloys">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0">RARE TO ALLOYS</h6>
+                            <h6 class="mt-0">Haynes Superalloys</h6>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100">
+                            <a class="w-100" href="{{ route('materials.inconel') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}"
-                                    alt="CARBON ALLOYS">
+                                    alt="Inconel">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0">CARBON ALLOYS</h6>
+                            <h6 class="mt-0">Inconel</h6>
                         </div>
                     </div>
                 </div>
@@ -864,4 +865,56 @@
     <!--End breadcrumb area-->
 
 
+@endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are metal coils?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Metal coils are rolled strips of metal wound into a coil for ease of handling, transportation, and storage. They serve as raw material for sheets, strips, and other fabricated products."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which materials are available in coil form?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Coils are available in stainless steel, carbon steel, alloy steel, aluminum, copper, brass, nickel alloys, titanium, and other specialty metals."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the common types of metal coils?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hot Rolled Coils (HRC) – thicker, rougher surface, structural applications. Cold Rolled Coils (CRC) – thinner, smooth surface, precision applications. Galvanized Coils – coated for corrosion resistance. Aluminum & Non-Ferrous Coils – lightweight and corrosion-resistant."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the standard sizes of metal coils?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Width: typically 600 mm to 2000 mm. Thickness: 0.2 mm to 20 mm (depending on material and rolling process). Weight: can range from 2 tons to 10 tons per coil."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the common applications of metal coils?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Manufacturing sheets, strips, and plates. Automotive panels and parts. Roofing, cladding, and construction materials. Appliances and electrical equipment. Packaging and industrial components."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
 @endsection

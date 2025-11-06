@@ -5,7 +5,7 @@
 @section('meta_keywords', 'Metal Strips Supplier, Stainless Steel Strips, Carbon Steel Strips, Alloy Strips, Industrial Metal Strips, Custom Metal Strips, Precision Metal Strips, Durable Metal Strips, High-Quality Metal Strips, Mokshtubes Metal Strips')
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/Sheets-Plates-and-Coils/Metal-Strips.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -26,7 +26,7 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/peoduct/Sheets, Plates and Coils/Metal-Strips.jpg') }}"
+                    <img src="{{ asset('assets/images/peoduct/Sheets-Plates-and-Coils/Metal-Strips.jpg') }}"
                         alt="Hexagon Bars" class="img-fluid rounded shadow-sm">
                 </div>
 
@@ -279,12 +279,13 @@
             <div class="container">
             </div>
 
-             <div class="row">
+            <div class="row">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}" alt="NICKLE ALLOYS">
+                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}"
+                                    alt="NICKLE ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -295,8 +296,9 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}" alt="STAINLESS STEEL">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}"
+                                    alt="STAINLESS STEEL">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -307,8 +309,9 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}" alt="DUPLEX & SUPER">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}"
+                                    alt="DUPLEX & SUPER">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -320,8 +323,9 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="##">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}" alt="TITANIUM ALLOYS">
+                            <a class="w-100" href="{{ route('materials.titanium') }}">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}"
+                                    alt="TITANIUM ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -332,24 +336,26 @@
                 <div class="col-md-4 col-sm-6 mb-4 ">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}" alt="RARE TO ALLOYS">
+                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}"
+                                    alt="Haynes Superalloys">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0">RARE TO ALLOYS</h6>
+                            <h6 class="mt-0">Haynes Superalloys</h6>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}" alt="CARBON ALLOYS">
+                            <a class="w-100" href="{{ route('materials.inconel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}"
+                                    alt="Inconel">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0">CARBON ALLOYS</h6>
+                            <h6 class="mt-0">Inconel</h6>
                         </div>
                     </div>
                 </div>
@@ -759,4 +765,56 @@
     <!--End breadcrumb area-->
 
 
+@endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are metal strips?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Metal strips are long, narrow pieces of metal that are produced in specific widths and thicknesses. They are widely used in construction, automotive, electrical, and industrial applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which materials are strips available in?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Strips can be manufactured from stainless steel, carbon steel, aluminum, brass, copper, nickel alloys, titanium, and other special alloys depending on usage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What thickness and width ranges are available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Thickness: usually from 0.1 mm to 20 mm. Width: typically from 10 mm to 600 mm. Custom sizes are also supplied based on requirements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the common applications of metal strips?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common applications include: Electrical & switchgear components, Automotive parts & cladding, Springs & washers, Heat exchangers & condensers, Construction & decorative purposes, Precision engineering and fabrication."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are strips different from sheets and coils?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Sheets – wider and available in flat form. Strips – narrower, cut from coils, with controlled width. Coils – continuous rolled form before cutting into strips or sheets."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
 @endsection

@@ -9,7 +9,7 @@
     Fasteners, ISO Certified Fasteners')
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/flangs/FASTENERS.jpeg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -580,26 +580,26 @@
                 <div class="col-md-4 col-sm-6 mb-4 ">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100">
+                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}"
-                                    alt="RARE TO ALLOYS">
+                                    alt="Haynes Superalloys">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0">RARE TO ALLOYS</h6>
+                            <h6 class="mt-0">Haynes Superalloys</h6>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100">
+                            <a class="w-100" href="{{ route('materials.inconel') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}"
-                                    alt="CARBON ALLOYS">
+                                    alt="Inconel">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0">CARBON ALLOYS</h6>
+                            <h6 class="mt-0">Inconel</h6>
                         </div>
                     </div>
                 </div>
@@ -963,6 +963,7 @@
         </div>
     </section>
     <!--End faq content area-->
+    <!-- Schema testing -->
 
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -981,4 +982,56 @@
     <!--End breadcrumb area-->
 
 
+@endsection
+@section('jsscripts')
+<script type="application/ld+json">
+@verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of fasteners are available from Moksh Tubes & Fittings LLP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We provide a complete range including bolts, nuts, screws, washers, studs, threaded rods, anchors, rivets, and custom-engineered specialty fasteners."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which materials are used for your fasteners?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our fasteners are made from stainless steel, carbon steel, alloy steel, duplex & super duplex, titanium, nickel alloys, and copper alloys to suit various industrial needs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are your fasteners compliant with international standards?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our fasteners meet ASTM, ASME, DIN, ISO, BS, and JIS standards to ensure quality, strength, and reliability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What industries use your fasteners?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our fasteners are used in construction, marine, oil & gas, aerospace, automotive, industrial machinery, food & pharma, and energy sectors."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you provide custom fasteners for special applications?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. We manufacture custom fasteners tailored to specific dimensions, materials, coatings, and performance requirements for unique industrial applications."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
 @endsection

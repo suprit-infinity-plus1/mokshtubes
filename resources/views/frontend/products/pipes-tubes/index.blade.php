@@ -7,11 +7,11 @@
     Boiler Tubes, Stainless Steel Pipes, Nickel Tubes, Titanium Tubes')
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/hollow-section-pipe.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>High-Quality Industrial Pipes & Tubes</h1> <!-- 52 characters -->
+                    <h1>High Quality Industrial Pipes & Tubes</h1> <!-- 52 characters -->
                 </div>
             </div>
         </div>

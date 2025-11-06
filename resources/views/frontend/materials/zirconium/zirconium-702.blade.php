@@ -252,7 +252,7 @@
     </section>
 
 
-    @php
+     @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -272,37 +272,37 @@
             ],
             [
                 'name' => 'Sheets & Plates',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.sheets-and-plates',
                 'image' => 'assets/images/all product/sheets-plates.jpg',
             ],
             [
                 'name' => 'Coils & Strips',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.strips',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.webp',
             ],
             [
                 'name' => 'Round Bars, Flat Bars, Hex Bars, Square Bars',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.bars-rods',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
             ],
             [
                 'name' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.pipe-fittings',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
             ],
             [
                 'name' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.flanges-and-gaskets',
                 'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
             ],
             [
                 'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
                 'image' => 'assets/images/all product/FASTENERS-1.png',
             ],
             [
                 'name' => 'Custom Fabricated Components',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
                 'image' => 'assets/images/all product/custom-metal-fabricated.jpg',
             ],
         ];
@@ -656,4 +656,56 @@
 
 
 
+@endsection
+@section('jsscripts')
+<script type="application/ld+json">
+    @verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Zirconium 702 and its key features?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Zirconium 702 (UNS R60702) is a commercially pure zirconium alloy known for its exceptional corrosion resistance, excellent weldability, high strength, and biocompatibility. These properties make it highly suitable for chemical processing, nuclear, and medical applications where purity and durability are critical."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which products are available in Zirconium 702?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP offers a wide range of Zirconium 702 products, including seamless and welded pipes, tubes, sheets, plates, coils, bars, flanges, fittings, fasteners, welding rods, and custom fabricated components suitable for high performance industrial and medical applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main applications of Zirconium 702?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Zirconium 702 is extensively used in chemical processing, nuclear power plants, pharmaceuticals, food processing, aerospace systems, and medical devices, providing outstanding performance where high purity and corrosion resistance are essential."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What advantages does Zirconium 702 offer over other alloys?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Zirconium 702 delivers superior corrosion resistance in acidic and alkaline environments, excellent formability and weldability, low reactivity, biocompatibility, and long term durability under extreme industrial conditions, making it a reliable choice for critical applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose MOKSH TUBES & FITTINGS LLP for Zirconium 702?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP provides high quality Zirconium 702 with precision fabrication, global sourcing, compliance with ASTM/ASME standards, timely delivery, and expert technical support, ensuring reliable solutions for demanding industrial and medical applications."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
 @endsection

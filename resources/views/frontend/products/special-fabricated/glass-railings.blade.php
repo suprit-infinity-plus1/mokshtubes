@@ -6,7 +6,7 @@
     'glass railings, balcony glass railing, staircase glass railing, terrace glass railing, frameless glass railing, stainless steel glass railing, tempered glass railing, custom glass railing, modern glass railing designs')
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/Glass-railing.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -27,7 +27,7 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/peoduct/steel-furniture/custom-steel-furniture.webp') }}"
+                    <img src="{{ asset('assets/images/peoduct/Glass-railing.jpg') }}"
                         alt="Custom-Steel-Furniture" class="img-fluid rounded shadow-sm">
                 </div>
 
@@ -421,7 +421,7 @@
                                     <td>Custom coatings, UV-protected glass, and designer etched finishes
                                     </td>
                                 </tr>
-                               
+
                             </tbody>
                         </table>
                     </div>
@@ -430,18 +430,19 @@
         </div>
     </section>
 
-    {{-- Gallery --}}
+   {{-- Gallery --}}
     <section class="our-services">
         <div class="container">
             <div class="container">
             </div>
 
-             <div class="row">
+            <div class="row">
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}" alt="NICKLE ALLOYS">
+                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}"
+                                    alt="NICKLE ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -452,8 +453,9 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}" alt="STAINLESS STEEL">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}"
+                                    alt="STAINLESS STEEL">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -464,8 +466,9 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}" alt="DUPLEX & SUPER">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}"
+                                    alt="DUPLEX & SUPER">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -477,8 +480,9 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="##">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}" alt="TITANIUM ALLOYS">
+                            <a class="w-100" href="{{ route('materials.titanium') }}">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}"
+                                    alt="TITANIUM ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -489,24 +493,26 @@
                 <div class="col-md-4 col-sm-6 mb-4 ">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}" alt="RARE TO ALLOYS">
+                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}"
+                                    alt="Haynes Superalloys">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0">RARE TO ALLOYS</h6>
+                            <h6 class="mt-0">Haynes Superalloys</h6>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}" alt="CARBON ALLOYS">
+                            <a class="w-100" href="{{ route('materials.inconel') }}">
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}"
+                                    alt="Inconel">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0">CARBON ALLOYS</h6>
+                            <h6 class="mt-0">Inconel</h6>
                         </div>
                     </div>
                 </div>
@@ -581,7 +587,7 @@
                     </div>
                 </div>
 
-                
+
             </div>
             {{-- <p class="text-center pb-3 my-4"><strong class="text-dark">HASTELLOY C-276's</strong> unique combination of
                 corrosion resistance, weldability, and mechanical durability makes it a reliable material for
@@ -856,4 +862,56 @@
     <!--End breadcrumb area-->
 
 
+@endsection
+@section('jsscripts')
+<script type="application/ld+json">
+    @verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are glass railings safe for balconies and staircases?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. When installed with toughened or laminated glass and secured with strong stainless steel hardware, glass railings are completely safe for residential and commercial use."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What thickness of glass is recommended for railings?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The standard thickness is 8 mm to 12 mm toughened glass. For higher safety and strength, laminated glass (10 mm + 10 mm) is used in heavy-duty applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do glass railings require a lot of maintenance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Glass railings are easy to maintain—just regular cleaning with mild soap and water keeps them clear and shiny. Stainless steel or aluminium hardware also requires minimal upkeep."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can glass railings withstand outdoor weather?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Toughened glass and 304/316 stainless steel hardware are corrosion-resistant and designed to handle rain, sun, and humidity without losing strength or appearance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the average lifespan of glass railings?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "With proper installation and minimal maintenance, glass railings can last 15–20 years or more without any issues."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
 @endsection

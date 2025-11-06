@@ -243,7 +243,7 @@
     </section>
 
 
-    @php
+     @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -263,37 +263,37 @@
             ],
             [
                 'name' => 'Sheets & Plates',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.sheets-and-plates',
                 'image' => 'assets/images/all product/sheets-plates.jpg',
             ],
             [
                 'name' => 'Coils & Strips',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.sheets-plates-coils.strips',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.webp',
             ],
             [
                 'name' => 'Round Bars, Flat Bars, Hex Bars, Square Bars',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.bars-rods',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
             ],
             [
                 'name' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.pipe-fittings',
                 'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
             ],
             [
                 'name' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.flanges-and-gaskets',
                 'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
             ],
             [
                 'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
                 'image' => 'assets/images/all product/FASTENERS-1.png',
             ],
             [
                 'name' => 'Custom Fabricated Components',
-                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
                 'image' => 'assets/images/all product/custom-metal-fabricated.jpg',
             ],
         ];
@@ -651,4 +651,56 @@
 
 
 
+@endsection
+@section('jsscripts')
+<script type="application/ld+json">
+    @verbatim
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "What is Titanium Grade 5 (Ti-6Al-4V) and why is it widely used?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Titanium Grade 5, also known as Ti-6Al-4V, is a high strength titanium alloy containing 6% aluminum and 4% vanadium. It combines an exceptional strength-to-weight ratio with corrosion resistance and temperature tolerance, making it ideal for aerospace, medical, marine, and industrial applications. Its versatility and reliability have made it the most widely used titanium alloy for precision-engineered and structural components."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What types of Titanium Grade 5 products does MOKSH TUBES & FITTINGS LLP provide?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "MOKSH TUBES & FITTINGS LLP offers a complete range of Titanium Grade 5 products, including seamless and welded pipes, various tubes, sheets, plates, coils, bars, wires, fasteners, flanges, welding rods, mesh, and custom machined components. All products comply with international quality standards and are designed for high performance and critical applications where strength and durability are essential."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What are the main advantages of Titanium Grade 5?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Titanium Grade 5 offers a superior strength-to-weight ratio, excellent corrosion resistance including in saltwater environments, high fatigue and crack resistance, and biocompatibility suitable for medical implants. It retains its strength at elevated temperatures up to 400°C and can be welded, forged, and machined with precision, making it ideal for demanding industrial and aerospace applications."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Which industries benefit most from Titanium Grade 5 products?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Titanium Grade 5 is widely used in aerospace and defense for airframes and jet engine components, in medical sectors for implants and surgical instruments, in marine and offshore engineering for underwater equipment and ship structures, in automotive and motorsport for high performance parts, in chemical processing for corrosion resistant vessels, and in power generation for turbines and condenser components."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Why choose MOKSH TUBES & FITTINGS LLP for Titanium Grade 5 solutions?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "With over a decade of expertise, MOKSH TUBES & FITTINGS LLP provides globally compliant Titanium Grade 5 products with in house processing, testing, and machining for full traceability. We ensure timely delivery, competitive pricing, and custom solutions tailored to your specifications, making us a trusted supplier for high performance industries worldwide."
+            }
+        }
+    ]
+}
+@endverbatim
+</script>
 @endsection

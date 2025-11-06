@@ -8,7 +8,7 @@
     bar, brass hex bar, aluminium hex bar, hex bar sizes, hex bar weight chart')
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/Hexagon-Bars.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -28,7 +28,7 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/peoduct/steel-furniture/custom-steel-furniture.webp') }}"
+                    <img src="{{ asset('assets/images/peoduct/Hexagon-Bars.jpg') }}"
                         alt="Hexagon Bars" class="img-fluid rounded shadow-sm">
                 </div>
 
@@ -565,6 +565,7 @@
     </section>
 
     {{-- Gallery --}}
+    {{-- Gallery --}}
     <section class="our-services">
         <div class="container">
             <div class="container">
@@ -574,7 +575,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
+                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}"
                                     alt="NICKLE ALLOYS">
                             </a>
@@ -587,7 +588,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}"
                                     alt="STAINLESS STEEL">
                             </a>
@@ -600,7 +601,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}"
                                     alt="DUPLEX & SUPER">
                             </a>
@@ -614,7 +615,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="##">
+                            <a class="w-100" href="{{ route('materials.titanium') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}"
                                     alt="TITANIUM ALLOYS">
                             </a>
@@ -627,26 +628,26 @@
                 <div class="col-md-4 col-sm-6 mb-4 ">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100">
+                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}"
-                                    alt="RARE TO ALLOYS">
+                                    alt="Haynes Superalloys">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0">RARE TO ALLOYS</h6>
+                            <h6 class="mt-0">Haynes Superalloys</h6>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100">
+                            <a class="w-100" href="{{ route('materials.inconel') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}"
-                                    alt="CARBON ALLOYS">
+                                    alt="Inconel">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0">CARBON ALLOYS</h6>
+                            <h6 class="mt-0">Inconel</h6>
                         </div>
                     </div>
                 </div>
@@ -1084,4 +1085,56 @@
     <!--End breadcrumb area-->
 
 
+@endsection
+@section('jsscripts')
+<script type="application/ld+json">
+@verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are hexagon bars used for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hexagon bars are commonly used in nuts, bolts, fasteners, and precision components due to their six-sided shape, which makes them easy to machine and grip."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What materials are available in hexagon bars?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We supply stainless steel hexagon bars, mild steel hexagon bars, alloy steel hexagon bars, brass hexagon bars, copper hexagon bars, and aluminium hexagon bars in different grades and finishes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What sizes do hexagon bars come in?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hexagon bars are available in a wide range of sizes, including 10 mm hexagon bar, 20 mm hex bar, and custom cut-to-size options."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How to calculate the weight of a hexagon bar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The weight of a hexagon bar can be calculated using the formula: Weight (kg/m) = (0.0068 × Across Flat Dimension²) × Density of Material."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who are the leading hexagon bar suppliers in Mumbai, India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Moksh Tubes & Fittings LLP is among the trusted hexagon bar suppliers in Mumbai, offering a wide range of stainless steel, MS, alloy steel, copper, brass, and aluminium hexagon bars."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
 @endsection

@@ -8,7 +8,7 @@
     Chemical Resistant Gaskets, Non-Metallic Gaskets, Sealing Solutions')
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/flangs/Flange-Gaskets.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -708,7 +708,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
+                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}"
                                     alt="NICKLE ALLOYS">
                             </a>
@@ -721,22 +721,20 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}"
                                     alt="STAINLESS STEEL">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <!-- <h6 class="mt-0">STAINLESS STEEL</h6> -->
-                            <p class="mt-0" style="font-size: 0.875rem; font-weight: 600;">STAINLESS STEEL</p>
-
+                            <h6 class="mt-0">STAINLESS STEEL</h6>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="#">
+                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}"
                                     alt="DUPLEX & SUPER">
                             </a>
@@ -750,7 +748,7 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="##">
+                            <a class="w-100" href="{{ route('materials.titanium') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}"
                                     alt="TITANIUM ALLOYS">
                             </a>
@@ -763,26 +761,26 @@
                 <div class="col-md-4 col-sm-6 mb-4 ">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100">
+                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}"
-                                    alt="RARE TO ALLOYS">
+                                    alt="Haynes Superalloys">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0">RARE TO ALLOYS</h6>
+                            <h6 class="mt-0">Haynes Superalloys</h6>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100">
+                            <a class="w-100" href="{{ route('materials.inconel') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}"
-                                    alt="CARBON ALLOYS">
+                                    alt="Inconel">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0">CARBON ALLOYS</h6>
+                            <h6 class="mt-0">Inconel</h6>
                         </div>
                     </div>
                 </div>
@@ -1122,4 +1120,56 @@
     <!--End breadcrumb area-->
 
 
+@endsection
+@section('jsscripts')
+<script type="application/ld+json">
+@verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a gasket?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A gasket is a mechanical sealing component placed between two surfaces to prevent leakage of fluids or gases. Industrial gaskets are widely used in pipelines, heat exchangers, valves, and flanges to ensure a secure seal under high pressure and temperature."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which gasket material is best?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The best gasket material depends on the application. Rubber gaskets work well for low-temperature sealing, PTFE gaskets are ideal for chemical resistance, while metal gaskets like spiral wound or ring-type joints are best for high-pressure, high-temperature environments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the different types of gaskets?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common types of gaskets include Spiral Wound Gaskets, Ring Type Joint (RTJ) Gaskets, Graphite Gaskets, PTFE Gaskets, Rubber Gaskets, and Non-Asbestos Gaskets."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I choose the right gasket for my project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To select the right industrial gasket, consider factors like pressure, temperature, fluid type, and flange design. Consulting with experts like Mokshtubes Fittings LLP ensures you get the correct gasket material for long-term performance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What industries use gaskets?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gaskets are essential in industries such as oil & gas, petrochemicals, power generation, marine, pharmaceuticals, and food processing, where reliable sealing is critical to safety and efficiency."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
 @endsection
