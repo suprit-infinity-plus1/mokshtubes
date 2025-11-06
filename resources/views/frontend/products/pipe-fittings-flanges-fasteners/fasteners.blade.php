@@ -983,3 +983,55 @@
 
 
 @endsection
+@section('jsscripts')
+<script type="application/ld+json">
+@verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of fasteners are available from Moksh Tubes & Fittings LLP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We provide a complete range including bolts, nuts, screws, washers, studs, threaded rods, anchors, rivets, and custom-engineered specialty fasteners."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which materials are used for your fasteners?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our fasteners are made from stainless steel, carbon steel, alloy steel, duplex & super duplex, titanium, nickel alloys, and copper alloys to suit various industrial needs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are your fasteners compliant with international standards?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our fasteners meet ASTM, ASME, DIN, ISO, BS, and JIS standards to ensure quality, strength, and reliability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What industries use your fasteners?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our fasteners are used in construction, marine, oil & gas, aerospace, automotive, industrial machinery, food & pharma, and energy sectors."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you provide custom fasteners for special applications?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. We manufacture custom fasteners tailored to specific dimensions, materials, coatings, and performance requirements for unique industrial applications."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
+@endsection
