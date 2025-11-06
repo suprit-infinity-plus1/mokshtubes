@@ -945,3 +945,55 @@
 
 
 @endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are Shim Sheets?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Shim sheets are thin sheets of metal used for precision adjustments, alignment, spacing, and support in machinery, assemblies, and industrial equipment. They help achieve accurate tolerances and reduce wear."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which materials are shim sheets available in?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Shim sheets are available in a wide range of materials such as stainless steel, brass, copper, aluminum, carbon steel, nickel alloys, and specialty alloys depending on the application."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What thickness range is offered in shim sheets?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Shim sheets are generally available in thicknesses from 0.02 mm up to 5 mm, with closer tolerances for precision engineering applications. Custom thicknesses can also be made on request."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the common applications of shim sheets?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common applications include: Machine alignment and leveling, Tool & die set adjustments, Motor and pump spacing, Aerospace and automotive components, Electronic equipment assembly, Gasket and sealing purposes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can shim sheets be supplied in cut sizes or rolls?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, shim sheets are available in full sheets, coils/rolls, and precision cut-to-size pieces to meet project-specific requirements."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
+@endsection
