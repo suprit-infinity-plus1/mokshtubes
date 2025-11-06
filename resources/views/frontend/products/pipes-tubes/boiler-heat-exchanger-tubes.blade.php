@@ -1972,6 +1972,246 @@
 
     <!--End breadcrumb area-->
 
+<!--Start faq content area-->
+<section class="faq-content-area sec-padd2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="accordion-box">
+                    <div class="section-title center">
+                        <h2>FAQ's</h2>
+                    </div>
 
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn">
+                            <h4>
+                                What are Boiler & Heat Exchanger Tubes?
+                            </h4>
+                        </div>
+                        <div class="accord-content">
+                            <p>
+                                Boiler & Heat Exchanger Tubes are precision-engineered components used in thermal power plants, refineries, chemical industries, and other process applications to ensure efficient heat transfer. They are designed to perform under high temperature, pressure, and corrosive conditions, maintaining long-term operational reliability.
+                            </p>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
 
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn">
+                            <h4>
+                                What materials are used to manufacture Boiler & Heat Exchanger Tubes?
+                            </h4>
+                        </div>
+                        <div class="accord-content">
+                            <p>
+                                These tubes are manufactured from a wide range of materials, including <b>Stainless Steel, Duplex & Super Duplex Steel, Nickel Alloys (Inconel, Monel), Alloy Steel, Carbon Steel, Copper Alloys, and Titanium</b>. The material choice depends on the operating temperature, pressure, and fluid medium of the application.
+                            </p>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn">
+                            <h4>
+                                What are the available sizes and dimensions for Boiler & Heat Exchanger Tubes?
+                            </h4>
+                        </div>
+                        <div class="accord-content">
+                            <p>
+                                Boiler & Heat Exchanger Tubes are available in outer diameters ranging from <b>6 mm to 219 mm</b> and wall thicknesses from <b>0.5 mm to 12.7 mm</b>. Lengths are offered up to 12 meters or customized as per project requirements. Both seamless and welded types (ERW, EFW, U-bent) are available.
+                            </p>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn">
+                            <h4>
+                                What standards do these tubes comply with?
+                            </h4>
+                        </div>
+                        <div class="accord-content">
+                            <p>
+                                Our Boiler & Heat Exchanger Tubes are produced as per international standards including <b>ASTM A179, A192, A213, A249, A269, A333, ASME SA213, EN 10216, and DIN</b>. All tubes undergo rigorous inspection and testing to meet mechanical and dimensional accuracy requirements.
+                            </p>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn">
+                            <h4>
+                                What are the main applications of Boiler & Heat Exchanger Tubes?
+                            </h4>
+                        </div>
+                        <div class="accord-content">
+                            <ul>
+                                <li>Power Generation – Boilers, superheaters, reheaters, and economizers</li>
+                                <li>Oil, Gas & Petrochemical – Heat exchangers, condensers, and process heaters</li>
+                                <li>Chemical & Fertilizer Plants – Reactors, cooling towers, and evaporators</li>
+                                <li>Marine & Offshore – Cu-Ni and titanium tubes for seawater systems</li>
+                                <li>Food & Dairy Processing – Hygienic stainless-steel heat exchanger tubes</li>
+                                <li>HVAC & Refrigeration – Tubes for evaporators and condensers</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn">
+                            <h4>
+                                What are the advantages of using Boiler & Heat Exchanger Tubes?
+                            </h4>
+                        </div>
+                        <div class="accord-content">
+                            <ul>
+                                <li>High temperature and pressure resistance</li>
+                                <li>Superior corrosion and oxidation resistance</li>
+                                <li>Excellent heat transfer efficiency</li>
+                                <li>Precision manufacturing with tight tolerances</li>
+                                <li>Compliance with global quality standards (ASTM, ASME, EN, DIN)</li>
+                                <li>Custom material and dimensional options</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn">
+                            <h4>
+                                What finishes are available for Boiler & Heat Exchanger Tubes?
+                            </h4>
+                        </div>
+                        <div class="accord-content">
+                            <p>
+                                We offer multiple surface finishes including <b>Bright Annealed, Pickled & Passivated, Electro Polished, and Matte</b> finishes. These finishes enhance corrosion resistance and surface smoothness, ensuring efficient fluid flow and longevity in service.
+                            </p>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn">
+                            <h4>
+                                Why choose Moksh Tubes & Fittings LLP for Boiler & Heat Exchanger Tubes?
+                            </h4>
+                        </div>
+                        <div class="accord-content">
+                            <ul>
+                                <li>Extensive stock and wide grade availability</li>
+                                <li>Advanced cold drawing and seamless forming technology</li>
+                                <li>ISO 9001:2015 certified quality assurance system</li>
+                                <li>Global supply network and timely dispatch</li>
+                                <li>Customized solutions for industrial and project-based needs</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End faq content area-->
+<section class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="contact-cta-box">
+                <h2>Contact Us</h2>
+                <p>
+                    For further information, quotes, or customized boiler heat exhanger tubes products, <strong>Moksh Tubes & Fittings
+                        LLP</strong> your dependable partner in aluminum alloys.</p>
+               <!-- Call button -->
+                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                    data-bs-target="#contactFormModal">
+                    Get in Touch
+                </a>
+            </div>
+        </div>
+    </section>
+
+@endsection
+@section('jsscripts')
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are Boiler & Heat Exchanger Tubes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Boiler & Heat Exchanger Tubes are precision-engineered components used in thermal power plants, refineries, chemical industries, and other process applications to ensure efficient heat transfer. They are designed to perform under high temperature, pressure, and corrosive conditions, maintaining long-term operational reliability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What materials are used to manufacture Boiler & Heat Exchanger Tubes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "These tubes are manufactured from Stainless Steel, Duplex & Super Duplex Steel, Nickel Alloys (Inconel, Monel), Alloy Steel, Carbon Steel, Copper Alloys, and Titanium. The material choice depends on the operating temperature, pressure, and fluid medium of the application."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the available sizes and dimensions for Boiler & Heat Exchanger Tubes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Boiler & Heat Exchanger Tubes are available in outer diameters ranging from 6 mm to 219 mm and wall thicknesses from 0.5 mm to 12.7 mm. Lengths are offered up to 12 meters or customized as per project requirements. Both seamless and welded types (ERW, EFW, U-bent) are available."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What standards do these tubes comply with?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our Boiler & Heat Exchanger Tubes are produced as per international standards including ASTM A179, A192, A213, A249, A269, A333, ASME SA213, EN 10216, and DIN. All tubes undergo rigorous inspection and testing to meet mechanical and dimensional accuracy requirements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main applications of Boiler & Heat Exchanger Tubes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "These tubes are widely used in power generation (boilers, superheaters, reheaters, and economizers), oil, gas & petrochemical plants (heat exchangers, condensers, and process heaters), chemical & fertilizer industries (reactors and evaporators), marine & offshore systems (Cu-Ni and titanium tubes), food & dairy processing, and HVAC & refrigeration systems."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the advantages of using Boiler & Heat Exchanger Tubes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "They offer high temperature and pressure resistance, superior corrosion and oxidation resistance, excellent heat transfer efficiency, precision manufacturing with tight tolerances, compliance with global standards (ASTM, ASME, EN, DIN), and customized material options."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What finishes are available for Boiler & Heat Exchanger Tubes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We offer multiple surface finishes including Bright Annealed, Pickled & Passivated, Electro Polished, and Matte finishes. These finishes enhance corrosion resistance and surface smoothness, ensuring efficient fluid flow and long service life."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose Moksh Tubes & Fittings LLP for Boiler & Heat Exchanger Tubes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Moksh Tubes & Fittings LLP provides extensive stock availability, advanced cold drawing and forming technology, ISO 9001:2015 certified quality, a global supply network, and customized industrial solutions for boiler and heat exchanger applications."
+      }
+    }
+  ]
+}
+</script>
+@endverbatim
 @endsection

@@ -2549,7 +2549,7 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    For further information, quotes, or customized Aluminium 1100 products, <strong>Moksh Tubes & Fittings
+                    For further information, quotes, or customized welded-pipes products, <strong>Moksh Tubes & Fittings
                         LLP</strong> your dependable partner in aluminum alloys.</p>
                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"

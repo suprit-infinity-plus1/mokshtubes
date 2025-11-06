@@ -2247,6 +2247,186 @@
 
 
     <!--End breadcrumb area-->
+<!--Start faq content area-->
+<section class="faq-content-area sec-padd2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="accordion-box">
+                    <div class="section-title center">
+                        <h2>FAQ's</h2>
+                    </div>
 
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn">
+                            <h4>What are U-Bent Tubes used for?</h4>
+                        </div>
+                        <div class="accord-content">
+                            <p>
+                                U-Bent Tubes are used in heat exchangers, condensers, boilers, and other thermal systems 
+                                to facilitate fluid return flow in compact designs. Their U-shaped configuration allows 
+                                efficient heat transfer while reducing the need for extra fittings or space.
+                            </p>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
 
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn">
+                            <h4>What materials are available for U-Bent Tubes?</h4>
+                        </div>
+                        <div class="accord-content">
+                            <p>
+                                U-Bent Tubes are available in a wide range of materials including Stainless Steel, Carbon Steel, 
+                                Alloy Steel, Duplex & Super Duplex, and Nickel Alloys. Each material is selected based on the 
+                                required temperature, pressure, and corrosion resistance for the application.
+                            </p>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn">
+                            <h4>What are the key advantages of using U-Bent Tubes?</h4>
+                        </div>
+                        <div class="accord-content">
+                            <p>
+                                U-Bent Tubes offer multiple benefits such as compact design, high heat transfer efficiency, 
+                                and reduced pressure drop. They also provide exceptional corrosion resistance, dimensional precision, 
+                                and can handle high pressure and temperature conditions efficiently.
+                            </p>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn">
+                            <h4>Which industries commonly use U-Bent Tubes?</h4>
+                        </div>
+                        <div class="accord-content">
+                            <p>
+                                U-Bent Tubes are used in power generation, petrochemical, fertilizer, chemical, 
+                                desalination, and HVAC industries. They play a key role in heat exchangers, condensers, 
+                                boilers, and economizers for efficient energy recovery.
+                            </p>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn">
+                            <h4>What testing and inspection standards are followed?</h4>
+                        </div>
+                        <div class="accord-content">
+                            <p>
+                                All U-Bent Tubes supplied by <b>Moksh Tubes & Fittings LLP</b> undergo rigorous quality checks, 
+                                including Non-Destructive Testing (NDT), Eddy Current, Hydrostatic, and PMI tests. 
+                                Third-party inspection and ISO 9001:2015 compliance ensure superior quality and reliability.
+                            </p>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn">
+                            <h4>Can U-Bent Tubes be customized for specific designs?</h4>
+                        </div>
+                        <div class="accord-content">
+                            <p>
+                                Yes, U-Bent Tubes can be custom-fabricated in various diameters, lengths (up to 12 meters), 
+                                and bend radii as per customer drawings. CNC-controlled bending ensures minimal ovality, 
+                                thinning, and perfect dimensional precision.
+                            </p>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End faq content area-->
+<section class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="contact-cta-box">
+                <h2>Contact Us</h2>
+                <p>
+                    For further information, quotes, or customized u-bent-tube products, <strong>Moksh Tubes & Fittings
+                        LLP</strong> your dependable partner in aluminum alloys.</p>
+               <!-- Call button -->
+                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                    data-bs-target="#contactFormModal">
+                    Get in Touch
+                </a>
+            </div>
+        </div>
+    </section>
+
+@endsection
+@section('jsscripts')
+<script type="application/ld+json">
+    @verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are U-Bent Tubes used for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "U-Bent Tubes are used in heat exchangers, condensers, boilers, and other thermal systems to facilitate fluid return flow in compact designs. Their U-shaped configuration allows efficient heat transfer while reducing the need for extra fittings or space."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What materials are available for U-Bent Tubes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "U-Bent Tubes are available in Stainless Steel, Carbon Steel, Alloy Steel, Duplex & Super Duplex, and Nickel Alloys. Each material is chosen based on the required temperature, pressure, and corrosion resistance for the application."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the key advantages of using U-Bent Tubes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "U-Bent Tubes offer multiple benefits such as compact design, high heat transfer efficiency, and reduced pressure drop. They provide exceptional corrosion resistance, dimensional precision, and can handle high pressure and temperature conditions efficiently."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which industries commonly use U-Bent Tubes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "U-Bent Tubes are used in power generation, petrochemical, fertilizer, chemical, desalination, and HVAC industries. They are essential in heat exchangers, condensers, boilers, and economizers for efficient energy recovery."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What testing and inspection standards are followed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "All U-Bent Tubes supplied by Moksh Tubes & Fittings LLP undergo Non-Destructive Testing (NDT), Eddy Current, Hydrostatic, and PMI tests. They are third-party inspected and comply with ISO 9001:2015 standards for quality assurance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can U-Bent Tubes be customized for specific designs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, U-Bent Tubes can be custom-fabricated in various diameters, lengths, and bend radii as per customer drawings. CNC-controlled bending ensures minimal ovality, thinning, and precise dimensional accuracy."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
 @endsection
