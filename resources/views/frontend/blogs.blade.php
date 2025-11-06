@@ -147,7 +147,7 @@
                     <div class="default-blog-news wow fadeInUp animated animated"
                         style="visibility: visible; animation-name: fadeInUp;">
                         <figure class="img-holder mb-0">
-                            <a href="#"><img src="{{ asset('assets/images/blog/Untitled (9).png') }}"
+                            <a href="#"><img src="{{ asset('assets/images/blog/Untitled.webp') }}"
                                     alt="News"></a>
                             <figcaption class="overlay">
                                 <div class="box">

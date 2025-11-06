@@ -12,9 +12,10 @@
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1>
-                        15-5 PH Stainless Steel <br>
-                        <span style="font-weight: 400; font-size: 0.9em;">Corrosion-Resistant Precipitation Hardening Stainless Steel</span>
-                        </h1>
+                    15-5 PH Stainless Steel<br> 
+                    <span style="font-weight: 400; font-size: 0.9em;">Corrosion-Resistant Alloy</span>
+                    </h1>
+
 
                 </div>
             </div>
@@ -672,8 +673,8 @@
 
 @endsection
 @section('jsscripts')
-@verbatim
 <script type="application/ld+json">
+    @verbatim
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -720,6 +721,6 @@
     }
   ]
 }
-</script>
 @endverbatim
+</script>
 @endsection

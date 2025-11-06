@@ -959,3 +959,55 @@
 
 
 @endsection
+@section('jsscripts')
+<script type="application/ld+json">
+@verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is an M.S. Square Bar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An M.S. (Mild Steel) Square Bar is a solid steel bar with a square-shaped cross section. It is made from mild steel, known for its strength, flexibility, and cost-effectiveness. These bars are widely used in construction, fabrication, railings, industrial frameworks, and general engineering applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is a steel square bar designed edge to edge?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A steel square bar is designed with equal dimensions on all four sides, giving it a uniform 'edge to edge' square shape. This consistent design makes it easy to cut, weld, drill, and use in structural or decorative applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the advantages of using M.S. Square Bars?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "M.S. Square Bars offer several advantages including: strong and durable performance, easy cutting, bending, and welding, cost-effectiveness compared to other metals, wide availability in different sizes, and versatility for construction, manufacturing, and DIY projects."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where are M.S. Square Bars commonly used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "M.S. Square Bars are commonly used in building construction, industrial machinery and tools, metal gates and railings, furniture frames, and structural frameworks."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can M.S. Square Bars be customized?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, M.S. Square Bars can be cut, machined, or fabricated into custom sizes and shapes depending on specific project requirements."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
+@endsection

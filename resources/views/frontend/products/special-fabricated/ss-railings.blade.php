@@ -701,6 +701,7 @@
                                 </p>
                             </div>
                         </div>
+                        <!-- End of faq section -->
                         <!--End single accordion box-->
 
                         {{-- why choose us --}}
@@ -781,3 +782,55 @@
 
 
                     @endsection
+@section('jsscripts')
+<script type="application/ld+json">
+    @verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What grade of stainless steel is best for railing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For indoor use, SS 304 is commonly used due to its durability and cost-effectiveness. For outdoor, coastal, or marine environments, SS 316 (marine grade) is recommended because of its superior corrosion resistance (SS railing with glass balcony, SS staircase railing glass)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are stainless steel railings suitable for outdoor use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, SS railings are ideal for outdoor use. Grades like 316, 316L, Duplex, and Super Duplex ensure long-lasting performance even in harsh, humid, or coastal environments (SS glass balcony railing, SS roof railing design)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can stainless steel railings be customized?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. Moksh Tubes & Fittings LLP provides fully customizable railing solutions — from dimensions and finishes to modular or bespoke designs — to meet architectural and interior requirements (SS railing manufacturers in Rajkot, Pune, Ahmedabad, Delhi NCR)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What finishes are available for SS railing products?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SS railings are available in Matte, Mirror, Satin, Brushed, and Powder-Coated finishes. High-end projects can also opt for premium grades like 904L or SMO 254 with decorative finishes (golden SS railing, HPL SS railing)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do stainless steel railings require maintenance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Very minimal. Unlike wood or mild steel, SS railings only need occasional cleaning with mild soap and water to maintain their shine and durability (SS hand railing rate, SS railing cost in Hyderabad)."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
+@endsection

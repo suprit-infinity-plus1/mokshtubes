@@ -663,7 +663,9 @@
 
 @endsection
 <!-- FAQ Schema Markup -->
+ @section('jsscripts')
 <script type="application/ld+json">
+    @verbatim
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -710,4 +712,6 @@
     }
   ]
 }
+@endverbatim
 </script>
+@endsection

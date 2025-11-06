@@ -30,7 +30,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/haynes /haynes-230.webp') }}" alt="Haynes-230"
+                    <img src="{{ asset('assets/images/haynes/haynes-230.webp') }}" alt="Haynes-230"
                         class="img-fluid rounded shadow-sm">
                 </div>
 
@@ -678,8 +678,8 @@
 
 @endsection
 @section('jsscripts')
-@verbatim
 <script type="application/ld+json">
+    @verbatim
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -726,6 +726,6 @@
     }
   ]
 }
-</script>
 @endverbatim
+</script>
 @endsection

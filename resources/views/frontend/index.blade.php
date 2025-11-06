@@ -14,7 +14,7 @@
         <div id="slider1" class="rev_slider" data-version="5.0">
             <ul>
                 <li data-transition="slidingoverlayleft">
-                    <img src="{{ asset('assets/images/slides/Mokshtubes-banner-desktop.png') }}"
+                    <img src="{{ asset('assets/images/slides/Mokshtubes-banner-desktop.webp') }}"
                         alt="Stainless Steel Welded Pipes ERW EFW ASTM A312" width="1920" height="880"
                         data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1">
 
@@ -60,7 +60,7 @@
 
 
                 <li data-transition="slidingoverlayleft">
-                    <img src="{{ asset('assets/images/slides/carpenteria-interno.jpg') }}" alt="banner image" width="1920"
+                    <img src="{{ asset('assets/images/slides/carpenteria-interno.webp') }}" alt="banner image" width="1920"
                         height="880" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat"
                         data-bgparallax="1">
 
@@ -747,7 +747,7 @@
                     <div class="default-blog-news wow fadeInUp animated animated"
                         style="visibility: visible; animation-name: fadeInUp;">
                         <figure class="img-holder mb-0">
-                            <a href="#"><img src="{{ asset('assets/images/blog/Untitled (9).png') }}"
+                            <a href="#"><img src="{{ asset('assets/images/blog/Untitled.webp') }}"
                                     alt="News"></a>
                             <figcaption class="overlay">
                                 <div class="box">

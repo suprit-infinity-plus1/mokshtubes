@@ -2237,5 +2237,202 @@
 
     <!--End breadcrumb area-->
 
+    <!--Start faq content area-->
+<section class="faq-content-area sec-padd2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="accordion-box">
+                    <div class="section-title center">
+                        <h2>FAQ's</h2>
+                    </div>
 
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn active"><h4>What are seamless pipes?</h4></div>
+                        <div class="accord-content collapsed">
+                            <p>Seamless pipes are manufactured without any welding or joints, giving them uniform strength, superior mechanical integrity, and the ability to withstand high pressure, temperature, and corrosion. This makes them ideal for critical industrial applications.</p>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn"><h4>What are the advantages of seamless pipes over welded pipes?</h4></div>
+                        <div class="accord-content">
+                            <p>Seamless pipes have no welded seams, eliminating weak points and ensuring higher durability and pressure resistance. They provide better dimensional accuracy, improved flow efficiency, and excellent performance in extreme conditions compared to welded alternatives.</p>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn"><h4>Which industries commonly use seamless pipes?</h4></div>
+                        <div class="accord-content">
+                            <p>Seamless pipes are used across multiple industries such as Oil & Gas, Power Generation, Petrochemical, Construction, Automotive, Food & Beverage, Marine, and HVAC systems — wherever high performance and safety are required.</p>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn"><h4>What materials are available for seamless pipes?</h4></div>
+                        <div class="accord-content">
+                            <p>Seamless pipes are available in a wide range of materials including Stainless Steel, Duplex & Super Duplex, Nickel Alloys, Inconel, Monel, Titanium, Carbon Steel, Alloy Steel, Copper Alloys, Aluminium Alloys, and more — all supplied as per ASTM and ASME standards.</p>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn"><h4>What sizes and dimensions can seamless pipes be manufactured in?</h4></div>
+                        <div class="accord-content">
+                            <p>Moksh Tubes & Fittings LLP provides seamless pipes with outer diameters ranging from 3 mm to 610 mm (¼” to 24” NB) and in various wall thicknesses and schedules. Custom lengths and finishes are available as per project specifications.</p>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn"><h4>What are the finishing options available for seamless pipes?</h4></div>
+                        <div class="accord-content">
+                            <p>Finishing options include Mill Finish, Electro Polished, Mechanical Polished, Matt Finish, and Pickled & Passivated — ensuring precise surface quality for different industrial needs and applications.</p>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn"><h4>How are seamless pipes tested for quality assurance?</h4></div>
+                        <div class="accord-content">
+                            <p>All seamless pipes undergo strict testing including Hydrostatic, Eddy Current, PMI, and NDT inspections. Each pipe complies with ISO 9001:2015, ASTM, ASME, and API standards, ensuring reliable quality and performance.</p>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn"><h4>Can seamless pipes be customized?</h4></div>
+                        <div class="accord-content">
+                            <p>Yes, seamless pipes can be custom-made in various diameters, wall thicknesses, lengths, and finishes as per customer specifications. Moksh Tubes & Fittings LLP specializes in precision-engineered and project-specific solutions.</p>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn"><h4>Why choose Moksh Tubes & Fittings LLP for seamless pipes?</h4></div>
+                        <div class="accord-content">
+                            <p>We maintain ready stock of over 200 tons, offer certified quality, practical pricing, on-time delivery, and global reach. Our expert team ensures technical guidance and sourcing of even rare sizes and grades as per your requirements.</p>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End faq content area-->
+ <section class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="contact-cta-box">
+                <h2>Contact Us</h2>
+                <p>
+                    For further information, quotes, or customized welded-pipes products, <strong>Moksh Tubes & Fittings
+                        LLP</strong> your dependable partner in aluminum alloys.</p>
+               <!-- Call button -->
+                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                    data-bs-target="#contactFormModal">
+                    Get in Touch
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+@endsection
+@section('jsscripts')
+<script type="application/ld+json">
+    @verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are seamless pipes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Seamless pipes are manufactured without any welding or joints, offering uniform strength and high resistance to pressure, temperature, and corrosion. They are used in industries that demand high reliability and structural integrity."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the advantages of seamless pipes over welded pipes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Seamless pipes eliminate the weak points found in welded seams, ensuring superior pressure resistance, better dimensional accuracy, and enhanced flow efficiency. They perform exceptionally well in high-temperature and high-pressure environments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which industries commonly use seamless pipes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Seamless pipes are used in Oil & Gas, Power Generation, Petrochemical, Construction, Automotive, Marine, and HVAC industries, where strength, corrosion resistance, and performance are critical."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What materials are available for seamless pipes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Seamless pipes are available in Stainless Steel, Duplex & Super Duplex, Nickel Alloys, Inconel, Monel, Titanium, Carbon Steel, Alloy Steel, Copper Alloys, Aluminium Alloys, and other special materials compliant with ASTM and ASME standards."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What sizes and dimensions can seamless pipes be manufactured in?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Seamless pipes can be produced with diameters from 3 mm to 610 mm (¼” to 24” NB) and customized wall thicknesses. Moksh Tubes & Fittings LLP provides options in multiple schedules, lengths, and finishes to match project needs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the finishing options available for seamless pipes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Seamless pipes can be supplied in Mill Finish, Electro Polished, Mechanical Polished, Matt Finish, or Pickled & Passivated finishes, ensuring superior surface quality for specific industrial applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How are seamless pipes tested for quality assurance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Every seamless pipe undergoes Hydrostatic, Eddy Current, PMI, and NDT testing. All products meet ISO 9001:2015, ASTM, ASME, and API standards to ensure consistent quality and performance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can seamless pipes be customized?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, seamless pipes can be custom-fabricated in various diameters, wall thicknesses, and finishes according to customer requirements. Moksh Tubes & Fittings LLP specializes in precision-engineered, project-specific solutions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose Moksh Tubes & Fittings LLP for seamless pipes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Moksh Tubes & Fittings LLP offers certified quality, competitive pricing, ready stock, global delivery, and expert technical support — ensuring reliability and efficiency for every industrial requirement."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
 @endsection

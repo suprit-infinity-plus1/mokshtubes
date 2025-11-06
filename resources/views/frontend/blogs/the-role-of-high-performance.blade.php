@@ -25,7 +25,7 @@
                     <div class="blog-post">
                         <div class="single-blog-post">
                             <div class="img-holder">
-                                <img src="{{ asset('assets/images/blog/Untitled (9).png') }}"
+                                <img src="{{ asset('assets/images/blog/Untitled.webp') }}"
                                     alt="the-role-of-high-performance">
                             </div>
                             <div class="text-holder">
