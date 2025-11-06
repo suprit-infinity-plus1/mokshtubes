@@ -229,7 +229,9 @@
         </div>
     </section>
 
-    <!-- ✅ Schema Markup for SEO -->
+
+@endsection
+@section('extrajs')
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -247,8 +249,5 @@
         }
     }
     </script>
-@endsection
-
-@section('extrajs')
 
 @endsection
