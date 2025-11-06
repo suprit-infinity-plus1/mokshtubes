@@ -3,7 +3,7 @@
 @section('title', 'Super Duplex Steel S32760 | Ultra Corrosion Resistance')
 
 @section('meta_description',
-    'Super Duplex Stainless Steel S32760 from Moksh Tubes — corrosion-resistant, high-strength pipes, tubes & fittings for demanding industrial environments.')
+    'Super Duplex Stainless Steel S32760 — high-strength, corrosion-resistant alloy from Moksh Tubes for pipes, tubes, and fittings in harsh industries.')
 
 @section('meta_keywords',
     'Super Duplex Stainless Steel S32760, S32760 pipes, S32760 tubes, S32760 fittings, corrosion-resistant stainless steel, high strength super duplex steel, Mokshtubes LLP, chemical processing steel, marine engineering steel, oil and gas stainless steel, desalination plant steel, stainless steel plates, stainless steel flanges')
