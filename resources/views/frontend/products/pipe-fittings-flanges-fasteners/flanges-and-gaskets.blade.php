@@ -1120,3 +1120,55 @@
 
 
 @endsection
+@section('jsscripts')
+<script type="application/ld+json">
+@verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a gasket?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A gasket is a mechanical sealing component placed between two surfaces to prevent leakage of fluids or gases. Industrial gaskets are widely used in pipelines, heat exchangers, valves, and flanges to ensure a secure seal under high pressure and temperature."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which gasket material is best?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The best gasket material depends on the application. Rubber gaskets work well for low-temperature sealing, PTFE gaskets are ideal for chemical resistance, while metal gaskets like spiral wound or ring-type joints are best for high-pressure, high-temperature environments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the different types of gaskets?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common types of gaskets include Spiral Wound Gaskets, Ring Type Joint (RTJ) Gaskets, Graphite Gaskets, PTFE Gaskets, Rubber Gaskets, and Non-Asbestos Gaskets."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I choose the right gasket for my project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To select the right industrial gasket, consider factors like pressure, temperature, fluid type, and flange design. Consulting with experts like Mokshtubes Fittings LLP ensures you get the correct gasket material for long-term performance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What industries use gaskets?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gaskets are essential in industries such as oil & gas, petrochemicals, power generation, marine, pharmaceuticals, and food processing, where reliable sealing is critical to safety and efficiency."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
+@endsection

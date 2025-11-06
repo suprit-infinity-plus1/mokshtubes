@@ -230,7 +230,11 @@
     </section>
 
     <!-- ✅ Schema Markup for SEO -->
-    <script type="application/ld+json">
+
+@endsection
+
+@section('extrajs')
+<script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Organization",
@@ -247,8 +251,5 @@
         }
     }
     </script>
-@endsection
-
-@section('extrajs')
 
 @endsection

@@ -1098,3 +1098,55 @@
 
 
 @endsection
+@section('jsscripts')
+<script type="application/ld+json">
+@verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a hollow bar and where is it used?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A hollow bar is a metal bar with a hollow center, reducing weight while maintaining strength. It is widely used in construction, automotive, aerospace, marine, and mechanical projects."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What materials are available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Available materials include stainless steel, mild steel (MS), 4140, aluminium hollow square bars, bronze, and nickel hollow bars."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What sizes can I get?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sizes range from 10 mm hollow bar to 2 inch × 2 inch hollow square bar, with wall thickness and custom diameters available on request."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I get hollow bars in Dhaka or Albany?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, delivery is available for Hollow Square Bars in Dhaka, Hollow Bar Albany, and worldwide."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What types do you supply?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We supply hollow steel bar, extruded hollow bar, oil-filled hollow bar, MS hollow bar, and aluminium hollow square bar. All products meet ASTM, ASME, DIN, and EN standards."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
+@endsection
