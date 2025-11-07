@@ -14,7 +14,7 @@
     <meta name="keywords" content="@yield('meta_keywords', 'mokshtubes')">
 
     {{-- Canonical Tag --}}
-     href="@yield('canonical', url()->current())"><link rel="canonical"
+    <link rel="canonical" href="@yield('canonical', url()->current())">
 
     {{--<meta name="title" content="@yield('meta_title')">
     <meta name="description" content="@yield('meta_description')">
