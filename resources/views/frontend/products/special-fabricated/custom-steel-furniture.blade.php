@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('title', 'Custom Steel Furniture – Modern, Durable & Stylish') <!-- 52 characters -->
 @section('meta_description',
-    'Moksh Tubes offers premium custom steel furniture – rust-resistant, durable, and stylish, perfect for homes, offices, hospitality, and industrial applications.') <!-- 152 characters -->
+    'Premium custom steel furniture from Moksh Tubes — rust-resistant, durable, and stylish for homes, offices, hospitality, and industrial use.') <!-- 152 characters -->
 @section('meta_keywords', 'Custom Steel Furniture, Steel Furniture Manufacturers, Stainless Steel Furniture, Durable Steel Furniture, Modern Steel Furniture Designs, Industrial Steel Furniture, Custom Steel Tables, Chairs, Racks, Cabinets, Steel Furniture for Home & Office')
 @section('content')
     <!--Start breadcrumb area-->

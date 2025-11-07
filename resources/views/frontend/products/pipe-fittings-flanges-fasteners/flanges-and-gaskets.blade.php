@@ -1,8 +1,7 @@
 @extends('layouts.master')
 @section('title', 'Flange Gaskets – High-Temperature & Chemical Resistant') <!-- 53 characters -->
 @section('meta_description',
-    'Moksh Tubes provides premium flange gaskets – spiral wound, RTJ, rubber & non-metallic
-    gaskets for industrial sealing and high-temperature applications.') <!-- 153 characters -->
+    'Premium flange gaskets from Moksh Tubes — spiral wound, RTJ, rubber, and non-metallic types for reliable industrial and high-temperature sealing.') <!-- 153 characters -->
 @section('meta_keywords',
     'Flange Gaskets, Industrial Gaskets, Spiral Wound Gaskets, RTJ Gaskets, Rubber Gaskets,
     Chemical Resistant Gaskets, Non-Metallic Gaskets, Sealing Solutions')

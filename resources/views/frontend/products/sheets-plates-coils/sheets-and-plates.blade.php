@@ -1,8 +1,7 @@
 @extends('layouts.master')
 @section('title', 'Industrial Sheets & Plates – Premium Metal Solutions') <!-- 52 characters -->
 @section('meta_description',
-    'High-quality stainless, carbon, and alloy steel sheets & plates – durable, reliable, and
-    ideal for manufacturing, construction, and industrial applications.') <!-- 153 characters -->
+    'High-quality stainless, carbon, and alloy steel sheets and plates — durable, reliable, and ideal for manufacturing, construction, and industry.') <!-- 153 characters -->
 @section('meta_keywords',
     'Industrial Sheets & Plates, Stainless Steel Sheets & Plates, Carbon Steel Sheets & Plates,
     Alloy Steel Sheets & Plates, Custom Metal Sheets & Plates, High-Quality Industrial Sheets & Plates')

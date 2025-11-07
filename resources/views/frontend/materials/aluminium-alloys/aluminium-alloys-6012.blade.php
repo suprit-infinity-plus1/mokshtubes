@@ -2,7 +2,7 @@
 
 @section('title', 'Aluminium Alloy 6012 | Heat Treatable Aluminium')
 
-@section('meta_description', 'Aluminium 6012 – heat treatable alloy offering good corrosion resistance and high strength, ideal for automotive and structural applications.')
+@section('meta_description', 'Aluminium 6012 — heat-treatable alloy with high strength and corrosion resistance, ideal for automotive, machining, and structural applications.')
 
 @section('meta_keywords', 'Aluminium Alloy 6012, Heat Treatable Aluminium, Aluminium 6012 Pipes, Aluminium 6012 Tubes, Aluminium 6012 Sheets, Corrosion Resistant Aluminium, High Strength Aluminium, Automotive Aluminium Alloys, Structural Aluminium Alloys, Industrial Aluminium Grades')
 
