@@ -71,7 +71,7 @@
 
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/slides/Mokshtubes-banner-desktop.png);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/slides/Mokshtubes-banner-desktop.webp);">
         <div class="container text-center">
             <h1>Contact Us</h1>
         </div>
@@ -229,8 +229,10 @@
         </div>
     </section>
 
+    <!-- ✅ Schema Markup for SEO -->
 
 @endsection
+
 @section('extrajs')
     <script type="application/ld+json">
     {

@@ -1,8 +1,7 @@
 @extends('layouts.master')
 
-@section('title', 'EN24 Steel | Properties & Applications | Moksh Tubes')
-@section('meta_description', 'EN24 alloy steel mechanical and chemical properties. Supplier of EN24 round bar and forged
-    components – Moksh Tubes.')
+@section('title', 'EN24 Alloy Steel – High Strength & Fatigue Resistant (57 chars)')
+@section('meta_description', 'EN24 Alloy Steel (817M40/AISI 4340) – chemical composition, mechanical properties, and heavy-duty applications. Get round bars, forged & custom EN24 products from Moksh Tubes.')
 @section('meta_keywords', 'EN24 Alloy Steel, high strength alloy steel, fatigue resistant steel, tough alloy steel,
     heavy-duty steel, industrial alloy steel')
 
@@ -13,7 +12,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Premium EN24 Alloy Steel for Heavy Duty Use</h1>
+                    <h1>Premium EN24 Alloy Steel for Heavy Duty Application</h1>
                 </div>
             </div>
         </div>
@@ -34,8 +33,9 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/engineering-steels/engineering-steels-en24.webp') }}" alt="EN24"
-                        class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/engineering-steels/engineering-steels-en24.webp') }}" alt="EN24 Alloy Steel Round Bars and Forged Components – Moksh Tubes"
+                        class="img-fluid rounded shadow-sm"
+                        loading="lazy">
                 </div>
 
                 <!-- Content Right -->
@@ -60,6 +60,14 @@
                             critical mechanical components. It is widely used in the automotive, aerospace, defense, and
                             general engineering industries.
                         </p>
+                        <p class="fw-semibold mt-3"><strong class="text-black">EN24 Alloy Steel Features:</strong class="text-black"></p>
+                        <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i>High tensile strength and fatigue resistance</li>
+                        <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i>Excellent wear resistance and toughness</li>
+                        <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i>Responds well to heat treatment</li>
+                        <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i>Suitable for shafts, gears, bolts, automotive and aerospace components</li>
+                        </ul>
+
                     </div>
                 </div>
             </div>
@@ -69,7 +77,7 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>Chemical Composition of EN24 Steel</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -127,13 +135,13 @@
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color: #174268;">Technical Composition of EN24 Alloy Steel</h2>
             </div>
 
             <!-- Physical Properties Table -->
             <div class="row justify-content-center mb-5">
                 <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
+                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties of EN24 Steel</h4>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -188,7 +196,7 @@
             <!-- Mechanical Properties Table -->
             <div class="row justify-content-center">
                 <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties of EN24 Steel</h4>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -369,7 +377,7 @@
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
-                <h2>Uses and Advantages</h2>
+                <h2>Uses and Advantages of EN24 Steel</h2>
             </div>
 
             <div class="row g-4 mt-4 justify-content-center">
@@ -531,7 +539,7 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="accordion-box">
                         <div class="section-title center">
-                            <h2>FAQ's</h2>
+                            <h2>EN24 Steel FAQ's</h2>
                         </div>
 
                         <!-- Q1 -->
@@ -660,8 +668,8 @@
 
 @endsection
 @section('jsscripts')
-    @verbatim
-        <script type="application/ld+json">
+<script type="application/ld+json">
+            @verbatim
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -708,6 +716,6 @@
     }
   ]
 }
+@endverbatim
 </script>
-    @endverbatim
 @endsection

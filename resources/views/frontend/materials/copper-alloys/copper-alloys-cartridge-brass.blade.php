@@ -646,7 +646,6 @@
 
 @endsection
 @section('jsscripts')
-@section('jsscripts')
 @verbatim
 <script type="application/ld+json">
 {
@@ -695,6 +694,6 @@
     }
   ]
 }
-</script>
 @endverbatim
+</script>
 @endsection

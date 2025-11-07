@@ -863,3 +863,55 @@
 
 
 @endsection
+@section('jsscripts')
+<script type="application/ld+json">
+    @verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are glass railings safe for balconies and staircases?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. When installed with toughened or laminated glass and secured with strong stainless steel hardware, glass railings are completely safe for residential and commercial use."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What thickness of glass is recommended for railings?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The standard thickness is 8 mm to 12 mm toughened glass. For higher safety and strength, laminated glass (10 mm + 10 mm) is used in heavy-duty applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do glass railings require a lot of maintenance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Glass railings are easy to maintain—just regular cleaning with mild soap and water keeps them clear and shiny. Stainless steel or aluminium hardware also requires minimal upkeep."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can glass railings withstand outdoor weather?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Toughened glass and 304/316 stainless steel hardware are corrosion-resistant and designed to handle rain, sun, and humidity without losing strength or appearance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the average lifespan of glass railings?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "With proper installation and minimal maintenance, glass railings can last 15–20 years or more without any issues."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
+@endsection

@@ -1833,3 +1833,55 @@
 
 
 @endsection
+@section('jsscripts')
+<script type="application/ld+json">
+@verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a flange?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A flange is a mechanical component used to connect pipes, valves, pumps, and other equipment in a piping system. It ensures a secure joint and allows for easy assembly, inspection, and maintenance of pipelines."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is PCD in flange?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "PCD (Pitch Circle Diameter) in a flange is the diameter of the circle formed by the centers of the bolt holes. Correct PCD measurement is essential for proper alignment of flange joints."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How to measure flange size?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To measure a flange size, note the Outer Diameter (OD), Bolt Circle Diameter (PCD), number of bolt holes, and flange thickness. Accurate measurement ensures the pipe flange fits perfectly in your system."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a flange coupling?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A flange coupling is a type of mechanical connection used to join two shafts or pipes with flanges, bolts, and gaskets. It provides a robust, leak-proof connection in industrial and piping applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What materials are flanges made of?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Flanges are available in Stainless Steel (304, 316, 310), Carbon Steel (A105, A350 LF2), Alloy Steel (F11, F22), Duplex & Super Duplex, Nickel Alloys (Inconel, Monel), Titanium, and Copper Alloys (Cu-Ni, Brass, Bronze)."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
+@endsection

@@ -1057,3 +1057,55 @@
 
 
 @endsection
+@section('jsscripts')
+<script type="application/ld+json">
+@verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the standard flat bar size?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Standard flat bar sizes vary by thickness and width. Common sizes range from 3mm to 50mm thickness and 12mm to 300mm width. Custom sizes are also available on request."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How to calculate MS flat bar weight?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The weight of a mild steel (MS) flat bar can be calculated using the formula: Weight (kg) = Length (m) × Width (m) × Thickness (m) × 7850, where 7850 kg/m³ is the density of mild steel. A weight chart or an on-site calculator can make this easier."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What materials are available for flat bars?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Flat bars are available in steel (stainless steel), mild steel (MS), alloy steel, aluminium, copper, brass, nickel alloys, and titanium. Grades comply with standards such as ASTM, ASME, DIN, EN, and JIS."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can flat bars be custom cut?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Flat bars can be custom cut to specific lengths, widths, or thicknesses according to project requirements. This is ideal for machining, fabrication, or structural applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What finishes are available for stainless steel flat bars?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stainless steel flat bars come in bright, polished, mill finish, peeled & ground, shot blasted, pickled & passivated finishes to provide suitable surface quality for decorative and industrial uses."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
+@endsection

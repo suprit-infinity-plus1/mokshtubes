@@ -18,8 +18,10 @@
                 <div class="col-auto text-center">
                     <h1>
                         Duplex Stainless Steel 2507 (S32750) <br>
-                        <span style="font-weight: 400; font-size: 0.9em;">Ultra High Corrosion-Resistant Alloy</span>
+                        <span style="font-weight: 400; font-size: 0.9em;">High Corrosion-Resistant Alloy</span>
                     </h1>
+                    
+
 
                 </div>
             </div>
@@ -515,8 +517,8 @@
 
 @endsection
 @section('jsscripts')
-@verbatim
 <script type="application/ld+json">
+    @verbatim
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -555,6 +557,6 @@
     }
   ]
 }
-</script>
 @endverbatim
+</script>
 @endsection

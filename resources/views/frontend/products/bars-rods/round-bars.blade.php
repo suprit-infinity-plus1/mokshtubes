@@ -1924,3 +1924,55 @@
 
 
 @endsection
+@section('jsscripts')
+<script type="application/ld+json">
+@verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How to calculate the weight of a round bar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The weight of a round bar can be calculated using the formula: Weight (kg) = (π × D² / 4) × L × ρ. Where D is the diameter in meters, L is the length in meters, and ρ is the material density (e.g., 7850 kg/m³ for steel). A round bar weight chart can also be used for quick reference."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What materials are available for round bars?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Round bars are available in stainless steel (SS), mild steel (MS), carbon steel, alloy steel, duplex and super duplex, nickel alloys, titanium, aluminium, brass, and copper."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What grades of round bars can I get?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We offer ASTM, ASME, DIN, EN, and JIS certified grades across all major alloys to ensure compliance with international standards."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where are your round bars supplied?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mokshtubes supplies round bars in Mumbai, India, and exports to countries including Sweden, Norway, Nigeria, UAE, USA, Singapore, Maldives, Saudi Arabia, Germany, UK, Canada, Jordan, Peru, Australia, Thailand, Russia, France, Belgium, Bulgaria, Taiwan, Italy, and the Netherlands."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose Mokshtubes for round bars?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mokshtubes offers high precision, a wide variety of materials and grades, multiple finishes, custom cutting, competitive prices, and durable bars that comply with ASTM, ASME, DIN, and EN standards."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
+@endsection

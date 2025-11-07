@@ -680,8 +680,8 @@
 
 @endsection
 @section('jsscripts')
-@verbatim
 <script type="application/ld+json">
+    @verbatim
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -728,6 +728,6 @@
     }
   ]
 }
-</script>
 @endverbatim
+</script>
 @endsection
