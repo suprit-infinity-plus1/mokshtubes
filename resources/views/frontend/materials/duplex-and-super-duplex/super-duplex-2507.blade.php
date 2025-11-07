@@ -17,10 +17,10 @@
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1>
-                        Duplex Stainless Steel 2507 (S32750) <br>
-                        <span style="font-weight: 400; font-size: 0.9em;">High Corrosion-Resistant Alloy</span>
-                    </h1>
-                    
+    Duplex 2507 Stainless Steel<br>
+    <span style="font-weight:400; font-size:0.9em;">Strong & Corrosion Resistant</span>
+</h1>
+
 
 
                 </div>

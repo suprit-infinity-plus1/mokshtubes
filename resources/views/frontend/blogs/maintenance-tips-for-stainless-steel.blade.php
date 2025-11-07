@@ -18,7 +18,7 @@
     <section class="breadcrumb-area"
         style="background-image: url(/assets/images/blog/Maintenance-Tips-for-Stainless-Steel_11zon.jpg);">
         <div class="container text-center">
-            <h1>Maintenance Tips for Stainless Steel Tubes to Prevent Rust</h1>
+            <h1>How to Maintain Stainless Steel Tubes and Prevent Rust</h1>
         </div>
     </section>
     <!--End breadcrumb area-->

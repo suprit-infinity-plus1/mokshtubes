@@ -19,7 +19,7 @@
     <section class="breadcrumb-area"
         style="background-image: url(/assets/images/blog/Stainless-Steel-Tubes-Applications-Benefits-Cost-Guide.webp);">
         <div class="container text-center">
-            <h1>Stainless Steel Tubes: Applications, Benefits & Cost Guide</h1>
+            <h1>Complete Guide to Stainless Steel Tubes</h1>
         </div>
     </section>
     <!--End breadcrumb area-->
