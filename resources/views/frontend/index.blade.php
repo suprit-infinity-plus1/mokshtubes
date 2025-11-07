@@ -25,7 +25,7 @@
                         data-mask_in="x:[100%];y:0;s:inherit;e:inherit;" data-splitin="none" data-splitout="none"
                         data-responsive_offset="on" data-start="700">
                         <div class="slide-content-box">
-                            <h1>Stainless Steel & Nickel Alloy Pipes <br> Moksh Tubes LLP</h1>
+                            <h1>Stainless Steel & Nickel Alloy Pipes <br> <span>Moksh Tubes LLP</span></h1>
 
                             <p>Seamless & Welded Pipes/Tubes in SS 304/316/321/904L, <br>Inconel & Hastelloy with MTC (EN
                                 10204 3.1), PMI & Hydro Test ready stock<br>

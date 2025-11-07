@@ -719,17 +719,69 @@
 
 
     <!-- <div class="call-out2">
-                                                                                                    <div class="container">
-                                                                                                        <div class="clearfix">
-                                                                                                            <div class="float_left">
-                                                                                                                <h4>Have any question or need any business consultation?</h4>
-                                                                                                            </div>
-                                                                                                            <div class="float_right">
-                                                                                                                <a href="contact.html" class="thm-btn bg-clr2">Request Quote</a>
-                                                                                                            </div>
-                                                                                                        </div>
+     <div class="container">
+ <div class="clearfix">
+<div class="float_left">
+     <h4>Have any question or need any business consultation?</h4>
+</div>
+<div class="float_right">
+<a href="contact.html" class="thm-btn bg-clr2">Request Quote</a>
+ </div>
+</div>
 
-                                                                                                    </div>
-                                                                                                </div> -->
+ </div>
+</div> -->
 
+@endsection
+@section('jsscripts')
+<script type="application/ld+json">
+    @verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What products does Moksh Tubes & Fittings LLP manufacture and supply?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Moksh Tubes & Fittings LLP manufactures and supplies a wide range of steel products, including Pipes & Tubes, Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires, Round Bars, Flat Bars, Angles, Channels, Welding Rods, Wire Mesh, and other custom and hard-to-find steel products in both ferrous and non-ferrous grades."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which industries does Moksh Tubes & Fittings LLP serve?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We cater to diverse industries such as Oil & Gas, Petrochemicals, Power Generation, Water Management, Pharmaceuticals, Food & Beverage, Marine, Construction, Sugar Industries, Boilers & Pressure Vessels, Solar, and Chemical Processing, delivering high quality materials for critical applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What materials are available at Moksh Tubes & Fittings LLP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our product range covers Stainless Steel, Duplex & Super Duplex Steel, Nickel Alloys like Hastelloy, Inconel, and Monel, Titanium Alloys, Copper & Bronze Alloys, Carbon Steel, and rare alloys including Nimonic, Ferralium, Zirconium, and Tantalum."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does Moksh Tubes & Fittings LLP ensure quality standards?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "All materials we supply comply with international standards such as ASTM, ASME, ISO, and DIN. We maintain strict quality control procedures and partner with trusted suppliers to ensure reliable performance and durability in every project."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Moksh Tubes & Fittings LLP offer global delivery?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. With 20 years of experience and projects completed in over 12 countries, Moksh Tubes & Fittings LLP has the logistics and sourcing capabilities to deliver steel products worldwide, ensuring on-time supply for urgent and large-scale orders."
+      }
+    }
+  ]
+}
+@endverbatim
+</script>
 @endsection
