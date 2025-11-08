@@ -76,11 +76,11 @@
                                                 </li>
 
                                                 <li>
-                                                    <strong>High-temperature lines:</strong> superheaters, reformer tubes <a
+                                                    <strong>High-temperature lines:</strong> superheaters, reformer tubes 
                                                 
                                                 </li>
                                                 <li>
-                                                    <strong>High-temperature lines:</strong> superheaters, reformer tubes <a
+                                                    <strong>High-temperature lines:</strong> superheaters, reformer tubes 
                                                 
                                                 </li>
                                                 <li>
@@ -148,7 +148,7 @@
 
                                 <section id="blog-area" class="blog-with-sidebar-area blog-single-area">
                                     <div class="blog-title text-start">
-                                        <h2>Mechanical Properties</h2>
+                                        <h2 class="pt-10">Mechanical Properties</h2>
                                         <div class="text pt-2">
                                             <p>
                                                 Let's break down how these two materials stack up against each other in the
@@ -192,44 +192,11 @@
                                             </p>
                                         </div>
                                         <div class="exapmle">
-                                             <!-- <h3>Cost & Lead Time</h3>
-                                            <p class="pb-2">Cost is a major driver in any project, but it's crucial to
-                                                look beyond the initial purchase price.</p>
 
-                                                <h3>Seamless Pipes</h3>
-                                            <ul>
-                                                <li>
-                                                   Higher manufacturing cost
-                                                </li>
-
-                                                <li>
-                                                    Longer lead time, especially for thick-wall or non-standard OD
-                                                </li>
-                                                <li>
-                                                    Higher machining cost due to variable tolerances
-                                                </li>
-                                                
-                                            </ul>
-                                            <h4>ERW Pipes</h4>
-                                            <ul>
-                                                <li>More economical</li>
-                                                <li>Readily available in standard sizes (½" to 24")</li>
-                                                <li>Fast delivery</li>
-                                                <li>Lower total project CAPEX</li>
-                                            </ul>
-                                            <p class=" py-2">
-                                                <strong class="text-black">
-                                                    Winner:</strong> Carbon Steel for initial cost; Stainless Steel for
-                                                long-term value and life cycle cost.
-                                            </p> -->
-
-
-                                            
-                                        
                                             <h3>Cost & Lead Time</h3>
                                             <p class="pb-2">Cost is a major driver in any project, but it's crucial to
                                                 look beyond the initial purchase price.</p>
-                                            
+                                            <h3>Seamless Pipes</h3>
                                                  <ul>
                                                 <li>
                                                    Higher manufacturing cost
@@ -243,7 +210,7 @@
                                                 </li>
                                                 
                                             </ul>
-                                             <!-- <h4>ERW Pipes</h4> -->
+                                             <h3>ERW Pipes</h3>
                                              <ul>
                                                 <li>More economical</li>
                                                 <li>Readily available in standard sizes (½" to 24")</li>
@@ -258,100 +225,145 @@
                                             </p>
                                         </div>
                                         <div class="exapmle">
-                                            <h3>Cost: Initial vs. Life-Cycle</h3>
-                                            <p class="pb-2">Cost is a major driver in any project, but it's crucial to
-                                                look beyond the initial purchase price.</p>
+                                            <h3>Standards & Testing Requirements</h3>
+                                            <h3>Common Standards</h3>
                                             <ul>
                                                 <li>
-                                                    <strong>Carbon Steel:</strong> Has a significantly lower upfront cost.
-                                                    It is one of the cheapest steel materials to produce, making it an
-                                                    attractive option for projects with tight budgets.
+                                                   <strong>Seamless:</strong> ASTM A312, A213, A269, A106 (CS)
                                                 </li>
 
                                                 <li>
-                                                    <strong>Stainless Steel:</strong> Is more expensive to purchase
-                                                    initially. The alloying elements, particularly chromium and nickel, are
-                                                    more costly than the raw materials for carbon steel.
+                                                    <strong>ERW:</strong> ASTM A312, A358, A554, A249
                                                 </li>
                                             </ul>
-                                            <p class=" py-2">
-                                                <strong class="text-black">
-                                                    Winner:</strong> Carbon Steel for initial cost; Stainless Steel for
-                                                long-term value and life cycle cost.
-                                            </p>
+                                            <h3>Recommended NDT Tests</h3>
+                                            <ul>
+                                                <li>Hydrostatic Test</li>
+                                                <li>Eddy Current Test</li> 
+                                                <li>Ultrasonic Test (UT)</li>
+                                                <li>Radiography (for critical weld validation)</li>
+                                            </ul>
+                                            
                                         </div>
                                         <div class="exapmle">
-                                            <h3>Maintenance Requirements</h3>
-                                            <p class="pb-2">The need for ongoing upkeep is a critical factor in labor
-                                                costs and operational downtime</p>
+                                            <h3>Common Mistakes When Choosing Between </h3>
+                                            <h3>Seamless and ERW Pipes</h3>
+                                            <h3>1. Choosing seamless just because "it's stronger"</h3>
+                                                <p>For water lines, cooling lines, utilities, and general piping—ERW is perfectly suitable and reduces cost.</p>
+                                                <h3>2. Ignoring the quality of the ERW weld seam</h3>
+                                                <p>The weld area must be tested (UT/EC) to ensure reliability.</p>
+                                                <h3>3. Not following engineering design codes</h3>
+                                                <p>Final selection must comply with ASME B31.3, pressure charts, and corrosion allowance requirements.</p>
+                                                <h3>4. Overlooking lifecycle cost</h3>
+                                                <p>For water lines, cooling lines, utilities, and general piping—ERW is perfectly suitable and reduces cost.</p>
+                                                
+                                        </div>
+                                        <div class="exapmle">
+                                            <h3>Conclusion: Which One Should You Choose?</h3>
+                                            
+                                                <h3>Choose seamless for</h3>
                                             <ul>
-                                                <li>
-                                                    <strong>Carbon Steel:</strong> High maintenance. Protective coatings
-                                                    must be regularly inspected, repaired, and reapplied. Any scratch or
-                                                    breach in the coating immediately becomes a site for rust, which can
-                                                    spread and weaken the pipe.
-                                                </li>
+                                                <li>High pressure</li>
+                                                <li>High temperature</li>
+                                                <li>Corrosive media</li>
+                                                <li>Critical operations</li>
+                                            </ul>
+                                            <h3>Choose ERW for</h3>
+                                            <ul>
+                                                <li>Utilities</li>
+                                                <li>HVAC</li>
+                                                <li>Fire systems</li>
+                                                <li>Structural use</li>
+                                                <li>Cost-sensitive projects where reliability requirements are moderate</li>
+                                            </ul>
+                                            <p>Your final decision should always consider:
+                                                <ul>
+                                                <li style="list-style: none">✅ Engineering requirements</li>
+                                                <li style="list-style: none">✅ QA specifications</li>
+                                                <li style="list-style: none">✅ Operating environment</li>
+                                                <li style="list-style: none">✅ Total lifecycle cost</li>
+                                            <p>—not just the initial material price.</p>
+                                        </ul>
 
-                                                <li>
-                                                    <strong>Stainless Steel:</strong> Low maintenance. It generally only
-                                                    requires periodic cleaning to remove surface dirt and ensure the passive
-                                                    layer remains effective. It does not need to be painted or coated for
-                                                    protection.
-                                                </li>
-                                            </ul>
-                                            <p class=" py-2">
-                                                <strong class="text-black">
-                                                    Winner:</strong> Stainless Steel. Its low maintenance needs translate
-                                                directly into saved time, labor, and money.
-                                            </p>
-                                        </div>
-                                        <div class="exapmle">
-                                            <h3>Applications</h3>
-                                            <p class="pb-2">The properties of each material dictate where they are best
-                                                used.</p>
-                                            <h3>Carbon Steel Pipes:</h3>
-                                            <ul>
-                                                <li>
-                                                    Oil and gas pipelines (often with extensive coating and cathodic
-                                                    protection)
-                                                </li>
-                                                <li>
-                                                    General structural supports in dry, controlled environments
-                                                </li>
-                                                <li>
-                                                    Machinery parts and manufacturing components
-                                                </li>
-                                                <li>
-                                                    Fire protection sprinkler systems (though stainless is gaining
-                                                    popularity)
-                                                </li>
-                                            </ul>
-                                            <h3>Stainless Steel Tubes:</h3>
-                                            <ul>
-                                                <li>
-                                                    Food and beverage processing
-                                                </li>
-                                                <li>
-                                                    Pharmaceutical and chemical plants
-                                                </li>
-                                                <li>
-                                                    Marine and coastal construction
-                                                </li>
-                                                <li>
-                                                    Plumbing and water treatment systems
-                                                </li>
-                                                <li>
-                                                    Architectural and decorative applications
-                                                </li>
-                                                <li>
-                                                    Automotive exhaust systems
-                                                </li>
-                                            </ul>
                                         </div>
                                     </div>
                                 </section>
+                                <section class="faq-content-area sec-padd2">
+    <div class="container">
+        <div class="section-title center">
+            <h2>FAQ's</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="accordion-box">
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn active">
+                            <h3 class="h6">Is ERW pipe acceptable for oil & gas utilities?</h3>
+                        </div>
+                        <div class="accord-content collapsed">
+                            <p>Yes. ERW pipes are widely used for low-pressure, non-critical utilities like water, air,
+                                and nitrogen. High-pressure hydrocarbon or sour-service lines generally require seamless.
+                            </p>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
 
-                                <section id="blog-area" class="blog-with-sidebar-area blog-single-area">
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn">
+                            <h3 class="h6">Does ERW pipe have HAZ risks?</h3>
+                        </div>
+                        <div class="accord-content">
+                            <p>Yes, ERW pipes have a Heat-Affected Zone in the weld seam. Modern HF-ERW mills control HAZ
+                                quality well, but UT or EC testing is essential for critical service.</p>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn">
+                            <h3 class="h6">Is seamless always stronger than ERW?</h3>
+                        </div>
+                        <div class="accord-content">
+                            <p>For extreme pressure and temperature—yes. But in standard stainless steel applications, ERW
+                                pipes can meet or exceed required mechanical properties when manufactured and tested
+                                correctly.</p>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn">
+                            <h3 class="h6">Which is more corrosion-resistant—seamless or ERW?</h3>
+                        </div>
+                        <div class="accord-content">
+                            <p>Corrosion resistance depends on the material grade (304, 316, 321, etc.), not the pipe
+                                type. However, ERW weld areas must pass QA to avoid localized corrosion.</p>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn">
+                            <h3 class="h6">Does ASME B31.3 allow ERW pipes?</h3>
+                        </div>
+                        <div class="accord-content">
+                            <p>Yes. ASME B31.3 permits ERW pipes as long as they comply with ASTM standards and pass
+                                required NDT and pressure tests.</p>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+                                {{-- <section id="blog-area" class="blog-with-sidebar-area blog-single-area">
                                     <div class="container">
                                         <div class="blog-title">
                                             <h2>Steel Pipe Comparison: At a Glance</h2>
@@ -410,10 +422,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                </section>
+                                </section> --}}
 
 
-                                <div class="text-holder">
+                                {{-- <div class="text-holder">
                                     <div class="blog-title text-start">
                                         <h2>The Final Verdict: Which Material Is Best?</h2>
                                     </div>
@@ -462,7 +474,7 @@
                                             material for your project.
                                         </p>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>

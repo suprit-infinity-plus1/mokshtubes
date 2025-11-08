@@ -11,7 +11,7 @@
 @section('content')
     <!--Start breadcrumb area-->
 
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(images/background/seamless-vs-welded-pipes.jpg);">
         <div class="container text-center">
             <h1>Stainless Steel Pipes: Welded vs Seamless</h1>
         </div>
@@ -28,7 +28,7 @@
                     <div class="blog-post">
                         <div class="single-blog-post">
                             <div class="img-holder">
-                                <img src="{{ asset('assets/images/blog/everything-you-need-to-know-about-welded-and-seamless-pipes.webp') }}"
+                                <img src="{{ asset('assets/images/blog/seamless-vs-welded-pipes.jpg') }}"
                                     alt="10-mistakes-to-avoid">
                             </div>
                             <div class="text-holder">

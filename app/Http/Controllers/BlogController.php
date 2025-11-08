@@ -215,7 +215,7 @@ class BlogController extends Controller
                 'author' => 'Jash Jain',
                 'comments' => 16,
                 'date' => 'august 22, 2025',
-                'image' => 'assets/images/blog/everything-you-need-to-know-about-welded-and-seamless-pipes.webp',
+                'image' => 'assets/images/blog/seamless-vs-welded-pipes.jpg',
                 'excerpt' => 'Choosing the right stainless steel pipes can make or break your industrial project.',
                 'link' => route('blogs.welded-vs-seamless')
             ],
