@@ -4,7 +4,7 @@
 @section('meta_description',
     'Learn how stainless steel tubes improve industrial efficiency — durable, low-maintenance & corrosion-resistant with key operational benefits.')
 @section('meta_keywords',
-    'Stainless Steel Tubes, Process Efficiency, Industrial Tubing, Corrosion Resistance, Low Maintenance Tubes, Durable Stainless Steel, High Performance Tubing, Industrial Process Optimization, Stainless Steel Benefits, Efficient Fluid Transport')    
+    'Stainless Steel Tubes, Process Efficiency, Industrial Tubing, Corrosion Resistance, Low Maintenance Tubes, Durable Stainless Steel, High Performance Tubing, Industrial Process Optimization, Stainless Steel Benefits, Efficient Fluid Transport')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -420,7 +420,7 @@
                                             <div class="box">
                                                 <div class="content">
                                                     <a
-                                                        href="{{ route('blogs.india’s-stainless-steel-export-industry') }}">
+                                                        href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -428,7 +428,7 @@
                                         </div>
                                     </div>
                                     <div class="title-holder">
-                                        <a href="{{ route('blogs.india’s-stainless-steel-export-industry') }}">
+                                        <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
                                             <h5 class="post-title">
                                                 India’s Stainless Steel Exports – Moksh Tubes Global Reach
                                             </h5>

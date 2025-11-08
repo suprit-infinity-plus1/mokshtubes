@@ -29,8 +29,8 @@
                             <div class="img-holder">
                                 <img src="{{ asset('assets/images/blog/how_to_choose.webp')}}"
                                     alt="hastelloy-vs-stainless" style="width:700px; height:400px; object-fit:cover;">
-                            </div> 
-                                                 
+                            </div>
+
 
                             <div class="text-holder">
                                 <div class="blog-title text-start">
@@ -396,7 +396,7 @@
                                             <div class="box">
                                                 <div class="content">
                                                     <a
-                                                        href="{{ route('blogs.india’s-stainless-steel-export-industry') }}" aria-label="inida's stainless steel export industry">
+                                                        href="{{ route('blogs.indias-stainless-steel-export-industry') }}" aria-label="inida's stainless steel export industry">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -404,7 +404,7 @@
                                         </div>
                                     </div>
                                     <div class="title-holder">
-                                        <a href="{{ route('blogs.india’s-stainless-steel-export-industry') }}">
+                                        <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
                                             <h5 class="post-title">
                                                 India’s Stainless Steel Exports – Moksh Tubes Global Reach
                                             </h5>
