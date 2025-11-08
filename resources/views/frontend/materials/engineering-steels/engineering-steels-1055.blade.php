@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', '1055 Engineering Steel | Strong & Durable Medium Carbon Steel')
+@section('title', '1055 Engineering Steel – Medium Carbon, High Strength')
 @section('meta_description', 'Discover high-strength 1055 Engineering Steel for industrial and mechanical applications. Durable, reliable, and perfect for bars, plates, tubes, and fittings.')
 @section('meta_keywords', '1055 Engineering Steel, medium carbon steel, durable steel, mechanical steel, industrial steel, high strength steel, steel for components')
 

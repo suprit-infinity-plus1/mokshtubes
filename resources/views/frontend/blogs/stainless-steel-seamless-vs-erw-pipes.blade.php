@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Seamless vs ERW Pipes: Best Choice by Application (Complete Guide)')
+@section('title', 'Seamless vs ERW Pipes: Complete Application Guide')
 @section('meta_description', 'Compare stainless steel seamless vs ERW pipes by pressure rating, mechanical strength, QA requirements, standards, and cost. Learn which pipe type fits your application with a clear engineering decision guide.')
 @section('meta_keywords',
     'Stainless Steel Pipes, Buying Stainless Steel Pipes, Stainless Steel Pipe Grades, Stainless
