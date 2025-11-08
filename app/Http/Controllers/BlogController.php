@@ -12,7 +12,7 @@ class BlogController extends Controller
         $blogsData = collect([
 
              [
-                'title' => ': Stainless Steel Seamless vs ERW Pipes',
+                'title' => 'Stainless Steel Seamless vs ERW Pipes',
                 'author' => 'Jash Jain',
                 'comments' => 16,
                 'date' => 'Novermber 8, 2025',

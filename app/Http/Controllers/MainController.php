@@ -164,10 +164,10 @@ class MainController extends Controller
 
         return view('frontend.blogs.stainless-steel-tubes-vs-carbon-steel-pipes');
     }
-  public function stainlessSteelSe()
+  public function stainlessSteelSeamlessVsErwPipes()
     {
 
-        return view('frontend.blogs.stainless-steel-tubes-vs-carbon-steel-pipes');
+        return view('frontend.blogs.stainless-steel-seamless-vs-erw-pipes');
     }
 
 
