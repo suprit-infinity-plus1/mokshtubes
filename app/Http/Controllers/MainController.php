@@ -102,7 +102,7 @@ class MainController extends Controller
     public function uae’sUltimateGuide()
     {
 
-        return view('frontend.blogs.uae’s-ultimate-guide');
+        return view('frontend.blogs.uaes-ultimate-guide');
     }
     public function stainlessSteelUsesInKitchen()
     {

@@ -99,13 +99,13 @@ Route::get('/blogs/stainless-steel-inconel-tubes', [MainController::class, 'Stai
 Route::get('/blogs/10-mistakes-to-avoid-when-buying-stainless-steel-pipes', [MainController::class, 'tenMistakesToAvoidWhenBuyingStainlessSteelPipes'])->name('blogs.10-mistakes-to-avoid-when-buying-stainless-steel-pipes');
 Route::get('/blogs/emerging-trends-in-industrial-piping-for-2025-and-beyond', [MainController::class, 'emergingTrendsInIndustrialPipingFor2025AndBeyond'])->name('blogs.emerging-trends-in-industrial-piping-for-2025-and-beyond');
 Route::get('/blogs/everything-you-need-to-know-about-welded-and-seamless-pipes', [MainController::class, 'everythingYouNeedToKnowAboutWeldedAndSeamlessPipes'])->name('blogs.everything-you-need-to-know-about-welded-and-seamless-pipes');
-Route::get('/blogs/india’s-stainless-steel-export-industry', [MainController::class, 'india’sStainlessSteelExportIndustry'])->name('blogs.india’s-stainless-steel-export-industry');
+Route::get('/blogs/india’s-stainless-steel-export-industry', [MainController::class, 'india’sStainlessSteelExportIndustry'])->name('blogs.indias-stainless-steel-export-industry');
 Route::get('/blogs/the-role-of-high-performance', [MainController::class, 'theRoleOfHighPerformance'])->name('blogs.the-role-of-high-performance');
 Route::get('/blogs/top-7-advantages-of-using', [MainController::class, 'topSevenAdvantagesOfUsing'])->name('blogs.top-7-advantages-of-using');
 Route::get('/blogs/welded-vs-seamless', [MainController::class, 'weldedVsSeamless'])->name('blogs.welded-vs-seamless');
 Route::get('/blogs/why-hastelloy-weighs-more-than-stainless-steel', [MainController::class, 'whyHastelloyWeighsMoreThanStainlessSteel'])->name('blogs.why-hastelloy-weighs-more-than-stainless-steel');
 Route::get('/blogs/din-standard-metal-alloys', [MainController::class, 'dinStandardMetalAlloys'])->name('blogs.din-standard-metal-alloys');
-Route::get('/blogs/uae’s-ultimate-guide', [MainController::class, 'Uae’sUltimateGuide'])->name('blogs.uae’s-ultimate-guide');
+Route::get('/blogs/uaes-ultimate-guide', [MainController::class, 'Uae’sUltimateGuide'])->name('blogs.uaes-ultimate-guide');
 Route::get('/blogs/stainless-steel-uses-in-kitchen', [MainController::class, 'stainlessSteelUsesInKitchen'])->name('blogs.stainless-steel-uses-in-kitchen');
 Route::get('/blogs/where-to-buy-high-quality', [MainController::class, 'WhereToBuyHighQuality'])->name('blogs.where-to-buy-high-quality');
 Route::get('/blogs/how-to-choose-the-best-stainless-steel-pipes', [MainController::class, 'howToChooseTheBestStainlessSteelPipes'])->name('blogs.how-to-choose-the-best-stainless-steel-pipes');

@@ -721,14 +721,14 @@
                             <figcaption class="overlay">
                                 <div class="box">
                                     <div class="content">
-                                        <a href="{{ route('blogs.india’s-stainless-steel-export-industry') }}"><i
+                                        <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}"><i
                                                 class="fa fa-link" aria-hidden="true"></i></a>
                                     </div>
                                 </div>
                             </figcaption>
                         </figure>
                         <div class="lower-content">
-                            <a href="{{ route('blogs.india’s-stainless-steel-export-industry') }}">
+                            <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
                                 <h3 class="h5">India’s Stainless Steel Exports – Moksh Tubes Global Reach</h3>
                             </a>
                             <div class="post-meta">by Richards | 22 Comments | 17 Apr</div>
@@ -737,7 +737,7 @@
                                     Tubes at the forefront of international markets.</p>
                             </div>
                             <div class="link">
-                                <a href="{{ route('blogs.india’s-stainless-steel-export-industry') }}"
+                                <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}"
                                     class="default_link">Read More <i class="fa fa-angle-right"></i></a>
                             </div>
 
