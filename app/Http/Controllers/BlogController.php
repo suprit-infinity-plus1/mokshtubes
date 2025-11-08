@@ -11,6 +11,16 @@ class BlogController extends Controller
     {
         $blogsData = collect([
 
+             [
+                'title' => ': Stainless Steel Seamless vs ERW Pipes',
+                'author' => 'Jash Jain',
+                'comments' => 16,
+                'date' => 'Novermber 8, 2025',
+                'image' => 'assets/images/blog/Stainless-Steel-Tubes-vs-Carbon-Steel-Pipes-A-Complete-Comparison_11zon.jpeg',
+                'excerpt' => 'When engineers, buyers, or project managers compare stainless steel seamless vs ERW pipes',
+                'link' => route('blogs.stainless-steel-seamless-vs-erw-pipes')
+            ],
+
             [
                 'title' => 'Stainless Steel Tubes vs Carbon Steel Pipes',
                 'author' => 'Jash Jain',
