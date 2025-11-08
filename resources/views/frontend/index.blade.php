@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Premium Stainless Steel & Nickel Alloy Pipes | Moksh Tubes LLP')
+@section('title', 'Premium Stainless Steel & Nickel Alloy Pipes | Moksh Tubes')
 @section('meta_description', 'Leading exporter of stainless steel, nickel alloy & titanium pipes, tubes & fittings.
     ISO-certified quality, fast quotes & global delivery.')
 @section('meta_keywords', 'Incoloy 825, nickel alloy, corrosion resistant alloy, premium metal alloys, moksh tubes')
