@@ -449,7 +449,7 @@
                                     <h4 class="fw-bold mb-4">Products We Offer</h4>
                                     <ul class="list-unstyled mb-4">
                                         <li class="product-item mb-2">
-                                            <a href="{{ route('products.pipes-tubes') }}" class="product-link">
+                                            <a href="{{ route('products.pipes-tubes') }}" class="product-link" >
                                                 <i class="bi bi-box-seam me-2"></i> Pipes & Tubes
                                             </a>
                                         </li>

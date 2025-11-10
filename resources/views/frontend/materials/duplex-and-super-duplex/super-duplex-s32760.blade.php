@@ -2,10 +2,10 @@
 
 @section('title', 'Super Duplex Stainless Steel S32760 | Moksh Tubes LLP')
 
-@section('meta_description', 
+@section('meta_description',
     'Super Duplex Stainless Steel S32760 — high-strength, corrosion-resistant alloy from Moksh Tubes for pipes, tubes, and fittings in harsh industries.')
 
-@section('meta_keywords', 
+@section('meta_keywords',
     'Super Duplex Stainless Steel S32760, S32760 pipes, S32760 tubes, S32760 fittings, corrosion-resistant stainless steel, high strength super duplex steel, Mokshtubes LLP, chemical processing steel, marine engineering steel, oil and gas stainless steel, desalination plant steel, stainless steel plates, stainless steel flanges')
 
 @section('content')
@@ -407,53 +407,3 @@
 
 @endsection
 
-<section class="faq-content-area sec-padd2">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="accordion-box">
-                    <div class="section-title center">
-                        <h2>FAQ's</h2>
-                    </div>
-
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn active">
-                            <h3>Why is Super Duplex S32760 highly corrosion-resistant?</h3>
-                        </div>
-                        <div class="accord-content collapsed">
-                            <p>Due to its high chromium, molybdenum, and nitrogen content, it has excellent resistance to pitting, crevice corrosion, and chloride stress corrosion cracking.</p>
-                        </div>
-                    </div>
-
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h3>Is S32760 weldable?</h3>
-                        </div>
-                        <div class="accord-content">
-                            <p>Yes, but welding requires controlled heat input and post-weld heat treatment to maintain corrosion resistance and mechanical properties.</p>
-                        </div>
-                    </div>
-
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h3>Where is S32760 most commonly used?</h3>
-                        </div>
-                        <div class="accord-content">
-                            <p>Primarily in offshore oil & gas, marine engineering, and desalination plants, where chloride resistance is critical.</p>
-                        </div>
-                    </div>
-
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h3>Can S32760 be used in seawater applications?</h3>
-                        </div>
-                        <div class="accord-content">
-                            <p>Yes, it offers excellent resistance to seawater corrosion and stress corrosion cracking.</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
