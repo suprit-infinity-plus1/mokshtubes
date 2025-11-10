@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title', 'Titanium Alloys – Lightweight & High-Strength') <!-- 52 chars -->
-@section('meta_description', 'Discover premium titanium alloys offering high strength, corrosion resistance, and lightweight performance for aerospace, medical, and industrial applications.')
+@section('meta_description', 'Discover premium titanium alloys with exceptional strength, corrosion resistance, and light weight for aerospace, medical, and industrial use.')
 @section('meta_keywords', 'Titanium Alloys, Titanium Grades, Lightweight Alloy, High Strength Alloy, Corrosion Resistant Titanium, Aerospace Titanium, Medical Titanium, Industrial Titanium, Titanium Pipes, Titanium Tubes, Titanium Fittings')
 
 @section('content')
