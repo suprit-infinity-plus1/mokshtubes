@@ -705,28 +705,24 @@ public function engineeringSteelsGrade($slug)
 
 
 
-namespace App\Http\Controllers;
+// namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+// use Illuminate\Http\Request;
 
-class LeadController extends Controller
-{
-    public function store(Request $request)
-    {
-        // Validate email
-        $request->validate([
-            'email' => 'required|email',
-        ]);
+// class LeadController extends Controller
+// {
+//     public function store(Request $request)
+//     {
+//         $request->validate([
+//             'email' => 'required|email',
+//         ]);
 
-        // Path to datasheet in public folder
-        $filePath = public_path('datasheets/EN8_Datasheet_v2.docx');
+//         $filePath = public_path('datasheets/EN8_Datasheet_v2.docx');
 
-        if (!file_exists($filePath)) {
-            return back()->with('error', 'Datasheet file not found!');
-        }
-
-        // Download the file
-        return response()->download($filePath, 'EN8_Datasheet.docx');
-    }
-}
+//         if (!file_exists($filePath)) {
+//             return back()->with('error', 'Datasheet file not found!');
+//         }
+//         return response()->download($filePath, 'EN8_Datasheet.docx');
+//     }
+// }
 
