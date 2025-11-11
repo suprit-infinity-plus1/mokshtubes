@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title', 'EN24 Alloy Steel | High Strength & Fatigue Resistant')
-@section('meta_description', 'EN24 Alloy Steel (817M40/AISI 4340) – chemical composition, mechanical properties, and heavy-duty applications. Get round bars, forged & custom EN24 products from Moksh Tubes.')
+@section('meta_description', 'EN24 Alloy Steel (817M40/AISI 4340) – chemical composition, mechanical properties, and applications. Buy EN24 round bars and custom products.')
 @section('meta_keywords', 'EN24 Alloy Steel, high strength alloy steel, fatigue resistant steel, tough alloy steel,
     heavy-duty steel, industrial alloy steel')
 

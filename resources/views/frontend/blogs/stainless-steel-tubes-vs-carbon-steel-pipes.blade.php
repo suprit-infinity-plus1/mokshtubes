@@ -1,9 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Stainless Steel vs Carbon Steel Pipes: A Comparison')
-@section('meta_description',
-    'A complete comparison of stainless steel vs. carbon steel pipes. Analyze differences in
-    cost, strength, and corrosion resistance to choose the best material.')
+@section('meta_description', 'Compare stainless steel tubes vs carbon steel pipes by cost, strength, and corrosion
+    resistance to find the right choice for your application.')
 @section('meta_keywords',
     'stainless steel tubes, stainless steel maintenance, stainless steel rust prevention, cleaning
     stainless steel pipes, stainless steel tube care, prevent rust on stainless steel, stainless steel cleaning tips,
@@ -533,8 +532,7 @@
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a
-                                                        href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
+                                                    <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>

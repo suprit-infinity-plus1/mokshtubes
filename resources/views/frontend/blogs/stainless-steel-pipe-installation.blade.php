@@ -4,7 +4,8 @@
 @section('meta_description',
     'Learn how to install stainless steel pipes correctly with our complete guide. Covers
     cutting, joining methods, and tips for a leak-free system.')
-@section('meta_keywords', 'stainless steel pipe installation, how to install stainless steel pipes, stainless steel pipe
+@section('meta_keywords',
+    'stainless steel pipe installation, how to install stainless steel pipes, stainless steel pipe
     fitting, TIG welding stainless steel, press-fit stainless steel pipes, threaded stainless steel fittings, stainless
     steel plumbing guide, stainless steel pipe joining methods, stainless steel pipe cutting, stainless steel pipe
     preparation, stainless steel pipe welding guide, leak free stainless steel system, stainless steel piping system,
@@ -14,7 +15,8 @@
 @section('content')
     <!--Start breadcrumb area-->
 
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/blog/Stainless-Steel-Pipe-Installation.jpeg);">
+    <section class="breadcrumb-area"
+        style="background-image: url(/assets/images/blog/Stainless-Steel-Pipe-Installation.jpeg);">
         <div class="container text-center">
             <h1>Stainless Steel Pipe Installation: Step by Step Guide</h1>
         </div>
@@ -40,7 +42,9 @@
                                 </div>
                                 <div class="text">
                                     <p>
-                                        Choosing high quality <a href="{{ route('blogs.stainless-steel-tube-grades-explained') }}">stainless steel pipes</a> for your project is an excellent first
+                                        Choosing high quality <a
+                                            href="{{ route('blogs.stainless-steel-tube-grades-explained') }}">stainless
+                                            steel pipes</a> for your project is an excellent first
                                         step toward building a durable, long lasting system. However, the superior qualities
                                         of the material can be completely undermined by improper installation. A flawless
                                         installation is critical to ensure the longevity, safety, and leak free performance
@@ -51,7 +55,9 @@
                                     <p>
                                         Even small mistakes during installation can lead to big problems down the road,
                                         including leaks, corrosion at connection points, and even system failure. This guide
-                                        provides a clear, step by step process for installing <a href="{{ route('blogs.stainless-steel-inconel-tubes') }}">stainless steel pipes</a>
+                                        provides a clear, step by step process for installing <a
+                                            href="{{ route('blogs.stainless-steel-inconel-tubes') }}">stainless steel
+                                            pipes</a>
                                         correctly. By covering everything from preparation and tools to joining methods and
                                         final inspection, you can ensure your project is a success from the ground up.
                                     </p>
@@ -95,7 +101,9 @@
                                                 <h3>Gather the Right Tools and Materials</h3>
                                                 <p class="pb-2">
                                                     Using the correct tools is non negotiable for a professional
-                                                    installation. Using tools meant for <a href="{{ route('products.special-fabricated.custom-steel-furniture') }}">carbon steel</a> can lead to
+                                                    installation. Using tools meant for <a
+                                                        href="{{ route('products.special-fabricated.custom-steel-furniture') }}">carbon
+                                                        steel</a> can lead to
                                                     cross contamination and rust.
                                                 </p>
                                             </div>
@@ -138,8 +146,10 @@
                                             </div>
                                             <p class="">
                                                 Before you begin, inspect all pipes and fittings for any signs of damage
-                                                that may have occurred during shipping or handling. Verify that the <a href="{{ route('materials') }}">material
-                                                grades</a> and sizes match your project specifications and that you have the
+                                                that may have occurred during shipping or handling. Verify that the <a
+                                                    href="{{ route('materials') }}">material
+                                                    grades</a> and sizes match your project specifications and that you have
+                                                the
                                                 correct Mill Test Reports (MTRs).
                                             </p>
                                         </div>
@@ -178,9 +188,13 @@
                                             </ul>
                                             <p class="">
                                                 <strong class="text-black"> Deburr the Edge:</strong> After cutting, the
-                                                inside and outside edges of the <a href="{{ route('products.pipes-tubes') }}">pipe</a> will have a small burr. Use a deburring
+                                                inside and outside edges of the <a
+                                                    href="{{ route('products.pipes-tubes') }}">pipe</a> will have a small
+                                                burr. Use a deburring
                                                 tool or a fine file to remove this burr completely. A smooth, clean edge is
-                                                crucial for proper <a href="{{ route('products.pipe-fittings-flanges-fasteners') }}">fitting</a> and flow.
+                                                crucial for proper <a
+                                                    href="{{ route('products.pipe-fittings-flanges-fasteners') }}">fitting</a>
+                                                and flow.
                                             </p>
                                         </div>
                                     </div>
@@ -245,7 +259,8 @@
                                                 <li><strong>Fit Up:</strong> Align the pipe and fitting, ensuring the gap is
                                                     consistent.</li>
 
-                                                <li><strong>Tack Weld:</strong> Apply several small tack <a href="{{ route('blogs.welded-vs-seamless') }}">welds</a> around the
+                                                <li><strong>Tack Weld:</strong> Apply several small tack <a
+                                                        href="{{ route('blogs.welded-vs-seamless') }}">welds</a> around the
                                                     joint to hold it in place.
                                                 </li>
                                                 <li><strong>Purge the Pipe:</strong> To prevent oxidation on the inside of
@@ -323,7 +338,9 @@
                                             </p>
 
                                             <ul>
-                                                <li><strong>Install Supports:</strong> <a href="{{ route('blogs.stainless-steel-pipe-installation') }}">Install pipe</a> hangers and supports
+                                                <li><strong>Install Supports:</strong> <a
+                                                        href="{{ route('blogs.stainless-steel-pipe-installation') }}">Install
+                                                        pipe</a> hangers and supports
                                                     according to the project specifications. Spacing will depend on the pipe
                                                     diameter and weight.</li>
 
@@ -453,8 +470,8 @@
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a
-                                                        href="{{ route('blogs.why-hastelloy-weighs-more-than-stainless-steel') }}" aria-label="why hastelloy weighs more than stainless steel">
+                                                    <a href="{{ route('blogs.why-hastelloy-weighs-more-than-stainless-steel') }}"
+                                                        aria-label="why hastelloy weighs more than stainless steel">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -480,7 +497,8 @@
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a href="{{ route('blogs.the-role-of-high-performance') }}" aria-label="the role of high performance">
+                                                    <a href="{{ route('blogs.the-role-of-high-performance') }}"
+                                                        aria-label="the role of high performance">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -501,13 +519,13 @@
                                 </li>
                                 <li>
                                     <div class="img-holder">
-                                        <img src="{{ asset('assets/images/blogs/thumb/india’s-stainless-steel-export-industry-thumb.webp') }}"
+                                        <img src="{{ asset('assets/images/blogs/thumb/indias-stainless-steel-export-industry-thumb.webp') }}"
                                             alt="Awesome Image">
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a
-                                                        href="{{ route('blogs.indias-stainless-steel-export-industry') }}" aria-label="inida's stainless steel export industry">
+                                                    <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}"
+                                                        aria-label="inida's stainless steel export industry">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>

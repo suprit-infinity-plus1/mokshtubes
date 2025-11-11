@@ -2,7 +2,7 @@
 
 @section('title', 'EN8 Steel (080M40) – Composition, Properties & Applications')
 @section('meta_description',
-    'EN8  steel (080M40) – chemical composition, mechanical properties, density, and uses. Learn if EN8 is mild steel and get the full datasheet from Moksh Tubes.')
+    'EN8 steel (080M40) – chemical composition, properties, and uses. Learn if EN8 is mild steel and view the full datasheet from Moksh Tubes.')
 @section('meta_keywords',
     'EN8 Engineering Steel, medium carbon steel, good tensile strength steel, machinable steel,
     general engineering steel, industrial steel')

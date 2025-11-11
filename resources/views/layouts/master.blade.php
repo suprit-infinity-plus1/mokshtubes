@@ -16,7 +16,7 @@
     {{-- Canonical Tag --}}
     <link rel="canonical" href="@yield('canonical', url()->current())">
 
-    {{--<meta name="title" content="@yield('meta_title')">
+    {{-- <meta name="title" content="@yield('meta_title')">
     <meta name="description" content="@yield('meta_description')">
     <meta name="keyword" content="@yield('meta_keyword')"> --}}
     {{-- <link rel="canonical" href="@yield('canonical')">
@@ -26,6 +26,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- For IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-95HT8CTVJC"></script>
     <script>
@@ -112,7 +113,6 @@
                         <a href="mailto:info@mokshtubes.com" class="text-white">info@mokshtubes.com</a>
                     </p>
                 </div>
-
             </div>
         </section>
         <!--End Top bar area -->
@@ -132,7 +132,7 @@
                             <span class="icon-technology-1"></span>
                         </div>
                         <div class="text-holder">
-                            <h6>Call Us On</h6>
+                            <p>Call Us On</p>
                             <a href="tel:9769584950">
                                 <p>+91 97695 84950</p>
                             </a>
@@ -143,7 +143,7 @@
                             <span class="icon-letter-1"></span>
                         </div>
                         <div class="text-holder">
-                            <h6>Mail Us @</h6>
+                            <p>Mail Us @</p>
                             <a href="mailto:info@mokshtubes.com">
                                 <p>info@mokshtubes.com</p>
                             </a>
@@ -720,6 +720,34 @@
 
 
 
+        <!-- Cookie Consent Popup -->
+        @if (!Cookie::get('cookie_consent'))
+            <div id="cookie-consent" class="position-fixed p-3 text-white shadow-lg rounded"
+                style="background: rgba(33,33,33,0.95);
+        bottom: 20px;
+        right: 10px;
+        max-width: 320px;
+        z-index: 999999;
+        display: none;">
+                <p class="mb-3 small">
+                    We use cookies to improve your experience on our website.
+                </p>
+                <div class="d-flex justify-content-end gap-2">
+                    <button id="accept-cookies" class="btn btn-sm text-white"
+                        style="background-color:#db7227;">Accept</button>
+                    <button id="reject-cookies" class="btn btn-sm border text-white"
+                        style="border-color:#db7227;">Reject</button>
+                </div>
+            </div>
+        @endif
+
+
+
+
+
+
+
+
 
         <!--Scroll to top-->
         <div class="scroll-to-top scroll-to-target" data-bs-target="html"><span class="fa fa-angle-up"></span></div>
@@ -728,6 +756,38 @@
         <script src="{{ asset('assets/js/jquery.js') }}"></script>
         <!-- bootstrap -->
         <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const popup = document.getElementById("cookie-consent");
+                if (!popup) return;
+
+                setTimeout(() => popup.style.display = "block", 3000);
+
+                function sendConsent(url) {
+                    fetch(url, {
+                            method: "POST",
+                            headers: {
+                                "Content-Type": "application/json",
+                                "X-CSRF-TOKEN": document.querySelector('meta[name="csrf-token"]').getAttribute(
+                                    "content"),
+                            },
+                            credentials: "same-origin" // 👈 VERY IMPORTANT: allows cookies to be saved
+                        })
+                        .then(res => res.json())
+                        .then(data => {
+                            console.log("Cookie status:", data.status);
+                            popup.style.display = "none";
+                        })
+                        .catch(err => console.error("Cookie error:", err));
+                }
+
+                document.getElementById("accept-cookies")?.addEventListener("click", () => sendConsent(
+                    "{{ route('cookie.accept') }}"));
+                document.getElementById("reject-cookies")?.addEventListener("click", () => sendConsent(
+                    "{{ route('cookie.reject') }}"));
+            });
+        </script>
+
 
 
         <!-- Bootstrap 5.3 Bundle JS (includes Popper) -->
@@ -820,8 +880,8 @@
 
 
 
-</div>
-@yield('extrajs')
+    </div>
+    @yield('extrajs')
     @yield('jsscripts')
 </body>
 

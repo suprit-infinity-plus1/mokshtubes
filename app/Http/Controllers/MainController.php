@@ -1,8 +1,11 @@
 <?php
 
 namespace App\Http\Controllers;
+
+use App\Models\Blog;
+use App\Models\BlogCategory;
+use App\Models\Tag;
 use Illuminate\Support\Facades\Storage;
-use Illuminate\Http\Request;
 
 class MainController extends Controller
 {
@@ -11,18 +14,22 @@ class MainController extends Controller
     {
         return view('frontend.index');
     }
+
     public function aboutUs()
     {
         return view('frontend.about');
     }
+
     public function calculator()
     {
         return view('frontend.calculator');
     }
+
     public function contactUs()
     {
         return view('frontend.contact');
     }
+
     public function contactUsGulalwadi()
     {
         return view('frontend.gulalwadi');
@@ -37,10 +44,12 @@ class MainController extends Controller
     {
         return view('frontend.khetwadi');
     }
+
     public function contactUsKamatipura()
     {
         return view('frontend.kamatipura');
     }
+
     public function contactUsDarukhana()
     {
         return view('frontend.darukhana');
@@ -57,6 +66,7 @@ class MainController extends Controller
 
         return view('frontend.blogs.10-mistakes-to-avoid-when-buying-stainless-steel-pipes');
     }
+
     public function emergingTrendsInIndustrialPipingFor2025AndBeyond()
     {
 
@@ -69,108 +79,125 @@ class MainController extends Controller
         return view('frontend.blogs.everything-you-need-to-know-about-welded-and-seamless-pipes');
     }
 
-    public function india’sStainlessSteelExportIndustry()
+    public function indiasStainlessSteelExportIndustry()
     {
 
-        return view('frontend.blogs.india’s-stainless-steel-export-industry');
+        return view('frontend.blogs.indias-stainless-steel-export-industry');
     }
+
     public function theRoleOfHighPerformance()
     {
 
         return view('frontend.blogs.the-role-of-high-performance');
     }
+
     public function topSevenAdvantagesOfUsing()
     {
 
         return view('frontend.blogs.top-7-advantages-of-using');
     }
+
     public function weldedVsSeamless()
     {
 
         return view('frontend.blogs.welded-vs-seamless');
     }
+
     public function whyHastelloyWeighsMoreThanStainlessSteel()
     {
 
         return view('frontend.blogs.why-hastelloy-weighs-more-than-stainless-steel');
     }
+
     public function dinStandardMetalAlloys()
     {
 
         return view('frontend.blogs.din-standard-metal-alloys');
     }
+
     public function uae’sUltimateGuide()
     {
 
         return view('frontend.blogs.uaes-ultimate-guide');
     }
+
     public function stainlessSteelUsesInKitchen()
     {
 
         return view('frontend.blogs.stainless-steel-uses-in-kitchen');
     }
+
     public function whereToBuyHighQuality()
     {
 
         return view('frontend.blogs.where-to-buy-high-quality');
     }
+
     public function howToChooseTheBestStainlessSteelPipes()
     {
 
         return view('frontend.blogs.how-to-choose-the-best-stainless-steel-pipes');
     }
+
     public function HowStainlessSteelTubesImproveProcessEfficiency()
     {
 
         return view('frontend.blogs.how-stainless-steel-tubes-improve-process-efficiency');
     }
+
     public function stainlessSteelVsOtherMetals()
     {
 
         return view('frontend.blogs.stainless-steel-vs-other-metals');
     }
+
     public function stainlessSteelPipeInstallation()
     {
 
         return view('frontend.blogs.stainless-steel-pipe-installation');
     }
+
     public function stainlessSteelTubeGradesExplained()
     {
 
         return view('frontend.blogs.stainless-steel-tube-grades-explained');
     }
+
     public function stainlessSteelTubesApplicationsBenefitsAndCostGuide()
     {
 
         return view('frontend.blogs.stainless-steel-tubes-applications-benefits-and-cost-guide');
     }
+
     public function stainlessSteelTubingForFoodAndBeverageIndustry()
     {
 
         return view('frontend.blogs.stainless-steel-tubing-for-food-and-beverage-industry');
     }
+
     public function topTenUsesOfStainlessSteel()
     {
 
         return view('frontend.blogs.top-ten-uses-of-stainless-steel');
     }
+
     public function maintenanceTipsForStainlessSteel()
     {
 
         return view('frontend.blogs.maintenance-tips-for-stainless-steel');
     }
+
     public function stainlessSteelTubesVsCarbonSteelPipes()
     {
 
         return view('frontend.blogs.stainless-steel-tubes-vs-carbon-steel-pipes');
     }
-  public function stainlessSteelSeamlessVsErwPipes()
+
+    public function stainlessSteelSeamlessVsErwPipes()
     {
 
         return view('frontend.blogs.stainless-steel-seamless-vs-erw-pipes');
     }
-
-
 
     public function materials()
     {
@@ -228,20 +255,18 @@ class MainController extends Controller
         return view('frontend.materials.monel.index', compact('grades'));
     }
 
-  public function incoloy()
-{
-    $grades = [
-        ['name' => 'Incoloy 825', 'slug' => 'incoloy-825'],
-        ['name' => 'Incoloy 800', 'slug' => 'incoloy-800'],
-        ['name' => 'Incoloy 925', 'slug' => 'incoloy-925'],
-        ['name' => 'Incoloy 800h / 800ht', 'slug' => 'incoloy-800h-800ht'],
-        ['name' => 'Incoloy 020', 'slug' => 'incoloy-020'],
-    ];
+    public function incoloy()
+    {
+        $grades = [
+            ['name' => 'Incoloy 825', 'slug' => 'incoloy-825'],
+            ['name' => 'Incoloy 800', 'slug' => 'incoloy-800'],
+            ['name' => 'Incoloy 925', 'slug' => 'incoloy-925'],
+            ['name' => 'Incoloy 800h / 800ht', 'slug' => 'incoloy-800h-800ht'],
+            ['name' => 'Incoloy 020', 'slug' => 'incoloy-020'],
+        ];
 
-    return view('frontend.materials.incoloy.index', compact('grades'));
-}
-
-
+        return view('frontend.materials.incoloy.index', compact('grades'));
+    }
 
     public function nickelBasedSuperalloys()
     {
@@ -355,7 +380,6 @@ class MainController extends Controller
 
     }
 
-
     public function engineeringSteels()
     {
         $grades = [
@@ -380,16 +404,17 @@ class MainController extends Controller
 
         return view('frontend.materials.engineering-steels.index', compact('grades'));
     }
-public function engineeringSteelsGrade($slug)
-{
-    $viewPath = 'frontend.materials.engineering-steels.' . $slug;
 
-    if (view()->exists($viewPath)) {
-        return view($viewPath);
+    public function engineeringSteelsGrade($slug)
+    {
+        $viewPath = 'frontend.materials.engineering-steels.'.$slug;
+
+        if (view()->exists($viewPath)) {
+            return view($viewPath);
+        }
+
+        abort(404);
     }
-
-    abort(404);
-}
 
     public function copperAlloys()
     {
@@ -434,6 +459,7 @@ public function engineeringSteelsGrade($slug)
 
         return view('frontend.materials.haynes-superalloys.index', compact('grades'));
     }
+
     public function duplexAndSuperDuplex()
     {
         $grades = [
@@ -445,6 +471,7 @@ public function engineeringSteelsGrade($slug)
 
         return view('frontend.materials.duplex-and-super-duplex.index', compact('grades'));
     }
+
     public function highStrengthStainlessSteel()
     {
         $grades = [
@@ -457,8 +484,6 @@ public function engineeringSteelsGrade($slug)
         return view('frontend.materials.high-strength-stainless-steel.index', compact('grades'));
     }
 
-
-
     public function showMaterialGrade($family, $grade)
     {
         $viewPath = "frontend.materials.$family.$grade";
@@ -470,8 +495,6 @@ public function engineeringSteelsGrade($slug)
         abort(404, 'Material grade page not found.');
     }
 
-
-
     // public function nickelAlloys()
     // {
     //     return view('frontend.materials.nickel-alloys.index');
@@ -480,6 +503,7 @@ public function engineeringSteelsGrade($slug)
     {
         return view('frontend.materials.hastelloy-c276');
     }
+
     public function showMaterial($category, $slug)
     {
         $viewPath = "frontend.materials.$category.$slug";
@@ -489,6 +513,7 @@ public function engineeringSteelsGrade($slug)
         }
         abort(code: 404);
     }
+
     public function products()
     {
         return view('frontend.products.index');
@@ -513,6 +538,7 @@ public function engineeringSteelsGrade($slug)
     {
         return view('frontend.products.pipes-tubes.welded-pipes');
     }
+
     public function seamlessPipes()
     {
         return view('frontend.products.pipes-tubes.seamless-pipes');
@@ -557,14 +583,17 @@ public function engineeringSteelsGrade($slug)
     {
         return view('frontend.products.special-fabricated.custom-steel-furniture');
     }
+
     public function fabricatedSsGrills()
     {
         return view('frontend.products.special-fabricated.fabricated-ss-grills');
     }
+
     public function ssrailings()
     {
         return view('frontend.products.special-fabricated.ss-railings');
     }
+
     public function glassrailings()
     {
         return view('frontend.products.special-fabricated.glass-railings');
@@ -583,22 +612,27 @@ public function engineeringSteelsGrade($slug)
 
         return view('frontend.products.pipe-fittings-flanges-fasteners.index', compact('types'));
     }
+
     public function fittingsAndFlanges()
     {
         return view('frontend.products.pipe-fittings-flanges-fasteners.fittings-and-flanges');
     }
+
     public function flangesAndGaskets()
     {
         return view('frontend.products.pipe-fittings-flanges-fasteners.flanges-and-gaskets');
     }
+
     public function customFabricatedFittings()
     {
         return view('frontend.products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings');
     }
+
     public function fasteners()
     {
         return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners');
     }
+
     public function pipeFittings()
     {
         return view('frontend.products.pipe-fittings-flanges-fasteners.pipe-fittings');
@@ -622,27 +656,31 @@ public function engineeringSteelsGrade($slug)
     {
         return view('frontend.products.bars-rods.square-bars');
     }
+
     public function threadedRods()
     {
         return view('frontend.products.bars-rods.threaded-rods');
     }
+
     public function roundBars()
     {
         return view('frontend.products.bars-rods.round-bars');
     }
+
     public function hollowBars()
     {
         return view('frontend.products.bars-rods.hollow-bars');
     }
+
     public function hexagonBars()
     {
         return view('frontend.products.bars-rods.hexagon-bars');
     }
+
     public function flatBars()
     {
         return view('frontend.products.bars-rods.flat-bars');
     }
-
 
     public function sheetsPlatesCoils()
     {
@@ -662,71 +700,95 @@ public function engineeringSteelsGrade($slug)
     {
         return view('frontend.products.sheets-plates-coils.chequered-sheets');
     }
+
     public function strips()
     {
         // dd("I AM HERE");
         return view('frontend.products.sheets-plates-coils.strips');
     }
+
     public function shimsheets()
     {
         return view('frontend.products.sheets-plates-coils.shim-sheets');
     }
+
     public function sheetsandplates()
     {
         return view('frontend.products.sheets-plates-coils.sheets-and-plates');
     }
+
     public function perforatedsheets()
     {
         return view('frontend.products.sheets-plates-coils.perforated-sheets');
     }
+
     public function coils()
     {
         return view('frontend.products.sheets-plates-coils.coils');
     }
+
     public function claddedplates()
     {
         return view('frontend.products.sheets-plates-coils.cladded-plates');
     }
 
-
     public function downloadDatasheet()
-{
-    // Path to PDF in storage/app/public/datasheets/
-    $filePath = storage_path('app/public/datasheets/en8.pdf');
-
-    if (!file_exists($filePath)) {
-        abort(404, 'File not found');
-    }
-
-    // Return PDF as download
-    return response()->download($filePath, 'EN8_Steel_Datasheet.pdf');
-}
-}
-
-
-
-namespace App\Http\Controllers;
-
-use Illuminate\Http\Request;
-
-class LeadController extends Controller
-{
-    public function store(Request $request)
     {
-        // Validate email
-        $request->validate([
-            'email' => 'required|email',
-        ]);
+        // Path to PDF in storage/app/public/datasheets/
+        $filePath = storage_path('app/public/datasheets/en8.pdf');
 
-        // Path to datasheet in public folder
-        $filePath = public_path('datasheets/EN8_Datasheet_v2.docx');
-
-        if (!file_exists($filePath)) {
-            return back()->with('error', 'Datasheet file not found!');
+        if (! file_exists($filePath)) {
+            abort(404, 'File not found');
         }
 
-        // Download the file
-        return response()->download($filePath, 'EN8_Datasheet.docx');
+        // Return PDF as download
+        return response()->download($filePath, 'EN8_Steel_Datasheet.pdf');
+    }
+
+    public function dashboard()
+    {
+        // $blogsCount = Blog::count();
+
+        // // Only count properties with p_status = 1
+        // $propertiesCount = Property::where('p_status', 1)->count();
+
+        // // Only count interiors with status = 1
+        // $interiorsCount = Interior::where('status', 1)->count();
+
+        // dd('dashboard5');
+
+        $data = [
+            'blogsCount' => Blog::count(),
+            'categoriesCount' => BlogCategory::count(),
+            'tagsCount' => Tag::count(),
+        ];
+
+        return view('backend.dashboard', $data);
+
     }
 }
 
+// namespace App\Http\Controllers;
+
+// use Illuminate\Http\Request;
+
+// class LeadController extends Controller
+// {
+//     public function store(Request $request)
+//     {
+//         // Validate email
+//         $request->validate([
+//             'email' => 'required|email',
+//         ]);
+
+//         // Path to datasheet in public folder
+//         $filePath = public_path('datasheets/EN8_Datasheet_v2.docx');
+
+//         if (! file_exists($filePath)) {
+//             return back()->with('error', 'Datasheet file not found!');
+//         }
+
+//         // Download the file
+//         return response()->download($filePath, 'EN8_Datasheet.docx');
+//     }
+// }

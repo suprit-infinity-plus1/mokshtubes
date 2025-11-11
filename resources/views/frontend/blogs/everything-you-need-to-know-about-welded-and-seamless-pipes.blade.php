@@ -1,7 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Welded vs Seamless Pipes Guide | Moksh Tubes')
-@section('meta_description', 'Learn the differences, uses, and benefits of welded & seamless pipes. Moksh Tubes offers
+@section('meta_description',
+    'Learn the differences, uses, and benefits of welded & seamless pipes. Moksh Tubes offers
     certified products for global industries.')
 @section('meta_keywords',
     'welded pipes, seamless pipes, welded vs seamless, pipe types, pipe applications, industrial
@@ -29,7 +30,8 @@
                         <div class="single-blog-post">
                             <div class="img-holder">
                                 <img src="{{ asset('assets/images/blog/seamless_welded_pipes.jpeg') }}"
-                                    alt="everything-you-need-to-know-about-welded-and-seamless-pipes" style="width:700px; height:400px; object-fit:cover;>
+                                    alt="everything-you-need-to-know-about-welded-and-seamless-pipes"
+                                    style="width:700px; height:400px; object-fit:cover;>
                             </div>
                             <div class="text-holder">
                                 <div class="blog-title text-start">
@@ -610,13 +612,12 @@
                                 </li>
                                 <li>
                                     <div class="img-holder">
-                                        <img src="{{ asset('assets/images/blogs/thumb/india’s-stainless-steel-export-industry-thumb.webp') }}"
+                                        <img src="{{ asset('assets/images/blogs/thumb/indias-stainless-steel-export-industry-thumb.webp') }}"
                                             alt="Awesome Image">
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a
-                                                        href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
+                                                    <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -643,7 +644,7 @@
                                 <div class="col-md-12">
                                     <div class="card-body ">
                                         <!-- Heading -->
-                                       <div class="section-title">
+                                        <div class="section-title">
                                             <h2>Locate <span class="thm-color">Us</span></h2>
                                             {{-- <p>Let’s forge a connection — contact our team today.</p> --}}
                                         </div>
@@ -672,9 +673,10 @@
                                             Kamatipura Mumbai
                                         </p>
                                         <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
-                                <strong>Office Address:</strong> 92E, Plot No. 3, New Tank Bunder, Darukhana, Mumbai,
-                                Maharashtra- 400 010.
-                            </p>
+                                            <strong>Office Address:</strong> 92E, Plot No. 3, New Tank Bunder, Darukhana,
+                                            Mumbai,
+                                            Maharashtra- 400 010.
+                                        </p>
 
                                         <!-- Social Icons -->
                                         {{-- <div class="mt-3 text-center">

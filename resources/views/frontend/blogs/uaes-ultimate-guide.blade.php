@@ -615,7 +615,8 @@
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a href="{{ route('blogs.the-role-of-high-performance') }}" aria-label="Read blog: The Role of High Performance">
+                                                    <a href="{{ route('blogs.the-role-of-high-performance') }}"
+                                                        aria-label="Read blog: The Role of High Performance">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -623,7 +624,8 @@
                                         </div>
                                     </div>
                                     <div class="title-holder">
-                                        <a href="{{ route('blogs.the-role-of-high-performance') }}" aria-label="Read blog: The Role of High Performance">
+                                        <a href="{{ route('blogs.the-role-of-high-performance') }}"
+                                            aria-label="Read blog: The Role of High Performance">
                                             <h5 class="post-title">
                                                 The Role of High Performance Alloys in Desalination Plants
                                             </h5>
@@ -636,13 +638,12 @@
                                 </li>
                                 <li>
                                     <div class="img-holder">
-                                        <img src="{{ asset('assets/images/blogs/thumb/india’s-stainless-steel-export-industry-thumb.webp') }}"
+                                        <img src="{{ asset('assets/images/blogs/thumb/indias-stainless-steel-export-industry-thumb.webp') }}"
                                             alt="Awesome Image">
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a
-                                                        href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
+                                                    <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -650,7 +651,8 @@
                                         </div>
                                     </div>
                                     <div class="title-holder">
-                                        <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}" aria-label="Read blog: india’s-stainless-steel-export-industry">
+                                        <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}"
+                                            aria-label="Read blog: indias-stainless-steel-export-industry">
                                             <h5 class="post-title">
                                                 India’s Stainless Steel Exports – Moksh Tubes Global Reach
                                             </h5>
@@ -697,9 +699,10 @@
                                             <strong>Office Address:</strong> 95/95A, Dawood Baug, Sukhlaji Street,
                                             Kamatipura Mumbai
                                         </p>
-                                         <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
-                                                <strong>Office Address:</strong> 92E, Plot No. 3, New Tank Bunder, Darukhana, Mumbai, Maharashtra- 400 010.
-                                            </p>
+                                        <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
+                                            <strong>Office Address:</strong> 92E, Plot No. 3, New Tank Bunder, Darukhana,
+                                            Mumbai, Maharashtra- 400 010.
+                                        </p>
 
                                         <!-- Social Icons -->
                                         {{-- <div class="mt-3 text-center">

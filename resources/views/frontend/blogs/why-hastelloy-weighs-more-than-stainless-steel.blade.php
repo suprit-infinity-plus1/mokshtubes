@@ -496,7 +496,8 @@
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a href="{{ route('blogs.the-role-of-high-performance') }}" aria-label="blogs: the role of high performance">
+                                                    <a href="{{ route('blogs.the-role-of-high-performance') }}"
+                                                        aria-label="blogs: the role of high performance">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -517,13 +518,13 @@
                                 </li>
                                 <li>
                                     <div class="img-holder">
-                                        <img src="{{ asset('assets/images/blogs/thumb/india’s-stainless-steel-export-industry-thumb.webp') }}"
+                                        <img src="{{ asset('assets/images/blogs/thumb/indias-stainless-steel-export-industry-thumb.webp') }}"
                                             alt="Awesome Image">
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a
-                                                        href="{{ route('blogs.indias-stainless-steel-export-industry') }}" aria-label="blogs india’s-stainless-steel-export-industry">
+                                                    <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}"
+                                                        aria-label="blogs indias-stainless-steel-export-industry">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -580,7 +581,8 @@
                                                 Kamatipura Mumbai
                                             </p>
                                             <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
-                                                <strong>Office Address:</strong> 92E, Plot No. 3, New Tank Bunder, Darukhana, Mumbai, Maharashtra- 400 010.
+                                                <strong>Office Address:</strong> 92E, Plot No. 3, New Tank Bunder,
+                                                Darukhana, Mumbai, Maharashtra- 400 010.
                                             </p>
 
                                             <!-- Social Icons -->

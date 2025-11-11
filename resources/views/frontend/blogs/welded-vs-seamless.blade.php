@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Welded vs Seamless Pipes: Key Facts & Uses')
-@section('meta_description', 'Discover the differences between welded and seamless pipes, their benefits, applications,
+@section('meta_description',
+    'Discover the differences between welded and seamless pipes, their benefits, applications,
     and how to choose the right pipe for your project.')
-@section('meta_keywords', 'welded pipes, seamless pipes, welded vs seamless, pipe types, pipe applications, industrial
+@section('meta_keywords',
+    'welded pipes, seamless pipes, welded vs seamless, pipe types, pipe applications, industrial
     pipes, steel pipes, pipe benefits')
 
 
@@ -40,8 +42,9 @@
                                         Choosing the right <strong class="text-black">stainless steel pipes</strong> can
                                         make or break your industrial project.
                                         Whether you're building a chemical processing plant, constructing a high rise
-                                        building, or designing a marine vessel, the <a href="{{ route('products.pipes-tubes') }}">pipe type you select directly impacts
-                                        performance, safety, and costs.
+                                        building, or designing a marine vessel, the <a
+                                            href="{{ route('products.pipes-tubes') }}">pipe type you select directly impacts
+                                            performance, safety, and costs.
                                     </p>
                                 </div>
                                 <div class="text">
@@ -1104,27 +1107,32 @@
                                     <h4 class="fw-bold mb-4">Products We Offer</h4>
                                     <ul class="list-unstyled mb-4">
                                         <li class="product-item mb-2">
-                                            <a href="{{ route('products.pipes-tubes') }}" class="product-link" aria-label="Pipes & Tubes">
+                                            <a href="{{ route('products.pipes-tubes') }}" class="product-link"
+                                                aria-label="Pipes & Tubes">
                                                 <i class="bi bi-box-seam me-2"></i> Pipes & Tubes
                                             </a>
                                         </li>
                                         <li class="product-item mb-2">
-                                            <a href="{{ route('products.sheets-plates-coils') }}" class="product-link" aria-label="sheets, Plates & Coils">
+                                            <a href="{{ route('products.sheets-plates-coils') }}" class="product-link"
+                                                aria-label="sheets, Plates & Coils">
                                                 <i class="bi bi-square me-2"></i> Sheets, Plates & Coils
                                             </a>
                                         </li>
                                         <li class="product-item mb-2">
-                                            <a href="{{ route('products.bars-rods') }}" class="product-link" aria-label="Bars & Rods">
+                                            <a href="{{ route('products.bars-rods') }}" class="product-link"
+                                                aria-label="Bars & Rods">
                                                 <i class="bi bi-diagram-3 me-2"></i> Bars & Rods
                                             </a>
                                         </li>
                                         <li class="product-item mb-2">
-                                            <a href="{{ route('products.special-fabricated') }}" class="product-link" aria-label="Special Fabricated">
+                                            <a href="{{ route('products.special-fabricated') }}" class="product-link"
+                                                aria-label="Special Fabricated">
                                                 <i class="bi bi-tools me-2"></i> Special Fabricated
                                             </a>
                                         </li>
                                         <li class="product-item mb-2">
-                                            <a href="{{ route('products.pipe-fittings-flanges-fasteners') }}" class="product-link" aria-label="Pipe Fittings, Flanges & Fasteners">
+                                            <a href="{{ route('products.pipe-fittings-flanges-fasteners') }}"
+                                                class="product-link" aria-label="Pipe Fittings, Flanges & Fasteners">
                                                 <i class="bi bi-nut me-2"></i> Pipe Fittings, Flanges & Fasteners
                                             </a>
                                         </li>
@@ -1230,13 +1238,12 @@
                                 </li>
                                 <li>
                                     <div class="img-holder">
-                                        <img src="{{ asset('assets/images/blogs/thumb/india’s-stainless-steel-export-industry-thumb.webp') }}"
+                                        <img src="{{ asset('assets/images/blogs/thumb/indias-stainless-steel-export-industry-thumb.webp') }}"
                                             alt="Awesome Image">
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a
-                                                        href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
+                                                    <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -1258,7 +1265,7 @@
                             </ul>
                         </div>
                         <!--End single sidebar-->
-<div class="container my-5">
+                        <div class="container my-5">
                             <div class="row justify-content-center">
                                 <div class="col-md-12">
                                     <div class="card-body ">
@@ -1291,9 +1298,10 @@
                                             <strong>Office Address:</strong> 95/95A, Dawood Baug, Sukhlaji Street,
                                             Kamatipura Mumbai
                                         </p>
-                                         <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
-                                                <strong>Office Address:</strong> 92E, Plot No. 3, New Tank Bunder, Darukhana, Mumbai, Maharashtra- 400 010.
-                                            </p>
+                                        <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
+                                            <strong>Office Address:</strong> 92E, Plot No. 3, New Tank Bunder, Darukhana,
+                                            Mumbai, Maharashtra- 400 010.
+                                        </p>
 
                                         <!-- Social Icons -->
                                         {{-- <div class="mt-3 text-center">
