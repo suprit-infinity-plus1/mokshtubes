@@ -37,7 +37,7 @@
                                 <div class="text">
                                     <p>
                                     When engineers, buyers, or project managers compare stainless steel seamless vs ERW pipes, 
-                                    the discussion usually starts with cost. But the real decision goes much deeper—pressure rating, 
+                                    the discussion usually starts with cost. But the real decision goes much deeper pressure rating, 
                                     temperature, corrosion environment, QA requirements, and applicable codes all determine which pipe is the correct choice.
                                     </p>
                                 </div>
@@ -58,9 +58,9 @@
 
 
 
-                                <section id="blog-area" class="blog-with-sidebar-area blog-single-area">
+                                <section id="blog-area" class="blog-with-sidebar-area blog-single-area pb-0">
                                     <div class="blog-title text-start">
-                                        <h2>Use-Case Comparison: Seamless vs ERW Pipes</h2>
+                                        <h2>Use Case Comparison: Seamless vs ERW Pipes</h2>
                                         <div class="text pt-2">
                                             <p>
                                                 The main choice between seamless and ERW depends on the application requirements.
@@ -99,7 +99,7 @@
                                         This makes them stronger and more dependable in extreme operating conditions.</p>
                                         </div>
                                         <div class="exapmle">
-                                            <h3>Where ERW Pipes Are Better</h3>
+                                            <h3 style="margin-top:10px">Where ERW Pipes Are Better</h3>
                                             <ul>
                                                 <li>
                                                     Low to medium-pressure utilities (water, air, nitrogen, condensate return, cooling water).
@@ -131,25 +131,12 @@
                                         
                                     </div>
                                 </section>
-                                <!-- Seamless Pipes
-    •	
-    Higher pressure capacity
-    •	
-    •	
-    Uniform microstructure with no weld defects
-    •	
-    •	
-    Superior resistance to thermal & mechanical fatigue
-    •	
-    •	
-    Wider tolerance range due to hot finishing
-    •	
-    -->
+
 
                                 <section id="blog-area" class="blog-with-sidebar-area blog-single-area">
                                     <div class="blog-title text-start">
-                                        <h2 class="pt-10">Mechanical Properties</h2>
-                                        <div class="text pt-2">
+                                        <h2 class="pt-0">Mechanical Properties</h2>
+                                        <div class="text pt-0 pb-0">
                                             <p>
                                                 Let's break down how these two materials stack up against each other in the
                                                 areas that matter most for industrial and construction applications.
@@ -224,8 +211,9 @@
                                                 long-term value and life cycle cost.
                                             </p>
                                         </div>
+                                         <div class="blog-title text-start">
+                                        <h2>Standards & Testing Requirements</h2></div>
                                         <div class="exapmle">
-                                            <h3>Standards & Testing Requirements</h3>
                                             <h3>Common Standards</h3>
                                             <ul>
                                                 <li>
@@ -245,21 +233,24 @@
                                             </ul>
                                             
                                         </div>
+                                         <div class="blog-title text-start">
+                                        <h2>Common Mistakes When Choosing Between Seamless and ERW Pipes</h2>
+                                         </div>
                                         <div class="exapmle">
-                                            <h3>Common Mistakes When Choosing Between </h3>
-                                            <h3>Seamless and ERW Pipes</h3>
-                                            <h3>1. Choosing seamless just because "it's stronger"</h3>
+                                         
+                                            <h3 style="color: #174268">Choosing seamless just because "it's stronger"</h3>
                                                 <p>For water lines, cooling lines, utilities, and general piping—ERW is perfectly suitable and reduces cost.</p>
-                                                <h3>2. Ignoring the quality of the ERW weld seam</h3>
+                                                <h3 style="color: #174268">Ignoring the quality of the ERW weld seam</h3>
                                                 <p>The weld area must be tested (UT/EC) to ensure reliability.</p>
-                                                <h3>3. Not following engineering design codes</h3>
+                                                <h3 style="color: #174268">Not following engineering design codes</h3>
                                                 <p>Final selection must comply with ASME B31.3, pressure charts, and corrosion allowance requirements.</p>
-                                                <h3>4. Overlooking lifecycle cost</h3>
+                                                <h3 style="color: #174268">Overlooking lifecycle cost</h3>
                                                 <p>For water lines, cooling lines, utilities, and general piping—ERW is perfectly suitable and reduces cost.</p>
                                                 
                                         </div>
                                         <div class="exapmle">
-                                            <h3>Conclusion: Which One Should You Choose?</h3>
+                                            <h3>Conclusion: 
+                                                <br>Which One Should You Choose?</h3>
                                             
                                                 <h3>Choose seamless for</h3>
                                             <ul>
@@ -282,13 +273,13 @@
                                                 <li style="list-style: none">✅ QA specifications</li>
                                                 <li style="list-style: none">✅ Operating environment</li>
                                                 <li style="list-style: none">✅ Total lifecycle cost</li>
-                                            <p>—not just the initial material price.</p>
+                                            <p><strong>not just the initial material price.</strong></p>
                                         </ul>
 
                                         </div>
                                     </div>
                                 </section>
-                                <section class="faq-content-area sec-padd2">
+                                <section class="faq-content-area">
     <div class="container">
         <div class="section-title center">
             <h2>FAQ's</h2>
