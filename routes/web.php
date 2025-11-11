@@ -126,6 +126,18 @@ Route::redirect(
 );
 
 
+
+// --------------------- Cookies --------------------
+// Cookie consent accept
+Route::get('/cookie/accept', function () {
+    return response('Accepted')->cookie('cookie_consent', 'accepted', 60*24*365); // valid for 1 year
+})->name('cookie.accept');
+
+// Cookie consent reject
+Route::get('/cookie/reject', function () {
+    return response('Rejected')->cookie('cookie_consent', 'rejected', 60*24*365);
+})->name('cookie.reject');
+
 // Route::get('/materials/nickel-alloys', [MainController::class, 'nickelAlloys'])->name('materials.nickel-alloys');
 
 Route::get('/dashboard', function () {

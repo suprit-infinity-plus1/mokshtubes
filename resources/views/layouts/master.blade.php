@@ -16,7 +16,7 @@
     {{-- Canonical Tag --}}
     <link rel="canonical" href="@yield('canonical', url()->current())">
 
-    {{--<meta name="title" content="@yield('meta_title')">
+    {{-- <meta name="title" content="@yield('meta_title')">
     <meta name="description" content="@yield('meta_description')">
     <meta name="keyword" content="@yield('meta_keyword')"> --}}
     {{-- <link rel="canonical" href="@yield('canonical')">
@@ -720,6 +720,34 @@
 
 
 
+        <!-- Cookie Consent Popup -->
+        @if (!Cookie::get('cookie_consent'))
+            <!-- Cookie Consent Popup -->
+            <div id="cookie-consent" class="position-fixed p-3 text-white shadow-lg rounded"
+                style="background: rgba(33,33,33,0.95);
+            bottom: 20px;
+            left: 20px;
+            max-width: 320px;
+            z-index: 2000;
+            display: none;">
+                <p class="mb-3 small">
+                    🍪 We use cookies to improve your experience on our website.
+                    <a href="{{ url('/privacy-policy') }}" class="text-decoration-underline text-warning">Learn
+                        more</a>.
+                </p>
+                <div class="d-flex justify-content-end gap-2">
+                    <button id="accept-cookies" class="btn btn-sm text-white"
+                        style="background-color:#db7227;">Accept</button>
+                    <button id="reject-cookies" class="btn btn-sm border text-white"
+                        style="border-color:#db7227;">Reject</button>
+                </div>
+            </div>
+        @endif
+
+
+
+
+
 
         <!--Scroll to top-->
         <div class="scroll-to-top scroll-to-target" data-bs-target="html"><span class="fa fa-angle-up"></span></div>
@@ -728,6 +756,17 @@
         <script src="{{ asset('assets/js/jquery.js') }}"></script>
         <!-- bootstrap -->
         <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                // show popup after 2 seconds
+                setTimeout(() => {
+                    const popup = document.getElementById("cookie-consent");
+                    popup.style.display = "block";
+                    popup.classList.add("show-popup");
+                }, 3000);
+            });
+        </script>
+
 
 
         <!-- Bootstrap 5.3 Bundle JS (includes Popper) -->
@@ -820,8 +859,8 @@
 
 
 
-</div>
-@yield('extrajs')
+    </div>
+    @yield('extrajs')
     @yield('jsscripts')
 </body>
 
