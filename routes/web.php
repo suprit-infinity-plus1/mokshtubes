@@ -1,19 +1,17 @@
 <?php
 
+use App\Http\Controllers\BlogController;
+use App\Http\Controllers\DatasheetLeadController;
+use App\Http\Controllers\LeadController;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\BlogController;
-use App\Http\Controllers\LeadController;
-
 
 // Route::get('/', function () {
 //     return view('welcome');
 // })
 
-Route::post('/lead-capture', [LeadController::class, 'store'])->name('lead.capture');
-
-
+// Route::post('/lead-capture', [LeadController::class, 'store'])->name('lead.capture');
 
 Route::get('/', [MainController::class, 'home'])->name('index');
 Route::get('/home', [MainController::class, 'home'])->name('home');
@@ -27,9 +25,7 @@ Route::get('/calculator', [MainController::class, 'calculator'])->name('calculat
 Route::get('/materials', [MainController::class, 'materials'])->name('materials');
 // Route::get('/blogs', [MainController::class, 'blogs'])->name('blogs');
 Route::get('/blogs', [BlogController::class, 'blogs'])->name('blogs');
-Route::post('/lead-capture', [LeadController::class, 'store'])->name('lead.capture');
-
-
+Route::post('/lead-capture', [DatasheetLeadController::class, 'store'])->name('lead.capture');
 
 Route::get('/materials/hastelloy', [MainController::class, 'hastelloy'])->name('materials.hastelloy');
 Route::get('/materials/monel', [MainController::class, 'monel'])->name('materials.monel');
@@ -83,7 +79,6 @@ Route::get('/products/sheets-plates-coils/perforated-sheets', [MainController::c
 Route::get('/products/sheets-plates-coils/coils', [MainController::class, 'coils'])->name('products.sheets-plates-coils.coils');
 Route::get('/products/sheets-plates-coils/cladded-plates', [MainController::class, 'claddedplates'])->name('products.sheets-plates-coils.cladded-plates');
 
-
 // Bars & Rods
 Route::get('/products/bars-rods', [MainController::class, 'barsRods'])->name('products.bars-rods');
 Route::get('/products/bars-rods/square-bars', [MainController::class, 'squareBars'])->name('products.bars-rods.square-bars');
@@ -93,19 +88,18 @@ Route::get('/products/bars-rods/hollow-bars', [MainController::class, 'hollowBar
 Route::get('/products/bars-rods/hexagon-bars', [MainController::class, 'hexagonBars'])->name('products.bars-rods.hexagon-bars');
 Route::get('/products/bars-rods/flat-bars', [MainController::class, 'flatBars'])->name('products.bars-rods.flat-bars');
 
-
-//blogs//
+// blogs//
 Route::get('/blogs/stainless-steel-inconel-tubes', [MainController::class, 'StainlessSteelInconelTubes'])->name('blogs.stainless-steel-inconel-tubes');
 Route::get('/blogs/10-mistakes-to-avoid-when-buying-stainless-steel-pipes', [MainController::class, 'tenMistakesToAvoidWhenBuyingStainlessSteelPipes'])->name('blogs.10-mistakes-to-avoid-when-buying-stainless-steel-pipes');
 Route::get('/blogs/emerging-trends-in-industrial-piping-for-2025-and-beyond', [MainController::class, 'emergingTrendsInIndustrialPipingFor2025AndBeyond'])->name('blogs.emerging-trends-in-industrial-piping-for-2025-and-beyond');
 Route::get('/blogs/everything-you-need-to-know-about-welded-and-seamless-pipes', [MainController::class, 'everythingYouNeedToKnowAboutWeldedAndSeamlessPipes'])->name('blogs.everything-you-need-to-know-about-welded-and-seamless-pipes');
-Route::get('/blogs/india’s-stainless-steel-export-industry', [MainController::class, 'india’sStainlessSteelExportIndustry'])->name('blogs.india’s-stainless-steel-export-industry');
+Route::get('/blogs/indias-stainless-steel-export-industry', [MainController::class, 'indiasStainlessSteelExportIndustry'])->name('blogs.indias-stainless-steel-export-industry');
 Route::get('/blogs/the-role-of-high-performance', [MainController::class, 'theRoleOfHighPerformance'])->name('blogs.the-role-of-high-performance');
 Route::get('/blogs/top-7-advantages-of-using', [MainController::class, 'topSevenAdvantagesOfUsing'])->name('blogs.top-7-advantages-of-using');
 Route::get('/blogs/welded-vs-seamless', [MainController::class, 'weldedVsSeamless'])->name('blogs.welded-vs-seamless');
 Route::get('/blogs/why-hastelloy-weighs-more-than-stainless-steel', [MainController::class, 'whyHastelloyWeighsMoreThanStainlessSteel'])->name('blogs.why-hastelloy-weighs-more-than-stainless-steel');
 Route::get('/blogs/din-standard-metal-alloys', [MainController::class, 'dinStandardMetalAlloys'])->name('blogs.din-standard-metal-alloys');
-Route::get('/blogs/uae’s-ultimate-guide', [MainController::class, 'Uae’sUltimateGuide'])->name('blogs.uae’s-ultimate-guide');
+Route::get('/blogs/uaes-ultimate-guide', [MainController::class, 'Uae’sUltimateGuide'])->name('blogs.uaes-ultimate-guide');
 Route::get('/blogs/stainless-steel-uses-in-kitchen', [MainController::class, 'stainlessSteelUsesInKitchen'])->name('blogs.stainless-steel-uses-in-kitchen');
 Route::get('/blogs/where-to-buy-high-quality', [MainController::class, 'WhereToBuyHighQuality'])->name('blogs.where-to-buy-high-quality');
 Route::get('/blogs/how-to-choose-the-best-stainless-steel-pipes', [MainController::class, 'howToChooseTheBestStainlessSteelPipes'])->name('blogs.how-to-choose-the-best-stainless-steel-pipes');
@@ -124,12 +118,56 @@ Route::redirect(
     301
 );
 
-
 // Route::get('/materials/nickel-alloys', [MainController::class, 'nickelAlloys'])->name('materials.nickel-alloys');
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+Route::post('/datasheet-leads-capture', [DatasheetLeadController::class, 'store'])->name('lead.capture');
+
+Route::prefix('admin')->group(function () {
+    Route::middleware('auth')->group(function () {
+        Route::get('/dashboard', [MainController::class, 'dashboard'])->middleware(['auth', 'verified'])->name('dashboard');
+
+        Route::prefix('blogs')->group(function () {
+
+            Route::get('/', [BlogController::class, 'blogss'])->name('admin.blogs');
+            Route::get('/add', [BlogController::class, 'blogsAdd'])->name('admin.blogs.add');
+            Route::get('/edit/{id}', [BlogController::class, 'blogsEdit'])->name('admin.blogs.edit');
+            Route::post('/delete/{id}', [BlogController::class, 'blogsDelete'])->name('admin.blogs.delete');
+            Route::post('/store', [BlogController::class, 'store'])->name('admin.blogs.store');
+            Route::post('/update/{id}', [BlogController::class, 'blogsUpdate'])->name('admin.blogs.update');
+
+            // Blog Categories
+            Route::get('/categories', [BlogController::class, 'categories'])->name('admin.blogs.categories');
+            Route::get('/categories/add', [BlogController::class, 'categoriesAdd'])->name('admin.blogs.categories.add');
+            Route::get('/categories/edit/{id}', [BlogController::class, 'categoriesEdit'])->name('admin.blogs.categories.edit');
+            Route::post('/categories/delete/{id}', [BlogController::class, 'categoriesDelete'])->name('admin.blogs.categories.delete');
+            Route::post('/categories/store', [BlogController::class, 'categoriesStore'])->name('admin.blogs.categories.store');
+            Route::post('/categories/update/{id}', [BlogController::class, 'categoriesUpdate'])->name('admin.blogs.categories.update');
+
+            // Blog Tags
+            Route::get('/tags', [BlogController::class, 'tags'])->name('admin.blogs.tags');
+            Route::get('/tags/add', [BlogController::class, 'tagsAdd'])->name('admin.blogs.tags.add');
+            Route::get('/tags/edit/{id}', [BlogController::class, 'tagsEdit'])->name('admin.blogs.tags.edit');
+            Route::post('/tags/delete/{id}', [BlogController::class, 'tagsDelete'])->name('admin.blogs.tags.delete');
+            Route::post('/tags/store', [BlogController::class, 'tagsStore'])->name('admin.blogs.tags.store');
+            Route::post('/tags/update/{id}', [BlogController::class, 'tagsUpdate'])->name('admin.blogs.tags.update');
+        });
+
+        // Datasheets
+        Route::prefix('datasheet-leads')->group(function () {
+            Route::get('/', [DatasheetLeadController::class, 'datasheets'])->name('datasheet');
+            // Route::get('/add', [DatasheetLeadController::class, 'create'])->name('Datasheet.add');
+            Route::get('/edit/{id}', [DatasheetLeadController::class, 'edit'])->name('datasheet.edit');
+            Route::post('/update/{id}', [DatasheetLeadController::class, 'update'])->name('datasheet.update');
+
+            Route::post('/delete/{id}', [DatasheetLeadController::class, 'destroy'])->name('Datasheet.delete');
+        });
+    });
+});
+Route::get('/datasheet/export', [DatasheetLeadController::class, 'export'])->name('datasheet.export');
+
+// Route::get('/dashboard', function () {
+//     return view('dashboard');
+// })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
@@ -137,4 +175,4 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-require __DIR__ . '/auth.php';
+require __DIR__.'/auth.php';

@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Stainless Steel Kitchen & Food Industry Applications Guide')
-@section('meta_description', 'Discover why stainless steel is ideal for kitchens & the food industry — hygienic, durable
+@section('meta_description',
+    'Discover why stainless steel is ideal for kitchens & the food industry — hygienic, durable
     & safe for commercial & residential use.')
-@section('meta_keywords', 'Stainless Steel Kitchen, Food Industry Stainless Steel, Stainless Steel Cookware, Commercial
+@section('meta_keywords',
+    'Stainless Steel Kitchen, Food Industry Stainless Steel, Stainless Steel Cookware, Commercial
     Kitchen Materials, Food Processing Equipment, Hygienic Kitchen Surfaces, Durable Kitchen Materials, Stainless Steel
     Appliances, Food Safety Materials, Stainless Steel Benefits')
 
@@ -459,13 +461,12 @@
                                 </li>
                                 <li>
                                     <div class="img-holder">
-                                        <img src="{{ asset('assets/images/blogs/thumb/india’s-stainless-steel-export-industry-thumb.webp') }}"
+                                        <img src="{{ asset('assets/images/blogs/thumb/indias-stainless-steel-export-industry-thumb.webp') }}"
                                             alt="Awesome Image">
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a
-                                                        href="{{ route('blogs.india’s-stainless-steel-export-industry') }}">
+                                                    <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -473,7 +474,7 @@
                                         </div>
                                     </div>
                                     <div class="title-holder">
-                                        <a href="{{ route('blogs.india’s-stainless-steel-export-industry') }}">
+                                        <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
                                             <h5 class="post-title">
                                                 India’s Stainless Steel Exports – Moksh Tubes Global Reach
                                             </h5>

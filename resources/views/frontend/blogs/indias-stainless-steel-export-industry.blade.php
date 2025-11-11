@@ -1,8 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'India’s Stainless Steel Export Industry | Moksh Tubes ')
-@section('meta_description',
-    ' Moksh Tubes exports high-quality stainless steel pipe fittings from Mumbai to 30+ countries, ensuring trusted global distribution and superior service.')
+@section('meta_description', ' Moksh Tubes exports high-quality stainless steel pipe fittings from Mumbai to 30+
+    countries, ensuring trusted global distribution and superior service.')
 
 
 @section('content')
@@ -26,7 +26,7 @@
                         <div class="single-blog-post">
                             <div class="img-holder" style="position:relative;width:100%;aspect-ratio:3/2;overflow:hidden;">
                                 <img src="{{ asset('assets/images/blog/indias-stainless-steel-export-industry.webp') }}"
-                                    alt="india’s-stainless-steel-export-industry"
+                                    alt="indias-stainless-steel-export-industry"
                                     style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
                             </div>
 
@@ -37,7 +37,9 @@
                                 <div class="text">
                                     <p>
                                         India has emerged as a global leader in stainless steel production and exports,
-                                        thanks to its robust manufacturing capabilities and <a href="{{ route('blogs.where-to-buy-high-quality') }}">high quality</a> outputs. The
+                                        thanks to its robust manufacturing capabilities and <a
+                                            href="{{ route('blogs.where-to-buy-high-quality') }}">high quality</a> outputs.
+                                        The
                                         country’s stainless steel export industry caters to diverse sectors such as
                                         construction, oil and gas, chemical processing, and water treatment, among others.
                                         At the forefront of this industry is <stong><a href="{{ route('index') }}">Moksh
@@ -188,9 +190,11 @@
 
                                         <div class="text">
                                             <p>
-                                                The company uses advanced materials like <a href="{{ route('materials.duplex-and-super-duplex') }}">duplex and super duplex</> stainless
-                                                steels, which offer superior resistance to corrosion in demanding
-                                                environments such as seawater or chemical exposure.
+                                                The company uses advanced materials like <a
+                                                    href="{{ route('materials.duplex-and-super-duplex') }}">duplex and super
+                                                    duplex</> stainless
+                                                    steels, which offer superior resistance to corrosion in demanding
+                                                    environments such as seawater or chemical exposure.
                                             </p>
                                         </div>
                                         <div class="exapmle">
@@ -573,8 +577,8 @@
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a
-                                                        href="{{ route('blogs.why-hastelloy-weighs-more-than-stainless-steel') }}" aria-label="blog: why hastelloy weighs moe than stainless steel">
+                                                    <a href="{{ route('blogs.why-hastelloy-weighs-more-than-stainless-steel') }}"
+                                                        aria-label="blog: why hastelloy weighs moe than stainless steel">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -600,8 +604,8 @@
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a href="{{ route('blogs.the-role-of-high-performance') }}" aria-label="blogs: the role of high performance"
->
+                                                    <a href="{{ route('blogs.the-role-of-high-performance') }}"
+                                                        aria-label="blogs: the role of high performance">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -622,14 +626,13 @@
                                 </li>
                                 <li>
                                     <div class="img-holder">
-                                        <img src="{{ asset('assets/images/blogs/thumb/india’s-stainless-steel-export-industry-thumb.webp') }}"
+                                        <img src="{{ asset('assets/images/blogs/thumb/indias-stainless-steel-export-industry-thumb.webp') }}"
                                             alt="Awesome Image">
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a
-                                                        href="{{ route('blogs.india’s-stainless-steel-export-industry') }}" aria-label="blog: india’s-stainless-steel-export-industry"
->
+                                                    <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}"
+                                                        aria-label="blog: indias-stainless-steel-export-industry">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -637,7 +640,7 @@
                                         </div>
                                     </div>
                                     <div class="title-holder">
-                                        <a href="{{ route('blogs.india’s-stainless-steel-export-industry') }}">
+                                        <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
                                             <h5 class="post-title">
                                                 India’s Stainless Steel Exports – Moksh Tubes Global Reach
                                             </h5>
@@ -685,9 +688,10 @@
                                             Kamatipura Mumbai
                                         </p>
                                         <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
-                                <strong>Office Address:</strong> 92E, Plot No. 3, New Tank Bunder, Darukhana, Mumbai,
-                                Maharashtra- 400 010.
-                            </p>
+                                            <strong>Office Address:</strong> 92E, Plot No. 3, New Tank Bunder, Darukhana,
+                                            Mumbai,
+                                            Maharashtra- 400 010.
+                                        </p>
 
                                         <!-- Social Icons -->
                                         {{-- <div class="mt-3 text-center">

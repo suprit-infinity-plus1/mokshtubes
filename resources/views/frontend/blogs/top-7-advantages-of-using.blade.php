@@ -1,8 +1,8 @@
 @extends('layouts.master')
 
 @section('title', '7 Advantages of Stainless Steel 316L in Industry')
-@section('meta_description',
-    'Discover 7 key advantages of Stainless Steel 316L, including superior corrosion resistance, durability, and strength for industrial, marine, and chemical use.')
+@section('meta_description', 'Discover 7 key advantages of Stainless Steel 316L, including superior corrosion
+    resistance, durability, and strength for industrial, marine, and chemical use.')
 
 
 @section('content')
@@ -608,12 +608,12 @@
                     </li>
                     <li>
                         <div class="img-holder">
-                            <img src="{{ asset('assets/images/blogs/thumb/india’s-stainless-steel-export-industry-thumb.webp') }}"
+                            <img src="{{ asset('assets/images/blogs/thumb/indias-stainless-steel-export-industry-thumb.webp') }}"
                                 alt="Awesome Image">
                             <div class="overlay-style-two">
                                 <div class="box">
                                     <div class="content">
-                                        <a href="{{ route('blogs.india’s-stainless-steel-export-industry') }}">
+                                        <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
                                             <i class="fa fa-link" aria-hidden="true"></i>
                                         </a>
                                     </div>
@@ -621,7 +621,7 @@
                             </div>
                         </div>
                         <div class="title-holder">
-                            <a href="{{ route('blogs.india’s-stainless-steel-export-industry') }}">
+                            <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
                                 <h5 class="post-title">
                                     India’s Stainless Steel Exports – Moksh Tubes Global Reach
                                 </h5>
@@ -676,18 +676,21 @@
                             <!-- Social Icons -->
                             <div class="mt-3 text-center">
                                 <a href="https://wa.me/+919769584950"
-                                    class="btn btn-outline-success btn-sm rounded-circle me-2" aria-label="Chat with us on WhatsApp"><i
-                                        class="bi bi-whatsapp"></i></a>
+                                    class="btn btn-outline-success btn-sm rounded-circle me-2"
+                                    aria-label="Chat with us on WhatsApp"><i class="bi bi-whatsapp"></i></a>
                                 <a href="https://www.instagram.com/mokshtubesandfittingsllp/"
-                                    class="btn btn-outline-dark btn-sm rounded-circle me-2" aria-label="Follow us on Instagram"><i
-                                        class="bi bi-instagram"></i></a>
+                                    class="btn btn-outline-dark btn-sm rounded-circle me-2"
+                                    aria-label="Follow us on Instagram"><i class="bi bi-instagram"></i></a>
                                 <a href="https://www.facebook.com/mokshtubes/"
-                                    class="btn btn-outline-primary btn-sm rounded-circle me-2" aria-label="Follow us on Facebook"><i
-                                        class="bi bi-facebook"></i></a>
+                                    class="btn btn-outline-primary btn-sm rounded-circle me-2"
+                                    aria-label="Follow us on Facebook"><i class="bi bi-facebook"></i></a>
                                 <a href="https://www.linkedin.com/company/moksh-tubes/"
-                                    class="btn btn-outline-info btn-sm rounded-circle" aria-label="Connect with us on LinkedIn"><i class="bi bi-linkedin"></i></a>
-                                <a href="https://x.com/Moksh_Tubes" class="btn btn-outline-info btn-sm rounded-circle" aria-label="Follow us on X><i
-                                        class="fab fa-x-twitter"></i></a>
+                                    class="btn btn-outline-info btn-sm rounded-circle"
+                                    aria-label="Connect with us on LinkedIn"><i class="bi bi-linkedin"></i></a>
+                                <a href="https://x.com/Moksh_Tubes" class="btn btn-outline-info btn-sm rounded-circle"
+                                    aria-label="Follow us on X><i
+                                        class="fab
+                                    fa-x-twitter"></i></a>
 
                             </div>
                         </div>

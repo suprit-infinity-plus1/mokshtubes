@@ -14,9 +14,10 @@
     <meta name="keywords" content="@yield('meta_keywords', 'mokshtubes')">
 
     {{-- Canonical Tag --}}
-     href="@yield('canonical', url()->current())"><link rel="canonical"
+    <link rel="canonical" href="@yield('canonical', url()->current())">
 
-    {{--<meta name="title" content="@yield('meta_title')">
+
+    {{-- <meta name="title" content="@yield('meta_title')">
     <meta name="description" content="@yield('meta_description')">
     <meta name="keyword" content="@yield('meta_keyword')"> --}}
     {{-- <link rel="canonical" href="@yield('canonical')">
@@ -132,7 +133,7 @@
                             <span class="icon-technology-1"></span>
                         </div>
                         <div class="text-holder">
-                            <h6>Call Us On</h6>
+                            <p>Call Us On</p>
                             <a href="tel:9769584950">
                                 <p>+91 97695 84950</p>
                             </a>
@@ -143,7 +144,7 @@
                             <span class="icon-letter-1"></span>
                         </div>
                         <div class="text-holder">
-                            <h6>Mail Us @</h6>
+                            <p>Mail Us @</p>
                             <a href="mailto:info@mokshtubes.com">
                                 <p>info@mokshtubes.com</p>
                             </a>
@@ -820,8 +821,8 @@
 
 
 
-</div>
-@yield('extrajs')
+    </div>
+    @yield('extrajs')
     @yield('jsscripts')
 </body>
 

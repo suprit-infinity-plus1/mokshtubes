@@ -4,7 +4,8 @@
 @section('meta_description',
     'Compare stainless steel with aluminum, carbon steel, and copper. Discover which metal
     lasts longest and offers the best value for your projects.')
-@section('meta_keywords', 'stainless steel, stainless steel vs other metals, stainless steel durability, stainless steel
+@section('meta_keywords',
+    'stainless steel, stainless steel vs other metals, stainless steel durability, stainless steel
     longevity, aluminum vs stainless steel, carbon steel vs stainless steel, copper vs stainless steel, metal comparison,
     corrosion resistance, metal strength, long-lasting metals, industrial materials, stainless steel pipes, stainless steel
     tubes, stainless steel fittings, Mokshtubes')
@@ -652,7 +653,8 @@
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a href="{{ route('blogs.the-role-of-high-performance') }}" aria-label="Read Blog:the-role-of-high-performance ">
+                                                    <a href="{{ route('blogs.the-role-of-high-performance') }}"
+                                                        aria-label="Read Blog:the-role-of-high-performance ">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -673,13 +675,12 @@
                                 </li>
                                 <li>
                                     <div class="img-holder">
-                                        <img src="{{ asset('assets/images/blogs/thumb/india’s-stainless-steel-export-industry-thumb.webp') }}"
+                                        <img src="{{ asset('assets/images/blogs/thumb/indias-stainless-steel-export-industry-thumb.webp') }}"
                                             alt="Awesome Image">
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a
-                                                        href="{{ route('blogs.india’s-stainless-steel-export-industry') }}">
+                                                    <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -687,7 +688,7 @@
                                         </div>
                                     </div>
                                     <div class="title-holder">
-                                        <a href="{{ route('blogs.india’s-stainless-steel-export-industry') }}">
+                                        <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
                                             <h5 class="post-title">
                                                 India’s Stainless Steel Exports – Moksh Tubes Global Reach
                                             </h5>
