@@ -1986,12 +1986,12 @@
                     <div class="accordion accordion-block">
                         <div class="accord-btn">
                             <h4>
-                                What are Boiler & Heat Exchanger Tubes?
+                                What is Haynes 242 and why is it important in high-temperature applications?
                             </h4>
                         </div>
                         <div class="accord-content">
                             <p>
-                                Boiler & Heat Exchanger Tubes are precision-engineered components used in thermal power plants, refineries, chemical industries, and other process applications to ensure efficient heat transfer. They are designed to perform under high temperature, pressure, and corrosive conditions, maintaining long-term operational reliability.
+                                Haynes 242 (UNS N10242) is an age-hardenable nickel-molybdenum-chromium alloy that combines excellent high-temperature strength with very low thermal expansion. It is widely used in aerospace, chemical, and power generation industries because it provides outstanding dimensional stability, fatigue resistance, and oxidation resistance up to 815 °C (1500 °F), making it ideal for critical operations under extreme conditions.
                             </p>
                         </div>
                     </div>
@@ -2001,12 +2001,12 @@
                     <div class="accordion accordion-block">
                         <div class="accord-btn">
                             <h4>
-                                What materials are used to manufacture Boiler & Heat Exchanger Tubes?
+                                What are the key properties of Haynes 242 alloy?
                             </h4>
                         </div>
                         <div class="accord-content">
                             <p>
-                                These tubes are manufactured from a wide range of materials, including <b>Stainless Steel, Duplex & Super Duplex Steel, Nickel Alloys (Inconel, Monel), Alloy Steel, Carbon Steel, Copper Alloys, and Titanium</b>. The material choice depends on the operating temperature, pressure, and fluid medium of the application.
+                                Haynes 242 offers a unique combination of properties including exceptional strength at elevated temperatures, the lowest thermal expansion among comparable superalloys, high resistance to oxidation, and excellent fatigue and creep performance. It has a tensile strength ranging from 105 to 218 ksi depending on form, with yield strength up to 140 ksi, and maintains structural stability up to 705 °C (1300 °F). Its weldability and formability, even in the age-hardened condition, make it a versatile alloy for demanding applications.
                             </p>
                         </div>
                     </div>
@@ -2016,12 +2016,12 @@
                     <div class="accordion accordion-block">
                         <div class="accord-btn">
                             <h4>
-                                What are the available sizes and dimensions for Boiler & Heat Exchanger Tubes?
+                                Which industries and applications commonly use Haynes 242?
                             </h4>
                         </div>
                         <div class="accord-content">
                             <p>
-                                Boiler & Heat Exchanger Tubes are available in outer diameters ranging from <b>6 mm to 219 mm</b> and wall thicknesses from <b>0.5 mm to 12.7 mm</b>. Lengths are offered up to 12 meters or customized as per project requirements. Both seamless and welded types (ERW, EFW, U-bent) are available.
+                                Haynes 242 is widely used in aerospace and gas turbines for seal rings, ducting, fuel nozzles, and containment casings. In chemical and petrochemical industries, it is used for HF and fluorine resistant components, reactors, and extrusion screws. It also finds applications in industrial furnaces for press tooling, heat exchangers, and furnace parts, in nuclear and specialty energy sectors for controlled expansion components, and in power generation for boiler superheaters and gas turbine hardware.
                             </p>
                         </div>
                     </div>
@@ -2031,12 +2031,12 @@
                     <div class="accordion accordion-block">
                         <div class="accord-btn">
                             <h4>
-                                What standards do these tubes comply with?
+                                What types of Haynes 242 products are supplied by MOKSH TUBES & FITTINGS LLP?
                             </h4>
                         </div>
                         <div class="accord-content">
                             <p>
-                                Our Boiler & Heat Exchanger Tubes are produced as per international standards including <b>ASTM A179, A192, A213, A249, A269, A333, ASME SA213, EN 10216, and DIN</b>. All tubes undergo rigorous inspection and testing to meet mechanical and dimensional accuracy requirements.
+                                MOKSH TUBES & FITTINGS LLP supplies a wide range of Haynes 242 products including seamless and welded pipes, tubes, sheets, plates, coils, bars, flanges, pipe fittings, fasteners, welding rods, wire mesh, and custom-fabricated components. All products conform to ASTM, ASME, NACE, and international standards, ensuring that industries receive high-quality materials designed for long service life and superior performance.
                             </p>
                         </div>
                     </div>
@@ -2046,72 +2046,13 @@
                     <div class="accordion accordion-block">
                         <div class="accord-btn">
                             <h4>
-                                What are the main applications of Boiler & Heat Exchanger Tubes?
-                            </h4>
-                        </div>
-                        <div class="accord-content">
-                            <ul>
-                                <li>Power Generation – Boilers, superheaters, reheaters, and economizers</li>
-                                <li>Oil, Gas & Petrochemical – Heat exchangers, condensers, and process heaters</li>
-                                <li>Chemical & Fertilizer Plants – Reactors, cooling towers, and evaporators</li>
-                                <li>Marine & Offshore – Cu-Ni and titanium tubes for seawater systems</li>
-                                <li>Food & Dairy Processing – Hygienic stainless-steel heat exchanger tubes</li>
-                                <li>HVAC & Refrigeration – Tubes for evaporators and condensers</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!--End single accordion box-->
-
-                    <!--Start single accordion box-->
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>
-                                What are the advantages of using Boiler & Heat Exchanger Tubes?
-                            </h4>
-                        </div>
-                        <div class="accord-content">
-                            <ul>
-                                <li>High temperature and pressure resistance</li>
-                                <li>Superior corrosion and oxidation resistance</li>
-                                <li>Excellent heat transfer efficiency</li>
-                                <li>Precision manufacturing with tight tolerances</li>
-                                <li>Compliance with global quality standards (ASTM, ASME, EN, DIN)</li>
-                                <li>Custom material and dimensional options</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!--End single accordion box-->
-
-                    <!--Start single accordion box-->
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>
-                                What finishes are available for Boiler & Heat Exchanger Tubes?
+                                Why choose MOKSH TUBES & FITTINGS LLP for Haynes 242 materials?
                             </h4>
                         </div>
                         <div class="accord-content">
                             <p>
-                                We offer multiple surface finishes including <b>Bright Annealed, Pickled & Passivated, Electro Polished, and Matte</b> finishes. These finishes enhance corrosion resistance and surface smoothness, ensuring efficient fluid flow and longevity in service.
+                                MOKSH TUBES & FITTINGS LLP is a trusted manufacturer and global supplier of Haynes 242, offering deep expertise in exotic alloys, a strong international supply chain, and ISO 9001 certified quality assurance. The company provides customized machining, age treatment, and fabrication services while ensuring timely delivery and full material traceability. With technical support from selection to fabrication, MOKSH TUBES & FITTINGS LLP is a reliable partner for industries operating in extreme environments.
                             </p>
-                        </div>
-                    </div>
-                    <!--End single accordion box-->
-
-                    <!--Start single accordion box-->
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>
-                                Why choose Moksh Tubes & Fittings LLP for Boiler & Heat Exchanger Tubes?
-                            </h4>
-                        </div>
-                        <div class="accord-content">
-                            <ul>
-                                <li>Extensive stock and wide grade availability</li>
-                                <li>Advanced cold drawing and seamless forming technology</li>
-                                <li>ISO 9001:2015 certified quality assurance system</li>
-                                <li>Global supply network and timely dispatch</li>
-                                <li>Customized solutions for industrial and project-based needs</li>
-                            </ul>
                         </div>
                     </div>
                     <!--End single accordion box-->
@@ -2122,6 +2063,7 @@
     </div>
 </section>
 <!--End faq content area-->
+
 <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
