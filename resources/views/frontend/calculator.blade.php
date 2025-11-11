@@ -557,7 +557,7 @@
 
                             <!-- Right: Image -->
                             <div class="col-lg-6 d-flex align-items-center">
-                                <img src="{{ asset('assets\images\calculator\Squaresteelbars.jpg') }}" class="img-fluid rounded border w-100"
+                                <img src="{{ asset('assets\images\calculator\squaresteelbars.jpg') }}" class="img-fluid rounded border w-100"
                                     alt="Placeholder Image for Square Steel Bar">
                             </div>
                         </div>
@@ -697,7 +697,7 @@
 
                             <!-- Right: Image -->
                             <div class="col-lg-6 d-flex align-items-center">
-                                <img src="{{ asset('assets\images\calculator\Equal-angles.png') }}" class="img-fluid rounded border w-100 object-fit-cover"
+                                <img src="{{ asset('assets\images\calculator\equal-angles.png') }}" class="img-fluid rounded border w-100 object-fit-cover"
                                     alt="Placeholder Image for Equal Angles">
                             </div>
                         </div>
