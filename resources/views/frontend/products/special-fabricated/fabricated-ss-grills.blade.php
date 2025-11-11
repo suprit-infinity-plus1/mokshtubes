@@ -805,56 +805,7 @@
         </div>
     </section>
 
-
-
-    {{-- why choose us --}}
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container text-center">
-            <div class="section-title center">
-                <h2>WHY CHOOSE US?</h2>
-            </div>
-
-            <div class="row g-4 mt-4">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Expert Fabricators: Skilled craftsmen ensure precision in every grill design.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-gem"></i></div>
-                        <h5>Premium Materials: High-quality stainless steel sourced for durability and shine.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-brush-fill"></i></div>
-                        <h5>Custom Design Service: Tailored grills to match architectural themes.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-6">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-clock-history"></i></div>
-                        <h5>Timely Delivery: On-schedule production and dispatch for projects.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-lg-6">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Global Supply: Serving residential, commercial, and industrial clients worldwide.</h5>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        </div>
-    </section>
-
+    
     <!--Start faq content area-->
     <section class="faq-content-area sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -1017,6 +968,55 @@
         </div>
     </section>
     <!--End faq content area-->
+
+    {{-- why choose us --}}
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container text-center">
+            <div class="section-title center">
+                <h2>WHY CHOOSE US?</h2>
+            </div>
+
+            <div class="row g-4 mt-4">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
+                        <h5>Expert Fabricators: Skilled craftsmen ensure precision in every grill design.</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-gem"></i></div>
+                        <h5>Premium Materials: High-quality stainless steel sourced for durability and shine.</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-brush-fill"></i></div>
+                        <h5>Custom Design Service: Tailored grills to match architectural themes.</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-6">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-clock-history"></i></div>
+                        <h5>Timely Delivery: On-schedule production and dispatch for projects.</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-6">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
+                        <h5>Global Supply: Serving residential, commercial, and industrial clients worldwide.</h5>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
 
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
