@@ -127,7 +127,7 @@
             </div>
             <!-- Child Title -->
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Weight Chart</h4>
+                <h3 class="text-center mb-0" style="color: #db7227;">Weight Chart</h3>
             </div>
 
             <div class="table-responsive">
@@ -319,8 +319,8 @@
 
             <!-- Child Title -->
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Expanded Table (for one item – Fabricated SS Grills)
-                </h4>
+                <h3 class="text-center mb-0" style="color: #db7227;">Expanded Table (for one item – Fabricated SS Grills)
+                </h3>
             </div>
 
 
