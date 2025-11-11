@@ -1,7 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'The Role of High-Performance Alloys in Desalination Plants')
-@section('meta_description', 'Discover how SMO 254 stainless steel enhances durability and efficiency in desalination
+@section('meta_description',
+    'Discover how SMO 254 stainless steel enhances durability and efficiency in desalination
     plants, offering superior resistance to seawater corrosion.')
 
 

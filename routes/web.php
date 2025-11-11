@@ -1,8 +1,8 @@
 <?php
 
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\CookieController;
 use App\Http\Controllers\DatasheetLeadController;
-use App\Http\Controllers\LeadController;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
@@ -100,6 +100,7 @@ Route::get('/blogs/welded-vs-seamless', [MainController::class, 'weldedVsSeamles
 Route::get('/blogs/why-hastelloy-weighs-more-than-stainless-steel', [MainController::class, 'whyHastelloyWeighsMoreThanStainlessSteel'])->name('blogs.why-hastelloy-weighs-more-than-stainless-steel');
 Route::get('/blogs/din-standard-metal-alloys', [MainController::class, 'dinStandardMetalAlloys'])->name('blogs.din-standard-metal-alloys');
 Route::get('/blogs/uaes-ultimate-guide', [MainController::class, 'Uae’sUltimateGuide'])->name('blogs.uaes-ultimate-guide');
+Route::get('/blogs/uaes-ultimate-guide', [MainController::class, 'Uae’sUltimateGuide'])->name('blogs.uaes-ultimate-guide');
 Route::get('/blogs/stainless-steel-uses-in-kitchen', [MainController::class, 'stainlessSteelUsesInKitchen'])->name('blogs.stainless-steel-uses-in-kitchen');
 Route::get('/blogs/where-to-buy-high-quality', [MainController::class, 'WhereToBuyHighQuality'])->name('blogs.where-to-buy-high-quality');
 Route::get('/blogs/how-to-choose-the-best-stainless-steel-pipes', [MainController::class, 'howToChooseTheBestStainlessSteelPipes'])->name('blogs.how-to-choose-the-best-stainless-steel-pipes');
@@ -112,11 +113,17 @@ Route::get('/blogs/stainless-steel-tubing-for-food-and-beverage-industry', [Main
 Route::get('/blogs/top-10-uses-of-stainless-steel', [MainController::class, 'topTenUsesOfStainlessSteel'])->name('blogs.top-ten-uses-of-stainless-steel');
 Route::get('/blogs/maintenance-tips-for-stainless-steel', [MainController::class, 'maintenanceTipsForStainlessSteel'])->name('blogs.maintenance-tips-for-stainless-steel');
 Route::get('/blogs/stainless-steel-tubes-vs-carbon-steel-pipes', [MainController::class, 'stainlessSteelTubesVsCarbonSteelPipes'])->name('blogs.stainless-steel-tubes-vs-carbon-steel-pipes');
+Route::get('/blogs/stainless-steel-seamless-vs-erw-pipes', [MainController::class, 'stainlessSteelSeamlessVsErwPipes'])->name('blogs.stainless-steel-seamless-vs-erw-pipes');
 Route::redirect(
     '/materials/super-austenitic-stainless-steel/super-austenitic-stainless-steel-SMO-254',
     '/materials/super-austenitic-stainless-steel/super-austenitic-stainless-steel-smo-254',
     301
 );
+
+Route::middleware(['web'])->group(function () {
+    Route::post('/cookie/accept', [CookieController::class, 'accept'])->name('cookie.accept');
+    Route::post('/cookie/reject', [CookieController::class, 'reject'])->name('cookie.reject');
+});
 
 // Route::get('/materials/nickel-alloys', [MainController::class, 'nickelAlloys'])->name('materials.nickel-alloys');
 

@@ -193,6 +193,12 @@ class MainController extends Controller
         return view('frontend.blogs.stainless-steel-tubes-vs-carbon-steel-pipes');
     }
 
+    public function stainlessSteelSeamlessVsErwPipes()
+    {
+
+        return view('frontend.blogs.stainless-steel-seamless-vs-erw-pipes');
+    }
+
     public function materials()
     {
         $materials = [

@@ -19,7 +19,7 @@
     <section class="breadcrumb-area"
         style="background-image: url(/assets/images/blog/Stainless-Steel-Tubes-Applications-Benefits-Cost-Guide.webp);">
         <div class="container text-center">
-            <h1>Stainless Steel Tubes: Applications, Benefits & Cost Guide</h1>
+            <h1>Complete Guide to Stainless Steel Tubes</h1>
         </div>
     </section>
     <!--End breadcrumb area-->
@@ -447,14 +447,15 @@
                                     </div>
                                     <div class="title-holder">
                                         <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
-                                            <h5 class="post-title">
-                                                India’s Stainless Steel Exports – Moksh Tubes Global Reach
-                                            </h5>
-                                        </a>
-                                        <h6 class="post-date">
-                                            <i class="icon-calendar-with-spring-binder-and-date-blocks"></i>
-                                            august 14, 2025
-                                        </h6>
+                                            <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
+                                                <h5 class="post-title">
+                                                    India’s Stainless Steel Exports – Moksh Tubes Global Reach
+                                                </h5>
+                                            </a>
+                                            <h6 class="post-date">
+                                                <i class="icon-calendar-with-spring-binder-and-date-blocks"></i>
+                                                august 14, 2025
+                                            </h6>
                                     </div>
                                 </li>
                             </ul>

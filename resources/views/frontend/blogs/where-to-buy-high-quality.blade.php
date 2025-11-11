@@ -1,7 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Where to Buy High-Quality Stainless Steel Tubes Online')
-@section('meta_description', 'A buyer’s guide to finding reputable online stainless steel suppliers — certifications,
+@section('meta_description',
+    'A buyer’s guide to finding reputable online stainless steel suppliers — certifications,
     product range & tips to ensure high-quality pipes & tubes.')
 @section('meta_keywords',
     'Buy Stainless Steel Tubes Online, Stainless Steel Suppliers, High-Quality Stainless Steel, Online Metal Suppliers,

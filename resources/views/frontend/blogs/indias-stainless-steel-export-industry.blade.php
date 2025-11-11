@@ -1,8 +1,12 @@
 @extends('layouts.master')
 
 @section('title', 'India’s Stainless Steel Export Industry | Moksh Tubes ')
-@section('meta_description', ' Moksh Tubes exports high-quality stainless steel pipe fittings from Mumbai to 30+
-    countries, ensuring trusted global distribution and superior service.')
+@section('meta_description', 'Moksh Tubes exports stainless steel products to 30+ countries with high-quality pipe
+    fittings, reliable supply, and fast global distribution.')
+@section('meta_keywords', 'India Stainless Steel Export, Stainless Steel Pipes Exporter India, Stainless Steel Fittings
+    Supplier, Global Stainless Steel Supplier, Moksh Tubes Exports, Mumbai Pipe Fittings Exporter, Stainless Steel Products
+    India, International Stainless Steel Supplier, Durable Stainless Steel Pipes, Corrosion Resistant Stainless Steel
+    Fittings')
 
 
 @section('content')

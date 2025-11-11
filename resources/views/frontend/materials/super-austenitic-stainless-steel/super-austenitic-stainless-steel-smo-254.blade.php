@@ -11,7 +11,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>SMO 254 <br> Chloride & Corrosion Resistant Stainless Steel</h1>
+                    <h1>SMO 254 Stainless Steel <br> High Corrosion Resistance</h1>
                 </div>
             </div>
         </div>

@@ -235,21 +235,22 @@
 
 @section('extrajs')
 <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Moksh Tubes & Fittings LLP",
-        "url": "https://www.mokstubes.com",
-        "logo": "https://www.mokstubes.com/assets/images/logo.png",
-        "contactPoint": {
-            "@type": "ContactPoint",
-            "telephone": "+91-97695-84950",
-            "contactType": "Customer Service",
-            "email": "info@mokstubes.com",
-            "areaServed": "Worldwide",
-            "availableLanguage": ["English", "Hindi"]
-        }
-    }
-    </script>
-
+@verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Moksh Tubes & Fittings LLP",
+  "url": "https://www.mokstubes.com",
+  "logo": "https://www.mokstubes.com/assets/images/logo.png",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+91-97695-84950",
+    "contactType": "Customer Service",
+    "email": "info@mokstubes.com",
+    "areaServed": "Worldwide",
+    "availableLanguage": ["English", "Hindi"]
+  }
+}
+@endverbatim
+</script>
 @endsection

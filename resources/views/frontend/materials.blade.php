@@ -5,8 +5,7 @@
     ')
 
 @section('meta_description',
-    'Discover a broad selection of high-quality metal materials and alloys, offering exceptional strength, corrosion
-    resistance, and versatility for every industry.
+    'Explore premium metal materials and alloys with superior strength, corrosion resistance, and versatility for industrial applications.
 
     ')
 

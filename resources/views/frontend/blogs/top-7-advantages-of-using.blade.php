@@ -1,8 +1,8 @@
 @extends('layouts.master')
 
 @section('title', '7 Advantages of Stainless Steel 316L in Industry')
-@section('meta_description', 'Discover 7 key advantages of Stainless Steel 316L, including superior corrosion
-    resistance, durability, and strength for industrial, marine, and chemical use.')
+@section('meta_description', 'Discover 7 key benefits of Stainless Steel 316L, including corrosion resistance,
+    durability, and strength for marine and chemical industries.')
 
 
 @section('content')

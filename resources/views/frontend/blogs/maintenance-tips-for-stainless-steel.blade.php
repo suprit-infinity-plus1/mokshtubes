@@ -18,7 +18,7 @@
     <section class="breadcrumb-area"
         style="background-image: url(/assets/images/blog/Maintenance-Tips-for-Stainless-Steel_11zon.jpg);">
         <div class="container text-center">
-            <h1>Maintenance Tips for Stainless Steel Tubes to Prevent Rust</h1>
+            <h1>How to Maintain Stainless Steel Tubes and Prevent Rust</h1>
         </div>
     </section>
     <!--End breadcrumb area-->
@@ -506,14 +506,15 @@
                                     </div>
                                     <div class="title-holder">
                                         <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
-                                            <h5 class="post-title">
-                                                India’s Stainless Steel Exports – Moksh Tubes Global Reach
-                                            </h5>
-                                        </a>
-                                        <h6 class="post-date">
-                                            <i class="icon-calendar-with-spring-binder-and-date-blocks"></i>
-                                            august 14, 2025
-                                        </h6>
+                                            <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
+                                                <h5 class="post-title">
+                                                    India’s Stainless Steel Exports – Moksh Tubes Global Reach
+                                                </h5>
+                                            </a>
+                                            <h6 class="post-date">
+                                                <i class="icon-calendar-with-spring-binder-and-date-blocks"></i>
+                                                august 14, 2025
+                                            </h6>
                                     </div>
                                 </li>
                             </ul>

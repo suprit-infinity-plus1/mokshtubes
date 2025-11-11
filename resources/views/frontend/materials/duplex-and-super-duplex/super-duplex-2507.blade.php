@@ -2,7 +2,7 @@
 
 @section('title', 'Super Duplex 2507 – High Corrosion Resistance')
 
-@section('meta_description', 'Super Duplex Stainless Steel 2507 (S32750) – ultra corrosion-resistant, high-strength alloy ideal for demanding industrial, chemical, and marine applications')
+@section('meta_description', 'Super Duplex Stainless Steel 2507 (S32750) – ultra corrosion-resistant, high-strength alloy for chemical, marine, and industrial applications.')
 
 @section('meta_keywords', 'Super Duplex Stainless Steel 2507, S32750, 2507 pipes, 2507 tubes, 2507 fittings,
     corrosion-resistant stainless steel, high strength super duplex steel, Mokshtubes LLP, chemical processing steel, marine
@@ -17,10 +17,10 @@
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1>
-                        Duplex Stainless Steel 2507 (S32750) <br>
-                        <span style="font-weight: 400; font-size: 0.9em;">High Corrosion-Resistant Alloy</span>
-                    </h1>
-                    
+    Duplex 2507 Stainless Steel<br>
+    <span style="font-weight:400; font-size:0.9em;">Strong & Corrosion Resistant</span>
+</h1>
+
 
 
                 </div>

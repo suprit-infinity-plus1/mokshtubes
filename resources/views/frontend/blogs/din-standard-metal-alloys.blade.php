@@ -1,7 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'DIN Standard Alloys & Tubes Supplier in Germany')
-@section('meta_description', 'Supplying DIN standard metal alloys & industrial tubes in Germany — fast delivery, DIN/EN
+@section('meta_description',
+    'Supplying DIN standard metal alloys & industrial tubes in Germany — fast delivery, DIN/EN
     compliance & expert support for diverse industries.')
 @section('meta_keywords',
     'DIN standard alloys Germany, stainless steel tubes Germany, industrial fittings Germany, DIN

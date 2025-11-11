@@ -606,7 +606,7 @@
                                             <div class="box">
                                                 <div class="content">
                                                     <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}"
-                                                        aria-label="blog: indias-stainless-steel-export-industry">
+                                                        aria-label="blog: india’s-stainless-steel-export-industry">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -615,14 +615,15 @@
                                     </div>
                                     <div class="title-holder">
                                         <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
-                                            <h5 class="post-title">
-                                                India’s Stainless Steel Exports – Moksh Tubes Global Reach
-                                            </h5>
-                                        </a>
-                                        <h6 class="post-date">
-                                            <i class="icon-calendar-with-spring-binder-and-date-blocks"></i>
-                                            august 14, 2025
-                                        </h6>
+                                            <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
+                                                <h5 class="post-title">
+                                                    India’s Stainless Steel Exports – Moksh Tubes Global Reach
+                                                </h5>
+                                            </a>
+                                            <h6 class="post-date">
+                                                <i class="icon-calendar-with-spring-binder-and-date-blocks"></i>
+                                                august 14, 2025
+                                            </h6>
                                     </div>
                                 </li>
                             </ul>
