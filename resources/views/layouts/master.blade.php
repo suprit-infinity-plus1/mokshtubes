@@ -26,6 +26,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- For IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-95HT8CTVJC"></script>
     <script>
@@ -112,7 +113,6 @@
                         <a href="mailto:info@mokshtubes.com" class="text-white">info@mokshtubes.com</a>
                     </p>
                 </div>
-
             </div>
         </section>
         <!--End Top bar area -->
@@ -722,18 +722,15 @@
 
         <!-- Cookie Consent Popup -->
         @if (!Cookie::get('cookie_consent'))
-            <!-- Cookie Consent Popup -->
             <div id="cookie-consent" class="position-fixed p-3 text-white shadow-lg rounded"
                 style="background: rgba(33,33,33,0.95);
-            bottom: 20px;
-            left: 20px;
-            max-width: 320px;
-            z-index: 2000;
-            display: none;">
+        bottom: 20px;
+        right: 10px;
+        max-width: 320px;
+        z-index: 999999;
+        display: none;">
                 <p class="mb-3 small">
-                    🍪 We use cookies to improve your experience on our website.
-                    <a href="{{ url('/privacy-policy') }}" class="text-decoration-underline text-warning">Learn
-                        more</a>.
+                    We use cookies to improve your experience on our website.
                 </p>
                 <div class="d-flex justify-content-end gap-2">
                     <button id="accept-cookies" class="btn btn-sm text-white"
@@ -749,6 +746,9 @@
 
 
 
+
+
+
         <!--Scroll to top-->
         <div class="scroll-to-top scroll-to-target" data-bs-target="html"><span class="fa fa-angle-up"></span></div>
         <div class="prealoader"></div>
@@ -758,12 +758,33 @@
         <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
         <script>
             document.addEventListener("DOMContentLoaded", function() {
-                // show popup after 2 seconds
-                setTimeout(() => {
-                    const popup = document.getElementById("cookie-consent");
-                    popup.style.display = "block";
-                    popup.classList.add("show-popup");
-                }, 3000);
+                const popup = document.getElementById("cookie-consent");
+                if (!popup) return;
+
+                setTimeout(() => popup.style.display = "block", 3000);
+
+                function sendConsent(url) {
+                    fetch(url, {
+                            method: "POST",
+                            headers: {
+                                "Content-Type": "application/json",
+                                "X-CSRF-TOKEN": document.querySelector('meta[name="csrf-token"]').getAttribute(
+                                    "content"),
+                            },
+                            credentials: "same-origin" // 👈 VERY IMPORTANT: allows cookies to be saved
+                        })
+                        .then(res => res.json())
+                        .then(data => {
+                            console.log("Cookie status:", data.status);
+                            popup.style.display = "none";
+                        })
+                        .catch(err => console.error("Cookie error:", err));
+                }
+
+                document.getElementById("accept-cookies")?.addEventListener("click", () => sendConsent(
+                    "{{ route('cookie.accept') }}"));
+                document.getElementById("reject-cookies")?.addEventListener("click", () => sendConsent(
+                    "{{ route('cookie.reject') }}"));
             });
         </script>
 
