@@ -23,8 +23,10 @@ Route::get('/contact-us/kamatipura', [MainController::class, 'contactUsKamatipur
 Route::get('/about-us', [MainController::class, 'aboutUs'])->name('about-us');
 Route::get('/calculator', [MainController::class, 'calculator'])->name('calculator');
 Route::get('/materials', [MainController::class, 'materials'])->name('materials');
-// Route::get('/blogs', [MainController::class, 'blogs'])->name('blogs');
-Route::get('/blogs', [BlogController::class, 'blogs'])->name('blogs');
+Route::get('/blogs', [MainController::class, 'blogs'])->name('blogs');
+// Route::get('/blogs', [BlogController::class, 'blogs'])->name('blogs');
+// Route::get('/blogs/{slug}', [BlogController::class, 'show'])->name('blogs.show');
+Route::get('/blogs/{slug}', [MainController::class, 'specificBlog'])->name('frontend.single-blog');
 Route::post('/lead-capture', [DatasheetLeadController::class, 'store'])->name('lead.capture');
 
 Route::get('/materials/hastelloy', [MainController::class, 'hastelloy'])->name('materials.hastelloy');
@@ -135,7 +137,7 @@ Route::prefix('admin')->group(function () {
 
         Route::prefix('blogs')->group(function () {
 
-            Route::get('/', [BlogController::class, 'blogss'])->name('admin.blogs');
+            Route::get('/', [BlogController::class, 'blogs'])->name('admin.blogs');
             Route::get('/add', [BlogController::class, 'blogsAdd'])->name('admin.blogs.add');
             Route::get('/edit/{id}', [BlogController::class, 'blogsEdit'])->name('admin.blogs.edit');
             Route::post('/delete/{id}', [BlogController::class, 'blogsDelete'])->name('admin.blogs.delete');

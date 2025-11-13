@@ -37,7 +37,27 @@ class MainController extends Controller
 
     public function blogs()
     {
-        return view('frontend.blogs');
+        $blogs = Blog::where('status', true)
+            ->orderBy('published_at', 'desc')
+            ->paginate(9);
+
+        return view('frontend.blogs', compact('blogs'));
+    }
+
+    public function specificBlog($slug)
+    {
+        // $blogs = Blog::where('status', true)
+        //     ->orderBy('published_at', 'desc');
+        $allBlogs = Blog::where('status', true)
+            ->orderBy('published_at', 'desc')
+            ->take(3)
+            ->get();
+        // Fetch the current blog with its FAQs
+        $blog = Blog::where('slug', $slug)
+            ->with('faqs') // eager load FAQs
+            ->firstOrFail();
+
+        return view('frontend.blogs.single-blog', compact('blog', 'allBlogs'));
     }
 
     public function contactUsKhetwadi()

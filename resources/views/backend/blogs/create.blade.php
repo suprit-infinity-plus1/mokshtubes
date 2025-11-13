@@ -63,7 +63,7 @@
                         <!-- Cover Image -->
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label for="cover_image">Cover Image </label>
+                                <label for="cover_image">Cover Image <span class="text-danger">*</span> </label>
                                 <input type="file" name="cover_image" id="cover_image" class="form-control"
                                     accept="image/png, image/gif, image/jpeg, image/webp"
                                     onchange="previewBlogCoverImage(event)">
@@ -95,7 +95,7 @@
                         <!-- Blog Category -->
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label for="category_id">Category</label>
+                                <label for="category_id">Category <span class="text-danger">*</span></label>
                                 <select name="category_id" id="category_id" class="form-control" required>
                                     <option value="">-- Select Category --</option>
                                     @foreach ($categories as $category)

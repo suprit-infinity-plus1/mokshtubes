@@ -720,26 +720,46 @@
 
 
 
-        <!-- Cookie Consent Popup -->
         @if (!Cookie::get('cookie_consent'))
-            <div id="cookie-consent" class="position-fixed p-3 text-white shadow-lg rounded"
+            <div id="cookie-consent" class="position-fixed text-white shadow-lg"
                 style="background: rgba(33,33,33,0.95);
-        bottom: 20px;
-        right: 10px;
-        max-width: 320px;
-        z-index: 999999;
-        display: none;">
-                <p class="mb-3 small">
-                    We use cookies to improve your experience on our website.
-                </p>
-                <div class="d-flex justify-content-end gap-2">
-                    <button id="accept-cookies" class="btn btn-sm text-white"
-                        style="background-color:#db7227;">Accept</button>
-                    <button id="reject-cookies" class="btn btn-sm border text-white"
-                        style="border-color:#db7227;">Reject</button>
+               bottom: 0;
+               left: 0;
+               right: 0;
+               width: 100%;
+               z-index: 999999;
+               display: none;
+               border-radius: 0;
+               padding: 15px 20px;">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <!-- Text -->
+                        <div class="col-12 col-sm-9 mb-3 mb-sm-0">
+                            <p class="mb-0 small text-white">
+                                We use cookies to personalize content, improve site performance, and analyze traffic.
+                                Some
+                                cookies are essential for the site to function correctly. You can manage your
+                                preferences or
+                                accept all cookies.
+                            </p>
+                        </div>
+
+                        <!-- Buttons -->
+                        <div class="col-12 col-sm-3">
+                            <div class="d-flex flex-row flex-sm-column justify-content-between p-2">
+                                <button id="accept-cookies" class="btn btn-sm text-white mb-sm-2"
+                                    style="background-color:#db7227;">Accept</button>
+                                <button id="reject-cookies" class="btn btn-sm border text-white"
+                                    style="border-color:#db7227;">Reject</button>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         @endif
+
+
 
 
 

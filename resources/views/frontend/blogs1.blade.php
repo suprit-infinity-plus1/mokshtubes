@@ -10,6 +10,8 @@
     Metal Industry Articles, Alloy Supply Updates, Expert Metal Solutions')
     {{-- @section('canonical', 'https://blogs.com') --}}
 
+
+
 @section('content')
 
     <!--Start rev slider wrapper-->
@@ -29,6 +31,7 @@
             <div class="section-title">
                 <h2>blogs</h2>
             </div>
+
             <div class="row">
                 @foreach ($blogs as $blog)
                     {{-- {{ dd($blog) }} --}}
@@ -61,7 +64,7 @@
                                 </div>
 
                                 <div class="text">
-                                    <p>{!! html_limit($blog->content, 120) !!}</p>
+                                    <p>{{ Str::limit($blog->content, 120) }}</p>
                                 </div>
 
                                 <div class="link">
@@ -76,7 +79,7 @@
                 @endforeach
             </div>
 
-            <!-- Custom Pagination -->
+            <!-- Pagination -->
             <div class="custom-pagination">
                 @if ($blogs->onFirstPage())
                     <span class="disabled">« Prev</span>
@@ -100,5 +103,4 @@
             </div>
         </div>
     </section>
-
 @endsection
