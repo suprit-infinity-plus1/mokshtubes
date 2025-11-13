@@ -7,7 +7,7 @@
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/duplex-banner.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

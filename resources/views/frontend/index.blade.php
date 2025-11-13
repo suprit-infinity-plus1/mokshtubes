@@ -801,8 +801,8 @@
             <h2>International Market to Explore</h2>
         </div>
         <div class="col-md-8 mx-auto mt-4" style="position:relative;width:100%;aspect-ratio:3/2;overflow:hidden;">
-            <img src="{{ asset('assets/images/map.png') }}" alt="International Market"
-                style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
+            <img src="{{ asset('assets/images/map.jpg') }}" alt="International Market"
+                style="position:absolute;top:0;left:0;width:100%;object-fit:cover;">
         </div>
 
     </div>
