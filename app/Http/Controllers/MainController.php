@@ -40,6 +40,7 @@ class MainController extends Controller
         $blogs = Blog::where('status', true)
             ->orderBy('published_at', 'desc')
             ->paginate(9);
+        // dd($blogs);
 
         return view('frontend.blogs', compact('blogs'));
     }

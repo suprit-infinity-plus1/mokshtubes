@@ -336,7 +336,7 @@ class BlogController extends Controller
         // ✅ Add slug to data
         $data['slug'] = $slug;
         // Set author as current user
-        $data['author'] = auth()->user()->name ?? 'admin';
+        $data['author'] = auth()->user()->name ?? 'Jash Jain';
 
         // Set published_at only if status is published (1)
         if ($data['status'] == 1) {
