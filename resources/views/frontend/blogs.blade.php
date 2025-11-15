@@ -51,18 +51,17 @@
                             </figure>
                             <div class="lower-content">
                                 <a href="{{ route('frontend.single-blog', $blog->slug) }}">
-                                    <h5>{{ Str::limit($blog->title, 10) }}</h5>
+                                    <h5>{{ Str::limit($blog->title, 30) }}</h5>
                                 </a>
 
                                 <div class="post-meta">
                                     by {{ $blog->author ?? 'Admin' }} |
-                                    {{ $blog->comments_count ?? 0 }} Comments |
                                     {{ $blog->created_at->format('F d, Y') }}
                                 </div>
 
-                                <div class="text">
-                                    <p>{!! html_limit($blog->content, 120) !!}</p>
-                                </div>
+                                <!--<div class="text">-->
+                                <!--</div>-->
+                                {!! \Str::limit(strip_tags($blog->content, '<i>'), 120) !!}
 
                                 <div class="link">
                                     <a href="{{ route('frontend.single-blog', $blog->slug) }}" class="default_link">

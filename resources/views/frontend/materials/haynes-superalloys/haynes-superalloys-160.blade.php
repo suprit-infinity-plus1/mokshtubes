@@ -1,8 +1,13 @@
 @extends('layouts.master')
 
 @section('title', 'Haynes Superalloys 160 - High Strength Heat Resistant')
-@section('meta_description', 'High-strength Haynes Alloy 160 for extreme heat resistance and corrosion protection. Available in various industry-grade forms.')
-@section('meta_keywords', 'Haynes Superalloys 160, Haynes Alloy 160, High Strength Haynes, Heat Resistant Haynes, Corrosion Resistant Haynes, Industrial Haynes Alloys, Chemical Processing Haynes, Power Industry Haynes, Aerospace Haynes Alloys, Marine Industry Haynes')
+@section('meta_description',
+    'High-strength Haynes Alloy 160 for extreme heat resistance and corrosion protection.
+    Available in various industry-grade forms.')
+@section('meta_keywords',
+    'Haynes Superalloys 160, Haynes Alloy 160, High Strength Haynes, Heat Resistant Haynes,
+    Corrosion Resistant Haynes, Industrial Haynes Alloys, Chemical Processing Haynes, Power Industry Haynes, Aerospace
+    Haynes Alloys, Marine Industry Haynes')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -288,7 +293,7 @@
     </section>
 
 
-     @php
+    @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -387,7 +392,7 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                 @foreach ($products as $product)
+                @foreach ($products as $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
                             <a href="{{ route($product['route']) }}" class="text-decoration-none">
@@ -682,7 +687,7 @@
                 <p>
                     <strong>Moksh Tubes & Fittings LLP</strong> your dependable partner for specialty alloys.
                 </p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch
@@ -697,7 +702,7 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
+    <script type="application/ld+json">
     @verbatim
 {
   "@context": "https://schema.org",
