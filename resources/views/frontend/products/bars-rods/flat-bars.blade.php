@@ -4,6 +4,12 @@
     'Mokshtubes offers high-quality stainless, alloy, aluminium, and brass flat bars in various
     sizes, grades & custom cuts.') <!-- 153 characters -->
 @section('meta_keywords', 'Flat Bars, Stainless Flat Bars, Alloy Flat Bars, Aluminium Flat Bars, Brass Flat Bars')
+<meta property="og:title" content="Flat Bars – Stainless, Alloy, Aluminium & Brass" />
+<meta property="og:description" content="Mokshtubes offers high-quality stainless, alloy, aluminium, and brass flat bars" />
+<meta property="og:image" content="assets/images/peoduct/Flat-Bars.jpg" />
+<meta property="og:url" content="https://mokshtubes.com/products/bars-rods/flat-bars" />
+<meta property="og:type" content="product" />
+<meta property="og:site_name" content="https://mokshtubes.com/" />
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/Flat-Bars.jpg);">
