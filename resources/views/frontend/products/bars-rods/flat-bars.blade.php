@@ -4,6 +4,7 @@
     'Mokshtubes offers high-quality stainless, alloy, aluminium, and brass flat bars in various
     sizes, grades & custom cuts.') <!-- 153 characters -->
 @section('meta_keywords', 'Flat Bars, Stainless Flat Bars, Alloy Flat Bars, Aluminium Flat Bars, Brass Flat Bars')
+
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/Flat-Bars.jpg);">

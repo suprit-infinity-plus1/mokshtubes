@@ -15,6 +15,7 @@
 
     {{-- Canonical Tag --}}
     <link rel="canonical" href="@yield('canonical', url()->current())">
+    <meta property="og:title" content=@yield('title', 'Mokestubes')>
 
     {{-- <meta name="title" content="@yield('meta_title')">
     <meta name="description" content="@yield('meta_description')">
