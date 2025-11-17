@@ -4,13 +4,16 @@
     aluminium round bars in various sizes, grades & weight chart.') <!-- 153 characters -->
 @section('meta_keywords', 'Round Bars, Stainless Steel Round Bars, MS Round Bars, Alloy Round Bars, Copper Round Bars,
     Brass Round Bars, Nickel Round Bars, Aluminium Round Bars')
-    <meta property="og:title" content="Round Bars – SS, MS, Alloy, Copper & Brass" />
-<meta property="og:description" content="Mokshtubes supplies high quality stainless steel, MS, alloy, copper, brass, nickel &
-    aluminium round bars in various sizes, grades & weight chart." />
-<meta property="og:image" content="assets/images/peoduct/Bars-&-Rods/round-bars.webp" />
-<meta property="og:url" content="https://mokshtubes.com/products/bars-rods/rounded-bars" />
-<meta property="og:type" content="product" />
-<meta property="og:site_name" content="Moksh Tubes & Fittings LLP" />
+    @section('og_title', 'Round Bars – SS, MS, Alloy, Copper & Brass')
+
+@section('og_description', 'Mokshtubes supplies high quality stainless steel, MS, alloy, copper, brass, nickel & aluminium round bars in various sizes, grades & weight chart.')
+
+@section('og_image', 'https://mokshtubes.com/assets/images/peoduct/Bars-&-Rods/round-bars.webp')
+
+@section('og_url', url()->current())
+
+@section('og_type', 'product')
+
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/Bars-&-Rods/round-bars.webp);">
