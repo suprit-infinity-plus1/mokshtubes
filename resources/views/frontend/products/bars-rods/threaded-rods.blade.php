@@ -1,14 +1,12 @@
 @extends('layouts.master')
 @section('title', 'Threaded Rods – Stainless, Galvanized & Alloy Steel') <!-- 52 characters -->
-@section('meta_description', 'Moksh Tubes offers premium Threaded Rods in Stainless, Galvanized, Carbon & Alloy Steel
+@section('meta_description',
+    'Moksh Tubes offers premium Threaded Rods in Stainless, Galvanized, Carbon & Alloy Steel
     with weight charts, sizes, and ASTM & DIN standards.') <!-- 153 characters -->
-@section('meta_keywords', 'Threaded Rods, Stainless Threaded Rods, Galvanized Threaded Rods, Alloy Steel Threaded Rods,
+@section('meta_keywords',
+    'Threaded Rods, Stainless Threaded Rods, Galvanized Threaded Rods, Alloy Steel Threaded Rods,
     Carbon Steel Threaded Rods, Duplex Threaded Rods, Brass Rods, Copper Rods, Titanium Rods, Custom Threaded Rods')
-@section('og_title', 'Premium Threaded Rods & Threaded Bars | SS, GI, All Thread Sizes')
-@section('og_description', 'Buy threaded rods, thread bars, fully threaded studs, stainless steel threaded rods, GI threaded rods, B7 threaded rods in M6–M64 sizes with fast delivery.')
-@section('og_image', 'https://mokshtubes.com/assets/images/product/Bars-&-Rods/threaded-rods.webp')
-@section('og_url', url()->current())
-@section('og_type', 'product')
+
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/Bars-&-Rods/threaded-rods.webp);">
@@ -1110,9 +1108,11 @@
     <!--End breadcrumb area-->
 
 
-@endsection
+@endsection {{-- END CONTENT SECTION --}}
+
+
 @section('jsscripts')
-<script type="application/ld+json">
+    <script type="application/ld+json">
 @verbatim
 {
   "@context": "https://schema.org",
@@ -1160,6 +1160,6 @@
     }
   ]
 }
-@endverbatim
-</script>
+    @endverbatim
+    </script>
 @endsection

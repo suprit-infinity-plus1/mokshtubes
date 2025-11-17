@@ -6,15 +6,7 @@
 @section('meta_keywords',
     'hexagon bar, hexagonal bars, stainless steel hex bar, mild steel hex bar, alloy steel hex
     bar, brass hex bar, aluminium hex bar, hex bar sizes, hex bar weight chart')
-    @section('og_title', 'Premium Stainless Steel & Alloy Hexagon Bars | Hex Bar Suppliers')
-
-@section('og_description', 'Buy stainless steel hexagon bar, hex steel bar, 316 stainless steel hex bar, aluminium hexagon bar, and brass hex bar at best prices with global delivery')
-
-@section('og_image', 'https://mokshtubes.com/assets/images/peoduct/Hexagon-Bars.jpg')
-
-@section('og_url', url()->current())
-
-@section('og_type', 'product')
+    
 
 @section('content')
     <!--Start breadcrumb area-->
