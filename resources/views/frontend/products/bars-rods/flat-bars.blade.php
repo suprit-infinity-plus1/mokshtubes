@@ -9,7 +9,7 @@
 <meta property="og:image" content="assets/images/peoduct/Flat-Bars.jpg" />
 <meta property="og:url" content="https://mokshtubes.com/products/bars-rods/flat-bars" />
 <meta property="og:type" content="product" />
-<meta property="og:site_name" content="https://mokshtubes.com/" />
+<meta property="og:site_name" content="Moksh Tubes & Fittings LLP   " />
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/Flat-Bars.jpg);">
