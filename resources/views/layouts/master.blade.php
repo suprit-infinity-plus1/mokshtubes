@@ -82,7 +82,13 @@
             box-shadow: none !important;
         }
     </style>
-
+<!-- Open Graph Auto Tags -->
+<meta property="og:title" content="@yield('og_title', View::getSection('title') ?? 'Default Site Title')" />
+<meta property="og:description" content="@yield('og_description', 'Default site description here')" />
+<meta property="og:image" content="@yield('og_image', asset('assets/images/default-og-image.jpg'))" />
+<meta property="og:url" content="@yield('og_url', url()->current())" />
+<meta property="og:type" content="@yield('og_type', 'website')" />
+<meta property="og:site_name" content="Moksh Tubes & Fittings LLP" />
 
 
 
