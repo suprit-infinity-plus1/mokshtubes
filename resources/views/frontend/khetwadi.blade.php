@@ -1,7 +1,24 @@
 @extends('layouts.master')
 @section('title', 'Kamatipura Mumbai Office – Contact Moksh Tubes')
-@section('meta_description',
-    'Visit Moksh Tubes at Kamatipura, Mumbai. Call +91 97695 84950 or email info@mokshtubes.com for inquiries, directions, or business assistance today.')
+@section('meta_description', 'Visit Moksh Tubes at Kamatipura, Mumbai. Call +91 97695 84950 or email info@mokshtubes.com
+    for inquiries, directions, or business assistance today.')
+
+@section('meta')
+    <!-- Open Graph -->
+    <meta property="og:title" content="Kamatipura Mumbai Office – Contact Moksh Tubes" />
+    <meta property="og:description"
+        content="Visit Moksh Tubes at Kamatipura, Mumbai. Call +91 97695 84950 or email info@mokshtubes.com for inquiries, directions, or business assistance today." />
+    <meta property="og:image" content="{{ asset('assets/images/slides/Mokshtubes-banner-desktop.webp') }}" />
+    <meta property="og:url" content="{{ url()->current() }}" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kamatipura Mumbai Office – Contact Moksh Tubes">
+    <meta name="twitter:description"
+        content="Reach the Kamatipura branch of Moksh Tubes for quick inquiries, directions, and support. Call +91 97695 84950 or email info@mokshtubes.com.">
+    <meta name="twitter:image" content="{{ asset('assets/images/slides/Mokshtubes-banner-desktop.webp') }}">
+@endsection
 
 @section('content')
 
@@ -26,7 +43,8 @@
                         📞 <a href="tel:+919819777413" class="text-decoration-none text-dark fw-medium">+91 9819777413</a>
                     </p>
                     <p class="mb-2">
-                        📞 <a href="tel:+91 98332 99961" class="text-decoration-none text-dark fw-medium">+91 98332 99961</a>
+                        📞 <a href="tel:+91 98332 99961" class="text-decoration-none text-dark fw-medium">+91 98332
+                            99961</a>
                     </p>
                     <p>
                         📧 <a href="mailto:info@mokshtubes.com"
@@ -37,8 +55,8 @@
                     <p class=" fs-5 mb-2">18°56'56"N 72°49'31"E</p>
 
                     <p>
-                        <a href="https://maps.app.goo.gl/Nok2fPjWZrKHHsUJ9" target="_blank" rel="noopener" class="text-primary fs-4"
-                            title="Open in Google Maps">
+                        <a href="https://maps.app.goo.gl/Nok2fPjWZrKHHsUJ9" target="_blank" rel="noopener"
+                            class="text-primary fs-4" title="Open in Google Maps">
                             <i class="bi bi-geo-alt-fill"></i>
                         </a>
                     </p>
@@ -108,7 +126,8 @@
                                 <div class="col-md-12">
                                     <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden"
                                         value="">
-                                    <button class="thm-btn bg-clr1" type="submit" data-loading-text="Please wait...">send
+                                    <button class="thm-btn bg-clr1" type="submit"
+                                        data-loading-text="Please wait...">send
                                         message</button>
                                 </div>
                             </div>

@@ -1,12 +1,30 @@
 @extends('layouts.master')
 
 @section('title', 'Aluminium Alloy 1100 | Commercially Pure Aluminium')
-@section('meta_description', 'Aluminium 1100 – commercially pure alloy offering excellent corrosion resistance and formability, ideal for chemical, marine, and decorative uses.')
+@section('meta_description', 'Aluminium 1100 – commercially pure alloy offering excellent corrosion resistance and
+    formability, ideal for chemical, marine, and decorative uses.')
 
 @section('meta_keywords',
     'Aluminium Alloy 1100, Commercially Pure Aluminium, Aluminium 1100 Pipes, Aluminium 1100
     Tubes, Aluminium 1100 Sheets, Corrosion Resistant Aluminium, Formable Aluminium Alloy, Industrial Aluminium Grades,
     Commercial Aluminium Alloys, Pure Aluminium Products')
+
+@section('meta')
+    <!-- Open Graph -->
+    <meta property="og:title" content="Aluminium Alloy 1100 | Commercially Pure Aluminium" />
+    <meta property="og:description"
+        content="Aluminium 1100 – commercially pure alloy offering excellent corrosion resistance and formability, ideal for chemical, marine, and decorative uses." />
+    <meta property="og:image" content="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-1100.webp') }}" />
+    <meta property="og:url" content="{{ url()->current() }}" />
+    <meta property="og:type" content="article" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Aluminium Alloy 1100 | Commercially Pure Aluminium">
+    <meta name="twitter:description"
+        content="Commercially pure Aluminium 1100 with excellent corrosion resistance and superior formability for industrial applications.">
+    <meta name="twitter:image" content="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-1100.webp') }}">
+@endsection
 
 @section('content')
 
@@ -237,7 +255,7 @@
     </section>
 
 
-     @php
+    @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -635,7 +653,7 @@
                 <p>
                     For further information, quotes, or customized Aluminium 1100 products, <strong>Moksh Tubes & Fittings
                         LLP</strong> your dependable partner in aluminum alloys.</p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch
@@ -652,7 +670,7 @@
 
 @section('jsscripts')
 
-<script type="application/ld+json">
+    <script type="application/ld+json">
     @verbatim
         {
         "@context": "https://schema.org",

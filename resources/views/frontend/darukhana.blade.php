@@ -1,7 +1,24 @@
 @extends('layouts.master')
 @section('title', 'Darukhana Mumbai Office – Contact Moksh Tubes')
-@section('meta_description',
-    'Connect with Moksh Tubes at Darukhana, Mumbai. Visit New Tank Bunder, Reay Road or call +91 97695 84950 | info@mokshtubes.com for assistance.')
+@section('meta_description', 'Connect with Moksh Tubes at Darukhana, Mumbai. Visit New Tank Bunder, Reay Road or call
+    +91 97695 84950 | info@mokshtubes.com for assistance.')
+
+@section('meta')
+    <!-- Open Graph -->
+    <meta property="og:title" content="Darukhana Mumbai Office – Contact Moksh Tubes" />
+    <meta property="og:description"
+        content="Connect with Moksh Tubes at Darukhana, Mumbai. Visit New Tank Bunder, Reay Road or call +91 97695 84950 | info@mokshtubes.com for assistance." />
+    <meta property="og:image" content="{{ asset('assets/images/slides/Mokshtubes-banner-desktop.webp') }}" />
+    <meta property="og:url" content="{{ url()->current() }}" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Darukhana Mumbai Office – Contact Moksh Tubes">
+    <meta name="twitter:description"
+        content="Reach Moksh Tubes' Darukhana office for inquiries or visits. Call +91 97695 84950 or email info@mokshtubes.com for support.">
+    <meta name="twitter:image" content="{{ asset('assets/images/slides/Mokshtubes-banner-desktop.webp') }}">
+@endsection
 
 @section('content')
 
@@ -34,8 +51,8 @@
                     <p class=" fs-5 mb-2">18°58'23"N 72°50'57"E</p>
 
                     <p>
-                        <a href="https://maps.app.goo.gl/4KJZX3MP9LG36EdU9" target="_blank" rel="noopener" class="text-primary fs-4"
-                            title="Open in Google Maps">
+                        <a href="https://maps.app.goo.gl/4KJZX3MP9LG36EdU9" target="_blank" rel="noopener"
+                            class="text-primary fs-4" title="Open in Google Maps">
                             <i class="bi bi-geo-alt-fill"></i>
                         </a>
                     </p>
@@ -138,7 +155,7 @@
                                 </div>
                                 <div class="text-holder">
                                     <h3 class="h6">Call Us On</h6>
-                                    <p>+91 97695 84950</p>
+                                        <p>+91 97695 84950</p>
                                 </div>
                             </li>
                             <li>
