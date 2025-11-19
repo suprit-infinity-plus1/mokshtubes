@@ -5,9 +5,27 @@
     ')
 
 @section('meta_description',
-    'Explore premium metal materials and alloys with superior strength, corrosion resistance, and versatility for industrial applications.
+    'Explore premium metal materials and alloys with superior strength, corrosion resistance, and versatility for industrial
+    applications.
 
     ')
+
+@section('meta')
+    <!-- Open Graph -->
+    <meta property="og:title" content="Metal Materials | High-Quality Alloys & Grades | Mokshtubes" />
+    <meta property="og:description"
+        content="Explore premium metal materials and alloys with superior strength, corrosion resistance, and versatility for industrial applications." />
+    <meta property="og:image" content="{{ asset('assets/images/material/materials-banner.jpg') }}" />
+    <meta property="og:url" content="{{ url()->current() }}" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Metal Materials | High-Quality Alloys & Grades | Mokshtubes">
+    <meta name="twitter:description"
+        content="Discover top-grade metal materials engineered for durability, strength, and industrial performance.">
+    <meta name="twitter:image" content="{{ asset('assets/images/material/materials-banner.jpg') }}">
+@endsection
 
 @section('content')
 
@@ -31,7 +49,7 @@
 
             <div class="row g-4">
                 @php
-                   $materials = [
+                    $materials = [
                         [
                             'name' => 'Hastelloy',
                             'slug' => 'hastelloy',

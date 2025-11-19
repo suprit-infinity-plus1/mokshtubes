@@ -1,7 +1,24 @@
 @extends('layouts.master')
 @section('title', 'Kamatipura Mumbai Office – Contact Moksh Tubes Today')
-@section('meta_description',
-    'Connect with Moksh Tubes at our Kamatipura, Mumbai branch. Call or visit for product inquiries, quotes, and customized metal solutions.')
+@section('meta_description', 'Connect with Moksh Tubes at our Kamatipura, Mumbai branch. Call or visit for product
+    inquiries, quotes, and customized metal solutions.')
+
+@section('meta')
+    <!-- Open Graph -->
+    <meta property="og:title" content="Kamatipura Mumbai Office – Contact Moksh Tubes Today" />
+    <meta property="og:description"
+        content="Connect with Moksh Tubes at our Kamatipura, Mumbai branch. Call or visit for product inquiries, quotes, and customized metal solutions." />
+    <meta property="og:image" content="{{ asset('assets/images/slides/Mokshtubes-banner-desktop.webp') }}" />
+    <meta property="og:url" content="{{ url()->current() }}" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kamatipura Mumbai Office – Contact Moksh Tubes Today">
+    <meta name="twitter:description"
+        content="Get assistance at our Kamatipura branch for product details, quotations, and tailored metal solutions. Contact us today.">
+    <meta name="twitter:image" content="{{ asset('assets/images/slides/Mokshtubes-banner-desktop.webp') }}">
+@endsection
 
 @section('content')
     <section class="bg-light sec-padd-bottom">
@@ -21,23 +38,24 @@
 
                     <h2 class="fs-5 fw-semibold mt-4 mb-2">Contact Details</h5>
 
-                    <p class="mb-2">
-                        📞 <a href="tel:+919999999999" class="text-decoration-none text-dark fw-medium">+91 99999 99999</a>
-                    </p>
-                    <p>
-                        📧 <a href="mailto:info@mokshtubes.com"
-                            class="text-decoration-none text-dark fw-medium">info@mokshtubes.com</a>
-                    </p>
-                    <h2 class="fs-5 fw-semibold mt-4 mb-2">Get Direction</h2>
+                        <p class="mb-2">
+                            📞 <a href="tel:+919999999999" class="text-decoration-none text-dark fw-medium">+91 99999
+                                99999</a>
+                        </p>
+                        <p>
+                            📧 <a href="mailto:info@mokshtubes.com"
+                                class="text-decoration-none text-dark fw-medium">info@mokshtubes.com</a>
+                        </p>
+                        <h2 class="fs-5 fw-semibold mt-4 mb-2">Get Direction</h2>
 
-                    <p class=" fs-5 mb-2">18°57'54"N 72°49'28"E</p>
+                        <p class=" fs-5 mb-2">18°57'54"N 72°49'28"E</p>
 
-                    <p>
-                        <a href="https://maps.app.goo.gl/4KJZX3MP9LG36EdU9" target="_blank" rel="noopener" class="text-primary fs-4"
-                            title="Open in Google Maps">
-                            <i class="bi bi-geo-alt-fill"></i>
-                        </a>
-                    </p>
+                        <p>
+                            <a href="https://maps.app.goo.gl/4KJZX3MP9LG36EdU9" target="_blank" rel="noopener"
+                                class="text-primary fs-4" title="Open in Google Maps">
+                                <i class="bi bi-geo-alt-fill"></i>
+                            </a>
+                        </p>
 
 
 

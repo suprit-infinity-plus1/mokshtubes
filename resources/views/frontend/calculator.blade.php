@@ -2,6 +2,25 @@
 @section('title', 'Pipe & Tube Weight Calculator | Easy & Accurate | MokshTubes')
 @section('meta_description',
     'Use MokshTubes’ pipe and tube weight calculator for accurate measurements, helping you plan projects efficiently with reliable and precise data.')
+
+@section('meta')
+    <!-- Open Graph -->
+    <meta property="og:title" content="Pipe & Tube Weight Calculator | Easy & Accurate | MokshTubes" />
+    <meta property="og:description"
+        content="Use MokshTubes’ pipe and tube weight calculator for accurate measurements and efficient project planning." />
+    <meta property="og:image" content="{{ asset('assets/images/about/about-materials_11zon.webp') }}" />
+    <meta property="og:url" content="{{ url()->current() }}" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Pipe & Tube Weight Calculator | Easy & Accurate | MokshTubes">
+    <meta name="twitter:description"
+        content="Get accurate pipe & tube weight calculations instantly with MokshTubes’ calculator.">
+    <meta name="twitter:image" content="{{ asset('assets/images/about/about-materials_11zon.webp') }}">
+@endsection
+
+
 @section('extracss')
     <style>
         .list-group-item.active {

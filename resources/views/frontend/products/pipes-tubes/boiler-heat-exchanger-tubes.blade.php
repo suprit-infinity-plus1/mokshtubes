@@ -415,192 +415,222 @@
     <section class="bg-light" style="padding-top: 80px;">
         <div class="container">
 
-            <!-- Parent Title -->
             <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Size Charts</h2>
             </div>
 
-            <!-- Child Title -->
             <div class="section-title center mb-3">
                 <h4 class="text-center mb-0" style="color: #db7227;">Schedule 5C – Size Chart (ASME B36.10)</h4>
             </div>
 
+            <!-- PREVIEW TABLE (only few rows) -->
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle" style="border-collapse:collapse;">
+                    <thead class="table-dark text-center">
+                        <tr>
+                            <th>NB (mm)</th>
+                            <th>NPS (inches)</th>
+                            <th>OD (mm)</th>
+                            <th>Wall Thickness (mm)</th>
+                            <th>Weight (kg/m)</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr>
+                            <td>3</td>
+                            <td>1/8"</td>
+                            <td>10.3</td>
+                            <td>1.24</td>
+                            <td>0.276</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>1/4"</td>
+                            <td>13.7</td>
+                            <td>1.24</td>
+                            <td>0.390</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>3/8"</td>
+                            <td>17.1</td>
+                            <td>1.24</td>
+                            <td>0.490</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>NB (mm)</th>
-                                    <th>NPS (inches)</th>
-                                    <th>OD (mm)</th>
-                                    <th>Wall Thickness (mm)</th>
-                                    <th>Weight (kg/m)</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>3</td>
-                                    <td>1/8"</td>
-                                    <td>10.3</td>
-                                    <td>1.24</td>
-                                    <td>0.276</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>6</td>
-                                    <td>1/4"</td>
-                                    <td>13.7</td>
-                                    <td>1.24</td>
-                                    <td>0.390</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>10</td>
-                                    <td>3/8"</td>
-                                    <td>17.1</td>
-                                    <td>1.24</td>
-                                    <td>0.490</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>15</td>
-                                    <td>1/2"</td>
-                                    <td>21.3</td>
-                                    <td>1.65</td>
-                                    <td>0.800</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>20</td>
-                                    <td>3/4"</td>
-                                    <td>26.7</td>
-                                    <td>1.65</td>
-                                    <td>1.030</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>25</td>
-                                    <td>1"</td>
-                                    <td>33.4</td>
-                                    <td>1.65</td>
-                                    <td>1.300</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>32</td>
-                                    <td>1 1/4"</td>
-                                    <td>42.2</td>
-                                    <td>1.65</td>
-                                    <td>1.650</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>40</td>
-                                    <td>1 1/2"</td>
-                                    <td>48.3</td>
-                                    <td>1.65</td>
-                                    <td>1.910</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>50</td>
-                                    <td>2"</td>
-                                    <td>60.3</td>
-                                    <td>1.65</td>
-                                    <td>2.400</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>65</td>
-                                    <td>2 1/2"</td>
-                                    <td>73.0</td>
-                                    <td>2.11</td>
-                                    <td>3.690</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>80</td>
-                                    <td>3"</td>
-                                    <td>88.9</td>
-                                    <td>2.11</td>
-                                    <td>4.510</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>100</td>
-                                    <td>4"</td>
-                                    <td>114.3</td>
-                                    <td>2.11</td>
-                                    <td>5.840</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>125</td>
-                                    <td>5"</td>
-                                    <td>141.3</td>
-                                    <td>2.77</td>
-                                    <td>9.470</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>150</td>
-                                    <td>6"</td>
-                                    <td>168.3</td>
-                                    <td>2.77</td>
-                                    <td>11.320</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>200</td>
-                                    <td>8"</td>
-                                    <td>219.1</td>
-                                    <td>2.77</td>
-                                    <td>14.790</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>250</td>
-                                    <td>10"</td>
-                                    <td>273.1</td>
-                                    <td>3.40</td>
-                                    <td>22.630</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>300</td>
-                                    <td>12"</td>
-                                    <td>323.9</td>
-                                    <td>3.96</td>
-                                    <td>31.250</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>350</td>
-                                    <td>14"</td>
-                                    <td>355.6</td>
-                                    <td>3.96</td>
-                                    <td>34.360</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>400</td>
-                                    <td>16"</td>
-                                    <td>406.4</td>
-                                    <td>4.19</td>
-                                    <td>41.560</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>450</td>
-                                    <td>18"</td>
-                                    <td>457.2</td>
-                                    <td>4.19</td>
-                                    <td>46.800</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>500</td>
-                                    <td>20"</td>
-                                    <td>508.0</td>
-                                    <td>4.78</td>
-                                    <td>59.250</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>600</td>
-                                    <td>24"</td>
-                                    <td>609.6</td>
-                                    <td>5.54</td>
-                                    <td>82.470</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+            <!-- FULL TABLE HIDDEN -->
+            <div id="table-5c-full" class="collapse">
+                <div class="table-responsive mt-0">
+                    <table class="table table-bordered table-striped align-middle">
+                        <tbody class="text-center"
+                            style="margin-top:0; padding:0; display:table-row-group;">
+                            <!-- Full table WITHOUT the first 3 preview rows -->
+                            <tr>
+                                <td>15</td>
+                                <td>1/2"</td>
+                                <td>21.3</td>
+                                <td>1.65</td>
+                                <td>0.800</td>
+                            </tr>
+                            <tr>
+                                <td>20</td>
+                                <td>3/4"</td>
+                                <td>26.7</td>
+                                <td>1.65</td>
+                                <td>1.030</td>
+                            </tr>
+                            <tr>
+                                <td>25</td>
+                                <td>1"</td>
+                                <td>33.4</td>
+                                <td>1.65</td>
+                                <td>1.300</td>
+                            </tr>
+                            <tr>
+                                <td>32</td>
+                                <td>1 1/4"</td>
+                                <td>42.2</td>
+                                <td>1.65</td>
+                                <td>1.650</td>
+                            </tr>
+                            <tr>
+                                <td>40</td>
+                                <td>1 1/2"</td>
+                                <td>48.3</td>
+                                <td>1.65</td>
+                                <td>1.910</td>
+                            </tr>
+                            <tr>
+                                <td>50</td>
+                                <td>2"</td>
+                                <td>60.3</td>
+                                <td>1.65</td>
+                                <td>2.400</td>
+                            </tr>
+                            <tr>
+                                <td>65</td>
+                                <td>2 1/2"</td>
+                                <td>73.0</td>
+                                <td>2.11</td>
+                                <td>3.690</td>
+                            </tr>
+                            <tr>
+                                <td>80</td>
+                                <td>3"</td>
+                                <td>88.9</td>
+                                <td>2.11</td>
+                                <td>4.510</td>
+                            </tr>
+                            <tr>
+                                <td>100</td>
+                                <td>4"</td>
+                                <td>114.3</td>
+                                <td>2.11</td>
+                                <td>5.840</td>
+                            </tr>
+                            <tr>
+                                <td>125</td>
+                                <td>5"</td>
+                                <td>141.3</td>
+                                <td>2.77</td>
+                                <td>9.470</td>
+                            </tr>
+                            <tr>
+                                <td>150</td>
+                                <td>6"</td>
+                                <td>168.3</td>
+                                <td>2.77</td>
+                                <td>11.320</td>
+                            </tr>
+                            <tr>
+                                <td>200</td>
+                                <td>8"</td>
+                                <td>219.1</td>
+                                <td>2.77</td>
+                                <td>14.790</td>
+                            </tr>
+                            <tr>
+                                <td>250</td>
+                                <td>10"</td>
+                                <td>273.1</td>
+                                <td>3.40</td>
+                                <td>22.630</td>
+                            </tr>
+                            <tr>
+                                <td>300</td>
+                                <td>12"</td>
+                                <td>323.9</td>
+                                <td>3.96</td>
+                                <td>31.250</td>
+                            </tr>
+                            <tr>
+                                <td>350</td>
+                                <td>14"</td>
+                                <td>355.6</td>
+                                <td>3.96</td>
+                                <td>34.360</td>
+                            </tr>
+                            <tr>
+                                <td>400</td>
+                                <td>16"</td>
+                                <td>406.4</td>
+                                <td>4.19</td>
+                                <td>41.560</td>
+                            </tr>
+                            <tr>
+                                <td>450</td>
+                                <td>18"</td>
+                                <td>457.2</td>
+                                <td>4.19</td>
+                                <td>46.800</td>
+                            </tr>
+                            <tr>
+                                <td>500</td>
+                                <td>20"</td>
+                                <td>508.0</td>
+                                <td>4.78</td>
+                                <td>59.250</td>
+                            </tr>
+                            <tr>
+                                <td>600</td>
+                                <td>24"</td>
+                                <td>609.6</td>
+                                <td>5.54</td>
+                                <td>82.470</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
+
+            <!-- BUTTON AT VERY BOTTOM -->
+            <div class="text-center mt-3">
+                <button id="toggleBtn" class="btn btn-sm btn-primary cursor-pointer" data-bs-toggle="collapse"
+                    data-bs-target="#table-5c-full">
+                    View Full Chart
+                </button>
+            </div>
+
         </div>
     </section>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const fullTable = document.getElementById("table-5c-full");
+    const btn = document.getElementById("toggleBtn");
+
+    fullTable.addEventListener("shown.bs.collapse", function () {
+        btn.textContent = "Show Less";
+    });
+
+    fullTable.addEventListener("hidden.bs.collapse", function () {
+        btn.textContent = "View Full Chart";
+    });
+});
+</script>
+
 
     <section class="bg-light" style="padding-top: 80px;">
         <div class="container">
@@ -807,6 +837,21 @@
             </div>
         </div>
     </section>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const fullTable = document.getElementById("table-5c-full");
+            const btn = document.getElementById("toggleBtn");
+
+            fullTable.addEventListener("shown.bs.collapse", function() {
+                btn.textContent = "Show Less";
+            });
+
+            fullTable.addEventListener("hidden.bs.collapse", function() {
+                btn.textContent = "View Full Chart";
+            });
+        });
+    </script>
+
     <section class="bg-light" style="padding-top: 80px;">
         <div class="container">
             <!-- Child Title -->
@@ -1972,106 +2017,131 @@
 
     <!--End breadcrumb area-->
 
-<!--Start faq content area-->
-<section class="faq-content-area sec-padd2">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="accordion-box">
-                    <div class="section-title center">
-                        <h2>FAQ's</h2>
-                    </div>
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
 
-                    <!--Start single accordion box-->
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>
-                                What is Haynes 242 and why is it important in high-temperature applications?
-                            </h4>
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What is Haynes 242 and why is it important in high-temperature applications?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Haynes 242 (UNS N10242) is an age-hardenable nickel-molybdenum-chromium alloy that
+                                    combines excellent high-temperature strength with very low thermal expansion. It is
+                                    widely used in aerospace, chemical, and power generation industries because it provides
+                                    outstanding dimensional stability, fatigue resistance, and oxidation resistance up to
+                                    815 °C (1500 °F), making it ideal for critical operations under extreme conditions.
+                                </p>
+                            </div>
                         </div>
-                        <div class="accord-content">
-                            <p>
-                                Haynes 242 (UNS N10242) is an age-hardenable nickel-molybdenum-chromium alloy that combines excellent high-temperature strength with very low thermal expansion. It is widely used in aerospace, chemical, and power generation industries because it provides outstanding dimensional stability, fatigue resistance, and oxidation resistance up to 815 °C (1500 °F), making it ideal for critical operations under extreme conditions.
-                            </p>
-                        </div>
-                    </div>
-                    <!--End single accordion box-->
+                        <!--End single accordion box-->
 
-                    <!--Start single accordion box-->
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>
-                                What are the key properties of Haynes 242 alloy?
-                            </h4>
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What are the key properties of Haynes 242 alloy?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Haynes 242 offers a unique combination of properties including exceptional strength at
+                                    elevated temperatures, the lowest thermal expansion among comparable superalloys, high
+                                    resistance to oxidation, and excellent fatigue and creep performance. It has a tensile
+                                    strength ranging from 105 to 218 ksi depending on form, with yield strength up to 140
+                                    ksi, and maintains structural stability up to 705 °C (1300 °F). Its weldability and
+                                    formability, even in the age-hardened condition, make it a versatile alloy for demanding
+                                    applications.
+                                </p>
+                            </div>
                         </div>
-                        <div class="accord-content">
-                            <p>
-                                Haynes 242 offers a unique combination of properties including exceptional strength at elevated temperatures, the lowest thermal expansion among comparable superalloys, high resistance to oxidation, and excellent fatigue and creep performance. It has a tensile strength ranging from 105 to 218 ksi depending on form, with yield strength up to 140 ksi, and maintains structural stability up to 705 °C (1300 °F). Its weldability and formability, even in the age-hardened condition, make it a versatile alloy for demanding applications.
-                            </p>
-                        </div>
-                    </div>
-                    <!--End single accordion box-->
+                        <!--End single accordion box-->
 
-                    <!--Start single accordion box-->
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>
-                                Which industries and applications commonly use Haynes 242?
-                            </h4>
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Which industries and applications commonly use Haynes 242?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Haynes 242 is widely used in aerospace and gas turbines for seal rings, ducting, fuel
+                                    nozzles, and containment casings. In chemical and petrochemical industries, it is used
+                                    for HF and fluorine resistant components, reactors, and extrusion screws. It also finds
+                                    applications in industrial furnaces for press tooling, heat exchangers, and furnace
+                                    parts, in nuclear and specialty energy sectors for controlled expansion components, and
+                                    in power generation for boiler superheaters and gas turbine hardware.
+                                </p>
+                            </div>
                         </div>
-                        <div class="accord-content">
-                            <p>
-                                Haynes 242 is widely used in aerospace and gas turbines for seal rings, ducting, fuel nozzles, and containment casings. In chemical and petrochemical industries, it is used for HF and fluorine resistant components, reactors, and extrusion screws. It also finds applications in industrial furnaces for press tooling, heat exchangers, and furnace parts, in nuclear and specialty energy sectors for controlled expansion components, and in power generation for boiler superheaters and gas turbine hardware.
-                            </p>
-                        </div>
-                    </div>
-                    <!--End single accordion box-->
+                        <!--End single accordion box-->
 
-                    <!--Start single accordion box-->
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>
-                                What types of Haynes 242 products are supplied by MOKSH TUBES & FITTINGS LLP?
-                            </h4>
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What types of Haynes 242 products are supplied by MOKSH TUBES & FITTINGS LLP?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP supplies a wide range of Haynes 242 products including
+                                    seamless and welded pipes, tubes, sheets, plates, coils, bars, flanges, pipe fittings,
+                                    fasteners, welding rods, wire mesh, and custom-fabricated components. All products
+                                    conform to ASTM, ASME, NACE, and international standards, ensuring that industries
+                                    receive high-quality materials designed for long service life and superior performance.
+                                </p>
+                            </div>
                         </div>
-                        <div class="accord-content">
-                            <p>
-                                MOKSH TUBES & FITTINGS LLP supplies a wide range of Haynes 242 products including seamless and welded pipes, tubes, sheets, plates, coils, bars, flanges, pipe fittings, fasteners, welding rods, wire mesh, and custom-fabricated components. All products conform to ASTM, ASME, NACE, and international standards, ensuring that industries receive high-quality materials designed for long service life and superior performance.
-                            </p>
-                        </div>
-                    </div>
-                    <!--End single accordion box-->
+                        <!--End single accordion box-->
 
-                    <!--Start single accordion box-->
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>
-                                Why choose MOKSH TUBES & FITTINGS LLP for Haynes 242 materials?
-                            </h4>
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Why choose MOKSH TUBES & FITTINGS LLP for Haynes 242 materials?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP is a trusted manufacturer and global supplier of Haynes 242,
+                                    offering deep expertise in exotic alloys, a strong international supply chain, and ISO
+                                    9001 certified quality assurance. The company provides customized machining, age
+                                    treatment, and fabrication services while ensuring timely delivery and full material
+                                    traceability. With technical support from selection to fabrication, MOKSH TUBES &
+                                    FITTINGS LLP is a reliable partner for industries operating in extreme environments.
+                                </p>
+                            </div>
                         </div>
-                        <div class="accord-content">
-                            <p>
-                                MOKSH TUBES & FITTINGS LLP is a trusted manufacturer and global supplier of Haynes 242, offering deep expertise in exotic alloys, a strong international supply chain, and ISO 9001 certified quality assurance. The company provides customized machining, age treatment, and fabrication services while ensuring timely delivery and full material traceability. With technical support from selection to fabrication, MOKSH TUBES & FITTINGS LLP is a reliable partner for industries operating in extreme environments.
-                            </p>
-                        </div>
-                    </div>
-                    <!--End single accordion box-->
+                        <!--End single accordion box-->
 
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!--End faq content area-->
+    </section>
+    <!--End faq content area-->
 
-<section class="sec-padd-top sec-padd-bottom">
+    <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    For further information, quotes, or customized boiler heat exhanger tubes products, <strong>Moksh Tubes & Fittings
+                    For further information, quotes, or customized boiler heat exhanger tubes products, <strong>Moksh Tubes
+                        & Fittings
                         LLP</strong> your dependable partner in aluminum alloys.</p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch
@@ -2082,8 +2152,8 @@
 
 @endsection
 @section('jsscripts')
-@verbatim
-<script type="application/ld+json">
+    @verbatim
+        <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -2155,5 +2225,5 @@
   ]
 }
 </script>
-@endverbatim
+    @endverbatim
 @endsection
