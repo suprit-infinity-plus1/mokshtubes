@@ -15,6 +15,9 @@
 
     {{-- Canonical Tag --}}
     <link rel="canonical" href="@yield('canonical', url()->current())">
+     <!-- Individual Page OG Override -->
+    @yield('meta')
+
     <meta property="og:title" content=@yield('title', 'Mokestubes')>
 
     {{-- <meta name="title" content="@yield('meta_title')">
@@ -47,7 +50,7 @@
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" /> --}}
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/images/favicon/apple-touch-icon.png') }}">
+    {{-- <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/images/favicon/apple-touch-icon.png') }}"> --}}
     <link rel="icon" type="image/png" href="{{ asset('assets/images/favicon/logo-moksh-32x32.png') }}"
         sizes="32x32">
     <link rel="icon" type="image/png" href="{{ asset('assets/images/favicon/logo-moksh-16x16.png') }}"
@@ -82,13 +85,13 @@
             box-shadow: none !important;
         }
     </style>
-<!-- Open Graph Auto Tags -->
-<meta property="og:title" content="@yield('og_title', View::getSection('title') ?? 'Default Site Title')" />
-<meta property="og:description" content="@yield('og_description', 'Default site description here')" />
-<meta property="og:image" content="@yield('og_image', asset('assets/images/peoduct/default-og-image.jpg'))" />
-<meta property="og:url" content="@yield('og_url', url()->current())" />
-<meta property="og:type" content="@yield('og_type', 'website')" />
-<meta property="og:site_name" content="Moksh Tubes & Fittings LLP" />
+    <!-- Open Graph Auto Tags -->
+    <meta property="og:title" content="@yield('og_title', View::getSection('title') ?? 'Default Site Title')" />
+    <meta property="og:description" content="@yield('og_description', 'Default site description here')" />
+    <meta property="og:image" content="@yield('og_image', asset('assets/images/peoduct/default-og-image.jpg'))" />
+    <meta property="og:url" content="@yield('og_url', url()->current())" />
+    <meta property="og:type" content="@yield('og_type', 'website')" />
+    <meta property="og:site_name" content="Moksh Tubes & Fittings LLP" />
 
 
 
@@ -280,7 +283,8 @@
                                     <ul class="navigation navbar-nav me-auto mb-2 mb-lg-0 clearfix">
                                         <li class="nav-item"><a class="nav-link" href="{{ route('index') }}">Home</a>
                                         </li>
-                                        <li class="nav-item"><a class="nav-link" href="{{ route('about-us') }}">About
+                                        <li class="nav-item"><a class="nav-link"
+                                                href="{{ route('about-us') }}">About
                                                 Us</a></li>
                                         {{-- <li class="nav-item dropdown"><a class="nav-link"
                                                 href="{{ url('/products') }}" data-bs-toggle="dropdown">Products</a></li> --}}

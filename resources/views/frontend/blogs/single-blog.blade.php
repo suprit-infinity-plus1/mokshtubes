@@ -3,7 +3,19 @@
 @section('title', $blog->title)
 @section('meta_description', $blog->meta_description ?? '')
 @section('meta_keywords', $blog->meta_keywords ?? '')
+@section('meta')
+    <meta property="og:title" content="{{ $blog->title }}" />
+    <meta property="og:description" content="{{ $blog->meta_description }}" />
+    <meta property="og:image" content="{{ asset('storage/' . $blog->cover_image) }}" />
+    <meta property="og:url" content="{{ url()->current() }}" />
+    <meta property="og:type" content="article" />
 
+    <!-- Twitter (X) -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ $blog->title }}">
+    <meta name="twitter:description" content="{{ $blog->meta_description }}">
+    <meta name="twitter:image" content="{{ asset('storage/' . $blog->cover_image) }}">
+@endsection
 @section('content')
 
     <!-- Start breadcrumb area -->

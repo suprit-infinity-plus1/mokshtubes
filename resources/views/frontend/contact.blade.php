@@ -3,6 +3,24 @@
 @section('meta_description',
     'Get in touch with Mokshtubes Fittings & LLP for inquiries, quotations, or technical
     assistance. Call, email, or visit us.')
+
+@section('meta')
+    <!-- Open Graph -->
+    <meta property="og:title" content="Contact Mokshtubes Fittings LLP | Request a Quote or Inquiry" />
+    <meta property="og:description"
+        content="Get in touch with Mokshtubes Fittings & LLP for inquiries, quotations, or technical assistance. Call, email, or visit us." />
+    <meta property="og:image" content="{{ asset('assets/images/slides/Mokshtubes-banner-desktop.webp') }}" />
+    <meta property="og:url" content="{{ url()->current() }}" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Contact Mokshtubes Fittings LLP | Request a Quote or Inquiry">
+    <meta name="twitter:description"
+        content="Contact Mokshtubes for quick quotations, support, and technical guidance. We're here to help.">
+    <meta name="twitter:image" content="{{ asset('assets/images/slides/Mokshtubes-banner-desktop.webp') }}">
+@endsection
+
 @section('extracss')
     <style>
         .location-card {
@@ -234,7 +252,7 @@
 @endsection
 
 @section('extrajs')
-<script type="application/ld+json">
+    <script type="application/ld+json">
 @verbatim
 {
   "@context": "https://schema.org",
