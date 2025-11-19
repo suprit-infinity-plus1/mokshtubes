@@ -2,9 +2,11 @@
 
 @section('title', 'Copper Alloy C46400 | High Strength & Durability')
 
-@section('meta_description', 'Copper Alloy C46400 is a high-strength, durable copper alloy offering excellent corrosion resistance for aerospace, marine, and industrial uses.')
+@section('meta_description', 'Copper Alloy C46400 is a high-strength, durable copper alloy offering excellent corrosion
+    resistance for aerospace, marine, and industrial uses.')
 
-@section('meta_keywords', 'Copper Alloy C46400, high strength copper alloy, aerospace copper alloy, marine copper alloy, industrial copper alloy, durable copper alloy')
+@section('meta_keywords', 'Copper Alloy C46400, high strength copper alloy, aerospace copper alloy, marine copper alloy,
+    industrial copper alloy, durable copper alloy')
 
 @section('content')
 
@@ -63,7 +65,7 @@
             </div>
         </div>
     </section>
-{{-- datasheet --}}
+    {{-- datasheet --}}
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Copper Alloys C46400 Datasheet</h3>
@@ -77,19 +79,21 @@
             <form id="leadForm" method="POST" action="https://mokshtubes.com/datasheet-leads-capture" class="mb-3">
                 <input type="hidden" name="_token" value="WNVWvpO4YR2OqZaIJDl2mE3UfyreGys3Vp19brsc" autocomplete="off">
                 <div class="row justify-content-center">
-                    <input type="hidden" name="pdf" value="haynes-242.pdf">
+                    <input type="hidden" name="pdf" value="copper-alloy-C46400.pdf">
                     <div class="col-md-6 mb-2">
-                        <input type="email" name="email" required="" class="form-control p-3" placeholder="Enter your email address">
+                        <input type="email" name="email" required="" class="form-control p-3"
+                            placeholder="Enter your email address">
                     </div>
                     <div class="col-md-3 mb-2">
-                        <button type="submit" class="btn btn-lg w-100 text-white" style="background-color:#db7227; border-radius:8px;">
+                        <button type="submit" class="btn btn-lg w-100 text-white"
+                            style="background-color:#db7227; border-radius:8px;">
                             📥 Get Datasheet
                         </button>
                     </div>
                 </div>
             </form>
 
-            
+
             <hr class="my-4">
             <p class="small text-muted">
                 We respect your privacy. Your email will only be used to send the datasheet.
@@ -296,7 +300,7 @@
     </section>
 
 
-     @php
+    @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -715,7 +719,7 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
+    <script type="application/ld+json">
     @verbatim
 {
   "@context": "https://schema.org",

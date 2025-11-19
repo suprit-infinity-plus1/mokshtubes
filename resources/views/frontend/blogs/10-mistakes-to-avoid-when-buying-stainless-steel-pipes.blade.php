@@ -1,8 +1,8 @@
 @extends('layouts.master')
 
 @section('title', '10 Mistakes to Avoid When Buying Stainless Pipes')
-@section('meta_description', 'Avoid common mistakes when buying stainless steel pipes. Pick the right grade and supplier
-    for quality and long-lasting performance.')
+@section('meta_description', 'Avoid mistakes when buying stainless steel pipes. Choose the right grade and a trusted
+    supplier for long-lasting performance.')
 @section('meta_keywords',
     'Stainless Steel Pipes, Buying Stainless Steel Pipes, Stainless Steel Pipe Grades, Stainless
     Steel')
