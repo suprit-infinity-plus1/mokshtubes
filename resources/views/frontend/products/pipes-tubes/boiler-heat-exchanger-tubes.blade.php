@@ -422,7 +422,10 @@
             <div class="section-title center mb-3">
                 <h4 class="text-center mb-0" style="color: #db7227;">Schedule 5C – Size Chart (ASME B36.10)</h4>
             </div>
+            <h1>
 
+                hello man
+            </h1>
             <!-- PREVIEW TABLE (only few rows) -->
             <div class="table-responsive">
                 <table class="table table-bordered table-striped align-middle" style="border-collapse:collapse;">
@@ -457,150 +460,151 @@
                             <td>1.24</td>
                             <td>0.490</td>
                         </tr>
+                        <tr class="collapse table-5c-full">
+                            <td>15</td>
+                            <td>1/2"</td>
+                            <td>21.3</td>
+                            <td>1.65</td>
+                            <td>0.800</td>
+                        </tr>
+                        <tr class="collapse table-5c-full">
+                            <td>20</td>
+                            <td>3/4"</td>
+                            <td>26.7</td>
+                            <td>1.65</td>
+                            <td>1.030</td>
+                        </tr>
+
+                        <tr class="collapse table-5c-full">
+                            <td>25</td>
+                            <td>1"</td>
+                            <td>33.4</td>
+                            <td>1.65</td>
+                            <td>1.300</td>
+                        </tr>
+                        <tr class="collapse table-5c-full">
+                            <td>32</td>
+                            <td>1 1/4"</td>
+                            <td>42.2</td>
+                            <td>1.65</td>
+                            <td>1.650</td>
+                        </tr>
+                        <tr class="collapse table-5c-full">
+                            <td>40</td>
+                            <td>1 1/2"</td>
+                            <td>48.3</td>
+                            <td>1.65</td>
+                            <td>1.910</td>
+                        </tr>
+                        <tr class="collapse table-5c-full">
+                            <td>50</td>
+                            <td>2"</td>
+                            <td>60.3</td>
+                            <td>1.65</td>
+                            <td>2.400</td>
+                        </tr>
+                        <tr class="collapse table-5c-full">
+                            <td>65</td>
+                            <td>2 1/2"</td>
+                            <td>73.0</td>
+                            <td>2.11</td>
+                            <td>3.690</td>
+                        </tr>
+                        <tr class="collapse table-5c-full">
+                            <td>80</td>
+                            <td>3"</td>
+                            <td>88.9</td>
+                            <td>2.11</td>
+                            <td>4.510</td>
+                        </tr>
+                        <tr class="collapse table-5c-full">
+                            <td>100</td>
+                            <td>4"</td>
+                            <td>114.3</td>
+                            <td>2.11</td>
+                            <td>5.840</td>
+                        </tr>
+                        <tr class="collapse table-5c-full">
+                            <td>125</td>
+                            <td>5"</td>
+                            <td>141.3</td>
+                            <td>2.77</td>
+                            <td>9.470</td>
+                        </tr>
+                        <tr class="collapse table-5c-full">
+                            <td>150</td>
+                            <td>6"</td>
+                            <td>168.3</td>
+                            <td>2.77</td>
+                            <td>11.320</td>
+                        </tr>
+                        <tr class="collapse table-5c-full">
+                            <td>200</td>
+                            <td>8"</td>
+                            <td>219.1</td>
+                            <td>2.77</td>
+                            <td>14.790</td>
+                        </tr>
+                        <tr class="collapse table-5c-full">
+                            <td>250</td>
+                            <td>10"</td>
+                            <td>273.1</td>
+                            <td>3.40</td>
+                            <td>22.630</td>
+                        </tr>
+                        <tr class="collapse table-5c-full">
+                            <td>300</td>
+                            <td>12"</td>
+                            <td>323.9</td>
+                            <td>3.96</td>
+                            <td>31.250</td>
+                        </tr>
+                        <tr class="collapse table-5c-full">
+                            <td>350</td>
+                            <td>14"</td>
+                            <td>355.6</td>
+                            <td>3.96</td>
+                            <td>34.360</td>
+                        </tr>
+                        <tr class="collapse table-5c-full">
+                            <td>400</td>
+                            <td>16"</td>
+                            <td>406.4</td>
+                            <td>4.19</td>
+                            <td>41.560</td>
+                        </tr>
+                        <tr class="collapse table-5c-full">
+                            <td>450</td>
+                            <td>18"</td>
+                            <td>457.2</td>
+                            <td>4.19</td>
+                            <td>46.800</td>
+                        </tr>
+                        <tr class="collapse table-5c-full">
+                            <td>500</td>
+                            <td>20"</td>
+                            <td>508.0</td>
+                            <td>4.78</td>
+                            <td>59.250</td>
+                        </tr>
+                        <tr class="collapse table-5c-full">
+                            <td>600</td>
+                            <td>24"</td>
+                            <td>609.6</td>
+                            <td>5.54</td>
+                            <td>82.470</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
 
             <!-- FULL TABLE HIDDEN -->
-            <div id="table-5c-full" class="collapse">
+            <div id="table-5c-full" class="collapse table-5c-full">
                 <div class="table-responsive">
                     <table class="table table-bordered table-striped align-middle">
-                        <tbody class="text-center"
-                            style="margin-top:0; padding:0; display:table-row-group;">
+                        <tbody class="text-center" style="margin-top:0; padding:0; display:table-row-group;">
                             <!-- Full table WITHOUT the first 3 preview rows -->
-                            <tr>
-                                <td >15</td>
-                                <td>1/2"</td>
-                                <td>21.3</td>
-                                <td>1.65</td>
-                                <td>0.800</td>
-                            </tr>
-                            <tr>
-                                <td>20</td>
-                                <td>3/4"</td>
-                                <td>26.7</td>
-                                <td>1.65</td>
-                                <td>1.030</td>
-                            </tr>
-                            <tr>
-                                <td>25</td>
-                                <td>1"</td>
-                                <td>33.4</td>
-                                <td>1.65</td>
-                                <td>1.300</td>
-                            </tr>
-                            <tr>
-                                <td>32</td>
-                                <td>1 1/4"</td>
-                                <td>42.2</td>
-                                <td>1.65</td>
-                                <td>1.650</td>
-                            </tr>
-                            <tr>
-                                <td>40</td>
-                                <td>1 1/2"</td>
-                                <td>48.3</td>
-                                <td>1.65</td>
-                                <td>1.910</td>
-                            </tr>
-                            <tr>
-                                <td>50</td>
-                                <td>2"</td>
-                                <td>60.3</td>
-                                <td>1.65</td>
-                                <td>2.400</td>
-                            </tr>
-                            <tr>
-                                <td>65</td>
-                                <td>2 1/2"</td>
-                                <td>73.0</td>
-                                <td>2.11</td>
-                                <td>3.690</td>
-                            </tr>
-                            <tr>
-                                <td>80</td>
-                                <td>3"</td>
-                                <td>88.9</td>
-                                <td>2.11</td>
-                                <td>4.510</td>
-                            </tr>
-                            <tr>
-                                <td>100</td>
-                                <td>4"</td>
-                                <td>114.3</td>
-                                <td>2.11</td>
-                                <td>5.840</td>
-                            </tr>
-                            <tr>
-                                <td>125</td>
-                                <td>5"</td>
-                                <td>141.3</td>
-                                <td>2.77</td>
-                                <td>9.470</td>
-                            </tr>
-                            <tr>
-                                <td>150</td>
-                                <td>6"</td>
-                                <td>168.3</td>
-                                <td>2.77</td>
-                                <td>11.320</td>
-                            </tr>
-                            <tr>
-                                <td>200</td>
-                                <td>8"</td>
-                                <td>219.1</td>
-                                <td>2.77</td>
-                                <td>14.790</td>
-                            </tr>
-                            <tr>
-                                <td>250</td>
-                                <td>10"</td>
-                                <td>273.1</td>
-                                <td>3.40</td>
-                                <td>22.630</td>
-                            </tr>
-                            <tr>
-                                <td>300</td>
-                                <td>12"</td>
-                                <td>323.9</td>
-                                <td>3.96</td>
-                                <td>31.250</td>
-                            </tr>
-                            <tr>
-                                <td>350</td>
-                                <td>14"</td>
-                                <td>355.6</td>
-                                <td>3.96</td>
-                                <td>34.360</td>
-                            </tr>
-                            <tr>
-                                <td>400</td>
-                                <td>16"</td>
-                                <td>406.4</td>
-                                <td>4.19</td>
-                                <td>41.560</td>
-                            </tr>
-                            <tr>
-                                <td>450</td>
-                                <td>18"</td>
-                                <td>457.2</td>
-                                <td>4.19</td>
-                                <td>46.800</td>
-                            </tr>
-                            <tr>
-                                <td>500</td>
-                                <td>20"</td>
-                                <td>508.0</td>
-                                <td>4.78</td>
-                                <td>59.250</td>
-                            </tr>
-                            <tr>
-                                <td>600</td>
-                                <td>24"</td>
-                                <td>609.6</td>
-                                <td>5.54</td>
-                                <td>82.470</td>
-                            </tr>
+
                         </tbody>
                     </table>
                 </div>
@@ -609,27 +613,27 @@
             <!-- BUTTON AT VERY BOTTOM -->
             <div class="text-center mt-3">
                 <button id="toggleBtn" class="btn btn-sm btn-primary cursor-pointer" data-bs-toggle="collapse"
-                    data-bs-target="#table-5c-full">
+                    {{-- data-bs-target="#table-5c-full" --}} data-bs-target=".table-5c-full">
                     View Full Chart
                 </button>
             </div>
 
         </div>
     </section>
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-    const fullTable = document.getElementById("table-5c-full");
-    const btn = document.getElementById("toggleBtn");
+    {{-- <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const fullTable = document.getElementById("table-5c-full");
+            const btn = document.getElementById("toggleBtn");
 
-    fullTable.addEventListener("shown.bs.collapse", function () {
-        btn.textContent = "Show Less";
-    });
+            fullTable.addEventListener("shown.bs.collapse", function() {
+                btn.textContent = "Show Less";
+            });
 
-    fullTable.addEventListener("hidden.bs.collapse", function () {
-        btn.textContent = "View Full Chart";
-    });
-});
-</script>
+            fullTable.addEventListener("hidden.bs.collapse", function() {
+                btn.textContent = "View Full Chart";
+            });
+        });
+    </script> --}}
 
 
     <section class="bg-light" style="padding-top: 80px;">
@@ -838,16 +842,35 @@ document.addEventListener("DOMContentLoaded", function () {
         </div>
     </section>
     <script>
+        // document.addEventListener("DOMContentLoaded", function() {
+        //     const fullTable = document.getElementById("table-5c-full");
+        //     const btn = document.getElementById("toggleBtn");
+
+        //     fullTable.addEventListener("shown.bs.collapse", function() {
+        //         btn.textContent = "Show Less";
+        //     });
+
+        //     fullTable.addEventListener("hidden.bs.collapse", function() {
+        //         btn.textContent = "View Full Chart";
+        //     });
+        // });
+
         document.addEventListener("DOMContentLoaded", function() {
-            const fullTable = document.getElementById("table-5c-full");
-            const btn = document.getElementById("toggleBtn");
+            const tables = document.querySelectorAll(".table-5c-full");
+            const buttons = document.querySelectorAll(".toggleBtn");
 
-            fullTable.addEventListener("shown.bs.collapse", function() {
-                btn.textContent = "Show Less";
-            });
+            tables.forEach((table) => {
+                buttons.forEach((btn) => {
 
-            fullTable.addEventListener("hidden.bs.collapse", function() {
-                btn.textContent = "View Full Chart";
+                    table.addEventListener("shown.bs.collapse", function() {
+                        btn.textContent = "Show Less";
+                    });
+
+                    table.addEventListener("hidden.bs.collapse", function() {
+                        btn.textContent = "View Full Chart";
+                    });
+
+                });
             });
         });
     </script>
