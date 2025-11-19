@@ -2341,7 +2341,7 @@
                 <h2>Contact Us Get a Quote</h2>
                 <p>
                     For further information, quotes, or customized boiler heat exhanger tubes products, <strong>Moksh Tubes & Fittings
-                        LLP</strong> your dependable partner for Boiler & Heat Exchanger Tubing Solutions.</p>
+                        LLP</strong> is your dependable partner for Boiler & Heat Exchanger Tubing Solutions.</p>
                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
