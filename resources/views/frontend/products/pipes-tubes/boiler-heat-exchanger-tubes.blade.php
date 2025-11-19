@@ -463,13 +463,13 @@
 
             <!-- FULL TABLE HIDDEN -->
             <div id="table-5c-full" class="collapse">
-                <div class="table-responsive mt-0">
+                <div class="table-responsive">
                     <table class="table table-bordered table-striped align-middle">
                         <tbody class="text-center"
                             style="margin-top:0; padding:0; display:table-row-group;">
                             <!-- Full table WITHOUT the first 3 preview rows -->
                             <tr>
-                                <td>15</td>
+                                <td >15</td>
                                 <td>1/2"</td>
                                 <td>21.3</td>
                                 <td>1.65</td>
