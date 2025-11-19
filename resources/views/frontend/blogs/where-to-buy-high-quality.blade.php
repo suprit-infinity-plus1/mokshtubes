@@ -29,8 +29,7 @@
                         <div class="single-blog-post">
                             <div class="img-holder">
                                 <img src="{{ asset('assets/images/blog/stainless_steel_pipes.jpg') }}"
-                                    alt="hastelloy-vs-stainless"
-                                    style="width:700px; height:400px; object-fit:cover;>
+                                    alt="hastelloy-vs-stainless" style="width:700px; height:400px; object-fit:cover;">
                             </div>
                             <div class="text-holder">
                                 <div class="blog-title text-start">

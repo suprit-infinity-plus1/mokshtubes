@@ -2,9 +2,13 @@
 
 @section('title', 'Copper Nickel Alloy C71520 | Marine Grade Performance')
 
-@section('meta_description', 'Copper Nickel Alloy C71520 provides high performance, durability, and corrosion resistance in marine, seawater, and industrial applications.')
+@section('meta_description',
+    'Copper Nickel Alloy C71520 provides high performance, durability, and corrosion resistance
+    in marine, seawater, and industrial applications.')
 
-@section('meta_keywords', 'Copper Nickel Alloy C71520, marine grade copper nickel, high performance copper alloy, corrosion resistant copper nickel, seawater resistant alloy, durable copper nickel, industrial copper alloy')
+@section('meta_keywords',
+    'Copper Nickel Alloy C71520, marine grade copper nickel, high performance copper alloy,
+    corrosion resistant copper nickel, seawater resistant alloy, durable copper nickel, industrial copper alloy')
 
 @section('content')
 
@@ -28,7 +32,7 @@
             </div>
 
             <h2 class="fw-semibold text-center mb-5" style="color: #db7227;">
-            Introduction To Copper Alloys C71520 / CU-NI 70/30
+                Introduction To Copper Alloys C71520 / CU-NI 70/30
             </h2>
 
             <div class="row align-items-center">
@@ -65,7 +69,7 @@
             </div>
         </div>
     </section>
-{{-- datasheet --}}
+    {{-- datasheet --}}
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Copper Alloys C71520 Datasheet</h3>
@@ -79,19 +83,21 @@
             <form id="leadForm" method="POST" action="https://mokshtubes.com/datasheet-leads-capture" class="mb-3">
                 <input type="hidden" name="_token" value="WNVWvpO4YR2OqZaIJDl2mE3UfyreGys3Vp19brsc" autocomplete="off">
                 <div class="row justify-content-center">
-                    <input type="hidden" name="pdf" value="haynes-242.pdf">
+                    <input type="hidden" name="pdf" value="copper-alloy-C71520.pdf">
                     <div class="col-md-6 mb-2">
-                        <input type="email" name="email" required="" class="form-control p-3" placeholder="Enter your email address">
+                        <input type="email" name="email" required="" class="form-control p-3"
+                            placeholder="Enter your email address">
                     </div>
                     <div class="col-md-3 mb-2">
-                        <button type="submit" class="btn btn-lg w-100 text-white" style="background-color:#db7227; border-radius:8px;">
+                        <button type="submit" class="btn btn-lg w-100 text-white"
+                            style="background-color:#db7227; border-radius:8px;">
                             📥 Get Datasheet
                         </button>
                     </div>
                 </div>
             </form>
 
-            
+
             <hr class="my-4">
             <p class="small text-muted">
                 We respect your privacy. Your email will only be used to send the datasheet.
@@ -296,7 +302,7 @@
     </section>
 
 
-     @php
+    @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -701,7 +707,7 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
+    <script type="application/ld+json">
     @verbatim
 {
   "@context": "https://schema.org",

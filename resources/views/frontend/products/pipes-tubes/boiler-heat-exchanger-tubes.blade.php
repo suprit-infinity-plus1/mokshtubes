@@ -5,7 +5,7 @@
     corrosion-resistant for power, marine & industrial use.') <!-- 153 characters -->
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/boiler-heat-exchanger-tubes.webp);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/boiler-and-heat-banner.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -26,7 +26,7 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/peoduct/boiler-heat-exchanger-tubes.webp') }}"
+                    <img src="{{ asset('/assets/images/peoduct/boiler-and-heat.jpg') }}"
                         alt="Boiler & Heat Exchanger Tubes" class="img-fluid rounded shadow-sm">
                 </div>
 
@@ -423,7 +423,6 @@
                 <h4 class="text-center mb-0" style="color: #db7227;">Schedule 5C – Size Chart (ASME B36.10)</h4>
             </div>
 
-            <!-- PREVIEW TABLE (only few rows) -->
             <div class="table-responsive">
                 <table class="table table-bordered table-striped align-middle" style="border-collapse:collapse;">
                     <thead class="table-dark text-center">
@@ -435,409 +434,182 @@
                             <th>Weight (kg/m)</th>
                         </tr>
                     </thead>
+
                     <tbody class="text-center">
-                        <tr>
+
+                        <!-- Preview rows -->
+                        <tr class="t-row ">
                             <td>3</td>
                             <td>1/8"</td>
                             <td>10.3</td>
                             <td>1.24</td>
                             <td>0.276</td>
                         </tr>
-                        <tr>
+                        <tr class="t-row ">
                             <td>6</td>
                             <td>1/4"</td>
                             <td>13.7</td>
                             <td>1.24</td>
                             <td>0.390</td>
                         </tr>
-                        <tr>
+                        <tr class="t-row ">
                             <td>10</td>
                             <td>3/8"</td>
                             <td>17.1</td>
                             <td>1.24</td>
                             <td>0.490</td>
                         </tr>
+                        <tr class="t-row ">
+                            <td>15</td>
+                            <td>1/2"</td>
+                            <td>21.3</td>
+                            <td>1.65</td>
+                            <td>0.800</td>
+                        </tr>
+                        <tr class="t-row ">
+                            <td>20</td>
+                            <td>3/4"</td>
+                            <td>26.7</td>
+                            <td>1.65</td>
+                            <td>1.030</td>
+                        </tr>
+                        <!-- Collapsible rows -->
+                        
+                        <tr class="t-row collapse table-5c-full">
+                            <td>25</td>
+                            <td>1"</td>
+                            <td>33.4</td>
+                            <td>1.65</td>
+                            <td>1.300</td>
+                        </tr>
+                        <tr class="collapse table-5c-full">
+                            <td>32</td>
+                            <td>1 1/4"</td>
+                            <td>42.2</td>
+                            <td>1.65</td>
+                            <td>1.650</td>
+                        </tr>
+                        <tr class="t-row collapse table-5c-full">
+                            <td>40</td>
+                            <td>1 1/2"</td>
+                            <td>48.3</td>
+                            <td>1.65</td>
+                            <td>1.910</td>
+                        </tr>
+                        <tr class="t-row collapse table-5c-full">
+                            <td>50</td>
+                            <td>2"</td>
+                            <td>60.3</td>
+                            <td>1.65</td>
+                            <td>2.400</td>
+                        </tr>
+                        <tr class="t-row collapse table-5c-full">
+                            <td>65</td>
+                            <td>2 1/2"</td>
+                            <td>73.0</td>
+                            <td>2.11</td>
+                            <td>3.690</td>
+                        </tr>
+                        <tr class="t-row collapse table-5c-full">
+                            <td>80</td>
+                            <td>3"</td>
+                            <td>88.9</td>
+                            <td>2.11</td>
+                            <td>4.510</td>
+                        </tr>
+                        <tr class="t-row collapse table-5c-full">
+                            <td>100</td>
+                            <td>4"</td>
+                            <td>114.3</td>
+                            <td>2.11</td>
+                            <td>5.840</td>
+                        </tr>
+                        <tr class="t-row collapse table-5c-full">
+                            <td>125</td>
+                            <td>5"</td>
+                            <td>141.3</td>
+                            <td>2.77</td>
+                            <td>9.470</td>
+                        </tr>
+                        <tr class="t-row collapse table-5c-full">
+                            <td>150</td>
+                            <td>6"</td>
+                            <td>168.3</td>
+                            <td>2.77</td>
+                            <td>11.320</td>
+                        </tr>
+                        <tr class="t-row collapse table-5c-full">
+                            <td>200</td>
+                            <td>8"</td>
+                            <td>219.1</td>
+                            <td>2.77</td>
+                            <td>14.790</td>
+                        </tr>
+                        <tr class="t-row collapse table-5c-full">
+                            <td>250</td>
+                            <td>10"</td>
+                            <td>273.1</td>
+                            <td>3.40</td>
+                            <td>22.630</td>
+                        </tr>
+                        <tr class="t-row collapse table-5c-full">
+                            <td>300</td>
+                            <td>12"</td>
+                            <td>323.9</td>
+                            <td>3.96</td>
+                            <td>31.250</td>
+                        </tr>
+                        <tr class="t-row collapse table-5c-full">
+                            <td>350</td>
+                            <td>14"</td>
+                            <td>355.6</td>
+                            <td>3.96</td>
+                            <td>34.360</td>
+                        </tr>
+                        <tr class="t-row collapse table-5c-full">
+                            <td>400</td>
+                            <td>16"</td>
+                            <td>406.4</td>
+                            <td>4.19</td>
+                            <td>41.560</td>
+                        </tr>
+                        <tr class="t-row collapse table-5c-full">
+                            <td>450</td>
+                            <td>18"</td>
+                            <td>457.2</td>
+                            <td>4.19</td>
+                            <td>46.800</td>
+                        </tr>
+                        <tr class="t-row collapse table-5c-full">
+                            <td>500</td>
+                            <td>20"</td>
+                            <td>508.0</td>
+                            <td>4.78</td>
+                            <td>59.250</td>
+                        </tr>
+                        <tr class="t-row collapse table-5c-full">
+                            <td>600</td>
+                            <td>24"</td>
+                            <td>609.6</td>
+                            <td>5.54</td>
+                            <td>82.470</td>
+                        </tr>
+
                     </tbody>
                 </table>
             </div>
 
-            <!-- FULL TABLE HIDDEN -->
-            <div id="table-5c-full" class="collapse">
-                <div class="table-responsive mt-0">
-                    <table class="table table-bordered table-striped align-middle">
-                        <tbody class="text-center"
-                            style="margin-top:0; padding:0; display:table-row-group;">
-                            <!-- Full table WITHOUT the first 3 preview rows -->
-                            <tr>
-                                <td>15</td>
-                                <td>1/2"</td>
-                                <td>21.3</td>
-                                <td>1.65</td>
-                                <td>0.800</td>
-                            </tr>
-                            <tr>
-                                <td>20</td>
-                                <td>3/4"</td>
-                                <td>26.7</td>
-                                <td>1.65</td>
-                                <td>1.030</td>
-                            </tr>
-                            <tr>
-                                <td>25</td>
-                                <td>1"</td>
-                                <td>33.4</td>
-                                <td>1.65</td>
-                                <td>1.300</td>
-                            </tr>
-                            <tr>
-                                <td>32</td>
-                                <td>1 1/4"</td>
-                                <td>42.2</td>
-                                <td>1.65</td>
-                                <td>1.650</td>
-                            </tr>
-                            <tr>
-                                <td>40</td>
-                                <td>1 1/2"</td>
-                                <td>48.3</td>
-                                <td>1.65</td>
-                                <td>1.910</td>
-                            </tr>
-                            <tr>
-                                <td>50</td>
-                                <td>2"</td>
-                                <td>60.3</td>
-                                <td>1.65</td>
-                                <td>2.400</td>
-                            </tr>
-                            <tr>
-                                <td>65</td>
-                                <td>2 1/2"</td>
-                                <td>73.0</td>
-                                <td>2.11</td>
-                                <td>3.690</td>
-                            </tr>
-                            <tr>
-                                <td>80</td>
-                                <td>3"</td>
-                                <td>88.9</td>
-                                <td>2.11</td>
-                                <td>4.510</td>
-                            </tr>
-                            <tr>
-                                <td>100</td>
-                                <td>4"</td>
-                                <td>114.3</td>
-                                <td>2.11</td>
-                                <td>5.840</td>
-                            </tr>
-                            <tr>
-                                <td>125</td>
-                                <td>5"</td>
-                                <td>141.3</td>
-                                <td>2.77</td>
-                                <td>9.470</td>
-                            </tr>
-                            <tr>
-                                <td>150</td>
-                                <td>6"</td>
-                                <td>168.3</td>
-                                <td>2.77</td>
-                                <td>11.320</td>
-                            </tr>
-                            <tr>
-                                <td>200</td>
-                                <td>8"</td>
-                                <td>219.1</td>
-                                <td>2.77</td>
-                                <td>14.790</td>
-                            </tr>
-                            <tr>
-                                <td>250</td>
-                                <td>10"</td>
-                                <td>273.1</td>
-                                <td>3.40</td>
-                                <td>22.630</td>
-                            </tr>
-                            <tr>
-                                <td>300</td>
-                                <td>12"</td>
-                                <td>323.9</td>
-                                <td>3.96</td>
-                                <td>31.250</td>
-                            </tr>
-                            <tr>
-                                <td>350</td>
-                                <td>14"</td>
-                                <td>355.6</td>
-                                <td>3.96</td>
-                                <td>34.360</td>
-                            </tr>
-                            <tr>
-                                <td>400</td>
-                                <td>16"</td>
-                                <td>406.4</td>
-                                <td>4.19</td>
-                                <td>41.560</td>
-                            </tr>
-                            <tr>
-                                <td>450</td>
-                                <td>18"</td>
-                                <td>457.2</td>
-                                <td>4.19</td>
-                                <td>46.800</td>
-                            </tr>
-                            <tr>
-                                <td>500</td>
-                                <td>20"</td>
-                                <td>508.0</td>
-                                <td>4.78</td>
-                                <td>59.250</td>
-                            </tr>
-                            <tr>
-                                <td>600</td>
-                                <td>24"</td>
-                                <td>609.6</td>
-                                <td>5.54</td>
-                                <td>82.470</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-
-            <!-- BUTTON AT VERY BOTTOM -->
             <div class="text-center mt-3">
-                <button id="toggleBtn" class="btn btn-sm btn-primary cursor-pointer" data-bs-toggle="collapse"
-                    data-bs-target="#table-5c-full">
+                <button id="toggleBtn5C" class="btn btn-sm btn-primary cursor-pointer" data-bs-toggle="collapse"
+                    data-bs-target=".table-5c-full" style="background-color: #db7227; border:none;">
                     View Full Chart
                 </button>
             </div>
 
         </div>
     </section>
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-    const fullTable = document.getElementById("table-5c-full");
-    const btn = document.getElementById("toggleBtn");
 
-    fullTable.addEventListener("shown.bs.collapse", function () {
-        btn.textContent = "Show Less";
-    });
-
-    fullTable.addEventListener("hidden.bs.collapse", function () {
-        btn.textContent = "View Full Chart";
-    });
-});
-</script>
-
-
-    <section class="bg-light" style="padding-top: 80px;">
-        <div class="container">
-            <!-- Child Title -->
-            <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Schedule 10C – Size Chart (ASME B36.10)</h4>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>NPS (inches)</th>
-                                    <th>NB (mm)</th>
-                                    <th>OD (mm)</th>
-                                    <th>Wall Thickness (mm)</th>
-                                    <th>Internal Diameter (mm)</th>
-                                    <th>Weight (kg/m)</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>1/8</td>
-                                    <td>3</td>
-                                    <td>10.30</td>
-                                    <td>1.24</td>
-                                    <td>7.82</td>
-                                    <td>0.28</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>1/4</td>
-                                    <td>6</td>
-                                    <td>13.70</td>
-                                    <td>1.24</td>
-                                    <td>11.22</td>
-                                    <td>0.39</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>3/8</td>
-                                    <td>10</td>
-                                    <td>17.10</td>
-                                    <td>1.24</td>
-                                    <td>14.62</td>
-                                    <td>0.49</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>1/2</td>
-                                    <td>15</td>
-                                    <td>21.30</td>
-                                    <td>1.65</td>
-                                    <td>18.00</td>
-                                    <td>0.81</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>3/4</td>
-                                    <td>20</td>
-                                    <td>26.70</td>
-                                    <td>1.65</td>
-                                    <td>23.40</td>
-                                    <td>1.04</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>1</td>
-                                    <td>25</td>
-                                    <td>33.40</td>
-                                    <td>1.65</td>
-                                    <td>30.10</td>
-                                    <td>1.32</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>1 1/4</td>
-                                    <td>32</td>
-                                    <td>42.20</td>
-                                    <td>1.65</td>
-                                    <td>38.90</td>
-                                    <td>1.68</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>1 1/2</td>
-                                    <td>40</td>
-                                    <td>48.30</td>
-                                    <td>1.65</td>
-                                    <td>45.00</td>
-                                    <td>1.93</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>2</td>
-                                    <td>50</td>
-                                    <td>60.30</td>
-                                    <td>1.65</td>
-                                    <td>57.00</td>
-                                    <td>2.43</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>2 1/2</td>
-                                    <td>65</td>
-                                    <td>73.00</td>
-                                    <td>1.65</td>
-                                    <td>69.70</td>
-                                    <td>2.96</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>3</td>
-                                    <td>80</td>
-                                    <td>88.90</td>
-                                    <td>1.65</td>
-                                    <td>85.60</td>
-                                    <td>3.62</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>4</td>
-                                    <td>100</td>
-                                    <td>114.30</td>
-                                    <td>1.65</td>
-                                    <td>111.00</td>
-                                    <td>4.67</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>5</td>
-                                    <td>125</td>
-                                    <td>141.30</td>
-                                    <td>1.65</td>
-                                    <td>138.00</td>
-                                    <td>5.79</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>6</td>
-                                    <td>150</td>
-                                    <td>168.30</td>
-                                    <td>1.65</td>
-                                    <td>165.00</td>
-                                    <td>6.91</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>8</td>
-                                    <td>200</td>
-                                    <td>219.10</td>
-                                    <td>2.11</td>
-                                    <td>214.88</td>
-                                    <td>11.51</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>10</td>
-                                    <td>250</td>
-                                    <td>273.10</td>
-                                    <td>2.77</td>
-                                    <td>267.56</td>
-                                    <td>18.81</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>12</td>
-                                    <td>300</td>
-                                    <td>323.90</td>
-                                    <td>3.05</td>
-                                    <td>317.80</td>
-                                    <td>24.59</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>14</td>
-                                    <td>350</td>
-                                    <td>355.60</td>
-                                    <td>3.40</td>
-                                    <td>348.80</td>
-                                    <td>30.10</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>16</td>
-                                    <td>400</td>
-                                    <td>406.40</td>
-                                    <td>3.40</td>
-                                    <td>399.60</td>
-                                    <td>34.44</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>18</td>
-                                    <td>450</td>
-                                    <td>457.20</td>
-                                    <td>3.80</td>
-                                    <td>449.60</td>
-                                    <td>43.28</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>20</td>
-                                    <td>500</td>
-                                    <td>508.00</td>
-                                    <td>3.80</td>
-                                    <td>500.40</td>
-                                    <td>48.15</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>24</td>
-                                    <td>600</td>
-                                    <td>609.60</td>
-                                    <td>4.00</td>
-                                    <td>601.60</td>
-                                    <td>60.92</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <script>
+    {{-- <script>
         document.addEventListener("DOMContentLoaded", function() {
             const fullTable = document.getElementById("table-5c-full");
             const btn = document.getElementById("toggleBtn");
@@ -850,10 +622,261 @@ document.addEventListener("DOMContentLoaded", function () {
                 btn.textContent = "View Full Chart";
             });
         });
+    </script> --}}
+
+
+    <section class="bg-light" style="padding-top: 80px;">
+        <div class="container">
+
+            <!-- Child Title -->
+            <div class="section-title center mb-3">
+                <h4 class="text-center mb-0" style="color: #db7227;">Schedule 10C – Size Chart (ASME B36.10)</h4>
+            </div>
+
+            <!-- PREVIEW TABLE (just first 3 rows) -->
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>NPS (inches)</th>
+                            <th>NB (mm)</th>
+                            <th>OD (mm)</th>
+                            <th>Wall Thickness (mm)</th>
+                            <th>Internal Diameter (mm)</th>
+                            <th>Weight (kg/m)</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <!-- Preview rows -->
+                        <tr class="t-row">
+                            <td>1/8</td>
+                            <td>3</td>
+                            <td>10.30</td>
+                            <td>1.24</td>
+                            <td>7.82</td>
+                            <td>0.28</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>1/4</td>
+                            <td>6</td>
+                            <td>13.70</td>
+                            <td>1.24</td>
+                            <td>11.22</td>
+                            <td>0.39</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>3/8</td>
+                            <td>10</td>
+                            <td>17.10</td>
+                            <td>1.24</td>
+                            <td>14.62</td>
+                            <td>0.49</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>1/2</td>
+                            <td>15</td>
+                            <td>21.30</td>
+                            <td>1.65</td>
+                            <td>18.00</td>
+                            <td>0.81</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>3/4</td>
+                            <td>20</td>
+                            <td>26.70</td>
+                            <td>1.65</td>
+                            <td>23.40</td>
+                            <td>1.04</td>
+                        </tr>
+                        <!-- All remaining rows collapse -->
+
+                        <tr class="t-row collapse table-10c-full">
+                            <td>1</td>
+                            <td>25</td>
+                            <td>33.40</td>
+                            <td>1.65</td>
+                            <td>30.10</td>
+                            <td>1.32</td>
+                        </tr>
+                        <tr class="t-row collapse table-10c-full">
+                            <td>1 1/4</td>
+                            <td>32</td>
+                            <td>42.20</td>
+                            <td>1.65</td>
+                            <td>38.90</td>
+                            <td>1.68</td>
+                        </tr>
+                        <tr class="t-row collapse table-10c-full">
+                            <td>1 1/2</td>
+                            <td>40</td>
+                            <td>48.30</td>
+                            <td>1.65</td>
+                            <td>45.00</td>
+                            <td>1.93</td>
+                        </tr>
+                        <tr class="t-row collapse table-10c-full">
+                            <td>2</td>
+                            <td>50</td>
+                            <td>60.30</td>
+                            <td>1.65</td>
+                            <td>57.00</td>
+                            <td>2.43</td>
+                        </tr>
+                        <tr class="t-row collapse table-10c-full">
+                            <td>2 1/2</td>
+                            <td>65</td>
+                            <td>73.00</td>
+                            <td>1.65</td>
+                            <td>69.70</td>
+                            <td>2.96</td>
+                        </tr>
+                        <tr class="t-row collapse table-10c-full">
+                            <td>3</td>
+                            <td>80</td>
+                            <td>88.90</td>
+                            <td>1.65</td>
+                            <td>85.60</td>
+                            <td>3.62</td>
+                        </tr>
+                        <tr class="t-row collapse table-10c-full">
+                            <td>4</td>
+                            <td>100</td>
+                            <td>114.30</td>
+                            <td>1.65</td>
+                            <td>111.00</td>
+                            <td>4.67</td>
+                        </tr>
+                        <tr class="t-row collapse table-10c-full">
+                            <td>5</td>
+                            <td>125</td>
+                            <td>141.30</td>
+                            <td>1.65</td>
+                            <td>138.00</td>
+                            <td>5.79</td>
+                        </tr>
+                        <tr class="t-row collapse table-10c-full">
+                            <td>6</td>
+                            <td>150</td>
+                            <td>168.30</td>
+                            <td>1.65</td>
+                            <td>165.00</td>
+                            <td>6.91</td>
+                        </tr>
+                        <tr class="t-row collapse table-10c-full">
+                            <td>8</td>
+                            <td>200</td>
+                            <td>219.10</td>
+                            <td>2.11</td>
+                            <td>214.88</td>
+                            <td>11.51</td>
+                        </tr>
+                        <tr class="t-row collapse table-10c-full">
+                            <td>10</td>
+                            <td>250</td>
+                            <td>273.10</td>
+                            <td>2.77</td>
+                            <td>267.56</td>
+                            <td>18.81</td>
+                        </tr>
+                        <tr class="t-row collapse table-10c-full">
+                            <td>12</td>
+                            <td>300</td>
+                            <td>323.90</td>
+                            <td>3.05</td>
+                            <td>317.80</td>
+                            <td>24.59</td>
+                        </tr>
+                        <tr class="t-row collapse table-10c-full">
+                            <td>14</td>
+                            <td>350</td>
+                            <td>355.60</td>
+                            <td>3.40</td>
+                            <td>348.80</td>
+                            <td>30.10</td>
+                        </tr>
+                        <tr class="t-row collapse table-10c-full">
+                            <td>16</td>
+                            <td>400</td>
+                            <td>406.40</td>
+                            <td>3.40</td>
+                            <td>399.60</td>
+                            <td>34.44</td>
+                        </tr>
+                        <tr class="t-row collapse table-10c-full">
+                            <td>18</td>
+                            <td>450</td>
+                            <td>457.20</td>
+                            <td>3.80</td>
+                            <td>449.60</td>
+                            <td>43.28</td>
+                        </tr>
+                        <tr class="t-row collapse table-10c-full">
+                            <td>20</td>
+                            <td>500</td>
+                            <td>508.00</td>
+                            <td>3.80</td>
+                            <td>500.40</td>
+                            <td>48.15</td>
+                        </tr>
+                        <tr class="t-row collapse table-10c-full">
+                            <td>24</td>
+                            <td>600</td>
+                            <td>609.60</td>
+                            <td>4.00</td>
+                            <td>601.60</td>
+                            <td>60.92</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- BUTTON AT VERY BOTTOM -->
+            <div class="text-center mt-3">
+                <button id="toggleBtn10" class="btn btn-sm btn-primary cursor-pointer" data-bs-toggle="collapse"
+                    data-bs-target=".table-10c-full" style="background-color: #db7227; border:none;">
+                    View Full Chart
+                </button>
+            </div>
+
+        </div>
+    </section>
+    <script>
+        // document.addEventListener("DOMContentLoaded", function() {
+        //     const fullTable = document.getElementById("table-5c-full");
+        //     const btn = document.getElementById("toggleBtn");
+
+        //     fullTable.addEventListener("shown.bs.collapse", function() {
+        //         btn.textContent = "Show Less";
+        //     });
+
+        //     fullTable.addEventListener("hidden.bs.collapse", function() {
+        //         btn.textContent = "View Full Chart";
+        //     });
+        // });
+
+        document.addEventListener("DOMContentLoaded", function() {
+            const tables = document.querySelectorAll(".table-5c-full");
+            const buttons = document.querySelectorAll(".toggleBtn");
+
+            tables.forEach((table) => {
+                buttons.forEach((btn) => {
+
+                    table.addEventListener("shown.bs.collapse", function() {
+                        btn.textContent = "Show Less";
+                    });
+
+                    table.addEventListener("hidden.bs.collapse", function() {
+                        btn.textContent = "View Full Chart";
+                    });
+
+                });
+            });
+        });
     </script>
 
     <section class="bg-light" style="padding-top: 80px;">
         <div class="container">
+
             <!-- Child Title -->
             <div class="section-title center mb-3">
                 <h4 class="text-center mb-0" style="color: #db7227;">Schedule 40C – Size Chart (ASME B36.10)</h4>
@@ -872,7 +895,10 @@ document.addEventListener("DOMContentLoaded", function () {
                                     <th>Weight (kg/m)</th>
                                 </tr>
                             </thead>
+
                             <tbody class="text-center">
+
+                                <!-- Preview rows -->
                                 <tr class="t-row">
                                     <td>1/8</td>
                                     <td>3</td>
@@ -908,119 +934,122 @@ document.addEventListener("DOMContentLoaded", function () {
                                     <td>2.87</td>
                                     <td>1.70</td>
                                 </tr>
-                                <tr class="t-row">
+
+                                <!-- Everything below collapses -->
+
+                                <tr class="t-row collapse table-40c-full">
                                     <td>1</td>
                                     <td>25</td>
                                     <td>33.4</td>
                                     <td>3.38</td>
                                     <td>2.46</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-40c-full">
                                     <td>1 1/4</td>
                                     <td>32</td>
                                     <td>42.2</td>
                                     <td>3.56</td>
                                     <td>3.61</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-40c-full">
                                     <td>1 1/2</td>
                                     <td>40</td>
                                     <td>48.3</td>
                                     <td>3.68</td>
                                     <td>4.18</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-40c-full">
                                     <td>2</td>
                                     <td>50</td>
                                     <td>60.3</td>
                                     <td>3.91</td>
                                     <td>5.44</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-40c-full">
                                     <td>2 1/2</td>
                                     <td>65</td>
                                     <td>73.0</td>
                                     <td>5.16</td>
                                     <td>8.63</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-40c-full">
                                     <td>3</td>
                                     <td>80</td>
                                     <td>88.9</td>
                                     <td>5.49</td>
                                     <td>11.29</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-40c-full">
                                     <td>4</td>
                                     <td>100</td>
                                     <td>114.3</td>
                                     <td>6.02</td>
                                     <td>17.15</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-40c-full">
                                     <td>5</td>
                                     <td>125</td>
                                     <td>141.3</td>
                                     <td>6.55</td>
                                     <td>23.85</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-40c-full">
                                     <td>6</td>
                                     <td>150</td>
                                     <td>168.3</td>
                                     <td>7.11</td>
                                     <td>30.7</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-40c-full">
                                     <td>8</td>
                                     <td>200</td>
                                     <td>219.1</td>
                                     <td>8.18</td>
                                     <td>49.56</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-40c-full">
                                     <td>10</td>
                                     <td>250</td>
                                     <td>273.1</td>
                                     <td>9.27</td>
                                     <td>73.5</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-40c-full">
                                     <td>12</td>
                                     <td>300</td>
                                     <td>323.9</td>
                                     <td>10.31</td>
                                     <td>95.54</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-40c-full">
                                     <td>14</td>
                                     <td>350</td>
                                     <td>355.6</td>
                                     <td>11.13</td>
                                     <td>112.63</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-40c-full">
                                     <td>16</td>
                                     <td>400</td>
                                     <td>406.4</td>
                                     <td>12.7</td>
                                     <td>144.27</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-40c-full">
                                     <td>18</td>
                                     <td>450</td>
                                     <td>457.2</td>
                                     <td>14.27</td>
                                     <td>179.28</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-40c-full">
                                     <td>20</td>
                                     <td>500</td>
                                     <td>508.0</td>
                                     <td>15.09</td>
                                     <td>213.93</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-40c-full">
                                     <td>24</td>
                                     <td>600</td>
                                     <td>609.6</td>
@@ -1033,10 +1062,21 @@ document.addEventListener("DOMContentLoaded", function () {
                     </div>
                 </div>
             </div>
+
+            <!-- BUTTON -->
+            <div class="text-center mt-3">
+                <button id="toggleBtn40" class="btn btn-sm btn-primary cursor-pointer" data-bs-toggle="collapse"
+                    data-bs-target=".table-40c-full" style="background-color: #db7227; border:none;">
+                    View Full Chart
+                </button>
+            </div>
+
         </div>
     </section>
+
     <section class="bg-light" style="padding-top: 80px;">
         <div class="container">
+
             <!-- Child Title -->
             <div class="section-title center mb-3">
                 <h4 class="text-center mb-0" style="color: #db7227;">Schedule 80C – Size Chart (ASME B36.19)</h4>
@@ -1055,7 +1095,10 @@ document.addEventListener("DOMContentLoaded", function () {
                                     <th>Weight (kg/m)</th>
                                 </tr>
                             </thead>
+
                             <tbody class="text-center">
+
+                                <!-- Preview rows -->
                                 <tr class="t-row">
                                     <td>1/8</td>
                                     <td>3</td>
@@ -1091,119 +1134,135 @@ document.addEventListener("DOMContentLoaded", function () {
                                     <td>3.91</td>
                                     <td>2.3</td>
                                 </tr>
-                                <tr class="t-row">
+
+                                <!-- Collapse rows -->
+                                <tr class="t-row collapse table-80c-full">
+                                    <td>1/2</td>
+                                    <td>15</td>
+                                    <td>21.3</td>
+                                    <td>3.73</td>
+                                    <td>1.63</td>
+                                </tr>
+                                <tr class="t-row collapse table-80c-full">
+                                    <td>3/4</td>
+                                    <td>20</td>
+                                    <td>26.7</td>
+                                    <td>3.91</td>
+                                    <td>2.3</td>
+                                </tr>
+                                <tr class="t-row collapse table-80c-full">
                                     <td>1</td>
                                     <td>25</td>
                                     <td>33.4</td>
                                     <td>4.55</td>
                                     <td>3.38</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-80c-full">
                                     <td>1 1/4</td>
                                     <td>32</td>
                                     <td>42.2</td>
                                     <td>4.85</td>
                                     <td>4.84</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-80c-full">
                                     <td>1 1/2</td>
                                     <td>40</td>
                                     <td>48.3</td>
                                     <td>5.08</td>
                                     <td>5.61</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-80c-full">
                                     <td>2</td>
                                     <td>50</td>
                                     <td>60.3</td>
                                     <td>5.54</td>
                                     <td>7.48</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-80c-full">
                                     <td>2 1/2</td>
                                     <td>65</td>
                                     <td>73.0</td>
                                     <td>7.01</td>
                                     <td>11.76</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-80c-full">
                                     <td>3</td>
                                     <td>80</td>
                                     <td>88.9</td>
                                     <td>7.62</td>
                                     <td>15.74</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-80c-full">
                                     <td>4</td>
                                     <td>100</td>
                                     <td>114.3</td>
                                     <td>8.56</td>
                                     <td>25.1</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-80c-full">
                                     <td>5</td>
                                     <td>125</td>
                                     <td>141.3</td>
                                     <td>9.53</td>
                                     <td>36.46</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-80c-full">
                                     <td>6</td>
                                     <td>150</td>
                                     <td>168.3</td>
                                     <td>10.97</td>
                                     <td>49.56</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-80c-full">
                                     <td>8</td>
                                     <td>200</td>
                                     <td>219.1</td>
                                     <td>12.7</td>
                                     <td>77.1</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-80c-full">
                                     <td>10</td>
                                     <td>250</td>
                                     <td>273.1</td>
                                     <td>15.09</td>
                                     <td>114.0</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-80c-full">
                                     <td>12</td>
                                     <td>300</td>
                                     <td>323.9</td>
                                     <td>17.48</td>
                                     <td>153.0</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-80c-full">
                                     <td>14</td>
                                     <td>350</td>
                                     <td>355.6</td>
                                     <td>19.05</td>
                                     <td>180.0</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-80c-full">
                                     <td>16</td>
                                     <td>400</td>
                                     <td>406.4</td>
                                     <td>21.44</td>
                                     <td>227.5</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-80c-full">
                                     <td>18</td>
                                     <td>450</td>
                                     <td>457.2</td>
                                     <td>23.83</td>
                                     <td>282.5</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-80c-full">
                                     <td>20</td>
                                     <td>500</td>
                                     <td>508.0</td>
                                     <td>26.18</td>
                                     <td>342.0</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-80c-full">
                                     <td>24</td>
                                     <td>600</td>
                                     <td>609.6</td>
@@ -1216,10 +1275,21 @@ document.addEventListener("DOMContentLoaded", function () {
                     </div>
                 </div>
             </div>
+
+            <!-- BUTTON -->
+            <div class="text-center mt-3">
+                <button id="toggleBtn80" class="btn btn-sm btn-primary cursor-pointer" data-bs-toggle="collapse"
+                    data-bs-target=".table-80c-full" style="background-color: #db7227; border:none;">
+                    View Full Chart
+                </button>
+            </div>
+
         </div>
     </section>
+
     <section class="bg-light" style="padding-top: 80px;">
         <div class="container">
+
             <!-- Child Title -->
             <div class="section-title center mb-3">
                 <h4 class="text-center mb-0" style="color: #db7227;">Schedule 160C – Size Chart (ASME B36.10)</h4>
@@ -1238,7 +1308,10 @@ document.addEventListener("DOMContentLoaded", function () {
                                     <th>Weight (kg/m)</th>
                                 </tr>
                             </thead>
+
                             <tbody class="text-center">
+
+                                <!-- Preview rows -->
                                 <tr class="t-row">
                                     <td>1/8</td>
                                     <td>3</td>
@@ -1274,134 +1347,149 @@ document.addEventListener("DOMContentLoaded", function () {
                                     <td>4.55</td>
                                     <td>2.63</td>
                                 </tr>
-                                <tr class="t-row">
+
+                                <!-- Everything below collapses -->
+
+                                <tr class="t-row collapse table-160c-full">
                                     <td>1</td>
                                     <td>25</td>
                                     <td>33.4</td>
                                     <td>6.35</td>
                                     <td>4.51</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-160c-full">
                                     <td>1 1/4</td>
                                     <td>32</td>
                                     <td>42.2</td>
                                     <td>6.35</td>
                                     <td>6.12</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-160c-full">
                                     <td>1 1/2</td>
                                     <td>40</td>
                                     <td>48.3</td>
                                     <td>7.14</td>
                                     <td>7.92</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-160c-full">
                                     <td>2</td>
                                     <td>50</td>
                                     <td>60.3</td>
                                     <td>8.71</td>
                                     <td>11.06</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-160c-full">
                                     <td>2 1/2</td>
                                     <td>65</td>
                                     <td>73.0</td>
                                     <td>9.53</td>
                                     <td>14.9</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-160c-full">
                                     <td>3</td>
                                     <td>80</td>
                                     <td>88.9</td>
                                     <td>11.13</td>
                                     <td>21.31</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-160c-full">
                                     <td>4</td>
                                     <td>100</td>
                                     <td>114.3</td>
                                     <td>13.49</td>
                                     <td>34.35</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-160c-full">
                                     <td>5</td>
                                     <td>125</td>
                                     <td>141.3</td>
                                     <td>15.88</td>
                                     <td>53.3</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-160c-full">
                                     <td>6</td>
                                     <td>150</td>
                                     <td>168.3</td>
                                     <td>18.26</td>
                                     <td>75.53</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-160c-full">
                                     <td>8</td>
                                     <td>200</td>
                                     <td>219.1</td>
                                     <td>23.01</td>
                                     <td>123.9</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-160c-full">
                                     <td>10</td>
                                     <td>250</td>
                                     <td>273.1</td>
                                     <td>28.58</td>
                                     <td>190.5</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-160c-full">
                                     <td>12</td>
                                     <td>300</td>
                                     <td>323.9</td>
                                     <td>33.32</td>
                                     <td>268.0</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-160c-full">
                                     <td>14</td>
                                     <td>350</td>
                                     <td>355.6</td>
                                     <td>35.71</td>
                                     <td>327.0</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-160c-full">
                                     <td>16</td>
                                     <td>400</td>
                                     <td>406.4</td>
                                     <td>40.49</td>
                                     <td>429.5</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-160c-full">
                                     <td>18</td>
                                     <td>450</td>
                                     <td>457.2</td>
                                     <td>45.24</td>
                                     <td>544.0</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-160c-full">
                                     <td>20</td>
                                     <td>500</td>
                                     <td>508.0</td>
                                     <td>50.01</td>
                                     <td>677.5</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-160c-full">
                                     <td>24</td>
                                     <td>600</td>
                                     <td>609.6</td>
                                     <td>59.54</td>
                                     <td>997.0</td>
                                 </tr>
+
                             </tbody>
                         </table>
                     </div>
                 </div>
             </div>
+
+            <!-- BUTTON -->
+            <div class="text-center mt-3">
+                <button id="toggleBtn160" class="btn btn-sm btn-primary cursor-pointer" data-bs-toggle="collapse"
+                    data-bs-target=".table-160c-full" style="background-color: #db7227; border:none;">
+                    View Full Chart
+                </button>
+            </div>
+
         </div>
     </section>
+
     <section class="bg-light" style="padding-top: 80px;">
         <div class="container">
+
             <!-- Child Title -->
             <div class="section-title center mb-3">
                 <h4 class="text-center mb-0" style="color: #db7227;">Schedule XXC – Size Chart (ASME B36.10)</h4>
@@ -1420,7 +1508,10 @@ document.addEventListener("DOMContentLoaded", function () {
                                     <th>Weight (kg/m)</th>
                                 </tr>
                             </thead>
+
                             <tbody class="text-center">
+
+                                <!-- Preview rows -->
                                 <tr class="t-row">
                                     <td>1/8</td>
                                     <td>3</td>
@@ -1456,132 +1547,146 @@ document.addEventListener("DOMContentLoaded", function () {
                                     <td>6.02</td>
                                     <td>3.32</td>
                                 </tr>
-                                <tr class="t-row">
+
+                                <!-- Collapse rows -->
+
+                                <tr class="t-row collapse table-xxc-full">
                                     <td>1</td>
                                     <td>25</td>
                                     <td>33.4</td>
                                     <td>7.47</td>
                                     <td>5.25</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-xxc-full">
                                     <td>1 1/4</td>
                                     <td>32</td>
                                     <td>42.2</td>
                                     <td>9.09</td>
                                     <td>8.26</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-xxc-full">
                                     <td>1 1/2</td>
                                     <td>40</td>
                                     <td>48.3</td>
                                     <td>10.15</td>
                                     <td>10.68</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-xxc-full">
                                     <td>2</td>
                                     <td>50</td>
                                     <td>60.3</td>
                                     <td>11.07</td>
                                     <td>14.82</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-xxc-full">
                                     <td>2 1/2</td>
                                     <td>65</td>
                                     <td>73.0</td>
                                     <td>13.49</td>
                                     <td>21.56</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-xxc-full">
                                     <td>3</td>
                                     <td>80</td>
                                     <td>88.9</td>
                                     <td>15.24</td>
                                     <td>29.83</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-xxc-full">
                                     <td>4</td>
                                     <td>100</td>
                                     <td>114.3</td>
                                     <td>18.26</td>
                                     <td>47.17</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-xxc-full">
                                     <td>5</td>
                                     <td>125</td>
                                     <td>141.3</td>
                                     <td>21.95</td>
                                     <td>70.65</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-xxc-full">
                                     <td>6</td>
                                     <td>150</td>
                                     <td>168.3</td>
                                     <td>25.4</td>
                                     <td>99.57</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-xxc-full">
                                     <td>8</td>
                                     <td>200</td>
                                     <td>219.1</td>
                                     <td>28.58</td>
                                     <td>144.45</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-xxc-full">
                                     <td>10</td>
                                     <td>250</td>
                                     <td>273.1</td>
                                     <td>31.75</td>
                                     <td>202.0</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-xxc-full">
                                     <td>12</td>
                                     <td>300</td>
                                     <td>323.9</td>
                                     <td>36.53</td>
                                     <td>281.25</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-xxc-full">
                                     <td>14</td>
                                     <td>350</td>
                                     <td>355.6</td>
                                     <td>38.89</td>
                                     <td>338.0</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-xxc-full">
                                     <td>16</td>
                                     <td>400</td>
                                     <td>406.4</td>
                                     <td>44.45</td>
                                     <td>442.5</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-xxc-full">
                                     <td>18</td>
                                     <td>450</td>
                                     <td>457.2</td>
                                     <td>50.01</td>
                                     <td>562.0</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-xxc-full">
                                     <td>20</td>
                                     <td>500</td>
                                     <td>508.0</td>
                                     <td>55.56</td>
                                     <td>697.0</td>
                                 </tr>
-                                <tr class="t-row">
+                                <tr class="t-row collapse table-xxc-full">
                                     <td>24</td>
                                     <td>600</td>
                                     <td>609.6</td>
                                     <td>63.5</td>
                                     <td>984.0</td>
                                 </tr>
+
                             </tbody>
                         </table>
                     </div>
                 </div>
             </div>
+
+            <!-- BUTTON -->
+            <div class="text-center mt-3">
+                <button id="toggleBtnXXC" class="btn btn-sm btn-primary cursor-pointer" data-bs-toggle="collapse"
+                    data-bs-target=".table-xxc-full" style="background-color: #db7227; border:none;">
+                    View Full Chart
+                </button>
+            </div>
+
         </div>
     </section>
+
 
     {{-- Grades Available --}}
     <section class="sec-padd-top sec-padd-bottom">
