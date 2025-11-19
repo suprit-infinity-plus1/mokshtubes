@@ -1,26 +1,31 @@
 @extends('layouts.master')
-@section('title', 'Premium Boiler & Heat Exchanger Tubes – Moksh Tubes') <!-- 52 characters -->
+@section('title', 'Boiler & Heat Exchanger Tubes | Moksh Tubes') <!-- 52 characters -->
 @section('meta_description',
-    'High-quality boiler & heat exchanger tubes from Moksh Tubes — strong, durable &
-    corrosion-resistant for power, marine & industrial use.') <!-- 153 characters -->
+    'Premium Boiler & Heat Exchanger Tubes in Mumbai. SS, Alloy Steel, Duplex, Nickel & Titanium grades. Fast delivery. Contact Moksh Tubes for a quote.') <!-- 153 characters -->
+@section('meta_keywords', 'Boiler Heat Exchanger Tubes, Boiler Tubes Supplier, Heat Exchanger Tubes Manufacturer, Stainless Steel Boiler Tubes, Alloy Steel Heat Exchanger Tubes, Duplex Steel Tubes, Nickel Alloy Tubes, Titanium Boiler Tubes, Boiler Tubes Mumbai, Heat Exchanger Tubes India')
+<meta property="og:title" content="Boiler & Heat Exchanger Tubes | Moksh Tubes">
+<meta property="og:description" content="Stainless Steel, Alloy Steel, Duplex, Nickel, Titanium boiler & heat exchanger tubes. Worldwide supplier with fast delivery.">
+<meta property="og:image" content="/assets/images/product/boiler-heat-exchanger-tubes.webp">
+<meta property="og:url" content="https://mokshtubes.com/products/pipes-tubes/boiler-heat-exchanger-tubes">
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/boiler-heat-exchanger-tubes.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Industrial Boiler & Heat Exchanger Tubes</h1> <!-- 52 characters -->
+                    <h1>Boiler & Heat Exchanger Tubes <br> Specifications, Grades & Weight Chart</h1> <!-- 52 characters -->
                 </div>
             </div>
         </div>
     </section>
-
+<!--End breadcrumb area-->
 
 
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Boiler & Heat Exchanger Tubes</h2>
+                <h2 class="fw-bold" style="color: #174268;">Boiler & Heat Exchanger Tubes <br> Product Overview</h2>
             </div>
 
             <div class="row align-items-center">
@@ -32,100 +37,126 @@
 
                 <!-- Right Content -->
                 <div class="col-md-6">
-                    <p class="fs-6 mb-3 text-justify">
-                        <strong class="text-black">Boiler & Heat Exchanger Tubes</strong> are essential components in
-                        thermal power plants, petrochemical plants, refineries, and process industries. They are designed to
-                        withstand extreme temperatures, pressures, and corrosive environments while ensuring efficient heat
-                        transfer.
-                    </p>
-                    <p class="fs-6 mb-3 text-justify">
-                        Made from high grade<a href="{{ route('materials.austenitic-stainless-Steel') }}"> stainless
-                            steel</a>, carbon steel, alloy steel, and specialty alloys, these tubes
-                        are manufactured to strict tolerances and international quality standards (ASTM, ASME, DIN, EN).
-                    </p>
-                    <p class="fs-6 text-justify">
-                        <strong class="text-black"> <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a></strong>,
-                        we produce boiler and heat
-                        exchanger tubes using advanced cold drawing, seamless forming, and <a
-                            href="{{ route('products.pipes-tubes.welded-pipes') }}">welding</a> technologies to deliver
-                        precision, durability, and performance. Our tubes are trusted worldwide for use in boilers,
-                        superheaters, condensers, heat exchangers, and other critical systems.
+                  <p class="fs-6 mb-3 text-justify">
+    <strong class="text-black">Boiler & Heat Exchanger Tubes</strong> are critical components used in power plants, petrochemical plants, refineries, marine systems, and industrial heat transfer applications. These tubes are designed to withstand high temperature, high pressure, and corrosive environments while maintaining stable and efficient thermal performance.
+</p>
+
+<p class="fs-6 mb-3 text-justify">
+    <strong class="text-black"><a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a></strong>, based in Mumbai, India, is a leading stockist, supplier, and global exporter of high-performance Boiler & Heat Exchanger Tubes. Our inventory includes 
+    <a href="{{ route('materials.austenitic-stainless-Steel') }}">stainless steel</a>, carbon steel, alloy steel, duplex & super duplex, nickel alloys, titanium, and copper alloys.
+</p>
+
+<p class="fs-6 text-justify">
+    With ISO 9001:2015 certified systems, complete material traceability, and strict quality checks, we deliver reliable tubing solutions to clients across India, the Middle East, Europe, Africa, and Southeast Asia. Our focus is to provide dependable quality, competitive pricing, and timely delivery for boiler, condenser, superheater, and heat exchanger applications.
+</p>
+
+
                 </div>
             </div>
         </div>
     </section>
+    
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Specifications</h2>
+                <h2>Specifications & Technical Details</h2>
             </div>
 
             <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Category</th>
-                                    <th>Details</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-start">
-                                <tr class="t-row">
-                                    <td>Material</td>
-                                    <td>Stainless Steel, <a href="{{ route('materials.duplex-and-super-duplex') }}">Duplex &
-                                            Super Duplex Steel</a>, Nickel Alloys, <a
-                                            href="{{ route('materials.inconel') }}">Inconel</a>, Monel,
-                                        Titanium, Copper Alloys, Alloy Steel, Carbon Steel</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Grades</td>
-                                    <td>ASTM/ASME certified – available in all mentioned alloys</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Outer Diameter (OD)</td>
-                                    <td>6 mm to 219 mm (¼” to 8” NB)</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Wall Thickness</td>
-                                    <td>0.5 mm to 12.7 mm (standard & custom schedules)</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Lengths</td>
-                                    <td>Up to 12 meters or cut-to-length as per project needs</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Finishes</td>
-                                    <td>Bright Annealed, Pickled & Passivated, Electro Polished, Matte</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Type</td>
-                                    <td><a href="{{ url('products/pipes-tubes/seamless-pipes') }}">Seamless</a>, Welded
-                                        (ERW, EFW), <a href="{{ url('products/pipes-tubes/u-bent-tubes') }}">U-Bent
-                                            Tubes</a></td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Standards</td>
-                                    <td>ASTM A179, A192, A213, A249, A269, A333, ASME SA213, EN 10216, DIN standards</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Applications</td>
-                                    <td>Boilers, Heat Exchangers, Superheaters, Condensers, Economizers</td>
-                                </tr>
-                            </tbody>
-                        </table>
+    <div class="col-lg-12">
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped align-middle">
+                <thead class="table-dark text-center">
+                    <tr class="t-row">
+                        <th>Category</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody class="text-start">
 
-                    </div>
-                </div>
-            </div>
+                    <tr class="t-row">
+                        <td>Material</td>
+                        <td>Stainless Steel, Duplex & Super Duplex, Alloy Steel, Carbon Steel, Nickel Alloys, Inconel, Monel, Titanium, Copper Alloys</td>
+                    </tr>
+
+                    <tr class="t-row">
+                        <td>Grades</td>
+                        <td>ASTM/ASME certified grades (all materials available)</td>
+                    </tr>
+
+                    <tr class="t-row">
+                        <td>Outer Diameter (OD)</td>
+                        <td>6 mm to 219 mm (¼” to 8” NB)</td>
+                    </tr>
+
+                    <tr class="t-row">
+                        <td>Wall Thickness</td>
+                        <td>0.5 mm to 12.7 mm (standard & custom schedules)</td>
+                    </tr>
+
+                    <tr class="t-row">
+                        <td>Lengths</td>
+                        <td>Up to 12 meters or cut-to-length</td>
+                    </tr>
+
+                    <tr class="t-row">
+                        <td>Finishes</td>
+                        <td>Bright Annealed, Pickled & Passivated, Electro-Polished, Matte</td>
+                    </tr>
+
+                    <tr class="t-row">
+                        <td>Type</td>
+                        <td>Seamless, Welded (ERW/EFW), U-Bend Tubes</td>
+                    </tr>
+
+                    <tr class="t-row">
+                        <td>Standards</td>
+                        <td>ASTM A179, A192, A213, A249, A269, A333, ASME SA213, EN 10216, DIN</td>
+                    </tr>
+
+                    <tr class="t-row">
+                        <td>Applications</td>
+                        <td>Boilers, Heat Exchangers, Superheaters, Condensers, Economizers</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
         </div>
     </section>
 
+
+<div class="text-center my-4">
+    <a href="/pdf/boiler-heat-exchanger.pdf" 
+       class="btn" 
+       style="
+            background-color: #db7227;
+            color: #fff;
+            padding: 12px 28px;
+            font-size: 18px;
+            font-weight: 600;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: 0.3s;
+       "
+       onmouseover="this.style.backgroundColor='#bf611f'"
+       onmouseout="this.style.backgroundColor='#db7227'"
+       download>
+        <i class="bi bi-file-earmark-arrow-down-fill me-2"></i>
+        Download Full Technical PDF
+    </a>
+</div>
+
+
+    <!-- Weight Chart Section -->
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
-                <h2 class="fw-bold" style="color: #174268;">Charts</h2>
+                <h2 class="fw-bold" style="color: #174268;">Weight Charts & Available Sizes</h2>
 
                 <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
                     <strong>Office Address:</strong> 92E, Plot No. 3, New Tank Bunder, Darukhana, Mumbai, Maharashtra- 400
@@ -134,7 +165,7 @@
             </div>
             <!-- Child Title -->
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Weight Chart</h4>
+                <h3 class="text-center mb-0" style="color: #db7227;">Weight Chart</h3>
             </div>
 
             <div class="table-responsive">
@@ -417,12 +448,12 @@
 
             <!-- Parent Title -->
             <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Size Charts</h2>
+                <h2 class="fw-bold" style="color: #174268;">Available Sizes Charts</h2>
             </div>
 
             <!-- Child Title -->
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Schedule 5C – Size Chart (ASME B36.10)</h4>
+                <h3 class="text-center mb-0" style="color: #db7227;">Schedule 5C Size & Weight Chart</h3>
             </div>
 
 
@@ -606,7 +637,7 @@
         <div class="container">
             <!-- Child Title -->
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Schedule 10C – Size Chart (ASME B36.10)</h4>
+                <h3 class="text-center mb-0" style="color: #db7227;">Schedule 10C Size & Weight Chart</h3>
             </div>
 
             <div class="row justify-content-center">
@@ -811,7 +842,7 @@
         <div class="container">
             <!-- Child Title -->
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Schedule 40C – Size Chart (ASME B36.10)</h4>
+                <h3 class="text-center mb-0" style="color: #db7227;">Schedule 40C Size & Weight Chart</h3>
             </div>
 
             <div class="row justify-content-center">
@@ -994,7 +1025,7 @@
         <div class="container">
             <!-- Child Title -->
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Schedule 80C – Size Chart (ASME B36.19)</h4>
+                <h3 class="text-center mb-0" style="color: #db7227;">Schedule 80C Size & Weight Chart</h3>
             </div>
 
             <div class="row justify-content-center">
@@ -1177,7 +1208,7 @@
         <div class="container">
             <!-- Child Title -->
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Schedule 160C – Size Chart (ASME B36.10)</h4>
+                <h3 class="text-center mb-0" style="color: #db7227;">Schedule 160C Size & Weight Chart</h3>
             </div>
 
             <div class="row justify-content-center">
@@ -1359,7 +1390,7 @@
         <div class="container">
             <!-- Child Title -->
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Schedule XXC – Size Chart (ASME B36.10)</h4>
+                <h3 class="text-center mb-0" style="color: #db7227;">Schedule XXC Size & Weight Chart</h3>
             </div>
 
             <div class="row justify-content-center">
@@ -1542,62 +1573,70 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Grades Available</h2>
+                <h2>Materials & Grades Available</h2>
             </div>
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Boiler & Heat Exchanger Tubes are offered in a wide
-                    range of materials and grades:</h4>
+                <h3 class="text-center mb-0" style="color: #db7227;">Boiler & Heat Exchanger Tubes are offered in a wide
+                    range of materials and grades:</h3>
             </div>
 
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Material</th>
-                                    <th>Grades</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr class="t-row">
-                                    <td>Stainless Steel</td>
-                                    <td>304, 304L, 316, 316L, 310, 321, 347 for high-temperature resistance.</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Duplex & Super Duplex: </td>
-                                    <td>2205, S31803, S32750 for high strength and corrosion </td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Nickel Alloys</td>
-                                    <td>Inconel 600, 625, 718, Monel 400, K500 for extreme environments.</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Alloy Steel</td>
-                                    <td>T11, T12, T22, T91 for high pressure boilers.</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Carbon Steel</td>
-                                    <td>ASTM A179, A192 for low and medium pressure boilers.</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Copper Alloys</td>
-                                    <td>Cu-Ni 70/30, 90/10 for marine heat exchangers and condensers.</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Titanium</td>
-                                    <td><a href="{{ route('materials.titanium') }}">Grades 1, 2</a> for desalination plants
-                                        and chemical industries.</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
+          <div class="row justify-content-center">
+    <div class="col-lg-8">
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped align-middle">
+                <thead class="table-dark text-center">
+                    <tr class="t-row">
+                        <th>Material</th>
+                        <th>Grades</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr class="t-row">
+                        <td>Stainless Steel</td>
+                        <td>304 / 304L, 316 / 316L, 310, 321, 347</td>
+                    </tr>
+
+                    <tr class="t-row">
+                        <td>Duplex & Super Duplex</td>
+                        <td>2205, S31803, S32750, S32760</td>
+                    </tr>
+
+                    <tr class="t-row">
+                        <td>Nickel Alloys</td>
+                        <td>Inconel 600, 625, 718; Monel 400, K500; Hastelloy (on request)</td>
+                    </tr>
+
+                    <tr class="t-row">
+                        <td>Alloy Steel</td>
+                        <td>T11, T12, T22, T91</td>
+                    </tr>
+
+                    <tr class="t-row">
+                        <td>Carbon Steel</td>
+                        <td>ASTM A179, A192</td>
+                    </tr>
+
+                    <tr class="t-row">
+                        <td>Copper Alloys</td>
+                        <td>Cu-Ni 90/10, 70/30</td>
+                    </tr>
+
+                    <tr class="t-row">
+                        <td>Titanium</td>
+                        <td><a href="{{ route('materials.titanium') }}">Grade 1, Grade 2</a></td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
         </div>
     </section>
 
-    {{-- Gallery --}}
+    
     {{-- Gallery --}}
     <section class="our-services">
         <div class="container">
@@ -1610,7 +1649,7 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}"
-                                    alt="NICKLE ALLOYS">
+                                    alt="Nickel Alloy Boiler Tubes and Heat Exchanger Tubes Supplier">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1623,7 +1662,7 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}"
-                                    alt="STAINLESS STEEL">
+                                    alt="Stainless Steel Boiler Tubes and Heat Exchanger Tubes Supplier">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1636,7 +1675,7 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}"
-                                    alt="DUPLEX & SUPER">
+                                    alt="Duplex and Super Duplex Boiler Tubes and Heat Exchanger Tubes Supplier">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1650,7 +1689,7 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.titanium') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}"
-                                    alt="TITANIUM ALLOYS">
+                                    alt="Titanium Alloy Boiler Tubes and Heat Exchanger Tubes Supplier">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1663,7 +1702,7 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}"
-                                    alt="Haynes Superalloys">
+                                    alt="Haynes Superalloys for High Temperature Boiler and Heat Exchanger Tubes">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1676,7 +1715,7 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.inconel') }}">
                                 <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}"
-                                    alt="Inconel">
+                                    alt="Inconel Boiler Tubes and Heat Exchanger Tubes Supplier">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1694,7 +1733,7 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Applications</h2>
+                <h2>Applications & Industry Usage</h2>
                 <p class="text-center pb-3">
                     <strong class="text-black">Boiler & Heat Exchanger Tubes </strong> are crucial for industries where
                     efficient heat transfer and mechanical strength are required:
@@ -1703,89 +1742,70 @@
 
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon">
-                            <i class="bi bi-gear-wide-connected"></i>
-                        </div>
-                        <h5>Power Generation</h5>
-                        <ul>
-                            <li>
-                                Boiler tubes for thermal and nuclear power plants
-                            </li>
-                            <li>
-                                Superheater, reheater, and economizer tubes
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                   <div class="application-card">
+    <div class="application-icon">
+        <i class="bi bi-gear-wide-connected"></i>
+    </div>
+    <h5>Power Generation</h5>
+    <ul>
+        <li>Superheater & reheater tubes</li>
+        <li>Boiler tubes for thermal, gas & nuclear plants</li>
+    </ul>
+</div>
+</div>
 
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
-                        <h5>Oil, Gas & Petrochemical Industry</h5>
-                        <ul>
-                            <li>
-                                Heat exchangers and condensers in refineries
-                            </li>
-                            <li>
-                                Process heating and cooling applications
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+<div class="col-md-6 col-lg-4">
+    <div class="application-card">
+        <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
+        <h5>Oil & Gas / Petrochemical</h5>
+        <ul>
+            <li>Process heat exchangers</li>
+            <li>Condensers & coolers</li>
+        </ul>
+    </div>
+</div>
 
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
-                        <h5>Chemical & Fertilizer Plants</h5>
-                        <ul>
-                            <li>
-                                Tubing for chemical reactors, cooling towers, and evaporators
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+<div class="col-md-6 col-lg-4">
+    <div class="application-card">
+        <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
+        <h5>Chemical & Fertilizer Plants</h5>
+        <ul>
+            <li>Reactors, evaporators, cooling towers</li>
+        </ul>
+    </div>
+</div>
 
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-droplet"></i></div>
-                        <h5>Marine & Offshore</h5>
-                        <ul>
-                            <li>
-                                Cu-Ni and Titanium tubes for seawater condensers
-                            </li>
-                            <li>
-                                Marine boiler and heat exchanger systems
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+<div class="col-md-6 col-lg-4">
+    <div class="application-card">
+        <div class="application-icon"><i class="bi bi-droplet"></i></div>
+        <h5>Marine & Offshore</h5>
+        <ul>
+            <li>Cu-Ni & Titanium seawater condensers</li>
+            <li>Marine boiler systems</li>
+        </ul>
+    </div>
+</div>
 
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
-                        <h5>Food & Dairy Processing</h5>
-                        <ul>
-                            <li>
-                                Hygienic stainless-steel heat exchanger tubes for milk, beverage, and pharma industries
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+<div class="col-md-6 col-lg-4">
+    <div class="application-card">
+        <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
+        <h5>Food & Dairy</h5>
+        <ul>
+            <li>Hygienic stainless-steel heat exchanger tubes</li>
+        </ul>
+    </div>
+</div>
 
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
-                        <h5>HVAC & Refrigeration</h5>
-                        <ul>
-                            <li>
-                                Tubes for evaporators, condensers, and chilled water systems
-                            </li>
-                            <li>
-                                Applied in commercial, industrial, and residential climate control solutions
-                            </li>
-                        </ul>
-                    </div>
+<div class="col-md-6 col-lg-4">
+    <div class="application-card">
+        <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
+        <h5>HVAC & Refrigeration</h5>
+        <ul>
+            <li>Evaporators, condensers, chilled water systems</li>
+        </ul>
+    </div>
+</div>
+
                 </div>
             </div>
             {{-- <p class="text-center pb-3 my-4"><strong class="text-dark">HASTELLOY C-276's</strong> unique combination of
@@ -1796,6 +1816,187 @@
         </div>
     </section>
 
+
+    {{-- Industries We Serve --}}
+<section class="sec-padd-top sec-padd-bottom bg-light">
+    <div class="container">
+        <div class="section-title center">
+            <h2>Industries We Serve</h2>
+        </div>
+
+        <div class="row g-4 mt-4">
+
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="application-card text-center">
+                    <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
+                    <h5>Power Plants</h5>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="application-card text-center">
+                    <div class="application-icon"><i class="bi bi-droplet-half"></i></div>
+                    <h5>Petrochemical</h5>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="application-card text-center">
+                    <div class="application-icon"><i class="bi bi-ship"></i></div>
+                    <h5>Marine</h5>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="application-card text-center">
+                    <div class="application-icon"><i class="bi bi-flask"></i></div>
+                    <h5>Chemical</h5>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="application-card text-center">
+                    <div class="application-icon"><i class="bi bi-water"></i></div>
+                    <h5>Desalination</h5>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="application-card text-center">
+                    <div class="application-icon"><i class="bi bi-snow"></i></div>
+                    <h5>HVAC</h5>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+   
+
+   <!-- Buying Guide Section (Styled for Your UI) -->
+<section class="sec-padd-top sec-padd-bottom bg-light">
+    <div class="container">
+        <div class="section-title center">
+            <h2>Buying Guide: How to Select the Right Boiler & Heat Exchanger Tube</h2>
+        </div>
+
+        <div class="row g-4 mt-4">
+
+            <!-- Card 1 -->
+         <div class="col-md-6">
+    <div class="application-card">
+        <div class="application-icon"><i class="bi bi-list-check"></i></div>
+        <h5>1. Selecting Boiler Tubes</h5>
+        <ul>
+            <li>Temperature & pressure rating</li>
+            <li>Flow medium (steam, water, chemical)</li>
+            <li>Corrosion exposure (chlorides, seawater, acids)</li>
+            <li>Required OD, thickness, tolerance</li>
+            <li>Applicable codes (ASTM, ASME, EN, DIN)</li>
+        </ul>
+    </div>
+</div>
+
+<!-- Card 2 -->
+<div class="col-md-6">
+    <div class="application-card">
+        <div class="application-icon"><i class="bi bi-diagram-3-fill"></i></div>
+        <h5>2. Seamless vs Welded</h5>
+
+        <ul>
+            <li><strong>Seamless:</strong> High pressure, no weld seam, suitable for boilers & superheaters</li>
+            <li><strong>Welded:</strong> Cost-effective, suitable for low/medium pressure heat exchangers</li>
+        </ul>
+    </div>
+</div>
+
+<!-- Card 3 -->
+<div class="col-md-12">
+    <div class="application-card">
+        <div class="application-icon"><i class="bi bi-brightness-high-fill"></i></div>
+        <h5>3. Material Selection Guide</h5>
+
+        <div class="table-responsive mt-3">
+            <table class="table table-bordered">
+                <thead class="table-light">
+                    <tr>
+                        <th>Material</th>
+                        <th>Ideal For</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Stainless Steel</td>
+                        <td>Steam, hygienic systems</td>
+                    </tr>
+                    <tr>
+                        <td>Duplex / Super Duplex</td>
+                        <td>Seawater, chlorides</td>
+                    </tr>
+                    <tr>
+                        <td>Nickel Alloys</td>
+                        <td>Acids, extreme corrosion</td>
+                    </tr>
+                    <tr>
+                        <td>Carbon Steel</td>
+                        <td>High-pressure boiler tubes</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
+        </div>
+    </div>
+</section>
+
+
+<section class="sec-padd-top sec-padd-bottom">
+    <div class="container">
+        <div class="section-title center">
+            <h2>Engineering Diagrams</h2>
+        </div>
+
+        <div class="row g-4 mt-4">
+
+            <!-- Diagram 1 -->
+            <div class="col-md-6">
+                <div class="application-card">
+                    <div class="application-icon"><i class="bi bi-diagram-3"></i></div>
+                    <h5>Boiler Tube Basic Layout</h5>
+                    <pre style="background:#f7f7f7;padding:20px;border-radius:8px;font-size:14px;">
++-------------------------------+
+|         Boiler Tube           |
+|   OD → ●────────────● ← OD    |
+|       |              |        |
+|       |   Thickness  |        |
+|       |              |        |
++-------------------------------+
+                    </pre>
+                </div>
+            </div>
+
+            <!-- Diagram 2 -->
+            <div class="col-md-6">
+                <div class="application-card">
+                    <div class="application-icon"><i class="bi bi-diagram-3-fill"></i></div>
+                    <h5>U-Bend Heat Exchanger Tube Layout</h5>
+                    <pre style="background:#f7f7f7;padding:20px;border-radius:8px;font-size:14px;">
+       _______________
+     /                 \
+    |                   |
+    |                   |
+    |___________________|
+                    </pre>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
     {{-- Uses of Welded Pipes and Tubes --}}
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -1804,57 +2005,52 @@
             </div>
             <!-- Child Title -->
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Boiler & Heat Exchanger Tubes are used extensively
+                <h3 class="text-center mb-0" style="color: #db7227;">Boiler & Heat Exchanger Tubes are used extensively
                     across multiple
-                    industries, including:</h4>
+                    industries, including:</h3>
             </div>
-            <div class="row g-4 mt-4">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h4>Efficient Heat Transfer</h4>
-                        <h5>Ensures efficient heat transfer in industrial systems</h5>
-                    </div>
-                </div>
+          <div class="row g-4 mt-4">
+    <div class="col-sm-6 col-lg-4">
+        <div class="advantage-card">
+            <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+            <h4>Efficient Heat Transfer</h4>
+            <h5>Ensures fast and efficient heat transfer across systems</h5>
+        </div>
+    </div>
 
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h4>Extreme Condition Performance</h4>
-                        <h5>Handles extreme temperature and pressure conditions</h5>
-                    </div>
-                </div>
+    <div class="col-sm-6 col-lg-4">
+        <div class="advantage-card">
+            <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
+            <h4>High Pressure & Temperature Resistance</h4>
+            <h5>Performs reliably in high-pressure and high-temperature conditions</h5>
+        </div>
+    </div>
 
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h4>Corrosion Resistance</h4>
-                        <h5>Provides corrosion resistance in aggressive environments</h5>
-                    </div>
-                </div>
+    <div class="col-sm-6 col-lg-4">
+        <div class="advantage-card">
+            <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
+            <h4>Corrosion Resistance</h4>
+            <h5>Withstands corrosive media including chlorides, seawater & chemicals</h5>
+        </div>
+    </div>
 
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h4>Energy Efficiency Support</h4>
-                        <h5>Supports energy efficiency in power plants and process industries</h5>
-                    </div>
-                </div>
+    <div class="col-sm-6 col-lg-4">
+        <div class="advantage-card">
+            <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
+            <h4>Multi-Media Compatibility</h4>
+            <h5>Compatible with steam, gas, liquids & chemical flow systems</h5>
+        </div>
+    </div>
 
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
-                        <h4>Multi-Media Compatibility</h4>
-                        <h5>Suitable for steam, gas, liquid, and chemical transport in heat systems</h5>
-                    </div>
-                </div>
+    <div class="col-sm-6 col-lg-4">
+        <div class="advantage-card">
+            <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
+            <h4>Operational Reliability</h4>
+            <h5>Offers long-term performance with minimum maintenance</h5>
+        </div>
+    </div>
+</div>
 
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
-                        <h4>Operational Reliability</h4>
-                        <h5>Delivers long term reliability and consistent performance in demanding applications</h5>
-                    </div>
                 </div>
             </div>
         </div>
@@ -1863,114 +2059,175 @@
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
-                <h2>Advantages of Boiler & Heat Exchanger Tubes</h2>
+                <h2>Key Advantages of Boiler & Heat Exchanger Tubes</h2>
             </div>
 
-            <div class="row g-4 mt-4">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h4>High Temperature Strength</h4>
-                        <h5>Maintains integrity in boilers and superheaters.</h5>
-                    </div>
-                </div>
+           <div class="row g-4 mt-4">
+    <div class="col-sm-6 col-lg-4">
+        <div class="advantage-card">
+            <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+            <h4>High Temperature Strength</h4>
+            <h5>Designed to perform reliably under high temperature environments.</h5>
+        </div>
+    </div>
 
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h4>Precision Manufacturing</h4>
-                        <h5>Tight dimensional tolerances for critical applications.</h5>
-                    </div>
-                </div>
+    <div class="col-sm-6 col-lg-4">
+        <div class="advantage-card">
+            <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
+            <h4>Accurate Dimensional Tolerances</h4>
+            <h5>Manufactured with precise OD, wall thickness & tolerance control.</h5>
+        </div>
+    </div>
 
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h4>Corrosion & Oxidation Resistance</h4>
-                        <h5>Suitable for marine and chemical exposure.</h5>
-                    </div>
-                </div>
+    <div class="col-sm-6 col-lg-4">
+        <div class="advantage-card">
+            <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
+            <h4>Excellent Corrosion & Oxidation Resistance</h4>
+            <h5>Ideal for aggressive, marine and chemical environments.</h5>
+        </div>
+    </div>
 
-                <div class="col-sm-6 col-lg-6">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h4>Versatile Material Selection</h4>
-                        <h5>Stainless, alloy, carbon, copper <a
-                                href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a> & titanium options.
-                        </h5>
-                    </div>
-                </div>
+    <div class="col-sm-6 col-lg-6">
+        <div class="advantage-card">
+            <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
+            <h4>Wide Material & Schedule Range</h4>
+            <h5>Available in stainless, alloy, carbon, copper, nickel & titanium grades.</h5>
+        </div>
+    </div>
 
-                <div class="col-sm-6 col-lg-6">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
-                        <h4>Global Standards Compliance</h4>
-                        <h5>Manufactured to ASTM, ASME, DIN, EN requirements.</h5>
-                    </div>
-                </div>
-            </div>
+    <div class="col-sm-6 col-lg-6">
+        <div class="advantage-card">
+            <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
+            <h4>Fully ASTM/ASME Compliant</h4>
+            <h5>Manufactured to international ASTM, ASME, DIN & EN standards.</h5>
+        </div>
+    </div>
+</div>
+
         </div>
     </section>
 
+
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <div class="container">
+        <div class="section-title center">
+            <h2>Testing & Quality Control for Boiler & Heat Exchanger Tubes</h2>
+        </div>
+
+       <div class="row g-4 mt-4">
+
+    <div class="col-sm-6 col-lg-4">
+        <div class="advantage-card">
+            <div class="advantage-icon"><i class="bi bi-droplet-fill"></i></div>
+            <h4>Hydrostatic Test</h4>
+            <h5>Hydrostatic test for pressure integrity verification.</h5>
+        </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+        <div class="advantage-card">
+            <div class="advantage-icon"><i class="bi bi-activity"></i></div>
+            <h4>Eddy Current Test</h4>
+            <h5>Eddy current testing for detecting surface-level defects.</h5>
+        </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+        <div class="advantage-card">
+            <div class="advantage-icon"><i class="bi bi-check2-circle"></i></div>
+            <h4>PMI Test</h4>
+            <h5>PMI testing to verify material grade and composition.</h5>
+        </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+        <div class="advantage-card">
+            <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
+            <h4>Hardness Test</h4>
+            <h5>Hardness testing for strength and durability confirmation.</h5>
+        </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+        <div class="advantage-card">
+            <div class="advantage-icon"><i class="bi bi-arrows-expand"></i></div>
+            <h4>Flattening & Flaring Test</h4>
+            <h5>Flattening and flaring to assess ductility and deformation.</h5>
+        </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+        <div class="advantage-card">
+            <div class="advantage-icon"><i class="bi bi-broadcast-pin"></i></div>
+            <h4>Ultrasonic Test (UT)</h4>
+            <h5>Ultrasonic testing for internal and volumetric defects.</h5>
+        </div>
+    </div>
+
+</div>
+
+</section>
 
 
     {{-- why choose us --}}
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
             <div class="section-title center">
-                <h2>WHY CHOOSE US?</h2>
+                <h2>Why Choose Moksh Tubes & Fittings LLP?</h2>
+
             </div>
 
-            <div class="row g-4 mt-4">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Extensive Stock & Range: Wide inventory of boiler and heat exchanger tubes in multiple grades.
-                        </h5>
-                    </div>
-                </div>
+           <div class="row g-4 mt-4">
 
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
-                        <h5>Extensive Stock & Range: Wide inventory of boiler and heat exchanger tubes in multiple grades.
-                        </h5>
-                    </div>
-                </div>
+    <div class="col-sm-6 col-lg-4">
+        <div class="why-banner-block">
+            <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
+            <h5>Wide Stock Range for Fast Delivery: Large inventory ready for immediate dispatch.</h5>
+        </div>
+    </div>
 
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
-                        <h5>Global Supply Network: Serving power plants, refineries, and industries worldwide.</h5>
-                    </div>
-                </div>
+    <div class="col-sm-6 col-lg-4">
+        <div class="why-banner-block">
+            <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
+            <h5>Global Supply Capability: Delivering boiler & heat exchanger tubes worldwide.</h5>
+        </div>
+    </div>
 
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Quality Assurance: ISO 9001:2015 certified with full compliance to ASTM/ASME.</h5>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Timely Dispatch: Efficient production and logistics for on time delivery.</h5>
-                    </div>
-                </div>
+    <div class="col-sm-6 col-lg-4">
+        <div class="why-banner-block">
+            <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
+            <h5>ISO 9001:2015 Certified QC: Strict quality control for every material and batch.</h5>
+        </div>
+    </div>
 
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
-                        <h5>Customized Solutions: Tailored tubing solutions to meet specific project and industry
-                            requirements</h5>
-                    </div>
-                </div>
-            </div>
+    <div class="col-sm-6 col-lg-4">
+        <div class="why-banner-block">
+            <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
+            <h5>Competitive Pricing: Best value for high-quality industrial tubing.</h5>
+        </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+        <div class="why-banner-block">
+            <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
+            <h5>Timely Dispatch: Efficient logistics ensuring on-time delivery.</h5>
+        </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+        <div class="why-banner-block">
+            <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
+            <h5>Custom Lengths & Fabrication Options: Tailored to meet project specifications.</h5>
+        </div>
+    </div>
+
+</div>
+
         </div>
     </section>
 
 
-    <!--End breadcrumb area-->
+    
 
 <!--Start faq content area-->
 <section class="faq-content-area sec-padd2">
@@ -1979,98 +2236,112 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="accordion-box">
                     <div class="section-title center">
-                        <h2>FAQ's</h2>
+                        <h2>Frequently Asked Questions (FAQ)</h2>
+
                     </div>
 
                     <!--Start single accordion box-->
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>
-                                What is Haynes 242 and why is it important in high-temperature applications?
-                            </h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>
-                                Haynes 242 (UNS N10242) is an age-hardenable nickel-molybdenum-chromium alloy that combines excellent high-temperature strength with very low thermal expansion. It is widely used in aerospace, chemical, and power generation industries because it provides outstanding dimensional stability, fatigue resistance, and oxidation resistance up to 815 °C (1500 °F), making it ideal for critical operations under extreme conditions.
-                            </p>
-                        </div>
-                    </div>
-                    <!--End single accordion box-->
+                 <div class="accordion accordion-block">
+    <div class="accord-btn">
+        <h4>What are Boiler & Heat Exchanger Tubes?</h4>
+    </div>
+    <div class="accord-content">
+        <p>
+            Industrial tubes used for heat transfer in boilers, condensers, coolers, and heat exchangers.
+        </p>
+    </div>
+</div>
+<!--End single accordion box-->
 
-                    <!--Start single accordion box-->
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>
-                                What are the key properties of Haynes 242 alloy?
-                            </h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>
-                                Haynes 242 offers a unique combination of properties including exceptional strength at elevated temperatures, the lowest thermal expansion among comparable superalloys, high resistance to oxidation, and excellent fatigue and creep performance. It has a tensile strength ranging from 105 to 218 ksi depending on form, with yield strength up to 140 ksi, and maintains structural stability up to 705 °C (1300 °F). Its weldability and formability, even in the age-hardened condition, make it a versatile alloy for demanding applications.
-                            </p>
-                        </div>
-                    </div>
-                    <!--End single accordion box-->
+<div class="accordion accordion-block">
+    <div class="accord-btn">
+        <h4>What materials are available?</h4>
+    </div>
+    <div class="accord-content">
+        <p>
+            Stainless steel, carbon steel, alloy steel, duplex, super duplex, nickel alloys, copper-nickel, titanium.
+        </p>
+    </div>
+</div>
+<!--End single accordion box-->
 
-                    <!--Start single accordion box-->
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>
-                                Which industries and applications commonly use Haynes 242?
-                            </h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>
-                                Haynes 242 is widely used in aerospace and gas turbines for seal rings, ducting, fuel nozzles, and containment casings. In chemical and petrochemical industries, it is used for HF and fluorine resistant components, reactors, and extrusion screws. It also finds applications in industrial furnaces for press tooling, heat exchangers, and furnace parts, in nuclear and specialty energy sectors for controlled expansion components, and in power generation for boiler superheaters and gas turbine hardware.
-                            </p>
-                        </div>
-                    </div>
-                    <!--End single accordion box-->
+<div class="accordion accordion-block">
+    <div class="accord-btn">
+        <h4>What sizes do you supply?</h4>
+    </div>
+    <div class="accord-content">
+        <p>
+            6 mm to 219 mm OD, schedules 5C to XXC.
+        </p>
+    </div>
+</div>
+<!--End single accordion box-->
 
-                    <!--Start single accordion box-->
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>
-                                What types of Haynes 242 products are supplied by MOKSH TUBES & FITTINGS LLP?
-                            </h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>
-                                MOKSH TUBES & FITTINGS LLP supplies a wide range of Haynes 242 products including seamless and welded pipes, tubes, sheets, plates, coils, bars, flanges, pipe fittings, fasteners, welding rods, wire mesh, and custom-fabricated components. All products conform to ASTM, ASME, NACE, and international standards, ensuring that industries receive high-quality materials designed for long service life and superior performance.
-                            </p>
-                        </div>
-                    </div>
-                    <!--End single accordion box-->
+<div class="accordion accordion-block">
+    <div class="accord-btn">
+        <h4>What standards do they meet?</h4>
+    </div>
+    <div class="accord-content">
+        <p>
+            ASTM, ASME, EN, DIN.
+        </p>
+    </div>
+</div>
+<!--End single accordion box-->
 
-                    <!--Start single accordion box-->
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>
-                                Why choose MOKSH TUBES & FITTINGS LLP for Haynes 242 materials?
-                            </h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>
-                                MOKSH TUBES & FITTINGS LLP is a trusted manufacturer and global supplier of Haynes 242, offering deep expertise in exotic alloys, a strong international supply chain, and ISO 9001 certified quality assurance. The company provides customized machining, age treatment, and fabrication services while ensuring timely delivery and full material traceability. With technical support from selection to fabrication, MOKSH TUBES & FITTINGS LLP is a reliable partner for industries operating in extreme environments.
-                            </p>
-                        </div>
-                    </div>
-                    <!--End single accordion box-->
+<div class="accordion accordion-block">
+    <div class="accord-btn">
+        <h4>Why Moksh Tubes?</h4>
+    </div>
+    <div class="accord-content">
+        <p>
+            Large inventory, certified quality, fast delivery, and a strong global supply network.
+        </p>
+    </div>
+</div>
+<!--End single accordion box-->
 
-                </div>
-            </div>
         </div>
     </div>
 </section>
 <!--End faq content area-->
 
+    
+<!-- Related Products Section -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Related Products Basic Preview</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+<section class="related-products pt-5 pb-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Related Products</h2>
+        <div class="row text-center">
+            <div class="col-md-4"><a href="/products/seamless-pipes">Seamless Pipes</a></div>
+            <div class="col-md-4"><a href="/products/u-bend-tubes">U-Bend Tubes</a></div>
+            <div class="col-md-4"><a href="/products/nickel-alloy-tubes">Nickel Alloy Tubes</a></div>
+            <div class="col-md-4"><a href="/products/superheater-tubes">Superheater Tubes</a></div>
+            <div class="col-md-4"><a href="/products/condenser-tubes">Condenser Tubes</a></div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
+    <!-- end Related Products Section -->
+
+    {{-- Contact us section --}}
 <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
-                <h2>Contact Us</h2>
+                <h2>Contact Us Get a Quote</h2>
                 <p>
                     For further information, quotes, or customized boiler heat exhanger tubes products, <strong>Moksh Tubes & Fittings
-                        LLP</strong> your dependable partner in aluminum alloys.</p>
+                        LLP</strong> your dependable partner for Boiler & Heat Exchanger Tubing Solutions.</p>
                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
@@ -2079,6 +2350,31 @@
             </div>
         </div>
     </section>
+
+<section class="sec-padd-top sec-padd-bottom bg-light">
+    <div class="container">
+
+        <div class="section-title center">
+            <h2>SEO Summary</h2>
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <div class="application-card p-4 mt-4" style="max-width: 900px; width: 100%;">
+               <div class="application-icon" style="margin: 0 auto; width: 60px; height: 60px;">
+    <i class="bi bi-search" style="font-size: 34px;"></i>
+</div>
+
+
+                <p class="mt-3" style="font-size: 17px; line-height: 1.7; text-align: center;">
+                 Moksh Tubes & Fittings LLP supplies high-quality Boiler & Heat Exchanger Tubes in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Super Duplex, Copper Alloys, and Nickel Alloys. Manufactured as per ASTM/ASME standards, our tubes deliver excellent heat transfer, high-temperature stability, and long-term corrosion resistance. Available in OD 6 mm to 219 mm and multiple schedules, we supply globally with full material traceability and fast dispatch.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+    
 
 @endsection
 @section('jsscripts')
