@@ -92,6 +92,9 @@
     <meta property="og:url" content="@yield('og_url', url()->current())" />
     <meta property="og:type" content="@yield('og_type', 'website')" />
     <meta property="og:site_name" content="Moksh Tubes & Fittings LLP" />
+@stack('styles')
+<link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css">
 
 
 
