@@ -2243,10 +2243,9 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    For further information, quotes, or customized boiler heat exhanger tubes products, <strong>Moksh Tubes
-                        & Fittings
-                        LLP</strong> your dependable partner in aluminum alloys.</p>
-                <!-- Call button -->
+                    For further information, quotes, or customized boiler heat exhanger tubes products, <strong>Moksh Tubes & Fittings
+                        LLP</strong> is your dependable partner for Boiler & Heat Exchanger Tubing Solutions.</p>
+               <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch
