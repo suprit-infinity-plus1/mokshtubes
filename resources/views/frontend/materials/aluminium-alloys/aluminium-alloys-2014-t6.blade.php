@@ -11,22 +11,9 @@
     T6 Pipes, Aluminium 2014 T6 Tubes, Aluminium 2014 T6 Sheets, Corrosion Resistant Aluminium, Machinable Aluminium Alloy,
     Aerospace Aluminium Alloys, Industrial Aluminium Grades')
 
-@section('meta')
-    <!-- Open Graph -->
-    <meta property="og:title" content="Aluminium Alloy 2014 T6 | High Strength Aerospace Alloy">
-    <meta property="og:description"
-        content="Aluminium 2014 T6 – aerospace-grade alloy with excellent machinability, corrosion resistance, and high strength for industrial applications.">
-    <meta property="og:image" content="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-2014-t6.webp') }}">
-    <meta property="og:url" content="{{ url()->current() }}">
-    <meta property="og:type" content="article">
+@section('og_image', asset('assets/images/aluminium-alloys/aluminium-alloys-2014-t6.webp'))
+@section('og_type', 'article')
 
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Aluminium Alloy 2014 T6 | High Strength Aerospace Alloy">
-    <meta name="twitter:description"
-        content="Aluminium 2014 T6 – aerospace-grade alloy with excellent machinability, corrosion resistance, and high strength for industrial applications.">
-    <meta name="twitter:image" content="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-2014-t6.webp') }}">
-@endsection
 
 @section('content')
 

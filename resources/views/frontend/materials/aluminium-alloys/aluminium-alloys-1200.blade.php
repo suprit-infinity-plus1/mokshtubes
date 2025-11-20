@@ -9,22 +9,9 @@
     Aluminium 1200 Sheets, Corrosion Resistant Aluminium, High Purity Aluminium, Electrical Conductive Aluminium, Industrial
     Aluminium Grades, Commercial Aluminium Alloys')
 
-@section('meta')
-    <!-- Open Graph -->
-    <meta property="og:title" content="Aluminium Alloy 1200 | Pure Aluminium Grade">
-    <meta property="og:description"
-        content="Aluminium 1200 – high purity alloy with superior corrosion resistance and excellent electrical conductivity for industrial applications.">
-    <meta property="og:image" content="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-1200.webp') }}">
-    <meta property="og:url" content="{{ url()->current() }}">
-    <meta property="og:type" content="website">
+@section('og_image', asset('assets/images/aluminium-alloys/aluminium-alloys-1200.webp'))
+@section('og_type', 'article')
 
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Aluminium Alloy 1200 | Pure Aluminium Grade">
-    <meta name="twitter:description"
-        content="Aluminium 1200 – high purity alloy with superior corrosion resistance and excellent electrical conductivity for industrial applications.">
-    <meta name="twitter:image" content="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-1200.webp') }}">
-@endsection
 
 @section('content')
 

@@ -5,7 +5,8 @@
 @section('meta_keywords',
     'Electrolytic Copper, EC Copper, high purity copper, electrical conductivity copper, thermal
     conductivity copper, industrial copper')
-
+@section('og_image', asset('assets/images/copper-alloys/copper-alloys-ec-copper.webp'))
+@section('og_type', 'article')
 
 @section('content')
 

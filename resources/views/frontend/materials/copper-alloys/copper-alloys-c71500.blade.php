@@ -7,7 +7,8 @@
 
 @section('meta_keywords', 'Copper Alloy C71500, marine grade copper alloy, high strength copper, corrosion resistant
     copper, seawater copper alloy, durable copper alloy, industrial copper alloy')
-
+@section('og_image', asset('assets/images/copper-alloys/copper-alloys-c71500.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
