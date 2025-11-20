@@ -92,6 +92,9 @@
     <meta property="og:url" content="@yield('og_url', url()->current())" />
     <meta property="og:type" content="@yield('og_type', 'website')" />
     <meta property="og:site_name" content="Moksh Tubes & Fittings LLP" />
+@stack('styles')
+<link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css">
 
 
 
@@ -111,7 +114,7 @@
                         <p>Welcome to Moksh Tubes & Fittings LLP</p>
                     </div>
                     <div class="float-end">
-                        <p><i class="fa fa-clock-o"></i>Monday - friday : 8:00 AM to 7:00 Pm</p>
+                        <p><i class="fa fa-clock-o"></i>Monday - Friday : 8:00 AM to 7:00 PM</p>
                     </div>
                 </div>
                 <div class="d-block d-sm-none d-flex justify-content-between align-items-center text-white">
