@@ -16,7 +16,7 @@
     {{-- Canonical Tag --}}
     <link rel="canonical" href="@yield('canonical', url()->current())">
      <!-- Individual Page OG Override -->
-    @yield('meta')
+    {{-- @yield('meta') --}}
 
     <meta property="og:title" content=@yield('title', 'Mokestubes')>
 
