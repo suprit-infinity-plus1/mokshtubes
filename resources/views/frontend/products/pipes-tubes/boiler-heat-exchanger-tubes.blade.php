@@ -61,9 +61,9 @@
  {{-- datasheet --}}
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
-            <h3 class="mb-3" style="color:#174268;">Download Haynes Superalloys 160 Datasheet</h3>
+            <h3 class="mb-3" style="color:#174268;">Download Boiler Heat Exchanger Tubes Datasheet</h3>
             <p class="mb-3">
-                Get the complete Haynes Superalloys 160 datasheet with chemical composition,
+                Get the complete Boiler Heat Exchanger Tubes datasheet with chemical composition,
                 mechanical properties, heat treatment details, and applications.
                 Enter your email to receive the PDF instantly.
             </p>
@@ -2097,7 +2097,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <!-- Card 1 -->
 
 <!-- Card 1 -->
-<div class="col-md-6">
+<div class="col-md-6 center">
     <div class="application-card">
         <div class="application-icon">
             <i class="bi bi-list-check"></i>
@@ -2114,7 +2114,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>
 
 <!-- Card 2 -->
-<div class="col-md-6">
+<div class="col-md-6 center">
     <div class="application-card">
         <div class="application-icon">
             <i class="bi bi-diagram-3-fill"></i>
@@ -2535,6 +2535,7 @@ tr.collapse.show {
     transform: translateY(0) scale(1);
     display: table-row;
 }
+
 
 </style>
 @endpush

@@ -1,8 +1,10 @@
 @extends('layouts.master')
 
 @section('title', '1055 Engineering Steel – Medium Carbon, High Strength')
-@section('meta_description', 'Discover high-strength 1055 Engineering Steel ideal for industrial and mechanical use. Durable and reliable for bars, plates, tubes, and fittings.')
-@section('meta_keywords', '1055 Engineering Steel, medium carbon steel, durable steel, mechanical steel, industrial steel, high strength steel, steel for components')
+@section('meta_description', 'Discover high-strength 1055 Engineering Steel ideal for industrial and mechanical use.
+    Durable and reliable for bars, plates, tubes, and fittings.')
+@section('meta_keywords', '1055 Engineering Steel, medium carbon steel, durable steel, mechanical steel, industrial
+    steel, high strength steel, steel for components')
 
 @section('content')
 
@@ -39,7 +41,8 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"> <a href="{{ route('index') }}">MOKSH TUBES & FITTINGS LLP</a></strong> is a manufacturer, supplier,
+                            <strong class="text-black"> <a href="{{ route('index') }}">MOKSH TUBES & FITTINGS
+                                    LLP</a></strong> is a manufacturer, supplier,
                             exporter, importer, and stockist of<strong class="text-black"> EN 1055 steel products</strong>
                             such as bars, plates,<a href="{{ route('products.pipes-tubes') }}"> tubes</a>, and fittings.
                         </p>
@@ -164,7 +167,8 @@
             <!-- Mechanical Properties Table -->
             <div class="row justify-content-center">
                 <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties of Engineering Steel 1055</h4>
+                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties of Engineering Steel 1055
+                    </h4>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -227,7 +231,7 @@
     </section>
 
 
-     @php
+    @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -323,22 +327,21 @@
                 </div>
             </div>
 
-            <!-- Product Image Cards (Now centered and responsive) -->
-            <div class="row g-4">
-                 @foreach ($products as $product)
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
-                        <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ route($product['route']) }}" class="text-decoration-none">
-                                <div class="product-card h-100">
-                                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
-                                        class="img-fluid  w-100">
-                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product['name'] }}</h6>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                @endforeach
-            </div>
+            <!-- Product Image Cards (Bootstrap Grid) -->
+<div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4 justify-content-center">
+    @foreach ($products as $product)
+        <div class="col d-flex">
+            <a href="{{ route($product['route']) }}" class="text-decoration-none w-100">
+                <div class="product-card h-100">
+                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
+                         class="img-fluid w-100">
+                    <h6 class="product-card-title text-center mt-0 py-4">{{ $product['name'] }}</h6>
+                </div>
+            </a>
+        </div>
+    @endforeach
+</div>
+
         </div>
     </section>
 
@@ -454,7 +457,7 @@
         </div>
     </section>
 
-
+   
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
             <div class="section-title center">
@@ -614,7 +617,7 @@
                     For inquiries or to request a quote for EN 1055 steel products, contact <strong> Moksh Tubes & Fittings
                         LLP </strong> — your dependable partner for medium carbon steel solutions.
                 </p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch
@@ -629,7 +632,7 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
+    <script type="application/ld+json">
     @verbatim
 {
   "@context": "https://schema.org",
