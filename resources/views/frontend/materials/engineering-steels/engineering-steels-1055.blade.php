@@ -347,43 +347,42 @@
 
 
     <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Uses and Advantages</h2>
+    <div class="container">
+        <div class="section-title center">
+            <h2>Uses and Advantages</h2>
+        </div>
+
+        <div class="row g-4 mt-4 justify-content-center">
+            <div class="col-12 col-sm-6 col-md-5">
+                <div class="advantage-card h-100 d-flex flex-column">
+                    <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                    <h5 class="flex-grow-1 d-flex align-items-center justify-content-center text-center">Higher hardness and tensile strength compared to lower carbon steels</h5>
+                </div>
             </div>
 
-            <div class="row g-4 mt-4 justify-content-center">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>Higher hardness and tensile strength compared to lower carbon steels</h5>
-                    </div>
+            <div class="col-12 col-sm-6 col-md-5">
+                <div class="advantage-card h-100 d-flex flex-column">
+                    <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
+                    <h5 class="flex-grow-1 d-flex align-items-center justify-content-center text-center">Good wear resistance and toughness</h5>
                 </div>
+            </div>
 
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h5>Good wear resistance and toughness</h5>
-                    </div>
+            <div class="col-12 col-sm-6 col-md-5">
+                <div class="advantage-card h-100 d-flex flex-column">
+                    <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
+                    <h5 class="flex-grow-1 d-flex align-items-center justify-content-center text-center">Good machinability and weldability with proper heat treatment</h5>
                 </div>
+            </div>
 
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h5>Good machinability and weldability with proper heat treatment</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h5>Suitable for parts requiring strength and moderate ductility</h5>
-                    </div>
+            <div class="col-12 col-sm-6 col-md-5">
+                <div class="advantage-card h-100 d-flex flex-column">
+                    <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
+                    <h5 class="flex-grow-1 d-flex align-items-center justify-content-center text-center">Suitable for parts requiring strength and moderate ductility</h5>
                 </div>
             </div>
         </div>
-    </section>
-
+    </div>
+</section>
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
