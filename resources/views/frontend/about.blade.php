@@ -9,12 +9,7 @@ Premium Quality Alloys, Alloy Tubes, Engineering Alloys')
 @section('og_image', asset('assets/images/about/Untitled.png'))
 @section('og_type', 'website')
 
-
 @section('content')
-
-<!--Start breadcrumb area-->
-
-<!--End mainmenu area-->
 
 <!--Start breadcrumb area-->
 <section class="breadcrumb-area" style="background-image: url(/assets/images/about/Untitled.png);">
