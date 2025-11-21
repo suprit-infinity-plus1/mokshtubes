@@ -13,7 +13,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Industrial Boiler & Heat Exchanger Tubes</h1> <!-- 52 characters -->
+                    <h1>Boiler & Heat Exchanger Tubes</h1> <!-- 52 characters -->
                 </div>
             </div>
         </div>
@@ -164,7 +164,7 @@
         
         <div class="container">
             <div class="section-title center">
-                <h2 class="fw-bold" style="color: #174268;">Weight Chart</h2>
+                <h2 class="fw-bold" style="color: #174268;">Weight Chart (ASME B36.10 / B36.19)</h2>
             </div>
 
 
@@ -1897,7 +1897,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Applications & Industry Usage</h2>
+                <h2>Applications</h2>
                 <p class="text-center pb-3">
                     <strong class="text-black">Boiler & Heat Exchanger Tubes </strong> are crucial for industries where
                     efficient heat transfer and mechanical strength are required:
