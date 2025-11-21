@@ -422,10 +422,6 @@
             <div class="section-title center mb-3">
                 <h4 class="text-center mb-0" style="color: #db7227;">Schedule 5C – Size Chart (ASME B36.10)</h4>
             </div>
-            <h1>
-
-                hello man
-            </h1>
             <!-- PREVIEW TABLE (only few rows) -->
             <div class="table-responsive">
                 <table class="table table-bordered table-striped align-middle" style="border-collapse:collapse;">
