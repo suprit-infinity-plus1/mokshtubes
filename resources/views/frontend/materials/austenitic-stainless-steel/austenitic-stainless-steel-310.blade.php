@@ -5,6 +5,8 @@
 @section('meta_description', 'Austenitic Stainless Steel 310 – high-grade alloy offering excellent high temperature and corrosion resistance for industrial and furnace applications.')
 
 @section('meta_keywords', 'Austenitic Stainless Steel 310, Stainless Steel 310 Pipes, Stainless Steel 310 Tubes, Stainless Steel 310 Fittings, High Temperature Stainless Steel 310, Corrosion Resistant Stainless Steel 310, Heat Resistant Stainless Steel 310, Industrial Stainless Steel 310, Furnace Grade Stainless Steel, Thermal Processing Stainless Steel')
+@section('og_image', asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-310.webp'))
+@section('og_type', 'article')
 
 @section('content')
 

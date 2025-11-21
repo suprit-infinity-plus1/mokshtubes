@@ -1,10 +1,9 @@
 @extends('layouts.master')
-
 @section('title', 'Aluminium Bronze Alloy | High Strength & Corrosion Resistant')
-
 @section('meta_description', 'Aluminium Bronze – high-strength copper alloy offering exceptional corrosion resistance for marine, chemical, and heavy industrial applications.')
-
 @section('meta_keywords', 'Aluminium Bronze, copper alloy, high strength copper, corrosion resistant alloy, marine copper alloy, industrial copper alloy')
+@section('og_image', asset('assets/images/copper-alloys/copper alloys aluminium bronze.webp'))
+@section('og_type', 'article')
 
 @section('content')
 

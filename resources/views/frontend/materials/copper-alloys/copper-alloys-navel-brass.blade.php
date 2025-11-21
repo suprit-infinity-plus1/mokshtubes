@@ -4,7 +4,8 @@
 @section('meta_description', 'Naval Brass with excellent corrosion resistance for marine and offshore applications.')
 @section('meta_keywords', 'Naval Brass, corrosion resistant brass, marine copper alloy, offshore brass alloy, durable
     brass, C46400 brass')
-
+@section('og_image', asset('assets/images/copper-alloys/copper-alloys-navel-brass.webp'))
+@section('og_type', 'article')
 
 @section('content')
 

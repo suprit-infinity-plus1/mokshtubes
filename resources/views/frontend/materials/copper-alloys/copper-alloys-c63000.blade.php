@@ -7,7 +7,8 @@
 
 @section('meta_keywords', 'Copper Alloy C63000, heat treatable copper alloy, high strength copper, corrosion resistant
     copper, durable copper alloy, marine copper alloy, industrial copper alloy')
-
+@section('og_image', asset('assets/images/copper-alloys/Copper Alloys C63000.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->

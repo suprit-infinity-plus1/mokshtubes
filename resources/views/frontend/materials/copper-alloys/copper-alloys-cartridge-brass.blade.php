@@ -5,7 +5,8 @@
 @section('meta_description', 'Cartridge Brass Alloy C26000 offers excellent machinability, durability, and corrosion resistance for engineering, marine, and industrial uses.')
 
 @section('meta_keywords', 'Cartridge Brass C26000, C26000 brass alloy, machinable brass, corrosion resistant brass, durable brass alloy, general engineering brass, marine brass alloy, industrial brass grade')
-
+@section('og_image', asset('assets/images/copper-alloys/copper-alloys-cartridge-brass.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->

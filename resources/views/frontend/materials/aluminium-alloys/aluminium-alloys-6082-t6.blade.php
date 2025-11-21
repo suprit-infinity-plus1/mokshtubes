@@ -5,6 +5,8 @@
 @section('meta_description', 'Aluminium 6082 T6 – strong, corrosion resistant alloy ideal for structural, transport, and heavy-duty engineering applications.')
 
 @section('meta_keywords', 'Aluminium Alloy 6082 T6, Structural Grade Aluminium, Aluminium 6082 T6 Pipes, Aluminium 6082 T6 Tubes, Aluminium 6082 T6 Sheets, High Strength Aluminium, Corrosion Resistant Aluminium, Structural Aluminium Alloys, Transport Industry Aluminium, Industrial Aluminium Grades')
+@section('og_image', asset('assets/images/aluminium-alloys/aluminium-alloys-6082-t6.webp'))
+@section('og_type', 'article')
 
 @section('content')
 

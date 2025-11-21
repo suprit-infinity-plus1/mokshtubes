@@ -5,7 +5,8 @@
 @section('meta_description', 'Copper Nickel Alloy 90/10 (Cu-Ni) offers outstanding corrosion resistance, durability, and strength for seawater, marine, and offshore applications.')
 
 @section('meta_keywords', 'Copper Nickel 90/10, Cu-Ni 90/10 Alloy, Copper Nickel Marine Alloy, Seawater Resistant Copper Nickel, Corrosion Resistant Cu-Ni 90/10, Durable Copper Nickel Alloy, Industrial Copper Nickel')
-
+@section('og_image', asset('assets/images/copper-alloys/copper-alloys-cu-ni-90_10.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->

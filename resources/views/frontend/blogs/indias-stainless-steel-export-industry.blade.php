@@ -196,7 +196,7 @@
                                             <p>
                                                 The company uses advanced materials like <a
                                                     href="{{ route('materials.duplex-and-super-duplex') }}">duplex and super
-                                                    duplex</> stainless
+                                                    duplex</a> stainless
                                                     steels, which offer superior resistance to corrosion in demanding
                                                     environments such as seawater or chemical exposure.
                                             </p>
@@ -636,7 +636,7 @@
                                             <div class="box">
                                                 <div class="content">
                                                     <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}"
-                                                        aria-label="blog: indias-stainless-steel-export-industry">
+                                                        aria-label="blog: india’s-stainless-steel-export-industry">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>

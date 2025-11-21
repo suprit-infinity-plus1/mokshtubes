@@ -6,6 +6,9 @@
 
 @section('meta_keywords', 'Aluminium Alloy 6061 T6, High Strength Aluminium, Aluminium 6061 T6 Pipes, Aluminium 6061 T6 Tubes, Aluminium 6061 T6 Sheets, Corrosion Resistant Aluminium, Weldable Aluminium Alloy, Structural Aluminium Alloys, Aerospace Aluminium, Industrial Aluminium Grades')
 
+@section('og_image', asset('assets/images/aluminium-alloys/aluminium-alloys-6061-t6.webp'))
+@section('og_type', 'article')
+
 @section('content')
 
     <!--Start breadcrumb area-->

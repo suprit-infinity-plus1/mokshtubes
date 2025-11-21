@@ -2,12 +2,18 @@
 
 @section('title', 'Aluminium Alloy 2014 T6 | High Strength Aerospace Alloy')
 
-@section('meta_description', 'Aluminium 2014 T6 – aerospace-grade alloy with excellent machinability, corrosion
+@section('meta_description',
+    'Aluminium 2014 T6 – aerospace-grade alloy with excellent machinability, corrosion
     resistance, and high strength for industrial applications.')
 
-@section('meta_keywords', 'Aluminium Alloy 2014 T6, High Strength Aluminium, Aerospace Grade Aluminium, Aluminium 2014
+@section('meta_keywords',
+    'Aluminium Alloy 2014 T6, High Strength Aluminium, Aerospace Grade Aluminium, Aluminium 2014
     T6 Pipes, Aluminium 2014 T6 Tubes, Aluminium 2014 T6 Sheets, Corrosion Resistant Aluminium, Machinable Aluminium Alloy,
     Aerospace Aluminium Alloys, Industrial Aluminium Grades')
+
+@section('og_image', asset('assets/images/aluminium-alloys/aluminium-alloys-2014-t6.webp'))
+@section('og_type', 'article')
+
 
 @section('content')
 
@@ -239,7 +245,7 @@
     </section>
 
 
-     @php
+    @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -660,7 +666,7 @@
 @endsection
 
 @section('jsscripts')
-<script type="application/ld+json">
+    <script type="application/ld+json">
     @verbatim
 {
   "@context": "https://schema.org",

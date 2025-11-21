@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Why Hastelloy Weighs More Than Stainless Steel. ')
+@section('title', 'Why Hastelloy Weighs More Than Stainless Steel.')
 @section('meta_description',
     'Learn why Hastelloy is heavier than stainless steel. Compare densities, compositions, and
     industrial applications with expert insights.')
@@ -524,7 +524,7 @@
                                             <div class="box">
                                                 <div class="content">
                                                     <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}"
-                                                        aria-label="blogs indias-stainless-steel-export-industry">
+                                                        aria-label="blogs india’s-stainless-steel-export-industry">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
