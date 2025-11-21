@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('title', 'Premium Seamless Pipes – Stainless & Alloy Tubes') <!-- 52 characters -->
-@section('meta_description',
-    'Moksh Tubes offers high-quality seamless pipes with superior strength, precision, and durability for critical industrial, marine, and power applications.') <!-- 153 characters -->
+@section('meta_description', 'Moksh Tubes offers high-quality seamless pipes with superior strength, precision, and
+    durability for critical industrial, marine, and power applications.') <!-- 153 characters -->
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/seamless-pipes-2.webp);">
@@ -25,7 +25,8 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/peoduct/seamless-pipes-2.webp') }}" alt="Seamless pipes" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/peoduct/seamless-pipes-2.webp') }}" alt="Seamless pipes"
+                        class="img-fluid rounded shadow-sm" width="550" height="350" loading="lazy">
                 </div>
 
                 <!-- Right Content -->
@@ -2238,76 +2239,99 @@
     <!--End breadcrumb area-->
 
     <!--Start faq content area-->
-<section class="faq-content-area sec-padd2">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="accordion-box">
-                    <div class="section-title center">
-                        <h2>FAQ's</h2>
-                    </div>
-
-                    <!--Start single accordion box-->
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn active"><h4>What are seamless pipes?</h4></div>
-                        <div class="accord-content collapsed">
-                            <p>Seamless pipes are manufactured without any welding or joints, giving them uniform strength, superior mechanical integrity, and the ability to withstand high pressure, temperature, and corrosion. This makes them ideal for critical industrial applications.</p>
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
                         </div>
-                    </div>
-                    <!--End single accordion box-->
 
-                    <!--Start single accordion box-->
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn"><h4>What are the advantages of seamless pipes over welded pipes?</h4></div>
-                        <div class="accord-content">
-                            <p>Seamless pipes have no welded seams, eliminating weak points and ensuring higher durability and pressure resistance. They provide better dimensional accuracy, improved flow efficiency, and excellent performance in extreme conditions compared to welded alternatives.</p>
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn active">
+                                <h4>What are seamless pipes?</h4>
+                            </div>
+                            <div class="accord-content collapsed">
+                                <p>Seamless pipes are manufactured without any welding or joints, giving them uniform
+                                    strength, superior mechanical integrity, and the ability to withstand high pressure,
+                                    temperature, and corrosion. This makes them ideal for critical industrial applications.
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <!--End single accordion box-->
+                        <!--End single accordion box-->
 
-                    <!--Start single accordion box-->
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn"><h4>Which industries commonly use seamless pipes?</h4></div>
-                        <div class="accord-content">
-                            <p>Seamless pipes are used across multiple industries such as Oil & Gas, Power Generation, Petrochemical, Construction, Automotive, Food & Beverage, Marine, and HVAC systems — wherever high performance and safety are required.</p>
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the advantages of seamless pipes over welded pipes?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>Seamless pipes have no welded seams, eliminating weak points and ensuring higher
+                                    durability and pressure resistance. They provide better dimensional accuracy, improved
+                                    flow efficiency, and excellent performance in extreme conditions compared to welded
+                                    alternatives.</p>
+                            </div>
                         </div>
-                    </div>
-                    <!--End single accordion box-->
+                        <!--End single accordion box-->
 
-                    <!--Start single accordion box-->
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn"><h4>What materials are available for seamless pipes?</h4></div>
-                        <div class="accord-content">
-                            <p>Seamless pipes are available in a wide range of materials including Stainless Steel, Duplex & Super Duplex, Nickel Alloys, Inconel, Monel, Titanium, Carbon Steel, Alloy Steel, Copper Alloys, Aluminium Alloys, and more — all supplied as per ASTM and ASME standards.</p>
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Which industries commonly use seamless pipes?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>Seamless pipes are used across multiple industries such as Oil & Gas, Power Generation,
+                                    Petrochemical, Construction, Automotive, Food & Beverage, Marine, and HVAC systems —
+                                    wherever high performance and safety are required.</p>
+                            </div>
                         </div>
-                    </div>
-                    <!--End single accordion box-->
+                        <!--End single accordion box-->
 
-                    <!--Start single accordion box-->
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn"><h4>What sizes and dimensions can seamless pipes be manufactured in?</h4></div>
-                        <div class="accord-content">
-                            <p>Moksh Tubes & Fittings LLP provides seamless pipes with outer diameters ranging from 3 mm to 610 mm (¼” to 24” NB) and in various wall thicknesses and schedules. Custom lengths and finishes are available as per project specifications.</p>
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What materials are available for seamless pipes?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>Seamless pipes are available in a wide range of materials including Stainless Steel,
+                                    Duplex & Super Duplex, Nickel Alloys, Inconel, Monel, Titanium, Carbon Steel, Alloy
+                                    Steel, Copper Alloys, Aluminium Alloys, and more — all supplied as per ASTM and ASME
+                                    standards.</p>
+                            </div>
                         </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What sizes and dimensions can seamless pipes be manufactured in?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>Moksh Tubes & Fittings LLP provides seamless pipes with outer diameters ranging from 3 mm
+                                    to 610 mm (¼” to 24” NB) and in various wall thicknesses and schedules. Custom lengths
+                                    and finishes are available as per project specifications.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+
+
                     </div>
-                    <!--End single accordion box-->
-
-                    
-
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!--End faq content area-->
- <section class="sec-padd-top sec-padd-bottom">
+    </section>
+    <!--End faq content area-->
+    <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
                     For further information, quotes, or customized welded-pipes products, <strong>Moksh Tubes & Fittings
                         LLP</strong> your dependable partner in aluminum alloys.</p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch
@@ -2319,7 +2343,7 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
+    <script type="application/ld+json">
     @verbatim
 {
   "@context": "https://schema.org",

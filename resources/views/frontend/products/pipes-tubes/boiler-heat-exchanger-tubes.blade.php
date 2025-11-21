@@ -31,7 +31,7 @@
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
                     <img src="{{ asset('/assets/images/peoduct/boiler-and-heat.webp') }}"
-                        alt="Boiler & Heat Exchanger Tubes" class="img-fluid rounded shadow-sm">
+                        alt="Boiler & Heat Exchanger Tubes" class="img-fluid rounded shadow-sm" width="550" height="350" loading="lazy">
                 </div>
 
                 <!-- Right Content -->
