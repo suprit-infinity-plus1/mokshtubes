@@ -1,9 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Stainless Steel Pipes & Nickel Alloys | Moksh Tubes LLP')
+@section('title', 'Moksh Tubes LLP | High-Performance Metal Alloys & Products')
 @section('meta_description',
-    'Leading exporter of stainless steel, nickel alloy & titanium pipes, tubes & fittings.
-    ISO-certified quality, fast quotes & global delivery.')
+    'Leading supplier of stainless steel, nickel alloys, titanium and special metals. Moksh Tubes LLP delivers pipes, tubes, fittings and custom alloy solutions worldwide.')
 @section('meta_keywords',
     'stainless steel pipes, nickel alloy pipes, titanium pipes, stainless steel tubes, nickel alloy tubes,
     titanium tubes, stainless steel fittings, nickel alloy fittings, titanium fittings, seamless pipes, welded pipes,

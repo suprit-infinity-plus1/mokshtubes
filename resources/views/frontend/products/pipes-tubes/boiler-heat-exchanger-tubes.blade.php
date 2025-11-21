@@ -1,15 +1,15 @@
 @extends('layouts.master')
-@section('title', 'Premium Boiler & Heat Exchanger Tubes – Moksh Tubes') <!-- 52 characters -->
+@section('title', 'Boiler & Heat Exchanger Tubes: ASTM A179/A213 | Seamless, U‑Bent | Moksh Tubes') <!-- 52 characters -->
 @section('meta_description',
-    'High-quality boiler & heat exchanger tubes from Moksh Tubes — strong, durable &
-    corrosion-resistant for power, marine & industrial use.') <!-- 153 characters -->
+    'Seamless, welded & U‑bent boiler/heat exchanger tubes per ASTM A179/A213. Fast delivery, global supply. Get datasheet & quote.') <!-- 153 characters -->
     <meta property="og:title" content="Boiler & Heat Exchanger Tubes | Moksh Tubes">
 <meta property="og:description" content="Stainless Steel, Alloy Steel, Duplex, Nickel, Titanium boiler & heat exchanger tubes. Worldwide supplier with fast delivery.">
 <meta property="og:image" content="/assets/images/product/boiler-heat-exchanger-tubes.webp">
 <meta property="og:url" content="https://mokshtubes.com/products/pipes-tubes/boiler-heat-exchanger-tubes">
 @section('content')
+
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/boiler-and-heat-banner.webp);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/boiler-and-heat-banner.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -24,13 +24,13 @@
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Boiler & Heat Exchanger Tubes</h2>
+                <h2 class="fw-bold" style="color: #174268;">Product Overview</h2>
             </div>
 
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('/assets/images/peoduct/boiler-and-heat.jpg') }}"
+                    <img src="{{ asset('/assets/images/product/boiler-and-heat.jpg') }}"
                         alt="Boiler & Heat Exchanger Tubes" class="img-fluid rounded shadow-sm">
                 </div>
 
@@ -94,7 +94,7 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Specifications</h2>
+                <h2>Specifications & Technical Details</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -159,22 +159,21 @@
     </section>
     
 
+    
     <section class="sec-padd-top sec-padd-bottom bg-light">
+        
         <div class="container">
             <div class="section-title center">
-                <h2 class="fw-bold" style="color: #174268;">Charts</h2>
-
-                <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
-                    <strong>Office Address:</strong> 92E, Plot No. 3, New Tank Bunder, Darukhana, Mumbai, Maharashtra- 400
-                    010.
-                </p>
+                <h2 class="fw-bold" style="color: #174268;">Weight Chart</h2>
             </div>
+
+
+            
             <!-- Child Title -->
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Weight Chart</h4>
+                <h4 class="text-center mb-0" style="color: #db7227;">Weight Chart (ASME B36.10 / B36.19 – Size & Weight Data)</h4>
             </div>
-
-            <div class="table-responsive">
+ 
                 <table class="table table-bordered table-striped align-middle text-center">
                     <thead class="table-dark">
                         <tr class="t-row">
@@ -1818,8 +1817,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}"
-                                    alt="NICKLE ALLOYS">
+                               <img class="w-100" src="{{ asset('assets/images/product/NICKEL-ALLOYS.jpeg') }}" alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400" height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1831,8 +1829,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}"
-                                    alt="STAINLESS STEEL">
+                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.jpeg') }}" alt="Stainless steel boiler and condenser tubes" loading="lazy" width="400" height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1844,8 +1841,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}"
-                                    alt="DUPLEX & SUPER">
+                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.png') }}" alt="Duplex and super duplex tubes for seawater service" loading="lazy" width="400" height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1858,8 +1854,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.titanium') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}"
-                                    alt="TITANIUM ALLOYS">
+                               <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.jpg') }}" alt="Titanium heat exchanger and condenser tubes" loading="lazy" width="400" height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1871,8 +1866,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}"
-                                    alt="Haynes Superalloys">
+                              <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.jpg') }}" alt="Haynes superalloy tubes for high-temperature service" loading="lazy" width="400" height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -1884,8 +1878,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.inconel') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}"
-                                    alt="Inconel">
+                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.jpg') }}" alt="Inconel alloy tubes for corrosion-resistant applications" loading="lazy" width="400" height="260">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
@@ -2376,7 +2369,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
-                        <h5>Extensive Stock & Range: Wide inventory of boiler and heat exchanger tubes in multiple grades.
+                        <h5>Advanced Manufacturing: Precision cold drawing, heat treatment, U-bending, and finishing for high-performance tubes.
                         </h5>
                     </div>
                 </div>
@@ -2434,7 +2427,7 @@ document.addEventListener('DOMContentLoaded', () => {
     </div>
     <div class="accord-content">
         <p>
-            Industrial tubes used for heat transfer in boilers, condensers, coolers, and heat exchangers.
+            Boiler & Heat Exchanger Tubes are precision-engineered components used in power plants, refineries, chemical industries, and various heat-transfer systems. They are built to withstand high temperature, high pressure, and corrosive environments while maintaining stable heat transfer efficiency.
         </p>
     </div>
 </div>
@@ -2442,11 +2435,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <div class="accordion accordion-block">
     <div class="accord-btn">
-        <h4>What materials are available?</h4>
+        <h4>What materials are used to manufacture these tubes?</h4>
     </div>
     <div class="accord-content">
         <p>
-            Stainless steel, carbon steel, alloy steel, duplex, super duplex, nickel alloys, copper-nickel, titanium.
+            These tubes are manufactured in Stainless Steel, Duplex/Super Duplex, Nickel Alloys (Inconel, Monel), Alloy Steel, Carbon Steel, Copper Alloys, and Titanium. The selection depends on the operating temperature, pressure, and fluid medium.
         </p>
     </div>
 </div>
@@ -2454,11 +2447,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <div class="accordion accordion-block">
     <div class="accord-btn">
-        <h4>What sizes do you supply?</h4>
+        <h4>What sizes and dimensions are available?</h4>
     </div>
     <div class="accord-content">
         <p>
-            6 mm to 219 mm OD, schedules 5C to XXC.
+            Boiler & Heat Exchanger Tubes are available from 6 mm to 219 mm OD, 0.5 mm to 12.7 mm wall thickness, and lengths up to 12 meters. Available in Seamless, Welded, ERW, EFW, and U-Bent forms.
         </p>
     </div>
 </div>
@@ -2466,11 +2459,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <div class="accordion accordion-block">
     <div class="accord-btn">
-        <h4>What standards do they meet?</h4>
+        <h4>What standards do these tubes meet?</h4>
     </div>
     <div class="accord-content">
         <p>
-            ASTM, ASME, EN, DIN.
+            These tubes are manufactured according to ASTM A179, A192, A213, A249, A269, A333, ASME SA213, EN 10216, DIN, and related global specifications with strict inspection and QC.
         </p>
     </div>
 </div>
@@ -2478,15 +2471,42 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <div class="accordion accordion-block">
     <div class="accord-btn">
-        <h4>Why Moksh Tubes?</h4>
+        <h4>What are the main applications of Boiler & Heat Exchanger Tubes?</h4>
     </div>
     <div class="accord-content">
         <p>
-            Large inventory, certified quality, fast delivery, and a strong global supply network.
+            Used in boilers, superheaters, reheaters, economizers, heat exchangers, condensers, petrochemical heaters, chemical processing, marine applications (Cu-Ni & titanium), food & dairy systems, and HVAC/refrigeration.
         </p>
     </div>
 </div>
 <!--End single accordion box-->
+
+
+<div class="accordion accordion-block">
+    <div class="accord-btn">
+        <h4>What is the MOQ and typical lead time?</h4>
+    </div>
+    <div class="accord-content">
+        <p>
+            Ex‑stock sizes dispatch 2–5 days; make‑to‑order 2–6 weeks, grade/OD/WT par depend karta hai.
+        </p>
+    </div>
+</div>
+<!--End single accordion box-->
+
+
+<div class="accordion accordion-block">
+    <div class="accord-btn">
+        <h4>What test certificates and NDT do you provide?</h4>
+    </div>
+    <div class="accord-content">
+        <p>
+            EN 10204 3.1 MTC with heat/lot traceability; Hydro, Eddy Current, UT, PMI, Hardness testing available as per PO.
+        </p>
+    </div>
+</div>
+<!--End single accordion box-->
+
 
         </div>
     </div>
@@ -2498,7 +2518,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    For further information, quotes, or customized boiler heat exhanger tubes products, <strong>Moksh Tubes & Fittings
+                    For further information, quotes, or customized boiler and heat exchanger tube products, <strong>Moksh Tubes & Fittings
                         LLP</strong> is your dependable partner for Boiler & Heat Exchanger Tubing Solutions.</p>
                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
@@ -2544,7 +2564,8 @@ tr.collapse.show {
 
 @section('jsscripts')
     @verbatim
-        <script type="application/ld+json">
+  
+    <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -2554,31 +2575,31 @@ tr.collapse.show {
       "name": "What are Boiler & Heat Exchanger Tubes?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Boiler & Heat Exchanger Tubes are precision-engineered components used in thermal power plants, refineries, chemical industries, and other process applications to ensure efficient heat transfer. They are designed to perform under high temperature, pressure, and corrosive conditions, maintaining long-term operational reliability."
+        "text": "Boiler & Heat Exchanger Tubes are precision-engineered components used in power plants, refineries, chemical industries, and various heat-transfer systems. They are built to withstand high temperature, high pressure, and corrosive environments while maintaining stable heat transfer efficiency."
       }
     },
     {
       "@type": "Question",
-      "name": "What materials are used to manufacture Boiler & Heat Exchanger Tubes?",
+      "name": "What materials are used to manufacture these tubes?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "These tubes are manufactured from Stainless Steel, Duplex & Super Duplex Steel, Nickel Alloys (Inconel, Monel), Alloy Steel, Carbon Steel, Copper Alloys, and Titanium. The material choice depends on the operating temperature, pressure, and fluid medium of the application."
+        "text": "These tubes are manufactured in Stainless Steel, Duplex and Super Duplex Steel, Nickel Alloys (Inconel, Monel), Alloy Steel, Carbon Steel, Copper Alloys, and Titanium. Material selection depends on the operating temperature, pressure, and fluid medium of the application."
       }
     },
     {
       "@type": "Question",
-      "name": "What are the available sizes and dimensions for Boiler & Heat Exchanger Tubes?",
+      "name": "What sizes and dimensions are available?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Boiler & Heat Exchanger Tubes are available in outer diameters ranging from 6 mm to 219 mm and wall thicknesses from 0.5 mm to 12.7 mm. Lengths are offered up to 12 meters or customized as per project requirements. Both seamless and welded types (ERW, EFW, U-bent) are available."
+        "text": "Boiler & Heat Exchanger Tubes are available from 6 mm to 219 mm outer diameter, 0.5 mm to 12.7 mm wall thickness, and lengths up to 12 meters. They are offered in Seamless, Welded, ERW, EFW, and U-bent configurations."
       }
     },
     {
       "@type": "Question",
-      "name": "What standards do these tubes comply with?",
+      "name": "What standards do these tubes meet?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Our Boiler & Heat Exchanger Tubes are produced as per international standards including ASTM A179, A192, A213, A249, A269, A333, ASME SA213, EN 10216, and DIN. All tubes undergo rigorous inspection and testing to meet mechanical and dimensional accuracy requirements."
+        "text": "These tubes comply with ASTM A179, A192, A213, A249, A269, A333, ASME SA213, EN 10216, DIN and related international standards. Each tube undergoes strict testing and quality inspection to ensure mechanical and dimensional accuracy."
       }
     },
     {
@@ -2586,35 +2607,28 @@ tr.collapse.show {
       "name": "What are the main applications of Boiler & Heat Exchanger Tubes?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "These tubes are widely used in power generation (boilers, superheaters, reheaters, and economizers), oil, gas & petrochemical plants (heat exchangers, condensers, and process heaters), chemical & fertilizer industries (reactors and evaporators), marine & offshore systems (Cu-Ni and titanium tubes), food & dairy processing, and HVAC & refrigeration systems."
+        "text": "These tubes are used in boilers, superheaters, economizers, reheaters, heat exchangers, condensers, petrochemical heaters, chemical processing plants, marine and offshore systems (Cu-Ni and titanium tubes), food and dairy processing, and HVAC & refrigeration systems."
       }
     },
     {
       "@type": "Question",
-      "name": "What are the advantages of using Boiler & Heat Exchanger Tubes?",
+      "name": "What is the MOQ and typical lead time?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "They offer high temperature and pressure resistance, superior corrosion and oxidation resistance, excellent heat transfer efficiency, precision manufacturing with tight tolerances, compliance with global standards (ASTM, ASME, EN, DIN), and customized material options."
+        "text": "Ex-stock sizes dispatch within 2–5 days; make-to-order deliveries take 2–6 weeks depending on grade, outer diameter, and wall thickness."
       }
     },
     {
       "@type": "Question",
-      "name": "What finishes are available for Boiler & Heat Exchanger Tubes?",
+      "name": "What test certificates and NDT do you provide?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We offer multiple surface finishes including Bright Annealed, Pickled & Passivated, Electro Polished, and Matte finishes. These finishes enhance corrosion resistance and surface smoothness, ensuring efficient fluid flow and long service life."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why choose Moksh Tubes & Fittings LLP for Boiler & Heat Exchanger Tubes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Moksh Tubes & Fittings LLP provides extensive stock availability, advanced cold drawing and forming technology, ISO 9001:2015 certified quality, a global supply network, and customized industrial solutions for boiler and heat exchanger applications."
+        "text": "We provide EN 10204 3.1 Material Test Certificate with full heat/lot traceability. Available NDT options include Hydro Test, Eddy Current, Ultrasonic Testing (UT), Positive Material Identification (PMI), and Hardness Testing as per purchase order."
       }
     }
   ]
 }
 </script>
+
     @endverbatim
 @endsection
