@@ -4,10 +4,12 @@
 @section('meta_description', '4340 Alloy Steel delivers superior toughness and fatigue resistance for demanding engineering applications.')
 @section('meta_keywords', '4340 Alloy Steel, high tensile strength steel, tough steel, fatigue resistant steel, alloy steel for critical applications, industrial alloy steel')
 
+@section('og_image', asset('assets/images/engineering-steels/engineering-steels-4340.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/engineering-steels/engineering-steels-4340.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -56,7 +58,7 @@
             </div>
         </div>
     </section>
-        
+
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

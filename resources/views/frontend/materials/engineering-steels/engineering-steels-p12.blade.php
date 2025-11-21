@@ -3,11 +3,12 @@
 @section('title', 'P12 Alloy Steel | High Strength & Creep Resistant Steel')
 @section('meta_description', 'P12 Alloy Steel used in boilers and pressure vessels requiring excellent strength and creep resistance for high-temperature applications.')
 @section('meta_keywords', 'P12 Alloy Steel, high strength alloy steel, boiler steel, pressure vessel steel, creep resistant steel, industrial alloy steel')
-
+@section('og_image', asset('assets/images/engineering-steels/engineering-steels-p12.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/engineering-steels/engineering-steels-p12.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

@@ -3,11 +3,12 @@
 @section('title', 'EN36 Alloy Steel | Tough Alloy Steel for Mechanical Parts')
 @section('meta_description', 'EN36 Alloy Steel with superior toughness and impact resistance for demanding mechanical applications.')
 @section('meta_keywords', 'EN36 Alloy Steel, tough alloy steel, impact resistant steel, high strength steel, mechanical parts steel, industrial alloy steel')
-
+@section('og_image', asset('assets/images/engineering-steels/engineering-steels-en36.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/engineering-steels/engineering-steels-en36.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

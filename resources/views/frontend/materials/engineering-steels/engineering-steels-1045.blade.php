@@ -3,7 +3,8 @@
 @section('title', '1045 Engineering Steel | High Strength Steel')
 @section('meta_description', '1045 Engineering Steel offering superior strength, toughness, and wear resistance for mechanical, structural, and industrial applications.')
 @section('meta_keywords', '1045 Engineering Steel, high strength carbon steel, medium carbon steel, mechanical steel, structural steel, durable steel, industrial steel')
-
+@section('og_image', asset('assets/images/engineering-steels/engineering-steels-1045.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->

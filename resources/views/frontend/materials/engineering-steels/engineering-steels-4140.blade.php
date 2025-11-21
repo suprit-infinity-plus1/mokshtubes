@@ -4,10 +4,12 @@
 @section('meta_description', '4140 Alloy Steel offering excellent strength, hardness, and wear resistance for engineering and industrial applications.')
 @section('meta_keywords', '4140 Alloy Steel, versatile alloy steel, high strength steel, wear resistant steel, hardenable steel, industrial alloy steel, engineering steel')
 
+@section('og_image', asset('assets/images/engineering-steels/engineering-steels-4140.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/engineering-steels/engineering-steels-4140.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
