@@ -27,7 +27,7 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/peoduct/u-bent-tubes.webp') }}" alt="U-Bent Tubes for Industrial Heat Exchangers" class="img-fluid rounded shadow-sm" loading="lazy">
+                    <img src="{{ asset('assets/images/peoduct/u-bent-tubes.webp') }}" alt="U-Bent Tubes for Industrial Heat Exchangers" width="550" height="350" class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
                 <!-- Right Content -->
