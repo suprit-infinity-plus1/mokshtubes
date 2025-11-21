@@ -1,7 +1,7 @@
 @extends('layouts.master')
-@section('title', 'Pipes & Tubes – Stainless, Nickel Alloys') <!-- 53 characters -->
+@section('title', 'Pipes & Tubes – Welded, Seamless, U-Bend, Boiler | Moksh Tubes') <!-- 53 characters -->
 @section('meta_description',
-    'Discover welded & seamless pipes in stainless steel, Hastelloy, Inconel. Serving India, Germany, Saudi Arabia.') <!-- 153 characters -->
+    'Explore welded, seamless, U-bend, boiler tubes & capillaries in stainless steel and nickel alloys. High-quality industrial pipes & tubes supplied globally by Moksh Tubes LLP.') <!-- 153 characters -->
 @section('meta_keywords',
     'Pipes, Tubes, Welded Pipes, Seamless Pipes, Capillaries, Hollow Section Pipes, U-Bent Tubes,
     Boiler Tubes, Stainless Steel Pipes, Nickel Tubes, Titanium Tubes')

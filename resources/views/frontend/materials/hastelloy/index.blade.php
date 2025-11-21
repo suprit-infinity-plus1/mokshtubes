@@ -1,8 +1,8 @@
 @extends('layouts.master')
 
-@section('meta_title', 'Hastelloy Alloys C22, C276, B2 – Grades, Composition & Uses | Moksh Tubes LLP')
+@section('meta_title', 'Hastelloy Alloys | Grades, Properties & Applications | Mokshtubes')
 
-@section('meta_description', 'Hastelloy C276, C22 & B2 alloys from Moksh Tubes — exceptional corrosion resistance for chemical, marine, oil & gas, and industrial use.')
+@section('meta_description', 'Explore the full range of Hastelloy alloys including C276, C22, B2, and G30. Ideal for corrosion resistance in chemical, marine, and power plant industries.')
 @section('meta_keywords', 'Hastelloy C276, Hastelloy C22, Hastelloy B2, corrosion resistant alloys, nickel alloys, chemical processing materials, marine grade alloys, oil and gas materials, industrial alloy solutions')  
 
 @section('content')

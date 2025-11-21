@@ -1,9 +1,8 @@
 @extends('layouts.master')
-@section('title', 'Blog – Industry Insights & Updates | Moksh Tubes')
+@section('title', 'Moksh Tubes Blog | Insights on Alloys & Engineering Materials')
 
 @section('meta_description',
-'Stay updated with Moksh Tubes Blog: industry news, product insights, and expert articles
-on stainless steel, alloys, pipes, tubes, and fittings.')
+'Explore expert articles on stainless steel, nickel alloys, Hastelloy, engineering applications, technical comparisons, and industry-specific insights from Moksh Tubes LLP.')
 @section('meta_keywords',
 'Mokshtubes Blog, Industrial Alloys Insights, Stainless Steel Updates, Pipes and Tubes News,
 Metal Industry Articles, Alloy Supply Updates, Expert Metal Solutions')
