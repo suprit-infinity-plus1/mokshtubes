@@ -5,6 +5,8 @@
 @section('meta_keywords',
     'Industrial Sheets & Plates, Stainless Steel Sheets & Plates, Carbon Steel Sheets & Plates,
     Alloy Steel Sheets & Plates, Custom Metal Sheets & Plates, High-Quality Industrial Sheets & Plates')
+    @section('og_image', asset('assets/images/peoduct/Sheets-Plates-and-Coils/Sheets-and-Plates.jpg'))
+@section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/Sheets-Plates-and-Coils/Sheets-and-Plates.jpg);">

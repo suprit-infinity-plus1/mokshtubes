@@ -3,11 +3,12 @@
 @section('title', 'SMO 654 – Super Austenitic Stainless Steel') <!-- 52 chars -->
 @section('meta_description', 'SMO 654 is a super austenitic stainless steel offering excellent chloride resistance, high strength, and durability in harsh chemical environments.')
 @section('meta_keywords', 'SMO 654, Super Austenitic Stainless Steel, Chloride Resistant Alloy, Chemical Resistant Steel, High Strength Stainless Steel, Industrial Stainless Steel Alloys')
-
+@section('og_image', asset('assets/images/super-austenitic-stainless-steel/super-austenitic-stainless-steel-SMO-654.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/super-austenitic-stainless-steel/super-austenitic-stainless-steel-SMO-654.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

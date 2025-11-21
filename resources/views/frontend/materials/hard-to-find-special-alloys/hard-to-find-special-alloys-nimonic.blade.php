@@ -5,11 +5,12 @@
     'Nimonic alloys – high-temperature, creep-resistant, and durable for aerospace, turbines, power generation, and extreme industrial environments.')
 @section('meta_keywords',
     'Nimonic alloy, high temperature alloy, creep resistant alloy, aerospace alloy, turbine alloy, power generation alloy, durable high strength alloy')
-
+@section('og_image', asset('assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-nimonic.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-nimonic.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

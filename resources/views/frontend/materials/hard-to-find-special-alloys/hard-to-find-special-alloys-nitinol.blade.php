@@ -5,11 +5,12 @@
     'Nitinol offers exceptional shape memory, superelasticity, and durability for medical devices, robotics, and high-precision engineering.')
 @section('meta_keywords',
     'Nitinol alloy, shape memory alloy, superelastic alloy, medical device alloy, robotics alloy, high precision engineering alloy, durable Nitinol')
-
+@section('og_image', asset('assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-nitinol.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-nitinol.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

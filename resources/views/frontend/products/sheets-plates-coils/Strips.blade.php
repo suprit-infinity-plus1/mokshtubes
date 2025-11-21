@@ -3,6 +3,8 @@
 @section('meta_description',
     'Mokshtubes provides high-quality metal strips in stainless steel, carbon steel, and alloys, ideal for automotive, construction, and industrial applications with superior precision and durability.') <!-- 153 characters -->
 @section('meta_keywords', 'Metal Strips Supplier, Stainless Steel Strips, Carbon Steel Strips, Alloy Strips, Industrial Metal Strips, Custom Metal Strips, Precision Metal Strips, Durable Metal Strips, High-Quality Metal Strips, Mokshtubes Metal Strips')
+@section('og_image', asset('assets/images/peoduct/Sheets-Plates-and-Coils/Metal-Strips.jpg'))
+@section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/Sheets-Plates-and-Coils/Metal-Strips.jpg);">

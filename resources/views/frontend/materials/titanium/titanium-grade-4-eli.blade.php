@@ -3,7 +3,8 @@
 @section('title', 'Titanium Grade 4 ELI – Extra Low Interstitial Alloy') <!-- 52 chars -->
 @section('meta_description', 'Titanium Grade 4 ELI offers enhanced purity and toughness, ideal for critical aerospace, medical, and industrial applications.')
 @section('meta_keywords', 'Titanium Grade 4 ELI, Extra Low Interstitial Titanium, High Purity Titanium, Tough Titanium Alloy, Titanium Grade 4 ELI Pipes, Titanium Grade 4 ELI Tubes, Aerospace Titanium Alloys, Medical Titanium Alloys, Corrosion Resistant Titanium, Industrial Titanium Grades')
-
+@section('og_image', asset('assets/images/titanium/titanium-4-eli.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->

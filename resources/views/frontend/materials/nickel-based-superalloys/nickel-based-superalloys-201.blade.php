@@ -3,10 +3,11 @@
 @section('title', 'Nickel 201 – High-Purity Nickel for Corrosion Resistance') <!-- 53 chars -->
 @section('meta_description', 'High-purity Nickel 201 offers superior corrosion resistance and reliability, ideal for harsh chemical and industrial environments.')
 @section('meta_keywords', 'Nickel 201, High Purity Nickel, Corrosion Resistant Nickel, Industrial Nickel, Chemical Industry Nickel, Nickel Alloy, Reliable Nickel, Industrial Applications, High-Quality Nickel')
-
+@section('og_image', asset('assets/images/nickel-based-superalloys/nickel-based-superalloys-201.webp'))
+@section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/nickel-based-superalloys/nickel-based-superalloys-201.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

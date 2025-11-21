@@ -3,11 +3,12 @@
 @section('title', 'Stainless Steel 440C | Precision Bars & Rods Suppliers')
 @section('meta_description', 'High-quality 440C Stainless Steel bars & rods offering superior hardness, wear resistance & polishability for industrial, tooling & engineering needs.')
 @section('meta_keywords', '440C stainless steel, AISI 440C, UNS S44004, high-carbon martensitic stainless steel, stainless steel bars, stainless steel rods, precision bars, precision rods, wear-resistant stainless steel, corrosion-resistant stainless steel, cutting tools material, bearing material, industrial applications stainless steel')
-
+@section('og_image', asset('assets/images/high-strength-stainless-steel/440C-Stainless-Steel.webp'))
+@section('og_type', 'article')
 @section('content')
 
    <!--Start breadcrumb area-->
-<section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+<section class="breadcrumb-area" style="background-image: url(/assets/images/high-strength-stainless-steel/440C-Stainless-Steel.webp);">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-auto text-center">

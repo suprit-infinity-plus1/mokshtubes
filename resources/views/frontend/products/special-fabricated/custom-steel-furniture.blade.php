@@ -3,6 +3,8 @@
 @section('meta_description',
     'Premium custom steel furniture from Moksh Tubes — rust-resistant, durable, and stylish for homes, offices, hospitality, and industrial use.') <!-- 152 characters -->
 @section('meta_keywords', 'Custom Steel Furniture, Steel Furniture Manufacturers, Stainless Steel Furniture, Durable Steel Furniture, Modern Steel Furniture Designs, Industrial Steel Furniture, Custom Steel Tables, Chairs, Racks, Cabinets, Steel Furniture for Home & Office')
+@section('og_image', asset('assets/images/peoduct/steel-furniture/custom-steel-furniture.webp'))
+@section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/steel-furniture/custom-steel-furniture.webp);">

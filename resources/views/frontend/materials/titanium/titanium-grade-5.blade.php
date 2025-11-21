@@ -3,11 +3,12 @@
 @section('title', 'Titanium Grade 5 – Aerospace-Grade Titanium Alloy') <!-- 52 chars -->
 @section('meta_description', 'Titanium Grade 5 provides superior strength, corrosion resistance, and weldability, ideal for aerospace, marine, and industrial applications.')
 @section('meta_keywords', 'Titanium Grade 5, Aerospace Grade Titanium, High Strength Titanium, Corrosion Resistant Titanium, Titanium Grade 5 Pipes, Titanium Grade 5 Tubes, Titanium Grade 5 Sheets, Weldable Titanium Alloy, Industrial Titanium Grades, Marine Titanium Alloys')
-
+@section('og_image', asset('assets/images/titanium/titanium-5.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/titanium/titanium-5.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

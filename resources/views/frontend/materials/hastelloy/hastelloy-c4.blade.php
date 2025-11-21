@@ -6,11 +6,12 @@
 @section('meta_keywords', 'Hastelloy C-4, Hastelloy C4, high performance alloy, corrosion resistant alloy, Hastelloy C4
     pipes, Hastelloy C4 tubes, Hastelloy C4 fittings, oxidizer resistant alloy, acid resistant alloy, industrial corrosion
     resistant alloys, high temperature alloys, durable nickel alloys')
-
+@section('og_image', asset('assets/images/hastelloy/hastelloy-C4.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/hastelloy/hastelloy-C4.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

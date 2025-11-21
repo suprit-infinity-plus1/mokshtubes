@@ -8,11 +8,12 @@
     'Zirconium 705, High Performance Zirconium, Corrosion Resistant Zirconium, Zirconium 705
     Pipes, Zirconium 705 Tubes, Zirconium 705 Sheets, Chemical Processing Zirconium, Nuclear Industry Zirconium, Industrial
     Zirconium')
-
+@section('og_image', asset('assets/images/zirconium/zirconium-705.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/zirconium/zirconium-705.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

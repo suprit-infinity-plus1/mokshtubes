@@ -3,11 +3,12 @@
 @section('title', 'Stainless Steel 416 | Mokshtubes Precision Alloy Suppliers')
 @section('meta_description', 'High-quality Stainless Steel 416 from Mokshtubes with superior machinability, corrosion resistance & toughness for automotive, tooling & industrial needs.')
 @section('meta_keywords', 'Stainless Steel 416, AISI 416, UNS S41600, martensitic stainless steel, free-machining stainless steel, stainless steel bars, stainless steel rods, precision alloy suppliers, corrosion-resistant stainless steel, high-strength stainless steel, automotive stainless steel, tooling stainless steel')
-
+@section('og_image', asset('assets/images/high-strength-stainless-steel/416-Stainless-Steel.jpeg'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-<section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+<section class="breadcrumb-area" style="background-image: url(/assets/images/high-strength-stainless-steel/416-Stainless-Steel.jpeg);">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-auto text-center">

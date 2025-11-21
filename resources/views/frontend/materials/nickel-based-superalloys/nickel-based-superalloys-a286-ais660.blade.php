@@ -3,10 +3,11 @@
 @section('title', 'Nickel A286 – High-Strength & Heat Resistant Superalloy') <!-- 53 chars -->
 @section('meta_description', 'A286 (AIS660) superalloy from Moksh Tubes — high strength, heat-resistant, reliable for aerospace & high-temperature industrial applications.')
 @section('meta_keywords', 'Nickel A286, AIS600 Superalloy, High Strength Nickel, Heat Resistant Alloy, Aerospace Nickel Alloy, Industrial Superalloy, Corrosion Resistant Nickel, High Temperature Alloy, Nickel-Based Alloy')
-
+@section('og_image', asset('assets/images/nickel-based-superalloys/nickel-based-superalloys-A286_AIS660.webp'))
+@section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/nickel-based-superalloys/nickel-based-superalloys-A286_AIS660.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

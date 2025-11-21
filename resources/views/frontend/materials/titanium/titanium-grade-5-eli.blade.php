@@ -3,11 +3,12 @@
 @section('title', 'Titanium Grade 5 ELI – Aerospace Titanium Alloy') <!-- 52 chars -->
 @section('meta_description', 'Titanium Grade 5 ELI offers extra purity and exceptional performance, ideal for aerospace, medical implants, and high-performance industrial applications.')
 @section('meta_keywords', 'Titanium Grade 5 ELI, Extra Low Interstitial Titanium, Aerospace Grade Titanium, Medical Implant Titanium, Titanium Grade 5 ELI Pipes, Titanium Grade 5 ELI Tubes, High Performance Titanium, Corrosion Resistant Titanium, Medical Titanium Alloys, Industrial Titanium Grades')
-
+@section('og_image', asset('assets/images/titanium/titanium-5-eli.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/titanium/titanium-5-eli.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

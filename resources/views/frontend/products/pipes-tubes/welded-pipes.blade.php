@@ -4,6 +4,8 @@
     Europe & Asia. Get a quote now.') <!-- 153 characters -->
 @section('meta_keywords', 'Welded Pipes, ERW Pipes, EFW Pipes, Stainless Steel Welded Pipes, Nickel Alloy Welded Pipes,
     Custom Welded Tubes')
+    @section('og_image', asset('assets/images/peoduct/welded-pipes-tubes.webp'))
+@section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/welded-pipes-tubes.webp);">

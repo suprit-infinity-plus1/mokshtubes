@@ -6,6 +6,8 @@
 @section('meta_keywords',
     'Stainless Steel Coils, Carbon Steel Coils, Alloy Coils, Metal Coils Supplier, Industrial
     Metal Coils, Custom Metal Coils, High-Quality Metal Coils, Durable Metal Coils, Precision Metal Coils, Mokshtubes')
+    @section('og_image', asset('assets/images/peoduct/Sheets-Plates-and-Coils/Metal-Coils.jpeg'))
+@section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/Sheets-Plates-and-Coils/Metal-Coils.jpeg);">

@@ -4,11 +4,13 @@
 @section('meta_description',
     'Seamless, welded & U‑bent boiler/heat exchanger tubes per ASTM A179/A213. Fast delivery,
     global supply. Get datasheet & quote.') <!-- 153 characters -->
-    <meta property="og:title" content="Boiler & Heat Exchanger Tubes | Moksh Tubes">
+    {{-- <meta property="og:title" content="Boiler & Heat Exchanger Tubes | Moksh Tubes">
     <meta property="og:description"
         content="Stainless Steel, Alloy Steel, Duplex, Nickel, Titanium boiler & heat exchanger tubes. Worldwide supplier with fast delivery.">
     <meta property="og:image" content="/assets/images/product/boiler-heat-exchanger-tubes.webp">
-    <meta property="og:url" content="https://mokshtubes.com/products/pipes-tubes/boiler-heat-exchanger-tubes">
+    <meta property="og:url" content="https://mokshtubes.com/products/pipes-tubes/boiler-heat-exchanger-tubes"> --}}
+    @section('og_image', asset('assets/images/peoduct/boiler-and-heat.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->

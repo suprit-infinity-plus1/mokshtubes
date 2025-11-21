@@ -3,6 +3,8 @@
 @section('meta_description',
     'Moksh Tubes provides premium capillary tubes with precision, durability, and reliability
     for industrial, medical, and high-performance applications.')
+    @section('og_image', asset('assets/images/peoduct/capillary-tubes.webp'))
+@section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/capillary-tubes.webp);">

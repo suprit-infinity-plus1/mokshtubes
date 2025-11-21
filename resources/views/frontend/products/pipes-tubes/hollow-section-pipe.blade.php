@@ -2,6 +2,8 @@
 @section('title', 'Hollow Section Pipes – Square, Rectangular & Oval Tubes') <!-- 53 characters -->
 @section('meta_description', 'Premium hollow section pipes in square, rectangular & oval shapes from Moksh Tubes —
     corrosion-resistant & ideal for structural & industrial use.') <!-- 153 characters -->
+    @section('og_image', asset('assets/images/peoduct/hollow-section-pipe.webp'))
+@section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/hollow-section-pipe.webp);">

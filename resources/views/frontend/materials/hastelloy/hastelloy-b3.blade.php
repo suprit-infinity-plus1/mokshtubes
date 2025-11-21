@@ -8,11 +8,12 @@
     'Hastelloy B3, high stability nickel alloy, corrosion resistant alloy, Hastelloy B3 pipes,
     Hastelloy B3 tubes, Hastelloy B3 fittings, hydrochloric acid resistant, sulfuric acid resistant, phosphoric acid
     resistant, chemical processing alloys, industrial corrosion resistant alloys, durable nickel alloys')
-
+@section('og_image', asset('assets/images/hastelloy/Hastelloy-B3.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/hastelloy/Hastelloy-B3.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

@@ -7,11 +7,12 @@
 @section('meta_keywords',
     'Hastelloy G3, Corrosion Resistant Alloy, Hastelloy G3 Pipes, Hastelloy G3 Tubes, Hastelloy G3
     Fittings, Weldable Alloy, Oxidizing Acid Resistant, Reducing Acid Resistant, Durable Alloy')
-
+@section('og_image', asset('assets/images/hastelloy/hastelloy-G3.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/hastelloy/hastelloy-G3.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

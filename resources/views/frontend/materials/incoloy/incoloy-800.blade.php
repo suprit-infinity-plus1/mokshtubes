@@ -8,10 +8,11 @@
     'Incoloy 800, Incoloy 800 Pipes, Incoloy 800 Tubes, Incoloy 800 Fittings, Heat Resistant
     Incoloy 800, High Temperature Incoloy 800, Oxidation Resistant Incoloy 800, Furnace Equipment Incoloy 800, Heat
     Exchanger Incoloy 800, Industrial Incoloy 800 Alloy')
-
+@section('og_image', asset('assets/images/incoloy/incoloy-800.webp'))
+@section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(assets/images/incoloy/incoloy-800.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

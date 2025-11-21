@@ -3,11 +3,12 @@
 @section('title', 'Stainless Steel 440A | High Hardness Alloy Supplier')
 @section('meta_description', 'Premium Stainless Steel 440A offering excellent hardness, corrosion resistance & wear strength for cutlery, tools, valves & precision engineering parts.')
 @section('meta_keywords', '440A Stainless Steel, UNS S44002, AISI 440A, High Carbon Martensitic Stainless Steel, Corrosion Resistant Stainless Steel, High Hardness Stainless Steel, Wear Resistant Alloy, Industrial Stainless Steel Supplier, Engineering Grade Stainless Steel, Tooling Stainless Steel')
-
+@section('og_image', asset('assets/images/high-strength-stainless-steel/440A-Stainless-Steel.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/high-strength-stainless-steel/440A-Stainless-Steel.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

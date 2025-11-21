@@ -6,6 +6,8 @@
 @section('meta_keywords',
     'Industrial Flanges, Stainless Steel Flanges, Weld Neck Flanges, Slip-On Flanges, Blind
     Flanges, Pipe Fittings, ASME B16.5, Flange Joints, Orifice Flanges, Spectacle Blind Flanges')
+    @section('og_image', asset('assets/images/peoduct/flangs/Flanges-&-Pipe-Fittings.webp'))
+@section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/flangs/Flanges-&-Pipe-Fittings.webp);">

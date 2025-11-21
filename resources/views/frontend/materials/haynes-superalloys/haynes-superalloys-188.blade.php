@@ -3,10 +3,11 @@
 @section('title', 'Haynes Superalloys 188 - Premium Oxidation Resistant Alloy')
 @section('meta_description', 'Premium Haynes Alloy 188 offers superior oxidation resistance at high temperatures. Ideal for aerospace and gas turbine applications.')
 @section('meta_keywords', 'Haynes Superalloys 188, Haynes Alloy 188, High Temperature Alloy, Oxidation Resistant Alloy, Corrosion Resistant Alloy, Aerospace Alloys, Gas Turbine Alloys, Industrial Haynes Alloys, Chemical Processing Haynes, Power Industry Haynes')
-
+@section('og_image', asset('assets/images/haynes/haynes-alloy-188.webp'))
+@section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/haynes/haynes-alloy-188.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

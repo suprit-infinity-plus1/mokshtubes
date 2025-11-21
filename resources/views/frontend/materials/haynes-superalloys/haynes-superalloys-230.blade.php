@@ -3,10 +3,11 @@
 @section('title', 'Haynes Superalloys 230 - Strength & Oxidation Resistant')
 @section('meta_description', 'Haynes Alloy 230 offers exceptional strength, oxidation resistance, and thermal stability for extreme industrial applications.')
 @section('meta_keywords', 'Haynes Superalloys 230, Haynes Alloy 230, High Strength Haynes, Oxidation Resistant Haynes, Thermal Stability Alloy, Corrosion Resistant Haynes, Industrial Haynes Alloys, Chemical Processing Haynes, Power Industry Haynes, Aerospace Haynes Alloys, Marine Industry Haynes')
-
+@section('og_image', asset('assets/images/haynes/haynes-230.webp'))
+@section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/haynes/haynes-230.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

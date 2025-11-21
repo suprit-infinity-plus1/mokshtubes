@@ -3,10 +3,11 @@
 @section('title', 'Inconel 718 – High-Strength Alloy for Extreme Loads') <!-- 53 chars -->
 @section('meta_description', 'Inconel 718 offers superior tensile strength, fatigue, and oxidation resistance—ideal for aerospace, turbines, and energy sectors.')
 @section('meta_keywords', 'Inconel 718, High-Strength Alloy, Extreme Load Alloys, Nickel Alloys, Aerospace Alloys, Turbine Alloys, Energy Sector Alloys, Fatigue Resistant Alloys, Oxidation Resistant Alloys, Corrosion Resistant Alloys')
-
+@section('og_image', asset('assets/images/inconel/Inconel-718.webp'))
+@section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/inconel/Inconel-718.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

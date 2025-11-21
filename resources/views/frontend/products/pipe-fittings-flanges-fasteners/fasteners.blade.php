@@ -7,6 +7,8 @@
     'Industrial Fasteners, Bolts, Nuts, Screws, Washers, Studs, Anchors, Stainless Steel
     Fasteners, Alloy Fasteners, Titanium Fasteners, Nickel Fasteners, High-Strength Fasteners, Corrosion-Resistant
     Fasteners, ISO Certified Fasteners')
+    @section('og_image', asset('assets/images/peoduct/flangs/FASTENERS.jpeg'))
+@section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/flangs/FASTENERS.jpeg);">

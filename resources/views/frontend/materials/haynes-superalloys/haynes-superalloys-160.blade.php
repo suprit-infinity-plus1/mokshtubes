@@ -8,10 +8,11 @@
     'Haynes Superalloys 160, Haynes Alloy 160, High Strength Haynes, Heat Resistant Haynes,
     Corrosion Resistant Haynes, Industrial Haynes Alloys, Chemical Processing Haynes, Power Industry Haynes, Aerospace
     Haynes Alloys, Marine Industry Haynes')
-
+@section('og_image', asset('assets/images/haynes/haynes-alloy-160.webp'))
+@section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/haynes/haynes-alloy-160.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

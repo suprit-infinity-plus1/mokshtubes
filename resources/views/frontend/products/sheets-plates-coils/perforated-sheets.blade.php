@@ -7,6 +7,8 @@
     'Perforated Sheets, Perforated Metal Sheets, Stainless Steel Perforated Sheets, Carbon Steel
     Perforated Sheets, Alloy Steel Perforated Sheets, Custom Perforated Sheets, Industrial Perforated Sheets, Precision
     Engineered Sheets, Corrosion Resistant Sheets, Durable Metal Sheets')
+    @section('og_image', asset('assets/images/peoduct/Sheets-Plates-and-Coils/sheets-Perforated.jpeg'))
+@section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/Sheets-Plates-and-Coils/sheets-Perforated.jpeg);">

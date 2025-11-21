@@ -4,6 +4,8 @@
     'Get precision U-Bent Tubes from Moksh Tubes — custom sizes, superior durability & performance for boilers, heat exchangers & industrial systems.') <!-- 153 characters -->
 @section('meta_keywords',
     'U-Bent Tubes, U-Bend Tubes, Custom U-Bent Tubes, Industrial U-Bent Tubes, Heat Exchanger Tubes, Boiler Tubes, Stainless Steel U-Bent Tubes, Alloy U-Bent Tubes, Precision Bent Tubes, Moksh Tubes')
+@section('og_image', asset('assets/images/peoduct/u-bent-tubes.webp'))
+@section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/u-bent-tubes.webp);">

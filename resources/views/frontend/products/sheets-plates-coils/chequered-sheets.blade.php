@@ -5,6 +5,8 @@
 @section('meta_keywords',
     'Chequered Sheets, Tread Plates, Checker Plates, Anti-Slip Sheets, Stainless Steel Chequered
     Sheets, Aluminum Chequered Sheets, Carbon Steel Chequered Sheets, Industrial Flooring Sheets')
+    @section('og_image', asset('assets/images/peoduct/Sheets-Plates-and-Coils/chequered-sheets.jpeg'))
+@section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/Sheets-Plates-and-Coils/chequered-sheets.jpeg);">

@@ -3,11 +3,12 @@
 @section('title', 'Tungsten | Exceptional Strength & Durability')
 @section('meta_description', 'Tungsten offers exceptional strength, heat resistance & durability for tools, high-temperature applications & precision engineering.')
 @section('meta_keywords', 'Tungsten, high strength metal, heat resistant metal, durable metal, industrial tools metal, high temperature applications, precision engineering metal')
-
+@section('og_image', asset('assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-tungsten.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-tungsten.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

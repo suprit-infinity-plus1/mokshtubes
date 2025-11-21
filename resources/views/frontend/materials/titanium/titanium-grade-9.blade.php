@@ -3,11 +3,12 @@
 @section('title', 'Titanium Grade 9 – High Strength & Corrosion Resistant') <!-- 52 chars -->
 @section('meta_description', 'Titanium Grade 9 alloy offers superior strength, corrosion resistance, and durability, perfect for aerospace, marine, and industrial applications.')
 @section('meta_keywords', 'Titanium Grade 9, High Strength Titanium, Corrosion Resistant Titanium, Titanium Grade 9 Pipes, Titanium Grade 9 Tubes, Aerospace Titanium Alloys, Marine Titanium Alloys, Industrial Titanium Alloys, Durable Titanium, Premium Titanium Alloy')
-
+@section('og_image', asset('assets/images/titanium/Titanium-9.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/titanium/Titanium-9.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

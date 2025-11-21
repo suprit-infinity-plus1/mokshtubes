@@ -4,11 +4,12 @@
 @section('meta_description', 'Hastelloy X pipes, tubes & fittings with high-temperature strength, oxidation resistance, and weldability for aerospace and turbine applications')
 @section('meta_keywords', 'Hastelloy X, High Temperature Alloy, Hastelloy X Pipes, Hastelloy X Tubes, Hastelloy X
     Fittings, Oxidation Resistant Alloy, Aerospace Alloys, Turbine Alloys, High-Temp Strength Alloy')
-
+@section('og_image', asset('assets/images/hastelloy/hastelloy-x.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/hastelloy/hastelloy-x.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

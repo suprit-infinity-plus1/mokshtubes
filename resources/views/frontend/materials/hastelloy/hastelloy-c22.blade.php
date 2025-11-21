@@ -7,11 +7,12 @@
     'Hastelloy C-22, Hastelloy C22, Corrosion Resistant Alloy, Hastelloy C22 Pipes, Hastelloy C22
     Tubes, Hastelloy C22 Fittings, Pitting Resistant Alloy, Crevice Corrosion Resistant, Stress Corrosion Resistant,
     Chemical Processing Alloys, Industrial Corrosion Resistant Alloys, Durable Nickel Alloys')
-
+@section('og_image', asset('assets/images/hastelloy/hastelloy-c22.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/hastelloy/hastelloy-c22.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
