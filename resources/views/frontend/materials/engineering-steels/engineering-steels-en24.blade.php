@@ -4,11 +4,13 @@
 @section('meta_description', 'EN24 Alloy Steel (817M40/AISI 4340) – chemical composition, mechanical properties, and applications. Buy EN24 round bars and custom products.')
 @section('meta_keywords', 'EN24 Alloy Steel, high strength alloy steel, fatigue resistant steel, tough alloy steel,
     heavy-duty steel, industrial alloy steel')
+@section('og_image', asset('assets/images/engineering-steels/engineering-steels-en24.webp'))
+@section('og_type', 'article')
 
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/engineering-steels/engineering-steels-en24.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

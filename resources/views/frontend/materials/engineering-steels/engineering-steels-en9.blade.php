@@ -3,11 +3,13 @@
 @section('title', 'EN9 Engineering Steel | High Carbon Alloy Steel')
 @section('meta_description', 'EN9 Engineering Steel designed for high strength and wear resistance, ideal for demanding engineering components and industrial applications.')
 @section('meta_keywords', 'EN9 Engineering Steel, high carbon steel, high strength steel, wear resistant steel, engineering components steel, industrial steel')
+@section('og_image', asset('assets/images/engineering-steels/engineering-steels-en9.webp'))
+@section('og_type', 'article')
 
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/engineering-steels/engineering-steels-en9.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

@@ -3,11 +3,12 @@
 @section('title', 'EN31 Alloy Steel | High Wear Resistance Steel')
 @section('meta_description', 'EN31 Alloy Steel offering superior wear resistance and hardness for demanding industrial tooling applications.')
 @section('meta_keywords', 'EN31 Alloy Steel, high wear resistance steel, high hardness steel, industrial tooling steel, durable alloy steel, engineering steel')
-
+@section('og_image', asset('assets/images/engineering-steels/engineering-steels-en31.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/engineering-steels/engineering-steels-en31.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

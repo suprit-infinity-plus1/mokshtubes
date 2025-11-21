@@ -3,11 +3,12 @@
 @section('title', 'P11 Alloy Steel | High Temperature Pressure Vessel Steel')
 @section('meta_description', 'P11 Alloy Steel designed for high-temperature pressure vessels, boilers, and pipework in power plants.')
 @section('meta_keywords', 'P11 Alloy Steel, high temperature alloy steel, pressure vessel steel, boiler steel, power plant steel, industrial alloy steel')
-
+@section('og_image', asset('assets/images/engineering-steels/engineering-steels-p11.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/engineering-steels/engineering-steels-p11.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
