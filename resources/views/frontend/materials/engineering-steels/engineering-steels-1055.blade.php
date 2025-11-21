@@ -56,7 +56,7 @@
                         <p class="fs-6 text-justify">
                             We supply Engineering Steel 1055 in multiple product forms such as <strong><a href="{{ route('products.bars-rods.round-bars') }}">round bars,</a><a href="{{ route('products.bars-rods.flat-bars') }}"> flat
                                 bars,</a> plates,
-                                sheets, coils, strips, seamless & welded tubes</strong> and custom-machined components.
+                                sheets, coils, strips, seamless &<a href="{{route ('products.pipes-tubes.welded-pipes')}}"> welded tubes</a></strong> and custom-machined components.
                             Available in
                             annealed, normalized, hot-rolled, cold-drawn and heat-treated conditions — EN 1055 can be
                             customized
