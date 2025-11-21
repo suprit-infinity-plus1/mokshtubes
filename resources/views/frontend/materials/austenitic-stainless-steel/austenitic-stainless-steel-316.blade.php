@@ -5,6 +5,8 @@
 @section('meta_description', 'Austenitic Stainless Steel 316 – marine-grade alloy offering superior corrosion resistance for marine, chemical, and food processing applications.')
 
 @section('meta_keywords', 'Austenitic Stainless Steel 316, Stainless Steel 316 Pipes, Stainless Steel 316 Tubes, Stainless Steel 316 Fittings, Marine Grade Stainless Steel 316, Corrosion Resistant Stainless Steel 316, Chemical Processing Stainless Steel 316, Food Grade Stainless Steel 316, Industrial Stainless Steel 316, High Strength Stainless Steel 316')
+@section('og_image', asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-316.webp'))
+@section('og_type', 'article')
 
 @section('content')
     <!--Start breadcrumb area-->

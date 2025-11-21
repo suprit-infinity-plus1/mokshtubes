@@ -5,7 +5,8 @@
 @section('meta_description', 'Copper Nickel Alloy 70/30 (Cu-Ni) offers superior corrosion resistance, strength, and durability in seawater and harsh marine environments.')
 
 @section('meta_keywords', 'Copper Nickel 70/30, Cu-Ni 70/30 Alloy, Copper Nickel Marine Alloy, Seawater Resistant Copper Nickel, Corrosion Resistant Cu-Ni 70/30, Durable Copper Nickel, Industrial Copper Nickel Alloy')
-
+@section('og_image', asset('assets/images/copper-alloys/copper-alloys-cu-ni-70_30.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->

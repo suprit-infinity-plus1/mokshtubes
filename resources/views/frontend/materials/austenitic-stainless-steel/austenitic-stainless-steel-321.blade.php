@@ -5,6 +5,8 @@
 @section('meta_description', 'Austenitic Stainless Steel 321 – stabilized alloy designed for high-temperature applications offering excellent oxidation resistance and durability.')
 
 @section('meta_keywords', 'Austenitic Stainless Steel 321, Stainless Steel 321 Pipes, Stainless Steel 321 Tubes, Stainless Steel 321 Fittings, Heat Resistant Stainless Steel 321, Oxidation Resistant Stainless Steel 321, High Temperature Stainless Steel 321, Stabilized Stainless Steel 321, Industrial Stainless Steel 321, Thermal Processing Stainless Steel 321')
+@section('og_image', asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-321.webp'))
+@section('og_type', 'article')
 
 @section('content')
 

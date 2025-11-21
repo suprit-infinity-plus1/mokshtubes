@@ -9,6 +9,8 @@
 @section('meta_keywords',
     'Copper Nickel Alloy C71520, marine grade copper nickel, high performance copper alloy,
     corrosion resistant copper nickel, seawater resistant alloy, durable copper nickel, industrial copper alloy')
+@section('og_image', asset('assets/images/copper-alloys/copper-alloys-c71520.webp'))
+@section('og_type', 'article')
 
 @section('content')
 

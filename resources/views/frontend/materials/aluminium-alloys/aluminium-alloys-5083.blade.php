@@ -6,6 +6,9 @@
 
 @section('meta_keywords', 'Aluminium Alloy 5083, Marine Grade Aluminium, Aluminium 5083 Pipes, Aluminium 5083 Tubes, Aluminium 5083 Sheets, Corrosion Resistant Aluminium, Seawater Resistant Aluminium, Weldable Aluminium Alloy, Marine Industry Aluminium, Industrial Aluminium Grades')
 
+@section('og_image', asset('assets/images/aluminium-alloys/aluminium-alloys-5083.webp'))
+@section('og_type', 'article')
+
 @section('content')
 
     <!--Start breadcrumb area-->

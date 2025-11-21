@@ -6,6 +6,8 @@
 @section('meta_keywords', 'Aluminium Alloy 7075, High Performance Aluminium, Aluminium 7075 Pipes, Aluminium 7075 Tubes,
     Aluminium 7075 Sheets, High Strength Aluminium Alloy, Fatigue Resistant Aluminium, Aerospace Aluminium Alloys, Sports
     Equipment Aluminium, Industrial Aluminium Grades')
+@section('og_image', asset('assets/images/aluminium-alloys/aluminium-alloys7075.webp'))
+@section('og_type', 'article')
 
 @section('content')
 

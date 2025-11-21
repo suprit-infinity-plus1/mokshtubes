@@ -7,6 +7,8 @@
 
 @section('meta_keywords', 'Copper Alloy C44300, corrosion resistant copper, durable copper alloy, industrial copper
     alloy, high strength copper')
+@section('og_image', asset('assets/images/copper-alloys/copper-alloys-c44300.webp'))
+@section('og_type', 'article')
 
 @section('content')
 

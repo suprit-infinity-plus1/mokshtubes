@@ -10,22 +10,9 @@
     high-quality metal pipes, industrial metal tubes, corrosion-resistant pipes, durable metal fittings,
     ISO-certified metal products')
 @section('canonical', 'https://mokshtubes.com')
-@section('meta')
-    <meta property="og:title" content="Stainless Steel Pipes & Nickel Alloys | Moksh Tubes LLP" />
-    <meta property="og:description"
-        content="Leading exporter of stainless steel, nickel alloy & titanium pipes, tubes & fittings. ISO-certified quality, fast quotes & global delivery." />
-    <meta property="og:image" content="{{ asset('assets/images/slides/Mokshtubes-banner-desktop.webp') }}" />
-    <meta property="og:url" content="{{ url()->current() }}" />
-    <meta property="og:type" content="website" />
-
-    <!-- Twitter / X -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Stainless Steel Pipes & Nickel Alloys | Moksh Tubes LLP">
-    <meta name="twitter:description"
-        content="Leading exporter of stainless steel, nickel alloy & titanium pipes, tubes & fittings. ISO-certified quality, fast quotes & global delivery.">
-    <meta name="twitter:image" content="{{ asset('assets/images/slides/Mokshtubes-banner-desktop.webp') }}">
-@endsection
-
+{{-- OG overrides --}}
+@section('og_image', asset('assets/images/slides/Mokshtubes-banner-desktop.webp'))
+@section('og_type', 'website')
 @section('content')
 
 

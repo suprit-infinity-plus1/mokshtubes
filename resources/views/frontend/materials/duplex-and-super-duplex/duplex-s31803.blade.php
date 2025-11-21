@@ -10,7 +10,8 @@
     corrosion-resistant stainless steel, high strength duplex steel, Mokshtubes LLP, chemical processing steel, marine
     engineering steel, oil and gas stainless steel, desalination plant steel, Super Duplex alternative, stainless steel
     plates, stainless steel flanges')
-
+@section('og_image', asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->

@@ -7,7 +7,8 @@
 
 @section('meta_keywords', 'Copper Alloy C46400, high strength copper alloy, aerospace copper alloy, marine copper alloy,
     industrial copper alloy, durable copper alloy')
-
+@section('og_image', asset('assets/images/copper-alloys/copper-alloys-c46400.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
