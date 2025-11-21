@@ -5,7 +5,8 @@
 @section('meta_description', 'Copper Nickel Alloy 90/10 (Cu-Ni) offers outstanding corrosion resistance, durability, and strength for seawater, marine, and offshore applications.')
 
 @section('meta_keywords', 'Copper Nickel 90/10, Cu-Ni 90/10 Alloy, Copper Nickel Marine Alloy, Seawater Resistant Copper Nickel, Corrosion Resistant Cu-Ni 90/10, Durable Copper Nickel Alloy, Industrial Copper Nickel')
-
+@section('og_image', asset('assets/images/copper-alloys/copper-alloys-cu-ni-90_10.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
@@ -62,7 +63,39 @@
             </div>
         </div>
     </section>
+{{-- datasheet --}}
+    <section class="sec-padd-bottom bg-light">
+        <div class="datasheet-download px-4 text-center">
+            <h3 class="mb-3" style="color:#174268;">Download Copper Alloys CU-NI 90/10 Datasheet</h3>
+            <p class="mb-3">
+                Get the complete Copper Alloys CU-NI 90/10 datasheet with chemical composition,
+                mechanical properties, heat treatment details, and applications.
+                Enter your email to receive the PDF instantly.
+            </p>
 
+            <!-- Lead Capture Form -->
+            <form id="leadForm" method="POST" action="https://mokshtubes.com/datasheet-leads-capture" class="mb-3">
+                <input type="hidden" name="_token" value="WNVWvpO4YR2OqZaIJDl2mE3UfyreGys3Vp19brsc" autocomplete="off">
+                <div class="row justify-content-center">
+                    <input type="hidden" name="pdf" value="haynes-242.pdf">
+                    <div class="col-md-6 mb-2">
+                        <input type="email" name="email" required="" class="form-control p-3" placeholder="Enter your email address">
+                    </div>
+                    <div class="col-md-3 mb-2">
+                        <button type="submit" class="btn btn-lg w-100 text-white" style="background-color:#db7227; border-radius:8px;">
+                            📥 Get Datasheet
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+            
+            <hr class="my-4">
+            <p class="small text-muted">
+                We respect your privacy. Your email will only be used to send the datasheet.
+            </p>
+        </div>
+    </section>
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">

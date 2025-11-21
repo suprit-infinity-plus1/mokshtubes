@@ -4,6 +4,16 @@
     bars in custom sizes, grades & worldwide delivery.') <!-- 153 characters -->
 @section('meta_keywords', 'Hollow Bars, Stainless Hollow Bars, Alloy Hollow Bars, MS Hollow Bars, Aluminium Hollow Bars,
     Bronze Hollow Bars')
+    @section('og_title', 'High Quality Stainless Steel & Alloy Hollow Bars | Hollow Bar Suppliers')
+
+@section('og_description', 'Premium hollow bars, stainless steel hollow bar, hollow steel bar, 4140 hollow bar, hollow square bars, MS hollow bar sizes, and custom solutions from global suppliers.')
+
+@section('og_image', 'https://mokshtubes.com/assets/images/peoduct/Hollow-Bars.jpeg')
+
+@section('og_url', url()->current())
+
+@section('og_type', 'product')
+
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/Hollow-Bars.jpeg);">

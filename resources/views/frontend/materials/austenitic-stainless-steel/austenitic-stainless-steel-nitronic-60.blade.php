@@ -5,6 +5,8 @@
 @section('meta_description', 'Austenitic Stainless Steel Nitronic 60 – premium alloy with superior wear and corrosion resistance for demanding industrial and engineering applications.')
 
 @section('meta_keywords', 'Austenitic Stainless Steel Nitronic 60, Nitronic 60 Stainless Steel Pipes, Nitronic 60 Stainless Steel Tubes, Nitronic 60 Stainless Steel Fittings, Wear Resistant Nitronic 60, Corrosion Resistant Nitronic 60, High Strength Nitronic 60, Industrial Nitronic 60 Stainless Steel, Marine Grade Nitronic 60, Engineering Applications Nitronic 60')
+@section('og_image', asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-nitronic-60_10_11zon.webp'))
+@section('og_type', 'article')
 
 @section('content')
 

@@ -783,6 +783,7 @@
         </div>
     </section>
 
+   
     <!--Start faq content area-->
     <section class="faq-content-area sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -790,7 +791,7 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="accordion-box">
                         <div class="section-title center">
-                            <h2>Frequently Asked Questions (FAQ) – Chequered Sheets</h2>
+                            <h2>(FAQ) – Chequered Sheets</h2>
                         </div>
 
                         <!--Start single accordion box-->
@@ -807,7 +808,7 @@
                             </div>
                         </div>
                         <!--End single accordion box-->
-
+                        
                         <!--Start single accordion box-->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
@@ -821,27 +822,27 @@
                             </div>
                         </div>
                         <!--End single accordion box-->
-
+                        
                         <!--Start single accordion box-->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
                                 <h4>What thickness range is offered for chequered sheets?
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    Chequered sheets typically range from 1.5 mm to 12 mm in thickness, with <a
+                                </div>
+                                <div class="accord-content">
+                                    <p>
+                                        Chequered sheets typically range from 1.5 mm to 12 mm in thickness, with <a
                                         href="{{ url('products/pipe-fittings-flanges-fasteners/custom-fabricated-fittings') }}">custom</a>
-                                    thicknesses available on request.
-                                </p>
+                                        thicknesses available on request.
+                                    </p>
+                                </div>
                             </div>
-                        </div>
                         <!--End single accordion box-->
 
                         <!--Start single accordion box-->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
                                 <h4>What are the common patterns in chequered sheets?
-                            </div>
+                                </div>
                             <div class="accord-content">
                                 <p>
                                     Diamond pattern (most common)<br>
@@ -851,12 +852,12 @@
                             </div>
                         </div>
                         <!--End single accordion box-->
-
+                        
                         <!--Start single accordion box-->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
                                 <h4>What are the typical applications of chequered sheets?
-                            </div>
+                                </div>
                             <div class="accord-content">
                                 <p>
                                     Flooring in industrial and commercial areas<br>
@@ -868,14 +869,14 @@
                             </div>
                         </div>
                         <!--End single accordion box-->
-
+                        
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!--End faq content area-->
-
+    
     {{-- why choose us --}}
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
@@ -923,7 +924,7 @@
             </div>
         </div>
     </section>
-
+    
     {{-- Contact us --}}
 
     <section class="sec-padd-top sec-padd-bottom bg-light">

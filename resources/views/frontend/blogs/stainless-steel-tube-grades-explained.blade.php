@@ -4,7 +4,8 @@
 @section('meta_description',
     'A clear guide to common stainless steel tube grades (304, 316, 430, Duplex). Understand
     their properties to choose the best grade for your project.')
-@section('meta_keywords', 'stainless steel tube grades, stainless steel grades explained, 304 stainless steel tube, 316
+@section('meta_keywords',
+    'stainless steel tube grades, stainless steel grades explained, 304 stainless steel tube, 316
     stainless steel tube, 430 stainless steel, duplex 2205 stainless steel, stainless steel tubing guide, stainless steel
     grade comparison, austenitic stainless steel, ferritic stainless steel, duplex stainless steel, stainless steel
     corrosion resistance, best stainless steel grade, stainless steel for marine use, stainless steel properties, Mokshtubes
@@ -14,8 +15,7 @@
 @section('content')
     <!--Start breadcrumb area-->
 
-    <section class="breadcrumb-area"
-        style="background-image: url(/assets/images/blog/Stainless-Steel-Tube-Grades.png);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/blog/Stainless-Steel-Tube-Grades.png);">
         <div class="container text-center">
             <h1>Stainless Steel Tube Grades Explained: Which One to Pick?</h1>
         </div>
@@ -578,13 +578,12 @@
                                 </li>
                                 <li>
                                     <div class="img-holder">
-                                        <img src="{{ asset('assets/images/blogs/thumb/india’s-stainless-steel-export-industry-thumb.webp') }}"
+                                        <img src="{{ asset('assets/images/blogs/thumb/indias-stainless-steel-export-industry-thumb.webp') }}"
                                             alt="Awesome Image">
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a
-                                                        href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
+                                                    <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>

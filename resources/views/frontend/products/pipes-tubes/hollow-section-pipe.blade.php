@@ -1016,13 +1016,12 @@
                     <div class="accordion accordion-block">
                         <div class="accord-btn">
                             <h4>
-                                What are hollow section pipes?
+                                What is Haynes 242 and why is it important in high-temperature applications?
                             </h4>
                         </div>
                         <div class="accord-content">
                             <p>
-                                Hollow Section Pipes are metal tubes available in square, rectangular, and oval profiles designed for structural and architectural applications.
-                                They are known for their high strength-to-weight ratio, uniform geometry, and versatility across industries such as construction, furniture, and automotive manufacturing.
+                                Haynes 242 (UNS N10242) is an age-hardenable nickel-molybdenum-chromium alloy that combines excellent high-temperature strength with very low thermal expansion. It is widely used in aerospace, chemical, and power generation industries because it provides outstanding dimensional stability, fatigue resistance, and oxidation resistance up to 815 °C (1500 °F), making it ideal for critical operations under extreme conditions.
                             </p>
                         </div>
                     </div>
@@ -1032,13 +1031,12 @@
                     <div class="accordion accordion-block">
                         <div class="accord-btn">
                             <h4>
-                                What materials are used to manufacture hollow section pipes?
+                                What are the key properties of Haynes 242 alloy?
                             </h4>
                         </div>
                         <div class="accord-content">
                             <p>
-                                Hollow Section Pipes are produced in a wide range of materials including Stainless Steel, Carbon Steel, Alloy Steel, Duplex & Super Duplex, Aluminium, Copper, and Nickel Alloys.
-                                Each material is selected based on the intended strength, corrosion resistance, and application requirements.
+                                Haynes 242 offers a unique combination of properties including exceptional strength at elevated temperatures, the lowest thermal expansion among comparable superalloys, high resistance to oxidation, and excellent fatigue and creep performance. It has a tensile strength ranging from 105 to 218 ksi depending on form, with yield strength up to 140 ksi, and maintains structural stability up to 705 °C (1300 °F). Its weldability and formability, even in the age-hardened condition, make it a versatile alloy for demanding applications.
                             </p>
                         </div>
                     </div>
@@ -1048,13 +1046,12 @@
                     <div class="accordion accordion-block">
                         <div class="accord-btn">
                             <h4>
-                                What are the different shapes of hollow section pipes available?
+                                Which industries and applications commonly use Haynes 242?
                             </h4>
                         </div>
                         <div class="accord-content">
                             <p>
-                                Hollow Section Pipes are available in <b>square</b>, <b>rectangular</b>, <b>oval</b>, and <b>custom hollow profiles</b>.
-                                These varied shapes provide excellent design flexibility and load-bearing performance for structural and decorative uses.
+                                Haynes 242 is widely used in aerospace and gas turbines for seal rings, ducting, fuel nozzles, and containment casings. In chemical and petrochemical industries, it is used for HF and fluorine resistant components, reactors, and extrusion screws. It also finds applications in industrial furnaces for press tooling, heat exchangers, and furnace parts, in nuclear and specialty energy sectors for controlled expansion components, and in power generation for boiler superheaters and gas turbine hardware.
                             </p>
                         </div>
                     </div>
@@ -1064,54 +1061,12 @@
                     <div class="accordion accordion-block">
                         <div class="accord-btn">
                             <h4>
-                                What are the advantages of hollow section pipes?
-                            </h4>
-                        </div>
-                        <div class="accord-content">
-                            <ul>
-                                <li>High strength-to-weight ratio</li>
-                                <li>Corrosion resistance and long-term durability</li>
-                                <li>Design versatility with various profiles</li>
-                                <li>Ease of cutting, welding, and fabrication</li>
-                                <li>Cost-effective for structural applications</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!--End single accordion box-->
-
-                    <!--Start single accordion box-->
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>
-                                What are the common applications of hollow section pipes?
+                                What types of Haynes 242 products are supplied by MOKSH TUBES & FITTINGS LLP?
                             </h4>
                         </div>
                         <div class="accord-content">
                             <p>
-                                Hollow Section Pipes are widely used in:
-                            </p>
-                            <ul>
-                                <li>Construction & Infrastructure – columns, beams, and frameworks</li>
-                                <li>Furniture & Interior Design – tables, shelves, and railings</li>
-                                <li>Automotive & Transportation – chassis and support structures</li>
-                                <li>Industrial Fabrication – equipment frames and conveyors</li>
-                                <li>Agricultural & Marine – greenhouse and offshore frameworks</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!--End single accordion box-->
-
-                    <!--Start single accordion box-->
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>
-                                What standards and specifications do Moksh Tubes & Fittings LLP follow?
-                            </h4>
-                        </div>
-                        <div class="accord-content">
-                            <p>
-                                Our hollow section pipes are manufactured and tested according to <b>ASTM A500, EN 10210, EN 10219, IS 4923, and DIN 2395</b> standards.
-                                Each product meets strict dimensional, mechanical, and quality control parameters to ensure reliability and global compliance.
+                                MOKSH TUBES & FITTINGS LLP supplies a wide range of Haynes 242 products including seamless and welded pipes, tubes, sheets, plates, coils, bars, flanges, pipe fittings, fasteners, welding rods, wire mesh, and custom-fabricated components. All products conform to ASTM, ASME, NACE, and international standards, ensuring that industries receive high-quality materials designed for long service life and superior performance.
                             </p>
                         </div>
                     </div>
@@ -1121,32 +1076,13 @@
                     <div class="accordion accordion-block">
                         <div class="accord-btn">
                             <h4>
-                                What finishes are available for hollow section pipes?
+                                Why choose MOKSH TUBES & FITTINGS LLP for Haynes 242 materials?
                             </h4>
                         </div>
                         <div class="accord-content">
                             <p>
-                                Moksh Tubes & Fittings LLP offers various surface finishes including Hot Rolled, Cold Rolled, Pickled & Passivated, Polished, and Powder Coated options to meet both functional and aesthetic requirements.
+                                MOKSH TUBES & FITTINGS LLP is a trusted manufacturer and global supplier of Haynes 242, offering deep expertise in exotic alloys, a strong international supply chain, and ISO 9001 certified quality assurance. The company provides customized machining, age treatment, and fabrication services while ensuring timely delivery and full material traceability. With technical support from selection to fabrication, MOKSH TUBES & FITTINGS LLP is a reliable partner for industries operating in extreme environments.
                             </p>
-                        </div>
-                    </div>
-                    <!--End single accordion box-->
-
-                    <!--Start single accordion box-->
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h4>
-                                Why choose Moksh Tubes & Fittings LLP for hollow section pipes?
-                            </h4>
-                        </div>
-                        <div class="accord-content">
-                            <ul>
-                                <li>Extensive product range across multiple materials and profiles</li>
-                                <li>Custom fabrication with precision engineering</li>
-                                <li>Adherence to international standards</li>
-                                <li>Experienced technical team and reliable support</li>
-                                <li>Global supply with timely delivery</li>
-                            </ul>
                         </div>
                     </div>
                     <!--End single accordion box-->
@@ -1157,6 +1093,7 @@
     </div>
 </section>
 <!--End faq content area-->
+
 <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">

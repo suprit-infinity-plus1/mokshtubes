@@ -2292,41 +2292,7 @@
                     </div>
                     <!--End single accordion box-->
 
-                    <!--Start single accordion box-->
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn"><h4>What are the finishing options available for seamless pipes?</h4></div>
-                        <div class="accord-content">
-                            <p>Finishing options include Mill Finish, Electro Polished, Mechanical Polished, Matt Finish, and Pickled & Passivated — ensuring precise surface quality for different industrial needs and applications.</p>
-                        </div>
-                    </div>
-                    <!--End single accordion box-->
-
-                    <!--Start single accordion box-->
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn"><h4>How are seamless pipes tested for quality assurance?</h4></div>
-                        <div class="accord-content">
-                            <p>All seamless pipes undergo strict testing including Hydrostatic, Eddy Current, PMI, and NDT inspections. Each pipe complies with ISO 9001:2015, ASTM, ASME, and API standards, ensuring reliable quality and performance.</p>
-                        </div>
-                    </div>
-                    <!--End single accordion box-->
-
-                    <!--Start single accordion box-->
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn"><h4>Can seamless pipes be customized?</h4></div>
-                        <div class="accord-content">
-                            <p>Yes, seamless pipes can be custom-made in various diameters, wall thicknesses, lengths, and finishes as per customer specifications. Moksh Tubes & Fittings LLP specializes in precision-engineered and project-specific solutions.</p>
-                        </div>
-                    </div>
-                    <!--End single accordion box-->
-
-                    <!--Start single accordion box-->
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn"><h4>Why choose Moksh Tubes & Fittings LLP for seamless pipes?</h4></div>
-                        <div class="accord-content">
-                            <p>We maintain ready stock of over 200 tons, offer certified quality, practical pricing, on-time delivery, and global reach. Our expert team ensures technical guidance and sourcing of even rare sizes and grades as per your requirements.</p>
-                        </div>
-                    </div>
-                    <!--End single accordion box-->
+                    
 
                 </div>
             </div>

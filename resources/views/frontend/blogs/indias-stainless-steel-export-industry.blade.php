@@ -30,7 +30,7 @@
                         <div class="single-blog-post">
                             <div class="img-holder" style="position:relative;width:100%;aspect-ratio:3/2;overflow:hidden;">
                                 <img src="{{ asset('assets/images/blog/indias-stainless-steel-export-industry.webp') }}"
-                                    alt="india’s-stainless-steel-export-industry"
+                                    alt="indias-stainless-steel-export-industry"
                                     style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;">
                             </div>
 
@@ -630,7 +630,7 @@
                                 </li>
                                 <li>
                                     <div class="img-holder">
-                                        <img src="{{ asset('assets/images/blogs/thumb/india’s-stainless-steel-export-industry-thumb.webp') }}"
+                                        <img src="{{ asset('assets/images/blogs/thumb/indias-stainless-steel-export-industry-thumb.webp') }}"
                                             alt="Awesome Image">
                                         <div class="overlay-style-two">
                                             <div class="box">

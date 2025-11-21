@@ -5,6 +5,8 @@
 @section('meta_description', 'Austenitic Stainless Steel 309 – high-quality alloy offering superior oxidation resistance and durability for high-temperature and industrial applications.')
 
 @section('meta_keywords', 'Austenitic Stainless Steel 309, Stainless Steel 309 Pipes, Stainless Steel 309 Tubes, Stainless Steel 309 Fittings, Heat Resistant Stainless Steel 309, Oxidation Resistant Stainless Steel 309, High Temperature Stainless Steel, Industrial Stainless Steel 309, Furnace Grade Stainless Steel, Thermal Processing Stainless Steel')
+@section('og_image', asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-309.webp'))
+@section('og_type', 'article')
 
 @section('content')
 

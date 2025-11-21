@@ -6,6 +6,16 @@
 @section('meta_keywords',
     'Square Bars, Stainless Square Bars, MS Square Bars, Aluminium Square Bars, Brass Square Bars,
     Steel Square Rods, Square Bar Sizes, Square Bar Weight Chart')
+    @section('og_title', 'Square Bars & Square Tubing | SS, MS, Aluminium & More')
+
+@section('og_description', 'Stainless steel square bar, MS square bar, aluminium square bar, steel square tubing, brass square bar, copper square rods, hollow sections & box sections.')
+
+@section('og_image', 'https://mokshtubes.com/assets/images/peoduct/Bars-&-Rods/square-bars.webp')
+
+@section('og_url', url()->current())
+
+@section('og_type', 'product')
+
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/Bars-&-Rods/square-bars.webp);">

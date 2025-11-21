@@ -6,6 +6,9 @@
 
 @section('meta_keywords', 'Aluminium Alloy 6012, Heat Treatable Aluminium, Aluminium 6012 Pipes, Aluminium 6012 Tubes, Aluminium 6012 Sheets, Corrosion Resistant Aluminium, High Strength Aluminium, Automotive Aluminium Alloys, Structural Aluminium Alloys, Industrial Aluminium Grades')
 
+@section('og_image', asset('assets/images/aluminium-alloys/aluminium-alloys-6012.webp'))
+@section('og_type', 'article')
+
 @section('content')
 
     <!--Start breadcrumb area-->

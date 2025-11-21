@@ -1,8 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Top 10 Uses of Stainless Steel Pipes in Construction')
-@section('meta_description',
-    'Explore the top 10 uses of stainless steel pipes in construction — from plumbing and HVAC to decorative design — and learn why it’s a trusted material choice.')
+@section('meta_description', 'Explore key uses of stainless steel pipes in construction, including plumbing, HVAC, and
+    design, and learn what makes them so reliable.')
 @section('meta_keywords',
     'stainless steel pipes, stainless steel in construction, uses of stainless steel pipes,
     stainless steel pipe applications, stainless steel structural supports, stainless steel plumbing pipes, stainless steel
@@ -402,8 +402,7 @@
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a
-                                                        href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
+                                                    <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>

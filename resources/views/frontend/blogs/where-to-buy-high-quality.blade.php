@@ -2,9 +2,11 @@
 
 @section('title', 'Where to Buy High-Quality Stainless Steel Tubes Online')
 @section('meta_description',
-    'A buyer’s guide to finding reputable online stainless steel suppliers — certifications, product range & tips to ensure high-quality pipes & tubes.')
+    'A buyer’s guide to finding reputable online stainless steel suppliers — certifications,
+    product range & tips to ensure high-quality pipes & tubes.')
 @section('meta_keywords',
-    'Buy Stainless Steel Tubes Online, Stainless Steel Suppliers, High-Quality Stainless Steel, Online Metal Suppliers, Stainless Steel Pipes, Industrial Stainless Steel, Certified Stainless Steel, Stainless Steel Procurement,
+    'Buy Stainless Steel Tubes Online, Stainless Steel Suppliers, High-Quality Stainless Steel, Online Metal Suppliers,
+    Stainless Steel Pipes, Industrial Stainless Steel, Certified Stainless Steel, Stainless Steel Procurement,
     Stainless Steel Buying Guide, Reliable Stainless Steel Supplier')
 @section('content')
     <!--Start breadcrumb area-->
@@ -27,7 +29,7 @@
                         <div class="single-blog-post">
                             <div class="img-holder">
                                 <img src="{{ asset('assets/images/blog/stainless_steel_pipes.jpg') }}"
-                                    alt="hastelloy-vs-stainless" style="width:700px; height:400px; object-fit:cover;>
+                                    alt="hastelloy-vs-stainless" style="width:700px; height:400px; object-fit:cover;">
                             </div>
                             <div class="text-holder">
                                 <div class="blog-title text-start">
@@ -35,10 +37,12 @@
                                 </div>
                                 <div class="text">
                                     <p>
-                                        Sourcing <a href="{{ route('materials') }}">materials</a> for a critical industrial, construction, or commercial project
+                                        Sourcing <a href="{{ route('materials') }}">materials</a> for a critical industrial,
+                                        construction, or commercial project
                                         comes with significant responsibility. The quality of every component, especially
                                         foundational materials like stainless steel tubes, directly impacts the safety,
-                                        longevity, and performance of the final <a href="{{ route('products') }}">product</a>. In the past, this meant navigating
+                                        longevity, and performance of the final <a
+                                            href="{{ route('products') }}">product</a>. In the past, this meant navigating
                                         a complex network of local distributors and facing limitations in stock and pricing.
                                         Today, the digital marketplace has transformed how we procure industrial supplies,
                                         offering unprecedented access and convenience.
@@ -315,8 +319,8 @@
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a
-                                                        href="{{ route('blogs.why-hastelloy-weighs-more-than-stainless-steel') }}" aria-label="blogs: why hastelloy weighs more then stainless steel">
+                                                    <a href="{{ route('blogs.why-hastelloy-weighs-more-than-stainless-steel') }}"
+                                                        aria-label="blogs: why hastelloy weighs more then stainless steel">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -342,7 +346,8 @@
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a href="{{ route('blogs.the-role-of-high-performance') }}" aria-label="blogs: the role of high performers">
+                                                    <a href="{{ route('blogs.the-role-of-high-performance') }}"
+                                                        aria-label="blogs: the role of high performers">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -363,13 +368,12 @@
                                 </li>
                                 <li>
                                     <div class="img-holder">
-                                        <img src="{{ asset('assets/images/blogs/thumb/india’s-stainless-steel-export-industry-thumb.webp') }}"
+                                        <img src="{{ asset('assets/images/blogs/thumb/indias-stainless-steel-export-industry-thumb.webp') }}"
                                             alt="Awesome Image">
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a
-                                                        href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
+                                                    <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -403,7 +407,7 @@
 
                                         <!-- Map -->
                                         <div class="mb-3 text-center">
-                                           <iframe
+                                            <iframe
                                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.4406978634916!2d72.82619187387158!3d18.956134955727215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf9ee4261af1%3A0x57adb33b0f4c262!2sMoksh%20Tubes%20%26%20Fittings%20LLP!5e0!3m2!1sen!2sin!4v1759749318402!5m2!1sen!2sin"
                                                 width="100%" height="200" style="border:0;" allowfullscreen=""
                                                 loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -424,9 +428,10 @@
                                             <strong>Office Address:</strong> 95/95A, Dawood Baug, Sukhlaji Street,
                                             Kamatipura Mumbai
                                         </p>
-                                         <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
-                                                <strong>Office Address:</strong> 92E, Plot No. 3, New Tank Bunder, Darukhana, Mumbai, Maharashtra- 400 010.
-                                            </p>
+                                        <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
+                                            <strong>Office Address:</strong> 92E, Plot No. 3, New Tank Bunder, Darukhana,
+                                            Mumbai, Maharashtra- 400 010.
+                                        </p>
 
                                         <!-- Social Icons -->
                                         {{-- <div class="mt-3 text-center">

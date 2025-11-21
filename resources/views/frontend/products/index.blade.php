@@ -17,7 +17,7 @@
     <!--End mainmenu area-->
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(assets/images/peoduct/pipes-tubes-banner.jpg);">
 
         <div class="container">
             <div class="row justify-content-center">

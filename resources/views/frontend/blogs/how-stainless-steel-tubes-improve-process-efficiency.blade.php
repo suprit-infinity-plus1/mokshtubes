@@ -1,10 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'How Stainless Steel Tubes Boost Process Efficiency')
-@section('meta_description',
-    'Learn how stainless steel tubes improve industrial efficiency — durable, low-maintenance & corrosion-resistant with key operational benefits.')
-@section('meta_keywords',
-    'Stainless Steel Tubes, Process Efficiency, Industrial Tubing, Corrosion Resistance, Low Maintenance Tubes, Durable Stainless Steel, High Performance Tubing, Industrial Process Optimization, Stainless Steel Benefits, Efficient Fluid Transport')
+@section('meta_description', 'Learn how stainless steel tubes improve industrial efficiency — durable, low-maintenance &
+    corrosion-resistant with key operational benefits.')
+@section('meta_keywords', 'Stainless Steel Tubes, Process Efficiency, Industrial Tubing, Corrosion Resistance, Low
+    Maintenance Tubes, Durable Stainless Steel, High Performance Tubing, Industrial Process Optimization, Stainless Steel
+    Benefits, Efficient Fluid Transport')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -36,17 +37,20 @@
                                 <div class="text">
                                     <p>
                                         In any industrial or manufacturing setting, efficiency is the engine of
-                                        profitability. Every decision, from process design to <a href="{{ route('materials') }}">material</a> selection, is
+                                        profitability. Every decision, from process design to <a
+                                            href="{{ route('materials') }}">material</a> selection, is
                                         scrutinized for its potential to reduce costs, minimize downtime, and maximize
                                         output. While large machinery and automated systems often get the spotlight, the
-                                        seemingly simple components, like <a href="{{ route('products') }}">pipes and tubes</a>, play an equally critical role.
+                                        seemingly simple components, like <a href="{{ route('products') }}">pipes and
+                                            tubes</a>, play an equally critical role.
                                         The right tubing material can be the difference between a smooth, continuous
                                         operation and a system plagued by constant interruptions and maintenance.
                                     </p>
                                 </div>
                                 <div class="text">
                                     <p>
-                                        <a href="{{ route('blogs.stainless-steel-inconel-tubes') }}">Stainless steel</a> tubes have emerged as a key enabler of industrial process
+                                        <a href="{{ route('blogs.stainless-steel-inconel-tubes') }}">Stainless steel</a>
+                                        tubes have emerged as a key enabler of industrial process
                                         optimization. Their unique combination of properties goes far beyond simply
                                         transporting fluids; they actively contribute to a more efficient, reliable, and
                                         cost effective operation. This article will explore the specific ways stainless
@@ -59,8 +63,11 @@
                                 </div>
                                 <div class="text">
                                     <p>
-                                        To understand how <a href="{{ route('blogs.stainless-steel-inconel-tubes') }}">stainless steel</a> tubes boost efficiency, we first need to look at
-                                        their inherent characteristics. These properties work together to create a <a href="{{ route('materials') }}">material</a>
+                                        To understand how <a
+                                            href="{{ route('blogs.stainless-steel-inconel-tubes') }}">stainless steel</a>
+                                        tubes boost efficiency, we first need to look at
+                                        their inherent characteristics. These properties work together to create a <a
+                                            href="{{ route('materials') }}">material</a>
                                         that solves many of the common challenges faced in industrial environments.
                                     </p>
                                 </div>
@@ -287,22 +294,26 @@
                                     <h4 class="fw-bold mb-4">Products We Offer</h4>
                                     <ul class="list-unstyled mb-4">
                                         <li class="product-item mb-2">
-                                            <a href="{{ route('products.pipes-tubes') }}" class="product-link" aria-label="blog:products.pipes-tubes ">
+                                            <a href="{{ route('products.pipes-tubes') }}" class="product-link"
+                                                aria-label="blog:products.pipes-tubes ">
                                                 <i class="bi bi-box-seam me-2"></i> Pipes & Tubes
                                             </a>
                                         </li>
                                         <li class="product-item mb-2">
-                                            <a href="{{ route('products.sheets-plates-coils') }}" class="product-link" aria-label="blog:products.sheets-plates-coils ">
+                                            <a href="{{ route('products.sheets-plates-coils') }}" class="product-link"
+                                                aria-label="blog:products.sheets-plates-coils ">
                                                 <i class="bi bi-square me-2"></i> Sheets, Plates & Coils
                                             </a>
                                         </li>
                                         <li class="product-item mb-2">
-                                            <a href="{{ route('products.bars-rods') }}" class="product-link" aria-label="blog:products.bars-rods ">
+                                            <a href="{{ route('products.bars-rods') }}" class="product-link"
+                                                aria-label="blog:products.bars-rods ">
                                                 <i class="bi bi-diagram-3 me-2"></i> Bars & Rods
                                             </a>
                                         </li>
                                         <li class="product-item mb-2">
-                                            <a href="{{ route('products.special-fabricated') }}" class="product-link" aria-label="blog:products.special-fabricated ">
+                                            <a href="{{ route('products.special-fabricated') }}" class="product-link"
+                                                aria-label="blog:products.special-fabricated ">
                                                 <i class="bi bi-tools me-2"></i> Special Fabricated
                                             </a>
                                         </li>
@@ -393,7 +404,8 @@
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a href="{{ route('blogs.the-role-of-high-performance') }}" aria-label="blog:the-role-of-high-performance">
+                                                    <a href="{{ route('blogs.the-role-of-high-performance') }}"
+                                                        aria-label="blog:the-role-of-high-performance">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -414,13 +426,12 @@
                                 </li>
                                 <li>
                                     <div class="img-holder">
-                                        <img src="{{ asset('assets/images/blogs/thumb/india’s-stainless-steel-export-industry-thumb.webp') }}"
+                                        <img src="{{ asset('assets/images/blogs/thumb/indias-stainless-steel-export-industry-thumb.webp') }}"
                                             alt="Awesome Image">
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a
-                                                        href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
+                                                    <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -429,14 +440,15 @@
                                     </div>
                                     <div class="title-holder">
                                         <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
-                                            <h5 class="post-title">
-                                                India’s Stainless Steel Exports – Moksh Tubes Global Reach
-                                            </h5>
-                                        </a>
-                                        <h6 class="post-date">
-                                            <i class="icon-calendar-with-spring-binder-and-date-blocks"></i>
-                                            august 14, 2025
-                                        </h6>
+                                            <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
+                                                <h5 class="post-title">
+                                                    India’s Stainless Steel Exports – Moksh Tubes Global Reach
+                                                </h5>
+                                            </a>
+                                            <h6 class="post-date">
+                                                <i class="icon-calendar-with-spring-binder-and-date-blocks"></i>
+                                                august 14, 2025
+                                            </h6>
                                     </div>
                                 </li>
                             </ul>
@@ -478,9 +490,10 @@
                                             Kamatipura Mumbai
                                         </p>
                                         <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
-                                <strong>Office Address:</strong> 92E, Plot No. 3, New Tank Bunder, Darukhana, Mumbai,
-                                Maharashtra- 400 010.
-                            </p>
+                                            <strong>Office Address:</strong> 92E, Plot No. 3, New Tank Bunder, Darukhana,
+                                            Mumbai,
+                                            Maharashtra- 400 010.
+                                        </p>
 
                                     </div>
                                 </div>

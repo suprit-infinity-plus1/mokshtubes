@@ -1,8 +1,13 @@
 @extends('layouts.master')
 
 @section('title', 'Haynes Superalloys 160 - High Strength Heat Resistant')
-@section('meta_description', 'High-strength Haynes Alloy 160 for extreme heat resistance and corrosion protection. Available in various industry-grade forms.')
-@section('meta_keywords', 'Haynes Superalloys 160, Haynes Alloy 160, High Strength Haynes, Heat Resistant Haynes, Corrosion Resistant Haynes, Industrial Haynes Alloys, Chemical Processing Haynes, Power Industry Haynes, Aerospace Haynes Alloys, Marine Industry Haynes')
+@section('meta_description',
+    'High-strength Haynes Alloy 160 for extreme heat resistance and corrosion protection.
+    Available in various industry-grade forms.')
+@section('meta_keywords',
+    'Haynes Superalloys 160, Haynes Alloy 160, High Strength Haynes, Heat Resistant Haynes,
+    Corrosion Resistant Haynes, Industrial Haynes Alloys, Chemical Processing Haynes, Power Industry Haynes, Aerospace
+    Haynes Alloys, Marine Industry Haynes')
 
 @section('content')
     <!--Start breadcrumb area-->
@@ -57,6 +62,39 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+    {{-- datasheet --}}
+    <section class="sec-padd-bottom bg-light">
+        <div class="datasheet-download px-4 text-center">
+            <h3 class="mb-3" style="color:#174268;">Download Haynes Superalloys 160 Datasheet</h3>
+            <p class="mb-3">
+                Get the complete Haynes Superalloys 160 datasheet with chemical composition,
+                mechanical properties, heat treatment details, and applications.
+                Enter your email to receive the PDF instantly.
+            </p>
+
+            <!-- Lead Capture Form -->
+            <form id="leadForm" method="POST" action="https://mokshtubes.com/datasheet-leads-capture" class="mb-3">
+                <input type="hidden" name="_token" value="WNVWvpO4YR2OqZaIJDl2mE3UfyreGys3Vp19brsc" autocomplete="off">
+                <div class="row justify-content-center">
+                    <input type="hidden" name="pdf" value="haynes-242.pdf">
+                    <div class="col-md-6 mb-2">
+                        <input type="email" name="email" required="" class="form-control p-3" placeholder="Enter your email address">
+                    </div>
+                    <div class="col-md-3 mb-2">
+                        <button type="submit" class="btn btn-lg w-100 text-white" style="background-color:#db7227; border-radius:8px;">
+                            📥 Get Datasheet
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+            
+            <hr class="my-4">
+            <p class="small text-muted">
+                We respect your privacy. Your email will only be used to send the datasheet.
+            </p>
         </div>
     </section>
 
@@ -255,7 +293,7 @@
     </section>
 
 
-     @php
+    @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -354,7 +392,7 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                 @foreach ($products as $product)
+                @foreach ($products as $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
                             <a href="{{ route($product['route']) }}" class="text-decoration-none">
@@ -649,7 +687,7 @@
                 <p>
                     <strong>Moksh Tubes & Fittings LLP</strong> your dependable partner for specialty alloys.
                 </p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch
@@ -664,7 +702,7 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
+    <script type="application/ld+json">
     @verbatim
 {
   "@context": "https://schema.org",

@@ -696,56 +696,8 @@
             </div>
         </div>
     </section>
-
-
-
-    {{-- why choose us --}}
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container text-center">
-            <div class="section-title center">
-                <h2>WHY CHOOSE US?</h2>
-            </div>
-
-            <div class="row g-4 mt-4">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Expertise in Fabrication: Decades of experience in crafting high-quality steel furniture.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-brush-fill"></i></div>
-                        <h5>Custom Design Solutions: From concept to completion, we deliver furniture tailored to your
-                            vision.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-gem"></i></div>
-                        <h5>Premium Material Selection: Only certified steel grades are used for superior quality.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-6">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Global Reach & Timely Delivery: Supplying projects across India and worldwide.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-lg-6">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-currency-rupee"></i></div>
-                        <h5>Competitive Pricing: Affordable solutions without compromising quality or craftsmanship.</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+    
+    
     <!--Start faq content area-->
     <section class="faq-content-area sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -904,6 +856,54 @@
         </div>
     </section>
     <!--End faq content area-->
+
+    {{-- why choose us --}}
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container text-center">
+            <div class="section-title center">
+                <h2>WHY CHOOSE US?</h2>
+            </div>
+
+            <div class="row g-4 mt-4">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
+                        <h5>Expertise in Fabrication: Decades of experience in crafting high-quality steel furniture.</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-brush-fill"></i></div>
+                        <h5>Custom Design Solutions: From concept to completion, we deliver furniture tailored to your
+                            vision.</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-gem"></i></div>
+                        <h5>Premium Material Selection: Only certified steel grades are used for superior quality.</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-6">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
+                        <h5>Global Reach & Timely Delivery: Supplying projects across India and worldwide.</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-6">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-currency-rupee"></i></div>
+                        <h5>Competitive Pricing: Affordable solutions without compromising quality or craftsmanship.</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">

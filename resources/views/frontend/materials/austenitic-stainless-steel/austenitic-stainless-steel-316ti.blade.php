@@ -5,6 +5,8 @@
 @section('meta_description', 'Austenitic Stainless Steel 316Ti – high-performance alloy with excellent high-temperature stability and corrosion resistance for diverse industries.')
 
 @section('meta_keywords', 'Austenitic Stainless Steel 316Ti, Stainless Steel 316Ti Pipes, Stainless Steel 316Ti Tubes, Stainless Steel 316Ti Fittings, Heat Resistant Stainless Steel 316Ti, Corrosion Resistant Stainless Steel 316Ti, High Temperature Stainless Steel 316Ti, Industrial Stainless Steel 316Ti, Marine Grade Stainless Steel 316Ti, Chemical Processing Stainless Steel 316Ti')
+@section('og_image', asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-316Ti.webp'))
+@section('og_type', 'article')
 
 @section('content')
 

@@ -1,13 +1,15 @@
 @extends('layouts.master')
 
 @section('title', '10 Mistakes to Avoid When Buying Stainless Pipes')
-@section('meta_description', 'Avoid common mistakes when purchasing stainless steel pipes. Learn how to choose the right grade, supplier, and standards for lasting performance and quality.')
+@section('meta_description', 'Avoid mistakes when buying stainless steel pipes. Choose the right grade and a trusted
+    supplier for long-lasting performance.')
 @section('meta_keywords',
     'Stainless Steel Pipes, Buying Stainless Steel Pipes, Stainless Steel Pipe Grades, Stainless
     Steel')
 
 
 @section('content')
+
     <!--Start breadcrumb area-->
 
     <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
@@ -346,7 +348,8 @@
 
                                         <div class="text">
                                             <p>
-                                                Ordering the wrong size, thickness, or quantity of <a href="{{ route('products.pipes-tubes') }}">pipe</a> can result in
+                                                Ordering the wrong size, thickness, or quantity of <a
+                                                    href="{{ route('products.pipes-tubes') }}">pipe</a> can result in
                                                 significant delays, wasted resources, and last minute rush orders at
                                                 inflated prices. This issue is especially common in projects with complex
                                                 layouts or phased installation schedules.
@@ -900,13 +903,12 @@
                                 </li>
                                 <li>
                                     <div class="img-holder">
-                                        <img src="{{ asset('assets/images/blogs/thumb/india’s-stainless-steel-export-industry-thumb.webp') }}"
+                                        <img src="{{ asset('assets/images/blogs/thumb/indias-stainless-steel-export-industry-thumb.webp') }}"
                                             alt="Awesome Image">
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a
-                                                        href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
+                                                    <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>

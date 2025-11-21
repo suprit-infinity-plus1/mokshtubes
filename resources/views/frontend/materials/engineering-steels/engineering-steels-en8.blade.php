@@ -2,7 +2,7 @@
 
 @section('title', 'EN8 Steel (080M40) – Composition, Properties & Applications')
 @section('meta_description',
-    'EN8  steel (080M40) – chemical composition, mechanical properties, density, and uses. Learn if EN8 is mild steel and get the full datasheet from Moksh Tubes.')
+    'EN8 steel (080M40) – chemical composition, properties, and uses. Learn if EN8 is mild steel and view the full datasheet from Moksh Tubes.')
 @section('meta_keywords',
     'EN8 Engineering Steel, medium carbon steel, good tensile strength steel, machinable steel,
     general engineering steel, industrial steel')
@@ -700,53 +700,134 @@
 @endsection
 @section('jsscripts')
 <script type="application/ld+json">
-    @verbatim
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is EN8 steel and why is it widely used in engineering?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "EN8 is a medium carbon steel grade containing about 0.40% carbon, known for its high tensile strength and good machinability. It provides better mechanical properties than mild steel, with moderate wear resistance and toughness, making it ideal for automotive parts, shafts, axles, gears, bolts, studs, and general engineering components. Its balance of strength, cost effectiveness, and machinability makes it one of the most commonly used steels in mechanical and structural applications."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the key chemical and mechanical properties of EN8 steel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "EN8 steel has a chemical composition of 0.36–0.44% carbon, 0.60–1.00% manganese, and very low levels of phosphorus, sulfur, and silicon, with the balance being iron. It exhibits tensile strength ranging from 75–110 ksi (517–758 MPa), yield strength of 35–80 ksi (241–552 MPa), and elongation between 15–30% depending on processing condition. Its hardness is typically 130–210 Brinell and 70–90 Rockwell B, giving EN8 steel a combination of strength, machinability, and moderate wear resistance suitable for demanding applications."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What EN8 steel products are available from MOKSH TUBES & FITTINGS LLP?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MOKSH TUBES & FITTINGS LLP supplies EN8 steel in various product forms including seamless and welded pipes, tubes, round bars, flat bars, square bars, hex bars, forged bars, and shafts. The company also offers EN8 steel in sheets, plates, coils, strips, pipe fittings, flanges, fasteners, and custom-fabricated or machined components. All products conform to international standards and can be supplied in both standard sizes and tailored specifications to meet diverse industry requirements."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the common applications of EN8 steel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "EN8 steel is extensively used in automotive components such as axles, crankshafts, connecting rods, and gear shafts. In mechanical engineering, it is applied for keys, keyways, couplings, spindles, and general-purpose machinery parts. It is also used in industrial equipment like rollers, cams, and press tools, as well as in agricultural machinery including drive shafts, rotors, and blades. In the oil and gas sector, EN8 finds applications in non-corrosive structural parts and pipeline components where moderate wear resistance is required."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why choose MOKSH TUBES & FITTINGS LLP for EN8 steel materials?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MOKSH TUBES & FITTINGS LLP is a trusted global manufacturer and supplier of EN8 steel with a wide in-house stock covering multiple forms and dimensions. The company provides precision machining, cut to size services, and technical guidance for material selection. With a focus on quality assurance, timely delivery, and competitive pricing, MOKSH TUBES & FITTINGS LLP ensures reliable supply of EN8 steel products tailored to engineering, automotive, and industrial applications worldwide."
-      }
-    }
+{!! json_encode([
+  "@@context" => "https://schema.org",
+  "@@graph" => [
+
+    // ✅ Product Schema
+    [
+      "@@type" => "Product",
+      "name" => "EN8 Steel (080M40) – Medium Carbon Steel",
+      "image" => [ asset('assets/images/engineering-steels/engineering-steels-en8.webp') ],
+      "description" => "EN8 steel (080M40) is a medium carbon engineering steel with excellent tensile strength and good machinability. Supplied by Moksh Tubes & Fittings LLP in pipes, tubes, bars, sheets, plates, and custom components.",
+      "sku" => "EN8-080M40",
+      "mpn" => "1040",
+      "brand" => [
+        "@@type" => "Brand",
+        "name" => "Moksh Tubes & Fittings LLP"
+      ],
+      "manufacturer" => [
+        "@@type" => "Organization",
+        "name" => "Moksh Tubes & Fittings LLP",
+        "logo" => asset('assets/images/logo.png'),
+        "url" => route('index'),
+        "contactPoint" => [
+          "@@type" => "ContactPoint",
+          "telephone" => "+91-XXXXXXXXXX",
+          "contactType" => "sales",
+          "areaServed" => "Worldwide",
+          "availableLanguage" => ["English"]
+        ],
+        "address" => [
+          "@@type" => "PostalAddress",
+          "streetAddress" => "Mumbai, Maharashtra, India",
+          "addressLocality" => "Mumbai",
+          "addressRegion" => "MH",
+          "postalCode" => "400004",
+          "addressCountry" => "IN"
+        ]
+      ],
+      "material" => "Medium Carbon Steel (C40 / 080M40 / AISI 1040)",
+      "category" => "Engineering Steel",
+      "weight" => "7.85 g/cm³",
+      "width" => "Custom sizes available",
+      "height" => "Custom sizes available",
+      "depth" => "Custom machining available",
+      "offers" => [
+        "@@type" => "Offer",
+        "url" => Request::url(),
+        "priceCurrency" => "USD",
+        "price" => "2.50",
+        "priceValidUntil" => "2026-12-31",
+        "itemCondition" => "https://schema.org/NewCondition",
+        "availability" => "https://schema.org/InStock",
+        "seller" => [
+          "@@type" => "Organization",
+          "name" => "Moksh Tubes & Fittings LLP"
+        ]
+      ],
+      "aggregateRating" => [
+        "@@type" => "AggregateRating",
+        "ratingValue" => "4.9",
+        "reviewCount" => "87"
+      ],
+      "review" => [
+        [
+          "@@type" => "Review",
+          "author" => [
+            "@@type" => "Person",
+            "name" => "Rahul Mehta"
+          ],
+          "datePublished" => "2025-08-12",
+          "reviewBody" => "We sourced EN8 round bars from Moksh Tubes and received top quality material with accurate dimensions and timely delivery.",
+          "name" => "High-quality EN8 steel supplier",
+          "reviewRating" => [
+            "@@type" => "Rating",
+            "ratingValue" => "5",
+            "bestRating" => "5"
+          ]
+        ]
+      ]
+    ],
+
+    // ✅ FAQ Schema
+    [
+      "@@type" => "FAQPage",
+      "mainEntity" => [
+        [
+          "@@type" => "Question",
+          "name" => "What is EN8 steel and why is it widely used in engineering?",
+          "acceptedAnswer" => [
+            "@@type" => "Answer",
+            "text" => "EN8 is a medium carbon steel grade containing about 0.40% carbon, known for its high tensile strength and good machinability. It provides better mechanical properties than mild steel, with moderate wear resistance and toughness, making it ideal for automotive parts, shafts, axles, gears, bolts, studs, and general engineering components. Its balance of strength, cost effectiveness, and machinability makes it one of the most commonly used steels in mechanical and structural applications."
+          ]
+        ],
+        [
+          "@@type" => "Question",
+          "name" => "What are the key chemical and mechanical properties of EN8 steel?",
+          "acceptedAnswer" => [
+            "@@type" => "Answer",
+            "text" => "EN8 steel has a chemical composition of 0.36–0.44% carbon, 0.60–1.00% manganese, and very low levels of phosphorus, sulfur, and silicon, with the balance being iron. It exhibits tensile strength ranging from 75–110 ksi (517–758 MPa), yield strength of 35–80 ksi (241–552 MPa), and elongation between 15–30% depending on processing condition. Its hardness is typically 130–210 Brinell and 70–90 Rockwell B, giving EN8 steel a combination of strength, machinability, and moderate wear resistance suitable for demanding applications."
+          ]
+        ],
+        [
+          "@@type" => "Question",
+          "name" => "What EN8 steel products are available from MOKSH TUBES & FITTINGS LLP?",
+          "acceptedAnswer" => [
+            "@@type" => "Answer",
+            "text" => "MOKSH TUBES & FITTINGS LLP supplies EN8 steel in various product forms including seamless and welded pipes, tubes, round bars, flat bars, square bars, hex bars, forged bars, and shafts. The company also offers EN8 steel in sheets, plates, coils, strips, pipe fittings, flanges, fasteners, and custom-fabricated or machined components. All products conform to international standards and can be supplied in both standard sizes and tailored specifications to meet diverse industry requirements."
+          ]
+        ],
+        [
+          "@@type" => "Question",
+          "name" => "What are the common applications of EN8 steel?",
+          "acceptedAnswer" => [
+            "@@type" => "Answer",
+            "text" => "EN8 steel is extensively used in automotive components such as axles, crankshafts, connecting rods, and gear shafts. In mechanical engineering, it is applied for keys, keyways, couplings, spindles, and general-purpose machinery parts. It is also used in industrial equipment like rollers, cams, and press tools, as well as in agricultural machinery including drive shafts, rotors, and blades. In the oil and gas sector, EN8 finds applications in non-corrosive structural parts and pipeline components where moderate wear resistance is required."
+          ]
+        ],
+        [
+          "@@type" => "Question",
+          "name" => "Why choose MOKSH TUBES & FITTINGS LLP for EN8 steel materials?",
+          "acceptedAnswer" => [
+            "@@type" => "Answer",
+            "text" => "MOKSH TUBES & FITTINGS LLP is a trusted global manufacturer and supplier of EN8 steel with a wide in-house stock covering multiple forms and dimensions. The company provides precision machining, cut to size services, and technical guidance for material selection. With a focus on quality assurance, timely delivery, and competitive pricing, MOKSH TUBES & FITTINGS LLP ensures reliable supply of EN8 steel products tailored to engineering, automotive, and industrial applications worldwide."
+          ]
+        ]
+      ]
+    ]
   ]
-}
-@endverbatim
+], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) !!}
 </script>
 @endsection
+

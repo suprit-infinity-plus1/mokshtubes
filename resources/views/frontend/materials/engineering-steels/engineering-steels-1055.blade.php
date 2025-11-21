@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
-@section('title', '1055 Engineering Steel | Strong & Durable Medium Carbon Steel')
-@section('meta_description', 'Discover high-strength 1055 Engineering Steel for industrial and mechanical applications. Durable, reliable, and perfect for bars, plates, tubes, and fittings.')
+@section('title', '1055 Engineering Steel (C1055/EN1055) – Medium Carbon Steel')
+@section('meta_description', 'Engineering Steel 1055 (C1055/EN1055) for shafts, gears, plates and mechanical components. High-strength medium carbon steel. Get a quote from Moksh Tubes.')
 @section('meta_keywords', '1055 Engineering Steel, medium carbon steel, durable steel, mechanical steel, industrial steel, high strength steel, steel for components')
 
 @section('content')
@@ -11,13 +11,15 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>1055 Engineering Steel <br> Medium Carbon Steel</h1>
+                    <h1>Engineering Steel 1055 (C1055 / EN 1055) <br> Medium Carbon High-Strength Steel</h1>
                 </div>
             </div>
         </div>
     </section>
 
     <!--End breadcrumb area-->
+
+    <!-- Start Product Overview -->
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
@@ -38,27 +40,126 @@
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
-                        <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"> <a href="{{ route('index') }}">MOKSH TUBES & FITTINGS LLP</a></strong> is a manufacturer, supplier,
-                            exporter, importer, and stockist of<strong class="text-black"> EN 1055 steel products</strong>
-                            such as bars, plates,<a href="{{ route('products.pipes-tubes') }}"> tubes</a>, and fittings.
+                       <p class="fs-6 mb-3 text-justify">
+    <strong>Moksh Tubes & Fittings LLP</strong> supplies premium 
+    <strong>Engineering Steel 1055 (EN 1055 / C1055 / SAE 1055)</strong> — a medium carbon,
+    high-strength steel widely used in automotive, machinery, fabrication and general engineering industries. 
+    With a carbon range of <strong>0.52–0.60%</strong>, EN 1055 offers excellent hardness, tensile strength, 
+    wear resistance and impact durability, making it ideal for components operating under mechanical stress.
                         </p>
 
-                        <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">EN 1055</strong class="text-black">, also known as C1055 or SAE 1055,
-                            is a medium carbon steel grade characterized by higher carbon content than typical medium carbon
-                            steels. It offers higher hardness and strength, suitable for applications requiring good wear
-                            resistance and toughness.<a href="{{ route('materials.engineering-Steels') }}"> EN 1055
-                                steel</a> is commonly used in structural and mechanical components
-                            that require strength and moderate ductility.
+                        <p class="fs-6 text-justify">
+    We supply Engineering Steel 1055 in multiple product forms such as <strong>round bars, flat bars, plates, 
+    sheets, coils, strips, seamless & welded tubes</strong> and custom-machined components. Available in 
+    annealed, normalized, hot-rolled, cold-drawn and heat-treated conditions — EN 1055 can be customized 
+    according to project-specific requirements. All materials are sourced from certified mills and delivered 
+    with full quality documentation.
                         </p>
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- End Product Overview -->
+{{-- datasheet --}}
+    <section class="sec-padd-bottom bg-light">
+        <div class="datasheet-download px-4 text-center">
+            <h3 class="mb-3" style="color:#174268;">Download Engineering Steels Datasheet</h3>
+            <p class="mb-3">
+                Get the complete Engineering Steels datasheet with chemical composition,
+                mechanical properties, heat treatment details, and applications.
+                Enter your email to receive the PDF instantly.
+            </p>
 
-    <section class="sec-padd-top sec-padd-bottom">
+            <!-- Lead Capture Form -->
+            <form id="leadForm" method="POST" action="https://mokshtubes.com/datasheet-leads-capture" class="mb-3">
+                <input type="hidden" name="_token" value="WNVWvpO4YR2OqZaIJDl2mE3UfyreGys3Vp19brsc" autocomplete="off">
+                <div class="row justify-content-center">
+                    <input type="hidden" name="pdf" value="haynes-242.pdf">
+                    <div class="col-md-6 mb-2">
+                        <input type="email" name="email" required="" class="form-control p-3" placeholder="Enter your email address">
+                    </div>
+                    <div class="col-md-3 mb-2">
+                        <button type="submit" class="btn btn-lg w-100 text-white" style="background-color:#db7227; border-radius:8px;">
+                            📥 Get Datasheet
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+            
+            <hr class="my-4">
+            <p class="small text-muted">
+                We respect your privacy. Your email will only be used to send the datasheet.
+            </p>
+        </div>
+    </section>
+    
+        <!-- Specifications Table -->
+    <section class="sec-padd-top">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Engineering Steel 1055 Specifications</h2>
+            </div>
+        </div>
+        <section>
+            <div class="row justify-content-center">
+                 <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr>
+                                <th>Category</th>
+                                <th>Details</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td>Grade</td>
+                                <td>EN 1055 / C1055 / SAE 1055</td>
+                            </tr>
+
+                            <tr>
+                                <td>Type</td>
+                                <td>Medium carbon steel</td>
+                            </tr>
+
+                            <tr>
+                                <td>Typical Chemical Composition</td>
+                                <td>C 0.52–0.60%, Mn 0.60–0.90%, P ≤ 0.040%, S ≤ 0.050%</td>
+                            </tr>
+
+                            <tr>
+                                <td>Conditions</td>
+                                <td>Annealed, Normalized, Hot Rolled, Cold Drawn</td>
+                            </tr>
+
+                            <tr>
+                                <td>Heat Treatment</td>
+                                <td>Quenching & Tempering, Stress Relieving</td>
+                            </tr>
+
+                            <tr>
+                                <td>Testing</td>
+                                <td>Tensile, Hardness, Chemical, UT (on request)</td>
+                            </tr>
+
+                            <tr>
+                                <td>Certification</td>
+                                <td>EN 10204 3.1 / 3.2 (Mill Test Certificate available)</td>
+                            </tr>
+
+                        </tbody>
+                        </table>
+                 </div>
+                </div>
+            </div>
+        </section>
+
+<section class="sec-padd-top sec-padd-bottom">
+         
         <div class="container">
             <div class="section-title center">
                 <h2>Chemical Composition of Engineering Steel 1055</h2>
@@ -69,9 +170,9 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-
-                                <th>Element</th>
-                                <th>Composition (%)</th>
+                                <tr>
+                                    <th>Element</th>
+                                    <th>Composition (%)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
@@ -97,11 +198,11 @@
                 </div>
             </div>
         </div>
-    </section>
-
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
+</section>
+        <!-- End Specifications Table -->
+ <section class="sec-padd-top sec-padd-bottom bg-light">
+            <!-- Technical Properties Section -->
+       <div class="container">
             <div class="section-title center mb-5">
                 <h2 class="fw-bold" style="color: #174268;">Technical Composition of Engineering Steel 1055</h2>
             </div>
@@ -160,11 +261,12 @@
                     </div>
                 </div>
             </div>
-
+       </div></section>
             <!-- Mechanical Properties Table -->
             <div class="row justify-content-center">
                 <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties of Engineering Steel 1055</h4>
+                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties of Engineering Steel 1055
+                    </h4>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -221,13 +323,109 @@
                             </tbody>
                         </table>
                     </div>
+                </div
+        <!-- End Technical Properties Section -->
+
+        <!-- Related Grades Section -->
+<!-- Related Engineering Steel Grades -->
+
+
+
+<!-- Available Forms & Size Range -->
+
+
+<section class="sec-padd-top sec-padd-bottom bg-light">
+    <div class="container">
+
+        <!-- PART 1 -->
+        <div class="section-title center">
+            <h2>Related Engineering Steel Grades</h2>
+        </div>
+
+        <div class="row justify-content-center mb-4" style="text-align: justify;">
+            <div class="col-lg-10">
+                <p class="fs-6 text-center">
+                    Looking for similar medium and high-carbon steel grades? We also supply:
+                </p>
+            </div>
+        </div>
+
+        <div class="row justify-content-center mb-5">
+            <div class="col-lg-10">
+                <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color:#db7227;">
+                    <ul class="list-unstyled fs-6 mb-0">
+                        <li class="mb-2">✔ EN8 (080M40) – Medium Carbon Steel</li>
+                        <li class="mb-2">✔ EN9 (070M55) – High Carbon Steel</li>
+                        <li class="mb-2">✔ SAE 1045 – Medium Carbon Steel</li>
+                        <li class="mb-2">✔ SAE 4130 – High Carbon Steel</li>
+                        <li class="mb-0">✔ CK55 / CK60 – German Standard Carbon Steels</li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </section>
 
+        <!-- PART 2 -->
+        <div class="section-title center mt-5">
+            <h2>Available Forms & Size Range</h2>
+        </div>
 
-     @php
+        <div class="row justify-content-center mb-4" style="text-align: justify;">
+            <div class="col-lg-10">
+                <p class="fs-6 text-center">
+                    We supply Engineering Steel 1055 in the following product forms and dimensions:
+                </p>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color:#db7227;">
+                    <ul class="list-unstyled fs-6 mb-0">
+                        <li class="mb-2">✔ Round Bars: 10 mm to 400 mm</li>
+                        <li class="mb-2">✔ Flat, Square & Hex Bars: Custom sizes up to 300 mm</li>
+                        <li class="mb-2">✔ Sheets & Plates: 2 mm to 150 mm (Width 600–3000 mm)</li>
+                        <li class="mb-2">✔ Coils & Strips: 0.5 mm to 12 mm</li>
+                        <li class="mb-2">✔ Seamless & Welded Pipes/Tubes: OD 10 mm to 219 mm, WT 2–20 mm</li>
+                        <li class="mb-0">✔ Forged Blocks, Rings, Bushings & Machined Components</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+        <!-- End Available Forms & Size Range Section -->
+
+        <!-- Standards & Equivalent Grades Section -->
+<section class="sec-padd-top sec-padd-bottom">
+    <div class="container">
+        <div class="section-title center">
+            <h2>International Standards & Equivalent Grades</h2>
+        </div>
+
+        <div class="table-responsive col-lg-8 mx-auto">
+            <table class="table table-bordered text-center">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Standard</th>
+                        <th>Equivalent Grade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>EN</td><td>EN 1055</td></tr>
+                    <tr><td>AISI / SAE</td><td>1055</td></tr>
+                    <tr><td>DIN</td><td>CK55</td></tr>
+                    <tr><td>JIS</td><td>S55C</td></tr>
+                    <tr><td>GB</td><td>55</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+        <!-- End Standards & Equivalent Grades Section -->
+
+    @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -281,6 +479,32 @@
                 'image' => 'assets/images/all product/custom-metal-fabricated.jpg',
             ],
         ];
+
+
+$engineeringProducts = [
+    [
+        'name' => 'EN8 Carbon Steel',
+        'slug' => 'en8',
+        'image' => 'assets/images/engineering-steels/engineering-steels-en8.webp',
+    ],
+    [
+        'name' => 'Engineering Steel EN9',
+        'slug' => 'en9',
+        'image' => 'assets/images/engineering-steels/engineering-steels-en9.webp',
+    ],
+    [
+        'name' => 'Engineering Steel 1045',
+        'slug' => '1045',
+        'image' => 'assets/images/engineering-steels/engineering-steels-1045.webp',
+    ],
+     [
+        'name' => 'Engineering Steel 1060',
+        'slug' => '1060',
+        'image' => 'assets/images/engineering-steels/engineering-steels-en8.webp',
+    ],
+];
+
+
     @endphp
 
     <section class="sec-padd-top sec-padd-bottom">
@@ -323,64 +547,62 @@
                 </div>
             </div>
 
-            <!-- Product Image Cards (Now centered and responsive) -->
-            <div class="row g-4">
-                 @foreach ($products as $product)
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
-                        <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ route($product['route']) }}" class="text-decoration-none">
-                                <div class="product-card h-100">
-                                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
-                                        class="img-fluid  w-100">
-                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product['name'] }}</h6>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                @endforeach
-            </div>
+            <!-- Product Image Cards (Bootstrap Grid) -->
+<div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4 justify-content-center">
+    @foreach ($products as $product)
+        <div class="col d-flex">
+            <a href="{{ route($product['route']) }}" class="text-decoration-none w-100">
+                <div class="product-card h-100">
+                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
+                         class="img-fluid w-100">
+                    <h6 class="product-card-title text-center mt-0 py-4">{{ $product['name'] }}</h6>
+                </div>
+            </a>
+        </div>
+    @endforeach
+</div>
+
         </div>
     </section>
 
 
     <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Uses and Advantages</h2>
+    <div class="container">
+        <div class="section-title center">
+            <h2>Uses and Advantages</h2>
+        </div>
+
+        <div class="row g-4 mt-4 justify-content-center">
+            <div class="col-12 col-sm-6 col-md-5">
+                <div class="advantage-card h-100 d-flex flex-column">
+                    <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                    <h5 class="flex-grow-1 d-flex align-items-center justify-content-center text-center">Higher hardness and tensile strength compared to lower carbon steels</h5>
+                </div>
             </div>
 
-            <div class="row g-4 mt-4 justify-content-center">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>Higher hardness and tensile strength compared to lower carbon steels</h5>
-                    </div>
+            <div class="col-12 col-sm-6 col-md-5">
+                <div class="advantage-card h-100 d-flex flex-column">
+                    <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
+                    <h5 class="flex-grow-1 d-flex align-items-center justify-content-center text-center">Good wear resistance and toughness</h5>
                 </div>
+            </div>
 
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                        <h5>Good wear resistance and toughness</h5>
-                    </div>
+            <div class="col-12 col-sm-6 col-md-5">
+                <div class="advantage-card h-100 d-flex flex-column">
+                    <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
+                    <h5 class="flex-grow-1 d-flex align-items-center justify-content-center text-center">Good machinability and weldability with proper heat treatment</h5>
                 </div>
+            </div>
 
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                        <h5>Good machinability and weldability with proper heat treatment</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h5>Suitable for parts requiring strength and moderate ductility</h5>
-                    </div>
+            <div class="col-12 col-sm-6 col-md-5">
+                <div class="advantage-card h-100 d-flex flex-column">
+                    <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
+                    <h5 class="flex-grow-1 d-flex align-items-center justify-content-center text-center">Suitable for parts requiring strength and moderate ductility</h5>
                 </div>
             </div>
         </div>
-    </section>
-
+    </div>
+</section>
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -454,7 +676,25 @@
         </div>
     </section>
 
+  
+    <section class="sec-padd-top sec-padd-bottom bg-light py-5">
+    <div class="container">
+        <div class="section-title text-center mb-4">
+            <h2>Export Destinations</h2>
+        </div>
 
+        <p class="text-center mb-2">
+            We export Engineering Steel 1055 to:
+        </p>
+
+        <p class="text-center fs-5">
+            UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain, Turkey, Europe, USA, Canada, Singapore,
+            Malaysia, Indonesia, South Africa, Nigeria.
+        </p>
+    </div>
+</section>
+
+   
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
             <div class="section-title center">
@@ -499,6 +739,40 @@
             </div>
         </div>
     </section>
+
+
+<section class="sec-padd-top sec-padd-bottom">
+    <div class="container">
+        <div class="section-title center">
+            <h2>Explore More Engineering Steel Grades</h2>
+        </div>
+
+        <p class="text-center mb-3">
+            Browse other popular engineering steel materials supplied by Moksh Tubes & Fittings LLP:
+        </p>
+
+        {{-- <ul class="list-unstyled text-center fs-6">
+            <li><a href="/materials/engineering-steels/en8" class="text-primary">EN8 Carbon Steel</a></li>
+            <li><a href="/materials/engineering-steels/en9" class="text-primary">EN9 Carbon Steel</a></li>
+            <li><a href="/materials/engineering-steels/1045" class="text-primary">AISI 1045 Steel</a></li>
+            <li><a href="/materials/engineering-steels/1060" class="text-primary">AISI 1060 Steel</a></li> --}}
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4 justify-content-center">
+  @foreach ($engineeringProducts as $product)
+    <div class="col d-flex">
+        <a href="{{ route('materials.engineering-Steel-grade', $product['slug']) }}" class="text-decoration-none w-100">
+            <div class="product-card h-100">
+                <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}" class="img-fluid w-100">
+                <h6 class="product-card-title text-center mt-0 py-4">{{ $product['name'] }}</h6>
+            </div>
+        </a>
+    </div>
+@endforeach
+
+
+</div>
+    </div>
+</section>
+ 
 
     <!--Start faq content area-->
     <section class="faq-content-area sec-padd2">
@@ -605,7 +879,7 @@
     </section>
     <!--End faq content area-->
 
-
+    <!-- Contact CTA Section -->
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
@@ -614,7 +888,7 @@
                     For inquiries or to request a quote for EN 1055 steel products, contact <strong> Moksh Tubes & Fittings
                         LLP </strong> — your dependable partner for medium carbon steel solutions.
                 </p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch
@@ -622,14 +896,14 @@
             </div>
         </div>
     </section>
-
+    
 
 
 
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
+    <script type="application/ld+json">
     @verbatim
 {
   "@context": "https://schema.org",

@@ -1,8 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Food-Grade Stainless Steel Tubing Guide | Mokshtubes')
-@section('meta_description',
-    'Learn why stainless steel tubing is vital for food and beverage industries — offering hygiene, durability, and easy maintenance for safe processing systems.')
+@section('meta_description', 'Learn why stainless steel tubing is essential for food and beverage industries—ensuring
+    hygiene, durability, and easy maintenance in processing systems.')
 @section('meta_keywords',
     'stainless steel tubing, food grade stainless steel, hygienic stainless steel pipes, stainless
     steel tubes for food industry, 304 stainless steel, 316 stainless steel, food processing tubing, beverage industry
@@ -414,8 +414,7 @@
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a
-                                                        href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
+                                                    <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>

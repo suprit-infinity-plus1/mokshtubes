@@ -15,8 +15,23 @@
 
     {{-- Canonical Tag --}}
     <link rel="canonical" href="@yield('canonical', url()->current())">
+    <!-- Individual Page OG Override -->
+    {{-- @yield('meta') --}}
 
-    {{--<meta name="title" content="@yield('meta_title')">
+    <!-- OpenGraph -->
+    <meta property="og:title" content="@yield('title', 'Mokshtubes')" />
+    <meta property="og:description" content="@yield('meta_description', 'Mokshtubes')" />
+    <meta property="og:url" content="@yield('canonical', url()->current())" />
+    <meta property="og:image" content="@yield('og_image', asset('default-og-image.webp'))" />
+    <meta property="og:type" content="@yield('og_type', 'website')" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="@yield('title', 'Mokshtubes')" />
+    <meta name="twitter:description" content="@yield('meta_description', 'Mokshtubes')" />
+    <meta name="twitter:image" content="@yield('og_image', asset('default-og-image.webp'))" />
+
+    {{-- <meta name="title" content="@yield('meta_title')">
     <meta name="description" content="@yield('meta_description')">
     <meta name="keyword" content="@yield('meta_keyword')"> --}}
     {{-- <link rel="canonical" href="@yield('canonical')">
@@ -26,6 +41,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- For IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-95HT8CTVJC"></script>
     <script>
@@ -37,6 +53,7 @@
         gtag('js', new Date());
 
         gtag('config', 'G-95HT8CTVJC');
+
     </script>
 
 
@@ -45,11 +62,9 @@
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" /> --}}
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/images/favicon/apple-touch-icon.png') }}">
-    <link rel="icon" type="image/png" href="{{ asset('assets/images/favicon/logo-moksh-32x32.png') }}"
-        sizes="32x32">
-    <link rel="icon" type="image/png" href="{{ asset('assets/images/favicon/logo-moksh-16x16.png') }}"
-        sizes="16x16">
+    {{-- <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/images/favicon/apple-touch-icon.png') }}"> --}}
+    <link rel="icon" type="image/png" href="{{ asset('assets/images/favicon/logo-moksh-32x32.png') }}" sizes="32x32">
+    <link rel="icon" type="image/png" href="{{ asset('assets/images/favicon/logo-moksh-16x16.png') }}" sizes="16x16">
 
     <!-- Fixing Internet Explorer-->
     <!--[if lt IE 9]>
@@ -79,7 +94,17 @@
         .nav-link:focus-visible {
             box-shadow: none !important;
         }
+
     </style>
+    <!-- Open Graph Auto Tags -->
+    <meta property="og:title" content="@yield('og_title', View::getSection('title') ?? 'Default Site Title')" />
+    <meta property="og:description" content="@yield('og_description', 'Default site description here')" />
+    <meta property="og:image" content="@yield('og_image', asset('assets/images/peoduct/default-og-image.jpg'))" />
+    <meta property="og:url" content="@yield('og_url', url()->current())" />
+    <meta property="og:type" content="@yield('og_type', 'website')" />
+    <meta property="og:site_name" content="Moksh Tubes & Fittings LLP" />
+    @stack('styles')
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css">
 
 
 
@@ -99,7 +124,7 @@
                         <p>Welcome to Moksh Tubes & Fittings LLP</p>
                     </div>
                     <div class="float-end">
-                        <p><i class="fa fa-clock-o"></i>Monday - friday : 8:00 AM to 7:00 Pm</p>
+                        <p><i class="fa fa-clock-o"></i>Monday - Friday : 8:00 AM to 7:00 PM</p>
                     </div>
                 </div>
                 <div class="d-block d-sm-none d-flex justify-content-between align-items-center text-white">
@@ -112,7 +137,6 @@
                         <a href="mailto:info@mokshtubes.com" class="text-white">info@mokshtubes.com</a>
                     </p>
                 </div>
-
             </div>
         </section>
         <!--End Top bar area -->
@@ -132,7 +156,7 @@
                             <span class="icon-technology-1"></span>
                         </div>
                         <div class="text-holder">
-                            <h6>Call Us On</h6>
+                            <p>Call Us On</p>
                             <a href="tel:9769584950">
                                 <p>+91 97695 84950</p>
                             </a>
@@ -143,7 +167,7 @@
                             <span class="icon-letter-1"></span>
                         </div>
                         <div class="text-holder">
-                            <h6>Mail Us @</h6>
+                            <p>Mail Us @</p>
                             <a href="mailto:info@mokshtubes.com">
                                 <p>info@mokshtubes.com</p>
                             </a>
@@ -263,8 +287,7 @@
 
                             <nav class="main-menu navbar navbar-expand-lg">
                                 <div class="navbar-header">
-                                    <button type="button" class="navbar-toggler ms-3 rounded-0 border-0"
-                                        data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
+                                    <button type="button" class="navbar-toggler ms-3 rounded-0 border-0" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
                                         <span class="navbar-toggler-icon"></span>
                                     </button>
                                 </div>
@@ -276,31 +299,28 @@
                                                 Us</a></li>
                                         {{-- <li class="nav-item dropdown"><a class="nav-link"
                                                 href="{{ url('/products') }}" data-bs-toggle="dropdown">Products</a></li> --}}
-                                        <li class="nav-item dropdown"><a class="nav-link"
-                                                href="{{ route('products') }}">Products</a>
-                                            <ul class="dropdown-menu"
-                                                style="display: none; overflow-x: auto; padding-top: 12px; margin-top: 0px; padding-bottom: 12px; margin-bottom: 0px;">
+                                        <li class="nav-item dropdown"><a class="nav-link" href="{{ route('products') }}">Products</a>
+                                            <ul class="dropdown-menu" style="display: none; overflow-x: auto; padding-top: 12px; margin-top: 0px; padding-bottom: 12px; margin-bottom: 0px;">
 
                                                 @php
-                                                    $productCategories = [
-                                                        'Pipes & Tubes',
-                                                        'Sheets, Plates & Coils',
-                                                        'Bars & Rods',
-                                                        'Pipe Fittings, Flanges & Fasteners',
-                                                        'Special Fabricated',
-                                                    ];
+                                                $productCategories = [
+                                                'Pipes & Tubes',
+                                                'Sheets, Plates & Coils',
+                                                'Bars & Rods',
+                                                'Pipe Fittings, Flanges & Fasteners',
+                                                'Special Fabricated',
+                                                ];
                                                 @endphp
 
                                                 @foreach ($productCategories as $category)
-                                                    @php
-                                                        $slug = Str::slug($category); // Pipes & Tubes → pipes-tubes
-                                                    @endphp
-                                                    <li>
-                                                        <a class="dropdown-item text-wrap"
-                                                            href="{{ url('/products/' . $slug) }}">
-                                                            {{ $category }}
-                                                        </a>
-                                                    </li>
+                                                @php
+                                                $slug = Str::slug($category); // Pipes & Tubes → pipes-tubes
+                                                @endphp
+                                                <li>
+                                                    <a class="dropdown-item text-wrap" href="{{ url('/products/' . $slug) }}">
+                                                        {{ $category }}
+                                                    </a>
+                                                </li>
                                                 @endforeach
                                             </ul>
                                         </li>
@@ -308,40 +328,38 @@
 
                                         <li class="nav-item dropdown ">
                                             <a class="nav-link" href="{{ route('materials') }}">Materials</a>
-                                            <ul class="dropdown-menu"
-                                                style="display: none; overflow-x: auto; padding-top: 12px; margin-top: 0px; padding-bottom: 12px; margin-bottom: 0px;">
+                                            <ul class="dropdown-menu" style="display: none; overflow-x: auto; padding-top: 12px; margin-top: 0px; padding-bottom: 12px; margin-bottom: 0px;">
 
                                                 @php
-                                                    $materials = [
-                                                        'Hastelloy',
-                                                        'Monel',
-                                                        'Inconel',
-                                                        'Incoloy',
-                                                        'Nickel Based Superalloys',
-                                                        'Titanium',
-                                                        'Duplex and Super Duplex',
-                                                        'Austenitic Stainless Steel',
-                                                        'High Strength Stainless Steel',
-                                                        'Super Austenitic Stainless Steel',
-                                                        'Zirconium',
-                                                        'Engineering Steels',
-                                                        'Aluminium Alloys',
-                                                        'Copper Alloys',
-                                                        'Hard To Find & Special Alloys',
-                                                        'Haynes Superalloys',
-                                                    ];
+                                                $materials = [
+                                                'Hastelloy',
+                                                'Monel',
+                                                'Inconel',
+                                                'Incoloy',
+                                                'Nickel Based Superalloys',
+                                                'Titanium',
+                                                'Duplex and Super Duplex',
+                                                'Austenitic Stainless Steel',
+                                                'High Strength Stainless Steel',
+                                                'Super Austenitic Stainless Steel',
+                                                'Zirconium',
+                                                'Engineering Steels',
+                                                'Aluminium Alloys',
+                                                'Copper Alloys',
+                                                'Hard To Find & Special Alloys',
+                                                'Haynes Superalloys',
+                                                ];
                                                 @endphp
 
                                                 @foreach ($materials as $material)
-                                                    @php
-                                                        $slug = Str::slug($material);
-                                                    @endphp
-                                                    <li>
-                                                        <a class="dropdown-item text-wrap"
-                                                            href="{{ url('/materials/' . $slug) }}">
-                                                            {{ $material }}
-                                                        </a>
-                                                    </li>
+                                                @php
+                                                $slug = Str::slug($material);
+                                                @endphp
+                                                <li>
+                                                    <a class="dropdown-item text-wrap" href="{{ url('/materials/' . $slug) }}">
+                                                        {{ $material }}
+                                                    </a>
+                                                </li>
                                                 @endforeach
 
                                             </ul>
@@ -349,10 +367,8 @@
 
 
                                         <li class="nav-item"><a class="nav-link" href="#">Quality</a></li>
-                                        <li class="nav-item"><a class="nav-link"
-                                                href="{{ route('calculator') }}">Calculator</a></li>
-                                        <li class="nav-item"><a class="nav-link"
-                                                href="{{ route('blogs') }}">Blogs</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="{{ route('calculator') }}">Calculator</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="{{ route('blogs') }}">Blogs</a></li>
                                     </ul>
                                     <ul class="mobile-menu clearfix">
                                         <li><a href="{{ route('home') }}">Home</a></li>
@@ -381,8 +397,7 @@
                                                 <li><a href="{{ route('materials.titanium') }}">Titanium</a></li>
                                                 <li><a href="{{ route('materials.aluminium-Alloys') }}">Aluminium
                                                         Alloys</a></li>
-                                                <li><a
-                                                        href="{{ route('materials.super-Austenitic-Stainless-Steel') }}">Super
+                                                <li><a href="{{ route('materials.super-Austenitic-Stainless-Steel') }}">Super
                                                         Austenitic Stainless Steel</a></li>
                                                 <li><a href="{{ route('materials.hard-To-Find-Special-Alloys') }}">Hard
                                                         To Find Special Alloys</a></li>
@@ -396,7 +411,8 @@
                                                 <li><a href="{{ route('materials.haynes-Superalloys') }}">Haynes
                                                         Superalloys</a></li>
                                             </ul>
-                                            {{-- <li><a href="{{ route('materials') }}">MATERIALS</a></li> --}}
+                                            {{-- <li><a href="{{ route('materials') }}">MATERIALS</a>
+                                        </li> --}}
 
                                         <li><a href="#">Quality</a></li>
                                         <li><a href="{{ route('calculator') }}">Calculator</a></li>
@@ -444,20 +460,17 @@
                                     best and economical. </p>
                                 <ul class="list-inline footer-social mb-0">
                                     <li class="list-inline-item">
-                                        <a href="https://www.facebook.com/mokshtubes/" target="_blank"
-                                            rel="noopener">
+                                        <a href="https://www.facebook.com/mokshtubes/" target="_blank" rel="noopener">
                                             <i class="fab fa-facebook-f"></i>
                                         </a>
                                     </li>
                                     <li class="list-inline-item">
-                                        <a href="https://www.instagram.com/mokshtubesandfittingsllp?igsh=YjN6d3B4MzlnNDc1&utm_source=qr"
-                                            target="_blank" rel="noopener">
+                                        <a href="https://www.instagram.com/mokshtubesandfittingsllp?igsh=YjN6d3B4MzlnNDc1&utm_source=qr" target="_blank" rel="noopener">
                                             <i class="fab fa-instagram"></i>
                                         </a>
                                     </li>
                                     <li class="list-inline-item">
-                                        <a href="https://www.linkedin.com/company/moksh-tubes/?viewAsMember=true"
-                                            target="_blank" rel="noopener">
+                                        <a href="https://www.linkedin.com/company/moksh-tubes/?viewAsMember=true" target="_blank" rel="noopener">
                                             <i class="fab fa-linkedin-in"></i>
                                         </a>
                                     </li>
@@ -484,8 +497,7 @@
                                     <li><a href="{{ route('products.sheets-plates-coils.perforated-sheets') }}">PERFORATED
                                             SHEETS</a></li>
                                     <li><a href="{{ route('products.bars-rods.round-bars') }}">ROUND BARS</a></li>
-                                    <li><a
-                                            href="{{ route('products.pipe-fittings-flanges-fasteners') }}">FASTENERS</a>
+                                    <li><a href="{{ route('products.pipe-fittings-flanges-fasteners') }}">FASTENERS</a>
                                     </li>
                                 </ul>
                             </div>
@@ -497,14 +509,11 @@
                                 <h3 class="footer-title">Areas We Serve</h3>
                                 <ul class="footer-list">
                                     <li><a href="{{ route('products.pipes-tubes') }}">PIPES</a></li>
-                                    <li><a
-                                            href="{{ route('products.pipe-fittings-flanges-fasteners.pipe-fittings') }}">FITTINGS</a>
+                                    <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.pipe-fittings') }}">FITTINGS</a>
                                     </li>
-                                    <li><a
-                                            href="{{ route('products.pipe-fittings-flanges-fasteners.fittings-and-flanges') }}">FLANGES</a>
+                                    <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.fittings-and-flanges') }}">FLANGES</a>
                                     </li>
-                                    <li><a
-                                            href="{{ route('products.pipe-fittings-flanges-fasteners') }}">FASTENERS</a>
+                                    <li><a href="{{ route('products.pipe-fittings-flanges-fasteners') }}">FASTENERS</a>
                                     </li>
                                     <li><a href="">STEEL</a></li>
                                 </ul>
@@ -626,13 +635,11 @@
                                 <ul class="nav">
                                     <li class="nav-item"><a class="nav-link" href="{{ route('home') }}">home</a>
                                     </li>
-                                    <li class="nav-item"><a class="nav-link"
-                                            href="{{ route('products') }}">Products</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="{{ route('products') }}">Products</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#">term &amp; condition</a>
                                     </li>
                                     <li class="nav-item"><a class="nav-link" href="#">privacy policy</a></li>
-                                    <li class="nav-item"><a class="nav-link"
-                                            href="{{ route('contact-us') }}">contact us</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="{{ route('contact-us') }}">contact us</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -642,8 +649,7 @@
 
         </footer>
 
-        <div class="whatsapp-btn-container"
-            style="
+        <div class="whatsapp-btn-container" style="
                     display: flex;
                     align-items: center;
                     justify-content: center;
@@ -664,49 +670,41 @@
 
         <!-- Contact Form Modal -->
         <!-- Contact Form Modal -->
-        <div class="modal fade" id="contactFormModal" tabindex="-1" role="dialog"
-            aria-labelledby="contactFormModalLabel" aria-hidden="true" style="z-index: 2000;">
+        <div class="modal fade" id="contactFormModal" tabindex="-1" role="dialog" aria-labelledby="contactFormModalLabel" aria-hidden="true" style="z-index: 2000;">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content p-3" style="z-index:2001;">
 
                     <!-- Modal Header -->
                     <div class="modal-header">
                         <h5 class="modal-title fw-bold fs-3" id="contactFormModalLabel">Get in Touch</h5>
-                        <button type="button" class="close ms-auto" data-bs-dismiss="modal" aria-label="Close"
-                            style="font-size: 3rem;">
+                        <button type="button" class="close ms-auto" data-bs-dismiss="modal" aria-label="Close" style="font-size: 3rem;">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
 
                     <!-- Modal Body -->
                     <div class="modal-body">
-                        <form id="contact-form" name="contact_form" class="default-form"
-                            action="{{ url('sendmail') }}" method="post">
+                        <form id="contact-form" name="contact_form" class="default-form" action="{{ url('sendmail') }}" method="post">
                             @csrf
                             <div class="row">
                                 <div class="col-md-12 mb-3">
-                                    <input class="form-control" type="text" name="form_name"
-                                        placeholder="Your Name*" required>
+                                    <input class="form-control" type="text" name="form_name" placeholder="Your Name*" required>
                                 </div>
                                 <div class="col-md-12 mb-3">
-                                    <input class="form-control" type="email" name="form_email"
-                                        placeholder="Your Mail*" required>
+                                    <input class="form-control" type="email" name="form_email" placeholder="Your Mail*" required>
                                 </div>
                                 <div class="col-md-12 mb-3">
-                                    <input class="form-control" type="text" name="form_phone"
-                                        placeholder="Phone">
+                                    <input class="form-control" type="text" name="form_phone" placeholder="Phone">
                                 </div>
                                 <div class="col-md-12 mb-3">
-                                    <input class="form-control" type="text" name="form_subject"
-                                        placeholder="Subject">
+                                    <input class="form-control" type="text" name="form_subject" placeholder="Subject">
                                 </div>
                                 <div class="col-md-12 mb-3">
                                     <textarea name="form_message" class="form-control" placeholder="Your Message.." required></textarea>
                                 </div>
                                 <div class="col-md-12 text-end">
                                     <input id="form_botcheck" name="form_botcheck" type="hidden" value="">
-                                    <button class="thm-btn bg-clr1" type="submit"
-                                        data-loading-text="Please wait...">
+                                    <button class="thm-btn bg-clr1" type="submit" data-loading-text="Please wait...">
                                         Send Message
                                     </button>
                                 </div>
@@ -720,6 +718,51 @@
 
 
 
+        @if (!Cookie::get('cookie_consent'))
+        <div id="cookie-consent" class="position-fixed text-white shadow-lg" style="background: rgba(33,33,33,0.95);
+               bottom: 0;
+               left: 0;
+               right: 0;
+               width: 100%;
+               z-index: 999999;
+               display: none;
+               border-radius: 0;
+               padding: 15px 20px;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <!-- Text -->
+                    <div class="col-12 col-sm-9 mb-3 mb-sm-0">
+                        <p class="mb-0 small text-white">
+                            We use cookies to personalize content, improve site performance, and analyze traffic.
+                            Some
+                            cookies are essential for the site to function correctly. You can manage your
+                            preferences or
+                            accept all cookies.
+                        </p>
+                    </div>
+
+                    <!-- Buttons -->
+                    <div class="col-12 col-sm-3">
+                        <div class="d-flex flex-row flex-sm-column justify-content-between p-2">
+                            <button id="accept-cookies" class="btn btn-sm text-white mb-sm-2" style="background-color:#db7227;">Accept</button>
+                            <button id="reject-cookies" class="btn btn-sm border text-white" style="border-color:#db7227;">Reject</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        @endif
+
+
+
+
+
+
+
+
+
+
 
         <!--Scroll to top-->
         <div class="scroll-to-top scroll-to-target" data-bs-target="html"><span class="fa fa-angle-up"></span></div>
@@ -728,6 +771,39 @@
         <script src="{{ asset('assets/js/jquery.js') }}"></script>
         <!-- bootstrap -->
         <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const popup = document.getElementById("cookie-consent");
+                if (!popup) return;
+
+                setTimeout(() => popup.style.display = "block", 3000);
+
+                function sendConsent(url) {
+                    fetch(url, {
+                            method: "POST"
+                            , headers: {
+                                "Content-Type": "application/json"
+                                , "X-CSRF-TOKEN": document.querySelector('meta[name="csrf-token"]').getAttribute(
+                                    "content")
+                            , }
+                            , credentials: "same-origin" // 👈 VERY IMPORTANT: allows cookies to be saved
+                        })
+                        .then(res => res.json())
+                        .then(data => {
+                            console.log("Cookie status:", data.status);
+                            popup.style.display = "none";
+                        })
+                        .catch(err => console.error("Cookie error:", err));
+                }
+
+                document.getElementById("accept-cookies") ? .addEventListener("click", () => sendConsent(
+                    "{{ route('cookie.accept') }}"));
+                document.getElementById("reject-cookies") ? .addEventListener("click", () => sendConsent(
+                    "{{ route('cookie.reject') }}"));
+            });
+
+        </script>
+
 
 
         <!-- Bootstrap 5.3 Bundle JS (includes Popper) -->
@@ -803,6 +879,7 @@
                     }
                 });
             });
+
         </script>
         {{-- <script>
             document.addEventListener("DOMContentLoaded", function() {
@@ -820,8 +897,8 @@
 
 
 
-</div>
-@yield('extrajs')
+    </div>
+    @yield('extrajs')
     @yield('jsscripts')
 </body>
 

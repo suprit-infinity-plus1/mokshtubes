@@ -552,8 +552,8 @@
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a
-                                                        href="{{ route('blogs.why-hastelloy-weighs-more-than-stainless-steel') }}" aria-label="blog: why hastelloy weighs moe than stainless steel">
+                                                    <a href="{{ route('blogs.why-hastelloy-weighs-more-than-stainless-steel') }}"
+                                                        aria-label="blog: why hastelloy weighs moe than stainless steel">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -600,14 +600,13 @@
                                 </li>
                                 <li>
                                     <div class="img-holder">
-                                        <img src="{{ asset('assets/images/blogs/thumb/india’s-stainless-steel-export-industry-thumb.webp') }}"
+                                        <img src="{{ asset('assets/images/blogs/thumb/indias-stainless-steel-export-industry-thumb.webp') }}"
                                             alt="Awesome Image">
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a
-                                                        href="{{ route('blogs.indias-stainless-steel-export-industry') }}" aria-label="blog: india’s-stainless-steel-export-industry"
->
+                                                    <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}"
+                                                        aria-label="blog: india’s-stainless-steel-export-industry">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -616,14 +615,15 @@
                                     </div>
                                     <div class="title-holder">
                                         <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
-                                            <h5 class="post-title">
-                                                India’s Stainless Steel Exports – Moksh Tubes Global Reach
-                                            </h5>
-                                        </a>
-                                        <h6 class="post-date">
-                                            <i class="icon-calendar-with-spring-binder-and-date-blocks"></i>
-                                            august 14, 2025
-                                        </h6>
+                                            <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
+                                                <h5 class="post-title">
+                                                    India’s Stainless Steel Exports – Moksh Tubes Global Reach
+                                                </h5>
+                                            </a>
+                                            <h6 class="post-date">
+                                                <i class="icon-calendar-with-spring-binder-and-date-blocks"></i>
+                                                august 14, 2025
+                                            </h6>
                                     </div>
                                 </li>
                             </ul>
@@ -634,7 +634,7 @@
                                 <div class="col-md-12">
                                     <div class="card-body ">
                                         <!-- Heading -->
-                                       <div class="section-title">
+                                        <div class="section-title">
                                             <h2>Locate <span class="thm-color">Us</span></h2>
                                             {{-- <p>Let’s forge a connection — contact our team today.</p> --}}
                                         </div>
@@ -663,9 +663,10 @@
                                             Kamatipura Mumbai
                                         </p>
                                         <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
-                                <strong>Office Address:</strong> 92E, Plot No. 3, New Tank Bunder, Darukhana, Mumbai,
-                                Maharashtra- 400 010.
-                            </p>
+                                            <strong>Office Address:</strong> 92E, Plot No. 3, New Tank Bunder, Darukhana,
+                                            Mumbai,
+                                            Maharashtra- 400 010.
+                                        </p>
 
                                         <!-- Social Icons -->
                                         {{-- <div class="mt-3 text-center">

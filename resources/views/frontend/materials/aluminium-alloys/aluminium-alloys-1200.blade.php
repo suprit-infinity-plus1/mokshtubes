@@ -2,9 +2,16 @@
 
 @section('title', 'Aluminium Alloy 1200 | Pure Aluminium Grade')
 
-@section('meta_description', 'Aluminium 1200 – high purity alloy with superior corrosion resistance and excellent electrical conductivity for industrial applications.')
+@section('meta_description', 'Aluminium 1200 – high purity alloy with superior corrosion resistance and excellent
+    electrical conductivity for industrial applications.')
 
-@section('meta_keywords', 'Aluminium Alloy 1200, Pure Aluminium Grade, Aluminium 1200 Pipes, Aluminium 1200 Tubes, Aluminium 1200 Sheets, Corrosion Resistant Aluminium, High Purity Aluminium, Electrical Conductive Aluminium, Industrial Aluminium Grades, Commercial Aluminium Alloys')
+@section('meta_keywords', 'Aluminium Alloy 1200, Pure Aluminium Grade, Aluminium 1200 Pipes, Aluminium 1200 Tubes,
+    Aluminium 1200 Sheets, Corrosion Resistant Aluminium, High Purity Aluminium, Electrical Conductive Aluminium, Industrial
+    Aluminium Grades, Commercial Aluminium Alloys')
+
+@section('og_image', asset('assets/images/aluminium-alloys/aluminium-alloys-1200.webp'))
+@section('og_type', 'article')
+
 
 @section('content')
 
@@ -235,7 +242,7 @@
     </section>
 
 
-     @php
+    @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -332,7 +339,7 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                 @foreach ($products as $product)
+                @foreach ($products as $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
                             <a href="{{ route($product['route']) }}" class="text-decoration-none">
@@ -637,7 +644,7 @@
                 <p>
                     For inquiries, quotes, or customized Aluminium 1200 products, <strong>Moksh Tubes & Fittings
                         LLP</strong> your reliable partner in aluminum alloys.</p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch
@@ -654,7 +661,7 @@
 
 
 @section('jsscripts')
-<script type="application/ld+json">
+    <script type="application/ld+json">
         @verbatim
         {
         "@context": "https://schema.org",
