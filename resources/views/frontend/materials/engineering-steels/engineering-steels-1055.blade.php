@@ -62,10 +62,42 @@
         </div>
     </section>
     <!-- End Product Overview -->
+{{-- datasheet --}}
+    <section class="sec-padd-bottom bg-light">
+        <div class="datasheet-download px-4 text-center">
+            <h3 class="mb-3" style="color:#174268;">Download Engineering Steels Datasheet</h3>
+            <p class="mb-3">
+                Get the complete Engineering Steels datasheet with chemical composition,
+                mechanical properties, heat treatment details, and applications.
+                Enter your email to receive the PDF instantly.
+            </p>
 
+            <!-- Lead Capture Form -->
+            <form id="leadForm" method="POST" action="https://mokshtubes.com/datasheet-leads-capture" class="mb-3">
+                <input type="hidden" name="_token" value="WNVWvpO4YR2OqZaIJDl2mE3UfyreGys3Vp19brsc" autocomplete="off">
+                <div class="row justify-content-center">
+                    <input type="hidden" name="pdf" value="haynes-242.pdf">
+                    <div class="col-md-6 mb-2">
+                        <input type="email" name="email" required="" class="form-control p-3" placeholder="Enter your email address">
+                    </div>
+                    <div class="col-md-3 mb-2">
+                        <button type="submit" class="btn btn-lg w-100 text-white" style="background-color:#db7227; border-radius:8px;">
+                            📥 Get Datasheet
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+            
+            <hr class="my-4">
+            <p class="small text-muted">
+                We respect your privacy. Your email will only be used to send the datasheet.
+            </p>
+        </div>
+    </section>
     
         <!-- Specifications Table -->
-    <section class="sec-padd-top sec-padd-bottom">
+    <section class="sec-padd-top">
         <div class="container">
             <div class="section-title center">
                 <h2>Engineering Steel 1055 Specifications</h2>
@@ -124,18 +156,9 @@
                  </div>
                 </div>
             </div>
-        </section
+        </section>
 
-        <section>
-             
-                <div class="container text-center">
-        <a href="#" class="btn btn-primary px-4 py-2" style="font-size: 1.1rem;">
-            Download EN 1055 Steel Datasheet (PDF)
-        </a>
-        <p class="mt-2">Get chemical composition, mechanical properties, standards and full technical details.</p>
-            </div>
-            </section>
-
+<section class="sec-padd-top sec-padd-bottom">
          
         <div class="container">
             <div class="section-title center">
@@ -175,9 +198,9 @@
                 </div>
             </div>
         </div>
-    </section>
+</section>
         <!-- End Specifications Table -->
-
+ <section class="sec-padd-top sec-padd-bottom bg-light">
             <!-- Technical Properties Section -->
        <div class="container">
             <div class="section-title center mb-5">
@@ -238,7 +261,7 @@
                     </div>
                 </div>
             </div>
-
+       </div></section>
             <!-- Mechanical Properties Table -->
             <div class="row justify-content-center">
                 <div class="col-lg-10">
@@ -304,48 +327,74 @@
         <!-- End Technical Properties Section -->
 
         <!-- Related Grades Section -->
+<!-- Related Engineering Steel Grades -->
+
+
+
+<!-- Available Forms & Size Range -->
+
+
 <section class="sec-padd-top sec-padd-bottom bg-light">
     <div class="container">
+
+        <!-- PART 1 -->
         <div class="section-title center">
             <h2>Related Engineering Steel Grades</h2>
         </div>
 
-        <p class="text-center mb-3">
-            Looking for similar medium and high-carbon steel grades? We also supply:
-        </p>
+        <div class="row justify-content-center mb-4" style="text-align: justify;">
+            <div class="col-lg-10">
+                <p class="fs-6 text-center">
+                    Looking for similar medium and high-carbon steel grades? We also supply:
+                </p>
+            </div>
+        </div>
 
-        <ul class="list-unstyled text-center fs-6">
-            <li>✔ EN8 (080M40) – Medium Carbon Steel</li>
-            <li>✔ EN9 (070M55) – High Carbon Steel</li>
-            <li>✔ SAE 1045 – Medium Carbon Steel</li>
-            <li>✔ SAE 4130 – High Carbon Steel</li>
-            <li>✔ CK55 / CK60 – German Standard Carbon Steels</li>
-        </ul>
-    </div>
-</section>
-        <!-- End Related Grades Section -->
+        <div class="row justify-content-center mb-5">
+            <div class="col-lg-10">
+                <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color:#db7227;">
+                    <ul class="list-unstyled fs-6 mb-0">
+                        <li class="mb-2">✔ EN8 (080M40) – Medium Carbon Steel</li>
+                        <li class="mb-2">✔ EN9 (070M55) – High Carbon Steel</li>
+                        <li class="mb-2">✔ SAE 1045 – Medium Carbon Steel</li>
+                        <li class="mb-2">✔ SAE 4130 – High Carbon Steel</li>
+                        <li class="mb-0">✔ CK55 / CK60 – German Standard Carbon Steels</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
-        <!-- Available Forms & Size Range Section -->
-<section class="sec-padd-top sec-padd-bottom bg-light">
-    <div class="container">
-        <div class="section-title center">
+        <!-- PART 2 -->
+        <div class="section-title center mt-5">
             <h2>Available Forms & Size Range</h2>
         </div>
 
-        <p class="text-center mb-4">
-            We supply Engineering Steel 1055 in the following product forms and dimensions:
-        </p>
+        <div class="row justify-content-center mb-4" style="text-align: justify;">
+            <div class="col-lg-10">
+                <p class="fs-6 text-center">
+                    We supply Engineering Steel 1055 in the following product forms and dimensions:
+                </p>
+            </div>
+        </div>
 
-        <ul class="list-unstyled fs-6">
-            <li>✔ Round Bars: 10 mm to 400 mm</li>
-            <li>✔ Flat, Square & Hex Bars: Custom sizes up to 300 mm</li>
-            <li>✔ Sheets & Plates: 2 mm to 150 mm (Width 600–3000 mm)</li>
-            <li>✔ Coils & Strips: 0.5 mm to 12 mm</li>
-            <li>✔ Seamless & Welded Pipes/Tubes: OD 10 mm to 219 mm, WT 2–20 mm</li>
-            <li>✔ Forged Blocks, Rings, Bushings & Machined Components</li>
-        </ul>
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color:#db7227;">
+                    <ul class="list-unstyled fs-6 mb-0">
+                        <li class="mb-2">✔ Round Bars: 10 mm to 400 mm</li>
+                        <li class="mb-2">✔ Flat, Square & Hex Bars: Custom sizes up to 300 mm</li>
+                        <li class="mb-2">✔ Sheets & Plates: 2 mm to 150 mm (Width 600–3000 mm)</li>
+                        <li class="mb-2">✔ Coils & Strips: 0.5 mm to 12 mm</li>
+                        <li class="mb-2">✔ Seamless & Welded Pipes/Tubes: OD 10 mm to 219 mm, WT 2–20 mm</li>
+                        <li class="mb-0">✔ Forged Blocks, Rings, Bushings & Machined Components</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
     </div>
 </section>
+
         <!-- End Available Forms & Size Range Section -->
 
         <!-- Standards & Equivalent Grades Section -->
@@ -430,6 +479,32 @@
                 'image' => 'assets/images/all product/custom-metal-fabricated.jpg',
             ],
         ];
+
+
+$engineeringProducts = [
+    [
+        'name' => 'EN8 Carbon Steel',
+        'slug' => 'en8',
+        'image' => 'assets/images/engineering-steels/engineering-steels-en8.webp',
+    ],
+    [
+        'name' => 'Engineering Steel EN9',
+        'slug' => 'en9',
+        'image' => 'assets/images/engineering-steels/engineering-steels-en9.webp',
+    ],
+    [
+        'name' => 'Engineering Steel 1045',
+        'slug' => '1045',
+        'image' => 'assets/images/engineering-steels/engineering-steels-1045.webp',
+    ],
+     [
+        'name' => 'Engineering Steel 1060',
+        'slug' => '1060',
+        'image' => 'assets/images/engineering-steels/engineering-steels-en8.webp',
+    ],
+];
+
+
     @endphp
 
     <section class="sec-padd-top sec-padd-bottom">
@@ -676,15 +751,28 @@
             Browse other popular engineering steel materials supplied by Moksh Tubes & Fittings LLP:
         </p>
 
-        <ul class="list-unstyled text-center fs-6">
+        {{-- <ul class="list-unstyled text-center fs-6">
             <li><a href="/materials/engineering-steels/en8" class="text-primary">EN8 Carbon Steel</a></li>
             <li><a href="/materials/engineering-steels/en9" class="text-primary">EN9 Carbon Steel</a></li>
             <li><a href="/materials/engineering-steels/1045" class="text-primary">AISI 1045 Steel</a></li>
-            <li><a href="/materials/engineering-steels/1060" class="text-primary">AISI 1060 Steel</a></li>
-        </ul>
+            <li><a href="/materials/engineering-steels/1060" class="text-primary">AISI 1060 Steel</a></li> --}}
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4 justify-content-center">
+  @foreach ($engineeringProducts as $product)
+    <div class="col d-flex">
+        <a href="{{ route('materials.engineering-Steel-grade', $product['slug']) }}" class="text-decoration-none w-100">
+            <div class="product-card h-100">
+                <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}" class="img-fluid w-100">
+                <h6 class="product-card-title text-center mt-0 py-4">{{ $product['name'] }}</h6>
+            </div>
+        </a>
+    </div>
+@endforeach
+
+
+</div>
     </div>
 </section>
-
+ 
 
     <!--Start faq content area-->
     <section class="faq-content-area sec-padd2">
