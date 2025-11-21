@@ -20,9 +20,9 @@ Commercial Aluminium Alloys, Pure Aluminium Products')
 <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-auto text-center">
+            <    div class="col-auto text-center">
                 <h1>Aluminium 1100 <br> Commercially Pure Corrosion-Resistant Alloy</h1>
-            </div>
+            </>
         </div>
     </div>
 </section>

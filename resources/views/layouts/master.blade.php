@@ -96,13 +96,6 @@
         }
 
     </style>
-    <!-- Open Graph Auto Tags -->
-    <meta property="og:title" content="@yield('og_title', View::getSection('title') ?? 'Default Site Title')" />
-    <meta property="og:description" content="@yield('og_description', 'Default site description here')" />
-    <meta property="og:image" content="@yield('og_image', asset('assets/images/peoduct/default-og-image.jpg'))" />
-    <meta property="og:url" content="@yield('og_url', url()->current())" />
-    <meta property="og:type" content="@yield('og_type', 'website')" />
-    <meta property="og:site_name" content="Moksh Tubes & Fittings LLP" />
     @stack('styles')
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css">
 
