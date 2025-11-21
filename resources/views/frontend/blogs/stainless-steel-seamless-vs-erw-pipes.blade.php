@@ -1,7 +1,10 @@
 @extends('layouts.master')
 
 @section('title', 'Seamless vs ERW Pipes: Best Choice by Application (Complete Guide)')
-@section('meta_description', 'Compare stainless steel seamless vs ERW pipes by pressure rating, mechanical strength, QA requirements, standards, and cost. Learn which pipe type fits your application with a clear engineering decision guide.')
+@section('meta_description',
+    'Compare stainless steel seamless vs ERW pipes by pressure rating, mechanical strength, QA
+    requirements, standards, and cost. Learn which pipe type fits your application with a clear engineering decision
+    guide.')
 @section('meta_keywords',
     'Stainless Steel Pipes, Buying Stainless Steel Pipes, Stainless Steel Pipe Grades, Stainless
     Steel')
@@ -36,21 +39,27 @@
                                 </div>
                                 <div class="text">
                                     <p>
-                                    When engineers, buyers, or project managers compare stainless steel seamless vs ERW pipes, 
-                                    the discussion usually starts with cost. But the real decision goes much deeper—pressure rating, 
-                                    temperature, corrosion environment, QA requirements, and applicable codes all determine which pipe is the correct choice.
+                                        When engineers, buyers, or project managers compare stainless steel seamless vs ERW
+                                        pipes,
+                                        the discussion usually starts with cost. But the real decision goes much
+                                        deeper—pressure rating,
+                                        temperature, corrosion environment, QA requirements, and applicable codes all
+                                        determine which pipe is the correct choice.
                                     </p>
                                 </div>
                                 <div class="text">
                                     <p>
-                                        Across oil & gas, chemical processing, power plants, HVAC, water treatment, and food processing, 
-                                        both types of stainless steel pipes are widely used. However, each pipe type is designed for different service conditions, 
+                                        Across oil & gas, chemical processing, power plants, HVAC, water treatment, and food
+                                        processing,
+                                        both types of stainless steel pipes are widely used. However, each pipe type is
+                                        designed for different service conditions,
                                         and choosing the wrong one can lead to failures, downtime, or unnecessary cost
                                     </p>
                                 </div>
-                                 <div class="text">
+                                <div class="text">
                                     <p>
-                                        This guide breaks down the use cases, mechanical behavior, testing requirements, common mistakes, 
+                                        This guide breaks down the use cases, mechanical behavior, testing requirements,
+                                        common mistakes,
                                         and cost considerations in a practical, engineering-friendly format.
                                     </p>
                                 </div>
@@ -63,7 +72,8 @@
                                         <h2>Use-Case Comparison: Seamless vs ERW Pipes</h2>
                                         <div class="text pt-2">
                                             <p>
-                                                The main choice between seamless and ERW depends on the application requirements.
+                                                The main choice between seamless and ERW depends on the application
+                                                requirements.
                                             </p>
                                         </div>
                                     </div>
@@ -72,79 +82,86 @@
                                             <h3>Where Seamless Pipes Are Better</h3>
                                             <ul>
                                                 <li>
-                                                    <strong>High-pressure services:</strong> steam, boiler lines, hydraulic circuits.
+                                                    <strong>High-pressure services:</strong> steam, boiler lines, hydraulic
+                                                    circuits.
                                                 </li>
 
                                                 <li>
-                                                    <strong>High-temperature lines:</strong> superheaters, reformer tubes <a
-                                                
+                                                    <strong>High-temperature lines:</strong> superheaters, reformer tubes
+
                                                 </li>
                                                 <li>
-                                                    <strong>High-temperature lines:</strong> superheaters, reformer tubes <a
-                                                
+                                                    <strong>High-temperature lines:</strong> superheaters, reformer tubes
+
                                                 </li>
                                                 <li>
                                                     <strong>Critical fluids:</strong> sour gas, ammonia, hydrogen
-                                                
+
                                                 </li>
                                                 <li>
                                                     Lines exposed to vibration or cyclic loading
-                                                
+
                                                 </li>
                                                 <li> Projects requiring ASME/ASTM seamless only </li>
                                                 <li> End-users demanding zero weld seam & maximum reliability </li>
                                             </ul>
                                             <p>
-                                        <strong>Why?</strong> Seamless pipes have no weld seam or Heat-Affected Zone (HAZ). 
-                                        This makes them stronger and more dependable in extreme operating conditions.</p>
+                                                <strong>Why?</strong> Seamless pipes have no weld seam or Heat-Affected Zone
+                                                (HAZ).
+                                                This makes them stronger and more dependable in extreme operating
+                                                conditions.
+                                            </p>
                                         </div>
                                         <div class="exapmle">
                                             <h3>Where ERW Pipes Are Better</h3>
                                             <ul>
                                                 <li>
-                                                    Low to medium-pressure utilities (water, air, nitrogen, condensate return, cooling water).
+                                                    Low to medium-pressure utilities (water, air, nitrogen, condensate
+                                                    return, cooling water).
 
                                                 </li>
 
                                                 <li>
                                                     HVAC, fire-fighting, water supply lines.
-                                                
+
                                                 </li>
                                                 <li>
-                                                   Structural and general industrial piping.
-                                                
+                                                    Structural and general industrial piping.
+
                                                 </li>
                                                 <li>
                                                     When dimensional precision, smooth finish, and accuracy matter.
-                                                
+
                                                 </li>
                                                 <li>
-                                                   When cost, availability & short lead time are important.
-                                                
+                                                    When cost, availability & short lead time are important.
+
                                                 </li>
-                                                
+
                                             </ul>
                                             <p>
-                                        <strong>Why?</strong> Modern ERW technology delivers highly accurate, consistent pipes with excellent straightness, 
-                                            controlled wall thickness, and strong weld integrity</p>
+                                                <strong>Why?</strong> Modern ERW technology delivers highly accurate,
+                                                consistent pipes with excellent straightness,
+                                                controlled wall thickness, and strong weld integrity
+                                            </p>
 
-                                        
-                                    </div>
+
+                                        </div>
                                 </section>
                                 <!-- Seamless Pipes
-    •	
-    Higher pressure capacity
-    •	
-    •	
-    Uniform microstructure with no weld defects
-    •	
-    •	
-    Superior resistance to thermal & mechanical fatigue
-    •	
-    •	
-    Wider tolerance range due to hot finishing
-    •	
-    -->
+            •
+            Higher pressure capacity
+            •
+            •
+            Uniform microstructure with no weld defects
+            •
+            •
+            Superior resistance to thermal & mechanical fatigue
+            •
+            •
+            Wider tolerance range due to hot finishing
+            •
+            -->
 
                                 <section id="blog-area" class="blog-with-sidebar-area blog-single-area">
                                     <div class="blog-title text-start">
@@ -159,47 +176,49 @@
                                     <div class="">
                                         <div class="exapmle">
                                             <h3>Seamless pipes</h3>
-                                           
+
                                             <ul>
                                                 <li>
-                                                   Higher pressure capacity
+                                                    Higher pressure capacity
                                                 </li>
 
                                                 <li>
-                                                  Uniform microstructure with no weld defects
+                                                    Uniform microstructure with no weld defects
                                                 </li>
                                                 <li>Superior resistance to thermal & mechanical fatigue</li>
                                                 <li>Wider tolerance range due to hot finishing</li>
                                             </ul>
 
-                                               <h3>ERW Pipes</h3>
-                                           
+                                            <h3>ERW Pipes</h3>
+
                                             <ul>
                                                 <li>
-                                                  Excellent dimensional accuracy
+                                                    Excellent dimensional accuracy
                                                 </li>
 
                                                 <li>
-                                                  Very consistent wall thickness
+                                                    Very consistent wall thickness
                                                 </li>
                                                 <li>Weld seam is the only critical zone</li>
                                                 <li>HF-ERW welding improves weld quality significantly</li>
                                             </ul>
 
                                             <p class=" py-2">
-                                                <strong class="text-black">Winner:</strong> In moderate-pressure stainless steel systems (e.g., 304/316), 
-                                                ERW is generally acceptable if the weld is properly inspected and meets ASTM standards.
+                                                <strong class="text-black">Winner:</strong> In moderate-pressure stainless
+                                                steel systems (e.g., 304/316),
+                                                ERW is generally acceptable if the weld is properly inspected and meets ASTM
+                                                standards.
                                             </p>
                                         </div>
                                         <div class="exapmle">
-                                             <!-- <h3>Cost & Lead Time</h3>
+                                            <h3>Cost & Lead Time</h3>
                                             <p class="pb-2">Cost is a major driver in any project, but it's crucial to
                                                 look beyond the initial purchase price.</p>
 
-                                                <h3>Seamless Pipes</h3>
+                                            <h3>Seamless Pipes</h3>
                                             <ul>
                                                 <li>
-                                                   Higher manufacturing cost
+                                                    Higher manufacturing cost
                                                 </li>
 
                                                 <li>
@@ -208,7 +227,40 @@
                                                 <li>
                                                     Higher machining cost due to variable tolerances
                                                 </li>
-                                                
+
+                                            </ul>
+                                            <h3>ERW Pipes</h3>
+                                            <ul>
+                                                <li>More economical</li>
+                                                <li>Readily available in standard sizes (½" to 24")</li>
+                                                <li>Fast delivery</li>
+                                                <li>Lower total project CAPEX</li>
+                                            </ul>
+                                            <p class=" py-2">
+                                                <strong class="text-black">
+                                                    Winner:</strong> Carbon Steel for initial cost; Stainless Steel for
+                                                long-term value and life cycle cost.
+                                            </p>
+
+
+
+
+                                            {{-- <h3>Cost & Lead Time</h3>
+                                            <p class="pb-2">Cost is a major driver in any project, but it's crucial to
+                                                look beyond the initial purchase price.</p>
+
+                                            <ul>
+                                                <li>
+                                                    Higher manufacturing cost
+                                                </li>
+
+                                                <li>
+                                                    Longer lead time, especially for thick-wall or non-standard OD
+                                                </li>
+                                                <li>
+                                                    Higher machining cost due to variable tolerances
+                                                </li>
+
                                             </ul>
                                             <h4>ERW Pipes</h4>
                                             <ul>
@@ -217,45 +269,12 @@
                                                 <li>Fast delivery</li>
                                                 <li>Lower total project CAPEX</li>
                                             </ul>
+
                                             <p class=" py-2">
                                                 <strong class="text-black">
                                                     Winner:</strong> Carbon Steel for initial cost; Stainless Steel for
                                                 long-term value and life cycle cost.
-                                            </p> -->
-
-
-                                            
-                                        
-                                            <h3>Cost & Lead Time</h3>
-                                            <p class="pb-2">Cost is a major driver in any project, but it's crucial to
-                                                look beyond the initial purchase price.</p>
-                                            
-                                                 <ul>
-                                                <li>
-                                                   Higher manufacturing cost
-                                                </li>
-
-                                                <li>
-                                                    Longer lead time, especially for thick-wall or non-standard OD
-                                                </li>
-                                                <li>
-                                                    Higher machining cost due to variable tolerances
-                                                </li>
-                                                
-                                            </ul>
-                                             <!-- <h4>ERW Pipes</h4> -->
-                                             <ul>
-                                                <li>More economical</li>
-                                                <li>Readily available in standard sizes (½" to 24")</li>
-                                                <li>Fast delivery</li>
-                                                <li>Lower total project CAPEX</li>
-                                            </ul>
-                                            
-                                          <p class=" py-2">
-                                                <strong class="text-black">
-                                                    Winner:</strong> Carbon Steel for initial cost; Stainless Steel for
-                                                long-term value and life cycle cost.
-                                            </p>
+                                            </p> --}}
                                         </div>
                                         <div class="exapmle">
                                             <h3>Cost: Initial vs. Life-Cycle</h3>
@@ -609,8 +628,7 @@
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a
-                                                        href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
+                                                    <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>

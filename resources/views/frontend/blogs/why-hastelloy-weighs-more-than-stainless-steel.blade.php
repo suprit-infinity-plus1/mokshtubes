@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'Why Hastelloy Weighs More Than Stainless Steel. ')
+@section('title', 'Why Hastelloy Weighs More Than Stainless Steel.')
 @section('meta_description',
     'Learn why Hastelloy is heavier than stainless steel. Compare densities, compositions, and
     industrial applications with expert insights.')
@@ -496,7 +496,8 @@
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a href="{{ route('blogs.the-role-of-high-performance') }}" aria-label="blogs: the role of high performance">
+                                                    <a href="{{ route('blogs.the-role-of-high-performance') }}"
+                                                        aria-label="blogs: the role of high performance">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -522,8 +523,8 @@
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
-                                                    <a
-                                                        href="{{ route('blogs.indias-stainless-steel-export-industry') }}" aria-label="blogs india’s-stainless-steel-export-industry">
+                                                    <a href="{{ route('blogs.indias-stainless-steel-export-industry') }}"
+                                                        aria-label="blogs india’s-stainless-steel-export-industry">
                                                         <i class="fa fa-link" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
@@ -580,7 +581,8 @@
                                                 Kamatipura Mumbai
                                             </p>
                                             <p class="mb-2"><i class="bi bi-geo-alt me-2 text-danger"></i>
-                                                <strong>Office Address:</strong> 92E, Plot No. 3, New Tank Bunder, Darukhana, Mumbai, Maharashtra- 400 010.
+                                                <strong>Office Address:</strong> 92E, Plot No. 3, New Tank Bunder,
+                                                Darukhana, Mumbai, Maharashtra- 400 010.
                                             </p>
 
                                             <!-- Social Icons -->
