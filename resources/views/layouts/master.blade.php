@@ -22,14 +22,14 @@
     <meta property="og:title" content="@yield('title', 'Mokshtubes')" />
     <meta property="og:description" content="@yield('meta_description', 'Mokshtubes')" />
     <meta property="og:url" content="@yield('canonical', url()->current())" />
-    <meta property="og:image" content="@yield('og_image', asset('default-og-image.webp'))" />
+    <meta property="og:image" content="@yield('og_image', asset('assets/images/slides/Mokshtubes-banner-desktop.webp'))" />
     <meta property="og:type" content="@yield('og_type', 'website')" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="@yield('title', 'Mokshtubes')" />
     <meta name="twitter:description" content="@yield('meta_description', 'Mokshtubes')" />
-    <meta name="twitter:image" content="@yield('og_image', asset('default-og-image.webp'))" />
+    <meta name="twitter:image" content="@yield('og_image', asset('assets/images/slides/Mokshtubes-banner-desktop.webp'))" />
 
     {{-- <meta name="title" content="@yield('meta_title')">
     <meta name="description" content="@yield('meta_description')">
@@ -96,13 +96,6 @@
         }
 
     </style>
-    <!-- Open Graph Auto Tags -->
-    <meta property="og:title" content="@yield('og_title', View::getSection('title') ?? 'Default Site Title')" />
-    <meta property="og:description" content="@yield('og_description', 'Default site description here')" />
-    <meta property="og:image" content="@yield('og_image', asset('assets/images/peoduct/default-og-image.jpg'))" />
-    <meta property="og:url" content="@yield('og_url', url()->current())" />
-    <meta property="og:type" content="@yield('og_type', 'website')" />
-    <meta property="og:site_name" content="Moksh Tubes & Fittings LLP" />
     @stack('styles')
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css">
 

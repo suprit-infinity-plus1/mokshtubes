@@ -1,11 +1,13 @@
 @extends('layouts.master')
-@section('title', 'Boiler & Heat Exchanger Tubes: ASTM A179/A213 | Seamless, U‑Bent | Moksh Tubes') <!-- 52 characters -->
-@section('meta_description',
-    'Seamless, welded & U‑bent boiler/heat exchanger tubes per ASTM A179/A213. Fast delivery, global supply. Get datasheet & quote.') <!-- 153 characters -->
+@section('title', 'Boiler & Heat Exchanger Tubes: ASTM A179/A213 | Seamless, U‑Bent | Moksh Tubes')
+<!-- 52 characters -->
+@section('meta_description', 'Seamless, welded & U‑bent boiler/heat exchanger tubes per ASTM A179/A213. Fast delivery,
+    global supply. Get datasheet & quote.') <!-- 153 characters -->
     <meta property="og:title" content="Boiler & Heat Exchanger Tubes | Moksh Tubes">
-<meta property="og:description" content="Stainless Steel, Alloy Steel, Duplex, Nickel, Titanium boiler & heat exchanger tubes. Worldwide supplier with fast delivery.">
-<meta property="og:image" content="/assets/images/product/boiler-heat-exchanger-tubes.webp">
-<meta property="og:url" content="https://mokshtubes.com/products/pipes-tubes/boiler-heat-exchanger-tubes">
+    <meta property="og:description"
+        content="Stainless Steel, Alloy Steel, Duplex, Nickel, Titanium boiler & heat exchanger tubes. Worldwide supplier with fast delivery.">
+    <meta property="og:image" content="/assets/images/product/boiler-heat-exchanger-tubes.webp">
+    <meta property="og:url" content="https://mokshtubes.com/products/pipes-tubes/boiler-heat-exchanger-tubes">
 @section('content')
 
     <!--Start breadcrumb area-->
@@ -58,7 +60,7 @@
             </div>
         </div>
     </section>
- {{-- datasheet --}}
+    {{-- datasheet --}}
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Boiler Heat Exchanger Tubes Datasheet</h3>
@@ -74,17 +76,19 @@
                 <div class="row justify-content-center">
                     <input type="hidden" name="pdf" value="haynes-242.pdf">
                     <div class="col-md-6 mb-2">
-                        <input type="email" name="email" required="" class="form-control p-3" placeholder="Enter your email address">
+                        <input type="email" name="email" required="" class="form-control p-3"
+                            placeholder="Enter your email address">
                     </div>
                     <div class="col-md-3 mb-2">
-                        <button type="submit" class="btn btn-lg w-100 text-white" style="background-color:#db7227; border-radius:8px;">
+                        <button type="submit" class="btn btn-lg w-100 text-white"
+                            style="background-color:#db7227; border-radius:8px;">
                             📥 Get Datasheet
                         </button>
                     </div>
                 </div>
             </form>
 
-            
+
             <hr class="my-4">
             <p class="small text-muted">
                 We respect your privacy. Your email will only be used to send the datasheet.
@@ -157,295 +161,296 @@
             </div>
         </div>
     </section>
-    
 
-    
+
+
     <section class="sec-padd-top sec-padd-bottom bg-light">
-        
+
         <div class="container">
             <div class="section-title center">
                 <h2 class="fw-bold" style="color: #174268;">Weight Chart (ASME B36.10 / B36.19)</h2>
             </div>
 
 
-            
+
             <!-- Child Title -->
             <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Weight Chart (ASME B36.10 / B36.19 – Size & Weight Data)</h4>
+                <h4 class="text-center mb-0" style="color: #db7227;">Weight Chart (ASME B36.10 / B36.19 – Size & Weight
+                    Data)</h4>
             </div>
- 
-                <table class="table table-bordered table-striped align-middle text-center">
-                    <thead class="table-dark">
-                        <tr class="t-row">
-                            <th colspan="2">Nominal Bore Chart</th>
-                            <th rowspan="2">Outside Diameter (O.D) <br> (mm)</th>
-                            <th colspan="2">Schedule 5C</th>
-                            <th colspan="2">Schedule 10C</th>
-                            <th colspan="2">Schedule 40C</th>
-                            <th colspan="2">Schedule 80C</th>
-                            <th colspan="2">Schedule 160C</th>
-                            <th colspan="2">Schedule XXC</th>
-                        </tr>
-                        <tr class="t-row">
-                            <th>mm</th>
-                            <th>inches</th>
-                            <th>Wt</th>
-                            <th>Weight</th>
-                            <th>Wt</th>
-                            <th>Weight</th>
-                            <th>Wt</th>
-                            <th>Weight</th>
-                            <th>Wt</th>
-                            <th>Weight</th>
-                            <th>Wt</th>
-                            <th>Weight</th>
-                            <th>Wt</th>
-                            <th>Weight</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="t-row">
-                            <td>3</td>
-                            <td>1/8</td>
-                            <td>10.3</td>
-                            <td>0.2</td>
-                            <td>0.01</td>
-                            <td>0.3</td>
-                            <td>0.02</td>
-                            <td>0.4</td>
-                            <td>0.03</td>
-                            <td>0.6</td>
-                            <td>0.04</td>
-                            <td>0.8</td>
-                            <td>0.06</td>
-                            <td>1.0</td>
-                            <td>0.07</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>6</td>
-                            <td>1/4</td>
-                            <td>13.7</td>
-                            <td>0.2</td>
-                            <td>0.02</td>
-                            <td>0.3</td>
-                            <td>0.03</td>
-                            <td>0.4</td>
-                            <td>0.04</td>
-                            <td>0.6</td>
-                            <td>0.06</td>
-                            <td>0.8</td>
-                            <td>0.08</td>
-                            <td>1.0</td>
-                            <td>0.10</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>10</td>
-                            <td>3/8</td>
-                            <td>17.1</td>
-                            <td>0.2</td>
-                            <td>0.03</td>
-                            <td>0.3</td>
-                            <td>0.04</td>
-                            <td>0.4</td>
-                            <td>0.06</td>
-                            <td>0.6</td>
-                            <td>0.08</td>
-                            <td>0.8</td>
-                            <td>0.11</td>
-                            <td>1.0</td>
-                            <td>0.14</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>15</td>
-                            <td>1/2</td>
-                            <td>21.3</td>
-                            <td>0.2</td>
-                            <td>0.04</td>
-                            <td>0.3</td>
-                            <td>0.06</td>
-                            <td>0.4</td>
-                            <td>0.08</td>
-                            <td>0.6</td>
-                            <td>0.12</td>
-                            <td>0.8</td>
-                            <td>0.16</td>
-                            <td>1.0</td>
-                            <td>0.20</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>20</td>
-                            <td>3/4</td>
-                            <td>26.7</td>
-                            <td>0.2</td>
-                            <td>0.06</td>
-                            <td>0.3</td>
-                            <td>0.09</td>
-                            <td>0.4</td>
-                            <td>0.12</td>
-                            <td>0.6</td>
-                            <td>0.17</td>
-                            <td>0.8</td>
-                            <td>0.22</td>
-                            <td>1.0</td>
-                            <td>0.28</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>25</td>
-                            <td>1</td>
-                            <td>33.4</td>
-                            <td>0.2</td>
-                            <td>0.08</td>
-                            <td>0.3</td>
-                            <td>0.12</td>
-                            <td>0.4</td>
-                            <td>0.17</td>
-                            <td>0.6</td>
-                            <td>0.25</td>
-                            <td>0.8</td>
-                            <td>0.33</td>
-                            <td>1.0</td>
-                            <td>0.41</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>32</td>
-                            <td>1 1/4</td>
-                            <td>42.2</td>
-                            <td>0.2</td>
-                            <td>0.13</td>
-                            <td>0.3</td>
-                            <td>0.19</td>
-                            <td>0.4</td>
-                            <td>0.26</td>
-                            <td>0.6</td>
-                            <td>0.38</td>
-                            <td>0.8</td>
-                            <td>0.50</td>
-                            <td>1.0</td>
-                            <td>0.62</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>40</td>
-                            <td>1 1/2</td>
-                            <td>48.3</td>
-                            <td>0.2</td>
-                            <td>0.16</td>
-                            <td>0.3</td>
-                            <td>0.24</td>
-                            <td>0.4</td>
-                            <td>0.32</td>
-                            <td>0.6</td>
-                            <td>0.48</td>
-                            <td>0.8</td>
-                            <td>0.63</td>
-                            <td>1.0</td>
-                            <td>0.78</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>50</td>
-                            <td>2</td>
-                            <td>60.3</td>
-                            <td>0.2</td>
-                            <td>0.24</td>
-                            <td>0.3</td>
-                            <td>0.36</td>
-                            <td>0.4</td>
-                            <td>0.47</td>
-                            <td>0.6</td>
-                            <td>0.70</td>
-                            <td>0.8</td>
-                            <td>0.93</td>
-                            <td>1.0</td>
-                            <td>1.17</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>65</td>
-                            <td>2 1/2</td>
-                            <td>73.0</td>
-                            <td>0.2</td>
-                            <td>0.33</td>
-                            <td>0.3</td>
-                            <td>0.49</td>
-                            <td>0.4</td>
-                            <td>0.65</td>
-                            <td>0.6</td>
-                            <td>0.97</td>
-                            <td>0.8</td>
-                            <td>1.29</td>
-                            <td>1.0</td>
-                            <td>1.63</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>80</td>
-                            <td>3</td>
-                            <td>88.9</td>
-                            <td>0.2</td>
-                            <td>0.47</td>
-                            <td>0.3</td>
-                            <td>0.70</td>
-                            <td>0.4</td>
-                            <td>0.93</td>
-                            <td>0.6</td>
-                            <td>1.40</td>
-                            <td>0.8</td>
-                            <td>1.87</td>
-                            <td>1.0</td>
-                            <td>2.36</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>100</td>
-                            <td>4</td>
-                            <td>114.3</td>
-                            <td>0.2</td>
-                            <td>0.77</td>
-                            <td>0.3</td>
-                            <td>1.14</td>
-                            <td>0.4</td>
-                            <td>1.52</td>
-                            <td>0.6</td>
-                            <td>2.27</td>
-                            <td>0.8</td>
-                            <td>3.04</td>
-                            <td>1.0</td>
-                            <td>3.82</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>125</td>
-                            <td>5</td>
-                            <td>141.3</td>
-                            <td>0.2</td>
-                            <td>1.17</td>
-                            <td>0.3</td>
-                            <td>1.72</td>
-                            <td>0.4</td>
-                            <td>2.30</td>
-                            <td>0.6</td>
-                            <td>3.42</td>
-                            <td>0.8</td>
-                            <td>4.58</td>
-                            <td>1.0</td>
-                            <td>5.76</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>150</td>
-                            <td>6</td>
-                            <td>168.3</td>
-                            <td>0.2</td>
-                            <td>1.63</td>
-                            <td>0.3</td>
-                            <td>2.41</td>
-                            <td>0.4</td>
-                            <td>3.23</td>
-                            <td>0.6</td>
-                            <td>4.79</td>
-                            <td>0.8</td>
-                            <td>6.38</td>
-                            <td>1.0</td>
-                            <td>8.02</td>
-                        </tr>
-                        <!-- Add more rows as needed -->
-                    </tbody>
-                </table>
-            </div>
+
+            <table class="table table-bordered table-striped align-middle text-center">
+                <thead class="table-dark">
+                    <tr class="t-row">
+                        <th colspan="2">Nominal Bore Chart</th>
+                        <th rowspan="2">Outside Diameter (O.D) <br> (mm)</th>
+                        <th colspan="2">Schedule 5C</th>
+                        <th colspan="2">Schedule 10C</th>
+                        <th colspan="2">Schedule 40C</th>
+                        <th colspan="2">Schedule 80C</th>
+                        <th colspan="2">Schedule 160C</th>
+                        <th colspan="2">Schedule XXC</th>
+                    </tr>
+                    <tr class="t-row">
+                        <th>mm</th>
+                        <th>inches</th>
+                        <th>Wt</th>
+                        <th>Weight</th>
+                        <th>Wt</th>
+                        <th>Weight</th>
+                        <th>Wt</th>
+                        <th>Weight</th>
+                        <th>Wt</th>
+                        <th>Weight</th>
+                        <th>Wt</th>
+                        <th>Weight</th>
+                        <th>Wt</th>
+                        <th>Weight</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="t-row">
+                        <td>3</td>
+                        <td>1/8</td>
+                        <td>10.3</td>
+                        <td>0.2</td>
+                        <td>0.01</td>
+                        <td>0.3</td>
+                        <td>0.02</td>
+                        <td>0.4</td>
+                        <td>0.03</td>
+                        <td>0.6</td>
+                        <td>0.04</td>
+                        <td>0.8</td>
+                        <td>0.06</td>
+                        <td>1.0</td>
+                        <td>0.07</td>
+                    </tr>
+                    <tr class="t-row">
+                        <td>6</td>
+                        <td>1/4</td>
+                        <td>13.7</td>
+                        <td>0.2</td>
+                        <td>0.02</td>
+                        <td>0.3</td>
+                        <td>0.03</td>
+                        <td>0.4</td>
+                        <td>0.04</td>
+                        <td>0.6</td>
+                        <td>0.06</td>
+                        <td>0.8</td>
+                        <td>0.08</td>
+                        <td>1.0</td>
+                        <td>0.10</td>
+                    </tr>
+                    <tr class="t-row">
+                        <td>10</td>
+                        <td>3/8</td>
+                        <td>17.1</td>
+                        <td>0.2</td>
+                        <td>0.03</td>
+                        <td>0.3</td>
+                        <td>0.04</td>
+                        <td>0.4</td>
+                        <td>0.06</td>
+                        <td>0.6</td>
+                        <td>0.08</td>
+                        <td>0.8</td>
+                        <td>0.11</td>
+                        <td>1.0</td>
+                        <td>0.14</td>
+                    </tr>
+                    <tr class="t-row">
+                        <td>15</td>
+                        <td>1/2</td>
+                        <td>21.3</td>
+                        <td>0.2</td>
+                        <td>0.04</td>
+                        <td>0.3</td>
+                        <td>0.06</td>
+                        <td>0.4</td>
+                        <td>0.08</td>
+                        <td>0.6</td>
+                        <td>0.12</td>
+                        <td>0.8</td>
+                        <td>0.16</td>
+                        <td>1.0</td>
+                        <td>0.20</td>
+                    </tr>
+                    <tr class="t-row">
+                        <td>20</td>
+                        <td>3/4</td>
+                        <td>26.7</td>
+                        <td>0.2</td>
+                        <td>0.06</td>
+                        <td>0.3</td>
+                        <td>0.09</td>
+                        <td>0.4</td>
+                        <td>0.12</td>
+                        <td>0.6</td>
+                        <td>0.17</td>
+                        <td>0.8</td>
+                        <td>0.22</td>
+                        <td>1.0</td>
+                        <td>0.28</td>
+                    </tr>
+                    <tr class="t-row">
+                        <td>25</td>
+                        <td>1</td>
+                        <td>33.4</td>
+                        <td>0.2</td>
+                        <td>0.08</td>
+                        <td>0.3</td>
+                        <td>0.12</td>
+                        <td>0.4</td>
+                        <td>0.17</td>
+                        <td>0.6</td>
+                        <td>0.25</td>
+                        <td>0.8</td>
+                        <td>0.33</td>
+                        <td>1.0</td>
+                        <td>0.41</td>
+                    </tr>
+                    <tr class="t-row">
+                        <td>32</td>
+                        <td>1 1/4</td>
+                        <td>42.2</td>
+                        <td>0.2</td>
+                        <td>0.13</td>
+                        <td>0.3</td>
+                        <td>0.19</td>
+                        <td>0.4</td>
+                        <td>0.26</td>
+                        <td>0.6</td>
+                        <td>0.38</td>
+                        <td>0.8</td>
+                        <td>0.50</td>
+                        <td>1.0</td>
+                        <td>0.62</td>
+                    </tr>
+                    <tr class="t-row">
+                        <td>40</td>
+                        <td>1 1/2</td>
+                        <td>48.3</td>
+                        <td>0.2</td>
+                        <td>0.16</td>
+                        <td>0.3</td>
+                        <td>0.24</td>
+                        <td>0.4</td>
+                        <td>0.32</td>
+                        <td>0.6</td>
+                        <td>0.48</td>
+                        <td>0.8</td>
+                        <td>0.63</td>
+                        <td>1.0</td>
+                        <td>0.78</td>
+                    </tr>
+                    <tr class="t-row">
+                        <td>50</td>
+                        <td>2</td>
+                        <td>60.3</td>
+                        <td>0.2</td>
+                        <td>0.24</td>
+                        <td>0.3</td>
+                        <td>0.36</td>
+                        <td>0.4</td>
+                        <td>0.47</td>
+                        <td>0.6</td>
+                        <td>0.70</td>
+                        <td>0.8</td>
+                        <td>0.93</td>
+                        <td>1.0</td>
+                        <td>1.17</td>
+                    </tr>
+                    <tr class="t-row">
+                        <td>65</td>
+                        <td>2 1/2</td>
+                        <td>73.0</td>
+                        <td>0.2</td>
+                        <td>0.33</td>
+                        <td>0.3</td>
+                        <td>0.49</td>
+                        <td>0.4</td>
+                        <td>0.65</td>
+                        <td>0.6</td>
+                        <td>0.97</td>
+                        <td>0.8</td>
+                        <td>1.29</td>
+                        <td>1.0</td>
+                        <td>1.63</td>
+                    </tr>
+                    <tr class="t-row">
+                        <td>80</td>
+                        <td>3</td>
+                        <td>88.9</td>
+                        <td>0.2</td>
+                        <td>0.47</td>
+                        <td>0.3</td>
+                        <td>0.70</td>
+                        <td>0.4</td>
+                        <td>0.93</td>
+                        <td>0.6</td>
+                        <td>1.40</td>
+                        <td>0.8</td>
+                        <td>1.87</td>
+                        <td>1.0</td>
+                        <td>2.36</td>
+                    </tr>
+                    <tr class="t-row">
+                        <td>100</td>
+                        <td>4</td>
+                        <td>114.3</td>
+                        <td>0.2</td>
+                        <td>0.77</td>
+                        <td>0.3</td>
+                        <td>1.14</td>
+                        <td>0.4</td>
+                        <td>1.52</td>
+                        <td>0.6</td>
+                        <td>2.27</td>
+                        <td>0.8</td>
+                        <td>3.04</td>
+                        <td>1.0</td>
+                        <td>3.82</td>
+                    </tr>
+                    <tr class="t-row">
+                        <td>125</td>
+                        <td>5</td>
+                        <td>141.3</td>
+                        <td>0.2</td>
+                        <td>1.17</td>
+                        <td>0.3</td>
+                        <td>1.72</td>
+                        <td>0.4</td>
+                        <td>2.30</td>
+                        <td>0.6</td>
+                        <td>3.42</td>
+                        <td>0.8</td>
+                        <td>4.58</td>
+                        <td>1.0</td>
+                        <td>5.76</td>
+                    </tr>
+                    <tr class="t-row">
+                        <td>150</td>
+                        <td>6</td>
+                        <td>168.3</td>
+                        <td>0.2</td>
+                        <td>1.63</td>
+                        <td>0.3</td>
+                        <td>2.41</td>
+                        <td>0.4</td>
+                        <td>3.23</td>
+                        <td>0.6</td>
+                        <td>4.79</td>
+                        <td>0.8</td>
+                        <td>6.38</td>
+                        <td>1.0</td>
+                        <td>8.02</td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                </tbody>
+            </table>
+        </div>
         </div>
     </section>
     <section class="bg-light" style="padding-top: 80px;">
@@ -510,7 +515,7 @@
                             <td>1.030</td>
                         </tr>
                         <!-- Collapsible rows -->
-                        
+
                         <tr class="t-row collapse table-5c-full">
                             <td>25</td>
                             <td>1"</td>
@@ -644,27 +649,27 @@
 
         </div>
     </section>
-<script>
-document.addEventListener('DOMContentLoaded', () => {
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
 
-    // Find all collapse groups
-    document.querySelectorAll("button[data-bs-target]").forEach(btn => {
-        const target = btn.getAttribute("data-bs-target");
-        const group = document.querySelectorAll(target);
+            // Find all collapse groups
+            document.querySelectorAll("button[data-bs-target]").forEach(btn => {
+                const target = btn.getAttribute("data-bs-target");
+                const group = document.querySelectorAll(target);
 
-        group.forEach(item => {
-            item.addEventListener('shown.bs.collapse', () => {
-                btn.textContent = "Hide Full Chart";
+                group.forEach(item => {
+                    item.addEventListener('shown.bs.collapse', () => {
+                        btn.textContent = "Hide Full Chart";
+                    });
+
+                    item.addEventListener('hidden.bs.collapse', () => {
+                        btn.textContent = "View Full Chart";
+                    });
+                });
             });
 
-            item.addEventListener('hidden.bs.collapse', () => {
-                btn.textContent = "View Full Chart";
-            });
         });
-    });
-
-});
-</script>
+    </script>
 
 
     {{-- <script>
@@ -1892,8 +1897,8 @@ document.addEventListener('DOMContentLoaded', () => {
     </section>
 
 
-  
-{{-- Applications --}}
+
+    {{-- Applications --}}
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
@@ -1906,73 +1911,73 @@ document.addEventListener('DOMContentLoaded', () => {
 
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4">
-                   <div class="application-card">
-    <div class="application-icon">
-        <i class="bi bi-gear-wide-connected"></i>
-    </div>
-    <h5>Power Generation</h5>
-    <ul>
-        <li>Superheater & reheater tubes</li>
-        <li>Boiler tubes for thermal, gas & nuclear plants</li>
-    </ul>
-</div>
-</div>
-
-<div class="col-md-6 col-lg-4">
-    <div class="application-card">
-        <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
-        <h5>Oil & Gas / Petrochemical</h5>
-        <ul>
-            <li>Process heat exchangers</li>
-            <li>Condensers & coolers</li>
-        </ul>
-    </div>
-</div>
-
-<div class="col-md-6 col-lg-4">
-    <div class="application-card">
-        <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
-        <h5>Chemical & Fertilizer Plants</h5>
-        <ul>
-            <li>Reactors, evaporators, cooling towers</li>
-        </ul>
-    </div>
-</div>
-
-<div class="col-md-6 col-lg-4">
-    <div class="application-card">
-        <div class="application-icon"><i class="bi bi-droplet"></i></div>
-        <h5>Marine & Offshore</h5>
-        <ul>
-            <li>Cu-Ni & Titanium seawater condensers</li>
-            <li>Marine boiler systems</li>
-        </ul>
-    </div>
-</div>
-
-<div class="col-md-6 col-lg-4">
-    <div class="application-card">
-        <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
-        <h5>Food & Dairy</h5>
-        <ul>
-            <li>Hygienic stainless-steel heat exchanger tubes</li>
-        </ul>
-    </div>
-</div>
-
-<div class="col-md-6 col-lg-4">
-    <div class="application-card">
-        <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
-        <h5>HVAC & Refrigeration</h5>
-        <ul>
-            <li>Evaporators, condensers, chilled water systems</li>
-        </ul>
-    </div>
-</div>
-
+                    <div class="application-card">
+                        <div class="application-icon">
+                            <i class="bi bi-gear-wide-connected"></i>
+                        </div>
+                        <h5>Power Generation</h5>
+                        <ul>
+                            <li>Superheater & reheater tubes</li>
+                            <li>Boiler tubes for thermal, gas & nuclear plants</li>
+                        </ul>
+                    </div>
                 </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
+                        <h5>Oil & Gas / Petrochemical</h5>
+                        <ul>
+                            <li>Process heat exchangers</li>
+                            <li>Condensers & coolers</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
+                        <h5>Chemical & Fertilizer Plants</h5>
+                        <ul>
+                            <li>Reactors, evaporators, cooling towers</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-droplet"></i></div>
+                        <h5>Marine & Offshore</h5>
+                        <ul>
+                            <li>Cu-Ni & Titanium seawater condensers</li>
+                            <li>Marine boiler systems</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
+                        <h5>Food & Dairy</h5>
+                        <ul>
+                            <li>Hygienic stainless-steel heat exchanger tubes</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
+                        <h5>HVAC & Refrigeration</h5>
+                        <ul>
+                            <li>Evaporators, condensers, chilled water systems</li>
+                        </ul>
+                    </div>
+                </div>
+
             </div>
-            {{-- <p class="text-center pb-3 my-4"><strong class="text-dark">HASTELLOY C-276's</strong> unique combination of
+        </div>
+        {{-- <p class="text-center pb-3 my-4"><strong class="text-dark">HASTELLOY C-276's</strong> unique combination of
                 corrosion resistance, weldability, and mechanical durability makes it a reliable material for
                 mission-critical applications where long-term performance is non-negotiable.
 
@@ -1982,160 +1987,160 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     {{-- Industries We Serve --}}
-<section class="sec-padd-top sec-padd-bottom bg-light">
-    <div class="container">
-        <div class="section-title center">
-            <h2>Industries We Serve</h2>
-        </div>
-
-        <div class="row g-4 mt-4">
-
-            <div class="col-6 col-md-4 col-lg-2">
-                <div class="application-card text-center">
-                    <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
-                    <h5>Power Plants</h5>
-                </div>
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Industries We Serve</h2>
             </div>
 
-            <div class="col-6 col-md-4 col-lg-2">
-                <div class="application-card text-center">
-                    <div class="application-icon"><i class="bi bi-droplet-half"></i></div>
-                    <h5>Petrochemical</h5>
+            <div class="row g-4 mt-4">
+
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="application-card text-center">
+                        <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
+                        <h5>Power Plants</h5>
+                    </div>
                 </div>
+
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="application-card text-center">
+                        <div class="application-icon"><i class="bi bi-droplet-half"></i></div>
+                        <h5>Petrochemical</h5>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="application-card text-center">
+                        <div class="application-icon"><i class="ri-ship-2-fill"></i></div>
+                        <h5>Marine</h5>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="application-card text-center">
+                        <div class="application-icon"><i class="ri-test-tube-fill"></i></div>
+                        <h5>Chemical</h5>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="application-card text-center">
+                        <div class="application-icon"><i class="bi bi-water"></i></div>
+                        <h5>Desalination</h5>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="application-card text-center">
+                        <div class="application-icon"><i class="bi bi-snow"></i></div>
+                        <h5>HVAC</h5>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Buying Guide Section (Styled for Your UI) -->
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Buying Guide: How to Select the Right Boiler & Heat Exchanger Tube</h2>
             </div>
 
-            <div class="col-6 col-md-4 col-lg-2">
-                <div class="application-card text-center">
-                    <div class="application-icon"><i class="ri-ship-2-fill"></i></div>
-                    <h5>Marine</h5>
+            <div class="row g-4 mt-4">
+                <div class="col-md-12">
+                    <div class="application-card">
+                        {{--    <div class="application-icon center"><i class="bi bi-brightness-high-fill"></i><h5>3. Material Selection Guide</h5></div> --}}
+                        <div class="application-icon center d-flex align-items-center gap-4 justify-content-center">
+                            <i class="bi bi-brightness-high-fill"></i>
+                            <h5 class="m-0">Material Selection Guide</h5>
+                        </div>
+
+
+
+                        <div class="table-responsive mt-3">
+                            <table class="table table-bordered">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th>Material</th>
+                                        <th>Ideal For</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Stainless Steel</td>
+                                        <td>Steam, hygienic systems</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Duplex / Super Duplex</td>
+                                        <td>Seawater, chlorides</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Nickel Alloys</td>
+                                        <td>Acids, extreme corrosion</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Carbon Steel</td>
+                                        <td>High-pressure boiler tubes</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
                 </div>
+                <!-- Card 1 -->
+                <!-- Card 1 -->
+
+                <!-- Card 1 -->
+                <div class="col-md-6 center">
+                    <div class="application-card">
+                        <div class="application-icon">
+                            <i class="bi bi-list-check"></i>
+                        </div>
+                        <h5>Selecting Boiler Tubes</h5>
+                        <ul>
+                            <li>Temperature and pressure rating requirements</li>
+                            <li>Flow medium compatibility (steam, water, chemical)</li>
+                            <li>Corrosion exposure considerations</li>
+                            <li>Dimensional specifications (OD, thickness, tolerance)</li>
+                            <li>Compliance with applicable codes and standards</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-md-6 center">
+                    <div class="application-card">
+                        <div class="application-icon">
+                            <i class="bi bi-diagram-3-fill"></i>
+                        </div>
+                        <h5>Seamless vs Welded Tubes</h5>
+                        <ul>
+                            <li><strong>Seamless:</strong> No weld seam, superior strength for high pressure</li>
+                            <li><strong>Seamless:</strong> Ideal for critical boiler and superheater applications</li>
+                            <li><strong>Welded:</strong> Lower manufacturing cost, economical solution</li>
+                            <li><strong>Welded:</strong> Best for low to medium pressure heat exchangers</li>
+                            <li><strong>Both:</strong> Available in various grades and specifications</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Engineering Diagrams</h2>
             </div>
 
-            <div class="col-6 col-md-4 col-lg-2">
-                <div class="application-card text-center">
-                    <div class="application-icon"><i class="ri-test-tube-fill"></i></div>
-                    <h5>Chemical</h5>
-                </div>
-            </div>
-
-            <div class="col-6 col-md-4 col-lg-2">
-                <div class="application-card text-center">
-                    <div class="application-icon"><i class="bi bi-water"></i></div>
-                    <h5>Desalination</h5>
-                </div>
-            </div>
-
-            <div class="col-6 col-md-4 col-lg-2">
-                <div class="application-card text-center">
-                    <div class="application-icon"><i class="bi bi-snow"></i></div>
-                    <h5>HVAC</h5>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-   
-
-   <!-- Buying Guide Section (Styled for Your UI) -->
-<section class="sec-padd-top sec-padd-bottom bg-light">
-    <div class="container">
-        <div class="section-title center">
-            <h2>Buying Guide: How to Select the Right Boiler & Heat Exchanger Tube</h2>
-        </div>
-
-        <div class="row g-4 mt-4">
-<div class="col-md-12">
-    <div class="application-card">
-        {{--    <div class="application-icon center"><i class="bi bi-brightness-high-fill"></i><h5>3. Material Selection Guide</h5></div> --}}
-        <div class="application-icon center d-flex align-items-center gap-4 justify-content-center">
-        <i class="bi bi-brightness-high-fill"></i>
-        <h5 class="m-0">Material Selection Guide</h5>
-        </div>
-
-        
-
-        <div class="table-responsive mt-3">
-            <table class="table table-bordered">
-                <thead class="table-light">
-                    <tr>
-                        <th>Material</th>
-                        <th>Ideal For</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Stainless Steel</td>
-                        <td>Steam, hygienic systems</td>
-                    </tr>
-                    <tr>
-                        <td>Duplex / Super Duplex</td>
-                        <td>Seawater, chlorides</td>
-                    </tr>
-                    <tr>
-                        <td>Nickel Alloys</td>
-                        <td>Acids, extreme corrosion</td>
-                    </tr>
-                    <tr>
-                        <td>Carbon Steel</td>
-                        <td>High-pressure boiler tubes</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-
-    </div>
-</div>
-            <!-- Card 1 -->
-    <!-- Card 1 -->
-
-<!-- Card 1 -->
-<div class="col-md-6 center">
-    <div class="application-card">
-        <div class="application-icon">
-            <i class="bi bi-list-check"></i>
-        </div>
-        <h5>Selecting Boiler Tubes</h5>
-        <ul>
-            <li>Temperature and pressure rating requirements</li>
-            <li>Flow medium compatibility (steam, water, chemical)</li>
-            <li>Corrosion exposure considerations</li>
-            <li>Dimensional specifications (OD, thickness, tolerance)</li>
-            <li>Compliance with applicable codes and standards</li>
-        </ul>
-    </div>
-</div>
-
-<!-- Card 2 -->
-<div class="col-md-6 center">
-    <div class="application-card">
-        <div class="application-icon">
-            <i class="bi bi-diagram-3-fill"></i>
-        </div>
-        <h5>Seamless vs Welded Tubes</h5>
-        <ul>
-            <li><strong>Seamless:</strong> No weld seam, superior strength for high pressure</li>
-            <li><strong>Seamless:</strong> Ideal for critical boiler and superheater applications</li>
-            <li><strong>Welded:</strong> Lower manufacturing cost, economical solution</li>
-            <li><strong>Welded:</strong> Best for low to medium pressure heat exchangers</li>
-            <li><strong>Both:</strong> Available in various grades and specifications</li>
-        </ul>
-    </div>
-</div>
-<!-- Card 3 -->
-
-        </div>
-    </div>
-</section>
-
-
-<section class="sec-padd-top sec-padd-bottom">
-    <div class="container">
-        <div class="section-title center">
-            <h2>Engineering Diagrams</h2>
-        </div>
-
-        <div class="row g-4 mt-4">
+            <div class="row g-4 mt-4">
 
             <!-- Diagram 1 -->
             <div class="col-md-6 center">
@@ -2159,9 +2164,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             </div>
 
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
     {{-- Uses of Welded Pipes and Tubes --}}
     <section class="sec-padd-top sec-padd-bottom bg-light">
@@ -2278,65 +2283,65 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         </div>
     </section>
- <section class="sec-padd-top sec-padd-bottom bg-light">
-    <div class="container">
-        <div class="section-title center">
-            <h2>Testing & Quality Control for Boiler & Heat Exchanger Tubes</h2>
-        </div>
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Testing & Quality Control for Boiler & Heat Exchanger Tubes</h2>
+            </div>
 
-       <div class="row g-4 mt-4">
+            <div class="row g-4 mt-4">
 
-    <div class="col-sm-6 col-lg-4">
-        <div class="advantage-card">
-            <div class="advantage-icon"><i class="bi bi-droplet-fill"></i></div>
-            <h4>Hydrostatic Test</h4>
-            <h5>Hydrostatic test for pressure integrity verification.</h5>
-        </div>
-    </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-droplet-fill"></i></div>
+                        <h4>Hydrostatic Test</h4>
+                        <h5>Hydrostatic test for pressure integrity verification.</h5>
+                    </div>
+                </div>
 
-    <div class="col-sm-6 col-lg-4">
-        <div class="advantage-card">
-            <div class="advantage-icon"><i class="bi bi-activity"></i></div>
-            <h4>Eddy Current Test</h4>
-            <h5>Eddy current testing for detecting surface-level defects.</h5>
-        </div>
-    </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-activity"></i></div>
+                        <h4>Eddy Current Test</h4>
+                        <h5>Eddy current testing for detecting surface-level defects.</h5>
+                    </div>
+                </div>
 
-    <div class="col-sm-6 col-lg-4">
-        <div class="advantage-card">
-            <div class="advantage-icon"><i class="bi bi-check2-circle"></i></div>
-            <h4>PMI Test</h4>
-            <h5>PMI testing to verify material grade and composition.</h5>
-        </div>
-    </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-check2-circle"></i></div>
+                        <h4>PMI Test</h4>
+                        <h5>PMI testing to verify material grade and composition.</h5>
+                    </div>
+                </div>
 
-    <div class="col-sm-6 col-lg-4">
-        <div class="advantage-card">
-            <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
-            <h4>Hardness Test</h4>
-            <h5>Hardness testing for strength and durability confirmation.</h5>
-        </div>
-    </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
+                        <h4>Hardness Test</h4>
+                        <h5>Hardness testing for strength and durability confirmation.</h5>
+                    </div>
+                </div>
 
-    <div class="col-sm-6 col-lg-4">
-        <div class="advantage-card">
-            <div class="advantage-icon"><i class="bi bi-arrows-expand"></i></div>
-            <h4>Flattening & Flaring Test</h4>
-            <h5>Flattening and flaring to assess ductility and deformation.</h5>
-        </div>
-    </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-arrows-expand"></i></div>
+                        <h4>Flattening & Flaring Test</h4>
+                        <h5>Flattening and flaring to assess ductility and deformation.</h5>
+                    </div>
+                </div>
 
-    <div class="col-sm-6 col-lg-4">
-        <div class="advantage-card">
-            <div class="advantage-icon"><i class="bi bi-broadcast-pin"></i></div>
-            <h4>Ultrasonic Test (UT)</h4>
-            <h5>Ultrasonic testing for internal and volumetric defects.</h5>
-        </div>
-    </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-broadcast-pin"></i></div>
+                        <h4>Ultrasonic Test (UT)</h4>
+                        <h5>Ultrasonic testing for internal and volumetric defects.</h5>
+                    </div>
+                </div>
 
-</div>
+            </div>
 
-</section>
+    </section>
 
 
 
@@ -2359,7 +2364,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
-                        <h5>Advanced Manufacturing: Precision cold drawing, heat treatment, U-bending, and finishing for high-performance tubes.
+                        <h5>Advanced Manufacturing: Precision cold drawing, heat treatment, U-bending, and finishing for
+                            high-performance tubes.
                         </h5>
                     </div>
                 </div>
@@ -2398,119 +2404,132 @@ document.addEventListener('DOMContentLoaded', () => {
 
     <!--End breadcrumb area-->
 
-   
-<!--Start faq content area-->
-<section class="faq-content-area sec-padd2">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="accordion-box">
-                    <div class="section-title center">
-                        <h2>Frequently Asked Questions (FAQ)</h2>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>Frequently Asked Questions (FAQ)</h2>
+
+                        </div>
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are Boiler & Heat Exchanger Tubes?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Boiler & Heat Exchanger Tubes are precision-engineered components used in power plants,
+                                    refineries, chemical industries, and various heat-transfer systems. They are built to
+                                    withstand high temperature, high pressure, and corrosive environments while maintaining
+                                    stable heat transfer efficiency.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What materials are used to manufacture these tubes?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    These tubes are manufactured in Stainless Steel, Duplex/Super Duplex, Nickel Alloys
+                                    (Inconel, Monel), Alloy Steel, Carbon Steel, Copper Alloys, and Titanium. The selection
+                                    depends on the operating temperature, pressure, and fluid medium.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What sizes and dimensions are available?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Boiler & Heat Exchanger Tubes are available from 6 mm to 219 mm OD, 0.5 mm to 12.7 mm
+                                    wall thickness, and lengths up to 12 meters. Available in Seamless, Welded, ERW, EFW,
+                                    and U-Bent forms.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What standards do these tubes meet?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    These tubes are manufactured according to ASTM A179, A192, A213, A249, A269, A333, ASME
+                                    SA213, EN 10216, DIN, and related global specifications with strict inspection and QC.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the main applications of Boiler & Heat Exchanger Tubes?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Used in boilers, superheaters, reheaters, economizers, heat exchangers, condensers,
+                                    petrochemical heaters, chemical processing, marine applications (Cu-Ni & titanium), food
+                                    & dairy systems, and HVAC/refrigeration.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is the MOQ and typical lead time?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Ex‑stock sizes dispatch 2–5 days; make‑to‑order 2–6 weeks, grade/OD/WT par depend karta
+                                    hai.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What test certificates and NDT do you provide?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    EN 10204 3.1 MTC with heat/lot traceability; Hydro, Eddy Current, UT, PMI, Hardness
+                                    testing available as per PO.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
 
                     </div>
-
-                    <!--Start single accordion box-->
-                 <div class="accordion accordion-block">
-    <div class="accord-btn">
-        <h4>What are Boiler & Heat Exchanger Tubes?</h4>
-    </div>
-    <div class="accord-content">
-        <p>
-            Boiler & Heat Exchanger Tubes are precision-engineered components used in power plants, refineries, chemical industries, and various heat-transfer systems. They are built to withstand high temperature, high pressure, and corrosive environments while maintaining stable heat transfer efficiency.
-        </p>
-    </div>
-</div>
-<!--End single accordion box-->
-
-<div class="accordion accordion-block">
-    <div class="accord-btn">
-        <h4>What materials are used to manufacture these tubes?</h4>
-    </div>
-    <div class="accord-content">
-        <p>
-            These tubes are manufactured in Stainless Steel, Duplex/Super Duplex, Nickel Alloys (Inconel, Monel), Alloy Steel, Carbon Steel, Copper Alloys, and Titanium. The selection depends on the operating temperature, pressure, and fluid medium.
-        </p>
-    </div>
-</div>
-<!--End single accordion box-->
-
-<div class="accordion accordion-block">
-    <div class="accord-btn">
-        <h4>What sizes and dimensions are available?</h4>
-    </div>
-    <div class="accord-content">
-        <p>
-            Boiler & Heat Exchanger Tubes are available from 6 mm to 219 mm OD, 0.5 mm to 12.7 mm wall thickness, and lengths up to 12 meters. Available in Seamless, Welded, ERW, EFW, and U-Bent forms.
-        </p>
-    </div>
-</div>
-<!--End single accordion box-->
-
-<div class="accordion accordion-block">
-    <div class="accord-btn">
-        <h4>What standards do these tubes meet?</h4>
-    </div>
-    <div class="accord-content">
-        <p>
-            These tubes are manufactured according to ASTM A179, A192, A213, A249, A269, A333, ASME SA213, EN 10216, DIN, and related global specifications with strict inspection and QC.
-        </p>
-    </div>
-</div>
-<!--End single accordion box-->
-
-<div class="accordion accordion-block">
-    <div class="accord-btn">
-        <h4>What are the main applications of Boiler & Heat Exchanger Tubes?</h4>
-    </div>
-    <div class="accord-content">
-        <p>
-            Used in boilers, superheaters, reheaters, economizers, heat exchangers, condensers, petrochemical heaters, chemical processing, marine applications (Cu-Ni & titanium), food & dairy systems, and HVAC/refrigeration.
-        </p>
-    </div>
-</div>
-<!--End single accordion box-->
-
-
-<div class="accordion accordion-block">
-    <div class="accord-btn">
-        <h4>What is the MOQ and typical lead time?</h4>
-    </div>
-    <div class="accord-content">
-        <p>
-            Ex‑stock sizes dispatch 2–5 days; make‑to‑order 2–6 weeks, grade/OD/WT par depend karta hai.
-        </p>
-    </div>
-</div>
-<!--End single accordion box-->
-
-
-<div class="accordion accordion-block">
-    <div class="accord-btn">
-        <h4>What test certificates and NDT do you provide?</h4>
-    </div>
-    <div class="accord-content">
-        <p>
-            EN 10204 3.1 MTC with heat/lot traceability; Hydro, Eddy Current, UT, PMI, Hardness testing available as per PO.
-        </p>
-    </div>
-</div>
-<!--End single accordion box-->
-
-
-        </div>
-    </div>
-</section>
-<!--End faq content area-->
+                </div>
+    </section>
+    <!--End faq content area-->
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    For further information, quotes, or customized boiler and heat exchanger tube products, <strong>Moksh Tubes & Fittings
+                    For further information, quotes, or customized boiler and heat exchanger tube products, <strong>Moksh
+                        Tubes & Fittings
                         LLP</strong> is your dependable partner for Boiler & Heat Exchanger Tubing Solutions.</p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch
@@ -2522,40 +2541,38 @@ document.addEventListener('DOMContentLoaded', () => {
 @endsection
 
 @push('styles')
-<style>
-/* Base state for collapsed rows */
-tr.collapse {
-    opacity: 0;
-    transform: translateY(-6px) scale(0.98);
-    transition:
-        opacity .35s ease,
-        transform .35s ease;
-}
+    <style>
+        /* Base state for collapsed rows */
+        tr.collapse {
+            opacity: 0;
+            transform: translateY(-6px) scale(0.98);
+            transition:
+                opacity .35s ease,
+                transform .35s ease;
+        }
 
-/* When collapsing (Bootstrap interim state) */
-tr.collapsing {
-    opacity: 0;
-    transform: translateY(-10px) scale(0.96);
-    display: table-row !important;
-}
+        /* When collapsing (Bootstrap interim state) */
+        tr.collapsing {
+            opacity: 0;
+            transform: translateY(-10px) scale(0.96);
+            display: table-row !important;
+        }
 
-/* When fully shown */
-tr.collapse.show {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-    display: table-row;
-}
-
-
-</style>
+        /* When fully shown */
+        tr.collapse.show {
+            opacity: 1;
+            transform: translateY(0) scale(1);
+            display: table-row;
+        }
+    </style>
 @endpush
 
 
 
 @section('jsscripts')
     @verbatim
-  
-    <script type="application/ld+json">
+
+        <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",

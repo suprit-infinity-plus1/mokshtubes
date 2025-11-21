@@ -1,8 +1,6 @@
 @extends('layouts.master')
 @section('title', 'About Mokshtubes LLP | Expert in High-Performance Alloys')
-<!-- 52 characters -->
 @section('meta_description', 'Learn about Mokshtubes LLP, a trusted global supplier of stainless steel, nickel alloys, Hastelloy, Inconel and custom-engineered metal solutions for critical industries.')
-<!-- 152 characters -->
 @section('meta_keywords',
 'Mokshtubes, Metal Alloys Supplier, High Performance Alloys, Industrial Metal Solutions,
 Premium Quality Alloys, Alloy Tubes, Engineering Alloys')
