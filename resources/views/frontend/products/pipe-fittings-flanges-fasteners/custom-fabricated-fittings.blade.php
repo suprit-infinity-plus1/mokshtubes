@@ -4,6 +4,8 @@
     duplex, nickel & titanium alloys per ASTM & ASME standards.') <!-- 153 characters -->
 @section('meta_keywords', 'Custom Fabricated Fittings, Industrial Fittings, Stainless Steel Fittings, Alloy Fittings,
     Duplex Fittings, Titanium Fittings, Nickel Fittings, ASTM/ASME Fittings')
+@section('og_image', asset('assets/images/peoduct/flangs/custom-fabricated-fittings.jpeg'))
+@section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/flangs/custom-fabricated-fittings.jpeg);">

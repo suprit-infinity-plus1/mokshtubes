@@ -3,6 +3,8 @@
 @section('meta_description', 'Stainless, carbon, alloy, duplex, nickel, and titanium pipe fittings from Moksh Tubes — ASTM/ASME compliant and built for reliable performance.') <!-- 153 characters -->
 @section('meta_keywords', 'Pipe Fittings, Stainless Steel Fittings, Carbon Steel Fittings, Alloy Steel Fittings, Duplex
     Fittings, Nickel Alloy Fittings, Titanium Fittings, ASTM/ASME Fittings, Industrial Pipe Fittings')
+    @section('og_image', asset('assets/images/peoduct/flangs/Pipe-Fittings.jpg'))
+@section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/flangs/Pipe-Fittings.jpg);">

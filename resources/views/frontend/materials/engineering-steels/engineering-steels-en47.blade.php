@@ -3,11 +3,12 @@
 @section('title', 'EN47 Spring Steel | High Strength Elastic Alloy Steel')
 @section('meta_description', 'EN47 Spring Steel with excellent elasticity and tensile strength ideal for precision spring manufacturing.')
 @section('meta_keywords', 'EN47 Spring Steel, high strength spring steel, elastic steel, tensile strength steel, spring manufacturing steel, industrial spring steel')
-
+@section('og_image', asset('assets/images/engineering-steels/engineering-steels-en47.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/engineering-steels/engineering-steels-en47.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

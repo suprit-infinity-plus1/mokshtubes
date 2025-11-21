@@ -20,10 +20,13 @@
 @section('meta_keywords', '1055 Engineering Steel, medium carbon steel, durable steel, mechanical steel, industrial
     steel, high strength steel, steel for components')
 
+@section('og_image', asset('assets/images/engineering-steels/engineering-steels-1055.webp'))
+@section('og_type', 'article')
+
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/engineering-steels/engineering-steels-1055.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -70,7 +73,7 @@
                         <p class="fs-6 text-justify">
                             We supply Engineering Steel 1055 in multiple product forms such as <strong><a href="{{ route('products.bars-rods.round-bars') }}">round bars,</a><a href="{{ route('products.bars-rods.flat-bars') }}"> flat
                                 bars,</a> plates,
-                                sheets, coils, strips, seamless & welded tubes</strong> and custom-machined components.
+                                sheets, coils, strips, seamless &<a href="{{route ('products.pipes-tubes.welded-pipes')}}"> welded tubes</a></strong> and custom-machined components.
                             Available in
                             annealed, normalized, hot-rolled, cold-drawn and heat-treated conditions — EN 1055 can be
                             customized

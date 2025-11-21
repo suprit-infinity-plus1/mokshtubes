@@ -3,11 +3,12 @@
 @section('title', 'Titanium Grade 2 – Industrial Grade Titanium') <!-- 52 chars -->
 @section('meta_description', 'Titanium Grade 2 provides excellent corrosion resistance and strength, ideal for aerospace, medical, and industrial applications.')
 @section('meta_keywords', 'Titanium Grade 2, Industrial Grade Titanium, Corrosion Resistant Titanium, Titanium Grade 2 Pipes, Titanium Grade 2 Tubes, Titanium Grade 2 Sheets, Aerospace Titanium Alloys, Medical Industry Titanium, High Strength Titanium, Industrial Titanium Grades')
-
+@section('og_image', asset('assets/images/titanium/titanium-2.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/titanium/titanium-2.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

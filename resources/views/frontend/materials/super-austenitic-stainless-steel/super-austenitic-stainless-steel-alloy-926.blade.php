@@ -3,11 +3,12 @@
 @section('title', 'Alloy 926 – High-Performance Super Austenitic') <!-- 52 chars -->
 @section('meta_description', 'Alloy 926 pipes, tubes, and fittings offer excellent pitting, crevice, and chloride corrosion resistance for harsh marine and chemical environments.')
 @section('meta_keywords', 'Alloy 926, Super Austenitic Stainless Steel, Corrosion Resistant Alloy, Alloy 926 Pipes, Alloy 926 Tubes, Alloy 926 Fittings, Pitting Resistant Alloy, Crevice Corrosion Resistant, Chloride Resistant Alloy, Marine Industry Alloys, Chemical Processing Alloys')
-
+@section('og_image', asset('assets/images/super-austenitic-stainless-steel/super-austenitic-stainless-steel-AL-926.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/super-austenitic-stainless-steel/super-austenitic-stainless-steel-AL-926.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

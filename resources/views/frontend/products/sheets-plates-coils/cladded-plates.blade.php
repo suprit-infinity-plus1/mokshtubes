@@ -7,6 +7,8 @@
     'cladded plates, stainless steel cladded plates, nickel cladded plates, titanium cladded
     plates, copper cladded plates, corrosion resistant plates, durable cladded plates, marine industry plates, chemical
     industry plates, oil and gas industry plates')
+    @section('og_image', asset('assets/images/peoduct/Sheets-Plates-and-Coils/Cladded-Plates.jpg'))
+@section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/Sheets-Plates-and-Coils/Cladded-Plates.jpg);">

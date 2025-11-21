@@ -3,11 +3,12 @@
 @section('title', 'Stainless Steel 420 | Mokshtubes Sheets & Bars Dealer')
 @section('meta_description', 'Stainless Steel 420 sheets, bars & coils from MokshTubes – corrosion-resistant, durable, and hard, perfect for precision engineering applications.')
 @section('meta_keywords', 'Stainless Steel 420, AISI 420, UNS S42000, martensitic stainless steel, stainless steel sheets, stainless steel bars, stainless steel coils, corrosion-resistant stainless steel, high-strength stainless steel, precision engineering materials, wear-resistant stainless steel')
-
+@section('og_image', asset('assets/images/high-strength-stainless-steel/Stainless-Steel-420.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-<section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+<section class="breadcrumb-area" style="background-image: url(/assets/images/high-strength-stainless-steel/Stainless-Steel-420.webp);">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-auto text-center">

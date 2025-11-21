@@ -3,10 +3,11 @@
 @section('title', 'Nickel 200 – Commercial Pure Nickel Grade') <!-- 52 chars -->
 @section('meta_description', 'Premium Nickel 200 offers excellent thermal and electrical conductivity along with outstanding corrosion resistance for diverse industrial applications.')
 @section('meta_keywords', 'Nickel 200, Commercial Nickel, Pure Nickel, Thermal Conductivity, Electrical Conductivity, Corrosion Resistant Nickel, Industrial Nickel, Nickel Alloy, High Purity Nickel')
-
+@section('og_image', asset('assets/images/nickel-based-superalloys/nickel-based-superalloys-200.webp'))
+@section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/nickel-based-superalloys/nickel-based-superalloys-200.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

@@ -3,11 +3,12 @@
 @section('title', 'Stainless Steel 422 | Mokshtubes Fittings Exporter')
 @section('meta_description', 'Stainless Steel 422 fittings & fasteners from Mokshtubes – corrosion-resistant, durable, and strong for engineering and industrial applications.')
 @section('meta_keywords', 'Stainless Steel 422, Stainless Steel 422 Fittings, Stainless Steel 422 Fasteners, Stainless Steel 422 Supplier, Stainless Steel 422 Exporter, Stainless Steel 422 Stockist, Stainless Steel 422 Manufacturer')
-
+@section('og_image', asset('assets/images/high-strength-stainless-steel/Stainless-Steel-422.webp'))
+@section('og_type', 'article')
 @section('content')
 
   <!--Start breadcrumb area-->
-<section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+<section class="breadcrumb-area" style="background-image: url(/assets/images/high-strength-stainless-steel/Stainless-Steel-422.webp);">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-auto text-center">

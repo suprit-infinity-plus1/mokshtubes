@@ -3,11 +3,12 @@
 @section('title', '410 Stainless Steel | Premium Alloy for Industries')
 @section('meta_description', 'High-quality 410 Stainless Steel with good corrosion resistance, high strength & wear resistance — ideal for engineering, automotive & industrial uses.')
 @section('meta_keywords', '410 stainless steel, AISI 410, UNS S41000, martensitic stainless steel, corrosion-resistant stainless steel, high-strength stainless steel, wear-resistant stainless steel, stainless steel sheets, stainless steel plates, stainless steel bars, stainless steel rods, industrial applications stainless steel')
-
+@section('og_image', asset('assets/images/high-strength-stainless-steel/Stainless-Steel-410.webp'))
+@section('og_type', 'article')
 @section('content')
 
    <!--Start breadcrumb area-->
-<section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+<section class="breadcrumb-area" style="background-image: url(/assets/images/high-strength-stainless-steel/Stainless-Steel-410.webp);">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-auto text-center">

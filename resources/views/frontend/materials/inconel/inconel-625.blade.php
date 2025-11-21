@@ -8,11 +8,12 @@
     'Inconel 625, Superior Strength Alloy, Marine Protection Alloy, Nickel Alloys, Fatigue
     Resistant Alloy, Creep Resistant Alloy, Chloride Resistant Alloy, Aerospace Alloys, Marine Industry Alloys, Chemical
     Processing Alloys, Corrosion Resistant Alloys')
-
+@section('og_image', asset('assets/images/inconel/Inconel-625.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/inconel/Inconel-625.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

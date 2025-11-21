@@ -9,10 +9,11 @@
     Incoloy 800HT Tubes, Incoloy 800H Fittings, Incoloy 800HT Fittings, Heat Resistant Incoloy 800H, Heat Resistant Incoloy
     800HT, High Temperature Incoloy 800H, High Temperature Incoloy 800HT, Creep Resistant Incoloy 800H, Creep Resistant
     Incoloy 800HT, Petrochemical Incoloy 800H, Power Generation Incoloy 800HT')
-
+@section('og_image', asset('assets/images/incoloy/incoloy-800h_800ht.webp'))
+@section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(assets/images/incoloy/incoloy-800h_800ht.webp;">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

@@ -3,11 +3,12 @@
 @section('title', 'Titanium Grade 7 – Corrosion Resistant Titanium Alloy') <!-- 52 chars -->
 @section('meta_description', 'Titanium Grade 7 – excellent corrosion resistance in oxidizing and reducing environments, ideal for chemical, marine, and industrial applications.')
 @section('meta_keywords', 'Titanium Grade 7, Corrosion Resistant Titanium, Titanium Grade 7 Pipes, Titanium Grade 7 Tubes, Titanium Grade 7 Sheets, Oxidizing Resistant Titanium, Reducing Environment Titanium, Chemical Industry Titanium, Industrial Titanium Alloys, High Performance Titanium')
-
+@section('og_image', asset('assets/images/titanium/titanium-7.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/titanium/titanium-7.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

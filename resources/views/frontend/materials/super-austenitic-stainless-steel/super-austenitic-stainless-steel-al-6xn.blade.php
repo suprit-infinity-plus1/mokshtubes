@@ -3,11 +3,12 @@
 @section('title', 'AL-6XN – Superior Corrosion Resistant Alloy') <!-- 52 chars -->
 @section('meta_description', 'AL-6XN pipes, tubes, and fittings offer exceptional corrosion resistance in seawater, chemical, and food processing environments.')
 @section('meta_keywords', 'AL-6XN, Corrosion Resistant Alloy, AL-6XN Pipes, AL-6XN Tubes, AL-6XN Fittings, Seawater Resistant Alloy, Chemical Processing Alloys, Food Processing Alloys, High Strength Stainless Steel, Industrial Corrosion Resistant Alloys')
-
+@section('og_image', asset('assets/images/super-austenitic-stainless-steel/super-austenitic-stainless-steel-AL-6XN.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/super-austenitic-stainless-steel/super-austenitic-stainless-steel-AL-6XN.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

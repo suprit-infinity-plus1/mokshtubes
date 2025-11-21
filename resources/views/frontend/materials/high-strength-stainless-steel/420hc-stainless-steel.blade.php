@@ -3,11 +3,12 @@
 @section('title', '420HC Stainless Steel | High Strength Alloy Supplier')
 @section('meta_description', 'Premium 420HC Stainless Steel offering high hardness, corrosion resistance & excellent wear properties for industrial, engineering & tooling applications.')
 @section('meta_keywords', '420HC Stainless Steel, UNS S42000, AISI 420HC, High Carbon Martensitic Stainless Steel, Corrosion Resistant Stainless Steel, High Hardness Stainless Steel, Wear Resistant Alloy, Industrial Stainless Steel Supplier, Engineering Grade Stainless Steel, Tooling Stainless Steel')
-
+@section('og_image', asset('assets/images/high-strength-stainless-steel/420HC-STAINLESS-STEEL.jpeg'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/high-strength-stainless-steel/420HC-STAINLESS-STEEL.jpeg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

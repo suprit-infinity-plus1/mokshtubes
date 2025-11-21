@@ -3,6 +3,8 @@
 @section('meta_description',
     'Moksh Tubes provides premium fabricated stainless steel grills – rust-resistant, durable, and stylish, ideal for gates, balconies, staircases, and windows.') <!-- 153 characters -->
 @section('meta_keywords', 'Fabricated Stainless Steel Grills, SS Grills Manufacturer, Stainless Steel Window Grills, SS Balcony & Staircase Grills, Custom Stainless Steel Grills, Decorative Stainless Steel Grills, Modern SS Grills for Home, Industrial Stainless Steel Grills, Duplex & Super Duplex Steel Grills, Stainless Steel Security Grills')
+@section('og_image', asset('assets/images/peoduct/SS-grill.jpg'))
+@section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/SS-grill.jpg);">

@@ -2,6 +2,8 @@
 @section('title', 'Premium Seamless Pipes – Stainless & Alloy Tubes') <!-- 52 characters -->
 @section('meta_description', 'Moksh Tubes offers high-quality seamless pipes with superior strength, precision, and
     durability for critical industrial, marine, and power applications.') <!-- 153 characters -->
+    @section('og_image', asset('assets/images/peoduct/seamless-pipes-2.webp'))
+@section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/seamless-pipes-2.webp);">

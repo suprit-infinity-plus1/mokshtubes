@@ -3,11 +3,12 @@
 @section('title', 'Stainless Steel 431 | Mokshtubes Precision Alloy Supplier')
 @section('meta_description', 'Stainless Steel 431 – high-quality, corrosion-resistant, hard, and tough for aerospace, tooling, and engineering applications.')
 @section('meta_keywords', 'Stainless Steel 431, Alloy 431, UNS S43100, High-Strength Martensitic Stainless Steel, SS 431 Pipes, SS 431 Tubes, SS 431 Sheets, SS 431 Plates, SS 431 Coils, SS 431 Flanges, SS 431 Fasteners, SS 431 Bars, SS 431 Rods, SS 431 Components')
-
+@section('og_image', asset('assets/images/high-strength-stainless-steel/Stainless-Steel-431.webp'))
+@section('og_type', 'article')
 @section('content')
 
    <!--Start breadcrumb area-->
-<section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+<section class="breadcrumb-area" style="background-image: url(/assets/images/high-strength-stainless-steel/Stainless-Steel-431.webp);">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-auto text-center">

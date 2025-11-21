@@ -8,7 +8,8 @@
     'Monel 400, Monel 400 Alloy, Nickel-Copper Alloy, Corrosion Resistant Alloy, High Strength
     Alloy, Marine Industry Alloys, Chemical Processing Alloys, Industrial Alloys, Impact Resistant Alloys, Durable Nickel
     Alloys')
-
+@section('og_image', asset('assets/images/material/monel-400.jpg'))
+@section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(/assets/images/material/monel-400.jpg);">

@@ -3,10 +3,12 @@
 @section('title', 'Haynes Superalloys 242 - Oxidation & Corrosion Resistant')
 @section('meta_description', 'Haynes Alloy 242 offers excellent oxidation, thermal stability, and corrosion resistance for demanding industrial environments.')
 @section('meta_keywords', 'Haynes Superalloys 242, Haynes Alloy 242, Oxidation Resistant Alloy, Corrosion Resistant Alloy, Thermal Stability Alloy, High Temperature Alloy, Industrial Haynes Alloys, Chemical Processing Haynes, Power Industry Haynes, Aerospace Haynes Alloys, Marine Industry Haynes')
+@section('og_image', asset('assets/images/haynes/haynes-242.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(assets/images/haynes/haynes-242.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

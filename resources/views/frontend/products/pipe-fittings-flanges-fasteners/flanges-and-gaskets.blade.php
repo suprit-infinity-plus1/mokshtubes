@@ -5,6 +5,8 @@
 @section('meta_keywords',
     'Flange Gaskets, Industrial Gaskets, Spiral Wound Gaskets, RTJ Gaskets, Rubber Gaskets,
     Chemical Resistant Gaskets, Non-Metallic Gaskets, Sealing Solutions')
+    @section('og_image', asset('assets/images/peoduct/flangs/Flange-Gaskets.jpg'))
+@section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/flangs/Flange-Gaskets.jpg);">

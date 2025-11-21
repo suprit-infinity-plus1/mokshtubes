@@ -3,11 +3,12 @@
 @section('title', 'SMO 254 – High Strength Chloride Resistant Alloy | Moksh') <!-- 52 chars -->
 @section('meta_description', 'Moksh Tubes supplies SMO 254 pipes, tubes & fittings offering high chloride corrosion resistance for marine, offshore & chemical environments.')
 @section('meta_keywords', 'SMO 254, Super Austenitic Stainless Steel, Chloride Resistant Alloy, Corrosion Resistant Alloy, SMO 254 Pipes, SMO 254 Tubes, SMO 254 Fittings, Marine Industry Alloys, Offshore Industry Alloys, Chemical Processing Alloys, Industrial Corrosion Resistant Alloys')
-
+@section('og_image', asset('assets/images/super-austenitic-stainless-steel/super-austenitic-stainless-steel-SMO-254.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/super-austenitic-stainless-steel/super-austenitic-stainless-steel-SMO-254.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

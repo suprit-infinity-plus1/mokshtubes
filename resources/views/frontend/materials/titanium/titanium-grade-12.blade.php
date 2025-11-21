@@ -3,11 +3,12 @@
 @section('title', 'Titanium Grade 12 – Corrosion Resistant & Weldable Alloy') <!-- 52 chars -->
 @section('meta_description', 'Titanium Grade 12 offers excellent corrosion resistance and enhanced weldability, ideal for marine, chemical, and industrial applications.')
 @section('meta_keywords', 'Titanium Grade 12, Corrosion Resistant Titanium, Weldable Titanium Alloy, Titanium Grade 12 Pipes, Titanium Grade 12 Tubes, Marine Titanium Alloys, Chemical Processing Titanium, Industrial Titanium Grades, High Strength Titanium, Premium Titanium Alloy')
-
+@section('og_image', asset('assets/images/titanium/titanium-grade2.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/titanium/titanium-grade2.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

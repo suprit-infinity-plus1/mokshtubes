@@ -3,11 +3,12 @@
 @section('title', '430F Stainless Steel | Free-Machining Alloy Supplier')
 @section('meta_description', 'High-performance 430F Stainless Steel with excellent machinability, corrosion resistance & durability for automotive, industrial & engineering components.')
 @section('meta_keywords', '430F Stainless Steel, UNS S43020, AISI 430F, Free-Machining Stainless Steel, Ferritic Stainless Steel, Corrosion Resistant Stainless Steel, High Machinability Alloy, Industrial Stainless Steel Supplier, Automotive Grade Stainless Steel, Engineering Stainless Steel')
-
+@section('og_image', asset('assets/images/high-strength-stainless-steel/430F-Stainless-Steel.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/high-strength-stainless-steel/430F-Stainless-Steel.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

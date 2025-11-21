@@ -3,11 +3,12 @@
 @section('title', '15-5 PH Stainless Steel | Premium Alloy Supplier')
 @section('meta_description', 'Discover high-quality 15-5 PH Stainless Steel with superior strength & corrosion resistance for aerospace, marine, & industrial needs.')
 @section('meta_keywords', 'Hastelloy C276, Corrosion Resistant Alloy, Nickel Alloy, Hastelloy C276 Pipes, Hastelloy C276 Tubes, Hastelloy C276 Fittings, Industrial Corrosion Resistant Alloys, Durable Nickel Alloys, Chemical Processing Alloys, Marine Alloys')
-
+@section('og_image', asset('assets/images/high-strength-stainless-steel/15-5-PH-STAINLESS-STEEL.jpg'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/high-strength-stainless-steel/15-5-PH-STAINLESS-STEEL.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

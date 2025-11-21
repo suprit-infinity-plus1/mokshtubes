@@ -7,11 +7,12 @@
     'Hastelloy C2000, Corrosion Resistant Alloy, Hastelloy C2000 Pipes, Hastelloy C2000 Tubes,
     Hastelloy C2000 Fittings, Oxidizing Agent Resistant, Reducing Agent Resistant, Chemical Processing Alloys, Mixed-Acid
     Resistant Alloy, Industrial Corrosion Alloys')
-
+@section('og_image', asset('assets/images/hastelloy/hastelloy-c2000.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/hastelloy/hastelloy-c2000.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

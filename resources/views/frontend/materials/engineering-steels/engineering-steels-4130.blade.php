@@ -4,10 +4,12 @@
 @section('meta_description', '4130 Alloy Steel offering high strength, toughness, and weldability for aerospace, automotive, and industrial applications.')
 @section('meta_keywords', '4130 Alloy Steel, chromium-molybdenum steel, high strength steel, tough steel, weldable steel, aerospace steel, automotive steel, industrial alloy steel')
 
+@section('og_image', asset('assets/images/engineering-steels/engineering-steels-4130.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/engineering-steels/engineering-steels-4130.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

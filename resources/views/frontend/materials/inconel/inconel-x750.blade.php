@@ -3,10 +3,11 @@
 @section('title', 'Inconel X-750 – Extreme Heat & Oxidation Alloy') <!-- 53 chars -->
 @section('meta_description', 'Inconel X-750 maintains strength and stability in extreme heat—ideal for springs, fasteners, and high-performance gas turbines.')
 @section('meta_keywords', 'Inconel X-750, Extreme Heat Alloys, Oxidation Resistant Alloys, High Temperature Alloys, Nickel Alloys, Corrosion Resistant Alloys, Inconel Springs, Inconel Fasteners, High-Performance Gas Turbine Alloys')
-
+@section('og_image', asset('assets/images/inconel/Inconel-X 750.webp'))
+@section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(assets/images/inconel/Inconel-X 750.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

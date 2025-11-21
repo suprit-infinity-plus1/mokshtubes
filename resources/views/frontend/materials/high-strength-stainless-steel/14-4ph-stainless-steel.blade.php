@@ -3,11 +3,12 @@
 @section('title', '14-4PH Stainless Steel – High Strength & Corrosion Resistant')
 @section('meta_description', 'Discover 14-4PH Stainless Steel pipes, sheets, bars & fittings from Mokshtubes Fittings & LLP — ideal for aerospace, marine & petrochemical applications.')
 @section('meta_keywords', '14-4PH Stainless Steel, 14-4PH Stainless Steel pipes, 14-4PH Stainless Steel sheets, 14-4PH Stainless Steel bars, 14-4PH Stainless Steel fittings, High-strength stainless steel, Corrosion-resistant stainless steel, Precipitation hardening stainless steel, Aerospace stainless steel, Marine-grade stainless steel, Petrochemical stainless steel')
-
+@section('og_image', asset('assets/images/high-strength-stainless-steel/14-4PH-Stainless-Steel.jpeg'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-  <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+  <section class="breadcrumb-area" style="background-image: url(/assets/images/high-strength-stainless-steel/14-4PH-Stainless-Steel.jpeg);">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-auto text-center">

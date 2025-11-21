@@ -3,11 +3,12 @@
 @section('title', 'Titanium Grade 7 Nb – Niobium Stabilized Titanium Alloy') <!-- 52 chars -->
 @section('meta_description', 'Titanium Grade 7 offers exceptional corrosion resistance for chemical, marine, and industrial applications in harsh environments.')
 @section('meta_keywords', 'Titanium Grade 7 Nb, Niobium Stabilized Titanium, Corrosion Resistant Titanium, Titanium Grade 7 Nb Pipes, Titanium Grade 7 Nb Tubes, Titanium Grade 7 Nb Sheets, Reducing Environment Resistant Titanium, Chemical Processing Titanium, Industrial Titanium Alloys, High Performance Titanium')
-
+@section('og_image', asset('assets/images/titanium/titanium-7nb.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/titanium/titanium-7nb.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

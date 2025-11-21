@@ -6,6 +6,8 @@
 @section('meta_keywords',
     'Shim Sheets, Shim Stock, Stainless Steel Shim Sheets, Precision Shims, Custom Shim Sheets,
     Shim Material Supplier')
+    @section('og_image', asset('assets/images/peoduct/Sheets-Plates-and-Coils/Shim-Sheets.jpeg'))
+@section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/Sheets-Plates-and-Coils/Shim-Sheets.jpeg);">

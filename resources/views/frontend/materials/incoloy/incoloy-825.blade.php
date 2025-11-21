@@ -6,10 +6,12 @@
     it a trusted choice for chemical and marine industries.')
 @section('meta_keywords', 'Incoloy 825, nickel alloy, corrosion resistant alloy, premium metal alloys, moksh tubes')
 @section('canonical', 'https://mokshtubes.com/materials/incoloy/incoloy-825')
+@section('og_image', asset('assets/images/incoloy/incoloy-825.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(assets/images/incoloy/incoloy-825.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

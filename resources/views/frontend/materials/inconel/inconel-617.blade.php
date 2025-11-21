@@ -8,11 +8,12 @@
     'Inconel 617, High-Temperature Alloy, Corrosion Resistant Alloy, Oxidation Resistant Alloy,
     Nickel Alloys, Gas Turbine Alloys, Chemical Processing Alloys, Petrochemical Industry Alloys, Heat Resistant Alloys,
     High Strength Alloys')
-
+@section('og_image', asset('assets/images/inconel/Inconel-617.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/inconel/Inconel-617.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

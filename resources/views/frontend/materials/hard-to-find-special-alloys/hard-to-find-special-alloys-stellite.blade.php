@@ -3,11 +3,12 @@
 @section('title', 'Stellite Metal | Moksh Tubes – Durable & High Strength')
 @section('meta_description', 'Stellite alloys at MokshTubes deliver exceptional hardness, wear and corrosion resistance for cutting tools, valves, machinery & high-stress applications.')
 @section('meta_keywords', 'Stellite alloy, high hardness alloy, wear resistant alloy, corrosion resistant alloy, cutting tools alloy, valves alloy, industrial machinery alloy, durable Stellite')
-
+@section('og_image', asset('assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-stellite.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-stellite.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

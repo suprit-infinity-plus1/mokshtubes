@@ -3,11 +3,12 @@
 @section('title', '17-4 PH Stainless Steel | Premium Alloy Supplier')
 @section('meta_description', '17-4 PH Stainless Steel – high-strength, corrosion-resistant, and durable for aerospace, marine, petrochemical, and industrial use.')
 @section('meta_keywords', '17-4 PH Stainless Steel, UNS S17400, ASTM A564, Precipitation Hardening Alloy, High Strength Stainless Steel, Corrosion Resistant Stainless Steel, Aerospace Stainless Steel, Marine Grade Stainless Steel, Industrial Stainless Steel Supplier')
-
+@section('og_image', asset('assets/images/high-strength-stainless-steel/17-4-PH-STAINLESS-STEEL.jpg'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/high-strength-stainless-steel/17-4-PH-STAINLESS-STEEL.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

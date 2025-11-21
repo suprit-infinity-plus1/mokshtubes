@@ -8,10 +8,11 @@
     'Incoloy 020, Incoloy 020 Pipes, Incoloy 020 Tubes, Incoloy 020 Fittings, Acid Resistant
     Incoloy 020, Corrosion Resistant Incoloy 020, Sulfuric Acid Resistant Incoloy 020, Chemical Processing Incoloy 020,
     Industrial Incoloy 020 Alloy, High Performance Incoloy 020')
-
+@section('og_image', asset('assets/images/incoloy/incoloy-020.webp'))
+@section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(assets/images/incoloy/incoloy-020.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

@@ -3,11 +3,12 @@
 @section('title', '904L Stainless – Premium Corrosion Resistant Alloy') <!-- 53 chars -->
 @section('meta_description', '904L stainless steel pipes, tubes, and fittings provide superior corrosion resistance for chemical, marine, and pharmaceutical industries.')
 @section('meta_keywords', '904L Stainless Steel, Corrosion Resistant Alloy, 904L Pipes, 904L Tubes, 904L Fittings, Chemical Industry Alloys, Marine Industry Alloys, Pharmaceutical Industry Alloys, High Strength Stainless Steel, Industrial Corrosion Resistant Alloys')
-
+@section('og_image', asset('assets/images/super-austenitic-stainless-steel/super-austenitic-stainless-steel-904L.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/super-austenitic-stainless-steel/super-austenitic-stainless-steel-904L.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

@@ -8,11 +8,12 @@
     'Monel K500, Monel K500 Alloy, Nickel-Copper Alloy, High Strength Alloy, Corrosion Resistant
     Alloy, Marine Industry Alloys, Chemical Processing Alloys, Oilfield Alloys, Impact Resistant Alloys, Durable Nickel
     Alloys')
-
+@section('og_image', asset('assets/images/monel/Monel-K500.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/monel/Monel-K500.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

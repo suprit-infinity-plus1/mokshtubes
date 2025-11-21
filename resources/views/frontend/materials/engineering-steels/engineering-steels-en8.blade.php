@@ -6,16 +6,18 @@
 @section('meta_keywords',
     'EN8 Engineering Steel, medium carbon steel, good tensile strength steel, machinable steel,
     general engineering steel, industrial steel')
+@section('og_image', asset('assets/images/engineering-steels/engineering-steels-en8.webp'))
+@section('og_type', 'article')
 
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/engineering-steels/engineering-steels-en8.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1>EN8 Steel – Chemical Composition, Properties, and Applications</h1>
-                   
+
 
                 </div>
             </div>
@@ -37,9 +39,9 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                <img src="{{ asset('assets/images/engineering-steels/engineering-steels-en8.webp') }}" 
-                     alt="EN8 steel bars and tubes - Moksh Tubes India" 
-                        loading="lazy" 
+                <img src="{{ asset('assets/images/engineering-steels/engineering-steels-en8.webp') }}"
+                     alt="EN8 steel bars and tubes - Moksh Tubes India"
+                        loading="lazy"
                      class="img-fluid rounded shadow-sm">
 
                 </div>
@@ -50,26 +52,26 @@
         <p class="fs-6 text-justify" style="text-align: justify;">
             <strong class="text-black">
                 <a href="{{ route('index') }}">MOKSH TUBES & FITTINGS LLP</a>
-            </strong> is a trusted manufacturer, exporter, and stockist of 
-            <strong class="text-black">EN8 Steel products</strong>, including 
-            Pipes, <a href="{{ route('products.pipes-tubes') }}">Tubes</a>, Round Bars, Flats, Squares, 
+            </strong> is a trusted manufacturer, exporter, and stockist of
+            <strong class="text-black">EN8 Steel products</strong>, including
+            Pipes, <a href="{{ route('products.pipes-tubes') }}">Tubes</a>, Round Bars, Flats, Squares,
             Forged Bars, Shafts, Sheets, Plates, Pipe Fittings, and Custom Machined Components.
         </p>
 
         <p class="fs-6" style="text-align: justify;">
-            <strong class="text-black">EN8</strong> is a medium carbon steel grade 
-            (approximately 0.40% carbon) known for its high tensile strength and good machinability. 
-            It is widely used in engineering applications that require better mechanical properties than mild steel. 
+            <strong class="text-black">EN8</strong> is a medium carbon steel grade
+            (approximately 0.40% carbon) known for its high tensile strength and good machinability.
+            It is widely used in engineering applications that require better mechanical properties than mild steel.
         </p>
 
         <p class="fs-6" style="text-align: justify;">
-            EN8 offers moderate wear resistance and excellent toughness, making it ideal for manufacturing shafts, axles, gears, bolts, studs, 
-            automotive parts, and other general-purpose 
+            EN8 offers moderate wear resistance and excellent toughness, making it ideal for manufacturing shafts, axles, gears, bolts, studs,
+            automotive parts, and other general-purpose
             <a href="{{ route('materials.engineering-Steels') }}">engineering</a> components.
         </p>
 
         <p class="fs-6" style="text-align: justify;">
-            Also known as <strong>080M40</strong> or <strong>AISI 1040</strong>, EN8 steel provides a reliable balance of strength, hardness, and machinability, 
+            Also known as <strong>080M40</strong> or <strong>AISI 1040</strong>, EN8 steel provides a reliable balance of strength, hardness, and machinability,
             making it one of the most popular choices among medium carbon steel grades.
         </p>
 

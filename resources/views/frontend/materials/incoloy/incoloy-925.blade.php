@@ -9,11 +9,12 @@
     Incoloy 925, Corrosion Resistant Incoloy 925, Sour Gas Resistant Incoloy 925, Oil & Gas Industry Incoloy 925, Marine
     Environment Incoloy 925, Industrial Incoloy 925 Alloy')
 @section('canonical', url('materials/incoloy/incoloy-925'))
-
+@section('og_image', asset('assets/images/incoloy/incoloy-925.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(assets/images/incoloy/incoloy-925.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

@@ -3,11 +3,12 @@
 @section('title', 'Zirconium 702 | High-Purity Corrosion Resistant')
 @section('meta_description', 'Zirconium 702 alloy offers excellent corrosion resistance and high purity, ideal for chemical, nuclear, and industrial applications.')
 @section('meta_keywords', 'Zirconium 702, High Purity Zirconium, Corrosion Resistant Zirconium, Zirconium 702 Pipes, Zirconium 702 Tubes, Zirconium 702 Sheets, Chemical Industry Zirconium, Nuclear Zirconium, Industrial Zirconium Alloys, High Performance Zirconium')
-
+@section('og_image', asset('assets/images/zirconium/zirconium-702.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/zirconium/zirconium-702.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

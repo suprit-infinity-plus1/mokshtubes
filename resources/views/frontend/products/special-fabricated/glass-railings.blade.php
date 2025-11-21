@@ -4,6 +4,8 @@
     'Mokshtubes provides premium glass railings for balconies, staircases, and terraces – durable, safe, and elegant designs for modern spaces.') <!-- 153 characters -->
 @section('meta_keywords',
     'glass railings, balcony glass railing, staircase glass railing, terrace glass railing, frameless glass railing, stainless steel glass railing, tempered glass railing, custom glass railing, modern glass railing designs')
+@section('og_image', asset('assets/images/peoduct/Glass-railing.jpg'))
+@section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/Glass-railing.jpg);">

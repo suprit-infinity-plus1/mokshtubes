@@ -3,10 +3,11 @@
 @section('title', 'Titanium Grade 23 – Ti-6Al-4V ELI High Strength Alloy') <!-- 52 chars -->
 @section('meta_description', 'Titanium Grade 23 (Ti-6Al-4V ELI) provides exceptional strength, low weight, and corrosion resistance for aerospace and medical applications.')
 @section('meta_keywords', 'Titanium Grade 23, Ti-6Al-4V ELI, High Strength Titanium, Lightweight Titanium Alloy, Aerospace Titanium Alloys, Medical Titanium Alloys, Corrosion Resistant Titanium, Titanium Grade 23 Pipes, Titanium Grade 23 Tubes, Industrial Titanium Grades')
-
+@section('og_image', asset('assets/images/titanium/titanium-23.webp'))
+@section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/titanium/titanium-23.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

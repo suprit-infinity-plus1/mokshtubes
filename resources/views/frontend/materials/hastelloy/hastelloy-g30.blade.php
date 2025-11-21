@@ -4,11 +4,12 @@
 @section('meta_description', 'Hastelloy G30 pipes, tubes & fittings offer exceptional resistance to nitric, phosphoric, and sulfuric acids, ideal for harsh chemical processing.')
 @section('meta_keywords', 'Hastelloy G30, Oxidation Resistant Alloy, Hastelloy G30 Pipes, Hastelloy G30 Tubes, Hastelloy
     G30 Fittings, Chemical Processing Alloys, Acid Resistant Alloy, Industrial Corrosion Resistant Alloys')
-
+@section('og_image', asset('assets/images/hastelloy/Hastelloy-G30.webp'))
+@section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/hastelloy/Hastelloy-G30.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
