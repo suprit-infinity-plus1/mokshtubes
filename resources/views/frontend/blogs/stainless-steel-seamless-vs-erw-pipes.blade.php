@@ -1,9 +1,10 @@
 @extends('layouts.master')
 
-@section('title', 'Seamless vs ERW Pipes: Complete Application Guide')
+@section('title', 'Seamless vs ERW Pipes: Best Choice by Application (Complete Guide)')
 @section('meta_description',
-    'Compare stainless steel seamless vs ERW pipes by pressure rating, standards, and cost to
-    choose the best type for your engineering project.')
+    'Compare stainless steel seamless vs ERW pipes by pressure rating, mechanical strength, QA
+    requirements, standards, and cost. Learn which pipe type fits your application with a clear engineering decision
+    guide.')
 @section('meta_keywords',
     'Stainless Steel Pipes, Buying Stainless Steel Pipes, Stainless Steel Pipe Grades, Stainless
     Steel')
@@ -210,12 +211,45 @@
                                             </p>
                                         </div>
                                         <div class="exapmle">
+                                             <!-- <h3>Cost & Lead Time</h3>
+                                            <p class="pb-2">Cost is a major driver in any project, but it's crucial to
+                                                look beyond the initial purchase price.</p>
+
+                                                <h3>Seamless Pipes</h3>
+                                            <ul>
+                                                <li>
+                                                   Higher manufacturing cost
+                                                </li>
+
+                                                <li>
+                                                    Longer lead time, especially for thick-wall or non-standard OD
+                                                </li>
+                                                <li>
+                                                    Higher machining cost due to variable tolerances
+                                                </li>
+
+                                            </ul>
+                                            <h4>ERW Pipes</h4>
+                                            <ul>
+                                                <li>More economical</li>
+                                                <li>Readily available in standard sizes (½" to 24")</li>
+                                                <li>Fast delivery</li>
+                                                <li>Lower total project CAPEX</li>
+                                            </ul>
+                                            <p class=" py-2">
+                                                <strong class="text-black">
+                                                    Winner:</strong> Carbon Steel for initial cost; Stainless Steel for
+                                                long-term value and life cycle cost.
+                                            </p> -->
+
+
+
 
                                             <h3>Cost & Lead Time</h3>
                                             <p class="pb-2">Cost is a major driver in any project, but it's crucial to
                                                 look beyond the initial purchase price.</p>
-                                            <h3>Seamless Pipes</h3>
-                                            <ul>
+
+                                                 <ul>
                                                 <li>
                                                     Higher manufacturing cost
                                                 </li>
@@ -240,7 +274,7 @@
                                                 <strong class="text-black">
                                                     Winner:</strong> Carbon Steel for initial cost; Stainless Steel for
                                                 long-term value and life cycle cost.
-                                            </p>
+                                            </p> --}}
                                         </div>
                                         <div class="exapmle">
                                             <h3>Standards & Testing Requirements</h3>

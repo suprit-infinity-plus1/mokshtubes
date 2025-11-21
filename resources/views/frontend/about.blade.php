@@ -1,8 +1,7 @@
 @extends('layouts.master')
-@section('title', 'About Us – Mokshtubes Fittings & LLP')
+@section('title', 'About Mokshtubes LLP | Expert in High-Performance Alloys')
 <!-- 52 characters -->
-@section('meta_description', 'Learn about Mokshtubes LLP, trusted manufacturer & exporter of stainless steel, Hastelloy,
-and Inconel products.')
+@section('meta_description', 'Learn about Mokshtubes LLP, a trusted global supplier of stainless steel, nickel alloys, Hastelloy, Inconel and custom-engineered metal solutions for critical industries.')
 <!-- 152 characters -->
 @section('meta_keywords',
 'Mokshtubes, Metal Alloys Supplier, High Performance Alloys, Industrial Metal Solutions,
@@ -58,7 +57,7 @@ Premium Quality Alloys, Alloy Tubes, Engineering Alloys')
                             <strong class="text-black">
                                 MOKSH TUBES & FITTINGS LLP
                             </strong>
-                            is one of the leading manufacturers, suppliers,
+                            is one of the leading suppliers,
                             stockists, and exporters of <strong class="text-black"><a href="{{ route('products.pipes-tubes') }}"> Pipes & Tubes</a>, Pipe Fittings,
                                 Flanges,
                                 Fasteners, Sheets

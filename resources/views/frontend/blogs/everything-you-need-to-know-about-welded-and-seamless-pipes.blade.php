@@ -30,8 +30,7 @@
                         <div class="single-blog-post">
                             <div class="img-holder">
                                 <img src="{{ asset('assets/images/blog/seamless_welded_pipes.jpeg') }}"
-                                    alt="everything-you-need-to-know-about-welded-and-seamless-pipes"
-                                    style="width:700px; height:400px; object-fit:cover;>
+                                    alt="everything-you-need-to-know-about-welded-and-seamless-pipes" style="width:700px; height:400px; object-fit:cover;">
                             </div>
                             <div class="text-holder">
                                 <div class="blog-title text-start">

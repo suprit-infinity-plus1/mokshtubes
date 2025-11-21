@@ -1,8 +1,7 @@
 @extends('layouts.master')
-@section('title', 'Contact Mokshtubes Fittings LLP | Request a Quote or Inquiry')
+@section('title', 'Contact Mokshtubes LLP | Request a Quote or Technical Help')
 @section('meta_description',
-'Get in touch with Mokshtubes Fittings & LLP for inquiries, quotations, or technical
-assistance. Call, email, or visit us.')
+'Get in touch with Mokshtubes LLP for quotations, product inquiries, technical assistance, or custom alloy requirements. Call, email, or visit us for quick support.')
 @section('og_image', asset('assets/images/slides/Mokshtubes-banner-desktop.webp'))
 @section('og_type', 'website')
 
