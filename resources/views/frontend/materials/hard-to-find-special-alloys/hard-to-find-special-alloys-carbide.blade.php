@@ -663,54 +663,55 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
-    @verbatim
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are Carbide Alloys used for?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Carbide Alloys are used for cutting tools, mining bits, drilling heads, stamping and punching dies, wear parts in industrial machinery, aerospace components, and chemical-resistant applications."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What types of Carbide Alloys does MOKSH TUBES & FITTINGS supply?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We supply Tungsten Carbide (WC), Titanium Carbide (TiC), Tantalum Carbide (TaC), and custom carbide grades for specialized applications, available as rods, strips, sheets, tubes, and fabricated components."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the key properties of Carbide Alloys?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Carbide Alloys offer extreme hardness, excellent wear resistance, high compressive strength, thermal stability, corrosion resistance (in specific grades), and long service life under harsh conditions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "In what forms are Carbide Alloys available?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Carbide Alloys are supplied as seamless and welded pipes, tubes, sheets, plates, bars, flanges, fasteners, and custom engineered components tailored to industrial needs."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why choose MOKSH TUBES & FITTINGS for Carbide Alloys?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We provide ISO compliant carbide products with precision machining capabilities, custom grade development, end to end supply from powder to finished parts, technical support, and global delivery for OEMs and industrial clients."
-      }
-    }
-  ]
-}
-@endverbatim
-</script>
+    <script type="application/ld+json">
+        @verbatim
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What are Carbide Alloys used for?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Carbide Alloys are used for cutting tools, mining bits, drilling heads, stamping and punching dies, wear parts in industrial machinery, aerospace components, and chemical-resistant applications."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What types of Carbide Alloys does MOKSH TUBES & FITTINGS supply?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We supply Tungsten Carbide (WC), Titanium Carbide (TiC), Tantalum Carbide (TaC), and custom carbide grades for specialized applications, available as rods, strips, sheets, tubes, and fabricated components."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the key properties of Carbide Alloys?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Carbide Alloys offer extreme hardness, excellent wear resistance, high compressive strength, thermal stability, corrosion resistance (in specific grades), and long service life under harsh conditions."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "In what forms are Carbide Alloys available?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Carbide Alloys are supplied as seamless and welded pipes, tubes, sheets, plates, bars, flanges, fasteners, and custom engineered components tailored to industrial needs."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Why choose MOKSH TUBES & FITTINGS for Carbide Alloys?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We provide ISO compliant carbide products with precision machining capabilities, custom grade development, end to end supply from powder to finished parts, technical support, and global delivery for OEMs and industrial clients."
+                }
+                }
+            ]
+            }
+        
+        @endverbatim
+    </script>
 @endsection

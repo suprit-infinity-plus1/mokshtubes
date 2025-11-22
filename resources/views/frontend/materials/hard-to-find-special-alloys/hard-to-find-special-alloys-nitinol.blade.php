@@ -656,54 +656,55 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
-    @verbatim
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is Nitinol and why is it special?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Nitinol is a nickel titanium alloy notable for its Shape Memory Effect and Superelasticity, allowing it to return to a preset shape when heated and endure large strains without permanent deformation."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which forms of Nitinol products are available?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Nitinol is supplied as seamless and welded pipes, tubes, sheets, plates, coils, strips, round/flat/hex/square bars, pipe fittings, flanges, fasteners, springs, and custom components."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the key advantages of Nitinol?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Nitinol offers shape memory, superelasticity, high corrosion and fatigue resistance, biocompatibility for medical implants, and predictable responses to thermal and mechanical stimuli."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "In which industries is Nitinol used?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Nitinol is used in medical devices (stents, guidewires, orthodontics), aerospace and defense (actuators, vibration dampers), robotics, consumer electronics (eyeglass frames, actuators), industrial equipment, and oil & gas applications."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why choose MOKSH TUBES & FITTINGS for Nitinol products?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We provide a wide range of standard and custom Nitinol components with precision manufacturing, stringent quality controls, ASTM and medical-grade compliance, global shipping, and prompt delivery."
-      }
-    }
-  ]
-}
-@endverbatim
-</script>
+    <script type="application/ld+json">
+        @verbatim
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What is Nitinol and why is it special?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Nitinol is a nickel titanium alloy notable for its Shape Memory Effect and Superelasticity, allowing it to return to a preset shape when heated and endure large strains without permanent deformation."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Which forms of Nitinol products are available?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Nitinol is supplied as seamless and welded pipes, tubes, sheets, plates, coils, strips, round/flat/hex/square bars, pipe fittings, flanges, fasteners, springs, and custom components."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the key advantages of Nitinol?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Nitinol offers shape memory, superelasticity, high corrosion and fatigue resistance, biocompatibility for medical implants, and predictable responses to thermal and mechanical stimuli."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "In which industries is Nitinol used?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Nitinol is used in medical devices (stents, guidewires, orthodontics), aerospace and defense (actuators, vibration dampers), robotics, consumer electronics (eyeglass frames, actuators), industrial equipment, and oil & gas applications."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Why choose MOKSH TUBES & FITTINGS for Nitinol products?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We provide a wide range of standard and custom Nitinol components with precision manufacturing, stringent quality controls, ASTM and medical-grade compliance, global shipping, and prompt delivery."
+                }
+                }
+            ]
+            }
+        
+        @endverbatim
+    </script>
 @endsection

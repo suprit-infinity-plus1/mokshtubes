@@ -599,54 +599,55 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
-    @verbatim
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is Stainless Steel 405?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Stainless Steel 405 is a ferritic stainless steel with good oxidation and moderate corrosion resistance. It is widely used in automotive and engineering parts that require durability and cost-effectiveness."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the key properties of Stainless Steel 405?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "It provides good corrosion resistance, excellent oxidation resistance, magnetic properties, and high ductility, making it ideal for heat and fabrication-intensive applications."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Where is Stainless Steel 405 commonly used?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "It is widely used in exhaust systems, furnace parts, turbine blades, annealing boxes, and welded structural applications."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is Stainless Steel 405 weldable?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, it is weldable using standard techniques. However, proper heat control is required to minimize embrittlement and maintain corrosion resistance."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why choose MOKSH TUBES & FITTINGS LLP for Stainless Steel 405?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MOKSH TUBES & FITTINGS LLP provides premium-grade Stainless Steel 405 products with precise manufacturing, consistent quality, and global supply capabilities. We ensure reliable performance and timely delivery for diverse industrial needs worldwide."
-      }
-    }
-  ]
-}
-@endverbatim
-</script>
+    <script type="application/ld+json">
+        @verbatim
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What is Stainless Steel 405?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Stainless Steel 405 is a ferritic stainless steel with good oxidation and moderate corrosion resistance. It is widely used in automotive and engineering parts that require durability and cost-effectiveness."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the key properties of Stainless Steel 405?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "It provides good corrosion resistance, excellent oxidation resistance, magnetic properties, and high ductility, making it ideal for heat and fabrication-intensive applications."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Where is Stainless Steel 405 commonly used?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "It is widely used in exhaust systems, furnace parts, turbine blades, annealing boxes, and welded structural applications."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Is Stainless Steel 405 weldable?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, it is weldable using standard techniques. However, proper heat control is required to minimize embrittlement and maintain corrosion resistance."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Why choose MOKSH TUBES & FITTINGS LLP for Stainless Steel 405?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "MOKSH TUBES & FITTINGS LLP provides premium-grade Stainless Steel 405 products with precise manufacturing, consistent quality, and global supply capabilities. We ensure reliable performance and timely delivery for diverse industrial needs worldwide."
+                }
+                }
+            ]
+            }
+        
+        @endverbatim
+    </script>
 @endsection

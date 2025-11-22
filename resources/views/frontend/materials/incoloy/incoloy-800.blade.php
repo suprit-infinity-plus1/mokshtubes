@@ -725,52 +725,53 @@
 @section('jsscripts')
 <script type="application/ld+json">
             @verbatim
-{
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-        {
-            "@type": "Question",
-            "name": "What is Incoloy 800 and what makes it special?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Incoloy 800, also known as UNS N08800, is a nickel iron chromium alloy designed to deliver exceptional strength and stability at high temperatures. It offers outstanding resistance to oxidation, carburization, and sulfidation while retaining mechanical integrity under prolonged thermal exposure. This makes it highly reliable for applications such as heat exchangers, reformer tubes, superheaters, and nuclear steam generator components."
+            {
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What is Incoloy 800 and what makes it special?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Incoloy 800, also known as UNS N08800, is a nickel iron chromium alloy designed to deliver exceptional strength and stability at high temperatures. It offers outstanding resistance to oxidation, carburization, and sulfidation while retaining mechanical integrity under prolonged thermal exposure. This makes it highly reliable for applications such as heat exchangers, reformer tubes, superheaters, and nuclear steam generator components."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What are the key properties of Incoloy 800 alloy?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Incoloy 800 exhibits superior resistance to high-temperature oxidation and carburization, combined with good corrosion resistance in aqueous environments. It offers excellent structural stability, reliable performance under cyclic thermal conditions, and retains strength even after long service at elevated temperatures. The alloy also provides excellent weldability and fabricability, making it suitable for demanding industrial environments."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Where is Incoloy 800 commonly used?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Incoloy 800 is widely used across industries that demand long-term performance under extreme heat and corrosive conditions. Its applications include heat treatment equipment, petrochemical and refining systems, nuclear power generation, chemical processing plants, pulp and paper facilities, industrial ovens, kilns, gas turbines, heat recovery systems, and offshore or marine engineering where resistance to both heat and corrosion is critical."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What products are available in Incoloy 800?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "MOKSH TUBES & FITTINGS LLP offers Incoloy 800 in a wide range of products including seamless and welded pipes, tubes, sheets, plates, coils, round bars, flat bars, pipe fittings, flanges, fasteners, welding rods, wire mesh, and custom-fabricated components. All products are manufactured to international standards such as ASTM and ASME, ensuring durability, reliability, and compliance for high-performance applications."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Why choose MOKSH TUBES & FITTINGS LLP for Incoloy 800 materials?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "MOKSH TUBES & FITTINGS LLP is a trusted manufacturer, supplier, and exporter of Incoloy 800 products with global reach and proven industry expertise. The company maintains a strong supplier network for premium raw materials, offers customized fabrication solutions, and ensures strict quality control as per international standards. With a focus on dependability, customer satisfaction, and competitive pricing, it is the preferred partner for industries requiring high-quality Incoloy 800 materials."
+                        }
+                    }
+                ]
             }
-        },
-        {
-            "@type": "Question",
-            "name": "What are the key properties of Incoloy 800 alloy?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Incoloy 800 exhibits superior resistance to high-temperature oxidation and carburization, combined with good corrosion resistance in aqueous environments. It offers excellent structural stability, reliable performance under cyclic thermal conditions, and retains strength even after long service at elevated temperatures. The alloy also provides excellent weldability and fabricability, making it suitable for demanding industrial environments."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Where is Incoloy 800 commonly used?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Incoloy 800 is widely used across industries that demand long-term performance under extreme heat and corrosive conditions. Its applications include heat treatment equipment, petrochemical and refining systems, nuclear power generation, chemical processing plants, pulp and paper facilities, industrial ovens, kilns, gas turbines, heat recovery systems, and offshore or marine engineering where resistance to both heat and corrosion is critical."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "What products are available in Incoloy 800?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "MOKSH TUBES & FITTINGS LLP offers Incoloy 800 in a wide range of products including seamless and welded pipes, tubes, sheets, plates, coils, round bars, flat bars, pipe fittings, flanges, fasteners, welding rods, wire mesh, and custom-fabricated components. All products are manufactured to international standards such as ASTM and ASME, ensuring durability, reliability, and compliance for high-performance applications."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Why choose MOKSH TUBES & FITTINGS LLP for Incoloy 800 materials?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "MOKSH TUBES & FITTINGS LLP is a trusted manufacturer, supplier, and exporter of Incoloy 800 products with global reach and proven industry expertise. The company maintains a strong supplier network for premium raw materials, offers customized fabrication solutions, and ensures strict quality control as per international standards. With a focus on dependability, customer satisfaction, and competitive pricing, it is the preferred partner for industries requiring high-quality Incoloy 800 materials."
-            }
-        }
-    ]
-}
-@endverbatim
-</script>
+        
+        @endverbatim
+    </script>
 @endsection

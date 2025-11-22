@@ -641,54 +641,55 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
-    @verbatim
-{
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-        {
-            "@type": "Question",
-            "name": "What is AL 6XN Alloy and why is it important?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "AL 6XN (UNS N08367) is a superaustenitic stainless steel known for its exceptional resistance to pitting, crevice corrosion, and stress corrosion cracking (SCC) in aggressive chloride environments. With high nickel (24%), molybdenum (6.3%), and nitrogen content, it outperforms standard stainless steels like 316L. Its strength, excellent formability, and weldability make it ideal for applications where durability and corrosion resistance are critical, including chemical, marine, and pharmaceutical industries."
+    <script type="application/ld+json">
+        @verbatim
+            {
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What is AL 6XN Alloy and why is it important?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "AL 6XN (UNS N08367) is a superaustenitic stainless steel known for its exceptional resistance to pitting, crevice corrosion, and stress corrosion cracking (SCC) in aggressive chloride environments. With high nickel (24%), molybdenum (6.3%), and nitrogen content, it outperforms standard stainless steels like 316L. Its strength, excellent formability, and weldability make it ideal for applications where durability and corrosion resistance are critical, including chemical, marine, and pharmaceutical industries."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What AL 6XN products does Moksh Tubes & Fittings LLP supply?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Moksh Tubes & Fittings LLP offers a comprehensive range of AL 6XN products, including seamless and welded pipes, capillary and U-bend tubes, boiler and heat exchanger tubes, sheets, plates, coils, strips, round, flat, hex, and square bars, pipe fittings, flanges, fasteners, welding electrodes, wires, and custom-engineered components. All products are manufactured to meet stringent international quality standards and are available in customized dimensions for diverse industrial needs."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What are the advantages of using AL 6XN?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "AL 6XN provides outstanding resistance to corrosion in high-chloride and acidic environments, making it suitable for critical applications. It offers superior performance in pitting, crevice corrosion, and SCC, excellent weldability without the need for post weld heat treatment, non magnetic properties, and high durability in seawater. Its combination of corrosion resistance and strength ensures long-lasting reliability even in harsh operating conditions."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Which industries commonly use AL 6XN Alloy?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "AL 6XN is widely used in marine and desalination applications, chemical processing plants, food and beverage production, pharmaceutical and biotech industries, pulp and paper mills, and power generation. Its ability to resist chloride induced corrosion makes it ideal for seawater cooling systems, heat exchangers, process piping, tanks, clean-in-place (CIP) systems, bleaching equipment, and flue gas desulfurization (FGD) components."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Why choose Moksh Tubes & Fittings LLP for AL 6XN supply?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Moksh Tubes & Fittings LLP is a trusted manufacturer, supplier, and exporter of high-grade AL 6XN Alloy products. The company ensures strict quality control, mill test certification (MTC), ISO-certified processes, and fast global delivery. With expertise in high-performance alloys and custom fabrications, Moksh Tubes & Fittings LLP provides reliable solutions for critical industrial applications, ensuring consistent product performance and customer satisfaction."
+                        }
+                    }
+                ]
             }
-        },
-        {
-            "@type": "Question",
-            "name": "What AL 6XN products does Moksh Tubes & Fittings LLP supply?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Moksh Tubes & Fittings LLP offers a comprehensive range of AL 6XN products, including seamless and welded pipes, capillary and U-bend tubes, boiler and heat exchanger tubes, sheets, plates, coils, strips, round, flat, hex, and square bars, pipe fittings, flanges, fasteners, welding electrodes, wires, and custom-engineered components. All products are manufactured to meet stringent international quality standards and are available in customized dimensions for diverse industrial needs."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "What are the advantages of using AL 6XN?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "AL 6XN provides outstanding resistance to corrosion in high-chloride and acidic environments, making it suitable for critical applications. It offers superior performance in pitting, crevice corrosion, and SCC, excellent weldability without the need for post weld heat treatment, non magnetic properties, and high durability in seawater. Its combination of corrosion resistance and strength ensures long-lasting reliability even in harsh operating conditions."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Which industries commonly use AL 6XN Alloy?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "AL 6XN is widely used in marine and desalination applications, chemical processing plants, food and beverage production, pharmaceutical and biotech industries, pulp and paper mills, and power generation. Its ability to resist chloride induced corrosion makes it ideal for seawater cooling systems, heat exchangers, process piping, tanks, clean-in-place (CIP) systems, bleaching equipment, and flue gas desulfurization (FGD) components."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Why choose Moksh Tubes & Fittings LLP for AL 6XN supply?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Moksh Tubes & Fittings LLP is a trusted manufacturer, supplier, and exporter of high-grade AL 6XN Alloy products. The company ensures strict quality control, mill test certification (MTC), ISO-certified processes, and fast global delivery. With expertise in high-performance alloys and custom fabrications, Moksh Tubes & Fittings LLP provides reliable solutions for critical industrial applications, ensuring consistent product performance and customer satisfaction."
-            }
-        }
-    ]
-}
-@endverbatim
-</script>
+        
+        @endverbatim
+    </script>
 @endsection

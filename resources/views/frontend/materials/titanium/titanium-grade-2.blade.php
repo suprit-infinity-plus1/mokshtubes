@@ -658,54 +658,55 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
-    @verbatim
-{
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-        {
-            "@type": "Question",
-            "name": "What is Titanium Grade 2 and what are its applications?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Titanium Grade 2 is a commercially pure titanium that offers excellent strength, ductility, and corrosion resistance. Slightly stronger than Grade 1, it remains easy to form and weld, making it ideal for chemical processing, marine, aerospace, medical, desalination, and power generation applications."
+    <script type="application/ld+json">
+        @verbatim
+            {
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What is Titanium Grade 2 and what are its applications?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Titanium Grade 2 is a commercially pure titanium that offers excellent strength, ductility, and corrosion resistance. Slightly stronger than Grade 1, it remains easy to form and weld, making it ideal for chemical processing, marine, aerospace, medical, desalination, and power generation applications."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What are the chemical and mechanical properties of Titanium Grade 2?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Titanium Grade 2 consists primarily of titanium with minor elements such as hydrogen ≤0.015%, iron ≤0.30%, oxygen ≤0.25%, carbon ≤0.08%, and nitrogen ≤0.03%. It offers tensile strengths up to 90 ksi (620 MPa) and yield strengths up to 70 ksi (483 MPa), with good elongation and ductility for fabrication."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What types of Titanium Grade 2 products are offered?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "MOKSH TUBES & FITTINGS LLP supplies Titanium Grade 2 in various forms — seamless and welded pipes, capillary, U-bend, boiler, and heat exchanger tubes, as well as sheets, plates, bars, flanges, fittings, fasteners, wire mesh, and custom fabrications meeting global standards."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What are the advantages of using Titanium Grade 2?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Titanium Grade 2 combines high corrosion resistance with lightweight strength, excellent weldability, and non-toxicity. It performs well across temperature ranges, offering a cost-effective and durable material option for long-term industrial use."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Why choose MOKSH TUBES & FITTINGS LLP for Titanium Grade 2 products?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "MOKSH TUBES & FITTINGS LLP provides precision-made Titanium Grade 2 products backed by technical expertise, adherence to international standards, fast delivery, and customizable manufacturing. Trusted by global clients for consistent quality and reliability."
+                        }
+                    }
+                ]
             }
-        },
-        {
-            "@type": "Question",
-            "name": "What are the chemical and mechanical properties of Titanium Grade 2?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Titanium Grade 2 consists primarily of titanium with minor elements such as hydrogen ≤0.015%, iron ≤0.30%, oxygen ≤0.25%, carbon ≤0.08%, and nitrogen ≤0.03%. It offers tensile strengths up to 90 ksi (620 MPa) and yield strengths up to 70 ksi (483 MPa), with good elongation and ductility for fabrication."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "What types of Titanium Grade 2 products are offered?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "MOKSH TUBES & FITTINGS LLP supplies Titanium Grade 2 in various forms — seamless and welded pipes, capillary, U-bend, boiler, and heat exchanger tubes, as well as sheets, plates, bars, flanges, fittings, fasteners, wire mesh, and custom fabrications meeting global standards."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "What are the advantages of using Titanium Grade 2?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Titanium Grade 2 combines high corrosion resistance with lightweight strength, excellent weldability, and non-toxicity. It performs well across temperature ranges, offering a cost-effective and durable material option for long-term industrial use."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Why choose MOKSH TUBES & FITTINGS LLP for Titanium Grade 2 products?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "MOKSH TUBES & FITTINGS LLP provides precision-made Titanium Grade 2 products backed by technical expertise, adherence to international standards, fast delivery, and customizable manufacturing. Trusted by global clients for consistent quality and reliability."
-            }
-        }
-    ]
-}
-@endverbatim
-</script>
+        
+        @endverbatim
+    </script>
 @endsection

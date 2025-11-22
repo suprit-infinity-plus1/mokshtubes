@@ -653,54 +653,55 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
-    @verbatim
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is Zirconium 704 and its main characteristics?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Zirconium 704 (UNS R60704) is a high-purity zirconium alloy recognized for superior corrosion resistance, excellent weldability, high mechanical strength, minimal contamination, and biocompatibility. It is ideal for chemical, nuclear, pharmaceutical, and seawater applications requiring reliability and longevity."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which products are available in Zirconium 704?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MOKSH TUBES & FITTINGS LLP offers a full range of Zirconium 704 products, including seamless and welded pipes, tubes, sheets, plates, coils, bars, flanges, fittings, fasteners, welding rods, and custom fabricated components that meet industrial and medical standards."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What industries commonly use Zirconium 704?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Zirconium 704 is widely applied in chemical processing, nuclear reactors, pharmaceutical and biotech sectors, aerospace, medical devices, and seawater systems where high purity, corrosion resistance, and durability are essential."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the advantages of Zirconium 704 over other alloys?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Zirconium 704 offers excellent corrosion resistance in acids and high-purity water, superior mechanical strength, easy fabrication, minimal contamination risk, non magnetic behavior, biocompatibility, and low neutron absorption, making it particularly suitable for nuclear and high purity applications."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why choose MOKSH TUBES & FITTINGS LLP for Zirconium 704?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MOKSH TUBES & FITTINGS LLP supplies premium Zirconium 704, sourced globally and manufactured to ASTM/ASME standards. We provide custom solutions, reliable delivery, and technical support across multiple industries, ensuring performance and compliance for critical applications."
-      }
-    }
-  ]
-}
-@endverbatim
-</script>
+    <script type="application/ld+json">
+        @verbatim
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What is Zirconium 704 and its main characteristics?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Zirconium 704 (UNS R60704) is a high-purity zirconium alloy recognized for superior corrosion resistance, excellent weldability, high mechanical strength, minimal contamination, and biocompatibility. It is ideal for chemical, nuclear, pharmaceutical, and seawater applications requiring reliability and longevity."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Which products are available in Zirconium 704?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "MOKSH TUBES & FITTINGS LLP offers a full range of Zirconium 704 products, including seamless and welded pipes, tubes, sheets, plates, coils, bars, flanges, fittings, fasteners, welding rods, and custom fabricated components that meet industrial and medical standards."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What industries commonly use Zirconium 704?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Zirconium 704 is widely applied in chemical processing, nuclear reactors, pharmaceutical and biotech sectors, aerospace, medical devices, and seawater systems where high purity, corrosion resistance, and durability are essential."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the advantages of Zirconium 704 over other alloys?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Zirconium 704 offers excellent corrosion resistance in acids and high-purity water, superior mechanical strength, easy fabrication, minimal contamination risk, non magnetic behavior, biocompatibility, and low neutron absorption, making it particularly suitable for nuclear and high purity applications."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Why choose MOKSH TUBES & FITTINGS LLP for Zirconium 704?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "MOKSH TUBES & FITTINGS LLP supplies premium Zirconium 704, sourced globally and manufactured to ASTM/ASME standards. We provide custom solutions, reliable delivery, and technical support across multiple industries, ensuring performance and compliance for critical applications."
+                }
+                }
+            ]
+            }
+        
+        @endverbatim
+    </script>
 @endsection

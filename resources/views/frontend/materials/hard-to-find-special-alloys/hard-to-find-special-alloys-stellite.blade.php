@@ -648,54 +648,55 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
-    @verbatim
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is Stellite and why is it used?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Stellite is a cobalt-chromium superalloy designed for extreme wear, corrosion, and high temperature resistance, making it ideal for aerospace, oil & gas, power generation, and cutting tool applications."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which forms of Stellite products are available?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Stellite is supplied as seamless and welded pipes, tubes, sheets, plates, coils, strips, round/flat/hex/square bars, pipe fittings, flanges, fasteners, welding wires, electrodes, and custom fabricated components."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the key advantages of Stellite?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Stellite offers excellent wear and galling resistance, maintains hardness at high temperatures, resists corrosion and oxidation, is non magnetic, and is available in both cast and wrought forms."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "In which industries is Stellite commonly used?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Stellite is widely used in aerospace (turbine blades, vanes), valve and pump components, oil & gas and petrochemical equipment, power generation (boilers, turbines), medical and dental tools, and cutting tools and dies."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why choose MOKSH TUBES & FITTINGS for Stellite alloys?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We provide specialized hard-to-find Stellite alloys, high-quality cobalt-based stock, custom fabrication and welding services, in-house quality control, metallurgical testing, fast delivery, and global export capabilities."
-      }
-    }
-  ]
-}
-@endverbatim
-</script>
+    <script type="application/ld+json">
+        @verbatim
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What is Stellite and why is it used?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Stellite is a cobalt-chromium superalloy designed for extreme wear, corrosion, and high temperature resistance, making it ideal for aerospace, oil & gas, power generation, and cutting tool applications."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Which forms of Stellite products are available?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Stellite is supplied as seamless and welded pipes, tubes, sheets, plates, coils, strips, round/flat/hex/square bars, pipe fittings, flanges, fasteners, welding wires, electrodes, and custom fabricated components."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the key advantages of Stellite?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Stellite offers excellent wear and galling resistance, maintains hardness at high temperatures, resists corrosion and oxidation, is non magnetic, and is available in both cast and wrought forms."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "In which industries is Stellite commonly used?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Stellite is widely used in aerospace (turbine blades, vanes), valve and pump components, oil & gas and petrochemical equipment, power generation (boilers, turbines), medical and dental tools, and cutting tools and dies."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Why choose MOKSH TUBES & FITTINGS for Stellite alloys?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We provide specialized hard-to-find Stellite alloys, high-quality cobalt-based stock, custom fabrication and welding services, in-house quality control, metallurgical testing, fast delivery, and global export capabilities."
+                }
+                }
+            ]
+            }
+        
+        @endverbatim
+    </script>
 @endsection

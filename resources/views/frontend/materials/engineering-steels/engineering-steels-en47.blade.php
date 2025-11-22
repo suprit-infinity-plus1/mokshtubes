@@ -627,54 +627,55 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
-    @verbatim
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is EN47 steel used for?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "EN47 steel is widely used for manufacturing springs, gears, shafts, automotive components, and heavy duty machinery parts requiring high wear resistance and fatigue strength."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the key properties of EN47 steel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "EN47 steel offers excellent hardness, wear resistance, high tensile strength, and fatigue resistance, making it ideal for dynamic and heavy-load applications."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "In what forms is EN47 steel available?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "EN47 steel is available in bars, rods, sheets, plates, pipes, tubes, flanges, fasteners, and custom fabricated components to meet diverse engineering requirements."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is EN47 steel heat treated?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, EN47 steel is typically heat-treated to achieve high hardness, wear resistance, and optimal mechanical properties for demanding applications."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why choose MOKSH TUBES & FITTINGS LLP for EN47 steel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We offer premium quality EN47 steel, customized sizes, global sourcing, strict quality control, timely delivery, and expert technical support, ensuring reliable and high-performance solutions."
-      }
-    }
-  ]
-}
-@endverbatim
-</script>
+    <script type="application/ld+json">
+        @verbatim
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What is EN47 steel used for?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "EN47 steel is widely used for manufacturing springs, gears, shafts, automotive components, and heavy duty machinery parts requiring high wear resistance and fatigue strength."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the key properties of EN47 steel?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "EN47 steel offers excellent hardness, wear resistance, high tensile strength, and fatigue resistance, making it ideal for dynamic and heavy-load applications."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "In what forms is EN47 steel available?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "EN47 steel is available in bars, rods, sheets, plates, pipes, tubes, flanges, fasteners, and custom fabricated components to meet diverse engineering requirements."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Is EN47 steel heat treated?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, EN47 steel is typically heat-treated to achieve high hardness, wear resistance, and optimal mechanical properties for demanding applications."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Why choose MOKSH TUBES & FITTINGS LLP for EN47 steel?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We offer premium quality EN47 steel, customized sizes, global sourcing, strict quality control, timely delivery, and expert technical support, ensuring reliable and high-performance solutions."
+                }
+                }
+            ]
+            }
+        
+        @endverbatim   
+    </script>
 @endsection

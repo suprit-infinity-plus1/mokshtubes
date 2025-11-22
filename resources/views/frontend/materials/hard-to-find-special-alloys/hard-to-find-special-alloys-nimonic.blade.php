@@ -1,16 +1,18 @@
 @extends('layouts.master')
 
 @section('title', 'Nimonic Alloys | High-Temp Strength & Durability')
-@section('meta_description',
-    'Nimonic alloys – high-temperature, creep-resistant, and durable for aerospace, turbines, power generation, and extreme industrial environments.')
-@section('meta_keywords',
-    'Nimonic alloy, high temperature alloy, creep resistant alloy, aerospace alloy, turbine alloy, power generation alloy, durable high strength alloy')
-@section('og_image', asset('assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-nimonic.webp'))
+@section('meta_description', 'Nimonic alloys – high-temperature, creep-resistant, and durable for aerospace, turbines,
+    power generation, and extreme industrial environments.')
+@section('meta_keywords', 'Nimonic alloy, high temperature alloy, creep resistant alloy, aerospace alloy, turbine alloy,
+    power generation alloy, durable high strength alloy')
+@section('og_image',
+    asset('assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-nimonic.webp'))
 @section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-nimonic.webp);">
+    <section class="breadcrumb-area"
+        style="background-image: url(/assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-nimonic.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -61,7 +63,7 @@
             </div>
         </div>
     </section>
-{{-- datasheet --}}
+    {{-- datasheet --}}
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Nimonic Alloys Datasheet</h3>
@@ -77,17 +79,19 @@
                 <div class="row justify-content-center">
                     <input type="hidden" name="pdf" value="haynes-242.pdf">
                     <div class="col-md-6 mb-2">
-                        <input type="email" name="email" required="" class="form-control p-3" placeholder="Enter your email address">
+                        <input type="email" name="email" required="" class="form-control p-3"
+                            placeholder="Enter your email address">
                     </div>
                     <div class="col-md-3 mb-2">
-                        <button type="submit" class="btn btn-lg w-100 text-white" style="background-color:#db7227; border-radius:8px;">
+                        <button type="submit" class="btn btn-lg w-100 text-white"
+                            style="background-color:#db7227; border-radius:8px;">
                             📥 Get Datasheet
                         </button>
                     </div>
                 </div>
             </form>
 
-            
+
             <hr class="my-4">
             <p class="small text-muted">
                 We respect your privacy. Your email will only be used to send the datasheet.
@@ -307,7 +311,7 @@
     </section>
 
 
-     @php
+    @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -404,7 +408,7 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                 @foreach ($products as $product)
+                @foreach ($products as $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
                             <a href="{{ route($product['route']) }}" class="text-decoration-none">
@@ -668,7 +672,7 @@
                     Contact <strong>Moksh Tubes & Fittings LLP</strong> — for expert support, MTC-certified materials, and
                     custom solutions.
                 </p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch
@@ -683,54 +687,55 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
-    @verbatim
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are Nimonic Alloys used for?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Nimonic Alloys are used in turbine blades, combustion chambers, exhaust systems, gas turbines, nuclear reactors, high performance automotive components, and industrial furnace parts requiring superior heat and corrosion resistance."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which grades of Nimonic Alloys are available?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Popular grades include Nimonic 75, 80A, 90, 105, and 263, each engineered for specific mechanical strength, thermal performance, and structural stability under extreme conditions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the key properties of Nimonic Alloys?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Nimonic Alloys offer excellent heat creep resistance, oxidation and corrosion resistance, high strength to weight ratio, dimensional stability, and good weldability, especially in Nimonic 263."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "In what forms are Nimonic Alloys supplied?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "They are supplied as seamless and welded pipes, tubes, sheets, plates, coils, strips, round/flat/hex/square bars, pipe fittings, flanges, fasteners, and custom engineered components."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why choose MOKSH TUBES & FITTINGS for Nimonic Alloys?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We provide ISO 9001:2015 certified Nimonic products with wide inventory availability, custom fabrication, CNC machining, fast turnaround, competitive pricing, and global shipping with export compliance."
-      }
-    }
-  ]
-}
-@endverbatim
-</script>
+    <script type="application/ld+json">
+        @verbatim
+                {
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                    "@type": "Question",
+                    "name": "What are Nimonic Alloys used for?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Nimonic Alloys are used in turbine blades, combustion chambers, exhaust systems, gas turbines, nuclear reactors, high performance automotive components, and industrial furnace parts requiring superior heat and corrosion resistance."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "Which grades of Nimonic Alloys are available?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Popular grades include Nimonic 75, 80A, 90, 105, and 263, each engineered for specific mechanical strength, thermal performance, and structural stability under extreme conditions."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "What are the key properties of Nimonic Alloys?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Nimonic Alloys offer excellent heat creep resistance, oxidation and corrosion resistance, high strength to weight ratio, dimensional stability, and good weldability, especially in Nimonic 263."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "In what forms are Nimonic Alloys supplied?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "They are supplied as seamless and welded pipes, tubes, sheets, plates, coils, strips, round/flat/hex/square bars, pipe fittings, flanges, fasteners, and custom engineered components."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "Why choose MOKSH TUBES & FITTINGS for Nimonic Alloys?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "We provide ISO 9001:2015 certified Nimonic products with wide inventory availability, custom fabrication, CNC machining, fast turnaround, competitive pricing, and global shipping with export compliance."
+                    }
+                    }
+                ]
+                }
+        
+            @endverbatim
+    </script>
 @endsection

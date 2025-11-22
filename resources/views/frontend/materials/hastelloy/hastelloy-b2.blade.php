@@ -687,52 +687,53 @@
 @section('jsscripts')
 <script type="application/ld+json">
     @verbatim
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is Hastelloy B2 and what are its properties?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hastelloy B2 is a nickel-molybdenum alloy designed for outstanding resistance to reducing acids. It maintains strength at moderate to elevated temperatures, offers excellent ductility, weldability, and resists stress corrosion cracking, pitting, and crevice attack."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which Hastelloy B2 products are available?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Products include seamless and welded pipes, tubes (capillary, U-bend, boiler, heat exchanger), sheets, plates, coils, strips, bars (round, flat, hex, square), pipe fittings, flanges, fasteners, wires, welding rods, wire mesh, and custom-fabricated components."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the key advantages of Hastelloy B2?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hastelloy B2 provides exceptional resistance to hydrochloric, sulfuric, acetic, and phosphoric acids, excellent weldability, low sensitization risk, structural integrity under high temperatures, and reliable performance in chemical handling equipment."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "In which industries is Hastelloy B2 used?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "It is widely used in chemical processing, pickling and acid regeneration, agrochemical and fertilizer production, pharmaceutical and fine chemicals, electronics and semiconductor manufacturing, and waste treatment systems."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why choose MOKSH TUBES & FITTINGS for Hastelloy B2?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We deliver pure and alloyed Hastelloy B2 in multiple forms, offer precision fabrication, maintain ISO certified quality systems, provide end to end supply chain support, and ensure responsive technical assistance with global delivery."
-      }
-    }
-  ]
-}
-@endverbatim
-</script>
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What is Hastelloy B2 and what are its properties?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Hastelloy B2 is a nickel-molybdenum alloy designed for outstanding resistance to reducing acids. It maintains strength at moderate to elevated temperatures, offers excellent ductility, weldability, and resists stress corrosion cracking, pitting, and crevice attack."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Which Hastelloy B2 products are available?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Products include seamless and welded pipes, tubes (capillary, U-bend, boiler, heat exchanger), sheets, plates, coils, strips, bars (round, flat, hex, square), pipe fittings, flanges, fasteners, wires, welding rods, wire mesh, and custom-fabricated components."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the key advantages of Hastelloy B2?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Hastelloy B2 provides exceptional resistance to hydrochloric, sulfuric, acetic, and phosphoric acids, excellent weldability, low sensitization risk, structural integrity under high temperatures, and reliable performance in chemical handling equipment."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "In which industries is Hastelloy B2 used?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "It is widely used in chemical processing, pickling and acid regeneration, agrochemical and fertilizer production, pharmaceutical and fine chemicals, electronics and semiconductor manufacturing, and waste treatment systems."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Why choose MOKSH TUBES & FITTINGS for Hastelloy B2?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We deliver pure and alloyed Hastelloy B2 in multiple forms, offer precision fabrication, maintain ISO certified quality systems, provide end to end supply chain support, and ensure responsive technical assistance with global delivery."
+                }
+                }
+            ]
+            }
+        
+        @endverbatim
+    </script>
 @endsection

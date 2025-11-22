@@ -301,7 +301,7 @@
 
 
     <!-- Technical Properties Section -->
-    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
+
     <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
 
         <div class="container">
@@ -314,8 +314,7 @@
                 <div class="col-lg-8">
                     <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties of Engineering Steel 1055
                     </h4>
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties of Engineering Steel 1055
-                    </h4>
+                    
 
                   <div class="table-responsive">
                     
@@ -1104,7 +1103,7 @@
     <!--End faq content area-->
 
     <!-- Contact CTA Section -->
-    <section class="sec-padd-top sec-padd-bottom">
+    <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

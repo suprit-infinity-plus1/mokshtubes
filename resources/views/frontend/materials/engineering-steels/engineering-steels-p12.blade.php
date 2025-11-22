@@ -632,54 +632,55 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
-    @verbatim
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is P12 steel used for?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "P12 steel is used in high temperature and high pressure applications, including boiler tubes, superheater tubes, pressure vessels, and heat exchanger components in power generation, petrochemical, oil & gas, and chemical processing industries."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the key properties of P12 steel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "P12 steel offers enhanced strength, excellent creep resistance, superior oxidation and corrosion resistance, good weldability, and mechanical performance at elevated temperatures up to 565°C (1050°F)."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "In what forms is P12 steel available?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "P12 steel is available in seamless and welded pipes, tubes, sheets, plates, bars, flanges, fasteners, and custom fabricated components to meet diverse industrial requirements."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why is P12 steel preferred over P11 steel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "With higher chromium content, P12 steel provides better oxidation and corrosion resistance, improved creep resistance, and enhanced strength, making it suitable for more demanding high temperature and high pressure applications."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why choose MOKSH TUBES & FITTINGS LLP for P12 steel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We offer certified high-quality P12 steel products, extensive stock, custom sizing, technical expertise, competitive pricing, timely deliveries, and full traceability for critical alloy steel applications."
-      }
-    }
-  ]
-}
-@endverbatim
-</script>
+    <script type="application/ld+json">
+        @verbatim
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What is P12 steel used for?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "P12 steel is used in high temperature and high pressure applications, including boiler tubes, superheater tubes, pressure vessels, and heat exchanger components in power generation, petrochemical, oil & gas, and chemical processing industries."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the key properties of P12 steel?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "P12 steel offers enhanced strength, excellent creep resistance, superior oxidation and corrosion resistance, good weldability, and mechanical performance at elevated temperatures up to 565°C (1050°F)."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "In what forms is P12 steel available?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "P12 steel is available in seamless and welded pipes, tubes, sheets, plates, bars, flanges, fasteners, and custom fabricated components to meet diverse industrial requirements."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Why is P12 steel preferred over P11 steel?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "With higher chromium content, P12 steel provides better oxidation and corrosion resistance, improved creep resistance, and enhanced strength, making it suitable for more demanding high temperature and high pressure applications."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Why choose MOKSH TUBES & FITTINGS LLP for P12 steel?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We offer certified high-quality P12 steel products, extensive stock, custom sizing, technical expertise, competitive pricing, timely deliveries, and full traceability for critical alloy steel applications."
+                }
+                }
+            ]
+            }
+        
+        @endverbatim
+    </script>
 @endsection

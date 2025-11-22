@@ -652,54 +652,55 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
-    @verbatim
-{
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-        {
-            "@type": "Question",
-            "name": "What is Titanium Grade 7 NB (Ti-0.2Pd) and why is it used?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Titanium Grade 7 NB, also known as Ti-0.2Pd (UNS R52400), is a corrosion resistant, alpha phase titanium alloy. It shares the mechanical properties of Grade 2 titanium but includes palladium (0.12–0.25%) for enhanced resistance against acids and chlorides. These characteristics make it ideal for chemical processing, desalination, marine, and other aggressive environments where long lasting performance is critical."
+    <script type="application/ld+json">
+        @verbatim
+            {
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What is Titanium Grade 7 NB (Ti-0.2Pd) and why is it used?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Titanium Grade 7 NB, also known as Ti-0.2Pd (UNS R52400), is a corrosion resistant, alpha phase titanium alloy. It shares the mechanical properties of Grade 2 titanium but includes palladium (0.12–0.25%) for enhanced resistance against acids and chlorides. These characteristics make it ideal for chemical processing, desalination, marine, and other aggressive environments where long lasting performance is critical."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What types of Titanium Grade 7 NB products are offered by MOKSH TUBES & FITTINGS LLP?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "MOKSH TUBES & FITTINGS LLP provides an extensive range of Grade 7 NB products, including seamless and welded pipes, tubes, sheets, plates, coils, bars, wires, fasteners, flanges, forgings, and custom fabricated components. All products are manufactured to international standards and are suitable for high performance applications in corrosion prone environments."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What are the key advantages of Titanium Grade 7 NB?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Titanium Grade 7 NB offers exceptional corrosion resistance, especially in acidic, chloride, and brine-rich environments. It features excellent weldability without post weld heat treatment, a high strength to weight ratio, biocompatibility, and superior machinability and formability. These properties make it ideal for industries that require durable performance in harsh chemical conditions."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Which industries benefit most from Titanium Grade 7 NB products?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Industries that benefit from Titanium Grade 7 NB include chemical processing for piping and tanks, desalination plants for brine handling systems, pulp and paper for bleach tanks and digesters, power generation for condenser and feedwater systems, pharmaceutical and food sectors for sanitary equipment, and pollution control systems for scrubbers and reactors exposed to corrosive gases."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Why choose MOKSH TUBES & FITTINGS LLP for Titanium Grade 7 NB solutions?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "With decades of expertise, MOKSH TUBES & FITTINGS LLP delivers globally sourced, high quality Grade 7 NB products with full traceability and strict quality control. The company provides custom-fabricated components tailored to specific requirements, ensures timely delivery, and offers expert technical support, making it a trusted partner for industries operating in aggressive environments."
+                        }
+                    }
+                ]
             }
-        },
-        {
-            "@type": "Question",
-            "name": "What types of Titanium Grade 7 NB products are offered by MOKSH TUBES & FITTINGS LLP?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "MOKSH TUBES & FITTINGS LLP provides an extensive range of Grade 7 NB products, including seamless and welded pipes, tubes, sheets, plates, coils, bars, wires, fasteners, flanges, forgings, and custom fabricated components. All products are manufactured to international standards and are suitable for high performance applications in corrosion prone environments."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "What are the key advantages of Titanium Grade 7 NB?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Titanium Grade 7 NB offers exceptional corrosion resistance, especially in acidic, chloride, and brine-rich environments. It features excellent weldability without post weld heat treatment, a high strength to weight ratio, biocompatibility, and superior machinability and formability. These properties make it ideal for industries that require durable performance in harsh chemical conditions."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Which industries benefit most from Titanium Grade 7 NB products?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Industries that benefit from Titanium Grade 7 NB include chemical processing for piping and tanks, desalination plants for brine handling systems, pulp and paper for bleach tanks and digesters, power generation for condenser and feedwater systems, pharmaceutical and food sectors for sanitary equipment, and pollution control systems for scrubbers and reactors exposed to corrosive gases."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Why choose MOKSH TUBES & FITTINGS LLP for Titanium Grade 7 NB solutions?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "With decades of expertise, MOKSH TUBES & FITTINGS LLP delivers globally sourced, high quality Grade 7 NB products with full traceability and strict quality control. The company provides custom-fabricated components tailored to specific requirements, ensures timely delivery, and offers expert technical support, making it a trusted partner for industries operating in aggressive environments."
-            }
-        }
-    ]
-}
-@endverbatim
-</script>
+        
+        @endverbatim
+    </script>
 @endsection

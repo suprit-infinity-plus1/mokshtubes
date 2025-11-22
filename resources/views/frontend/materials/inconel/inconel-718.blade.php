@@ -715,54 +715,55 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
-    @verbatim
-{
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-        {
-            "@type": "Question",
-            "name": "What is Inconel 718 and what makes it special?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Inconel 718 (UNS N07718) is a high-performance nickel-chromium alloy known for its outstanding strength, corrosion resistance, and weldability in extreme temperature environments. It can be precipitation hardened, giving it superior tensile, fatigue, creep, and rupture strength. It performs reliably from cryogenic temperatures up to 700°C (1290°F) while resisting oxidation and corrosive attack, making it ideal for aerospace, marine, chemical, and power industries."
+    <script type="application/ld+json">
+        @verbatim
+            {
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What is Inconel 718 and what makes it special?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Inconel 718 (UNS N07718) is a high-performance nickel-chromium alloy known for its outstanding strength, corrosion resistance, and weldability in extreme temperature environments. It can be precipitation hardened, giving it superior tensile, fatigue, creep, and rupture strength. It performs reliably from cryogenic temperatures up to 700°C (1290°F) while resisting oxidation and corrosive attack, making it ideal for aerospace, marine, chemical, and power industries."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Where is Inconel 718 commonly used?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Inconel 718 is used in aerospace for turbine discs, compressor blades, and casings; in power generation for gas turbines and combustion hardware; and in nuclear, marine, automotive, oil & gas, and chemical industries where strength and corrosion resistance are vital."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What are the key advantages of Inconel 718?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Inconel 718 offers excellent strength across a wide temperature range, superior weldability without cracking, and precipitation hardening capability. It resists stress corrosion cracking, pitting, and oxidation while maintaining fatigue and creep-rupture strength under extreme conditions."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How does the chemical composition of Inconel 718 enhance its performance?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Inconel 718 contains nickel (50–55%), chromium (17–21%), and controlled amounts of niobium, molybdenum, titanium, and aluminum. This composition provides corrosion resistance, precipitation hardening, and creep resistance, ensuring stability under high stress and temperature."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Why choose Moksh Tubes & Fittings LLP for Inconel 718 products?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Moksh Tubes & Fittings LLP manufactures, supplies, and exports Inconel 718 in multiple forms such as pipes, tubes, fittings, flanges, fasteners, sheets, and custom components. The company is known for high-quality materials, global standards, and reliable delivery."
+                        }
+                    }
+                ]
             }
-        },
-        {
-            "@type": "Question",
-            "name": "Where is Inconel 718 commonly used?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Inconel 718 is used in aerospace for turbine discs, compressor blades, and casings; in power generation for gas turbines and combustion hardware; and in nuclear, marine, automotive, oil & gas, and chemical industries where strength and corrosion resistance are vital."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "What are the key advantages of Inconel 718?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Inconel 718 offers excellent strength across a wide temperature range, superior weldability without cracking, and precipitation hardening capability. It resists stress corrosion cracking, pitting, and oxidation while maintaining fatigue and creep-rupture strength under extreme conditions."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "How does the chemical composition of Inconel 718 enhance its performance?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Inconel 718 contains nickel (50–55%), chromium (17–21%), and controlled amounts of niobium, molybdenum, titanium, and aluminum. This composition provides corrosion resistance, precipitation hardening, and creep resistance, ensuring stability under high stress and temperature."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Why choose Moksh Tubes & Fittings LLP for Inconel 718 products?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Moksh Tubes & Fittings LLP manufactures, supplies, and exports Inconel 718 in multiple forms such as pipes, tubes, fittings, flanges, fasteners, sheets, and custom components. The company is known for high-quality materials, global standards, and reliable delivery."
-            }
-        }
-    ]
-}
-@endverbatim
-</script>
+        
+        @endverbatim
+    </script>
 @endsection

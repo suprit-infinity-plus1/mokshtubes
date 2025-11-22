@@ -628,54 +628,55 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
-    @verbatim
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is P1 steel used for?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "P1 steel is primarily used for cold work tooling, including dies, punches, shear blades, and forming tools, as well as precision engineering components requiring high wear resistance and toughness."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the key properties of P1 steel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "P1 steel offers excellent hardness, wear resistance, toughness, and dimensional stability, making it ideal for high-precision and heavy duty tooling applications."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "In what forms is P1 steel available?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "P1 steel is available in bars, sheets, plates, tubes, flanges, fasteners, and custom fabricated components to meet diverse industrial and engineering requirements."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why is P1 steel suitable for cold work applications?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Its high carbon, high chromium composition provides sharp cutting edges, superior wear resistance, and resistance to deformation under repeated mechanical stresses, making it ideal for cold work tools."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why choose MOKSH TUBES & FITTINGS LLP for P1 steel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We offer premium P1 steel products with a wide range of sizes, custom processing options, strict quality control, competitive pricing, fast delivery, and dedicated technical support."
-      }
-    }
-  ]
-}
-@endverbatim
-</script>
+    <script type="application/ld+json">
+        @verbatim
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What is P1 steel used for?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "P1 steel is primarily used for cold work tooling, including dies, punches, shear blades, and forming tools, as well as precision engineering components requiring high wear resistance and toughness."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the key properties of P1 steel?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "P1 steel offers excellent hardness, wear resistance, toughness, and dimensional stability, making it ideal for high-precision and heavy duty tooling applications."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "In what forms is P1 steel available?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "P1 steel is available in bars, sheets, plates, tubes, flanges, fasteners, and custom fabricated components to meet diverse industrial and engineering requirements."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Why is P1 steel suitable for cold work applications?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Its high carbon, high chromium composition provides sharp cutting edges, superior wear resistance, and resistance to deformation under repeated mechanical stresses, making it ideal for cold work tools."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Why choose MOKSH TUBES & FITTINGS LLP for P1 steel?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We offer premium P1 steel products with a wide range of sizes, custom processing options, strict quality control, competitive pricing, fast delivery, and dedicated technical support."
+                }
+                }
+            ]
+            }
+        
+        @endverbatim
+    </script>
 @endsection

@@ -1,15 +1,18 @@
 @extends('layouts.master')
 
 @section('title', '4130 Alloy Steel | Chromium-Molybdenum Steel')
-@section('meta_description', '4130 Alloy Steel offering high strength, toughness, and weldability for aerospace, automotive, and industrial applications.')
-@section('meta_keywords', '4130 Alloy Steel, chromium-molybdenum steel, high strength steel, tough steel, weldable steel, aerospace steel, automotive steel, industrial alloy steel')
+@section('meta_description', '4130 Alloy Steel offering high strength, toughness, and weldability for aerospace,
+    automotive, and industrial applications.')
+@section('meta_keywords', '4130 Alloy Steel, chromium-molybdenum steel, high strength steel, tough steel, weldable
+    steel, aerospace steel, automotive steel, industrial alloy steel')
 
 @section('og_image', asset('assets/images/engineering-steels/engineering-steels-4130.webp'))
 @section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/engineering-steels/engineering-steels-4130.webp);">
+    <section class="breadcrumb-area"
+        style="background-image: url(/assets/images/engineering-steels/engineering-steels-4130.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -243,7 +246,7 @@
     </section>
 
 
-     @php
+    @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -341,7 +344,7 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                 @foreach ($products as $product)
+                @foreach ($products as $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
                             <a href="{{ route($product['route']) }}" class="text-decoration-none">
@@ -630,7 +633,7 @@
                     For inquiries or quotations on EN 4130 steel products, contact <strong> Moksh Tubes & Fittings
                         LLP </strong> — your reliable partner for chromium-molybdenum alloy steels.
                 </p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch
@@ -638,61 +641,59 @@
             </div>
         </div>
     </section>
-
-
-
-
-
 @endsection
+
+
 @section('jsscripts')
-<script type="application/ld+json">
-    @verbatim
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is EN 4130 steel and why is it widely used?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "EN 4130, also known as AISI 4130, is a low-alloy steel containing chromium and molybdenum, which provide excellent strength, toughness, and weldability. It has a high strength-to-weight ratio and fatigue resistance, making it suitable for demanding structural and mechanical applications in aerospace, automotive, and oil & gas industries."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the chemical and mechanical properties of EN 4130 steel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "EN 4130 steel contains carbon (0.28–0.33%), manganese (0.40–0.60%), chromium (0.80–1.10%), and molybdenum (0.15–0.25%), with small amounts of silicon, phosphorus, and sulfur. It offers tensile strength between 552–896 MPa and yield strength between 345–724 MPa, depending on heat treatment, with elongation up to 30% and hardness from 150–260 Brinell."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What EN 4130 steel products are offered by MOKSH TUBES & FITTINGS LLP?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MOKSH TUBES & FITTINGS LLP provides seamless and welded pipes, tubes, sheets, plates, coils, strips, bars, pipe fittings, flanges, fasteners, and custom-fabricated EN 4130 steel components. All are made to international standards and customizable in dimensions, thickness, and heat treatment."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the key applications of EN 4130 steel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "EN 4130 steel is used in aerospace for aircraft components and landing gear, in automotive and motorsport for chassis, roll cages, and drive shafts, and in oil & gas for pipelines and high-pressure equipment. It’s also applied in mechanical engineering for gears, bolts, and machinery components."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why choose MOKSH TUBES & FITTINGS LLP for EN 4130 steel materials?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MOKSH TUBES & FITTINGS LLP is a trusted supplier of EN 4130 steel with a wide product range, customization options, and global supply capability. The company ensures compliance with international standards, offers competitive pricing, timely delivery, and strong customer support."
-      }
-    }
-  ]
-}
-@endverbatim
-</script>
+    <script type="application/ld+json">
+        @verbatim
+                {
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                    "@type": "Question",
+                    "name": "What is EN 4130 steel and why is it widely used?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "EN 4130, also known as AISI 4130, is a low-alloy steel containing chromium and molybdenum, which provide excellent strength, toughness, and weldability. It has a high strength-to-weight ratio and fatigue resistance, making it suitable for demanding structural and mechanical applications in aerospace, automotive, and oil & gas industries."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "What are the chemical and mechanical properties of EN 4130 steel?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "EN 4130 steel contains carbon (0.28–0.33%), manganese (0.40–0.60%), chromium (0.80–1.10%), and molybdenum (0.15–0.25%), with small amounts of silicon, phosphorus, and sulfur. It offers tensile strength between 552–896 MPa and yield strength between 345–724 MPa, depending on heat treatment, with elongation up to 30% and hardness from 150–260 Brinell."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "What EN 4130 steel products are offered by MOKSH TUBES & FITTINGS LLP?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "MOKSH TUBES & FITTINGS LLP provides seamless and welded pipes, tubes, sheets, plates, coils, strips, bars, pipe fittings, flanges, fasteners, and custom-fabricated EN 4130 steel components. All are made to international standards and customizable in dimensions, thickness, and heat treatment."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "What are the key applications of EN 4130 steel?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "EN 4130 steel is used in aerospace for aircraft components and landing gear, in automotive and motorsport for chassis, roll cages, and drive shafts, and in oil & gas for pipelines and high-pressure equipment. It’s also applied in mechanical engineering for gears, bolts, and machinery components."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "Why choose MOKSH TUBES & FITTINGS LLP for EN 4130 steel materials?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "MOKSH TUBES & FITTINGS LLP is a trusted supplier of EN 4130 steel with a wide product range, customization options, and global supply capability. The company ensures compliance with international standards, offers competitive pricing, timely delivery, and strong customer support."
+                    }
+                    }
+                ]
+            }
+        
+        @endverbatim
+    </script>
 @endsection

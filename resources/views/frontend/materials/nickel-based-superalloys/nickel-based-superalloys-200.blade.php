@@ -720,54 +720,55 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
-    @verbatim
-{
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-        {
-            "@type": "Question",
-            "name": "What is Nickel 200 and what makes it unique?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Nickel 200 (UNS N02200) is a commercially pure wrought nickel alloy containing about 99.6% nickel. It is widely recognized for its excellent resistance to alkaline and caustic environments, outstanding ductility, and high thermal and electrical conductivity. These properties make Nickel 200 an ideal choice for applications requiring both purity and performance, such as chemical processing, food handling, electronics, and marine engineering."
+    <script type="application/ld+json">
+        @verbatim
+            {
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What is Nickel 200 and what makes it unique?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Nickel 200 (UNS N02200) is a commercially pure wrought nickel alloy containing about 99.6% nickel. It is widely recognized for its excellent resistance to alkaline and caustic environments, outstanding ductility, and high thermal and electrical conductivity. These properties make Nickel 200 an ideal choice for applications requiring both purity and performance, such as chemical processing, food handling, electronics, and marine engineering."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What types of Nickel 200 products does Moksh Tubes & Fittings LLP offer?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Moksh Tubes & Fittings LLP manufactures, supplies, and exports a wide range of Nickel 200 products including seamless and welded pipes, tubes, sheets, plates, coils, wire mesh, round bars, flat bars, angles, channels, flanges, pipe fittings, fasteners, welding rods, and custom-fabricated components. All products meet global industry standards and can be customized to meet specific client requirements across diverse industries."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What are the key benefits of using Nickel 200 in industrial applications?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "The main advantages of Nickel 200 include excellent corrosion resistance in caustic and alkaline environments, superior thermal and electrical conductivity, high purity that makes it suitable for food and pharmaceutical industries, and outstanding ductility that allows easy fabrication and welding. Additionally, its non-magnetic properties and mechanical strength make it a reliable material for high-performance applications in aerospace, marine, and power generation."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Which industries commonly use Nickel 200 alloy products?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Nickel 200 is widely used in industries such as chemical processing, food processing, electronics, aerospace, defense, marine, medical, and power generation. It is commonly applied in equipment like tanks, vessels, heat exchangers, piping systems, battery components, electrical contacts, caustic soda production systems, marine fasteners, instrumentation, and medical equipment where purity, durability, and corrosion resistance are critical."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Why choose Moksh Tubes & Fittings LLP for Nickel 200 supply?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Moksh Tubes & Fittings LLP is a trusted global supplier of Nickel 200 products, known for its extensive inventory, ISO certified operations, and commitment to quality assurance. With decades of expertise, advanced testing facilities, and precision machining services, the company ensures reliable supply and timely delivery of Nickel 200 materials. Their dedication to traceability, customer satisfaction, and customized solutions makes them a preferred partner for clients across industries worldwide."
+                        }
+                    }
+                ]
             }
-        },
-        {
-            "@type": "Question",
-            "name": "What types of Nickel 200 products does Moksh Tubes & Fittings LLP offer?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Moksh Tubes & Fittings LLP manufactures, supplies, and exports a wide range of Nickel 200 products including seamless and welded pipes, tubes, sheets, plates, coils, wire mesh, round bars, flat bars, angles, channels, flanges, pipe fittings, fasteners, welding rods, and custom-fabricated components. All products meet global industry standards and can be customized to meet specific client requirements across diverse industries."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "What are the key benefits of using Nickel 200 in industrial applications?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "The main advantages of Nickel 200 include excellent corrosion resistance in caustic and alkaline environments, superior thermal and electrical conductivity, high purity that makes it suitable for food and pharmaceutical industries, and outstanding ductility that allows easy fabrication and welding. Additionally, its non-magnetic properties and mechanical strength make it a reliable material for high-performance applications in aerospace, marine, and power generation."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Which industries commonly use Nickel 200 alloy products?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Nickel 200 is widely used in industries such as chemical processing, food processing, electronics, aerospace, defense, marine, medical, and power generation. It is commonly applied in equipment like tanks, vessels, heat exchangers, piping systems, battery components, electrical contacts, caustic soda production systems, marine fasteners, instrumentation, and medical equipment where purity, durability, and corrosion resistance are critical."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Why choose Moksh Tubes & Fittings LLP for Nickel 200 supply?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Moksh Tubes & Fittings LLP is a trusted global supplier of Nickel 200 products, known for its extensive inventory, ISO certified operations, and commitment to quality assurance. With decades of expertise, advanced testing facilities, and precision machining services, the company ensures reliable supply and timely delivery of Nickel 200 materials. Their dedication to traceability, customer satisfaction, and customized solutions makes them a preferred partner for clients across industries worldwide."
-            }
-        }
-    ]
-}
-@endverbatim
-</script>
+        
+        @endverbatim
+    </script>
 @endsection

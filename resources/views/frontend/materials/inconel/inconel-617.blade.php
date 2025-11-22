@@ -728,54 +728,55 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
-    @verbatim
-{
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-        {
-            "@type": "Question",
-            "name": "What is Inconel 617 and what makes it unique?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Inconel 617 is a high performance nickel chromium cobalt molybdenum alloy designed for exceptional strength, oxidation resistance, and carburization resistance at elevated temperatures. Its unique chemical composition provides excellent metallurgical stability, making it ideal for demanding industrial environments such as aerospace, power generation, and petrochemical processing. Unlike conventional alloys, Inconel 617 retains its mechanical properties even in extreme heat and corrosive conditions, ensuring long-term durability and reliability."
+    <script type="application/ld+json">
+        @verbatim
+            {
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What is Inconel 617 and what makes it unique?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Inconel 617 is a high performance nickel chromium cobalt molybdenum alloy designed for exceptional strength, oxidation resistance, and carburization resistance at elevated temperatures. Its unique chemical composition provides excellent metallurgical stability, making it ideal for demanding industrial environments such as aerospace, power generation, and petrochemical processing. Unlike conventional alloys, Inconel 617 retains its mechanical properties even in extreme heat and corrosive conditions, ensuring long-term durability and reliability."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What are the main applications of Inconel 617?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Inconel 617 is widely used in industries where components must withstand high temperatures and aggressive environments. Common applications include jet engine hot-section parts, gas turbines, heat exchangers, recuperators, steam generator tubing, chemical processing equipment, reformers, and furnace internals. The alloy’s superior creep strength and resistance to oxidation, nitriding, and carburization make it especially suitable for aerospace, nuclear power plants, petrochemical facilities, waste incineration, and heat recovery systems."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What are the advantages of using Inconel 617 over other alloys?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "The biggest advantage of Inconel 617 is its ability to maintain mechanical strength and structural integrity at temperatures up to 1100°C while resisting oxidation and carburization. It also offers excellent weldability, machinability, and formability, making fabrication easier across diverse industries. Compared to conventional alloys, Inconel 617 provides longer service life in severe environments, reduces maintenance costs, and ensures reliable performance in both oxidizing and reducing atmospheres."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How does the chemical composition of Inconel 617 enhance its properties?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "The chemical composition of Inconel 617, which includes nickel, chromium, cobalt, and molybdenum, plays a vital role in its superior performance. Nickel provides overall strength and corrosion resistance, chromium improves oxidation resistance, cobalt enhances stability at high temperatures, and molybdenum contributes to creep resistance and toughness. The balance of these elements ensures outstanding resistance to thermal cycling, aggressive chemicals, and environmental degradation, making it one of the most versatile high temperature alloys available."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Why choose Moksh Tubes & Fittings LLP for Inconel 617 products?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Moksh Tubes & Fittings LLP is a trusted manufacturer, supplier, exporter, importer, and stockist of premium Inconel 617 products, offering a complete range including pipes, tubes, sheets, plates, flanges, fittings, fasteners, and custom fabricated components. With strong sourcing networks, advanced manufacturing capabilities, and strict quality control, the company ensures that every product meets international standards and industry specific requirements. Backed by global logistics support and technical expertise, Moksh Tubes & Fittings LLP provides reliable Inconel 617 solutions for critical industrial applications."
+                        }
+                    }
+                ]
             }
-        },
-        {
-            "@type": "Question",
-            "name": "What are the main applications of Inconel 617?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Inconel 617 is widely used in industries where components must withstand high temperatures and aggressive environments. Common applications include jet engine hot-section parts, gas turbines, heat exchangers, recuperators, steam generator tubing, chemical processing equipment, reformers, and furnace internals. The alloy’s superior creep strength and resistance to oxidation, nitriding, and carburization make it especially suitable for aerospace, nuclear power plants, petrochemical facilities, waste incineration, and heat recovery systems."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "What are the advantages of using Inconel 617 over other alloys?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "The biggest advantage of Inconel 617 is its ability to maintain mechanical strength and structural integrity at temperatures up to 1100°C while resisting oxidation and carburization. It also offers excellent weldability, machinability, and formability, making fabrication easier across diverse industries. Compared to conventional alloys, Inconel 617 provides longer service life in severe environments, reduces maintenance costs, and ensures reliable performance in both oxidizing and reducing atmospheres."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "How does the chemical composition of Inconel 617 enhance its properties?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "The chemical composition of Inconel 617, which includes nickel, chromium, cobalt, and molybdenum, plays a vital role in its superior performance. Nickel provides overall strength and corrosion resistance, chromium improves oxidation resistance, cobalt enhances stability at high temperatures, and molybdenum contributes to creep resistance and toughness. The balance of these elements ensures outstanding resistance to thermal cycling, aggressive chemicals, and environmental degradation, making it one of the most versatile high temperature alloys available."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Why choose Moksh Tubes & Fittings LLP for Inconel 617 products?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Moksh Tubes & Fittings LLP is a trusted manufacturer, supplier, exporter, importer, and stockist of premium Inconel 617 products, offering a complete range including pipes, tubes, sheets, plates, flanges, fittings, fasteners, and custom fabricated components. With strong sourcing networks, advanced manufacturing capabilities, and strict quality control, the company ensures that every product meets international standards and industry specific requirements. Backed by global logistics support and technical expertise, Moksh Tubes & Fittings LLP provides reliable Inconel 617 solutions for critical industrial applications."
-            }
-        }
-    ]
-}
-@endverbatim
-</script>
+        
+        @endverbatim
+    </script>
 @endsection

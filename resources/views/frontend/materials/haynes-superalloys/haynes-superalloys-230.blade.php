@@ -712,54 +712,55 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
-    @verbatim
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is Haynes 230 and why is it preferred in high-temperature industries?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Haynes 230 (UNS N06230) is a nickel-chromium-tungsten-molybdenum alloy widely recognized for its exceptional strength, excellent oxidation resistance, and superior stability at elevated temperatures. It maintains its mechanical properties and corrosion resistance up to about 1149°C (2100°F), making it one of the most reliable superalloys for use in extreme industrial conditions such as aerospace, chemical processing, and power generation."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the key properties of Haynes 230 alloy?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Haynes 230 exhibits outstanding high temperature strength, creep resistance, and thermal stability, along with excellent resistance to oxidation and carburization. It has a tensile strength of up to 144 ksi, yield strength ranging from 54 to 104 ksi depending on product form, and elongation of around 32–47%. Its good fabricability and weldability, combined with a stable microstructure, allow it to deliver long service life even in aggressive and high stress environments."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which industries and applications use Haynes 230 products?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Haynes 230 is widely used in aerospace for combustion chambers, turbine casings, and hot gas ducts, in industrial furnaces for muffles, radiant tubes, and roller hearth components, and in chemical processing for reactors, reformer tubes, and heat exchangers. It also plays an important role in power generation for boiler superheaters and gas turbine components. Its ability to resist oxidation and maintain integrity under extreme conditions makes it a preferred alloy in industries that demand reliable performance."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What types of Haynes 230 products are available from MOKSH TUBES & FITTINGS LLP?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MOKSH TUBES & FITTINGS LLP provides a complete range of Haynes 230 products including seamless and welded pipes, tubes, sheets, plates, coils, bars, flanges, pipe fittings, fasteners, welding rods, wire mesh, and custom fabricated components. All products are manufactured to ASTM, ASME, and international standards, ensuring top-quality performance and durability for critical industrial applications."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why should industries choose MOKSH TUBES & FITTINGS LLP for Haynes 230 materials?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MOKSH TUBES & FITTINGS LLP is a trusted global supplier with expertise in nickel-based superalloys like Haynes 230, offering quality-assured products that meet ASTM, ASME, and NACE standards. With capabilities in customized manufacturing, global logistics, and on-time delivery, along with dedicated technical support from alloy selection to fabrication, the company provides reliable solutions that meet the demanding needs of industries operating in high-temperature and corrosive environments."
-      }
-    }
-  ]
-}
-@endverbatim
-</script>
+    <script type="application/ld+json">
+        @verbatim
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What is Haynes 230 and why is it preferred in high-temperature industries?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Haynes 230 (UNS N06230) is a nickel-chromium-tungsten-molybdenum alloy widely recognized for its exceptional strength, excellent oxidation resistance, and superior stability at elevated temperatures. It maintains its mechanical properties and corrosion resistance up to about 1149°C (2100°F), making it one of the most reliable superalloys for use in extreme industrial conditions such as aerospace, chemical processing, and power generation."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the key properties of Haynes 230 alloy?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Haynes 230 exhibits outstanding high temperature strength, creep resistance, and thermal stability, along with excellent resistance to oxidation and carburization. It has a tensile strength of up to 144 ksi, yield strength ranging from 54 to 104 ksi depending on product form, and elongation of around 32–47%. Its good fabricability and weldability, combined with a stable microstructure, allow it to deliver long service life even in aggressive and high stress environments."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Which industries and applications use Haynes 230 products?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Haynes 230 is widely used in aerospace for combustion chambers, turbine casings, and hot gas ducts, in industrial furnaces for muffles, radiant tubes, and roller hearth components, and in chemical processing for reactors, reformer tubes, and heat exchangers. It also plays an important role in power generation for boiler superheaters and gas turbine components. Its ability to resist oxidation and maintain integrity under extreme conditions makes it a preferred alloy in industries that demand reliable performance."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What types of Haynes 230 products are available from MOKSH TUBES & FITTINGS LLP?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "MOKSH TUBES & FITTINGS LLP provides a complete range of Haynes 230 products including seamless and welded pipes, tubes, sheets, plates, coils, bars, flanges, pipe fittings, fasteners, welding rods, wire mesh, and custom fabricated components. All products are manufactured to ASTM, ASME, and international standards, ensuring top-quality performance and durability for critical industrial applications."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Why should industries choose MOKSH TUBES & FITTINGS LLP for Haynes 230 materials?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "MOKSH TUBES & FITTINGS LLP is a trusted global supplier with expertise in nickel-based superalloys like Haynes 230, offering quality-assured products that meet ASTM, ASME, and NACE standards. With capabilities in customized manufacturing, global logistics, and on-time delivery, along with dedicated technical support from alloy selection to fabrication, the company provides reliable solutions that meet the demanding needs of industries operating in high-temperature and corrosive environments."
+                }
+                }
+            ]
+            }
+        
+        @endverbatim
+    </script>
 @endsection

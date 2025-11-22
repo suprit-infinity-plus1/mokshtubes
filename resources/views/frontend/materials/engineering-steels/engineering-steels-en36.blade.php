@@ -652,54 +652,55 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
-    @verbatim
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is EN36 steel and what are its main features?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "EN36 is a medium carbon, nickel-chromium-molybdenum alloy steel known for its high strength, toughness, and wear resistance. It is widely used in heavy-duty mechanical and automotive applications requiring superior fatigue strength and impact resistance. When heat treated, EN36 achieves excellent hardness and mechanical properties, making it suitable for gears, shafts, and other high-load machine parts."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the chemical and mechanical properties of EN36 steel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "EN36 steel contains 0.33–0.40% carbon, 0.90–1.20% chromium, 0.15–0.30% molybdenum, 1.30–1.70% nickel, 0.60–0.90% manganese, and 0.15–0.40% silicon, with low sulfur and phosphorus. It provides tensile strength of 85–130 ksi, yield strength between 50–105 ksi, elongation of 15–25%, and Brinell hardness of 150–260. EN36 offers excellent fatigue and wear resistance for demanding applications."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What products are available in EN36 steel from MOKSH TUBES & FITTINGS LLP?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MOKSH TUBES & FITTINGS LLP supplies EN36 round bars, flat bars, hex bars, square bars, rods, shafts, sheets, plates, coils, strips, seamless and welded pipes, tubes, flanges, fittings, fasteners, and custom fabricated components. These products are available in annealed, hot-finished, cold-drawn, or heat-treated conditions to meet industry-specific standards."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the typical applications of EN36 steel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "EN36 steel is used where high toughness, wear resistance, and fatigue strength are critical. Common applications include crankshafts, camshafts, gears, and connecting rods in automotive industries, as well as shafts, couplings, and gears in heavy machinery and mining equipment. It is also used in aerospace, defense, and tool manufacturing for dies and heavy-duty components."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why choose MOKSH TUBES & FITTINGS LLP for EN36 steel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MOKSH TUBES & FITTINGS LLP provides high-quality alloy steel with strict quality control, certification compliance, and customization options. The company ensures reliable products through global sourcing, competitive pricing, and timely delivery. With expert technical support and precise material selection guidance, MOKSH TUBES & FITTINGS LLP is a trusted source for EN36 steel solutions."
-      }
-    }
-  ]
-}
-@endverbatim
-</script>
+    <script type="application/ld+json">
+        @verbatim
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What is EN36 steel and what are its main features?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "EN36 is a medium carbon, nickel-chromium-molybdenum alloy steel known for its high strength, toughness, and wear resistance. It is widely used in heavy-duty mechanical and automotive applications requiring superior fatigue strength and impact resistance. When heat treated, EN36 achieves excellent hardness and mechanical properties, making it suitable for gears, shafts, and other high-load machine parts."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the chemical and mechanical properties of EN36 steel?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "EN36 steel contains 0.33–0.40% carbon, 0.90–1.20% chromium, 0.15–0.30% molybdenum, 1.30–1.70% nickel, 0.60–0.90% manganese, and 0.15–0.40% silicon, with low sulfur and phosphorus. It provides tensile strength of 85–130 ksi, yield strength between 50–105 ksi, elongation of 15–25%, and Brinell hardness of 150–260. EN36 offers excellent fatigue and wear resistance for demanding applications."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What products are available in EN36 steel from MOKSH TUBES & FITTINGS LLP?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "MOKSH TUBES & FITTINGS LLP supplies EN36 round bars, flat bars, hex bars, square bars, rods, shafts, sheets, plates, coils, strips, seamless and welded pipes, tubes, flanges, fittings, fasteners, and custom fabricated components. These products are available in annealed, hot-finished, cold-drawn, or heat-treated conditions to meet industry-specific standards."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the typical applications of EN36 steel?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "EN36 steel is used where high toughness, wear resistance, and fatigue strength are critical. Common applications include crankshafts, camshafts, gears, and connecting rods in automotive industries, as well as shafts, couplings, and gears in heavy machinery and mining equipment. It is also used in aerospace, defense, and tool manufacturing for dies and heavy-duty components."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Why choose MOKSH TUBES & FITTINGS LLP for EN36 steel?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "MOKSH TUBES & FITTINGS LLP provides high-quality alloy steel with strict quality control, certification compliance, and customization options. The company ensures reliable products through global sourcing, competitive pricing, and timely delivery. With expert technical support and precise material selection guidance, MOKSH TUBES & FITTINGS LLP is a trusted source for EN36 steel solutions."
+                }
+                }
+            ]
+            }
+        
+        @endverbatim
+    </script>
 @endsection

@@ -702,54 +702,55 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
-    @verbatim
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is Hastelloy C-4 and what are its key properties?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hastelloy C-4 (UNS N06455) is a nickel-chromium-molybdenum alloy engineered for high corrosion resistance, thermal stability, and superior weldability. It excels in resisting oxidizing and reducing agents, making it ideal for chemical processing, pharmaceuticals, and nuclear applications."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which products are available in Hastelloy C-4?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MOKSH TUBES & FITTINGS LLP supplies Hastelloy C-4 in pipes, tubes, sheets, plates, coils, bars, flanges, fittings, fasteners, and custom-engineered components to meet diverse industrial requirements."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What industries use Hastelloy C-4?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hastelloy C-4 is widely used in chemical and petrochemical processing, pharmaceutical production, pollution control systems, nuclear industries, pulp and paper, and waste treatment due to its ability to handle hot acids, oxidizers, and extreme temperatures."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why is Hastelloy C-4 preferred over other nickel alloys?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Its low carbon and silicon content prevents grain boundary precipitation during welding, enhancing corrosion resistance and structural integrity. Additionally, it maintains mechanical strength under extreme heat and stress, outperforming many other nickel alloys."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why choose MOKSH TUBES & FITTINGS LLP for Hastelloy C-4 products?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We offer ISO certified quality, ready stock, custom fabrication, in house manufacturing, and expert technical support, ensuring reliable supply of high performance Hastelloy C-4 products worldwide."
-      }
-    }
-  ]
-}
-@endverbatim
-</script>
+    <script type="application/ld+json">
+        @verbatim
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What is Hastelloy C-4 and what are its key properties?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Hastelloy C-4 (UNS N06455) is a nickel-chromium-molybdenum alloy engineered for high corrosion resistance, thermal stability, and superior weldability. It excels in resisting oxidizing and reducing agents, making it ideal for chemical processing, pharmaceuticals, and nuclear applications."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Which products are available in Hastelloy C-4?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "MOKSH TUBES & FITTINGS LLP supplies Hastelloy C-4 in pipes, tubes, sheets, plates, coils, bars, flanges, fittings, fasteners, and custom-engineered components to meet diverse industrial requirements."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What industries use Hastelloy C-4?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Hastelloy C-4 is widely used in chemical and petrochemical processing, pharmaceutical production, pollution control systems, nuclear industries, pulp and paper, and waste treatment due to its ability to handle hot acids, oxidizers, and extreme temperatures."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Why is Hastelloy C-4 preferred over other nickel alloys?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Its low carbon and silicon content prevents grain boundary precipitation during welding, enhancing corrosion resistance and structural integrity. Additionally, it maintains mechanical strength under extreme heat and stress, outperforming many other nickel alloys."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Why choose MOKSH TUBES & FITTINGS LLP for Hastelloy C-4 products?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We offer ISO certified quality, ready stock, custom fabrication, in house manufacturing, and expert technical support, ensuring reliable supply of high performance Hastelloy C-4 products worldwide."
+                }
+                }
+            ]
+            }
+        
+        @endverbatim
+    </script>
 @endsection

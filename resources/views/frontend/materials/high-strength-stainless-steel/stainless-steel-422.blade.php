@@ -577,54 +577,55 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
-    @verbatim
-{
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-        {
-            "@type": "Question",
-            "name": "What is Stainless Steel 422?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Stainless Steel 422 (UNS S42200) is a martensitic stainless steel known for its high hardness, corrosion resistance, and strength retention at elevated temperatures. It is widely used in aerospace, turbine, and engineering applications."
+    <script type="application/ld+json">
+        @verbatim
+            {
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What is Stainless Steel 422?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Stainless Steel 422 (UNS S42200) is a martensitic stainless steel known for its high hardness, corrosion resistance, and strength retention at elevated temperatures. It is widely used in aerospace, turbine, and engineering applications."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What are the key properties of SS 422?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Key properties include high hardness, good wear resistance, excellent creep strength, and moderate corrosion resistance. It also offers stability and strength in heat-treated conditions."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Where is Stainless Steel 422 used?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "SS 422 is used in aerospace components, turbine blades, shafts, valves, bearings, and high-temperature fasteners in power and engineering sectors."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Is Stainless Steel 422 weldable?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes. However, preheating and post-weld heat treatment are recommended to maintain toughness, corrosion resistance, and prevent cracking."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Why choose MOKSH TUBES & FITTINGS LLP for SS 422?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "MOKSH TUBES & FITTINGS LLP supplies premium-quality 422 stainless steel with precision manufacturing, verified quality standards, and dependable global logistics to meet diverse industrial requirements worldwide."
+                        }
+                    }
+                ]
             }
-        },
-        {
-            "@type": "Question",
-            "name": "What are the key properties of SS 422?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Key properties include high hardness, good wear resistance, excellent creep strength, and moderate corrosion resistance. It also offers stability and strength in heat-treated conditions."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Where is Stainless Steel 422 used?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "SS 422 is used in aerospace components, turbine blades, shafts, valves, bearings, and high-temperature fasteners in power and engineering sectors."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Is Stainless Steel 422 weldable?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes. However, preheating and post-weld heat treatment are recommended to maintain toughness, corrosion resistance, and prevent cracking."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Why choose MOKSH TUBES & FITTINGS LLP for SS 422?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "MOKSH TUBES & FITTINGS LLP supplies premium-quality 422 stainless steel with precision manufacturing, verified quality standards, and dependable global logistics to meet diverse industrial requirements worldwide."
-            }
-        }
-    ]
-}
-@endverbatim
-</script>
+        
+        @endverbatim
+    </script>
 @endsection

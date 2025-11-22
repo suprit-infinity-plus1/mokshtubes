@@ -673,54 +673,55 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
-    @verbatim
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is 14-4PH Stainless Steel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "14-4PH Stainless Steel is a martensitic precipitation-hardening stainless steel containing 14% chromium and 4% nickel, with added copper and molybdenum. It offers high strength, excellent corrosion resistance, and toughness after heat treatment."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the main applications of 14-4PH Stainless Steel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "It is commonly used in aerospace, marine, nuclear, and petrochemical industries for manufacturing shafts, fasteners, valves, fittings, and high-stress components requiring superior mechanical strength and corrosion resistance."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How is 14-4PH Stainless Steel different from other PH grades?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Unlike other precipitation-hardening steels, 14-4PH provides a balanced combination of strength, ductility, and corrosion resistance while maintaining stability at elevated temperatures."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can 14-4PH Stainless Steel be welded or machined easily?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, 14-4PH can be welded and machined using conventional methods. It is best to perform machining in the solution-annealed condition, followed by aging treatment for optimal hardness and strength."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the heat treatment conditions for 14-4PH Stainless Steel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The alloy is typically heat-treated under different conditions such as H900, H1025, and H1150, each offering distinct combinations of strength, hardness, and toughness depending on application requirements."
-      }
-    }
-  ]
-}
-@endverbatim
-</script>
+    <script type="application/ld+json">
+        @verbatim
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What is 14-4PH Stainless Steel?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "14-4PH Stainless Steel is a martensitic precipitation-hardening stainless steel containing 14% chromium and 4% nickel, with added copper and molybdenum. It offers high strength, excellent corrosion resistance, and toughness after heat treatment."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the main applications of 14-4PH Stainless Steel?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "It is commonly used in aerospace, marine, nuclear, and petrochemical industries for manufacturing shafts, fasteners, valves, fittings, and high-stress components requiring superior mechanical strength and corrosion resistance."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "How is 14-4PH Stainless Steel different from other PH grades?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Unlike other precipitation-hardening steels, 14-4PH provides a balanced combination of strength, ductility, and corrosion resistance while maintaining stability at elevated temperatures."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Can 14-4PH Stainless Steel be welded or machined easily?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, 14-4PH can be welded and machined using conventional methods. It is best to perform machining in the solution-annealed condition, followed by aging treatment for optimal hardness and strength."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the heat treatment conditions for 14-4PH Stainless Steel?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The alloy is typically heat-treated under different conditions such as H900, H1025, and H1150, each offering distinct combinations of strength, hardness, and toughness depending on application requirements."
+                }
+                }
+            ]
+            }
+        
+        @endverbatim
+    </script>
 @endsection

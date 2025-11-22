@@ -615,54 +615,55 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
-    @verbatim
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is 403 Stainless Steel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "403 is a martensitic stainless steel offering good corrosion resistance, high strength, and ease of machining, often used in engineering applications."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are its key properties?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Good tensile strength, moderate corrosion resistance, excellent wear resistance, and good hardness."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Where is it used?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Automotive components, turbine blades, valve parts, shafts, and general engineering applications."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is it weldable?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Welding is possible with proper preheating and post-weld heat treatment to prevent cracking."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why choose Mokshtubes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Mokshtubes supplies high-quality 403 stainless steel with precision manufacturing, reliable quality, and global delivery."
-      }
-    }
-  ]
-}
-@endverbatim
-</script>
+    <script type="application/ld+json">
+        @verbatim
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What is 403 Stainless Steel?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "403 is a martensitic stainless steel offering good corrosion resistance, high strength, and ease of machining, often used in engineering applications."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are its key properties?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Good tensile strength, moderate corrosion resistance, excellent wear resistance, and good hardness."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Where is it used?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Automotive components, turbine blades, valve parts, shafts, and general engineering applications."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Is it weldable?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Welding is possible with proper preheating and post-weld heat treatment to prevent cracking."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Why choose Mokshtubes?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Mokshtubes supplies high-quality 403 stainless steel with precision manufacturing, reliable quality, and global delivery."
+                }
+                }
+            ]
+            }
+        
+        @endverbatim
+    </script>
 @endsection

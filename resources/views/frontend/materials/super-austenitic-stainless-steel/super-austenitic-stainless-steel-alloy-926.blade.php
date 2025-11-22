@@ -648,54 +648,55 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
-    @verbatim
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is Alloy 926 and why is it used?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Alloy 926 (UNS N08926) is a super austenitic stainless steel designed for extreme corrosion resistance in aggressive environments. With enhanced molybdenum (6.5%) and nitrogen, along with high nickel and chromium content, it offers superior protection against pitting, crevice corrosion, and stress corrosion cracking (SCC), particularly in chloride-bearing and acidic solutions. Alloy 926 is ideal for demanding applications in marine, chemical processing, desalination, pulp & paper, and pollution control industries."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What Alloy 926 products are supplied by Moksh Tubes & Fittings LLP?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Moksh Tubes & Fittings LLP supplies a comprehensive range of Alloy 926 products, including seamless and welded pipes (ERW & EFW), capillary, U-bend, boiler, and heat exchanger tubes, sheets, plates, coils, strips, round, flat, hex, and square bars, pipe fittings, flanges, fasteners, welding rods, wires, and custom fabricated components. All products comply with international standards and can be supplied in custom dimensions for specialized industrial requirements."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the benefits of Alloy 926?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Alloy 926 offers excellent corrosion resistance in both oxidizing and reducing environments, high strength, toughness, and resistance to stress corrosion cracking. It is non magnetic, performs well in cryogenic applications, and maintains excellent mechanical properties over a wide temperature range. These advantages make it suitable for critical components exposed to harsh chemicals, seawater, or high chloride conditions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which industries use Alloy 926?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Alloy 926 is widely used in marine applications, chemical processing, desalination and water treatment, pulp & paper, oil & gas, and pollution control sectors. Typical applications include seawater cooling systems, heat exchangers, tanks and piping in acid plants, evaporators, reverse osmosis (RO) systems, digesters, bleach plants, scrubbers, and flue gas desulfurization (FGD) equipment."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why choose Moksh Tubes & Fittings LLP for Alloy 926?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Moksh Tubes & Fittings LLP is a trusted manufacturer, importer, exporter, and stockist of Alloy 926. The company offers ISO certified manufacturing, extensive inventory, rapid global shipping, in house quality testing, and the ability to produce custom sizes, lengths, and finishes. With expertise in nickel alloys and high performance stainless steels, Moksh Tubes & Fittings LLP ensures reliable, high-quality materials for demanding industrial applications."
-      }
-    }
-  ]
-}
-@endverbatim
-</script>
+    <script type="application/ld+json">
+        @verbatim
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What is Alloy 926 and why is it used?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Alloy 926 (UNS N08926) is a super austenitic stainless steel designed for extreme corrosion resistance in aggressive environments. With enhanced molybdenum (6.5%) and nitrogen, along with high nickel and chromium content, it offers superior protection against pitting, crevice corrosion, and stress corrosion cracking (SCC), particularly in chloride-bearing and acidic solutions. Alloy 926 is ideal for demanding applications in marine, chemical processing, desalination, pulp & paper, and pollution control industries."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What Alloy 926 products are supplied by Moksh Tubes & Fittings LLP?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Moksh Tubes & Fittings LLP supplies a comprehensive range of Alloy 926 products, including seamless and welded pipes (ERW & EFW), capillary, U-bend, boiler, and heat exchanger tubes, sheets, plates, coils, strips, round, flat, hex, and square bars, pipe fittings, flanges, fasteners, welding rods, wires, and custom fabricated components. All products comply with international standards and can be supplied in custom dimensions for specialized industrial requirements."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the benefits of Alloy 926?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Alloy 926 offers excellent corrosion resistance in both oxidizing and reducing environments, high strength, toughness, and resistance to stress corrosion cracking. It is non magnetic, performs well in cryogenic applications, and maintains excellent mechanical properties over a wide temperature range. These advantages make it suitable for critical components exposed to harsh chemicals, seawater, or high chloride conditions."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Which industries use Alloy 926?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Alloy 926 is widely used in marine applications, chemical processing, desalination and water treatment, pulp & paper, oil & gas, and pollution control sectors. Typical applications include seawater cooling systems, heat exchangers, tanks and piping in acid plants, evaporators, reverse osmosis (RO) systems, digesters, bleach plants, scrubbers, and flue gas desulfurization (FGD) equipment."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Why choose Moksh Tubes & Fittings LLP for Alloy 926?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Moksh Tubes & Fittings LLP is a trusted manufacturer, importer, exporter, and stockist of Alloy 926. The company offers ISO certified manufacturing, extensive inventory, rapid global shipping, in house quality testing, and the ability to produce custom sizes, lengths, and finishes. With expertise in nickel alloys and high performance stainless steels, Moksh Tubes & Fittings LLP ensures reliable, high-quality materials for demanding industrial applications."
+                }
+                }
+            ]
+            }
+        
+        @endverbatim
+    </script>
 @endsection

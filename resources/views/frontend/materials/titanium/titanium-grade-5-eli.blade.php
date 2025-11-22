@@ -663,54 +663,55 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
-    @verbatim
-{
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-        {
-            "@type": "Question",
-            "name": "What is Titanium Grade 5 ELI and why is it important?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Titanium Grade 5 ELI (Ti-6Al-4V ELI) is an advanced titanium alloy with extra low interstitials, making it stronger, more ductile, and corrosion-resistant than standard titanium. Its high fracture toughness and biocompatibility make it ideal for aerospace, medical, cryogenic, and high stress industrial applications. Industries choose Grade 5 ELI when reliability and performance in extreme conditions are critical."
+    <script type="application/ld+json">
+        @verbatim
+            {
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What is Titanium Grade 5 ELI and why is it important?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Titanium Grade 5 ELI (Ti-6Al-4V ELI) is an advanced titanium alloy with extra low interstitials, making it stronger, more ductile, and corrosion-resistant than standard titanium. Its high fracture toughness and biocompatibility make it ideal for aerospace, medical, cryogenic, and high stress industrial applications. Industries choose Grade 5 ELI when reliability and performance in extreme conditions are critical."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What types of Titanium Grade 5 ELI products are available?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "MOKSH TUBES & FITTINGS LLP offers a wide range of Titanium Grade 5 ELI products, including seamless and welded pipes, various tubes, sheets, plates, coils, bars, pipe fittings, flanges, fasteners, forgings, and custom-fabricated components. These products meet international standards, ensuring superior strength, durability, and precision for every application."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What are the key advantages of Titanium Grade 5 ELI?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Titanium Grade 5 ELI provides an exceptional strength to weight ratio, excellent corrosion resistance in marine and chloride environments, and superior fracture toughness, even at cryogenic temperatures. It is biocompatible, making it safe for medical implants. Additionally, it offers high machinability, weldability, and formability, making it suitable for engineering applications requiring precision and reliability."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Which industries use Titanium Grade 5 ELI products?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Titanium Grade 5 ELI is used across multiple high-performance industries. In the medical and surgical sectors, it is ideal for implants and orthopedic devices. Aerospace and defense industries use it for airframes and jet engine components. Marine and subsea applications benefit from its corrosion resistance in saline environments, while industrial and cryogenic sectors utilize it for turbines, heat exchangers, pressure vessels, and low-temperature equipment. It is also increasingly used in additive manufacturing for precision components."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Why choose MOKSH TUBES & FITTINGS LLP for Titanium Grade 5 ELI products?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "We specialize in high performance titanium alloys, offering global-standard Grade 5 ELI products with precision manufacturing and quality testing. Our team ensures prompt delivery, custom solutions for critical applications, and reliable customer support. With years of expertise, MOKSH TUBES & FITTINGS LLP is a trusted partner for industries requiring high strength, corrosion resistant, and biocompatible titanium components."
+                        }
+                    }
+                ]
             }
-        },
-        {
-            "@type": "Question",
-            "name": "What types of Titanium Grade 5 ELI products are available?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "MOKSH TUBES & FITTINGS LLP offers a wide range of Titanium Grade 5 ELI products, including seamless and welded pipes, various tubes, sheets, plates, coils, bars, pipe fittings, flanges, fasteners, forgings, and custom-fabricated components. These products meet international standards, ensuring superior strength, durability, and precision for every application."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "What are the key advantages of Titanium Grade 5 ELI?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Titanium Grade 5 ELI provides an exceptional strength to weight ratio, excellent corrosion resistance in marine and chloride environments, and superior fracture toughness, even at cryogenic temperatures. It is biocompatible, making it safe for medical implants. Additionally, it offers high machinability, weldability, and formability, making it suitable for engineering applications requiring precision and reliability."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Which industries use Titanium Grade 5 ELI products?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Titanium Grade 5 ELI is used across multiple high-performance industries. In the medical and surgical sectors, it is ideal for implants and orthopedic devices. Aerospace and defense industries use it for airframes and jet engine components. Marine and subsea applications benefit from its corrosion resistance in saline environments, while industrial and cryogenic sectors utilize it for turbines, heat exchangers, pressure vessels, and low-temperature equipment. It is also increasingly used in additive manufacturing for precision components."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Why choose MOKSH TUBES & FITTINGS LLP for Titanium Grade 5 ELI products?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "We specialize in high performance titanium alloys, offering global-standard Grade 5 ELI products with precision manufacturing and quality testing. Our team ensures prompt delivery, custom solutions for critical applications, and reliable customer support. With years of expertise, MOKSH TUBES & FITTINGS LLP is a trusted partner for industries requiring high strength, corrosion resistant, and biocompatible titanium components."
-            }
-        }
-    ]
-}
-@endverbatim
-</script>
+        
+        @endverbatim
+    </script>
 @endsection

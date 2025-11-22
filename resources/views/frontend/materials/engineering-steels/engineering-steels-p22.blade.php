@@ -633,54 +633,55 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
-    @verbatim
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is P22 steel used for?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "P22 steel is used in high temperature and high-pressure applications such as boiler tubes, superheater and reheater tubes, heat exchangers, pressure vessels, and refinery piping in power plants, petrochemical, and oil & gas industries."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the key properties of P22 steel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "P22 steel provides excellent strength, high creep resistance, corrosion and oxidation resistance at elevated temperatures, good weldability, and reliable mechanical performance for long term service."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "In what forms is P22 steel available?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "P22 steel is available as seamless and welded pipes, tubes, sheets, plates, bars, flanges, fasteners, and custom fabricated components to meet diverse industrial requirements."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why is P22 steel preferred for high-temperature applications?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "With chromium, molybdenum, and nickel alloying, P22 steel offers superior high temperature strength, creep resistance, and corrosion resistance, making it suitable for boilers, superheaters, and pressure vessels operating under severe conditions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why choose MOKSH TUBES & FITTINGS LLP for P22 steel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We provide certified P22 steel products with extensive stock, custom sizing, technical expertise, competitive pricing, timely delivery, and full traceability to ensure reliable performance in critical applications."
-      }
-    }
-  ]
-}
-@endverbatim
-</script>
+    <script type="application/ld+json">
+        @verbatim
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What is P22 steel used for?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "P22 steel is used in high temperature and high-pressure applications such as boiler tubes, superheater and reheater tubes, heat exchangers, pressure vessels, and refinery piping in power plants, petrochemical, and oil & gas industries."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the key properties of P22 steel?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "P22 steel provides excellent strength, high creep resistance, corrosion and oxidation resistance at elevated temperatures, good weldability, and reliable mechanical performance for long term service."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "In what forms is P22 steel available?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "P22 steel is available as seamless and welded pipes, tubes, sheets, plates, bars, flanges, fasteners, and custom fabricated components to meet diverse industrial requirements."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Why is P22 steel preferred for high-temperature applications?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "With chromium, molybdenum, and nickel alloying, P22 steel offers superior high temperature strength, creep resistance, and corrosion resistance, making it suitable for boilers, superheaters, and pressure vessels operating under severe conditions."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Why choose MOKSH TUBES & FITTINGS LLP for P22 steel?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We provide certified P22 steel products with extensive stock, custom sizing, technical expertise, competitive pricing, timely delivery, and full traceability to ensure reliable performance in critical applications."
+                }
+                }
+            ]
+            }
+        
+        @endverbatim
+    </script>
 @endsection

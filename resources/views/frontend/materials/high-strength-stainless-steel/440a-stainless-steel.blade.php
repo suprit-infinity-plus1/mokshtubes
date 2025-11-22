@@ -677,54 +677,55 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
-    @verbatim
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is 440A Stainless Steel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "440A is a high-carbon martensitic stainless steel widely recognized for its excellent hardness, edge retention, and good corrosion resistance. It offers a balanced combination of strength and machinability, making it ideal for precision-engineered components."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are its key properties?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Key properties of 440A Stainless Steel include: high strength and hardness after heat treatment, excellent edge retention and wear resistance, good polishability for decorative and functional applications, and moderate corrosion resistance in hardened condition."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Where is it used?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Stainless Steel 440A is commonly used in the manufacturing of knives, surgical instruments, bearings, cutting tools, and components requiring sharp edges and wear resistance."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is it weldable?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, 440A can be welded with proper precautions. Preheating and post-weld heat treatment are recommended to prevent cracking and to maintain its mechanical integrity."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why choose MOKSH TUBES & FITTINGS LLP for 440A Stainless Steel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MOKSH TUBES & FITTINGS LLP supplies high-quality 440A Stainless Steel with precise dimensional accuracy, reliable performance, and global delivery. Our commitment to excellence ensures that every product meets international standards and customer-specific requirements."
-      }
-    }
-  ]
-}
-@endverbatim
-</script>
+    <script type="application/ld+json">
+        @verbatim
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What is 440A Stainless Steel?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "440A is a high-carbon martensitic stainless steel widely recognized for its excellent hardness, edge retention, and good corrosion resistance. It offers a balanced combination of strength and machinability, making it ideal for precision-engineered components."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are its key properties?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Key properties of 440A Stainless Steel include: high strength and hardness after heat treatment, excellent edge retention and wear resistance, good polishability for decorative and functional applications, and moderate corrosion resistance in hardened condition."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Where is it used?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Stainless Steel 440A is commonly used in the manufacturing of knives, surgical instruments, bearings, cutting tools, and components requiring sharp edges and wear resistance."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Is it weldable?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, 440A can be welded with proper precautions. Preheating and post-weld heat treatment are recommended to prevent cracking and to maintain its mechanical integrity."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Why choose MOKSH TUBES & FITTINGS LLP for 440A Stainless Steel?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "MOKSH TUBES & FITTINGS LLP supplies high-quality 440A Stainless Steel with precise dimensional accuracy, reliable performance, and global delivery. Our commitment to excellence ensures that every product meets international standards and customer-specific requirements."
+                }
+                }
+            ]
+            }
+        
+        @endverbatim
+    </script>
 @endsection

@@ -729,54 +729,55 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
-    @verbatim
-{
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-        {
-            "@type": "Question",
-            "name": "What is Monel K500 and how does it differ from Monel 400?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Monel K500 (UNS N05500) is a precipitation-hardenable nickel-copper alloy that combines the corrosion resistance of Monel 400 with enhanced strength and hardness provided by aluminum and titanium additions. Unlike Monel 400, Monel K500 offers higher mechanical strength, excellent resistance to stress corrosion cracking, and better performance in high-pressure and high temperature environments, making it ideal for demanding industrial applications."
+    <script type="application/ld+json">
+        @verbatim
+            {
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What is Monel K500 and how does it differ from Monel 400?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Monel K500 (UNS N05500) is a precipitation-hardenable nickel-copper alloy that combines the corrosion resistance of Monel 400 with enhanced strength and hardness provided by aluminum and titanium additions. Unlike Monel 400, Monel K500 offers higher mechanical strength, excellent resistance to stress corrosion cracking, and better performance in high-pressure and high temperature environments, making it ideal for demanding industrial applications."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What types of Monel K500 products are supplied by Moksh Tubes & Fittings LLP?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Moksh Tubes & Fittings LLP supplies a comprehensive range of Monel K500 products including seamless and welded pipes, tubes, pipe fittings, flanges, fasteners, sheets, plates, coils, bars, wires, welding rods, and custom-fabricated components. All products are available in both standard and custom dimensions to meet the requirements of marine, oil and gas, chemical, and aerospace industries."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What are the key advantages of using Monel K500 in industrial applications?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "The main advantages of Monel K500 include superior resistance to seawater and chemical corrosion, non-magnetic behavior even at sub-zero temperatures, high resistance to stress corrosion cracking and erosion, and long-term durability in harsh operating conditions. Its combination of strength, toughness, and corrosion resistance makes it an alloy of choice for mission critical applications in offshore, marine, and petrochemical industries."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Which industries commonly use Monel K500 products?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Monel K500 is widely used in marine and offshore engineering, oil and gas exploration, chemical processing, aerospace, defense, power generation, and pump and valve manufacturing. Applications include propeller shafts, pump shafts, non-magnetic drill collars, valve components, heat exchangers, turbine blades, springs, fasteners, and medical equipment where reliability under extreme conditions is essential."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Why choose Moksh Tubes & Fittings LLP for Monel K500 supply?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Moksh Tubes & Fittings LLP is a trusted manufacturer, supplier, and global exporter of Monel K500 products with proven expertise in nickel alloys and high performance materials. The company ensures top quality raw materials, precision engineering, customized fabrication, rapid delivery, and strict quality assurance, making it the preferred choice for clients requiring durable and dependable Monel K500 solutions."
+                        }
+                    }
+                ]
             }
-        },
-        {
-            "@type": "Question",
-            "name": "What types of Monel K500 products are supplied by Moksh Tubes & Fittings LLP?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Moksh Tubes & Fittings LLP supplies a comprehensive range of Monel K500 products including seamless and welded pipes, tubes, pipe fittings, flanges, fasteners, sheets, plates, coils, bars, wires, welding rods, and custom-fabricated components. All products are available in both standard and custom dimensions to meet the requirements of marine, oil and gas, chemical, and aerospace industries."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "What are the key advantages of using Monel K500 in industrial applications?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "The main advantages of Monel K500 include superior resistance to seawater and chemical corrosion, non-magnetic behavior even at sub-zero temperatures, high resistance to stress corrosion cracking and erosion, and long-term durability in harsh operating conditions. Its combination of strength, toughness, and corrosion resistance makes it an alloy of choice for mission critical applications in offshore, marine, and petrochemical industries."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Which industries commonly use Monel K500 products?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Monel K500 is widely used in marine and offshore engineering, oil and gas exploration, chemical processing, aerospace, defense, power generation, and pump and valve manufacturing. Applications include propeller shafts, pump shafts, non-magnetic drill collars, valve components, heat exchangers, turbine blades, springs, fasteners, and medical equipment where reliability under extreme conditions is essential."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Why choose Moksh Tubes & Fittings LLP for Monel K500 supply?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Moksh Tubes & Fittings LLP is a trusted manufacturer, supplier, and global exporter of Monel K500 products with proven expertise in nickel alloys and high performance materials. The company ensures top quality raw materials, precision engineering, customized fabrication, rapid delivery, and strict quality assurance, making it the preferred choice for clients requiring durable and dependable Monel K500 solutions."
-            }
-        }
-    ]
-}
-@endverbatim
-</script>
+        
+        @endverbatim
+    </script>
 @endsection

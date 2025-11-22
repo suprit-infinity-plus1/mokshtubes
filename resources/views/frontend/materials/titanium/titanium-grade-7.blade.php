@@ -641,54 +641,55 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
-    @verbatim
-{
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-        {
-            "@type": "Question",
-            "name": "What is Titanium Grade 7?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Titanium Grade 7 is a corrosion resistant titanium alloy that contains palladium, providing superior strength, weldability, and durability. It is particularly suited for chemical, marine, and industrial applications that demand high performance and long-lasting reliability."
+    <script type="application/ld+json">
+        @verbatim
+            {
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What is Titanium Grade 7?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Titanium Grade 7 is a corrosion resistant titanium alloy that contains palladium, providing superior strength, weldability, and durability. It is particularly suited for chemical, marine, and industrial applications that demand high performance and long-lasting reliability."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What are the common applications of Titanium Grade 7?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Titanium Grade 7 is widely used in chemical processing plants, desalination systems, marine equipment, power generation facilities, pharmaceutical processing, and pollution control systems. It provides excellent resistance to acids, brines, and harsh industrial environments, ensuring long term performance in challenging conditions."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What products are available in Titanium Grade 7?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "MOKSH TUBES & FITTINGS LLP supplies Titanium Grade 7 in a wide range of products, including pipes, tubes, sheets, plates, coils, bars, fittings, flanges, fasteners, and custom fabricated components. All products are manufactured to strict international standards for high-performance industrial applications."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Why choose Titanium Grade 7 NB for harsh environments?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Titanium Grade 7 NB contains palladium, which enhances resistance to hydrochloric and sulfuric acids, brines, and chloride-rich conditions. It maintains excellent weldability, mechanical strength, and durability, making it ideal for critical industrial environments where reliability is essential."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Why choose MOKSH TUBES & FITTINGS LLP?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "MOKSH TUBES & FITTINGS LLP provides premium Titanium Grade 7 products with global sourcing, custom fabrication, strict quality control, fast delivery, and expert technical support. We ensure reliable, high-performance solutions for demanding industrial and chemical applications."
+                        }
+                    }
+                ]
             }
-        },
-        {
-            "@type": "Question",
-            "name": "What are the common applications of Titanium Grade 7?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Titanium Grade 7 is widely used in chemical processing plants, desalination systems, marine equipment, power generation facilities, pharmaceutical processing, and pollution control systems. It provides excellent resistance to acids, brines, and harsh industrial environments, ensuring long term performance in challenging conditions."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "What products are available in Titanium Grade 7?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "MOKSH TUBES & FITTINGS LLP supplies Titanium Grade 7 in a wide range of products, including pipes, tubes, sheets, plates, coils, bars, fittings, flanges, fasteners, and custom fabricated components. All products are manufactured to strict international standards for high-performance industrial applications."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Why choose Titanium Grade 7 NB for harsh environments?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Titanium Grade 7 NB contains palladium, which enhances resistance to hydrochloric and sulfuric acids, brines, and chloride-rich conditions. It maintains excellent weldability, mechanical strength, and durability, making it ideal for critical industrial environments where reliability is essential."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Why choose MOKSH TUBES & FITTINGS LLP?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "MOKSH TUBES & FITTINGS LLP provides premium Titanium Grade 7 products with global sourcing, custom fabrication, strict quality control, fast delivery, and expert technical support. We ensure reliable, high-performance solutions for demanding industrial and chemical applications."
-            }
-        }
-    ]
-}
-@endverbatim
-</script>
+        
+        @endverbatim
+    </script>
 @endsection

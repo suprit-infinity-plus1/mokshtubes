@@ -690,54 +690,54 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
-    @verbatim
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is Hastelloy G-30 and why is it important in industrial use?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hastelloy G-30 (UNS N06030) is a nickel-chromium-iron alloy with significant additions of cobalt, molybdenum, and copper, designed for superior resistance to strongly oxidizing acid environments such as nitric and phosphoric acid. It offers better performance than Alloy G-3 in highly oxidizing conditions and maintains excellent resistance to intergranular corrosion even after welding, making it a critical material for industries dealing with aggressive chemical environments."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the main properties of Hastelloy G-30?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hastelloy G-30 combines outstanding corrosion resistance with reliable mechanical stability. It has a density of 8.22 g/cm³, a melting point of 1330–1380°C, tensile strength of 100,000 psi, yield strength of 45,000 psi, and elongation of 40%. The alloy provides superior protection against nitric, sulfuric, and phosphoric acids, oxidizing chlorides, and mixed acid environments while retaining good formability and weldability for complex industrial applications."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which industries commonly use Hastelloy G-30 products?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hastelloy G-30 is widely used in fertilizer production, where it resists corrosion from phosphoric acid, as well as in chemical processing plants handling aggressive acid mixtures. It is also applied in pickling equipment, pollution control systems such as scrubbers and absorber towers, pulp and paper bleaching units, food and beverage facilities requiring chemical cleaning resistance, and wastewater treatment plants exposed to acid laden effluents."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What types of Hastelloy G-30 products are available from MOKSH TUBES & FITTINGS LLP?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MOKSH TUBES & FITTINGS LLP manufactures and supplies a wide range of Hastelloy G-30 products including seamless and welded pipes, tubes, sheets, plates, coils, flanges, fittings, fasteners, round bars, wire mesh, welding rods, and custom-fabricated components. Each product is engineered to international quality standards to deliver long-term durability and performance in aggressive chemical environments."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why choose MOKSH TUBES & FITTINGS LLP for Hastelloy G-30 materials?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MOKSH TUBES & FITTINGS LLP is a trusted supplier of corrosion-resistant alloys with a deep inventory, global shipping capabilities, and expertise in precision engineering. The company adheres to ASTM and ASME standards, offers custom cut sizes and fabrications, and ensures reliable delivery of high-quality Hastelloy G-30 products, backed by responsive customer service and a strong commitment to client satisfaction."
-      }
-    }
-  ]
-}
-@endverbatim
-</script>
+    <script type="application/ld+json">
+        @verbatim
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What is Hastelloy G-30 and why is it important in industrial use?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Hastelloy G-30 (UNS N06030) is a nickel-chromium-iron alloy with significant additions of cobalt, molybdenum, and copper, designed for superior resistance to strongly oxidizing acid environments such as nitric and phosphoric acid. It offers better performance than Alloy G-3 in highly oxidizing conditions and maintains excellent resistance to intergranular corrosion even after welding, making it a critical material for industries dealing with aggressive chemical environments."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the main properties of Hastelloy G-30?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Hastelloy G-30 combines outstanding corrosion resistance with reliable mechanical stability. It has a density of 8.22 g/cm³, a melting point of 1330–1380°C, tensile strength of 100,000 psi, yield strength of 45,000 psi, and elongation of 40%. The alloy provides superior protection against nitric, sulfuric, and phosphoric acids, oxidizing chlorides, and mixed acid environments while retaining good formability and weldability for complex industrial applications."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Which industries commonly use Hastelloy G-30 products?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Hastelloy G-30 is widely used in fertilizer production, where it resists corrosion from phosphoric acid, as well as in chemical processing plants handling aggressive acid mixtures. It is also applied in pickling equipment, pollution control systems such as scrubbers and absorber towers, pulp and paper bleaching units, food and beverage facilities requiring chemical cleaning resistance, and wastewater treatment plants exposed to acid laden effluents."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What types of Hastelloy G-30 products are available from MOKSH TUBES & FITTINGS LLP?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "MOKSH TUBES & FITTINGS LLP manufactures and supplies a wide range of Hastelloy G-30 products including seamless and welded pipes, tubes, sheets, plates, coils, flanges, fittings, fasteners, round bars, wire mesh, welding rods, and custom-fabricated components. Each product is engineered to international quality standards to deliver long-term durability and performance in aggressive chemical environments."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Why choose MOKSH TUBES & FITTINGS LLP for Hastelloy G-30 materials?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "MOKSH TUBES & FITTINGS LLP is a trusted supplier of corrosion-resistant alloys with a deep inventory, global shipping capabilities, and expertise in precision engineering. The company adheres to ASTM and ASME standards, offers custom cut sizes and fabrications, and ensures reliable delivery of high-quality Hastelloy G-30 products, backed by responsive customer service and a strong commitment to client satisfaction."
+                }
+                }
+            ]
+            }
+        @endverbatim
+    </script>
 @endsection

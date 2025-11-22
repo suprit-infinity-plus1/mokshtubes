@@ -674,54 +674,55 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
-    @verbatim
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is 15-5 PH Stainless Steel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "15-5 PH Stainless Steel is a high-strength, corrosion-resistant alloy used in aerospace, marine, and chemical industries for demanding applications."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are its main properties?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "It offers high strength, excellent corrosion resistance, good toughness, and the ability to achieve heat-treatable hardness."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Where is it used?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common applications include aerospace components, chemical processing equipment, marine shafts, pump components, and medical devices."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is it weldable?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, it can be welded using proper techniques such as TIG or MIG. Post-weld heat treatment is recommended to maintain optimal properties."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why choose MOKSH TUBES & FITTINGS LLP for 15-5 PH Stainless Steel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MOKSH TUBES & FITTINGS LLP offers premium-grade 15-5 PH stainless steel with guaranteed quality, global delivery capability, and competitive pricing, making us a trusted partner for critical applications worldwide."
-      }
-    }
-  ]
-}
-@endverbatim
-</script>
+    <script type="application/ld+json">
+        @verbatim
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What is 15-5 PH Stainless Steel?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "15-5 PH Stainless Steel is a high-strength, corrosion-resistant alloy used in aerospace, marine, and chemical industries for demanding applications."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are its main properties?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "It offers high strength, excellent corrosion resistance, good toughness, and the ability to achieve heat-treatable hardness."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Where is it used?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Common applications include aerospace components, chemical processing equipment, marine shafts, pump components, and medical devices."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Is it weldable?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, it can be welded using proper techniques such as TIG or MIG. Post-weld heat treatment is recommended to maintain optimal properties."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Why choose MOKSH TUBES & FITTINGS LLP for 15-5 PH Stainless Steel?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "MOKSH TUBES & FITTINGS LLP offers premium-grade 15-5 PH stainless steel with guaranteed quality, global delivery capability, and competitive pricing, making us a trusted partner for critical applications worldwide."
+                }
+                }
+            ]
+            }
+        
+        @endverbatim
+    </script>
 @endsection

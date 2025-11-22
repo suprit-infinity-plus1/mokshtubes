@@ -660,54 +660,55 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
-    @verbatim
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is 420HC Stainless Steel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "420HC Stainless Steel is a high-carbon martensitic stainless steel designed for superior hardness, wear resistance, and corrosion resistance. It is widely used in knives, cutting tools, and precision components."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are its main properties?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Key properties include: high hardness after heat treatment, excellent edge retention, good corrosion resistance, wear and abrasion resistance, and good machinability and polishability."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Where is it used?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common applications include knife blades, surgical instruments, hand tools, cutting tools, bearings, and wear parts."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is it weldable?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, but welding should be done with caution due to the high carbon content. Post-weld heat treatment is recommended to restore hardness and corrosion resistance."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why choose MOKSH TUBES & FITTINGS LLP for 420HC Stainless Steel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MOKSH TUBES & FITTINGS LLP offers high-quality 420HC stainless steel manufactured to exacting standards, with precision, durability, and global delivery capabilities to meet specialized requirements across industries."
-      }
-    }
-  ]
-}
-@endverbatim
-</script>
+    <script type="application/ld+json">
+        @verbatim
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What is 420HC Stainless Steel?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "420HC Stainless Steel is a high-carbon martensitic stainless steel designed for superior hardness, wear resistance, and corrosion resistance. It is widely used in knives, cutting tools, and precision components."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are its main properties?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Key properties include: high hardness after heat treatment, excellent edge retention, good corrosion resistance, wear and abrasion resistance, and good machinability and polishability."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Where is it used?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Common applications include knife blades, surgical instruments, hand tools, cutting tools, bearings, and wear parts."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Is it weldable?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, but welding should be done with caution due to the high carbon content. Post-weld heat treatment is recommended to restore hardness and corrosion resistance."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Why choose MOKSH TUBES & FITTINGS LLP for 420HC Stainless Steel?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "MOKSH TUBES & FITTINGS LLP offers high-quality 420HC stainless steel manufactured to exacting standards, with precision, durability, and global delivery capabilities to meet specialized requirements across industries."
+                }
+                }
+            ]
+            }
+        
+        @endverbatim
+    </script>
 @endsection

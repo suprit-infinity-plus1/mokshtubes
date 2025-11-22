@@ -670,54 +670,55 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
+    <script type="application/ld+json">
             @verbatim
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is EN24 steel and why is it also known as 817M40 or AISI 4340?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "EN24, also known as 817M40 or AISI 4340, is a high-strength alloy engineering steel recognized for its toughness, wear resistance, and fatigue strength. It contains chromium, molybdenum, and nickel, which enhance its hardenability and mechanical performance. With excellent tensile strength, ductility, and load-bearing capacity, EN24 is ideal for demanding industrial applications requiring strength and durability."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the chemical and mechanical properties of EN24 steel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "EN24 steel has 0.36–0.44% carbon, 0.90–1.40% chromium, 0.20–0.35% molybdenum, 1.30–1.80% nickel, 0.45–0.70% manganese, and 0.10–0.35% silicon, with low phosphorus and sulfur. It offers tensile strength between 85–130 ksi, yield strength of 50–110 ksi, elongation of 12–25%, and Brinell hardness of 150–270 depending on condition. It performs well under quenching and tempering for high-performance parts."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What EN24 steel products are offered by MOKSH TUBES & FITTINGS LLP?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MOKSH TUBES & FITTINGS LLP supplies EN24 round bars, bright bars, hex bars, flat bars, shafts, forgings, hollow bars, seamless and welded pipes, tubes, flanges, fittings, fasteners, sheets, plates, coils, strips, and custom components. All products meet international standards and are available in annealed, hot finished, cold drawn, or quenched and tempered conditions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the common applications of EN24 steel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "EN24 steel is used in automotive, aerospace, defense, power generation, mining, oil and gas, and construction industries. Applications include gear shafts, pinions, drive shafts, transmission parts, landing gear, actuators, turbine shafts, pump shafts, tool joints, and heavy machinery components."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why choose MOKSH TUBES & FITTINGS LLP for EN24 steel products?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MOKSH TUBES & FITTINGS LLP is a reliable manufacturer, exporter, and stockist of EN24 steel products, offering in-house heat treatment, forging, CNC machining, and custom processing. With ISO-certified quality control, accurate dimensions, and fast delivery, the company ensures consistent performance and provides expert metallurgical support with custom sizes and finishes."
-      }
-    }
-  ]
-}
-@endverbatim
-</script>
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What is EN24 steel and why is it also known as 817M40 or AISI 4340?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "EN24, also known as 817M40 or AISI 4340, is a high-strength alloy engineering steel recognized for its toughness, wear resistance, and fatigue strength. It contains chromium, molybdenum, and nickel, which enhance its hardenability and mechanical performance. With excellent tensile strength, ductility, and load-bearing capacity, EN24 is ideal for demanding industrial applications requiring strength and durability."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the chemical and mechanical properties of EN24 steel?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "EN24 steel has 0.36–0.44% carbon, 0.90–1.40% chromium, 0.20–0.35% molybdenum, 1.30–1.80% nickel, 0.45–0.70% manganese, and 0.10–0.35% silicon, with low phosphorus and sulfur. It offers tensile strength between 85–130 ksi, yield strength of 50–110 ksi, elongation of 12–25%, and Brinell hardness of 150–270 depending on condition. It performs well under quenching and tempering for high-performance parts."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What EN24 steel products are offered by MOKSH TUBES & FITTINGS LLP?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "MOKSH TUBES & FITTINGS LLP supplies EN24 round bars, bright bars, hex bars, flat bars, shafts, forgings, hollow bars, seamless and welded pipes, tubes, flanges, fittings, fasteners, sheets, plates, coils, strips, and custom components. All products meet international standards and are available in annealed, hot finished, cold drawn, or quenched and tempered conditions."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the common applications of EN24 steel?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "EN24 steel is used in automotive, aerospace, defense, power generation, mining, oil and gas, and construction industries. Applications include gear shafts, pinions, drive shafts, transmission parts, landing gear, actuators, turbine shafts, pump shafts, tool joints, and heavy machinery components."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Why choose MOKSH TUBES & FITTINGS LLP for EN24 steel products?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "MOKSH TUBES & FITTINGS LLP is a reliable manufacturer, exporter, and stockist of EN24 steel products, offering in-house heat treatment, forging, CNC machining, and custom processing. With ISO-certified quality control, accurate dimensions, and fast delivery, the company ensures consistent performance and provides expert metallurgical support with custom sizes and finishes."
+                }
+                }
+            ]
+            }
+        
+        @endverbatim
+    </script>
 @endsection

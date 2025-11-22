@@ -653,54 +653,55 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
-    @verbatim
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is 430F Stainless Steel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "430F Stainless Steel is a free-machining ferritic stainless steel known for its excellent machinability, moderate corrosion resistance, and strong magnetic properties. It is specifically designed for automatic machining operations where speed and precision are important."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are its key properties?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The key properties of 430F Stainless Steel include: magnetic in nature (ferritic structure), excellent machinability due to sulfur addition, good strength and dimensional stability, and resistance to oxidation and mildly corrosive environments."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Where is it used?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "430F Stainless Steel is widely used in the production of fasteners, gears, shafts, and precision machined components. It is also favored in industries like automotive, consumer goods, and general engineering where machinability and magnetic properties are required."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is it weldable?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Welding of 430F Stainless Steel is limited due to its sulfur content, which enhances machinability but may cause brittleness in weld joints. It is primarily recommended for machining applications rather than welded assemblies."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why choose MOKSH TUBES & FITTINGS LLP for 430F Stainless Steel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MOKSH TUBES & FITTINGS LLP offers high-quality 430F stainless steel with precise finishing, excellent dimensional accuracy, and dependable global supply. Our expertise in ferritic stainless steels ensures reliable products for precision machining and engineering applications."
-      }
-    }
-  ]
-}
-@endverbatim
-</script>
+    <script type="application/ld+json">
+        @verbatim
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What is 430F Stainless Steel?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "430F Stainless Steel is a free-machining ferritic stainless steel known for its excellent machinability, moderate corrosion resistance, and strong magnetic properties. It is specifically designed for automatic machining operations where speed and precision are important."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are its key properties?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The key properties of 430F Stainless Steel include: magnetic in nature (ferritic structure), excellent machinability due to sulfur addition, good strength and dimensional stability, and resistance to oxidation and mildly corrosive environments."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Where is it used?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "430F Stainless Steel is widely used in the production of fasteners, gears, shafts, and precision machined components. It is also favored in industries like automotive, consumer goods, and general engineering where machinability and magnetic properties are required."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Is it weldable?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Welding of 430F Stainless Steel is limited due to its sulfur content, which enhances machinability but may cause brittleness in weld joints. It is primarily recommended for machining applications rather than welded assemblies."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Why choose MOKSH TUBES & FITTINGS LLP for 430F Stainless Steel?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "MOKSH TUBES & FITTINGS LLP offers high-quality 430F stainless steel with precise finishing, excellent dimensional accuracy, and dependable global supply. Our expertise in ferritic stainless steels ensures reliable products for precision machining and engineering applications."
+                }
+                }
+            ]
+            }
+        
+        @endverbatim
+    </script>
 @endsection
