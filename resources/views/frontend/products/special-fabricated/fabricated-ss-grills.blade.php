@@ -1042,94 +1042,95 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
-    @verbatim
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Why should I choose stainless steel grills over iron grills?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Stainless steel grills are rust-proof, more durable, and low maintenance, unlike iron grills that require regular painting and rust protection."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can SS grills be customized in design and size?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. At Moksh Tubes & Fittings LLP, we offer fully customized grills in terms of dimensions, thickness, patterns, and finishes to match your project requirements."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which grade of stainless steel is best for grills?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For residential use, SS 304 / 304L is most common. For coastal or outdoor projects, SS 316 / 316L is recommended due to its superior corrosion resistance. For luxury or harsh environments, higher grades like Duplex, Super Duplex, or 904L are preferred."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Are fabricated SS grills suitable for outdoor use?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, stainless steel grills are weather-resistant and corrosion-proof, making them ideal for balconies, terraces, gates, and façades."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What finishes are available in SS grills?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Grills are available in matte, mirror, brushed, powder coated, antique, and decorative finishes depending on the design preference."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How strong are stainless steel grills compared to mild steel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Stainless steel is stronger, tougher, and longer-lasting. Unlike mild steel, it does not corrode easily and maintains its structural integrity for decades."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do stainless steel grills require maintenance?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Maintenance is minimal. Simple cleaning with soap water or mild detergent keeps the shine intact. No repainting or polishing is required."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can SS grills be used for decorative purposes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Absolutely. With laser cutting and CNC fabrication, SS grills can be designed into intricate patterns, geometric shapes, and artistic designs, making them both functional and decorative."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Where are fabricated SS grills most commonly used?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "They are widely used in residential balconies, staircases, windows, doors, gates, office partitions, hotel lobbies, industrial safety enclosures, and ventilation systems."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How can I order custom stainless steel grills?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Simply contact Moksh Tubes & Fittings LLP at 📞 +91 97695 84950 or request a quote on our website. We supply custom built SS grills globally."
-      }
-    }
-  ]
-}
-@endverbatim
-</script>
+    <script type="application/ld+json">
+        @verbatim
+                {
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                    "@type": "Question",
+                    "name": "Why should I choose stainless steel grills over iron grills?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Stainless steel grills are rust-proof, more durable, and low maintenance, unlike iron grills that require regular painting and rust protection."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "Can SS grills be customized in design and size?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes. At Moksh Tubes & Fittings LLP, we offer fully customized grills in terms of dimensions, thickness, patterns, and finishes to match your project requirements."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "Which grade of stainless steel is best for grills?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "For residential use, SS 304 / 304L is most common. For coastal or outdoor projects, SS 316 / 316L is recommended due to its superior corrosion resistance. For luxury or harsh environments, higher grades like Duplex, Super Duplex, or 904L are preferred."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "Are fabricated SS grills suitable for outdoor use?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes, stainless steel grills are weather-resistant and corrosion-proof, making them ideal for balconies, terraces, gates, and façades."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "What finishes are available in SS grills?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Grills are available in matte, mirror, brushed, powder coated, antique, and decorative finishes depending on the design preference."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "How strong are stainless steel grills compared to mild steel?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Stainless steel is stronger, tougher, and longer-lasting. Unlike mild steel, it does not corrode easily and maintains its structural integrity for decades."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "Do stainless steel grills require maintenance?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Maintenance is minimal. Simple cleaning with soap water or mild detergent keeps the shine intact. No repainting or polishing is required."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "Can SS grills be used for decorative purposes?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Absolutely. With laser cutting and CNC fabrication, SS grills can be designed into intricate patterns, geometric shapes, and artistic designs, making them both functional and decorative."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "Where are fabricated SS grills most commonly used?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "They are widely used in residential balconies, staircases, windows, doors, gates, office partitions, hotel lobbies, industrial safety enclosures, and ventilation systems."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "How can I order custom stainless steel grills?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Simply contact Moksh Tubes & Fittings LLP at 📞 +91 97695 84950 or request a quote on our website. We supply custom built SS grills globally."
+                    }
+                    }
+                ]
+                }
+        
+            @endverbatim
+    </script>
 @endsection

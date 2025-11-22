@@ -975,54 +975,55 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
-@verbatim
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are custom fabricated fittings?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Custom fabricated fittings are specially designed pipe fittings that are manufactured according to specific requirements, such as size, material, design, or application. They are used when standard fittings do not meet the needs of a project."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which industries use custom fabricated fittings?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "These fittings are widely used in oil & gas, petrochemical, power generation, marine, chemical processing, food & beverage, water treatment, and other industries where unique piping solutions are required."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What materials are available for custom fabricated fittings?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We offer fittings in stainless steel, duplex steel, super duplex, nickel alloys (Inconel, Hastelloy, Monel), titanium, copper alloys, and other high performance materials depending on the application."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What types of fittings can be custom fabricated?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Elbows, tees, reducers, crosses, stub ends, branch fittings, lateral fittings, headers, manifolds, and other complex pipe components can all be fabricated as per project needs."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How are custom fabricated fittings manufactured?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "They are manufactured through advanced processes such as cutting, bending, welding, machining, and heat treatment to ensure precise dimensions, strength, and durability."
-      }
-    }
-  ]
-}
-@endverbatim
-</script>
+    <script type="application/ld+json">
+        @verbatim
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What are custom fabricated fittings?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Custom fabricated fittings are specially designed pipe fittings that are manufactured according to specific requirements, such as size, material, design, or application. They are used when standard fittings do not meet the needs of a project."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Which industries use custom fabricated fittings?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "These fittings are widely used in oil & gas, petrochemical, power generation, marine, chemical processing, food & beverage, water treatment, and other industries where unique piping solutions are required."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What materials are available for custom fabricated fittings?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We offer fittings in stainless steel, duplex steel, super duplex, nickel alloys (Inconel, Hastelloy, Monel), titanium, copper alloys, and other high performance materials depending on the application."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What types of fittings can be custom fabricated?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Elbows, tees, reducers, crosses, stub ends, branch fittings, lateral fittings, headers, manifolds, and other complex pipe components can all be fabricated as per project needs."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "How are custom fabricated fittings manufactured?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "They are manufactured through advanced processes such as cutting, bending, welding, machining, and heat treatment to ensure precise dimensions, strength, and durability."
+                }
+                }
+            ]
+            }
+        
+        @endverbatim
+    </script>
 @endsection

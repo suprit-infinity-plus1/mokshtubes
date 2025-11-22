@@ -1114,53 +1114,54 @@
 
 @section('jsscripts')
     <script type="application/ld+json">
-@verbatim
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a threaded rod used for?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A threaded rod is used for fastening applications where long, durable, and adjustable fasteners are required. It is commonly applied in construction, electrical, and industrial projects."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the weight of M12 threaded rod per meter?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The M12 threaded rod weight per meter is approximately 0.860 kg as per standard charts."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which material is best for threaded rods?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For corrosion resistance, stainless steel threaded rods (SS 304, SS 316) are the best choice. For heavy load-bearing, carbon steel threaded rods are preferred."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the standard sizes of threaded rods?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Standard threaded rod sizes range from M6 to M64 in metric and 1/4” to 4” in imperial standards."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Where can I find a threaded rod weight chart?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We provide a detailed threaded rod weight chart above with diameter, pitch, and weight per meter for quick reference."
-      }
-    }
-  ]
-}
-@endverbatim
+        @verbatim
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What is a threaded rod used for?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A threaded rod is used for fastening applications where long, durable, and adjustable fasteners are required. It is commonly applied in construction, electrical, and industrial projects."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What is the weight of M12 threaded rod per meter?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The M12 threaded rod weight per meter is approximately 0.860 kg as per standard charts."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Which material is best for threaded rods?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "For corrosion resistance, stainless steel threaded rods (SS 304, SS 316) are the best choice. For heavy load-bearing, carbon steel threaded rods are preferred."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the standard sizes of threaded rods?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Standard threaded rod sizes range from M6 to M64 in metric and 1/4” to 4” in imperial standards."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Where can I find a threaded rod weight chart?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We provide a detailed threaded rod weight chart above with diameter, pitch, and weight per meter for quick reference."
+                }
+                }
+            ]
+            }
+        
+        @endverbatim
     </script>
 @endsection

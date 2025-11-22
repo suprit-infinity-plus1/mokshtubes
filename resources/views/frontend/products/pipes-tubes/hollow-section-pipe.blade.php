@@ -1113,78 +1113,79 @@
     </section>
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
-@verbatim
-{
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-        {
-            "@type": "Question",
-            "name": "What are hollow section pipes?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Hollow Section Pipes are metal tubes available in square, rectangular, and oval profiles designed for structural and architectural applications. They are known for their high strength-to-weight ratio, uniform geometry, and versatility across industries such as construction, furniture, and automotive manufacturing."
+    <script type="application/ld+json">
+        @verbatim
+            {
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What are hollow section pipes?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Hollow Section Pipes are metal tubes available in square, rectangular, and oval profiles designed for structural and architectural applications. They are known for their high strength-to-weight ratio, uniform geometry, and versatility across industries such as construction, furniture, and automotive manufacturing."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What materials are used to manufacture hollow section pipes?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Hollow Section Pipes are produced in a wide range of materials including Stainless Steel, Carbon Steel, Alloy Steel, Duplex & Super Duplex, Aluminium, Copper, and Nickel Alloys. Each material is selected based on the intended strength, corrosion resistance, and application requirements."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What are the different shapes of hollow section pipes available?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Hollow Section Pipes are available in square, rectangular, oval, and custom hollow profiles. These varied shapes provide excellent design flexibility and load-bearing performance for structural and decorative uses."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What are the advantages of hollow section pipes?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Advantages include high strength-to-weight ratio, corrosion resistance, design versatility, ease of fabrication, and cost-effectiveness for structural applications."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What are the common applications of hollow section pipes?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Hollow Section Pipes are widely used in construction, furniture, automotive, industrial fabrication, and marine applications such as columns, beams, railings, chassis, and greenhouse frameworks."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What standards and specifications do Moksh Tubes & Fittings LLP follow?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Our hollow section pipes are manufactured and tested according to ASTM A500, EN 10210, EN 10219, IS 4923, and DIN 2395 standards. Each product meets strict dimensional, mechanical, and quality control parameters to ensure reliability and global compliance."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What finishes are available for hollow section pipes?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Moksh Tubes & Fittings LLP offers various surface finishes including Hot Rolled, Cold Rolled, Pickled & Passivated, Polished, and Powder Coated options to meet both functional and aesthetic requirements."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Why choose Moksh Tubes & Fittings LLP for hollow section pipes?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "We provide an extensive product range, custom fabrication, adherence to international standards, experienced technical support, and global supply with timely delivery."
+                        }
+                    }
+                ]
             }
-        },
-        {
-            "@type": "Question",
-            "name": "What materials are used to manufacture hollow section pipes?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Hollow Section Pipes are produced in a wide range of materials including Stainless Steel, Carbon Steel, Alloy Steel, Duplex & Super Duplex, Aluminium, Copper, and Nickel Alloys. Each material is selected based on the intended strength, corrosion resistance, and application requirements."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "What are the different shapes of hollow section pipes available?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Hollow Section Pipes are available in square, rectangular, oval, and custom hollow profiles. These varied shapes provide excellent design flexibility and load-bearing performance for structural and decorative uses."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "What are the advantages of hollow section pipes?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Advantages include high strength-to-weight ratio, corrosion resistance, design versatility, ease of fabrication, and cost-effectiveness for structural applications."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "What are the common applications of hollow section pipes?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Hollow Section Pipes are widely used in construction, furniture, automotive, industrial fabrication, and marine applications such as columns, beams, railings, chassis, and greenhouse frameworks."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "What standards and specifications do Moksh Tubes & Fittings LLP follow?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Our hollow section pipes are manufactured and tested according to ASTM A500, EN 10210, EN 10219, IS 4923, and DIN 2395 standards. Each product meets strict dimensional, mechanical, and quality control parameters to ensure reliability and global compliance."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "What finishes are available for hollow section pipes?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Moksh Tubes & Fittings LLP offers various surface finishes including Hot Rolled, Cold Rolled, Pickled & Passivated, Polished, and Powder Coated options to meet both functional and aesthetic requirements."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "Why choose Moksh Tubes & Fittings LLP for hollow section pipes?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "We provide an extensive product range, custom fabrication, adherence to international standards, experienced technical support, and global supply with timely delivery."
-            }
-        }
-    ]
-}
-@endverbatim
-</script>
+        
+        @endverbatim
+    </script>
 @endsection

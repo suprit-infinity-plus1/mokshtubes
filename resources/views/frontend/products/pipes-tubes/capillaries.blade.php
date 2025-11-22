@@ -1618,78 +1618,79 @@
     </section>
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
-    @verbatim
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are Capillary Tubes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Capillary Tubes are precision-engineered tubes with extremely small diameters designed for applications requiring accurate flow control and high surface quality. They are essential in medical, instrumentation, refrigeration, and chemical industries due to their micro-level precision and durability."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What materials are used for manufacturing Capillary Tubes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Capillary Tubes are made from Stainless Steel, Duplex & Super Duplex, Nickel Alloys (Inconel, Monel), Titanium, and Copper Alloys. Each material is selected for its corrosion resistance, mechanical strength, and compatibility with specific industrial or medical environments."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the available dimensions of Capillary Tubes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Capillary Tubes are available in outer diameters from 0.3 mm to 8 mm and wall thicknesses from 0.05 mm to 1.0 mm, with lengths up to 6 meters or supplied in coils. Custom sizes can also be manufactured on request."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the common applications of Capillary Tubes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "<ul><li>Medical & Pharmaceutical – hypodermic needles, catheters, and laboratory equipment</li><li>Instrumentation & Control – pressure sensors, thermocouples, and hydraulic lines</li><li>Refrigeration & HVAC – flow control and expansion systems</li><li>Chemical & Petrochemical – sampling and dosing systems</li><li>Aerospace & Automotive – lightweight fuel and brake lines</li></ul>"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the advantages of using Capillary Tubes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "<ul><li>Superior surface finish for smooth flow</li><li>High corrosion resistance in harsh conditions</li><li>Lightweight yet strong construction</li><li>Available in coils, straight lengths, and custom cut pieces</li><li>Excellent dimensional accuracy and tight tolerances</li></ul>"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What standards do your Capillary Tubes comply with?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Moksh Tubes & Fittings LLP manufactures Capillary Tubes as per ASTM A213, ASTM A269, ASTM B338, DIN, and EN standards. All tubes undergo strict quality control to ensure compliance with international dimensional and mechanical requirements."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What finishes are available for Capillary Tubes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We offer various surface finishes including Bright Annealed, Electro Polished, Matte, and Mechanical Polished finishes. These ensure both optimal performance and visual appeal based on the application’s needs."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why choose Moksh Tubes & Fittings LLP for Capillary Tubes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "<ul><li>Decades of experience in precision tube manufacturing</li><li>Advanced cold drawing and bright annealing processes</li><li>Wide stock availability with global supply network</li><li>Strict compliance with ASTM, ASME, and ISO standards</li><li>Responsive technical and customer support</li></ul>"
-      }
-    }
-  ]
-}
-@endverbatim
-</script>
+    <script type="application/ld+json">
+        @verbatim
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What are Capillary Tubes?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Capillary Tubes are precision-engineered tubes with extremely small diameters designed for applications requiring accurate flow control and high surface quality. They are essential in medical, instrumentation, refrigeration, and chemical industries due to their micro-level precision and durability."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What materials are used for manufacturing Capillary Tubes?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Capillary Tubes are made from Stainless Steel, Duplex & Super Duplex, Nickel Alloys (Inconel, Monel), Titanium, and Copper Alloys. Each material is selected for its corrosion resistance, mechanical strength, and compatibility with specific industrial or medical environments."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the available dimensions of Capillary Tubes?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Capillary Tubes are available in outer diameters from 0.3 mm to 8 mm and wall thicknesses from 0.05 mm to 1.0 mm, with lengths up to 6 meters or supplied in coils. Custom sizes can also be manufactured on request."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the common applications of Capillary Tubes?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "<ul><li>Medical & Pharmaceutical – hypodermic needles, catheters, and laboratory equipment</li><li>Instrumentation & Control – pressure sensors, thermocouples, and hydraulic lines</li><li>Refrigeration & HVAC – flow control and expansion systems</li><li>Chemical & Petrochemical – sampling and dosing systems</li><li>Aerospace & Automotive – lightweight fuel and brake lines</li></ul>"
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the advantages of using Capillary Tubes?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "<ul><li>Superior surface finish for smooth flow</li><li>High corrosion resistance in harsh conditions</li><li>Lightweight yet strong construction</li><li>Available in coils, straight lengths, and custom cut pieces</li><li>Excellent dimensional accuracy and tight tolerances</li></ul>"
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What standards do your Capillary Tubes comply with?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Moksh Tubes & Fittings LLP manufactures Capillary Tubes as per ASTM A213, ASTM A269, ASTM B338, DIN, and EN standards. All tubes undergo strict quality control to ensure compliance with international dimensional and mechanical requirements."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What finishes are available for Capillary Tubes?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We offer various surface finishes including Bright Annealed, Electro Polished, Matte, and Mechanical Polished finishes. These ensure both optimal performance and visual appeal based on the application’s needs."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Why choose Moksh Tubes & Fittings LLP for Capillary Tubes?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "<ul><li>Decades of experience in precision tube manufacturing</li><li>Advanced cold drawing and bright annealing processes</li><li>Wide stock availability with global supply network</li><li>Strict compliance with ASTM, ASME, and ISO standards</li><li>Responsive technical and customer support</li></ul>"
+                }
+                }
+            ]
+            }
+        
+        @endverbatim
+    </script>
 @endsection

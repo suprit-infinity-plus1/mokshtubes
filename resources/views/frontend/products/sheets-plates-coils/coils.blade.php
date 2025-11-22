@@ -869,54 +869,55 @@
 
 @endsection
 @section('jsscripts')
-@verbatim
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are metal coils?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Metal coils are rolled strips of metal wound into a coil for ease of handling, transportation, and storage. They serve as raw material for sheets, strips, and other fabricated products."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which materials are available in coil form?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Coils are available in stainless steel, carbon steel, alloy steel, aluminum, copper, brass, nickel alloys, titanium, and other specialty metals."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the common types of metal coils?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hot Rolled Coils (HRC) – thicker, rougher surface, structural applications. Cold Rolled Coils (CRC) – thinner, smooth surface, precision applications. Galvanized Coils – coated for corrosion resistance. Aluminum & Non-Ferrous Coils – lightweight and corrosion-resistant."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the standard sizes of metal coils?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Width: typically 600 mm to 2000 mm. Thickness: 0.2 mm to 20 mm (depending on material and rolling process). Weight: can range from 2 tons to 10 tons per coil."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the common applications of metal coils?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Manufacturing sheets, strips, and plates. Automotive panels and parts. Roofing, cladding, and construction materials. Appliances and electrical equipment. Packaging and industrial components."
-      }
-    }
-  ]
-}
-</script>
-@endverbatim
+    <script type="application/ld+json">
+        @verbatim
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What are metal coils?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Metal coils are rolled strips of metal wound into a coil for ease of handling, transportation, and storage. They serve as raw material for sheets, strips, and other fabricated products."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Which materials are available in coil form?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Coils are available in stainless steel, carbon steel, alloy steel, aluminum, copper, brass, nickel alloys, titanium, and other specialty metals."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the common types of metal coils?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Hot Rolled Coils (HRC) – thicker, rougher surface, structural applications. Cold Rolled Coils (CRC) – thinner, smooth surface, precision applications. Galvanized Coils – coated for corrosion resistance. Aluminum & Non-Ferrous Coils – lightweight and corrosion-resistant."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the standard sizes of metal coils?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Width: typically 600 mm to 2000 mm. Thickness: 0.2 mm to 20 mm (depending on material and rolling process). Weight: can range from 2 tons to 10 tons per coil."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the common applications of metal coils?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Manufacturing sheets, strips, and plates. Automotive panels and parts. Roofing, cladding, and construction materials. Appliances and electrical equipment. Packaging and industrial components."
+                }
+                }
+            ]
+            }
+            
+        @endverbatim
+    </script>
 @endsection

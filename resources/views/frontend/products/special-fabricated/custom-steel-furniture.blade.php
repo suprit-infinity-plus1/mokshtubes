@@ -929,94 +929,95 @@
 
 @endsection
 @section('jsscripts')
-@verbatim
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Why should I choose custom steel furniture over wooden furniture?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Steel furniture is stronger, termite-proof, rust-resistant, and more durable than wood. Unlike wooden furniture, it requires minimal maintenance and lasts much longer."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is custom steel furniture suitable for homes or only for industrial use?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Custom steel furniture is versatile. It is used in homes (tables, beds, wardrobes), offices (desks, cabinets), hospitality (restaurants, hotels), and industries (workbenches, storage racks)."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can steel furniture be combined with wood, glass, or stone?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, steel integrates seamlessly with materials like wood, glass, and stone to create unique and stylish designs that match modern interiors."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What grades of steel are used in custom furniture?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We manufacture furniture using stainless steel (304, 316, etc.), mild steel, carbon steel, duplex steel, and even high-performance alloys depending on the application and environment."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Will my steel furniture rust over time?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No, when manufactured with the right grade (like SS 304/316) and protective finishes (powder coating, polishing), steel furniture remains rust-free and corrosion-resistant."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is steel furniture heavy to move around?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Not necessarily. Steel furniture is strong but can be fabricated in lightweight sections. Many designs are modular, making them easy to move and reassemble."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can custom steel furniture be designed to match my interior theme?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Absolutely. We offer matte, mirror, brushed, powder-coated, and antique finishes to match modern, industrial, or classic décor."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I maintain custom steel furniture?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Maintenance is simple—just wipe with a damp cloth. Unlike wood, it doesn’t require polishing, painting, or termite treatment."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is custom steel furniture cost-effective?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, while the initial investment may be slightly higher than wood or plastic, steel furniture lasts decades, reducing replacement and repair costs."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can you design modular or space-saving steel furniture?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, we specialize in modular, foldable, and space-optimized steel furniture ideal for homes, offices, and institutions."
-      }
-    }
-  ]
-}
-</script>
-@endverbatim
+    <script type="application/ld+json">
+        @verbatim
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "Why should I choose custom steel furniture over wooden furniture?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Steel furniture is stronger, termite-proof, rust-resistant, and more durable than wood. Unlike wooden furniture, it requires minimal maintenance and lasts much longer."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Is custom steel furniture suitable for homes or only for industrial use?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Custom steel furniture is versatile. It is used in homes (tables, beds, wardrobes), offices (desks, cabinets), hospitality (restaurants, hotels), and industries (workbenches, storage racks)."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Can steel furniture be combined with wood, glass, or stone?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, steel integrates seamlessly with materials like wood, glass, and stone to create unique and stylish designs that match modern interiors."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What grades of steel are used in custom furniture?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We manufacture furniture using stainless steel (304, 316, etc.), mild steel, carbon steel, duplex steel, and even high-performance alloys depending on the application and environment."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Will my steel furniture rust over time?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No, when manufactured with the right grade (like SS 304/316) and protective finishes (powder coating, polishing), steel furniture remains rust-free and corrosion-resistant."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Is steel furniture heavy to move around?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Not necessarily. Steel furniture is strong but can be fabricated in lightweight sections. Many designs are modular, making them easy to move and reassemble."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Can custom steel furniture be designed to match my interior theme?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Absolutely. We offer matte, mirror, brushed, powder-coated, and antique finishes to match modern, industrial, or classic décor."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "How do I maintain custom steel furniture?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Maintenance is simple—just wipe with a damp cloth. Unlike wood, it doesn’t require polishing, painting, or termite treatment."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Is custom steel furniture cost-effective?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, while the initial investment may be slightly higher than wood or plastic, steel furniture lasts decades, reducing replacement and repair costs."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Can you design modular or space-saving steel furniture?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, we specialize in modular, foldable, and space-optimized steel furniture ideal for homes, offices, and institutions."
+                }
+                }
+            ]
+            }
+            
+        @endverbatim
+    </script>
 @endsection

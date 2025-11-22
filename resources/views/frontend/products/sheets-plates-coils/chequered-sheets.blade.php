@@ -951,54 +951,55 @@
 
 @endsection
 @section('jsscripts')
-@verbatim
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are chequered sheets?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Chequered sheets are metal sheets with raised patterns or embossing, usually in diamond, square, or circular shapes, designed to provide anti-slip properties and enhanced grip for flooring and industrial applications."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which materials are chequered sheets available in?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Chequered sheets are commonly available in stainless steel, aluminum, carbon steel, mild steel, and alloy steel depending on the intended use."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What thickness range is offered for chequered sheets?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Chequered sheets typically range from 1.5 mm to 12 mm in thickness, with custom thicknesses available on request."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the common patterns in chequered sheets?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common patterns in chequered sheets include diamond pattern (most common), round/checkered pattern, and custom patterns as per design requirements."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the typical applications of chequered sheets?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Chequered sheets are used for flooring in industrial and commercial areas, stair treads and ramps for anti-slip protection, vehicle steps and platforms, decorative panels and wall cladding, and marine or offshore applications."
-      }
-    }
-  ]
-}
-</script>
-@endverbatim
+    <script type="application/ld+json">
+        @verbatim
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What are chequered sheets?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Chequered sheets are metal sheets with raised patterns or embossing, usually in diamond, square, or circular shapes, designed to provide anti-slip properties and enhanced grip for flooring and industrial applications."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Which materials are chequered sheets available in?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Chequered sheets are commonly available in stainless steel, aluminum, carbon steel, mild steel, and alloy steel depending on the intended use."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What thickness range is offered for chequered sheets?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Chequered sheets typically range from 1.5 mm to 12 mm in thickness, with custom thicknesses available on request."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the common patterns in chequered sheets?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Common patterns in chequered sheets include diamond pattern (most common), round/checkered pattern, and custom patterns as per design requirements."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the typical applications of chequered sheets?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Chequered sheets are used for flooring in industrial and commercial areas, stair treads and ramps for anti-slip protection, vehicle steps and platforms, decorative panels and wall cladding, and marine or offshore applications."
+                }
+                }
+            ]
+            }
+            
+        @endverbatim
+    </script>
 @endsection

@@ -2567,54 +2567,55 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
-    @verbatim
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are welded pipes and tubes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Welded pipes and tubes are manufactured by rolling a metal plate or strip into a cylindrical shape and welding the seam. They are widely used in industrial piping systems, structural applications, and fluid transportation due to their strength, precision, and cost-effectiveness."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which materials are used for manufacturing welded pipes and tubes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Welded pipes and tubes are available in various materials such as Stainless Steel (304, 316, 310), Carbon Steel, Alloy Steel, Duplex & Super Duplex, Copper Alloys, Titanium, and Nickel Alloys. The choice depends on the required corrosion resistance, temperature, and pressure conditions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the advantages of welded pipes compared to seamless pipes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Welded pipes offer several advantages including uniform wall thickness, larger size availability, and lower production costs. They are ideal for applications with moderate pressure and temperature requirements. Additionally, welded pipes provide excellent surface finish and dimensional accuracy."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What industries commonly use welded pipes and tubes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Welded pipes and tubes are used across multiple industries including oil & gas, petrochemical, power generation, water treatment, marine, construction, and food & pharmaceutical sectors. Their versatility makes them suitable for both fluid transport and structural applications."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What types of welded pipes and tubes are supplied by Moksh Tubes & Fittings LLP?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Moksh Tubes & Fittings LLP offers a comprehensive range of welded pipes and tubes such as ERW (Electric Resistance Welded) Pipes & Tubes, EFW (Electric Fusion Welded) Pipes, LSAW (Longitudinal Submerged Arc Welded) Pipes, Spiral Welded Pipes, Heat Exchanger & Condenser Tubes, and Custom Fabricated Welded Tubing. All products are manufactured and tested according to ASTM, ASME, DIN, and EN standards."
-      }
-    }
-  ]
-}
-@endverbatim
-</script>
+    <script type="application/ld+json">
+        @verbatim
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What are welded pipes and tubes?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Welded pipes and tubes are manufactured by rolling a metal plate or strip into a cylindrical shape and welding the seam. They are widely used in industrial piping systems, structural applications, and fluid transportation due to their strength, precision, and cost-effectiveness."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Which materials are used for manufacturing welded pipes and tubes?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Welded pipes and tubes are available in various materials such as Stainless Steel (304, 316, 310), Carbon Steel, Alloy Steel, Duplex & Super Duplex, Copper Alloys, Titanium, and Nickel Alloys. The choice depends on the required corrosion resistance, temperature, and pressure conditions."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the advantages of welded pipes compared to seamless pipes?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Welded pipes offer several advantages including uniform wall thickness, larger size availability, and lower production costs. They are ideal for applications with moderate pressure and temperature requirements. Additionally, welded pipes provide excellent surface finish and dimensional accuracy."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What industries commonly use welded pipes and tubes?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Welded pipes and tubes are used across multiple industries including oil & gas, petrochemical, power generation, water treatment, marine, construction, and food & pharmaceutical sectors. Their versatility makes them suitable for both fluid transport and structural applications."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What types of welded pipes and tubes are supplied by Moksh Tubes & Fittings LLP?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Moksh Tubes & Fittings LLP offers a comprehensive range of welded pipes and tubes such as ERW (Electric Resistance Welded) Pipes & Tubes, EFW (Electric Fusion Welded) Pipes, LSAW (Longitudinal Submerged Arc Welded) Pipes, Spiral Welded Pipes, Heat Exchanger & Condenser Tubes, and Custom Fabricated Welded Tubing. All products are manufactured and tested according to ASTM, ASME, DIN, and EN standards."
+                }
+                }
+            ]
+            }
+        
+        @endverbatim
+    </script>
 @endsection

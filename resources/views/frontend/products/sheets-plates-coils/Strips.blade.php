@@ -769,54 +769,55 @@
 
 @endsection
 @section('jsscripts')
-@verbatim
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are metal strips?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Metal strips are long, narrow pieces of metal that are produced in specific widths and thicknesses. They are widely used in construction, automotive, electrical, and industrial applications."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which materials are strips available in?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Strips can be manufactured from stainless steel, carbon steel, aluminum, brass, copper, nickel alloys, titanium, and other special alloys depending on usage."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What thickness and width ranges are available?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Thickness: usually from 0.1 mm to 20 mm. Width: typically from 10 mm to 600 mm. Custom sizes are also supplied based on requirements."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the common applications of metal strips?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Common applications include: Electrical & switchgear components, Automotive parts & cladding, Springs & washers, Heat exchangers & condensers, Construction & decorative purposes, Precision engineering and fabrication."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Are strips different from sheets and coils?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Sheets – wider and available in flat form. Strips – narrower, cut from coils, with controlled width. Coils – continuous rolled form before cutting into strips or sheets."
-      }
-    }
-  ]
-}
-</script>
-@endverbatim
+    <script type="application/ld+json">
+        @verbatim
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What are metal strips?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Metal strips are long, narrow pieces of metal that are produced in specific widths and thicknesses. They are widely used in construction, automotive, electrical, and industrial applications."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Which materials are strips available in?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Strips can be manufactured from stainless steel, carbon steel, aluminum, brass, copper, nickel alloys, titanium, and other special alloys depending on usage."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What thickness and width ranges are available?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Thickness: usually from 0.1 mm to 20 mm. Width: typically from 10 mm to 600 mm. Custom sizes are also supplied based on requirements."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the common applications of metal strips?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Common applications include: Electrical & switchgear components, Automotive parts & cladding, Springs & washers, Heat exchangers & condensers, Construction & decorative purposes, Precision engineering and fabrication."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Are strips different from sheets and coils?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Sheets – wider and available in flat form. Strips – narrower, cut from coils, with controlled width. Coils – continuous rolled form before cutting into strips or sheets."
+                }
+                }
+            ]
+            }
+            
+        @endverbatim
+    </script>
 @endsection

@@ -839,54 +839,55 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
-    @verbatim
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are cladded plates?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Cladded plates are composite plates made by bonding two or more different metals together. Typically, a corrosion-resistant metal (like stainless steel or nickel alloy) is bonded to a strong carbon steel or alloy steel base to combine strength and corrosion resistance."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which materials are used for cladded plates?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Base Metals: Carbon steel, alloy steel. Cladding Metals: Stainless steel (304, 316, 316L), Nickel alloys, Titanium, Duplex & Super Duplex, Copper alloys."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the common bonding methods for cladded plates?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Explosion Welding – high energy bonding for dissimilar metals. Roll Bonding – mechanical bonding via high pressure. Bimetallic Casting – molten metal bonding. Other specialized welding techniques depending on application."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What thickness range is available in cladded plates?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Base Metal: typically 6 mm to 150 mm. Cladding Layer: typically 1 mm to 15 mm. Custom thicknesses can be provided as per requirement."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the common applications of cladded plates?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Chemical processing and storage tanks, Petrochemical and refinery equipment, Heat exchangers and pressure vessels, Marine and offshore structures, Power generation equipment."
-      }
-    }
-  ]
-}
-@endverbatim
-</script>
+    <script type="application/ld+json">
+        @verbatim
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What are cladded plates?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Cladded plates are composite plates made by bonding two or more different metals together. Typically, a corrosion-resistant metal (like stainless steel or nickel alloy) is bonded to a strong carbon steel or alloy steel base to combine strength and corrosion resistance."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Which materials are used for cladded plates?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Base Metals: Carbon steel, alloy steel. Cladding Metals: Stainless steel (304, 316, 316L), Nickel alloys, Titanium, Duplex & Super Duplex, Copper alloys."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the common bonding methods for cladded plates?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Explosion Welding – high energy bonding for dissimilar metals. Roll Bonding – mechanical bonding via high pressure. Bimetallic Casting – molten metal bonding. Other specialized welding techniques depending on application."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What thickness range is available in cladded plates?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Base Metal: typically 6 mm to 150 mm. Cladding Layer: typically 1 mm to 15 mm. Custom thicknesses can be provided as per requirement."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the common applications of cladded plates?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Chemical processing and storage tanks, Petrochemical and refinery equipment, Heat exchangers and pressure vessels, Marine and offshore structures, Power generation equipment."
+                }
+                }
+            ]
+            }
+        
+        @endverbatim
+    </script>
 @endsection

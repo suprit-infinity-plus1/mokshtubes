@@ -1050,54 +1050,55 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
-    @verbatim
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the difference between sheets and plates?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Sheets: Flat rolled metal with a thickness usually below 6 mm. Plates: Flat rolled metal with a thickness above 6 mm. Both are used in construction, fabrication, and industrial applications, but plates are generally preferred for heavy-duty uses."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which materials are available in sheets & plates?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "They are available in stainless steel, carbon steel, alloy steel, aluminum, copper, brass, titanium, nickel alloys, duplex/super duplex, and other special alloys."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What size range is offered?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Thickness: 0.3 mm to 200 mm (varies by material). Width: up to 2500 mm (custom widths possible). Length: custom cut lengths or standard 2000 mm, 2500 mm, 6000 mm, etc."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the common applications of sheets & plates?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Pressure vessels and boilers, Oil & gas pipelines, Heat exchangers and condensers, Aerospace & marine structures, Automotive & rail industry, Construction, bridges & heavy machinery, Food processing and medical equipment."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What finishes are available for sheets & plates?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Sheets & plates can be supplied in finishes such as 2B, BA, HR, No.1, No.4, polished, matte, checkered, perforated, or coated."
-      }
-    }
-  ]
-}
-@endverbatim
-</script>
+    <script type="application/ld+json">
+        @verbatim
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What is the difference between sheets and plates?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Sheets: Flat rolled metal with a thickness usually below 6 mm. Plates: Flat rolled metal with a thickness above 6 mm. Both are used in construction, fabrication, and industrial applications, but plates are generally preferred for heavy-duty uses."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Which materials are available in sheets & plates?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "They are available in stainless steel, carbon steel, alloy steel, aluminum, copper, brass, titanium, nickel alloys, duplex/super duplex, and other special alloys."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What size range is offered?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Thickness: 0.3 mm to 200 mm (varies by material). Width: up to 2500 mm (custom widths possible). Length: custom cut lengths or standard 2000 mm, 2500 mm, 6000 mm, etc."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the common applications of sheets & plates?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Pressure vessels and boilers, Oil & gas pipelines, Heat exchangers and condensers, Aerospace & marine structures, Automotive & rail industry, Construction, bridges & heavy machinery, Food processing and medical equipment."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What finishes are available for sheets & plates?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Sheets & plates can be supplied in finishes such as 2B, BA, HR, No.1, No.4, polished, matte, checkered, perforated, or coated."
+                }
+                }
+            ]
+            }
+        
+        @endverbatim
+    </script>
 @endsection
