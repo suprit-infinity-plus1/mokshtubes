@@ -4,23 +4,7 @@
 @section('meta_description',
     'Engineering Steel 1055 (C1055/EN1055) for shafts, gears, plates and mechanical components.
     High-strength medium carbon steel. Get a quote from Moksh Tubes.')
-    <!-- Open Graph Tags -->
-    <meta property="og:title" content="1055 Engineering Steel (C1055 / EN1055) – Chemical Composition & Properties">
-    <meta property="og:description"
-        content="Engineering Steel 1055 (C1055 / EN1055) with complete chemical composition, mechanical properties, hardness, applications, and equivalent grades. Global supplier — Moksh Tubes.">
-    <meta property="og:type" content="product">
-    <meta property="og:url" content="https://mokshtubes.com/materials/engineering-steels/engineering-steels-1055">
-    <meta property="og:image" content="https://mokshtubes.com/assets/images/engineering-steels/engineering-steels-1055.webp">
-    <meta property="og:site_name" content="Moksh Tubes & Fittings LLP">
-
-    <!-- Twitter Card Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="1055 Engineering Steel (C1055 / EN1055) – Chemical Composition & Properties">
-    <meta name="twitter:description"
-        content="1055 Engineering Steel datasheet: Composition, mechanical properties, heat treatment, hardness, applications, supplier info.">
-    <meta name="twitter:image"
-        content="https://mokshtubes.com/assets/images/engineering-steels/engineering-steels-1055.webp">
-
+   
 @section('meta_keywords',
     '1055 Engineering Steel, medium carbon steel, durable steel, mechanical steel, industrial
     steel, high strength steel, steel for components')
