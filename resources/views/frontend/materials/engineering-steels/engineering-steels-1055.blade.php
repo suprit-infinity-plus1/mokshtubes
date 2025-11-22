@@ -81,10 +81,11 @@
 
             <div class="row align-items-center">
                 <!-- Image Left -->
-                <div class="col-md-6 mb-4 mb-md-0 sticky-top" style="top: 80px;">
+                <div class="col-12 col-md-6 mb-4 mb-md-0 sticky-md-top align-self-start" style="top: 80px;">
                     <img src="{{ asset('assets/images/engineering-steels/engineering-steels-1055.webp') }}" alt="1055 steel"
                         class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
+
 
                 <!-- Content Right -->
                 <div class="col-md-6">
