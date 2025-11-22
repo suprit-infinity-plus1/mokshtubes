@@ -33,33 +33,37 @@
 
 @section('content')
 
-    <!--Start breadcrumb area-->
     <section class="breadcrumb-area"
-        style="background-image: url(/assets/images/engineering-steels/engineering-steels-1055.webp);">
+        style="background-image: url(/assets/images/engineering-steels/engineering-steels-banner.jpeg);">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-auto text-center">
+                <div class="col-lg-10 text-center">
                     <h1>Engineering Steel 1055 (C1055 / EN 1055) <br> Medium Carbon Steel</h1>
-                    <p class="text-center mt-3 px-3 py-2" 
-   style="color:#fff; background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-    1055 Engineering Steel (EN 1055 / C1055) is a medium carbon steel grade known for high strength, 
-    wear resistance and durability. Below is the complete datasheet including composition, properties, 
-    heat treatment and applications.
-</p>
-<div class="toc text-center my-4" style="color:#fff;">
-    <a href="#overview" style="color:#fff;">Overview</a> |
-    <a href="#composition" style="color:#fff;">Chemical Composition</a> |
-    <a href="#properties" style="color:#fff;">Properties</a> |
-    <a href="#heat-treatment" style="color:#fff;">Heat Treatment</a> |
-    <a href="#applications" style="color:#fff;">Applications</a> |
-    <a href="#price" style="color:#fff;">Price</a> |
-    <a href="#faq" style="color:#fff;">FAQ</a>
-</div>
+
+                    <!-- Add your extra content here -->
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                        1055 Engineering Steel (EN 1055 / C1055) is a medium carbon steel grade known for high strength,
+                        wear resistance and durability. Below is the complete datasheet including composition, properties,
+                        heat treatment and applications.
+                    </p>
+                    <div class="toc text-center my-4 alert-light position-relative">
+                        <a href="#overview" class="text-white">Overview</a> |
+                        <a href="#composition"class="text-white">Chemical Composition</a> |
+                        <a href="#properties"class="text-white">Properties</a> |
+                        <a href="#heat-treatment"class="text-white">Heat Treatment</a> |
+                        <a href="#applications"class="text-white">Applications</a> |
+                        <a href="#price"class="text-white">Price</a> |
+                        <a href="#faq"class="text-white">FAQ</a>
+                    </div>
+
+                    <!-- End extra content -->
 
                 </div>
             </div>
         </div>
     </section>
+
 
     <!--End breadcrumb area-->
 
@@ -85,35 +89,36 @@
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
-                      <p class="fs-6 mb-3 text-justify">
-    <strong>Moksh Tubes & Fittings LLP</strong> supplies premium
-    <strong>Engineering Steel 1055 (EN 1055 / C1055 / SAE 1055)</strong> — a medium carbon,
-    high-strength steel widely used in automotive, machinery, fabrication and general engineering
-    industries.
-    With a carbon range of <strong>0.52–0.60%</strong>, EN 1055 offers excellent hardness, tensile
-    strength,
-    wear resistance and impact durability, making it ideal for components operating under mechanical
-    stress.
-</p>
+                        <p class="fs-6 mb-3 text-justify">
+                            <strong>Moksh Tubes & Fittings LLP</strong> supplies premium
+                            <strong>Engineering Steel 1055 (EN 1055 / C1055 / SAE 1055)</strong> — a medium carbon,
+                            high-strength steel widely used in automotive, machinery, fabrication and general engineering
+                            industries.
+                            With a carbon range of <strong>0.52–0.60%</strong>, EN 1055 offers excellent hardness, tensile
+                            strength,
+                            wear resistance and impact durability, making it ideal for components operating under mechanical
+                            stress.
+                        </p>
 
-<p class="fs-6 text-justify">
-    We supply Engineering Steel 1055 in multiple product forms such as <strong><a
-            href="{{ route('products.bars-rods.round-bars') }}">round bars,</a><a
-            href="{{ route('products.bars-rods.flat-bars') }}"> flat bars,</a> plates,
-        sheets, coils, strips, seamless &<a href="{{ route('products.pipes-tubes.welded-pipes') }}">
-            welded tubes</a></strong> and custom-machined components.
-    Available in annealed, normalized, hot-rolled, cold-drawn and heat-treated conditions — EN 1055
-    can be customized according to project-specific requirements. All materials are sourced from certified
-    mills and delivered with full quality documentation.
-</p>
+                        <p class="fs-6 text-justify">
+                            We supply Engineering Steel 1055 in multiple product forms such as <strong><a
+                                    href="{{ route('products.bars-rods.round-bars') }}">round bars,</a><a
+                                    href="{{ route('products.bars-rods.flat-bars') }}"> flat bars,</a> plates,
+                                sheets, coils, strips, seamless &<a href="{{ route('products.pipes-tubes.welded-pipes') }}">
+                                    welded tubes</a></strong> and custom-machined components.
+                            Available in annealed, normalized, hot-rolled, cold-drawn and heat-treated conditions — EN 1055
+                            can be customized according to project-specific requirements. All materials are sourced from
+                            certified
+                            mills and delivered with full quality documentation.
+                        </p>
 
-<p class="fs-6">
-    This page also includes the complete <strong>1055 steel datasheet</strong>, 
-    <strong>1055 steel hardness chart</strong>, mechanical properties, and 
-    <strong>medium carbon steel equivalent</strong> grades for engineers, buyers, and 
-    global <strong>engineering steel suppliers</strong>. These details help in material 
-    selection, comparison and procurement for industrial applications.
-</p>
+                        <p class="fs-6">
+                            This page also includes the complete <strong>1055 steel datasheet</strong>,
+                            <strong>1055 steel hardness chart</strong>, mechanical properties, and
+                            <strong>medium carbon steel equivalent</strong> grades for engineers, buyers, and
+                            global <strong>engineering steel suppliers</strong>. These details help in material
+                            selection, comparison and procurement for industrial applications.
+                        </p>
 
 
                     </div>
@@ -171,37 +176,37 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class = "t-row">
                                     <th>Category</th>
                                     <th>Details</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
+                                <tr class = "t-row">
                                     <td>Grade</td>
                                     <td>EN 1055 / C1055 / SAE 1055</td>
                                 </tr>
-                                <tr>
+                                <tr class = "t-row">
                                     <td>Type</td>
                                     <td>Medium carbon steel</td>
                                 </tr>
-                                <tr>
+                                <tr class = "t-row">
                                     <td>Typical Chemical Composition</td>
                                     <td>C 0.52–0.60%, Mn 0.60–0.90%, P ≤ 0.040%, S ≤ 0.050%</td>
                                 </tr>
-                                <tr>
+                                <tr class = "t-row">
                                     <td>Conditions</td>
                                     <td>Annealed, Normalized, Hot Rolled, Cold Drawn</td>
                                 </tr>
-                                <tr>
+                                <tr class = "t-row">
                                     <td>Heat Treatment</td>
                                     <td>Quenching & Tempering, Stress Relieving</td>
                                 </tr>
-                                <tr>
+                                <tr class = "t-row">
                                     <td>Testing</td>
                                     <td>Tensile, Hardness, Chemical, UT (on request)</td>
                                 </tr>
-                                <tr>
+                                <tr class = "t-row">
                                     <td>Certification</td>
                                     <td>EN 10204 3.1 / 3.2 (Mill Test Certificate available)</td>
                                 </tr>
@@ -228,29 +233,29 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr>
+                                <tr class = "t-row">
                                     <th>Element</th>
                                     <th>Composition (%)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
 
-                                <tr>
+                                <tr class = "t-row">
                                     <td>Carbon</td>
                                     <td>0.52 – 0.60</td>
                                 </tr>
 
-                                <tr>
+                                <tr class = "t-row">
                                     <td>Manganese</td>
                                     <td>0.60 – 0.90</td>
                                 </tr>
 
-                                <tr>
+                                <tr class = "t-row">
                                     <td>Phosphorus</td>
                                     <td>≤ 0.040</td>
                                 </tr>
 
-                                <tr>
+                                <tr class = "t-row">
                                     <td>Sulfur</td>
                                     <td>≤ 0.050</td>
                                 </tr>
@@ -265,9 +270,9 @@
     </section>
 
 
-    
+
     <!-- Technical Properties Section -->
-<section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
 
         <div class="container">
             <div class="section-title center mb-5">
@@ -277,9 +282,11 @@
             <!-- Physical Properties Table -->
             <div class="row justify-content-center mb-5">
                 <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties of Engineering Steel 1055</h4>
+                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties of Engineering Steel 1055
+                    </h4>
 
-                    <div class="table-responsive">
+                  <div class="table-responsive">
+                    
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr>
@@ -290,47 +297,47 @@
                             </thead>
 
                             <tbody class="text-center">
-                                <tr>
+                                <tr class = "t-row">
                                     <td>Density</td>
                                     <td>0.284 lb/in³</td>
                                     <td>7.85 g/cm³</td>
                                 </tr>
 
-                                <tr>
+                                <tr class = "t-row">
                                     <td>Melting Point</td>
                                     <td>2500 – 2550 °F</td>
                                     <td>1370 – 1400 °C</td>
                                 </tr>
 
-                                <tr>
+                                <tr class = "t-row">
                                     <td>Modulus of Elasticity (Tension)</td>
                                     <td>29,000 ksi</td>
                                     <td>200 GPa</td>
                                 </tr>
 
-                                <tr>
+                                <tr class = "t-row">
                                     <td>Modulus of Elasticity (Torsion)</td>
                                     <td>11,600 ksi</td>
                                     <td>80 GPa</td>
                                 </tr>
 
-                                <tr>
+                                <tr class = "t-row">
                                     <td>Poisson's Ratio</td>
                                     <td>0.29</td>
                                     <td>-</td>
                                 </tr>
 
-                                <tr>
+                                <tr class = "t-row">
                                     <td>Thermal Conductivity</td>
                                     <td>44 W/m·K</td>
                                     <td>44 W/m·K</td>
                                 </tr>
 
-                                <tr>
+                                <tr class = "t-row">
                                     <td>Specific Heat Capacity</td>
                                     <td>460 J/kg·K</td>
                                     <td>460 J/kg·K</td>
-                                </tr>
+                                    </tr>
                             </tbody>
                         </table>
                     </div>
@@ -338,49 +345,45 @@
                 </div>
             </div>
         </div>
-    </section>
-
-
-    <!-- Heat Treatment -->
-    <section id="heat-treatment" class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <h2 class="text-center mb-4">Heat Treatment of 1055 Steel</h2>
+        <div class="row justify-content-center mb-5">
+            <div class="col-lg-8">
+            <h4 class="text-center mb-3" style="color: #db7227;">Heat Treatment of 1055 Steel</h4>
 
             <div class="table-responsive">
-                <table class="table table-bordered table-striped">
-                    <thead class="thead-dark">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
                         <tr>
                             <th>Heat Treatment Process</th>
                             <th>Temperature Range</th>
                             <th>Cooling / Procedure</th>
                         </tr>
                     </thead>
-                    <tbody>
-                        <tr>
+                 <tbody class="text-center">
+                        <tr class = "t-row">
                             <td><strong>Annealing</strong></td>
                             <td>790–870°C</td>
                             <td>Cool slowly in furnace</td>
                         </tr>
 
-                        <tr>
+                        <tr class = "t-row">
                             <td><strong>Normalizing</strong></td>
                             <td>830–860°C</td>
                             <td>Air cool</td>
                         </tr>
 
-                        <tr>
+                        <tr class = "t-row">
                             <td><strong>Hardening</strong></td>
                             <td>800–820°C</td>
                             <td>Quench in water or oil</td>
                         </tr>
 
-                        <tr>
+                        <tr class = "t-row">
                             <td><strong>Tempering</strong></td>
                             <td>150–650°C</td>
                             <td>Reheat depending on required hardness</td>
                         </tr>
 
-                        <tr>
+                        <tr class = "t-row">
                             <td><strong>Stress Relieving</strong></td>
                             <td>540–650°C</td>
                             <td>Hold for 1–2 hours</td>
@@ -388,13 +391,18 @@
                     </tbody>
                 </table>
             </div>
+            </div>
 
         </div>
     </section>
 
 
+    <!-- Heat Treatment -->
+
+
+
     <!-- Mechanical Properties -->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center mb-5">
                 <h2 class="fw-bold" style="color: #174268;">Mechanical Properties of Engineering Steel 1055</h2>
@@ -402,7 +410,7 @@
             <div class="table-responsive">
                 <table class="table table-bordered table-striped align-middle">
                     <thead class="table-dark text-center">
-                        <tr>
+                        <tr class = "t-row">
                             <th>Property</th>
                             <th>Annealed</th>
                             <th>Hot Finished</th>
@@ -414,7 +422,7 @@
 
                     <tbody class="text-center">
 
-                        <tr>
+                        <tr class = "t-row">
                             <td>Tensile Strength (ksi / MPa)</td>
                             <td>75–95 ksi / 517–655 MPa</td>
                             <td>80–110 ksi / 552–758 MPa</td>
@@ -423,7 +431,7 @@
                             <td>70–90 ksi / 482–620 MPa</td>
                         </tr>
 
-                        <tr>
+                        <tr class = "t-row">
                             <td>Yield Strength (0.2%)</td>
                             <td>40–55 ksi / 276–379 MPa</td>
                             <td>45–85 ksi / 310–586 MPa</td>
@@ -432,7 +440,7 @@
                             <td>35–50 ksi / 241–345 MPa</td>
                         </tr>
 
-                        <tr>
+                        <tr class = "t-row">
                             <td>Elongation (%)</td>
                             <td>18–25</td>
                             <td>15–22</td>
@@ -441,7 +449,7 @@
                             <td>20–25</td>
                         </tr>
 
-                        <tr>
+                        <tr class = "t-row">
                             <td>Brinell Hardness (3000 kg)</td>
                             <td>130–190</td>
                             <td>160–220</td>
@@ -450,7 +458,7 @@
                             <td>—</td>
                         </tr>
 
-                        <tr>
+                        <tr class = "t-row">
                             <td>Rockwell Hardness (B / C)</td>
                             <td>75–85 B</td>
                             <td>85–95 B</td>
@@ -544,29 +552,29 @@
             <div class="table-responsive col-lg-8 mx-auto">
                 <table class="table table-bordered text-center">
                     <thead class="table-dark">
-                        <tr>
+                        <tr class = "t-row" class = "t-row">
                             <th>Standard</th>
                             <th>Equivalent Grade</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
+                        <tr class = "t-row">
                             <td>EN</td>
                             <td>EN 1055</td>
                         </tr>
-                        <tr>
+                        <tr class = "t-row">
                             <td>AISI / SAE</td>
                             <td>1055</td>
                         </tr>
-                        <tr>
+                        <tr class = "t-row">
                             <td>DIN</td>
                             <td>CK55</td>
                         </tr>
-                        <tr>
+                        <tr class = "t-row">
                             <td>JIS</td>
                             <td>S55C</td>
                         </tr>
-                        <tr>
+                        <tr class = "t-row">
                             <td>GB</td>
                             <td>55</td>
                         </tr>
@@ -657,7 +665,7 @@
 
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Engineering Steel 1055</h2>
@@ -716,7 +724,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
