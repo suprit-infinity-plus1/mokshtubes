@@ -1166,7 +1166,7 @@
 
 
 
-@endsection
+
 @section('jsscripts')
     <script type="application/ld+json">
         @verbatim
