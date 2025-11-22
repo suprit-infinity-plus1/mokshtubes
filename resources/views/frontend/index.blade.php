@@ -275,8 +275,7 @@
                                     <h3 class="mt-0 h5">WELDED PIPES</h3>
                                 </a>
                                 <p>
-                                    Our welded pipes are produced from mild steel and stainless steel materials, offering
-                                    strength, uniform wall thickness, and excellent corrosion resistance.
+                                    We supply high-quality welded pipes sourced from trusted and certified mills. Each pipe offers strong weld integrity, consistent wall thickness, and excellent corrosion resistance. Ideal for fabrication work, structural use, chemical plants, and general engineering applications.
                                 </p>
                             </div>
                     </div>
@@ -293,8 +292,7 @@
                                 <h3 class="mt-0 h5">SEAMLESS PIPES</h3>
                             </a>
                             <p>
-                                Our seamless pipes deliver superior strength, reliability, and resistance to high pressure.
-                                Ideal for boiler tubes, heat exchangers, and structural applications.
+                                Our seamless pipes are procured from reputed manufacturers known for superior strength and leak-proof performance. They perform exceptionally well under high pressure and temperature, making them suitable for boilers, heat exchangers, hydraulic systems, and industrial piping networks.
                             </p>
                         </div>
                     </div>
@@ -313,8 +311,7 @@
                                 <h3 class="mt-0 h5">SHEETS & PLATES</h3>
                             </a>
                             <p>
-                                We supply steel sheets, plates, coils, and chequered sheets, manufactured using precision
-                                rolling to maintain consistent steel density and flatness.
+                               We stock a wide range of stainless steel sheets, plates, coils, and chequered sheets sourced from reliable rolling mills. Each sheet ensures uniform thickness, high strength, and a smooth surface finish—ideal for fabrication, marine use, heavy equipment manufacturing, and architectural work.
                             </p>
                         </div>
                     </div>
@@ -334,8 +331,7 @@
                                 <h3 class="mt-0 h5">PERFORATED SHEETS</h3>
                             </a>
                             <p>
-                                Our perforated sheets are designed for ventilation, filtration, and decorative applications.
-                                Available in stainless steel, galvanized iron, and mild steel.
+                                Our perforated sheets are supplied in stainless steel, galvanised iron (GI), aluminium, and mild steel options. Designed for ventilation, filtration, acoustic control, and decorative applications, they are available in multiple hole patterns and thicknesses.
                             </p>
                         </div>
                     </div>
@@ -352,8 +348,7 @@
                                 <h3 class="mt-0 h5">ROUND BARS</h3>
                             </a>
                             <p>
-                                Round Bars are solid cylindrical metal bars widely used across construction, automotive,
-                                aerospace, marine, and engineering sectors. Available in different materials, sizes, and
+                                We supply round bars in stainless steel, carbon steel, alloy steel, and nickel alloys. Sourced from quality mills, these bars offer excellent strength, durability, and dimensional accuracy, suitable for machining, construction, automotive, and engineering components.
                             </p>
                         </div>
                     </div>
@@ -371,8 +366,7 @@
                                 <h3 class="mt-0 h5">Fasteners & Fittings</h3>
                             </a>
                             <p>
-                                We supply all types of pipe fittings, flanges, threaded pipes, and SS fasteners. Custom
-                                sizes and fabricated products are also available for unique project.
+                                We supply a full range of pipe fittings, flanges, SS fasteners, and threaded components. All items are sourced from trusted mills and tested for durability and corrosion resistance—ideal for industrial and structural applications.
                             </p>
                         </div>
                     </div>

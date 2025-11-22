@@ -47,15 +47,7 @@
                         wear resistance and durability. Below is the complete datasheet including composition, properties,
                         heat treatment and applications.
                     </p>
-                    <div class="toc text-center my-4 alert-light position-relative">
-                        <a href="#overview" class="text-white">Overview</a> |
-                        <a href="#composition"class="text-white">Chemical Composition</a> |
-                        <a href="#properties"class="text-white">Properties</a> |
-                        <a href="#heat-treatment"class="text-white">Heat Treatment</a> |
-                        <a href="#applications"class="text-white">Applications</a> |
-                        <a href="#price"class="text-white">Price</a> |
-                        <a href="#faq"class="text-white">FAQ</a>
-                    </div>
+
 
                     <!-- End extra content -->
 
@@ -66,6 +58,47 @@
 
 
     <!--End breadcrumb area-->
+
+
+    <style>
+        .material-tabs {
+            background: #ffffff;
+            text-align: center;
+            padding: 15px 0;
+            border-bottom: 1px solid #e5e5e5;
+            position: relative;
+            z-index: 10;
+        }
+
+        .material-tabs a {
+            margin: 0 14px;
+            font-weight: 600;
+            color: #1b3c61 !important;
+            text-decoration: none;
+            font-size: 16px;
+            transition: 0.25s ease;
+            display: inline-block;
+        }
+
+        .material-tabs a:hover {
+            color: #db7227 !important;
+            transform: translateY(-2px);
+        }
+    </style>
+
+
+    <!-- Tabs Navigation (Add this right after breadcrumb) -->
+    <div class="material-tabs text-center py-3 ">
+        <a href="#overview">Overview</a> |
+        <a href="#composition">Chemical Composition</a> |
+        <a href="#properties">Properties</a> |
+        <a href="#heat-treatment">Heat Treatment</a> |
+        <a href="#applications">Applications</a> |
+        <a href="#price">Price</a> |
+        <a href="#faq">FAQ</a>
+    </div>
+
+
 
     <!-- Start Product Overview -->
     <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
@@ -92,62 +125,33 @@
                     <div class="pe-md-3">
                         <p class="fs-6 mb-3 text-justify">
                             <strong>Moksh Tubes & Fittings LLP</strong> supplies premium
-                            <strong>Engineering Steel 1055 (EN 1055 / C1055 / SAE 1055)</strong> — a medium carbon,
-                            high-strength steel widely used in automotive, machinery, fabrication and general engineering
-                            industries.
-                            With a carbon range of <strong>0.52–0.60%</strong>, EN 1055 offers excellent hardness, tensile
-                            strength,
-                            wear resistance and impact durability, making it ideal for components operating under mechanical
-                            stress.
-                        </p>
-                        <p class="fs-6 mb-3 text-justify">
-                            <strong>Moksh Tubes & Fittings LLP</strong> supplies premium
-                            <strong>Engineering Steel 1055 (EN 1055 / C1055 / SAE 1055)</strong> — a medium carbon,
-                            high-strength steel widely used in automotive, machinery, fabrication and general engineering
-                            industries.
-                            With a carbon range of <strong>0.52–0.60%</strong>, EN 1055 offers excellent hardness, tensile
-                            strength,
-                            wear resistance and impact durability, making it ideal for components operating under mechanical
-                            stress.
+                            <strong>Engineering Steel 1055 (EN 1055 / C1055 / SAE 1055)</strong>,
+                            a widely used medium-carbon steel known for its superior mechanical strength,
+                            excellent wear resistance and outstanding impact toughness.
+                            With a carbon content of <strong>0.52% to 0.60%</strong>, EN 1055 delivers a unique
+                            balance of hardness and ductility, making it suitable for demanding engineering
+                            applications including automotive parts, heavy machinery components, fabrication
+                            projects and high-stress structural assemblies. Components manufactured from 1055 steel —
+                            such as shafts, gears, crankshafts, keys, pins, studs and forged tools — maintain
+                            exceptional performance even under continuous load, friction and impact.
                         </p>
 
                         <p class="fs-6 text-justify">
-                            We supply Engineering Steel 1055 in multiple product forms such as <strong><a
-                                    href="{{ route('products.bars-rods.round-bars') }}">round bars,</a><a
-                                    href="{{ route('products.bars-rods.flat-bars') }}"> flat bars,</a> plates,
-                                sheets, coils, strips, seamless &<a href="{{ route('products.pipes-tubes.welded-pipes') }}">
-                                    welded tubes</a></strong> and custom-machined components.
-                            Available in annealed, normalized, hot-rolled, cold-drawn and heat-treated conditions — EN 1055
-                            can be customized according to project-specific requirements. All materials are sourced from
-                            certified
-                            mills and delivered with full quality documentation.
-                        </p>
-                        <p class="fs-6 text-justify">
-                            We supply Engineering Steel 1055 in multiple product forms such as <strong><a
-                                    href="{{ route('products.bars-rods.round-bars') }}">round bars,</a><a
-                                    href="{{ route('products.bars-rods.flat-bars') }}"> flat bars,</a> plates,
-                                sheets, coils, strips, seamless &<a href="{{ route('products.pipes-tubes.welded-pipes') }}">
-                                    welded tubes</a></strong> and custom-machined components.
-                            Available in annealed, normalized, hot-rolled, cold-drawn and heat-treated conditions — EN 1055
-                            can be customized according to project-specific requirements. All materials are sourced from
-                            certified
-                            mills and delivered with full quality documentation.
+                            We supply 1055 steel in multiple forms including
+                            <strong>
+                                <a href="{{ route('products.bars-rods.round-bars') }}">round bars</a>,
+                                <a href="{{ route('products.bars-rods.flat-bars') }}"> flat bars</a>,
+                                hex bars, square bars, plates, sheets, coils, strips, seamless pipes,
+                                <a href="{{ route('products.pipes-tubes.welded-pipes') }}">welded tubes</a>,
+                                forged blocks, rings and custom-machined components.
+                            </strong>
+                            The material is available in annealed, normalized, hot-rolled, cold-drawn and
+                            fully heat-treated conditions. All products are sourced from certified mills
+                            and supplied with <strong>EN 10204 3.1 / 3.2 certification</strong> ensuring
+                            consistent quality, traceability and reliability for industrial, mechanical
+                            and engineering requirements.
                         </p>
 
-                        <p class="fs-6">
-                            This page also includes the complete <strong>1055 steel datasheet</strong>,
-                            <strong>1055 steel hardness chart</strong>, mechanical properties, and
-                            <strong>medium carbon steel equivalent</strong> grades for engineers, buyers, and
-                            global <strong>engineering steel suppliers</strong>. These details help in material
-                            selection, comparison and procurement for industrial applications.
-                        </p>
-                        <p class="fs-6">
-                            This page also includes the complete <strong>1055 steel datasheet</strong>,
-                            <strong>1055 steel hardness chart</strong>, mechanical properties, and
-                            <strong>medium carbon steel equivalent</strong> grades for engineers, buyers, and
-                            global <strong>engineering steel suppliers</strong>. These details help in material
-                            selection, comparison and procurement for industrial applications.
-                        </p>
 
 
                     </div>
@@ -185,7 +189,7 @@
             </form>
 
 
-      
+
             <p class="small text-muted">
                 We respect your privacy. Your email will only be used to send the datasheet.
             </p>
@@ -281,12 +285,12 @@
 
                                 <tr class = "t-row">
                                     <td>Phosphorus</td>
-                                    <td>≤ 0.040</td>
+                                    <td>0.040</td>
                                 </tr>
 
                                 <tr class = "t-row">
                                     <td>Sulfur</td>
-                                    <td>≤ 0.050</td>
+                                    <td>0.050</td>
                                 </tr>
 
                             </tbody>
@@ -530,23 +534,37 @@
             <div class="row justify-content-center mb-5">
                 <div class="col-lg-10">
                     <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color:#db7227;">
-                        <ul class="list-unstyled fs-6 mb-0">
-                            <li class="mb-2"><span
-                                    style="color:#db7227; font-size:1.1rem; margin-right:8px;">&#10004;</span>
-                                EN8 (080M40) – Medium Carbon Steel</li>
-                            <li class="mb-2"><span
-                                    style="color:#db7227; font-size:1.1rem; margin-right:8px;">&#10004;</span>
-                                EN9 (070M55) – High Carbon Steel</li>
-                            <li class="mb-2"><span
-                                    style="color:#db7227; font-size:1.1rem; margin-right:8px;">&#10004;</span>
-                                SAE 1045 – Medium Carbon Steel</li>
-                            <li class="mb-2"><span
-                                    style="color:#db7227; font-size:1.1rem; margin-right:8px;">&#10004;</span>
-                                SAE 4130 – High Carbon Steel</li>
-                            <li class="mb-0"><span
-                                    style="color:#db7227; font-size:1.1rem; margin-right:8px;">&#10004;</span>
-                                CK55 / CK60 – German Standard Carbon Steels</li>
-                        </ul>
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th style="width: 40%;">Grade</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>EN8 (080M40)</td>
+                                    <td>Medium Carbon Steel</td>
+                                </tr>
+                                <tr>
+                                    <td>EN9 (070M55)</td>
+                                    <td>High Carbon Steel</td>
+                                </tr>
+                                <tr>
+                                    <td>SAE 1045</td>
+                                    <td>Medium Carbon Steel</td>
+                                </tr>
+                                <tr>
+                                    <td>SAE 4130</td>
+                                    <td>High Carbon Steel</td>
+                                </tr>
+                                <tr>
+                                    <td>CK55 / CK60</td>
+                                    <td>German Standard Carbon Steels</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
                     </div>
                 </div>
             </div>
@@ -567,26 +585,41 @@
             <div class="row justify-content-center">
                 <div class="col-lg-10">
                     <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color:#db7227;">
-                        <ul class="list-unstyled fs-6 mb-0">
-                            <li class="mb-2"><span
-                                    style="color:#db7227; font-size:1.1rem; margin-right:8px;">&#10004;</span>Round Bars:
-                                10 mm to 400 mm</li>
-                            <li class="mb-2"><span
-                                    style="color:#db7227; font-size:1.1rem; margin-right:8px;">&#10004;</span>
-                                Flat, Square & Hex Bars: Custom sizes up to 300 mm</li>
-                            <li class="mb-2"><span
-                                    style="color:#db7227; font-size:1.1rem; margin-right:8px;">&#10004;</span>
-                                Sheets & Plates: 2 mm to 150 mm (Width 600–3000 mm)</li>
-                            <li class="mb-2"><span
-                                    style="color:#db7227; font-size:1.1rem; margin-right:8px;">&#10004;</span>
-                                Coils & Strips: 0.5 mm to 12 mm</li>
-                            <li class="mb-2"><span
-                                    style="color:#db7227; font-size:1.1rem; margin-right:8px;">&#10004;</span>
-                                Seamless & Welded Pipes/Tubes: OD 10 mm to 219 mm, WT 2–20 mm</li>
-                            <li class="mb-0"><span
-                                    style="color:#db7227; font-size:1.1rem; margin-right:8px;">&#10004;</span>
-                                Forged Blocks, Rings, Bushings & Machined Components</li>
-                        </ul>
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th style="width: 40%;">Product Form</th>
+                                    <th>Size Range / Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Round Bars</td>
+                                    <td>10 mm to 400 mm</td>
+                                </tr>
+                                <tr>
+                                    <td>Flat, Square & Hex Bars</td>
+                                    <td>Custom sizes up to 300 mm</td>
+                                </tr>
+                                <tr>
+                                    <td>Sheets & Plates</td>
+                                    <td>2 mm to 150 mm (Width 600–3000 mm)</td>
+                                </tr>
+                                <tr>
+                                    <td>Coils & Strips</td>
+                                    <td>0.5 mm to 12 mm</td>
+                                </tr>
+                                <tr>
+                                    <td>Seamless & Welded Pipes/Tubes</td>
+                                    <td>OD 10 mm to 219 mm, WT 2–20 mm</td>
+                                </tr>
+                                <tr>
+                                    <td>Forged Blocks, Rings, Bushings & Machined Components</td>
+                                    <td>Custom manufactured as per drawing</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
                     </div>
                 </div>
             </div>
