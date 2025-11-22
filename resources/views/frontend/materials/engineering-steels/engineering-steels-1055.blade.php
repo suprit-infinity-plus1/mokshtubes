@@ -99,6 +99,16 @@
                             wear resistance and impact durability, making it ideal for components operating under mechanical
                             stress.
                         </p>
+                        <p class="fs-6 mb-3 text-justify">
+                            <strong>Moksh Tubes & Fittings LLP</strong> supplies premium
+                            <strong>Engineering Steel 1055 (EN 1055 / C1055 / SAE 1055)</strong> — a medium carbon,
+                            high-strength steel widely used in automotive, machinery, fabrication and general engineering
+                            industries.
+                            With a carbon range of <strong>0.52–0.60%</strong>, EN 1055 offers excellent hardness, tensile
+                            strength,
+                            wear resistance and impact durability, making it ideal for components operating under mechanical
+                            stress.
+                        </p>
 
                         <p class="fs-6 text-justify">
                             We supply Engineering Steel 1055 in multiple product forms such as <strong><a
@@ -111,7 +121,25 @@
                             certified
                             mills and delivered with full quality documentation.
                         </p>
+                        <p class="fs-6 text-justify">
+                            We supply Engineering Steel 1055 in multiple product forms such as <strong><a
+                                    href="{{ route('products.bars-rods.round-bars') }}">round bars,</a><a
+                                    href="{{ route('products.bars-rods.flat-bars') }}"> flat bars,</a> plates,
+                                sheets, coils, strips, seamless &<a href="{{ route('products.pipes-tubes.welded-pipes') }}">
+                                    welded tubes</a></strong> and custom-machined components.
+                            Available in annealed, normalized, hot-rolled, cold-drawn and heat-treated conditions — EN 1055
+                            can be customized according to project-specific requirements. All materials are sourced from
+                            certified
+                            mills and delivered with full quality documentation.
+                        </p>
 
+                        <p class="fs-6">
+                            This page also includes the complete <strong>1055 steel datasheet</strong>,
+                            <strong>1055 steel hardness chart</strong>, mechanical properties, and
+                            <strong>medium carbon steel equivalent</strong> grades for engineers, buyers, and
+                            global <strong>engineering steel suppliers</strong>. These details help in material
+                            selection, comparison and procurement for industrial applications.
+                        </p>
                         <p class="fs-6">
                             This page also includes the complete <strong>1055 steel datasheet</strong>,
                             <strong>1055 steel hardness chart</strong>, mechanical properties, and
@@ -271,7 +299,9 @@
 
 
 
+
     <!-- Technical Properties Section -->
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
     <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
 
         <div class="container">
@@ -282,6 +312,8 @@
             <!-- Physical Properties Table -->
             <div class="row justify-content-center mb-5">
                 <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties of Engineering Steel 1055
+                    </h4>
                     <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties of Engineering Steel 1055
                     </h4>
 
@@ -1097,110 +1129,110 @@
 @endsection
 @section('jsscripts')
     <script type="application/ld+json">
-    @verbatim
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Product",
-      "@id": "https://mokshtubes.com/materials/engineering-steels/engineering-steels-1055#product",
-      "name": "Engineering Steel 1055 (C1055 / EN1055)",
-      "image": "https://mokshtubes.com/assets/images/engineering-steels/engineering-steels-1055.webp",
-      "description": "Engineering Steel 1055 (C1055 / EN1055) chemical composition, mechanical properties, hardness, tensile strength, applications and equivalent grades.",
-      "sku": "1055-ENGINEERING-STEEL",
-      "mpn": "C1055",
-      "material": "Medium Carbon Steel",
-      "category": "Engineering Steels",
-      "brand": {
-        "@type": "Brand",
-        "name": "Moksh Tubes & Fittings LLP",
-        "logo": "https://mokshtubes.com/assets/images/logo/Board-1.png"
-      },
-      "url": "https://mokshtubes.com/materials/engineering-steels/engineering-steels-1055",
-      "additionalProperty": [
-        { "@type": "PropertyValue", "name": "Carbon", "value": "0.52–0.60%" },
-        { "@type": "PropertyValue", "name": "Manganese", "value": "0.60–0.90%" },
-        { "@type": "PropertyValue", "name": "Phosphorus", "value": "≤ 0.040%" },
-        { "@type": "PropertyValue", "name": "Sulfur", "value": "≤ 0.050%" },
-        { "@type": "PropertyValue", "name": "Hardness", "value": "130–220 HB" },
-        { "@type": "PropertyValue", "name": "Tensile Strength", "value": "517–827 MPa" }
-      ]
-    },
+        @verbatim
+            {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                "@type": "Product",
+                "@id": "https://mokshtubes.com/materials/engineering-steels/engineering-steels-1055#product",
+                "name": "Engineering Steel 1055 (C1055 / EN1055)",
+                "image": "https://mokshtubes.com/assets/images/engineering-steels/engineering-steels-1055.webp",
+                "description": "Engineering Steel 1055 (C1055 / EN1055) chemical composition, mechanical properties, hardness, tensile strength, applications and equivalent grades.",
+                "sku": "1055-ENGINEERING-STEEL",
+                "mpn": "C1055",
+                "material": "Medium Carbon Steel",
+                "category": "Engineering Steels",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "Moksh Tubes & Fittings LLP",
+                    "logo": "https://mokshtubes.com/assets/images/logo/Board-1.png"
+                },
+                "url": "https://mokshtubes.com/materials/engineering-steels/engineering-steels-1055",
+                "additionalProperty": [
+                    { "@type": "PropertyValue", "name": "Carbon", "value": "0.52–0.60%" },
+                    { "@type": "PropertyValue", "name": "Manganese", "value": "0.60–0.90%" },
+                    { "@type": "PropertyValue", "name": "Phosphorus", "value": "≤ 0.040%" },
+                    { "@type": "PropertyValue", "name": "Sulfur", "value": "≤ 0.050%" },
+                    { "@type": "PropertyValue", "name": "Hardness", "value": "130–220 HB" },
+                    { "@type": "PropertyValue", "name": "Tensile Strength", "value": "517–827 MPa" }
+                ]
+                },
 
-    {
-      "@type": "Organization",
-      "@id": "https://mokshtubes.com/#organization",
-      "name": "Moksh Tubes & Fittings LLP",
-      "url": "https://mokshtubes.com",
-      "logo": "https://mokshtubes.com/assets/images/logo/Board-1.png",
-      "contactPoint": [
-        {
-          "@type": "ContactPoint",
-          "telephone": "+91-9967718848",
-          "contactType": "sales"
-        }
-      ]
-    },
+                {
+                "@type": "Organization",
+                "@id": "https://mokshtubes.com/#organization",
+                "name": "Moksh Tubes & Fittings LLP",
+                "url": "https://mokshtubes.com",
+                "logo": "https://mokshtubes.com/assets/images/logo/Board-1.png",
+                "contactPoint": [
+                    {
+                    "@type": "ContactPoint",
+                    "telephone": "+91-9967718848",
+                    "contactType": "sales"
+                    }
+                ]
+                },
 
- {
-      "@type": "WebPage",
-      "@id": "https://mokshtubes.com/materials/engineering-steels/engineering-steels-1055#webpage",
-      "url": "https://mokshtubes.com/materials/engineering-steels/engineering-steels-1055",
-      "name": "1055 Engineering Steel – Chemical Composition & Properties",
-      "description": "Complete datasheet of 1055 Engineering Steel (C1055 / EN1055) including composition, properties, heat treatment and applications."
-    },
+            {
+                "@type": "WebPage",
+                "@id": "https://mokshtubes.com/materials/engineering-steels/engineering-steels-1055#webpage",
+                "url": "https://mokshtubes.com/materials/engineering-steels/engineering-steels-1055",
+                "name": "1055 Engineering Steel – Chemical Composition & Properties",
+                "description": "Complete datasheet of 1055 Engineering Steel (C1055 / EN1055) including composition, properties, heat treatment and applications."
+                },
 
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://mokshtubes.com/materials/engineering-steels/engineering-steels-1055#breadcrumb",
-      "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mokshtubes.com" },
-        { "@type": "ListItem", "position": 2, "name": "Engineering Steels", "item": "https://mokshtubes.com/materials/engineering-steels" },
-        { "@type": "ListItem", "position": 3, "name": "1055 Engineering Steel", "item": "https://mokshtubes.com/materials/engineering-steels/engineering-steels-1055" }
-      ]
-    },
+                {
+                "@type": "BreadcrumbList",
+                "@id": "https://mokshtubes.com/materials/engineering-steels/engineering-steels-1055#breadcrumb",
+                "itemListElement": [
+                    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mokshtubes.com" },
+                    { "@type": "ListItem", "position": 2, "name": "Engineering Steels", "item": "https://mokshtubes.com/materials/engineering-steels" },
+                    { "@type": "ListItem", "position": 3, "name": "1055 Engineering Steel", "item": "https://mokshtubes.com/materials/engineering-steels/engineering-steels-1055" }
+                ]
+                },
 
-    {
-      "@type": "FAQPage",
-      "@id": "https://mokshtubes.com/materials/engineering-steels/engineering-steels-1055#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is EN 1055 steel?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "EN 1055 (C1055 / SAE 1055) is a medium carbon steel known for high hardness, durability, and wear resistance."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the properties of 1055 steel?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "1055 steel has tensile strength 517–827 MPa, hardness 130–220 HB, density 7.85 g/cm³, and good wear resistance."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What products are available in 1055 steel?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "1055 steel is available in round bars, plates, sheets, coils, strips, seamless pipes, welded tubes, flanges, fittings, fasteners, and machined components."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Where is 1055 steel used?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "1055 steel is used in automotive parts, gears, shafts, crankshafts, machine components, tools, and engineering applications requiring strength and wear resistance."
-          }
-        }
-      ]
-    }
-  ]
-}
+                {
+                "@type": "FAQPage",
+                "@id": "https://mokshtubes.com/materials/engineering-steels/engineering-steels-1055#faq",
+                "mainEntity": [
+                    {
+                    "@type": "Question",
+                    "name": "What is EN 1055 steel?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "EN 1055 (C1055 / SAE 1055) is a medium carbon steel known for high hardness, durability, and wear resistance."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "What are the properties of 1055 steel?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "1055 steel has tensile strength 517–827 MPa, hardness 130–220 HB, density 7.85 g/cm³, and good wear resistance."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "What products are available in 1055 steel?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "1055 steel is available in round bars, plates, sheets, coils, strips, seamless pipes, welded tubes, flanges, fittings, fasteners, and machined components."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "Where is 1055 steel used?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "1055 steel is used in automotive parts, gears, shafts, crankshafts, machine components, tools, and engineering applications requiring strength and wear resistance."
+                    }
+                    }
+                ]
+                }
+            ]
+            }
 
-@endverbatim
-</script>
+        @endverbatim
+    </script>
 @endsection

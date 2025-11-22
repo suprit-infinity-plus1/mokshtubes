@@ -1,8 +1,10 @@
 @extends('layouts.master')
 
 @section('title', '1045 Engineering Steel | High Strength Steel')
-@section('meta_description', '1045 Engineering Steel offering superior strength, toughness, and wear resistance for mechanical, structural, and industrial applications.')
-@section('meta_keywords', '1045 Engineering Steel, high strength carbon steel, medium carbon steel, mechanical steel, structural steel, durable steel, industrial steel')
+@section('meta_description', '1045 Engineering Steel offering superior strength, toughness, and wear resistance for
+    mechanical, structural, and industrial applications.')
+@section('meta_keywords', '1045 Engineering Steel, high strength carbon steel, medium carbon steel, mechanical steel,
+    structural steel, durable steel, industrial steel')
 @section('og_image', asset('assets/images/engineering-steels/engineering-steels-1045.webp'))
 @section('og_type', 'article')
 @section('content')
@@ -245,7 +247,7 @@
     </section>
 
 
-     @php
+    @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -343,7 +345,7 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                 @foreach ($products as $product)
+                @foreach ($products as $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
                             <a href="{{ route($product['route']) }}" class="text-decoration-none">
@@ -630,7 +632,7 @@
                     For inquiries or to request a quote for EN 1045 steel products, contact <strong> Moksh Tubes & Fittings
                         LLP </strong> — your trusted partner for medium carbon steels.
                 </p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch
@@ -645,54 +647,54 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
-    @verbatim
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is EN 1045 steel and what makes it unique?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "EN 1045, also known as C1045 or SAE 1045, is a medium carbon steel known for its excellent balance of strength, hardness, and ductility. With a carbon content of 0.43–0.50%, it provides good wear resistance while maintaining machinability and weldability. These properties make EN 1045 a reliable choice for mechanical and structural applications that require moderate strength and toughness."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the key properties of EN 1045 steel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "EN 1045 steel offers a tensile strength range of 448–758 MPa depending on the form, along with good yield strength and elongation values. It has a density of 7.85 g/cm³ and a melting point between 1370–1400 °C. Its machinability, weldability, and ability to be heat-treated make it highly versatile. Additionally, its wear resistance and hardness ensure durability in demanding industrial environments."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What products are available in EN 1045 steel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MOKSH TUBES & FITTINGS LLP manufactures and supplies a wide range of EN 1045 steel products including seamless and welded pipes, tubes, sheets, plates, coils, strips, round bars, flat bars, hex bars, square bars, pipe fittings, flanges, fasteners, and custom-fabricated components. All products are produced to international quality standards and can be customized to meet specific project requirements."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Where is EN 1045 steel commonly used?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "EN 1045 steel is widely used in the automotive sector for gears, shafts, axles, crankshafts, and connecting rods. It is also applied in machinery for bushings, bolts, studs, and machine tool parts. In construction, it is used for structural components requiring strength and durability, while in manufacturing it is utilized for tools, dies, and heavy duty parts that demand wear resistance and toughness."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why choose MOKSH TUBES & FITTINGS LLP for EN 1045 steel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MOKSH TUBES & FITTINGS LLP is a trusted manufacturer, supplier, exporter, importer, and stockist of EN 1045 steel products. The company ensures premium quality material sourced from reliable mills, offers customization in sizes and specifications, and provides global supply with timely delivery. Backed by expert technical support and strong quality assurance, MOKSH TUBES & FITTINGS LLP delivers reliable EN 1045 solutions for industries worldwide."
-      }
-    }
-  ]
-}
-@endverbatim
-</script>
+    <script type="application/ld+json">
+        @verbatim
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What is EN 1045 steel and what makes it unique?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "EN 1045, also known as C1045 or SAE 1045, is a medium carbon steel known for its excellent balance of strength, hardness, and ductility. With a carbon content of 0.43–0.50%, it provides good wear resistance while maintaining machinability and weldability. These properties make EN 1045 a reliable choice for mechanical and structural applications that require moderate strength and toughness."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the key properties of EN 1045 steel?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "EN 1045 steel offers a tensile strength range of 448–758 MPa depending on the form, along with good yield strength and elongation values. It has a density of 7.85 g/cm³ and a melting point between 1370–1400 °C. Its machinability, weldability, and ability to be heat-treated make it highly versatile. Additionally, its wear resistance and hardness ensure durability in demanding industrial environments."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What products are available in EN 1045 steel?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "MOKSH TUBES & FITTINGS LLP manufactures and supplies a wide range of EN 1045 steel products including seamless and welded pipes, tubes, sheets, plates, coils, strips, round bars, flat bars, hex bars, square bars, pipe fittings, flanges, fasteners, and custom-fabricated components. All products are produced to international quality standards and can be customized to meet specific project requirements."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Where is EN 1045 steel commonly used?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "EN 1045 steel is widely used in the automotive sector for gears, shafts, axles, crankshafts, and connecting rods. It is also applied in machinery for bushings, bolts, studs, and machine tool parts. In construction, it is used for structural components requiring strength and durability, while in manufacturing it is utilized for tools, dies, and heavy duty parts that demand wear resistance and toughness."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Why choose MOKSH TUBES & FITTINGS LLP for EN 1045 steel?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "MOKSH TUBES & FITTINGS LLP is a trusted manufacturer, supplier, exporter, importer, and stockist of EN 1045 steel products. The company ensures premium quality material sourced from reliable mills, offers customization in sizes and specifications, and provides global supply with timely delivery. Backed by expert technical support and strong quality assurance, MOKSH TUBES & FITTINGS LLP delivers reliable EN 1045 solutions for industries worldwide."
+                }
+                }
+            ]
+            }
+        @endverbatim
+    </script>
 @endsection
