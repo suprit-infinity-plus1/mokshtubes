@@ -81,7 +81,7 @@
 
             <div class="row align-items-center">
                 <!-- Image Left -->
-                <div class="col-md-6 mb-4 mb-md-0">
+                <div class="col-md-6 mb-4 mb-md-0 sticky-top" style="top: 80px;">
                     <img src="{{ asset('assets/images/engineering-steels/engineering-steels-1055.webp') }}" alt="1055 steel"
                         class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
@@ -314,10 +314,10 @@
                 <div class="col-lg-8">
                     <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties of Engineering Steel 1055
                     </h4>
-                    
 
-                  <div class="table-responsive">
-                    
+
+                    <div class="table-responsive">
+
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr>
@@ -368,7 +368,7 @@
                                     <td>Specific Heat Capacity</td>
                                     <td>460 J/kg·K</td>
                                     <td>460 J/kg·K</td>
-                                    </tr>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -378,50 +378,50 @@
         </div>
         <div class="row justify-content-center mb-5">
             <div class="col-lg-8">
-            <h4 class="text-center mb-3" style="color: #db7227;">Heat Treatment of 1055 Steel</h4>
+                <h4 class="text-center mb-3" style="color: #db7227;">Heat Treatment of 1055 Steel</h4>
 
-            <div class="table-responsive">
-                <table class="table table-bordered table-striped align-middle">
-                    <thead class="table-dark text-center">
-                        <tr>
-                            <th>Heat Treatment Process</th>
-                            <th>Temperature Range</th>
-                            <th>Cooling / Procedure</th>
-                        </tr>
-                    </thead>
-                 <tbody class="text-center">
-                        <tr class = "t-row">
-                            <td><strong>Annealing</strong></td>
-                            <td>790–870°C</td>
-                            <td>Cool slowly in furnace</td>
-                        </tr>
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped align-middle">
+                        <thead class="table-dark text-center">
+                            <tr>
+                                <th>Heat Treatment Process</th>
+                                <th>Temperature Range</th>
+                                <th>Cooling / Procedure</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">
+                            <tr class = "t-row">
+                                <td><strong>Annealing</strong></td>
+                                <td>790–870°C</td>
+                                <td>Cool slowly in furnace</td>
+                            </tr>
 
-                        <tr class = "t-row">
-                            <td><strong>Normalizing</strong></td>
-                            <td>830–860°C</td>
-                            <td>Air cool</td>
-                        </tr>
+                            <tr class = "t-row">
+                                <td><strong>Normalizing</strong></td>
+                                <td>830–860°C</td>
+                                <td>Air cool</td>
+                            </tr>
 
-                        <tr class = "t-row">
-                            <td><strong>Hardening</strong></td>
-                            <td>800–820°C</td>
-                            <td>Quench in water or oil</td>
-                        </tr>
+                            <tr class = "t-row">
+                                <td><strong>Hardening</strong></td>
+                                <td>800–820°C</td>
+                                <td>Quench in water or oil</td>
+                            </tr>
 
-                        <tr class = "t-row">
-                            <td><strong>Tempering</strong></td>
-                            <td>150–650°C</td>
-                            <td>Reheat depending on required hardness</td>
-                        </tr>
+                            <tr class = "t-row">
+                                <td><strong>Tempering</strong></td>
+                                <td>150–650°C</td>
+                                <td>Reheat depending on required hardness</td>
+                            </tr>
 
-                        <tr class = "t-row">
-                            <td><strong>Stress Relieving</strong></td>
-                            <td>540–650°C</td>
-                            <td>Hold for 1–2 hours</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+                            <tr class = "t-row">
+                                <td><strong>Stress Relieving</strong></td>
+                                <td>540–650°C</td>
+                                <td>Hold for 1–2 hours</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
 
         </div>
@@ -530,11 +530,21 @@
                 <div class="col-lg-10">
                     <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color:#db7227;">
                         <ul class="list-unstyled fs-6 mb-0">
-                            <li class="mb-2">✔ EN8 (080M40) – Medium Carbon Steel</li>
-                            <li class="mb-2">✔ EN9 (070M55) – High Carbon Steel</li>
-                            <li class="mb-2">✔ SAE 1045 – Medium Carbon Steel</li>
-                            <li class="mb-2">✔ SAE 4130 – High Carbon Steel</li>
-                            <li class="mb-0">✔ CK55 / CK60 – German Standard Carbon Steels</li>
+                            <li class="mb-2"><span
+                                    style="color:#db7227; font-size:1.1rem; margin-right:8px;">&#10004;</span>
+                                EN8 (080M40) – Medium Carbon Steel</li>
+                            <li class="mb-2"><span
+                                    style="color:#db7227; font-size:1.1rem; margin-right:8px;">&#10004;</span>
+                                EN9 (070M55) – High Carbon Steel</li>
+                            <li class="mb-2"><span
+                                    style="color:#db7227; font-size:1.1rem; margin-right:8px;">&#10004;</span>
+                                SAE 1045 – Medium Carbon Steel</li>
+                            <li class="mb-2"><span
+                                    style="color:#db7227; font-size:1.1rem; margin-right:8px;">&#10004;</span>
+                                SAE 4130 – High Carbon Steel</li>
+                            <li class="mb-0"><span
+                                    style="color:#db7227; font-size:1.1rem; margin-right:8px;">&#10004;</span>
+                                CK55 / CK60 – German Standard Carbon Steels</li>
                         </ul>
                     </div>
                 </div>
@@ -557,12 +567,24 @@
                 <div class="col-lg-10">
                     <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color:#db7227;">
                         <ul class="list-unstyled fs-6 mb-0">
-                            <li class="mb-2">✔ Round Bars: 10 mm to 400 mm</li>
-                            <li class="mb-2">✔ Flat, Square & Hex Bars: Custom sizes up to 300 mm</li>
-                            <li class="mb-2">✔ Sheets & Plates: 2 mm to 150 mm (Width 600–3000 mm)</li>
-                            <li class="mb-2">✔ Coils & Strips: 0.5 mm to 12 mm</li>
-                            <li class="mb-2">✔ Seamless & Welded Pipes/Tubes: OD 10 mm to 219 mm, WT 2–20 mm</li>
-                            <li class="mb-0">✔ Forged Blocks, Rings, Bushings & Machined Components</li>
+                            <li class="mb-2"><span
+                                    style="color:#db7227; font-size:1.1rem; margin-right:8px;">&#10004;</span>Round Bars:
+                                10 mm to 400 mm</li>
+                            <li class="mb-2"><span
+                                    style="color:#db7227; font-size:1.1rem; margin-right:8px;">&#10004;</span>
+                                Flat, Square & Hex Bars: Custom sizes up to 300 mm</li>
+                            <li class="mb-2"><span
+                                    style="color:#db7227; font-size:1.1rem; margin-right:8px;">&#10004;</span>
+                                Sheets & Plates: 2 mm to 150 mm (Width 600–3000 mm)</li>
+                            <li class="mb-2"><span
+                                    style="color:#db7227; font-size:1.1rem; margin-right:8px;">&#10004;</span>
+                                Coils & Strips: 0.5 mm to 12 mm</li>
+                            <li class="mb-2"><span
+                                    style="color:#db7227; font-size:1.1rem; margin-right:8px;">&#10004;</span>
+                                Seamless & Welded Pipes/Tubes: OD 10 mm to 219 mm, WT 2–20 mm</li>
+                            <li class="mb-0"><span
+                                    style="color:#db7227; font-size:1.1rem; margin-right:8px;">&#10004;</span>
+                                Forged Blocks, Rings, Bushings & Machined Components</li>
                         </ul>
                     </div>
                 </div>
@@ -951,10 +973,11 @@
             <li><a href="/materials/engineering-steels/en9" class="text-primary">EN9 Carbon Steel</a></li>
             <li><a href="/materials/engineering-steels/1045" class="text-primary">AISI 1045 Steel</a></li>
             <li><a href="/materials/engineering-steels/1060" class="text-primary">AISI 1060 Steel</a></li> --}}
+
             <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4 justify-content-center">
                 @foreach ($engineeringProducts as $product)
                     <div class="col d-flex">
-                        <a href="{{ route('materials.engineering-Steel-grade', $product['slug']) }}"
+                        <a href="{{ route('materials.engineering-Steels', $product['slug']) }}"
                             class="text-decoration-none w-100">
                             <div class="product-card h-100">
                                 <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
