@@ -1,12 +1,13 @@
 @extends('layouts.master')
 @section('title', 'Special Fabricated Products – Steel & Stainless Solutions') <!-- 53 characters -->
-@section('meta_description',
-    'Custom fabricated products from Moksh Tubes — steel furniture, stainless grills, railings & glass solutions, designed for durability, function & style.') <!-- 153 characters -->
-@section('meta_keywords',
-    'special fabricated, custom steel furniture, stainless steel grills, railings, glass solutions, modern fabricated products, durable fabricated items, custom metal works, industrial steel fabrication')
+@section('meta_description', 'Custom fabricated products from Moksh Tubes — steel furniture, stainless grills, railings
+    & glass solutions, designed for durability, function & style.') <!-- 153 characters -->
+@section('meta_keywords', 'special fabricated, custom steel furniture, stainless steel grills, railings, glass
+    solutions, modern fabricated products, durable fabricated items, custom metal works, industrial steel fabrication')
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/steel-furniture/custom-steel-furniture.webp);">
+    <section class="breadcrumb-area"
+        style="background-image: url(/assets/images/peoduct/steel-furniture/custom-steel-furniture.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -41,7 +42,7 @@
                             'slug' => 'ss-railings',
                             'image' => 'assets/images/peoduct/SS-railings.jpg',
                         ],
-                          [
+                        [
                             'name' => 'Glass Railings',
                             'slug' => 'glass-railings',
                             'image' => 'assets/images/peoduct/Glass-railing.jpg',
@@ -61,16 +62,18 @@
 
                 @foreach ($types as $type)
                     <div class="col-12 col-sm-6 col-lg-4">
-                        <a href="{{ url('/products/special-fabricated/' . $type['slug']) }}" class="text-decoration-none">
-                            <div class="custom-product-card rounded overflow-hidden shadow h-100 position-relative">
-                                {{-- <img src="https://placehold.co/600x350/db7227/fff?" class="img-fluid w-100"
-                                    alt="{{ $type['name'] }}"> --}}
+                        <a href="{{ url('/products/special-fabricated/' . $type['slug']) }}"
+                            class="text-decoration-none d-block h-100">
+                            <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                                style="border-color: #db7227; transition: 0.3s;">
+
                                 <img src="{{ asset($type['image'] ?? 'assets/images/default.jpg') }}"
-                                    alt="{{ $type['name'] }}" class="img-fluid rounded " style="border-radius: 8px;">
-                                <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center"
-                                    style="background: rgba(23, 66, 104, 0.65); transition: 0.3s;">
-                                    <h5 class="text-white text-center fw-bold text-uppercase">{{ $type['name'] }}</h5>
-                                </div>
+                                    alt="{{ $type['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+
+                                <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                    style="background-color: #174268; color: #fff; display: inline-block;">
+                                    {{ $type['name'] }}
+                                </h6>
                             </div>
                         </a>
                     </div>

@@ -71,20 +71,23 @@
 
                 @foreach ($types as $type)
                     <div class="col-12 col-sm-6 col-lg-4">
-                        {{-- Generate URL based on slug --}}
-                        <a href="{{ url('/products/' . $type['slug']) }}" class="text-decoration-none">
-                            <div class="custom-product-card rounded overflow-hidden shadow h-100 position-relative">
-                                {{-- <img src="https://placehold.co/600x350/db7227/fff?" class="img-fluid w-100"
-                                    alt="{{ $type['name'] }}"> --}}
-                                <img src="{{ asset($type['image'] ?? 'assets/images/default.jpg') }}"
-                                    alt="{{ $type['name'] }}" class="img-fluid rounded" style="border-radius: 8px;">
-                                <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center"
-                                    style="background: rgba(23, 66, 104, 0.65); transition: 0.3s;">
-                                    <h5 class="text-white text-center fw-bold text-uppercase">{{ $type['name'] }}</h5>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+    <a href="{{ url('/products/' . $type['slug']) }}" class="text-decoration-none d-block h-100">
+        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+             style="border-color: #db7227; transition: 0.3s;">
+            
+            <img src="{{ asset($type['image'] ?? 'assets/images/default.jpg') }}"
+                 alt="{{ $type['name'] }}"
+                 class="img-fluid rounded mb-3"
+                 style="border-radius: 8px;">
+            
+            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                style="background-color: #174268; color: #fff; display: inline-block;">
+                {{ $type['name'] }}
+            </h6>
+        </div>
+    </a>
+</div>
+
                 @endforeach
             </div>
         </div>
