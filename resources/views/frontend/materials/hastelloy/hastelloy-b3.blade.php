@@ -144,7 +144,7 @@
                                     <td>1.0 – 3.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    {{-- <td>Tungsten</td> --}}
+                                 <td>Tungsten</td> 
                                     <td>4</td>
                                 </tr>
                                 <tr class="t-row">
