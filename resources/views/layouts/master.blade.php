@@ -99,7 +99,44 @@
     @stack('styles')
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css">
 
+{{-- <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://mokshtubes.com/#organization",
+  "name": "Moksh Tubes & Fittings LLP",
+  "url": "https://mokshtubes.com/",
+  "logo": "https://mokshtubes.com/assets/images/logo.png",
 
+  "description": "Manufacturer & global supplier of stainless steel, alloy steel, carbon steel, nickel alloy, duplex & titanium pipes and tubes.",
+
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Your Full Address",
+    "addressLocality": "Mumbai",
+    "addressRegion": "MH",
+    "postalCode": "4000XX",
+    "addressCountry": "IN"
+  },
+
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "contactType": "sales",
+      "telephone": "+91-XXXXXXXXXX",
+      "email": "sales@mokshtubes.com",
+      "availableLanguage": ["en", "hi"],
+      "areaServed": "Worldwide"
+    }
+  ],
+
+  "sameAs": [
+    "https://www.linkedin.com/company/xxxx",
+    "https://www.facebook.com/xxxx",
+    "https://www.youtube.com/@xxxx"
+  ]
+}
+</script> --}}
 
 </head>
 
@@ -789,9 +826,9 @@
                         .catch(err => console.error("Cookie error:", err));
                 }
 
-                document.getElementById("accept-cookies") ? .addEventListener("click", () => sendConsent(
+                document.getElementById("accept-cookies") ?.addEventListener("click", () => sendConsent(
                     "{{ route('cookie.accept') }}"));
-                document.getElementById("reject-cookies") ? .addEventListener("click", () => sendConsent(
+                document.getElementById("reject-cookies") ?.addEventListener("click", () => sendConsent(
                     "{{ route('cookie.reject') }}"));
             });
 
