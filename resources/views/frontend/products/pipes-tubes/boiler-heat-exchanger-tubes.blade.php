@@ -93,8 +93,8 @@
             </form>
 
 
-            <hr class="my-4">
-            <p class="small text-muted">
+      
+            <p class="small text-muted text-center">
                 We respect your privacy. Your email will only be used to send the datasheet.
             </p>
         </div>
