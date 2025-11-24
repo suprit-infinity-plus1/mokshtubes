@@ -48,8 +48,9 @@
             text-align: center;
             padding: 15px 0;
             border-bottom: 1px solid #e5e5e5;
-            position: relative;
+            position: sticky;
             z-index: 10;
+            
         }
 
         .material-tabs a {
@@ -60,6 +61,7 @@
             font-size: 16px;
             transition: 0.25s ease;
             display: inline-block;
+          
         }
 
         .material-tabs a:hover {
@@ -70,15 +72,20 @@
 
 
     <!-- Tabs Navigation (Add this right after breadcrumb) -->
-    <div class="material-tabs text-center py-3 ">
+   
+    <div class="material-tabs text-center py-3 d-none d-md-block">
         <a href="#overview">Overview</a> |
+        <a href="#specification">Specification</a> |
         <a href="#composition">Chemical Composition</a> |
-        <a href="#properties">Properties</a> |
+        <a href="#properties">Technical Composition</a> |
         <a href="#heat-treatment">Heat Treatment</a> |
+        <a href="#mechanical">Mehanical Properties</a> |
+    
         <a href="#applications">Applications</a> |
         <a href="#price">Price</a> |
         <a href="#faq">FAQ</a>
     </div>
+ 
 
 
 
@@ -181,7 +188,7 @@
 
 
     <!-- Specifications Section -->
-    <section class="sec-padd-top">
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
                 <h2>Engineering Steel 1055 Specifications</h2>
@@ -369,7 +376,7 @@
                 </div>
             </div>
         </div>
-        <div class="row justify-content-center mb-5">
+        <div class="row justify-content-center mb-5" id="heat-treatment">
             <div class="col-lg-8">
                 <h4 class="text-center mb-3" style="color: #db7227;">Heat Treatment of 1055 Steel</h4>
 
@@ -426,7 +433,7 @@
 
 
     <!-- Mechanical Properties -->
-    <section class="sec-padd-top sec-padd-bottom">
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
         <div class="container">
             <div class="section-title center mb-5">
                 <h2 class="fw-bold" style="color: #174268;">Mechanical Properties of Engineering Steel 1055</h2>
@@ -507,7 +514,7 @@
 
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
         <div class="container">
 
             <!-- PART 1 -->
@@ -562,7 +569,7 @@
             </div>
 
             <!-- PART 2 -->
-            <div class="section-title center mt-5">
+            <div class="section-title center mt-5" id="available forms">
                 <h2>Available Forms & Size Range</h2>
             </div>
 
@@ -622,7 +629,7 @@
     <!-- End Available Forms & Size Range Section -->
 
     <!-- Standards & Equivalent Grades Section -->
-    <section class="sec-padd-top sec-padd-bottom">
+    <section class="sec-padd-top sec-padd-bottom" id="international">
         <div class="container">
             <div class="section-title center">
                 <h2>International Standards & Equivalent Grades</h2>
@@ -744,7 +751,7 @@
 
     ?>
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="products">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Engineering Steel 1055</h2>
@@ -776,7 +783,7 @@
             </div>
 
             <!-- Emphasized Line -->
-            <div class="row justify-content-center mb-3">
+            <div class="row justify-content-center mb-3" id="global-standards">
                 <div class="col-lg-10">
                     <p class="fw-bold fs-5 text-center my-4" style="color: #174268;">
                         Engineering Steel 1055 products are produced to the following global standards:
@@ -803,7 +810,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section class="sec-padd-top sec-padd-bottom" id="uses">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -845,7 +852,7 @@
         </div>
     </section>
 
-    <section id="applications" class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom" id="application">
         <div class="container">
             <div class="section-title center">
 
@@ -985,7 +992,7 @@
         </div>
     </section>
 
-    <section id="price" class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light" id="price">
         <div class="container text-center">
             <h2>1055 Steel Price per kg in India</h2>
             <p>Price varies based on size, OD, thickness, and heat-treatment condition.</p>
