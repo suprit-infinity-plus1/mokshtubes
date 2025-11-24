@@ -1,21 +1,19 @@
-@extends('layouts.master')
-
-@section('title', content: '1055 Engineering Steel – Chemical Composition & Properties')
-@section('meta_description',
+<?php $__env->startSection('title', content: '1055 Engineering Steel – Chemical Composition & Properties'); ?>
+<?php $__env->startSection('meta_description',
     'Engineering Steel 1055 (C1055/EN1055) for shafts, gears, plates and mechanical components.
-    High-strength medium carbon steel. Get a quote from Moksh Tubes.')
+    High-strength medium carbon steel. Get a quote from Moksh Tubes.'); ?>
 
-@section('meta_keywords',
+<?php $__env->startSection('meta_keywords',
     '1055 Engineering Steel, medium carbon steel, durable steel, mechanical steel, industrial
-    steel, high strength steel, steel for components')
+    steel, high strength steel, steel for components'); ?>
 
-@section('og_image', asset('assets/images/engineering-steels/engineering-steels-1055.webp'))
-@section('og_type', 'article')
+<?php $__env->startSection('og_image', asset('assets/images/engineering-steels/engineering-steels-1055.webp')); ?>
+<?php $__env->startSection('og_type', 'article'); ?>
 
 <link rel="canonical" href="https://mokshtubes.com/materials/engineering-steels/engineering-steels-1055">
 
 
-@section('content')
+<?php $__env->startSection('content'); ?>
 
     <section class="breadcrumb-area"
         style="background-image: url(/assets/images/engineering-steels/engineering-steels-banner.jpeg);">
@@ -99,7 +97,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-12 col-md-6 mb-4 mb-md-0 sticky-md-top align-self-start" style="top: 80px;">
-                    <img src="{{ asset('assets/images/engineering-steels/engineering-steels-1055.webp') }}"
+                    <img src="<?php echo e(asset('assets/images/engineering-steels/engineering-steels-1055.webp')); ?>"
                         alt="1055 Engineering Steel C1055 EN1055 Medium Carbon Steel" class="img-fluid rounded shadow-sm"
                         loading="lazy">
                 </div>
@@ -124,10 +122,10 @@
                         <p class="fs-6 text-justify">
                             We supply 1055 steel in multiple forms including
                             <strong>
-                                <a href="{{ route('products.bars-rods.round-bars') }}">round bars</a>,
-                                <a href="{{ route('products.bars-rods.flat-bars') }}"> flat bars</a>,
+                                <a href="<?php echo e(route('products.bars-rods.round-bars')); ?>">round bars</a>,
+                                <a href="<?php echo e(route('products.bars-rods.flat-bars')); ?>"> flat bars</a>,
                                 hex bars, square bars, plates, sheets, coils, strips, seamless pipes,
-                                <a href="{{ route('products.pipes-tubes.welded-pipes') }}">welded tubes</a>,
+                                <a href="<?php echo e(route('products.pipes-tubes.welded-pipes')); ?>">welded tubes</a>,
                                 forged blocks, rings and custom-machined components.
                             </strong>
                             The material is available in annealed, normalized, hot-rolled, cold-drawn and
@@ -145,7 +143,7 @@
         </div>
     </section>
     <!-- End Product Overview -->
-    {{-- datasheet --}}
+    
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Engineering Steels Datasheet</h3>
@@ -666,7 +664,7 @@
     </section>
     <!-- End Standards & Equivalent Grades Section -->
 
-    @php
+    <?php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -744,7 +742,7 @@
             ],
         ];
 
-    @endphp
+    ?>
 
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -765,13 +763,13 @@
                 <div class="col-lg-10">
                     <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color: #db7227;">
                         <div class="row">
-                            {{-- @foreach ($products as $slug => $product) --}}
-                            @foreach ($products as $product)
+                            
+                            <?php $__currentLoopData = $products; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $product): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                                 <div class="col-12 col-sm-6 mb-2 d-flex justify-content-start align-items-start">
                                     <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span>
-                                    <span>{{ $product['name'] }}</span>
+                                    <span><?php echo e($product['name']); ?></span>
                                 </div>
-                            @endforeach
+                            <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                         </div>
                     </div>
                 </div>
@@ -788,17 +786,17 @@
 
             <!-- Product Image Cards (Bootstrap Grid) -->
             <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4 justify-content-center">
-                @foreach ($products as $product)
+                <?php $__currentLoopData = $products; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $product): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                     <div class="col d-flex">
-                        <a href="{{ route($product['route']) }}" class="text-decoration-none w-100">
+                        <a href="<?php echo e(route($product['route'])); ?>" class="text-decoration-none w-100">
                             <div class="product-card h-100">
-                                <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
+                                <img src="<?php echo e(asset($product['image'])); ?>" alt="<?php echo e($product['name']); ?>"
                                     class="img-fluid w-100">
-                                <h6 class="product-card-title text-center mt-0 py-4">{{ $product['name'] }}</h6>
+                                <h6 class="product-card-title text-center mt-0 py-4"><?php echo e($product['name']); ?></h6>
                             </div>
                         </a>
                     </div>
-                @endforeach
+                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
             </div>
 
         </div>
@@ -884,40 +882,9 @@
                     </div>
                 </div>
 
-                {{-- <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-droplet"></i></div>
-                        <h5>Power Generation</h5>
-                        <p>Utilized in condensers, cooling systems, and heat recovery units due to its resistance to erosion
-                            and chemical attack.</p>
-                    </div>
-                </div>
+                
 
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
-                        <h5>Aerospace Industry</h5>
-                        <p>Used in structural frames, tubing, and fuel systems where strength-to-weight ratio is crucial.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
-                        <h5>Medical and Pharmaceutical Equipment</h5>
-                        <p>Favored for surgical tools, implants, and cleanroom processing systems because of its purity and
-                            biocompatibility.</p>
-                    </div>
-                </div> --}}
-
-                {{-- <div class="col-md-6 col-lg-4">
-                <div class="application-card">
-                     <div class="application-icon"><i class="bi bi-strategies"></i></div>
-                    <h5>Why It Works</h5>
-                    <p><strong>HASTELLOY C276’s</strong> combination of corrosion resistance, weldability, and mechanical durability makes it ideal for mission-critical applications where long-term performance is non-negotiable.</p>
-                </div>
-            </div> --}}
+                
             </div>
         </div>
     </section>
@@ -997,25 +964,21 @@
                 Browse other popular engineering steel materials supplied by Moksh Tubes & Fittings LLP:
             </p>
 
-            {{-- <ul class="list-unstyled text-center fs-6">
-            <li><a href="/materials/engineering-steels/en8" class="text-primary">EN8 Carbon Steel</a></li>
-            <li><a href="/materials/engineering-steels/en9" class="text-primary">EN9 Carbon Steel</a></li>
-            <li><a href="/materials/engineering-steels/1045" class="text-primary">AISI 1045 Steel</a></li>
-            <li><a href="/materials/engineering-steels/1060" class="text-primary">AISI 1060 Steel</a></li> --}}
+            
 
             <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4 justify-content-center">
-                @foreach ($engineeringProducts as $product)
+                <?php $__currentLoopData = $engineeringProducts; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $product): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                     <div class="col d-flex">
-                        <a href="{{ route('materials.engineering-Steels', $product['slug']) }}"
+                        <a href="<?php echo e(route('materials.engineering-Steels', $product['slug'])); ?>"
                             class="text-decoration-none w-100">
                             <div class="product-card h-100">
-                                <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
+                                <img src="<?php echo e(asset($product['image'])); ?>" alt="<?php echo e($product['name']); ?>"
                                     class="img-fluid w-100">
-                                <h6 class="product-card-title text-center mt-0 py-4">{{ $product['name'] }}</h6>
+                                <h6 class="product-card-title text-center mt-0 py-4"><?php echo e($product['name']); ?></h6>
                             </div>
                         </a>
                     </div>
-                @endforeach
+                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
 
 
             </div>
@@ -1180,7 +1143,7 @@
 
 
     <script type="application/ld+json">
-        @verbatim
+        
             {
             "@context": "https://schema.org",
             "@graph": [
@@ -1284,6 +1247,8 @@
             ]
             }
 
-        @endverbatim
+        
     </script>
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.master', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH C:\xampp\htdocs\mokshtube\resources\views/frontend/materials/engineering-steels/engineering-steels-1055.blade.php ENDPATH**/ ?>
