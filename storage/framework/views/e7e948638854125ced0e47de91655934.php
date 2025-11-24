@@ -304,7 +304,7 @@
         </div>
         </div>
     </section>
-<section class="sec-padd-top sec-padd-bottom" id="international">
+<section class="sec-padd-top sec-padd-bottom bg-light" id="international">
         <div class="container">
             <div class="section-title center">
                 <h2>International Standards & Equivalent Grades</h2>
@@ -548,7 +548,7 @@
             </div>
         </div>
     </section>
-    <section class="sec-padd-top sec-padd-bottom">
+    <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -592,7 +592,7 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section class="sec-padd-top sec-padd-bottom">
         <div class="container text-center">
             <div class="section-title center">
                 <h2>WHY CHOOSE US?</h2>
@@ -640,7 +640,7 @@
         <div class="container text-center">
             <h2>4130 Steel Price per kg in India</h2>
             <p>Typical Price Range:
-                👉 ₹150 – ₹280 per kg (Varies by size, wall thickness, and heat-treatment condition).</p>
+                ₹150 – ₹280 per kg (Varies by size, wall thickness, and heat-treatment condition).</p>
 
             <p>Contact us for exact quotation based on size and quantity.</p>
         </div>
@@ -752,7 +752,7 @@
     <!--End faq content area-->
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
