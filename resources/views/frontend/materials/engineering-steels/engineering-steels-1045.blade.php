@@ -415,7 +415,7 @@
                 </table>
             </div>
         </div>
-    </section>
+</section>
     @php
         $products = [
             [

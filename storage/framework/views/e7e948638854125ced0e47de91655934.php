@@ -1,16 +1,14 @@
-@extends('layouts.master')
-
-@section('title', '4130 Alloy Steel | Chromium-Molybdenum Steel')
-@section('meta_description',
+<?php $__env->startSection('title', '4130 Alloy Steel | Chromium-Molybdenum Steel'); ?>
+<?php $__env->startSection('meta_description',
     '4130 Alloy Steel offering high strength, toughness, and weldability for aerospace,
-    automotive, and industrial applications.')
-@section('meta_keywords',
+    automotive, and industrial applications.'); ?>
+<?php $__env->startSection('meta_keywords',
     '4130 Alloy Steel, chromium-molybdenum steel, high strength steel, tough steel, weldable
-    steel, aerospace steel, automotive steel, industrial alloy steel')
+    steel, aerospace steel, automotive steel, industrial alloy steel'); ?>
 
-@section('og_image', asset('assets/images/engineering-steels/engineering-steels-4130.webp'))
-@section('og_type', 'article')
-@section('content')
+<?php $__env->startSection('og_image', asset('assets/images/engineering-steels/engineering-steels-4130.webp')); ?>
+<?php $__env->startSection('og_type', 'article'); ?>
+<?php $__env->startSection('content'); ?>
 
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area"
@@ -38,7 +36,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/engineering-steels/engineering-steels-4130.webp') }}" alt="EN 4130"
+                    <img src="<?php echo e(asset('assets/images/engineering-steels/engineering-steels-4130.webp')); ?>" alt="EN 4130"
                         class="img-fluid rounded shadow-sm">
                 </div>
 
@@ -48,7 +46,7 @@
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
                             <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a manufacturer, supplier,
                             exporter, importer, and stockist of<strong class="text-black"> EN 4130 steel products</strong>
-                            including pipes,<a href="{{ route('products.pipes-tubes') }}"> tubes</a>, bars, plates,
+                            including pipes,<a href="<?php echo e(route('products.pipes-tubes')); ?>"> tubes</a>, bars, plates,
                             and fittings.
                         </p>
 
@@ -347,7 +345,7 @@
         </div>
 </section>
 
-    @php
+    <?php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -401,7 +399,7 @@
                 'image' => 'assets/images/all product/custom-metal-fabricated.jpg',
             ],
         ];
-    @endphp
+    ?>
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -422,13 +420,13 @@
                 <div class="col-lg-10">
                     <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color: #db7227;">
                         <div class="row">
-                            {{-- @foreach ($products as $slug => $product) --}}
-                            @foreach ($products as $product)
+                            
+                            <?php $__currentLoopData = $products; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $product): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                                 <div class="col-12 col-sm-6 mb-2 d-flex justify-content-start align-items-start">
                                     <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span>
-                                    <span>{{ $product['name'] }}</span>
+                                    <span><?php echo e($product['name']); ?></span>
                                 </div>
-                            @endforeach
+                            <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                         </div>
                     </div>
                 </div>
@@ -445,19 +443,19 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                @foreach ($products as $product)
+                <?php $__currentLoopData = $products; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $product): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ route($product['route']) }}" class="text-decoration-none">
+                            <a href="<?php echo e(route($product['route'])); ?>" class="text-decoration-none">
                                 <div class="product-card h-100">
-                                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
+                                    <img src="<?php echo e(asset($product['image'])); ?>" alt="<?php echo e($product['name']); ?>"
                                         class="img-fluid  w-100">
-                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product['name'] }}</h6>
+                                    <h6 class="product-card-title text-center mt-2 px-2"><?php echo e($product['name']); ?></h6>
                                 </div>
                             </a>
                         </div>
                     </div>
-                @endforeach
+                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
             </div>
         </div>
     </section>
@@ -544,31 +542,9 @@
                     </div>
                 </div>
 
-                {{-- <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
-                        <h5>Aerospace Industry</h5>
-                        <p>Used in structural frames, tubing, and fuel systems where strength-to-weight ratio is crucial.
-                        </p>
-                    </div>
-                </div>
+                
 
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
-                        <h5>Medical and Pharmaceutical Equipment</h5>
-                        <p>Favored for surgical tools, implants, and cleanroom processing systems because of its purity and
-                            biocompatibility.</p>
-                    </div>
-                </div> --}}
-
-                {{-- <div class="col-md-6 col-lg-4">
-                <div class="application-card">
-                     <div class="application-icon"><i class="bi bi-strategies"></i></div>
-                    <h5>Why It Works</h5>
-                    <p><strong>HASTELLOY C276’s</strong> combination of corrosion resistance, weldability, and mechanical durability makes it ideal for mission-critical applications where long-term performance is non-negotiable.</p>
-                </div>
-            </div> --}}
+                
             </div>
         </div>
     </section>
@@ -664,7 +640,7 @@
         <div class="container text-center">
             <h2>4130 Steel Price per kg in India</h2>
             <p>Typical Price Range:
-                ₹150 – ₹280 per kg (Varies by size, wall thickness, and heat-treatment condition).</p>
+                👉 ₹150 – ₹280 per kg (Varies by size, wall thickness, and heat-treatment condition).</p>
 
             <p>Contact us for exact quotation based on size and quantity.</p>
         </div>
@@ -792,12 +768,12 @@
             </div>
         </div>
     </section>
-@endsection
+<?php $__env->stopSection(); ?>
 
 
-@section('jsscripts')
+<?php $__env->startSection('jsscripts'); ?>
     <script type="application/ld+json">
-        @verbatim
+        
                 {
                 "@context": "https://schema.org",
                 "@type": "FAQPage",
@@ -845,6 +821,8 @@
                 ]
             }
         
-        @endverbatim
+        
     </script>
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.master', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH C:\xampp\htdocs\mokshtube\resources\views/frontend/materials/engineering-steels/engineering-steels-4130.blade.php ENDPATH**/ ?>
