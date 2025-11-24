@@ -16,7 +16,7 @@
 
 
 @section('content')
-
+{{-- start bread --}}
     <section class="breadcrumb-area"
         style="background-image: url(/assets/images/engineering-steels/engineering-steels-banner.jpeg);">
         <div class="container">
@@ -42,39 +42,48 @@
 
 
     <!--End breadcrumb area-->
+<style>
 
+    .material-tabs {
+    background: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #e5e5e5;
+    position: sticky;   /* you missed this */
+    top: 50px;             /* and this */
+    z-index: 1020;
+}
 
-    <style>
-        .material-tabs {
-            background: #ffffff;
-            text-align: center;
-            padding: 15px 0;
-            border-bottom: 1px solid #e5e5e5;
-            position: sticky;
-            z-index: 10;
-            
-        }
+.material-tabs a {
+    margin: 0 14px;
+    font-weight: 600;
+    color: #1b3c61 !important;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.25s ease;
+    display: inline-block;
+}
 
-        .material-tabs a {
-            margin: 0 14px;
-            font-weight: 600;
-            color: #1b3c61 !important;
-            text-decoration: none;
-            font-size: 16px;
-            transition: 0.25s ease;
-            display: inline-block;
-          
-        }
-
-        .material-tabs a:hover {
-            color: #db7227 !important;
-            transform: translateY(-2px);
-        }
-    </style>
+.material-tabs a:hover {
+    color: #db7227 !important;
+    transform: translateY(-2px);
+}
+</style>
+<div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
+    <div class="container">
+        <a href="#overview">Overview</a> |
+        <a href="#composition">Chemical Composition</a> |
+        <a href="#heat-treatment">Heat Treatment</a> |
+        <a href="#mechanical">Mechanical Properties</a> |
+        <a href="#applications">Applications</a> |
+        <a href="#price">Price</a> |
+        <a href="#faq">FAQ</a>
+    </div>
+</div>
 
 
     <!-- Tabs Navigation (Add this right after breadcrumb) -->
-   
+{{--    
     <div class="material-tabs text-center py-3 d-none d-md-block">
         <a href="#overview">Overview</a> |
         <a href="#specification">Specification</a> |
@@ -82,11 +91,10 @@
         <a href="#properties">Technical Composition</a> |
         <a href="#heat-treatment">Heat Treatment</a> |
         <a href="#mechanical">Mehanical Properties</a> |
-    
         <a href="#applications">Applications</a> |
         <a href="#price">Price</a> |
         <a href="#faq">FAQ</a>
-    </div>
+    </div> --}}
  
 
 
@@ -105,7 +113,7 @@
 
             <div class="row align-items-center">
                 <!-- Image Left -->
-                <div class="col-12 col-md-6 mb-4 mb-md-0 sticky-md-top align-self-start" style="top: 80px;">
+                <div class="col-12 col-md-6 mb-4 mb-md-0  align-self-start">
                     <img src="{{ asset('assets/images/engineering-steels/engineering-steels-1055.webp') }}"
                         alt="1055 Engineering Steel C1055 EN1055 Medium Carbon Steel" class="img-fluid rounded shadow-sm"
                         loading="lazy">
