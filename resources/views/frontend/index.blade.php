@@ -164,7 +164,7 @@
 
                     <figure class="about-img">
                         <!-- <img src="images/resource/1.png" alt="about titan builders photo"> -->
-                        <img src="{{ asset('assets/images/about/about-moksh-tubes.jpg') }}"
+                        <img src="{{ asset('assets/images/about/about-moksh-tubes.webp') }}"
                             alt="about titan builders photo">
                     </figure>
                 </div>

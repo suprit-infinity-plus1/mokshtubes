@@ -99,7 +99,7 @@
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
                     <img src="<?php echo e(asset('assets/images/engineering-steels/engineering-steels-4130.webp')); ?>" alt="EN 4130"
-                        class="img-fluid rounded shadow-sm">
+                        class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
                 <!-- Content Right -->

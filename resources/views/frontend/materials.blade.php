@@ -10,7 +10,7 @@ applications.
 
 ')
 
-<meta property="og:image" content="{{ asset('assets/images/material/materials-banner.jpg') }}" />
+<meta property="og:image" content="{{ asset('assets/images/material/materials-banner.webp') }}" />
 <meta property="og:type" content="website" />
 
 

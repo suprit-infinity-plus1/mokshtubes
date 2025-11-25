@@ -9,7 +9,7 @@
 @section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/flangs/Flange-Gaskets.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/flangs/Flange-Gaskets.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -30,7 +30,7 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/peoduct/flangs/Flange-Gaskets.jpg') }}"
+                    <img src="{{ asset('assets/images/product/flangs/Flange-Gaskets.webp') }}"
                         alt="Flange-Industrial-Gaskets" class="img-fluid rounded shadow-sm">
                 </div>
 

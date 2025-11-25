@@ -6,10 +6,11 @@
     'Haynes Superalloys 160, Haynes Alloy 160, High Strength Haynes, Heat Resistant Haynes,
     Corrosion Resistant Haynes, Industrial Haynes Alloys, Chemical Processing Haynes, Power Industry Haynes, Aerospace
     Haynes Alloys, Marine Industry Haynes'); ?>
-
+<?php $__env->startSection('og_image', asset('assets/images/haynes/haynes-alloy-160.webp')); ?>
+<?php $__env->startSection('og_type', 'article'); ?>
 <?php $__env->startSection('content'); ?>
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/haynes/haynes-alloy-160.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -34,7 +35,7 @@
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
                     <img src="<?php echo e(asset('assets/images/haynes/haynes-alloy-160.webp')); ?>" alt="Haynes-160"
-                        class="img-fluid rounded shadow-sm">
+                        class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
                 <!-- Content Right -->
@@ -89,7 +90,6 @@
             </form>
 
             
-            <hr class="my-4">
             <p class="small text-muted">
                 We respect your privacy. Your email will only be used to send the datasheet.
             </p>
@@ -280,23 +280,23 @@
             [
                 'name' => 'Seamless Pipes',
                 'route' => 'products.pipes-tubes.seamless-pipes',
-                'image' => 'assets/images/all product/seamless-pipes-10.jpg',
+                'image' => 'assets/images/all product/seamless-pipes-10.webp',
             ],
 
             [
                 'name' => 'Welded Pipes (ERW & EFW)',
                 'route' => 'products.pipes-tubes.welded-pipes',
-                'image' => 'assets/images/all product/welded-pipes-tubes-1.jpg',
+                'image' => 'assets/images/all product/welded-pipes-tubes-1.webp',
             ],
             [
                 'name' => 'Tubes (Capillary, U-Bend)',
                 'route' => 'products.pipes-tubes.u-bent-tubes',
-                'image' => 'assets/images/all product/11zon_resized.jpg',
+                'image' => 'assets/images/all product/11zon_resized.webp',
             ],
             [
                 'name' => 'Sheets & Plates',
                 'route' => 'products.sheets-plates-coils.sheets-and-plates',
-                'image' => 'assets/images/all product/sheets-plates.jpg',
+                'image' => 'assets/images/all product/sheets-plates.webp',
             ],
             [
                 'name' => 'Coils & Strips',
@@ -321,12 +321,12 @@
             [
                 'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
                 'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
-                'image' => 'assets/images/all product/FASTENERS-1.png',
+                'image' => 'assets/images/all product/FASTENERS-1.webp',
             ],
             [
                 'name' => 'Custom Fabricated Components',
                 'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
-                'image' => 'assets/images/all product/custom-metal-fabricated.jpg',
+                'image' => 'assets/images/all product/custom-metal-fabricated.webp',
             ],
         ];
     ?>
@@ -667,55 +667,56 @@
 <?php $__env->stopSection(); ?>
 <?php $__env->startSection('jsscripts'); ?>
     <script type="application/ld+json">
-    
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is Haynes 160 and why is it important in high-temperature industries?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Haynes 160 (UNS N07160) is a nickel chromium iron superalloy designed for excellent resistance to oxidation and carburization in aggressive environments. It combines outstanding high temperature strength, durability, and corrosion resistance, making it widely used in industries that operate under extreme thermal and chemical conditions. Its ability to resist thermal fatigue and creep makes it an ideal choice for aerospace, power generation, chemical processing, and furnace applications."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the main properties of Haynes 160 alloy?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Haynes 160 offers excellent mechanical and thermal properties with a tensile strength of around 112 ksi, yield strength of 46 ksi, and elongation of up to 68%. It has a density of 8.43 g/cm³, a melting point between 1404–1482°C, and provides resistance to oxidation and carburization up to 1100°C (2000°F). Along with superior fabricability and weldability, this alloy ensures long term stability and performance under harsh operating conditions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which industries commonly use Haynes 160 products?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Haynes 160 is extensively used in aerospace for high-temperature components such as combustion chambers and heat shields, in industrial furnaces and heat treating equipment for burner parts and retorts, and in chemical processing for reactors, vessels, and piping that handle corrosive media. It also plays a crucial role in power generation for gas turbine parts and boiler components, as well as in environmental control systems that manage flue gas and exhaust streams."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What types of Haynes 160 products are available from MOKSH TUBES & FITTINGS LLP?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MOKSH TUBES & FITTINGS LLP offers a complete range of Haynes 160 products including seamless and welded pipes, tubes, sheets, plates, coils, bars, flanges, pipe fittings, fasteners, wire mesh, welding rods, and custom-fabricated components. All products are manufactured in compliance with ASTM, ASME, and other international standards, ensuring superior quality and long-lasting performance for critical industrial applications."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why choose MOKSH TUBES & FITTINGS LLP for Haynes 160 materials?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MOKSH TUBES & FITTINGS LLP is a leading global supplier with extensive expertise in nickel based superalloys like Haynes 160. The company ensures premium quality through strict quality assurance, global sourcing of raw materials, and adherence to international standards. With custom manufacturing options, timely delivery, and dedicated technical support, MOKSH TUBES & FITTINGS LLP provides reliable solutions that meet the demands of industries operating under extreme conditions."
-      }
-    }
-  ]
-}
-
-</script>
+        
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What is Haynes 160 and why is it important in high-temperature industries?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Haynes 160 (UNS N07160) is a nickel chromium iron superalloy designed for excellent resistance to oxidation and carburization in aggressive environments. It combines outstanding high temperature strength, durability, and corrosion resistance, making it widely used in industries that operate under extreme thermal and chemical conditions. Its ability to resist thermal fatigue and creep makes it an ideal choice for aerospace, power generation, chemical processing, and furnace applications."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the main properties of Haynes 160 alloy?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Haynes 160 offers excellent mechanical and thermal properties with a tensile strength of around 112 ksi, yield strength of 46 ksi, and elongation of up to 68%. It has a density of 8.43 g/cm³, a melting point between 1404–1482°C, and provides resistance to oxidation and carburization up to 1100°C (2000°F). Along with superior fabricability and weldability, this alloy ensures long term stability and performance under harsh operating conditions."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Which industries commonly use Haynes 160 products?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Haynes 160 is extensively used in aerospace for high-temperature components such as combustion chambers and heat shields, in industrial furnaces and heat treating equipment for burner parts and retorts, and in chemical processing for reactors, vessels, and piping that handle corrosive media. It also plays a crucial role in power generation for gas turbine parts and boiler components, as well as in environmental control systems that manage flue gas and exhaust streams."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What types of Haynes 160 products are available from MOKSH TUBES & FITTINGS LLP?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "MOKSH TUBES & FITTINGS LLP offers a complete range of Haynes 160 products including seamless and welded pipes, tubes, sheets, plates, coils, bars, flanges, pipe fittings, fasteners, wire mesh, welding rods, and custom-fabricated components. All products are manufactured in compliance with ASTM, ASME, and other international standards, ensuring superior quality and long-lasting performance for critical industrial applications."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Why choose MOKSH TUBES & FITTINGS LLP for Haynes 160 materials?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "MOKSH TUBES & FITTINGS LLP is a leading global supplier with extensive expertise in nickel based superalloys like Haynes 160. The company ensures premium quality through strict quality assurance, global sourcing of raw materials, and adherence to international standards. With custom manufacturing options, timely delivery, and dedicated technical support, MOKSH TUBES & FITTINGS LLP provides reliable solutions that meet the demands of industries operating under extreme conditions."
+                }
+                }
+            ]
+            }
+        
+        
+    </script>
 <?php $__env->stopSection(); ?>
 
 <?php echo $__env->make('layouts.master', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH C:\xampp\htdocs\mokshtube\resources\views/frontend/materials/haynes-superalloys/haynes-superalloys-160.blade.php ENDPATH**/ ?>

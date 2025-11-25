@@ -311,7 +311,7 @@
             [
                 'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
                 'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
-                'image' => 'assets/images/all product/FASTENERS-1.png',
+                'image' => 'assets/images/all product/FASTENERS-1.webp',
             ],
             [
                 'name' => 'Custom Fabricated Components',

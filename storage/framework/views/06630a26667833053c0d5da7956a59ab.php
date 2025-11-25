@@ -35,7 +35,7 @@
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
                     <img src="<?php echo e(asset('assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-carbide.webp')); ?>"
-                        alt="Carbide alloys" class="img-fluid rounded shadow-sm">
+                        alt="Carbide alloys" class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
                 <!-- Content Right -->
@@ -92,7 +92,6 @@
             </form>
 
             
-            <hr class="my-4">
             <p class="small text-muted">
                 We respect your privacy. Your email will only be used to send the datasheet.
             </p>
@@ -284,23 +283,23 @@
             [
                 'name' => 'Seamless Pipes',
                 'route' => 'products.pipes-tubes.seamless-pipes',
-                'image' => 'assets/images/all product/seamless-pipes-10.jpg',
+                'image' => 'assets/images/all product/seamless-pipes-10.webp',
             ],
 
             [
                 'name' => 'Welded Pipes (ERW & EFW)',
                 'route' => 'products.pipes-tubes.welded-pipes',
-                'image' => 'assets/images/all product/welded-pipes-tubes-1.jpg',
+                'image' => 'assets/images/all product/welded-pipes-tubes-1.webp',
             ],
             [
                 'name' => 'Tubes (Capillary, U-Bend)',
                 'route' => 'products.pipes-tubes.u-bent-tubes',
-                'image' => 'assets/images/all product/11zon_resized.jpg',
+                'image' => 'assets/images/all product/11zon_resized.webp',
             ],
             [
                 'name' => 'Sheets & Plates',
                 'route' => 'products.sheets-plates-coils.sheets-and-plates',
-                'image' => 'assets/images/all product/sheets-plates.jpg',
+                'image' => 'assets/images/all product/sheets-plates.webp',
             ],
             [
                 'name' => 'Coils & Strips',
@@ -330,7 +329,7 @@
             [
                 'name' => 'Custom Fabricated Components',
                 'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
-                'image' => 'assets/images/all product/custom-metal-fabricated.jpg',
+                'image' => 'assets/images/all product/custom-metal-fabricated.webp',
             ],
         ];
     ?>
@@ -655,56 +654,57 @@
 
 <?php $__env->stopSection(); ?>
 <?php $__env->startSection('jsscripts'); ?>
-<script type="application/ld+json">
-    
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are Carbide Alloys used for?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Carbide Alloys are used for cutting tools, mining bits, drilling heads, stamping and punching dies, wear parts in industrial machinery, aerospace components, and chemical-resistant applications."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What types of Carbide Alloys does MOKSH TUBES & FITTINGS supply?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We supply Tungsten Carbide (WC), Titanium Carbide (TiC), Tantalum Carbide (TaC), and custom carbide grades for specialized applications, available as rods, strips, sheets, tubes, and fabricated components."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the key properties of Carbide Alloys?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Carbide Alloys offer extreme hardness, excellent wear resistance, high compressive strength, thermal stability, corrosion resistance (in specific grades), and long service life under harsh conditions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "In what forms are Carbide Alloys available?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Carbide Alloys are supplied as seamless and welded pipes, tubes, sheets, plates, bars, flanges, fasteners, and custom engineered components tailored to industrial needs."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why choose MOKSH TUBES & FITTINGS for Carbide Alloys?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We provide ISO compliant carbide products with precision machining capabilities, custom grade development, end to end supply from powder to finished parts, technical support, and global delivery for OEMs and industrial clients."
-      }
-    }
-  ]
-}
-
-</script>
+    <script type="application/ld+json">
+        
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What are Carbide Alloys used for?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Carbide Alloys are used for cutting tools, mining bits, drilling heads, stamping and punching dies, wear parts in industrial machinery, aerospace components, and chemical-resistant applications."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What types of Carbide Alloys does MOKSH TUBES & FITTINGS supply?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We supply Tungsten Carbide (WC), Titanium Carbide (TiC), Tantalum Carbide (TaC), and custom carbide grades for specialized applications, available as rods, strips, sheets, tubes, and fabricated components."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the key properties of Carbide Alloys?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Carbide Alloys offer extreme hardness, excellent wear resistance, high compressive strength, thermal stability, corrosion resistance (in specific grades), and long service life under harsh conditions."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "In what forms are Carbide Alloys available?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Carbide Alloys are supplied as seamless and welded pipes, tubes, sheets, plates, bars, flanges, fasteners, and custom engineered components tailored to industrial needs."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Why choose MOKSH TUBES & FITTINGS for Carbide Alloys?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We provide ISO compliant carbide products with precision machining capabilities, custom grade development, end to end supply from powder to finished parts, technical support, and global delivery for OEMs and industrial clients."
+                }
+                }
+            ]
+            }
+        
+        
+    </script>
 <?php $__env->stopSection(); ?>
 
 <?php echo $__env->make('layouts.master', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH C:\xampp\htdocs\mokshtube\resources\views/frontend/materials/hard-to-find-special-alloys/hard-to-find-special-alloys-carbide.blade.php ENDPATH**/ ?>

@@ -3,19 +3,12 @@
     'Mokshtubes offers high-quality stainless, alloy, aluminium, and brass flat bars in various
     sizes, grades & custom cuts.'); ?> <!-- 153 characters -->
 <?php $__env->startSection('meta_keywords', 'Flat Bars, Stainless Flat Bars, Alloy Flat Bars, Aluminium Flat Bars, Brass Flat Bars'); ?>
-<?php $__env->startSection('og_title', 'Flat Bars – Stainless, Alloy, Aluminium & Brass'); ?>
-
-<?php $__env->startSection('og_description', 'Mokshtubes offers high-quality stainless, alloy, aluminium, and brass flat bars'); ?>
-
-<?php $__env->startSection('og_image', 'https://mokshtubes.com/assets/images/peoduct/Flat-Bars.jpg'); ?>
-
-<?php $__env->startSection('og_url', url()->current()); ?>
-
-<?php $__env->startSection('og_type', 'product'); ?>
+<?php $__env->startSection('og_image', asset('assets/images/product/Flat-Bars.webp')); ?>
+<?php $__env->startSection('og_type', 'article'); ?>
 
 <?php $__env->startSection('content'); ?>
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/Flat-Bars.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/Flat-Bars.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -36,7 +29,7 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="<?php echo e(asset('assets/images/peoduct/Flat-Bars.jpg')); ?>"
+                    <img src="<?php echo e(asset('assets/images/product/Flat-Bars.webp')); ?>"
                         alt="Flat Bars" class="img-fluid rounded shadow-sm">
                 </div>
 
@@ -596,7 +589,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="<?php echo e(route('materials.nickel-Based-Superalloys')); ?>">
-                                <img class="w-100" src="<?php echo e(asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg')); ?>"
+                                <img class="w-100" src="<?php echo e(asset('assets/images/product/NICKLE-ALLOYS.webp')); ?>"
                                     alt="NICKLE ALLOYS">
                             </a>
                         </figure>
@@ -609,7 +602,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="<?php echo e(route('materials.austenitic-stainless-Steel')); ?>">
-                                <img class="w-100" src="<?php echo e(asset('assets/images/peoduct/STAINLESS-STEEL.jpeg')); ?>"
+                                <img class="w-100" src="<?php echo e(asset('assets/images/product/STAINLESS-STEEL.webp')); ?>"
                                     alt="STAINLESS STEEL">
                             </a>
                         </figure>
@@ -622,7 +615,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="<?php echo e(route('materials.duplex-and-super-duplex')); ?>">
-                                <img class="w-100" src="<?php echo e(asset('assets/images/peoduct/DUPLEX-SUPER.png')); ?>"
+                                <img class="w-100" src="<?php echo e(asset('assets/images/product/DUPLEX-SUPER.webp')); ?>"
                                     alt="DUPLEX & SUPER">
                             </a>
                         </figure>
@@ -636,7 +629,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="<?php echo e(route('materials.titanium')); ?>">
-                                <img class="w-100" src="<?php echo e(asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg')); ?>"
+                                <img class="w-100" src="<?php echo e(asset('assets/images/product/TITANIUM-ALLOYS.webp')); ?>"
                                     alt="TITANIUM ALLOYS">
                             </a>
                         </figure>
@@ -649,7 +642,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="<?php echo e(route('materials.haynes-Superalloys')); ?>">
-                                <img class="w-100" src="<?php echo e(asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg')); ?>"
+                                <img class="w-100" src="<?php echo e(asset('assets/images/product/RARE-TO-ALLOYS.webp')); ?>"
                                     alt="Haynes Superalloys">
                             </a>
                         </figure>
@@ -662,7 +655,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="<?php echo e(route('materials.inconel')); ?>">
-                                <img class="w-100" src="<?php echo e(asset('assets/images/peoduct/CARBON-ALLOYS.jpg')); ?>"
+                                <img class="w-100" src="<?php echo e(asset('assets/images/product/CARBON-ALLOYS.webp')); ?>"
                                     alt="Inconel">
                             </a>
                         </figure>
@@ -1062,57 +1055,59 @@
 
 
 <?php $__env->stopSection(); ?>
+
 <?php $__env->startSection('jsscripts'); ?>
-<script type="application/ld+json">
-
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the standard flat bar size?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Standard flat bar sizes vary by thickness and width. Common sizes range from 3mm to 50mm thickness and 12mm to 300mm width. Custom sizes are also available on request."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How to calculate MS flat bar weight?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The weight of a mild steel (MS) flat bar can be calculated using the formula: Weight (kg) = Length (m) × Width (m) × Thickness (m) × 7850, where 7850 kg/m³ is the density of mild steel. A weight chart or an on-site calculator can make this easier."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What materials are available for flat bars?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Flat bars are available in steel (stainless steel), mild steel (MS), alloy steel, aluminium, copper, brass, nickel alloys, and titanium. Grades comply with standards such as ASTM, ASME, DIN, EN, and JIS."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can flat bars be custom cut?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Flat bars can be custom cut to specific lengths, widths, or thicknesses according to project requirements. This is ideal for machining, fabrication, or structural applications."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What finishes are available for stainless steel flat bars?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Stainless steel flat bars come in bright, polished, mill finish, peeled & ground, shot blasted, pickled & passivated finishes to provide suitable surface quality for decorative and industrial uses."
-      }
-    }
-  ]
-}
-
-</script>
+    <script type="application/ld+json">
+        
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What is the standard flat bar size?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Standard flat bar sizes vary by thickness and width. Common sizes range from 3mm to 50mm thickness and 12mm to 300mm width. Custom sizes are also available on request."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "How to calculate MS flat bar weight?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The weight of a mild steel (MS) flat bar can be calculated using the formula: Weight (kg) = Length (m) × Width (m) × Thickness (m) × 7850, where 7850 kg/m³ is the density of mild steel. A weight chart or an on-site calculator can make this easier."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What materials are available for flat bars?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Flat bars are available in steel (stainless steel), mild steel (MS), alloy steel, aluminium, copper, brass, nickel alloys, and titanium. Grades comply with standards such as ASTM, ASME, DIN, EN, and JIS."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Can flat bars be custom cut?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Flat bars can be custom cut to specific lengths, widths, or thicknesses according to project requirements. This is ideal for machining, fabrication, or structural applications."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What finishes are available for stainless steel flat bars?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Stainless steel flat bars come in bright, polished, mill finish, peeled & ground, shot blasted, pickled & passivated finishes to provide suitable surface quality for decorative and industrial uses."
+                }
+                }
+            ]
+            }
+        
+        
+    </script>
 <?php $__env->stopSection(); ?>
 
 <?php echo $__env->make('layouts.master', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH C:\xampp\htdocs\mokshtube\resources\views/frontend/products/bars-rods/flat-bars.blade.php ENDPATH**/ ?>

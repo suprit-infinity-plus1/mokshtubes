@@ -23,13 +23,13 @@
     </section>
 <style>
 
-    /* .material-tabs {
+    .material-tabs {
     background: #ffffff;
     text-align: center;
     padding: 15px 0;
     border-bottom: 1px solid #e5e5e5;
-    position: sticky;   
-    top: 50px;             
+    position: sticky;   /* you missed this */
+    top: 50px;             /* and this */
     z-index: 1020;
 }
 
@@ -46,7 +46,7 @@
 .material-tabs a:hover {
     color: #db7227 !important;
     transform: translateY(-2px);
-} */
+}
 
 
 .material-tabs {
@@ -55,7 +55,6 @@
     padding: 15px 0;
     border-bottom: 1px solid #e5e5e5;
     z-index: 1020;
-    top: 50px;
 }
 
 .material-tabs a {
@@ -101,7 +100,7 @@
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
                     <img src="<?php echo e(asset('assets/images/engineering-steels/engineering-steels-1045.webp')); ?>" alt="en-1045"
-                        class="img-fluid rounded shadow-sm">
+                        class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
 
@@ -414,7 +413,7 @@
                 </table>
             </div>
         </div>
-    </section>
+</section>
     <?php
         $products = [
             [

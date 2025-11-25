@@ -8,7 +8,7 @@
 @section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/flangs/custom-fabricated-fittings.jpeg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/flangs/custom-fabricated-fittings.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -28,7 +28,7 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/peoduct/flangs/custom-fabricated-fittings.jpeg') }}"
+                    <img src="{{ asset('assets/images/product/flangs/custom-fabricated-fittings.webp') }}"
                         alt="Custom-Fabricated-Fittings" class="img-fluid rounded shadow-sm">
                 </div>
 

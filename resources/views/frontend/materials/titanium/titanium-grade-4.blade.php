@@ -3,12 +3,12 @@
 @section('title', 'Titanium Grade 4 – High Strength Titanium Alloy') <!-- 52 chars -->
 @section('meta_description', 'Titanium Grade 4 offers high strength and excellent corrosion resistance, ideal for aerospace, marine, and chemical industry applications.')
 @section('meta_keywords', 'Titanium Grade 4, High Strength Titanium, Corrosion Resistant Titanium, Titanium Grade 4 Pipes, Titanium Grade 4 Tubes, Titanium Grade 4 Sheets, Aerospace Titanium Alloys, Marine Industry Titanium, Chemical Processing Titanium, Industrial Titanium Grades')
-@section('og_image', asset('assets/images/material/titanium-grade4.jpg'))
+@section('og_image', asset('assets/images/material/titanium-grade4.webp'))
 @section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/material/titanium-grade4.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/material/titanium-grade4.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -33,7 +33,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/material/titanium-grade4.jpg') }}" alt="Titanium Grade 4"
+                    <img src="{{ asset('assets/images/material/titanium-grade4.webp') }}" alt="Titanium Grade 4"
                         class="img-fluid rounded shadow-sm">
                 </div>
 
@@ -237,23 +237,23 @@
             [
                 'name' => 'Seamless Pipes',
                 'route' => 'products.pipes-tubes.seamless-pipes',
-                'image' => 'assets/images/all product/seamless-pipes-10.jpg',
+                'image' => 'assets/images/all product/seamless-pipes-10.webp',
             ],
 
             [
                 'name' => 'Welded Pipes (ERW & EFW)',
                 'route' => 'products.pipes-tubes.welded-pipes',
-                'image' => 'assets/images/all product/welded-pipes-tubes-1.jpg',
+                'image' => 'assets/images/all product/welded-pipes-tubes-1.webp',
             ],
             [
                 'name' => 'Tubes (Capillary, U-Bend)',
                 'route' => 'products.pipes-tubes.u-bent-tubes',
-                'image' => 'assets/images/all product/11zon_resized.jpg',
+                'image' => 'assets/images/all product/11zon_resized.webp',
             ],
             [
                 'name' => 'Sheets & Plates',
                 'route' => 'products.sheets-plates-coils.sheets-and-plates',
-                'image' => 'assets/images/all product/sheets-plates.jpg',
+                'image' => 'assets/images/all product/sheets-plates.webp',
             ],
             [
                 'name' => 'Coils & Strips',
@@ -278,12 +278,12 @@
             [
                 'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
                 'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
-                'image' => 'assets/images/all product/FASTENERS-1.png',
+                'image' => 'assets/images/all product/FASTENERS-1.webp',
             ],
             [
                 'name' => 'Custom Fabricated Components',
                 'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
-                'image' => 'assets/images/all product/custom-metal-fabricated.jpg',
+                'image' => 'assets/images/all product/custom-metal-fabricated.webp',
             ],
         ];
     @endphp

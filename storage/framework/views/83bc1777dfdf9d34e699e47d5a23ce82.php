@@ -10,7 +10,7 @@
     <!--End mainmenu area-->
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(assets/images/peoduct/pipes-tubes-banner.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(assets/images/product/pipes-tubes-banner.webp);">
 
         <div class="container">
             <div class="row justify-content-center">
@@ -36,27 +36,27 @@
                     [
                         'name' => 'Pipes & Tubes',
                         'slug' => 'pipes-tubes',
-                        'image' => 'assets/images/peoduct/main-product/pipes&tubes.webp',
+                        'image' => 'assets/images/product/main-product/pipes&tubes.webp',
                     ],
                     [
                         'name' => 'Sheets, Plates & Coils',
                         'slug' => 'sheets-plates-coils',
-                        'image' => 'assets/images/peoduct/main-product/SheetsPlates.webp',
+                        'image' => 'assets/images/product/main-product/SheetsPlates.webp',
                     ],
                     [
                         'name' => 'Bars & Rods',
                         'slug' => 'bars-rods',
-                        'image' => 'assets/images/peoduct/main-product/rods.webp',
+                        'image' => 'assets/images/product/main-product/rods.webp',
                     ],
                     [
                         'name' => 'Pipe Fittings, Flanges & Fasteners',
                         'slug' => 'pipe-fittings-flanges-fasteners',
-                        'image' => 'assets/images/peoduct/main-product/fittings.webp',
+                        'image' => 'assets/images/product/main-product/fittings.webp',
                     ],
                     [
                         'name' => 'Special Fabricated',
                         'slug' => 'special-fabricated',
-                        'image' => 'assets/images/peoduct/main-product/Special.webp',
+                        'image' => 'assets/images/product/main-product/Special.webp',
                     ],
                 ];
             ?>

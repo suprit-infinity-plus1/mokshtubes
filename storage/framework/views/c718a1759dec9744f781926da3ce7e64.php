@@ -5,13 +5,13 @@
 Premium Quality Alloys, Alloy Tubes, Engineering Alloys'); ?>
 
 
-<?php $__env->startSection('og_image', asset('assets/images/about/Untitled.png')); ?>
+<?php $__env->startSection('og_image', asset('assets/images/about/Untitled.webp')); ?>
 <?php $__env->startSection('og_type', 'website'); ?>
 
 <?php $__env->startSection('content'); ?>
 
 <!--Start breadcrumb area-->
-<section class="breadcrumb-area" style="background-image: url(/assets/images/about/Untitled.png);">
+<section class="breadcrumb-area" style="background-image: url(/assets/images/about/Untitled.webp);">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-auto text-center">
@@ -31,7 +31,7 @@ Premium Quality Alloys, Alloy Tubes, Engineering Alloys'); ?>
 
                 <figure class="about-img h-100 m-0">
                     <!-- <img src="images/resource/1.png" alt="about titan builders photo"> -->
-                    <img src="<?php echo e(asset('assets/images/about/about-materials_11zon.webp')); ?>" alt="about titan builders photo" class="img-fluid w-100 h-100 object-fit-cover custom-img">
+                    <img src="<?php echo e(asset('assets/images/about/about-materials_11zon.webp')); ?>" alt="about titan builders photo" class="img-fluid w-100 h-100 object-fit-cover custom-img" loading="lazy">
                     <!-- <img src="https://placehold.co/300x300" class="mt-1" alt="about titan builders photo"> -->
                 </figure>
             </div>
@@ -154,11 +154,11 @@ Premium Quality Alloys, Alloy Tubes, Engineering Alloys'); ?>
             </div>
             <div class="col-md-6 text-center">
                 <!-- Desktop Image -->
-                <img src="<?php echo e(asset('assets/images/history/our-mission.webp')); ?>" alt="Large" class="img-fluid d-none d-lg-block">
+                <img src="<?php echo e(asset('assets/images/history/our-mission.webp')); ?>" alt="Large" class="img-fluid d-none d-lg-block" loading="lazy">
                 <!-- Tablet Image 400x250-->
-                <img src="<?php echo e(asset('assets/images/history/our-mission.webp')); ?>" alt="Tablet" class="img-fluid d-none d-md-block d-lg-none">
+                <img src="<?php echo e(asset('assets/images/history/our-mission.webp')); ?>" alt="Tablet" class="img-fluid d-none d-md-block d-lg-none" loading="lazy">
                 <!-- Mobile Image 300x200 -->
-                <img src="<?php echo e(asset('assets/images/history/our-mission.webp')); ?>" alt="Mobile" class="img-fluid d-block d-md-none mx-auto">
+                <img src="<?php echo e(asset('assets/images/history/our-mission.webp')); ?>" alt="Mobile" class="img-fluid d-block d-md-none mx-auto" loading="lazy">
             </div>
         </div>
 

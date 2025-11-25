@@ -8,7 +8,7 @@ applications.
 
 '); ?>
 
-<meta property="og:image" content="<?php echo e(asset('assets/images/material/materials-banner.jpg')); ?>" />
+<meta property="og:image" content="<?php echo e(asset('assets/images/material/materials-banner.webp')); ?>" />
 <meta property="og:type" content="website" />
 
 

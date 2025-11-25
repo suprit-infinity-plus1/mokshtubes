@@ -8,7 +8,7 @@
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/engineering-steels/engineering-steels-banner.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/engineering-steels/engineering-steels-banner.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -35,22 +35,22 @@
                     [
                         'name' => '14 4PH Stainless Steel',
                         'slug' => '14-4ph-stainless-steel',
-                        'image' => 'assets/images/high-strength-stainless-steel/14-4PH-Stainless-Steel.jpeg',
+                        'image' => 'assets/images/high-strength-stainless-steel/14-4PH-Stainless-Steel.webp',
                     ],
                     [
                         'name' => '15 5PH Stainless Steel',
                         'slug' => '15-5ph-stainless-steel',
-                        'image' => 'assets/images/high-strength-stainless-steel/15-5-PH-STAINLESS-STEEL.jpg',
+                        'image' => 'assets/images/high-strength-stainless-steel/15-5-PH-STAINLESS-STEEL.webp',
                     ],
                     [
                         'name' => '17 4PH Stainless Steel',
                         'slug' => '17-4ph-stainless-steel',
-                        'image' => 'assets/images/high-strength-stainless-steel/17-4-PH-STAINLESS-STEEL.jpg',
+                        'image' => 'assets/images/high-strength-stainless-steel/17-4-PH-STAINLESS-STEEL.webp',
                     ],
                     [
                         'name' => '420HC Stainless Steel',
                         'slug' => '420hc-stainless-steel',
-                        'image' => 'assets/images/high-strength-stainless-steel/420HC-STAINLESS-STEEL.jpeg',
+                        'image' => 'assets/images/high-strength-stainless-steel/420HC-STAINLESS-STEEL.webp',
                     ],
                     [
                         'name' => '430F Stainless Steel',
@@ -90,7 +90,7 @@
                     [
                         'name' => 'Stainless Steel 416',
                         'slug' => 'stainless-steel-416',
-                        'image' => 'assets/images/high-strength-stainless-steel/416-Stainless-Steel.jpeg',
+                        'image' => 'assets/images/high-strength-stainless-steel/416-Stainless-Steel.webp',
                     ],
                     [
                         'name' => 'Stainless Steel 420',

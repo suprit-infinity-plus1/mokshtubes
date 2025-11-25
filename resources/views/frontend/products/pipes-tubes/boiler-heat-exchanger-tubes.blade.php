@@ -1827,7 +1827,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}"
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.webp') }}"
                                     alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400"
                                     height="260">
                             </a>
@@ -1841,7 +1841,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}"
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.webp') }}"
                                     alt="Stainless steel boiler and condenser tubes" loading="lazy" width="400"
                                     height="260">
                             </a>
@@ -1855,7 +1855,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}"
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.webp') }}"
                                     alt="Duplex and super duplex tubes for seawater service" loading="lazy"
                                     width="400" height="260">
                             </a>
@@ -1870,7 +1870,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.titanium') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}"
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.webp') }}"
                                     alt="Titanium heat exchanger and condenser tubes" loading="lazy" width="400"
                                     height="260">
                             </a>
@@ -1884,7 +1884,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}"
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.webp') }}"
                                     alt="Haynes superalloy tubes for high-temperature service" loading="lazy"
                                     width="400" height="260">
                             </a>
@@ -1898,7 +1898,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.inconel') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}"
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.webp') }}"
                                     alt="Inconel alloy tubes for corrosion-resistant applications" loading="lazy"
                                     width="400" height="260">
                             </a>
@@ -2608,7 +2608,7 @@
       "@id": "https://mokshtubes.com/#organization",
       "name": "Moksh Tubes & Fittings LLP",
       "url": "https://mokshtubes.com/",
-      "logo": "https://mokshtubes.com/assets/images/logo.png",
+      "logo": "https://mokshtubes.com/assets/images/logo.webp",
       "telephone": "+91-XXXXXXXXXX",
       "email": "info@mokshtubes.com",
       "address": {
