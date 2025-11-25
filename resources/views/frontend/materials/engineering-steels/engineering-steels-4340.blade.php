@@ -35,7 +35,7 @@
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
                     <img src="{{ asset('assets/images/engineering-steels/engineering-steels-4340.webp') }}" alt="EN 4340"
-                        class="img-fluid rounded shadow-sm">
+                        class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
                 <!-- Content Right -->

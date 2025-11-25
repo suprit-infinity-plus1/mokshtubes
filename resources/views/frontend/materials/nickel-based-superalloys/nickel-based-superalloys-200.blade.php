@@ -32,7 +32,7 @@
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
                     <img src="{{ asset('assets/images/nickel-based-superalloys/nickel-based-superalloys-200.webp') }}"
-                        alt="Nickel 200" class="img-fluid rounded shadow-sm">
+                        alt="Nickel 200" class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
                 <!-- Content Right -->

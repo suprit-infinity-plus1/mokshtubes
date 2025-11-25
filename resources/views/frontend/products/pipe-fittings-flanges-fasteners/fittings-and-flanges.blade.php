@@ -32,7 +32,7 @@
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
                     <img src="{{ asset('assets/images/peoduct/flangs/Flanges-&-Pipe-Fittings.webp') }}"
-                        alt="Flanges-&-Pipe-Fittings" class="img-fluid rounded shadow-sm">
+                        alt="Flanges-&-Pipe-Fittings" class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
                 <!-- Right Content -->

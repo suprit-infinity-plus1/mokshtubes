@@ -41,7 +41,7 @@
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
                     <img src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}"
-                        alt="Duplex Stainless Steel S31803" class="img-fluid rounded shadow-sm">
+                        alt="Duplex Stainless Steel S31803" class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
                 <!-- Content Right -->

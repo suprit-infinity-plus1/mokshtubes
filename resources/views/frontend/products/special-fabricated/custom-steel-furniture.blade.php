@@ -29,7 +29,7 @@
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
                     <img src="{{ asset('assets/images/peoduct/steel-furniture/custom-steel-furniture.webp') }}"
-                        alt="Custom-Steel-Furniture" class="img-fluid rounded shadow-sm">
+                        alt="Custom-Steel-Furniture" class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
                 <!-- Right Content -->

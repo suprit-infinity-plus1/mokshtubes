@@ -33,7 +33,7 @@
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
                     <img src="{{ asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-nitronic-50_9_11zon.webp') }}"alt="Austenitic Stainless Steel Nitronic 50"
-                        class="img-fluid rounded shadow-sm">
+                        class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
                 <!-- Content Right -->

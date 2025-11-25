@@ -33,7 +33,7 @@
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
                     <img src="{{ asset('assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-tantalum.webp') }}"
-                        alt="Tantalum" class="img-fluid rounded shadow-sm">
+                        alt="Tantalum" class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
                 <!-- Content Right -->

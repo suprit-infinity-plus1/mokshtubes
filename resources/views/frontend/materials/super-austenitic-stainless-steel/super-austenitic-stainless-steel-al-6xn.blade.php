@@ -34,7 +34,7 @@
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
                     <img src="{{ asset('assets/images/super-austenitic-stainless-steel/super-austenitic-stainless-steel-AL-6XN.webp') }}"
-                        alt="AL 6XN" class="img-fluid rounded shadow-sm">
+                        alt="AL 6XN" class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
                 <!-- Content Right -->

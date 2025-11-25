@@ -17,7 +17,7 @@
     <!--Start breadcrumb area-->
 
     <section class="breadcrumb-area"
-        style="background-image: url(/assets/images/blog/Stainless-Steel-Tubes-Applications-Benefits-Cost-Guide.webp);">
+        style="background-image: url(/assets/images/blog/Stainless-Steel-Tubes-Applications-Benefits-Cost-Guide.webp);" >
         <div class="container text-center">
             <h1>Complete Guide to Stainless Steel Tubes</h1>
         </div>
@@ -35,7 +35,7 @@
                         <div class="single-blog-post">
                             <div class="img-holder">
                                 <img src="{{ asset('assets/images/blog/Stainless-Steel-Tubes-Applications-Benefits-Cost-Guide.webp') }}"
-                                    alt="Stainless Steel Pipe Installation">
+                                    alt="Stainless Steel Pipe Installation" loading="lazy">
                             </div>
                             <div class="text-holder">
                                 <div class="blog-title text-start">
@@ -381,7 +381,7 @@
                                 <li>
                                     <div class="img-holder">
                                         <img src="{{ asset('assets/images/blogs/thumb/why-hastelloy-weighs-more-than-stainless-steel-thumb.webp') }}"
-                                            alt="Awesome Image">
+                                            alt="Awesome Image" loading="lazy">
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
@@ -408,7 +408,7 @@
                                 <li>
                                     <div class="img-holder">
                                         <img src="{{ asset('assets/images/blogs/thumb/the-role-of-high-performance-alloys-in-desalination-plants-thumb.webp') }}"
-                                            alt="Awesome Image">
+                                            alt="Awesome Image" loading="lazy">
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">
@@ -434,7 +434,7 @@
                                 <li>
                                     <div class="img-holder">
                                         <img src="{{ asset('assets/images/blogs/thumb/indias-stainless-steel-export-industry-thumb.webp') }}"
-                                            alt="Awesome Image">
+                                            alt="Awesome Image" loading="lazy">
                                         <div class="overlay-style-two">
                                             <div class="box">
                                                 <div class="content">

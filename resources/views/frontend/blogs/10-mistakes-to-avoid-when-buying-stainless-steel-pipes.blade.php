@@ -30,7 +30,7 @@
                         <div class="single-blog-post">
                             <div class="img-holder">
                                 <img src="{{ asset('assets/images/blog/10-Mistakes-to-Avoid-When-Buying-Stainless-Steel-Pipes.webp') }}"
-                                    alt="10-mistakes-to-avoid">
+                                    alt="10-mistakes-to-avoid" loading="lazy">
                             </div>
                             <div class="text-holder">
                                 <div class="blog-title text-start">

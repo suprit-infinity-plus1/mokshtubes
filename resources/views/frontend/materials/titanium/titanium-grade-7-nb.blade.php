@@ -34,7 +34,8 @@
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
                     <img src="{{ asset('assets/images/titanium/titanium-7nb.webp') }}" alt="Titanium Grade 7 NB"
-                        class="img-fluid rounded shadow-sm">
+                        class="img-fluid rounded shadow-sm" loading="lazy">
+                        
                 </div>
 
                 <!-- Content Right -->

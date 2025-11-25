@@ -22,7 +22,7 @@
             <ul>
                 <li data-transition="slidingoverlayleft">
                     <img src="{{ asset('assets/images/slides/Mokshtubes-banner-desktop.webp') }}"
-                        alt="Stainless Steel Welded Pipes ERW EFW ASTM A312" width="1920" height="880"
+                        alt="Stainless Steel Welded Pipes ERW EFW ASTM A312" width="1920" height="880" loading="lazy"
                         data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1">
 
                     <div class="tp-caption  tp-resizeme" data-x="left" data-hoffset="15" data-y="center" data-voffset="-50"
@@ -69,7 +69,7 @@
                 <li data-transition="slidingoverlayleft">
                     <img src="{{ asset('assets/images/slides/carpenteria-interno.webp') }}" alt="banner image"
                         width="1920" height="880" data-bgposition="top center" data-bgfit="cover"
-                        data-bgrepeat="no-repeat" data-bgparallax="1">
+                        data-bgrepeat="no-repeat" data-bgparallax="1" loading="lazy">
 
                     <div class="tp-caption  tp-resizeme" data-x="right" data-hoffset="15" data-y="center" data-voffset="-50"
                         data-transform_idle="o:1;"
@@ -111,7 +111,7 @@
                 <li data-transition="slidingoverlayright">
                     <img src="{{ asset('assets/images/slides/we-help.webp') }}" alt="banner image" width="1920"
                         height="550" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat"
-                        data-bgparallax="1">
+                        data-bgparallax="1" loading="lazy">
 
                     <div class="tp-caption  tp-resizeme" data-x="left" data-hoffset="15" data-y="center"
                         data-voffset="-50" data-transform_idle="o:1;"
@@ -267,7 +267,7 @@
                             <figure class="img-box mb-0">
                                 <a class="w-100" href="{{ route('products.pipes-tubes.welded-pipes') }}">
                                     <img src="/assets/images/service/WELDED-PIPES.webp" alt="Awesome Image"
-                                        class="w-100"></a>
+                                        class="w-100" loading="lazy"></a>
                             </figure>
 
                             <div class="p-3">
@@ -284,7 +284,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('products.pipes-tubes.seamless-pipes') }}">
-                                <img class="w-100" src="/assets/images/service/SEAMLESS-PIPES.webp" alt="Awesome Image">
+                                <img class="w-100" src="/assets/images/service/SEAMLESS-PIPES.webp" alt="Awesome Image" loading="lazy">
                             </a>
                         </figure>
                         <div class="p-3">
@@ -302,7 +302,7 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('products.sheets-plates-coils.sheets-and-plates') }}">
                                 <img src="/assets/images/service/SHEETS-PLATES.webp" alt="Sheets and Plates"
-                                    class="w-100">
+                                    class="w-100" loading="lazy">
 
                             </a>
                         </figure>
@@ -358,7 +358,7 @@
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners') }}">
                                 {{-- <img class="w-100" src="{{ asset('assets/images/service/6.jpg') }}" alt="Awesome Image"> --}}
-                                <img class="w-100" src="/assets/images/service/FASTENERS-1.webp" alt="Awesome Image">
+                                <img class="w-100" src="/assets/images/service/FASTENERS-1.webp" alt="Awesome Image" loading="lazy">
                             </a>
                         </figure>
                         <div class="p-3">
@@ -686,7 +686,7 @@
                         <figure class="img-holder mb-0">
                             <a href="{{ route('blogs.emerging-trends-in-industrial-piping-for-2025-and-beyond') }}"><img
                                     src="{{ asset('assets/images/blog/emerging-trends-in-industrial-piping-for-2025-and-beyond_11zon_11zon_11zon.webp') }}"
-                                    alt="News"></a>
+                                    alt="News" loading="lazy"></a>
                             <figcaption class="overlay">
                                 <div class="box">
                                     <div class="content">
@@ -721,7 +721,7 @@
                         <figure class="img-holder mb-0">
                             <a href="#"><img
                                     src="{{ asset('/assets/images/blog/indias-stainless-steel-export-industry.webp') }}"
-                                    alt="News"></a>
+                                    alt="News" loading="lazy"></a>
                             <figcaption class="overlay">
                                 <div class="box">
                                     <div class="content">
@@ -754,7 +754,7 @@
                         style="visibility: visible; animation-name: fadeInUp;">
                         <figure class="img-holder mb-0">
                             <a href="#"><img src="{{ asset('assets/images/blog/Untitled.webp') }}"
-                                    alt="News"></a>
+                                    alt="News" loading="lazy"></a>
                             <figcaption class="overlay">
                                 <div class="box">
                                     <div class="content">
