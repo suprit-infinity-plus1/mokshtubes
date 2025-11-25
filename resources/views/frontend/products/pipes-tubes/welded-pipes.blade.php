@@ -2031,7 +2031,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}"
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.webp') }}"
                                     alt="DUPLEX & SUPER">
                             </a>
                         </figure>
@@ -2045,7 +2045,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.titanium') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}"
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.webp') }}"
                                     alt="TITANIUM ALLOYS">
                             </a>
                         </figure>
@@ -2058,7 +2058,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}"
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.webp') }}"
                                     alt="Haynes Superalloys">
                             </a>
                         </figure>
@@ -2071,7 +2071,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.inconel') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}"
+                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.webp') }}"
                                     alt="Inconel">
                             </a>
                         </figure>
