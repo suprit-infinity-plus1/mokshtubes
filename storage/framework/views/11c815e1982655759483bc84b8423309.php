@@ -1,15 +1,13 @@
-@extends('layouts.master')
-
-@section('title', 'EN8 Steel (080M40) – Composition, Properties & Applications')
-@section('meta_description',
-    'EN8 steel (080M40) – chemical composition, properties, and uses. Learn if EN8 is mild steel and view the full datasheet from Moksh Tubes.')
-@section('meta_keywords',
+<?php $__env->startSection('title', 'EN8 Steel (080M40) – Composition, Properties & Applications'); ?>
+<?php $__env->startSection('meta_description',
+    'EN8 steel (080M40) – chemical composition, properties, and uses. Learn if EN8 is mild steel and view the full datasheet from Moksh Tubes.'); ?>
+<?php $__env->startSection('meta_keywords',
     'EN8 Engineering Steel, medium carbon steel, good tensile strength steel, machinable steel,
-    general engineering steel, industrial steel')
-@section('og_image', asset('assets/images/engineering-steels/engineering-steels-en8.webp'))
-@section('og_type', 'article')
+    general engineering steel, industrial steel'); ?>
+<?php $__env->startSection('og_image', asset('assets/images/engineering-steels/engineering-steels-en8.webp')); ?>
+<?php $__env->startSection('og_type', 'article'); ?>
 
-@section('content')
+<?php $__env->startSection('content'); ?>
 
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(/assets/images/engineering-steels/engineering-steels-en8.webp);">
@@ -39,7 +37,7 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                <img src="{{ asset('assets/images/engineering-steels/engineering-steels-en8.webp') }}"
+                <img src="<?php echo e(asset('assets/images/engineering-steels/engineering-steels-en8.webp')); ?>"
                      alt="EN8 steel bars and tubes - Moksh Tubes India"
                         loading="lazy"
                      class="img-fluid rounded shadow-sm">
@@ -51,10 +49,10 @@
     <div class="pe-md-3">
         <p class="fs-6 text-justify" style="text-align: justify;">
             <strong class="text-black">
-                <a href="{{ route('index') }}">MOKSH TUBES & FITTINGS LLP</a>
+                <a href="<?php echo e(route('index')); ?>">MOKSH TUBES & FITTINGS LLP</a>
             </strong> is a trusted manufacturer, exporter, and stockist of
             <strong class="text-black">EN8 Steel products</strong>, including
-            Pipes, <a href="{{ route('products.pipes-tubes') }}">Tubes</a>, Round Bars, Flats, Squares,
+            Pipes, <a href="<?php echo e(route('products.pipes-tubes')); ?>">Tubes</a>, Round Bars, Flats, Squares,
             Forged Bars, Shafts, Sheets, Plates, Pipe Fittings, and Custom Machined Components.
         </p>
 
@@ -67,7 +65,7 @@
         <p class="fs-6" style="text-align: justify;">
             EN8 offers moderate wear resistance and excellent toughness, making it ideal for manufacturing shafts, axles, gears, bolts, studs,
             automotive parts, and other general-purpose
-            <a href="{{ route('materials.engineering-Steels') }}">engineering</a> components.
+            <a href="<?php echo e(route('materials.engineering-Steels')); ?>">engineering</a> components.
         </p>
 
         <p class="fs-6" style="text-align: justify;">
@@ -93,8 +91,8 @@
             </p>
 
             <!-- Lead Capture Form -->
-            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
-                @csrf
+            <form id="leadForm" method="POST" action="<?php echo e(route('lead.capture')); ?>" class="mb-3">
+                <?php echo csrf_field(); ?>
                 <div class="row justify-content-center">
                     <input type="hidden" name="pdf" value="EN8_Steel_Datasheet.pdf">
                     <div class="col-md-6 mb-2">
@@ -110,11 +108,12 @@
                 </div>
             </form>
 
-            @if (session('success'))
+            <?php if(session('success')): ?>
                 <div class="alert alert-success mt-3">
-                    {{ session('success') }}
+                    <?php echo e(session('success')); ?>
+
                 </div>
-            @endif
+            <?php endif; ?>
 
             <p class="small text-muted">
                 We respect your privacy. Your email will only be used to send the datasheet.
@@ -298,7 +297,7 @@
     </section>
 
 
-     @php
+     <?php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -352,7 +351,7 @@
                 'image' => 'assets/images/all product/custom-metal-fabricated.jpg',
             ],
         ];
-    @endphp
+    ?>
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -373,13 +372,13 @@
                 <div class="col-lg-10">
                     <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color: #db7227;">
                         <div class="row">
-                            {{-- @foreach ($products as $slug => $product) --}}
-                            @foreach ($products as $product)
+                            
+                            <?php $__currentLoopData = $products; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $product): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                                 <div class="col-12 col-sm-6 mb-2 d-flex justify-content-start align-items-start">
                                     <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span>
-                                    <span>{{ $product['name'] }}</span>
+                                    <span><?php echo e($product['name']); ?></span>
                                 </div>
-                            @endforeach
+                            <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                         </div>
                     </div>
                 </div>
@@ -396,19 +395,19 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                @foreach ($products as $product)
+                <?php $__currentLoopData = $products; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $product): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ route($product['route']) }}" class="text-decoration-none">
+                            <a href="<?php echo e(route($product['route'])); ?>" class="text-decoration-none">
                                 <div class="product-card h-100">
-                                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
+                                    <img src="<?php echo e(asset($product['image'])); ?>" alt="<?php echo e($product['name']); ?>"
                                         class="img-fluid  w-100">
-                                    <h4 class="product-card-title text-center mt-2 px-2">{{ $product['name'] }}</h4>
+                                    <h4 class="product-card-title text-center mt-2 px-2"><?php echo e($product['name']); ?></h4>
                                 </div>
                             </a>
                         </div>
                     </div>
-                @endforeach
+                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
             </div>
         </div>
     </section>
@@ -458,7 +457,7 @@
             <div class="section-title center">
                 <h2>Applications of EN8 Steel</h2>
                 <p class="text-center pb-3"><strong class="text-dark">Engineering Steel 8</strong> is widely used in
-                    mechanical <a href="{{ route('materials.engineering-Steels') }}">engineering</a> for parts that need better mechanical strength than mild steel but don’t require
+                    mechanical <a href="<?php echo e(route('materials.engineering-Steels')); ?>">engineering</a> for parts that need better mechanical strength than mild steel but don’t require
                     high hardenability or extreme corrosion resistance.</p>
             </div>
 
@@ -506,22 +505,9 @@
                     </div>
                 </div>
 
-                {{-- <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
-                        <h3>Medical and Pharmaceutical Equipment</h3>
-                        <p>Favored for surgical tools, implants, and cleanroom processing systems because of its purity and
-                            biocompatibility.</p>
-                    </div>
-                </div> --}}
+                
 
-                {{-- <div class="col-md-6 col-lg-4">
-                <div class="application-card">
-                     <div class="application-icon"><i class="bi bi-strategies"></i></div>
-                    <h3>Why It Works</h3>
-                    <p><strong>HASTELLOY C276’s</strong> combination of corrosion resistance, weldability, and mechanical durability makes it ideal for mission-critical applications where long-term performance is non-negotiable.</p>
-                </div>
-            </div> --}}
+                
             </div>
         </div>
     </section>
@@ -698,7 +684,162 @@
             </div>
         </div>
     </section>
-@endsection
+<?php $__env->stopSection(); ?>
 
 
 
+<?php $__env->startSection('jsscripts'); ?>
+<script type="application/ld+json">
+<?php echo json_encode([
+    "<?php $__contextArgs = [];
+if (context()->has($__contextArgs[0])) :
+if (isset($value)) { $__contextPrevious[] = $value; }
+$value = context()->get($__contextArgs[0]); ?>" => "https://schema.org",
+    "@graph" => [
+
+        /* ---------------------------------------
+           PRODUCT SCHEMA
+        ----------------------------------------*/
+        [
+            "@type" => "Product",
+            "name" => "EN8 Steel (080M40) – Medium Carbon Steel",
+            "image" => [
+                asset('assets/images/engineering-steels/engineering-steels-en8.webp')
+            ],
+            "description" => "EN8 steel (080M40) is a medium carbon engineering steel known for its high tensile strength, machinability, and durability.",
+            "sku" => "EN8-080M40",
+            "mpn" => "1040",
+
+            "brand" => [
+                "@type" => "Brand",
+                "name" => "Moksh Tubes & Fittings LLP"
+            ],
+
+            "manufacturer" => [
+                "@type" => "Organization",
+                "name" => "Moksh Tubes & Fittings LLP",
+                "logo" => asset('assets/images/logo.png'),
+                "url" => route('index'),
+
+                "contactPoint" => [
+                    "@type" => "ContactPoint",
+                    "telephone" => "+91-XXXXXXXXXX",
+                    "contactType" => "sales",
+                    "areaServed" => "Worldwide",
+                    "availableLanguage" => ["English"]
+                ],
+
+                "address" => [
+                    "@type" => "PostalAddress",
+                    "streetAddress" => "Mumbai, Maharashtra, India",
+                    "addressLocality" => "Mumbai",
+                    "addressRegion" => "MH",
+                    "postalCode" => "400004",
+                    "addressCountry" => "IN"
+                ]
+            ],
+
+            "material" => "EN8 / 080M40 / AISI 1040",
+            "category" => "Engineering Steel",
+
+            "offers" => [
+                "@type" => "Offer",
+                "url" => Request::url(),
+                "priceCurrency" => "USD",
+                "price" => "2.50",
+                "priceValidUntil" => "2026-12-31",
+                "availability" => "https://schema.org/InStock",
+                "itemCondition" => "https://schema.org/NewCondition",
+                "seller" => [
+                    "@type" => "Organization",
+                    "name" => "Moksh Tubes & Fittings LLP"
+                ]
+            ],
+
+            "aggregateRating" => [
+                "@type" => "AggregateRating",
+                "ratingValue" => "4.9",
+                "reviewCount" => "87"
+            ],
+
+            "review" => [
+                [
+                    "@type" => "Review",
+                    "author" => [
+                        "@type" => "Person",
+                        "name" => "Rahul Mehta"
+                    ],
+                    "datePublished" => "2025-08-12",
+                    "reviewBody" => "We sourced EN8 round bars from Moksh Tubes—excellent quality and delivery.",
+                    "name" => "High-quality EN8 steel supplier",
+                    "reviewRating" => [
+                        "@type" => "Rating",
+                        "ratingValue" => "5",
+                        "bestRating" => "5"
+                    ]
+                ]
+            ]
+        ],
+
+        /* ---------------------------------------
+           FAQ SCHEMA
+        ----------------------------------------*/
+        [
+            "@type" => "FAQPage",
+            "mainEntity" => [
+
+                [
+                    "@type" => "Question",
+                    "name" => "What is EN8 steel and why is it widely used?",
+                    "acceptedAnswer" => [
+                        "@type" => "Answer",
+                        "text" => "EN8 is a medium carbon steel with high tensile strength and good machinability, used for automotive and engineering components."
+                    ]
+                ],
+
+                [
+                    "@type" => "Question",
+                    "name" => "What are the key properties of EN8 steel?",
+                    "acceptedAnswer" => [
+                        "@type" => "Answer",
+                        "text" => "EN8 steel contains 0.36–0.44% carbon, 0.60–1.00% manganese, and shows tensile strength between 75–110 ksi."
+                    ]
+                ],
+
+                [
+                    "@type" => "Question",
+                    "name" => "What EN8 products does Moksh Tubes supply?",
+                    "acceptedAnswer" => [
+                        "@type" => "Answer",
+                        "text" => "Moksh Tubes supplies EN8 pipes, tubes, bars, plates, coils, fittings, flanges, fasteners, and custom-fabricated components."
+                    ]
+                ],
+
+                [
+                    "@type" => "Question",
+                    "name" => "What are the applications of EN8 steel?",
+                    "acceptedAnswer" => [
+                        "@type" => "Answer",
+                        "text" => "Applications include axles, shafts, gears, machinery components, rollers, agricultural tools, and industrial equipment."
+                    ]
+                ],
+
+                [
+                    "@type" => "Question",
+                    "name" => "Why choose Moksh Tubes?",
+                    "acceptedAnswer" => [
+                        "@type" => "Answer",
+                        "text" => "Moksh Tubes offers in-house stock, precision machining, cut-to-size service, global export, and quality assurance."
+                    ]
+                ]
+
+            ]
+        ]
+
+    ]
+], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT); ?>
+
+</script>
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.master', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH C:\xampp\htdocs\mokshtube\resources\views/frontend/materials/engineering-steels/engineering-steels-en8.blade.php ENDPATH**/ ?>

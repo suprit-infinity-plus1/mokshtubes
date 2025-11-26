@@ -12,7 +12,6 @@
 @section('og_image', asset('assets/images/engineering-steels/engineering-steels-1055.webp'))
 @section('og_type', 'article')
 
-<link rel="canonical" href="https://mokshtubes.com/materials/engineering-steels/engineering-steels-1055">
 
 
 @section('content')
@@ -101,7 +100,7 @@
                 <div class="col-12 col-md-6 mb-4 mb-md-0 sticky-md-top align-self-start" style="top: 80px;">
                     <img src="{{ asset('assets/images/engineering-steels/engineering-steels-1055.webp') }}"
                         alt="1055 Engineering Steel C1055 EN1055 Medium Carbon Steel" class="img-fluid rounded shadow-sm"
-                        loading="lazy">
+                        loading="lazy" width="500" height="400">
                 </div>
 
 
