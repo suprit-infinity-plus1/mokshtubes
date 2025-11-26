@@ -8,7 +8,7 @@
     titanium tubes, stainless steel fittings, nickel alloy fittings, titanium fittings, seamless pipes, welded pipes,
     high-quality metal pipes, industrial metal tubes, corrosion-resistant pipes, durable metal fittings,
     ISO-certified metal products')
-@section('canonical', 'https://mokshtubes.com')
+@section('canonical', url('/'))
 {{-- OG overrides --}}
 @section('og_image', asset('assets/images/slides/Mokshtubes-banner-desktop.webp'))
 @section('og_type', 'website')
