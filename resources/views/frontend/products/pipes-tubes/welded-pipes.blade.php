@@ -4,11 +4,11 @@
     Europe & Asia. Get a quote now.') <!-- 153 characters -->
 @section('meta_keywords', 'Welded Pipes, ERW Pipes, EFW Pipes, Stainless Steel Welded Pipes, Nickel Alloy Welded Pipes,
     Custom Welded Tubes')
-    @section('og_image', asset('assets/images/peoduct/welded-pipes-tubes.webp'))
+    @section('og_image', asset('assets/images/product/welded-pipes-tubes.webp'))
 @section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/welded-pipes-tubes.webp);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/welded-pipes-tubes.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -29,7 +29,7 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/peoduct/welded-pipes-tubes.webp') }}" alt="Welded Pipes & Tubes"
+                    <img src="{{ asset('assets/images/product/welded-pipes-tubes.webp') }}" alt="Welded Pipes & Tubes"
                         class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
@@ -2005,7 +2005,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}"
+                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
                                     alt="NICKLE ALLOYS">
                             </a>
                         </figure>
@@ -2018,7 +2018,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}"
+                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
                                     alt="STAINLESS STEEL">
                             </a>
                         </figure>
@@ -2031,7 +2031,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.webp') }}"
+                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
                                     alt="DUPLEX & SUPER">
                             </a>
                         </figure>
@@ -2045,7 +2045,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.titanium') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.webp') }}"
+                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
                                     alt="TITANIUM ALLOYS">
                             </a>
                         </figure>
@@ -2058,7 +2058,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.webp') }}"
+                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
                                     alt="Haynes Superalloys">
                             </a>
                         </figure>
@@ -2071,7 +2071,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.inconel') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.webp') }}"
+                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
                                     alt="Inconel">
                             </a>
                         </figure>

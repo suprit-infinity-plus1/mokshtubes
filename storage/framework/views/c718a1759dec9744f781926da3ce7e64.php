@@ -179,11 +179,11 @@ Premium Quality Alloys, Alloy Tubes, Engineering Alloys'); ?>
             </div>
             <div class="col-md-6 text-center">
                 <!-- Desktop Image 600x300 -->
-                <img src="<?php echo e(asset('assets/images/history/our-goal.jpg')); ?>" alt="Large" class="img-fluid d-none d-lg-block">
+                <img src="<?php echo e(asset('assets/images/history/our-goal.webp')); ?>" alt="Large" class="img-fluid d-none d-lg-block">
                 <!-- Tablet Image 400x250 -->
-                <img src="<?php echo e(asset('assets/images/history/our-goal.jpg')); ?>" alt="Tablet" class="img-fluid d-none d-md-block d-lg-none">
+                <img src="<?php echo e(asset('assets/images/history/our-goal.webp')); ?>" alt="Tablet" class="img-fluid d-none d-md-block d-lg-none">
                 <!-- Mobile Image 300x200 -->
-                <img src="<?php echo e(asset('assets/images/history/our-goal.jpg')); ?>" alt="Mobile" class="img-fluid d-block d-md-none mx-auto">
+                <img src="<?php echo e(asset('assets/images/history/our-goal.webp')); ?>" alt="Mobile" class="img-fluid d-block d-md-none mx-auto">
             </div>
         </div>
     </div>

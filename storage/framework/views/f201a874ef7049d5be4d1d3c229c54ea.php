@@ -33,7 +33,7 @@
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
                     <img src="<?php echo e(asset('assets/images/engineering-steels/engineering-steels-4340.webp')); ?>" alt="EN 4340"
-                        class="img-fluid rounded shadow-sm">
+                        class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
                 <!-- Content Right -->
@@ -239,23 +239,23 @@
             [
                 'name' => 'Seamless Pipes',
                 'route' => 'products.pipes-tubes.seamless-pipes',
-                'image' => 'assets/images/all product/seamless-pipes-10.jpg',
+                'image' => 'assets/images/all product/seamless-pipes-10.webp',
             ],
 
             [
                 'name' => 'Welded Pipes (ERW & EFW)',
                 'route' => 'products.pipes-tubes.welded-pipes',
-                'image' => 'assets/images/all product/welded-pipes-tubes-1.jpg',
+                'image' => 'assets/images/all product/welded-pipes-tubes-1.webp',
             ],
             [
                 'name' => 'Tubes (Capillary, U-Bend)',
                 'route' => 'products.pipes-tubes.u-bent-tubes',
-                'image' => 'assets/images/all product/11zon_resized.jpg',
+                'image' => 'assets/images/all product/u-bent-tube.webp',
             ],
             [
                 'name' => 'Sheets & Plates',
                 'route' => 'products.sheets-plates-coils.sheets-and-plates',
-                'image' => 'assets/images/all product/sheets-plates.jpg',
+                'image' => 'assets/images/all product/sheets-plates.webp',
             ],
             [
                 'name' => 'Coils & Strips',
@@ -280,12 +280,12 @@
             [
                 'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
                 'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
-                'image' => 'assets/images/all product/FASTENERS-1.png',
+                'image' => 'assets/images/all product/FASTENERS.webp',
             ],
             [
                 'name' => 'Custom Fabricated Components',
                 'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
-                'image' => 'assets/images/all product/custom-metal-fabricated.jpg',
+                'image' => 'assets/images/all product/custom-metal-fabricated.webp',
             ],
         ];
     ?>
@@ -620,56 +620,57 @@
 
 <?php $__env->stopSection(); ?>
 <?php $__env->startSection('jsscripts'); ?>
-<script type="application/ld+json">
-    
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is EN 4340 steel and why is it used in industries?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "EN 4340 is a high strength, low-alloy steel containing nickel, chromium, and molybdenum, which provide superior toughness, hardenability, and wear resistance. Known for its excellent fatigue strength and ability to perform under high stress, 4340 is widely used in aerospace, automotive, oil and gas, and heavy machinery industries where strength, impact resistance, and durability are critical."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the key chemical and mechanical properties of EN 4340 steel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "EN 4340 steel has a chemical composition that includes 0.38–0.43% carbon, 1.65–2.00% nickel, 0.70–0.90% chromium, and 0.20–0.30% molybdenum, along with manganese, silicon, phosphorus, and sulfur in controlled amounts. It exhibits tensile strength between 930–1080 MPa, yield strength of 745–930 MPa, elongation of 12–16%, and hardness of 28–34 HRC. With excellent impact toughness and fatigue resistance, EN 4340 provides outstanding performance in demanding environments."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What EN 4340 steel products are supplied by MOKSH TUBES & FITTINGS LLP?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MOKSH TUBES & FITTINGS LLP offers a wide range of EN 4340 steel products including seamless and welded pipes, tubes, sheets, plates, coils, strips, round bars, hex bars, flat bars, square bars, pipe fittings, flanges, fasteners, and custom-fabricated components. All products are manufactured to meet international quality standards and can be supplied in both standard and customized dimensions to suit industry-specific requirements."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the major applications of EN 4340 steel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "EN 4340 steel is extensively used in aerospace and defense for aircraft landing gear, structural parts, and high-strength fasteners. In the automotive industry, it is applied in crankshafts, axles, gears, and drive shafts exposed to heavy loads. Heavy machinery and industrial equipment use EN 4340 for shafts, bolts, and connecting rods requiring durability and fatigue resistance, while the oil and gas industry applies it in drill collars, valve components, and high-pressure equipment."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why choose MOKSH TUBES & FITTINGS LLP for EN 4340 steel materials?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MOKSH TUBES & FITTINGS LLP is a trusted global supplier and exporter of EN 4340 alloy steel with a comprehensive stock in multiple forms and sizes. The company provides customized cutting, forging, and processing services backed by expert technical support. With stringent quality control, international certifications, reliable worldwide deliveries, and competitive pricing, MOKSH TUBES & FITTINGS LLP ensures superior EN 4340 steel solutions tailored to diverse industrial needs."
-      }
-    }
-  ]
-}
-
-</script>
+    <script type="application/ld+json">
+        
+                {
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                    "@type": "Question",
+                    "name": "What is EN 4340 steel and why is it used in industries?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "EN 4340 is a high strength, low-alloy steel containing nickel, chromium, and molybdenum, which provide superior toughness, hardenability, and wear resistance. Known for its excellent fatigue strength and ability to perform under high stress, 4340 is widely used in aerospace, automotive, oil and gas, and heavy machinery industries where strength, impact resistance, and durability are critical."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "What are the key chemical and mechanical properties of EN 4340 steel?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "EN 4340 steel has a chemical composition that includes 0.38–0.43% carbon, 1.65–2.00% nickel, 0.70–0.90% chromium, and 0.20–0.30% molybdenum, along with manganese, silicon, phosphorus, and sulfur in controlled amounts. It exhibits tensile strength between 930–1080 MPa, yield strength of 745–930 MPa, elongation of 12–16%, and hardness of 28–34 HRC. With excellent impact toughness and fatigue resistance, EN 4340 provides outstanding performance in demanding environments."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "What EN 4340 steel products are supplied by MOKSH TUBES & FITTINGS LLP?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "MOKSH TUBES & FITTINGS LLP offers a wide range of EN 4340 steel products including seamless and welded pipes, tubes, sheets, plates, coils, strips, round bars, hex bars, flat bars, square bars, pipe fittings, flanges, fasteners, and custom-fabricated components. All products are manufactured to meet international quality standards and can be supplied in both standard and customized dimensions to suit industry-specific requirements."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "What are the major applications of EN 4340 steel?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "EN 4340 steel is extensively used in aerospace and defense for aircraft landing gear, structural parts, and high-strength fasteners. In the automotive industry, it is applied in crankshafts, axles, gears, and drive shafts exposed to heavy loads. Heavy machinery and industrial equipment use EN 4340 for shafts, bolts, and connecting rods requiring durability and fatigue resistance, while the oil and gas industry applies it in drill collars, valve components, and high-pressure equipment."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "Why choose MOKSH TUBES & FITTINGS LLP for EN 4340 steel materials?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "MOKSH TUBES & FITTINGS LLP is a trusted global supplier and exporter of EN 4340 alloy steel with a comprehensive stock in multiple forms and sizes. The company provides customized cutting, forging, and processing services backed by expert technical support. With stringent quality control, international certifications, reliable worldwide deliveries, and competitive pricing, MOKSH TUBES & FITTINGS LLP ensures superior EN 4340 steel solutions tailored to diverse industrial needs."
+                    }
+                    }
+                ]
+                }
+        
+            
+    </script>
 <?php $__env->stopSection(); ?>
 
 <?php echo $__env->make('layouts.master', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH C:\xampp\htdocs\mokshtube\resources\views/frontend/materials/engineering-steels/engineering-steels-4340.blade.php ENDPATH**/ ?>

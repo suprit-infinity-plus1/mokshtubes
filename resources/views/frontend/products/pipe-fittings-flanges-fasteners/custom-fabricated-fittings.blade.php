@@ -4,7 +4,7 @@
     duplex, nickel & titanium alloys per ASTM & ASME standards.') <!-- 153 characters -->
 @section('meta_keywords', 'Custom Fabricated Fittings, Industrial Fittings, Stainless Steel Fittings, Alloy Fittings,
     Duplex Fittings, Titanium Fittings, Nickel Fittings, ASTM/ASME Fittings')
-@section('og_image', asset('assets/images/peoduct/flangs/custom-fabricated-fittings.jpeg'))
+@section('og_image', asset('assets/images/product/flangs/custom-fabricated-fittings.webp'))
 @section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
@@ -516,7 +516,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}"
+                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
                                     alt="NICKLE ALLOYS">
                             </a>
                         </figure>
@@ -529,7 +529,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}"
+                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
                                     alt="STAINLESS STEEL">
                             </a>
                         </figure>
@@ -542,7 +542,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}"
+                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
                                     alt="DUPLEX & SUPER">
                             </a>
                         </figure>
@@ -556,7 +556,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.titanium') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}"
+                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
                                     alt="TITANIUM ALLOYS">
                             </a>
                         </figure>
@@ -569,7 +569,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}"
+                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
                                     alt="Haynes Superalloys">
                             </a>
                         </figure>
@@ -582,7 +582,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.inconel') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}"
+                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
                                     alt="Inconel">
                             </a>
                         </figure>

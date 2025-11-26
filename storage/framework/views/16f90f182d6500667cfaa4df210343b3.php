@@ -3,11 +3,11 @@
     Europe & Asia. Get a quote now.'); ?> <!-- 153 characters -->
 <?php $__env->startSection('meta_keywords', 'Welded Pipes, ERW Pipes, EFW Pipes, Stainless Steel Welded Pipes, Nickel Alloy Welded Pipes,
     Custom Welded Tubes'); ?>
-    <?php $__env->startSection('og_image', asset('assets/images/peoduct/welded-pipes-tubes.webp')); ?>
+    <?php $__env->startSection('og_image', asset('assets/images/product/welded-pipes-tubes.webp')); ?>
 <?php $__env->startSection('og_type', 'article'); ?>
 <?php $__env->startSection('content'); ?>
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/welded-pipes-tubes.webp);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/welded-pipes-tubes.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -28,8 +28,8 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="<?php echo e(asset('assets/images/peoduct/welded-pipes-tubes.webp')); ?>" alt="Welded Pipes & Tubes"
-                        class="img-fluid rounded shadow-sm">
+                    <img src="<?php echo e(asset('assets/images/product/welded-pipes-tubes.webp')); ?>" alt="Welded Pipes & Tubes"
+                        class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
                 <!-- Right Content -->
@@ -2004,7 +2004,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="<?php echo e(route('materials.nickel-Based-Superalloys')); ?>">
-                                <img class="w-100" src="<?php echo e(asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg')); ?>"
+                                <img class="w-100" src="<?php echo e(asset('assets/images/product/NICKLE-ALLOYS.webp')); ?>"
                                     alt="NICKLE ALLOYS">
                             </a>
                         </figure>
@@ -2017,7 +2017,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="<?php echo e(route('materials.austenitic-stainless-Steel')); ?>">
-                                <img class="w-100" src="<?php echo e(asset('assets/images/peoduct/STAINLESS-STEEL.jpeg')); ?>"
+                                <img class="w-100" src="<?php echo e(asset('assets/images/product/STAINLESS-STEEL.webp')); ?>"
                                     alt="STAINLESS STEEL">
                             </a>
                         </figure>
@@ -2030,7 +2030,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="<?php echo e(route('materials.duplex-and-super-duplex')); ?>">
-                                <img class="w-100" src="<?php echo e(asset('assets/images/peoduct/DUPLEX-SUPER.png')); ?>"
+                                <img class="w-100" src="<?php echo e(asset('assets/images/product/DUPLEX-SUPER.webp')); ?>"
                                     alt="DUPLEX & SUPER">
                             </a>
                         </figure>
@@ -2044,7 +2044,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="<?php echo e(route('materials.titanium')); ?>">
-                                <img class="w-100" src="<?php echo e(asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg')); ?>"
+                                <img class="w-100" src="<?php echo e(asset('assets/images/product/TITANIUM-ALLOYS.webp')); ?>"
                                     alt="TITANIUM ALLOYS">
                             </a>
                         </figure>
@@ -2057,7 +2057,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="<?php echo e(route('materials.haynes-Superalloys')); ?>">
-                                <img class="w-100" src="<?php echo e(asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg')); ?>"
+                                <img class="w-100" src="<?php echo e(asset('assets/images/product/RARE-TO-ALLOYS.webp')); ?>"
                                     alt="Haynes Superalloys">
                             </a>
                         </figure>
@@ -2070,7 +2070,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="<?php echo e(route('materials.inconel')); ?>">
-                                <img class="w-100" src="<?php echo e(asset('assets/images/peoduct/CARBON-ALLOYS.jpg')); ?>"
+                                <img class="w-100" src="<?php echo e(asset('assets/images/product/CARBON-ALLOYS.webp')); ?>"
                                     alt="Inconel">
                             </a>
                         </figure>
@@ -2566,56 +2566,57 @@
 
 <?php $__env->stopSection(); ?>
 <?php $__env->startSection('jsscripts'); ?>
-<script type="application/ld+json">
-    
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are welded pipes and tubes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Welded pipes and tubes are manufactured by rolling a metal plate or strip into a cylindrical shape and welding the seam. They are widely used in industrial piping systems, structural applications, and fluid transportation due to their strength, precision, and cost-effectiveness."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which materials are used for manufacturing welded pipes and tubes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Welded pipes and tubes are available in various materials such as Stainless Steel (304, 316, 310), Carbon Steel, Alloy Steel, Duplex & Super Duplex, Copper Alloys, Titanium, and Nickel Alloys. The choice depends on the required corrosion resistance, temperature, and pressure conditions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the advantages of welded pipes compared to seamless pipes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Welded pipes offer several advantages including uniform wall thickness, larger size availability, and lower production costs. They are ideal for applications with moderate pressure and temperature requirements. Additionally, welded pipes provide excellent surface finish and dimensional accuracy."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What industries commonly use welded pipes and tubes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Welded pipes and tubes are used across multiple industries including oil & gas, petrochemical, power generation, water treatment, marine, construction, and food & pharmaceutical sectors. Their versatility makes them suitable for both fluid transport and structural applications."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What types of welded pipes and tubes are supplied by Moksh Tubes & Fittings LLP?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Moksh Tubes & Fittings LLP offers a comprehensive range of welded pipes and tubes such as ERW (Electric Resistance Welded) Pipes & Tubes, EFW (Electric Fusion Welded) Pipes, LSAW (Longitudinal Submerged Arc Welded) Pipes, Spiral Welded Pipes, Heat Exchanger & Condenser Tubes, and Custom Fabricated Welded Tubing. All products are manufactured and tested according to ASTM, ASME, DIN, and EN standards."
-      }
-    }
-  ]
-}
-
-</script>
+    <script type="application/ld+json">
+        
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What are welded pipes and tubes?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Welded pipes and tubes are manufactured by rolling a metal plate or strip into a cylindrical shape and welding the seam. They are widely used in industrial piping systems, structural applications, and fluid transportation due to their strength, precision, and cost-effectiveness."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Which materials are used for manufacturing welded pipes and tubes?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Welded pipes and tubes are available in various materials such as Stainless Steel (304, 316, 310), Carbon Steel, Alloy Steel, Duplex & Super Duplex, Copper Alloys, Titanium, and Nickel Alloys. The choice depends on the required corrosion resistance, temperature, and pressure conditions."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the advantages of welded pipes compared to seamless pipes?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Welded pipes offer several advantages including uniform wall thickness, larger size availability, and lower production costs. They are ideal for applications with moderate pressure and temperature requirements. Additionally, welded pipes provide excellent surface finish and dimensional accuracy."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What industries commonly use welded pipes and tubes?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Welded pipes and tubes are used across multiple industries including oil & gas, petrochemical, power generation, water treatment, marine, construction, and food & pharmaceutical sectors. Their versatility makes them suitable for both fluid transport and structural applications."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What types of welded pipes and tubes are supplied by Moksh Tubes & Fittings LLP?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Moksh Tubes & Fittings LLP offers a comprehensive range of welded pipes and tubes such as ERW (Electric Resistance Welded) Pipes & Tubes, EFW (Electric Fusion Welded) Pipes, LSAW (Longitudinal Submerged Arc Welded) Pipes, Spiral Welded Pipes, Heat Exchanger & Condenser Tubes, and Custom Fabricated Welded Tubing. All products are manufactured and tested according to ASTM, ASME, DIN, and EN standards."
+                }
+                }
+            ]
+            }
+        
+        
+    </script>
 <?php $__env->stopSection(); ?>
 
 <?php echo $__env->make('layouts.master', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH C:\xampp\htdocs\mokshtube\resources\views/frontend/products/pipes-tubes/welded-pipes.blade.php ENDPATH**/ ?>

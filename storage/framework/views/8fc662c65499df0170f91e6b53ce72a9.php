@@ -3,7 +3,7 @@
     duplex, nickel & titanium alloys per ASTM & ASME standards.'); ?> <!-- 153 characters -->
 <?php $__env->startSection('meta_keywords', 'Custom Fabricated Fittings, Industrial Fittings, Stainless Steel Fittings, Alloy Fittings,
     Duplex Fittings, Titanium Fittings, Nickel Fittings, ASTM/ASME Fittings'); ?>
-<?php $__env->startSection('og_image', asset('assets/images/peoduct/flangs/custom-fabricated-fittings.jpeg')); ?>
+<?php $__env->startSection('og_image', asset('assets/images/product/flangs/custom-fabricated-fittings.webp')); ?>
 <?php $__env->startSection('og_type', 'article'); ?>
 <?php $__env->startSection('content'); ?>
     <!--Start breadcrumb area-->
@@ -515,7 +515,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="<?php echo e(route('materials.nickel-Based-Superalloys')); ?>">
-                                <img class="w-100" src="<?php echo e(asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg')); ?>"
+                                <img class="w-100" src="<?php echo e(asset('assets/images/product/NICKLE-ALLOYS.webp')); ?>"
                                     alt="NICKLE ALLOYS">
                             </a>
                         </figure>
@@ -528,7 +528,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="<?php echo e(route('materials.austenitic-stainless-Steel')); ?>">
-                                <img class="w-100" src="<?php echo e(asset('assets/images/peoduct/STAINLESS-STEEL.jpeg')); ?>"
+                                <img class="w-100" src="<?php echo e(asset('assets/images/product/STAINLESS-STEEL.webp')); ?>"
                                     alt="STAINLESS STEEL">
                             </a>
                         </figure>
@@ -541,7 +541,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="<?php echo e(route('materials.duplex-and-super-duplex')); ?>">
-                                <img class="w-100" src="<?php echo e(asset('assets/images/peoduct/DUPLEX-SUPER.png')); ?>"
+                                <img class="w-100" src="<?php echo e(asset('assets/images/product/DUPLEX-SUPER.webp')); ?>"
                                     alt="DUPLEX & SUPER">
                             </a>
                         </figure>
@@ -555,7 +555,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="<?php echo e(route('materials.titanium')); ?>">
-                                <img class="w-100" src="<?php echo e(asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg')); ?>"
+                                <img class="w-100" src="<?php echo e(asset('assets/images/product/TITANIUM-ALLOYS.webp')); ?>"
                                     alt="TITANIUM ALLOYS">
                             </a>
                         </figure>
@@ -568,7 +568,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="<?php echo e(route('materials.haynes-Superalloys')); ?>">
-                                <img class="w-100" src="<?php echo e(asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg')); ?>"
+                                <img class="w-100" src="<?php echo e(asset('assets/images/product/RARE-TO-ALLOYS.webp')); ?>"
                                     alt="Haynes Superalloys">
                             </a>
                         </figure>
@@ -581,7 +581,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="<?php echo e(route('materials.inconel')); ?>">
-                                <img class="w-100" src="<?php echo e(asset('assets/images/peoduct/CARBON-ALLOYS.jpg')); ?>"
+                                <img class="w-100" src="<?php echo e(asset('assets/images/product/CARBON-ALLOYS.webp')); ?>"
                                     alt="Inconel">
                             </a>
                         </figure>

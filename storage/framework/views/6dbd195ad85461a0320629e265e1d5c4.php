@@ -1,7 +1,7 @@
 <?php $__env->startSection('title', 'Duplex & Super Duplex Steels | MokshTubes'); ?>
 <?php $__env->startSection('meta_description', 'Explore Duplex & Super Duplex stainless steels like S31803, 2205, 2507 & S32760—known for strength, corrosion resistance & durability.'); ?>
 <?php $__env->startSection('meta_keywords', 'Engineering steels, EN8 steel, EN19 steel, 1045 steel, 4140 steel, high strength steel, tough steel, industrial alloy steel, mechanical steel'); ?>
-<?php $__env->startSection('og_image', asset('assets/images/product/duplex-banner.jpg')); ?>
+<?php $__env->startSection('og_image', asset('assets/images/product/duplex-banner.webp')); ?>
 <?php $__env->startSection('og_type', 'article'); ?>
 <?php $__env->startSection('content'); ?>
 

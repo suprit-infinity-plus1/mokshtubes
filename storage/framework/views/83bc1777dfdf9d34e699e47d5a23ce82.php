@@ -68,7 +68,7 @@
         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
              style="border-color: #db7227; transition: 0.3s;">
             
-            <img src="<?php echo e(asset($type['image'] ?? 'assets/images/default.jpg')); ?>"
+            <img src="<?php echo e(asset($type['image'] ?? 'assets/images/default.webp')); ?>"
                  alt="<?php echo e($type['name']); ?>"
                  class="img-fluid rounded mb-3"
                  style="border-radius: 8px;">

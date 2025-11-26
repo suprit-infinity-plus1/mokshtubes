@@ -1,7 +1,7 @@
 <?php $__env->startSection('title', 'Copper Alloys: CU-Ni, Brass, Bronze | MokshTubes'); ?>
 <?php $__env->startSection('meta_description', 'Discover premium copper alloys including CU-Ni, brass, bronze, and beryllium copper at MokshTubes, with excellent durability and corrosion resistance.'); ?>
 <?php $__env->startSection('meta_keywords', 'Copper alloys, CU-Ni, brass, bronze, beryllium copper, corrosion resistant copper, high conductivity copper, durable copper alloys, marine copper alloy, industrial copper alloy'); ?>
-<?php $__env->startSection('og_image', asset('assets/images/copper-alloys/copper-alloys-banner.png')); ?>
+<?php $__env->startSection('og_image', asset('assets/images/copper-alloys/copper-alloys-banner.webp')); ?>
 <?php $__env->startSection('og_type', 'article'); ?>
 <?php $__env->startSection('content'); ?>
 

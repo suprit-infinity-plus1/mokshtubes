@@ -319,7 +319,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="<?php echo e(route('products.sheets-plates-coils.perforated-sheets')); ?>">
-                                <img src="/assets/images/service/PERFORATED-SHEETS.jpg" alt="Perforated Sheets"
+                                <img src="/assets/images/service/PERFORATED-SHEETS.webp" alt="Perforated Sheets"
                                     class="w-100">
                             </a>
                         </figure>
@@ -338,7 +338,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="<?php echo e(route('products.bars-rods.round-bars')); ?>">
-                                <img class="w-100" src="/assets/images/service/ROUND-BARS.jpg" alt="Awesome Image">
+                                <img class="w-100" src="/assets/images/service/ROUND-BARS.webp" alt="round bars">
                             </a>
                         </figure>
                         <div class="p-3">

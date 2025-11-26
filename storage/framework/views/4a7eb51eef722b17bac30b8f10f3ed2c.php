@@ -5,7 +5,7 @@
     Rods, Alloy Bars, Duplex Bars'); ?>
 <?php $__env->startSection('content'); ?>
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/Bars-&-Rods/square-bars.webp);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/Bars-&-Rods/square-bars.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -29,32 +29,32 @@
                         [
                             'name' => 'Square Bars',
                             'slug' => 'square-bars',
-                            'image' => 'assets/images/peoduct/Bars-&-Rods/square-bars.webp',
+                            'image' => 'assets/images/product/Bars-&-Rods/square-bars.webp',
                         ],
                         [
                             'name' => 'Threaded Rods',
                             'slug' => 'threaded-rods',
-                            'image' => 'assets/images/peoduct/Bars-&-Rods/threaded-rods.webp',
+                            'image' => 'assets/images/product/Bars-&-Rods/threaded-rods.webp',
                         ],
                         [
                             'name' => 'Round Bars',
                             'slug' => 'round-bars',
-                            'image' => 'assets/images/peoduct/Bars-&-Rods/round-bars.webp',
+                            'image' => 'assets/images/product/Bars-&-Rods/round-bars.webp',
                         ],
                         [
                             'name' => 'Hollow Bars',
                             'slug' => 'hollow-bars',
-                            'image' => 'assets/images/peoduct/Hollow-Bars.jpeg',
+                            'image' => 'assets/images/product/Hollow-Bars.webp',
                         ],
                         [
                             'name' => 'Hexagon Bars',
                             'slug' => 'hexagon-bars',
-                            'image' => 'assets/images/peoduct/Hexagon-Bars.jpg',
+                            'image' => 'assets/images/product/Hexagon-Bars.webp',
                         ],
                         [
                             'name' => 'Flat Bars',
                             'slug' => 'flat-bars',
-                            'image' => 'assets/images/peoduct/Flat-Bars.jpg',
+                            'image' => 'assets/images/product/Flat-Bars.webp',
                         ],
                     ];
                 ?>
@@ -65,7 +65,7 @@
         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
              style="border-color: #db7227; transition: 0.3s;">
 
-            <img src="<?php echo e(asset($type['image'] ?? 'assets/images/default.jpg')); ?>"
+            <img src="<?php echo e(asset($type['image'] ?? 'assets/images/default.webp')); ?>"
                  alt="<?php echo e($type['name']); ?>"
                  class="img-fluid rounded mb-3"
                  style="border-radius: 8px;">

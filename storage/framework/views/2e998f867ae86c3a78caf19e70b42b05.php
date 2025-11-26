@@ -1,0 +1,730 @@
+<?php $__env->startSection('title', 'Copper Nickel Cu-Ni 90/10 | Marine & Seawater Alloy'); ?>
+
+<?php $__env->startSection('meta_description', 'Copper Nickel Alloy 90/10 (Cu-Ni) offers outstanding corrosion resistance, durability, and strength for seawater, marine, and offshore applications.'); ?>
+
+<?php $__env->startSection('meta_keywords', 'Copper Nickel 90/10, Cu-Ni 90/10 Alloy, Copper Nickel Marine Alloy, Seawater Resistant Copper Nickel, Corrosion Resistant Cu-Ni 90/10, Durable Copper Nickel Alloy, Industrial Copper Nickel'); ?>
+<?php $__env->startSection('og_image', asset('assets/images/copper-alloys/copper-alloys-cu-ni-90_10.webp')); ?>
+<?php $__env->startSection('og_type', 'article'); ?>
+<?php $__env->startSection('content'); ?>
+
+    <!--Start breadcrumb area-->
+    <section class="breadcrumb-area" style="background-image: url(images/background/3.webp);">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-auto text-center">
+                    <h1>Copper Nickel Alloy 90/10 (Cu-Ni) <br> Marine Grade</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--End breadcrumb area-->
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Copper Alloys CU-NI 90/10 | Product Overview</h2>
+            </div>
+
+            <h2 class="fw-semibold text-center mb-5" style="color: #db7227;">
+                Introduction To Copper Alloys CU-NI 90/10 / UNS C70600 / CW352H
+            </h2>
+
+            <div class="row align-items-center">
+                <!-- Image Left -->
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <img src="<?php echo e(asset('assets/images/copper-alloys/copper-alloys-cu-ni-90_10.webp')); ?>"alt="Copper Alloys 90/10"
+                        class="img-fluid rounded shadow-sm" loading="lazy">
+                </div>
+
+                <!-- Content Right -->
+                <div class="col-md-6">
+                    <div class="pe-md-3">
+                        <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
+                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted manufacturer,
+                            supplier, exporter, importer, and stockist of<strong class="text-black"> Copper Nickel 90/10
+                                (UNS C70600 / CW352H)
+                                <a href="<?php echo e(route('products')); ?>">products</a></strong>. We supply a comprehensive range
+                            including Seamless & Welded Pipes and Tubes, Plates,
+                            Sheets, Rods, Bars, Pipe Fittings, Flanges, Wires, Fasteners, and Custom Engineered Components.
+
+                        <p class="fs-6" style="text-align: justify;">
+                            <strong class="text-black"><a href="<?php echo e(route('materials.copper-Alloys')); ?>">Copper Alloys
+                                    CU-NI 90/10</a></strong>, is a corrosion-resistant alloy known for its excellent
+                            performance in marine and seawater environments. It offers strong resistance to biofouling,
+                            erosion, and stress corrosion cracking. With good mechanical strength, weldability, and thermal
+                            stability, CU-NI 90/10 is ideal for shipbuilding, desalination plants, power generation,
+                            offshore oil & gas systems, and heat exchanger applications.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-padd-bottom bg-light">
+        <div class="datasheet-download px-4 text-center">
+            <h3 class="mb-3" style="color:#174268;">Download Copper Alloys CU-NI 90/10 Datasheet</h3>
+            <p class="mb-3">
+                Get the complete Copper Alloys CU-NI 90/10 datasheet with chemical composition,
+                mechanical properties, heat treatment details, and applications.
+                Enter your email to receive the PDF instantly.
+            </p>
+
+            <!-- Lead Capture Form -->
+            <form id="leadForm" method="POST" action="https://mokshtubes.com/datasheet-leads-capture" class="mb-3">
+                <input type="hidden" name="_token" value="WNVWvpO4YR2OqZaIJDl2mE3UfyreGys3Vp19brsc" autocomplete="off">
+                <div class="row justify-content-center">
+                    <input type="hidden" name="pdf" value="haynes-242.pdf">
+                    <div class="col-md-6 mb-2">
+                        <input type="email" name="email" required="" class="form-control p-3" placeholder="Enter your email address">
+                    </div>
+                    <div class="col-md-3 mb-2">
+                        <button type="submit" class="btn btn-lg w-100 text-white" style="background-color:#db7227; border-radius:8px;">
+                            📥 Get Datasheet
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+            
+            <p class="small text-muted">
+                We respect your privacy. Your email will only be used to send the datasheet.
+            </p>
+        </div>
+    </section>
+    <section class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Element</th>
+                                    <th>Composition (%)</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr class="t-row">
+                                    <td>Copper</td>
+                                    <td>Balance</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Nickel</td>
+                                    <td>9.0 – 11.0</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Iron</td>
+                                    <td>1.0 – 1.8</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Manganese</td>
+                                    <td>1.0 max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Zinc</td>
+                                    <td>1.0 max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Lead</td>
+                                    <td>0.05 max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Others</td>
+                                    <td>0.50 max (total)</td>
+                                </tr>
+                                
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+            </div>
+
+            <!-- Physical Properties Table -->
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Property</th>
+                                    <th>Imperial</th>
+                                    <th>Metric</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr class="t-row">
+                                    <td>Density</td>
+                                    <td>0.323 lb/in³</td>
+                                    <td>8.94 g/cm³</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Melting Point</td>
+                                    <td>2260 – 2370 °F</td>
+                                    <td>1240 – 1300 °C</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Thermal Conductivity</td>
+                                    <td>26 Btu/ft·hr·°F</td>
+                                    <td>45 W/m·K</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Electrical Resistivity</td>
+                                    <td>207 ohm·cmil/ft</td>
+                                    <td>0.345 µΩ·m</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Specific Heat Capacity</td>
+                                    <td>0.09 Btu/lb·°F</td>
+                                    <td>0.38 J/g·K</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Coefficient of Expansion</td>
+                                    <td>9.8 x 10⁻⁶ /°F</td>
+                                    <td>17.6 x 10⁻⁶ /°C</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mechanical Properties Table -->
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Property</th>
+                                    <th>Annealed</th>
+                                    <th>Cold-Drawn / Tubing</th>
+                                    <th>Rod / General Use</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr class="t-row">
+                                    <td>Tensile Strength (ksi / MPa)</td>
+                                    <td>300–414 MPa (44–60 ksi)</td>
+                                    <td>345–485 MPa (50–70 ksi) proof strength for tubing</td>
+                                    <td>310–480 MPa (45–70 ksi)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Yield Strength (0.2%) (ksi / MPa)</td>
+                                    <td>100–300 MPa (15–43 ksi)</td>
+                                    <td>Same as above: 345 MPa (50 ksi) (tubing)</td>
+                                    <td>105–240 MPa (15–35 ksi)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Elongation (%)</td>
+                                    <td>42% typical</td>
+                                    <td>—</td>
+                                    <td>25–35% (rod)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Brinell Hardness (HB) </td>
+                                    <td>70–120 HB</td>
+                                    <td>70–120 HB (tubing)</td>
+                                    <td>—</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Rockwell Hardness (B)</td>
+                                    <td>R290 (70–110 HB)</td>
+                                    <td>H08/H06/H04 spring temp up to 87–91 B</td>
+                                    <td>—</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+     <?php
+        $products = [
+            [
+                'name' => 'Seamless Pipes',
+                'route' => 'products.pipes-tubes.seamless-pipes',
+                'image' => 'assets/images/all product/seamless-pipes-10.webp',
+            ],
+
+            [
+                'name' => 'Welded Pipes (ERW & EFW)',
+                'route' => 'products.pipes-tubes.welded-pipes',
+                'image' => 'assets/images/all product/welded-pipes-tubes-1.webp',
+            ],
+            [
+                'name' => 'Tubes (Capillary, U-Bend)',
+                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'image' => 'assets/images/all product/u-bent-tube.webp',
+            ],
+            [
+                'name' => 'Sheets & Plates',
+                'route' => 'products.sheets-plates-coils.sheets-and-plates',
+                'image' => 'assets/images/all product/sheets-plates.webp',
+            ],
+            [
+                'name' => 'Coils & Strips',
+                'route' => 'products.sheets-plates-coils.strips',
+                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.webp',
+            ],
+            [
+                'name' => 'Round Bars, Flat Bars, Hex Bars, Square Bars',
+                'route' => 'products.bars-rods',
+                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
+            ],
+            [
+                'name' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
+                'route' => 'products.pipe-fittings-flanges-fasteners.pipe-fittings',
+                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
+            ],
+            [
+                'name' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
+                'route' => 'products.pipe-fittings-flanges-fasteners.flanges-and-gaskets',
+                'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
+            ],
+            [
+                'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
+                'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
+                'image' => 'assets/images/all product/FASTENERS.webp',
+            ],
+            [
+                'name' => 'Custom Fabricated Components',
+                'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
+                'image' => 'assets/images/all product/custom-metal-fabricated.webp',
+            ],
+        ];
+    ?>
+
+    <section class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Products in Copper Alloys CU-NI 90/10</h2>
+            </div>
+            <!-- Highlighted Paragraph -->
+            <div class="row justify-content-center mb-4" style="text-align: justify;">
+                <div class="col-lg-10">
+                    <p class="fs-6">
+                        <strong class="text-dark">Copper Alloys CU-NI 90/10</strong> is available in:
+                    </p>
+                </div>
+            </div>
+
+            <!-- Horizontal Styled Product List -->
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-10">
+                    <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color: #db7227;">
+                        <div class="row">
+                            
+                            <?php $__currentLoopData = $products; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $product): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                                <div class="col-12 col-sm-6 mb-2 d-flex justify-content-start align-items-start">
+                                    <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span>
+                                    <span><?php echo e($product['name']); ?></span>
+                                </div>
+                            <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Emphasized Line -->
+            <div class="row justify-content-center mb-3">
+                <div class="col-lg-10">
+                    <p class="fw-bold fs-5 text-center my-4" style="color: #174268;">
+                        Copper Alloys CU-NI 90/10 products are produced to the following global standards:
+                    </p>
+                </div>
+            </div>
+
+            <!-- Product Image Cards (Now centered and responsive) -->
+            <div class="row g-4">
+                <?php $__currentLoopData = $products; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $product): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
+                        <div class="mx-auto" style="width: 100%; max-width: 300px;">
+                            <a href="<?php echo e(route($product['route'])); ?>" class="text-decoration-none">
+                                <div class="product-card h-100">
+                                    <img src="<?php echo e(asset($product['image'])); ?>" alt="<?php echo e($product['name']); ?>"
+                                        class="img-fluid  w-100">
+                                    <h6 class="product-card-title text-center mt-2 px-2"><?php echo e($product['name']); ?></h6>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Uses and Advantages</h2>
+            </div>
+
+            <div class="row g-4 mt-4 justify-content-center">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h5>Performs exceptionally in seawater, brine, and salt-laden environments.</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
+                        <h5>Excellent material for flow systems exposed to turbulent or high-velocity fluids.
+                        </h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
+                        <h5>Suitable for brazing, soldering, and welding using common processes.</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
+                        <h5>Reliable mechanical properties retained over a wide range of pressures and temperatures.</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
+                        <h5>Supports heat transfer applications like condensers, evaporators, and water heaters.</h5>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <section class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Applications of Copper Alloys CU-NI 90/10</h2>
+                <p class="text-center pb-3"><strong class="text-dark">Copper Alloys CU-NI 90/10</strong> is widely used in
+                    marine, industrial, and thermal transfer systems where strength and corrosion resistance are critical:
+                </p>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
+                        <h5>Marine & Shipbuilding</h5>
+                        <p>Seawater piping, cooling systems, hull cladding, condensers, water intakes, propeller sleeves.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
+                        <h5>Heat Exchangers & Condensers</h5>
+                        <p>Tubes and shells in desalination, power plants, HVAC, and oil refineries.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
+                        <h5>Offshore Oil & Gas</h5>
+                        <p>Seawater injection systems, firewater systems, pump components.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-droplet"></i></div>
+                        <h5>Power Generation</h5>
+                        <p>Feedwater heaters, brine heaters, and cooler components in thermal and nuclear plants.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
+                        <h5>Desalination & Water Treatment</h5>
+                        <p>Evaporator tubes, piping, and brine discharge lines.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
+                        <h5>Automotive & Locomotive Industry</h5>
+                        <p>Brake lines, hydraulic lines, and radiator components.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-strategies"></i></div>
+                        <h5>Welding Consumables & Filler Metals</h5>
+                        <p>Used in welding of similar alloys and repair work.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container text-center">
+            <div class="section-title center">
+                <h2>WHY CHOOSE US?</h2>
+            </div>
+
+            <div class="row g-4 mt-4">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
+                        <h5>Specialists in Copper Nickel Alloys</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
+                        <h5>Full range of sizes, forms, and custom machining</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
+                        <h5>Marine & industrial grade materials in stock</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-6">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
+                        <h5>Global supply capability with competitive pricing</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-6">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
+                        <h5>Compliant with ASTM, DIN, EN, and ASME standards</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!-- Q1 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What is Copper Nickel 90/10 and what makes it a preferred alloy?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Copper Nickel 90/10, also known as UNS C70600 or CW352H, is an alloy consisting of 90%
+                                    copper and 10% nickel
+                                    with small additions of iron and manganese. It is widely valued for its excellent
+                                    corrosion resistance in
+                                    seawater and marine environments, making it a reliable material for shipbuilding,
+                                    desalination plants,
+                                    offshore oil and gas, and power generation industries.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q2 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the main advantages of using Copper Nickel 90/10 alloy?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    The CU-NI 90/10 alloy offers strong resistance to biofouling, erosion, and stress
+                                    corrosion cracking.
+                                    It retains reliable mechanical properties over a wide temperature and pressure range,
+                                    making it suitable
+                                    for demanding flow systems and thermal applications. With good weldability, soldering,
+                                    and brazing
+                                    capability, Copper Nickel 90/10 ensures ease of fabrication while maintaining long term
+                                    durability in
+                                    harsh operating conditions.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q3 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the common applications of Copper Nickel 90/10?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Copper Nickel 90/10 is extensively used in marine and shipbuilding for seawater piping,
+                                    condensers, cooling
+                                    systems, hull cladding, and propeller sleeves. It is also widely applied in desalination
+                                    plants, HVAC systems,
+                                    oil refineries, and power plants for heat exchangers, condensers, brine heaters, and
+                                    evaporator tubes.
+                                    Additionally, it finds use in offshore oil and gas systems, automotive brake lines, and
+                                    locomotive radiator
+                                    components due to its corrosion resistance and thermal stability.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q4 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What Copper Nickel 90/10 products are available at MOKSH TUBES & FITTINGS LLP?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP supplies a wide range of Copper Nickel 90/10 products
+                                    including seamless and
+                                    welded pipes and tubes, plates, sheets, coils, strips, rods, bars, pipe fittings,
+                                    flanges, wires, fasteners,
+                                    and custom-engineered components. All products are manufactured to meet global quality
+                                    standards such as
+                                    ASTM, DIN, EN, and ASME, and can be tailored in size, finish, and specifications to
+                                    match specific
+                                    industrial requirements.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Q5 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Why choose MOKSH TUBES & FITTINGS LLP for Copper Nickel 90/10 materials?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    MOKSH TUBES & FITTINGS LLP is a trusted manufacturer, supplier, and exporter of Copper
+                                    Nickel 90/10 products,
+                                    offering marine-grade and industrial-grade materials sourced from reputed mills. With
+                                    extensive inventory,
+                                    competitive pricing, and global supply capabilities, the company ensures timely delivery
+                                    and quality assurance.
+                                    Backed by expertise in copper nickel alloys, it serves clients across shipyards,
+                                    desalination projects,
+                                    offshore oil and gas, power plants, and automotive industries with certified and
+                                    reliable CU-NI 90/10 solutions.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
+
+    <section class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="contact-cta-box">
+                <h2>Contact Us</h2>
+                <p>
+                    contact <strong>Moksh Tubes & Fittings LLP</strong> — delivering high-quality Cu-Ni solutions tailored
+                    to your project.
+                    <!-- Call button -->
+                    <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                        data-bs-target="#contactFormModal">
+                        Get in Touch
+                    </a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+<?php $__env->stopSection(); ?>
+<?php $__env->startSection('jsscripts'); ?>
+<script type="application/ld+json">
+    
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Copper Nickel 90/10 and what makes it a preferred alloy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Copper Nickel 90/10, also known as UNS C70600 or CW352H, is an alloy consisting of 90% copper and 10% nickel with small additions of iron and manganese. It is widely valued for its excellent corrosion resistance in seawater and marine environments, making it a reliable material for shipbuilding, desalination plants, offshore oil and gas, and power generation industries."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main advantages of using Copper Nickel 90/10 alloy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The CU-NI 90/10 alloy offers strong resistance to biofouling, erosion, and stress corrosion cracking. It retains reliable mechanical properties over a wide temperature and pressure range, making it suitable for demanding flow systems and thermal applications. With good weldability, soldering, and brazing capability, Copper Nickel 90/10 ensures ease of fabrication while maintaining long-term durability in harsh operating conditions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the common applications of Copper Nickel 90/10?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Copper Nickel 90/10 is extensively used in marine and shipbuilding for seawater piping, condensers, cooling systems, hull cladding, and propeller sleeves. It is also widely applied in desalination plants, HVAC systems, oil refineries, and power plants for heat exchangers, condensers, brine heaters, and evaporator tubes. Additionally, it finds use in offshore oil and gas systems, automotive brake lines, and locomotive radiator components due to its corrosion resistance and thermal stability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Copper Nickel 90/10 products are available at MOKSH TUBES & FITTINGS LLP?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP supplies a wide range of Copper Nickel 90/10 products including seamless and welded pipes and tubes, plates, sheets, coils, strips, rods, bars, pipe fittings, flanges, wires, fasteners, and custom-engineered components. All products are manufactured to meet global quality standards such as ASTM, DIN, EN, and ASME, and can be tailored in size, finish, and specifications to match specific industrial requirements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose MOKSH TUBES & FITTINGS LLP for Copper Nickel 90/10 materials?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MOKSH TUBES & FITTINGS LLP is a trusted manufacturer, supplier, and exporter of Copper Nickel 90/10 products, offering marine-grade and industrial-grade materials sourced from reputed mills. With extensive inventory, competitive pricing, and global supply capabilities, the company ensures timely delivery and quality assurance. Backed by expertise in copper nickel alloys, it serves clients across shipyards, desalination projects, offshore oil and gas, power plants, and automotive industries with certified and reliable CU-NI 90/10 solutions."
+      }
+    }
+  ]
+}
+
+</script>
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.master', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH C:\xampp\htdocs\mokshtube\resources\views/frontend/materials/copper-alloys/copper-alloys-cu-ni-90-10.blade.php ENDPATH**/ ?>

@@ -1,0 +1,676 @@
+<?php $__env->startSection('title', 'Aluminium Alloy HE30 | Hardened Aluminium Alloy'); ?>
+
+<?php $__env->startSection('meta_description', 'Aluminium HE30 – hardened alloy offering excellent strength, corrosion resistance, and durability for heavy-duty structural and industrial applications.'); ?>
+
+<?php $__env->startSection('meta_keywords', 'Aluminium Alloy HE30, Hardened Aluminium Alloy, Aluminium HE30 Pipes, Aluminium HE30 Tubes, Aluminium HE30 Sheets, High Strength Aluminium, Corrosion Resistant Aluminium, Heavy Duty Aluminium Alloys, Structural Aluminium Alloys, Industrial Aluminium Grades'); ?>
+<?php $__env->startSection('og_image', asset('assets/images/aluminium-alloys/aluminium-alloys-he30.webp')); ?>
+<?php $__env->startSection('og_type', 'article'); ?>
+
+<?php $__env->startSection('content'); ?>
+
+    <!--Start breadcrumb area-->
+    <section class="breadcrumb-area" style="background-image: url(images/background/3.webp);">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-auto text-center">
+                    <h1>Aluminium HE30 <br> Hardened High Strength Aluminium Alloy</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--End breadcrumb area-->
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Aluminium HE30 | Product Overview</h2>
+            </div>
+
+            <h2 class="fw-semibold text-center mb-5" style="color: #db7227;">
+                Introduction To Aluminium HE30
+            </h2>
+
+            <div class="row align-items-center">
+                <!-- Image Left -->
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <img src="<?php echo e(asset('assets/images/aluminium-alloys/aluminium-alloys-he30.webp')); ?>" alt="Aluminium HE30"
+                        class="img-fluid rounded shadow-sm" loading="lazy">
+                </div>
+
+                <!-- Content Right -->
+                <div class="col-md-6">
+                    <div class="pe-md-3">
+                        <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
+                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a manufacturer, supplier,
+                            exporter, importer, and stockist of<strong class="text-black"> Aluminium Alloy HE30
+                                <a href="<?php echo e(route('products')); ?>">products</a></strong> including sheets, plates,
+                            bars, rods, and extrusions.
+                        <p class="fs-6" style="text-align: justify;">
+                            <strong class="text-black">Aluminium HE30</strong> is a high-strength aerospace-grade alloy,
+                            part of the 7000 series, primarily alloyed with zinc and magnesium. It offers excellent
+                            mechanical properties, including high tensile strength, good fatigue resistance, and moderate
+                            corrosion resistance. HE30 is commonly used in aerospace, defense, and other high-performance
+                            <a href="<?php echo e(route('materials.engineering-Steels')); ?>">engineering</a> applications where
+                            lightweight and strength are critical.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Element</th>
+                                    <th>Composition (%)</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr class="t-row">
+                                    <td>Aluminum</td>
+                                    <td>Balance</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Copper</td>
+                                    <td>1.2 – 2.0</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Iron</td>
+                                    <td>0.4 max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Manganese</td>
+                                    <td>0.3 max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Silicon</td>
+                                    <td>0.4 max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Zinc</td>
+                                    <td>5.5 – 6.5</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Titanium</td>
+                                    <td>0.2 max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Magnesium</td>
+                                    <td>2.0 – 3.0</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+            </div>
+
+            <!-- Physical Properties Table -->
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Property</th>
+                                    <th>Imperial</th>
+                                    <th>Metric</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr class="t-row">
+                                    <td>Density</td>
+                                    <td>0.102 lb/in³</td>
+                                    <td>2.83 g/cm³</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Melting Point</td>
+                                    <td>875 – 975 °F</td>
+                                    <td>468 – 524 °C</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Elastic Modulus</td>
+                                    <td>10.2 × 10³ ksi</td>
+                                    <td>70.3 GPa</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Thermal Conductivity</td>
+                                    <td>130 W/m-K</td>
+                                    <td>—</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Electrical Resistivity</td>
+                                    <td>33% IACS</td>
+                                    <td>—</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mechanical Properties Table -->
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Property</th>
+                                    <th>Annealed</th>
+                                    <th>Hot-Finished</th>
+                                    <th>Cold-Drawn</th>
+                                    <th>Hot-Rolled</th>
+                                    <th>Sheet (T6)</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr class="t-row">
+                                    <td>Tensile Strength (ksi / MPa)</td>
+                                    <td>17–24 / 115–165</td>
+                                    <td>34–45 / 235–310</td>
+                                    <td>38–47 / 260–325</td>
+                                    <td>30–44 / 205–303</td>
+                                    <td>30–42 / 200–290</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Yield Strength (0.2%) (ksi / MPa)</td>
+                                    <td>10–15 / 70–100</td>
+                                    <td>28–40 / 190–275</td>
+                                    <td>34–42 / 235–290</td>
+                                    <td>24–38 / 165–260</td>
+                                    <td>22–35 / 150–240</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Elongation (%)</td>
+                                    <td>12–20</td>
+                                    <td>6–12</td>
+                                    <td>5–10</td>
+                                    <td>8–12</td>
+                                    <td>10–14</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Brinell Hardness (3000 kg)</td>
+                                    <td>45–60</td>
+                                    <td>80–95</td>
+                                    <td>85–100</td>
+                                    <td>70–90</td>
+                                    <td>65–85</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Rockwell Hardness (B / C)</td>
+                                    <td>25–35 B</td>
+                                    <td>40–55 B</td>
+                                    <td>45–60 B</td>
+                                    <td>35–50 B</td>
+                                    <td>35–50 B</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+     <?php
+        $products = [
+            [
+                'name' => 'Seamless Pipes',
+                'route' => 'products.pipes-tubes.seamless-pipes',
+                'image' => 'assets/images/all product/seamless-pipes-10.webp',
+            ],
+
+            [
+                'name' => 'Welded Pipes (ERW & EFW)',
+                'route' => 'products.pipes-tubes.welded-pipes',
+                'image' => 'assets/images/all product/welded-pipes-tubes-1.webp',
+            ],
+            [
+                'name' => 'Tubes (Capillary, U-Bend)',
+                'route' => 'products.pipes-tubes.u-bent-tubes',
+                'image' => 'assets/images/all product/u-bent-tube.webp',
+            ],
+            [
+                'name' => 'Sheets & Plates',
+                'route' => 'products.sheets-plates-coils.sheets-and-plates',
+                'image' => 'assets/images/all product/sheets-plates.webp',
+            ],
+            [
+                'name' => 'Coils & Strips',
+                'route' => 'products.sheets-plates-coils.strips',
+                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.webp',
+            ],
+            [
+                'name' => 'Round Bars, Flat Bars, Hex Bars, Square Bars',
+                'route' => 'products.bars-rods',
+                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp',
+            ],
+            [
+                'name' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)',
+                'route' => 'products.pipe-fittings-flanges-fasteners.pipe-fittings',
+                'image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp',
+            ],
+            [
+                'name' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)',
+                'route' => 'products.pipe-fittings-flanges-fasteners.flanges-and-gaskets',
+                'image' => 'assets/images/engineering-steels/engineering-steels-4130.webp',
+            ],
+            [
+                'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
+                'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
+                'image' => 'assets/images/all product/FASTENERS.webp',
+            ],
+            [
+                'name' => 'Custom Fabricated Components',
+                'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
+                'image' => 'assets/images/all product/custom-metal-fabricated.webp',
+            ],
+        ];
+    ?>
+
+    <section class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Products in Aluminium Alloys</h2>
+            </div>
+            <!-- Highlighted Paragraph -->
+            <div class="row justify-content-center mb-4" style="text-align: justify;">
+                <div class="col-lg-10">
+                    <p class="fs-6">
+                        <strong class="text-dark">Aluminium HE30</strong> is supplied in various forms such as:
+                    </p>
+                </div>
+            </div>
+
+            <!-- Horizontal Styled Product List -->
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-10">
+                    <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color: #db7227;">
+                        <div class="row">
+                            
+                            <?php $__currentLoopData = $products; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $product): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                                <div class="col-12 col-sm-6 mb-2 d-flex justify-content-start align-items-start">
+                                    <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span>
+                                    <span><?php echo e($product['name']); ?></span>
+                                </div>
+                            <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Emphasized Line -->
+            <div class="row justify-content-center mb-3">
+                <div class="col-lg-10">
+                    <p class="fw-bold fs-5 text-center my-4" style="color: #174268;">
+                        We supply Aluminium HE30 materials in accordance with the most stringent industry standards: </p>
+                </div>
+            </div>
+
+            <!-- Product Image Cards (Now centered and responsive) -->
+            <div class="row g-4">
+                 <?php $__currentLoopData = $products; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $product): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
+                        <div class="mx-auto" style="width: 100%; max-width: 300px;">
+                            <a href="<?php echo e(route($product['route'])); ?>" class="text-decoration-none">
+                                <div class="product-card h-100">
+                                    <img src="<?php echo e(asset($product['image'])); ?>" alt="<?php echo e($product['name']); ?>"
+                                        class="img-fluid  w-100">
+                                    <h6 class="product-card-title text-center mt-2 px-2"><?php echo e($product['name']); ?></h6>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Uses and Advantages</h2>
+            </div>
+
+            <div class="row g-4 mt-4 justify-content-center">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h5>High strength combined with good fatigue resistance</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
+                        <h5>Lightweight, reducing overall structural weight</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
+                        <h5>Good machinability and surface finish</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
+                        <h5>Can be anodized for enhanced corrosion resistance</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
+                        <h5>Meets stringent aerospace and defense quality standards</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Applications of Aluminium HE30</h2>
+                <p class="text-center pb-3"><strong class="text-dark">Aluminium HE30</strong> is preferred in applications
+                    requiring high strength-to-weight ratios, particularly in aerospace and defense
+
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="application-card">
+                            <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
+                            <h5>Aerospace Components</h5>
+                            <p>Aircraft structural parts, fuselage panels, and wing skins.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="application-card">
+                            <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
+                            <h5>Defense Industry</h5>
+                            <p>Missile components, armor plating, and military vehicles.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="application-card">
+                            <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
+                            <h5>Sports Equipment</h5>
+                            <p>High-performance bicycle frames and sporting goods.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="application-card">
+                            <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
+                            <h5>Automotive & Racing</h5>
+                            <p>Lightweight chassis parts and performance accessories.
+                            </p>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+    </section>
+
+
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container text-center">
+            <div class="section-title center">
+                <h2>WHY CHOOSE US?</h2>
+            </div>
+
+            <div class="row g-4 mt-4">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
+                        <h5>Leading supplier of aerospace-grade Aluminium HE30</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
+                        <h5>Large stock and custom size availability</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
+                        <h5>Quality assurance with international certifications</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-6">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
+                        <h5>Technical expertise in high-performance aluminium alloys</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-6">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
+                        <h5>Competitive pricing with global delivery network</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What is Aluminium Alloy HE30 used for?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Aluminium HE30 is an aerospace-grade aluminium alloy widely used in aircraft structures,
+                                    defense equipment, automotive parts, and high performance sports gear.
+                                    Its high strength to weight ratio makes it ideal for industries requiring both
+                                    lightweight and durability.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    What are the key properties of Aluminium HE30?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    HE30 aluminium offers high tensile strength, excellent fatigue resistance, good
+                                    machinability, and moderate corrosion resistance.
+                                    It can also be anodized for improved surface protection, making it suitable for
+                                    aerospace, defense, and automotive industries.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    How strong is Aluminium HE30 compared to other aluminium alloys?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Aluminium HE30, part of the 7000 series alloys, is stronger than most 6000 series alloys
+                                    like 6061 and 6082.
+                                    With tensile strength ranging from 200–310 MPa, HE30 is specifically engineered for
+                                    aerospace and defense applications where strength and performance are critical.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Can Aluminium HE30 be welded and machined?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Yes, Aluminium HE30 has good machinability, allowing it to be shaped into complex
+                                    components.
+                                    However, like many 7000 series alloys, its weldability is limited, and special care must
+                                    be taken when welding to maintain mechanical properties.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>
+                                    Where can I buy Aluminium HE30 in India?
+                                </h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    You can buy premium quality Aluminium HE30 sheets, plates, bars, rods, extrusions, and
+                                    custom components from
+                                    <strong>Moksh Tubes & Fittings LLP</strong> a trusted manufacturer, supplier,
+                                    exporter, and stockist.
+                                    They provide aerospace-grade certified materials with global delivery and competitive
+                                    pricing.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
+
+    <section class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="contact-cta-box">
+                <h2>Contact Us</h2>
+                <p>
+                    For quotes or inquiries on Aluminium Alloy HE30 products, <strong>Moksh Tubes & Fittings
+                        LLP</strong> your trusted partner for aerospace-grade aluminium solutions.</p>
+               <!-- Call button -->
+                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                    data-bs-target="#contactFormModal">
+                    Get in Touch
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+<?php $__env->stopSection(); ?>
+<?php $__env->startSection('jsscripts'); ?>
+<script type="application/ld+json">
+    
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Aluminium Alloy HE30 used for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aluminium HE30 is an aerospace-grade aluminium alloy widely used in aircraft structures, defense equipment, automotive parts, and high performance sports gear. Its high strength to weight ratio makes it ideal for industries requiring both lightweight and durability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the key properties of Aluminium HE30?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "HE30 aluminium offers high tensile strength, excellent fatigue resistance, good machinability, and moderate corrosion resistance. It can also be anodized for improved surface protection, making it suitable for aerospace, defense, and automotive industries."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How strong is Aluminium HE30 compared to other aluminium alloys?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aluminium HE30, part of the 7000 series alloys, is stronger than most 6000 series alloys like 6061 and 6082. With tensile strength ranging from 200–310 MPa, HE30 is specifically engineered for aerospace and defense applications where strength and performance are critical."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Aluminium HE30 be welded and machined?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Aluminium HE30 has good machinability, allowing it to be shaped into complex components. However, like many 7000 series alloys, its weldability is limited, and special care must be taken when welding to maintain mechanical properties."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I buy Aluminium HE30 in India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can buy premium quality Aluminium HE30 sheets, plates, bars, rods, extrusions, and custom components from Moksh Tubes & Fittings LLP, a trusted manufacturer, supplier, exporter, and stockist. They provide aerospace-grade certified materials with global delivery and competitive pricing."
+      }
+    }
+  ]
+}
+
+</script>
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.master', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH C:\xampp\htdocs\mokshtube\resources\views/frontend/materials/aluminium-alloys/aluminium-alloys-he30.blade.php ENDPATH**/ ?>

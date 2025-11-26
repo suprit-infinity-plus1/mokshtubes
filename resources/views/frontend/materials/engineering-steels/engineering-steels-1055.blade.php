@@ -18,7 +18,7 @@
 @section('content')
 {{-- start bread --}}
     <section class="breadcrumb-area"
-        style="background-image: url(/assets/images/engineering-steels/engineering-steels-banner.jpeg);">
+        style="background-image: url(/assets/images/engineering-steels/engineering-steels-banner.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
@@ -697,7 +697,7 @@
             [
                 'name' => 'Tubes (Capillary, U-Bend)',
                 'route' => 'products.pipes-tubes.u-bent-tubes',
-                'image' => 'assets/images/all product/11zon_resized.webp',
+                'image' => 'assets/images/all product/u-bent-tube.webp',
             ],
             [
                 'name' => 'Sheets & Plates',
@@ -727,7 +727,7 @@
             [
                 'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
                 'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
-                'image' => 'assets/images/all product/FASTENERS-1.webp',
+                'image' => 'assets/images/all product/FASTENERS.webp',
             ],
             [
                 'name' => 'Custom Fabricated Components',

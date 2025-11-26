@@ -15,7 +15,7 @@ applications.
 <?php $__env->startSection('content'); ?>
 
 <!--Start breadcrumb area-->
-<section class="breadcrumb-area" style="background-image: url(assets/images/material/materials-banner.jpg);">
+<section class="breadcrumb-area" style="background-image: url(assets/images/material/materials-banner.webp);">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-auto text-center">
@@ -123,7 +123,7 @@ applications.
         <div class="col-12 col-md-4 col-lg-3">
             <a href="<?php echo e(url('/materials/' . $material['slug'])); ?>" class="text-decoration-none d-block h-100">
                 <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition" style="border-color: #db7227; transition: 0.3s;">
-                    <img src="<?php echo e(asset($material['image'] ?? 'assets/images/default.jpg')); ?>" alt="<?php echo e($material['name']); ?>" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+                    <img src="<?php echo e(asset($material['image'] ?? 'assets/images/default.webp')); ?>" alt="<?php echo e($material['name']); ?>" class="img-fluid rounded mb-3" style="border-radius: 8px;">
                     <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded" style="background-color: #174268; color: #fff; display: inline-block;">
                         <?php echo e($material['name']); ?>
 

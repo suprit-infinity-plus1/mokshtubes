@@ -2,9 +2,11 @@
 <?php $__env->startSection('meta_description',
     'Moksh Tubes provides premium capillary tubes with precision, durability, and reliability
     for industrial, medical, and high-performance applications.'); ?>
+    <?php $__env->startSection('og_image', asset('assets/images/product/capillary-tubes.webp')); ?>
+<?php $__env->startSection('og_type', 'article'); ?>
 <?php $__env->startSection('content'); ?>
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/capillary-tubes.webp);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/capillary-tubes.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -25,8 +27,8 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="<?php echo e(asset('assets/images/peoduct/capillary-tubes.webp')); ?>" alt="Capillary Tubes"
-                        class="img-fluid rounded shadow-sm" width="550" height="350">
+                    <img src="<?php echo e(asset('assets/images/product/capillary-tubes.webp')); ?>" alt="Capillary Tubes"
+                        class="img-fluid rounded shadow-sm" width="550" height="350" loading="lazy">
                 </div>
 
                 <!-- Right Content -->
@@ -1167,7 +1169,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="<?php echo e(route('materials.nickel-Based-Superalloys')); ?>">
-                                <img class="w-100" src="<?php echo e(asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg')); ?>"
+                                <img class="w-100" src="<?php echo e(asset('assets/images/product/NICKLE-ALLOYS.webp')); ?>"
                                     alt="NICKLE ALLOYS">
                             </a>
                         </figure>
@@ -1180,7 +1182,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="<?php echo e(route('materials.austenitic-stainless-Steel')); ?>">
-                                <img class="w-100" src="<?php echo e(asset('assets/images/peoduct/STAINLESS-STEEL.jpeg')); ?>"
+                                <img class="w-100" src="<?php echo e(asset('assets/images/product/STAINLESS-STEEL.webp')); ?>"
                                     alt="STAINLESS STEEL">
                             </a>
                         </figure>
@@ -1193,7 +1195,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="<?php echo e(route('materials.duplex-and-super-duplex')); ?>">
-                                <img class="w-100" src="<?php echo e(asset('assets/images/peoduct/DUPLEX-SUPER.png')); ?>"
+                                <img class="w-100" src="<?php echo e(asset('assets/images/product/DUPLEX-SUPER.webp')); ?>"
                                     alt="DUPLEX & SUPER">
                             </a>
                         </figure>
@@ -1207,7 +1209,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="<?php echo e(route('materials.titanium')); ?>">
-                                <img class="w-100" src="<?php echo e(asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg')); ?>"
+                                <img class="w-100" src="<?php echo e(asset('assets/images/product/TITANIUM-ALLOYS.webp')); ?>"
                                     alt="TITANIUM ALLOYS">
                             </a>
                         </figure>
@@ -1220,7 +1222,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="<?php echo e(route('materials.haynes-Superalloys')); ?>">
-                                <img class="w-100" src="<?php echo e(asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg')); ?>"
+                                <img class="w-100" src="<?php echo e(asset('assets/images/product/RARE-TO-ALLOYS.webp')); ?>"
                                     alt="Haynes Superalloys">
                             </a>
                         </figure>
@@ -1233,7 +1235,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="<?php echo e(route('materials.inconel')); ?>">
-                                <img class="w-100" src="<?php echo e(asset('assets/images/peoduct/CARBON-ALLOYS.jpg')); ?>"
+                                <img class="w-100" src="<?php echo e(asset('assets/images/product/CARBON-ALLOYS.webp')); ?>"
                                     alt="Inconel">
                             </a>
                         </figure>
@@ -1611,80 +1613,81 @@
     </section>
 <?php $__env->stopSection(); ?>
 <?php $__env->startSection('jsscripts'); ?>
-<script type="application/ld+json">
-    
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are Capillary Tubes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Capillary Tubes are precision-engineered tubes with extremely small diameters designed for applications requiring accurate flow control and high surface quality. They are essential in medical, instrumentation, refrigeration, and chemical industries due to their micro-level precision and durability."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What materials are used for manufacturing Capillary Tubes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Capillary Tubes are made from Stainless Steel, Duplex & Super Duplex, Nickel Alloys (Inconel, Monel), Titanium, and Copper Alloys. Each material is selected for its corrosion resistance, mechanical strength, and compatibility with specific industrial or medical environments."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the available dimensions of Capillary Tubes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Capillary Tubes are available in outer diameters from 0.3 mm to 8 mm and wall thicknesses from 0.05 mm to 1.0 mm, with lengths up to 6 meters or supplied in coils. Custom sizes can also be manufactured on request."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the common applications of Capillary Tubes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "<ul><li>Medical & Pharmaceutical – hypodermic needles, catheters, and laboratory equipment</li><li>Instrumentation & Control – pressure sensors, thermocouples, and hydraulic lines</li><li>Refrigeration & HVAC – flow control and expansion systems</li><li>Chemical & Petrochemical – sampling and dosing systems</li><li>Aerospace & Automotive – lightweight fuel and brake lines</li></ul>"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the advantages of using Capillary Tubes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "<ul><li>Superior surface finish for smooth flow</li><li>High corrosion resistance in harsh conditions</li><li>Lightweight yet strong construction</li><li>Available in coils, straight lengths, and custom cut pieces</li><li>Excellent dimensional accuracy and tight tolerances</li></ul>"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What standards do your Capillary Tubes comply with?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Moksh Tubes & Fittings LLP manufactures Capillary Tubes as per ASTM A213, ASTM A269, ASTM B338, DIN, and EN standards. All tubes undergo strict quality control to ensure compliance with international dimensional and mechanical requirements."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What finishes are available for Capillary Tubes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We offer various surface finishes including Bright Annealed, Electro Polished, Matte, and Mechanical Polished finishes. These ensure both optimal performance and visual appeal based on the application’s needs."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why choose Moksh Tubes & Fittings LLP for Capillary Tubes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "<ul><li>Decades of experience in precision tube manufacturing</li><li>Advanced cold drawing and bright annealing processes</li><li>Wide stock availability with global supply network</li><li>Strict compliance with ASTM, ASME, and ISO standards</li><li>Responsive technical and customer support</li></ul>"
-      }
-    }
-  ]
-}
-
-</script>
+    <script type="application/ld+json">
+        
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What are Capillary Tubes?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Capillary Tubes are precision-engineered tubes with extremely small diameters designed for applications requiring accurate flow control and high surface quality. They are essential in medical, instrumentation, refrigeration, and chemical industries due to their micro-level precision and durability."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What materials are used for manufacturing Capillary Tubes?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Capillary Tubes are made from Stainless Steel, Duplex & Super Duplex, Nickel Alloys (Inconel, Monel), Titanium, and Copper Alloys. Each material is selected for its corrosion resistance, mechanical strength, and compatibility with specific industrial or medical environments."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the available dimensions of Capillary Tubes?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Capillary Tubes are available in outer diameters from 0.3 mm to 8 mm and wall thicknesses from 0.05 mm to 1.0 mm, with lengths up to 6 meters or supplied in coils. Custom sizes can also be manufactured on request."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the common applications of Capillary Tubes?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "<ul><li>Medical & Pharmaceutical – hypodermic needles, catheters, and laboratory equipment</li><li>Instrumentation & Control – pressure sensors, thermocouples, and hydraulic lines</li><li>Refrigeration & HVAC – flow control and expansion systems</li><li>Chemical & Petrochemical – sampling and dosing systems</li><li>Aerospace & Automotive – lightweight fuel and brake lines</li></ul>"
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the advantages of using Capillary Tubes?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "<ul><li>Superior surface finish for smooth flow</li><li>High corrosion resistance in harsh conditions</li><li>Lightweight yet strong construction</li><li>Available in coils, straight lengths, and custom cut pieces</li><li>Excellent dimensional accuracy and tight tolerances</li></ul>"
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What standards do your Capillary Tubes comply with?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Moksh Tubes & Fittings LLP manufactures Capillary Tubes as per ASTM A213, ASTM A269, ASTM B338, DIN, and EN standards. All tubes undergo strict quality control to ensure compliance with international dimensional and mechanical requirements."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What finishes are available for Capillary Tubes?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We offer various surface finishes including Bright Annealed, Electro Polished, Matte, and Mechanical Polished finishes. These ensure both optimal performance and visual appeal based on the application’s needs."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Why choose Moksh Tubes & Fittings LLP for Capillary Tubes?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "<ul><li>Decades of experience in precision tube manufacturing</li><li>Advanced cold drawing and bright annealing processes</li><li>Wide stock availability with global supply network</li><li>Strict compliance with ASTM, ASME, and ISO standards</li><li>Responsive technical and customer support</li></ul>"
+                }
+                }
+            ]
+            }
+        
+        
+    </script>
 <?php $__env->stopSection(); ?>
 
 <?php echo $__env->make('layouts.master', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH C:\xampp\htdocs\mokshtube\resources\views/frontend/products/pipes-tubes/capillaries.blade.php ENDPATH**/ ?>

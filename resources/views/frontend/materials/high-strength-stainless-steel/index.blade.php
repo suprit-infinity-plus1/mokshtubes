@@ -90,7 +90,7 @@
                     [
                         'name' => 'Stainless Steel 416',
                         'slug' => 'stainless-steel-416',
-                        'image' => 'assets/images/high-strength-stainless-steel/416-Stainless-Steel.webp',
+                        'image' => 'assets/images/high-strength-stainless-steel/Stainless-Steel-416.webp',
                     ],
                     [
                         'name' => 'Stainless Steel 420',

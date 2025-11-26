@@ -314,7 +314,7 @@
             [
                 'name' => 'Tubes (Capillary, U-Bend)',
                 'route' => 'products.pipes-tubes.u-bent-tubes',
-                'image' => 'assets/images/all product/11zon_resized.webp',
+                'image' => 'assets/images/all product/u-bent-tube.webp',
             ],
             [
                 'name' => 'Sheets & Plates',
@@ -344,7 +344,7 @@
             [
                 'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
                 'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
-                'image' => 'assets/images/all product/FASTENERS-1.webp',
+                'image' => 'assets/images/all product/FASTENERS.webp',
             ],
             [
                 'name' => 'Custom Fabricated Components',
@@ -699,7 +699,8 @@
         </div>
     </section>
 @endsection
-@section('jsscripts')
+
+{{-- @section('jsscripts')
     <script type="application/ld+json">
         {!! json_encode([
         "@context" => "https://schema.org",
@@ -813,7 +814,7 @@
                 "@type" => "Question",
                 "name" => "What are the common applications of EN8 steel?",
                 "acceptedAnswer" => [
-                    "@@type" => "Answer",
+                    "@type" => "Answer",
                     "text" => "EN8 steel is extensively used in automotive components such as axles, crankshafts, connecting rods, and gear shafts. In mechanical engineering, it is applied for keys, keyways, couplings, spindles, and general-purpose machinery parts. It is also used in industrial equipment like rollers, cams, and press tools, as well as in agricultural machinery including drive shafts, rotors, and blades. In the oil and gas sector, EN8 finds applications in non-corrosive structural parts and pipeline components where moderate wear resistance is required."
                 ]
                 ],
@@ -830,5 +831,6 @@
         ]
         ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) !!}
     </script>
-@endsection
+@endsection --}}
+
 

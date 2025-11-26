@@ -31,7 +31,7 @@
                     [
                         'name' => 'Monel K500',
                         'slug' => 'monel-k500',
-                        'image' => 'assets/images/monel/Monel-400.webp'
+                        'image' => 'assets/images/monel/Monel-k500.webp'
                     ],
                     [
                         'name' => 'Monel R405',
@@ -41,7 +41,7 @@
                     [
                         'name' => 'Monel 400',
                         'slug' => 'monel-400',
-                        'image' => 'assets/images/material/monel-400.jpg'
+                        'image' => 'assets/images/material/Monel-400.webp'
                     ],
                 ];
             ?>

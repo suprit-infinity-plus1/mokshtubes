@@ -3,9 +3,11 @@
     'Get precision U-Bent Tubes from Moksh Tubes — custom sizes, superior durability & performance for boilers, heat exchangers & industrial systems.'); ?> <!-- 153 characters -->
 <?php $__env->startSection('meta_keywords',
     'U-Bent Tubes, U-Bend Tubes, Custom U-Bent Tubes, Industrial U-Bent Tubes, Heat Exchanger Tubes, Boiler Tubes, Stainless Steel U-Bent Tubes, Alloy U-Bent Tubes, Precision Bent Tubes, Moksh Tubes'); ?>
+<?php $__env->startSection('og_image', asset('assets/images/product/u-bent-tubes.webp')); ?>
+<?php $__env->startSection('og_type', 'article'); ?>
 <?php $__env->startSection('content'); ?>
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/u-bent-tubes.webp);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/u-bent-tubes.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -26,7 +28,8 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="<?php echo e(asset('assets/images/peoduct/u-bent-tubes.webp')); ?>" alt="U-Bent Tubes for Industrial Heat Exchangers" width="550" height="350" class="img-fluid rounded shadow-sm" loading="lazy">
+                    <img src="<?php echo e(asset('assets/images/product/u-bent-tubes.webp')); ?>" alt="U-Bent Tubes for Industrial Heat Exchangers" width="550" height="350" class="img-fluid rounded shadow-sm" 
+                    loading="lazy">
                 </div>
 
                 <!-- Right Content -->
@@ -1697,7 +1700,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="<?php echo e(route('materials.nickel-Based-Superalloys')); ?>">
-                                <img class="w-100" src="<?php echo e(asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg')); ?>"
+                                <img class="w-100" src="<?php echo e(asset('assets/images/product/NICKLE-ALLOYS.webp')); ?>"
                                     alt="NICKLE ALLOYS">
                             </a>
                         </figure>
@@ -1710,7 +1713,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="<?php echo e(route('materials.austenitic-stainless-Steel')); ?>">
-                                <img class="w-100" src="<?php echo e(asset('assets/images/peoduct/STAINLESS-STEEL.jpeg')); ?>"
+                                <img class="w-100" src="<?php echo e(asset('assets/images/product/STAINLESS-STEEL.webp')); ?>"
                                     alt="STAINLESS STEEL">
                             </a>
                         </figure>
@@ -1723,7 +1726,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="<?php echo e(route('materials.duplex-and-super-duplex')); ?>">
-                                <img class="w-100" src="<?php echo e(asset('assets/images/peoduct/DUPLEX-SUPER.png')); ?>"
+                                <img class="w-100" src="<?php echo e(asset('assets/images/product/DUPLEX-SUPER.webp')); ?>"
                                     alt="DUPLEX & SUPER">
                             </a>
                         </figure>
@@ -1737,7 +1740,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="<?php echo e(route('materials.titanium')); ?>">
-                                <img class="w-100" src="<?php echo e(asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg')); ?>"
+                                <img class="w-100" src="<?php echo e(asset('assets/images/product/TITANIUM-ALLOYS.webp')); ?>"
                                     alt="TITANIUM ALLOYS">
                             </a>
                         </figure>
@@ -1750,7 +1753,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="<?php echo e(route('materials.haynes-Superalloys')); ?>">
-                                <img class="w-100" src="<?php echo e(asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg')); ?>"
+                                <img class="w-100" src="<?php echo e(asset('assets/images/product/RARE-TO-ALLOYS.webp')); ?>"
                                     alt="Haynes Superalloys">
                             </a>
                         </figure>
@@ -1763,7 +1766,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="<?php echo e(route('materials.inconel')); ?>">
-                                <img class="w-100" src="<?php echo e(asset('assets/images/peoduct/CARBON-ALLOYS.jpg')); ?>"
+                                <img class="w-100" src="<?php echo e(asset('assets/images/product/CARBON-ALLOYS.webp')); ?>"
                                     alt="Inconel">
                             </a>
                         </figure>
@@ -2163,64 +2166,66 @@
 
 <?php $__env->stopSection(); ?>
 <?php $__env->startSection('jsscripts'); ?>
-<script type="application/ld+json">
+    <script type="application/ld+json">
+        
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What are U-Bent Tubes used for?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "U-Bent Tubes are used in heat exchangers, condensers, boilers, and other thermal systems to facilitate fluid return flow in compact designs. Their U-shaped configuration allows efficient heat transfer while reducing the need for extra fittings or space."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What materials are available for U-Bent Tubes?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "U-Bent Tubes are available in Stainless Steel, Carbon Steel, Alloy Steel, Duplex & Super Duplex, and Nickel Alloys. Each material is chosen based on the required temperature, pressure, and corrosion resistance for the application."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the key advantages of using U-Bent Tubes?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "U-Bent Tubes offer multiple benefits such as compact design, high heat transfer efficiency, and reduced pressure drop. They provide exceptional corrosion resistance, dimensional precision, and can handle high pressure and temperature conditions efficiently."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Which industries commonly use U-Bent Tubes?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "U-Bent Tubes are used in power generation, petrochemical, fertilizer, chemical, desalination, and HVAC industries. They are essential in heat exchangers, condensers, boilers, and economizers for efficient energy recovery."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What testing and inspection standards are followed?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "All U-Bent Tubes supplied by Moksh Tubes & Fittings LLP undergo Non-Destructive Testing (NDT), Eddy Current, Hydrostatic, and PMI tests. They are third-party inspected and comply with ISO 9001:2015 standards for quality assurance."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Can U-Bent Tubes be customized for specific designs?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, U-Bent Tubes can be custom-fabricated in various diameters, lengths, and bend radii as per customer drawings. CNC-controlled bending ensures minimal ovality, thinning, and precise dimensional accuracy."
+                }
+                }
+            ]
+            }
     
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are U-Bent Tubes used for?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "U-Bent Tubes are used in heat exchangers, condensers, boilers, and other thermal systems to facilitate fluid return flow in compact designs. Their U-shaped configuration allows efficient heat transfer while reducing the need for extra fittings or space."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What materials are available for U-Bent Tubes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "U-Bent Tubes are available in Stainless Steel, Carbon Steel, Alloy Steel, Duplex & Super Duplex, and Nickel Alloys. Each material is chosen based on the required temperature, pressure, and corrosion resistance for the application."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the key advantages of using U-Bent Tubes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "U-Bent Tubes offer multiple benefits such as compact design, high heat transfer efficiency, and reduced pressure drop. They provide exceptional corrosion resistance, dimensional precision, and can handle high pressure and temperature conditions efficiently."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which industries commonly use U-Bent Tubes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "U-Bent Tubes are used in power generation, petrochemical, fertilizer, chemical, desalination, and HVAC industries. They are essential in heat exchangers, condensers, boilers, and economizers for efficient energy recovery."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What testing and inspection standards are followed?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "All U-Bent Tubes supplied by Moksh Tubes & Fittings LLP undergo Non-Destructive Testing (NDT), Eddy Current, Hydrostatic, and PMI tests. They are third-party inspected and comply with ISO 9001:2015 standards for quality assurance."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can U-Bent Tubes be customized for specific designs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, U-Bent Tubes can be custom-fabricated in various diameters, lengths, and bend radii as per customer drawings. CNC-controlled bending ensures minimal ovality, thinning, and precise dimensional accuracy."
-      }
-    }
-  ]
-}
-
-</script>
+        
+        
+    </script>
 <?php $__env->stopSection(); ?>
 
 <?php echo $__env->make('layouts.master', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH C:\xampp\htdocs\mokshtube\resources\views/frontend/products/pipes-tubes/u-bent-tubes.blade.php ENDPATH**/ ?>

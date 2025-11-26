@@ -33,7 +33,7 @@
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
                     <img src="<?php echo e(asset('assets/images/engineering-steels/engineering-steels-4140.webp')); ?>" alt="EN 4140"
-                        class="img-fluid rounded shadow-sm">
+                        class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
                 <!-- Content Right -->
@@ -247,23 +247,23 @@
             [
                 'name' => 'Seamless Pipes',
                 'route' => 'products.pipes-tubes.seamless-pipes',
-                'image' => 'assets/images/all product/seamless-pipes-10.jpg',
+                'image' => 'assets/images/all product/seamless-pipes-10.webp',
             ],
 
             [
                 'name' => 'Welded Pipes (ERW & EFW)',
                 'route' => 'products.pipes-tubes.welded-pipes',
-                'image' => 'assets/images/all product/welded-pipes-tubes-1.jpg',
+                'image' => 'assets/images/all product/welded-pipes-tubes-1.webp',
             ],
             [
                 'name' => 'Tubes (Capillary, U-Bend)',
                 'route' => 'products.pipes-tubes.u-bent-tubes',
-                'image' => 'assets/images/all product/11zon_resized.jpg',
+                'image' => 'assets/images/all product/u-bent-tube.webp',
             ],
             [
                 'name' => 'Sheets & Plates',
                 'route' => 'products.sheets-plates-coils.sheets-and-plates',
-                'image' => 'assets/images/all product/sheets-plates.jpg',
+                'image' => 'assets/images/all product/sheets-plates.webp',
             ],
             [
                 'name' => 'Coils & Strips',
@@ -288,12 +288,12 @@
             [
                 'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
                 'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
-                'image' => 'assets/images/all product/FASTENERS-1.png',
+                'image' => 'assets/images/all product/FASTENERS.webp',
             ],
             [
                 'name' => 'Custom Fabricated Components',
                 'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
-                'image' => 'assets/images/all product/custom-metal-fabricated.jpg',
+                'image' => 'assets/images/all product/custom-metal-fabricated.webp',
             ],
         ];
     ?>
@@ -627,56 +627,57 @@
 
 <?php $__env->stopSection(); ?>
 <?php $__env->startSection('jsscripts'); ?>
-<script type="application/ld+json">
-    
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is EN 4140 steel and what are its main features?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "EN 4140 is a chromium-molybdenum low-alloy steel known for its high tensile strength, toughness, and excellent wear resistance. It can be heat-treated to achieve various mechanical properties and is used in automotive, oil and gas, aerospace, and heavy machinery industries due to its fatigue resistance and ability to perform under high stress."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the chemical and mechanical properties of EN 4140 steel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "EN 4140 steel contains 0.38–0.43% carbon, 0.80–1.10% chromium, and 0.15–0.25% molybdenum, with controlled amounts of manganese, silicon, phosphorus, and sulfur. Its tensile strength ranges from 586–896 MPa and yield strength from 379–827 MPa depending on heat treatment. It also has elongation up to 30%, Brinell hardness between 150–260, and Rockwell hardness of 80–95 B."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What EN 4140 steel products are supplied by MOKSH TUBES & FITTINGS LLP?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MOKSH TUBES & FITTINGS LLP supplies EN 4140 steel in the form of seamless and welded pipes, tubes, sheets, plates, coils, strips, bars, pipe fittings, flanges, fasteners, and custom-fabricated components. All products comply with international standards and can be customized in size, dimensions, and heat treatment."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the common applications of EN 4140 steel?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "EN 4140 steel is used in the automotive industry for axles, gears, crankshafts, and connecting rods. In oil and gas, it serves pipelines, drilling tools, and high-pressure tubing. Aerospace and mechanical engineering also use it for shafts, bolts, and high-strength machinery parts due to its durability under dynamic loads."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why choose MOKSH TUBES & FITTINGS LLP for EN 4140 steel materials?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MOKSH TUBES & FITTINGS LLP is a reliable supplier of EN 4140 steel with a wide stock range, customization options, and global delivery capability. The company offers precision cutting, technical support, and competitive pricing—ensuring consistent quality and customer satisfaction."
-      }
-    }
-  ]
-}
-
-</script>
+    <script type="application/ld+json">
+        
+                {
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                    "@type": "Question",
+                    "name": "What is EN 4140 steel and what are its main features?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "EN 4140 is a chromium-molybdenum low-alloy steel known for its high tensile strength, toughness, and excellent wear resistance. It can be heat-treated to achieve various mechanical properties and is used in automotive, oil and gas, aerospace, and heavy machinery industries due to its fatigue resistance and ability to perform under high stress."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "What are the chemical and mechanical properties of EN 4140 steel?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "EN 4140 steel contains 0.38–0.43% carbon, 0.80–1.10% chromium, and 0.15–0.25% molybdenum, with controlled amounts of manganese, silicon, phosphorus, and sulfur. Its tensile strength ranges from 586–896 MPa and yield strength from 379–827 MPa depending on heat treatment. It also has elongation up to 30%, Brinell hardness between 150–260, and Rockwell hardness of 80–95 B."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "What EN 4140 steel products are supplied by MOKSH TUBES & FITTINGS LLP?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "MOKSH TUBES & FITTINGS LLP supplies EN 4140 steel in the form of seamless and welded pipes, tubes, sheets, plates, coils, strips, bars, pipe fittings, flanges, fasteners, and custom-fabricated components. All products comply with international standards and can be customized in size, dimensions, and heat treatment."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "What are the common applications of EN 4140 steel?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "EN 4140 steel is used in the automotive industry for axles, gears, crankshafts, and connecting rods. In oil and gas, it serves pipelines, drilling tools, and high-pressure tubing. Aerospace and mechanical engineering also use it for shafts, bolts, and high-strength machinery parts due to its durability under dynamic loads."
+                    }
+                    },
+                    {
+                    "@type": "Question",
+                    "name": "Why choose MOKSH TUBES & FITTINGS LLP for EN 4140 steel materials?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "MOKSH TUBES & FITTINGS LLP is a reliable supplier of EN 4140 steel with a wide stock range, customization options, and global delivery capability. The company offers precision cutting, technical support, and competitive pricing—ensuring consistent quality and customer satisfaction."
+                    }
+                    }
+                ]
+                }
+        
+            
+    </script>
 <?php $__env->stopSection(); ?>
 
 <?php echo $__env->make('layouts.master', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH C:\xampp\htdocs\mokshtube\resources\views/frontend/materials/engineering-steels/engineering-steels-4140.blade.php ENDPATH**/ ?>
