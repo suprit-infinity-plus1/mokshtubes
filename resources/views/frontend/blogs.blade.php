@@ -39,7 +39,7 @@ Metal Industry Articles, Alloy Supply Updates, Expert Metal Solutions')
 
                     <figure class="img-holder mb-0">
                         <a href="{{ route('frontend.single-blog', $blog->slug) }}">
-                            <img src="{{ asset('storage/' . $blog->cover_image) }}" alt="{{ $blog->title }}">
+                            <img src="{{ asset('storage/' . $blog->cover_image) }}" alt="{{ $blog->title }}" loading="lazy">
                         </a>
                         <figcaption class="overlay">
                             <div class="box">

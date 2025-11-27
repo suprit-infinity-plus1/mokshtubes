@@ -7,7 +7,7 @@
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/titanium/titanium-alloy-banner.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/titanium/titanium-alloy-banner.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -32,7 +32,7 @@
                     ['name' => 'Titanium grade 1', 'slug' => 'titanium-grade-1', 'image' => 'assets/images/titanium/titanium-1.webp'],
                     ['name' => 'Titanium grade 2', 'slug' => 'titanium-grade-2', 'image' => 'assets/images/titanium/titanium-2.webp'],
                     ['name' => 'Titanium grade 4 eli', 'slug' => 'titanium-grade-4-eli', 'image' => 'assets/images/titanium/titanium-4.webp'],
-                    ['name' => 'Titanium grade 4', 'slug' => 'titanium-grade-4', 'image' => 'assets/images/material/titanium-grade4.jpg'],
+                    ['name' => 'Titanium grade 4', 'slug' => 'titanium-grade-4', 'image' => 'assets/images/material/titanium-grade4.webp'],
                     ['name' => 'Titanium grade 5 eli', 'slug' => 'titanium-grade-5-eli', 'image' => 'assets/images/titanium/titanium-5-eli.webp'],
                     ['name' => 'Titanium grade 5', 'slug' => 'titanium-grade-5', 'image' => 'assets/images/titanium/titanium-5.webp'],
                     ['name' => 'Titanium grade 7 nb', 'slug' => 'titanium-grade-7-nb', 'image' => 'assets/images/titanium/titanium-7nb.webp'],

@@ -7,7 +7,7 @@
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/monel/monel.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/monel/monel.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -33,7 +33,7 @@
                     [
                         'name' => 'Monel K500',
                         'slug' => 'monel-k500',
-                        'image' => 'assets/images/monel/Monel-400.webp'
+                        'image' => 'assets/images/monel/Monel-k500.webp'
                     ],
                     [
                         'name' => 'Monel R405',
@@ -43,7 +43,7 @@
                     [
                         'name' => 'Monel 400',
                         'slug' => 'monel-400',
-                        'image' => 'assets/images/material/monel-400.jpg'
+                        'image' => 'assets/images/material/Monel-400.webp'
                     ],
                 ];
             @endphp

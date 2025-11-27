@@ -159,7 +159,7 @@
 
                         <!-- Right: Image -->
                         <div class="col-lg-6 d-flex align-items-center">
-                            <img src="{{ asset('assets/images/calculator/steel-sheets-plates.png') }}" class="img-fluid rounded border w-100" alt="Steel Sheet Image">
+                            <img src="{{ asset('assets/images/calculator/steel-sheets-plates.webp') }}" class="img-fluid rounded border w-100" alt="Steel Sheet Image">
                         </div>
                     </div>
                 </div>
@@ -223,7 +223,7 @@
 
                         <!-- Right: Image -->
                         <div class="col-lg-6 d-flex align-items-center">
-                            <img src="{{ asset('assets/images/calculator/seamless_steel_circular.jpg') }}" class="img-fluid rounded border w-100" alt="Pipe Image">
+                            <img src="{{ asset('assets/images/calculator/seamless_steel_circular.webp') }}" class="img-fluid rounded border w-100" alt="Pipe Image">
                         </div>
                     </div>
                 </div>
@@ -286,7 +286,7 @@
 
                         <!-- Right: Image -->
                         <div class="col-lg-6 d-flex align-items-center">
-                            <img src="{{ asset('assets/images/calculator/seamless_steel_circular.jpg') }}" class="img-fluid rounded border w-100" alt="Pipe Image">
+                            <img src="{{ asset('assets/images/calculator/seamless_steel_circular.webp') }}" class="img-fluid rounded border w-100" alt="Pipe Image">
                         </div>
                     </div>
                 </div>
@@ -348,7 +348,7 @@
 
                         <!-- Right: Image -->
                         <div class="col-lg-6 d-flex align-items-center">
-                            <img src="{{ asset('assets/images/calculator/Hollow_structural_sections-square.png') }}" class="img-fluid rounded border w-100" alt="Placeholder Image for Square Section">
+                            <img src="{{ asset('assets/images/calculator/Hollow_structural_sections-square.webp') }}" class="img-fluid rounded border w-100" alt="Placeholder Image for Square Section">
                         </div>
                     </div>
                 </div>
@@ -423,7 +423,7 @@
 
                         <!-- Right: Image -->
                         <div class="col-lg-6 d-flex align-items-center">
-                            <img src="{{ asset('assets/images/calculator/hollow_sections_rectangular.png') }}" class="img-fluid rounded border w-100" alt="Placeholder Image for Rectangular HSS">
+                            <img src="{{ asset('assets/images/calculator/hollow_sections_rectangular.webp') }}" class="img-fluid rounded border w-100" alt="Placeholder Image for Rectangular HSS">
                         </div>
                     </div>
                 </div>
@@ -474,7 +474,7 @@
 
                         <!-- Right: Image -->
                         <div class="col-lg-6 d-flex align-items-center">
-                            <img src="{{ asset('assets/images/calculator/roundbar.jpg') }}" class="img-fluid rounded border w-100" alt="Placeholder Image for Round Steel Bar">
+                            <img src="{{ asset('assets/images/calculator/roundbar.webp') }}" class="img-fluid rounded border w-100" alt="Placeholder Image for Round Steel Bar">
                         </div>
                     </div>
                 </div>
@@ -525,7 +525,7 @@
 
                         <!-- Right: Image -->
                         <div class="col-lg-6 d-flex align-items-center">
-                            <img src="{{ asset('assets\images\calculator\squaresteelbars.jpg') }}" class="img-fluid rounded border w-100" alt="Placeholder Image for Square Steel Bar">
+                            <img src="{{ asset('assets\images\calculator\squaresteelbars.webp') }}" class="img-fluid rounded border w-100" alt="Placeholder Image for Square Steel Bar">
                         </div>
                     </div>
                 </div>
@@ -589,7 +589,7 @@
 
                         <!-- Right: Image -->
                         <div class="col-lg-6 d-flex align-items-center">
-                            <img src="{{ asset('assets/images/calculator/Flatbars.jpg') }}" class="img-fluid rounded border w-100" alt="Placeholder Image for Flat Bar">
+                            <img src="{{ asset('assets/images/calculator/Flatbars.webp') }}" class="img-fluid rounded border w-100" alt="Placeholder Image for Flat Bar">
                         </div>
                     </div>
                 </div>
@@ -651,7 +651,7 @@
 
                         <!-- Right: Image -->
                         <div class="col-lg-6 d-flex align-items-center">
-                            <img src="{{ asset('assets\images\calculator\equal-angles.png') }}" class="img-fluid rounded border w-100 object-fit-cover" alt="Placeholder Image for Equal Angles">
+                            <img src="{{ asset('assets\images\calculator\equal-angles.webp') }}" class="img-fluid rounded border w-100 object-fit-cover" alt="Placeholder Image for Equal Angles">
                         </div>
                     </div>
                 </div>
@@ -751,7 +751,7 @@
 
                         <!-- Right: Image -->
                         <div class="col-lg-6 d-flex align-items-center">
-                            <img src="{{ asset('assets/images/calculator/unequal-angles.png') }}" class="img-fluid rounded border w-100" alt="Placeholder Image for Unequal Angles">
+                            <img src="{{ asset('assets/images/calculator/unequal-angles.webp') }}" class="img-fluid rounded border w-100" alt="Placeholder Image for Unequal Angles">
                         </div>
                     </div>
                 </div>
@@ -820,7 +820,7 @@
 
                         <!-- Right: Image -->
                         <div class="col-lg-6 d-flex align-items-center">
-                            <img src="{{ asset('assets/images/calculator/Channels-GOST.jpg') }}" class="img-fluid rounded border w-100" alt="Placeholder Image for Channels - GOST">
+                            <img src="{{ asset('assets/images/calculator/Channels-GOST.webp') }}" class="img-fluid rounded border w-100" alt="Placeholder Image for Channels - GOST">
                         </div>
                     </div>
                 </div>
@@ -900,7 +900,7 @@
 
                         <!-- Right: Image -->
                         <div class="col-lg-6 d-flex align-items-center">
-                            <img src="{{ asset('assets/images/calculator/Channels-UPN.jpg') }}" class="img-fluid rounded border w-100" alt="Placeholder Image for Channels - UPN">
+                            <img src="{{ asset('assets/images/calculator/Channels-UPN.webp') }}" class="img-fluid rounded border w-100" alt="Placeholder Image for Channels - UPN">
                         </div>
                     </div>
                 </div>
@@ -970,7 +970,7 @@
 
                         <!-- Right: Image -->
                         <div class="col-lg-6 d-flex align-items-center">
-                            <img src="{{ asset('assets/images/calculator/Beams-IPN.png') }}" class="img-fluid rounded border w-100" alt="I-Beam Illustration" />
+                            <img src="{{ asset('assets/images/calculator/Beams-IPN.webp') }}" class="img-fluid rounded border w-100" alt="I-Beam Illustration" />
                         </div>
                     </div>
                 </div>
@@ -1055,7 +1055,7 @@
 
                         <!-- Right: Image -->
                         <div class="col-lg-6 d-flex align-items-center">
-                            <img src="{{ asset('assets/images/calculator/Beams-IPE.png') }}" class="img-fluid rounded border w-100" alt="IPE Beam Illustration" />
+                            <img src="{{ asset('assets/images/calculator/Beams-IPE.webp') }}" class="img-fluid rounded border w-100" alt="IPE Beam Illustration" />
                         </div>
                     </div>
                 </div>
@@ -1146,7 +1146,7 @@
 
                         <!-- Right: Image -->
                         <div class="col-lg-6 d-flex align-items-center">
-                            <img src="{{ asset('assets/images/calculator/Beams-HEA(IPBL) .jpg') }}" class="img-fluid rounded border w-100" alt="HEA Beam Illustration" />
+                            <img src="{{ asset('assets/images/calculator/Beams-HEA(IPBL).webp') }}" class="img-fluid rounded border w-100" alt="HEA Beam Illustration" />
                         </div>
                     </div>
                 </div>
@@ -1226,7 +1226,7 @@
                         </div>
                         <!-- Right: Image -->
                         <div class="col-lg-6 d-flex align-items-center">
-                            <img src="{{ asset('assets/images/calculator/Beams-HEB-(IPB).png') }}" class="img-fluid rounded border w-100" alt="HEA Beam Illustration" />
+                            <img src="{{ asset('assets/images/calculator/Beams-HEB-(IPB).webp') }}" class="img-fluid rounded border w-100" alt="HEA Beam Illustration" />
                         </div>
                     </div>
                 </div>

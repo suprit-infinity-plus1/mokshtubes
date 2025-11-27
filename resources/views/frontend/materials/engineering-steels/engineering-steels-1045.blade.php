@@ -1,71 +1,148 @@
 @extends('layouts.master')
 
 @section('title', '1045 Engineering Steel | High Strength Steel')
-@section('meta_description', '1045 Engineering Steel offering superior strength, toughness, and wear resistance for
+@section('meta_description',
+    '1045 Engineering Steel offering superior strength, toughness, and wear resistance for
     mechanical, structural, and industrial applications.')
-@section('meta_keywords', '1045 Engineering Steel, high strength carbon steel, medium carbon steel, mechanical steel,
+@section('meta_keywords',
+    '1045 Engineering Steel, high strength carbon steel, medium carbon steel, mechanical steel,
     structural steel, durable steel, industrial steel')
 @section('og_image', asset('assets/images/engineering-steels/engineering-steels-1045.webp'))
 @section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(images/background/3.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>1045 Engineering Steel <br> High Strength Carbon Steel</h1>
+                    <h1>EN 1045 Engineering Steel (C1045 / SAE 1045)
+                        <br> High Strength Carbon Steel
+                    </h1>
                 </div>
             </div>
         </div>
     </section>
+<style>
 
-    <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    .material-tabs {
+    background: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #e5e5e5;
+    position: sticky;   /* you missed this */
+    top: 50px;             /* and this */
+    z-index: 1020;
+}
+
+.material-tabs a {
+    margin: 0 14px;
+    font-weight: 600;
+    color: #1b3c61 !important;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.25s ease;
+    display: inline-block;
+}
+
+.material-tabs a:hover {
+    color: #db7227 !important;
+    transform: translateY(-2px);
+}
+
+
+.material-tabs {
+    background: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #e5e5e5;
+    z-index: 1020;
+}
+
+.material-tabs a {
+    margin: 0 14px;
+    font-weight: 600;
+    color: #1b3c61 !important;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.25s ease;
+    display: inline-block;
+}
+
+.material-tabs a:hover {
+    color: #db7227 !important;
+    transform: translateY(-2px);
+}
+
+</style>
+<div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
+    <div class="container">
+        <a href="#overview">Overview</a> |
+        <a href="#composition">Chemical Composition</a> |
+        <a href="#heat-treatment">Heat Treatment</a> |
+        <a href="#mechanical">Mechanical Properties</a> |
+        <a href="#applications">Applications</a> |
+        <a href="#price">Price</a> |
+        <a href="#faq">FAQ</a>
+    </div>
+</div>
+
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
+
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
             </div>
 
-            <h2 class="fw-semibold text-center mb-5" style="color: #db7227;">
-                Introduction To EN 1045 / C1045 Steel
-            </h2>
+            <h3 class="fw-semibold text-center mb-5" style="color: #db7227;">
+                What Makes EN 1045 a Popular Engineering Steel?
+            </h3>
 
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
                     <img src="{{ asset('assets/images/engineering-steels/engineering-steels-1045.webp') }}" alt="en-1045"
-                        class="img-fluid rounded shadow-sm">
+                        class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
+
 
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
-                        <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong>is a manufacturer, supplier,
+                        <p class="fs-6 mb-4" style="text-align: justify;">
+                            <strong class="text-black">MOKSH TUBES & FITTINGS LLP</strong> is a manufacturer, supplier,
                             exporter, importer, and stockist of <strong class="text-black">EN 1045 steel products</strong>
-                            such as pipes,
-                            <a href="{{ route('products.pipes-tubes') }}"> tubes</a>, bars, plates, and fittings.
+                            including pipes, <a href="{{ route('products.pipes-tubes') }}">tubes</a>, bars, plates, and
+                            fittings.
+                        </p>
+
+                        <p class="fs-6 mb-3" style="text-align: justify;">
+                            <strong class="text-black">EN 1045 Engineering Steel</strong> also known as C1045, SAE 1045,
+                            or AISI 1045 is one of the most widely used medium-carbon steels. It offers a practical
+                            balance of strength, hardness, and machinability, making it an excellent choice for everyday
+                            mechanical and structural applications.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">EN 1045</strong>, commonly referred to as
-                            <strong class="text-black">C1045</strong> or <strong class="text-black">SAE 1045</strong>, is a
-                            medium carbon steel known for its good
-                            strength, hardness, and wear resistance. It offers a balance between ductility and strength,
-                            making it suitable for a wide range of mechanical and structural applications where moderate
-                            strength and toughness are required.
+                            Whether used for shafts, gears, bolts, machinery parts, or general engineering components,
+                            EN 1045 delivers reliable performance, good wear resistance, and consistent strength under load.
+                            Its versatility and affordability make it a preferred material for workshops, OEMs, and
+                            fabrication industries.
                         </p>
+
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <!--End breadcrumb area-->
+
+    <section class="sec-padd-top sec-padd-bottom" id="composition">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>Chemical Composition of EN 1045 Steel</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -113,7 +190,7 @@
             <!-- Physical Properties Table -->
             <div class="row justify-content-center mb-5">
                 <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
+                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties of EN 1045 Steel</h4>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -164,11 +241,64 @@
                     </div>
                 </div>
             </div>
+            <div class="row justify-content-center mb-5" id="heat-treatment">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color: #db7227;">Heat Treatment of 1045 Steel</h4>
 
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr>
+                                    <th class="text-center">Heat Treatment Process</th>
+                                    <th class="text-center">Temperature Range</th>
+                                    <th class="text-center">Cooling / Procedure</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr class = "t-row">
+                                    <td><strong>Annealing</strong></td>
+                                    <td>790–870°C</td>
+                                    <td>slow furnance cool</td>
+                                </tr>
+
+                                <tr class = "t-row">
+                                    <td><strong>Normalizing</strong></td>
+                                    <td>830–860°C</td>
+                                    <td>Air cool</td>
+                                </tr>
+
+                                <tr class = "t-row">
+                                    <td><strong>Hardening</strong></td>
+                                    <td>800–820°C</td>
+                                    <td>Quench in water or oil</td>
+                                </tr>
+
+                                <tr class = "t-row">
+                                    <td><strong>Tempering</strong></td>
+                                    <td>400–650°C</td>
+                                    <td>Reheat depending on required hardness</td>
+                                </tr>
+
+                                <tr class = "t-row">
+                                    <td><strong>Stress Relieving</strong></td>
+                                    <td>540–650°C</td>
+                                    <td>Hold for 1–2 hours</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="sec-padd-top sec-padd-bottom" id="mechanical">
             <!-- Mechanical Properties Table -->
             <div class="row justify-content-center">
                 <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+                  
+                    <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color: #174268;">Mechanical Properties of EN 1045 Steel</h2>
+            </div>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -246,29 +376,68 @@
         </div>
     </section>
 
+<section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades</h2>
+            </div>
 
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered text-center">
+                    <thead class="table-dark">
+                        <tr class = "t-row" class = "t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class = "t-row">
+                            <td>EN</td>
+                            <td>EN 1045</td>
+                        </tr>
+                        <tr class = "t-row">
+                            <td>AISI / SAE</td>
+                            <td>1045</td>
+                        </tr>
+                        <tr class = "t-row">
+                            <td>DIN</td>
+                            <td>CK45</td>
+                        </tr>
+                        <tr class = "t-row">
+                            <td>JIS</td>
+                            <td>S45C</td>
+                        </tr>
+                        <tr class = "t-row">
+                            <td>GB</td>
+                            <td>45</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+</section>
     @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
                 'route' => 'products.pipes-tubes.seamless-pipes',
-                'image' => 'assets/images/all product/seamless-pipes-10.jpg',
+                'image' => 'assets/images/all product/seamless-pipes-10.webp',
             ],
 
             [
                 'name' => 'Welded Pipes (ERW & EFW)',
                 'route' => 'products.pipes-tubes.welded-pipes',
-                'image' => 'assets/images/all product/welded-pipes-tubes-1.jpg',
+                'image' => 'assets/images/all product/welded-pipes-tubes-1.webp',
             ],
             [
                 'name' => 'Tubes (Capillary, U-Bend)',
                 'route' => 'products.pipes-tubes.u-bent-tubes',
-                'image' => 'assets/images/all product/11zon_resized.jpg',
+                'image' => 'assets/images/all product/u-bent-tube.webp',
             ],
             [
                 'name' => 'Sheets & Plates',
                 'route' => 'products.sheets-plates-coils.sheets-and-plates',
-                'image' => 'assets/images/all product/sheets-plates.jpg',
+                'image' => 'assets/images/all product/sheets-plates.webp',
             ],
             [
                 'name' => 'Coils & Strips',
@@ -293,17 +462,17 @@
             [
                 'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
                 'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
-                'image' => 'assets/images/all product/FASTENERS-1.png',
+                'image' => 'assets/images/all product/FASTENERS.webp',
             ],
             [
                 'name' => 'Custom Fabricated Components',
                 'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
-                'image' => 'assets/images/all product/custom-metal-fabricated.jpg',
+                'image' => 'assets/images/all product/custom-metal-fabricated.webp',
             ],
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Engineering Steel 1045</h2>
@@ -363,7 +532,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -402,10 +571,10 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="applications">
         <div class="container">
             <div class="section-title center">
-                <h2>Applications of Titanium Grade 2</h2>
+                <h2>Applications</h2>
                 <p class="text-center pb-3"><strong class="text-dark">Engineering Steel 1045</strong> is widely used in:
                 </p>
             </div>
@@ -435,43 +604,92 @@
                         <p>Structural parts requiring moderate strength and toughness.</p>
                     </div>
                 </div>
-
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="ri-node-tree"></i></div>
+                        <h5>Structural Engineering</h5>
+                        <p>Base plates, Brackets, Supports
+                            Load-bearing components
+                        </p>
+                    </div>
+                </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-droplet"></i></div>
                         <h5>Manufacturing</h5>
-                        <p>Tools, dies, and heavy-duty components requiring wear resistance.</p>
+                        <p>Tools, dies, Jigs & fixtures and heavy-duty components requiring wear resistance.</p>
                     </div>
                 </div>
 
-                {{-- <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
-                        <h5>Aerospace Industry</h5>
-                        <p>Used in structural frames, tubing, and fuel systems where strength-to-weight ratio is crucial.
-                        </p>
-                    </div>
-                </div>
 
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
-                        <h5>Medical and Pharmaceutical Equipment</h5>
-                        <p>Favored for surgical tools, implants, and cleanroom processing systems because of its purity and
-                            biocompatibility.</p>
-                    </div>
-                </div> --}}
-
-                {{-- <div class="col-md-6 col-lg-4">
-                <div class="application-card">
-                     <div class="application-icon"><i class="bi bi-strategies"></i></div>
-                    <h5>Why It Works</h5>
-                    <p><strong>HASTELLOY C276’s</strong> combination of corrosion resistance, weldability, and mechanical durability makes it ideal for mission-critical applications where long-term performance is non-negotiable.</p>
-                </div>
-            </div> --}}
             </div>
         </div>
     </section>
+<section class="sec-padd-top sec-padd-bottom" id="uses">
+    <div class="container">
+        <div class="section-title center">
+            <h2>Advantages</h2>
+        </div>
+
+        <div class="row g-4 mt-4 justify-content-center">
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="advantage-card h-100 d-flex flex-column">
+                    <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                    <h5 class="flex-grow-1 d-flex align-items-center justify-content-center text-center">
+                        Reliable medium carbon steel for everyday engineering work
+                    </h5>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="advantage-card h-100 d-flex flex-column">
+                    <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
+                    <h5 class="flex-grow-1 d-flex align-items-center justify-content-center text-center">
+                        Strong, tough, and able to withstand impact
+                    </h5>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="advantage-card h-100 d-flex flex-column">
+                    <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
+                    <h5 class="flex-grow-1 d-flex align-items-center justify-content-center text-center">
+                        Good machinability for turning, milling, drilling
+                    </h5>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="advantage-card h-100 d-flex flex-column">
+                    <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
+                    <h5 class="flex-grow-1 d-flex align-items-center justify-content-center text-center">
+                        Can be heat-treated for improved hardness
+                    </h5>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="advantage-card h-100 d-flex flex-column">
+                    <div class="advantage-icon"><i class="ri-hand-coin-fill"></i></div>
+                    <h5 class="flex-grow-1 d-flex align-items-center justify-content-center text-center">
+                        Affordable and widely available
+                    </h5>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="advantage-card h-100 d-flex flex-column">
+                    <div class="advantage-icon"><i class="ri-dashboard-2-fill"></i></div>
+                    <h5 class="flex-grow-1 d-flex align-items-center justify-content-center text-center">
+                        Performs well in general-purpose mechanical components
+                    </h5>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
 
 
     <section class="sec-padd-top sec-padd-bottom bg-light">
@@ -518,9 +736,19 @@
             </div>
         </div>
     </section>
-
+    {{-- price --}}
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light" id="price">
+        <div class="container text-center">
+            <h2>1045 Steel Price per kg in India</h2>
+            <p>Typical price range: ₹85 – ₹150 per kg
+                (Varies by size, heat treatment, surface finish, and quantity).</p>
+            
+            <p>Contact us for exact quotation based on size and quantity.</p>
+        </div>
+    </section>
+    {{-- price --}}
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section class="faq-content-area sec-padd2" id="faq">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">

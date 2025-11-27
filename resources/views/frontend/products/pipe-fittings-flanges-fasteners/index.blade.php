@@ -6,7 +6,7 @@
     'Pipe Fittings, Flanges, Fasteners, Stainless Steel Fittings, Nickel Alloy Fittings, Titanium Fittings, Custom Fabricated Fittings')
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/flangs/Flanges-&-Pipe-Fittings.webp);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/flangs/Flanges-&-Pipe-Fittings.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -31,27 +31,27 @@
                         [
                             'name' => 'Fittings And Flanges',
                             'slug' => 'fittings-and-flanges',
-                            'image' => 'assets/images/peoduct/flangs/Flanges-&-Pipe-Fittings.webp',
+                            'image' => 'assets/images/product/flangs/Flanges-&-Pipe-Fittings.webp',
                         ],
                         [
                             'name' => 'Flanges And Gaskets',
                             'slug' => 'flanges-and-gaskets',
-                            'image' => 'assets/images/peoduct/flangs/Flange-Gaskets.jpg',
+                            'image' => 'assets/images/product/flangs/Flange-Gaskets.webp',
                         ],
                         [
                             'name' => 'Custom Fabricated Fittings',
                             'slug' => 'custom-fabricated-fittings',
-                            'image' => 'assets/images/peoduct/flangs/custom-fabricated-fittings.jpeg',
+                            'image' => 'assets/images/product/flangs/custom-fabricated-fittings.webp',
                         ],
                         [
                             'name' => 'Fasteners',
                             'slug' => 'fasteners',
-                            'image' => 'assets/images/peoduct/flangs/FASTENERS.jpeg',
+                            'image' => 'assets/images/product/flangs/FASTENERS.webp',
                         ],
                         [
                             'name' => 'Pipe Fittings ',
                             'slug' => 'pipe-fittings ',
-                            'image' => 'assets/images/peoduct/flangs/Pipe-Fittings.jpg',
+                            'image' => 'assets/images/product/flangs/Pipe-Fittings.webp',
                         ],
                     ];
                 @endphp
@@ -62,7 +62,7 @@
         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
              style="border-color: #db7227; transition: 0.3s;">
 
-            <img src="{{ asset($type['image'] ?? 'assets/images/default.jpg') }}"
+            <img src="{{ asset($type['image'] ?? 'assets/images/default.webp') }}"
                  alt="{{ $type['name'] }}"
                  class="img-fluid rounded mb-3"
                  style="border-radius: 8px;">

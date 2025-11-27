@@ -1,0 +1,1002 @@
+<?php $__env->startSection('title', 'Chequered Sheets – Anti-Slip Flooring & Tread Plates'); ?> <!-- 52 characters -->
+<?php $__env->startSection('meta_description',
+    'Stainless, aluminum, and carbon steel chequered sheets from Moksh Tubes — ideal for anti-slip flooring, ramps, stairs, and industrial applications.'); ?> <!-- 153 characters -->
+<?php $__env->startSection('meta_keywords',
+    'Chequered Sheets, Tread Plates, Checker Plates, Anti-Slip Sheets, Stainless Steel Chequered
+    Sheets, Aluminum Chequered Sheets, Carbon Steel Chequered Sheets, Industrial Flooring Sheets'); ?>
+    <?php $__env->startSection('og_image', asset('assets/images/product/Sheets-Plates-and-Coils/chequered-sheets.webp')); ?>
+<?php $__env->startSection('og_type', 'article'); ?>
+<?php $__env->startSection('content'); ?>
+    <!--Start breadcrumb area-->
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/Sheets-Plates-and-Coils/chequered-sheets.webp);">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-auto text-center">
+                    <h1>Anti-Slip Chequered Sheets for Industrial Use</h1> <!-- 52 characters -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center mb-4">
+                <h2 class="fw-bold" style="color: #174268;">Chequered Sheets</h2>
+            </div>
+
+            <div class="row align-items-center">
+                <!-- Left Image -->
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <img src="<?php echo e(asset('assets/images/product/Sheets-Plates-and-Coils/chequered-sheets.webp')); ?>"
+                        alt="Seamless pipes" class="img-fluid rounded shadow-sm">
+                </div>
+
+                <!-- Right Content -->
+                <div class="col-md-6">
+                    <p class="fs-6 mb-3 text-justify">
+                        <strong>Chequered Sheets</strong> (also known as tread plates or checker plates) are widely used in
+                        construction, transportation, architecture, and industrial flooring due to their anti-slip
+                        properties and durability. The <a href="<?php echo e(route('products.sheets-plates-coils')); ?>">sheets</a>
+                        feature a raised, textured pattern such as diamond, tear
+                        drop, or lentil designs providing enhanced grip and safety in both wet and dry conditions.
+                    </p>
+                    <p class="fs-6 mb-3 text-justify">
+                        Manufactured from a variety of <a href="<?php echo e(route('materials')); ?>">materials</a> including stainless
+                        steel, carbon steel, aluminum, and
+                        alloys, chequered sheets are valued for their <a
+                            href="<?php echo e(route('materials.high-strength-stainless-steel')); ?>">high strength</a>, corrosion
+                        resistance, and low
+                        maintenance requirements.
+                    </p>
+                    <p class="fs-6 text-justify">
+                        <strong><a href="<?php echo e(route('index')); ?>">Moksh Tubes & Fittings LLP</a></strong> offers high quality
+                        chequered sheets in multiple grades, finishes, and patterns that comply with global standards (ASTM,
+                        ASME, <a href="<?php echo e(route('materials.engineering-Steels')); ?>">EN</a>, IS). Our products are ideal for
+                        heavy duty industrial applications as well as decorative
+                        and architectural uses.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Specifications</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Category</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-start">
+                                <tr class="t-row">
+                                    <td>Material</td>
+                                    <td>Stainless Steel, Carbon Steel, Mild Steel, <a
+                                            href="<?php echo e(route('materials.aluminium-Alloys')); ?>">Aluminum</a>, Alloy Steel</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Grades</td>
+                                    <td>ASTM/ASME certified – all mentioned materials available</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Sheet Size</td>
+                                    <td>1000 × 2000 mm, 1250 × 2500 mm, 1500 × 3000 mm (custom sizes available)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Wall Thickness </td>
+                                    <td>1.5 mm to 12 mm (custom sizes on request)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Patterns</td>
+                                    <td>Diamond, Tear Drop, Lentil, Checker</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Finishes</td>
+                                    <td>Mill Finish, Polished, Matte, Anodized (for aluminum)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Standards</td>
+                                    <td>ASTM A240, ASTM B209, IS 3502, EN 10088, JIS G4304</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Applications</td>
+                                    <td>Flooring, Walkways, Ramps, Stair Treads, Industrial Platforms</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2 class="fw-bold" style="color: #174268;">Charts</h2>
+
+
+            </div>
+            <!-- Child Title -->
+            <div class="section-title center mb-3">
+                <h4 class="text-center mb-0" style="color: #db7227;">Standard Thickness Range</h4>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped text-center align-middle">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Material Type</th>
+                            <th>Thickness (mm)</th>
+                            <th>Thickness (inch)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Stainless Steel</td>
+                            <td>1.5 – 12</td>
+                            <td>0.059 – 0.472</td>
+                        </tr>
+                        <tr>
+                            <td>Carbon / Mild Steel</td>
+                            <td>2 – 25</td>
+                            <td>0.079 – 0.984</td>
+                        </tr>
+                        <tr>
+                            <td>Aluminium</td>
+                            <td>2 – 10</td>
+                            <td>0.079 – 0.394</td>
+                        </tr>
+                        <tr>
+                            <td>Copper / Brass</td>
+                            <td>2 – 6</td>
+                            <td>0.079 – 0.236</td>
+                        </tr>
+
+                        <!-- Add more rows as needed -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section class="bg-light" style="padding-top: 80px;">
+        <div class="container">
+
+            <!-- Parent Title -->
+            <div class="section-title center mb-4">
+                <h2 class="fw-bold" style="color: #174268;">Size Charts</h2>
+            </div>
+
+            <!-- Child Title -->
+            <div class="section-title center mb-3">
+                <h4 class="text-center mb-0" style="color: #db7227;">Standard Sheet Sizes</h4>
+            </div>
+
+
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Size (mm)</th>
+                                    <th>Size (inch)</th>
+                                    <th>Notes</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr class="t-row">
+                                    <td>1000 × 2000</td>
+                                    <td>39 × 79</td>
+                                    <td>Standard sheet</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>1250 × 2500</td>
+                                    <td>49 × 98</td>
+                                    <td>Heavy-duty applications</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>1500 × 3000</td>
+                                    <td>59 × 118</td>
+                                    <td>Structural use</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>2000 × 4000</td>
+                                    <td>79 × 157</td>
+                                    <td>Large flooring panels</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Custom Sizes</td>
+                                    <td>—</td>
+                                    <td>Available on request</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+
+            <section class="bg-light" style="padding-top: 80px;">
+
+                <div class="container">
+                    <div class="section-title center">
+                        <h2 class="fw-bold" style="color: #174268;">Chequered Sheet Weight Chart</h2>
+
+
+                    </div>
+                    <!-- Child Title -->
+                    <div class="section-title center mb-3">
+                        <h4 class="text-center mb-0" style="color: #db7227;">Mild Steel (Density 7.85 g/cm³)</h4>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-lg-12">
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-striped align-middle">
+                                    <thead class="table-dark text-center">
+                                        <tr class="t-row">
+                                            <th>Thickness (mm)</th>
+                                            <th>1000 × 2000 mm (kg)</th>
+                                            <th>1200 × 2400 mm (kg)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="text-center">
+                                        <tr class="t-row">
+                                            <td>2</td>
+                                            <td>31.6</td>
+                                            <td>45.2</td>
+                                        </tr>
+                                        <tr class="t-row">
+                                            <td>3</td>
+                                            <td>47.4</td>
+                                            <td>67.8</td>
+                                        </tr>
+                                        <tr class="t-row">
+                                            <td>4</td>
+                                            <td>63.2</td>
+                                            <td>90.4</td>
+                                        </tr>
+                                        <tr class="t-row">
+                                            <td>5</td>
+                                            <td>79.0</td>
+                                            <td>113.0</td>
+                                        </tr>
+                                        <tr class="t-row">
+                                            <td>6</td>
+                                            <td>94.8</td>
+                                            <td>135.6</td>
+                                        </tr>
+                                        <tr class="t-row">
+                                            <td>8</td>
+                                            <td>126.4</td>
+                                            <td>180.8</td>
+                                        </tr>
+                                        <tr class="t-row">
+                                            <td>10</td>
+                                            <td>158.0</td>
+                                            <td>226.0</td>
+                                        </tr>
+                                        <tr class="t-row">
+                                            <td>12</td>
+                                            <td>189.6</td>
+                                            <td>271.2</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-light" style="padding-top: 80px;">
+
+                <!-- Child Title -->
+                <div class="section-title center mb-3">
+                    <h4 class="text-center mb-0" style="color: #db7227;">Stainless Steel (Density 8.0 g/cm³)</h4>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-striped align-middle">
+                                <thead class="table-dark text-center">
+                                    <tr class="t-row">
+                                        <th>Thickness (mm)</th>
+                                        <th>1000 × 2000 mm (kg)</th>
+                                        <th>1200 × 2400 mm (kg)</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="text-center">
+                                    <tr class="t-row">
+                                        <td>1.5</td>
+                                        <td>23.5</td>
+                                        <td>33.6</td>
+                                    </tr>
+                                    <tr class="t-row">
+                                        <td>2</td>
+                                        <td>31.4</td>
+                                        <td>44.8</td>
+                                    </tr>
+                                    <tr class="t-row">
+                                        <td>3</td>
+                                        <td>47.1</td>
+                                        <td>67.2</td>
+                                    </tr>
+                                    <tr class="t-row">
+                                        <td>4</td>
+                                        <td>62.8</td>
+                                        <td>89.6</td>
+                                    </tr>
+                                    <tr class="t-row">
+                                        <td>5</td>
+                                        <td>78.5</td>
+                                        <td>112.0</td>
+                                    </tr>
+                                    <tr class="t-row">
+                                        <td>6</td>
+                                        <td>94.2</td>
+                                        <td>134.4</td>
+                                    </tr>
+                                    <tr class="t-row">
+                                        <td>8</td>
+                                        <td>125.6</td>
+                                        <td>179.2</td>
+                                    </tr>
+                                    <tr class="t-row">
+                                        <td>10</td>
+                                        <td>157.0</td>
+                                        <td>224.0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section class="bg-light sec-padd-top sec-padd-bottom" style="">
+        <div class="container">
+
+
+            <!-- Child Title -->
+            <div class="section-title center mb-3">
+                <h4 class="text-center mb-0" style="color: #db7227;">Aluminum (Density 2.7 g/cm³)</h4>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Thickness (mm)</th>
+                                    <th>1000 × 2000 mm (kg)</th>
+                                    <th>1200 × 2400 mm (kg)</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr class="t-row">
+                                    <td>2</td>
+                                    <td>10.8</td>
+                                    <td>17.3</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>3</td>
+                                    <td>16.2</td>
+                                    <td>25.9</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>4</td>
+                                    <td>21.6</td>
+                                    <td>34.6</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>5</td>
+                                    <td>27.0</td>
+                                    <td>43.3</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>6</td>
+                                    <td>32.4</td>
+                                    <td>51.9</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>8</td>
+                                    <td>43.2</td>
+                                    <td>69.2</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>10</td>
+                                    <td>54.0</td>
+                                    <td>86.5</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+    <section class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Grades Available</h2>
+            </div>
+            <div class="section-title center mb-3">
+                <h4 class="text-center mb-0" style="color: #db7227;">Chequered Sheets are manufactured in a variety of
+                    grades to match different functional and environmental needs</h4>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Material</th>
+                                    <th>Grades</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Stainless Steel Grades</td>
+                                    <td><a href="<?php echo e(route('materials.austenitic-stainless-Steel')); ?>">304, 304L, 316, 316L,
+                                            321</a> – ideal for corrosion resistance and hygiene critical
+                                        applications.</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Carbon & Mild Steel</td>
+                                    <td>
+                                        IS2062, ASTM A36 – widely used in construction and structural purposes.
+                                    </td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Aluminum Grades</td>
+                                    <td>
+                                        6061, 6063, 5754, 1100 – lightweight with excellent corrosion resistance, perfect
+                                        for transport and marine applications.
+                                    </td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Alloy Steel</td>
+                                    <td>
+                                        Grades for heavy duty and industrial platforms requiring high strength.
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    
+    <section class="our-services">
+        <div class="container">
+            <div class="container">
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="<?php echo e(route('materials.nickel-Based-Superalloys')); ?>">
+                                <img class="w-100" src="<?php echo e(asset('assets/images/product/NICKLE-ALLOYS.webp')); ?>"
+                                    alt="NICKLE ALLOYS">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">NICKLE ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="<?php echo e(route('materials.austenitic-stainless-Steel')); ?>">
+                                <img class="w-100" src="<?php echo e(asset('assets/images/product/STAINLESS-STEEL.webp')); ?>"
+                                    alt="STAINLESS STEEL">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">STAINLESS STEEL</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="<?php echo e(route('materials.duplex-and-super-duplex')); ?>">
+                                <img class="w-100" src="<?php echo e(asset('assets/images/product/DUPLEX-SUPER.webp')); ?>"
+                                    alt="DUPLEX & SUPER">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">DUPLEX & SUPER</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="<?php echo e(route('materials.titanium')); ?>">
+                                <img class="w-100" src="<?php echo e(asset('assets/images/product/TITANIUM-ALLOYS.webp')); ?>"
+                                    alt="TITANIUM ALLOYS">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4 ">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="<?php echo e(route('materials.haynes-Superalloys')); ?>">
+                                <img class="w-100" src="<?php echo e(asset('assets/images/product/RARE-TO-ALLOYS.webp')); ?>"
+                                    alt="Haynes Superalloys">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Haynes Superalloys</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <div class="single-our-service border">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="<?php echo e(route('materials.inconel')); ?>">
+                                <img class="w-100" src="<?php echo e(asset('assets/images/product/CARBON-ALLOYS.webp')); ?>"
+                                    alt="Inconel">
+                            </a>
+                        </figure>
+                        <div class="p-2 text-center">
+                            <h6 class="mt-0">Inconel</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    
+    <section class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Applications</h2>
+                <p class="text-center pb-3">
+                    <strong class="text-black"> Chequered Sheets</strong> are extensively used across industries for
+                    safety, durability, and design
+                </p>
+            </div>
+
+            <div class="row g-4">
+
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-droplet"></i></div>
+                        <h5>Construction & Architecture</h5>
+                        <ul>
+                            <li>
+                                Flooring for staircases, corridors, ramps, and walkways
+                            </li>
+                            <li>
+                                Decorative panels, facades, and wall claddings
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
+                        <h5>Transportation</h5>
+                        <ul>
+                            <li>
+                                Truck beds, bus steps, trailer flooring, and vehicle ramps
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-lightning-charge-fill"></i></div>
+                        <h5>Public Infrastructure</h5>
+                        <ul>
+                            <li>
+                                Railway stations, airports, pedestrian bridges, and subways
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-capsule"></i></div>
+                        <h5>Marine & Offshore</h5>
+                        <ul>
+                            <li>
+                                Boat decks, ship flooring, and dockside safety surfaces
+                            </li>
+                            <li>
+                                Offshore platform walkways and maintenance areas
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-recycle"></i></div>
+                        <h5>Industrial & Heavy-Duty Use</h5>
+
+                        <ul>
+                            <li>
+                                Platforms, catwalks, oil rigs, and factory flooring
+                            </li>
+                            <li>
+                                Machine rooms and industrial sheds
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Uses of Chequered sheets</h2>
+            </div>
+            <!-- Child Title -->
+            <div class="section-title center mb-3">
+                <h4 class="text-center mb-0" style="color: #db7227;">Chequered sheets are used extensively across multiple
+                    industries, including:</h4>
+            </div>
+            <div class="row g-4 mt-4">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h4>Safety Flooring</h4>
+                        <h5>Provides anti slip protection in wet, oily, or high traffic areas</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
+                        <h4>Platform Reinforcement</h4>
+                        <h5>Adds strength and durability to industrial platforms and surfaces</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
+                        <h4>Architectural Applications</h4>
+                        <h5>Enhances aesthetics in commercial, public, and decorative spaces</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
+                        <h4>Lightweight Solutions</h4>
+                        <h5>Aluminum variants reduce overall load while ensuring safety</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
+                        <h4>Harsh Environment Use</h4>
+                        <h5>Performs reliably in industrial, marine, and outdoor conditions</h5>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Advantages of Chequered sheets</h2>
+            </div>
+
+            <div class="row g-4 mt-4">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h4>Anti Slip Surface</h4>
+                        <h5>Enhanced safety for walkways, ramps, and stair treads</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
+                        <h4>Durable & Strong</h4>
+                        <h5>Withstands heavy loads and high traffic use</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
+                        <h4>Corrosion Resistance</h4>
+                        <h5>Stainless and aluminum sheets are ideal for marine & outdoor use</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-6">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
+                        <h4>Low Maintenance</h4>
+                        <h5>Easy to clean and maintain over time</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-6">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-building-gear"></i></div>
+                        <h4>Versatile Applications</h4>
+                        <h5>Functional and decorative across multiple industries</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>(FAQ) – Chequered Sheets</h2>
+                        </div>
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are chequered sheets?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    Chequered sheets are metal sheets with raised patterns or embossing, usually in diamond,
+                                    square, or circular shapes, designed to provide anti slip properties and enhanced grip
+                                    for flooring and industrial applications.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Which materials are chequered sheets available in?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>
+                                    They are commonly available in stainless steel, aluminum, carbon steel, mild steel, and
+                                    alloy steel depending on the intended use.
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What thickness range is offered for chequered sheets?
+                                </div>
+                                <div class="accord-content">
+                                    <p>
+                                        Chequered sheets typically range from 1.5 mm to 12 mm in thickness, with <a
+                                        href="<?php echo e(url('products/pipe-fittings-flanges-fasteners/custom-fabricated-fittings')); ?>">custom</a>
+                                        thicknesses available on request.
+                                    </p>
+                                </div>
+                            </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the common patterns in chequered sheets?
+                                </div>
+                            <div class="accord-content">
+                                <p>
+                                    Diamond pattern (most common)<br>
+                                    Round/checkered pattern<br>
+                                    Custom patterns as per design requirements
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>What are the typical applications of chequered sheets?
+                                </div>
+                            <div class="accord-content">
+                                <p>
+                                    Flooring in industrial and commercial areas<br>
+                                    Stair treads and ramps for anti slip protection<br>
+                                    Vehicle steps and platforms<br>
+                                    Decorative panels and wall cladding<br>
+                                    Marine and offshore applications
+                                </p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+    
+    
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container text-center">
+            <div class="section-title center">
+                <h2>WHY CHOOSE US?</h2>
+            </div>
+
+            <div class="row g-4 mt-4">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
+                        <h5>Wide <a href="<?php echo e(route('products')); ?>">Product</a> Range: Diamond, tear drop, and custom
+                            patterns</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
+                        <h5>Premium Quality Materials: Certified to ASTM/ASME/EN/IS standards
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
+                        <h5>Customization Options: Sizes, thickness, and finishes tailored to project needs
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
+                        <h5>Global Supply Network: Serving construction, industrial, and transport sectors worldwide
+                    </div>
+                </div>
+
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
+                        <h5>Reliable Delivery: Efficient logistics and on time dispatch for every order
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="contact-cta-box">
+                <h2>Contact Us</h2>
+                <p>
+                    Looking for high-quality Chequered Sheets for industrial, construction, or architectural projects?
+                    <a href="<?php echo e(route('index')); ?>">Moksh Tubes & Fittings LLP</a></strong>
+                </p>
+                <!-- Call button -->
+                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                    data-bs-target="#contactFormModal">
+                    Get in Touch
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!--End breadcrumb area-->
+
+
+<?php $__env->stopSection(); ?>
+<?php $__env->startSection('jsscripts'); ?>
+    <script type="application/ld+json">
+        
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                "@type": "Question",
+                "name": "What are chequered sheets?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Chequered sheets are metal sheets with raised patterns or embossing, usually in diamond, square, or circular shapes, designed to provide anti-slip properties and enhanced grip for flooring and industrial applications."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "Which materials are chequered sheets available in?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Chequered sheets are commonly available in stainless steel, aluminum, carbon steel, mild steel, and alloy steel depending on the intended use."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What thickness range is offered for chequered sheets?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Chequered sheets typically range from 1.5 mm to 12 mm in thickness, with custom thicknesses available on request."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the common patterns in chequered sheets?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Common patterns in chequered sheets include diamond pattern (most common), round/checkered pattern, and custom patterns as per design requirements."
+                }
+                },
+                {
+                "@type": "Question",
+                "name": "What are the typical applications of chequered sheets?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Chequered sheets are used for flooring in industrial and commercial areas, stair treads and ramps for anti-slip protection, vehicle steps and platforms, decorative panels and wall cladding, and marine or offshore applications."
+                }
+                }
+            ]
+            }
+            
+        
+    </script>
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layouts.master', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH C:\xampp\htdocs\mokshtube\resources\views/frontend/products/sheets-plates-coils/chequered-sheets.blade.php ENDPATH**/ ?>

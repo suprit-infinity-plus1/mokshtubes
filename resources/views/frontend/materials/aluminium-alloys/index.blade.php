@@ -11,7 +11,7 @@ Aluminium Alloys, Industrial Aluminium Grades')
 @section('content')
 
 <!--Start breadcrumb area-->
-<section class="breadcrumb-area" style="background-image: url(/assets/images/aluminium-alloys/aluminium-banner.jpeg);">
+<section class="breadcrumb-area" style="background-image: url(/assets/images/aluminium-alloys/aluminium-banner.webp);">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-auto text-center">

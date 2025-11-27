@@ -7,7 +7,7 @@
     Boiler Tubes, Stainless Steel Pipes, Nickel Tubes, Titanium Tubes')
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/hollow-section-pipe.webp);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/hollow-section-pipe.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -31,32 +31,32 @@
                         [
                             'name' => 'Welded Pipes & Tubes (ERW & EFW)',
                             'slug' => 'welded-pipes-and-tubes',
-                            'image' => 'assets/images/peoduct/welded-pipes-tubes.webp',
+                            'image' => 'assets/images/product/welded-pipes-tubes.webp',
                         ],
                         [
                             'name' => 'Seamless Pipes',
                             'slug' => 'seamless-pipes',
-                            'image' => 'assets/images/peoduct/seamless-pipes-2.webp',
+                            'image' => 'assets/images/product/seamless-pipes.webp',
                         ],
                         [
                             'name' => 'Capillaries',
                             'slug' => 'capillaries',
-                            'image' => 'assets/images/peoduct/capillary-tubes.webp',
+                            'image' => 'assets/images/product/capillary-tubes.webp',
                         ],
                         [
                             'name' => 'Hollow Section Pipe',
                             'slug' => 'hollow-section-pipe',
-                            'image' => 'assets/images/peoduct/hollow-section-pipe.webp',
+                            'image' => 'assets/images/product/hollow-section-pipe.webp',
                         ],
                         [
                             'name' => 'U-Bent Tubes',
                             'slug' => 'u-bent-tubes',
-                            'image' => 'assets/images/peoduct/u-bent-tubes.webp',
+                            'image' => 'assets/images/product/u-bent-tubes.webp',
                         ],
                         [
                             'name' => 'Boiler & Heat Exchanger Tubes',
                             'slug' => 'boiler-heat-exchanger-tubes',
-                            'image' => 'assets/images/peoduct/boiler-heat-exchanger-tubes.webp',
+                            'image' => 'assets/images/product/boiler-heat-exchanger-tubes.webp',
                         ],
                     ];
                 @endphp
@@ -67,7 +67,7 @@
         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
              style="border-color: #db7227; transition: 0.3s;">
             
-            <img src="{{ asset($type['image'] ?? 'assets/images/default.jpg') }}"
+            <img src="{{ asset($type['image'] ?? 'assets/images/default.webp') }}"
                  alt="{{ $type['name'] }}"
                  class="img-fluid rounded mb-3"
                  style="border-radius: 8px;">

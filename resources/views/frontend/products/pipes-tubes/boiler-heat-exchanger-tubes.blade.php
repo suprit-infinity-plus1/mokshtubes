@@ -9,12 +9,12 @@
         content="Stainless Steel, Alloy Steel, Duplex, Nickel, Titanium boiler & heat exchanger tubes. Worldwide supplier with fast delivery.">
     <meta property="og:image" content="/assets/images/product/boiler-heat-exchanger-tubes.webp">
     <meta property="og:url" content="https://mokshtubes.com/products/pipes-tubes/boiler-heat-exchanger-tubes"> --}}
-    @section('og_image', asset('assets/images/peoduct/boiler-and-heat.webp'))
+    @section('og_image', asset('assets/images/product/boiler-and-heat.webp'))
 @section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/boiler-heat-banner.webp);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/boiler-heat-banner.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -35,7 +35,7 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('/assets/images/peoduct/boiler-and-heat.webp') }}"
+                    <img src="{{ asset('/assets/images/product/boiler-and-heat.webp') }}"
                         alt="Boiler & Heat Exchanger Tubes" class="img-fluid rounded shadow-sm" width="550"
                         height="350" loading="lazy">
                 </div>
@@ -1827,7 +1827,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}"
+                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
                                     alt="Nickel alloy tubes for heat exchangers" loading="lazy" width="400"
                                     height="260">
                             </a>
@@ -1841,7 +1841,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}"
+                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
                                     alt="Stainless steel boiler and condenser tubes" loading="lazy" width="400"
                                     height="260">
                             </a>
@@ -1855,7 +1855,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}"
+                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
                                     alt="Duplex and super duplex tubes for seawater service" loading="lazy"
                                     width="400" height="260">
                             </a>
@@ -1870,7 +1870,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.titanium') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}"
+                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
                                     alt="Titanium heat exchanger and condenser tubes" loading="lazy" width="400"
                                     height="260">
                             </a>
@@ -1884,7 +1884,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}"
+                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
                                     alt="Haynes superalloy tubes for high-temperature service" loading="lazy"
                                     width="400" height="260">
                             </a>
@@ -1898,7 +1898,7 @@
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.inconel') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}"
+                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
                                     alt="Inconel alloy tubes for corrosion-resistant applications" loading="lazy"
                                     width="400" height="260">
                             </a>
@@ -2166,7 +2166,7 @@
                         <div class="application-icon"><i class="bi bi-diagram-3"></i></div>
                         <h5>Boiler Tube Basic Layout</h5>
                         <a class="" href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes') }}">
-                            <img class="w-100" src="{{ asset('/assets/images/peoduct/basic-tube-layout.webp') }}"
+                            <img class="w-100" src="{{ asset('/assets/images/product/basic-tube-layout.webp') }}"
                                 alt="basic tube layout of boiler heat exchanger" loading="lazy" width="400"
                                 height="260">
                         </a>
@@ -2180,7 +2180,7 @@
                         <h5>U-Bend Heat Exchanger Tube Layout</h5>
                         <a class="" href="{{ route('products.pipes-tubes.u-bent-tubes') }}">
                             <img class="w-100"
-                                src="{{ asset('/assets/images/peoduct/u-bent-tube-heat-exchange-layout.webp') }}"
+                                src="{{ asset('/assets/images/product/u-bent-tube-heat-exchange-layout.webp') }}"
                                 alt="u bent tube layout of boiler heat exchange" loading="lazy" width="400"
                                 height="260">
                         </a>
@@ -2608,7 +2608,7 @@
       "@id": "https://mokshtubes.com/#organization",
       "name": "Moksh Tubes & Fittings LLP",
       "url": "https://mokshtubes.com/",
-      "logo": "https://mokshtubes.com/assets/images/logo.png",
+      "logo": "https://mokshtubes.com/assets/images/logo.webp",
       "telephone": "+91-XXXXXXXXXX",
       "email": "info@mokshtubes.com",
       "address": {

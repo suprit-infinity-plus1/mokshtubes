@@ -16,7 +16,7 @@
 <?php $__env->startSection('content'); ?>
 
     <section class="breadcrumb-area"
-        style="background-image: url(/assets/images/engineering-steels/engineering-steels-banner.jpeg);">
+        style="background-image: url(/assets/images/engineering-steels/engineering-steels-banner.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
@@ -40,45 +40,49 @@
 
 
     <!--End breadcrumb area-->
+<style>
 
+    .material-tabs {
+    background: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #e5e5e5;
+    position: sticky;   /* you missed this */
+    top: 50px;             /* and this */
+    z-index: 1020;
+}
 
-    <style>
-        .material-tabs {
-            background: #ffffff;
-            text-align: center;
-            padding: 15px 0;
-            border-bottom: 1px solid #e5e5e5;
-            position: relative;
-            z-index: 10;
-        }
+.material-tabs a {
+    margin: 0 14px;
+    font-weight: 600;
+    color: #1b3c61 !important;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.25s ease;
+    display: inline-block;
+}
 
-        .material-tabs a {
-            margin: 0 14px;
-            font-weight: 600;
-            color: #1b3c61 !important;
-            text-decoration: none;
-            font-size: 16px;
-            transition: 0.25s ease;
-            display: inline-block;
-        }
-
-        .material-tabs a:hover {
-            color: #db7227 !important;
-            transform: translateY(-2px);
-        }
-    </style>
-
-
-    <!-- Tabs Navigation (Add this right after breadcrumb) -->
-    <div class="material-tabs text-center py-3 ">
+.material-tabs a:hover {
+    color: #db7227 !important;
+    transform: translateY(-2px);
+}
+</style>
+<div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
+    <div class="container">
         <a href="#overview">Overview</a> |
         <a href="#composition">Chemical Composition</a> |
-        <a href="#properties">Properties</a> |
         <a href="#heat-treatment">Heat Treatment</a> |
+        <a href="#mechanical">Mechanical Properties</a> |
         <a href="#applications">Applications</a> |
         <a href="#price">Price</a> |
         <a href="#faq">FAQ</a>
     </div>
+</div>
+
+
+    <!-- Tabs Navigation (Add this right after breadcrumb) -->
+
+ 
 
 
 
@@ -96,7 +100,7 @@
 
             <div class="row align-items-center">
                 <!-- Image Left -->
-                <div class="col-12 col-md-6 mb-4 mb-md-0 sticky-md-top align-self-start" style="top: 80px;">
+                <div class="col-12 col-md-6 mb-4 mb-md-0  align-self-start">
                     <img src="<?php echo e(asset('assets/images/engineering-steels/engineering-steels-1055.webp')); ?>"
                         alt="1055 Engineering Steel C1055 EN1055 Medium Carbon Steel" class="img-fluid rounded shadow-sm"
                         loading="lazy">
@@ -181,7 +185,7 @@
 
 
     <!-- Specifications Section -->
-    <section class="sec-padd-top">
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
                 <h2>Engineering Steel 1055 Specifications</h2>
@@ -369,7 +373,7 @@
                 </div>
             </div>
         </div>
-        <div class="row justify-content-center mb-5">
+        <div class="row justify-content-center mb-5" id="heat-treatment">
             <div class="col-lg-8">
                 <h4 class="text-center mb-3" style="color: #db7227;">Heat Treatment of 1055 Steel</h4>
 
@@ -426,7 +430,7 @@
 
 
     <!-- Mechanical Properties -->
-    <section class="sec-padd-top sec-padd-bottom">
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
         <div class="container">
             <div class="section-title center mb-5">
                 <h2 class="fw-bold" style="color: #174268;">Mechanical Properties of Engineering Steel 1055</h2>
@@ -507,7 +511,7 @@
 
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
         <div class="container">
 
             <!-- PART 1 -->
@@ -562,7 +566,7 @@
             </div>
 
             <!-- PART 2 -->
-            <div class="section-title center mt-5">
+            <div class="section-title center mt-5" id="available forms">
                 <h2>Available Forms & Size Range</h2>
             </div>
 
@@ -622,7 +626,7 @@
     <!-- End Available Forms & Size Range Section -->
 
     <!-- Standards & Equivalent Grades Section -->
-    <section class="sec-padd-top sec-padd-bottom">
+    <section class="sec-padd-top sec-padd-bottom" id="international">
         <div class="container">
             <div class="section-title center">
                 <h2>International Standards & Equivalent Grades</h2>
@@ -669,23 +673,23 @@
             [
                 'name' => 'Seamless Pipes',
                 'route' => 'products.pipes-tubes.seamless-pipes',
-                'image' => 'assets/images/all product/seamless-pipes-10.jpg',
+                'image' => 'assets/images/all product/seamless-pipes-10.webp',
             ],
 
             [
                 'name' => 'Welded Pipes (ERW & EFW)',
                 'route' => 'products.pipes-tubes.welded-pipes',
-                'image' => 'assets/images/all product/welded-pipes-tubes-1.jpg',
+                'image' => 'assets/images/all product/welded-pipes-tubes-1.webp',
             ],
             [
                 'name' => 'Tubes (Capillary, U-Bend)',
                 'route' => 'products.pipes-tubes.u-bent-tubes',
-                'image' => 'assets/images/all product/11zon_resized.jpg',
+                'image' => 'assets/images/all product/u-bent-tube.webp',
             ],
             [
                 'name' => 'Sheets & Plates',
                 'route' => 'products.sheets-plates-coils.sheets-and-plates',
-                'image' => 'assets/images/all product/sheets-plates.jpg',
+                'image' => 'assets/images/all product/sheets-plates.webp',
             ],
             [
                 'name' => 'Coils & Strips',
@@ -710,12 +714,12 @@
             [
                 'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
                 'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
-                'image' => 'assets/images/all product/FASTENERS-1.png',
+                'image' => 'assets/images/all product/FASTENERS.webp',
             ],
             [
                 'name' => 'Custom Fabricated Components',
                 'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
-                'image' => 'assets/images/all product/custom-metal-fabricated.jpg',
+                'image' => 'assets/images/all product/custom-metal-fabricated.webp',
             ],
         ];
 
@@ -744,7 +748,7 @@
 
     ?>
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="products">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Engineering Steel 1055</h2>
@@ -776,7 +780,7 @@
             </div>
 
             <!-- Emphasized Line -->
-            <div class="row justify-content-center mb-3">
+            <div class="row justify-content-center mb-3" id="global-standards">
                 <div class="col-lg-10">
                     <p class="fw-bold fs-5 text-center my-4" style="color: #174268;">
                         Engineering Steel 1055 products are produced to the following global standards:
@@ -803,7 +807,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section class="sec-padd-top sec-padd-bottom" id="uses">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -845,7 +849,7 @@
         </div>
     </section>
 
-    <section id="applications" class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom" id="application">
         <div class="container">
             <div class="section-title center">
 
@@ -985,7 +989,7 @@
         </div>
     </section>
 
-    <section id="price" class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light" id="price">
         <div class="container text-center">
             <h2>1055 Steel Price per kg in India</h2>
             <p>Price varies based on size, OD, thickness, and heat-treatment condition.</p>
@@ -1160,7 +1164,7 @@
                 "brand": {
                     "@type": "Brand",
                     "name": "Moksh Tubes & Fittings LLP",
-                    "logo": "https://mokshtubes.com/assets/images/logo/Board-1.png"
+                    "logo": "https://mokshtubes.com/assets/images/logo/Board-1.webp"
                 },
                 "url": "https://mokshtubes.com/materials/engineering-steels/engineering-steels-1055",
                 "additionalProperty": [
@@ -1178,7 +1182,7 @@
                 "@id": "https://mokshtubes.com/#organization",
                 "name": "Moksh Tubes & Fittings LLP",
                 "url": "https://mokshtubes.com",
-                "logo": "https://mokshtubes.com/assets/images/logo/Board-1.png",
+                "logo": "https://mokshtubes.com/assets/images/logo/Board-1.webp",
                 "contactPoint": [
                     {
                     "@type": "ContactPoint",
