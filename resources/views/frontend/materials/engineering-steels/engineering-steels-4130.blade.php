@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', '4130 Alloy Steel | Chromium-Molybdenum Steel')
-@section('meta_description', '4130 Alloy Steel offering high strength, toughness, and weldability for aerospace,
+@section('meta_description',
+    '4130 Alloy Steel offering high strength, toughness, and weldability for aerospace,
     automotive, and industrial applications.')
-@section('meta_keywords', '4130 Alloy Steel, chromium-molybdenum steel, high strength steel, tough steel, weldable
+@section('meta_keywords',
+    '4130 Alloy Steel, chromium-molybdenum steel, high strength steel, tough steel, weldable
     steel, aerospace steel, automotive steel, industrial alloy steel')
 
 @section('og_image', asset('assets/images/engineering-steels/engineering-steels-4130.webp'))
@@ -16,14 +18,76 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>4130 Alloy Steel <br> Chromium-Molybdenum Steel</h1>
+                    <h1>4130 Alloy Steel (AISI 4130 / EN 4130)<br> Chromium-Molybdenum Steel</h1>
                 </div>
             </div>
         </div>
     </section>
+<style>
 
+    .material-tabs {
+    background: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #e5e5e5;
+    position: sticky;   /* you missed this */
+    top: 50px;             /* and this */
+    z-index: 1020;
+}
+
+.material-tabs a {
+    margin: 0 14px;
+    font-weight: 600;
+    color: #1b3c61 !important;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.25s ease;
+    display: inline-block;
+}
+
+.material-tabs a:hover {
+    color: #db7227 !important;
+    transform: translateY(-2px);
+}
+
+
+.material-tabs {
+    background: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #e5e5e5;
+    z-index: 1020;
+}
+
+.material-tabs a {
+    margin: 0 14px;
+    font-weight: 600;
+    color: #1b3c61 !important;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.25s ease;
+    display: inline-block;
+}
+
+.material-tabs a:hover {
+    color: #db7227 !important;
+    transform: translateY(-2px);
+}
+
+</style>
+<div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
+    <div class="container">
+        <a href="#overview">Overview</a> |
+        <a href="#composition">Chemical Composition</a> |
+        <a href="#heat-treatment">Heat Treatment</a> |
+        <a href="#mechanical">Mechanical Properties</a> |
+        <a href="#applications">Applications</a> |
+        <a href="#price">Price</a> |
+        <a href="#faq">FAQ</a>
+    </div>
+</div>
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="overview">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -37,7 +101,7 @@
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
                     <img src="{{ asset('assets/images/engineering-steels/engineering-steels-4130.webp') }}" alt="EN 4130"
-                        class="img-fluid rounded shadow-sm">
+                        class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
                 <!-- Content Right -->
@@ -50,14 +114,22 @@
                             and fittings.
                         </p>
 
+                        <p class="fs-6 mb-3" style="text-align: justify;">
+                            <strong class="text-black">4130 Alloy Steel</strong>, also known as AISI 4130,
+                            Chromium-Molybdenum Steel,
+                            and sometimes Cr-Mo Steel, is a versatile low-alloy steel known for its high strength,
+                            toughness, weldability, and fatigue resistance. Because of its excellent
+                            strength-to-weight
+                            ratio, it is widely used in aerospace structures, motorsport frames, high-pressure
+                            tubing,
+                            and critical engineering components.
+                        </p>
+
                         <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">EN 4130</strong class="text-black">, also known as AISI 4130, is a
-                            low-alloy steel containing chromium and molybdenum as key alloying elements. It is well-known
-                            for its excellent strength, toughness, and good weldability.<a
-                                href="{{ route('materials.engineering-Steels') }}"> EN 4130</a> is widely used in
-                            structural and mechanical applications where high strength-to-weight ratio and good fatigue
-                            resistance are essential. This steel is also easily heat-treated to improve mechanical
-                            properties, making it ideal for aerospace, automotive, and oil and gas industries.
+                            Whether used in aircraft parts, roll cages, drill pipes, or high-stress mechanical components,
+                            4130 alloy steel delivers consistent performance under load and offers outstanding durability
+                            after heat treatment. Its combination of strength and workability makes it a trusted choice for
+                            OEMs, engineering companies, fabrication units, and industrial manufacturers.
                         </p>
                     </div>
                 </div>
@@ -65,10 +137,10 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section class="sec-padd-top sec-padd-bottom" id="composition">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>Chemical Composition of 4130 Alloy Steel</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -179,95 +251,186 @@
                     </div>
                 </div>
             </div>
+            <div class="row justify-content-center mb-5" id="heat-treatment">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color: #db7227;">Heat Treatment of 1045 Steel</h4>
 
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Annealed</th>
-                                    <th>Hot-Finished</th>
-                                    <th>Cold Drawn</th>
-                                    <th>Hot-rolled</th>
-                                    <th>Sheet</th>
+                                <tr>
+                                    <th class="text-center">Heat Treatment Process</th>
+                                    <th class="text-center">Temperature Range</th>
+                                    <th class="text-center">Cooling / Procedure</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Tensile Strength (ksi / MPa)</td>
-                                    <td>85–105 ksi / 586–724 MPa</td>
-                                    <td>90–115 ksi / 620–793 MPa</td>
-                                    <td>95–130 ksi / 655–896 MPa</td>
-                                    <td>85–110 ksi / 586–758 MPa</td>
-                                    <td>80–105 ksi / 552–724 MPa</td>
+                                <tr class = "t-row">
+                                    <td><strong>Annealing</strong></td>
+                                    <td>790–870°C</td>
+                                    <td>slow furnance cool</td>
                                 </tr>
-                                <tr class="t-row">
-                                    <td>Yield Strength (0.2%)</td>
-                                    <td>55–70 ksi / 379–483 MPa</td>
-                                    <td>60–95 ksi / 414–655 MPa</td>
-                                    <td>65–105 ksi / 448–724 MPa</td>
-                                    <td>55–80 ksi / 379–552 MPa</td>
-                                    <td>50–75 ksi / 345–517 MPa</td>
+
+                                <tr class = "t-row">
+                                    <td><strong>Normalizing</strong></td>
+                                    <td>830–860°C</td>
+                                    <td>Air cool</td>
                                 </tr>
-                                <tr class="t-row">
-                                    <td>Elongation (%)</td>
-                                    <td>20–30</td>
-                                    <td>15–25</td>
-                                    <td>15–20</td>
-                                    <td>20–25</td>
-                                    <td>20–30</td>
+
+                                <tr class = "t-row">
+                                    <td><strong>Hardening</strong></td>
+                                    <td>800–820°C</td>
+                                    <td>Quench in polymer or oil</td>
                                 </tr>
-                                <tr class="t-row">
-                                    <td>Brinell Hardness (3000 kg)</td>
-                                    <td>150–200</td>
-                                    <td>180–240</td>
-                                    <td>200–260</td>
-                                    <td>150–210</td>
-                                    <td>—</td>
+
+                                <tr class = "t-row">
+                                    <td><strong>Tempering</strong></td>
+                                    <td>400–650°C</td>
+                                    <td>Reheat depending on required hardness</td>
                                 </tr>
-                                <tr class="t-row">
-                                    <td>Rockwell Hardness (B / C)</td>
-                                    <td>80–90 B</td>
-                                    <td>85–95 B</td>
-                                    <td>85–95 B</td>
-                                    <td>80–90 B</td>
-                                    <td>80–90 B</td>
+
+                                <tr class = "t-row">
+                                    <td><strong>Stress Relieving</strong></td>
+                                    <td>540–650°C</td>
+                                    <td>Hold for 1–2 hours</td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
-            </div>
-        </div>
+                <p class="fs-6 mb-3" style="text-align: justify;">After quenching & tempering, 4130 steel develops
+                    exceptional fatigue strength, improved hardness, and enhanced
+                    mechanical stability for high-stress engineering applications.</p>
     </section>
 
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color: #174268;">Mechanical Properties</h2>
+            </div>
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped align-middle">
+                        <thead class="table-dark text-center">
+                            <tr class="t-row">
+                                <th>Property</th>
+                                <th>Annealed</th>
+                                <th>Hot-Finished</th>
+                                <th>Cold Drawn</th>
+                                <th>Hot-rolled</th>
+                                <th>Sheet</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">
+                            <tr class="t-row">
+                                <td>Tensile Strength (ksi / MPa)</td>
+                                <td>85–105 ksi / 586–724 MPa</td>
+                                <td>90–115 ksi / 620–793 MPa</td>
+                                <td>95–130 ksi / 655–896 MPa</td>
+                                <td>85–110 ksi / 586–758 MPa</td>
+                                <td>80–105 ksi / 552–724 MPa</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Yield Strength (0.2%)</td>
+                                <td>55–70 ksi / 379–483 MPa</td>
+                                <td>60–95 ksi / 414–655 MPa</td>
+                                <td>65–105 ksi / 448–724 MPa</td>
+                                <td>55–80 ksi / 379–552 MPa</td>
+                                <td>50–75 ksi / 345–517 MPa</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Elongation (%)</td>
+                                <td>20–30</td>
+                                <td>15–25</td>
+                                <td>15–20</td>
+                                <td>20–25</td>
+                                <td>20–30</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Brinell Hardness (3000 kg)</td>
+                                <td>150–200</td>
+                                <td>180–240</td>
+                                <td>200–260</td>
+                                <td>150–210</td>
+                                <td>—</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Rockwell Hardness (B / C)</td>
+                                <td>80–90 B</td>
+                                <td>85–95 B</td>
+                                <td>85–95 B</td>
+                                <td>80–90 B</td>
+                                <td>80–90 B</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+<section class="sec-padd-top sec-padd-bottom bg-light" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered text-center">
+                    <thead class="table-dark">
+                        <tr class = "t-row" class = "t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class = "t-row">
+                            <td>EN</td>
+                            <td>25CrMo4 / EN 4130</td>
+                        </tr>
+                        <tr class = "t-row">
+                            <td>AISI / SAE</td>
+                            <td>4130</td>
+                        </tr>
+                        <tr class = "t-row">
+                            <td>DIN</td>
+                            <td>1.7218</td>
+                        </tr>
+                        <tr class = "t-row">
+                            <td>JIS</td>
+                            <td>SCM430</td>
+                        </tr>
+                        <tr class = "t-row">
+                            <td>GB</td>
+                            <td>30CrMo</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+</section>
 
     @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
                 'route' => 'products.pipes-tubes.seamless-pipes',
-                'image' => 'assets/images/all product/seamless-pipes-10.jpg',
+                'image' => 'assets/images/all product/seamless-pipes-10.webp',
             ],
 
             [
                 'name' => 'Welded Pipes (ERW & EFW)',
                 'route' => 'products.pipes-tubes.welded-pipes',
-                'image' => 'assets/images/all product/welded-pipes-tubes-1.jpg',
+                'image' => 'assets/images/all product/welded-pipes-tubes-1.webp',
             ],
             [
                 'name' => 'Tubes (Capillary, U-Bend)',
                 'route' => 'products.pipes-tubes.u-bent-tubes',
-                'image' => 'assets/images/all product/11zon_resized.jpg',
+                'image' => 'assets/images/all product/u-bent-tube.webp',
             ],
             [
                 'name' => 'Sheets & Plates',
                 'route' => 'products.sheets-plates-coils.sheets-and-plates',
-                'image' => 'assets/images/all product/sheets-plates.jpg',
+                'image' => 'assets/images/all product/sheets-plates.webp',
             ],
             [
                 'name' => 'Coils & Strips',
@@ -292,12 +455,12 @@
             [
                 'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
                 'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
-                'image' => 'assets/images/all product/FASTENERS-1.png',
+                'image' => 'assets/images/all product/FASTENERS.webp',
             ],
             [
                 'name' => 'Custom Fabricated Components',
                 'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
-                'image' => 'assets/images/all product/custom-metal-fabricated.jpg',
+                'image' => 'assets/images/all product/custom-metal-fabricated.webp',
             ],
         ];
     @endphp
@@ -401,7 +564,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section class="sec-padd-top sec-padd-bottom" id="applications">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Engineering Steel 4130</h2>
@@ -422,8 +585,7 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
                         <h5>Automotive & Motorsport</h5>
-                        <p>Roll cages, chassis, suspension parts, and drive shafts requiring strength and fatigue
-                            resistance.
+                        <p>Roll cages, chassis & suspension parts, Drive shafts and Racing frames.
                         </p>
                     </div>
                 </div>
@@ -432,15 +594,15 @@
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
                         <h5>Oil & Gas Industry</h5>
-                        <p>Pipelines, tubing, and equipment subjected to high pressure and harsh environments.</p>
+                        <p>High-pressure tubing, Drill pipes, Downhole eruipment</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
-                        <div class="application-icon"><i class="bi bi-droplet"></i></div>
-                        <h5>Mechanical Engineering</h5>
-                        <p>High-strength machinery components, gears, bolts, and shafts.</p>
+                        <div class="application-icon"><i class="ri-settings-4-fill"></i></div>
+                        <h5>Engineering & Fabrication</h5>
+                        <p>Fasteners, High-stress machine components, gears and shafts.</p>
                     </div>
                 </div>
 
@@ -472,9 +634,51 @@
             </div>
         </div>
     </section>
-
-
     <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Uses and Advantages</h2>
+            </div>
+
+            <div class="row g-4 mt-4 justify-content-center">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h5>High strength-to-weight ratio ideal for structural applications</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
+                        <h5>Excellent machinability and weldability</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
+                        <h5>Outstanding fatigue resistance</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
+                        <h5>Heat treatable for superior mechanical performance</h5>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
+                        <h5>Reliable for aerospace, motorsport, and oilfield operations</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-padd-top sec-padd-bottom">
         <div class="container text-center">
             <div class="section-title center">
                 <h2>WHY CHOOSE US?</h2>
@@ -516,6 +720,15 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light" id="price">
+        <div class="container text-center">
+            <h2>4130 Steel Price per kg in India</h2>
+            <p>Typical Price Range:
+                ₹150 – ₹280 per kg (Varies by size, wall thickness, and heat-treatment condition).</p>
+
+            <p>Contact us for exact quotation based on size and quantity.</p>
         </div>
     </section>
 
@@ -625,7 +838,7 @@
     <!--End faq content area-->
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

@@ -3,12 +3,12 @@
 @section('title', 'Copper Alloys: CU-Ni, Brass, Bronze | MokshTubes')
 @section('meta_description', 'Discover premium copper alloys including CU-Ni, brass, bronze, and beryllium copper at MokshTubes, with excellent durability and corrosion resistance.')
 @section('meta_keywords', 'Copper alloys, CU-Ni, brass, bronze, beryllium copper, corrosion resistant copper, high conductivity copper, durable copper alloys, marine copper alloy, industrial copper alloy')
-@section('og_image', asset('assets/images/copper-alloys/copper-alloys-banner.png'))
+@section('og_image', asset('assets/images/copper-alloys/copper-alloys-banner.webp'))
 @section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/copper-alloys/copper-alloys-banner.png);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/copper-alloys/copper-alloys-banner.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">

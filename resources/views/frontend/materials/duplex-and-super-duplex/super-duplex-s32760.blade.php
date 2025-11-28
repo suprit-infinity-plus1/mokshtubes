@@ -12,7 +12,7 @@
 @section('content')
 
 <!--Start breadcrumb area-->
-<section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
+<section class="breadcrumb-area" style="background-image: url(images/background/3.webp);">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-auto text-center">
@@ -37,7 +37,7 @@
             <!-- Image Left -->
             <div class="col-md-6 mb-4 mb-md-0">
                 <img src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}"
-                    alt="Super Duplex Stainless Steel S32760" class="img-fluid rounded shadow-sm">
+                    alt="Super Duplex Stainless Steel S32760" class="img-fluid rounded shadow-sm" loading="lazy">
             </div>
 
             <!-- Content Right -->
@@ -122,16 +122,16 @@
 
 @php
     $products = [
-        ['name' => 'Seamless Pipes','route' => 'products.pipes-tubes.seamless-pipes','image' => 'assets/images/all product/seamless-pipes-10.jpg'],
-        ['name' => 'Welded Pipes (ERW & EFW)','route' => 'products.pipes-tubes.welded-pipes','image' => 'assets/images/all product/welded-pipes-tubes-1.jpg'],
-        ['name' => 'Tubes (Capillary, U-Bend)','route' => 'products.pipes-tubes.u-bent-tubes','image' => 'assets/images/all product/11zon_resized.jpg'],
-        ['name' => 'Sheets & Plates','route' => 'products.pipes-tubes.u-bent-tubes','image' => 'assets/images/all product/sheets-plates.jpg'],
+        ['name' => 'Seamless Pipes','route' => 'products.pipes-tubes.seamless-pipes','image' => 'assets/images/all product/seamless-pipes-10.webp'],
+        ['name' => 'Welded Pipes (ERW & EFW)','route' => 'products.pipes-tubes.welded-pipes','image' => 'assets/images/all product/welded-pipes-tubes-1.webp'],
+        ['name' => 'Tubes (Capillary, U-Bend)','route' => 'products.pipes-tubes.u-bent-tubes','image' => 'assets/images/all product/u-bent-tube.webp'],
+        ['name' => 'Sheets & Plates','route' => 'products.pipes-tubes.u-bent-tubes','image' => 'assets/images/all product/sheets-plates.webp'],
         ['name' => 'Coils & Strips','route' => 'products.pipes-tubes.u-bent-tubes','image' => 'assets/images/aluminium-alloys/aluminium-alloys-5083.webp'],
         ['name' => 'Round Bars, Flat Bars, Hex Bars, Square Bars','route' => 'products.pipes-tubes.u-bent-tubes','image' => 'assets/images/aluminium-alloys/aluminium-alloys-6063.webp'],
         ['name' => 'Pipe Fittings (Elbows, Tees, Reducers, Caps, Stub Ends)','route' => 'products.pipes-tubes.u-bent-tubes','image' => 'assets/images/aluminium-alloys/aluminium-alloys-6012.webp'],
         ['name' => 'Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)','route' => 'products.pipes-tubes.u-bent-tubes','image' => 'assets/images/engineering-steels/engineering-steels-4130.webp'],
-        ['name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)','route' => 'products.pipes-tubes.u-bent-tubes','image' => 'assets/images/all product/FASTENERS-1.png'],
-        ['name' => 'Custom Fabricated Components','route' => 'products.pipes-tubes.u-bent-tubes','image' => 'assets/images/all product/custom-metal-fabricated.jpg'],
+        ['name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)','route' => 'products.pipes-tubes.u-bent-tubes','image' => 'assets/images/all product/FASTENERS.webp'],
+        ['name' => 'Custom Fabricated Components','route' => 'products.pipes-tubes.u-bent-tubes','image' => 'assets/images/all product/custom-metal-fabricated.webp'],
     ];
 @endphp
 

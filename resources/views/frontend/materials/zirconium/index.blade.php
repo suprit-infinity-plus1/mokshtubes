@@ -6,7 +6,7 @@
 
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/zirconium/zirconium-banner.jpeg);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/zirconium/zirconium-banner.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
