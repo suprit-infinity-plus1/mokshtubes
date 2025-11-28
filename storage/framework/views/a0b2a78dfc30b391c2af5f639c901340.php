@@ -1,17 +1,13 @@
-@extends('layouts.master')
-@section('title', 'Hexagon Bars – Stainless, Brass, Aluminium & Alloy') <!-- 53 characters -->
-@section('meta_description',
+<?php $__env->startSection('title', 'Hexagon Bars – Stainless, Brass, Aluminium & Alloy'); ?> <!-- 53 characters -->
+<?php $__env->startSection('meta_description',
     'Mokshtubes offers premium stainless, brass, aluminium & alloy hexagon bars in various
-    sizes, grades & weight chart.') <!-- 152 characters -->
-@section('meta_keywords',
+    sizes, grades & weight chart.'); ?> <!-- 152 characters -->
+<?php $__env->startSection('meta_keywords',
     'hexagon bar, hexagonal bars, stainless steel hex bar, mild steel hex bar, alloy steel hex
-    bar, brass hex bar, aluminium hex bar, hex bar sizes, hex bar weight chart')
-@section('og_image', asset('assets/images/peoduct/Hexagon-Bars.jpg'))
-@section('og_type', 'article')
-
-@section('content')
+    bar, brass hex bar, aluminium hex bar, hex bar sizes, hex bar weight chart'); ?>
+<?php $__env->startSection('content'); ?>
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/peoduct/Hexagon-Bars.jpg);">
+    <section class="breadcrumb-area" style="background-image: url(images/background/3.jpg);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -31,8 +27,8 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/peoduct/Hexagon-Bars.jpg') }}" alt="Hexagon Bars"
-                        class="img-fluid rounded shadow-sm">
+                    <img src="<?php echo e(asset('assets/images/peoduct/steel-furniture/custom-steel-furniture.webp')); ?>"
+                        alt="Hexagon Bars" class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Right Content -->
@@ -43,10 +39,10 @@
                         geometry allows for easy gripping, machining, and threading, making them the first choice for nuts,
                         bolts, studs, and mechanical components.
                     <p class="fs-6 mb-3 text-justify">
-                        <a href="{{ route('index') }}"><b>Moksh Tubes & Fittings LLP</b></a>, we supply high quality
-                        <a href="{{ route('materials.super-Austenitic-Stainless-Steel') }}">stainless steel</a> hexagon bar,
+                        <a href="<?php echo e(route('index')); ?>"><b>Moksh Tubes & Fittings LLP</b></a>, we supply high quality
+                        <a href="<?php echo e(route('materials.super-Austenitic-Stainless-Steel')); ?>">stainless steel</a> hexagon bar,
                         stainless steel hex bar, hex steel bar, hexagon steel bar, <a
-                            href="{{ route('materials.aluminium-Alloys') }}">aluminium</a>
+                            href="<?php echo e(route('materials.aluminium-Alloys')); ?>">aluminium</a>
                         hexagon bar, brass hexagon bar, brass hex bar, aluminum hex bar, and special alloys. Our hexagonal
                         bright bars and hexagonal hollow bars are manufactured to ASTM, ASME, DIN, EN, and JIS standards,
                         ensuring precision, durability, and excellent machinability.
@@ -74,13 +70,13 @@
                             <tbody class="text-start">
                                 <tr class="t-row">
                                     <td>Material</td>
-                                    <td><a href="{{ route('materials.high-strength-stainless-steel') }}">Stainless
+                                    <td><a href="<?php echo e(route('materials.high-strength-stainless-steel')); ?>">Stainless
                                             Steel</a>, Carbon Steel, Alloy Steel, <a
-                                            href="{{ route('materials.duplex-and-super-duplex') }}">Duplex &amp; Super
-                                            Duplex</a>, <a href="{{ route('materials.nickel-Based-Superalloys') }}">Nickel
-                                            Alloys</a>, <a href="{{ route('materials.titanium') }}">Titanium</a>, <a
-                                            href="{{ route('materials.aluminium-Alloys') }}">Aluminum</a>, Brass, <a
-                                            href="{{ route('materials.copper-Alloys') }}">Copper</a></td>
+                                            href="<?php echo e(route('materials.duplex-and-super-duplex')); ?>">Duplex &amp; Super
+                                            Duplex</a>, <a href="<?php echo e(route('materials.nickel-Based-Superalloys')); ?>">Nickel
+                                            Alloys</a>, <a href="<?php echo e(route('materials.titanium')); ?>">Titanium</a>, <a
+                                            href="<?php echo e(route('materials.aluminium-Alloys')); ?>">Aluminum</a>, Brass, <a
+                                            href="<?php echo e(route('materials.copper-Alloys')); ?>">Copper</a></td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Grades</td>
@@ -455,7 +451,7 @@
         </div>
     </section>
 
-    {{-- Grades Available --}}
+    
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
@@ -482,13 +478,13 @@
                                     <td>Stainless Steel</td>
                                     <td>
                                         303 stainless steel hex bar, 304 stainless steel hex bar, <a
-                                            href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-316') }}">316
+                                            href="<?php echo e(url('materials/austenitic-stainless-steel/austenitic-stainless-steel-316')); ?>">316
                                             stainless steel</a> hex
                                         bar,
                                         316 stainless steel hexagon bar, 316 hex bar, 17-4 stainless hex bar, 17-4PH hex
                                         bar,
                                         ss 303 hex bar, <a
-                                            href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-304') }}">ss
+                                            href="<?php echo e(url('materials/austenitic-stainless-steel/austenitic-stainless-steel-304')); ?>">ss
                                             304</a> hex bar, ss 304 hex bar price, ss hex bar, ss hexagonal rod
                                         <br>
                                         <small>(Corrosion resistance & machining)</small>
@@ -521,9 +517,9 @@
                                 <tr class="t-row">
                                     <td>Nickel Alloys</td>
                                     <td>
-                                        <a href="{{ route('materials.inconel') }}">Inconel</a>, <a
-                                            href="{{ route('materials.monel') }}">Monel</a>, <a
-                                            href="{{ route('materials.hastelloy') }}">Hastelloy</a>
+                                        <a href="<?php echo e(route('materials.inconel')); ?>">Inconel</a>, <a
+                                            href="<?php echo e(route('materials.monel')); ?>">Monel</a>, <a
+                                            href="<?php echo e(route('materials.hastelloy')); ?>">Hastelloy</a>
                                         <br>
                                         <small>(High temperature & corrosive service)</small>
                                     </td>
@@ -531,8 +527,8 @@
                                 <tr class="t-row">
                                     <td>Titanium</td>
                                     <td>
-                                        <a href="{{ url('materials/titanium/titanium-grade-2') }}">Grade 2</a>, <a
-                                            href="{{ url('materials/titanium/titanium-grade-5') }}">Grade 5</a>
+                                        <a href="<?php echo e(url('materials/titanium/titanium-grade-2')); ?>">Grade 2</a>, <a
+                                            href="<?php echo e(url('materials/titanium/titanium-grade-5')); ?>">Grade 5</a>
                                         <br>
                                         <small>(Aerospace & desalination projects)</small>
                                     </td>
@@ -541,7 +537,7 @@
                                     <td>Copper & Brass</td>
                                     <td>
                                         brass hex rod, brass hex rod sizes, brass hexagon, brass hex bar price, brass hex
-                                        bar weight <a href="{{ route('calculator') }}">calculator</a>,
+                                        bar weight <a href="<?php echo e(route('calculator')); ?>">calculator</a>,
                                         hex bar brass, hexagonal brass rod, hexagonal brass bar suppliers, brass hex bar
                                         stock
                                         <br>
@@ -567,8 +563,7 @@
         </div>
     </section>
 
-    {{-- Gallery --}}
-    {{-- Gallery --}}
+    
     <section class="our-services">
         <div class="container">
             <div class="container">
@@ -578,8 +573,8 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg') }}"
+                            <a class="w-100" href="#">
+                                <img class="w-100" src="<?php echo e(asset('assets/images/peoduct/NICKLE-ALLOYS.jpeg')); ?>"
                                     alt="NICKLE ALLOYS">
                             </a>
                         </figure>
@@ -591,8 +586,8 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/STAINLESS-STEEL.jpeg') }}"
+                            <a class="w-100" href="#">
+                                <img class="w-100" src="<?php echo e(asset('assets/images/peoduct/STAINLESS-STEEL.jpeg')); ?>"
                                     alt="STAINLESS STEEL">
                             </a>
                         </figure>
@@ -604,8 +599,8 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/DUPLEX-SUPER.png') }}"
+                            <a class="w-100" href="#">
+                                <img class="w-100" src="<?php echo e(asset('assets/images/peoduct/DUPLEX-SUPER.png')); ?>"
                                     alt="DUPLEX & SUPER">
                             </a>
                         </figure>
@@ -618,8 +613,8 @@
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.titanium') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg') }}"
+                            <a class="w-100" href="##">
+                                <img class="w-100" src="<?php echo e(asset('assets/images/peoduct/TITANIUM-ALLOYS.jpg')); ?>"
                                     alt="TITANIUM ALLOYS">
                             </a>
                         </figure>
@@ -631,26 +626,26 @@
                 <div class="col-md-4 col-sm-6 mb-4 ">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg') }}"
-                                    alt="Haynes Superalloys">
+                            <a class="w-100">
+                                <img class="w-100" src="<?php echo e(asset('assets/images/peoduct/RARE-TO-ALLOYS.jpg')); ?>"
+                                    alt="RARE TO ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0">Haynes Superalloys</h6>
+                            <h6 class="mt-0">RARE TO ALLOYS</h6>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 mb-4">
                     <div class="single-our-service border">
                         <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.inconel') }}">
-                                <img class="w-100" src="{{ asset('assets/images/peoduct/CARBON-ALLOYS.jpg') }}"
-                                    alt="Inconel">
+                            <a class="w-100">
+                                <img class="w-100" src="<?php echo e(asset('assets/images/peoduct/CARBON-ALLOYS.jpg')); ?>"
+                                    alt="CARBON ALLOYS">
                             </a>
                         </figure>
                         <div class="p-2 text-center">
-                            <h6 class="mt-0">Inconel</h6>
+                            <h6 class="mt-0">CARBON ALLOYS</h6>
                         </div>
                     </div>
                 </div>
@@ -660,7 +655,7 @@
     </section>
 
 
-    {{-- Applications --}}
+    
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
@@ -697,7 +692,7 @@
                         <div class="advantage-icon"><i class="bi bi-tools"></i></div>
                         <h4>Free Cutting Brass Hex Bars</h4>
                         <h5>Excellent machinability for <a
-                                href="{{ url('products/pipe-fittings-flanges-fasteners/fasteners') }}">fasteners</a></h5>
+                                href="<?php echo e(url('products/pipe-fittings-flanges-fasteners/fasteners')); ?>">fasteners</a></h5>
                     </div>
                 </div>
 
@@ -731,9 +726,7 @@
                         </div>
                         <h5>Construction & Infrastructure</h5>
                         <ul>
-                            <li>Base plates, braces, <a
-                                    href="{{ url('products/pipe-fittings-flanges-fasteners/fittings-and-flanges') }}">fittings</a>
-                            </li>
+                            <li>Base plates, braces, fittings</li>
                         </ul>
                     </div>
                 </div>
@@ -745,9 +738,7 @@
                         </div>
                         <h5>Marine & Shipbuilding</h5>
                         <ul>
-                            <li>Stainless & <a href="{{ route('materials.duplex-and-super-duplex') }}">duplex</a> hex bars
-                                for corrosion resistance, <a href="{{ route('materials.copper-Alloys') }}">copper</a> <a
-                                    href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a> for seawater</li>
+                            <li>Stainless & duplex hex bars for corrosion resistance, copper-nickel for seawater</li>
                         </ul>
                     </div>
                 </div>
@@ -771,8 +762,7 @@
                         </div>
                         <h5>Automotive & Aerospace</h5>
                         <ul>
-                            <li>Aluminium hex bar & <a href="{{ route('materials.titanium') }}">titanium</a> hex bars for
-                                engine & suspension</li>
+                            <li>Aluminium hex bar & titanium hex bars for engine & suspension</li>
                         </ul>
                     </div>
                 </div>
@@ -802,11 +792,7 @@
                 </div>
             </div>
 
-            {{-- <p class="text-center pb-3 my-4"><strong class="text-dark">HASTELLOY C-276's</strong> unique combination of
-                corrosion resistance, weldability, and mechanical durability makes it a reliable material for
-                mission-critical applications where long-term performance is non-negotiable.
-
-            </p> --}}
+            
         </div>
     </section>
 
@@ -867,7 +853,7 @@
     </section>
 
 
-    {{-- Advantages of Welded Pipes & Tubes --}}
+    
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
@@ -895,7 +881,7 @@
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-cash-coin"></i></div>
                         <h4>Material Efficiency</h4>
-                        <h5>Less waste, cost effective production.</h5>
+                        <h5>Less waste, cost-effective production.</h5>
                     </div>
                 </div>
 
@@ -903,8 +889,7 @@
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-layers"></i></div>
                         <h4>Wide Material Range</h4>
-                        <h5>Stainless, <a href="{{ route('materials.duplex-and-super-duplex') }}">Duplex</a>, Nickel,
-                            Titanium, Copper alloys.</h5>
+                        <h5>Stainless, Duplex, Nickel, Titanium, Copper alloys.</h5>
                     </div>
                 </div>
 
@@ -920,7 +905,7 @@
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-sliders"></i></div>
                         <h4>Custom Solutions</h4>
-                        <h5>Cut to length & special dimensions available.</h5>
+                        <h5>Cut-to-length & special dimensions available.</h5>
                     </div>
                 </div>
             </div>
@@ -930,7 +915,7 @@
 
 
 
-    {{-- why choose us --}}
+    
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
             <div class="section-title center">
@@ -948,7 +933,7 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-patch-check-fill"></i></div>
-                        <h5>ISO 9001:2015 certified, MTC & third party inspection available</h5>
+                        <h5>ISO 9001:2015 certified, MTC & third-party inspection available</h5>
                     </div>
                 </div>
 
@@ -969,8 +954,7 @@
                 <div class="col-sm-12 col-lg-6">
                     <div class="why-banner-block">
                         <div class="why-banner-icon"><i class="bi bi-gear-wide-connected"></i></div>
-                        <h5><a href="{{ url('products/special-fabricated/custom-steel-furniture') }}">Custom</a> machining
-                            & cut to length solutions available.</h5>
+                        <h5>Custom machining & cut-to-length solutions available.</h5>
                     </div>
                 </div>
             </div>
@@ -996,7 +980,7 @@
                             <div class="accord-content">
                                 <p>
                                     Hexagon bars are commonly used in nuts, bolts, fasteners, and precision components due
-                                    to their six sided shape, which makes them easy to machine and grip.
+                                    to their six-sided shape, which makes them easy to machine and grip.
                                 </p>
                             </div>
                         </div>
@@ -1052,7 +1036,7 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a> is among the trusted
+                                    <a href="<?php echo e(route('index')); ?>">Moksh Tubes & Fittings LLP</a> is among the trusted
                                     hexagon bar suppliers in Mumbai,
                                     offering a wide range of stainless steel, MS, alloy steel, copper, brass, and aluminium
                                     hexagon bars.
@@ -1074,7 +1058,7 @@
                 <h2>Contact Us</h2>
                 <p>
                     Looking for high quality hexagonal steel bar suppliers or metric brass hex stock?<br>Contact <strong><a
-                            href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a></strong>
+                            href="<?php echo e(route('index')); ?>">Moksh Tubes & Fittings LLP</a></strong>
                 </p>
                 <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
@@ -1088,57 +1072,6 @@
     <!--End breadcrumb area-->
 
 
-@endsection
-@section('jsscripts')
-    <script type="application/ld+json">
-        @verbatim
-            {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-                {
-                "@type": "Question",
-                "name": "What are hexagon bars used for?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Hexagon bars are commonly used in nuts, bolts, fasteners, and precision components due to their six-sided shape, which makes them easy to machine and grip."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "What materials are available in hexagon bars?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "We supply stainless steel hexagon bars, mild steel hexagon bars, alloy steel hexagon bars, brass hexagon bars, copper hexagon bars, and aluminium hexagon bars in different grades and finishes."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "What sizes do hexagon bars come in?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Hexagon bars are available in a wide range of sizes, including 10 mm hexagon bar, 20 mm hex bar, and custom cut-to-size options."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "How to calculate the weight of a hexagon bar?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The weight of a hexagon bar can be calculated using the formula: Weight (kg/m) = (0.0068 × Across Flat Dimension²) × Density of Material."
-                }
-                },
-                {
-                "@type": "Question",
-                "name": "Who are the leading hexagon bar suppliers in Mumbai, India?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Moksh Tubes & Fittings LLP is among the trusted hexagon bar suppliers in Mumbai, offering a wide range of stainless steel, MS, alloy steel, copper, brass, and aluminium hexagon bars."
-                }
-                }
-            ]
-            }
+<?php $__env->stopSection(); ?>
 
-        @endverbatim
-    </script>
-@endsection
+<?php echo $__env->make('layouts.master', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH C:\xampp\htdocs\mokshtube-new\mokshtube\resources\views/frontend/products/bars-rods/hexagon-bars.blade.php ENDPATH**/ ?>
