@@ -4,13 +4,10 @@
 @section('meta_description',
     'Seamless, welded & U‑bent boiler/heat exchanger tubes per ASTM A179/A213. Fast delivery,
     global supply. Get datasheet & quote.') <!-- 153 characters -->
-    {{-- <meta property="og:title" content="Boiler & Heat Exchanger Tubes | Moksh Tubes">
-    <meta property="og:description"
-        content="Stainless Steel, Alloy Steel, Duplex, Nickel, Titanium boiler & heat exchanger tubes. Worldwide supplier with fast delivery.">
-    <meta property="og:image" content="/assets/images/product/boiler-heat-exchanger-tubes.webp">
-    <meta property="og:url" content="https://mokshtubes.com/products/pipes-tubes/boiler-heat-exchanger-tubes"> --}}
+@section('meta_keywords',
+    'Boiler Heat Exchanger Tubes, ASTM A179 Tubes, ASTM A213 Tubes, Seamless Boiler Tubes, U-Bent Heat Exchanger Tubes, Stainless Steel
     @section('og_image', asset('assets/images/product/boiler-and-heat.webp'))
-@section('og_type', 'article')
+@section('og_type', 'product')
 @section('content')
 
     <!--Start breadcrumb area-->
@@ -18,7 +15,8 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Boiler & Heat Exchanger Tubes</h1> <!-- 52 characters -->
+                    <h1 class="page-title">Boiler & Heat Exchanger Tubes – ASTM A179 / A213 / SA192 | Seamless, U-Bent & Welded</h1>
+
                 </div>
             </div>
         </div>
@@ -42,24 +40,30 @@
 
                 <!-- Right Content -->
                 <div class="col-md-6">
-                    <p class="fs-6 mb-3 text-justify">
-                        <strong class="text-black">Boiler & Heat Exchanger Tubes</strong> are essential components in
-                        thermal power plants, petrochemical plants, refineries, and process industries. They are designed to
-                        withstand extreme temperatures, pressures, and corrosive environments while ensuring efficient heat
-                        transfer.
-                    </p>
-                    <p class="fs-6 mb-3 text-justify">
-                        Made from high grade<a href="{{ route('materials.austenitic-stainless-Steel') }}"> stainless
-                            steel</a>, carbon steel, alloy steel, and specialty alloys, these tubes
-                        are manufactured to strict tolerances and international quality standards (ASTM, ASME, DIN, EN).
-                    </p>
-                    <p class="fs-6 text-justify">
-                        <strong class="text-black"> <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a></strong>,
-                        we produce boiler and heat
-                        exchanger tubes using advanced cold drawing, seamless forming, and <a
-                            href="{{ route('products.pipes-tubes.welded-pipes') }}">welding</a> technologies to deliver
-                        precision, durability, and performance. Our tubes are trusted worldwide for use in boilers,
-                        superheaters, condensers, heat exchangers, and other critical systems.
+               <p class="fs-6 mb-3 text-justify">
+    <strong class="text-black">Boiler &amp; Heat Exchanger Tubes</strong> thermal power plants, petrochemical units,
+    refineries aur process industries ke liye core components hote hain. Inka design is tarah se kiya jata hai ki ye
+    high temperature, pressure aur corrosive media ko safely handle kar sakein, saath hi efficient heat transfer
+    aur stable performance bhi maintain rahe.
+</p>
+
+<p class="fs-6 mb-3 text-justify">
+    Ye tubes high grade 
+    <a href="{{ route('materials.austenitic-stainless-Steel') }}">stainless steel</a>, carbon steel, alloy steel
+    aur specialty alloys se banaye jaate hain, jo strict dimensional tolerances aur international quality
+    standards (ASTM, ASME, DIN, EN) ko meet karte hain. Isse inka performance, safety aur reliability
+    industrial applications ke liye ensure hota hai.
+</p>
+
+<p class="fs-6 text-justify">
+    <strong class="text-black"><a href="{{ route('index') }}">Moksh Tubes &amp; Fittings LLP</a></strong> ek trusted 
+    <strong>supplier, exporter &amp; stockist</strong> ke roop mein boiler &amp; heat exchanger tubes provide karta hai. 
+    Hum apna material reputed mills se source karte hain jo advanced cold drawing, seamless forming aur 
+    <a href="{{ route('products.pipes-tubes.welded-pipes') }}">welding</a> technologies use karte hain. Is combination se 
+    aapko precision, durability aur consistent performance milti hai — boilers, superheaters, condensers, heat 
+    exchangers aur doosre critical systems ke liye.
+</p>
+
                 </div>
             </div>
         </div>
@@ -102,7 +106,7 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Specifications & Technical Details</h2>
+                <h2>Boiler & Heat Exchanger Tube Specifications</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -1760,7 +1764,7 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Grades Available</h2>
+                <h2>Available Grades & Materials</h2>
             </div>
             <div class="section-title center mb-3">
                 <h4 class="text-center mb-0" style="color: #db7227;">Boiler & Heat Exchanger Tubes are offered in a wide
@@ -1919,7 +1923,7 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Applications</h2>
+                <h2>Applications of Boiler & Heat Exchanger Tubes</h2>
                 <p class="text-center pb-3">
                     <strong class="text-black">Boiler & Heat Exchanger Tubes </strong> are crucial for industries where
                     efficient heat transfer and mechanical strength are required:
@@ -2372,7 +2376,7 @@
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
             <div class="section-title center">
-                <h2>WHY CHOOSE US?</h2>
+                <h2>Why Choose Moksh Tubes?</h2>
             </div>
 
             <div class="row g-4 mt-4">
@@ -2609,7 +2613,7 @@
       "name": "Moksh Tubes & Fittings LLP",
       "url": "https://mokshtubes.com/",
       "logo": "https://mokshtubes.com/assets/images/logo.webp",
-      "telephone": "+91-XXXXXXXXXX",
+      "telephone": "+91-9769584950",
       "email": "info@mokshtubes.com",
       "address": {
         "@type": "PostalAddress",
