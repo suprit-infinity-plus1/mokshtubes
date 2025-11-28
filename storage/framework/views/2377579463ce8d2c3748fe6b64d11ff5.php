@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    
+    <title><?php echo $__env->yieldContent('title', 'Mokshtubes'); ?></title>
+
+    
+    <meta name="description" content="<?php echo $__env->yieldContent('meta_description', 'Mokshtubes'); ?>">
+
+    
+    <meta name="keywords" content="<?php echo $__env->yieldContent('meta_keywords', 'mokshtubes'); ?>">
+
+    
+    <link rel="canonical" href="<?php echo $__env->yieldContent('canonical', url()->current()); ?>">
+    <!-- Individual Page OG Override -->
+    
+
+    <!-- OpenGraph -->
+    <meta property="og:title" content="<?php echo $__env->yieldContent('title', 'Mokshtubes'); ?>" />
+    <meta property="og:description" content="<?php echo $__env->yieldContent('meta_description', 'Mokshtubes'); ?>" />
+    <meta property="og:url" content="<?php echo $__env->yieldContent('canonical', url()->current()); ?>" />
+    <meta property="og:image" content="<?php echo $__env->yieldContent('og_image', asset('assets/images/slides/Mokshtubes-banner-desktop.webp')); ?>" />
+    <meta property="og:type" content="<?php echo $__env->yieldContent('og_type', 'website'); ?>" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="<?php echo $__env->yieldContent('title', 'Mokshtubes'); ?>" />
+    <meta name="twitter:description" content="<?php echo $__env->yieldContent('meta_description', 'Mokshtubes'); ?>" />
+    <meta name="twitter:image" content="<?php echo $__env->yieldContent('og_image', asset('assets/images/slides/Mokshtubes-banner-desktop.webp')); ?>" />
+
+    
+    
+
+    <!-- responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- For IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="csrf-token" content="<?php echo e(csrf_token()); ?>">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-95HT8CTVJC"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-95HT8CTVJC');
+
+    </script>
+
+
+    
+    <!-- Favicon -->
+    
+    <link rel="icon" type="image/png" href="<?php echo e(asset('assets/images/favicon/logo-moksh-32x32.png')); ?>" sizes="32x32">
+    <link rel="icon" type="image/png" href="<?php echo e(asset('assets/images/favicon/logo-moksh-16x16.png')); ?>" sizes="16x16">
+
+    <!-- Fixing Internet Explorer-->
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css
+">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+
+    <?php echo $__env->yieldContent('extracss'); ?>
+
+    <!-- Font Awesome 6 CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+    <!-- master stylesheet -->
+    <link rel="stylesheet" href="<?php echo e(asset('assets/css/style.css')); ?>">
+
+    <!-- Responsive stylesheet -->
+    <link rel="stylesheet" href="<?php echo e(asset('assets/css/responsive.css')); ?>">
+
+    <style>
+        .nav-link:focus-visible {
+            box-shadow: none !important;
+        }
+
+    </style>
+    <?php echo $__env->yieldPushContent('styles'); ?>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css">
+
+
+
+</head>
+
+<body>
+    <div class="">
+        <!--Start Preloader -->
+
+        <!--End Preloader -->
+
+        <!--Start Top bar area -->
+        <section class="top-bar-area">
+            <div class="container">
+                <div class="clearfix d-none d-sm-block">
+                    <div class="float-start">
+                        <p>Welcome to Moksh Tubes & Fittings LLP</p>
+                    </div>
+                    <div class="float-end">
+                        <p><i class="fa fa-clock-o"></i>Monday - Friday : 8:00 AM to 7:00 PM</p>
+                    </div>
+                </div>
+                <div class="d-block d-sm-none d-flex justify-content-between align-items-center text-white">
+                    <p>
+                        <i class="fa-solid fa-phone-volume"></i>
+                        <a href="tel:9769584950" class="text-white">+91 97695 84950</a>
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:info@mokshtubes.com" class="text-white">info@mokshtubes.com</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--End Top bar area -->
+
+        <!--Start header area-->
+        <header class="header-area">
+            <div class="logo">
+                <a href="<?php echo e(route('home')); ?>">
+                    <!-- <img src="images/logo/logo moksh1-1.png" alt="Awesome Logo"> -->
+                    <img src="<?php echo e(asset('assets/images/logo/Board-1.png')); ?>" alt="Moksh Tubes Logo">
+                </a>
+            </div>
+            <div class="header-contact-info d-none d-md-block">
+                <ul>
+                    <li>
+                        <div class="iocn-holder">
+                            <span class="icon-technology-1"></span>
+                        </div>
+                        <div class="text-holder">
+                            <p>Call Us On</p>
+                            <a href="tel:9769584950">
+                                <p>+91 97695 84950</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="iocn-holder">
+                            <span class="icon-letter-1"></span>
+                        </div>
+                        <div class="text-holder">
+                            <p>Mail Us @</p>
+                            <a href="mailto:info@mokshtubes.com">
+                                <p>info@mokshtubes.com</p>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-none d-sm-block d-md-none small-header-contact-info">
+                <p>
+                    <i class="fa-solid fa-phone-volume"></i>
+                    <a href="tel:9769584950">+91 97695 84950</a>
+                </p>
+                <p>
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="mailto:info@mokshtubes.com">info@mokshtubes.com</a>
+                </p>
+            </div>
+            
+            <!-- <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="images/logo/logo moksh1-1.png" alt="Awesome Logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="header-contact-info">
+                        <ul>
+                            <li>
+                                <div class="iocn-holder">
+                                    <span class="icon-technology-1"></span>
+                                </div>
+                                <div class="text-holder">
+                                    <h6>Call Us On</h6>
+                                    <a href="tel:9769584950">
+                                        <p>+91 97695 84950</p>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="iocn-holder">
+                                    <span class="icon-letter-1"></span>
+                                </div>
+                                <div class="text-holder">
+                                    <h6>Mail Us @</h6>
+                                    <a href="mailto:info@mokshtubes.com">
+                                        <p>info@mokshtubes.com</p>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div> -->
+            <!-- <div class="container-fluid ">
+                <div class="row">
+                    <div class="col-lg-4 col-md-3 col-sm-12 col-xs-12">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="images/logo/logo moksh1-1.png" alt="Awesome Logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-9 col-sm-12 col-xs-12">
+                        <div class="header-contact-info">
+                            <ul>
+                                <li>
+                                    <div class="iocn-holder">
+                                        <span class="fa fa-home"></span>
+                                    </div>
+                                    <div class="text-holder">
+
+                                        <h6>321, Breaking Street</h6>
+                                        <p>Newyork ,USA 10002</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="iocn-holder">
+                                        <span class="icon-technology-1"></span>
+                                    </div>
+                                    <div class="text-holder">
+                                        <h6>Call Us On</h6>
+                                        <p>1-8000-978-6543</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="iocn-holder">
+                                        <span class="icon-letter-1"></span>
+                                    </div>
+                                    <div class="text-holder">
+                                        <h6>Mail Us @</h6>
+                                        <a href="#">
+                                            <p>Supportuss@gmail.com</p>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </header>
+        <!--End header area-->
+
+        <!--Start mainmenu area-->
+        <section class="mainmenu-area stricky mainmenu-area-headers">
+            <div class="container-xl">
+                <div class="mainmenu-bg">
+                    <div class="row">
+                        <div class="col-sm-12 col-xs-12">
+
+                            <nav class="main-menu navbar navbar-expand-lg">
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggler ms-3 rounded-0 border-0" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                </div>
+                                <div class="collapse navbar-collapse clearfix">
+                                    <ul class="navigation navbar-nav me-auto mb-2 mb-lg-0 clearfix">
+                                        <li class="nav-item"><a class="nav-link" href="<?php echo e(route('index')); ?>">Home</a>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link" href="<?php echo e(route('about-us')); ?>">About
+                                                Us</a></li>
+                                        
+                                        <li class="nav-item dropdown"><a class="nav-link" href="<?php echo e(route('products')); ?>">Products</a>
+                                            <ul class="dropdown-menu" style="display: none; overflow-x: auto; padding-top: 12px; margin-top: 0px; padding-bottom: 12px; margin-bottom: 0px;">
+
+                                                <?php
+                                                $productCategories = [
+                                                'Pipes & Tubes',
+                                                'Sheets, Plates & Coils',
+                                                'Bars & Rods',
+                                                'Pipe Fittings, Flanges & Fasteners',
+                                                'Special Fabricated',
+                                                ];
+                                                ?>
+
+                                                <?php $__currentLoopData = $productCategories; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $category): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                                                <?php
+                                                $slug = Str::slug($category); // Pipes & Tubes → pipes-tubes
+                                                ?>
+                                                <li>
+                                                    <a class="dropdown-item text-wrap" href="<?php echo e(url('/products/' . $slug)); ?>">
+                                                        <?php echo e($category); ?>
+
+                                                    </a>
+                                                </li>
+                                                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                                            </ul>
+                                        </li>
+
+
+                                        <li class="nav-item dropdown ">
+                                            <a class="nav-link" href="<?php echo e(route('materials')); ?>">Materials</a>
+                                            <ul class="dropdown-menu" style="display: none; overflow-x: auto; padding-top: 12px; margin-top: 0px; padding-bottom: 12px; margin-bottom: 0px;">
+
+                                                <?php
+                                                $materials = [
+                                                'Hastelloy',
+                                                'Monel',
+                                                'Inconel',
+                                                'Incoloy',
+                                                'Nickel Based Superalloys',
+                                                'Titanium',
+                                                'Duplex and Super Duplex',
+                                                'Austenitic Stainless Steel',
+                                                'High Strength Stainless Steel',
+                                                'Super Austenitic Stainless Steel',
+                                                'Zirconium',
+                                                'Engineering Steels',
+                                                'Aluminium Alloys',
+                                                'Copper Alloys',
+                                                'Hard To Find & Special Alloys',
+                                                'Haynes Superalloys',
+                                                ];
+                                                ?>
+
+                                                <?php $__currentLoopData = $materials; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $material): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                                                <?php
+                                                $slug = Str::slug($material);
+                                                ?>
+                                                <li>
+                                                    <a class="dropdown-item text-wrap" href="<?php echo e(url('/materials/' . $slug)); ?>">
+                                                        <?php echo e($material); ?>
+
+                                                    </a>
+                                                </li>
+                                                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+
+                                            </ul>
+                                        </li>
+
+
+                                        <li class="nav-item"><a class="nav-link" href="#">Quality</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="<?php echo e(route('calculator')); ?>">Calculator</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="<?php echo e(route('blogs')); ?>">Blogs</a></li>
+                                    </ul>
+                                    <ul class="mobile-menu clearfix">
+                                        <li><a href="<?php echo e(route('home')); ?>">Home</a></li>
+                                        <li><a href="<?php echo e(route('about-us')); ?>">About Us</a></li>
+
+                                        <li class="dropdown"><a href="<?php echo e(route('products')); ?>">Products</a>
+                                            <ul>
+                                                <li><a href="<?php echo e(route('products.pipes-tubes')); ?>">PIPES & TUBES</a>
+                                                </li>
+                                                
+                                                <li><a href="#">BARS & RODS</a></li>
+                                                <li><a href="<?php echo e(route('products.pipe-fittings-flanges-fasteners')); ?>">PIPE
+                                                        FITTINGS, FLANGES & FASTENERS</a></li>
+                                                <li><a href="<?php echo e(route('products.special-fabricated')); ?>">SPECIAL
+                                                        FABRICATED PRODUCTS</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="<?php echo e(route('materials')); ?>">Materials</a>
+                                            <ul>
+                                                <li><a href="<?php echo e(route('materials.hastelloy')); ?>">Hastelloy</a></li>
+                                                <li><a href="<?php echo e(route('materials.monel')); ?>">Monel</a></li>
+                                                <li><a href="<?php echo e(route('materials.incoloy')); ?>">Incoloy</a></li>
+                                                <li><a href="<?php echo e(route('materials.nickel-Based-Superalloys')); ?>">Nickel
+                                                        Based Superalloys</a></li>
+                                                <li><a href="<?php echo e(route('materials.inconel')); ?>">Inconel</a></li>
+                                                <li><a href="<?php echo e(route('materials.titanium')); ?>">Titanium</a></li>
+                                                <li><a href="<?php echo e(route('materials.aluminium-Alloys')); ?>">Aluminium
+                                                        Alloys</a></li>
+                                                <li><a href="<?php echo e(route('materials.super-Austenitic-Stainless-Steel')); ?>">Super
+                                                        Austenitic Stainless Steel</a></li>
+                                                <li><a href="<?php echo e(route('materials.hard-To-Find-Special-Alloys')); ?>">Hard
+                                                        To Find Special Alloys</a></li>
+                                                <li><a href="<?php echo e(route('materials.engineering-Steels')); ?>">Engineering
+                                                        Steels</a></li>
+                                                <li><a href="<?php echo e(route('materials.austenitic-stainless-Steel')); ?>">Austenitic
+                                                        Stainless Steel</a></li>
+                                                <li><a href="<?php echo e(route('materials.copper-Alloys')); ?>">Copper Alloys</a>
+                                                </li>
+                                                <li><a href="<?php echo e(route('materials.zirconium')); ?>">Zirconium</a></li>
+                                                <li><a href="<?php echo e(route('materials.haynes-Superalloys')); ?>">Haynes
+                                                        Superalloys</a></li>
+                                            </ul>
+                                            
+
+                                        <li><a href="#">Quality</a></li>
+                                        <li><a href="<?php echo e(route('calculator')); ?>">Calculator</a></li>
+                                        <li><a href="<?php echo e(route('blogs')); ?>">Blogs</a></li>
+
+                                    </ul>
+                                </div>
+                            </nav>
+
+                        </div>
+                    </div>
+                    <div class="right-column">
+                        <div class="right-area">
+
+                            <div class="link_btn float_right">
+                                <a href="<?php echo e(route('contact-us')); ?>" class="thm-btn bg-clr1">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--End mainmenu area-->
+
+
+        <?php echo $__env->yieldContent('content'); ?>
+
+        <!--Start footer area-->
+        <footer>
+            <div class="footer-main sec-padd2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="footer-col">
+                                <div class="logo-part">
+                                    <a href="<?php echo e(route('home')); ?>" class="footer-logo text-uppercase">
+                                        <!-- <img src="./images/logo/logo moksh1-1.png" alt="logo"> -->
+                                        <img src="<?php echo e(asset('assets/images/logo/Board-1.png')); ?>" alt="Awesome Logo">
+                                    </a>
+                                </div>
+                                <p class="footer-words">Over 24 years experience and of the international user
+                                    standards
+                                    and technological works changes and industrial systems, we dedicated to provide the
+                                    best and economical. </p>
+                                <ul class="list-inline footer-social mb-0">
+                                    <li class="list-inline-item">
+                                        <a href="https://www.facebook.com/mokshtubes/" target="_blank" rel="noopener">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="https://www.instagram.com/mokshtubesandfittingsllp?igsh=YjN6d3B4MzlnNDc1&utm_source=qr" target="_blank" rel="noopener">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="https://www.linkedin.com/company/moksh-tubes/?viewAsMember=true" target="_blank" rel="noopener">
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="https://x.com/Moksh_Tubes" target="_blank" rel="noopener">
+                                            <i class="fab fa-x-twitter"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
+                            <div class="footer-col service-col">
+                                <h3 class="footer-title">Products</h3>
+                                <ul class="footer-list">
+                                    <li><a href="<?php echo e(route('products.pipes-tubes.welded-pipes')); ?>">WELDED PIPES</a>
+                                    </li>
+                                    <li><a href="<?php echo e(route('products.pipes-tubes.seamless-pipes')); ?>">SEAMLESS
+                                            PIPES</a></li>
+                                    <li><a href="<?php echo e(route('products.sheets-plates-coils')); ?>">SHEETS & PLATES</a></li>
+                                    <li><a href="<?php echo e(route('products.sheets-plates-coils.perforated-sheets')); ?>">PERFORATED
+                                            SHEETS</a></li>
+                                    <li><a href="<?php echo e(route('products.bars-rods.round-bars')); ?>">ROUND BARS</a></li>
+                                    <li><a href="<?php echo e(route('products.pipe-fittings-flanges-fasteners')); ?>">FASTENERS</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="footer-col post-column">
+                                <h3 class="footer-title">Areas We Serve</h3>
+                                <ul class="footer-list">
+                                    <li><a href="<?php echo e(route('products.pipes-tubes')); ?>">PIPES</a></li>
+                                    <li><a href="<?php echo e(route('products.pipe-fittings-flanges-fasteners.pipe-fittings')); ?>">FITTINGS</a>
+                                    </li>
+                                    <li><a href="<?php echo e(route('products.pipe-fittings-flanges-fasteners.fittings-and-flanges')); ?>">FLANGES</a>
+                                    </li>
+                                    <li><a href="<?php echo e(route('products.pipe-fittings-flanges-fasteners')); ?>">FASTENERS</a>
+                                    </li>
+                                    <li><a href="">STEEL</a></li>
+                                </ul>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="footer-col">
+                                <h3 class="footer-title">Useful Links</h3>
+                                <ul class="footer-list">
+                                    <li><a href="<?php echo e(route('home')); ?>">Home</a></li>
+                                    <li><a href="<?php echo e(route('about-us')); ?>">About Us</a></li>
+                                    <li><a href="<?php echo e(route('products')); ?>">Our Products</a></li>
+                                    <li><a href="<?php echo e(route('blogs')); ?>">Blogs</a></li>
+                                    <li><a href="<?php echo e(route('contact-us')); ?>">Contact Us</a></li>
+                                </ul>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-3">
+                            <p class="copyright">© 2025 all rights reserved</p>
+                        </div>
+                        <div class="col-md-9">
+                            <nav class="footer-menu d-flex justify-content-end">
+                                <ul class="nav">
+                                    <li class="nav-item"><a class="nav-link" href="<?php echo e(route('home')); ?>">home</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="<?php echo e(route('products')); ?>">Products</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">term &amp; condition</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="#">privacy policy</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="<?php echo e(route('contact-us')); ?>">contact us</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+        <div class="whatsapp-btn-container" style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50px;
+                    position: fixed;
+                    bottom: 25px;
+                    background: #25d366;
+                    left: 2.1875rem;
+                    width: 60px;
+                    height: 60px;
+                    z-index:99;">
+            <div id="whatsapp-btn" style="margin-top:5px;">
+                <a class="whatsapp" href="https://wa.me/+919769584950">
+                    <i class="fa fa-whatsapp fa-2x text-white" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- Contact Form Modal -->
+        <!-- Contact Form Modal -->
+        <div class="modal fade" id="contactFormModal" tabindex="-1" role="dialog" aria-labelledby="contactFormModalLabel" aria-hidden="true" style="z-index: 2000;">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content p-3" style="z-index:2001;">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h5 class="modal-title fw-bold fs-3" id="contactFormModalLabel">Get in Touch</h5>
+                        <button type="button" class="close ms-auto" data-bs-dismiss="modal" aria-label="Close" style="font-size: 3rem;">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                    <!-- Modal Body -->
+                    <div class="modal-body">
+                        <form id="contact-form" name="contact_form" class="default-form" action="<?php echo e(url('sendmail')); ?>" method="post">
+                            <?php echo csrf_field(); ?>
+                            <div class="row">
+                                <div class="col-md-12 mb-3">
+                                    <input class="form-control" type="text" name="form_name" placeholder="Your Name*" required>
+                                </div>
+                                <div class="col-md-12 mb-3">
+                                    <input class="form-control" type="email" name="form_email" placeholder="Your Mail*" required>
+                                </div>
+                                <div class="col-md-12 mb-3">
+                                    <input class="form-control" type="text" name="form_phone" placeholder="Phone">
+                                </div>
+                                <div class="col-md-12 mb-3">
+                                    <input class="form-control" type="text" name="form_subject" placeholder="Subject">
+                                </div>
+                                <div class="col-md-12 mb-3">
+                                    <textarea name="form_message" class="form-control" placeholder="Your Message.." required></textarea>
+                                </div>
+                                <div class="col-md-12 text-end">
+                                    <input id="form_botcheck" name="form_botcheck" type="hidden" value="">
+                                    <button class="thm-btn bg-clr1" type="submit" data-loading-text="Please wait...">
+                                        Send Message
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <?php if(!Cookie::get('cookie_consent')): ?>
+        <div id="cookie-consent" class="position-fixed text-white shadow-lg" style="background: rgba(33,33,33,0.95);
+               bottom: 0;
+               left: 0;
+               right: 0;
+               width: 100%;
+               z-index: 999999;
+               display: none;
+               border-radius: 0;
+               padding: 15px 20px;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <!-- Text -->
+                    <div class="col-12 col-sm-9 mb-3 mb-sm-0">
+                        <p class="mb-0 small text-white">
+                            We use cookies to personalize content, improve site performance, and analyze traffic.
+                            Some
+                            cookies are essential for the site to function correctly. You can manage your
+                            preferences or
+                            accept all cookies.
+                        </p>
+                    </div>
+
+                    <!-- Buttons -->
+                    <div class="col-12 col-sm-3">
+                        <div class="d-flex flex-row flex-sm-column justify-content-between p-2">
+                            <button id="accept-cookies" class="btn btn-sm text-white mb-sm-2" style="background-color:#db7227;">Accept</button>
+                            <button id="reject-cookies" class="btn btn-sm border text-white" style="border-color:#db7227;">Reject</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <?php endif; ?>
+
+
+
+
+
+
+
+
+
+
+
+        <!--Scroll to top-->
+        <div class="scroll-to-top scroll-to-target" data-bs-target="html"><span class="fa fa-angle-up"></span></div>
+        <div class="prealoader"></div>
+        <!-- main jQuery -->
+        <script src="<?php echo e(asset('assets/js/jquery.js')); ?>"></script>
+        <!-- bootstrap -->
+        <script src="<?php echo e(asset('assets/js/bootstrap.min.js')); ?>"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const popup = document.getElementById("cookie-consent");
+                if (!popup) return;
+
+                setTimeout(() => popup.style.display = "block", 3000);
+
+                function sendConsent(url) {
+                    fetch(url, {
+                            method: "POST"
+                            , headers: {
+                                "Content-Type": "application/json"
+                                , "X-CSRF-TOKEN": document.querySelector('meta[name="csrf-token"]').getAttribute(
+                                    "content")
+                            , }
+                            , credentials: "same-origin" // 👈 VERY IMPORTANT: allows cookies to be saved
+                        })
+                        .then(res => res.json())
+                        .then(data => {
+                            console.log("Cookie status:", data.status);
+                            popup.style.display = "none";
+                        })
+                        .catch(err => console.error("Cookie error:", err));
+                }
+
+                document.getElementById("accept-cookies") ?.addEventListener("click", () => sendConsent(
+                    "<?php echo e(route('cookie.accept')); ?>"));
+                document.getElementById("reject-cookies") ?.addEventListener("click", () => sendConsent(
+                    "<?php echo e(route('cookie.reject')); ?>"));
+            });
+
+        </script>
+
+
+
+        <!-- Bootstrap 5.3 Bundle JS (includes Popper) -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- bx slider -->
+        <script src="<?php echo e(asset('assets/js/jquery.bxslider.min.js')); ?>"></script>
+        <!-- count to -->
+        <script src="<?php echo e(asset('assets/js/jquery.countTo.js')); ?>"></script>
+        <!-- owl carousel -->
+        <script src="<?php echo e(asset('assets/js/owl.carousel.min.js')); ?>"></script>
+        <!-- validate -->
+        <script src="<?php echo e(asset('assets/js/validation.js')); ?>"></script>
+        <!-- mixit up -->
+        <script src="<?php echo e(asset('assets/js/jquery.mixitup.min.js')); ?>"></script>
+        <!-- easing -->
+        <script src="<?php echo e(asset('assets/js/jquery.easing.min.js')); ?>"></script>
+        <!-- gmap helper -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A"></script>
+        <!--gmap script-->
+        <script src="<?php echo e(asset('assets/js/gmaps.js')); ?>"></script>
+        <script src="<?php echo e(asset('assets/js/map-helper.js')); ?>"></script>
+        <!-- fancy box -->
+        <script src="<?php echo e(asset('assets/js/jquery.fancybox.pack.js')); ?>"></script>
+        <script src="<?php echo e(asset('assets/js/jquery.appear.js')); ?>"></script>
+        <!-- isotope script-->
+        <script src="<?php echo e(asset('assets/js/isotope.js')); ?>"></script>
+        <script src="<?php echo e(asset('assets/js/jquery.prettyPhoto.js')); ?>"></script>
+        <script src="<?php echo e(asset('assets/js/jquery.bootstrap-touchspin.js')); ?>"></script>
+
+        <!-- jQuery ui js -->
+        <script src="<?php echo e(asset('assets/js/jquery-ui.js')); ?>"></script>
+        
+        <script src="<?php echo e(asset('assets/js/validation.js')); ?>"></script>
+        <script src="<?php echo e(asset('assets/js/wow.min.js')); ?>"></script>
+
+
+
+        <!-- revolution slider js -->
+        <script src="<?php echo e(asset('assets/js/jquery.themepunch.tools.min.js')); ?>"></script>
+        <script src="<?php echo e(asset('assets/js/jquery.themepunch.revolution.min.js')); ?>"></script>
+        <script src="<?php echo e(asset('assets/js/revolution.extension.actions.min.js')); ?>"></script>
+        <script src="<?php echo e(asset('assets/js/revolution.extension.carousel.min.js')); ?>"></script>
+        <script src="<?php echo e(asset('assets/js/revolution.extension.kenburn.min.js')); ?>"></script>
+        <script src="<?php echo e(asset('assets/js/revolution.extension.layeranimation.min.js')); ?>"></script>
+        <script src="<?php echo e(asset('assets/js/revolution.extension.migration.min.js')); ?>"></script>
+        <script src="<?php echo e(asset('assets/js/revolution.extension.navigation.min.js')); ?>"></script>
+        <script src="<?php echo e(asset('assets/js/revolution.extension.parallax.min.js')); ?>"></script>
+        <script src="<?php echo e(asset('assets/js/revolution.extension.slideanims.min.js')); ?>"></script>
+        <script src="<?php echo e(asset('assets/js/revolution.extension.video.min.js')); ?>"></script>
+
+
+        
+        <!-- thm custom script -->
+        <script src="<?php echo e(asset('assets/js/custom.js')); ?>"></script>
+        <script>
+            // Enable dropdown on hover for desktop
+            document.querySelectorAll('.dropdown').forEach(function(dropdown) {
+                dropdown.addEventListener('mouseover', function() {
+                    let toggle = this.querySelector('[data-bs-toggle="dropdown"]');
+                    if (toggle && window.innerWidth > 992) {
+                        let dropdownInstance = bootstrap.Dropdown.getOrCreateInstance(toggle);
+                        dropdownInstance.show();
+                    }
+                });
+                dropdown.addEventListener('mouseleave', function() {
+                    let toggle = this.querySelector('[data-bs-toggle="dropdown"]');
+                    if (toggle && window.innerWidth > 992) {
+                        let dropdownInstance = bootstrap.Dropdown.getOrCreateInstance(toggle);
+                        dropdownInstance.hide();
+                    }
+                });
+            });
+
+        </script>
+        
+
+
+
+
+
+
+
+
+    </div>
+    <?php echo $__env->yieldContent('extrajs'); ?>
+    <?php echo $__env->yieldContent('jsscripts'); ?>
+</body>
+
+
+
+</html>
+<?php /**PATH C:\xampp\htdocs\mokshtube-new\mokshtube\resources\views/layouts/master.blade.php ENDPATH**/ ?>

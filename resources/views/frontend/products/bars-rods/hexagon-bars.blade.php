@@ -6,7 +6,7 @@
 @section('meta_keywords',
     'hexagon bar, hexagonal bars, stainless steel hex bar, mild steel hex bar, alloy steel hex
     bar, brass hex bar, aluminium hex bar, hex bar sizes, hex bar weight chart')
-    @section('og_image', asset('assets/images/product/Hexagon-Bars.webp'))
+@section('og_image', asset('assets/images/product/Hexagon-Bars.webp'))
 @section('og_type', 'article')
 
 @section('content')
@@ -31,8 +31,8 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/product/Hexagon-Bars.webp') }}"
-                        alt="Hexagon Bars" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/product/Hexagon-Bars.webp') }}" alt="Hexagon Bars"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Right Content -->
@@ -1091,7 +1091,7 @@
 @endsection
 @section('jsscripts')
     <script type="application/ld+json">
-    @verbatim
+        @verbatim
             {
             "@context": "https://schema.org",
             "@type": "FAQPage",
@@ -1138,7 +1138,7 @@
                 }
             ]
             }
-        
+
         @endverbatim
     </script>
 @endsection
