@@ -742,29 +742,6 @@
                     </div>
                 @endforeach
             </div>
-
-            <!-- Custom Pagination -->
-            {{-- <div class="custom-pagination">
-                @if ($blogs->onFirstPage())
-                    <span class="disabled">« Prev</span>
-                @else
-                    <a href="{{ $blogs->previousPageUrl() }}">« Prev</a>
-                @endif
-
-                @foreach ($blogs->getUrlRange(1, $blogs->lastPage()) as $page => $url)
-                    @if ($page == $blogs->currentPage())
-                        <span class="active">{{ $page }}</span>
-                    @else
-                        <a href="{{ $url }}">{{ $page }}</a>
-                    @endif
-                @endforeach
-
-                @if ($blogs->hasMorePages())
-                    <a href="{{ $blogs->nextPageUrl() }}">Next »</a>
-                @else
-                    <span class="disabled">Next »</span>
-                @endif
-            </div> --}}
         </div>
     </section>
 
