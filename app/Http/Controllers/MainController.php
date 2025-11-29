@@ -17,24 +17,6 @@ class MainController extends Controller
         return view('frontend.index' ,compact('blogs'));
 
     }
-
-    //  public function index()
-    // {
-    //     $blogs = Blog::where('status', 1)->latest()->paginate(9);
-
-    //     return view('frontend.blogs.index', compact('blogs'));
-    // }
-
-    // // Single blog page
-    // public function show($slug)
-    // {
-    //     $blog = Blog::where('slug', $slug)
-    //                 ->where('status', 1)
-    //                 ->firstOrFail();
-
-    //     return view('frontend.blogs.single', compact('blog'));
-    // }
-
     public function aboutUs()
     {
         return view('frontend.about');
