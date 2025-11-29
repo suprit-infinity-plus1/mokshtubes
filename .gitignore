@@ -16,10 +16,14 @@
 /public/build
 /public/hot
 /public/storage
+/vendor
 /storage/*.key
 /storage/pail
-/vendor
+/storage/*
+!/storage/app/public
+!/storage/framework/cache/data
+!/storage/logs
+/storage/framework/views/*
 Homestead.json
 Homestead.yaml
 Thumbs.db
-/storage/framework/views/*
