@@ -106,9 +106,9 @@
                 <h2>Product Overview of 1055 Steel</h2>
             </div>
 
-            <h2 class="fw-semibold text-center mb-5" style="color: #db7227;">
+            <h3 class="fw-semibold text-center mb-5" style="color: #db7227;">
                 Introduction To EN 1055 / 1055 Steel
-            </h2>
+            </h3>
 
             <div class="row align-items-center">
                 <!-- Image Left -->

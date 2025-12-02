@@ -2117,40 +2117,9 @@
                 <!-- Card 1 -->
 
                 <!-- Card 1 -->
-                <div class="col-md-6 center">
-                    <div class="application-card">
-                        <div class="application-icon">
-                            <i class="bi bi-list-check"></i>
-                        </div>
-                        <h5>Selecting Boiler Tubes</h5>
-                        <ul>
-                            <li>Temperature and pressure rating requirements</li>
-                            <li>Flow medium compatibility (steam, water, chemical)</li>
-                            <li>Corrosion exposure considerations</li>
-                            <li>Dimensional specifications (OD, thickness, tolerance)</li>
-                            <li>Compliance with applicable codes and standards</li>
-                        </ul>
-                    </div>
-                </div>
+               
 
-                <!-- Card 2 -->
-                <div class="col-md-6 center">
-                    <div class="application-card">
-                        <div class="application-icon">
-                            <i class="bi bi-diagram-3-fill"></i>
-                        </div>
-                        <h5>Seamless vs Welded Tubes</h5>
-                        <ul>
-                            <li><strong>Seamless:</strong> No weld seam, superior strength for high pressure</li>
-                            <li><strong>Seamless:</strong> Ideal for critical boiler and superheater applications</li>
-                            <li><strong>Welded:</strong> Lower manufacturing cost, economical solution</li>
-                            <li><strong>Welded:</strong> Best for low to medium pressure heat exchangers</li>
-                            <li><strong>Both:</strong> Available in various grades and specifications</li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- Card 3 -->
-
+            
             </div>
         </div>
     </section>
@@ -2168,7 +2137,7 @@
                 <div class="col-md-6 center">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-diagram-3"></i></div>
-                        <h5>Boiler Tube Basic Layout</h5>
+                        
                         <a class="" href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes') }}">
                             <img class="w-100" src="{{ asset('/assets/images/product/basic-tube-layout.webp') }}"
                                 alt="basic tube layout of boiler heat exchanger" loading="lazy" width="400"
@@ -2181,7 +2150,7 @@
                 <div class="col-md-6 center">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-diagram-3-fill"></i></div>
-                        <h5>U-Bend Heat Exchanger Tube Layout</h5>
+                        
                         <a class="" href="{{ route('products.pipes-tubes.u-bent-tubes') }}">
                             <img class="w-100"
                                 src="{{ asset('/assets/images/product/u-bent-tube-heat-exchange-layout.webp') }}"
