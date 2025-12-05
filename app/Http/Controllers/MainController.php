@@ -12,11 +12,12 @@ class MainController extends Controller
     //
     public function home()
     {
-                $blogs = Blog::where('status', 1)->latest()->paginate(3);
+        $blogs = Blog::where('status', 1)->latest()->paginate(3);
 
-        return view('frontend.index' ,compact('blogs'));
+        return view('frontend.index', compact('blogs'));
 
     }
+
     public function aboutUs()
     {
         return view('frontend.about');
@@ -251,20 +252,31 @@ class MainController extends Controller
 
     public function hastelloy()
     {
-        // $grades = [
-        //     ['name' => 'C276', 'slug' => 'c276'],
-        //     ['name' => 'C22', 'slug' => 'c22'],
-        //     ['name' => 'C4', 'slug' => 'c4'],
-        //     ['name' => 'B2', 'slug' => 'b2'],
-        //     ['name' => 'B3', 'slug' => 'b3'],
-        //     ['name' => 'C2000', 'slug' => 'c2000'],
-        //     ['name' => 'G3', 'slug' => 'g3'],
-        //     ['name' => 'G30', 'slug' => 'g30'],
-        //     ['name' => 'Hastelloy X', 'slug' => 'hastelloy-x'],
-        // ];
+        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+        // dd($blogCategories);
+        $categoryId = $blogCategories->pluck('id')->first();
+        // dd($categoryId);
+        $blogs = Blog::where('status', 1)->where('category_id', $categoryId)->paginate(3);
+        // dd($blogs);
 
-        // return view('frontend.materials.hastelloy.index', compact('grades'));
-        return view('frontend.materials.hastelloy.index');
+        return view('frontend.materials.hastelloy.index', compact('blogs'));
+    }
+
+    public function hastelloyGrade($slug)
+    {
+        // Blogs
+        $blogCategories = BlogCategory::where('status', 1)
+            ->where('name', 'like', '%Hastelloy%')
+            ->get();
+
+        $categoryId = $blogCategories->pluck('id')->first();
+
+        $blogs = Blog::where('status', 1)
+            ->where('category_id', $categoryId)
+            ->paginate(3);
+
+        // Pass current slug (optional)
+        return view('frontend.materials.hastelloy.'.$slug, compact('blogs', 'slug'));
     }
 
     public function monel()
@@ -522,10 +534,6 @@ class MainController extends Controller
     // {
     //     return view('frontend.materials.nickel-alloys.index');
     // }
-    public function hastelloyC276()
-    {
-        return view('frontend.materials.hastelloy-c276');
-    }
 
     public function showMaterial($category, $slug)
     {
@@ -726,7 +734,7 @@ class MainController extends Controller
 
     public function strips()
     {
-        // dd("I AM HERE");
+        // dd('I AM HERE');
         return view('frontend.products.sheets-plates-coils.strips');
     }
 

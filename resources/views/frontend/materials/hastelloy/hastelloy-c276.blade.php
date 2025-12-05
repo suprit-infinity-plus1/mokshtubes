@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Hastelloy C276 – Corrosion-Resistant Pipes, Sheets & Bars.')
-@section('meta_description', 'Hastelloy C276 (UNS N10276) from Moksh Tubes — corrosion-resistant nickel alloy for
+@section('meta_description',
+    'Hastelloy C276 (UNS N10276) from Moksh Tubes — corrosion-resistant nickel alloy for
     chemical, oil & gas, marine & industrial applications.')
-@section('meta_keywords', 'Hastelloy C276, Corrosion Resistant Alloy, Nickel Alloy, Hastelloy C276 Pipes, Hastelloy C276
+@section('meta_keywords',
+    'Hastelloy C276, Corrosion Resistant Alloy, Nickel Alloy, Hastelloy C276 Pipes, Hastelloy C276
     Tubes, Hastelloy C276 Fittings, Industrial Corrosion Resistant Alloys, Durable Nickel Alloys, Chemical Processing
     Alloys, Marine Alloys')
 @section('og_image', asset('assets/images/hastelloy/hastelloy-c276.webp'))
@@ -299,7 +301,7 @@
     </section>
 
 
-     @php
+    @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -725,7 +727,59 @@
     </section>
     <!--End faq content area-->
 
+    <section class="blog-section sec-padd2">
+        <div class="container">
+            <div class="section-title">
+                <h2>blogs</h2>
+            </div>
+            <div class="row">
+                @foreach ($blogs as $blog)
+                    {{-- {{ dd($blog) }} --}}
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="default-blog-news wow fadeInUp animated">
 
+                            <figure class="img-holder mb-0">
+                                <a href="{{ route('frontend.single-blog', $blog->slug) }}">
+                                    <img src="{{ asset('storage/' . $blog->cover_image) }}" alt="{{ $blog->title }}"
+                                        loading="lazy">
+                                </a>
+                                <figcaption class="overlay">
+                                    <div class="box">
+                                        <div class="content">
+                                            <a href="{{ route('frontend.single-blog', $blog->slug) }}">
+                                                <i class="fa fa-link" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                            <div class="lower-content">
+                                <a href="{{ route('frontend.single-blog', $blog->slug) }}">
+                                    <h5>{{ Str::limit($blog->title, 30) }}</h5>
+                                </a>
+
+                                <div class="post-meta">
+                                    by {{ $blog->author ?? 'Admin' }} |
+                                    {{ $blog->created_at->format('F d, Y') }}
+                                </div>
+
+                                <!--<div class="text">-->
+                                <!--</div>-->
+                                {!! \Str::limit(strip_tags($blog->content, '<i>'), 120) !!}
+
+                                <div class="link">
+                                    <a href="{{ route('frontend.single-blog', $blog->slug) }}" class="default_link">
+                                        Read More <i class="fa fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                @endforeach
+            </div>
+        </div>
+    </section>
 
     <!-- Supplier / Price Info -->
     <section>
@@ -815,7 +869,7 @@
                 }
             ]
             }
-        
+
         @endverbatim
     </script>
 @endsection
