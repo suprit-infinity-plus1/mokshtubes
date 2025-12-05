@@ -48,8 +48,7 @@
                         duplex, <a href="{{ route('materials.titanium') }}">titanium</a>, and <a
                             href="{{ route('materials.nickel-Based-Superalloys') }}">nickel alloys</a>. Our fittings comply
                         with ASTM, ASME, DIN, EN, and API
-                        standards, and are crafted using cutting, forming, bending, <a
-                            href="{{ route('blogs.welded-vs-seamless') }}">welding</a>, and machining techniques to
+                        standards, and are crafted using cutting, forming, bending, <a href="{{ url('blog/welded-vs-seamless') }}">welding</a>, and machining techniques to
                         deliver precision and reliability for critical industries.
                     </p>
                 </div>
