@@ -38,9 +38,9 @@
             </div>
         </div>
     </section>
+<!--End breadcrumb area-->
 
-
-    <!--End breadcrumb area-->
+    
 <style>
 
     .material-tabs {

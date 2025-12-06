@@ -15,13 +15,64 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Premium EN19 Hardened Alloy Steel</h1>
+                    <h1>Premium EN19 Hardened Alloy Steel<br>High Strength Alloy Steel
+</h1>
+
+ <!-- Add your extra content here -->
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                       EN19 Engineering Steel (EN19 / 4140 / 42CrMo4) is a high-strength chromium-molybdenum alloy steel grade known for excellent toughness, high tensile strength, shock resistance, and superior hardenability. It is widely used for shafts, gears, axles, bolts, crankshafts, and other heavy-duty engineering components.
+
+                    </p>
+
+
+                    <!-- End extra content -->
                 </div>
             </div>
         </div>
     </section>
+ <!--End breadcrumb area-->
 
-    <!--End breadcrumb area-->
+ <style>
+
+    .material-tabs {
+    background: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #e5e5e5;
+    position: sticky;   /* you missed this */
+    top: 50px;             /* and this */
+    z-index: 1020;
+}
+
+.material-tabs a {
+    margin: 0 14px;
+    font-weight: 600;
+    color: #1b3c61 !important;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.25s ease;
+    display: inline-block;
+}
+
+.material-tabs a:hover {
+    color: #db7227 !important;
+    transform: translateY(-2px);
+}
+</style>
+<div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
+    <div class="container">
+        <a href="#overview">Overview</a> |
+        <a href="#composition">Chemical Composition</a> |
+        <a href="#heat-treatment">Heat Treatment</a> |
+        <a href="#mechanical">Mechanical Properties</a> |
+        <a href="#price">Advantages</a> |
+        <a href="#applications">Applications</a> |
+        <a href="#faq">FAQ</a> |
+        <a href="#contact us">Contact Us</a> 
+    </div>
+</div>
+   
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
