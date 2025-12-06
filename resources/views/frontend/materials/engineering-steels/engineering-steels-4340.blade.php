@@ -1,24 +1,80 @@
 @extends('layouts.master')
 
 @section('title', '4340 Alloy Steel | High Tensile Strength Alloy')
-@section('meta_description', '4340 Alloy Steel delivers superior toughness and fatigue resistance for demanding engineering applications.')
-@section('meta_keywords', '4340 Alloy Steel, high tensile strength steel, tough steel, fatigue resistant steel, alloy steel for critical applications, industrial alloy steel')
+@section('meta_description', '4340 Alloy Steel delivers superior toughness and fatigue resistance for demanding
+    engineering applications.')
+@section('meta_keywords', '4340 Alloy Steel, high tensile strength steel, tough steel, fatigue resistant steel, alloy
+    steel for critical applications, industrial alloy steel')
 
 @section('og_image', asset('assets/images/engineering-steels/engineering-steels-4340.webp'))
 @section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/engineering-steels/engineering-steels-4340.webp);">
+    <section class="breadcrumb-area"
+        style="background-image: url(/assets/images/engineering-steels/engineering-steels-4340.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>High Performance 4340 Alloy Steel for Engineering</h1>
+                    <h1>High Performance 4340 Alloy Steel for Engineering<br>High-Strength Low Alloy Steel</h1>
+
+                    <!-- Add your extra content here -->
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                        High-Strength Low Alloy Steel is a specialized alloy steel grade known for exceptional strength,
+                        toughness, and durability, widely used in aerospace, automotive, and heavy engineering applications.
+                        Below is the complete datasheet including composition, properties, heat treatment, and
+                        applications.<br>High Strength • Excellent Toughness • Ideal for Aerospace, Automotive & Heavy
+                        Engineering
+                    </p>
+
+
+                    <!-- End extra content -->
                 </div>
             </div>
         </div>
     </section>
 
+    <style>
+        .material-tabs {
+            background: #ffffff;
+            text-align: center;
+            padding: 15px 0;
+            border-bottom: 1px solid #e5e5e5;
+            position: sticky;
+            /* you missed this */
+            top: 50px;
+            /* and this */
+            z-index: 1020;
+        }
+
+        .material-tabs a {
+            margin: 0 14px;
+            font-weight: 600;
+            color: #1b3c61 !important;
+            text-decoration: none;
+            font-size: 16px;
+            transition: 0.25s ease;
+            display: inline-block;
+        }
+
+        .material-tabs a:hover {
+            color: #db7227 !important;
+            transform: translateY(-2px);
+        }
+    </style>
+    <div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
+        <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact us">Contact Us</a>
+        </div>
+    </div>
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">
@@ -41,22 +97,137 @@
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
-                        <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted supplier, exporter, importer, and stockist of<strong class="text-black"> 4340 alloy steel
-                                products</strong> such as bars, plates, sheets, and forgings.
+                        <p class="fs-6 mb-3 text-justify">
+                            <strong>Moksh Tubes & Fittings LLP</strong> is a reliable supplier, exporter, importer, and
+                            stockist of
+                            <strong>EN 4130 Alloy Steel (AISI 4130 / Cr-Mo Steel)</strong>, offering a wide range of pipes,
+                            tubes, bars, plates,
+                            and fittings for various engineering and industrial applications. 4130 alloy steel is a highly
+                            versatile low-alloy
+                            grade valued for its high strength, excellent toughness, superior weldability, and strong
+                            fatigue resistance.
+                            With an exceptional strength-to-weight ratio, it is widely used in aerospace structures,
+                            motorsport chassis and roll cages,
+                            high-pressure tubing, oilfield tools, and critical mechanical components operating under
+                            demanding service conditions.
                         </p>
 
-                        <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">EN 4340</strong class="text-black">, is a high-strength, low-alloy
-                            steel known for its excellent toughness, fatigue strength, and resistance to impact and wear. It
-                            contains nickel, chromium, and molybdenum as alloying elements, providing enhanced hardenability
-                            and mechanical properties. 4340 is commonly used in aerospace, automotive, and heavy machinery
-                            applications where high strength and durability under stress are critical.
+                        <p class="fs-6 text-justify">
+                            Whether used in aircraft components, racing frames, drill pipes, hydraulic assemblies, or other
+                            high-stress engineering applications,
+                            <strong>4130 alloy steel delivers consistent and dependable performance</strong> under heavy
+                            loads, vibration, pressure, and extreme environments.
+                            We supply EN 4130 in multiple forms including
+                            <strong>
+                                <a href="{{ route('products.bars-rods.round-bars') }}">round bars</a>,
+                                <a href="{{ route('products.bars-rods.flat-bars') }}"> flat bars</a>,
+                                hex bars, square bars, plates, sheets, coils, strips, seamless pipes,
+                                <a href="{{ route('products.pipes-tubes.welded-pipes') }}">welded tubes</a>,
+                                forged blocks, rings, and custom-machined components.
+                            </strong>
+                            Material is available in annealed, normalized, quenched & tempered, hot-rolled, and cold-drawn
+                            conditions.
+                            All products are sourced from certified mills and supplied with
+                            <strong>EN 10204 3.1 / 3.2 certification</strong>, ensuring complete traceability, reliability,
+                            and quality for industrial and engineering use.
                         </p>
+
                     </div>
                 </div>
             </div>
         </div>
+    </section>
+
+    {{-- datasheet --}}
+    <section class="sec-padd-bottom bg-light">
+        <div class="datasheet-download px-4 text-center">
+            <h3 class="mb-3" style="color:#174268;">Download 4340 Alloy Steel Datasheet</h3>
+            <p class="mb-3">
+                Get the complete datasheet with chemical composition, mechanical properties, physical data & heat treatment
+                details.
+                Enter your email to receive the PDF instantly.
+            </p>
+
+            <!-- Lead Capture Form -->
+            <form id="leadForm" method="POST" action="https://mokshtubes.com/datasheet-leads-capture" class="mb-3">
+                <input type="hidden" name="_token" value="WNVWvpO4YR2OqZaIJDl2mE3UfyreGys3Vp19brsc" autocomplete="off">
+                <div class="row justify-content-center">
+                    <input type="hidden" name="pdf" value="haynes-242.pdf">
+                    <div class="col-md-6 mb-2">
+                        <input type="email" name="email" required="" class="form-control p-3"
+                            placeholder="Enter your email address">
+                    </div>
+                    <div class="col-md-3 mb-2">
+                        <button type="submit" class="btn btn-lg w-100 text-white"
+                            style="background-color:#db7227; border-radius:8px;">
+                            📥 Get Datasheet
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+
+
+            <p class="small text-muted">
+                We respect your privacy. Your email will only be used to send the datasheet.
+            </p>
+        </div>
+    </section>
+
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
+        <div class="container">
+            <div class="section-title center">
+                <h2>4340 Alloy Steel Specifications</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Category</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Grade</td>
+                                    <td>AISI 4340 / UNS G43400 / EN 24 / 1.6511</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Type</td>
+                                    <td>High-Strength Low Alloy Steel (Ni-Cr-Mo Alloy)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Typical Chemical Composition</td>
+                                    <td>Ni 1.65–2.00%, Cr 0.70–0.90%, Mo 0.20–0.30%, C 0.38–0.43%, Mn 0.60–0.80%, Si
+                                        0.15–0.30%</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Conditions</td>
+                                    <td>Annealed, Normalized, Hardened & Tempered, Hot Rolled, Forged</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Heat Treatment</td>
+                                    <td>Hardening, Tempering, Stress Relieving</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Testing</td>
+                                    <td>Tensile, Hardness, Impact, Chemical Analysis, UT (Optional)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Certification</td>
+                                    <td>EN 10204 3.1 / 3.2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div> <!-- col-lg-8 -->
+
+            </div> <!-- row -->
+        </div> <!-- container -->
     </section>
 
 
@@ -111,6 +282,9 @@
                                 </tr>
                             </tbody>
                         </table>
+                        <p class="mt-3 text-center">
+                            4340 alloy steel gets its unique toughness from the combined Ni-Cr-Mo alloying.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -194,49 +368,253 @@
                 </div>
             </div>
 
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+            <div class="row justify-content-center mb-5" id="heat-treatment">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color: #db7227;">Heat Treatment of 4340 Steel</h4>
+
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Value</th>
+                                <tr>
+                                    <th>Heat Treatment Process</th>
+                                    <th>Temperature Range</th>
+                                    <th>Cooling / Procedure</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Tensile Strength</td>
-                                    <td>930 – 1080 MPa</td>
+                                    <td><strong>Annealing</strong></td>
+                                    <td>790–870°C</td>
+                                    <td>Furnace cool</td>
                                 </tr>
+
                                 <tr class="t-row">
-                                    <td>Yield Strength</td>
-                                    <td>745 – 930 MPa</td>
+                                    <td><strong>Normalizing</strong></td>
+                                    <td>830–900°C</td>
+                                    <td>Air cool</td>
                                 </tr>
+
                                 <tr class="t-row">
-                                    <td>Elongation at Break</td>
-                                    <td>12 – 16 %</td>
+                                    <td><strong>Hardening</strong></td>
+                                    <td>830–860°C</td>
+                                    <td>Oil or polymer quench</td>
                                 </tr>
+
                                 <tr class="t-row">
-                                    <td>Hardness</td>
-                                    <td>28 – 34 HRC</td>
+                                    <td><strong>Tempering</strong></td>
+                                    <td>400–650°C</td>
+                                    <td>Depends on required hardness</td>
                                 </tr>
+
                                 <tr class="t-row">
-                                    <td>Impact Toughness</td>
-                                    <td>Excellent</td>
+                                    <td><strong>Stress Relieving</strong></td>
+                                    <td>540–650°C</td>
+                                    <td>Hold 1–2 hours</td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
             </div>
+
         </div>
     </section>
 
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color: #174268;">Mechanical Properties of 4340 Alloy Steel (Quenched &
+                    Tempered)</h2>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Annealed</th>
+                            <th>Hot Finished</th>
+                            <th>Cold Drawn</th>
+                            <th>Hot Rolled</th>
+                            <th>Sheet</th>
+                        </tr>
+                    </thead>
 
-     @php
+                    <tbody class="text-center">
+
+                        <tr class="t-row">
+                            <td>Tensile Strength</td>
+                            <td>930–1080 MPa</td>
+                            <td>—</td>
+                            <td>—</td>
+                            <td>—</td>
+                            <td>—</td>
+                        </tr>
+
+                        <tr class="t-row">
+                            <td>Yield Strength</td>
+                            <td>745–930 MPa</td>
+                            <td>—</td>
+                            <td>—</td>
+                            <td>—</td>
+                            <td>—</td>
+                        </tr>
+
+                        <tr class="t-row">
+                            <td>Elongation (%)</td>
+                            <td>12–16%</td>
+                            <td>—</td>
+                            <td>—</td>
+                            <td>—</td>
+                            <td>—</td>
+                        </tr>
+
+                        <tr class="t-row">
+                            <td>Hardness</td>
+                            <td>28–34 HRC</td>
+                            <td>—</td>
+                            <td>—</td>
+                            <td>—</td>
+                            <td>—</td>
+                        </tr>
+
+                        <tr class="t-row">
+                            <td>Impact Toughness</td>
+                            <td>Excellent</td>
+                            <td>—</td>
+                            <td>—</td>
+                            <td>—</td>
+                            <td>—</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+                <p class="mt-3 text-center">
+                    4340 steel shows excellent toughness and high strength after quenching & tempering.
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+<section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+    <div class="container">
+        <div class="section-title center mt-5" id="available forms">
+            <h2>Available Forms & Size Range</h2>
+        </div>
+
+        <div class="row justify-content-center mb-4" style="text-align: justify;">
+            <div class="col-lg-10">
+                <p class="fs-6 text-center">
+                    We supply Alloy Steel 4340 in the following product forms and dimensions:
+                </p>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color:#db7227;">
+                    <table class="table table-bordered table-striped">
+                        <thead>
+                            <tr>
+                                <th style="width: 40%;">Product Form</th>
+                                <th>Size Range / Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Round Bars</td>
+                                <td>16 mm – 600 mm</td>
+                            </tr>
+                            <tr>
+                                <td>Flat, Square & Hex Bars</td>
+                                <td>Custom sizes</td>
+                            </tr>
+                            <tr>
+                                <td>Sheets & Plates</td>
+                                <td>3 mm – 200 mm</td>
+                            </tr>
+                            <tr>
+                                <td>Forgings</td>
+                                <td>Blocks, rings, bushings, custom shapes</td>
+                            </tr>
+                            <tr>
+                                <td>Tubes</td>
+                                <td>OD 20 mm – 219 mm</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- End Available Forms & Size Range Section -->
+
+<!-- Standards & Equivalent Grades Section -->
+<section class="sec-padd-top sec-padd-bottom" id="international">
+    <div class="container">
+        <div class="section-title center">
+            <h2>International Standards & Equivalent Grades — Alloy Steel 4340</h2>
+        </div>
+
+        <div class="table-responsive col-lg-8 mx-auto">
+            <table class="table table-bordered text-center">
+                <thead class="table-dark">
+                    <tr class="t-row">
+                        <th>Standard</th>
+                        <th>Equivalent Grade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="t-row">
+                        <td>AISI / SAE</td>
+                        <td>4340</td>
+                    </tr>
+                    <tr class="t-row">
+                        <td>EN</td>
+                        <td>34CrNiMo6 / 1.6582</td>
+                    </tr>
+                    <tr class="t-row">
+                        <td>DIN</td>
+                        <td>34CrNiMo6</td>
+                    </tr>
+                    <tr class="t-row">
+                        <td>BS (British)</td>
+                        <td>817M40</td>
+                    </tr>
+                    <tr class="t-row">
+                        <td>AFNOR (France)</td>
+                        <td>35NCD16</td>
+                    </tr>
+                    <tr class="t-row">
+                        <td>JIS (Japan)</td>
+                        <td>SNCM439</td>
+                    </tr>
+                    <tr class="t-row">
+                        <td>GB (China)</td>
+                        <td>40CrNiMoA</td>
+                    </tr>
+                    <tr class="t-row">
+                        <td>ISO</td>
+                        <td>34CrNiMo6</td>
+                    </tr>
+                    <tr class="t-row">
+                        <td>GOST (Russia)</td>
+                        <td>30ХГСА / 30KhGSA</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+
+    @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -333,18 +711,17 @@
             </div>
 
             <!-- Product Image Cards (Now centered and responsive) -->
-            <div class="row g-4">
-                 @foreach ($products as $product)
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
-                        <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ route($product['route']) }}" class="text-decoration-none">
-                                <div class="product-card h-100">
-                                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
-                                        class="img-fluid  w-100">
-                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product['name'] }}</h6>
-                                </div>
-                            </a>
-                        </div>
+              <!-- Product Image Cards (Bootstrap Grid) -->
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4 justify-content-center">
+                @foreach ($products as $product)
+                    <div class="col d-flex">
+                        <a href="{{ route($product['route']) }}" class="text-decoration-none w-100">
+                            <div class="product-card h-100">
+                                <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
+                                    class="img-fluid w-100">
+                                <h6 class="product-card-title text-center mt-0 py-4">{{ $product['name'] }}</h6>
+                            </div>
+                        </a>
                     </div>
                 @endforeach
             </div>
@@ -466,6 +843,23 @@
         </div>
     </section>
 
+    <section class="sec-padd-top sec-padd-bottom bg-light py-5">
+    <div class="container">
+        <div class="section-title text-center mb-4">
+            <h2>Export Destinations</h2>
+        </div>
+
+        <p class="text-center mb-2">
+            We export Alloy Steel 4340 to:
+        </p>
+
+        <p class="text-center fs-5">
+            UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain, Turkey, Europe, USA, Canada, Singapore,
+            Malaysia, Indonesia, South Africa, Nigeria.
+        </p>
+    </div>
+</section>
+
 
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
@@ -511,6 +905,16 @@
             </div>
         </div>
     </section>
+
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light">
+    <div class="container text-center">
+        <h2>4340 Steel Price per kg in India</h2>
+        <p>Price varies based on size, OD, thickness, and heat-treatment condition.</p>
+        <p><strong>Typical Range:</strong> ₹160 – ₹260 per kg (Indicative only)</p>
+        <p>Contact us for exact quotation based on size and quantity.</p>
+    </div>
+</section>
+
 
     <!--Start faq content area-->
     <section class="faq-content-area sec-padd2">
@@ -629,7 +1033,7 @@
                         & Fittings
                         LLP </strong> — your reliable partner for premium engineering steels.
                 </p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch

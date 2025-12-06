@@ -13,12 +13,59 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Versatile 4140 Alloy Steel for Engineering Needs</h1>
+                    <h1>EN 4140 / AISI 4140 Alloy Steel <br> (Chromium-Molybdenum Low Alloy Steel)</h1>
+                     <!-- Add your extra content here -->
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                       EN 4140 Alloy Steel (AISI 4140 / 42CrMo4) is a chromium-molybdenum low alloy steel grade known for high strength, superior toughness, and excellent hardenability. It offers good fatigue resistance, wear performance, and dimensional stability after heat treatment. Below is the complete datasheet including composition, properties, heat treatment, and applications.<br>High Strength • Superior Toughness • Ideal for Heavy-Duty & High-Stress Engineering Applications
+                    </p>
+
+
+                    <!-- End extra content -->
                 </div>
             </div>
         </div>
     </section>
 
+<style>
+
+    .material-tabs {
+    background: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #e5e5e5;
+    position: sticky;   /* you missed this */
+    top: 50px;             /* and this */
+    z-index: 1020;
+}
+
+.material-tabs a {
+    margin: 0 14px;
+    font-weight: 600;
+    color: #1b3c61 !important;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.25s ease;
+    display: inline-block;
+}
+
+.material-tabs a:hover {
+    color: #db7227 !important;
+    transform: translateY(-2px);
+}
+</style>
+<div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
+    <div class="container">
+        <a href="#overview">Overview</a> |
+        <a href="#composition">Chemical Composition</a> |
+        <a href="#heat-treatment">Heat Treatment</a> |
+        <a href="#mechanical">Mechanical Properties</a> |
+        <a href="#price">Advantages</a> |
+        <a href="#applications">Applications</a> |
+        <a href="#faq">FAQ</a> |
+        <a href="#contact us">Contact Us</a> 
+    </div>
+</div>
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">
@@ -42,21 +89,38 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted manufacturer,
-                            supplier, exporter, importer, and stockist of<strong class="text-black"> EN 4140 steel
-                                products</strong> including<a href="{{ route('products.pipes-tubes') }}"> pipes</a>, tubes,
-                            bars, plates, and fittings.
-                        </p>
+    <strong class="text-black">MOKSH TUBES & FITTINGS LLP</strong> is a trusted supplier, stockist, exporter, importer, and distributor of high-quality 
+    <strong class="text-black">EN 4140 / AISI 4140 Alloy Steel products</strong> including 
+    <a href="{{ route('products.pipes-tubes') }}">pipes</a>, tubes, bars, plates, sheets, forgings, and custom-machined components.
+</p>
 
-                        <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">EN 4140</strong class="text-black">, is a chromium-molybdenum
-                            low-alloy steel renowned for its high tensile strength, toughness, and excellent wear
-                            resistance. It is highly versatile and widely used in engineering and structural applications.
-                            <a href="{{ route('materials.engineering-Steels') }}"> EN 4140</a> can be heat-treated to
-                            achieve a wide range of mechanical properties, making it ideal
-                            for applications requiring fatigue resistance and high stress endurance, such as in automotive,
-                            oil & gas, and heavy machinery industries.
-                        </p>
+<p class="fs-6" style="text-align: justify;">
+    <strong class="text-black">EN 4140</strong> (AISI 4140 / 42CrMo4) is a chromium-molybdenum low-alloy steel known for its exceptional combination of 
+    high tensile strength, excellent toughness, superior fatigue resistance, and strong wear & abrasion resistance. 
+    It can be supplied in annealed, normalized, or quenched & tempered (Q&T) conditions, offering a wide range of mechanical properties suitable for demanding engineering applications.
+</p>
+
+<p class="fs-6" style="text-align: justify;">
+    Thanks to its high hardenability and consistent heat-treat response, <a href="{{ route('materials.engineering-Steels') }}">EN 4140</a> is widely used in 
+    automotive components, oil & gas equipment, heavy machinery, aerospace parts, and general engineering applications requiring durability under dynamic and high-stress environments.
+</p>
+
+<p class="fs-6" style="text-align: justify;">
+    We supply EN 4140 steel in the following product forms:
+</p>
+
+<ul class="fs-6" style="text-align: justify;">
+    <li>Seamless & welded pipes/tubes</li>
+    <li>Round, square & flat bars</li>
+    <li>Sheets & plates</li>
+    <li>Forged bars & components</li>
+    <li>Custom-cut sizes and precision-machined parts</li>
+</ul>
+
+<p class="fs-6" style="text-align: justify;">
+    All materials are supplied with EN 10204 3.1 / 3.2 certification for complete traceability and quality assurance.
+</p>
+
                     </div>
                 </div>
             </div>
