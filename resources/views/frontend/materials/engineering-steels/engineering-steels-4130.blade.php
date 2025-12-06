@@ -19,6 +19,16 @@
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1>4130 Alloy Steel (AISI 4130 / EN 4130)<br> Chromium-Molybdenum Steel</h1>
+                      <!-- Add your extra content here -->
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                        High-Strength Low Alloy Steel is a specialized alloy steel grade known for exceptional strength, toughness, and durability, widely used in aerospace, automotive, and heavy engineering applications. Below is the complete datasheet including composition, properties, heat treatment, and applications.
+High Strength • Excellent Toughness • Ideal for Aerospace, Automotive & Heavy Engineering
+
+                    </p>
+
+
+                    <!-- End extra content -->
                 </div>
             </div>
         </div>
@@ -81,9 +91,10 @@
         <a href="#composition">Chemical Composition</a> |
         <a href="#heat-treatment">Heat Treatment</a> |
         <a href="#mechanical">Mechanical Properties</a> |
+        <a href="#price">Advantages</a> |
         <a href="#applications">Applications</a> |
-        <a href="#price">Price</a> |
-        <a href="#faq">FAQ</a>
+        <a href="#faq">FAQ</a> |
+        <a href="#contact us">Contact Us</a> 
     </div>
 </div>
     <!--End breadcrumb area-->
@@ -108,34 +119,119 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a manufacturer, supplier,
-                            exporter, importer, and stockist of<strong class="text-black"> EN 4130 steel products</strong>
-                            including pipes,<a href="{{ route('products.pipes-tubes') }}"> tubes</a>, bars, plates,
-                            and fittings.
-                        </p>
+    <strong class="text-black">MOKSH TUBES & FITTINGS LLP</strong> is a reliable supplier,
+    exporter, importer, and stockist of <strong class="text-black">EN 4130 steel products</strong>
+    including pipes, <a href="{{ route('products.pipes-tubes') }}">tubes</a>, bars, plates,
+    and fittings.
+</p>
 
-                        <p class="fs-6 mb-3" style="text-align: justify;">
-                            <strong class="text-black">4130 Alloy Steel</strong>, also known as AISI 4130,
-                            Chromium-Molybdenum Steel,
-                            and sometimes Cr-Mo Steel, is a versatile low-alloy steel known for its high strength,
-                            toughness, weldability, and fatigue resistance. Because of its excellent
-                            strength-to-weight
-                            ratio, it is widely used in aerospace structures, motorsport frames, high-pressure
-                            tubing,
-                            and critical engineering components.
-                        </p>
+<p class="fs-6 mb-3" style="text-align: justify;">
+    <strong class="text-black">4130 Alloy Steel</strong>, also known as AISI 4130,
+    Chromium-Molybdenum Steel, or Cr-Mo Steel, is a versatile low-alloy steel known for its
+    high strength, toughness, weldability, and fatigue resistance. Its excellent
+    strength-to-weight ratio makes it ideal for aerospace structures, motorsport frames,
+    high-pressure tubing, and critical engineering components.
+</p>
 
-                        <p class="fs-6" style="text-align: justify;">
-                            Whether used in aircraft parts, roll cages, drill pipes, or high-stress mechanical components,
-                            4130 alloy steel delivers consistent performance under load and offers outstanding durability
-                            after heat treatment. Its combination of strength and workability makes it a trusted choice for
-                            OEMs, engineering companies, fabrication units, and industrial manufacturers.
-                        </p>
+<p class="fs-6" style="text-align: justify;">
+    Whether used in aircraft parts, roll cages, drill pipes, or high-stress mechanical
+    components, 4130 alloy steel delivers consistent performance under load and offers
+    exceptional durability after heat treatment. Its combination of strength, workability,
+    and reliability makes it a preferred choice for OEMs, engineering companies,
+    fabrication units, and industrial manufacturers.
+</p>
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="sec-padd-bottom bg-light">
+    <div class="datasheet-download px-4 text-center">
+        <h3 class="mb-3" style="color:#174268;">Download 4340 Alloy Steel Datasheet</h3>
+        <p class="mb-3">
+            Get the complete datasheet with chemical composition, mechanical properties,
+            physical data & heat treatment details. Enter your email to receive the PDF instantly.
+        </p>
+
+        <!-- Lead Capture Form -->
+        <form id="leadForm" method="POST" action="https://mokshtubes.com/datasheet-leads-capture" class="mb-3">
+            <input type="hidden" name="_token" value="WNVWvpO4YR2OqZaIJDl2mE3UfyreGys3Vp19brsc" autocomplete="off">
+            <div class="row justify-content-center">
+                <input type="hidden" name="pdf" value="haynes-242.pdf">
+                <div class="col-md-6 mb-2">
+                    <input type="email" name="email" required class="form-control p-3"
+                        placeholder="Enter your email address">
+                </div>
+                <div class="col-md-3 mb-2">
+                    <button type="submit" class="btn btn-lg w-100 text-white"
+                        style="background-color:#db7227; border-radius:8px;">
+                        📥 Get Datasheet
+                    </button>
+                </div>
+            </div>
+        </form>
+
+        <p class="small text-muted">
+            “We respect your privacy. Your email will only be used to send the datasheet.”
+        </p>
+    </div>
+</section>
+
+<section class="sec-padd-top" id="specification">
+    <div class="container">
+        <div class="section-title center">
+            <h2>4340 Alloy Steel Specifications</h2>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped align-middle">
+                        <thead class="table-dark text-center">
+                            <tr class="t-row">
+                                <th>Category</th>
+                                <th>Details</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="t-row">
+                                <td>Grade</td>
+                                <td>AISI 4340 / UNS G43400 / EN 24 / 1.6511</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Type</td>
+                                <td>High-Strength Low Alloy Steel (Ni-Cr-Mo Alloy)</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Typical Chemical Composition</td>
+                                <td>C 0.38–0.43%, Mn 0.60–0.80%, Si 0.15–0.30%, Cr 0.70–0.90%, Ni 1.65–2.00%, Mo 0.20–0.30%</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Conditions</td>
+                                <td>Annealed, Normalized, Hardened & Tempered, Hot Rolled, Forged</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Heat Treatment</td>
+                                <td>Quenching & Tempering, Normalizing, Stress Relieving</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Testing</td>
+                                <td>Tensile, Hardness, Impact, Chemical Analysis, UT (Optional)</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Certification</td>
+                                <td>EN 10204 3.1 / 3.2 (Mill Test Certificate Available)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div> <!-- col-lg-8 -->
+        </div> <!-- row -->
+    </div> <!-- container -->
+</section>
+
 
     <section class="sec-padd-top sec-padd-bottom" id="composition">
         <div class="container">
@@ -164,11 +260,11 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Phosphorus</td>
-                                    <td>≤ 0.035</td>
+                                    <td>0.035</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Sulfur</td>
-                                    <td>≤ 0.040</td>
+                                    <td>0.040</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Chromium</td>
@@ -368,6 +464,63 @@
         </div>
         </div>
     </section>
+
+<section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+    <div class="container">
+        <div class="section-title center mt-5" id="available forms">
+            <h2>Available Forms &amp; Size Range</h2>
+        </div>
+
+        <div class="row justify-content-center mb-4" style="text-align: justify;">
+            <div class="col-lg-10">
+                <p class="fs-6 text-center">
+                    We supply AISI 4340 Alloy Steel in the following product forms and dimensions:
+                </p>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color:#db7227;">
+                    <table class="table table-bordered table-striped">
+                        <thead>
+                            <tr>
+                                <th style="width: 40%;">Product Form</th>
+                                <th>Size Range / Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Round Bars</td>
+                                <td>16 mm – 600 mm</td>
+                            </tr>
+                            <tr>
+                                <td>Flat, Square &amp; Hex Bars</td>
+                                <td>Custom sizes</td>
+                            </tr>
+                            <tr>
+                                <td>Sheets &amp; Plates</td>
+                                <td>3 mm – 200 mm</td>
+                            </tr>
+                            <tr>
+                                <td>Forgings</td>
+                                <td>Blocks, rings, bushings, custom shapes</td>
+                            </tr>
+                            <tr>
+                                <td>Tubes (Seamless &amp; Welded)</td>
+                                <td>OD 20 mm – 219 mm</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
 <section class="sec-padd-top sec-padd-bottom bg-light" id="international">
         <div class="container">
             <div class="section-title center">

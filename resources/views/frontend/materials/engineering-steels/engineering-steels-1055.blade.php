@@ -74,28 +74,12 @@
         <a href="#composition">Chemical Composition</a> |
         <a href="#heat-treatment">Heat Treatment</a> |
         <a href="#mechanical">Mechanical Properties</a> |
+        <a href="#price">Advantages</a> |
         <a href="#applications">Applications</a> |
-        <a href="#price">Price</a> |
-        <a href="#faq">FAQ</a>
+        <a href="#faq">FAQ</a> |
+        <a href="#contact us">Contact Us</a> 
     </div>
 </div>
-
-
-    <!-- Tabs Navigation (Add this right after breadcrumb) -->
-{{--    
-    <div class="material-tabs text-center py-3 d-none d-md-block">
-        <a href="#overview">Overview</a> |
-        <a href="#specification">Specification</a> |
-        <a href="#composition">Chemical Composition</a> |
-        <a href="#properties">Technical Composition</a> |
-        <a href="#heat-treatment">Heat Treatment</a> |
-        <a href="#mechanical">Mehanical Properties</a> |
-        <a href="#applications">Applications</a> |
-        <a href="#price">Price</a> |
-        <a href="#faq">FAQ</a>
-    </div> --}}
- 
-
 
 
     <!-- Start Product Overview -->
@@ -103,11 +87,11 @@
 
         <div class="container">
             <div class="section-title center">
-                <h2>Product Overview of 1055 Steel</h2>
+                <h2>Product Overview </h2>
             </div>
 
             <h3 class="fw-semibold text-center mb-5" style="color: #db7227;">
-                Introduction To EN 1055 / 1055 Steel
+                Introduction
             </h3>
 
             <div class="row align-items-center">
@@ -159,6 +143,7 @@
         </div>
     </section>
     <!-- End Product Overview -->
+
     {{-- datasheet --}}
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
@@ -525,59 +510,6 @@
 
     <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
         <div class="container">
-
-            <!-- PART 1 -->
-            <div class="section-title center">
-                <h2>Related Engineering Steel Grades</h2>
-            </div>
-
-            <div class="row justify-content-center mb-4" style="text-align: justify;">
-                <div class="col-lg-10">
-                    <p class="fs-6 text-center">
-                        Looking for similar medium and high-carbon steel grades? We also supply:
-                    </p>
-                </div>
-            </div>
-
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-10">
-                    <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color:#db7227;">
-                        <table class="table table-bordered table-striped">
-                            <thead>
-                                <tr>
-                                    <th style="width: 40%;">Grade</th>
-                                    <th>Description</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>EN8 (080M40)</td>
-                                    <td>Medium Carbon Steel</td>
-                                </tr>
-                                <tr>
-                                    <td>EN9 (070M55)</td>
-                                    <td>High Carbon Steel</td>
-                                </tr>
-                                <tr>
-                                    <td>SAE 1045</td>
-                                    <td>Medium Carbon Steel</td>
-                                </tr>
-                                <tr>
-                                    <td>SAE 4130</td>
-                                    <td>High Carbon Steel</td>
-                                </tr>
-                                <tr>
-                                    <td>CK55 / CK60</td>
-                                    <td>German Standard Carbon Steels</td>
-                                </tr>
-                            </tbody>
-                        </table>
-
-                    </div>
-                </div>
-            </div>
-
-            <!-- PART 2 -->
             <div class="section-title center mt-5" id="available forms">
                 <h2>Available Forms & Size Range</h2>
             </div>
@@ -767,12 +699,13 @@
             </div>
             <!-- Highlighted Paragraph -->
             <div class="row justify-content-center mb-4" style="text-align: justify;">
-                <div class="col-lg-10">
+                <div class="col-lg-10 center">
                     <p class="fs-6">
-                        <strong class="text-dark">Engineering Steel 1055</strong> is typically available in:
+                        <strong class="text-dark">Engineering Steel 1055</strong> is typically available in
                     </p>
                 </div>
             </div>
+
 
             <!-- Horizontal Styled Product List -->
             <div class="row justify-content-center mb-5">
@@ -1001,41 +934,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Explore More Engineering Steel Grades</h2>
-            </div>
-
-            <p class="text-center mb-3">
-                Browse other popular engineering steel materials supplied by Moksh Tubes & Fittings LLP:
-            </p>
-
-            {{-- <ul class="list-unstyled text-center fs-6">
-            <li><a href="/materials/engineering-steels/en8" class="text-primary">EN8 Carbon Steel</a></li>
-            <li><a href="/materials/engineering-steels/en9" class="text-primary">EN9 Carbon Steel</a></li>
-            <li><a href="/materials/engineering-steels/1045" class="text-primary">AISI 1045 Steel</a></li>
-            <li><a href="/materials/engineering-steels/1060" class="text-primary">AISI 1060 Steel</a></li> --}}
-
-            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4 justify-content-center">
-                @foreach ($engineeringProducts as $product)
-                    <div class="col d-flex">
-                        <a href="{{ route('materials.engineering-Steels', $product['slug']) }}"
-                            class="text-decoration-none w-100">
-                            <div class="product-card h-100">
-                                <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
-                                    class="img-fluid w-100">
-                                <h6 class="product-card-title text-center mt-0 py-4">{{ $product['name'] }}</h6>
-                            </div>
-                        </a>
-                    </div>
-                @endforeach
-
-
-            </div>
-        </div>
-    </section>
-
+   
     <section id="price" class="sec-padd-top sec-padd-bottom bg-light" id="price">
         <div class="container text-center">
             <h2>1055 Steel Price per kg in India</h2>
