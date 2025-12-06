@@ -502,12 +502,6 @@
         </div>
     </section>
 
-
-
-
-
-
-
     <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
         <div class="container">
             <div class="section-title center mt-5" id="available forms">
