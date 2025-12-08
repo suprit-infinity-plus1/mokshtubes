@@ -1,9 +1,8 @@
 @extends('layouts.master')
 
-@section('title', 'Hastelloy C276 – Corrosion-Resistant Pipes, Sheets & Bars.')
+@section('title', 'Hastelloy C276 (UNS N10276) – Composition & Properties')
 @section('meta_description',
-    'Hastelloy C276 (UNS N10276) from Moksh Tubes — corrosion-resistant nickel alloy for
-    chemical, oil & gas, marine & industrial applications.')
+    'Buy Hastelloy C276 (UNS N10276) – corrosion-resistant nickel alloy used in chemical, oil & gas, marine and industrial applications. Get composition, properties, datasheet & product forms.')
 @section('meta_keywords',
     'Hastelloy C276, Corrosion Resistant Alloy, Nickel Alloy, Hastelloy C276 Pipes, Hastelloy C276
     Tubes, Hastelloy C276 Fittings, Industrial Corrosion Resistant Alloys, Durable Nickel Alloys, Chemical Processing
@@ -17,14 +16,61 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Hastelloy C276 <br> Corrosion-Resistant Nickel Alloy</h1>
+                    <h1>Hastelloy C276 (UNS N10276)<br>Pipes, Tubes, Sheets, Plates & Bars</h1>
+                     
+                    <!-- Add your extra content here -->
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                        Hastelloy C276 is a premium nickel-molybdenum-chromium alloy known for its exceptional corrosion resistance in highly aggressive and extreme environments. Widely used in chemical processing, offshore applications, pollution control, and high-temperature systems, Hastelloy C276 delivers unmatched performance against pitting, crevice corrosion, and strong oxidizing media—making it one of the most reliable materials for critical industrial operations.
+                    </p>
+                    <!-- End extra content -->
+
                 </div>
             </div>
         </div>
     </section>
+<!--End breadcrumb area-->
 
+<style>
 
-    <!--End breadcrumb area-->
+    .material-tabs {
+    background: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #e5e5e5;
+    position: sticky;   /* you missed this */
+    top: 50px;             /* and this */
+    z-index: 1020;
+}
+
+.material-tabs a {
+    margin: 0 14px;
+    font-weight: 600;
+    color: #1b3c61 !important;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.25s ease;
+    display: inline-block;
+}
+
+.material-tabs a:hover {
+    color: #db7227 !important;
+    transform: translateY(-2px);
+}
+</style>
+<div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
+    <div class="container">
+        <a href="#overview">Overview</a> |
+        <a href="#composition">Chemical Composition</a> |
+        <a href="#heat-treatment">Heat Treatment</a> |
+        <a href="#mechanical">Mechanical Properties</a> |
+        <a href="#price">Advantages</a> |
+        <a href="#applications">Applications</a> |
+        <a href="#faq">FAQ</a> |
+        <a href="#contact us">Contact Us</a> 
+    </div>
+</div>    
+
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
@@ -46,41 +92,24 @@
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
-                        <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black">Hastelloy C276 (UNS N10276)</strong> is a high performance <strong
-                                class="text-black">nickel alloy</strong> designed to offer excellent
-                            resistance in some of the most corrosive environments. <a href="{{ route('index') }}">MOKSH
-                                TUBES & FITTINGS LLP</a> is a trusted
-                            supplier, exporter, importer, and stockist of a wide range of Hastelloy C276 <a
-                                href="{{ route('products') }}">products</a>, including
-                            pipes, tubes, pipe fittings, flanges, fasteners, sheets, plates, coils, wires, round bars, and
-                            custom alloy components.
-                        </p>
+                       <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
+    <strong class="text-black">Hastelloy C276 (UNS N10276)</strong> is a premium nickel–chromium–molybdenum alloy widely used for its exceptional corrosion resistance in highly aggressive chemical environments. 
+    <a href="{{ route('index') }}">MOKSH TUBES & FITTINGS LLP</a> supplies high-quality Hastelloy C276 products including 
+    pipes, tubes, pipe fittings, flanges, fasteners, sheets, plates, coils, wires, round bars, and custom-machined components.
+</p>
 
-                        <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black"><a href="{{ route('materials.hastelloy') }}">Hastelloy</a>
-                                C276</strong> is a nickel chromium molybdenum alloy, highly
-                            resistant to both oxidizing and
-                            non oxidizing acids, and provides superior defense against stress corrosion cracking and pitting
-                            in chloride rich solutions. Its high chromium and molybdenum content make it an ideal choice for
-                            applications requiring exceptional metal durability.
-                        </p>
-                        <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">Hastelloy C276</strong> is also highly ductile, easy
-                            to form and weld, and designed to minimize welding challenges, making it a versatile choice for
-                            industries handling aggressive chemicals and extreme temperatures.
-                        </p>
-                        <p class="fs-6 mb-4" style="text-align: justify;">
-                            <strong>Hastelloy C276</strong> (UNS N10276) is often compared with traditional steels where
-                            <strong>density of steel</strong>, <strong>density of mild steel</strong>, and
-                            <strong>density of carbon steel</strong> play an important role in design. While
-                            <strong>steel material density</strong> is around <strong>7.85 g/cm³</strong>, the
-                            <strong>Hastelloy C276 density</strong> is about <strong>8.89 g/cm³</strong>, giving it higher
-                            strength
-                            and durability in aggressive environments. This makes <strong>C276 material</strong> one of the
-                            most
-                            trusted alloys for industries requiring extreme corrosion resistance and mechanical reliability.
-                        </p>
+<p class="fs-6" style="text-align: justify;">
+    <strong class="text-black"><a href="{{ route('materials.hastelloy') }}">Hastelloy</a> C276</strong> offers outstanding protection against pitting, crevice corrosion, and stress-corrosion cracking, especially in chloride-rich or acidic media. Its robust nickel-Cr-Mo composition makes it one of the most reliable corrosion-resistant alloys for extreme industrial environments.
+</p>
+
+<p class="fs-6" style="text-align: justify;">
+    <strong class="text-black">Hastelloy C276</strong> delivers excellent weldability, high ductility, and dependable performance under continuous chemical exposure and elevated temperatures, making it ideal for industries handling highly corrosive substances.
+</p>
+
+<p class="fs-6 mb-4" style="text-align: justify;">
+    With a density of <strong>8.89 g/cm³</strong>—significantly higher than the <strong>7.85 g/cm³</strong> average density of carbon steel—<strong>Hastelloy C276</strong> provides superior strength and long-term durability. These properties make <strong>C276 material</strong> a preferred choice for applications that demand extreme corrosion resistance and mechanical reliability.
+</p>
+
                     </div>
                 </div>
             </div>

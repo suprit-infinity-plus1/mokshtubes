@@ -30,8 +30,6 @@
                         wear resistance and durability. Below is the complete datasheet including composition, properties,
                         heat treatment and applications.
                     </p>
-
-
                     <!-- End extra content -->
 
                 </div>
@@ -41,6 +39,7 @@
 <!--End breadcrumb area-->
 
     
+
 <style>
 
     .material-tabs {
@@ -106,34 +105,26 @@
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
-                        <p class="fs-6 mb-3 text-justify">
-                            <strong>Moksh Tubes & Fittings LLP</strong> supplies premium
-                            <strong>Engineering Steel 1055 (EN 1055 / C1055 / SAE 1055)</strong>,
-                            a widely used medium-carbon steel known for its superior mechanical strength,
-                            excellent wear resistance and outstanding impact toughness.
-                            With a carbon content of <strong>0.52% to 0.60%</strong>, EN 1055 delivers a unique
-                            balance of hardness and ductility, making it suitable for demanding engineering
-                            applications including automotive parts, heavy machinery components, fabrication
-                            projects and high-stress structural assemblies. Components manufactured from 1055 steel —
-                            such as shafts, gears, crankshafts, keys, pins, studs and forged tools — maintain
-                            exceptional performance even under continuous load, friction and impact.
-                        </p>
+                    <p class="fs-6 mb-3 text-justify">
+    Engineering Steel 1055 (EN 1055 / C1055 / SAE 1055) is a reliable medium-carbon steel grade valued for its high strength, solid wear resistance, and dependable toughness. It’s widely used in industries that require durable materials for both everyday and heavy-duty engineering applications. With a carbon content of 0.52–0.60%, this steel offers an excellent balance of hardness and flexibility, making it suitable for real-world components such as shafts, gears, crankshafts, pins, studs, and forged tools.
+</p>
 
-                        <p class="fs-6 text-justify">
-                            We supply 1055 steel in multiple forms including
-                            <strong>
-                                <a href="{{ route('products.bars-rods.round-bars') }}">round bars</a>,
-                                <a href="{{ route('products.bars-rods.flat-bars') }}"> flat bars</a>,
-                                hex bars, square bars, plates, sheets, coils, strips, seamless pipes,
-                                <a href="{{ route('products.pipes-tubes.welded-pipes') }}">welded tubes</a>,
-                                forged blocks, rings and custom-machined components.
-                            </strong>
-                            The material is available in annealed, normalized, hot-rolled, cold-drawn and
-                            fully heat-treated conditions. All products are sourced from certified mills
-                            and supplied with <strong>EN 10204 3.1 / 3.2 certification</strong> ensuring
-                            consistent quality, traceability and reliability for industrial, mechanical
-                            and engineering requirements.
-                        </p>
+<p class="fs-6 text-justify">
+    <strong>Moksh Tubes & Fittings LLP</strong>, we supply high-quality 1055 steel in multiple forms including 
+    <strong>
+        <a href="{{ route('products.bars-rods.round-bars') }}">round bars</a>,
+        <a href="{{ route('products.bars-rods.flat-bars') }}">flat bars</a>,
+        hex bars, square bars, plates, sheets, coils, strips, seamless pipes,
+        <a href="{{ route('products.pipes-tubes.welded-pipes') }}">welded tubes</a>,
+        and forged components.
+    </strong>
+    These products are available in annealed, normalized, hot-rolled, cold-drawn, and fully heat-treated conditions to meet diverse engineering needs.
+</p>
+
+<p class="fs-6 text-justify">
+    Every material we supply is sourced from trusted mills and provided with <strong>EN 10204 3.1 / 3.2 certification</strong>, ensuring consistent quality, traceability, and reliable performance for industrial and mechanical applications.
+</p>
+
 
 
 

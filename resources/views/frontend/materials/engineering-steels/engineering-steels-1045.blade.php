@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', '1045 Engineering Steel | High Strength Steel')
+@section('title', '1045 Engineering Steel (C45 / SAE 1045) – Properties & Uses')
 @section('meta_description',
     '1045 Engineering Steel offering superior strength, toughness, and wear resistance for
     mechanical, structural, and industrial applications.')
@@ -17,7 +17,7 @@
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1>EN 1045 Engineering Steel (C1045 / SAE 1045)
-                        <br> High Strength Carbon Steel
+                        <br> Medium Carbon Steel
                     </h1>
 
                     <!-- Extra content can be added here -->    

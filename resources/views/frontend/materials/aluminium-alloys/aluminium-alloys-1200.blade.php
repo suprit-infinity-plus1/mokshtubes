@@ -21,11 +21,57 @@
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1>Aluminium 1200 <br> Pure Corrosion-Resistant Aluminium Grade</h1>
+
+ <!-- Add your extra content here -->
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                       Aluminium Alloy 1200 (AA1200 / UNS A91200) is a commercially pure aluminium grade known for excellent corrosion resistance, high ductility, good conductivity, and outstanding formability. Below is the complete datasheet including chemical composition, technical properties, mechanical values, applications, and pricing.
+                    </p>
+                    <!-- End extra content -->
                 </div>
             </div>
         </div>
     </section>
+    
+<style>
 
+    .material-tabs {
+    background: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #e5e5e5;
+    position: sticky;   /* you missed this */
+    top: 50px;             /* and this */
+    z-index: 1020;
+}
+
+.material-tabs a {
+    margin: 0 14px;
+    font-weight: 600;
+    color: #1b3c61 !important;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.25s ease;
+    display: inline-block;
+}
+
+.material-tabs a:hover {
+    color: #db7227 !important;
+    transform: translateY(-2px);
+}
+</style>
+<div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
+    <div class="container">
+        <a href="#overview">Overview</a> |
+        <a href="#composition">Chemical Composition</a> |
+        <a href="#heat-treatment">Heat Treatment</a> |
+        <a href="#mechanical">Mechanical Properties</a> |
+        <a href="#price">Advantages</a> |
+        <a href="#applications">Applications</a> |
+        <a href="#faq">FAQ</a> |
+        <a href="#contact us">Contact Us</a> 
+    </div>
+</div>
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">
@@ -49,8 +95,7 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a leading manufacturer,
-                            supplier, exporter, importer, and stockist of<strong class="text-black"> Aluminium Alloy 1200
+                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a supplier, exporter, importer, and stockist of<strong class="text-black"> Aluminium Alloy 1200
                                 <a href="{{ route('products') }}">products</a></strong> including sheets,
                             plates, coils, <a href="{{ route('products.pipes-tubes') }}"> pipes</a>, tubes, bars, rods, and
                             custom fabrications.
