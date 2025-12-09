@@ -2,163 +2,228 @@
 
 @section('title', 'Super Duplex 2205 Corrosion-Resistant Steel')
 
-@section('meta_description',
-    'Super Duplex Stainless Steel 2205 from Moksh Tubes — exceptional corrosion resistance, high strength & performance for marine & chemical applications.')
+@section('meta_description', 'Super Duplex Stainless Steel 2205 from Moksh Tubes — exceptional corrosion resistance,
+    high strength & performance for marine & chemical applications.')
 
-@section('meta_keywords',
-    'Super Duplex Stainless Steel 2205, 2205 pipes, 2205 tubes, 2205 fittings, corrosion-resistant stainless steel, high strength super duplex steel, Mokshtubes LLP, chemical processing steel, marine engineering steel, oil and gas stainless steel, desalination plant steel, stainless steel plates, stainless steel flanges')
+@section('meta_keywords', 'Super Duplex Stainless Steel 2205, 2205 pipes, 2205 tubes, 2205 fittings, corrosion-resistant
+    stainless steel, high strength super duplex steel, Mokshtubes LLP, chemical processing steel, marine engineering steel,
+    oil and gas stainless steel, desalination plant steel, stainless steel plates, stainless steel flanges')
 @section('og_image', asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp'))
 @section('og_type', 'article')
 @section('content')
 
-<!--Start breadcrumb area-->
-<section class="breadcrumb-area" style="background-image: url(images/background/3.webp);">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-auto text-center">
-                <h1>Super Duplex 2205 <br> High Strength & Corrosion Resistance</h1>
-            </div>
-        </div>
-    </div>
-</section>
-<!--End breadcrumb area-->
-
-<section class="sec-padd-top sec-padd-bottom bg-light">
-    <div class="container">
-        <div class="section-title center">
-            <h2>Super Duplex 2205 | Product Overview</h2>
-        </div>
-
-        <h3 class="h2 fw-semibold text-center mb-5" style="color: #db7227;">
-            Introduction To Super Duplex Stainless Steel 2205
-        </h3>
-
-        <div class="row align-items-center">
-            <!-- Image Left -->
-            <div class="col-md-6 mb-4 mb-md-0">
-                <img src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}"
-                    alt="Super Duplex Stainless Steel 2205" class="img-fluid rounded shadow-sm" loading="lazy">
-            </div>
-
-            <!-- Content Right -->
-            <div class="col-md-6">
-                <div class="pe-md-3">
-                    <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                        <strong class="text-black">Super Duplex Stainless Steel 2205</strong> is a dual-phase (ferritic-austenitic) stainless steel that combines exceptional corrosion resistance with high strength. It contains approximately 22% chromium, 5–6% nickel, and 3% molybdenum, giving it superior resistance to pitting, crevice corrosion, and stress corrosion cracking compared to conventional austenitic and ferritic stainless steels.
+    <!--Start breadcrumb area-->
+    <section class="breadcrumb-area" style="background-image: url(images/background/3.webp);">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-auto text-center">
+                    <h1>Super Duplex 2205 <br> High Strength & Corrosion Resistance Alloy</h1>
+                    <!-- Add your extra content here -->
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                        S32205 Duplex Stainless Steel (2205) is a high-strength, corrosion-resistant alloy combining
+                        excellent mechanical properties with superior resistance to pitting, crevice, and stress corrosion.
+                        It is ideal for chemical processing, oil & gas, offshore, and industrial applications
                     </p>
-
-                    <p class="fs-6 text-justify" style="text-align: justify;">
-                        2205 is widely used in industries where chloride stress corrosion resistance, strength, and durability are crucial. <a href="{{ route('index') }}">MOKSH TUBES & FITTINGS LLP</a> is a trusted supplier, exporter, importer, and stockist of Super Duplex 2205 products such as <a href="{{ route('products') }}">pipes, tubes, fittings, flanges, plates, and custom components</a>.
-                    </p>
+                    <!-- End extra content -->
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<section class="sec-padd-top sec-padd-bottom">
+    <div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
     <div class="container">
-        <div class="section-title center">
-            <h2>Chemical Composition</h2>
-        </div>
+        <a href="#overview">Overview</a> |
+        <a href="#composition">Chemical Composition</a> |
+        <a href="#heat-treatment">Heat Treatment</a> |
+        <a href="#mechanical">Mechanical Properties</a> |
+        <a href="#price">Advantages</a> |
+        <a href="#applications">Applications</a> |
+        <a href="#faq">FAQ</a> |
+        <a href="#contact us">Contact Us</a> 
+    </div>
+</div>
+    <!--End breadcrumb area-->
 
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <div class="table-responsive">
-                    <table class="table table-bordered table-striped align-middle">
-                        <thead class="table-dark text-center">
-                            <tr class="t-row">
-                                <th>Element</th>
-                                <th>Content (%)</th>
-                            </tr>
-                        </thead>
-                        <tbody class="text-center">
-                            <tr class="t-row">
-                                <td>Carbon (C)</td>
-                                <td>≤ 0.03</td>
-                            </tr>
-                            <tr class="t-row">
-                                <td>Manganese (Mn)</td>
-                                <td>≤ 2.00</td>
-                            </tr>
-                            <tr class="t-row">
-                                <td>Silicon (Si)</td>
-                                <td>≤ 1.00</td>
-                            </tr>
-                            <tr class="t-row">
-                                <td>Chromium (Cr)</td>
-                                <td>21.0 – 23.0</td>
-                            </tr>
-                            <tr class="t-row">
-                                <td>Nickel (Ni)</td>
-                                <td>4.5 – 6.5</td>
-                            </tr>
-                            <tr class="t-row">
-                                <td>Molybdenum (Mo)</td>
-                                <td>2.5 – 3.5</td>
-                            </tr>
-                            <tr class="t-row">
-                                <td>Nitrogen (N)</td>
-                                <td>0.08 – 0.20</td>
-                            </tr>
-                            <tr class="t-row">
-                                <td>Iron (Fe)</td>
-                                <td>Balance</td>
-                            </tr>
-                        </tbody>
-                    </table>
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Super Duplex 2205 | Product Overview</h2>
+            </div>
+
+            <h3 class="h2 fw-semibold text-center mb-5" style="color: #db7227;">
+                Introduction To Super Duplex Stainless Steel 2205
+            </h3>
+
+            <div class="row align-items-center">
+                <!-- Image Left -->
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <img src="{{ asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp') }}"
+                        alt="Super Duplex Stainless Steel 2205" class="img-fluid rounded shadow-sm" loading="lazy">
+                </div>
+
+                <!-- Content Right -->
+                <div class="col-md-6">
+                    <div class="pe-md-3">
+                        <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
+                            <strong class="text-black">Super Duplex Stainless Steel 2205</strong> is a dual-phase
+                            (ferritic-austenitic) stainless steel that combines exceptional corrosion resistance with high
+                            strength. It contains approximately 22% chromium, 5–6% nickel, and 3% molybdenum, giving it
+                            superior resistance to pitting, crevice corrosion, and stress corrosion cracking compared to
+                            conventional austenitic and ferritic stainless steels.
+                        </p>
+
+                        <p class="fs-6 text-justify" style="text-align: justify;">
+                            2205 is widely used in industries where chloride stress corrosion resistance, strength, and
+                            durability are crucial. <a href="{{ route('index') }}">MOKSH TUBES & FITTINGS LLP</a> is a
+                            trusted supplier, exporter, importer, and stockist of Super Duplex 2205 products such as <a
+                                href="{{ route('products') }}">pipes, tubes, fittings, flanges, plates</a>, and custom
+                                components.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<section class="sec-padd-top sec-padd-bottom bg-light">
-    <div class="container">
-        <div class="section-title center mb-5">
-            <h2 class="fw-bold" style="color: #174268;">Mechanical Properties</h2>
+     {{-- start datasheet --}}
+    <section class="sec-padd-bottom bg-light">
+        <div class="datasheet-download px-4 text-center">
+            <h3 class="mb-3" style="color:#174268;">Download Duplex 2205 Datasheet</h3>
+            <p class="mb-3">
+              Get the complete Duplex 2205 datasheet with chemical composition, mechanical properties, corrosion resistance data, heat treatment details, and applications.
+            </p>
+
+            <!-- Lead Capture Form -->
+            <form id="leadForm" method="POST" action="https://mokshtubes.com/datasheet-leads-capture" class="mb-3">
+                <input type="hidden" name="_token" value="WNVWvpO4YR2OqZaIJDl2mE3UfyreGys3Vp19brsc" autocomplete="off">
+                <div class="row justify-content-center">
+                    <input type="hidden" name="pdf" value="haynes-242.pdf">
+                    <div class="col-md-6 mb-2">
+                        <input type="email" name="email" required="" class="form-control p-3"
+                            placeholder="Enter your email address">
+                    </div>
+                    <div class="col-md-3 mb-2">
+                        <button type="submit" class="btn btn-lg w-100 text-white"
+                            style="background-color:#db7227; border-radius:8px;">
+                            📥 Get Datasheet
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+
+
+            <p class="small text-muted">
+                We respect your privacy. Your email will only be used to send the datasheet.
+            </p>
         </div>
+    </section>
+    <!-- End Datasheet Download Section -->
 
-        <div class="row justify-content-center">
-            <div class="col-lg-10">
-                <div class="table-responsive">
-                    <table class="table table-bordered table-striped align-middle">
-                        <thead class="table-dark text-center">
-                            <tr class="t-row">
-                                <th>Property</th>
-                                <th>Value</th>
-                            </tr>
-                        </thead>
-                        <tbody class="text-center">
-                            <tr class="t-row">
-                                <td>Tensile Strength</td>
-                                <td>620 – 880 MPa</td>
-                            </tr>
-                            <tr class="t-row">
-                                <td>Yield Strength (0.2% Offset)</td>
-                                <td>450 – 550 MPa</td>
-                            </tr>
-                            <tr class="t-row">
-                                <td>Elongation</td>
-                                <td>25 – 30%</td>
-                            </tr>
-                            <tr class="t-row">
-                                <td>Hardness</td>
-                                <td>290 HB (max)</td>
-                            </tr>
-                            <tr class="t-row">
-                                <td>Density</td>
-                                <td>7.80 g/cm³</td>
-                            </tr>
-                        </tbody>
-                    </table>
+    <section class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Element</th>
+                                    <th>Content (%)</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr class="t-row">
+                                    <td>Carbon (C)</td>
+                                    <td>≤ 0.03</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Manganese (Mn)</td>
+                                    <td>≤ 2.00</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Silicon (Si)</td>
+                                    <td>≤ 1.00</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Chromium (Cr)</td>
+                                    <td>21.0 – 23.0</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Nickel (Ni)</td>
+                                    <td>4.5 – 6.5</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Molybdenum (Mo)</td>
+                                    <td>2.5 – 3.5</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Nitrogen (N)</td>
+                                    <td>0.08 – 0.20</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Iron (Fe)</td>
+                                    <td>Balance</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
- @php
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color: #174268;">Mechanical Properties</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Property</th>
+                                    <th>Value</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr class="t-row">
+                                    <td>Tensile Strength</td>
+                                    <td>620 – 880 MPa</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Yield Strength (0.2% Offset)</td>
+                                    <td>450 – 550 MPa</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Elongation</td>
+                                    <td>25 – 30%</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Hardness</td>
+                                    <td>290 HB (max)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Density</td>
+                                    <td>7.80 g/cm³</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -274,221 +339,229 @@
         </div>
     </section>
 
-<section class="sec-padd-top sec-padd-bottom bg-light">
-    <div class="container">
-        <div class="section-title center">
-            <h2>Uses and Advantages</h2>
-        </div>
-
-        <div class="row g-4 mt-4 justify-content-center">
-            <div class="col-sm-6 col-lg-4">
-                <div class="advantage-card">
-                    <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                    <h3>Excellent resistance to chloride-induced stress corrosion cracking</h3>
-                </div>
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Uses and Advantages</h2>
             </div>
 
-            <div class="col-sm-6 col-lg-4">
-                <div class="advantage-card">
-                    <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                    <h3>Superior pitting and crevice corrosion resistance</h3>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-lg-4">
-                <div class="advantage-card">
-                    <div class="advantage-icon"><i class="bi bi-arrow-up-square"></i></div>
-                    <h3>Twice the yield strength of conventional austenitic stainless steels</h3>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-lg-4">
-                <div class="advantage-card">
-                    <div class="advantage-icon"><i class="bi bi-tools"></i></div>
-                    <h3>Good weldability and formability</h3>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-lg-4">
-                <div class="advantage-card">
-                    <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                    <h3>High mechanical strength and durability in harsh environments</h3>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-<section class="sec-padd-top sec-padd-bottom">
-    <div class="container">
-        <div class="section-title center">
-            <h2>Applications of Super Duplex Stainless Steel 2205</h2>
-            <p class="text-center pb-3"><strong class="text-dark">Super Duplex Stainless Steel 2205</strong> is widely used across multiple industries:</p>
-        </div>
-
-        <div class="row g-4 justify-content-center">
-            <div class="col-md-6 col-lg-4">
-                <div class="application-card">
-                    <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
-                    <h3>Chemical Processing</h3>
-                    <p>Reactors, heat exchangers, and storage tanks for chemical processing equipment.</p>
-                </div>
-            </div>
-
-            <div class="col-md-6 col-lg-4">
-                <div class="application-card">
-                    <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
-                    <h3>Oil & Gas Industry</h3>
-                    <p>Offshore platforms, risers, subsea equipment, and pipelines.</p>
-                </div>
-            </div>
-
-            <div class="col-md-6 col-lg-4">
-                <div class="application-card">
-                    <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
-                    <h3>Marine & Desalination Plants</h3>
-                    <p>Seawater systems, offshore structures, and desalination equipment.</p>
-                </div>
-            </div>
-
-            <div class="col-md-6 col-lg-4">
-                <div class="application-card">
-                    <div class="application-icon"><i class="bi bi-file-earmark-text"></i></div>
-                    <h3>Pulp & Paper Industry</h3>
-                    <p>Machinery and piping used in pulp and paper production processes.</p>
-                </div>
-            </div>
-
-            <div class="col-md-6 col-lg-4">
-                <div class="application-card">
-                    <div class="application-icon"><i class="bi bi-box-seam"></i></div>
-                    <h3>Pollution Control & Pressure Vessels</h3>
-                    <p>Equipment and tanks in corrosive conditions for safe storage and processing.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="sec-padd-top sec-padd-bottom bg-light">
-    <div class="container text-center">
-        <div class="section-title center">
-            <h2>WHY CHOOSE US?</h2>
-        </div>
-
-        <div class="row g-4 mt-4">
-            <div class="col-sm-6 col-lg-4">
-                <div class="why-banner-block">
-                    <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                    <h3>Seamless & Welded Pipes</h3>
-                    <p>Mokshtubes Fittings & LLP offers Super Duplex 2205 in seamless pipes, welded pipes, tubes, fittings, flanges, sheets, plates, and custom fabricated components.</p>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-lg-4">
-                <div class="why-banner-block">
-                    <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
-                    <h3>Custom Fabrication</h3>
-                    <p>Our products adhere to strict quality standards to ensure long-term performance in the most demanding environments.</p>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-lg-4">
-                <div class="why-banner-block">
-                    <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
-                    <h3>Quality Standards</h3>
-                    <p>Manufactured to the highest standards for long-lasting industrial performance.</p>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-lg-6">
-                <div class="why-banner-block">
-                    <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                    <h3>Technical Support</h3>
-                    <p>Experienced guidance for material selection and application across industries.</p>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-lg-6">
-                <div class="why-banner-block">
-                    <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
-                    <h3>Customer Satisfaction</h3>
-                    <p>Commitment to quality assurance and long-term client satisfaction.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<!--Start faq content area-->
-<section class="faq-content-area sec-padd2">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="accordion-box">
-                    <div class="section-title center">
-                        <h2>FAQ's</h2>
+            <div class="row g-4 mt-4 justify-content-center">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h3>Excellent resistance to chloride-induced stress corrosion cracking</h3>
                     </div>
+                </div>
 
-                    <!--Start single accordion box-->
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn active">
-                            <h3>What makes Super Duplex 2205 superior to standard austenitic stainless steel?</h3>
-                        </div>
-                        <div class="accord-content collapsed">
-                            <p>It has twice the strength and significantly better resistance to chloride stress corrosion cracking than standard austenitic grades like 304 or 316.</p>
-                        </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
+                        <h3>Superior pitting and crevice corrosion resistance</h3>
                     </div>
-                    <!--End single accordion box-->
+                </div>
 
-                    <!--Start single accordion box-->
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h3>Is Super Duplex 2205 weldable?</h3>
-                        </div>
-                        <div class="accord-content">
-                            <p>Yes, but proper control of heat input and post-weld treatment is essential to maintain corrosion resistance and strength.</p>
-                        </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-arrow-up-square"></i></div>
+                        <h3>Twice the yield strength of conventional austenitic stainless steels</h3>
                     </div>
-                    <!--End single accordion box-->
+                </div>
 
-                    <!--Start single accordion box-->
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h3>Where is Super Duplex 2205 most commonly used?</h3>
-                        </div>
-                        <div class="accord-content">
-                            <p>In offshore oil & gas, desalination plants, chemical processing, and marine applications where corrosion resistance and high strength are critical.</p>
-                        </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-tools"></i></div>
+                        <h3>Good weldability and formability</h3>
                     </div>
-                    <!--End single accordion box-->
+                </div>
 
-                    <!--Start single accordion box-->
-                    <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h3>Can Super Duplex 2205 be used in seawater environments?</h3>
-                        </div>
-                        <div class="accord-content">
-                            <p>Yes, it has excellent resistance to seawater corrosion and chloride-induced stress corrosion cracking.</p>
-                        </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
+                        <h3>High mechanical strength and durability in harsh environments</h3>
                     </div>
-                    <!--End single accordion box-->
+                </div>
 
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Applications of Super Duplex Stainless Steel 2205</h2>
+                <p class="text-center pb-3"><strong class="text-dark">Super Duplex Stainless Steel 2205</strong> is widely
+                    used across multiple industries:</p>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
+                        <h3>Chemical Processing</h3>
+                        <p>Reactors, heat exchangers, and storage tanks for chemical processing equipment.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-cloud-fog2-fill"></i></div>
+                        <h3>Oil & Gas Industry</h3>
+                        <p>Offshore platforms, risers, subsea equipment, and pipelines.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-gear-wide-connected"></i></div>
+                        <h3>Marine & Desalination Plants</h3>
+                        <p>Seawater systems, offshore structures, and desalination equipment.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-file-earmark-text"></i></div>
+                        <h3>Pulp & Paper Industry</h3>
+                        <p>Machinery and piping used in pulp and paper production processes.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-box-seam"></i></div>
+                        <h3>Pollution Control & Pressure Vessels</h3>
+                        <p>Equipment and tanks in corrosive conditions for safe storage and processing.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!--End faq content area-->
+    </section>
 
-<section class="sec-padd-top sec-padd-bottom">
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container text-center">
+            <div class="section-title center">
+                <h2>WHY CHOOSE US?</h2>
+            </div>
+
+            <div class="row g-4 mt-4">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
+                        <h3>Seamless & Welded Pipes</h3>
+                        <p>Mokshtubes Fittings & LLP offers Super Duplex 2205 in seamless pipes, welded pipes, tubes,
+                            fittings, flanges, sheets, plates, and custom fabricated components.</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
+                        <h3>Custom Fabrication</h3>
+                        <p>Our products adhere to strict quality standards to ensure long-term performance in the most
+                            demanding environments.</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-diagram-3"></i></div>
+                        <h3>Quality Standards</h3>
+                        <p>Manufactured to the highest standards for long-lasting industrial performance.</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-6">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
+                        <h3>Technical Support</h3>
+                        <p>Experienced guidance for material selection and application across industries.</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-6">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-hand-thumbs-up-fill"></i></div>
+                        <h3>Customer Satisfaction</h3>
+                        <p>Commitment to quality assurance and long-term client satisfaction.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <div class="section-title center">
+                            <h2>FAQ's</h2>
+                        </div>
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn active">
+                                <h3>What makes Super Duplex 2205 superior to standard austenitic stainless steel?</h3>
+                            </div>
+                            <div class="accord-content collapsed">
+                                <p>It has twice the strength and significantly better resistance to chloride stress
+                                    corrosion cracking than standard austenitic grades like 304 or 316.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h3>Is Super Duplex 2205 weldable?</h3>
+                            </div>
+                            <div class="accord-content">
+                                <p>Yes, but proper control of heat input and post-weld treatment is essential to maintain
+                                    corrosion resistance and strength.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h3>Where is Super Duplex 2205 most commonly used?</h3>
+                            </div>
+                            <div class="accord-content">
+                                <p>In offshore oil & gas, desalination plants, chemical processing, and marine applications
+                                    where corrosion resistance and high strength are critical.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h3>Can Super Duplex 2205 be used in seawater environments?</h3>
+                            </div>
+                            <div class="accord-content">
+                                <p>Yes, it has excellent resistance to seawater corrosion and chloride-induced stress
+                                    corrosion cracking.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
+
+    <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    For inquiries, pricing, or customized Super Duplex Stainless Steel 2205 solutions, <strong>Moksh Tubes & Fittings
+                    For inquiries, pricing, or customized Super Duplex Stainless Steel 2205 solutions, <strong>Moksh Tubes &
+                        Fittings
                         LLP</strong> your reliable partner in Super Duplex Stainless Steel 2205.</p>
                 <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
@@ -502,7 +575,7 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
+    <script type="application/ld+json">
     @verbatim
 {
   "@context": "https://schema.org",

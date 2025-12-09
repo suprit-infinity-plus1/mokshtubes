@@ -15,7 +15,7 @@
 
 
 @section('content')
-{{-- start bread --}}
+    {{-- start bread --}}
     <section class="breadcrumb-area"
         style="background-image: url(/assets/images/engineering-steels/engineering-steels-banner.webp);">
         <div class="container">
@@ -36,49 +36,20 @@
             </div>
         </div>
     </section>
-<!--End breadcrumb area-->
+    <!--End breadcrumb area-->
 
-    
-
-<style>
-
-    .material-tabs {
-    background: #ffffff;
-    text-align: center;
-    padding: 15px 0;
-    border-bottom: 1px solid #e5e5e5;
-    position: sticky;   /* you missed this */
-    top: 50px;             /* and this */
-    z-index: 1020;
-}
-
-.material-tabs a {
-    margin: 0 14px;
-    font-weight: 600;
-    color: #1b3c61 !important;
-    text-decoration: none;
-    font-size: 16px;
-    transition: 0.25s ease;
-    display: inline-block;
-}
-
-.material-tabs a:hover {
-    color: #db7227 !important;
-    transform: translateY(-2px);
-}
-</style>
-<div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
-    <div class="container">
-        <a href="#overview">Overview</a> |
-        <a href="#composition">Chemical Composition</a> |
-        <a href="#heat-treatment">Heat Treatment</a> |
-        <a href="#mechanical">Mechanical Properties</a> |
-        <a href="#price">Advantages</a> |
-        <a href="#applications">Applications</a> |
-        <a href="#faq">FAQ</a> |
-        <a href="#contact us">Contact Us</a> 
+    <div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
+        <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact us">Contact Us</a>
+        </div>
     </div>
-</div>
 
 
     <!-- Start Product Overview -->
@@ -105,25 +76,34 @@
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
-                    <p class="fs-6 mb-3 text-justify">
-    Engineering Steel 1055 (EN 1055 / C1055 / SAE 1055) is a reliable medium-carbon steel grade valued for its high strength, solid wear resistance, and dependable toughness. It’s widely used in industries that require durable materials for both everyday and heavy-duty engineering applications. With a carbon content of 0.52–0.60%, this steel offers an excellent balance of hardness and flexibility, making it suitable for real-world components such as shafts, gears, crankshafts, pins, studs, and forged tools.
-</p>
+                        <p class="fs-6 mb-3 text-justify">
+                            Engineering Steel 1055 (EN 1055 / C1055 / SAE 1055) is a reliable medium-carbon steel grade
+                            valued for its high strength, solid wear resistance, and dependable toughness. It’s widely used
+                            in industries that require durable materials for both everyday and heavy-duty engineering
+                            applications. With a carbon content of 0.52–0.60%, this steel offers an excellent balance of
+                            hardness and flexibility, making it suitable for real-world components such as shafts, gears,
+                            crankshafts, pins, studs, and forged tools.
+                        </p>
 
-<p class="fs-6 text-justify">
-    <strong>Moksh Tubes & Fittings LLP</strong>, we supply high-quality 1055 steel in multiple forms including 
-    <strong>
-        <a href="{{ route('products.bars-rods.round-bars') }}">round bars</a>,
-        <a href="{{ route('products.bars-rods.flat-bars') }}">flat bars</a>,
-        hex bars, square bars, plates, sheets, coils, strips, seamless pipes,
-        <a href="{{ route('products.pipes-tubes.welded-pipes') }}">welded tubes</a>,
-        and forged components.
-    </strong>
-    These products are available in annealed, normalized, hot-rolled, cold-drawn, and fully heat-treated conditions to meet diverse engineering needs.
-</p>
+                        <p class="fs-6 text-justify">
+                            <strong>Moksh Tubes & Fittings LLP</strong>, we supply high-quality 1055 steel in multiple forms
+                            including
+                            <strong>
+                                <a href="{{ route('products.bars-rods.round-bars') }}">round bars</a>,
+                                <a href="{{ route('products.bars-rods.flat-bars') }}">flat bars</a>,
+                                hex bars, square bars, plates, sheets, coils, strips, seamless pipes,
+                                <a href="{{ route('products.pipes-tubes.welded-pipes') }}">welded tubes</a>,
+                                and forged components.
+                            </strong>
+                            These products are available in annealed, normalized, hot-rolled, cold-drawn, and fully
+                            heat-treated conditions to meet diverse engineering needs.
+                        </p>
 
-<p class="fs-6 text-justify">
-    Every material we supply is sourced from trusted mills and provided with <strong>EN 10204 3.1 / 3.2 certification</strong>, ensuring consistent quality, traceability, and reliable performance for industrial and mechanical applications.
-</p>
+                        <p class="fs-6 text-justify">
+                            Every material we supply is sourced from trusted mills and provided with <strong>EN 10204 3.1 /
+                                3.2 certification</strong>, ensuring consistent quality, traceability, and reliable
+                            performance for industrial and mechanical applications.
+                        </p>
 
 
 
@@ -135,7 +115,7 @@
     </section>
     <!-- End Product Overview -->
 
-    {{-- datasheet --}}
+    {{-- start datasheet --}}
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Engineering Steels Datasheet</h3>
@@ -170,7 +150,7 @@
             </p>
         </div>
     </section>
-
+    <!-- End Datasheet Download Section -->
 
     <!-- Specifications Section -->
     <section class="sec-padd-top" id="specification">
@@ -919,7 +899,7 @@
     </section>
 
 
-   
+
     <section id="price" class="sec-padd-top sec-padd-bottom bg-light" id="price">
         <div class="container text-center">
             <h2>1055 Steel Price per kg in India</h2>

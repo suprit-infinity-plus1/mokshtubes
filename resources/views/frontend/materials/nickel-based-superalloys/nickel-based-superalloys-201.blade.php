@@ -12,10 +12,34 @@
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1>Nickel 201 <br> High-Purity & Corrosion Resistant Nickel</h1>
+
+                                        <!-- Add your extra content here -->
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                       Nickel 201 is a low-carbon modification of Nickel 200, designed specifically for improved stability in high-temperature service above 600°F (315°C). With 99.0% minimum Nickel, it offers outstanding resistance to caustic alkalis, superior thermal & electrical conductivity, and exceptional ductility. Below is the complete datasheet including chemical composition, technical properties, mechanical properties, applications, pricing, and FAQs.
+
+                    </p>
+                    <!-- End extra content -->
+
                 </div>
             </div>
         </div>
     </section>
+
+    
+<div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
+    <div class="container">
+        <a href="#overview">Overview</a> |
+        <a href="#composition">Chemical Composition</a> |
+        <a href="#heat-treatment">Heat Treatment</a> |
+        <a href="#mechanical">Mechanical Properties</a> |
+        <a href="#price">Advantages</a> |
+        <a href="#applications">Applications</a> |
+        <a href="#faq">FAQ</a> |
+        <a href="#contact us">Contact Us</a> 
+    </div>
+</div>
+
 
 
     <!--End breadcrumb area-->
@@ -62,6 +86,44 @@
             </div>
         </div>
     </section>
+
+    
+    {{-- start datasheet --}}
+    <section class="sec-padd-bottom bg-light">
+        <div class="datasheet-download px-4 text-center">
+            <h3 class="mb-3" style="color:#174268;">Download Nickel 201 (Alloy 201) Datasheet
+</h3>
+            <p class="mb-3">
+                Get the complete Nickel 201 (UNS N02201 / W.Nr. 2.4068) datasheet with chemical composition, mechanical properties, corrosion resistance, heat treatment details, and applications.
+
+            </p>
+
+            <!-- Lead Capture Form -->
+            <form id="leadForm" method="POST" action="https://mokshtubes.com/datasheet-leads-capture" class="mb-3">
+                <input type="hidden" name="_token" value="WNVWvpO4YR2OqZaIJDl2mE3UfyreGys3Vp19brsc" autocomplete="off">
+                <div class="row justify-content-center">
+                    <input type="hidden" name="pdf" value="haynes-242.pdf">
+                    <div class="col-md-6 mb-2">
+                        <input type="email" name="email" required="" class="form-control p-3"
+                            placeholder="Enter your email address">
+                    </div>
+                    <div class="col-md-3 mb-2">
+                        <button type="submit" class="btn btn-lg w-100 text-white"
+                            style="background-color:#db7227; border-radius:8px;">
+                            📥 Get Datasheet
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+
+
+            <p class="small text-muted">
+                We respect your privacy. Your email will only be used to send the datasheet.
+            </p>
+        </div>
+    </section>
+    <!-- End Datasheet Download Section -->
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">

@@ -19,8 +19,16 @@
                 <div class="col-auto text-center">
                     <h1>
     Duplex 2507 Stainless Steel<br>
-    <span style="font-weight:400; font-size:0.9em;">Strong & Corrosion Resistant</span>
+   Ultra High Corrosion-Resistant Alloy
+
 </h1>
+ <!-- Add your extra content here -->
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                  Super Duplex Stainless Steel 2507 (UNS S32750) is a premium super duplex alloy offering ultra-high corrosion resistance, outstanding strength, and exceptional resistance to pitting, crevice corrosion, and chloride-induced stress corrosion cracking. Designed for highly aggressive environments, 2507 is widely used in offshore platforms, desalination plants, chemical processing, and marine applications where maximum durability and reliability are essential.
+
+                    </p>
+                    <!-- End extra content -->
 
 
 
@@ -28,6 +36,47 @@
             </div>
         </div>
     </section>
+
+    <style>
+
+    .material-tabs {
+    background: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #e5e5e5;
+    position: sticky;   /* you missed this */
+    top: 50px;             /* and this */
+    z-index: 1020;
+}
+
+.material-tabs a {
+    margin: 0 14px;
+    font-weight: 600;
+    color: #1b3c61 !important;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.25s ease;
+    display: inline-block;
+}
+
+.material-tabs a:hover {
+    color: #db7227 !important;
+    transform: translateY(-2px);
+}
+</style>
+<div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
+    <div class="container">
+        <a href="#overview">Overview</a> |
+        <a href="#composition">Chemical Composition</a> |
+        <a href="#heat-treatment">Heat Treatment</a> |
+        <a href="#mechanical">Mechanical Properties</a> |
+        <a href="#price">Advantages</a> |
+        <a href="#applications">Applications</a> |
+        <a href="#faq">FAQ</a> |
+        <a href="#contact us">Contact Us</a> 
+    </div>
+</div>
+
     <!--End breadcrumb area-->
 
     <section class="sec-padd-top sec-padd-bottom">
@@ -61,8 +110,8 @@
                         <p class="fs-6 text-justify" style="text-align: justify;">
                             <a href="{{ route('index') }}">MOKSH TUBES & FITTINGS LLP</a> is a trusted supplier, exporter,
                             importer, and stockist of Super Duplex 2507 products including <a
-                                href="{{ route('products') }}">pipes, tubes, fittings, flanges, sheets, plates, and custom
-                                components</a>. This alloy is widely used in offshore oil & gas, chemical processing, marine
+                                href="{{ route('products') }}">pipes, tubes, fittings, flanges, sheets, plates</a>, and custom
+                                components. This alloy is widely used in offshore oil & gas, chemical processing, marine
                             engineering, and desalination plants.
                         </p>
                     </div>
@@ -70,6 +119,43 @@
             </div>
         </div>
     </section>
+
+     {{-- start datasheet --}}
+    <section class="sec-padd-bottom bg-light">
+        <div class="datasheet-download px-4 text-center">
+            <h3 class="mb-3" style="color:#174268;">Download Duplex 2507 Datasheet
+</h3>
+            <p class="mb-3">
+              Get the complete Duplex 2507 datasheet with chemical composition, mechanical properties, corrosion resistance data, heat treatment details, and applications.
+
+            </p>
+
+            <!-- Lead Capture Form -->
+            <form id="leadForm" method="POST" action="https://mokshtubes.com/datasheet-leads-capture" class="mb-3">
+                <input type="hidden" name="_token" value="WNVWvpO4YR2OqZaIJDl2mE3UfyreGys3Vp19brsc" autocomplete="off">
+                <div class="row justify-content-center">
+                    <input type="hidden" name="pdf" value="haynes-242.pdf">
+                    <div class="col-md-6 mb-2">
+                        <input type="email" name="email" required="" class="form-control p-3"
+                            placeholder="Enter your email address">
+                    </div>
+                    <div class="col-md-3 mb-2">
+                        <button type="submit" class="btn btn-lg w-100 text-white"
+                            style="background-color:#db7227; border-radius:8px;">
+                            📥 Get Datasheet
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+
+
+            <p class="small text-muted">
+                We respect your privacy. Your email will only be used to send the datasheet.
+            </p>
+        </div>
+    </section>
+    <!-- End Datasheet Download Section -->
 
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
