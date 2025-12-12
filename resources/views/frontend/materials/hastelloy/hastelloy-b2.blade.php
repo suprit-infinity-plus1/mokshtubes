@@ -81,7 +81,7 @@
             <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
                 @csrf
                 <div class="row justify-content-center">
-                    <input type="hidden" name="pdf" value="hastelloy_B2.pdf">
+                    <input type="hidden" name="pdf" value="hastelloy_b2.pdf">
                     <div class="col-md-6 mb-2">
                         <input type="email" name="email" required class="form-control p-3"
                             placeholder="Enter your email address">
@@ -732,7 +732,7 @@
                 }
             ]
             }
-        
+
         @endverbatim
     </script>
 @endsection

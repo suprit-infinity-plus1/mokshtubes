@@ -1,8 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'EN8 Steel (080M40) – Composition, Properties & Applications')
-@section('meta_description',
-    'EN8 steel (080M40) – chemical composition, properties, and uses. Learn if EN8 is mild steel and view the full datasheet from Moksh Tubes.')
+@section('meta_description', 'EN8 steel (080M40) – chemical composition, properties, and uses. Learn if EN8 is mild
+    steel and view the full datasheet from Moksh Tubes.')
 @section('meta_keywords',
     'EN8 Engineering Steel, medium carbon steel, good tensile strength steel, machinable steel,
     general engineering steel, industrial steel')
@@ -12,16 +12,20 @@
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/engineering-steels/engineering-steels-en8.webp);">
+    <section class="breadcrumb-area"
+        style="background-image: url(/assets/images/engineering-steels/engineering-steels-en8.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1>EN8 Steel – Chemical Composition, Properties, and Applications<br>Medium Alloy Steel</h1>
 
-                     <!-- Add your extra content here -->
+                    <!-- Add your extra content here -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        EN8 / 080M40 / AISI 1040 is a medium carbon steel grade known for its high tensile strength, good toughness, and excellent machinability. It offers reliable performance in applications requiring better strength than mild steel and can be improved further through heat treatment. Commonly used for shafts, axles, gears, studs, and general engineering components.
+                        EN8 / 080M40 / AISI 1040 is a medium carbon steel grade known for its high tensile strength, good
+                        toughness, and excellent machinability. It offers reliable performance in applications requiring
+                        better strength than mild steel and can be improved further through heat treatment. Commonly used
+                        for shafts, axles, gears, studs, and general engineering components.
                     </p>
 
 
@@ -32,47 +36,48 @@
             </div>
         </div>
     </section>
-<!--End breadcrumb area-->
+    <!--End breadcrumb area-->
 
-<style>
+    <style>
+        .material-tabs {
+            background: #ffffff;
+            text-align: center;
+            padding: 15px 0;
+            border-bottom: 1px solid #e5e5e5;
+            position: sticky;
+            /* you missed this */
+            top: 50px;
+            /* and this */
+            z-index: 1020;
+        }
 
-    .material-tabs {
-    background: #ffffff;
-    text-align: center;
-    padding: 15px 0;
-    border-bottom: 1px solid #e5e5e5;
-    position: sticky;   /* you missed this */
-    top: 50px;             /* and this */
-    z-index: 1020;
-}
+        .material-tabs a {
+            margin: 0 14px;
+            font-weight: 600;
+            color: #1b3c61 !important;
+            text-decoration: none;
+            font-size: 16px;
+            transition: 0.25s ease;
+            display: inline-block;
+        }
 
-.material-tabs a {
-    margin: 0 14px;
-    font-weight: 600;
-    color: #1b3c61 !important;
-    text-decoration: none;
-    font-size: 16px;
-    transition: 0.25s ease;
-    display: inline-block;
-}
-
-.material-tabs a:hover {
-    color: #db7227 !important;
-    transform: translateY(-2px);
-}
-</style>
-<div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
-    <div class="container">
-        <a href="#overview">Overview</a> |
-        <a href="#composition">Chemical Composition</a> |
-        <a href="#heat-treatment">Heat Treatment</a> |
-        <a href="#mechanical">Mechanical Properties</a> |
-        <a href="#price">Advantages</a> |
-        <a href="#applications">Applications</a> |
-        <a href="#faq">FAQ</a> |
-        <a href="#contact us">Contact Us</a> 
+        .material-tabs a:hover {
+            color: #db7227 !important;
+            transform: translateY(-2px);
+        }
+    </style>
+    <div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
+        <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact us">Contact Us</a>
+        </div>
     </div>
-</div>
 
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -87,47 +92,49 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                <img src="{{ asset('assets/images/engineering-steels/engineering-steels-en8.webp') }}"
-                     alt="EN8 steel bars and tubes - Moksh Tubes India"
-                        loading="lazy"
-                     class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/engineering-steels/engineering-steels-en8.webp') }}"
+                        alt="EN8 steel bars and tubes - Moksh Tubes India" loading="lazy"
+                        class="img-fluid rounded shadow-sm">
 
                 </div>
 
                 <!-- Content Right -->
                 <div class="col-md-6">
-    <div class="pe-md-3">
-        <p class="fs-6 text-justify" style="text-align: justify;">
-            <strong class="text-black">
-                <a href="{{ route('index') }}">MOKSH TUBES & FITTINGS LLP</a>
-            </strong> is a trusted manufacturer, exporter, and stockist of
-            <strong class="text-black">EN8 Steel products</strong>, including
-            Pipes, <a href="{{ route('products.pipes-tubes') }}">Tubes</a>, Round Bars, Flats, Squares,
-            Forged Bars, Shafts, Sheets, Plates, Pipe Fittings, and Custom Machined Components.
-        </p>
+                    <div class="pe-md-3">
+                        <p class="fs-6 text-justify" style="text-align: justify;">
+                            <strong class="text-black">
+                                <a href="{{ route('index') }}">MOKSH TUBES & FITTINGS LLP</a>
+                            </strong> is a trusted manufacturer, exporter, and stockist of
+                            <strong class="text-black">EN8 Steel products</strong>, including
+                            Pipes, <a href="{{ route('products.pipes-tubes') }}">Tubes</a>, Round Bars, Flats, Squares,
+                            Forged Bars, Shafts, Sheets, Plates, Pipe Fittings, and Custom Machined Components.
+                        </p>
 
-        <p class="fs-6" style="text-align: justify;">
-            <strong class="text-black">EN8</strong> is a medium carbon steel grade
-            (approximately 0.40% carbon) known for its high tensile strength and good machinability.
-            It is widely used in engineering applications that require better mechanical properties than mild steel.
-        </p>
+                        <p class="fs-6" style="text-align: justify;">
+                            <strong class="text-black">EN8</strong> is a medium carbon steel grade
+                            (approximately 0.40% carbon) known for its high tensile strength and good machinability.
+                            It is widely used in engineering applications that require better mechanical properties than
+                            mild steel.
+                        </p>
 
-        <p class="fs-6" style="text-align: justify;">
-            EN8 offers moderate wear resistance and excellent toughness, making it ideal for manufacturing shafts, axles, gears, bolts, studs,
-            automotive parts, and other general-purpose
-            <a href="{{ route('materials.engineering-Steels') }}">engineering</a> components.
-        </p>
+                        <p class="fs-6" style="text-align: justify;">
+                            EN8 offers moderate wear resistance and excellent toughness, making it ideal for manufacturing
+                            shafts, axles, gears, bolts, studs,
+                            automotive parts, and other general-purpose
+                            <a href="{{ route('materials.engineering-Steels') }}">engineering</a> components.
+                        </p>
 
-        <p class="fs-6" style="text-align: justify;">
-            Also known as <strong>080M40</strong> or <strong>AISI 1040</strong>, EN8 steel provides a reliable balance of strength, hardness, and machinability,
-            making it one of the most popular choices among medium carbon steel grades.
-        </p>
+                        <p class="fs-6" style="text-align: justify;">
+                            Also known as <strong>080M40</strong> or <strong>AISI 1040</strong>, EN8 steel provides a
+                            reliable balance of strength, hardness, and machinability,
+                            making it one of the most popular choices among medium carbon steel grades.
+                        </p>
 
-    </div>
-</div>
-
+                    </div>
                 </div>
+
             </div>
+        </div>
         </div>
     </section>
 
@@ -144,7 +151,7 @@
             <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
                 @csrf
                 <div class="row justify-content-center">
-                    <input type="hidden" name="pdf" value="EN8_Steel_Datasheet.pdf">
+                    <input type="hidden" name="pdf" value="EN8_Steel.pdf">
                     <div class="col-md-6 mb-2">
                         <input type="email" name="email" required class="form-control p-3"
                             placeholder="Enter your email address">
@@ -346,7 +353,7 @@
     </section>
 
 
-     @php
+    @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -506,7 +513,8 @@
             <div class="section-title center">
                 <h2>Applications of EN8 Steel</h2>
                 <p class="text-center pb-3"><strong class="text-dark">Engineering Steel 8</strong> is widely used in
-                    mechanical <a href="{{ route('materials.engineering-Steels') }}">engineering</a> for parts that need better mechanical strength than mild steel but don’t require
+                    mechanical <a href="{{ route('materials.engineering-Steels') }}">engineering</a> for parts that need
+                    better mechanical strength than mild steel but don’t require
                     high hardenability or extreme corrosion resistance.</p>
             </div>
 
@@ -880,5 +888,3 @@
         ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) !!}
     </script>
 @endsection --}}
-
-

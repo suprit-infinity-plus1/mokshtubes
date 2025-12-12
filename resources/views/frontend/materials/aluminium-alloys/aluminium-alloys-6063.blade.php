@@ -2,24 +2,30 @@
 
 @section('title', 'Aluminium Alloy 6063 | Architectural Grade Aluminium')
 
-@section('meta_description', 'Aluminium 6063 – architectural-grade alloy offering excellent surface finish, corrosion resistance, and durability for structural applications.')
+@section('meta_description', 'Aluminium 6063 – architectural-grade alloy offering excellent surface finish, corrosion
+    resistance, and durability for structural applications.')
 
-@section('meta_keywords', 'Aluminium Alloy 6063, Architectural Grade Aluminium, Aluminium 6063 Pipes, Aluminium 6063 Tubes, Aluminium 6063 Sheets, Corrosion Resistant Aluminium, Excellent Surface Finish Aluminium, Architectural Aluminium Alloys, Structural Aluminium, Industrial Aluminium Grades')
+@section('meta_keywords', 'Aluminium Alloy 6063, Architectural Grade Aluminium, Aluminium 6063 Pipes, Aluminium 6063
+    Tubes, Aluminium 6063 Sheets, Corrosion Resistant Aluminium, Excellent Surface Finish Aluminium, Architectural Aluminium
+    Alloys, Structural Aluminium, Industrial Aluminium Grades')
 @section('og_image', asset('assets/images/aluminium-alloys/aluminium-alloys-6063.webp'))
 @section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/aluminium-alloys/aluminium-alloys-6063.webp);">
+    <section class="breadcrumb-area"
+        style="background-image: url(/assets/images/aluminium-alloys/aluminium-alloys-6063.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1>Aluminium 6063 <br> Architectural Grade Corrosion-Resistant Alloy</h1>
 
-                     <!-- Add your extra content here -->
+                    <!-- Add your extra content here -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        Aluminium Alloy 6063 is a highly versatile aluminium alloy known for its excellent surface finish, corrosion resistance, and ability to form complex extruded shapes. Below is the full datasheet including composition, properties, heat treatment, and applications.
+                        Aluminium Alloy 6063 is a highly versatile aluminium alloy known for its excellent surface finish,
+                        corrosion resistance, and ability to form complex extruded shapes. Below is the full datasheet
+                        including composition, properties, heat treatment, and applications.
 
                     </p>
                     <!-- End extra content -->
@@ -29,44 +35,45 @@
     </section>
 
     <style>
+        .material-tabs {
+            background: #ffffff;
+            text-align: center;
+            padding: 15px 0;
+            border-bottom: 1px solid #e5e5e5;
+            position: sticky;
+            /* you missed this */
+            top: 50px;
+            /* and this */
+            z-index: 1020;
+        }
 
-    .material-tabs {
-    background: #ffffff;
-    text-align: center;
-    padding: 15px 0;
-    border-bottom: 1px solid #e5e5e5;
-    position: sticky;   /* you missed this */
-    top: 50px;             /* and this */
-    z-index: 1020;
-}
+        .material-tabs a {
+            margin: 0 14px;
+            font-weight: 600;
+            color: #1b3c61 !important;
+            text-decoration: none;
+            font-size: 16px;
+            transition: 0.25s ease;
+            display: inline-block;
+        }
 
-.material-tabs a {
-    margin: 0 14px;
-    font-weight: 600;
-    color: #1b3c61 !important;
-    text-decoration: none;
-    font-size: 16px;
-    transition: 0.25s ease;
-    display: inline-block;
-}
-
-.material-tabs a:hover {
-    color: #db7227 !important;
-    transform: translateY(-2px);
-}
-</style>
-<div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
-    <div class="container">
-        <a href="#overview">Overview</a> |
-        <a href="#composition">Chemical Composition</a> |
-        <a href="#heat-treatment">Heat Treatment</a> |
-        <a href="#mechanical">Mechanical Properties</a> |
-        <a href="#price">Advantages</a> |
-        <a href="#applications">Applications</a> |
-        <a href="#faq">FAQ</a> |
-        <a href="#contact us">Contact Us</a> 
+        .material-tabs a:hover {
+            color: #db7227 !important;
+            transform: translateY(-2px);
+        }
+    </style>
+    <div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
+        <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact us">Contact Us</a>
+        </div>
     </div>
-</div>
 
 
     <!--End breadcrumb area-->
@@ -108,23 +115,23 @@
         </div>
     </section>
 
-      {{-- start datasheet --}}
+    {{-- datasheet --}}
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
-            <h3 class="mb-3" style="color:#174268;">Download Aluminium 6063 Datasheet
-</h3>
+            <h3 class="mb-3" style="color:#174268;">Download Alluminium Alloy 6063 Datasheet</h3>
             <p class="mb-3">
-                Get the complete Aluminium 6063 datasheet with chemical composition, mechanical properties, heat treatment details, and applications.
-
+                Get the complete Alluminium Alloy 6063 datasheet with chemical composition,
+                mechanical properties, heat treatment details, and applications.
+                Enter your email to receive the PDF instantly.
             </p>
 
             <!-- Lead Capture Form -->
-            <form id="leadForm" method="POST" action="https://mokshtubes.com/datasheet-leads-capture" class="mb-3">
-                <input type="hidden" name="_token" value="WNVWvpO4YR2OqZaIJDl2mE3UfyreGys3Vp19brsc" autocomplete="off">
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+                @csrf
                 <div class="row justify-content-center">
-                    <input type="hidden" name="pdf" value="haynes-242.pdf">
+                    <input type="hidden" name="pdf" value="aluminium_6063.pdf">
                     <div class="col-md-6 mb-2">
-                        <input type="email" name="email" required="" class="form-control p-3"
+                        <input type="email" name="email" required class="form-control p-3"
                             placeholder="Enter your email address">
                     </div>
                     <div class="col-md-3 mb-2">
@@ -136,14 +143,18 @@
                 </div>
             </form>
 
-
+            @if (session('success'))
+                <div class="alert alert-success mt-3">
+                    {{ session('success') }}
+                </div>
+            @endif
 
             <p class="small text-muted">
                 We respect your privacy. Your email will only be used to send the datasheet.
             </p>
         </div>
     </section>
-    <!-- End Datasheet Download Section -->
+    {{-- end datasheet --}}
 
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -320,7 +331,7 @@
     </section>
 
 
-     @php
+    @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -417,7 +428,7 @@
 
             <!-- Product Image Cards (Now centered and responsive) -->
             <div class="row g-4">
-                 @foreach ($products as $product)
+                @foreach ($products as $product)
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
                         <div class="mx-auto" style="width: 100%; max-width: 300px;">
                             <a href="{{ route($product['route']) }}" class="text-decoration-none">
@@ -702,7 +713,7 @@
                 <p>
                     For inquiries or to request a quote for Aluminium Alloy 6063 products, <strong>Moksh Tubes & Fittings
                         LLP</strong> your reliable partner for premium aluminium materials.</p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch
@@ -717,7 +728,7 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
+    <script type="application/ld+json">
     @verbatim
 {
   "@context": "https://schema.org",

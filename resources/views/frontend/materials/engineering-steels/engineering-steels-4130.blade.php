@@ -94,7 +94,7 @@ High Strength • Excellent Toughness • Ideal for Aerospace, Automotive & Heav
         <a href="#price">Advantages</a> |
         <a href="#applications">Applications</a> |
         <a href="#faq">FAQ</a> |
-        <a href="#contact us">Contact Us</a> 
+        <a href="#contact us">Contact Us</a>
     </div>
 </div>
     <!--End breadcrumb area-->
@@ -148,36 +148,43 @@ High Strength • Excellent Toughness • Ideal for Aerospace, Automotive & Heav
     </section>
 
     <section class="sec-padd-bottom bg-light">
-    <div class="datasheet-download px-4 text-center">
-        <h3 class="mb-3" style="color:#174268;">Download 4340 Alloy Steel Datasheet</h3>
-        <p class="mb-3">
-            Get the complete datasheet with chemical composition, mechanical properties,
-            physical data & heat treatment details. Enter your email to receive the PDF instantly.
-        </p>
+        <div class="datasheet-download px-4 text-center">
+            <h3 class="mb-3" style="color:#174268;">Download Engineering Steels 4130 Datasheet</h3>
+            <p class="mb-3">
+                Get the complete Engineering Steels 4130 datasheet with chemical composition,
+                mechanical properties, heat treatment details, and applications.
+                Enter your email to receive the PDF instantly.
+            </p>
 
-        <!-- Lead Capture Form -->
-        <form id="leadForm" method="POST" action="https://mokshtubes.com/datasheet-leads-capture" class="mb-3">
-            <input type="hidden" name="_token" value="WNVWvpO4YR2OqZaIJDl2mE3UfyreGys3Vp19brsc" autocomplete="off">
-            <div class="row justify-content-center">
-                <input type="hidden" name="pdf" value="haynes-242.pdf">
-                <div class="col-md-6 mb-2">
-                    <input type="email" name="email" required class="form-control p-3"
-                        placeholder="Enter your email address">
+            <!-- Lead Capture Form -->
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+                @csrf
+                <div class="row justify-content-center">
+                    <input type="hidden" name="pdf" value="en_4130.pdf">
+                    <div class="col-md-6 mb-2">
+                        <input type="email" name="email" required class="form-control p-3"
+                            placeholder="Enter your email address">
+                    </div>
+                    <div class="col-md-3 mb-2">
+                        <button type="submit" class="btn btn-lg w-100 text-white"
+                            style="background-color:#db7227; border-radius:8px;">
+                            📥 Get Datasheet
+                        </button>
+                    </div>
                 </div>
-                <div class="col-md-3 mb-2">
-                    <button type="submit" class="btn btn-lg w-100 text-white"
-                        style="background-color:#db7227; border-radius:8px;">
-                        📥 Get Datasheet
-                    </button>
-                </div>
-            </div>
-        </form>
+            </form>
 
-        <p class="small text-muted">
-            “We respect your privacy. Your email will only be used to send the datasheet.”
-        </p>
-    </div>
-</section>
+            @if (session('success'))
+                <div class="alert alert-success mt-3">
+                    {{ session('success') }}
+                </div>
+            @endif
+
+            <p class="small text-muted">
+                We respect your privacy. Your email will only be used to send the datasheet.
+            </p>
+        </div>
+    </section>
 
 <section class="sec-padd-top" id="specification">
     <div class="container">
@@ -1059,7 +1066,7 @@ High Strength • Excellent Toughness • Ideal for Aerospace, Automotive & Heav
                     }
                 ]
             }
-        
+
         @endverbatim
     </script>
 @endsection

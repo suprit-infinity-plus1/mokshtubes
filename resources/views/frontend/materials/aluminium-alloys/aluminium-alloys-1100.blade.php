@@ -74,7 +74,7 @@
         <a href="#price">Advantages</a> |
         <a href="#applications">Applications</a> |
         <a href="#faq">FAQ</a> |
-        <a href="#contact us">Contact Us</a> 
+        <a href="#contact us">Contact Us</a>
     </div>
 </div>
     <!--End breadcrumb area-->
@@ -86,7 +86,7 @@
             </div>
 
             <h2 class="fw-semibold text-center mb-5" style="color: #db7227;">
-                Introduction 
+                Introduction
             </h2>
 
             <div class="row align-items-center">
@@ -100,7 +100,7 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted 
+                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted
                             supplier, exporter, importer, and stockist of<strong class="text-black"> Aluminium Alloy 1100
                                 <a href="{{ route('products') }}">products</a> </strong> such as sheets,
                             plates, tubes,<a href="{{ route('products.pipes-tubes') }}"> pipes</a>, bars, rods, and custom
@@ -118,22 +118,24 @@
         </div>
     </section>
 
-     {{-- start datasheet --}}
+
+    {{-- datasheet --}}
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
-            <h3 class="mb-3" style="color:#174268;">Download Aluminium 1100 Datasheet
-</h3>
+            <h3 class="mb-3" style="color:#174268;">Download Alluminium Alloy 1100 T6 Datasheet</h3>
             <p class="mb-3">
-             Get the complete Aluminium Alloy 1100 datasheet with chemical composition, mechanical properties, corrosion resistance, heat treatment details, and applications.
+                Get the complete Alluminium Alloy 1100 T6 datasheet with chemical composition,
+                mechanical properties, heat treatment details, and applications.
+                Enter your email to receive the PDF instantly.
             </p>
 
             <!-- Lead Capture Form -->
-            <form id="leadForm" method="POST" action="https://mokshtubes.com/datasheet-leads-capture" class="mb-3">
-                <input type="hidden" name="_token" value="WNVWvpO4YR2OqZaIJDl2mE3UfyreGys3Vp19brsc" autocomplete="off">
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+                @csrf
                 <div class="row justify-content-center">
-                    <input type="hidden" name="pdf" value="haynes-242.pdf">
+                    <input type="hidden" name="pdf" value="aluminium_1100.pdf">
                     <div class="col-md-6 mb-2">
-                        <input type="email" name="email" required="" class="form-control p-3"
+                        <input type="email" name="email" required class="form-control p-3"
                             placeholder="Enter your email address">
                     </div>
                     <div class="col-md-3 mb-2">
@@ -145,14 +147,19 @@
                 </div>
             </form>
 
-
+            @if (session('success'))
+                <div class="alert alert-success mt-3">
+                    {{ session('success') }}
+                </div>
+            @endif
 
             <p class="small text-muted">
                 We respect your privacy. Your email will only be used to send the datasheet.
             </p>
         </div>
     </section>
-    <!-- End Datasheet Download Section -->
+    {{-- end datasheet --}}
+
 
     <!-- Specifications Section -->
     <section class="sec-padd-top" id="specification">

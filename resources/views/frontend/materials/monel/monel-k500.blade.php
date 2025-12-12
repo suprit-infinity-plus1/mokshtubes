@@ -86,7 +86,7 @@
             <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
                 @csrf
                 <div class="row justify-content-center">
-                    <input type="hidden" name="pdf" value="Monel_K500_data_sheet.pdf">
+                    <input type="hidden" name="pdf" value="monel_k500.pdf">
                     <div class="col-md-6 mb-2">
                         <input type="email" name="email" required class="form-control p-3"
                             placeholder="Enter your email address">
@@ -776,7 +776,7 @@
                     }
                 ]
             }
-        
+
         @endverbatim
     </script>
 @endsection

@@ -20,10 +20,12 @@
                         <br> Medium Carbon Steel
                     </h1>
 
-                    <!-- Extra content can be added here -->    
+                    <!-- Extra content can be added here -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        1045 Engineering Steel is a widely used medium carbon steel grade known for its good strength, moderate toughness, and excellent machinability, making it a cost-effective choice for general engineering, shafts, axles, fasteners and structural components.
+                        1045 Engineering Steel is a widely used medium carbon steel grade known for its good strength,
+                        moderate toughness, and excellent machinability, making it a cost-effective choice for general
+                        engineering, shafts, axles, fasteners and structural components.
                     </p>
 
                     <!-- End extra content -->
@@ -31,70 +33,70 @@
             </div>
         </div>
     </section>
-<style>
+    <style>
+        .material-tabs {
+            background: #ffffff;
+            text-align: center;
+            padding: 15px 0;
+            border-bottom: 1px solid #e5e5e5;
+            position: sticky;
+            /* you missed this */
+            top: 50px;
+            /* and this */
+            z-index: 1020;
+        }
 
-    .material-tabs {
-    background: #ffffff;
-    text-align: center;
-    padding: 15px 0;
-    border-bottom: 1px solid #e5e5e5;
-    position: sticky;   /* you missed this */
-    top: 50px;             /* and this */
-    z-index: 1020;
-}
+        .material-tabs a {
+            margin: 0 14px;
+            font-weight: 600;
+            color: #1b3c61 !important;
+            text-decoration: none;
+            font-size: 16px;
+            transition: 0.25s ease;
+            display: inline-block;
+        }
 
-.material-tabs a {
-    margin: 0 14px;
-    font-weight: 600;
-    color: #1b3c61 !important;
-    text-decoration: none;
-    font-size: 16px;
-    transition: 0.25s ease;
-    display: inline-block;
-}
-
-.material-tabs a:hover {
-    color: #db7227 !important;
-    transform: translateY(-2px);
-}
+        .material-tabs a:hover {
+            color: #db7227 !important;
+            transform: translateY(-2px);
+        }
 
 
-.material-tabs {
-    background: #ffffff;
-    text-align: center;
-    padding: 15px 0;
-    border-bottom: 1px solid #e5e5e5;
-    z-index: 1020;
-}
+        .material-tabs {
+            background: #ffffff;
+            text-align: center;
+            padding: 15px 0;
+            border-bottom: 1px solid #e5e5e5;
+            z-index: 1020;
+        }
 
-.material-tabs a {
-    margin: 0 14px;
-    font-weight: 600;
-    color: #1b3c61 !important;
-    text-decoration: none;
-    font-size: 16px;
-    transition: 0.25s ease;
-    display: inline-block;
-}
+        .material-tabs a {
+            margin: 0 14px;
+            font-weight: 600;
+            color: #1b3c61 !important;
+            text-decoration: none;
+            font-size: 16px;
+            transition: 0.25s ease;
+            display: inline-block;
+        }
 
-.material-tabs a:hover {
-    color: #db7227 !important;
-    transform: translateY(-2px);
-}
-
-</style>
-<div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
-    <div class="container">
-        <a href="#overview">Overview</a> |
-        <a href="#composition">Chemical Composition</a> |
-        <a href="#heat-treatment">Heat Treatment</a> |
-        <a href="#mechanical">Mechanical Properties</a> |
-        <a href="#advantages">Advantages</a> |
-        <a href="#applications">Applications</a> |
-        <a href="#faq">FAQ</a> |
-        <a href="#contact us">Contact Us</a> 
+        .material-tabs a:hover {
+            color: #db7227 !important;
+            transform: translateY(-2px);
+        }
+    </style>
+    <div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
+        <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#advantages">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact us">Contact Us</a>
+        </div>
     </div>
-</div>
 
     <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
 
@@ -118,26 +120,36 @@
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
-                       <p class="fs-6 mb-4" style="text-align: justify;">
-    <strong class="text-black">MOKSH TUBES & FITTINGS LLP</strong> is a reliable supplier, stockist, exporter, importer, 
-    and distributor of <strong class="text-black">EN 1045 (C1045 / SAE 1045) medium carbon steel</strong> in the form of 
-    bars, plates, sheets, pipes, <a href="{{ route('products.pipes-tubes') }}">tubes</a>, forgings, and custom-machined components.
-</p>
+                        <p class="fs-6 mb-4" style="text-align: justify;">
+                            <strong class="text-black">MOKSH TUBES & FITTINGS LLP</strong> is a reliable supplier, stockist,
+                            exporter, importer,
+                            and distributor of <strong class="text-black">EN 1045 (C1045 / SAE 1045) medium carbon
+                                steel</strong> in the form of
+                            bars, plates, sheets, pipes, <a href="{{ route('products.pipes-tubes') }}">tubes</a>, forgings,
+                            and custom-machined components.
+                        </p>
 
-<p class="fs-6 mb-3" style="text-align: justify;">
-    <strong class="text-black">EN 1045</strong> is a medium carbon steel (approx. 0.45% carbon) valued for its good 
-    tensile strength, moderate wear resistance, high machinability, balanced ductility and toughness, and overall 
-    economical performance for engineering applications. These properties make EN 1045 suitable for components such 
-    as shafts, gears, axles, bolts, bushings, and general structural parts. It can also be heat-treated to further 
-    enhance strength and hardness for more demanding industrial requirements.
-</p>
+                        <p class="fs-6 mb-3" style="text-align: justify;">
+                            <strong class="text-black">EN 1045</strong> is a medium carbon steel (approx. 0.45% carbon)
+                            valued for its good
+                            tensile strength, moderate wear resistance, high machinability, balanced ductility and
+                            toughness, and overall
+                            economical performance for engineering applications. These properties make EN 1045 suitable for
+                            components such
+                            as shafts, gears, axles, bolts, bushings, and general structural parts. It can also be
+                            heat-treated to further
+                            enhance strength and hardness for more demanding industrial requirements.
+                        </p>
 
-<p class="fs-6" style="text-align: justify;">
-    We supply EN 1045 in a wide range of forms, including round, square, and hex bars; HR/CR plates and sheets; 
-    seamless and welded tubes (limited availability); forged bars and components; and custom sizes with CNC-machined 
-    parts. All materials are provided with complete <strong class="text-black">EN 10204 3.1 / 3.2 certification</strong> 
-    to ensure full traceability and quality assurance.
-</p>
+                        <p class="fs-6" style="text-align: justify;">
+                            We supply EN 1045 in a wide range of forms, including round, square, and hex bars; HR/CR plates
+                            and sheets;
+                            seamless and welded tubes (limited availability); forged bars and components; and custom sizes
+                            with CNC-machined
+                            parts. All materials are provided with complete <strong class="text-black">EN 10204 3.1 / 3.2
+                                certification</strong>
+                            to ensure full traceability and quality assurance.
+                        </p>
 
 
 
@@ -150,21 +162,23 @@
     <!--End breadcrumb area-->
 
 
-     {{-- datasheet --}}
+    {{-- datasheet --}}
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
-            <h3 class="mb-3" style="color:#174268;">Download Engineering Steels Datasheet</h3>
+            <h3 class="mb-3" style="color:#174268;">Download Engineering Steels 1045 Datasheet</h3>
             <p class="mb-3">
-               Get the complete EN 1045 (C1045 / SAE 1045) medium carbon steel datasheet — including chemical composition, mechanical properties, heat treatment, applications, and international equivalents.
+                Get the complete Engineering Steels 1045 datasheet with chemical composition,
+                mechanical properties, heat treatment details, and applications.
+                Enter your email to receive the PDF instantly.
             </p>
 
             <!-- Lead Capture Form -->
-            <form id="leadForm" method="POST" action="https://mokshtubes.com/datasheet-leads-capture" class="mb-3">
-                <input type="hidden" name="_token" value="WNVWvpO4YR2OqZaIJDl2mE3UfyreGys3Vp19brsc" autocomplete="off">
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+                @csrf
                 <div class="row justify-content-center">
-                    <input type="hidden" name="pdf" value="haynes-242.pdf">
+                    <input type="hidden" name="pdf" value="en_1045.pdf">
                     <div class="col-md-6 mb-2">
-                        <input type="email" name="email" required="" class="form-control p-3"
+                        <input type="email" name="email" required class="form-control p-3"
                             placeholder="Enter your email address">
                     </div>
                     <div class="col-md-3 mb-2">
@@ -176,7 +190,11 @@
                 </div>
             </form>
 
-
+            @if (session('success'))
+                <div class="alert alert-success mt-3">
+                    {{ session('success') }}
+                </div>
+            @endif
 
             <p class="small text-muted">
                 We respect your privacy. Your email will only be used to send the datasheet.
@@ -186,85 +204,85 @@
     {{-- end datasheet --}}
 
     <!-- Specifications Section -->
-<section class="sec-padd-top" id="specification">
-    <div class="container">
-        <div class="section-title center">
-            <h2>Specifications of EN 1045 / C1045 / SAE 1045</h2>
-        </div>
+    <section class="sec-padd-top" id="specification">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Specifications of EN 1045 / C1045 / SAE 1045</h2>
+            </div>
 
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <div class="table-responsive">
-                    <table class="table table-bordered table-striped align-middle">
-                        <thead class="table-dark text-center">
-                            <tr class="t-row">
-                                <th>Category</th>
-                                <th>Details</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr class="t-row">
-                                <td>Grade</td>
-                                <td>EN 1045 / C45 / C1045 / SAE 1045</td>
-                            </tr>
-                            <tr class="t-row">
-                                <td>Type</td>
-                                <td>Medium Carbon Steel</td>
-                            </tr>
-                            <tr class="t-row">
-                                <td>Carbon Content</td>
-                                <td>0.45%</td>
-                            </tr>
-                            <tr class="t-row">
-                                <td>Material Category</td>
-                                <td>Engineering Steel</td>
-                            </tr>
-                            <tr class="t-row">
-                                <td>Supply Conditions</td>
-                                <td>Annealed, Normalized, Hot Rolled, Cold Drawn, Hardened & Tempered</td>
-                            </tr>
-                            <tr class="t-row">
-                                <td>Available Forms</td>
-                                <td>Bars, Plates, Sheets, Tubes (limited), Forgings, Custom Components</td>
-                            </tr>
-                            <tr class="t-row">
-                                <td>Heat Treatment Options</td>
-                                <td>Normalizing, Quenching & Tempering, Induction/Flame Hardening</td>
-                            </tr>
-                            <tr class="t-row">
-                                <td>Testing Availability</td>
-                                <td>Tensile, Chemical, Hardness, Ultrasonic (on request)</td>
-                            </tr>
-                            <tr class="t-row">
-                                <td>Certification</td>
-                                <td>EN 10204 3.1 / 3.2</td>
-                            </tr>
-                            <tr class="t-row">
-                                <td>Standards</td>
-                                <td>EN 10083-2, SAE 1045, ASTM A29 (Equivalent Family)</td>
-                            </tr>
-                            <tr class="t-row">
-                                <td>Machinability</td>
-                                <td>Excellent</td>
-                            </tr>
-                            <tr class="t-row">
-                                <td>Weldability</td>
-                                <td>Moderate</td>
-                            </tr>
-                            <tr class="t-row">
-                                <td>Corrosion Resistance</td>
-                                <td>Low (standard for carbon steels)</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div> <!-- col-lg-8 -->
-        </div> <!-- row -->
-    </div> <!-- container -->
-</section>
-    <!-- End Specifications Section --> 
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Category</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Grade</td>
+                                    <td>EN 1045 / C45 / C1045 / SAE 1045</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Type</td>
+                                    <td>Medium Carbon Steel</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Carbon Content</td>
+                                    <td>0.45%</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Material Category</td>
+                                    <td>Engineering Steel</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Supply Conditions</td>
+                                    <td>Annealed, Normalized, Hot Rolled, Cold Drawn, Hardened & Tempered</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Available Forms</td>
+                                    <td>Bars, Plates, Sheets, Tubes (limited), Forgings, Custom Components</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Heat Treatment Options</td>
+                                    <td>Normalizing, Quenching & Tempering, Induction/Flame Hardening</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Testing Availability</td>
+                                    <td>Tensile, Chemical, Hardness, Ultrasonic (on request)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Certification</td>
+                                    <td>EN 10204 3.1 / 3.2</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Standards</td>
+                                    <td>EN 10083-2, SAE 1045, ASTM A29 (Equivalent Family)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Machinability</td>
+                                    <td>Excellent</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Weldability</td>
+                                    <td>Moderate</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Corrosion Resistance</td>
+                                    <td>Low (standard for carbon steels)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div> <!-- col-lg-8 -->
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+    <!-- End Specifications Section -->
 
-                    
+
     <section class="sec-padd-top sec-padd-bottom" id="composition">
         <div class="container">
             <div class="section-title center">
@@ -416,169 +434,169 @@
                 </div>
 
             </div>
-        </section>
-        <section class="sec-padd-top sec-padd-bottom" id="mechanical">
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                  
-                    <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Mechanical Properties of EN 1045 Steel</h2>
-            </div>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Tubing (Annealed)</th>
-                                    <th>Hot-Finished</th>
-                                    <th>Tubing (Cold Drawn)</th>
-                                    <th>Hot-rolled</th>
-                                    <th>Sheet (Annealed)</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Tensile Strength (ksi)</td>
-                                    <td>65–85</td>
-                                    <td>75–105</td>
-                                    <td>85–110</td>
-                                    <td>65–85</td>
-                                    <td>60–80</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Tensile Strength (MPa)</td>
-                                    <td>448–586</td>
-                                    <td>517–724 </td>
-                                    <td>586–758</td>
-                                    <td>448–586</td>
-                                    <td>414–552 </td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Yield Strength (0.2%) (ksi)</td>
-                                    <td>35–55</td>
-                                    <td>50–80</td>
-                                    <td>60–85</td>
-                                    <td>35–55</td>
-                                    <td>30–50</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Yield Strength (MPa)</td>
-                                    <td>241–379</td>
-                                    <td>345–552</td>
-                                    <td>414–586</td>
-                                    <td>241–379</td>
-                                    <td>207–345</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Elongation (%)</td>
-                                    <td>20–30</td>
-                                    <td>15–25</td>
-                                    <td>15–20</td>
-                                    <td>20–30</td>
-                                    <td>20–30</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Brinell Hardness (3000 kg)</td>
-                                    <td>120–180</td>
-                                    <td>160–220</td>
-                                    <td>160–210</td>
-                                    <td>120–180</td>
-                                    <td>—</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Rockwell Hardness (B / C)</td>
-                                    <td>70–80 B</td>
-                                    <td>85–95 B</td>
-                                    <td>85–95 B</td>
-                                    <td>70–80 B</td>
-                                    <td>70–80 B</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+    </section>
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <!-- Mechanical Properties Table -->
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+
+                <div class="section-title center mb-5">
+                    <h2 class="fw-bold" style="color: #174268;">Mechanical Properties of EN 1045 Steel</h2>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped align-middle">
+                        <thead class="table-dark text-center">
+                            <tr class="t-row">
+                                <th>Property</th>
+                                <th>Tubing (Annealed)</th>
+                                <th>Hot-Finished</th>
+                                <th>Tubing (Cold Drawn)</th>
+                                <th>Hot-rolled</th>
+                                <th>Sheet (Annealed)</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">
+                            <tr class="t-row">
+                                <td>Tensile Strength (ksi)</td>
+                                <td>65–85</td>
+                                <td>75–105</td>
+                                <td>85–110</td>
+                                <td>65–85</td>
+                                <td>60–80</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Tensile Strength (MPa)</td>
+                                <td>448–586</td>
+                                <td>517–724 </td>
+                                <td>586–758</td>
+                                <td>448–586</td>
+                                <td>414–552 </td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Yield Strength (0.2%) (ksi)</td>
+                                <td>35–55</td>
+                                <td>50–80</td>
+                                <td>60–85</td>
+                                <td>35–55</td>
+                                <td>30–50</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Yield Strength (MPa)</td>
+                                <td>241–379</td>
+                                <td>345–552</td>
+                                <td>414–586</td>
+                                <td>241–379</td>
+                                <td>207–345</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Elongation (%)</td>
+                                <td>20–30</td>
+                                <td>15–25</td>
+                                <td>15–20</td>
+                                <td>20–30</td>
+                                <td>20–30</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Brinell Hardness (3000 kg)</td>
+                                <td>120–180</td>
+                                <td>160–220</td>
+                                <td>160–210</td>
+                                <td>120–180</td>
+                                <td>—</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Rockwell Hardness (B / C)</td>
+                                <td>70–80 B</td>
+                                <td>85–95 B</td>
+                                <td>85–95 B</td>
+                                <td>70–80 B</td>
+                                <td>70–80 B</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
+        </div>
         </div>
     </section>
 
     <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
-    <div class="container">
-        <div class="section-title center mt-5" id="available forms">
-            <h2>Available Forms & Size Range (EN 1045 Medium Carbon Steel)</h2>
-        </div>
-
-        <div class="row justify-content-center mb-4" style="text-align: justify;">
-            <div class="col-lg-10">
-                <p class="fs-6 text-center">
-                    We supply EN 1045 Medium Carbon Steel in the following product forms and dimensions:
-                </p>
+        <div class="container">
+            <div class="section-title center mt-5" id="available forms">
+                <h2>Available Forms & Size Range (EN 1045 Medium Carbon Steel)</h2>
             </div>
-        </div>
 
-        <div class="row justify-content-center">
-            <div class="col-lg-10">
-                <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color:#db7227;">
-                    <table class="table table-bordered table-striped">
-                        <thead>
-                            <tr>
-                                <th style="width: 40%;">Product Form</th>
-                                <th>Size Range / Description</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Round Bars</td>
-                                <td>10 mm – 400 mm dia (HR/CR, Annealed, Normalized, QT)</td>
-                            </tr>
-                            <tr>
-                                <td>Square Bars</td>
-                                <td>10 mm – 250 mm</td>
-                            </tr>
-                            <tr>
-                                <td>Hex Bars</td>
-                                <td>10 mm – 100 mm</td>
-                            </tr>
-                            <tr>
-                                <td>Flat Bars</td>
-                                <td>Thickness 5 mm – 150 mm, Width 20 mm – 500 mm</td>
-                            </tr>
-                            <tr>
-                                <td>Plates & Sheets (HR/CR)</td>
-                                <td>2 mm – 150 mm thickness (Width 600–3000 mm)</td>
-                            </tr>
-                            <tr>
-                                <td>Coils & Strips</td>
-                                <td>Thickness 0.5 mm – 12 mm (CR/HR)</td>
-                            </tr>
-                            <tr>
-                                <td>Seamless Pipes</td>
-                                <td>OD 10 mm – 219 mm, WT 2–20 mm</td>
-                            </tr>
-                            <tr>
-                                <td>Welded Tubes (ERW/EFW)</td>
-                                <td>OD 12 mm – 300 mm, WT 1–12 mm</td>
-                            </tr>
-                            <tr>
-                                <td>Forged Blocks / Rings / Shafts</td>
-                                <td>Custom as per drawing</td>
-                            </tr>
-                            <tr>
-                                <td>Custom-Machined Components</td>
-                                <td>CNC/Turning/Milling as per requirement</td>
-                            </tr>
-                        </tbody>
-                    </table>
-
+            <div class="row justify-content-center mb-4" style="text-align: justify;">
+                <div class="col-lg-10">
+                    <p class="fs-6 text-center">
+                        We supply EN 1045 Medium Carbon Steel in the following product forms and dimensions:
+                    </p>
                 </div>
             </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color:#db7227;">
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th style="width: 40%;">Product Form</th>
+                                    <th>Size Range / Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Round Bars</td>
+                                    <td>10 mm – 400 mm dia (HR/CR, Annealed, Normalized, QT)</td>
+                                </tr>
+                                <tr>
+                                    <td>Square Bars</td>
+                                    <td>10 mm – 250 mm</td>
+                                </tr>
+                                <tr>
+                                    <td>Hex Bars</td>
+                                    <td>10 mm – 100 mm</td>
+                                </tr>
+                                <tr>
+                                    <td>Flat Bars</td>
+                                    <td>Thickness 5 mm – 150 mm, Width 20 mm – 500 mm</td>
+                                </tr>
+                                <tr>
+                                    <td>Plates & Sheets (HR/CR)</td>
+                                    <td>2 mm – 150 mm thickness (Width 600–3000 mm)</td>
+                                </tr>
+                                <tr>
+                                    <td>Coils & Strips</td>
+                                    <td>Thickness 0.5 mm – 12 mm (CR/HR)</td>
+                                </tr>
+                                <tr>
+                                    <td>Seamless Pipes</td>
+                                    <td>OD 10 mm – 219 mm, WT 2–20 mm</td>
+                                </tr>
+                                <tr>
+                                    <td>Welded Tubes (ERW/EFW)</td>
+                                    <td>OD 12 mm – 300 mm, WT 1–12 mm</td>
+                                </tr>
+                                <tr>
+                                    <td>Forged Blocks / Rings / Shafts</td>
+                                    <td>Custom as per drawing</td>
+                                </tr>
+                                <tr>
+                                    <td>Custom-Machined Components</td>
+                                    <td>CNC/Turning/Milling as per requirement</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+
         </div>
-
-    </div>
-</section>
+    </section>
 
 
-<section class="sec-padd-top sec-padd-bottom" id="international">
+    <section class="sec-padd-top sec-padd-bottom" id="international">
         <div class="container">
             <div class="section-title center">
                 <h2>International Standards & Equivalent Grades</h2>
@@ -617,7 +635,7 @@
                 </table>
             </div>
         </div>
-</section>
+    </section>
     @php
         $products = [
             [
@@ -672,7 +690,7 @@
                 'image' => 'assets/images/all product/custom-metal-fabricated.webp',
             ],
         ];
-        
+
     @endphp
 
     <section class="sec-padd-top sec-padd-bottom bg-light">
@@ -715,7 +733,7 @@
                 </div>
             </div>
 
-            
+
             <!-- Product Image Cards (Bootstrap Grid) -->
             <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4 justify-content-center">
                 @foreach ($products as $product)
@@ -734,60 +752,60 @@
     </section>
 
 
-   <section class="sec-padd-top sec-padd-bottom" id="uses">
-    <div class="container">
-        <div class="section-title center">
-            <h2>Advantages of EN 1045 Steel</h2>
+    <section class="sec-padd-top sec-padd-bottom" id="uses">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Advantages of EN 1045 Steel</h2>
+            </div>
+
+            <div class="row g-4 mt-4 justify-content-center">
+                <div class="col-12 col-sm-6 col-md-5">
+                    <div class="advantage-card h-100 d-flex flex-column">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h5 class="flex-grow-1 d-flex align-items-center justify-content-center text-center">
+                            Good tensile strength and wear resistance
+                        </h5>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-5">
+                    <div class="advantage-card h-100 d-flex flex-column">
+                        <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
+                        <h5 class="flex-grow-1 d-flex align-items-center justify-content-center text-center">
+                            Excellent machinability & moderate weldability
+                        </h5>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-5">
+                    <div class="advantage-card h-100 d-flex flex-column">
+                        <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
+                        <h5 class="flex-grow-1 d-flex align-items-center justify-content-center text-center">
+                            Cost-effective engineering steel
+                        </h5>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-5">
+                    <div class="advantage-card h-100 d-flex flex-column">
+                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
+                        <h5 class="flex-grow-1 d-flex align-items-center justify-content-center text-center">
+                            Can be heat-treated for improved mechanical performance
+                        </h5>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-5">
+                    <div class="advantage-card h-100 d-flex flex-column">
+                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
+                        <h5 class="flex-grow-1 d-flex align-items-center justify-content-center text-center">
+                            Suitable for moderate-load and structural applications
+                        </h5>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="row g-4 mt-4 justify-content-center">
-            <div class="col-12 col-sm-6 col-md-5">
-                <div class="advantage-card h-100 d-flex flex-column">
-                    <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
-                    <h5 class="flex-grow-1 d-flex align-items-center justify-content-center text-center">
-                        Good tensile strength and wear resistance
-                    </h5>
-                </div>
-            </div>
-
-            <div class="col-12 col-sm-6 col-md-5">
-                <div class="advantage-card h-100 d-flex flex-column">
-                    <div class="advantage-icon"><i class="bi bi-droplet-half"></i></div>
-                    <h5 class="flex-grow-1 d-flex align-items-center justify-content-center text-center">
-                        Excellent machinability & moderate weldability
-                    </h5>
-                </div>
-            </div>
-
-            <div class="col-12 col-sm-6 col-md-5">
-                <div class="advantage-card h-100 d-flex flex-column">
-                    <div class="advantage-icon"><i class="bi bi-thermometer-high"></i></div>
-                    <h5 class="flex-grow-1 d-flex align-items-center justify-content-center text-center">
-                        Cost-effective engineering steel
-                    </h5>
-                </div>
-            </div>
-
-            <div class="col-12 col-sm-6 col-md-5">
-                <div class="advantage-card h-100 d-flex flex-column">
-                    <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                    <h5 class="flex-grow-1 d-flex align-items-center justify-content-center text-center">
-                        Can be heat-treated for improved mechanical performance
-                    </h5>
-                </div>
-            </div>
-
-            <div class="col-12 col-sm-6 col-md-5">
-                <div class="advantage-card h-100 d-flex flex-column">
-                    <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                    <h5 class="flex-grow-1 d-flex align-items-center justify-content-center text-center">
-                        Suitable for moderate-load and structural applications
-                    </h5>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
 
 
 
@@ -846,7 +864,7 @@
         </div>
     </section>
 
-    
+
     <section class="sec-padd-top sec-padd-bottom bg-light py-5">
         <div class="container">
             <div class="section-title text-center mb-4">
@@ -858,7 +876,8 @@
             </p>
 
             <p class="text-center fs-5">
-                UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain, Turkey, Europe, USA, Canada, Singapore, Malaysia, Indonesia, South Africa, Nigeria.
+                UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain, Turkey, Europe, USA, Canada, Singapore, Malaysia,
+                Indonesia, South Africa, Nigeria.
             </p>
         </div>
     </section>
@@ -914,7 +933,7 @@
             <h2>1045 Steel Price per kg in India</h2>
             <p>Typical price range: ₹85 – ₹150 per kg
                 (Varies by size, heat treatment, surface finish, and quantity).</p>
-            
+
             <p>Contact us for exact quotation based on size and quantity.</p>
         </div>
     </section>

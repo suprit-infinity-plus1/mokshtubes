@@ -23,7 +23,7 @@
 
 
                     <!-- End extra content -->
-                    
+
                 </div>
             </div>
         </div>
@@ -66,10 +66,10 @@
         <a href="#price">Advantages</a> |
         <a href="#applications">Applications</a> |
         <a href="#faq">FAQ</a> |
-        <a href="#contact us">Contact Us</a> 
+        <a href="#contact us">Contact Us</a>
     </div>
 </div>
-    
+
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
@@ -109,6 +109,46 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+
+    <section class="sec-padd-bottom bg-light">
+        <div class="datasheet-download px-4 text-center">
+            <h3 class="mb-3" style="color:#174268;">Download Engineering Steels D2 Datasheet</h3>
+            <p class="mb-3">
+                Get the complete Engineering Steels D2 datasheet with chemical composition,
+                mechanical properties, heat treatment details, and applications.
+                Enter your email to receive the PDF instantly.
+            </p>
+
+            <!-- Lead Capture Form -->
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+                @csrf
+                <div class="row justify-content-center">
+                    <input type="hidden" name="pdf" value="en_d2.pdf">
+                    <div class="col-md-6 mb-2">
+                        <input type="email" name="email" required class="form-control p-3"
+                            placeholder="Enter your email address">
+                    </div>
+                    <div class="col-md-3 mb-2">
+                        <button type="submit" class="btn btn-lg w-100 text-white"
+                            style="background-color:#db7227; border-radius:8px;">
+                            📥 Get Datasheet
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+            @if (session('success'))
+                <div class="alert alert-success mt-3">
+                    {{ session('success') }}
+                </div>
+            @endif
+
+            <p class="small text-muted">
+                We respect your privacy. Your email will only be used to send the datasheet.
+            </p>
         </div>
     </section>
 
@@ -753,7 +793,7 @@
                     }
                 ]
                 }
-        
+
             @endverbatim
-    </script>  
+    </script>
 @endsection
