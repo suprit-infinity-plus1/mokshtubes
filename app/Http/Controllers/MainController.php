@@ -281,163 +281,122 @@ class MainController extends Controller
 
     public function monel()
     {
-        $grades = [
-            ['name' => 'K500', 'slug' => 'k500'],
-            ['name' => 'R405', 'slug' => 'r405'],
-            ['name' => '400', 'slug' => '400'],
-        ];
+         $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+        // dd($blogCategories);
+        $categoryId = $blogCategories->pluck('id')->first();
+        // dd($categoryId);
+        $blogs = Blog::where('status', 1)->where('category_id', $categoryId)->paginate(3);
+        // dd($blogs);
 
-        return view('frontend.materials.monel.index', compact('grades'));
+        return view('frontend.materials.monel.index', compact('blogs'));
     }
 
     public function incoloy()
     {
-        $grades = [
-            ['name' => 'Incoloy 825', 'slug' => 'incoloy-825'],
-            ['name' => 'Incoloy 800', 'slug' => 'incoloy-800'],
-            ['name' => 'Incoloy 925', 'slug' => 'incoloy-925'],
-            ['name' => 'Incoloy 800h / 800ht', 'slug' => 'incoloy-800h-800ht'],
-            ['name' => 'Incoloy 020', 'slug' => 'incoloy-020'],
-        ];
+        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+        // dd($blogCategories);
+        $categoryId = $blogCategories->pluck('id')->first();
+        // dd($categoryId);
+        $blogs = Blog::where('status', 1)->where('category_id', $categoryId)->paginate(3);
+        // dd($blogs);
 
-        return view('frontend.materials.incoloy.index', compact('grades'));
+        return view('frontend.materials.incoloy.index', compact('blogs'));
     }
 
     public function nickelBasedSuperalloys()
     {
-        $grades = [
-            ['name' => 'A286_AIS660', 'slug' => 'nickel-based-superalloys-a286-ais660'],
-            ['name' => '200', 'slug' => 'nickel-based-superalloys-200'],
-            ['name' => '201', 'slug' => 'nickel-based-superalloys-201'],
-        ];
-
-        return view('frontend.materials.nickel-based-superalloys.index', compact('grades'));
+       $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+        // dd($blogCategories);
+        $categoryId = $blogCategories->pluck('id')->first();
+        // dd($categoryId);
+        $blogs = Blog::where('status', 1)->where('category_id', $categoryId)->paginate(3);
+        // dd($blogs);
+        return view('frontend.materials.nickel-based-superalloys.index', compact('blogs'));
     }
 
     public function inconel()
     {
-        $grades = [
-            ['name' => '600', 'slug' => '600'],
-            ['name' => '617', 'slug' => '617'],
-            ['name' => '625', 'slug' => '625'],
-            ['name' => '690', 'slug' => '690'],
-            ['name' => '718', 'slug' => '718'],
-            ['name' => 'x750', 'slug' => 'x750'],
-        ];
+       $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+        // dd($blogCategories);
+        $categoryId = $blogCategories->pluck('id')->first();
+        // dd($categoryId);
+        $blogs = Blog::where('status', 1)->where('category_id', $categoryId)->paginate(3);
+        // dd($blogs);
 
-        return view('frontend.materials.inconel.index', compact('grades'));
+        return view('frontend.materials.inconel.index', compact('blogs'));
     }
 
     public function titanium()
     {
-        $grades = [
-            ['name' => 'grade 1', 'slug' => 'grade-1'],
-            ['name' => 'grade 2', 'slug' => 'grade-2'],
-            ['name' => 'grade 4 eli', 'slug' => 'grade-4-eli'],
-            ['name' => 'grade 4', 'slug' => 'grade-4'],
-            ['name' => 'grade 5 eli', 'slug' => 'grade-5-eli'],
-            ['name' => 'grade 5', 'slug' => 'grade-5'],
-            ['name' => 'grade 7 nb', 'slug' => 'grade-7-nb'],
-            ['name' => 'grade 9', 'slug' => 'grade-9'],
-            ['name' => 'grade 12', 'slug' => 'grade-12'],
-            ['name' => 'grade 7', 'slug' => 'grade-7'],
-            ['name' => 'grade 23', 'slug' => 'grade-23'],
-        ];
+        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+        // dd($blogCategories);
+        $categoryId = $blogCategories->pluck('id')->first();
+        // dd($categoryId);
+        $blogs = Blog::where('status', 1)->where('category_id', $categoryId)->paginate(3);
+        // dd($blogs);
 
-        return view('frontend.materials.titanium.index', compact('grades'));
+        return view('frontend.materials.titanium.index', compact('blogs'));
     }
 
     public function aluminiumAlloys()
     {
-        $grades = [
-            ['name' => '6061 T6', 'slug' => 'aluminium-alloys-6061-t6'],
-            ['name' => '1100', 'slug' => 'aluminium-alloys-1100'],
-            ['name' => '1200', 'slug' => 'aluminium-alloys-1200'],
-            ['name' => '2014 T6', 'slug' => 'aluminium-alloys-2014-t6'],
-            ['name' => '5083', 'slug' => 'aluminium-alloys-5083'],
-            ['name' => '6012', 'slug' => 'aluminium-alloys-6012'],
-            ['name' => '6063', 'slug' => 'aluminium-alloys-6063'],
-            ['name' => '6082 T6', 'slug' => 'aluminium-alloys-6082-t6'],
-            ['name' => '7075', 'slug' => '-aluminium-alloys7075'],
-            ['name' => 'HE30', 'slug' => 'aluminium-alloys-he30'],
-        ];
+        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+        // dd($blogCategories);
+        $categoryId = $blogCategories->pluck('id')->first();
+        // dd($categoryId);
+        $blogs = Blog::where('status', 1)->where('category_id', $categoryId)->paginate(3);
+        // dd($blogs);
 
-        return view('frontend.materials.aluminium-alloys.index', compact('grades'));
+        return view('frontend.materials.aluminium-alloys.index', compact('blogs'));
     }
 
     public function superAusteniticStainlessSteel()
     {
-        $grades = [
-            ['name' => 'AL 6XN', 'slug' => 'super-austenitic-stainless-steel-al-6XN'],
-            ['name' => 'Alloy 926', 'slug' => 'super-austenitic-stainless-steel-alloy-926'],
-            ['name' => '253 MA', 'slug' => 'super-austenitic-stainless-steel-253-ma'],
-            ['name' => '904L', 'slug' => 'super-austenitic-stainless-steel-904l'],
-            ['name' => 'SMO 254', 'slug' => 'super-austenitic-stainless-steel-smo-254'],
-            ['name' => 'SMO 654', 'slug' => 'super-austenitic-stainless-steel-smo-654'],
-        ];
+         $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+        // dd($blogCategories);
+        $categoryId = $blogCategories->pluck('id')->first();
+        // dd($categoryId);
+        $blogs = Blog::where('status', 1)->where('category_id', $categoryId)->paginate(3);
+        // dd($blogs);
 
-        return view('frontend.materials.super-austenitic-stainless-steel.index', compact('grades'));
+        return view('frontend.materials.super-austenitic-stainless-steel.index', compact('blogs'));
     }
 
     public function hardToFindAndSpecialAlloys()
     {
-        $grades = [
-            ['name' => 'Carbide', 'slug' => 'hard-to-find-special-alloys-carbide'],
-            ['name' => 'Nimonic', 'slug' => 'hard-to-find-special-alloys-nimonic'],
-            ['name' => 'Nitinol', 'slug' => 'hard-to-find-special-alloys-nitinol'],
-            ['name' => 'Stellite', 'slug' => 'hard-to-find-special-alloys-stellite'],
-            ['name' => 'Tantalum', 'slug' => 'hard-to-find-special-alloys-tantalum'],
-            ['name' => 'Tungsten', 'slug' => 'hard-to-find-special-alloys-tungsten'],
+        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+        // dd($blogCategories);
+        $categoryId = $blogCategories->pluck('id')->first();
+        // dd($categoryId);
+        $blogs = Blog::where('status', 1)->where('category_id', $categoryId)->paginate(3);
+        // dd($blogs);
 
-        ];
-
-        return view('frontend.materials.hard-to-find-special-alloys.index', compact('grades'));
+        return view('frontend.materials.hard-to-find-special-alloys.index', compact('blogs'));
 
     }
 
     public function austeniticStainlessSteel()
     {
-        $grades = [
-            ['name' => 'Austenitic Stainless Steel 304', 'slug' => 'austenitic-stainless-steel-304'],
-            ['name' => 'Austenitic Stainless Steel 309', 'slug' => 'austenitic-stainless-steel-309'],
-            ['name' => 'Austenitic Stainless Steel 310', 'slug' => 'austenitic-stainless-steel-310'],
-            ['name' => 'Austenitic Stainless Steel 316', 'slug' => 'austenitic-stainless-steel-316'],
-            ['name' => 'Austenitic Stainless Steel 316Ti', 'slug' => 'austenitic-stainless-steel-316ti'],
-            ['name' => 'Austenitic Stainless Steel 317', 'slug' => 'austenitic-stainless-steel-317'],
-            ['name' => 'Austenitic Stainless Steel 321', 'slug' => 'austenitic-stainless-steel-321'],
-            ['name' => 'Austenitic Stainless Steel 347', 'slug' => 'austenitic-stainless-steel-347'],
-            ['name' => 'Austenitic Stainless Steel Nitronic 50', 'slug' => 'austenitic-stainless-steel-nitronic-50'],
-            ['name' => 'Austenitic Stainless Steel Nitronic 60', 'slug' => 'austenitic-stainless-steel-nitronic-60'],
-
-        ];
-
-        return view('frontend.materials.austenitic-stainless-steel.index', compact('grades'));
+       $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+        // dd($blogCategories);
+        $categoryId = $blogCategories->pluck('id')->first();
+        // dd($categoryId);
+        $blogs = Blog::where('status', 1)->where('category_id', $categoryId)->paginate(3);
+        // dd($blogs);
+        return view('frontend.materials.austenitic-stainless-steel.index', compact('blogs'));
 
     }
 
     public function engineeringSteels()
     {
-        $grades = [
-            ['name' => 'Engineering Steel 1045', 'slug' => 'engineering-steels-1045'],
-            ['name' => 'Engineering Steel 1055', 'slug' => 'engineering-steels-1055'],
-            ['name' => 'Engineering Steel 4130', 'slug' => 'engineering-steels-4130'],
-            ['name' => 'Engineering Steel 4140', 'slug' => 'engineering-steels-4140'],
-            ['name' => 'Engineering Steel 4340', 'slug' => 'engineering-steels-4340'],
-            ['name' => 'Engineering Steel EN8', 'slug' => 'engineering-steels-en8'],
-            ['name' => 'Engineering Steel EN9', 'slug' => 'engineering-steels-en9'],
-            ['name' => 'Engineering Steel EN19', 'slug' => 'engineering-steels-en19'],
-            ['name' => 'Engineering Steel EN24', 'slug' => 'engineering-steels-en24'],
-            ['name' => 'Engineering Steel EN31', 'slug' => 'engineering-steels-en31'],
-            ['name' => 'Engineering Steel EN36', 'slug' => 'engineering-steels-en36'],
-            ['name' => 'Engineering Steel EN47', 'slug' => 'engineering-steels-en47'],
-            ['name' => 'Engineering Steel D2', 'slug' => 'engineering-steels-d2'],
-            ['name' => 'Engineering Steel P1', 'slug' => 'engineering-steels-p1'],
-            ['name' => 'Engineering Steel P11', 'slug' => 'engineering-steels-p11'],
-            ['name' => 'Engineering Steel P12', 'slug' => 'engineering-steels-p12'],
-            ['name' => 'Engineering Steel P22', 'slug' => 'engineering-steels-p22'],
-        ];
+        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+        // dd($blogCategories);
+        $categoryId = $blogCategories->pluck('id')->first();
+        // dd($categoryId);
+        $blogs = Blog::where('status', 1)->where('category_id', $categoryId)->paginate(3);
+        // dd($blogs);
 
-        return view('frontend.materials.engineering-steels.index', compact('grades'));
+        return view('frontend.materials.engineering-steels.index', compact('blogs'));
     }
 
     public function engineeringSteelsGrade($slug)
@@ -453,70 +412,62 @@ class MainController extends Controller
 
     public function copperAlloys()
     {
-        $grades = [
-            ['name' => 'Copper Alloys Aluminium Bronze', 'slug' => 'copper-alloys-aluminium-bronze'],
-            ['name' => 'Copper Alloys Beryllium Copper', 'slug' => 'copper-alloys-beryllium-copper'],
-            ['name' => 'Copper Alloys C44300', 'slug' => 'copper-alloys-c44300'],
-            ['name' => 'Copper Alloys C46400', 'slug' => 'copper-alloys-c46400'],
-            ['name' => 'Copper Alloys C63000', 'slug' => 'copper-alloys-c63000'],
-            ['name' => 'Copper Alloys C71500', 'slug' => 'copper-alloys-c71500'],
-            ['name' => 'Copper Alloys C71520', 'slug' => 'copper-alloys-c71520'],
-            ['name' => 'Copper Alloys Cartridge Brass', 'slug' => 'copper-alloys-cartridge-brass'],
-            ['name' => 'Copper Alloys Cu Ni 70_30', 'slug' => 'copper-alloys-cu-ni-70-30'],
-            ['name' => 'Copper Alloys Cu Ni-90_10', 'slug' => 'copper-alloys-cu-ni-90-10'],
-            ['name' => 'Copper Alloys Ec Copper', 'slug' => 'copper-alloys-ec-copper'],
-            ['name' => 'Copper Alloys Etp Copper', 'slug' => 'copper-alloys-etp-copper'],
-            ['name' => 'Copper Alloys Navel Brass', 'slug' => 'copper-alloys-navel-brass'],
-        ];
+        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+        // dd($blogCategories);
+        $categoryId = $blogCategories->pluck('id')->first();
+        // dd($categoryId);
+        $blogs = Blog::where('status', 1)->where('category_id', $categoryId)->paginate(3);
+        // dd($blogs);
 
-        return view('frontend.materials.copper-alloys.index', compact('grades'));
+        return view('frontend.materials.copper-alloys.index', compact('blogs'));
     }
 
     public function zirconium()
     {
-        $grades = [
-            ['name' => 'Zirconium 702', 'slug' => 'zirconium-702'],
-            ['name' => 'Zirconium 704', 'slug' => 'zirconium-704'],
-            ['name' => 'Zirconium 705', 'slug' => 'zirconium-705'],
-        ];
+        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+        // dd($blogCategories);
+        $categoryId = $blogCategories->pluck('id')->first();
+        // dd($categoryId);
+        $blogs = Blog::where('status', 1)->where('category_id', $categoryId)->paginate(3);
+        // dd($blogs);
 
-        return view('frontend.materials.zirconium.index', compact('grades'));
+        return view('frontend.materials.zirconium.index', compact('blogs'));
     }
 
     public function haynesSuperalloys()
     {
-        $grades = [
-            ['name' => 'haynes-superalloys 160', 'slug' => 'haynes-superalloys-160'],
-            ['name' => 'haynes-superalloys 188', 'slug' => 'haynes-superalloys-188'],
-            ['name' => 'haynes-superalloys 230', 'slug' => 'haynes-superalloys-230'],
-            ['name' => 'haynes-superalloys 242', 'slug' => 'haynes-superalloys-242'],
-        ];
+        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+        // dd($blogCategories);
+        $categoryId = $blogCategories->pluck('id')->first();
+        // dd($categoryId);
+        $blogs = Blog::where('status', 1)->where('category_id', $categoryId)->paginate(3);
+        // dd($blogs);
 
-        return view('frontend.materials.haynes-superalloys.index', compact('grades'));
+        return view('frontend.materials.haynes-superalloys.index', compact('blogs'));
     }
 
     public function duplexAndSuperDuplex()
     {
-        $grades = [
-            // ['name' => 'haynes-superalloys 160', 'slug' => 'haynes-superalloys-160'],
-            // ['name' => 'haynes-superalloys 188', 'slug' => 'haynes-superalloys-188'],
-            // ['name' => 'haynes-superalloys 230', 'slug' => 'haynes-superalloys-230'],
-            // ['name' => 'haynes-superalloys 242', 'slug' => 'haynes-superalloys-242'],
-        ];
+        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+        // dd($blogCategories);
+        $categoryId = $blogCategories->pluck('id')->first();
+        // dd($categoryId);
+        $blogs = Blog::where('status', 1)->where('category_id', $categoryId)->paginate(3);
+        // dd($blogs);
 
-        return view('frontend.materials.duplex-and-super-duplex.index', compact('grades'));
+        return view('frontend.materials.duplex-and-super-duplex.index', compact('blogs'));
     }
 
     public function highStrengthStainlessSteel()
     {
-        $grades = [
-            // ['name' => 'haynes-superalloys 160', 'slug' => 'haynes-superalloys-160'],
-            // ['name' => 'haynes-superalloys 188', 'slug' => 'haynes-superalloys-188'],
-            // ['name' => 'haynes-superalloys 230', 'slug' => 'haynes-superalloys-230'],
-            // ['name' => 'haynes-superalloys 242', 'slug' => 'haynes-superalloys-242'],
-        ];
+        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+        // dd($blogCategories);
+        $categoryId = $blogCategories->pluck('id')->first();
+        // dd($categoryId);
+        $blogs = Blog::where('status', 1)->where('category_id', $categoryId)->paginate(3);
+        // dd($blogs);
 
-        return view('frontend.materials.high-strength-stainless-steel.index', compact('grades'));
+        return view('frontend.materials.high-strength-stainless-steel.index', compact('blogs'));
     }
 
     public function showMaterialGrade($family, $grade)
@@ -553,16 +504,14 @@ class MainController extends Controller
     // 1st Product pipes & tubes
     public function pipesTubes()
     {
-        $types = [
-            ['name' => 'Welded Pipes', 'slug' => 'welded-pipes'],
-            ['name' => 'Seamless Pipes', 'slug' => 'seamless-pipes'],
-            ['name' => 'Capillaries', 'slug' => 'capillaries'],
-            ['name' => 'Hollow Section Pipe', 'slug' => 'hollow-section-pipe'],
-            ['name' => 'U-Bent Tubes', 'slug' => 'u-bent-tubes'],
-            ['name' => 'Boiler & Heat Exchanger Tubes', 'slug' => 'boiler-heat-exchanger-tubes'],
-        ];
+        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+        // dd($blogCategories);
+        $categoryId = $blogCategories->pluck('id')->first();
+        // dd($categoryId);
+        $blogs = Blog::where('status', 1)->where('category_id', $categoryId)->paginate(3);
+        // dd($blogs);
 
-        return view('frontend.products.pipes-tubes.index', compact('types'));
+        return view('frontend.products.pipes-tubes.index', compact('blogs'));
     }
 
     public function weldedPipes()
@@ -598,16 +547,14 @@ class MainController extends Controller
     // Special Fabricated Product
     public function specialFabricated()
     {
-        $types = [
-            ['name' => 'Custom Steel Furniture', 'slug' => 'custom-steel-furniture'],
-            ['name' => 'Fabricated SS Grills', 'slug' => 'fabricated-ss-grills'],
-            // ['name' => 'Capillaries', 'slug' => 'capillaries'],
-            // ['name' => 'Hollow Section Pipe', 'slug' => 'hollow-section-pipe'],
-            // ['name' => 'U-Bent Tubes', 'slug' => 'u-bent-tubes'],
-            // ['name' => 'Boiler & Heat Exchanger Tubes', 'slug' => 'boiler-heat-exchanger-tubes'],
-        ];
+         $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+        // dd($blogCategories);
+        $categoryId = $blogCategories->pluck('id')->first();
+        // dd($categoryId);
+        $blogs = Blog::where('status', 1)->where('category_id', $categoryId)->paginate(3);
+        // dd($blogs);
 
-        return view('frontend.products.special-fabricated.index', compact('types'));
+        return view('frontend.products.special-fabricated.index', compact('blogs'));
     }
 
     public function customSteelFurniture()
@@ -632,16 +579,14 @@ class MainController extends Controller
 
     public function pipeFittingsFlangesFasteners()
     {
-        $types = [
-            ['name' => 'Custom Steel Furniture', 'slug' => 'custom-steel-furniture'],
-            ['name' => 'Fabricated SS Grills', 'slug' => 'fabricated-ss-grills'],
-            ['name' => 'Custom Fabricated Fittings', 'slug' => 'custom-fabricated-fittings'],
-            // ['name' => 'Hollow Section Pipe', 'slug' => 'hollow-section-pipe'],
-            // ['name' => 'U-Bent Tubes', 'slug' => 'u-bent-tubes'],
-            // ['name' => 'Boiler & Heat Exchanger Tubes', 'slug' => 'boiler-heat-exchanger-tubes'],
-        ];
+        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+        // dd($blogCategories);
+        $categoryId = $blogCategories->pluck('id')->first();
+        // dd($categoryId);
+        $blogs = Blog::where('status', 1)->where('category_id', $categoryId)->paginate(3);
+        // dd($blogs);
 
-        return view('frontend.products.pipe-fittings-flanges-fasteners.index', compact('types'));
+        return view('frontend.products.pipe-fittings-flanges-fasteners.index', compact('blogs'));
     }
 
     public function fittingsAndFlanges()
@@ -671,16 +616,14 @@ class MainController extends Controller
 
     public function barsRods()
     {
-        $types = [
-            ['name' => 'Square Bars', 'slug' => 'square-bars'],
-            ['name' => 'Threaded Rods', 'slug' => 'threaded-rods'],
-            // ['name' => 'Capillaries', 'slug' => 'capillaries'],
-            // ['name' => 'Hollow Section Pipe', 'slug' => 'hollow-section-pipe'],
-            // ['name' => 'U-Bent Tubes', 'slug' => 'u-bent-tubes'],
-            // ['name' => 'Boiler & Heat Exchanger Tubes', 'slug' => 'boiler-heat-exchanger-tubes'],
-        ];
+        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+        // dd($blogCategories);
+        $categoryId = $blogCategories->pluck('id')->first();
+        // dd($categoryId);
+        $blogs = Blog::where('status', 1)->where('category_id', $categoryId)->paginate(3);
+        // dd($blogs);
 
-        return view('frontend.products.bars-rods.index', compact('types'));
+        return view('frontend.products.bars-rods.index', compact('blogs'));
     }
 
     public function squareBars()
@@ -715,16 +658,13 @@ class MainController extends Controller
 
     public function sheetsPlatesCoils()
     {
-        $types = [
-            ['name' => 'Custom Steel Furniture', 'slug' => 'custom-steel-furniture'],
-            ['name' => 'Fabricated SS Grills', 'slug' => 'fabricated-ss-grills'],
-            ['name' => 'Custom Fabricated Fittings', 'slug' => 'custom-fabricated-fittings'],
-            // ['name' => 'Hollow Section Pipe', 'slug' => 'hollow-section-pipe'],
-            // ['name' => 'U-Bent Tubes', 'slug' => 'u-bent-tubes'],
-            // ['name' => 'Boiler & Heat Exchanger Tubes', 'slug' => 'boiler-heat-exchanger-tubes'],
-        ];
-
-        return view('frontend.products.sheets-plates-coils.index', compact('types'));
+        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+        // dd($blogCategories);
+        $categoryId = $blogCategories->pluck('id')->first();
+        // dd($categoryId);
+        $blogs = Blog::where('status', 1)->where('category_id', $categoryId)->paginate(3);
+        // dd($blogs);
+        return view('frontend.products.sheets-plates-coils.index', compact('blogs'));
     }
 
     public function chequeredSheets()

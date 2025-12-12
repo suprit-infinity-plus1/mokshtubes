@@ -1,8 +1,10 @@
 @extends('layouts.master')
 @section('title', 'Bars & Rods – Round, Square, Hex & Flat') <!-- 52 characters -->
-@section('meta_description', 'Moksh Tubes offers premium Bars & Rods – Round, Square, Hex, Flat & Threaded in SS, Alloy
+@section('meta_description',
+    'Moksh Tubes offers premium Bars & Rods – Round, Square, Hex, Flat & Threaded in SS, Alloy
     & Duplex grades with worldwide delivery.') <!-- 153 characters -->
-@section('meta_keywords', 'Bars & Rods, Round Bars, Square Bars, Hex Bars, Flat Bars, Threaded Rods, Stainless Steel
+@section('meta_keywords',
+    'Bars & Rods, Round Bars, Square Bars, Hex Bars, Flat Bars, Threaded Rods, Stainless Steel
     Rods, Alloy Bars, Duplex Bars')
 @section('content')
     <!--Start breadcrumb area-->
@@ -62,23 +64,75 @@
 
                 @foreach ($types as $type)
                     <div class="col-12 col-sm-6 col-lg-4">
-    <a href="{{ url('/products/bars-rods/' . $type['slug']) }}" class="text-decoration-none d-block h-100">
-        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
-             style="border-color: #db7227; transition: 0.3s;">
+                        <a href="{{ url('/products/bars-rods/' . $type['slug']) }}"
+                            class="text-decoration-none d-block h-100">
+                            <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                                style="border-color: #db7227; transition: 0.3s;">
 
-            <img src="{{ asset($type['image'] ?? 'assets/images/default.webp') }}"
-                 alt="{{ $type['name'] }}"
-                 class="img-fluid rounded mb-3"
-                 style="border-radius: 8px;">
+                                <img src="{{ asset($type['image'] ?? 'assets/images/default.webp') }}"
+                                    alt="{{ $type['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;">
 
-            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
-                style="background-color: #174268; color: #fff; display: inline-block;">
-                {{ $type['name'] }}
-            </h6>
+                                <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                    style="background-color: #174268; color: #fff; display: inline-block;">
+                                    {{ $type['name'] }}
+                                </h6>
+                            </div>
+                        </a>
+                    </div>
+                @endforeach
+            </div>
         </div>
-    </a>
-</div>
+    </section>
 
+     <section class="blog-section sec-padd2">
+        <div class="container">
+            <div class="section-title">
+                <h2>blogs</h2>
+            </div>
+            <div class="row">
+                @foreach ($blogs as $blog)
+                    {{-- {{ dd($blog) }} --}}
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="default-blog-news wow fadeInUp animated">
+
+                            <figure class="img-holder mb-0">
+                                <a href="{{ route('frontend.single-blog', $blog->slug) }}">
+                                    <img src="{{ asset('storage/' . $blog->cover_image) }}" alt="{{ $blog->title }}"
+                                        loading="lazy">
+                                </a>
+                                <figcaption class="overlay">
+                                    <div class="box">
+                                        <div class="content">
+                                            <a href="{{ route('frontend.single-blog', $blog->slug) }}">
+                                                <i class="fa fa-link" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                            <div class="lower-content">
+                                <a href="{{ route('frontend.single-blog', $blog->slug) }}">
+                                    <h5>{{ Str::limit($blog->title, 30) }}</h5>
+                                </a>
+
+                                <div class="post-meta">
+                                    by {{ $blog->author ?? 'Admin' }} |
+                                    {{ $blog->created_at->format('F d, Y') }}
+                                </div>
+
+                                <!--<div class="text">-->
+                                <!--</div>-->
+                                {!! \Str::limit(strip_tags($blog->content, '<i>'), 120) !!}
+
+                                <div class="link">
+                                    <a href="{{ route('frontend.single-blog', $blog->slug) }}" class="default_link">
+                                        Read More <i class="fa fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                 @endforeach
             </div>
         </div>
