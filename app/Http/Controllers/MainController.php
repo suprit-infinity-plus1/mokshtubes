@@ -281,7 +281,7 @@ class MainController extends Controller
 
     public function monel()
     {
-         $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+         $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%monel%')->get();
         // dd($blogCategories);
         $categoryId = $blogCategories->pluck('id')->first();
         // dd($categoryId);
@@ -293,7 +293,7 @@ class MainController extends Controller
 
     public function incoloy()
     {
-        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%incoloy%')->get();
         // dd($blogCategories);
         $categoryId = $blogCategories->pluck('id')->first();
         // dd($categoryId);
@@ -305,7 +305,7 @@ class MainController extends Controller
 
     public function nickelBasedSuperalloys()
     {
-       $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+       $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%nickelBasedSuperalloys%')->get();
         // dd($blogCategories);
         $categoryId = $blogCategories->pluck('id')->first();
         // dd($categoryId);
@@ -316,7 +316,7 @@ class MainController extends Controller
 
     public function inconel()
     {
-       $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+       $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%inconel%')->get();
         // dd($blogCategories);
         $categoryId = $blogCategories->pluck('id')->first();
         // dd($categoryId);
@@ -328,7 +328,7 @@ class MainController extends Controller
 
     public function titanium()
     {
-        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%titanium%')->get();
         // dd($blogCategories);
         $categoryId = $blogCategories->pluck('id')->first();
         // dd($categoryId);
@@ -340,7 +340,7 @@ class MainController extends Controller
 
     public function aluminiumAlloys()
     {
-        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%aluminiumAlloys%')->get();
         // dd($blogCategories);
         $categoryId = $blogCategories->pluck('id')->first();
         // dd($categoryId);
@@ -352,7 +352,7 @@ class MainController extends Controller
 
     public function superAusteniticStainlessSteel()
     {
-         $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+         $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%superAusteniticStainlessSteel%')->get();
         // dd($blogCategories);
         $categoryId = $blogCategories->pluck('id')->first();
         // dd($categoryId);
@@ -364,7 +364,7 @@ class MainController extends Controller
 
     public function hardToFindAndSpecialAlloys()
     {
-        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%hardToFindAndSpecialAlloys%')->get();
         // dd($blogCategories);
         $categoryId = $blogCategories->pluck('id')->first();
         // dd($categoryId);
@@ -377,7 +377,7 @@ class MainController extends Controller
 
     public function austeniticStainlessSteel()
     {
-       $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+       $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%austeniticStainlessSteel%')->get();
         // dd($blogCategories);
         $categoryId = $blogCategories->pluck('id')->first();
         // dd($categoryId);
@@ -389,7 +389,7 @@ class MainController extends Controller
 
     public function engineeringSteels()
     {
-        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%engineeringSteels%')->get();
         // dd($blogCategories);
         $categoryId = $blogCategories->pluck('id')->first();
         // dd($categoryId);
@@ -412,7 +412,7 @@ class MainController extends Controller
 
     public function copperAlloys()
     {
-        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%copperAlloys%')->get();
         // dd($blogCategories);
         $categoryId = $blogCategories->pluck('id')->first();
         // dd($categoryId);
@@ -424,7 +424,7 @@ class MainController extends Controller
 
     public function zirconium()
     {
-        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%zirconium%')->get();
         // dd($blogCategories);
         $categoryId = $blogCategories->pluck('id')->first();
         // dd($categoryId);
@@ -436,7 +436,7 @@ class MainController extends Controller
 
     public function haynesSuperalloys()
     {
-        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%haynesSuperalloys%')->get();
         // dd($blogCategories);
         $categoryId = $blogCategories->pluck('id')->first();
         // dd($categoryId);
@@ -448,7 +448,7 @@ class MainController extends Controller
 
     public function duplexAndSuperDuplex()
     {
-        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%duplex-and-super-duplex%')->get();
         // dd($blogCategories);
         $categoryId = $blogCategories->pluck('id')->first();
         // dd($categoryId);
@@ -460,7 +460,7 @@ class MainController extends Controller
 
     public function highStrengthStainlessSteel()
     {
-        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%highStrengthStainlessSteel%')->get();
         // dd($blogCategories);
         $categoryId = $blogCategories->pluck('id')->first();
         // dd($categoryId);
@@ -504,7 +504,7 @@ class MainController extends Controller
     // 1st Product pipes & tubes
     public function pipesTubes()
     {
-        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%pipesTubes%')->get();
         // dd($blogCategories);
         $categoryId = $blogCategories->pluck('id')->first();
         // dd($categoryId);
@@ -547,7 +547,7 @@ class MainController extends Controller
     // Special Fabricated Product
     public function specialFabricated()
     {
-         $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+         $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%specialFabricated%')->get();
         // dd($blogCategories);
         $categoryId = $blogCategories->pluck('id')->first();
         // dd($categoryId);
@@ -579,7 +579,7 @@ class MainController extends Controller
 
     public function pipeFittingsFlangesFasteners()
     {
-        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%pipeFittingsFlangesFasteners%')->get();
         // dd($blogCategories);
         $categoryId = $blogCategories->pluck('id')->first();
         // dd($categoryId);
@@ -616,7 +616,7 @@ class MainController extends Controller
 
     public function barsRods()
     {
-        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%barsRods%')->get();
         // dd($blogCategories);
         $categoryId = $blogCategories->pluck('id')->first();
         // dd($categoryId);
@@ -658,7 +658,7 @@ class MainController extends Controller
 
     public function sheetsPlatesCoils()
     {
-        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%Hastelloy%')->get();
+        $blogCategories = BlogCategory::where('status', 1)->where('name', 'like', '%sheetsPlatesCoils%')->get();
         // dd($blogCategories);
         $categoryId = $blogCategories->pluck('id')->first();
         // dd($categoryId);
