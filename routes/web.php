@@ -29,7 +29,6 @@ Route::get('/blogs', [MainController::class, 'blogs'])->name('blogs');
 Route::get('/blogs/{slug}', [MainController::class, 'specificBlog'])->name('frontend.single-blog');
 Route::post('/lead-capture', [DatasheetLeadController::class, 'store'])->name('lead.capture');
 
-
 Route::get('/materials/hastelloy', [MainController::class, 'hastelloy'])->name('materials.hastelloy');
 Route::get('/materials/hastelloy/{slug}', [MainController::class, 'hastelloyGrade'])->name('materials.hastelloy.grade');
 Route::get('/materials/monel', [MainController::class, 'monel'])->name('materials.monel');
@@ -51,7 +50,7 @@ Route::get('/materials/duplex-and-super-duplex', [MainController::class, 'duplex
 Route::get('/materials/high-strength-stainless-steel', [MainController::class, 'highStrengthStainlessSteel'])->name('materials.high-strength-stainless-steel');
 
 // Route::get('/materials/{family}/{grade}', [MainController::class, 'showMaterialGrade'])->name('material.grade');
-Route::get('/materials/{category}/{slug}', [MainController::class, 'showMaterial'])->name('materials.grade');
+// Route::get('/materials/{category}/{slug}', [MainController::class, 'showMaterial'])->name('materials.grade');
 Route::get('/products', [MainController::class, 'products'])->name('products');
 Route::get('/products/pipes-tubes', [MainController::class, 'pipesTubes'])->name('products.pipes-tubes');
 Route::get('/products/pipes-tubes/welded-pipes-and-tubes', [MainController::class, 'weldedPipes'])->name('products.pipes-tubes.welded-pipes');

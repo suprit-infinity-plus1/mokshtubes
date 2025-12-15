@@ -1,15 +1,18 @@
 @extends('layouts.master')
 
 @section('title', 'Super Austenitic Stainless Steel – 904L & SMO 254') <!-- 52 chars -->
-@section('meta_description', 'Premium super austenitic stainless steels 904L, SMO 254 & Alloy 926 from Mokshtubes — chloride-resistant, strong & chemically durable.')
-@section('meta_keywords', 'Super Austenitic Stainless Steel, 904L, SMO 254, Alloy 926, Chloride Resistant Alloy,
+@section('meta_description', 'Premium super austenitic stainless steels 904L, SMO 254 & Alloy 926 from Mokshtubes —
+    chloride-resistant, strong & chemically durable.')
+@section('meta_keywords',
+    'Super Austenitic Stainless Steel, 904L, SMO 254, Alloy 926, Chloride Resistant Alloy,
     Corrosion Resistant Alloy, Chemical Processing Alloys, Marine Industry Alloys, High Strength Stainless Steel, Industrial
     Stainless Steel Alloys')
 
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/super-austenitic-stainless-steel/stainless-steel-banner.webp);">
+    <section class="breadcrumb-area"
+        style="background-image: url(/assets/images/super-austenitic-stainless-steel/stainless-steel-banner.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -102,59 +105,61 @@
 
 
 
-     <section class="blog-section sec-padd2">
-        <div class="container">
-            <div class="section-title">
-                <h2>blogs</h2>
-            </div>
-            <div class="row">
-                @foreach ($blogs as $blog)
-                    {{-- {{ dd($blog) }} --}}
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="default-blog-news wow fadeInUp animated">
+    @if ($blogs->count() > 0)
+        <section class="blog-section sec-padd2">
+            <div class="container">
+                <div class="section-title">
+                    <h2>blogs</h2>
+                </div>
+                <div class="row">
+                    @foreach ($blogs as $blog)
+                        {{-- {{ dd($blog) }} --}}
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="default-blog-news wow fadeInUp animated">
 
-                            <figure class="img-holder mb-0">
-                                <a href="{{ route('frontend.single-blog', $blog->slug) }}">
-                                    <img src="{{ asset('storage/' . $blog->cover_image) }}" alt="{{ $blog->title }}"
-                                        loading="lazy">
-                                </a>
-                                <figcaption class="overlay">
-                                    <div class="box">
-                                        <div class="content">
-                                            <a href="{{ route('frontend.single-blog', $blog->slug) }}">
-                                                <i class="fa fa-link" aria-hidden="true"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                            <div class="lower-content">
-                                <a href="{{ route('frontend.single-blog', $blog->slug) }}">
-                                    <h5>{{ Str::limit($blog->title, 30) }}</h5>
-                                </a>
-
-                                <div class="post-meta">
-                                    by {{ $blog->author ?? 'Admin' }} |
-                                    {{ $blog->created_at->format('F d, Y') }}
-                                </div>
-
-                                <!--<div class="text">-->
-                                <!--</div>-->
-                                {!! \Str::limit(strip_tags($blog->content, '<i>'), 120) !!}
-
-                                <div class="link">
-                                    <a href="{{ route('frontend.single-blog', $blog->slug) }}" class="default_link">
-                                        Read More <i class="fa fa-angle-right"></i>
+                                <figure class="img-holder mb-0">
+                                    <a href="{{ route('frontend.single-blog', $blog->slug) }}">
+                                        <img src="{{ asset('storage/' . $blog->cover_image) }}" alt="{{ $blog->title }}"
+                                            loading="lazy">
                                     </a>
-                                </div>
-                            </div>
+                                    <figcaption class="overlay">
+                                        <div class="box">
+                                            <div class="content">
+                                                <a href="{{ route('frontend.single-blog', $blog->slug) }}">
+                                                    <i class="fa fa-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                                <div class="lower-content">
+                                    <a href="{{ route('frontend.single-blog', $blog->slug) }}">
+                                        <h5>{{ Str::limit($blog->title, 30) }}</h5>
+                                    </a>
 
+                                    <div class="post-meta">
+                                        by {{ $blog->author ?? 'Admin' }} |
+                                        {{ $blog->created_at->format('F d, Y') }}
+                                    </div>
+
+                                    <!--<div class="text">-->
+                                    <!--</div>-->
+                                    {!! \Str::limit(strip_tags($blog->content, '<i>'), 120) !!}
+
+                                    <div class="link">
+                                        <a href="{{ route('frontend.single-blog', $blog->slug) }}" class="default_link">
+                                            Read More <i class="fa fa-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
-                    </div>
-                @endforeach
+                    @endforeach
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    @endif
 
     <!--End breadcrumb area-->
 

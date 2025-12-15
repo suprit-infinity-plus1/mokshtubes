@@ -3,15 +3,24 @@
 
 <head>
     <meta charset="UTF-8">
-<!-- Google Tag Manager -->
-<script>
-(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id=GTM-PT5QP6JV'+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-PT5QP6JV');
-</script>
-<!-- End Google Tag Manager -->
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=GTM-PT5QP6JV' + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PT5QP6JV');
+    </script>
+    <!-- End Google Tag Manager -->
 
 
     {{-- Dynamic Page Title --}}
@@ -62,8 +71,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         crossorigin="anonymous" referrerpolicy="no-referrer" /> --}}
     <!-- Favicon -->
     {{-- <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/images/favicon/apple-touch-icon.png') }}"> --}}
-    <link rel="icon" type="image/png" href="{{ asset('assets/images/favicon/logo-moksh-32x32.png') }}" sizes="32x32">
-    <link rel="icon" type="image/png" href="{{ asset('assets/images/favicon/logo-moksh-16x16.png') }}" sizes="16x16">
+    <link rel="icon" type="image/png" href="{{ asset('assets/images/favicon/logo-moksh-32x32.png') }}"
+        sizes="32x32">
+    <link rel="icon" type="image/png" href="{{ asset('assets/images/favicon/logo-moksh-16x16.png') }}"
+        sizes="16x16">
 
     <!-- Fixing Internet Explorer-->
     <!--[if lt IE 9]>
@@ -93,12 +104,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         .nav-link:focus-visible {
             box-shadow: none !important;
         }
-
     </style>
     @stack('styles')
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css">
 
-{{-- <script type="application/ld+json">
+    {{-- <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Organization",
@@ -141,10 +151,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <body>
 
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PT5QP6JV"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PT5QP6JV" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
 
     <div class="">
@@ -313,20 +323,43 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div> -->
         </header>
         <!--End header area-->
-  <!--Start of Tawk.to Script-->
 
+
+        <!--Start of Tawk.to Script-->
         <script type="text/javascript">
-        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-        (function(){
-        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-        s1.async=true;
-        s1.src='https://embed.tawk.to/692d953abb2f8419802db9ae/1jbd0trj6';
-        s1.charset='UTF-8';
-        s1.setAttribute('crossorigin','*');
-        s0.parentNode.insertBefore(s1,s0);
-        })();
+            var Tawk_API = Tawk_API || {},
+
+                Tawk_LoadStart = new Date();
+            (function() {
+                var s1 = document.createElement("script"),
+                    s0 = document.getElementsByTagName("script")[0];
+                s1.async = true;
+                s1.src = 'https://embed.tawk.to/692d953abb2f8419802db9ae/1jbd0trj6';
+                s1.charset = 'UTF-8';
+                s1.setAttribute('crossorigin', '*');
+                s0.parentNode.insertBefore(s1, s0);
+            })();
+        </script>
+        <script type="text/javascript">
+            var Tawk_API = Tawk_API || {};
+            Tawk_API.customStyle = {
+                visibility: {
+                    desktop: {
+                        position: 'br', // bottom-right
+                        xOffset: 18,
+                        yOffset: 80 // ⬆ moves it UP
+                    },
+                    mobile: {
+                        position: 'br',
+                        xOffset: 10,
+                        yOffset: 70
+                    }
+                }
+            };
         </script>
         <!--End of Tawk.to Script-->
+
+
         <!--Start mainmenu area-->
         <section class="mainmenu-area stricky mainmenu-area-headers">
             <div class="container-xl">
@@ -336,7 +369,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                             <nav class="main-menu navbar navbar-expand-lg">
                                 <div class="navbar-header">
-                                    <button type="button" class="navbar-toggler ms-3 rounded-0 border-0" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
+                                    <button type="button" class="navbar-toggler ms-3 rounded-0 border-0"
+                                        data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
                                         <span class="navbar-toggler-icon"></span>
                                     </button>
                                 </div>
@@ -348,28 +382,31 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                 Us</a></li>
                                         {{-- <li class="nav-item dropdown"><a class="nav-link"
                                                 href="{{ url('/products') }}" data-bs-toggle="dropdown">Products</a></li> --}}
-                                        <li class="nav-item dropdown"><a class="nav-link" href="{{ route('products') }}">Products</a>
-                                            <ul class="dropdown-menu" style="display: none; overflow-x: auto; padding-top: 12px; margin-top: 0px; padding-bottom: 12px; margin-bottom: 0px;">
+                                        <li class="nav-item dropdown"><a class="nav-link"
+                                                href="{{ route('products') }}">Products</a>
+                                            <ul class="dropdown-menu"
+                                                style="display: none; overflow-x: auto; padding-top: 12px; margin-top: 0px; padding-bottom: 12px; margin-bottom: 0px;">
 
                                                 @php
-                                                $productCategories = [
-                                                'Pipes & Tubes',
-                                                'Sheets, Plates & Coils',
-                                                'Bars & Rods',
-                                                'Pipe Fittings, Flanges & Fasteners',
-                                                'Special Fabricated',
-                                                ];
+                                                    $productCategories = [
+                                                        'Pipes & Tubes',
+                                                        'Sheets, Plates & Coils',
+                                                        'Bars & Rods',
+                                                        'Pipe Fittings, Flanges & Fasteners',
+                                                        'Special Fabricated',
+                                                    ];
                                                 @endphp
 
                                                 @foreach ($productCategories as $category)
-                                                @php
-                                                $slug = Str::slug($category); // Pipes & Tubes → pipes-tubes
-                                                @endphp
-                                                <li>
-                                                    <a class="dropdown-item text-wrap" href="{{ url('/products/' . $slug) }}">
-                                                        {{ $category }}
-                                                    </a>
-                                                </li>
+                                                    @php
+                                                        $slug = Str::slug($category); // Pipes & Tubes → pipes-tubes
+                                                    @endphp
+                                                    <li>
+                                                        <a class="dropdown-item text-wrap"
+                                                            href="{{ url('/products/' . $slug) }}">
+                                                            {{ $category }}
+                                                        </a>
+                                                    </li>
                                                 @endforeach
                                             </ul>
                                         </li>
@@ -377,38 +414,40 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                                         <li class="nav-item dropdown ">
                                             <a class="nav-link" href="{{ route('materials') }}">Materials</a>
-                                            <ul class="dropdown-menu" style="display: none; overflow-x: auto; padding-top: 12px; margin-top: 0px; padding-bottom: 12px; margin-bottom: 0px;">
+                                            <ul class="dropdown-menu"
+                                                style="display: none; overflow-x: auto; padding-top: 12px; margin-top: 0px; padding-bottom: 12px; margin-bottom: 0px;">
 
                                                 @php
-                                                $materials = [
-                                                'Hastelloy',
-                                                'Monel',
-                                                'Inconel',
-                                                'Incoloy',
-                                                'Nickel Based Superalloys',
-                                                'Titanium',
-                                                'Duplex and Super Duplex',
-                                                'Austenitic Stainless Steel',
-                                                'High Strength Stainless Steel',
-                                                'Super Austenitic Stainless Steel',
-                                                'Zirconium',
-                                                'Engineering Steels',
-                                                'Aluminium Alloys',
-                                                'Copper Alloys',
-                                                'Hard To Find & Special Alloys',
-                                                'Haynes Superalloys',
-                                                ];
+                                                    $materials = [
+                                                        'Hastelloy',
+                                                        'Monel',
+                                                        'Inconel',
+                                                        'Incoloy',
+                                                        'Nickel Based Superalloys',
+                                                        'Titanium',
+                                                        'Duplex and Super Duplex',
+                                                        'Austenitic Stainless Steel',
+                                                        'High Strength Stainless Steel',
+                                                        'Super Austenitic Stainless Steel',
+                                                        'Zirconium',
+                                                        'Engineering Steels',
+                                                        'Aluminium Alloys',
+                                                        'Copper Alloys',
+                                                        'Hard To Find & Special Alloys',
+                                                        'Haynes Superalloys',
+                                                    ];
                                                 @endphp
 
                                                 @foreach ($materials as $material)
-                                                @php
-                                                $slug = Str::slug($material);
-                                                @endphp
-                                                <li>
-                                                    <a class="dropdown-item text-wrap" href="{{ url('/materials/' . $slug) }}">
-                                                        {{ $material }}
-                                                    </a>
-                                                </li>
+                                                    @php
+                                                        $slug = Str::slug($material);
+                                                    @endphp
+                                                    <li>
+                                                        <a class="dropdown-item text-wrap"
+                                                            href="{{ url('/materials/' . $slug) }}">
+                                                            {{ $material }}
+                                                        </a>
+                                                    </li>
                                                 @endforeach
 
                                             </ul>
@@ -416,8 +455,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
                                         <li class="nav-item"><a class="nav-link" href="#">Quality</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="{{ route('calculator') }}">Calculator</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="{{ route('blogs') }}">Blogs</a></li>
+                                        <li class="nav-item"><a class="nav-link"
+                                                href="{{ route('calculator') }}">Calculator</a></li>
+                                        <li class="nav-item"><a class="nav-link"
+                                                href="{{ route('blogs') }}">Blogs</a></li>
                                     </ul>
                                     <ul class="mobile-menu clearfix">
                                         <li><a href="{{ route('home') }}">Home</a></li>
@@ -446,7 +487,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                 <li><a href="{{ route('materials.titanium') }}">Titanium</a></li>
                                                 <li><a href="{{ route('materials.aluminium-Alloys') }}">Aluminium
                                                         Alloys</a></li>
-                                                <li><a href="{{ route('materials.super-Austenitic-Stainless-Steel') }}">Super
+                                                <li><a
+                                                        href="{{ route('materials.super-Austenitic-Stainless-Steel') }}">Super
                                                         Austenitic Stainless Steel</a></li>
                                                 <li><a href="{{ route('materials.hard-To-Find-Special-Alloys') }}">Hard
                                                         To Find Special Alloys</a></li>
@@ -509,17 +551,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     best and economical. </p>
                                 <ul class="list-inline footer-social mb-0">
                                     <li class="list-inline-item">
-                                        <a href="https://www.facebook.com/mokshtubes/" target="_blank" rel="noopener">
+                                        <a href="https://www.facebook.com/mokshtubes/" target="_blank"
+                                            rel="noopener">
                                             <i class="fab fa-facebook-f"></i>
                                         </a>
                                     </li>
                                     <li class="list-inline-item">
-                                        <a href="https://www.instagram.com/mokshtubesandfittingsllp?igsh=YjN6d3B4MzlnNDc1&utm_source=qr" target="_blank" rel="noopener">
+                                        <a href="https://www.instagram.com/mokshtubesandfittingsllp?igsh=YjN6d3B4MzlnNDc1&utm_source=qr"
+                                            target="_blank" rel="noopener">
                                             <i class="fab fa-instagram"></i>
                                         </a>
                                     </li>
                                     <li class="list-inline-item">
-                                        <a href="https://www.linkedin.com/company/moksh-tubes/?viewAsMember=true" target="_blank" rel="noopener">
+                                        <a href="https://www.linkedin.com/company/moksh-tubes/?viewAsMember=true"
+                                            target="_blank" rel="noopener">
                                             <i class="fab fa-linkedin-in"></i>
                                         </a>
                                     </li>
@@ -546,7 +591,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     <li><a href="{{ route('products.sheets-plates-coils.perforated-sheets') }}">PERFORATED
                                             SHEETS</a></li>
                                     <li><a href="{{ route('products.bars-rods.round-bars') }}">ROUND BARS</a></li>
-                                    <li><a href="{{ route('products.pipe-fittings-flanges-fasteners') }}">FASTENERS</a>
+                                    <li><a
+                                            href="{{ route('products.pipe-fittings-flanges-fasteners') }}">FASTENERS</a>
                                     </li>
                                 </ul>
                             </div>
@@ -558,11 +604,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <h3 class="footer-title">Areas We Serve</h3>
                                 <ul class="footer-list">
                                     <li><a href="{{ route('products.pipes-tubes') }}">PIPES</a></li>
-                                    <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.pipe-fittings') }}">FITTINGS</a>
+                                    <li><a
+                                            href="{{ route('products.pipe-fittings-flanges-fasteners.pipe-fittings') }}">FITTINGS</a>
                                     </li>
-                                    <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.fittings-and-flanges') }}">FLANGES</a>
+                                    <li><a
+                                            href="{{ route('products.pipe-fittings-flanges-fasteners.fittings-and-flanges') }}">FLANGES</a>
                                     </li>
-                                    <li><a href="{{ route('products.pipe-fittings-flanges-fasteners') }}">FASTENERS</a>
+                                    <li><a
+                                            href="{{ route('products.pipe-fittings-flanges-fasteners') }}">FASTENERS</a>
                                     </li>
                                     <li><a href="">STEEL</a></li>
                                 </ul>
@@ -684,11 +733,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <ul class="nav">
                                     <li class="nav-item"><a class="nav-link" href="{{ route('home') }}">home</a>
                                     </li>
-                                    <li class="nav-item"><a class="nav-link" href="{{ route('products') }}">Products</a></li>
+                                    <li class="nav-item"><a class="nav-link"
+                                            href="{{ route('products') }}">Products</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#">term &amp; condition</a>
                                     </li>
                                     <li class="nav-item"><a class="nav-link" href="#">privacy policy</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="{{ route('contact-us') }}">contact us</a></li>
+                                    <li class="nav-item"><a class="nav-link"
+                                            href="{{ route('contact-us') }}">contact us</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -700,7 +751,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-        <div class="whatsapp-btn-container" style="
+        <div class="whatsapp-btn-container"
+            style="
                     display: flex;
                     align-items: center;
                     justify-content: center;
@@ -721,41 +773,49 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         <!-- Contact Form Modal -->
         <!-- Contact Form Modal -->
-        <div class="modal fade" id="contactFormModal" tabindex="-1" role="dialog" aria-labelledby="contactFormModalLabel" aria-hidden="true" style="z-index: 2000;">
+        <div class="modal fade" id="contactFormModal" tabindex="-1" role="dialog"
+            aria-labelledby="contactFormModalLabel" aria-hidden="true" style="z-index: 2000;">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content p-3" style="z-index:2001;">
 
                     <!-- Modal Header -->
                     <div class="modal-header">
                         <h5 class="modal-title fw-bold fs-3" id="contactFormModalLabel">Get in Touch</h5>
-                        <button type="button" class="close ms-auto" data-bs-dismiss="modal" aria-label="Close" style="font-size: 3rem;">
+                        <button type="button" class="close ms-auto" data-bs-dismiss="modal" aria-label="Close"
+                            style="font-size: 3rem;">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
 
                     <!-- Modal Body -->
                     <div class="modal-body">
-                        <form id="contact-form" name="contact_form" class="default-form" action="{{ url('sendmail') }}" method="post">
+                        <form id="contact-form" name="contact_form" class="default-form"
+                            action="{{ url('sendmail') }}" method="post">
                             @csrf
                             <div class="row">
                                 <div class="col-md-12 mb-3">
-                                    <input class="form-control" type="text" name="form_name" placeholder="Your Name*" required>
+                                    <input class="form-control" type="text" name="form_name"
+                                        placeholder="Your Name*" required>
                                 </div>
                                 <div class="col-md-12 mb-3">
-                                    <input class="form-control" type="email" name="form_email" placeholder="Your Mail*" required>
+                                    <input class="form-control" type="email" name="form_email"
+                                        placeholder="Your Mail*" required>
                                 </div>
                                 <div class="col-md-12 mb-3">
-                                    <input class="form-control" type="text" name="form_phone" placeholder="Phone">
+                                    <input class="form-control" type="text" name="form_phone"
+                                        placeholder="Phone">
                                 </div>
                                 <div class="col-md-12 mb-3">
-                                    <input class="form-control" type="text" name="form_subject" placeholder="Subject">
+                                    <input class="form-control" type="text" name="form_subject"
+                                        placeholder="Subject">
                                 </div>
                                 <div class="col-md-12 mb-3">
                                     <textarea name="form_message" class="form-control" placeholder="Your Message.." required></textarea>
                                 </div>
                                 <div class="col-md-12 text-end">
                                     <input id="form_botcheck" name="form_botcheck" type="hidden" value="">
-                                    <button class="thm-btn bg-clr1" type="submit" data-loading-text="Please wait...">
+                                    <button class="thm-btn bg-clr1" type="submit"
+                                        data-loading-text="Please wait...">
                                         Send Message
                                     </button>
                                 </div>
@@ -770,7 +830,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
         @if (!Cookie::get('cookie_consent'))
-        <div id="cookie-consent" class="position-fixed text-white shadow-lg" style="background: rgba(33,33,33,0.95);
+            <div id="cookie-consent" class="position-fixed text-white shadow-lg"
+                style="background: rgba(33,33,33,0.95);
                bottom: 0;
                left: 0;
                right: 0;
@@ -779,30 +840,32 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                display: none;
                border-radius: 0;
                padding: 15px 20px;">
-            <div class="container">
-                <div class="row align-items-center">
-                    <!-- Text -->
-                    <div class="col-12 col-sm-9 mb-3 mb-sm-0">
-                        <p class="mb-0 small text-white">
-                            We use cookies to personalize content, improve site performance, and analyze traffic.
-                            Some
-                            cookies are essential for the site to function correctly. You can manage your
-                            preferences or
-                            accept all cookies.
-                        </p>
-                    </div>
-
-                    <!-- Buttons -->
-                    <div class="col-12 col-sm-3">
-                        <div class="d-flex flex-row flex-sm-column justify-content-between p-2">
-                            <button id="accept-cookies" class="btn btn-sm text-white mb-sm-2" style="background-color:#db7227;">Accept</button>
-                            <button id="reject-cookies" class="btn btn-sm border text-white" style="border-color:#db7227;">Reject</button>
+                <div class="container">
+                    <div class="row align-items-center">
+                        <!-- Text -->
+                        <div class="col-12 col-sm-9 mb-3 mb-sm-0">
+                            <p class="mb-0 small text-white">
+                                We use cookies to personalize content, improve site performance, and analyze traffic.
+                                Some
+                                cookies are essential for the site to function correctly. You can manage your
+                                preferences or
+                                accept all cookies.
+                            </p>
                         </div>
-                    </div>
 
+                        <!-- Buttons -->
+                        <div class="col-12 col-sm-3">
+                            <div class="d-flex flex-row flex-sm-column justify-content-between p-2">
+                                <button id="accept-cookies" class="btn btn-sm text-white mb-sm-2"
+                                    style="background-color:#db7227;">Accept</button>
+                                <button id="reject-cookies" class="btn btn-sm border text-white"
+                                    style="border-color:#db7227;">Reject</button>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
-        </div>
         @endif
 
 
@@ -831,13 +894,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                 function sendConsent(url) {
                     fetch(url, {
-                            method: "POST"
-                            , headers: {
-                                "Content-Type": "application/json"
-                                , "X-CSRF-TOKEN": document.querySelector('meta[name="csrf-token"]').getAttribute(
-                                    "content")
-                            , }
-                            , credentials: "same-origin" // 👈 VERY IMPORTANT: allows cookies to be saved
+                            method: "POST",
+                            headers: {
+                                "Content-Type": "application/json",
+                                "X-CSRF-TOKEN": document.querySelector('meta[name="csrf-token"]').getAttribute(
+                                    "content"),
+                            },
+                            credentials: "same-origin" // 👈 VERY IMPORTANT: allows cookies to be saved
                         })
                         .then(res => res.json())
                         .then(data => {
@@ -847,12 +910,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         .catch(err => console.error("Cookie error:", err));
                 }
 
-                document.getElementById("accept-cookies") ?.addEventListener("click", () => sendConsent(
+                document.getElementById("accept-cookies")?.addEventListener("click", () => sendConsent(
                     "{{ route('cookie.accept') }}"));
-                document.getElementById("reject-cookies") ?.addEventListener("click", () => sendConsent(
+                document.getElementById("reject-cookies")?.addEventListener("click", () => sendConsent(
                     "{{ route('cookie.reject') }}"));
             });
-
         </script>
 
 
@@ -930,7 +992,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     }
                 });
             });
-
         </script>
         {{-- <script>
             document.addEventListener("DOMContentLoaded", function() {

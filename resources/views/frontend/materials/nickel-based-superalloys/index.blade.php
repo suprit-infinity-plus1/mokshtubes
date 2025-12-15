@@ -1,12 +1,17 @@
 @extends('layouts.master')
 
 @section('title', 'Nickel Superalloys – Extreme Strength & Corrosion') <!-- 53 chars -->
-@section('meta_description', 'Explore nickel-based superalloys from Moksh Tubes built for extreme temperatures and harsh conditions with superior corrosion resistance and strength.')
-@section('meta_keywords', 'Nickel Superalloys, Nickel 200, Nickel 201, A286, High-Temperature Alloys, Corrosion Resistant Alloys, Nickel-Based Alloys, Extreme Temperature Alloys, High Strength Alloys, Industrial Superalloys')
+@section('meta_description',
+    'Explore nickel-based superalloys from Moksh Tubes built for extreme temperatures and harsh
+    conditions with superior corrosion resistance and strength.')
+@section('meta_keywords',
+    'Nickel Superalloys, Nickel 200, Nickel 201, A286, High-Temperature Alloys, Corrosion
+    Resistant Alloys, Nickel-Based Alloys, Extreme Temperature Alloys, High Strength Alloys, Industrial Superalloys')
 
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/nickel-based-superalloys/nickel-based-alloys-banner.webp);">
+    <section class="breadcrumb-area"
+        style="background-image: url(/assets/images/nickel-based-superalloys/nickel-based-alloys-banner.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -28,9 +33,21 @@
 
             @php
                 $grades = [
-                    ['name' => 'Nickel Based superalloys A286_AIS660', 'slug' => 'nickel-based-superalloys-a286-ais660', 'image' => 'assets/images/nickel-based-superalloys/nickel-based-superalloys-A286_AIS660.webp'],
-                    ['name' => 'Nickel Based superalloys 200', 'slug' => 'nickel-based-superalloys-200', 'image' => 'assets/images/nickel-based-superalloys/nickel-based-superalloys-200.webp'],
-                    ['name' => 'Nickel Based superalloys 201', 'slug' => 'nickel-based-superalloys-201', 'image' => 'assets/images/nickel-based-superalloys/nickel-based-superalloys-201.webp'],
+                    [
+                        'name' => 'Nickel Based superalloys A286_AIS660',
+                        'slug' => 'nickel-based-superalloys-a286-ais660',
+                        'image' => 'assets/images/nickel-based-superalloys/nickel-based-superalloys-A286_AIS660.webp',
+                    ],
+                    [
+                        'name' => 'Nickel Based superalloys 200',
+                        'slug' => 'nickel-based-superalloys-200',
+                        'image' => 'assets/images/nickel-based-superalloys/nickel-based-superalloys-200.webp',
+                    ],
+                    [
+                        'name' => 'Nickel Based superalloys 201',
+                        'slug' => 'nickel-based-superalloys-201',
+                        'image' => 'assets/images/nickel-based-superalloys/nickel-based-superalloys-201.webp',
+                    ],
                 ];
             @endphp
 
@@ -60,60 +77,61 @@
         </div>
     </section>
 
+    @if ($blogs->count() > 0)
+        <section class="blog-section sec-padd2">
+            <div class="container">
+                <div class="section-title">
+                    <h2>blogs</h2>
+                </div>
+                <div class="row">
+                    @foreach ($blogs as $blog)
+                        {{-- {{ dd($blog) }} --}}
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="default-blog-news wow fadeInUp animated">
 
-     <section class="blog-section sec-padd2">
-        <div class="container">
-            <div class="section-title">
-                <h2>blogs</h2>
-            </div>
-            <div class="row">
-                @foreach ($blogs as $blog)
-                    {{-- {{ dd($blog) }} --}}
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="default-blog-news wow fadeInUp animated">
-
-                            <figure class="img-holder mb-0">
-                                <a href="{{ route('frontend.single-blog', $blog->slug) }}">
-                                    <img src="{{ asset('storage/' . $blog->cover_image) }}" alt="{{ $blog->title }}"
-                                        loading="lazy">
-                                </a>
-                                <figcaption class="overlay">
-                                    <div class="box">
-                                        <div class="content">
-                                            <a href="{{ route('frontend.single-blog', $blog->slug) }}">
-                                                <i class="fa fa-link" aria-hidden="true"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                            <div class="lower-content">
-                                <a href="{{ route('frontend.single-blog', $blog->slug) }}">
-                                    <h5>{{ Str::limit($blog->title, 30) }}</h5>
-                                </a>
-
-                                <div class="post-meta">
-                                    by {{ $blog->author ?? 'Admin' }} |
-                                    {{ $blog->created_at->format('F d, Y') }}
-                                </div>
-
-                                <!--<div class="text">-->
-                                <!--</div>-->
-                                {!! \Str::limit(strip_tags($blog->content, '<i>'), 120) !!}
-
-                                <div class="link">
-                                    <a href="{{ route('frontend.single-blog', $blog->slug) }}" class="default_link">
-                                        Read More <i class="fa fa-angle-right"></i>
+                                <figure class="img-holder mb-0">
+                                    <a href="{{ route('frontend.single-blog', $blog->slug) }}">
+                                        <img src="{{ asset('storage/' . $blog->cover_image) }}" alt="{{ $blog->title }}"
+                                            loading="lazy">
                                     </a>
-                                </div>
-                            </div>
+                                    <figcaption class="overlay">
+                                        <div class="box">
+                                            <div class="content">
+                                                <a href="{{ route('frontend.single-blog', $blog->slug) }}">
+                                                    <i class="fa fa-link" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                                <div class="lower-content">
+                                    <a href="{{ route('frontend.single-blog', $blog->slug) }}">
+                                        <h5>{{ Str::limit($blog->title, 30) }}</h5>
+                                    </a>
 
+                                    <div class="post-meta">
+                                        by {{ $blog->author ?? 'Admin' }} |
+                                        {{ $blog->created_at->format('F d, Y') }}
+                                    </div>
+
+                                    <!--<div class="text">-->
+                                    <!--</div>-->
+                                    {!! \Str::limit(strip_tags($blog->content, '<i>'), 120) !!}
+
+                                    <div class="link">
+                                        <a href="{{ route('frontend.single-blog', $blog->slug) }}" class="default_link">
+                                            Read More <i class="fa fa-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
-                    </div>
-                @endforeach
+                    @endforeach
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    @endif
 
 
     <!--End breadcrumb area-->
