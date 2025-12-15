@@ -1,8 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Titanium Grade 23 – Ti-6Al-4V ELI High Strength Alloy') <!-- 52 chars -->
-@section('meta_description', 'Titanium Grade 23 (Ti-6Al-4V ELI) provides exceptional strength, low weight, and corrosion resistance for aerospace and medical applications.')
-@section('meta_keywords', 'Titanium Grade 23, Ti-6Al-4V ELI, High Strength Titanium, Lightweight Titanium Alloy, Aerospace Titanium Alloys, Medical Titanium Alloys, Corrosion Resistant Titanium, Titanium Grade 23 Pipes, Titanium Grade 23 Tubes, Industrial Titanium Grades')
+@section('meta_description', 'Titanium Grade 23 (Ti-6Al-4V ELI) provides exceptional strength, low weight, and corrosion
+    resistance for aerospace and medical applications.')
+@section('meta_keywords', 'Titanium Grade 23, Ti-6Al-4V ELI, High Strength Titanium, Lightweight Titanium Alloy,
+    Aerospace Titanium Alloys, Medical Titanium Alloys, Corrosion Resistant Titanium, Titanium Grade 23 Pipes, Titanium
+    Grade 23 Tubes, Industrial Titanium Grades')
 @section('og_image', asset('assets/images/titanium/titanium-23.webp'))
 @section('og_type', 'article')
 @section('content')
@@ -250,7 +253,7 @@
     </section>
 
 
-     @php
+    @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -349,18 +352,16 @@
             </div>
 
             <!-- Product Image Cards (Now centered and responsive) -->
-            <div class="row g-4">
-                 @foreach ($products as $product)
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
-                        <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ route($product['route']) }}" class="text-decoration-none">
-                                <div class="product-card h-100">
-                                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
-                                        class="img-fluid  w-100">
-                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product['name'] }}</h6>
-                                </div>
-                            </a>
-                        </div>
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4 justify-content-center">
+                @foreach ($products as $product)
+                    <div class="col d-flex">
+                        <a href="{{ route($product['route']) }}" class="text-decoration-none w-100">
+                            <div class="product-card h-100">
+                                <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
+                                    class="img-fluid w-100">
+                                <h6 class="product-card-title text-center mt-0 py-4">{{ $product['name'] }}</h6>
+                            </div>
+                        </a>
                     </div>
                 @endforeach
             </div>
@@ -634,7 +635,7 @@
                 <p>
                     Get in touch with <strong>Moksh Tubes & Fittings LLP</strong> your dedicated partner in high-performance
                     titanium alloys.</p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch
@@ -697,7 +698,7 @@
                 }
             ]
             }
-        
+
         @endverbatim
     </script>
 @endsection

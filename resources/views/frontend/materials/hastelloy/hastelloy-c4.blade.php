@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Hastelloy C-4 | High-Performance Alloy for Oxidizing Media')
-@section('meta_description', 'Hastelloy C-4 pipes, tubes & fittings from Moksh Tubes — long-term stability & resistance
+@section('meta_description',
+    'Hastelloy C-4 pipes, tubes & fittings from Moksh Tubes — long-term stability & resistance
     to oxidizing chemicals, acids & high heat for industrial use.')
-@section('meta_keywords', 'Hastelloy C-4, Hastelloy C4, high performance alloy, corrosion resistant alloy, Hastelloy C4
+@section('meta_keywords',
+    'Hastelloy C-4, Hastelloy C4, high performance alloy, corrosion resistant alloy, Hastelloy C4
     pipes, Hastelloy C4 tubes, Hastelloy C4 fittings, oxidizer resistant alloy, acid resistant alloy, industrial corrosion
     resistant alloys, high temperature alloys, durable nickel alloys')
 @section('og_image', asset('assets/images/hastelloy/hastelloy-C4.webp'))
@@ -279,7 +281,7 @@
     </section>
 
 
-     @php
+    @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -378,34 +380,18 @@
             </div>
 
             <!-- Product Image Cards (Now centered and responsive) -->
-            <div class="row g-4">
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4 justify-content-center">
                 @foreach ($products as $product)
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
-                        <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ route($product['route']) }}" class="text-decoration-none">
-                                <div class="product-card h-100">
-                                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
-                                        class="img-fluid  w-100">
-                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product['name'] }}</h6>
-                                </div>
-                            </a>
-                        </div>
+                    <div class="col d-flex">
+                        <a href="{{ route($product['route']) }}" class="text-decoration-none w-100">
+                            <div class="product-card h-100">
+                                <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
+                                    class="img-fluid w-100">
+                                <h6 class="product-card-title text-center mt-0 py-4">{{ $product['name'] }}</h6>
+                            </div>
+                        </a>
                     </div>
                 @endforeach
-                {{-- @foreach ($products as $slug => $product)
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
-                        <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ url('/materials/nickel-alloys/hastelloy-c4/') }}" class="text-decoration-none">
-                            <a href="#" class="text-decoration-none">
-                                <div class="product-card h-100">
-                                    <img src="https://placehold.co/300x200?" alt="{{ $product['name'] ?? $product->name }}"
-                                        class="img-fluid  w-100">
-                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product['name'] ?? $product->name }}</h6>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                @endforeach --}}
             </div>
         </div>
     </section>

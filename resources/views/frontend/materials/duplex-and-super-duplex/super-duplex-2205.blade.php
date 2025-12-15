@@ -2,10 +2,12 @@
 
 @section('title', 'Super Duplex 2205 Corrosion-Resistant Steel')
 
-@section('meta_description', 'Super Duplex Stainless Steel 2205 from Moksh Tubes — exceptional corrosion resistance,
+@section('meta_description',
+    'Super Duplex Stainless Steel 2205 from Moksh Tubes — exceptional corrosion resistance,
     high strength & performance for marine & chemical applications.')
 
-@section('meta_keywords', 'Super Duplex Stainless Steel 2205, 2205 pipes, 2205 tubes, 2205 fittings, corrosion-resistant
+@section('meta_keywords',
+    'Super Duplex Stainless Steel 2205, 2205 pipes, 2205 tubes, 2205 fittings, corrosion-resistant
     stainless steel, high strength super duplex steel, Mokshtubes LLP, chemical processing steel, marine engineering steel,
     oil and gas stainless steel, desalination plant steel, stainless steel plates, stainless steel flanges')
 @section('og_image', asset('assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp'))
@@ -32,17 +34,17 @@
     </section>
 
     <div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
-    <div class="container">
-        <a href="#overview">Overview</a> |
-        <a href="#composition">Chemical Composition</a> |
-        <a href="#heat-treatment">Heat Treatment</a> |
-        <a href="#mechanical">Mechanical Properties</a> |
-        <a href="#price">Advantages</a> |
-        <a href="#applications">Applications</a> |
-        <a href="#faq">FAQ</a> |
-        <a href="#contact us">Contact Us</a>
+        <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact us">Contact Us</a>
+        </div>
     </div>
-</div>
     <!--End breadcrumb area-->
 
     <section class="sec-padd-top sec-padd-bottom bg-light">
@@ -78,14 +80,14 @@
                             durability are crucial. <a href="{{ route('index') }}">MOKSH TUBES & FITTINGS LLP</a> is a
                             trusted supplier, exporter, importer, and stockist of Super Duplex 2205 products such as <a
                                 href="{{ route('products') }}">pipes, tubes, fittings, flanges, plates</a>, and custom
-                                components.
+                            components.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
- 
+
     {{-- datasheet --}}
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
@@ -328,18 +330,16 @@
             </div>
 
             <!-- Product Image Cards (Now centered and responsive) -->
-            <div class="row g-4">
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4 justify-content-center">
                 @foreach ($products as $product)
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
-                        <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ route($product['route']) }}" class="text-decoration-none">
-                                <div class="product-card h-100">
-                                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
-                                        class="img-fluid  w-100">
-                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product['name'] }}</h6>
-                                </div>
-                            </a>
-                        </div>
+                    <div class="col d-flex">
+                        <a href="{{ route($product['route']) }}" class="text-decoration-none w-100">
+                            <div class="product-card h-100">
+                                <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
+                                    class="img-fluid w-100">
+                                <h6 class="product-card-title text-center mt-0 py-4">{{ $product['name'] }}</h6>
+                            </div>
+                        </a>
                     </div>
                 @endforeach
             </div>

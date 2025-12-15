@@ -2,14 +2,19 @@
 
 @section('title', 'Austenitic Stainless Steel 304 | Premium Quality SS')
 
-@section('meta_description', 'Austenitic Stainless Steel 304 from Moksh Tubes — premium pipes & fittings with exceptional corrosion resistance, durability & strength.')
+@section('meta_description', 'Austenitic Stainless Steel 304 from Moksh Tubes — premium pipes & fittings with
+    exceptional corrosion resistance, durability & strength.')
 
-@section('meta_keywords', 'Austenitic Stainless Steel 304, Stainless Steel 304 Pipes, Stainless Steel 304 Tubes, Stainless Steel 304 Fittings, Corrosion Resistant Stainless Steel 304, Premium Quality Stainless Steel, Industrial Stainless Steel 304, Marine Grade Stainless Steel 304, Chemical Processing Stainless Steel 304, High Strength Stainless Steel 304')
+@section('meta_keywords', 'Austenitic Stainless Steel 304, Stainless Steel 304 Pipes, Stainless Steel 304 Tubes,
+    Stainless Steel 304 Fittings, Corrosion Resistant Stainless Steel 304, Premium Quality Stainless Steel, Industrial
+    Stainless Steel 304, Marine Grade Stainless Steel 304, Chemical Processing Stainless Steel 304, High Strength Stainless
+    Steel 304')
 @section('og_image', asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-304.webp'))
 @section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/austenitic-stainless-steel/austenitic-stainless-steel-304.webp);">
+    <section class="breadcrumb-area"
+        style="background-image: url(/assets/images/austenitic-stainless-steel/austenitic-stainless-steel-304.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -248,7 +253,7 @@
     </section>
 
 
-     @php
+    @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -345,18 +350,16 @@
             </div>
 
             <!-- Product Image Cards (Now centered and responsive) -->
-            <div class="row g-4">
-                 @foreach ($products as $product)
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
-                        <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ route($product['route']) }}" class="text-decoration-none">
-                                <div class="product-card h-100">
-                                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
-                                        class="img-fluid  w-100">
-                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product['name'] }}</h6>
-                                </div>
-                            </a>
-                        </div>
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4 justify-content-center">
+                @foreach ($products as $product)
+                    <div class="col d-flex">
+                        <a href="{{ route($product['route']) }}" class="text-decoration-none w-100">
+                            <div class="product-card h-100">
+                                <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
+                                    class="img-fluid w-100">
+                                <h6 class="product-card-title text-center mt-0 py-4">{{ $product['name'] }}</h6>
+                            </div>
+                        </a>
                     </div>
                 @endforeach
             </div>
@@ -639,7 +642,7 @@
                         Fittings
                         LLP</strong> — your reliable partner for stainless steel solutions.
                 </p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch
@@ -654,7 +657,7 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
+    <script type="application/ld+json">
     @verbatim
 {
   "@context": "https://schema.org",

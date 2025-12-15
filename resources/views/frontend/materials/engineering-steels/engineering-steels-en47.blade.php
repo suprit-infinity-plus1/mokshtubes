@@ -1,24 +1,29 @@
 @extends('layouts.master')
 
 @section('title', 'EN47 Spring Steel | High Strength Elastic Alloy Steel')
-@section('meta_description', 'EN47 Spring Steel with excellent elasticity and tensile strength ideal for precision spring manufacturing.')
-@section('meta_keywords', 'EN47 Spring Steel, high strength spring steel, elastic steel, tensile strength steel, spring manufacturing steel, industrial spring steel')
+@section('meta_description', 'EN47 Spring Steel with excellent elasticity and tensile strength ideal for precision
+    spring manufacturing.')
+@section('meta_keywords', 'EN47 Spring Steel, high strength spring steel, elastic steel, tensile strength steel, spring
+    manufacturing steel, industrial spring steel')
 @section('og_image', asset('assets/images/engineering-steels/engineering-steels-en47.webp'))
 @section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/engineering-steels/engineering-steels-en47.webp);">
+    <section class="breadcrumb-area"
+        style="background-image: url(/assets/images/engineering-steels/engineering-steels-en47.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1>High Strength EN47 Spring Steel<br>Medium Carbon Steel
-</h1>
+                    </h1>
 
- <!-- Add your extra content here -->
+                    <!-- Add your extra content here -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        EN47 Engineering Steel (EN 47 / C47) is a medium carbon steel grade known for high strength, good wear resistance, and excellent machinability. Below is the complete datasheet including composition, properties, heat treatment, and applications.
+                        EN47 Engineering Steel (EN 47 / C47) is a medium carbon steel grade known for high strength, good
+                        wear resistance, and excellent machinability. Below is the complete datasheet including composition,
+                        properties, heat treatment, and applications.
                     </p>
 
 
@@ -27,48 +32,49 @@
             </div>
         </div>
     </section>
-<!--End breadcrumb area-->
+    <!--End breadcrumb area-->
 
 
-<style>
+    <style>
+        .material-tabs {
+            background: #ffffff;
+            text-align: center;
+            padding: 15px 0;
+            border-bottom: 1px solid #e5e5e5;
+            position: sticky;
+            /* you missed this */
+            top: 50px;
+            /* and this */
+            z-index: 1020;
+        }
 
-    .material-tabs {
-    background: #ffffff;
-    text-align: center;
-    padding: 15px 0;
-    border-bottom: 1px solid #e5e5e5;
-    position: sticky;   /* you missed this */
-    top: 50px;             /* and this */
-    z-index: 1020;
-}
+        .material-tabs a {
+            margin: 0 14px;
+            font-weight: 600;
+            color: #1b3c61 !important;
+            text-decoration: none;
+            font-size: 16px;
+            transition: 0.25s ease;
+            display: inline-block;
+        }
 
-.material-tabs a {
-    margin: 0 14px;
-    font-weight: 600;
-    color: #1b3c61 !important;
-    text-decoration: none;
-    font-size: 16px;
-    transition: 0.25s ease;
-    display: inline-block;
-}
-
-.material-tabs a:hover {
-    color: #db7227 !important;
-    transform: translateY(-2px);
-}
-</style>
-<div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
-    <div class="container">
-        <a href="#overview">Overview</a> |
-        <a href="#composition">Chemical Composition</a> |
-        <a href="#heat-treatment">Heat Treatment</a> |
-        <a href="#mechanical">Mechanical Properties</a> |
-        <a href="#price">Advantages</a> |
-        <a href="#applications">Applications</a> |
-        <a href="#faq">FAQ</a> |
-        <a href="#contact us">Contact Us</a>
+        .material-tabs a:hover {
+            color: #db7227 !important;
+            transform: translateY(-2px);
+        }
+    </style>
+    <div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
+        <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact us">Contact Us</a>
+        </div>
     </div>
-</div>
 
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
@@ -109,7 +115,7 @@
         </div>
     </section>
 
-      <section class="sec-padd-bottom bg-light">
+    <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Engineering Steels 47 Datasheet</h3>
             <p class="mb-3">
@@ -332,7 +338,7 @@
     </section>
 
 
-     @php
+    @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -429,18 +435,16 @@
             </div>
 
             <!-- Product Image Cards (Now centered and responsive) -->
-            <div class="row g-4">
-                 @foreach ($products as $product)
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
-                        <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ route($product['route']) }}" class="text-decoration-none">
-                                <div class="product-card h-100">
-                                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
-                                        class="img-fluid  w-100">
-                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product['name'] }}</h6>
-                                </div>
-                            </a>
-                        </div>
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4 justify-content-center">
+                @foreach ($products as $product)
+                    <div class="col d-flex">
+                        <a href="{{ route($product['route']) }}" class="text-decoration-none w-100">
+                            <div class="product-card h-100">
+                                <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
+                                    class="img-fluid w-100">
+                                <h6 class="product-card-title text-center mt-0 py-4">{{ $product['name'] }}</h6>
+                            </div>
+                        </a>
                     </div>
                 @endforeach
             </div>
@@ -701,7 +705,7 @@
                         & Fittings LLP
                     </strong> — your trusted partner for alloy steels.
                 </p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch

@@ -2,9 +2,11 @@
 
 @section('title', 'Super Duplex 2507 – High Corrosion Resistance')
 
-@section('meta_description', 'Super Duplex Stainless Steel 2507 (S32750) – ultra corrosion-resistant, high-strength alloy for chemical, marine, and industrial applications.')
+@section('meta_description', 'Super Duplex Stainless Steel 2507 (S32750) – ultra corrosion-resistant, high-strength
+    alloy for chemical, marine, and industrial applications.')
 
-@section('meta_keywords', 'Super Duplex Stainless Steel 2507, S32750, 2507 pipes, 2507 tubes, 2507 fittings,
+@section('meta_keywords',
+    'Super Duplex Stainless Steel 2507, S32750, 2507 pipes, 2507 tubes, 2507 fittings,
     corrosion-resistant stainless steel, high strength super duplex steel, Mokshtubes LLP, chemical processing steel, marine
     engineering steel, oil and gas stainless steel, desalination plant steel, stainless steel plates, stainless steel
     flanges')
@@ -18,14 +20,18 @@
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1>
-    Duplex 2507 Stainless Steel<br>
-   Ultra High Corrosion-Resistant Alloy
+                        Duplex 2507 Stainless Steel<br>
+                        Ultra High Corrosion-Resistant Alloy
 
-</h1>
- <!-- Add your extra content here -->
+                    </h1>
+                    <!-- Add your extra content here -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                  Super Duplex Stainless Steel 2507 (UNS S32750) is a premium super duplex alloy offering ultra-high corrosion resistance, outstanding strength, and exceptional resistance to pitting, crevice corrosion, and chloride-induced stress corrosion cracking. Designed for highly aggressive environments, 2507 is widely used in offshore platforms, desalination plants, chemical processing, and marine applications where maximum durability and reliability are essential.
+                        Super Duplex Stainless Steel 2507 (UNS S32750) is a premium super duplex alloy offering ultra-high
+                        corrosion resistance, outstanding strength, and exceptional resistance to pitting, crevice
+                        corrosion, and chloride-induced stress corrosion cracking. Designed for highly aggressive
+                        environments, 2507 is widely used in offshore platforms, desalination plants, chemical processing,
+                        and marine applications where maximum durability and reliability are essential.
 
                     </p>
                     <!-- End extra content -->
@@ -38,44 +44,45 @@
     </section>
 
     <style>
+        .material-tabs {
+            background: #ffffff;
+            text-align: center;
+            padding: 15px 0;
+            border-bottom: 1px solid #e5e5e5;
+            position: sticky;
+            /* you missed this */
+            top: 50px;
+            /* and this */
+            z-index: 1020;
+        }
 
-    .material-tabs {
-    background: #ffffff;
-    text-align: center;
-    padding: 15px 0;
-    border-bottom: 1px solid #e5e5e5;
-    position: sticky;   /* you missed this */
-    top: 50px;             /* and this */
-    z-index: 1020;
-}
+        .material-tabs a {
+            margin: 0 14px;
+            font-weight: 600;
+            color: #1b3c61 !important;
+            text-decoration: none;
+            font-size: 16px;
+            transition: 0.25s ease;
+            display: inline-block;
+        }
 
-.material-tabs a {
-    margin: 0 14px;
-    font-weight: 600;
-    color: #1b3c61 !important;
-    text-decoration: none;
-    font-size: 16px;
-    transition: 0.25s ease;
-    display: inline-block;
-}
-
-.material-tabs a:hover {
-    color: #db7227 !important;
-    transform: translateY(-2px);
-}
-</style>
-<div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
-    <div class="container">
-        <a href="#overview">Overview</a> |
-        <a href="#composition">Chemical Composition</a> |
-        <a href="#heat-treatment">Heat Treatment</a> |
-        <a href="#mechanical">Mechanical Properties</a> |
-        <a href="#price">Advantages</a> |
-        <a href="#applications">Applications</a> |
-        <a href="#faq">FAQ</a> |
-        <a href="#contact us">Contact Us</a>
+        .material-tabs a:hover {
+            color: #db7227 !important;
+            transform: translateY(-2px);
+        }
+    </style>
+    <div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
+        <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact us">Contact Us</a>
+        </div>
     </div>
-</div>
 
     <!--End breadcrumb area-->
 
@@ -110,8 +117,9 @@
                         <p class="fs-6 text-justify" style="text-align: justify;">
                             <a href="{{ route('index') }}">MOKSH TUBES & FITTINGS LLP</a> is a trusted supplier, exporter,
                             importer, and stockist of Super Duplex 2507 products including <a
-                                href="{{ route('products') }}">pipes, tubes, fittings, flanges, sheets, plates</a>, and custom
-                                components. This alloy is widely used in offshore oil & gas, chemical processing, marine
+                                href="{{ route('products') }}">pipes, tubes, fittings, flanges, sheets, plates</a>, and
+                            custom
+                            components. This alloy is widely used in offshore oil & gas, chemical processing, marine
                             engineering, and desalination plants.
                         </p>
                     </div>
@@ -268,7 +276,7 @@
         </div>
     </section>
 
-     @php
+    @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -366,18 +374,16 @@
             </div>
 
             <!-- Product Image Cards (Now centered and responsive) -->
-            <div class="row g-4">
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4 justify-content-center">
                 @foreach ($products as $product)
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
-                        <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ route($product['route']) }}" class="text-decoration-none">
-                                <div class="product-card h-100">
-                                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
-                                        class="img-fluid  w-100">
-                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product['name'] }}</h6>
-                                </div>
-                            </a>
-                        </div>
+                    <div class="col d-flex">
+                        <a href="{{ route($product['route']) }}" class="text-decoration-none w-100">
+                            <div class="product-card h-100">
+                                <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
+                                    class="img-fluid w-100">
+                                <h6 class="product-card-title text-center mt-0 py-4">{{ $product['name'] }}</h6>
+                            </div>
+                        </a>
                     </div>
                 @endforeach
             </div>
@@ -609,7 +615,7 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
+    <script type="application/ld+json">
     @verbatim
 {
   "@context": "https://schema.org",

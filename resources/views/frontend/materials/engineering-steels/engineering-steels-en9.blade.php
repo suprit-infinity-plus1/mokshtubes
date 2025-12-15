@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'EN9 Engineering Steel | High Carbon Alloy Steel')
-@section('meta_description', 'EN9 Engineering Steel designed for high strength and wear resistance, ideal for demanding
+@section('meta_description',
+    'EN9 Engineering Steel designed for high strength and wear resistance, ideal for demanding
     engineering components and industrial applications.')
-@section('meta_keywords', 'EN9 Engineering Steel, high carbon steel, high strength steel, wear resistant steel,
+@section('meta_keywords',
+    'EN9 Engineering Steel, high carbon steel, high strength steel, wear resistant steel,
     engineering components steel, industrial steel')
 @section('og_image', asset('assets/images/engineering-steels/engineering-steels-en9.webp'))
 @section('og_type', 'article')
@@ -19,10 +21,12 @@
                     <h1>Premium EN9 High Carbon Engineering Steel<br>High Carbon Steel
                     </h1>
 
-                     <!-- Add your extra content here -->
+                    <!-- Add your extra content here -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                      Engineering Steel EN9 (EN9 / 070M55 / C70) is a high carbon steel grade known for excellent hardness, wear resistance, and strength. Below is the complete datasheet including composition, properties, heat treatment, and applications.
+                        Engineering Steel EN9 (EN9 / 070M55 / C70) is a high carbon steel grade known for excellent
+                        hardness, wear resistance, and strength. Below is the complete datasheet including composition,
+                        properties, heat treatment, and applications.
 
                     </p>
 
@@ -426,18 +430,16 @@
             </div>
 
             <!-- Product Image Cards (Now centered and responsive) -->
-            <div class="row g-4">
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4 justify-content-center">
                 @foreach ($products as $product)
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
-                        <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ route($product['route']) }}" class="text-decoration-none">
-                                <div class="product-card h-100">
-                                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
-                                        class="img-fluid  w-100">
-                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product['name'] }}</h6>
-                                </div>
-                            </a>
-                        </div>
+                    <div class="col d-flex">
+                        <a href="{{ route($product['route']) }}" class="text-decoration-none w-100">
+                            <div class="product-card h-100">
+                                <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
+                                    class="img-fluid w-100">
+                                <h6 class="product-card-title text-center mt-0 py-4">{{ $product['name'] }}</h6>
+                            </div>
+                        </a>
                     </div>
                 @endforeach
             </div>

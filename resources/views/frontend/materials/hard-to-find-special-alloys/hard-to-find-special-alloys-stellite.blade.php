@@ -1,14 +1,18 @@
 @extends('layouts.master')
 
 @section('title', 'Stellite Metal | Moksh Tubes – Durable & High Strength')
-@section('meta_description', 'Stellite alloys at MokshTubes deliver exceptional hardness, wear and corrosion resistance for cutting tools, valves, machinery & high-stress applications.')
-@section('meta_keywords', 'Stellite alloy, high hardness alloy, wear resistant alloy, corrosion resistant alloy, cutting tools alloy, valves alloy, industrial machinery alloy, durable Stellite')
-@section('og_image', asset('assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-stellite.webp'))
+@section('meta_description', 'Stellite alloys at MokshTubes deliver exceptional hardness, wear and corrosion resistance
+    for cutting tools, valves, machinery & high-stress applications.')
+@section('meta_keywords', 'Stellite alloy, high hardness alloy, wear resistant alloy, corrosion resistant alloy, cutting
+    tools alloy, valves alloy, industrial machinery alloy, durable Stellite')
+@section('og_image',
+    asset('assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-stellite.webp'))
 @section('og_type', 'article')
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-stellite.webp);">
+    <section class="breadcrumb-area"
+        style="background-image: url(/assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-stellite.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -62,7 +66,7 @@
             </div>
         </div>
     </section>
-{{-- datasheet --}}
+    {{-- datasheet --}}
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Stellite Alloys Datasheet</h3>
@@ -78,17 +82,19 @@
                 <div class="row justify-content-center">
                     <input type="hidden" name="pdf" value="haynes-242.pdf">
                     <div class="col-md-6 mb-2">
-                        <input type="email" name="email" required="" class="form-control p-3" placeholder="Enter your email address">
+                        <input type="email" name="email" required="" class="form-control p-3"
+                            placeholder="Enter your email address">
                     </div>
                     <div class="col-md-3 mb-2">
-                        <button type="submit" class="btn btn-lg w-100 text-white" style="background-color:#db7227; border-radius:8px;">
+                        <button type="submit" class="btn btn-lg w-100 text-white"
+                            style="background-color:#db7227; border-radius:8px;">
                             📥 Get Datasheet
                         </button>
                     </div>
                 </div>
             </form>
 
-            
+
             <p class="small text-muted">
                 We respect your privacy. Your email will only be used to send the datasheet.
             </p>
@@ -265,7 +271,7 @@
     </section>
 
 
-     @php
+    @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -361,18 +367,16 @@
             </div>
 
             <!-- Product Image Cards (Now centered and responsive) -->
-            <div class="row g-4">
-                 @foreach ($products as $product)
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
-                        <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ route($product['route']) }}" class="text-decoration-none">
-                                <div class="product-card h-100">
-                                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
-                                        class="img-fluid  w-100">
-                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product['name'] }}</h6>
-                                </div>
-                            </a>
-                        </div>
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4 justify-content-center">
+                @foreach ($products as $product)
+                    <div class="col d-flex">
+                        <a href="{{ route($product['route']) }}" class="text-decoration-none w-100">
+                            <div class="product-card h-100">
+                                <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
+                                    class="img-fluid w-100">
+                                <h6 class="product-card-title text-center mt-0 py-4">{{ $product['name'] }}</h6>
+                            </div>
+                        </a>
                     </div>
                 @endforeach
             </div>
@@ -632,7 +636,7 @@
                     Contact <strong>Moksh Tubes & Fittings LLP</strong> —your expert partner for high-performance cobalt
                     alloys.
                 </p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch
@@ -695,7 +699,7 @@
                 }
             ]
             }
-        
+
         @endverbatim
     </script>
 @endsection

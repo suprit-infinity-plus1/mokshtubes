@@ -42,7 +42,9 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"> <a href="{{ route('index') }}">MOKSH TUBES & FITTINGS LLP</a></strong> is a <a href="{{ route('materials.nickel-Based-Superalloys') }}">supplier</a>,
+                            <strong class="text-black"> <a href="{{ route('index') }}">MOKSH TUBES & FITTINGS
+                                    LLP</a></strong> is a <a
+                                href="{{ route('materials.nickel-Based-Superalloys') }}">supplier</a>,
                             exporter, importer and stockist of a variety of INCOLOY 825 products such as <a
                                 href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>,
                             Pipe Fittings, Flanges, Fasteners, Sheets & Plates, Coils, Wires, Round Bars, Flat Bars, Angles,
@@ -53,12 +55,14 @@
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
-                            <strong class="text-black">INCOLOY 825</strong class="text-black"> is a <a href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a> iron chromium
+                            <strong class="text-black">INCOLOY 825</strong class="text-black"> is a <a
+                                href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a> iron chromium
                             alloy with additions of molybdenum, copper, and <a
                                 href="{{ route('materials.titanium') }}">titanium</a>. The alloy offers exceptional
                             resistance to reducing and oxidizing acids, stress corrosion cracking, pitting, and crevice
                             corrosion. Its unique composition makes it highly suitable for aggressive environments,
-                            including those containing sulfuric, phosphoric, and nitric acids. Additionally, the <a href="{{ route('materials.titanium') }}">titanium</a>
+                            including those containing sulfuric, phosphoric, and nitric acids. Additionally, the <a
+                                href="{{ route('materials.titanium') }}">titanium</a>
                             stabilization provides resistance to intergranular corrosion after exposure to sensitization
                             temperatures. With excellent mechanical properties across a wide temperature range, <strong
                                 class="text-black"> INCOLOY 825</strong>
@@ -70,7 +74,7 @@
         </div>
     </section>
 
-       {{-- datasheet --}}
+    {{-- datasheet --}}
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Incoloy 825 Datasheet</h3>
@@ -298,7 +302,7 @@
     </section>
 
 
-     @php
+    @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -366,7 +370,9 @@
                     <p class="fs-6">
                         <strong class="text-dark">INCOLOY 825 </strong>, (UNS N08825 / W.Nr. 2.4858) is a trusted material
                         in the world of corrosion resistant alloys. Known for its excellent performance in aggressive
-                        environments—especially those containing acids this <a href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a> iron chromium alloy is commonly found in
+                        environments—especially those containing acids this <a
+                            href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a> iron chromium alloy is
+                        commonly found in
                         oil and gas operations, chemical processing, pollution control, and nuclear fuel reprocessing.
                     </p>
                 </div>
@@ -399,18 +405,16 @@
             </div>
 
             <!-- Product Image Cards (Now centered and responsive) -->
-            <div class="row g-4">
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4 justify-content-center">
                 @foreach ($products as $product)
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
-                        <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ route($product['route']) }}" class="text-decoration-none">
-                                <div class="product-card h-100">
-                                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
-                                        class="img-fluid  w-100">
-                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product['name'] }}</h6>
-                                </div>
-                            </a>
-                        </div>
+                    <div class="col d-flex">
+                        <a href="{{ route($product['route']) }}" class="text-decoration-none w-100">
+                            <div class="product-card h-100">
+                                <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
+                                    class="img-fluid w-100">
+                                <h6 class="product-card-title text-center mt-0 py-4">{{ $product['name'] }}</h6>
+                            </div>
+                        </a>
                     </div>
                 @endforeach
             </div>
@@ -673,7 +677,8 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    <a href="{{ route('index') }}">MOKSH TUBES & FITTINGS LLP</a> manufactures, supplies, and exports Incoloy 825 in a wide
+                                    <a href="{{ route('index') }}">MOKSH TUBES & FITTINGS LLP</a> manufactures, supplies,
+                                    and exports Incoloy 825 in a wide
                                     range of forms, including seamless and welded pipes, tubes, sheets, plates, coils, bars,
                                     wire mesh, welding rods, flanges, fasteners, pipe fittings, and custom fabricated
                                     components. Each product conforms to international standards and specifications,
@@ -689,7 +694,8 @@
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    <a href="{{ route('index') }}">MOKSH TUBES & FITTINGS LLP</a> is a trusted global supplier of Incoloy 825 products,
+                                    <a href="{{ route('index') }}">MOKSH TUBES & FITTINGS LLP</a> is a trusted global
+                                    supplier of Incoloy 825 products,
                                     offering premium quality materials backed by ISO and ASTM standards. With extensive
                                     expertise in nickel alloys, a strong supplier network, and a commitment to timely
                                     delivery, the company ensures tailored solutions for diverse industrial needs. Their
@@ -715,7 +721,7 @@
                     For any inquiries or to request a quote, reach out to <strong>Moksh Tubes & Fittings LLP</strong> your
                     trusted partner for INCOLOY 825 products.
                 </p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch

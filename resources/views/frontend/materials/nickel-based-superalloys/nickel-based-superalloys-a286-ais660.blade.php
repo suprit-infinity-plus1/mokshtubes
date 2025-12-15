@@ -1,22 +1,29 @@
 @extends('layouts.master')
 
 @section('title', 'Nickel A286 – High-Strength & Heat Resistant Superalloy') <!-- 53 chars -->
-@section('meta_description', 'A286 (AIS660) superalloy from Moksh Tubes — high strength, heat-resistant, reliable for aerospace & high-temperature industrial applications.')
-@section('meta_keywords', 'Nickel A286, AIS600 Superalloy, High Strength Nickel, Heat Resistant Alloy, Aerospace Nickel Alloy, Industrial Superalloy, Corrosion Resistant Nickel, High Temperature Alloy, Nickel-Based Alloy')
+@section('meta_description',
+    'A286 (AIS660) superalloy from Moksh Tubes — high strength, heat-resistant, reliable for
+    aerospace & high-temperature industrial applications.')
+@section('meta_keywords',
+    'Nickel A286, AIS600 Superalloy, High Strength Nickel, Heat Resistant Alloy, Aerospace Nickel
+    Alloy, Industrial Superalloy, Corrosion Resistant Nickel, High Temperature Alloy, Nickel-Based Alloy')
 @section('og_image', asset('assets/images/nickel-based-superalloys/nickel-based-superalloys-A286_AIS660.webp'))
 @section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/nickel-based-superalloys/nickel-based-superalloys-A286_AIS660.webp);">
+    <section class="breadcrumb-area"
+        style="background-image: url(/assets/images/nickel-based-superalloys/nickel-based-superalloys-A286_AIS660.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1>Nickel A286 <br> High-Strength & Heat Resistant Superalloy</h1>
-                      <!-- Add your extra content here -->
+                    <!-- Add your extra content here -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                       Nickel A286 is a precipitation-hardenable Fe–Ni–Cr alloy designed for high strength, oxidation resistance, and corrosion resistance at elevated temperatures up to 704 °C (1300 °F).
- Below is the complete datasheet in the master blade format including chemical composition, properties, applications, and product availability.
+                        Nickel A286 is a precipitation-hardenable Fe–Ni–Cr alloy designed for high strength, oxidation
+                        resistance, and corrosion resistance at elevated temperatures up to 704 °C (1300 °F).
+                        Below is the complete datasheet in the master blade format including chemical composition,
+                        properties, applications, and product availability.
 
                     </p>
                     <!-- End extra content -->
@@ -28,17 +35,17 @@
     </section>
 
     <div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
-    <div class="container">
-        <a href="#overview">Overview</a> |
-        <a href="#composition">Chemical Composition</a> |
-        <a href="#heat-treatment">Heat Treatment</a> |
-        <a href="#mechanical">Mechanical Properties</a> |
-        <a href="#price">Advantages</a> |
-        <a href="#applications">Applications</a> |
-        <a href="#faq">FAQ</a> |
-        <a href="#contact us">Contact Us</a>
+        <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact us">Contact Us</a>
+        </div>
     </div>
-</div>
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">
@@ -86,7 +93,7 @@
     </section>
 
 
-  {{-- datasheet --}}
+    {{-- datasheet --}}
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Nickel Based Superalloys A286 Datasheet</h3>
@@ -338,7 +345,7 @@
     </section>
 
 
-     @php
+    @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -438,18 +445,16 @@
             </div>
 
             <!-- Product Image Cards (Now centered and responsive) -->
-            <div class="row g-4">
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4 justify-content-center">
                 @foreach ($products as $product)
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
-                        <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ route($product['route']) }}" class="text-decoration-none">
-                                <div class="product-card h-100">
-                                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
-                                        class="img-fluid  w-100">
-                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product['name'] }}</h6>
-                                </div>
-                            </a>
-                        </div>
+                    <div class="col d-flex">
+                        <a href="{{ route($product['route']) }}" class="text-decoration-none w-100">
+                            <div class="product-card h-100">
+                                <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
+                                    class="img-fluid w-100">
+                                <h6 class="product-card-title text-center mt-0 py-4">{{ $product['name'] }}</h6>
+                            </div>
+                        </a>
                     </div>
                 @endforeach
             </div>
@@ -739,7 +744,7 @@
                 <p>
                     Connect with <strong>Moksh Tubes & Fittings LLP</strong> for precision products built for performance.
                 </p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch

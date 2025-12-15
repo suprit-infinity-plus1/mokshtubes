@@ -1,8 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Titanium Grade 1 – Pure Titanium Material & Uses') <!-- 52 chars -->
-@section('meta_description', 'Titanium Grade 1 offers excellent corrosion resistance, ductility, and weldability—ideal for chemical, marine, and industrial applications.')
-@section('meta_keywords', 'Titanium Grade 1, Commercially Pure Titanium, Corrosion Resistant Titanium, Titanium Grade 1 Pipes, Titanium Grade 1 Tubes, Titanium Grade 1 Sheets, Marine Industry Titanium, Chemical Processing Titanium, Weldable Titanium Alloy, Industrial Titanium Grades')
+@section('meta_description', 'Titanium Grade 1 offers excellent corrosion resistance, ductility, and weldability—ideal
+    for chemical, marine, and industrial applications.')
+@section('meta_keywords', 'Titanium Grade 1, Commercially Pure Titanium, Corrosion Resistant Titanium, Titanium Grade 1
+    Pipes, Titanium Grade 1 Tubes, Titanium Grade 1 Sheets, Marine Industry Titanium, Chemical Processing Titanium, Weldable
+    Titanium Alloy, Industrial Titanium Grades')
 @section('og_image', asset('assets/images/titanium/titanium-1.webp'))
 @section('og_type', 'article')
 @section('content')
@@ -61,10 +64,12 @@
                             service conditions.
                         </p>
                         <p class="fs-6" style="text-align: justify;">
-    The <strong>density of titanium metal</strong> is about 4.51 g/cm³, making it lighter yet stronger
-    than many other engineering metals. Similarly, the <strong>titanium melting point</strong> is 1660 °C,
-    which ensures performance in high-temperature applications.
-</p>
+                            The <strong>density of titanium metal</strong> is about 4.51 g/cm³, making it lighter yet
+                            stronger
+                            than many other engineering metals. Similarly, the <strong>titanium melting point</strong> is
+                            1660 °C,
+                            which ensures performance in high-temperature applications.
+                        </p>
 
                     </div>
                 </div>
@@ -133,10 +138,11 @@
                 <div class="col-lg-8">
                     <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties of Titanium</h4>
                     <p class="text-center">
-    The <strong>density of titanium metal</strong> is about 4.51 g/cm³, making it lighter yet stronger
-    than many other engineering metals. Similarly, the <strong>titanium melting point</strong> is 1660 °C,
-    which ensures performance in high-temperature applications.
-</p>
+                        The <strong>density of titanium metal</strong> is about 4.51 g/cm³, making it lighter yet stronger
+                        than many other engineering metals. Similarly, the <strong>titanium melting point</strong> is 1660
+                        °C,
+                        which ensures performance in high-temperature applications.
+                    </p>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -244,7 +250,7 @@
     </section>
 
 
-     @php
+    @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -345,18 +351,16 @@
             </div>
 
             <!-- Product Image Cards (Now centered and responsive) -->
-            <div class="row g-4">
-                 @foreach ($products as $product)
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
-                        <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ route($product['route']) }}" class="text-decoration-none">
-                                <div class="product-card h-100">
-                                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
-                                        class="img-fluid  w-100">
-                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product['name'] }}</h6>
-                                </div>
-                            </a>
-                        </div>
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4 justify-content-center">
+                @foreach ($products as $product)
+                    <div class="col d-flex">
+                        <a href="{{ route($product['route']) }}" class="text-decoration-none w-100">
+                            <div class="product-card h-100">
+                                <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
+                                    class="img-fluid w-100">
+                                <h6 class="product-card-title text-center mt-0 py-4">{{ $product['name'] }}</h6>
+                            </div>
+                        </a>
                     </div>
                 @endforeach
             </div>
@@ -420,10 +424,11 @@
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Titanium Grade 1</h2>
-                <p class="text-center pb-3"><strong class="text-dark">Common <strong>titanium metal uses</strong> include aircraft parts, marine equipment,
-   surgical implants, and sports gear. The versatility of <strong>titanium usage</strong>
-   ensures its demand across multiple industries worldwide.
-</p>
+                <p class="text-center pb-3"><strong class="text-dark">Common <strong>titanium metal uses</strong> include
+                        aircraft parts, marine equipment,
+                        surgical implants, and sports gear. The versatility of <strong>titanium usage</strong>
+                        ensures its demand across multiple industries worldwide.
+                </p>
                 </p>
             </div>
 
@@ -650,17 +655,18 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    <strong><p>
-   Whether used as a structural <strong>titanium material</strong> or in
-   advanced alloys, its lightweight, high-strength, and corrosion-resistant
-   nature ensure that titanium remains one of the most valuable
-   engineering metals today. <strong>Moksh Tubes</strong>, we supply
-   premium quality <strong>titanium</strong> and its alloys for various
-   industrial applications.
-</p>
+                    <strong>
+                        <p>
+                            Whether used as a structural <strong>titanium material</strong> or in
+                            advanced alloys, its lightweight, high-strength, and corrosion-resistant
+                            nature ensure that titanium remains one of the most valuable
+                            engineering metals today. <strong>Moksh Tubes</strong>, we supply
+                            premium quality <strong>titanium</strong> and its alloys for various
+                            industrial applications.
+                        </p>
 
                 </p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch
@@ -723,7 +729,7 @@
                 }
             ]
             }
-        
+
         @endverbatim
     </script>
 @endsection

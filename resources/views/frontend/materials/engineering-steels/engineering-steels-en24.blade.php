@@ -1,8 +1,10 @@
 @extends('layouts.master')
 
 @section('title', 'EN24 Alloy Steel | High Strength & Fatigue Resistant')
-@section('meta_description', 'EN24 Alloy Steel (817M40/AISI 4340) – chemical composition, mechanical properties, and applications. Buy EN24 round bars and custom products.')
-@section('meta_keywords', 'EN24 Alloy Steel, high strength alloy steel, fatigue resistant steel, tough alloy steel,
+@section('meta_description', 'EN24 Alloy Steel (817M40/AISI 4340) – chemical composition, mechanical properties, and
+    applications. Buy EN24 round bars and custom products.')
+@section('meta_keywords',
+    'EN24 Alloy Steel, high strength alloy steel, fatigue resistant steel, tough alloy steel,
     heavy-duty steel, industrial alloy steel')
 @section('og_image', asset('assets/images/engineering-steels/engineering-steels-en24.webp'))
 @section('og_type', 'article')
@@ -10,17 +12,20 @@
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/engineering-steels/engineering-steels-en24.webp);">
+    <section class="breadcrumb-area"
+        style="background-image: url(/assets/images/engineering-steels/engineering-steels-en24.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1>Premium EN24 Alloy Steel for Heavy Duty Application<br>High-Strength Alloy Steel
-</h1>
+                    </h1>
 
- <!-- Add your extra content here -->
+                    <!-- Add your extra content here -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        EN24 Engineering Steel (EN24 / 817M40 / 1.6511) is a high-strength nickel-chromium-molybdenum alloy steel grade known for exceptional toughness, fatigue resistance, and high tensile strength. Below is the complete datasheet including composition, properties, heat treatment, and applications.
+                        EN24 Engineering Steel (EN24 / 817M40 / 1.6511) is a high-strength nickel-chromium-molybdenum alloy
+                        steel grade known for exceptional toughness, fatigue resistance, and high tensile strength. Below is
+                        the complete datasheet including composition, properties, heat treatment, and applications.
 
                     </p>
 
@@ -30,47 +35,48 @@
             </div>
         </div>
     </section>
-<!--End breadcrumb area-->
+    <!--End breadcrumb area-->
 
-<style>
+    <style>
+        .material-tabs {
+            background: #ffffff;
+            text-align: center;
+            padding: 15px 0;
+            border-bottom: 1px solid #e5e5e5;
+            position: sticky;
+            /* you missed this */
+            top: 50px;
+            /* and this */
+            z-index: 1020;
+        }
 
-    .material-tabs {
-    background: #ffffff;
-    text-align: center;
-    padding: 15px 0;
-    border-bottom: 1px solid #e5e5e5;
-    position: sticky;   /* you missed this */
-    top: 50px;             /* and this */
-    z-index: 1020;
-}
+        .material-tabs a {
+            margin: 0 14px;
+            font-weight: 600;
+            color: #1b3c61 !important;
+            text-decoration: none;
+            font-size: 16px;
+            transition: 0.25s ease;
+            display: inline-block;
+        }
 
-.material-tabs a {
-    margin: 0 14px;
-    font-weight: 600;
-    color: #1b3c61 !important;
-    text-decoration: none;
-    font-size: 16px;
-    transition: 0.25s ease;
-    display: inline-block;
-}
-
-.material-tabs a:hover {
-    color: #db7227 !important;
-    transform: translateY(-2px);
-}
-</style>
-<div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
-    <div class="container">
-        <a href="#overview">Overview</a> |
-        <a href="#composition">Chemical Composition</a> |
-        <a href="#heat-treatment">Heat Treatment</a> |
-        <a href="#mechanical">Mechanical Properties</a> |
-        <a href="#price">Advantages</a> |
-        <a href="#applications">Applications</a> |
-        <a href="#faq">FAQ</a> |
-        <a href="#contact us">Contact Us</a>
+        .material-tabs a:hover {
+            color: #db7227 !important;
+            transform: translateY(-2px);
+        }
+    </style>
+    <div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
+        <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact us">Contact Us</a>
+        </div>
     </div>
-</div>
 
 
     <section class="sec-padd-top sec-padd-bottom bg-light">
@@ -86,9 +92,9 @@
             <div class="row align-items-center">
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/engineering-steels/engineering-steels-en24.webp') }}" alt="EN24 Alloy Steel Round Bars and Forged Components – Moksh Tubes"
-                        class="img-fluid rounded shadow-sm"
-                        loading="lazy">
+                    <img src="{{ asset('assets/images/engineering-steels/engineering-steels-en24.webp') }}"
+                        alt="EN24 Alloy Steel Round Bars and Forged Components – Moksh Tubes"
+                        class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
                 <!-- Content Right -->
@@ -99,9 +105,13 @@
                             supplier, and exporter of high quality<strong class="text-black"> EN24 steel <a
                                     href="{{ route('products') }}">products</a>,</strong>
                             including Round Bars, Forgings,
-                            Bright Bars, Hex Bars, Flats, Shafts, <a href="{{ route('products.bars-rods.hollow-bars') }}">Hollow Bars</a>, and Custom Components. <a href="{{ url('materials/engineering-steels/engineering-steels-en36') }}">EN36</a>, also known as
+                            Bright Bars, Hex Bars, Flats, Shafts, <a
+                                href="{{ route('products.bars-rods.hollow-bars') }}">Hollow Bars</a>, and Custom Components.
+                            <a href="{{ url('materials/engineering-steels/engineering-steels-en36') }}">EN36</a>, also known
+                            as
                             817M40 or AISI 4340, is a high strength, alloy <a
-                                href="{{ url('materials/engineering-steels/engineering-steels-en8') }}"> engineering steel 8</a> renowned for its
+                                href="{{ url('materials/engineering-steels/engineering-steels-en8') }}"> engineering steel
+                                8</a> renowned for its
                             excellent
                             toughness, fatigue strength, and wear resistance. With high tensile strength and good ductility,
                             EN24 is particularly suitable for heavy duty applications requiring high load bearing capacity.
@@ -113,12 +123,17 @@
                             critical mechanical components. It is widely used in the automotive, aerospace, defense, and
                             general engineering industries.
                         </p>
-                        <p class="fw-semibold mt-3"><strong class="text-black">EN24 Alloy Steel Features:</strong class="text-black"></p>
+                        <p class="fw-semibold mt-3"><strong class="text-black">EN24 Alloy Steel Features:</strong
+                                class="text-black"></p>
                         <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i>High tensile strength and fatigue resistance</li>
-                        <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i>Excellent wear resistance and toughness</li>
-                        <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i>Responds well to heat treatment</li>
-                        <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i>Suitable for shafts, gears, bolts, automotive and aerospace components</li>
+                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i>High
+                                tensile strength and fatigue resistance</li>
+                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i>Excellent
+                                wear resistance and toughness</li>
+                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i>Responds
+                                well to heat treatment</li>
+                            <li class="list-group-item"><i class="bi bi-check-circle-fill text-success me-2"></i>Suitable
+                                for shafts, gears, bolts, automotive and aerospace components</li>
                         </ul>
 
                     </div>
@@ -448,18 +463,16 @@
             </div>
 
             <!-- Product Image Cards (Now centered and responsive) -->
-            <div class="row g-4">
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4 justify-content-center">
                 @foreach ($products as $product)
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
-                        <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ route($product['route']) }}" class="text-decoration-none">
-                                <div class="product-card h-100">
-                                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
-                                        class="img-fluid  w-100">
-                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product['name'] }}</h6>
-                                </div>
-                            </a>
-                        </div>
+                    <div class="col d-flex">
+                        <a href="{{ route($product['route']) }}" class="text-decoration-none w-100">
+                            <div class="product-card h-100">
+                                <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
+                                    class="img-fluid w-100">
+                                <h6 class="product-card-title text-center mt-0 py-4">{{ $product['name'] }}</h6>
+                            </div>
+                        </a>
                     </div>
                 @endforeach
             </div>

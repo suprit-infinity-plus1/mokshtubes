@@ -1,22 +1,30 @@
 @extends('layouts.master')
 
 @section('title', 'Nickel 200 – Commercial Pure Nickel Grade') <!-- 52 chars -->
-@section('meta_description', 'Premium Nickel 200 offers excellent thermal and electrical conductivity along with outstanding corrosion resistance for diverse industrial applications.')
-@section('meta_keywords', 'Nickel 200, Commercial Nickel, Pure Nickel, Thermal Conductivity, Electrical Conductivity, Corrosion Resistant Nickel, Industrial Nickel, Nickel Alloy, High Purity Nickel')
+@section('meta_description',
+    'Premium Nickel 200 offers excellent thermal and electrical conductivity along with
+    outstanding corrosion resistance for diverse industrial applications.')
+@section('meta_keywords',
+    'Nickel 200, Commercial Nickel, Pure Nickel, Thermal Conductivity, Electrical Conductivity,
+    Corrosion Resistant Nickel, Industrial Nickel, Nickel Alloy, High Purity Nickel')
 @section('og_image', asset('assets/images/nickel-based-superalloys/nickel-based-superalloys-200.webp'))
 @section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/nickel-based-superalloys/nickel-based-superalloys-200.webp);">
+    <section class="breadcrumb-area"
+        style="background-image: url(/assets/images/nickel-based-superalloys/nickel-based-superalloys-200.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1>Nickel 200<br> High Purity Nickel with Great Conductivity</h1>
 
-                     <!-- Add your extra content here -->
+                    <!-- Add your extra content here -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                  Nickel 200 is a commercially pure wrought nickel alloy (≥99.0% Ni) known for its outstanding resistance to caustic alkalies, excellent ductility, and exceptional thermal & electrical conductivity. Below is the complete datasheet including chemical composition, mechanical properties, technical specifications, applications, pricing, and FAQs.
+                        Nickel 200 is a commercially pure wrought nickel alloy (≥99.0% Ni) known for its outstanding
+                        resistance to caustic alkalies, excellent ductility, and exceptional thermal & electrical
+                        conductivity. Below is the complete datasheet including chemical composition, mechanical properties,
+                        technical specifications, applications, pricing, and FAQs.
 
                     </p>
                     <!-- End extra content -->
@@ -26,17 +34,17 @@
     </section>
 
     <div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
-    <div class="container">
-        <a href="#overview">Overview</a> |
-        <a href="#composition">Chemical Composition</a> |
-        <a href="#heat-treatment">Heat Treatment</a> |
-        <a href="#mechanical">Mechanical Properties</a> |
-        <a href="#price">Advantages</a> |
-        <a href="#applications">Applications</a> |
-        <a href="#faq">FAQ</a> |
-        <a href="#contact us">Contact Us</a>
+        <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact us">Contact Us</a>
+        </div>
     </div>
-</div>
 
 
     <!--End breadcrumb area-->
@@ -84,7 +92,7 @@
         </div>
     </section>
 
-  {{-- datasheet --}}     
+    {{-- datasheet --}}
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Nickel Based Superalloys 200 Datasheet</h3>
@@ -358,7 +366,7 @@
     </section>
 
 
-     @php
+    @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -459,18 +467,16 @@
             </div>
 
             <!-- Product Image Cards (Now centered and responsive) -->
-            <div class="row g-4">
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4 justify-content-center">
                 @foreach ($products as $product)
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
-                        <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ route($product['route']) }}" class="text-decoration-none">
-                                <div class="product-card h-100">
-                                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
-                                        class="img-fluid  w-100">
-                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product['name'] }}</h6>
-                                </div>
-                            </a>
-                        </div>
+                    <div class="col d-flex">
+                        <a href="{{ route($product['route']) }}" class="text-decoration-none w-100">
+                            <div class="product-card h-100">
+                                <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
+                                    class="img-fluid w-100">
+                                <h6 class="product-card-title text-center mt-0 py-4">{{ $product['name'] }}</h6>
+                            </div>
+                        </a>
                     </div>
                 @endforeach
             </div>
@@ -768,7 +774,7 @@
                     Reach out to <strong>Moksh Tubes & Fittings LLP</strong> your reliable partner for premium nickel alloy
                     products.
                 </p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch

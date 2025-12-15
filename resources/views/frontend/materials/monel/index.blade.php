@@ -1,8 +1,12 @@
 @extends('layouts.master')
 
 @section('title', 'Monel Alloys – Nickel-Copper Grades | MokshTubes') <!-- 53 chars -->
-@section('meta_description', 'Explore Monel 400, K500 & R405 alloys—offering superior corrosion and impact resistance for marine, chemical, and oil & gas applications.')
-@section('meta_keywords', 'Monel Alloys, Monel 400, Monel K500, Monel R405, Nickel-Copper Alloys, Marine Industry Alloys, Chemical Processing Alloys, Oil and Gas Alloys, Corrosion Resistant Alloys, Impact Resistant Alloys')
+@section('meta_description',
+    'Explore Monel 400, K500 & R405 alloys—offering superior corrosion and impact resistance
+    for marine, chemical, and oil & gas applications.')
+@section('meta_keywords',
+    'Monel Alloys, Monel 400, Monel K500, Monel R405, Nickel-Copper Alloys, Marine Industry
+    Alloys, Chemical Processing Alloys, Oil and Gas Alloys, Corrosion Resistant Alloys, Impact Resistant Alloys')
 
 @section('content')
 
@@ -33,17 +37,17 @@
                     [
                         'name' => 'Monel K500',
                         'slug' => 'monel-k500',
-                        'image' => 'assets/images/monel/Monel-k500.webp'
+                        'image' => 'assets/images/monel/Monel-K500.webp',
                     ],
                     [
                         'name' => 'Monel R405',
                         'slug' => 'monel-r405',
-                        'image' => 'assets/images/monel/Monel-R405.webp'
+                        'image' => 'assets/images/monel/Monel-R405.webp',
                     ],
                     [
                         'name' => 'Monel 400',
                         'slug' => 'monel-400',
-                        'image' => 'assets/images/material/Monel-400.webp'
+                        'image' => 'assets/images/monel/Monel-400.webp',
                     ],
                 ];
             @endphp
@@ -73,7 +77,7 @@
         </div>
     </section>
 
-     <section class="blog-section sec-padd2">
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>

@@ -2,8 +2,8 @@
 
 @section('title', 'Duplex Steel S31803 | High Strength & Corrosion Resistance')
 
-@section('meta_description',
-    'Buy Duplex Stainless Steel S31803 pipes, tubes & fittings from Moksh Tubes LLP. High strength, corrosion resistance, and durability for harsh conditions.')
+@section('meta_description', 'Buy Duplex Stainless Steel S31803 pipes, tubes & fittings from Moksh Tubes LLP. High
+    strength, corrosion resistance, and durability for harsh conditions.')
 
 @section('meta_keywords',
     'Duplex Stainless Steel S31803, S31803 pipes, S31803 tubes, S31803 fittings,
@@ -20,12 +20,14 @@
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1>Duplex Stainless Steel S31803 <br> High Strength Corrosion Resistant Alloy</h1>
- <!-- Add your extra content here -->
+                    <!-- Add your extra content here -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-            Duplex Stainless Steel S31803 is one of the most widely used duplex grades, combining exceptional corrosion resistance, high strength, and excellent stress corrosion cracking resistance. Below is the complete datasheet including composition, properties, heat treatment, and applications.
+                        Duplex Stainless Steel S31803 is one of the most widely used duplex grades, combining exceptional
+                        corrosion resistance, high strength, and excellent stress corrosion cracking resistance. Below is
+                        the complete datasheet including composition, properties, heat treatment, and applications.
 
-                    <!-- End extra content -->
+                        <!-- End extra content -->
 
                 </div>
             </div>
@@ -33,44 +35,45 @@
     </section>
 
     <style>
+        .material-tabs {
+            background: #ffffff;
+            text-align: center;
+            padding: 15px 0;
+            border-bottom: 1px solid #e5e5e5;
+            position: sticky;
+            /* you missed this */
+            top: 50px;
+            /* and this */
+            z-index: 1020;
+        }
 
-    .material-tabs {
-    background: #ffffff;
-    text-align: center;
-    padding: 15px 0;
-    border-bottom: 1px solid #e5e5e5;
-    position: sticky;   /* you missed this */
-    top: 50px;             /* and this */
-    z-index: 1020;
-}
+        .material-tabs a {
+            margin: 0 14px;
+            font-weight: 600;
+            color: #1b3c61 !important;
+            text-decoration: none;
+            font-size: 16px;
+            transition: 0.25s ease;
+            display: inline-block;
+        }
 
-.material-tabs a {
-    margin: 0 14px;
-    font-weight: 600;
-    color: #1b3c61 !important;
-    text-decoration: none;
-    font-size: 16px;
-    transition: 0.25s ease;
-    display: inline-block;
-}
-
-.material-tabs a:hover {
-    color: #db7227 !important;
-    transform: translateY(-2px);
-}
-</style>
-<div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
-    <div class="container">
-        <a href="#overview">Overview</a> |
-        <a href="#composition">Chemical Composition</a> |
-        <a href="#heat-treatment">Heat Treatment</a> |
-        <a href="#mechanical">Mechanical Properties</a> |
-        <a href="#price">Advantages</a> |
-        <a href="#applications">Applications</a> |
-        <a href="#faq">FAQ</a> |
-        <a href="#contact us">Contact Us</a>
+        .material-tabs a:hover {
+            color: #db7227 !important;
+            transform: translateY(-2px);
+        }
+    </style>
+    <div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
+        <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact us">Contact Us</a>
+        </div>
     </div>
-</div>
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">
@@ -115,7 +118,7 @@
         </div>
     </section>
 
-    
+
     {{-- datasheet --}}
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
@@ -310,7 +313,7 @@
     </section>
 
 
-     @php
+    @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -408,18 +411,16 @@
             </div>
 
             <!-- Product Image Cards (Now centered and responsive) -->
-            <div class="row g-4">
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4 justify-content-center">
                 @foreach ($products as $product)
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
-                        <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ route($product['route']) }}" class="text-decoration-none">
-                                <div class="product-card h-100">
-                                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
-                                        class="img-fluid  w-100">
-                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product['name'] }}</h6>
-                                </div>
-                            </a>
-                        </div>
+                    <div class="col d-flex">
+                        <a href="{{ route($product['route']) }}" class="text-decoration-none w-100">
+                            <div class="product-card h-100">
+                                <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
+                                    class="img-fluid w-100">
+                                <h6 class="product-card-title text-center mt-0 py-4">{{ $product['name'] }}</h6>
+                            </div>
+                        </a>
                     </div>
                 @endforeach
             </div>
@@ -680,7 +681,8 @@
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    For inquiries, pricing, or customized Duplex Stainless Steel S31803 solutions, <strong>Moksh Tubes & Fittings
+                    For inquiries, pricing, or customized Duplex Stainless Steel S31803 solutions, <strong>Moksh Tubes &
+                        Fittings
                         LLP</strong> your reliable partner in Duplex Stainless Steel S31803.</p>
                 <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
@@ -697,8 +699,8 @@
 
 @endsection
 @section('jsscripts')
-<!-- FAQ Schema Markup -->
-<script type="application/ld+json">
+    <!-- FAQ Schema Markup -->
+    <script type="application/ld+json">
     @verbatim
 {
   "@context": "https://schema.org",

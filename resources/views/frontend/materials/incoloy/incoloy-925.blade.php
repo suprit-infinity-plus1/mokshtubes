@@ -45,17 +45,20 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"> <a href="{{ route('index') }}">MOKSH TUBES & FITTINGS LLP</a></strong> is a trusted global
+                            <strong class="text-black"> <a href="{{ route('index') }}">MOKSH TUBES & FITTINGS
+                                    LLP</a></strong> is a trusted global
                             manufacturer, supplier, exporter, importer, and stockist of high quality INCOLOY 925 (UNS
                             N09925) <a href="{{ route('products') }}">products</a>. We offer a complete portfolio including
                             <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings, Flanges,
                             Fasteners, Sheets & Plates, Coils, Wires, Round Bars, Flat Bars, Welding Rods, Wire Mesh, and
-                            <a href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a> other Custom Fabricated Components crafted from this versatile alloy.
+                            <a href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a> other Custom Fabricated
+                            Components crafted from this versatile alloy.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
                             <strong class="text-black">INCOLOY 925</strong class="text-black"> is a precipitation-hardenable
-                            <a href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a> iron chromium alloy engineered for superior strength and resistance in extreme
+                            <a href="{{ route('materials.nickel-Based-Superalloys') }}">nickel</a> iron chromium alloy
+                            engineered for superior strength and resistance in extreme
                             environments. Enriched with molybdenum, copper, <a
                                 href="{{ route('materials.titanium') }}">titanium</a>, and <a
                                 href="{{ route('materials.aluminium-Alloys') }}">aluminum</a>, it delivers excellent
@@ -69,7 +72,7 @@
             </div>
         </div>
     </section>
-  {{-- datasheet --}}
+    {{-- datasheet --}}
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Incoloy 925 Datasheet</h3>
@@ -415,18 +418,16 @@
             </div>
 
             <!-- Product Image Cards (Now centered and responsive) -->
-            <div class="row g-4">
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4 justify-content-center">
                 @foreach ($products as $product)
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
-                        <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ route($product['route']) }}" class="text-decoration-none">
-                                <div class="product-card h-100">
-                                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
-                                        class="img-fluid  w-100">
-                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product['name'] }}</h6>
-                                </div>
-                            </a>
-                        </div>
+                    <div class="col d-flex">
+                        <a href="{{ route($product['route']) }}" class="text-decoration-none w-100">
+                            <div class="product-card h-100">
+                                <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
+                                    class="img-fluid w-100">
+                                <h6 class="product-card-title text-center mt-0 py-4">{{ $product['name'] }}</h6>
+                            </div>
+                        </a>
                     </div>
                 @endforeach
             </div>

@@ -2,25 +2,32 @@
 
 @section('title', 'Aluminium Alloy 6082 T6 | Structural Grade Aluminium')
 
-@section('meta_description', 'Aluminium 6082 T6 – strong, corrosion resistant alloy ideal for structural, transport, and heavy-duty engineering applications.')
+@section('meta_description', 'Aluminium 6082 T6 – strong, corrosion resistant alloy ideal for structural, transport, and
+    heavy-duty engineering applications.')
 
-@section('meta_keywords', 'Aluminium Alloy 6082 T6, Structural Grade Aluminium, Aluminium 6082 T6 Pipes, Aluminium 6082 T6 Tubes, Aluminium 6082 T6 Sheets, High Strength Aluminium, Corrosion Resistant Aluminium, Structural Aluminium Alloys, Transport Industry Aluminium, Industrial Aluminium Grades')
+@section('meta_keywords', 'Aluminium Alloy 6082 T6, Structural Grade Aluminium, Aluminium 6082 T6 Pipes, Aluminium 6082
+    T6 Tubes, Aluminium 6082 T6 Sheets, High Strength Aluminium, Corrosion Resistant Aluminium, Structural Aluminium Alloys,
+    Transport Industry Aluminium, Industrial Aluminium Grades')
 @section('og_image', asset('assets/images/aluminium-alloys/aluminium-alloys-6082-t6.webp'))
 @section('og_type', 'article')
 
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/aluminium-alloys/aluminium-alloys-6082-t6.webp);">
+    <section class="breadcrumb-area"
+        style="background-image: url(/assets/images/aluminium-alloys/aluminium-alloys-6082-t6.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1>Aluminium 6082 T6 <br> Structural Grade Corrosion-Resistant Alloy</h1>
 
-                      <!-- Add your extra content here -->
+                    <!-- Add your extra content here -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                         Aluminium Alloy 6082-T6 is a medium-strength heat-treatable aluminium alloy known for its excellent corrosion resistance, high strength, good weldability, and superior machinability. Below is the complete datasheet including chemical composition, heat treatment, mechanical properties, applications, and pricing.
+                        Aluminium Alloy 6082-T6 is a medium-strength heat-treatable aluminium alloy known for its excellent
+                        corrosion resistance, high strength, good weldability, and superior machinability. Below is the
+                        complete datasheet including chemical composition, heat treatment, mechanical properties,
+                        applications, and pricing.
 
                     </p>
                     <!-- End extra content -->
@@ -31,18 +38,18 @@
     </section>
 
 
-<div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
-    <div class="container">
-        <a href="#overview">Overview</a> |
-        <a href="#composition">Chemical Composition</a> |
-        <a href="#heat-treatment">Heat Treatment</a> |
-        <a href="#mechanical">Mechanical Properties</a> |
-        <a href="#price">Advantages</a> |
-        <a href="#applications">Applications</a> |
-        <a href="#faq">FAQ</a> |
-        <a href="#contact us">Contact Us</a>
+    <div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
+        <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact us">Contact Us</a>
+        </div>
     </div>
-</div>
 
 
     <!--End breadcrumb area-->
@@ -85,7 +92,7 @@
         </div>
     </section>
 
-   
+
     {{-- datasheet --}}
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
@@ -302,7 +309,7 @@
     </section>
 
 
-     @php
+    @php
         $products = [
             [
                 'name' => 'Seamless Pipes',
@@ -398,18 +405,16 @@
             </div>
 
             <!-- Product Image Cards (Now centered and responsive) -->
-            <div class="row g-4">
-                 @foreach ($products as $product)
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex">
-                        <div class="mx-auto" style="width: 100%; max-width: 300px;">
-                            <a href="{{ route($product['route']) }}" class="text-decoration-none">
-                                <div class="product-card h-100">
-                                    <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
-                                        class="img-fluid  w-100">
-                                    <h6 class="product-card-title text-center mt-2 px-2">{{ $product['name'] }}</h6>
-                                </div>
-                            </a>
-                        </div>
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4 justify-content-center">
+                @foreach ($products as $product)
+                    <div class="col d-flex">
+                        <a href="{{ route($product['route']) }}" class="text-decoration-none w-100">
+                            <div class="product-card h-100">
+                                <img src="{{ asset($product['image']) }}" alt="{{ $product['name'] }}"
+                                    class="img-fluid w-100">
+                                <h6 class="product-card-title text-center mt-0 py-4">{{ $product['name'] }}</h6>
+                            </div>
+                        </a>
                     </div>
                 @endforeach
             </div>
@@ -676,7 +681,7 @@
                 <p>
                     For inquiries or to request a quote for Aluminium Alloy 6082-T6 products, <strong>Moksh Tubes & Fittings
                         LLP</strong> your trusted partner for premium aluminium materials</p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch
@@ -691,7 +696,7 @@
 
 @endsection
 @section('jsscripts')
-<script type="application/ld+json">
+    <script type="application/ld+json">
     @verbatim
 {
   "@context": "https://schema.org",
