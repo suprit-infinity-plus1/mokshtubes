@@ -29,6 +29,8 @@ Route::get('/blogs', [MainController::class, 'blogs'])->name('blogs');
 Route::get('/blogs/{slug}', [MainController::class, 'specificBlog'])->name('frontend.single-blog');
 Route::post('/lead-capture', [DatasheetLeadController::class, 'store'])->name('lead.capture');
 
+Route::post('/sendmail', [MainController::class, 'sendMail'])->name('sendmail');
+
 Route::get('/materials/hastelloy', [MainController::class, 'hastelloy'])->name('materials.hastelloy');
 Route::get('/materials/hastelloy/{slug}', [MainController::class, 'hastelloyGrade'])->name('materials.hastelloy.grade');
 Route::get('/materials/monel', [MainController::class, 'monel'])->name('materials.monel');

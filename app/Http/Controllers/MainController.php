@@ -5,7 +5,11 @@ namespace App\Http\Controllers;
 use App\Models\Blog;
 use App\Models\BlogCategory;
 use App\Models\Tag;
+use Illuminate\Http\Client\Request;
 use Illuminate\Support\Facades\Storage;
+use PHPMailer\PHPMailer\Exception;
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
 
 class MainController extends Controller
 {
@@ -16,6 +20,62 @@ class MainController extends Controller
 
         return view('frontend.index', compact('blogs'));
 
+    }
+
+    public function sendMail(Request $request)
+    {
+        $request->validate([
+            'form_name' => 'required|string|max:50',
+            'form_email' => 'required|email|max:100',
+            'form_phone' => 'nullable|max:20',
+            'form_message' => 'required|max:1000',
+            'website' => 'nullable',
+        ]);
+
+        // if ($request->website != '') {
+        //     return response()->json([
+        //         'status' => 'error',
+        //         'message' => 'Bot detected',
+        //     ], 422);
+        // }
+
+        if (! empty($request->website)) {
+            return response()->json([
+                'status' => 'error',
+                'message' => 'Bot detected',
+            ], 422);
+        }
+        $mail = new PHPMailer(true);
+
+        try {
+            $mail->isSMTP();
+            $mail->Host = env('MAIL_HOST');
+            $mail->SMTPAuth = true;
+            $mail->Username = env('MAIL_USERNAME');
+            $mail->Password = env('MAIL_PASSWORD');
+            $mail->Port = env('MAIL_PORT');
+            $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+            $mail->SMTPAutoTLS = true;
+            $mail->SMTPDebug = SMTP::DEBUG_SERVER;
+            $mail->setFrom(env('MAIL_FROM_ADDRESS'), env('MAIL_FROM_NAME'));
+            $mail->addAddress('supritdagade77@gmail.com');
+            $mail->addBCC('supritdagade77@gmail.com');
+            $mail->isHTML(true);
+            $mail->Subject = 'New Website Enquiry';
+            $mail->Body = nl2br($request->form_message);
+            $mail->send();
+
+            return response()->json([
+                'status' => 'success',
+                'message' => 'Mail sent',
+            ]);
+
+        } catch (Exception $e) {
+            return response()->json([
+                'status' => 'error',
+                'message' => 'Email sending failed',
+            ], 500);
+        }
     }
 
     public function aboutUs()

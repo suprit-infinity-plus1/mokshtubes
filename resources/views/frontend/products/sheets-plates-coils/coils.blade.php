@@ -6,11 +6,12 @@
 @section('meta_keywords',
     'Stainless Steel Coils, Carbon Steel Coils, Alloy Coils, Metal Coils Supplier, Industrial
     Metal Coils, Custom Metal Coils, High-Quality Metal Coils, Durable Metal Coils, Precision Metal Coils, Mokshtubes')
-    @section('og_image', asset('assets/images/product/Sheets-Plates-and-Coils/Metal-Coils.webp'))
+@section('og_image', asset('assets/images/product/Sheets-Plates-and-Coils/Metal-Coils.webp'))
 @section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/Sheets-Plates-and-Coils/Metal-Coils.webp);">
+    <section class="breadcrumb-area"
+        style="background-image: url(/assets/images/product/Sheets-Plates-and-Coils/Metal-Coils.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -40,8 +41,8 @@
                     <p class="fs-6 mb-3 text-justify">
                         <strong class="text-black">Metal Coils</strong> are a fundamental raw material used across
                         manufacturing, construction, automotive, and industrial applications. Produced by hot rolling or
-                        cold rolling <a href="{{ url('products/bars-rods/flat-bars') }}">flat</a> steel into continuous <a
-                            href="{{ url('products/sheets-plates-coils/Strips') }}">strips</a> and winding them into coils,
+                        cold rolling <a href="{{ url('products/bars-rods/flat-bars') }}">flat</a> steel into continuous
+                        strips and winding them into coils,
                         they provide ease of
                         transport, storage, and processing.
                     </p>
@@ -917,7 +918,7 @@
                 }
             ]
             }
-            
+
         @endverbatim
     </script>
 @endsection

@@ -30,8 +30,8 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/product/Flat-Bars.webp') }}"
-                        alt="Flat Bars" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/product/Flat-Bars.webp') }}" alt="Flat Bars"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Right Content -->
@@ -542,7 +542,7 @@
                                 <tr class="t-row">
                                     <td>Stainless Steel Flat Bar Sizes</td>
                                     <td><a
-                                            href="{{ url('materials\austenitic-stainless-steel\austenitic-stainless-steel-304') }}">304</a>,
+                                            href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-304') }}">304</a>,
                                         304L, 316, 316L, 310, 321, 347</td>
                                 </tr>
                                 <tr class="t-row">
@@ -1110,7 +1110,7 @@
                 }
             ]
             }
-        
+
         @endverbatim
     </script>
 @endsection

@@ -793,6 +793,9 @@
                             action="{{ url('sendmail') }}" method="post">
                             @csrf
                             <div class="row">
+                                <!-- Honeypot Anti-Bot Field -->
+                                <input type="text" name="website" style="display:none !important;" tabindex="-1"
+                                    autocomplete="off">
                                 <div class="col-md-12 mb-3">
                                     <input class="form-control" type="text" name="form_name"
                                         placeholder="Your Name*" required>
@@ -993,14 +996,14 @@
                 });
             });
         </script>
-        {{-- <script>
+        <script>
             document.addEventListener("DOMContentLoaded", function() {
                 setTimeout(function() {
                     var contactModal = new bootstrap.Modal(document.getElementById('contactFormModal'));
                     contactModal.show();
-                }, 15000);
+                }, 1000);
             });
-        </script> --}}
+        </script>
 
 
 
