@@ -1,10 +1,12 @@
 @extends('layouts.master')
 @section('title', 'Hollow Bars – Stainless, Alloy & MS Mokshtubes') <!-- 53 characters -->
-@section('meta_description', 'Mokshtubes supplies high-quality stainless steel, MS, alloy, aluminium & bronze hollow
+@section('meta_description',
+    'Mokshtubes supplies high-quality stainless steel, MS, alloy, aluminium & bronze hollow
     bars in custom sizes, grades & worldwide delivery.') <!-- 153 characters -->
-@section('meta_keywords', 'Hollow Bars, Stainless Hollow Bars, Alloy Hollow Bars, MS Hollow Bars, Aluminium Hollow Bars,
+@section('meta_keywords',
+    'Hollow Bars, Stainless Hollow Bars, Alloy Hollow Bars, MS Hollow Bars, Aluminium Hollow Bars,
     Bronze Hollow Bars')
-    @section('og_image', asset('assets/images/product/Hollow-Bars.webp'))
+@section('og_image', asset('assets/images/product/Hollow-Bars.webp'))
 @section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
@@ -29,8 +31,8 @@
             <div class="row align-items-center">
                 <!-- Left Image -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/product/Hollow-Bars.webp') }}"
-                        alt="Hollow Bars" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/product/Hollow-Bars.webp') }}" alt="Hollow Bars"
+                        class="img-fluid rounded shadow-sm">
                 </div>
 
                 <!-- Right Content -->
@@ -631,9 +633,9 @@
                                     <td><a
                                             href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-304') }}">304</a>,
                                         304L, 316, 316L, <a
-                                            href="{{ url('frontend/materials/austenitic-stainless-steel/austenitic-stainless-steel-310') }}">310</a>,
+                                            href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-310') }}">310</a>,
                                         321, <a
-                                            href="{{ url('frontend/materials/austenitic-stainless-steel/austenitic-stainless-steel-347') }}">347</a>
+                                            href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-347') }}">347</a>
                                         <br>
                                         <small>(Corrosion resistance & machining)</small>
                                     </td>
