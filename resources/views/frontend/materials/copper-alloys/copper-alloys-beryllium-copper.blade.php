@@ -123,7 +123,7 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Cobalt + Nickel</td>
-                                    <td>0.20 max</td>
+                                    <td>0.20 – 0.50 </td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Copper</td>
@@ -131,15 +131,15 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Iron</td>
-                                    <td>0.15 max</td>
+                                    <td>0.15 </td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Lead</td>
-                                    <td>0.02 max</td>
+                                    <td>0.02 </td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Other Elements</td>
-                                    <td>0.10 max</td>
+                                    <td>0.10 </td>
                                 </tr>
                                 {{-- <tr class="t-row">
                                     <td>Phosphorus</td>
