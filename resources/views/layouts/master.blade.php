@@ -71,10 +71,21 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" /> --}}
     <!-- Favicon -->
     {{-- <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/images/favicon/apple-touch-icon.png') }}"> --}}
-    <link rel="icon" type="image/png" href="{{ asset('assets/images/favicon/logo-moksh-32x32.png') }}"
+    {{-- <link rel="icon" type="image/png" href="{{ asset('assets/images/favicon/logo-moksh-32x32.png') }}"
         sizes="32x32">
     <link rel="icon" type="image/png" href="{{ asset('assets/images/favicon/logo-moksh-16x16.png') }}"
-        sizes="16x16">
+        sizes="16x16"> --}}
+
+
+    <link rel="icon" href="{{ asset('assets/images/favicon/favicon.ico') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('assets/images/favicon/favicon.ico') }}" type="image/x-icon">
+
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="{{ asset('assets/images/favicon/logo-moksh-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16"
+        href="{{ asset('assets/images/favicon/logo-moksh-16x16.png') }}">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/images/favicon/apple-touch-icon.png') }}">
 
     <!-- Fixing Internet Explorer-->
     <!--[if lt IE 9]>
@@ -376,9 +387,11 @@
                                 </div>
                                 <div class="collapse navbar-collapse clearfix">
                                     <ul class="navigation navbar-nav me-auto mb-2 mb-lg-0 clearfix">
-                                        <li class="nav-item"><a class="nav-link" href="{{ route('index') }}">Home</a>
+                                        <li class="nav-item"><a class="nav-link"
+                                                href="{{ route('index') }}">Home</a>
                                         </li>
-                                        <li class="nav-item"><a class="nav-link" href="{{ route('about-us') }}">About
+                                        <li class="nav-item"><a class="nav-link"
+                                                href="{{ route('about-us') }}">About
                                                 Us</a></li>
                                         {{-- <li class="nav-item dropdown"><a class="nav-link"
                                                 href="{{ url('/products') }}" data-bs-toggle="dropdown">Products</a></li> --}}
