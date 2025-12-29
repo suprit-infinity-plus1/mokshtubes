@@ -33,7 +33,8 @@
     <meta name="keywords" content="@yield('meta_keywords', 'mokshtubes')">
 
     {{-- Canonical Tag --}}
-    <link rel="canonical" href="@yield('canonical', url()->current())">
+    <link rel="canonical" href="@yield('canonical', url()->fullUrl())">
+    {{-- <link rel="canonical" href="@yield('canonical', url()->current())"> --}}
     <!-- Individual Page OG Override -->
     {{-- @yield('meta') --}}
 
