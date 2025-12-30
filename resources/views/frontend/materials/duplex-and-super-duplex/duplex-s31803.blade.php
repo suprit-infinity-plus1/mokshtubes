@@ -2,7 +2,8 @@
 
 @section('title', 'Duplex Steel S31803 | High Strength & Corrosion Resistance')
 
-@section('meta_description', 'Buy Duplex Stainless Steel S31803 pipes, tubes & fittings from Moksh Tubes LLP. High
+@section('meta_description',
+    'Buy Duplex Stainless Steel S31803 pipes, tubes & fittings from Moksh Tubes LLP. High
     strength, corrosion resistance, and durability for harsh conditions.')
 
 @section('meta_keywords',
@@ -26,42 +27,12 @@
                         Duplex Stainless Steel S31803 is one of the most widely used duplex grades, combining exceptional
                         corrosion resistance, high strength, and excellent stress corrosion cracking resistance. Below is
                         the complete datasheet including composition, properties, heat treatment, and applications.
-
                         <!-- End extra content -->
-
                 </div>
             </div>
         </div>
     </section>
 
-    <style>
-        .material-tabs {
-            background: #ffffff;
-            text-align: center;
-            padding: 15px 0;
-            border-bottom: 1px solid #e5e5e5;
-            position: sticky;
-            /* you missed this */
-            top: 50px;
-            /* and this */
-            z-index: 1020;
-        }
-
-        .material-tabs a {
-            margin: 0 14px;
-            font-weight: 600;
-            color: #1b3c61 !important;
-            text-decoration: none;
-            font-size: 16px;
-            transition: 0.25s ease;
-            display: inline-block;
-        }
-
-        .material-tabs a:hover {
-            color: #db7227 !important;
-            transform: translateY(-2px);
-        }
-    </style>
     <div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
         <div class="container">
             <a href="#overview">Overview</a> |
@@ -76,7 +47,7 @@
     </div>
 
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Super Duplex S31803 | Product Overview</h2>
@@ -97,20 +68,29 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black">Duplex Stainless Steel S31803 </strong> is a ferritic <a
-                                href="{{ route('materials.austenitic-stainless-Steel') }}">austenitic
-                                stainless steel</a> that combines excellent corrosion resistance with high mechanical
-                            strength. It
-                            is one of the most widely used duplex grades, containing about 22% chromium, 5–6% nickel, and 3%
-                            molybdenum, along with nitrogen to enhance corrosion resistance.
+                            <strong class="text-black"> Duplex Stainless Steel S31803</strong> (commonly known as 2205
+                            Duplex) is a ferritic<a href="{{ route('materials.austenitic-stainless-Steel') }}"> austenitic
+                                stainless
+                                steel </a>designed for industries that need high strength, chloride resistance, and
+                            long-term
+                            durability.
+                        </p>
+                        <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
+                            It contains approximately 22% Chromium, 5–6% Nickel, 3% Molybdenum, and Nitrogen, which boosts
+                            its pitting, crevice, and stress corrosion cracking resistance far beyond conventional stainless
+                            steels like 304 and 316.
+                        </p>
+                        <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
+                            At <strong><a href="{{ route('index') }}"> Moksh Tubes & Fittings LLP</a></strong>, we supply
+                            S31803 in multiple forms including pipes, tubes, sheets, plates, coils, bars, fittings, flanges,
+                            and custom-forged components.
                         </p>
 
                         <p class="fs-6 text-justify" style="text-align: justify;">
-                            S31803 is designed for use in severe environments where pitting, crevice corrosion, and stress
-                            corrosion cracking are a concern. <a href="{{ route('index') }}">MOKSH TUBES & FITTINGS LLP</a>
-                            is a trusted supplier, exporter, importer, and stockist of Duplex S31803 products such as <a
-                                href="{{ route('products') }}">pipes, tubes, fittings, flanges, plates, and custom
-                                components</a>.
+                            With its superior mechanical strength, Duplex S31803 is used in oil & gas, desalination, marine
+                            engineering, chemical processing, pulp & paper, and structural applications.</br>
+                            All materials are supplied with EN 10204 3.1 / 3.2 MTC, ensuring complete traceability and
+                            compliance.
                         </p>
                     </div>
                 </div>
@@ -160,10 +140,65 @@
     </section>
     {{-- end datasheet --}}
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>Duplex Stainless Steel S31803 Specifications</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class = "t-row">
+                                    <th>Category</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class = "t-row">
+                                    <td>Grade</td>
+                                    <td>Duplex S31803 / UNS S31803 / 2205 / EN 1.4462</td>
+                                </tr>
+                                <tr class = "t-row">
+                                    <td>Type</td>
+                                    <td>Duplex Stainless Steel (Austenitic–Ferritic)</td>
+                                </tr>
+                                <tr class = "t-row">
+                                    <td>Typical Chemical Composition</td>
+                                    <td>22% Cr, 5–6% Ni, 3% Mo, 0.14–0.20% N</td>
+                                </tr>
+                                <tr class = "t-row">
+                                    <td>Conditions</td>
+                                    <td>Annealed, Solution Annealed, Hot Rolled, Cold Worked</td>
+                                </tr>
+                                <tr class = "t-row">
+                                    <td>Heat Treatment</td>
+                                    <td>Solution Annealing</td>
+                                </tr>
+                                <tr class = "t-row">
+                                    <td>Testing</td>
+                                    <td>Tensile, Hardness, Microstructure, PMI, UT, IGC</td>
+                                </tr>
+                                <tr class = "t-row">
+                                    <td>Certification</td>
+                                    <td>EN 10204 3.1 / 3.2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div> <!-- col-lg-8 -->
+
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of Duplex Stainless Steel S31803</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -179,15 +214,15 @@
                             <tbody class="text-center">
                                 <tr class="t-row">
                                     <td>Carbon (C)</td>
-                                    <td>≤ 0.03</td>
+                                    <td>0.03</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Manganese (Mn)</td>
-                                    <td>≤ 2.00</td>
+                                    <td>2.00</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Silicon (Si)</td>
-                                    <td>≤ 1.00</td>
+                                    <td>1.00</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Chromium (Cr)</td>
@@ -211,7 +246,10 @@
                                 </tr>
                             </tbody>
                         </table>
-
+                        <p class="mt-3 text-center">
+                            Duplex S31803 achieves its strength and corrosion resistance through a balanced 50/50
+                            ferrite–austenite microstructure.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -219,99 +257,304 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color: #174268;">Technical Composition of Duplex S31803</h2>
             </div>
-
-            <!-- Physical Properties Table -->
-            {{-- <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Imperial</th>
-                                    <th>Metric</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Density</td>
-                                    <td>0.0975 lb/in³</td>
-                                    <td>2.70 g/cm³</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Melting Point</td>
-                                    <td>1070 – 1090 °F</td>
-                                    <td>575 – 590 °C</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Elastic Modulus</td>
-                                    <td>10 × 10³ ksi</td>
-                                    <td>69 GPa</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Thermal Conductivity</td>
-                                    <td>167 W/m-K</td>
-                                    <td>—</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Electrical Resistivity</td>
-                                    <td>40% IACS</td>
-                                    <td>—</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div> --}}
-
             <!-- Mechanical Properties Table -->
             <div class="row justify-content-center">
                 <div class="col-lg-10">
-                    <h3 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h3>
+                    <h3 class="text-center mb-3" style="color: #db7227;">Technical & Physical Properties of Duplex S31803
+                    </h3>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
                                     <th>Property</th>
-                                    <th>Value</th>
+                                    <th>Metric</th>
+                                    <th>Imperial</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Tensile Strength</td>
-                                    <td>620 – 880 MPa</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Yield Strength (0.2% Offset)</td>
-                                    <td>450 – 550 MPa</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Elongation</td>
-                                    <td>25 – 30%</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Hardness</td>
-                                    <td>290 HB (max)</td>
-                                </tr>
-                                <tr class="t-row">
                                     <td>Density</td>
-                                    <td>7.8 g/cm³</td>
+                                    <td>7.80 g/cm³</td>
+                                    <td>0.281 lb/in³</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Elastic Modulus</td>
+                                    <td>200 GPa</td>
+                                    <td>29,000 ksi</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Shear Modulus</td>
+                                    <td>77 GPa</td>
+                                    <td>11,200 ksi</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Melting Range</td>
+                                    <td>1350–1450°C</td>
+                                    <td>2460–2640°F</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Thermal Conductivity</td>
+                                    <td>19 W/m·K</td>
+                                    <td>–</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Electrical Resistivity</td>
+                                    <td>0.90 µΩ·m</td>
+                                    <td>–</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Specific Heat</td>
+                                    <td>480 J/kg·K</td>
+                                    <td>–</td>
                                 </tr>
                             </tbody>
                         </table>
+                        <p class="mt-3 text-center">
+                            Duplex S31803 has double the strength of 304/316 stainless steel and significantly higher
+                            pitting resistance.
+                        </p>
+                    </div>
+                </div>
+            </div>
 
+            <!-- Mechanical Properties Table -->
+            <div class="row justify-content-center mt-5" id="heat-treatment">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color: #db7227;">Heat Treatment of Duplex Stainless Steel S31803
+                    </h4>
+
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Heat Treatment Process</th>
+                                    <th>Temperature (°C)</th>
+                                    <th>Cooling Method</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr class="t-row">
+                                    <td>Solution Annealing</td>
+                                    <td>1020–1100°C</td>
+                                    <td>Rapid water quenching</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Stress Relieving</td>
+                                    <td>300–350°C</td>
+                                    <td>Air cool</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Hot Working</td>
+                                    <td>950–1200°C</td>
+                                    <td>Water quench after forming</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="mt-3 text-center">
+                            ⚠ Important: Duplex steels must be cooled quickly after heat treatment to prevent formation of
+                            sigma
+                            phase, which reduces corrosion resistance.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color: #174268;">Mechanical Properties of Duplex Stainless Steel S31803</h2>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Metric Value</th>
+                            <th>Notes</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Tensile Strength (UTS)</td>
+                            <td>620 MPa</td>
+                            <td>High strength due to duplex microstructure</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Yield Strength (0.2% Proof)</td>
+                            <td>450 MPa</td>
+                            <td>Typically higher than austenitic stainless steels (304/316)</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elongation (in 50 mm)</td>
+                            <td>25–30%</td>
+                            <td>Good ductility</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Hardness (Brinell, HBW)</td>
+                            <td>293 HB</td>
+                            <td>Maximum allowable hardness</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Hardness (Rockwell C)</td>
+                            <td>30 HRC max</td>
+                            <td>Conversion from Brinell</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Impact Toughness (Charpy V-notch)</td>
+                            <td>80 J at room temp</td>
+                            <td>Excellent toughness</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Modulus of Elasticity</td>
+                            <td>200 GPa</td>
+                            <td>Similar to stainless steels</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Poisson’s Ratio</td>
+                            <td>0.3</td>
+                            <td>Typical for steels</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Density</td>
+                            <td>7.80 g/cm³</td>
+                            <td>—</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Melting Range</td>
+                            <td>1350–1450°C</td>
+                            <td>—</td>
+                        </tr>
+                    </tbody>
+                </table>
+                {{-- <p class="mt-3 text-center">
+                    After quenching & tempering, 1055 steel hardness can reach 45–55 HRC depending on cooling media.
+                </p> --}}
+
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center mt-5" id="available forms">
+                <h2>Available Forms & Size Range</h2>
+            </div>
+
+            <div class="row justify-content-center mb-4" style="text-align: justify;">
+                <div class="col-lg-10">
+                    <p class="fs-6 text-center">
+                        We supply Duplex Stainless Steel S31803 in the following product forms and dimensions:
+                    </p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color:#db7227;">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th style="width: 40%;">Product Form</th>
+                                    <th>Size Range / Description</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr class="t-row">
+                                    <td>Pipes & Tubes (Seamless/Welded)</td>
+                                    <td>OD 6 mm – 600 mm; WT 1–50 mm</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Sheets & Plates</td>
+                                    <td>1 mm – 100 mm (Width up to 3000 mm)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Coils & Strips</td>
+                                    <td>0.5 mm – 8 mm</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Round Bars</td>
+                                    <td>10 mm – 450 mm</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Flats, Square, Hex Bars</td>
+                                    <td>Custom</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Forged Blocks, Rings, Bushings</td>
+                                    <td>Custom per drawing</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Pipe Fittings & Flanges</td>
+                                    <td>According to ASME, ASTM, DIN, EN</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Fasteners</td>
+                                    <td>M6 – M100</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Standards & Equivalent Grades Section -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>S31803, S32205</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>EN</td>
+                            <td>1.4462</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>A182 F51, A240 2205, A479</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>WNR</td>
+                            <td>1.4462</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>JIS</td>
+                            <td>SUS 329J3L</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ISO</td>
+                            <td>31803</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </section>
+    <!-- End Standards & Equivalent Grades Section -->
 
     @php
         $products = [
@@ -369,7 +612,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Duplex Stainless Steel S31803</h2>
@@ -425,10 +668,11 @@
                 @endforeach
             </div>
         </div>
+
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -482,7 +726,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Duplex Stainless Steel S31803</h2>
@@ -595,8 +839,30 @@
         </div>
     </section>
 
+
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>Duplex Stainless Steel S31803 Price per kg in India</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹350 – ₹850 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
+
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -676,7 +942,7 @@
     </section>
     <!--End faq content area-->
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

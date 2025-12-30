@@ -116,7 +116,7 @@
     <!-- End Product Overview -->
 
     {{-- start datasheet --}}
-      <section class="sec-padd-bottom bg-light">
+    <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Engineering Steels 1055 Datasheet</h3>
             <p class="mb-3">
@@ -903,17 +903,24 @@
         </div>
     </section>
 
+    <section id="price"  class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>1055 Steel Price per kg in India</h2>
+            </div>
 
+            <p class="text-center mb-2">
+                Price varies based on size, OD, thickness, and heat-treatment condition.
+            </p>
 
-    <section id="price" class="sec-padd-top sec-padd-bottom bg-light" id="price">
-        <div class="container text-center">
-            <h2>1055 Steel Price per kg in India</h2>
-            <p>Price varies based on size, OD, thickness, and heat-treatment condition.</p>
-            <p><strong>Typical Range:</strong> ₹110 – ₹180 per kg (Indicative only)</p>
-            <p>Contact us for exact quotation based on size and quantity.</p>
+            <p class="text-center fs-5">
+               <strong>Typical Range:</strong> ₹110 – ₹180 per kg (Indicative only)
+            </p>
+            <p class="text-center fs-5">
+              Contact us for exact quotation based on size and quantity.
+            </p>
         </div>
     </section>
-
 
     <!--Start faq content area-->
     <section id="faq" class="faq-content-area sec-padd2">
