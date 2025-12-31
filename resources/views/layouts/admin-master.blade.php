@@ -142,8 +142,15 @@
                             </a>
                         </li> --}}
                         <li class="dropdown">
-                            <a href="{{ route('datasheet') }}"
-                                class="nav-link {{ Request::routeIs('datasheet') ? 'active' : '' }}">
+                            <a href="{{ route('datasheets.index') }}"
+                                class="nav-link {{ Request::routeIs('datasheets.index') ? 'active' : '' }}">
+                                <i data-feather="users" class="mt-1"></i>
+                                <span>Datasheet</span>
+                            </a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="{{ route('datasheet-leads') }}"
+                                class="nav-link {{ Request::routeIs('datasheet-leads') ? 'active' : '' }}">
                                 <i data-feather="users" class="mt-1"></i>
                                 <span>Datasheet Leads</span>
                             </a>
