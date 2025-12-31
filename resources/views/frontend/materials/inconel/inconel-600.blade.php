@@ -13,19 +13,39 @@
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(assets/images/inconel/inconel-600.webp);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/inconel/inconel-600.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1>Inconel 600 <br> High-Temperature Strength & Oxidation</h1>
+                    <!-- Add your extra content here -->
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                        INCONEL® 600 is a nickel-chromium-iron alloy engineered for high-temperature strength, oxidation
+                        resistance, and corrosion resistance in both oxidizing and reducing environments.
+                        Moksh Tubes & Fittings LLP supplies certified INCONEL 600 for aerospace, nuclear, chemical
+                        processing, heat treatment, marine, and cryogenic applications.</p>
+                    <!-- End extra content -->
                 </div>
             </div>
         </div>
     </section>
 
+       <div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
+        <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact us">Contact Us</a>
+        </div>
+    </div>
 
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -45,7 +65,7 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a leading manufacturer,
+                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a leading,
                             supplier, exporter, importer, and stockist of high performance <strong
                                 class="text-black">INCONEL 600 (UNS N06600)</strong>
                             <a href="{{ route('products') }}">products</a>. We offer a wide range of forms including <a

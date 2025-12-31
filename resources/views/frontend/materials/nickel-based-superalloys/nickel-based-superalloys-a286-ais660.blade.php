@@ -38,7 +38,7 @@
         <div class="container">
             <a href="#overview">Overview</a> |
             <a href="#composition">Chemical Composition</a> |
-            <a href="#heat-treatment">Heat Treatment</a> |
+            {{-- <a href="#heat-treatment">Heat Treatment</a> | --}}
             <a href="#mechanical">Mechanical Properties</a> |
             <a href="#price">Advantages</a> |
             <a href="#applications">Applications</a> |
@@ -48,7 +48,7 @@
     </div>
 
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -68,7 +68,7 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> proudly manufactures, supplies,
+                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> proudly, supplies,
                             exports, and stocks a wide range of<strong class="text-black"> Nickel A286 products</strong>,
                             including <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Sheets,
                             Plates, Coils, Bars, Forgings, Fasteners, Pipe Fittings, Flanges, Wire Mesh, Welding Rods, and
@@ -91,7 +91,6 @@
             </div>
         </div>
     </section>
-
 
     {{-- datasheet --}}
     <section class="sec-padd-bottom bg-light">
@@ -132,13 +131,70 @@
             </p>
         </div>
     </section>
-
     <!-- End Datasheet Download Section -->
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>Duplex Stainless Steel S31803 Specifications</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Category</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Grade</td>
+                                    <td>A286 / Alloy A286 / AISI 660 / UNS S66286</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Type</td>
+                                    <td>Precipitation-Hardenable Iron–Nickel–Chromium Alloy</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Temperature Resistance</td>
+                                    <td>Up to 704 °C (1300 °F)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Strengthening Mechanism</td>
+                                    <td>Precipitation Hardening (Ti, Mo, V)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Forms Available</td>
+                                    <td>Pipes, Tubes, Plates, Bars, Coils, Fittings, Flanges, Fasteners</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Conditions</td>
+                                    <td>Solution Annealed / Aged</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Certification</td>
+                                    <td>EN 10204 3.1 / 3.2</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>NACE</td>
+                                    <td>MR0175 / ISO 15156 Compliant</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div> <!-- col-lg-8 -->
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of Alloy A286</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -151,78 +207,79 @@
                                     <th>Composition (%)</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-center">
+                            <tbody>
                                 <tr class="t-row">
-                                    <td>Nickel</td>
+                                    <td>Nickel (Ni)</td>
                                     <td>24.0 – 27.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Chromium</td>
+                                    <td>Chromium (Cr)</td>
                                     <td>13.5 – 16.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Iron</td>
+                                    <td>Iron (Fe)</td>
                                     <td>Balance</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Titanium</td>
+                                    <td>Titanium (Ti)</td>
                                     <td>1.90 – 2.35</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Molybdenum</td>
+                                    <td>Molybdenum (Mo)</td>
                                     <td>1.00 – 1.50</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Manganese</td>
-                                    <td>2.00</td>
+                                    <td>Manganese (Mn)</td>
+                                    <td>≤ 2.00</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Silicon</td>
-                                    <td>1.00</td>
+                                    <td>Silicon (Si)</td>
+                                    <td>≤ 1.00</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Carbon</td>
-                                    <td>0.08</td>
+                                    <td>Carbon (C)</td>
+                                    <td>≤ 0.08</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Vanadium</td>
+                                    <td>Vanadium (V)</td>
                                     <td>0.10 – 0.50</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Sulfur</td>
-                                    <td>0.030</td>
+                                    <td>Sulfur (S)</td>
+                                    <td>≤ 0.030</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Phosphorus</td>
-                                    <td>0.030</td>
+                                    <td>Phosphorus (P)</td>
+                                    <td>≤ 0.030</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Aluminum</td>
-                                    <td>0.35 max</td>
+                                    <td>Aluminum (Al)</td>
+                                    <td>≤ 0.35</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Boron</td>
+                                    <td>Boron (B)</td>
                                     <td>0.003 – 0.010</td>
                                 </tr>
                             </tbody>
                         </table>
+                        <p class="mt-3 text-center">
+                            Designed for strength + oxidation resistance + stability at high temperatures.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color: #174268;">Technical Composition of Nickel A286</h2>
             </div>
-
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
+            <!-- Mechanical Properties Table -->
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <h3 class="text-center mb-3" style="color: #db7227;">Physical Properties of Nickel A286</h3>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -232,118 +289,191 @@
                                     <th>Metric</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-center">
+                            <tbody>
                                 <tr class="t-row">
                                     <td>Density</td>
-                                    <td>0.286 lb/in³</td>
-                                    <td>7.92 g/cm³</td>
+                                    <td>0.286 lb/in³</td>
+                                    <td>7.92 g/cm³</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Melting Range</td>
-                                    <td>2550 °F</td>
-                                    <td>1399 °C</td>
+                                    <td>2550 °F</td>
+                                    <td>1399 °C</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Specific Heat</td>
-                                    <td>0.10 Btu/lb·°F</td>
-                                    <td>420 J/kg·°C</td>
+                                    <td>0.10 Btu/lb·°F</td>
+                                    <td>420 J/kg·°C</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Thermal Conductivity</td>
                                     <td>—</td>
-                                    <td>12–13 W/m·°C</td>
+                                    <td>12–13 W/m·°C</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Electrical Resistivity</td>
                                     <td>—</td>
-                                    <td>0.91 Ω·mm²/m</td>
+                                    <td>0.91 Ω·mm²/m</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Magnetic Permeability</td>
-                                    <td>1.007–1.010</td>
-                                    <td>(unitless)</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Modulus of Elasticity (E)</td>
+                                    <td>~1.007–1.010</td>
                                     <td>—</td>
-                                    <td>200 GPa</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Coefficient of Thermal Expansion (70–1200 °F)</td>
-                                    <td>9.2–9.9 ×10⁻⁶ /°F</td>
-                                    <td>16.5–17.8 ×10⁻⁶ /°C</td>
+                                    <td>Elastic Modulus (E)</td>
+                                    <td>—</td>
+                                    <td>~200 GPa</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Thermal Expansion (70–1200 °F)</td>
+                                    <td>9.2–9.9 ×10⁻⁶ /°F</td>
+                                    <td>16.5–17.8 ×10⁻⁶ /°C</td>
                                 </tr>
                             </tbody>
                         </table>
+                        <p class="mt-3 text-center">
+                            Duplex S31803 has double the strength of 304/316 stainless steel and significantly higher
+                            pitting resistance.
+                        </p>
                     </div>
                 </div>
             </div>
 
             <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+            <div class="row justify-content-center mt-5" id="mechanical">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties of Alloy A286</h4>
+
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Solution Annealed & Aged (Bar ≤160 mm)</th>
-                                    <th>Aged/Forged Bar 300 mm</th>
-                                    <th>Typical Bar</th>
+                                    <th>Condition</th>
+                                    <th>Tensile Strength</th>
+                                    <th>Yield Strength (0.2%)</th>
+                                    <th>Elongation</th>
+                                    <th>Hardness</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-center">
+                            <tbody>
                                 <tr class="t-row">
-                                    <td>Tensile Strength (ksi)</td>
-                                    <td>130–160</td>
-                                    <td>130–175</td>
-                                    <td>130</td>
+                                    <td>Aged</td>
+                                    <td>130–160 ksi (895–1103 MPa)</td>
+                                    <td>≥ 90 ksi (620 MPa)</td>
+                                    <td>15%</td>
+                                    <td>248–341 HB / 24–35 HRC</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Tensile Strength (MPa)</td>
-                                    <td>895–1103</td>
-                                    <td>895–1200</td>
-                                    <td>895</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Yield Strength (0.2 % off) (ksi)</td>
-                                    <td>≥ 90</td>
-                                    <td>90</td>
-                                    <td>90</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Yield Strength (MPa)</td>
-                                    <td>620</td>
-                                    <td>620</td>
-                                    <td>585</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Elongation (% in 2 in / 50 mm)</td>
-                                    <td>15</td>
-                                    <td>16</td>
-                                    <td>15</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Reduction of Area (%)</td>
-                                    <td>18</td>
-                                    <td>18</td>
-                                    <td>18</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Hardness (Brinell / Rockwell B/C)</td>
-                                    <td>248–341 HB (approx. 24–35 HRC)</td>
+                                    <td>Aged / Forged Bar (300 mm)</td>
+                                    <td>130–175 ksi (895–1200 MPa)</td>
+                                    <td>90 ksi (620 MPa)</td>
+                                    <td>16%</td>
                                     <td>Comparable</td>
-                                    <td>248–341 HB</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Typical Bar</td>
+                                    <td>130 ksi (895 MPa)</td>
+                                    <td>85 ksi (585 MPa)</td>
+                                    <td>15%</td>
+                                    <td>248–341 HB</td>
                                 </tr>
                             </tbody>
                         </table>
+                        <p class="mt-3 text-center">
+                            A286 retains strength better than most stainless steels at high temperatures.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center mt-5" id="available forms">
+                <h2>Available Forms & Size Range</h2>
+            </div>
+
+            <div class="row justify-content-center mb-4" style="text-align: justify;">
+                <div class="col-lg-10">
+                    <p class="fs-6 text-center">
+                        We supply Duplex Stainless Steel S31803 in the following product forms and dimensions:
+                    </p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color:#db7227;">
+                        <h5 class="fw-bold mt-3">Flat Products</h5>
+                        <ul class="list-group list-group-flush mb-3">
+                            <li class="list-group-item">✔ Plates – ASTM A693</li>
+                            <li class="list-group-item">✔ Sheets &amp; Strips – Hot / Cold Rolled</li>
+                        </ul>
+
+                        <h5 class="fw-bold mt-3">Long Products</h5>
+                        <ul class="list-group list-group-flush mb-3">
+                            <li class="list-group-item">✔ Seamless Pipes – ASTM B468</li>
+                            <li class="list-group-item">✔ Welded Pipes – AMS 5734</li>
+                            <li class="list-group-item">✔ Tubes – Capillary, Boiler, Heat Exchanger</li>
+                            <li class="list-group-item">✔ Round / Flat / Hex Bars – ASTM A638 / A484 / AMS 5731, 5732, 5737
+                            </li>
+                        </ul>
+
+                        <h5 class="fw-bold mt-3">Fittings &amp; Flanges</h5>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">✔ Buttweld Fittings – ASTM A403</li>
+                            <li class="list-group-item">✔ Flanges – ASTM A182</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Standards & Equivalent Grades Section -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Form</th>
+                            <th>Standards</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="t-row">
+                            <td>Bars &amp; Rods</td>
+                            <td>ASTM A638, A484, AMS 5731 / 5732 / 5737</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Plates / Sheets / Strips</td>
+                            <td>ASTM A693, AMS 5525</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Pipes &amp; Tubes</td>
+                            <td>ASTM B468, AMS 5734</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Fasteners</td>
+                            <td>ASTM A453 Grade 660 A / B / C / D</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Other Forms</td>
+                            <td>ASME SA638, EN 10269</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!-- End Standards & Equivalent Grades Section -->
 
     @php
         $products = [
@@ -401,7 +531,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Nickel A286 / AISI 660</h2>
@@ -462,7 +592,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -514,7 +644,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Nickel Alloy A286</h2>
@@ -639,7 +769,7 @@
     </section>
 
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -737,7 +867,7 @@
     <!--End faq content area-->
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section  id="contact us"  class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

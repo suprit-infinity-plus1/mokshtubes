@@ -26,7 +26,7 @@
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
                         Duplex Stainless Steel S31803 is one of the most widely used duplex grades, combining exceptional
                         corrosion resistance, high strength, and excellent stress corrosion cracking resistance. Below is
-                        the complete datasheet including composition, properties, heat treatment, and applications.
+                        the complete datasheet including composition, properties, heat treatment, and applications.</p>
                         <!-- End extra content -->
                 </div>
             </div>
@@ -265,7 +265,7 @@
             <!-- Mechanical Properties Table -->
             <div class="row justify-content-center">
                 <div class="col-lg-10">
-                    <h3 class="text-center mb-3" style="color: #db7227;">Technical & Physical Properties of Duplex S31803
+                    <h3 class="text-center mb-3" style="color: #db7227;">Physical Properties of Duplex S31803
                     </h3>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">

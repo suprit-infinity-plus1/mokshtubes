@@ -15,7 +15,8 @@
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.webp);">
+    <section class="breadcrumb-area"
+        style="background-image: url(/assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -47,7 +48,7 @@
     </div>
     <!--End breadcrumb area-->
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Super Duplex 2205 | Product Overview</h2>
@@ -76,12 +77,12 @@
                         </p>
 
                         <p class="fs-6 text-justify" style="text-align: justify;">
-                            2205 is widely used in industries where chloride stress corrosion resistance, strength, and
-                            durability are crucial. <a href="{{ route('index') }}">MOKSH TUBES & FITTINGS LLP</a> is a
-                            trusted supplier, exporter, importer, and stockist of Super Duplex 2205 products such as <a
-                                href="{{ route('products') }}">pipes, tubes, fittings, flanges, plates</a>, and custom
-                            components.
-                        </p>
+                            <a href="{{ route('index') }}"> Moksh Tubes & Fittings LLP</a> is a trusted supplier, exporter,
+                            importer, and stockist of Duplex
+                            Stainless Steel 2205 (UNS S32205 / S31803 / ASTM A182 F51).
+                            Our <a href="{{ route('products') }}">product</a> portfolio includes Pipes, Tubes, Sheets,
+                            Plates, Coils, Bars, Pipe Fittings,
+                            Flanges, Fasteners, Welding Rods, Wire Mesh, and custom fabricated components.
                     </div>
                 </div>
             </div>
@@ -129,11 +130,56 @@
     </section>
     {{-- end datasheet --}}
 
-
-    <section class="sec-padd-top sec-padd-bottom">
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>Specifications of Duplex Stainless Steel 2205</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Category</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Grade</td>
+                                    <td>Duplex 2205 / UNS S32205 / ASTM A182 F51</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Type</td>
+                                    <td>Duplex Stainless Steel (Austenite + Ferrite)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Available Conditions</td>
+                                    <td>Hot Rolled, Cold Drawn, Annealed, Solution Annealed</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Testing</td>
+                                    <td>Tensile, Hardness, PMI, Impact, Corrosion Testing</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Certification</td>
+                                    <td>EN 10204 3.1 / 3.2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div> <!-- col-lg-8 -->
+
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of Duplex Stainless Steel 2205</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -143,22 +189,10 @@
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
                                     <th>Element</th>
-                                    <th>Content (%)</th>
+                                    <th>Composition (%)</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Carbon (C)</td>
-                                    <td>≤ 0.03</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Manganese (Mn)</td>
-                                    <td>≤ 2.00</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Silicon (Si)</td>
-                                    <td>≤ 1.00</td>
-                                </tr>
+                            <tbody>
                                 <tr class="t-row">
                                     <td>Chromium (Cr)</td>
                                     <td>21.0 – 23.0</td>
@@ -176,25 +210,52 @@
                                     <td>0.08 – 0.20</td>
                                 </tr>
                                 <tr class="t-row">
+                                    <td>Manganese (Mn)</td>
+                                    <td>≤ 2.00</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Silicon (Si)</td>
+                                    <td>≤ 1.00</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Phosphorus (P)</td>
+                                    <td>≤ 0.030</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Sulfur (S)</td>
+                                    <td>≤ 0.020</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Carbon (C)</td>
+                                    <td>≤ 0.030</td>
+                                </tr>
+                                <tr class="t-row">
                                     <td>Iron (Fe)</td>
                                     <td>Balance</td>
                                 </tr>
                             </tbody>
                         </table>
+
+                        <p class="mt-3 text-center">
+                            UNS S32205 has tighter nitrogen control than S31803, giving better pitting resistance.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Mechanical Properties</h2>
+                <h2 class="fw-bold" style="color: #174268;">Technical Properties of Duplex Stainless Steel 2205</h2>
             </div>
-
+            <!-- Mechanical Properties Table -->
             <div class="row justify-content-center">
                 <div class="col-lg-10">
+                    <h3 class="text-center mb-3" style="color: #db7227;"> Physical Properties of Duplex Stainless Steel
+                        2205
+                    </h3>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -203,29 +264,211 @@
                                     <th>Value</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Tensile Strength</td>
-                                    <td>620 – 880 MPa</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Yield Strength (0.2% Offset)</td>
-                                    <td>450 – 550 MPa</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Elongation</td>
-                                    <td>25 – 30%</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Hardness</td>
-                                    <td>290 HB (max)</td>
-                                </tr>
+                            <tbody>
                                 <tr class="t-row">
                                     <td>Density</td>
                                     <td>7.80 g/cm³</td>
                                 </tr>
+                                <tr class="t-row">
+                                    <td>Melting Point</td>
+                                    <td>1350–1450°C</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Elastic Modulus</td>
+                                    <td>200 GPa (29,000 ksi)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Thermal Conductivity @100°C</td>
+                                    <td>19 W/m·K</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Specific Heat</td>
+                                    <td>500 J/kg·K</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Magnetic Response</td>
+                                    <td>Slightly Magnetic</td>
+                                </tr>
                             </tbody>
                         </table>
+                        {{-- <p class="mt-3 text-center">
+                            Duplex S31803 has double the strength of 304/316 stainless steel and significantly higher
+                            pitting resistance.
+                        </p> --}}
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mechanical Properties Table -->
+            <div class="row justify-content-center mt-5" id="heat-treatment">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color: #db7227;">Heat Treatment of Duplex Stainless Steel 2205
+                    </h4>
+
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Heat Treatment Process</th>
+                                    <th>Temperature Range</th>
+                                    <th>Cooling / Procedure</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Solution Annealing</td>
+                                    <td>1020–1100°C</td>
+                                    <td>Rapid water quench to restore duplex structure</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Stress Relieving</td>
+                                    <td>350–450°C</td>
+                                    <td>Air cool; short duration only to avoid sigma-phase formation</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Aging / Precipitation (Not applicable)</td>
+                                    <td>—</td>
+                                    <td>2205 cannot be precipitation hardened</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Hardening</td>
+                                    <td>—</td>
+                                    <td>Cannot be hardened by heat treatment (only cold working increases hardness)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Post-Weld Heat Treatment (PWHT)</td>
+                                    <td>—</td>
+                                    <td>Not recommended; control heat input during welding</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="mt-3 text-center">
+                            ⚠ Important: Duplex steels must be cooled quickly after heat treatment to prevent formation of
+                            sigma
+                            phase, which reduces corrosion resistance.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color: #174268;">Mechanical Properties of Duplex Stainless Steel 2205</h2>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Metric</th>
+                            <th>Imperial</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="t-row">
+                            <td>Tensile Strength</td>
+                            <td>≥ 620 MPa</td>
+                            <td>≥ 90,000 psi</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Yield Strength (0.2% Offset)</td>
+                            <td>≥ 450 MPa</td>
+                            <td>≥ 65,000 psi</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elongation</td>
+                            <td>≥ 25%</td>
+                            <td>≥ 25%</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Hardness</td>
+                            <td>≤ 94 HRB</td>
+                            <td>≤ 94 HRB</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Impact Toughness</td>
+                            <td>Excellent</td>
+                            <td>Excellent</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>PREN (Pitting Resistance)</td>
+                            <td>35–40</td>
+                            <td>35–40</td>
+                        </tr>
+                    </tbody>
+                </table>
+                {{-- <p class="mt-3 text-center">
+                    After quenching & tempering, 1055 steel hardness can reach 45–55 HRC depending on cooling media.
+                </p> --}}
+
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center mt-5" id="available forms">
+                <h2>International Standards & Equivalent Grades — Duplex 2205</h2>
+            </div>
+
+            {{-- <div class="row justify-content-center mb-4" style="text-align: justify;">
+                <div class="col-lg-10">
+                    <p class="fs-6 text-center">
+                        We supply Duplex Stainless Steel S31803 in the following product forms and dimensions:
+                    </p>
+                </div>
+            </div> --}}
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color:#db7227;">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Standard</th>
+                                    <th>Equivalent Grade</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>EN</td>
+                                    <td>1.4462 (X2CrNiMoN22-5-3)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>UNS</td>
+                                    <td>S32205</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>ASTM / ASME</td>
+                                    <td>A182 F51, A240, A479, A789, A790</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>DIN</td>
+                                    <td>W.Nr. 1.4462</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>ISO</td>
+                                    <td>ISO 15510 – X2CrNiMoN22-5-3</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>BS (British Standard)</td>
+                                    <td>BS 318S13 / 1.4462 Equivalent</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>NORSOK</td>
+                                    <td>MDS D45</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>API</td>
+                                    <td>API 5LD (duplex-grade applicable)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
                     </div>
                 </div>
             </div>
@@ -392,7 +635,7 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Super Duplex Stainless Steel 2205</h2>
@@ -496,9 +739,30 @@
         </div>
     </section>
 
+      <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>Duplex Stainless Steel S31803 Price per kg in India</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹350 – ₹650 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price depends on size, form, condition & order volume.)
+            </p>
+
+            <p class="text-center fs-5">
+                Request an exact quotation for accurate pricing.
+            </p>
+        </div>
+    </section>
+
+
+
 
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -562,7 +826,7 @@
     </section>
     <!--End faq content area-->
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

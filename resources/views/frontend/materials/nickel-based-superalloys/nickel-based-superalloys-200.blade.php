@@ -48,7 +48,7 @@
 
 
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -68,8 +68,8 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted manufacturer,
-                            supplier, exporter, importer, and stockist of a wide range of<strong class="text-black"> NICKEL
+                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted supplier, exporter,
+                            importer, and stockist of a wide range of<strong class="text-black"> NICKEL
                                 200 products</strong> including
                             <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe Fittings, Flanges,
                             Fasteners, Sheets & Plates, Coils, Wires, Round Bars,
@@ -131,13 +131,71 @@
             </p>
         </div>
     </section>
-
     <!-- End Datasheet Download Section -->
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>Nickel 200 Specifications</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Category</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Grade</td>
+                                    <td>Nickel 200 / Alloy 200 / UNS N02200</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Material Type</td>
+                                    <td>Commercially Pure Nickel</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Purity</td>
+                                    <td>≥ 99.0% Nickel</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Carbon Content</td>
+                                    <td>≤ 0.15%</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Forms Available</td>
+                                    <td>Pipes, Tubes, Plates, Bars, Coils, Fittings, Flanges, Fasteners</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Conditions</td>
+                                    <td>Annealed / Cold Worked / Stress-Relieved</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Testing</td>
+                                    <td>PMI, Tensile, Hardness, Corrosion Test</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Certification</td>
+                                    <td>EN 10204 3.1 / 3.2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div> <!-- col-lg-8 -->
+
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of Nickel 200</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -150,37 +208,41 @@
                                     <th>Composition (%)</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-center">
+                            <tbody>
                                 <tr class="t-row">
-                                    <td>Nickel</td>
-                                    <td>99.0</td>
+                                    <td>Nickel (Ni)</td>
+                                    <td>99.0 min</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Copper</td>
+                                    <td>Copper (Cu)</td>
                                     <td>0.25 max</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Iron</td>
+                                    <td>Iron (Fe)</td>
                                     <td>0.40 max</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Manganese</td>
+                                    <td>Manganese (Mn)</td>
                                     <td>0.35 max</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Silicon</td>
+                                    <td>Silicon (Si)</td>
                                     <td>0.35 max</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Carbon</td>
+                                    <td>Carbon (C)</td>
                                     <td>0.15 max</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Sulfur</td>
+                                    <td>Sulfur (S)</td>
                                     <td>0.01 max</td>
                                 </tr>
                             </tbody>
                         </table>
+                        <p class="mt-3 text-center">
+                            Nickel 200 offers high purity + high conductivity → ideal for electronics, food processing &
+                            chemical media.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -188,16 +250,15 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color: #174268;">Technical Composition of Nickel 200</h2>
             </div>
-
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
+            <!-- Mechanical Properties Table -->
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <h3 class="text-center mb-3" style="color: #db7227;">Physical Properties of Nickel 200</h3>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -207,7 +268,7 @@
                                     <th>Metric</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-center">
+                            <tbody>
                                 <tr class="t-row">
                                     <td>Density</td>
                                     <td>0.321 lb/in³</td>
@@ -215,13 +276,13 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Melting Range</td>
-                                    <td>2615 – 2635 °F</td>
-                                    <td>1435 – 1446 °C</td>
+                                    <td>2615–2635 °F</td>
+                                    <td>1435–1446 °C</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Specific Heat</td>
-                                    <td>0.109 Btu/lb•°F</td>
-                                    <td>456 J/kg•°C</td>
+                                    <td>0.109 Btu/lb·°F</td>
+                                    <td>456 J/kg·°C</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Curie Temperature</td>
@@ -230,140 +291,210 @@
                                 </tr>
                             </tbody>
                         </table>
+                        <p class="mt-3 text-center">
+                            Duplex S31803 has double the strength of 304/316 stainless steel and significantly higher
+                            pitting resistance.
+                        </p>
                     </div>
                 </div>
             </div>
 
             <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+            <div class="row justify-content-center mt-5" id="heat-treatment">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties of Nickel 200</h4>
+
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Rod and Bar (Hot-Finished)</th>
-                                    <th>Rod and Bar (Cold-Drawn)</th>
-                                    <th>Rod and Bar (CD Annealed or HF Annealed)</th>
-                                    <th>Plate (Hot-Rolled)</th>
-                                    <th>Plate (Hot-Rolled Annealed)</th>
-                                    <th>Sheet (Hard)</th>
-                                    <th>Sheet (Annealed)</th>
-                                    <th>Strip (Spring)</th>
-                                    <th>Strip (Annealed)</th>
-                                    <th>Tubing (Stress-Relieved)</th>
-                                    <th>Tubing (Annealed)</th>
-                                    <th>Cond. & Evap. Tubing (Annealed)</th>
-                                    <th>Cond. & Evap. Tubing (Stress-Relieved)</th>
-                                    <th>Wire (Annealed)</th>
-                                    <th>Wire (No. 1 Temper)</th>
-                                    <th>Wire (Spring Temper)</th>
+                                    <th>Condition</th>
+                                    <th>Tensile Strength</th>
+                                    <th>Yield Strength</th>
+                                    <th>Hardness</th>
+                                    <th>Elongation</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-center">
+                            <tbody>
                                 <tr class="t-row">
-                                    <td>Brinell Hardness (MP 3000 kg)</td>
-                                    <td>60–85</td>
-                                    <td>65–110</td>
-                                    <td>55–75</td>
-                                    <td>55–100</td>
-                                    <td>55–80</td>
-                                    <td>90–115</td>
-                                    <td>55–75</td>
-                                    <td>90–130</td>
-                                    <td>55–75</td>
-                                    <td>65–110</td>
-                                    <td>55–75</td>
-                                    <td>55–75</td>
-                                    <td>65–110</td>
-                                    <td>55–85</td>
-                                    <td>70–95</td>
-                                    <td>125–145</td>
+                                    <td>Rod &amp; Bar – Hot Finished</td>
+                                    <td>55–35 ksi (380–240 MPa)</td>
+                                    <td>15–45 ksi (105–310 MPa)</td>
+                                    <td>60–85 HB</td>
+                                    <td>90–150%</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (ksi)</td>
-                                    <td>15–45</td>
-                                    <td>40–100</td>
-                                    <td>15–30</td>
-                                    <td>20–80</td>
-                                    <td>15–40</td>
-                                    <td>70–105</td>
-                                    <td>15–30</td>
-                                    <td>70–115</td>
-                                    <td>15–30</td>
-                                    <td>40–90</td>
-                                    <td>12–30</td>
-                                    <td>15–30</td>
-                                    <td>40–90</td>
-                                    <td>15–50</td>
-                                    <td>40–75</td>
-                                    <td>105–135</td>
+                                    <td>Rod &amp; Bar – Cold Drawn</td>
+                                    <td>35–10 ksi (240–70 MPa)</td>
+                                    <td>40–100 ksi (275–690 MPa)</td>
+                                    <td>65–110 HB</td>
+                                    <td>140–230%</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (MPa)</td>
-                                    <td>105–310</td>
-                                    <td>275–690</td>
-                                    <td>105–210</td>
-                                    <td>140–550</td>
-                                    <td>105–275</td>
-                                    <td>480–725</td>
-                                    <td>105–210</td>
-                                    <td>480–795</td>
-                                    <td>105–210</td>
-                                    <td>275–620</td>
-                                    <td>85–210</td>
-                                    <td>105–210</td>
-                                    <td>275–620</td>
-                                    <td>105–345</td>
-                                    <td>275–520</td>
-                                    <td>725–930</td>
+                                    <td>Rod &amp; Bar – Annealed</td>
+                                    <td>55–40 ksi</td>
+                                    <td>15–30 ksi</td>
+                                    <td>55–75 HB</td>
+                                    <td>—</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Tensile Strength (ksi)</td>
-                                    <td>55–35</td>
-                                    <td>35–10</td>
-                                    <td>55–40</td>
-                                    <td>55–35</td>
-                                    <td>60–40</td>
-                                    <td>15–2</td>
-                                    <td>55–40</td>
-                                    <td>15–2</td>
-                                    <td>55–40</td>
-                                    <td>35–15</td>
-                                    <td>60–40</td>
-                                    <td>60–40</td>
-                                    <td>35–20</td>
-                                    <td>50–30</td>
-                                    <td>40–20</td>
-                                    <td>15–2</td>
+                                    <td>Plate – Hot Rolled</td>
+                                    <td>55–35 ksi</td>
+                                    <td>20–80 ksi</td>
+                                    <td>55–100 HB</td>
+                                    <td>100–150%</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Elongation % (in 2 in/51 mm)</td>
-                                    <td>90–150</td>
-                                    <td>140–230</td>
-                                    <td>90–120</td>
-                                    <td>100–150</td>
-                                    <td>90–140</td>
-                                    <td>–</td>
-                                    <td>–</td>
-                                    <td>–</td>
-                                    <td>–</td>
-                                    <td>–</td>
-                                    <td>–</td>
-                                    <td>–</td>
-                                    <td>–</td>
-                                    <td>–</td>
-                                    <td>–</td>
-                                    <td>–</td>
+                                    <td>Plate – Annealed</td>
+                                    <td>60–40 ksi</td>
+                                    <td>15–40 ksi</td>
+                                    <td>55–80 HB</td>
+                                    <td>90–140%</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Sheet – Hard</td>
+                                    <td>15–2 ksi</td>
+                                    <td>70–105 ksi</td>
+                                    <td>90–115 HB</td>
+                                    <td>—</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Sheet – Annealed</td>
+                                    <td>55–40 ksi</td>
+                                    <td>15–30 ksi</td>
+                                    <td>55–75 HB</td>
+                                    <td>—</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Strip – Spring</td>
+                                    <td>15–2 ksi</td>
+                                    <td>70–115 ksi</td>
+                                    <td>90–130 HB</td>
+                                    <td>—</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Tubing – Stress Relieved</td>
+                                    <td>35–15 ksi</td>
+                                    <td>40–90 ksi</td>
+                                    <td>65–110 HB</td>
+                                    <td>—</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Tubing – Annealed</td>
+                                    <td>60–40 ksi</td>
+                                    <td>12–30 ksi</td>
+                                    <td>55–75 HB</td>
+                                    <td>—</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Wire – No.1 Temper</td>
+                                    <td>—</td>
+                                    <td>40–75 ksi</td>
+                                    <td>70–95 HRB</td>
+                                    <td>—</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Wire – Spring Temper</td>
+                                    <td>—</td>
+                                    <td>105–135 ksi</td>
+                                    <td>125–145 HB</td>
+                                    <td>—</td>
                                 </tr>
                             </tbody>
                         </table>
+                        {{-- <p class="mt-3 text-center">
+                            ⚠ Important: Duplex steels must be cooled quickly after heat treatment to prevent formation of
+                            sigma
+                            phase, which reduces corrosion resistance.
+                        </p> --}}
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center mt-5" id="available forms">
+                <h2>Available Forms & Size Range</h2>
+            </div>
+
+            <div class="row justify-content-center mb-4" style="text-align: justify;">
+                <div class="col-lg-10">
+                    <p class="fs-6 text-center">
+                        We supply Duplex Stainless Steel S31803 in the following product forms and dimensions:
+                    </p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color:#db7227;">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">✔ Seamless Pipes (ASTM B161 / B163)</li>
+                            <li class="list-group-item">✔ ERW &amp; EFW Welded Pipes (ASTM B725 / B751)</li>
+                            <li class="list-group-item">✔ Capillary, Heat Exchanger &amp; U-Bend Tubes</li>
+                            <li class="list-group-item">✔ Sheets, Plates &amp; Strips (ASTM B162)</li>
+                            <li class="list-group-item">✔ Coils &amp; Foils</li>
+                            <li class="list-group-item">✔ Round, Flat, Square &amp; Hex Bars (ASTM B160)</li>
+                            <li class="list-group-item">✔ Buttweld Fittings – A403</li>
+                            <li class="list-group-item">✔ Flanges – A182 / B564</li>
+                            <li class="list-group-item">✔ Fasteners – Bolts, Nuts, Screws, Studs</li>
+                            <li class="list-group-item">✔ Wire, Welding Rods, Wire Mesh</li>
+                            <li class="list-group-item">✔ Custom-Machined Parts</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Standards & Equivalent Grades Section -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Product</th>
+                            <th>Standards</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="t-row">
+                            <td>Rods &amp; Bars</td>
+                            <td>ASTM B160, DIN 17752, ISO 9723, VdTÜV 345</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Pipes &amp; Tubes</td>
+                            <td>ASTM B161, B163, B725, B730 / ISO 6207</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Plates &amp; Sheets</td>
+                            <td>ASTM B162, DIN 17750, ISO 6208</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Fittings</td>
+                            <td>ASTM B366</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Forgings</td>
+                            <td>ISO 9725, DIN 17754</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Wire</td>
+                            <td>DIN 17753, ISO 9724</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!-- End Standards & Equivalent Grades Section -->
 
 
     @php
@@ -422,7 +553,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in NICKEL 200</h2>
@@ -484,7 +615,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses"  class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -536,7 +667,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications"  class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Nickel 200</h2>
@@ -663,8 +794,27 @@
         </div>
     </section>
 
+     <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>Duplex Stainless Steel S31803 Price per kg in India</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹1,350 – ₹2,100 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by size, thickness, condition & quantity.)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq"  class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -766,7 +916,7 @@
     <!--End faq content area-->
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

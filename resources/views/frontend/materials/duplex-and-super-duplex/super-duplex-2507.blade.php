@@ -2,7 +2,8 @@
 
 @section('title', 'Super Duplex 2507 – High Corrosion Resistance')
 
-@section('meta_description', 'Super Duplex Stainless Steel 2507 (S32750) – ultra corrosion-resistant, high-strength
+@section('meta_description',
+    'Super Duplex Stainless Steel 2507 (S32750) – ultra corrosion-resistant, high-strength
     alloy for chemical, marine, and industrial applications.')
 
 @section('meta_keywords',
@@ -15,7 +16,7 @@
 @section('content')
 
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(images/background/3.webp);">
+    <section class="breadcrumb-area" style="background-image: url(/assets/images/aluminium-alloys/aluminium-alloys-6061-T6.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -86,7 +87,7 @@
 
     <!--End breadcrumb area-->
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="overview" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Super Duplex 2507 (S32750) | Product Overview</h2>
@@ -115,12 +116,11 @@
                         </p>
 
                         <p class="fs-6 text-justify" style="text-align: justify;">
-                            <a href="{{ route('index') }}">MOKSH TUBES & FITTINGS LLP</a> is a trusted supplier, exporter,
-                            importer, and stockist of Super Duplex 2507 products including <a
-                                href="{{ route('products') }}">pipes, tubes, fittings, flanges, sheets, plates</a>, and
-                            custom
-                            components. This alloy is widely used in offshore oil & gas, chemical processing, marine
-                            engineering, and desalination plants.
+                            <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a> is a trusted supplier, exporter,
+                            importer, and stockist of Super
+                            Duplex Stainless Steel 2507 (UNS S32750 / ASTM A182 F53).
+                            We offer Pipes & Tubes, Sheets, Plates, Coils, Bars, Pipe Fittings, Flanges, Fasteners, Welding
+                            Rods, Wire Mesh, and custom-fabricated components.
                         </p>
                     </div>
                 </div>
@@ -170,10 +170,65 @@
     {{-- end datasheet --}}
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>Duplex Stainless Steel S31803 Specifications</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class = "t-row">
+                                    <th>Category</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class = "t-row">
+                                    <td>Grade</td>
+                                    <td>Duplex S31803 / UNS S31803 / 2205 / EN 1.4462</td>
+                                </tr>
+                                <tr class = "t-row">
+                                    <td>Type</td>
+                                    <td>Duplex Stainless Steel (Austenitic–Ferritic)</td>
+                                </tr>
+                                <tr class = "t-row">
+                                    <td>Typical Chemical Composition</td>
+                                    <td>22% Cr, 5–6% Ni, 3% Mo, 0.14–0.20% N</td>
+                                </tr>
+                                <tr class = "t-row">
+                                    <td>Conditions</td>
+                                    <td>Annealed, Solution Annealed, Hot Rolled, Cold Worked</td>
+                                </tr>
+                                <tr class = "t-row">
+                                    <td>Heat Treatment</td>
+                                    <td>Solution Annealing</td>
+                                </tr>
+                                <tr class = "t-row">
+                                    <td>Testing</td>
+                                    <td>Tensile, Hardness, Microstructure, PMI, UT, IGC</td>
+                                </tr>
+                                <tr class = "t-row">
+                                    <td>Certification</td>
+                                    <td>EN 10204 3.1 / 3.2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div> <!-- col-lg-8 -->
+
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of Super Duplex 2507</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -183,22 +238,10 @@
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
                                     <th>Element</th>
-                                    <th>Content (%)</th>
+                                    <th>Composition (%)</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Carbon (C)</td>
-                                    <td>≤ 0.03</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Manganese (Mn)</td>
-                                    <td>≤ 0.50</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Silicon (Si)</td>
-                                    <td>≤ 0.80</td>
-                                </tr>
+                            <tbody>
                                 <tr class="t-row">
                                     <td>Chromium (Cr)</td>
                                     <td>24.0 – 26.0</td>
@@ -212,12 +255,28 @@
                                     <td>3.0 – 5.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Copper (Cu)</td>
-                                    <td>0.50 max</td>
-                                </tr>
-                                <tr class="t-row">
                                     <td>Nitrogen (N)</td>
                                     <td>0.24 – 0.32</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Manganese (Mn)</td>
+                                    <td>≤ 2.00</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Silicon (Si)</td>
+                                    <td>≤ 1.00</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Phosphorus (P)</td>
+                                    <td>≤ 0.030</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Sulfur (S)</td>
+                                    <td>≤ 0.020</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Carbon (C)</td>
+                                    <td>≤ 0.030</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Iron (Fe)</td>
@@ -225,20 +284,26 @@
                                 </tr>
                             </tbody>
                         </table>
+
+                        <p class="mt-3 text-center">
+                            PREN ≥ 40 → Confirms Super Duplex category with excellent seawater resistance.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Mechanical Properties</h2>
+                <h2 class="fw-bold" style="color: #174268;">Technical Properties of Super Duplex Stainless Steel 2507</h2>
             </div>
-
+            <!-- Mechanical Properties Table -->
             <div class="row justify-content-center">
                 <div class="col-lg-10">
+                    <h3 class="text-center mb-3" style="color: #db7227;">Physical Properties of Super Duplex Stainless
+                        Steel 2507</h3>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -247,34 +312,241 @@
                                     <th>Value</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Tensile Strength</td>
-                                    <td>850 – 1,050 MPa</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Yield Strength (0.2% Offset)</td>
-                                    <td>550 – 750 MPa</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Elongation</td>
-                                    <td>20 – 25%</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Hardness</td>
-                                    <td>≤ 320 HB</td>
-                                </tr>
+                            <tbody>
                                 <tr class="t-row">
                                     <td>Density</td>
-                                    <td>7.8 g/cm³</td>
+                                    <td>7.80 g/cm³</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Melting Point</td>
+                                    <td>1390–1450°C</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Elastic Modulus</td>
+                                    <td>200 GPa (29,000 ksi)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Thermal Conductivity @100°C</td>
+                                    <td>16–19 W/m·K</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Specific Heat</td>
+                                    <td>500 J/kg·K</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Magnetic Response</td>
+                                    <td>Slightly Magnetic</td>
                                 </tr>
                             </tbody>
                         </table>
+
+                        {{-- <p class="mt-3 text-center">
+                            Duplex S31803 has double the strength of 304/316 stainless steel and significantly higher
+                            pitting resistance.
+                        </p> --}}
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mechanical Properties Table -->
+            <div class="row justify-content-center mt-5" id="heat-treatment">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color: #db7227;">Heat Treatment of Super Duplex Stainless Steel
+                        2507</h4>
+
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Heat Treatment Process</th>
+                                    <th>Temperature Range</th>
+                                    <th>Cooling / Procedure</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Solution Annealing</td>
+                                    <td>1020–1100°C</td>
+                                    <td>Rapid water quench to restore duplex structure</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Stress Relieving</td>
+                                    <td>350–450°C</td>
+                                    <td>Air cool; short duration only to avoid sigma phase</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Aging / Precipitation (Not applicable)</td>
+                                    <td>—</td>
+                                    <td>2507 cannot be precipitation hardened</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Hardening</td>
+                                    <td>—</td>
+                                    <td>Cannot be hardened by heat treatment (only cold working increases hardness)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Post-Weld Heat Treatment (PWHT)</td>
+                                    <td>—</td>
+                                    <td>Not recommended; control heat input during welding</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        {{-- <p class="mt-3 text-center">
+                            ⚠ Important: Duplex steels must be cooled quickly after heat treatment to prevent formation of
+                            sigma
+                            phase, which reduces corrosion resistance.
+                        </p> --}}
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color: #174268;">Mechanical Properties of Duplex Stainless Steel S31803</h2>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Metric</th>
+                            <th>Imperial</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="t-row">
+                            <td>Tensile Strength</td>
+                            <td>750–850 MPa</td>
+                            <td>108,700–123,300 psi</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Yield Strength (0.2%)</td>
+                            <td>550–650 MPa</td>
+                            <td>79,800–94,300 psi</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elongation</td>
+                            <td>≥ 25%</td>
+                            <td>≥ 25%</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Hardness</td>
+                            <td>≤ 92 HRB</td>
+                            <td>≤ 92 HRB</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Impact Toughness</td>
+                            <td>Excellent</td>
+                            <td>Excellent</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>PREN</td>
+                            <td>≥ 40</td>
+                            <td>≥ 40</td>
+                        </tr>
+                    </tbody>
+                </table>
+                {{-- <p class="mt-3 text-center">
+                    After quenching & tempering, 1055 steel hardness can reach 45–55 HRC depending on cooling media.
+                </p> --}}
+
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center mt-5" id="available forms">
+                <h2>Available Forms & Size Range</h2>
+            </div>
+
+            <div class="row justify-content-center mb-4" style="text-align: justify;">
+                <div class="col-lg-10">
+                    <p class="fs-6 text-center">
+                        We supply Duplex Stainless Steel S31803 in the following product forms and dimensions:
+                    </p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color:#db7227;">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">✔ Seamless Pipes</li>
+                            <li class="list-group-item">✔ ERW &amp; EFW Welded Pipes</li>
+                            <li class="list-group-item">✔ Capillary, U-Bend &amp; Heat Exchanger Tubes</li>
+                            <li class="list-group-item">✔ Sheets &amp; Plates</li>
+                            <li class="list-group-item">✔ Coils &amp; Strips</li>
+                            <li class="list-group-item">✔ Round, Flat, Square &amp; Hex Bars</li>
+                            <li class="list-group-item">✔ Pipe Fittings (Elbows, Tees, Reducers, Stub Ends, Caps)</li>
+                            <li class="list-group-item">✔ Flanges (Weld Neck, Slip-On, Blind, Socket Weld, Threaded)</li>
+                            <li class="list-group-item">✔ Fasteners (Bolts, Nuts, Washers, Studs, Screws)</li>
+                            <li class="list-group-item">✔ Custom Components based on drawing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Standards & Equivalent Grades Section -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="t-row">
+                            <td>EN</td>
+                            <td>1.4410 (X2CrNiMoN25-7-4)</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>S32750</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASTM / ASME</td>
+                            <td>A182 F53, A479, A276, A789, A790</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>DIN</td>
+                            <td>W.Nr. 1.4410</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ISO</td>
+                            <td>ISO 15510 – X2CrNiMoN25-7-4</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>BS (British Standard)</td>
+                            <td>310S25 / 1.4410 Equivalent</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>NORSOK</td>
+                            <td>MDS D55</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>API</td>
+                            <td>API 5LD (for duplex/super duplex pipes)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!-- End Standards & Equivalent Grades Section -->
 
     @php
         $products = [
@@ -332,7 +604,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="products" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Duplex Stainless Steel S31803</h2>
@@ -390,7 +662,7 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -438,7 +710,7 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section  id="applications"  class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Super Duplex Stainless Steel 2507 (S32750)</h2>
@@ -537,8 +809,27 @@
         </div>
     </section>
 
+     <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>Super Duplex 2507 Price in India</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹600 – ₹1,200 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies with size, thickness, product form & order volume.)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -597,7 +888,7 @@
     </section>
     <!--End faq content area-->
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section  id="contact us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
