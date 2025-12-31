@@ -146,7 +146,7 @@
             </p>
 
             <!-- Lead Capture Form -->
-            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+            {{-- <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
                 @csrf
                 <div class="row justify-content-center">
                     <input type="hidden" name="pdf" value="haselloy_c276.pdf">
@@ -161,7 +161,7 @@
                         </button>
                     </div>
                 </div>
-            </form>
+            </form> --}}
             <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
                 @csrf
 

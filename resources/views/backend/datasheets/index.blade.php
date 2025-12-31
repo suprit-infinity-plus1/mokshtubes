@@ -102,15 +102,6 @@
                                         </div>
                                     </div>
                                 </td>
-                                <td>
-                                    <form action="{{ route('datasheets.delete', $datasheet->id) }}" method="POST"
-                                        onsubmit="return confirm('Delete this datasheet?')">
-                                        @csrf
-                                        <button class="btn btn-danger btn-sm">
-                                            <i class="fa fa-trash"></i>
-                                        </button>
-                                    </form>
-                                </td>
                             </tr>
                         @empty
                             <tr class="text-center">

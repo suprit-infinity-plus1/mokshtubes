@@ -2,8 +2,8 @@
 
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\CookieController;
-use App\Http\Controllers\DatasheetLeadController;
 use App\Http\Controllers\DatasheetController;
+use App\Http\Controllers\DatasheetLeadController;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
@@ -94,32 +94,6 @@ Route::get('/products/bars-rods/hollow-bars', [MainController::class, 'hollowBar
 Route::get('/products/bars-rods/hexagon-bars', [MainController::class, 'hexagonBars'])->name('products.bars-rods.hexagon-bars');
 Route::get('/products/bars-rods/flat-bars', [MainController::class, 'flatBars'])->name('products.bars-rods.flat-bars');
 
-// blogs//
-// Route::get('/blogs/stainless-steel-inconel-tubes', [MainController::class, 'StainlessSteelInconelTubes'])->name('blogs.stainless-steel-inconel-tubes');
-// Route::get('/blogs/10-mistakes-to-avoid-when-buying-stainless-steel-pipes', [MainController::class, 'tenMistakesToAvoidWhenBuyingStainlessSteelPipes'])->name('blogs.10-mistakes-to-avoid-when-buying-stainless-steel-pipes');
-// Route::get('/blogs/emerging-trends-in-industrial-piping-for-2025-and-beyond', [MainController::class, 'emergingTrendsInIndustrialPipingFor2025AndBeyond'])->name('blogs.emerging-trends-in-industrial-piping-for-2025-and-beyond');
-// Route::get('/blogs/everything-you-need-to-know-about-welded-and-seamless-pipes', [MainController::class, 'everythingYouNeedToKnowAboutWeldedAndSeamlessPipes'])->name('blogs.everything-you-need-to-know-about-welded-and-seamless-pipes');
-// Route::get('/blogs/indias-stainless-steel-export-industry', [MainController::class, 'indiasStainlessSteelExportIndustry'])->name('blogs.indias-stainless-steel-export-industry');
-// Route::get('/blogs/the-role-of-high-performance', [MainController::class, 'theRoleOfHighPerformance'])->name('blogs.the-role-of-high-performance');
-// Route::get('/blogs/top-7-advantages-of-using', [MainController::class, 'topSevenAdvantagesOfUsing'])->name('blogs.top-7-advantages-of-using');
-// Route::get('/blogs/welded-vs-seamless', [MainController::class, 'weldedVsSeamless'])->name('blogs.welded-vs-seamless');
-// Route::get('/blogs/why-hastelloy-weighs-more-than-stainless-steel', [MainController::class, 'whyHastelloyWeighsMoreThanStainlessSteel'])->name('blogs.why-hastelloy-weighs-more-than-stainless-steel');
-// Route::get('/blogs/din-standard-metal-alloys', [MainController::class, 'dinStandardMetalAlloys'])->name('blogs.din-standard-metal-alloys');
-// Route::get('/blogs/uaes-ultimate-guide', [MainController::class, 'Uae’sUltimateGuide'])->name('blogs.uaes-ultimate-guide');
-// Route::get('/blogs/uaes-ultimate-guide', [MainController::class, 'Uae’sUltimateGuide'])->name('blogs.uaes-ultimate-guide');
-// Route::get('/blogs/stainless-steel-uses-in-kitchen', [MainController::class, 'stainlessSteelUsesInKitchen'])->name('blogs.stainless-steel-uses-in-kitchen');
-// Route::get('/blogs/where-to-buy-high-quality', [MainController::class, 'WhereToBuyHighQuality'])->name('blogs.where-to-buy-high-quality');
-// Route::get('/blogs/how-to-choose-the-best-stainless-steel-pipes', [MainController::class, 'howToChooseTheBestStainlessSteelPipes'])->name('blogs.how-to-choose-the-best-stainless-steel-pipes');
-// Route::get('/blogs/how-stainless-steel-tubes-improve-process-efficiency', [MainController::class, 'HowStainlessSteelTubesImproveProcessEfficiency'])->name('blogs.how-stainless-steel-tubes-improve-process-efficiency');
-// Route::get('/blogs/stainless-steel-vs-other-metals', [MainController::class, 'stainlessSteelVsOtherMetals'])->name('blogs.stainless-steel-vs-other-metals');
-// Route::get('/blogs/stainless-steel-pipe-installation', [MainController::class, 'stainlessSteelPipeInstallation'])->name('blogs.stainless-steel-pipe-installation');
-// Route::get('/blogs/stainless-steel-tube-grades-explained', [MainController::class, 'stainlessSteelTubeGradesExplained'])->name('blogs.stainless-steel-tube-grades-explained');
-// Route::get('/blogs/stainless-steel-tubes-applications-benefits-and-cost-guide', [MainController::class, 'stainlessSteelTubesApplicationsBenefitsAndCostGuide'])->name('blogs.stainless-steel-tubes-applications-benefits-and-cost-guide');
-// Route::get('/blogs/stainless-steel-tubing-for-food-and-beverage-industry', [MainController::class, 'stainlessSteelTubingForFoodAndBeverageIndustry'])->name('blogs.stainless-steel-tubing-for-food-and-beverage-industry');
-// Route::get('/blogs/top-10-uses-of-stainless-steel', [MainController::class, 'topTenUsesOfStainlessSteel'])->name('blogs.top-ten-uses-of-stainless-steel');
-// Route::get('/blogs/maintenance-tips-for-stainless-steel', [MainController::class, 'maintenanceTipsForStainlessSteel'])->name('blogs.maintenance-tips-for-stainless-steel');
-// Route::get('/blogs/stainless-steel-tubes-vs-carbon-steel-pipes', [MainController::class, 'stainlessSteelTubesVsCarbonSteelPipes'])->name('blogs.stainless-steel-tubes-vs-carbon-steel-pipes');
-// Route::get('/blogs/stainless-steel-seamless-vs-erw-pipes', [MainController::class, 'stainlessSteelSeamlessVsErwPipes'])->name('blogs.stainless-steel-seamless-vs-erw-pipes');
 Route::redirect(
     '/materials/super-austenitic-stainless-steel/super-austenitic-stainless-steel-SMO-254',
     '/materials/super-austenitic-stainless-steel/super-austenitic-stainless-steel-smo-254',

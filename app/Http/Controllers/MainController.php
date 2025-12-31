@@ -466,13 +466,19 @@ class MainController extends Controller
 
     public function engineeringSteelsGrade($slug)
     {
-        $viewPath = 'frontend.materials.engineering-steels.'.$slug;
+        // Blogs
+        $blogCategories = BlogCategory::where('status', 1)
+            ->where('name', 'like', '%Engineering Steel%')
+            ->get();
 
-        if (view()->exists($viewPath)) {
-            return view($viewPath);
-        }
+        $categoryId = $blogCategories->pluck('id')->first();
 
-        abort(404);
+        $blogs = Blog::where('status', 1)
+            ->where('category_id', $categoryId)
+            ->paginate(3);
+
+        // Pass current slug (optional)
+        return view('frontend.materials.engineering-steels.'.$slug, compact('blogs', 'slug'));
     }
 
     public function copperAlloys()
