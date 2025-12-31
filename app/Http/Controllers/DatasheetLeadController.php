@@ -2,41 +2,76 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Datasheet;
 use App\Models\DatasheetLead;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Response;
 
 class DatasheetLeadController extends Controller
 {
+    // public function store(Request $request)
+    // {
+    //     // Validate email
+    //     $request->validate([
+    //         'email' => 'required|email',
+    //         'pdf' => 'required|string',
+    //     ]);
+    //     // Save email to database
+    //     $datasheetLead = DatasheetLead::create([
+    //         'email' => $request->email,
+    //         'pdf' => $request->pdf,
+    //     ]);
+    //     $pdfFile = basename($request->pdf);
+    //     // dd($pdfFile);
+    //     // Path to PDF
+    //     $filePath = storage_path('app/public/datasheets/'.$pdfFile);
+    //     // $filePath = storage_path('app/public/datasheets/EN8_Steel_Datasheet.pdf');
+
+    //     // Check if file exists
+    //     if (! file_exists($filePath)) {
+    //         abort(404, 'Requested datasheet not found.');
+    //     }
+
+    //     // dd("i am hwere");
+    //     // Return PDF as download
+    //     return response()->download($filePath, $pdfFile);
+    // }
+
     public function store(Request $request)
     {
-        // Validate email
         $request->validate([
             'email' => 'required|email',
-            'pdf' => 'required|string',
+            'page_path' => 'required|string',
         ]);
-        // Save email to database
-        $datasheetLead = DatasheetLead::create([
-            'email' => $request->email,
-            'pdf' => $request->pdf,
-        ]);
-        $pdfFile = basename($request->pdf);
-        // dd($pdfFile);
-        // Path to PDF
-        $filePath = storage_path('app/public/datasheets/'.$pdfFile);
-        // $filePath = storage_path('app/public/datasheets/EN8_Steel_Datasheet.pdf');
 
-        // Check if file exists
+        // Find datasheet by page identifier
+        $datasheet = Datasheet::where('page_path', $request->page_path)
+            ->where('active', 1)
+            ->first();
+
+        if (! $datasheet) {
+            abort(404, 'Datasheet not available.');
+        }
+
+        // Store lead (UNCHANGED LOGIC)
+        DatasheetLead::create([
+            'email' => $request->email,
+            'pdf' => $datasheet->file_path, // store actual file path
+        ]);
+
+        $filePath = storage_path('app/public/'.$datasheet->file_path);
+
         if (! file_exists($filePath)) {
             abort(404, 'Requested datasheet not found.');
         }
 
-        // dd("i am hwere");
-        // Return PDF as download
-        return response()->download($filePath, $pdfFile);
+        return response()->download(
+            $filePath,
+            basename($datasheet->file_path)
+        );
     }
 
-    public function datasheets()
+    public function datasheetLeads()
     {
         $datasheetLeads = DatasheetLead::latest()->get();
 

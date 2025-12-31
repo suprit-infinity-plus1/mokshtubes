@@ -204,7 +204,7 @@
         <!--Start header area-->
         <header class="header-area">
             <div class="logo">
-                <a href="{{ route('home') }}">
+                <a href="{{ route('index') }}">
                     <!-- <img src="images/logo/logo moksh1-1.png" alt="Awesome Logo"> -->
                     <img src="{{ asset('assets/images/logo/Board-1.png') }}" alt="Moksh Tubes Logo">
                 </a>
@@ -477,7 +477,7 @@
                                                 href="{{ route('blogs') }}">Blogs</a></li>
                                     </ul>
                                     <ul class="mobile-menu clearfix">
-                                        <li><a href="{{ route('home') }}">Home</a></li>
+                                        <li><a href="{{ route('index') }}">Home</a></li>
                                         <li><a href="{{ route('about-us') }}">About Us</a></li>
 
                                         <li class="dropdown"><a href="{{ route('products') }}">Products</a>
@@ -556,7 +556,7 @@
                         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="footer-col">
                                 <div class="logo-part">
-                                    <a href="{{ route('home') }}" class="footer-logo text-uppercase">
+                                    <a href="{{ route('index') }}" class="footer-logo text-uppercase">
                                         <!-- <img src="./images/logo/logo moksh1-1.png" alt="logo"> -->
                                         <img src="{{ asset('assets/images/logo/Board-1.png') }}" alt="Awesome Logo">
                                     </a>
@@ -639,7 +639,7 @@
                             <div class="footer-col">
                                 <h3 class="footer-title">Useful Links</h3>
                                 <ul class="footer-list">
-                                    <li><a href="{{ route('home') }}">Home</a></li>
+                                    <li><a href="{{ route('index') }}">Home</a></li>
                                     <li><a href="{{ route('about-us') }}">About Us</a></li>
                                     <li><a href="{{ route('products') }}">Our Products</a></li>
                                     <li><a href="{{ route('blogs') }}">Blogs</a></li>
@@ -747,7 +747,7 @@
                         <div class="col-md-9">
                             <nav class="footer-menu d-flex justify-content-end">
                                 <ul class="nav">
-                                    <li class="nav-item"><a class="nav-link" href="{{ route('home') }}">home</a>
+                                    <li class="nav-item"><a class="nav-link" href="{{ route('index') }}">home</a>
                                     </li>
                                     <li class="nav-item"><a class="nav-link"
                                             href="{{ route('products') }}">Products</a></li>

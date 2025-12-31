@@ -162,6 +162,25 @@
                     </div>
                 </div>
             </form>
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+                @csrf
+
+                <input type="hidden" name="page_path" value="{{ $slug }}">
+
+                <div class="row justify-content-center">
+                    <div class="col-md-6 mb-2">
+                        <input type="email" name="email" required class="form-control p-3"
+                            placeholder="Enter your email address">
+                    </div>
+
+                    <div class="col-md-3 mb-2">
+                        <button type="submit" class="btn btn-lg w-100 text-white"
+                            style="background-color:#db7227; border-radius:8px;">
+                            Get Datasheet
+                        </button>
+                    </div>
+                </div>
+            </form>
 
             @if (session('success'))
                 <div class="alert alert-success mt-3">

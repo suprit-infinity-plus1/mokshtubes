@@ -3,6 +3,7 @@
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\CookieController;
 use App\Http\Controllers\DatasheetLeadController;
+use App\Http\Controllers\DatasheetController;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
@@ -14,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 // Route::post('/lead-capture', [LeadController::class, 'store'])->name('lead.capture');
 
 Route::get('/', [MainController::class, 'home'])->name('index');
-Route::get('/home', [MainController::class, 'home'])->name('home');
+// Route::get('/home', [MainController::class, 'home'])->name('home');
 Route::get('/contact-us', [MainController::class, 'contactUs'])->name('contact-us');
 Route::get('/contact-us/gulalwadi', [MainController::class, 'contactUsGulalwadi'])->name('contact-us-gulalwadi');
 Route::get('/contact-us/khetwadi', [MainController::class, 'contactUsKhetwadi'])->name('contact-us-khetwadi');
@@ -137,7 +138,7 @@ Route::post('/datasheet-leads-capture', [DatasheetLeadController::class, 'store'
 Route::prefix('admin')->group(function () {
     Route::middleware('auth')->group(function () {
         Route::get('/dashboard', [MainController::class, 'dashboard'])->middleware(['auth', 'verified'])->name('dashboard');
-
+        // blogs
         Route::prefix('blogs')->group(function () {
 
             Route::get('/', [BlogController::class, 'blogs'])->name('admin.blogs');
@@ -164,9 +165,28 @@ Route::prefix('admin')->group(function () {
             Route::post('/tags/update/{id}', [BlogController::class, 'tagsUpdate'])->name('admin.blogs.tags.update');
         });
 
-        // Datasheets
+        Route::prefix('datasheets')->middleware('auth')->group(function () {
+
+            // list
+            Route::get('/', [DatasheetController::class, 'index'])->name('datasheets.index');
+
+            Route::get('/add', [DatasheetController::class, 'add'])->name('datasheets.add');
+
+            // store
+            Route::post('/store', [DatasheetController::class, 'store'])->name('datasheets.store');
+
+            // edit page
+            Route::get('/edit/{id}', [DatasheetController::class, 'edit'])->name('datasheets.edit');
+
+            // update
+            Route::post('/update/{id}', [DatasheetController::class, 'update'])->name('datasheets.update');
+
+            // delete
+            Route::post('/delete/{id}', [DatasheetController::class, 'destroy'])->name('datasheets.delete');
+        });
+        // datasheet leads
         Route::prefix('datasheet-leads')->group(function () {
-            Route::get('/', [DatasheetLeadController::class, 'datasheets'])->name('datasheet');
+            Route::get('/', [DatasheetLeadController::class, 'datasheetLeads'])->name('datasheet-leads');
             // Route::get('/add', [DatasheetLeadController::class, 'create'])->name('Datasheet.add');
             Route::get('/edit/{id}', [DatasheetLeadController::class, 'edit'])->name('datasheet.edit');
             Route::post('/update/{id}', [DatasheetLeadController::class, 'update'])->name('datasheet.update');
