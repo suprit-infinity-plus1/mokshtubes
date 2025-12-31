@@ -33,7 +33,10 @@
     <meta name="keywords" content="@yield('meta_keywords', 'mokshtubes')">
 
     {{-- Canonical Tag --}}
-    <link rel="canonical" href="@yield('canonical', url()->current())">
+    {{-- <link rel="canonical" href="@yield('canonical', url()->fullUrl())"> --}}
+    <link rel="canonical" href="@yield('canonical', request()->fullUrl())">
+
+    {{-- <link rel="canonical" href="@yield('canonical', url()->current())"> --}}
     <!-- Individual Page OG Override -->
     {{-- @yield('meta') --}}
 
@@ -786,7 +789,7 @@
 
         <!-- Contact Form Modal -->
         <!-- Contact Form Modal -->
-        <div class="modal fade" id="contactFormModal" tabindex="-1" role="dialog"
+        {{-- <div class="modal fade" id="contactFormModal" tabindex="-1" role="dialog"
             aria-labelledby="contactFormModalLabel" aria-hidden="true" style="z-index: 2000;">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content p-3" style="z-index:2001;">
@@ -841,7 +844,7 @@
 
                 </div>
             </div>
-        </div>
+        </div> --}}
 
 
 

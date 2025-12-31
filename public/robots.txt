@@ -12,7 +12,6 @@ Disallow: /cart/
 Disallow: /checkout/
 Disallow: /user/
 Disallow: /vendor/
-Disallow: /storage/
 Disallow: /private/
 Disallow: /*?IDNO=
 Disallow: /*?LYS=
