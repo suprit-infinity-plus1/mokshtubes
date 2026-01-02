@@ -70,6 +70,50 @@
         </div>
     </section>
 
+     {{-- datasheet --}}
+    <section class="sec-padd-bottom bg-light">
+        <div class="datasheet-download px-4 text-center">
+            <h3 class="mb-3" style="color:#174268;">Download Titanium Grade 23 Datasheet</h3>
+            <p class="mb-3">
+                Get the complete Titanium Grade 23 datasheet with chemical composition,
+                mechanical properties, heat treatment details, and applications.
+                Enter your email to receive the PDF instantly.
+            </p>
+
+            <!-- Lead Capture Form -->
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+                @csrf
+
+                <input type="hidden" name="page_path" value="{{ $slug }}">
+
+                <div class="row justify-content-center">
+                    <div class="col-md-6 mb-2">
+                        <input type="email" name="email" required class="form-control p-3"
+                            placeholder="Enter your email address">
+                    </div>
+
+                    <div class="col-md-3 mb-2">
+                        <button type="submit" class="btn btn-lg w-100 text-white"
+                            style="background-color:#db7227; border-radius:8px;">
+                            Get Datasheet
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+            @if (session('success'))
+                <div class="alert alert-success mt-3">
+                    {{ session('success') }}
+                </div>
+            @endif
+
+            <p class="small text-muted">
+                We respect your privacy. Your email will only be used to send the datasheet.
+            </p>
+        </div>
+    </section>
+    <!-- End Datasheet -->
+
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
