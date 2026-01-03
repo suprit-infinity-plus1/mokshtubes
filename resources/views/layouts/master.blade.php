@@ -599,17 +599,15 @@
                             <div class="footer-col service-col">
                                 <h3 class="footer-title">Products</h3>
                                 <ul class="footer-list">
-                                    <li><a href="{{ route('products.pipes-tubes.welded-pipes') }}">WELDED PIPES</a>
+                                    <li><a href="{{ route('products.pipes-tubes') }}">PIPES & TUBES</a>
                                     </li>
-                                    <li><a href="{{ route('products.pipes-tubes.seamless-pipes') }}">SEAMLESS
-                                            PIPES</a></li>
-                                    <li><a href="{{ route('products.sheets-plates-coils') }}">SHEETS & PLATES</a></li>
-                                    <li><a href="{{ route('products.sheets-plates-coils.perforated-sheets') }}">PERFORATED
-                                            SHEETS</a></li>
-                                    <li><a href="{{ route('products.bars-rods.round-bars') }}">ROUND BARS</a></li>
-                                    <li><a
+                                    <li><a href="{{ route('products.sheets-plates-coils') }}">SHEETS, PLATES & COILS</a></li>
+                                    <li><a href="{{ route('products.bars-rods') }}">BARS & RODS</a></li>
+                                    <li><a href="{{ route('products.pipe-fittings-flanges-fasteners') }}">PIPE FITTINGS, FLANGES & FASTENERS</a></li>
+                                    <li><a href="{{ route('products.special-fabricated') }}">SPECIAL FABRICATED</a></li>
+                                    {{-- <li><a
                                             href="{{ route('products.pipe-fittings-flanges-fasteners') }}">FASTENERS</a>
-                                    </li>
+                                    </li> --}}
                                 </ul>
                             </div>
                         </div>
@@ -617,19 +615,20 @@
 
                         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="footer-col post-column">
-                                <h3 class="footer-title">Areas We Serve</h3>
+                                <h3 class="footer-title">Materials</h3>
                                 <ul class="footer-list">
-                                    <li><a href="{{ route('products.pipes-tubes') }}">PIPES</a></li>
+                                    <li><a href="{{ route('materials.hastelloy') }}">HASTELLOY</a></li>
                                     <li><a
-                                            href="{{ route('products.pipe-fittings-flanges-fasteners.pipe-fittings') }}">FITTINGS</a>
+                                            href="{{ route('materials.austenitic-stainless-Steel') }}">AUSTENTIC STAINLESS STEEL</a>
                                     </li>
                                     <li><a
-                                            href="{{ route('products.pipe-fittings-flanges-fasteners.fittings-and-flanges') }}">FLANGES</a>
+                                            href="{{ route('materials.engineering-Steels') }}">ENGINEERING STEELS</a>
                                     </li>
                                     <li><a
-                                            href="{{ route('products.pipe-fittings-flanges-fasteners') }}">FASTENERS</a>
+                                            href="{{ route('materials.copper-Alloys') }}">COPPER ALLOYS</a>
                                     </li>
-                                    <li><a href="">STEEL</a></li>
+                                    <li><a href="{{ route('materials.nickel-Based-Superalloys') }}">NICKEL BASED SUPERALLOYS</a></li>
+                                    <li><a href="{{ route('materials.inconel') }}">INCONEL</a></li>
                                 </ul>
 
                             </div>

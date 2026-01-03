@@ -36,34 +36,7 @@
     </section>
     <!--End breadcrumb area-->
 
-    <style>
-        .material-tabs {
-            background: #ffffff;
-            text-align: center;
-            padding: 15px 0;
-            border-bottom: 1px solid #e5e5e5;
-            position: sticky;
-            /* you missed this */
-            top: 50px;
-            /* and this */
-            z-index: 1020;
-        }
-
-        .material-tabs a {
-            margin: 0 14px;
-            font-weight: 600;
-            color: #1b3c61 !important;
-            text-decoration: none;
-            font-size: 16px;
-            transition: 0.25s ease;
-            display: inline-block;
-        }
-
-        .material-tabs a:hover {
-            color: #db7227 !important;
-            transform: translateY(-2px);
-        }
-    </style>
+    .
     <div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
         <div class="container">
             <a href="#overview">Overview</a> |

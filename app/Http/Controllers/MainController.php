@@ -350,6 +350,22 @@ class MainController extends Controller
 
         return view('frontend.materials.monel.index', compact('blogs'));
     }
+    public function monelGrade($slug)
+    {
+        // Blogs
+        $blogCategories = BlogCategory::where('status', 1)
+            ->where('name', 'like', '%Monel%')
+            ->get();
+
+        $categoryId = $blogCategories->pluck('id')->first();
+
+        $blogs = Blog::where('status', 1)
+            ->where('category_id', $categoryId)
+            ->paginate(3);
+
+        // Pass current slug (optional)
+        return view('frontend.materials.monel.'.$slug, compact('blogs', 'slug'));
+    }
 
     public function incoloy()
     {
@@ -361,6 +377,22 @@ class MainController extends Controller
         // dd($blogs);
 
         return view('frontend.materials.incoloy.index', compact('blogs'));
+    }
+    public function incoloyGrade($slug)
+    {
+        // Blogs
+        $blogCategories = BlogCategory::where('status', 1)
+            ->where('name', 'like', '%Incoloy%')
+            ->get();
+
+        $categoryId = $blogCategories->pluck('id')->first();
+
+        $blogs = Blog::where('status', 1)
+            ->where('category_id', $categoryId)
+            ->paginate(3);
+
+        // Pass current slug (optional)
+        return view('frontend.materials.incoloy.'.$slug, compact('blogs', 'slug'));
     }
 
     public function nickelBasedSuperalloys()
@@ -374,6 +406,22 @@ class MainController extends Controller
 
         return view('frontend.materials.nickel-based-superalloys.index', compact('blogs'));
     }
+    public function nickelBasedSuperalloysGrade($slug)
+    {
+        // Blogs
+        $blogCategories = BlogCategory::where('status', 1)
+            ->where('name', 'like', '%Nickel Based Superalloys%')
+            ->get();
+
+        $categoryId = $blogCategories->pluck('id')->first();
+
+        $blogs = Blog::where('status', 1)
+            ->where('category_id', $categoryId)
+            ->paginate(3);
+
+        // Pass current slug (optional)
+        return view('frontend.materials.nickel-based-superalloys.'.$slug, compact('blogs', 'slug'));
+    }
 
     public function inconel()
     {
@@ -386,6 +434,22 @@ class MainController extends Controller
 
         return view('frontend.materials.inconel.index', compact('blogs'));
     }
+    public function inconelGrade($slug)
+    {
+        // Blogs
+        $blogCategories = BlogCategory::where('status', 1)
+            ->where('name', 'like', '%Inconel%')
+            ->get();
+
+        $categoryId = $blogCategories->pluck('id')->first();
+
+        $blogs = Blog::where('status', 1)
+            ->where('category_id', $categoryId)
+            ->paginate(3);
+
+        // Pass current slug (optional)
+        return view('frontend.materials.inconel.'.$slug, compact('blogs', 'slug'));
+    }
 
     public function titanium()
     {
@@ -397,6 +461,22 @@ class MainController extends Controller
         // dd($blogs);
 
         return view('frontend.materials.titanium.index', compact('blogs'));
+    }
+    public function titaniumGrade($slug)
+    {
+        // Blogs
+        $blogCategories = BlogCategory::where('status', 1)
+            ->where('name', 'like', '%Titanium%')
+            ->get();
+
+        $categoryId = $blogCategories->pluck('id')->first();
+
+        $blogs = Blog::where('status', 1)
+            ->where('category_id', $categoryId)
+            ->paginate(3);
+
+        // Pass current slug (optional)
+        return view('frontend.materials.titanium.'.$slug, compact('blogs', 'slug'));
     }
 
     public function aluminiumAlloys()
@@ -413,6 +493,22 @@ class MainController extends Controller
 
         return view('frontend.materials.aluminium-alloys.index', compact('blogs'));
     }
+     public function aluminiumAlloysGrade($slug)
+    {
+        // Blogs
+        $blogCategories = BlogCategory::where('status', 1)
+            ->where('name', 'like', '%Aluminium Alloys%')
+            ->get();
+
+        $categoryId = $blogCategories->pluck('id')->first();
+
+        $blogs = Blog::where('status', 1)
+            ->where('category_id', $categoryId)
+            ->paginate(3);
+
+        // Pass current slug (optional)
+        return view('frontend.materials.aluminium-alloys.'.$slug, compact('blogs', 'slug'));
+    }
 
     public function superAusteniticStainlessSteel()
     {
@@ -424,6 +520,22 @@ class MainController extends Controller
         // dd($blogs);
 
         return view('frontend.materials.super-austenitic-stainless-steel.index', compact('blogs'));
+    }
+    public function superAusteniticStainlessSteelGrade($slug)
+    {
+        // Blogs
+        $blogCategories = BlogCategory::where('status', 1)
+            ->where('name', 'like', '%Super Austenitic Stainless Steel%')
+            ->get();
+
+        $categoryId = $blogCategories->pluck('id')->first();
+
+        $blogs = Blog::where('status', 1)
+            ->where('category_id', $categoryId)
+            ->paginate(3);
+
+        // Pass current slug (optional)
+        return view('frontend.materials.super-austenitic-stainless-steel.'.$slug, compact('blogs', 'slug'));
     }
 
     public function hardToFindAndSpecialAlloys()
@@ -438,6 +550,22 @@ class MainController extends Controller
         return view('frontend.materials.hard-to-find-special-alloys.index', compact('blogs'));
 
     }
+    public function hardToFindAndSpecialAlloysGrade($slug)
+    {
+        // Blogs
+        $blogCategories = BlogCategory::where('status', 1)
+            ->where('name', 'like', '%Hard To Find and Special Alloy%')
+            ->get();
+
+        $categoryId = $blogCategories->pluck('id')->first();
+
+        $blogs = Blog::where('status', 1)
+            ->where('category_id', $categoryId)
+            ->paginate(3);
+
+        // Pass current slug (optional)
+        return view('frontend.materials.hard-to-find-special-alloys.'.$slug, compact('blogs', 'slug'));
+    }
 
     public function austeniticStainlessSteel()
     {
@@ -450,6 +578,22 @@ class MainController extends Controller
         // dd($blogs);
         return view('frontend.materials.austenitic-stainless-steel.index', compact('blogs'));
 
+    }
+    public function austeniticStainlessSteelGrade($slug)
+    {
+        // Blogs
+        $blogCategories = BlogCategory::where('status', 1)
+            ->where('name', 'like', '%Austenitic Stainless Steel%')
+            ->get();
+
+        $categoryId = $blogCategories->pluck('id')->first();
+
+        $blogs = Blog::where('status', 1)
+            ->where('category_id', $categoryId)
+            ->paginate(3);
+
+        // Pass current slug (optional)
+        return view('frontend.materials.austenitic-stainless-steel.'.$slug, compact('blogs', 'slug'));
     }
 
     public function engineeringSteels()
@@ -492,6 +636,22 @@ class MainController extends Controller
 
         return view('frontend.materials.copper-alloys.index', compact('blogs'));
     }
+    public function copperAlloysGrade($slug)
+    {
+        // Blogs
+        $blogCategories = BlogCategory::where('status', 1)
+            ->where('name', 'like', '%Copper Alloys%')
+            ->get();
+
+        $categoryId = $blogCategories->pluck('id')->first();
+
+        $blogs = Blog::where('status', 1)
+            ->where('category_id', $categoryId)
+            ->paginate(3);
+
+        // Pass current slug (optional)
+        return view('frontend.materials.copper-alloys.'.$slug, compact('blogs', 'slug'));
+    }
 
     public function zirconium()
     {
@@ -503,6 +663,22 @@ class MainController extends Controller
         // dd($blogs);
 
         return view('frontend.materials.zirconium.index', compact('blogs'));
+    }
+    public function zirconiumGrade($slug)
+    {
+        // Blogs
+        $blogCategories = BlogCategory::where('status', 1)
+            ->where('name', 'like', '%Zirconium%')
+            ->get();
+
+        $categoryId = $blogCategories->pluck('id')->first();
+
+        $blogs = Blog::where('status', 1)
+            ->where('category_id', $categoryId)
+            ->paginate(3);
+
+        // Pass current slug (optional)
+        return view('frontend.materials.zirconium.'.$slug, compact('blogs', 'slug'));
     }
 
     public function haynesSuperalloys()
@@ -516,6 +692,22 @@ class MainController extends Controller
 
         return view('frontend.materials.haynes-superalloys.index', compact('blogs'));
     }
+    public function haynesSuperalloysGrade($slug)
+    {
+        // Blogs
+        $blogCategories = BlogCategory::where('status', 1)
+            ->where('name', 'like', '%Haynes Alloys%')
+            ->get();
+
+        $categoryId = $blogCategories->pluck('id')->first();
+
+        $blogs = Blog::where('status', 1)
+            ->where('category_id', $categoryId)
+            ->paginate(3);
+
+        // Pass current slug (optional)
+        return view('frontend.materials.haynes-superalloys.'.$slug, compact('blogs', 'slug'));
+    }
 
     public function duplexAndSuperDuplex()
     {
@@ -528,6 +720,22 @@ class MainController extends Controller
 
         return view('frontend.materials.duplex-and-super-duplex.index', compact('blogs'));
     }
+    public function duplexAndSuperDuplexGrade($slug)
+    {
+        // Blogs
+        $blogCategories = BlogCategory::where('status', 1)
+            ->where('name', 'like', '%Duplex & Super Duplex%')
+            ->get();
+
+        $categoryId = $blogCategories->pluck('id')->first();
+
+        $blogs = Blog::where('status', 1)
+            ->where('category_id', $categoryId)
+            ->paginate(3);
+
+        // Pass current slug (optional)
+        return view('frontend.materials.duplex-and-super-duplex.'.$slug, compact('blogs', 'slug'));
+    }
 
     public function highStrengthStainlessSteel()
     {
@@ -539,6 +747,22 @@ class MainController extends Controller
         // dd($blogs);
 
         return view('frontend.materials.high-strength-stainless-steel.index', compact('blogs'));
+    }
+    public function highStrengthStainlessSteelGrade($slug)
+    {
+        // Blogs
+        $blogCategories = BlogCategory::where('status', 1)
+            ->where('name', 'like', '%High Strength Stainless Steel%')
+            ->get();
+
+        $categoryId = $blogCategories->pluck('id')->first();
+
+        $blogs = Blog::where('status', 1)
+            ->where('category_id', $categoryId)
+            ->paginate(3);
+
+        // Pass current slug (optional)
+        return view('frontend.materials.high-strength-stainless-steel.'.$slug, compact('blogs', 'slug'));
     }
 
     public function showMaterialGrade($family, $grade)

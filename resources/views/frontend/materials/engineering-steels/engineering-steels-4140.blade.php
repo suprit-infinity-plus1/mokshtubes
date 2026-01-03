@@ -34,34 +34,7 @@
         </div>
     </section>
 
-    <style>
-        .material-tabs {
-            background: #ffffff;
-            text-align: center;
-            padding: 15px 0;
-            border-bottom: 1px solid #e5e5e5;
-            position: sticky;
-            /* you missed this */
-            top: 50px;
-            /* and this */
-            z-index: 1020;
-        }
-
-        .material-tabs a {
-            margin: 0 14px;
-            font-weight: 600;
-            color: #1b3c61 !important;
-            text-decoration: none;
-            font-size: 16px;
-            transition: 0.25s ease;
-            display: inline-block;
-        }
-
-        .material-tabs a:hover {
-            color: #db7227 !important;
-            transform: translateY(-2px);
-        }
-    </style>
+    .
     <div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
         <div class="container">
             <a href="#overview">Overview</a> |
@@ -154,18 +127,21 @@
             </p>
 
             <!-- Lead Capture Form -->
-            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+           <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
                 @csrf
+
+                <input type="hidden" name="page_path" value="{{ $slug }}">
+
                 <div class="row justify-content-center">
-                    <input type="hidden" name="pdf" value="en_4140.pdf">
                     <div class="col-md-6 mb-2">
                         <input type="email" name="email" required class="form-control p-3"
                             placeholder="Enter your email address">
                     </div>
+
                     <div class="col-md-3 mb-2">
                         <button type="submit" class="btn btn-lg w-100 text-white"
                             style="background-color:#db7227; border-radius:8px;">
-                            📥 Get Datasheet
+                            Get Datasheet
                         </button>
                     </div>
                 </div>
@@ -743,6 +719,63 @@
         </div>
     </section>
     <!--End faq content area-->
+
+    
+    {{-- blog section start --}}
+      <section class="blog-section sec-padd2">
+        <div class="container">
+            <div class="section-title">
+                <h2>blogs</h2>
+            </div>
+            <div class="row">
+                @foreach ($blogs as $blog)
+                    {{-- {{ dd($blog) }} --}}
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="default-blog-news wow fadeInUp animated">
+
+                            <figure class="img-holder mb-0">
+                                <a href="{{ route('frontend.single-blog', $blog->slug) }}">
+                                    <img src="{{ asset('storage/' . $blog->cover_image) }}" alt="{{ $blog->title }}"
+                                        loading="lazy">
+                                </a>
+                                <figcaption class="overlay">
+                                    <div class="box">
+                                        <div class="content">
+                                            <a href="{{ route('frontend.single-blog', $blog->slug) }}">
+                                                <i class="fa fa-link" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                            <div class="lower-content">
+                                <a href="{{ route('frontend.single-blog', $blog->slug) }}">
+                                    <h5>{{ Str::limit($blog->title, 30) }}</h5>
+                                </a>
+
+                                <div class="post-meta">
+                                    by {{ $blog->author ?? 'Admin' }} |
+                                    {{ $blog->created_at->format('F d, Y') }}
+                                </div>
+
+                                <!--<div class="text">-->
+                                <!--</div>-->
+                                {!! \Str::limit(strip_tags($blog->content, '<i>'), 120) !!}
+
+                                <div class="link">
+                                    <a href="{{ route('frontend.single-blog', $blog->slug) }}" class="default_link">
+                                        Read More <i class="fa fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                @endforeach
+            </div>
+        </div>
+    </section>
+    {{-- blog section end --}}
 
 
     <section class="sec-padd-top sec-padd-bottom">
