@@ -19,11 +19,30 @@
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1>Incoloy 925 <br> High Strength & Corrosion Resistant Alloy</h1>
+
+                     <!-- Add your extra content here -->
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                       INCOLOY® 925 (UNS N09925) is a nickel-iron-cobalt alloy designed for outstanding corrosion resistance in both oxidizing and reducing environments, including acidic and chloride-containing media. Known for its high strength, excellent resistance to stress corrosion cracking, and durability, it is widely used in chemical processing, marine, and pharmaceutical industries. Below is the complete datasheet including composition, properties, heat treatment, and applications.
+
+                        <!-- End extra content -->
                 </div>
             </div>
         </div>
     </section>
 
+    <div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
+         <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact us">Contact Us</a>
+        </div>
+    </div> 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">

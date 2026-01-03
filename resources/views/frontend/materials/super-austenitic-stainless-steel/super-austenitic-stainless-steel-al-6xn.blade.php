@@ -18,12 +18,31 @@
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1>AL-6XN <br> Corrosion Resistant & High-Strength Alloy</h1>
+
+                     <!-- Add your extra content here -->
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                      AL-6XN® is a superaustenitic stainless steel engineered for extreme corrosion resistance in chloride-rich, acidic, and high-purity environments. With high levels of nickel (24%), molybdenum (6.3%), and nitrogen, it offers exceptional resistance to pitting, crevice corrosion, and chloride stress-corrosion cracking—far superior to 316L, 317L, and duplex grades.
+ It is widely used in desalination, chemical processing, marine, pharma, food, and high-purity industrial systems.
+
+                        <!-- End extra content -->
                 </div>
             </div>
         </div>
     </section>
 
-
+<div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
+         <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact us">Contact Us</a>
+        </div>
+    </div>
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">

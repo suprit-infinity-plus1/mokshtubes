@@ -17,12 +17,29 @@
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1>SMO 654 <br> High Strength & Chloride Resistant Stainless Steel</h1>
+
+ <!-- Add your extra content here -->
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                        SMO® 654 is one of the most corrosion-resistant stainless steels in the world. With extremely high molybdenum (7–8%), chromium (24–25%), nickel (22%), and nitrogen (0.5%) content, it offers outstanding resistance to pitting, crevice corrosion, and chloride stress corrosion cracking (SCC) It is widely used in seawater systems, desalination, offshore structures, chemical processing, and pulp & paper bleaching environments.
+                        <!-- End extra content -->
                 </div>
             </div>
         </div>
     </section>
 
-
+<div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
+         <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact us">Contact Us</a>
+        </div>
+    </div>
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">

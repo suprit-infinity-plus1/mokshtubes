@@ -17,12 +17,30 @@
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1>Monel 400 <br> Corrosion Resistant & High-Strength Alloy</h1>
+
+                     <!-- Add your extra content here -->
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                       MONEL® 400 (Alloy 400 / UNS N04400) is a high-strength nickel–copper alloy known for its exceptional resistance to seawater, acids, and corrosive environments, making it ideal for marine, chemical, and industrial applications.</p>
+
+                        <!-- End extra content -->
                 </div>
             </div>
         </div>
     </section>
 
-
+  <div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
+         <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact us">Contact Us</a>
+        </div>
+    </div>
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
