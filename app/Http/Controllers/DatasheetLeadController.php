@@ -6,6 +6,7 @@ use App\Models\Datasheet;
 use App\Models\DatasheetLead;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Response;
+use Illuminate\Support\Str;
 
 class DatasheetLeadController extends Controller
 {
@@ -65,9 +66,11 @@ class DatasheetLeadController extends Controller
             abort(404, 'Requested datasheet not found.');
         }
 
+        $downloadName = Str::slug($datasheet->name).'.pdf';
+
         return response()->download(
             $filePath,
-            basename($datasheet->file_path)
+            $downloadName
         );
     }
 
