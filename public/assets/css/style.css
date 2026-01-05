@@ -8455,7 +8455,7 @@ ul.gallery-filter li span {
     border-bottom: 1px solid #e5e5e5;
     position: sticky;   /* you missed this */
     top: 50px;             /* and this */
-    z-index: 1020;
+    z-index: 889;
 }
 
 .material-tabs a {

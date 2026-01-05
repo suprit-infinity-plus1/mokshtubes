@@ -15,12 +15,31 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>253 MA <br> High-Temperature & Oxidation Resistant Alloy</h1>
+                    <h1>253 MA <br> High-Temperature & Oxidation Resistant Alloy</h1>   
+
+                    <!-- Add your extra content here -->
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                       253 MA (UNS S30815 / EN 1.4835) is a high-performance heat-resistant stainless steel grade known for excellent oxidation resistance, high creep strength, and long-term stability at elevated temperatures. Alloyed with chromium, nickel, silicon, and rare earth elements, it performs reliably up to 1150 °C, making it ideal for furnaces, heat exchangers kilns petrochemical equipment, boilers, and other high-temperature industrial applications
+
+                        <!-- End extra content -->
                 </div>
             </div>
         </div>
     </section>
 
+     <div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
+         <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact us">Contact Us</a>
+        </div>
+    </div>
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">
@@ -78,16 +97,19 @@
             <!-- Lead Capture Form -->
             <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
                 @csrf
+
+                <input type="hidden" name="page_path" value="{{ $slug }}">
+
                 <div class="row justify-content-center">
-                    <input type="hidden" name="pdf" value="super_austentic_253.pdf">
                     <div class="col-md-6 mb-2">
                         <input type="email" name="email" required class="form-control p-3"
                             placeholder="Enter your email address">
                     </div>
+
                     <div class="col-md-3 mb-2">
                         <button type="submit" class="btn btn-lg w-100 text-white"
                             style="background-color:#db7227; border-radius:8px;">
-                            📥 Get Datasheet
+                            Get Datasheet
                         </button>
                     </div>
                 </div>
@@ -654,6 +676,62 @@
         </div>
     </section>
     <!--End faq content area-->
+
+     {{-- blog section start --}}
+      <section class="blog-section sec-padd2">
+        <div class="container">
+            <div class="section-title">
+                <h2>blogs</h2>
+            </div>
+            <div class="row">
+                @foreach ($blogs as $blog)
+                    {{-- {{ dd($blog) }} --}}
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="default-blog-news wow fadeInUp animated">
+
+                            <figure class="img-holder mb-0">
+                                <a href="{{ route('frontend.single-blog', $blog->slug) }}">
+                                    <img src="{{ asset('storage/' . $blog->cover_image) }}" alt="{{ $blog->title }}"
+                                        loading="lazy">
+                                </a>
+                                <figcaption class="overlay">
+                                    <div class="box">
+                                        <div class="content">
+                                            <a href="{{ route('frontend.single-blog', $blog->slug) }}">
+                                                <i class="fa fa-link" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                            <div class="lower-content">
+                                <a href="{{ route('frontend.single-blog', $blog->slug) }}">
+                                    <h5>{{ Str::limit($blog->title, 30) }}</h5>
+                                </a>
+
+                                <div class="post-meta">
+                                    by {{ $blog->author ?? 'Admin' }} |
+                                    {{ $blog->created_at->format('F d, Y') }}
+                                </div>
+
+                                <!--<div class="text">-->
+                                <!--</div>-->
+                                {!! \Str::limit(strip_tags($blog->content, '<i>'), 120) !!}
+
+                                <div class="link">
+                                    <a href="{{ route('frontend.single-blog', $blog->slug) }}" class="default_link">
+                                        Read More <i class="fa fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                @endforeach
+            </div>
+        </div>
+    </section>
+    {{-- blog section end --}}
 
 
     <section class="sec-padd-top sec-padd-bottom">

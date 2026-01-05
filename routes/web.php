@@ -34,23 +34,50 @@ Route::post('/sendmail', [MainController::class, 'sendMail'])->name('sendmail');
 
 Route::get('/materials/hastelloy', [MainController::class, 'hastelloy'])->name('materials.hastelloy');
 Route::get('/materials/hastelloy/{slug}', [MainController::class, 'hastelloyGrade'])->name('materials.hastelloy.grade');
+
 Route::get('/materials/monel', [MainController::class, 'monel'])->name('materials.monel');
+Route::get('/materials/monel/{slug}', [MainController::class, 'monelGrade'])->name('materials.monel.grade');
+
 Route::get('/materials/incoloy', [MainController::class, 'incoloy'])->name('materials.incoloy');
+Route::get('/materials/incoloy/{slug}', [MainController::class, 'incoloyGrade'])->name('materials.incoloy.grade');
+
 Route::get('/materials/nickel-based-superalloys', [MainController::class, 'nickelBasedSuperalloys'])->name('materials.nickel-Based-Superalloys');
+Route::get('/materials/nickel-based-superalloys/{slug}', [MainController::class, 'nickelBasedSuperalloysGrade'])->name('materials.nickel-based-superalloys.grade');
+
 Route::get('/materials/inconel', [MainController::class, 'inconel'])->name('materials.inconel');
+Route::get('/materials/inconel/{slug}', [MainController::class, 'inconelGrade'])->name('materials.inconel.grade');
+
 Route::get('/materials/titanium', [MainController::class, 'titanium'])->name('materials.titanium');
+Route::get('/materials/titanium/{slug}', [MainController::class, 'titaniumGrade'])->name('materials.titanium.grade');
+
 Route::get('/materials/aluminium-alloys', action: [MainController::class, 'aluminiumAlloys'])->name('materials.aluminium-Alloys');
+Route::get('/materials/aluminium-alloys/{slug}', [MainController::class, 'aluminiumAlloysGrade'])->name('materials.aluminium-alloys.grade');
+
 Route::get('/materials/super-austenitic-stainless-steel', action: [MainController::class, 'superAusteniticStainlessSteel'])->name('materials.super-Austenitic-Stainless-Steel');
+Route::get('/materials/super-austenitic-stainless-steel/{slug}', [MainController::class, 'superAusteniticStainlessSteelGrade'])->name('materials.super-austenitic-stainless-steel.grade');
+
 Route::get('/materials/hard-to-find-special-alloys', action: [MainController::class, 'hardToFindAndSpecialAlloys'])->name('materials.hard-To-Find-Special-Alloys');
+Route::get('/materials/hard-to-find-special-alloys/{slug}', [MainController::class, 'hardToFindAndSpecialAlloysGrade'])->name('materials.hard-to-find-special-alloys.grade');
 Route::get('/materials/aluminium-alloys', [MainController::class, 'aluminiumAlloys'])->name('materials.aluminium-Alloys');
 Route::get('/materials/engineering-steels', [MainController::class, 'engineeringSteels'])->name('materials.engineering-Steels');
 Route::get('/materials/engineering-steels/{slug}', [MainController::class, 'engineeringSteelsGrade'])->name('materials.engineering-Steel-grade');
+
 Route::get('/materials/austenitic-stainless-steel', [MainController::class, 'austeniticStainlessSteel'])->name('materials.austenitic-stainless-Steel');
+Route::get('/materials/austenitic-stainless-steel/{slug}', [MainController::class, 'austeniticStainlessSteelGrade'])->name('materials.austenitic-stainless-steel.grade');
+
 Route::get('/materials/copper-alloys', [MainController::class, 'copperAlloys'])->name('materials.copper-Alloys');
+Route::get('/materials/copper-alloys/{slug}', [MainController::class, 'copperAlloysGrade'])->name('materials.copper-alloys.grade');
 Route::get('/materials/zirconium', [MainController::class, 'zirconium'])->name('materials.zirconium');
+Route::get('/materials/zirconium/{slug}', [MainController::class, 'zirconiumGrade'])->name('materials.zirconium.grade');
+
 Route::get('/materials/haynes-superalloys', [MainController::class, 'haynesSuperalloys'])->name('materials.haynes-Superalloys');
+Route::get('/materials/haynes-superalloys/{slug}', [MainController::class, 'haynesSuperalloysGrade'])->name('materials.haynes-superalloys.grade');
+
 Route::get('/materials/duplex-and-super-duplex', [MainController::class, 'duplexAndSuperDuplex'])->name('materials.duplex-and-super-duplex');
+Route::get('/materials/duplex-and-super-duplex/{slug}', [MainController::class, 'duplexAndSuperDuplexGrade'])->name('materials.duplex-and-super-duplex.grade');
+
 Route::get('/materials/high-strength-stainless-steel', [MainController::class, 'highStrengthStainlessSteel'])->name('materials.high-strength-stainless-steel');
+Route::get('/materials/high-strength-stainless-steel/{slug}', [MainController::class, 'highStrengthStainlessSteelGrade'])->name('materials.high-strength-stainless-steel.grade');
 
 // Route::get('/materials/{family}/{grade}', [MainController::class, 'showMaterialGrade'])->name('material.grade');
 Route::get('/materials/{category}/{slug}', [MainController::class, 'showMaterial'])->name('materials.grade');
