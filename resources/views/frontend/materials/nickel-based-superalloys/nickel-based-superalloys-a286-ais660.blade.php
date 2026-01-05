@@ -38,7 +38,7 @@
         <div class="container">
             <a href="#overview">Overview</a> |
             <a href="#composition">Chemical Composition</a> |
-            {{-- <a href="#heat-treatment">Heat Treatment</a> | --}}
+            <a href="#heat-treatment">Heat Treatment</a> |
             <a href="#mechanical">Mechanical Properties</a> |
             <a href="#price">Advantages</a> |
             <a href="#applications">Applications</a> |

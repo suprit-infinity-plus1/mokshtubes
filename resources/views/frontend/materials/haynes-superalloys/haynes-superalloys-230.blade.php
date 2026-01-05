@@ -15,10 +15,31 @@
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1>Haynes Superalloy 230 <br> Strength & Oxidation Resistance</h1>
+
+                      <!-- Add your extra content here -->
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                     Haynes Superalloy 230 is a high-performance nickel-based alloy offering an excellent combination of high-temperature strength, oxidation resistance, and thermal stability. It maintains mechanical integrity in extreme heat environments, making it ideal for gas turbines, aerospace components, heat-treatment equipment, and other demanding industrial applications requiring long-term reliability.
+
+                    </p>
+                    <!-- End extra content -->
                 </div>
             </div>
         </div>
     </section>
+
+ <div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
+        <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact us">Contact Us</a>
+        </div>
+    </div>
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

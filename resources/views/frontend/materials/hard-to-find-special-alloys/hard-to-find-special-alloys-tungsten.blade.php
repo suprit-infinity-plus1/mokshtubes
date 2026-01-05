@@ -17,11 +17,31 @@
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1>Tungsten Alloy <br> High Strength & Durability Metal</h1>
+
+                     <!-- Add your extra content here -->
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                       Tungsten Alloy is a high-strength, high-density metal known for its exceptional durability and excellent performance at extreme temperatures. It offers outstanding wear resistance, high melting point, and good thermal conductivity, making it ideal for aerospace components, radiation shielding, electrical contacts, tooling, and demanding industrial applications where strength and reliability are critical.
+
+                    </p>
+                    <!-- End extra content --></div>
                 </div>
             </div>
         </div>
     </section>
 
+ <div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
+        <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact us">Contact Us</a>
+        </div>
+    </div>
 
     <!--End breadcrumb area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">

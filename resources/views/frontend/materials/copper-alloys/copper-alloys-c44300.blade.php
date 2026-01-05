@@ -19,12 +19,32 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Copper Alloy C44300-(Admiralty Brass)</h1>
+                    <h1>Copper Alloy C44300<br>Admiralty Brass</h1>
+
+                    <!-- Add your extra content here -->
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                       Copper Alloy C44300 (Admiralty Brass) is a corrosion-resistant copper-zinc-tin alloy specially developed for marine and heat-exchange applications. It offers excellent resistance to seawater corrosion, good thermal conductivity, and reliable mechanical strength, making it an ideal choice for condenser tubes, heat exchangers, and coastal or offshore engineering environments where long-term performance is essential.
+
+                    </p>
+                    <!-- End extra content -->
                 </div>
             </div>
         </div>
     </section>
 
+    <div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
+        <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact us">Contact Us</a>
+        </div>
+    </div>
     <!--End breadcrumb area-->
 
     <section class="sec-padd-top sec-padd-bottom bg-light">
@@ -69,7 +89,7 @@
         </div>
     </section>
 
-        {{-- datasheet --}}
+    {{-- datasheet --}}
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Copper Alloys C44300 Datasheet</h3>
@@ -112,7 +132,7 @@
         </div>
     </section>
     <!-- End Datasheet -->
-    
+
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
@@ -702,9 +722,9 @@
     </section>
     <!--End faq content area-->
 
-    
+
     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>

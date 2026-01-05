@@ -126,7 +126,7 @@
             </p>
 
             <!-- Lead Capture Form -->
-           <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
                 @csrf
 
                 <input type="hidden" name="page_path" value="{{ $slug }}">
@@ -906,7 +906,7 @@
         </div>
     </section>
 
-    <section id="price"  class="sec-padd-top sec-padd-bottom bg-light py-5">
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
         <div class="container">
             <div class="section-title text-center mb-4">
                 <h2>1055 Steel Price per kg in India</h2>
@@ -917,10 +917,10 @@
             </p>
 
             <p class="text-center fs-5">
-               <strong>Typical Range:</strong> ₹110 – ₹180 per kg (Indicative only)
+                <strong>Typical Range:</strong> ₹110 – ₹180 per kg (Indicative only)
             </p>
             <p class="text-center fs-5">
-              Contact us for exact quotation based on size and quantity.
+                Contact us for exact quotation based on size and quantity.
             </p>
         </div>
     </section>
@@ -1047,9 +1047,9 @@
     </section>
     <!--End faq content area-->
 
-    
+
     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>

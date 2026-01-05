@@ -18,10 +18,31 @@
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1>Cartridge Brass Alloy C26000 <br> Durable & Corrosion Resistant</h1>
+
+                     <!-- Add your extra content here -->
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                       Cartridge Brass Alloy C26000 is a versatile copper-zinc alloy known for its excellent durability, corrosion resistance, and outstanding formability. It offers good strength and workability, making it ideal for cartridges, electrical components, fasteners, architectural fittings, and general engineering applications requiring reliable performance and long service life.
+
+                    </p>
+                    <!-- End extra content --></div>
                 </div>
             </div>
         </div>
     </section>
+
+ <div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
+        <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact us">Contact Us</a>
+        </div>
+    </div>
 
 
     <!--End breadcrumb area-->
