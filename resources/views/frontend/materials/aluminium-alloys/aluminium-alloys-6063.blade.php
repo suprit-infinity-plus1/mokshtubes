@@ -37,7 +37,7 @@
     </section>
 
     .
-    <div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
+    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
         <div class="container">
             <a href="#overview">Overview</a> |
             <a href="#composition">Chemical Composition</a> |

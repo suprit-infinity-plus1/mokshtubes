@@ -27,14 +27,14 @@
                         Duplex Stainless Steel S31803 is one of the most widely used duplex grades, combining exceptional
                         corrosion resistance, high strength, and excellent stress corrosion cracking resistance. Below is
                         the complete datasheet including composition, properties, heat treatment, and applications.</p>
-                        <!-- End extra content -->
+                    <!-- End extra content -->
                 </div>
             </div>
         </div>
     </section>
 
-   <div class="sticky-top bg-white border-bottom material-tabs d-none d-md-block w-100">
-         <div class="container">
+    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+        <div class="container">
             <a href="#overview">Overview</a> |
             <a href="#composition">Chemical Composition</a> |
             <a href="#heat-treatment">Heat Treatment</a> |
@@ -42,7 +42,7 @@
             <a href="#price">Advantages</a> |
             <a href="#applications">Applications</a> |
             <a href="#faq">FAQ</a> |
-            <a href="#contact us">Contact Us</a>
+            <a href="#contact-us">Contact Us</a>
         </div>
     </div>
 
@@ -945,9 +945,9 @@
     </section>
     <!--End faq content area-->
 
-    
+
     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -1002,7 +1002,7 @@
     </section>
     {{-- blog section end --}}
 
-    <section id="contact us" class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

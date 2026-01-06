@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Inconel X-750 – Extreme Heat & Oxidation Alloy') <!-- 53 chars -->
-@section('meta_description', 'Inconel X-750 maintains strength and stability in extreme heat—ideal for springs,
+@section('meta_description',
+    'Inconel X-750 maintains strength and stability in extreme heat—ideal for springs,
     fasteners, and high-performance gas turbines.')
-@section('meta_keywords', 'Inconel X-750, Extreme Heat Alloys, Oxidation Resistant Alloys, High Temperature Alloys,
+@section('meta_keywords',
+    'Inconel X-750, Extreme Heat Alloys, Oxidation Resistant Alloys, High Temperature Alloys,
     Nickel Alloys, Corrosion Resistant Alloys, Inconel Springs, Inconel Fasteners, High-Performance Gas Turbine Alloys')
 @section('og_image', asset('assets/images/inconel/Inconel-X 750.webp'))
 @section('og_type', 'article')
@@ -14,13 +16,32 @@
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1>Inconel X-750 <br> High-Strength & Heat Resistant Alloy</h1>
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                        INCONEL X-750 is a precipitation-hardenable nickel-chromium alloy designed for high strength,
+                        oxidation resistance, and stress-corrosion resistance at elevated temperatures. Below is the
+                        complete datasheet following the full Master Blade Format.</p>
                 </div>
             </div>
         </div>
     </section>
 
+
+    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+        <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact-us">Contact Us</a>
+        </div>
+    </div>
+
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section  id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -40,8 +61,8 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a leading manufacturer,
-                            supplier, exporter, importer, and stockist of<strong class="text-black"> INCONEL X-750</strong>
+                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a leading supplier, exporter,
+                            importer, and stockist of<strong class="text-black"> INCONEL X-750</strong>
                             (UNS N07750) products in a wide
                             range of forms including <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe
                             Fittings, Flanges, Fasteners, Sheets & Plates,
@@ -69,7 +90,7 @@
         </div>
     </section>
 
-     {{-- datasheet --}}
+    {{-- datasheet --}}
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Inconel X750 Datasheet</h3>
@@ -113,10 +134,77 @@
     </section>
     <!-- End Datasheet -->
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>INCONEL X-750 Specifications</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Category</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Material Name</td>
+                                    <td>INCONEL X-750</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>UNS Number</td>
+                                    <td>N07750</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Alloy Type</td>
+                                    <td>Precipitation Hardenable Nickel-Chromium Superalloy</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Strengthening Mechanism</td>
+                                    <td>Gamma Prime (γ’ ) Precipitation</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Density</td>
+                                    <td>8.28 g/cm³</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Magnetic Behavior</td>
+                                    <td>Slightly Magnetic (After Heat Treatment)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Max Service Temperature</td>
+                                    <td>Up to 704°C (1300°F)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Heat Treatment</td>
+                                    <td>Solution Annealed + Aged</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Weldability</td>
+                                    <td>Good (With Proper Procedure)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Certifications</td>
+                                    <td>EN 10204 3.1 / 3.2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div> <!-- col-lg-8 -->
+
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of INCONEL X-750</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -129,54 +217,54 @@
                                     <th>Composition (%)</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-center">
+                            <tbody>
                                 <tr class="t-row">
-                                    <td>Nickel</td>
-                                    <td>≥70.0</td>
+                                    <td>Nickel (Ni)</td>
+                                    <td>≥ 70.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Chromium</td>
+                                    <td>Chromium (Cr)</td>
                                     <td>14.0 – 17.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Iron</td>
+                                    <td>Iron (Fe)</td>
                                     <td>5.0 – 9.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Titanium</td>
+                                    <td>Titanium (Ti)</td>
                                     <td>2.25 – 2.75</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Aluminum</td>
+                                    <td>Aluminum (Al)</td>
                                     <td>0.4 – 1.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Niobium + Tantalum</td>
-                                    <td>0.7 max</td>
+                                    <td>Nb + Ta</td>
+                                    <td>≤ 0.7</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Manganese</td>
-                                    <td>1.0 max</td>
+                                    <td>Manganese (Mn)</td>
+                                    <td>≤ 1.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Silicon</td>
-                                    <td>0.5 max</td>
+                                    <td>Silicon (Si)</td>
+                                    <td>≤ 0.5</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Copper</td>
-                                    <td>0.5 max</td>
+                                    <td>Copper (Cu)</td>
+                                    <td>≤ 0.5</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Cobalt</td>
-                                    <td>1.0 max</td>
+                                    <td>Cobalt (Co)</td>
+                                    <td>≤ 1.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Carbon</td>
-                                    <td>0.08 max</td>
+                                    <td>Carbon (C)</td>
+                                    <td>≤ 0.08</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Sulfur</td>
-                                    <td>0.01 max</td>
+                                    <td>Sulfur (S)</td>
+                                    <td>≤ 0.01</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -187,55 +275,56 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color: #174268;">Technical Specifications of Alloy X-750</h2>
             </div>
-
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
+            <!-- Mechanical Properties Table -->
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <h3 class="text-center mb-3" style="color: #db7227;">Physical Properties of Alloy X-750
+                    </h3>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
                                     <th>Property</th>
-                                    <th>Imperial</th>
-                                    <th>Metric</th>
+                                    <th>Value</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-center">
+                            <tbody>
                                 <tr class="t-row">
                                     <td>Density</td>
-                                    <td>0.299 lb/in³</td>
-                                    <td>8.28 g/cm³</td>
+                                    <td>0.299 lb/in³ (8.28 g/cm³)</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Melting Range</td>
-                                    <td>2540–2600 °F</td>
-                                    <td>1393–1427 °C</td>
+                                    <td>2540–2600 °F (1393–1427 °C)</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Curie Temperature (As Hot-Rolled)</td>
+                                    <td>Curie Temperature (Hot Rolled)</td>
                                     <td>-225 °F</td>
-                                    <td>-</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Curie Temperature (Triple Heat Treated)</td>
                                     <td>-193 °F</td>
-                                    <td>-</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Emissivity of Oxidized Surface</td>
-                                    <td>At 600°F</td>
+                                    <td>Magnetic Permeability @ 200 Oersted</td>
+                                    <td>1.0020 – 1.0035</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Emissivity at 600°F</td>
                                     <td>0.895</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Linear Contraction During Precipitation Treatment</td>
-                                    <td>Hot-Rolled (1300°F, 20 hr)</td>
-                                    <td>0.00044 in/in</td>
+                                    <td>Emissivity at 2000°F</td>
+                                    <td>0.925</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Linear Contraction @ 1300°F, 20 hrs</td>
+                                    <td>0.00026 – 0.00052 in/in</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -244,49 +333,45 @@
             </div>
 
             <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+            <div class="row justify-content-center mt-5" id="heat-treatment">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color: #db7227;">HEAT TREATMENT OF INCONEL X-750
+                    </h4>
+
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Annealed</th>
-                                    <th>Solution Treated & Aged</th>
-                                    <th>Cold Worked & Aged</th>
+                                    <th>Heat Treatment Process</th>
+                                    <th>Temperature Range</th>
+                                    <th>Cooling / Purpose</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-center">
+                            <tbody>
                                 <tr class="t-row">
-                                    <td>Yield Strength (ksi / MPa)</td>
-                                    <td>70 ksi (483 MPa)</td>
-                                    <td>100–160 ksi (690–1103 MPa)</td>
-                                    <td>140–180 ksi (965–1241 MPa)</td>
+                                    <td>Solution Annealing</td>
+                                    <td>980 – 1020°C</td>
+                                    <td>Air Cool – Dissolves precipitates</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Tensile Strength</td>
-                                    <td>110 ksi (758 MPa)</td>
-                                    <td>130–180 ksi (896–1241 MPa)</td>
-                                    <td>150–200 ksi (1035–1379 MPa)</td>
+                                    <td>Standard Aging</td>
+                                    <td>705 – 845°C</td>
+                                    <td>Strength &amp; hardness development</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Elongation (%)</td>
-                                    <td>20–25%</td>
-                                    <td>10–20%</td>
-                                    <td>8–15%</td>
+                                    <td>Double Aging</td>
+                                    <td>845°C + 705°C</td>
+                                    <td>Improved creep &amp; relaxation resistance</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Reduction of Area (%)</td>
-                                    <td>—</td>
-                                    <td>—</td>
-                                    <td>—</td>
+                                    <td>Triple Heat Treatment</td>
+                                    <td>Multi-step aging</td>
+                                    <td>Used for springs &amp; nuclear use</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Hardness (Rockwell C)</td>
-                                    <td>30–35 RC</td>
-                                    <td>35–40 RC</td>
-                                    <td>40–45 RC</td>
+                                    <td>Stress Relieving</td>
+                                    <td>600 – 650°C</td>
+                                    <td>Dimensional stability</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -295,6 +380,147 @@
             </div>
         </div>
     </section>
+
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color: #174268;">Mechanical Properties of INCONEL X-750</h2>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Condition</th>
+                            <th>Yield Strength</th>
+                            <th>Tensile Strength</th>
+                            <th>Elongation</th>
+                            <th>Hardness</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="t-row">
+                            <td>Annealed</td>
+                            <td>~70 ksi (483 MPa)</td>
+                            <td>~110 ksi (758 MPa)</td>
+                            <td>20–25%</td>
+                            <td>~30–35 RC</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Solution Treated &amp; Aged</td>
+                            <td>100–160 ksi (690–1103 MPa)</td>
+                            <td>130–180 ksi (896–1241 MPa)</td>
+                            <td>10–20%</td>
+                            <td>35–40 RC</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Cold Worked &amp; Aged</td>
+                            <td>140–180 ksi (965–1241 MPa)</td>
+                            <td>150–200 ksi (1035–1379 MPa)</td>
+                            <td>8–15%</td>
+                            <td>40–45 RC</td>
+                        </tr>
+                    </tbody>
+                </table>
+                {{-- <p class="mt-3 text-center">
+                    After quenching & tempering, 1055 steel hardness can reach 45–55 HRC depending on cooling media.
+                </p> --}}
+
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center mt-5" id="available forms">
+                <h2>Available Forms & Size Range</h2>
+            </div>
+
+            <div class="row justify-content-center mb-4" style="text-align: justify;">
+                <div class="col-lg-10">
+                    <p class="fs-6 text-center">
+                        We supply Inconel X750 in the following product forms and dimensions:
+                    </p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color:#db7227;">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Product</th>
+                                    <th>Size Range</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Bars</td>
+                                    <td>6 mm – 450 mm</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Sheets</td>
+                                    <td>0.5 mm – 50 mm</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Pipes</td>
+                                    <td>OD 6 mm – 630 mm</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Wire</td>
+                                    <td>0.1 mm – 12 mm</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Standards & Equivalent Grades Section -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>N07750</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>W.Nr</td>
+                            <td>2.4669</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>AMS</td>
+                            <td>5667 / 5668 / 5670</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>DIN</td>
+                            <td>NiCr15Fe7TiAl</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ISO</td>
+                            <td>NiCr15Fe7TiAl</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!-- End Standards & Equivalent Grades Section -->
 
 
     @php
@@ -353,7 +579,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products"  class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Inconel X-750</h2>
@@ -414,7 +640,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -461,7 +687,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications"  class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Inconel 617</h2>
@@ -598,8 +824,27 @@
         </div>
     </section>
 
+      <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>INCONEL X-750 Price per kg in India</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong>  ₹5,800 – ₹9,500 per kg
+            </p>
+            <p class="text-center mb-2">
+                 (Depends on form, size, heat treatment & certification)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq"  class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -693,8 +938,8 @@
     </section>
     <!--End faq content area-->
 
-     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    {{-- blog section start --}}
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -749,7 +994,7 @@
     </section>
     {{-- blog section end --}}
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

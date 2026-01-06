@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Inconel 690 – High-Chromium Corrosion Alloy') <!-- 53 chars -->
-@section('meta_description', 'Inconel 690 delivers excellent resistance to oxidizing chemicals and high
+@section('meta_description',
+    'Inconel 690 delivers excellent resistance to oxidizing chemicals and high
     temperatures—ideal for nuclear, chemical, and thermal processing.')
-@section('meta_keywords', 'Inconel 690, High-Chromium Alloy, Corrosion Resistant Alloy, Nickel Alloys, Oxidation
+@section('meta_keywords',
+    'Inconel 690, High-Chromium Alloy, Corrosion Resistant Alloy, Nickel Alloys, Oxidation
     Resistant Alloy, Nuclear Industry Alloys, Chemical Processing Alloys, Thermal Processing Alloys, High Temperature
     Alloys, Oxidizing Chemical Resistant Alloys')
 @section('og_image', asset('assets/images/inconel/Inconel-690.webp'))
@@ -16,14 +18,32 @@
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1>Inconel 690 <br> High Corrosion & Heat Resistant Alloy</h1>
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                        INCONEL 690 is a premium high-temperature nickel-chromium alloy engineered for extreme oxidation
+                        resistance, acidic & caustic corrosion protection, and structural stability under elevated
+                        temperatures. Below is the complete datasheet structured using the Master Material Page Template.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
+    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+        <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact-us">Contact Us</a>
+        </div>
+    </div>
 
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -69,7 +89,7 @@
         </div>
     </section>
 
-     {{-- datasheet --}}
+    {{-- datasheet --}}
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Inconel 690 Datasheet</h3>
@@ -113,10 +133,71 @@
     </section>
     <!-- End Datasheet -->
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>INCONEL 690 Specifications</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Category</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Grade</td>
+                                    <td>INCONEL® 690</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>UNS</td>
+                                    <td>N06690</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Alloy Type</td>
+                                    <td>Nickel-Chromium High-Temperature Alloy</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Condition Supplied</td>
+                                    <td>Annealed / Solution Treated</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Heat Treatment</td>
+                                    <td>Solution Annealed</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Magnetic Nature</td>
+                                    <td>Non-Magnetic</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Weldability</td>
+                                    <td>Excellent</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Testing</td>
+                                    <td>Chemical, Mechanical, PMI, UT / ET</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Certification</td>
+                                    <td>EN 10204 3.1 / 3.2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div> <!-- col-lg-8 -->
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of INCONEL 690</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -129,38 +210,38 @@
                                     <th>Composition (%)</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-center">
+                            <tbody>
                                 <tr class="t-row">
-                                    <td>Nickel</td>
+                                    <td>Nickel (Ni)</td>
                                     <td>58.0 min</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Chromium</td>
+                                    <td>Chromium (Cr)</td>
                                     <td>27.0 – 31.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Iron</td>
+                                    <td>Iron (Fe)</td>
                                     <td>7.0 – 11.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Carbon</td>
-                                    <td>0.05 max</td>
+                                    <td>Carbon (C)</td>
+                                    <td>≤ 0.05</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Silicon</td>
-                                    <td>0.50 max</td>
+                                    <td>Silicon (Si)</td>
+                                    <td>≤ 0.50</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Manganese</td>
-                                    <td>0.50 max</td>
+                                    <td>Manganese (Mn)</td>
+                                    <td>≤ 0.50</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Sulfur</td>
-                                    <td>0.015 max</td>
+                                    <td>Sulfur (S)</td>
+                                    <td>≤ 0.015</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Copper</td>
-                                    <td>0.50 max</td>
+                                    <td>Copper (Cu)</td>
+                                    <td>≤ 0.50</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -170,17 +251,16 @@
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color: #174268;">Technical Specifications of Alloy 690</h2>
             </div>
-
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
+            <!-- Mechanical Properties Table -->
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <h3 class="text-center mb-3" style="color: #db7227;">Physical Properties of Alloy 690
+                    </h3>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -190,30 +270,35 @@
                                     <th>Metric</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-center">
+                            <tbody>
                                 <tr class="t-row">
                                     <td>Density</td>
                                     <td>0.296 lb/in³</td>
-                                    <td>8.19 Mg/m³</td>
+                                    <td>8.19 g/cm³</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Melting Range</td>
-                                    <td>2450 – 2510 °F</td>
-                                    <td>1343 – 1377 °C</td>
+                                    <td>2450–2510°F</td>
+                                    <td>1343–1377°C</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Specific Heat</td>
-                                    <td>0.107 Btu/lb•°F</td>
-                                    <td>450 J/kg•°C</td>
+                                    <td>0.107 Btu/lb°F</td>
+                                    <td>450 J/kg°C</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Permeability at 200 oersteds</td>
+                                    <td>Electrical Resistivity</td>
+                                    <td>691 ohm·circ mil/ft</td>
+                                    <td>1.148 μΩ·m</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Magnetic Permeability</td>
                                     <td>1.001</td>
                                     <td>1.001</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Young’s Modulus</td>
-                                    <td>30.6 × 10³ ksi</td>
+                                    <td>30.6 ×10³ ksi</td>
                                     <td>211 GPa</td>
                                 </tr>
                                 <tr class="t-row">
@@ -228,91 +313,229 @@
             </div>
 
             <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+            <div class="row justify-content-center mt-5" id="heat-treatment">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color: #db7227;">Heat Treatment of INCONEL 690
+                    </h4>
+
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Tube, Cold Drawn 0.50 x 0.050 in</th>
-                                    <th>Tube, Cold Drawn 0.75 x 0.065 in</th>
-                                    <th>Tube, Cold Drawn 3.50 x 0.216 in</th>
-                                    <th>Flat, Hot Rolled 0.5 x 2.0 in</th>
-                                    <th>Rod, Hot Rolled 2.0 in dia</th>
-                                    <th>Rod, Hot Rolled 0.62 in dia</th>
-                                    <th>Strip, Cold Rolled 0.150 in thick</th>
+                                    <th>Process</th>
+                                    <th>Temperature Range</th>
+                                    <th>Purpose</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-center">
+                            <tbody>
                                 <tr class="t-row">
-                                    <td>Size (mm)</td>
-                                    <td>12.7 x 1.27</td>
-                                    <td>19.0 x 1.65</td>
-                                    <td>88.9 x 5.49</td>
-                                    <td>13 x 51</td>
-                                    <td>51 dia</td>
-                                    <td>16 dia</td>
-                                    <td>3.81</td>
+                                    <td>Solution Annealing</td>
+                                    <td>1040 – 1100°C</td>
+                                    <td>Restores corrosion resistance &amp; ductility</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (ksi)</td>
-                                    <td>66.8</td>
-                                    <td>55.0</td>
-                                    <td>40.9</td>
-                                    <td>51.0</td>
-                                    <td>48.5</td>
-                                    <td>54.0</td>
-                                    <td>50.5</td>
+                                    <td>Cooling</td>
+                                    <td>Water / Air</td>
+                                    <td>Prevents carbide precipitation</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (MPa)</td>
-                                    <td>461</td>
-                                    <td>379</td>
-                                    <td>282</td>
-                                    <td>352</td>
-                                    <td>334</td>
-                                    <td>372</td>
-                                    <td>348</td>
+                                    <td>Stress Relieving</td>
+                                    <td>600 – 650°C</td>
+                                    <td>Dimensional stability (if required)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="mt-3 text-center">
+                            INCONEL 690 is not precipitation hardenable; strength comes from solid-solution strengthening.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color: #174268;">Mechanical Properties of Inconel 690</h2>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Product</th>
+                            <th>Yield Strength (ksi / MPa)</th>
+                            <th>Tensile Strength (ksi / MPa)</th>
+                            <th>Elongation (%)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="t-row">
+                            <td>Tube 0.50 × 0.050 in</td>
+                            <td>66.8 ksi / 461 MPa</td>
+                            <td>110 ksi / 758 MPa</td>
+                            <td>39%</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Tube 0.75 × 0.065 in</td>
+                            <td>55 ksi / 379 MPa</td>
+                            <td>101.5 ksi / 700 MPa</td>
+                            <td>46%</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Tube 3.50 × 0.216 in</td>
+                            <td>40.9 ksi / 282 MPa</td>
+                            <td>94 ksi / 648 MPa</td>
+                            <td>52%</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Flat – Hot Rolled</td>
+                            <td>51 ksi / 352 MPa</td>
+                            <td>102 ksi / 703 MPa</td>
+                            <td>46%</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Rod – Hot Rolled (2&quot;)</td>
+                            <td>48.5 ksi / 334 MPa</td>
+                            <td>100 ksi / 690 MPa</td>
+                            <td>50%</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Rod – Hot Rolled (0.62&quot;)</td>
+                            <td>54 ksi / 372 MPa</td>
+                            <td>107 ksi / 738 MPa</td>
+                            <td>44%</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Strip 0.150 in</td>
+                            <td>50.5 ksi / 348 MPa</td>
+                            <td>105 ksi / 724 MPa</td>
+                            <td>41%</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="mt-3 text-center">
+                    INCONEL 690 retains high ductility, strength, and corrosion resistance even after extended
+                    high-temperature exposure.
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center mt-5" id="available forms">
+                <h2>Available Forms & Size Range</h2>
+            </div>
+
+            <div class="row justify-content-center mb-4" style="text-align: justify;">
+                <div class="col-lg-10">
+                    <p class="fs-6 text-center">
+                        We supply Duplex Stainless Steel S31803 in the following product forms and dimensions:
+                    </p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color:#db7227;">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Product Form</th>
+                                    <th>Size Range</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Round Bars / Rods</td>
+                                    <td>6 mm – 450 mm</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Tensile Strength (ksi)</td>
-                                    <td>110.0</td>
-                                    <td>101.5</td>
-                                    <td>94.0</td>
-                                    <td>102.0</td>
-                                    <td>100.0</td>
-                                    <td>107.0</td>
-                                    <td>105.0</td>
+                                    <td>Flat, Square &amp; Hex Bars</td>
+                                    <td>Up to 300 mm</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Tensile Strength (MPa)</td>
-                                    <td>758</td>
-                                    <td>700</td>
-                                    <td>648</td>
-                                    <td>703</td>
-                                    <td>690</td>
-                                    <td>738</td>
-                                    <td>724</td>
+                                    <td>Sheets &amp; Plates</td>
+                                    <td>0.5 mm – 60 mm</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Elongation (%)</td>
-                                    <td>39</td>
-                                    <td>46</td>
-                                    <td>52</td>
-                                    <td>46</td>
-                                    <td>50</td>
-                                    <td>44</td>
-                                    <td>41</td>
+                                    <td>Coils &amp; Strips</td>
+                                    <td>0.1 mm – 6 mm</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Pipes &amp; Tubes</td>
+                                    <td>OD 6 mm – 630 mm</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Heat Exchanger / Boiler Tubes</td>
+                                    <td>As per ASTM B163 / B167</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Wire</td>
+                                    <td>0.5 mm – 12 mm</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Forgings</td>
+                                    <td>As per drawing</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Fasteners</td>
+                                    <td>M6 – M100</td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
             </div>
+
         </div>
     </section>
+
+    <!-- Standards & Equivalent Grades Section -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>N06690</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>W.Nr</td>
+                            <td>2.4642</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>DIN</td>
+                            <td>NiCr30Fe</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ISO</td>
+                            <td>NiCr30Fe</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>Alloy 690</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!-- End Standards & Equivalent Grades Section -->
 
 
     @php
@@ -371,7 +594,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Inconel 690</h2>
@@ -424,7 +647,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -470,7 +693,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Inconel 690</h2>
@@ -602,8 +825,16 @@
         </div>
     </section>
 
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container text-center">
+            <h2>INCONEL 690 Price per kg in India</h2>
+            <p class="fs-5"><strong>₹3,800 – ₹6,800 per kg</strong></p>
+            <p>Price varies by size, form, certification & quantity</p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -710,8 +941,8 @@
     </section>
     <!--End faq content area-->
 
-     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    {{-- blog section start --}}
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -766,7 +997,7 @@
     </section>
     {{-- blog section end --}}
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section  id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

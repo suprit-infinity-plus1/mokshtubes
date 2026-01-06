@@ -18,14 +18,31 @@
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1>Inconel 617 <br> High-Temperature Strength & Oxidation</h1>
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">INCONEL 617 is one of
+                        the industry's most reliable high-temperature alloys, designed for strength,
+                        oxidation resistance, and stability at temperatures exceeding 1100°C. Below is the complete,
+                        SEO-ready master-format page exactly matching your 1055 Blade Template.</p>
                 </div>
             </div>
         </div>
     </section>
+      <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+         <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact-us">Contact Us</a>
+        </div>
+    </div>
 
 
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -45,14 +62,10 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6 mb-4 text-justify" style="text-align: justify;">
-                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted manufacturer,
-                            supplier, exporter, importer, and stockist of a comprehensive range of<strong
-                                class="text-black"> INCONEL 617</strong> (UNS N06617)
-                            products including <a href="{{ route('products.pipes-tubes') }}">Pipes & Tubes</a>, Pipe
-                            Fittings, Flanges, Fasteners, Sheets & Plates, Coils,
-                            Wires, Round Bars, Flat Bars, Angles, Channels, Welding Rods, Wire Mesh, and other custom and
-                            <a href="{{ route('materials.hard-To-Find-Special-Alloys') }}">hard-to-find</a> Alloy 617
-                            components.
+                            <strong class="text-black"> MOKSH TUBES & FITTINGS LLP</strong> is a trusted supplier, exporter,
+                            importer, and stockist of premium-grade Inconel 617 products including pipes, tubes, sheets,
+                            plates, coils, bars, pipe fittings, flanges, fasteners, welding rods, wire mesh, and
+                            custom-fabricated components.
                         </p>
 
                         <p class="fs-6" style="text-align: justify;">
@@ -82,7 +95,7 @@
             </p>
 
             <!-- Lead Capture Form -->
-           <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
                 @csrf
 
                 <input type="hidden" name="page_path" value="{{ $slug }}">
@@ -114,10 +127,63 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>Duplex Stainless Steel S31803 Specifications</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Category</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Grade</td>
+                                    <td>INCONEL 617 / Alloy 617 / UNS N06617</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Material Type</td>
+                                    <td>Nickel-Chromium-Cobalt-Molybdenum High-Temperature Alloy</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Forms Available</td>
+                                    <td>Pipes, Tubes, Sheets, Plates, Coils, Bars, Fittings, Flanges, Fasteners</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Standards</td>
+                                    <td>ASTM B166, B168, B546, B564, ASME SB166 / SB168 / SB564 / SB546</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Certification</td>
+                                    <td>EN 10204 3.1 / 3.2</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>ASME Approval</td>
+                                    <td>ASME Code Cases 1956, 1982</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Applications</td>
+                                    <td>High-temperature, oxidizing &amp; carburizing environments</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div> <!-- col-lg-8 -->
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of INCONEL 617</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -127,56 +193,60 @@
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
                                     <th>Element</th>
-                                    <th>Composition (%)</th>
+                                    <th>Content (%)</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-center">
+                            <tbody>
                                 <tr class="t-row">
-                                    <td>Nickel</td>
+                                    <td>Nickel (Ni)</td>
                                     <td>44.5 min</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Chromium</td>
+                                    <td>Chromium (Cr)</td>
                                     <td>20.0 – 24.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Cobalt</td>
+                                    <td>Cobalt (Co)</td>
                                     <td>10.0 – 15.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Molybdenum</td>
+                                    <td>Molybdenum (Mo)</td>
                                     <td>8.0 – 10.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Carbon</td>
-                                    <td>0.05 – 0.15</td>
+                                    <td>Aluminum (Al)</td>
+                                    <td>0.8 – 1.5</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Iron</td>
-                                    <td>3.0 max</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Manganese</td>
-                                    <td>1.0 max</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Silicon</td>
-                                    <td>1.0 max</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Sulfur</td>
-                                    <td>0.015 max</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Titanium</td>
+                                    <td>Titanium (Ti)</td>
                                     <td>0.6 max</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Copper</td>
+                                    <td>Carbon (C)</td>
+                                    <td>0.05 – 0.15</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Iron (Fe)</td>
+                                    <td>3.0 max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Manganese (Mn)</td>
+                                    <td>1.0 max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Silicon (Si)</td>
+                                    <td>1.0 max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Sulfur (S)</td>
+                                    <td>0.015 max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Copper (Cu)</td>
                                     <td>0.5 max</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Boron</td>
+                                    <td>Boron (B)</td>
                                     <td>0.006 max</td>
                                 </tr>
                             </tbody>
@@ -187,17 +257,16 @@
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color: #174268;">Technical Composition (Physical & Thermal Properties)</h2>
             </div>
-
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
+            <!-- Mechanical Properties Table -->
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <h3 class="text-center mb-3" style="color: #db7227;">Physical Properties of INCONEL 617
+                    </h3>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -207,11 +276,11 @@
                                     <th>Metric</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-center">
+                            <tbody>
                                 <tr class="t-row">
                                     <td>Density</td>
                                     <td>0.302 lb/in³</td>
-                                    <td>8.36 Mg/m³</td>
+                                    <td>8.36 g/cm³</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Melting Range</td>
@@ -225,7 +294,7 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Electrical Resistivity</td>
-                                    <td>736 ohm·circ mil/ft</td>
+                                    <td>736 ohm·cir·mil/ft</td>
                                     <td>1.22 µΩ·m</td>
                                 </tr>
                             </tbody>
@@ -235,55 +304,31 @@
             </div>
 
             <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+            <div class="row justify-content-center mt-5" id="heat-treatment">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color: #db7227;">Heat Treatment of INCONEL 617
+                    </h4>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Plate (Hot Rolled)</th>
-                                    <th>Bar (Hot Rolled)</th>
-                                    <th>Tubing (Cold Drawn)</th>
-                                    <th>Sheet/Strip (Cold Rolled)</th>
+                                    <th>Process</th>
+                                    <th>Description</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-center">
+                            <tbody>
                                 <tr class="t-row">
-                                    <td>Yield Strength (ksi / MPa)</td>
-                                    <td>46.7 / 322</td>
-                                    <td>46.1 / 318</td>
-                                    <td>55.6 / 383</td>
-                                    <td>50.9 / 351</td>
+                                    <td>Solution Annealing</td>
+                                    <td>2150–2200°F (1175–1205°C), rapid quench</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Tensile Strength (ksi / MPa)</td>
-                                    <td>106.5 / 734</td>
-                                    <td>111.5 / 769</td>
-                                    <td>110.0 / 758</td>
-                                    <td>109.5 / 755</td>
+                                    <td>Stress Relieving</td>
+                                    <td>1650–1800°F (900–980°C)</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Elongation (%)</td>
-                                    <td>62%</td>
-                                    <td>56%</td>
-                                    <td>56%</td>
-                                    <td>58%</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Reduction of Area (%)</td>
-                                    <td>56%</td>
-                                    <td>50%</td>
-                                    <td>-</td>
-                                    <td>-</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Hardness (BHN)</td>
-                                    <td>172</td>
-                                    <td>181</td>
-                                    <td>193</td>
-                                    <td>173</td>
+                                    <td>Aging</td>
+                                    <td>Not typically age-hardened — strengthening occurs via solid-solution &amp; carbide
+                                        precipitation</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -292,6 +337,143 @@
             </div>
         </div>
     </section>
+
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color: #174268;">Mechanical Properties of INCONEL 617</h2>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Form</th>
+                            <th>Yield Strength</th>
+                            <th>Tensile Strength</th>
+                            <th>Elongation</th>
+                            <th>Hardness</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="t-row">
+                            <td>Plate (Hot Rolled)</td>
+                            <td>46.7 ksi / 322 MPa</td>
+                            <td>106.5 ksi / 734 MPa</td>
+                            <td>62%</td>
+                            <td>172 BHN</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Bar (Hot Rolled)</td>
+                            <td>46.1 ksi / 318 MPa</td>
+                            <td>111.5 ksi / 769 MPa</td>
+                            <td>56%</td>
+                            <td>181 BHN</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Tubing (Cold Drawn)</td>
+                            <td>55.6 ksi / 383 MPa</td>
+                            <td>110.0 ksi / 758 MPa</td>
+                            <td>56%</td>
+                            <td>193 BHN</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Sheet / Strip (Cold Rolled)</td>
+                            <td>50.9 ksi / 351 MPa</td>
+                            <td>109.5 ksi / 755 MPa</td>
+                            <td>58%</td>
+                            <td>173 BHN</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center mt-5" id="available forms">
+                <h2>Available Forms & Size Range</h2>
+            </div>
+
+            <div class="row justify-content-center mb-4" style="text-align: justify;">
+                <div class="col-lg-10">
+                    <p class="fs-6 text-center">
+                        We supply INCONEL 617 in the following product forms and dimensions:
+                    </p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color:#db7227;">
+                        <h5 class="fw-bold mt-3">Product Forms</h5>
+                        <ul class="list-group list-group-flush mb-4">
+                            <li class="list-group-item">✔ Seamless Pipes &amp; Tubes</li>
+                            <li class="list-group-item">✔ Welded Pipes (ERW / EFW)</li>
+                            <li class="list-group-item">✔ Heat Exchanger, Capillary &amp; U-Bend Tubes</li>
+                            <li class="list-group-item">✔ Sheets / Plates / Coils</li>
+                            <li class="list-group-item">✔ Round / Flat / Square / Hex Bars</li>
+                            <li class="list-group-item">✔ Pipe Fittings (Elbows, Tees, Reducers)</li>
+                            <li class="list-group-item">✔ Flanges (WN, SO, Blind, SW, Threaded)</li>
+                            <li class="list-group-item">✔ Fasteners</li>
+                            <li class="list-group-item">✔ Welding Rods &amp; Wires</li>
+                            <li class="list-group-item">✔ Custom Fabricated Parts</li>
+                        </ul>
+                        <h5 class="fw-bold mt-3">Sizes</h5>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">✔ Pipes / Tubes: <strong>6 mm – 600 mm OD</strong></li>
+                            <li class="list-group-item">✔ Sheets / Plates: <strong>0.5 mm – 100 mm thickness</strong></li>
+                            <li class="list-group-item">✔ Bars: <strong>6 mm – 300 mm diameter</strong></li>
+                            <li class="list-group-item">✔ Fittings: <strong>1/2&quot; – 24&quot;</strong></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Standards & Equivalent Grades Section -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades</h2>
+            </div>
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>N06617</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>W.Nr.</td>
+                            <td>2.4663a</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ISO</td>
+                            <td>6208</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>B166 / B168 / B546 / B564</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASME</td>
+                            <td>SB166 / SB168 / SB564 / SB546</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!-- End Standards & Equivalent Grades Section -->
 
 
     @php
@@ -350,7 +532,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Inconel 617</h2>
@@ -412,7 +594,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -459,7 +641,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section  id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Inconel 617</h2>
@@ -597,8 +779,27 @@
         </div>
     </section>
 
+       <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>Inconel 617 Price per kg in India</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹3,500 – ₹7,500 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by size, thickness, form & quantity.)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq"  class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -704,8 +905,8 @@
     </section>
     <!--End faq content area-->
 
-     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    {{-- blog section start --}}
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -760,7 +961,7 @@
     </section>
     {{-- blog section end --}}
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

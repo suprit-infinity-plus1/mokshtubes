@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Inconel 718 – High-Strength Alloy for Extreme Loads') <!-- 53 chars -->
-@section('meta_description', 'Inconel 718 offers superior tensile strength, fatigue, and oxidation resistance—ideal for
+@section('meta_description',
+    'Inconel 718 offers superior tensile strength, fatigue, and oxidation resistance—ideal for
     aerospace, turbines, and energy sectors.')
-@section('meta_keywords', 'Inconel 718, High-Strength Alloy, Extreme Load Alloys, Nickel Alloys, Aerospace Alloys,
+@section('meta_keywords',
+    'Inconel 718, High-Strength Alloy, Extreme Load Alloys, Nickel Alloys, Aerospace Alloys,
     Turbine Alloys, Energy Sector Alloys, Fatigue Resistant Alloys, Oxidation Resistant Alloys, Corrosion Resistant Alloys')
 @section('og_image', asset('assets/images/inconel/Inconel-718.webp'))
 @section('og_type', 'article')
@@ -14,14 +16,31 @@
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1>Inconel 718 <br> High-Strength & Corrosion Resistant Alloy</h1>
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                        INCONEL® 718 is a high-performance superalloy offering extreme strength, excellent corrosion
+                        resistance, and outstanding weldability from cryogenic temperatures up to 700°C (1290°F). Below is
+                        the full datasheet following your Master Material Page Blade Format.</p>
                 </div>
             </div>
         </div>
     </section>
 
+    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+        <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact-us">Contact Us</a>
+        </div>
+    </div>
 
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -69,7 +88,7 @@
         </div>
     </section>
 
-     {{-- datasheet --}}
+    {{-- datasheet --}}
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Inconel 718 Datasheet</h3>
@@ -113,10 +132,69 @@
     </section>
     <!-- End Datasheet -->
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <!-- Specifications Section -->
+    <section id="overview"  class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>INCONEL 718 Specifications</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Category</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Grade</td>
+                                    <td>INCONEL® 718</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>UNS</td>
+                                    <td>N07718</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Alloy Family</td>
+                                    <td>Nickel-Based Superalloy</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Condition Supplied</td>
+                                    <td>Solution Annealed, Aged, Cold Worked</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Heat Treatment</td>
+                                    <td>Solution Annealed + Aged</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Welding</td>
+                                    <td>Excellent (No post-weld cracking)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Testing</td>
+                                    <td>Chemical, Mechanical, PMI, UT / RT (on request)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Certification</td>
+                                    <td>EN 10204 3.1 / 3.2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div> <!-- col-lg-8 -->
+
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of INCONEL 718</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -126,69 +204,69 @@
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
                                     <th>Element</th>
-                                    <th>Composition (%)</th>
+                                    <th>Range (%)</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-center">
+                            <tbody>
                                 <tr class="t-row">
-                                    <td>Nickel</td>
-                                    <td>50.00 – 55.00</td>
+                                    <td>Nickel (Ni + Co)</td>
+                                    <td>50.0 – 55.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Chromium</td>
-                                    <td>17.00 – 21.00</td>
+                                    <td>Chromium (Cr)</td>
+                                    <td>17.0 – 21.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Iron</td>
-                                    <td>Balance*</td>
+                                    <td>Iron (Fe)</td>
+                                    <td>Balance</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Niobium</td>
+                                    <td>Niobium (Nb + Ta)</td>
                                     <td>4.75 – 5.50</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Molybdenum</td>
+                                    <td>Molybdenum (Mo)</td>
                                     <td>2.80 – 3.30</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Titanium</td>
+                                    <td>Titanium (Ti)</td>
                                     <td>0.65 – 1.15</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Aluminum</td>
+                                    <td>Aluminum (Al)</td>
                                     <td>0.20 – 0.80</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Cobalt</td>
-                                    <td>1.00</td>
+                                    <td>Cobalt (Co)</td>
+                                    <td>≤ 1.00</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Carbon</td>
-                                    <td>0.08</td>
+                                    <td>Carbon (C)</td>
+                                    <td>≤ 0.08</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Manganese</td>
-                                    <td>0.35</td>
+                                    <td>Manganese (Mn)</td>
+                                    <td>≤ 0.35</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Silicon</td>
-                                    <td>0.35</td>
+                                    <td>Silicon (Si)</td>
+                                    <td>≤ 0.35</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Phosphorus</td>
-                                    <td>0.015</td>
+                                    <td>Phosphorus (P)</td>
+                                    <td>≤ 0.015</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Sulfur</td>
-                                    <td>0.015</td>
+                                    <td>Sulfur (S)</td>
+                                    <td>≤ 0.015</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Boron</td>
-                                    <td>0.006</td>
+                                    <td>Boron (B)</td>
+                                    <td>≤ 0.006</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Copper</td>
-                                    <td>0.30</td>
+                                    <td>Copper (Cu)</td>
+                                    <td>≤ 0.30</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -198,17 +276,16 @@
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color: #174268;">Technical Composition of Alloy 718</h2>
             </div>
-
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
+            <!-- Mechanical Properties Table -->
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <h3 class="text-center mb-3" style="color: #db7227;">Physical Properties of Alloy 718
+                    </h3>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -218,31 +295,46 @@
                                     <th>Value</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-center">
+                            <tbody>
                                 <tr class="t-row">
-                                    <td>Density, lb/in³</td>
-                                    <td>Annealed / Annealed and Aged</td>
-                                    <td>0.296 / 0.297</td>
+                                    <td>Density</td>
+                                    <td>Annealed</td>
+                                    <td>0.296 lb/in³</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Density</td>
+                                    <td>Annealed &amp; Aged</td>
+                                    <td>0.297 lb/in³</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Melting Range</td>
                                     <td>—</td>
-                                    <td>2300 – 2437 °F / 1260 – 1336 °C</td>
+                                    <td>2300–2437°F (1260–1336°C)</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Specific Heat at 70°F (21°C)</td>
+                                    <td>Specific Heat</td>
                                     <td>—</td>
-                                    <td>0.104 Btu/lb·°F / 435 J/kg·°C</td>
+                                    <td>0.104 Btu/lb°F (435 J/kg°C)</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Curie Temperature</td>
-                                    <td>Annealed Material / Annealed and Aged</td>
-                                    <td>-320 °F (<-196 °C) / -170 °F (-112 °C)</td>
+                                    <td>Annealed</td>
+                                    <td>-320°F (&lt; –196°C)</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Permeability at 200 oersted, 70°F</td>
-                                    <td>Annealed Material / Annealed and Aged</td>
-                                    <td>1.0013 / 1.0011</td>
+                                    <td>Curie Temperature</td>
+                                    <td>Aged</td>
+                                    <td>-170°F (–112°C)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Magnetic Permeability @ 200 Oersted</td>
+                                    <td>Annealed</td>
+                                    <td>1.0013</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Magnetic Permeability @ 200 Oersted</td>
+                                    <td>Aged</td>
+                                    <td>1.0011</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -251,72 +343,158 @@
             </div>
 
             <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+            <div class="row justify-content-center mt-5" id="heat-treatment">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color: #db7227;">Heat Treatment of INCONEL 718
+                    </h4>
+
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Parameter</th>
-                                    <th>Cold worked, solution annealed & aged 0.5 (12.7) to 150 (10,545)</th>
-                                    <th>Hot worked, solution annealed & aged 0.5 (12.7) to 150 (10,545)</th>
-                                    <th>Hot worked, solution annealed & aged 8 (203.2) to 10 (254)</th>
+                                    <th>Process</th>
+                                    <th>Temperature Range</th>
+                                    <th>Purpose</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-center">
+                            <tbody>
                                 <tr class="t-row">
-                                    <td>Diameter, in.(mm)</td>
-                                    <td>0.5 (12.7) to 150 (10,545)</td>
-                                    <td>0.5 (12.7) to 150 (10,545)</td>
-                                    <td>8 (203.2) to 10 (254)</td>
+                                    <td>Solution Annealing</td>
+                                    <td>940 – 980°C</td>
+                                    <td>Dissolves precipitates, restores ductility</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Maximum Hardness, Rockwell C</td>
-                                    <td>120 (8436)</td>
-                                    <td>120 (8436)</td>
-                                    <td>150 (10,545)</td>
+                                    <td>Aging (Single)</td>
+                                    <td>720°C → 620°C</td>
+                                    <td>Develops high strength</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Impact Strength, ft•lb (Kg•m) min</td>
-                                    <td>140 (9842)</td>
-                                    <td>140 (9842)</td>
-                                    <td>120 (8436)</td>
+                                    <td>Double Aging</td>
+                                    <td>720°C + 620°C</td>
+                                    <td>Improves creep &amp; fatigue resistance</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Impact Strength, ft•lb (Kg•m) aver</td>
-                                    <td>20</td>
-                                    <td>20</td>
-                                    <td>140 (9842)</td>
+                                    <td>Stress Relieving</td>
+                                    <td>600 – 650°C</td>
+                                    <td>Dimensional stability</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <p class="mt-3 text-center">
+                            INCONEL 718 achieves strength only through precipitation hardening.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color: #174268;">Mechanical Properties of Inconel 718</h2>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Condition</th>
+                            <th>Tensile Strength</th>
+                            <th>Yield Strength</th>
+                            <th>Elongation</th>
+                            <th>Hardness</th>
+                            <th>Impact Strength</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="t-row">
+                            <td>Cold Worked + Solution Annealed + Aged</td>
+                            <td>High</td>
+                            <td>High</td>
+                            <td>40–30%</td>
+                            <td>High</td>
+                            <td>≥ 20 ft-lb</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Hot Worked + Solution Annealed + Aged</td>
+                            <td>High</td>
+                            <td>High</td>
+                            <td>40–30%</td>
+                            <td>High</td>
+                            <td>≥ 20 ft-lb</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Heavy Section (203–254 mm)</td>
+                            <td>Slightly Lower</td>
+                            <td>Slightly Lower</td>
+                            <td>25%</td>
+                            <td>High</td>
+                            <td>≥ 20 ft-lb</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="mt-3 text-center">
+                    INCONEL 718 provides exceptional creep rupture strength, fatigue life, and fracture toughness.
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center mt-5" id="available forms">
+                <h2>Available Forms & Size Range</h2>
+            </div>
+
+            <div class="row justify-content-center mb-4" style="text-align: justify;">
+                <div class="col-lg-10">
+                    <p class="fs-6 text-center">
+                        We supply Inconel 718 in the following product forms and dimensions:
+                    </p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color:#db7227;">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Product Form</th>
+                                    <th>Size Range</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Round Bars / Rods</td>
+                                    <td>6 mm – 450 mm</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Reduction of Area, % minimum</td>
-                                    <td>25</td>
-                                    <td>25</td>
-                                    <td>20</td>
+                                    <td>Sheets &amp; Plates</td>
+                                    <td>0.5 mm – 60 mm</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Elongation in 2 in. (50.8 mm) or 4D % minimum</td>
-                                    <td>40 (5.55)</td>
-                                    <td>40 (5.55)</td>
-                                    <td>25</td>
-                                <tr class="t-row">
-                                    <td>Elongation in 2 in. (50.8 mm) or 4D % maximum</td>
-                                    <td>30</td>
-                                    <td>30</td>
-                                    <td>40</td>
+                                    <td>Coils &amp; Strips</td>
+                                    <td>0.1 mm – 6 mm</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (0.2% Offset), ksi (Kg/cm2) min</td>
-                                    <td>40</td>
-                                    <td>40</td>
-                                    <td>30</td>
+                                    <td>Pipes &amp; Tubes</td>
+                                    <td>OD 6 mm – 630 mm</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Tensile Strength, ksi (Kg/cm2) min</td>
-                                    <td>40</td>
-                                    <td>40</td>
-                                    <td>40</td>
+                                    <td>Wires</td>
+                                    <td>0.1 mm – 12 mm</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Forgings</td>
+                                    <td>As per drawing</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Fasteners</td>
+                                    <td>M6 – M100</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -326,6 +504,48 @@
         </div>
     </section>
 
+    <!-- Standards & Equivalent Grades Section -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>N07718</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>W.Nr</td>
+                            <td>2.4668</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>DIN</td>
+                            <td>NiCr19NbMo</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>AMS</td>
+                            <td>5662 / 5663 / 5664</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ISO</td>
+                            <td>NiCr19NbMo</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!-- End Standards & Equivalent Grades Section -->
 
     @php
         $products = [
@@ -383,7 +603,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Inconel 718</h2>
@@ -444,7 +664,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses"  class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -490,7 +710,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Inconel 600</h2>
@@ -627,8 +847,27 @@
         </div>
     </section>
 
+     <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>INCONEL 718 Price per kg in India</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹4,800 – ₹8,500 per kg
+            </p>
+            <p class="text-center mb-2">
+                 (Price depends on form, size, heat treatment & certification)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section  id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -735,8 +974,10 @@
     </section>
     <!--End faq content area-->
 
-     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+
+
+    {{-- blog section start --}}
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -791,7 +1032,7 @@
     </section>
     {{-- blog section end --}}
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

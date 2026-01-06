@@ -8472,3 +8472,15 @@ ul.gallery-filter li span {
     color: #db7227 !important;
     transform: translateY(-2px);
 }
+
+
+/* ✅ Mobile view (less than 768px) */
+@media (max-width: 425px) {
+    .material-tabs {
+        top: 0px;        
+    }
+    .material-tabs a {
+        margin: auto 8px;
+        /* margin: auto; */
+}
+}
