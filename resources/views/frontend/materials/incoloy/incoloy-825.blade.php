@@ -17,10 +17,11 @@
                 <div class="col-auto text-center">
                     <h1>Incoloy 825 <br> Corrosion Resistant Alloy for Industries</h1>
 
-                     <!-- Add your extra content here -->
+                    <!-- Add your extra content here -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                       INCOLOY® 825 is a nickel-iron-chromium alloy with excellent resistance to acids, chlorides, and stress corrosion cracking, offering high strength and durability in harsh chemical environments.
+                        INCOLOY® 825 is a nickel-iron-chromium alloy with excellent resistance to acids, chlorides, and
+                        stress corrosion cracking, offering high strength and durability in harsh chemical environments.
 
                         <!-- End extra content -->
                 </div>
@@ -28,8 +29,8 @@
         </div>
     </section>
 
-     <div class="sticky-top bg-white border-bottom material-tabs  w-100">
-         <div class="container">
+    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+        <div class="container">
             <a href="#overview">Overview</a> |
             <a href="#composition">Chemical Composition</a> |
             <a href="#heat-treatment">Heat Treatment</a> |
@@ -37,11 +38,11 @@
             <a href="#price">Advantages</a> |
             <a href="#applications">Applications</a> |
             <a href="#faq">FAQ</a> |
-            <a href="#contact us">Contact Us</a>
+            <a href="#contact-us">Contact Us</a>
         </div>
     </div>
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -104,7 +105,7 @@
             </p>
 
             <!-- Lead Capture Form -->
-           <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
                 @csrf
 
                 <input type="hidden" name="page_path" value="{{ $slug }}">
@@ -136,11 +137,65 @@
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom">
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>INCOLOY® 825 Specifications (UNS N08825)</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Category</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Grade</td>
+                                    <td>INCOLOY® 825 / UNS N08825</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Type</td>
+                                    <td>Nickel-Iron-Chromium Alloy</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Typical Chemical Composition</td>
+                                    <td>Ni 38–46%, Fe 39.5–45%, Cr 19.5–23.5%, Mo 2.5–3.5%, Cu 1.5–3.0%, C ≤ 0.05%, Mn ≤
+                                        2.0%, Si ≤ 1.0%</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Conditions</td>
+                                    <td>Annealed, Hot Rolled, Cold Drawn, Solution Treated</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Heat Treatment</td>
+                                    <td>Annealing, Stress Relieving, Solution Treatment</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Testing</td>
+                                    <td>Tensile, Hardness, Chemical, Corrosion, NDT on request</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Certification</td>
+                                    <td>EN 10204 3.1 / 3.2 (Mill Test Certificate available)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of INCOLOY® 825</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -155,47 +210,47 @@
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Nickel</td>
+                                    <td>Nickel (Ni)</td>
                                     <td>38.0 – 46.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Chromium</td>
+                                    <td>Chromium (Cr)</td>
                                     <td>19.5 – 23.5</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Iron</td>
+                                    <td>Iron (Fe)</td>
                                     <td>Balance</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Molybdenum</td>
+                                    <td>Molybdenum (Mo)</td>
                                     <td>2.5 – 3.5</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Copper</td>
+                                    <td>Copper (Cu)</td>
                                     <td>1.5 – 3.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Titanium</td>
+                                    <td>Titanium (Ti)</td>
                                     <td>0.6 – 1.2</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Manganese</td>
+                                    <td>Manganese (Mn)</td>
                                     <td>1.0 max</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Silicon</td>
+                                    <td>Silicon (Si)</td>
                                     <td>0.5 max</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Carbon</td>
+                                    <td>Carbon (C)</td>
                                     <td>0.05 max</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Aluminum</td>
+                                    <td>Aluminum (Al)</td>
                                     <td>0.2 max</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Sulfur</td>
+                                    <td>Sulfur (S)</td>
                                     <td>0.03 max</td>
                                 </tr>
                             </tbody>
@@ -206,31 +261,30 @@
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color: #174268;">Technical Composition of INCOLOY® 825</h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                      <h3 class="text-center mb-3" style="color: #db7227;">Physical Properties of INCOLOY® 825
+                    </h3>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
                                     <th>Property</th>
-                                    <th>Imperial</th>
-                                    <th>Metric</th>
+                                    <th>Imperial Units</th>
+                                    <th>Metric Units</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
                                     <td>Density</td>
                                     <td>0.294 lb/in³</td>
-                                    <td>8.14 Mg/m³ (or g/cm³)</td>
+                                    <td>8.14 g/cm³</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Melting Range</td>
@@ -244,11 +298,11 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Curie Temperature</td>
-                                    <td>320 °F</td>
-                                    <td>196 °C</td>
+                                    <td>–320 °F</td>
+                                    <td>–196 °C</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>netic Permeability at 200 oersteds (15.9 kA/m)</td>
+                                    <td>Magnetic Permeability</td>
                                     <td>1.005</td>
                                     <td>—</td>
                                 </tr>
@@ -258,70 +312,135 @@
                 </div>
             </div>
 
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+            <div class="row justify-content-center mt-5" id="heat-treatment">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color: #db7227;">Heat Treatment of INCOLOY® 825
+                    </h4>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Tubing (Annealed)</th>
-                                    <th>Tubing (Cold Drawn)</th>
-                                    <th>Bar (Annealed)</th>
-                                    <th>Plate (Annealed)</th>
-                                    <th>Sheet (Annealed)</th>
+                                    <th>Heat Treatment Process</th>
+                                    <th>Temperature Range</th>
+                                    <th>Cooling / Procedure</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Tensile Strength (ksi)</td>
-                                    <td>112</td>
-                                    <td>145</td>
-                                    <td>100</td>
-                                    <td>96</td>
-                                    <td>110</td>
+                                    <td>Annealing</td>
+                                    <td>1020–1120°C</td>
+                                    <td>Air or furnace cool</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Tensile Strength (MPa)</td>
-                                    <td>772</td>
-                                    <td>1000</td>
-                                    <td>690</td>
-                                    <td>662</td>
-                                    <td>758</td>
+                                    <td>Solution Treatment</td>
+                                    <td>980–1020°C</td>
+                                    <td>Water quench</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (0.2%) (ksi)</td>
-                                    <td>64</td>
-                                    <td>129</td>
-                                    <td>47</td>
-                                    <td>49</td>
-                                    <td>61</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Yield Strength (MPa)</td>
-                                    <td>441</td>
-                                    <td>889</td>
-                                    <td>324</td>
-                                    <td>338</td>
-                                    <td>421</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Elongation (%)</td>
-                                    <td>36</td>
-                                    <td>15</td>
-                                    <td>45</td>
-                                    <td>45</td>
-                                    <td>39</td>
+                                    <td>Stress Relieving</td>
+                                    <td>620–730°C</td>
+                                    <td>Hold 1–2 hours, air cool</td>
                                 </tr>
                             </tbody>
                         </table>
+                        <p class="mt-3 text-center">
+                            Note: INCOLOY® 825 is typically used in annealed or solution-treated condition for optimum
+                            corrosion resistance.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center mt-5">
+                <h2>Available Forms & Size Range</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <table class="table table-bordered table-striped align-middle">
+                        <thead class="table-dark text-center">
+                            <tr class="t-row">
+                                <th>Product Form</th>
+                                <th>Size Range / Description</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">
+                            <tr class="t-row">
+                                <td>Round Bars</td>
+                                <td>10 mm – 300 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Flat, Square & Hex Bars</td>
+                                <td>Custom up to 250 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Sheets & Plates</td>
+                                <td>2 – 100 mm (600–2500 mm width)</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Coils & Strips</td>
+                                <td>0.5 – 10 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Seamless & Welded Pipes/Tubes</td>
+                                <td>OD 10–219 mm, WT 2–20 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Forged Components</td>
+                                <td>Custom per drawing</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>ASTM / ASME</td>
+                            <td>B429, B446</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>EN</td>
+                            <td>2.4858</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>N08825</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>DIN</td>
+                            <td>2.4858</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>JIS</td>
+                            <td>SNCM 825</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
 
 
     @php
@@ -380,7 +499,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Incoloy 825</h2>
@@ -444,7 +563,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -490,7 +609,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of INCOLOY 825</h2>
@@ -631,8 +750,27 @@
         </div>
     </section>
 
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>INCOLOY® 825 Price per kg in India</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹950 – ₹1,500 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by product form, size, OD, thickness, and condition)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section  id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -734,8 +872,8 @@
     </section>
     <!--End faq content area-->
 
-     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    {{-- blog section start --}}
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -791,7 +929,7 @@
     {{-- blog section end --}}
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

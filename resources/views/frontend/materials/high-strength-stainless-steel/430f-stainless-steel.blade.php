@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', '430F Stainless Steel | Free-Machining Alloy Supplier')
-@section('meta_description', 'High-performance 430F Stainless Steel with excellent machinability, corrosion resistance &
+@section('meta_description',
+    'High-performance 430F Stainless Steel with excellent machinability, corrosion resistance &
     durability for automotive, industrial & engineering components.')
-@section('meta_keywords', '430F Stainless Steel, UNS S43020, AISI 430F, Free-Machining Stainless Steel, Ferritic
+@section('meta_keywords',
+    '430F Stainless Steel, UNS S43020, AISI 430F, Free-Machining Stainless Steel, Ferritic
     Stainless Steel, Corrosion Resistant Stainless Steel, High Machinability Alloy, Industrial Stainless Steel Supplier,
     Automotive Grade Stainless Steel, Engineering Stainless Steel')
 @section('og_image', asset('assets/images/high-strength-stainless-steel/430F-Stainless-Steel.webp'))
@@ -22,9 +24,22 @@
         </div>
     </section>
 
+     <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+        <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact-us">Contact Us</a>
+        </div>
+    </div>
+
 
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -125,10 +140,81 @@
     </section>
     <!-- End Datasheet -->
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition of 430F stainless steel</h2>
+                <h2>Material Summary – SS 430F / UNS S43020</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Property</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Material Type</td>
+                                    <td>Ferritic Stainless Steel (Free-Machining)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>UNS Designation</td>
+                                    <td>S43020</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>AISI</td>
+                                    <td>430F</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Chromium Content</td>
+                                    <td>16.0 – 18.0 %</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Sulfur Content</td>
+                                    <td>0.15 – 0.35 % (for machinability)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Heat Treatable</td>
+                                    <td>❌ No (Not hardenable)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Machinability</td>
+                                    <td>Excellent (Automatic screw machining)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Corrosion Resistance</td>
+                                    <td>Moderate</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Oxidation Resistance</td>
+                                    <td>Good</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Magnetic Property</td>
+                                    <td>Fully Magnetic</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Typical Density</td>
+                                    <td>~7.70 g/cm³</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chemical Composition -->
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of SS 430F</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -144,19 +230,19 @@
                             <tbody class="text-center">
                                 <tr class="t-row">
                                     <td>Carbon (C)</td>
-                                    <td>0.12</td>
+                                    <td>≤ 0.12</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Manganese (Mn)</td>
-                                    <td>1.25</td>
+                                    <td>≤ 1.25</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Silicon (Si)</td>
-                                    <td>1.00</td>
+                                    <td>≤ 1.00</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Phosphorus (P)</td>
-                                    <td>0.06</td>
+                                    <td>≤ 0.06</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Sulfur (S)</td>
@@ -173,24 +259,27 @@
                             </tbody>
                         </table>
 
-
+                        <p class="mt-3 text-center">
+                            👉 The sulfur addition significantly improves machinability, making 430F ideal for
+                            precision-turned and threaded components.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Physical Properties -->
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color:#174268;">Technical Composition of SS 430F</h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties of 430F stainless steel</h4>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <h3 class="text-center mb-3" style="color: #db7227;">Physical Properties of SS 430F
+                    </h3>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -210,7 +299,7 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Modulus of Elasticity</td>
-                                    <td>200 GPa</td>
+                                    <td>~200 GPa</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Thermal Conductivity</td>
@@ -226,53 +315,215 @@
                                 </tr>
                             </tbody>
                         </table>
-
                     </div>
                 </div>
             </div>
 
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties of 430F stainless steel</h4>
+            <!-- Heat Treatment -->
+            <div class="row justify-content-center mt-5" id="heat-treatment">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color:#db7227;">
+                        Heat Treatment of Stainless Steel 430F
+                    </h4>
+
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Metric</th>
-                                    <th>Imperial</th>
+                                    <th>Process</th>
+                                    <th>Temperature Range</th>
+                                    <th>Purpose</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Tensile Strength</td>
-                                    <td>415 – 620 MPa</td>
-                                    <td>60,000 – 90,000 psi</td>
+                                    <td>Annealing</td>
+                                    <td>760 – 815 °C</td>
+                                    <td>Restores ductility after cold work</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (0.2%)</td>
-                                    <td>275 MPa</td>
-                                    <td>40,000 psi</td>
+                                    <td>Stress Relieving</td>
+                                    <td>600 – 650 °C</td>
+                                    <td>Reduces machining stresses</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Elongation</td>
-                                    <td>20%</td>
-                                    <td>20%</td>
+                                    <td>Hardening</td>
+                                    <td>❌ Not Applicable</td>
+                                    <td>Ferritic structure</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Hardness (Brinell)</td>
-                                    <td>170 – 200 HB</td>
-                                    <td>170 – 200 HB</td>
+                                    <td>Cold Working</td>
+                                    <td>—</td>
+                                    <td>Improves strength (limited)</td>
                                 </tr>
                             </tbody>
                         </table>
 
+                        <p class="mt-3 text-center">
+                            📌 SS 430F cannot be hardened by heat treatment. Strength improvements are achieved mainly
+                            through cold working.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color:#174268;">
+                    Mechanical Properties of SS 430F
+                </h2>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Metric</th>
+                            <th>Imperial</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Tensile Strength</td>
+                            <td>415 – 620 MPa</td>
+                            <td>60,000 – 90,000 psi</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Yield Strength (0.2%)</td>
+                            <td>~275 MPa</td>
+                            <td>40,000 psi</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elongation</td>
+                            <td>20%</td>
+                            <td>20%</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Hardness (Brinell)</td>
+                            <td>170 – 200 HB</td>
+                            <td>170 – 200 HB</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p class="mt-3 text-center">
+                    👉 SS 430F offers excellent machinability but lower ductility than austenitic stainless steels.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Forms -->
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center mt-5">
+                <h2>Available Forms & Size Range – SS 430F</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <table class="table table-bordered table-striped align-middle">
+                        <thead class="table-dark text-center">
+                            <tr class="t-row">
+                                <th>Product Form</th>
+                                <th>Typical Size Range</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">
+                            <tr class="t-row">
+                                <td>Round Bars / Bright Bars</td>
+                                <td>Ø6 mm – Ø300 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Flat Bars</td>
+                                <td>5 – 80 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Sheets & Plates</td>
+                                <td>0.5 – 40 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Coils & Strips</td>
+                                <td>0.3 – 5 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Pipes & Tubes</td>
+                                <td>OD 6 – 406 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Fasteners</td>
+                                <td>M5 – M48</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Precision Machined Parts</td>
+                                <td>CNC / Automatic Lathe</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Custom Turned Components</td>
+                                <td>As per drawing</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- International Standards -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades – SS 430F</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>S43020</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>AISI</td>
+                            <td>430F</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>EN</td>
+                            <td>1.4105</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>DIN</td>
+                            <td>X8CrS17</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>A276, A582</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>JIS</td>
+                            <td>SUS 430F</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ISO</td>
+                            <td>X8CrS17</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
 
 
     @php
@@ -331,7 +582,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in 430F Stainless Steel</h2>
@@ -430,7 +681,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section  id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages of 430F stainless steel</h2>
@@ -495,7 +746,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of 430F Stainless Steel</h2>
@@ -563,7 +814,7 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container text-center">
             <div class="section-title center">
                 <h2>WHY CHOOSE US?</h2>
@@ -618,8 +869,27 @@
         </div>
     </section>
 
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>Stainless Steel 430F Price per kg in India</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹200 – ₹480 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq"  class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -712,8 +982,8 @@
     </section>
     <!--End faq content area-->
 
-     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    {{-- blog section start --}}
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -768,10 +1038,8 @@
     </section>
     {{-- blog section end --}}
 
-
-
     <!-- Contact Section -->
-    <section class="sec-padd-bottom">
+    <section id="contact-us"  class="sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

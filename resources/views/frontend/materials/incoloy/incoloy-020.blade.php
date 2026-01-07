@@ -18,10 +18,15 @@
                 <div class="col-auto text-center">
                     <h1>Incoloy 020 <br> High-Performance Industrial Alloy</h1>
 
-                     <!-- Add your extra content here -->
+                    <!-- Add your extra content here -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                       INCOLOY® Alloy 020 (UNS N08020 / W.Nr. 2.4660) is a high-performance nickel-iron-chromium alloy designed for superior corrosion resistance in sulfuric acid and other aggressive chemical environments. It offers excellent resistance to pitting, crevice corrosion, and chloride-induced stress corrosion cracking, and is stabilized with niobium to prevent intergranular corrosion in welded structures. Below is the complete datasheet including composition, properties, heat treatment, and applications.
+                        INCOLOY® Alloy 020 (UNS N08020 / W.Nr. 2.4660) is a high-performance nickel-iron-chromium alloy
+                        designed for superior corrosion resistance in sulfuric acid and other aggressive chemical
+                        environments. It offers excellent resistance to pitting, crevice corrosion, and chloride-induced
+                        stress corrosion cracking, and is stabilized with niobium to prevent intergranular corrosion in
+                        welded structures. Below is the complete datasheet including composition, properties, heat
+                        treatment, and applications.
 
                         <!-- End extra content -->
                 </div>
@@ -29,8 +34,8 @@
         </div>
     </section>
 
-     <div class="sticky-top bg-white border-bottom material-tabs  w-100">
-         <div class="container">
+    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+        <div class="container">
             <a href="#overview">Overview</a> |
             <a href="#composition">Chemical Composition</a> |
             <a href="#heat-treatment">Heat Treatment</a> |
@@ -38,12 +43,12 @@
             <a href="#price">Advantages</a> |
             <a href="#applications">Applications</a> |
             <a href="#faq">FAQ</a> |
-            <a href="#contact us">Contact Us</a>
+            <a href="#contact-us">Contact Us</a>
         </div>
     </div>
 
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -126,10 +131,68 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>INCOLOY Alloy 020 Specifications</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Category</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Grade</td>
+                                    <td>INCOLOY® Alloy 020 / UNS N08020 / W.Nr. 2.4660</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Type</td>
+                                    <td>Nickel-Iron-Chromium Corrosion-Resistant Alloy</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Typical Chemical Composition</td>
+                                    <td>
+                                        Ni 36–38%, Fe 39–41%, Cr 19–21%, Cu 1%, Mo 0.5–1.0%,
+                                        Nb 0.3–0.7%, C ≤ 0.03%, Mn ≤ 1%, Si ≤ 1%, S ≤ 0.015%
+                                    </td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Conditions</td>
+                                    <td>Annealed, Solution Treated, Cold Worked</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Heat Treatment</td>
+                                    <td>Annealing, Stress Relieving</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Testing</td>
+                                    <td>Tensile, Hardness, Chemical, Corrosion, NDT on request</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Certification</td>
+                                    <td>EN 10204 3.1 / 3.2 (Mill Test Certificate available)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div> <!-- col-lg-8 -->
+
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of Incoloy 020</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -142,50 +205,38 @@
                                     <th>Composition (%)</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-center">
+                            <tbody>
                                 <tr class="t-row">
-                                    <td>Nickel</td>
-                                    <td>32.0–38.0</td>
+                                    <td>Nickel (Ni)</td>
+                                    <td>32.0 – 38.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Chromium</td>
-                                    <td>19.0–21.0</td>
+                                    <td>Chromium (Cr)</td>
+                                    <td>19.0 – 21.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Iron</td>
+                                    <td>Iron (Fe)</td>
                                     <td>Balance</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Molybdenum</td>
-                                    <td>2.0–3.0</td>
+                                    <td>Molybdenum (Mo)</td>
+                                    <td>2.0 – 3.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Copper</td>
-                                    <td>3.0–4.0</td>
+                                    <td>Copper (Cu)</td>
+                                    <td>3.0 – 4.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Manganese</td>
-                                    <td>2.0</td>
+                                    <td>Manganese (Mn)</td>
+                                    <td>≤ 2.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Silicon</td>
-                                    <td>1.0</td>
+                                    <td>Silicon (Si)</td>
+                                    <td>≤ 1.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Carbon</td>
-                                    <td>0.02</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Sulfur</td>
-                                    <td>0.005</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Phosphorus</td>
-                                    <td>0.02</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Niobium + Tantalum</td>
-                                    <td>1.0</td>
+                                    <td>Carbon (C)</td>
+                                    <td>≤ 0.02</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -195,27 +246,26 @@
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color: #174268;">Technical Composition of Incoloy 020</h2>
             </div>
-
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
+            <!-- Mechanical Properties Table -->
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <h3 class="text-center mb-3" style="color: #db7227;">Physical Properties of Incoloy 020
+                    </h3>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
                                     <th>Property</th>
-                                    <th>Imperial</th>
-                                    <th>Metric</th>
+                                    <th>Imperial Units</th>
+                                    <th>Metric Units</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-center">
+                            <tbody>
                                 <tr class="t-row">
                                     <td>Density</td>
                                     <td>0.292 lb/in³</td>
@@ -258,76 +308,45 @@
             </div>
 
             <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+            <div class="row justify-content-center mt-5" id="heat-treatment">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color: #db7227;">Heat Treatment of Incoloy 020
+                    </h4>
+
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Cold Reduction (%)</th>
-                                    <th>0%</th>
-                                    <th>20%</th>
-                                    <th>30%</th>
-                                    <th>40%</th>
-                                    <th>50%</th>
-                                    <th>60%</th>
+                                    <th>Heat Treatment Process</th>
+                                    <th>Temperature Range</th>
+                                    <th>Cooling / Procedure</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-center">
+                            <tbody>
                                 <tr class="t-row">
-                                    <td>Yield Strength (ksi)</td>
-                                    <td>44.4</td>
-                                    <td>111.0</td>
-                                    <td>124.3</td>
-                                    <td>127.5</td>
-                                    <td>139.5</td>
-                                    <td>139.9</td>
+                                    <td>Annealing / Solution Treatment</td>
+                                    <td>1040 – 1120°C</td>
+                                    <td>Rapid water quench or air cool</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (MPa)</td>
-                                    <td>306</td>
-                                    <td>765</td>
-                                    <td>857</td>
-                                    <td>879</td>
-                                    <td>962</td>
-                                    <td>965</td>
+                                    <td>Stress Relieving</td>
+                                    <td>600 – 650°C</td>
+                                    <td>Hold for 1–2 hours, then air cool</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Tensile Strength (ksi)</td>
-                                    <td>95.8</td>
-                                    <td>119.8</td>
-                                    <td>131.5</td>
-                                    <td>135.0</td>
-                                    <td>147.5</td>
-                                    <td>149.3</td>
+                                    <td>Softening (Optional)</td>
+                                    <td>980 – 1050°C</td>
+                                    <td>Furnace cool for maximum ductility</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Tensile Strength (MPa)</td>
-                                    <td>661</td>
-                                    <td>826</td>
-                                    <td>907</td>
-                                    <td>931</td>
-                                    <td>1017</td>
-                                    <td>1029</td>
+                                    <td>Hot Working Prep</td>
+                                    <td>980 – 1120°C</td>
+                                    <td>Heat uniformly before forming</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Elongation (%)</td>
-                                    <td>38</td>
-                                    <td>13</td>
-                                    <td>8</td>
-                                    <td>7</td>
-                                    <td>4</td>
-                                    <td>5</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Hardness (Rockwell)</td>
-                                    <td>B83</td>
-                                    <td>C23</td>
-                                    <td>C28</td>
-                                    <td>C27</td>
-                                    <td>C30</td>
-                                    <td>C31</td>
+                                    <td>Recovery / Recrystallization</td>
+                                    <td>700 – 900°C</td>
+                                    <td>Air cool</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -336,6 +355,198 @@
             </div>
         </div>
     </section>
+
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color: #174268;">Mechanical Properties of Incoloy 020</h2>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Cold Reduction (%)</th>
+                            <th>Yield Strength (ksi)</th>
+                            <th>Yield Strength (MPa)</th>
+                            <th>Tensile Strength (ksi)</th>
+                            <th>Tensile Strength (MPa)</th>
+                            <th>Elongation (%)</th>
+                            <th>Hardness (Rockwell)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="t-row">
+                            <td>0%</td>
+                            <td>44.4</td>
+                            <td>306</td>
+                            <td>95.8</td>
+                            <td>661</td>
+                            <td>38</td>
+                            <td>B83</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>20%</td>
+                            <td>111.0</td>
+                            <td>765</td>
+                            <td>119.8</td>
+                            <td>826</td>
+                            <td>13</td>
+                            <td>C23</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>30%</td>
+                            <td>124.3</td>
+                            <td>857</td>
+                            <td>131.5</td>
+                            <td>907</td>
+                            <td>8</td>
+                            <td>C28</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>40%</td>
+                            <td>127.5</td>
+                            <td>879</td>
+                            <td>135.0</td>
+                            <td>931</td>
+                            <td>7</td>
+                            <td>C27</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>50%</td>
+                            <td>139.5</td>
+                            <td>962</td>
+                            <td>147.5</td>
+                            <td>1017</td>
+                            <td>4</td>
+                            <td>C30</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>60%</td>
+                            <td>139.9</td>
+                            <td>965</td>
+                            <td>149.3</td>
+                            <td>1029</td>
+                            <td>5</td>
+                            <td>C31</td>
+                        </tr>
+                    </tbody>
+                </table>
+                {{-- <p class="mt-3 text-center">
+                    After quenching & tempering, 1055 steel hardness can reach 45–55 HRC depending on cooling media.
+                </p> --}}
+
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center mt-5" id="available forms">
+                <h2>Available Forms & Size Range</h2>
+            </div>
+
+            <div class="row justify-content-center mb-4" style="text-align: justify;">
+                <div class="col-lg-10">
+                    <p class="fs-6 text-center">
+                        We supply Incoloy 020 in the following product forms and dimensions:
+                    </p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color:#db7227;">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Product Form</th>
+                                    <th>Size Range / Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Round Bars</td>
+                                    <td>10 mm – 350 mm</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Flat, Square &amp; Hex Bars</td>
+                                    <td>Custom sizes up to 250 mm</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Sheets &amp; Plates</td>
+                                    <td>1.5 mm – 100 mm (Width 600 – 2500 mm)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Coils &amp; Strips</td>
+                                    <td>0.3 mm – 8 mm</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Seamless &amp; Welded Pipes / Tubes</td>
+                                    <td>OD 6 mm – 273 mm, WT 1 – 25 mm</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Forged Blocks, Rings, Bushings &amp; Components</td>
+                                    <td>Custom per drawing</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Standards & Equivalent Grades Section -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades</h2>
+            </div>
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>N08020</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>W.Nr (DIN)</td>
+                            <td>2.4660</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>B166 (Seamless Pipe), B167 (Tube), B168 (Plate, Sheet, Strip), B564 (Forgings)</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>EN</td>
+                            <td>NiCr20FeNb</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>BS</td>
+                            <td>NA 25</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>JIS</td>
+                            <td>SUS 820N</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>GOST</td>
+                            <td>ХН80МФ</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!-- End Standards & Equivalent Grades Section -->
 
 
     @php
@@ -394,7 +605,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products"  class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Incoloy 020</h2>
@@ -454,7 +665,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -506,7 +717,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications"  class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of INCOLOY 020</h2>
@@ -661,8 +872,28 @@
         </div>
     </section>
 
+     <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>INCOLOY Alloy 020 Price per kg in India</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong>  ₹900 – ₹1,500 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by size, OD, thickness, and condition.)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq"  class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -760,8 +991,8 @@
     </section>
     <!--End faq content area-->
 
-     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    {{-- blog section start --}}
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -817,7 +1048,7 @@
     {{-- blog section end --}}
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', '15-5 PH Stainless Steel | Premium Alloy Supplier')
-@section('meta_description', 'Discover high-quality 15-5 PH Stainless Steel with superior strength & corrosion
+@section('meta_description',
+    'Discover high-quality 15-5 PH Stainless Steel with superior strength & corrosion
     resistance for aerospace, marine, & industrial needs.')
-@section('meta_keywords', 'Hastelloy C276, Corrosion Resistant Alloy, Nickel Alloy, Hastelloy C276 Pipes, Hastelloy C276
+@section('meta_keywords',
+    'Hastelloy C276, Corrosion Resistant Alloy, Nickel Alloy, Hastelloy C276 Pipes, Hastelloy C276
     Tubes, Hastelloy C276 Fittings, Industrial Corrosion Resistant Alloys, Durable Nickel Alloys, Chemical Processing
     Alloys, Marine Alloys')
 @section('og_image', asset('assets/images/high-strength-stainless-steel/15-5-PH-STAINLESS-STEEL.webp'))
@@ -25,9 +27,22 @@
         </div>
     </section>
 
+       <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+        <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact-us">Contact Us</a>
+        </div>
+    </div>
+
 
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -126,10 +141,83 @@
     </section>
     <!-- End Datasheet -->
 
-    <section class="sec-padd-top sec-padd-bottom">
+
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition of 15-5PH stainless steel</h2>
+                <h2>Material Summary – 15-5 PH Stainless Steel (UNS S15500)</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Property</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Material Type</td>
+                                    <td>Precipitation Hardening Martensitic Stainless Steel</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>UNS Designation</td>
+                                    <td>S15500</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>ASTM / AMS</td>
+                                    <td>ASTM A564 / AMS 5659</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Strengthening Method</td>
+                                    <td>Solution Anneal + Aging</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Heat Treatable</td>
+                                    <td>✔ Yes</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Typical Hardness Range</td>
+                                    <td>28 – 44 HRC (condition dependent)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Corrosion Resistance</td>
+                                    <td>Better than 17-4 PH</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Toughness</td>
+                                    <td>Excellent (Superior transverse properties)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Magnetic Property</td>
+                                    <td>Fully Magnetic</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Typical Density</td>
+                                    <td>~7.78 g/cm³</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <p class="mt-3 text-center">
+                            📌 15-5 PH is preferred over 17-4 PH where higher toughness, uniformity, and aerospace
+                            reliability are required.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chemical Composition -->
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of 15-5 PH Stainless Steel</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -185,25 +273,23 @@
                                 </tr>
                             </tbody>
                         </table>
-
-
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Physical Properties -->
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color:#174268;">Technical Composition of 15-5 PH Stainless Steel</h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties of 15-5PH stainless steel</h4>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <h3 class="text-center mb-3" style="color: #db7227;">Physical Properties of 15-5 PH Stainless Steel
+                    </h3>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -219,7 +305,7 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Melting Point</td>
-                                    <td>1400–1450 °C (2550–2640 °F)</td>
+                                    <td>1400–1450 °C</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Modulus of Elasticity</td>
@@ -231,67 +317,242 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Specific Heat</td>
-                                    <td>460 J/kg·K at 0–100 °C</td>
+                                    <td>460 J/kg·K</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Electrical Resistivity</td>
-                                    <td>0.80 µΩ·m at 20 °C</td>
+                                    <td>0.80 µΩ·m</td>
                                 </tr>
                             </tbody>
                         </table>
-
                     </div>
                 </div>
             </div>
 
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties of 15-5PH stainless steel
+            <!-- Heat Treatment -->
+            <div class="row justify-content-center mt-5" id="heat-treatment">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color:#db7227;">
+                        Heat Treatment & Aging Conditions – 15-5 PH
                     </h4>
+
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Metric</th>
-                                    <th>Imperial</th>
+                                    <th>Condition</th>
+                                    <th>Aging Temp</th>
+                                    <th>Key Characteristics</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Tensile Strength</td>
-                                    <td>1170 MPa</td>
-                                    <td>170,000 psi</td>
+                                    <td>Condition A</td>
+                                    <td>1040°C + Air Cool</td>
+                                    <td>Soft, machinable</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (0.2% Offset)</td>
-                                    <td>1070 MPa</td>
-                                    <td>155,000 psi</td>
+                                    <td>H900</td>
+                                    <td>482°C</td>
+                                    <td>Maximum strength</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Elongation at Break (50 mm)</td>
-                                    <td>12–15 %</td>
-                                    <td>12–15 %</td>
+                                    <td>H1025</td>
+                                    <td>552°C</td>
+                                    <td>Best balance of strength & toughness</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Reduction of Area</td>
-                                    <td>45 %</td>
-                                    <td>45 %</td>
+                                    <td>H1075</td>
+                                    <td>580°C</td>
+                                    <td>Improved ductility</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Hardness, Rockwell C</td>
-                                    <td>38–44 HRC</td>
-                                    <td>38–44 HRC</td>
+                                    <td>H1150</td>
+                                    <td>620°C</td>
+                                    <td>Maximum toughness & SCC resistance</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>H1150M</td>
+                                    <td>Double aged</td>
+                                    <td>Marine & aerospace critical use</td>
                                 </tr>
                             </tbody>
                         </table>
 
+                        <p class="mt-3 text-center">
+                            📌 Lower aging temperature = higher strength<br>
+                            📌 Higher aging temperature = higher toughness & corrosion resistance
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color:#174268;">
+                    Mechanical Properties of 15-5 PH (H1025 Condition)
+                </h2>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Metric</th>
+                            <th>Imperial</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Tensile Strength</td>
+                            <td>1170 MPa</td>
+                            <td>170,000 psi</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Yield Strength (0.2%)</td>
+                            <td>1070 MPa</td>
+                            <td>155,000 psi</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elongation</td>
+                            <td>12–15 %</td>
+                            <td>12–15 %</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Reduction of Area</td>
+                            <td>45 %</td>
+                            <td>45 %</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Hardness</td>
+                            <td>38–44 HRC</td>
+                            <td>38–44 HRC</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Impact Toughness</td>
+                            <td colspan="2">Excellent transverse & longitudinal toughness</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p class="mt-3 text-center">
+                    Note: Properties vary depending on heat treatment condition (H900, H1025, H1150).
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Forms -->
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center mt-5">
+                <h2>Available Forms & Size Range – 15-5 PH</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <table class="table table-bordered table-striped align-middle">
+                        <thead class="table-dark text-center">
+                            <tr class="t-row">
+                                <th>Product Form</th>
+                                <th>Typical Size Range</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">
+                            <tr class="t-row">
+                                <td>Round Bars / Rods</td>
+                                <td>Ø6 mm – Ø450 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Flat Bars</td>
+                                <td>6 – 120 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Sheets & Plates</td>
+                                <td>0.5 – 100 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Coils & Strips</td>
+                                <td>0.3 – 6 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Pipes & Tubes</td>
+                                <td>OD 6 – 610 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Fasteners</td>
+                                <td>M6 – M72</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Forged Components</td>
+                                <td>As per drawing</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Precision Machined Parts</td>
+                                <td>CNC / Heat-treated</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- International Standards -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades – 15-5 PH</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>S15500</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>A564, A693</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>AMS</td>
+                            <td>5659, 5862</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>EN</td>
+                            <td>1.4545</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>DIN</td>
+                            <td>X5CrNiCuNb15-5</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>JIS</td>
+                            <td>SUS 630 (closest)</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ISO</td>
+                            <td>X5CrNiCuNb15-5</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
 
 
     @php
@@ -350,7 +611,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section  id="products"class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in 15-5 PH Stainless Steel</h2>
@@ -446,11 +707,10 @@
             </div>
         @endforeach
     </div>
-    </div>
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages of 15-5PH stainless steel</h2>
@@ -510,7 +770,7 @@
 
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of 15-5 PH Stainless Steel</h2>
@@ -631,8 +891,27 @@
         </div>
     </section>
 
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>15-5 PH Stainless Steel Price per kg in India</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹560 – ₹1,300 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -714,8 +993,8 @@
     </section>
     <!--End faq content area-->
 
-     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    {{-- blog section start --}}
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -772,7 +1051,7 @@
 
 
     <!-- Contact Section -->
-    <section class="sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

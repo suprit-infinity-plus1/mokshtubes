@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', '14-4PH Stainless Steel – High Strength & Corrosion Resistant')
-@section('meta_description', 'Discover 14-4PH Stainless Steel pipes, sheets, bars & fittings from Mokshtubes Fittings &
+@section('meta_description',
+    'Discover 14-4PH Stainless Steel pipes, sheets, bars & fittings from Mokshtubes Fittings &
     LLP — ideal for aerospace, marine & petrochemical applications.')
-@section('meta_keywords', '14-4PH Stainless Steel, 14-4PH Stainless Steel pipes, 14-4PH Stainless Steel sheets, 14-4PH
+@section('meta_keywords',
+    '14-4PH Stainless Steel, 14-4PH Stainless Steel pipes, 14-4PH Stainless Steel sheets, 14-4PH
     Stainless Steel bars, 14-4PH Stainless Steel fittings, High-strength stainless steel, Corrosion-resistant stainless
     steel, Precipitation hardening stainless steel, Aerospace stainless steel, Marine-grade stainless steel, Petrochemical
     stainless steel')
@@ -22,10 +24,22 @@
             </div>
         </div>
     </section>
-
     <!--End breadcrumb area-->
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+        <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact-us">Contact Us</a>
+        </div>
+    </div>
+
+    <section id="overview"  class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -116,10 +130,83 @@
     </section>
     <!-- End Datasheet -->
 
-    <section class="sec-padd-top sec-padd-bottom">
+
+
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition of 14-4PH Stainless Steel</h2>
+                <h2>Material Summary – 17-4 PH Stainless Steel (UNS S17400)</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Property</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Material Type</td>
+                                    <td>Precipitation Hardening Martensitic Stainless Steel</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Common Name</td>
+                                    <td>17-4 PH (Also called 14-4 PH)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>UNS Designation</td>
+                                    <td>S17400</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>ASTM / AMS</td>
+                                    <td>ASTM A564 / AMS 5643</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Strengthening Mechanism</td>
+                                    <td>Copper Precipitation Hardening</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Heat Treatable</td>
+                                    <td>✔ Yes</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Typical Hardness Range</td>
+                                    <td>28 – 47 HRC</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Corrosion Resistance</td>
+                                    <td>Comparable to SS 304</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Stress Corrosion Resistance</td>
+                                    <td>Excellent</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Magnetic Property</td>
+                                    <td>Fully Magnetic</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Typical Density</td>
+                                    <td>~7.75 g/cm³</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chemical Composition -->
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of 17-4 PH Stainless Steel</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -129,7 +216,7 @@
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
                                     <th>Element</th>
-                                    <th>Composition (%)</th>
+                                    <th>Content (%)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
@@ -178,21 +265,20 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Physical Properties -->
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color:#174268;">Technical Composition of 17-4 PH Stainless Steel</h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties of 14-4PH Stainless Steel</h4>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <h3 class="text-center mb-3" style="color: #db7227;">Physical Properties of 17-4 PH Stainless Steel
+                    </h3>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -228,49 +314,218 @@
                 </div>
             </div>
 
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties of 14-4PH Stainless Steel
+            <!-- Heat Treatment -->
+            <div class="row justify-content-center mt-5" id="heat-treatment">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color:#db7227;">
+                        Heat Treatment & Aging Conditions – 17-4 PH
                     </h4>
+
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Condition H900</th>
-                                    <th>Condition H1150</th>
+                                    <th>Condition</th>
+                                    <th>Aging Temp</th>
+                                    <th>Characteristics</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Tensile Strength (MPa)</td>
-                                    <td>1310</td>
-                                    <td>930</td>
+                                    <td>Condition A</td>
+                                    <td>1040°C + Air Cool</td>
+                                    <td>Soft, machinable</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (0.2% MPa)</td>
-                                    <td>1170</td>
-                                    <td>725</td>
+                                    <td>H900</td>
+                                    <td>482°C</td>
+                                    <td>Maximum strength & hardness</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Elongation (%)</td>
-                                    <td>10</td>
-                                    <td>15</td>
+                                    <td>H1025</td>
+                                    <td>552°C</td>
+                                    <td>Balanced strength & toughness</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Hardness (HRC)</td>
-                                    <td>44</td>
-                                    <td>28</td>
+                                    <td>H1075</td>
+                                    <td>580°C</td>
+                                    <td>Improved ductility</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>H1150</td>
+                                    <td>620°C</td>
+                                    <td>Best toughness & SCC resistance</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>H1150M</td>
+                                    <td>Double aged</td>
+                                    <td>Marine & nuclear service</td>
                                 </tr>
                             </tbody>
                         </table>
 
+                        <p class="mt-3 text-center">
+                            📌 Lower aging temperature → higher strength<br>
+                            📌 Higher aging temperature → higher toughness & corrosion resistance
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color:#174268;">
+                    Mechanical Properties of 17-4 PH Stainless Steel
+                </h2>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Condition H900</th>
+                            <th>Condition H1150</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Tensile Strength (MPa)</td>
+                            <td>1310</td>
+                            <td>930</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Yield Strength (0.2% MPa)</td>
+                            <td>1170</td>
+                            <td>725</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elongation (%)</td>
+                            <td>10</td>
+                            <td>15</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Hardness (HRC)</td>
+                            <td>44</td>
+                            <td>28</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Forms -->
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center mt-5">
+                <h2>Available Forms & Size Range – 17-4 PH</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <table class="table table-bordered table-striped align-middle">
+                        <thead class="table-dark text-center">
+                            <tr class="t-row">
+                                <th>Product Form</th>
+                                <th>Typical Size Range</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">
+                            <tr class="t-row">
+                                <td>Round Bars / Rods</td>
+                                <td>Ø6 mm – Ø450 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Flat Bars</td>
+                                <td>6 – 120 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Sheets & Plates</td>
+                                <td>0.5 – 100 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Coils & Strips</td>
+                                <td>0.3 – 6 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Pipes & Tubes</td>
+                                <td>OD 6 – 610 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Fasteners</td>
+                                <td>M6 – M72</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Forged Components</td>
+                                <td>As per drawing</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Precision Machined Parts</td>
+                                <td>CNC / Heat-treated</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- International Standards -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades – 17-4 PH</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>S17400</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>A564, A693</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>AMS</td>
+                            <td>5643, 5644</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>EN</td>
+                            <td>1.4542</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>DIN</td>
+                            <td>X5CrNiCuNb16-4</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>JIS</td>
+                            <td>SUS 630</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ISO</td>
+                            <td>X5CrNiCuNb16-4</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!-- Products Section -->
+
 
 
     @php
@@ -329,7 +584,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products"  class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in 14-4PH Stainless Steel</h2>
@@ -435,7 +690,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses"  class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages of 14-4PH Stainless Steel</h2>
@@ -488,7 +743,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of 14-4PH Stainless Steel</h2>
@@ -643,9 +898,28 @@
         </div>
     </section>
 
+    
+ <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>17-4 PH Price per kg in India</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹520 – ₹1,200 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
 
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq"  class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -731,8 +1005,8 @@
     </section>
     <!--End faq content area-->
 
-     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    {{-- blog section start --}}
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -788,7 +1062,7 @@
     {{-- blog section end --}}
 
     <!-- Contact Section -->
-    <section class="sec-padd-bottom">
+    <section  id="contact-us" class="sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

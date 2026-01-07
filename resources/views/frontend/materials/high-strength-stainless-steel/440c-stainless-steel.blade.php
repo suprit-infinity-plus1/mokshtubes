@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Stainless Steel 440C | Precision Bars & Rods Suppliers')
-@section('meta_description', 'High-quality 440C Stainless Steel bars & rods offering superior hardness, wear resistance
+@section('meta_description',
+    'High-quality 440C Stainless Steel bars & rods offering superior hardness, wear resistance
     & polishability for industrial, tooling & engineering needs.')
-@section('meta_keywords', '440C stainless steel, AISI 440C, UNS S44004, high-carbon martensitic stainless steel,
+@section('meta_keywords',
+    '440C stainless steel, AISI 440C, UNS S44004, high-carbon martensitic stainless steel,
     stainless steel bars, stainless steel rods, precision bars, precision rods, wear-resistant stainless steel,
     corrosion-resistant stainless steel, cutting tools material, bearing material, industrial applications stainless steel')
 @section('og_image', asset('assets/images/high-strength-stainless-steel/440C-Stainless-Steel.webp'))
@@ -22,8 +24,21 @@
         </div>
     </section>
 
+    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+        <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact-us">Contact Us</a>
+        </div>
+    </div>
+
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview"  class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -112,10 +127,81 @@
     </section>
     <!-- End Datasheet -->
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Stainless Steel 440C Chemical Composition</h2>
+                <h2>Material Summary – SS 440C / UNS S44004</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Property</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Material Type</td>
+                                    <td>High-Carbon Martensitic Stainless Steel</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>UNS Designation</td>
+                                    <td>S44004</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>AISI</td>
+                                    <td>440C</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Chromium Content</td>
+                                    <td>16.0 – 18.0 %</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Carbon Content</td>
+                                    <td>0.95 – 1.20 % (Highest in 440 series)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Heat Treatable</td>
+                                    <td>✔ Yes (Quench & Temper)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Maximum Hardness</td>
+                                    <td>58 – 64 HRC</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Wear Resistance</td>
+                                    <td>Excellent</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Corrosion Resistance</td>
+                                    <td>Moderate</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Magnetic Property</td>
+                                    <td>Fully Magnetic</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Typical Density</td>
+                                    <td>~7.65 g/cm³</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chemical Composition -->
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of SS 440C</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -135,19 +221,19 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Manganese (Mn)</td>
-                                    <td>1.00</td>
+                                    <td>≤ 1.00</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Silicon (Si)</td>
-                                    <td>1.00</td>
+                                    <td>≤ 1.00</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Phosphorus (P)</td>
-                                    <td>0.04</td>
+                                    <td>≤ 0.04</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Sulfur (S)</td>
-                                    <td>0.03</td>
+                                    <td>≤ 0.03</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Chromium (Cr)</td>
@@ -155,7 +241,7 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Molybdenum (Mo)</td>
-                                    <td>0.75</td>
+                                    <td>≤ 0.75</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Iron (Fe)</td>
@@ -163,10 +249,10 @@
                                 </tr>
                             </tbody>
                         </table>
-                        <p class="fs-6 text-center mt-3">
-                            The high carbon content provides superior hardness and wear resistance, while chromium ensures
-                            moderate corrosion resistance, making 440C the preferred choice for high-performance cutting and
-                            wear parts.
+
+                        <p class="mt-3 text-center">
+                            👉 The high carbon content provides superior hardness and wear resistance, making 440C ideal for
+                            high-performance cutting and wear parts.
                         </p>
                     </div>
                 </div>
@@ -174,16 +260,17 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Physical Properties -->
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color:#174268;">Technical Composition of SS 440C</h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties of Stainless Steel 440C</h4>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <h3 class="text-center mb-3" style="color: #db7227;">PPhysical Properties of SS 440C
+                    </h3>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -223,56 +310,226 @@
                 </div>
             </div>
 
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties of Stainless Steel 440C</h4>
+            <!-- Heat Treatment -->
+            <div class="row justify-content-center mt-5" id="heat-treatment">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color:#db7227;">
+                        Heat Treatment & Hardening Cycle – SS 440C
+                    </h4>
+
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Metric</th>
-                                    <th>Imperial</th>
+                                    <th>Process</th>
+                                    <th>Temperature Range</th>
+                                    <th>Purpose</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Tensile Strength</td>
-                                    <td>655 – 895 MPa</td>
-                                    <td>95,000 – 130,000 psi</td>
+                                    <td>Annealing</td>
+                                    <td>840 – 900 °C</td>
+                                    <td>Improves machinability</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (0.2%)</td>
-                                    <td>415 MPa</td>
-                                    <td>60,000 psi</td>
+                                    <td>Hardening (Austenitizing)</td>
+                                    <td>1010 – 1065 °C</td>
+                                    <td>Prepares martensitic structure</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Elongation</td>
-                                    <td>15%</td>
-                                    <td>15%</td>
+                                    <td>Quenching</td>
+                                    <td>Oil / Air</td>
+                                    <td>Achieves maximum hardness</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Hardness (Brinell)</td>
-                                    <td>215 – 240 HB</td>
-                                    <td>215 – 240 HB</td>
+                                    <td>Cryogenic Treatment</td>
+                                    <td>−70 to −196 °C</td>
+                                    <td>Improves dimensional stability & wear</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Hardness (Rockwell C, Hardened & Tempered)</td>
-                                    <td>58 – 64 HRC</td>
-                                    <td>58 – 64 HRC</td>
+                                    <td>Tempering</td>
+                                    <td>150 – 370 °C</td>
+                                    <td>Adjusts hardness & toughness</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Stress Relieving</td>
+                                    <td>600 – 650 °C</td>
+                                    <td>Reduces internal stresses</td>
                                 </tr>
                             </tbody>
                         </table>
-                        <p class="fs-6 text-center mt-3">
-                            440C achieves the highest hardness among 440 grades, making it ideal for high-wear, precision,
-                            and cutting applications.
+
+                        <p class="mt-3 text-center">
+                            📌 SS 440C achieves maximum wear resistance and edge retention only after precise heat
+                            treatment, often combined with cryogenic processing.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color:#174268;">
+                    Mechanical Properties of SS 440C
+                </h2>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Metric</th>
+                            <th>Imperial</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Tensile Strength</td>
+                            <td>655 – 895 MPa</td>
+                            <td>95,000 – 130,000 psi</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Yield Strength (0.2%)</td>
+                            <td>~415 MPa</td>
+                            <td>~60,000 psi</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elongation</td>
+                            <td>15%</td>
+                            <td>15%</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Hardness (Annealed)</td>
+                            <td>215 – 240 HB</td>
+                            <td>215 – 240 HB</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Hardness (Hardened)</td>
+                            <td colspan="2">58 – 64 HRC</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p class="mt-3 text-center">
+                    👉 SS 440C achieves the highest hardness among 440 grades, ideal for precision, cutting, and high-wear
+                    applications.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Forms -->
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center mt-5">
+                <h2>Available Forms & Size Range – SS 440C</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <table class="table table-bordered table-striped align-middle">
+                        <thead class="table-dark text-center">
+                            <tr class="t-row">
+                                <th>Product Form</th>
+                                <th>Typical Size Range</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">
+                            <tr class="t-row">
+                                <td>Round Bars / Rods</td>
+                                <td>Ø6 mm – Ø400 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Flat Bars</td>
+                                <td>5 – 100 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Sheets & Plates</td>
+                                <td>0.5 – 60 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Coils & Strips</td>
+                                <td>0.3 – 5 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Pipes & Tubes</td>
+                                <td>OD 6 – 610 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Fasteners</td>
+                                <td>M6 – M64</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Forged Components</td>
+                                <td>As per drawing</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Precision Machined Parts</td>
+                                <td>CNC / Ground</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- International Standards -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades – SS 440C</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>S44004</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>AISI</td>
+                            <td>440C</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>EN</td>
+                            <td>1.4125</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>DIN</td>
+                            <td>X105CrMo17</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>A276, A314, A580</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>JIS</td>
+                            <td>SUS 440C</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ISO</td>
+                            <td>X105CrMo17</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
 
 
 
@@ -332,7 +589,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Stainless Steel 440C</h2>
@@ -432,7 +689,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section  id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages of Stainless Steel 440C</h2>
@@ -484,7 +741,7 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section  id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Stainless Steel 440C</h2>
@@ -591,7 +848,26 @@
         </div>
     </section>
 
-    <section class="faq-content-area sec-padd2">
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>Stainless Steel 440C Price per kg in India</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹420 – ₹980 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -655,8 +931,8 @@
         </div>
     </section>
 
-     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    {{-- blog section start --}}
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -716,7 +992,7 @@
 
 
     <!-- Contact Section -->
-    <section class="sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

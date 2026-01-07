@@ -18,10 +18,12 @@
                 <div class="col-auto text-center">
                     <h1>Incoloy 800 <br> High Temperature Strength & Resistance</h1>
 
- <!-- Add your extra content here -->
+                    <!-- Add your extra content here -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                       INCOLOY® 800 (UNS N08800) is a nickel-iron-chromium alloy known for excellent resistance to oxidation and carburization at elevated temperatures. It offers high strength, good corrosion resistance, and long-term stability in chemical and industrial environments.
+                        INCOLOY® 800 (UNS N08800) is a nickel-iron-chromium alloy known for excellent resistance to
+                        oxidation and carburization at elevated temperatures. It offers high strength, good corrosion
+                        resistance, and long-term stability in chemical and industrial environments.
 
                         <!-- End extra content -->
                 </div>
@@ -29,8 +31,8 @@
         </div>
     </section>
 
-     <div class="sticky-top bg-white border-bottom material-tabs  w-100">
-         <div class="container">
+    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+        <div class="container">
             <a href="#overview">Overview</a> |
             <a href="#composition">Chemical Composition</a> |
             <a href="#heat-treatment">Heat Treatment</a> |
@@ -38,12 +40,12 @@
             <a href="#price">Advantages</a> |
             <a href="#applications">Applications</a> |
             <a href="#faq">FAQ</a> |
-            <a href="#contact us">Contact Us</a>
+            <a href="#contact-us">Contact Us</a>
         </div>
     </div>
 
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview"  class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -100,7 +102,7 @@
             </p>
 
             <!-- Lead Capture Form -->
-           <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
                 @csrf
 
                 <input type="hidden" name="page_path" value="{{ $slug }}">
@@ -132,11 +134,68 @@
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom">
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>INCOLOY 800 Specifications</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Category</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Grade</td>
+                                    <td>INCOLOY® 800 / UNS N08800</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Type</td>
+                                    <td>Nickel-Iron-Chromium Alloy</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Typical Chemical Composition</td>
+                                    <td>
+                                        Ni 30–35%, Fe 39.5–45%, Cr 19–23%,
+                                        C ≤ 0.10%, Mn ≤ 1.5%, Si ≤ 1.0%
+                                    </td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Conditions</td>
+                                    <td>Annealed, Hot Rolled, Cold Drawn, Solution Treated</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Heat Treatment</td>
+                                    <td>Annealing, Stress Relieving, Solution Treatment</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Testing</td>
+                                    <td>Tensile, Hardness, Chemical, Corrosion, NDT on request</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Certification</td>
+                                    <td>EN 10204 3.1 / 3.2 (Mill Test Certificate available)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div> <!-- col-lg-8 -->
+
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of Incoloy 800</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -146,32 +205,32 @@
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
                                     <th>Element</th>
-                                    <th>Composition (%)</th>
+                                    <th>INCOLOY® 800</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-center">
+                            <tbody>
                                 <tr class="t-row">
-                                    <td>Nickel</td>
+                                    <td>Nickel (Ni)</td>
                                     <td>30.0 – 35.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Chromium</td>
+                                    <td>Chromium (Cr)</td>
                                     <td>19.0 – 23.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Iron</td>
-                                    <td>39.5 min</td>
+                                    <td>Iron (Fe)</td>
+                                    <td>39.5 min.</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Carbon</td>
-                                    <td>0.08 max</td>
+                                    <td>Carbon (C)</td>
+                                    <td>0.08 max.</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Aluminum</td>
+                                    <td>Aluminum (Al)</td>
                                     <td>0.15 – 0.60</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Titanium</td>
+                                    <td>Titanium (Ti)</td>
                                     <td>0.15 – 0.60</td>
                                 </tr>
                                 <tr class="t-row">
@@ -190,27 +249,26 @@
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color: #174268;">Technical Composition of Incoloy 800</h2>
             </div>
-
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
+            <!-- Mechanical Properties Table -->
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <h3 class="text-center mb-3" style="color: #db7227;">Physical Properties of Incoloy 800
+                    </h3>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
                                     <th>Property</th>
-                                    <th>Imperial</th>
-                                    <th>Metric</th>
+                                    <th>Imperial Units</th>
+                                    <th>Metric Units</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-center">
+                            <tbody>
                                 <tr class="t-row">
                                     <td>Density</td>
                                     <td>0.287 lb/in³</td>
@@ -222,7 +280,7 @@
                                     <td>1357–1385 °C</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Specific Heat</td>
+                                    <td>Specific Heat (32–212°F / 0–100°C)</td>
                                     <td>0.11 Btu/lb•°F</td>
                                     <td>460 J/kg•°C</td>
                                 </tr>
@@ -233,8 +291,8 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Curie Temperature</td>
-                                    <td>175 °F</td>
-                                    <td>115 °C</td>
+                                    <td>-175 °F</td>
+                                    <td>-115 °C</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -243,104 +301,40 @@
             </div>
 
             <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+            <div class="row justify-content-center mt-5" id="heat-treatment">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color: #db7227;">Heat Treatment of INCOLOY® 800 (UNS N08800)
+                    </h4>
+
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Annealed – 80°F (25°C)</th>
-                                    <th>Annealed – 800°F (425°C)</th>
-                                    <th>Annealed – 1000°F (540°C)</th>
-                                    <th>Annealed – 1200°F (650°C)</th>
-                                    <th>Annealed – 1300°F (705°C)</th>
-                                    <th>Annealed – 1400°F (760°C)</th>
-                                    <th>Hot-Rolled – 80°F (25°C)</th>
-                                    <th>Hot-Rolled – 800°F (425°C)</th>
-                                    <th>Hot-Rolled – 1000°F (540°C)</th>
-                                    <th>Hot-Rolled – 1200°F (650°C)</th>
-                                    <th>Hot-Rolled – 1300°F (705°C)</th>
-                                    <th>Hot-Rolled – 1400°F (760°C)</th>
-
+                                    <th>Heat Treatment Process</th>
+                                    <th>Temperature Range</th>
+                                    <th>Cooling / Procedure</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-center">
+                            <tbody>
                                 <tr class="t-row">
-                                    <td>Tensile Strength (ksi)</td>
-                                    <td>138</td>
-                                    <td>120</td>
-                                    <td>119</td>
-                                    <td>110</td>
-                                    <td>97</td>
-                                    <td>66</td>
-                                    <td>198</td>
-                                    <td>170</td>
-                                    <td>161</td>
-                                    <td>145</td>
-                                    <td>120</td>
-                                    <td>91</td>
+                                    <td>Annealing</td>
+                                    <td>1090 – 1150°C</td>
+                                    <td>Furnace cool slowly</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Tensile Strength (MPa)</td>
-                                    <td>952</td>
-                                    <td>827</td>
-                                    <td>821</td>
-                                    <td>758</td>
-                                    <td>669</td>
-                                    <td>455</td>
-                                    <td>1365</td>
-                                    <td>1172</td>
-                                    <td>1110</td>
-                                    <td>1000</td>
-                                    <td>827</td>
-                                    <td>627</td>
+                                    <td>Solution Treatment</td>
+                                    <td>1038 – 1110°C</td>
+                                    <td>Rapid water or air quench</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength(ksi)</td>
-                                    <td>85.5</td>
-                                    <td>74.1</td>
-                                    <td>73.7</td>
-                                    <td>58.7</td>
-                                    <td>46.3</td>
-                                    <td>34.5</td>
-                                    <td>96.4</td>
-                                    <td>84.5</td>
-                                    <td>84.0</td>
-                                    <td>65.3</td>
-                                    <td>53.5</td>
-                                    <td>44.5</td>
+                                    <td>Stress Relieving</td>
+                                    <td>870 – 950°C</td>
+                                    <td>Hold 1–2 hours, then air cool</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (MPa)</td>
-                                    <td>590</td>
-                                    <td>511</td>
-                                    <td>508</td>
-                                    <td>405</td>
-                                    <td>319</td>
-                                    <td>238</td>
-                                    <td>665</td>
-                                    <td>583</td>
-                                    <td>579</td>
-                                    <td>450</td>
-                                    <td>369</td>
-                                    <td>307</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Hardness (BHN)</td>
-                                    <td>250</td>
-                                    <td>172</td>
-                                    <td>178</td>
-                                    <td>176</td>
-                                    <td>174</td>
-                                    <td>149</td>
-                                    <td>445</td>
-                                    <td>359</td>
-                                    <td>361</td>
-                                    <td>333</td>
-                                    <td>323</td>
-                                    <td>284</td>
+                                    <td>Aging / Hardening (Optional)</td>
+                                    <td>700 – 800°C</td>
+                                    <td>Air cool</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -349,6 +343,239 @@
             </div>
         </div>
     </section>
+
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color: #174268;">Mechanical Properties of Incoloy 800</h2>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property / Condition</th>
+                            <th>80°F (25°C)</th>
+                            <th>800°F (425°C)</th>
+                            <th>1000°F (540°C)</th>
+                            <th>1200°F (650°C)</th>
+                            <th>1300°F (705°C)</th>
+                            <th>1400°F (760°C)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="t-row">
+                            <td><strong>Tensile Strength (ksi) – Annealed</strong></td>
+                            <td>138</td>
+                            <td>120</td>
+                            <td>119</td>
+                            <td>110</td>
+                            <td>97</td>
+                            <td>66</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td><strong>Tensile Strength (MPa) – Annealed</strong></td>
+                            <td>952</td>
+                            <td>827</td>
+                            <td>821</td>
+                            <td>758</td>
+                            <td>669</td>
+                            <td>455</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td><strong>Yield Strength (ksi) – Annealed</strong></td>
+                            <td>85.5</td>
+                            <td>74.1</td>
+                            <td>73.7</td>
+                            <td>58.7</td>
+                            <td>46.3</td>
+                            <td>34.5</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td><strong>Yield Strength (MPa) – Annealed</strong></td>
+                            <td>590</td>
+                            <td>511</td>
+                            <td>508</td>
+                            <td>405</td>
+                            <td>319</td>
+                            <td>238</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td><strong>Hardness (BHN) – Annealed</strong></td>
+                            <td>250</td>
+                            <td>172</td>
+                            <td>178</td>
+                            <td>176</td>
+                            <td>174</td>
+                            <td>149</td>
+                        </tr>
+
+                        <tr class="t-row table-secondary text-center">
+                            <td colspan="7"><strong>Hot-Rolled Condition</strong></td>
+                        </tr>
+
+                        <tr class="t-row">
+                            <td><strong>Tensile Strength (ksi) – Hot Rolled</strong></td>
+                            <td>198</td>
+                            <td>170</td>
+                            <td>161</td>
+                            <td>145</td>
+                            <td>120</td>
+                            <td>91</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td><strong>Tensile Strength (MPa) – Hot Rolled</strong></td>
+                            <td>1365</td>
+                            <td>1172</td>
+                            <td>1110</td>
+                            <td>1000</td>
+                            <td>827</td>
+                            <td>627</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td><strong>Yield Strength (ksi) – Hot Rolled</strong></td>
+                            <td>96.4</td>
+                            <td>84.5</td>
+                            <td>84.0</td>
+                            <td>65.3</td>
+                            <td>53.5</td>
+                            <td>44.5</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td><strong>Yield Strength (MPa) – Hot Rolled</strong></td>
+                            <td>665</td>
+                            <td>583</td>
+                            <td>579</td>
+                            <td>450</td>
+                            <td>369</td>
+                            <td>307</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td><strong>Hardness (BHN) – Hot Rolled</strong></td>
+                            <td>445</td>
+                            <td>359</td>
+                            <td>361</td>
+                            <td>333</td>
+                            <td>323</td>
+                            <td>284</td>
+                        </tr>
+                    </tbody>
+                </table>
+                {{-- <p class="mt-3 text-center">
+                    After quenching & tempering, 1055 steel hardness can reach 45–55 HRC depending on cooling media.
+                </p> --}}
+
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center mt-5" id="available forms">
+                <h2>Available Forms & Size Range</h2>
+            </div>
+
+            <div class="row justify-content-center mb-4" style="text-align: justify;">
+                <div class="col-lg-10">
+                    <p class="fs-6 text-center">
+                        We supply Incoloy 800 in the following product forms and dimensions:
+                    </p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color:#db7227;">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Product Form</th>
+                                    <th>Size Range / Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Round Bars</td>
+                                    <td>6 mm – 300 mm</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Flat, Square &amp; Hex Bars</td>
+                                    <td>Custom sizes up to 250 mm</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Sheets &amp; Plates</td>
+                                    <td>1 mm – 100 mm (Width 500 – 2500 mm)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Coils &amp; Strips</td>
+                                    <td>0.3 mm – 10 mm</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Seamless &amp; Welded Pipes / Tubes</td>
+                                    <td>OD 6 mm – 168 mm, WT 1 – 16 mm</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Forged Blocks, Rings, Bushings &amp; Components</td>
+                                    <td>Custom per drawing</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Standards & Equivalent Grades Section -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>N08800</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>W.Nr (DIN)</td>
+                            <td>2.4665</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>B407 (Bars, Rods), B408 (Pipe, Tube), B409 (Sheets, Plates, Coils)</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>EN</td>
+                            <td>NiFeCr Alloy</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>BS</td>
+                            <td>NA 22</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>JIS</td>
+                            <td>SUS 800</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>GOST</td>
+                            <td>ХН70ВМЮ</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!-- End Standards & Equivalent Grades Section -->
 
 
     @php
@@ -407,7 +634,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Incoloy 800</h2>
@@ -470,7 +697,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section  id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -516,7 +743,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of INCOLOY 800</h2>
@@ -661,8 +888,27 @@
         </div>
     </section>
 
+     <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>INCOLOY® 800 Price per kg in India</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹1,100 – ₹1,800 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by size, OD, thickness, and condition)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -763,8 +1009,8 @@
     </section>
     <!--End faq content area-->
 
-     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    {{-- blog section start --}}
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -820,7 +1066,7 @@
     {{-- blog section end --}}
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

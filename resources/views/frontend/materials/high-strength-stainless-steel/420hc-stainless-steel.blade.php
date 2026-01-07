@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', '420HC Stainless Steel | High Strength Alloy Supplier')
-@section('meta_description', 'Premium 420HC Stainless Steel offering high hardness, corrosion resistance & excellent
+@section('meta_description',
+    'Premium 420HC Stainless Steel offering high hardness, corrosion resistance & excellent
     wear properties for industrial, engineering & tooling applications.')
-@section('meta_keywords', '420HC Stainless Steel, UNS S42000, AISI 420HC, High Carbon Martensitic Stainless Steel,
+@section('meta_keywords',
+    '420HC Stainless Steel, UNS S42000, AISI 420HC, High Carbon Martensitic Stainless Steel,
     Corrosion Resistant Stainless Steel, High Hardness Stainless Steel, Wear Resistant Alloy, Industrial Stainless Steel
     Supplier, Engineering Grade Stainless Steel, Tooling Stainless Steel')
 @section('og_image', asset('assets/images/high-strength-stainless-steel/420HC-STAINLESS-STEEL.jpeg'))
@@ -22,9 +24,21 @@
         </div>
     </section>
 
+    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+        <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact-us">Contact Us</a>
+        </div>
+    </div>
 
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -127,10 +141,87 @@
     </section>
     <!-- End Datasheet -->
 
-    <section class="sec-padd-top sec-padd-bottom">
+
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition of 420HC stainless steel</h2>
+                <h2>Material Summary – SS 420HC / UNS S42000</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Property</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Material Type</td>
+                                    <td>High-Carbon Martensitic Stainless Steel</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>UNS Designation</td>
+                                    <td>S42000 (High Carbon variant)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>AISI</td>
+                                    <td>420HC</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Chromium Content</td>
+                                    <td>12.0 – 14.0 %</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Carbon Content</td>
+                                    <td>0.40 – 0.50 %</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Heat Treatable</td>
+                                    <td>✔ Yes (Quench & Temper)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Maximum Hardness</td>
+                                    <td>52 – 56 HRC</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Wear Resistance</td>
+                                    <td>Very Good</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Corrosion Resistance</td>
+                                    <td>Moderate</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Magnetic Property</td>
+                                    <td>Fully Magnetic</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Typical Density</td>
+                                    <td>~7.70 g/cm³</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <p class="mt-3 text-center">
+                            📌 420HC sits between standard 420 and 440A — offering higher hardness than 420 with better
+                            corrosion resistance than 440B/440C.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chemical Composition -->
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of SS 420HC</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -170,7 +261,7 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Nickel (Ni)</td>
-                                    <td> 1.00 (typical)</td>
+                                    <td>≤ 1.00 (typical)</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Iron (Fe)</td>
@@ -178,24 +269,23 @@
                                 </tr>
                             </tbody>
                         </table>
-
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Physical Properties -->
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color:#174268;">Technical Composition of SS 420HC</h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties of 420HC stainless steel </h4>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <h3 class="text-center mb-3" style="color: #db7227;">Physical Properties of SS 420HC
+                    </h3>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -211,7 +301,7 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Melting Point</td>
-                                    <td>1450 °C (2640 °F)</td>
+                                    <td>1450 °C</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Modulus of Elasticity</td>
@@ -223,66 +313,233 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Specific Heat</td>
-                                    <td>460 J/kg·K at 0–100 °C</td>
+                                    <td>460 J/kg·K</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Electrical Resistivity</td>
-                                    <td>0.55 µΩ·m at 20 °C</td>
+                                    <td>0.55 µΩ·m</td>
                                 </tr>
                             </tbody>
                         </table>
-
                     </div>
                 </div>
             </div>
 
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties of 420HC stainless steel</h4>
+            <!-- Heat Treatment -->
+            <div class="row justify-content-center mt-5" id="heat-treatment">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color:#db7227;">
+                        Heat Treatment & Hardening Cycle – SS 420HC
+                    </h4>
+
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Metric</th>
-                                    <th>Imperial</th>
+                                    <th>Process</th>
+                                    <th>Temperature Range</th>
+                                    <th>Purpose</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Tensile Strength</td>
-                                    <td>700 – 850 MPa</td>
-                                    <td>102,000 – 123,000 psi</td>
+                                    <td>Annealing</td>
+                                    <td>840 – 900 °C</td>
+                                    <td>Improves machinability</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (0.2% Offset)</td>
-                                    <td>500 – 600 MPa</td>
-                                    <td>72,500 – 87,000 psi</td>
+                                    <td>Hardening (Austenitizing)</td>
+                                    <td>980 – 1050 °C</td>
+                                    <td>Forms martensitic structure</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Elongation at Break (50 mm)</td>
-                                    <td>15 – 20 %</td>
-                                    <td>15 – 20 %</td>
+                                    <td>Quenching</td>
+                                    <td>Oil / Air</td>
+                                    <td>Achieves hardness</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Hardness, Rockwell C</td>
-                                    <td>52 – 56 HRC</td>
-                                    <td>52 – 56 HRC</td>
+                                    <td>Tempering</td>
+                                    <td>150 – 370 °C</td>
+                                    <td>Adjusts toughness & strength</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Impact Toughness</td>
-                                    <td>Moderate</td>
-                                    <td>Moderate</td>
+                                    <td>Stress Relieving</td>
+                                    <td>600 – 650 °C</td>
+                                    <td>Reduces internal stresses</td>
                                 </tr>
                             </tbody>
                         </table>
 
+                        <p class="mt-3 text-center">
+                            📌 Proper quenching & tempering is essential to achieve optimal hardness, edge retention, and
+                            wear resistance.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color:#174268;">
+                    Mechanical Properties of SS 420HC (Hardened & Tempered)
+                </h2>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Metric</th>
+                            <th>Imperial</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Tensile Strength</td>
+                            <td>700 – 850 MPa</td>
+                            <td>102,000 – 123,000 psi</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Yield Strength (0.2%)</td>
+                            <td>500 – 600 MPa</td>
+                            <td>72,500 – 87,000 psi</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elongation</td>
+                            <td>15 – 20 %</td>
+                            <td>15 – 20 %</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Hardness</td>
+                            <td>52 – 56 HRC</td>
+                            <td>52 – 56 HRC</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Impact Toughness</td>
+                            <td>Moderate</td>
+                            <td>Moderate</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p class="mt-3 text-center">
+                    Note: Mechanical properties depend on exact heat treatment cycles (annealing, hardening, tempering).
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Forms -->
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center mt-5">
+                <h2>Available Forms & Size Range – SS 420HC</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <table class="table table-bordered table-striped align-middle">
+                        <thead class="table-dark text-center">
+                            <tr class="t-row">
+                                <th>Product Form</th>
+                                <th>Typical Size Range</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">
+                            <tr class="t-row">
+                                <td>Round Bars / Rods</td>
+                                <td>Ø6 mm – Ø400 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Flat Bars</td>
+                                <td>5 – 100 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Sheets & Plates</td>
+                                <td>0.5 – 60 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Coils & Strips</td>
+                                <td>0.3 – 6 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Pipes & Tubes</td>
+                                <td>OD 6 – 610 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Fasteners</td>
+                                <td>M6 – M64</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Forged Components</td>
+                                <td>As per drawing</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Precision Machined Parts</td>
+                                <td>CNC / Heat-treated</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- International Standards -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades – SS 420HC</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>S42000</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>AISI</td>
+                            <td>420HC</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>EN</td>
+                            <td>1.4021 / 1.4028 (close equivalents)</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>DIN</td>
+                            <td>X46Cr13</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>A276, A314, A580</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>JIS</td>
+                            <td>SUS 420</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ISO</td>
+                            <td>X46Cr13</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
 
 
     @php
@@ -341,7 +598,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Stainless Steel 420HC</h2>
@@ -442,7 +699,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages of 420HC stainless steel</h2>
@@ -502,7 +759,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Stainless Steel 420HC</h2>
@@ -622,8 +879,27 @@
         </div>
     </section>
 
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>Stainless Steel 420HC Price per kg in India</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹280 – ₹620 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section  id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -712,8 +988,8 @@
     </section>
     <!--End faq content area-->
 
-     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    {{-- blog section start --}}
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -770,7 +1046,7 @@
 
 
     <!-- Contact Section -->
-    <section class="sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
