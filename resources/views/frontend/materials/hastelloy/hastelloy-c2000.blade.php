@@ -1,7 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Hastelloy C2000 | Versatile Corrosion Alloy')
-@section('meta_description', 'Hastelloy C2000 pipes, tubes & fittings offer superior resistance to oxidizing and
+@section('meta_description',
+    'Hastelloy C2000 pipes, tubes & fittings offer superior resistance to oxidizing and
     reducing agents, ideal for mixed-acid chemical processing applications.')
 @section('meta_keywords',
     'Hastelloy C2000, Corrosion Resistant Alloy, Hastelloy C2000 Pipes, Hastelloy C2000 Tubes,
@@ -17,13 +18,34 @@
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1>Hastelloy C2000 Alloy <br> Corrosion Resistant Nickel Alloy</h1>
+                    <!-- Add your extra content here -->
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                        High-Performance Nickel-Chromium-Molybdenum-Copper Alloy
+                        Hastelloy C-2000 is one of the most versatile corrosion-resistant alloys available today. This page
+                        includes the complete datasheet, including chemical composition, specifications, physical &
+                        mechanical properties, heat treatment, applications, advantages, and more.</p>
+                    <!-- End extra content -->
                 </div>
             </div>
         </div>
     </section>
 
+    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+        <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact-us">Contact Us</a>
+        </div>
+    </div>
+
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -110,10 +132,81 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>Hastelloy C-2000 Specifications (UNS N06200)</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Category</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Grade</td>
+                                    <td>Hastelloy C-2000 / Alloy C-2000 / UNS N06200</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Material Type</td>
+                                    <td>Nickel–Chromium–Molybdenum–Copper Alloy</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Key Characteristics</td>
+                                    <td>Superior resistance to oxidizing and reducing media</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Chemical Summary</td>
+                                    <td>Ni balance (~59%), Cr 22–24%, Mo 15–17%, Cu 1.3–1.9%</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Available Conditions</td>
+                                    <td>Annealed, Solution Annealed, Hot Rolled, Cold Worked</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Heat Treatment</td>
+                                    <td>Solution Anneal at 1120–1160°C, rapid cooling</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Weldability</td>
+                                    <td>Excellent (low carbide precipitation, high thermal stability)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Testing Offered</td>
+                                    <td>PMI, Chemical Test, Tensile, Hardness, UT, NDT</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Standards</td>
+                                    <td>ASTM B575, B619, B622, B626</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Certification</td>
+                                    <td>EN 10204 3.1 / 3.2</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Industries</td>
+                                    <td>Chemical, Pharma, Pollution Control, Mining, Food, Pulp & Paper</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chemical Composition -->
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of Hastelloy C-2000</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -128,43 +221,47 @@
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Nickel</td>
-                                    <td>59 (Balance)</td>
+                                    <td>Nickel (Ni)</td>
+                                    <td>Balance (~59)</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Chromium</td>
+                                    <td>Chromium (Cr)</td>
                                     <td>22.0 – 24.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Molybdenum</td>
+                                    <td>Molybdenum (Mo)</td>
                                     <td>15.0 – 17.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Iron</td>
+                                    <td>Copper (Cu)</td>
+                                    <td>1.3 – 1.9</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Iron (Fe)</td>
                                     <td>3.0 max</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Cobalt</td>
+                                    <td>Cobalt (Co)</td>
                                     <td>2.5 max</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Manganese</td>
+                                    <td>Manganese (Mn)</td>
                                     <td>0.50 max</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Silicon</td>
+                                    <td>Silicon (Si)</td>
                                     <td>0.08 max</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Carbon</td>
+                                    <td>Carbon (C)</td>
                                     <td>0.01 max</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Phosphorus</td>
+                                    <td>Phosphorus (P)</td>
                                     <td>0.02 max</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Sulfur</td>
+                                    <td>Sulfur (S)</td>
                                     <td>0.02 max</td>
                                 </tr>
                             </tbody>
@@ -175,17 +272,19 @@
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Physical Properties -->
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color:#174268;">
+                    Technical Composition of Hastelloy C-2000
+                </h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
+            <div class="row justify-content-center">
                 <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
+                      <h3 class="text-center mb-3" style="color: #db7227;">Physical Properties of Hastelloy C-2000
+                    </h3>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -201,19 +300,19 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Melting Point</td>
-                                    <td>1350–1390°C (2462–2534°F)</td>
+                                    <td>1350 – 1390°C (2462 – 2534°F)</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Tensile Strength</td>
-                                    <td>1,00,000 psi / 690 MPa</td>
+                                    <td>690 MPa / 100,000 psi</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (0.2% Offset)</td>
-                                    <td>43,500 psi / 300 MPa</td>
+                                    <td>Yield Strength (0.2%)</td>
+                                    <td>300 MPa / 43,500 psi</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Elongation</td>
-                                    <td>45 %</td>
+                                    <td>45%</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -221,44 +320,47 @@
                 </div>
             </div>
 
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+            <!-- Heat Treatment -->
+            <div class="row justify-content-center mt-5" id="heat-treatment">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color:#db7227;">
+                        Heat Treatment of Hastelloy C-2000
+                    </h4>
+
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Metric</th>
-                                    <th>Imperial</th>
+                                    <th>Process</th>
+                                    <th>Temperature Range</th>
+                                    <th>Cooling Method</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Tensile Strength (@ 538°C / 1000°F)</td>
-                                    <td>690 MPa</td>
-                                    <td>100,000 psi</td>
+                                    <td>Solution Annealing</td>
+                                    <td>1120 – 1160°C</td>
+                                    <td>Rapid water quench or forced air cooling</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (0.2% offset @ 427°C / 801°F)</td>
-                                    <td>300 MPa</td>
-                                    <td>43,500 psi</td>
+                                    <td>Stress Relieving</td>
+                                    <td>870 – 900°C</td>
+                                    <td>Air cool after holding 1–2 hours</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Elastic Modulus (RT)</td>
-                                    <td>214 GPa</td>
-                                    <td>31,000 ksi</td>
+                                    <td>Hot Working</td>
+                                    <td>950 – 1230°C</td>
+                                    <td>Finish above 950°C, rapid cooling preferred</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Elongation at Break (@ 204°C / 399°F)</td>
-                                    <td>45%</td>
-                                    <td>45%</td>
+                                    <td>Cold Working</td>
+                                    <td>—</td>
+                                    <td>Intermittent annealing recommended</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Hardness, Rockwell B (plate)</td>
-                                    <td>90</td>
-                                    <td>90</td>
+                                    <td>Post-Weld Heat Treatment</td>
+                                    <td>Optional</td>
+                                    <td>Improves corrosion resistance in severe service</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -267,6 +369,157 @@
             </div>
         </div>
     </section>
+
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color:#174268;">
+                    Mechanical Properties of Hastelloy C-2000
+                </h2>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Metric</th>
+                            <th>Imperial</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Tensile Strength</td>
+                            <td>690 MPa</td>
+                            <td>100,000 psi</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Yield Strength (0.2%)</td>
+                            <td>300 MPa</td>
+                            <td>43,500 psi</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elastic Modulus (RT)</td>
+                            <td>214 GPa</td>
+                            <td>31,000 ksi</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elongation</td>
+                            <td>45%</td>
+                            <td>45%</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Hardness (Rockwell B)</td>
+                            <td>90</td>
+                            <td>90</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Forms -->
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center mt-5">
+                <h2>Available Forms & Size Range – Hastelloy C-2000</h2>
+            </div>
+
+            <div class="table-responsive col-lg-10 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Product Form</th>
+                            <th>Size Range / Description</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Seamless Pipes</td>
+                            <td>6 – 219 mm OD</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Welded Pipes / Tubes</td>
+                            <td>Custom sizes</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Heat Exchanger, U-Bend, Boiler & Capillary Tubes</td>
+                            <td>As required</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Sheets & Plates</td>
+                            <td>0.5 – 100 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Coils & Strips</td>
+                            <td>0.1 – 12 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Round, Flat, Hex & Square Bars</td>
+                            <td>Up to 300 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Pipe Fittings</td>
+                            <td>ASME / DIN standards</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Flanges</td>
+                            <td>WNRF, SORF, Blind, Socket Weld, Threaded</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Fasteners</td>
+                            <td>M3 – M80</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Custom Fabricated Components</td>
+                            <td>As per drawing</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- International Standards -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades</h2>
+            </div>
+
+            <div class="table-responsive col-lg-6 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>N06200</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Werkstoff Nr.</td>
+                            <td>2.4675</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>B575, B619, B622, B626</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASME</td>
+                            <td>SB575, SB619, SB622, SB626</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
 
 
     @php
@@ -325,7 +578,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section  id="products"class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Hastelloy C2000</h2>
@@ -385,7 +638,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -431,7 +684,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Hastelloy C2000</h2>
@@ -567,8 +820,27 @@
         </div>
     </section>
 
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>Hastelloy C-2000 Price in India</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹350 – ₹850 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -667,9 +939,9 @@
     </section>
     <!--End faq content area-->
 
-    
+
     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -724,7 +996,7 @@
     </section>
     {{-- blog section end --}}
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

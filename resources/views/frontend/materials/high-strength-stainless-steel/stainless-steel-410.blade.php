@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', '410 Stainless Steel | Premium Alloy for Industries')
-@section('meta_description', 'High-quality 410 Stainless Steel with good corrosion resistance, high strength & wear
+@section('meta_description',
+    'High-quality 410 Stainless Steel with good corrosion resistance, high strength & wear
     resistance — ideal for engineering, automotive & industrial uses.')
-@section('meta_keywords', '410 stainless steel, AISI 410, UNS S41000, martensitic stainless steel, corrosion-resistant
+@section('meta_keywords',
+    '410 stainless steel, AISI 410, UNS S41000, martensitic stainless steel, corrosion-resistant
     stainless steel, high-strength stainless steel, wear-resistant stainless steel, stainless steel sheets, stainless steel
     plates, stainless steel bars, stainless steel rods, industrial applications stainless steel')
 @section('og_image', asset('assets/images/high-strength-stainless-steel/Stainless-Steel-410.webp'))
@@ -22,8 +24,21 @@
         </div>
     </section>
 
+    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+        <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact-us">Contact Us</a>
+        </div>
+    </div>
+
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section  id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -112,10 +127,82 @@
     </section>
     <!-- End Datasheet -->
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Stainless Steel 410 Chemical Composition</h2>
+                <h2>Material Summary – SS 410 / UNS S41000</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Property</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Material Type</td>
+                                    <td>Martensitic Stainless Steel</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>UNS Designation</td>
+                                    <td>S41000</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>AISI</td>
+                                    <td>410</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Chromium Content</td>
+                                    <td>11.5 – 13.5 %</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Carbon Level</td>
+                                    <td>Low–Medium</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Heat Treatable</td>
+                                    <td>✔ Yes</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Maximum Hardness</td>
+                                    <td>~45 HRC</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Corrosion Resistance</td>
+                                    <td>Moderate</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Magnetic Property</td>
+                                    <td>Magnetic</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Typical Density</td>
+                                    <td>~7.75 g/cm³</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <p class="mt-3 text-center">
+                            👉 The chromium content gives SS 410 its passive corrosion resistance, while carbon enables
+                            hardening through heat treatment.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chemical Composition -->
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of Stainless Steel 410</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -163,26 +250,23 @@
                                 </tr>
                             </tbody>
                         </table>
-                        <p class="fs-6 text-center mt-3">
-                            The chromium content gives 410 its passive corrosion resistance, while higher carbon allows for
-                            hardening through heat treatment.
-                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Physical Properties -->
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color:#174268;">Technical Composition of Stainless Steel 410</h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties of Stainless Steel 410</h4>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                     <h3 class="text-center mb-3" style="color: #db7227;">Physical Properties of Stainless Steel 410
+                    </h3>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -206,7 +290,7 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Thermal Conductivity</td>
-                                    <td>24.9 W/m·K (at 100 °C)</td>
+                                    <td>24.9 W/m·K (100 °C)</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Electrical Resistivity</td>
@@ -222,68 +306,222 @@
                 </div>
             </div>
 
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties of Stainless Steel 410</h4>
+            <!-- Heat Treatment -->
+            <div class="row justify-content-center mt-5" id="heat-treatment">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color:#db7227;">
+                        Heat Treatment & Hardening Cycle – SS 410
+                    </h4>
+
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Condition</th>
-                                    <th>Property</th>
-                                    <th>Metric</th>
-                                    <th>Imperial</th>
+                                    <th>Process</th>
+                                    <th>Temperature Range</th>
+                                    <th>Purpose</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Annealed</td>
-                                    <td>Tensile Strength</td>
-                                    <td>450 – 650 MPa</td>
-                                    <td>65,000 – 95,000 psi</td>
+                                    <td>Annealing</td>
+                                    <td>815 – 900 °C</td>
+                                    <td>Improves machinability</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Annealed</td>
-                                    <td>Yield Strength (0.2%)</td>
-                                    <td>275 MPa</td>
-                                    <td>40,000 psi</td>
+                                    <td>Hardening (Austenitizing)</td>
+                                    <td>925 – 1010 °C</td>
+                                    <td>Prepares martensitic structure</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Annealed</td>
-                                    <td>Elongation</td>
-                                    <td>20%</td>
-                                    <td>20%</td>
+                                    <td>Quenching</td>
+                                    <td>Oil / Air</td>
+                                    <td>Achieves hardness</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Annealed</td>
-                                    <td>Hardness (Brinell)</td>
-                                    <td>170 – 200 HB</td>
-                                    <td>170 – 200 HB</td>
+                                    <td>Tempering</td>
+                                    <td>150 – 370 °C</td>
+                                    <td>Balances hardness & toughness</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Heat Treated</td>
-                                    <td>Tensile Strength</td>
-                                    <td>Up to 800 MPa</td>
-                                    <td>Up to 116,000 psi</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Heat Treated</td>
-                                    <td>Hardness (Rockwell C)</td>
-                                    <td>35 – 45 HRC</td>
-                                    <td>35 – 45 HRC</td>
+                                    <td>Stress Relieving</td>
+                                    <td>600 – 650 °C</td>
+                                    <td>Reduces internal stresses</td>
                                 </tr>
                             </tbody>
                         </table>
-                        <p class="fs-6 text-center mt-3">
-                            After heat treatment, 410 exhibits excellent mechanical strength, making it suitable for
-                            wear-resistant components.
+
+                        <p class="mt-3 text-center">
+                            📌 SS 410 achieves the best balance of strength and toughness after proper quenching and
+                            tempering.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color:#174268;">
+                    Mechanical Properties of Stainless Steel 410
+                </h2>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Metric</th>
+                            <th>Imperial</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Tensile Strength (Annealed)</td>
+                            <td>450 – 650 MPa</td>
+                            <td>65,000 – 95,000 psi</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Yield Strength (0.2%)</td>
+                            <td>275 MPa</td>
+                            <td>40,000 psi</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elongation</td>
+                            <td>20%</td>
+                            <td>20%</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Hardness (Annealed)</td>
+                            <td>170 – 200 HB</td>
+                            <td>170 – 200 HB</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Hardness (Hardened)</td>
+                            <td>35 – 45 HRC</td>
+                            <td>35 – 45 HRC</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p class="mt-3 text-center">
+                    👉 After heat treatment, SS 410 exhibits excellent mechanical strength, making it suitable for
+                    wear-resistant components.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Forms -->
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center mt-5">
+                <h2>Available Forms & Size Range – Stainless Steel 410</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <table class="table table-bordered table-striped align-middle">
+                        <thead class="table-dark text-center">
+                            <tr class="t-row">
+                                <th>Product Form</th>
+                                <th>Typical Size Range</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">
+                            <tr class="t-row">
+                                <td>Round Bars / Rods</td>
+                                <td>Ø6 mm – Ø450 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Flat Bars</td>
+                                <td>5 – 120 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Sheets & Plates</td>
+                                <td>0.4 – 80 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Coils & Strips</td>
+                                <td>0.3 – 6 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Pipes & Tubes</td>
+                                <td>OD 6 – 610 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Fasteners</td>
+                                <td>M6 – M72</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Forged Components</td>
+                                <td>As per drawing</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Precision Machined Parts</td>
+                                <td>CNC / Turned</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- International Standards -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades – SS 410</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>S41000</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>AISI</td>
+                            <td>410</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>EN</td>
+                            <td>1.4006</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>DIN</td>
+                            <td>X12Cr13</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>A240, A276, A479</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>JIS</td>
+                            <td>SUS 410</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ISO</td>
+                            <td>X12Cr13</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
 
 
 
@@ -343,7 +581,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products"  class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Stainless Steel 410</h2>
@@ -364,7 +602,7 @@
             <!-- Horizontal Styled Product List -->
             <div class="row justify-content-center mb-5">
                 <div class="col-lg-10">
-                    <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color: #db7227;">
+                    <div class="p-4 bg-white rounded shadow-sm border-start border-4"           style="border-color: #db7227;">
                         <div class="row">
                             <div class="col-12 col-sm-6 mb-2 d-flex justify-content-start align-items-start">
                                 <span class="me-2" style="color: #db7227; font-size: 1.1rem;">&#10004;</span>
@@ -441,11 +679,9 @@
             </div>
         @endforeach
     </div>
-    </div>
-    </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -497,7 +733,7 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications"  class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Stainless Steel 410</h2>
@@ -600,8 +836,27 @@
         </div>
     </section>
 
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>Stainless Steel 410 Price per kg in India</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹230 – ₹580 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
@@ -683,8 +938,8 @@
     </section>
     <!--End faq content area-->
 
-     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    {{-- blog section start --}}
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -742,7 +997,7 @@
 
 
     <!-- Contact Section -->
-    <section class="sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

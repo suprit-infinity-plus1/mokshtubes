@@ -18,14 +18,35 @@
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1>Hastelloy C-22 Alloy <br> UNS N06022 Corrosion-Resistant Nickel Alloy</h1>
+                    <!-- Add your extra content here -->
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                        Hastelloy C22 is a premium corrosion-resistant alloy designed for the harshest chemical
+                        environments, where stainless steels and lower-grade alloys fail. This page includes the complete
+                        datasheet containing chemical composition, mechanical properties, heat treatment, applications,
+                        available forms, prices, and more.</p>
+                    <!-- End extra content -->
                 </div>
             </div>
         </div>
     </section>
 
+    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+        <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact-us">Contact Us</a>
+        </div>
+    </div>
+
 
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -119,16 +140,62 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Hastelloy C22 Chemical Composition (UNS N06022)</h2>
-                <p class="text-center">
-                    The <strong>Hastelloy C22 chemical composition</strong> is carefully balanced to deliver outstanding
-                    <strong>corrosion resistance</strong> and durability compared to other <strong>Hastelloy grades</strong>
-                    like the <strong>Hastelloy C276 alloy</strong>.
-                </p>
+                <h2>Hastelloy C22 – Specifications (UNS N06022)</h2>
+            </div>
 
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Category</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Grade</td>
+                                    <td>Hastelloy C22 / Alloy 22 / UNS N06022</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Type</td>
+                                    <td>Nickel–Chromium–Molybdenum–Tungsten Alloy</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Main Features</td>
+                                    <td>Extreme corrosion resistance, excellent resistance to pitting & crevice corrosion,
+                                        superior weldability</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Available Conditions</td>
+                                    <td>Annealed, Solution Annealed, Hot Rolled, Cold Worked</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Testing Offered</td>
+                                    <td>Tensile, Hardness, Chemical Analysis, PMI, UT Testing</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Certification</td>
+                                    <td>EN 10204 3.1 / 3.2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chemical Composition -->
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of Hastelloy C22</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -143,78 +210,77 @@
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Nickel</td>
-                                    <td>56 (Balance)</td>
+                                    <td>Nickel (Ni)</td>
+                                    <td>Balance (~56%)</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Chromium</td>
+                                    <td>Chromium (Cr)</td>
                                     <td>22</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Molybdenum</td>
+                                    <td>Molybdenum (Mo)</td>
                                     <td>13</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Iron</td>
+                                    <td>Iron (Fe)</td>
                                     <td>3</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Tungsten</td>
+                                    <td>Tungsten (W)</td>
                                     <td>3</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Cobalt</td>
+                                    <td>Cobalt (Co)</td>
                                     <td>2.5 max</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Manganese</td>
+                                    <td>Manganese (Mn)</td>
                                     <td>0.5 max</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Vanadium</td>
+                                    <td>Vanadium (V)</td>
                                     <td>0.35 max</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Silicon</td>
-                                    <td>0.08</td>
+                                    <td>Silicon (Si)</td>
+                                    <td>0.08 max</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Carbon</td>
+                                    <td>Carbon (C)</td>
                                     <td>0.01 max</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Phosphorus</td>
+                                    <td>Phosphorus (P)</td>
                                     <td>0.02 max</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Sulfur</td>
+                                    <td>Sulfur (S)</td>
                                     <td>0.02 max</td>
                                 </tr>
                             </tbody>
                         </table>
+
+                        <p class="mt-3 text-center">
+                            Hastelloy C22 is engineered to withstand both oxidizing and reducing environments — a rare
+                            capability among corrosion-resistant alloys.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Physical Properties -->
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition of hastelloy</h2>
+                <h2 class="fw-bold" style="color:#174268;">
+                    Physical Properties of Hastelloy C22
+                </h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
+            <div class="row justify-content-center">
                 <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties of Hastelloy C22</h4>
-                    <p class="text-center">
-                        The following datasheet covers the <strong>Hastelloy density</strong>,
-                        <strong>Hastelloy melting point</strong>, <strong>tensile strength</strong>,
-                        and <strong>hardness</strong>.
-                    </p>
-
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -226,19 +292,19 @@
                             <tbody class="text-center">
                                 <tr class="t-row">
                                     <td>Density</td>
-                                    <td>8.89 g/cm³</td>
+                                    <td>8.69 g/cm³</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Melting Point</td>
-                                    <td>1350°C (2460°F)</td>
+                                    <td>1350 °C (2460 °F)</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Tensile Strength</td>
-                                    <td>115,000 psi / 790 MPa</td>
+                                    <td>790 MPa / 115,000 psi</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (0.2% Offset)</td>
-                                    <td>52,000 psi / 355 MPa</td>
+                                    <td>Yield Strength (0.2%)</td>
+                                    <td>355 MPa / 52,000 psi</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Elongation</td>
@@ -250,54 +316,206 @@
                 </div>
             </div>
 
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties of Hastelloy Alloys</h4>
+            <!-- Heat Treatment -->
+            <div class="row justify-content-center mt-5" id="heat-treatment">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color:#db7227;">
+                        Heat Treatment of Hastelloy C22
+                    </h4>
+
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Metric</th>
-                                    <th>Imperial</th>
+                                    <th>Process</th>
+                                    <th>Temperature</th>
+                                    <th>Cooling Method</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Tensile Strength (@ 538°C / 1000°F)</td>
-                                    <td>690 – 790 MPa</td>
-                                    <td>100,000 – 115,000 psi</td>
+                                    <td>Solution Annealing</td>
+                                    <td>1120 – 1175 °C</td>
+                                    <td>Rapid water quench</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (0.2% offset @ 427°C / 801°F)</td>
-                                    <td>379 MPa</td>
-                                    <td>55,000 psi</td>
-                                </tr>
-
-                                <tr class="t-row">
-                                    <td>Elongation at Break (@ 204°C / 399°F)</td>
-                                    <td>45%</td>
-                                    <td>45%</td>
+                                    <td>Stress Relieving</td>
+                                    <td>870 – 900 °C</td>
+                                    <td>Air cool</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Hardness, Rockwell B (plate)</td>
-                                    <td>89 – 100 HRB</td>
-                                    <td>89 – 100 HRB</td>
+                                    <td>Hot Working</td>
+                                    <td>950 – 1175 °C</td>
+                                    <td>Water quench or rapid cooling</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Cold Working</td>
+                                    <td>—</td>
+                                    <td>Requires periodic annealing</td>
                                 </tr>
                             </tbody>
                         </table>
-                        <p class="text-center">
-                            These values highlight <strong>Hastelloy tensile strength</strong>,
-                            <strong>yield strength</strong>, and <strong>hardness</strong> which make it suitable
-                            for extreme service conditions.
-                        </p>
 
+                        <p class="mt-3 text-center">
+                            ⚠ Prolonged exposure between 650–900 °C should be avoided due to precipitation risk.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color:#174268;">
+                    Mechanical Properties of Hastelloy C22
+                </h2>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Metric</th>
+                            <th>Imperial</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Tensile Strength</td>
+                            <td>690 – 790 MPa</td>
+                            <td>100,000 – 115,000 psi</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Yield Strength (0.2%)</td>
+                            <td>379 MPa</td>
+                            <td>55,000 psi</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elongation</td>
+                            <td>45%</td>
+                            <td>45%</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Hardness</td>
+                            <td>89 – 100 HRB</td>
+                            <td>89 – 100 HRB</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Forms -->
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center mt-5">
+                <h2>Available Forms & Size Range – Hastelloy C22</h2>
+            </div>
+
+            <div class="table-responsive col-lg-10 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Product Form</th>
+                            <th>Size Range</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Seamless Pipes</td>
+                            <td>6 – 219 mm OD</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Welded Pipes (ERW / EFW)</td>
+                            <td>Custom sizes</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Tubes (Capillary / U-Bend / Boiler)</td>
+                            <td>As required</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Sheets & Plates</td>
+                            <td>0.5 – 100 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Coils & Strips</td>
+                            <td>0.1 – 12 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Round Bars</td>
+                            <td>6 – 300 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Flat / Square / Hex Bars</td>
+                            <td>Custom sizes</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Flanges & Fittings</td>
+                            <td>ASME / DIN standards</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Fasteners</td>
+                            <td>M3 – M80</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Custom Components</td>
+                            <td>As per drawing</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Standards -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Equivalent Grades & Standards</h2>
+            </div>
+
+            <div class="table-responsive col-lg-6 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>N06022</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>W.Nr</td>
+                            <td>2.4602</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>B575, B622, B619, B626</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASME</td>
+                            <td>SB575, SB622, SB619</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>EN</td>
+                            <td>NiCr22Mo14W</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+
+
 
 
     @php
@@ -357,7 +575,7 @@
     @endphp
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Hastelloy C22</h2>
@@ -423,7 +641,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -469,7 +687,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications"  class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Hastelloy C22 (UNS N06022)</h2>
@@ -560,8 +778,27 @@
         </div>
     </section>
 
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>Hastelloy C22 Price in India</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹2,500 – ₹5,000 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -643,9 +880,9 @@
     </section>
     <!--End faq content area-->
 
-    
+
     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -746,62 +983,8 @@
     </section>
 
 
-    <section class="blog-section sec-padd2">
-        <div class="container">
-            <div class="section-title">
-                <h2>blogs</h2>
-            </div>
-            <div class="row">
-                @foreach ($blogs as $blog)
-                    {{-- {{ dd($blog) }} --}}
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="default-blog-news wow fadeInUp animated">
 
-                            <figure class="img-holder mb-0">
-                                <a href="{{ route('frontend.single-blog', $blog->slug) }}">
-                                    <img src="{{ asset('storage/' . $blog->cover_image) }}" alt="{{ $blog->title }}"
-                                        loading="lazy">
-                                </a>
-                                <figcaption class="overlay">
-                                    <div class="box">
-                                        <div class="content">
-                                            <a href="{{ route('frontend.single-blog', $blog->slug) }}">
-                                                <i class="fa fa-link" aria-hidden="true"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                            <div class="lower-content">
-                                <a href="{{ route('frontend.single-blog', $blog->slug) }}">
-                                    <h5>{{ Str::limit($blog->title, 30) }}</h5>
-                                </a>
-
-                                <div class="post-meta">
-                                    by {{ $blog->author ?? 'Admin' }} |
-                                    {{ $blog->created_at->format('F d, Y') }}
-                                </div>
-
-                                <!--<div class="text">-->
-                                <!--</div>-->
-                                {!! \Str::limit(strip_tags($blog->content, '<i>'), 120) !!}
-
-                                <div class="link">
-                                    <a href="{{ route('frontend.single-blog', $blog->slug) }}" class="default_link">
-                                        Read More <i class="fa fa-angle-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                @endforeach
-            </div>
-        </div>
-    </section>
-
-
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Stainless Steel 420 | Mokshtubes Sheets & Bars Dealer')
-@section('meta_description', 'Stainless Steel 420 sheets, bars & coils from MokshTubes – corrosion-resistant, durable,
+@section('meta_description',
+    'Stainless Steel 420 sheets, bars & coils from MokshTubes – corrosion-resistant, durable,
     and hard, perfect for precision engineering applications.')
-@section('meta_keywords', 'Stainless Steel 420, AISI 420, UNS S42000, martensitic stainless steel, stainless steel
+@section('meta_keywords',
+    'Stainless Steel 420, AISI 420, UNS S42000, martensitic stainless steel, stainless steel
     sheets, stainless steel bars, stainless steel coils, corrosion-resistant stainless steel, high-strength stainless steel,
     precision engineering materials, wear-resistant stainless steel')
 @section('og_image', asset('assets/images/high-strength-stainless-steel/Stainless-Steel-420.webp'))
@@ -22,8 +24,20 @@
         </div>
     </section>
     <!--End breadcrumb area-->
+      <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+        <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact-us">Contact Us</a>
+        </div>
+    </div>
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -117,11 +131,82 @@
     </section>
     <!-- End Datasheet -->
 
-
-    <section class="sec-padd-top sec-padd-bottom">
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Stainless Steel 420 Chemical Composition</h2>
+                <h2>Material Summary – SS 420 / UNS S42000</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Property</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Material Type</td>
+                                    <td>Martensitic Stainless Steel</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>UNS Designation</td>
+                                    <td>S42000</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>AISI / Equivalent</td>
+                                    <td>420</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Chromium Content</td>
+                                    <td>12.0 – 14.0 %</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Carbon Level</td>
+                                    <td>Medium–High</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Heat Treatable</td>
+                                    <td>✔ Yes</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Maximum Hardness</td>
+                                    <td>~50 HRC</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Corrosion Resistance</td>
+                                    <td>Moderate</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Magnetic Property</td>
+                                    <td>Magnetic</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Typical Density</td>
+                                    <td>~7.75 g/cm³</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <p class="mt-3 text-center">
+                            👉 Higher carbon content compared to SS 410 allows SS 420 to be hardened for excellent wear
+                            resistance and cutting performance.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chemical Composition -->
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of Stainless Steel 420</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -169,29 +254,23 @@
                                 </tr>
                             </tbody>
                         </table>
-
-                        <p class="fs-6 text-center mt-3">
-                            The higher carbon content in <strong>SS 420</strong> compared to 410 allows it to be hardened
-                            and tempered,
-                            offering excellent wear resistance and cutting performance.
-                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Physical Properties -->
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color:#174268;">Technical Composition of Stainless Steel 420</h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <h3 class="text-center mb-3" style="color: #db7227;">Physical Properties of Stainless Steel 420
+                    </h3>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -215,7 +294,7 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Thermal Conductivity</td>
-                                    <td>24.9 W/m·K (at 100 °C)</td>
+                                    <td>24.9 W/m·K (100 °C)</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Electrical Resistivity</td>
@@ -231,63 +310,222 @@
                 </div>
             </div>
 
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties of Stainless Steel 420</h4>
+            <!-- Heat Treatment -->
+            <div class="row justify-content-center mt-5" id="heat-treatment">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color:#db7227;">
+                        Heat Treatment & Hardening Cycle – SS 420
+                    </h4>
+
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Metric</th>
-                                    <th>Imperial</th>
+                                    <th>Process</th>
+                                    <th>Temperature Range</th>
+                                    <th>Purpose</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Tensile Strength (Annealed)</td>
-                                    <td>620 MPa</td>
-                                    <td>90,000 psi</td>
+                                    <td>Annealing</td>
+                                    <td>840 – 900 °C</td>
+                                    <td>Improves machinability</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (0.2% Offset)</td>
-                                    <td>345 MPa</td>
-                                    <td>50,000 psi</td>
+                                    <td>Hardening (Austenitizing)</td>
+                                    <td>980 – 1050 °C</td>
+                                    <td>Forms martensitic structure</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Elongation</td>
-                                    <td>20%</td>
-                                    <td>20%</td>
+                                    <td>Quenching</td>
+                                    <td>Oil / Air</td>
+                                    <td>Achieves high hardness</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Hardness (Brinell)</td>
-                                    <td>180 HB</td>
-                                    <td>180 HB</td>
+                                    <td>Tempering</td>
+                                    <td>150 – 400 °C</td>
+                                    <td>Adjusts hardness & toughness</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Tensile Strength (Hardened & Tempered)</td>
-                                    <td>760 – 1100 MPa</td>
-                                    <td>110,000 – 160,000 psi</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Hardness (Rockwell C)</td>
-                                    <td>45 – 50 HRC</td>
-                                    <td>45 – 50 HRC</td>
+                                    <td>Stress Relieving</td>
+                                    <td>600 – 650 °C</td>
+                                    <td>Reduces internal stresses</td>
                                 </tr>
                             </tbody>
                         </table>
 
-                        <p class="fs-6 text-center mt-3">
-                            <strong>SS 420</strong> can be hardened by heating between 980–1050 °C followed by air or oil
-                            quenching and
-                            tempering, delivering exceptional edge strength and wear resistance.
+                        <p class="mt-3 text-center">
+                            📌 SS 420 achieves best wear resistance and edge retention only after proper quench & temper
+                            treatment.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color:#174268;">
+                    Mechanical Properties of Stainless Steel 420
+                </h2>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Metric</th>
+                            <th>Imperial</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Tensile Strength (Annealed)</td>
+                            <td>620 MPa</td>
+                            <td>90,000 psi</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Yield Strength (0.2%)</td>
+                            <td>345 MPa</td>
+                            <td>50,000 psi</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elongation</td>
+                            <td>20%</td>
+                            <td>20%</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Hardness (Annealed)</td>
+                            <td>180 HB</td>
+                            <td>180 HB</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Hardness (Hardened)</td>
+                            <td>45 – 50 HRC</td>
+                            <td>45 – 50 HRC</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p class="mt-3 text-center">
+                    👉 SS 420 can reach high hardness after heat treatment, making it ideal for cutting tools and
+                    wear-resistant components.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Forms -->
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center mt-5">
+                <h2>Available Forms & Size Range – Stainless Steel 420</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <table class="table table-bordered table-striped align-middle">
+                        <thead class="table-dark text-center">
+                            <tr class="t-row">
+                                <th>Product Form</th>
+                                <th>Typical Size Range</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">
+                            <tr class="t-row">
+                                <td>Round Bars / Rods</td>
+                                <td>Ø6 mm – Ø450 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Flat Bars</td>
+                                <td>5 – 120 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Sheets & Plates</td>
+                                <td>0.4 – 80 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Coils & Strips</td>
+                                <td>0.3 – 6 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Pipes & Tubes</td>
+                                <td>OD 6 – 610 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Fasteners</td>
+                                <td>M6 – M72</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Forged Components</td>
+                                <td>As per drawing</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Precision Machined Parts</td>
+                                <td>CNC / Turned</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- International Standards -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades – SS 420</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>S42000</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>AISI</td>
+                            <td>420</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>EN</td>
+                            <td>1.4021 / 1.4028</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>DIN</td>
+                            <td>X20Cr13 / X30Cr13</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>A276, A479, A580</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>JIS</td>
+                            <td>SUS 420</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ISO</td>
+                            <td>X20Cr13</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
 
 
 
@@ -347,7 +585,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Stainless Steel 420</h2>
@@ -452,7 +690,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -505,7 +743,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications"  class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Stainless Steel 420</h2>
@@ -611,9 +849,28 @@
         </div>
     </section>
 
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>Stainless Steel 420 Price per kg in India</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹260 – ₹650 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
 
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12">
@@ -693,8 +950,8 @@
     </section>
     <!--End faq content area-->
 
-     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    {{-- blog section start --}}
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -752,7 +1009,7 @@
 
 
     <!-- Contact Section -->
-    <section class="sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

@@ -22,7 +22,10 @@
                     <!-- Add your extra content here -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                     high-purity zirconium grade known for its exceptional corrosion resistance, excellent ductility, and superior performance in critical chemical and nuclear applications. Below is the complete datasheet including chemical composition, mechanical properties, physical properties, heat treatment, and applications.
+                        high-purity zirconium grade known for its exceptional corrosion resistance, excellent ductility, and
+                        superior performance in critical chemical and nuclear applications. Below is the complete datasheet
+                        including chemical composition, mechanical properties, physical properties, heat treatment, and
+                        applications.
 
                     </p>
                     <!-- End extra content -->
@@ -31,7 +34,7 @@
         </div>
     </section>
 
-      <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
         <div class="container">
             <a href="#overview">Overview</a> |
             <a href="#composition">Chemical Composition</a> |
@@ -40,11 +43,11 @@
             <a href="#price">Advantages</a> |
             <a href="#applications">Applications</a> |
             <a href="#faq">FAQ</a> |
-            <a href="#contact us">Contact Us</a>
+            <a href="#contact-us">Contact Us</a>
         </div>
     </div>
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -128,15 +131,63 @@
             </p>
         </div>
     </section>
-
     <!-- End Datasheet Download Section -->
 
-
-
-    <section class="sec-padd-top sec-padd-bottom">
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>Specifications of Zirconium 704 (UNS R60704)</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Category</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Grade</td>
+                                    <td>Zirconium 704 / UNS R60704</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Type</td>
+                                    <td>High-Purity Zirconium Alloy</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Standards</td>
+                                    <td>ASTM B551, ASTM B523, ASME SB-551</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Forms</td>
+                                    <td>Pipes, Tubes, Sheets, Plates, Rods, Wire, Fittings, Flanges, Fasteners</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Testing</td>
+                                    <td>Chemical, PMI, Tensile, Hardness</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Certification</td>
+                                    <td>EN 10204 3.1 / 3.2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chemical Composition -->
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of Zirconium 704</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -146,61 +197,61 @@
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
                                     <th>Element</th>
-                                    <th>Composition (%)</th>
+                                    <th>Max. Composition (% by Weight)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Zirconium</td>
-                                    <td>≥ 99.2 (balance)</td>
+                                    <td>Zirconium (Zr)</td>
+                                    <td>≥ 99.3 (Balance)</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Hafnium</td>
+                                    <td>Hafnium (Hf)</td>
                                     <td>≤ 2.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Oxygen</td>
+                                    <td>Oxygen (O)</td>
                                     <td>≤ 0.12</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Nitrogen</td>
+                                    <td>Nitrogen (N)</td>
                                     <td>≤ 0.015</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Hydrogen</td>
+                                    <td>Hydrogen (H)</td>
                                     <td>≤ 0.005</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Carbon</td>
+                                    <td>Carbon (C)</td>
                                     <td>≤ 0.03</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Iron</td>
+                                    <td>Iron (Fe)</td>
                                     <td>≤ 0.15</td>
                                 </tr>
-                                {{-- <tr class="t-row">
-                                    <td>Niobium</td>
-                                    <td>≤ 0.01</td>
-                                </tr> --}}
                             </tbody>
                         </table>
+
+                        <p class="mt-3 text-center">
+                            Ultra-low impurity elements significantly enhance corrosion resistance and mechanical stability.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Physical Properties -->
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color:#174268;">Technical Composition of Zirconium 704</h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <h3 class="text-center mb-3" style="color: #db7227;">Physical Properties of Zirconium 704
+                    </h3>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -217,9 +268,9 @@
                                     <td>6.56 g/cm³</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Melting Point</td>
-                                    <td>3360–3380 °F</td>
-                                    <td>1849–1859 °C</td>
+                                    <td>Melting Range</td>
+                                    <td>3360 – 3380 °F</td>
+                                    <td>1849 – 1859 °C</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Specific Heat</td>
@@ -227,101 +278,166 @@
                                     <td>272 J/kg·°C</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Curie Temperature</td>
-                                    <td>—</td>
-                                    <td>—</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Magnetic Permeability at 200 oersteds (15.9 kA/m)</td>
-                                    <td>1.01</td>
-                                    <td>—</td>
-                                </tr>
-                                {{-- <tr class="t-row">
-                                    <td>Poisson’s Ratio</td>
-                                    <td>0.34</td>
+                                    <td>Magnetic Permeability (200 Oe)</td>
+                                    <td>~1.01</td>
                                     <td>—</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Curie Temperature</td>
+                                    <td>Magnetic Behavior</td>
                                     <td>Non-magnetic</td>
                                     <td>Non-magnetic</td>
-                                </tr> --}}
+                                </tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
             </div>
 
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+            <!-- Heat Treatment -->
+            <div class="row justify-content-center mt-5" id="heat-treatment">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color:#db7227;">
+                        Heat Treatment of Zirconium 704
+                    </h4>
+
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>80°F (25°C)</th>
-                                    <th>800°F (425°C)</th>
-                                    <th>1000°F (540°C)</th>
-                                    <th>1200°F (650°C)</th>
-                                    <th>1300°F (705°C)</th>
-                                    <th>1400°F (760°C)</th>
+                                    <th>Process</th>
+                                    <th>Temperature Range</th>
+                                    <th>Purpose</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Tensile Strength (ksi)</td>
-                                    <td>61</td>
-                                    <td>40</td>
-                                    <td>30</td>
-                                    <td>20</td>
-                                    <td>15</td>
-                                    <td>10</td>
+                                    <td>Stress Relieving</td>
+                                    <td>540 – 650 °C</td>
+                                    <td>Reduce residual stresses</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Tensile Strength (MPa)</td>
-                                    <td>420</td>
-                                    <td>275</td>
-                                    <td>207</td>
-                                    <td>138</td>
-                                    <td>103</td>
-                                    <td>69</td>
+                                    <td>Annealing</td>
+                                    <td>700 – 900 °C</td>
+                                    <td>Improve ductility & corrosion resistance</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (0.2%) (ksi)</td>
-                                    <td>36</td>
-                                    <td>25</td>
-                                    <td>18</td>
-                                    <td>12</td>
-                                    <td>9</td>
-                                    <td>6</td>
+                                    <td>Vacuum Annealing</td>
+                                    <td>—</td>
+                                    <td>Semiconductor-grade purity</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (MPa)</td>
-                                    <td>250</td>
-                                    <td>172</td>
-                                    <td>124</td>
-                                    <td>83</td>
-                                    <td>62</td>
-                                    <td>41</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Hardness (BHN)</td>
-                                    <td>210</td>
-                                    <td>160</td>
-                                    <td>130</td>
-                                    <td>100</td>
-                                    <td>85</td>
-                                    <td>70</td>
+                                    <td>Recrystallization Annealing</td>
+                                    <td>850 – 950 °C</td>
+                                    <td>Restore properties after cold work</td>
                                 </tr>
                             </tbody>
                         </table>
+
+                        <p class="mt-3 text-center">
+                            📌 Proper argon or helium shielding is essential during heat treatment to avoid contamination.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color:#174268;">
+                    Mechanical Properties of Zirconium 704 (Annealed)
+                </h2>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Temperature</th>
+                            <th>Tensile Strength (MPa)</th>
+                            <th>Yield Strength (MPa)</th>
+                            <th>Hardness (BHN)</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>25 °C (80 °F)</td>
+                            <td>420</td>
+                            <td>250</td>
+                            <td>210</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>425 °C (800 °F)</td>
+                            <td>275</td>
+                            <td>172</td>
+                            <td>160</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>540 °C (1000 °F)</td>
+                            <td>207</td>
+                            <td>124</td>
+                            <td>130</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>650 °C (1200 °F)</td>
+                            <td>138</td>
+                            <td>83</td>
+                            <td>100</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>705 °C (1300 °F)</td>
+                            <td>103</td>
+                            <td>62</td>
+                            <td>85</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>760 °C (1400 °F)</td>
+                            <td>69</td>
+                            <td>41</td>
+                            <td>70</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p class="text-center mt-3">
+                    Zirconium 704 maintains stable strength at elevated temperatures, making it ideal for reactors and
+                    corrosive heating systems.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Forms -->
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center mt-5">
+                <h2>Available Forms & Size Range – Zirconium 704</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <ul class="list-unstyled text-center">
+                        <li>✔ Seamless & Welded Pipes / Tubes (Precision & Boiler)</li>
+                        <li>✔ Capillary Tubes & U-Bend Tubing</li>
+                        <li>✔ Sheets, Plates & Coils (Mill Finish & Polished)</li>
+                        <li>✔ Strips & Foils</li>
+                        <li>✔ Round, Square, Flat & Hex Bars</li>
+                        <li>✔ Wire & Welding Rods</li>
+                        <li>✔ Pipe Fittings & Flanges (All ASME Types)</li>
+                        <li>✔ Fasteners & Custom Machined Components</li>
+                    </ul>
+
+                    <p class="text-center mt-3">
+                        All supplied materials conform to ASTM B551 / B523 and ASME SB-551 standards.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
 
     @php
@@ -380,7 +496,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Zirconium 704</h2>
@@ -439,7 +555,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section  id="uses"class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -491,7 +607,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications"  class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Zirconium 704</h2>
@@ -606,8 +722,27 @@
         </div>
     </section>
 
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>Zirconium 704 Price (India)</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹5,000 – ₹11,000 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -697,8 +832,8 @@
     </section>
     <!--End faq content area-->
 
-     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    {{-- blog section start --}}
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -754,7 +889,7 @@
     {{-- blog section end --}}
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
