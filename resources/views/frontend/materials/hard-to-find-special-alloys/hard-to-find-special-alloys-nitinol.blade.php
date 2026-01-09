@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Nitinol | Superior Shape Memory & Flexibility')
-@section('meta_description', 'Nitinol offers exceptional shape memory, superelasticity, and durability for medical
+@section('meta_description',
+    'Nitinol offers exceptional shape memory, superelasticity, and durability for medical
     devices, robotics, and high-precision engineering.')
-@section('meta_keywords', 'Nitinol alloy, shape memory alloy, superelastic alloy, medical device alloy, robotics alloy,
+@section('meta_keywords',
+    'Nitinol alloy, shape memory alloy, superelastic alloy, medical device alloy, robotics alloy,
     high precision engineering alloy, durable Nitinol')
 @section('og_image',
     asset('assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-nitinol.webp'))
@@ -18,10 +20,13 @@
                 <div class="col-auto text-center">
                     <h1>Nitinol Alloy <br> Superior Shape Memory & Flexibility</h1>
 
-                     <!-- Add your extra content here -->
+                    <!-- Add your extra content here -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                      Nitinol Alloy is a unique nickel–titanium material known for its superior shape memory effect and exceptional flexibility. It can return to its original shape after deformation and offers excellent fatigue resistance, corrosion resistance, and biocompatibility, making it ideal for medical devices, aerospace components, actuators, and precision engineering applications.
+                        Nitinol Alloy is a unique nickel–titanium material known for its superior shape memory effect and
+                        exceptional flexibility. It can return to its original shape after deformation and offers excellent
+                        fatigue resistance, corrosion resistance, and biocompatibility, making it ideal for medical devices,
+                        aerospace components, actuators, and precision engineering applications.
 
                     </p>
                     <!-- End extra content -->
@@ -30,7 +35,7 @@
         </div>
     </section>
 
- <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
         <div class="container">
             <a href="#overview">Overview</a> |
             <a href="#composition">Chemical Composition</a> |
@@ -39,11 +44,11 @@
             <a href="#price">Advantages</a> |
             <a href="#applications">Applications</a> |
             <a href="#faq">FAQ</a> |
-            <a href="#contact us">Contact Us</a>
+            <a href="#contact-us">Contact Us</a>
         </div>
     </div>
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -84,12 +89,12 @@
         </div>
     </section>
 
-      {{-- datasheet --}}
+    {{-- datasheet --}}
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
-            <h3 class="mb-3" style="color:#174268;">Download Hard To Find Special Alloy Nitinol  Datasheet</h3>
+            <h3 class="mb-3" style="color:#174268;">Download Hard To Find Special Alloy Nitinol Datasheet</h3>
             <p class="mb-3">
-                Get the complete Hard To Find Special Alloy Nitinol  datasheet with chemical composition,
+                Get the complete Hard To Find Special Alloy Nitinol datasheet with chemical composition,
                 mechanical properties, heat treatment details, and applications.
                 Enter your email to receive the PDF instantly.
             </p>
@@ -127,11 +132,82 @@
         </div>
     </section>
     <!-- End Datasheet -->
-    
-    <section class="sec-padd-top sec-padd-bottom">
+
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>NITINOL Specifications (Nickel–Titanium Alloy)</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Category</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Material Name</td>
+                                    <td>Nitinol (Nickel–Titanium Alloy)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>UNS Designation</td>
+                                    <td>N01555</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Composition</td>
+                                    <td>Ni 54.5–57.0%, Ti Balance</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Density</td>
+                                    <td>6.45 g/cm³</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Melting Range</td>
+                                    <td>1400 – 1480 °C</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Magnetic Property</td>
+                                    <td>Non-Magnetic</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Corrosion Resistance</td>
+                                    <td>Excellent</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Biocompatibility</td>
+                                    <td>Excellent (Medical Grade)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Shape Memory Effect</td>
+                                    <td>✔ Yes</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Superelasticity</td>
+                                    <td>✔ Yes</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Heat Treatable</td>
+                                    <td>✔ Yes (Transformation tuning)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chemical Composition -->
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of Nitinol</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -146,31 +222,31 @@
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Nickel</td>
+                                    <td>Nickel (Ni)</td>
                                     <td>54.5 – 57.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Titanium</td>
+                                    <td>Titanium (Ti)</td>
                                     <td>Balance</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Carbon</td>
+                                    <td>Carbon (C)</td>
                                     <td>≤ 0.05</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Oxygen</td>
+                                    <td>Oxygen (O)</td>
                                     <td>≤ 0.05</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Hydrogen</td>
+                                    <td>Hydrogen (H)</td>
                                     <td>≤ 0.005</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Nitrogen</td>
+                                    <td>Nitrogen (N)</td>
                                     <td>≤ 0.01</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Iron</td>
+                                    <td>Iron (Fe)</td>
                                     <td>≤ 0.05</td>
                                 </tr>
                             </tbody>
@@ -181,129 +257,266 @@
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Physical Properties -->
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color:#174268;">
+                    Physical Properties of Nitinol
+                </h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Imperial</th>
-                                    <th>Metric</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Density</td>
-                                    <td>0.30 lb/in³</td>
-                                    <td>6.45 g/cm³</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Melting Range</td>
-                                    <td>2550 – 2700 °F</td>
-                                    <td>1400 – 1480 °C</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Modulus of Elasticity – Tension</td>
-                                    <td>7.5 – 30 × 10³ ksi</td>
-                                    <td>50 – 207 GPa</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Modulus of Elasticity – Compression</td>
-                                    <td>Similar to tension</td>
-                                    <td>Similar to tension</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Modulus of Elasticity – Torsion</td>
-                                    <td>—</td>
-                                    <td>—</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Poisson’s Ratio</td>
-                                    <td>0.33</td>
-                                    <td>—</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Curie Temperature</td>
-                                    <td>70 – 220 °F</td>
-                                    <td>20 – 105 °C</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+            <div class="table-responsive col-lg-10 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Imperial Units</th>
+                            <th>Metric Units</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Density</td>
+                            <td>0.30 lb/in³</td>
+                            <td>6.45 g/cm³</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Melting Range</td>
+                            <td>2550 – 2700 °F</td>
+                            <td>1400 – 1480 °C</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elastic Modulus (Tension)</td>
+                            <td>7.5 – 30 × 10³ ksi</td>
+                            <td>50 – 207 GPa</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elastic Modulus (Compression)</td>
+                            <td>Similar to tension</td>
+                            <td>Similar to tension</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Poisson’s Ratio</td>
+                            <td>0.33</td>
+                            <td>—</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Curie Temperature</td>
+                            <td>70 – 220 °F</td>
+                            <td>20 – 105 °C</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
 
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
+            <!-- Heat Treatment -->
+            <div class="row justify-content-center mt-5" id="heat-treatment">
                 <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+                    <h4 class="text-center mb-3" style="color:#db7227;">
+                        Heat Treatment & Transformation Control – Nitinol
+                    </h4>
+
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Annealed</th>
-                                    <th>Hot-Finished</th>
-                                    <th>Cold Worked</th>
-                                    <th>Hot-Rolled</th>
-                                    <th>Sheet</th>
+                                    <th>Process</th>
+                                    <th>Temperature Range</th>
+                                    <th>Purpose</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Tensile Strength (ksi / MPa)</td>
-                                    <td>70–100 / 480–690</td>
-                                    <td>90–120 / 620–830</td>
-                                    <td>130–160 / 900–1100</td>
-                                    <td>—</td>
-                                    <td>—</td>
+                                    <td>Shape Setting</td>
+                                    <td>400 – 550 °C</td>
+                                    <td>Fixes permanent shape memory</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (0.2%) (ksi / MPa)</td>
-                                    <td>30–50 / 210–345</td>
-                                    <td>60–80 / 415–550</td>
-                                    <td>100–130 / 690–900</td>
-                                    <td>—</td>
-                                    <td>—</td>
+                                    <td>Annealing</td>
+                                    <td>600 – 800 °C</td>
+                                    <td>Improves ductility & formability</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Elongation (%)</td>
-                                    <td>10–30</td>
-                                    <td>8–20</td>
-                                    <td>5–10</td>
-                                    <td>—</td>
-                                    <td>—</td>
+                                    <td>Aging / Precipitation</td>
+                                    <td>350 – 500 °C</td>
+                                    <td>Adjusts transformation temperature</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Rockwell Hardness (B / C)</td>
-                                    <td>60–70 B</td>
-                                    <td>70–80 B</td>
-                                    <td>80–85 B</td>
-                                    <td>—</td>
-                                    <td>—</td>
+                                    <td>Stress Relieving</td>
+                                    <td>300 – 400 °C</td>
+                                    <td>Reduces residual stresses</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Brinell Hardness (HB)</td>
-                                    <td>150–200</td>
-                                    <td>200–300</td>
-                                    <td>300–350</td>
+                                    <td>Cold Work + Heat Treat</td>
                                     <td>—</td>
-                                    <td>—</td>
+                                    <td>Enhances superelastic behavior</td>
                                 </tr>
                             </tbody>
                         </table>
+
+                        <p class="mt-3 text-center">
+                            📌 Transformation temperature (Af) can be precisely engineered for medical or industrial
+                            applications.
+                        </p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color:#174268;">
+                    Mechanical Properties of Nitinol
+                </h2>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Annealed</th>
+                            <th>Hot-Finished</th>
+                            <th>Cold-Drawn</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Tensile Strength</td>
+                            <td>480–690 MPa</td>
+                            <td>620–830 MPa</td>
+                            <td>900–1100 MPa</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Yield Strength (0.2%)</td>
+                            <td>210–345 MPa</td>
+                            <td>415–550 MPa</td>
+                            <td>690–900 MPa</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elongation</td>
+                            <td>10–30%</td>
+                            <td>8–20%</td>
+                            <td>5–10%</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Brinell Hardness</td>
+                            <td>150–200</td>
+                            <td>200–300</td>
+                            <td>300–350</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Rockwell Hardness</td>
+                            <td>60–70 B</td>
+                            <td>70–80 B</td>
+                            <td>80–85 B</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Forms -->
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="available-forms">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Available Forms & Size Range – Nitinol</h2>
+            </div>
+
+            <div class="table-responsive col-lg-10 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Product Form</th>
+                            <th>Typical Size Range</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Wires</td>
+                            <td>0.05 – 6.0 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Tubes</td>
+                            <td>OD 0.8 – 25 mm; WT 0.1 – 2.5 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Sheets & Plates</td>
+                            <td>0.2 – 10 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Strips & Foils</td>
+                            <td>0.03 – 2.0 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Rods & Bars</td>
+                            <td>3 – 100 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Springs</td>
+                            <td>As per design</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Custom Components</td>
+                            <td>CNC / Laser-cut / Medical grade</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- International Standards -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades – Nitinol</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard / Organization</th>
+                            <th>Equivalent / Description</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>N01555</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>ASTM F2063 (Medical Grade)</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>ASTM F2005 (Transformation Temperature)</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>AMS</td>
+                            <td>AMS 5898 (Aerospace)</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ISO</td>
+                            <td>ISO 5832-11 (Implant Grade)</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>DIN</td>
+                            <td>DIN 17856</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>EN</td>
+                            <td>EN ISO 5832-11</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </section>
@@ -365,7 +578,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Nitinol</h2>
@@ -422,7 +635,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -468,7 +681,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Nitinol</h2>
@@ -576,8 +789,27 @@
         </div>
     </section>
 
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>Nitinol Price per kg in India</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹18,000 – ₹45,000 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq"  class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -663,8 +895,8 @@
     </section>
     <!--End faq content area-->
 
-     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    {{-- blog section start --}}
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -720,7 +952,7 @@
     {{-- blog section end --}}
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

@@ -18,11 +18,13 @@
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1>Monel K500 <br> High-Strength & Corrosion Resistant Alloy</h1>
-                    
-                     <!-- Add your extra content here -->
+
+                    <!-- Add your extra content here -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                       MONEL® K500 (Alloy K500 / UNS N05500) is a high-strength, precipitation-hardened nickel-copper alloy offering excellent corrosion resistance, durability, and toughness, making it ideal for marine, chemical, and industrial applications.
+                        MONEL® K500 (Alloy K500 / UNS N05500) is a high-strength, precipitation-hardened nickel-copper alloy
+                        offering excellent corrosion resistance, durability, and toughness, making it ideal for marine,
+                        chemical, and industrial applications.
 
                         <!-- End extra content -->
                 </div>
@@ -30,8 +32,8 @@
         </div>
     </section>
 
-  <div class="sticky-top bg-white border-bottom material-tabs  w-100">
-         <div class="container">
+    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+        <div class="container">
             <a href="#overview">Overview</a> |
             <a href="#composition">Chemical Composition</a> |
             <a href="#heat-treatment">Heat Treatment</a> |
@@ -39,11 +41,11 @@
             <a href="#price">Advantages</a> |
             <a href="#applications">Applications</a> |
             <a href="#faq">FAQ</a> |
-            <a href="#contact us">Contact Us</a>
+            <a href="#contact-us">Contact Us</a>
         </div>
     </div>
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -134,10 +136,70 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>MONEL® K500 Specifications (UNS N05500)</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Category</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Grade</td>
+                                    <td>MONEL® K500 / Alloy K500 / UNS N05500</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Material Type</td>
+                                    <td>Precipitation-Hardened Nickel–Copper Alloy</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Typical Chemical Composition</td>
+                                    <td>Ni ≥63%, Cu 27–33%, Al 2.3–3.15%, Ti 0.35–0.85%</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Available Conditions</td>
+                                    <td>Annealed, Solution Treated, Cold Worked</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Heat Treatment</td>
+                                    <td>Aging / Precipitation Hardening, Stress Relieving</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Testing Offered</td>
+                                    <td>Tensile, Hardness, Chemical, Corrosion, NDT on request</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Certification</td>
+                                    <td>EN 10204 3.1 / 3.2 (Mill Test Certificate)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <p class="mt-3 text-center">
+                            👉 Aluminum and titanium additions enable age-hardening, giving MONEL® K500 its exceptionally
+                            high strength.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chemical Composition -->
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of MONEL® K500</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -152,39 +214,39 @@
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Nickel</td>
+                                    <td>Nickel (Ni)</td>
                                     <td>63.0 min</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Copper</td>
+                                    <td>Copper (Cu)</td>
                                     <td>27.0 – 33.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Aluminum</td>
+                                    <td>Aluminum (Al)</td>
                                     <td>2.3 – 3.15</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Titanium</td>
+                                    <td>Titanium (Ti)</td>
                                     <td>0.35 – 0.85</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Iron</td>
+                                    <td>Iron (Fe)</td>
                                     <td>2.0 max</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Manganese</td>
+                                    <td>Manganese (Mn)</td>
                                     <td>1.5 max</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Silicon</td>
+                                    <td>Silicon (Si)</td>
                                     <td>0.5 max</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Carbon</td>
+                                    <td>Carbon (C)</td>
                                     <td>0.25 max</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Sulfur</td>
+                                    <td>Sulfur (S)</td>
                                     <td>0.01 max</td>
                                 </tr>
                             </tbody>
@@ -195,51 +257,51 @@
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Physical Properties -->
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color:#174268;">
+                    Technical Composition of MONEL® K500
+                </h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
+            <div class="row justify-content-center">
                 <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
+                    <h3 class="text-center mb-3" style="color: #db7227;">Physical Properties of MONEL® K500
+                    </h3>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
                                     <th>Property</th>
-                                    <th>Imperial</th>
-                                    <th>Metric</th>
+                                    <th>Value</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
                                     <td>Density</td>
-                                    <td>0.305 lb/in³</td>
                                     <td>8.44 g/cm³</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Melting Range</td>
-                                    <td>2400–2460 °F</td>
-                                    <td>1315–1350 °C</td>
+                                    <td>1315 – 1350 °C</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Elasticity (Tension)</td>
-                                    <td>26.0 × 10³ ksi</td>
+                                    <td>Elastic Modulus (Tension)</td>
                                     <td>179 GPa</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Elasticity (Torsion)</td>
-                                    <td>9.5 × 10³ ksi</td>
-                                    <td>65.5 GPa</td>
+                                    <td>Modulus of Rigidity</td>
+                                    <td>~65.5 GPa</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Poisson’s Ratio</td>
-                                    <td>0.32 (aged material, RT)</td>
-                                    <td>-</td>
+                                    <td>0.32</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Magnetic Properties</td>
+                                    <td>Non-Magnetic</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -247,57 +309,47 @@
                 </div>
             </div>
 
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+            <!-- Heat Treatment -->
+            <div class="row justify-content-center mt-5" id="heat-treatment">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color:#db7227;">
+                        Heat Treatment of MONEL® K500
+                    </h4>
+
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Form & Condition</th>
-                                    <th>Tensile Strength</th>
-                                    <th>Yield Strength (0.2%)</th>
-                                    <th>Elongation</th>
-                                    <th>Hardness</th>
+                                    <th>Process</th>
+                                    <th>Temperature Range</th>
+                                    <th>Procedure</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Rod & Bar – Hot-Finished, Aged</td>
-                                    <td>140–190 ksi (965–1310 MPa)</td>
-                                    <td>100–150 ksi (690–1034 MPa)</td>
-                                    <td>35–20%%</td>
-                                    <td>27–37C</td>
+                                    <td>Solution Treatment</td>
+                                    <td>980 – 1010 °C</td>
+                                    <td>Water quench or air cool</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Rod & Bar – Cold-Drawn, Annealed, Aged</td>
-                                    <td>130–190 ksi (896–1310 MPa)</td>
-                                    <td>85–120 ksi (586–827 MPa)</td>
-                                    <td>30–10%</td>
-                                    <td>24–35C</td>
-                                </tr>
-
-                                <tr class="t-row">
-                                    <td>Strip – Spring Temper, Aged</td>
-                                    <td>170–220 ksi (1172–1517 MPa)</td>
-                                    <td>130–195 ksi (896–1345 MPa)</td>
-                                    <td>10–5%</td>
-                                    <td>34C min</td>
+                                    <td>Aging / Precipitation Hardening</td>
+                                    <td>675 – 705 °C</td>
+                                    <td>Air cool for maximum strength</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Tube & Pipe – Cold-Drawn, Aged</td>
-                                    <td>140–220 ksi (965–1517 MPa)</td>
-                                    <td>100–200 ksi (690–1379 MPa)</td>
-                                    <td>25–3%</td>
-                                    <td>27–40C</td>
+                                    <td>Stress Relieving</td>
+                                    <td>540 – 650 °C</td>
+                                    <td>Hold 1–2 hours, air cool</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Wire – Spring Temper, Aged</td>
-                                    <td>160–200 ksi (1103–1379 MPa)</td>
-                                    <td>140–190 ksi (965–1310 MPa)</td>
-                                    <td>8–3%</td>
-                                    <td>—</td>
+                                    <td>Softening (Optional)</td>
+                                    <td>870 – 980 °C</td>
+                                    <td>Furnace cool</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Hot Working Prep</td>
+                                    <td>870 – 980 °C</td>
+                                    <td>Uniform heating before forming</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -306,6 +358,165 @@
             </div>
         </div>
     </section>
+
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color:#174268;">
+                    Mechanical Properties of MONEL® K500
+                </h2>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Product Form</th>
+                            <th>Tensile Strength</th>
+                            <th>Yield Strength (0.2%)</th>
+                            <th>Elongation</th>
+                            <th>Hardness</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Rod & Bar (Annealed)</td>
+                            <td>345 – 552 MPa</td>
+                            <td>207 – 345 MPa</td>
+                            <td>60 – 75%</td>
+                            <td>10 – 20 HRB</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Cold-Drawn Rod</td>
+                            <td>379 – 586 MPa</td>
+                            <td>241 – 379 MPa</td>
+                            <td>55 – 70%</td>
+                            <td>15 – 25 HRB</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Strip (Soft Temper)</td>
+                            <td>414 – 552 MPa</td>
+                            <td>276 – 414 MPa</td>
+                            <td>80 – 95%</td>
+                            <td>≤20 HRB</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Tube & Pipe</td>
+                            <td>414 – 621 MPa</td>
+                            <td>276 – 448 MPa</td>
+                            <td>70 – 95%</td>
+                            <td>12 – 22 HRB</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Wire (Annealed)</td>
+                            <td>379 – 517 MPa</td>
+                            <td>207 – 345 MPa</td>
+                            <td>80 – 97%</td>
+                            <td>—</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Forms -->
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="available-forms">
+        <div class="container">
+            <div class="section-title center mt-5">
+                <h2>Available Forms & Size Range – MONEL® K500</h2>
+            </div>
+
+            <div class="table-responsive col-lg-10 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Product Form</th>
+                            <th>Size Range / Description</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Round Bars</td>
+                            <td>10 mm – 350 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Flat, Square & Hex Bars</td>
+                            <td>Custom sizes up to 250 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Sheets & Plates</td>
+                            <td>1.5 – 100 mm (Width 600 – 2500 mm)</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Coils & Strips</td>
+                            <td>0.3 – 8 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Seamless & Welded Pipes / Tubes</td>
+                            <td>OD 6 – 273 mm, WT 1 – 25 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Forged Components</td>
+                            <td>Blocks, rings, bushings as per drawing</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- International Standards -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades – MONEL® K500</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>N05500</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>W.Nr (DIN)</td>
+                            <td>2.4376</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>B127, B164, B165, B564, B725</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>EN</td>
+                            <td>NiCu30AlTi</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>BS</td>
+                            <td>NA 16</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>JIS</td>
+                            <td>NW 5500</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>GOST</td>
+                            <td>МНЖКмц 28-2.5-1.5</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
 
 
     @php
@@ -364,7 +575,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Monel K500</h2>
@@ -442,7 +653,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -488,7 +699,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Monel K500</h2>
@@ -625,8 +836,27 @@
         </div>
     </section>
 
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>MONEL K500 Price (India)</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹2,800 – ₹4,800 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -724,8 +954,8 @@
     </section>
     <!--End faq content area-->
 
-     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    {{-- blog section start --}}
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -780,7 +1010,7 @@
     </section>
     {{-- blog section end --}}
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

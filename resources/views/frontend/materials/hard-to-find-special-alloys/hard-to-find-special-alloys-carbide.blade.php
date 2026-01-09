@@ -1,7 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Carbide Alloys for Superior Hardness & Precision')
-@section('meta_description', 'Carbide delivers exceptional hardness, wear resistance & precision—ideal for cutting
+@section('meta_description',
+    'Carbide delivers exceptional hardness, wear resistance & precision—ideal for cutting
     tools, machinery & demanding industrial applications.')
 @section('meta_keywords',
     'Carbide, high hardness carbide, wear resistant carbide, precision cutting tools, industrial
@@ -20,10 +21,13 @@
                 <div class="col-auto text-center">
                     <h1>Carbide Alloys <br> High Hardness & Precision</h1>
 
-                     <!-- Add your extra content here -->
+                    <!-- Add your extra content here -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                       Carbide Alloys are ultra-hard engineering materials known for their exceptional wear resistance, high strength, and dimensional precision. They maintain hardness even at elevated temperatures, making them ideal for cutting tools, dies, molds, wear parts, and precision components used in demanding industrial and manufacturing applications.
+                        Carbide Alloys are ultra-hard engineering materials known for their exceptional wear resistance,
+                        high strength, and dimensional precision. They maintain hardness even at elevated temperatures,
+                        making them ideal for cutting tools, dies, molds, wear parts, and precision components used in
+                        demanding industrial and manufacturing applications.
 
                     </p>
                     <!-- End extra content -->
@@ -32,7 +36,7 @@
         </div>
     </section>
 
-     <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
         <div class="container">
             <a href="#overview">Overview</a> |
             <a href="#composition">Chemical Composition</a> |
@@ -41,12 +45,12 @@
             <a href="#price">Advantages</a> |
             <a href="#applications">Applications</a> |
             <a href="#faq">FAQ</a> |
-            <a href="#contact us">Contact Us</a>
+            <a href="#contact-us">Contact Us</a>
         </div>
     </div>
 
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -91,12 +95,12 @@
         </div>
     </section>
 
-     {{-- datasheet --}}
+    {{-- datasheet --}}
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
-            <h3 class="mb-3" style="color:#174268;">Download Hard To Find Special Alloy Carbide  Datasheet</h3>
+            <h3 class="mb-3" style="color:#174268;">Download Hard To Find Special Alloy Carbide Datasheet</h3>
             <p class="mb-3">
-                Get the complete Hard To Find Special Alloy Carbide  datasheet with chemical composition,
+                Get the complete Hard To Find Special Alloy Carbide datasheet with chemical composition,
                 mechanical properties, heat treatment details, and applications.
                 Enter your email to receive the PDF instantly.
             </p>
@@ -134,11 +138,83 @@
         </div>
     </section>
     <!-- End Datasheet -->
-    
-    <section class="sec-padd-top sec-padd-bottom">
+
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>Carbide Alloys Specifications</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Property</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Material Type</td>
+                                    <td>Hard Metal / Cemented Carbide</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Base Carbides</td>
+                                    <td>WC, TiC, TaC</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Binder Metals</td>
+                                    <td>Cobalt (Co), Nickel (Ni)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Hardness Range</td>
+                                    <td>80 – 92 HRC</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Density Range</td>
+                                    <td>14.5 – 15.8 g/cm³</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Wear Resistance</td>
+                                    <td>Excellent</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Heat Resistance</td>
+                                    <td>Excellent</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Compressive Strength</td>
+                                    <td>Very High</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Machinability</td>
+                                    <td>Precision grinding only</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Magnetic Property</td>
+                                    <td>Non-magnetic (WC–Ni grades)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <p class="mt-3 text-center">
+                            👉 Carbide alloys are engineered materials where hardness and wear resistance are achieved
+                            through sintering, not conventional heat treatment.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chemical Composition -->
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of Carbide Alloys (WC–Co Typical)</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -153,86 +229,92 @@
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Tungsten</td>
+                                    <td>Tungsten (W)</td>
                                     <td>80.0 – 97.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Carbon</td>
+                                    <td>Carbon (C)</td>
                                     <td>4.0 – 6.5</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Cobalt</td>
-                                    <td>3.0 – 20.0 (binder phase)</td>
+                                    <td>Cobalt (Co)</td>
+                                    <td>3.0 – 20.0 (Binder)</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Titanium</td>
-                                    <td>Optional (in TiC grades)</td>
+                                    <td>Titanium (Ti)</td>
+                                    <td>Optional (TiC grades)</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Tantalum</td>
-                                    <td>Optional (in TaC grades)</td>
+                                    <td>Tantalum (Ta)</td>
+                                    <td>Optional (TaC grades)</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Niobium</td>
+                                    <td>Niobium (Nb)</td>
                                     <td>Optional</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Nickel</td>
-                                    <td>Optional binder (for corrosion-resistant grades)</td>
+                                    <td>Nickel (Ni)</td>
+                                    <td>Optional binder (corrosion-resistant grades)</td>
                                 </tr>
                             </tbody>
                         </table>
+
+                        <p class="mt-3 text-center">
+                            📌 Composition varies by grade and application (WC, TiC, TaC-based systems).
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Physical Properties -->
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color:#174268;">
+                    Technical Composition of Tungsten Carbide (WC–Co)
+                </h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <h3 class="text-center mb-3" style="color: #db7227;">Physical Properties of Tungsten Carbide (WC–Co)
+                    </h3>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
                                     <th>Property</th>
-                                    <th>Imperial</th>
-                                    <th>Metric</th>
+                                    <th>Imperial Units</th>
+                                    <th>Metric Units</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
                                     <td>Density</td>
-                                    <td>15.6 lb/in³</td>
+                                    <td>—</td>
                                     <td>15.6 g/cm³</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Melting Point</td>
-                                    <td>5742 °F (sublimation)</td>
-                                    <td>3170 °C (sublimation)</td>
+                                    <td>5742 °F (Sublimation)</td>
+                                    <td>3170 °C (Sublimation)</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Modulus of Elasticity – Tension</td>
-                                    <td>59 × 10³ ksi</td>
-                                    <td>407 GPa</td>
+                                    <td>Elastic Modulus (Tension)</td>
+                                    <td>~59 × 10³ ksi</td>
+                                    <td>~407 GPa</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Modulus of Elasticity – Compression</td>
-                                    <td>59 × 10³ ksi</td>
-                                    <td>407 GPa</td>
+                                    <td>Elastic Modulus (Compression)</td>
+                                    <td>~59 × 10³ ksi</td>
+                                    <td>~407 GPa</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Modulus of Elasticity – Torsion</td>
-                                    <td>20 × 10³ ksi</td>
-                                    <td>138 GPa</td>
+                                    <td>Elastic Modulus (Torsion)</td>
+                                    <td>~20 × 10³ ksi</td>
+                                    <td>~138 GPa</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Poisson’s Ratio</td>
@@ -250,70 +332,218 @@
                 </div>
             </div>
 
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
+            <!-- Processing -->
+            <div class="row justify-content-center mt-5" id="heat-treatment">
                 <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+                    <h4 class="text-center mb-3" style="color:#db7227;">
+                        Heat Treatment & Processing of Carbide Alloys
+                    </h4>
+
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Annealed</th>
-                                    <th>Hot-Finished</th>
-                                    <th>Cold Worked</th>
-                                    <th>Hot-Rolled</th>
-                                    <th>Sheet</th>
+                                    <th>Process</th>
+                                    <th>Temperature Range</th>
+                                    <th>Purpose</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Tensile Strength (ksi / MPa)</td>
-                                    <td>300–400 / 2070–2760</td>
+                                    <td>Powder Mixing & Milling</td>
                                     <td>—</td>
-                                    <td>—</td>
-                                    <td>—</td>
-                                    <td>—</td>
+                                    <td>Uniform carbide–binder distribution</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (0.2%) (ksi / MPa)</td>
-                                    <td>250–350 / 1720–2410</td>
+                                    <td>Cold Isostatic Pressing</td>
                                     <td>—</td>
-                                    <td>—</td>
-                                    <td>—</td>
-                                    <td>—</td>
+                                    <td>Shape formation</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Elongation (%)</td>
-                                    <td>0.1–1</td>
-                                    <td>—</td>
-                                    <td>—</td>
-                                    <td>—</td>
-                                    <td>—</td>
+                                    <td>Liquid Phase Sintering</td>
+                                    <td>1350 – 1500 °C</td>
+                                    <td>Full densification</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Rockwell Hardness (B / C)</td>
-                                    <td>—</td>
-                                    <td>—</td>
-                                    <td>—</td>
-                                    <td>—</td>
-                                    <td>80–90 HRC</td>
+                                    <td>HIP (Hot Isostatic Pressing)</td>
+                                    <td>1350 – 1450 °C</td>
+                                    <td>Removes internal porosity</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Brinell Hardness (HB)</td>
-                                    <td>1500–2200</td>
+                                    <td>Grinding & Polishing</td>
                                     <td>—</td>
-                                    <td>—</td>
-                                    <td>—</td>
-                                    <td>—</td>
+                                    <td>Final precision dimensions</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Coating (Optional)</td>
+                                    <td>PVD / CVD</td>
+                                    <td>TiN, TiCN, AlTiN</td>
                                 </tr>
                             </tbody>
                         </table>
+
+                        <p class="mt-3 text-center">
+                            📌 Carbide alloys cannot be hardened by conventional heat treatment; properties are achieved
+                            during sintering and binder control.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color:#174268;">
+                    Mechanical Properties of Carbide Alloys
+                </h2>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Typical Value</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Tensile Strength</td>
+                            <td>2070 – 2760 MPa</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Yield Strength (0.2%)</td>
+                            <td>1720 – 2410 MPa</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elongation</td>
+                            <td>0.1 – 1 %</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Brinell Hardness</td>
+                            <td>1500 – 2200 HB</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Rockwell Hardness</td>
+                            <td>80 – 90 HRC</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Forms -->
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="available-forms">
+        <div class="container">
+            <div class="section-title center mt-5">
+                <h2>Available Forms & Size Range – Carbide Alloys</h2>
+            </div>
+
+            <div class="table-responsive col-lg-10 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Product Form</th>
+                            <th>Typical Size Range</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Solid Rods</td>
+                            <td>Ø1 – Ø60 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Coolant Hole Rods</td>
+                            <td>Ø3 – Ø40 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Plates & Strips</td>
+                            <td>Thickness 1 – 50 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Cutting Inserts</td>
+                            <td>ISO standard sizes</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Dies & Punches</td>
+                            <td>As per drawing</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Wear Parts</td>
+                            <td>Custom sizes</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Nozzles & Rings</td>
+                            <td>Ø5 – Ø300 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Mining Buttons</td>
+                            <td>Ø6 – Ø40 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Custom Components</td>
+                            <td>CNC / Precision grinding finished</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- International Standards -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades – Carbide Alloys</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>ISO 513</td>
+                            <td>Application-based carbide grades</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ISO 3297</td>
+                            <td>Hardmetal materials</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASTM B777</td>
+                            <td>Tungsten heavy alloys</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>DIN ISO 3327</td>
+                            <td>Cemented carbides</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ANSI</td>
+                            <td>Tool insert classification</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>GB/T 13864</td>
+                            <td>Chinese carbide standard</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>NACE MR0175</td>
+                            <td>WC–Ni corrosion-resistant grades</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
 
 
     @php
@@ -372,7 +602,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Carbide Alloys</h2>
@@ -429,7 +659,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -475,7 +705,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Carbide Alloys</h2>
@@ -586,8 +816,27 @@
         </div>
     </section>
 
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>Carbide Alloys Price per kg in India</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹3,500 – ₹8,500 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -672,8 +921,8 @@
     </section>
     <!--End faq content area-->
 
-     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    {{-- blog section start --}}
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -729,7 +978,7 @@
     {{-- blog section end --}}
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

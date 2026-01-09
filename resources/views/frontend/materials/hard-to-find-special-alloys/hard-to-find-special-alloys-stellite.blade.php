@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Stellite Metal | Moksh Tubes – Durable & High Strength')
-@section('meta_description', 'Stellite alloys at MokshTubes deliver exceptional hardness, wear and corrosion resistance
+@section('meta_description',
+    'Stellite alloys at MokshTubes deliver exceptional hardness, wear and corrosion resistance
     for cutting tools, valves, machinery & high-stress applications.')
-@section('meta_keywords', 'Stellite alloy, high hardness alloy, wear resistant alloy, corrosion resistant alloy, cutting
+@section('meta_keywords',
+    'Stellite alloy, high hardness alloy, wear resistant alloy, corrosion resistant alloy, cutting
     tools alloy, valves alloy, industrial machinery alloy, durable Stellite')
 @section('og_image',
     asset('assets/images/hard-to-find-and-special-alloys/hard-to-find-and-special-alloys-stellite.webp'))
@@ -18,10 +20,13 @@
                 <div class="col-auto text-center">
                     <h1>Stellite Alloy <br> Durable High Strength Metal</h1>
 
-                     <!-- Add your extra content here -->
+                    <!-- Add your extra content here -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                       Stellite Alloy is a cobalt-based alloy known for its exceptional durability, high strength, and outstanding resistance to wear, heat, and corrosion. It maintains hardness at elevated temperatures and performs reliably in harsh environments, making it ideal for cutting tools, valve components, bearings, and industrial wear-resistant applications.
+                        Stellite Alloy is a cobalt-based alloy known for its exceptional durability, high strength, and
+                        outstanding resistance to wear, heat, and corrosion. It maintains hardness at elevated temperatures
+                        and performs reliably in harsh environments, making it ideal for cutting tools, valve components,
+                        bearings, and industrial wear-resistant applications.
                     </p>
                     <!-- End extra content -->
                 </div>
@@ -29,7 +34,7 @@
         </div>
     </section>
 
-<div class="sticky-top bg-white border-bottom material-tabs  w-100">
+    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
         <div class="container">
             <a href="#overview">Overview</a> |
             <a href="#composition">Chemical Composition</a> |
@@ -42,7 +47,7 @@
         </div>
     </div>
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -85,12 +90,12 @@
         </div>
     </section>
 
-      {{-- datasheet --}}
+    {{-- datasheet --}}
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
-            <h3 class="mb-3" style="color:#174268;">Download Hard To Find Special Alloy Stellite  Datasheet</h3>
+            <h3 class="mb-3" style="color:#174268;">Download Hard To Find Special Alloy Stellite Datasheet</h3>
             <p class="mb-3">
-                Get the complete Hard To Find Special Alloy Stellite  datasheet with chemical composition,
+                Get the complete Hard To Find Special Alloy Stellite datasheet with chemical composition,
                 mechanical properties, heat treatment details, and applications.
                 Enter your email to receive the PDF instantly.
             </p>
@@ -128,11 +133,78 @@
         </div>
     </section>
     <!-- End Datasheet -->
-    
-    <section class="sec-padd-top sec-padd-bottom">
+
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>Material Summary – Stellite® Alloys</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Property</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Material Type</td>
+                                    <td>Cobalt-Chromium Superalloy</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Primary Elements</td>
+                                    <td>Co, Cr, W, C</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Strength Mechanism</td>
+                                    <td>Solid Solution + Carbide Hardening</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Hardness Range</td>
+                                    <td>40 – 70 HRC (grade dependent)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Wear Resistance</td>
+                                    <td>Exceptional</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Galling Resistance</td>
+                                    <td>Excellent</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>High-Temperature Stability</td>
+                                    <td>Up to ~800 – 1000 °C</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Corrosion Resistance</td>
+                                    <td>Excellent</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Magnetic Property</td>
+                                    <td>Non-Magnetic</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Weldability</td>
+                                    <td>Excellent (Hard-facing & Overlay)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chemical Composition -->
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition – Stellite® 6 (Typical)</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -147,157 +219,310 @@
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Cobalt</td>
+                                    <td>Cobalt (Co)</td>
                                     <td>Balance</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Chromium</td>
+                                    <td>Chromium (Cr)</td>
                                     <td>27 – 32</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Tungsten</td>
+                                    <td>Tungsten (W)</td>
                                     <td>4.0 – 6.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Carbon</td>
+                                    <td>Carbon (C)</td>
                                     <td>0.9 – 1.4</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Nickel</td>
+                                    <td>Nickel (Ni)</td>
                                     <td>≤ 3.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Iron</td>
+                                    <td>Iron (Fe)</td>
                                     <td>≤ 3.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Silicon</td>
+                                    <td>Silicon (Si)</td>
+                                    <td>≤ 1.0</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Manganese (Mn)</td>
                                     <td>≤ 1.0</td>
                                 </tr>
                             </tbody>
                         </table>
+
+                        <p class="mt-3 text-center">
+                            📌 Exact chemistry varies by Stellite® grade (6, 12, 21, etc.).
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Physical Properties -->
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color:#174268;">
+                    Physical Properties of Stellite® 6
+                </h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Imperial</th>
-                                    <th>Metric</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Density</td>
-                                    <td>0.335 lb/in³</td>
-                                    <td>9.3 g/cm³</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Melting Range</td>
-                                    <td>2375 – 2600 °F</td>
-                                    <td>1300 – 1425 °C</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Hardness (as-cast)</td>
-                                    <td>43–48 HRC</td>
-                                    <td>—</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Magnetic Permeability</td>
-                                    <td>Non-magnetic</td>
-                                    <td>—</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Thermal Conductivity</td>
-                                    <td>11 W/m·K</td>
-                                    <td>—</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+            <div class="table-responsive col-lg-10 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Imperial Units</th>
+                            <th>Metric Units</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Density</td>
+                            <td>0.335 lb/in³</td>
+                            <td>9.3 g/cm³</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Melting Point</td>
+                            <td>2375 – 2600 °F</td>
+                            <td>1300 – 1425 °C</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Hardness (As-Cast)</td>
+                            <td>43 – 48 HRC</td>
+                            <td>—</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Magnetic Permeability</td>
+                            <td>Non-magnetic</td>
+                            <td>—</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Thermal Conductivity</td>
+                            <td>—</td>
+                            <td>~11 W/m·K</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
 
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
+            <!-- Heat Treatment -->
+            <div class="row justify-content-center mt-5" id="heat-treatment">
                 <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+                    <h4 class="text-center mb-3" style="color:#db7227;">
+                        Heat Treatment & Processing of Stellite® Alloys
+                    </h4>
+
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Annealed</th>
-                                    <th>Hot-Finished</th>
-                                    <th>Cold Worked</th>
-                                    <th>Hot-Rolled</th>
-                                    <th>Sheet</th>
+                                    <th>Process</th>
+                                    <th>Temperature Range</th>
+                                    <th>Purpose</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Tensile Strength (ksi / MPa)</td>
-                                    <td>90–120 / 620–830</td>
-                                    <td>120–150 / 827–1034</td>
-                                    <td>—</td>
-                                    <td>—</td>
-                                    <td>—</td>
+                                    <td>Casting / Forging</td>
+                                    <td>1150 – 1250 °C</td>
+                                    <td>Primary shape formation</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (0.2%) (ksi / MPa)</td>
-                                    <td>60–90 / 414–620</td>
-                                    <td>100–130 / 690–896</td>
-                                    <td>—</td>
-                                    <td>—</td>
-                                    <td>—</td>
+                                    <td>Solution Treatment</td>
+                                    <td>1150 – 1200 °C</td>
+                                    <td>Homogenizes microstructure</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Elongation (%)</td>
-                                    <td>15–25</td>
-                                    <td>10–15</td>
-                                    <td>—</td>
-                                    <td>—</td>
-                                    <td>—</td>
+                                    <td>Stress Relieving</td>
+                                    <td>650 – 800 °C</td>
+                                    <td>Reduces residual stresses</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Brinell Hardness (3000 kg)</td>
-                                    <td>350–500</td>
-                                    <td>500–700</td>
-                                    <td>—</td>
-                                    <td>—</td>
-                                    <td>—</td>
+                                    <td>Hard-facing / Overlay Welding</td>
+                                    <td>Controlled heat input</td>
+                                    <td>Surface wear protection</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Rockwell Hardness (B / C)</td>
-                                    <td>40–60 C</td>
-                                    <td>55–70 C</td>
+                                    <td>Grinding & Finishing</td>
                                     <td>—</td>
-                                    <td>—</td>
-                                    <td>—</td>
+                                    <td>Final dimensional accuracy</td>
                                 </tr>
                             </tbody>
                         </table>
+
+                        <p class="mt-3 text-center">
+                            📌 Stellite® alloys do not require conventional hardening; hardness comes from carbide
+                            precipitation.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color:#174268;">
+                    Mechanical Properties of Stellite® Alloys
+                </h2>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Annealed</th>
+                            <th>Hot-Finished</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Tensile Strength</td>
+                            <td>620 – 830 MPa</td>
+                            <td>827 – 1034 MPa</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Yield Strength (0.2%)</td>
+                            <td>414 – 620 MPa</td>
+                            <td>690 – 896 MPa</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elongation</td>
+                            <td>15 – 25%</td>
+                            <td>10 – 15%</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Brinell Hardness</td>
+                            <td>350 – 500</td>
+                            <td>500 – 700</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Rockwell Hardness</td>
+                            <td>40 – 60 HRC</td>
+                            <td>55 – 70 HRC</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Forms -->
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="available-forms">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Available Forms & Size Range – Stellite® Alloys</h2>
+            </div>
+
+            <div class="table-responsive col-lg-10 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Product Form</th>
+                            <th>Typical Size Range</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Round Bars / Rods</td>
+                            <td>Ø6 – Ø200 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Flat Bars & Plates</td>
+                            <td>3 – 80 mm thickness</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Sheets</td>
+                            <td>1 – 20 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Pipes & Tubes</td>
+                            <td>OD 10 – 150 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Welding Rods / Wires</td>
+                            <td>Ø2.0 – Ø6.0 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Electrodes</td>
+                            <td>AWS standard sizes</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Cast Components</td>
+                            <td>As per drawing</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Hard-faced Parts</td>
+                            <td>Custom overlay thickness</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- International Standards -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades – Stellite® Alloys</h2>
+            </div>
+
+            <div class="table-responsive col-lg-10 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Grade</th>
+                            <th>AWS</th>
+                            <th>ASTM</th>
+                            <th>ISO / Other</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Stellite 6</td>
+                            <td>ERCoCr-A</td>
+                            <td>ASTM B659</td>
+                            <td>ISO CoCr-A</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Stellite 12</td>
+                            <td>ERCoCr-B</td>
+                            <td>ASTM B560</td>
+                            <td>ISO CoCr-B</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Stellite 21</td>
+                            <td>ERCoCr-E</td>
+                            <td>ASTM F90</td>
+                            <td>ISO CoCr-E</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Cast Grades</td>
+                            <td>—</td>
+                            <td>ASTM A494</td>
+                            <td>—</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Electrodes</td>
+                            <td>ECoCr-A / B</td>
+                            <td>AWS A5.13</td>
+                            <td>—</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
 
 
     @php
@@ -356,7 +581,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Stellite</h2>
@@ -413,7 +638,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -459,7 +684,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Stellite</h2>
@@ -569,8 +794,27 @@
         </div>
     </section>
 
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>Stellite® Alloy Price per kg in India</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹6,000 – ₹18,000 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -656,8 +900,8 @@
     </section>
     <!--End faq content area-->
 
-     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    {{-- blog section start --}}
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -713,7 +957,7 @@
     {{-- blog section end --}}
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
