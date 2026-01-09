@@ -5,7 +5,8 @@ namespace App\Http\Controllers;
 use App\Models\Blog;
 use App\Models\BlogCategory;
 use App\Models\Tag;
-use Illuminate\Http\Client\Request;
+use App\Models\WebsiteLead;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use PHPMailer\PHPMailer\Exception;
 use PHPMailer\PHPMailer\PHPMailer;
@@ -24,10 +25,12 @@ class MainController extends Controller
 
     public function sendMail(Request $request)
     {
-        $request->validate([
+        // dd('hello man');
+        $validated = $request->validate([
             'form_name' => 'required|string|max:50',
             'form_email' => 'required|email|max:100',
             'form_phone' => 'nullable|max:20',
+            'form_subject' => 'nullable|string|max:100',
             'form_message' => 'required|max:1000',
             'website' => 'nullable',
         ]);
@@ -45,6 +48,15 @@ class MainController extends Controller
                 'message' => 'Bot detected',
             ], 422);
         }
+
+        /** ✅ STORE LEAD IN DATABASE **/
+        WebsiteLead::create([
+            'name' => $validated['form_name'],
+            'email' => $validated['form_email'],
+            'phone' => $validated['form_phone'] ?? null,
+            'subject' => $validated['form_subject'] ?? null,
+            'message' => $validated['form_message'],
+        ]);
         $mail = new PHPMailer(true);
 
         try {
@@ -62,7 +74,7 @@ class MainController extends Controller
             $mail->addBCC('supritdagade77@gmail.com');
             $mail->isHTML(true);
             $mail->Subject = 'New Website Enquiry';
-            $mail->Body = nl2br($request->form_message);
+            $mail->Body = nl2br($validated['form_message']);
             $mail->send();
 
             return response()->json([
@@ -350,6 +362,7 @@ class MainController extends Controller
 
         return view('frontend.materials.monel.index', compact('blogs'));
     }
+
     public function monelGrade($slug)
     {
         // Blogs
@@ -378,6 +391,7 @@ class MainController extends Controller
 
         return view('frontend.materials.incoloy.index', compact('blogs'));
     }
+
     public function incoloyGrade($slug)
     {
         // Blogs
@@ -406,6 +420,7 @@ class MainController extends Controller
 
         return view('frontend.materials.nickel-based-superalloys.index', compact('blogs'));
     }
+
     public function nickelBasedSuperalloysGrade($slug)
     {
         // Blogs
@@ -434,6 +449,7 @@ class MainController extends Controller
 
         return view('frontend.materials.inconel.index', compact('blogs'));
     }
+
     public function inconelGrade($slug)
     {
         // Blogs
@@ -462,6 +478,7 @@ class MainController extends Controller
 
         return view('frontend.materials.titanium.index', compact('blogs'));
     }
+
     public function titaniumGrade($slug)
     {
         // Blogs
@@ -493,7 +510,8 @@ class MainController extends Controller
 
         return view('frontend.materials.aluminium-alloys.index', compact('blogs'));
     }
-     public function aluminiumAlloysGrade($slug)
+
+    public function aluminiumAlloysGrade($slug)
     {
         // Blogs
         $blogCategories = BlogCategory::where('status', 1)
@@ -521,6 +539,7 @@ class MainController extends Controller
 
         return view('frontend.materials.super-austenitic-stainless-steel.index', compact('blogs'));
     }
+
     public function superAusteniticStainlessSteelGrade($slug)
     {
         // Blogs
@@ -550,6 +569,7 @@ class MainController extends Controller
         return view('frontend.materials.hard-to-find-special-alloys.index', compact('blogs'));
 
     }
+
     public function hardToFindAndSpecialAlloysGrade($slug)
     {
         // Blogs
@@ -579,6 +599,7 @@ class MainController extends Controller
         return view('frontend.materials.austenitic-stainless-steel.index', compact('blogs'));
 
     }
+
     public function austeniticStainlessSteelGrade($slug)
     {
         // Blogs
@@ -636,6 +657,7 @@ class MainController extends Controller
 
         return view('frontend.materials.copper-alloys.index', compact('blogs'));
     }
+
     public function copperAlloysGrade($slug)
     {
         // Blogs
@@ -664,6 +686,7 @@ class MainController extends Controller
 
         return view('frontend.materials.zirconium.index', compact('blogs'));
     }
+
     public function zirconiumGrade($slug)
     {
         // Blogs
@@ -692,6 +715,7 @@ class MainController extends Controller
 
         return view('frontend.materials.haynes-superalloys.index', compact('blogs'));
     }
+
     public function haynesSuperalloysGrade($slug)
     {
         // Blogs
@@ -720,6 +744,7 @@ class MainController extends Controller
 
         return view('frontend.materials.duplex-and-super-duplex.index', compact('blogs'));
     }
+
     public function duplexAndSuperDuplexGrade($slug)
     {
         // Blogs
@@ -748,6 +773,7 @@ class MainController extends Controller
 
         return view('frontend.materials.high-strength-stainless-steel.index', compact('blogs'));
     }
+
     public function highStrengthStainlessSteelGrade($slug)
     {
         // Blogs

@@ -601,10 +601,13 @@
                                 <ul class="footer-list">
                                     <li><a href="{{ route('products.pipes-tubes') }}">PIPES & TUBES</a>
                                     </li>
-                                    <li><a href="{{ route('products.sheets-plates-coils') }}">SHEETS, PLATES & COILS</a></li>
+                                    <li><a href="{{ route('products.sheets-plates-coils') }}">SHEETS, PLATES &
+                                            COILS</a></li>
                                     <li><a href="{{ route('products.bars-rods') }}">BARS & RODS</a></li>
-                                    <li><a href="{{ route('products.pipe-fittings-flanges-fasteners') }}">PIPE FITTINGS, FLANGES & FASTENERS</a></li>
-                                    <li><a href="{{ route('products.special-fabricated') }}">SPECIAL FABRICATED</a></li>
+                                    <li><a href="{{ route('products.pipe-fittings-flanges-fasteners') }}">PIPE
+                                            FITTINGS, FLANGES & FASTENERS</a></li>
+                                    <li><a href="{{ route('products.special-fabricated') }}">SPECIAL FABRICATED</a>
+                                    </li>
                                     {{-- <li><a
                                             href="{{ route('products.pipe-fittings-flanges-fasteners') }}">FASTENERS</a>
                                     </li> --}}
@@ -618,16 +621,15 @@
                                 <h3 class="footer-title">Materials</h3>
                                 <ul class="footer-list">
                                     <li><a href="{{ route('materials.hastelloy') }}">HASTELLOY</a></li>
-                                    <li><a
-                                            href="{{ route('materials.austenitic-stainless-Steel') }}">AUSTENTIC STAINLESS STEEL</a>
+                                    <li><a href="{{ route('materials.austenitic-stainless-Steel') }}">AUSTENTIC
+                                            STAINLESS STEEL</a>
                                     </li>
-                                    <li><a
-                                            href="{{ route('materials.engineering-Steels') }}">ENGINEERING STEELS</a>
+                                    <li><a href="{{ route('materials.engineering-Steels') }}">ENGINEERING STEELS</a>
                                     </li>
-                                    <li><a
-                                            href="{{ route('materials.copper-Alloys') }}">COPPER ALLOYS</a>
+                                    <li><a href="{{ route('materials.copper-Alloys') }}">COPPER ALLOYS</a>
                                     </li>
-                                    <li><a href="{{ route('materials.nickel-Based-Superalloys') }}">NICKEL BASED SUPERALLOYS</a></li>
+                                    <li><a href="{{ route('materials.nickel-Based-Superalloys') }}">NICKEL BASED
+                                            SUPERALLOYS</a></li>
                                     <li><a href="{{ route('materials.inconel') }}">INCONEL</a></li>
                                 </ul>
 
@@ -788,7 +790,7 @@
 
         <!-- Contact Form Modal -->
         <!-- Contact Form Modal -->
-        {{-- <div class="modal fade" id="contactFormModal" tabindex="-1" role="dialog"
+        <div class="modal fade" id="contactFormModal" tabindex="-1" role="dialog"
             aria-labelledby="contactFormModalLabel" aria-hidden="true" style="z-index: 2000;">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content p-3" style="z-index:2001;">
@@ -824,8 +826,7 @@
                                         placeholder="Phone">
                                 </div>
                                 <div class="col-md-12 mb-3">
-                                    <input class="form-control" type="text" name="form_subject"
-                                        placeholder="Subject">
+                                    <input class="form-control" type="text" name="  " placeholder="Subject">
                                 </div>
                                 <div class="col-md-12 mb-3">
                                     <textarea name="form_message" class="form-control" placeholder="Your Message.." required></textarea>
@@ -843,7 +844,7 @@
 
                 </div>
             </div>
-        </div> --}}
+        </div>
 
 
 
@@ -1012,12 +1013,12 @@
             });
         </script>
         <script>
-            document.addEventListener("DOMContentLoaded", function() {
-                setTimeout(function() {
-                    var contactModal = new bootstrap.Modal(document.getElementById('contactFormModal'));
-                    contactModal.show();
-                }, 1000);
-            });
+            // document.addEventListener("DOMContentLoaded", function() {
+            //     setTimeout(function() {
+            //         var contactModal = new bootstrap.Modal(document.getElementById('contactFormModal'));
+            //         contactModal.show();
+            //     }, 10000);
+            // });
         </script>
 
 
