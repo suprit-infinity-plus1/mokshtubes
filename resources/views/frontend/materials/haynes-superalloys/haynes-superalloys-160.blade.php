@@ -18,10 +18,14 @@
                 <div class="col-auto text-center">
                     <h1>Haynes Superalloy 160 <br> High Strength Heat & Corrosion Resistance</h1>
 
-                     <!-- Add your extra content here -->
+                    <!-- Add your extra content here -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                      Haynes Superalloy 160 is a high-performance nickel-based alloy engineered for exceptional strength, oxidation resistance, and corrosion protection at elevated temperatures. It delivers excellent thermal stability, wear resistance, and durability, making it well suited for gas turbines, aerospace components, chemical processing equipment, and other demanding high-heat industrial applications.
+                        Haynes Superalloy 160 is a high-performance nickel-based alloy engineered for exceptional strength,
+                        oxidation resistance, and corrosion protection at elevated temperatures. It delivers excellent
+                        thermal stability, wear resistance, and durability, making it well suited for gas turbines,
+                        aerospace components, chemical processing equipment, and other demanding high-heat industrial
+                        applications.
 
                     </p>
                     <!-- End extra content -->
@@ -31,7 +35,7 @@
         </div>
     </section>
 
-     <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
         <div class="container">
             <a href="#overview">Overview</a> |
             <a href="#composition">Chemical Composition</a> |
@@ -40,11 +44,11 @@
             <a href="#price">Advantages</a> |
             <a href="#applications">Applications</a> |
             <a href="#faq">FAQ</a> |
-            <a href="#contact us">Contact Us</a>
+            <a href="#contact-us">Contact Us</a>
         </div>
     </div>
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -131,14 +135,72 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>HAYNES 160® Specifications (UNS N07160 / Alloy 160)</h2>
             </div>
 
             <div class="row justify-content-center">
                 <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Category</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Grade</td>
+                                    <td>Haynes 160® / Alloy 160 / UNS N07160</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Type</td>
+                                    <td>Nickel–Chromium–Iron High-Temperature Alloy</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Forms Available</td>
+                                    <td>Hot Rolled, Cold Rolled, Annealed</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Heat Treatment</td>
+                                    <td>Solution Annealed</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Testing</td>
+                                    <td>Tensile, Hardness, Chemical, PMI, UT</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Certification</td>
+                                    <td>EN 10204 3.1 / 3.2</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Standards</td>
+                                    <td>ASTM B435, B572, B619, B622, B626</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chemical Composition -->
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of HAYNES 160®</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <p class="text-center mb-3">
+                        The alloy’s performance is driven by its carefully controlled chemistry.
+                    </p>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -149,43 +211,43 @@
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Nickel</td>
+                                    <td>Nickel (Ni)</td>
                                     <td>Balance</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Chromium</td>
+                                    <td>Chromium (Cr)</td>
                                     <td>22.0 – 24.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Iron</td>
+                                    <td>Iron (Fe)</td>
                                     <td>17.0 – 20.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Manganese</td>
+                                    <td>Manganese (Mn)</td>
                                     <td>≤ 1.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Silicon</td>
+                                    <td>Silicon (Si)</td>
                                     <td>≤ 0.35</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Carbon</td>
+                                    <td>Carbon (C)</td>
                                     <td>≤ 0.10</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Aluminum</td>
+                                    <td>Aluminum (Al)</td>
                                     <td>≤ 0.30</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Titanium</td>
+                                    <td>Titanium (Ti)</td>
                                     <td>≤ 0.30</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Phosphorus</td>
+                                    <td>Phosphorus (P)</td>
                                     <td>≤ 0.015</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Sulfur</td>
+                                    <td>Sulfur (S)</td>
                                     <td>≤ 0.015</td>
                                 </tr>
                             </tbody>
@@ -196,36 +258,36 @@
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Physical Properties -->
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color:#174268;">Technical Composition of HAYNES 160®</h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <h3 class="text-center mb-3" style="color: #db7227;">Physical Properties of HAYNES 160®
+                    </h3>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
                                     <th>Property</th>
-                                    <th>Imperial</th>
-                                    <th>Metric</th>
+                                    <th>Imperial Units</th>
+                                    <th>Metric Units</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
                                     <td>Density</td>
                                     <td>0.304 lb/in³</td>
-                                    <td>8.43 g/cm³ </td>
+                                    <td>8.43 g/cm³</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Melting Point</td>
-                                    <td>2560–2700 °F</td>
-                                    <td>1404–1482 °C</td>
+                                    <td>Melting Range</td>
+                                    <td>2560 – 2700 °F</td>
+                                    <td>1404 – 1482 °C</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Specific Heat</td>
@@ -233,13 +295,8 @@
                                     <td>502 J/kg·°C</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Curie Temperature</td>
-                                    <td>—</td>
-                                    <td>—</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Magnetic Permeability at 200 oersteds (15.9 kA/m)</td>
-                                    <td>1.02</td>
+                                    <td>Magnetic Permeability</td>
+                                    <td>~1.02</td>
                                     <td>—</td>
                                 </tr>
                             </tbody>
@@ -248,82 +305,216 @@
                 </div>
             </div>
 
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+            <!-- Heat Treatment -->
+            <div class="row justify-content-center mt-5" id="heat-treatment">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color:#db7227;">
+                        Heat Treatment of HAYNES 160® (UNS N07160)
+                    </h4>
+
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Plate (Annealed)</th>
-                                    <th>Bar/Rod (Annealed)</th>
-                                    <th>Sheet (Annealed)</th>
-                                    <th>Tube/Cold‑drawn</th>
+                                    <th>Process</th>
+                                    <th>Temperature Range</th>
+                                    <th>Cooling Method</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Tensile Strength (ksi / MPa)</td>
-                                    <td>112 ksi / 774 MPa</td>
-                                    <td>111 ksi / 767 MPa</td>
-                                    <td>110 ksi / 758 MPa</td>
-                                    <td>111 ksi / 767 MPa</td>
-                                </tr>
-                                {{-- <tr class="t-row">
-                                    <td>Tensile Strength (MPa)</td>
-                                    <td>379</td>
-                                    <td>207</td>
-                                    <td>172</td>
-                                    <td>138</td>
-                                    <td>124</td>
-                                    <td>117</td>
-                                </tr> --}}
-                                <tr class="t-row">
-                                    <td>Yield Strength (0.2%) (ksi / MPa)</td>
-                                    <td>46 ksi / 321 MPa</td>
-                                    <td>45 ksi / 314 MPa</td>
-                                    <td>51 ksi / 353 MPa</td>
-                                    <td>45 ksi / 314 MPa</td>
-                                </tr>
-                                {{-- <tr class="t-row">
-                                    <td>Yield Strength (MPa)</td>
-                                    <td>207</td>
-                                    <td>124</td>
-                                    <td>103</td>
-                                    <td>83</td>
-                                    <td>69</td>
-                                    <td>62</td>
-                                </tr> --}}
-                                <tr class="t-row">
-                                    <td>Elongation (%)</td>
-                                    <td>66 %</td>
-                                    <td>68 %</td>
-                                    <td>63–68 %</td>
-                                    <td>68 %</td>
+                                    <td>Solution Annealing</td>
+                                    <td>2150–2250 °F (1175–1230 °C)</td>
+                                    <td>Rapid air cool or water quench</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Reduction of Area (%)</td>
-                                    <td>73 %</td>
-                                    <td>–</td>
-                                    <td>–</td>
-                                    <td>–</td>
+                                    <td>Stress Relieving</td>
+                                    <td>1500–1700 °F (815–925 °C)</td>
+                                    <td>Air cool</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Modulus of Elasticity (GPa)</td>
-                                    <td>211 GPa</td>
-                                    <td>211 GPa</td>
-                                    <td>sheet same as plate</td>
-                                    <td>–</td>
+                                    <td>Weld Annealing</td>
+                                    <td>2150 °F (1175 °C)</td>
+                                    <td>Recommended after welding</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Aging Treatment</td>
+                                    <td>Not required</td>
+                                    <td>Naturally stable alloy</td>
                                 </tr>
                             </tbody>
                         </table>
+
+                        <p class="mt-3 text-center">
+                            📌 HAYNES 160® is typically supplied in the annealed condition and does not require
+                            precipitation hardening.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color:#174268;">
+                    Mechanical Properties of HAYNES 160® (Annealed)
+                </h2>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Plate</th>
+                            <th>Bar / Rod</th>
+                            <th>Sheet</th>
+                            <th>Tube (Cold Drawn)</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Tensile Strength</td>
+                            <td>112 ksi / 774 MPa</td>
+                            <td>111 ksi / 767 MPa</td>
+                            <td>110 ksi / 758 MPa</td>
+                            <td>111 ksi / 767 MPa</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Yield Strength (0.2%)</td>
+                            <td>46 ksi / 321 MPa</td>
+                            <td>45 ksi / 314 MPa</td>
+                            <td>51 ksi / 353 MPa</td>
+                            <td>45 ksi / 314 MPa</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elongation</td>
+                            <td>66%</td>
+                            <td>68%</td>
+                            <td>63 – 68%</td>
+                            <td>~68%</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Reduction of Area</td>
+                            <td>73%</td>
+                            <td>—</td>
+                            <td>—</td>
+                            <td>—</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Modulus of Elasticity</td>
+                            <td>211 GPa</td>
+                            <td>211 GPa</td>
+                            <td>Same as plate</td>
+                            <td>—</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Forms -->
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center mt-5">
+                <h2>Available Forms & Size Range – HAYNES 160®</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <table class="table table-bordered table-striped align-middle">
+                        <thead class="table-dark text-center">
+                            <tr class="t-row">
+                                <th>Product Form</th>
+                                <th>Size Range / Description</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">
+                            <tr class="t-row">
+                                <td>Round Bars</td>
+                                <td>6 mm – 200 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Sheets & Plates</td>
+                                <td>0.5 – 50 mm, width up to 2000 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Coils & Strips</td>
+                                <td>0.1 – 6 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Pipes & Tubes</td>
+                                <td>OD 6 – 219 mm, WT 1 – 18 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Welding Rods & Wire</td>
+                                <td>0.8 – 5 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Forged Components</td>
+                                <td>Custom per drawing</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Fittings & Flanges</td>
+                                <td>All ASME classes</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- International Standards -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Equivalent Grades of HAYNES 160®</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>N07160</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>W.Nr.</td>
+                            <td>2.4060 (Reference)</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>B435, B572, B619, B622, B626</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASME</td>
+                            <td>SB435, SB572, SB619, SB622, SB626</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ISO</td>
+                            <td>NiCrFe Alloy</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Trade Name</td>
+                            <td>Haynes® 160®</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
 
 
     @php
@@ -382,7 +573,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Haynes Superalloys 160</h2>
@@ -441,7 +632,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -493,7 +684,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications"  class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Haynes Superalloys 160</h2>
@@ -609,8 +800,27 @@
         </div>
     </section>
 
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>Haynes 160® Price Per Kg in India</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹3,800 – ₹10,500 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -710,9 +920,9 @@
     </section>
     <!--End faq content area-->
 
-    
+
     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -768,7 +978,7 @@
     {{-- blog section end --}}
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section  id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

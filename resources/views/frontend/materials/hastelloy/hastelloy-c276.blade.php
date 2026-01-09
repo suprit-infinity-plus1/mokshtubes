@@ -36,7 +36,7 @@
     </section>
     <!--End breadcrumb area-->
 
-    .
+    <!-- Start Material Tabs -->
     <div class="sticky-top bg-white border-bottom material-tabs  w-100">
         <div class="container">
             <a href="#overview">Overview</a> |
@@ -49,8 +49,9 @@
             <a href="#contact us">Contact Us</a>
         </div>
     </div>
+    <!-- End Material Tabs -->
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section  id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -398,7 +399,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products"  class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Hastelloy C276</h2>
@@ -467,7 +468,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -513,7 +514,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Hastelloy C276</h2>
@@ -665,8 +666,27 @@
         </div>
     </section>
 
+        <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2> Hastelloy C276 Price in India</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹2,000 – ₹4,500
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -836,7 +856,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section class="sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

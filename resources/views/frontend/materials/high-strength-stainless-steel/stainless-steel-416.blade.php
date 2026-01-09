@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Stainless Steel 416 | Mokshtubes Precision Alloy Suppliers')
-@section('meta_description', 'High-quality Stainless Steel 416 from Mokshtubes with superior machinability, corrosion
+@section('meta_description',
+    'High-quality Stainless Steel 416 from Mokshtubes with superior machinability, corrosion
     resistance & toughness for automotive, tooling & industrial needs.')
-@section('meta_keywords', 'Stainless Steel 416, AISI 416, UNS S41600, martensitic stainless steel, free-machining
+@section('meta_keywords',
+    'Stainless Steel 416, AISI 416, UNS S41600, martensitic stainless steel, free-machining
     stainless steel, stainless steel bars, stainless steel rods, precision alloy suppliers, corrosion-resistant stainless
     steel, high-strength stainless steel, automotive stainless steel, tooling stainless steel')
 @section('og_image', asset('assets/images/high-strength-stainless-steel/416-Stainless-Steel.jpeg'))
@@ -22,8 +24,21 @@
         </div>
     </section>
 
+    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+        <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact-us">Contact Us</a>
+        </div>
+    </div>
+
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -116,10 +131,82 @@
     </section>
     <!-- End Datasheet -->
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Stainless Steel 416 Chemical Composition</h2>
+                <h2>Material Summary – SS 416 / UNS S41600</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Property</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Material Type</td>
+                                    <td>Martensitic Stainless Steel</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Free-Machining Grade</td>
+                                    <td>Yes (Sulfur Added)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>UNS Designation</td>
+                                    <td>S41600</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>AISI / Equivalent</td>
+                                    <td>416</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Chromium Content</td>
+                                    <td>12.0 – 14.0 %</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Heat Treatable</td>
+                                    <td>✔ Yes</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Machinability</td>
+                                    <td>Excellent (Best among SS grades)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Corrosion Resistance</td>
+                                    <td>Moderate</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Magnetic Property</td>
+                                    <td>Magnetic</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Typical Density</td>
+                                    <td>~7.75 g/cm³</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <p class="mt-3 text-center">
+                            👉 Sulfur improves machinability significantly, but slightly reduces corrosion resistance
+                            compared to grades like 410.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chemical Composition -->
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of Stainless Steel 416</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -133,65 +220,61 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Carbon (C)</td>
                                     <td>0.15 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Manganese (Mn)</td>
                                     <td>1.25 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Silicon (Si)</td>
                                     <td>1.00 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Phosphorus (P)</td>
                                     <td>0.060 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Sulfur (S)</td>
                                     <td>0.15 min</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Chromium (Cr)</td>
                                     <td>12.0 – 14.0</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Molybdenum (Mo)</td>
                                     <td>0.60 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Nickel (Ni)</td>
                                     <td>0.60 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Iron (Fe)</td>
                                     <td>Balance</td>
                                 </tr>
                             </tbody>
                         </table>
-                        <p class="fs-6 text-center mt-3">
-                            Sulfur content is the key to its excellent machinability but also makes it less
-                            corrosion-resistant
-                            than other martensitic grades like 410.
-                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Physical Properties -->
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color:#174268;">Technical Composition of Stainless Steel 416</h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                     <h3 class="text-center mb-3" style="color: #db7227;">Physical Properties of Stainless Steel 416
+                    </h3>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -201,27 +284,27 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Density</td>
                                     <td>7.75 g/cm³</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Melting Point</td>
                                     <td>1480 – 1530 °C</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Modulus of Elasticity</td>
                                     <td>200 GPa</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Thermal Conductivity</td>
-                                    <td>24.9 W/m·K (at 100 °C)</td>
+                                    <td>24.9 W/m·K (100 °C)</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Electrical Resistivity</td>
                                     <td>0.55 µΩ·m</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Magnetic Properties</td>
                                     <td>Magnetic (Martensitic)</td>
                                 </tr>
@@ -231,69 +314,222 @@
                 </div>
             </div>
 
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties of Stainless Steel 416</h4>
+            <!-- Heat Treatment -->
+            <div class="row justify-content-center mt-5" id="heat-treatment">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color:#db7227;">
+                        Heat Treatment & Hardening Cycle – SS 416
+                    </h4>
+
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Condition</th>
-                                    <th>Property</th>
-                                    <th>Metric</th>
-                                    <th>Imperial</th>
+                                    <th>Process</th>
+                                    <th>Temperature Range</th>
+                                    <th>Purpose</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
-                                    <td>Annealed</td>
-                                    <td>Tensile Strength</td>
-                                    <td>550 – 700 MPa</td>
-                                    <td>80,000 – 100,000 psi</td>
+                                <tr class="t-row">
+                                    <td>Annealing</td>
+                                    <td>840 – 900 °C</td>
+                                    <td>Improves machinability</td>
                                 </tr>
-                                <tr>
-                                    <td>Annealed</td>
-                                    <td>Yield Strength (0.2%)</td>
-                                    <td>275 MPa</td>
-                                    <td>40,000 psi</td>
+                                <tr class="t-row">
+                                    <td>Hardening (Austenitizing)</td>
+                                    <td>980 – 1050 °C</td>
+                                    <td>Forms martensitic structure</td>
                                 </tr>
-                                <tr>
-                                    <td>Annealed</td>
-                                    <td>Elongation</td>
-                                    <td>20%</td>
-                                    <td>20%</td>
+                                <tr class="t-row">
+                                    <td>Quenching</td>
+                                    <td>Oil / Air</td>
+                                    <td>Achieves hardness</td>
                                 </tr>
-                                <tr>
-                                    <td>Annealed</td>
-                                    <td>Hardness (Brinell)</td>
-                                    <td>170 – 200 HB</td>
-                                    <td>170 – 200 HB</td>
+                                <tr class="t-row">
+                                    <td>Tempering</td>
+                                    <td>200 – 400 °C</td>
+                                    <td>Balances hardness & toughness</td>
                                 </tr>
-                                <tr>
-                                    <td>Hardened</td>
-                                    <td>Tensile Strength</td>
-                                    <td>Up to 850 MPa</td>
-                                    <td>Up to 123,000 psi</td>
-                                </tr>
-                                <tr>
-                                    <td>Hardened</td>
-                                    <td>Hardness (Rockwell C)</td>
-                                    <td>35 – 45 HRC</td>
-                                    <td>35 – 45 HRC</td>
+                                <tr class="t-row">
+                                    <td>Stress Relieving</td>
+                                    <td>600 – 650 °C</td>
+                                    <td>Reduces residual stresses</td>
                                 </tr>
                             </tbody>
                         </table>
-                        <p class="fs-6 text-center mt-3">
-                            Stainless Steel 416 responds well to hardening, tempering, and annealing, making it versatile
-                            for a
-                            range of mechanical applications.
+
+                        <p class="mt-3 text-center">
+                            📌 SS 416 is selected primarily for machinability; heat treatment improves hardness but not
+                            corrosion resistance.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color:#174268;">
+                    Mechanical Properties of Stainless Steel 416
+                </h2>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Metric</th>
+                            <th>Imperial</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Tensile Strength (Annealed)</td>
+                            <td>550 – 700 MPa</td>
+                            <td>80,000 – 100,000 psi</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Yield Strength (0.2%)</td>
+                            <td>275 MPa</td>
+                            <td>40,000 psi</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elongation</td>
+                            <td>20%</td>
+                            <td>20%</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Hardness (Annealed)</td>
+                            <td>170 – 200 HB</td>
+                            <td>170 – 200 HB</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Hardness (Hardened)</td>
+                            <td>35 – 45 HRC</td>
+                            <td>35 – 45 HRC</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p class="mt-3 text-center">
+                    👉 SS 416 responds well to annealing, hardening, and tempering, making it versatile for high-speed
+                    machining applications.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Forms -->
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center mt-5">
+                <h2>Available Forms & Size Range – Stainless Steel 416</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <table class="table table-bordered table-striped align-middle">
+                        <thead class="table-dark text-center">
+                            <tr class="t-row">
+                                <th>Product Form</th>
+                                <th>Typical Size Range</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">
+                            <tr class="t-row">
+                                <td>Round Bars / Rods</td>
+                                <td>Ø6 mm – Ø450 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Flat Bars</td>
+                                <td>5 – 120 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Sheets & Plates</td>
+                                <td>0.5 – 80 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Coils & Strips</td>
+                                <td>0.3 – 6 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Pipes & Tubes</td>
+                                <td>OD 6 – 610 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Fasteners</td>
+                                <td>M6 – M72</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Forged Components</td>
+                                <td>As per drawing</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Precision Machined Parts</td>
+                                <td>CNC / Turned</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- International Standards -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades – SS 416</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>S41600</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>AISI</td>
+                            <td>416</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>EN</td>
+                            <td>1.4005</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>DIN</td>
+                            <td>X12CrS13</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>A276, A582, A479</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>JIS</td>
+                            <td>SUS 416</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ISO</td>
+                            <td>X12CrS13</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
 
 
     @php
@@ -352,7 +588,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products"  class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Stainless Steel 416</h2>
@@ -459,7 +695,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -511,7 +747,7 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Stainless Steel 416</h2>
@@ -622,8 +858,27 @@
         </div>
     </section>
 
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>Stainless Steel 416 Price per kg in India</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹240 – ₹620 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12">
@@ -709,8 +964,8 @@
     </section>
     <!--End faq content area-->
 
-     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    {{-- blog section start --}}
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -767,7 +1022,7 @@
 
 
     <!-- Contact Section -->
-    <section class="sec-padd-bottom">
+    <section id="contact-us"  class="sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

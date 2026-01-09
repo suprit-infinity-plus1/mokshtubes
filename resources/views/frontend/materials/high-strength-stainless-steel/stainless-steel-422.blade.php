@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'Stainless Steel 422 | Mokshtubes Fittings Exporter')
-@section('meta_description', 'Stainless Steel 422 fittings & fasteners from Mokshtubes – corrosion-resistant, durable,
+@section('meta_description',
+    'Stainless Steel 422 fittings & fasteners from Mokshtubes – corrosion-resistant, durable,
     and strong for engineering and industrial applications.')
-@section('meta_keywords', 'Stainless Steel 422, Stainless Steel 422 Fittings, Stainless Steel 422 Fasteners, Stainless
+@section('meta_keywords',
+    'Stainless Steel 422, Stainless Steel 422 Fittings, Stainless Steel 422 Fasteners, Stainless
     Steel 422 Supplier, Stainless Steel 422 Exporter, Stainless Steel 422 Stockist, Stainless Steel 422 Manufacturer')
 @section('og_image', asset('assets/images/high-strength-stainless-steel/Stainless-Steel-422.webp'))
 @section('og_type', 'article')
@@ -21,8 +23,20 @@
         </div>
     </section>
     <!--End breadcrumb area-->
+      <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+        <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact-us">Contact Us</a>
+        </div>
+    </div>
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -121,11 +135,82 @@
     </section>
     <!-- End Datasheet -->
 
-
-    <section class="sec-padd-top sec-padd-bottom">
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Stainless Steel 422 Chemical Composition</h2>
+                <h2>Material Summary – SS 422 / UNS S42200</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Property</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Material Type</td>
+                                    <td>Martensitic Stainless Steel</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>UNS Designation</td>
+                                    <td>S42200</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>AISI</td>
+                                    <td>422</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>EN Equivalent</td>
+                                    <td>X20CrMoV12-1</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Heat Treatable</td>
+                                    <td>✔ Yes (Quench & Temper)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Strength Level</td>
+                                    <td>High (Elevated Temperature Capable)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Corrosion Resistance</td>
+                                    <td>Moderate (Better than SS 410 / 420)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Oxidation Resistance</td>
+                                    <td>Good up to ~600 °C</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Magnetic Property</td>
+                                    <td>Magnetic</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Typical Density</td>
+                                    <td>~7.75 g/cm³</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <p class="mt-3 text-center">
+                            👉 SS 422 is designed for high-temperature service, maintaining strength and toughness after
+                            high-temperature tempering.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chemical Composition -->
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of Stainless Steel 422</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -139,51 +224,148 @@
                                 </tr>
                             </thead>
                             <tbody class="text-center">
-                                <tr>
+                                <tr class="t-row">
                                     <td>Chromium (Cr)</td>
                                     <td>11.0 – 13.0</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Carbon (C)</td>
                                     <td>0.20 – 0.25</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Manganese (Mn)</td>
                                     <td>1.00 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Silicon (Si)</td>
                                     <td>1.00 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Nickel (Ni)</td>
                                     <td>0.50 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Phosphorus (P)</td>
                                     <td>0.04 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Sulfur (S)</td>
                                     <td>0.03 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Molybdenum (Mo)</td>
                                     <td>0.50 max</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Vanadium (V)</td>
                                     <td>0.20 – 0.50</td>
                                 </tr>
-                                <tr>
+                                <tr class="t-row">
                                     <td>Iron (Fe)</td>
                                     <td>Balance</td>
                                 </tr>
                             </tbody>
                         </table>
-                        <p class="fs-6 text-center mt-3">
-                            Vanadium addition enhances grain refinement, improving strength and creep resistance at high
-                            temperatures.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Physical Properties -->
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color:#174268;">Technical Composition of Stainless Steel 422</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                      <h3 class="text-center mb-3" style="color: #db7227;">Physical Properties of Stainless Steel 422
+                    </h3>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Property</th>
+                                    <th>Value</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr class="t-row">
+                                    <td>Density</td>
+                                    <td>7.75 g/cm³</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Melting Point</td>
+                                    <td>1425 – 1510 °C</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Modulus of Elasticity</td>
+                                    <td>200 GPa</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Magnetic Properties</td>
+                                    <td>Magnetic (Martensitic)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Condition</td>
+                                    <td>Heat treated and tempered</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Heat Treatment -->
+            <div class="row justify-content-center mt-5" id="heat-treatment">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color:#db7227;">
+                        Heat Treatment & Hardening Cycle – SS 422
+                    </h4>
+
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Process</th>
+                                    <th>Temperature Range</th>
+                                    <th>Purpose</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr class="t-row">
+                                    <td>Annealing</td>
+                                    <td>840 – 900 °C</td>
+                                    <td>Improves machinability</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Hardening (Austenitizing)</td>
+                                    <td>1000 – 1050 °C</td>
+                                    <td>Prepares martensitic structure</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Quenching</td>
+                                    <td>Oil / Air</td>
+                                    <td>Achieves high hardness</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Tempering</td>
+                                    <td>650 – 750 °C</td>
+                                    <td>Improves toughness & creep resistance</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Stress Relieving</td>
+                                    <td>600 – 650 °C</td>
+                                    <td>Reduces residual stresses</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <p class="mt-3 text-center">
+                            📌 SS 422 is engineered to retain strength after high-temperature tempering, unlike conventional
+                            martensitic grades.
                         </p>
                     </div>
                 </div>
@@ -191,98 +373,166 @@
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color:#174268;">
+                    Mechanical Properties of Stainless Steel 422
+                </h2>
             </div>
 
-            <!-- Physical Properties -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr>
-                                    <th>Property</th>
-                                    <th>Value</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr>
-                                    <td>Density</td>
-                                    <td>7.75 g/cm³</td>
-                                </tr>
-                                <tr>
-                                    <td>Melting Point</td>
-                                    <td>1425–1510 °C (2600–2750 °F)</td>
-                                </tr>
-                                <tr>
-                                    <td>Modulus of Elasticity</td>
-                                    <td>200 GPa (29,000 ksi)</td>
-                                </tr>
-                                <tr>
-                                    <td>Magnetic Properties</td>
-                                    <td>Magnetic (Martensitic)</td>
-                                </tr>
-                                <tr>
-                                    <td>Condition</td>
-                                    <td>Can be heat treated and tempered</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Metric</th>
+                            <th>Imperial</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Tensile Strength</td>
+                            <td>655 – 965 MPa</td>
+                            <td>95,000 – 140,000 psi</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Yield Strength (0.2%)</td>
+                            <td>450 – 655 MPa</td>
+                            <td>65,000 – 95,000 psi</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elongation</td>
+                            <td>15 – 20%</td>
+                            <td>15 – 20%</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Hardness (Rockwell C)</td>
+                            <td>38 – 45 HRC</td>
+                            <td>38 – 45 HRC</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Impact Toughness</td>
+                            <td>Good</td>
+                            <td>Good</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p class="mt-3 text-center">
+                    👉 Mechanical properties vary with specific heat treatment cycles and tempering temperatures.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Forms -->
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center mt-5">
+                <h2>Available Forms & Size Range – Stainless Steel 422</h2>
             </div>
 
-            <!-- Mechanical Properties -->
             <div class="row justify-content-center">
                 <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties (Heat Treated Condition)</h4>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr>
-                                    <th>Property</th>
-                                    <th>Metric</th>
-                                    <th>Imperial</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr>
-                                    <td>Tensile Strength</td>
-                                    <td>655 – 965 MPa</td>
-                                    <td>95,000 – 140,000 psi</td>
-                                </tr>
-                                <tr>
-                                    <td>Yield Strength (0.2% Offset)</td>
-                                    <td>450 – 655 MPa</td>
-                                    <td>65,000 – 95,000 psi</td>
-                                </tr>
-                                <tr>
-                                    <td>Elongation at Break</td>
-                                    <td>15 – 20%</td>
-                                    <td>15 – 20%</td>
-                                </tr>
-                                <tr>
-                                    <td>Hardness (Rockwell C)</td>
-                                    <td>38 – 45 HRC</td>
-                                    <td>38 – 45 HRC</td>
-                                </tr>
-                                <tr>
-                                    <td>Impact Toughness</td>
-                                    <td>Good (Heat Treated)</td>
-                                    <td>Good (Heat Treated)</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                    <table class="table table-bordered table-striped align-middle">
+                        <thead class="table-dark text-center">
+                            <tr class="t-row">
+                                <th>Product Form</th>
+                                <th>Typical Size Range</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">
+                            <tr class="t-row">
+                                <td>Round Bars / Rods</td>
+                                <td>Ø6 mm – Ø450 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Flat Bars</td>
+                                <td>6 – 120 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Sheets & Plates</td>
+                                <td>0.5 – 80 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Coils & Strips</td>
+                                <td>0.3 – 6 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Pipes & Tubes</td>
+                                <td>OD 6 – 610 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Forged Components</td>
+                                <td>As per drawing</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Fasteners</td>
+                                <td>M6 – M72</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Precision Machined Parts</td>
+                                <td>CNC / Turned</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- International Standards -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades – SS 422</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>S42200</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>AISI</td>
+                            <td>422</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>EN</td>
+                            <td>1.4923</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>DIN</td>
+                            <td>X20CrMoV12-1</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>A276, A479</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>JIS</td>
+                            <td>SUS 422</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ISO</td>
+                            <td>X20CrMoV12-1</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
 
 
     @php
@@ -341,7 +591,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Stainless Steel 422</h2>
@@ -447,7 +697,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -500,7 +750,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications"  class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Stainless Steel 422</h2>
@@ -620,9 +870,28 @@
         </div>
     </section>
 
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>Stainless Steel 422 Price per kg in India</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹350 – ₹850 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
 
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section  id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12">
@@ -707,8 +976,8 @@
     </section>
     <!--End faq content area-->
 
-     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    {{-- blog section start --}}
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -765,7 +1034,7 @@
 
 
     <!-- Contact Section -->
-    <section class="sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

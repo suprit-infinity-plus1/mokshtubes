@@ -18,14 +18,34 @@
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1>Hastelloy C-4 Alloy <br> UNS N06455 High-Performance Nickel Alloy</h1>
+                    <!-- Add your extra content here -->
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                        High-Temperature & Corrosion-Resistant Nickel-Chromium-Molybdenum Alloy
+                        Hastelloy C-4 is one of the most stable and reliable nickel alloys designed for extreme chemical and
+                        high-temperature environments. Below is the complete datasheet, including chemical composition,
+                        properties, heat treatment, applications, advantages, and more.</p>
+                    <!-- End extra content -->
                 </div>
             </div>
         </div>
     </section>
+    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+        <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact-us">Contact Us</a>
+        </div>
+    </div>
 
 
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -127,10 +147,12 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
+
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Hastelloy C-4 Chemical Composition</h2>
+                <h2>Hastelloy C-4 – Specifications (UNS N06455)</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -139,51 +161,59 @@
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Element</th>
-                                    <th>Composition (%)</th>
+                                    <th>Category</th>
+                                    <th>Details</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-center">
+                            <tbody>
                                 <tr class="t-row">
-                                    <td>Nickel</td>
-                                    <td>65.0 min</td>
+                                    <td>Grade</td>
+                                    <td>Hastelloy C-4 / Alloy C-4 / UNS N06455</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Chromium</td>
-                                    <td>14.5–16.5</td>
+                                    <td>Material Type</td>
+                                    <td>Nickel–Chromium–Molybdenum Alloy</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Molybdenum</td>
-                                    <td>14.0–17.0</td>
+                                    <td>Key Characteristics</td>
+                                    <td>High-temperature stability, excellent corrosion resistance, superior weldability
+                                    </td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Iron</td>
-                                    <td>5.0 max</td>
-                                </tr>
-
-                                <tr class="t-row">
-                                    <td>Cobalt</td>
-                                    <td>2.0 max</td>
+                                    <td>Chemical Summary</td>
+                                    <td>Ni ≥ 65%, Cr 14.5–16.5%, Mo 14–17%</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Manganese</td>
-                                    <td>1 max</td>
+                                    <td>Operating Temperature</td>
+                                    <td>Up to 1040 °C (1900 °F)</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Silicon</td>
-                                    <td>0.08 max</td>
+                                    <td>Available Conditions</td>
+                                    <td>Annealed, Solution Annealed, Hot Rolled, Cold Worked</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Carbon</td>
-                                    <td>0.015 max</td>
+                                    <td>Heat Treatment</td>
+                                    <td>Solution Anneal at 1100–1160 °C with rapid cooling</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Phosphorus</td>
-                                    <td>0.04 max</td>
+                                    <td>Weldability</td>
+                                    <td>Excellent — minimal carbide precipitation</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Sulfur</td>
-                                    <td>0.03 max</td>
+                                    <td>Corrosion Resistance</td>
+                                    <td>Outstanding in hot mineral acids and oxidizing environments</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Testing Offered</td>
+                                    <td>PMI, Chemical Test, Hardness, Tensile, NDT, UT</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Standards</td>
+                                    <td>ASTM B575, B619, B622, B626</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Certification</td>
+                                    <td>EN 10204 3.1 / 3.2</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -193,17 +223,90 @@
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Chemical Composition -->
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
         <div class="container">
-            <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition of Hastelloy C-4</h2>
+            <div class="section-title center">
+                <h2>Chemical Composition of Hastelloy C-4 (UNS N06455)</h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
+            <div class="row justify-content-center">
                 <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties of Hastelloy C-4</h4>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Element</th>
+                                    <th>Content (%)</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr class="t-row">
+                                    <td>Nickel (Ni)</td>
+                                    <td>65.0 min</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Chromium (Cr)</td>
+                                    <td>14.5 – 16.5</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Iron (Fe)</td>
+                                    <td>5.0 max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Molybdenum (Mo)</td>
+                                    <td>14.0 – 17.0</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Cobalt (Co)</td>
+                                    <td>2.0 max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Silicon (Si)</td>
+                                    <td>0.08 max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Manganese (Mn)</td>
+                                    <td>1.0 max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Carbon (C)</td>
+                                    <td>0.015 max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Phosphorus (P)</td>
+                                    <td>0.04 max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Sulfur (S)</td>
+                                    <td>0.03 max</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <p class="mt-3 text-center">
+                            The optimized chromium–molybdenum balance provides exceptional resistance to oxidizing and
+                            reducing acids.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Physical Properties -->
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color:#174268;">
+                    Technical Composition Properties of Hastelloy C-4
+                </h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                     <h3 class="text-center mb-3" style="color: #db7227;">Physical Properties of Hastelloy C-4
+                    </h3>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -219,15 +322,15 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Melting Point</td>
-                                    <td>330°C (2430°F)</td>
+                                    <td>1330 °C (2430 °F)</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Tensile Strength</td>
-                                    <td>100,000 psi / 690 MPa</td>
+                                    <td>690 MPa / 100,000 psi</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (0.2% Offset)</td>
-                                    <td>45,000 psi / 310 MPa</td>
+                                    <td>Yield Strength (0.2%)</td>
+                                    <td>310 MPa / 45,000 psi</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Elongation</td>
@@ -239,49 +342,211 @@
                 </div>
             </div>
 
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties of Hastelloy C-4</h4>
+            <!-- Heat Treatment -->
+            <div class="row justify-content-center mt-5" id="heat-treatment">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color:#db7227;">
+                        Heat Treatment of Hastelloy C-4
+                    </h4>
+
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Metric</th>
-                                    <th>Imperial</th>
+                                    <th>Process</th>
+                                    <th>Temperature Range</th>
+                                    <th>Cooling Method</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Tensile Strength (@thickness 4.80–25.4 mm, 538°C/@thickness 0.189–1.00 in, 1000°F)
-                                    </td>
-                                    <td>690 MPa</td>
-                                    <td>100,000 psi</td>
+                                    <td>Solution Annealing</td>
+                                    <td>1100 – 1160 °C</td>
+                                    <td>Rapid air or water quench</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (0.2% offset, @thickness 2.40 mm, 427°C/@thickness 0.0945 in, 801°F)
-                                    </td>
-                                    <td>310 MPa</td>
-                                    <td>45,000 psi</td>
+                                    <td>Stress Relieving</td>
+                                    <td>870 – 900 °C</td>
+                                    <td>Air cool, hold 1–2 hours</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Elastic Modulus (RT)</td>
-                                    <td>40%</td>
-                                    <td>40%</td>
+                                    <td>Hot Working</td>
+                                    <td>900 – 1200 °C</td>
+                                    <td>Finish above 950 °C, quench afterward</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Hardness, Rockwell B (plate)</td>
-                                    <td>89</td>
-                                    <td>89</td>
+                                    <td>Cold Working</td>
+                                    <td>—</td>
+                                    <td>Annealing required after severe forming</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Post-Weld Heat Treatment</td>
+                                    <td>Optional</td>
+                                    <td>Enhances corrosion resistance</td>
                                 </tr>
                             </tbody>
                         </table>
+
+                        <p class="mt-3 text-center">
+                            Hastelloy C-4 is exceptionally stable at high temperatures, resisting carbide and sigma-phase
+                            precipitation.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color:#174268;">
+                    Mechanical Properties of Hastelloy C-4
+                </h2>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Metric</th>
+                            <th>Imperial</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Tensile Strength</td>
+                            <td>690 MPa</td>
+                            <td>100,000 psi</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Yield Strength (0.2%)</td>
+                            <td>310 MPa</td>
+                            <td>45,000 psi</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elastic Modulus (RT)</td>
+                            <td>205 GPa</td>
+                            <td>29,700 ksi</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elongation (50.8 mm)</td>
+                            <td>40%</td>
+                            <td>40%</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Hardness (Rockwell B)</td>
+                            <td>89</td>
+                            <td>89</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Forms -->
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center mt-5">
+                <h2>Available Forms & Size Range – Hastelloy C-4</h2>
+            </div>
+
+            <div class="table-responsive col-lg-10 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Product Form</th>
+                            <th>Size Range / Description</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Seamless Pipes</td>
+                            <td>6 – 219 mm OD</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Welded Pipes</td>
+                            <td>Custom sizes</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Heat Exchanger / Capillary / U-Bend Tubes</td>
+                            <td>As required</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Sheets & Plates</td>
+                            <td>0.5 – 100 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Coils & Strips</td>
+                            <td>0.1 – 12 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Bars (Round / Flat / Square / Hex)</td>
+                            <td>Up to 300 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Pipe Fittings</td>
+                            <td>ASME / DIN compliant</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Flanges</td>
+                            <td>WN, SO, BL, SW, Threaded</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Fasteners</td>
+                            <td>M3 – M80</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Custom Components</td>
+                            <td>As per drawing</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Standards -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades</h2>
+            </div>
+
+            <div class="table-responsive col-lg-6 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>N06455</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>W.Nr</td>
+                            <td>2.4610</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>B575, B619, B622, B626</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASME</td>
+                            <td>SB575, SB619, SB622, SB626</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
 
 
     @php
@@ -340,7 +605,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Hastelloy C4</h2>
@@ -400,7 +665,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -446,7 +711,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications"  class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Hastelloy C4</h2>
@@ -529,8 +794,27 @@
         </div>
     </section>
 
+      <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>Hastelloy C-4 Price in India</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹2,600 – ₹5,200 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -618,9 +902,9 @@
     </section>
     <!--End faq content area-->
 
-    
+
     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -723,7 +1007,7 @@
 
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
