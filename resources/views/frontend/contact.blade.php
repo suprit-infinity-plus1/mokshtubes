@@ -1,6 +1,7 @@
 @extends('layouts.master')
 @section('title', 'Contact Mokshtubes LLP | Request a Quote or Technical Help')
-@section('meta_description', 'Get in touch with Mokshtubes LLP for quotations, product inquiries, technical assistance,
+@section('meta_description',
+    'Get in touch with Mokshtubes LLP for quotations, product inquiries, technical assistance,
     or custom alloy requirements. Call, email, or visit us for quick support.')
 @section('og_image', asset('assets/images/slides/Mokshtubes-banner-desktop.webp'))
 @section('og_type', 'website')
@@ -177,10 +178,10 @@
                                         Message</button>
 
                                     <!-- ✅ WhatsApp CTA -->
-                                    {{-- <a href="https://wa.me/919769584950" target="_blank"
+                                    <!-- <a href="https://wa.me/919769584950" target="_blank"
                                         class="btn btn-success mt-3 mt-md-0">
                                         💬 Chat on WhatsApp
-                                    </a> --}}
+                                    </a> -->
                                 </div>
                             </div>
                         </form>

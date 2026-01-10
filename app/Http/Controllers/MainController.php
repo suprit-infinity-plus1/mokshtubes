@@ -58,6 +58,21 @@ class MainController extends Controller
             'subject' => $validated['form_subject'] ?? null,
             'message' => $validated['form_message'],
         ]);
+
+        $name = $request->form_name ?? '-';
+        $email = $request->form_email ?? '-';
+        $phone = $request->form_phone ?? '-';
+        $subject = $request->form_subject ?? '-';
+        $message = $request->form_message ?? '-';
+
+        $html = view('frontend.email', compact(
+            'name',
+            'email',
+            'phone',
+            'subject',
+            'message',
+        ))->render();
+        // dd($html);
         $mail = new PHPMailer(true);
 
         try {
@@ -69,25 +84,30 @@ class MainController extends Controller
             $mail->Port = env('MAIL_PORT');
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $mail->SMTPAutoTLS = true;
-            $mail->SMTPDebug = SMTP::DEBUG_SERVER;
+            $mail->SMTPDebug = 0;
+            // $mail->SMTPDebug = SMTP::DEBUG_SERVER;
             $mail->setFrom(env('MAIL_FROM_ADDRESS'), env('MAIL_FROM_NAME'));
-            $mail->addAddress('supritdagade77@gmail.com');
+            $mail->addAddress('siddiquimahfooz327@gmail.com');
             $mail->addBCC('supritdagade77@gmail.com');
+            // $mail->Body = nl2br($validated['form_message']);
             $mail->isHTML(true);
-            $mail->Subject = 'New Website Enquiry';
-            $mail->Body = nl2br($validated['form_message']);
+            $mail->Subject = "You Received {$subject}";
+            $mail->Body = $html;
+            $mail->AltBody = strip_tags($html);
             $mail->send();
 
-            return response()->json([
-                'status' => 'success',
-                'message' => 'Mail sent',
-            ]);
+            // return response()->json([
+            //     'status' => 'success',
+            //     'message' => 'Mail sent',
+            // ]);
+            return redirect()->route('index')
+            ->with('status', 'success')
+            ->with('msg', 'Your message has been sent successfully!');
 
-        } catch (Exception $e) {
-            return response()->json([
-                'status' => 'error',
-                'message' => 'Email sending failed',
-            ], 500);
+        } catch (\Exception $e) {
+            return redirect()->route('index')
+                ->with('status', 'error')
+                ->with('msg', 'Email sending failed.');
         }
     }
 
@@ -99,75 +119,75 @@ class MainController extends Controller
     }
 
     public function exportWebsiteLeads(Request $request)
-{
-    $from = $request->query('from');
-    $to   = $request->query('to');
+    {
+        $from = $request->query('from');
+        $to = $request->query('to');
 
-    // Validate date inputs
-    $request->validate([
-        'from' => 'nullable|date',
-        'to'   => 'nullable|date|after_or_equal:from',
-    ]);
+        // Validate date inputs
+        $request->validate([
+            'from' => 'nullable|date',
+            'to' => 'nullable|date|after_or_equal:from',
+        ]);
 
-    // Build query
-    $query = WebsiteLead::query()->select(
-        'id',
-        'name',
-        'email',
-        'phone',
-        'subject',
-        'message',
-        'created_at'
-    );
+        // Build query
+        $query = WebsiteLead::query()->select(
+            'id',
+            'name',
+            'email',
+            'phone',
+            'subject',
+            'message',
+            'created_at'
+        );
 
-    if ($from) {
-        $query->whereDate('created_at', '>=', $from);
-    }
-
-    if ($to) {
-        $query->whereDate('created_at', '<=', $to);
-    }
-
-    $websiteLeads = $query->orderBy('created_at', 'desc')->get();
-
-    $fileName = 'website_leads_' . now()->format('Y_m_d_His') . '.csv';
-
-    $headers = [
-        'Content-Type'        => 'text/csv',
-        'Content-Disposition' => "attachment; filename={$fileName}",
-    ];
-
-    $columns = [
-        'ID',
-        'Name',
-        'Email',
-        'Phone',
-        'Subject',
-        'Message',
-        'Created At',
-    ];
-
-    $callback = function () use ($websiteLeads, $columns) {
-        $file = fopen('php://output', 'w');
-        fputcsv($file, $columns);
-
-        foreach ($websiteLeads as $lead) {
-            fputcsv($file, [
-                $lead->id,
-                $lead->name,
-                $lead->email,
-                $lead->phone,
-                $lead->subject,
-                $lead->message,
-                $lead->created_at->format('Y-m-d H:i:s'),
-            ]);
+        if ($from) {
+            $query->whereDate('created_at', '>=', $from);
         }
 
-        fclose($file);
-    };
+        if ($to) {
+            $query->whereDate('created_at', '<=', $to);
+        }
 
-    return Response::stream($callback, 200, $headers);
-}
+        $websiteLeads = $query->orderBy('created_at', 'desc')->get();
+
+        $fileName = 'website_leads_'.now()->format('Y_m_d_His').'.csv';
+
+        $headers = [
+            'Content-Type' => 'text/csv',
+            'Content-Disposition' => "attachment; filename={$fileName}",
+        ];
+
+        $columns = [
+            'ID',
+            'Name',
+            'Email',
+            'Phone',
+            'Subject',
+            'Message',
+            'Created At',
+        ];
+
+        $callback = function () use ($websiteLeads, $columns) {
+            $file = fopen('php://output', 'w');
+            fputcsv($file, $columns);
+
+            foreach ($websiteLeads as $lead) {
+                fputcsv($file, [
+                    $lead->id,
+                    $lead->name,
+                    $lead->email,
+                    $lead->phone,
+                    $lead->subject,
+                    $lead->message,
+                    $lead->created_at->format('Y-m-d H:i:s'),
+                ]);
+            }
+
+            fclose($file);
+        };
+
+        return Response::stream($callback, 200, $headers);
+    }
 
     public function aboutUs()
     {

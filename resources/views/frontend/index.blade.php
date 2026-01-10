@@ -948,9 +948,10 @@
     </section>
     <!--End faq content area-->
 
+    
+
 @endsection
 
-@section('jsscripts')
 @section('jsscripts')
     @verbatim
         <script type="application/ld+json">
@@ -1001,5 +1002,16 @@
   ]
 }
 </script>
-    @endverbatim
+@endverbatim
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+     @if (session('status') && session('msg'))
+        <script>
+            Swal.fire({
+                icon: "{{ session('status') === 'success' ? 'success' : 'error' }}",
+                title: "{{ session('status') === 'success' ? 'Success' : 'Error' }}",
+                text: "{{ session('msg') }}",
+                confirmButtonColor: "#1a73e8"
+            });
+        </script>
+    @endif
 @endsection
