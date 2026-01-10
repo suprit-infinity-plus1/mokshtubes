@@ -194,6 +194,10 @@ Route::prefix('admin')->group(function () {
 
             Route::post('/delete/{id}', [DatasheetLeadController::class, 'destroy'])->name('Datasheet.delete');
         });
+        Route::prefix('website-leads')->group(function () {
+            Route::get('/', [MainController::class, 'websiteLeads'])->name('website-leads');
+            Route::get('/export', [MainController::class, 'exportWebsiteLeads'])->name('website.export');
+        });
     });
 });
 Route::get('/datasheet/export', [DatasheetLeadController::class, 'export'])->name('datasheet.export');

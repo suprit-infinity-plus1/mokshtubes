@@ -1,7 +1,8 @@
 @extends('layouts.master')
 
 @section('title', '7 Advantages of Stainless Steel 316L in Industry')
-@section('meta_description', 'Discover 7 key advantages of Stainless Steel 316L, including superior corrosion
+@section('meta_description',
+    'Discover 7 key advantages of Stainless Steel 316L, including superior corrosion
     resistance, durability, and strength for industrial, marine, and chemical use.')
 
 
@@ -720,8 +721,9 @@
                                 <p>Let’s forge a connection — contact our team today.</p>
                             </div>
 
-                            <form id="contact-form" name="contact_form" class="default-form" action="inc/sendmail.php"
-                                method="post">
+                            <form id="contact-form" name="contact_form" class="default-form"
+                                action="{{ url('sendmail') }}" method="post">
+                                @csrf
                                 <div class="row">
                                     <div class="col-md-12">
                                         <input class="m-1" type="text" name="form_name" placeholder="Your Name*"

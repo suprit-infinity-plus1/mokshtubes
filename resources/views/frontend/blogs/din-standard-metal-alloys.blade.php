@@ -30,7 +30,8 @@
                         <div class="single-blog-post">
                             <div class="img-holder mb-4">
                                 <img src="{{ asset('assets/images/blog/din-standard-metal-alloys.webp') }}"
-                                    alt="DIN Standard Metal Alloys & Tubes Germany" class="img-fluid rounded" loading="lazy">
+                                    alt="DIN Standard Metal Alloys & Tubes Germany" class="img-fluid rounded"
+                                    loading="lazy">
                             </div>
                             <div class="text-holder">
 
@@ -720,8 +721,9 @@
                                 <p>Let’s forge a connection — contact our team today.</p>
                             </div>
 
-                            <form id="contact-form" name="contact_form" class="default-form" action="inc/sendmail.php"
-                                method="post">
+                            <form id="contact-form" name="contact_form" class="default-form"
+                                action="{{ url('sendmail') }}" method="post">
+                                @csrf
                                 <div class="row">
                                     <div class="col-md-12">
                                         <input class="m-1" type="text" name="form_name" placeholder="Your Name*"

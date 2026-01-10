@@ -618,7 +618,7 @@
                                 </div>
 
                                 <form id="contact-form" name="contact_form" class="default-form"
-                                    action="inc/sendmail.php" method="post">
+                                    action="{{ url('sendmail') }}" method="post">
                                     <div class="row">
                                         <div class="col-md-12">
                                             <input class="m-1" type="text" name="form_name"

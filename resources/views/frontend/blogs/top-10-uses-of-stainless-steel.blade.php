@@ -1,7 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Top 10 Uses of Stainless Steel Pipes in Construction')
-@section('meta_description', 'Explore key uses of stainless steel pipes in construction, including plumbing, HVAC, and
+@section('meta_description',
+    'Explore key uses of stainless steel pipes in construction, including plumbing, HVAC, and
     design, and learn what makes them so reliable.')
 @section('meta_keywords',
     'stainless steel pipes, stainless steel in construction, uses of stainless steel pipes,
@@ -476,8 +477,9 @@
                                 <p>Let’s forge a connection — contact our team today.</p>
                             </div>
 
-                            <form id="contact-form" name="contact_form" class="default-form" action="inc/sendmail.php"
-                                method="post">
+                            <form id="contact-form" name="contact_form" class="default-form"
+                                action="{{ url('sendmail') }}" method="post">
+                                @csrf
                                 <div class="row">
                                     <div class="col-md-12">
                                         <input class="m-1" type="text" name="form_name" placeholder="Your Name*"
