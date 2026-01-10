@@ -18,11 +18,14 @@
                 <div class="col-auto text-center">
                     <h1>Copper Alloys Electrolytic Copper<br> (EC Copper)</h1>
 
-                    
+
                     <!-- Add your extra content here -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                      Electrolytic Copper (EC Copper) is a high-purity copper alloy known for its exceptional electrical and thermal conductivity. It offers excellent corrosion resistance, good ductility, and reliable workability, making it ideal for electrical components, conductors, busbars, wiring, and industrial applications where efficient conductivity and consistent performance are critical.
+                        Electrolytic Copper (EC Copper) is a high-purity copper alloy known for its exceptional electrical
+                        and thermal conductivity. It offers excellent corrosion resistance, good ductility, and reliable
+                        workability, making it ideal for electrical components, conductors, busbars, wiring, and industrial
+                        applications where efficient conductivity and consistent performance are critical.
 
                     </p>
                     <!-- End extra content -->
@@ -32,7 +35,7 @@
         </div>
     </section>
 
-        <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
         <div class="container">
             <a href="#overview">Overview</a> |
             <a href="#composition">Chemical Composition</a> |
@@ -41,11 +44,11 @@
             <a href="#price">Advantages</a> |
             <a href="#applications">Applications</a> |
             <a href="#faq">FAQ</a> |
-            <a href="#contact us">Contact Us</a>
+            <a href="#contact-us">Contact Us</a>
         </div>
     </div>
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Copper Alloys Electrolytic Copper | Product Overview</h2>
@@ -131,189 +134,354 @@
         </div>
     </section>
     <!-- End Datasheet -->
-   
-    <section class="sec-padd-top sec-padd-bottom">
+
+
+    <!-- ================= SPECIFICATION ================= -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>EC Copper Specifications (C10100 / CW009A)</h2>
             </div>
 
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Element</th>
-                                    <th>Composition (%)</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Copper</td>
-                                    <td>≥ 99.95</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Oxygen</td>
-                                    <td>≤ 0.0005 (for oxygen-free grades)</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Silver</td>
-                                    <td>≤ 0.002</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Other Elements</td>
-                                    <td>≤ 0.03 total impurities</td>
-                                </tr>
-                                {{-- <tr class="t-row">
-                                    <td>Zinc</td>
-                                    <td>1.0 max</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Lead</td>
-                                    <td>0.05 max</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Others</td>
-                                    <td>0.50 max (total)</td>
-                                </tr> --}}
-                                {{-- <tr class="t-row">
-                                    <td>Others</td>
-                                    <td>0.50 max (total)</td>
-                                </tr> --}}
-                                {{--  <tr class="t-row">
-                                    <td>Nitrogen</td>
-                                    <td>0.20 – 0.30</td>
-                                    <td>0.20 – 0.30</td>
-                                    <td>0.20 – 0.30</td>
-                                </tr> --}}
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                         <tr class="t-row">
+                            <th>Category</th>
+                            <th>Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <tr class="t-row">
+                            <td>Grade</td>
+                            <td>C10100 / CW009A / Cu-ETP1 / EC Copper</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Type</td>
+                            <td>High-Purity Electrolytic Copper (Electrical Grade)</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Typical Chemical Composition</td>
+                            <td>Cu ≥ 99.95%, O ≤ 0.0005%, Ag ≤ 0.002%, Impurities ≤ 0.03%</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Conditions Available</td>
+                            <td>Annealed, Half-Hard, Hard, Extra Hard, Hot Rolled, Cold Drawn</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Heat Treatment</td>
+                            <td>Annealing, Stress Relieving</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Testing</td>
+                            <td>Tensile, Hardness, Chemical, Conductivity, PMI, UT (on request)</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Certification</td>
+                            <td>EN 10204 3.1 / 3.2 MTC available</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- ================= CHEMICAL COMPOSITION ================= -->
+    <section class="sec-padd-top sec-padd-bottom" id="composition">
         <div class="container">
-            <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+            <div class="section-title center">
+                <h2>Chemical Composition – EC Copper (C10100 / CW009A)</h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Imperial</th>
-                                    <th>Metric</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Density</td>
-                                    <td>0.323 lb/in³</td>
-                                    <td>8.94 g/cm³</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Melting Point</td>
-                                    <td>1981 °F</td>
-                                    <td>1083 °C</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Electrical Conductivity</td>
-                                    <td>101% IACS (min)</td>
-                                    <td>≥ 58 MS/m</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Thermal Conductivity</td>
-                                    <td>226 Btu/ft·hr·°F</td>
-                                    <td>390 W/m·K</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Modulus of Elasticity</td>
-                                    <td>17 x 10³ ksi</td>
-                                    <td>117 GPa</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Specific Heat Capacity</td>
-                                    <td>0.092 Btu/lb·°F</td>
-                                    <td>0.385 J/g·K</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Coefficient of Expansion</td>
-                                    <td>9.8 x 10⁻⁶ /°F</td>
-                                    <td>17.6 x 10⁻⁶ /°C</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle text-center">
+                    <thead class="table-dark">
+                         <tr class="t-row">
+                            <th>Element</th>
+                            <th>Composition (% by weight)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <tr class="t-row">
+                            <td>Copper (Cu)</td>
+                            <td>≥ 99.95</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Oxygen (O)</td>
+                            <td>≤ 0.0005 (oxygen-free grades)</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Silver (Ag)</td>
+                            <td>≤ 0.002</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Other Elements</td>
+                            <td>≤ 0.03 total impurities</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
 
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Annealed (R200)</th>
-                                    <th>Half-Hard (R240)</th>
-                                    <th>Hard (R290)</th>
-                                    <th>Extra Hard (R360)</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Tensile Strength (ksi / MPa)</td>
-                                    <td>220–260 MPa</td>
-                                    <td>240–300 MPa</td>
-                                    <td>290–360 MPa</td>
-                                    <td>≥360 MPa</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Yield Strength (0.2%) (ksi / MPa)</td>
-                                    <td>≥320 MPa</td>
-                                    <td>≥250 MPa</td>
-                                    <td>≥180 MPa</td>
-                                    <td>≤100 MPa</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Elongation (%)</td>
-                                    <td>≥33 %</td>
-                                    <td>≥8 %</td>
-                                    <td>≥4 %</td>
-                                    <td>≥2 %</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Hardness (HV) </td>
-                                    <td>40–65</td>
-                                    <td>65–95</td>
-                                    <td>90–110</td>
-                                    <td>≥110</td>
-                                </tr>
-                                {{-- <tr class="t-row">
-                                    <td>Rockwell Hardness (B)</td>
-                                    <td>R290 (70–110 HB)</td>
-                                    <td>H08/H06/H04 spring temp up to 87–91 B</td>
-                                    <td>—</td>
-                                </tr> --}}
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+            <p class="text-center mt-3">
+                Note: EC Grade Copper may be oxygen-bearing (C11000) or oxygen-free (C10100 / OFC) depending on application.
+            </p>
+        </div>
+    </section>
+
+    <!-- ================= PHYSICAL PROPERTIES ================= -->
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="properties">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Physical Properties – EC Copper</h2>
+            </div>
+
+            <div class="table-responsive col-lg-10 mx-auto">
+                <table class="table table-bordered table-striped align-middle text-center">
+                    <thead class="table-dark">
+                         <tr class="t-row">
+                            <th>Property</th>
+                            <th>Imperial Units</th>
+                            <th>Metric Units</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <tr class="t-row">
+                            <td>Density</td>
+                            <td>0.323 lb/in³</td>
+                            <td>8.94 g/cm³</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Melting Point</td>
+                            <td>1981 °F</td>
+                            <td>1083 °C</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Electrical Conductivity</td>
+                            <td>101% IACS (min)</td>
+                            <td>≥ 58 MS/m</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Thermal Conductivity</td>
+                            <td>~226 Btu/ft·hr·°F</td>
+                            <td>~390 W/m·K</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Coefficient of Expansion</td>
+                            <td>9.8 × 10⁻⁶ /°F</td>
+                            <td>17.6 × 10⁻⁶ /°C</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Modulus of Elasticity</td>
+                            <td>17 × 10³ ksi</td>
+                            <td>117 GPa</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Specific Heat Capacity</td>
+                            <td>0.092 Btu/lb·°F</td>
+                            <td>0.385 J/g·K</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </section>
+
+    <!-- ================= HEAT TREATMENT ================= -->
+    <section class="sec-padd-top sec-padd-bottom" id="heat-treatment">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Heat Treatment – EC Copper (C10100 / CW009A)</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle text-center">
+                    <thead class="table-dark">
+                         <tr class="t-row">
+                            <th>Heat Treatment Process</th>
+                            <th>Temperature Range</th>
+                            <th>Cooling / Procedure</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <tr class="t-row">
+                            <td>Annealing (Soft Anneal)</td>
+                            <td>200 – 400 °C</td>
+                            <td>Furnace cool for maximum ductility</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Stress Relieving</td>
+                            <td>150 – 250 °C</td>
+                            <td>Hold 1–2 hours, air cool</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Hot Working</td>
+                            <td>700 – 900 °C</td>
+                            <td>Extrusion, rolling & forging</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Cold Working + Anneal</td>
+                            <td>—</td>
+                            <td>Controls strength & conductivity</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p class="text-center mt-3">
+                EC Copper cannot be hardened by quenching; only cold working increases strength.
+            </p>
+        </div>
+    </section>
+
+    <!-- ================= MECHANICAL PROPERTIES ================= -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Mechanical Properties – EC Copper</h2>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle text-center">
+                    <thead class="table-dark">
+                         <tr class="t-row">
+                            <th>Property / Condition</th>
+                            <th>Annealed (R200)</th>
+                            <th>Half-Hard (R240)</th>
+                            <th>Hard (R290)</th>
+                            <th>Extra Hard (R360)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <tr class="t-row">
+                            <td>Tensile Strength (MPa)</td>
+                            <td>220 – 260</td>
+                            <td>240 – 300</td>
+                            <td>290 – 360</td>
+                            <td>≥ 360</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Yield Strength (0.2%) (MPa)</td>
+                            <td>≤ 100</td>
+                            <td>≥ 180</td>
+                            <td>≥ 250</td>
+                            <td>≥ 320</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Elongation (%)</td>
+                            <td>≥ 33</td>
+                            <td>≥ 8</td>
+                            <td>≥ 4</td>
+                            <td>≥ 2</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Hardness (HV)</td>
+                            <td>40 – 65</td>
+                            <td>65 – 95</td>
+                            <td>90 – 110</td>
+                            <td>≥ 110</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= AVAILABLE FORMS ================= -->
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Available Forms & Size Range – EC Copper</h2>
+            </div>
+
+            <div class="table-responsive col-lg-10 mx-auto">
+                <table class="table table-bordered table-striped align-middle text-center">
+                    <thead class="table-dark">
+                         <tr class="t-row">
+                            <th>Product Form</th>
+                            <th>Size Range / Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <tr class="t-row">
+                            <td>Round Bars / Rods</td>
+                            <td>4 mm – 200 mm dia</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Flat Bars & Busbars</td>
+                            <td>Thickness 2 – 60 mm; Width 10 – 300 mm</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Sheets & Plates</td>
+                            <td>0.5 – 80 mm thick (Width 600 – 1500 mm)</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Coils, Strips & Foils</td>
+                            <td>0.05 – 6 mm thickness</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Pipes & Tubes</td>
+                            <td>OD 6 – 108 mm; WT 0.5 – 10 mm</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Wires (Bare & Tinned)</td>
+                            <td>0.1 – 25 mm</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Custom Fabricated Parts</td>
+                            <td>CNC machined components as per drawing</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= INTERNATIONAL STANDARDS ================= -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades – EC Copper</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle text-center">
+                    <thead class="table-dark">
+                         <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <tr class="t-row">
+                            <td>UNS</td>
+                            <td>C10100</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>EN</td>
+                            <td>CW009A</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>DIN</td>
+                            <td>Cu-ETP1</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>B152, B187, B170</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>JIS</td>
+                            <td>C1011</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>ISO</td>
+                            <td>Cu-ETP1 / Cu-a1</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
 
 
     @php
@@ -372,7 +540,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Copper Alloys EC Copper</h2>
@@ -430,7 +598,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -475,7 +643,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Copper Alloys EC Copper</h2>
@@ -590,8 +758,27 @@
         </div>
     </section>
 
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>EC Copper Price per kg in India</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹780 – ₹1,350 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -707,9 +894,9 @@
     </section>
     <!--End faq content area-->
 
-    
+
     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -765,7 +952,7 @@
     {{-- blog section end --}}
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

@@ -2,10 +2,12 @@
 
 @section('title', 'Austenitic Stainless Steel Nitronic 60 | Wear Resistant SS')
 
-@section('meta_description', 'Austenitic Stainless Steel Nitronic 60 – premium alloy with superior wear and corrosion
+@section('meta_description',
+    'Austenitic Stainless Steel Nitronic 60 – premium alloy with superior wear and corrosion
     resistance for demanding industrial and engineering applications.')
 
-@section('meta_keywords', 'Austenitic Stainless Steel Nitronic 60, Nitronic 60 Stainless Steel Pipes, Nitronic 60
+@section('meta_keywords',
+    'Austenitic Stainless Steel Nitronic 60, Nitronic 60 Stainless Steel Pipes, Nitronic 60
     Stainless Steel Tubes, Nitronic 60 Stainless Steel Fittings, Wear Resistant Nitronic 60, Corrosion Resistant Nitronic
     60, High Strength Nitronic 60, Industrial Nitronic 60 Stainless Steel, Marine Grade Nitronic 60, Engineering
     Applications Nitronic 60')
@@ -26,10 +28,22 @@
             </div>
         </div>
     </section>
+    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+        <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact-us">Contact Us</a>
+        </div>
+    </div>
 
 
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Nitronic 60 | Product Overview</h2>
@@ -71,12 +85,12 @@
         </div>
     </section>
 
-         {{-- datasheet --}}
+    {{-- datasheet --}}
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
-            <h3 class="mb-3" style="color:#174268;">Download Austentic Stainles Steel Nitronic 60  Datasheet</h3>
+            <h3 class="mb-3" style="color:#174268;">Download Austentic Stainles Steel Nitronic 60 Datasheet</h3>
             <p class="mb-3">
-                Get the complete Austentic Stainles Steel Nitronic 60  datasheet with chemical composition,
+                Get the complete Austentic Stainles Steel Nitronic 60 datasheet with chemical composition,
                 mechanical properties, heat treatment details, and applications.
                 Enter your email to receive the PDF instantly.
             </p>
@@ -115,10 +129,86 @@
     </section>
     <!-- End Datasheet -->
 
-    <section class="sec-padd-top sec-padd-bottom">
+
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>Technical Specifications – Nitronic 60 (UNS S21800)</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Category</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Material</td>
+                                    <td>Nitronic 60 Stainless Steel</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>UNS No.</td>
+                                    <td>S21800</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Alloy Type</td>
+                                    <td>Nitrogen-Strengthened Austenitic Stainless Steel</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Chromium</td>
+                                    <td>20 – 22 %</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Nickel</td>
+                                    <td>8 – 10 %</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Nitrogen</td>
+                                    <td>0.20 – 0.40 %</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Magnetic Properties</td>
+                                    <td>Non-Magnetic</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Heat Treatable</td>
+                                    <td>❌ No</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Strengthening Method</td>
+                                    <td>Nitrogen alloying & cold work</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Wear / Galling Resistance</td>
+                                    <td>Excellent</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Corrosion Resistance</td>
+                                    <td>Very Good (oxidizing environments)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Typical Use</td>
+                                    <td>Valves, Pumps, Wear-Resistant Parts</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chemical Composition -->
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of Nitronic 60</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -133,40 +223,40 @@
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Carbon</td>
+                                    <td>Carbon (C)</td>
                                     <td>≤ 0.03</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Chromium</td>
+                                    <td>Chromium (Cr)</td>
                                     <td>20.0 – 22.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Nickel</td>
+                                    <td>Nickel (Ni)</td>
                                     <td>8.0 – 10.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Manganese</td>
+                                    <td>Manganese (Mn)</td>
                                     <td>≤ 1.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Iron</td>
-                                    <td>Balance</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Silicon</td>
+                                    <td>Silicon (Si)</td>
                                     <td>≤ 1.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Phosphorus</td>
+                                    <td>Nitrogen (N)</td>
+                                    <td>0.20 – 0.40</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Phosphorus (P)</td>
                                     <td>≤ 0.035</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Sulfur</td>
+                                    <td>Sulfur (S)</td>
                                     <td>≤ 0.03</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Nitrogen</td>
-                                    <td>0.20 – 0.30</td>
+                                    <td>Iron (Fe)</td>
+                                    <td>Balance</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -176,131 +266,256 @@
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Physical Properties -->
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color:#174268;">
+                    Physical Properties of Nitronic 60
+                </h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Imperial</th>
-                                    <th>Metric</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Density</td>
-                                    <td>0.289 lb/in³</td>
-                                    <td>8.0 g/cm³</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Melting Point</td>
-                                    <td>2550 – 2650 °F</td>
-                                    <td>1399 – 1454 °C</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Modulus of Elasticity</td>
-                                    <td>28 × 10³ ksi</td>
-                                    <td>193 GPa</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Poisson’s Ratio</td>
-                                    <td>0.27</td>
-                                    <td>—</td>
-                                </tr>
-                                {{-- <tr class="t-row">
-                                    <td>Poisson’s Ratio</td>
-                                    <td>0.29</td>
-                                    <td>—</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Thermal Conductivity</td>
-                                    <td>45 W/m·K</td>
-                                    <td>45 W/m·K</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Specific Heat Capacity</td>
-                                    <td>460 J/kg·K</td>
-                                    <td>460 J/kg·K</td>
-                                </tr> --}}
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+            <div class="table-responsive col-lg-10 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Imperial Units</th>
+                            <th>Metric Units</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Density</td>
+                            <td>0.286 lb/in³</td>
+                            <td>7.92 g/cm³</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Melting Point</td>
+                            <td>2500 – 2650 °F</td>
+                            <td>1371 – 1454 °C</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Modulus of Elasticity</td>
+                            <td>28 × 10³ ksi</td>
+                            <td>193 GPa</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Poisson’s Ratio</td>
+                            <td>0.27</td>
+                            <td>—</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
 
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
+            <!-- Heat Treatment -->
+            <div class="row justify-content-center mt-5" id="heat-treatment">
                 <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+                    <h4 class="text-center mb-3" style="color:#db7227;">
+                        Heat Treatment & Fabrication of Nitronic 60
+                    </h4>
+
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Annealed</th>
-                                    <th>Hot-Finished</th>
-                                    <th>Cold Drawn</th>
-                                    <th>Hot-rolled</th>
-                                    <th>Sheet</th>
+                                    <th>Process</th>
+                                    <th>Temperature Range</th>
+                                    <th>Purpose</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Tensile Strength (ksi / MPa)</td>
-                                    <td>80–105 / 550–725</td>
-                                    <td>90–125 / 620–860</td>
-                                    <td>100–135 / 690–930</td>
-                                    <td>80–105 / 550–725</td>
-                                    <td>85–120 / 585–830</td>
+                                    <td>Solution Annealing</td>
+                                    <td>1040 – 1120°C</td>
+                                    <td>Restore corrosion resistance</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (0.2%) (ksi / MPa)</td>
-                                    <td>45–75 / 310–520</td>
-                                    <td>55–95 / 380–655</td>
-                                    <td>70–115 / 485–795</td>
-                                    <td>45–75 / 310–520</td>
-                                    <td>50–80 / 345–550</td>
+                                    <td>Cooling</td>
+                                    <td>Water / Rapid Air</td>
+                                    <td>Prevent carbide precipitation</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Elongation (%)</td>
-                                    <td>35–50</td>
-                                    <td>25–45</td>
-                                    <td>15–35</td>
-                                    <td>30–50</td>
-                                    <td>30–45</td>
+                                    <td>Stress Relieving</td>
+                                    <td>300 – 400°C</td>
+                                    <td>Reduce residual stresses</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Brinell Hardness (3000 kg)</td>
-                                    <td>160–210</td>
-                                    <td>180–240</td>
-                                    <td>200–270</td>
-                                    <td>160–210</td>
-                                    <td>170–230</td>
+                                    <td>Cold Working</td>
+                                    <td>—</td>
+                                    <td>Increase strength & hardness</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Rockwell Hardness (B / C)</td>
-                                    <td>85–100 B</td>
-                                    <td>90–105 B</td>
-                                    <td>95–110 B</td>
-                                    <td>85–100 B</td>
-                                    <td>90–105 B</td>
+                                    <td>Welding</td>
+                                    <td>TIG / MIG / SMAW</td>
+                                    <td>Good with proper fillers</td>
+                                </tr>
                             </tbody>
                         </table>
+
+                        <p class="mt-3 text-center">
+                            📌 Nitronic 60 retains excellent galling resistance even after welding, unlike many austenitic
+                            stainless steels.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color:#174268;">
+                    Mechanical Properties of Nitronic 60 (Annealed)
+                </h2>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Annealed</th>
+                            <th>Cold-Drawn</th>
+                            <th>Sheet</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Tensile Strength</td>
+                            <td>550 – 725 MPa</td>
+                            <td>690 – 930 MPa</td>
+                            <td>585 – 830 MPa</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Yield Strength (0.2%)</td>
+                            <td>310 – 520 MPa</td>
+                            <td>485 – 795 MPa</td>
+                            <td>345 – 550 MPa</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elongation</td>
+                            <td>30 – 50 %</td>
+                            <td>15 – 35 %</td>
+                            <td>30 – 45 %</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Brinell Hardness</td>
+                            <td>160 – 210</td>
+                            <td>200 – 270</td>
+                            <td>170 – 230</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Rockwell Hardness</td>
+                            <td>85 – 100 B</td>
+                            <td>95 – 110 B</td>
+                            <td>90 – 105 B</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Forms -->
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="available-forms">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Available Forms & Size Range – Nitronic 60</h2>
+            </div>
+
+            <div class="table-responsive col-lg-10 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Product Form</th>
+                            <th>Size Range</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Pipes & Tubes</td>
+                            <td>OD 6 – 450 mm, WT 1 – 40 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Sheets & Plates</td>
+                            <td>0.5 – 80 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Coils & Strips</td>
+                            <td>0.1 – 6 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Bars (Round / Flat / Hex)</td>
+                            <td>Ø 6 – 350 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Wire & Mesh</td>
+                            <td>Standard & custom sizes</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Fittings & Flanges</td>
+                            <td>ASME / DIN standards</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Custom Components</td>
+                            <td>CNC machined parts</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- International Standards -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades – Nitronic 60</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>S21800</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>Nitronic 60</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>AISI</td>
+                            <td>Nitronic 60</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>EN</td>
+                            <td>1.3964</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>DIN</td>
+                            <td>X12CrMnNiN18-14-3</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>JIS</td>
+                            <td>SUS XM-19 (similar)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
 
 
     @php
@@ -359,7 +574,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Austenitic Stainless Steel Nitronic 60</h2>
@@ -417,7 +632,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses"class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -461,7 +676,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Austenitic Stainless Steel Nitronic 60</h2>
@@ -575,8 +790,27 @@
         </div>
     </section>
 
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>NITRONIC 60 PRICE PER KG (INDIA)</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹480 – ₹850 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -681,9 +915,9 @@
     </section>
     <!--End faq content area-->
 
-    
+
     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -739,7 +973,7 @@
     {{-- blog section end --}}
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

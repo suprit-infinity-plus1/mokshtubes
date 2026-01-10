@@ -21,18 +21,21 @@
                     <!-- Add your extra content here -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        Naval Brass is a corrosion-resistant copper-zinc alloy containing tin, specially designed for marine and seawater environments. It offers good strength, excellent resistance to dezincification, and long service life, making it ideal for marine hardware, valves, fittings, fasteners, and shipbuilding applications where durability and reliability are essential.
+                        Naval Brass is a corrosion-resistant copper-zinc alloy containing tin, specially designed for marine
+                        and seawater environments. It offers good strength, excellent resistance to dezincification, and
+                        long service life, making it ideal for marine hardware, valves, fittings, fasteners, and
+                        shipbuilding applications where durability and reliability are essential.
 
                     </p>
                     <!-- End extra content -->
- 
+
 
                 </div>
             </div>
         </div>
     </section>
 
-     <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
         <div class="container">
             <a href="#overview">Overview</a> |
             <a href="#composition">Chemical Composition</a> |
@@ -41,11 +44,11 @@
             <a href="#price">Advantages</a> |
             <a href="#applications">Applications</a> |
             <a href="#faq">FAQ</a> |
-            <a href="#contact us">Contact Us</a>
+            <a href="#contact-us">Contact Us</a>
         </div>
     </div>
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Copper Alloys Naval Brass C11000 | Product Overview</h2>
@@ -131,196 +134,362 @@
         </div>
     </section>
     <!-- End Datasheet -->
-   
-    <section class="sec-padd-top sec-padd-bottom">
+
+
+    <!-- ================= SPECIFICATION ================= -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>Naval Brass Specifications (UNS C46400 / CW712R / CZ112)</h2>
             </div>
 
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Element</th>
-                                    <th>Composition (%)</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Copper</td>
-                                    <td>59.0 – 62.0</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Zinc</td>
-                                    <td>Balance</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Tin</td>
-                                    <td>0.75 – 1.25</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Lead</td>
-                                    <td>0.05 max</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Iron</td>
-                                    <td>0.06 max</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Others</td>
-                                    <td>0.30 max (Total)</td>
-                                </tr>
-                                {{--  <tr class="t-row">
-                                    <td>Others</td>
-                                    <td>0.50 max (total)</td>
-                                </tr> --}}
-                                {{-- <tr class="t-row">
-                                    <td>Others</td>
-                                    <td>0.50 max (total)</td>
-                                </tr> --}}
-                                {{--  <tr class="t-row">
-                                    <td>Nitrogen</td>
-                                    <td>0.20 – 0.30</td>
-                                    <td>0.20 – 0.30</td>
-                                    <td>0.20 – 0.30</td>
-                                </tr> --}}
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                         <tr class="t-row">
+                            <th>Category</th>
+                            <th>Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <tr class="t-row">
+                            <td>Grade</td>
+                            <td>UNS C46400 / CW712R / BS CZ112</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Type</td>
+                            <td>Copper–Zinc Alloy (Naval Brass)</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Typical Chemical Composition</td>
+                            <td>Cu 59–62%, Zn Balance, Sn 0.75–1.25%, Pb ≤ 0.05%, Fe ≤ 0.06%</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Conditions Available</td>
+                            <td>Annealed, Half-Hard, Hard, Hot Rolled, Cold Drawn</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Heat Treatment Options</td>
+                            <td>Stress Relieving, Annealing</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Testing</td>
+                            <td>Tensile, Hardness, Chemical, PMI, UT (on request)</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Certification</td>
+                            <td>EN 10204 3.1 / 3.2 (Mill Test Certificate)</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- ================= CHEMICAL COMPOSITION ================= -->
+    <section class="sec-padd-top sec-padd-bottom" id="composition">
         <div class="container">
-            <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+            <div class="section-title center">
+                <h2>Chemical Composition – Naval Brass (C46400)</h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Imperial</th>
-                                    <th>Metric</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Density</td>
-                                    <td>0.303 lb/in³</td>
-                                    <td>8.39 g/cm³</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Melting Point</td>
-                                    <td>1620 – 1680 °F</td>
-                                    <td>882 – 916 °C</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Electrical Conductivity</td>
-                                    <td>28% IACS</td>
-                                    <td>16 MS/m</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Thermal Conductivity</td>
-                                    <td>67 Btu/ft·hr·°F</td>
-                                    <td>116 W/m·K</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Modulus of Elasticity</td>
-                                    <td>15.0 x 10³ ksi</td>
-                                    <td>103 GPa</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Coefficient of Expansion</td>
-                                    <td>-</td>
-                                    <td>19 x 10⁻⁶ /°C</td>
-                                </tr>
-                                {{-- <tr class="t-row">
-                                    <td>Coefficient of Expansion</td>
-                                    <td>9.8 x 10⁻⁶ /°F</td>
-                                    <td>17.6 x 10⁻⁶ /°C</td>
-                                </tr> --}}
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Annealed</th>
-                                    <th>Hot-Finished</th>
-                                    <th>Cold-Drawn</th>
-                                    <th>Hot-Rolled</th>
-                                    <th>Sheet</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Tensile Strength (ksi / MPa)</td>
-                                    <td>55–88 ksi / 379–607 MPa </td>
-                                    <td>55–88 ksi / 379–607 MPa</td>
-                                    <td>55–88 ksi / 379–607 MPa</td>
-                                    <td>55–88 ksi / 379–607 MPa</td>
-                                    <td>55–88 ksi / 379–607 MPa</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Yield Strength (0.2%) (ksi / MPa)</td>
-                                    <td>25–66 ksi / 172–455 MPa</td>
-                                    <td>25–66 ksi / 172–455 MPa</td>
-                                    <td>25–66 ksi / 172–455 MPa</td>
-                                    <td>25–66 ksi / 172–455 MPa</td>
-                                    <td>25–66 ksi / 172–455 MPa</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Elongation (%)</td>
-                                    <td>50%</td>
-                                    <td>50%</td>
-                                    <td>50%</td>
-                                    <td>50%</td>
-                                    <td>50%</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Brinell Hardness (HBW)</td>
-                                    <td>150 HB</td>
-                                    <td>150 HB</td>
-                                    <td>150 HB</td>
-                                    <td>150 HB</td>
-                                    <td>150 HB</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Rockwell Hardness (B)</td>
-                                    <td>60–80 B</td>
-                                    <td>60–80 B</td>
-                                    <td>60–80 B</td>
-                                    <td>60–80 B</td>
-                                    <td>60–80 B</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle text-center">
+                    <thead class="table-dark">
+                         <tr class="t-row">
+                            <th>Element</th>
+                            <th>Composition (% by weight)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <tr class="t-row">
+                            <td>Copper (Cu)</td>
+                            <td>59.0 – 62.0</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Zinc (Zn)</td>
+                            <td>Balance</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Tin (Sn)</td>
+                            <td>0.75 – 1.25</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Lead (Pb)</td>
+                            <td>0.05 max</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Iron (Fe)</td>
+                            <td>0.06 max</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Others</td>
+                            <td>0.30 max (Total)</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </section>
+
+    <!-- ================= PHYSICAL PROPERTIES ================= -->
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="properties">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Physical Properties – Naval Brass</h2>
+            </div>
+
+            <div class="table-responsive col-lg-10 mx-auto">
+                <table class="table table-bordered table-striped align-middle text-center">
+                    <thead class="table-dark">
+                         <tr class="t-row">
+                            <th>Property</th>
+                            <th>Imperial Units</th>
+                            <th>Metric Units</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <tr class="t-row">
+                            <td>Density</td>
+                            <td>0.303 lb/in³</td>
+                            <td>8.39 g/cm³</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Melting Range</td>
+                            <td>1620 – 1680 °F</td>
+                            <td>882 – 916 °C</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Electrical Conductivity</td>
+                            <td>~28% IACS</td>
+                            <td>~16 MS/m</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Thermal Conductivity</td>
+                            <td>67 Btu/ft·hr·°F</td>
+                            <td>116 W/m·K</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Modulus of Elasticity</td>
+                            <td>15.0 × 10³ ksi</td>
+                            <td>103 GPa</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Coefficient of Expansion</td>
+                            <td>—</td>
+                            <td>19 × 10⁻⁶ /°C</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= HEAT TREATMENT ================= -->
+    <section class="sec-padd-top sec-padd-bottom" id="heat-treatment">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Heat Treatment – Naval Brass (C46400 / CW712R)</h2>
+            </div>
+
+            <div class="table-responsive col-lg-9 mx-auto">
+                <table class="table table-bordered table-striped align-middle text-center">
+                    <thead class="table-dark">
+                         <tr class="t-row">
+                            <th>Heat Treatment Process</th>
+                            <th>Temperature Range</th>
+                            <th>Cooling / Procedure</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <tr class="t-row">
+                            <td>Stress Relieving</td>
+                            <td>250 – 300 °C</td>
+                            <td>Air cool to reduce stresses</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Soft Annealing</td>
+                            <td>450 – 600 °C</td>
+                            <td>Furnace cool for ductility</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Hot Working</td>
+                            <td>650 – 800 °C</td>
+                            <td>Forging & forming operations</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Cold Work + Stress Relief</td>
+                            <td>—</td>
+                            <td>Improves strength & stability</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p class="text-center mt-3">
+                Naval Brass is not hardenable by quenching; heat treatment is used mainly for stress relief and ductility.
+            </p>
+        </div>
+    </section>
+
+    <!-- ================= MECHANICAL PROPERTIES ================= -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Mechanical Properties – Naval Brass (Annealed Condition)</h2>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle text-center">
+                    <thead class="table-dark">
+                         <tr class="t-row">
+                            <th>Property</th>
+                            <th>Annealed</th>
+                            <th>Hot-Finished</th>
+                            <th>Cold-Drawn</th>
+                            <th>Hot-Rolled</th>
+                            <th>Sheet</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <tr class="t-row">
+                            <td>Tensile Strength</td>
+                            <td>379–607 MPa</td>
+                            <td>379–607 MPa</td>
+                            <td>379–607 MPa</td>
+                            <td>379–607 MPa</td>
+                            <td>379–607 MPa</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Yield Strength (0.2%)</td>
+                            <td>172–455 MPa</td>
+                            <td>172–455 MPa</td>
+                            <td>172–455 MPa</td>
+                            <td>172–455 MPa</td>
+                            <td>172–455 MPa</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Elongation</td>
+                            <td>~50%</td>
+                            <td>~50%</td>
+                            <td>~50%</td>
+                            <td>~50%</td>
+                            <td>~50%</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Brinell Hardness</td>
+                            <td>~150 HB</td>
+                            <td>~150 HB</td>
+                            <td>~150 HB</td>
+                            <td>~150 HB</td>
+                            <td>~150 HB</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Rockwell Hardness</td>
+                            <td>60–80 B</td>
+                            <td>60–80 B</td>
+                            <td>60–80 B</td>
+                            <td>60–80 B</td>
+                            <td>60–80 B</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= AVAILABLE FORMS ================= -->
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Available Forms & Size Range – Naval Brass</h2>
+            </div>
+
+            <div class="table-responsive col-lg-10 mx-auto">
+                <table class="table table-bordered table-striped align-middle text-center">
+                    <thead class="table-dark">
+                         <tr class="t-row">
+                            <th>Product Form</th>
+                            <th>Size Range / Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <tr class="t-row">
+                            <td>Round Bars</td>
+                            <td>8 – 300 mm diameter</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Flat, Square & Hex Bars</td>
+                            <td>Custom sizes up to 200 mm</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Sheets & Plates</td>
+                            <td>1 – 80 mm thickness (Width 600 – 1500 mm)</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Coils & Strips</td>
+                            <td>0.2 – 6 mm thickness</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Pipes & Tubes</td>
+                            <td>OD 6 – 150 mm, WT 1 – 12 mm</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Forged Shapes & Bushings</td>
+                            <td>As per drawing</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= INTERNATIONAL STANDARDS ================= -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades – Naval Brass</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle text-center">
+                    <thead class="table-dark">
+                         <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <tr class="t-row">
+                            <td>UNS</td>
+                            <td>C46400</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>EN</td>
+                            <td>CW712R</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>BS</td>
+                            <td>CZ112</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>JIS</td>
+                            <td>C4640</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>ISO</td>
+                            <td>CuZn36Sn1</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>B21, B171, B122, B124</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
 
 
     @php
@@ -379,7 +548,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Copper Alloys Naval Brass</h2>
@@ -437,7 +606,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -482,7 +651,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Copper Alloys Naval Brass</h2>
@@ -598,8 +767,29 @@
         </div>
     </section>
 
+
+
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>Naval Brass Price per kg in India</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹550 – ₹900 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -701,9 +891,9 @@
     </section>
     <!--End faq content area-->
 
-    
+
     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -759,7 +949,7 @@
     {{-- blog section end --}}
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

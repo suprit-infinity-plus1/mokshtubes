@@ -1,8 +1,10 @@
 @extends('layouts.master')
 @section('title', 'Aluminium Bronze Alloy | High Strength & Corrosion Resistant')
-@section('meta_description', 'Aluminium Bronze – high-strength copper alloy offering exceptional corrosion resistance
+@section('meta_description',
+    'Aluminium Bronze – high-strength copper alloy offering exceptional corrosion resistance
     for marine, chemical, and heavy industrial applications.')
-@section('meta_keywords', 'Aluminium Bronze, copper alloy, high strength copper, corrosion resistant alloy, marine
+@section('meta_keywords',
+    'Aluminium Bronze, copper alloy, high strength copper, corrosion resistant alloy, marine
     copper alloy, industrial copper alloy')
 @section('og_image', asset('assets/images/copper-alloys/copper alloys aluminium bronze.webp'))
 @section('og_type', 'article')
@@ -17,10 +19,13 @@
                 <div class="col-auto text-center">
                     <h1>Aluminium Bronze <br> High Strength Corrosion Alloy</h1>
 
- <!-- Add your extra content here -->
+                    <!-- Add your extra content here -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                       Aluminium Bronze is a high-strength copper alloy containing aluminium (5–12%) along with iron, nickel, and manganese for enhanced corrosion resistance and wear performance. These alloys deliver exceptional mechanical strength, excellent seawater resistance, and superior anti-galling properties—making them ideal for marine, offshore, defense, and heavy engineering applications.
+                        Aluminium Bronze is a high-strength copper alloy containing aluminium (5–12%) along with iron,
+                        nickel, and manganese for enhanced corrosion resistance and wear performance. These alloys deliver
+                        exceptional mechanical strength, excellent seawater resistance, and superior anti-galling
+                        properties—making them ideal for marine, offshore, defense, and heavy engineering applications.
 
                     </p>
                     <!-- End extra content -->
@@ -29,7 +34,7 @@
         </div>
     </section>
 
- <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
         <div class="container">
             <a href="#overview">Overview</a> |
             <a href="#composition">Chemical Composition</a> |
@@ -38,11 +43,11 @@
             <a href="#price">Advantages</a> |
             <a href="#applications">Applications</a> |
             <a href="#faq">FAQ</a> |
-            <a href="#contact us">Contact Us</a>
+            <a href="#contact-us">Contact Us</a>
         </div>
     </div>
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Copper Alloys C44300 | Product Overview</h2>
@@ -84,7 +89,7 @@
         </div>
     </section>
 
-         {{-- datasheet --}}
+    {{-- datasheet --}}
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Copper Alloys Aluminium Bronze Datasheet</h3>
@@ -127,207 +132,356 @@
         </div>
     </section>
     <!-- End Datasheet -->
-    
+
+
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Aluminium Bronze Specifications (C95400 / C95500 / C95800)</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-9">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Category</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Grades</td>
+                                    <td>C95400, C95500, C95800, BS 1400 AB1 / AB2</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Material Type</td>
+                                    <td>High-Strength Copper–Aluminium Alloy</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Composition Range</td>
+                                    <td>Cu 77–83%, Al 8.5–11.5%, Fe 3–5%, Ni 0–5.5%, Mn ≤ 1.5%</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Standards</td>
+                                    <td>ASTM B148, B150, B505, B271; BS 1400 AB1 / AB2</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Conditions</td>
+                                    <td>As-Cast, Hot Rolled, Cold Drawn, Heat Treated / Aged</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Heat Treatment</td>
+                                    <td>Annealing, Stress Relieving, Aging</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Testing Offered</td>
+                                    <td>Chemical, Mechanical, Hardness, IGC, UT (on request)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Certification</td>
+                                    <td>EN 10204 3.1 / 3.2 MTC</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chemical Composition -->
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition – Aluminium Bronze</h2>
+            </div>
+
+            <div class="table-responsive col-lg-10 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Element</th>
+                            <th>C95400 (%)</th>
+                            <th>C95500 (%)</th>
+                            <th>C95800 (%)</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Copper (Cu)</td>
+                            <td>83.0</td>
+                            <td>79.0</td>
+                            <td>77.0</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Aluminium (Al)</td>
+                            <td>10.5 – 11.5</td>
+                            <td>10.0 – 11.5</td>
+                            <td>8.5 – 9.5</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Iron (Fe)</td>
+                            <td>3.0 max</td>
+                            <td>3.5 – 5.0</td>
+                            <td>4.0 – 5.0</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Nickel (Ni)</td>
+                            <td>—</td>
+                            <td>4.5 – 5.5</td>
+                            <td>4.5 – 5.5</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Manganese (Mn)</td>
+                            <td>0.5 max</td>
+                            <td>1.5 max</td>
+                            <td>1.5 max</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Other Elements</td>
+                            <td>1.5 max</td>
+                            <td>1.5 max</td>
+                            <td>1.5 max</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Physical Properties -->
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center mb-4">
+                <h2 class="fw-bold" style="color:#174268;">Physical Properties of Aluminium Bronze</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Value</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Density</td>
+                            <td>7.6 – 7.8 g/cm³</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Melting Point</td>
+                            <td>~1030 – 1045 °C</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Thermal Conductivity</td>
+                            <td>40 – 60 W/m·K</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Electrical Conductivity</td>
+                            <td>7 – 12% IACS</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Magnetic Properties</td>
+                            <td>Non-Magnetic</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Heat Treatment -->
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>Heat Treatment of Aluminium Bronze</h2>
             </div>
 
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Element</th>
-                                    <th>C95400 (%)</th>
-                                    <th>C95500 (%)</th>
-                                    <th>C95800 (%)</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Carbon</td>
-                                    <td>83.0</td>
-                                    <td>79.0</td>
-                                    <td>77.0</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Aluminium</td>
-                                    <td>10.5 – 11.5</td>
-                                    <td>10.0 – 11.5</td>
-                                    <td>8.5 – 9.5</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Iron</td>
-                                    <td>3.0 max</td>
-                                    <td>3.5 – 5.0</td>
-                                    <td>4.0 – 5.0</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Nickel</td>
-                                    <td>—</td>
-                                    <td>4.5 – 5.5</td>
-                                    <td>4.5 – 5.5</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Manganese</td>
-                                    <td>0.5 max</td>
-                                    <td>1.5 max</td>
-                                    <td>1.5 max</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Other Elements</td>
-                                    <td>1.5 max</td>
-                                    <td>1.5 max</td>
-                                    <td>1.5 max</td>
-                                </tr>
-                                {{-- <tr class="t-row">
-                                    <td>Phosphorus</td>
-                                    <td>≤ 0.035</td>
-                                    <td>≤ 0.035</td>
-                                    <td>≤ 0.035</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Sulfur</td>
-                                    <td>≤ 0.03</td>
-                                    <td>≤ 0.03</td>
-                                    <td>≤ 0.03</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Nitrogen</td>
-                                    <td>0.20 – 0.30</td>
-                                    <td>0.20 – 0.30</td>
-                                    <td>0.20 – 0.30</td>
-                                </tr> --}}
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+            <div class="table-responsive col-lg-10 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Process</th>
+                            <th>Temperature Range</th>
+                            <th>Cooling / Procedure</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Annealing</td>
+                            <td>650 – 750°C</td>
+                            <td>Furnace cool slowly</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Stress Relieving</td>
+                            <td>250 – 350°C</td>
+                            <td>Air cool</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Solution Treatment</td>
+                            <td>780 – 870°C</td>
+                            <td>Water or oil quench</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Age Hardening</td>
+                            <td>450 – 550°C</td>
+                            <td>Air cool (increases strength)</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p class="mt-3 text-center">
+                    📌 Heat treatment varies by grade and desired mechanical properties.
+                </p>
             </div>
         </div>
     </section>
 
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-4">
+                <h2 class="fw-bold" style="color:#174268;">Mechanical Properties – Aluminium Bronze</h2>
+            </div>
 
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Annealed</th>
+                            <th>Cold-Drawn</th>
+                            <th>As-Cast</th>
+                            <th>Heat Treated</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Tensile Strength</td>
+                            <td>480–620 MPa</td>
+                            <td>760–1030 MPa</td>
+                            <td>380–480 MPa</td>
+                            <td>830–1100 MPa</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Yield Strength (0.2%)</td>
+                            <td>170–310 MPa</td>
+                            <td>480–760 MPa</td>
+                            <td>140–275 MPa</td>
+                            <td>760–965 MPa</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elongation</td>
+                            <td>30–50%</td>
+                            <td>10–20%</td>
+                            <td>10–30%</td>
+                            <td>5–15%</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Brinell Hardness</td>
+                            <td>150–230 HB</td>
+                            <td>230–300 HB</td>
+                            <td>120–180 HB</td>
+                            <td>250–320 HB</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Forms -->
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
-            <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+            <div class="section-title center">
+                <h2>Available Forms & Size Range – Aluminium Bronze</h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Value</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Density</td>
-                                    <td>7.6 – 7.8 g/cm³</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Melting Point</td>
-                                    <td>1030 – 1045 °C</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Thermal Conductivity</td>
-                                    <td>40 – 60 W/m·K</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Electrical Conductivity</td>
-                                    <td>7 – 12% IACS</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Magnetic Properties</td>
-                                    <td>Non-magnetic</td>
-                                </tr>
-                                {{--  <tr class="t-row">
-                                    <td>Thermal Conductivity</td>
-                                    <td>45 W/m·K</td>
-                                    <td>45 W/m·K</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Specific Heat Capacity</td>
-                                    <td>460 J/kg·K</td>
-                                    <td>460 J/kg·K</td>
-                                </tr> --}}
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Annealed</th>
-                                    <th>Hot-Finished</th>
-                                    <th>Cold Drawn</th>
-                                    <th>Cast / As-Cast</th>
-                                    <th>Heat Treated / Aged</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Tensile Strength (ksi / MPa)</td>
-                                    <td>70–90 ksi / 480–620 MPa</td>
-                                    <td>90–115 ksi / 620–790 MPa</td>
-                                    <td>110–150 ksi / 760–1030 MPa</td>
-                                    <td>55–70 ksi / 380–480 MPa</td>
-                                    <td>120–160 ksi / 830–1100 MPa</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Yield Strength (0.2%) (ksi / MPa)</td>
-                                    <td>25–45 ksi / 170–310 MPa</td>
-                                    <td>45–80 ksi / 310–550 MPa</td>
-                                    <td>70–110 ksi / 480–760 MPa</td>
-                                    <td>20–40 ksi / 140–275 MPa</td>
-                                    <td>110–140 ksi / 760–965 MPa</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Elongation (%)</td>
-                                    <td>30–50%</td>
-                                    <td>15–35%</td>
-                                    <td>10–20%</td>
-                                    <td>10–30%</td>
-                                    <td>5–15%</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Hardness (Rockwell B / C)</td>
-                                    <td>70–85 B</td>
-                                    <td>85–95 B0</td>
-                                    <td>90–100 B</td>
-                                    <td>60–75 B</td>
-                                    <td>25–40 C</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Brinell Hardness (HB)</td>
-                                    <td>150–230 HB</td>
-                                    <td>200–280 HB</td>
-                                    <td>230–300 HB</td>
-                                    <td>120–180 HB</td>
-                                    <td>250–320 HB</td>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+            <div class="table-responsive col-lg-10 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Product Form</th>
+                            <th>Size Range / Description</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Round Bars / Rods</td>
+                            <td>10 mm – 400 mm diameter</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Flats, Squares & Hex Bars</td>
+                            <td>Custom sizes up to 300 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Sheets & Plates</td>
+                            <td>2 – 150 mm (Width 600 – 3000 mm)</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Pipes (Seamless / Welded)</td>
+                            <td>OD 12 – 200 mm, WT 2 – 20 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Bushings & Bearings</td>
+                            <td>Custom OD / ID</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Rings, Discs & Forgings</td>
+                            <td>As per specification</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </section>
+
+    <!-- International Standards -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>C95400 / C95500 / C95800</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>B148, B150, B505, B271</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>BS</td>
+                            <td>AB1, AB2</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ISO / EN</td>
+                            <td>CuAl10Fe5Ni5 (approx.)</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>JIS</td>
+                            <td>CAC703, CAC704 (approx.)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
 
 
     @php
@@ -386,7 +540,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Aluminium Bronze</h2>
@@ -444,7 +598,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -488,7 +642,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Aluminium Bronze</h2>
@@ -602,8 +756,27 @@
         </div>
     </section>
 
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>Aluminium Bronze Price per kg in India</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹650 – ₹1,100 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -709,9 +882,9 @@
     </section>
     <!--End faq content area-->
 
-    
+
     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -767,7 +940,7 @@
     {{-- blog section end --}}
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

@@ -21,10 +21,13 @@
                 <div class="col-auto text-center">
                     <h1>Copper Nickel Alloy C71520 <br> Marine Grade & Corrosion Resistant</h1>
 
- <!-- Add your extra content here -->
+                    <!-- Add your extra content here -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                       Copper Nickel Alloy C71520 is a high-performance marine-grade alloy offering exceptional resistance to seawater corrosion, erosion, and biofouling. It combines excellent strength, durability, and thermal conductivity, making it ideal for shipbuilding, heat exchangers, condensers, offshore structures, and other demanding marine and coastal applications requiring long-term reliability.
+                        Copper Nickel Alloy C71520 is a high-performance marine-grade alloy offering exceptional resistance
+                        to seawater corrosion, erosion, and biofouling. It combines excellent strength, durability, and
+                        thermal conductivity, making it ideal for shipbuilding, heat exchangers, condensers, offshore
+                        structures, and other demanding marine and coastal applications requiring long-term reliability.
                     </p>
                     <!-- End extra content -->
                 </div>
@@ -32,7 +35,7 @@
         </div>
     </section>
 
-  <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
         <div class="container">
             <a href="#overview">Overview</a> |
             <a href="#composition">Chemical Composition</a> |
@@ -41,11 +44,11 @@
             <a href="#price">Advantages</a> |
             <a href="#applications">Applications</a> |
             <a href="#faq">FAQ</a> |
-            <a href="#contact us">Contact Us</a>
+            <a href="#contact-us">Contact Us</a>
         </div>
     </div>
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Copper Alloys C71520 | Product Overview</h2>
@@ -133,200 +136,403 @@
         </div>
     </section>
     <!-- End Datasheet -->
-   
-    <section class="sec-padd-top sec-padd-bottom">
+
+
+    <!-- ================= SPECIFICATION ================= -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>Technical Specifications – Copper Nickel C71520 (Enhanced Cu-Ni 70/30)</h2>
             </div>
 
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Element</th>
-                                    <th>Composition (%)</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Copper</td>
-                                    <td>Balance (approx. 65 – 69)</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Nickel</td>
-                                    <td>29.0 – 33.0</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Iron</td>
-                                    <td>0.4 – 1.2</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Manganese</td>
-                                    <td>0.5 – 1.0</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Zinc</td>
-                                    <td>≤ 1.0</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Lead</td>
-                                    <td>≤ 0.02</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Others</td>
-                                    <td>≤ 0.50 (Total)</td>
-                                </tr>
-                                {{-- <tr class="t-row">
-                                    <td>Others</td>
-                                    <td>0.50 max (total)</td>
-                                </tr> --}}
-                                {{--  <tr class="t-row">
-                                    <td>Nitrogen</td>
-                                    <td>0.20 – 0.30</td>
-                                    <td>0.20 – 0.30</td>
-                                    <td>0.20 – 0.30</td>
-                                </tr> --}}
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                         <tr class="t-row">
+                            <th>Category</th>
+                            <th>Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <tr class="t-row">
+                            <td>Material</td>
+                            <td>Copper Nickel 70/30 – Enhanced Grade</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>UNS Number</td>
+                            <td>C71520</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>EN Equivalent</td>
+                            <td>CW354H</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>ISO / DIN</td>
+                            <td>CuNi30Fe1Mn</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Copper Content</td>
+                            <td>~65 – 69 %</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Nickel Content</td>
+                            <td>29 – 33 %</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Iron Content</td>
+                            <td>0.4 – 1.2 %</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Manganese</td>
+                            <td>0.5 – 1.0 %</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Magnetic Properties</td>
+                            <td>Non-Magnetic</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Heat Treatable</td>
+                            <td>❌ No</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Strength Control</td>
+                            <td>Cold Working</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Seawater Resistance</td>
+                            <td>Excellent (High-Velocity Flow)</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Erosion / Cavitation</td>
+                            <td>Superior</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Typical Use</td>
+                            <td>Marine, Offshore, Heat Exchangers</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- ================= CHEMICAL COMPOSITION ================= -->
+    <section class="sec-padd-top sec-padd-bottom" id="composition">
         <div class="container">
-            <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+            <div class="section-title center">
+                <h2>Chemical Composition – UNS C71520</h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Metric</th>
-                                    <th>Imperial</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Density</td>
-                                    <td>8.94 g/cm³</td>
-                                    <td>0.323 lb/in³</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Melting Point</td>
-                                    <td>1240 – 1310 °C</td>
-                                    <td>2260 – 2390 °F</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Thermal Conductivity</td>
-                                    <td>33 W/m·K</td>
-                                    <td>19 Btu/ft·hr·°F</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Electrical Conductivity</td>
-                                    <td>-</td>
-                                    <td>6 – 10% IACS</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Electrical Resistivity</td>
-                                    <td>0.520 µΩ·m</td>
-                                    <td>312 ohm·cmil/ft</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Specific Heat</td>
-                                    <td>0.38 J/g·K</td>
-                                    <td>0.09 Btu/lb·°F</td>
-                                </tr>
-                                {{-- <tr class="t-row">
-                                    <td>Specific Heat Capacity</td>
-                                    <td>460 J/kg·K</td>
-                                    <td>460 J/kg·K</td>
-                                </tr> --}}
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle text-center">
+                    <thead class="table-dark">
+                         <tr class="t-row">
+                            <th>Element</th>
+                            <th>Composition (% by weight)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <tr class="t-row">
+                            <td>Copper (Cu)</td>
+                            <td>Balance (approx. 65 – 69)</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Nickel (Ni)</td>
+                            <td>29.0 – 33.0</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Iron (Fe)</td>
+                            <td>0.4 – 1.2</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Manganese (Mn)</td>
+                            <td>0.5 – 1.0</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Zinc (Zn)</td>
+                            <td>≤ 1.0</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Lead (Pb)</td>
+                            <td>≤ 0.02</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Other Impurities</td>
+                            <td>≤ 0.50 (Total)</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p class="mt-3 text-center">
+                    <strong>Note:</strong> C71520 includes enhanced control over trace elements and impurity levels for
+                    superior corrosion resistance in critical systems.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= PHYSICAL PROPERTIES ================= -->
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="properties">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Physical Properties – Copper Nickel C71520</h2>
             </div>
 
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Annealed / Soft (M20/O25)</th>
-                                    <th>Half-Hard (H01)</th>
-                                    <th>Quarter-Hard (H04)</th>
-                                    <th>Full-Hard (H08)</th>
-                                    <th>Flat Products (M10)</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Composition (wt%)</td>
-                                    <td>Cu ≥ 65.0, Ni 29–33, Fe 0.4–1.0, Mn ≤ 1.0, Zn ≤ 0.5, Pb/P/S ≤ 0.02, C ≤ 0.05 </td>
-                                    <td>Same</td>
-                                    <td>Same</td>
-                                    <td>Same</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Tensile Strength (ksi / MPa)</td>
-                                    <td>≥ 50 ksi / ≥ 345 MPa (flat M10: 45 ksi / 310 MPa)</td>
-                                    <td>55 ksi / 380 MPa</td>
-                                    <td>60 ksi / 415 MPa</td>
-                                    <td>65 ksi / 450 MPa</td>
-                                    <td>45–50 ksi / 310–345 MPa</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Yield Strength (0.2%) (ksi / MPa)</td>
-                                    <td>≥ 18 ksi / ≥ 125 MPa (M20: ≥ 18 ksi / 125 MPa)</td>
-                                    <td>25 ksi / 170 MPa</td>
-                                    <td>25 ksi / 170 MPa</td>
-                                    <td>25 ksi / 170 MPa</td>
-                                    <td>≥ 20 ksi / 105 MPa</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Elongation (%)</td>
-                                    <td>≥ 30–35 % (flat: ≥ 30 %)</td>
-                                    <td>≥ 10 %</td>
-                                    <td>≥ 10 %</td>
-                                    <td>≥ 10 %</td>
-                                    <td>≥ 30 %</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Brinell Hardness (HB) </td>
-                                    <td>80 HB (soft)</td>
-                                    <td>80–100 HB</td>
-                                    <td>100–120 HB</td>
-                                    <td>110–130 HB</td>
-                                    <td>80 HB – typical</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Rockwell Hardness (B)</td>
-                                    <td>≤ 88 B</td>
-                                    <td>—</td>
-                                    <td>—</td>
-                                    <td>≤ 88 B</td>
-                                    <td>—</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle text-center">
+                    <thead class="table-dark">
+                         <tr class="t-row">
+                            <th>Property</th>
+                            <th>Imperial Units</th>
+                            <th>Metric Units</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <tr class="t-row">
+                            <td>Density</td>
+                            <td>0.323 lb/in³</td>
+                            <td>8.94 g/cm³</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Melting Range</td>
+                            <td>2260 – 2390 °F</td>
+                            <td>1240 – 1310 °C</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Thermal Conductivity</td>
+                            <td>19 Btu/ft·hr·°F</td>
+                            <td>33 W/m·K</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Electrical Conductivity</td>
+                            <td>6 – 10% IACS</td>
+                            <td>—</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Electrical Resistivity</td>
+                            <td>312 ohm·cmil/ft</td>
+                            <td>0.520 µΩ·m</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Specific Heat</td>
+                            <td>0.09 Btu/lb·°F</td>
+                            <td>0.38 J/g·K</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= HEAT TREATMENT ================= -->
+    <section class="sec-padd-top sec-padd-bottom" id="heat-treatment">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Heat Treatment & Fabrication – C71520</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle text-center">
+                    <thead class="table-dark">
+                         <tr class="t-row">
+                            <th>Process</th>
+                            <th>Temperature Range</th>
+                            <th>Purpose</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <tr class="t-row">
+                            <td>Annealing</td>
+                            <td>700 – 900 °C</td>
+                            <td>Restores ductility</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Stress Relieving</td>
+                            <td>300 – 350 °C</td>
+                            <td>Reduces residual stresses</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Cold Working</td>
+                            <td>—</td>
+                            <td>Increases strength & hardness</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Welding</td>
+                            <td>TIG / MIG / SMAW</td>
+                            <td>Excellent weldability</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Brazing</td>
+                            <td>✔</td>
+                            <td>Suitable</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p class="mt-3 text-center">
+                    C71520 retains corrosion resistance and mechanical integrity after welding, making it ideal for naval
+                    and offshore systems.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= MECHANICAL PROPERTIES ================= -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Mechanical Properties – C71520 (Annealed Condition)</h2>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle text-center">
+                    <thead class="table-dark">
+                         <tr class="t-row">
+                            <th>Condition</th>
+                            <th>Tensile Strength</th>
+                            <th>Yield Strength (0.2%)</th>
+                            <th>Elongation (%)</th>
+                            <th>Hardness</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <tr class="t-row">
+                            <td>Annealed / Soft (M20 / O25)</td>
+                            <td>≥ 50 ksi / ≥ 345 MPa</td>
+                            <td>≥ 18 ksi / ≥ 125 MPa</td>
+                            <td>30 – 35%</td>
+                            <td>~80 HB</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Half-Hard (H01)</td>
+                            <td>~55 ksi / ~380 MPa</td>
+                            <td>~25 ksi / ~170 MPa</td>
+                            <td>≥ 10%</td>
+                            <td>80 – 100 HB</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Quarter-Hard (H04)</td>
+                            <td>~60 ksi / ~415 MPa</td>
+                            <td>~25 ksi / ~170 MPa</td>
+                            <td>≥ 10%</td>
+                            <td>100 – 120 HB</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Full-Hard (H08)</td>
+                            <td>~65 ksi / ~450 MPa</td>
+                            <td>~25 ksi / ~170 MPa</td>
+                            <td>≥ 10%</td>
+                            <td>110 – 130 HB</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Flat Products (M10)</td>
+                            <td>45 – 50 ksi / 310 – 345 MPa</td>
+                            <td>≥ 20 ksi / ≥ 105 MPa</td>
+                            <td>≥ 30%</td>
+                            <td>~80 HB</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= AVAILABLE FORMS ================= -->
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Available Forms & Size Range – C71520</h2>
+            </div>
+
+            <div class="table-responsive col-lg-10 mx-auto">
+                <table class="table table-bordered table-striped align-middle text-center">
+                    <thead class="table-dark">
+                         <tr class="t-row">
+                            <th>Product Form</th>
+                            <th>Size Range</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <tr class="t-row">
+                            <td>Pipes & Tubes</td>
+                            <td>OD 6 – 450 mm, WT 0.7 – 35 mm</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Sheets & Plates</td>
+                            <td>Thickness 0.5 – 80 mm</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Coils & Strips</td>
+                            <td>0.1 – 6 mm</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Rods & Bars</td>
+                            <td>Ø 6 – 350 mm</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Fittings & Flanges</td>
+                            <td>ASME / DIN Standards</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Forged Components</td>
+                            <td>As per drawing</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Welding Products</td>
+                            <td>Matching filler wires & electrodes</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= INTERNATIONAL STANDARDS ================= -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades – C71520</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle text-center">
+                    <thead class="table-dark">
+                         <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <tr class="t-row">
+                            <td>UNS</td>
+                            <td>C71520</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>EN</td>
+                            <td>CW354H</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>ISO</td>
+                            <td>CuNi30Fe1Mn</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>DIN</td>
+                            <td>2.0882</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>B111, B122, B171, B466, B467</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>MIL</td>
+                            <td>MIL-T-16420</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>DEF-STAN</td>
+                            <td>02-879</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </section>
@@ -388,7 +594,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Copper Alloys C71520</h2>
@@ -446,7 +652,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -490,7 +696,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Copper Alloys C71520</h2>
@@ -607,8 +813,27 @@
         </div>
     </section>
 
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>COPPER NICKEL C71520 PRICE PER KG (INDIA)</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹2,400 – ₹4,800 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -712,9 +937,9 @@
     </section>
     <!--End faq content area-->
 
-    
+
     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -770,7 +995,7 @@
     {{-- blog section end --}}
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
