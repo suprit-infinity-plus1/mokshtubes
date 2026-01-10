@@ -2,10 +2,12 @@
 
 @section('title', 'Copper Nickel Cu-Ni 90/10 | Marine & Seawater Alloy')
 
-@section('meta_description', 'Copper Nickel Alloy 90/10 (Cu-Ni) offers outstanding corrosion resistance, durability, and
+@section('meta_description',
+    'Copper Nickel Alloy 90/10 (Cu-Ni) offers outstanding corrosion resistance, durability, and
     strength for seawater, marine, and offshore applications.')
 
-@section('meta_keywords', 'Copper Nickel 90/10, Cu-Ni 90/10 Alloy, Copper Nickel Marine Alloy, Seawater Resistant Copper
+@section('meta_keywords',
+    'Copper Nickel 90/10, Cu-Ni 90/10 Alloy, Copper Nickel Marine Alloy, Seawater Resistant Copper
     Nickel, Corrosion Resistant Cu-Ni 90/10, Durable Copper Nickel Alloy, Industrial Copper Nickel')
 @section('og_image', asset('assets/images/copper-alloys/copper-alloys-cu-ni-90_10.webp'))
 @section('og_type', 'article')
@@ -19,10 +21,13 @@
                 <div class="col-auto text-center">
                     <h1>Copper Nickel Alloy 90/10 (Cu-Ni) <br> Marine Grade</h1>
 
-                      <!-- Add your extra content here -->
+                    <!-- Add your extra content here -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                       Copper Nickel Alloy 90/10 (Cu-Ni) is a reliable marine-grade alloy offering excellent resistance to seawater corrosion and biofouling. It provides good strength, high durability, and efficient thermal conductivity, making it well suited for heat exchangers, condensers, seawater piping systems, shipbuilding, and coastal engineering applications where long-term performance is essential.
+                        Copper Nickel Alloy 90/10 (Cu-Ni) is a reliable marine-grade alloy offering excellent resistance to
+                        seawater corrosion and biofouling. It provides good strength, high durability, and efficient thermal
+                        conductivity, making it well suited for heat exchangers, condensers, seawater piping systems,
+                        shipbuilding, and coastal engineering applications where long-term performance is essential.
 
                     </p>
                     <!-- End extra content -->
@@ -40,11 +45,11 @@
             <a href="#price">Advantages</a> |
             <a href="#applications">Applications</a> |
             <a href="#faq">FAQ</a> |
-            <a href="#contact us">Contact Us</a>
+            <a href="#contact-us">Contact Us</a>
         </div>
     </div>
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Copper Alloys CU-NI 90/10 | Product Overview</h2>
@@ -129,179 +134,371 @@
         </div>
     </section>
     <!-- End Datasheet -->
-   
-    <section class="sec-padd-top sec-padd-bottom">
+
+
+    <!-- ================= SPECIFICATION ================= -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>Technical Specifications – Copper Nickel 90/10 (UNS C70600)</h2>
             </div>
 
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Element</th>
-                                    <th>Composition (%)</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Copper</td>
-                                    <td>Balance</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Nickel</td>
-                                    <td>9.0 – 11.0</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Iron</td>
-                                    <td>1.0 – 1.8</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Manganese</td>
-                                    <td>1.0 max</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Zinc</td>
-                                    <td>1.0 max</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Lead</td>
-                                    <td>0.05 max</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Others</td>
-                                    <td>0.50 max (total)</td>
-                                </tr>
-                                {{-- <tr class="t-row">
-                                    <td>Others</td>
-                                    <td>0.50 max (total)</td>
-                                </tr> --}}
-                                {{--  <tr class="t-row">
-                                    <td>Nitrogen</td>
-                                    <td>0.20 – 0.30</td>
-                                    <td>0.20 – 0.30</td>
-                                    <td>0.20 – 0.30</td>
-                                </tr> --}}
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                         <tr class="t-row">
+                            <th>Parameter</th>
+                            <th>Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <tr class="t-row">
+                            <td>Material</td>
+                            <td>Copper Nickel 90/10</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>UNS No.</td>
+                            <td>C70600</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>EN / DIN</td>
+                            <td>CW352H / 2.0872</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Type</td>
+                            <td>Copper-Nickel Alloy</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Copper Content</td>
+                            <td>~88 – 90 %</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Nickel Content</td>
+                            <td>9 – 11 %</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Iron Content</td>
+                            <td>1.0 – 1.8 %</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Magnetic Properties</td>
+                            <td>Non-Magnetic</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Heat Treatable</td>
+                            <td>❌ No (Strength by cold work)</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Weldability</td>
+                            <td>Excellent</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Corrosion Resistance</td>
+                            <td>Outstanding (Seawater & Marine)</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- ================= CHEMICAL COMPOSITION ================= -->
+    <section class="sec-padd-top sec-padd-bottom" id="composition">
         <div class="container">
-            <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+            <div class="section-title center">
+                <h2>Chemical Composition – Copper Nickel 90/10 (C70600)</h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Imperial</th>
-                                    <th>Metric</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Density</td>
-                                    <td>0.323 lb/in³</td>
-                                    <td>8.94 g/cm³</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Melting Point</td>
-                                    <td>2260 – 2370 °F</td>
-                                    <td>1240 – 1300 °C</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Thermal Conductivity</td>
-                                    <td>26 Btu/ft·hr·°F</td>
-                                    <td>45 W/m·K</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Electrical Resistivity</td>
-                                    <td>207 ohm·cmil/ft</td>
-                                    <td>0.345 µΩ·m</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Specific Heat Capacity</td>
-                                    <td>0.09 Btu/lb·°F</td>
-                                    <td>0.38 J/g·K</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Coefficient of Expansion</td>
-                                    <td>9.8 x 10⁻⁶ /°F</td>
-                                    <td>17.6 x 10⁻⁶ /°C</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Annealed</th>
-                                    <th>Cold-Drawn / Tubing</th>
-                                    <th>Rod / General Use</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Tensile Strength (ksi / MPa)</td>
-                                    <td>300–414 MPa (44–60 ksi)</td>
-                                    <td>345–485 MPa (50–70 ksi) proof strength for tubing</td>
-                                    <td>310–480 MPa (45–70 ksi)</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Yield Strength (0.2%) (ksi / MPa)</td>
-                                    <td>100–300 MPa (15–43 ksi)</td>
-                                    <td>Same as above: 345 MPa (50 ksi) (tubing)</td>
-                                    <td>105–240 MPa (15–35 ksi)</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Elongation (%)</td>
-                                    <td>42% typical</td>
-                                    <td>—</td>
-                                    <td>25–35% (rod)</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Brinell Hardness (HB) </td>
-                                    <td>70–120 HB</td>
-                                    <td>70–120 HB (tubing)</td>
-                                    <td>—</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Rockwell Hardness (B)</td>
-                                    <td>R290 (70–110 HB)</td>
-                                    <td>H08/H06/H04 spring temp up to 87–91 B</td>
-                                    <td>—</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle text-center">
+                    <thead class="table-dark">
+                         <tr class="t-row">
+                            <th>Element</th>
+                            <th>Composition (% by weight)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <tr class="t-row">
+                            <td>Copper (Cu)</td>
+                            <td>Balance (typically ~88.6)</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Nickel (Ni)</td>
+                            <td>9.0 – 11.0</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Iron (Fe)</td>
+                            <td>1.0 – 1.8</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Manganese (Mn)</td>
+                            <td>1.0 max</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Zinc (Zn)</td>
+                            <td>1.0 max</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Lead (Pb)</td>
+                            <td>0.05 max</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Other Impurities</td>
+                            <td>0.50 max (total)</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </section>
+
+    <!-- ================= PHYSICAL PROPERTIES ================= -->
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="properties">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Physical Properties – Copper Nickel 90/10</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle text-center">
+                    <thead class="table-dark">
+                         <tr class="t-row">
+                            <th>Property</th>
+                            <th>Imperial Units</th>
+                            <th>Metric Units</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <tr class="t-row">
+                            <td>Density</td>
+                            <td>0.323 lb/in³</td>
+                            <td>8.94 g/cm³</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Melting Range</td>
+                            <td>2260 – 2370 °F</td>
+                            <td>1240 – 1300 °C</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Thermal Conductivity</td>
+                            <td>26 Btu/ft·hr·°F</td>
+                            <td>45 W/m·K</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Electrical Resistivity</td>
+                            <td>207 ohm·cmil/ft</td>
+                            <td>0.345 µΩ·m</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Specific Heat Capacity</td>
+                            <td>0.09 Btu/lb·°F</td>
+                            <td>0.38 J/g·K</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Coefficient of Expansion</td>
+                            <td>9.8 × 10⁻⁶ /°F</td>
+                            <td>17.6 × 10⁻⁶ /°C</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= HEAT TREATMENT ================= -->
+    <section class="sec-padd-top sec-padd-bottom" id="heat-treatment">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Heat Treatment & Fabrication – Copper Nickel 90/10</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle text-center">
+                    <thead class="table-dark">
+                         <tr class="t-row">
+                            <th>Process</th>
+                            <th>Temperature Range</th>
+                            <th>Purpose</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <tr class="t-row">
+                            <td>Annealing</td>
+                            <td>700 – 900 °C</td>
+                            <td>Restores ductility & removes work hardening</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Stress Relieving</td>
+                            <td>300 – 350 °C</td>
+                            <td>Reduces residual stresses</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Cold Working</td>
+                            <td>—</td>
+                            <td>Improves strength & hardness</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Welding</td>
+                            <td>TIG / MIG / SMAW</td>
+                            <td>Excellent with Cu-Ni fillers</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p class="text-center mt-3">
+                Cu-Ni 90/10 maintains corrosion resistance and mechanical integrity even after welding, making it ideal for
+                marine pipelines and heat exchangers.
+            </p>
+        </div>
+    </section>
+
+    <!-- ================= MECHANICAL PROPERTIES ================= -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Mechanical Properties – Copper Nickel 90/10</h2>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle text-center">
+                    <thead class="table-dark">
+                         <tr class="t-row">
+                            <th>Property / Form</th>
+                            <th>Annealed</th>
+                            <th>Cold-Drawn / Tubing</th>
+                            <th>Rod / General Use</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <tr class="t-row">
+                            <td>Tensile Strength</td>
+                            <td>300 – 414 MPa (44 – 60 ksi)</td>
+                            <td>345 – 485 MPa (50 – 70 ksi)</td>
+                            <td>310 – 480 MPa (45 – 70 ksi)</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Yield Strength (0.2%)</td>
+                            <td>100 – 300 MPa (15 – 43 ksi)</td>
+                            <td>~345 MPa (50 ksi)</td>
+                            <td>105 – 240 MPa (15 – 35 ksi)</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Elongation (%)</td>
+                            <td>~42 %</td>
+                            <td>—</td>
+                            <td>25 – 35 %</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Brinell Hardness</td>
+                            <td>70 – 120 HB</td>
+                            <td>70 – 120 HB</td>
+                            <td>—</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Rockwell Hardness (B)</td>
+                            <td>~70 – 110 HB</td>
+                            <td>Up to ~87 – 91 B</td>
+                            <td>—</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= AVAILABLE FORMS ================= -->
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Available Forms & Size Range – Copper Nickel 90/10</h2>
+            </div>
+
+            <div class="table-responsive col-lg-10 mx-auto">
+                <table class="table table-bordered table-striped align-middle text-center">
+                    <thead class="table-dark">
+                         <tr class="t-row">
+                            <th>Product Form</th>
+                            <th>Size Range</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <tr class="t-row">
+                            <td>Pipes & Tubes</td>
+                            <td>OD 6 – 450 mm, WT 0.7 – 30 mm</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Sheets & Plates</td>
+                            <td>Thickness 0.5 – 80 mm</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Coils & Strips</td>
+                            <td>0.1 – 6 mm</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Rods & Bars</td>
+                            <td>Ø 6 – 350 mm</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Fittings & Flanges</td>
+                            <td>ASME / DIN standards</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>Forged Components</td>
+                            <td>As per drawing</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= INTERNATIONAL STANDARDS ================= -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades – Copper Nickel 90/10</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle text-center">
+                    <thead class="table-dark">
+                         <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                         <tr class="t-row">
+                            <td>UNS</td>
+                            <td>C70600</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>EN</td>
+                            <td>CW352H</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>DIN</td>
+                            <td>2.0872</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>B111, B466, B467</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>ISO</td>
+                            <td>CuNi10Fe1Mn</td>
+                        </tr>
+                         <tr class="t-row">
+                            <td>BS</td>
+                            <td>CN102</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
 
 
     @php
@@ -360,7 +557,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Copper Alloys CU-NI 90/10</h2>
@@ -418,7 +615,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -463,7 +660,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Copper Alloys CU-NI 90/10</h2>
@@ -579,8 +776,27 @@
         </div>
     </section>
 
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>COPPER NICKEL 90/10 PRICE PER KG (INDIA)</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹1,800 – ₹3,500 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -695,9 +911,9 @@
     </section>
     <!--End faq content area-->
 
-    
+
     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -753,7 +969,7 @@
     {{-- blog section end --}}
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

@@ -1,8 +1,10 @@
 @extends('layouts.master')
 @section('title', 'Beryllium Copper Alloy | High Conductivity & Durability')
-@section('meta_description', 'BBeryllium Copper – premium alloy with superior electrical conductivity, exceptional
+@section('meta_description',
+    'BBeryllium Copper – premium alloy with superior electrical conductivity, exceptional
     strength, and wear resistance for industrial applications')
-@section('meta_keywords', 'Beryllium Copper, high conductivity copper alloy, durable copper alloy, wear resistant
+@section('meta_keywords',
+    'Beryllium Copper, high conductivity copper alloy, durable copper alloy, wear resistant
     copper, electrical copper alloy, industrial copper alloy')
 @section('og_image', asset('assets/images/copper-alloys/copper-alloys-beryllium-copper.webp'))
 @section('og_type', 'article')
@@ -16,10 +18,13 @@
                 <div class="col-auto text-center">
                     <h1>Beryllium Copper <br> High Conductivity & Durable Alloy</h1>
 
-                     <!-- Add your extra content here -->
+                    <!-- Add your extra content here -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                        Beryllium Copper is a high-strength copper alloy that combines excellent electrical and thermal conductivity with outstanding durability. It offers superior resistance to wear, fatigue, and corrosion, making it ideal for demanding applications such as electrical components, springs, precision tools, and aerospace parts where reliability and long service life are essential.
+                        Beryllium Copper is a high-strength copper alloy that combines excellent electrical and thermal
+                        conductivity with outstanding durability. It offers superior resistance to wear, fatigue, and
+                        corrosion, making it ideal for demanding applications such as electrical components, springs,
+                        precision tools, and aerospace parts where reliability and long service life are essential.
 
                     </p>
                     <!-- End extra content -->
@@ -28,7 +33,7 @@
         </div>
     </section>
 
- <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
         <div class="container">
             <a href="#overview">Overview</a> |
             <a href="#composition">Chemical Composition</a> |
@@ -37,11 +42,11 @@
             <a href="#price">Advantages</a> |
             <a href="#applications">Applications</a> |
             <a href="#faq">FAQ</a> |
-            <a href="#contact us">Contact Us</a>
+            <a href="#contact-us">Contact Us</a>
         </div>
     </div>
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Copper Alloys C44300 | Product Overview</h2>
@@ -86,7 +91,7 @@
         </div>
     </section>
 
-        {{-- datasheet --}}
+    {{-- datasheet --}}
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
             <h3 class="mb-3" style="color:#174268;">Download Copper Alloys Beryllium Coppar Datasheet</h3>
@@ -129,180 +134,294 @@
         </div>
     </section>
     <!-- End Datasheet -->
-   
+
+
+    <!-- Chemical Composition -->
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of Beryllium Copper C17200</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Element</th>
+                            <th>Composition (%)</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Beryllium (Be)</td>
+                            <td>1.80 – 2.00</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Cobalt + Nickel (Co + Ni)</td>
+                            <td>0.20 – 0.50</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Copper (Cu)</td>
+                            <td>Balance</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Iron (Fe)</td>
+                            <td>0.15 max</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Lead (Pb)</td>
+                            <td>0.02 max</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Others (each)</td>
+                            <td>0.10 max</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Physical Properties -->
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center mb-4">
+                <h2 class="fw-bold" style="color:#174268;">Physical Properties of Beryllium Copper C17200</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Value</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Density</td>
+                            <td>8.25 g/cm³</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Melting Point</td>
+                            <td>866 – 982 °C</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Electrical Conductivity</td>
+                            <td>20 – 65% IACS</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Thermal Conductivity</td>
+                            <td>105 W/m·K</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Specific Heat Capacity</td>
+                            <td>0.38 J/g·K</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Modulus of Elasticity</td>
+                            <td>131 GPa</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Heat Treatment -->
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>Heat Treatment of Beryllium Copper C17200</h2>
             </div>
 
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Element</th>
-                                    <th>Composition (%)</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Beryllium</td>
-                                    <td>1.80 – 2.00</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Cobalt + Nickel</td>
-                                    <td>0.20 – 0.50 </td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Copper</td>
-                                    <td>Balance</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Iron</td>
-                                    <td>0.15 </td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Lead</td>
-                                    <td>0.02 </td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Other Elements</td>
-                                    <td>0.10 </td>
-                                </tr>
-                                {{-- <tr class="t-row">
-                                    <td>Phosphorus</td>
-                                    <td>≤ 0.035</td>
-                                    <td>≤ 0.035</td>
-                                    <td>≤ 0.035</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Sulfur</td>
-                                    <td>≤ 0.03</td>
-                                    <td>≤ 0.03</td>
-                                    <td>≤ 0.03</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Nitrogen</td>
-                                    <td>0.20 – 0.30</td>
-                                    <td>0.20 – 0.30</td>
-                                    <td>0.20 – 0.30</td>
-                                </tr> --}}
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+            <div class="table-responsive col-lg-10 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Heat Treatment Stage</th>
+                            <th>Temperature Range</th>
+                            <th>Purpose</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Solution Annealing</td>
+                            <td>760 – 800°C</td>
+                            <td>Dissolves beryllium into copper matrix</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Quenching</td>
+                            <td>Water quench</td>
+                            <td>Retains solid solution</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Age Hardening (Precipitation)</td>
+                            <td>315 – 325°C (2–3 hrs)</td>
+                            <td>Achieves maximum strength & hardness</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Stress Relieving</td>
+                            <td>260 – 315°C</td>
+                            <td>Reduces internal stresses</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p class="mt-3 text-center">
+                    📌 After precipitation hardening, C17200 can reach up to <strong>45 HRC</strong> with excellent fatigue
+                    resistance.
+                </p>
             </div>
         </div>
     </section>
 
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-4">
+                <h2 class="fw-bold" style="color:#174268;">Mechanical Properties of Beryllium Copper C17200 (Aged)</h2>
+            </div>
 
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Annealed (TB00)</th>
+                            <th>Cold-Drawn</th>
+                            <th>Precipitation Hardened (HT)</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Tensile Strength</td>
+                            <td>415–585 MPa</td>
+                            <td>620–1140 MPa</td>
+                            <td>1140–1585 MPa</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Yield Strength (0.2%)</td>
+                            <td>275–345 MPa</td>
+                            <td>≈90% of TS</td>
+                            <td>≈90% of TS</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elongation</td>
+                            <td>20–30%</td>
+                            <td>10–20%</td>
+                            <td>2–5%</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Hardness</td>
+                            <td>35–60 HRB</td>
+                            <td>Up to 60 HRB</td>
+                            <td>36–45 HRC</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Electrical Conductivity</td>
+                            <td>19–28% IACS</td>
+                            <td>15–20% IACS</td>
+                            <td>15–20% IACS</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Forms -->
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
-            <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+            <div class="section-title center">
+                <h2>Available Forms & Size Range – Beryllium Copper C17200</h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Value</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Density</td>
-                                    <td>8.25 g/cm³</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Melting Point</td>
-                                    <td>866 – 982 °C</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Thermal Conductivity</td>
-                                    <td>105 W/m·K</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Electrical Conductivity</td>
-                                    <td>20 – 65% IACS</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Specific Heat Capacity</td>
-                                    <td>0.38 J/g·K</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Modulus of Elasticity</td>
-                                    <td>131 GPa</td>
-                                </tr>
-                                {{-- <tr class="t-row">
-                                    <td>Specific Heat Capacity</td>
-                                    <td>460 J/kg·K</td>
-                                    <td>460 J/kg·K</td>
-                                </tr> --}}
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Annealed (TB00)</th>
-                                    <th>Cold-Drawn (¼ to Full Hard)</th>
-                                    <th>Precipitation Hardened (HT Series)</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Tensile Strength (ksi / MPa)</td>
-                                    <td>60–85 ksi / 415–585 MPa</td>
-                                    <td>90–165 ksi / 620–1140 MPa (increases with hardness)</td>
-                                    <td>165–230 ksi / 1140–1585 MPa</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Yield Strength (0.2%) (ksi / MPa)</td>
-                                    <td>40–50 ksi / 275–345 MPa</td>
-                                    <td>Approx. 90% of tensile strength for HT tempers</td>
-                                    <td>Approx. 90% of tensile strength</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Elongation (%)</td>
-                                    <td>20–30%</td>
-                                    <td>10–20%</td>
-                                    <td>2–5%</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Hardness (Rockwell B / C)</td>
-                                    <td>35–60 B</td>
-                                    <td>Up to 60 B</td>
-                                    <td>36–45 HRC</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Electrical Conductivity (% IACS)</td>
-                                    <td>19–28%</td>
-                                    <td>15–20%</td>
-                                    <td>15–20%</td>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+            <div class="table-responsive col-lg-10 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Product Form</th>
+                            <th>Size Range</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Sheets & Plates</td>
+                            <td>0.5 – 50 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Coils & Strips</td>
+                            <td>0.1 – 5 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Rods & Bars</td>
+                            <td>Ø 5 – 300 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Pipes & Tubes</td>
+                            <td>OD 6 – 150 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Wires & Foils</td>
+                            <td>As thin as 0.02 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Forged Components</td>
+                            <td>As per drawing</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </section>
+
+    <!-- International Standards -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades – C17200</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>C17200</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>Alloy 25</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>SAE</td>
+                            <td>J461 / J463</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>AMS</td>
+                            <td>4533, 4534, 4535, 4650</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>DIN</td>
+                            <td>CuBe2</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ISO</td>
+                            <td>CuBe2</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
 
 
     @php
@@ -361,7 +480,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Beryllium Copper</h2>
@@ -419,7 +538,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -463,7 +582,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications"class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Beryllium Copper</h2>
@@ -578,8 +697,27 @@
         </div>
     </section>
 
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>BERYLLIUM COPPER PRICE PER KG (INDIA)</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹4,500 – ₹9,000 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -693,9 +831,9 @@
     </section>
     <!--End faq content area-->
 
-    
+
     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -751,7 +889,7 @@
     {{-- blog section end --}}
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

@@ -24,7 +24,11 @@
                     <!-- Add your extra content here -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                       Copper Alloy C44300 (Admiralty Brass) is a corrosion-resistant copper-zinc-tin alloy specially developed for marine and heat-exchange applications. It offers excellent resistance to seawater corrosion, good thermal conductivity, and reliable mechanical strength, making it an ideal choice for condenser tubes, heat exchangers, and coastal or offshore engineering environments where long-term performance is essential.
+                        Copper Alloy C44300 (Admiralty Brass) is a corrosion-resistant copper-zinc-tin alloy specially
+                        developed for marine and heat-exchange applications. It offers excellent resistance to seawater
+                        corrosion, good thermal conductivity, and reliable mechanical strength, making it an ideal choice
+                        for condenser tubes, heat exchangers, and coastal or offshore engineering environments where
+                        long-term performance is essential.
 
                     </p>
                     <!-- End extra content -->
@@ -42,12 +46,12 @@
             <a href="#price">Advantages</a> |
             <a href="#applications">Applications</a> |
             <a href="#faq">FAQ</a> |
-            <a href="#contact us">Contact Us</a>
+            <a href="#contact-us">Contact Us</a>
         </div>
     </div>
     <!--End breadcrumb area-->
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Copper Alloys C44300 | Product Overview</h2>
@@ -133,10 +137,12 @@
     </section>
     <!-- End Datasheet -->
 
-    <section class="sec-padd-top sec-padd-bottom">
+
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>Technical Specifications – C44300 Admiralty Brass</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -145,53 +151,63 @@
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Element</th>
-                                    <th>Composition (%)</th>
+                                    <th>Category</th>
+                                    <th>Details</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-center">
+                            <tbody>
                                 <tr class="t-row">
-                                    <td>Copper</td>
-                                    <td>70.0 – 73.0</td>
+                                    <td>Material</td>
+                                    <td>Admiralty Brass</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Zinc</td>
+                                    <td>UNS No.</td>
+                                    <td>C44300</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Alloy Type</td>
+                                    <td>Copper–Zinc–Tin–Arsenic Alloy</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Copper Content</td>
+                                    <td>70 – 73 %</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Tin Content</td>
+                                    <td>0.9 – 1.2 %</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Arsenic Content</td>
+                                    <td>0.02 – 0.06 %</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Zinc Content</td>
                                     <td>Balance</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Tin</td>
-                                    <td>0.9 – 1.2</td>
+                                    <td>Density</td>
+                                    <td>~8.49 g/cm³</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Arsenic</td>
-                                    <td>0.02 – 0.06</td>
+                                    <td>Magnetic Properties</td>
+                                    <td>Non-Magnetic</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Lead</td>
-                                    <td>0.07 max</td>
+                                    <td>Heat Treatable</td>
+                                    <td>No</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Iron</td>
-                                    <td>0.06 max</td>
-                                </tr>
-                                {{-- <tr class="t-row">
-                                    <td>Phosphorus</td>
-                                    <td>≤ 0.035</td>
-                                    <td>≤ 0.035</td>
-                                    <td>≤ 0.035</td>
+                                    <td>Strength Control</td>
+                                    <td>Cold Working</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Sulfur</td>
-                                    <td>≤ 0.03</td>
-                                    <td>≤ 0.03</td>
-                                    <td>≤ 0.03</td>
+                                    <td>Dezincification Resistance</td>
+                                    <td>Excellent</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Nitrogen</td>
-                                    <td>0.20 – 0.30</td>
-                                    <td>0.20 – 0.30</td>
-                                    <td>0.20 – 0.30</td>
-                                </tr> --}}
+                                    <td>Typical Service</td>
+                                    <td>Condensers & Heat Exchangers</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -200,131 +216,253 @@
         </div>
     </section>
 
+    <!-- Chemical Composition -->
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of C44300 Admiralty Brass</h2>
+            </div>
 
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Element</th>
+                            <th>Composition (%)</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Copper (Cu)</td>
+                            <td>70.0 – 73.0</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Zinc (Zn)</td>
+                            <td>Balance</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Tin (Sn)</td>
+                            <td>0.9 – 1.2</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Arsenic (As)</td>
+                            <td>0.02 – 0.06</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Lead (Pb)</td>
+                            <td>0.07 max</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Iron (Fe)</td>
+                            <td>0.06 max</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Physical Properties -->
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center mb-4">
+                <h2 class="fw-bold" style="color:#174268;">Physical Properties of C44300 Admiralty Brass</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Imperial</th>
+                            <th>Metric</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Density</td>
+                            <td>0.307 lb/in³</td>
+                            <td>8.49 g/cm³</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Melting Point</td>
+                            <td>1630 – 1660 °F</td>
+                            <td>888 – 905 °C</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Thermal Conductivity</td>
+                            <td>64 Btu/ft·hr·°F</td>
+                            <td>111 W/m·K</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Electrical Conductivity</td>
+                            <td>28% IACS</td>
+                            <td>—</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Specific Heat</td>
+                            <td>0.09 Btu/lb·°F</td>
+                            <td>377 J/kg·K</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Coefficient of Expansion</td>
+                            <td>10.2 µin/in·°F</td>
+                            <td>18.5 µm/m·K</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Heat Treatment -->
+    <section class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Heat Treatment & Fabrication of C44300</h2>
+            </div>
+
+            <div class="table-responsive col-lg-10 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Process</th>
+                            <th>Temperature Range</th>
+                            <th>Purpose</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Annealing</td>
+                            <td>450 – 650 °C</td>
+                            <td>Restores ductility</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Stress Relieving</td>
+                            <td>250 – 350 °C</td>
+                            <td>Reduces internal stress</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Cold Working</td>
+                            <td>—</td>
+                            <td>Improves strength</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Tube Expansion</td>
+                            <td>—</td>
+                            <td>Excellent</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Bending & Flaring</td>
+                            <td>—</td>
+                            <td>Very Good</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Forms -->
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
-            <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+            <div class="section-title center">
+                <h2>Available Forms & Size Range – C44300 Admiralty Brass</h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h3 class="text-center mb-3" style="color: #db7227;">Physical Properties</h3>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Imperial</th>
-                                    <th>Metric</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Density</td>
-                                    <td>0.307 lb/in</td>
-                                    <td>8.49 g/cm³</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Melting Point</td>
-                                    <td>1630–1660 °F</td>
-                                    <td>888–905 °C</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Thermal Conductivity</td>
-                                    <td>64 Btu/ft·hr·°F</td>
-                                    <td>111 W/m·K</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Electrical Conductivity</td>
-                                    <td>28% IACS</td>
-                                    <td>—</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Specific Heat</td>
-                                    <td>0.09 Btu/lb·°F</td>
-                                    <td>377 J/kg·K</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Coefficient of Expansion</td>
-                                    <td>10.2 µin/in·°F</td>
-                                    <td>18.5 µm/m·K</td>
-                                </tr>
-                                {{-- <tr class="t-row">
-                                    <td>Specific Heat Capacity</td>
-                                    <td>460 J/kg·K</td>
-                                    <td>460 J/kg·K</td>
-                                </tr> --}}
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h3 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h3>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Plate – Hot-Rolled (M20)</th>
-                                    <th>Strip – O50 Soft Annealed</th>
-                                    <th>Strip – O60 Soft Annealed</th>
-                                    <th>Tube (OS025)</th>
-                                    <th>Wire (OS015)</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Tensile Strength (ksi / MPa)</td>
-                                    <td>48 ksi / 331 MPa </td>
-                                    <td>48 ksi / 331 MPa</td>
-                                    <td>45 ksi / 310 MPa</td>
-                                    <td>53 ksi / 365 MPa</td>
-                                    <td>55 ksi / 379 MPa</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Yield Strength (0.2%) (ksi / MPa)</td>
-                                    <td>18 ksi / 124 MPa</td>
-                                    <td>14 ksi / 97 MPa</td>
-                                    <td>13 ksi / 90 MPa</td>
-                                    <td>22 ksi / 152 MPa</td>
-                                    <td>60 ksi? (likely psi typo; skip)</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Elongation (%)</td>
-                                    <td>65% (0 mm section)</td>
-                                    <td>62%</td>
-                                    <td>69%</td>
-                                    <td>65%</td>
-                                    <td>—</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Hardness</td>
-                                    <td>70 HV / 70 F</td>
-                                    <td>69 HV / 69 F</td>
-                                    <td>—</td>
-                                    <td>75 F</td>
-                                    <td>—</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Brinell Hardness </td>
-                                    <td>—</td>
-                                    <td>—</td>
-                                    <td>—</td>
-                                    <td>—</td>
-                                    <td>—</td>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+            <div class="table-responsive col-lg-10 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Product Form</th>
+                            <th>Size Range</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Seamless Tubes</td>
+                            <td>OD 6 – 100 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Welded Tubes</td>
+                            <td>OD up to 200 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Pipes</td>
+                            <td>As per ASTM B111</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Sheets & Plates</td>
+                            <td>0.5 – 50 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Coils & Strips</td>
+                            <td>0.1 – 6 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Finned Tubes</td>
+                            <td>As per heat exchanger design</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Custom Components</td>
+                            <td>As per drawing</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </section>
+
+    <!-- International Standards -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades – C44300</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>C44300</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>B111, B171, B111M</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>EN</td>
+                            <td>CW508L</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>BS</td>
+                            <td>CZ111</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ISO</td>
+                            <td>CuZn28Sn1As</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>DIN</td>
+                            <td>CuZn28SnAs</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>JIS</td>
+                            <td>H3300 (Equivalent)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
 
 
     @php
@@ -383,7 +521,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Copper Alloys C44300</h2>
@@ -441,7 +579,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -485,7 +623,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Copper Alloys C44300</h2>
@@ -603,8 +741,27 @@
         </div>
     </section>
 
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>C44300 ADMIRALTY BRASS PRICE PER KG (INDIA)</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹650 – ₹1,150 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -780,7 +937,7 @@
     {{-- blog section end --}}
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us"class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

@@ -2,10 +2,12 @@
 
 @section('title', 'Austenitic Stainless Steel 309 | Heat Resistant Alloy')
 
-@section('meta_description', 'Austenitic Stainless Steel 309 – high-quality alloy offering superior oxidation resistance
+@section('meta_description',
+    'Austenitic Stainless Steel 309 – high-quality alloy offering superior oxidation resistance
     and durability for high-temperature and industrial applications.')
 
-@section('meta_keywords', 'Austenitic Stainless Steel 309, Stainless Steel 309 Pipes, Stainless Steel 309 Tubes,
+@section('meta_keywords',
+    'Austenitic Stainless Steel 309, Stainless Steel 309 Pipes, Stainless Steel 309 Tubes,
     Stainless Steel 309 Fittings, Heat Resistant Stainless Steel 309, Oxidation Resistant Stainless Steel 309, High
     Temperature Stainless Steel, Industrial Stainless Steel 309, Furnace Grade Stainless Steel, Thermal Processing Stainless
     Steel')
@@ -26,9 +28,22 @@
         </div>
     </section>
 
+    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+        <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact-us">Contact Us</a>
+        </div>
+    </div>
+
 
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Stainless Steel 309 | Product Overview</h2>
@@ -69,12 +84,12 @@
         </div>
     </section>
 
-         {{-- datasheet --}}
+    {{-- datasheet --}}
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
-            <h3 class="mb-3" style="color:#174268;">Download Austentic Stainles Steel 309  Datasheet</h3>
+            <h3 class="mb-3" style="color:#174268;">Download Austentic Stainles Steel 309 Datasheet</h3>
             <p class="mb-3">
-                Get the complete Austentic Stainles Steel 309  datasheet with chemical composition,
+                Get the complete Austentic Stainles Steel 309 datasheet with chemical composition,
                 mechanical properties, heat treatment details, and applications.
                 Enter your email to receive the PDF instantly.
             </p>
@@ -113,10 +128,86 @@
     </section>
     <!-- End Datasheet -->
 
-    <section class="sec-padd-top sec-padd-bottom">
+
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>Technical Specifications – Stainless Steel 309 (UNS S30900 / EN 1.4833)</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Category</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Material</td>
+                                    <td>Austenitic Stainless Steel 309</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>UNS No.</td>
+                                    <td>S30900</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>EN / DIN</td>
+                                    <td>1.4833</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Alloy Type</td>
+                                    <td>High Chromium–Nickel Austenitic SS</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Chromium</td>
+                                    <td>22 – 24 %</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Nickel</td>
+                                    <td>12 – 15 %</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Magnetic Properties</td>
+                                    <td>Non-Magnetic</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Heat Treatable</td>
+                                    <td>❌ No</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Strengthening Method</td>
+                                    <td>Cold Working</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Oxidation Resistance</td>
+                                    <td>Excellent</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Scaling Resistance</td>
+                                    <td>Very Good</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Typical Use</td>
+                                    <td>Furnaces, Heat Treatment, High-Temperature Equipment</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chemical Composition -->
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of Stainless Steel 309</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -131,35 +222,35 @@
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Carbon</td>
+                                    <td>Carbon (C)</td>
                                     <td>≤ 0.08</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Chromium</td>
+                                    <td>Chromium (Cr)</td>
                                     <td>22.0 – 24.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Nickel</td>
+                                    <td>Nickel (Ni)</td>
                                     <td>12.0 – 15.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Manganese</td>
+                                    <td>Manganese (Mn)</td>
                                     <td>≤ 2.00</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Silicon</td>
+                                    <td>Silicon (Si)</td>
                                     <td>≤ 1.00</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Phosphorus</td>
+                                    <td>Phosphorus (P)</td>
                                     <td>≤ 0.040</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Sulfur</td>
+                                    <td>Sulfur (S)</td>
                                     <td>≤ 0.030</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Nitrogen</td>
+                                    <td>Nitrogen (N)</td>
                                     <td>≤ 0.10</td>
                                 </tr>
                             </tbody>
@@ -170,131 +261,264 @@
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Physical Properties -->
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color:#174268;">
+                    Physical Properties of Stainless Steel 309
+                </h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Imperial</th>
-                                    <th>Metric</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Density</td>
-                                    <td>0.287 lb/in³</td>
-                                    <td>7.95 g/cm³</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Melting Point</td>
-                                    <td>2550 – 2650 °F</td>
-                                    <td>1399 – 1454 °C</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Modulus of Elasticity</td>
-                                    <td>28 × 10³ ksi</td>
-                                    <td>193 GPa</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Poisson’s Ratio</td>
-                                    <td>0.29</td>
-                                    <td>—</td>
-                                </tr>
-                                {{-- <tr class="t-row">
-                                    <td>Poisson’s Ratio</td>
-                                    <td>0.29</td>
-                                    <td>—</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Thermal Conductivity</td>
-                                    <td>45 W/m·K</td>
-                                    <td>45 W/m·K</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Specific Heat Capacity</td>
-                                    <td>460 J/kg·K</td>
-                                    <td>460 J/kg·K</td>
-                                </tr> --}}
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+            <div class="table-responsive col-lg-10 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Imperial Units</th>
+                            <th>Metric Units</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Density</td>
+                            <td>0.287 lb/in³</td>
+                            <td>7.95 g/cm³</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Melting Point</td>
+                            <td>2550 – 2650 °F</td>
+                            <td>1399 – 1454 °C</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Modulus of Elasticity</td>
+                            <td>28 × 10³ ksi</td>
+                            <td>193 GPa</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Poisson’s Ratio</td>
+                            <td>0.29</td>
+                            <td>—</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
 
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
+            <!-- Heat Treatment -->
+            <div class="row justify-content-center mt-5" id="heat-treatment">
                 <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+                    <h4 class="text-center mb-3" style="color:#db7227;">
+                        Heat Treatment & Fabrication of Stainless Steel 309
+                    </h4>
+
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Annealed</th>
-                                    <th>Hot-Finished</th>
-                                    <th>Cold Drawn</th>
-                                    <th>Hot-rolled</th>
-                                    <th>Sheet</th>
+                                    <th>Process</th>
+                                    <th>Temperature Range</th>
+                                    <th>Purpose</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Tensile Strength (ksi / MPa)</td>
-                                    <td>75–95 / 520–655</td>
-                                    <td>80–110 / 550–760</td>
-                                    <td>85–115 / 585–795</td>
-                                    <td>75–95 / 520–655</td>
-                                    <td>80–105 / 550–725</td>
+                                    <td>Solution Annealing</td>
+                                    <td>1040 – 1120 °C</td>
+                                    <td>Restore corrosion resistance</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (0.2%) (ksi / MPa)</td>
-                                    <td>30–50 / 205–345</td>
-                                    <td>40–70 / 275–480</td>
-                                    <td>45–75 / 310–515</td>
-                                    <td>30–50 / 205–345</td>
-                                    <td>35–65 / 240–450</td>
+                                    <td>Cooling</td>
+                                    <td>Water / Rapid Air</td>
+                                    <td>Maintain austenitic structure</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Elongation (%)</td>
-                                    <td>35–55</td>
-                                    <td>25–45</td>
-                                    <td>20–40</td>
-                                    <td>35–55</td>
-                                    <td>30–50</td>
+                                    <td>Stress Relieving</td>
+                                    <td>300 – 450 °C</td>
+                                    <td>Reduce residual stresses</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Brinell Hardness (3000 kg)</td>
-                                    <td>140–190</td>
-                                    <td>150–210</td>
-                                    <td>170–220</td>
-                                    <td>140–190</td>
-                                    <td>150–200</td>
+                                    <td>Cold Working</td>
+                                    <td>—</td>
+                                    <td>Increase strength</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Rockwell Hardness (B / C)</td>
-                                    <td>85–95 B</td>
-                                    <td>90–100 B</td>
-                                    <td>95–105 B</td>
-                                    <td>85–95 B</td>
-                                    <td>90–100 B</td>
+                                    <td>Welding</td>
+                                    <td>TIG / MIG / SMAW</td>
+                                    <td>Excellent weldability</td>
+                                </tr>
                             </tbody>
                         </table>
+
+                        <p class="mt-3 text-center">
+                            📌 SS 309 is commonly selected for intermittent high-temperature service and thermal cycling
+                            conditions.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color:#174268;">
+                    Mechanical Properties of Stainless Steel 309 (Annealed)
+                </h2>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Annealed</th>
+                            <th>Cold-Drawn</th>
+                            <th>Sheet</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Tensile Strength</td>
+                            <td>520 – 655 MPa</td>
+                            <td>585 – 795 MPa</td>
+                            <td>550 – 725 MPa</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Yield Strength (0.2%)</td>
+                            <td>205 – 345 MPa</td>
+                            <td>310 – 515 MPa</td>
+                            <td>240 – 450 MPa</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elongation</td>
+                            <td>35 – 55 %</td>
+                            <td>20 – 40 %</td>
+                            <td>30 – 50 %</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Brinell Hardness</td>
+                            <td>140 – 190</td>
+                            <td>170 – 220</td>
+                            <td>150 – 200</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Rockwell Hardness</td>
+                            <td>85 – 95 B</td>
+                            <td>95 – 105 B</td>
+                            <td>90 – 100 B</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Forms -->
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="available-forms">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Available Forms & Size Range – Stainless Steel 309</h2>
+            </div>
+
+            <div class="table-responsive col-lg-10 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Product Form</th>
+                            <th>Size Range</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Pipes & Tubes</td>
+                            <td>OD 6 – 600 mm, WT 1 – 40 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Sheets & Plates</td>
+                            <td>0.5 – 100 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Coils & Strips</td>
+                            <td>0.1 – 6 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Bars (Round / Flat / Hex)</td>
+                            <td>Ø 6 – 350 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Wire & Mesh</td>
+                            <td>Standard & custom sizes</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Fittings & Flanges</td>
+                            <td>ASME / DIN standards</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Custom Components</td>
+                            <td>As per drawing</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- International Standards -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades – SS 309</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>S30900</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>A240, A312, A276</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASME</td>
+                            <td>SA240, SA312, SA276</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>EN</td>
+                            <td>1.4833</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>DIN</td>
+                            <td>X12CrNi23-13</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>JIS</td>
+                            <td>SUS 309</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>BS</td>
+                            <td>309S24</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ISO</td>
+                            <td>X12CrNi23-13</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
 
 
     @php
@@ -353,7 +577,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Austenitic Stainless Steel 309</h2>
@@ -411,7 +635,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -455,7 +679,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Austenitic Stainless Steel 309</h2>
@@ -573,8 +797,27 @@
         </div>
     </section>
 
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>STAINLESS STEEL 309 PRICE PER KG (INDIA)</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹400 – ₹780 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -683,9 +926,9 @@
     </section>
     <!--End faq content area-->
 
-    
+
     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -741,7 +984,7 @@
     {{-- blog section end --}}
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

@@ -20,10 +20,13 @@
                 <div class="col-auto text-center">
                     <h1>Copper Alloy C46400 <br> High Strength Durable Alloy</h1>
 
-                     <!-- Add your extra content here -->
+                    <!-- Add your extra content here -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                       Copper Alloy C46400 is a high-strength copper-zinc alloy known for its excellent durability, corrosion resistance, and good mechanical properties. It offers reliable performance under heavy loads and harsh environments, making it suitable for marine hardware, industrial components, fasteners, and structural applications where long service life and strength are essential.
+                        Copper Alloy C46400 is a high-strength copper-zinc alloy known for its excellent durability,
+                        corrosion resistance, and good mechanical properties. It offers reliable performance under heavy
+                        loads and harsh environments, making it suitable for marine hardware, industrial components,
+                        fasteners, and structural applications where long service life and strength are essential.
 
                     </p>
                     <!-- End extra content -->
@@ -32,7 +35,7 @@
         </div>
     </section>
 
-     <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
         <div class="container">
             <a href="#overview">Overview</a> |
             <a href="#composition">Chemical Composition</a> |
@@ -41,11 +44,11 @@
             <a href="#price">Advantages</a> |
             <a href="#applications">Applications</a> |
             <a href="#faq">FAQ</a> |
-            <a href="#contact us">Contact Us</a>
+            <a href="#contact-us">Contact Us</a>
         </div>
     </div>
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Copper Alloy C46400 | Product Overview</h2>
@@ -132,11 +135,12 @@
         </div>
     </section>
     <!-- End Datasheet -->
-    
-    <section class="sec-padd-top sec-padd-bottom">
+
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>Technical Specifications – C46400 Naval Brass</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -145,53 +149,59 @@
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Element</th>
-                                    <th>Composition (%)</th>
+                                    <th>Category</th>
+                                    <th>Details</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-center">
+                            <tbody>
                                 <tr class="t-row">
-                                    <td>Copper</td>
-                                    <td>59.0 – 62.0</td>
+                                    <td>Material</td>
+                                    <td>Naval Brass</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Zinc</td>
+                                    <td>UNS No.</td>
+                                    <td>C46400</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Alloy Type</td>
+                                    <td>Copper–Zinc–Tin Alloy</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Copper Content</td>
+                                    <td>59 – 62 %</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Tin Content</td>
+                                    <td>0.75 – 1.0 %</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Zinc Content</td>
                                     <td>Balance</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Tin</td>
-                                    <td>0.75 – 1.00</td>
+                                    <td>Density</td>
+                                    <td>~8.39 g/cm³</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Lead</td>
-                                    <td>0.07 max</td>
+                                    <td>Magnetic Properties</td>
+                                    <td>Non-Magnetic</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Iron</td>
-                                    <td>0.06 max</td>
+                                    <td>Heat Treatable</td>
+                                    <td>❌ No</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Others (incl. Al, Ni)</td>
-                                    <td>Trace</td>
-                                </tr>
-                                {{-- <tr class="t-row">
-                                    <td>Phosphorus</td>
-                                    <td>≤ 0.035</td>
-                                    <td>≤ 0.035</td>
-                                    <td>≤ 0.035</td>
+                                    <td>Strength Control</td>
+                                    <td>Cold / Hot Working</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Sulfur</td>
-                                    <td>≤ 0.03</td>
-                                    <td>≤ 0.03</td>
-                                    <td>≤ 0.03</td>
+                                    <td>Corrosion Resistance</td>
+                                    <td>Excellent (Seawater)</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Nitrogen</td>
-                                    <td>0.20 – 0.30</td>
-                                    <td>0.20 – 0.30</td>
-                                    <td>0.20 – 0.30</td>
-                                </tr> --}}
+                                    <td>Dezincification Resistance</td>
+                                    <td>Very Good</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -200,27 +210,75 @@
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Chemical Composition -->
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
         <div class="container">
-            <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+            <div class="section-title center">
+                <h2>Chemical Composition of C46400 Naval Brass</h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
+            <div class="row justify-content-center">
                 <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
                     <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
+                        <table class="table table-bordered table-striped align-middle text-center">
+                            <thead class="table-dark">
                                 <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Imperial</th>
-                                    <th>Metric</th>
+                                    <th>Element</th>
+                                    <th>Composition (%)</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-center">
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Copper (Cu)</td>
+                                    <td>59.0 – 62.0</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Zinc (Zn)</td>
+                                    <td>Balance</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Tin (Sn)</td>
+                                    <td>0.75 – 1.00</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Lead (Pb)</td>
+                                    <td>0.07 max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Iron (Fe)</td>
+                                    <td>0.06 max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Others (Al, Ni)</td>
+                                    <td>Trace</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Physical Properties -->
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Physical Properties – C46400 Naval Brass</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle text-center">
+                            <thead class="table-dark">
+                                <tr class="t-row">
+                                    <th>Property</th>
+                                    <th>Imperial Units</th>
+                                    <th>Metric Units</th>
+                                </tr>
+                            </thead>
+                            <tbody>
                                 <tr class="t-row">
                                     <td>Density</td>
                                     <td>0.303 lb/in³</td>
@@ -228,8 +286,8 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Melting Point</td>
-                                    <td>1630–1660 °F</td>
-                                    <td>888–905 °C</td>
+                                    <td>1630 – 1660 °F</td>
+                                    <td>888 – 905 °C</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Thermal Conductivity</td>
@@ -246,84 +304,54 @@
                                     <td>16,000 ksi</td>
                                     <td>110 GPa</td>
                                 </tr>
-                                {{-- <tr class="t-row">
-                                    <td>Coefficient of Expansion</td>
-                                    <td>10.2 µin/in·°F</td>
-                                    <td>18.5 µm/m·K</td>
-                                </tr> --}}
-                                {{-- <tr class="t-row">
-                                    <td>Specific Heat Capacity</td>
-                                    <td>460 J/kg·K</td>
-                                    <td>460 J/kg·K</td>
-                                </tr> --}}
                             </tbody>
                         </table>
                     </div>
                 </div>
             </div>
 
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+            <!-- Heat Treatment -->
+            <div class="row justify-content-center mt-5" id="heat-treatment">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color:#db7227;">
+                        Heat Treatment & Fabrication of C46400 Naval Brass
+                    </h4>
+
                     <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
+                        <table class="table table-bordered table-striped align-middle text-center">
+                            <thead class="table-dark">
                                 <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Half-Hard (H02) Rod & Bar(1/2″)</th>
-                                    <th>Half-Hard (H02) Bar (0.5–1″)</th>
-                                    <th>Half-Hard (H02) Bar (1–2″)</th>
-                                    <th>Half-Hard (H02) Bar (2–3″)</th>
-                                    <th>Half-Hard (H02) Bar (3–4″)</th>
-                                    <th>Half-Hard (H02) Bar (4″)</th>
+                                    <th>Process</th>
+                                    <th>Temperature Range</th>
+                                    <th>Purpose</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-center">
+                            <tbody>
                                 <tr class="t-row">
-                                    <td>Tensile Strength (ksi / MPa)</td>
-                                    <td>≥ 60 ksi / 414 MPa </td>
-                                    <td>≥ 60 ksi / 414 MPa</td>
-                                    <td>≥ 58 ksi / 400 MPa</td>
-                                    <td>≥ 54 ksi / 372 MPa</td>
-                                    <td>≥ 54 ksi / 372 MPa</td>
-                                    <td>≥ 54 ksi / 372 MPa</td>
+                                    <td>Annealing</td>
+                                    <td>450 – 650 °C</td>
+                                    <td>Restore ductility</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (0.2%) (ksi / MPa)</td>
-                                    <td>≥ 27 ksi / 186 MPa</td>
-                                    <td>≥ 27 ksi / 186 MPa</td>
-                                    <td>≥ 26 ksi / 179 MPa</td>
-                                    <td>≥ 25 ksi / 172 MPa</td>
-                                    <td>≥ 22 ksi / 152 MPa</td>
-                                    <td>≥ 22 ksi / 152 MPa</td>
+                                    <td>Stress Relieving</td>
+                                    <td>250 – 350 °C</td>
+                                    <td>Reduce internal stresses</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Elongation (%)</td>
-                                    <td>≥ 22–25%</td>
-                                    <td>≥ 25%</td>
-                                    <td>≥ 25%</td>
-                                    <td>≥ 25%</td>
-                                    <td>≥ 27–30%</td>
-                                    <td>≥ 30%</td>
+                                    <td>Hot Working</td>
+                                    <td>650 – 760 °C</td>
+                                    <td>Forging & extrusion</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Hardness Rockwell B</td>
-                                    <td>60–80 B</td>
-                                    <td>60–80 B</td>
-                                    <td>55–80 B</td>
-                                    <td>55–80 B</td>
-                                    <td>55–80 B</td>
-                                    <td>55–80 B</td>
+                                    <td>Cold Working</td>
+                                    <td>—</td>
+                                    <td>Increase strength</td>
                                 </tr>
-                                {{-- <tr class="t-row">
-                                    <td>Brinell Hardness </td>
+                                <tr class="t-row">
+                                    <td>Brazing / Soldering</td>
                                     <td>—</td>
-                                    <td>—</td>
-                                    <td>—</td>
-                                    <td>—</td>
-                                    <td>—</td>
-                                </tr> --}}
+                                    <td>Excellent</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -331,6 +359,139 @@
             </div>
         </div>
     </section>
+
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Mechanical Properties – C46400 Naval Brass</h2>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle text-center">
+                    <thead class="table-dark">
+                        <tr class="t-row">
+                            <th>Condition</th>
+                            <th>Tensile Strength</th>
+                            <th>Yield Strength (0.5%)</th>
+                            <th>Elongation (%)</th>
+                            <th>Hardness (HRB)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="t-row">
+                            <td>Half-Hard (H02)</td>
+                            <td>≥ 54–60 ksi (372–414 MPa)</td>
+                            <td>≥ 22–27 ksi (152–186 MPa)</td>
+                            <td>22 – 30</td>
+                            <td>55 – 80 B</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Forms -->
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Available Forms & Size Range – C46400 Naval Brass</h2>
+            </div>
+
+            <div class="table-responsive col-lg-10 mx-auto">
+                <table class="table table-bordered table-striped align-middle text-center">
+                    <thead class="table-dark">
+                        <tr class="t-row">
+                            <th>Product Form</th>
+                            <th>Size Range</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="t-row">
+                            <td>Pipes & Tubes</td>
+                            <td>OD 6 – 200 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Sheets & Plates</td>
+                            <td>0.5 – 60 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Coils & Strips</td>
+                            <td>0.1 – 6 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Rods & Bars</td>
+                            <td>Ø 6 – 300 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Fittings & Flanges</td>
+                            <td>ASME / DIN standards</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Fasteners</td>
+                            <td>As per drawing</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Custom Machined Parts</td>
+                            <td>CNC components</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- International Standards -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades – C46400</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle text-center">
+                    <thead class="table-dark">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>C46400</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>B21, B122, B124, B171</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>SAE</td>
+                            <td>CA464</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>EN</td>
+                            <td>CW712R</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>BS</td>
+                            <td>CZ112</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ISO</td>
+                            <td>CuZn40Sn1</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>DIN</td>
+                            <td>CuZn40Sn</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
 
 
     @php
@@ -389,7 +550,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Copper Alloys C46400</h2>
@@ -447,7 +608,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses"class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -491,7 +652,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Copper Alloys C46400</h2>
@@ -609,8 +770,27 @@
         </div>
     </section>
 
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>C46400 NAVAL BRASS PRICE PER KG (INDIA)</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹700 – ₹1,200 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -727,9 +907,9 @@
     </section>
     <!--End faq content area-->
 
-    
+
     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -785,7 +965,7 @@
     {{-- blog section end --}}
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us"class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
