@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'How Stainless Steel Tubes Boost Process Efficiency')
-@section('meta_description', 'Learn how stainless steel tubes improve industrial efficiency — durable, low-maintenance &
+@section('meta_description',
+    'Learn how stainless steel tubes improve industrial efficiency — durable, low-maintenance &
     corrosion-resistant with key operational benefits.')
-@section('meta_keywords', 'Stainless Steel Tubes, Process Efficiency, Industrial Tubing, Corrosion Resistance, Low
+@section('meta_keywords',
+    'Stainless Steel Tubes, Process Efficiency, Industrial Tubing, Corrosion Resistance, Low
     Maintenance Tubes, Durable Stainless Steel, High Performance Tubing, Industrial Process Optimization, Stainless Steel
     Benefits, Efficient Fluid Transport')
 
@@ -506,8 +508,9 @@
                                 <p>Let’s forge a connection — contact our team today.</p>
                             </div>
 
-                            <form id="contact-form" name="contact_form" class="default-form" action="inc/sendmail.php"
-                                method="post">
+                            <form id="contact-form" name="contact_form" class="default-form"
+                                action="{{ url('sendmail') }}" method="post">
+                                @csrf
                                 <div class="row">
                                     <div class="col-md-12">
                                         <input class="m-1" type="text" name="form_name" placeholder="Your Name*"

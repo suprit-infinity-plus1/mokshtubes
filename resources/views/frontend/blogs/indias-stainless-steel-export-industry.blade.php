@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'India’s Stainless Steel Export Industry | Moksh Tubes ')
-@section('meta_description', 'Moksh Tubes exports stainless steel products to 30+ countries with high-quality pipe
+@section('meta_description',
+    'Moksh Tubes exports stainless steel products to 30+ countries with high-quality pipe
     fittings, reliable supply, and fast global distribution.')
-@section('meta_keywords', 'India Stainless Steel Export, Stainless Steel Pipes Exporter India, Stainless Steel Fittings
+@section('meta_keywords',
+    'India Stainless Steel Export, Stainless Steel Pipes Exporter India, Stainless Steel Fittings
     Supplier, Global Stainless Steel Supplier, Moksh Tubes Exports, Mumbai Pipe Fittings Exporter, Stainless Steel Products
     India, International Stainless Steel Supplier, Durable Stainless Steel Pipes, Corrosion Resistant Stainless Steel
     Fittings')
@@ -197,8 +199,8 @@
                                                 The company uses advanced materials like <a
                                                     href="{{ route('materials.duplex-and-super-duplex') }}">duplex and super
                                                     duplex</a> stainless
-                                                    steels, which offer superior resistance to corrosion in demanding
-                                                    environments such as seawater or chemical exposure.
+                                                steels, which offer superior resistance to corrosion in demanding
+                                                environments such as seawater or chemical exposure.
                                             </p>
                                         </div>
                                         <div class="exapmle">
@@ -727,8 +729,9 @@
                                 <p>Let’s forge a connection — contact our team today.</p>
                             </div>
 
-                            <form id="contact-form" name="contact_form" class="default-form" action="inc/sendmail.php"
-                                method="post">
+                            <form id="contact-form" name="contact_form" class="default-form"
+                                action="{{ url('sendmail') }}" method="post">
+                                @csrf
                                 <div class="row">
                                     <div class="col-md-12">
                                         <input class="m-1" type="text" name="form_name" placeholder="Your Name*"

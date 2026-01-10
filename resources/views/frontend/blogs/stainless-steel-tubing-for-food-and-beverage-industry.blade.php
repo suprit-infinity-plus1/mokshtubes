@@ -1,7 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Food-Grade Stainless Steel Tubing Guide | Mokshtubes')
-@section('meta_description', 'Learn why stainless steel tubing is essential for food and beverage industries—ensuring
+@section('meta_description',
+    'Learn why stainless steel tubing is essential for food and beverage industries—ensuring
     hygiene, durability, and easy maintenance in processing systems.')
 @section('meta_keywords',
     'stainless steel tubing, food grade stainless steel, hygienic stainless steel pipes, stainless
@@ -488,8 +489,9 @@
                                 <p>Let’s forge a connection — contact our team today.</p>
                             </div>
 
-                            <form id="contact-form" name="contact_form" class="default-form" action="inc/sendmail.php"
-                                method="post">
+                            <form id="contact-form" name="contact_form" class="default-form"
+                                action="{{ url('sendmail') }}" method="post">
+                                @csrf
                                 <div class="row">
                                     <div class="col-md-12">
                                         <input class="m-1" type="text" name="form_name" placeholder="Your Name*"

@@ -155,6 +155,13 @@
                                 <span>Datasheet Leads</span>
                             </a>
                         </li>
+                        <li class="dropdown">
+                            <a href="{{ route('website-leads') }}"
+                                class="nav-link {{ Request::routeIs('website-leads') ? 'active' : '' }}">
+                                <i data-feather="users" class="mt-1"></i>
+                                <span>Website Leads</span>
+                            </a>
+                        </li>
                         <li class="dropdown {{ Request::routeIs('admin.blogs*') ? 'active' : '' }}">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
                                 aria-haspopup="true" aria-expanded="false">

@@ -149,19 +149,19 @@
                                         </div>
                                 </section>
                                 <!-- Seamless Pipes
-            •
-            Higher pressure capacity
-            •
-            •
-            Uniform microstructure with no weld defects
-            •
-            •
-            Superior resistance to thermal & mechanical fatigue
-            •
-            •
-            Wider tolerance range due to hot finishing
-            •
-            -->
+                    •
+                    Higher pressure capacity
+                    •
+                    •
+                    Uniform microstructure with no weld defects
+                    •
+                    •
+                    Superior resistance to thermal & mechanical fatigue
+                    •
+                    •
+                    Wider tolerance range due to hot finishing
+                    •
+                    -->
 
                                 <section id="blog-area" class="blog-with-sidebar-area blog-single-area">
                                     <div class="blog-title text-start">
@@ -211,36 +211,36 @@
                                             </p>
                                         </div>
                                         <div class="exapmle">
-                                             <!-- <h3>Cost & Lead Time</h3>
-                                            <p class="pb-2">Cost is a major driver in any project, but it's crucial to
-                                                look beyond the initial purchase price.</p>
+                                            <!-- <h3>Cost & Lead Time</h3>
+                                                    <p class="pb-2">Cost is a major driver in any project, but it's crucial to
+                                                        look beyond the initial purchase price.</p>
 
-                                                <h3>Seamless Pipes</h3>
-                                            <ul>
-                                                <li>
-                                                   Higher manufacturing cost
-                                                </li>
+                                                        <h3>Seamless Pipes</h3>
+                                                    <ul>
+                                                        <li>
+                                                           Higher manufacturing cost
+                                                        </li>
 
-                                                <li>
-                                                    Longer lead time, especially for thick-wall or non-standard OD
-                                                </li>
-                                                <li>
-                                                    Higher machining cost due to variable tolerances
-                                                </li>
+                                                        <li>
+                                                            Longer lead time, especially for thick-wall or non-standard OD
+                                                        </li>
+                                                        <li>
+                                                            Higher machining cost due to variable tolerances
+                                                        </li>
 
-                                            </ul>
-                                            <h4>ERW Pipes</h4>
-                                            <ul>
-                                                <li>More economical</li>
-                                                <li>Readily available in standard sizes (½" to 24")</li>
-                                                <li>Fast delivery</li>
-                                                <li>Lower total project CAPEX</li>
-                                            </ul>
-                                            <p class=" py-2">
-                                                <strong class="text-black">
-                                                    Winner:</strong> Carbon Steel for initial cost; Stainless Steel for
-                                                long-term value and life cycle cost.
-                                            </p> -->
+                                                    </ul>
+                                                    <h4>ERW Pipes</h4>
+                                                    <ul>
+                                                        <li>More economical</li>
+                                                        <li>Readily available in standard sizes (½" to 24")</li>
+                                                        <li>Fast delivery</li>
+                                                        <li>Lower total project CAPEX</li>
+                                                    </ul>
+                                                    <p class=" py-2">
+                                                        <strong class="text-black">
+                                                            Winner:</strong> Carbon Steel for initial cost; Stainless Steel for
+                                                        long-term value and life cycle cost.
+                                                    </p> -->
 
 
 
@@ -249,7 +249,7 @@
                                             <p class="pb-2">Cost is a major driver in any project, but it's crucial to
                                                 look beyond the initial purchase price.</p>
 
-                                                 <ul>
+                                            <ul>
                                                 <li>
                                                     Higher manufacturing cost
                                                 </li>
@@ -762,8 +762,9 @@
                                 <p>Let’s forge a connection — contact our team today.</p>
                             </div>
 
-                            <form id="contact-form" name="contact_form" class="default-form" action="inc/sendmail.php"
-                                method="post">
+                            <form id="contact-form" name="contact_form" class="default-form"
+                                action="{{ url('sendmail') }}" method="post">
+                                @csrf
                                 <div class="row">
                                     <div class="col-md-12">
                                         <input class="m-1" type="text" name="form_name" placeholder="Your Name*"
@@ -1465,7 +1466,8 @@
         <p>Let’s forge a connection — contact our team today.</p>
     </div>
 
-    <form id="contact-form" name="contact_form" class="default-form" action="inc/sendmail.php" method="post">
+    <form id="contact-form" name="contact_form" class="default-form" action="{{ url('sendmail') }}"
+        method="post">
         <div class="row">
             <div class="col-md-12">
                 <input class="m-1" type="text" name="form_name" placeholder="Your Name*" required="">

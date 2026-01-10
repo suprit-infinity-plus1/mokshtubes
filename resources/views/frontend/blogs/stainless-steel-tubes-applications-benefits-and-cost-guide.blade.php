@@ -17,7 +17,7 @@
     <!--Start breadcrumb area-->
 
     <section class="breadcrumb-area"
-        style="background-image: url(/assets/images/blog/Stainless-Steel-Tubes-Applications-Benefits-Cost-Guide.webp);" >
+        style="background-image: url(/assets/images/blog/Stainless-Steel-Tubes-Applications-Benefits-Cost-Guide.webp);">
         <div class="container text-center">
             <h1>Complete Guide to Stainless Steel Tubes</h1>
         </div>
@@ -513,8 +513,9 @@
                                 <p>Let’s forge a connection — contact our team today.</p>
                             </div>
 
-                            <form id="contact-form" name="contact_form" class="default-form" action="inc/sendmail.php"
-                                method="post">
+                            <form id="contact-form" name="contact_form" class="default-form"
+                                action="{{ url('sendmail') }}" method="post">
+                                @csrf
                                 <div class="row">
                                     <div class="col-md-12">
                                         <input class="m-1" type="text" name="form_name" placeholder="Your Name*"

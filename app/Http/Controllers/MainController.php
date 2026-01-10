@@ -7,6 +7,7 @@ use App\Models\BlogCategory;
 use App\Models\Tag;
 use App\Models\WebsiteLead;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\Storage;
 use PHPMailer\PHPMailer\Exception;
 use PHPMailer\PHPMailer\PHPMailer;
@@ -89,6 +90,84 @@ class MainController extends Controller
             ], 500);
         }
     }
+
+    public function websiteLeads()
+    {
+        $websiteLeads = WebsiteLead::latest()->get();
+
+        return view('backend.website_leads.index', compact('websiteLeads'));
+    }
+
+    public function exportWebsiteLeads(Request $request)
+{
+    $from = $request->query('from');
+    $to   = $request->query('to');
+
+    // Validate date inputs
+    $request->validate([
+        'from' => 'nullable|date',
+        'to'   => 'nullable|date|after_or_equal:from',
+    ]);
+
+    // Build query
+    $query = WebsiteLead::query()->select(
+        'id',
+        'name',
+        'email',
+        'phone',
+        'subject',
+        'message',
+        'created_at'
+    );
+
+    if ($from) {
+        $query->whereDate('created_at', '>=', $from);
+    }
+
+    if ($to) {
+        $query->whereDate('created_at', '<=', $to);
+    }
+
+    $websiteLeads = $query->orderBy('created_at', 'desc')->get();
+
+    $fileName = 'website_leads_' . now()->format('Y_m_d_His') . '.csv';
+
+    $headers = [
+        'Content-Type'        => 'text/csv',
+        'Content-Disposition' => "attachment; filename={$fileName}",
+    ];
+
+    $columns = [
+        'ID',
+        'Name',
+        'Email',
+        'Phone',
+        'Subject',
+        'Message',
+        'Created At',
+    ];
+
+    $callback = function () use ($websiteLeads, $columns) {
+        $file = fopen('php://output', 'w');
+        fputcsv($file, $columns);
+
+        foreach ($websiteLeads as $lead) {
+            fputcsv($file, [
+                $lead->id,
+                $lead->name,
+                $lead->email,
+                $lead->phone,
+                $lead->subject,
+                $lead->message,
+                $lead->created_at->format('Y-m-d H:i:s'),
+            ]);
+        }
+
+        fclose($file);
+    };
+
+    return Response::stream($callback, 200, $headers);
+}
 
     public function aboutUs()
     {
