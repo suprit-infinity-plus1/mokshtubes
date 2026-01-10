@@ -44,7 +44,7 @@
     </div>
 
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -130,190 +130,8 @@
         </div>
     </section>
     <!-- End Datasheet -->
-    
-    <section class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Chemical Composition</h2>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Element</th>
-                                    <th>Composition (%)</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Tungsten</td>
-                                    <td>≥ 99.95</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Molybdenum</td>
-                                    <td>≤ 0.01</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Iron</td>
-                                    <td>≤ 0.001</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Silicon</td>
-                                    <td>≤ 0.001</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Nickel</td>
-                                    <td>≤ 0.001</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Oxygen</td>
-                                    <td>≤ 0.003</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Carbon</td>
-                                    <td>≤ 0.002</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Nitrogen</td>
-                                    <td>≤ 0.001</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
-            </div>
-
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Imperial</th>
-                                    <th>Metric</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Density</td>
-                                    <td>0.698 lb/in³</td>
-                                    <td>19.25 g/cm³</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Melting Range</td>
-                                    <td>6160 °F</td>
-                                    <td>3410 °C</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Modulus of Elasticity – Tension</td>
-                                    <td>57.0 × 10³ ksi</td>
-                                    <td>393 GPa</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Modulus of Elasticity – Compression</td>
-                                    <td>57.0 × 10³ ksi</td>
-                                    <td>393 GPa</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Modulus of Elasticity – Torsion</td>
-                                    <td>20.0 × 10³ ksi</td>
-                                    <td>138 GPa </td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Poisson’s Ratio</td>
-                                    <td>0.28</td>
-                                    <td>—</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Curie Temperature</td>
-                                    <td>—</td>
-                                    <td>—</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Annealed</th>
-                                    <th>Hot-Finished</th>
-                                    <th>Cold Worked</th>
-                                    <th>Hot-Rolled</th>
-                                    <th>Sheet</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Tensile Strength (ksi / MPa)</td>
-                                    <td>100–130 / 690–900</td>
-                                    <td>120–150 / 827–1034</td>
-                                    <td>130–160 / 896–1103</td>
-                                    <td>100–140 / 690–965</td>
-                                    <td>90–130 / 620–896</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Yield Strength (0.2%) (ksi / MPa)</td>
-                                    <td>90–110 / 620–758</td>
-                                    <td>100–130 / 690–896</td>
-                                    <td>110–140 / 758–965</td>
-                                    <td>90–120 / 620–827</td>
-                                    <td>85–120 / 586–827</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Elongation (%)</td>
-                                    <td>1–2</td>
-                                    <td>0.5–1.5</td>
-                                    <td>0.5–1</td>
-                                    <td>1–2</td>
-                                    <td>0.5–1</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Rockwell Hardness (B / C)</td>
-                                    <td>—</td>
-                                    <td>70 HR C</td>
-                                    <td>75 HR C</td>
-                                    <td>70 HR C</td>
-                                    <td>65 HR C</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Brinell Hardness (HB)</td>
-                                    <td>300–400</td>
-                                    <td>400–500</td>
-                                    <td>450–550</td>
-                                    <td>350–450</td>
-                                    <td>300–400</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
 
     @php
@@ -372,7 +190,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Tungsten</h2>
@@ -429,7 +247,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -475,7 +293,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Tungsten</h2>
@@ -581,8 +399,27 @@
         </div>
     </section>
 
+     <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>TUNGSTEN PRICE PER KG (INDIA)</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong>  ₹4,000 – ₹9,000 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -725,7 +562,7 @@
     {{-- blog section end --}}
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

@@ -18,19 +18,21 @@
                 <div class="col-auto text-center">
                     <h1>Monel 400 <br> Corrosion Resistant & High-Strength Alloy</h1>
 
-                     <!-- Add your extra content here -->
+                    <!-- Add your extra content here -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                       MONEL® 400 (Alloy 400 / UNS N04400) is a high-strength nickel–copper alloy known for its exceptional resistance to seawater, acids, and corrosive environments, making it ideal for marine, chemical, and industrial applications.</p>
+                        MONEL® 400 (Alloy 400 / UNS N04400) is a high-strength nickel–copper alloy known for its exceptional
+                        resistance to seawater, acids, and corrosive environments, making it ideal for marine, chemical, and
+                        industrial applications.</p>
 
-                        <!-- End extra content -->
+                    <!-- End extra content -->
                 </div>
             </div>
         </div>
     </section>
 
-  <div class="sticky-top bg-white border-bottom material-tabs  w-100">
-         <div class="container">
+    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+        <div class="container">
             <a href="#overview">Overview</a> |
             <a href="#composition">Chemical Composition</a> |
             <a href="#heat-treatment">Heat Treatment</a> |
@@ -38,11 +40,11 @@
             <a href="#price">Advantages</a> |
             <a href="#applications">Applications</a> |
             <a href="#faq">FAQ</a> |
-            <a href="#contact us">Contact Us</a>
+            <a href="#contact-us">Contact Us</a>
         </div>
     </div>
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -99,7 +101,7 @@
             </p>
 
             <!-- Lead Capture Form -->
-           <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
                 @csrf
 
                 <input type="hidden" name="page_path" value="{{ $slug }}">
@@ -132,10 +134,65 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>MONEL® 400 Specifications (UNS N04400)</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Category</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Grade</td>
+                                    <td>MONEL® 400 / Alloy 400 / UNS N04400</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Material Type</td>
+                                    <td>Nickel–Copper Alloy</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Typical Chemical Composition</td>
+                                    <td>Ni ≥63%, Cu 28–34%, Fe ≤2.5%, Mn ≤2%, Si ≤0.5%</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Available Conditions</td>
+                                    <td>Annealed, Hot Worked, Cold Worked</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Heat Treatment</td>
+                                    <td>Stress Relieving, Annealing</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Testing Offered</td>
+                                    <td>Tensile, Hardness, Chemical Analysis, Corrosion Testing</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Certification</td>
+                                    <td>EN 10204 3.1 / 3.2 (Mill Test Certificate)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chemical Composition -->
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of MONEL® 400</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -150,39 +207,39 @@
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Nickel</td>
+                                    <td>Nickel (Ni + Co)</td>
                                     <td>63.0 min</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Carbon</td>
-                                    <td>0.25 max</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Manganese</td>
-                                    <td>1.5 max</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Iron</td>
-                                    <td>2.0 max</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Sulfur</td>
-                                    <td>0.01 max</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Silicon</td>
-                                    <td>0.5 max</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Copper</td>
+                                    <td>Copper (Cu)</td>
                                     <td>27.0 – 33.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Aluminum</td>
+                                    <td>Carbon (C)</td>
+                                    <td>0.25 max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Manganese (Mn)</td>
+                                    <td>1.5 max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Iron (Fe)</td>
+                                    <td>2.0 max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Sulfur (S)</td>
+                                    <td>0.01 max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Silicon (Si)</td>
+                                    <td>0.5 max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Aluminum (Al)</td>
                                     <td>2.30 – 3.15</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Titanium</td>
+                                    <td>Titanium (Ti)</td>
                                     <td>0.35 – 0.85</td>
                                 </tr>
                             </tbody>
@@ -193,61 +250,55 @@
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Physical Properties -->
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color:#174268;">
+                    Technical Composition of MONEL® 400
+                </h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
+            <div class="row justify-content-center">
                 <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
+                    <h3 class="text-center mb-3" style="color: #db7227;">Physical Properties of MONEL® 400
+                    </h3>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
                                     <th>Property</th>
-                                    <th>Imperial</th>
-                                    <th>Metric</th>
+                                    <th>Value</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
                                     <td>Density</td>
-                                    <td>0.318 lb/in³</td>
                                     <td>8.80 g/cm³</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Melting Range</td>
-                                    <td>2370 – 2460 °F</td>
                                     <td>1300 – 1350 °C</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Elasticity (Tension)</td>
-                                    <td>1300 – 1350 °C</td>
+                                    <td>Elastic Modulus (Tension)</td>
                                     <td>179 GPa</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Elasticity (Torsion)</td>
-                                    <td>9.5 × 10³ ksi</td>
+                                    <td>Elastic Modulus (Compression)</td>
+                                    <td>179 GPa</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Modulus of Rigidity</td>
                                     <td>66 GPa</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Elasticity (Compression)</td>
-                                    <td>26.0 × 10³ ksi</td>
-                                    <td>179 GPa</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Poisson’s Ratio</td>
                                     <td>0.32</td>
-                                    <td>—</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Curie Temperature</td>
-                                    <td>70–120 °F</td>
-                                    <td>21–49 °C</td>
+                                    <td>21 – 49 °C</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -255,62 +306,47 @@
                 </div>
             </div>
 
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+            <!-- Heat Treatment -->
+            <div class="row justify-content-center mt-5" id="heat-treatment">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color:#db7227;">
+                        Heat Treatment of MONEL® 400
+                    </h4>
+
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Annealed</th>
-                                    <th>Hot-Finished</th>
-                                    <th>Cold-Drawn</th>
-                                    <th>Hot-Rolled</th>
-                                    <th>Sheet</th>
+                                    <th>Process</th>
+                                    <th>Temperature Range</th>
+                                    <th>Procedure</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Elongation (%)</td>
-                                    <td>75–90 / 517–620</td>
-                                    <td>80–110 / 552–758</td>
-                                    <td>84–120 / 579–827</td>
-                                    <td>75–95 / 517–655</td>
-                                    <td>70–85 / 482–586</td>
+                                    <td>Annealing</td>
+                                    <td>760 – 980 °C</td>
+                                    <td>Air or furnace cooling</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (0.2% Offset)</td>
-                                    <td>25–50 / 172–345</td>
-                                    <td>40–100 / 276–690</td>
-                                    <td>55–100 / 379–690</td>
-                                    <td>40–75 / 276–517</td>
-                                    <td>30–45 / 207–310</td>
+                                    <td>Stress Relieving</td>
+                                    <td>540 – 650 °C</td>
+                                    <td>Hold 1–2 hours, air cool</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Elongation (%)</td>
-                                    <td>60–35</td>
-                                    <td>60–30</td>
-                                    <td>40–22</td>
-                                    <td>45–30</td>
-                                    <td>45–35</td>
+                                    <td>Softening</td>
+                                    <td>870 – 980 °C</td>
+                                    <td>Furnace cool</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Brinell Hardness (3000 kg)</td>
-                                    <td>110–149</td>
-                                    <td>140–241</td>
-                                    <td>160–225</td>
-                                    <td>125–215</td>
-                                    <td>–</td>
+                                    <td>Recrystallization</td>
+                                    <td>700 – 900 °C</td>
+                                    <td>Air cool</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Rockwell B</td>
-                                    <td>60–80</td>
-                                    <td>75–100</td>
-                                    <td>85–20C</td>
-                                    <td>70–96</td>
-                                    <td>65–80</td>
+                                    <td>Hot Working Preparation</td>
+                                    <td>850 – 950 °C</td>
+                                    <td>Uniform heating before forging</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -319,6 +355,165 @@
             </div>
         </div>
     </section>
+
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color:#174268;">
+                    Mechanical Properties of MONEL® 400
+                </h2>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Condition</th>
+                            <th>Tensile Strength (MPa)</th>
+                            <th>Yield Strength (MPa)</th>
+                            <th>Elongation (%)</th>
+                            <th>Hardness</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Annealed</td>
+                            <td>517 – 620</td>
+                            <td>172 – 345</td>
+                            <td>35 – 60</td>
+                            <td>60 – 80 HRB</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Hot Finished</td>
+                            <td>552 – 758</td>
+                            <td>276 – 690</td>
+                            <td>30 – 60</td>
+                            <td>75 – 100 HRB</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Cold Drawn</td>
+                            <td>579 – 827</td>
+                            <td>379 – 690</td>
+                            <td>22 – 40</td>
+                            <td>85 – 20 HRC</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Hot Rolled</td>
+                            <td>517 – 655</td>
+                            <td>276 – 517</td>
+                            <td>30 – 45</td>
+                            <td>70 – 96 HRB</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Sheet</td>
+                            <td>482 – 586</td>
+                            <td>207 – 310</td>
+                            <td>35 – 45</td>
+                            <td>65 – 80 HRB</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Forms -->
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="available-forms">
+        <div class="container">
+            <div class="section-title center mt-5">
+                <h2>Available Forms & Size Range – MONEL® 400</h2>
+            </div>
+
+            <div class="table-responsive col-lg-10 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Product Form</th>
+                            <th>Size Range / Description</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Round Bars</td>
+                            <td>10 mm – 350 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Flat, Square & Hex Bars</td>
+                            <td>Custom sizes up to 250 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Sheets & Plates</td>
+                            <td>1.5 – 100 mm (Width 600 – 2500 mm)</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Coils & Strips</td>
+                            <td>0.3 – 8 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Seamless & Welded Pipes / Tubes</td>
+                            <td>OD 6 – 273 mm, WT 1 – 25 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Forged Components</td>
+                            <td>Blocks, rings, bushings as per drawing</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- International Standards -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades – MONEL® 400</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>N04400</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>W.Nr (DIN)</td>
+                            <td>2.4360 / 2.4361</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>B127, B164, B165, B564, B725</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>EN</td>
+                            <td>NiCu30Fe</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>BS</td>
+                            <td>NA 13</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>JIS</td>
+                            <td>NW 4400</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>GOST</td>
+                            <td>МНЖМц 28-2.5-1.5</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
 
 
     @php
@@ -377,7 +572,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Monel 400</h2>
@@ -437,7 +632,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -483,7 +678,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Monel R405</h2>
@@ -618,8 +813,27 @@
         </div>
     </section>
 
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>MONEL 400 Price (India)</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹2,200 – ₹3,500 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -713,8 +927,8 @@
     </section>
     <!--End faq content area-->
 
-     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    {{-- blog section start --}}
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -770,7 +984,7 @@
     {{-- blog section end --}}
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

@@ -742,7 +742,7 @@
         </div>
     </section>
 
-      <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
         <div class="container">
             <div class="section-title text-center mb-4">
                 <h2>Duplex Stainless Steel S31803 Price per kg in India</h2>
@@ -829,9 +829,9 @@
     </section>
     <!--End faq content area-->
 
-    
+
     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>

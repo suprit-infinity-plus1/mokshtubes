@@ -20,10 +20,14 @@
                 <div class="col-auto text-center">
                     <h1>Nimonic Alloys <br> High-Temperature Strength</h1>
 
-                     <!-- Add your extra content here -->
+                    <!-- Add your extra content here -->
                     <p class="text-center mt-3 px-3 py-2 text-white position-relative"
                         style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
-                       Nimonic Alloys are high-performance nickel-based superalloys specifically engineered for exceptional strength, creep resistance, and stability at elevated temperatures. They offer excellent oxidation and corrosion resistance, making them ideal for aerospace engines, gas turbines, heat-treatment equipment, and other high-temperature industrial applications where long-term reliability is critical.
+                        Nimonic Alloys are high-performance nickel-based superalloys specifically engineered for exceptional
+                        strength, creep resistance, and stability at elevated temperatures. They offer excellent oxidation
+                        and corrosion resistance, making them ideal for aerospace engines, gas turbines, heat-treatment
+                        equipment, and other high-temperature industrial applications where long-term reliability is
+                        critical.
 
                     </p>
                     <!-- End extra content -->
@@ -32,7 +36,7 @@
         </div>
     </section>
 
- <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
         <div class="container">
             <a href="#overview">Overview</a> |
             <a href="#composition">Chemical Composition</a> |
@@ -41,11 +45,11 @@
             <a href="#price">Advantages</a> |
             <a href="#applications">Applications</a> |
             <a href="#faq">FAQ</a> |
-            <a href="#contact us">Contact Us</a>
+            <a href="#contact-us">Contact Us</a>
         </div>
     </div>
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -85,12 +89,12 @@
         </div>
     </section>
 
-      {{-- datasheet --}}
+    {{-- datasheet --}}
     <section class="sec-padd-bottom bg-light">
         <div class="datasheet-download px-4 text-center">
-            <h3 class="mb-3" style="color:#174268;">Download Hard To Find Special Alloy Nimonic  Datasheet</h3>
+            <h3 class="mb-3" style="color:#174268;">Download Hard To Find Special Alloy Nimonic Datasheet</h3>
             <p class="mb-3">
-                Get the complete Hard To Find Special Alloy Nimonic  datasheet with chemical composition,
+                Get the complete Hard To Find Special Alloy Nimonic datasheet with chemical composition,
                 mechanical properties, heat treatment details, and applications.
                 Enter your email to receive the PDF instantly.
             </p>
@@ -128,11 +132,13 @@
         </div>
     </section>
     <!-- End Datasheet -->
-   
-    <section class="sec-padd-top sec-padd-bottom">
+
+
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>Material Summary – NIMONIC® Alloys</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -141,70 +147,42 @@
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Element</th>
-                                    <th>Anti-NIMONIC 75</th>
-                                    <th>Anti-NIMONIC 80A</th>
-                                    <th>Anti-NIMONIC 90</th>
-                                    <th>Anti-NIMONIC 105</th>
-                                    <th>Anti-NIMONIC 263</th>
+                                    <th>Property</th>
+                                    <th>Details</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-center">
+                            <tbody>
                                 <tr class="t-row">
-                                    <td>Nickel</td>
-                                    <td>≤ 20%</td>
-                                    <td>≤ 30%</td>
-                                    <td>≤ 30%</td>
-                                    <td>≤ 30%</td>
-                                    <td>≤ 20%</td>
+                                    <td>Material Type</td>
+                                    <td>Nickel–Chromium Superalloys</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Chromium</td>
-                                    <td>≤ 3%</td>
-                                    <td>≤ 3%</td>
-                                    <td>≤ 3%</td>
-                                    <td>≤ 5%</td>
-                                    <td>≤ 3%</td>
+                                    <td>Strength Mechanism</td>
+                                    <td>Solid Solution + Precipitation Hardening</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Cobalt</td>
-                                    <td>Present</td>
-                                    <td>≥ 2.5%</td>
-                                    <td>≤ 5%</td>
-                                    <td>≤ 5%</td>
-                                    <td>≤ 5%</td>
+                                    <td>Temperature Resistance</td>
+                                    <td>Up to 950 – 1050 °C (Grade dependent)</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Titanium</td>
-                                    <td>≥ 0.6%</td>
-                                    <td>≥ 0.5%</td>
-                                    <td>≥ 0.5%</td>
-                                    <td>≥ 0.5%</td>
-                                    <td>≥ 0.5%</td>
+                                    <td>Oxidation Resistance</td>
+                                    <td>Excellent</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Aluminum</td>
-                                    <td>≥ 0.6%</td>
-                                    <td>≥ 0.5%</td>
-                                    <td>≥ 0.5%</td>
-                                    <td>≥ 0.5%</td>
-                                    <td>≥ 0.1.0%</td>
+                                    <td>Creep Resistance</td>
+                                    <td>Excellent</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Molybdenum</td>
-                                    <td>Present</td>
-                                    <td>Present</td>
-                                    <td>Present</td>
-                                    <td>≤ 1.0%</td>
-                                    <td>≤ 1.0%</td>
+                                    <td>Weldability</td>
+                                    <td>Good (Best: Nimonic 263)</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Iron</td>
-                                    <td>≥ 10%</td>
-                                    <td>≥ 5.0%</td>
-                                    <td>≥ 5.0%</td>
-                                    <td>≥ 5.0%</td>
-                                    <td>≥ 2.0%</td>
+                                    <td>Magnetic Property</td>
+                                    <td>Non-Magnetic</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Typical Forms</td>
+                                    <td>Bars, Sheets, Tubes, Wires, Forgings</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -214,132 +192,395 @@
         </div>
     </section>
 
+    <!-- Chemical Composition -->
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of Common Nimonic Grades</h2>
+            </div>
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Element</th>
+                            <th>Nimonic 75</th>
+                            <th>Nimonic 80A</th>
+                            <th>Nimonic 90</th>
+                            <th>Nimonic 105</th>
+                            <th>Nimonic 263</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Ni</td>
+                            <td>≤ 20%</td>
+                            <td>≤ 30%</td>
+                            <td>≤ 30%</td>
+                            <td>≤ 30%</td>
+                            <td>≤ 20%</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Cr</td>
+                            <td>≤ 3%</td>
+                            <td>≤ 3%</td>
+                            <td>≤ 3%</td>
+                            <td>≤ 5%</td>
+                            <td>≤ 3%</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Co</td>
+                            <td>Present</td>
+                            <td>≥ 2.5%</td>
+                            <td>≤ 5%</td>
+                            <td>≤ 5%</td>
+                            <td>≤ 5%</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Ti</td>
+                            <td>≥ 0.6%</td>
+                            <td>≤ 0.5%</td>
+                            <td>≤ 0.5%</td>
+                            <td>≤ 0.5%</td>
+                            <td>≤ 0.5%</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Al</td>
+                            <td>≥ 0.6%</td>
+                            <td>≤ 0.5%</td>
+                            <td>≤ 0.5%</td>
+                            <td>≤ 0.5%</td>
+                            <td>≥ 1.0%</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Mo</td>
+                            <td>Present</td>
+                            <td>Present</td>
+                            <td>Present</td>
+                            <td>≤ 1.0%</td>
+                            <td>≤ 1.0%</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Fe</td>
+                            <td>≥ 10%</td>
+                            <td>≥ 5%</td>
+                            <td>≥ 5%</td>
+                            <td>≥ 5%</td>
+                            <td>≥ 2%</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Others</td>
+                            <td>No C, Mn, Si, Cu, S</td>
+                            <td>No B, Zr, C, Mn</td>
+                            <td>No B, Zr, C, Mn</td>
+                            <td>No B, Zr, C, Mn</td>
+                            <td>Excludes C, Mn, Si; adds P, Sn</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p class="mt-3 text-center">
+                    📌 Composition varies by grade. Contact us for full datasheets of Nimonic 80A, 90, 105 & 263.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Physical Properties -->
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color:#174268;">
+                    Physical Properties of Nimonic 75 (Typical)
+                </h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Imperial</th>
-                                    <th>Metric</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Density</td>
-                                    <td>0.30 lb/in³</td>
-                                    <td>8.2 g/cm³</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Melting Range</td>
-                                    <td>2500 – 2650 °F</td>
-                                    <td>1370 – 1460 °C</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Modulus of Elasticity – Tension</td>
-                                    <td>28.0 × 10³ ksi</td>
-                                    <td>193 GPa</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Modulus of Elasticity – Compression</td>
-                                    <td>28.0 × 10³ ksii</td>
-                                    <td>193 GPa</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Modulus of Elasticity – Torsion</td>
-                                    <td>10.0 × 10³ ksi</td>
-                                    <td>193 GPa</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Poisson’s Ratio</td>
-                                    <td>0.30</td>
-                                    <td>—</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Curie Temperature</td>
-                                    <td>1040 °F</td>
-                                    <td>560 °C</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+            <div class="table-responsive col-lg-10 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Imperial Units</th>
+                            <th>Metric Units</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Density</td>
+                            <td>0.30 lb/in³</td>
+                            <td>8.2 g/cm³</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Melting Range</td>
+                            <td>2500 – 2650 °F</td>
+                            <td>1370 – 1460 °C</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elastic Modulus (Tension)</td>
+                            <td>28 × 10³ ksi</td>
+                            <td>193 GPa</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elastic Modulus (Compression)</td>
+                            <td>28 × 10³ ksi</td>
+                            <td>193 GPa</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elastic Modulus (Torsion)</td>
+                            <td>10 × 10³ ksi</td>
+                            <td>69 GPa</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Poisson’s Ratio</td>
+                            <td>0.30</td>
+                            <td>—</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Curie Temperature</td>
+                            <td>~1040 °F</td>
+                            <td>~560 °C</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
 
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
+            <!-- Heat Treatment -->
+            <div class="row justify-content-center mt-5" id="heat-treatment">
                 <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+                    <h4 class="text-center mb-3" style="color:#db7227;">
+                        Heat Treatment & Strengthening of Nimonic Alloys
+                    </h4>
+
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Annealed</th>
-                                    <th>Hot-Finished</th>
-                                    <th>Cold Worked</th>
-                                    <th>Hot-Rolled</th>
-                                    <th>Sheet</th>
+                                    <th>Process</th>
+                                    <th>Temperature Range</th>
+                                    <th>Purpose</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Tensile Strength (ksi / MPa)</td>
-                                    <td>90–120 / 620–830</td>
-                                    <td>130–170 / 896–1172</td>
-                                    <td>150–200 / 1034–1379</td>
-                                    <td>100–140 / 690–965</td>
-                                    <td>90–130 / 620–896</td>
+                                    <td>Solution Annealing</td>
+                                    <td>1050 – 1200 °C</td>
+                                    <td>Dissolves precipitates, improves ductility</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (0.2%) (ksi / MPa)</td>
-                                    <td>60–90 / 414–620</td>
-                                    <td>110–150 / 758–1034</td>
-                                    <td>140–180 / 965–1240</td>
-                                    <td>70–110 / 483–758</td>
-                                    <td>60–90 / 414–620</td>
+                                    <td>Aging / Precipitation Hardening</td>
+                                    <td>700 – 850 °C</td>
+                                    <td>Increases high-temperature strength</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Elongation (%)</td>
-                                    <td>15–30</td>
-                                    <td>8–15</td>
-                                    <td>5–10</td>
-                                    <td>15–25</td>
-                                    <td>20–30</td>
+                                    <td>Stress Relieving</td>
+                                    <td>650 – 750 °C</td>
+                                    <td>Reduces residual stresses</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Rockwell Hardness (B / C)</td>
-                                    <td>60–70 B</td>
-                                    <td>80–90 B</td>
-                                    <td>90–95 B</td>
-                                    <td>70–80 B</td>
-                                    <td>65–75 B</td>
+                                    <td>Hot Working</td>
+                                    <td>950 – 1150 °C</td>
+                                    <td>Forging & rolling</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Brinell Hardness (HB)</td>
-                                    <td>180–220</td>
-                                    <td>250–300</td>
-                                    <td>300–350</td>
-                                    <td>200–250</td>
-                                    <td>180–220</td>
+                                    <td>Cold Working + Aging</td>
+                                    <td>—</td>
+                                    <td>Improves strength & creep resistance</td>
                                 </tr>
                             </tbody>
                         </table>
+
+                        <p class="mt-3 text-center">
+                            📌 Grades like Nimonic 80A, 90 & 105 rely on γ′ (gamma-prime) precipitation for strength.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color:#174268;">
+                    Mechanical Properties – Nimonic 75 (Typical)
+                </h2>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Annealed</th>
+                            <th>Hot-Finished</th>
+                            <th>Cold-Drawn</th>
+                            <th>Hot-Rolled</th>
+                            <th>Sheet</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Tensile Strength</td>
+                            <td>620–830 MPa</td>
+                            <td>896–1172 MPa</td>
+                            <td>1034–1379 MPa</td>
+                            <td>690–965 MPa</td>
+                            <td>620–896 MPa</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Yield Strength (0.2%)</td>
+                            <td>414–620 MPa</td>
+                            <td>758–1034 MPa</td>
+                            <td>965–1240 MPa</td>
+                            <td>483–758 MPa</td>
+                            <td>414–620 MPa</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elongation</td>
+                            <td>15–30%</td>
+                            <td>8–15%</td>
+                            <td>5–10%</td>
+                            <td>15–25%</td>
+                            <td>20–30%</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Brinell Hardness</td>
+                            <td>180–220</td>
+                            <td>250–300</td>
+                            <td>300–350</td>
+                            <td>200–250</td>
+                            <td>180–220</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Rockwell Hardness</td>
+                            <td>60–70 B</td>
+                            <td>80–90 B</td>
+                            <td>90–95 B</td>
+                            <td>70–80 B</td>
+                            <td>65–75 B</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Forms -->
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="available-forms">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Available Forms & Size Range – Nimonic Alloys</h2>
+            </div>
+
+            <div class="table-responsive col-lg-10 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Product Form</th>
+                            <th>Typical Size Range</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Round Bars / Rods</td>
+                            <td>6 mm – 350 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Flat Bars</td>
+                            <td>Thickness 5 – 100 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Sheets & Plates</td>
+                            <td>0.5 – 60 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Coils & Strips</td>
+                            <td>0.1 – 6 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Pipes & Tubes</td>
+                            <td>OD 6 – 250 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Wires</td>
+                            <td>0.1 – 12 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Fasteners</td>
+                            <td>M4 – M72</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Custom Components</td>
+                            <td>As per drawing</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- International Standards -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades – Nimonic</h2>
+            </div>
+
+            <div class="table-responsive col-lg-10 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Grade</th>
+                            <th>UNS</th>
+                            <th>British Std</th>
+                            <th>AMS</th>
+                            <th>ISO</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Nimonic 75</td>
+                            <td>N06075</td>
+                            <td>BS HR1</td>
+                            <td>AMS 5709</td>
+                            <td>ISO NiCr20Ti</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Nimonic 80A</td>
+                            <td>N07080</td>
+                            <td>BS HR6017</td>
+                            <td>AMS 5699</td>
+                            <td>—</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Nimonic 90</td>
+                            <td>N07090</td>
+                            <td>BS HR3</td>
+                            <td>AMS 5823</td>
+                            <td>—</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Nimonic 105</td>
+                            <td>N12115</td>
+                            <td>BS HR5</td>
+                            <td>AMS 5745</td>
+                            <td>—</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Nimonic 263</td>
+                            <td>N07263</td>
+                            <td>—</td>
+                            <td>AMS 5887</td>
+                            <td>—</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+
 
 
     @php
@@ -398,7 +639,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Nimonic Alloys</h2>
@@ -455,7 +696,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -501,7 +742,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Nimonic Alloys</h2>
@@ -605,8 +846,27 @@
         </div>
     </section>
 
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>Nimonic Alloy Price per kg in India</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹3,500 – ₹12,000 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -692,8 +952,8 @@
     </section>
     <!--End faq content area-->
 
-     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    {{-- blog section start --}}
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -749,7 +1009,7 @@
     {{-- blog section end --}}
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

@@ -1,7 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'Hastelloy X | High-Temp Strength Alloy')
-@section('meta_description', 'Hastelloy X pipes, tubes & fittings with high-temperature strength, oxidation resistance,
+@section('meta_description',
+    'Hastelloy X pipes, tubes & fittings with high-temperature strength, oxidation resistance,
     and weldability for aerospace and turbine applications')
 @section('meta_keywords',
     'Hastelloy X, High Temperature Alloy, Hastelloy X Pipes, Hastelloy X Tubes, Hastelloy X
@@ -16,13 +17,34 @@
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1>Hastelloy X Alloy <br> High-Temperature Strength Nickel Alloy</h1>
+                    <!-- Add your extra content here -->
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                        High-Temperature Nickel-Chromium-Iron-Molybdenum Superalloy
+                        Hastelloy X is a premier high-temperature alloy used where extreme heat, oxidation, and mechanical
+                        stress demand the highest material performance. This page includes the full datasheet covering
+                        chemical composition, mechanical properties, heat treatment, applications, and more.</p>
+                    <!-- End extra content -->
                 </div>
             </div>
         </div>
     </section>
 
+    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+        <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact-us">Contact Us</a>
+        </div>
+    </div>
+
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -110,10 +132,82 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
+
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>Hastelloy X Specifications (UNS N06002)</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Category</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Grade</td>
+                                    <td>Hastelloy X / Alloy X / UNS N06002</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Material Type</td>
+                                    <td>Nickel–Chromium–Iron–Molybdenum Superalloy</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Key Characteristics</td>
+                                    <td>High-temperature strength and oxidation resistance</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Chemical Summary</td>
+                                    <td>Ni balance, Cr 19–23%, Fe 17–20%, Mo 8–10%, Co 1–2%</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Conditions Available</td>
+                                    <td>Annealed, Solution Annealed, Hot Rolled, Cold Worked</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Heat Treatment</td>
+                                    <td>Solution Annealing at 1120–1175°C, rapid quench</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Weldability</td>
+                                    <td>Excellent (GTAW / GMAW / SMAW)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Applications</td>
+                                    <td>Aerospace, Gas Turbines, Furnaces, Nuclear Systems</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Testing Offered</td>
+                                    <td>Tensile, Hardness, Chemical, PMI, NDT, UT</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Standards</td>
+                                    <td>ASTM B435, B619, B622, B626</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Certification</td>
+                                    <td>EN 10204 3.1 / 3.2 MTC</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chemical Composition -->
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of Hastelloy X</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -128,47 +222,47 @@
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Nickel</td>
-                                    <td>Balance ( 47%)</td>
+                                    <td>Nickel (Ni)</td>
+                                    <td>Balance (~47)</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Chromium</td>
+                                    <td>Chromium (Cr)</td>
                                     <td>19 – 23</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Molybdenum</td>
-                                    <td>8 – 10</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Iron</td>
+                                    <td>Iron (Fe)</td>
                                     <td>17 – 20</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Cobalt</td>
+                                    <td>Molybdenum (Mo)</td>
+                                    <td>8 – 10</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Cobalt (Co)</td>
                                     <td>1 – 2</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Manganese</td>
-                                    <td>1</td>
+                                    <td>Manganese (Mn)</td>
+                                    <td>1.0 max</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Silicon</td>
-                                    <td>0.08</td>
+                                    <td>Silicon (Si)</td>
+                                    <td>0.08 max</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Carbon</td>
-                                    <td>0.15</td>
+                                    <td>Carbon (C)</td>
+                                    <td>0.15 max</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Aluminum</td>
+                                    <td>Aluminum (Al)</td>
                                     <td>0.5 – 1.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Titanium</td>
+                                    <td>Titanium (Ti)</td>
                                     <td>0.20 – 0.60</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Columbium + Tantalum</td>
+                                    <td>Niobium + Tantalum (Nb + Ta)</td>
                                     <td>1.0 – 1.5</td>
                                 </tr>
                             </tbody>
@@ -179,17 +273,19 @@
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Physical Properties -->
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color:#174268;">
+                    Technical Composition of Hastelloy X
+                </h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
+            <div class="row justify-content-center">
                 <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
+                    <h3 class="text-center mb-3" style="color: #db7227;">Physical Properties of Hastelloy X
+                    </h3>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -205,15 +301,15 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Melting Point</td>
-                                    <td>1260 – 1340 °C</td>
+                                    <td>1260 – 1340 °C</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Tensile Strength</td>
-                                    <td>110,000 psi / 760 MPa</td>
+                                    <td>760 MPa / 110,000 psi</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (0.2% Offset)</td>
-                                    <td>60,000 psi / 415 MPa</td>
+                                    <td>Yield Strength (0.2%)</td>
+                                    <td>415 MPa / 60,000 psi</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Elongation</td>
@@ -225,44 +321,47 @@
                 </div>
             </div>
 
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+            <!-- Heat Treatment -->
+            <div class="row justify-content-center mt-5" id="heat-treatment">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color:#db7227;">
+                        Heat Treatment of Hastelloy X
+                    </h4>
+
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Metric</th>
-                                    <th>Imperial</th>
+                                    <th>Process</th>
+                                    <th>Temperature Range</th>
+                                    <th>Procedure</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Tensile Strength (@ 538°C / 1000°F)</td>
-                                    <td>760 MPa</td>
-                                    <td>110,000 psi</td>
+                                    <td>Solution Annealing</td>
+                                    <td>1120 – 1175 °C</td>
+                                    <td>Rapid water quenching</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (0.2% offset @ 427°C / 801°F)</td>
-                                    <td>400 MPa</td>
-                                    <td>58,000 psi</td>
+                                    <td>Stress Relieving</td>
+                                    <td>870 – 900 °C</td>
+                                    <td>Air cool</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Elastic Modulus (RT)</td>
-                                    <td>205 GPa</td>
-                                    <td>30,000 ksi</td>
+                                    <td>Hot Working</td>
+                                    <td>950 – 1175 °C</td>
+                                    <td>Rapid cooling recommended</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Elongation at Break (@ 204°C / 399°F)</td>
-                                    <td>30%</td>
-                                    <td>30%</td>
+                                    <td>Cold Working</td>
+                                    <td>—</td>
+                                    <td>Intermediate annealing required</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Hardness, Rockwell B (plate)</td>
-                                    <td>85-90 HRB</td>
-                                    <td>85-90 HRB</td>
+                                    <td>Welding Heat Control</td>
+                                    <td>—</td>
+                                    <td>Minimize heat input to avoid grain growth</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -271,6 +370,145 @@
             </div>
         </div>
     </section>
+
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color:#174268;">
+                    Mechanical Properties of Hastelloy X
+                </h2>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Metric</th>
+                            <th>Imperial</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Tensile Strength</td>
+                            <td>760 MPa</td>
+                            <td>110,000 psi</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Yield Strength (0.2%)</td>
+                            <td>400 MPa</td>
+                            <td>58,000 psi</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elastic Modulus (RT)</td>
+                            <td>205 GPa</td>
+                            <td>30,000 ksi</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elongation</td>
+                            <td>30%</td>
+                            <td>30%</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Hardness (Rockwell B)</td>
+                            <td>85 – 90 HRB</td>
+                            <td>85 – 90 HRB</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Forms -->
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="available-forms">
+        <div class="container">
+            <div class="section-title center mt-5">
+                <h2>Available Forms & Size Range – Hastelloy X</h2>
+            </div>
+
+            <div class="table-responsive col-lg-10 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Product Form</th>
+                            <th>Size Range / Description</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Round Bars</td>
+                            <td>6 mm – 300 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Flat, Square & Hex Bars</td>
+                            <td>Custom sizes available</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Sheets & Plates</td>
+                            <td>0.5 – 100 mm thickness</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Coils & Strips</td>
+                            <td>0.1 – 12 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Seamless & Welded Pipes / Tubes</td>
+                            <td>OD 6 – 219 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Heat Exchanger & Boiler Tubes</td>
+                            <td>Custom lengths & bends</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Forged Components</td>
+                            <td>Blocks, rings, bushings as per drawing</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- International Standards -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades</h2>
+            </div>
+
+            <div class="table-responsive col-lg-6 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>N06002</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Werkstoff Nr.</td>
+                            <td>2.4665</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>B435, B619, B622, B626</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASME</td>
+                            <td>SB435, SB619, SB622, SB626</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
 
 
     @php
@@ -329,7 +567,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Hastelloy X</h2>
@@ -389,7 +627,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -435,7 +673,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Hastelloy X</h2>
@@ -564,8 +802,27 @@
         </div>
     </section>
 
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>Hastelloy X Price per kg in India</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹2,300 – ₹4,800 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -669,9 +926,9 @@
     </section>
     <!--End faq content area-->
 
-    
+
     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -727,7 +984,7 @@
     {{-- blog section end --}}
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

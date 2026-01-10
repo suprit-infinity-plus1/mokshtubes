@@ -17,13 +17,33 @@
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
                     <h1>Hastelloy G3 Alloy <br> Weldable Corrosion Resistant Nickel Alloy</h1>
+                    <!-- Add your extra content here -->
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                        Hastelloy G-3 is an advanced corrosion-resistant alloy engineered to perform reliably in highly
+                        aggressive oxidizing and reducing chemical environments. Below is the full technical datasheet
+                        including chemical composition, mechanical properties, heat treatment, applications, and more.</p>
+                    <!-- End extra content -->
                 </div>
             </div>
         </div>
     </section>
 
+    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
+        <div class="container">
+            <a href="#overview">Overview</a> |
+            <a href="#composition">Chemical Composition</a> |
+            <a href="#heat-treatment">Heat Treatment</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#price">Advantages</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#contact-us">Contact Us</a>
+        </div>
+    </div>
+
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -111,10 +131,82 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
+
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>Hastelloy G-3 Specifications (UNS N06985)</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Category</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Grade</td>
+                                    <td>Hastelloy G-3 / Alloy G-3 / UNS N06985</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Material Type</td>
+                                    <td>Nickel–Chromium–Iron Corrosion-Resistant Alloy</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Key Characteristics</td>
+                                    <td>Outstanding resistance to oxidizing and reducing acids</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Chemical Summary</td>
+                                    <td>Ni 47–50%, Cr 20–23.5%, Fe 18–21%, Mo 6–8%, Cu 1.5–2.5%</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Conditions Available</td>
+                                    <td>Annealed, Solution Annealed, Hot Rolled, Cold Worked</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Heat Treatment</td>
+                                    <td>Solution Annealing: 1100–1150°C, rapid cooling</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Weldability</td>
+                                    <td>Excellent; very low sensitivity to weld cracking</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Corrosion Resistance</td>
+                                    <td>Exceptional against sulfuric, phosphoric, nitric & hydrochloric acids</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Testing Offered</td>
+                                    <td>PMI, Chemical Analysis, Tensile, Hardness, UT, NDT</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Certification</td>
+                                    <td>EN 10204 3.1 / 3.2</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Standards</td>
+                                    <td>ASTM B582, B619, B622, B626</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chemical Composition -->
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of Hastelloy G-3</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -129,64 +221,69 @@
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Nickel</td>
+                                    <td>Nickel (Ni)</td>
                                     <td>47.0 – 50.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Chromium</td>
+                                    <td>Chromium (Cr)</td>
                                     <td>20.0 – 23.5</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Molybdenum</td>
-                                    <td>6.0 – 8.0</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Iron</td>
+                                    <td>Iron (Fe)</td>
                                     <td>18.0 – 21.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Cobalt</td>
-                                    <td>5.0 max</td>
+                                    <td>Molybdenum (Mo)</td>
+                                    <td>6.0 – 8.0</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Manganese</td>
-                                    <td>2.0 max</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Silicon</td>
-                                    <td>0.6 max</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Carbon</td>
-                                    <td>0.03 max</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Copper</td>
+                                    <td>Copper (Cu)</td>
                                     <td>1.5 – 2.5</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Sulfur</td>
+                                    <td>Cobalt (Co)</td>
+                                    <td>5.0 max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Manganese (Mn)</td>
+                                    <td>2.0 max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Silicon (Si)</td>
+                                    <td>0.6 max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Carbon (C)</td>
+                                    <td>0.03 max</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Sulfur (S)</td>
                                     <td>0.03 max</td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
+
+                    <p class="mt-3 text-center">
+                        The synergistic combination of chromium, molybdenum, and copper provides Hastelloy G-3 with
+                        excellent resistance to both oxidizing and reducing chemical environments.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Physical Properties -->
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color:#174268;">
+                    Physical Properties of Hastelloy G-3
+                </h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
+            <div class="row justify-content-center">
                 <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -202,64 +299,19 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Melting Point</td>
-                                    <td>1350–1395°C (2462–2543°F)</td>
+                                    <td>1350 – 1395°C (2462 – 2543°F)</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Tensile Strength</td>
-                                    <td>95,000 psi / 655 MPa</td>
+                                    <td>655 MPa / 95,000 psi</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (0.2% Offset)</td>
-                                    <td>43,000 psi / 295 MPa</td>
+                                    <td>Yield Strength (0.2%)</td>
+                                    <td>295 MPa / 43,000 psi</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Elongation</td>
-                                    <td>45 %</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Metric</th>
-                                    <th>Imperial</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <tr class="t-row">
-                                    <td>Tensile Strength (@ 538°C / 1000°F)</td>
-                                    <td>586 MPa</td>
-                                    <td>85,000 psi</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Yield Strength (0.2% offset @ 427°C / 801°F)</td>
-                                    <td>276 MPa</td>
-                                    <td>40,000 psi</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Elastic Modulus (RT)</td>
-                                    <td>208 GPa</td>
-                                    <td>30,000 ksi</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Elongation at Break (@ 204°C / 399°F)</td>
                                     <td>45%</td>
-                                    <td>45%</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Hardness, Rockwell B (plate)</td>
-                                    <td>88</td>
-                                    <td>88</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -268,6 +320,157 @@
             </div>
         </div>
     </section>
+
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color:#174268;">
+                    Mechanical Properties of Hastelloy G-3
+                </h2>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Metric</th>
+                            <th>Imperial</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Tensile Strength</td>
+                            <td>586 MPa</td>
+                            <td>85,000 psi</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Yield Strength (0.2%)</td>
+                            <td>276 MPa</td>
+                            <td>40,000 psi</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elastic Modulus (RT)</td>
+                            <td>208 GPa</td>
+                            <td>30,000 ksi</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elongation</td>
+                            <td>45%</td>
+                            <td>45%</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Hardness (Rockwell B)</td>
+                            <td>88</td>
+                            <td>88</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Forms -->
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center mt-5">
+                <h2>Available Forms & Size Range – Hastelloy G-3</h2>
+            </div>
+
+            <div class="table-responsive col-lg-10 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Product Form</th>
+                            <th>Size Range</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Seamless Pipes</td>
+                            <td>6 – 219 mm OD</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Welded Pipes</td>
+                            <td>Custom sizes (ERW / EFW)</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Tubes (Heat Exchanger, U-Bend, Capillary)</td>
+                            <td>As required</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Sheets & Plates</td>
+                            <td>0.5 – 100 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Coils & Strips</td>
+                            <td>0.1 – 12 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Bars (Round / Flat / Square / Hex)</td>
+                            <td>5 – 300 mm</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Pipe Fittings</td>
+                            <td>ASME / DIN standards</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Flanges</td>
+                            <td>WNRF, SORF, BLRF, SW, Threaded</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Fasteners</td>
+                            <td>M3 – M80</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Custom Components</td>
+                            <td>As per drawing</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- International Standards -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades</h2>
+            </div>
+
+            <div class="table-responsive col-lg-6 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>N06985</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Werkstoff Nr.</td>
+                            <td>2.4619</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>B582, B619, B622, B626</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASME</td>
+                            <td>SB582, SB619, SB622, SB626</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
 
 
     @php
@@ -326,7 +529,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Hastelloy G3</h2>
@@ -388,7 +591,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -440,7 +643,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Hastelloy G3</h2>
@@ -563,7 +766,7 @@
     </section>
 
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -660,9 +863,9 @@
     </section>
     <!--End faq content area-->
 
-    
+
     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -718,7 +921,7 @@
     {{-- blog section end --}}
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
