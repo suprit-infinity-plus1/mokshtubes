@@ -9,9 +9,12 @@ use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Route;
+
 
 class BlogController extends Controller
 {
+
     // public function blogs()
     // {
     //     $blogsData = collect([
@@ -386,6 +389,34 @@ class BlogController extends Controller
 
         return redirect()->route('admin.blogs')->with('success', 'Blog created successfully.');
     }
+    protected function compileContentLinks(string $content): string
+    {
+        // Replace {{ route('name') }}
+        $content = preg_replace_callback(
+            '/\{\{\s*route\(\s*[\'"]([^\'"]+)[\'"]\s*\)\s*\}\}/',
+            function ($matches) {
+                $routeName = $matches[1];
+
+                if (Route::has($routeName)) {
+                    return route($routeName, [], false); // relative URL
+                }
+
+                return '#';
+            },
+            $content
+        );
+
+        // Replace {{ url('path') }}
+        $content = preg_replace_callback(
+            '/\{\{\s*url\(\s*[\'"]([^\'"]+)[\'"]\s*\)\s*\}\}/',
+            function ($matches) {
+                return url($matches[1], false);
+            },
+            $content
+        );
+
+        return $content;
+    }
 
     public function blogsUpdate(Request $request, $id)
     {
@@ -433,7 +464,7 @@ class BlogController extends Controller
 
         // Ensure author consistency
         $data['author'] = $data['author'] ?? (auth()->user()->name ?? 'admin');
-
+        $data['content'] = $this->compileContentLinks($data['content']);
         // Update main blog record
         $blog->update($data);
 
@@ -508,7 +539,7 @@ class BlogController extends Controller
         $category = BlogCategory::findOrFail($id);
 
         $data = $request->validate([
-            'name' => 'required|string|max:255|unique:blog_categories,name,'.$category->id,
+            'name' => 'required|string|max:255|unique:blog_categories,name,' . $category->id,
             'status' => 'required|boolean',
         ]);
 
@@ -588,7 +619,7 @@ class BlogController extends Controller
 
         // Validate the request
         $data = $request->validate([
-            'name' => 'required|string|max:255|unique:tags,name,'.$tag->id, // Ensure name is unique, but allow for this tag's name
+            'name' => 'required|string|max:255|unique:tags,name,' . $tag->id, // Ensure name is unique, but allow for this tag's name
         ]);
 
         // Generate slug from the name

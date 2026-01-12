@@ -262,5 +262,6 @@
                 e.target.closest('.faq-item').remove();
             }
         });
+        
     </script>
 @endsection

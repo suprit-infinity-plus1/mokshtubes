@@ -632,28 +632,28 @@
             ],
         ];
 
-        $engineeringProducts = [
-            [
-                'name' => 'EN8 Carbon Steel',
-                'slug' => 'en8',
-                'image' => 'assets/images/engineering-steels/engineering-steels-en8.webp',
-            ],
-            [
-                'name' => 'Engineering Steel EN9',
-                'slug' => 'en9',
-                'image' => 'assets/images/engineering-steels/engineering-steels-en9.webp',
-            ],
-            [
-                'name' => 'Engineering Steel 1045',
-                'slug' => '1045',
-                'image' => 'assets/images/engineering-steels/engineering-steels-1045.webp',
-            ],
-            [
-                'name' => 'Engineering Steel 1060',
-                'slug' => '1060',
-                'image' => 'assets/images/engineering-steels/engineering-steels-en8.webp',
-            ],
-        ];
+        // $engineeringProducts = [
+        //     [
+        //         'name' => 'EN8 Carbon Steel',
+        //         'slug' => 'en8',
+        //         'image' => 'assets/images/engineering-steels/engineering-steels-en8.webp',
+        //     ],
+        //     [
+        //         'name' => 'Engineering Steel EN9',
+        //         'slug' => 'en9',
+        //         'image' => 'assets/images/engineering-steels/engineering-steels-en9.webp',
+        //     ],
+        //     [
+        //         'name' => 'Engineering Steel 1045',
+        //         'slug' => '1045',
+        //         'image' => 'assets/images/engineering-steels/engineering-steels-1045.webp',
+        //     ],
+        //     [
+        //         'name' => 'Engineering Steel 1060',
+        //         'slug' => '1060',
+        //         'image' => 'assets/images/engineering-steels/engineering-steels-en8.webp',
+        //     ],
+        // ];
 
     @endphp
 

@@ -121,7 +121,7 @@
             </p>
 
             <!-- Lead Capture Form -->
-          <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
                 @csrf
 
                 <input type="hidden" name="page_path" value="{{ $slug }}">
@@ -993,9 +993,9 @@
     </section>
     <!--End faq content area-->
 
-    
+
     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -1051,7 +1051,7 @@
     {{-- blog section end --}}
 
 
-    <section id="contact-us"  class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
