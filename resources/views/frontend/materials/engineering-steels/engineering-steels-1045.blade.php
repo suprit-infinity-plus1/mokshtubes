@@ -42,7 +42,7 @@
             <a href="#advantages">Advantages</a> |
             <a href="#applications">Applications</a> |
             <a href="#faq">FAQ</a> |
-            <a href="#contact us">Contact Us</a>
+            <a href="#contact-us">Contact Us</a>
         </div>
     </div>
 
@@ -644,7 +644,7 @@
 
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="products" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Engineering Steel 1045</h2>
@@ -1051,7 +1051,7 @@
     {{-- blog section end --}}
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us"  class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

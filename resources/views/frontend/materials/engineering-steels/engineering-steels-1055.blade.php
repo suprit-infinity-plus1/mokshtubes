@@ -47,7 +47,7 @@
             <a href="#price">Advantages</a> |
             <a href="#applications">Applications</a> |
             <a href="#faq">FAQ</a> |
-            <a href="#contact us">Contact Us</a>
+            <a href="#contact-us">Contact Us</a>
         </div>
     </div>
 
@@ -104,10 +104,6 @@
                                 3.2 certification</strong>, ensuring consistent quality, traceability, and reliable
                             performance for industrial and mechanical applications.
                         </p>
-
-
-
-
                     </div>
                 </div>
             </div>
@@ -266,12 +262,8 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
-
-
-
 
     <!-- Technical Properties Section -->
 
@@ -1105,7 +1097,7 @@
     {{-- blog section end --}}
 
     <!-- Contact CTA Section -->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section  id="contact-us"class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

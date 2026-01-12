@@ -44,11 +44,11 @@
             <a href="#price">Advantages</a> |
             <a href="#applications">Applications</a> |
             <a href="#faq">FAQ</a> |
-            <a href="#contact us">Contact Us</a>
+            <a href="#contact-us">Contact Us</a>
         </div>
     </div>
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light" id="overview">
+    <section  id="overview" class="sec-padd-top sec-padd-bottom bg-light" id="overview">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -595,7 +595,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Engineering Steel 4130</h2>
@@ -653,7 +653,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses"  class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -692,7 +692,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom" id="applications">
+    <section  id="applications" class="sec-padd-top sec-padd-bottom" id="applications">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Engineering Steel 4130</h2>
@@ -861,7 +861,7 @@
     </section>
 
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section  id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -1023,7 +1023,7 @@
     {{-- blog section end --}}
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="contact-us" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

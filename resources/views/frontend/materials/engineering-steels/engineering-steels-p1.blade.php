@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'P1 Alloy Steel | High Impact Resistance Tool Steel')
-@section('meta_description', 'P1 Alloy Steel ideal for tools requiring superior impact resistance, hardness, and
+@section('meta_description',
+    'P1 Alloy Steel ideal for tools requiring superior impact resistance, hardness, and
     durability.')
-@section('meta_keywords', 'P1 Alloy Steel, tool steel, impact resistant steel, hard alloy steel, industrial tools steel,
+@section('meta_keywords',
+    'P1 Alloy Steel, tool steel, impact resistant steel, hard alloy steel, industrial tools steel,
     durable alloy steel')
 @section('og_image', asset('assets/images/engineering-steels/engineering-steels-p1.webp'))
 @section('og_type', 'article')
@@ -46,11 +48,11 @@
             <a href="#price">Advantages</a> |
             <a href="#applications">Applications</a> |
             <a href="#faq">FAQ</a> |
-            <a href="#contact us">Contact Us</a>
+            <a href="#contact-us">Contact Us</a>
         </div>
     </div>
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -132,10 +134,58 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>P1 Tool Steel Specifications</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Category</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Grade</td>
+                                    <td>AISI P1 / UNS T51601</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Type</td>
+                                    <td>Low-Carbon Mold Steel (Prehardening & Machinability Grade)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Testing</td>
+                                    <td>Hardness, Tensile, Charpy Impact, Microstructure, Chemical Analysis, UT (Optional)
+                                    </td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Conditions</td>
+                                    <td>Annealed, Pre-Hardened, Hardened & Tempered, Forged</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Certification</td>
+                                    <td>EN 10204 3.1 / 3.2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chemical Composition -->
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of P1 Tool Steel</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -150,85 +200,88 @@
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Carbon</td>
+                                    <td>Carbon (C)</td>
                                     <td>1.35 – 1.60</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Chromium</td>
-                                    <td>11.00 – 13.00</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Silicon</td>
-                                    <td>0.10 – 0.40</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Manganese</td>
+                                    <td>Manganese (Mn)</td>
                                     <td>0.25 – 0.45</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Molybdenum</td>
+                                    <td>Silicon (Si)</td>
+                                    <td>0.10 – 0.40</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Chromium (Cr)</td>
+                                    <td>11.00 – 13.00</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Molybdenum (Mo)</td>
                                     <td>0.80 – 1.20</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Sulfur</td>
-                                    <td>≤ 0.030</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Phosphorus</td>
-                                    <td>≤ 0.030</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Vanadium </td>
+                                    <td>Vanadium (V)</td>
                                     <td>0.20 – 0.50</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Phosphorus (P)</td>
+                                    <td>≤ 0.030</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Sulfur (S)</td>
+                                    <td>≤ 0.030</td>
                                 </tr>
                             </tbody>
                         </table>
+
+                        <p class="mt-3 text-center">
+                            High chromium and carbon content provides P1 tool steel with excellent abrasion resistance,
+                            edge retention, and reliable toughness.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Physical Properties -->
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color:#174268;">Physical Properties of P1 Tool Steel</h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
                                     <th>Property</th>
-                                    <th>Imperial</th>
                                     <th>Metric</th>
+                                    <th>Imperial</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
                                     <td>Density</td>
-                                    <td>0.284 lb/in³</td>
                                     <td>7.85 g/cm³</td>
+                                    <td>0.284 lb/in³</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Melting Point</td>
-                                    <td>2500 – 2550 °F</td>
+                                    <td>Melting Range</td>
                                     <td>1370 – 1400 °C</td>
+                                    <td>2500 – 2550 °F</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Modulus of Elasticity (Tension)</td>
-                                    <td>29,000 ksi</td>
+                                    <td>Elastic Modulus (Tension)</td>
                                     <td>200 GPa</td>
+                                    <td>29,000 ksi</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Modulus of Elasticity (Torsion)</td>
-                                    <td>11,600 ksi</td>
+                                    <td>Elastic Modulus (Torsion)</td>
                                     <td>80 GPa</td>
+                                    <td>11,600 ksi</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Poisson’s Ratio</td>
@@ -238,12 +291,12 @@
                                 <tr class="t-row">
                                     <td>Thermal Conductivity</td>
                                     <td>45 W/m·K</td>
-                                    <td>45 W/m·K</td>
+                                    <td>—</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Specific Heat Capacity</td>
+                                    <td>Specific Heat</td>
                                     <td>460 J/kg·K</td>
-                                    <td>460 J/kg·K</td>
+                                    <td>—</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -251,62 +304,38 @@
                 </div>
             </div>
 
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+            <!-- Heat Treatment -->
+            <div class="row justify-content-center mt-5" id="heat-treatment">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color:#db7227;">
+                        Heat Treatment Response – P1 Tool Steel
+                    </h4>
+
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Annealed</th>
-                                    <th>Hot-Finished</th>
-                                    <th>Cold Drawn</th>
-                                    <th>Hot-rolled</th>
-                                    <th>Sheet</th>
+                                    <th>Process</th>
+                                    <th>Temperature Range</th>
+                                    <th>Result</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Tensile Strength (ksi / MPa)</td>
-                                    <td>75–95 ksi / 517–655 MPa</td>
-                                    <td>80–110 ksi / 552–758 MPa</td>
-                                    <td>—</td>
-                                    <td>75–95 ksi / 517–655 MPa</td>
-                                    <td>—</td>
+                                    <td>Annealing</td>
+                                    <td>800 – 840 °C</td>
+                                    <td>Soft structure (~200 HB) for machining</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (0.2%)</td>
-                                    <td>40–60 ksi / 276–414 MPa</td>
-                                    <td>45–90 ksi / 310–620 MPa</td>
-                                    <td>—</td>
-                                    <td>40–60 ksi / 276–414 MPa</td>
-                                    <td>—</td>
+                                    <td>Hardening</td>
+                                    <td>950 – 980 °C</td>
+                                    <td>Very high hardness achieved</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Elongation (%)</td>
-                                    <td>20–30</td>
-                                    <td>15–25</td>
-                                    <td>—</td>
-                                    <td>20–30</td>
-                                    <td>—</td>
+                                    <td>Tempering</td>
+                                    <td>180 – 500 °C</td>
+                                    <td>Hardness–toughness balance</td>
                                 </tr>
-                                <tr class="t-row">
-                                    <td>Brinell Hardness (3000 kg)</td>
-                                    <td>140–190</td>
-                                    <td>160–220</td>
-                                    <td>—</td>
-                                    <td>140–190</td>
-                                    <td>—</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Rockwell Hardness (B / C)</td>
-                                    <td>75–85 B</td>
-                                    <td>85–90 B</td>
-                                    <td>—</td>
-                                    <td>75–85 B</td>
-                                    <td>—</td>
                             </tbody>
                         </table>
                     </div>
@@ -314,6 +343,115 @@
             </div>
         </div>
     </section>
+
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color:#174268;">
+                    Mechanical Properties of P1 Tool Steel
+                </h2>
+            </div>
+
+            <!-- Annealed -->
+            <h5 class="text-center mb-3">Annealed Condition (Soft State – For Machining)</h5>
+            <div class="table-responsive mb-4">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Typical Value</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Tensile Strength</td>
+                            <td>517 – 760 MPa</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Yield Strength</td>
+                            <td>276 – 450 MPa</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elongation</td>
+                            <td>20 – 30 %</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Hardness (Brinell)</td>
+                            <td>140 – 240 HB</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Hardness (Rockwell)</td>
+                            <td>75 – 85 HRB</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Hot Finished -->
+            <h5 class="text-center mb-3">Hot-Finished Condition</h5>
+            <div class="table-responsive mb-4">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Typical Value</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Tensile Strength</td>
+                            <td>552 – 758 MPa</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Yield Strength</td>
+                            <td>310 – 620 MPa</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elongation</td>
+                            <td>15 – 25 %</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Hardness (Brinell)</td>
+                            <td>160 – 220 HB</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Hardened & Tempered -->
+            <h5 class="text-center mb-3">Hardened & Tempered Condition (Working Condition)</h5>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Typical Value</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Tensile Strength</td>
+                            <td>1500 – 1900 MPa</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Hardness</td>
+                            <td>55 – 62 HRC</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Wear Resistance</td>
+                            <td>Excellent</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Impact Toughness</td>
+                            <td>Moderate to High</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
 
 
     @php
@@ -372,7 +510,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products"  class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Engineering Steel P1</h2>
@@ -430,7 +568,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -474,7 +612,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications"  class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Engineering Steel P1</h2>
@@ -590,8 +728,27 @@
         </div>
     </section>
 
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>P1 Tool Steel Price in India</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong>  ₹250 – ₹400 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -675,9 +832,9 @@
     </section>
     <!--End faq content area-->
 
-    
+
     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -733,7 +890,7 @@
     {{-- blog section end --}}
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

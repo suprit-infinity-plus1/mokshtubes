@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', '4340 Alloy Steel | High Tensile Strength Alloy')
-@section('meta_description', '4340 Alloy Steel delivers superior toughness and fatigue resistance for demanding
+@section('meta_description',
+    '4340 Alloy Steel delivers superior toughness and fatigue resistance for demanding
     engineering applications.')
-@section('meta_keywords', '4340 Alloy Steel, high tensile strength steel, tough steel, fatigue resistant steel, alloy
+@section('meta_keywords',
+    '4340 Alloy Steel, high tensile strength steel, tough steel, fatigue resistant steel, alloy
     steel for critical applications, industrial alloy steel')
 
 @section('og_image', asset('assets/images/engineering-steels/engineering-steels-4340.webp'))
@@ -45,12 +47,12 @@
             <a href="#price">Advantages</a> |
             <a href="#applications">Applications</a> |
             <a href="#faq">FAQ</a> |
-            <a href="#contact us">Contact Us</a>
+            <a href="#contact-us">Contact Us</a>
         </div>
     </div>
 
     <!--End breadcrumb area-->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -479,120 +481,120 @@
         </div>
     </section>
 
-<section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
-    <div class="container">
-        <div class="section-title center mt-5" id="available forms">
-            <h2>Available Forms & Size Range</h2>
-        </div>
-
-        <div class="row justify-content-center mb-4" style="text-align: justify;">
-            <div class="col-lg-10">
-                <p class="fs-6 text-center">
-                    We supply Alloy Steel 4340 in the following product forms and dimensions:
-                </p>
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center mt-5" id="available forms">
+                <h2>Available Forms & Size Range</h2>
             </div>
-        </div>
 
-        <div class="row justify-content-center">
-            <div class="col-lg-10">
-                <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color:#db7227;">
-                    <table class="table table-bordered table-striped">
-                        <thead>
-                            <tr>
-                                <th style="width: 40%;">Product Form</th>
-                                <th>Size Range / Description</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Round Bars</td>
-                                <td>16 mm – 600 mm</td>
-                            </tr>
-                            <tr>
-                                <td>Flat, Square & Hex Bars</td>
-                                <td>Custom sizes</td>
-                            </tr>
-                            <tr>
-                                <td>Sheets & Plates</td>
-                                <td>3 mm – 200 mm</td>
-                            </tr>
-                            <tr>
-                                <td>Forgings</td>
-                                <td>Blocks, rings, bushings, custom shapes</td>
-                            </tr>
-                            <tr>
-                                <td>Tubes</td>
-                                <td>OD 20 mm – 219 mm</td>
-                            </tr>
-                        </tbody>
-                    </table>
-
+            <div class="row justify-content-center mb-4" style="text-align: justify;">
+                <div class="col-lg-10">
+                    <p class="fs-6 text-center">
+                        We supply Alloy Steel 4340 in the following product forms and dimensions:
+                    </p>
                 </div>
             </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="p-4 bg-white rounded shadow-sm border-start border-4" style="border-color:#db7227;">
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th style="width: 40%;">Product Form</th>
+                                    <th>Size Range / Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Round Bars</td>
+                                    <td>16 mm – 600 mm</td>
+                                </tr>
+                                <tr>
+                                    <td>Flat, Square & Hex Bars</td>
+                                    <td>Custom sizes</td>
+                                </tr>
+                                <tr>
+                                    <td>Sheets & Plates</td>
+                                    <td>3 mm – 200 mm</td>
+                                </tr>
+                                <tr>
+                                    <td>Forgings</td>
+                                    <td>Blocks, rings, bushings, custom shapes</td>
+                                </tr>
+                                <tr>
+                                    <td>Tubes</td>
+                                    <td>OD 20 mm – 219 mm</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+
         </div>
+    </section>
 
-    </div>
-</section>
+    <!-- End Available Forms & Size Range Section -->
 
-<!-- End Available Forms & Size Range Section -->
+    <!-- Standards & Equivalent Grades Section -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades — Alloy Steel 4340</h2>
+            </div>
 
-<!-- Standards & Equivalent Grades Section -->
-<section class="sec-padd-top sec-padd-bottom" id="international">
-    <div class="container">
-        <div class="section-title center">
-            <h2>International Standards & Equivalent Grades — Alloy Steel 4340</h2>
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered text-center">
+                    <thead class="table-dark">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="t-row">
+                            <td>AISI / SAE</td>
+                            <td>4340</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>EN</td>
+                            <td>34CrNiMo6 / 1.6582</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>DIN</td>
+                            <td>34CrNiMo6</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>BS (British)</td>
+                            <td>817M40</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>AFNOR (France)</td>
+                            <td>35NCD16</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>JIS (Japan)</td>
+                            <td>SNCM439</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>GB (China)</td>
+                            <td>40CrNiMoA</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ISO</td>
+                            <td>34CrNiMo6</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>GOST (Russia)</td>
+                            <td>30ХГСА / 30KhGSA</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
-
-        <div class="table-responsive col-lg-8 mx-auto">
-            <table class="table table-bordered text-center">
-                <thead class="table-dark">
-                    <tr class="t-row">
-                        <th>Standard</th>
-                        <th>Equivalent Grade</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="t-row">
-                        <td>AISI / SAE</td>
-                        <td>4340</td>
-                    </tr>
-                    <tr class="t-row">
-                        <td>EN</td>
-                        <td>34CrNiMo6 / 1.6582</td>
-                    </tr>
-                    <tr class="t-row">
-                        <td>DIN</td>
-                        <td>34CrNiMo6</td>
-                    </tr>
-                    <tr class="t-row">
-                        <td>BS (British)</td>
-                        <td>817M40</td>
-                    </tr>
-                    <tr class="t-row">
-                        <td>AFNOR (France)</td>
-                        <td>35NCD16</td>
-                    </tr>
-                    <tr class="t-row">
-                        <td>JIS (Japan)</td>
-                        <td>SNCM439</td>
-                    </tr>
-                    <tr class="t-row">
-                        <td>GB (China)</td>
-                        <td>40CrNiMoA</td>
-                    </tr>
-                    <tr class="t-row">
-                        <td>ISO</td>
-                        <td>34CrNiMo6</td>
-                    </tr>
-                    <tr class="t-row">
-                        <td>GOST (Russia)</td>
-                        <td>30ХГСА / 30KhGSA</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-</section>
+    </section>
 
 
     @php
@@ -651,7 +653,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Engineering Steel 4340</h2>
@@ -692,7 +694,7 @@
             </div>
 
             <!-- Product Image Cards (Now centered and responsive) -->
-              <!-- Product Image Cards (Bootstrap Grid) -->
+            <!-- Product Image Cards (Bootstrap Grid) -->
             <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-4 justify-content-center">
                 @foreach ($products as $product)
                     <div class="col d-flex">
@@ -710,7 +712,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section  id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -749,7 +751,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Engineering Steel 4340</h2>
@@ -825,21 +827,21 @@
     </section>
 
     <section class="sec-padd-top sec-padd-bottom bg-light py-5">
-    <div class="container">
-        <div class="section-title text-center mb-4">
-            <h2>Export Destinations</h2>
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>Export Destinations</h2>
+            </div>
+
+            <p class="text-center mb-2">
+                We export Alloy Steel 4340 to:
+            </p>
+
+            <p class="text-center fs-5">
+                UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain, Turkey, Europe, USA, Canada, Singapore,
+                Malaysia, Indonesia, South Africa, Nigeria.
+            </p>
         </div>
-
-        <p class="text-center mb-2">
-            We export Alloy Steel 4340 to:
-        </p>
-
-        <p class="text-center fs-5">
-            UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain, Turkey, Europe, USA, Canada, Singapore,
-            Malaysia, Indonesia, South Africa, Nigeria.
-        </p>
-    </div>
-</section>
+    </section>
 
 
     <section class="sec-padd-top sec-padd-bottom bg-light">
@@ -888,17 +890,17 @@
     </section>
 
     <section id="price" class="sec-padd-top sec-padd-bottom bg-light">
-    <div class="container text-center">
-        <h2>4340 Steel Price per kg in India</h2>
-        <p>Price varies based on size, OD, thickness, and heat-treatment condition.</p>
-        <p><strong>Typical Range:</strong> ₹160 – ₹260 per kg (Indicative only)</p>
-        <p>Contact us for exact quotation based on size and quantity.</p>
-    </div>
-</section>
+        <div class="container text-center">
+            <h2>4340 Steel Price per kg in India</h2>
+            <p>Price varies based on size, OD, thickness, and heat-treatment condition.</p>
+            <p><strong>Typical Range:</strong> ₹160 – ₹260 per kg (Indicative only)</p>
+            <p>Contact us for exact quotation based on size and quantity.</p>
+        </div>
+    </section>
 
 
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq"  class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -1004,9 +1006,9 @@
     </section>
     <!--End faq content area-->
 
-    
+
     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -1062,7 +1064,7 @@
     {{-- blog section end --}}
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

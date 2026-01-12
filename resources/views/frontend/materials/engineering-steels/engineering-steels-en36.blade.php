@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'EN36 Alloy Steel | Tough Alloy Steel for Mechanical Parts')
-@section('meta_description', 'EN36 Alloy Steel with superior toughness and impact resistance for demanding mechanical
+@section('meta_description',
+    'EN36 Alloy Steel with superior toughness and impact resistance for demanding mechanical
     applications.')
-@section('meta_keywords', 'EN36 Alloy Steel, tough alloy steel, impact resistant steel, high strength steel, mechanical
+@section('meta_keywords',
+    'EN36 Alloy Steel, tough alloy steel, impact resistant steel, high strength steel, mechanical
     parts steel, industrial alloy steel')
 @section('og_image', asset('assets/images/engineering-steels/engineering-steels-en36.webp'))
 @section('og_type', 'article')
@@ -45,12 +47,12 @@
             <a href="#price">Advantages</a> |
             <a href="#applications">Applications</a> |
             <a href="#faq">FAQ</a> |
-            <a href="#contact us">Contact Us</a>
+            <a href="#contact-us">Contact Us</a>
         </div>
     </div>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -102,7 +104,7 @@
             </p>
 
             <!-- Lead Capture Form -->
-           <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
                 @csrf
 
                 <input type="hidden" name="page_path" value="{{ $slug }}">
@@ -134,10 +136,65 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>Engineering Steel EN36 Specifications</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Category</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Grade</td>
+                                    <td>EN36 (Nickel–Chromium–Molybdenum Alloy Steel)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Type</td>
+                                    <td>Case Hardening Alloy Steel</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Typical Composition</td>
+                                    <td>Ni 1.3–1.7%, Cr 0.9–1.2%, Mo 0.15–0.30%</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Conditions</td>
+                                    <td>Annealed, Normalized, Hot Rolled, Forged</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Heat Treatment</td>
+                                    <td>Carburizing, Hardening & Tempering</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Testing</td>
+                                    <td>Tensile, Hardness, Chemical, UT</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Certification</td>
+                                    <td>EN 10204 3.1 / 3.2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chemical Composition -->
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of EN36 Steel</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -152,100 +209,104 @@
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Carbon</td>
+                                    <td>Carbon (C)</td>
                                     <td>0.33 – 0.40</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Silicon</td>
+                                    <td>Silicon (Si)</td>
                                     <td>0.15 – 0.40</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Manganese</td>
+                                    <td>Manganese (Mn)</td>
                                     <td>0.60 – 0.90</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Chromium</td>
+                                    <td>Chromium (Cr)</td>
                                     <td>0.90 – 1.20</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Molybdenum</td>
+                                    <td>Nickel (Ni)</td>
+                                    <td>1.30 – 1.70</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Molybdenum (Mo)</td>
                                     <td>0.15 – 0.30</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Sulfur</td>
+                                    <td>Sulfur (S)</td>
                                     <td>≤ 0.040</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Phosphorus</td>
+                                    <td>Phosphorus (P)</td>
                                     <td>≤ 0.040</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Nickel</td>
-                                    <td>1.30 – 1.70</td>
                                 </tr>
                             </tbody>
                         </table>
+
+                        <p class="mt-3 text-center">
+                            EN36’s high nickel content ensures deep hardenability,
+                            while chromium and molybdenum improve strength, wear resistance,
+                            and fatigue performance.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Physical Properties -->
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color:#174268;">Physical Properties of EN36 Steel</h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
                                     <th>Property</th>
-                                    <th>Imperial</th>
                                     <th>Metric</th>
+                                    <th>Imperial</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
                                     <td>Density</td>
-                                    <td>0.284 lb/in³</td>
                                     <td>7.85 g/cm³</td>
+                                    <td>0.284 lb/in³</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Melting Point</td>
-                                    <td>2475 – 2550 °F</td>
+                                    <td>Melting Range</td>
                                     <td>1358 – 1400 °C</td>
+                                    <td>2480 – 2550 °F</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Modulus of Elasticity (Tension)</td>
-                                    <td>29,000 ksi</td>
                                     <td>200 GPa</td>
+                                    <td>29,000 ksi</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Modulus of Elasticity (Torsion)</td>
-                                    <td>11,500 ksi</td>
-                                    <td>79 GPa</td>
+                                    <td>80 GPa</td>
+                                    <td>11,600 ksi</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Poisson’s Ratio</td>
-                                    <td>0.27</td>
+                                    <td>0.29</td>
                                     <td>—</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Thermal Conductivity</td>
                                     <td>44 W/m·K</td>
-                                    <td>44 W/m·K</td>
+                                    <td>—</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Specific Heat Capacity</td>
                                     <td>460 J/kg·K</td>
-                                    <td>460 J/kg·K</td>
+                                    <td>—</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -253,69 +314,213 @@
                 </div>
             </div>
 
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
+            <!-- Heat Treatment -->
+            <div class="row justify-content-center mt-5" id="heat-treatment">
                 <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+                    <h4 class="text-center mb-3" style="color:#db7227;">
+                        Heat Treatment of EN36 Steel
+                    </h4>
+
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Annealed</th>
-                                    <th>Hot-Finished</th>
-                                    <th>Cold Drawn</th>
-                                    <th>Hot-rolled</th>
-                                    <th>Sheet</th>
+                                    <th>Process</th>
+                                    <th>Temperature</th>
+                                    <th>Cooling Method</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Tensile Strength (ksi / MPa)</td>
-                                    <td>85–105 ksi / 586–724 MPa</td>
-                                    <td>90–115 ksi / 620–793 MPa</td>
-                                    <td>95–130 ksi / 655–896 MPa</td>
-                                    <td>95–130 ksi / 655–896 MPa</td>
-                                    <td>—</td>
+                                    <td>Carburizing</td>
+                                    <td>880 – 950 °C</td>
+                                    <td>Oil / Polymer quench</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (0.2%)</td>
-                                    <td>50–65 ksi / 345–448 MPa</td>
-                                    <td>60–90 ksi / 414–620 MPa</td>
-                                    <td>65–105 ksi / 448–724 MPa</td>
-                                    <td>50–75 ksi / 345–517 MPa</td>
-                                    <td>—</td>
+                                    <td>Hardening</td>
+                                    <td>820 – 860 °C</td>
+                                    <td>Oil quench</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Elongation (%)</td>
-                                    <td>20–25</td>
-                                    <td>15–20</td>
-                                    <td>15–20</td>
-                                    <td>18–25</td>
-                                    <td>—</td>
+                                    <td>Tempering</td>
+                                    <td>150 – 200 °C</td>
+                                    <td>Air cool</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Brinell Hardness (3000 kg)</td>
-                                    <td>150–200</td>
-                                    <td>180–240</td>
-                                    <td>200–260</td>
-                                    <td>150–210</td>
-                                    <td>—</td>
+                                    <td>Annealing</td>
+                                    <td>650 – 700 °C</td>
+                                    <td>Furnace cool</td>
                                 </tr>
-                                <tr class="t-row">
-                                    <td>Rockwell Hardness (B / C)</td>
-                                    <td>80–90 B</td>
-                                    <td>85–95 B</td>
-                                    <td>85–95 B</td>
-                                    <td>80–90 B</td>
-                                    <td>—</td>
                             </tbody>
                         </table>
+
+                        <p class="mt-3 text-center">
+                            👉 Surface hardness after carburizing: <strong>58 – 62 HRC</strong><br>
+                            👉 Core toughness: <strong>High strength with excellent shock resistance</strong>
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color:#174268;">
+                    Mechanical Properties of EN36 Steel
+                </h2>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Annealed</th>
+                            <th>Hot Finished</th>
+                            <th>Cold Drawn</th>
+                            <th>Hot Rolled</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Tensile Strength (MPa)</td>
+                            <td>586–724</td>
+                            <td>620–793</td>
+                            <td>655–896</td>
+                            <td>586–758</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Yield Strength (MPa)</td>
+                            <td>345–448</td>
+                            <td>414–620</td>
+                            <td>448–724</td>
+                            <td>345–517</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elongation (%)</td>
+                            <td>20–25</td>
+                            <td>15–20</td>
+                            <td>15–20</td>
+                            <td>18–25</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Brinell Hardness (HB)</td>
+                            <td>150–200</td>
+                            <td>180–240</td>
+                            <td>200–260</td>
+                            <td>150–210</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Rockwell Hardness</td>
+                            <td>80–90 B</td>
+                            <td>85–95 B</td>
+                            <td>85–95 B</td>
+                            <td>80–90 B</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p class="mt-3 text-center">
+                    EN36 is widely used for gears, shafts, pinions, and components requiring
+                    a hard, wear-resistant surface with a tough core.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Forms -->
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center mt-5">
+                <h2>Available Forms & Size Range – EN36 Steel</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <table class="table table-bordered table-striped align-middle">
+                        <thead class="table-dark text-center">
+                            <tr class="t-row">
+                                <th>Product Form</th>
+                                <th>Size Range</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">
+                            <tr class="t-row">
+                                <td>Round Bars</td>
+                                <td>20 mm – 400 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Forged Bars</td>
+                                <td>Up to 500 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Flat & Square Bars</td>
+                                <td>Custom sizes</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Shafts & Pins</td>
+                                <td>As required</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Forged Rings & Components</td>
+                                <td>Custom dimensions</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Machined Parts</td>
+                                <td>As per drawing</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- International Standards -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades of EN36 Steel</h2>
+            </div>
+
+            <div class="table-responsive col-lg-10 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>BS</td>
+                            <td>BS 970-1955 Grade 634</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>IS</td>
+                            <td>IS 1570 Part 6</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>A29 / A29M</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>DIN</td>
+                            <td>17CrNiMo6 (Close equivalent)</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>SAE</td>
+                            <td>8620 (Carburizing steel family)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
 
 
     @php
@@ -374,7 +579,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Engineering Steel 36</h2>
@@ -432,7 +637,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -476,7 +681,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Engineering Steel 36</h2>
@@ -591,8 +796,27 @@
         </div>
     </section>
 
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>EN36 Steel Price in India </h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹130 – ₹240 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -699,9 +923,9 @@
     </section>
     <!--End faq content area-->
 
-    
+
     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -757,7 +981,7 @@
     {{-- blog section end --}}
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

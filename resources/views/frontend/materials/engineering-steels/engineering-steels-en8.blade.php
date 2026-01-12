@@ -1,7 +1,8 @@
 @extends('layouts.master')
 
 @section('title', 'EN8 Steel (080M40) – Composition, Properties & Applications')
-@section('meta_description', 'EN8 steel (080M40) – chemical composition, properties, and uses. Learn if EN8 is mild
+@section('meta_description',
+    'EN8 steel (080M40) – chemical composition, properties, and uses. Learn if EN8 is mild
     steel and view the full datasheet from Moksh Tubes.')
 @section('meta_keywords',
     'EN8 Engineering Steel, medium carbon steel, good tensile strength steel, machinable steel,
@@ -27,11 +28,7 @@
                         better strength than mild steel and can be improved further through heat treatment. Commonly used
                         for shafts, axles, gears, studs, and general engineering components.
                     </p>
-
-
                     <!-- End extra content -->
-
-
                 </div>
             </div>
         </div>
@@ -48,7 +45,7 @@
             <a href="#price">Advantages</a> |
             <a href="#applications">Applications</a> |
             <a href="#faq">FAQ</a> |
-            <a href="#contact us">Contact Us</a>
+            <a href="#contact-us">Contact Us</a>
         </div>
     </div>
 
@@ -121,7 +118,7 @@
             </p>
 
             <!-- Lead Capture Form -->
-           <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
                 @csrf
 
                 <input type="hidden" name="page_path" value="{{ $slug }}">
@@ -153,10 +150,65 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>EN8 Chemical Composition</h2>
+                <h2>Engineering Steel EN8 Specifications</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Category</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Grade</td>
+                                    <td>EN 8 / C35 / SAE 1040</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Type</td>
+                                    <td>Medium Carbon Steel</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Typical Chemical Composition</td>
+                                    <td>C 0.36–0.44%, Mn 0.60–0.90%, P ≤ 0.040%, S ≤ 0.050%</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Conditions</td>
+                                    <td>Annealed, Normalized, Hot Rolled, Cold Drawn</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Heat Treatment</td>
+                                    <td>Quenching & Tempering, Stress Relieving</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Testing</td>
+                                    <td>Tensile, Hardness, Chemical, UT (on request)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Certification</td>
+                                    <td>EN 10204 3.1 / 3.2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chemical Composition -->
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of EN8 Steel</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -166,82 +218,85 @@
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
                                     <th>Element</th>
-                                    <th>Composition (%)</th>
+                                    <th>Content (%)</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Carbon</td>
+                                    <td>Carbon (C)</td>
                                     <td>0.36 – 0.44</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Manganese</td>
+                                    <td>Manganese (Mn)</td>
                                     <td>0.60 – 1.00</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Phosphorus</td>
+                                    <td>Silicon (Si)</td>
                                     <td>≤ 0.05</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Silicon</td>
+                                    <td>Sulfur (S)</td>
                                     <td>≤ 0.05</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Iron</td>
+                                    <td>Phosphorus (P)</td>
+                                    <td>≤ 0.05</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Iron (Fe)</td>
                                     <td>Balance</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Sulfur</td>
-                                    <td>≤ 0.05</td>
                                 </tr>
                             </tbody>
                         </table>
+
+                        <p class="mt-3 text-center">
+                            EN8’s medium carbon content provides higher strength, hardness, and wear resistance compared to
+                            mild steel.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Physical Properties -->
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">EN8 Technical Composition</h2>
+                <h2 class="fw-bold" style="color:#174268;">Physical Properties of EN8 Steel</h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h3 class="text-center mb-3" style="color: #db7227;">EN8 Physical Properties</h3>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
                                     <th>Property</th>
-                                    <th>Imperial</th>
-                                    <th>Metric</th>
+                                    <th>Metric Units</th>
+                                    <th>Imperial Units</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
                                     <td>Density</td>
-                                    <td>0.284 lb/in³</td>
                                     <td>7.85 g/cm³</td>
+                                    <td>0.284 lb/in³</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Melting Point</td>
-                                    <td>2500 – 2550 °F</td>
+                                    <td>Melting Range</td>
                                     <td>1370 – 1400 °C</td>
+                                    <td>2500 – 2550 °F</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Modulus of Elasticity (Tension)</td>
-                                    <td>29,000 ksi</td>
                                     <td>200 GPa</td>
+                                    <td>29,000 ksi</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Modulus of Elasticity (Torsion)</td>
-                                    <td>11,500 ksi</td>
                                     <td>79 GPa</td>
+                                    <td>11,500 ksi</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Poisson’s Ratio</td>
@@ -251,12 +306,12 @@
                                 <tr class="t-row">
                                     <td>Thermal Conductivity</td>
                                     <td>44 W/m·K</td>
-                                    <td>44 W/m·K</td>
+                                    <td>—</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Specific Heat Capacity</td>
                                     <td>460 J/kg·K</td>
-                                    <td>460 J/kg·K</td>
+                                    <td>—</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -264,62 +319,48 @@
                 </div>
             </div>
 
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h3 class="text-center mb-3" style="color: #db7227;">EN8 Mechanical Properties</h3>
+            <!-- Heat Treatment -->
+            <div class="row justify-content-center mt-5" id="heat-treatment">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color:#db7227;">
+                        Heat Treatment of EN8 Steel
+                    </h4>
+
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Annealed</th>
-                                    <th>Hot Finished</th>
-                                    <th>Cold Drawn</th>
-                                    <th>Hot rolled</th>
-                                    <th>Sheet</th>
+                                    <th>Process</th>
+                                    <th>Temperature Range</th>
+                                    <th>Cooling Method</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Tensile Strength (ksi / MPa)</td>
-                                    <td>75–85 ksi / 517–586 MPa</td>
-                                    <td>85–110 ksi / 586–758 MPa</td>
-                                    <td>90–110 ksi / 620–758 MPa</td>
-                                    <td>75–90 ksi / 517–620 MPa</td>
-                                    <td>70–85 ksi / 482–586 MPa</td>
+                                    <td>Annealing</td>
+                                    <td>680 – 700 °C</td>
+                                    <td>Slow furnace cooling</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (0.2%)</td>
-                                    <td>35–50 ksi / 241–345 MPa</td>
-                                    <td>50–80 ksi / 345–552 MPa</td>
-                                    <td>60–80 ksi / 414–552 MPa</td>
-                                    <td>35–55 ksi / 241–379 MPa</td>
-                                    <td>30–50 ksi / 207–345 MPa</td>
+                                    <td>Normalizing</td>
+                                    <td>840 – 860 °C</td>
+                                    <td>Air cool</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Elongation (%)</td>
-                                    <td>25–30</td>
-                                    <td>15–25</td>
-                                    <td>15–20</td>
-                                    <td>20–25</td>
-                                    <td>20–30</td>
+                                    <td>Hardening</td>
+                                    <td>800 – 820 °C</td>
+                                    <td>Oil or water quench</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Brinell Hardness (3000 kg)</td>
-                                    <td>130–160</td>
-                                    <td>160–210</td>
-                                    <td>160–190</td>
-                                    <td>130–160</td>
-                                    <td>—</td>
+                                    <td>Tempering</td>
+                                    <td>150 – 400 °C</td>
+                                    <td>Air cool</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Rockwell Hardness (B / C)</td>
-                                    <td>70–80 B</td>
-                                    <td>80–90 B</td>
-                                    <td>80–90 B</td>
-                                    <td>70–80 B</td>
-                                    <td>70–80 B</td>
+                                    <td>Flame / Induction Hardening</td>
+                                    <td>Up to 50 – 55 HRC</td>
+                                    <td>Localized heating</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -327,6 +368,165 @@
             </div>
         </div>
     </section>
+
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color:#174268;">
+                    Mechanical Properties of EN8 Steel
+                </h2>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Annealed</th>
+                            <th>Hot Finished</th>
+                            <th>Cold Drawn</th>
+                            <th>Hot Rolled</th>
+                            <th>Sheet</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Tensile Strength (MPa)</td>
+                            <td>517–586</td>
+                            <td>586–758</td>
+                            <td>620–758</td>
+                            <td>517–620</td>
+                            <td>482–586</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Yield Strength (MPa)</td>
+                            <td>241–345</td>
+                            <td>345–552</td>
+                            <td>414–552</td>
+                            <td>241–379</td>
+                            <td>207–345</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elongation (%)</td>
+                            <td>25–30</td>
+                            <td>15–25</td>
+                            <td>15–20</td>
+                            <td>20–25</td>
+                            <td>20–30</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Brinell Hardness (HB)</td>
+                            <td>130–160</td>
+                            <td>160–210</td>
+                            <td>160–190</td>
+                            <td>130–160</td>
+                            <td>—</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Rockwell Hardness</td>
+                            <td>70–80 B</td>
+                            <td>80–90 B</td>
+                            <td>80–90 B</td>
+                            <td>70–80 B</td>
+                            <td>70–80 B</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Forms -->
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center mt-5">
+                <h2>Available Forms & Size Range – EN8 Steel</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <table class="table table-bordered table-striped align-middle">
+                        <thead class="table-dark text-center">
+                            <tr class="t-row">
+                                <th>Product Form</th>
+                                <th>Size Range / Description</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">
+                            <tr class="t-row">
+                                <td>Round Bars</td>
+                                <td>10 mm – 400 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Flat, Square & Hex Bars</td>
+                                <td>Custom sizes up to 300 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Sheets & Plates</td>
+                                <td>2 – 150 mm (Width 600 – 3000 mm)</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Coils & Strips</td>
+                                <td>0.5 – 12 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Pipes & Tubes</td>
+                                <td>OD 10 – 219 mm, WT 2 – 20 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Forged Components</td>
+                                <td>Blocks, rings, bushings (as per drawing)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- International Standards -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades of EN8 Steel</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>EN</td>
+                            <td>EN 8</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>AISI / SAE</td>
+                            <td>C35 / 1040</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>DIN</td>
+                            <td>CK35</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>JIS</td>
+                            <td>S35C</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>GB</td>
+                            <td>35</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
 
 
     @php
@@ -385,7 +585,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Available Products in EN8 Steel</h2>
@@ -445,7 +645,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages of EN8 Steel</h2>
@@ -484,7 +684,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of EN8 Steel</h2>
@@ -604,8 +804,27 @@
         </div>
     </section>
 
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>EN8 Steel Price in India </h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹75 – ₹140 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -713,9 +932,9 @@
     </section>
     <!--End faq content area-->
 
-    
+
     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -771,7 +990,7 @@
     {{-- blog section end --}}
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Moksh Tubes for EN8 Steel</h2>

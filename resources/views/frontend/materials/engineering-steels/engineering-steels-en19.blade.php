@@ -49,11 +49,11 @@
             <a href="#price">Advantages</a> |
             <a href="#applications">Applications</a> |
             <a href="#faq">FAQ</a> |
-            <a href="#contact us">Contact Us</a>
+            <a href="#contact-us">Contact Us</a>
         </div>
     </div>
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -142,10 +142,66 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>Engineering Steel EN19 Specifications</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Category</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Grade</td>
+                                    <td>EN 19 / 817M40 / AISI 4140</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Type</td>
+                                    <td>High-Strength Alloy Steel</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Typical Chemical Composition</td>
+                                    <td>C 0.36–0.44%, Mn 0.60–0.90%, Si 0.15–0.35%, Cr 0.90–1.20%, Mo 0.15–0.25%, P ≤
+                                        0.035%, S ≤ 0.035%</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Conditions</td>
+                                    <td>Annealed, Normalized, Hot Rolled, Forged, Quenched & Tempered</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Heat Treatment</td>
+                                    <td>Quenching & Tempering, Stress Relieving</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Testing</td>
+                                    <td>Tensile, Hardness, Chemical, UT / NDT (on request)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Certification</td>
+                                    <td>EN 10204 3.1 / 3.2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chemical Composition -->
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of EN19 Alloy Steel</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -160,81 +216,84 @@
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Carbon</td>
+                                    <td>Carbon (C)</td>
                                     <td>0.36 – 0.44</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Silicon</td>
+                                    <td>Silicon (Si)</td>
                                     <td>0.10 – 0.35</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Manganese</td>
+                                    <td>Manganese (Mn)</td>
                                     <td>0.50 – 0.80</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Chromium</td>
+                                    <td>Chromium (Cr)</td>
                                     <td>0.90 – 1.50</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Molybdenum</td>
+                                    <td>Molybdenum (Mo)</td>
                                     <td>0.15 – 0.35</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Sulfur</td>
-                                    <td>0.035 max</td>
+                                    <td>Sulfur (S)</td>
+                                    <td>≤ 0.035</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Phosphorus</td>
-                                    <td>0.035 max</td>
+                                    <td>Phosphorus (P)</td>
+                                    <td>≤ 0.035</td>
                                 </tr>
                             </tbody>
                         </table>
+
+                        <p class="mt-3 text-center">
+                            EN19’s chromium–molybdenum alloying enhances tensile strength, wear resistance,
+                            fatigue performance, and hardenability.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Physical Properties -->
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color:#174268;">Physical Properties of EN19 Steel</h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
                                     <th>Property</th>
-                                    <th>Imperial</th>
                                     <th>Metric</th>
+                                    <th>Imperial</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
                                     <td>Density</td>
-                                    <td>0.284 lb/in³</td>
                                     <td>7.85 g/cm³</td>
+                                    <td>0.284 lb/in³</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Melting Point</td>
-                                    <td>2475 – 2550 °F</td>
+                                    <td>Melting Range</td>
                                     <td>1358 – 1400 °C</td>
+                                    <td>2475 – 2550 °F</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Modulus of Elasticity (Tension)</td>
-                                    <td>29,000 ksi</td>
                                     <td>200 GPa</td>
+                                    <td>29,000 ksi</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Modulus of Elasticity (Torsion)</td>
-                                    <td>11,500 ksi</td>
-                                    <td>79 GPa</td>
+                                    <td>80 GPa</td>
+                                    <td>11,600 ksi</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Poisson’s Ratio</td>
@@ -244,12 +303,12 @@
                                 <tr class="t-row">
                                     <td>Thermal Conductivity</td>
                                     <td>44 W/m·K</td>
-                                    <td>44 W/m·K</td>
+                                    <td>—</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Specific Heat Capacity</td>
+                                    <td>Specific Heat</td>
                                     <td>460 J/kg·K</td>
-                                    <td>460 J/kg·K</td>
+                                    <td>—</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -257,69 +316,213 @@
                 </div>
             </div>
 
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+            <!-- Heat Treatment -->
+            <div class="row justify-content-center mt-5" id="heat-treatment">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color:#db7227;">
+                        Heat Treatment of EN19 Alloy Steel
+                    </h4>
+
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Annealed</th>
-                                    <th>Hot-Finished</th>
-                                    <th>Cold Drawn</th>
-                                    <th>Hot-rolled</th>
-                                    <th>Sheet</th>
+                                    <th>Process</th>
+                                    <th>Temperature Range</th>
+                                    <th>Cooling Method</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Tensile Strength (ksi / MPa)</td>
-                                    <td>85–105 ksi / 586–724 MPa</td>
-                                    <td>90–120 ksi / 620–827 MPa</td>
-                                    <td>95–130 ksi / 655–896 MPa</td>
-                                    <td>85–110 ksi / 586–758 MPa</td>
-                                    <td>—</td>
+                                    <td>Annealing</td>
+                                    <td>680 – 700 °C</td>
+                                    <td>Furnace cool</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (0.2%)</td>
-                                    <td>50–65 ksi / 345–448 MPa</td>
-                                    <td>60–100 ksi / 414–690 MPa</td>
-                                    <td>65–110 ksi / 448–758 MPa</td>
-                                    <td>50–75 ksi / 345–517 MPa</td>
-                                    <td>—</td>
+                                    <td>Normalizing</td>
+                                    <td>850 – 870 °C</td>
+                                    <td>Air cool</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Elongation (%)</td>
-                                    <td>20–25</td>
-                                    <td>15–25</td>
-                                    <td>12–18</td>
-                                    <td>18–25</td>
-                                    <td>—</td>
+                                    <td>Hardening</td>
+                                    <td>820 – 850 °C</td>
+                                    <td>Oil quench</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Brinell Hardness (3000 kg)</td>
-                                    <td>150–200</td>
-                                    <td>180–250</td>
-                                    <td>200–270</td>
-                                    <td>150–210</td>
-                                    <td>—</td>
+                                    <td>Tempering</td>
+                                    <td>200 – 650 °C</td>
+                                    <td>Air cool</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Rockwell Hardness (B / C)</td>
-                                    <td>80–90 B</td>
-                                    <td>85–95 B</td>
-                                    <td>90–95 B / 20–30 C</td>
-                                    <td>80–90 B</td>
-                                    <td>—</td>
+                                    <td>Stress Relieving</td>
+                                    <td>550 – 650 °C</td>
+                                    <td>Hold 1–2 hours</td>
+                                </tr>
                             </tbody>
                         </table>
+
+                        <p class="mt-3 text-center">
+                            👉 Typical hardness after Q&T: <strong>28 – 36 HRC</strong><br>
+                            👉 With induction hardening: <strong>50 – 58 HRC (surface)</strong>
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color:#174268;">
+                    Mechanical Properties of EN19 Steel
+                </h2>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Annealed</th>
+                            <th>Hot Finished</th>
+                            <th>Cold Drawn</th>
+                            <th>Hot Rolled</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Tensile Strength (MPa)</td>
+                            <td>586–724</td>
+                            <td>620–827</td>
+                            <td>655–896</td>
+                            <td>586–758</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Yield Strength (MPa)</td>
+                            <td>345–448</td>
+                            <td>414–690</td>
+                            <td>448–758</td>
+                            <td>345–517</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elongation (%)</td>
+                            <td>20–25</td>
+                            <td>15–25</td>
+                            <td>12–18</td>
+                            <td>18–25</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Brinell Hardness (HB)</td>
+                            <td>150–200</td>
+                            <td>180–250</td>
+                            <td>200–270</td>
+                            <td>150–210</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Rockwell Hardness</td>
+                            <td>80–90 B</td>
+                            <td>85–95 B</td>
+                            <td>20–30 C</td>
+                            <td>80–90 B</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Forms -->
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center mt-5">
+                <h2>Available Forms & Size Range – EN19 Steel</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <table class="table table-bordered table-striped align-middle">
+                        <thead class="table-dark text-center">
+                            <tr class="t-row">
+                                <th>Product Form</th>
+                                <th>Size Range / Description</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">
+                            <tr class="t-row">
+                                <td>Round Bars</td>
+                                <td>10 mm – 400 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Flat, Square & Hex Bars</td>
+                                <td>Custom sizes up to 300 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Sheets & Plates</td>
+                                <td>2 – 150 mm (Width 600 – 3000 mm)</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Coils & Strips</td>
+                                <td>0.5 – 12 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Pipes & Tubes</td>
+                                <td>OD 10 – 219 mm, WT 2 – 20 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Forged Components</td>
+                                <td>Blocks, rings, bushings (as per drawing)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- International Standards -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades of EN19 Steel</h2>
+            </div>
+
+            <div class="table-responsive col-lg-8 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>EN</td>
+                            <td>EN 19</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>AISI / SAE</td>
+                            <td>4140</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>DIN</td>
+                            <td>42CrMo4</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>JIS</td>
+                            <td>SCM440</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>GB</td>
+                            <td>40CrMo</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
 
 
     @php
@@ -378,7 +581,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Engineering Steel 19</h2>
@@ -436,7 +639,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -480,7 +683,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Engineering Steel 19</h2>
@@ -594,8 +797,27 @@
         </div>
     </section>
 
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>EN19 Steel Price in India </h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹110 – ₹200 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -706,9 +928,9 @@
     </section>
     <!--End faq content area-->
 
-    
+
     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -764,7 +986,7 @@
     {{-- blog section end --}}
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

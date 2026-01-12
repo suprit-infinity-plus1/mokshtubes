@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'P11 Alloy Steel | High Temperature Pressure Vessel Steel')
-@section('meta_description', 'P11 Alloy Steel designed for high-temperature pressure vessels, boilers, and pipework in
+@section('meta_description',
+    'P11 Alloy Steel designed for high-temperature pressure vessels, boilers, and pipework in
     power plants.')
-@section('meta_keywords', 'P11 Alloy Steel, high temperature alloy steel, pressure vessel steel, boiler steel, power
+@section('meta_keywords',
+    'P11 Alloy Steel, high temperature alloy steel, pressure vessel steel, boiler steel, power
     plant steel, industrial alloy steel')
 @section('og_image', asset('assets/images/engineering-steels/engineering-steels-p11.webp'))
 @section('og_type', 'article')
@@ -46,12 +48,12 @@
             <a href="#price">Advantages</a> |
             <a href="#applications">Applications</a> |
             <a href="#faq">FAQ</a> |
-            <a href="#contact us">Contact Us</a>
+            <a href="#contact-us">Contact Us</a>
         </div>
     </div>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -134,10 +136,101 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>Specifications of Alloy Steel P11 (ASTM A335 / ASME SA335)</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Category</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Grade</td>
+                                    <td>ASTM A335 P11 / ASME SA335 P11 / UNS K11597</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Type</td>
+                                    <td>Chromium-Molybdenum (Cr-Mo) Alloy Steel</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Material Category</td>
+                                    <td>High-Temperature Ferritic Alloy Steel</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Carbon Content</td>
+                                    <td>~0.10%</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Key Alloying Elements</td>
+                                    <td>1.0–1.5% Cr, 0.44–0.65% Mo</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Primary Use</td>
+                                    <td>High-temperature & high-pressure piping</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Supply Conditions</td>
+                                    <td>Hot Finished, Cold Drawn, Normalized & Tempered</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Available Forms</td>
+                                    <td>Seamless Pipes, Boiler Tubes, Heat Exchanger Tubes, Superheater Tubes</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Heat Treatment Options</td>
+                                    <td>Normalizing, Tempering, Stress Relieving</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Testing Availability</td>
+                                    <td>Tensile, Hydrostatic, NDT, Hardness, Chemical Analysis</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Certification</td>
+                                    <td>EN 10204 3.1 / 3.2</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Standards</td>
+                                    <td>ASTM A335 / ASME SA335, DIN 1.7386</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Machinability</td>
+                                    <td>Moderate</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Weldability</td>
+                                    <td>Good (Preheat recommended)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Corrosion Resistance</td>
+                                    <td>Moderate – enhanced oxidation & creep resistance</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Temperature Resistance</td>
+                                    <td>Excellent – service up to ~600°C</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chemical Composition -->
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of P11 Alloy Steel</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -152,85 +245,84 @@
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Carbon</td>
+                                    <td>Carbon (C)</td>
                                     <td>0.07 – 0.15</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Chromium</td>
-                                    <td>0.90 – 1.20</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Silicon</td>
-                                    <td>0.10 – 0.40</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Manganese</td>
+                                    <td>Manganese (Mn)</td>
                                     <td>0.30 – 0.60</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Molybdenum</td>
+                                    <td>Silicon (Si)</td>
+                                    <td>0.10 – 0.40</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Chromium (Cr)</td>
+                                    <td>0.90 – 1.20</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Molybdenum (Mo)</td>
                                     <td>0.44 – 0.65</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Sulfur</td>
+                                    <td>Phosphorus (P)</td>
                                     <td>≤ 0.035</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Phosphorus</td>
+                                    <td>Sulfur (S)</td>
                                     <td>≤ 0.035</td>
                                 </tr>
-                                {{-- <tr class="t-row">
-                                    <td>Vanadium </td>
-                                    <td>0.20 – 0.50</td>
-                                </tr> --}}
                             </tbody>
                         </table>
+
+                        <p class="mt-3 text-center">
+                            Chromium and molybdenum provide P11 steel with excellent oxidation resistance,
+                            creep strength, and stability at elevated temperatures.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Physical Properties -->
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color:#174268;">Physical Properties of Alloy Steel P11</h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
                                     <th>Property</th>
-                                    <th>Imperial</th>
                                     <th>Metric</th>
+                                    <th>Imperial</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
                                     <td>Density</td>
-                                    <td>0.284 lb/in³</td>
                                     <td>7.85 g/cm³</td>
+                                    <td>0.284 lb/in³</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Melting Point</td>
-                                    <td>2450 – 2550 °F</td>
+                                    <td>Melting Range</td>
                                     <td>1340 – 1400 °C</td>
+                                    <td>2450 – 2550 °F</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Modulus of Elasticity (Tension)</td>
-                                    <td>29,000 ksi</td>
+                                    <td>Elastic Modulus (Tension)</td>
                                     <td>200 GPa</td>
+                                    <td>29,000 ksi</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Modulus of Elasticity (Torsion)</td>
-                                    <td>11,600 ksi</td>
+                                    <td>Elastic Modulus (Torsion)</td>
                                     <td>80 GPa</td>
+                                    <td>11,600 ksi</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Poisson’s Ratio</td>
@@ -240,12 +332,12 @@
                                 <tr class="t-row">
                                     <td>Thermal Conductivity</td>
                                     <td>45 W/m·K</td>
-                                    <td>45 W/m·K</td>
+                                    <td>—</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Specific Heat Capacity</td>
+                                    <td>Specific Heat</td>
                                     <td>460 J/kg·K</td>
-                                    <td>460 J/kg·K</td>
+                                    <td>—</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -253,62 +345,46 @@
                 </div>
             </div>
 
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
+            <!-- Heat Treatment -->
+            <div class="row justify-content-center mt-5" id="heat-treatment">
                 <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+                    <h4 class="text-center mb-3" style="color:#db7227;">
+                        Heat Treatment of Alloy Steel P11
+                    </h4>
+
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Annealed</th>
-                                    <th>Hot-Finished</th>
-                                    <th>Cold Drawn</th>
-                                    <th>Hot-rolled</th>
-                                    <th>Sheet</th>
+                                    <th>Process</th>
+                                    <th>Details</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-center">
+                            <tbody>
                                 <tr class="t-row">
-                                    <td>Tensile Strength (ksi / MPa)</td>
-                                    <td>75–95 ksi / 517–655 MPa/td>
-                                    <td>80–110 ksi / 552–758 MPa</td>
-                                    <td>—</td>
-                                    <td>75–95 ksi / 517–655 MPa</td>
-                                    <td>—</td>
+                                    <td>Normalizing</td>
+                                    <td>900–950°C, air cooled to refine grain structure</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (0.2%)</td>
-                                    <td>40–60 ksi / 276–414 MPa</td>
-                                    <td>45–90 ksi / 310–620 MPa</td>
-                                    <td>—</td>
-                                    <td>40–60 ksi / 276–414 MPa</td>
-                                    <td>—</td>
+                                    <td>Tempering</td>
+                                    <td>650–750°C to achieve required mechanical properties</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Elongation (%)</td>
-                                    <td>20–30</td>
-                                    <td>15–25</td>
-                                    <td>—</td>
-                                    <td>20–30</td>
-                                    <td>—</td>
+                                    <td>Stress Relieving</td>
+                                    <td>675–725°C to reduce residual stresses</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Brinell Hardness (3000 kg)</td>
-                                    <td>140–190</td>
-                                    <td>160–220</td>
-                                    <td>—</td>
-                                    <td>140–190</td>
-                                    <td>—</td>
+                                    <td>Annealing (Subcritical)</td>
+                                    <td>720–760°C, slow furnace cool for machinability</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Rockwell Hardness (B / C)</td>
-                                    <td>75–85 B</td>
-                                    <td>85–90 B</td>
-                                    <td>—</td>
-                                    <td>75–85 B</td>
-                                    <td>—</td>
+                                    <td>Hot Working</td>
+                                    <td>900–1100°C</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Cold Working</td>
+                                    <td>Possible; stress relieving recommended afterward</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -316,6 +392,170 @@
             </div>
         </div>
     </section>
+
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color:#174268;">
+                    Mechanical Properties of Alloy Steel P11 (Normalized & Tempered)
+                </h2>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Annealed</th>
+                            <th>Hot-Finished</th>
+                            <th>Hot-Rolled</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Tensile Strength (MPa)</td>
+                            <td>517–655</td>
+                            <td>552–758</td>
+                            <td>517–655</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Yield Strength (MPa)</td>
+                            <td>276–414</td>
+                            <td>310–620</td>
+                            <td>276–414</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elongation (%)</td>
+                            <td>20–30</td>
+                            <td>15–25</td>
+                            <td>20–30</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Brinell Hardness (HB)</td>
+                            <td>140–190</td>
+                            <td>160–220</td>
+                            <td>140–190</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Rockwell Hardness</td>
+                            <td>75–85 B</td>
+                            <td>85–90 B</td>
+                            <td>75–85 B</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p class="mt-3 text-center">
+                    P11 maintains durability, thermal strength, and excellent resistance to creep
+                    during long high-temperature service cycles.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Forms -->
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center mt-5">
+                <h2>Available Forms & Size Range of Alloy Steel P11</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <table class="table table-bordered table-striped align-middle">
+                        <thead class="table-dark text-center">
+                            <tr class="t-row">
+                                <th>Form</th>
+                                <th>Size Range / Details</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">
+                            <tr class="t-row">
+                                <td>Seamless Pipes</td>
+                                <td>OD 15–610 mm, WT 2–50 mm, Length up to 12 m</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Welded Pipes (ERW / SAW)</td>
+                                <td>OD 20–600 mm, WT 2–40 mm, Length up to 12 m</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Tubes</td>
+                                <td>OD 10–200 mm, WT 1–20 mm, Custom lengths</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Bars</td>
+                                <td>Round / Hex / Square: 10–200 mm, Length 3–6 m</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Plates & Sheets</td>
+                                <td>Thickness 6–100 mm, Width up to 2500 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Forgings / Flanges</td>
+                                <td>Custom sizes as per requirement</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Custom Components</td>
+                                <td>Manufactured per drawing or specification</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- International Standards -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades of Alloy Steel P11</h2>
+            </div>
+
+            <div class="table-responsive col-lg-10 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>ASTM / ASME</td>
+                            <td>A335 P11 / SA335 P11</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>K11597</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>DIN / EN</td>
+                            <td>1.7386 / 13CrMo4-5</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>JIS</td>
+                            <td>SCMV4</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>GB</td>
+                            <td>12Cr1MoV</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ISO</td>
+                            <td>ISO 9329-1 P11</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>BS</td>
+                            <td>BS 1501 Gr. 4832-11</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
 
 
     @php
@@ -374,7 +614,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Engineering Steel P11</h2>
@@ -432,7 +672,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -476,7 +716,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Engineering Steel P11</h2>
@@ -594,8 +834,27 @@
         </div>
     </section>
 
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>P11 Alloy Steel Price in India</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹130 – ₹250 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -681,9 +940,9 @@
     </section>
     <!--End faq content area-->
 
-    
+
     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -739,7 +998,7 @@
     {{-- blog section end --}}
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <sectio id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
@@ -754,15 +1013,15 @@
                 </a>
             </div>
         </div>
-    </section>
+        </section>
 
 
 
 
 
-@endsection
-@section('jsscripts')
-    <script type="application/ld+json">
+    @endsection
+    @section('jsscripts')
+        <script type="application/ld+json">
         @verbatim
             {
             "@context": "https://schema.org",
@@ -813,4 +1072,4 @@
 
         @endverbatim
     </script>
-@endsection
+    @endsection

@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'D2 Tool Steel | High Carbon, High Chromium Alloy')
-@section('meta_description', 'D2 Tool Steel offering exceptional wear resistance and toughness for cutting tools, dies,
+@section('meta_description',
+    'D2 Tool Steel offering exceptional wear resistance and toughness for cutting tools, dies,
     and industrial applications.')
-@section('meta_keywords', 'D2 Tool Steel, high carbon steel, high chromium steel, wear resistant steel, tough tool
+@section('meta_keywords',
+    'D2 Tool Steel, high carbon steel, high chromium steel, wear resistant steel, tough tool
     steel, cutting tools steel, die steel, industrial tool steel')
 
 @section('og_image', asset('assets/images/engineering-steels/engineering-steels-d2.webp'))
@@ -45,11 +47,11 @@
             <a href="#price">Advantages</a> |
             <a href="#applications">Applications</a> |
             <a href="#faq">FAQ</a> |
-            <a href="#contact us">Contact Us</a>
+            <a href="#contact-us">Contact Us</a>
         </div>
     </div>
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -134,10 +136,59 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>D2 Tool Steel Specifications</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Category</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Grade</td>
+                                    <td>AISI D2 / UNS T30402 / X153CrMoV12 / 1.2379</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Type</td>
+                                    <td>High-Carbon, High-Chromium Cold-Work Tool Steel</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Testing</td>
+                                    <td>Hardness, Tensile (limited), Charpy Impact, Microstructure, Chemical Analysis, UT
+                                        (Optional)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Conditions</td>
+                                    <td>Annealed, Spheroidized Annealed, Hardened & Tempered, Precision Ground, ESR
+                                        (Optional)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Certification</td>
+                                    <td>EN 10204 3.1 / 3.2</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chemical Composition -->
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of D2 Tool Steel</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -152,85 +203,88 @@
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Carbon</td>
+                                    <td>Carbon (C)</td>
                                     <td>1.40 – 1.60</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Chromium</td>
+                                    <td>Chromium (Cr)</td>
                                     <td>11.00 – 13.00</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Silicon</td>
-                                    <td>0.20 – 0.60</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Manganese</td>
+                                    <td>Manganese (Mn)</td>
                                     <td>0.60 – 0.90</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Molybdenum</td>
+                                    <td>Vanadium (V)</td>
+                                    <td>0.80 – 1.20</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Molybdenum (Mo)</td>
                                     <td>0.70 – 1.20</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Sulfur</td>
+                                    <td>Silicon (Si)</td>
+                                    <td>0.20 – 0.60</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Phosphorus (P)</td>
                                     <td>≤ 0.03</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Phosphorus</td>
+                                    <td>Sulfur (S)</td>
                                     <td>≤ 0.03</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Vanadium </td>
-                                    <td>0.80 – 1.20</td>
                                 </tr>
                             </tbody>
                         </table>
+
+                        <p class="mt-3 text-center">
+                            High chromium and carbon form hard carbides, giving D2 exceptional wear resistance and edge
+                            retention.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Physical Properties -->
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color:#174268;">Physical Properties of D2 Tool Steel</h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
                                     <th>Property</th>
-                                    <th>Imperial</th>
                                     <th>Metric</th>
+                                    <th>Imperial</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
                                     <td>Density</td>
-                                    <td>0.28 lb/in³</td>
                                     <td>7.7 g/cm³</td>
+                                    <td>0.28 lb/in³</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Melting Point</td>
-                                    <td>2040 – 2130 °F</td>
+                                    <td>Melting Range</td>
                                     <td>1115 – 1165 °C</td>
+                                    <td>2040 – 2130 °F</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Modulus of Elasticity (Tension)</td>
-                                    <td>29,000 ksi</td>
+                                    <td>Elastic Modulus (Tension)</td>
                                     <td>200 GPa</td>
+                                    <td>29,000 ksi</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Modulus of Elasticity (Torsion)</td>
-                                    <td>11,500 ksi</td>
+                                    <td>Elastic Modulus (Torsion)</td>
                                     <td>79 GPa</td>
+                                    <td>11,500 ksi</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Poisson’s Ratio</td>
@@ -240,12 +294,12 @@
                                 <tr class="t-row">
                                     <td>Thermal Conductivity</td>
                                     <td>18 W/m·K</td>
-                                    <td>18 W/m·K</td>
+                                    <td>—</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Specific Heat Capacity</td>
+                                    <td>Specific Heat</td>
                                     <td>460 J/kg·K</td>
-                                    <td>460 J/kg·K</td>
+                                    <td>—</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -253,69 +307,229 @@
                 </div>
             </div>
 
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
+            <!-- Heat Treatment -->
+            <div class="row justify-content-center mt-5" id="heat-treatment">
                 <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+                    <h4 class="text-center mb-3" style="color:#db7227;">
+                        Heat Treatment of D2 Tool Steel
+                    </h4>
+
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Annealed</th>
-                                    <th>Hot-Finished</th>
-                                    <th>Cold Drawn</th>
-                                    <th>Hot-rolled</th>
-                                    <th>Sheet</th>
+                                    <th>Process</th>
+                                    <th>Temperature Range</th>
+                                    <th>Cooling Method</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Tensile Strength (ksi / MPa)</td>
-                                    <td>90–105 ksi / 620–724 MPa</td>
-                                    <td>—</td>
-                                    <td>—</td>
-                                    <td>—</td>
-                                    <td>—</td>
+                                    <td>Annealing</td>
+                                    <td>845 – 885 °C</td>
+                                    <td>Slow furnace cool to 600 °C, then air cool</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (0.2%)</td>
-                                    <td>70–85 ksi / 482–586 MPa</td>
-                                    <td>—</td>
-                                    <td>—</td>
-                                    <td>—</td>
-                                    <td>—</td>
+                                    <td>Spheroidize Annealing</td>
+                                    <td>870 – 900 °C</td>
+                                    <td>Controlled slow cooling</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Elongation (%)</td>
-                                    <td>8–12</td>
-                                    <td>—</td>
-                                    <td>—</td>
-                                    <td>—</td>
-                                    <td>—</td>
+                                    <td>Preheating</td>
+                                    <td>450–500 °C → 800–850 °C</td>
+                                    <td>Two-stage preheat</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Brinell Hardness (3000 kg)</td>
-                                    <td>200–230</td>
-                                    <td>—</td>
-                                    <td>—</td>
-                                    <td>—</td>
-                                    <td>—</td>
+                                    <td>Hardening (Austenitizing)</td>
+                                    <td>1010 – 1040 °C</td>
+                                    <td>Air / forced air / vacuum quench</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Rockwell Hardness (B / C)</td>
-                                    <td>58–62 HRC</td>
-                                    <td>—</td>
-                                    <td>—</td>
-                                    <td>—</td>
-                                    <td>—</td>
+                                    <td>Tempering</td>
+                                    <td>150 – 560 °C</td>
+                                    <td>Air cool, double temper recommended</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Stress Relieving</td>
+                                    <td>600 – 650 °C</td>
+                                    <td>Hold 1–2 hours</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Normalizing</td>
+                                    <td colspan="2">Not applicable for D2 tool steel</td>
+                                </tr>
                             </tbody>
                         </table>
+
+                        <p class="mt-3 text-center">
+                            D2 achieves high hardness with minimal distortion due to its air-hardening nature.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color:#174268;">
+                    Mechanical Properties of D2 Tool Steel (Typical)
+                </h2>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Annealed</th>
+                            <th>Hardened & Tempered</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Tensile Strength</td>
+                            <td>620–724 MPa</td>
+                            <td>—</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Yield Strength (0.2%)</td>
+                            <td>482–586 MPa</td>
+                            <td>—</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elongation (%)</td>
+                            <td>8–12</td>
+                            <td>—</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Brinell Hardness</td>
+                            <td>200–230 HB</td>
+                            <td>—</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Rockwell Hardness</td>
+                            <td>—</td>
+                            <td>58–62 HRC</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Forms -->
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center mt-5">
+                <h2>Available Forms & Size Range – D2 Tool Steel</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <table class="table table-bordered table-striped align-middle">
+                        <thead class="table-dark text-center">
+                            <tr class="t-row">
+                                <th>Product</th>
+                                <th>Size / Range</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">
+                            <tr class="t-row">
+                                <td>Round Bars</td>
+                                <td>16 mm – 500 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Flat / Square / Hex Bars</td>
+                                <td>Custom sizes (precision ground / hot rolled)</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Sheets & Plates</td>
+                                <td>2 – 200 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Forgings</td>
+                                <td>Blocks, rings, discs, bushings</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Tubes</td>
+                                <td>Custom-made, OD 20 – 150 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Precision Ground Stock</td>
+                                <td>1.5 – 80 mm thick, widths up to 400 mm</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- International Standards -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades — D2 Tool Steel</h2>
+            </div>
+
+            <div class="table-responsive col-lg-10 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>AISI / SAE</td>
+                            <td>D2</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>T30402</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>EN</td>
+                            <td>X153CrMoV12 / 1.2379</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>DIN</td>
+                            <td>1.2379</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>BS</td>
+                            <td>BD2</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>AFNOR</td>
+                            <td>Z160CDV12</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>JIS</td>
+                            <td>SKD11</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>GB</td>
+                            <td>Cr12Mo1V1</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>GOST</td>
+                            <td>Х12МФ (Kh12MF)</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ISO</td>
+                            <td>160CrMoV12</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
 
 
     @php
@@ -374,7 +588,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Engineering Steel D2</h2>
@@ -432,7 +646,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -476,7 +690,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Engineering Steel D2</h2>
@@ -591,8 +805,27 @@
         </div>
     </section>
 
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>D2 Tool Steel Price in India </h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹180 – ₹320 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -701,9 +934,9 @@
     </section>
     <!--End faq content area-->
 
-    
+
     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -759,7 +992,7 @@
     {{-- blog section end --}}
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>

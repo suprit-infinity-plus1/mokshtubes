@@ -1,9 +1,11 @@
 @extends('layouts.master')
 
 @section('title', 'P22 Alloy Steel | High Pressure & Temperature Alloy')
-@section('meta_description', 'P22 Alloy Steel ideal for high pressure and high temperature applications in power
+@section('meta_description',
+    'P22 Alloy Steel ideal for high pressure and high temperature applications in power
     generation and heavy industries.')
-@section('meta_keywords', 'P22 Alloy Steel, chromium-molybdenum alloy steel, high pressure steel, high temperature
+@section('meta_keywords',
+    'P22 Alloy Steel, chromium-molybdenum alloy steel, high pressure steel, high temperature
     steel, power plant alloy steel, industrial alloy steel')
 @section('og_image', asset('assets/images/engineering-steels/engineering-steels-p22.webp'))
 @section('og_type', 'article')
@@ -45,12 +47,12 @@
             <a href="#price">Advantages</a> |
             <a href="#applications">Applications</a> |
             <a href="#faq">FAQ</a> |
-            <a href="#contact us">Contact Us</a>
+            <a href="#contact-us">Contact Us</a>
         </div>
     </div>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Product Overview</h2>
@@ -101,7 +103,7 @@
             </p>
 
             <!-- Lead Capture Form -->
-           <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
                 @csrf
 
                 <input type="hidden" name="page_path" value="{{ $slug }}">
@@ -133,10 +135,65 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <!-- Specifications Section -->
+    <section class="sec-padd-top" id="specification">
         <div class="container">
             <div class="section-title center">
-                <h2>Chemical Composition</h2>
+                <h2>P22 Alloy Steel Specifications (ASTM A335 / ASME SA335)</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Category</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="t-row">
+                                    <td>Grade</td>
+                                    <td>ASTM A335 / ASME SA335 Grade P22</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Type</td>
+                                    <td>2.25Cr–1Mo Ferritic Alloy Steel</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Typical Chemical Composition</td>
+                                    <td>C 0.05–0.15%, Mn 0.30–0.60%, Si 0.50–1.00%, Cr 1.90–2.60%, Mo 0.87–1.13%</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Conditions</td>
+                                    <td>Normalized & Tempered, Annealed, Hot Finished</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Heat Treatment</td>
+                                    <td>Normalizing, Tempering, Stress Relieving</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Testing</td>
+                                    <td>Tensile, Hardness, Chemical, Hydrostatic, UT (on request)</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Certification</td>
+                                    <td>EN 10204 3.1 / 3.2 (MTC Available)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chemical Composition -->
+    <section id="composition" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Chemical Composition of P22 Alloy Steel</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -151,85 +208,88 @@
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
-                                    <td>Carbon</td>
+                                    <td>Carbon (C)</td>
                                     <td>0.05 – 0.15</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Silicon</td>
+                                    <td>Silicon (Si)</td>
                                     <td>0.20 – 0.50</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Manganese</td>
+                                    <td>Manganese (Mn)</td>
                                     <td>0.30 – 0.60</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Phosphorus</td>
+                                    <td>Phosphorus (P)</td>
                                     <td>≤ 0.025</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Sulfur</td>
+                                    <td>Sulfur (S)</td>
                                     <td>≤ 0.025</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Chromium</td>
+                                    <td>Chromium (Cr)</td>
                                     <td>1.90 – 2.60</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Molybdenum</td>
+                                    <td>Molybdenum (Mo)</td>
                                     <td>0.85 – 1.10</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Nickel </td>
+                                    <td>Nickel (Ni)</td>
                                     <td>≤ 0.40</td>
                                 </tr>
                             </tbody>
                         </table>
+
+                        <p class="mt-3 text-center">
+                            The chromium–molybdenum alloying of P22 provides excellent oxidation resistance,
+                            high-temperature strength, and improved creep behavior.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Physical Properties -->
+    <section id="properties" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Technical Composition</h2>
+                <h2 class="fw-bold" style="color:#174268;">Physical Properties of P22 Alloy Steel</h2>
             </div>
 
-            <!-- Physical Properties Table -->
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-8">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Physical Properties</h4>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
                                     <th>Property</th>
-                                    <th>Imperial</th>
                                     <th>Metric</th>
+                                    <th>Imperial</th>
                                 </tr>
                             </thead>
                             <tbody class="text-center">
                                 <tr class="t-row">
                                     <td>Density</td>
-                                    <td>0.284 lb/in³</td>
                                     <td>7.85 g/cm³</td>
+                                    <td>0.284 lb/in³</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Melting Point</td>
-                                    <td>2450 – 2550 °F</td>
+                                    <td>Melting Range</td>
                                     <td>1340 – 1400 °C</td>
+                                    <td>2450 – 2550 °F</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Modulus of Elasticity (Tension)</td>
-                                    <td>29,000 ksi</td>
+                                    <td>Elastic Modulus (Tension)</td>
                                     <td>200 GPa</td>
+                                    <td>29,000 ksi</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Modulus of Elasticity (Torsion)</td>
-                                    <td>11,600 ksi</td>
+                                    <td>Elastic Modulus (Torsion)</td>
                                     <td>80 GPa</td>
+                                    <td>11,600 ksi</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Poisson’s Ratio</td>
@@ -239,12 +299,12 @@
                                 <tr class="t-row">
                                     <td>Thermal Conductivity</td>
                                     <td>45 W/m·K</td>
-                                    <td>45 W/m·K</td>
+                                    <td>—</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Specific Heat Capacity</td>
+                                    <td>Specific Heat</td>
                                     <td>460 J/kg·K</td>
-                                    <td>460 J/kg·K</td>
+                                    <td>—</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -252,62 +312,46 @@
                 </div>
             </div>
 
-            <!-- Mechanical Properties Table -->
-            <div class="row justify-content-center">
+            <!-- Heat Treatment -->
+            <div class="row justify-content-center mt-5" id="heat-treatment">
                 <div class="col-lg-10">
-                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties</h4>
+                    <h4 class="text-center mb-3" style="color:#db7227;">
+                        Heat Treatment of Alloy Steel P22
+                    </h4>
+
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Property</th>
-                                    <th>Annealed</th>
-                                    <th>Hot-Finished</th>
-                                    <th>Cold Drawn</th>
-                                    <th>Hot-rolled</th>
-                                    <th>Sheet</th>
+                                    <th>Process</th>
+                                    <th>Details</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-center">
+                            <tbody>
                                 <tr class="t-row">
-                                    <td>Tensile Strength (ksi / MPa)</td>
-                                    <td>75–95 ksi / 517–655 MPa</td>
-                                    <td>80–110 ksi / 552–758 MPa</td>
-                                    <td>—</td>
-                                    <td>75–95 ksi / 517–655 MPa</td>
-                                    <td>—</td>
+                                    <td>Normalizing</td>
+                                    <td>950–1000°C, air cooled to refine grain structure</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Yield Strength (0.2%)</td>
-                                    <td>40–60 ksi / 276–414 MPa</td>
-                                    <td>45–90 ksi / 310–620 MPa</td>
-                                    <td>—</td>
-                                    <td>40–60 ksi / 276–414 MPa</td>
-                                    <td>—</td>
+                                    <td>Tempering</td>
+                                    <td>650–700°C to achieve required mechanical properties</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Elongation (%)</td>
-                                    <td>20–30</td>
-                                    <td>15–25</td>
-                                    <td>—</td>
-                                    <td>20–30</td>
-                                    <td>—</td>
+                                    <td>Stress Relieving</td>
+                                    <td>675–725°C to reduce residual stresses</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Brinell Hardness (3000 kg)</td>
-                                    <td>140–190</td>
-                                    <td>160–220</td>
-                                    <td>—</td>
-                                    <td>140–190</td>
-                                    <td>—</td>
+                                    <td>Annealing (Subcritical)</td>
+                                    <td>720–760°C, slow furnace cool for machinability</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Rockwell Hardness (B / C)</td>
-                                    <td>75–85 B</td>
-                                    <td>85–90 B</td>
-                                    <td>—</td>
-                                    <td>75–85 B</td>
-                                    <td>—</td>
+                                    <td>Hot Working</td>
+                                    <td>950–1150°C</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Cold Working</td>
+                                    <td>Possible; stress relieving recommended afterward</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
@@ -315,6 +359,190 @@
             </div>
         </div>
     </section>
+
+    <!-- Mechanical Properties -->
+    <section class="sec-padd-top sec-padd-bottom" id="mechanical">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color:#174268;">
+                    Mechanical Properties of P22 Alloy Steel
+                </h2>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Property</th>
+                            <th>Annealed</th>
+                            <th>Hot-Finished</th>
+                            <th>Hot-Rolled</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>Tensile Strength (MPa)</td>
+                            <td>517–655</td>
+                            <td>552–758</td>
+                            <td>517–655</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Yield Strength (MPa)</td>
+                            <td>276–414</td>
+                            <td>310–620</td>
+                            <td>276–414</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Elongation (%)</td>
+                            <td>20–30</td>
+                            <td>15–25</td>
+                            <td>20–30</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Brinell Hardness (HB)</td>
+                            <td>140–190</td>
+                            <td>160–220</td>
+                            <td>140–190</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Rockwell Hardness</td>
+                            <td>75–85 B</td>
+                            <td>85–90 B</td>
+                            <td>75–85 B</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p class="mt-3 text-center">
+                    P22 retains strength, toughness, and excellent creep resistance
+                    at service temperatures up to approximately 600°C.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Forms -->
+    <section class="sec-padd-top sec-padd-bottom bg-light" id="related grades">
+        <div class="container">
+            <div class="section-title center mt-5">
+                <h2>Available Forms & Size Range – P22 Alloy Steel</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <table class="table table-bordered table-striped align-middle">
+                        <thead class="table-dark text-center">
+                            <tr class="t-row">
+                                <th>Product Form</th>
+                                <th>Size Range / Description</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">
+                            <tr class="t-row">
+                                <td>Seamless Pipes (ASTM A335 P22)</td>
+                                <td>OD 10–660 mm, WT 2–100 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Boiler Tubes</td>
+                                <td>OD 12–114 mm, WT 1.5–12 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Superheater Tubes</td>
+                                <td>High-temperature tubes, U-bend available</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Heat Exchanger Tubes</td>
+                                <td>OD 6–88 mm, thin & thick wall options</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Welded Pipes (EFW / ERW)</td>
+                                <td>OD 20–600 mm, WT 1.5–20 mm</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Forged Fittings</td>
+                                <td>Elbows, tees, reducers, caps (½” – 24”)</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Butt-Weld Fittings</td>
+                                <td>Sch 20 – Sch XXS, sizes ½” – 36”</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Flanges</td>
+                                <td>WN, SO, BL, SW, RTJ (½” – 36”)</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Bars & Billets</td>
+                                <td>Custom forged bars for machining</td>
+                            </tr>
+                            <tr class="t-row">
+                                <td>Fabricated Components</td>
+                                <td>As per drawing (spools, headers, bends)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- International Standards -->
+    <section class="sec-padd-top sec-padd-bottom" id="international">
+        <div class="container">
+            <div class="section-title center">
+                <h2>International Standards & Equivalent Grades – P22 Alloy Steel</h2>
+            </div>
+
+            <div class="table-responsive col-lg-10 mx-auto">
+                <table class="table table-bordered table-striped align-middle">
+                    <thead class="table-dark text-center">
+                        <tr class="t-row">
+                            <th>Standard</th>
+                            <th>Equivalent Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr class="t-row">
+                            <td>ASTM</td>
+                            <td>ASTM A335 / A213 Grade P22</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>ASME</td>
+                            <td>ASME SA335 / SA213 P22</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>UNS</td>
+                            <td>K21590</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>DIN</td>
+                            <td>10CrMo9-10</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Werkstoff Nr.</td>
+                            <td>1.7380</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>BS</td>
+                            <td>620B</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>EN</td>
+                            <td>EN 10216-2</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>JIS</td>
+                            <td>G3462 SCMV4</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>GB (China)</td>
+                            <td>12Cr2Mo</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
 
 
     @php
@@ -373,7 +601,7 @@
         ];
     @endphp
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="products" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Products in Engineering Steel P22</h2>
@@ -431,7 +659,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="uses" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Uses and Advantages</h2>
@@ -475,7 +703,7 @@
     </section>
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
                 <h2>Applications of Engineering Steel P22</h2>
@@ -592,8 +820,27 @@
         </div>
     </section>
 
+    <section id="price" class="sec-padd-top sec-padd-bottom bg-light py-5">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>P22 Alloy Steel Price in India</h2>
+            </div>
+
+            <p class="text-center fs-5">
+                <strong>Typical Range:</strong> ₹200 – ₹400 per kg
+            </p>
+            <p class="text-center mb-2">
+                (Price varies by OD, wall thickness, form, and finish)
+            </p>
+
+            <p class="text-center fs-5">
+                Contact us for exact quotation based on size and quantity.
+            </p>
+        </div>
+    </section>
+
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -680,9 +927,9 @@
     </section>
     <!--End faq content area-->
 
-    
+
     {{-- blog section start --}}
-      <section class="blog-section sec-padd2">
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
@@ -738,7 +985,7 @@
     {{-- blog section end --}}
 
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
