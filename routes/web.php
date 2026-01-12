@@ -25,6 +25,9 @@ Route::get('/about-us', [MainController::class, 'aboutUs'])->name('about-us');
 Route::get('/calculator', [MainController::class, 'calculator'])->name('calculator');
 Route::get('/materials', [MainController::class, 'materials'])->name('materials');
 Route::get('/blogs', [MainController::class, 'blogs'])->name('blogs');
+
+Route::get('/whatsapp-intent', [MainController::class, 'whatsappIntent'])->name('whatsapp-intent');
+
 // Route::get('/blogs', [BlogController::class, 'blogs'])->name('blogs');
 // Route::get('/blogs/{slug}', [BlogController::class, 'show'])->name('blogs.show');
 Route::get('/blogs/{slug}', [MainController::class, 'specificBlog'])->name('frontend.single-blog');

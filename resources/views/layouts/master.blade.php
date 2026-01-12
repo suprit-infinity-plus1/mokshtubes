@@ -826,7 +826,8 @@
                                         placeholder="Phone">
                                 </div>
                                 <div class="col-md-12 mb-3">
-                                    <input class="form-control" type="text" name="form_subject" placeholder="Subject">
+                                    <input class="form-control" type="text" name="form_subject"
+                                        placeholder="Subject">
                                 </div>
                                 <div class="col-md-12 mb-3">
                                     <textarea name="form_message" class="form-control" placeholder="Your Message.." required></textarea>

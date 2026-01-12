@@ -219,6 +219,11 @@ class MainController extends Controller
         return view('frontend.blogs', compact('blogs'));
     }
 
+    public function whatsappIntent()
+    {
+        return view('frontend.whatsapp-intent');
+    }
+
     public function specificBlog($slug)
     {
         // $blogs = Blog::where('status', true)
