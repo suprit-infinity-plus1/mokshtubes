@@ -62,6 +62,7 @@
                     <thead>
                         <tr>
                             <th>#</th>
+                            <th>id</th>
                             <th>Name</th>
                             <th>Email</th>
                             <th>Phone</th>
@@ -75,6 +76,7 @@
                         @php $i = 1; @endphp
                         @forelse ($websiteLeads as $websiteLead)
                             <tr>
+                                <td>{{$i++}}</td>
                                 <td>{{ $websiteLead->id }}</td>
                                 <td>{{ $websiteLead->name }}</td>
                                 <td>{{ $websiteLead->email }}</td>
@@ -109,6 +111,7 @@
                     <tfoot>
                         <tr>
                             <th>#</th>
+                            <th>id</th>
                             <th>Name</th>
                             <th>Email</th>
                             <th>Phone</th>
