@@ -62,6 +62,7 @@
                     <thead>
                         <tr>
                             <th>#</th>
+                            <th>ID</th>
                             <th>Email</th>
                             <th>PDF</th>
                             <th>Added On</th>
@@ -73,6 +74,7 @@
                         @php $i = 1; @endphp
                         @forelse ($datasheetLeads as $datasheetLead)
                             <tr>
+                                <td>{{ $loop->iteration }}</td>
                                 <td>{{ $datasheetLead->id }}</td>
                                 <td>{{ $datasheetLead->email }}</td>
                                 <td>{{ $datasheetLead->pdf }}</td>
@@ -105,6 +107,7 @@
                     <tfoot>
                         <tr>
                             <th>#</th>
+                            <th>ID</th>
                             <th>Email</th>
                             <th>PDF</th>
                             <th>Added On</th>
