@@ -66,7 +66,8 @@
                         @php $i = 1; @endphp
                         @forelse($datasheets as $datasheet)
                             <tr>
-                                <td>{{i++}}</td>
+                                {{-- <td>{{i++}}</td> --}}
+                                <td>{{ $loop->iteration }}</td>
                                 <td>{{ $datasheet->id }}</td>
                                 <td>{{ $datasheet->name }}</td>
                                 <td>{{ $datasheet->page_path }}</td>

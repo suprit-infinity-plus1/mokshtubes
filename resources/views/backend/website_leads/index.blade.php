@@ -76,7 +76,7 @@
                         @php $i = 1; @endphp
                         @forelse ($websiteLeads as $websiteLead)
                             <tr>
-                                <td>{{$i++}}</td>
+                                <td>{{ $loop->iteration }}</td>
                                 <td>{{ $websiteLead->id }}</td>
                                 <td>{{ $websiteLead->name }}</td>
                                 <td>{{ $websiteLead->email }}</td>

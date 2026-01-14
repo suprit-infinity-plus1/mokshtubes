@@ -57,7 +57,8 @@ class DatasheetLeadController extends Controller
         // Store lead (UNCHANGED LOGIC)
         DatasheetLead::create([
             'email' => $request->email,
-            'pdf' => $datasheet->file_path, // store actual file path
+            // 'pdf' => $datasheet->file_path, // store actual file path
+            'pdf' => $datasheet->page_path, // store actual page path
         ]);
 
         $filePath = storage_path('app/public/'.$datasheet->file_path);
@@ -78,7 +79,7 @@ class DatasheetLeadController extends Controller
     {
         $datasheetLeads = DatasheetLead::latest()->get();
 
-        // dd($blogs);
+        // dd($datasheetLeads);
         // return view('admin.blogs.index', compact('blogs'));
         return view('backend.datasheet_leads.index', compact('datasheetLeads'));
     }
