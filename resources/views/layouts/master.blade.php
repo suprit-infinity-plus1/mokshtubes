@@ -81,14 +81,14 @@
 
 
     <link rel="icon" href="{{ asset('assets/images/favicon/favicon.ico') }}" type="image/x-icon">
-    <link rel="shortcut icon" href="{{ asset('assets/images/favicon/favicon.ico') }}" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/images/favicon/apple-touch-icon.png') }}">
+    {{-- <link rel="shortcut icon" href="{{ asset('assets/images/favicon/favicon.ico') }}" type="image/x-icon">
 
     <link rel="icon" type="image/png" sizes="32x32"
         href="{{ asset('assets/images/favicon/logo-moksh-32x32.png') }}">
     <link rel="icon" type="image/png" sizes="16x16"
-        href="{{ asset('assets/images/favicon/logo-moksh-16x16.png') }}">
+        href="{{ asset('assets/images/favicon/logo-moksh-16x16.png') }}"> --}}
 
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/images/favicon/apple-touch-icon.png') }}">
 
     <!-- Fixing Internet Explorer-->
     <!--[if lt IE 9]>
