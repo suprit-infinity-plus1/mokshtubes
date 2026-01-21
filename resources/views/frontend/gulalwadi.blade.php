@@ -36,21 +36,12 @@
                     <h2 class="fs-5 fw-semibold mt-4 mb-2">Get Direction</h2>
 
                     <p class=" fs-5 mb-2">18°57'22"N 72°49'43"E</p>
-
-                    <<<<<<< HEAD <p>
+                    <p>
                         <a href="https://maps.app.goo.gl/7WYkcCj9HwC5cK267" target="_blank" rel="noreferrer"
                             class="text-primary fs-4" title="Open in Google Maps">
                             <i class="bi bi-geo-alt-fill"></i>
                         </a>
-                        </p>
-                        =======
-                        <p>
-                            <a href="https://maps.app.goo.gl/7WYkcCj9HwC5cK267" target="_blank" rel="noreferer"
-                                class="text-primary fs-4" title="Open in Google Maps">
-                                <i class="bi bi-geo-alt-fill"></i>
-                            </a>
-                        </p>
-                        >>>>>>> 0b26aa4b8c6e313721d14b4fc067dfdd8936f823
+                    </p>
 
 
 
