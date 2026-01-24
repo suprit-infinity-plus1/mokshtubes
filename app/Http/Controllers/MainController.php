@@ -9,7 +9,6 @@ use App\Models\WebsiteLead;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\Storage;
-use PHPMailer\PHPMailer\Exception;
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 
@@ -62,7 +61,7 @@ class MainController extends Controller
         $name = $request->form_name ?? '-';
         $email = $request->form_email ?? '-';
         $phone = $request->form_phone ?? '-';
-        $subject = $request->form_subject ?? '-';
+        $subject = $request->form_subject ?? 'Mokshtubes Enquiry';
         $message = $request->form_message ?? '-';
 
         $html = view('frontend.email', compact(
@@ -101,8 +100,8 @@ class MainController extends Controller
             //     'message' => 'Mail sent',
             // ]);
             return redirect()->route('index')
-            ->with('status', 'success')
-            ->with('msg', 'Your message has been sent successfully!');
+                ->with('status', 'success')
+                ->with('msg', 'Your message has been sent successfully!');
 
         } catch (\Exception $e) {
             return redirect()->route('index')

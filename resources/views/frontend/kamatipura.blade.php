@@ -93,12 +93,12 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-md-12">
                                     <input type="text" name="form_phone" value="" placeholder="Phone">
                                 </div>
-                                <div class="col-md-6">
+                                {{-- <div class="col-md-6">
                                     <input type="text" name="form_subject" value="" placeholder="Subject">
-                                </div>
+                                </div> --}}
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
@@ -127,31 +127,52 @@
                         <ul class="clearfix">
                             <li>
                                 <div class="iocn-holder">
-                                    {{-- <span class="fa fa-home"></span> --}}
-                                    <span class="flaticon-web-page-home"></span>
+                                    <a href="https://maps.app.goo.gl/DZXPXEmamcy86DDx6">
+                                        <span class="flaticon-web-page-home"></span>
+                                    </a>
                                 </div>
                                 <div class="text-holder">
-
-                                    <h3 class="h6">Dawood Baug, Sukhlaji Street, Kamatipura,</h3>
-                                    <p> Mumbai, Maharashtra- 400 008</p>
+                                    <a href="https://maps.app.goo.gl/DZXPXEmamcy86DDx6">
+                                        <h3 class="h6">Hinglaj Bhavan, Gulalwadi</h3>
+                                        <p>Mumbai, Maharashtra. 400004</p>
+                                    </a>
                                 </div>
                             </li>
                             <li>
                                 <div class="iocn-holder">
-                                    <span class="icon-technology-1"></span>
+                                    <a href="tel:+919769584950">
+                                        <span class="icon-technology-1"></span>
+                                    </a>
                                 </div>
                                 <div class="text-holder">
                                     <h3 class="h6">Call Us On</h3>
-                                    <p>+91 97695 84950</p>
+                                    <a href="tel:+919769584950">
+                                        <p>+91 97695 84950</p>
+                                    </a>
                                 </div>
                             </li>
                             <li>
                                 <div class="iocn-holder">
-                                    <span class="icon-letter-1"></span>
+                                    <a href="https://wa.me/919769584950" target="_blank">
+                                        <span class="fa-brands fa-whatsapp"></span>
+                                    </a>
+                                </div>
+                                <div class="text-holder">
+                                    <h3 class="h6">Whatsapp</h3>
+                                    <a href="https://wa.me/919769584950" target="_blank">
+                                        <p>+91 97695 84950</p>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="iocn-holder">
+                                    <a href="mailto:info@mokstubes.com">
+                                        <span class="icon-letter-1"></span>
+                                    </a>
                                 </div>
                                 <div class="text-holder">
                                     <h3 class="h6">Mail Us @</h3>
-                                    <a href="#">
+                                    <a href="mailto:info@mokstubes.com">
                                         <p>info@mokstubes.com</p>
                                     </a>
                                 </div>
