@@ -90,7 +90,7 @@
                 From trusted partners to our strategic locations, find us wherever your business needs us.
             </p>
             <!-- ✅ Added SEO Benefit Text -->
-            <p class="text-success fw-semibold mt-3 fs-5">🚀 Get quote within 24 hours – Global delivery available.</p>
+            <p class="text-success fw-semibold mt-3 fs-5">🚀 Get quote within 30 minutes – Global delivery available.</p>
         </div>
     </section>
 
@@ -142,7 +142,7 @@
                 <h2>Get in <span class="thm-color">Touch</span></h2>
                 <p>Let’s forge a connection — contact our team today. </p>
                 <!-- ✅ Added Benefit Text below heading -->
-                <p class="text-success fw-semibold mt-2">✅ Get quote within 24 hours – Global delivery available.</p>
+                <p class="text-success fw-semibold mt-2">✅ Get quote within 30 minutes – Global delivery available.</p>
             </div>
 
             <div class="row">
@@ -212,6 +212,15 @@
                                 </div>
                                 <div class="text-holder">
                                     <h3 class="h6">Call Us On</h3>
+                                    <p>+91 97695 84950</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="iocn-holder">
+                                    <span class="icon-phone-receiver"></span>
+                                </div>
+                                <div class="text-holder">
+                                    <h3 class="h6">Whatsapp</h3>
                                     <p>+91 97695 84950</p>
                                 </div>
                             </li>
