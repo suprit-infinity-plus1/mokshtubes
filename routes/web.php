@@ -8,6 +8,38 @@ use App\Http\Controllers\MainController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
+
+/*
+|--------------------------------------------------------------------------
+| Regional Routes (Added for UAE & Saudi Arabia)
+|--------------------------------------------------------------------------
+|
+| Independent route groups for regional prefixes.
+| These allow access to the same pages via /uae/* and /saudi-arabia/*
+|
+*/
+
+// Regional Routes for UAE
+Route::prefix('uae')->group(function () {
+    Route::get('/materials/hastelloy', [MainController::class, 'hastelloy']);
+    Route::get('/materials/hastelloy/{slug}', [MainController::class, 'hastelloyGrade']);
+    // Add other regional routes if needed here...
+});
+
+// Regional Routes for Saudi Arabia
+Route::prefix('saudi-arabia')->group(function () {
+    Route::get('/materials/hastelloy', [MainController::class, 'hastelloy']);
+    Route::get('/materials/hastelloy/{slug}', [MainController::class, 'hastelloyGrade']);
+    // Add other regional routes if needed here...
+});
+
+
+/*
+|--------------------------------------------------------------------------
+| Original Public Routes
+|--------------------------------------------------------------------------
+*/
+
 // Route::get('/', function () {
 //     return view('welcome');
 // })
@@ -138,6 +170,7 @@ Route::middleware(['web'])->group(function () {
 
 Route::post('/datasheet-leads-capture', [DatasheetLeadController::class, 'store'])->name('lead.capture');
 
+
 Route::prefix('admin')->group(function () {
     Route::middleware('auth')->group(function () {
         Route::get('/dashboard', [MainController::class, 'dashboard'])->middleware(['auth', 'verified'])->name('dashboard');
@@ -214,4 +247,4 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';
