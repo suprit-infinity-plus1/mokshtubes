@@ -390,12 +390,12 @@
                                 </div>
                                 <div class="collapse navbar-collapse clearfix">
                                     <ul class="navigation navbar-nav me-auto mb-2 mb-lg-0 clearfix">
-                                        <li class="nav-item"><a class="nav-link"
-                                                href="{{ route('index') }}">Home</a>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="{{ route('index') }}">Home</a>
                                         </li>
-                                        <li class="nav-item"><a class="nav-link"
-                                                href="{{ route('about-us') }}">About
-                                                Us</a></li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="{{ route('about-us') }}">About Us</a>
+                                        </li>
                                         {{-- <li class="nav-item dropdown"><a class="nav-link"
                                                 href="{{ url('/products') }}" data-bs-toggle="dropdown">Products</a></li> --}}
                                         <li class="nav-item dropdown"><a class="nav-link"
