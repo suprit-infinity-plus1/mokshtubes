@@ -390,12 +390,10 @@
                                 </div>
                                 <div class="collapse navbar-collapse clearfix">
                                     <ul class="navigation navbar-nav me-auto mb-2 mb-lg-0 clearfix">
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="{{ route('index') }}">Home</a>
+                                        <li class="nav-item"><a class="nav-link" href="{{ route('index') }}">Home</a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="{{ route('about-us') }}">About Us</a>
-                                        </li>
+                                        <li class="nav-item"><a class="nav-link" href="{{ route('about-us') }}">About
+                                                Us</a></li>
                                         {{-- <li class="nav-item dropdown"><a class="nav-link"
                                                 href="{{ url('/products') }}" data-bs-toggle="dropdown">Products</a></li> --}}
                                         <li class="nav-item dropdown"><a class="nav-link"
@@ -787,6 +785,26 @@
                 </a>
             </div>
         </div>
+        <div class="call-btn-container"
+            style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50px;
+                    position: fixed;
+                    bottom: 100px;
+                    background: #0d6efd;
+                    left: 2.1875rem;
+                    width: 60px;
+                    height: 60px;
+                    z-index: 99;">
+            <div id="call-btn" style="margin-top:5px;">
+                <a class="call-btn" href="tel:+919769584950">
+                    <i class="fa fa-phone fa-2x text-white" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+
 
         <!-- Contact Form Modal -->
         <!-- Contact Form Modal -->
@@ -825,10 +843,10 @@
                                     <input class="form-control" type="text" name="form_phone"
                                         placeholder="Phone">
                                 </div>
-                                <div class="col-md-12 mb-3">
+                                {{-- <div class="col-md-12 mb-3">
                                     <input class="form-control" type="text" name="form_subject"
                                         placeholder="Subject">
-                                </div>
+                                </div> --}}
                                 <div class="col-md-12 mb-3">
                                     <textarea name="form_message" class="form-control" placeholder="Your Message.." required></textarea>
                                 </div>
@@ -1014,12 +1032,12 @@
             });
         </script>
         <script>
-            // document.addEventListener("DOMContentLoaded", function() {
-            //     setTimeout(function() {
-            //         var contactModal = new bootstrap.Modal(document.getElementById('contactFormModal'));
-            //         contactModal.show();
-            //     }, 10000);
-            // });
+            document.addEventListener("DOMContentLoaded", function() {
+                setTimeout(function() {
+                    var contactModal = new bootstrap.Modal(document.getElementById('contactFormModal'));
+                    contactModal.show();
+                }, 10000);
+            });
         </script>
 
 
