@@ -1,6 +1,7 @@
 @extends('layouts.master')
 @section('title', 'Premium Sheets, Plates & Coils – Mokshtubes Metal Products') <!-- 52 characters -->
-@section('meta_description', 'Discover high-quality sheets, plates, and coils from MokshTubes—engineered for durability,
+@section('meta_description',
+    'Discover high-quality sheets, plates, and coils from MokshTubes—engineered for durability,
     precision, and superior performance in industrial applications.') <!-- 153 characters -->
 @section('content')
     <!--Start breadcrumb area-->
@@ -24,7 +25,7 @@
             </div>
 
             <div class="row g-4">
-                @php
+                {{-- @php
                     $types = [
                         [
                             'name' => 'Chequered Sheets',
@@ -73,9 +74,9 @@
                         //     'image' => 'assets/images/product/hollow-section-pipe.webp',
                         // ],
                     ];
-                @endphp
+                @endphp --}}
 
-                @foreach ($types as $type)
+                {{-- @foreach ($types as $type)
                     <div class="col-12 col-sm-6 col-lg-4">
                         <a href="{{ url('/products/sheets-plates-coils/' . $type['slug']) }}"
                             class="text-decoration-none d-block h-100">
@@ -92,13 +93,123 @@
                             </div>
                         </a>
                     </div>
-                @endforeach
+                @endforeach --}}
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.sheets-plates-coils.chequered-sheets') }}"
+                        class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+
+                            <img src="{{ asset('assets/images/product/Sheets-Plates-and-Coils/chequered-sheets.webp') }}"
+                                alt="Chequered Sheets" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                Chequered Sheets
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.sheets-plates-coils.strips') }}" class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+
+                            <img src="{{ asset('assets/images/product/Sheets-Plates-and-Coils/Metal-Strips.webp') }}"
+                                alt="Strips" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                Strips
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.sheets-plates-coils.shim-sheets') }}"
+                        class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+
+                            <img src="{{ asset('assets/images/product/Sheets-Plates-and-Coils/Shim-Sheets.webp') }}"
+                                alt="Shim sheets" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                Shim sheets
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.sheets-plates-coils.sheets-and-plates') }}"
+                        class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+
+                            <img src="{{ asset('assets/images/product/Sheets-Plates-and-Coils/Sheets-and-Plates.webp') }}"
+                                alt="Sheets and plates" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                Sheets and plates
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.sheets-plates-coils.perforated-sheets') }}"
+                        class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+
+                            <img src="{{ asset('assets/images/product/Sheets-Plates-and-Coils/sheets-Perforated.webp') }}"
+                                alt="Perforated sheets" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                Perforated sheets
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.sheets-plates-coils.coils') }}" class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+
+                            <img src="{{ asset('assets/images/product/Sheets-Plates-and-Coils/Metal-Coils.webp') }}"
+                                alt="Coils" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                Coils
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.sheets-plates-coils.cladded-plates') }}"
+                        class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+
+                            <img src="{{ asset('assets/images/product/Sheets-Plates-and-Coils/Cladded-Plates.webp') }}"
+                                alt="Cladded plates" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                Cladded plates
+                            </h6>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
 
 
-     <section class="blog-section sec-padd2">
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>

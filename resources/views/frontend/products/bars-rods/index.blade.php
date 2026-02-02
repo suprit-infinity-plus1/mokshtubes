@@ -27,7 +27,7 @@
             </div>
 
             <div class="row g-4">
-                @php
+                {{-- @php
                     $types = [
                         [
                             'name' => 'Square Bars',
@@ -60,9 +60,9 @@
                             'image' => 'assets/images/product/Flat-Bars.webp',
                         ],
                     ];
-                @endphp
+                @endphp --}}
 
-                @foreach ($types as $type)
+                {{-- @foreach ($types as $type)
                     <div class="col-12 col-sm-6 col-lg-4">
                         <a href="{{ url('/products/bars-rods/' . $type['slug']) }}"
                             class="text-decoration-none d-block h-100">
@@ -79,12 +79,103 @@
                             </div>
                         </a>
                     </div>
-                @endforeach
+                @endforeach --}}
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.bars-rods.square-bars') }}" class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+
+                            <img src="{{ asset('assets/images/product/Bars-&-Rods/square-bars.webp') }}" alt="Square Bars"
+                                class="img-fluid rounded mb-3" style="border-radius: 8px;">
+
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                Square Bars
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.bars-rods.threaded-rods') }}" class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+
+                            <img src="{{ asset('assets/images/product/Bars-&-Rods/threaded-rods.webp') }}"
+                                alt="Threaded Rods" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                Threaded Rods
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.bars-rods.round-bars') }}" class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+
+                            <img src="{{ asset('assets/images/product/Bars-&-Rods/round-bars.webp') }}" alt="Round Bars"
+                                class="img-fluid rounded mb-3" style="border-radius: 8px;">
+
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                Round Bars
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.bars-rods.hollow-bars') }}" class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+
+                            <img src="{{ asset('assets/images/product/Hollow-Bars.webp') }}" alt="Hollow Bars"
+                                class="img-fluid rounded mb-3" style="border-radius: 8px;">
+
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                Hollow Bars
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.bars-rods.hexagon-bars') }}" class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+
+                            <img src="{{ asset('assets/images/product/Hexagon-Bars.webp') }}" alt="Hexagon Bars"
+                                class="img-fluid rounded mb-3" style="border-radius: 8px;">
+
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                Hexagon Bars
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.bars-rods.flat-bars') }}" class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+
+                            <img src="{{ asset('assets/images/product/Flat-Bars.webp') }}" alt="Flat Bars"
+                                class="img-fluid rounded mb-3" style="border-radius: 8px;">
+
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                Flat Bars
+                            </h6>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
 
-     <section class="blog-section sec-padd2">
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>
