@@ -81,14 +81,14 @@
 
 
     <link rel="icon" href="{{ asset('assets/images/favicon/favicon.ico') }}" type="image/x-icon">
-    <link rel="shortcut icon" href="{{ asset('assets/images/favicon/favicon.ico') }}" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/images/favicon/apple-touch-icon.png') }}">
+    {{-- <link rel="shortcut icon" href="{{ asset('assets/images/favicon/favicon.ico') }}" type="image/x-icon">
 
     <link rel="icon" type="image/png" sizes="32x32"
         href="{{ asset('assets/images/favicon/logo-moksh-32x32.png') }}">
     <link rel="icon" type="image/png" sizes="16x16"
-        href="{{ asset('assets/images/favicon/logo-moksh-16x16.png') }}">
+        href="{{ asset('assets/images/favicon/logo-moksh-16x16.png') }}"> --}}
 
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/images/favicon/apple-touch-icon.png') }}">
 
     <!-- Fixing Internet Explorer-->
     <!--[if lt IE 9]>
@@ -390,11 +390,9 @@
                                 </div>
                                 <div class="collapse navbar-collapse clearfix">
                                     <ul class="navigation navbar-nav me-auto mb-2 mb-lg-0 clearfix">
-                                        <li class="nav-item"><a class="nav-link"
-                                                href="{{ route('index') }}">Home</a>
+                                        <li class="nav-item"><a class="nav-link" href="{{ route('index') }}">Home</a>
                                         </li>
-                                        <li class="nav-item"><a class="nav-link"
-                                                href="{{ route('about-us') }}">About
+                                        <li class="nav-item"><a class="nav-link" href="{{ route('about-us') }}">About
                                                 Us</a></li>
                                         {{-- <li class="nav-item dropdown"><a class="nav-link"
                                                 href="{{ url('/products') }}" data-bs-toggle="dropdown">Products</a></li> --}}
@@ -403,27 +401,32 @@
                                             <ul class="dropdown-menu"
                                                 style="display: none; overflow-x: auto; padding-top: 12px; margin-top: 0px; padding-bottom: 12px; margin-bottom: 0px;">
 
-                                                @php
-                                                    $productCategories = [
-                                                        'Pipes & Tubes',
-                                                        'Sheets, Plates & Coils',
-                                                        'Bars & Rods',
-                                                        'Pipe Fittings, Flanges & Fasteners',
-                                                        'Special Fabricated',
-                                                    ];
-                                                @endphp
+                                                <li><a class="dropdown-item text-wrap"
+                                                        href="{{ route('products.pipes-tubes') }}">
+                                                        Pipes & Tubes
+                                                    </a>
+                                                </li>
+                                                <li><a class="dropdown-item text-wrap"
+                                                        href="{{ route('products.sheets-plates-coils') }}">
+                                                        Sheets, Plates & Coils
+                                                    </a>
+                                                </li>
+                                                <li><a class="dropdown-item text-wrap"
+                                                        href="{{ route('products.bars-rods') }}">
+                                                        Bars & Rods
+                                                    </a>
+                                                </li>
+                                                <li><a class="dropdown-item text-wrap"
+                                                        href="{{ route('products.pipe-fittings-flanges-fasteners') }}">
+                                                        Pipe Fittings, Flanges & Fasteners
+                                                    </a>
+                                                </li>
+                                                <li><a class="dropdown-item text-wrap"
+                                                        href="{{ route('products.special-fabricated') }}">
+                                                        Special Fabricated
+                                                    </a>
+                                                </li>
 
-                                                @foreach ($productCategories as $category)
-                                                    @php
-                                                        $slug = Str::slug($category); // Pipes & Tubes → pipes-tubes
-                                                    @endphp
-                                                    <li>
-                                                        <a class="dropdown-item text-wrap"
-                                                            href="{{ url('/products/' . $slug) }}">
-                                                            {{ $category }}
-                                                        </a>
-                                                    </li>
-                                                @endforeach
                                             </ul>
                                         </li>
 
@@ -432,39 +435,109 @@
                                             <a class="nav-link" href="{{ route('materials') }}">Materials</a>
                                             <ul class="dropdown-menu"
                                                 style="display: none; overflow-x: auto; padding-top: 12px; margin-top: 0px; padding-bottom: 12px; margin-bottom: 0px;">
+                                                <li>
+                                                    <a class="dropdown-item text-wrap"
+                                                        href="{{ route('materials.hastelloy') }}">
+                                                        Hastelloy
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-wrap"
+                                                        href="{{ route('materials.monel') }}">
+                                                        Monel
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-wrap"
+                                                        href="{{ route('materials.incoloy') }}">
+                                                        Incoloy
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-wrap"
+                                                        href="{{ route('materials.nickel-Based-Superalloys') }}">
+                                                        Nickel Based Superalloys
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-wrap"
+                                                        href="{{ route('materials.inconel') }}">
+                                                        Inconel
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-wrap"
+                                                        href="{{ route('materials.titanium') }}">
+                                                        Titanium
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-wrap"
+                                                        href="{{ route('materials.aluminium-Alloys') }}">
+                                                        Aluminium Alloys
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-wrap"
+                                                        href="{{ route('materials.super-Austenitic-Stainless-Steel') }}">
+                                                        Super Austenitic Stainless Steel
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-wrap"
+                                                        href="{{ route('materials.hard-To-Find-Special-Alloys') }}">
+                                                        Hard To Find Special Alloys
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-wrap"
+                                                        href="{{ route('materials.aluminium-Alloys') }}">
+                                                        Aluminium Alloys
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-wrap"
+                                                        href="{{ route('materials.engineering-Steels') }}">
+                                                        Engineering Steels
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-wrap"
+                                                        href="{{ route('materials.austenitic-stainless-Steel') }}">
+                                                        Austenitic Stainless Steel
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-wrap"
+                                                        href="{{ route('materials.copper-Alloys') }}">
+                                                        Copper Alloys
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-wrap"
+                                                        href="{{ route('materials.zirconium') }}">
+                                                        Zirconium
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-wrap"
+                                                        href="{{ route('materials.haynes-Superalloys') }}">
+                                                        Haynes Superalloys
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-wrap"
+                                                        href="{{ route('materials.duplex-and-super-duplex') }}">
+                                                        Duplex and Super Duplex
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-wrap"
+                                                        href="{{ route('materials.high-strength-stainless-steel') }}">
+                                                        High Strength Stainless Steel
+                                                    </a>
+                                                </li>
 
-                                                @php
-                                                    $materials = [
-                                                        'Hastelloy',
-                                                        'Monel',
-                                                        'Inconel',
-                                                        'Incoloy',
-                                                        'Nickel Based Superalloys',
-                                                        'Titanium',
-                                                        'Duplex and Super Duplex',
-                                                        'Austenitic Stainless Steel',
-                                                        'High Strength Stainless Steel',
-                                                        'Super Austenitic Stainless Steel',
-                                                        'Zirconium',
-                                                        'Engineering Steels',
-                                                        'Aluminium Alloys',
-                                                        'Copper Alloys',
-                                                        'Hard To Find & Special Alloys',
-                                                        'Haynes Superalloys',
-                                                    ];
-                                                @endphp
-
-                                                @foreach ($materials as $material)
-                                                    @php
-                                                        $slug = Str::slug($material);
-                                                    @endphp
-                                                    <li>
-                                                        <a class="dropdown-item text-wrap"
-                                                            href="{{ url('/materials/' . $slug) }}">
-                                                            {{ $material }}
-                                                        </a>
-                                                    </li>
-                                                @endforeach
 
                                             </ul>
                                         </li>
@@ -787,6 +860,26 @@
                 </a>
             </div>
         </div>
+        <div class="call-btn-container"
+            style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50px;
+                    position: fixed;
+                    bottom: 100px;
+                    background: #0d6efd;
+                    left: 2.1875rem;
+                    width: 60px;
+                    height: 60px;
+                    z-index: 99;">
+            <div id="call-btn" style="margin-top:5px;">
+                <a class="call-btn" href="tel:+919769584950">
+                    <i class="fa fa-phone fa-2x text-white" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+
 
         <!-- Contact Form Modal -->
         <!-- Contact Form Modal -->
@@ -825,10 +918,10 @@
                                     <input class="form-control" type="text" name="form_phone"
                                         placeholder="Phone">
                                 </div>
-                                <div class="col-md-12 mb-3">
+                                {{-- <div class="col-md-12 mb-3">
                                     <input class="form-control" type="text" name="form_subject"
                                         placeholder="Subject">
-                                </div>
+                                </div> --}}
                                 <div class="col-md-12 mb-3">
                                     <textarea name="form_message" class="form-control" placeholder="Your Message.." required></textarea>
                                 </div>
@@ -900,7 +993,7 @@
 
         <!--Scroll to top-->
         <div class="scroll-to-top scroll-to-target" data-bs-target="html"><span class="fa fa-angle-up"></span></div>
-        <div class="prealoader"></div>
+        {{-- <div class="prealoader"></div> --}}
         <!-- main jQuery -->
         <script src="{{ asset('assets/js/jquery.js') }}"></script>
         <!-- bootstrap -->

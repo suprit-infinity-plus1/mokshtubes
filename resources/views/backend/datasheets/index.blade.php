@@ -53,6 +53,7 @@
                     <thead>
                         <tr>
                             <th>#</th>
+                            <th>id</th>
                             <th>Name</th>
                             <th>Page</th>
                             <th>PDF</th>
@@ -62,8 +63,11 @@
                     </thead>
 
                     <tbody>
+                        @php $i = 1; @endphp
                         @forelse($datasheets as $datasheet)
                             <tr>
+                                {{-- <td>{{i++}}</td> --}}
+                                <td>{{ $loop->iteration }}</td>
                                 <td>{{ $datasheet->id }}</td>
                                 <td>{{ $datasheet->name }}</td>
                                 <td>{{ $datasheet->page_path }}</td>
@@ -115,6 +119,7 @@
                     <tfoot>
                         <tr>
                             <th>#</th>
+                            <th>id</th>
                             <th>Name</th>
                             <th>Page</th>
                             <th>PDF</th>

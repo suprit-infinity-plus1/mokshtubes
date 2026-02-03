@@ -1,5 +1,6 @@
 @extends('layouts.master')
 @section('title', 'Gulalwadi Mumbai Office – Contact Moksh Tubes Today')
+@section('meta_keywords', 'Stainless steel pipes in Gulalwadi')
 @section('meta_description',
     'Visit our Gulalwadi, Mumbai office or contact Moksh Tubes at +91 97695 84950 |
     info@mokshtubes.com for inquiries, directions, or business support.')
@@ -36,21 +37,12 @@
                     <h2 class="fs-5 fw-semibold mt-4 mb-2">Get Direction</h2>
 
                     <p class=" fs-5 mb-2">18°57'22"N 72°49'43"E</p>
-
-                    <<<<<<< HEAD <p>
+                    <p>
                         <a href="https://maps.app.goo.gl/7WYkcCj9HwC5cK267" target="_blank" rel="noreferrer"
                             class="text-primary fs-4" title="Open in Google Maps">
                             <i class="bi bi-geo-alt-fill"></i>
                         </a>
-                        </p>
-                        =======
-                        <p>
-                            <a href="https://maps.app.goo.gl/7WYkcCj9HwC5cK267" target="_blank" rel="noreferer"
-                                class="text-primary fs-4" title="Open in Google Maps">
-                                <i class="bi bi-geo-alt-fill"></i>
-                            </a>
-                        </p>
-                        >>>>>>> 0b26aa4b8c6e313721d14b4fc067dfdd8936f823
+                    </p>
 
 
 
@@ -102,12 +94,12 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-md-12">
                                     <input type="text" name="form_phone" value="" placeholder="Phone">
                                 </div>
-                                <div class="col-md-6">
+                                {{-- <div class="col-md-6">
                                     <input type="text" name="form_subject" value="" placeholder="Subject">
-                                </div>
+                                </div> --}}
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
@@ -136,31 +128,52 @@
                         <ul class="clearfix">
                             <li>
                                 <div class="iocn-holder">
-                                    {{-- <span class="fa fa-home"></span> --}}
-                                    <span class="flaticon-web-page-home"></span>
+                                    <a href="https://maps.app.goo.gl/DZXPXEmamcy86DDx6">
+                                        <span class="flaticon-web-page-home"></span>
+                                    </a>
                                 </div>
                                 <div class="text-holder">
-
-                                    <h3 class="h6">Hinglaj Bhavan, Gulalwadi</h3>
-                                    <p>Mumbai, Maharashtra. 400004</p>
+                                    <a href="https://maps.app.goo.gl/DZXPXEmamcy86DDx6">
+                                        <h3 class="h6">Hinglaj Bhavan, Gulalwadi</h3>
+                                        <p>Mumbai, Maharashtra. 400004</p>
+                                    </a>
                                 </div>
                             </li>
                             <li>
                                 <div class="iocn-holder">
-                                    <span class="icon-technology-1"></span>
+                                    <a href="tel:+919769584950">
+                                        <span class="icon-technology-1"></span>
+                                    </a>
                                 </div>
                                 <div class="text-holder">
                                     <h3 class="h6">Call Us On</h3>
-                                    <p>+91 97695 84950</p>
+                                    <a href="tel:+919769584950">
+                                        <p>+91 97695 84950</p>
+                                    </a>
                                 </div>
                             </li>
                             <li>
                                 <div class="iocn-holder">
-                                    <span class="icon-letter-1"></span>
+                                    <a href="https://wa.me/919769584950" target="_blank">
+                                        <span class="fa-brands fa-whatsapp"></span>
+                                    </a>
+                                </div>
+                                <div class="text-holder">
+                                    <h3 class="h6">Whatsapp</h3>
+                                    <a href="https://wa.me/919769584950" target="_blank">
+                                        <p>+91 97695 84950</p>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="iocn-holder">
+                                    <a href="mailto:info@mokstubes.com">
+                                        <span class="icon-letter-1"></span>
+                                    </a>
                                 </div>
                                 <div class="text-holder">
                                     <h3 class="h6">Mail Us @</h3>
-                                    <a href="#">
+                                    <a href="mailto:info@mokstubes.com">
                                         <p>info@mokstubes.com</p>
                                     </a>
                                 </div>

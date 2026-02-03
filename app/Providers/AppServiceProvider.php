@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use Illuminate\Support\Facades\URL;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -19,6 +20,42 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+        // Get URL segments, e.g. ['in', 'about-us']
+        // $segments = request()->segments();
+
+        // // If first segment exists, treat it as country
+        // if (! empty($segments) && isset($segments[0])) {
+        //     URL::defaults([
+        //         'country' => $segments[0],
+        //     ]);
+        // }
+
+        $request = request();
+
+        // Ignore asset files (css, js, images, etc.)
+        if (
+            $request->is('*.css') ||
+            $request->is('*.js') ||
+            $request->is('*.map') ||
+            $request->is('storage/*') ||
+            $request->is('build/*')
+        ) {
+            return;
+        }
+
+        // Ignore admin routes
+        if ($request->is('admin/*')) {
+            return;
+        }
+
+        // Get first URL segment
+        $country = $request->segment(1);
+
+        // If country exists, set it as default
+        if ($country) {
+            URL::defaults([
+                'country' => $country,
+            ]);
+        }
     }
 }

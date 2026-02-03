@@ -242,6 +242,105 @@
         </div>
     </section>
 
+    <!-- Best Selling Products Section -->
+    <section class="best-selling-products sec-padd-top sec-padd-bottom" style="background-color: #f9f9f9;">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Best Selling Products</h2>
+            </div>
+            <div class="row">
+                <!-- Seamless Pipes -->
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mb-4">
+                    <div class="single-our-service border" style="background: #fff;">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('products.pipes-tubes.seamless-pipes') }}">
+                                <img src="/assets/images/service/SEAMLESS-PIPES.webp" alt="Seamless Pipes" class="w-100" loading="lazy">
+                            </a>
+                        </figure>
+                        <div class="p-3 text-center">
+                            <a href="{{ route('products.pipes-tubes.seamless-pipes') }}">
+                                <h3 class="mt-0 h5">Seamless Pipes</h3>
+                            </a>
+                            <p>High-strength, leak-proof pipes perfect for high-pressure industrial applications.</p>
+                            <a href="#contact-form" class="thm-btn bg-clr1 mt-2" style=" font-size: 14px;">Get Price</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Welded Pipes -->
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mb-4">
+                    <div class="single-our-service border" style="background: #fff;">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('products.pipes-tubes.welded-pipes') }}">
+                                <img src="/assets/images/service/WELDED-PIPES.webp" alt="Welded Pipes" class="w-100" loading="lazy">
+                            </a>
+                        </figure>
+                        <div class="p-3 text-center">
+                            <a href="{{ route('products.pipes-tubes.welded-pipes') }}">
+                                <h3 class="mt-0 h5">Welded Pipes (ERW/EFW)</h3>
+                            </a>
+                            <p>Cost-effective and durable pipes suitable for structural and general engineering use.</p>
+                            <a href="#contact-form" class="thm-btn bg-clr1 mt-2" style=" font-size: 14px;">Get Price</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Boiler & Heat Exchanger Tubes -->
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mb-4">
+                    <div class="single-our-service border" style="background: #fff;">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes') }}">
+                                <img src="/assets/images/product/boiler-heat-exchanger-tubes-Copy.png" alt="Boiler Tubes" class="w-100" loading="lazy">
+                            </a>
+                        </figure>
+                        <div class="p-3 text-center">
+                            <a href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes') }}">
+                                <h3 class="mt-0 h5">Boiler & Heat Exchanger Tubes</h3>
+                            </a>
+                            <p>Designed to withstand high temperatures and pressure in critical heat transfer systems.</p>
+                            <a href="#contact-form" class="thm-btn bg-clr1 mt-2" style=" font-size: 14px;">Get Price</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Inconel / Hastelloy Pipes -->
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mb-4 col-lg-offset-2 col-md-offset-2">
+                    <div class="single-our-service border" style="background: #fff;">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.inconel') }}">
+                                <img src="/assets/images/inconel/Inconel-625.webp" alt="Inconel Pipes" class="w-100" loading="lazy">
+                            </a>
+                        </figure>
+                        <div class="p-3 text-center">
+                            <a href="{{ route('materials.inconel') }}">
+                                <h3 class="mt-0 h5">Inconel / Hastelloy Pipes</h3>
+                            </a>
+                            <p>Superior corrosion and oxidation resistance for the most extreme environments.</p>
+                            <a href="#contact-form" class="thm-btn bg-clr1 mt-2" style=" font-size: 14px;">Get Price</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SS 316 Pipes -->
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mb-4">
+                    <div class="single-our-service border" style="background: #fff;">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
+                                <img src="/assets/images/austenitic-stainless-steel/austenitic-stainless-steel-316.webp" alt="SS 316 Pipes" class="w-100" loading="lazy">
+                            </a>
+                        </figure>
+                        <div class="p-3 text-center">
+                            <a href="{{ route('materials.austenitic-stainless-Steel') }}">
+                                <h3 class="mt-0 h5">SS 316 Pipes</h3>
+                            </a>
+                            <p>Excellent corrosion resistance, ideal for chemical, marine, and medical applications.</p>
+                            <a href="#contact-form" class="thm-btn bg-clr1 mt-2" style=" font-size: 14px;">Get Price</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="our-services sec-padd-top sec-padd-bottom">
         <div class="container">

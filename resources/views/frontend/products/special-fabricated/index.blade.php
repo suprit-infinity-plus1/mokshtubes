@@ -1,8 +1,10 @@
 @extends('layouts.master')
 @section('title', 'Special Fabricated Products – Steel & Stainless Solutions') <!-- 53 characters -->
-@section('meta_description', 'Custom fabricated products from Moksh Tubes — steel furniture, stainless grills, railings
+@section('meta_description',
+    'Custom fabricated products from Moksh Tubes — steel furniture, stainless grills, railings
     & glass solutions, designed for durability, function & style.') <!-- 153 characters -->
-@section('meta_keywords', 'special fabricated, custom steel furniture, stainless steel grills, railings, glass
+@section('meta_keywords',
+    'special fabricated, custom steel furniture, stainless steel grills, railings, glass
     solutions, modern fabricated products, durable fabricated items, custom metal works, industrial steel fabrication')
 @section('content')
     <!--Start breadcrumb area-->
@@ -60,7 +62,7 @@
                     ];
                 @endphp
 
-                @foreach ($types as $type)
+                {{-- @foreach ($types as $type)
                     <div class="col-12 col-sm-6 col-lg-4">
                         <a href="{{ url('/products/special-fabricated/' . $type['slug']) }}"
                             class="text-decoration-none d-block h-100">
@@ -77,13 +79,78 @@
                             </div>
                         </a>
                     </div>
-                @endforeach
+                @endforeach --}}
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.special-fabricated.custom-steel-furniture') }}"
+                        class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+
+                            <img src="{{ asset('assets/images/product/steel-furniture/custom-steel-furniture.webp') }}"
+                                alt="Custom Steel Furniture" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                Custom Steel Furniture
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.special-fabricated.fabricated-ss-grills') }}"
+                        class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+
+                            <img src="{{ asset('assets/images/product/SS-grill.webp') }}" alt="Fabricated SS Grills"
+                                class="img-fluid rounded mb-3" style="border-radius: 8px;">
+
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                Fabricated SS Grills
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.special-fabricated.ss-railings') }}"
+                        class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+
+                            <img src="{{ asset('assets/images/product/SS-railings.webp') }}" alt="SS Railings"
+                                class="img-fluid rounded mb-3" style="border-radius: 8px;">
+
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                SS Railings
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.special-fabricated.glass-railings') }}"
+                        class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+
+                            <img src="{{ asset('assets/images/product/glass-railing.webp') }}" alt="Glass Railings"
+                                class="img-fluid rounded mb-3" style="border-radius: 8px;">
+
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                Glass Railings
+                            </h6>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
 
 
-     <section class="blog-section sec-padd2">
+    <section class="blog-section sec-padd2">
         <div class="container">
             <div class="section-title">
                 <h2>blogs</h2>

@@ -88,7 +88,9 @@
                         $href = $grade['slug'] !== '#' ? url('/materials/hastelloy/' . $grade['slug']) : '#';
                     @endphp
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <a href="{{ $href }}" class="text-decoration-none d-block h-100">
+                        {{-- <a href="{{ $href }}" class="text-decoration-none d-block h-100"> --}}
+                        <a href="{{ route('materials.hastelloy.grade', ['slug' => $grade['slug']]) }}"
+                            class="text-decoration-none d-block h-100">
                             <div class="grade-card border rounded shadow-sm p-3 text-center h-100 transition"
                                 style="border-color: #db7227; transition: 0.3s;">
                                 {{-- <img src="https://placehold.co/300x180/db7227/fff?text={{ urlencode($grade['name']) }}"
