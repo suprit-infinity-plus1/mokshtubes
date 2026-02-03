@@ -257,7 +257,7 @@
                                 <img src="/assets/images/service/SEAMLESS-PIPES.webp" alt="Seamless Pipes" class="w-100" loading="lazy">
                             </a>
                         </figure>
-                        <div class="p-3 text-center">
+                        <div class="p-3 text-left">
                             <a href="{{ route('products.pipes-tubes.seamless-pipes') }}">
                                 <h3 class="mt-0 h5">Seamless Pipes</h3>
                             </a>
@@ -275,7 +275,7 @@
                                 <img src="/assets/images/service/WELDED-PIPES.webp" alt="Welded Pipes" class="w-100" loading="lazy">
                             </a>
                         </figure>
-                        <div class="p-3 text-center">
+                        <div class="p-3 text-left">
                             <a href="{{ route('products.pipes-tubes.welded-pipes') }}">
                                 <h3 class="mt-0 h5">Welded Pipes (ERW/EFW)</h3>
                             </a>
@@ -293,7 +293,7 @@
                                 <img src="/assets/images/product/boiler-heat-exchanger-tubes-Copy.png" alt="Boiler Tubes" class="w-100" loading="lazy">
                             </a>
                         </figure>
-                        <div class="p-3 text-center">
+                        <div class="p-3 text-left">
                             <a href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes') }}">
                                 <h3 class="mt-0 h5">Boiler & Heat Exchanger Tubes</h3>
                             </a>
@@ -304,14 +304,14 @@
                 </div>
 
                 <!-- Inconel / Hastelloy Pipes -->
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mb-4 col-lg-offset-2 col-md-offset-2">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mb-4">
                     <div class="single-our-service border" style="background: #fff;">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.inconel') }}">
-                                <img src="/assets/images/inconel/Inconel-625.webp" alt="Inconel Pipes" class="w-100" loading="lazy">
+                                <img src="/assets/images/inconel/Inconel-625.png" alt="Inconel Pipes" class="w-100" loading="lazy">
                             </a>
                         </figure>
-                        <div class="p-3 text-center">
+                        <div class="p-3 text-left">
                             <a href="{{ route('materials.inconel') }}">
                                 <h3 class="mt-0 h5">Inconel / Hastelloy Pipes</h3>
                             </a>
@@ -326,10 +326,10 @@
                     <div class="single-our-service border" style="background: #fff;">
                         <figure class="img-box mb-0">
                             <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
-                                <img src="/assets/images/austenitic-stainless-steel/austenitic-stainless-steel-316.webp" alt="SS 316 Pipes" class="w-100" loading="lazy">
+                                <img src="/assets/images/austenitic-stainless-steel/austenitic-stainless-steel-316-Copy.png" alt="SS 316 Pipes" class="w-100" loading="lazy">
                             </a>
                         </figure>
-                        <div class="p-3 text-center">
+                        <div class="p-3 text-left">
                             <a href="{{ route('materials.austenitic-stainless-Steel') }}">
                                 <h3 class="mt-0 h5">SS 316 Pipes</h3>
                             </a>
@@ -338,6 +338,63 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Stainless Steel Sheets & Plates -->
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 mb-4">
+                    <div class="single-our-service border" style="background: #fff;">
+                        <figure class="img-box mb-0">
+                            <a class="w-100" href="{{ route('products.sheets-plates-coils.sheets-and-plates') }}">
+                                <img src="/assets/images/service/SHEETS-PLATES.webp" alt="Stainless Steel Sheets & Plates" class="w-100" loading="lazy">
+                            </a>
+                        </figure>
+                        <div class="p-3 text-left">
+                            <a href="{{ route('products.sheets-plates-coils.sheets-and-plates') }}">
+                                <h3 class="mt-0 h5">Stainless Steel Sheets & Plates</h3>
+                            </a>
+                            <p>High-quality SS sheets and plates available in various grades and finishes for diverse gauge.</p>
+                            <a href="#contact-form" class="thm-btn bg-clr1 mt-2" style=" font-size: 14px;">Get Price</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust & Urgency Badges -->
+    <section class="trust-badges" style="padding: 30px 0; background-color: #fff; border-bottom: 1px solid #ebebeb;">
+        <div class="container">
+            <div class="d-flex flex-wrap justify-content-center" style="gap: 20px; text-align: center;">
+                
+                <!-- Same Day Dispatch -->
+                <div class="trust-item" style="flex: 1; min-width: 140px; padding: 10px;">
+                    <i class="fa fa-truck fa-2x thm-color" style="margin-bottom: 15px;"></i>
+                    <h5 style="margin: 0; font-size: 16px; font-weight: 600;">Same Day Dispatch</h5>
+                </div>
+
+                <!-- MTC Available -->
+                <div class="trust-item" style="flex: 1; min-width: 140px; padding: 10px;">
+                    <i class="fa fa-file-text-o fa-2x thm-color" style="margin-bottom: 15px;"></i>
+                    <h5 style="margin: 0; font-size: 16px; font-weight: 600;">MTC Available</h5>
+                </div>
+
+                <!-- Custom Cutting -->
+                <div class="trust-item" style="flex: 1; min-width: 140px; padding: 10px;">
+                    <i class="fa fa-scissors fa-2x thm-color" style="margin-bottom: 15px;"></i>
+                    <h5 style="margin: 0; font-size: 16px; font-weight: 600;">Custom Cutting</h5>
+                </div>
+
+                <!-- Export Packing -->
+                <div class="trust-item" style="flex: 1; min-width: 140px; padding: 10px;">
+                    <i class="fa fa-cubes fa-2x thm-color" style="margin-bottom: 15px;"></i>
+                    <h5 style="margin: 0; font-size: 16px; font-weight: 600;">Export Packing</h5>
+                </div>
+
+                <!-- Bulk Discounts -->
+                <div class="trust-item" style="flex: 1; min-width: 140px; padding: 10px;">
+                    <i class="fa fa-tags fa-2x thm-color" style="margin-bottom: 15px;"></i>
+                    <h5 style="margin: 0; font-size: 16px; font-weight: 600;">Bulk Discounts</h5>
+                </div>
+
             </div>
         </div>
     </section>
@@ -1046,6 +1103,23 @@
         </div>
     </section>
     <!--End faq content area-->
+
+    <!-- Contact CTA Section -->
+    <section class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="contact-cta-box">
+                <h2>Contact Us</h2>
+                <p>
+                    Looking for premium quality <strong>Stainless Steel Pipes, Sheets, Plates, or Custom Engineering solutions</strong>?<br> 
+                    Partner with <strong><a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a></strong> for certified materials and global delivery.
+                </p>
+                <!-- Call button -->
+                <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+    <!--End Contact CTA Section-->  
+
 
     
 
