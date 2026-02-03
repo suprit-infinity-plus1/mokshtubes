@@ -1014,12 +1014,12 @@
             });
         </script>
         <script>
-            // document.addEventListener("DOMContentLoaded", function() {
-            //     setTimeout(function() {
-            //         var contactModal = new bootstrap.Modal(document.getElementById('contactFormModal'));
-            //         contactModal.show();
-            //     }, 10000);
-            // });
+            document.addEventListener("DOMContentLoaded", function() {
+                setTimeout(function() {
+                    var contactModal = new bootstrap.Modal(document.getElementById('contactFormModal'));
+                    contactModal.show();
+                }, 10000);
+            });
         </script>
 
 

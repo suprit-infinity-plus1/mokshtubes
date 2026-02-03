@@ -16,8 +16,9 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1 class="page-title">Boiler & Heat Exchanger Tubes – ASTM A179 / A213 / SA192 | Seamless, U-Bent &
-                        Welded</h1>
+                    <h1 class="page-title">
+                        Boiler & Heat Exchanger Tubes Supplier, Exporter & Stockist
+                    </h1>
 
                 </div>
             </div>
@@ -2486,12 +2487,11 @@
 
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What is the MOQ and typical lead time?</h4>
+                                <h4>What is the minimum order quantity (MOQ) and typical lead time?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Ex‑stock sizes dispatch 2–5 days; make‑to‑order 2–6 weeks, grade/OD/WT par depend karta
-                                    hai.
+                                    Ex-stock sizes are usually dispatched within 2–5 working days. Make-to-order products typically require 2–6 weeks, depending on the material grade, size, and quantity.
                                 </p>
                             </div>
                         </div>

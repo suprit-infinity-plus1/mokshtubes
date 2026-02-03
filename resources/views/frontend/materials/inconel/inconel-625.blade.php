@@ -553,23 +553,23 @@
             [
                 'name' => 'Seamless Pipes',
                 'route' => 'products.pipes-tubes.seamless-pipes',
-                'image' => 'assets/images/all product/seamless-pipes-10.webp',
+                'image' => 'assets/images/all-product/seamless-pipes-10.webp',
             ],
 
             [
                 'name' => 'Welded Pipes (ERW & EFW)',
                 'route' => 'products.pipes-tubes.welded-pipes',
-                'image' => 'assets/images/all product/welded-pipes-tubes-1.webp',
+                'image' => 'assets/images/all-product/welded-pipes-tubes-1.webp',
             ],
             [
                 'name' => 'Tubes (Capillary, U-Bend)',
                 'route' => 'products.pipes-tubes.u-bent-tubes',
-                'image' => 'assets/images/all product/u-bent-tube.webp',
+                'image' => 'assets/images/all-product/u-bent-tube.webp',
             ],
             [
                 'name' => 'Sheets & Plates',
                 'route' => 'products.sheets-plates-coils.sheets-and-plates',
-                'image' => 'assets/images/all product/sheets-plates.webp',
+                'image' => 'assets/images/all-product/Sheets-Plates.webp',
             ],
             [
                 'name' => 'Coils & Strips',
@@ -594,12 +594,12 @@
             [
                 'name' => 'Fasteners (Bolts, Nuts, Screws, Washers, Studs)',
                 'route' => 'products.pipe-fittings-flanges-fasteners.fasteners',
-                'image' => 'assets/images/all product/FASTENERS.webp',
+                'image' => 'assets/images/all-product/FASTENERS.webp',
             ],
             [
                 'name' => 'Custom Fabricated Components',
                 'route' => 'products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings',
-                'image' => 'assets/images/all product/custom-metal-fabricated.webp',
+                'image' => 'assets/images/all-product/custom-metal-fabricated.webp',
             ],
         ];
     @endphp
