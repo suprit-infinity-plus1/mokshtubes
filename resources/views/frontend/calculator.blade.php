@@ -1217,7 +1217,115 @@
                         </div>
                     </div>
 
+ <!--Start faq content area-->
+    <section class="faq-content-area sec-padd2">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Frequently Asked Questions</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="accordion-box">
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn active">
+                                <h3 class="h6">How accurate is the steel weight calculator?</h3>
+                            </div>
+                            <div class="accord-content collapsed">
+                                <p>The calculator uses standard theoretical weights based on international dimensional standards (DIN, ASTM, ASME). However, actual weights may vary slightly due to manufacturing tolerances (typically +/- 5-10%) and specific material density variations.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h3 class="h6">Can I calculate weights for different materials?</h3>
+                            </div>
+                            <div class="accord-content">
+                                <p>Yes, while the default density is often set for Steel (approx. 7.85 g/cm³), the calculator covers various shapes applicable to Stainless Steel, Carbon Steel, and Nickel Alloys. For specific alloys like Hastelloy or Inconel, you may need to adjust for density differences.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                        <div class="accord-btn">
+                            <h3 class="h6">Do you supply the items listed in the calculator?</h3>
+                        </div>
+                        <div class="accord-content">
+                            <p>Yes, Moksh Tubes & Fittings LLP manufactures and supplies most of the items listed, including HEA/HEB beams, seamless pipes, plates, and structural sections in various ferrous and non-ferrous grades.</p>
+                        </div>
+                        </div>
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h3 class="h6">Is this calculator free to use?</h3>
+                            </div>
+                            <div class="accord-content">
+                                <p>Yes, our steel weight calculator is completely free for engineers, fabricators, and procurement specialists to estimate shipment weights and plan logistics.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                        <!--Start single accordion box-->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h3 class="h6">What standards are these dimensions based on?</h3>
+                            </div>
+                            <div class="accord-content">
+                                <p>The dimensions provided in the calculator roughly follow international standards like EN, DIN, and ASTM for common structural sections. For precise engineering requirements, we recommend referring to the official standard documents.</p>
+                            </div>
+                        </div>
+                        <!--End single accordion box-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End faq content area-->
 
+    <script type="application/ld+json">
+           @verbatim
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "How accurate is the steel weight calculator?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The calculator uses standard theoretical weights based on international dimensional standards (DIN, ASTM, ASME). However, actual weights may vary slightly due to manufacturing tolerances (typically +/- 5-10%) and specific material density variations."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Can I calculate weights for different materials?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, while the default density is often set for Steel (approx. 7.85 g/cm³), the calculator covers various shapes applicable to Stainless Steel, Carbon Steel, and Nickel Alloys. For specific alloys like Hastelloy or Inconel, you may need to adjust for density differences."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Do you supply the items listed in the calculator?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, Moksh Tubes & Fittings LLP manufactures and supplies most of the items listed, including HEA/HEB beams, seamless pipes, plates, and structural sections in various ferrous and non-ferrous grades."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Is this calculator free to use?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, our steel weight calculator is completely free for engineers, fabricators, and procurement specialists to estimate shipment weights and plan logistics."
+        }
+      }, {
+        "@type": "Question",
+        "name": "What standards are these dimensions based on?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The dimensions provided in the calculator roughly follow international standards like EN, DIN, and ASTM for common structural sections. For precise engineering requirements, we recommend referring to the official standard documents."
+        }
+      }
+    }
+    @endverbatim
+    </script>
                     {{-- Beams - HEB (IPB) --}}
                     <!-- HTML for HEB Calculator -->
                     <div id="tab16" class="tab-content-item d-none">
