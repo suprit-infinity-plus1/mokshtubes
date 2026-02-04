@@ -61,7 +61,7 @@
 
             <!-- Left nav -->
             <div class="col-md-4 d-none d-md-block mb-5">
-                <h1 class="mb-3 fs-3">Calculator</h1>
+                <h1 class="mb-3 fs-3">Steel Pipe Weight Calculator</h1>
 
                 <div class="list-group" id="tabList">
                     <button class="list-group-item list-group-item-action active" data-target="tab1">Steel sheets and
@@ -1242,7 +1242,7 @@
                                 <h3 class="h6">Can I calculate weights for different materials?</h3>
                             </div>
                             <div class="accord-content">
-                                <p>Yes, while the default density is often set for Steel (approx. 7.85 g/cm³), the calculator covers various shapes applicable to Stainless Steel, Carbon Steel, and Nickel Alloys. For specific alloys like Hastelloy or Inconel, you may need to adjust for density differences.</p>
+                                <p>Yes, while the default density is often set for Steel (approx. 7.85 g/cm³), the calculator covers various shapes applicable to <a href="{{ route('materials.austenitic-stainless-Steel', ['country' => 'in']) }}">Stainless Steel</a>, <a href="{{ route('materials.engineering-Steels', ['country' => 'in']) }}">Carbon Steel</a>, and <a href="{{ route('materials.nickel-Based-Superalloys', ['country' => 'in']) }}">Nickel Alloys</a>. For specific alloys like <a href="{{ route('materials.hastelloy', ['country' => 'in']) }}">Hastelloy</a> or <a href="{{ route('materials.inconel', ['country' => 'in']) }}">Inconel</a>, you may need to adjust for density differences.</p>
                             </div>
                         </div>
                         <!--End single accordion box-->
@@ -1252,7 +1252,7 @@
                             <h3 class="h6">Do you supply the items listed in the calculator?</h3>
                         </div>
                         <div class="accord-content">
-                            <p>Yes, Moksh Tubes & Fittings LLP manufactures and supplies most of the items listed, including HEA/HEB beams, seamless pipes, plates, and structural sections in various ferrous and non-ferrous grades.</p>
+                            <p>Yes, <a href="{{ route('index', ['country' => 'in']) }}">Moksh Tubes & Fittings LLP</a> manufactures and supplies most of the items listed, including HEA/HEB beams, <a href="{{ route('products.pipes-tubes.seamless-pipes', ['country' => 'in']) }}">seamless pipes</a>, <a href="{{ route('products.sheets-plates-coils.sheets-and-plates', ['country' => 'in']) }}">plates</a>, and <a href="{{ route('products.pipes-tubes.hollow-section-pipe', ['country' => 'in']) }}">structural sections</a> in various ferrous and non-ferrous grades.</p>
                         </div>
                         </div>
                         <!--Start single accordion box-->
