@@ -113,7 +113,7 @@
                             <tbody class="text-start">
                                 <tr class="t-row">
                                     <td>Material</td>
-                                    <td>Stainless Steel, Duplex & Super Duplex Steel, Nickel Alloys, Inconel, Monel, Titanium, Copper Alloys, Alloy Steel, Carbon Steel</td>
+                                    <td><a href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless Steel</a>, <a href="{{ route('materials.duplex-and-super-duplex') }}">Duplex & Super Duplex Steel</a>, <a href="{{ route('materials.nickel-Based-Superalloys') }}">Nickel Alloys</a>, <a href="{{ route('materials.inconel') }}">Inconel</a>, Monel, <a href="{{ route('materials.titanium') }}">Titanium</a>, Copper Alloys, Alloy Steel, Carbon Steel</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Grades</td>
@@ -403,15 +403,15 @@
                             </thead>
                             <tbody>
                                 <tr class="t-row">
-                                    <td>Stainless Steel</td>
+                                    <td><a href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless Steel</a></td>
                                     <td>304, 304L, 316, 316L, 310, 321, 347 for high-temperature resistance.</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Duplex & Super Duplex: </td>
+                                    <td><a href="{{ route('materials.duplex-and-super-duplex') }}">Duplex & Super Duplex: </a></td>
                                     <td>2205, S31803, S32750 for high strength and corrosion </td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Nickel Alloys</td>
+                                    <td><a href="{{ route('materials.nickel-Based-Superalloys') }}">Nickel Alloys</a></td>
                                     <td>Inconel 600, 625, 718, Monel 400, K500 for extreme environments.</td>
                                 </tr>
                                 <tr class="t-row">
@@ -712,15 +712,15 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>Stainless Steel</td>
+                                        <td><a href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless Steel</a></td>
                                         <td>Steam, hygienic systems</td>
                                     </tr>
                                     <tr>
-                                        <td>Duplex / Super Duplex</td>
+                                        <td><a href="{{ route('materials.duplex-and-super-duplex') }}">Duplex / Super Duplex</a></td>
                                         <td>Seawater, chlorides</td>
                                     </tr>
                                     <tr>
-                                        <td>Nickel Alloys</td>
+                                        <td><a href="{{ route('materials.nickel-Based-Superalloys') }}">Nickel Alloys</a></td>
                                         <td>Acids, extreme corrosion</td>
                                     </tr>
                                     <tr>
