@@ -93,7 +93,7 @@
                 <div id="tabContents">
                     {{-- Steel sheets and plates --}}
                     <div id="tab1" class="tab-content-item">
-                        <h2 class="mb-3 fs-3">Calculator for Steel sheets and plates</h2>
+                        <h4 class="mb-3">Calculator for Steel sheets and plates</h4>
 
                         <div class="row">
                             <!-- Left: Input Fields -->
@@ -156,7 +156,7 @@
                                     <p>Single piece weight: <strong id="sheetSingleWeight1" class="text-primary">0
                                             kg</strong></p>
                                     <p>Total weight: <strong id="sheetTotalWeight1" class="text-primary">0 kg</strong></p>
-                                    <p>Density used: <strong id="sheetDensity1" class="text-secondary">7850 kg/m³</strong>
+                                    <p>Density used: <strong id="sheetDensity1" class="text-secondary">7930 kg/m³</strong>
                                     </p>
                                 </div>
                             </div>
@@ -173,7 +173,7 @@
 
                     {{-- Seamless steel pipes - circular --}}
                     <div id="tab2" class="tab-content-item d-none">
-                        <h5 class="mb-3">Seamless steel pipes - circular</h5>
+                        <h4 class="mb-3">Seamless steel pipes - circular</h4>
 
                         <div class="row">
                             <!-- Left: Input Fields -->
@@ -224,7 +224,7 @@
                                     <p>Weight per meter: <strong id="pipeWeightPerMeter2" class="text-primary">0
                                             kg/m</strong></p>
                                     <p>Total weight: <strong id="pipeTotalWeight2" class="text-primary">0 kg</strong></p>
-                                    <p>Density used: <strong id="pipeDensity" class="text-secondary">7850 kg/m³</strong>
+                                    <p>Density used: <strong id="pipeDensity" class="text-secondary">7930 kg/m³</strong>
                                     </p>
                                 </div>
                             </div>
@@ -239,73 +239,78 @@
 
                     {{-- Hollow structural sections - circular --}}
                     <div id="tab3" class="tab-content-item d-none">
-                        <h5 class="mb-3">Hollow structural sections - circular</h5>
+                        <h4 class="mb-3">Hollow structural sections - circular</h5>
 
-                        <div class="row">
-                            <!-- Left: Input Fields -->
-                            <div class="col-lg-6 mb-4 mb-lg-0">
-                                <p>Input your values in the fields below:</p>
+                            <div class="row">
+                                <!-- Left: Input Fields -->
+                                <div class="col-lg-6 mb-4 mb-lg-0">
+                                    <p>Input your values in the fields below:</p>
 
-                                <div class="row">
-                                    <!-- Diameter -->
-                                    <div class="col-12 mb-3">
-                                        <div class="d-flex align-items-center">
-                                            <label class="form-label mb-0 me-3" style="width: 120px;">Diameter, D</label>
-                                            <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" id="hollowDiameter3" class="form-control me-2"
-                                                    value="21.3" placeholder="e.g. 21.3" />
-                                                <span class="text-nowrap">mm</span>
+                                    <div class="row">
+                                        <!-- Diameter -->
+                                        <div class="col-12 mb-3">
+                                            <div class="d-flex align-items-center">
+                                                <label class="form-label mb-0 me-3" style="width: 120px;">Diameter,
+                                                    D</label>
+                                                <div class="d-flex align-items-center flex-grow-1">
+                                                    <input type="number" id="hollowDiameter3" class="form-control me-2"
+                                                        value="21.3" placeholder="e.g. 21.3" />
+                                                    <span class="text-nowrap">mm</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Thickness -->
+                                        <div class="col-12 mb-3">
+                                            <div class="d-flex align-items-center">
+                                                <label class="form-label mb-0 me-3" style="width: 120px;">Thickness,
+                                                    t</label>
+                                                <div class="d-flex align-items-center flex-grow-1">
+                                                    <input type="number" id="hollowThickness3" class="form-control me-2"
+                                                        value="2" placeholder="e.g. 2" />
+                                                    <span class="text-nowrap">mm</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Length -->
+                                        <div class="col-12 mb-3">
+                                            <div class="d-flex align-items-center">
+                                                <label class="form-label mb-0 me-3" style="width: 120px;">Length,
+                                                    L</label>
+                                                <div class="d-flex align-items-center flex-grow-1">
+                                                    <input type="number" id="hollowLength3" class="form-control me-2"
+                                                        value="1" placeholder="e.g. 1" />
+                                                    <span class="text-nowrap">m</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <!-- Thickness -->
-                                    <div class="col-12 mb-3">
-                                        <div class="d-flex align-items-center">
-                                            <label class="form-label mb-0 me-3" style="width: 120px;">Thickness, t</label>
-                                            <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" id="hollowThickness3" class="form-control me-2"
-                                                    value="2" placeholder="e.g. 2" />
-                                                <span class="text-nowrap">mm</span>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Length -->
-                                    <div class="col-12 mb-3">
-                                        <div class="d-flex align-items-center">
-                                            <label class="form-label mb-0 me-3" style="width: 120px;">Length, L</label>
-                                            <div class="d-flex align-items-center flex-grow-1">
-                                                <input type="number" id="hollowLength3" class="form-control me-2"
-                                                    value="1" placeholder="e.g. 1" />
-                                                <span class="text-nowrap">m</span>
-                                            </div>
-                                        </div>
+                                    <!-- Result -->
+                                    <div class="mt-2">
+                                        <h6><strong>Result</strong></h6>
+                                        <p>Weight per meter: <strong id="hollowWeightPerMeter3" class="text-primary">0
+                                                kg/m</strong></p>
+                                        <p>Total weight: <strong id="hollowTotalWeight3" class="text-primary">0
+                                                kg</strong>
+                                        </p>
+                                        <p>Density used: <strong id="hollowDensity" class="text-secondary">7930
+                                                kg/m³</strong>
+                                        </p>
                                     </div>
                                 </div>
 
-                                <!-- Result -->
-                                <div class="mt-2">
-                                    <h6><strong>Result</strong></h6>
-                                    <p>Weight per meter: <strong id="hollowWeightPerMeter3" class="text-primary">0
-                                            kg/m</strong></p>
-                                    <p>Total weight: <strong id="hollowTotalWeight3" class="text-primary">0 kg</strong>
-                                    </p>
-                                    <p>Density used: <strong id="hollowDensity" class="text-secondary">7850 kg/m³</strong>
-                                    </p>
+                                <!-- Right: Image -->
+                                <div class="col-lg-6 d-flex align-items-center">
+                                    <img src="{{ asset('assets/images/calculator/seamless_steel_circular.webp') }}"
+                                        class="img-fluid rounded border w-100" alt="Pipe Image">
                                 </div>
                             </div>
-
-                            <!-- Right: Image -->
-                            <div class="col-lg-6 d-flex align-items-center">
-                                <img src="{{ asset('assets/images/calculator/seamless_steel_circular.webp') }}"
-                                    class="img-fluid rounded border w-100" alt="Pipe Image">
-                            </div>
-                        </div>
                     </div>
 
                     <div id="tab4" class="tab-content-item d-none">
-                        <h5 class="mb-3">Hollow Structural Sections - Square</h5>
+                        <h4 class="mb-3">Hollow Structural Sections - Square</h4>
 
                         <div class="row">
                             <!-- Left: Input Fields -->
@@ -360,7 +365,7 @@
                                             kg/m</strong></p>
                                     <p>Total weight: <strong id="squareTotalWeight" class="text-primary">0.61 kg</strong>
                                     </p>
-                                    <p>Density used: <strong id="squareDensity" class="text-secondary">7530 kg/m³</strong>
+                                    <p>Density used: <strong id="squareDensity" class="text-secondary">7930 kg/m³</strong>
                                     </p>
                                 </div>
                             </div>
@@ -375,7 +380,7 @@
 
                     {{-- Hollow Structural Sections – Rectangular --}}
                     <div id="tab5" class="tab-content-item d-none">
-                        <h5 class="mb-3">Hollow Structural Sections – Rectangular</h5>
+                        <h4 class="mb-3">Hollow Structural Sections – Rectangular</h4>
 
                         <div class="row">
                             <!-- Left: Input Fields -->
@@ -460,7 +465,7 @@
 
                     {{-- Round Steel Bars --}}
                     <div id="tab6" class="tab-content-item d-none">
-                        <h5 class="mb-3">Round Steel Bars</h5>
+                        <h4 class="mb-3">Round Steel Bars</h4>
 
                         <div class="row">
                             <!-- Left: Input Fields -->
@@ -501,7 +506,7 @@
                                     <p>Weight per meter: <strong id="roundWeightPerMeter" class="text-primary">0.00
                                             kg/m</strong></p>
                                     <p>Total weight: <strong id="roundTotalWeight" class="text-primary">0.00 kg</strong>
-                                    <p>Density used: <strong>7850 kg/m³</strong></p>
+                                    <p>Density used: <strong>7930 kg/m³</strong></p>
                                 </div>
                             </div>
 
@@ -515,7 +520,7 @@
 
                     {{-- Square Steel Bars --}}
                     <div id="tab7" class="tab-content-item d-none">
-                        <h5 class="mb-3">Square Steel Bars</h5>
+                        <h4 class="mb-3">Square Steel Bars</h4>
 
                         <div class="row">
                             <!-- Left: Input Fields -->
@@ -555,7 +560,7 @@
                                             kg/m</strong></p>
                                     <p>Total weight: <strong id="squareTotalWeight7" class="text-primary">0.00 kg</strong>
                                     </p>
-                                    <p>Density used: <strong>7850 kg/m³</strong></p>
+                                    <p>Density used: <strong>7930 kg/m³</strong></p>
                                 </div>
                             </div>
 
@@ -571,7 +576,7 @@
 
                     {{-- Flat Bars --}}
                     <div id="tab8" class="tab-content-item d-none">
-                        <h5 class="mb-3">Flat Bars</h5>
+                        <h4 class="mb-3">Flat Bars</h4>
 
                         <div class="row">
                             <!-- Left: Input Fields -->
@@ -626,7 +631,7 @@
                                             kg/m</strong></p>
                                     <p>Total weight: <strong id="flatTotalWeight8" class="text-primary">0.00 kg</strong>
                                     </p>
-                                    <p>Density used: <strong>7850 kg/m³</strong></p>
+                                    <p>Density used: <strong>7930 kg/m³</strong></p>
                                 </div>
                             </div>
 
@@ -640,7 +645,7 @@
 
                     {{-- Equal Angles --}}
                     <div id="tab9" class="tab-content-item d-none">
-                        <h5 class="mb-3">Equal Angles</h5>
+                        <h4 class="mb-3">Equal Angles</h4>
 
                         <div class="row">
                             <!-- Left: Input Fields -->
@@ -695,7 +700,7 @@
                                             kg/m</strong></p>
                                     <p>Total weight: <strong id="angleTotalWeight9" class="text-primary">0.00 kg</strong>
                                     </p>
-                                    <p>Density used: <strong>7850 kg/m³</strong></p>
+                                    <p>Density used: <strong>7930 kg/m³</strong></p>
                                 </div>
                             </div>
 
@@ -712,7 +717,7 @@
 
                     {{-- Unequal Angles --}}
                     <div id="tab10" class="tab-content-item d-none">
-                        <h5 class="mb-3">Unequal Angles</h5>
+                        <h4 class="mb-3">Unequal Angles</h4>
 
                         <div class="row">
                             <!-- Left: Input Fields -->
@@ -801,7 +806,7 @@
                                             kg/m</strong></p>
                                     <p>Total weight: <strong id="angleTotalWeight10" class="text-primary">0.00 kg</strong>
                                     </p>
-                                    <p>Density used: <strong>7850 kg/m³</strong></p>
+                                    <p>Density used: <strong>7930 kg/m³</strong></p>
                                 </div>
                             </div>
 
@@ -817,7 +822,7 @@
 
                     {{-- Channels - GOST --}}
                     <div id="tab11" class="tab-content-item d-none">
-                        <h5 class="mb-3">Channels - GOST</h5>
+                        <h4 class="mb-3">Channels - GOST</h4>
 
                         <div class="row">
                             <!-- Left: Input Fields -->
@@ -886,7 +891,7 @@
 
                     {{-- Channels - UPN --}}
                     <div id="tab12" class="tab-content-item d-none">
-                        <h5 class="mb-3">Channels - UPN</h5>
+                        <h4 class="mb-3">Channels - UPN</h4>
                         <p>Input your values in the fields below:</p>
 
                         <div class="row">
@@ -971,7 +976,7 @@
 
                     {{-- Beams - IPN --}}
                     <div id="tab13" class="tab-content-item d-none">
-                        <h5 class="mb-3">Calculator for Beams - IPN</h5>
+                        <h4 class="mb-3">Calculator for Beams - IPN</h4>
                         <div class="row">
                             <!-- Left: Form Inputs -->
                             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -1039,7 +1044,7 @@
 
                     {{-- Beams - IPE --}}
                     <div id="tab14" class="tab-content-item d-none">
-                        <h5 class="mb-3">Calculator for Beams - IPE</h5>
+                        <h4 class="mb-3">Calculator for Beams - IPE</h4>
                         <div class="row">
                             <!-- Left: Form Inputs -->
                             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -1126,7 +1131,7 @@
 
                     {{-- Beams - HEA (IPBL) --}}
                     <div id="tab15" class="tab-content-item d-none">
-                        <h5 class="mb-3">Calculator for Beams - HEA</h5>
+                        <h4 class="mb-3">Calculator for Beams - HEA</h4>
                         <div class="row">
                             <!-- Left: Form Inputs -->
                             <div class="col-lg-6 mb-4 mb-lg-0">
@@ -1217,72 +1222,99 @@
                         </div>
                     </div>
 
- <!--Start faq content area-->
-    <section class="faq-content-area sec-padd2">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Frequently Asked Questions</h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="accordion-box">
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn active">
-                                <h3 class="h6">How accurate is the steel weight calculator?</h3>
+                    <!--Start faq content area-->
+                    <section class="faq-content-area sec-padd2">
+                        <div class="container">
+                            <div class="section-title center">
+                                <h2>Frequently Asked Questions</h2>
                             </div>
-                            <div class="accord-content collapsed">
-                                <p>The calculator uses standard theoretical weights based on international dimensional standards (DIN, ASTM, ASME). However, actual weights may vary slightly due to manufacturing tolerances (typically +/- 5-10%) and specific material density variations.</p>
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="accordion-box">
+                                        <!--Start single accordion box-->
+                                        <div class="accordion accordion-block">
+                                            <div class="accord-btn active">
+                                                <h3 class="h6">How accurate is the steel weight calculator?</h3>
+                                            </div>
+                                            <div class="accord-content collapsed">
+                                                <p>The calculator uses standard theoretical weights based on international
+                                                    dimensional standards (DIN, ASTM, ASME). However, actual weights may
+                                                    vary slightly due to manufacturing tolerances (typically +/- 5-10%) and
+                                                    specific material density variations.</p>
+                                            </div>
+                                        </div>
+                                        <!--End single accordion box-->
+                                        <!--Start single accordion box-->
+                                        <div class="accordion accordion-block">
+                                            <div class="accord-btn">
+                                                <h3 class="h6">Can I calculate weights for different materials?</h3>
+                                            </div>
+                                            <div class="accord-content">
+                                                <p>Yes, while the default density is often set for Steel (approx. 7.85
+                                                    g/cm³), the calculator covers various shapes applicable to <a
+                                                        href="{{ route('materials.austenitic-stainless-Steel', ['country' => 'in']) }}">Stainless
+                                                        Steel</a>, <a
+                                                        href="{{ route('materials.engineering-Steels', ['country' => 'in']) }}">Carbon
+                                                        Steel</a>, and <a
+                                                        href="{{ route('materials.nickel-Based-Superalloys', ['country' => 'in']) }}">Nickel
+                                                        Alloys</a>. For specific alloys like <a
+                                                        href="{{ route('materials.hastelloy', ['country' => 'in']) }}">Hastelloy</a>
+                                                    or <a
+                                                        href="{{ route('materials.inconel', ['country' => 'in']) }}">Inconel</a>,
+                                                    you may need to adjust for density differences.</p>
+                                            </div>
+                                        </div>
+                                        <!--End single accordion box-->
+                                        <!--Start single accordion box-->
+                                        <div class="accordion accordion-block">
+                                            <div class="accord-btn">
+                                                <h3 class="h6">Do you supply the items listed in the calculator?</h3>
+                                            </div>
+                                            <div class="accord-content">
+                                                <p>Yes, <a href="{{ route('index', ['country' => 'in']) }}">Moksh Tubes &
+                                                        Fittings LLP</a> manufactures and supplies most of the items listed,
+                                                    including HEA/HEB beams, <a
+                                                        href="{{ route('products.pipes-tubes.seamless-pipes', ['country' => 'in']) }}">seamless
+                                                        pipes</a>, <a
+                                                        href="{{ route('products.sheets-plates-coils.sheets-and-plates', ['country' => 'in']) }}">plates</a>,
+                                                    and <a
+                                                        href="{{ route('products.pipes-tubes.hollow-section-pipe', ['country' => 'in']) }}">structural
+                                                        sections</a> in various ferrous and non-ferrous grades.</p>
+                                            </div>
+                                        </div>
+                                        <!--Start single accordion box-->
+                                        <div class="accordion accordion-block">
+                                            <div class="accord-btn">
+                                                <h3 class="h6">Is this calculator free to use?</h3>
+                                            </div>
+                                            <div class="accord-content">
+                                                <p>Yes, our steel weight calculator is completely free for engineers,
+                                                    fabricators, and procurement specialists to estimate shipment weights
+                                                    and plan logistics.</p>
+                                            </div>
+                                        </div>
+                                        <!--End single accordion box-->
+                                        <!--Start single accordion box-->
+                                        <div class="accordion accordion-block">
+                                            <div class="accord-btn">
+                                                <h3 class="h6">What standards are these dimensions based on?</h3>
+                                            </div>
+                                            <div class="accord-content">
+                                                <p>The dimensions provided in the calculator roughly follow international
+                                                    standards like EN, DIN, and ASTM for common structural sections. For
+                                                    precise engineering requirements, we recommend referring to the official
+                                                    standard documents.</p>
+                                            </div>
+                                        </div>
+                                        <!--End single accordion box-->
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <!--End single accordion box-->
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h3 class="h6">Can I calculate weights for different materials?</h3>
-                            </div>
-                            <div class="accord-content">
-                                <p>Yes, while the default density is often set for Steel (approx. 7.85 g/cm³), the calculator covers various shapes applicable to <a href="{{ route('materials.austenitic-stainless-Steel', ['country' => 'in']) }}">Stainless Steel</a>, <a href="{{ route('materials.engineering-Steels', ['country' => 'in']) }}">Carbon Steel</a>, and <a href="{{ route('materials.nickel-Based-Superalloys', ['country' => 'in']) }}">Nickel Alloys</a>. For specific alloys like <a href="{{ route('materials.hastelloy', ['country' => 'in']) }}">Hastelloy</a> or <a href="{{ route('materials.inconel', ['country' => 'in']) }}">Inconel</a>, you may need to adjust for density differences.</p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                        <div class="accord-btn">
-                            <h3 class="h6">Do you supply the items listed in the calculator?</h3>
-                        </div>
-                        <div class="accord-content">
-                            <p>Yes, <a href="{{ route('index', ['country' => 'in']) }}">Moksh Tubes & Fittings LLP</a> manufactures and supplies most of the items listed, including HEA/HEB beams, <a href="{{ route('products.pipes-tubes.seamless-pipes', ['country' => 'in']) }}">seamless pipes</a>, <a href="{{ route('products.sheets-plates-coils.sheets-and-plates', ['country' => 'in']) }}">plates</a>, and <a href="{{ route('products.pipes-tubes.hollow-section-pipe', ['country' => 'in']) }}">structural sections</a> in various ferrous and non-ferrous grades.</p>
-                        </div>
-                        </div>
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h3 class="h6">Is this calculator free to use?</h3>
-                            </div>
-                            <div class="accord-content">
-                                <p>Yes, our steel weight calculator is completely free for engineers, fabricators, and procurement specialists to estimate shipment weights and plan logistics.</p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h3 class="h6">What standards are these dimensions based on?</h3>
-                            </div>
-                            <div class="accord-content">
-                                <p>The dimensions provided in the calculator roughly follow international standards like EN, DIN, and ASTM for common structural sections. For precise engineering requirements, we recommend referring to the official standard documents.</p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--End faq content area-->
+                    </section>
+                    <!--End faq content area-->
 
-    <script type="application/ld+json">
+                    <script type="application/ld+json">
            @verbatim
     {
       "@context": "https://schema.org",
@@ -1329,7 +1361,7 @@
                     {{-- Beams - HEB (IPB) --}}
                     <!-- HTML for HEB Calculator -->
                     <div id="tab16" class="tab-content-item d-none">
-                        <h5 class="mb-3">Calculator for Beams – HEB (IPB)</h5>
+                        <h4 class="mb-3">Calculator for Beams – HEB (IPB)</h4>
                         <div class="row">
                             <div class="col-lg-6 mb-4 mb-lg-0">
                                 <!-- Profile Selector -->
@@ -1397,7 +1429,8 @@
                                     <h6><strong>Result</strong></h6>
                                     <p>Weight per meter: <strong id="hebWeightPerMeter" class="text-primary">0.00
                                             kg/m</strong></p>
-                                    <p>Total weight: <strong id="hebTotalWeight" class="text-primary">0.00 kg</strong></p>
+                                    <p>Total weight: <strong id="hebTotalWeight" class="text-primary">0.00 kg</strong>
+                                    </p>
                                 </div>
                             </div>
                             <!-- Right: Image -->
@@ -1771,7 +1804,7 @@
     </script>
 
     <script>
-        function initSteelSheetCalculator(tabNumber, density = 7850) {
+        function initSteelSheetCalculator(tabNumber, density = 7930) {
             const tInput = document.getElementById('sheetThickness' + tabNumber);
             const wInput = document.getElementById('sheetWidth' + tabNumber);
             const lInput = document.getElementById('sheetLength' + tabNumber);
@@ -1804,7 +1837,7 @@
         initSteelSheetCalculator(1);
     </script>
     <script>
-        function initPipeCalculator(tabNumber, density = 7850) {
+        function initPipeCalculator(tabNumber, density = 7930) {
             const DInput = document.getElementById('pipeDiameter' + tabNumber);
             const tInput = document.getElementById('pipeThickness' + tabNumber);
             const LInput = document.getElementById('pipeLength' + tabNumber);
@@ -1850,7 +1883,7 @@
         initPipeCalculator(2);
     </script>
     <script>
-        function initHollowCircularCalculator(tabNumber, density = 7850) {
+        function initHollowCircularCalculator(tabNumber, density = 7930) {
             const DInput = document.getElementById('hollowDiameter' + tabNumber);
             const tInput = document.getElementById('hollowThickness' + tabNumber);
             const LInput = document.getElementById('hollowLength' + tabNumber);
@@ -1910,7 +1943,7 @@
             t = t / 1000;
 
             // Density in kg/m³
-            const density = 7530;
+            const density = 7930;
 
             // Calculate inner side
             let A_inner = A - 2 * t;
@@ -1975,7 +2008,7 @@
 
     <script>
         function calculateRoundBarWeight() {
-            const density = 7850; // kg/m³
+            const density = 7930; // kg/m³
 
             // Input values
             const D = parseFloat(document.getElementById("roundDiameter").value) || 0; // mm
@@ -2004,7 +2037,7 @@
 
     <script>
         function calculateSquareBarWeight7() {
-            const density = 7850; // kg/m³
+            const density = 7930; // kg/m³
 
             // Input values
             const A = parseFloat(document.getElementById("squareSideA7").value) || 0; // mm
@@ -2039,7 +2072,7 @@
 
     <script>
         function calculateFlatBarWeight8() {
-            const density = 7850; // kg/m³
+            const density = 7930; // kg/m³
 
             // Get input values
             const W = parseFloat(document.getElementById("flatWidth8").value) || 0; // mm
@@ -2070,7 +2103,7 @@
 
     <script>
         function calculateEqualAngleWeight9() {
-            const density = 7850; // kg/m³
+            const density = 7930; // kg/m³
 
             // Input values
             const A = parseFloat(document.getElementById("angleSide9").value) || 0; // mm
@@ -2158,7 +2191,7 @@
 
         // Calculate weight
         function calculateUnequalAngleWeight10() {
-            const density = 7850; // kg/m³
+            const density = 7930; // kg/m³
 
             const size = document.getElementById("angleSize10").value;
             const [A, B] = size.split("x").map(Number); // mm
