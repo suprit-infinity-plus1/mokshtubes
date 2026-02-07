@@ -51,7 +51,7 @@
                     </p>
 
                     <p class="fs-6 mb-3 text-justify">
-                        At <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a>, we are a trusted manufacturer,
+                        <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a> is a trusted manufacturer,
                         supplier, and exporter of Boiler & Heat Exchanger Tubes in India, supplying premium-quality tubes
                         conforming to ASTM A179, ASTM A192, ASTM A213, and ASME SA213 standards. Our products are widely
                         supplied to <a href="{{ route('materials.austenitic-stainless-Steel') }}">Indian projects</a> and
@@ -75,7 +75,7 @@
             <p class="mb-3">
                 Get the complete datasheet with chemical composition, mechanical properties, heat treatment details, and
                 application guidelines.
-                ðŸ‘‰ Enter your email below to receive the PDF instantly.
+                Enter your email below to receive the PDF instantly.
             </p>
 
             <!-- Lead Capture Form -->
@@ -90,7 +90,7 @@
                     <div class="col-md-3 mb-2">
                         <button type="submit" class="btn btn-lg w-100 text-white"
                             style="background-color:#db7227; border-radius:8px;">
-                            ðŸ“¥ Get Datasheet
+                            Get Datasheet
                         </button>
                     </div>
                 </div>
@@ -132,11 +132,11 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Grades</td>
-                                    <td>ASTM/ASME certified â€“ available in all mentioned alloys</td>
+                                    <td>ASTM/ASME certified available in all mentioned alloys</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Outer Diameter (OD)</td>
-                                    <td>6 mm to 219 mm (Â¼â€ to 8â€ NB)</td>
+                                    <td>6 mm to 219 mm</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Wall Thickness</td>
@@ -182,11 +182,11 @@
             <!-- Child Title -->
             <div class="section-title center mb-3">
                 <h3 class="text-center mb-0" style="color: #db7227;">Size Range Chart</h3>
-                <h4 class="text-center mb-0" style="color: #db7227;">Boiler & Heat Exchanger Tubes â€“ Weight Chart</h4>
+                <h4 class="text-center mb-0" style="color: #db7227;">Boiler & Heat Exchanger Tubes Weight Chart</h4>
             </div>
             <!-- Schedule 10C -->
             <div class="section-title center mb-3 mt-4">
-                <h4 class="text-center mb-0" style="color: #db7227;">Schedule 10C â€“ Size & Weight Chart</h4>
+                <h4 class="text-center mb-0" style="color: #db7227;">Schedule 10C Size & Weight Chart</h4>
             </div>
             <div class="table-responsive">
                 <table class="table table-bordered table-striped align-middle text-center">
@@ -360,7 +360,7 @@
 
             <!-- Schedule 40 -->
             <div class="section-title center mb-3 mt-4">
-                <h4 class="text-center mb-0" style="color: #db7227;">Schedule 40 â€“ Size & Weight Chart</h4>
+                <h4 class="text-center mb-0" style="color: #db7227;">Schedule 40 Size & Weight Chart</h4>
             </div>
             <div class="table-responsive">
                 <table class="table table-bordered table-striped align-middle text-center">
@@ -534,7 +534,7 @@
 
             <!-- Schedule 80 -->
             <div class="section-title center mb-3 mt-4">
-                <h4 class="text-center mb-0" style="color: #db7227;">Schedule 80 â€“ Size & Weight Chart</h4>
+                <h4 class="text-center mb-0" style="color: #db7227;">Schedule 80 Size & Weight Chart</h4>
             </div>
             <div class="table-responsive">
                 <table class="table table-bordered table-striped align-middle text-center">
@@ -708,7 +708,7 @@
 
             <!-- Schedule 160 -->
             <div class="section-title center mb-3 mt-4">
-                <h4 class="text-center mb-0" style="color: #db7227;">Schedule 160 â€“ Size & Weight Chart</h4>
+                <h4 class="text-center mb-0" style="color: #db7227;">Schedule 160 Size & Weight Chart</h4>
             </div>
             <div class="table-responsive">
                 <table class="table table-bordered table-striped align-middle text-center">
@@ -882,7 +882,7 @@
 
             <!-- Schedule XXC -->
             <div class="section-title center mb-3 mt-4">
-                <h4 class="text-center mb-0" style="color: #db7227;">Schedule XXC â€“ Size & Weight Chart</h4>
+                <h4 class="text-center mb-0" style="color: #db7227;">Schedule XXC Size & Weight Chart</h4>
             </div>
             <div class="table-responsive">
                 <table class="table table-bordered table-striped align-middle text-center">
@@ -1069,7 +1069,7 @@
                         Boiler and heat exchanger tubes are supplied in both seamless and welded constructions depending on operating pressure, temperature, and project criticality.
                     </p>
 
-                    <div class="table-responsive">
+                    <div class="table-responsive ">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
@@ -1078,7 +1078,7 @@
                                     <th>Welded Tubes (ERW / EFW)</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-start">
+                            <tbody class="text-center">
                                 <tr class="t-row">
                                     <td>Manufacturing</td>
                                     <td>Hot extrusion / piercing</td>
@@ -1706,27 +1706,37 @@
                 <p class="text-justify">Boiler and heat exchanger tubes are manufactured using controlled processes to ensure strength, reliability, and long service life.</p>
             </div>
 
-            <div class="row">
-                <div class="col-md-6">
-                    <h4 class="fw-bold" style="color: #db7227;">Seamless Tubes Manufacturing:</h4>
-                    <ul class="list-unstyled">
-                        <li>1️⃣ Steel billets are heated and pierced</li>
-                        <li>2️⃣ Tubes are hot-rolled or cold-drawn to required size</li>
-                        <li>3️⃣ Heat treatment (normalizing / annealing)</li>
-                        <li>4️⃣ Straightening, sizing, and finishing</li>
-                        <li>5️⃣ Testing and final inspection</li>
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <h4 class="fw-bold" style="color: #db7227;">Welded Tubes Manufacturing (ERW / EFW):</h4>
-                     <ul class="list-unstyled">
-                        <li>1️⃣ Steel strip or plate is formed into tubular shape</li>
-                        <li>2️⃣ Longitudinal seam welded using ERW or EFW process</li>
-                        <li>3️⃣ Weld heat treatment</li>
-                        <li>4️⃣ Sizing and surface finishing</li>
-                        <li>5️⃣ NDT testing and inspection</li>
-                    </ul>
-                </div>
+            <div class="table-responsive mt-3">
+                <table class="table table-bordered table-striped text-center align-middle">
+                    <thead class="table-dark">
+                        <tr>
+                            <th class="fw-bold" >Seamless Tubes Manufacturing</th>
+                            <th class="fw-bold" >Welded Tubes Manufacturing (ERW / EFW)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="t-row">
+                            <td>Steel billets are heated and pierced</td>
+                            <td>Steel strip or plate is formed into tubular shape</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Tubes are hot-rolled or cold-drawn to required size</td>
+                            <td>Longitudinal seam welded using ERW or EFW process</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Heat treatment (normalizing / annealing)</td>
+                            <td>Weld heat treatment</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Straightening, sizing, and finishing</td>
+                            <td>Sizing and surface finishing</td>
+                        </tr>
+                        <tr class="t-row">
+                            <td>Testing and final inspection</td>
+                            <td>NDT testing and inspection</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
              <p class="mt-3 text-center">This ensures uniform wall thickness, strong weld integrity, and reliable performance in heat-transfer applications.</p>
         </div>
@@ -1742,7 +1752,7 @@
             <div class="table-responsive">
                 <table class="table table-bordered table-striped align-middle text-center">
                     <thead class="table-dark">
-                        <tr>
+                        <tr class="t-row">
                             <th>Standard</th>
                             <th>Tensile Strength (MPa)</th>
                             <th>Yield Strength (MPa)</th>
@@ -1750,19 +1760,19 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
+                        <tr class="t-row">
                             <td>ASTM A179</td>
                             <td>325</td>
                             <td>180</td>
                             <td>35</td>
                         </tr>
-                         <tr>
+                         <tr class="t-row">
                             <td>ASTM A192</td>
                             <td>325</td>
                             <td>180</td>
                             <td>35</td>
                         </tr>
-                         <tr>
+                         <tr class="t-row">
                             <td>ASTM A213 (SS Grades)</td>
                             <td>515</td>
                             <td>205</td>
