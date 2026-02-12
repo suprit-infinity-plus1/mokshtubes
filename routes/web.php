@@ -14,16 +14,105 @@ use Illuminate\Support\Facades\Route;
 |--------------------------------------------------------------------------
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// })
-
 Route::get('/', function () {
     return redirect('/in');
 });
 
-// Route::post('/lead-capture', [LeadController::class, 'store'])->name('lead.capture');
-Route::prefix('{country}')->group(function () {
+// Global Redirects (Legacy support)
+Route::redirect(
+    '/materials/super-austenitic-stainless-steel/super-austenitic-stainless-steel-SMO-254',
+    '/materials/super-austenitic-stainless-steel/super-austenitic-stainless-steel-smo-254',
+    301
+);
+
+// Global Routes (Cookie, Leads, Export) - Must be defined before {country} wildcard
+Route::middleware(['web'])->group(function () {
+    Route::post('/cookie/accept', [CookieController::class, 'accept'])->name('cookie.accept');
+    Route::post('/cookie/reject', [CookieController::class, 'reject'])->name('cookie.reject');
+});
+
+Route::post('/datasheet-leads-capture', [DatasheetLeadController::class, 'store'])->name('lead.capture.global'); // Renamed to avoid confusion, though original had duplicate name
+Route::get('/datasheet/export', [DatasheetLeadController::class, 'export'])->name('datasheet.export');
+
+// Admin Routes - Must be defined before {country} wildcard
+Route::prefix('admin')->group(function () {
+    Route::middleware('auth')->group(function () {
+        Route::get('/dashboard', [MainController::class, 'dashboard'])->middleware(['auth', 'verified'])->name('dashboard');
+        // blogs
+        Route::prefix('blogs')->group(function () {
+
+            Route::get('/', [BlogController::class, 'blogs'])->name('admin.blogs');
+            Route::get('/add', [BlogController::class, 'blogsAdd'])->name('admin.blogs.add');
+            Route::get('/edit/{id}', [BlogController::class, 'blogsEdit'])->name('admin.blogs.edit');
+            Route::post('/delete/{id}', [BlogController::class, 'blogsDelete'])->name('admin.blogs.delete');
+            Route::post('/store', [BlogController::class, 'store'])->name('admin.blogs.store');
+            Route::post('/update/{id}', [BlogController::class, 'blogsUpdate'])->name('admin.blogs.update');
+
+            // Blog Categories
+            Route::get('/categories', [BlogController::class, 'categories'])->name('admin.blogs.categories');
+            Route::get('/categories/add', [BlogController::class, 'categoriesAdd'])->name('admin.blogs.categories.add');
+            Route::get('/categories/edit/{id}', [BlogController::class, 'categoriesEdit'])->name('admin.blogs.categories.edit');
+            Route::post('/categories/delete/{id}', [BlogController::class, 'categoriesDelete'])->name('admin.blogs.categories.delete');
+            Route::post('/categories/store', [BlogController::class, 'categoriesStore'])->name('admin.blogs.categories.store');
+            Route::post('/categories/update/{id}', [BlogController::class, 'categoriesUpdate'])->name('admin.blogs.categories.update');
+
+            // Blog Tags
+            Route::get('/tags', [BlogController::class, 'tags'])->name('admin.blogs.tags');
+            Route::get('/tags/add', [BlogController::class, 'tagsAdd'])->name('admin.blogs.tags.add');
+            Route::get('/tags/edit/{id}', [BlogController::class, 'tagsEdit'])->name('admin.blogs.tags.edit');
+            Route::post('/tags/delete/{id}', [BlogController::class, 'tagsDelete'])->name('admin.blogs.tags.delete');
+            Route::post('/tags/store', [BlogController::class, 'tagsStore'])->name('admin.blogs.tags.store');
+            Route::post('/tags/update/{id}', [BlogController::class, 'tagsUpdate'])->name('admin.blogs.tags.update');
+        });
+
+        Route::prefix('datasheets')->middleware('auth')->group(function () {
+
+            // list
+            Route::get('/', [DatasheetController::class, 'index'])->name('datasheets.index');
+
+            Route::get('/add', [DatasheetController::class, 'add'])->name('datasheets.add');
+
+            // store
+            Route::post('/store', [DatasheetController::class, 'store'])->name('datasheets.store');
+
+            // edit page
+            Route::get('/edit/{id}', [DatasheetController::class, 'edit'])->name('datasheets.edit');
+
+            // update
+            Route::post('/update/{id}', [DatasheetController::class, 'update'])->name('datasheets.update');
+
+            // delete
+            Route::post('/delete/{id}', [DatasheetController::class, 'destroy'])->name('datasheets.delete');
+        });
+        // datasheet leads
+        Route::prefix('datasheet-leads')->group(function () {
+            Route::get('/', [DatasheetLeadController::class, 'datasheetLeads'])->name('datasheet-leads');
+            // Route::get('/add', [DatasheetLeadController::class, 'create'])->name('Datasheet.add');
+            Route::get('/edit/{id}', [DatasheetLeadController::class, 'edit'])->name('datasheet.edit');
+            Route::post('/update/{id}', [DatasheetLeadController::class, 'update'])->name('datasheet.update');
+
+            Route::post('/delete/{id}', [DatasheetLeadController::class, 'destroy'])->name('Datasheet.delete');
+        });
+        Route::prefix('website-leads')->group(function () {
+            Route::get('/', [MainController::class, 'websiteLeads'])->name('website-leads');
+            Route::get('/export', [MainController::class, 'exportWebsiteLeads'])->name('website.export');
+        });
+    });
+});
+
+// Auth Routes - Must be before {country}
+Route::middleware('auth')->group(function () {
+    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+});
+
+require __DIR__.'/auth.php';
+
+// Country Specific Routes
+Route::prefix('{country}')
+    ->middleware('check.country')
+    ->group(function () {
     Route::get('/', [MainController::class, 'home'])->name('index');
     Route::get('/contact-us', [MainController::class, 'contactUs'])->name('contact-us');
     Route::get('/contact-us/gulalwadi', [MainController::class, 'contactUsGulalwadi'])->name('contact-us-gulalwadi');
@@ -133,96 +222,3 @@ Route::prefix('{country}')->group(function () {
     Route::get('/products/bars-rods/hexagon-bars', [MainController::class, 'hexagonBars'])->name('products.bars-rods.hexagon-bars');
     Route::get('/products/bars-rods/flat-bars', [MainController::class, 'flatBars'])->name('products.bars-rods.flat-bars');
 });
-
-Route::redirect(
-    '/materials/super-austenitic-stainless-steel/super-austenitic-stainless-steel-SMO-254',
-    '/materials/super-austenitic-stainless-steel/super-austenitic-stainless-steel-smo-254',
-    301
-);
-
-Route::middleware(['web'])->group(function () {
-    Route::post('/cookie/accept', [CookieController::class, 'accept'])->name('cookie.accept');
-    Route::post('/cookie/reject', [CookieController::class, 'reject'])->name('cookie.reject');
-});
-
-// Route::get('/materials/nickel-alloys', [MainController::class, 'nickelAlloys'])->name('materials.nickel-alloys');
-
-Route::post('/datasheet-leads-capture', [DatasheetLeadController::class, 'store'])->name('lead.capture');
-
-Route::prefix('admin')->group(function () {
-    Route::middleware('auth')->group(function () {
-        Route::get('/dashboard', [MainController::class, 'dashboard'])->middleware(['auth', 'verified'])->name('dashboard');
-        // blogs
-        Route::prefix('blogs')->group(function () {
-
-            Route::get('/', [BlogController::class, 'blogs'])->name('admin.blogs');
-            Route::get('/add', [BlogController::class, 'blogsAdd'])->name('admin.blogs.add');
-            Route::get('/edit/{id}', [BlogController::class, 'blogsEdit'])->name('admin.blogs.edit');
-            Route::post('/delete/{id}', [BlogController::class, 'blogsDelete'])->name('admin.blogs.delete');
-            Route::post('/store', [BlogController::class, 'store'])->name('admin.blogs.store');
-            Route::post('/update/{id}', [BlogController::class, 'blogsUpdate'])->name('admin.blogs.update');
-
-            // Blog Categories
-            Route::get('/categories', [BlogController::class, 'categories'])->name('admin.blogs.categories');
-            Route::get('/categories/add', [BlogController::class, 'categoriesAdd'])->name('admin.blogs.categories.add');
-            Route::get('/categories/edit/{id}', [BlogController::class, 'categoriesEdit'])->name('admin.blogs.categories.edit');
-            Route::post('/categories/delete/{id}', [BlogController::class, 'categoriesDelete'])->name('admin.blogs.categories.delete');
-            Route::post('/categories/store', [BlogController::class, 'categoriesStore'])->name('admin.blogs.categories.store');
-            Route::post('/categories/update/{id}', [BlogController::class, 'categoriesUpdate'])->name('admin.blogs.categories.update');
-
-            // Blog Tags
-            Route::get('/tags', [BlogController::class, 'tags'])->name('admin.blogs.tags');
-            Route::get('/tags/add', [BlogController::class, 'tagsAdd'])->name('admin.blogs.tags.add');
-            Route::get('/tags/edit/{id}', [BlogController::class, 'tagsEdit'])->name('admin.blogs.tags.edit');
-            Route::post('/tags/delete/{id}', [BlogController::class, 'tagsDelete'])->name('admin.blogs.tags.delete');
-            Route::post('/tags/store', [BlogController::class, 'tagsStore'])->name('admin.blogs.tags.store');
-            Route::post('/tags/update/{id}', [BlogController::class, 'tagsUpdate'])->name('admin.blogs.tags.update');
-        });
-
-        Route::prefix('datasheets')->middleware('auth')->group(function () {
-
-            // list
-            Route::get('/', [DatasheetController::class, 'index'])->name('datasheets.index');
-
-            Route::get('/add', [DatasheetController::class, 'add'])->name('datasheets.add');
-
-            // store
-            Route::post('/store', [DatasheetController::class, 'store'])->name('datasheets.store');
-
-            // edit page
-            Route::get('/edit/{id}', [DatasheetController::class, 'edit'])->name('datasheets.edit');
-
-            // update
-            Route::post('/update/{id}', [DatasheetController::class, 'update'])->name('datasheets.update');
-
-            // delete
-            Route::post('/delete/{id}', [DatasheetController::class, 'destroy'])->name('datasheets.delete');
-        });
-        // datasheet leads
-        Route::prefix('datasheet-leads')->group(function () {
-            Route::get('/', [DatasheetLeadController::class, 'datasheetLeads'])->name('datasheet-leads');
-            // Route::get('/add', [DatasheetLeadController::class, 'create'])->name('Datasheet.add');
-            Route::get('/edit/{id}', [DatasheetLeadController::class, 'edit'])->name('datasheet.edit');
-            Route::post('/update/{id}', [DatasheetLeadController::class, 'update'])->name('datasheet.update');
-
-            Route::post('/delete/{id}', [DatasheetLeadController::class, 'destroy'])->name('Datasheet.delete');
-        });
-        Route::prefix('website-leads')->group(function () {
-            Route::get('/', [MainController::class, 'websiteLeads'])->name('website-leads');
-            Route::get('/export', [MainController::class, 'exportWebsiteLeads'])->name('website.export');
-        });
-    });
-});
-Route::get('/datasheet/export', [DatasheetLeadController::class, 'export'])->name('datasheet.export');
-
-// Route::get('/dashboard', function () {
-//     return view('dashboard');
-// })->middleware(['auth', 'verified'])->name('dashboard');
-
-Route::middleware('auth')->group(function () {
-    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
-    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
-    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
-});
-
-require __DIR__.'/auth.php';
