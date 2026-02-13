@@ -1,7 +1,8 @@
 @extends('layouts.master')
 @section('title', 'Industrial Pipes & Tubes: Premium Products | MokshTubes')
 @section('meta_description',
-    'Industrial pipes & tubes from Moksh Tubes, including 904L, SMO 254 & Alloy 926 — engineered for corrosion resistance, strength & durability.')
+    'Industrial pipes & tubes from Moksh Tubes, including 904L, SMO 254 & Alloy 926 —
+    engineered for corrosion resistance, strength & durability.')
     {{-- @section('meta_description',
     'Superior welded, seamless, U-bend & boiler tubes engineered for strength, precision, and long-lasting industrial
     performance.
@@ -38,56 +39,53 @@
 
             <div class="row g-4">
 
-            @php
-                $types = [
-                    [
-                        'name' => 'Pipes & Tubes',
-                        'slug' => 'pipes-tubes',
-                        'image' => 'assets/images/product/main-product/pipes&tubes.webp',
-                    ],
-                    [
-                        'name' => 'Sheets, Plates & Coils',
-                        'slug' => 'sheets-plates-coils',
-                        'image' => 'assets/images/product/main-product/SheetsPlates.webp',
-                    ],
-                    [
-                        'name' => 'Bars & Rods',
-                        'slug' => 'bars-rods',
-                        'image' => 'assets/images/product/main-product/rods.webp',
-                    ],
-                    [
-                        'name' => 'Pipe Fittings, Flanges & Fasteners',
-                        'slug' => 'pipe-fittings-flanges-fasteners',
-                        'image' => 'assets/images/product/main-product/fittings.webp',
-                    ],
-                    [
-                        'name' => 'Special Fabricated',
-                        'slug' => 'special-fabricated',
-                        'image' => 'assets/images/product/main-product/Special.webp',
-                    ],
-                ];
-            @endphp
+                @php
+                    $types = [
+                        [
+                            'name' => 'Pipes & Tubes',
+                            'slug' => 'pipes-tubes',
+                            'image' => 'assets/images/product/main-product/pipes&tubes.webp',
+                        ],
+                        [
+                            'name' => 'Sheets, Plates & Coils',
+                            'slug' => 'sheets-plates-coils',
+                            'image' => 'assets/images/product/main-product/SheetsPlates.webp',
+                        ],
+                        [
+                            'name' => 'Bars & Rods',
+                            'slug' => 'bars-rods',
+                            'image' => 'assets/images/product/main-product/rods.webp',
+                        ],
+                        [
+                            'name' => 'Pipe Fittings, Flanges & Fasteners',
+                            'slug' => 'pipe-fittings-flanges-fasteners',
+                            'image' => 'assets/images/product/main-product/fittings.webp',
+                        ],
+                        [
+                            'name' => 'Special Fabricated',
+                            'slug' => 'special-fabricated',
+                            'image' => 'assets/images/product/main-product/Special.webp',
+                        ],
+                    ];
+                @endphp
 
 
                 @foreach ($types as $type)
                     <div class="col-12 col-sm-6 col-lg-4">
-    <a href="{{ url('/products/' . $type['slug']) }}" class="text-decoration-none d-block h-100">
-        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
-             style="border-color: #db7227; transition: 0.3s;">
-            
-            <img src="{{ asset($type['image'] ?? 'assets/images/default.webp') }}"
-                 alt="{{ $type['name'] }}"
-                 class="img-fluid rounded mb-3"
-                 style="border-radius: 8px;">
-            
-            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
-                style="background-color: #174268; color: #fff; display: inline-block;">
-                {{ $type['name'] }}
-            </h6>
-        </div>
-    </a>
-</div>
+                        <a href="{{ url('/products/' . $type['slug']) }}" class="text-decoration-none d-block h-100">
+                            <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                                style="border-color: #db7227; transition: 0.3s;">
 
+                                <img src="{{ asset($type['image'] ?? 'assets/images/default.webp') }}"
+                                    alt="{{ $type['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+
+                                <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                    style="background-color: #174268; color: #fff; display: inline-block;">
+                                    {{ $type['name'] }}
+                                </h6>
+                            </div>
+                        </a>
+                    </div>
                 @endforeach
             </div>
         </div>

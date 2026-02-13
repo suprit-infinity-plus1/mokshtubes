@@ -172,6 +172,12 @@
                                     <textarea name="form_message" placeholder="Your Message.." required></textarea>
                                 </div>
                             </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="g-recaptcha" data-sitekey="6LenyGgsAAAAAPRqnDW73mXijq0-Vnu82bcT0pxM"
+                                        style="margin-bottom:10px;"></div>
+                                </div>
+                            </div>
                             <div class="row align-items-center">
                                 <div class="col-md-12 d-flex flex-wrap align-items-center justify-content-between">
                                     <button class="thm-btn bg-clr1" type="submit" data-loading-text="Please wait...">Send
@@ -179,11 +185,12 @@
 
                                     <!-- ✅ WhatsApp CTA -->
                                     <!-- <a href="https://wa.me/919769584950" target="_blank"
-                                                                                                        class="btn btn-success mt-3 mt-md-0">
-                                                                                                        💬 Chat on WhatsApp
-                                                                                                    </a> -->
+                                                                            class="btn btn-success mt-3 mt-md-0">
+                                                                            💬 Chat on WhatsApp
+                                                                        </a> -->
                                 </div>
                             </div>
+
                         </form>
                     </div>
                 </div>

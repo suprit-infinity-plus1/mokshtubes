@@ -51,11 +51,14 @@ class AppServiceProvider extends ServiceProvider
         // Get first URL segment
         $country = $request->segment(1);
 
+        $validCodes = ['se', 'no', 'ng', 'ae', 'us', 'sg', 'mv', 'sa', 'de', 'gb', 'ca', 'jo', 'pe', 'au', 'th', 'ru', 'fr', 'be', 'za', 'bg', 'tw', 'it', 'nl', 'in'];
+
         // If country exists, set it as default
-        if ($country) {
-            URL::defaults([
-                'country' => $country,
-            ]);
+        if ($country && in_array(strtolower($country), $validCodes)) {
+            URL::defaults(['country' => $country]);
+        } else {
+            // Fallback for random routes / 404s
+            URL::defaults(['country' => 'in']);
         }
     }
 }

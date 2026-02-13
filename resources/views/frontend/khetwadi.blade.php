@@ -114,6 +114,12 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
+                                    <div class="g-recaptcha" data-sitekey="6LenyGgsAAAAAPRqnDW73mXijq0-Vnu82bcT0pxM"
+                                        style="margin-bottom:10px;"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
                                     <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden"
                                         value="">
                                     <button class="thm-btn bg-clr1" type="submit" data-loading-text="Please wait...">send

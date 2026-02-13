@@ -7,6 +7,7 @@ use App\Models\BlogCategory;
 use App\Models\Tag;
 use App\Models\WebsiteLead;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\Storage;
 use PHPMailer\PHPMailer\PHPMailer;
@@ -34,6 +35,30 @@ class MainController extends Controller
             'form_message' => 'required|max:1000',
             'website' => 'nullable',
         ]);
+
+        $recaptcha_response = $request->input('g-recaptcha-response');
+
+        if (is_null($recaptcha_response)) {
+            return redirect()->back()->with('status', 'error')->with('msg', 'Please Complete the Recaptcha to proceed');
+        }
+
+        $url = 'https://www.google.com/recaptcha/api/siteverify';
+
+        $body = [
+            'secret' => env('RECAPTCHA_SECRET_KEY'),
+            'response' => $recaptcha_response,
+            'remoteip' => $request->ip(),
+        ];
+
+        $response = Http::asForm()->post($url, $body);
+
+        $result = json_decode($response);
+
+        if ($response->successful() && $result->success == true) {
+
+        } else {
+            return redirect()->back()->with('status', 'error')->with('msg', 'Please Complete the Recaptcha Again to proceed');
+        }
 
         // if ($request->website != '') {
         //     return response()->json([

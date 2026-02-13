@@ -161,6 +161,7 @@
 }
 </script> --}}
 
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body>
@@ -924,6 +925,10 @@
                                 </div> --}}
                                 <div class="col-md-12 mb-3">
                                     <textarea name="form_message" class="form-control" placeholder="Your Message.." required></textarea>
+                                </div>
+                                <div class="col-md-12 mb-3">
+                                    <div class="g-recaptcha" data-sitekey="6LenyGgsAAAAAPRqnDW73mXijq0-Vnu82bcT0pxM"
+                                        style="margin-bottom:10px;"></div>
                                 </div>
                                 <div class="col-md-12 text-end">
                                     <input id="form_botcheck" name="form_botcheck" type="hidden" value="">
