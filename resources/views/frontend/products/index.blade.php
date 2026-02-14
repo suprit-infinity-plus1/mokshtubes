@@ -39,7 +39,7 @@
 
             <div class="row g-4">
 
-                @php
+                {{-- @php
                     $types = [
                         [
                             'name' => 'Pipes & Tubes',
@@ -67,10 +67,10 @@
                             'image' => 'assets/images/product/main-product/Special.webp',
                         ],
                     ];
-                @endphp
+                @endphp --}}
 
 
-                @foreach ($types as $type)
+                {{-- @foreach ($types as $type)
                     <div class="col-12 col-sm-6 col-lg-4">
                         <a href="{{ url('/products/' . $type['slug']) }}" class="text-decoration-none d-block h-100">
                             <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
@@ -86,7 +86,84 @@
                             </div>
                         </a>
                     </div>
-                @endforeach
+                @endforeach --}}
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.pipes-tubes') }}" class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+
+                            <img src="{{ asset('assets/images/product/main-product/pipes&tubes.webp') }}"
+                                alt="Pipes & Tubes" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                Pipes & Tubes
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.sheets-plates-coils') }}" class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+
+                            <img src="{{ asset('assets/images/product/main-product/SheetsPlates.webp') }}"
+                                alt="Sheets, Plates & Coils" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                Sheets, Plates & Coils
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.bars-rods') }}" class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+
+                            <img src="{{ asset('assets/images/product/main-product/rods.webp') }}" alt="Bars & Rods"
+                                class="img-fluid rounded mb-3" style="border-radius: 8px;">
+
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                Bars & Rods
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.pipe-fittings-flanges-fasteners') }}"
+                        class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+
+                            <img src="{{ asset('assets/images/product/main-product/fittings.webp') }}"
+                                alt="Pipe Fittings, Flanges & Fasteners" class="img-fluid rounded mb-3"
+                                style="border-radius: 8px;">
+
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                Pipe Fittings, Flanges & Fasteners
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.special-fabricated') }}" class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+
+                            <img src="{{ asset('assets/images/product/main-product/Special.webp') }}"
+                                alt="Special Fabricated" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                Special Fabricated
+                            </h6>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </section>

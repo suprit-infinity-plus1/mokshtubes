@@ -7,14 +7,12 @@ use App\Models\BlogCategory;
 use App\Models\Tag;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
-use Illuminate\Support\Facades\Route;
-
 
 class BlogController extends Controller
 {
-
     // public function blogs()
     // {
     //     $blogsData = collect([
@@ -320,8 +318,8 @@ class BlogController extends Controller
             'tags.*' => 'exists:tags,id',
             'schema' => 'nullable|string', // JSON-LD as string
             'faq' => 'nullable|array',
-            'faq.*.question' => 'required_with:faq|string|max:255',
-            'faq.*.answer' => 'required_with:faq|string',
+            'faq.*.question' => 'nullable|string|max:255',
+            'faq.*.answer' => 'nullable|string',
             'meta_keywords' => 'nullable|string',
             'meta_description' => 'nullable|string',
         ]);
@@ -389,6 +387,7 @@ class BlogController extends Controller
 
         return redirect()->route('admin.blogs')->with('success', 'Blog created successfully.');
     }
+
     protected function compileContentLinks(string $content): string
     {
         // Replace {{ route('name') }}
@@ -539,7 +538,7 @@ class BlogController extends Controller
         $category = BlogCategory::findOrFail($id);
 
         $data = $request->validate([
-            'name' => 'required|string|max:255|unique:blog_categories,name,' . $category->id,
+            'name' => 'required|string|max:255|unique:blog_categories,name,'.$category->id,
             'status' => 'required|boolean',
         ]);
 
@@ -619,7 +618,7 @@ class BlogController extends Controller
 
         // Validate the request
         $data = $request->validate([
-            'name' => 'required|string|max:255|unique:tags,name,' . $tag->id, // Ensure name is unique, but allow for this tag's name
+            'name' => 'required|string|max:255|unique:tags,name,'.$tag->id, // Ensure name is unique, but allow for this tag's name
         ]);
 
         // Generate slug from the name

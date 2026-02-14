@@ -256,6 +256,7 @@ class MainController extends Controller
             ->orderBy('published_at', 'desc')
             ->take(3)
             ->get();
+        // dd('i am here1');
         // Fetch the current blog with its FAQs
         $blog = Blog::where('slug', $slug)
             ->with('faqs') // eager load FAQs
