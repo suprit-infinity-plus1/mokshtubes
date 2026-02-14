@@ -107,7 +107,7 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';
 
 // Country Specific Routes
 Route::prefix('{country}')
@@ -182,6 +182,7 @@ Route::prefix('{country}')
 
         // Route::get('/materials/{family}/{grade}', [MainController::class, 'showMaterialGrade'])->name('material.grade');
         Route::get('/materials/{category}/{slug}', [MainController::class, 'showMaterial'])->name('materials.grade');
+        Route::get('/blogs/{slug}', [MainController::class, 'specificBlog'])->name('frontend.single-blog');
         Route::get('/products', [MainController::class, 'products'])->name('products');
         Route::get('/products/pipes-tubes', [MainController::class, 'pipesTubes'])->name('products.pipes-tubes');
         Route::get('/products/pipes-tubes/welded-pipes-and-tubes', [MainController::class, 'weldedPipes'])->name('products.pipes-tubes.welded-pipes');
@@ -221,10 +222,4 @@ Route::prefix('{country}')
         Route::get('/products/bars-rods/hollow-bars', [MainController::class, 'hollowBars'])->name('products.bars-rods.hollow-bars');
         Route::get('/products/bars-rods/hexagon-bars', [MainController::class, 'hexagonBars'])->name('products.bars-rods.hexagon-bars');
         Route::get('/products/bars-rods/flat-bars', [MainController::class, 'flatBars'])->name('products.bars-rods.flat-bars');
-    });
-Route::prefix('{country}')
-    ->middleware('check.country')
-    ->group(function () {
-        Route::get('blogs/{slug}', [MainController::class, 'specificBlog'])->name('frontend.single-blog');
-
     });

@@ -248,7 +248,7 @@ class MainController extends Controller
         return view('frontend.whatsapp-intent');
     }
 
-    public function specificBlog($slug)
+    public function specificBlog($country, $slug)
     {
         // $blogs = Blog::where('status', true)
         //     ->orderBy('published_at', 'desc');

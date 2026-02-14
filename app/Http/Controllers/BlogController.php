@@ -318,8 +318,8 @@ class BlogController extends Controller
             'tags.*' => 'exists:tags,id',
             'schema' => 'nullable|string', // JSON-LD as string
             'faq' => 'nullable|array',
-            'faq.*.question' => 'nullable|string|max:255',
-            'faq.*.answer' => 'nullable|string',
+            'faq.*.question' => 'required_with:faq|string|max:255',
+            'faq.*.answer' => 'required_with:faq|string',
             'meta_keywords' => 'nullable|string',
             'meta_description' => 'nullable|string',
         ]);
@@ -358,7 +358,7 @@ class BlogController extends Controller
         $blog = Blog::create($data);
 
         // Attach tags if any
-        if (! empty($data['tags'])) {
+        if (!empty($data['tags'])) {
             $blog->tags()->attach($data['tags']);
         }
 
@@ -373,14 +373,14 @@ class BlogController extends Controller
         //         }
         //     }
         // }
-        if (! empty($request->faq)) {
+        if (!empty($request->faq)) {
             // Filter out any empty FAQ entries (missing question or answer)
             $faqData = array_filter($request->faq, function ($faq) {
-                return ! empty($faq['question']) && ! empty($faq['answer']);
+                return !empty($faq['question']) && !empty($faq['answer']);
             });
 
             // If there are valid FAQs, insert them all at once
-            if (! empty($faqData)) {
+            if (!empty($faqData)) {
                 $blog->faqs()->createMany($faqData);
             }
         }
@@ -447,7 +447,7 @@ class BlogController extends Controller
         $data['slug'] = $slug;
 
         // Update published_at only when switching from draft to published
-        if ($data['status'] == 1 && ! $blog->published_at) {
+        if ($data['status'] == 1 && !$blog->published_at) {
             $data['published_at'] = Carbon::now();
         } elseif ($data['status'] == 0) {
             $data['published_at'] = null;
@@ -472,9 +472,9 @@ class BlogController extends Controller
 
         // Replace FAQs
         $blog->faqs()->delete();
-        if (! empty($request->faq)) {
+        if (!empty($request->faq)) {
             foreach ($request->faq as $faq) {
-                if (! empty($faq['question']) && ! empty($faq['answer'])) {
+                if (!empty($faq['question']) && !empty($faq['answer'])) {
                     $blog->faqs()->create($faq);
                 }
             }
@@ -538,7 +538,7 @@ class BlogController extends Controller
         $category = BlogCategory::findOrFail($id);
 
         $data = $request->validate([
-            'name' => 'required|string|max:255|unique:blog_categories,name,'.$category->id,
+            'name' => 'required|string|max:255|unique:blog_categories,name,' . $category->id,
             'status' => 'required|boolean',
         ]);
 
@@ -618,7 +618,7 @@ class BlogController extends Controller
 
         // Validate the request
         $data = $request->validate([
-            'name' => 'required|string|max:255|unique:tags,name,'.$tag->id, // Ensure name is unique, but allow for this tag's name
+            'name' => 'required|string|max:255|unique:tags,name,' . $tag->id, // Ensure name is unique, but allow for this tag's name
         ]);
 
         // Generate slug from the name
