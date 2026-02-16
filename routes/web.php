@@ -191,6 +191,8 @@ Route::prefix('{country}')
         Route::get('/products/pipes-tubes/hollow-section-pipe', [MainController::class, 'hollowSectionPipe'])->name('products.pipes-tubes.hollow-section-pipe');
         Route::get('/products/pipes-tubes/u-bent-tubes', [MainController::class, 'uBentTubes'])->name('products.pipes-tubes.u-bent-tubes');
         Route::get('/products/pipes-tubes/boiler-heat-exchanger-tubes', [MainController::class, 'boilerHeatExchangerTubes'])->name('products.pipes-tubes.boiler-heat-exchanger-tubes');
+        Route::get('/products/pipes-tubes/SS-304-ERW-pipes', [MainController::class, 'SS304ERWPipes'])->name('products.pipes-tubes.SS-304-ERW-pipes');
+        Route::get('/products/pipes-tubes/SS-316-ERW-pipes', [MainController::class, 'SS316ERWPipes'])->name('products.pipes-tubes.SS-316-ERW-pipes');
 
         Route::get('/products/special-fabricated', [MainController::class, 'specialFabricated'])->name('products.special-fabricated');
         Route::get('/products/special-fabricated/custom-steel-furniture', [MainController::class, 'customSteelFurniture'])->name('products.special-fabricated.custom-steel-furniture');

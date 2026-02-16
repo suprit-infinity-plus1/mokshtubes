@@ -2081,7 +2081,7 @@
         </div>
     </section>
 
-    {{-- Uses of Welded Pipes and Tubes --}}
+    {{-- Uses --}}
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">

@@ -993,6 +993,14 @@ class MainController extends Controller
     {
         return view('frontend.products.pipes-tubes.boiler-heat-exchanger-tubes');
     }
+    public function SS304ERWPipes()
+    {
+        return view('frontend.products.pipes-tubes.SS-304-ERW-pipes');
+    }
+    public function SS316ERWPipes()
+    {
+        return view('frontend.products.pipes-tubes.SS-316-ERW-pipes');
+    }
 
     // Special Fabricated Product
     public function specialFabricated()
