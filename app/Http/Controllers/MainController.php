@@ -67,7 +67,7 @@ class MainController extends Controller
         //     ], 422);
         // }
 
-        if (! empty($request->website)) {
+        if (!empty($request->website)) {
             return response()->json([
                 'status' => 'error',
                 'message' => 'Bot detected',
@@ -174,7 +174,7 @@ class MainController extends Controller
 
         $websiteLeads = $query->orderBy('created_at', 'desc')->get();
 
-        $fileName = 'website_leads_'.now()->format('Y_m_d_His').'.csv';
+        $fileName = 'website_leads_' . now()->format('Y_m_d_His') . '.csv';
 
         $headers = [
             'Content-Type' => 'text/csv',
@@ -262,7 +262,59 @@ class MainController extends Controller
             ->with('faqs') // eager load FAQs
             ->firstOrFail();
 
+        // Rewrite internal links in blog content to include country prefix
+        $blog->content = $this->injectCountryToInternalLinks($blog->content);
+
         return view('frontend.blogs.single-blog', compact('blog', 'allBlogs'));
+    }
+
+    private function injectCountryToInternalLinks($html)
+    {
+        $country = request()->segment(1);
+        // \Illuminate\Support\Facades\Log::info("Injecting country: $country");
+
+        // Match common domains including localhost variants and production
+        $rawDomains = [
+            'https://mokshtubes.com',
+            'http://mokshtubes.com',
+            'http://127.0.0.1:8000',
+            'http://localhost:8000',
+            url('/') // Fallback to current app URL
+        ];
+
+        $domains = array_map(function ($domain) {
+            return preg_quote(rtrim($domain, '/'), '/');
+        }, array_unique($rawDomains));
+
+        $domainPattern = implode('|', $domains);
+
+        $html = preg_replace_callback(
+            '/href="(' . $domainPattern . ')(\/[^"]*)"/i', // Added 'i' modifier for case-insensitivity
+            function ($matches) use ($country) {
+                // \Illuminate\Support\Facades\Log::info("Match found: " . $matches[0]);
+    
+                $baseUrl = $matches[1];
+                $path = $matches[2];
+
+                // Check if path already starts with /country/ or is just /country
+                if (preg_match('/^\/' . $country . '(\/|$)/', $path)) {
+                    // \Illuminate\Support\Facades\Log::info("Skipping already prefixed: $path");
+                    return 'href="' . $baseUrl . $path . '"';
+                }
+
+                $newLink = 'href="' . $baseUrl . '/' . $country . $path . '"';
+                // \Illuminate\Support\Facades\Log::info("Replaced with: $newLink");
+                return $newLink;
+            },
+            $html,
+            -1,
+            $count
+        );
+
+        // Debug: Verify if any replacements occurred
+        // dump("Replacements count: " . $count);
+
+        return $html;
     }
 
     public function contactUsKhetwadi()
@@ -477,7 +529,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.hastelloy.'.$slug, compact('blogs', 'slug'));
+        return view('frontend.materials.hastelloy.' . $slug, compact('blogs', 'slug'));
     }
 
     public function monel()
@@ -506,7 +558,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.monel.'.$slug, compact('blogs', 'slug'));
+        return view('frontend.materials.monel.' . $slug, compact('blogs', 'slug'));
     }
 
     public function incoloy()
@@ -535,7 +587,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.incoloy.'.$slug, compact('blogs', 'slug'));
+        return view('frontend.materials.incoloy.' . $slug, compact('blogs', 'slug'));
     }
 
     public function nickelBasedSuperalloys()
@@ -564,7 +616,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.nickel-based-superalloys.'.$slug, compact('blogs', 'slug'));
+        return view('frontend.materials.nickel-based-superalloys.' . $slug, compact('blogs', 'slug'));
     }
 
     public function inconel()
@@ -593,7 +645,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.inconel.'.$slug, compact('blogs', 'slug'));
+        return view('frontend.materials.inconel.' . $slug, compact('blogs', 'slug'));
     }
 
     public function titanium()
@@ -622,7 +674,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.titanium.'.$slug, compact('blogs', 'slug'));
+        return view('frontend.materials.titanium.' . $slug, compact('blogs', 'slug'));
     }
 
     public function aluminiumAlloys()
@@ -654,7 +706,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.aluminium-alloys.'.$slug, compact('blogs', 'slug'));
+        return view('frontend.materials.aluminium-alloys.' . $slug, compact('blogs', 'slug'));
     }
 
     public function superAusteniticStainlessSteel()
@@ -683,7 +735,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.super-austenitic-stainless-steel.'.$slug, compact('blogs', 'slug'));
+        return view('frontend.materials.super-austenitic-stainless-steel.' . $slug, compact('blogs', 'slug'));
     }
 
     public function hardToFindAndSpecialAlloys()
@@ -713,7 +765,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.hard-to-find-special-alloys.'.$slug, compact('blogs', 'slug'));
+        return view('frontend.materials.hard-to-find-special-alloys.' . $slug, compact('blogs', 'slug'));
     }
 
     public function austeniticStainlessSteel()
@@ -743,7 +795,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.austenitic-stainless-steel.'.$slug, compact('blogs', 'slug'));
+        return view('frontend.materials.austenitic-stainless-steel.' . $slug, compact('blogs', 'slug'));
     }
 
     public function engineeringSteels()
@@ -772,7 +824,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.engineering-steels.'.$slug, compact('blogs', 'slug'));
+        return view('frontend.materials.engineering-steels.' . $slug, compact('blogs', 'slug'));
     }
 
     public function copperAlloys()
@@ -801,7 +853,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.copper-alloys.'.$slug, compact('blogs', 'slug'));
+        return view('frontend.materials.copper-alloys.' . $slug, compact('blogs', 'slug'));
     }
 
     public function zirconium()
@@ -830,7 +882,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.zirconium.'.$slug, compact('blogs', 'slug'));
+        return view('frontend.materials.zirconium.' . $slug, compact('blogs', 'slug'));
     }
 
     public function haynesSuperalloys()
@@ -859,7 +911,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.haynes-superalloys.'.$slug, compact('blogs', 'slug'));
+        return view('frontend.materials.haynes-superalloys.' . $slug, compact('blogs', 'slug'));
     }
 
     public function duplexAndSuperDuplex()
@@ -888,7 +940,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.duplex-and-super-duplex.'.$slug, compact('blogs', 'slug'));
+        return view('frontend.materials.duplex-and-super-duplex.' . $slug, compact('blogs', 'slug'));
     }
 
     public function highStrengthStainlessSteel()
@@ -917,7 +969,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.high-strength-stainless-steel.'.$slug, compact('blogs', 'slug'));
+        return view('frontend.materials.high-strength-stainless-steel.' . $slug, compact('blogs', 'slug'));
     }
 
     public function showMaterialGrade($family, $grade)
@@ -1167,7 +1219,7 @@ class MainController extends Controller
         // Path to PDF in storage/app/public/datasheets/
         $filePath = storage_path('app/public/datasheets/en8.pdf');
 
-        if (! file_exists($filePath)) {
+        if (!file_exists($filePath)) {
             abort(404, 'File not found');
         }
 

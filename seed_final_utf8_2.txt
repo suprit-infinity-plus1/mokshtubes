@@ -1,0 +1,5 @@
+﻿
+   INFO  Seeding database.  
+
+  Database\Seeders\TestBlogSeeder  604.82ms DONE
+

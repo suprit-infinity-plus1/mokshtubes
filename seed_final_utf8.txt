@@ -1,0 +1,26 @@
+﻿
+   INFO  Seeding database.  
+
+  Database\Seeders\TestBlogSeeder  25.89ms FAIL
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'field list' (Connection: mysql, SQL: insert into `tags` (`name`, `slug`, `status`, `updated_at`, `created_at`) values (Test Tag, test-tag, 1, 2026-02-16 14:11:03, 2026-02-16 14:11:03))
+
+  at vendor\laravel\framework\src\Illuminate\Database\Connection.php:824
+    820Γûò                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    821Γûò                 );
+    822Γûò             }
+    823Γûò 
+  Γ₧£ 824Γûò             throw new QueryException(
+    825Γûò                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    826Γûò             );
+    827Γûò         }
+    828Γûò     }
+
+  1   vendor\laravel\framework\src\Illuminate\Database\MySqlConnection.php:47
+      PDOException::("SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'field list'")
+
+  2   vendor\laravel\framework\src\Illuminate\Database\MySqlConnection.php:47
+      PDO::prepare("insert into `tags` (`name`, `slug`, `status`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?)")
+
