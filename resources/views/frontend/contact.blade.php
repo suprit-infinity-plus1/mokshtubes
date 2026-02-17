@@ -174,7 +174,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
-                                    <div class="g-recaptcha" data-sitekey="6LenyGgsAAAAAPRqnDW73mXijq0-Vnu82bcT0pxM"
+                                    <div class="g-recaptcha" data-sitekey="{{ env('RECAPTCHA_SITE_KEY') }}"
                                         style="margin-bottom:10px;"></div>
                                 </div>
                             </div>
@@ -185,9 +185,9 @@
 
                                     <!-- ✅ WhatsApp CTA -->
                                     <!-- <a href="https://wa.me/919769584950" target="_blank"
-                                                                                class="btn btn-success mt-3 mt-md-0">
-                                                                                💬 Chat on WhatsApp
-                                                                            </a> -->
+                                                                                    class="btn btn-success mt-3 mt-md-0">
+                                                                                    💬 Chat on WhatsApp
+                                                                                </a> -->
                                 </div>
                             </div>
 

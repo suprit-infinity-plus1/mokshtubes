@@ -927,7 +927,7 @@
                                     <textarea name="form_message" class="form-control" placeholder="Your Message.." required></textarea>
                                 </div>
                                 <div class="col-md-12 mb-3">
-                                    <div class="g-recaptcha" data-sitekey="6LenyGgsAAAAAPRqnDW73mXijq0-Vnu82bcT0pxM"
+                                    <div class="g-recaptcha" data-sitekey="{{ env('RECAPTCHA_SITE_KEY') }}"
                                         style="margin-bottom:10px;"></div>
                                 </div>
                                 <div class="col-md-12 text-end">
