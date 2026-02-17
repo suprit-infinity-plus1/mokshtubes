@@ -289,17 +289,17 @@ class MainController extends Controller
         $domainPattern = implode('|', $domains);
 
         $html = preg_replace_callback(
-            '/href="(' . $domainPattern . ')(\/[^"]*)"/i', // Added 'i' modifier for case-insensitivity
+            '/href="(' . $domainPattern . ')?(\/[^"]*)"/i', // Added '?' to make domain optional
             function ($matches) use ($country) {
                 // \Illuminate\Support\Facades\Log::info("Match found: " . $matches[0]);
     
-                $baseUrl = $matches[1];
+                $baseUrl = $matches[1] ?? '';
                 $path = $matches[2];
 
                 // Check if path already starts with /country/ or is just /country
                 if (preg_match('/^\/' . $country . '(\/|$)/', $path)) {
                     // \Illuminate\Support\Facades\Log::info("Skipping already prefixed: $path");
-                    return 'href="' . $baseUrl . $path . '"';
+                    return $matches[0];
                 }
 
                 $newLink = 'href="' . $baseUrl . '/' . $country . $path . '"';

@@ -135,7 +135,8 @@
                                             Action
                                         </button>
                                         <div class="dropdown-menu">
-                                            <a href="{{ url('blogs/' . $blog->slug) }}" class="dropdown-item has-icon text-info" target="_blank" title="View Blog">
+                                            <a href="{{ route('frontend.single-blog', ['country' => 'in', 'slug' => $blog->slug]) }}"
+                                                class="dropdown-item has-icon text-info" target="_blank" title="View Blog">
                                                 <i class="fa fa-eye"></i> View
                                             </a>
                                             <a href="{{ route('admin.blogs.edit', $blog->id) }}"
