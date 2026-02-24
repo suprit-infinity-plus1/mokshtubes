@@ -43,10 +43,6 @@ class AppServiceProvider extends ServiceProvider
             return;
         }
 
-        // Ignore admin routes
-        if ($request->is('admin/*')) {
-            return;
-        }
 
         // Get first URL segment
         $country = $request->segment(1);

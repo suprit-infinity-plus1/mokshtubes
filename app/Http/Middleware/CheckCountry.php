@@ -26,7 +26,7 @@ class CheckCountry
 
         $country = $request->route('country');
 
-        // If no country parameter, proceed (shouldn't happen if middleware is applied to group)
+        // If no country parameter (root domain access), proceed
         if (!$country) {
             return $next($request);
         }
@@ -36,38 +36,34 @@ class CheckCountry
 
         // Check if valid country
         if (!in_array($lowerCountry, $allowedCountries)) {
-            // Check if it's a known path (smart redirect)
-            // e.g. /about-us -> /in/about-us
+            // Check if it's a known path that somehow missed the root group
+            // (e.g. if routes were restructured or for specific edge cases)
             if (in_array($lowerCountry, $knownPaths)) {
+                 // If it was meant to be a root path, we should probably redirect to the root version
+                 // But since we are already in the middleware of a matched route group, 
+                 // we just want to strip the prefix and redirect to the correct path.
                  $segments = $request->segments();
-                 // Prepend 'in'
-                 array_unshift($segments, 'in');
-                 return redirect()->to(implode('/', $segments));
+                 array_shift($segments); // Remove the "invalid country" which is actually a path name
+                 return redirect()->to('/' . implode('/', $segments));
             }
 
-            // Otherwise, garbage -> redirect to /in
-            // We strip the invalid country segment and replace with 'in' if it was treated as country
-            // But for garbage like /sdfsdfsd, we just want to go to /in
-            
-            // Just for safety, let's look at the segments
-             $segments = $request->segments();
-            if (isset($segments[0]) && $segments[0] === $country) {
-                // If it was /sdfsdfsd/foo, we might want to preserve foo? 
-                // User said "misclicked or typed like any word sdfsdfsd... make it to default in".
-                // So strict redirect to /in is safest for garbage.
-                return redirect('/in');
-            }
-
-            return redirect('/in');
+            // Otherwise, garbage -> redirect to home (root)
+            return redirect('/');
         }
 
         // Enforce lowercase
-        if ($country !== $lowerCountry) {
+        if ($country && $country !== $lowerCountry) {
             $segments = $request->segments();
             if (isset($segments[0]) && $segments[0] === $country) {
                 $segments[0] = $lowerCountry;
                 return redirect()->to(implode('/', $segments));
             }
+        }
+
+        // Normalize route parameters for controllers: 
+        // Forget 'country' so it doesn't shift other parameters ($slug, $category, etc.)
+        if ($request->route()->hasParameter('country')) {
+            $request->route()->forgetParameter('country');
         }
 
         return $next($request);
