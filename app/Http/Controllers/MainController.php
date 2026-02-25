@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 namespace App\Http\Controllers;
 
@@ -67,14 +67,14 @@ class MainController extends Controller
         //     ], 422);
         // }
 
-        if (! empty($request->website)) {
+        if (!empty($request->website)) {
             return response()->json([
                 'status' => 'error',
                 'message' => 'Bot detected',
             ], 422);
         }
 
-        /** ✅ STORE LEAD IN DATABASE **/
+        /** âœ… STORE LEAD IN DATABASE **/
         WebsiteLead::create([
             'name' => $validated['form_name'],
             'email' => $validated['form_email'],
@@ -174,7 +174,7 @@ class MainController extends Controller
 
         $websiteLeads = $query->orderBy('created_at', 'desc')->get();
 
-        $fileName = 'website_leads_'.now()->format('Y_m_d_His').'.csv';
+        $fileName = 'website_leads_' . now()->format('Y_m_d_His') . '.csv';
 
         $headers = [
             'Content-Type' => 'text/csv',
@@ -248,8 +248,13 @@ class MainController extends Controller
         return view('frontend.whatsapp-intent');
     }
 
-    public function specificBlog($slug)
+    public function specificBlog($country = null, $slug = null)
     {
+        if ($slug === null) {
+            $slug = $country;
+        }
+        $country = request()->route('country');
+
         // $blogs = Blog::where('status', true)
         //     ->orderBy('published_at', 'desc');
         $allBlogs = Blog::where('status', true)
@@ -274,7 +279,7 @@ class MainController extends Controller
         $validCodes = ['se', 'no', 'ng', 'ae', 'us', 'sg', 'mv', 'sa', 'de', 'gb', 'ca', 'jo', 'pe', 'au', 'th', 'ru', 'fr', 'be', 'za', 'bg', 'tw', 'it', 'nl', 'in'];
 
         // Default to 'in' if no country segment or if it's a known path (meaning root domain access)
-        if (! $country || ! in_array(strtolower($country), $validCodes)) {
+        if (!$country || !in_array(strtolower($country), $validCodes)) {
             $country = 'in';
         }
 
@@ -294,23 +299,23 @@ class MainController extends Controller
         $domainPattern = implode('|', $domains);
 
         $html = preg_replace_callback(
-            '/href=([\'"])('.$domainPattern.')?(\/[^\'"]*)?(\1)/i',
+            '/href=([\'"])(' . $domainPattern . ')?(\/[^\'"]*)?(\1)/i',
             function ($matches) use ($country, $validCodes) {
                 $quote = $matches[1];
                 $baseUrl = $matches[2] ?? '';
                 $path = $matches[3] ?? '/';
 
                 // Normalize path to start with single slash
-                $path = '/'.ltrim($path, '/');
+                $path = '/' . ltrim($path, '/');
 
                 // Check if already prefixed with ANY valid country code
                 $segments = explode('/', ltrim($path, '/'));
-                if (! empty($segments[0]) && in_array(strtolower($segments[0]), $validCodes)) {
-                    return 'href='.$quote.$baseUrl.$path.$quote;
+                if (!empty($segments[0]) && in_array(strtolower($segments[0]), $validCodes)) {
+                    return 'href=' . $quote . $baseUrl . $path . $quote;
                 }
 
                 // Prepend target country
-                $newPath = '/'.$country.$path;
+                $newPath = '/' . $country . $path;
                 // Prevent double slashes and trailing slashes for clean SEO URLs
                 $newPath = preg_replace('#/+#', '/', $newPath);
                 $newPath = rtrim($newPath, '/');
@@ -318,7 +323,7 @@ class MainController extends Controller
                     $newPath = '/';
                 }
 
-                return 'href='.$quote.$baseUrl.$newPath.$quote;
+                return 'href=' . $quote . $baseUrl . $newPath . $quote;
             },
             $html
         );
@@ -401,7 +406,7 @@ class MainController extends Controller
         return view('frontend.blogs.din-standard-metal-alloys');
     }
 
-    public function uae’sUltimateGuide()
+    public function uaeâ€™sUltimateGuide()
     {
 
         return view('frontend.blogs.uaes-ultimate-guide');
@@ -524,8 +529,12 @@ class MainController extends Controller
         return view('frontend.materials.hastelloy.index', compact('blogs'));
     }
 
-    public function hastelloyGrade($slug)
+    public function hastelloyGrade($country = null, $slug = null)
     {
+        if ($slug === null) {
+            $slug = $country;
+        }
+        $country = request()->route('country');
         // Blogs
         $blogCategories = BlogCategory::where('status', 1)
             ->where('name', 'like', '%Hastelloy%')
@@ -538,7 +547,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.hastelloy.'.$slug, compact('blogs', 'slug'));
+        return view('frontend.materials.hastelloy.' . $slug, compact('blogs', 'slug', 'country'));
     }
 
     public function monel()
@@ -553,8 +562,12 @@ class MainController extends Controller
         return view('frontend.materials.monel.index', compact('blogs'));
     }
 
-    public function monelGrade($slug)
+    public function monelGrade($country = null, $slug = null)
     {
+        if ($slug === null) {
+            $slug = $country;
+        }
+        $country = request()->route('country');
         // Blogs
         $blogCategories = BlogCategory::where('status', 1)
             ->where('name', 'like', '%Monel%')
@@ -567,7 +580,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.monel.'.$slug, compact('blogs', 'slug'));
+        return view('frontend.materials.monel.' . $slug, compact('blogs', 'slug', 'country'));
     }
 
     public function incoloy()
@@ -582,8 +595,12 @@ class MainController extends Controller
         return view('frontend.materials.incoloy.index', compact('blogs'));
     }
 
-    public function incoloyGrade($slug)
+    public function incoloyGrade($country = null, $slug = null)
     {
+        if ($slug === null) {
+            $slug = $country;
+        }
+        $country = request()->route('country');
         // Blogs
         $blogCategories = BlogCategory::where('status', 1)
             ->where('name', 'like', '%Incoloy%')
@@ -596,7 +613,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.incoloy.'.$slug, compact('blogs', 'slug'));
+        return view('frontend.materials.incoloy.' . $slug, compact('blogs', 'slug', 'country'));
     }
 
     public function nickelBasedSuperalloys()
@@ -611,8 +628,12 @@ class MainController extends Controller
         return view('frontend.materials.nickel-based-superalloys.index', compact('blogs'));
     }
 
-    public function nickelBasedSuperalloysGrade($slug)
+    public function nickelBasedSuperalloysGrade($country = null, $slug = null)
     {
+        if ($slug === null) {
+            $slug = $country;
+        }
+        $country = request()->route('country');
         // Blogs
         $blogCategories = BlogCategory::where('status', 1)
             ->where('name', 'like', '%Nickel Based Superalloys%')
@@ -625,7 +646,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.nickel-based-superalloys.'.$slug, compact('blogs', 'slug'));
+        return view('frontend.materials.nickel-based-superalloys.' . $slug, compact('blogs', 'slug', 'country'));
     }
 
     public function inconel()
@@ -640,8 +661,12 @@ class MainController extends Controller
         return view('frontend.materials.inconel.index', compact('blogs'));
     }
 
-    public function inconelGrade($slug)
+    public function inconelGrade($country = null, $slug = null)
     {
+        if ($slug === null) {
+            $slug = $country;
+        }
+        $country = request()->route('country');
         // Blogs
         $blogCategories = BlogCategory::where('status', 1)
             ->where('name', 'like', '%Inconel%')
@@ -654,7 +679,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.inconel.'.$slug, compact('blogs', 'slug'));
+        return view('frontend.materials.inconel.' . $slug, compact('blogs', 'slug', 'country'));
     }
 
     public function titanium()
@@ -669,8 +694,12 @@ class MainController extends Controller
         return view('frontend.materials.titanium.index', compact('blogs'));
     }
 
-    public function titaniumGrade($slug)
+    public function titaniumGrade($country = null, $slug = null)
     {
+        if ($slug === null) {
+            $slug = $country;
+        }
+        $country = request()->route('country');
         // Blogs
         $blogCategories = BlogCategory::where('status', 1)
             ->where('name', 'like', '%Titanium%')
@@ -683,7 +712,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.titanium.'.$slug, compact('blogs', 'slug'));
+        return view('frontend.materials.titanium.' . $slug, compact('blogs', 'slug', 'country'));
     }
 
     public function aluminiumAlloys()
@@ -701,8 +730,12 @@ class MainController extends Controller
         return view('frontend.materials.aluminium-alloys.index', compact('blogs'));
     }
 
-    public function aluminiumAlloysGrade($slug)
+    public function aluminiumAlloysGrade($country = null, $slug = null)
     {
+        if ($slug === null) {
+            $slug = $country;
+        }
+        $country = request()->route('country');
         // Blogs
         $blogCategories = BlogCategory::where('status', 1)
             ->where('name', 'like', '%Aluminium Alloys%')
@@ -715,7 +748,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.aluminium-alloys.'.$slug, compact('blogs', 'slug'));
+        return view('frontend.materials.aluminium-alloys.' . $slug, compact('blogs', 'slug', 'country'));
     }
 
     public function superAusteniticStainlessSteel()
@@ -730,8 +763,12 @@ class MainController extends Controller
         return view('frontend.materials.super-austenitic-stainless-steel.index', compact('blogs'));
     }
 
-    public function superAusteniticStainlessSteelGrade($slug)
+    public function superAusteniticStainlessSteelGrade($country = null, $slug = null)
     {
+        if ($slug === null) {
+            $slug = $country;
+        }
+        $country = request()->route('country');
         // Blogs
         $blogCategories = BlogCategory::where('status', 1)
             ->where('name', 'like', '%Super Austenitic Stainless Steel%')
@@ -744,7 +781,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.super-austenitic-stainless-steel.'.$slug, compact('blogs', 'slug'));
+        return view('frontend.materials.super-austenitic-stainless-steel.' . $slug, compact('blogs', 'slug', 'country'));
     }
 
     public function hardToFindAndSpecialAlloys()
@@ -760,8 +797,12 @@ class MainController extends Controller
 
     }
 
-    public function hardToFindAndSpecialAlloysGrade($slug)
+    public function hardToFindAndSpecialAlloysGrade($country = null, $slug = null)
     {
+        if ($slug === null) {
+            $slug = $country;
+        }
+        $country = request()->route('country');
         // Blogs
         $blogCategories = BlogCategory::where('status', 1)
             ->where('name', 'like', '%Hard To Find and Special Alloy%')
@@ -774,7 +815,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.hard-to-find-special-alloys.'.$slug, compact('blogs', 'slug'));
+        return view('frontend.materials.hard-to-find-special-alloys.' . $slug, compact('blogs', 'slug', 'country'));
     }
 
     public function austeniticStainlessSteel()
@@ -790,8 +831,12 @@ class MainController extends Controller
 
     }
 
-    public function austeniticStainlessSteelGrade($slug)
+    public function austeniticStainlessSteelGrade($country = null, $slug = null)
     {
+        if ($slug === null) {
+            $slug = $country;
+        }
+        $country = request()->route('country');
         // Blogs
         $blogCategories = BlogCategory::where('status', 1)
             ->where('name', 'like', '%Austenitic Stainless Steel%')
@@ -804,7 +849,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.austenitic-stainless-steel.'.$slug, compact('blogs', 'slug'));
+        return view('frontend.materials.austenitic-stainless-steel.' . $slug, compact('blogs', 'slug', 'country'));
     }
 
     public function engineeringSteels()
@@ -819,8 +864,12 @@ class MainController extends Controller
         return view('frontend.materials.engineering-steels.index', compact('blogs'));
     }
 
-    public function engineeringSteelsGrade($slug)
+    public function engineeringSteelsGrade($country = null, $slug = null)
     {
+        if ($slug === null) {
+            $slug = $country;
+        }
+        $country = request()->route('country');
         // Blogs
         $blogCategories = BlogCategory::where('status', 1)
             ->where('name', 'like', '%Engineering Steel%')
@@ -833,7 +882,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.engineering-steels.'.$slug, compact('blogs', 'slug'));
+        return view('frontend.materials.engineering-steels.' . $slug, compact('blogs', 'slug', 'country'));
     }
 
     public function copperAlloys()
@@ -848,8 +897,12 @@ class MainController extends Controller
         return view('frontend.materials.copper-alloys.index', compact('blogs'));
     }
 
-    public function copperAlloysGrade($slug)
+    public function copperAlloysGrade($country = null, $slug = null)
     {
+        if ($slug === null) {
+            $slug = $country;
+        }
+        $country = request()->route('country');
         // Blogs
         $blogCategories = BlogCategory::where('status', 1)
             ->where('name', 'like', '%Copper Alloys%')
@@ -862,7 +915,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.copper-alloys.'.$slug, compact('blogs', 'slug'));
+        return view('frontend.materials.copper-alloys.' . $slug, compact('blogs', 'slug', 'country'));
     }
 
     public function zirconium()
@@ -877,8 +930,12 @@ class MainController extends Controller
         return view('frontend.materials.zirconium.index', compact('blogs'));
     }
 
-    public function zirconiumGrade($slug)
+    public function zirconiumGrade($country = null, $slug = null)
     {
+        if ($slug === null) {
+            $slug = $country;
+        }
+        $country = request()->route('country');
         // Blogs
         $blogCategories = BlogCategory::where('status', 1)
             ->where('name', 'like', '%Zirconium%')
@@ -891,7 +948,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.zirconium.'.$slug, compact('blogs', 'slug'));
+        return view('frontend.materials.zirconium.' . $slug, compact('blogs', 'slug', 'country'));
     }
 
     public function haynesSuperalloys()
@@ -906,8 +963,12 @@ class MainController extends Controller
         return view('frontend.materials.haynes-superalloys.index', compact('blogs'));
     }
 
-    public function haynesSuperalloysGrade($slug)
+    public function haynesSuperalloysGrade($country = null, $slug = null)
     {
+        if ($slug === null) {
+            $slug = $country;
+        }
+        $country = request()->route('country');
         // Blogs
         $blogCategories = BlogCategory::where('status', 1)
             ->where('name', 'like', '%Haynes Alloys%')
@@ -920,7 +981,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.haynes-superalloys.'.$slug, compact('blogs', 'slug'));
+        return view('frontend.materials.haynes-superalloys.' . $slug, compact('blogs', 'slug', 'country'));
     }
 
     public function duplexAndSuperDuplex()
@@ -935,8 +996,12 @@ class MainController extends Controller
         return view('frontend.materials.duplex-and-super-duplex.index', compact('blogs'));
     }
 
-    public function duplexAndSuperDuplexGrade($slug)
+    public function duplexAndSuperDuplexGrade($country = null, $slug = null)
     {
+        if ($slug === null) {
+            $slug = $country;
+        }
+        $country = request()->route('country');
         // Blogs
         $blogCategories = BlogCategory::where('status', 1)
             ->where('name', 'like', '%Duplex & Super Duplex%')
@@ -949,7 +1014,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.duplex-and-super-duplex.'.$slug, compact('blogs', 'slug'));
+        return view('frontend.materials.duplex-and-super-duplex.' . $slug, compact('blogs', 'slug', 'country'));
     }
 
     public function highStrengthStainlessSteel()
@@ -964,8 +1029,12 @@ class MainController extends Controller
         return view('frontend.materials.high-strength-stainless-steel.index', compact('blogs'));
     }
 
-    public function highStrengthStainlessSteelGrade($slug)
+    public function highStrengthStainlessSteelGrade($country = null, $slug = null)
     {
+        if ($slug === null) {
+            $slug = $country;
+        }
+        $country = request()->route('country');
         // Blogs
         $blogCategories = BlogCategory::where('status', 1)
             ->where('name', 'like', '%High Strength Stainless Steel%')
@@ -978,7 +1047,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.high-strength-stainless-steel.'.$slug, compact('blogs', 'slug'));
+        return view('frontend.materials.high-strength-stainless-steel.' . $slug, compact('blogs', 'slug', 'country'));
     }
 
     public function showMaterialGrade($family, $grade)
@@ -1230,7 +1299,7 @@ class MainController extends Controller
         // Path to PDF in storage/app/public/datasheets/
         $filePath = storage_path('app/public/datasheets/en8.pdf');
 
-        if (! file_exists($filePath)) {
+        if (!file_exists($filePath)) {
             abort(404, 'File not found');
         }
 
@@ -1362,7 +1431,7 @@ class MainController extends Controller
 //             ], 422);
 //         }
 
-//         /** ✅ STORE LEAD IN DATABASE **/
+//         /** âœ… STORE LEAD IN DATABASE **/
 //         WebsiteLead::create([
 //             'name' => $validated['form_name'],
 //             'email' => $validated['form_email'],
@@ -1686,7 +1755,7 @@ class MainController extends Controller
 //         return view('frontend.blogs.din-standard-metal-alloys');
 //     }
 
-//     public function uae’sUltimateGuide()
+//     public function uaeâ€™sUltimateGuide()
 //     {
 
 //         return view('frontend.blogs.uaes-ultimate-guide');
@@ -1809,7 +1878,7 @@ class MainController extends Controller
 //         return view('frontend.materials.hastelloy.index', compact('blogs'));
 //     }
 
-//     public function hastelloyGrade($slug)
+//     public function hastelloyGrade(\Illuminate\Http\Request $request, $slug = null)
 //     {
 //         // Blogs
 //         $blogCategories = BlogCategory::where('status', 1)
@@ -1823,7 +1892,7 @@ class MainController extends Controller
 //             ->paginate(3);
 
 //         // Pass current slug (optional)
-//         return view('frontend.materials.hastelloy.' . $slug, compact('blogs', 'slug'));
+//         return view('frontend.materials.hastelloy.' . $slug, compact('blogs', 'slug', 'country'));
 //     }
 
 //     public function monel()
@@ -1838,7 +1907,7 @@ class MainController extends Controller
 //         return view('frontend.materials.monel.index', compact('blogs'));
 //     }
 
-//     public function monelGrade($slug)
+//     public function monelGrade(\Illuminate\Http\Request $request, $slug = null)
 //     {
 //         // Blogs
 //         $blogCategories = BlogCategory::where('status', 1)
@@ -1852,7 +1921,7 @@ class MainController extends Controller
 //             ->paginate(3);
 
 //         // Pass current slug (optional)
-//         return view('frontend.materials.monel.' . $slug, compact('blogs', 'slug'));
+//         return view('frontend.materials.monel.' . $slug, compact('blogs', 'slug', 'country'));
 //     }
 
 //     public function incoloy()
@@ -1867,7 +1936,7 @@ class MainController extends Controller
 //         return view('frontend.materials.incoloy.index', compact('blogs'));
 //     }
 
-//     public function incoloyGrade($slug)
+//     public function incoloyGrade(\Illuminate\Http\Request $request, $slug = null)
 //     {
 //         // Blogs
 //         $blogCategories = BlogCategory::where('status', 1)
@@ -1881,7 +1950,7 @@ class MainController extends Controller
 //             ->paginate(3);
 
 //         // Pass current slug (optional)
-//         return view('frontend.materials.incoloy.' . $slug, compact('blogs', 'slug'));
+//         return view('frontend.materials.incoloy.' . $slug, compact('blogs', 'slug', 'country'));
 //     }
 
 //     public function nickelBasedSuperalloys()
@@ -1896,7 +1965,7 @@ class MainController extends Controller
 //         return view('frontend.materials.nickel-based-superalloys.index', compact('blogs'));
 //     }
 
-//     public function nickelBasedSuperalloysGrade($slug)
+//     public function nickelBasedSuperalloysGrade(\Illuminate\Http\Request $request, $slug = null)
 //     {
 //         // Blogs
 //         $blogCategories = BlogCategory::where('status', 1)
@@ -1910,7 +1979,7 @@ class MainController extends Controller
 //             ->paginate(3);
 
 //         // Pass current slug (optional)
-//         return view('frontend.materials.nickel-based-superalloys.' . $slug, compact('blogs', 'slug'));
+//         return view('frontend.materials.nickel-based-superalloys.' . $slug, compact('blogs', 'slug', 'country'));
 //     }
 
 //     public function inconel()
@@ -1925,7 +1994,7 @@ class MainController extends Controller
 //         return view('frontend.materials.inconel.index', compact('blogs'));
 //     }
 
-//     public function inconelGrade($slug)
+//     public function inconelGrade(\Illuminate\Http\Request $request, $slug = null)
 //     {
 //         // Blogs
 //         $blogCategories = BlogCategory::where('status', 1)
@@ -1939,7 +2008,7 @@ class MainController extends Controller
 //             ->paginate(3);
 
 //         // Pass current slug (optional)
-//         return view('frontend.materials.inconel.' . $slug, compact('blogs', 'slug'));
+//         return view('frontend.materials.inconel.' . $slug, compact('blogs', 'slug', 'country'));
 //     }
 
 //     public function titanium()
@@ -1954,7 +2023,7 @@ class MainController extends Controller
 //         return view('frontend.materials.titanium.index', compact('blogs'));
 //     }
 
-//     public function titaniumGrade($slug)
+//     public function titaniumGrade(\Illuminate\Http\Request $request, $slug = null)
 //     {
 //         // Blogs
 //         $blogCategories = BlogCategory::where('status', 1)
@@ -1968,7 +2037,7 @@ class MainController extends Controller
 //             ->paginate(3);
 
 //         // Pass current slug (optional)
-//         return view('frontend.materials.titanium.' . $slug, compact('blogs', 'slug'));
+//         return view('frontend.materials.titanium.' . $slug, compact('blogs', 'slug', 'country'));
 //     }
 
 //     public function aluminiumAlloys()
@@ -1986,7 +2055,7 @@ class MainController extends Controller
 //         return view('frontend.materials.aluminium-alloys.index', compact('blogs'));
 //     }
 
-//     public function aluminiumAlloysGrade($slug)
+//     public function aluminiumAlloysGrade(\Illuminate\Http\Request $request, $slug = null)
 //     {
 //         // Blogs
 //         $blogCategories = BlogCategory::where('status', 1)
@@ -2000,7 +2069,7 @@ class MainController extends Controller
 //             ->paginate(3);
 
 //         // Pass current slug (optional)
-//         return view('frontend.materials.aluminium-alloys.' . $slug, compact('blogs', 'slug'));
+//         return view('frontend.materials.aluminium-alloys.' . $slug, compact('blogs', 'slug', 'country'));
 //     }
 
 //     public function superAusteniticStainlessSteel()
@@ -2015,7 +2084,7 @@ class MainController extends Controller
 //         return view('frontend.materials.super-austenitic-stainless-steel.index', compact('blogs'));
 //     }
 
-//     public function superAusteniticStainlessSteelGrade($slug)
+//     public function superAusteniticStainlessSteelGrade(\Illuminate\Http\Request $request, $slug = null)
 //     {
 //         // Blogs
 //         $blogCategories = BlogCategory::where('status', 1)
@@ -2029,7 +2098,7 @@ class MainController extends Controller
 //             ->paginate(3);
 
 //         // Pass current slug (optional)
-//         return view('frontend.materials.super-austenitic-stainless-steel.' . $slug, compact('blogs', 'slug'));
+//         return view('frontend.materials.super-austenitic-stainless-steel.' . $slug, compact('blogs', 'slug', 'country'));
 //     }
 
 //     public function hardToFindAndSpecialAlloys()
@@ -2045,7 +2114,7 @@ class MainController extends Controller
 
 //     }
 
-//     public function hardToFindAndSpecialAlloysGrade($slug)
+//     public function hardToFindAndSpecialAlloysGrade(\Illuminate\Http\Request $request, $slug = null)
 //     {
 //         // Blogs
 //         $blogCategories = BlogCategory::where('status', 1)
@@ -2059,7 +2128,7 @@ class MainController extends Controller
 //             ->paginate(3);
 
 //         // Pass current slug (optional)
-//         return view('frontend.materials.hard-to-find-special-alloys.' . $slug, compact('blogs', 'slug'));
+//         return view('frontend.materials.hard-to-find-special-alloys.' . $slug, compact('blogs', 'slug', 'country'));
 //     }
 
 //     public function austeniticStainlessSteel()
@@ -2075,7 +2144,7 @@ class MainController extends Controller
 
 //     }
 
-//     public function austeniticStainlessSteelGrade($slug)
+//     public function austeniticStainlessSteelGrade(\Illuminate\Http\Request $request, $slug = null)
 //     {
 //         // Blogs
 //         $blogCategories = BlogCategory::where('status', 1)
@@ -2089,7 +2158,7 @@ class MainController extends Controller
 //             ->paginate(3);
 
 //         // Pass current slug (optional)
-//         return view('frontend.materials.austenitic-stainless-steel.' . $slug, compact('blogs', 'slug'));
+//         return view('frontend.materials.austenitic-stainless-steel.' . $slug, compact('blogs', 'slug', 'country'));
 //     }
 
 //     public function engineeringSteels()
@@ -2104,7 +2173,7 @@ class MainController extends Controller
 //         return view('frontend.materials.engineering-steels.index', compact('blogs'));
 //     }
 
-//     public function engineeringSteelsGrade($slug)
+//     public function engineeringSteelsGrade(\Illuminate\Http\Request $request, $slug = null)
 //     {
 //         // Blogs
 //         $blogCategories = BlogCategory::where('status', 1)
@@ -2118,7 +2187,7 @@ class MainController extends Controller
 //             ->paginate(3);
 
 //         // Pass current slug (optional)
-//         return view('frontend.materials.engineering-steels.' . $slug, compact('blogs', 'slug'));
+//         return view('frontend.materials.engineering-steels.' . $slug, compact('blogs', 'slug', 'country'));
 //     }
 
 //     public function copperAlloys()
@@ -2133,7 +2202,7 @@ class MainController extends Controller
 //         return view('frontend.materials.copper-alloys.index', compact('blogs'));
 //     }
 
-//     public function copperAlloysGrade($slug)
+//     public function copperAlloysGrade(\Illuminate\Http\Request $request, $slug = null)
 //     {
 //         // Blogs
 //         $blogCategories = BlogCategory::where('status', 1)
@@ -2147,7 +2216,7 @@ class MainController extends Controller
 //             ->paginate(3);
 
 //         // Pass current slug (optional)
-//         return view('frontend.materials.copper-alloys.' . $slug, compact('blogs', 'slug'));
+//         return view('frontend.materials.copper-alloys.' . $slug, compact('blogs', 'slug', 'country'));
 //     }
 
 //     public function zirconium()
@@ -2162,7 +2231,7 @@ class MainController extends Controller
 //         return view('frontend.materials.zirconium.index', compact('blogs'));
 //     }
 
-//     public function zirconiumGrade($slug)
+//     public function zirconiumGrade(\Illuminate\Http\Request $request, $slug = null)
 //     {
 //         // Blogs
 //         $blogCategories = BlogCategory::where('status', 1)
@@ -2176,7 +2245,7 @@ class MainController extends Controller
 //             ->paginate(3);
 
 //         // Pass current slug (optional)
-//         return view('frontend.materials.zirconium.' . $slug, compact('blogs', 'slug'));
+//         return view('frontend.materials.zirconium.' . $slug, compact('blogs', 'slug', 'country'));
 //     }
 
 //     public function haynesSuperalloys()
@@ -2191,7 +2260,7 @@ class MainController extends Controller
 //         return view('frontend.materials.haynes-superalloys.index', compact('blogs'));
 //     }
 
-//     public function haynesSuperalloysGrade($slug)
+//     public function haynesSuperalloysGrade(\Illuminate\Http\Request $request, $slug = null)
 //     {
 //         // Blogs
 //         $blogCategories = BlogCategory::where('status', 1)
@@ -2205,7 +2274,7 @@ class MainController extends Controller
 //             ->paginate(3);
 
 //         // Pass current slug (optional)
-//         return view('frontend.materials.haynes-superalloys.' . $slug, compact('blogs', 'slug'));
+//         return view('frontend.materials.haynes-superalloys.' . $slug, compact('blogs', 'slug', 'country'));
 //     }
 
 //     public function duplexAndSuperDuplex()
@@ -2220,7 +2289,7 @@ class MainController extends Controller
 //         return view('frontend.materials.duplex-and-super-duplex.index', compact('blogs'));
 //     }
 
-//     public function duplexAndSuperDuplexGrade($slug)
+//     public function duplexAndSuperDuplexGrade(\Illuminate\Http\Request $request, $slug = null)
 //     {
 //         // Blogs
 //         $blogCategories = BlogCategory::where('status', 1)
@@ -2234,7 +2303,7 @@ class MainController extends Controller
 //             ->paginate(3);
 
 //         // Pass current slug (optional)
-//         return view('frontend.materials.duplex-and-super-duplex.' . $slug, compact('blogs', 'slug'));
+//         return view('frontend.materials.duplex-and-super-duplex.' . $slug, compact('blogs', 'slug', 'country'));
 //     }
 
 //     public function highStrengthStainlessSteel()
@@ -2249,7 +2318,7 @@ class MainController extends Controller
 //         return view('frontend.materials.high-strength-stainless-steel.index', compact('blogs'));
 //     }
 
-//     public function highStrengthStainlessSteelGrade($slug)
+//     public function highStrengthStainlessSteelGrade(\Illuminate\Http\Request $request, $slug = null)
 //     {
 //         // Blogs
 //         $blogCategories = BlogCategory::where('status', 1)
@@ -2263,7 +2332,7 @@ class MainController extends Controller
 //             ->paginate(3);
 
 //         // Pass current slug (optional)
-//         return view('frontend.materials.high-strength-stainless-steel.' . $slug, compact('blogs', 'slug'));
+//         return view('frontend.materials.high-strength-stainless-steel.' . $slug, compact('blogs', 'slug', 'country'));
 //     }
 
 //     public function showMaterialGrade($family, $grade)

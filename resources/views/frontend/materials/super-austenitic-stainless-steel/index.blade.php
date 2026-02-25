@@ -80,7 +80,7 @@
                     @php
                         $href =
                             $grade['slug'] !== '#'
-                                ? url('/materials/super-austenitic-stainless-steel/' . $grade['slug'])
+                                ? url((in_array(strtolower(request()->segment(1)), ['se','no','ng','ae','us','sg','mv','sa','de','gb','ca','jo','pe','au','th','ru','fr','be','za','bg','tw','it','nl','in']) ? '/' . request()->segment(1) : '') . '/materials/super-austenitic-stainless-steel/' . $grade['slug'])
                                 : '#';
                     @endphp
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
