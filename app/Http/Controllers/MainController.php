@@ -1065,6 +1065,14 @@ class MainController extends Controller
         return view('frontend.products.pipes-tubes.SS-316-ERW-pipes');
     }
 
+    // welded pipes subproduct
+
+    public function ss304weldedpipes()
+    {
+        return view('frontend.products.pipes-tubes.welded-pipes.ss-304-welded-pipes');
+    }
+
+
     // Special Fabricated Product
     public function specialFabricated()
     {

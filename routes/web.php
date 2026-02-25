@@ -188,6 +188,8 @@ $defineRoutes = function () {
     Route::get('/products/pipes-tubes/SS-304-ERW-pipes', [MainController::class, 'SS304ERWPipes'])->name('products.pipes-tubes.SS-304-ERW-pipes');
     Route::get('/products/pipes-tubes/SS-316-ERW-pipes', [MainController::class, 'SS316ERWPipes'])->name('products.pipes-tubes.SS-316-ERW-pipes');
 
+    Route::get('/products/pipes-tubes/welded-pipes/ss-304-welded-pipes', [MainController::class, 'ss304WeldedPipes'])->name('products.pipes-tubes.welded-pipes.ss-304-welded-pipes');
+
     Route::get('/products/special-fabricated', [MainController::class, 'specialFabricated'])->name('products.special-fabricated');
     Route::get('/products/special-fabricated/custom-steel-furniture', [MainController::class, 'customSteelFurniture'])->name('products.special-fabricated.custom-steel-furniture');
     Route::get('/products/special-fabricated/fabricated-ss-grills', [MainController::class, 'fabricatedSsGrills'])->name('products.special-fabricated.fabricated-ss-grills');
