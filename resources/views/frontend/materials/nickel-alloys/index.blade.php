@@ -37,7 +37,7 @@
     @php
         $slug = Str::slug($grade);
         $url = $slug === 'c276'
-            ? url('/materials/nickel-alloys/hastelloy-c276')
+            ? url((in_array(strtolower(request()->segment(1)), ['se','no','ng','ae','us','sg','mv','sa','de','gb','ca','jo','pe','au','th','ru','fr','be','za','bg','tw','it','nl','in']) ? '/' . request()->segment(1) : '') . '/materials/nickel-alloys/hastelloy-c276')
             : '#';
     @endphp
 
