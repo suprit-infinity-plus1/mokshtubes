@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 namespace App\Http\Controllers;
 
@@ -1139,6 +1139,16 @@ class MainController extends Controller
     public function ss304weldedpipes()
     {
         return view('frontend.products.pipes-tubes.welded-pipes.ss-304-welded-pipes');
+    }
+
+    public function ss304SemiWeldedPipes()
+    {
+        return view('frontend.products.pipes-tubes.welded-pipes.ss-304-semi-welded-pipes');
+    }
+
+    public function ss316WeldedPipes()
+    {
+        return view('frontend.products.pipes-tubes.welded-pipes.ss-316-welded-pipes');
     }
 
 
