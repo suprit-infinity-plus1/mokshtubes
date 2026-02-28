@@ -208,6 +208,7 @@ $defineRoutes = function () {
     Route::get('/products/pipe-fittings-flanges-fasteners/fasteners/astm-a193-grade-b7-stud-bolts', [MainController::class, 'astmA193GradeB7StudBolts'])->name('products.pipe-fittings-flanges-fasteners.fasteners.astm-a193-grade-b7-stud-bolts');
     Route::get('/products/pipe-fittings-flanges-fasteners/fasteners/astm-a193-grade-b8-stud-bolts', [MainController::class, 'astmA193GradeB8StudBolts'])->name('products.pipe-fittings-flanges-fasteners.fasteners.astm-a193-grade-b8-stud-bolts');
     Route::get('/products/pipe-fittings-flanges-fasteners/fasteners/hex-bolts', [MainController::class, 'hexBolts'])->name('products.pipe-fittings-flanges-fasteners.fasteners.hex-bolts');
+    Route::get('/products/pipe-fittings-flanges-fasteners/fasteners/heavy-hex-nuts', [MainController::class, 'heavyHexNuts'])->name('products.pipe-fittings-flanges-fasteners.fasteners.heavy-hex-nuts');
 
     Route::get('/products/sheets-plates-coils', [MainController::class, 'sheetsPlatesCoils'])->name('products.sheets-plates-coils');
     Route::get('/products/sheets-plates-coils/chequered-sheets', [MainController::class, 'chequeredSheets'])->name('products.sheets-plates-coils.chequered-sheets');

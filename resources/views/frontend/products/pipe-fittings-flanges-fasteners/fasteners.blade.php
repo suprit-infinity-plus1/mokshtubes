@@ -169,6 +169,23 @@
                         </div>
                     </a>
                 </div>
+                <!-- Adding Heavy Hex Nuts Link -->
+                <div class="col-12 col-sm-6 col-lg-4 mt-4 mt-lg-0">
+                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.heavy-hex-nuts') }}"
+                        class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+
+                            <img src="{{ asset('assets/images/fasteners/hax-2.png') }}" alt="Heavy Hex Nuts"
+                                class="img-fluid rounded mb-3" style="border-radius: 8px;">
+
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                Heavy Hex Nuts
+                            </h6>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </section>

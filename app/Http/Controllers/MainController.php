@@ -1241,6 +1241,11 @@ class MainController extends Controller
         return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.hex-bolts');
     }
 
+    public function heavyHexNuts()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.heavy-hex-nuts');
+    }
+
     public function pipeFittings()
     {
         return view('frontend.products.pipe-fittings-flanges-fasteners.pipe-fittings');
