@@ -16,7 +16,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1 class="page-title">Boiler & Heat Exchanger Tubes â€“ ASTM A179 / A192 / A213 (Seamless, Welded &
+                    <h1 class="page-title">Boiler & Heat Exchanger Tubes ASTM A179 / A192 / A213 (Seamless, Welded &
                         U-Bend)</h1>
 
                 </div>
