@@ -290,7 +290,7 @@
                 <div class="col-md-6">
                     <div class="advantage-card h-100">
                         <div class="advantage-icon"><i class="bi bi-gear"></i></div>
-                        <h4><a href="{{ route('products.pipes-tubes.SS-316-ERW-pipes') }}"
+                        <h4><a href="{{ route('products.pipes-tubes.welded-pipes.SS-316-ERW-pipes') }}"
                                 class="text-black text-decoration-none">ERW (Electric Resistance Welded)</a></h4>
                         <ol class="text-start fs-6 ms-4 mt-3">
                             <li>Stainless steel coil is slit to required width</li>

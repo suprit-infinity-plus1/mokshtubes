@@ -18,6 +18,9 @@
                 <div class="col-auto text-center">
                     <h1 class="page-title">Boiler & Heat Exchanger Tubes ASTM A179 / A192 / A213 (Seamless, Welded &
                         U-Bend)</h1>
+                        <p class="text-center mt-3 px-3 py-2 text-white position-relative" style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                        Boiler & Heat Exchanger Tubes are engineered for high-temperature, high-pressure and corrosive operating environments, making them essential for boilers, power plants, condensers, superheaters, and industrial heat exchangers. At <a href="{{ route('index') }}" class="text-white text-decoration-underline">Moksh Tubes & Fittings LLP</a>, we supply precision-manufactured seamless, welded, and U-bend tubes in carbon steel, alloy steel, stainless steel, duplex, nickel alloys, titanium, and copper-nickel grades—fully compliant with ASTM, ASME, DIN, and EN standards.  
+                    </p>
 
                 </div>
             </div>

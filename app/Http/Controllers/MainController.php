@@ -67,7 +67,7 @@ class MainController extends Controller
         //     ], 422);
         // }
 
-        if (!empty($request->website)) {
+        if (! empty($request->website)) {
             return response()->json([
                 'status' => 'error',
                 'message' => 'Bot detected',
@@ -174,7 +174,7 @@ class MainController extends Controller
 
         $websiteLeads = $query->orderBy('created_at', 'desc')->get();
 
-        $fileName = 'website_leads_' . now()->format('Y_m_d_His') . '.csv';
+        $fileName = 'website_leads_'.now()->format('Y_m_d_His').'.csv';
 
         $headers = [
             'Content-Type' => 'text/csv',
@@ -279,7 +279,7 @@ class MainController extends Controller
         $validCodes = ['se', 'no', 'ng', 'ae', 'us', 'sg', 'mv', 'sa', 'de', 'gb', 'ca', 'jo', 'pe', 'au', 'th', 'ru', 'fr', 'be', 'za', 'bg', 'tw', 'it', 'nl', 'in'];
 
         // Default to 'in' if no country segment or if it's a known path (meaning root domain access)
-        if (!$country || !in_array(strtolower($country), $validCodes)) {
+        if (! $country || ! in_array(strtolower($country), $validCodes)) {
             $country = 'in';
         }
 
@@ -299,23 +299,23 @@ class MainController extends Controller
         $domainPattern = implode('|', $domains);
 
         $html = preg_replace_callback(
-            '/href=([\'"])(' . $domainPattern . ')?(\/[^\'"]*)?(\1)/i',
+            '/href=([\'"])('.$domainPattern.')?(\/[^\'"]*)?(\1)/i',
             function ($matches) use ($country, $validCodes) {
                 $quote = $matches[1];
                 $baseUrl = $matches[2] ?? '';
                 $path = $matches[3] ?? '/';
 
                 // Normalize path to start with single slash
-                $path = '/' . ltrim($path, '/');
+                $path = '/'.ltrim($path, '/');
 
                 // Check if already prefixed with ANY valid country code
                 $segments = explode('/', ltrim($path, '/'));
-                if (!empty($segments[0]) && in_array(strtolower($segments[0]), $validCodes)) {
-                    return 'href=' . $quote . $baseUrl . $path . $quote;
+                if (! empty($segments[0]) && in_array(strtolower($segments[0]), $validCodes)) {
+                    return 'href='.$quote.$baseUrl.$path.$quote;
                 }
 
                 // Prepend target country
-                $newPath = '/' . $country . $path;
+                $newPath = '/'.$country.$path;
                 // Prevent double slashes and trailing slashes for clean SEO URLs
                 $newPath = preg_replace('#/+#', '/', $newPath);
                 $newPath = rtrim($newPath, '/');
@@ -323,7 +323,7 @@ class MainController extends Controller
                     $newPath = '/';
                 }
 
-                return 'href=' . $quote . $baseUrl . $newPath . $quote;
+                return 'href='.$quote.$baseUrl.$newPath.$quote;
             },
             $html
         );
@@ -547,7 +547,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.hastelloy.' . $slug, compact('blogs', 'slug', 'country'));
+        return view('frontend.materials.hastelloy.'.$slug, compact('blogs', 'slug', 'country'));
     }
 
     public function monel()
@@ -580,7 +580,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.monel.' . $slug, compact('blogs', 'slug', 'country'));
+        return view('frontend.materials.monel.'.$slug, compact('blogs', 'slug', 'country'));
     }
 
     public function incoloy()
@@ -613,7 +613,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.incoloy.' . $slug, compact('blogs', 'slug', 'country'));
+        return view('frontend.materials.incoloy.'.$slug, compact('blogs', 'slug', 'country'));
     }
 
     public function nickelBasedSuperalloys()
@@ -646,7 +646,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.nickel-based-superalloys.' . $slug, compact('blogs', 'slug', 'country'));
+        return view('frontend.materials.nickel-based-superalloys.'.$slug, compact('blogs', 'slug', 'country'));
     }
 
     public function inconel()
@@ -679,7 +679,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.inconel.' . $slug, compact('blogs', 'slug', 'country'));
+        return view('frontend.materials.inconel.'.$slug, compact('blogs', 'slug', 'country'));
     }
 
     public function titanium()
@@ -712,7 +712,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.titanium.' . $slug, compact('blogs', 'slug', 'country'));
+        return view('frontend.materials.titanium.'.$slug, compact('blogs', 'slug', 'country'));
     }
 
     public function aluminiumAlloys()
@@ -748,7 +748,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.aluminium-alloys.' . $slug, compact('blogs', 'slug', 'country'));
+        return view('frontend.materials.aluminium-alloys.'.$slug, compact('blogs', 'slug', 'country'));
     }
 
     public function superAusteniticStainlessSteel()
@@ -781,7 +781,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.super-austenitic-stainless-steel.' . $slug, compact('blogs', 'slug', 'country'));
+        return view('frontend.materials.super-austenitic-stainless-steel.'.$slug, compact('blogs', 'slug', 'country'));
     }
 
     public function hardToFindAndSpecialAlloys()
@@ -815,7 +815,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.hard-to-find-special-alloys.' . $slug, compact('blogs', 'slug', 'country'));
+        return view('frontend.materials.hard-to-find-special-alloys.'.$slug, compact('blogs', 'slug', 'country'));
     }
 
     public function austeniticStainlessSteel()
@@ -849,7 +849,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.austenitic-stainless-steel.' . $slug, compact('blogs', 'slug', 'country'));
+        return view('frontend.materials.austenitic-stainless-steel.'.$slug, compact('blogs', 'slug', 'country'));
     }
 
     public function engineeringSteels()
@@ -882,7 +882,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.engineering-steels.' . $slug, compact('blogs', 'slug', 'country'));
+        return view('frontend.materials.engineering-steels.'.$slug, compact('blogs', 'slug', 'country'));
     }
 
     public function copperAlloys()
@@ -915,7 +915,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.copper-alloys.' . $slug, compact('blogs', 'slug', 'country'));
+        return view('frontend.materials.copper-alloys.'.$slug, compact('blogs', 'slug', 'country'));
     }
 
     public function zirconium()
@@ -948,7 +948,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.zirconium.' . $slug, compact('blogs', 'slug', 'country'));
+        return view('frontend.materials.zirconium.'.$slug, compact('blogs', 'slug', 'country'));
     }
 
     public function haynesSuperalloys()
@@ -981,7 +981,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.haynes-superalloys.' . $slug, compact('blogs', 'slug', 'country'));
+        return view('frontend.materials.haynes-superalloys.'.$slug, compact('blogs', 'slug', 'country'));
     }
 
     public function duplexAndSuperDuplex()
@@ -1014,7 +1014,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.duplex-and-super-duplex.' . $slug, compact('blogs', 'slug', 'country'));
+        return view('frontend.materials.duplex-and-super-duplex.'.$slug, compact('blogs', 'slug', 'country'));
     }
 
     public function highStrengthStainlessSteel()
@@ -1047,7 +1047,7 @@ class MainController extends Controller
             ->paginate(3);
 
         // Pass current slug (optional)
-        return view('frontend.materials.high-strength-stainless-steel.' . $slug, compact('blogs', 'slug', 'country'));
+        return view('frontend.materials.high-strength-stainless-steel.'.$slug, compact('blogs', 'slug', 'country'));
     }
 
     public function showMaterialGrade($family, $grade)
@@ -1126,12 +1126,12 @@ class MainController extends Controller
 
     public function SS304ERWPipes()
     {
-        return view('frontend.products.pipes-tubes.SS-304-ERW-pipes');
+        return view('frontend.products.pipes-tubes.welded-pipes.SS-304-ERW-pipes');
     }
 
     public function SS316ERWPipes()
     {
-        return view('frontend.products.pipes-tubes.SS-316-ERW-pipes');
+        return view('frontend.products.pipes-tubes.welded-pipes.SS-316-ERW-pipes');
     }
 
     // welded pipes subproduct
@@ -1156,6 +1156,10 @@ class MainController extends Controller
         return view('frontend.products.pipes-tubes.welded-pipes.ss-316-semi-welded-pipes');
     }
 
+    public function astmSa106GradeBSeamlessPipes()
+    {
+        return view('frontend.products.pipes-tubes.welded-pipes.grade-b-seamless-pipes');
+    }
 
     // Special Fabricated Product
     public function specialFabricated()
@@ -1220,6 +1224,21 @@ class MainController extends Controller
     public function fasteners()
     {
         return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners');
+    }
+
+    public function astmA193GradeB7StudBolts()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.grade-b7-stud-bolts');
+    }
+
+    public function astmA193GradeB8StudBolts()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.grade-b8-stud-bolts');
+    }
+
+    public function hexBolts()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.hex-bolts');
     }
 
     public function pipeFittings()
@@ -1322,7 +1341,7 @@ class MainController extends Controller
         // Path to PDF in storage/app/public/datasheets/
         $filePath = storage_path('app/public/datasheets/en8.pdf');
 
-        if (!file_exists($filePath)) {
+        if (! file_exists($filePath)) {
             abort(404, 'File not found');
         }
 

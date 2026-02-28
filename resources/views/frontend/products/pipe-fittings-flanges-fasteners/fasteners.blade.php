@@ -112,6 +112,67 @@
         </div>
     </section>
 
+    
+    <!--Start product area-->
+    <section class="sec-padd-top sec-padd-bottom bg-white">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color: #174268;">Welded Pipes and Tubes</h2>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.astm-a193-grade-b7-stud-bolts') }}"
+                        class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+
+                            <img src="{{ asset('assets/images/fasteners/b7-stud-bolts.png') }}" alt="B7 Stud Bolts"
+                                class="img-fluid rounded mb-3" style="border-radius: 8px;">
+
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                ASTM A193 Grade B7 Stud Bolts
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.astm-a193-grade-b8-stud-bolts') }}"
+                        class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+
+                            <img src="{{ asset('assets/images/fasteners/grade-b8-stud-bolts.png') }}" alt="B8 Stud Bolts"
+                                class="img-fluid rounded mb-3" style="border-radius: 8px;">
+
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                ASTM A193 Grade B8 Stud Bolts
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.hex-bolts') }}"
+                        class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+
+                            <img src="{{ asset('assets/images/fasteners/hax-bolt.png') }}" alt="Hex Bolts"
+                                class="img-fluid rounded mb-3" style="border-radius: 8px;">
+
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                Hex Bolts
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">

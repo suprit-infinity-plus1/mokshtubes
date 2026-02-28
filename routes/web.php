@@ -14,7 +14,6 @@ use Illuminate\Support\Facades\Route;
 |--------------------------------------------------------------------------
 */
 
-
 // Global Redirects (Legacy support)
 Route::redirect(
     '/materials/super-austenitic-stainless-steel/super-austenitic-stainless-steel-SMO-254',
@@ -185,13 +184,14 @@ $defineRoutes = function () {
     Route::get('/products/pipes-tubes/hollow-section-pipe', [MainController::class, 'hollowSectionPipe'])->name('products.pipes-tubes.hollow-section-pipe');
     Route::get('/products/pipes-tubes/u-bent-tubes', [MainController::class, 'uBentTubes'])->name('products.pipes-tubes.u-bent-tubes');
     Route::get('/products/pipes-tubes/boiler-heat-exchanger-tubes', [MainController::class, 'boilerHeatExchangerTubes'])->name('products.pipes-tubes.boiler-heat-exchanger-tubes');
-    Route::get('/products/pipes-tubes/SS-304-ERW-pipes', [MainController::class, 'SS304ERWPipes'])->name('products.pipes-tubes.SS-304-ERW-pipes');
-    Route::get('/products/pipes-tubes/SS-316-ERW-pipes', [MainController::class, 'SS316ERWPipes'])->name('products.pipes-tubes.SS-316-ERW-pipes');
 
+    Route::get('/products/pipes-tubes/welded-pipes/SS-304-ERW-pipes', [MainController::class, 'SS304ERWPipes'])->name('products.pipes-tubes.welded-pipes.SS-304-ERW-pipes');
+    Route::get('/products/pipes-tubes/welded-pipes/SS-316-ERW-pipes', [MainController::class, 'SS316ERWPipes'])->name('products.pipes-tubes.welded-pipes.SS-316-ERW-pipes');
     Route::get('/products/pipes-tubes/welded-pipes/ss-304-welded-pipes', [MainController::class, 'ss304WeldedPipes'])->name('products.pipes-tubes.welded-pipes.ss-304-welded-pipes');
     Route::get('/products/pipes-tubes/welded-pipes/ss-304-semi-welded-pipes', [MainController::class, 'ss304SemiWeldedPipes'])->name('products.pipes-tubes.welded-pipes.ss-304-semi-welded-pipes');
     Route::get('/products/pipes-tubes/welded-pipes/ss-316-welded-pipes', [MainController::class, 'ss316WeldedPipes'])->name('products.pipes-tubes.welded-pipes.ss-316-welded-pipes');
     Route::get('/products/pipes-tubes/welded-pipes/ss-316-semi-welded-pipes', [MainController::class, 'ss316SemiWeldedPipes'])->name('products.pipes-tubes.welded-pipes.ss-316-semi-welded-pipes');
+    Route::get('/products/pipes-tubes/welded-pipes/astm-sa106-grade-b-seamless-pipes', [MainController::class, 'astmSa106GradeBSeamlessPipes'])->name('products.pipes-tubes.welded-pipes.astm-sa106-grade-b-seamless-pipes');
 
     Route::get('/products/special-fabricated', [MainController::class, 'specialFabricated'])->name('products.special-fabricated');
     Route::get('/products/special-fabricated/custom-steel-furniture', [MainController::class, 'customSteelFurniture'])->name('products.special-fabricated.custom-steel-furniture');
@@ -205,6 +205,9 @@ $defineRoutes = function () {
     Route::get('/products/pipe-fittings-flanges-fasteners/custom-fabricated-fittings', [MainController::class, 'customFabricatedFittings'])->name('products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings');
     Route::get('/products/pipe-fittings-flanges-fasteners/fasteners', [MainController::class, 'fasteners'])->name('products.pipe-fittings-flanges-fasteners.fasteners');
     Route::get('/products/pipe-fittings-flanges-fasteners/pipe-fittings', [MainController::class, 'pipeFittings'])->name('products.pipe-fittings-flanges-fasteners.pipe-fittings');
+    Route::get('/products/pipe-fittings-flanges-fasteners/fasteners/astm-a193-grade-b7-stud-bolts', [MainController::class, 'astmA193GradeB7StudBolts'])->name('products.pipe-fittings-flanges-fasteners.fasteners.astm-a193-grade-b7-stud-bolts');
+    Route::get('/products/pipe-fittings-flanges-fasteners/fasteners/astm-a193-grade-b8-stud-bolts', [MainController::class, 'astmA193GradeB8StudBolts'])->name('products.pipe-fittings-flanges-fasteners.fasteners.astm-a193-grade-b8-stud-bolts');
+    Route::get('/products/pipe-fittings-flanges-fasteners/fasteners/hex-bolts', [MainController::class, 'hexBolts'])->name('products.pipe-fittings-flanges-fasteners.fasteners.hex-bolts');
 
     Route::get('/products/sheets-plates-coils', [MainController::class, 'sheetsPlatesCoils'])->name('products.sheets-plates-coils');
     Route::get('/products/sheets-plates-coils/chequered-sheets', [MainController::class, 'chequeredSheets'])->name('products.sheets-plates-coils.chequered-sheets');
