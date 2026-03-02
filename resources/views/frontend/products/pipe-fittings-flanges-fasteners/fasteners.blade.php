@@ -117,9 +117,8 @@
     <section class="sec-padd-top sec-padd-bottom bg-white">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Welded Pipes and Tubes</h2>
+                <h2 class="fw-bold" style="color: #174268;">Fasteners Product</h2>
             </div>
-
             <div class="row g-4">
                 <div class="col-12 col-sm-6 col-lg-4">
                     <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.astm-a193-grade-b7-stud-bolts') }}"

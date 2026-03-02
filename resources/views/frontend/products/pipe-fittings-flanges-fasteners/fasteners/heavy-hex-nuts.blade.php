@@ -25,7 +25,7 @@
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">HEAVY HEX NUTS</h2>
+                <h2 class="fw-bold" style="color: #174268;">Heavy Hex Nuts</h2>
             </div>
 
             <div class="row align-items-center">
@@ -65,7 +65,7 @@
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>SPECIFICATIONS</h2>
+                <h2>Specifications</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -154,46 +154,60 @@
         </div>
     </section>
 
+    <!--Start grades available area-->
     <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">GRADES AVAILABLE</h2>
+            <div class="section-title center">
+                <h2>Grades Available</h2>
             </div>
 
-            <div class="row justify-content-center">
-                <div class="col-md-3 mb-4">
-                    <h5 class="text-center mb-3">Carbon Steel</h5>
-                    <ul class="list-group list-group-flush fs-6 text-center shadow-sm">
-                        <li class="list-group-item">ASTM A563 Grade DH</li>
-                        <li class="list-group-item">ASTM A105</li>
-                    </ul>
+            <div class="row g-4 mt-4 justify-content-center">
+                <div class="col-md-6 col-lg-3">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-box-seam"></i></div>
+                        <h5>Carbon Steel</h5>
+                        <ul>
+                            <li>ASTM A563 Grade DH</li>
+                            <li>ASTM A105</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-md-3 mb-4">
-                    <h5 class="text-center mb-3">Alloy Steel</h5>
-                    <ul class="list-group list-group-flush fs-6 text-center shadow-sm">
-                        <li class="list-group-item">ASTM A194 Grade 2H (High strength, high temp)</li>
-                        <li class="list-group-item">ASTM A194 Grade 2HM</li>
-                        <li class="list-group-item">ASTM A194 Grade 7</li>
-                    </ul>
+                <div class="col-md-6 col-lg-3">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-gear"></i></div>
+                        <h5>Alloy Steel</h5>
+                        <ul>
+                            <li>ASTM A194 Grade 2H (High strength, high temp)</li>
+                            <li>ASTM A194 Grade 2HM</li>
+                            <li>ASTM A194 Grade 7</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-md-3 mb-4">
-                    <h5 class="text-center mb-3">Stainless Steel</h5>
-                    <ul class="list-group list-group-flush fs-6 text-center shadow-sm">
-                        <li class="list-group-item">ASTM A194 Grade 8 (SS 304)</li>
-                        <li class="list-group-item">ASTM A194 Grade 8M (SS 316)</li>
-                    </ul>
+                <div class="col-md-6 col-lg-3">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-shield-check"></i></div>
+                        <h5>Stainless Steel</h5>
+                        <ul>
+                            <li>ASTM A194 Grade 8 (SS 304)</li>
+                            <li>ASTM A194 Grade 8M (SS 316)</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-md-3 mb-4">
-                    <h5 class="text-center mb-3">Duplex & Super Duplex</h5>
-                    <ul class="list-group list-group-flush fs-6 text-center shadow-sm">
-                        <li class="list-group-item">UNS S31803</li>
-                        <li class="list-group-item">UNS S32750</li>
-                    </ul>
+                <div class="col-md-6 col-lg-3">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-tools"></i></div>
+                        <h5>Duplex & Super Duplex</h5>
+                        <ul>
+                            <li>UNS S31803</li>
+                            <li>UNS S32750</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!--Start applications area-->
     <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
@@ -249,7 +263,7 @@
             
             <div class="row mt-5">
                 <div class="col-md-12 text-center">
-                    <h4>Uses of Heavy Hex Nuts</h4>
+                    <h4 class="section-title center mb-4 fw-bold" style="font-size: 24px;">Uses of Heavy Hex Nuts</h4>
                     <p class="fs-5 mt-3">
                         <span class="badge bg-primary fs-6 me-2 mb-2 p-2">✅ High-pressure bolted joints</span>
                         <span class="badge bg-primary fs-6 me-2 mb-2 p-2">✅ Structural steel fastening</span>
@@ -326,7 +340,7 @@
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-4">
                 <h2 class="fw-bold" style="color: #174268;">Mechanical Properties (Typical Values)</h2>
