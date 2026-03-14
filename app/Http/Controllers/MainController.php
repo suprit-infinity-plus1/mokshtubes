@@ -1161,6 +1161,67 @@ class MainController extends Controller
         return view('frontend.products.pipes-tubes.welded-pipes.grade-b-seamless-pipes');
     }
 
+    public function astmA106GrBSeamlessPipes()
+    {
+        return view('frontend.products.pipes-tubes.seamless-pipes.astm-a106-gr-b-seamless-pipes');
+    }
+
+    // Fasteners – new pages
+    public function astmA193GrB8mStuds()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.astm-a193-gr-b8m-studs');
+    }
+
+    public function a286Gr660ThreadedStuds()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.a286-gr-660-threaded-studs');
+    }
+
+    public function gr660aThreadedStuds()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.gr-660a-threaded-studs');
+    }
+
+    public function astmA194Gr7Nuts()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.astm-a194-gr-7-nuts');
+    }
+
+    public function astmA194Gr8Nuts()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.astm-a194-gr-8-nuts');
+    }
+
+    public function astmA194Gr8mHeavyHexNuts()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.astm-a194-gr-8m-heavy-hex-nuts');
+    }
+
+    public function gr660aHeavyHexNuts()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.gr-660a-heavy-hex-nuts');
+    }
+
+    public function asmeSf467Nuts()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.asme-sf-467-nuts');
+    }
+
+    public function fullThreadedRods()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.full-threaded-rods');
+    }
+
+    public function socketHeadCapScrews()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.socket-head-cap-screws');
+    }
+
+    public function plainWashers()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.plain-washers');
+    }
+
     // Special Fabricated Product
     public function specialFabricated()
     {

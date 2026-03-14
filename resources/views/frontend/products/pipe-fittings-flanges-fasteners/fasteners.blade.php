@@ -7,7 +7,7 @@
     'Industrial Fasteners, Bolts, Nuts, Screws, Washers, Studs, Anchors, Stainless Steel
     Fasteners, Alloy Fasteners, Titanium Fasteners, Nickel Fasteners, High-Strength Fasteners, Corrosion-Resistant
     Fasteners, ISO Certified Fasteners')
-    @section('og_image', asset('assets/images/product/flangs/FASTENERS.webp'))
+@section('og_image', asset('assets/images/product/flangs/FASTENERS.webp'))
 @section('og_type', 'article')
 @section('content')
     <!--Start breadcrumb area-->
@@ -112,7 +112,7 @@
         </div>
     </section>
 
-    
+
     <!--Start product area-->
     <section class="sec-padd-top sec-padd-bottom bg-white">
         <div class="container">
@@ -125,10 +125,8 @@
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
-
                             <img src="{{ asset('assets/images/fasteners/b7-stud-bolts.png') }}" alt="B7 Stud Bolts"
                                 class="img-fluid rounded mb-3" style="border-radius: 8px;">
-
                             <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                 style="background-color: #174268; color: #fff; display: inline-block;">
                                 ASTM A193 Grade B7 Stud Bolts
@@ -141,10 +139,8 @@
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
-
                             <img src="{{ asset('assets/images/fasteners/grade-b8-stud-bolts.png') }}" alt="B8 Stud Bolts"
                                 class="img-fluid rounded mb-3" style="border-radius: 8px;">
-
                             <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                 style="background-color: #174268; color: #fff; display: inline-block;">
                                 ASTM A193 Grade B8 Stud Bolts
@@ -157,10 +153,8 @@
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
-
                             <img src="{{ asset('assets/images/fasteners/hax-bolt.png') }}" alt="Hex Bolts"
                                 class="img-fluid rounded mb-3" style="border-radius: 8px;">
-
                             <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                 style="background-color: #174268; color: #fff; display: inline-block;">
                                 Hex Bolts
@@ -168,19 +162,174 @@
                         </div>
                     </a>
                 </div>
-                <!-- Adding Heavy Hex Nuts Link -->
-                <div class="col-12 col-sm-6 col-lg-4 mt-4 mt-lg-0">
+                <div class="col-12 col-sm-6 col-lg-4">
                     <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.heavy-hex-nuts') }}"
                         class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
-
                             <img src="{{ asset('assets/images/fasteners/hax-2.png') }}" alt="Heavy Hex Nuts"
                                 class="img-fluid rounded mb-3" style="border-radius: 8px;">
-
                             <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                 style="background-color: #174268; color: #fff; display: inline-block;">
                                 Heavy Hex Nuts
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+
+                {{-- New Cards --}}
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.astm-a193-gr-b8m-studs') }}"
+                        class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+                            <img src="{{ asset('assets/images/fasteners/astm-a193-gr-b8m-studs.png') }}"
+                                alt="ASTM A193 Gr B8M Studs" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                ASTM A193 Gr B8M Stud Bolts
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.a286-gr-660-threaded-studs') }}"
+                        class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+                            <img src="{{ asset('assets/images/fasteners/a286-gr-660-threaded-studs.jpg') }}"
+                                alt="A286 Gr 660 Threaded Studs" class="img-fluid rounded mb-3"
+                                style="border-radius: 8px;">
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                A286 Gr 660 Threaded Studs
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.gr-660a-threaded-studs') }}"
+                        class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+                            <img src="{{ asset('assets/images/fasteners/gr-660a-threaded-studs.jpg') }}"
+                                alt="Gr 660A Threaded Studs" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                Gr 660A Threaded Studs
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.astm-a194-gr-7-nuts') }}"
+                        class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+                            <img src="{{ asset('assets/images/fasteners/astm-a194-gr-7-nuts.jpg') }}"
+                                alt="ASTM A194 Gr 7 Nuts" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                ASTM A194 Gr 7 Nuts
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.astm-a194-gr-8-nuts') }}"
+                        class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+                            <img src="{{ asset('assets/images/fasteners/astm-a194-gr-8-nuts.jpeg') }}"
+                                alt="ASTM A194 Gr 8 Nuts" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                ASTM A194 Gr 8 Nuts
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.astm-a194-gr-8m-heavy-hex-nuts') }}"
+                        class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+                            <img src="{{ asset('assets/images/fasteners/astm-a194-gr-8m-heavy-hex-nuts.jpg') }}"
+                                alt="ASTM A194 Gr 8M Heavy Hex Nuts" class="img-fluid rounded mb-3"
+                                style="border-radius: 8px;">
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                ASTM A194 Gr 8M Heavy Hex Nuts
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.gr-660a-heavy-hex-nuts') }}"
+                        class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+                            <img src="{{ asset('assets/images/fasteners/gr-660a-heavy-hex-nuts.jpg') }}"
+                                alt="Gr 660A Heavy Hex Nuts" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                Gr 660A Heavy Hex Nuts
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.asme-sf-467-nuts') }}"
+                        class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+                            <img src="{{ asset('assets/images/fasteners/asme-sf-467-nuts.jpg') }}" alt="ASME SF-467 Nuts"
+                                class="img-fluid rounded mb-3" style="border-radius: 8px;">
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                ASME SF-467 Nuts
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.full-threaded-rods') }}"
+                        class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+                            <img src="{{ asset('assets/images/fasteners/full-threaded-rods.png') }}"
+                                alt="Full Threaded Rods" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                Full Threaded Rods
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.socket-head-cap-screws') }}"
+                        class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+                            <img src="{{ asset('assets/images/fasteners/socket-head-cap-screws.jpg') }}"
+                                alt="Socket Head Cap Screws" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                Socket Head Cap Screws
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.plain-washers') }}"
+                        class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+                            <img src="{{ asset('assets/images/fasteners/plain-washers.jpg') }}" alt="Plain Washers"
+                                class="img-fluid rounded mb-3" style="border-radius: 8px;">
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                Plain Washers
                             </h6>
                         </div>
                     </a>
@@ -572,10 +721,12 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td>Nickel Alloys</td>
-                                    <td><a href="{{ route('materials.inconel') }}">Inconel 600/625/718</a>, Monel 400/K500,
+                                    <td><a href="{{ route('materials.inconel') }}">Inconel 600/625/718</a>, Monel
+                                        400/K500,
                                         <a href="{{ route('materials.hastelloy') }}">Hastelloy C22/C276</a> – for extreme
                                         heat and
-                                        corrosive conditions.</td>
+                                        corrosive conditions.
+                                    </td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Titanium</td>
