@@ -1277,6 +1277,36 @@ class MainController extends Controller
         return view('frontend.products.pipe-fittings-flanges-fasteners.flanges-and-gaskets');
     }
 
+    public function wnrfFlanges()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.wnrf-flanges');
+    }
+
+    public function sorfFlanges()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.sorf-flanges');
+    }
+
+    public function blindFlanges()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.blind-flanges');
+    }
+
+    public function ljffFlanges()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.ljff-flanges');
+    }
+
+    public function astmA182F316Flanges()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.astm-a182-f316-flanges');
+    }
+
+    public function astmA350Lf2Flanges()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.astm-a350-lf2-flanges');
+    }
+
     public function customFabricatedFittings()
     {
         return view('frontend.products.pipe-fittings-flanges-fasteners.custom-fabricated-fittings');
@@ -1310,6 +1340,41 @@ class MainController extends Controller
     public function pipeFittings()
     {
         return view('frontend.products.pipe-fittings-flanges-fasteners.pipe-fittings');
+    }
+
+    public function concentricReducers()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.concentric-reducers');
+    }
+
+    public function eccentricReducers()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.eccentric-reducers');
+    }
+
+    public function ninetyDegreeElbows()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.90-degree-elbows');
+    }
+
+    public function fortyFiveDegreeElbows()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.45-degree-elbows');
+    }
+
+    public function weldolets()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.weldolets');
+    }
+
+    public function sockolets()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.sockolets');
+    }
+
+    public function uBends()
+    {
+        return view('frontend.products.pipe-fittings-flanges-fasteners.u-bends');
     }
 
     public function barsRods()
