@@ -1047,11 +1047,11 @@ class MainController extends Controller
     }
     public function SS304ERWPipes()
     {
-        return view('frontend.products.pipes-tubes.SS-304-ERW-pipes');
+        return view('frontend.products.pipes-tubes.SS-304-Erw-pipes');
     }
     public function SS316ERWPipes()
     {
-        return view('frontend.products.pipes-tubes.SS-316-ERW-pipes');
+        return view('frontend.products.pipes-tubes.SS-316-Erw-pipes');
     }
 
     // Special Fabricated Product
