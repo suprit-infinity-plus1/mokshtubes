@@ -221,6 +221,228 @@
         </div>
     </section>
 
+    
+    <!--Start product area-->
+    <section class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color: #174268;">Welded Pipes and Tubes</h2>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.pipes-tubes.welded-pipes.ss-304-welded-pipes') }}"
+                        class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+
+                            <img src="{{ asset('assets/images/welded/SS-304-Welded.png') }}" alt="SS-304-Welded-Pipes"
+                                class="img-fluid rounded mb-3" style="border-radius: 8px;">
+
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                SS 304 Welded Pipes
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.pipes-tubes.welded-pipes.ss-316-welded-pipes') }}"
+                        class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+
+                            <img src="{{ asset('assets/images/welded/ss-316-welded-pipes.png') }}"
+                                alt="SS-316-Welded-Pipes" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                SS 316 Welded Pipes
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.pipes-tubes.welded-pipes.ss-304-semi-welded-pipes') }}"
+                        class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+
+                            <img src="{{ asset('assets/images/welded/ss-304-semi-welded-pipes.jpg') }}"
+                                alt="SS-316-Welded-Pipes" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                SS 304 Semi Welded Pipes
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.pipes-tubes.welded-pipes.ss-316-semi-welded-pipes') }}"
+                        class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+
+                            <img src="{{ asset('assets/images/welded/image.png') }}"
+                                alt="SS-316-Welded-Pipes" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                SS 316 Semi Welded Pipes
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.pipes-tubes.welded-pipes.SS-304-ERW-pipes') }}"
+                        class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+
+                            <img src="{{ asset('assets/images/all-product/ss-304-ERW-PIPES.jpg') }}"
+                                alt="Boiler & Heat Exchanger Tubes" class="img-fluid rounded mb-3"
+                                style="border-radius: 8px;">
+
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                STAINLESS STEEL 304 ERW PIPES
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.pipes-tubes.welded-pipes.SS-316-ERW-pipes') }}"
+                        class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+
+                            <img src="{{ asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-316.webp') }}"
+                                alt="Boiler & Heat Exchanger Tubes" class="img-fluid rounded mb-3"
+                                style="border-radius: 8px;">
+
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                STAINLESS STEEL 316 ERW PIPES
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!--Start product area-->
+    <section class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color: #174268;">Welded Pipes and Tubes</h2>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.pipes-tubes.welded-pipes.ss-304-welded-pipes') }}"
+                        class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+
+                            <img src="{{ asset('assets/images/welded/SS-304-Welded.png') }}" alt="SS-304-Welded-Pipes"
+                                class="img-fluid rounded mb-3" style="border-radius: 8px;">
+
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                SS 304 Welded Pipes
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.pipes-tubes.welded-pipes.ss-316-welded-pipes') }}"
+                        class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+
+                            <img src="{{ asset('assets/images/welded/ss-316-welded-pipes.png') }}"
+                                alt="SS-316-Welded-Pipes" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                SS 316 Welded Pipes
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.pipes-tubes.welded-pipes.ss-304-semi-welded-pipes') }}"
+                        class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+
+                            <img src="{{ asset('assets/images/welded/ss-304-semi-welded-pipes.jpg') }}"
+                                alt="SS-316-Welded-Pipes" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                SS 304 Semi Welded Pipes
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.pipes-tubes.welded-pipes.ss-316-semi-welded-pipes') }}"
+                        class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+
+                            <img src="{{ asset('assets/images/welded/image.png') }}"
+                                alt="SS-316-Welded-Pipes" class="img-fluid rounded mb-3" style="border-radius: 8px;">
+
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                SS 316 Semi Welded Pipes
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.pipes-tubes.welded-pipes.SS-304-ERW-pipes') }}"
+                        class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+
+                            <img src="{{ asset('assets/images/all-product/ss-304-ERW-PIPES.jpg') }}"
+                                alt="Boiler & Heat Exchanger Tubes" class="img-fluid rounded mb-3"
+                                style="border-radius: 8px;">
+
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                STAINLESS STEEL 304 ERW PIPES
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="{{ route('products.pipes-tubes.welded-pipes.SS-316-ERW-pipes') }}"
+                        class="text-decoration-none d-block h-100">
+                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
+                            style="border-color: #db7227; transition: 0.3s;">
+
+                            <img src="{{ asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-316.webp') }}"
+                                alt="Boiler & Heat Exchanger Tubes" class="img-fluid rounded mb-3"
+                                style="border-radius: 8px;">
+
+                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
+                                style="background-color: #174268; color: #fff; display: inline-block;">
+                                STAINLESS STEEL 316 ERW PIPES
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Types of Welded Pipes -->
     <section id="types" class="sec-padd-top sec-padd-bottom">
         <div class="container">
@@ -889,88 +1111,126 @@
         </div>
     </section>
 
-    <!-- Related Products / Internal Linking -->
-    <section class="sec-padd-top sec-padd-bottom">
-        <div class="container text-center">
-            <div class="row justify-content-center">
-                <div class="col-md-10">
-                    <div class="p-4 bg-light rounded shadow-sm border border-secondary">
-                        <h4 class="fw-bold mb-4" style="color: #db7227;">Explore Related Products</h4>
-                        <p class="fs-6 mb-3 text-muted">Explore our <a href="{{ route('products.pipes-tubes.seamless-pipes', ['country' => $country ?? 'india']) }}" class="text-primary fw-bold text-decoration-none">seamless pipes</a> for high-pressure and critical industrial applications.</p>
-                        <p class="fs-6 mb-3 text-muted">We also supply <a href="{{ route('products.pipes-tubes.u-bent-tubes', ['country' => $country ?? 'india']) }}" class="text-primary fw-bold text-decoration-none">U-bent tubes</a> for heat exchanger applications in UAE and Saudi Arabia.</p>
-                        <p class="fs-6 mb-0 text-muted">Check our <a href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes', ['country' => $country ?? 'india']) }}" class="text-primary fw-bold text-decoration-none">boiler & heat exchanger tubes</a> for GCC industrial projects.</p>
+
+    <!--End breadcrumb area-->
+<!--Start faq content area-->
+<section class="faq-content-area sec-padd2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="accordion-box">
+                    <div class="section-title center">
+                        <h2>FAQ's</h2>
                     </div>
+
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn">
+                            <h4>
+                                What are welded pipes and tubes?
+                            </h4>
+                        </div>
+                        <div class="accord-content">
+                            <p>
+                                Welded pipes and tubes are manufactured by rolling a metal plate or strip into a cylindrical shape and welding the seam.
+                                They are widely used in <a href="{{ route('products.pipes-tubes.welded-pipes') }}">industrial piping systems</a>, structural applications,
+                                and fluid transportation due to their strength, precision, and cost-effectiveness.
+                            </p>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn">
+                            <h4>
+                                Which materials are used for manufacturing welded pipes and tubes?
+                            </h4>
+                        </div>
+                        <div class="accord-content">
+                            <p>
+                                Welded pipes and tubes are available in various materials such as Stainless Steel (304, 316, 310),
+                                Carbon Steel, Alloy Steel, Duplex & Super Duplex, Copper Alloys, Titanium, and Nickel Alloys.
+                                The choice depends on the required corrosion resistance, temperature, and pressure conditions.
+                            </p>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn">
+                            <h4>
+                                What are the advantages of welded pipes compared to seamless pipes?
+                            </h4>
+                        </div>
+                        <div class="accord-content">
+                            <p>
+                                Welded pipes offer several advantages including uniform wall thickness, larger size availability, and lower production costs.
+                                They are ideal for applications with moderate pressure and temperature requirements. 
+                                Additionally, welded pipes provide excellent surface finish and dimensional accuracy.
+                            </p>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn">
+                            <h4>
+                                What industries commonly use welded pipes and tubes?
+                            </h4>
+                        </div>
+                        <div class="accord-content">
+                            <p>
+                                Welded pipes and tubes are used across multiple industries including oil & gas, petrochemical, power generation,
+                                water treatment, marine, construction, and food & pharmaceutical sectors. 
+                                Their versatility makes them suitable for both fluid transport and structural applications.
+                            </p>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+
+                    <!--Start single accordion box-->
+                    <div class="accordion accordion-block">
+                        <div class="accord-btn">
+                            <h4>
+                                What types of welded pipes and tubes are supplied by Moksh Tubes & Fittings LLP?
+                            </h4>
+                        </div>
+                        <div class="accord-content">
+                            <p>
+                                <b>Moksh Tubes & Fittings LLP</b> offers a comprehensive range of <a href="{{ route('products.pipes-tubes.welded-pipes') }}">welded pipes and tubes</a> such as:
+                            </p>
+                            <ul>
+                                <li>ERW (Electric Resistance Welded) Pipes & Tubes</li>
+                                <li>EFW (Electric Fusion Welded) Pipes</li>
+                                <li>LSAW (Longitudinal Submerged Arc Welded) Pipes</li>
+                                <li>Spiral Welded Pipes</li>
+                                <li>Heat Exchanger & Condenser Tubes</li>
+                                <li>Custom Fabricated Welded Tubing</li>
+                            </ul>
+                            <p>
+                                All products are manufactured and tested according to ASTM, ASME, DIN, and EN standards.
+                            </p>
+                        </div>
+                    </div>
+                    <!--End single accordion box-->
+
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- FAQ Section -->
-    <section id="faq" class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <div class="accordion-box">
-                        <div class="section-title center">
-                            <h2>FAQ</h2>
-                        </div>
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Do you supply welded pipes to UAE and Saudi Arabia?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>Yes, we export welded pipes (ERW, EFW, LSAW) to UAE, Saudi Arabia, Qatar, Oman, and Kuwait. We provide fast delivery to Dubai, Abu Dhabi, Riyadh, Jeddah, and Doha.</p>
-                            </div>
-                        </div>
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>What is the difference between ERW and EFW pipes?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>ERW (Electric Resistance Welding) uses high-frequency electrical current to weld the seam without filler metal, ideal for standard fluid transport. EFW (Electric Fusion Welding) uses an electric arc with filler material, suited for thicker walls and higher-pressure applications.</p>
-                            </div>
-                        </div>
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>What are welded pipes used for?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>Welded pipes are used in oil & gas pipelines, power plants, chemical processing, water management, structural infrastructure, and marine applications. They are a cost-effective choice for moderate-pressure fluid and gas transport.</p>
-                            </div>
-                        </div>
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Do you provide ASTM certified welded pipes?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>Yes, we supply welded pipes certified to ASTM A53, A135, A178, A214, A269, and EN standards. All supplies come with Mill Test Certificates (MTC) as per EN 10204 3.1 or 3.2.</p>
-                            </div>
-                        </div>
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Can you provide custom lengths and sizes?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>Yes, Moksh Tubes & Fittings LLP provides welded pipes in custom lengths (Single Random, Double Random, or Cut Lengths) and custom OD/wall thickness combinations based on your project requirements.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Strong CTA -->
-    <section id="contact-us" class="sec-padd-top sec-padd-bottom">
+    </div>
+</section>
+<!--End faq content area-->
+ <section class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
                 <h2>Contact Us</h2>
                 <p>
-                    Looking for a reliable welded pipe supplier & exporter? For custom solutions, export to GCC & global
-                    markets, and fast delivery, contact <strong>Moksh Tubes & Fittings LLP</strong>. Get the best price and
-                    technical support today.
-                </p>
-                <!-- Call button -->
+                    For further information, quotes, or customized welded-pipes products, <strong>Moksh Tubes & Fittings
+                        LLP</strong> your dependable partner in aluminum alloys.</p>
+               <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch

@@ -27,61 +27,6 @@
             </div>
 
             <div class="row g-4">
-                {{-- @php
-                    $types = [
-                        [
-                            'name' => 'Welded Pipes & Tubes (ERW & EFW)',
-                            'slug' => 'welded-pipes-and-tubes',
-                            'image' => 'assets/images/product/welded-pipes-tubes.webp',
-                        ],
-                        [
-                            'name' => 'Seamless Pipes',
-                            'slug' => 'seamless-pipes',
-                            'image' => 'assets/images/product/seamless-pipes.webp',
-                        ],
-                        [
-                            'name' => 'Capillaries',
-                            'slug' => 'capillaries',
-                            'image' => 'assets/images/product/capillary-tubes.webp',
-                        ],
-                        [
-                            'name' => 'Hollow Section Pipe',
-                            'slug' => 'hollow-section-pipe',
-                            'image' => 'assets/images/product/hollow-section-pipe.webp',
-                        ],
-                        [
-                            'name' => 'U-Bent Tubes',
-                            'slug' => 'u-bent-tubes',
-                            'image' => 'assets/images/product/u-bent-tubes.webp',
-                        ],
-                        [
-                            'name' => 'Boiler & Heat Exchanger Tubes',
-                            'slug' => 'boiler-heat-exchanger-tubes',
-                            'image' => 'assets/images/product/boiler-heat-exchanger-tubes.webp',
-                        ],
-                    ];
-                @endphp
-
-                @foreach ($types as $type)
-                    <div class="col-12 col-sm-6 col-lg-4">
-                        <a href="{{ url('/products/pipes-tubes/' . $type['slug']) }}"
-                            class="text-decoration-none d-block h-100">
-                            <a href="{{ route('products.pipes-tubes.slug', ['slug' => $type['slug']]) }}"
-                            class="text-decoration-none d-block h-100">
-                            <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
-                                style="border-color: #db7227; transition: 0.3s;">
-
-                                <img src="{{ asset('$type['image']' ?? 'assets/images/default.webp') }}"
-                                    alt="{{ $type['name'] }}" class="img-fluid rounded mb-3" style="border-radius: 8px;">
-
-                                <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
-                                    style="background-color: #174268; color: #fff; display: inline-block;">
-                                    {{ $type['name'] }}
-                                </h6>
-                            </div>
-                        </a>
-                    </div>
-                    @endforeach --}}
                 <div class="col-12 col-sm-6 col-lg-4">
                     <a href="{{ route('products.pipes-tubes.welded-pipes') }}" class="text-decoration-none d-block h-100">
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
@@ -172,40 +117,6 @@
                             <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
                                 style="background-color: #174268; color: #fff; display: inline-block;">
                                 Boiler & Heat Exchanger Tubes
-                            </h6>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipes-tubes.SS-304-ERW-pipes') }}"
-                        class="text-decoration-none d-block h-100">
-                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
-                            style="border-color: #db7227; transition: 0.3s;">
-
-                            <img src="{{ asset('assets/images/all-product/ss-304-ERW-PIPES.jpg') }}"
-                                alt="Boiler & Heat Exchanger Tubes" class="img-fluid rounded mb-3"
-                                style="border-radius: 8px;">
-
-                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
-                                style="background-color: #174268; color: #fff; display: inline-block;">
-                                STAINLESS STEEL 304 ERW PIPES
-                            </h6>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipes-tubes.SS-316-ERW-pipes') }}"
-                        class="text-decoration-none d-block h-100">
-                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
-                            style="border-color: #db7227; transition: 0.3s;">
-
-                            <img src="{{ asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-316.webp') }}"
-                                alt="Boiler & Heat Exchanger Tubes" class="img-fluid rounded mb-3"
-                                style="border-radius: 8px;">
-
-                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
-                                style="background-color: #174268; color: #fff; display: inline-block;">
-                                STAINLESS STEEL 316 ERW PIPES
                             </h6>
                         </div>
                     </a>

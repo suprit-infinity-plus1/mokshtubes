@@ -36,7 +36,7 @@
                         <strong class="text-black">SS 316 ERW Pipes</strong> are manufactured from molybdenum-bearing
                         austenitic stainless steel, offering enhanced resistance to pitting, crevice corrosion, and
                         aggressive chemical environments compared to <a
-                            href="{{ route('products.pipes-tubes.SS-304-ERW-pipes') }}">SS 304</a>. The presence of
+                            href="{{ route('products.pipes-tubes.welded-pipes.SS-304-ERW-pipes') }}">SS 304</a>. The presence of
                         molybdenum makes SS 316 ideal for marine, chemical processing, pharmaceutical, and oil & gas
                         applications.
                     </p>

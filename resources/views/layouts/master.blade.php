@@ -817,7 +817,13 @@
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-md-3">
-                            <p class="copyright">© 2025 all rights reserved</p>
+                            <p class="copyright text-nowrap mb-0">
+                                © 2025 All rights reserved | Designed by
+                                <a href="https://naze.in/" target="_blank" rel="noopener noreferrer "
+                                    style="color: #db7227" class="text-decoration-none">
+                                    Naze Technology
+                                </a>
+                            </p>
                         </div>
                         <div class="col-md-9">
                             <nav class="footer-menu d-flex justify-content-end">

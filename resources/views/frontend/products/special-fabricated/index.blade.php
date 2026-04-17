@@ -135,7 +135,7 @@
                         <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
                             style="border-color: #db7227; transition: 0.3s;">
 
-                            <img src="{{ asset('assets/images/product/glass-railing.webp') }}" alt="Glass Railings"
+                            <img src="{{ asset('assets/images/product/Glass-railing.webp') }}" alt="Glass Railings"
                                 class="img-fluid rounded mb-3" style="border-radius: 8px;">
 
                             <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
