@@ -31,20 +31,20 @@
     </section>
 
     <!-- Sticky Navigation -->
-    <div class="sticky-top bg-white border-bottom shadow-sm">
+    <div class="sticky-top bg-white border-bottom material-tabs  w-100">
         <div class="container text-center">
             <ul class="nav justify-content-center py-2 nav-pills custom-nav-scroll">
-                <li class="nav-item"><a class="nav-link fw-bold text-dark" href="#overview">Overview</a></li>
-                <li class="nav-item"><a class="nav-link fw-bold text-dark" href="#specifications">Specifications</a></li>
-                <li class="nav-item"><a class="nav-link fw-bold text-dark" href="#types">Types</a></li>
-                <li class="nav-item"><a class="nav-link fw-bold text-dark" href="#size-chart">Size Chart</a></li>
-                <li class="nav-item"><a class="nav-link fw-bold text-dark" href="#grades">Grades</a></li>
-                <li class="nav-item"><a class="nav-link fw-bold text-dark" href="#applications">Applications</a></li>
-                <li class="nav-item"><a class="nav-link fw-bold text-dark" href="#industries">Industries</a></li>
-                <li class="nav-item"><a class="nav-link fw-bold text-dark" href="#manufacturing">Manufacturing</a></li>
-                <li class="nav-item"><a class="nav-link fw-bold text-dark" href="#export">Export</a></li>
-                <li class="nav-item"><a class="nav-link fw-bold text-dark" href="#quality">Quality</a></li>
-                <li class="nav-item"><a class="nav-link fw-bold text-dark" href="#faq">FAQ</a></li>
+                <li class=""><a class="" href="#overview">Overview</a></li>
+                <li class=""><a class="" href="#specifications">Specifications</a></li>
+                <li class=""><a class="" href="#types">Types</a></li>
+                <li class=""><a class="" href="#size-chart">Size Chart</a></li>
+                <li class=""><a class="" href="#grades">Grades</a></li>
+                <li class=""><a class="" href="#applications">Applications</a></li>
+                <li class=""><a class="" href="#industries">Industries</a></li>
+                <li class=""><a class="" href="#manufacturing">Manufacturing</a></li>
+                <li class=""><a class="" href="#export">Export</a></li>
+                <li class=""><a class="" href="#quality">Quality</a></li>
+                <li class=""><a class="" href="#faq">FAQ</a></li>
             </ul>
         </div>
     </div>
