@@ -1126,12 +1126,42 @@ class MainController extends Controller
 
     public function SS304ERWPipes()
     {
-        return view('frontend.products.pipes-tubes.SS-304-Erw-pipes');
+        return view('frontend.products.pipes-tubes.welded-pipes.SS-304-ERW-PIPES');
     }
 
     public function SS316ERWPipes()
     {
-        return view('frontend.products.pipes-tubes.SS-316-Erw-pipes');
+        return view('frontend.products.pipes-tubes.welded-pipes.SS-316-ERW-PIPES');
+    }
+
+    public function ss304WeldedPipes()
+    {
+        return view('frontend.products.pipes-tubes.welded-pipes.ss-304-welded-pipes');
+    }
+
+    public function ss304SemiWeldedPipes()
+    {
+        return view('frontend.products.pipes-tubes.welded-pipes.ss-304-semi-welded-pipes');
+    }
+
+    public function ss316WeldedPipes()
+    {
+        return view('frontend.products.pipes-tubes.welded-pipes.ss-316-welded-pipes');
+    }
+
+    public function ss316SemiWeldedPipes()
+    {
+        return view('frontend.products.pipes-tubes.welded-pipes.ss-316-semi-welded-pipes');
+    }
+
+    public function astmSa106GradeBSeamlessPipes()
+    {
+        return view('frontend.products.pipes-tubes.welded-pipes.grade-b-seamless-pipes');
+    }
+
+    public function astmA106GrBSeamlessPipes()
+    {
+        return view('frontend.products.pipes-tubes.seamless-pipes.astm-a106-gr-b-seamless-pipes');
     }
 
     // Special Fabricated Product

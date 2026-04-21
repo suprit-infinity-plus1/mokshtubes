@@ -90,9 +90,9 @@
                         <p class="fs-6 mb-3 text-justify" style="text-align: justify;">
                             At <strong class="text-black">Moksh Tubes & Fittings LLP</strong>, we combine advanced cold
                             drawing, bright annealing, and precision polishing techniques to deliver capillary tubes in
-                            <a class="text-primary text-decoration-none fw-semibold" href="{{ route('materials.austenitic-stainless-Steel', ['country' => $country ?? 'india']) }}">stainless steel</a>,
-                            <a class="text-primary text-decoration-none fw-semibold" href="{{ route('materials.nickel-Based-Superalloys', ['country' => $country ?? 'india']) }}">nickel alloys</a>,
-                            <a class="text-primary text-decoration-none fw-semibold" href="{{ route('materials.titanium', ['country' => $country ?? 'india']) }}">titanium</a>, and specialty metals.
+                            <a class="text-primary text-decoration-none fw-semibold" href="{{ route('materials.austenitic-stainless-Steel') }}">stainless steel</a>,
+                            <a class="text-primary text-decoration-none fw-semibold" href="{{ route('materials.nickel-Based-Superalloys') }}">nickel alloys</a>,
+                            <a class="text-primary text-decoration-none fw-semibold" href="{{ route('materials.titanium') }}">titanium</a>, and specialty metals.
                         </p>
                     </div>
                 </div>
@@ -174,10 +174,10 @@
                                 <tr>
                                     <td class="fw-bold">Material</td>
                                     <td>
-                                        <a class="text-primary text-decoration-none" href="{{ route('materials.austenitic-stainless-Steel', ['country' => $country ?? 'india']) }}">Stainless Steel</a>,
-                                        <a class="text-primary text-decoration-none" href="{{ route('materials.duplex-and-super-duplex', ['country' => $country ?? 'india']) }}">Duplex</a>,
-                                        <a class="text-primary text-decoration-none" href="{{ route('materials.nickel-Based-Superalloys', ['country' => $country ?? 'india']) }}">Nickel Alloys</a>,
-                                        <a class="text-primary text-decoration-none" href="{{ route('materials.titanium', ['country' => $country ?? 'india']) }}">Titanium</a>,
+                                        <a class="text-primary text-decoration-none" href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless Steel</a>,
+                                        <a class="text-primary text-decoration-none" href="{{ route('materials.duplex-and-super-duplex') }}">Duplex</a>,
+                                        <a class="text-primary text-decoration-none" href="{{ route('materials.nickel-Based-Superalloys') }}">Nickel Alloys</a>,
+                                        <a class="text-primary text-decoration-none" href="{{ route('materials.titanium') }}">Titanium</a>,
                                         Copper Alloys
                                     </td>
                                 </tr>
@@ -931,9 +931,9 @@
                 <div class="col-md-10">
                     <div class="p-4 bg-light rounded shadow-sm border border-secondary">
                         <h4 class="fw-bold mb-4" style="color: #db7227;">Explore Related Products</h4>
-                        <p class="fs-6 mb-3 text-muted">Explore our <a href="{{ route('products.pipes-tubes.seamless-pipes', ['country' => $country ?? 'india']) }}" class="text-primary fw-bold text-decoration-none">seamless pipes</a> for high-pressure and critical industrial applications.</p>
-                        <p class="fs-6 mb-3 text-muted">We also supply <a href="{{ route('products.pipes-tubes.u-bent-tubes', ['country' => $country ?? 'india']) }}" class="text-primary fw-bold text-decoration-none">U-bent tubes</a> for heat exchanger and condenser applications.</p>
-                        <p class="fs-6 mb-0 text-muted">Check our <a href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes', ['country' => $country ?? 'india']) }}" class="text-primary fw-bold text-decoration-none">boiler & heat exchanger tubes</a> for GCC industrial projects.</p>
+                        <p class="fs-6 mb-3 text-muted">Explore our <a href="{{ route('products.pipes-tubes.seamless-pipes') }}" class="text-primary fw-bold text-decoration-none">seamless pipes</a> for high-pressure and critical industrial applications.</p>
+                        <p class="fs-6 mb-3 text-muted">We also supply <a href="{{ route('products.pipes-tubes.u-bent-tubes') }}" class="text-primary fw-bold text-decoration-none">U-bent tubes</a> for heat exchanger and condenser applications.</p>
+                        <p class="fs-6 mb-0 text-muted">Check our <a href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes') }}" class="text-primary fw-bold text-decoration-none">boiler & heat exchanger tubes</a> for GCC industrial projects.</p>
                     </div>
                 </div>
             </div>

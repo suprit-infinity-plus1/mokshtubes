@@ -84,7 +84,7 @@
 
                         <p class="fs-6 text-justify" style="text-align: justify;">
                             These flanges are widely used in oil & gas, power plants, and chemical industries.
-                            Available in stainless steel, carbon steel, alloy steel, duplex & nickel alloys.
+                            Available in <a href="{{ route('materials.austenitic-stainless-Steel') }}" class="text-primary text-decoration-none fw-semibold">stainless steel</a>, <a href="{{ route('materials.engineering-Steels') }}" class="text-primary text-decoration-none fw-semibold">carbon steel</a>, alloy steel, <a href="{{ route('materials.duplex-and-super-duplex') }}" class="text-primary text-decoration-none fw-semibold">duplex</a> & <a href="{{ route('materials.nickel-Based-Superalloys') }}" class="text-primary text-decoration-none fw-semibold">nickel alloys</a>.
                         </p>
                     </div>
                 </div>
@@ -171,7 +171,7 @@
                                 </tr>
                                 <tr class="t-row">
                                     <td><strong>Material</strong></td>
-                                    <td>SS, Carbon Steel, Alloy Steel, Duplex, Nickel Alloys</td>
+                                    <td><a href="{{ route('materials.austenitic-stainless-Steel') }}" class="text-primary text-decoration-none">SS</a>, <a href="{{ route('materials.engineering-Steels') }}" class="text-primary text-decoration-none">Carbon Steel</a>, Alloy Steel, <a href="{{ route('materials.duplex-and-super-duplex') }}" class="text-primary text-decoration-none">Duplex</a>, <a href="{{ route('materials.nickel-Based-Superalloys') }}" class="text-primary text-decoration-none">Nickel Alloys</a></td>
                                 </tr>
                                 <tr class="t-row">
                                     <td><strong>Standards</strong></td>
@@ -265,7 +265,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-shield-check"></i></div>
-                        <h5>Stainless Steel</h5>
+                        <h5><a href="{{ route('materials.austenitic-stainless-Steel') }}" class="text-primary text-decoration-none fw-semibold">Stainless Steel</a></h5>
                         <ul class="list-unstyled text-start mb-0 ps-3">
                             <li>• 304, 304L, 316, 316L, 321, 347</li>
                         </ul>
@@ -274,7 +274,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-layers"></i></div>
-                        <h5>Carbon Steel</h5>
+                        <h5><a href="{{ route('materials.engineering-Steels') }}" class="text-primary text-decoration-none fw-semibold">Carbon Steel</a></h5>
                         <ul class="list-unstyled text-start mb-0 ps-3">
                             <li>• ASTM A105, A350 LF2</li>
                         </ul>
@@ -292,7 +292,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-box"></i></div>
-                        <h5>Duplex & Super Duplex</h5>
+                        <h5><a href="{{ route('materials.duplex-and-super-duplex') }}" class="text-primary text-decoration-none fw-semibold">Duplex & Super Duplex</a></h5>
                         <ul class="list-unstyled text-start mb-0 ps-3">
                             <li>• S31803, S32750</li>
                         </ul>
@@ -301,9 +301,9 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-nut"></i></div>
-                        <h5>Nickel Alloys</h5>
+                        <h5><a href="{{ route('materials.nickel-Based-Superalloys') }}" class="text-primary text-decoration-none fw-semibold">Nickel Alloys</a></h5>
                         <ul class="list-unstyled text-start mb-0 ps-3">
-                            <li>• Inconel, Monel, Hastelloy</li>
+                            <li>• <a href="{{ route('materials.inconel') }}" class="text-primary text-decoration-none">Inconel</a>, <a href="{{ route('materials.monel') }}" class="text-primary text-decoration-none">Monel</a>, <a href="{{ route('materials.hastelloy') }}" class="text-primary text-decoration-none">Hastelloy</a></li>
                         </ul>
                     </div>
                 </div>
@@ -323,7 +323,7 @@
                         <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
                         <h5>Oil & Gas</h5>
                         <ul class="list-unstyled text-start mb-0 ps-3">
-                            <li>• Pipelines</li>
+                            <li>• <a href="{{ route('products.pipes-tubes.seamless-pipes') }}" class="text-primary text-decoration-none">Pipelines</a></li>
                             <li>• Refineries</li>
                         </ul>
                     </div>
@@ -334,7 +334,7 @@
                         <h5>Power Plants</h5>
                         <ul class="list-unstyled text-start mb-0 ps-3">
                             <li>• High-pressure steam lines</li>
-                            <li>• Boilers</li>
+                            <li>• <a href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes') }}" class="text-primary text-decoration-none">Boilers</a></li>
                         </ul>
                     </div>
                 </div>
@@ -612,6 +612,22 @@
                                 <p>Yes, we export globally including UAE, Saudi Arabia, Qatar, Oman, Kuwait, and other GCC countries.</p>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Products / Internal Linking -->
+    <section class="sec-padd-top sec-padd-bottom">
+        <div class="container text-center">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="p-4 bg-light rounded shadow-sm border border-secondary">
+                        <h4 class="fw-bold mb-4" style="color: #db7227;">Explore Related Products</h4>
+                        <p class="fs-6 mb-3 text-muted">Explore our <a href="{{ route('products.pipes-tubes.seamless-pipes') }}" class="text-primary fw-bold text-decoration-none">seamless pipes</a> for high-pressure and critical industrial applications.</p>
+                        <p class="fs-6 mb-3 text-muted">We also supply <a href="{{ route('products.pipes-tubes.welded-pipes') }}" class="text-primary fw-bold text-decoration-none">welded pipes</a> (ERW, EFW, LSAW) for cost-effective piping solutions.</p>
+                        <p class="fs-6 mb-0 text-muted">Check our <a href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes') }}" class="text-primary fw-bold text-decoration-none">boiler & heat exchanger tubes</a> for GCC industrial projects.</p>
                     </div>
                 </div>
             </div>

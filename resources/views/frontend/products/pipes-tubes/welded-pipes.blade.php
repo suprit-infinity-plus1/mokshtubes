@@ -70,7 +70,7 @@
                         <p class="fs-6 mb-3 text-justify" style="text-align: justify;">
                             <strong class="text-black">Welded pipes and tubes</strong> play a critical role in modern
                             industries where strength, precision, and cost efficiency are required. Unlike
-                            <a class="text-primary text-decoration-none fw-semibold" href="{{ route('products.pipes-tubes.seamless-pipes', ['country' => $country ?? 'india']) }}">seamless pipes</a>,
+                            <a class="text-primary text-decoration-none fw-semibold" href="{{ route('products.pipes-tubes.seamless-pipes') }}">seamless pipes</a>,
                             they are manufactured by rolling metal sheets or strips and welding the seam, offering a
                             versatile and cost-effective solution for a wide range of applications.
                         </p>
@@ -88,10 +88,10 @@
                             At <strong class="text-black">Moksh Tubes & Fittings LLP</strong>, we supply welded pipes
                             tailored for EPC projects, oil & gas, power plants, and international export requirements. Wide
                             range of alloys available including
-                            <a class="text-primary text-decoration-none fw-semibold" href="{{ route('materials.austenitic-stainless-Steel', ['country' => $country ?? 'india']) }}">stainless steel</a>,
-                            <a class="text-primary text-decoration-none fw-semibold" href="{{ route('materials.engineering-Steels', ['country' => $country ?? 'india']) }}">carbon steel</a>,
-                            <a class="text-primary text-decoration-none fw-semibold" href="{{ route('materials.nickel-Based-Superalloys', ['country' => $country ?? 'india']) }}">nickel alloys</a>, and
-                            <a class="text-primary text-decoration-none fw-semibold" href="{{ route('materials.duplex-and-super-duplex', ['country' => $country ?? 'india']) }}">duplex steel</a>.
+                            <a class="text-primary text-decoration-none fw-semibold" href="{{ route('materials.austenitic-stainless-Steel') }}">stainless steel</a>,
+                            <a class="text-primary text-decoration-none fw-semibold" href="{{ route('materials.engineering-Steels') }}">carbon steel</a>,
+                            <a class="text-primary text-decoration-none fw-semibold" href="{{ route('materials.nickel-Based-Superalloys') }}">nickel alloys</a>, and
+                            <a class="text-primary text-decoration-none fw-semibold" href="{{ route('materials.duplex-and-super-duplex') }}">duplex steel</a>.
                         </p>
                     </div>
                 </div>
@@ -139,10 +139,10 @@
                         <i class="bi bi-collection-fill fs-1 text-secondary mb-3"></i>
                         <h4 class="fw-bold mb-3">Wide Range of Alloys</h4>
                         <p class="text-muted">
-                            <a class="text-decoration-none" style="color: inherit;" href="{{ route('materials.austenitic-stainless-Steel', ['country' => $country ?? 'india']) }}">Stainless steel</a>,
-                            <a class="text-decoration-none" style="color: inherit;" href="{{ route('materials.engineering-Steels', ['country' => $country ?? 'india']) }}">carbon steel</a>,
-                            <a class="text-decoration-none" style="color: inherit;" href="{{ route('materials.duplex-and-super-duplex', ['country' => $country ?? 'india']) }}">duplex</a>,
-                            <a class="text-decoration-none" style="color: inherit;" href="{{ route('materials.nickel-Based-Superalloys', ['country' => $country ?? 'india']) }}">nickel alloys</a> & more.
+                            <a class="text-decoration-none" style="color: inherit;" href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless steel</a>,
+                            <a class="text-decoration-none" style="color: inherit;" href="{{ route('materials.engineering-Steels') }}">carbon steel</a>,
+                            <a class="text-decoration-none" style="color: inherit;" href="{{ route('materials.duplex-and-super-duplex') }}">duplex</a>,
+                            <a class="text-decoration-none" style="color: inherit;" href="{{ route('materials.nickel-Based-Superalloys') }}">nickel alloys</a> & more.
                         </p>
                     </div>
                 </div>
@@ -178,11 +178,11 @@
                                 <tr>
                                     <td class="fw-bold">Material</td>
                                     <td>
-                                        <a class="text-primary text-decoration-none" href="{{ route('materials.austenitic-stainless-Steel', ['country' => $country ?? 'india']) }}">Stainless Steel</a>,
-                                        <a class="text-primary text-decoration-none" href="{{ route('materials.engineering-Steels', ['country' => $country ?? 'india']) }}">Carbon Steel</a>,
+                                        <a class="text-primary text-decoration-none" href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless Steel</a>,
+                                        <a class="text-primary text-decoration-none" href="{{ route('materials.engineering-Steels') }}">Carbon Steel</a>,
                                         Alloy Steel,
-                                        <a class="text-primary text-decoration-none" href="{{ route('materials.duplex-and-super-duplex', ['country' => $country ?? 'india']) }}">Duplex</a>,
-                                        <a class="text-primary text-decoration-none" href="{{ route('materials.nickel-Based-Superalloys', ['country' => $country ?? 'india']) }}">Nickel Alloys</a>
+                                        <a class="text-primary text-decoration-none" href="{{ route('materials.duplex-and-super-duplex') }}">Duplex</a>,
+                                        <a class="text-primary text-decoration-none" href="{{ route('materials.nickel-Based-Superalloys') }}">Nickel Alloys</a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -220,118 +220,6 @@
             </div>
         </div>
     </section>
-
-    
-    <!--Start product area-->
-    <section class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">Welded Pipes and Tubes</h2>
-            </div>
-
-            <div class="row g-4">
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipes-tubes.welded-pipes.ss-304-welded-pipes') }}"
-                        class="text-decoration-none d-block h-100">
-                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
-                            style="border-color: #db7227; transition: 0.3s;">
-
-                            <img src="{{ asset('assets/images/welded/SS-304-Welded.png') }}" alt="SS-304-Welded-Pipes"
-                                class="img-fluid rounded mb-3" style="border-radius: 8px;">
-
-                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
-                                style="background-color: #174268; color: #fff; display: inline-block;">
-                                SS 304 Welded Pipes
-                            </h6>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipes-tubes.welded-pipes.ss-316-welded-pipes') }}"
-                        class="text-decoration-none d-block h-100">
-                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
-                            style="border-color: #db7227; transition: 0.3s;">
-
-                            <img src="{{ asset('assets/images/welded/ss-316-welded-pipes.png') }}"
-                                alt="SS-316-Welded-Pipes" class="img-fluid rounded mb-3" style="border-radius: 8px;">
-
-                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
-                                style="background-color: #174268; color: #fff; display: inline-block;">
-                                SS 316 Welded Pipes
-                            </h6>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipes-tubes.welded-pipes.ss-304-semi-welded-pipes') }}"
-                        class="text-decoration-none d-block h-100">
-                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
-                            style="border-color: #db7227; transition: 0.3s;">
-
-                            <img src="{{ asset('assets/images/welded/ss-304-semi-welded-pipes.jpg') }}"
-                                alt="SS-316-Welded-Pipes" class="img-fluid rounded mb-3" style="border-radius: 8px;">
-
-                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
-                                style="background-color: #174268; color: #fff; display: inline-block;">
-                                SS 304 Semi Welded Pipes
-                            </h6>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipes-tubes.welded-pipes.ss-316-semi-welded-pipes') }}"
-                        class="text-decoration-none d-block h-100">
-                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
-                            style="border-color: #db7227; transition: 0.3s;">
-
-                            <img src="{{ asset('assets/images/welded/image.png') }}"
-                                alt="SS-316-Welded-Pipes" class="img-fluid rounded mb-3" style="border-radius: 8px;">
-
-                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
-                                style="background-color: #174268; color: #fff; display: inline-block;">
-                                SS 316 Semi Welded Pipes
-                            </h6>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipes-tubes.welded-pipes.SS-304-ERW-pipes') }}"
-                        class="text-decoration-none d-block h-100">
-                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
-                            style="border-color: #db7227; transition: 0.3s;">
-
-                            <img src="{{ asset('assets/images/all-product/ss-304-ERW-PIPES.jpg') }}"
-                                alt="Boiler & Heat Exchanger Tubes" class="img-fluid rounded mb-3"
-                                style="border-radius: 8px;">
-
-                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
-                                style="background-color: #174268; color: #fff; display: inline-block;">
-                                STAINLESS STEEL 304 ERW PIPES
-                            </h6>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <a href="{{ route('products.pipes-tubes.welded-pipes.SS-316-ERW-pipes') }}"
-                        class="text-decoration-none d-block h-100">
-                        <div class="material-card border rounded shadow-sm p-3 text-center h-100 transition"
-                            style="border-color: #db7227; transition: 0.3s;">
-
-                            <img src="{{ asset('assets/images/austenitic-stainless-steel/austenitic-stainless-steel-316.webp') }}"
-                                alt="Boiler & Heat Exchanger Tubes" class="img-fluid rounded mb-3"
-                                style="border-radius: 8px;">
-
-                            <h6 class="text-uppercase fw-bold mb-0 py-2 px-2 rounded"
-                                style="background-color: #174268; color: #fff; display: inline-block;">
-                                STAINLESS STEEL 316 ERW PIPES
-                            </h6>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
     
     <!--Start product area-->
     <section class="sec-padd-top sec-padd-bottom">

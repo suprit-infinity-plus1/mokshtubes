@@ -92,9 +92,9 @@
                             At <strong class="text-black">Moksh Tubes & Fittings LLP</strong>, we manufacture hollow
                             section pipes using advanced ERW, EFW, and seamless processes. Wide range of alloys available
                             including
-                            <a class="text-primary text-decoration-none fw-semibold" href="{{ route('materials.austenitic-stainless-Steel', ['country' => $country ?? 'india']) }}">stainless steel</a>,
-                            <a class="text-primary text-decoration-none fw-semibold" href="{{ route('materials.engineering-Steels', ['country' => $country ?? 'india']) }}">carbon steel</a>,
-                            <a class="text-primary text-decoration-none fw-semibold" href="{{ route('materials.duplex-and-super-duplex', ['country' => $country ?? 'india']) }}">duplex steel</a>, and
+                            <a class="text-primary text-decoration-none fw-semibold" href="{{ route('materials.austenitic-stainless-Steel') }}">stainless steel</a>,
+                            <a class="text-primary text-decoration-none fw-semibold" href="{{ route('materials.engineering-Steels') }}">carbon steel</a>,
+                            <a class="text-primary text-decoration-none fw-semibold" href="{{ route('materials.duplex-and-super-duplex') }}">duplex steel</a>, and
                             aluminium alloys.
                         </p>
                     </div>
@@ -177,9 +177,9 @@
                                 <tr>
                                     <td class="fw-bold">Material</td>
                                     <td>
-                                        <a class="text-primary text-decoration-none" href="{{ route('materials.austenitic-stainless-Steel', ['country' => $country ?? 'india']) }}">Stainless Steel</a>,
-                                        <a class="text-primary text-decoration-none" href="{{ route('materials.engineering-Steels', ['country' => $country ?? 'india']) }}">Carbon Steel</a>,
-                                        <a class="text-primary text-decoration-none" href="{{ route('materials.duplex-and-super-duplex', ['country' => $country ?? 'india']) }}">Duplex</a>,
+                                        <a class="text-primary text-decoration-none" href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless Steel</a>,
+                                        <a class="text-primary text-decoration-none" href="{{ route('materials.engineering-Steels') }}">Carbon Steel</a>,
+                                        <a class="text-primary text-decoration-none" href="{{ route('materials.duplex-and-super-duplex') }}">Duplex</a>,
                                         Aluminium, Copper Alloys
                                     </td>
                                 </tr>
@@ -795,9 +795,9 @@
                 <div class="col-md-10">
                     <div class="p-4 bg-light rounded shadow-sm border border-secondary">
                         <h4 class="fw-bold mb-4" style="color: #db7227;">Explore Related Products</h4>
-                        <p class="fs-6 mb-3 text-muted">Explore our <a href="{{ route('products.pipes-tubes.seamless-pipes', ['country' => $country ?? 'india']) }}" class="text-primary fw-bold text-decoration-none">seamless pipes</a> for high-pressure and critical industrial applications.</p>
-                        <p class="fs-6 mb-3 text-muted">We also supply <a href="{{ route('products.pipes-tubes.welded-pipes', ['country' => $country ?? 'india']) }}" class="text-primary fw-bold text-decoration-none">welded pipes</a> (ERW, EFW, LSAW) for cost-effective piping solutions.</p>
-                        <p class="fs-6 mb-0 text-muted">Check our <a href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes', ['country' => $country ?? 'india']) }}" class="text-primary fw-bold text-decoration-none">boiler & heat exchanger tubes</a> for GCC industrial projects.</p>
+                        <p class="fs-6 mb-3 text-muted">Explore our <a href="{{ route('products.pipes-tubes.seamless-pipes') }}" class="text-primary fw-bold text-decoration-none">seamless pipes</a> for high-pressure and critical industrial applications.</p>
+                        <p class="fs-6 mb-3 text-muted">We also supply <a href="{{ route('products.pipes-tubes.welded-pipes') }}" class="text-primary fw-bold text-decoration-none">welded pipes</a> (ERW, EFW, LSAW) for cost-effective piping solutions.</p>
+                        <p class="fs-6 mb-0 text-muted">Check our <a href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes') }}" class="text-primary fw-bold text-decoration-none">boiler & heat exchanger tubes</a> for GCC industrial projects.</p>
                     </div>
                 </div>
             </div>

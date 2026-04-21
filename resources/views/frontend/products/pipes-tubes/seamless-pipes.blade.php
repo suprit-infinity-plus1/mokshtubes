@@ -70,7 +70,7 @@
                     <div class="pe-md-3">
                         <p class="fs-6 mb-3 text-justify" style="text-align: justify;">
                             <strong class="text-black">Seamless pipes</strong> are the preferred choice for industries where
-                            failure is not an option. Unlike <a class="text-primary text-decoration-none fw-semibold" href="{{ route('products.pipes-tubes.welded-pipes', ['country' => $country ?? 'india']) }}">welded pipes</a>, they are manufactured without joints, ensuring
+                            failure is not an option. Unlike <a class="text-primary text-decoration-none fw-semibold" href="{{ route('products.pipes-tubes.welded-pipes') }}">welded pipes</a>, they are manufactured without joints, ensuring
                             maximum integrity under extreme pressure.
                         </p>
 
@@ -86,7 +86,7 @@
                         <p class="fs-6 mb-3 text-justify" style="text-align: justify;">
                             At <strong class="text-black">Moksh Tubes & Fittings LLP</strong>, we supply seamless pipes
                             tailored for EPC projects, oil & gas, power plants, and international export requirements. Wide
-                            range of alloys available including <a class="text-primary text-decoration-none fw-semibold" href="{{ route('materials.austenitic-stainless-Steel', ['country' => $country ?? 'india']) }}">stainless steel</a>, <a class="text-primary text-decoration-none fw-semibold" href="{{ route('materials.engineering-Steels', ['country' => $country ?? 'india']) }}">carbon steel</a>, <a class="text-primary text-decoration-none fw-semibold" href="{{ route('materials.nickel-Based-Superalloys', ['country' => $country ?? 'india']) }}">nickel alloys</a>, and <a class="text-primary text-decoration-none fw-semibold" href="{{ route('materials.titanium', ['country' => $country ?? 'india']) }}">titanium</a>.
+                            range of alloys available including <a class="text-primary text-decoration-none fw-semibold" href="{{ route('materials.austenitic-stainless-Steel') }}">stainless steel</a>, <a class="text-primary text-decoration-none fw-semibold" href="{{ route('materials.engineering-Steels') }}">carbon steel</a>, <a class="text-primary text-decoration-none fw-semibold" href="{{ route('materials.nickel-Based-Superalloys') }}">nickel alloys</a>, and <a class="text-primary text-decoration-none fw-semibold" href="{{ route('materials.titanium') }}">titanium</a>.
                         </p>
                     </div>
                 </div>
@@ -133,7 +133,7 @@
                     <div class="p-4 bg-white border  rounded text-center h-100 shadow-sm custom-hover-card">
                         <i class="bi bi-collection-fill fs-1 text-secondary mb-3"></i>
                         <h4 class="fw-bold mb-3">Wide Range of Alloys</h4>
-                        <p class="text-muted"><a class="text-decoration-none" style="color: inherit;" href="{{ route('materials.austenitic-stainless-Steel', ['country' => $country ?? 'india']) }}">Stainless steel</a>, <a class="text-decoration-none" style="color: inherit;" href="{{ route('materials.engineering-Steels', ['country' => $country ?? 'india']) }}">carbon steel</a>, <a class="text-decoration-none" style="color: inherit;" href="{{ route('materials.duplex-and-super-duplex', ['country' => $country ?? 'india']) }}">duplex</a>, <a class="text-decoration-none" style="color: inherit;" href="{{ route('materials.nickel-Based-Superalloys', ['country' => $country ?? 'india']) }}">nickel alloys</a> & <a class="text-decoration-none" style="color: inherit;" href="{{ route('materials.titanium', ['country' => $country ?? 'india']) }}">titanium</a>.</p>
+                        <p class="text-muted"><a class="text-decoration-none" style="color: inherit;" href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless steel</a>, <a class="text-decoration-none" style="color: inherit;" href="{{ route('materials.engineering-Steels') }}">carbon steel</a>, <a class="text-decoration-none" style="color: inherit;" href="{{ route('materials.duplex-and-super-duplex') }}">duplex</a>, <a class="text-decoration-none" style="color: inherit;" href="{{ route('materials.nickel-Based-Superalloys') }}">nickel alloys</a> & <a class="text-decoration-none" style="color: inherit;" href="{{ route('materials.titanium') }}">titanium</a>.</p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
@@ -167,7 +167,7 @@
                             <tbody class="text-start fs-6">
                                 <tr>
                                     <td class="fw-bold">Material</td>
-                                    <td><a class="text-primary text-decoration-none" href="{{ route('materials.austenitic-stainless-Steel', ['country' => $country ?? 'india']) }}">Stainless Steel</a>, <a class="text-primary text-decoration-none" href="{{ route('materials.engineering-Steels', ['country' => $country ?? 'india']) }}">Carbon Steel</a>, Alloy Steel, <a class="text-primary text-decoration-none" href="{{ route('materials.duplex-and-super-duplex', ['country' => $country ?? 'india']) }}">Duplex</a>, <a class="text-primary text-decoration-none" href="{{ route('materials.nickel-Based-Superalloys', ['country' => $country ?? 'india']) }}">Nickel Alloys</a>, <a class="text-primary text-decoration-none" href="{{ route('materials.titanium', ['country' => $country ?? 'india']) }}">Titanium</a></td>
+                                    <td><a class="text-primary text-decoration-none" href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless Steel</a>, <a class="text-primary text-decoration-none" href="{{ route('materials.engineering-Steels') }}">Carbon Steel</a>, Alloy Steel, <a class="text-primary text-decoration-none" href="{{ route('materials.duplex-and-super-duplex') }}">Duplex</a>, <a class="text-primary text-decoration-none" href="{{ route('materials.nickel-Based-Superalloys') }}">Nickel Alloys</a>, <a class="text-primary text-decoration-none" href="{{ route('materials.titanium') }}">Titanium</a></td>
                                 </tr>
                                 <tr>
                                     <td class="fw-bold">OD Range</td>

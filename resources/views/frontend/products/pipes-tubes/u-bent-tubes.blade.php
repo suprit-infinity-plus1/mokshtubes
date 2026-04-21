@@ -145,7 +145,7 @@
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card" style="min-height: 120px;">
                         <div class="advantage-icon"><i class="bi bi-layers"></i></div>
-                        <h5>Available in <a class="text-decoration-none" style="color: inherit;" href="{{ route('products.pipes-tubes.seamless-pipes', ['country' => $country ?? 'india']) }}">seamless</a> & <a class="text-decoration-none" style="color: inherit;" href="{{ route('products.pipes-tubes.welded-pipes', ['country' => $country ?? 'india']) }}">welded</a> forms</h5>
+                        <h5>Available in <a class="text-decoration-none" style="color: inherit;" href="{{ route('products.pipes-tubes.seamless-pipes') }}">seamless</a> & <a class="text-decoration-none" style="color: inherit;" href="{{ route('products.pipes-tubes.welded-pipes') }}">welded</a> forms</h5>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
@@ -178,7 +178,7 @@
                             <tbody>
                                 <tr class="t-row">
                                     <td><strong>Material</strong></td>
-                                    <td><a class="text-primary text-decoration-none" href="{{ route('materials.austenitic-stainless-Steel', ['country' => $country ?? 'india']) }}">Stainless Steel</a>, <a class="text-primary text-decoration-none" href="{{ route('materials.engineering-Steels', ['country' => $country ?? 'india']) }}">Carbon Steel</a>, Alloy Steel, <a class="text-primary text-decoration-none" href="{{ route('materials.duplex-and-super-duplex', ['country' => $country ?? 'india']) }}">Duplex</a>, <a class="text-primary text-decoration-none" href="{{ route('materials.nickel-Based-Superalloys', ['country' => $country ?? 'india']) }}">Nickel Alloys</a></td>
+                                    <td><a class="text-primary text-decoration-none" href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless Steel</a>, <a class="text-primary text-decoration-none" href="{{ route('materials.engineering-Steels') }}">Carbon Steel</a>, Alloy Steel, <a class="text-primary text-decoration-none" href="{{ route('materials.duplex-and-super-duplex') }}">Duplex</a>, <a class="text-primary text-decoration-none" href="{{ route('materials.nickel-Based-Superalloys') }}">Nickel Alloys</a></td>
                                 </tr>
                                 <tr class="t-row">
                                     <td><strong>OD Range</strong></td>
@@ -227,7 +227,7 @@
                 <div class="col-md-4 mb-4">
                     <div class="card h-100 shadow-sm border-0 border-start border-4 border-primary">
                         <div class="card-body">
-                            <h4 class="card-title fw-bold text-primary"><i class="bi bi-circle-square me-2"></i><a class="text-decoration-none" style="color: inherit;" href="{{ route('products.pipes-tubes.seamless-pipes', ['country' => $country ?? 'india']) }}">Seamless U-Bent Tubes</a></h4>
+                            <h4 class="card-title fw-bold text-primary"><i class="bi bi-circle-square me-2"></i><a class="text-decoration-none" style="color: inherit;" href="{{ route('products.pipes-tubes.seamless-pipes') }}">Seamless U-Bent Tubes</a></h4>
                             <p class="card-text fs-6 mt-3">Used in high-pressure and critical thermal applications.</p>
                         </div>
                     </div>
@@ -235,7 +235,7 @@
                 <div class="col-md-4 mb-4">
                     <div class="card h-100 shadow-sm border-0 border-start border-4 border-success">
                         <div class="card-body">
-                            <h4 class="card-title fw-bold text-success"><i class="bi bi-symmetry-vertical me-2"></i><a class="text-decoration-none" style="color: inherit;" href="{{ route('products.pipes-tubes.welded-pipes', ['country' => $country ?? 'india']) }}">Welded U-Bent Tubes</a></h4>
+                            <h4 class="card-title fw-bold text-success"><i class="bi bi-symmetry-vertical me-2"></i><a class="text-decoration-none" style="color: inherit;" href="{{ route('products.pipes-tubes.welded-pipes') }}">Welded U-Bent Tubes</a></h4>
                             <p class="card-text fs-6 mt-3">Cost-effective for standard heat exchanger systems.</p>
                         </div>
                     </div>
@@ -243,7 +243,7 @@
                 <div class="col-md-4 mb-4">
                     <div class="card h-100 shadow-sm border-0 border-start border-4 border-warning">
                         <div class="card-body">
-                            <h4 class="card-title fw-bold text-warning"><i class="bi bi-thermometer-sun me-2"></i><a class="text-decoration-none" style="color: inherit;" href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes', ['country' => $country ?? 'india']) }}">Heat Exchanger U-Tubes</a></h4>
+                            <h4 class="card-title fw-bold text-warning"><i class="bi bi-thermometer-sun me-2"></i><a class="text-decoration-none" style="color: inherit;" href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes') }}">Heat Exchanger U-Tubes</a></h4>
                             <p class="card-text fs-6 mt-3">Designed specifically for shell & tube heat exchangers.</p>
                         </div>
                     </div>
@@ -1881,19 +1881,19 @@
                             <tbody>
                                 <tr>
                                     <td>• Boilers</td>
-                                    <td><a class="text-primary text-decoration-none" href="{{ route('materials.engineering-Steels', ['country' => $country ?? 'india']) }}">Carbon Steel</a> / Alloy Steel</td>
+                                    <td><a class="text-primary text-decoration-none" href="{{ route('materials.engineering-Steels') }}">Carbon Steel</a> / Alloy Steel</td>
                                 </tr>
                                 <tr>
                                     <td>• Corrosive environments</td>
-                                    <td><a class="text-primary text-decoration-none" href="{{ route('materials.austenitic-stainless-Steel', ['country' => $country ?? 'india']) }}">Stainless</a> / <a class="text-primary text-decoration-none" href="{{ route('materials.nickel-Based-Superalloys', ['country' => $country ?? 'india']) }}">Nickel Alloys</a></td>
+                                    <td><a class="text-primary text-decoration-none" href="{{ route('materials.austenitic-stainless-Steel') }}">Stainless</a> / <a class="text-primary text-decoration-none" href="{{ route('materials.nickel-Based-Superalloys') }}">Nickel Alloys</a></td>
                                 </tr>
                                 <tr>
                                     <td>• Marine</td>
-                                    <td><a class="text-primary text-decoration-none" href="{{ route('materials.duplex-and-super-duplex', ['country' => $country ?? 'india']) }}">Duplex / Super Duplex</a></td>
+                                    <td><a class="text-primary text-decoration-none" href="{{ route('materials.duplex-and-super-duplex') }}">Duplex / Super Duplex</a></td>
                                 </tr>
                                 <tr>
                                     <td>• High temperature</td>
-                                    <td><a class="text-primary text-decoration-none" href="{{ route('materials.inconel', ['country' => $country ?? 'india']) }}">Inconel</a> / Alloy Steel</td>
+                                    <td><a class="text-primary text-decoration-none" href="{{ route('materials.inconel') }}">Inconel</a> / Alloy Steel</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -2000,9 +2000,9 @@
                 <div class="col-md-10">
                     <div class="p-4 bg-light rounded shadow-sm border border-secondary">
                         <h4 class="fw-bold mb-4" style="color: #db7227;">Explore Related Products</h4>
-                        <p class="fs-6 mb-3 text-muted">We also supply <a href="{{ route('products.pipes-tubes.seamless-pipes', ['country' => $country ?? 'india']) }}" class="text-primary fw-bold text-decoration-none">seamless pipes</a> for high-pressure applications in UAE and Saudi Arabia.</p>
-                        <p class="fs-6 mb-3 text-muted">Explore our <a href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes', ['country' => $country ?? 'india']) }}" class="text-primary fw-bold text-decoration-none">heat exchanger tubes</a> for GCC industrial projects.</p>
-                        <p class="fs-6 mb-0 text-muted">Check our <a href="{{ route('products.pipes-tubes.welded-pipes', ['country' => $country ?? 'india']) }}" class="text-primary fw-bold text-decoration-none">welded pipes</a> for cost-effective piping solutions.</p>
+                        <p class="fs-6 mb-3 text-muted">We also supply <a href="{{ route('products.pipes-tubes.seamless-pipes') }}" class="text-primary fw-bold text-decoration-none">seamless pipes</a> for high-pressure applications in UAE and Saudi Arabia.</p>
+                        <p class="fs-6 mb-3 text-muted">Explore our <a href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes') }}" class="text-primary fw-bold text-decoration-none">heat exchanger tubes</a> for GCC industrial projects.</p>
+                        <p class="fs-6 mb-0 text-muted">Check our <a href="{{ route('products.pipes-tubes.welded-pipes') }}" class="text-primary fw-bold text-decoration-none">welded pipes</a> for cost-effective piping solutions.</p>
                     </div>
                 </div>
             </div>
