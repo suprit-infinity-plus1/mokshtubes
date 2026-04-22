@@ -111,7 +111,7 @@ class MainController extends Controller
             $mail->SMTPDebug = 0;
             // $mail->SMTPDebug = SMTP::DEBUG_SERVER;
             $mail->setFrom(env('MAIL_FROM_ADDRESS'), env('MAIL_FROM_NAME'));
-            $mail->addAddress('siddiquimahfooz327@gmail.com');
+            $mail->addAddress('info@mokshtubes.com');
             $mail->addBCC('supritdagade77@gmail.com');
             // $mail->Body = nl2br($validated['form_message']);
             $mail->isHTML(true);
