@@ -118,6 +118,64 @@
         .nav-link:focus-visible {
             box-shadow: none !important;
         }
+        /* Sticky CTA styling */
+        .sticky-cta {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            z-index: 9999;
+            display: flex;
+            justify-content: space-between;
+            box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+        }
+        .sticky-cta a {
+            flex: 1;
+            padding: 12px 10px;
+            color: #fff !important;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .sticky-cta a i { margin-right: 5px; font-size: 16px; }
+        .cta-quote { background: #004d99; }
+        .cta-call { background: #007bff; }
+        .cta-whatsapp { background: #25d366; }
+
+        @media (min-width: 768px) {
+            .sticky-cta {
+                bottom: 20px;
+                left: 20px;
+                width: auto;
+                flex-direction: column;
+                gap: 10px;
+                box-shadow: none;
+            }
+            .sticky-cta a {
+                border-radius: 5px;
+                padding: 10px 15px;
+                box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+                transition: transform 0.3s ease;
+                justify-content: flex-start;
+            }
+            .sticky-cta a:hover {
+                transform: translateY(-3px);
+            }
+        }
+
+        .pulse-btn {
+            animation: pulse-animation 2s infinite;
+        }
+        @keyframes pulse-animation {
+            0% { box-shadow: 0 0 0 0 rgba(237, 28, 36, 0.7); }
+            70% { box-shadow: 0 0 0 10px rgba(237, 28, 36, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(237, 28, 36, 0); }
+        }
     </style>
     @stack('styles')
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css">
@@ -848,43 +906,11 @@
 
 
 
-        <div class="whatsapp-btn-container"
-            style="
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    border-radius: 50px;
-                    position: fixed;
-                    bottom: 25px;
-                    background: #25d366;
-                    left: 2.1875rem;
-                    width: 60px;
-                    height: 60px;
-                    z-index:99;">
-            <div id="whatsapp-btn" style="margin-top:5px;">
-                <a class="whatsapp" href="https://wa.me/+919769584950">
-                    <i class="fa fa-whatsapp fa-2x text-white" aria-hidden="true"></i>
-                </a>
-            </div>
-        </div>
-        <div class="call-btn-container"
-            style="
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    border-radius: 50px;
-                    position: fixed;
-                    bottom: 100px;
-                    background: #0d6efd;
-                    left: 2.1875rem;
-                    width: 60px;
-                    height: 60px;
-                    z-index: 99;">
-            <div id="call-btn" style="margin-top:5px;">
-                <a class="call-btn" href="tel:+919769584950">
-                    <i class="fa fa-phone fa-2x text-white" aria-hidden="true"></i>
-                </a>
-            </div>
+        <!-- Sticky CTA Floating Buttons -->
+        <div class="sticky-cta">
+            <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#contactFormModal" class="cta-quote"><i class="fa fa-envelope"></i> Get Quote</a>
+            <a href="tel:+919769584950" class="cta-call"><i class="fa fa-phone"></i> Call Now</a>
+            <a href="https://wa.me/919769584950" target="_blank" class="cta-whatsapp"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
         </div>
 
 

@@ -47,7 +47,7 @@
                         data-splitout="none" data-responsive_offset="on" data-start="2300">
                         <div class="slide-content-box">
                             <div class="button">
-                                <a class="thm-btn bg-clr1" href="{{ route('about-us') }}">about us</a>
+                                <a class="thm-btn bg-clr1" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#contactFormModal">Get Quote</a>
                             </div>
                         </div>
                     </div>
@@ -58,7 +58,7 @@
                         data-splitout="none" data-responsive_offset="on" data-start="2600">
                         <div class="slide-content-box">
                             <div class="button">
-                                <a class="thm-btn bg-clr2" href="{{ route('contact-us') }}">Contact Us</a>
+                                <a class="thm-btn bg-clr2" href="https://wa.me/919769584950" target="_blank">WhatsApp Now</a>
                             </div>
                         </div>
                     </div>
@@ -92,7 +92,7 @@
                         data-splitout="none" data-responsive_offset="on" data-start="2300">
                         <div class="slide-content-box">
                             <div class="button">
-                                <a class="thm-btn bg-clr1" href="{{ route('about-us') }}">About Us</a>
+                                <a class="thm-btn bg-clr1" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#contactFormModal">Get Quote</a>
                             </div>
                         </div>
                     </div>
@@ -103,7 +103,7 @@
                         data-splitout="none" data-responsive_offset="on" data-start="2600">
                         <div class="slide-content-box">
                             <div class="button">
-                                <a class="thm-btn bg-clr2" href="{{ route('contact-us') }}">Contact Us</a>
+                                <a class="thm-btn bg-clr2" href="https://wa.me/919769584950" target="_blank">WhatsApp Now</a>
                             </div>
                         </div>
                     </div>
@@ -133,7 +133,7 @@
                         data-splitout="none" data-responsive_offset="on" data-start="2300">
                         <div class="slide-content-box">
                             <div class="button">
-                                <a class="thm-btn bg-clr1" href="{{ route('about-us') }}">About Us</a>
+                                <a class="thm-btn bg-clr1" href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#contactFormModal">Get Quote</a>
                             </div>
                         </div>
                     </div>
@@ -144,7 +144,7 @@
                         data-splitout="none" data-responsive_offset="on" data-start="2600">
                         <div class="slide-content-box">
                             <div class="button">
-                                <a class="thm-btn bg-clr2" href="{{ route('contact-us') }}">Contact Us</a>
+                                <a class="thm-btn bg-clr2" href="https://wa.me/919769584950" target="_blank">WhatsApp Now</a>
                             </div>
                         </div>
                     </div>
@@ -262,7 +262,7 @@
                                 <h3 class="mt-0 h5">Seamless Pipes</h3>
                             </a>
                             <p>High-strength, leak-proof pipes perfect for high-pressure industrial applications.</p>
-                            <a href="#contact-form" class="thm-btn bg-clr1 mt-2" style=" font-size: 14px;">Get Price</a>
+                            <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#contactFormModal" class="thm-btn bg-clr1 mt-2" style=" font-size: 14px;">Get Price</a>
                         </div>
                     </div>
                 </div>
@@ -280,7 +280,7 @@
                                 <h3 class="mt-0 h5">Welded Pipes (ERW/EFW)</h3>
                             </a>
                             <p>Cost-effective and durable pipes suitable for structural and general engineering use.</p>
-                            <a href="#contact-form" class="thm-btn bg-clr1 mt-2" style=" font-size: 14px;">Get Price</a>
+                            <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#contactFormModal" class="thm-btn bg-clr1 mt-2" style=" font-size: 14px;">Get Price</a>
                         </div>
                     </div>
                 </div>
@@ -298,7 +298,7 @@
                                 <h3 class="mt-0 h5">Boiler & Heat Exchanger Tubes</h3>
                             </a>
                             <p>Designed to withstand high temperatures and pressure in critical heat transfer systems.</p>
-                            <a href="#contact-form" class="thm-btn bg-clr1 mt-2" style=" font-size: 14px;">Get Price</a>
+                            <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#contactFormModal" class="thm-btn bg-clr1 mt-2" style=" font-size: 14px;">Get Price</a>
                         </div>
                     </div>
                 </div>
@@ -316,7 +316,7 @@
                                 <h3 class="mt-0 h5">Inconel / Hastelloy Pipes</h3>
                             </a>
                             <p>Superior corrosion and oxidation resistance for the most extreme environments.</p>
-                            <a href="#contact-form" class="thm-btn bg-clr1 mt-2" style=" font-size: 14px;">Get Price</a>
+                            <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#contactFormModal" class="thm-btn bg-clr1 mt-2" style=" font-size: 14px;">Get Price</a>
                         </div>
                     </div>
                 </div>
@@ -334,7 +334,7 @@
                                 <h3 class="mt-0 h5">SS 316 Pipes</h3>
                             </a>
                             <p>Excellent corrosion resistance, ideal for chemical, marine, and medical applications.</p>
-                            <a href="#contact-form" class="thm-btn bg-clr1 mt-2" style=" font-size: 14px;">Get Price</a>
+                            <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#contactFormModal" class="thm-btn bg-clr1 mt-2" style=" font-size: 14px;">Get Price</a>
                         </div>
                     </div>
                 </div>
@@ -352,7 +352,7 @@
                                 <h3 class="mt-0 h5">Stainless Steel Sheets & Plates</h3>
                             </a>
                             <p>High-quality SS sheets and plates available in various grades and finishes for diverse gauge.</p>
-                            <a href="#contact-form" class="thm-btn bg-clr1 mt-2" style=" font-size: 14px;">Get Price</a>
+                            <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#contactFormModal" class="thm-btn bg-clr1 mt-2" style=" font-size: 14px;">Get Price</a>
                         </div>
                     </div>
                 </div>
@@ -395,6 +395,9 @@
                     <h5 style="margin: 0; font-size: 16px; font-weight: 600;">Bulk Discounts</h5>
                 </div>
 
+            </div>
+            <div class="text-center mt-4">
+                <h4 style="color: #ed1c24; font-weight: bold; margin: 0;">Get a Quote Within 30 Minutes ⏱️</h4>
             </div>
         </div>
     </section>
@@ -1104,21 +1107,52 @@
     </section>
     <!--End faq content area-->
 
-    <!-- Contact CTA Section -->
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Inquiry Form Section -->
+    <section id="contact-form" class="contact-form-section sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
-            <div class="contact-cta-box">
-                <h2>Contact Us</h2>
-                <p>
-                    Looking for premium quality <strong>Stainless Steel Pipes, Sheets, Plates, or Custom Engineering solutions</strong>?<br> 
-                    Partner with <strong><a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a></strong> for certified materials and global delivery.
-                </p>
-                <!-- Call button -->
-                <a href="tel:+919769584950" class="contact-cta-btn">Get in Touch</a>
+            <div class="section-title center">
+                <h2>Request a <span class="thm-color">Quote</span></h2>
+                <p>Looking for premium quality <strong>Stainless Steel Pipes, Sheets, Plates, or Custom Engineering solutions</strong>?<br>Fill out the form below and our experts will get back to you within 30 minutes.</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form action="{{ url('sendmail') }}" method="POST" class="default-form contact-form border p-4 bg-white shadow-sm rounded">
+                        @csrf
+                        <div class="row">
+                            <!-- Honeypot Anti-Bot Field -->
+                            <input type="text" name="website" style="display:none !important;" tabindex="-1"
+                                autocomplete="off">
+                            <div class="col-md-6 mb-3">
+                                <input type="text" name="form_name" class="form-control" placeholder="Your Name*" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <input type="tel" name="form_phone" class="form-control" placeholder="Phone Number*" required>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <input type="email" name="form_email" class="form-control" placeholder="Email Address">
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <textarea name="form_message" class="form-control" placeholder="Your Requirement*" required rows="4"></textarea>
+                            </div>
+                            <div class="col-md-12 mb-3 d-none">
+                                <input id="form_botcheck" name="form_botcheck" type="hidden" value="">
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="g-recaptcha" data-sitekey="{{ env('RECAPTCHA_SITE_KEY') }}"
+                                        style="margin-bottom:10px;"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 text-center">
+                                <button type="submit" class="thm-btn bg-clr1 px-5">Get Quote Now</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
-    <!--End Contact CTA Section-->  
+    <!--End Inquiry Form Section-->  
 
 
     
