@@ -359,7 +359,7 @@ if ($(".brand-carousel").length) {
         smartSpeed: 1500,
         margin: 30,
         nav: true,
-        items: 6,
+        items: 4,
         navElement: "span",
         navText: [
             "<span class='fa fa-angle-left'></span>",
@@ -379,7 +379,7 @@ if ($(".brand-carousel").length) {
                 items: 4,
             },
             1200: {
-                items: 5,
+                items: 4,
             },
         },
     });

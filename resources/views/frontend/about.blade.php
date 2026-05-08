@@ -191,8 +191,6 @@ Premium Quality Alloys, Alloy Tubes, Engineering Alloys')
 
 
 
-</section>
-
 <section class="why-chooseus sec-padd2">
     <div class="container">
 
@@ -287,7 +285,6 @@ Premium Quality Alloys, Alloy Tubes, Engineering Alloys')
                 <div class="inner-box wow fadeIn animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                     <div class="icon_box">
                         <span class="fas fa-headset
-
         "></span>
                     </div>
                     <h3>Dedicated Support</h3>
@@ -298,110 +295,49 @@ Premium Quality Alloys, Alloy Tubes, Engineering Alloys')
                 </div>
             </div>
         </div>
-
-        <!-- <div class="row">
-
-
-                                                                                                            <div class="item col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                                                                                                                <div class="inner-box wow fadeIn animated animated" data-wow-delay="0ms"
-                                                                                                                    data-wow-duration="1500ms"
-                                                                                                                    style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
-
-                                                                                                                    <div class="icon_box">
-                                                                                                                        <span class="flaticon-people-1"></span>
-                                                                                                                    </div>
-
-                                                                                                                    <h4>EXPERIENCED</h4>
-                                                                                                                    <div class="text">
-                                                                                                                        <p>Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track
-                                                                                                                            now. </p>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                            <div class="item col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                                                                                                                <div class="inner-box wow fadeIn animated animated" data-wow-delay="0ms"
-                                                                                                                    data-wow-duration="1500ms"
-                                                                                                                    style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
-
-                                                                                                                    <div class="icon_box">
-                                                                                                                        <span class="flaticon-sun"></span>
-                                                                                                                    </div>
-
-                                                                                                                    <h4>PROFESSIONAL SERVICE</h4>
-                                                                                                                    <div class="text">
-                                                                                                                        <p>Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track
-                                                                                                                            now.</p>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                            <div class="item col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                                                                                                                <div class="inner-box wow fadeIn animated animated" data-wow-delay="0ms"
-                                                                                                                    data-wow-duration="1500ms"
-                                                                                                                    style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
-
-                                                                                                                    <div class="icon_box">
-                                                                                                                        <span class="flaticon-people-2"></span>
-                                                                                                                    </div>
-
-                                                                                                                    <h4>PUBLIC PROJECTS</h4>
-                                                                                                                    <div class="text">
-                                                                                                                        <p>Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track
-                                                                                                                            now.</p>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                            <div class="item col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                                                                                                                <div class="inner-box wow fadeIn animated animated" data-wow-delay="0ms"
-                                                                                                                    data-wow-duration="1500ms"
-                                                                                                                    style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
-
-                                                                                                                    <div class="icon_box">
-                                                                                                                        <span class="flaticon-factory"></span>
-                                                                                                                    </div>
-
-                                                                                                                    <h4>SUPERIOR QUALITY</h4>
-                                                                                                                    <div class="text">
-                                                                                                                        <p>Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track
-                                                                                                                            now. </p>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                            <div class="item col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                                                                                                                <div class="inner-box wow fadeIn animated animated" data-wow-delay="0ms"
-                                                                                                                    data-wow-duration="1500ms"
-                                                                                                                    style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
-
-                                                                                                                    <div class="icon_box">
-                                                                                                                        <span class="flaticon-arrows"></span>
-                                                                                                                    </div>
-
-                                                                                                                    <h4>COMPETITIVE PRICE</h4>
-                                                                                                                    <div class="text">
-                                                                                                                        <p>Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track
-                                                                                                                            now. </p>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                            <div class="item col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                                                                                                                <div class="inner-box wow fadeIn animated animated" data-wow-delay="0ms"
-                                                                                                                    data-wow-duration="1500ms"
-                                                                                                                    style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
-
-                                                                                                                    <div class="icon_box">
-                                                                                                                        <span class="flaticon-technology-1"></span>
-                                                                                                                    </div>
-
-                                                                                                                    <h4>TIME DELIVERY</h4>
-                                                                                                                    <div class="text">
-                                                                                                                        <p>Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track
-                                                                                                                            now. </p>
-                                                                                                                    </div>
-                                                                                                                </div>
-                                                                                                            </div>
-
-                                                                                                        </div> -->
     </div>
 </section>
+
+<section class="brand-area sec-padd-top sec-padd-bottom">
+    <div class="container">
+        <div class="section-title center">
+            <h2>SOME OF OUR ESTEEMED CLIENTS</h2>
+        </div>
+        <div class="brand-carousel owl-carousel owl-theme brand">
+            <div class="single-item">
+                <a href="javascript:void(0);">
+                    <img src="{{ asset('assets/images/bharat-heavy-electricals-limited.jpg') }}" alt="Bharat Heavy Electricals Limited (BHEL)">
+                    <p class="company-name">Bharat Heavy Electricals Limited (BHEL)</p>
+                </a>
+            </div>
+            <div class="single-item">
+                <a href="javascript:void(0);">
+                    <img src="{{ asset('assets/images/Maharashtra-Seamless-Limited.png') }}" alt="Maharashtra Seamless Limited (MSL)">
+                    <p class="company-name">Maharashtra Seamless Limited (MSL)</p>
+                </a>
+            </div>
+            <div class="single-item">
+                <a href="javascript:void(0);">
+                    <img src="{{ asset('assets/images/nuclear-power-corporation-of-india-limited.gif') }}" alt="Nuclear Power Corporation of India Limited (NPCIL)">
+                    <p class="company-name">Nuclear Power Corporation of India Limited (NPCIL)</p>
+                </a>
+            </div>
+            <div class="single-item">
+                <a href="javascript:void(0);">
+                    <img src="{{ asset('assets/images/CHEMDIST-PROCESS-SOLUTIONS-PRIVATE-LIMITED.jpg') }}" alt="Chemdist Process Solutions Private Limited">
+                    <p class="company-name">Chemdist Process Solutions Pvt Ltd</p>
+                </a>
+            </div>
+            <div class="single-item">
+                <a href="javascript:void(0);">
+                    <img src="{{ asset('assets/images/SSEPL-TECHNO-PRIVATE-LIMITED.png') }}" alt="SSEPL Techno Private Limited">
+                    <p class="company-name">SSEPL Techno Private Limited</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <!-- <section class="testimonial padd3">
                                                                                                     <div class="container">
