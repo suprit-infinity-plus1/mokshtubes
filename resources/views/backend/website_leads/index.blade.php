@@ -67,6 +67,7 @@
                             <th>Email</th>
                             <th>Phone</th>
                             <th>Subject</th>
+                            <th>Message</th>
                             <th>Added On</th>
                             {{-- <th>Action</th> --}}
                         </tr>
@@ -82,6 +83,7 @@
                                 <td>{{ $websiteLead->email }}</td>
                                 <td>{{ $websiteLead->phone }}</td>
                                 <td>{{ $websiteLead->subject }}</td>
+                                <td>{{ $websiteLead->message }}</td>
                                 <td>{{ $websiteLead->created_at->format('d-M-Y') }}</td>
                                 {{-- <td>
                                     <div class="dropdown d-inline">
@@ -116,6 +118,7 @@
                             <th>Email</th>
                             <th>Phone</th>
                             <th>Subject</th>
+                            <th>Message</th>
                             <th>Added On</th>
                             {{-- <th>Action</th> --}}
                         </tr>
