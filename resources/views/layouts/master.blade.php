@@ -1005,11 +1005,11 @@
 
                         <!-- Buttons -->
                         <div class="col-12 col-sm-3">
-                            <div class="d-flex flex-row flex-sm-column justify-content-between p-2">
-                                <button id="accept-cookies" class="btn btn-sm text-white mb-sm-2"
-                                    style="background-color:#db7227;">Accept</button>
+                            <div class="justify-content-between p-2">
                                 <button id="reject-cookies" class="btn btn-sm border text-white"
-                                    style="border-color:#db7227;">Reject</button>
+                                style="border-color:#db7227; margin-right:10px;">Reject</button>
+                                <button id="accept-cookies" class="btn btn-sm text-white"
+                                    style="background-color:#db7227;">Accept</button>
                             </div>
                         </div>
 

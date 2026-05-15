@@ -402,6 +402,46 @@
         </div>
     </section>
 
+    <section class="brand-area sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>SOME OF OUR ESTEEMED CLIENTS</h2>
+            </div>
+            <div class="brand-carousel owl-carousel owl-theme brand">
+                <div class="single-item">
+                    <a href="javascript:void(0);">
+                        <img src="{{ asset('assets/images/bharat-heavy-electricals-limited.jpg') }}" alt="Bharat Heavy Electricals Limited (BHEL)">
+                        <p class="company-name">Bharat Heavy Electricals Limited (BHEL)</p>
+                    </a>
+                </div>
+                <div class="single-item">
+                    <a href="javascript:void(0);">
+                        <img src="{{ asset('assets/images/Maharashtra-Seamless-Limited.png') }}" alt="Maharashtra Seamless Limited (MSL)">
+                        <p class="company-name">Maharashtra Seamless Limited (MSL)</p>
+                    </a>
+                </div>
+                <div class="single-item">
+                    <a href="javascript:void(0);">
+                        <img src="{{ asset('assets/images/nuclear-power-corporation-of-india-limited.gif') }}" alt="Nuclear Power Corporation of India Limited (NPCIL)">
+                        <p class="company-name">Nuclear Power Corporation of India Limited (NPCIL)</p>
+                    </a>
+                </div>
+                <div class="single-item">
+                    <a href="javascript:void(0);">
+                        <img src="{{ asset('assets/images/CHEMDIST-PROCESS-SOLUTIONS-PRIVATE-LIMITED.jpg') }}" alt="Chemdist Process Solutions Private Limited">
+                        <p class="company-name">Chemdist Process Solutions Pvt Ltd</p>
+                    </a>
+                </div>
+                <div class="single-item">
+                    <a href="javascript:void(0);">
+                        <img src="{{ asset('assets/images/SSEPL-TECHNO-PRIVATE-LIMITED.png') }}" alt="SSEPL Techno Private Limited">
+                        <p class="company-name">SSEPL Techno Private Limited</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="our-services sec-padd-top sec-padd-bottom">
         <div class="container">
 
