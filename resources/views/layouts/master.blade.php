@@ -457,28 +457,64 @@
                                                 href="{{ url('/products') }}" data-bs-toggle="dropdown">Products</a></li> --}}
                                         <li class="nav-item dropdown"><a class="nav-link"
                                                 href="{{ route('products') }}">Products</a>
-                                            <ul class="dropdown-menu"
-                                                style="display: none; overflow-x: auto; padding-top: 12px; margin-top: 0px; padding-bottom: 12px; margin-bottom: 0px;">
-
-                                                <li><a class="dropdown-item text-wrap"
-                                                        href="{{ route('products.pipes-tubes') }}">
-                                                        Pipes & Tubes
+                                            <ul class="dropdown-menu">
+                                                <li class="dropdown">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center" href="{{ route('products.pipes-tubes') }}">
+                                                        Pipes & Tubes <i class="fa fa-angle-right"></i>
                                                     </a>
+                                                    <ul>
+                                                        <li><a href="{{ route('products.pipes-tubes.welded-pipes.SS-304-ERW-pipes') }}">SS304 ERW Pipes</a></li>
+                                                        <li><a href="{{ route('products.pipes-tubes.welded-pipes.SS-316-ERW-pipes') }}">SS316 ERW Pipes</a></li>
+                                                        <li><a href="{{ route('products.pipes-tubes.welded-pipes.ss-304-welded-pipes') }}">SS304 Welded Pipes</a></li>
+                                                        <li><a href="{{ route('products.pipes-tubes.welded-pipes.ss-316-welded-pipes') }}">SS316 Welded Pipes</a></li>
+                                                        <li><a href="{{ route('products.pipes-tubes.welded-pipes.ss-304-semi-welded-pipes') }}">SS304 Semi Welded Pipes</a></li>
+                                                        <li><a href="{{ route('products.pipes-tubes.welded-pipes.ss-316-semi-welded-pipes') }}">SS316 Semi Welded Pipes</a></li>
+                                                        <li><a href="{{ route('products.pipes-tubes.seamless-pipes') }}">Seamless Pipes</a></li>
+                                                        <li><a href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes') }}">Boiler & Heat Exchanger Tubes</a></li>
+                                                        <li><a href="{{ route('products.pipes-tubes.hollow-section-pipe') }}">Hollow Section Pipes</a></li>
+                                                        <li><a href="{{ route('products.pipes-tubes.capillaries') }}">Capillary Tubes</a></li>
+                                                        <li><a href="{{ route('products.pipes-tubes.u-bent-tubes') }}">U-Bend Tubes</a></li>
+                                                    </ul>
                                                 </li>
                                                 <li><a class="dropdown-item text-wrap"
                                                         href="{{ route('products.sheets-plates-coils') }}">
                                                         Sheets, Plates & Coils
                                                     </a>
+                                                     <li class="dropdown">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center" href="{{ route('products.pipe-fittings-flanges-fasteners') }}">
+                                                        Pipe Fittings <i class="fa fa-angle-right"></i>
+                                                    </a>
+                                                    <ul>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.90-degree-elbows') }}">90° Elbows</a></li>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.45-degree-elbows') }}">45° Elbows</a></li>
+                                                        <li><a href="#">90° Bends</a></li>
+                                                        <li><a href="#">45° Bends</a></li>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.u-bends') }}">U Bends</a></li>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.concentric-reducers') }}">Concentric Reducers</a></li>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.eccentric-reducers') }}">Eccentric Reducers</a></li>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.weldolets') }}">Weldolets</a></li>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.sockolets') }}">Sockolets</a></li>
+                                                    </ul>
                                                 </li>
                                                 <li><a class="dropdown-item text-wrap"
                                                         href="{{ route('products.bars-rods') }}">
                                                         Bars & Rods
                                                     </a>
                                                 </li>
-                                                <li><a class="dropdown-item text-wrap"
-                                                        href="{{ route('products.pipe-fittings-flanges-fasteners') }}">
-                                                        Pipe Fittings, Flanges & Fasteners
+                                                <li class="dropdown">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center" href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners') }}">
+                                                        Fasteners <i class="fa fa-angle-right"></i>
                                                     </a>
+                                                    <ul>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.a286-gr-660-threaded-studs') }}">Full Threaded Studs</a></li>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.full-threaded-rods') }}">Full Threaded Rods</a></li>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.heavy-hex-nuts') }}">Heavy Hex Nuts</a></li>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.hex-bolts') }}">Hex Bolts</a></li>
+                                                        <li><a href="#">Allen Bolts</a></li>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.socket-head-cap-screws') }}">Hexagon Socket Head Cap Screws</a></li>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.plain-washers') }}">Plain Washers</a></li>
+                                                        <li><a href="#">Hex Head Plugs</a></li>
+                                                    </ul>
                                                 </li>
                                                 <li><a class="dropdown-item text-wrap"
                                                         href="{{ route('products.special-fabricated') }}">
@@ -611,15 +647,57 @@
                                     <ul class="mobile-menu clearfix">
                                         <li><a href="{{ route('index') }}">Home</a></li>
                                         <li><a href="{{ route('about-us') }}">About Us</a></li>
-
                                         <li class="dropdown"><a href="{{ route('products') }}">Products</a>
                                             <ul>
-                                                <li><a href="{{ route('products.pipes-tubes') }}">PIPES & TUBES</a>
+                                                <li class="dropdown"><a href="{{ route('products.pipes-tubes') }}">PIPES & TUBES</a>
+                                                    <ul>
+                                                        <li><a href="{{ route('products.pipes-tubes.welded-pipes.SS-304-ERW-pipes') }}">SS304 ERW Pipes</a></li>
+                                                        <li><a href="{{ route('products.pipes-tubes.welded-pipes.SS-316-ERW-pipes') }}">SS316 ERW Pipes</a></li>
+                                                        <li><a href="{{ route('products.pipes-tubes.welded-pipes.ss-304-welded-pipes') }}">SS304 Welded Pipes</a></li>
+                                                        <li><a href="{{ route('products.pipes-tubes.welded-pipes.ss-316-welded-pipes') }}">SS316 Welded Pipes</a></li>
+                                                        <li><a href="{{ route('products.pipes-tubes.welded-pipes.ss-304-semi-welded-pipes') }}">SS304 Semi Welded Pipes</a></li>
+                                                        <li><a href="{{ route('products.pipes-tubes.welded-pipes.ss-316-semi-welded-pipes') }}">SS316 Semi Welded Pipes</a></li>
+                                                        <li><a href="{{ route('products.pipes-tubes.seamless-pipes') }}">Seamless Pipes</a></li>
+                                                        <li><a href="{{ route('products.pipes-tubes.boiler-heat-exchanger-tubes') }}">Boiler & Heat Exchanger Tubes</a></li>
+                                                        <li><a href="{{ route('products.pipes-tubes.hollow-section-pipe') }}">Hollow Section Pipes</a></li>
+                                                        <li><a href="{{ route('products.pipes-tubes.capillaries') }}">Capillary Tubes</a></li>
+                                                        <li><a href="{{ route('products.pipes-tubes.u-bent-tubes') }}">U-Bend Tubes</a></li>
+                                                    </ul>
                                                 </li>
                                                 {{-- <li><a href="#">SHEETS, PLATES & COILS</a></li> --}}
                                                 <li><a href="#">BARS & RODS</a></li>
                                                 <li><a href="{{ route('products.pipe-fittings-flanges-fasteners') }}">PIPE
                                                         FITTINGS, FLANGES & FASTENERS</a></li>
+                                                        <li class="dropdown">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center" href="{{ route('products.pipe-fittings-flanges-fasteners') }}">
+                                                        Pipe Fittings <i class="fa fa-angle-right"></i>
+                                                    </a>
+                                                    <ul>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.90-degree-elbows') }}">90° Elbows</a></li>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.45-degree-elbows') }}">45° Elbows</a></li>
+                                                        <li><a href="#">90° Bends</a></li>
+                                                        <li><a href="#">45° Bends</a></li>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.u-bends') }}">U Bends</a></li>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.concentric-reducers') }}">Concentric Reducers</a></li>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.eccentric-reducers') }}">Eccentric Reducers</a></li>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.weldolets') }}">Weldolets</a></li>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.sockolets') }}">Sockolets</a></li>
+                                                    </ul>
+                                                </li>
+                                                 <li class="dropdown">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center" href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners') }}">
+                                                        Fasteners <i class="fa fa-angle-right"></i>
+                                                    </a>
+                                                    <ul>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.a286-gr-660-threaded-studs') }}">Full Threaded Studs</a></li>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.full-threaded-rods') }}">Full Threaded Rods</a></li>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.heavy-hex-nuts') }}">Heavy Hex Nuts</a></li>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.hex-bolts') }}">Hex Bolts</a></li>
+                                                        <li><a href="#">Allen Bolts</a></li>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.socket-head-cap-screws') }}">Hexagon Socket Head Cap Screws</a></li>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.plain-washers') }}">Plain Washers</a></li>
+                                                        <li><a href="#">Hex Head Plugs</a></li>
+                                                    </ul>
                                                 <li><a href="{{ route('products.special-fabricated') }}">SPECIAL
                                                         FABRICATED PRODUCTS</a></li>
                                             </ul>

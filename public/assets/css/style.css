@@ -966,68 +966,55 @@ textarea {
     opacity: 1;
 }
 
-.main-menu .navigation>li>ul {
+.main-menu .navigation li ul {
     position: absolute;
     left: 0px;
     top: 100%;
-    background: #333;
-    width: 230px;
+    background: #2d2d2d;
+    width: 280px;
     border-top: 2px solid #fff;
-    padding: 12px 20px;
+    padding: 10px 0;
     z-index: 999;
     display: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
-.main-menu .navigation>li>ul>li {
+.main-menu .navigation li ul li {
     float: none;
-    margin: 0;
-    padding: 0;
-    position: relative;
     width: 100%;
-    border-right: none;
 }
 
-.main-menu .navigation>li>ul>li:first-child {
-    border: none;
-}
-
-.main-menu .navigation>li>ul>li>a {
+.main-menu .navigation li ul li a {
     color: #ffffff;
-    display: block;
-    font-size: 16px;
-    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
     line-height: 20px;
-    padding: 12px 0px;
-    position: relative;
+    padding: 12px 20px;
     text-transform: capitalize;
-    transition: all 500ms ease 0s;
+    transition: all 300ms ease;
     margin: 0;
 }
 
-.main-menu.style-2 .navigation>li>ul>li>a {
+.main-menu .navigation li ul li:hover > a {
+    background: #db7227;
     color: #fff;
-    padding: 12px 0px;
 }
 
-.main-menu .navigation>li>ul>li:hover>a {
-    color: #db7227;
+.main-menu .navigation li ul li.dropdown > a i {
+    font-size: 12px;
 }
 
-.main-menu .navigation>li>ul>li.dropdown>a:after {}
-
-.main-menu .navigation>li>ul>li.dropdown:hover>a:after {}
-
-.main-menu .navigation>li>ul>li>ul {}
-
-.main-menu .navigation>li>ul li:hover ul {}
-
-.main-menu .navigation>li>ul>li ul li {}
-
-.main-menu .navigation>li>ul>li ul li:first-child {}
-
-.main-menu .navigation>li>ul>li ul li a {}
-
-.main-menu .navigation>li>ul>li>ul>li:hover>a {}
+/* Secondary Dropdown */
+.main-menu .navigation li ul li ul {
+    left: 100%;
+    top: 0;
+    border-top: none;
+    border-left: 2px solid #fff;
+    margin-top: -10px; /* Align with top of parent */
+}
 
 .main-menu .navbar-collapse>ul li.dropdown .dropdown-btn {
     position: absolute;
@@ -1035,17 +1022,18 @@ textarea {
     top: 6px;
     width: 34px;
     height: 30px;
-    /* border: 1px solid #ffffff; */
     background: url(../images/icon/plus-24x24.png) center center no-repeat;
     background-size: 20px;
     cursor: pointer;
-    display: block;
+    display: none; /* Hidden on desktop by default */
     z-index: 5;
     border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -ms-border-radius: 3px;
-    -o-border-radius: 3px;
-    -moz-border-radius: 3px;
+}
+
+@media (max-width: 991px) {
+    .main-menu .navbar-collapse>ul li.dropdown .dropdown-btn {
+        display: block;
+    }
 }
 
 /* Search Box style   */
