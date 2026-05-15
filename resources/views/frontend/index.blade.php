@@ -158,7 +158,7 @@
     <!--End rev slider wrapper-->
 
 
-    <section class="about-us sec-padd-top sec-padd-bottom">
+    <section class="about-us sec-padd-top sec-padd-bottom bg-white">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-sm-12">
@@ -1018,7 +1018,7 @@
         </div>
     </section> --}}
 
-    <div class="container py-5 text-center ">
+    <div class="container mt-5 text-center bg-white ">
         <div class="section-title">
             <h2>International Market to Explore</h2>
         </div>
@@ -1028,6 +1028,56 @@
         </div>
 
     </div>
+
+    <!-- Certifications Section -->
+    <section class="certifications-section sec-padd2"  style="background-color: #f9f9f9;">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Our <span class="thm-color">Certifications</span></h2>
+                <p>We are committed to delivering the highest quality products and adhere to global industry standards.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12 mb-4">
+                    <div class="single-our-service border p-4 text-center rounded shadow-sm" style="background-color: #fff; height: 100%;">
+                        <div class="mb-3">
+                            <a href="{{ asset('assets/images/ISO 9001 CERTIFICATE MOKSH STEEL.pdf') }}" target="_blank">
+                                <img src="{{ asset('assets/images/iso-9001-certificate.png') }}" alt="ISO 9001 Certificate" class="img-fluid border" style="height: 250px; object-fit: contain; width: 100%; border-radius: 4px; background-color: #f8f9fa;">
+                            </a>
+                        </div>
+                        <h3 class="mt-0 mb-2 h5">ISO 9001:2015</h3>
+                        <p class="mb-4 text-muted">Quality Management System</p>
+                        <a href="{{ asset('assets/images/ISO 9001 CERTIFICATE MOKSH STEEL.pdf') }}" target="_blank" class="thm-btn bg-clr1" style="padding: 8px 20px; font-size: 14px;">View Certificate</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 mb-4">
+                    <div class="single-our-service border p-4 text-center rounded shadow-sm" style="background-color: #fff; height: 100%;">
+                        <div class="mb-3">
+                            <a href="{{ asset('assets/images/MTF LLP UDYAM CERTIFICATE.pdf') }}" target="_blank">
+                                <img src="{{ asset('assets/images/udyam-certificate.png') }}" alt="UDYAM Registration" class="img-fluid border" style="height: 250px; object-fit: contain; width: 100%; border-radius: 4px; background-color: #f8f9fa;">
+                            </a>
+                        </div>
+                        <h3 class="mt-0 mb-2 h5">UDYAM Registration</h3>
+                        <p class="mb-4 text-muted">MSME Government of India</p>
+                        <a href="{{ asset('assets/images/MTF LLP UDYAM CERTIFICATE.pdf') }}" target="_blank" class="thm-btn bg-clr1" style="padding: 8px 20px; font-size: 14px;">View Certificate</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 mb-4">
+                    <div class="single-our-service border p-4 text-center rounded shadow-sm" style="background-color: #fff; height: 100%;">
+                        <div class="mb-3">
+                            <a href="{{ asset('assets/images/PED CERTIFICATE MOKSH STEEL.pdf') }}" target="_blank">
+                                <img src="{{ asset('assets/images/ped-certificate.png') }}" alt="PED Certificate" class="img-fluid border" style="height: 250px; object-fit: contain; width: 100%; border-radius: 4px; background-color: #f8f9fa;">
+                            </a>
+                        </div>
+                        <h3 class="mt-0 mb-2 h5">PED Certificate</h3>
+                        <p class="mb-4 text-muted">Pressure Equipment Directive</p>
+                        <a href="{{ asset('assets/images/PED CERTIFICATE MOKSH STEEL.pdf') }}" target="_blank" class="thm-btn bg-clr1" style="padding: 8px 20px; font-size: 14px;">View Certificate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Certifications Section-->
+
     <!--Start faq content area-->
     <section class="faq-content-area sec-padd2">
         <div class="container">
