@@ -239,7 +239,7 @@
 
                     {{-- Hollow structural sections - circular --}}
                     <div id="tab3" class="tab-content-item d-none">
-                        <h4 class="mb-3">Hollow structural sections - circular</h5>
+                        <h4 class="mb-3">Hollow structural sections - circular</h4>
 
                             <div class="row">
                                 <!-- Left: Input Fields -->
@@ -1855,9 +1855,14 @@
                 t = t / 1000;
 
                 if (t >= D / 2) {
-                    perMeterOutput.innerText = "0 kg/m";
-                    totalOutput.innerText = "0 kg";
+                    perMeterOutput.innerText = "Invalid thickness (t ≥ D/2)";
+                    totalOutput.innerText = "-";
+                    perMeterOutput.classList.add('text-danger');
+                    totalOutput.classList.add('text-danger');
                     return;
+                } else {
+                    perMeterOutput.classList.remove('text-danger');
+                    totalOutput.classList.remove('text-danger');
                 }
 
                 // Cross-sectional area of hollow pipe: π/4 * (D^2 - (D-2t)^2)
@@ -1892,28 +1897,37 @@
             const totalOutput = document.getElementById('hollowTotalWeight' + tabNumber);
 
             function calculate() {
-                let D = parseFloat(DInput.value) || 0; // outer diameter in mm
-                let t = parseFloat(tInput.value) || 0; // thickness in mm
-                let L = parseFloat(LInput.value) || 0; // length in meters
+                try {
+                    if (!DInput || !tInput || !LInput) return;
 
-                // Convert to meters
-                D = D / 1000;
-                t = t / 1000;
+                    let D = parseFloat(DInput.value) || 0; // outer diameter in mm
+                    let t = parseFloat(tInput.value) || 0; // thickness in mm
+                    let L = parseFloat(LInput.value) || 0; // length in meters (input shows 'm')
 
-                if (t >= D / 2) {
-                    perMeterOutput.innerText = "0 kg/m";
-                    totalOutput.innerText = "0 kg";
-                    return;
+                    // Debug logging
+                    console.debug('HollowCircular inputs:', { tabNumber, D, t, L });
+
+                    // Convert mm → m for diameter and thickness
+                    const Dm = D / 1000;
+                    const tm = t / 1000;
+
+                    // Cross-sectional area of hollow circular section: π/4 * (D^2 - (D-2t)^2)
+                    const innerD = Math.max(Dm - 2 * tm, 0);
+                    const area = Math.PI / 4 * (Math.pow(Dm, 2) - Math.pow(innerD, 2)); // m²
+
+                    const weight_per_meter = area * density; // kg/m
+                    const total_weight = weight_per_meter * L; // L is meters
+
+                    // Debug logging
+                    console.debug('HollowCircular computed:', { Dm, tm, innerD, area, weight_per_meter, total_weight });
+
+                    perMeterOutput.innerText = weight_per_meter.toFixed(2) + " kg/m";
+                    totalOutput.innerText = total_weight.toFixed(2) + " kg";
+                } catch (err) {
+                    console.error('Hollow circular calculate error:', err);
+                    if (perMeterOutput) perMeterOutput.innerText = "Error";
+                    if (totalOutput) totalOutput.innerText = "Error";
                 }
-
-                // Cross-sectional area of hollow circular section: π/4 * (D^2 - (D-2t)^2)
-                let area = Math.PI / 4 * (Math.pow(D, 2) - Math.pow(D - 2 * t, 2)); // m²
-
-                let weight_per_meter = area * density; // kg/m
-                let total_weight = weight_per_meter * L;
-
-                perMeterOutput.innerText = weight_per_meter.toFixed(2) + " kg/m";
-                totalOutput.innerText = total_weight.toFixed(2) + " kg";
             }
 
             // Event listeners
@@ -1937,20 +1951,19 @@
             let L = parseFloat(document.getElementById('squareLength').value); // m
 
             if (isNaN(A) || isNaN(t) || isNaN(L)) return;
-
             // Convert mm to meters
-            A = A / 1000;
-            t = t / 1000;
+            const Am = A / 1000;
+            const tm = t / 1000;
 
             // Density in kg/m³
             const density = 7930;
 
-            // Calculate inner side
-            let A_inner = A - 2 * t;
-            if (A_inner < 0) A_inner = 0;
+            // Validation: thickness must be less than half the side
+            // Calculate inner side (treat as solid if thickness >= half side)
+            const A_inner = Math.max(Am - 2 * tm, 0);
 
             // Cross-sectional area
-            let area = Math.pow(A, 2) - Math.pow(A_inner, 2);
+            const area = Math.pow(Am, 2) - Math.pow(A_inner, 2);
 
             // Weight per meter
             let weightPerMeter = area * density;
@@ -1958,13 +1971,9 @@
             // Total weight
             let totalWeight = weightPerMeter * L;
 
-            // Round to 2 decimal places
-            weightPerMeter = weightPerMeter.toFixed(2);
-            totalWeight = totalWeight.toFixed(2);
-
-            // Display results
-            document.getElementById('squareWeightPerMeter').textContent = weightPerMeter + ' kg/m';
-            document.getElementById('squareTotalWeight').textContent = totalWeight + ' kg';
+            // Round to 2 decimal places and display results
+            document.getElementById('squareWeightPerMeter').textContent = weightPerMeter.toFixed(2) + ' kg/m';
+            document.getElementById('squareTotalWeight').textContent = totalWeight.toFixed(2) + ' kg';
         }
 
         // Trigger calculation on page load
@@ -1985,19 +1994,27 @@
             const t = parseFloat(document.getElementById("rectangularThickness").value); // Thickness in mm
             const L = parseFloat(document.getElementById("rectangularLength").value); // Length in meters
 
-            // Convert length to mm
-            const L_mm = L * 1000; // Length in mm
+            if (isNaN(a) || isNaN(b) || isNaN(t) || isNaN(L)) return;
 
-            // Check if the thickness is valid (not greater than half of either side)
-            if (t > a / 2 || t > b / 2) {
-                alert("Thickness is too large for the given dimensions.");
-                return;
-            }
+            // Convert mm to meters
+            const Am = a / 1000;
+            const Bm = b / 1000;
+            const tm = t / 1000;
 
-            // Calculate weight per meter using the formula
-            const weightPerMeter = t * (MAIAK.Z * (a + b) - MAIAK.Q * t);
+            // Density in kg/m³
+            const density = 7930;
 
-            // Calculate total weight (weight per meter multiplied by length in meters)
+            // Inner dimensions (treat as solid if thickness >= half side)
+            const A_inner = Math.max(Am - 2 * tm, 0);
+            const B_inner = Math.max(Bm - 2 * tm, 0);
+
+            // Cross-sectional area
+            const area = Am * Bm - A_inner * B_inner;
+
+            // Weight per meter
+            const weightPerMeter = area * density;
+
+            // Total weight
             const totalWeight = weightPerMeter * L;
 
             // Display the results
@@ -2012,10 +2029,11 @@
 
             // Input values
             const D = parseFloat(document.getElementById("roundDiameter").value) || 0; // mm
-            const L = parseFloat(document.getElementById("roundLength").value) || 0; // m (already in meters)
+            const L = parseFloat(document.getElementById("roundLength").value) || 0; // mm
 
-            // Convert D mm → m
+            // Convert mm → m
             const Dm = D / 1000;
+            const Lm = L / 1000;
 
             // Cross-sectional area of circle
             const area = Math.PI * Math.pow(Dm, 2) / 4;
@@ -2024,7 +2042,7 @@
             const weightPerMeter = area * density;
 
             // Total weight
-            const totalWeight = weightPerMeter * L; // L already in meters
+            const totalWeight = weightPerMeter * Lm; // L converted from mm to meters
 
             // Update results
             document.getElementById("roundWeightPerMeter").innerText = weightPerMeter.toFixed(2) + " kg/m";
@@ -2041,10 +2059,11 @@
 
             // Input values
             const A = parseFloat(document.getElementById("squareSideA7").value) || 0; // mm
-            const L = parseFloat(document.getElementById("squareLength7").value) || 0; // m (in meters, not mm)
+            const L = parseFloat(document.getElementById("squareLength7").value) || 0; // mm (input shows mm)
 
             // Convert mm → m
             const Am = A / 1000;
+            const Lm = L / 1000;
 
             // Cross-sectional area (m²)
             const area = Am * Am;
@@ -2053,7 +2072,7 @@
             const weightPerMeter = area * density;
 
             // Total weight (kg)
-            const totalWeight = weightPerMeter * L;
+            const totalWeight = weightPerMeter * Lm;
 
             // Update results
             document.getElementById("squareWeightPerMeter7").innerText = weightPerMeter.toFixed(2) + " kg/m";
