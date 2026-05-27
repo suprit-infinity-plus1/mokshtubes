@@ -1,4 +1,4 @@
-@extends('layouts.master')
+﻿@extends('layouts.master')
 @section('title', 'Pipe & Tube Weight Calculator | Easy & Accurate | MokshTubes')
 @section('meta_description',
     'Use MokshTubes’ pipe and tube weight calculator for accurate measurements, helping you
@@ -1222,142 +1222,6 @@
                         </div>
                     </div>
 
-                    <!--Start faq content area-->
-                    <section class="faq-content-area sec-padd2">
-                        <div class="container">
-                            <div class="section-title center">
-                                <h2>Frequently Asked Questions</h2>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <div class="accordion-box">
-                                        <!--Start single accordion box-->
-                                        <div class="accordion accordion-block">
-                                            <div class="accord-btn active">
-                                                <h3 class="h6">How accurate is the steel weight calculator?</h3>
-                                            </div>
-                                            <div class="accord-content collapsed">
-                                                <p>The calculator uses standard theoretical weights based on international
-                                                    dimensional standards (DIN, ASTM, ASME). However, actual weights may
-                                                    vary slightly due to manufacturing tolerances (typically +/- 5-10%) and
-                                                    specific material density variations.</p>
-                                            </div>
-                                        </div>
-                                        <!--End single accordion box-->
-                                        <!--Start single accordion box-->
-                                        <div class="accordion accordion-block">
-                                            <div class="accord-btn">
-                                                <h3 class="h6">Can I calculate weights for different materials?</h3>
-                                            </div>
-                                            <div class="accord-content">
-                                                <p>Yes, while the default density is often set for Steel (approx. 7.85
-                                                    g/cm³), the calculator covers various shapes applicable to <a
-                                                        href="{{ route('materials.austenitic-stainless-Steel', ['country' => 'in']) }}">Stainless
-                                                        Steel</a>, <a
-                                                        href="{{ route('materials.engineering-Steels', ['country' => 'in']) }}">Carbon
-                                                        Steel</a>, and <a
-                                                        href="{{ route('materials.nickel-Based-Superalloys', ['country' => 'in']) }}">Nickel
-                                                        Alloys</a>. For specific alloys like <a
-                                                        href="{{ route('materials.hastelloy', ['country' => 'in']) }}">Hastelloy</a>
-                                                    or <a
-                                                        href="{{ route('materials.inconel', ['country' => 'in']) }}">Inconel</a>,
-                                                    you may need to adjust for density differences.</p>
-                                            </div>
-                                        </div>
-                                        <!--End single accordion box-->
-                                        <!--Start single accordion box-->
-                                        <div class="accordion accordion-block">
-                                            <div class="accord-btn">
-                                                <h3 class="h6">Do you supply the items listed in the calculator?</h3>
-                                            </div>
-                                            <div class="accord-content">
-                                                <p>Yes, <a href="{{ route('index', ['country' => 'in']) }}">Moksh Tubes &
-                                                        Fittings LLP</a> manufactures and supplies most of the items listed,
-                                                    including HEA/HEB beams, <a
-                                                        href="{{ route('products.pipes-tubes.seamless-pipes', ['country' => 'in']) }}">seamless
-                                                        pipes</a>, <a
-                                                        href="{{ route('products.sheets-plates-coils.sheets-and-plates', ['country' => 'in']) }}">plates</a>,
-                                                    and <a
-                                                        href="{{ route('products.pipes-tubes.hollow-section-pipe', ['country' => 'in']) }}">structural
-                                                        sections</a> in various ferrous and non-ferrous grades.</p>
-                                            </div>
-                                        </div>
-                                        <!--Start single accordion box-->
-                                        <div class="accordion accordion-block">
-                                            <div class="accord-btn">
-                                                <h3 class="h6">Is this calculator free to use?</h3>
-                                            </div>
-                                            <div class="accord-content">
-                                                <p>Yes, our steel weight calculator is completely free for engineers,
-                                                    fabricators, and procurement specialists to estimate shipment weights
-                                                    and plan logistics.</p>
-                                            </div>
-                                        </div>
-                                        <!--End single accordion box-->
-                                        <!--Start single accordion box-->
-                                        <div class="accordion accordion-block">
-                                            <div class="accord-btn">
-                                                <h3 class="h6">What standards are these dimensions based on?</h3>
-                                            </div>
-                                            <div class="accord-content">
-                                                <p>The dimensions provided in the calculator roughly follow international
-                                                    standards like EN, DIN, and ASTM for common structural sections. For
-                                                    precise engineering requirements, we recommend referring to the official
-                                                    standard documents.</p>
-                                            </div>
-                                        </div>
-                                        <!--End single accordion box-->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <!--End faq content area-->
-
-                    <script type="application/ld+json">
-           @verbatim
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [{
-        "@type": "Question",
-        "name": "How accurate is the steel weight calculator?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "The calculator uses standard theoretical weights based on international dimensional standards (DIN, ASTM, ASME). However, actual weights may vary slightly due to manufacturing tolerances (typically +/- 5-10%) and specific material density variations."
-        }
-      }, {
-        "@type": "Question",
-        "name": "Can I calculate weights for different materials?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, while the default density is often set for Steel (approx. 7.85 g/cm³), the calculator covers various shapes applicable to Stainless Steel, Carbon Steel, and Nickel Alloys. For specific alloys like Hastelloy or Inconel, you may need to adjust for density differences."
-        }
-      }, {
-        "@type": "Question",
-        "name": "Do you supply the items listed in the calculator?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, Moksh Tubes & Fittings LLP manufactures and supplies most of the items listed, including HEA/HEB beams, seamless pipes, plates, and structural sections in various ferrous and non-ferrous grades."
-        }
-      }, {
-        "@type": "Question",
-        "name": "Is this calculator free to use?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, our steel weight calculator is completely free for engineers, fabricators, and procurement specialists to estimate shipment weights and plan logistics."
-        }
-      }, {
-        "@type": "Question",
-        "name": "What standards are these dimensions based on?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "The dimensions provided in the calculator roughly follow international standards like EN, DIN, and ASTM for common structural sections. For precise engineering requirements, we recommend referring to the official standard documents."
-        }
-      }
-    }
-    @endverbatim
-    </script>
                     {{-- Beams - HEB (IPB) --}}
                     <!-- HTML for HEB Calculator -->
                     <div id="tab16" class="tab-content-item d-none">
@@ -1655,6 +1519,142 @@
             </div>
         </div>
     </div>
+                    <!--Start faq content area-->
+                    <section class="faq-content-area sec-padd2">
+                        <div class="container">
+                            <div class="section-title center">
+                                <h2>Frequently Asked Questions</h2>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="accordion-box">
+                                        <!--Start single accordion box-->
+                                        <div class="accordion accordion-block">
+                                            <div class="accord-btn active">
+                                                <h3 class="h6">How accurate is the steel weight calculator?</h3>
+                                            </div>
+                                            <div class="accord-content collapsed">
+                                                <p>The calculator uses standard theoretical weights based on international
+                                                    dimensional standards (DIN, ASTM, ASME). However, actual weights may
+                                                    vary slightly due to manufacturing tolerances (typically +/- 5-10%) and
+                                                    specific material density variations.</p>
+                                            </div>
+                                        </div>
+                                        <!--End single accordion box-->
+                                        <!--Start single accordion box-->
+                                        <div class="accordion accordion-block">
+                                            <div class="accord-btn">
+                                                <h3 class="h6">Can I calculate weights for different materials?</h3>
+                                            </div>
+                                            <div class="accord-content">
+                                                <p>Yes, while the default density is often set for Steel (approx. 7.85
+                                                    g/cm³), the calculator covers various shapes applicable to <a
+                                                        href="{{ route('materials.austenitic-stainless-Steel', ['country' => 'in']) }}">Stainless
+                                                        Steel</a>, <a
+                                                        href="{{ route('materials.engineering-Steels', ['country' => 'in']) }}">Carbon
+                                                        Steel</a>, and <a
+                                                        href="{{ route('materials.nickel-Based-Superalloys', ['country' => 'in']) }}">Nickel
+                                                        Alloys</a>. For specific alloys like <a
+                                                        href="{{ route('materials.hastelloy', ['country' => 'in']) }}">Hastelloy</a>
+                                                    or <a
+                                                        href="{{ route('materials.inconel', ['country' => 'in']) }}">Inconel</a>,
+                                                    you may need to adjust for density differences.</p>
+                                            </div>
+                                        </div>
+                                        <!--End single accordion box-->
+                                        <!--Start single accordion box-->
+                                        <div class="accordion accordion-block">
+                                            <div class="accord-btn">
+                                                <h3 class="h6">Do you supply the items listed in the calculator?</h3>
+                                            </div>
+                                            <div class="accord-content">
+                                                <p>Yes, <a href="{{ route('index', ['country' => 'in']) }}">Moksh Tubes &
+                                                        Fittings LLP</a> manufactures and supplies most of the items listed,
+                                                    including HEA/HEB beams, <a
+                                                        href="{{ route('products.pipes-tubes.seamless-pipes', ['country' => 'in']) }}">seamless
+                                                        pipes</a>, <a
+                                                        href="{{ route('products.sheets-plates-coils.sheets-and-plates', ['country' => 'in']) }}">plates</a>,
+                                                    and <a
+                                                        href="{{ route('products.pipes-tubes.hollow-section-pipe', ['country' => 'in']) }}">structural
+                                                        sections</a> in various ferrous and non-ferrous grades.</p>
+                                            </div>
+                                        </div>
+                                        <!--Start single accordion box-->
+                                        <div class="accordion accordion-block">
+                                            <div class="accord-btn">
+                                                <h3 class="h6">Is this calculator free to use?</h3>
+                                            </div>
+                                            <div class="accord-content">
+                                                <p>Yes, our steel weight calculator is completely free for engineers,
+                                                    fabricators, and procurement specialists to estimate shipment weights
+                                                    and plan logistics.</p>
+                                            </div>
+                                        </div>
+                                        <!--End single accordion box-->
+                                        <!--Start single accordion box-->
+                                        <div class="accordion accordion-block">
+                                            <div class="accord-btn">
+                                                <h3 class="h6">What standards are these dimensions based on?</h3>
+                                            </div>
+                                            <div class="accord-content">
+                                                <p>The dimensions provided in the calculator roughly follow international
+                                                    standards like EN, DIN, and ASTM for common structural sections. For
+                                                    precise engineering requirements, we recommend referring to the official
+                                                    standard documents.</p>
+                                            </div>
+                                        </div>
+                                        <!--End single accordion box-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!--End faq content area-->
+
+                    <script type="application/ld+json">
+           @verbatim
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "How accurate is the steel weight calculator?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The calculator uses standard theoretical weights based on international dimensional standards (DIN, ASTM, ASME). However, actual weights may vary slightly due to manufacturing tolerances (typically +/- 5-10%) and specific material density variations."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Can I calculate weights for different materials?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, while the default density is often set for Steel (approx. 7.85 g/cm³), the calculator covers various shapes applicable to Stainless Steel, Carbon Steel, and Nickel Alloys. For specific alloys like Hastelloy or Inconel, you may need to adjust for density differences."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Do you supply the items listed in the calculator?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, Moksh Tubes & Fittings LLP manufactures and supplies most of the items listed, including HEA/HEB beams, seamless pipes, plates, and structural sections in various ferrous and non-ferrous grades."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Is this calculator free to use?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, our steel weight calculator is completely free for engineers, fabricators, and procurement specialists to estimate shipment weights and plan logistics."
+        }
+      }, {
+        "@type": "Question",
+        "name": "What standards are these dimensions based on?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The dimensions provided in the calculator roughly follow international standards like EN, DIN, and ASTM for common structural sections. For precise engineering requirements, we recommend referring to the official standard documents."
+        }
+      }
+    }
+    @endverbatim
+    </script>
 @endsection
 @section('extrajs')
     <script>
@@ -2504,39 +2504,37 @@
         };
 
         function populateUpnProfiles() {
-            const select = document.querySelector('#tab12 select');
+            const select = document.getElementById('upnProfile');
             select.innerHTML = Object.keys(upnChannels)
                 .map(p => `<option value="${p}">${p}</option>`)
                 .join('');
         }
 
         function updateUpnUI() {
-            const selectEl = document.querySelector('#tab12 select');
+            const selectEl = document.getElementById('upnProfile');
             const data = upnChannels[selectEl.value];
             if (!data) return;
 
-            const inputs = document.querySelectorAll('#tab12 input');
-            inputs[0].value = data.h;
-            inputs[1].value = data.b;
-            inputs[2].value = data.s;
-            inputs[3].value = data.t;
+            document.getElementById('upnH').value = data.h;
+            document.getElementById('upnB').value = data.b;
+            document.getElementById('upnS').value = data.s;
+            document.getElementById('upnT').value = data.t;
 
-            const length = parseFloat(inputs[4].value) || 1;
+            const length = parseFloat(document.getElementById('upnLength').value) || 0;
             const weightPerMeter = data.w;
             const totalWeight = weightPerMeter * length;
 
-            const results = document.querySelectorAll('#tab12 .text-primary');
-            results[0].textContent = weightPerMeter.toFixed(2) + " kg/m";
-            results[1].textContent = totalWeight.toFixed(2) + " kg";
+            document.getElementById('upnWeightPerMeter').textContent = weightPerMeter.toFixed(2) + " kg/m";
+            document.getElementById('upnTotalWeight').textContent = totalWeight.toFixed(2) + " kg";
         }
 
         document.addEventListener('DOMContentLoaded', () => {
             populateUpnProfiles();
-            const select = document.querySelector('#tab12 select');
+            const select = document.getElementById('upnProfile');
             select.selectedIndex = 0; // Select the first profile by default
             updateUpnUI();
             select.addEventListener('change', updateUpnUI);
-            document.querySelector('#tab12 input:nth-of-type(5)').addEventListener('input', updateUpnUI);
+            document.getElementById('upnLength').addEventListener('input', updateUpnUI);
         });
     </script>
 
@@ -2876,34 +2874,36 @@
                 area: 156.0
             }
         };
-        const profileEl = document.getElementById('ipeProfile');
-        const hEl = document.getElementById('ipeH');
-        const bEl = document.getElementById('ipeB');
-        const sEl = document.getElementById('ipeS');
-        const tEl = document.getElementById('ipeT');
-        const lenEl = document.getElementById('ipeLength');
-        const wpmEl = document.getElementById('ipeWeightPerMeter');
-        const totalEl = document.getElementById('ipeTotalWeight');
+        document.addEventListener('DOMContentLoaded', () => {
+            const profileEl = document.getElementById('ipeProfile');
+            const hEl = document.getElementById('ipeH');
+            const bEl = document.getElementById('ipeB');
+            const sEl = document.getElementById('ipeS');
+            const tEl = document.getElementById('ipeT');
+            const lenEl = document.getElementById('ipeLength');
+            const wpmEl = document.getElementById('ipeWeightPerMeter');
+            const totalEl = document.getElementById('ipeTotalWeight');
 
-        function updateIPE() {
-            const key = profileEl.value;
-            const d = IPE_DATA[key];
-            if (!d) return;
-            hEl.value = d.h;
-            bEl.value = d.b;
-            sEl.value = d.s;
-            tEl.value = d.t;
-            const wpm = d.weight; // kg/m from standard
-            const total = wpm * (parseFloat(lenEl.value) || 0);
-            wpmEl.textContent = `${wpm.toFixed(1)} kg/m`;
-            totalEl.textContent = `${total.toFixed(2)} kg`;
-        }
+            function updateIPE() {
+                const key = profileEl.value;
+                const d = IPE_DATA[key];
+                if (!d) return;
+                hEl.value = d.h;
+                bEl.value = d.b;
+                sEl.value = d.s;
+                tEl.value = d.t;
+                const wpm = d.weight; // kg/m from standard
+                const total = wpm * (parseFloat(lenEl.value) || 0);
+                wpmEl.textContent = `${wpm.toFixed(1)} kg/m`;
+                totalEl.textContent = `${total.toFixed(2)} kg`;
+            }
 
-        profileEl.addEventListener('change', updateIPE);
-        lenEl.addEventListener('input', updateIPE);
+            profileEl.addEventListener('change', updateIPE);
+            lenEl.addEventListener('input', updateIPE);
 
-        // init on load
-        updateIPE();
+            // init on load
+            updateIPE();
+        });
     </script>
 
     <script>
@@ -3078,43 +3078,45 @@
             }
         };
 
-        // DOM elements
-        const profileSelect = document.getElementById("heaProfile");
-        const hInput = document.getElementById("heaH");
-        const bInput = document.getElementById("heaB");
-        const sInput = document.getElementById("heaS");
-        const tInput = document.getElementById("heaT");
-        const lengthInput = document.getElementById("heaLength");
-        const weightPerMeterEl = document.getElementById("heaWeightPerMeter");
-        const totalWeightEl = document.getElementById("heaTotalWeight");
+        document.addEventListener('DOMContentLoaded', () => {
+            // DOM elements
+            const profileSelect = document.getElementById("heaProfile");
+            const hInput = document.getElementById("heaH");
+            const bInput = document.getElementById("heaB");
+            const sInput = document.getElementById("heaS");
+            const tInput = document.getElementById("heaT");
+            const lengthInput = document.getElementById("heaLength");
+            const weightPerMeterEl = document.getElementById("heaWeightPerMeter");
+            const totalWeightEl = document.getElementById("heaTotalWeight");
 
-        function updateHEA() {
-            const profile = profileSelect.value;
-            const data = heaData[profile];
-            if (!data) return;
+            function updateHEA() {
+                const profile = profileSelect.value;
+                const data = heaData[profile];
+                if (!data) return;
 
-            // Fill inputs
-            hInput.value = data.h;
-            bInput.value = data.b;
-            sInput.value = data.s;
-            tInput.value = data.t;
+                // Fill inputs
+                hInput.value = data.h;
+                bInput.value = data.b;
+                sInput.value = data.s;
+                tInput.value = data.t;
 
-            // Calculate
-            const weightPerMeter = data.weight;
-            const length = parseFloat(lengthInput.value) || 0;
-            const totalWeight = weightPerMeter * length;
+                // Calculate
+                const weightPerMeter = data.weight;
+                const length = parseFloat(lengthInput.value) || 0;
+                const totalWeight = weightPerMeter * length;
 
-            // Update UI
-            weightPerMeterEl.textContent = weightPerMeter.toFixed(2) + " kg/m";
-            totalWeightEl.textContent = totalWeight.toFixed(2) + " kg";
-        }
+                // Update UI
+                weightPerMeterEl.textContent = weightPerMeter.toFixed(2) + " kg/m";
+                totalWeightEl.textContent = totalWeight.toFixed(2) + " kg";
+            }
 
-        // Events
-        profileSelect.addEventListener("change", updateHEA);
-        lengthInput.addEventListener("input", updateHEA);
+            // Events
+            profileSelect.addEventListener("change", updateHEA);
+            lengthInput.addEventListener("input", updateHEA);
 
-        // Initialize on page load
-        updateHEA();
+            // Initialize on page load
+            updateHEA();
+        });
     </script>
 
 
