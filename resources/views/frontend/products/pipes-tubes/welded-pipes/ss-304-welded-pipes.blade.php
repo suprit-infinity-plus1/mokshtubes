@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'Stainless Steel 304 Welded Pipes | ASTM A312 TP304 ERW Supplier') <!-- 60 characters approx -->
+@section('title', 'SS 304 Welded Pipes – ASTM A312 TP304 / TP304L')
 @section('meta_description',
     'Buy Stainless Steel 304 Welded Pipes (ASTM A312 TP304) in ERW & EFW types. Available in
     all sizes & schedules with 3.1 certification. Supplier & Exporter India & GCC.')
@@ -14,7 +14,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>STAINLESS STEEL 304 WELDED PIPES</h1>
+                    <h1>SS 304 Welded Pipes – ASTM A312 TP304 / TP304L</h1>
                 </div>
             </div>
         </div>

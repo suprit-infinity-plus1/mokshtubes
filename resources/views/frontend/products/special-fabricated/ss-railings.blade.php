@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'SS Railing Designs – Balcony & Staircase Solutions') <!-- 52 characters -->
+@section('title', 'SS Railing Products – Stainless Steel Railing Systems (304 / 316 / Duplex)')
 @section('meta_description', 'Explore premium stainless steel and glass railing designs, durable balcony railings, and
     custom handrails for modern staircases and living spaces.') <!-- 153 characters -->
 @section('meta_keywords', 'SS Railing, SS Railing Design, Balcony Railings, Staircase Railings, Stainless Steel
@@ -12,7 +12,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Premium SS Railing Solutions</h1> <!-- 52 characters -->
+                    <h1>SS Railing Products – Stainless Steel Railing Systems (304 / 316 / Duplex)</h1>
                 </div>
             </div>
         </div>

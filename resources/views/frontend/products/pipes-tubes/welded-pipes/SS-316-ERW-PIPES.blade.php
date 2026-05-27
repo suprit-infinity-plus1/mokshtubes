@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'SS 316 ERW Pipes ASTM A312 TP316 / TP316L | Manufacturer')
+@section('title', 'SS 316 ERW Pipes – ASTM A312 TP316 / TP316L')
 @section('meta_description', 'SS 316 ERW Pipes as per ASTM A312 TP316/TP316L. Manufacturer, supplier & exporter to India, UAE, Saudi Arabia, Qatar, Oman & Kuwait.')
 @section('meta_keywords', 'SS 316 ERW Pipes, ASTM A312 TP316 Pipes, SS 316L ERW Pipes, Stainless Steel 316 ERW Pipes, SS 316 ERW Pipe Manufacturer, SS 316 ERW Pipe Supplier India, SS 316 ERW Pipe Exporter, ASTM A312 ERW Pipes')
 @section('og_image', asset('assets/images/product/welded-pipes-tubes.webp'))

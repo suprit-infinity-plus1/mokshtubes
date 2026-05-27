@@ -480,7 +480,8 @@
                                                         href="{{ route('products.sheets-plates-coils') }}">
                                                         Sheets, Plates & Coils
                                                     </a>
-                                                     <li class="dropdown">
+                                                </li>
+                                                <li class="dropdown">
                                                     <a class="dropdown-item d-flex justify-content-between align-items-center" href="{{ route('products.pipe-fittings-flanges-fasteners') }}">
                                                         Pipe Fittings <i class="fa fa-angle-right"></i>
                                                     </a>
@@ -494,6 +495,21 @@
                                                         <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.eccentric-reducers') }}">Eccentric Reducers</a></li>
                                                         <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.weldolets') }}">Weldolets</a></li>
                                                         <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.sockolets') }}">Sockolets</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">
+                                                        Flanges <i class="fa fa-angle-right"></i>
+                                                    </a>
+                                                    <ul>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.wnrf-flanges') }}">WNRF Flanges</a></li>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.sorf-flanges') }}">SORF Flanges</a></li>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.blind-flanges') }}">Blind Flanges</a></li>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.ljff-flanges') }}">LJFF Flanges</a></li>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.astm-a182-f316-flanges') }}">ASTM A182 F316 Flanges</a></li>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.astm-a350-lf2-flanges') }}">ASTM A350 LF2 Flanges</a></li>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.fittings-and-flanges') }}">Fittings and Flanges</a></li>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.flanges-and-gaskets') }}">Flanges and Gaskets</a></li>
                                                     </ul>
                                                 </li>
                                                 <li><a class="dropdown-item text-wrap"
@@ -684,6 +700,21 @@
                                                         <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.sockolets') }}">Sockolets</a></li>
                                                     </ul>
                                                 </li>
+                                                <li class="dropdown">
+                                                    <a class="dropdown-item d-flex justify-content-between align-items-center" href="#">
+                                                        Flanges <i class="fa fa-angle-right"></i>
+                                                    </a>
+                                                    <ul>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.wnrf-flanges') }}">WNRF Flanges</a></li>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.sorf-flanges') }}">SORF Flanges</a></li>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.blind-flanges') }}">Blind Flanges</a></li>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.ljff-flanges') }}">LJFF Flanges</a></li>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.astm-a182-f316-flanges') }}">ASTM A182 F316 Flanges</a></li>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.astm-a350-lf2-flanges') }}">ASTM A350 LF2 Flanges</a></li>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.fittings-and-flanges') }}">Fittings and Flanges</a></li>
+                                                        <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.flanges-and-gaskets') }}">Flanges and Gaskets</a></li>
+                                                    </ul>
+                                                </li>
                                                  <li class="dropdown">
                                                     <a class="dropdown-item d-flex justify-content-between align-items-center" href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners') }}">
                                                         Fasteners <i class="fa fa-angle-right"></i>
@@ -698,6 +729,7 @@
                                                         <li><a href="{{ route('products.pipe-fittings-flanges-fasteners.fasteners.plain-washers') }}">Plain Washers</a></li>
                                                         <li><a href="#">Hex Head Plugs</a></li>
                                                     </ul>
+                                                </li>
                                                 <li><a href="{{ route('products.special-fabricated') }}">SPECIAL
                                                         FABRICATED PRODUCTS</a></li>
                                             </ul>

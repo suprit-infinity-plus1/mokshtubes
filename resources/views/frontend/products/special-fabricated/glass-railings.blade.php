@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'Mokshtubes Glass Railings – Safe & Modern Designs') <!-- 52 characters -->
+@section('title', 'Glass Railings – Frameless, Toughened & Laminated Glass Railing Systems')
 @section('meta_description',
     'Mokshtubes provides premium glass railings for balconies, staircases, and terraces – durable, safe, and elegant designs for modern spaces.') <!-- 153 characters -->
 @section('meta_keywords',
@@ -12,7 +12,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Premium Glass Railings for Modern Spaces</h1> <!-- 52 characters -->
+                    <h1>Glass Railings – Frameless, Toughened & Laminated Glass Railing Systems</h1>
                 </div>
             </div>
         </div>

@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'Fabricated Stainless Steel Grills – Stylish & Durable') <!-- 52 characters -->
+@section('title', 'Fabricated SS Grills – Stainless Steel Decorative & Security Grill Systems')
 @section('meta_description',
     'Moksh Tubes provides premium fabricated stainless steel grills – rust-resistant, durable, and stylish, ideal for gates, balconies, staircases, and windows.') <!-- 153 characters -->
 @section('meta_keywords', 'Fabricated Stainless Steel Grills, SS Grills Manufacturer, Stainless Steel Window Grills, SS Balcony & Staircase Grills, Custom Stainless Steel Grills, Decorative Stainless Steel Grills, Modern SS Grills for Home, Industrial Stainless Steel Grills, Duplex & Super Duplex Steel Grills, Stainless Steel Security Grills')
@@ -11,7 +11,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Premium Fabricated Stainless Steel Grills</h1> <!-- 52 characters -->
+                    <h1>Fabricated SS Grills – Stainless Steel Decorative & Security Grill Systems</h1>
                 </div>
             </div>
         </div>

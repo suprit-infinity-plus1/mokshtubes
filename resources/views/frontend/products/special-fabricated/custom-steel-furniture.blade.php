@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'Custom Steel Furniture – Modern, Durable & Stylish') <!-- 52 characters -->
+@section('title', 'Custom Steel Furniture – Stainless Steel, Mild Steel & Industrial Furniture Solutions')
 @section('meta_description',
     'Premium custom steel furniture from Moksh Tubes — rust-resistant, durable, and stylish for homes, offices, hospitality, and industrial use.') <!-- 152 characters -->
 @section('meta_keywords', 'Custom Steel Furniture, Steel Furniture Manufacturers, Stainless Steel Furniture, Durable Steel Furniture, Modern Steel Furniture Designs, Industrial Steel Furniture, Custom Steel Tables, Chairs, Racks, Cabinets, Steel Furniture for Home & Office')
@@ -11,7 +11,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Premium Custom Steel Furniture Solutions</h1> <!-- 52 characters -->
+                    <h1>Custom Steel Furniture – Stainless Steel, Mild Steel & Industrial Furniture Solutions</h1>
                 </div>
             </div>
         </div>
