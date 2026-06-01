@@ -1,476 +1,123 @@
 @extends('layouts.master')
-@section('title', 'Fabricated SS Grills – Stainless Steel Decorative & Security Grill Systems')
-@section('meta_description',
-    'Moksh Tubes provides premium fabricated stainless steel grills – rust-resistant, durable, and stylish, ideal for gates, balconies, staircases, and windows.') <!-- 153 characters -->
-@section('meta_keywords', 'Fabricated Stainless Steel Grills, SS Grills Manufacturer, Stainless Steel Window Grills, SS Balcony & Staircase Grills, Custom Stainless Steel Grills, Decorative Stainless Steel Grills, Modern SS Grills for Home, Industrial Stainless Steel Grills, Duplex & Super Duplex Steel Grills, Stainless Steel Security Grills')
+
+@section('title', 'Fabricated SS Grills | Stainless Steel Window & Balcony Grills')
+@section('meta_description', 'Custom fabricated SS grills for windows, balconies & gates. Durable stainless steel grill systems in 304 & 316 grades with modern designs.')
+@section('meta_keywords', 'Fabricated SS Grills, stainless steel grills, SS window grills, SS balcony grills, decorative SS grills, custom steel grills')
 @section('og_image', asset('assets/images/product/SS-grill.webp'))
 @section('og_type', 'article')
+
 @section('content')
+
     <!--Start breadcrumb area-->
     <section class="breadcrumb-area" style="background-image: url(/assets/images/product/SS-grill.webp);">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Fabricated SS Grills – Stainless Steel Decorative & Security Grill Systems</h1>
+                    <h1>Fabricated SS Grills<br>Stainless Steel Decorative & Security Systems</h1>
+
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px;">
+                        Fabricated Stainless Steel (SS) Grills are modern architectural solutions designed for security, ventilation, and aesthetic enhancement in residential, commercial, and industrial projects. Moksh Tubes & Fittings LLP manufactures custom SS grills using high-quality stainless steel, duplex alloys, and advanced fabrication techniques such as CNC cutting and laser processing. Our grills offer durability, corrosion resistance, and premium finishes suitable for indoor and outdoor applications across India and export markets.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
+    <!--End breadcrumb area-->
 
-
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Start Material Tabs -->
+    <div class="sticky-top bg-white border-bottom material-tabs w-100">
         <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Fabricated Stainless Steel Grills</h2>
+            <a href="#overview">Overview</a> |
+            <a href="#specifications">Specifications</a> |
+            <a href="#size-weight">Size & Weight</a> |
+            <a href="#grades">Grades</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#buying-guide">Buying Guide</a> |
+            <a href="#manufacturing">Manufacturing</a> |
+            <a href="#mechanical">Properties</a> |
+            <a href="#tolerances">Tolerances</a> |
+            <a href="#export">Packaging & Exports</a> |
+            <a href="#why-choose-us">Why Choose Us</a> |
+            <a href="#faq">FAQ</a>
+        </div>
+    </div>
+    <!-- End Material Tabs -->
+
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Product Overview</h2>
             </div>
+
+            <h3 class="fw-semibold text-center mb-5" style="color: #db7227;">
+                FABRICATED SS GRILLS
+            </h3>
 
             <div class="row align-items-center">
-                <!-- Left Image -->
+                <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
-                    <img src="{{ asset('assets/images/product/SS-grill.webp') }}"
-                        alt="Fabricated-SS-Grills" class="img-fluid rounded shadow-sm">
+                    <img src="{{ asset('assets/images/product/SS-grill.webp') }}" alt="stainless steel window grill design"
+                        class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
-                <!-- Right Content -->
+                <!-- Content Right -->
                 <div class="col-md-6">
-                    <p class="fs-6 mb-3 text-justify">
-                        Fabricated Stainless Steel (SS) Grills have become an essential architectural and functional element
-                        for modern infrastructure. They are widely used in residential, commercial, and industrial spaces
-                        for their ability to combine security, ventilation, and aesthetics. Stainless steel grills are not
-                        just about safety they bring elegance, style, and long-lasting durability to gates, balconies,
-                        staircases, windows, and partitions.
-                    </p>
-                    <p class="fs-6 mb-3 text-justify">
-                        <strong><a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a></strong>, we manufacture
-                        custom fabricated SS grills to meet diverse project
-                        requirements. Each grill is crafted with precision engineering and high grade <a
-                            href="{{ route('materials.austenitic-stainless-Steel') }}">stainless steel</a> to
-                        ensure corrosion resistance, strength, and a premium finish. From intricately designed decorative
-                        grills for upscale residences to heavy duty industrial safety grills, our <a
-                            href="{{ route('products') }}">products</a> are tailored for
-                        purpose and built to last.
-                    </p>
-                    <p class="fs-6 text-justify">
-                        With modern fabrication techniques like laser cutting, CNC bending, and TIG <a
-                            href="{{ route('products.pipes-tubes.welded-pipes') }}">welding</a>, we produce
-                        grills that not only serve their functional roles but also enhance the architectural appeal of any
-                        space.
-                </div>
-            </div>
-        </div>
-    </section>
+                    <div class="pe-md-3">
+                        <p class="fs-6 mb-4" style="text-align: justify;">
+                            <strong class="text-black">Fabricated Stainless Steel Grills</strong> are essential components used for safety, protection, and design enhancement in modern infrastructure. These grills are widely installed in windows, balconies, staircases, doors, partitions, and industrial enclosures.
+                        </p>
 
-    <section class="sec-padd-top sec-padd-bottom">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Specifications</h2>
-            </div>
+                        <p class="fs-6 mb-4" style="text-align: justify;">
+                            Compared to traditional iron or wooden grills, stainless steel grills offer superior corrosion resistance, minimal maintenance, and long-term durability. They are designed to withstand harsh environmental conditions while maintaining their structural strength and visual appeal.
+                        </p>
 
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Category</th>
-                                    <th>Details</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-start">
-                                <tr class="t-row">
-                                    <td>Material</td>
-                                    <td>Stainless Steel, Duplex & Super Duplex Steel, Mild Steel (for hybrid designs)</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Grades</td>
-                                    <td>As per ASTM/ASME standards – available in all mentioned alloys</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Dimensions</td>
-                                    <td>Fully customizable (length, width, thickness, and design)</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Finishes</td>
-                                    <td>Matte, Mirror, Brushed, Powder Coated, Antique, Custom Decorative Finishes</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Fabrication Methods</td>
-                                    <td>CNC Cutting, Laser Cutting, TIG/MIG Welding, Polishing, Etching</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Types</td>
-                                    <td>Window Grills, Door Grills, Staircase & Balcony Grills, Decorative Partition Grills,
-                                        Ventilation Grills</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Applications</td>
-                                    <td>Residential, Commercial, Industrial, Institutional & Hospitality Projects</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Durability</td>
-                                    <td>Weather-resistant, corrosion-proof, and structurally strong</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <p class="fs-6" style="text-align: justify;">
+                            At <strong style="color:black;"><a href="{{ url('/contact-us') }}">Moksh Tubes & Fittings LLP</a></strong>, we design and fabricate custom SS grills using advanced manufacturing techniques such as CNC cutting, laser cutting, and TIG welding. Our grills are engineered for both functional performance and architectural aesthetics, making them ideal for residential, commercial, and industrial applications.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <section class="sec-padd-bottom bg-light">
+        <div class="datasheet-download px-4 text-center">
+            <h3 class="mb-3" style="color:#174268;">Download SS Grills Catalog</h3>
+            <p class="mb-3">
+                Get the complete catalog including material specifications, dimensions, and design options. Enter your email to receive the PDF instantly.
+            </p>
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2 class="fw-bold" style="color: #174268;">Charts</h2>
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+                @csrf
+                <input type="hidden" name="page_path" value="{{ Request::path() }}">
+                <div class="row justify-content-center">
+                    <div class="col-md-6 mb-2">
+                        <input type="email" name="email" required class="form-control p-3"
+                            placeholder="Enter your email address">
+                    </div>
 
-
-            </div>
-            <!-- Child Title -->
-            <div class="section-title center mb-3">
-                <h3 class="text-center mb-0" style="color: #db7227;">Weight Chart</h3>
-            </div>
-
-            <div class="table-responsive">
-                <table class="table table-bordered table-striped text-center align-middle">
-                    <thead class="table-dark">
-                        <tr class="t-row">
-                            <th>Section Type</th>
-                            <th>Size (mm)</th>
-                            <th>1.0 mm Wt (kg/m)</th>
-                            <th>1.2 mm Wt (kg/m)</th>
-                            <th>1.5 mm Wt (kg/m)</th>
-                            <th>2.0 mm Wt (kg/m)</th>
-                            <th>2.5 mm Wt (kg/m)</th>
-                            <th>3.0 mm Wt (kg/m)</th>
-                            <th>3.5 mm Wt (kg/m)</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <!-- Square Tubes -->
-                        <tr class="t-row">
-                            <td rowspan="5">Square Tubes</td>
-                            <td>25 × 25</td>
-                            <td>0.74</td>
-                            <td>0.89</td>
-                            <td>1.12</td>
-                            <td>1.48</td>
-                            <td>1.84</td>
-                            <td>2.19</td>
-                            <td>2.53</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>40 × 40</td>
-                            <td>1.21</td>
-                            <td>1.46</td>
-                            <td>1.83</td>
-                            <td>2.43</td>
-                            <td>3.02</td>
-                            <td>3.61</td>
-                            <td>4.18</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>50 × 50</td>
-                            <td>1.53</td>
-                            <td>1.85</td>
-                            <td>2.32</td>
-                            <td>3.10</td>
-                            <td>3.87</td>
-                            <td>4.63</td>
-                            <td>5.38</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>75 × 75</td>
-                            <td>2.32</td>
-                            <td>2.79</td>
-                            <td>3.55</td>
-                            <td>4.71</td>
-                            <td>5.85</td>
-                            <td>6.98</td>
-                            <td>8.09</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>100 × 100</td>
-                            <td>3.10</td>
-                            <td>3.72</td>
-                            <td>4.71</td>
-                            <td>6.28</td>
-                            <td>7.82</td>
-                            <td>9.35</td>
-                            <td>10.87</td>
-                        </tr>
-
-                        <!-- Rectangular Tubes -->
-                        <tr class="t-row">
-                            <td rowspan="4">Rectangular Tubes</td>
-                            <td>50 × 25</td>
-                            <td>1.07</td>
-                            <td>1.28</td>
-                            <td>1.60</td>
-                            <td>2.13</td>
-                            <td>2.65</td>
-                            <td>3.17</td>
-                            <td>3.68</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>75 × 40</td>
-                            <td>1.72</td>
-                            <td>2.06</td>
-                            <td>2.58</td>
-                            <td>3.44</td>
-                            <td>4.29</td>
-                            <td>5.13</td>
-                            <td>5.96</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>100 × 50</td>
-                            <td>2.29</td>
-                            <td>2.75</td>
-                            <td>3.44</td>
-                            <td>4.59</td>
-                            <td>5.73</td>
-                            <td>6.86</td>
-                            <td>7.98</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>150 × 75</td>
-                            <td>3.44</td>
-                            <td>4.13</td>
-                            <td>5.16</td>
-                            <td>6.89</td>
-                            <td>8.59</td>
-                            <td>10.29</td>
-                            <td>11.97</td>
-                        </tr>
-
-                        <!-- Flat Bars -->
-                        <tr class="t-row">
-                            <td rowspan="6">Flat Bars</td>
-                            <td>25 × 5</td>
-                            <td>—</td>
-                            <td>—</td>
-                            <td>0.98</td>
-                            <td>—</td>
-                            <td>—</td>
-                            <td>—</td>
-                            <td>—</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>40 × 5</td>
-                            <td>—</td>
-                            <td>—</td>
-                            <td>1.57</td>
-                            <td>—</td>
-                            <td>—</td>
-                            <td>—</td>
-                            <td>—</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>50 × 6</td>
-                            <td>—</td>
-                            <td>—</td>
-                            <td>2.36</td>
-                            <td>—</td>
-                            <td>—</td>
-                            <td>—</td>
-                            <td>—</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>65 × 6</td>
-                            <td>—</td>
-                            <td>—</td>
-                            <td>3.07</td>
-                            <td>—</td>
-                            <td>—</td>
-                            <td>—</td>
-                            <td>—</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>75 × 8</td>
-                            <td>—</td>
-                            <td>—</td>
-                            <td>4.75</td>
-                            <td>—</td>
-                            <td>—</td>
-                            <td>—</td>
-                            <td>—</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>100 × 10</td>
-                            <td>—</td>
-                            <td>—</td>
-                            <td>7.85</td>
-                            <td>—</td>
-                            <td>—</td>
-                            <td>—</td>
-                            <td>—</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
-    <section class="" style="padding-top: 80px;">
-        <div class="container">
-
-            <!-- Parent Title -->
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Fabricated SS Grills</h2>
-            </div>
-
-            <!-- Child Title -->
-            <div class="section-title center mb-3">
-                <h3 class="text-center mb-0" style="color: #db7227;">Expanded Table (for one item – Fabricated SS Grills)
-                </h3>
-            </div>
-
-
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped align-middle">
-                            <thead class="table-dark text-center">
-                                <tr class="t-row">
-                                    <th>Section Type</th>
-                                    <th>Size (mm)</th>
-                                    <th>Thickness (mm)</th>
-                                    <th>Weight (kg/m)</th>
-                                    <th>Weight (kg/ft)</th>
-                                    <th>Remarks (Usage)</th>
-                                </tr>
-                            </thead>
-                            <tbody class="text-center">
-                                <!-- Square Tubes -->
-                                <tr class="t-row">
-                                    <td rowspan="5">Square Tubes</td>
-                                    <td>25 × 25</td>
-                                    <td>1.0 – 3.5</td>
-                                    <td>0.74 – 2.53</td>
-                                    <td>0.23 – 0.77</td>
-                                    <td>Light grills, railings</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>40 × 40</td>
-                                    <td>1.0 – 3.5</td>
-                                    <td>1.21 – 4.18</td>
-                                    <td>0.37 – 1.27</td>
-                                    <td>Balcony, railing posts</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>50 × 50</td>
-                                    <td>1.0 – 3.5</td>
-                                    <td>1.53 – 5.38</td>
-                                    <td>0.47 – 1.64</td>
-                                    <td>Heavy grills, gates</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>75 × 75</td>
-                                    <td>1.0 – 3.5</td>
-                                    <td>2.32 – 8.09</td>
-                                    <td>0.71 – 2.47</td>
-                                    <td>Main gate, heavy duty</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>100 × 100</td>
-                                    <td>1.0 – 3.5</td>
-                                    <td>3.10 – 10.87</td>
-                                    <td>0.95 – 3.32</td>
-                                    <td>Structural grills</td>
-                                </tr>
-
-                                <!-- Rectangular Tubes -->
-                                <tr class="t-row">
-                                    <td rowspan="4">Rectangular Tubes</td>
-                                    <td>50 × 25</td>
-                                    <td>1.0 – 3.5</td>
-                                    <td>1.07 – 3.68</td>
-                                    <td>0.33 – 1.12</td>
-                                    <td>Window grills, panels</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>75 × 40</td>
-                                    <td>1.0 – 3.5</td>
-                                    <td>1.72 – 5.96</td>
-                                    <td>0.52 – 1.81</td>
-                                    <td>Balcony, partition</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>100 × 50</td>
-                                    <td>1.0 – 3.5</td>
-                                    <td>2.29 – 7.98</td>
-                                    <td>0.70 – 2.43</td>
-                                    <td>Railing, gates</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>150 × 75</td>
-                                    <td>1.0 – 3.5</td>
-                                    <td>3.44 – 11.97</td>
-                                    <td>1.05 – 3.65</td>
-                                    <td>Industrial grills</td>
-                                </tr>
-
-                                <!-- Flat Bars -->
-                                <tr class="t-row">
-                                    <td rowspan="6">Flat Bars</td>
-                                    <td>25 × 5</td>
-                                    <td>5</td>
-                                    <td>0.98</td>
-                                    <td>0.30</td>
-                                    <td>Light grill sections</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>40 × 5</td>
-                                    <td>5</td>
-                                    <td>1.57</td>
-                                    <td>0.48</td>
-                                    <td>Decorative grills</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>50 × 6</td>
-                                    <td>6</td>
-                                    <td>2.36</td>
-                                    <td>0.72</td>
-                                    <td>Support frames</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>65 × 6</td>
-                                    <td>6</td>
-                                    <td>3.07</td>
-                                    <td>0.94</td>
-                                    <td>Railing fillers</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>75 × 8</td>
-                                    <td>8</td>
-                                    <td>4.75</td>
-                                    <td>1.45</td>
-                                    <td>Heavy duty grills</td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>100 × 10</td>
-                                    <td>10</td>
-                                    <td>7.85</td>
-                                    <td>2.39</td>
-                                    <td>Industrial use</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                    <div class="col-md-3 mb-2">
+                        <button type="submit" class="btn btn-lg w-100 text-white"
+                            style="background-color:#db7227; border-radius:8px;">
+                            Get Catalog
+                        </button>
                     </div>
                 </div>
-            </div>
+            </form>
+
+            @if (session('success'))
+                <div class="alert alert-success mt-3">
+                    {{ session('success') }}
+                </div>
+            @endif
         </div>
     </section>
 
-    {{-- Grades Available --}}
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Grades Available</h2>
-            </div>
-            <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;"><strong>Fabricated Stainless Steel Grills </strong>
-                    are offered in a wide variety of grades to suit different environments and design needs:</h4>
+                <h2>2. Specifications of Fabricated SS Grills</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -479,32 +126,19 @@
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
-                                    <th>Material</th>
-                                    <th>Grades</th>
+                                    <th>Category</th>
+                                    <th>Details</th>
                                 </tr>
                             </thead>
-                            <tbody>
-                                <tr class="t-row">
-                                    <td>Stainless Steel</td>
-                                    <td>
-                                        304, 304L, 316, 316L, 310, 321 <br>
-                                        <small>(Excellent corrosion resistance and premium finish)</small>
-                                    </td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Duplex & Super Duplex</td>
-                                    <td>
-                                        2205, S31803, S32750 <br>
-                                        <small>(Ideal for grills in marine or high-humidity environments)</small>
-                                    </td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Decorative & High-Performance Alloys</td>
-                                    <td>
-                                        904L, SMO 254 <br>
-                                        <small>(Luxury architectural grills with superior durability)</small>
-                                    </td>
-                                </tr>
+                            <tbody class="text-center">
+                                <tr class="t-row"><td>Material</td><td>Stainless Steel, Duplex & Super Duplex, Mild Steel (hybrid)</td></tr>
+                                <tr class="t-row"><td>Grades</td><td>ASTM / ASME compliant</td></tr>
+                                <tr class="t-row"><td>Types</td><td>Window Grills, Door Grills, Balcony Grills, Partition Grills</td></tr>
+                                <tr class="t-row"><td>Fabrication</td><td>CNC Cutting, Laser Cutting, TIG/MIG Welding</td></tr>
+                                <tr class="t-row"><td>Finishes</td><td>Matte, Mirror, Brushed, Powder Coated, Antique</td></tr>
+                                <tr class="t-row"><td>Dimensions</td><td>Fully customizable</td></tr>
+                                <tr class="t-row"><td>Applications</td><td>Residential, Commercial, Industrial</td></tr>
+                                <tr class="t-row"><td>Durability</td><td>Weatherproof, corrosion-resistant</td></tr>
                             </tbody>
                         </table>
                     </div>
@@ -513,456 +147,409 @@
         </div>
     </section>
 
-    {{-- Gallery --}}
-    <section class="our-services">
+    <section id="size-weight" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
-            <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color: #174268;">3. Size & Weight Charts</h2>
+            </div>
+            
+            <h4 class="text-center mb-3" style="color: #db7227;">Square & Rectangular Tube Weight Chart (kg/m)</h4>
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-10">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Section</th>
+                                    <th>Size</th>
+                                    <th>1.0 mm</th>
+                                    <th>1.5 mm</th>
+                                    <th>2.0 mm</th>
+                                    <th>3.0 mm</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr class="t-row"><td>Square</td><td>25×25</td><td>0.74</td><td>1.12</td><td>1.48</td><td>2.19</td></tr>
+                                <tr class="t-row"><td>Square</td><td>50×50</td><td>1.53</td><td>2.32</td><td>3.10</td><td>4.63</td></tr>
+                                <tr class="t-row"><td>Square</td><td>75×75</td><td>2.32</td><td>3.55</td><td>4.71</td><td>6.98</td></tr>
+                                <tr class="t-row"><td>Rectangular</td><td>50×25</td><td>1.07</td><td>1.60</td><td>2.13</td><td>3.17</td></tr>
+                                <tr class="t-row"><td>Rectangular</td><td>100×50</td><td>2.29</td><td>3.44</td><td>4.59</td><td>6.86</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
 
-            <div class="row">
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
-                                    alt="NICKLE ALLOYS">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">NICKLE ALLOYS</h6>
-                        </div>
+            <h4 class="text-center mb-3" style="color: #db7227;">Flat Bar Weight Reference</h4>
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Size</th>
+                                    <th>Thickness</th>
+                                    <th>Weight (kg/m)</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr class="t-row"><td>25×5</td><td>5 mm</td><td>0.98</td></tr>
+                                <tr class="t-row"><td>50×6</td><td>6 mm</td><td>2.36</td></tr>
+                                <tr class="t-row"><td>75×8</td><td>8 mm</td><td>4.75</td></tr>
+                                <tr class="t-row"><td>100×10</td><td>10 mm</td><td>7.85</td></tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
-                                    alt="STAINLESS STEEL">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">STAINLESS STEEL</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
-                                    alt="DUPLEX & SUPER">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">DUPLEX & SUPER</h6>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.titanium') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
-                                    alt="TITANIUM ALLOYS">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4 ">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
-                                    alt="Haynes Superalloys">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">Haynes Superalloys</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.inconel') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
-                                    alt="Inconel">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">Inconel</h6>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
     </section>
 
-
-    {{-- Applications --}}
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="grades" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Applications</h2>
-                <p class="text-center pb-3">
-                    <strong class="text-black">Fabricated SS Grills</strong> is versatile and used across a variety of
-                    industries and settings:
-                </p>
+                <h2>4. Grades Available</h2>
             </div>
 
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon">
-                            <i class="bi bi-house-door-fill"></i>
-                        </div>
-                        <h5>Residential Projects</h5>
-                        <ul>
-                            <li>Balcony and staircase grills for safety and design</li>
-                            <li>Window grills and door grills for security with style</li>
-                            <li>Decorative partitions for modern interiors</li>
-                        </ul>
+            <div class="row g-4 mt-4 justify-content-center">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h5>Stainless Steel Grades</h5>
+                        <p><strong>304 / 304L:</strong> Residential & interior use<br><strong>316 / 316L:</strong> Outdoor & coastal applications<br><strong>310 / 321:</strong> High-temperature applications</p>
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon">
-                            <i class="bi bi-buildings"></i>
-                        </div>
-                        <h5>Commercial Buildings</h5>
-                        <ul>
-                            <li>Lobby partitions, railing grills, and façade grills</li>
-                            <li>Office entry gates and reception area separators</li>
-                        </ul>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-gem"></i></div>
+                        <h5>Duplex & Super Duplex</h5>
+                        <p><strong>2205, S31803, S32750:</strong> High strength & corrosion resistance</p>
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon">
-                            <i class="bi bi-cup-straw"></i>
-                        </div>
-                        <h5>Hospitality Sector</h5>
-                        <ul>
-                            <li>Hotel staircases, restaurant dividers, and bar counters</li>
-                            <li>Exterior grills for balconies and terraces</li>
-                        </ul>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-award-fill"></i></div>
+                        <h5>Premium Alloys</h5>
+                        <p><strong>904L, SMO 254:</strong> Luxury & designer architectural grills</p>
                     </div>
                 </div>
-
-                <div class="col-md-6 col-lg-6">
-                    <div class="application-card">
-                        <div class="application-icon">
-                            <i class="bi bi-gear-wide-connected"></i>
-                        </div>
-                        <h5>Industrial & Institutional</h5>
-                        <ul>
-                            <li>Safety grills for factories and warehouses</li>
-                            <li>Ventilation grills for high-traffic areas</li>
-                        </ul>
-                    </div>
-                </div>
-
-
-                <div class="col-md-6 col-lg-6">
-                    <div class="application-card">
-                        <div class="application-icon">
-                            <i class="bi bi-tree-fill"></i>
-                        </div>
-                        <h5>Outdoor & Landscape</h5>
-                        <ul>
-                            <li>Garden boundary grills and decorative fencing</li>
-                            <li>Park benches, gazebos, and outdoor partitions</li>
-                        </ul>
-                    </div>
-                </div>
-                {{-- <p class="text-center pb-3 my-4"><strong class="text-dark">HASTELLOY C-276's</strong> unique combination of
-                corrosion resistance, weldability, and mechanical durability makes it a reliable material for
-                mission-critical applications where long-term performance is non-negotiable.
-
-            </p> --}}
             </div>
+        </div>
     </section>
 
-    {{-- Uses of Welded Pipes and Tubes --}}
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
-                <h2>Uses of Fabricated SS Grills</h2>
+                <h2>5. Applications of Fabricated SS Grills</h2>
             </div>
-            <!-- Child Title -->
-            <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Fabricated SS Grills are used extensively
-                    across multiple industries, including:</h4>
+
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-6 col-lg-3">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-house-door"></i></div>
+                        <h5>1️⃣ Residential</h5>
+                        <p>✔ Balcony & staircase grills<br>✔ Window & door grills<br>✔ Decorative interior partitions</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-building"></i></div>
+                        <h5>2️⃣ Commercial</h5>
+                        <p>✔ Office partitions & façade grills<br>✔ Entry gates & security grills</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-cup-hot"></i></div>
+                        <h5>3️⃣ Hospitality</h5>
+                        <p>✔ Hotel interiors & designer panels<br>✔ Restaurant partitions & decorative screens</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-gear"></i></div>
+                        <h5>4️⃣ Industrial & Institutional</h5>
+                        <p>✔ Factory safety grills<br>✔ Ventilation & protective enclosures</p>
+                    </div>
+                </div>
             </div>
+        </div>
+    </section>
+
+    <section id="uses" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>6. Uses & Advantages of Fabricated SS Grills</h2>
+            </div>
+
+            <div class="row g-4 mt-4 justify-content-center">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-shield-shaded"></i></div>
+                        <h5>High Corrosion Resistance</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-arrow-up-circle"></i></div>
+                        <h5>Long Lifespan</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-wrench"></i></div>
+                        <h5>Low Maintenance</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-gem"></i></div>
+                        <h5>Custom Design Flexibility</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-tree"></i></div>
+                        <h5>Eco-Friendly Material</h5>
+                    </div>
+                </div>
+                
+                <div class="col-sm-6 col-lg-4">
+                    <div class="advantage-card">
+                        <div class="advantage-icon"><i class="bi bi-brush"></i></div>
+                        <h5>Premium Aesthetic Appeal</h5>
+                    </div>
+                </div>
+            </div>
+            
+            <p class="text-center mt-4">
+                <strong>Uses:</strong> Security for windows, doors & balconies | Decorative architectural element | Ventilation with protection | Interior space partitioning | Durable outdoor applications
+            </p>
+        </div>
+    </section>
+
+    <section id="manufacturing" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Manufacturing Process of SS Grills</h2>
+            </div>
+            
+            <div class="row mt-4 justify-content-center">
+                <div class="col-md-8">
+                    <div class="pe-md-3 text-center">
+                        <p class="fs-6 text-start d-inline-block"><strong>Fabrication Steps:</strong><br><br>
+                        1️⃣ Material selection (SS / Duplex)<br>
+                        2️⃣ CNC / laser cutting<br>
+                        3️⃣ Bending & shaping<br>
+                        4️⃣ TIG/MIG welding<br>
+                        5️⃣ Surface finishing & polishing<br>
+                        6️⃣ Final inspection</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="mechanical" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color: #174268;">9. Mechanical Properties (Typical)</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Grade</th>
+                                    <th>Tensile Strength (MPa)</th>
+                                    <th>Yield Strength (MPa)</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr class="t-row"><td>SS 304</td><td>515</td><td>205</td></tr>
+                                <tr class="t-row"><td>SS 316</td><td>515</td><td>205</td></tr>
+                                <tr class="t-row"><td>Duplex 2205</td><td>620</td><td>450</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="buying-guide" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="row mt-4 justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-card-checklist"></i></div>
+                        <h5>Buying Guide</h5>
+                        <p>Before selecting SS grills:<br>
+                        ✔ Grade (304 vs 316 vs Duplex)<br>
+                        ✔ Indoor vs outdoor use<br>
+                        ✔ Design complexity (laser / simple)<br>
+                        ✔ Thickness & strength requirement<br>
+                        ✔ Finish preference<br>
+                        ✔ Installation type</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-rulers"></i></div>
+                        <h5>Dimensional Tolerances</h5>
+                        <p><strong>Thickness:</strong> ±10%</p>
+                        <p><strong>Length:</strong> ±5 mm</p>
+                        <p><strong>Straightness:</strong> As per fabrication standards</p>
+                        <p><strong>Surface Finish:</strong> As required</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card">
+                        <div class="application-icon"><i class="bi bi-globe2"></i></div>
+                        <h5>Exports & Supply Coverage</h5>
+                        <p><strong>Pan-India:</strong> Mumbai, Pune, Ahmedabad, Bangalore, Chennai, Hyderabad</p>
+                        <p><strong>Export Markets:</strong> UAE, Saudi Arabia, Qatar, Oman, Kuwait</p>
+                    </div>
+                </div>
+            </div>
+            
+            <p class="text-center mt-4">
+                <strong>Industries We Serve:</strong> Residential Construction | Commercial Buildings | Hospitality Projects | Industrial Facilities | Infrastructure Projects
+            </p>
+            <p class="text-center mt-2">
+                We also offer <strong class="text-dark"><a href="#">SS Railing Products</a></strong>, <a href="#">Glass Railings</a>, and <strong class="text-dark"><a href="#">Stainless Steel Pipes</a></strong>.
+            </p>
+        </div>
+    </section>
+
+
+    <section class="sec-padd-top sec-padd-bottom">
+        <div class="container text-center">
+            <div class="section-title center">
+                <h2>Why Choose Moksh Tubes & Fittings LLP?</h2>
+            </div>
+
             <div class="row g-4 mt-4">
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-lock-fill"></i></div>
-                        <h4>Security & Protection</h4>
-                        <h5>Enhances security and protection for windows, doors, and balconies</h5>
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-shield-check"></i></div>
+                        <h5>Expert fabrication team</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-brush-fill"></i></div>
-                        <h4>Modern & Decorative</h4>
-                        <h5>Adds a modern or decorative element to residential and commercial projects</h5>
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-tools"></i></div>
+                        <h5>Premium-grade materials</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-wind"></i></div>
-                        <h4>Ventilation Friendly</h4>
-                        <h5>Supports ventilation and airflow without compromising safety</h5>
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-boxes"></i></div>
+                        <h5>Custom design capability</h5>
                     </div>
                 </div>
 
                 <div class="col-sm-6 col-lg-6">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-grid-1x2-fill"></i></div>
-                        <h4>Space Dividers</h4>
-                        <h5>Acts as space dividers for interiors while maintaining an open look</h5>
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-truck"></i></div>
+                        <h5>Fast delivery & export support</h5>
                     </div>
                 </div>
-
-                <div class="col-sm-12 col-lg-6">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-cloud-sun-fill"></i></div>
-                        <h4>Durable & Weatherproof</h4>
-                        <h5>Durable and weatherproof for both indoor and outdoor use</h5>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-    {{-- Advantages of Welded Pipes & Tubes --}}
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Advantages of Fabricated SS Grills</h2>
-            </div>
-
-            <div class="row g-4 mt-4">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-lock-fill"></i></div>
-                        <h4>Superior Durability</h4>
-                        <h5>Resistant to rust, corrosion, and daily wear.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-tools"></i></div>
-                        <h4>Low Maintenance</h4>
-                        <h5>Easy to clean and doesn’t require repainting or refinishing.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-bounding-box-circles"></i></div>
-                        <h4>Custom Designs</h4>
-                        <h5>Intricate patterns, geometric shapes, and bespoke artistry available.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-recycle"></i></div>
-                        <h4>Eco Friendly & Sustainable</h4>
-                        <h5>Stainless steel is fully recyclable, supporting green initiatives.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-cash-coin"></i></div>
-                        <h4>Long-Term Value</h4>
-                        <h5>Outlasts traditional iron or wooden grills, saving replacement costs.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-palette-fill"></i></div>
-                        <h4>High Aesthetic Appeal</h4>
-                        <h5>Available in modern, classic, or designer finishes to match any décor.</h5>
+                
+                <div class="col-sm-6 col-lg-6">
+                    <div class="why-banner-block">
+                        <div class="why-banner-icon"><i class="bi bi-tags"></i></div>
+                        <h5>Competitive pricing</h5>
                     </div>
                 </div>
             </div>
-
-        </div>
         </div>
     </section>
 
-    
     <!--Start faq content area-->
-    <section class="faq-content-area sec-padd-top sec-padd-bottom">
+    <section id="faq" class="faq-content-area sec-padd2 bg-light">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="accordion-box">
                         <div class="section-title center">
-                            <h2>FAQ's</h2>
+                            <h2>Frequently Asked Questions (FAQ)</h2>
                         </div>
 
-                        <!--Start single accordion box-->
+                        <!-- Q1 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>Why should I choose stainless steel grills over iron grills?</h4>
+                                <h4>Q1. Why choose SS grills over iron?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Stainless steel grills are rust-proof, more durable, and low maintenance, unlike iron
-                                    grills that require regular painting and rust protection.
+                                    SS grills are rust-proof, durable, and low maintenance.
                                 </p>
                             </div>
                         </div>
-                        <!--End single accordion box-->
 
-                        <!--Start single accordion box-->
+                        <!-- Q2 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>Can SS grills be customized in design and size?</h4>
+                                <h4>Q2. Can SS grills be customized?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Yes. At <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a>, we offer fully
-                                    customized grills in terms of
-                                    dimensions, thickness, patterns, and finishes to match your project requirements.
+                                    Yes, fully customizable designs and sizes.
                                 </p>
                             </div>
                         </div>
-                        <!--End single accordion box-->
-
-                        <!--Start single accordion box-->
+                        
+                        <!-- Q3 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>Which grade of stainless steel is best for grills?</h4>
+                                <h4>Q3. Which grade is best?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    For residential use, SS 304 / 304L is most common.<br>
-                                    For coastal or outdoor projects, SS 316 / 316L is recommended due to its superior
-                                    corrosion resistance.<br>
-                                    For luxury or harsh environments, higher grades like Duplex, Super Duplex, or 904L are
-                                    preferred.
+                                    304 for indoor, 316 for outdoor, Duplex for harsh environments.
                                 </p>
                             </div>
                         </div>
-                        <!--End single accordion box-->
 
-                        <!--Start single accordion box-->
+                        <!-- Q4 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>Are fabricated SS grills suitable for outdoor use?</h4>
+                                <h4>Q4. Are they suitable for outdoor use?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Yes, stainless steel grills are weather-resistant and corrosion-proof, making them ideal
-                                    for balconies, terraces, gates, and façades.
+                                    Yes, highly weather-resistant.
                                 </p>
                             </div>
                         </div>
-                        <!--End single accordion box-->
-
-                        <!--Start single accordion box-->
+                        
+                        <!-- Q5 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What finishes are available in SS grills?</h4>
+                                <h4>Q5. Do they require maintenance?</h4>
                             </div>
                             <div class="accord-content">
                                 <p>
-                                    Grills are available in matte, mirror, brushed, powder coated, antique, and decorative
-                                    finishes depending on the design preference.
+                                    Minimal cleaning required.
                                 </p>
                             </div>
                         </div>
-                        <!--End single accordion box-->
-
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>How strong are stainless steel grills compared to mild steel?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    Stainless steel is stronger, tougher, and longer-lasting. Unlike mild steel, it does not
-                                    corrode easily and maintains its structural integrity for decades.
-                                </p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Do stainless steel grills require maintenance?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    Maintenance is minimal. Simple cleaning with soap water or mild detergent keeps the
-                                    shine intact. No repainting or polishing is required.
-                                </p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Can SS grills be used for decorative purposes?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    Absolutely. With laser cutting and CNC fabrication, SS grills can be designed into
-                                    intricate patterns, geometric shapes, and artistic designs, making them both functional
-                                    and decorative.
-                                </p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>Where are fabricated SS grills most commonly used?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    They are widely used in residential balconies, staircases, windows, doors, gates, office
-                                    partitions, hotel lobbies, industrial safety enclosures, and ventilation systems.
-                                </p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
-
-                        <!--Start single accordion box-->
-                        <div class="accordion accordion-block">
-                            <div class="accord-btn">
-                                <h4>How can I order custom stainless steel grills?</h4>
-                            </div>
-                            <div class="accord-content">
-                                <p>
-                                    Simply contact <b><a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a></b> at
-                                    📞 +91 97695 84950 or request a
-                                    quote on our website. We supply custom built SS grills globally.
-                                </p>
-                            </div>
-                        </div>
-                        <!--End single accordion box-->
 
                     </div>
                 </div>
@@ -971,64 +558,17 @@
     </section>
     <!--End faq content area-->
 
-    {{-- why choose us --}}
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container text-center">
-            <div class="section-title center">
-                <h2>WHY CHOOSE US?</h2>
-            </div>
-
-            <div class="row g-4 mt-4">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-award-fill"></i></div>
-                        <h5>Expert Fabricators: Skilled craftsmen ensure precision in every grill design.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-gem"></i></div>
-                        <h5>Premium Materials: High-quality stainless steel sourced for durability and shine.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-brush-fill"></i></div>
-                        <h5>Custom Design Service: Tailored grills to match architectural themes.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-6">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-clock-history"></i></div>
-                        <h5>Timely Delivery: On-schedule production and dispatch for projects.</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-lg-6">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Global Supply: Serving residential, commercial, and industrial clients worldwide.</h5>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        </div>
-    </section>
-
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Contact Section -->
+    <section id="contact-us" class="sec-padd-bottom">
         <div class="container">
             <div class="contact-cta-box">
-                <h2>Contact Us</h2>
+                <h2>REQUEST A QUOTE</h2>
                 <p>
-                    Looking for Custom Steel Furniture that combines design, durability, and value?<br>Contact <strong><a
-                            href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a></strong>
+                    Looking for high-quality fabricated SS grills?<br>
+                    📞 Contact Moksh Tubes & Fittings LLP at +91 97695 84950<br>
+                    We deliver custom-designed stainless steel grills combining security, durability, and modern aesthetics.
                 </p>
-               <!-- Call button -->
+                <!-- Call button -->
                 <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch
@@ -1037,100 +577,104 @@
         </div>
     </section>
 
-    <!--End breadcrumb area-->
-
-
 @endsection
+
 @section('jsscripts')
     <script type="application/ld+json">
         @verbatim
-                {
-                "@context": "https://schema.org",
-                "@type": "FAQPage",
-                "mainEntity": [
-                    {
-                    "@type": "Question",
-                    "name": "Why should I choose stainless steel grills over iron grills?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Stainless steel grills are rust-proof, more durable, and low maintenance, unlike iron grills that require regular painting and rust protection."
-                    }
-                    },
-                    {
-                    "@type": "Question",
-                    "name": "Can SS grills be customized in design and size?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Yes. At Moksh Tubes & Fittings LLP, we offer fully customized grills in terms of dimensions, thickness, patterns, and finishes to match your project requirements."
-                    }
-                    },
-                    {
-                    "@type": "Question",
-                    "name": "Which grade of stainless steel is best for grills?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "For residential use, SS 304 / 304L is most common. For coastal or outdoor projects, SS 316 / 316L is recommended due to its superior corrosion resistance. For luxury or harsh environments, higher grades like Duplex, Super Duplex, or 904L are preferred."
-                    }
-                    },
-                    {
-                    "@type": "Question",
-                    "name": "Are fabricated SS grills suitable for outdoor use?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Yes, stainless steel grills are weather-resistant and corrosion-proof, making them ideal for balconies, terraces, gates, and façades."
-                    }
-                    },
-                    {
-                    "@type": "Question",
-                    "name": "What finishes are available in SS grills?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Grills are available in matte, mirror, brushed, powder coated, antique, and decorative finishes depending on the design preference."
-                    }
-                    },
-                    {
-                    "@type": "Question",
-                    "name": "How strong are stainless steel grills compared to mild steel?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Stainless steel is stronger, tougher, and longer-lasting. Unlike mild steel, it does not corrode easily and maintains its structural integrity for decades."
-                    }
-                    },
-                    {
-                    "@type": "Question",
-                    "name": "Do stainless steel grills require maintenance?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Maintenance is minimal. Simple cleaning with soap water or mild detergent keeps the shine intact. No repainting or polishing is required."
-                    }
-                    },
-                    {
-                    "@type": "Question",
-                    "name": "Can SS grills be used for decorative purposes?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Absolutely. With laser cutting and CNC fabrication, SS grills can be designed into intricate patterns, geometric shapes, and artistic designs, making them both functional and decorative."
-                    }
-                    },
-                    {
-                    "@type": "Question",
-                    "name": "Where are fabricated SS grills most commonly used?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "They are widely used in residential balconies, staircases, windows, doors, gates, office partitions, hotel lobbies, industrial safety enclosures, and ventilation systems."
-                    }
-                    },
-                    {
-                    "@type": "Question",
-                    "name": "How can I order custom stainless steel grills?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Simply contact Moksh Tubes & Fittings LLP at 📞 +91 97695 84950 or request a quote on our website. We supply custom built SS grills globally."
-                    }
-                    }
-                ]
+        [{
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Moksh Tubes & Fittings LLP",
+            "url": "https://www.mokshtubes.com",
+            "logo": "https://www.mokshtubes.com/assets/logo.png",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+91-97695-84950",
+                "contactType": "sales",
+                "areaServed": ["IN","AE","SA","QA","OM","KW"],
+                "availableLanguage": ["English"]
+            }
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "name": "Fabricated SS Grills",
+            "description": "Custom fabricated SS grills for windows, balconies & gates. Durable stainless steel grill systems in 304 & 316 grades with modern designs.",
+            "brand": {
+                "@type": "Brand",
+                "name": "Moksh Tubes & Fittings LLP"
+            },
+            "manufacturer": {
+                "@type": "Organization",
+                "name": "Moksh Tubes & Fittings LLP"
+            },
+            "material": "Stainless Steel, Duplex & Super Duplex, Mild Steel",
+            "url": "https://www.mokshtubes.com/products/special-fabricated/fabricated-ss-grills",
+            "offers": {
+                "@type": "Offer",
+                "availability": "https://schema.org/InStock",
+                "priceCurrency": "INR",
+                "url": "https://www.mokshtubes.com/contact-us"
+            }
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [{
+                "@type": "Question",
+                "name": "Why choose SS grills over iron?",
+                "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "SS grills are rust-proof, durable, and low maintenance."
                 }
-        
-            @endverbatim
+            },{
+                "@type": "Question",
+                "name": "Which grade is best?",
+                "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "304 for indoor, 316 for outdoor, Duplex for harsh environments."
+                }
+            },{
+                "@type": "Question",
+                "name": "Are they suitable for outdoor use?",
+                "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, highly weather-resistant."
+                }
+            }]
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.mokshtubes.com"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Special Fabricated",
+                "item": "https://www.mokshtubes.com/products/special-fabricated"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Fabricated SS Grills",
+                "item": "https://www.mokshtubes.com/products/special-fabricated/fabricated-ss-grills"
+            }]
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Moksh Tubes & Fittings LLP",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "India"
+            },
+            "areaServed": ["India","UAE","Saudi Arabia","Qatar","Oman","Kuwait"],
+            "telephone": "+91-97695-84950"
+        }]
+        @endverbatim
     </script>
 @endsection
