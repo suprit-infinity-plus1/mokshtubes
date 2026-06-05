@@ -1,79 +1,135 @@
 @extends('layouts.master')
-@section('title', 'Round Bars – SS, MS, Alloy, Copper & Brass') <!-- 52 characters -->
-@section('meta_description', 'Mokshtubes supplies high quality stainless steel, MS, alloy, copper, brass, nickel &
-    aluminium round bars in various sizes, grades & weight chart.') <!-- 153 characters -->
-@section('meta_keywords', 'Round Bars, Stainless Steel Round Bars, MS Round Bars, Alloy Round Bars, Copper Round Bars,
-    Brass Round Bars, Nickel Round Bars, Aluminium Round Bars')
-    @section('og_title', 'Round Bars – SS, MS, Alloy, Copper & Brass')
+
+@section('title', 'Round Bars Manufacturer, Supplier & Exporter in India | SS, MS, Alloy')
+@section('meta_description', 'Buy high-quality Round Bars in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Nickel Alloy, Titanium, Aluminium & Brass grades from Moksh Tubes.')
+@section('meta_keywords', 'Round Bars, Stainless Steel Round Bars, Carbon Steel Round Bars, Alloy Steel Round Bars, MS Round Bars, Aluminium Round Bars, Brass Round Bars')
 @section('og_image', asset('assets/images/product/Bars-&-Rods/round-bars.webp'))
+@section('og_title', 'Round Bars Manufacturer, Supplier & Exporter in India')
 @section('og_type', 'article')
 
 @section('content')
+
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/Bars-&-Rods/round-bars.webp);">
+    <section class="breadcrumb-area" style="background-image: url('{{ asset('assets/images/product/Bars-&-Rods/round-bars.webp') }}');">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
-                    <h1>Premium SS, MS & Alloy Round Bars</h1> <!-- 52 characters -->
+                    <h1>Round Bars Manufacturer, Supplier & Exporter in India</h1>
+
+                    <p class="text-center mt-3 px-3 py-2 text-white position-relative"
+                        style="background:rgba(0,0,0,0.4); display:inline-block; border-radius:6px; max-width: 900px;">
+                        Round Bars are among the most widely used metal products in engineering, construction, manufacturing, automotive, aerospace, marine, oil & gas, and industrial applications. Their circular cross-section provides excellent strength, machinability, and load-bearing capability, making them ideal for shafts, fasteners, machine components, structural supports, and precision-engineered parts.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
-
-
     <!--End breadcrumb area-->
 
+    <!-- Start Material Tabs -->
+    <div class="sticky-top bg-white border-bottom material-tabs w-100">
+        <div class="container d-flex flex-wrap justify-content-center" style="gap: 15px; padding: 10px 0;">
+            <a href="#overview">Overview</a> |
+            <a href="#specifications">Specifications</a> |
+            <a href="#size-weight">Weight Chart</a> |
+            <a href="#types">Types</a> |
+            <a href="#grades">Grades</a> |
+            <a href="#manufacturing">Manufacturing</a> |
+            <a href="#mechanical">Mechanical Properties</a> |
+            <a href="#applications">Applications</a> |
+            <a href="#buying-guide">Buying Guide</a> |
+            <a href="#testing">Testing</a> |
+            <a href="#industries">Industries Served</a> |
+            <a href="#faq">FAQ</a>
+        </div>
+    </div>
+    <!-- End Material Tabs -->
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="overview" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
-            <div class="section-title center mb-4">
-                <h2 class="fw-bold" style="color: #174268;">Round Bars</h2>
+            <div class="section-title center">
+                <h2>Product Overview</h2>
             </div>
 
+            <h3 class="fw-semibold text-center mb-5" style="color: #db7227;">
+                ROUND BARS
+            </h3>
+
             <div class="row align-items-center">
-                <!-- Left Image -->
+                <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
                     <img src="{{ asset('assets/images/product/Bars-&-Rods/round-bars.webp') }}" alt="Round Bars"
-                        class="img-fluid rounded shadow-sm">
+                        class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
-                <!-- Right Content -->
+                <!-- Content Right -->
                 <div class="col-md-6">
-                    <p class="fs-6 mb-3 text-justify">
-                        <strong class="text-black">Round Bars</strong> are solid cylindrical metal bars widely used across
-                        construction,
-                        automotive, aerospace, marine, and engineering sectors. Available in different <a
-                            href="{{ route('materials') }}">materials</a>, sizes, and
-                        finishes, steel round bars are one of the most versatile raw <a
-                            href="{{ route('materials') }}">materials</a> for machining, fabrication,
-                        and structural applications.
-                    </p>
-                    <p class="fs-6 mb-3 text-justify">
-                        <a href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a>, we provide premium quality stainless
-                        steel round bars (SS round bars),
-                        carbon steel round bars (MS round bars), alloy steel round bars, duplex & super duplex round bars,
-                        <a href="{{ route('materials.nickel-Based-Superalloys') }}">nickel alloy</a> round bars, <a
-                            href="{{ route('materials.titanium') }}">titanium</a> round bars, aluminium round bars, brass
-                        round bars, and <a href="{{ route('materials.copper-Alloys') }}">copper</a>
-                        round bars. All our plain round bars and bright steel round bars are manufactured as per ASTM, ASME,
-                        DIN, <a href="{{ route('materials.engineering-Steels') }}">EN</a>, and JIS standards, ensuring
-                        tight tolerances, excellent surface finish, and durability for
-                        demanding industries.
-                    </p>
+                    <div class="pe-md-3">
+                        <p class="fs-6 mb-4" style="text-align: justify;">
+                            <strong class="text-black">Round Bars</strong> are solid cylindrical metal bars extensively used across numerous industries for fabrication, machining, forging, structural reinforcement, and manufacturing applications. Due to their uniform shape and excellent mechanical properties, round bars serve as the primary raw material for producing shafts, bolts, fasteners, gears, valves, pumps, bearings, machine parts, and engineering components.
+                        </p>
 
+                        <p class="fs-6 mb-4" style="text-align: justify;">
+                            Whether used in high-temperature environments, corrosive conditions, marine applications, heavy engineering projects, or precision machining operations, round bars provide the strength and reliability required for demanding industrial applications.
+                        </p>
+
+                        <p class="fs-6 mb-4" style="text-align: justify;">
+                            At <strong style="color:black;"><a href="{{ url('/contact-us') }}">Moksh Tubes & Fittings LLP</a></strong>, we offer an extensive range of Stainless Steel Round Bars, Mild Steel Round Bars, Alloy Steel Round Bars, Duplex Round Bars, Inconel Round Bars, Monel Round Bars, Titanium Round Bars, Brass Round Bars, Copper Round Bars, and Aluminium Round Bars for domestic and international projects.
+                        </p>
+
+                        
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="sec-padd-top sec-padd-bottom">
+    <section class="sec-padd-bottom bg-light">
+        <div class="datasheet-download px-4 text-center">
+            <h3 class="mb-3" style="color:#174268;">Download Round Bars Datasheet</h3>
+            <p class="mb-3">
+                Get the complete datasheet including chemical composition, mechanical properties, standards, tolerances, and
+                application guidelines. Enter your email to receive the PDF instantly.
+            </p>
+
+            <form id="leadForm" method="POST" action="{{ route('lead.capture') }}" class="mb-3">
+                @csrf
+                <input type="hidden" name="page_path" value="{{ Request::path() }}">
+                <div class="row justify-content-center">
+                    <div class="col-md-6 mb-2">
+                        <input type="email" name="email" required class="form-control p-3"
+                            placeholder="Enter your email address">
+                    </div>
+
+                    <div class="col-md-3 mb-2">
+                        <button type="submit" class="btn btn-lg w-100 text-white"
+                            style="background-color:#db7227; border-radius:8px;">
+                            Get Datasheet
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+            @if (session('success'))
+                <div class="alert alert-success mt-3">
+                    {{ session('success') }}
+                </div>
+            @endif
+
+            <p class="small text-muted">
+                We respect your privacy. Your email will only be used to send the datasheet.
+            </p>
+        </div>
+    </section>
+
+    <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Specifications</h2>
+                <h2>Specifications of Round Bars</h2>
             </div>
 
             <div class="row justify-content-center">
-                <div class="col-lg-12">
+                <div class="col-lg-10">
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
@@ -82,1841 +138,601 @@
                                     <th>Details</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-start">
+                            <tbody class="text-center">
+                                <tr class="t-row">
+                                    <td>Product</td>
+                                    <td>Round Bars</td>
+                                </tr>
                                 <tr class="t-row">
                                     <td>Material</td>
-                                    <td>Stainless Steel, Carbon Steel, Alloy Steel, Duplex & Super Duplex, Nickel Alloys,
-                                        Titanium, Aluminum, Brass, Copper</td>
+                                    <td>Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Nickel Alloy, Titanium, Aluminium, Brass & Copper</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Grades</td>
-                                    <td>ASTM, ASME, DIN, EN, and JIS certified grades – all major alloys available</td>
+                                    <td>Diameter Range</td>
+                                    <td>3 mm to 500 mm</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Size Range</td>
-                                    <td>Dia: 3mm round bar to 500 mm (custom diameters up to 600 mm on request)</td>
+                                    <td>Custom Diameter</td>
+                                    <td>Up to 600 mm</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Lengths</td>
-                                    <td>3 meters to 6 meters (cut-to-length round bars on request)</td>
+                                    <td>Length</td>
+                                    <td>3m, 4m, 6m & Custom Cut Lengths</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Types</td>
-                                    <td>Hot Rolled, Cold Drawn, Forged, Bright Mild Steel Round Bar</td>
+                                    <td>Hot Rolled, Cold Drawn, Forged, Bright Bars</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Finishes</td>
-                                    <td>Bright, Polished, Mill Finish, Peeled & Ground, Shot Blasted, Pickled & Passivated
-                                    </td>
+                                    <td>Bright, Polished, Peeled, Ground, Shot Blasted, Pickled & Passivated</td>
                                 </tr>
                                 <tr class="t-row">
                                     <td>Standards</td>
-                                    <td>ASTM A276, A479, A484, A582, EN 10060, DIN 671</td>
+                                    <td>ASTM A276, ASTM A479, ASTM A484, ASTM A582, EN 10060, DIN 671</td>
+                                </tr>
+                                <tr class="t-row">
+                                    <td>Certification</td>
+                                    <td>EN 10204 3.1, Mill Test Certificates</td>
                                 </tr>
                             </tbody>
                         </table>
-
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="size-weight" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
-            <div class="section-title center">
-                <h2 class="fw-bold" style="color: #174268;">Charts</h2>
-
-
-            </div>
-            <!-- Child Title -->
-            <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;">Weight Chart</h4>
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color: #174268;">Round Bar Weight Chart</h2>
             </div>
 
-            <div class="table-responsive">
-                <table class="table table-bordered table-striped align-middle text-center">
-                    <thead class="table-dark">
-                        <tr class="t-row">
-                            <th>Diameter (mm)</th>
-                            <th>Weight (kg/m)</th>
-                            <th>Weight (kg/12 m bar)</th>
-                            <th>Weight (lb/ft)</th>
-                        </tr>
-                    </thead>
-                    <tbody class="text-center">
-                        <tr class="t-row">
-                            <td>6</td>
-                            <td>0.222</td>
-                            <td>2.66</td>
-                            <td>0.149</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>7</td>
-                            <td>0.302</td>
-                            <td>3.63</td>
-                            <td>0.203</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>8</td>
-                            <td>0.395</td>
-                            <td>4.74</td>
-                            <td>0.265</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>9</td>
-                            <td>0.499</td>
-                            <td>5.99</td>
-                            <td>0.336</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>10</td>
-                            <td>0.617</td>
-                            <td>7.4</td>
-                            <td>0.414</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>11</td>
-                            <td>0.746</td>
-                            <td>8.95</td>
-                            <td>0.501</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>12</td>
-                            <td>0.888</td>
-                            <td>10.65</td>
-                            <td>0.597</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>13</td>
-                            <td>1.042</td>
-                            <td>12.5</td>
-                            <td>0.7</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>14</td>
-                            <td>1.208</td>
-                            <td>14.5</td>
-                            <td>0.812</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>15</td>
-                            <td>1.387</td>
-                            <td>16.65</td>
-                            <td>0.932</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>16</td>
-                            <td>1.578</td>
-                            <td>18.94</td>
-                            <td>1.061</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>17</td>
-                            <td>1.782</td>
-                            <td>21.38</td>
-                            <td>1.197</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>18</td>
-                            <td>1.998</td>
-                            <td>23.97</td>
-                            <td>1.342</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>19</td>
-                            <td>2.226</td>
-                            <td>26.71</td>
-                            <td>1.496</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>20</td>
-                            <td>2.466</td>
-                            <td>29.59</td>
-                            <td>1.657</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>21</td>
-                            <td>2.719</td>
-                            <td>32.63</td>
-                            <td>1.827</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>22</td>
-                            <td>2.984</td>
-                            <td>35.81</td>
-                            <td>2.005</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>23</td>
-                            <td>3.261</td>
-                            <td>39.14</td>
-                            <td>2.192</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>24</td>
-                            <td>3.551</td>
-                            <td>42.62</td>
-                            <td>2.386</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>25</td>
-                            <td>3.853</td>
-                            <td>46.24</td>
-                            <td>2.589</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>26</td>
-                            <td>4.168</td>
-                            <td>50.01</td>
-                            <td>2.801</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>27</td>
-                            <td>4.495</td>
-                            <td>53.93</td>
-                            <td>3.02</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>28</td>
-                            <td>4.834</td>
-                            <td>58</td>
-                            <td>3.248</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>29</td>
-                            <td>5.185</td>
-                            <td>62.22</td>
-                            <td>3.484</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>30</td>
-                            <td>5.549</td>
-                            <td>66.59</td>
-                            <td>3.729</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>31</td>
-                            <td>5.925</td>
-                            <td>71.1</td>
-                            <td>3.981</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>32</td>
-                            <td>6.313</td>
-                            <td>75.76</td>
-                            <td>4.242</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>33</td>
-                            <td>6.714</td>
-                            <td>80.57</td>
-                            <td>4.512</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>34</td>
-                            <td>7.127</td>
-                            <td>85.53</td>
-                            <td>4.789</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>35</td>
-                            <td>7.553</td>
-                            <td>90.63</td>
-                            <td>5.075</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>36</td>
-                            <td>7.99</td>
-                            <td>95.88</td>
-                            <td>5.369</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>37</td>
-                            <td>8.44</td>
-                            <td>101.28</td>
-                            <td>5.672</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>38</td>
-                            <td>8.903</td>
-                            <td>106.83</td>
-                            <td>5.982</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>39</td>
-                            <td>9.378</td>
-                            <td>112.53</td>
-                            <td>6.301</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>40</td>
-                            <td>9.865</td>
-                            <td>118.38</td>
-                            <td>6.629</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>41</td>
-                            <td>10.364</td>
-                            <td>124.37</td>
-                            <td>6.964</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>42</td>
-                            <td>10.876</td>
-                            <td>130.51</td>
-                            <td>7.308</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>43</td>
-                            <td>11.4</td>
-                            <td>136.8</td>
-                            <td>7.66</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>44</td>
-                            <td>11.936</td>
-                            <td>143.23</td>
-                            <td>8.021</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>45</td>
-                            <td>12.485</td>
-                            <td>149.82</td>
-                            <td>8.389</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>46</td>
-                            <td>13.046</td>
-                            <td>156.55</td>
-                            <td>8.766</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>47</td>
-                            <td>13.619</td>
-                            <td>163.43</td>
-                            <td>9.152</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>48</td>
-                            <td>14.205</td>
-                            <td>170.46</td>
-                            <td>9.545</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>49</td>
-                            <td>14.803</td>
-                            <td>177.64</td>
-                            <td>9.947</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>50</td>
-                            <td>15.413</td>
-                            <td>184.96</td>
-                            <td>10.357</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>51</td>
-                            <td>16.036</td>
-                            <td>192.43</td>
-                            <td>10.776</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>52</td>
-                            <td>16.671</td>
-                            <td>200.05</td>
-                            <td>11.202</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>53</td>
-                            <td>17.319</td>
-                            <td>207.82</td>
-                            <td>11.638</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>54</td>
-                            <td>17.978</td>
-                            <td>215.74</td>
-                            <td>12.081</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>55</td>
-                            <td>18.65</td>
-                            <td>223.8</td>
-                            <td>12.532</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>56</td>
-                            <td>19.335</td>
-                            <td>232.02</td>
-                            <td>12.992</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>57</td>
-                            <td>20.031</td>
-                            <td>240.38</td>
-                            <td>13.46</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>58</td>
-                            <td>20.74</td>
-                            <td>248.88</td>
-                            <td>13.937</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>59</td>
-                            <td>21.462</td>
-                            <td>257.54</td>
-                            <td>14.422</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>60</td>
-                            <td>22.195</td>
-                            <td>266.34</td>
-                            <td>14.915</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>61</td>
-                            <td>22.941</td>
-                            <td>275.3</td>
-                            <td>15.416</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>62</td>
-                            <td>23.7</td>
-                            <td>284.4</td>
-                            <td>15.925</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>63</td>
-                            <td>24.47</td>
-                            <td>293.64</td>
-                            <td>16.443</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>64</td>
-                            <td>25.253</td>
-                            <td>303.04</td>
-                            <td>16.969</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>65</td>
-                            <td>26.049</td>
-                            <td>312.58</td>
-                            <td>17.504</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>66</td>
-                            <td>26.856</td>
-                            <td>322.28</td>
-                            <td>18.047</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>67</td>
-                            <td>27.676</td>
-                            <td>332.12</td>
-                            <td>18.598</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>68</td>
-                            <td>28.509</td>
-                            <td>342.1</td>
-                            <td>19.157</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>69</td>
-                            <td>29.353</td>
-                            <td>352.24</td>
-                            <td>19.725</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>70</td>
-                            <td>30.21</td>
-                            <td>362.52</td>
-                            <td>20.3</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>71</td>
-                            <td>31.08</td>
-                            <td>372.96</td>
-                            <td>20.885</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>72</td>
-                            <td>31.961</td>
-                            <td>383.54</td>
-                            <td>21.477</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>73</td>
-                            <td>32.855</td>
-                            <td>394.26</td>
-                            <td>22.078</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>74</td>
-                            <td>33.762</td>
-                            <td>405.14</td>
-                            <td>22.687</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>75</td>
-                            <td>34.68</td>
-                            <td>416.16</td>
-                            <td>23.304</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>76</td>
-                            <td>35.611</td>
-                            <td>427.33</td>
-                            <td>23.93</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>77</td>
-                            <td>36.555</td>
-                            <td>438.65</td>
-                            <td>24.563</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>78</td>
-                            <td>37.51</td>
-                            <td>450.12</td>
-                            <td>25.206</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>79</td>
-                            <td>38.478</td>
-                            <td>461.74</td>
-                            <td>25.856</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>80</td>
-                            <td>39.458</td>
-                            <td>473.5</td>
-                            <td>26.515</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>81</td>
-                            <td>40.451</td>
-                            <td>485.41</td>
-                            <td>27.182</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>82</td>
-                            <td>41.456</td>
-                            <td>497.47</td>
-                            <td>27.857</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>83</td>
-                            <td>42.473</td>
-                            <td>509.68</td>
-                            <td>28.541</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>84</td>
-                            <td>43.503</td>
-                            <td>522.03</td>
-                            <td>29.233</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>85</td>
-                            <td>44.545</td>
-                            <td>534.54</td>
-                            <td>29.933</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>86</td>
-                            <td>45.599</td>
-                            <td>547.19</td>
-                            <td>30.641</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>87</td>
-                            <td>46.666</td>
-                            <td>559.99</td>
-                            <td>31.358</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>88</td>
-                            <td>47.745</td>
-                            <td>572.94</td>
-                            <td>32.083</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>89</td>
-                            <td>48.836</td>
-                            <td>586.03</td>
-                            <td>32.816</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>90</td>
-                            <td>49.94</td>
-                            <td>599.27</td>
-                            <td>33.558</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>91</td>
-                            <td>51.055</td>
-                            <td>612.67</td>
-                            <td>34.308</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>92</td>
-                            <td>52.184</td>
-                            <td>626.2</td>
-                            <td>35.066</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>93</td>
-                            <td>53.324</td>
-                            <td>639.89</td>
-                            <td>35.832</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>94</td>
-                            <td>54.477</td>
-                            <td>653.73</td>
-                            <td>36.607</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>95</td>
-                            <td>55.643</td>
-                            <td>667.71</td>
-                            <td>37.39</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>96</td>
-                            <td>56.82</td>
-                            <td>681.84</td>
-                            <td>38.181</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>97</td>
-                            <td>58.01</td>
-                            <td>696.12</td>
-                            <td>38.981</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>98</td>
-                            <td>59.212</td>
-                            <td>710.55</td>
-                            <td>39.789</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>99</td>
-                            <td>60.427</td>
-                            <td>725.12</td>
-                            <td>40.605</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>100</td>
-                            <td>61.654</td>
-                            <td>739.85</td>
-                            <td>41.429</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>101</td>
-                            <td>62.893</td>
-                            <td>754.72</td>
-                            <td>42.262</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>102</td>
-                            <td>64.145</td>
-                            <td>769.73</td>
-                            <td>43.103</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>103</td>
-                            <td>65.408</td>
-                            <td>784.9</td>
-                            <td>43.952</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>104</td>
-                            <td>66.685</td>
-                            <td>800.22</td>
-                            <td>44.81</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>105</td>
-                            <td>67.973</td>
-                            <td>815.68</td>
-                            <td>45.676</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>106</td>
-                            <td>69.274</td>
-                            <td>831.29</td>
-                            <td>46.55</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>107</td>
-                            <td>70.587</td>
-                            <td>847.05</td>
-                            <td>47.432</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>108</td>
-                            <td>71.913</td>
-                            <td>862.96</td>
-                            <td>48.323</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>109</td>
-                            <td>73.251</td>
-                            <td>879.01</td>
-                            <td>49.222</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>110</td>
-                            <td>74.601</td>
-                            <td>895.21</td>
-                            <td>50.13</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>111</td>
-                            <td>75.964</td>
-                            <td>911.56</td>
-                            <td>51.045</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>112</td>
-                            <td>77.338</td>
-                            <td>928.06</td>
-                            <td>51.969</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>113</td>
-                            <td>78.726</td>
-                            <td>944.71</td>
-                            <td>52.901</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>114</td>
-                            <td>80.125</td>
-                            <td>961.5</td>
-                            <td>53.842</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>115</td>
-                            <td>81.537</td>
-                            <td>978.45</td>
-                            <td>54.79</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>116</td>
-                            <td>82.961</td>
-                            <td>995.54</td>
-                            <td>55.747</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>117</td>
-                            <td>84.398</td>
-                            <td>1012.77</td>
-                            <td>56.713</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>118</td>
-                            <td>85.847</td>
-                            <td>1030.16</td>
-                            <td>57.686</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>119</td>
-                            <td>87.308</td>
-                            <td>1047.69</td>
-                            <td>58.668</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>120</td>
-                            <td>88.781</td>
-                            <td>1065.38</td>
-                            <td>59.658</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>121</td>
-                            <td>90.267</td>
-                            <td>1083.21</td>
-                            <td>60.657</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>122</td>
-                            <td>91.765</td>
-                            <td>1101.19</td>
-                            <td>61.663</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>123</td>
-                            <td>93.276</td>
-                            <td>1119.31</td>
-                            <td>62.678</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>124</td>
-                            <td>94.799</td>
-                            <td>1137.59</td>
-                            <td>63.702</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>125</td>
-                            <td>96.334</td>
-                            <td>1156.01</td>
-                            <td>64.733</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>126</td>
-                            <td>97.882</td>
-                            <td>1174.58</td>
-                            <td>65.773</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>127</td>
-                            <td>99.441</td>
-                            <td>1193.3</td>
-                            <td>66.821</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>128</td>
-                            <td>101.014</td>
-                            <td>1212.16</td>
-                            <td>67.878</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>129</td>
-                            <td>102.598</td>
-                            <td>1231.18</td>
-                            <td>68.943</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>130</td>
-                            <td>104.195</td>
-                            <td>1250.34</td>
-                            <td>70.016</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>131</td>
-                            <td>105.804</td>
-                            <td>1269.65</td>
-                            <td>71.097</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>132</td>
-                            <td>107.426</td>
-                            <td>1289.11</td>
-                            <td>72.187</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>133</td>
-                            <td>109.059</td>
-                            <td>1308.71</td>
-                            <td>73.284</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>134</td>
-                            <td>110.705</td>
-                            <td>1328.47</td>
-                            <td>74.391</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>135</td>
-                            <td>112.364</td>
-                            <td>1348.37</td>
-                            <td>75.505</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>136</td>
-                            <td>114.035</td>
-                            <td>1368.42</td>
-                            <td>76.628</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>137</td>
-                            <td>115.718</td>
-                            <td>1388.62</td>
-                            <td>77.759</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>138</td>
-                            <td>117.413</td>
-                            <td>1408.96</td>
-                            <td>78.898</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>139</td>
-                            <td>119.121</td>
-                            <td>1429.45</td>
-                            <td>80.046</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>140</td>
-                            <td>120.841</td>
-                            <td>1450.1</td>
-                            <td>81.202</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>141</td>
-                            <td>122.574</td>
-                            <td>1470.89</td>
-                            <td>82.366</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>142</td>
-                            <td>124.319</td>
-                            <td>1491.82</td>
-                            <td>83.538</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>143</td>
-                            <td>126.076</td>
-                            <td>1512.91</td>
-                            <td>84.719</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>144</td>
-                            <td>127.845</td>
-                            <td>1534.14</td>
-                            <td>85.908</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>145</td>
-                            <td>129.627</td>
-                            <td>1555.52</td>
-                            <td>87.105</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>146</td>
-                            <td>131.421</td>
-                            <td>1577.05</td>
-                            <td>88.311</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>147</td>
-                            <td>133.228</td>
-                            <td>1598.73</td>
-                            <td>89.525</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>148</td>
-                            <td>135.046</td>
-                            <td>1620.56</td>
-                            <td>90.747</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>149</td>
-                            <td>136.878</td>
-                            <td>1642.53</td>
-                            <td>91.977</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>150</td>
-                            <td>138.721</td>
-                            <td>1664.65</td>
-                            <td>93.216</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>151</td>
-                            <td>140.577</td>
-                            <td>1686.92</td>
-                            <td>94.463</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>152</td>
-                            <td>142.445</td>
-                            <td>1709.34</td>
-                            <td>95.718</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>153</td>
-                            <td>144.325</td>
-                            <td>1731.9</td>
-                            <td>96.982</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>154</td>
-                            <td>146.218</td>
-                            <td>1754.62</td>
-                            <td>98.254</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>155</td>
-                            <td>148.123</td>
-                            <td>1777.48</td>
-                            <td>99.534</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>156</td>
-                            <td>150.041</td>
-                            <td>1800.49</td>
-                            <td>100.822</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>157</td>
-                            <td>151.97</td>
-                            <td>1823.64</td>
-                            <td>102.119</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>158</td>
-                            <td>153.912</td>
-                            <td>1846.95</td>
-                            <td>103.424</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>159</td>
-                            <td>155.867</td>
-                            <td>1870.4</td>
-                            <td>104.738</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>160</td>
-                            <td>157.834</td>
-                            <td>1894</td>
-                            <td>106.059</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>161</td>
-                            <td>159.813</td>
-                            <td>1917.75</td>
-                            <td>107.389</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>162</td>
-                            <td>161.804</td>
-                            <td>1941.65</td>
-                            <td>108.727</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>163</td>
-                            <td>163.808</td>
-                            <td>1965.69</td>
-                            <td>110.074</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>164</td>
-                            <td>165.824</td>
-                            <td>1989.89</td>
-                            <td>111.428</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>165</td>
-                            <td>167.852</td>
-                            <td>2014.23</td>
-                            <td>112.791</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>166</td>
-                            <td>169.893</td>
-                            <td>2038.72</td>
-                            <td>114.163</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>167</td>
-                            <td>171.946</td>
-                            <td>2063.35</td>
-                            <td>115.542</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>168</td>
-                            <td>174.012</td>
-                            <td>2088.14</td>
-                            <td>116.93</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>169</td>
-                            <td>176.089</td>
-                            <td>2113.07</td>
-                            <td>118.326</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>170</td>
-                            <td>178.179</td>
-                            <td>2138.15</td>
-                            <td>119.731</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>171</td>
-                            <td>180.282</td>
-                            <td>2163.38</td>
-                            <td>121.144</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>172</td>
-                            <td>182.396</td>
-                            <td>2188.76</td>
-                            <td>122.565</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>173</td>
-                            <td>184.524</td>
-                            <td>2214.28</td>
-                            <td>123.994</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>174</td>
-                            <td>186.663</td>
-                            <td>2239.95</td>
-                            <td>125.432</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>175</td>
-                            <td>188.815</td>
-                            <td>2265.78</td>
-                            <td>126.877</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>176</td>
-                            <td>190.979</td>
-                            <td>2291.74</td>
-                            <td>128.332</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>177</td>
-                            <td>193.155</td>
-                            <td>2317.86</td>
-                            <td>129.794</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>178</td>
-                            <td>195.344</td>
-                            <td>2344.13</td>
-                            <td>131.265</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>179</td>
-                            <td>197.545</td>
-                            <td>2370.54</td>
-                            <td>132.744</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>180</td>
-                            <td>199.758</td>
-                            <td>2397.1</td>
-                            <td>134.231</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>181</td>
-                            <td>201.984</td>
-                            <td>2423.81</td>
-                            <td>135.727</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>182</td>
-                            <td>204.222</td>
-                            <td>2450.66</td>
-                            <td>137.231</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>183</td>
-                            <td>206.472</td>
-                            <td>2477.67</td>
-                            <td>138.743</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>184</td>
-                            <td>208.735</td>
-                            <td>2504.82</td>
-                            <td>140.263</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>185</td>
-                            <td>211.01</td>
-                            <td>2532.12</td>
-                            <td>141.792</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>186</td>
-                            <td>213.297</td>
-                            <td>2559.57</td>
-                            <td>143.329</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>187</td>
-                            <td>215.597</td>
-                            <td>2587.16</td>
-                            <td>144.874</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>188</td>
-                            <td>217.909</td>
-                            <td>2614.91</td>
-                            <td>146.428</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>189</td>
-                            <td>220.233</td>
-                            <td>2642.8</td>
-                            <td>147.99</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>190</td>
-                            <td>222.57</td>
-                            <td>2670.84</td>
-                            <td>149.56</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>191</td>
-                            <td>224.919</td>
-                            <td>2699.03</td>
-                            <td>151.138</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>192</td>
-                            <td>227.28</td>
-                            <td>2727.36</td>
-                            <td>152.725</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>193</td>
-                            <td>229.654</td>
-                            <td>2755.85</td>
-                            <td>154.32</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>194</td>
-                            <td>232.04</td>
-                            <td>2784.48</td>
-                            <td>155.924</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>195</td>
-                            <td>234.438</td>
-                            <td>2813.26</td>
-                            <td>157.535</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>196</td>
-                            <td>236.849</td>
-                            <td>2842.19</td>
-                            <td>159.155</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>197</td>
-                            <td>239.272</td>
-                            <td>2871.26</td>
-                            <td>160.783</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>198</td>
-                            <td>241.707</td>
-                            <td>2900.49</td>
-                            <td>162.42</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>199</td>
-                            <td>244.155</td>
-                            <td>2929.86</td>
-                            <td>164.064</td>
-                        </tr>
-                        <tr class="t-row">
-                            <td>200</td>
-                            <td>246.615</td>
-                            <td>2959.38</td>
-                            <td>165.717</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <p class="text-center mb-4 fs-5">Moksh Tubes supplies round bars from 3 mm to 500 mm diameter with custom diameters available upon request.</p>
 
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <p class="fs-5 p-4 border rounded bg-white shadow-sm">
+                        The complete Round Bar Weight Chart from 6 mm to 200 mm can be inserted here as provided in the technical specification section.
+                    </p>
+                </div>
             </div>
         </div>
     </section>
 
-    {{-- Grades Available --}}
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="types" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Types of Round Bars</h2>
+            </div>
+
+            <div class="row g-4 mt-4 justify-content-center">
+                <div class="col-sm-6 col-lg-3">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-hammer"></i></div>
+                        <h5>Hot Rolled Round Bars</h5>
+                        <p>Hot rolled round bars are produced at elevated temperatures and are commonly used in construction, fabrication, heavy engineering, and structural applications.</p>
+                        <hr>
+                        <h6>Features</h6>
+                        <ul class="text-start mb-0 ps-3">
+                            <li>Cost-effective solution</li>
+                            <li>Excellent strength</li>
+                            <li>Easy fabrication</li>
+                            <li>Suitable for large structural projects</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
+                        <h5>Cold Drawn Round Bars</h5>
+                        <p>Cold drawn round bars offer tighter dimensional tolerances and improved surface finish.</p>
+                        <hr>
+                        <h6>Features</h6>
+                        <ul class="text-start mb-0 ps-3">
+                            <li>Superior dimensional accuracy</li>
+                            <li>Better machinability</li>
+                            <li>Enhanced mechanical properties</li>
+                            <li>Smooth surface finish</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
+                        <h5>Forged Round Bars</h5>
+                        <p>Forged round bars are manufactured through forging operations to improve grain structure and strength.</p>
+                        <hr>
+                        <h6>Features</h6>
+                        <ul class="text-start mb-0 ps-3">
+                            <li>High impact resistance</li>
+                            <li>Superior fatigue strength</li>
+                            <li>Excellent toughness</li>
+                            <li>Ideal for heavy engineering</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3">
+                    <div class="advantage-card h-100">
+                        <div class="advantage-icon"><i class="bi bi-stars"></i></div>
+                        <h5>Bright Round Bars</h5>
+                        <p>Bright round bars are precision-finished products used for decorative, architectural, and precision machining applications.</p>
+                        <hr>
+                        <h6>Features</h6>
+                        <ul class="text-start mb-0 ps-3">
+                            <li>Excellent surface finish</li>
+                            <li>Tight tolerances</li>
+                            <li>Attractive appearance</li>
+                            <li>Suitable for precision components</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="grades" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
                 <h2>Grades Available</h2>
             </div>
-            <div class="section-title center mb-3">
-                <h4 class="text-center mb-0" style="color: #db7227;"><strong>Round Bars</strong> in a wide
-                    range of grades:</h4>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
+            
+            <div class="row align-items-center mt-4 justify-content-center">
+                <div class="col-lg-10">
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
                             <thead class="table-dark text-center">
                                 <tr class="t-row">
                                     <th>Material</th>
-                                    <th>Grades / Details</th>
+                                    <th>Available Grades</th>
+                                    <th>Application</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr class="t-row">
-                                    <td>Stainless Steel Round Bars</td>
-                                    <td>
-                                        <a
-                                            href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-304') }}">304
-                                            stainless steel</a> round bar, <a
-                                            href="{{ url('materials/austenitic-stainless-steel/austenitic-stainless-steel-310') }}">310
-                                            stainless steel</a> round bar, 455 stainless steel
-                                        round bar <br>
-                                        <small>(Corrosion resistant & hygienic applications)</small>
-                                    </td>
+                                    <td class="fw-bold text-center">Stainless Steel</td>
+                                    <td>304, 304L, 316, 316L, 310, 321, 347</td>
+                                    <td>Ideal for food processing, pharmaceutical, marine, and chemical industries.</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Carbon Steel Round Bars (MS Round Bars)</td>
-                                    <td>
-                                        ASTM A36, <a
-                                            href="{{ url('materials/engineering-steels/engineering-steels-en8') }}">EN8</a>
-                                        SS round bar, N8 SS round bar, <a
-                                            href="{{ url('materials/engineering-steels/engineering-steels-en9') }}">EN9</a>,
-                                        IS2062 <br>
-                                        <small>(Widely used in structural, <a
-                                                href="{{ route('materials.engineering-Steels') }}">engineering</a> &
-                                            general fabrication)</small>
-                                    </td>
+                                    <td class="fw-bold text-center">Carbon Steel</td>
+                                    <td>ASTM A36, EN8, EN9, IS 2062</td>
+                                    <td>Suitable for construction, fabrication, and engineering applications.</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Alloy Steel Round Bars</td>
-                                    <td>
-                                        EN19, EN24, <a
-                                            href="{{ url('materials/engineering-steels/engineering-steels-en31') }}">EN31</a>,
-                                        4140, <a
-                                            href="{{ url('materials/engineering-steels/engineering-steels-4130') }}">4130</a>
-                                        <br>
-                                        <small>(Ideal for heavy duty & <a
-                                                href="{{ route('materials.high-strength-stainless-steel') }}">high
-                                                strength</a> components)</small>
-                                    </td>
+                                    <td class="fw-bold text-center">Alloy Steel</td>
+                                    <td>EN19, EN24, EN31, AISI 4140, AISI 4130</td>
+                                    <td>Designed for high-strength engineering applications.</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Duplex & Super Duplex Round Bars</td>
-                                    <td>
-                                        2205, S32750, S32760 <br>
-                                        <small>(Best for oil, gas, and marine environments)</small>
-                                    </td>
+                                    <td class="fw-bold text-center">Duplex & Super Duplex</td>
+                                    <td>Duplex 2205, S31803, S32750, S32760</td>
+                                    <td>Used in offshore, marine, and corrosive environments.</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Nickel Alloy Round Bars</td>
-                                    <td>
-                                        Inconel 600 round bar, Inconel 718 round bar, Alloy 600 round bar, Alloy 601 round
-                                        bar, Monel 400 round bar, Waspaloy round bar, <a
-                                            href="{{ url('materials/inconel/inconel-718') }}">718 Inconel</a> round bar
-                                        suppliers <br>
-                                        <small>(Designed for extreme heat & corrosive conditions)</small>
-                                    </td>
+                                    <td class="fw-bold text-center">Nickel Alloy</td>
+                                    <td>Inconel 600, Inconel 625, Inconel 718, Alloy 601, Monel 400, Monel K500, Waspaloy</td>
+                                    <td>Designed for extreme temperatures and corrosive environments.</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Titanium Round Bars</td>
-                                    <td>
-                                        Grades 2, 5 <br>
-                                        <small>(For aerospace, desalination & chemical projects)</small>
-                                    </td>
+                                    <td class="fw-bold text-center">Titanium</td>
+                                    <td>Grade 2, Grade 5</td>
+                                    <td>Preferred for aerospace, desalination, and chemical industries.</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Copper & Brass Round Bars</td>
-                                    <td>
-                                        Copper round bar, brass round bar, phosphor bronze round bar, bronze round bar <br>
-                                        <small>(Used in electrical, decorative & marine applications)</small>
-                                    </td>
+                                    <td class="fw-bold text-center">Copper & Brass</td>
+                                    <td>Copper C11000, Brass C26000, Phosphor Bronze</td>
+                                    <td>Used in marine, decorative, and electrical applications.</td>
                                 </tr>
                                 <tr class="t-row">
-                                    <td>Aluminium Round Bars</td>
-                                    <td>
-                                        Aluminium round bar, aluminium alloy round bar (6061, 6082, 7075) <br>
-                                        <small>(Lightweight, corrosion resistant)</small>
-                                    </td>
-                                </tr>
-                                <tr class="t-row">
-                                    <td>Special Round Bars</td>
-                                    <td>
-                                        PTFE round bar, magnet round bar, zirconium round bar specifications
-                                    </td>
+                                    <td class="fw-bold text-center">Aluminium</td>
+                                    <td>6061, 6082, 7075</td>
+                                    <td>Lightweight and corrosion-resistant for engineering applications.</td>
                                 </tr>
                             </tbody>
                         </table>
-
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    {{-- Gallery --}}
-    {{-- Gallery --}}
-    <section class="our-services">
-        <div class="container">
-            <div class="container">
-            </div>
-
-            <div class="row">
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.nickel-Based-Superalloys') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/NICKLE-ALLOYS.webp') }}"
-                                    alt="NICKLE ALLOYS">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">NICKLE ALLOYS</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.austenitic-stainless-Steel') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/STAINLESS-STEEL.webp') }}"
-                                    alt="STAINLESS STEEL">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">STAINLESS STEEL</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.duplex-and-super-duplex') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/DUPLEX-SUPER.webp') }}"
-                                    alt="DUPLEX & SUPER">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">DUPLEX & SUPER</h6>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.titanium') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/TITANIUM-ALLOYS.webp') }}"
-                                    alt="TITANIUM ALLOYS">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">TITANIUM ALLOYS</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4 ">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.haynes-Superalloys') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/RARE-TO-ALLOYS.webp') }}"
-                                    alt="Haynes Superalloys">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">Haynes Superalloys</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-4">
-                    <div class="single-our-service border">
-                        <figure class="img-box mb-0">
-                            <a class="w-100" href="{{ route('materials.inconel') }}">
-                                <img class="w-100" src="{{ asset('assets/images/product/CARBON-ALLOYS.webp') }}"
-                                    alt="Inconel">
-                            </a>
-                        </figure>
-                        <div class="p-2 text-center">
-                            <h6 class="mt-0">Inconel</h6>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-
-    {{-- Applications --}}
-    <section class="sec-padd-top sec-padd-bottom">
+    <section id="manufacturing" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>Applications</h2>
-                <p class="text-center pb-3">
-                    <strong class="text-black">Round Bars</strong> are essential for structural, mechanical, and
-                    industrial uses:
-                </p>
+                <h2>Manufacturing Process of Round Bars</h2>
+            </div>
+            
+            <p class="text-center mb-4">The manufacturing of round bars involves advanced metallurgical processes to achieve optimum mechanical properties and dimensional accuracy.</p>
+
+            <div class="row mt-4 justify-content-center">
+                <div class="col-lg-10">
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <div class="pe-md-3">
+                                <p class="fs-6" style="text-align: justify;"><strong>Raw Material Selection</strong><br>
+                                High-quality billets and ingots are selected according to ASTM, ASME, DIN, EN, and JIS standards.</p>
+                                
+                                <p class="fs-6 mt-3" style="text-align: justify;"><strong>Hot Rolling & Forging</strong><br>
+                                The material is processed into round profiles through rolling or forging operations.</p>
+                                
+                                <p class="fs-6 mt-3" style="text-align: justify;"><strong>Heat Treatment</strong><br>
+                                Depending on the grade, round bars may undergo Annealing, Solution Annealing, Normalizing, Quenching & Tempering, or Stress Relieving.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mb-4">
+                            <div class="pe-md-3">
+                                <p class="fs-6 mt-3" style="text-align: justify;"><strong>Surface Finishing</strong><br>
+                                Available finishing processes include Grinding, Polishing, Bright Drawing, Pickling, Passivation, and Peeling.</p>
+                                
+                                <p class="fs-6 mt-3" style="text-align: justify;"><strong>Inspection & Testing</strong><br>
+                                Every batch undergoes strict quality control procedures before dispatch.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="mechanical" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="section-title center mb-5">
+                <h2 class="fw-bold" style="color: #174268;">Mechanical Properties</h2>
             </div>
 
-            <div class="row g-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h4 class="text-center mb-3" style="color: #db7227;">Mechanical Properties of Round Bars</h4>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark text-center">
+                                <tr class="t-row">
+                                    <th>Material Grade</th>
+                                    <th>Tensile Strength (MPa)</th>
+                                    <th>Yield Strength (MPa)</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                <tr class="t-row"><td>SS 304</td><td>515</td><td>205</td></tr>
+                                <tr class="t-row"><td>SS 316</td><td>515</td><td>205</td></tr>
+                                <tr class="t-row"><td>EN8</td><td>550</td><td>280</td></tr>
+                                <tr class="t-row"><td>EN19</td><td>850</td><td>680</td></tr>
+                                <tr class="t-row"><td>Duplex 2205</td><td>620</td><td>450</td></tr>
+                                <tr class="t-row"><td>Inconel 625</td><td>827</td><td>414</td></tr>
+                                <tr class="t-row"><td>Titanium Grade 2</td><td>345</td><td>275</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p class="text-center mt-3">
+                        📌 Actual values vary depending on material grade, diameter, and heat treatment condition.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                <!-- Construction & Infrastructure -->
+    <section id="applications" class="sec-padd-top sec-padd-bottom">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Applications of Round Bars</h2>
+            </div>
+
+            <div class="row g-4 justify-content-center">
                 <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon">
-                            <i class="bi bi-building"></i>
-                        </div>
+                    <div class="application-card h-100">
+                        <div class="application-icon"><i class="bi bi-building"></i></div>
                         <h5>Construction & Infrastructure</h5>
-                        <ul>
-                            <li>MS round bars for structural supports, tie rods, reinforcement frameworks</li>
-                        </ul>
+                        <p>✔ Structural supports<br>✔ Reinforcement systems<br>✔ Tie rods<br>✔ Foundation applications</p>
                     </div>
                 </div>
 
-                <!-- Marine & Offshore -->
                 <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon">
-                            <i class="bi bi-tsunami"></i>
-                        </div>
+                    <div class="application-card h-100">
+                        <div class="application-icon"><i class="bi bi-tsunami"></i></div>
                         <h5>Marine & Offshore</h5>
-                        <ul>
-                            <li>Copper round bars & duplex stainless round bars for propellers, shafts & ship fittings</li>
-                        </ul>
+                        <p>✔ Marine shafts<br>✔ Offshore structures<br>✔ Propeller components<br>✔ Corrosion-resistant fittings</p>
                     </div>
                 </div>
 
-                <!-- Oil, Gas & Petrochemical -->
                 <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon">
-                            <i class="bi bi-fuel-pump-fill"></i>
-                        </div>
-                        <h5>Oil, Gas & Petrochemical</h5>
-                        <ul>
-                            <li>Alloy steel round bars for pump shafts, valves & manifolds</li>
-                        </ul>
+                    <div class="application-card h-100">
+                        <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
+                        <h5>Oil & Gas Industry</h5>
+                        <p>✔ Valve components<br>✔ Pump shafts<br>✔ Pipeline equipment<br>✔ Refinery components</p>
                     </div>
                 </div>
 
-                <!-- Automotive & Aerospace -->
                 <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon">
-                            <i class="bi bi-airplane-engines"></i>
-                        </div>
+                    <div class="application-card h-100">
+                        <div class="application-icon"><i class="bi bi-car-front"></i></div>
                         <h5>Automotive & Aerospace</h5>
-                        <ul>
-                            <li>Titanium round bars & aluminium round bars for landing gear, axles, suspension parts</li>
-                        </ul>
+                        <p>✔ Axles<br>✔ Suspension components<br>✔ Landing gear components<br>✔ Structural aerospace parts</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="application-card h-100">
+                        <div class="application-icon"><i class="bi bi-gear"></i></div>
+                        <h5>Industrial Manufacturing</h5>
+                        <p>✔ Machinery parts<br>✔ Fasteners<br>✔ Bearings<br>✔ Engineering equipment</p>
                     </div>
                 </div>
 
-                <!-- Manufacturing & Engineering -->
                 <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon">
-                            <i class="bi bi-gear-wide-connected"></i>
-                        </div>
-                        <h5>Manufacturing & Engineering</h5>
-                        <ul>
-                            <li>Machining stock, fasteners, rollers, tools & bearings</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Decorative & Architectural -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="application-card">
-                        <div class="application-icon">
-                            <i class="bi bi-brush-fill"></i>
-                        </div>
+                    <div class="application-card h-100">
+                        <div class="application-icon"><i class="bi bi-stars"></i></div>
                         <h5>Decorative & Architectural</h5>
-                        <ul>
-                            <li>Polished stainless steel round bars & brass round bars for railings, furniture & interiors
-                            </li>
+                        <p>✔ Railings<br>✔ Furniture<br>✔ Interior design structures<br>✔ Decorative metalwork</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5 justify-content-center">
+                <div class="col-lg-10">
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <h4 class="mb-3" style="color: #174268;">Uses of Round Bars</h4>
+                            <ul class="list-unstyled lh-lg">
+                                <li>✔ Machining stock</li>
+                                <li>✔ Structural fabrication</li>
+                                <li>✔ Fastener manufacturing</li>
+                                <li>✔ Industrial machinery</li>
+                                <li>✔ Engineering components</li>
+                                <li>✔ Automotive applications</li>
+                                <li>✔ Aerospace applications</li>
+                                <li>✔ Marine hardware</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <h4 class="mb-3" style="color: #174268;">Advantages of Round Bars</h4>
+                            <ul class="list-unstyled lh-lg">
+                                <li>✔ Excellent machinability</li>
+                                <li>✔ High strength-to-weight ratio</li>
+                                <li>✔ Superior dimensional accuracy</li>
+                                <li>✔ Available in numerous grades</li>
+                                <li>✔ Corrosion-resistant options available</li>
+                                <li>✔ Easy fabrication and welding</li>
+                                <li>✔ Long service life</li>
+                                <li>✔ Suitable for critical engineering applications</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="buying-guide" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container">
+            <div class="row mt-4 justify-content-center">
+                <div class="col-md-6 col-lg-5 mb-4">
+                    <div class="application-card h-100 p-4 bg-white border rounded shadow-sm">
+                        <h4 class="mb-3" style="color: #174268;">Buying Guide – How to Select the Right Round Bar</h4>
+                        <p class="mb-3">Before purchasing round bars, consider:</p>
+                        <ul class="list-unstyled lh-lg mb-0 text-start">
+                            <li>✔ Material grade</li>
+                            <li>✔ Mechanical strength requirements</li>
+                            <li>✔ Corrosion resistance needs</li>
+                            <li>✔ Surface finish requirements</li>
+                            <li>✔ Diameter tolerance requirements</li>
+                            <li>✔ Machining and welding requirements</li>
+                            <li>✔ Applicable standards</li>
+                            <li>✔ Project specifications</li>
                         </ul>
-                    </div>
-                </div>
-            </div>
-
-
-            {{-- <p class="text-center pb-3 my-4"><strong class="text-dark">HASTELLOY C-276's</strong> unique combination of
-                corrosion resistance, weldability, and mechanical durability makes it a reliable material for
-                mission-critical applications where long-term performance is non-negotiable.
-
-            </p> --}}
-        </div>
-    </section>
-
-    {{-- Uses of Welded Pipes and Tubes --}}
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Uses of Round Bars</h2>
-            </div>
-            <!-- Child Title -->
-            <div class="section-title center mb-3">
-                <h3 class="text-center mb-0" style="color: #db7227;">Round Bars are used extensively
-                    across multiple
-                    industries, including:</h3>
-            </div>
-            <div class="row g-4 mt-4">
-
-                <!-- Hot Rolled Round Bars -->
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-diagram-3-fill"></i></div>
-                        <h4>Hot Rolled Round Bars</h4>
-                        <h5>Economical, slightly rough finish, for structural & heavy-duty use</h5>
+                        <p class="mt-3 text-muted"><em>For export projects, EN 10204 3.1 certification and full traceability are recommended.</em></p>
                     </div>
                 </div>
 
-                <!-- Cold Drawn Round Bars -->
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-box-arrow-down"></i></div>
-                        <h4>Cold Drawn Round Bars</h4>
-                        <h5>Smooth surface, tighter tolerances, better machinability</h5>
-                    </div>
-                </div>
-
-                <!-- Forged Round Bars -->
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-tools"></i></div>
-                        <h4>Forged Round Bars</h4>
-                        <h5>For shafts, heavy engineering, and high-stress parts</h5>
-                    </div>
-                </div>
-
-                <!-- Bright Mild Steel Round Bar -->
-                <div class="col-sm-6 col-lg-6">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-rulers"></i></div>
-                        <h4>Bright Mild Steel Round Bar</h4>
-                        <h5>Polished for decorative and precision use</h5>
-                    </div>
-                </div>
-
-                <!-- Alloy Steel Round Bars -->
-                <div class="col-sm-6 col-lg-6">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-gear-wide-connected"></i></div>
-                        <h4>Alloy Steel Round Bars</h4>
-                        <h5>High-strength, suitable for heavy-duty machinery and engineering components</h5>
+                <div id="testing" class="col-md-6 col-lg-5 mb-4">
+                    <div class="application-card h-100 p-4 bg-white border rounded shadow-sm">
+                        <h4 class="mb-3" style="color: #174268;">Testing & Quality Control</h4>
+                        <p class="mb-3">All round bars supplied by Moksh Tubes & Fittings LLP undergo strict quality inspections:</p>
+                        <ul class="list-unstyled lh-lg mb-0 text-start">
+                            <li>✔ Visual Inspection</li>
+                            <li>✔ Dimensional Verification</li>
+                            <li>✔ Chemical Analysis</li>
+                            <li>✔ Tensile Testing</li>
+                            <li>✔ Hardness Testing</li>
+                            <li>✔ PMI Testing</li>
+                            <li>✔ Ultrasonic Testing</li>
+                            <li>✔ Surface Finish Inspection</li>
+                        </ul>
+                        <p class="mt-3 text-muted"><em>Mill Test Certificates and third-party inspection reports are available upon request.</em></p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    {{-- Advantages --}}
-    <section class="sec-padd-top sec-padd-bottom bg-light">
-        <div class="container">
-            <div class="section-title center">
-                <h2>Advantages of Round Bars</h2>
-            </div>
-
-            <div class="row g-4 mt-4">
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-gear-fill"></i></div>
-                        <h4>High Precision</h4>
-                        <h5>Tight tolerances ensuring accurate dimensions</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-grid-1x2-fill"></i></div>
-                        <h4>Wide Variety</h4>
-                        <h5>SS round bars, MS round bars, Alloy Steel round bars, Nickel Alloy round bars</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-palette-fill"></i></div>
-                        <h4>Multiple Finishes</h4>
-                        <h5>Bright, Polished, Hot Rolled, Cold Drawn</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-scissors"></i></div>
-                        <h4>Custom Sizes</h4>
-                        <h5>Custom cutting available (ex: 12mm to 200mm round bars)</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-cash-stack"></i></div>
-                        <h4>Competitive Pricing</h4>
-                        <h5>Available at stainless steel round bar prices competitive in the market</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4">
-                    <div class="advantage-card">
-                        <div class="advantage-icon"><i class="bi bi-shield-fill-check"></i></div>
-                        <h4>Durable & Corrosion-Resistant</h4>
-                        <h5>Meets ASTM, ASME, DIN, EN standards</h5>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-
-    {{-- why choose us --}}
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="industries" class="sec-padd-top sec-padd-bottom">
         <div class="container text-center">
             <div class="section-title center">
-                <h2>WHY CHOOSE US?</h2>
+                <h2>Industries We Serve</h2>
             </div>
-
-            <div class="row g-4 mt-4">
-
-                <!-- Extensive Inventory -->
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-box-seam"></i></div>
-                        <h5>Extensive Inventory – Ready stock of round bars for sale in multiple grades</h5>
-                    </div>
-                </div>
-
-                <!-- ISO Certified -->
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-patch-check-fill"></i></div>
-                        <h5>ISO Certified with full MTC & third-party inspection</h5>
-                    </div>
-                </div>
-
-                <!-- Global Supply -->
-                <div class="col-sm-6 col-lg-4">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-globe2"></i></div>
-                        <h5>Global Supply – Serving oil & gas, aerospace, marine & infrastructure sectors</h5>
-                    </div>
-                </div>
-
-                <!-- Customization -->
-                <div class="col-sm-6 col-lg-6">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-sliders"></i></div>
-                        <h5>Customization – Special diameters, cut lengths & finishes on demand</h5>
-                    </div>
-                </div>
-
-                <!-- Trusted Supplier Network -->
-                <div class="col-sm-12 col-lg-6">
-                    <div class="why-banner-block">
-                        <div class="why-banner-icon"><i class="bi bi-people-fill"></i></div>
-                        <h5>Mokshtubes is recognized among trusted Round Bar Suppliers in Mumbai, India and Mild Steel Round
-                            Bars Sweden, serving clients across Norway, Nigeria, UAE, USA, Singapore, Maldives, Saudi
-                            Arabia, Germany, United Kingdom, Canada, Jordan, Peru, Australia, Thailand, Russian Federation,
-                            France, Belgium, Bulgaria, Taiwan, Italy, Netherlands.</h5>
-                    </div>
-                </div>
-
+            <div class="row g-4 mt-4 justify-content-center">
+                <div class="col-sm-4 col-md-3"><div class="p-3 border rounded bg-light">Construction</div></div>
+                <div class="col-sm-4 col-md-3"><div class="p-3 border rounded bg-light">Infrastructure</div></div>
+                <div class="col-sm-4 col-md-3"><div class="p-3 border rounded bg-light">Oil & Gas</div></div>
+                <div class="col-sm-4 col-md-3"><div class="p-3 border rounded bg-light">Petrochemical</div></div>
+                <div class="col-sm-4 col-md-3"><div class="p-3 border rounded bg-light">Marine & Offshore</div></div>
+                <div class="col-sm-4 col-md-3"><div class="p-3 border rounded bg-light">Power Generation</div></div>
+                <div class="col-sm-4 col-md-3"><div class="p-3 border rounded bg-light">Aerospace</div></div>
+                <div class="col-sm-4 col-md-3"><div class="p-3 border rounded bg-light">Automotive</div></div>
+                <div class="col-sm-4 col-md-3"><div class="p-3 border rounded bg-light">Heavy Engineering</div></div>
+                <div class="col-sm-4 col-md-3"><div class="p-3 border rounded bg-light">Manufacturing</div></div>
+                <div class="col-sm-4 col-md-3"><div class="p-3 border rounded bg-light">Mining</div></div>
+                <div class="col-sm-4 col-md-3"><div class="p-3 border rounded bg-light">Defense</div></div>
             </div>
-
-
         </div>
     </section>
 
-    <!--Start faq content area-->
-    <section class="faq-content-area sec-padd-top sec-padd-bottom">
+    <section id="why-choose-us" class="sec-padd-top sec-padd-bottom bg-light">
+        <div class="container text-center">
+            <div class="section-title center">
+                <h2>Why Choose Moksh Tubes & Fittings LLP?</h2>
+            </div>
+
+            <div class="row g-4 mt-4 justify-content-center">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block h-100 bg-white border p-4 rounded">
+                        <div class="why-banner-icon mb-3"><i class="bi bi-box-seam fs-2 text-primary"></i></div>
+                        <h5>Extensive stock availability</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block h-100 bg-white border p-4 rounded">
+                        <div class="why-banner-icon mb-3"><i class="bi bi-diagram-3 fs-2 text-primary"></i></div>
+                        <h5>Wide range of material grades</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block h-100 bg-white border p-4 rounded">
+                        <div class="why-banner-icon mb-3"><i class="bi bi-tags fs-2 text-primary"></i></div>
+                        <h5>Competitive pricing</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block h-100 bg-white border p-4 rounded">
+                        <div class="why-banner-icon mb-3"><i class="bi bi-award fs-2 text-primary"></i></div>
+                        <h5>ISO-certified quality systems</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block h-100 bg-white border p-4 rounded">
+                        <div class="why-banner-icon mb-3"><i class="bi bi-globe2 fs-2 text-primary"></i></div>
+                        <h5>Worldwide export capability</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block h-100 bg-white border p-4 rounded">
+                        <div class="why-banner-icon mb-3"><i class="bi bi-truck fs-2 text-primary"></i></div>
+                        <h5>Fast dispatch schedules</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block h-100 bg-white border p-4 rounded">
+                        <div class="why-banner-icon mb-3"><i class="bi bi-headset fs-2 text-primary"></i></div>
+                        <h5>Technical support</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block h-100 bg-white border p-4 rounded">
+                        <div class="why-banner-icon mb-3"><i class="bi bi-scissors fs-2 text-primary"></i></div>
+                        <h5>Custom cutting services</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-4">
+                    <div class="why-banner-block h-100 bg-white border p-4 rounded">
+                        <div class="why-banner-icon mb-3"><i class="bi bi-file-earmark-check fs-2 text-primary"></i></div>
+                        <h5>Complete documentation and traceability</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="faq-content-area sec-padd2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="accordion-box">
                         <div class="section-title center">
-                            <h2>FAQ's</h2>
+                            <h2>Frequently Asked Questions</h2>
                         </div>
 
-                        <!--Start single accordion box-->
+                        <!-- Q1 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>How to calculate the weight of a round bar?</h4>
+                                <h4>What are Round Bars?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>
-                                    The weight of a round bar can be calculated using the formula: <br>
-                                    <strong>Weight (kg) = (π × D² / 4) × L × ρ</strong> <br>
-                                    Where: <br>
-                                    ● D = Diameter of the round bar in meters <br>
-                                    ● L = Length of the round bar in meters <br>
-                                    ● ρ = Density of the material in kg/m³ (e.g., 7850 kg/m³ for steel) <br>
-                                    You can also refer to our round bar weight chart for quick reference.
-                                </p>
+                                <p>Round Bars are solid cylindrical metal bars used for machining, fabrication, structural applications, and manufacturing components.</p>
                             </div>
                         </div>
-                        <!--End single accordion box-->
 
+                        <!-- Q2 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What materials are available for round bars?</h4>
+                                <h4>What materials are available?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>
-                                    Round bars are available in stainless steel (SS), mild steel (MS), carbon steel, alloy
-                                    steel, duplex & super duplex, <a
-                                        href="{{ route('materials.nickel-Based-Superalloys') }}">nickel alloys</a>,
-                                    titanium, aluminium, brass, and copper.
-                                </p>
+                                <p>Round bars are available in stainless steel, carbon steel, alloy steel, duplex steel, nickel alloys, titanium, brass, copper, and aluminium.</p>
                             </div>
                         </div>
-                        <!--End single accordion box-->
 
+                        <!-- Q3 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>What grades of round bars can I get?</h4>
+                                <h4>What sizes are available?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>
-                                    We offer ASTM, ASME, DIN, EN, and JIS certified grades across all major alloys, ensuring
-                                    compliance with international standards.
-                                </p>
+                                <p>Round bars are available from 3 mm to 500 mm diameter, with custom diameters available upon request.</p>
                             </div>
                         </div>
-                        <!--End single accordion box-->
 
+                        <!-- Q4 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>Where are your round bars supplied?</h4>
+                                <h4>What is the difference between hot rolled and cold drawn round bars?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>
-                                    Mokshtubes supplies round bars in Mumbai, India and internationally to countries
-                                    including Sweden, Norway, Nigeria, UAE, USA, Singapore, Maldives, Saudi Arabia, Germany,
-                                    UK, Canada, Jordan, Peru, Australia, Thailand, Russia, France, Belgium, Bulgaria,
-                                    Taiwan, Italy, and Netherlands.
-                                </p>
+                                <p>Hot rolled bars are economical and suitable for structural applications, while cold drawn bars provide tighter tolerances and improved surface finish.</p>
                             </div>
                         </div>
-                        <!--End single accordion box-->
 
+                        <!-- Q5 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
-                                <h4>Why choose Mokshtubes for round bars?</h4>
+                                <h4>Can round bars be supplied in custom lengths?</h4>
                             </div>
                             <div class="accord-content">
-                                <p>
-                                    Mokshtubes offers high precision, wide variety of <a
-                                        href="{{ route('materials') }}">materials</a> and grades, multiple
-                                    finishes, custom cutting, competitive prices, and durable bars complying with ASTM,
-                                    ASME, DIN, and EN standards.
-                                </p>
+                                <p>Yes. We supply cut-to-length round bars according to customer specifications.</p>
                             </div>
                         </div>
-                        <!--End single accordion box-->
+
+                        <!-- Q6 -->
+                        <div class="accordion accordion-block">
+                            <div class="accord-btn">
+                                <h4>Do you provide Mill Test Certificates?</h4>
+                            </div>
+                            <div class="accord-content">
+                                <p>Yes. EN 10204 3.1 Mill Test Certificates and third-party inspection reports are available.</p>
+                            </div>
+                        </div>
 
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!--End faq content area-->
 
-    <section class="sec-padd-top sec-padd-bottom bg-light">
+    <!-- Contact Section -->
+    <section id="contact-us" class="sec-padd-bottom bg-light">
         <div class="container">
-            <div class="contact-cta-box">
-                <h2>Contact Us</h2>
-                <p>
-                    Looking for high quality round bars for your next project?<br>Contact <strong><a
-                            href="{{ route('index') }}">Moksh Tubes & Fittings LLP</a></strong>
+            <div class="contact-cta-box text-center p-5 rounded border shadow-sm">
+                <h2>Request A Quote</h2>
+                <p class="fs-5 mt-3">
+                    Looking for premium-quality Round Bars for construction, engineering, machining, marine, or industrial projects?<br>
+                    Contact <strong>Moksh Tubes & Fittings LLP</strong> today for competitive pricing, technical assistance, and worldwide delivery.<br><br>
+                    📞 <strong>Call:</strong> +91 97695 84950<br><br>
+                    We supply Stainless Steel Round Bars, Carbon Steel Round Bars, Alloy Steel Round Bars, Duplex Round Bars, Nickel Alloy Round Bars, Titanium Round Bars, Brass Round Bars, Copper Round Bars, and Aluminium Round Bars manufactured to the highest international standards.
                 </p>
                 <!-- Call button -->
-                <a href="javascript:void(0);" class="contact-cta-btn" data-bs-toggle="modal"
+                <a href="javascript:void(0);" class="btn btn-lg mt-4 text-white" style="background-color: #db7227; padding: 12px 30px; border-radius: 8px;" data-bs-toggle="modal"
                     data-bs-target="#contactFormModal">
                     Get in Touch
                 </a>
@@ -1924,61 +740,102 @@
         </div>
     </section>
 
-    <!--End breadcrumb area-->
-
-
 @endsection
 
 @section('jsscripts')
     <script type="application/ld+json">
         @verbatim
-            {
+        [{
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Moksh Tubes & Fittings LLP",
+            "url": "https://www.mokshtubes.com",
+            "logo": "https://www.mokshtubes.com/assets/logo.png",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+91-97695-84950",
+                "email": "sales@mokshtubes.com",
+                "contactType": "sales",
+                "areaServed": ["IN","AE","SA","QA","OM","KW","US","EU"],
+                "availableLanguage": ["English"]
+            }
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "name": "Round Bars",
+            "description": "Buy high-quality Round Bars in Stainless Steel, Carbon Steel, Alloy Steel, Duplex, Nickel Alloy, Titanium, Aluminium & Brass grades from Moksh Tubes.",
+            "brand": {
+                "@type": "Brand",
+                "name": "Moksh Tubes & Fittings LLP"
+            },
+            "manufacturer": {
+                "@type": "Organization",
+                "name": "Moksh Tubes & Fittings LLP"
+            },
+            "url": "https://www.mokshtubes.com/round-bars",
+            "offers": {
+                "@type": "AggregateOffer",
+                "priceCurrency": "USD",
+                "lowPrice": "1.5",
+                "highPrice": "50",
+                "offerCount": "100"
+            }
+        },
+        {
             "@context": "https://schema.org",
             "@type": "FAQPage",
             "mainEntity": [
                 {
-                "@type": "Question",
-                "name": "How to calculate the weight of a round bar?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The weight of a round bar can be calculated using the formula: Weight (kg) = (π × D² / 4) × L × ρ. Where D is the diameter in meters, L is the length in meters, and ρ is the material density (e.g., 7850 kg/m³ for steel). A round bar weight chart can also be used for quick reference."
-                }
+                    "@type": "Question",
+                    "name": "What are Round Bars?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Round Bars are solid cylindrical metal bars used for machining, fabrication, structural applications, and manufacturing components."
+                    }
                 },
                 {
-                "@type": "Question",
-                "name": "What materials are available for round bars?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Round bars are available in stainless steel (SS), mild steel (MS), carbon steel, alloy steel, duplex and super duplex, nickel alloys, titanium, aluminium, brass, and copper."
-                }
+                    "@type": "Question",
+                    "name": "What materials are available?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Round bars are available in stainless steel, carbon steel, alloy steel, duplex steel, nickel alloys, titanium, brass, copper, and aluminium."
+                    }
                 },
                 {
-                "@type": "Question",
-                "name": "What grades of round bars can I get?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "We offer ASTM, ASME, DIN, EN, and JIS certified grades across all major alloys to ensure compliance with international standards."
-                }
+                    "@type": "Question",
+                    "name": "What sizes are available?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Round bars are available from 3 mm to 500 mm diameter, with custom diameters available upon request."
+                    }
                 },
                 {
-                "@type": "Question",
-                "name": "Where are your round bars supplied?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Mokshtubes supplies round bars in Mumbai, India, and exports to countries including Sweden, Norway, Nigeria, UAE, USA, Singapore, Maldives, Saudi Arabia, Germany, UK, Canada, Jordan, Peru, Australia, Thailand, Russia, France, Belgium, Bulgaria, Taiwan, Italy, and the Netherlands."
-                }
+                    "@type": "Question",
+                    "name": "What is the difference between hot rolled and cold drawn round bars?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Hot rolled bars are economical and suitable for structural applications, while cold drawn bars provide tighter tolerances and improved surface finish."
+                    }
                 },
                 {
-                "@type": "Question",
-                "name": "Why choose Mokshtubes for round bars?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Mokshtubes offers high precision, a wide variety of materials and grades, multiple finishes, custom cutting, competitive prices, and durable bars that comply with ASTM, ASME, DIN, and EN standards."
-                }
+                    "@type": "Question",
+                    "name": "Can round bars be supplied in custom lengths?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes. We supply cut-to-length round bars according to customer specifications."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Do you provide Mill Test Certificates?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes. EN 10204 3.1 Mill Test Certificates and third-party inspection reports are available."
+                    }
                 }
             ]
-            }
-        
+        }]
         @endverbatim
     </script>
 @endsection
