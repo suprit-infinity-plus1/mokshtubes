@@ -124,7 +124,7 @@
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>2. Specifications of Capillary Tubes</h2>
+                <h2>Specifications of Capillary Tubes</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -189,7 +189,7 @@
     <section id="size-weight" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">3. Size & Weight Chart – Capillary Tubes</h2>
+                <h2 class="fw-bold" style="color: #174268;"> Size & Weight Chart – Capillary Tubes</h2>
             </div>
 
             <p class="text-center mb-4">Capillary Tubes – Weight & Nominal Bore Chart</p>
@@ -417,7 +417,7 @@
     <section id="grades" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>4. Grades Available</h2>
+                <h2>Grades Available</h2>
             </div>
 
             <div class="row g-4 mt-4 justify-content-center">
@@ -459,7 +459,7 @@
     <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
-                <h2>5. Applications</h2>
+                <h2>Applications</h2>
             </div>
 
             <div class="row g-4 justify-content-center">
@@ -563,12 +563,12 @@
             <div class="row mt-4 justify-content-center">
                 <div class="col-md-8 text-center">
                     <p class="fs-6" style="text-align: center;"><strong>Capillary Tubes require highly controlled manufacturing procedures to achieve the extremely tight tolerances demanded by modern industries:</strong></p>
-                    <p>1️⃣ Cold Drawing for Accurate Dimensions</p>
-                    <p>2️⃣ Bright Annealing for Surface Finish</p>
-                    <p>3️⃣ Precision Polishing for Smooth Internal Bore</p>
-                    <p>4️⃣ Straightening & Precision Cutting</p>
-                    <p>5️⃣ Final Inspection & Testing</p>
-                    <p>6️⃣ Export Grade Packaging</p>
+                    <p>Cold Drawing for Accurate Dimensions</p>
+                    <p>Bright Annealing for Surface Finish</p>
+                    <p>Precision Polishing for Smooth Internal Bore</p>
+                    <p>Straightening & Precision Cutting</p>
+                    <p>Final Inspection & Testing</p>
+                    <p>Export Grade Packaging</p>
                 </div>
             </div>
         </div>

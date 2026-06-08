@@ -117,7 +117,7 @@
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>2. Specifications of SS Railing Products</h2>
+                <h2>Specifications of SS Railing Products</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -151,7 +151,7 @@
     <section id="size-weight" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">3. Size & Weight Chart – SS Railing Tubes</h2>
+                <h2 class="fw-bold" style="color: #174268;">Size & Weight Chart – SS Railing Tubes</h2>
             </div>
             
             <p class="text-center mb-3 text-muted">Stainless Steel Railing Tube Weight Chart (Grade 304/316, Density 7.93 g/cm³ – SS railing pipe weight per meter)</p>
@@ -202,7 +202,7 @@
     <section id="grades" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>4. Grades Available</h2>
+                <h2>Grades Available</h2>
             </div>
 
             <div class="row g-4 mt-4 justify-content-center">
@@ -236,14 +236,14 @@
     <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
-                <h2>5. Applications of SS Railing Products</h2>
+                <h2>Applications of SS Railing Products</h2>
             </div>
 
             <div class="row g-4 justify-content-center">
                 <div class="col-md-6 col-lg-3">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-house-door"></i></div>
-                        <h5>1️⃣ Residential</h5>
+                        <h5>Residential</h5>
                         <p>✔ Staircase railings<br>✔ Balcony & terrace railings<br>✔ Deck & patio railings</p>
                     </div>
                 </div>
@@ -251,7 +251,7 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-building"></i></div>
-                        <h5>2️⃣ Commercial</h5>
+                        <h5>Commercial</h5>
                         <p>✔ Office buildings & malls<br>✔ Airports & metro stations<br>✔ Showrooms & glass partitions</p>
                     </div>
                 </div>
@@ -259,7 +259,7 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-cup-hot"></i></div>
-                        <h5>3️⃣ Hospitality</h5>
+                        <h5>Hospitality</h5>
                         <p>✔ Hotels & resorts<br>✔ Poolside railings<br>✔ Rooftop enclosures</p>
                     </div>
                 </div>
@@ -267,7 +267,7 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-truck"></i></div>
-                        <h5>4️⃣ Industrial & Public</h5>
+                        <h5>Industrial & Public</h5>
                         <p>✔ Factories & warehouses<br>✔ Hospitals & institutions<br>✔ Government buildings</p>
                     </div>
                 </div>
@@ -278,7 +278,7 @@
     <section id="uses" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>6. Uses & Advantages of SS Railing Products</h2>
+                <h2> Uses & Advantages of SS Railing Products</h2>
             </div>
 
             <div class="row g-4 mt-4 justify-content-center">
@@ -341,22 +341,22 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6" style="text-align: justify;"><strong>Tube Manufacturing:</strong></p>
-                        <p>1️⃣ Stainless steel raw material selection</p>
-                        <p>2️⃣ Tube forming (seamless / welded)</p>
-                        <p>3️⃣ Polishing & finishing</p>
-                        <p>4️⃣ Cutting & fabrication</p>
-                        <p>5️⃣ Assembly & inspection</p>
+                        <p>Stainless steel raw material selection</p>
+                        <p>Tube forming (seamless / welded)</p>
+                        <p>Polishing & finishing</p>
+                        <p>Cutting & fabrication</p>
+                        <p>Assembly & inspection</p>
                     </div>
                 </div>
                 
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6" style="text-align: justify;"><strong>Railing Fabrication:</strong></p>
-                        <p>1️⃣ Design & customization</p>
-                        <p>2️⃣ Component cutting & welding</p>
-                        <p>3️⃣ Surface finishing (mirror / satin)</p>
-                        <p>4️⃣ Assembly of fittings & accessories</p>
-                        <p>5️⃣ Final inspection & packaging</p>
+                        <p>Design & customization</p>
+                        <p>Component cutting & welding</p>
+                        <p>Surface finishing (mirror / satin)</p>
+                        <p>Assembly of fittings & accessories</p>
+                        <p>Final inspection & packaging</p>
                     </div>
                 </div>
             </div>
@@ -366,7 +366,7 @@
     <section id="mechanical" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">9. Mechanical Properties (Typical SS Grades)</h2>
+                <h2 class="fw-bold" style="color: #174268;">Mechanical Properties (Typical SS Grades)</h2>
             </div>
 
             <div class="row justify-content-center">

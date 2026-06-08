@@ -128,7 +128,7 @@
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>2. Specifications</h2>
+                <h2>Specifications</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -201,7 +201,7 @@
     <section id="size-weight" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">3. Size & Weight Chart – SS 304 Semi Welded Pipes</h2>
+                <h2 class="fw-bold" style="color: #174268;">Size & Weight Chart – SS 304 Semi Welded Pipes</h2>
             </div>
 
             <p class="text-center mb-4">SS 304 Semi Welded Pipes are available in standard schedules:<br>📌 Weights are
@@ -284,7 +284,7 @@
     <section id="grades" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>4. Grades Available</h2>
+                <h2>Grades Available</h2>
             </div>
 
             <div class="row g-4 mt-4 justify-content-center">
@@ -318,14 +318,14 @@
     <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
-                <h2>5. Applications</h2>
+                <h2>Applications</h2>
             </div>
 
             <div class="row g-4 justify-content-center">
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-cup-straw"></i></div>
-                        <h5>1️⃣ Food, Dairy & Beverage</h5>
+                        <h5>Food, Dairy & Beverage</h5>
                         <p>✔ Milk pipelines<br>✔ Brewery & juice processing lines</p>
                     </div>
                 </div>
@@ -333,7 +333,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-heart-pulse"></i></div>
-                        <h5>2️⃣ Chemical & Pharmaceutical</h5>
+                        <h5>Chemical & Pharmaceutical</h5>
                         <p>✔ Chemical transfer pipelines<br>✔ Reactor & process piping</p>
                     </div>
                 </div>
@@ -341,7 +341,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-fuel-pump"></i></div>
-                        <h5>3️⃣ Oil & Gas / Industrial</h5>
+                        <h5>Oil & Gas / Industrial</h5>
                         <p>✔ Utility piping<br>✔ Instrumentation lines</p>
                     </div>
                 </div>
@@ -349,7 +349,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-droplet"></i></div>
-                        <h5>4️⃣ Water & Plumbing Systems</h5>
+                        <h5>Water & Plumbing Systems</h5>
                         <p>✔ Drinking water pipelines<br>✔ RO & water treatment plants</p>
                     </div>
                 </div>
@@ -357,7 +357,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-building"></i></div>
-                        <h5>5️⃣ Architectural & Structural</h5>
+                        <h5>Architectural & Structural</h5>
                         <p>✔ Handrails, supports, frames<br>✔ Decorative stainless steel works</p>
                     </div>
                 </div>
@@ -439,12 +439,12 @@
                     <div class="pe-md-3">
                         <p class="fs-6" style="text-align: justify;"><strong>Manufacturing Process of SS 304 Semi Welded
                                 Pipes:</strong></p>
-                        <p>1️⃣ Slitting of stainless steel coils</p>
-                        <p>2️⃣ Cold forming into tubular shape</p>
-                        <p>3️⃣ Controlled welding process</p>
-                        <p>4️⃣ Weld seam solution annealing</p>
-                        <p>5️⃣ Sizing, straightening & surface finishing</p>
-                        <p>6️⃣ NDT testing & final inspection</p>
+                        <p>Slitting of stainless steel coils</p>
+                        <p>Cold forming into tubular shape</p>
+                        <p>Controlled welding process</p>
+                        <p>Weld seam solution annealing</p>
+                        <p>Sizing, straightening & surface finishing</p>
+                        <p>NDT testing & final inspection</p>
                     </div>
                 </div>
 
