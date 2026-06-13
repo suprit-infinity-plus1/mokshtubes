@@ -1278,6 +1278,7 @@ class MainController extends Controller
     {
         return view('frontend.products.pipe-fittings-flanges-fasteners.fasteners.heavy-hex-nuts');
     }
+
     // ============================== upcomings =========================
     public function astmA193GrB8mStuds()
     {
@@ -1326,9 +1327,6 @@ class MainController extends Controller
 
 
     // ==================================================================
-
-
-
 
     public function pipeFittings()
     {
