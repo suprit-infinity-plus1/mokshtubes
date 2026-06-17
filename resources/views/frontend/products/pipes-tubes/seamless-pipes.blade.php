@@ -127,7 +127,7 @@
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>2. Specifications of Seamless Pipes</h2>
+                <h2>Specifications of Seamless Pipes</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -192,7 +192,7 @@
     <section id="size-weight" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">3. Size & Weight Chart</h2>
+                <h2 class="fw-bold" style="color: #174268;">Size & Weight Chart</h2>
             </div>
 
             <p class="text-center mb-4">Weight and size charts for seamless pipes can be provided upon request, customized to the required schedules including Schedule 5S, 10S, 40S, 80S, 160S, and XXS.</p>
@@ -494,7 +494,7 @@
     <section id="grades" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>4. Grades Available</h2>
+                <h2>Grades Available</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -567,7 +567,7 @@
     <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
-                <h2>5. Applications & Uses</h2>
+                <h2> Applications & Uses</h2>
             </div>
 
             <div class="row g-4 justify-content-center">
@@ -729,23 +729,23 @@
             <div class="row mt-4 justify-content-center">
                 <div class="col-md-6 text-center mb-4">
                     <h5 class="fw-bold text-primary mb-3">Hot Finished Seamless Pipe</h5>
-                    <p>1️⃣ Raw material billet inspection</p>
-                    <p>2️⃣ Billet heating</p>
-                    <p>3️⃣ Rotary piercing process</p>
-                    <p>4️⃣ Hot rolling and elongation</p>
-                    <p>5️⃣ Sizing and shaping</p>
-                    <p>6️⃣ Heat treatment & Straightening</p>
-                    <p>7️⃣ Final inspection</p>
+                    <p>Raw material billet inspection</p>
+                    <p>Billet heating</p>
+                    <p>Rotary piercing process</p>
+                    <p>Hot rolling and elongation</p>
+                    <p>Sizing and shaping</p>
+                    <p>Heat treatment & Straightening</p>
+                    <p>Final inspection</p>
                 </div>
                 <div class="col-md-6 text-center mb-4">
                     <h5 class="fw-bold text-primary mb-3">Cold Drawn Seamless Pipe</h5>
-                    <p>1️⃣ Seamless mother tube production</p>
-                    <p>2️⃣ Pickling and lubrication</p>
-                    <p>3️⃣ Cold drawing operation</p>
-                    <p>4️⃣ Intermediate annealing</p>
-                    <p>5️⃣ Sizing and calibration</p>
-                    <p>6️⃣ Surface finishing</p>
-                    <p>7️⃣ Testing and inspection</p>
+                    <p>Seamless mother tube production</p>
+                    <p>Pickling and lubrication</p>
+                    <p>Cold drawing operation</p>
+                    <p>Intermediate annealing</p>
+                    <p>Sizing and calibration</p>
+                    <p>Surface finishing</p>
+                    <p>Testing and inspection</p>
                 </div>
                 <div class="col-12 text-center mt-3">
                     <p class="fs-6"><em>This manufacturing process ensures uniform wall thickness, excellent concentricity, high strength, and superior pressure-handling capability.</em></p>

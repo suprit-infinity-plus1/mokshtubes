@@ -117,7 +117,7 @@
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>2. Specifications of Fabricated SS Grills</h2>
+                <h2>Specifications of Fabricated SS Grills</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -150,7 +150,7 @@
     <section id="size-weight" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">3. Size & Weight Charts</h2>
+                <h2 class="fw-bold" style="color: #174268;"> Size & Weight Charts</h2>
             </div>
             
             <h4 class="text-center mb-3" style="color: #db7227;">Square & Rectangular Tube Weight Chart (kg/m)</h4>
@@ -208,7 +208,7 @@
     <section id="grades" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>4. Grades Available</h2>
+                <h2>Grades Available</h2>
             </div>
 
             <div class="row g-4 mt-4 justify-content-center">
@@ -242,14 +242,14 @@
     <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
-                <h2>5. Applications of Fabricated SS Grills</h2>
+                <h2>Applications of Fabricated SS Grills</h2>
             </div>
 
             <div class="row g-4 justify-content-center">
                 <div class="col-md-6 col-lg-3">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-house-door"></i></div>
-                        <h5>1️⃣ Residential</h5>
+                        <h5>Residential</h5>
                         <p>✔ Balcony & staircase grills<br>✔ Window & door grills<br>✔ Decorative interior partitions</p>
                     </div>
                 </div>
@@ -257,7 +257,7 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-building"></i></div>
-                        <h5>2️⃣ Commercial</h5>
+                        <h5>Commercial</h5>
                         <p>✔ Office partitions & façade grills<br>✔ Entry gates & security grills</p>
                     </div>
                 </div>
@@ -265,7 +265,7 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-cup-hot"></i></div>
-                        <h5>3️⃣ Hospitality</h5>
+                        <h5>Hospitality</h5>
                         <p>✔ Hotel interiors & designer panels<br>✔ Restaurant partitions & decorative screens</p>
                     </div>
                 </div>
@@ -273,7 +273,7 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-gear"></i></div>
-                        <h5>4️⃣ Industrial & Institutional</h5>
+                        <h5>Industrial & Institutional</h5>
                         <p>✔ Factory safety grills<br>✔ Ventilation & protective enclosures</p>
                     </div>
                 </div>
@@ -284,7 +284,7 @@
     <section id="uses" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>6. Uses & Advantages of Fabricated SS Grills</h2>
+                <h2>Uses & Advantages of Fabricated SS Grills</h2>
             </div>
 
             <div class="row g-4 mt-4 justify-content-center">
@@ -347,12 +347,12 @@
                 <div class="col-md-8">
                     <div class="pe-md-3 text-center">
                         <p class="fs-6 text-start d-inline-block"><strong>Fabrication Steps:</strong><br><br>
-                        1️⃣ Material selection (SS / Duplex)<br>
-                        2️⃣ CNC / laser cutting<br>
-                        3️⃣ Bending & shaping<br>
-                        4️⃣ TIG/MIG welding<br>
-                        5️⃣ Surface finishing & polishing<br>
-                        6️⃣ Final inspection</p>
+                        Material selection (SS / Duplex)<br>
+                        CNC / laser cutting<br>
+                        Bending & shaping<br>
+                        TIG/MIG welding<br>
+                        Surface finishing & polishing<br>
+                        Final inspection</p>
                     </div>
                 </div>
             </div>
@@ -362,7 +362,7 @@
     <section id="mechanical" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">9. Mechanical Properties (Typical)</h2>
+                <h2 class="fw-bold" style="color: #174268;"> Mechanical Properties (Typical)</h2>
             </div>
 
             <div class="row justify-content-center">

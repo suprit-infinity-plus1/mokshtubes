@@ -6,10 +6,12 @@
 @section('og_image', asset('assets/images/product/Sheets-Plates-and-Coils/Shim-Sheets.webp'))
 @section('og_type', 'article')
 
+
 @section('content')
 
+
     <!--Start breadcrumb area-->
-    <section class="breadcrumb-area" style="background-image: url(/assets/images/product/Sheets-Plates-and-Coils/Shim-Sheets.webp);">
+    <section class="breadcrumb-area" style="background-image: url('{{ asset('assets/images/product/Sheets-Plates-and-Coils/Shim-Sheets.webp') }}');">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto text-center">
@@ -54,13 +56,19 @@
                 SHIM SHEETS
             </h3>
 
+            <h3 class="fw-semibold text-center mb-5" style="color: #db7227;">
+                SHIM SHEETS
+            </h3>
+
             <div class="row align-items-center">
+                <!-- Image Left -->
                 <!-- Image Left -->
                 <div class="col-md-6 mb-4 mb-md-0">
                     <img src="{{ asset('assets/images/product/Sheets-Plates-and-Coils/Shim-Sheets.webp') }}" alt="Shim Sheets"
                         class="img-fluid rounded shadow-sm" loading="lazy">
                 </div>
 
+                <!-- Content Right -->
                 <!-- Content Right -->
                 <div class="col-md-6">
                     <div class="pe-md-3">
@@ -119,12 +127,15 @@
     </section>
 
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
+    <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
+                <h2>Specifications of Shim Sheets</h2>
                 <h2>Specifications of Shim Sheets</h2>
             </div>
 
             <div class="row justify-content-center">
+                <div class="col-lg-8">
                 <div class="col-lg-8">
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped align-middle">
@@ -151,6 +162,7 @@
         </div>
     </section>
 
+    <section id="size-weight" class="sec-padd-top sec-padd-bottom bg-light">
     <section id="size-weight" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
@@ -232,7 +244,10 @@
     </section>
 
     <section id="grades" class="sec-padd-top sec-padd-bottom">
+    <section id="grades" class="sec-padd-top sec-padd-bottom">
         <div class="container">
+            <div class="section-title center">
+                <h2>Grades Available</h2>
             <div class="section-title center">
                 <h2>Grades Available</h2>
             </div>
@@ -290,8 +305,10 @@
     </section>
 
     <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
+    <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
+                <h2>Applications of Shim Sheets</h2>
                 <h2>Applications of Shim Sheets</h2>
             </div>
 
@@ -343,7 +360,7 @@
                         <p>✔ Transformers & motors<br>✔ Precision instruments</p>
                     </div>
                 </div>
-
+                
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-tools"></i></div>
@@ -375,14 +392,12 @@
                         <h5>Wide Material Options</h5>
                     </div>
                 </div>
-
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-scissors"></i></div>
                         <h5>Easy Customization</h5>
                     </div>
                 </div>
-
                 <div class="col-sm-6 col-lg-4">
                     <div class="advantage-card">
                         <div class="advantage-icon"><i class="bi bi-shield-check"></i></div>
@@ -569,24 +584,31 @@
                     <div class="accordion-box">
                         <div class="section-title center">
                             <h2>Frequently Asked Questions (FAQ)</h2>
+                            <h2>Frequently Asked Questions (FAQ)</h2>
                         </div>
 
+                        <!-- Q1 -->
                         <!-- Q1 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
                                 <h4>Q1. What are shim sheets?</h4>
+                                <h4>Q1. What are shim sheets?</h4>
                             </div>
                             <div class="accord-content">
+                                <p>Thin metal sheets used for precision alignment and spacing.</p>
                                 <p>Thin metal sheets used for precision alignment and spacing.</p>
                             </div>
                         </div>
 
                         <!-- Q2 -->
+                        <!-- Q2 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
                                 <h4>Q2. What materials are available?</h4>
+                                <h4>Q2. What materials are available?</h4>
                             </div>
                             <div class="accord-content">
+                                <p>SS, brass, copper, aluminium, carbon steel, titanium.</p>
                                 <p>SS, brass, copper, aluminium, carbon steel, titanium.</p>
                             </div>
                         </div>
@@ -595,18 +617,23 @@
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
                                 <h4>Q3. What thickness range is available?</h4>
+                                <h4>Q3. What thickness range is available?</h4>
                             </div>
                             <div class="accord-content">
+                                <p>0.02 mm to 3 mm.</p>
                                 <p>0.02 mm to 3 mm.</p>
                             </div>
                         </div>
 
                         <!-- Q4 -->
+                        <!-- Q4 -->
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
                                 <h4>Q4. Where are shim sheets used?</h4>
+                                <h4>Q4. Where are shim sheets used?</h4>
                             </div>
                             <div class="accord-content">
+                                <p>Automotive, aerospace, machinery, and tooling.</p>
                                 <p>Automotive, aerospace, machinery, and tooling.</p>
                             </div>
                         </div>
@@ -615,8 +642,10 @@
                         <div class="accordion accordion-block">
                             <div class="accord-btn">
                                 <h4>Q5. Can they be customized?</h4>
+                                <h4>Q5. Can they be customized?</h4>
                             </div>
                             <div class="accord-content">
+                                <p>Yes, available in sheets, coils, and cut sizes.</p>
                                 <p>Yes, available in sheets, coils, and cut sizes.</p>
                             </div>
                         </div>
@@ -648,6 +677,7 @@
     </section>
 
 @endsection
+
 
 @section('jsscripts')
     <script type="application/ld+json">

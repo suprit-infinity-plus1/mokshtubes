@@ -117,7 +117,7 @@
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>2. Specifications</h2>
+                <h2>Specifications</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -150,7 +150,7 @@
     <section id="size-weight" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">3. Size & Weight Chart</h2>
+                <h2 class="fw-bold" style="color: #174268;">Size & Weight Chart</h2>
             </div>
             
             <h4 class="text-center mb-3" style="color: #db7227;">Stainless Steel Support Pipe Weight Chart</h4>
@@ -200,7 +200,7 @@
     <section id="grades" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>4. Grades & Glass Types Available</h2>
+                <h2>Grades & Glass Types Available</h2>
             </div>
 
             <div class="row g-4 mt-4 justify-content-center">
@@ -234,14 +234,14 @@
     <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
-                <h2>5. Applications of Glass Railings</h2>
+                <h2>Applications of Glass Railings</h2>
             </div>
 
             <div class="row g-4 justify-content-center">
                 <div class="col-md-6 col-lg-3">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-house-door"></i></div>
-                        <h5>1️⃣ Residential</h5>
+                        <h5>Residential</h5>
                         <p>✔ Balcony glass railings<br>✔ Staircase glass systems<br>✔ Terrace enclosures</p>
                     </div>
                 </div>
@@ -249,7 +249,7 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-building"></i></div>
-                        <h5>2️⃣ Commercial</h5>
+                        <h5>Commercial</h5>
                         <p>✔ Office interiors & atriums<br>✔ Shopping malls & showrooms<br>✔ Airports & institutions</p>
                     </div>
                 </div>
@@ -257,7 +257,7 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-cup-hot"></i></div>
-                        <h5>3️⃣ Hospitality</h5>
+                        <h5>Hospitality</h5>
                         <p>✔ Hotels & resorts<br>✔ Poolside railings<br>✔ Rooftop restaurants</p>
                     </div>
                 </div>
@@ -265,7 +265,7 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-tree"></i></div>
-                        <h5>4️⃣ Outdoor & Landscape</h5>
+                        <h5>Outdoor & Landscape</h5>
                         <p>✔ Garden railings<br>✔ Marine & coastal installations</p>
                     </div>
                 </div>
@@ -276,7 +276,7 @@
     <section id="uses" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>6. Uses & Advantages of Glass Railings</h2>
+                <h2> Uses & Advantages of Glass Railings</h2>
             </div>
 
             <div class="row g-4 mt-4 justify-content-center">
@@ -339,22 +339,22 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6" style="text-align: justify;"><strong>Glass Processing:</strong></p>
-                        <p>1️⃣ Raw glass cutting</p>
-                        <p>2️⃣ Heat treatment (toughening)</p>
-                        <p>3️⃣ Lamination (if required)</p>
-                        <p>4️⃣ Edge polishing & finishing</p>
-                        <p>5️⃣ Quality inspection</p>
+                        <p> Raw glass cutting</p>
+                        <p>Heat treatment (toughening)</p>
+                        <p>Lamination (if required)</p>
+                        <p>Edge polishing & finishing</p>
+                        <p>Quality inspection</p>
                     </div>
                 </div>
                 
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6" style="text-align: justify;"><strong>Installation Process:</strong></p>
-                        <p>1️⃣ Site measurement</p>
-                        <p>2️⃣ Hardware installation (spigots/channels)</p>
-                        <p>3️⃣ Glass panel placement</p>
-                        <p>4️⃣ Alignment & fixing</p>
-                        <p>5️⃣ Final inspection</p>
+                        <p>Site measurement</p>
+                        <p>Hardware installation (spigots/channels)</p>
+                        <p>Glass panel placement</p>
+                        <p>Alignment & fixing</p>
+                        <p>Final inspection</p>
                     </div>
                 </div>
             </div>
@@ -364,7 +364,7 @@
     <section id="mechanical" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">9. Mechanical & Safety Properties</h2>
+                <h2 class="fw-bold" style="color: #174268;">Mechanical & Safety Properties</h2>
             </div>
 
             <div class="row justify-content-center">

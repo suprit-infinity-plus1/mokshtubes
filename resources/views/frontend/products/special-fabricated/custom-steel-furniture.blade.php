@@ -117,7 +117,7 @@
     <section id="specifications" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>2. Specifications</h2>
+                <h2>Specifications</h2>
             </div>
 
             <div class="row justify-content-center">
@@ -150,7 +150,7 @@
     <section id="size-weight" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">3. Size & Weight Chart</h2>
+                <h2 class="fw-bold" style="color: #174268;"> Size & Weight Chart</h2>
             </div>
             
             <h4 class="text-center mb-3" style="color: #db7227;">Standard Sections & Weight Reference</h4>
@@ -219,7 +219,7 @@
     <section id="grades" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>4. Grades Available</h2>
+                <h2> Grades Available</h2>
             </div>
 
             <div class="row g-4 mt-4 justify-content-center">
@@ -261,14 +261,14 @@
     <section id="applications" class="sec-padd-top sec-padd-bottom bg-light">
         <div class="container">
             <div class="section-title center">
-                <h2>5. Applications of Custom Steel Furniture</h2>
+                <h2>Applications of Custom Steel Furniture</h2>
             </div>
 
             <div class="row g-4 justify-content-center">
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-house-door"></i></div>
-                        <h5>1️⃣ Residential</h5>
+                        <h5>Residential</h5>
                         <p>✔ Dining tables, beds, wardrobes<br>✔ Kitchen & storage units<br>✔ Outdoor furniture</p>
                     </div>
                 </div>
@@ -276,7 +276,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-building"></i></div>
-                        <h5>2️⃣ Commercial</h5>
+                        <h5>Commercial</h5>
                         <p>✔ Office desks & workstations<br>✔ Filing cabinets & shelving<br>✔ Retail display furniture</p>
                     </div>
                 </div>
@@ -284,7 +284,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-cup-hot"></i></div>
-                        <h5>3️⃣ Hospitality</h5>
+                        <h5>Hospitality</h5>
                         <p>✔ Restaurant tables & café seating<br>✔ Hotel furniture & bar counters</p>
                     </div>
                 </div>
@@ -292,7 +292,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-tools"></i></div>
-                        <h5>4️⃣ Industrial & Workshop</h5>
+                        <h5>Industrial & Workshop</h5>
                         <p>✔ Workbenches & tool storage<br>✔ Warehouse racks & carts</p>
                     </div>
                 </div>
@@ -300,7 +300,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="application-card">
                         <div class="application-icon"><i class="bi bi-book"></i></div>
-                        <h5>5️⃣ Institutional</h5>
+                        <h5>Institutional</h5>
                         <p>✔ School & lab furniture<br>✔ Library & dormitory solutions</p>
                     </div>
                 </div>
@@ -311,7 +311,7 @@
     <section id="uses" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center">
-                <h2>6. Uses & Advantages of Custom Steel Furniture</h2>
+                <h2> Uses & Advantages of Custom Steel Furniture</h2>
             </div>
 
             <div class="row g-4 mt-4 justify-content-center">
@@ -374,12 +374,12 @@
                 <div class="col-md-6">
                     <div class="pe-md-3">
                         <p class="fs-6" style="text-align: justify;"><strong>Fabrication Process:</strong></p>
-                        <p>1️⃣ Material selection</p>
-                        <p>2️⃣ CNC / laser cutting</p>
-                        <p>3️⃣ Bending & shaping</p>
-                        <p>4️⃣ Welding (TIG/MIG)</p>
-                        <p>5️⃣ Surface finishing (powder coating / polishing)</p>
-                        <p>6️⃣ Assembly & inspection</p>
+                        <p>Material selection</p>
+                        <p>CNC / laser cutting</p>
+                        <p>Bending & shaping</p>
+                        <p>Welding (TIG/MIG)</p>
+                        <p>Surface finishing (powder coating / polishing)</p>
+                        <p>Assembly & inspection</p>
                     </div>
                 </div>
                 
@@ -400,7 +400,7 @@
     <section id="mechanical" class="sec-padd-top sec-padd-bottom">
         <div class="container">
             <div class="section-title center mb-5">
-                <h2 class="fw-bold" style="color: #174268;">9. Mechanical Properties</h2>
+                <h2 class="fw-bold" style="color: #174268;">Mechanical Properties</h2>
             </div>
 
             <div class="row justify-content-center">
